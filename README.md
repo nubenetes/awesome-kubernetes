@@ -1,3 +1,12 @@
+<!-- TOC -->
+
+- [awesome-2018](#awesome-2018)
+    - [Jenkins](#jenkins)
+    - [Kubernetes](#kubernetes)
+    - [Git](#git)
+
+<!-- /TOC -->
+
 # awesome-2018
 A curated list of awesome references collected in 2018
 
