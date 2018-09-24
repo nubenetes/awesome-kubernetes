@@ -9,6 +9,7 @@ A curated list of awesome references collected in 2018
 - [Jenkins](#jenkins)
 - [Kubernetes](#kubernetes)
 - [Git](#git)
+- [Visual Studio](#visual-studio)
 
 <!-- /TOC -->
 
@@ -31,3 +32,6 @@ A curated list of awesome references collected in 2018
 * [dzone.com: 8 Useful But Not Well-Known Git Concepts. These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts)
 * [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
 * [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
+
+# Visual Studio
+* [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
