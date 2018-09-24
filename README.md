@@ -1,25 +1,27 @@
-<!-- TOC -->
-
-- [awesome-2018](#awesome-2018)
-    - [Jenkins](#jenkins)
-    - [Kubernetes](#kubernetes)
-    - [Git](#git)
-
-<!-- /TOC -->
-
 # awesome-2018
 A curated list of awesome references collected in 2018
 
-## Jenkins
+# Table of Contents
+<!-- TOC -->
+
+- [awesome-2018](#awesome-2018)
+- [Table of Contents](#table-of-contents)
+- [Jenkins](#jenkins)
+- [Kubernetes](#kubernetes)
+- [Git](#git)
+
+<!-- /TOC -->
+
+# Jenkins
 * [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
 * [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟🌟🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 * [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
 * [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
 
-## Kubernetes
+# Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
-## Git
+# Git
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
