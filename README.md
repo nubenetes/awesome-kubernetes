@@ -9,3 +9,8 @@ A curated list of awesome references collected in 2018
 
 ## Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+
+## Git
+* [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
+* [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
+* [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
