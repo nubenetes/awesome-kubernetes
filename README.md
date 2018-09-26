@@ -83,6 +83,7 @@ A curated list of awesome references collected in 2018
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
 * https://github.com/fabric8io/fabric8-pipeline-library
 * https://fabric8.io/
+* https://twitter.com/openshift 🌟
 
 # SonarQube
 * https://www.sonarqube.org/
@@ -108,6 +109,7 @@ A curated list of awesome references collected in 2018
 * [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
 * [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
 * [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
+* [Oh shit, git!](https://ohshitgit.com/)
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
