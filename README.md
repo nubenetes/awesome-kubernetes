@@ -9,6 +9,7 @@ A curated list of awesome references collected in 2018
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
 - [Kubernetes](#kubernetes)
+    - [Docker](#docker)
     - [Openshift Kubernetes](#openshift-kubernetes)
 - [SonarQube](#sonarqube)
 - [Nexus](#nexus)
@@ -21,6 +22,7 @@ A curated list of awesome references collected in 2018
 
 # CI/CD
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
+* [Awesome Continuous Integration and Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd)
 
 # Jenkins
 * [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
@@ -45,11 +47,15 @@ A curated list of awesome references collected in 2018
 
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+* [Awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
 * [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
 * [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
 * https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes
 * [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
+
+## Docker
+* [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
 
