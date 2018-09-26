@@ -6,18 +6,41 @@ A curated list of awesome references collected in 2018
 
 - [awesome-2018](#awesome-2018)
 - [Table of Contents](#table-of-contents)
+- [CI/CD](#cicd)
 - [Jenkins](#jenkins)
 - [Kubernetes](#kubernetes)
+- [SonarQube](#sonarqube)
+- [Nexus](#nexus)
+- [Maven](#maven)
 - [Git](#git)
 - [Visual Studio](#visual-studio)
+- [Java Performance Optimization](#java-performance-optimization)
 
 <!-- /TOC -->
 
+# CI/CD
+* [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
+
 # Jenkins
 * [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
+    * https://github.com/jenkinsci/configuration-as-code-plugin
+* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
 * [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟🌟🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 * [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
 * [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
+* [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
+* [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)
+* https://github.com/jenkinsci
+* https://github.com/jenkinsci/performance-plugin
+* https://github.com/geerlingguy/ansible-role-jenkins
+* https://github.com/sahilsk/awesome-jenkins
+* https://www.reddit.com/r/jenkinsci 🌟🌟
+* https://jenkins.io/doc/book/pipeline/jenkinsfile/ 🌟
+* [DZone refcard: declarative pipeline with jenkins 🌟🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
+* [Dzone refcard: Continuous Delivery with Jenkins Workflow](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
+* [Dzone refcard: Jenkins on PaaS. Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.](https://dzone.com/asset/download/230)
+* [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
+* [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
@@ -30,7 +53,27 @@ A curated list of awesome references collected in 2018
 * [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
 * [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
+* [redhat.com - How to gather and display metrics in Red Hat OpenShift](redhat.com - How to gather and display metrics in Red Hat OpenShift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
+* https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes
+* https://github.com/fabric8io/fabric8-pipeline-library
+* https://fabric8.io/
+* [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
+* [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
+* [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
+
+# SonarQube
+* https://www.sonarqube.org/
+* https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube
+
+# Nexus
+* https://www.sonarqube.org/
+* https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube
+
+# Maven
+* https://maven.apache.org/
+* https://dzone.com/articles/starting-with-apache-maven
+* https://dzone.com/articles/solving-dependency-conflicts-in-maven
 
 # Git
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
@@ -42,6 +85,11 @@ A curated list of awesome references collected in 2018
 * [dzone.com: 8 Useful But Not Well-Known Git Concepts. These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts)
 * [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
 * [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
+* [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
+
+# Java Performance Optimization
+* [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
+* [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
