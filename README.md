@@ -8,6 +8,7 @@ A curated list of awesome references collected in 2018
 - [Table of Contents](#table-of-contents)
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
+    - [Performance Testing with Jenkins and JMeter](#performance-testing-with-jenkins-and-jmeter)
 - [Kubernetes](#kubernetes)
     - [Docker](#docker)
     - [Openshift Kubernetes](#openshift-kubernetes)
@@ -44,6 +45,13 @@ A curated list of awesome references collected in 2018
 * [Dzone refcard: Jenkins on PaaS. Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.](https://dzone.com/asset/download/230)
 * [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
+
+## Performance Testing with Jenkins and JMeter
+* https://github.com/jenkinsci/performance-plugin
+* https://github.com/jenkinsci/performance-plugin
+* https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins 🌟
+* https://www.baeldung.com/jenkins-and-jmeter
+* https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins
 
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
