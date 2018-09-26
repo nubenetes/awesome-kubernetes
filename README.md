@@ -52,6 +52,7 @@ A curated list of awesome references collected in 2018
 * https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins 🌟
 * https://www.baeldung.com/jenkins-and-jmeter
 * https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins
+* https://www.guru99.com/jenkins-jmeter-blazemeter.html
 
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
