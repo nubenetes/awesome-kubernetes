@@ -93,7 +93,6 @@ A curated list of awesome references collected in 2018
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-* [OpenShift Extension for Visual Studio Code](https://github.com/dudash/openshift-vscode-extension)
 
 # Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
