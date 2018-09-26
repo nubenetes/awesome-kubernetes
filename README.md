@@ -19,6 +19,7 @@ A curated list of awesome references collected in 2018
 - [Visual Studio](#visual-studio)
 - [Java Performance Optimization](#java-performance-optimization)
 - [Terraform](#terraform)
+- [Ansible](#ansible)
 
 <!-- /TOC -->
 
@@ -120,3 +121,7 @@ A curated list of awesome references collected in 2018
 * https://github.com/shuaibiyy/awesome-terraform
 * https://github.com/Azure/awesome-terraform
 * https://github.com/ozbillwang/terraform-best-practices
+
+# Ansible
+* https://github.com/jdauphant/awesome-ansible
+* https://github.com/awesome-devops/awesome-ansible
