@@ -22,7 +22,8 @@ A curated list of awesome references collected in 2018
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
-* [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish 🌟🌟🌟](https://www.youtube.com/watch?v=ZkFIozGY0IA)
+* [Install RedHat OKD 3.10 on your development box. This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode. 🌟🌟🌟🌟](https://github.com/gshipley/installcentos)
+    * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish 🌟🌟🌟](https://www.youtube.com/watch?v=ZkFIozGY0IA)
 * [developers.redhat.com: **Red Hat Container Development Kit** 🌟🌟🌟](https://developers.redhat.com/products/cdk/overview/)
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
 * [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
