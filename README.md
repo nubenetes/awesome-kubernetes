@@ -55,6 +55,7 @@ A curated list of awesome references collected in 2018
 
 ## Openshift Kubernetes
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
+* [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
 * [Install RedHat OKD 3.10 on your development box. This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode. 🌟🌟🌟🌟](https://github.com/gshipley/installcentos)
     * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish 🌟🌟🌟](https://www.youtube.com/watch?v=ZkFIozGY0IA)
