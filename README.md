@@ -9,6 +9,7 @@ A curated list of awesome references collected in 2018
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
 - [Kubernetes](#kubernetes)
+    - [Openshift Kubernetes](#openshift-kubernetes)
 - [SonarQube](#sonarqube)
 - [Nexus](#nexus)
 - [Maven](#maven)
@@ -45,22 +46,25 @@ A curated list of awesome references collected in 2018
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
+* [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
+* [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
+* https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes
+* [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
+* [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
+* [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
+
+## Openshift Kubernetes
+* [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
+* [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
 * [Install RedHat OKD 3.10 on your development box. This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode. 🌟🌟🌟🌟](https://github.com/gshipley/installcentos)
     * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish 🌟🌟🌟](https://www.youtube.com/watch?v=ZkFIozGY0IA)
 * [developers.redhat.com: **Red Hat Container Development Kit** 🌟🌟🌟](https://developers.redhat.com/products/cdk/overview/)
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
-* [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
-* [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
 * [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
-* https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes
 * https://github.com/fabric8io/fabric8-pipeline-library
 * https://fabric8.io/
-* [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
-* [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
-* [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
-* [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
 
 # SonarQube
 * https://www.sonarqube.org/
@@ -89,6 +93,7 @@ A curated list of awesome references collected in 2018
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
+* [OpenShift Extension for Visual Studio Code](https://github.com/dudash/openshift-vscode-extension)
 
 # Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
