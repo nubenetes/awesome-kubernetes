@@ -18,6 +18,7 @@ A curated list of awesome references collected in 2018
 - [Git](#git)
 - [Visual Studio](#visual-studio)
 - [Java Performance Optimization](#java-performance-optimization)
+- [Terraform](#terraform)
 
 <!-- /TOC -->
 
@@ -113,3 +114,9 @@ A curated list of awesome references collected in 2018
 # Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
+
+# Terraform
+* https://www.terraform.io/
+* https://github.com/shuaibiyy/awesome-terraform
+* https://github.com/Azure/awesome-terraform
+* https://github.com/ozbillwang/terraform-best-practices
