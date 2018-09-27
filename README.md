@@ -42,6 +42,7 @@ A curated list of awesome references collected in 2018
 * [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟🌟🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 * [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
 * [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
+* [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) Use Jenkins the DevOps way. Automate your Jenkins jobs by using Jenkins Pipelines, Docker, and the Jenkins Job DSL
 * [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
 * [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)
 * https://github.com/jenkinsci
@@ -186,6 +187,7 @@ A curated list of awesome references collected in 2018
 * [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
 * [dzone: Terraform - IAC Tool](https://dzone.com/articles/terraform-iac-tool) See why Terraform's declarative approach to automation makes it a competitive tool for automating the creation of your infrastructure.
 * [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
+* [udemy.com: Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform/)
 
 # Ansible
 * https://github.com/jdauphant/awesome-ansible
@@ -195,6 +197,7 @@ A curated list of awesome references collected in 2018
 * [Dzone: Part 1: Getting Started with Ansible](https://dzone.com/articles/part-1-getting-started-ansible)
 * [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
+* [Udemy.com: Ansible Essentials: Simplicity in Automation](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
 
 # APIs and RESTful Architecture
 * API Documentation: https://devdocs.io/
