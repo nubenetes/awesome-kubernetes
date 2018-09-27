@@ -145,7 +145,7 @@ A curated list of awesome references collected in 2018
 * [dzone.com: intro git 🌟](https://dzone.com/articles/intro-git)
 * [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 * [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)
-* [dzone.com: 8 Useful But Not Well-Known Git Concepts. These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts)
+* [dzone.com: 8 Useful But Not Well-Known Git Concepts](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
 * [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
 * [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
 * [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
