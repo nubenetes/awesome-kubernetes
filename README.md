@@ -132,6 +132,7 @@ A curated list of awesome references collected in 2018
 # Git
 * https://devdocs.io/git/
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
+* [Git cheat sheet 🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
 * [dzone.com: intro git 🌟](https://dzone.com/articles/intro-git)
