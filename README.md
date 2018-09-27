@@ -31,6 +31,7 @@ A curated list of awesome references collected in 2018
 * [Awesome Continuous Integration and Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd)
 
 # Jenkins
+* https://jenkins.io/
 * [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
     * https://github.com/jenkinsci/configuration-as-code-plugin
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
