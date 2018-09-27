@@ -158,7 +158,7 @@ A curated list of awesome references collected in 2018
 
 # APIs and RESTful Architecture
 * API Documentation: https://devdocs.io/
-* [Dzone refcard: Foundations of RESTful Architecture](https://dzone.com/refcardz/rest-foundations-restful)
+* [Dzone refcard: Foundations of RESTful Architecture 🌟🌟](https://dzone.com/refcardz/rest-foundations-restful)
 
 ## Swagger code generator for REST APIs
 * https://swagger.io/
