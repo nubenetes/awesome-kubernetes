@@ -9,9 +9,12 @@ A curated list of awesome references collected in 2018
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
     - [Performance Testing with Jenkins and JMeter](#performance-testing-with-jenkins-and-jmeter)
+    - [Jenkins and Openshift](#jenkins-and-openshift)
 - [Kubernetes](#kubernetes)
     - [Docker](#docker)
     - [Openshift Kubernetes](#openshift-kubernetes)
+    - [Debugging java applications on openshift and kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
+    - [Troubleshooting openshift network performance](#troubleshooting-openshift-network-performance)
 - [SonarQube](#sonarqube)
 - [Nexus](#nexus)
 - [Maven](#maven)
@@ -56,6 +59,9 @@ A curated list of awesome references collected in 2018
 * https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins
 * https://www.guru99.com/jenkins-jmeter-blazemeter.html
 
+## Jenkins and Openshift
+* [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
+
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
@@ -74,8 +80,10 @@ A curated list of awesome references collected in 2018
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
-* [Install RedHat OKD 3.10 on your development box. This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode. 🌟🌟🌟🌟](https://github.com/gshipley/installcentos)
-    * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish 🌟🌟🌟](https://www.youtube.com/watch?v=ZkFIozGY0IA)
+* [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟🌟🌟🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
+    * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
+    * [Install RedHat OKD 3.10 on your development box. This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.](https://github.com/gshipley/installcentos)
+    * A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
 * [developers.redhat.com: **Red Hat Container Development Kit** 🌟🌟🌟](https://developers.redhat.com/products/cdk/overview/)
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
 * [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
@@ -84,6 +92,12 @@ A curated list of awesome references collected in 2018
 * https://github.com/fabric8io/fabric8-pipeline-library
 * https://fabric8.io/
 * https://twitter.com/openshift 🌟
+
+## Debugging java applications on openshift and kubernetes
+* [Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
+
+## Troubleshooting openshift network performance
+* [Troubleshooting OpenShift network performance with a netperf DaemonSet](https://blog.openshift.com/troubleshooting-openshift-network-performance-with-a-netperf-daemonset/)
 
 # SonarQube
 * https://www.sonarqube.org/
@@ -117,6 +131,9 @@ A curated list of awesome references collected in 2018
 # Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
+* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
+* [Scaling Java Containers 🌟🌟🌟🌟](https://blog.openshift.com/scaling-java-containers/)
+* [Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
 
 # Terraform
 * https://www.terraform.io/
