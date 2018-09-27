@@ -159,10 +159,18 @@ A curated list of awesome references collected in 2018
 * https://github.com/shuaibiyy/awesome-terraform
 * https://github.com/Azure/awesome-terraform
 * https://github.com/ozbillwang/terraform-best-practices
+* [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
+* [dzone: Terraform - IAC Tool](https://dzone.com/articles/terraform-iac-tool) See why Terraform's declarative approach to automation makes it a competitive tool for automating the creation of your infrastructure.
+* [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 
 # Ansible
 * https://github.com/jdauphant/awesome-ansible
 * https://github.com/awesome-devops/awesome-ansible
+* [Dzone: Ansible: An Effective IT Automation Tool](https://dzone.com/articles/ansible-an-effective-it-automation-tool) Learn about Ansible, a tool for automating application deployments, configuration management, and more in a DevOps environment.
+* [Dzone: Getting Started With Ansible](https://dzone.com/articles/getting-started-with-ansible)
+* [Dzone: Part 1: Getting Started with Ansible](https://dzone.com/articles/part-1-getting-started-ansible)
+* [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)
+* [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
 
 # APIs and RESTful Architecture
 * API Documentation: https://devdocs.io/
