@@ -23,7 +23,8 @@ A curated list of awesome references collected in 2018
 - [Visual Studio](#visual-studio)
 - [Terraform](#terraform)
 - [Ansible](#ansible)
-- [Swagger code generator for REST APIs](#swagger-code-generator-for-rest-apis)
+- [APIs](#apis)
+    - [Swagger code generator for REST APIs](#swagger-code-generator-for-rest-apis)
 
 <!-- /TOC -->
 
@@ -129,6 +130,7 @@ A curated list of awesome references collected in 2018
 * https://dzone.com/articles/solving-dependency-conflicts-in-maven
 
 # Git
+* https://devdocs.io/git/
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
@@ -154,6 +156,10 @@ A curated list of awesome references collected in 2018
 * https://github.com/jdauphant/awesome-ansible
 * https://github.com/awesome-devops/awesome-ansible
 
-# Swagger code generator for REST APIs
+# APIs
+* API Documentation: https://devdocs.io/
+
+## Swagger code generator for REST APIs
 * https://swagger.io/
 * https://github.com/swagger-api/swagger-codegen
+* [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ)
