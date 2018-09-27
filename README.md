@@ -138,6 +138,7 @@ A curated list of awesome references collected in 2018
 * [Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
 * [tutorialzine.com: Learn git in 30 minutes 🌟🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
 * [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)
+* [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 * [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
