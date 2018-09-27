@@ -52,6 +52,7 @@ A curated list of awesome references collected in 2018
 * [Dzone refcard: Continuous Delivery with Jenkins Workflow](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
 * [Dzone refcard: Jenkins on PaaS. Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.](https://dzone.com/asset/download/230)
 * [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
+* [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 
 ## Performance Testing with Jenkins and JMeter
@@ -132,8 +133,9 @@ A curated list of awesome references collected in 2018
 # Git
 * https://devdocs.io/git/
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
-* [Git cheat sheet 🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
+* [Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
 * [Learn git in 30 minutes 🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
+* [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
 * [dzone.com: intro git 🌟](https://dzone.com/articles/intro-git)
