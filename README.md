@@ -13,6 +13,7 @@ A curated list of awesome references collected in 2018
 - [Kubernetes](#kubernetes)
     - [Docker](#docker)
     - [Openshift Kubernetes](#openshift-kubernetes)
+    - [Java Performance Optimization](#java-performance-optimization)
     - [Debugging java applications on openshift and kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
     - [Troubleshooting openshift network performance](#troubleshooting-openshift-network-performance)
 - [SonarQube](#sonarqube)
@@ -20,7 +21,6 @@ A curated list of awesome references collected in 2018
 - [Maven](#maven)
 - [Git](#git)
 - [Visual Studio](#visual-studio)
-- [Java Performance Optimization](#java-performance-optimization)
 - [Terraform](#terraform)
 - [Ansible](#ansible)
 
@@ -93,6 +93,16 @@ A curated list of awesome references collected in 2018
 * https://fabric8.io/
 * https://twitter.com/openshift 🌟
 
+## Java Performance Optimization
+* [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
+* [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
+* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
+* [blog.openshift.com: Scaling Java Containers 🌟🌟🌟🌟](https://blog.openshift.com/scaling-java-containers/)
+* [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
+* [dzone.com: Java RAM Usage in Containers: Top 5 Tips for Not Losing Your Memory](https://dzone.com/articles/java-ram-usage-in-containers-top-5-tips-not-to-los)
+* [dzone.com: Running a JVM in a Container Without Getting Killed:](https://dzone.com/articles/running-a-jvm-in-a-container-without-getting-kille) Starting in JDK 9, and earlier if you use JDK 8u131, your JVM can detect how much memory is available when running inside a Docker container.
+* [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
+
 ## Debugging java applications on openshift and kubernetes
 * [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
 
@@ -127,13 +137,6 @@ A curated list of awesome references collected in 2018
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-
-# Java Performance Optimization
-* [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
-* [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
-* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
-* [blog.openshift.com: Scaling Java Containers 🌟🌟🌟🌟](https://blog.openshift.com/scaling-java-containers/)
-* [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
 
 # Terraform
 * https://www.terraform.io/
