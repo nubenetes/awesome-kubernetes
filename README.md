@@ -101,6 +101,7 @@ A curated list of awesome references collected in 2018
         chmod +x kops-linux-amd64
         sudo mv kops-linux-amd64 /usr/local/bin/kops
     ```
+* [Production Cluster Install Option 4: Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 20180), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 
 ## Docker
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
