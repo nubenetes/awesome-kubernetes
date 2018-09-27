@@ -23,6 +23,7 @@ A curated list of awesome references collected in 2018
 - [Visual Studio](#visual-studio)
 - [Terraform](#terraform)
 - [Ansible](#ansible)
+- [Swagger code generator for REST APIs](#swagger-code-generator-for-rest-apis)
 
 <!-- /TOC -->
 
@@ -152,3 +153,7 @@ A curated list of awesome references collected in 2018
 # Ansible
 * https://github.com/jdauphant/awesome-ansible
 * https://github.com/awesome-devops/awesome-ansible
+
+# Swagger code generator for REST APIs
+* https://swagger.io/
+* https://github.com/swagger-api/swagger-codegen
