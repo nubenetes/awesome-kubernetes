@@ -23,7 +23,7 @@ A curated list of awesome references collected in 2018
 - [Visual Studio](#visual-studio)
 - [Terraform](#terraform)
 - [Ansible](#ansible)
-- [APIs](#apis)
+- [APIs and RESTful Architecture](#apis-and-restful-architecture)
     - [Swagger code generator for REST APIs](#swagger-code-generator-for-rest-apis)
 
 <!-- /TOC -->
@@ -156,11 +156,13 @@ A curated list of awesome references collected in 2018
 * https://github.com/jdauphant/awesome-ansible
 * https://github.com/awesome-devops/awesome-ansible
 
-# APIs
+# APIs and RESTful Architecture
 * API Documentation: https://devdocs.io/
+* [Dzone refcard: Foundations of RESTful Architecture](https://dzone.com/refcardz/rest-foundations-restful)
 
 ## Swagger code generator for REST APIs
 * https://swagger.io/
 * https://github.com/swagger-api/swagger-codegen
+* [Dzone: API First Approach and API Management With Swagger](https://dzone.com/articles/api-first-approach-and-api-management-with-swagger) Looking for a new API management tool? Read on to see how one team faired while using Swagger's suite of API development tools.
 * [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ)
 * [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM)
