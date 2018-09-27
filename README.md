@@ -13,7 +13,7 @@ A curated list of awesome references collected in 2018
 - [Kubernetes](#kubernetes)
     - [Docker](#docker)
     - [Openshift Kubernetes](#openshift-kubernetes)
-    - [Java Performance Optimization](#java-performance-optimization)
+    - [Java and Java Performance Optimization](#java-and-java-performance-optimization)
     - [Debugging java applications on openshift and kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
     - [Troubleshooting openshift network performance](#troubleshooting-openshift-network-performance)
 - [SonarQube](#sonarqube)
@@ -73,6 +73,7 @@ A curated list of awesome references collected in 2018
 
 # Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+* [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
 * [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
@@ -125,8 +126,9 @@ A curated list of awesome references collected in 2018
 * https://github.com/fabric8io/fabric8-pipeline-library
 * https://fabric8.io/
 * https://twitter.com/openshift 🌟
+* [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 
-## Java Performance Optimization
+## Java and Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
@@ -137,6 +139,7 @@ A curated list of awesome references collected in 2018
 * [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
 * [medium.com/@javachampions : Java is still free](https://itnext.io/java-is-still-free-c02aef8c9e04)
 * [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
+* [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support/)
 
 ## Debugging java applications on openshift and kubernetes
 * [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
