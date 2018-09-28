@@ -136,6 +136,9 @@ A curated list of awesome references collected in 2018
 * [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
 * [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
+* [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
+* [Red Hat Consulting DevOps And OpenShift Playbooks 🌟🌟](http://v1.uncontained.io/) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
+    * [uncontained.io: OpenShift & Container Fundamentals](http://v1.uncontained.io/playbooks/fundamentals/) This OpenShift and container fundamentals guide is designed to provide you with resources to begin educating yourself on Container & PaaS technologies.
 
 ## Java and Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
