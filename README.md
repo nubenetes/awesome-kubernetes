@@ -53,7 +53,7 @@ A curated list of awesome references collected in 2018
 * https://jenkins.io/doc/book/pipeline/jenkinsfile/ 🌟
 * [DZone refcard: declarative pipeline with jenkins 🌟🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
 * [Dzone refcard: Continuous Delivery with Jenkins Workflow](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
-* [Dzone refcard: Jenkins on PaaS. Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.](https://dzone.com/asset/download/230)
+* [Dzone refcard: Jenkins on PaaS](https://dzone.com/asset/download/230) Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.
 * [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
