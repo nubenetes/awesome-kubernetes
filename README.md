@@ -31,6 +31,7 @@ A curated list of awesome references collected in 2018
 # CI/CD
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
 * [Awesome Continuous Integration and Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd)
+* [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers) Learning to Utilize DevOps with Servers and Tools
 
 # Jenkins
 * [Jenkins.io (new Jenkins 2.0 site)](https://jenkins.io/)
@@ -113,6 +114,7 @@ A curated list of awesome references collected in 2018
 * [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟🌟🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
 
 ## Openshift Kubernetes
+* [docs.openshift.com](https://docs.openshift.com/)
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
@@ -130,6 +132,9 @@ A curated list of awesome references collected in 2018
 * https://twitter.com/openshift 🌟
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 * [O'Reilly Free Book: DevOps with OpenShift 🌟🌟🌟](https://www.openshift.com/devops-with-openshift/)
+* [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
+* [github.com: Openshift cheat sheet](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
+* []()
 
 ## Java and Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
