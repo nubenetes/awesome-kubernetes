@@ -1,10 +1,10 @@
-# awesome-2018
+# awesome-2018: Jenkins CI/CD on Openshift Kubernetes
 A curated list of awesome references collected in 2018
 
 # Table of Contents
 <!-- TOC -->
 
-- [awesome-2018](#awesome-2018)
+- [awesome-2018: Jenkins CI/CD on Openshift Kubernetes](#awesome-2018-jenkins-cicd-on-openshift-kubernetes)
 - [Table of Contents](#table-of-contents)
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
