@@ -115,6 +115,7 @@ A curated list of awesome references collected in 2018
 * [Production Cluster Install Option 5: Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 
 ## Docker
+* https://en.wikipedia.org/wiki/Docker_(software)
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
