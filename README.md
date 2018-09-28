@@ -231,6 +231,7 @@ A curated list of awesome references collected in 2018
 * [Udemy.com: Ansible Essentials: Simplicity in Automation](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
 
 # Groovy
+* https://en.wikipedia.org/wiki/Apache_Groovy
 * [Dzone: Introduction to Groovy](https://dzone.com/articles/introduction-groovy)
 * [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy)
 
@@ -239,6 +240,7 @@ A curated list of awesome references collected in 2018
 * [Dzone refcard: Foundations of RESTful Architecture 🌟🌟](https://dzone.com/refcardz/rest-foundations-restful)
 
 ## Swagger code generator for REST APIs
+* https://en.wikipedia.org/wiki/Swagger_(software)
 * https://swagger.io/
 * https://github.com/swagger-api/swagger-codegen
 * [Dzone: API First Approach and API Management With Swagger](https://dzone.com/articles/api-first-approach-and-api-management-with-swagger) Looking for a new API management tool? Read on to see how one team faired while using Swagger's suite of API development tools.
