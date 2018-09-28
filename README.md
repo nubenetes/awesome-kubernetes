@@ -129,6 +129,7 @@ A curated list of awesome references collected in 2018
 * https://fabric8.io/
 * https://twitter.com/openshift 🌟
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
+* [O'Reilly Free Book: DevOps with OpenShift 🌟🌟🌟](https://www.openshift.com/devops-with-openshift/)
 
 ## Java and Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
