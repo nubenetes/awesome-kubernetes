@@ -96,7 +96,7 @@ A curated list of awesome references collected in 2018
         C:\ubuntu> vagrant init ubuntu/xenial64
         C:\ubuntu> vagrant up
         [...]
-        C:\ubuntu> vagrant ssh-config    
+        C:\ubuntu> vagrant ssh-config
         C:\ubuntu> vagrant ssh
     ```
     2) Runt kops installer:
