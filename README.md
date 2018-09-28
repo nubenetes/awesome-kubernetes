@@ -32,10 +32,14 @@ A curated list of awesome references collected in 2018
 
 # CI/CD
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
+* https://en.wikipedia.org/wiki/DevOps
+* https://en.wikipedia.org/wiki/Continuous_integration
+* https://en.wikipedia.org/wiki/Continuous_delivery
 * [Awesome Continuous Integration and Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd)
 * [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers) Learning to Utilize DevOps with Servers and Tools
 
 # Jenkins
+* https://en.wikipedia.org/wiki/Jenkins_(software)
 * [Jenkins.io (new Jenkins 2.0 site)](https://jenkins.io/)
 * [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
 * [dzone.com: Jenkins Pipeline - Software Delivery Made Easy](https://dzone.com/articles/jenkins-pipeline-software-delivery-made-easy) Jenkins 2.0 has focused on solving the problem for organizations wanting to continuously deliver software.
@@ -164,15 +168,17 @@ A curated list of awesome references collected in 2018
 * [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://blog.openshift.com/troubleshooting-openshift-network-performance-with-a-netperf-daemonset/)
 
 # SonarQube
+* https://en.wikipedia.org/wiki/SonarQube
 * https://www.sonarqube.org/
 * https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube
 
 # Nexus
-* https://www.sonarqube.org/
-* https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube
+* https://www.sonatype.com/nexus-repository-oss
+* [Nexus 3](https://help.sonatype.com/repomanager3)
 * [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
 
 # Maven
+* https://en.wikipedia.org/wiki/Apache_Maven
 * https://maven.apache.org/
 * https://dzone.com/articles/starting-with-apache-maven
 * https://dzone.com/articles/solving-dependency-conflicts-in-maven
@@ -203,6 +209,7 @@ A curated list of awesome references collected in 2018
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 
 # Terraform
+* https://en.wikipedia.org/wiki/Terraform_(software)
 * https://www.terraform.io/
 * https://github.com/shuaibiyy/awesome-terraform
 * https://github.com/Azure/awesome-terraform
