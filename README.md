@@ -109,6 +109,7 @@ A curated list of awesome references collected in 2018
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
+* [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟🌟🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
 
 ## Openshift Kubernetes
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
