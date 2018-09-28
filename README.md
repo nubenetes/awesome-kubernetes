@@ -167,6 +167,7 @@ A curated list of awesome references collected in 2018
 # Nexus
 * https://www.sonarqube.org/
 * https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube
+* [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
 
 # Maven
 * https://maven.apache.org/
