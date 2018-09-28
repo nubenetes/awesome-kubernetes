@@ -118,6 +118,7 @@ A curated list of awesome references collected in 2018
 * [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟🌟🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
 
 ## Openshift Kubernetes
+* https://en.wikipedia.org/wiki/OpenShift
 * [docs.openshift.com](https://docs.openshift.com/)
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
