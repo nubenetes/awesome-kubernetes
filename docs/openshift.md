@@ -1,4 +1,12 @@
-# Openshift Kubernetes
+<!-- TOC -->
+
+- [1. Openshift Kubernetes](#1-openshift-kubernetes)
+    - [Videos](#videos)
+    - [Slides](#slides)
+
+<!-- /TOC -->
+
+# 1. Openshift Kubernetes
 * https://en.wikipedia.org/wiki/OpenShift
 * [docs.openshift.com](https://docs.openshift.com/)
 * https://www.reddit.com/r/openshift 🌟🌟🌟
@@ -26,3 +34,12 @@
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [Red Hat Consulting DevOps And OpenShift Playbooks 🌟🌟🌟](http://v1.uncontained.io/) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
 * [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
+
+## Videos
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yFPYGeKwmpk?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
+
+## Slides
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qUTP0wDDEH9bVo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe>
+Red Hat OpenShift V3 Overview and Deep Dive from Greg Hoelzer
