@@ -1,9 +1,9 @@
 site_name: Awesome Jenkins Openshift
-site_url: https://awesome-jenkins-openshift.readthedocs.io
+site_url: https://awesome-kubernetes.readthedocs.io
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafevwork
 
-repo_url: https://github.com/inafevwork/awesome-jenkins-openshift
+repo_url: https://github.com/inafevwork/awesome-kubernetes
 
 theme: readthedocs
 extra_css:
