@@ -1,9 +1,29 @@
 # Awesome Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+## Kubernetes VS Openshift
+* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+
 **Table of Contents**
 
 1. [CI/CD](cicd.md)
 2. [Jenkins](jenkins.md)
-    - [Subchapter 😀](jenkins2.md)
-3. [Kubernetes](kubernetes.md)
-4. [Openshift 🌟🌟🌟](openshift.md)
+    - [Performance Testing with Jenkins and JMeter 😀](performance-testing-with-jenkins-and-jmeter.md)
+    - [Jenkins and Openshift](jenkins-and-openshift.md)
+- [Kubernetes VS Openshift](kubernetes-vs-openshift)
+- [Kubernetes](kubernetes.md)
+- [Docker](docker.md)
+- [Openshift Kubernetes 🌟🌟🌟](openshift.md)
+    - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
+    - [Debugging java applications on openshift and kubernetes.md](debugging-java-applications-on-openshift-and-kubernetes.md)
+    - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
+- [SonarQube](sonarqube.md)
+- [Nexus](nexus.md)
+- [Maven](maven.md)
+- [Git](git.md)
+- [Visual Studio](visual-studio.md)
+- [Terraform](terraform.md)
+- [Ansible](ansible.md)
+- [Groovy](groovy.md)
+- [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+    - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
+- [Public Cloud Solutions](public-cloud-solutions.md)
