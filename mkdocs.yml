@@ -24,7 +24,7 @@ pages:
 - Kubernetes : kubernetes.md
 - Openshift Kubernetes : openshift.md
 - Java and Java Performance Optimization: java-and-java-performance-optimization.md
-- Debugging java applications on openshift and kubernetes.md: debugging-java-applications-on-openshift-and-kubernetes.md
+- Debugging java applications on openshift and kubernetes: debugging-java-applications-on-openshift-and-kubernetes.md
 - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
 - SonarQube: sonarqube.md 
 - Nexus: nexus.md
