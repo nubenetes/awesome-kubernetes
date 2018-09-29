@@ -10,9 +10,10 @@ A curated list of awesome references collected in 2018
 - [Jenkins](#jenkins)
     - [Performance Testing with Jenkins and JMeter](#performance-testing-with-jenkins-and-jmeter)
     - [Jenkins and Openshift](#jenkins-and-openshift)
+- [Kubernetes VS Openshift](#kubernetes-vs-openshift)
 - [Kubernetes](#kubernetes)
-    - [Docker](#docker)
-    - [Openshift Kubernetes](#openshift-kubernetes)
+- [Docker](#docker)
+- [Openshift Kubernetes](#openshift-kubernetes)
     - [Java and Java Performance Optimization](#java-and-java-performance-optimization)
     - [Debugging java applications on openshift and kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
     - [Troubleshooting openshift network performance](#troubleshooting-openshift-network-performance)
@@ -78,11 +79,15 @@ A curated list of awesome references collected in 2018
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 * [slideshare.net: OPENSHIFT CONTAINER PLATFORM CI/CD Build & Deploy  🌟🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
 
+# Kubernetes VS Openshift
+* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+
 # Kubernetes
 * https://en.wikipedia.org/wiki/Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
+* https://www.reddit.com/r/kubernetes 🌟🌟🌟
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
 * [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
 * [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
@@ -114,18 +119,22 @@ A curated list of awesome references collected in 2018
     ```
 * [Production Cluster Install Option 4: Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [Production Cluster Install Option 5: Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+* [kubedex.com 🌟🌟🌟](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
+    * [kubedex.com: autoscaling 🌟](https://kubedex.com/autoscaling)
 
-## Docker
+# Docker
 * https://en.wikipedia.org/wiki/Docker_(software)
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
 * [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/cheat-sheets/containers/)
 * [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟🌟🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
+* [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 
-## Openshift Kubernetes
+# Openshift Kubernetes
 * https://en.wikipedia.org/wiki/OpenShift
 * [docs.openshift.com](https://docs.openshift.com/)
+* https://www.reddit.com/r/openshift 🌟🌟🌟
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
@@ -149,6 +158,7 @@ A curated list of awesome references collected in 2018
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [Red Hat Consulting DevOps And OpenShift Playbooks 🌟🌟🌟](http://v1.uncontained.io/) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
+* [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
 
 ## Java and Java Performance Optimization
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
