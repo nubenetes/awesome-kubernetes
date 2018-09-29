@@ -8,10 +8,9 @@ A curated list of awesome references collected in 2018.
 **Table of Contents**
 
 1. [CI/CD](cicd.md)
-2. [Jenkins](jenkins.md)
-    - [Performance Testing with Jenkins and JMeter 😀](performance-testing-with-jenkins-and-jmeter.md)
+2. [Jenkins 😀](jenkins.md)
+    - [Performance Testing with Jenkins and JMeter](performance-testing-with-jenkins-and-jmeter.md)
     - [Jenkins and Openshift](jenkins-and-openshift.md)
-- [Kubernetes VS Openshift](kubernetes-vs-openshift)
 - [Kubernetes](kubernetes.md)
 - [Docker](docker.md)
 - [Openshift Kubernetes 🌟🌟🌟](openshift.md)
