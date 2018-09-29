@@ -6,4 +6,4 @@
 2. [Jenkins](jenkins.md)
     - [Subchapter 😀](jenkins2.md)
 3. [Kubernetes](kubernetes.md)
-4. [Openshift 🌟🌟🌟](Openshift.md)
+4. [Openshift 🌟🌟🌟](openshift.md)
