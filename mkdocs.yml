@@ -37,6 +37,7 @@ pages:
 - APIs and RESTful Architecture: apis-and-restful-architecture.md
 - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
 - Public Cloud Solutions : public-cloud-solutions.md
+- About: about.md
 
 markdown_extensions:
     - toc:
