@@ -1,0 +1,30 @@
+site_name: Awesome Jenkins Openshift
+site_url: https://awesome-jenkins-openshift.readthedocs.io
+site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
+site_author: inafevwork
+
+repo_url: https://github.com/inafevwork/awesome-jenkins-openshift
+
+theme: readthedocs
+extra_css:
+- extra.css
+extra_javascript:
+- extra.js
+site_favicon: images/favicon.ico
+markdown_extensions:
+- smarty
+- sane_lists
+pages:
+- Home: index.md
+- CI/CD : high-quality-tech-resources.md
+- Jenkins : jenkins.md
+- Kubernetes : kubernetes.md
+- Openshift : openshift.md
+
+markdown_extensions:
+    - toc:
+        permalink: True
+    - admonition:
+
+copyright: Copyright &copy; 2017 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Community Linkedin Group)</a>, <a href="http://awesome-tech.readthedocs.org/about/">about</a>.
+google_analytics: ['', 'awesome jenkins openshift']
