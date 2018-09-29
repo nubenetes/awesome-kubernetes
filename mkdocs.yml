@@ -44,5 +44,5 @@ markdown_extensions:
         permalink: True
     - admonition:
 
-copyright: Copyright &copy; 2018 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Community Linkedin Group)</a>, <a href="http://awesome-kubernetes.readthedocs.org/about/">about</a>.
+copyright: Copyright &copy; 2018 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Community Linkedin Group)</a>, <a href="http://awesome-kubernetes.readthedocs.org/en/latest/about/">about</a>.
 google_analytics: ['', 'awesome kubernetes']
