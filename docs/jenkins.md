@@ -26,14 +26,4 @@
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 
-## Performance Testing with Jenkins and JMeter
-* https://github.com/jenkinsci/performance-plugin
-* https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins 🌟
-* https://www.baeldung.com/jenkins-and-jmeter
-* https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins
-* https://www.guru99.com/jenkins-jmeter-blazemeter.html
 
-## Jenkins and Openshift
-* [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
-* [slideshare.net: CI/CD with Openshift and Jenkins 🌟🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
-* [slideshare.net: OPENSHIFT CONTAINER PLATFORM CI/CD Build & Deploy  🌟🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)

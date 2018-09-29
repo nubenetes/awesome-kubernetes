@@ -1,1 +1,2 @@
 # Debugging java applications on openshift and kubernetes
+* [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
