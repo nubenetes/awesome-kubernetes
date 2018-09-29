@@ -4,6 +4,6 @@
 
 1. [CI/CD](cicd.md)
 2. [Jenkins](jenkins.md)
-    - [Newsfeeds like paper.li and Twitter resources 😀](twitter.md)
+    - [Subchapter 😀](jenkins2.md)
 3. [Kubernetes](kubernetes.md)
 4. [Openshift 🌟🌟🌟](Openshift.md)
