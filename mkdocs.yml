@@ -18,8 +18,25 @@ pages:
 - Home: index.md
 - CI/CD : cicd.md
 - Jenkins : jenkins.md
+- Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
+- Jenkins and Openshift : jenkins-and-openshift.md
+- Docker: docker.md
 - Kubernetes : kubernetes.md
-- Openshift : openshift.md
+- Openshift Kubernetes : openshift.md
+- Java and Java Performance Optimization: java-and-java-performance-optimization.md
+- Debugging java applications on openshift and kubernetes.md: debugging-java-applications-on-openshift-and-kubernetes.md
+- Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
+- SonarQube: sonarqube.md 
+- Nexus: nexus.md
+- Maven: maven.md 
+- Git: git.md
+- Visual Studio: visual-studio.md
+- Terraform: terraform.md
+- Ansible: ansible.md
+- Groovy: groovy.md
+- APIs and RESTful Architecture: apis-and-restful-architecture.md
+- Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+- Public Cloud Solutions : public-cloud-solutions.md
 
 markdown_extensions:
     - toc:
