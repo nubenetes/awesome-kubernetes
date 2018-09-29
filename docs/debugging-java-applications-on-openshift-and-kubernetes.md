@@ -1,0 +1,1 @@
+# Debugging java applications on openshift and kubernetes
