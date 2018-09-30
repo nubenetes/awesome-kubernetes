@@ -9,7 +9,8 @@
 # 1. Openshift Kubernetes
 * [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
 * [docs.openshift.com](https://docs.openshift.com/)
-* [https://www.reddit.com/r/openshift 🌟🌟🌟](https://www.reddit.com/r/openshift) 
+* [https://www.reddit.com/r/openshift 🌟🌟🌟](https://www.reddit.com/r/openshift)
+* [PodCTL Podcasts 🌟](https://blog.openshift.com/tag/podctl/)
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
