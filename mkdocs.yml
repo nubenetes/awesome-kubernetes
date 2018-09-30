@@ -14,9 +14,10 @@ site_favicon: images/favicon.ico
 markdown_extensions:
     - smarty
     - sane_lists
+    - fenced_code
+    - admonition
     - toc:
         permalink: True
-    - admonition
 pages:
 - Home: index.md
 - CI/CD : cicd.md
