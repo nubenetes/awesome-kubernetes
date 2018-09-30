@@ -1,5 +1,5 @@
 # Docker
-* https://en.wikipedia.org/wiki/Docker_(software)
+* [Wikipedia.org: Docker](https://en.wikipedia.org/wiki/Docker_(software))
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)

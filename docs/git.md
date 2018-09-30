@@ -1,6 +1,6 @@
 # Git
-* https://devdocs.io/git/
-* https://git-scm.com/book
+* [https://devdocs.io/git/](https://devdocs.io/git/)
+* [https://git-scm.com/book](https://git-scm.com/book)
 * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
 * [Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
 * [tutorialzine.com: Learn git in 30 minutes 🌟🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)

@@ -1,5 +1,5 @@
 # Jenkins
-* https://en.wikipedia.org/wiki/Jenkins_(software)
+* [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
 * [Jenkins.io (new Jenkins 2.0 site)](https://jenkins.io/)
 * [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
 * [dzone.com: Jenkins Pipeline - Software Delivery Made Easy](https://dzone.com/articles/jenkins-pipeline-software-delivery-made-easy) Jenkins 2.0 has focused on solving the problem for organizations wanting to continuously deliver software.
@@ -13,12 +13,12 @@
 * [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) Use Jenkins the DevOps way. Automate your Jenkins jobs by using Jenkins Pipelines, Docker, and the Jenkins Job DSL
 * [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
 * [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)
-* https://github.com/jenkinsci
-* https://github.com/jenkinsci/performance-plugin
-* https://github.com/geerlingguy/ansible-role-jenkins
-* https://github.com/sahilsk/awesome-jenkins
-* https://www.reddit.com/r/jenkinsci 🌟🌟
-* https://jenkins.io/doc/book/pipeline/jenkinsfile/ 🌟
+* [https://github.com/jenkinsci](https://github.com/jenkinsci)
+* [https://github.com/jenkinsci/performance-plugin](https://github.com/jenkinsci/performance-plugin)
+* [https://github.com/geerlingguy/ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins)
+* [https://github.com/sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins)
+* [https://www.reddit.com/r/jenkinsci 🌟🌟](https://www.reddit.com/r/jenkinsci) 
+* [https://jenkins.io/doc/book/pipeline/jenkinsfile/ 🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) 
 * [DZone refcard: declarative pipeline with jenkins 🌟🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
 * [Dzone refcard: Continuous Delivery with Jenkins Workflow](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
 * [Dzone refcard: Jenkins on PaaS](https://dzone.com/asset/download/230) Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.

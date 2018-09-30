@@ -7,7 +7,7 @@
 <!-- /TOC -->
 
 # 1. Openshift Kubernetes
-* https://en.wikipedia.org/wiki/OpenShift
+* [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
 * [docs.openshift.com](https://docs.openshift.com/)
 * https://www.reddit.com/r/openshift 🌟🌟🌟
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
@@ -22,9 +22,9 @@
 * [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
-* https://github.com/fabric8io/fabric8-pipeline-library
-* https://fabric8.io/
-* https://twitter.com/openshift 🌟
+* [https://fabric8.io/ 🌟🌟](https://fabric8.io/)
+* [https://github.com/fabric8io/fabric8-pipeline-library](https://github.com/fabric8io/fabric8-pipeline-library)
+* [https://twitter.com/openshift 🌟](https://twitter.com/openshift) 
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 * [O'Reilly Free Book: DevOps with OpenShift 🌟🌟🌟](https://www.openshift.com/devops-with-openshift/)
 * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)

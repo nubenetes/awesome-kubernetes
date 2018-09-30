@@ -1,9 +1,9 @@
 # Hashicorp Terraform
-* https://en.wikipedia.org/wiki/Terraform_(software)
-* https://www.terraform.io/
-* https://github.com/shuaibiyy/awesome-terraform
-* https://github.com/Azure/awesome-terraform
-* https://github.com/ozbillwang/terraform-best-practices
+* [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))
+* [https://www.terraform.io/](https://www.terraform.io/)
+* [https://github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
+* [https://github.com/Azure/awesome-terraform](https://github.com/Azure/awesome-terraform)
+* [https://github.com/ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices)
 * [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
 * [dzone: Terraform - IAC Tool](https://dzone.com/articles/terraform-iac-tool) See why Terraform's declarative approach to automation makes it a competitive tool for automating the creation of your infrastructure.
 * [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
