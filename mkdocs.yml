@@ -23,8 +23,8 @@ pages:
 - CI/CD : cicd.md
 - Jenkins : jenkins.md
 - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
-- Docker: docker.md
 - Jenkins and Openshift : jenkins-and-openshift.md
+- Docker: docker.md
 - Kubernetes : kubernetes.md
 - Openshift Kubernetes : openshift.md
 - Java and Java Performance Optimization: java-and-java-performance-optimization.md
