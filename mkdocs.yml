@@ -43,4 +43,4 @@ pages:
 - About: about.md
 
 copyright: Copyright &copy; 2018 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Community Linkedin Group)</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
-google_analytics: ['', 'awesome kubernetes']
+google_analytics: ['UA-126665400-1', 'awesome kubernetes']
