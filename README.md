@@ -1,16 +1,18 @@
 # awesome-kubernetes: Jenkins CI/CD on Openshift Kubernetes
-A curated list of awesome references collected in 2018
+A curated list of awesome references collected in 2018.
+
+Latest release can be reached at https://awesome-kubernetes.readthedocs.io
 
 # Table of Contents
 <!-- TOC -->
 
-- [awesome-2018: Jenkins CI/CD on Openshift Kubernetes](#awesome-2018-jenkins-cicd-on-openshift-kubernetes)
+- [awesome-kubernetes: Jenkins CI/CD on Openshift Kubernetes](#awesome-kubernetes-jenkins-cicd-on-openshift-kubernetes)
 - [Table of Contents](#table-of-contents)
+- [Introduction. Kubernetes VS Openshift](#introduction-kubernetes-vs-openshift)
 - [CI/CD](#cicd)
 - [Jenkins](#jenkins)
     - [Performance Testing with Jenkins and JMeter](#performance-testing-with-jenkins-and-jmeter)
     - [Jenkins and Openshift](#jenkins-and-openshift)
-- [Kubernetes VS Openshift](#kubernetes-vs-openshift)
 - [Kubernetes](#kubernetes)
 - [Docker](#docker)
 - [Openshift Kubernetes](#openshift-kubernetes)
@@ -30,6 +32,10 @@ A curated list of awesome references collected in 2018
 - [Public Cloud Solutions](#public-cloud-solutions)
 
 <!-- /TOC -->
+# Introduction. Kubernetes VS Openshift
+* [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
+* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+* [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 
 # CI/CD
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
@@ -78,9 +84,6 @@ A curated list of awesome references collected in 2018
 * [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 * [slideshare.net: OPENSHIFT CONTAINER PLATFORM CI/CD Build & Deploy  🌟🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
-
-# Kubernetes VS Openshift
-* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
 
 # Kubernetes
 * https://en.wikipedia.org/wiki/Kubernetes
