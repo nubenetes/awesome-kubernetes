@@ -17,7 +17,7 @@ A curated list of awesome references collected in 2018.
 4. [Kubernetes](kubernetes.md)
 5. [Openshift Kubernetes 🌟🌟🌟](openshift.md)
     - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
-    - [Debugging java applications on openshift and kubernetes.md](debugging-java-applications-on-openshift-and-kubernetes.md)
+    - [Debugging java applications on openshift and kubernetes](debugging-java-applications-on-openshift-and-kubernetes.md)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
 6. [SonarQube](sonarqube.md)
 7. [Nexus](nexus.md)
