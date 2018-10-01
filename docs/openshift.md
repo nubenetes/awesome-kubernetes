@@ -49,6 +49,8 @@
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yFPYGeKwmpk?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qaIROwHUm54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Slides
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qUTP0wDDEH9bVo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe>
