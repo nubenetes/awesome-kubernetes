@@ -88,7 +88,6 @@ Latest release can be reached at https://awesome-kubernetes.readthedocs.io
 # Kubernetes
 * https://en.wikipedia.org/wiki/Kubernetes
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
-* [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
 * https://www.reddit.com/r/kubernetes 🌟🌟🌟
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟🌟🌟](https://stackify.com/kubernetes-docker-deployments/)
