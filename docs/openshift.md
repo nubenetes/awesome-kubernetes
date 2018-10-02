@@ -13,18 +13,19 @@
 * [docs.openshift.com](https://docs.openshift.com/)
 * [https://github.com/openshift/origin 🌟🌟🌟](https://github.com/openshift/origin)
     * [Using Jenkins Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+* [https://hub.docker.com/u/openshift/](https://hub.docker.com/u/openshift/)
 * [https://www.reddit.com/r/openshift 🌟🌟🌟](https://www.reddit.com/r/openshift)
-* [PodCTL Podcasts 🌟](https://blog.openshift.com/tag/podctl/)
+* [PodCTL Podcasts](https://blog.openshift.com/tag/podctl/)
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 * [Dzone.com: OpenShift Quick Start: Build, Deployment, and Pipeline 🌟🌟🌟](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin) Automation is the key to microservices success. Learn how to use the OpenShift platform to implement a continuous build and deployment platform. 
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
-* [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
+* [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
 * [https://github.com/fabric8io/fabric8-pipeline-library](https://github.com/fabric8io/fabric8-pipeline-library)
-* [https://twitter.com/openshift 🌟](https://twitter.com/openshift) 
+* [https://twitter.com/openshift](https://twitter.com/openshift) 
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 * [O'Reilly Free Book: DevOps with OpenShift 🌟🌟🌟](https://www.openshift.com/devops-with-openshift/)
 * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
@@ -39,8 +40,8 @@
 
 
 ## Local Installers
-* [developers.redhat.com: **Red Hat Container Development Kit** 🌟🌟🌟](https://developers.redhat.com/products/cdk/overview/)
-* [Fabric8.io Development Platform 🌟🌟](https://fabric8.io/)
+* [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
+* [Fabric8.io Development Platform](https://fabric8.io/)
 * A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
 
 ## Cluster Installers
