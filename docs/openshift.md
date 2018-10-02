@@ -17,7 +17,8 @@
 * [PodCTL Podcasts 🌟](https://blog.openshift.com/tag/podctl/)
 * [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
-* [Dzone: OpenShift Quick Start 🌟🌟](https://dzone.com/articles/openshift-quick-start)
+* [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
+* [Dzone.com: OpenShift Quick Start: Build, Deployment, and Pipeline 🌟🌟🌟](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin) Automation is the key to microservices success. Learn how to use the OpenShift platform to implement a continuous build and deployment platform. 
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
 * [blog.openshift.com: Introducing Red Hat Quay 🌟](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
