@@ -3,7 +3,8 @@
 - [1. Openshift Kubernetes](#1-openshift-kubernetes)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
-    - [Demos](#demos)
+    - [Jenkins in Openshift](#jenkins-in-openshift)
+        - [Demos](#demos)
     - [Videos](#videos)
     - [Slides](#slides)
 
@@ -51,7 +52,10 @@
     * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 
-## Demos
+## Jenkins in Openshift
+* [docs.okd.io: Jenkins in Openshift](https://docs.okd.io/latest/using_images/other_images/jenkins.html) Openshift provides a container image for running Jenkins. This image provides a Jenkins server instance, which can be used to set up a basic flow for continuous testing, integration, and delivery.
+
+### Demos
 * [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [https://github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 
