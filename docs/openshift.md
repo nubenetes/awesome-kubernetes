@@ -3,6 +3,7 @@
 - [1. Openshift Kubernetes](#1-openshift-kubernetes)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
+    - [Demos](#demos)
     - [Videos](#videos)
     - [Slides](#slides)
 
@@ -49,6 +50,10 @@
 * [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟🌟🌟🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
     * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
+
+## Demos
+* [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+* [https://github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 
 ## Videos
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
