@@ -13,6 +13,7 @@
 * [docs.openshift.com](https://docs.openshift.com/)
 * [https://github.com/openshift/origin 🌟🌟🌟](https://github.com/openshift/origin)
     * [Using Jenkins Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+* [docs.openshift.com: OpenShift Pipeline Builds](https://docs.openshift.com/container-platform/3.10/dev_guide/dev_tutorials/openshift_pipeline.html)
 * [https://hub.docker.com/u/openshift/](https://hub.docker.com/u/openshift/)
 * [https://www.reddit.com/r/openshift 🌟🌟🌟](https://www.reddit.com/r/openshift)
 * [PodCTL Podcasts](https://blog.openshift.com/tag/podctl/)
