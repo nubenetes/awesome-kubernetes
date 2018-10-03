@@ -3,7 +3,8 @@
 - [1. Kubernetes](#1-kubernetes)
     - [1.1. Local Installers](#11-local-installers)
     - [1.2. Production Cluster Installers](#12-production-cluster-installers)
-    - [1.3. Videos](#13-videos)
+    - [1.3. Kubernetes Package Managers. Installing and managing Kubernetes applications](#13-kubernetes-package-managers-installing-and-managing-kubernetes-applications)
+    - [1.4. Videos](#14-videos)
 
 <!-- /TOC -->
 
@@ -22,7 +23,6 @@
     * [kubedex.com: autoscaling 🌟](https://kubedex.com/autoscaling)
 
 ## 1.1. Local Installers
-
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
 * [Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://store.docker.com/editions/community/docker-ce-desktop-windows) Currently only available in **Edge** edition.
 
@@ -57,7 +57,10 @@
 * [Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 
-## 1.3. Videos
+## 1.3. Kubernetes Package Managers. Installing and managing Kubernetes applications
+* [Helm, the Kubernetes Package Manager](https://github.com/helm/helm)
+
+## 1.4. Videos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
