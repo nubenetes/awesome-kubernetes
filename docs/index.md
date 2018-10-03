@@ -16,6 +16,7 @@ A curated list of awesome references collected in 2018.
 3. [Docker](docker.md)
 4. [Kubernetes](kubernetes.md)
 5. [Openshift Kubernetes 🌟🌟🌟](openshift.md)
+    - [List of Openshift Compliant Docker images](openshift-compliant-images.md)
     - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
     - [Debugging java applications on openshift and kubernetes](debugging-java-applications-on-openshift-and-kubernetes.md)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
