@@ -23,17 +23,17 @@ pages:
 - CI/CD : cicd.md
 - Jenkins : jenkins.md
 - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
-- Jenkins and Openshift : jenkins-and-openshift.md
+- Jenkins and Openshift. Demos : jenkins-and-openshift.md
 - Docker: docker.md
 - Kubernetes : kubernetes.md
 - Openshift Kubernetes : openshift.md
-- List of Openshift Compliant Docker images: openshift-compliant-images.md
+- List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
 - Java and Java Performance Optimization: java-and-java-performance-optimization.md
 - Debugging java applications on openshift and kubernetes: debugging-java-applications-on-openshift-and-kubernetes.md
 - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
-- SonarQube: sonarqube.md 
+- SonarQube: sonarqube.md
 - Nexus: nexus.md
-- Maven: maven.md 
+- Maven: maven.md
 - Git: git.md
 - Visual Studio: visual-studio.md
 - Terraform: terraform.md
