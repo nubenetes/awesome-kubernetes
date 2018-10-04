@@ -6,6 +6,7 @@
     - [Atlassian Confluence6](#atlassian-confluence6)
     - [Sonatype Nexus 3](#sonatype-nexus-3)
     - [Sonarqube](#sonarqube)
+    - [Rocket Chat](#rocket-chat)
 - [Kubernetes Package Managers. Installing and managing Kubernetes applications](#kubernetes-package-managers-installing-and-managing-kubernetes-applications)
 
 <!-- /TOC -->
@@ -25,6 +26,9 @@
 
 ## Sonarqube
 - [https://github.com/OpenShiftDemos/sonarqube-openshift-docker](https://github.com/OpenShiftDemos/sonarqube-openshift-docker)
+
+## Rocket Chat
+- [Deploying Rocket.Chat on OpenShift](https://rocket.chat/docs/installation/paas-deployments/openshift/)
 
 # Kubernetes Package Managers. Installing and managing Kubernetes applications
 * [Helm, the Kubernetes Package Manager](https://github.com/helm/helm)
