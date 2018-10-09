@@ -43,6 +43,11 @@
 * [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
 * [Fabric8.io Development Platform](https://fabric8.io/)
 * A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
+* [github.com/redhatdemocentral: OpenShift Container Platform Install Demo](https://github.com/redhatdemocentral/ocp-install-demo)
+    * [Dzone.com: Installing OpenShift Container Platform v3.5 in Minutes](https://dzone.com/articles/installing-openshift-container-platform-v35-in-min)
+    * [Dzone.com: Install OpenShift Container Platform 3.6 in Minutes](https://dzone.com/articles/cloud-happiness-install-openshift-container-platfo)
+    * [Dzone.com: How to Install New OpenShift Container Platform 3.7](https://dzone.com/articles/cloud-happiness-how-to-install-new-openshift-conta-2)
+    * [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
 
 ## Cluster Installers
 * [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟🌟🌟🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
@@ -55,6 +60,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yFPYGeKwmpk?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qaIROwHUm54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj0We91ec9Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Slides
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -5,6 +5,7 @@ A curated list of awesome references collected in 2018.
 ## Introduction. Kubernetes VS Openshift
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+* [Dzone.com: Kubernetes in 10 minutes: A Complete Guide](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 * [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 
 **Table of Contents**
