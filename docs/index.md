@@ -32,3 +32,4 @@ A curated list of awesome references collected in 2018.
 14. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
 15. [Public Cloud Solutions](public-cloud-solutions.md)
+16. [Linux Dev Environment](linux-dev-env.md)
