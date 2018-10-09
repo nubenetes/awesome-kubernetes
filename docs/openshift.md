@@ -43,7 +43,7 @@
 * [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
 * [Fabric8.io Development Platform](https://fabric8.io/)
 * A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
-* [github.com/redhatdemocentral: OpenShift Container Platform Install Demo](https://github.com/redhatdemocentral/ocp-install-demo)
+* [github.com/redhatdemocentral: OpenShift Container Platform Install Demo 🌟🌟](https://github.com/redhatdemocentral/ocp-install-demo)
     * [Dzone.com: Installing OpenShift Container Platform v3.5 in Minutes](https://dzone.com/articles/installing-openshift-container-platform-v35-in-min)
     * [Dzone.com: Install OpenShift Container Platform 3.6 in Minutes](https://dzone.com/articles/cloud-happiness-install-openshift-container-platfo)
     * [Dzone.com: How to Install New OpenShift Container Platform 3.7](https://dzone.com/articles/cloud-happiness-how-to-install-new-openshift-conta-2)
