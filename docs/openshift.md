@@ -38,6 +38,7 @@
 * [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [blog.openshift.com: Using OpenShift 3 on your local environment 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
+* [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
 
 ## Online Learning
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
