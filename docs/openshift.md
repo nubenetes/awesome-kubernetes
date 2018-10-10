@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Openshift Kubernetes](#openshift-kubernetes)
+    - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
     - [Videos](#videos)
@@ -21,7 +22,6 @@
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 * [Dzone.com: OpenShift Quick Start: Build, Deployment, and Pipeline 🌟🌟🌟](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin) Automation is the key to microservices success. Learn how to use the OpenShift platform to implement a continuous build and deployment platform. 
-* [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners 🌟🌟🌟🌟](https://www.udemy.com/red-hat-openshift)
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
@@ -38,6 +38,11 @@
 * [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [blog.openshift.com: Using OpenShift 3 on your local environment 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
+
+## Online Learning
+* [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
+* [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
+* [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟🌟🌟🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
 
 ## Local Installers
 * [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
