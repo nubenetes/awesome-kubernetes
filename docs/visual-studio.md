@@ -1,6 +1,7 @@
 # Visual Studio Code
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-* [Integrated Terminal. ](https://code.visualstudio.com/docs/editor/integrated-terminal)
+* [Integrated Terminal:](https://code.visualstudio.com/docs/editor/integrated-terminal)
+
     ```
     // Git Bash
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
