@@ -39,6 +39,7 @@
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [blog.openshift.com: Using OpenShift 3 on your local environment 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
 * [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
+* [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
 
 ## Online Learning
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
