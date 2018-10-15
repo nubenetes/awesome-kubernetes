@@ -8,6 +8,7 @@ A curated list of awesome references collected in 2018.
 * [Dzone.com: Kubernetes in 10 minutes: A Complete Guide](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 * [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 * [Dzone.com: Achieving CI and CD With Kubernetes 🌟🌟](https://dzone.com/articles/achieving-cicd-with-kubernetes)
+* [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)
 
 **Table of Contents**
 
