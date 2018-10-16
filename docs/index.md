@@ -11,6 +11,7 @@ A curated list of awesome references collected in 2018.
 
 ## Related
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
+* [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 
