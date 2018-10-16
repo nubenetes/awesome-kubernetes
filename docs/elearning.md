@@ -1,5 +1,6 @@
 # E-learning:
 * [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
+* [learn.openshift.com](https://learn.openshift.com/)
 * [Udemy.com](https://www.udemy.com/)
 * [Google Play: Learning Solution](https://play.google.com/store/apps/developer?id=Learning+Solution)
 * [Google Play: TomApp](https://play.google.com/store/apps/developer?id=TomApp)
