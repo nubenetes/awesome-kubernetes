@@ -59,3 +59,4 @@ A curated list of awesome references collected in 2018.
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
 15. [Public Cloud Solutions](public-cloud-solutions.md)
 16. [Linux Dev Environment](linux-dev-env.md)
+17. [E-Learning](elearning.md)
