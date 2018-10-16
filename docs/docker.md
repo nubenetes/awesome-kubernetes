@@ -12,7 +12,6 @@
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
 * [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [Google Play: Learning Solution - Learn Docker 🌟🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&hl=en)
-* [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials](https://play.google.com/store/apps/details?id=io.sundeep.android)
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 
