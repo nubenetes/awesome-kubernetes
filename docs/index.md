@@ -14,6 +14,26 @@ A curated list of awesome references collected in 2018.
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 
+## E-learning:
+* [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
+* [Udemy.com](https://www.udemy.com/)
+* [Google Play: Learning Solution](https://play.google.com/store/apps/developer?id=Learning+Solution)
+* [Google Play: TomApp](https://play.google.com/store/apps/developer?id=TomApp)
+* [Lynda.com Linkedin Learning](https://www.lynda.com/)
+* [edx.org](https://www.edx.org/)
+* [Coursera.org](https://www.coursera.org)
+* [codecademy.com](https://www.codecademy.com/)
+* [Udacity.com](https://eu.udacity.com/)
+* [guru99.com](https://www.guru99.com/)
+* [tutorialspoint.com](http://www.tutorialspoint.com/)
+* [typing.io: Typing Practice for Programmers](https://typing.io/)
+* [vogella.com](http://www.vogella.com/tutorials/)
+* [The Linux Foundation Training](https://training.linuxfoundation.org/resources/)
+* [khanacademy.org](https://www.khanacademy.org/)
+* [codely.tv](https://codely.tv/)
+* [ine.com](https://ine.com/)
+* [GCF LearnFree.org](https://edu.gcfglobal.org/en/)
+
 **Table of Contents**
 
 1. [CI/CD](cicd.md)
