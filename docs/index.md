@@ -14,7 +14,7 @@ A curated list of awesome references collected in 2018.
 * [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
-* [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials](https://play.google.com/store/apps/details?id=io.sundeep.android)
+* [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials 🌟🌟](https://play.google.com/store/apps/details?id=io.sundeep.android)
 
 **Table of Contents**
 
