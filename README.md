@@ -1,4 +1,4 @@
-# awesome-kubernetes: Jenkins CI/CD on Openshift Kubernetes
+# awesome-kubernetes: Jenkins CI/CD and microservices on Openshift Kubernetes
 A curated list of awesome references collected in 2018.
 
 Latest release can be reached at https://awesome-kubernetes.readthedocs.io
@@ -36,6 +36,8 @@ Latest release can be reached at https://awesome-kubernetes.readthedocs.io
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
 * [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
+* [thestack.com: OpenShift in a world of KaaS](https://thestack.com/cloud/2018/10/18/openshift-in-a-world-of-kaas/)
+* [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 
 # CI/CD
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
