@@ -1,4 +1,4 @@
-# awesome-kubernetes: Jenkins CI/CD and microservices on Openshift Kubernetes
+# awesome-kubernetes: CI/CD for Microservices with Openshift and Jenkins
 A curated list of awesome references collected in 2018.
 
 Latest release can be reached at https://awesome-kubernetes.readthedocs.io
