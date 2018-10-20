@@ -24,6 +24,12 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [Red Hat OpenShift Container Platform Takes Digital Innovation into the Fast Lane with Major European Automaker](https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker)
 * [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus/)
 
+## Newsfeeds
+* [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
+* [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
+* [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
+* [feedly.com](https://feedly.com)
+
 **Table of Contents**
 
 1. [CI/CD](cicd.md)
