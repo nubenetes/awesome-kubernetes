@@ -1,6 +1,7 @@
-# Awesome Kubernetes: Jenkins CI/CD and microservices on Openshift [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Kubernetes: Microservices with Openshift [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome references collected in 2018.
+Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
 
 ## Introduction. Kubernetes VS Openshift
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
