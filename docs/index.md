@@ -1,4 +1,4 @@
-# Awesome Kubernetes: Jenkins CI/CD on Openshift Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Kubernetes: Jenkins CI/CD and microservices on Openshift [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome references collected in 2018.
 
@@ -9,6 +9,8 @@ A curated list of awesome references collected in 2018.
 * [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
 * [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)
 * [nextplatform.com: red hat flexes coreos muscle in openshift kubernetes platform](https://www.nextplatform.com/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/)
+* [thestack.com: OpenShift in a world of KaaS](https://thestack.com/cloud/2018/10/18/openshift-in-a-world-of-kaas/)
+* [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 
 ## Related
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
@@ -16,6 +18,10 @@ A curated list of awesome references collected in 2018.
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials 🌟🌟](https://play.google.com/store/apps/details?id=io.sundeep.android)
+
+## Customer Success Stories
+* [Red Hat OpenShift Container Platform Takes Digital Innovation into the Fast Lane with Major European Automaker](https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker)
+* [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus/)
 
 **Table of Contents**
 
