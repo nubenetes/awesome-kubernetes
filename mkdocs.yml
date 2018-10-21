@@ -46,6 +46,7 @@ pages:
 - Linux Dev Environment: linux-dev-env.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
+- Newsfeeds : newsfeeds.md
 - About: about.md
 
 copyright: Copyright &copy; 2018 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Community Linkedin Group)</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
