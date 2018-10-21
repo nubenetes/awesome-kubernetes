@@ -55,4 +55,4 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 15. [Public Cloud Solutions](public-cloud-solutions.md)
 16. [Linux Dev Environment](linux-dev-env.md)
 17. [E-Learning](elearning.md)
-18. [Customer Success Stories](customer.md)
+18. [Customer Success Stories 🌟](customer.md)
