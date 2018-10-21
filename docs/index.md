@@ -3,7 +3,7 @@
 A curated list of awesome references collected in 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
 
-# Table of Contents
+## Table of Contents
 
 1. [Introduction. Openshift VS Kubernetes](introduction.md)
 2. [CI/CD](cicd.md)
