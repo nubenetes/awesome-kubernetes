@@ -22,12 +22,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 
-## Newsfeeds
-* [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
-* [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
-* [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
-* [feedly.com](https://feedly.com)
-
 **Table of Contents**
 
 1. [CI/CD](cicd.md)
@@ -56,3 +50,4 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 16. [Linux Dev Environment](linux-dev-env.md)
 17. [E-Learning](elearning.md)
 18. [Customer Success Stories 🌟](customer.md)
+19. [Newsfeeds](newsfeeds.md)
