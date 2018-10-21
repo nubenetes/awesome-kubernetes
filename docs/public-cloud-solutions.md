@@ -3,7 +3,7 @@
   * [reddit.com/r/digitalocean](https://www.reddit.com/r/digitalocean) Official Digital Oceann subreddit
   * [reddit.com/r/digital_ocean](https://www.reddit.com/r/digital_ocean/) An unofficial subreddit created by Reddit users who happen to be DO users.
 * [Digital Ocean pricing](https://www.digitalocean.com/pricing/)
-  * [reddit.com/r/aws: AWS Support now officially on Reddit (Account & Billing questions)](https://www.reddit.com/r/aws) 
+  * [reddit.com/r/aws](https://www.reddit.com/r/aws) AWS Support now officially on Reddit (Account & Billing questions)
 * [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing/)
   * [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
