@@ -20,6 +20,7 @@ markdown_extensions:
         permalink: True
 pages:
 - Home: index.md
+- Introduction. Openshift VS Kubernetes: introduction.md
 - CI/CD : cicd.md
 - Jenkins : jenkins.md
 - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
