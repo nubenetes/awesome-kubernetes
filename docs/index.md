@@ -30,6 +30,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 
 ## Table of Contents
 
+0. [Introduction. Openshift VS Kubernetes](introduction.md)
 1. [CI/CD](cicd.md)
 2. [Jenkins 😀](jenkins.md)
     - [Performance Testing with Jenkins and JMeter](performance-testing-with-jenkins-and-jmeter.md)
