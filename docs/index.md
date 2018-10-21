@@ -12,6 +12,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [nextplatform.com: red hat flexes coreos muscle in openshift kubernetes platform](https://www.nextplatform.com/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/)
 * [thestack.com: OpenShift in a world of KaaS](https://thestack.com/cloud/2018/10/18/openshift-in-a-world-of-kaas/)
 * [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
+* [medium.com: The Differences Between Kubernetes and Openshift](https://medium.com/levvel-consulting/the-differences-between-kubernetes-and-openshift-ae778059a90e)
+* [blog.netsil.com: Kubernetes vs Openshift vs Tectonic: Comparing Enterprise Options](https://blog.netsil.com/kubernetes-vs-openshift-vs-tectonic-comparing-enterprise-options-e3a34dc60519)
 
 ## Related
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
