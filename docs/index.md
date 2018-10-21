@@ -34,7 +34,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [List of Openshift Compliant Docker images. Demos](openshift-compliant-images.md)
     - [Monitoring and Performance](monitoring.md)
     - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
-    - [Debugging java applications on openshift and kubernetes](debugging-java-applications-on-openshift-and-kubernetes.md)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
 6. [SonarQube](sonarqube.md)
 7. [Nexus](nexus.md)
