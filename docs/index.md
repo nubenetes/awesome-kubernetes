@@ -14,6 +14,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
 
 ## Related
+* [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
+* [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
+* [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
 * [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
