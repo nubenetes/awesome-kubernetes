@@ -1,0 +1,24 @@
+# Introduction. Openshift VS Kubernetes
+* [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
+* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟🌟🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+* [Dzone.com: Kubernetes in 10 minutes: A Complete Guide](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
+* [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
+* [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)
+* [nextplatform.com: red hat flexes coreos muscle in openshift kubernetes platform](https://www.nextplatform.com/2018/10/15/red-hat-flexes-coreos-muscle-in-openshift-kubernetes-platform/)
+* [thestack.com: OpenShift in a world of KaaS](https://thestack.com/cloud/2018/10/18/openshift-in-a-world-of-kaas/)
+* [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
+* [medium.com: The Differences Between Kubernetes and Openshift](https://medium.com/levvel-consulting/the-differences-between-kubernetes-and-openshift-ae778059a90e)
+* [blog.netsil.com: Kubernetes vs Openshift vs Tectonic: Comparing Enterprise Options](https://blog.netsil.com/kubernetes-vs-openshift-vs-tectonic-comparing-enterprise-options-e3a34dc60519)
+
+[![Openshift VS Kubernetes](images/openshift_vs_kubernetes.jpeg)](https://www.linkedin.com/feed/update/urn:li:activity:6459657167300583424)
+
+## Related
+* [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
+* [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
+* [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+* [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
+* [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
+* [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
+* [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
+* [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials 🌟🌟](https://play.google.com/store/apps/details?id=io.sundeep.android)
+* [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
