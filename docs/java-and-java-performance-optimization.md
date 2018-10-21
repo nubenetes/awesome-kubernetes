@@ -1,4 +1,5 @@
 # Java and java performance optimization
+* [reddit.com/r/java](https://www.reddit.com/r/java)
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
 * [blog.openshift.com: Scaling Java Containers 🌟🌟🌟🌟](https://blog.openshift.com/scaling-java-containers/)
@@ -9,6 +10,7 @@
 * [medium.com/@javachampions : Java is still free](https://itnext.io/java-is-still-free-c02aef8c9e04)
 * [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
 * [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support/)
+* [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)
 
 ## Debugging java applications on openshift and kubernetes
 * [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
