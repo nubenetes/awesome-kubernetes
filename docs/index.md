@@ -22,12 +22,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 
-## Customer Success Stories
-* [Red Hat OpenShift Container Platform Takes Digital Innovation into the Fast Lane with Major European Automaker](https://www.redhat.com/es/about/press-releases/red-hat-openshift-container-platform-takes-digital-innovation-fast-lane-major-european-automaker)
-* [BMW takes digital innovation into the fast lane with Red Hat Openshift Container Platform](https://www.linkedin.com/pulse/bmw-takes-digital-innovation-fast-lane-red-hat-openshift-mendus/)
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/opSQSmEIKpRq4K" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JensKassert/containertechnologie-als-schlssel-zur-digitalisierung-in-der-automobilindustrie" title="CONTAINER-TECHNOLOGIE ALS SCHLÜSSEL ZUR DIGITALISIERUNG IN DER AUTOMOBILINDUSTRIE" target="_blank">CONTAINER-TECHNOLOGIE ALS SCHLÜSSEL ZUR DIGITALISIERUNG IN DER AUTOMOBILINDUSTRIE</a> </strong> from <strong><a href="https://www.slideshare.net/JensKassert" target="_blank">Jens Kassert</a></strong> </div>
-
 ## Newsfeeds
 * [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
 * [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
@@ -61,3 +55,4 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 15. [Public Cloud Solutions](public-cloud-solutions.md)
 16. [Linux Dev Environment](linux-dev-env.md)
 17. [E-Learning](elearning.md)
+18. [Customer Success Stories](customer.md)
