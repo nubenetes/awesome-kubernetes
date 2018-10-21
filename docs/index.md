@@ -22,7 +22,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials 🌟🌟](https://play.google.com/store/apps/details?id=io.sundeep.android)
-* [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 
 ## Table of Contents
