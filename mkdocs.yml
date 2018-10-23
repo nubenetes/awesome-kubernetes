@@ -27,7 +27,7 @@ pages:
 - Jenkins and Openshift. Demos : jenkins-and-openshift.md
 - Docker: docker.md
 - Kubernetes : kubernetes.md
-- Openshift Kubernetes : openshift.md
+- Openshift : openshift.md
 - List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
 - Monitoring and Performance : monitoring.md
 - Java and Java Performance Optimization: java-and-java-performance-optimization.md
