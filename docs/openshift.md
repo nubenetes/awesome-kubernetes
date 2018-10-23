@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Openshift Kubernetes](#openshift-kubernetes)
+    - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
@@ -28,7 +29,6 @@
 * [https://github.com/fabric8io/fabric8-pipeline-library](https://github.com/fabric8io/fabric8-pipeline-library)
 * [https://twitter.com/openshift](https://twitter.com/openshift) 
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
-* [O'Reilly Free Book: DevOps with OpenShift 🌟🌟🌟](https://www.openshift.com/devops-with-openshift/)
 * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
 * [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
 * [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
@@ -42,6 +42,12 @@
 * [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
 * [OpenShift Commons 🌟](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
 * [ODO: OpenShift Command line for Developers 🌟🌟🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
+
+## E-books
+* [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
+* [O'Reilly Free Book: Openshift for developers](https://www.openshift.com/for-developers/)
+* [Manning: Openshift in action](https://www.manning.com/books/openshift-in-action)
+* [Packt publishing: Learn Openshift](https://www.packtpub.com/application-development/learn-openshift)
 
 ## Online Learning
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
