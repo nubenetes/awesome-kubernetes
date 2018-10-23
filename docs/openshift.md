@@ -10,7 +10,7 @@
 
 <!-- /TOC -->
 
-# Openshift Kubernetes
+# Openshift
 * [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
 * [docs.openshift.com](https://docs.openshift.com/)
 * [https://github.com/openshift/origin 🌟🌟🌟](https://github.com/openshift/origin)
