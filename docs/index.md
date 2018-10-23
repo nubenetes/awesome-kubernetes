@@ -12,7 +12,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
 4. [Docker](docker.md)
 5. [Kubernetes](kubernetes.md)
-6. [Openshift Kubernetes 🌟🌟🌟](openshift.md)
+6. [Openshift 🌟🌟🌟](openshift.md)
     - [List of Openshift Compliant Docker images. Demos](openshift-compliant-images.md)
     - [Monitoring and Performance](monitoring.md)
     - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
