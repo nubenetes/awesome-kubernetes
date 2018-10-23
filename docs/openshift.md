@@ -1,6 +1,6 @@
 <!-- TOC -->
 
-- [Openshift Kubernetes](#openshift-kubernetes)
+- [Openshift](#openshift)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
