@@ -1,6 +1,8 @@
 # Public Cloud Solutions
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
+* [OpenShift in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-get-started)
+    * [Openshift on Azure](https://azure.microsoft.com/en-us/blog/openshift-on-azure-the-easiest-fully-managed-openshift-in-the-cloud/)
 
 ## Kubernetes as a Service
 * [Pivotal.io: Pivotal Container Service](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
