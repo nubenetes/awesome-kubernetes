@@ -36,6 +36,8 @@ pages:
 - Maven: maven.md
 - SonarQube: sonarqube.md
 - Nexus: nexus.md
+- HAProxy : haproxy.md
+- Payara : payara.md
 - Terraform: terraform.md
 - Ansible: ansible.md
 - Git: git.md
