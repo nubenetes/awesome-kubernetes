@@ -25,5 +25,5 @@
 * [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
-
+* [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
 
