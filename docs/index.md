@@ -30,6 +30,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 9. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
+    - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
 10. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
