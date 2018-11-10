@@ -3,7 +3,6 @@
 <div class="container">
 <a href="http://www.formacioitreball.org">
 <img alt="Utopia Eduardo Galeano" src="images/utopia_eduardo_galeano.png">
-<div id="player"></div>
 </div>
 
 <div class="container">
