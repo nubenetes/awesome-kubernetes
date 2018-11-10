@@ -4,7 +4,7 @@ A curated list of awesome references collected in 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
 
 <center>
-[![container_with_cars](images/container_with_cars.jpg)]
+![container_with_cars](images/container_with_cars.jpg)
 </center>
 
 ## Table of Contents
