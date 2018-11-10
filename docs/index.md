@@ -1,7 +1,4 @@
-# Awesome Kubernetes: CI/CD for Microservices with Openshift and Jenkins (Software Delivery Pipeline) 
-<center>
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-</center>
+# Awesome Kubernetes: CI/CD for Microservices with Openshift and Jenkins (Software Delivery Pipeline) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <div class="container">
 <img alt="Container with cars" src="images/container_with_cars.png">
