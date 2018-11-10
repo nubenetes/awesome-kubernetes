@@ -6,9 +6,9 @@
 A curated list of awesome references collected in 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
 
-<center>
-![container_with_cars](images/container_with_cars.png)
-</center>
+<div class="container">
+<img alt="Container with cars" src="images/container_with_cars.png">
+</div>
 
 ## Table of Contents
 
