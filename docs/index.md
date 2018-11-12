@@ -1,6 +1,7 @@
 # Awesome Kubernetes: CI/CD for Microservices with Openshift and Jenkins (Software Delivery Pipeline) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <img alt="Container with cars" src="images/container_with_cars.png"> 
+<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
 
 A curated list of awesome references collected in 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
