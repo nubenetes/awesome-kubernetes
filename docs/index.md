@@ -2,7 +2,7 @@
 
 <div class="container">
 <!-- <img alt="Container with cars" src="images/container_with_cars.png"> -->
-<A HREF="images/container_with_cars.png"><IMG HEIGHT=50 WIDTH=50 SRC="images/container_with_cars.png"></A>
+<A HREF="images/container_with_cars.png"><IMG SRC="images/container_with_cars.png"></A>
 </div>
 
 A curated list of awesome references collected in 2018.
