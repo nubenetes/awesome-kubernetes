@@ -12,12 +12,12 @@ extra_javascript:
 - extra.js
 site_favicon: images/favicon.ico
 markdown_extensions:
-    - smarty
-    - sane_lists
-    - fenced_code
-    - admonition
-    - toc:
-        permalink: True
+- smarty
+- sane_lists
+- fenced_code
+- admonition
+- toc:
+    permalink: True
 pages:
 - Home: index.md
 - Introduction. Openshift VS Kubernetes: introduction.md
