@@ -1,7 +1,8 @@
 # Awesome Kubernetes: CI/CD for Microservices with Openshift and Jenkins (Software Delivery Pipeline) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <div class="container">
-<img alt="Container with cars" src="images/container_with_cars.png">
+<!-- <img alt="Container with cars" src="images/container_with_cars.png"> -->
+<A HREF="images/container_with_cars.png"><IMG HEIGHT=50 WIDTH=50 SRC="images/container_with_cars.png"></A>
 </div>
 
 A curated list of awesome references collected in 2018.
