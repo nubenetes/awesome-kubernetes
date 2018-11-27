@@ -3,7 +3,6 @@
 <img alt="Container with cars" src="images/container_with_cars.png"> 
 <head>
 <meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
-<div id="player"></div>
 </head>
 A curated list of awesome references collected in 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
@@ -15,7 +14,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 |:---:|:---:|
 
 </center>
-
+<div id="player"></div>
 ## Table of Contents
 
 1. [Introduction. Openshift VS Kubernetes](introduction.md)
