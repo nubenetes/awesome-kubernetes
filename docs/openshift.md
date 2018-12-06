@@ -71,7 +71,6 @@
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 
 ## Videos
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/qaIROwHUm54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -85,6 +84,4 @@
 <iframe src="https://www.youtube.com/embed/_zDDAwLctUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Slides
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qUTP0wDDEH9bVo" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe>
-Red Hat OpenShift V3 Overview and Deep Dive from Greg Hoelzer
