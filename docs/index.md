@@ -60,3 +60,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 </br>
 
 </center>
+<center>
+<iframe src="https://www.youtube.com/embed/BBrBOMTzWDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
