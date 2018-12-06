@@ -52,7 +52,11 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 14. [Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental -->
+<center>
+    
 <div class="container">
 <iframe src="https://www.youtube.com/embed/tentcmxz3Bo?start=633&end=654" frameborder="0" allowfullscreen class="video"></iframe>	
 </div>
 </br>
+
+</center>
