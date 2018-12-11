@@ -59,4 +59,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 </div>
 </br>
 -->
+<center>
 [![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
+</center>
