@@ -222,6 +222,8 @@ Latest release can be reached at https://awesome-kubernetes.readthedocs.io
 * [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
 * [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
 * [Oh shit, git!](https://ohshitgit.com/)
+* [How to Get More Out of Your Git Commit Message](https://datree.io/blog/git-commit-message-conventions-for-readable-git-log/)
+* [10 useful Git commands you wish existed – and their alternatives](https://datree.io/blog/useful-git-commands-list/)
 
 # Visual Studio
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
