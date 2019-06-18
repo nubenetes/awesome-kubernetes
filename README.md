@@ -3,6 +3,8 @@ A curated list of awesome references collected in 2018.
 
 Latest release can be reached at https://awesome-kubernetes.readthedocs.io
 
+This repo is deprecated and has been moved to https://github.com/inafev/awesome-kubernetes
+
 # Table of Contents
 <!-- TOC -->
 
