@@ -1,6 +1,6 @@
 <!-- TOC -->
 
-- [1. Kubernetes](#kubernetes)
+- [Kubernetes](#kubernetes)
     - [Local Installers](#local-installers)
     - [Production Cluster Installers](#production-cluster-installers)
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
