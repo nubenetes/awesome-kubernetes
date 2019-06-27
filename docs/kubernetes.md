@@ -77,11 +77,11 @@
 * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 
 ## Helm and Kubernetes
-* [Helm and Kubernetes Tutorial - Introduction](https://lnkd.in/ezg8ceY)
-* [Delve into Helm: Advanced DevOps](https://lnkd.in/eQTR3Rc)
-* [Continuously delivering apps to Kubernetes using Helm](https://lnkd.in/emuqibn)
-* [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://lnkd.in/ehRVGTN)
-* [DevOps with Azure, Kubernetes, and Helm](https://lnkd.in/efiF2Gp)
+* [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)
+* [Delve into Helm: Advanced DevOps](https://www.youtube.com/watch?v=cZ1S2Gp47ng)
+* [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)
+* [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)
+* [DevOps with Azure, Kubernetes, and Helm](https://www.youtube.com/watch?v=INv-VCZvM_o)
 
 ## Videos
 <center>
