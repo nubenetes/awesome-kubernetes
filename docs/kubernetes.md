@@ -4,6 +4,7 @@
     - [Local Installers](#11-local-installers)
     - [Production Cluster Installers](#12-production-cluster-installers)
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
+    - [Helm and Kubernetes](#Helm-and-kubernetes)
     - [Videos](#13-videos)
 
 <!-- /TOC -->
@@ -75,10 +76,20 @@
 * [rancher.com](https://rancher.com/)
 * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 
+## Helm and Kubernetes
+* [Helm and Kubernetes Tutorial - Introduction](https://lnkd.in/ezg8ceY)
+* [Delve into Helm: Advanced DevOps](https://lnkd.in/eQTR3Rc)
+* [Continuously delivering apps to Kubernetes using Helm](https://lnkd.in/emuqibn)
+* [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://lnkd.in/ehRVGTN)
+* [DevOps with Azure, Kubernetes, and Helm](https://lnkd.in/efiF2Gp)
+
 ## Videos
 <center>
     
 <iframe src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 
