@@ -1,15 +1,15 @@
 <!-- TOC -->
 
-- [1. Kubernetes](#1-kubernetes)
-    - [Local Installers](#11-local-installers)
-    - [Production Cluster Installers](#12-production-cluster-installers)
+- [1. Kubernetes](#kubernetes)
+    - [Local Installers](#local-installers)
+    - [Production Cluster Installers](#production-cluster-installers)
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
-    - [Helm and Kubernetes](#Helm-and-kubernetes)
-    - [Videos](#13-videos)
+    - [Helm and Kubernetes](#helm-and-kubernetes)
+    - [Videos](#videos)
 
 <!-- /TOC -->
 
-# 1. Kubernetes
+# Kubernetes
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
@@ -87,9 +87,9 @@
 <center>
     
 <iframe src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 
