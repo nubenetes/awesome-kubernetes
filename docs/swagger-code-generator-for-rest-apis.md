@@ -7,7 +7,7 @@
 * [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM)
 
 ## Videos
-<iframe src="https://www.youtube.com/embed/CoUl9_NWdqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe src="https://www.youtube.com/embed/rJQ-SVKxb5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ivGUbfxRXms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/PbwQWw7xSOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
