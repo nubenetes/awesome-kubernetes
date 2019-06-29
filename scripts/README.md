@@ -327,3 +327,35 @@ user@jumphost:~> kill -l
   Debug in Terminal
   ```
 
+# Jenkins Slaves Cleanup Scripts
+It can be easily automated via a jenkins job that triggers the following shell script:
+  * ```bash
+    mv /home/cloud/jenkins_slave/workspace /home/cloud/jenkins_slave/workspace.old && rm -Rf /home/cloud/jenkins_slave/workspace.old &
+    mv /global/apps/cdbuilt/build_server/maven/<myproject>/local-repo-maven-3 /global/apps/cdbuilt/build_server/maven/<myproject>/local-repo-maven-3.old && rm -Rf /global/apps/cdbuilt/build_server/maven/<myproject>/local-repo-maven-3.old &
+    ```
+* Alternative: Workspace cleanup plugin: https://plugins.jenkins.io/ws-cleanup 
+
+# References
+* [Jenkins.io: **Jenkins CLI Authentication**](https://jenkins.io/doc/book/managing/cli/)
+* [Stackoverflow: How to restart jenkins manually](https://stackoverflow.com/questions/8072700/how-to-restart-jenkins-manually) 
+* [**Cloudbees Support Guideline: Cleanup and disk space management**](https://support.cloudbees.com/hc/en-us/articles/215549798-Deleting-Old-Builds-Best-Strategy-for-Cleanup-and-disk-space-management)
+* [GNU.org: Deleting files with find](https://www.gnu.org/software/findutils/manual/html_node/find_html/Deleting-Files.html)
+* [Dzone.com: **Declarative Pipeline Refcard**](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
+* [Cloudbees: Declarative Pipeline Quick Reference](https://www.cloudbees.com/sites/default/files/declarative-pipeline-refcard.pdf)
+* [Kubernetes Docs](https://kubernetes.io/docs/home)
+* [Kubernetes.io: **Pod Lifecycle**](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/)
+* [Openshift: Application memory sizing](https://docs.openshift.com/container-platform/3.9/dev_guide/application_memory_sizing.html)
+* [**Openshift: Openshift Container Platform 3.9 CLI Reference**](https://docs.openshift.com/container-platform/3.9/cli_reference/index.html)
+* [**Openshift: Basic CLI Operations - Object types**](https://docs.openshift.com/enterprise/3.2/cli_reference/basic_cli_operations.html#object-types)
+* [**Youtube: Introduction to OpenShift Enterprise CLI**](https://www.youtube.com/watch?v=iRrAYnDSF4c)
+* [**redhat.com Video: OpenShift Enterprise 3.2 - Creating your first application from the CLI**](https://access.redhat.com/videos/2481041/)
+* [Openshift: Exit Code 137](https://blog.danman.eu/openshift-exit-code-137/)
+* [**redhat.com: Openshift. Diagnosing an OOM Kill**](https://access.redhat.com/documentation/en-us/openshift_container_platform/3.9/html/developer_guide/dev-guide-application-memory-sizing#diagnosing-an-oom-kill)
+* [redhat.com: Scaling down pods with a running Java process results in a warning message (exit code 143)](https://access.redhat.com/solutions/3100021)
+* [redhat.com: Bash exit codes with special meanings](https://access.redhat.com/solutions/196563)
+* [redhat.com: What is 'Signal 15' ?](https://access.redhat.com/solutions/737033)
+* [redhat.com: How to find out who sent the 'signal-15'](https://access.redhat.com/solutions/360993)
+* [Stackoverflow: How to debug container images using openshift](https://stackoverflow.com/questions/41771430/how-to-debug-container-images-using-openshift)
+* [Stackoverflow: How to restart pod in OpenShift?](https://stackoverflow.com/questions/49562433/how-to-restart-pod-in-openshift)
+* [Reddit.com: jenkinsci](https://www.reddit.com/r/jenkinsci/)
+
