@@ -13,6 +13,7 @@
 * [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [Google Play: Learning Solution - Learn Docker 🌟🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&hl=en)
 * [Play with docker 🌟🌟🌟](https://labs.play-with-docker.com/) A simple, interactive and fun playground to learn Docker
+* [blog.docker.com: Intro Guide to Dockerfile Best Practices 🌟🌟](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
 
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 
