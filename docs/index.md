@@ -30,6 +30,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Performance Testing with Jenkins and JMeter](performance-testing-with-jenkins-and-jmeter.md)
     - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
     - [Groovy](groovy.md)
+    - [Jenkins Scrips](../scripts/Readme.md)
 7. Toolchain
     - [Maven](maven.md)
     - [SonarQube](sonarqube.md)
