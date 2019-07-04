@@ -34,7 +34,7 @@ pages:
 - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
 - Jenkins and Openshift. Demos : jenkins-and-openshift.md
 - Groovy: groovy.md
-- Jenkins Scrips: /scripts/Readme.md
+- Jenkins Scrips: /scripts/README.md
 - Maven: maven.md
 - SonarQube: sonarqube.md
 - Nexus: nexus.md
