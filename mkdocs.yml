@@ -26,10 +26,10 @@ pages:
 - Docker: docker.md
 - Kubernetes : kubernetes.md
 - Openshift : openshift.md
-- List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
-- Monitoring and Performance : monitoring.md
-- Java and Java Performance Optimization: java-and-java-performance-optimization.md
-- Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
+    - List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
+    - Monitoring and Performance : monitoring.md
+    - Java and Java Performance Optimization: java-and-java-performance-optimization.md
+    - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
 - Jenkins : jenkins.md
 - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
 - Jenkins and Openshift. Demos : jenkins-and-openshift.md
