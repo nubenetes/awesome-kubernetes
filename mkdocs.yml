@@ -21,8 +21,8 @@ markdown_extensions:
     permalink: True
 pages:
 - Home: index.md
-- Intro:
-  - 'Introduction. Openshift VS Kubernetes': introduction.md
+- Introduction:
+  - 'Openshift VS Kubernetes': introduction.md
 - CI/CD : cicd.md
 - Docker: docker.md
 - Kubernetes : kubernetes.md
@@ -32,24 +32,29 @@ pages:
   - Monitoring and Performance : monitoring.md
   - Java and Java Performance Optimization: java-and-java-performance-optimization.md
   - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
-- Jenkins : jenkins.md
-- Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
-- Jenkins and Openshift. Demos : jenkins-and-openshift.md
-- Groovy: groovy.md
-- Jenkins Scripts: scripts/README.md
-- Maven: maven.md
-- SonarQube: sonarqube.md
-- Nexus: nexus.md
-- HAProxy : haproxy.md
-- Payara : payara.md
-- Terraform: terraform.md
-- Ansible: ansible.md
-- Git: git.md
-- Visual Studio: visual-studio.md
-- GitKraken: gitkraken.md
-- Linux Dev Environment: linux-dev-env.md
-- APIs and RESTful Architecture: apis-and-restful-architecture.md
-- Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+- Jenkins : 
+  - Jenkins docs: jenkins.md
+  - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
+  - Jenkins and Openshift. Demos : jenkins-and-openshift.md
+  - Groovy: groovy.md
+  - Jenkins Scripts: scripts/README.md
+- Toolchain:
+  - Maven: maven.md
+  - SonarQube: sonarqube.md
+  - Nexus: nexus.md
+  - HAProxy : haproxy.md
+  - Payara : payara.md
+- Configuration Management:
+  - Terraform: terraform.md
+  - Ansible: ansible.md
+- Dev Environment:
+  - Git: git.md
+  - Visual Studio: visual-studio.md
+  - GitKraken: gitkraken.md
+  - Linux Dev Environment: linux-dev-env.md
+- APIs:
+  - APIs and RESTful Architecture: apis-and-restful-architecture.md
+  - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
 - Public Cloud Solutions : public-cloud-solutions.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
