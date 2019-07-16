@@ -26,3 +26,4 @@
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [Google Play: Sundeep.io - DevOps - Tools, News, Jobs and Tutorials 🌟🌟](https://play.google.com/store/apps/details?id=io.sundeep.android)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
+* [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
