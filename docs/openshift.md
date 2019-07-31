@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Openshift](#openshift)
+    - [Openshift 4](#openshift-4)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
@@ -43,6 +44,11 @@
 * [OpenShift Commons 🌟](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
 * [ODO: OpenShift Command line for Developers 🌟🌟🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
 
+## Openshift 4
+* [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
+* [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
+* [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
+
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
 * [O'Reilly Free Book: Openshift for developers](https://www.openshift.com/for-developers/)
@@ -50,9 +56,10 @@
 * [Packt publishing: Learn Openshift](https://www.packtpub.com/application-development/learn-openshift)
 
 ## Online Learning
+* [learn.openshift.com](https://learn.openshift.com) 🌟🌟🌟🌟 Interactive Learning Portal
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 * [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
-* [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟🌟🌟🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
+* [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟🌟🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
 
 ## Local Installers
 * [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
