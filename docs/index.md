@@ -40,17 +40,18 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
-9. Dev Environment    
+9. [Databases on Kubernetes](databases.md)
+10. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-10. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+11. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
-11. [Public Cloud Solutions](public-cloud-solutions.md)
-12. [E-Learning](elearning.md)
-13. [Customer Success Stories 🌟](customer.md)
-14. [Newsfeeds](newsfeeds.md)
+12. [Public Cloud Solutions](public-cloud-solutions.md)
+13. [E-Learning](elearning.md)
+14. [Customer Success Stories 🌟](customer.md)
+15. [Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
