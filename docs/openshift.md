@@ -13,7 +13,7 @@
 
 # Openshift
 * [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
-* [try.openshift.com 🌟🌟🌟](https://try.openshift.com/) 
+* [try.openshift.com 🌟🌟🌟🌟](https://try.openshift.com/) 
 * [docs.openshift.com](https://docs.openshift.com/)
 * [https://github.com/openshift/origin 🌟🌟🌟](https://github.com/openshift/origin)
     * [Using Jenkins Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
