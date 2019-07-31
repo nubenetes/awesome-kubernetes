@@ -49,6 +49,9 @@
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
 * [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
+* [developers.redhat.com: Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
+* [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
+* [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
