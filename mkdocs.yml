@@ -47,6 +47,7 @@ pages:
 - Configuration Management:
   - Terraform: terraform.md
   - Ansible: ansible.md
+- Databases on Kubernetes: databases.md
 - Dev Environment:
   - Git: git.md
   - Visual Studio: visual-studio.md
