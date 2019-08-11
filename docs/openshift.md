@@ -47,6 +47,7 @@
 
 ## Openshift 4
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
+* [Dzone: What’s in OpenShift 4?](https://dzone.com/articles/whats-in-openshift-4)
 * [youtube: Installing OpenShift 4 on AWS with operatorhub.io integration 🌟🌟🌟🌟](https://www.youtube.com/watch?v=kQJxGtsqphk)
 * [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
 * [blog.openshift.com: OpenShift 4 Roadmap](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
