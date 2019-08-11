@@ -13,6 +13,7 @@
 * [slideshare.net: OPENSHIFT CONTAINER PLATFORM CI/CD Build & Deploy  🌟🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
 * [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
 * [blog.openshift.com: Improving Jenkins’ performance on Openshift: Part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/)
+* [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟🌟🌟🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
 
 ## Jenkins in Openshift. Templates
 * [docs.okd.io: Jenkins in Openshift](https://docs.okd.io/latest/using_images/other_images/jenkins.html) Openshift provides a container image for running Jenkins. This image provides a Jenkins server instance, which can be used to set up a basic flow for continuous testing, integration, and delivery.
