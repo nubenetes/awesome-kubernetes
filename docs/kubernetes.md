@@ -5,6 +5,7 @@
     - [Production Cluster Installers](#production-cluster-installers)
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
     - [Helm and Kubernetes](#helm-and-kubernetes)
+    - [Other tools](#other-tools)
     - [Videos](#videos)
 
 <!-- /TOC -->
@@ -85,6 +86,9 @@
 * [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)
 * [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)
 * [DevOps with Azure, Kubernetes, and Helm](https://www.youtube.com/watch?v=INv-VCZvM_o)
+
+## Other tools
+* [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 
 ## Videos
 <center>
