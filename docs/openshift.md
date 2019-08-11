@@ -47,11 +47,20 @@
 
 ## Openshift 4
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
+* [youtube: Installing OpenShift 4 on AWS with operatorhub.io integration 🌟🌟🌟🌟](https://www.youtube.com/watch?v=kQJxGtsqphk)
 * [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
+* [blog.openshift.com: OpenShift 4 Roadmap](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 * [developers.redhat.com: Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
 * [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
+* [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
+* [cloudowski.com: Honest review of OpenShift 4 🌟🌟🌟🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)
+* [github.com: Openshift 4 training](https://github.com/openshift/training)
+* [kubevirt.io 🌟🌟🌟🌟](https://kubevirt.io/)
+* [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
+* [Open Policy Agent 🌟🌟🌟](https://www.openpolicyagent.org/)
+* [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
