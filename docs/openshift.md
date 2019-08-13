@@ -70,7 +70,8 @@
 * [Packt publishing: Learn Openshift](https://www.packtpub.com/application-development/learn-openshift)
 
 ## Online Learning
-* [learn.openshift.com](https://learn.openshift.com) 🌟🌟🌟🌟 Interactive Learning Portal
+* [learn.openshift.com 🌟🌟🌟🌟](https://learn.openshift.com) Interactive Learning Portal
+* [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 * [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
 * [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟🌟🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
