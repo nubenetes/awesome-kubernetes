@@ -1,6 +1,7 @@
 # E-learning:
-* [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
+* [katacoda.com](https://www.katacoda.com/)
 * [learn.openshift.com](https://learn.openshift.com/)
+* [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
 * [Udemy.com](https://www.udemy.com/)
 * [Google Play: Learning Solution](https://play.google.com/store/apps/developer?id=Learning+Solution)
 * [Google Play: TomApp](https://play.google.com/store/apps/developer?id=TomApp)
