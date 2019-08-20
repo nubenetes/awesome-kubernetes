@@ -6,6 +6,7 @@
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
+    - [Demos](#demos)
     - [Videos](#videos)
     - [Slides](#slides)
 
