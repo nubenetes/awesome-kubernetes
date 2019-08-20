@@ -40,7 +40,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
 9. [Databases on Kubernetes](databases.md)
-10. [Networking on Kubernetes](networking.md)
+10. Networking on Kubernetes
     - [Istio - Service Mesh](istio.sh)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
 11. Dev Environment    
