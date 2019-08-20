@@ -28,3 +28,6 @@
 * [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
 * [rancher.com: Deploying and Scaling Jenkins on Kubernetes 🌟🌟🌟](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
 
+## Jenkins X
+* [itnext.io/tagged/jenkins-x](https://itnext.io/tagged/jenkins-x)
+* [itnext.io: Jenkins X — Managing Jenkins](https://itnext.io/jenkins-x-managing-jenkins-926f0e0f8bcf)
