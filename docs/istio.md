@@ -1,7 +1,7 @@
 # Istio - Service Mesh
-- [blog.openshift.com: How to Explain Service Mesh in Plain English](https://blog.openshift.com/from-the-enterprisersproject-how-to-explain-service-mesh-in-plain-english/)
 - [Istio.io](https://istio.io/)
 - [github.com: Istio](https://github.com/istio/istio)
+- [blog.openshift.com: How to Explain Service Mesh in Plain English](https://blog.openshift.com/from-the-enterprisersproject-how-to-explain-service-mesh-in-plain-english/)
 - [Red Hat Developer: Istio Service Mesh](https://developers.redhat.com/topics/service-mesh/)
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 - [karlstoney.com: Istio 503's with UC's and TCP Fun Times](https://karlstoney.com/2019/05/31/istio-503s-ucs-and-tcp-fun-times/)
