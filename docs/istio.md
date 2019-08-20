@@ -5,6 +5,8 @@
 - [Red Hat Developer: Istio Service Mesh](https://developers.redhat.com/topics/service-mesh/)
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 - [karlstoney.com: Istio 503's with UC's and TCP Fun Times](https://karlstoney.com/2019/05/31/istio-503s-ucs-and-tcp-fun-times/)
+- [medium.com/solo-io blog](https://medium.com/solo-io) Connecting the world’s applications with APIs and Service Mesh
+- [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
