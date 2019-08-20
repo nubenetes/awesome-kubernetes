@@ -50,6 +50,7 @@ pages:
 - Networking on Kubernetes:
   - Istio Service Mesh: istio.md
   - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
+- Security Policy as Code: securityascode.md
 - Dev Environment:
   - Git: git.md
   - Visual Studio: visual-studio.md
