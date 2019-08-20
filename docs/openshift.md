@@ -93,6 +93,9 @@
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
 
+## Demos
+* [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
+
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
