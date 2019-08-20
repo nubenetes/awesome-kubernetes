@@ -94,6 +94,7 @@
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
+* [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 
 ## Videos
 <center>
