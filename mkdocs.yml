@@ -48,7 +48,7 @@ pages:
   - Ansible: ansible.md
 - Databases on Kubernetes: databases.md
 - Networking on Kubernetes:
-  - Istio - Service Mesh: istio.md
+  - Istio Service Mesh: istio.md
   - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
 - Dev Environment:
   - Git: git.md
