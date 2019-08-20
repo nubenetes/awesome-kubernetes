@@ -25,7 +25,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [List of Openshift Compliant Docker images. Demos](openshift-compliant-images.md)
     - [Monitoring and Performance](monitoring.md)
     - [Java and Java Performance Optimization](java-and-java-performance-optimization.md)
-    - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
 6. [Jenkins 😀](jenkins.md)
     - [Performance Testing with Jenkins and JMeter](performance-testing-with-jenkins-and-jmeter.md)
     - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
@@ -41,17 +40,20 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
 9. [Databases on Kubernetes](databases.md)
-10. Dev Environment    
+10. [Networking on Kubernetes](networking.md)
+    - [Istio - Service Mesh](istio.sh)
+    - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
+11. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-11. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+12. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
-12. [Public Cloud Solutions](public-cloud-solutions.md)
-13. [E-Learning](elearning.md)
-14. [Customer Success Stories 🌟](customer.md)
-15. [Newsfeeds](newsfeeds.md)
+13. [Public Cloud Solutions](public-cloud-solutions.md)
+14. [E-Learning](elearning.md)
+15. [Customer Success Stories 🌟](customer.md)
+16. [Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
