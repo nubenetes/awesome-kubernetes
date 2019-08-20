@@ -6,6 +6,7 @@
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
     - [Helm and Kubernetes](#helm-and-kubernetes)
     - [Other tools](#other-tools)
+    - [Demos](#demos)
     - [Videos](#videos)
 
 <!-- /TOC -->
@@ -90,6 +91,9 @@
 
 ## Other tools
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+
+## Demos
+* [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
 
 ## Videos
 <center>
