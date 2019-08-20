@@ -43,17 +43,18 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 10. Networking on Kubernetes
     - [Istio - Service Mesh](istio.md)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
-11. Dev Environment    
+11. [Security Policy as Code](securityascode.md)
+12. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-12. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+13. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
-13. [Public Cloud Solutions](public-cloud-solutions.md)
-14. [E-Learning](elearning.md)
-15. [Customer Success Stories 🌟](customer.md)
-16. [Newsfeeds](newsfeeds.md)
+14. [Public Cloud Solutions](public-cloud-solutions.md)
+15. [E-Learning](elearning.md)
+16 [Customer Success Stories 🌟](customer.md)
+17. [Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
