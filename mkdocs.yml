@@ -31,7 +31,6 @@ pages:
   - List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
   - Monitoring and Performance : monitoring.md
   - Java and Java Performance Optimization: java-and-java-performance-optimization.md
-  - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
 - Jenkins : 
   - Jenkins docs: jenkins.md
   - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
@@ -48,6 +47,9 @@ pages:
   - Terraform: terraform.md
   - Ansible: ansible.md
 - Databases on Kubernetes: databases.md
+- Networking on Kubernetes:
+  - Istio - Service Mesh: istio.md
+  - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
 - Dev Environment:
   - Git: git.md
   - Visual Studio: visual-studio.md
