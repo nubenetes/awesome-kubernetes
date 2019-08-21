@@ -6,6 +6,7 @@
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
+    - [Operators](#operators)
     - [Demos](#demos)
     - [Videos](#videos)
     - [Slides](#slides)
@@ -93,6 +94,9 @@
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
+
+## Operators
+- [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
