@@ -106,10 +106,11 @@
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 
 ## Openshift Compliant Docker Images
-- RedHat Registry - registry.redhat.io: License required
+- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io)](https://access.redhat.com/containers/) License required
 - [DockerHub openshift](https://hub.docker.com/r/openshift/)
 - [https://github.com/sclorg/](https://github.com/sclorg/)
 - [https://github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
+- [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
