@@ -108,6 +108,8 @@
 ## Openshift Compliant Docker Images
 - RedHat Registry - registry.redhat.io: License required
 - [DockerHub openshift](https://hub.docker.com/r/openshift/)
+- [https://github.com/sclorg/](https://github.com/sclorg/)
+- [https://github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
