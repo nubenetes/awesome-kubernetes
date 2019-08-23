@@ -48,6 +48,7 @@
 * [OpenShift Commons 🌟](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
 * [ODO: OpenShift Command line for Developers 🌟🌟🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
 * [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
+* [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
 
 ## Openshift 4
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
