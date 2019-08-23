@@ -9,7 +9,7 @@
     - [Operators](#operators)
     - [Demos](#demos)
     - [Videos](#videos)
-    - [Openshift Compliant Docker Images](openshift-compliant-docker-images)
+    - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
     - [Slides](#slides)
 
 <!-- /TOC -->
