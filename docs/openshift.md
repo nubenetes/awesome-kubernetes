@@ -105,6 +105,7 @@
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 
 ## Openshift Compliant Docker Images
+- RedHat Registry - registry.redhat.io: License required
 - [DockerHub centos](https://hub.docker.com/u/centos)
 - [DockerHub fedora](https://hub.docker.com/r/fedora/postgresql)
 
