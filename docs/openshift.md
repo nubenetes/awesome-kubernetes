@@ -107,6 +107,7 @@
 
 ## Openshift Compliant Docker Images
 - RedHat Registry - registry.redhat.io: License required
+- [DockerHub openshift](https://hub.docker.com/r/openshift/)
 - [DockerHub centos](https://hub.docker.com/u/centos)
 - [DockerHub fedora](https://hub.docker.com/r/fedora/postgresql)
 
