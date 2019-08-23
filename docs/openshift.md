@@ -9,6 +9,7 @@
     - [Operators](#operators)
     - [Demos](#demos)
     - [Videos](#videos)
+    - [Openshift Compliant Docker Images](openshift-compliant-docker-images)
     - [Slides](#slides)
 
 <!-- /TOC -->
@@ -102,6 +103,10 @@
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+
+## Openshift Compliant Docker Images
+- [DockerHub centos](https://hub.docker.com/u/centos)
+- [DockerHub fedora](https://hub.docker.com/r/fedora/postgresql)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
