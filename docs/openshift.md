@@ -106,9 +106,11 @@
 
 ```
 Review Security Context Constraints
-Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
+Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. 
+SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
 
-OpenShift ships with several SCCs. The most constrained is the restricted SCC, and the least constrained in the privileged SCC. The other SCCs provide intermediate levels of constraint for various use cases. The restricted SCC is granted to all authenticated users by default.
+OpenShift ships with several SCCs. The most constrained is the restricted SCC, and the least constrained in the privileged SCC. 
+The other SCCs provide intermediate levels of constraint for various use cases. The restricted SCC is granted to all authenticated users by default.
 
 The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
 
