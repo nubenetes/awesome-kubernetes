@@ -2,6 +2,7 @@
 * [katacoda.com](https://www.katacoda.com/)
 * [learn.openshift.com](https://learn.openshift.com/)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+* [tutorialspoint.com/openshift](https://www.tutorialspoint.com/openshift/)
 * [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
 * [Udemy.com](https://www.udemy.com/)
 * [Google Play: Learning Solution](https://play.google.com/store/apps/developer?id=Learning+Solution)
