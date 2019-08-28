@@ -6,6 +6,7 @@
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
+    - [Security](#security)
     - [Operators](#operators)
     - [Demos](#demos)
     - [Videos](#videos)
@@ -97,6 +98,34 @@
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
+
+## Security
+- [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
+    - [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html#security-context-constraints)
+- [Dzone: Understanding OpenShift Security Context Constraints](https://dzone.com/articles/understanding-openshift-security-context-constrain)
+
+```
+Review Security Context Constraints
+Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
+
+OpenShift ships with several SCCs. The most constrained is the restricted SCC, and the least constrained in the privileged SCC. The other SCCs provide intermediate levels of constraint for various use cases. The restricted SCC is granted to all authenticated users by default.
+
+The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
+
+Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
+
+Recommendation:
+Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+Use the restricted SCC as the default 
+For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC
+Audit
+To show all available SCCs:
+oc describe scc
+To audit a single pod:
+oc describe pod <POD> | grep openshift.io\/scc
+Remediation
+Apply the SCC with the least privilege required
+```
 
 ## Operators
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
