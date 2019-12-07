@@ -53,7 +53,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
 14. [Public Cloud Solutions](public-cloud-solutions.md)
 15. [E-Learning](elearning.md)
-16 [Customer Success Stories 🌟](customer.md)
+16. [Customer Success Stories 🌟](customer.md)
 17. [Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental 
