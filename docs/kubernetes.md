@@ -99,6 +99,9 @@
 * [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
 * [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 
+## Troubleshooting
+* [Kubernetes troubleshooting diagram](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+
 ## Videos
 <center>
     
