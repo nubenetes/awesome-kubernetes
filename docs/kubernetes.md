@@ -42,6 +42,16 @@
 * [blogs.mulesoft.com - K8s: 8 questions about Kubernetes](https://blogs.mulesoft.com/dev/resources-dev/k8s-kubernetes/)
 * [labs.mwrinfosecurity.com: Attacking Kubernetes through Kubelet](https://labs.mwrinfosecurity.com/blog/attacking-kubernetes-through-kubelet/)
 * [magalix.com: Kubernetes 101 - Concepts and Why It Matters](https://www.magalix.com/blog/kubernetes-101-concepts-and-why-it-matters)
+* [blog.doit-intl.com: Kubernetes and Secrets Management in the Cloud](https://blog.doit-intl.com/kubernetes-and-secrets-management-in-cloud-858533c20dca)
+* **Famous Kubernetes resources of 2019:**
+    * [Kubernetes for developers](https://lnkd.in/eTNwZ69)
+    * [Kubernetes for the Absolute Beginners](https://lnkd.in/ecCR3vT)
+    * [Kubernetes: Getting Started (Free)](https://lnkd.in/eF3ZxZ5)
+    * [Kubernetes Tutorial: Learn the Basics](https://lnkd.in/e7BE7qE)
+    * [Kubernetes essentials E-book 🌟🌟🌟](https://lnkd.in/ezCTYyi)
+    * [Cloud-Native DevOps With Kubernetes O'Reilly book (Free) 🌟🌟🌟](https://lnkd.in/e7f2HVv)
+    * [Complete Kubernetes Course](https://lnkd.in/eVG5Za9)
+    * [Getting started with Kubernetes](https://lnkd.in/emPjNM9)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
