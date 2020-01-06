@@ -52,6 +52,7 @@
     * [Cloud-Native DevOps With Kubernetes O'Reilly book (Free) 🌟🌟🌟](https://lnkd.in/e7f2HVv)
     * [Complete Kubernetes Course](https://lnkd.in/eVG5Za9)
     * [Getting started with Kubernetes](https://lnkd.in/emPjNM9)
+* [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
@@ -86,7 +87,6 @@
     chmod +x kops-linux-amd64
     sudo mv kops-linux-amd64 /usr/local/bin/kops
     ```
-
 * [Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 * [Kubespray](https://github.com/kubernetes-sigs/kubespray)
