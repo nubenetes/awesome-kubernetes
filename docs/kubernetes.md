@@ -150,8 +150,19 @@
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 
 ## Demos
-* [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
+* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
 * [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
+* [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟🌟🌟](https://github.com/wardviaene)
+    * [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
+    * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
+* [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
+* [Mautic](https://github.com/mautic/docker-mautic)
+* [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
+* [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
+* Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟🌟🌟:
+    * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
+    * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
+* [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
 
 ## Troubleshooting
 * [Kubernetes troubleshooting diagram](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
@@ -182,6 +193,18 @@
     * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
     * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
     * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+    
+## Docker in Docker
+* [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/)
+    * [pushbuildtestdeploy.com: jenkins on kubernetes building docker images 🌟🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
+    * [ref2](https://github.com/samrocketman/docker-jenkins-jervis/blob/master/README.md#working-with-docker-in-docker)
+* [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd)
+* [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/)
+* [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff)
+* [getintodevops.com: the simplest way to run docker in docker](https://getintodevops.com/blog/the-simple-way-to-run-docker-in-docker-for-ci#%3A~%3AtargetText=Building+Docker+containers+with+Jenkins+inside+a+container)
+* Docker in Docker on EKS:
+    * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
+    * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
 ## Videos
 <center>
