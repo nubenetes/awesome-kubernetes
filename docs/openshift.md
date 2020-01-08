@@ -143,8 +143,8 @@
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
 * [openshift installer](https://github.com/openshift/installer)
 * [CI/CD Pipeline to deploy OpenShift Container Platform 4.x to AWS](https://github.com/r3dact3d/rhocp4_aws)
-* https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/
-    * https://github.com/burrsutter/9stepsawesome 
+* [blog.openshift.com: 9 steps to awesome with kubernetes openshift]https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/
+    * [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
 
 ## NetworkPolicy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
