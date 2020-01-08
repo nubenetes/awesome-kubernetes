@@ -117,9 +117,9 @@
 * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 
 ## Helm and Kubernetes
-* https://helm.sh/
-* https://helm.sh/docs 
-* [Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
+* [helm.sh](https://helm.sh/)
+    * [helm.sh/docs](https://helm.sh/docs) 
+* [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
 * [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)
 * [Delve into Helm: Advanced DevOps](https://www.youtube.com/watch?v=cZ1S2Gp47ng)
 * [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)
