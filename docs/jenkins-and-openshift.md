@@ -42,9 +42,8 @@
 * [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [https://github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 * https://github.com/deweya/OpenShift-Jenkins-Lab
-* https://github.com/marcredhat/crcdemos
-* https://github.com/nccurry/openshift-4-multi-cluster-failover
-* https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading
+* [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
+* [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
 
 ## Slides
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> von <strong><a href="https://www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
