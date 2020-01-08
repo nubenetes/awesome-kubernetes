@@ -71,7 +71,7 @@
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
 * [OpenShift Toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/)
-* [OpenShift Playbooks](OpenShift Playbooks: https://github.com/redhat-cop/openshift-playbooks)
+* [OpenShift Playbooks](https://github.com/redhat-cop/openshift-playbooks)
 
 ## Identity Management
 * [GitHub redhat-cop: Ansible Role](https://github.com/redhat-cop/infra-ansible/tree/master/roles/identity-management )
