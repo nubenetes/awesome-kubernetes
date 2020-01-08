@@ -16,16 +16,12 @@
 * [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟🌟🌟🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)
 * [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)
-* [jenkins.io - jenkinsfile]https://jenkins.io/doc/book/pipeline/jenkinsfile/
-* [Dzone: declarative pipeline with jenkins](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
 * Improving Jenkins’ performance on Openshift:
     * https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/
     * https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/
 * [blog.openshift.com - Building Declarative Pipelines with OpenShift DSL Plugin](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
 * [github - Pipelines tutorial 🌟🌟🌟](https://github.com/openshift/pipelines-tutorial)
-* [opensource.com - building cicd pipelines with jenkins](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
-* [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
 * [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test](https://github.com/gnunn1/openshift-basic-pipeline)
 * [dzone - openshift quick start build deployment and pipeline](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin)
