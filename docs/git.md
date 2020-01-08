@@ -20,3 +20,4 @@
 * [Oh shit, git!](https://ohshitgit.com/)
 * [How to Get More Out of Your Git Commit Message](https://datree.io/blog/git-commit-message-conventions-for-readable-git-log/)
 * [10 useful Git commands you wish existed – and their alternatives](https://datree.io/blog/useful-git-commands-list/)
+* [awesome git 🌟](https://github.com/dictcp/awesome-git)
