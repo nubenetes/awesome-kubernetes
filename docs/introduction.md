@@ -14,6 +14,7 @@
     - [reddit.com: OpenShift vs PKS vs Rancher 🌟🌟🌟](https://www.reddit.com/r/kubernetes/comments/9qxeuw/openshift_vs_pks_vs_rancher/)
 * [elastisys.com: OpenShift Features and Their Kubernetes Counterparts 🌟🌟](https://elastisys.com/2018/11/06/openshift-features-kubernetes-counterparts/)
 * [medium.com: Kubernetes — What Is It, What Problems Does It Solve and How Does It Compare With Alternatives?](https://medium.com/@srikanth.k/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f)
+* [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog/kubernetes-vs-openshift)
 
 [![Openshift VS Kubernetes](images/openshift_vs_kubernetes.jpeg)](https://www.linkedin.com/feed/update/urn:li:activity:6459657167300583424)
 
