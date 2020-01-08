@@ -100,8 +100,11 @@
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 * [Open Policy Agent 🌟🌟🌟](https://www.openpolicyagent.org/)
 * [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
-- [OpenShift 4.2 documentation 🌟🌟🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/)
-- [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
+* [OpenShift 4.2 documentation 🌟🌟🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/)
+* [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
+* Operators:
+    * [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
+    * [operatorhub.io](https://operatorhub.io/)
 
 ## OKD4
 * https://github.com/openshift/okd/blob/master/README.md 
