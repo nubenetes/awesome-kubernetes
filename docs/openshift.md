@@ -63,10 +63,9 @@
 * [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 * Chaos Monkey for kubernetes/Openshift:
-    * https://www.reddit.com/r/openshift/comments/e1j5qz/rbac_for_container_access_to_destroy_other/ 
-    * https://github.com/asobti/kube-monkey
-    * https://github.com/joshmsmith/monkey-ops Para OpenShift, no necesita lanzarse con cluster admin
-
+    * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qz/rbac_for_container_access_to_destroy_other/)
+    * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
+    * [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.com/joshmsmith/monkey-ops)
 
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
@@ -108,8 +107,8 @@
     * https://learn.crunchydata.com/ 🌟🌟🌟
 
 ## OKD4
-* https://github.com/openshift/okd/blob/master/README.md 
-* https://www.youtube.com/watch?v=_nl-45ulj1s
+* [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
+* [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
