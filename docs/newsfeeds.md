@@ -4,7 +4,7 @@
 * [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
 * [feedly.com](https://feedly.com)
 
-## Subreddit
+## Subreddits
 * [reddit.com/r/devops](https://www.reddit.com/r/devops/)
 * [reddit.com/r/openshift](https://www.reddit.com/r/openshift/)
 * [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes/)
