@@ -5,6 +5,7 @@
     - [Red Hat Communities of Practice](#redhat-communities-of-practice)
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
+    - [OKD4](#okd4)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
@@ -61,6 +62,11 @@
 * [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
 * [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
+* Chaos Monkey for kubernetes/Openshift:
+    * https://www.reddit.com/r/openshift/comments/e1j5qz/rbac_for_container_access_to_destroy_other/ 
+    * https://github.com/asobti/kube-monkey
+    * https://github.com/joshmsmith/monkey-ops Para OpenShift, no necesita lanzarse con cluster admin
+
 
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
@@ -96,6 +102,10 @@
 * [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
 - [OpenShift 4.2 documentation 🌟🌟🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/)
 - [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
+
+## OKD4
+* https://github.com/openshift/okd/blob/master/README.md 
+* https://www.youtube.com/watch?v=_nl-45ulj1s
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
