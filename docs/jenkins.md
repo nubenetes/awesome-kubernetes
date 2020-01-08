@@ -44,6 +44,7 @@
 * [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell)
 * [dzone: learn how to setup a cicd pipeline from scratch 🌟🌟🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
 * [dzone: how to use basic jenkins pipelines](https://dzone.com/articles/how-to-use-basic-jenkins-pipelines)
+* [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 
 ## Jenkins Scalability
 * [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
