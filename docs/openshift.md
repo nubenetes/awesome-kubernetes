@@ -184,7 +184,7 @@ Apply the SCC with the least privilege required
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
-* [github Red Hat Tutorials & Examples 🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [github Red Hat Tutorials & Examples 🌟🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 
 ## Openshift Compliant Docker Images
