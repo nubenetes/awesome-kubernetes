@@ -163,6 +163,7 @@
 * [Dzone - Kubernetes Policy Management with Kyverno](https://dzone.com/articles/kubernetes-policy-management-with-kyverno)
     * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
 * [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
+* [Kubernetes Security Best Practices 🌟🌟🌟🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
 
 ## Videos
 <center>
