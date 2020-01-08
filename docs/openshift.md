@@ -105,6 +105,8 @@
     * [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
     * [operatorhub.io](https://operatorhub.io/)
     * [learn.crunchydata.com 🌟🌟🌟](https://learn.crunchydata.com/) 
+* [Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://blog.openshift.com/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms/)
+* [youtube: OpenShift on Google Cloud, AWS, Azure and localhost](https://www.youtube.com/watch?v=G-baPg3XhBo)
 
 ## OKD4
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
