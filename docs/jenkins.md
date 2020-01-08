@@ -27,9 +27,13 @@
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
+   * https://github.com/sirech/example-concourse-pipeline
 * [rancher.com: Deploying and Scaling Jenkins on Kubernetes 🌟🌟🌟](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
 * [opensource.com - building cicd pipelines with jenkins 🌟🌟🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
 * [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
+* [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html)
+* [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
+* [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
 
 ## Jenkins X
 * [itnext.io/tagged/jenkins-x](https://itnext.io/tagged/jenkins-x)
