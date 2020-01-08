@@ -97,6 +97,7 @@ Jenkins X is a specialized Jenkins for Kubernetes: This is how it works from a b
 * Video Tutorials:
   * [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU)
   * [Youtube: Kubernetes Package Management with Helm and CI/CD with Jenkins X - Webinar by Neependra Khare](https://www.youtube.com/watch?v=oZOZiL6XIfA&feature=emb_title)
+  * [go.digitalocean.com/cicd-on-k8s](https://go.digitalocean.com/cicd-on-k8s)
 
 ## CI/CD BOTs
 Use bots to accomplish tasks like merging PR's that have been approved and automatically updating dependencies. Usage of one of these bots might allow us to trigger certain builds based off of specific GitHub tags,  it would allow us to only selectively run certain test suites and increase the throughput of the build by only testing changes made in a branch / PR.
