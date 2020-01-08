@@ -183,7 +183,8 @@ Apply the SCC with the least privilege required
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
 
 ## Demos
-* [kubernetesbyexample.com 🌟🌟🌟🌟](http://kubernetesbyexample.com/)
+* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
+* [github Red Hat Tutorials & Examples 🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 
 ## Openshift Compliant Docker Images
