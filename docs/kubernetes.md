@@ -164,6 +164,23 @@
     * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
 * [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
 * [Kubernetes Security Best Practices 🌟🌟🌟🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
+* [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+* EKS Security:
+    * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
+    * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
+    * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
+
+## EKS
+* [dzone: kovs VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
+* [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
+* [eksworkshop.com](https://eksworkshop.com/ )
+* [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
+* Deploy example microservices on EKS:
+    * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
+    * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
+    * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
+    * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
+    * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
 
 ## Videos
 <center>
