@@ -171,7 +171,7 @@
     * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
 
 ## EKS
-* [dzone: kovs VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
+* [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
 * [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
 * [eksworkshop.com](https://eksworkshop.com/ )
 * [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
