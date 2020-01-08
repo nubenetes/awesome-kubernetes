@@ -170,7 +170,8 @@
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
 
 ## Spring PetClinic Sample Application
-* [spring-petclinic.github.io](https://spring-petclinic.github.io/docs/resources.html)
+* [spring-petclinic.github.io](https://spring-petclinic.github.io)
+    * [spring-petclinic.github.io Docs](https://spring-petclinic.github.io/docs/resources.html)
 * [github.com/spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic)
     * [gitlab.beuth-hochschule.de](https://gitlab.beuth-hochschule.de/s70178/petclinic-ansible-jenkins-ci-cd)
     * [gitlab.comquent.de: Microservices branch](https://gitlab.comquent.de/petclinic/spring-petclinic-microservices)
