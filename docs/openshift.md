@@ -2,15 +2,20 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
+    - [Red Hat Communities of Practice](#redhat-communities-of-practice)
+    - [Identity Management](#identity-management)
+    - [Quota Management](#quota-management)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
+    - [Networkv Policy](#networkpolicy)
     - [Security](#security)
     - [Operators](#operators)
     - [Demos](#demos)
     - [Videos](#videos)
     - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
+    - [Quay](#quay)
     - [Slides](#slides)
 
 <!-- /TOC -->
@@ -57,6 +62,21 @@
 * [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 
+## Red Hat Communities of Practice
+* [Red Hat Communities of Practice](https://github.com/redhat-cop)
+* [OpenShift Toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/)
+* [OpenShift Playbooks](OpenShift Playbooks: https://github.com/redhat-cop/openshift-playbooks)
+
+## Identity Management
+* [GitHub redhat-cop: Ansible Role](https://github.com/redhat-cop/infra-ansible/tree/master/roles/identity-management )
+
+## Quota Management
+* [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)
+* [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)
+* [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/2018/11/how-to-create-increase-or-decrease-project-quota-in-openshift.html/#.Xd5OE9WCGUk)
+* [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)
+* [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)
+
 ## Openshift 4
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
 * [Dzone: What’s in OpenShift 4?](https://dzone.com/articles/whats-in-openshift-4)
@@ -74,6 +94,8 @@
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 * [Open Policy Agent 🌟🌟🌟](https://www.openpolicyagent.org/)
 * [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
+- [OpenShift 4.2 documentation 🌟🌟🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/)
+- [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
@@ -84,6 +106,8 @@
 ## Online Learning
 * [learn.openshift.com 🌟🌟🌟🌟](https://learn.openshift.com) Interactive Learning Portal
 * [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
+* [Red Hat Tutorials & Examples 🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [redhatgov.io 🌟🌟](http://redhatgov.io/)
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 * [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
 * [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟🌟🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops/) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
@@ -104,6 +128,9 @@
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
+
+## NetworkPolicy
+* [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
 ## Security
 - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
@@ -148,6 +175,9 @@ Apply the SCC with the least privilege required
 - [https://github.com/sclorg/](https://github.com/sclorg/)
 - [https://github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
 - [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
+
+## Quay
+* [GitHub Quay](https://github.com/quay/quay)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
