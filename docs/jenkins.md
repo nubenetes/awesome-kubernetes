@@ -38,7 +38,7 @@
 * [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
 * https://github.com/wardviaene/jenkins-course 🌟🌟🌟🌟
 * [jenkinsci.github.io 🌟🌟🌟🌟](http://jenkinsci.github.io/)
-   * [job-dsl-plugin 🌟🌟🌟🌟](http://jenkinsci.github.io/job-dsl-plugin/ )
+   * [job-dsl-plugin - Jenkins Job DSL API 🌟🌟🌟🌟](http://jenkinsci.github.io/job-dsl-plugin/ )
 * [uncontained.io: external jenkins integration](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
 * [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide)
 * [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell)
