@@ -53,6 +53,7 @@
     * [Complete Kubernetes Course](https://lnkd.in/eVG5Za9)
     * [Getting started with Kubernetes](https://lnkd.in/emPjNM9)
 * [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
+* https://github.com/wardviaene/kubernetes-course 🌟🌟🌟🌟
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
