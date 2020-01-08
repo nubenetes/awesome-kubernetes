@@ -104,7 +104,7 @@
 * Operators:
     * [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
     * [operatorhub.io](https://operatorhub.io/)
-    * https://learn.crunchydata.com/ 🌟🌟🌟
+    * [learn.crunchydata.com 🌟🌟🌟](https://learn.crunchydata.com/) 
 
 ## OKD4
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
