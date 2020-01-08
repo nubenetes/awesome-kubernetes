@@ -7,6 +7,7 @@
     - [Helm and Kubernetes](#helm-and-kubernetes)
     - [Other tools](#other-tools)
     - [Demos](#demos)
+    - [Security](#security)
     - [Videos](#videos)
 
 <!-- /TOC -->
@@ -153,6 +154,15 @@
 
 ## Troubleshooting
 * [Kubernetes troubleshooting diagram](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+
+## Security
+* [cilium.io](https://cilium.io/)
+* [openpolicyagent.org](https://www.openpolicyagent.org/)
+* [Dzone - devops security at scale](https://dzone.com/articles/devops-security-at-scale)
+* [searchitoperations.techtarget.com: kubernetes policy project](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 
+* [Dzone - Kubernetes Policy Management with Kyverno](https://dzone.com/articles/kubernetes-policy-management-with-kyverno)
+    * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
+* [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
 
 ## Videos
 <center>
