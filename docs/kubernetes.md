@@ -58,8 +58,8 @@
     * [Complete Kubernetes Course](https://lnkd.in/eVG5Za9)
     * [Getting started with Kubernetes](https://lnkd.in/emPjNM9)
 * [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
-* https://github.com/wardviaene/kubernetes-course 🌟🌟🌟🌟
-* https://github.com/wardviaene/advanced-kubernetes-course 🌟🌟🌟🌟
+* [wardviaene/kubernetes-course 🌟🌟🌟🌟](https://github.com/wardviaene/kubernetes-course) 
+* [wardviaene/advanced-kubernetes-course 🌟🌟🌟🌟](https://github.com/wardviaene/advanced-kubernetes-course) 
 * [dzone: The complete kubernetes collection tutorials and tools 🌟🌟🌟🌟](https://dzone.com/articles/the-complete-kubernetes-collection-tutorials-and-tools)
 * [dzone: kubernetes in 10 minutes a complete guide to look](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 * [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/ )
@@ -142,8 +142,8 @@
     * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
     * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
 * Helm Charts repositories:
-    * http://hub.helm.sh 🌟🌟🌟
-    * https://bitnami.com/stacks/helm
+    * [hub.helm.sh 🌟🌟🌟](http://hub.helm.sh) 
+    * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
 
 ## Other tools
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
