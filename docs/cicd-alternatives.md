@@ -1,0 +1,17 @@
+# CI/CD Alternatives
+* [jenkins-x.io (cloud native)](https://jenkins-x.io/)
+*	[spinnaker.io (cloud native)]https://www.spinnaker.io/   
+*	[Circle CI](https://circleci.com/)
+*	[Travis CI](https://travis-ci.org/)
+*	[Concourse](https://concourse-ci.org/)
+*	[Gocd](https://www.gocd.org/)
+*	[Codefresh](https://codefresh.io/)
+*	[skaffold](https://skaffold.dev/)
+*	[GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
+* [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
+* [Tekton (cloud native)](https://github.com/tektoncd/)
+    * [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
+    * [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
+    * [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
+    * [developers.redhat.com: An introduction to cloud native CI/CD with Red Hat OpenShift pipelines](https://developers.redhat.com/blog/2019/07/18/an-introduction-to-cloud-native-ci-cd-with-red-hat-openshift-pipelines/)
+    * [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 
