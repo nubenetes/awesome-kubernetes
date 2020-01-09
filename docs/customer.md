@@ -4,11 +4,13 @@
 * [Youtube: BMW enables the BMW Group to deliver the continuous service that today's consumers expect](https://www.youtube.com/watch?time_continue=5340&v=FUu4kMc0PL8): [Youtube video starts at 1:29:00] BMW Group started working with 4 Openshift clusters in 2016 to support ConnectedDrive, a solution that delivers IoT digital services since 20 years ago. It took them a full-time migration for 2 years with a big transformation of the culture of the company, migrating monolithic applications to microservices. This is a consequence of having 30% of growth of request rate, by selling 2.5 million of cars yearly, all of them connected. Traditional IT could not cope with this growth. In 2019 they have 19 Openshift Clusters worldwide, with 12000 containers, 300 microservices, and 1 Billion requests per week. Future plans are to move to OpenShift Dedicated in the Public Cloud since they need to be more scalable and resilient, while building an Artificial Intelligence platform with a Data Lake on the public cloud to offer the best possible experience to their customers.
 * [Video starts at 1:29:00] BMW Group started working with 4 Openshift Clusters in 2016 to support ConnectedDrive, a solution that delivers IoT digital services since 20 years ago. It took them a full-time migration for 2 years with a big transformation of the culture of the company, migrating monolithic applications to microservices. This is a consequence of having 30% of growth of request rate, by selling 2.5 million of cars yearly, all of them connected. Traditional IT could not cope with this growth. In 2019 they have 19 Openshift Clusters worldwide, with 12000 containers, 300 microservices, and 1 Billion requests per week. Future plans are to move to OpenShift Dedicated in the public cloud since they need to be more scalable and resilient, while building an Artificial Intelligence platform with a data lake on the public cloud to offer the best possible experience to their customers.
 
+
 <center>
   
 <iframe src="https://www.youtube.com/embed/FUu4kMc0PL8" frameborder="0" allow="autoplay; encrypted-media" start=7740 allowfullscreen></iframe>
 
 </center>
+
 
 <center>
   
