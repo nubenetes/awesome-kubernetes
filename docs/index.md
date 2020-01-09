@@ -30,6 +30,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
     - [Groovy](groovy.md)
     - [Jenkins Scripts](scripts/README.md)
+    - [CI/CD alternatives](cicd-alternatives.md)
 7. Toolchain
     - [Maven](maven.md)
     - [SonarQube](sonarqube.md)
