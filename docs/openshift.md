@@ -10,7 +10,7 @@
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
     - [Cluster Installers](#cluster-installers)
-    - [Networkv Policy](#networkpolicy)
+    - [Network Policy](#network-policy)
     - [Security](#security)
     - [Operators](#operators)
     - [Networking](#networking)
@@ -149,7 +149,7 @@
 * [blog.openshift.com: 9 steps to awesome with kubernetes openshift](https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/)
     * [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
 
-## NetworkPolicy
+## Network Policy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
 ## Security
