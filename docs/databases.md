@@ -7,6 +7,7 @@
 
 ### Crunchy Data
 * [crunchydata.com](https://www.crunchydata.com/)
+* [learn.crunchydata.com](https://learn.crunchydata.com/)
 * [github.com/CrunchyData](https://github.com/CrunchyData)
 * [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator)
 * [crunchydata blog: Deploying Active-Active PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/active-active-on-kubernetes)
