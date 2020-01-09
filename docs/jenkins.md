@@ -36,7 +36,7 @@
 * [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html)
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
 * [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
-* https://github.com/wardviaene/jenkins-course 🌟🌟🌟🌟
+* [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course) 🌟🌟🌟🌟
 * [jenkinsci.github.io 🌟🌟🌟🌟](http://jenkinsci.github.io/)
     * [job-dsl-plugin - Jenkins Job DSL API 🌟🌟🌟🌟](http://jenkinsci.github.io/job-dsl-plugin/ )
 * [uncontained.io: external jenkins integration](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
