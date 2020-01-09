@@ -1,5 +1,7 @@
 # CI/CD Alternatives
 *  [jenkins-x.io (cloud native)](https://jenkins-x.io/)
+    * [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
+    * [roadmap](https://jenkins-x.io/contribute/roadmap/)
 *	[spinnaker.io (cloud native)](https://www.spinnaker.io/)
 *	[Circle CI](https://circleci.com/)
 *	[Travis CI](https://travis-ci.org/)
@@ -16,3 +18,9 @@
     * [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
     * [developers.redhat.com: An introduction to cloud native CI/CD with Red Hat OpenShift pipelines](https://developers.redhat.com/blog/2019/07/18/an-introduction-to-cloud-native-ci-cd-with-red-hat-openshift-pipelines/)
     * [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 
+*  [Jenkins-X + Tekton on OpenShift (cloud native)](https://github.com/openshift/tektoncd-pipeline-operator)
+    * [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)
+    * [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
+    * [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)
+    * [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3)
+    
