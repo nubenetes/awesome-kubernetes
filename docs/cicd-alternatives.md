@@ -1,6 +1,6 @@
 # CI/CD Alternatives
-* [jenkins-x.io (cloud native)](https://jenkins-x.io/)
-*	[spinnaker.io (cloud native)]https://www.spinnaker.io/   
+*  [jenkins-x.io (cloud native)](https://jenkins-x.io/)
+*	[spinnaker.io (cloud native)](https://www.spinnaker.io/)
 *	[Circle CI](https://circleci.com/)
 *	[Travis CI](https://travis-ci.org/)
 *	[Concourse](https://concourse-ci.org/)
@@ -8,8 +8,8 @@
 *	[Codefresh](https://codefresh.io/)
 *	[skaffold](https://skaffold.dev/)
 *	[GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
-* [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
-* [Tekton (cloud native)](https://github.com/tektoncd/)
+*  [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
+*  [Tekton (cloud native)](https://github.com/tektoncd/)
     * [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
     * [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
     * [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
