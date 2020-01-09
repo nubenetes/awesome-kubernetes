@@ -1,7 +1,6 @@
 # CI/CD Alternatives
 *  [jenkins-x.io (cloud native)](https://jenkins-x.io/)
     * [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
-    * [roadmap](https://jenkins-x.io/contribute/roadmap/)
 *	[spinnaker.io (cloud native)](https://www.spinnaker.io/)
 *	[Circle CI](https://circleci.com/)
 *	[Travis CI](https://travis-ci.org/)
