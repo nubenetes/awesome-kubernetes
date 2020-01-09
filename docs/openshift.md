@@ -13,6 +13,7 @@
     - [Networkv Policy](#networkpolicy)
     - [Security](#security)
     - [Operators](#operators)
+    - [Networking](#networking)
     - [Demos](#demos)
     - [Videos](#videos)
     - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
@@ -183,6 +184,9 @@ Apply the SCC with the least privilege required
 
 ## Operators
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
+
+## Networking
+- [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
