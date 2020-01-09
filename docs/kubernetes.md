@@ -78,6 +78,9 @@
     * [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
 * [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
+* Kubernetes Patterns:
+    * [redhat.com: Kubernetes Patterns e-book 🌟🌟🌟🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+    * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
