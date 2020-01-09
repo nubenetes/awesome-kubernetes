@@ -37,6 +37,7 @@ pages:
   - Jenkins and Openshift. Demos : jenkins-and-openshift.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
+  - CI/CD alternatives: cicd-alternatives.md
 - Toolchain:
   - Maven: maven.md
   - SonarQube: sonarqube.md
