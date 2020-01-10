@@ -40,6 +40,7 @@ pages:
   - CI/CD alternatives: cicd-alternatives.md
 - Toolchain:
   - Maven: maven.md
+  - Gradle: gradle.md
   - SonarQube: sonarqube.md
   - Nexus: nexus.md
   - HAProxy: haproxy.md
