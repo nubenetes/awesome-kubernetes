@@ -61,6 +61,7 @@ pages:
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+  - Test Automation with Postman: postman.md
 - Public Cloud Solutions : public-cloud-solutions.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
