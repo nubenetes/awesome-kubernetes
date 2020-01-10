@@ -1,9 +1,11 @@
 # Git
 * [https://devdocs.io/git/](https://devdocs.io/git/)
 * [https://git-scm.com/book](https://git-scm.com/book)
-* [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
-* [zeroturnaround.com: Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
-* [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheets/git/)
+* Git Cheet Sheets:
+    * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
+    * [zeroturnaround.com: Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
+    * [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheets/git/)
+    * [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 * [tutorialzine.com: Learn git in 30 minutes 🌟🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
 * [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)
 * [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
@@ -11,7 +13,6 @@
 * [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks/)
 * [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
 * [dzone.com: intro git 🌟](https://dzone.com/articles/intro-git)
-* [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 * [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)
 * [dzone.com: 8 Useful But Not Well-Known Git Concepts](https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
 * [dzone.com: Git Commands Tutorial - Part 1](https://dzone.com/articles/git-commands-tutorial-part-1)
@@ -21,3 +22,8 @@
 * [How to Get More Out of Your Git Commit Message](https://datree.io/blog/git-commit-message-conventions-for-readable-git-log/)
 * [10 useful Git commands you wish existed – and their alternatives](https://datree.io/blog/useful-git-commands-list/)
 * [awesome git 🌟](https://github.com/dictcp/awesome-git)
+
+## BitBucket
+* [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+* [Dzone: source control using atlassian bitbucket](https://dzone.com/articles/source-control-using-atlassian-bitbucket)
+* [Dzone: how I use bitbucket in my regular routine](https://dzone.com/articles/how-i-use-bitbucket-in-my-regular-routine)
