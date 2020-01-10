@@ -9,3 +9,11 @@
 * [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 * [udemy.com: Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform/)
 * [Dzone: Platform as Code With Openshift and Terraform](https://dzone.com/articles/platform-as-code-with-openshift-amp-terraform) Learn how to set up a pipeline workflow with Openshift and the Terraform infrastructure-as-code tool to configure builds and deployments.
+* [Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
+* [Dzone: how to deploy apps effortlessly with packer and terraform](https://dzone.com/articles/how-to-deploy-apps-effortlessly-with-packer-and-te)
+* [Dzone: intro to terraform](https://dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
+* [Dzone: terraform with AWS](https://dzone.com/articles/terraform-with-aws)
+* [Dzone: managing infrastructure at scale with terraform](https://dzone.com/articles/managing-infrastructure-at-scale-with-terraform)
+* [Dzone: terraform and AWS](https://dzone.com/articles/terraform-and-aws)
+* [Dzone: What's new in Terraform v0.12](https://dzone.com/articles/whats-new-in-terraform-v012)
+* [Dzone: provisioning servers in cloud with terraform](https://dzone.com/articles/provisioning-servers-in-cloud-with-terraform)
