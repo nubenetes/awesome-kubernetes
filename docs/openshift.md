@@ -82,6 +82,7 @@
 * Kubestone - Benchmarking Operator for K8s and OpenShift:
     * [kubestone.io](https://kubestone.io)
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
+* [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
 
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
@@ -122,6 +123,7 @@
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
 * [Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://blog.openshift.com/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms/)
 * [youtube: OpenShift on Google Cloud, AWS, Azure and localhost](https://www.youtube.com/watch?v=G-baPg3XhBo)
+* [blog.openshift.com: Simplifying OpenShift Case Information Gathering Workflow: **Must-Gather Operator** (In the context of Red Hat OpenShift 4.x and Kubernetes, it is considered a bad practice to ssh into a node and perform debugging actions) 🌟🌟🌟🌟](https://blog.openshift.com/simplifying-openshift-case-information-gathering-workflow-must-gather-operator/)
 
 ## OKD4
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
