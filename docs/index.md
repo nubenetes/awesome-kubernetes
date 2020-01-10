@@ -33,6 +33,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [CI/CD alternatives](cicd-alternatives.md)
 7. Toolchain
     - [Maven](maven.md)
+    - [Gradle](gradle.md)
     - [SonarQube](sonarqube.md)
     - [Nexus](nexus.md)
     - [HAProxy](haproxy.md)
