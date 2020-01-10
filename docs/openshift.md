@@ -67,6 +67,20 @@
     * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qz/rbac_for_container_access_to_destroy_other/)
     * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
     * [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.com/joshmsmith/monkey-ops)
+* OpenShift GitOps:
+    * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.com/introduction-to-gitops-with-openshift/)
+        * [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/ )
+    * [blog.openshift.com: is it too late to integrate GitOps](https://blog.openshift.com/is-it-too-late-to-integrate-gitops/)
+* **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
+    * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
+    * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.com/openshift-hive-cluster-as-a-service/)
+    * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.com/watch?v=b_NOrGxfH5Y)
+* Helm Charts and OpenShift 4:
+    * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.com/build-kubernetes-operators-from-helm-charts-in-5-steps/)
+    * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
+* Kubestone - Benchmarking Operator for K8s and OpenShift:
+    * [kubestone.io](https://kubestone.io)
+    * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
 
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
@@ -95,21 +109,21 @@
 * [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
 * [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
 * [cloudowski.com: Honest review of OpenShift 4 🌟🌟🌟🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)
-* [github.com: Openshift 4 training](https://github.com/openshift/training)
+* OpenShift 4 Training:
+    * [github.com: Openshift 4 training](https://github.com/openshift/training)
+    * [learn.openshift.com](https://learn.openshift.com/)
+    * [learn.crunchydata.com](https://learn.crunchydata.com/)
 * [kubevirt.io 🌟🌟🌟🌟](https://kubevirt.io/)
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 * [Open Policy Agent 🌟🌟🌟](https://www.openpolicyagent.org/)
 * [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
 * [OpenShift 4.2 documentation 🌟🌟🌟](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/)
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
-* Operators:
-    * [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
-    * [operatorhub.io](https://operatorhub.io/)
-    * [learn.crunchydata.com 🌟🌟🌟](https://learn.crunchydata.com/) 
 * [Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://blog.openshift.com/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms/)
 * [youtube: OpenShift on Google Cloud, AWS, Azure and localhost](https://www.youtube.com/watch?v=G-baPg3XhBo)
 
 ## OKD4
+* [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
 
@@ -144,11 +158,15 @@
     * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
-* [openshift installer](https://github.com/openshift/installer)
-* [CI/CD Pipeline to deploy OpenShift Container Platform 4.x to AWS](https://github.com/r3dact3d/rhocp4_aws)
+* [github.com/openshift/installer openshift installer 🌟🌟🌟](https://github.com/openshift/installer)
+* [CI/CD Pipeline to deploy OpenShift Container Platform 4.x to AWS 🌟](https://github.com/r3dact3d/rhocp4_aws)
 * [blog.openshift.com: 9 steps to awesome with kubernetes openshift](https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/)
     * [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
-
+* OpenShift 4.2 deployment on vSphere:
+    * [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install/)
+    * [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
+    * [youtube](https://www.youtube.com/watch?v=DLB9m17aGus)    
+    
 ## Network Policy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
@@ -184,6 +202,9 @@ Apply the SCC with the least privilege required
 
 ## Operators
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
+- [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
+- [operatorhub.io](https://operatorhub.io/)
+- [learn.crunchydata.com 🌟🌟🌟](https://learn.crunchydata.com/) 
 
 ## Networking
 - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)
