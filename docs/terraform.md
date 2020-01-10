@@ -17,3 +17,7 @@
 * [Dzone: terraform and AWS](https://dzone.com/articles/terraform-and-aws)
 * [Dzone: What's new in Terraform v0.12](https://dzone.com/articles/whats-new-in-terraform-v012)
 * [Dzone: provisioning servers in cloud with terraform](https://dzone.com/articles/provisioning-servers-in-cloud-with-terraform)
+
+## Packer
+* [packer.io](https://packer.io/)
+* [packer.io docs](https://www.packer.io/docs/index.html)
