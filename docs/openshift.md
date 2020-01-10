@@ -42,11 +42,12 @@
 * [https://github.com/fabric8io/fabric8-pipeline-library](https://github.com/fabric8io/fabric8-pipeline-library)
 * [https://twitter.com/openshift](https://twitter.com/openshift) 
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
-* [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
-* [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
-* [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
-* [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
-* [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
+* OpenShift Cheet Sheets:
+    * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
+    * [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
+    * [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
+    * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
+    * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [Red Hat Consulting DevOps And OpenShift Playbooks 🌟🌟🌟](http://v1.uncontained.io/) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
 * [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
