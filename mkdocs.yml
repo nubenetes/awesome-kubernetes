@@ -47,6 +47,7 @@ pages:
 - Configuration Management:
   - Terraform: terraform.md
   - Ansible: ansible.md
+  - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
 - Networking on Kubernetes:
   - Istio Service Mesh: istio.md
