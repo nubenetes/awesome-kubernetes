@@ -71,7 +71,7 @@
 * OpenShift GitOps:
     * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.com/introduction-to-gitops-with-openshift/)
         * [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/ )
-    * [blog.openshift.com: is it too late to integrate GitOps](https://blog.openshift.com/is-it-too-late-to-integrate-gitops/)
+    * [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.com/is-it-too-late-to-integrate-gitops/)
     * [blog.openshift.com: OpenShift Authentication Integration with **ArgoCD**](https://blog.openshift.com/openshift-authentication-integration-with-argocd/)
 * **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
     * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
