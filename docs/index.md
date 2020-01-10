@@ -40,6 +40,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
+    - [Liquibase](liquibase.md)
 9. [Databases on Kubernetes](databases.md)
 10. Networking on Kubernetes
     - [Istio - Service Mesh](istio.md)
