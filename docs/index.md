@@ -37,6 +37,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Nexus](nexus.md)
     - [HAProxy](haproxy.md)
     - [Payara](payara.md)
+    - [Zephyr](zephyr.md)
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
