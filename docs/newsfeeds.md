@@ -25,4 +25,6 @@
 * [reddit.com/r/ansible](https://www.reddit.com/r/ansible/)
 * [reddit.com/r/postgres](https://www.reddit.com/r/postgres/)
 * [reddit.com/r/git](https://www.reddit.com/r/git/)
+* [reddit.com/r/java](https://www.reddit.com/r/java/)
+* [reddit.com/r/python](https://www.reddit.com/r/Python/)
 * [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
