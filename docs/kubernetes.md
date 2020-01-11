@@ -157,6 +157,7 @@
 
 ## Other tools
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+* [kubectl-debug](https://github.com/aylei/kubectl-debug)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
@@ -215,6 +216,7 @@
 ## Security
 * [cilium.io](https://cilium.io/)
 * [openpolicyagent.org](https://www.openpolicyagent.org/)
+    * [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
 * [Dzone - devops security at scale](https://dzone.com/articles/devops-security-at-scale)
 * [searchitoperations.techtarget.com: kubernetes policy project](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 
 * [Dzone - Kubernetes Policy Management with Kyverno](https://dzone.com/articles/kubernetes-policy-management-with-kyverno)
