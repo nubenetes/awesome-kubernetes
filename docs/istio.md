@@ -27,6 +27,10 @@
 - [envoyproxy.io](https://www.envoyproxy.io/)
 - [getenvoy.io](https://www.getenvoy.io/)
 
+## Kibana
+- [kibana](https://www.elastic.co/products/kibana)
+- [The Best Tools for Exporting Elasticsearch Data from Kibana](https://www.skedler.com/blog/the-best-tools-for-exporting-elasticsearch-data-from-kibana/)
+
 ## AWS App Mesh
 - [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh/)
 - [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)
