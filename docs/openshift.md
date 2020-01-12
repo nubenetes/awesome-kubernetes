@@ -80,6 +80,8 @@
 ## Red Hat Communities of Practice
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
 * [OpenShift Toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/)
+* [OpenShift Container Pipelines 🌟🌟🌟](https://github.com/redhat-cop/container-pipelines)
+* [OpenShift Pipeline Library 🌟🌟🌟](https://github.com/redhat-cop/pipeline-library)
 * [OpenShift Playbooks](https://github.com/redhat-cop/openshift-playbooks)
 
 ## Identity Management
