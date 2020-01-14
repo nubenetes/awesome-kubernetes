@@ -122,6 +122,7 @@
 * [Kubespray](https://github.com/kubernetes-sigs/kubespray)
 * [Conjure up](https://conjure-up.io/)
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
+* [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
 
 ## Rancher
 * [rancher.com](https://rancher.com/)
