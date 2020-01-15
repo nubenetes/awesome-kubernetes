@@ -214,7 +214,8 @@
 * [spring.io: spring boot with docker 🌟](https://spring.io/guides/gs/spring-boot-docker/)
 
 ## Troubleshooting
-* [Kubernetes troubleshooting diagram](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+* [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+* [Understanding Kubernetes cluster events 🌟🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)
 
 ## Security
 * [cilium.io](https://cilium.io/)
