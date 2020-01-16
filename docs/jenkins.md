@@ -66,6 +66,8 @@
 * [openshift-client](https://plugins.jenkins.io/openshift-client)
 * [openshift-login](https://plugins.jenkins.io/openshift-login)
 * [openshift-deployer](https://plugins.jenkins.io/openshift-deployer)
+* [kubernetes plugin](https://plugins.jenkins.io/kubernetes)
+* [Kubernetes Continuous Deploy 🌟🌟🌟](https://plugins.jenkins.io/kubernetes-cd)
 * [Atlassian's new Bitbucket Server integration for Jenkins 🌟🌟🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/)
 * etc
 
