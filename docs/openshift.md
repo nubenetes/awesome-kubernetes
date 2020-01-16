@@ -230,8 +230,9 @@ Apply the SCC with the least privilege required
 - [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ## Quay
+* [Red Hat Quay](https://www.openshift.com/products/quay)
 * [quay.io](https://quay.io/)
-* [GitHub Quay](https://github.com/quay/quay)
+* [GitHub Quay (OSS)](https://github.com/quay/quay)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
