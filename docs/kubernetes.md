@@ -83,6 +83,7 @@
     * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
 * [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
 * [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
+* [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟🌟🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
