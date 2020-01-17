@@ -5,6 +5,7 @@
 * [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
 * [Awesome Continuous Integration and Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd)
 * [DZone: Continuous Integration: Servers and Tools](https://dzone.com/refcardz/continuous-integration-servers) Learning to Utilize DevOps with Servers and Tools
+* [sdtimes.com: CI/CD pipelines are expanding 🌟🌟🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
 
 <iframe src="https://www.youtube.com/embed/N8R3-eNVoEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
