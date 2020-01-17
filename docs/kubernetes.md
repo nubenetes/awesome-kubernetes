@@ -77,7 +77,6 @@
     * [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://www.ovh.com/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/)
     * [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
-* [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
 * Kubernetes Patterns:
     * [redhat.com: Kubernetes Patterns e-book 🌟🌟🌟🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
     * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
@@ -162,6 +161,7 @@
 
 ## Other tools
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+* [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
 * [kubectl-debug](https://github.com/aylei/kubectl-debug)
 
 ## Demos
