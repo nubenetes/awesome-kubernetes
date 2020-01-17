@@ -49,6 +49,7 @@
     * [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms**](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
     * [CloudBees Core Configuration as Code (Preview)](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
 * [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow)
+* [sdtimes.com: CI/CD pipelines are expanding 🌟🌟🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
 
 ## Jenkins Scalability
 * [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
