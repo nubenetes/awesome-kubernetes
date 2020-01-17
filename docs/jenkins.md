@@ -46,8 +46,9 @@
 * [dzone: how to use basic jenkins pipelines](https://dzone.com/articles/how-to-use-basic-jenkins-pipelines)
 * [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * Configuration as Code for CloudBees Core on modern cloud platforms:
-    * [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms** 🌟🌟🌟🌟](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
+    * [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms** 🌟🌟🌟](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
     * [CloudBees Core Configuration as Code (Preview)](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
+* [Cloudbees Flow 🌟🌟🌟](https://www.cloudbees.com/products/flow)
 
 ## Jenkins Scalability
 * [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
