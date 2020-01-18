@@ -61,13 +61,16 @@
 * [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟🌟🌟🌟](https://caylent.com/jenkins-plugins)
 * [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/)
 * [dzone: Top 5 Jenkins Plugins (2017)](https://dzone.com/articles/5-best-jenkins-plugins-recommended-by-our-team)
+* [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity/)
 * [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
+* [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/)
 * [job-dsl-plugin 🌟🌟🌟](https://github.com/jenkinsci/job-dsl-plugin/wiki)
     * [job-dsl gradle example](https://github.com/sheehan/job-dsl-gradle-example)
  * Configuration as code plugin 🌟🌟🌟:
     * [dzone: jenkins configuration as code](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
     * [dzone: running jenkins server with configuration as code](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code)
     * [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
+    * [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
 * [Matrix 🌟🌟🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
 * [syslog-logger](https://plugins.jenkins.io/syslog-logger)
@@ -85,6 +88,7 @@
 * [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple)
 * [CloudBees AWS Credentials 🌟🌟](https://plugins.jenkins.io/aws-credentials)
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
+* [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
 * etc
 
 ## Jenkins DSL
