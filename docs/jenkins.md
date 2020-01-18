@@ -57,11 +57,11 @@
 * [rancher.com: sacling jenkins](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
 
 ## Jenkins Plugins
-* [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟🌟🌟🌟](https://caylent.com/jenkins-plugins)
 * [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)
+* [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟🌟🌟🌟](https://caylent.com/jenkins-plugins)
+* [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/)
 * [dzone: Top 5 Jenkins Plugins (2017)](https://dzone.com/articles/5-best-jenkins-plugins-recommended-by-our-team)
 * [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
-* [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/)
 * [job-dsl-plugin 🌟🌟🌟](https://github.com/jenkinsci/job-dsl-plugin/wiki)
     * [job-dsl gradle example](https://github.com/sheehan/job-dsl-gradle-example)
  * Configuration as code plugin 🌟🌟🌟:
