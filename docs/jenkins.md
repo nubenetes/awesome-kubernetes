@@ -48,7 +48,7 @@
 * Configuration as Code for CloudBees Core on modern cloud platforms 🌟🌟🌟:
     * [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms**](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
     * [CloudBees Core Configuration as Code (Preview)](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
-* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow)
+* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
 * [sdtimes.com: CI/CD pipelines are expanding 🌟🌟🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
 
 ## Jenkins Scalability
@@ -74,6 +74,12 @@
 * [kubernetes plugin](https://plugins.jenkins.io/kubernetes)
 * [Kubernetes Continuous Deploy 🌟🌟🌟](https://plugins.jenkins.io/kubernetes-cd)
 * [Atlassian's new Bitbucket Server integration for Jenkins 🌟🌟🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/)
+* [Cloudbees Flow 🌟🌟🌟](https://plugins.jenkins.io/electricflow)
+* [Cloudbees Credentials 🌟🌟](https://plugins.jenkins.io/cloudbees-credentials)
+* [CloudBees Health Advisor](https://plugins.jenkins.io/cloudbees-jenkins-advisor)
+* [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple)
+* [CloudBees AWS Credentials 🌟🌟](https://plugins.jenkins.io/aws-credentials)
+* [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
 * etc
 
 ## Jenkins DSL
