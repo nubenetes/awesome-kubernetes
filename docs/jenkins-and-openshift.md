@@ -17,8 +17,8 @@
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)
 * [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)
 * Improving Jenkins’ performance on Openshift:
-    * https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/
-    * https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/
+    * [blog.openshift.com: Deploying jenkins on openshift - part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
+    * [blog.openshift.com: Improving jenkins performance on openshift - part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/)
 * [blog.openshift.com - Building Declarative Pipelines with OpenShift DSL Plugin](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟🌟🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
 * [github - Pipelines tutorial 🌟🌟🌟](https://github.com/openshift/pipelines-tutorial)
