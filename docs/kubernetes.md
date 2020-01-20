@@ -20,6 +20,8 @@
 # Kubernetes
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+* [docs.kubernetes.io](http://docs.kubernetes.io/)
+* [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 * [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
 * [Awesome kubernetes 🌟🌟🌟🌟](https://github.com/ramitsurana/awesome-kubernetes)
 * [https://www.reddit.com/r/kubernetes 🌟🌟🌟](https://www.reddit.com/r/kubernetes) 
