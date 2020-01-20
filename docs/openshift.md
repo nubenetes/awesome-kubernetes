@@ -18,6 +18,7 @@
     - [Videos](#videos)
     - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
     - [Quay](#quay)
+    - [OpenShift on AWS](#openshift-on-aws)
     - [Slides](#slides)
 
 <!-- /TOC -->
@@ -269,6 +270,10 @@ Apply the SCC with the least privilege required
 * [projectquay.io](https://www.projectquay.io/)
 * [quay.io](https://quay.io/)
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
+
+## OpenShift on AWS
+* [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
+* [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift/) View deployment guide
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
