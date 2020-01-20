@@ -79,6 +79,7 @@
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
 * Kubernetes Patterns:
     * [redhat.com: Kubernetes Patterns e-book 🌟🌟🌟🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+    * [github.com/k8spatterns/examples 🌟🌟🌟](https://github.com/k8spatterns/examples) Examples for "Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications"
     * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
     * [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟🌟🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
 * [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
