@@ -85,6 +85,7 @@
 * [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
 * [techbeacon.com: Why teams fail with Kubernetes—and what to do about it 🌟🌟🌟](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
 * [itnext.io: Kubernetes rolling updates, rollbacks and multi-environments 🌟🌟🌟](https://itnext.io/kubernetes-rolling-updates-rollbacks-and-multi-environments-4ff9912df5)
+* [learnk8s.io: Architecting Kubernetes clusters — choosing a worker node size 🌟🌟🌟](https://learnk8s.io/kubernetes-node-size)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
