@@ -78,6 +78,10 @@
 * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
 
 ## Red Hat Communities of Practice
+* [uncontained.io](http://uncontained.io/)
+    * [uncontained.io/articles/openshift-ha-installation](http://uncontained.io/articles/openshift-ha-installation/ )
+    * [uncontained.io/articles/openshift-and-the-org](http://uncontained.io/articles/openshift-and-the-org/) 
+* [v1.uncontained.io](http://v1.uncontained.io/) Red Hat Consulting DevOps & OpenShift Playbooks
 * [Red Hat Communities of Practice](https://github.com/redhat-cop)
 * [OpenShift Toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/)
 * [OpenShift Container Pipelines 🌟🌟🌟](https://github.com/redhat-cop/container-pipelines)
@@ -122,6 +126,7 @@
 * [blog.openshift.com: Introducing Red Hat OpenShift 4.3 to Enhance Kubernetes Security 🌟🌟🌟](https://blog.openshift.com/introducing-red-hat-openshift-4-3-to-enhance-kubernetes-security/) OpenShift 4.3 adds new capabilities and platforms to the installer, helping customers to embrace their company’s best security practices and gain greater access control across hybrid cloud environments. Customers can deploy OpenShift clusters to customer-managed, pre-existing VPN / VPC (Virtual Private Network / Virtual Private Cloud) and subnets on AWS, Microsoft Azure and Google Cloud Platform. They can also install OpenShift clusters with private facing load balancer endpoints, not publicly accessible from the Internet, on AWS, Azure and GCP.
     * [containerjournal.com: Red Hat Delivers Latest Kubernetes Enhancements](https://containerjournal.com/topics/container-management/red-hat-delivers-latest-kubernetes-enhancements/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
+* [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
 
 ## OKD4
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
@@ -137,7 +142,7 @@
 ## Online Learning
 * [learn.openshift.com 🌟🌟🌟🌟](https://learn.openshift.com) Interactive Learning Portal
 * [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
-* [Red Hat Tutorials & Examples 🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io 🌟🌟](http://redhatgov.io/)
 * [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 * [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
@@ -231,6 +236,7 @@ Apply the SCC with the least privilege required
 - [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ## Quay
+* [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)
 * [Red Hat Quay](https://www.openshift.com/products/quay)
 * [quay.io](https://quay.io/)
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
