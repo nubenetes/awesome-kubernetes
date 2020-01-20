@@ -77,6 +77,7 @@
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
 * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
 * [blog.openshift.com - Kubernetes: A Pod’s Life 🌟🌟🌟](https://blog.openshift.com/kubernetes-pods-life/)
+* [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
