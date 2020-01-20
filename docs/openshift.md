@@ -103,7 +103,8 @@
 * [Dzone: What’s in OpenShift 4?](https://dzone.com/articles/whats-in-openshift-4)
 * [youtube: Installing OpenShift 4 on AWS with operatorhub.io integration 🌟🌟🌟🌟](https://www.youtube.com/watch?v=kQJxGtsqphk)
 * [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
-* [blog.openshift.com: OpenShift 4 Roadmap](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
+* [blog.openshift.com: OpenShift 4 Roadmap (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
+* [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 * [developers.redhat.com: Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
@@ -238,6 +239,7 @@ Apply the SCC with the least privilege required
 ## Quay
 * [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)
 * [Red Hat Quay](https://www.openshift.com/products/quay)
+* [projectquay.io](https://www.projectquay.io/)
 * [quay.io](https://quay.io/)
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
 
