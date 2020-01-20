@@ -201,6 +201,10 @@
 
 ## Security
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟🌟](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
+- How is OpenShift Container Platform Secured?:
+    - [docs.openshift.com/container-platform/3.11/architecture/index.html](https://docs.openshift.com/container-platform/3.11/architecture/index.html)
+    - [docs.openshift.com/container-platform/3.11/security/securing_container_platform.html](https://docs.openshift.com/container-platform/3.11/security/securing_container_platform.html)
+    - [ocs.openshift.com/container-platform/4.2/authentication/understanding-authentication.html](https://docs.openshift.com/container-platform/4.2/authentication/understanding-authentication.html)
 - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
     - [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html#security-context-constraints)
 - [Dzone: Understanding OpenShift Security Context Constraints](https://dzone.com/articles/understanding-openshift-security-context-constrain)
