@@ -78,6 +78,22 @@
 * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
 * [blog.openshift.com - Kubernetes: A Pod’s Life 🌟🌟🌟](https://blog.openshift.com/kubernetes-pods-life/)
 * [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
+* Capacity Management:
+    * [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://blog.openshift.com/full-cluster-capacity-management-monitoring-openshift/)
+    * [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://blog.openshift.com/full-cluster-part-2-protecting-nodes/)
+    * [full-cluster-part-3-capacity-management](https://blog.openshift.com/full-cluster-part-3-capacity-management/)
+    * [blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler](https://blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler/)
+    * [blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard](https://blog.openshift.com/how-full-is-my-cluster-part-5-a-capacity-management-dashboard/)
+* OpenShift High Availability:
+    * [blog.openshift.com/tag/multi-datacenter](https://blog.openshift.com/tag/multi-datacenter/)
+    * [blog.openshift.com/deploying-openshift-applications-multiple-datacenters](https://blog.openshift.com/deploying-openshift-applications-multiple-datacenters/)
+    * [blog.openshift.com/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it](https://blog.openshift.com/metro-area-openshift-stretch-cluster-how-to-survive-an-outage-and-live-to-tell-about-it/)
+    * [blog.openshift.com/stateful-workloads-and-the-two-data-center-conundrum](https://blog.openshift.com/stateful-workloads-and-the-two-data-center-conundrum/)
+    * [OpenShift 3.11 Multi-cluster Federation](https://blog.openshift.com/kubernetes-federation-v2-on-openshift-3-11/)
+    * [Multi-cluster Federation in OpenShift 4 is called **KubeFed**](https://blog.openshift.com/federation-v2-is-now-kubefed/)
+    * [Using KubeFed to deploy applications](https://blog.openshift.com/using-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters/)
+    * [Katacoda e-learning platform – Federated Clusters](https://www.katacoda.com/openshift/courses/introduction/federated-clusters)
+    * [KubeFed Operator](https://operatorhub.io/operator/kubefed-operator)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
@@ -130,6 +146,8 @@
     * [containerjournal.com: Red Hat Delivers Latest Kubernetes Enhancements](https://containerjournal.com/topics/container-management/red-hat-delivers-latest-kubernetes-enhancements/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
+* [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
+](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 
 ## OKD4
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
@@ -175,7 +193,9 @@
     * [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install/)
     * [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
     * [youtube](https://www.youtube.com/watch?v=DLB9m17aGus)    
-    
+* [OpenShift 4.2 vSphere Install Quickstart](https://blog.openshift.com/openshift-4-2-vsphere-install-quickstart/) 
+* [OpenShift 4.2 vSphere Install with Static IPs 🌟🌟🌟](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
+ 
 ## Network Policy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
