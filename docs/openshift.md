@@ -195,10 +195,9 @@
     * [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
 * OpenShift 4.2 deployment on vSphere:
     * [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install/)
-    * [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
+    * [blog.openshift.com: OpenShift 4.2 vSphere Install Quickstart](https://blog.openshift.com/openshift-4-2-vsphere-install-quickstart/) 
+    * [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs 🌟🌟🌟](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
     * [youtube](https://www.youtube.com/watch?v=DLB9m17aGus)    
-* [OpenShift 4.2 vSphere Install Quickstart](https://blog.openshift.com/openshift-4-2-vsphere-install-quickstart/) 
-* [OpenShift 4.2 vSphere Install with Static IPs 🌟🌟🌟](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
  
 ## Network Policy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
