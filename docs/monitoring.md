@@ -11,12 +11,25 @@
 * Java:
   * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
   * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
+* [Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
+## Distributed Tracing
+- [opentelemetry.io](https://opentelemetry.io/) **OpenTracing.io + OpenCensus.io = OpenTelemetry.io**
+- [Jaeger](https://www.jaegertracing.io/)
+ - [Jaeger Demo1](https://github.com/obitech/micro-obs)
+ - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
+- [zipkin.io](https://zipkin.io/)
+   
 ## Application Performance Management
 * [en.wikipedia.org/wiki/Application_performance_management](https://en.wikipedia.org/wiki/Application_performance_management)
 * [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
 * [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 * [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
+* APM Tools:
+   * [datadoghq.com](https://www.datadoghq.com/)
+   * [honeycomb.io](https://www.honeycomb.io)
+   * [lightstep.com](https://lightstep.com)
+   * [skywalking.apache.org](https://skywalking.apache.org/)
 * List of Performance Analysis Tools:
     * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
     * [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
