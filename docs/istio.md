@@ -10,6 +10,7 @@
 - [blog.christianposta.com: Istio as an Example of When Not to Do Microservices](https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/)
 - [istiobyexample.dev 🌟🌟🌟](https://istiobyexample.dev/)
   - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev/fault-injection/)
+- [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
