@@ -64,7 +64,7 @@ pages:
   - GitKraken: gitkraken.md
   - Linux Dev Environment: linux-dev-env.md
 - Java Frameworks:
-  - SpringBoot: quarkus.md
+  - SpringBoot: SpringBoot.md
   - Quarkus: quarkus.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
