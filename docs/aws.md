@@ -7,3 +7,6 @@
     - [Cloudcraft](https://cloudcraft.co/)
     - [hyperglance](https://www.hyperglance.com/)
     - AWS CloudFormer + AWS CloudFormation Designer
+    
+## EKS
+- [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
