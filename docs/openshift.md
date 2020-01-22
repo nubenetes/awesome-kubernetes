@@ -95,6 +95,9 @@
     * [Using KubeFed to deploy applications](https://blog.openshift.com/using-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters/)
     * [Katacoda e-learning platform – Federated Clusters](https://www.katacoda.com/openshift/courses/introduction/federated-clusters)
     * [KubeFed Operator](https://operatorhub.io/operator/kubefed-operator)
+* Troubleshooting Java applications on Openshift (Openshift 3):
+    * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
+    * [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
