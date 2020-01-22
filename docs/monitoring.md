@@ -14,7 +14,7 @@
 * [Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
 ## Distributed Tracing
-- [opentelemetry.io](https://opentelemetry.io/) **OpenTracing.io + OpenCensus.io = OpenTelemetry.io**
+- [opentelemetry.io](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [Jaeger](https://www.jaegertracing.io/)
   - [Jaeger Demo1](https://github.com/obitech/micro-obs)
   - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
