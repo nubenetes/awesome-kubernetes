@@ -20,6 +20,7 @@
 * [Youtube: OpenShift Meetup Tokyo #05 - Operator and Operator Lifecycle Manager on OpenShift (2019, openshift 4.1)](https://www.youtube.com/watch?v=X4vuktlK0Tg)
 * [info.crunchydata.com: Monitoring PostgreSQL clusters in kubernetes](https://info.crunchydata.com/blog/monitoring-postgresql-clusters-in-kubernetes)
 * [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
+* [info.crunchydata.com: Deploy High-Availability PostgreSQL Clusters on Kubernetes by Example](https://info.crunchydata.com/blog/deploy-high-availability-postgresql-on-kubernetes)
 
 ### Spilo 
 * [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
