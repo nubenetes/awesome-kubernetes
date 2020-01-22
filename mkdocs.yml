@@ -63,7 +63,7 @@ pages:
   - Visual Studio: visual-studio.md
   - GitKraken: gitkraken.md
   - Linux Dev Environment: linux-dev-env.md
-- Java Frameworks:
+- Frameworks:
   - Angular: angular.md
   - SpringBoot: SpringBoot.md
   - Quarkus: quarkus.md
