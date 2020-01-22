@@ -63,6 +63,9 @@ pages:
   - Visual Studio: visual-studio.md
   - GitKraken: gitkraken.md
   - Linux Dev Environment: linux-dev-env.md
+- Java Frameworks:
+  - SpringBoot: quarkus.md
+  - Quarkus: quarkus.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
