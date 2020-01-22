@@ -240,6 +240,7 @@
     * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
     * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
     * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
+* [magalix.com: kubernetes authentication 🌟🌟](https://www.magalix.com/blog/kubernetes-authentication)
 
 ## EKS
 * [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
