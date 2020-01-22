@@ -154,9 +154,9 @@
 * [codefresh.io: Using Helm 3 with Helm 2 charts](https://codefresh.io/helm-tutorial/taking-helm-3-spin/)
 * Helm Charts:
     * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
-    * [Codecentric Jenkins](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins)
+    * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins)
     * [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
-    * [Choerodon Nexus3](https://hub.helm.sh/charts/choerodon/nexus3)
+    * [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3)
     * [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
     * [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
     * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
