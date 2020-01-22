@@ -8,6 +8,8 @@
 - [medium.com/solo-io blog](https://medium.com/solo-io) Connecting the world’s applications with APIs and Service Mesh
 - [medium.com/solo-io: Istio the Easy Way (Again!)](https://medium.com/solo-io/istio-the-easy-way-again-b0504347b7ce)
 - [blog.christianposta.com: Istio as an Example of When Not to Do Microservices](https://blog.christianposta.com/microservices/istio-as-an-example-of-when-not-to-do-microservices/)
+- [istiobyexample.dev 🌟🌟🌟](https://istiobyexample.dev/)
+  - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev/fault-injection/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
