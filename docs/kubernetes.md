@@ -227,7 +227,7 @@
 
 ## Security
 * [cilium.io](https://cilium.io/)
-* [openpolicyagent.org](https://www.openpolicyagent.org/)
+* [openpolicyagent.org  🌟🌟🌟](https://www.openpolicyagent.org/)
     * [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
 * [Dzone - devops security at scale](https://dzone.com/articles/devops-security-at-scale)
 * [searchitoperations.techtarget.com: kubernetes policy project](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 
