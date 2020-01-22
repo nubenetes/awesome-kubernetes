@@ -57,7 +57,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-13. Java Frameworks
+13. Frameworks
+    - [Angular](angular.md)
     - [SpringBoot](SpringBoot.md)
     - [Quarkus](quarkus.md)
 14. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
