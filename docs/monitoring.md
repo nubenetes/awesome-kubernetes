@@ -16,8 +16,8 @@
 ## Distributed Tracing
 - [opentelemetry.io 🌟🌟🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [Jaeger](https://www.jaegertracing.io/)
-  - [Jaeger Demo1](https://github.com/obitech/micro-obs)
-  - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
+   - [Jaeger Demo1](https://github.com/obitech/micro-obs)
+   - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
 - [zipkin.io](https://zipkin.io/)
    
 ## Application Performance Management
