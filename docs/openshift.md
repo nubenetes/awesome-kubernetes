@@ -76,7 +76,9 @@
 * Kubestone - Benchmarking Operator for K8s and OpenShift:
     * [kubestone.io](https://kubestone.io)
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
-* [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
+* Debugging apps 🌟🌟🌟:
+    * [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15/installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
+    * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
 * [blog.openshift.com - Kubernetes: A Pod’s Life 🌟🌟🌟](https://blog.openshift.com/kubernetes-pods-life/)
 * [Container-native virtualization allows to run and manage virtual machine workloads alongside container workloads](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/container-native_virtualization/container-native-virtualization-2-1-release-notes)
 * Capacity Management:
