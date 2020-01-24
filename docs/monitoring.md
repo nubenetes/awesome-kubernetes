@@ -33,13 +33,14 @@
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
     * [skywalking.apache.org](https://skywalking.apache.org/)
-* List of Performance Analysis Tools. Threadumps + heapdumps + GC analysis tools:
+* List of Performance Analysis Tools:
+    * Threadumps + heapdumps + GC analysis tools
     * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
     * [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
     * [VisualVM 🌟🌟🌟](https://en.wikipedia.org/wiki/VisualVM)
     * [OverOps](https://en.wikipedia.org/wiki/OverOps)
     * [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
-* [tier1app.com (Threadumps + heapdumps + GC analysis tools)](https://tier1app.com/)
+* [tier1app.com (Threadumps + heapdumps + GC analysis tools)](https://tier1app.com/):
     * [fastthread.io 🌟🌟🌟](https://fastthread.io/)
     * [gceasy.io 🌟🌟🌟](https://gceasy.io/)
     * [heaphero.io](https://heaphero.io/)
