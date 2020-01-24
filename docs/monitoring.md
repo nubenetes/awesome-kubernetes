@@ -16,8 +16,8 @@
 ## Distributed Tracing
 - [opentelemetry.io 🌟🌟🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [Jaeger](https://www.jaegertracing.io/)
-    - [Jaeger Demo1](https://github.com/obitech/micro-obs)
-    - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
+     - [Jaeger Demo1](https://github.com/obitech/micro-obs)
+     - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
 - [zipkin.io](https://zipkin.io/)
    
 ## Application Performance Management
@@ -25,6 +25,9 @@
 * [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
 * [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 * [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
+* Exception Tracking:
+    * [sentry.io](https://sentry.io/)
+    * APMs like Dynatrace, etc.
 * APM Tools:
     * [datadoghq.com](https://www.datadoghq.com/)
     * [honeycomb.io](https://www.honeycomb.io)
@@ -42,9 +45,6 @@
          * [fastthread.io](https://fastthread.io/)
          * [gceasy.io](https://gceasy.io/)
          * [heaphero.io](https://heaphero.io/)
-* Exception Tracking:
-    * [sentry.io](https://sentry.io/)
-    * APMs like Dynatrace, etc.
 
 ### Dynatrace
 * [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
