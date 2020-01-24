@@ -69,7 +69,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [AWS](aws.md)
 16. [E-Learning](elearning.md)
 17. [Customer Success Stories 🌟](customer.md)
-18. [Newsfeeds and subreddits](newsfeeds.md)
+18. [Subreddits and Newsfeeds](newsfeeds.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
