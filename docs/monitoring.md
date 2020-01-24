@@ -43,8 +43,8 @@
          * [gceasy.io](https://gceasy.io/)
          * [heaphero.io](https://heaphero.io/)
 * Exception Tracking:
-   * [sentry.io](https://sentry.io/)
-   * APMs like Dynatrace, etc.
+    * [sentry.io](https://sentry.io/)
+    * APMs like Dynatrace, etc.
 
 ### Dynatrace
 * [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
