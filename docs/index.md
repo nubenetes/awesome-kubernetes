@@ -55,6 +55,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 10. Networking on Kubernetes
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
+    - [Linkerd - Service Mesh](https://linkerd.io/)
+    - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
 11. [Security Policy as Code](securityascode.md)
 12. Dev Environment    
