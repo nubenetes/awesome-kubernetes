@@ -44,8 +44,7 @@
     * [VisualVM 🌟🌟🌟](https://en.wikipedia.org/wiki/VisualVM)
     * [OverOps](https://en.wikipedia.org/wiki/OverOps)
     * [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
-* [tier1app.com](https://tier1app.com/):
-    * Threadumps + heapdumps + GC analysis tools
+    * [tier1app.com](https://tier1app.com/)
     * [fastthread.io 🌟🌟🌟](https://fastthread.io/)
     * [gceasy.io 🌟🌟🌟](https://gceasy.io/)
     * [heaphero.io](https://heaphero.io/)
