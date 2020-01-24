@@ -16,7 +16,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 <div id="player"></div>
 
 <center>
+    
 [Please also consider this other awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+
 </center>
 ## Table of Contents
 
