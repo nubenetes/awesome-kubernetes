@@ -9,8 +9,8 @@
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 * [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
 * Java:
-   * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
-   * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
+    * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
+    * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 * [Performance Patterns in Microservices-Based Integrations 🌟🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
 ## Distributed Tracing
