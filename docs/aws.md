@@ -64,7 +64,7 @@
     - [AWS Lambda](#aws-lambda)
     - [AWS Cloud Formation](#aws-cloud-formation)
     - [AWS for Windows](#aws-for-windows)
-    - [Continuous Deployment with AWS. iCook recipe sharing platform](#continuous-deployment-with-aws-icook-recipe-sharing-platform)
+    - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
     - [AWS Security](#aws-security)
         - [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
         - [AWS IAM](#aws-iam)
@@ -355,7 +355,8 @@
 ## AWS for Windows
 - [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS
 
-## Continuous Deployment with AWS. iCook recipe sharing platform 
+## Continuous Deployment with AWS
+- [Continuous Deployment with AWS](https://aws.amazon.com/blogs/devops/tag/continuous-deployment/)
 
 ## AWS Security
 - [AWS Security Blog 🌟🌟](http://blogs.aws.amazon.com/security)
