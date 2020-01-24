@@ -33,6 +33,7 @@
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
     * [skywalking.apache.org](https://skywalking.apache.org/)
+    * [Elastic APM](https://www.elastic.co/products/apm)
 * List of Performance Analysis Tools:
     * Threadumps + heapdumps + GC analysis tools
     * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
