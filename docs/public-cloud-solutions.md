@@ -17,12 +17,3 @@
 ### References
 * [https://dzone.com/articles/5-hosted-kubernetes-platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)
 
-## Subreddits
-- [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
-- [reddit.com/r/openshift](https://www.reddit.com/r/openshift)
-- [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)
-- [reddit.com/r/digitalocean](https://www.reddit.com/r/digitalocean) Official Digital Ocean subreddit
-- [reddit.com/r/digital_ocean](https://www.reddit.com/r/digital_ocean/) An unofficial subreddit created by Reddit users who happen to be DO users.
-- [reddit.com/r/aws](https://www.reddit.com/r/aws) AWS Support now officially on Reddit (Account & Billing questions)
-- [reddit.com/r/azure](https://www.reddit.com/r/azure)
-- [reddit.com/r/googlecloud](https://www.reddit.com/r/googlecloud/)
