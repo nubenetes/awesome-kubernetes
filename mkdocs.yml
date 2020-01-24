@@ -76,7 +76,7 @@ pages:
   - AWS: aws.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
-- Newsfeeds : newsfeeds.md
+- Subreddits: newsfeeds.md
 - About: about.md
 
 copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
