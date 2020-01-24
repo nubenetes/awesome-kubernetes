@@ -32,11 +32,11 @@
     * [datadoghq.com](https://www.datadoghq.com/)
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
-    * [skywalking.apache.org](https://skywalking.apache.org/)
-    * [Elastic APM](https://www.elastic.co/products/apm)
-    * [AppDynamics](https://www.appdynamics.com/)
-    * [New Relic](https://newrelic.com/)
-    * [Dynatrace](https://www.dynatrace.com/)
+    * [skywalking.apache.org 🌟](https://skywalking.apache.org/)
+    * [Elastic APM 🌟](https://www.elastic.co/products/apm)
+    * [AppDynamics 🌟🌟](https://www.appdynamics.com/)
+    * [New Relic 🌟🌟](https://newrelic.com/)
+    * [Dynatrace 🌟🌟🌟](https://www.dynatrace.com/)
 * List of Performance Analysis Tools:
     * Threadumps + heapdumps + GC analysis tools
     * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
@@ -45,8 +45,8 @@
     * [OverOps](https://en.wikipedia.org/wiki/OverOps)
     * [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
     * [tier1app.com](https://tier1app.com/)
-    * [fastthread.io 🌟🌟🌟](https://fastthread.io/)
-    * [gceasy.io 🌟🌟🌟](https://gceasy.io/)
+    * [fastthread.io 🌟](https://fastthread.io/)
+    * [gceasy.io 🌟](https://gceasy.io/)
     * [heaphero.io](https://heaphero.io/)
 
 ### Dynatrace APM
