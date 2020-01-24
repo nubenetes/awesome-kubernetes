@@ -233,6 +233,7 @@
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
+- [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
 
 ## AWS Application Discovery Service
 - [AWS Application Discovery Service 🌟](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
