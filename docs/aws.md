@@ -116,8 +116,6 @@
 ## AWS Application Architecture
 - [AWS application-architecture 🌟🌟🌟](http://www.conceptdraw.com/examples/application-architecture)
 
-[![aws_concept_draw](images/aws_concept_draw.png)](http://www.conceptdraw.com/examples/application-architecture)
-
 ## AWS Stacks
 - [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
 
@@ -236,15 +234,11 @@
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
 
-[![Replicating_AuroraDB_Clusters_Across_AWS_Regions](images/Replicating_AuroraDB_Clusters_Across_AWS_Regions.png)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html)
-
 ## AWS Application Discovery Service
 - [AWS Application Discovery Service 🌟](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
 
 ## New AWS Competency. AWS Migration
 - [New AWS Competency – AWS Migration 🌟🌟🌟](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
-
-[![aws_migrating_apps_to_saas](images/aws_migrating_apps_to_saas.png)](https://aws.amazon.com/blogs/apn/migrating-applications-to-saas-a-minimally-invasive-approach/)
 
 ## AWS Database Migration Service
 - [AWS Database Migration Service 🌟](https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/)
