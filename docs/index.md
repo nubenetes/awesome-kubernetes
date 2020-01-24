@@ -6,9 +6,9 @@
 </head>
 A curated list of awesome references collected since 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
-[Consider 1st this other "awesome kubernetes"](https://github.com/ramitsurana/awesome-kubernetes)
 
 <center>
+[Consider 1st this other "awesome kubernetes"](https://github.com/ramitsurana/awesome-kubernetes)
 
 |[![openshift videos](images/docker_kubernetes_openshift.png)](https://www.youtube.com/user/rhopenshift)|[![jenkins videos](images/jenkins-logo.png)](https://www.youtube.com/user/CloudBeesTV)|
 |:---:|:---:|
