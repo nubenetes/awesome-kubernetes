@@ -15,8 +15,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 </center>
 <div id="player"></div>
 
-[Please, also consider this other awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
-
+<center>
+[Please also consider this other awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+</center>
 ## Table of Contents
 
 1. [Introduction. Openshift VS Kubernetes](introduction.md)
