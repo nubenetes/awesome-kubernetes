@@ -1,10 +1,4 @@
-# Newsfeeds
-* [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
-* [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
-* [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
-* [feedly.com](https://feedly.com)
-
-## Subreddits
+# Subreddits
 * [reddit.com/r/devops](https://www.reddit.com/r/devops/)
 * [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
 * [reddit.com/r/openshift](https://www.reddit.com/r/openshift/)
@@ -30,3 +24,9 @@
 * [reddit.com/r/java](https://www.reddit.com/r/java/)
 * [reddit.com/r/python](https://www.reddit.com/r/Python/)
 * [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
+
+# Newsfeeds
+* [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
+* [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
+* [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
+* [feedly.com](https://feedly.com)
