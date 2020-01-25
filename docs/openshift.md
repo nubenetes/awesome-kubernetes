@@ -26,6 +26,7 @@
 # Openshift
 * [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
 * [try.openshift.com 🌟🌟🌟🌟](https://try.openshift.com/) 
+* [openshift.io 🌟🌟🌟](https://openshift.io/) an online IDE for building container-based apps, built for team collaboration.
 * [docs.openshift.com](https://docs.openshift.com/)
 * [https://github.com/openshift/origin 🌟🌟🌟](https://github.com/openshift/origin)
     * [Using Jenkins Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
