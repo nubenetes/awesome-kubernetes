@@ -397,6 +397,7 @@
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
 
 ## AWS S3 & EBS. AWS Storage Gateway
+- [S3 FAQ 🌟🌟🌟](https://aws.amazon.com/s3/faqs/)
 - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html) Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.
 - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting/)
 - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)
