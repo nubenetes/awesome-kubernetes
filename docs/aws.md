@@ -117,7 +117,6 @@
 - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## Closed groups for AWS certified professionals
-- [Linkedin](https://www.linkedin.com/grp/home?gid=6814264)
 - [awscerts.slack.com](https://awscerts.slack.com)
 - [Amazon AWS Certification Preparation Tips 🌟🌟🌟](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips/)
 - [A curated list of AWS resources to prepare for the AWS Certifications 🌟🌟](https://gist.github.com/leonardofed)
