@@ -1,16 +1,3 @@
-# AWS
-- [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F)
-    - [hava.io](https://www.hava.io/)
-    - [CloudMapper (OSS)](https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool)
-    - [Lucidchart](https://www.lucidchart.com/pages/integrations/aws-architecture-import)
-    - [infviz.io](https://infviz.io/)
-    - [Cloudcraft](https://cloudcraft.co/)
-    - [hyperglance](https://www.hyperglance.com/)
-    - AWS CloudFormer + AWS CloudFormation Designer
-    
-## EKS
-- [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
-
 
 <br/>
 <p align="center">
@@ -66,10 +53,10 @@
     - [AWS for Windows](#aws-for-windows)
     - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
     - [AWS Security](#aws-security)
-        - [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
-        - [AWS IAM](#aws-iam)
-        - [AWS CloudFront](#aws-cloudfront)
-        - [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+   	- [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
+       	- [AWS IAM](#aws-iam)
+       	- [AWS CloudFront](#aws-cloudfront)
+       	- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
     - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
     - [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
     - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
@@ -85,6 +72,7 @@
     - [Amazon Alexa. Voice User Interface](#amazon-alexa-voice-user-interface)
     - [AWS Partner Network \(APN\)](#aws-partner-network-apn)
     - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
+    - [EKS](#eks)
 
 <!-- /MarkdownTOC -->
 
@@ -419,6 +407,12 @@
 ## AWS Diagrams
 - [cloudcraft.co](https://cloudcraft.co/)
 - [hava.io](https://www.hava.io/)
+- [CloudMapper (OSS)](https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool)
+- [Lucidchart](https://www.lucidchart.com/pages/integrations/aws-architecture-import)
+- [infviz.io](https://infviz.io/)
+- [hyperglance](https://www.hyperglance.com/)
+- AWS CloudFormer + AWS CloudFormation Designer
+- [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F)
 
 ## AWS Config Rules
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
@@ -467,3 +461,5 @@
 - [medium.com: Building a Serverless Dynamic DNS System with AWS](https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8#.qq54pucbd)
 - [medium.com: The Top 10 AWS Startup Blog Posts of 2015](https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb)
 
+## EKS
+- [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
