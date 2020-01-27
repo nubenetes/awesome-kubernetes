@@ -73,6 +73,7 @@
     - [AWS Partner Network \(APN\)](#aws-partner-network-apn)
     - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
     - [EKS](#eks)
+    - [Spain](#spain)
 
 <!-- /MarkdownTOC -->
 
@@ -463,3 +464,6 @@
 
 ## EKS
 - [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
+
+## Spain
+- [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
