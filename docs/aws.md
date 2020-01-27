@@ -362,6 +362,7 @@
 ## AWS Security
 - [AWS Security Blog 🌟🌟](http://blogs.aws.amazon.com/security)
 - [AWS Security 🌟🌟🌟](https://aws.amazon.com/security/)
+- [AWS Security docs 🌟🌟🌟🌟](https://docs.aws.amazon.com/security/)
 - [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)
 - [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)
 - [dzone: Private Subnets Are Broken on AWS](https://dzone.com/articles/private-subnets-are-broken-on-aws)
