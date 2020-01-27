@@ -12,6 +12,7 @@
 *	[GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 *  [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
 *  [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
+*  [Agola](https://agola.io/)
 *  [Tekton (cloud native)](https://github.com/tektoncd/)
     * [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
     * [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
