@@ -153,7 +153,6 @@
 
 ## AWS Slides
 - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
-- [AWS 2016nysummit](http://www.slideshare.net/AmazonWebServices/tagged/2016nysummit)
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
 - [AWS Architecture Blog](https://www.awsarchitectureblog.com)
