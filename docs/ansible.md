@@ -12,3 +12,6 @@
 * [Udemy.com: Ansible Essentials: Simplicity in Automation](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
 * [Google Play: Learn Ansible 🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnAnsible)
 * [Introduction to Ansible Tower 🌟](https://network-automation.github.io/linklight/decks/intro-to-ansible-tower.html)
+* Books:
+  * [ansiblefordevops.com](https://www.ansiblefordevops.com/)
+  * [ansibleforkubernetes.com](https://www.ansibleforkubernetes.com/)
