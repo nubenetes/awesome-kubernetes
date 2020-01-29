@@ -8,6 +8,7 @@
 
 - [Amazon Web Services](#amazon-web-services)
     - [Awesome AWS](#awesome-aws)
+    - [Introduction](#introduction)
     - [AWS Glossary](#aws-glossary)
     - [AWS on Twitter](#aws-on-twitter)
     - [AWS Calculator](#aws-calculator)
@@ -88,6 +89,9 @@
 
 ## Awesome AWS
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
+
+## Introduction
+- [onlineitguru.com: AWS Services](https://onlineitguru.com/tutorial/aws-services)
 
 ## AWS Glossary
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
