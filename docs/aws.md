@@ -101,6 +101,7 @@
 
 ## AWS Calculator
 - [AWS Total Cost of Ownership (TCO) Calculators 🌟🌟](https://aws.amazon.com/tco-calculator/)
+- [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
 
 ## AWS Application Architecture
 - [AWS application-architecture 🌟🌟🌟](http://www.conceptdraw.com/examples/application-architecture)
