@@ -53,7 +53,7 @@
     - [AWS Cloud Formation](#aws-cloud-formation)
     - [AWS for Windows](#aws-for-windows)
     - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
-    - [AWS Security](#aws-security)
+    - [AWS Security: ](#aws-security)
    	- [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
        	- [AWS IAM](#aws-iam)
        	- [AWS CloudFront](#aws-cloudfront)
