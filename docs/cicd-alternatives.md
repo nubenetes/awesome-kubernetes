@@ -24,4 +24,7 @@
     * [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
     * [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)
     * [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3)
-    
+* [keptn](https://keptn.sh/)    
+    * [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blog/what-is-keptn-how-it-works-and-how-to-get-started/) 
+    * [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)
+    * [Quick Start](https://keptn.sh/docs/quickstart/)
