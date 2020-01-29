@@ -467,3 +467,4 @@
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
+- [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
