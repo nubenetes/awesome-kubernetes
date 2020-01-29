@@ -404,6 +404,7 @@
 - [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9 🌟🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
 
 ## AWS Diagrams
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://cloudcraft.co/)
 - [hava.io](https://www.hava.io/)
 - [CloudMapper (OSS)](https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool)
