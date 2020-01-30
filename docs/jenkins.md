@@ -89,6 +89,8 @@
 * [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple)
 * [CloudBees AWS Credentials 🌟🌟](https://plugins.jenkins.io/aws-credentials)
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
+* [Code Average API](https://plugins.jenkins.io/code-coverage-api)
+* [Fortify](https://plugins.jenkins.io/fortify)
 * etc
 
 ## Jenkins DSL
