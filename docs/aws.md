@@ -8,7 +8,6 @@
 
 - [Amazon Web Services](#amazon-web-services)
     - [Awesome AWS](#awesome-aws)
-    - [Introduction](#introduction)
     - [AWS Glossary](#aws-glossary)
     - [AWS on Twitter](#aws-on-twitter)
     - [AWS Calculator](#aws-calculator)
@@ -87,12 +86,10 @@
 - [slideshare.net/AmazonWebServices 🌟🌟🌟](http://www.slideshare.net/AmazonWebServices)
 - [AWS 10-Minute Tutorials 🌟🌟](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
+- [onlineitguru.com: AWS Services 🌟🌟🌟](https://onlineitguru.com/tutorial/aws-services)
 
 ## Awesome AWS
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
-
-## Introduction
-- [onlineitguru.com: AWS Services](https://onlineitguru.com/tutorial/aws-services)
 
 ## AWS Glossary
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
