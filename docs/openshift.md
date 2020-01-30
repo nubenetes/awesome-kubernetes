@@ -146,9 +146,10 @@
     * [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
-* [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
+* Red Hat CodeReady containers:
+    * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-* [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
+    * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
 * [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://blog.openshift.com/configure-the-openshift-image-registry-backed-by-openshift-container-storage/)
 * **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
     * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
