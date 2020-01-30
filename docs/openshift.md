@@ -66,16 +66,6 @@
         * [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/ )
     * [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.com/is-it-too-late-to-integrate-gitops/)
     * [blog.openshift.com: OpenShift Authentication Integration with **ArgoCD**](https://blog.openshift.com/openshift-authentication-integration-with-argocd/)
-* **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
-    * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
-    * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.com/openshift-hive-cluster-as-a-service/)
-    * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.com/watch?v=b_NOrGxfH5Y)
-* Helm Charts and OpenShift 4:
-    * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.com/build-kubernetes-operators-from-helm-charts-in-5-steps/)
-    * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
-* Kubestone - Benchmarking Operator for K8s and OpenShift:
-    * [kubestone.io](https://kubestone.io)
-    * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
 * Debugging apps 🌟🌟🌟:
     * [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15/installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
     * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https://developers.redhat.com/blog/2020/01/09/debugging-applications-within-red-hat-openshift-containers/)
@@ -160,6 +150,16 @@
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
 * [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://blog.openshift.com/configure-the-openshift-image-registry-backed-by-openshift-container-storage/)
+* **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
+    * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
+    * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.com/openshift-hive-cluster-as-a-service/)
+    * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.com/watch?v=b_NOrGxfH5Y)
+* Helm Charts and OpenShift 4:
+    * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.com/build-kubernetes-operators-from-helm-charts-in-5-steps/)
+    * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
+* Kubestone - Benchmarking Operator for K8s and OpenShift:
+    * [kubestone.io](https://kubestone.io)
+    * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
 
 ## OKD4
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
