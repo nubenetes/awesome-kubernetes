@@ -25,6 +25,9 @@
 * [reddit.com/r/python](https://www.reddit.com/r/Python/)
 * [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
 
+# Forums
+* [AWS Forums](https://forums.aws.amazon.com)
+
 # Newsfeeds
 * [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
 * [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
