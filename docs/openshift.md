@@ -161,6 +161,10 @@
 * Kubestone - Benchmarking Operator for K8s and OpenShift:
     * [kubestone.io](https://kubestone.io)
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
+* **Knative**:
+    * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
+    * [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
+    * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
 
 ## OKD4
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
@@ -171,6 +175,7 @@
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
 * [O'Reilly Free Book: Openshift for developers](https://www.openshift.com/for-developers/)
+* [O’Reilly: Free ebook: Kubernetes Operators: Automating the Container Orchestration Platform](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
 * [Manning: Openshift in action](https://www.manning.com/books/openshift-in-action)
 * [Packt publishing: Learn Openshift](https://www.packtpub.com/application-development/learn-openshift)
 
