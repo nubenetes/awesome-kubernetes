@@ -38,7 +38,6 @@
 * [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 * [Dzone.com: OpenShift Quick Start: Build, Deployment, and Pipeline 🌟🌟🌟](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin) Automation is the key to microservices success. Learn how to use the OpenShift platform to implement a continuous build and deployment platform. 
-* [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
 * [https://github.com/fabric8io/fabric8-pipeline-library 🌟🌟🌟](https://github.com/fabric8io/fabric8-pipeline-library)
@@ -282,6 +281,7 @@ Apply the SCC with the least privilege required
 * [projectquay.io](https://www.projectquay.io/)
 * [quay.io](https://quay.io/)
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
+* [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 
 ## OpenShift on AWS
 * [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
