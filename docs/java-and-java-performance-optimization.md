@@ -23,6 +23,7 @@
          * [fastthread.io](https://fastthread.io/)
          * [gceasy.io](https://gceasy.io/)
          * [heaphero.io](https://heaphero.io/)
+* [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
 
 ## Debugging java applications on openshift and kubernetes
 * [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
