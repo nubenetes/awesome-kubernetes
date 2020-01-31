@@ -56,7 +56,7 @@ pages:
 - Networking on Kubernetes:
   - Istio Service Mesh: istio.md
   - Consul Service Mesh: consul.md
-  - Troubleshooting openshift network performance: troubleshooting-openshift-network-performance.md
+  - Troubleshooting openshift network performance: networking.md
 - Security Policy as Code: securityascode.md
 - Dev Environment:
   - Git: git.md
