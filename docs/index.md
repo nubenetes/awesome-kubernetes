@@ -59,7 +59,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
     - [Meshery: open source tool for evaluating and contrasting service meshes](https://meshery.io/)
-    - [Troubleshooting openshift network performance](troubleshooting-openshift-network-performance.md)
+    - [OpenShift & Kubernetes](networking.md)
 11. [Security Policy as Code](securityascode.md)
 12. Dev Environment    
     - [Git](git.md)
