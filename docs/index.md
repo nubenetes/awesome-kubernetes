@@ -73,6 +73,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 14. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
+    - [3scale API Management](3scale.md)
 15. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
