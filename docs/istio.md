@@ -11,6 +11,7 @@
 - [istiobyexample.dev 🌟🌟🌟](https://istiobyexample.dev/)
   - [istiobyexample.dev: Fault Injection](https://istiobyexample.dev/fault-injection/)
 - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
+- [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟🌟🌟](https://blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
