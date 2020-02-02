@@ -261,6 +261,8 @@ Apply the SCC with the least privilege required
 
 ## Networking
 - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)
+* [developers.redhat.com: Skupper.io: Let your services communicate across Kubernetes clusters](https://developers.redhat.com/blog/2020/01/01/skupper-io-let-your-services-communicate-across-kubernetes-clusters/)
+* [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://blog.openshift.com/troubleshooting-openshift-network-performance-with-a-netperf-daemonset/)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
@@ -306,6 +308,8 @@ Apply the SCC with the least privilege required
 <iframe src="https://www.youtube.com/embed/mgR0BspLr1w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/_zDDAwLctUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/WwQ62OyCNz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Slides
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qUTP0wDDEH9bVo" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe>
