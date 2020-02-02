@@ -229,6 +229,7 @@
 ## Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
 * [Understanding Kubernetes cluster events 🌟🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)
+* [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
 
 ## Security
 * [cilium.io](https://cilium.io/)
