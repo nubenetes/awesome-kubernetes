@@ -10,6 +10,7 @@
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 * [deepu.js.org: My VS Code setup - Making the most out of VS Code](https://deepu.js.org/make-the-most-out-of-vscode/)
 * [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
+* [kite: Code Faster with AI Autocomplete](https://kite.com/)
 
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
