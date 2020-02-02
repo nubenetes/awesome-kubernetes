@@ -52,14 +52,13 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
 9. [Databases on Kubernetes](databases.md)
-10. Networking on Kubernetes
+10. Service Mesh on kubernetes
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
     - [Linkerd - Service Mesh](https://linkerd.io/)
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
     - [Meshery: open source tool for evaluating and contrasting service meshes](https://meshery.io/)
-    - [OpenShift & Kubernetes Networking](networking.md)
 11. [Security Policy as Code](securityascode.md)
 12. Dev Environment    
     - [Git](git.md)
