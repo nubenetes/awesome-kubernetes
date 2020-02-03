@@ -66,6 +66,7 @@ pages:
   - Angular: angular.md
   - SpringBoot: SpringBoot.md
   - Quarkus: quarkus.md
+  - Python: python.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
