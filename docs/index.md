@@ -69,6 +69,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Angular](angular.md)
     - [SpringBoot](SpringBoot.md)
     - [Quarkus](quarkus.md)
+    - [Python](python.md)
 14. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
