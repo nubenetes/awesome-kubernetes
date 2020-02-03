@@ -19,11 +19,6 @@
 
 <!-- /MarkdownTOC -->
 
-[![Learn java python](images/learn-java-python.png)](https://dzone.com/articles/learn-python-overtakes-learn-java)
-
-[![Business Insider Python](images/BI_python.png)](http://www.businessinsider.com/learn-to-code-python-best-beginner-programming-language-2015-12)
-
-
 # Python
 ## Python Blogs and Forums
 - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)
@@ -158,8 +153,6 @@
 ### PandasDatabase
 - [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/)
 
-[![developer python java](images/developer-python-java.png)](https://dzone.com/articles/learn-python-overtakes-learn-java)
-
 ## Python standard library Modules and Code
 - [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com)
 - [Python 2 standard library Module of the Week, Doug Hellmann](https://pymotw.com/2)
@@ -184,8 +177,6 @@
 ### Web Scraping with Python
 - [Scrapy](http://scrapy.org/) An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [First web scraper](https://first-web-scraper.readthedocs.org) A step-by-step guide to writing a web scraper with Python.
-
-[![web scraping with python](images/web_scraping_with_python.png)](http://www.wowebook.org/web-scraping-with-python-collecting-data-from-the-modern-web.html)
 
 ## Jython 
 - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43)
