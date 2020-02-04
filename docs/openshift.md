@@ -172,7 +172,8 @@
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
-* [OKD4 Roadmap: The Road To OKD4: Operators, FCOS and K8S 🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
+* [blog.openshift.com: OKD4 Roadmap: The Road To OKD4: Operators, FCOS and K8S 🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
+* [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
