@@ -98,6 +98,7 @@
 * [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
+* [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
