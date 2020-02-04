@@ -100,6 +100,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Awesome Python](https://github.com/vinta/awesome-python)
     - [Awesome Java](https://github.com/akullpp/awesome-java)
     - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
+    - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
 
 <!-- El fin de la memoria? Documental 
 <center>
