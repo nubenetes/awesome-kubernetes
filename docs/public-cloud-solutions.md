@@ -5,7 +5,7 @@
     * [Openshift on Azure](https://azure.microsoft.com/en-us/blog/openshift-on-azure-the-easiest-fully-managed-openshift-in-the-cloud/)
 
 ## Kubernetes as a Service
-* [Pivotal.io: Pivotal Container Service (PKS)](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
+* [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
 * [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes/) 
     - [Digital Ocean pricing](https://www.digitalocean.com/pricing/)
 * [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing/)
