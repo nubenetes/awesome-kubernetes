@@ -75,13 +75,22 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
     - [3scale API Management](3scale.md)
-15. [QA. Software Quality Test Automation](qa.md)
-16. Public Cloud
+15. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
-17. [E-Learning](elearning.md)
-18. [Customer Success Stories 🌟](customer.md)
-19. [Subreddits and Newsfeeds](newsfeeds.md)
+16. [E-Learning](elearning.md)
+17. [Customer Success Stories 🌟](customer.md)
+18. [Subreddits and Newsfeeds](newsfeeds.md)
+19. Other Awesome Lists
+    - [Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
+    - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
+    - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
+    - [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
+    - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+    - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
+    - [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
+    - [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins)
+    - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
 
 <!-- El fin de la memoria? Documental 
 <center>
