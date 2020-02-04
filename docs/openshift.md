@@ -97,6 +97,7 @@
 * [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 * [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+* [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
