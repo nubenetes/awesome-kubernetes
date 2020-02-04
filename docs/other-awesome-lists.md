@@ -1,4 +1,5 @@
 # Other Awesome Lists
+- [Awesome](https://github.com/sindresorhus/awesome)
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
 - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
