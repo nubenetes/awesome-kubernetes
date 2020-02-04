@@ -89,7 +89,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
     - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
     - [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
-    - [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins)
+    - [Awesome Jenkins](https://github.com/sahilsk/awesome-jenkins)
     - [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
     - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
     - [Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
