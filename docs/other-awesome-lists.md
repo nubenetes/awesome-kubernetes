@@ -13,6 +13,7 @@
 - [Awesome Git](https://github.com/dictcp/awesome-git)
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
+- [Awesome Packer](https://github.com/dawitnida/awesome-packer)
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
 - [Awesome Security](https://github.com/sbilly/awesome-security)
 - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
