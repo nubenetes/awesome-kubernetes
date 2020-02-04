@@ -29,3 +29,6 @@
 - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 - [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+- [Awesome API Management Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools)
+- [Awesome API Gateway](https://github.com/yangtao309/awesome-api-gateway)
+- [Awesome Cloud Native](https://jimmysong.io/awesome-cloud-native/)
