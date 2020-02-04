@@ -80,6 +80,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 17. [Customer Success Stories 🌟](customer.md)
 18. [Subreddits and Newsfeeds](newsfeeds.md)
 19. Other Awesome Lists
+    - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
     - [Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
     - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
     - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
