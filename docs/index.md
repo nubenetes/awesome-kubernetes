@@ -46,41 +46,41 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Selenium](selenium.md)
     - [Appium](appium.md)
     - [OpenProject](https://www.openproject.org/)
-    - [KubeMQ: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
 9. [Databases on Kubernetes](databases.md)
-10. Service Mesh on kubernetes
+10. [Message Queue in Kubernetes](message-queue.md)
+11. Service Mesh on kubernetes
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
     - [Linkerd - Service Mesh](https://linkerd.io/)
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
     - [Meshery: open source tool for evaluating and contrasting service meshes](https://meshery.io/)
-11. [Security Policy as Code](securityascode.md)
-12. Dev Environment    
+12. [Security Policy as Code](securityascode.md)
+13. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-13. Frameworks
+14. Frameworks
     - [Angular](angular.md)
     - [SpringBoot](SpringBoot.md)
     - [Quarkus](quarkus.md)
     - [Python](python.md)
-14. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+15. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
     - [3scale API Management](3scale.md)
-15. Public Cloud
+16. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
-16. [E-Learning](elearning.md)
-17. [Customer Success Stories 🌟](customer.md)
-18. [Subreddits and Newsfeeds](newsfeeds.md)
-19. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+17. [E-Learning](elearning.md)
+18. [Customer Success Stories 🌟](customer.md)
+19. [Subreddits and Newsfeeds](newsfeeds.md)
+20. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
