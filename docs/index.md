@@ -26,6 +26,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [landscape.cncf.io](https://landscape.cncf.io/)
     - [agilemethodology.org](http://agilemethodology.org/)
     - [agilemanifesto.org](http://agilemanifesto.org/)
+    - [12factor.net](https://12factor.net/)
 2. [CI/CD](cicd.md)
 3. [Docker](docker.md)
 4. [Kubernetes 🌟🌟🌟](kubernetes.md)
