@@ -72,6 +72,7 @@ pages:
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
   - Test Automation with Postman: postman.md
   - 3scale API Management: 3scale.md
+- QA. Software Quality Test Automation: qa.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
   - AWS: aws.md
