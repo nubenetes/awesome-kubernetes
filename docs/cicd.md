@@ -9,7 +9,7 @@
 * [devopsonline.co.uk: ChatOps, DevOps, ScrumOps and 5 Other Ops religions](https://www.devopsonline.co.uk/chatops-devops-scrumops-and-5-other-ops-religions/)
 
 ## Awesome Lists
-* [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
+* [Awesome CI/CD 🌟🌟🌟](https://github.com/ciandcd/awesome-ciandcd)
 
 <iframe src="https://www.youtube.com/embed/N8R3-eNVoEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
