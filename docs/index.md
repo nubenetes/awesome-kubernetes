@@ -85,6 +85,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
     - [Awesome microservices](https://github.com/mfornos/awesome-microservices)
     - [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
+    - [Awesome Git](https://github.com/dictcp/awesome-git)
     - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
     - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
     - [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
