@@ -46,6 +46,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Selenium](selenium.md)
     - [Appium](appium.md)
     - [OpenProject](https://www.openproject.org/)
+    - [KubeMQ: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
