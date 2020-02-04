@@ -2,6 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
+    - [Other Awesome Lists](#other-awesome-lists)
     - [Red Hat Communities of Practice](#redhat-communities-of-practice)
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
@@ -34,8 +35,6 @@
 * [https://hub.docker.com/u/openshift/](https://hub.docker.com/u/openshift/)
 * [https://www.reddit.com/r/openshift 🌟🌟🌟](https://www.reddit.com/r/openshift)
 * [PodCTL Podcasts](https://blog.openshift.com/tag/podctl/)
-* [Openshift Awesome 🌟](https://github.com/dudash/openshift-is-awesome)
-* [Openshift Awesome List 2](https://github.com/oscp/awesome-openshift3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 * [Dzone.com: OpenShift Quick Start: Build, Deployment, and Pipeline 🌟🌟🌟](https://dzone.com/articles/openshift-quick-start-build-deployment-and-pipelin) Automation is the key to microservices success. Learn how to use the OpenShift platform to implement a continuous build and deployment platform. 
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
@@ -92,6 +91,12 @@
     * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
     * [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 * [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/)
+
+## Other Awesome Lists
+* [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
+* [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
+* [Awesome CI/CD](https://github.com/ciandcd/awesome-ciandcd)
+* [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 
 ## Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
