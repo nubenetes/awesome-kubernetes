@@ -9,6 +9,7 @@
 *	[Codefresh](https://codefresh.io/)
 *	[skaffold](https://skaffold.dev/)
 *  [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
+     * [Bamboo](https://www.atlassian.com/software/bamboo)
 *	[GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
 *  [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
 *  [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
