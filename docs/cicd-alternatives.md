@@ -31,3 +31,6 @@
     * [Quick Start](https://keptn.sh/docs/quickstart/)
     * [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blog/automating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
 *  [harness.io](https://harness.io/)
+
+## Comparisons
+* [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)
