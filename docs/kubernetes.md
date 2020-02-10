@@ -178,6 +178,7 @@
 * [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
 * [kubectl-debug](https://github.com/aylei/kubectl-debug)
 * [kubectl-tree](https://github.com/ahmetb/kubectl-tree) kubectl plugin to browse Kubernetes object hierarchies as a tree
+* [The Golden Kubernetes Tooling and Helpers list](https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
