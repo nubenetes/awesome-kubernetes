@@ -176,6 +176,7 @@
 * [VMware octant 🌟🌟🌟](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 * [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
 * [kubectl-debug](https://github.com/aylei/kubectl-debug)
+* [kubectl-tree](https://github.com/ahmetb/kubectl-tree) kubectl plugin to browse Kubernetes object hierarchies as a tree
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
