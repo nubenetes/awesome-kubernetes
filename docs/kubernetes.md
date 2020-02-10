@@ -96,6 +96,7 @@
 * [medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? 🌟🌟🌟](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
 * [sysdig.com: Understanding Kubernetes limits and requests by example 🌟🌟🌟](https://sysdig.com/blog/kubernetes-limits-requests/)
 * [learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟🌟🌟](https://learnk8s.io/kubernetes-long-lived-connections)
+* [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
