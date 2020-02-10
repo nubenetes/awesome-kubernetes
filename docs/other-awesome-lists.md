@@ -5,7 +5,7 @@
 - [Awesome Cloud Native](https://jimmysong.io/awesome-cloud-native/)
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Kubetools - Curated List of Kubernetes Tools
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) 
 - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 - [Awesome microservices](https://github.com/mfornos/awesome-microservices)
