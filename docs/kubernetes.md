@@ -99,11 +99,13 @@
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 * [**magalix.com: The Best Kubernetes Tutorials** 🌟🌟🌟](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC:
+
     ```
     kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
-
-    This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append  | grep {name}/
     ```
+    
+  This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append  | grep {name}/
+    
 * [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/)
 
 
