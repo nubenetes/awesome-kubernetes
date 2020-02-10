@@ -61,6 +61,7 @@
     * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
     * [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.com/joshmsmith/monkey-ops)
     * [chaoskube periodically kills random pods in your Kubernetes cluster](https://github.com/linki/chaoskube)
+    * [Chaos Mesh](https://github.com/pingcap/chaos-mesh)
 * OpenShift GitOps:
     * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.com/introduction-to-gitops-with-openshift/)
         * [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/ )
