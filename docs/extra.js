@@ -3,7 +3,8 @@
   //var stopPlayAt = 21, // Stop play at time in seconds // Chariots of Fire Theme • Vangelis 
   //var stopPlayAt = 54, // Stop play at time in seconds // Jan Hammer - Crockett's Theme
   //var stopPlayAt = 27, // Stop play at time in seconds // MUSE - The Dark Side
-  var stopPlayAt = 4, // Stop play at time in seconds // MUSE - The Dark Side
+  //var stopPlayAt = 4, // Stop play at time in seconds // MUSE - The Dark Side
+  var stopPlayAt = 2, // Stop play at time in seconds // MUSE - The Dark Side
       stopPlayTimer;   // Reference to settimeout call
 
   // This code loads the IFrame Player API code asynchronously.
