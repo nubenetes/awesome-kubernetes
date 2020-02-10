@@ -23,6 +23,7 @@ pages:
 - Home: index.md
 - Introduction:
   - 'Openshift VS Kubernetes': introduction.md
+  - Microservices FAQ: faq.md
 - CI/CD : cicd.md
 - Docker: docker.md
 - Kubernetes : kubernetes.md
