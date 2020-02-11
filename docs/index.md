@@ -49,6 +49,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Nexus](nexus.md)
     - [HAProxy](haproxy.md)
     - [Payara](payara.md)
+    - [Undertow](http://undertow.io/)
     - [Zephyr (Jira plugin)](zephyr.md)
     - [Selenium](selenium.md)
     - [Appium](appium.md)
