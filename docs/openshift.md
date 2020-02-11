@@ -267,7 +267,8 @@ Apply the SCC with the least privilege required
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
 - [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
 - [operatorhub.io](https://operatorhub.io/)
-- [learn.crunchydata.com 🌟🌟🌟](https://learn.crunchydata.com/) 
+- [learn.crunchydata.com](https://learn.crunchydata.com/) 
+- [developers.redhat.com: Operator pattern: REST API for Kubernetes and Red Hat OpenShift 🌟🌟🌟](https://developers.redhat.com/blog/2020/01/22/operator-pattern-rest-api-for-kubernetes-and-red-hat-openshift/)
 
 ## Networking
 - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)
