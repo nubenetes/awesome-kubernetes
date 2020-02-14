@@ -43,7 +43,7 @@
 * [https://github.com/fabric8io/fabric8-pipeline-library 🌟🌟🌟](https://github.com/fabric8io/fabric8-pipeline-library)
 * [https://twitter.com/openshift](https://twitter.com/openshift) 
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
-* OpenShift Cheet Sheets:
+* OpenShift Cheat Sheets:
     * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
     * [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
     * [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
