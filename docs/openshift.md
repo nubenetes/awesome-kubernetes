@@ -287,6 +287,8 @@ Apply the SCC with the least privilege required
 * [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
 * [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
+* [github.com/openshiftdemos 🌟🌟](https://github.com/openshiftdemos)
+* [github.com/openshift-labs 🌟🌟](https://github.com/openshift-labs)
 
 ## Openshift Compliant Docker Images
 - [Red Hat Container Catalog - RedHat Registry (registry.redhat.io)](https://access.redhat.com/containers/) License required
