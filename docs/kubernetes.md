@@ -249,7 +249,7 @@
     * [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic/)
     * [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
     * [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
-* [OpenShift.io Samples 🌟](https://che.openshift.io/dashboard/#/getstarted)
+* [OpenShift.io Samples 🌟🌟🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
 
 ## SpringBoot with Docker
 * [spring.io: spring boot with docker 🌟](https://spring.io/guides/gs/spring-boot-docker/)
