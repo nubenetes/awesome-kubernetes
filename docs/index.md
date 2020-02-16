@@ -82,6 +82,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 16. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
+    - [Google Cloud Platform](GoogleCloudPlatform.md)
 17. [E-Learning](elearning.md)
 18. [Customer Success Stories 🌟](customer.md)
 19. [Subreddits and Newsfeeds](newsfeeds.md)
