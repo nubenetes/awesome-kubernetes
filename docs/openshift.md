@@ -306,6 +306,7 @@ Apply the SCC with the least privilege required
 * [quay.io](https://quay.io/)
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
+* [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
 
 ## OpenShift on AWS
 * [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
