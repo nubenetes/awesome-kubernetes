@@ -20,6 +20,7 @@
     * [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
     * [developers.redhat.com: An introduction to cloud native CI/CD with Red Hat OpenShift pipelines](https://developers.redhat.com/blog/2019/07/18/an-introduction-to-cloud-native-ci-cd-with-red-hat-openshift-pipelines/)
     * [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 
+    * [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines/)
 *  [Jenkins-X + Tekton on OpenShift (cloud native)](https://github.com/openshift/tektoncd-pipeline-operator)
     * [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)
     * [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
