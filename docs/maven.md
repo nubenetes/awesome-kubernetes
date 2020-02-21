@@ -11,7 +11,7 @@
 ## Dependency resolution in maven
 
 ```
-mvn dependency:analyze
+mvn dependency:analyze  (shows you the usage of listed and unlisted dependencies)
 mvn dependency:resolve  (give me a list of everything I have declared, a nice way to avoid reading the POM file)
 mvn dependency:tree     (how you got something on your classpath)
 ```
