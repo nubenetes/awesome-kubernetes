@@ -6,3 +6,12 @@
 * [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)
 * [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212)
 * [Dzone refcard: Getting Started with Maven Repository Management](https://dzone.com/asset/download/223)
+
+
+## Dependency resolution in maven
+
+```
+mvn dependency:analyze
+mvn dependency:resolve  (give me a list of everything I have declared, a nice way to avoid reading the POM file)
+mvn dependency:tree     (how you got something on your classpath)
+```
