@@ -7,6 +7,9 @@
 * [Dzone refcard: Apache Maven 2](https://dzone.com/asset/download/212)
 * [Dzone refcard: Getting Started with Maven Repository Management](https://dzone.com/asset/download/223)
 * [Dzone: Installing Maven With Your JDK](https://dzone.com/articles/installing-maven)
+* [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)
+* [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)
+* [howtodoinjava.com/maven](https://howtodoinjava.com/maven/)
 
 ## Maven Tests
 * [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests)
@@ -33,10 +36,18 @@ mvn dependency:tree     (how you got something on your classpath)
 * [code.visualstudio.com: Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project)
 * [medium.com: Instalación de Java y Visual Studio Code en plataformas Windows](https://medium.com/habasconchocos/instalaci%C3%B3n-de-java-y-visual-studio-code-en-plataformas-windows-1fa47a69497f)
 
+### Intellij IDEA
+* [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html)
+* [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)
+* [vaadin.com/learn/tutorials/import-maven-project-intellij-idea](https://vaadin.com/learn/tutorials/import-maven-project-intellij-idea)
+* [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/)
+* [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/)
+
 ## Other commands
 ```
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
+
 ## Cheat Sheets
 * [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 * [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
