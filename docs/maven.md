@@ -48,6 +48,12 @@ mvn dependency:tree     (how you got something on your classpath)
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
 
+## Plugins
+* [Apache Maven Changelog Plugin](https://maven.apache.org/plugins/maven-changelog-plugin/)
+* [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
+* [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/)
+* [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
+
 ## Cheat Sheets
 * [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 * [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
