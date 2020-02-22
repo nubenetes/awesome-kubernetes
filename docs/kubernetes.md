@@ -15,7 +15,7 @@
     - [SpringBoot with Docker](#springboot-with-docker)
     - [Troubleshooting](#troubleshooting)
     - [Security](#security)
-    - [EKS](#eks)
+    - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
     - [Videos](#videos)
 
@@ -283,7 +283,7 @@
 * [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
 
-## EKS
+## AWS EKS
 * [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
 * [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
 * [eksworkshop.com](https://eksworkshop.com/ )
@@ -294,6 +294,7 @@
     * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
     * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
     * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+* [medium: Implementing Kubernetes Cluster using AWS EKS (AWS Managed Kubernetes)](https://medium.com/@devopsadvocate/how-to-setup-kubernetes-cluster-using-aws-eks-aws-managed-kubernetes-181d5567a8ef)
     
 ## Docker in Docker
 * [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/)
