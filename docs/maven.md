@@ -1,6 +1,6 @@
 # Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
-* [https://maven.apache.org/](https://maven.apache.org/)
+* [maven.apache.org](https://maven.apache.org/)
 * [Dzone.com: Starting with Apache Maven](https://dzone.com/articles/starting-with-apache-maven)
 * [Dzone.com: Maven Demystified](https://dzone.com/articles/maven-demystified)
 * [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)
