@@ -37,3 +37,14 @@ mvn dependency:tree     (how you got something on your classpath)
 ```
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
+## Cheat Sheets
+* [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
+* [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
+* [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
+* [journaldev.com](https://www.journaldev.com/33645/maven-commands-options-cheat-sheet)
+* [cheatography.com](https://www.cheatography.com/mikesac/cheat-sheets/maven/)
+* [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)
+* [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
+* [lzone.de/cheat-sheet/Maven](https://lzone.de/cheat-sheet/Maven)
+* [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
+* [confluence.sakaiproject.org](https://confluence.sakaiproject.org/display/REL/Maven+release+plugin+cheat+sheet)
