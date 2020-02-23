@@ -321,7 +321,7 @@
 - [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)
 - [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start 🌟🌟🌟](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start
 - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance/) You can now easily change the Amazon VPC used by your Amazon RDS DB instance!
-* [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟🌟🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
+- [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟🌟🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
