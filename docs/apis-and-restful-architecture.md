@@ -4,3 +4,6 @@
 * [Introduction to APIs (youtube playlist)](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 * [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials)
 * [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
+
+## Related
+* [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/)
