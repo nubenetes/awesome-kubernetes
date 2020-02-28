@@ -291,6 +291,7 @@
 * [magalix.com: kubernetes authorization 🌟🌟](https://www.magalix.com/blog/kubernetes-authorization)
 * [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
+* [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 
 ## AWS EKS
 * [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
