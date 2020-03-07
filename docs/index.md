@@ -65,28 +65,29 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Maesh - Service Mesh](https://containo.us/maesh/)
     - [Meshery: open source tool for evaluating and contrasting service meshes](https://meshery.io/)
 12. [Security Policy as Code](securityascode.md)
-13. Dev Environment    
+13. [Cloud Native Storage](storage.md)
+14. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
-14. Frameworks
+15. Frameworks
     - [Angular](angular.md)
     - [SpringBoot](SpringBoot.md)
     - [Quarkus](quarkus.md)
     - [Python](python.md)
-15. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+16. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
     - [3scale API Management](3scale.md)
-16. Public Cloud
+17. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
     - [Google Cloud Platform](GoogleCloudPlatform.md)
-17. [E-Learning](elearning.md)
-18. [Customer Success Stories 🌟](customer.md)
-19. [Subreddits and Newsfeeds](newsfeeds.md)
-20. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+18. [E-Learning](elearning.md)
+19. [Customer Success Stories 🌟](customer.md)
+20. [Subreddits and Newsfeeds](newsfeeds.md)
+21. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
