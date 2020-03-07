@@ -55,7 +55,7 @@ pages:
   - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
 - Message Queue in Kubernetes: message-queue.md
-- Service Mesh on Kubernetes: servicemesh.md
+- Service Mesh: servicemesh.md
   - Istio Service Mesh: istio.md
   - Consul Service Mesh: consul.md
 - Security Policy as Code: securityascode.md
