@@ -60,6 +60,7 @@ pages:
   - Istio Service Mesh: istio.md
   - Consul Service Mesh: consul.md
 - Security Policy as Code: securityascode.md
+- Cloud Native Storage: storage.md
 - Dev Environment:
   - Git: git.md
   - Visual Studio: visual-studio.md
