@@ -10,3 +10,5 @@
 * [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)
 * [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)
 * [docs.sonarqube.org: SonarQube plugin for Jenkins with declarative pipeline 🌟🌟🌟](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/)
+* [sonarqube.org: Bitbucket integration](https://www.sonarqube.org/bitbucket-integration/) Eliminate Bugs and Vulnerabilities
+in your Bitbucket repositories
