@@ -21,6 +21,7 @@
 * [Oh shit, git!](https://ohshitgit.com/)
 * [How to Get More Out of Your Git Commit Message](https://datree.io/blog/git-commit-message-conventions-for-readable-git-log/)
 * [10 useful Git commands you wish existed – and their alternatives](https://datree.io/blog/useful-git-commands-list/)
+* [github.blog: How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 
 ## BitBucket
 * [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
