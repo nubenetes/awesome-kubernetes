@@ -26,7 +26,8 @@ pages:
   - Microservices FAQ: faq.md
 - CI/CD : cicd.md
 - Docker: docker.md
-- Kubernetes : kubernetes.md
+- Kubernetes: 
+  - Kubernetes: kubernetes.md
   - Kubernetes Matrix Table: matrix-table.md
 - Openshift: 
   - Openshift docs: openshift.md
