@@ -27,6 +27,7 @@ pages:
 - CI/CD : cicd.md
 - Docker: docker.md
 - Kubernetes : kubernetes.md
+  - Kubernetes Matrix Table: matrix-table.md
 - Openshift: 
   - Openshift docs: openshift.md
   - List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
