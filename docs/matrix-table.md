@@ -1,4 +1,4 @@
-# Kubernetes Matrix Table
+# Kubernetes solutions or installers matrix table
 
 |  PaaS Candidate | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | URL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
