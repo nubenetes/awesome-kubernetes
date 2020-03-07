@@ -57,7 +57,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Liquibase](liquibase.md)
 9. [Databases on Kubernetes](databases.md)
 10. [Message Queue in Kubernetes](message-queue.md)
-11. Service Mesh on kubernetes
+11. [Service Mesh](servicemesh.md) on kubernetes
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
     - [Linkerd - Service Mesh](https://linkerd.io/)
