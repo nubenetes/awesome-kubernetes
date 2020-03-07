@@ -34,6 +34,9 @@
 - [Awesome Python](https://github.com/vinta/awesome-python)
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
+
+## Cheat Sheets
+- [cheatography.com](https://cheatography.com/)
 - [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 - [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 
