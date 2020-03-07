@@ -8,6 +8,7 @@
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
     - [OKD4](#okd4)
+    - [Helm and OpenShift](#helm-and-openShift)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
@@ -53,7 +54,6 @@
 * [certdepot.net: OpenShift Free available resources 🌟🌟🌟](https://www.certdepot.net/openshift-free-available-resources/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [blog.openshift.com: Using OpenShift 3 on your local environment 🌟](https://blog.openshift.com/using-openshift-3-on-your-local-environment/)
-* [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
 * [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https/)
 * [OpenShift Commons 🌟](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
 * [ODO: OpenShift Command line for Developers 🌟🌟🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
@@ -95,7 +95,6 @@
 * [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/)
 * [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository/)
 * [developers.redhat.com: Customizing OpenShift project creation 🌟](https://developers.redhat.com/blog/2020/02/05/customizing-openshift-project-creation/)
-* [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟🌟🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates)
 
 ## Other Awesome Lists
 * [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
@@ -164,9 +163,6 @@
     * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
     * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.com/openshift-hive-cluster-as-a-service/)
     * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.com/watch?v=b_NOrGxfH5Y)
-* Helm Charts and OpenShift 4:
-    * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.com/build-kubernetes-operators-from-helm-charts-in-5-steps/)
-    * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
 * Kubestone - Benchmarking Operator for K8s and OpenShift:
     * [kubestone.io](https://kubestone.io)
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
@@ -190,6 +186,15 @@
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
 * [blog.openshift.com: OKD4 Roadmap: The Road To OKD4: Operators, FCOS and K8S 🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
 * [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
+
+## Helm and OpenShift
+* [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
+* [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟🌟🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates)
+* Helm Charts and OpenShift 4:
+    * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.com/build-kubernetes-operators-from-helm-charts-in-5-steps/)
+    * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
+    * [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://blog.openshift.com/helm-and-operators-on-openshift-part-1/)
+
 
 ## E-books
 * [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
