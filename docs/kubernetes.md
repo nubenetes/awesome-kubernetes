@@ -337,7 +337,7 @@
     * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
-[![Kubernetes components](images/kubernetes_components.jpg)](https://github.com/rootsongjc)
+[![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
 ## Videos
 <center>
