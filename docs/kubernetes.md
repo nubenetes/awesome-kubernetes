@@ -173,19 +173,27 @@
 
 * [Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
-* [Kubespray](https://github.com/kubernetes-sigs/kubespray)
-* [Conjure up](https://conjure-up.io/)
+* [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
+* [**Conjure up**](https://conjure-up.io/)
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
 * [infoq.com: WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
+* [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
-* [linecorp.com: Building Large Kubernetes Clusters with Caravan](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
-* [ClusterAPI](https://cluster-api.sigs.k8s.io/)
+* [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+* [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
+* [**microk8s.io**](https://microk8s.io/)
+* [**kind**](https://github.com/kubernetes-sigs/kind)
+* [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 
 ## Rancher
 * [rancher.com](https://rancher.com/)
-* [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
+* [Rancher 2](https://rancher.com/docs/rancher/v2.x/en/)
+* [Rancher 2 RKE](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers.
+    * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
+* [k3s.io](https://k3s.io/) Basic kubernetes with automated installer.   
+* [k3d](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 
 ## Helm and Kubernetes
 * [helm.sh](https://helm.sh/)
