@@ -348,6 +348,7 @@
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
 ## Kubernetes ecosystem
+* [Author: github.com/rootsongjc](https://github.com/rootsongjc)
 [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
 ## Videos
