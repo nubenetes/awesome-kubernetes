@@ -145,7 +145,7 @@
 
 ## Production Cluster Installers
 
-* [Kubernetes Cluster with Kops:](https://github.com/kubernetes/kops) 
+* [Kubernetes Cluster with **Kops**:](https://github.com/kubernetes/kops) 
     * Minikube and docker client are great for local setups, but not for real clusters. Kops and kubeadm are tools to spin up a production cluster. You don't need both tools, just one of them. 
     * On AWS, the best tool is **kops**
     * At some point AWS EKS (hosted kubernetes) will be available, at that point this will probably be the preferred option. (You won't need to maintain the masters).
@@ -171,13 +171,13 @@
     sudo mv kops-linux-amd64 /usr/local/bin/kops
     ```
 
-* [Kubernetes Cluster with Kubeadm](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
+* [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 * [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
 * [**Conjure up**](https://conjure-up.io/)
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
-* [infoq.com: WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
+* [infoq.com: **WKSctl**: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
 * [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
@@ -189,11 +189,11 @@
 
 ## Rancher
 * [rancher.com](https://rancher.com/)
-* [Rancher 2](https://rancher.com/docs/rancher/v2.x/en/)
-* [Rancher 2 RKE](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers.
+* [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/)
+* [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers.
     * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
-* [k3s.io](https://k3s.io/) Basic kubernetes with automated installer.   
-* [k3d](https://github.com/rancher/k3d) k3s that runs in docker containers.	
+* [**k3s.io**](https://k3s.io/) Basic kubernetes with automated installer.   
+* [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 
 ## Helm and Kubernetes
 * [helm.sh](https://helm.sh/)
