@@ -17,7 +17,7 @@
     - [Security](#security)
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
-    - [Container ecosystem](#Container-ecosystem)
+    - [Container Ecosystem](#Container-ecosystem)
     - [Videos](#videos)
 
 <!-- /TOC -->
@@ -347,7 +347,7 @@
     * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
-## Container ecosystem
+## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
 [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
