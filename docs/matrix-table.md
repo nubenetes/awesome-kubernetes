@@ -11,6 +11,7 @@
 |  Rancher 2 RKE | SRE / DevOps | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | Yes | no | no | Rancher 2 that runs in docker containers. | https://rancher.com/products/rke/ |
 |  k3s | SRE / DevOps / IoT | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes | Yes | Basic kubernetes with automated installer. | https://k3s.io/ |
 |  k3d | SRE / DevOps / IoT | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | Yes | Yes | Yes | k3s that runs in docker containers. | https://github.com/rancher/k3d |
+|  k3OS | SRE / DevOps / IoT | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | Yes | Yes | Yes | Purpose-built OS for Kubernetes, fully managed by Kubernetes | https://github.com/rancher/k3os |
 |  Microk8s | Devel / IoT | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes (beta) | Yes | No | Yes | Yes | Ubuntu. It compites with k3s. | https://microk8s.io/ |
 |  OKD 3.11 (okd.io) | SRE / DevOps | OpenShift | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes <br/>(okd-community-install) | Yes <br/>(okd-community-install) | okd-community-install is a standalone cluster <br/>of 1 node valid for small projects. | https://github.com/okd-community-install |
 |  Minishift | Devel | OpenShift | Desktop Virtual Machine | Yes | OSS | No | Yes | No | No | Yes | OpenShift 3 official development environment. | https://www.okd.io/minishift/ |
