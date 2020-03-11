@@ -18,6 +18,7 @@
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
     - [Container Ecosystem](#Container-ecosystem)
+    - [Container Flowchart](#Container-flowchart)
     - [Videos](#videos)
 
 <!-- /TOC -->
@@ -354,6 +355,9 @@
 ## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
 [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
+
+## Container Flowchart
+[![Container flowchart](images/container_flowchart.jpg)]()
 
 ## Videos
 <center>
