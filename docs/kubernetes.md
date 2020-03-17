@@ -18,6 +18,7 @@
     - [Security](#security)
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
+    - [Serverless](#serverless)
     - [Container Ecosystem](#Container-ecosystem)
     - [Container Flowchart](#Container-flowchart)
     - [Videos](#videos)
@@ -359,6 +360,9 @@
 * Docker in Docker on EKS:
     * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
+
+## Serverless
+* [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9)
 
 ## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
