@@ -452,8 +452,9 @@
 ## AWS and Splunk
 - [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](http://blogs.splunk.com/2016/06/22/aws-video/)
 
-## AWS Nagios
-- [github: Steps I used to install nagios in the cloud](https://github.com/andrewpuch/nagios_setup)
+## AWS Monitoring
+- [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)
+- [github: ElectricEye 🌟🌟🌟](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
 
 ## Amazon Alexa. Voice User Interface
 - [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)
