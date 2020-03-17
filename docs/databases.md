@@ -35,3 +35,6 @@
 
 ## KubeDB Run production-grade databases easily on Kubernetes
 * [kubedb.com](https://kubedb.com/)
+
+## Other solutions
+* [Cockroach](https://www.cockroachlabs.com/docs/stable/orchestration.html)
