@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Kubernetes](#kubernetes)
+    - [Operators](#operators)
     - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
     - [Kubenetes Tutorials](#kubernetes-tutorials)
     - [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
