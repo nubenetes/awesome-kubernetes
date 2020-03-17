@@ -51,6 +51,7 @@ pages:
   - Zephyr Jira plugin: zephyr.md
   - Selenium: selenium.md
   - Appium: appium.md
+  - Work From Home: workfromhome.md
 - Configuration Management:
   - Terraform: terraform.md
   - Ansible: ansible.md
