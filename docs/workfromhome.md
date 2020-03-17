@@ -3,7 +3,8 @@
 
 ## Tools
 - [krisp](https://krisp.ai/) Noise cancelling app
-- [Zoom](https://zoom.us/)
+- [Zoom](https://zoom.us/) Alternative to Skype
+- [Google meet](https://meet.google.com/) Alternative to Zoom
 - [Wordpress P2](https://p2theme.com/)
 - Google docs & Sheets
 - [Slack](https://slack.com/)
