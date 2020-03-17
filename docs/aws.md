@@ -75,6 +75,7 @@
     - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
     - [EKS](#eks)
     - [Interview Questions](#interview-questions)
+    - [Localstack](#localstack)
     - [Spain](#spain)
 
 <!-- /MarkdownTOC -->
@@ -479,6 +480,9 @@
 
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
+
+## Localstack
+- [localstack.cloud 🌟🌟🌟](https://localstack.cloud/) Develop and test your cloud apps offline.
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
