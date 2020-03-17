@@ -52,6 +52,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Selenium](selenium.md)
     - [Appium](appium.md)
     - [OpenProject](https://www.openproject.org/)
+    - [Work From Home](workfromhome.md)
 8. Configuration Management
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
