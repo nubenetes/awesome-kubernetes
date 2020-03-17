@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Kubernetes](#kubernetes)
+    - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
     - [Kubenetes Tutorials](#kubernetes-tutorials)
     - [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
     - [Kubernetes Patterns](#kubernetes-patterns)
@@ -74,6 +75,9 @@
 * **FaaS arquitecture:**
     * [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)
 * [learnk8s.io: Architecting Kubernetes clusters — how many should you have? 🌟](https://learnk8s.io/how-many-clusters)
+
+## GKE vs EKS vs AKS
+* [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
 
 ## Kubernetes Tutorials
 * [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
@@ -299,7 +303,9 @@
     * [github.com/che-samples](https://github.com/che-samples)
 
 ## SpringBoot with Docker
-* [spring.io: spring boot with docker 🌟](https://spring.io/guides/gs/spring-boot-docker/)
+* [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
+* [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 
+* [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide)
 
 ## Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
