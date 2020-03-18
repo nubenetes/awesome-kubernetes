@@ -154,6 +154,7 @@
 ## Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
     * [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)
+* [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes
 * [store.docker.com: Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://store.docker.com/editions/community/docker-ce-desktop-windows) Currently only available in **Edge** edition.
 * [medium.com: Local Kubernetes for Linux — MiniKube vs MicroK8s](https://medium.com/containers-101/local-kubernetes-for-linux-minikube-vs-microk8s-1b2acad068d3)
 * [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2) Several options to start playing with K8s in no time
@@ -198,7 +199,6 @@
 * [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
 * [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
 * [**microk8s.io**](https://microk8s.io/)
-* [**kind**](https://github.com/kubernetes-sigs/kind)
 * [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 
 ## Rancher
