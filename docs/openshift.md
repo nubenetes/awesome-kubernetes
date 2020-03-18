@@ -8,6 +8,7 @@
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
     - [OKD4](#okd4)
+    - [Serverless with Knative](#serverless-with-knative)
     - [Helm and OpenShift](#helm-and-openShift)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
@@ -166,11 +167,6 @@
 * Kubestone - Benchmarking Operator for K8s and OpenShift:
     * [kubestone.io](https://kubestone.io)
     * [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
-* **Knative**:
-    * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
-    * [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
-    * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
-    * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 * [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟🌟🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem. 
 * **OpenShift Cost Management**:
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
@@ -187,6 +183,13 @@
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
 * [blog.openshift.com: OKD4 Roadmap: The Road To OKD4: Operators, FCOS and K8S 🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
 * [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
+
+## Serverless with Knative
+* [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
+* [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
+* [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
+* [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
+* [Announcing OpenShift Serverless 1.5.0 Tech Preview – A sneak peek of our GA](https://blog.openshift.com/announcing-openshift-serverless-1-5-0-tech-preview-a-sneak-peek-of-our-ga/)
 
 ## Helm and OpenShift
 * [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
