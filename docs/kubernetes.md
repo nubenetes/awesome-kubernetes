@@ -206,7 +206,7 @@
 * [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 
 ## Rancher
-* [rancher.com](https://rancher.com/)
+* [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes
 * [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 * [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
     * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
