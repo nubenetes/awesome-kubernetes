@@ -203,8 +203,8 @@
 
 ## Rancher
 * [rancher.com](https://rancher.com/)
-* [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/)
-* [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers.
+* [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
+* [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
     * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 * [**k3s**](https://k3s.io/) Basic kubernetes with automated installer.   
 * [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
