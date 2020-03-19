@@ -84,7 +84,7 @@
 * [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/)
 * [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
 * [devops.com: Day 2 for the Operator Ecosystem 🌟🌟🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
-    * [KUDO: The Kubernetes Universal Declarative Operator](https://kudo.dev/)
+    * [KUDO: The Kubernetes Universal Declarative Operator 🌟🌟](https://kudo.dev/)
 
 ## GKE vs EKS vs AKS
 * [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
