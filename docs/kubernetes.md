@@ -2,6 +2,7 @@
 
 - [Kubernetes](#kubernetes)
     - [Operators](#operators)
+    - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-Kubernetes-management)
     - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
     - [Kubenetes Tutorials](#kubernetes-tutorials)
     - [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
@@ -83,6 +84,9 @@
 * [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
 * [devops.com: Day 2 for the Operator Ecosystem 🌟🌟🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
     * [KUDO: The Kubernetes Universal Declarative Operator 🌟🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
+
+## Tools for multi-cloud Kubernetes management
+* [Compare tools for multi-cloud Kubernetes management 🌟🌟🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
 
 ## GKE vs EKS vs AKS
 * [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
