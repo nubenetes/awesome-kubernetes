@@ -183,6 +183,7 @@
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
 * [blog.openshift.com: OKD4 Roadmap: The Road To OKD4: Operators, FCOS and K8S 🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/DevConf-CZ-2020_OKD4_FCOS__Mueller.pdf)
 * [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md)
+* [youtube.com: How To Install OKD4 on GCP - Vadim Rutkovsky (Red Hat)](https://www.youtube.com/watch?v=2UwQD0diUxk)
 
 ## Serverless with Knative
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
