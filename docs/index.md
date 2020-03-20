@@ -26,6 +26,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [12factor.net](https://12factor.net/)
     - [roadmap.sh](https://roadmap.sh/) 
     - [Microservices FAQ](faq.md)
+    - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
 2. [CI/CD](cicd.md)
 3. [Docker](docker.md)
 4. [Kubernetes 🌟🌟🌟](kubernetes.md)
