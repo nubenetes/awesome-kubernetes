@@ -21,7 +21,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 1. [Introduction. Openshift VS Kubernetes](introduction.md)
     - [microservices.io](https://microservices.io/)
     - [landscape.cncf.io](https://landscape.cncf.io/)
-            - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
+        - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
     - [agilemethodology.org](http://agilemethodology.org/)
     - [agilemanifesto.org](http://agilemanifesto.org/)
     - [12factor.net](https://12factor.net/)
