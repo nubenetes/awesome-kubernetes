@@ -6,6 +6,7 @@
 * [tutorialspoint.com/openshift](https://www.tutorialspoint.com/openshift/)
 * [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
 * [Udemy.com](https://www.udemy.com/)
+* [Whizlabs](https://www.whizlabs.com/) Online certification training courses and practice tests.
 * [Google Play: Learning Solution](https://play.google.com/store/apps/developer?id=Learning+Solution)
 * [Google Play: TomApp](https://play.google.com/store/apps/developer?id=TomApp)
 * [Lynda.com Linkedin Learning](https://www.lynda.com/)
