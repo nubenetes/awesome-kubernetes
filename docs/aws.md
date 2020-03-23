@@ -76,6 +76,7 @@
     - [EKS](#eks)
     - [Interview Questions](#interview-questions)
     - [Localstack](#localstack)
+    - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
     - [Spain](#spain)
 
 <!-- /MarkdownTOC -->
@@ -484,6 +485,9 @@
 
 ## Localstack
 - [localstack.cloud 🌟🌟🌟](https://localstack.cloud/) Develop and test your cloud apps offline.
+
+## Migrating On Premise VM to AWS
+- [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://youtu.be/buzusNljpy4)
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
