@@ -2,6 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
+    - [Backup and Migrate OpenShift](#backup-and-migrate-oenShift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
     - [Other Awesome Lists](#other-awesome-lists)
     - [Red Hat Communities of Practice](#redhat-communities-of-practice)
@@ -154,9 +155,6 @@
     * [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
     * [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
-* [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
-    * [**Velero*](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
-    * [**Restic**](https://restic.net/) Backups done right!
 * Red Hat CodeReady containers:
     * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
@@ -173,6 +171,11 @@
 * **OpenShift Cost Management**:
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
+
+## Backup and Migrate OpenShift
+* [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
+    * [**Velero**](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
+    * [**Restic**](https://restic.net/) Backups done right!
 
 ## OpenShift 4 roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
