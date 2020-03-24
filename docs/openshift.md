@@ -2,7 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
-    - [Backup and Migrate OpenShift](#backup-and-migrate-oenShift)
+    - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
     - [Other Awesome Lists](#other-awesome-lists)
     - [Red Hat Communities of Practice](#redhat-communities-of-practice)
