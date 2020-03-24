@@ -155,6 +155,8 @@
     * [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
+    * [**Velero*](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
+    * [**Restic**](https://restic.net/) Backups done right!
 * Red Hat CodeReady containers:
     * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
