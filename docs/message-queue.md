@@ -14,4 +14,4 @@
 ## Related
 - [Debezium](https://debezium.io/) Stream changes from your database
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
-  - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry)
+  - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
