@@ -14,6 +14,7 @@
 - [Awesome Git](https://github.com/dictcp/awesome-git)
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
+  - [Awesome-Compose: Application samples for project development kickoff](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/)
 - [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
 - [Awesome Packer](https://github.com/dawitnida/awesome-packer)
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
