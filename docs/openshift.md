@@ -158,8 +158,8 @@
 * **Red Hat CodeReady Containers:**
     * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-    * [dzone: Code Ready Containers - Decision Management Developer Tools Update 🌟🌟🌟](https://dzone.com/articles/code-ready-containers-decision-management-develope)
-    * [Overview: running crc on a remote server](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
+    * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
+    * [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
 * [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://blog.openshift.com/configure-the-openshift-image-registry-backed-by-openshift-container-storage/)
 * **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
     * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
