@@ -13,6 +13,7 @@
 - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
 - [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟🌟🌟](https://blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/)
 - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)
+- [The Istio project just consolidated its control plane services: Pilot, Citadel, Galley, and the sidecar injector, into a single binary, **Istiod**](https://istio.io/blog/2020/tradewinds-2020/#fewer-moving-parts)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
