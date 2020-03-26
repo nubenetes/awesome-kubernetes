@@ -29,6 +29,7 @@ pages:
 - Kubernetes: 
   - Kubernetes: kubernetes.md
   - Kubernetes Matrix Table: matrix-table.md
+  - Kubernetes alternatives: kubernetes-alternatives.md
 - Openshift: 
   - Openshift docs: openshift.md
   - List of Openshift Compliant Docker images. Demos : openshift-compliant-images.md
