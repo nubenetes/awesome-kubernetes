@@ -70,6 +70,7 @@ pages:
   - Visual Studio: visual-studio.md
   - GitKraken: gitkraken.md
   - Linux Dev Environment: linux-dev-env.md
+  - Scaffolding Tools: scaffolding.md
 - Frameworks:
   - Angular: angular.md
   - SpringBoot: SpringBoot.md
