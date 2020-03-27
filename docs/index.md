@@ -77,6 +77,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
     - [Backstage.io](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
+    - [Scaffolding Tools](scaffolding.md)
 15. Frameworks
     - [Angular](angular.md)
     - [SpringBoot](SpringBoot.md)
