@@ -85,6 +85,7 @@ pages:
   - Public Cloud Solutions: public-cloud-solutions.md
   - AWS: aws.md
   - Google Cloud Platform: GoogleCloudPlatform.md
+  - Cloud Architecture Diagrams Tools: cloud-arch-diagrams.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
 - Subreddits: newsfeeds.md
