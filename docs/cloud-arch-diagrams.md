@@ -1,4 +1,4 @@
-# Cloud Architecture Diagrams Tools
+# Cloud Architecture Diagram Tools
 ## MultiCloud
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [hyperglance](https://www.hyperglance.com/)
