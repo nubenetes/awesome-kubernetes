@@ -86,6 +86,7 @@ pages:
   - AWS: aws.md
   - Google Cloud Platform: GoogleCloudPlatform.md
   - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
+  - Edge Computing: edge-computing.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
 - Subreddits: newsfeeds.md
