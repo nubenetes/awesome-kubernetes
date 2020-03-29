@@ -92,6 +92,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [AWS](aws.md)
     - [Google Cloud Platform](GoogleCloudPlatform.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
+    - [Edge Computing](edge-computing.md)
 18. [E-Learning](elearning.md)
 19. [Customer Success Stories 🌟](customer.md)
 20. [Subreddits and Newsfeeds](newsfeeds.md)
