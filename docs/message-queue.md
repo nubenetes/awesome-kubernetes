@@ -7,6 +7,11 @@
 ## Kakfa
 - [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 
+### Banzai Cloud Supertubes (Cloud Native Kafka implementation)
+- [Banzai Cloud](https://banzaicloud.com/)
+- [Banzai Kafka Operator](https://github.com/banzaicloud/kafka-operator)
+- [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits/)
+
 ## Red Hat AMQ
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq)
 - [Red Hat AMQ streams: Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
