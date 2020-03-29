@@ -253,6 +253,7 @@
  
 ## Network Policy
 * [GitHub - redhat-cop - OpenShift toolkit 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
+* [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟🌟🌟](https://blog.openshift.com/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator/)
 
 ## Security
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟🌟](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
@@ -263,6 +264,7 @@
 - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
     - [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html#security-context-constraints)
 - [Dzone: Understanding OpenShift Security Context Constraints](https://dzone.com/articles/understanding-openshift-security-context-constrain)
+* [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟🌟🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)
 
 ```
 Review Security Context Constraints
