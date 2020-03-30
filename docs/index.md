@@ -80,8 +80,11 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Scaffolding Tools](scaffolding.md)
 15. Frameworks
     - [Angular](angular.md)
-    - [SpringBoot](SpringBoot.md)
-    - [Quarkus](quarkus.md)
+    - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
+    - [Java - SpringBoot](SpringBoot.md)
+    - [Java - Spring Cloud](https://spring.io/projects/spring-cloud)
+    - [Java - Jakarta EE](https://jakarta.ee/)
+    - [Java - Quarkus](quarkus.md)
     - [Python](python.md)
 16. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
