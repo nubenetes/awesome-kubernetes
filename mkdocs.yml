@@ -74,8 +74,9 @@ pages:
   - Scaffolding Tools: scaffolding.md
 - Frameworks:
   - Angular: angular.md
-  - SpringBoot: SpringBoot.md
-  - Quarkus: quarkus.md
+  - Java - SpringBoot: SpringBoot.md
+  - Java - Spring Cloud: SpringCloud.md
+  - Java - Quarkus: quarkus.md
   - Python: python.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
