@@ -6,6 +6,7 @@
 
 ## Kakfa
 - [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
+- [developers.redhat.com: Using secrets in Kafka Connect configuration](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 
 ### Banzai Cloud Supertubes (Cloud Native Kafka implementation)
 - [Banzai Cloud](https://banzaicloud.com/)
