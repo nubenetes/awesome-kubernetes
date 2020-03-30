@@ -1,4 +1,4 @@
-# Message Queue in Kubernetes
+# Message Queue in Kubernetes. Real Time Streaming
 ## KubeMQ
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
