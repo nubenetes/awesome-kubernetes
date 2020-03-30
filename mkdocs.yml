@@ -59,7 +59,7 @@ pages:
   - Ansible: ansible.md
   - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
-- Message Queue in Kubernetes: message-queue.md
+- Message Queue in Kubernetes. Real-Time Streaming: message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
   - Istio Service Mesh: istio.md
