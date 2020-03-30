@@ -22,8 +22,9 @@ markdown_extensions:
 pages:
 - Home: index.md
 - Introduction:
-  - 'Openshift VS Kubernetes': introduction.md
+  - Openshift VS Kubernetes: introduction.md
   - Microservices FAQ: faq.md
+  - From Java EE To Cloud Native: javaee-to-cloud-native.md
 - CI/CD : cicd.md
 - Docker: docker.md
 - Kubernetes: 
