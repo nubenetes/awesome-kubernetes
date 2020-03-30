@@ -62,14 +62,14 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
 9. [Databases on Kubernetes](databases.md)
-10. [Message Queue in Kubernetes. Event-driven messaging. Real-Time Streaming](message-queue.md) 
+10. [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](message-queue.md) 
 11. [Service Mesh](servicemesh.md)
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
     - [Linkerd - Service Mesh](https://linkerd.io/)
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
-    - [Meshery:](https://meshery.io/) open source tool for evaluating and contrasting service meshes
+    - [Meshery](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
 12. [Security Policy as Code](securityascode.md)
 13. [Cloud Native Storage](storage.md)
 14. Dev Environment    
