@@ -1,4 +1,7 @@
-# Message Queue in Kubernetes. Real Time Streaming
+# Message Queue in Kubernetes. Event-driven messaging. Real Time Data Streaming
+- [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
+- [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
+
 ## KubeMQ
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
