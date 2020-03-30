@@ -17,6 +17,9 @@
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq)
 - [Red Hat AMQ streams: Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 
+## RabbitMQ
+- [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
+
 ## Related
 - [Debezium](https://debezium.io/) Stream changes from your database
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
