@@ -11,6 +11,7 @@
     - [Kubernetes Networking](#kubernetes-networking)
     - [Local Installers](#local-installers)
     - [Production Cluster Installers](#production-cluster-installers)
+    - [VMware](#vmware)
     - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
     - [Helm and Kubernetes](#helm-and-kubernetes)
     - [Other tools](#other-tools)
@@ -209,8 +210,12 @@
 * [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
 * [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
 * [**Microk8s**](https://microk8s.io/)
-* [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
+
+## VMware
+* [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
+* [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
+* [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
 
 ## Rancher
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
@@ -224,6 +229,7 @@
 * [**k3sup (said 'ketchup')**](https://github.com/alexellis/k3sup) is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
     * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 * [rancher.com: Custom alerts using Prometheus queries](https://rancher.com/blog/2020/custom-monitoring)
+* [**Fleet** Management for kubernetes](https://rancher.com/blog/2020/fleet-management-kubernetes/) a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.
 
 |[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|
 |:---:|:---:|
