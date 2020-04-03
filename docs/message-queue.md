@@ -2,6 +2,11 @@
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
 
+## Message Brokers
+- [Apache ActiveMQ](https://activemq.apache.org/)
+- [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
+- [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
+
 ## KubeMQ
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
@@ -22,11 +27,6 @@
 
 ## RabbitMQ
 - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
-
-## Message Brokers
-- [Apache ActiveMQ](https://activemq.apache.org/)
-- [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
-- [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
 
 ## Related
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
