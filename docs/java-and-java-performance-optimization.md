@@ -24,6 +24,7 @@
          * [gceasy.io](https://gceasy.io/)
          * [heaphero.io](https://heaphero.io/)
 * [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
+* [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
 * [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
 
 ## Debugging java applications on openshift and kubernetes
