@@ -5,6 +5,9 @@
 * [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials)
 * [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
 
+## API Testing
+* [softwaretestingportal.com: API Testing, Key Terminologies and more…..](http://www.softwaretestingportal.com/2020/03/31/api-testing/)
+
 ## Related
 * [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/)
 * [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)
