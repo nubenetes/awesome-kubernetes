@@ -307,6 +307,9 @@ Apply the SCC with the least privilege required
 * [blog.openshift.com: Troubleshooting OpenShift network performance with a netperf DaemonSet](https://blog.openshift.com/troubleshooting-openshift-network-performance-with-a-netperf-daemonset/)
 * [blog.openshift.com: Advanced Network customizations for OpenShift Install](https://blog.openshift.com/advanced-network-customizations-for-openshift-install/)
 
+## Storage
+- [State of **OpenShift Container Storage**](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
+
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
 * [github Red Hat Tutorials & Examples 🌟🌟🌟🌟](https://github.com/redhat-developer-demos)
