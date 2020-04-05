@@ -56,6 +56,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Zephyr (Jira plugin)](zephyr.md)
     - [Selenium](selenium.md)
     - [Appium](appium.md)
+    - [SSH](ssh.md)
     - [OpenProject](https://www.openproject.org/)
     - [Work From Home](workfromhome.md)
 8. Configuration Management
