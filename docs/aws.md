@@ -48,7 +48,7 @@
     - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
     - [VMware Cloud on AWS](#vmware-cloud-on-aws)
     - [AWS Developer Blog](#aws-developer-blog)
-    - [AWS Lambda](#aws-lambda)
+    - [AWS Lambda Serverless](#aws-lambda)
     - [AWS Cloud Formation](#aws-cloud-formation)
     - [AWS for Windows](#aws-for-windows)
     - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
@@ -340,7 +340,7 @@
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer/)
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
-## AWS Lambda
+## AWS Lambda Serverless
 - [martinfowler.com: Serverless Architectures 🌟🌟🌟](http://martinfowler.com/articles/serverless.html)
 - [you can use Python with AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
 - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)
@@ -350,6 +350,7 @@
 - [AWS Lambda Limits](http://docs.aws.amazon.com/lambda/latest/dg/limits.html)
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda 🌟](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟🌟🌟](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
+- [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 
 ## AWS Cloud Formation
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
