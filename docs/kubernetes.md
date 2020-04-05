@@ -370,6 +370,8 @@
 * [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)
     * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
+* [Microsoft.com: Attack matrix for Kubernetes 🌟🌟🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
+* [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
 
 ## AWS EKS
 * [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
