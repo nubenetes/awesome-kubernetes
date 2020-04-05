@@ -78,6 +78,7 @@
 * [learnk8s.io: Architecting Kubernetes clusters — how many should you have? 🌟](https://learnk8s.io/how-many-clusters)
 * [magalix.com: Capacity Planning 🌟🌟🌟](https://www.magalix.com/blog/kubernetes-patterns-capacity-planning) When we have multiple Pods with different Priority Class values, the admission controller starts by sorting Pods according to their priority. What happens when there are no nodes with available resources to schedule a high-priority pods? 
 * [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)
+* [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟🌟🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
 
 ## Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟🌟🌟](https://www.cncf.io/certification/software-conformance/)
@@ -137,12 +138,13 @@
 
 ## Kubernetes Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet 🌟](https://developers.redhat.com/cheat-sheets/kubernetes/)
-* [kubernetes.io 🌟🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+* [kubernetes.io 🌟🌟🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
 * [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md)
 * [intellipaat.com 🌟🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
 * [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
 * [jimmysong.io: kubectl cheat sheet 🌟🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
+* [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟🌟🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
 
 ## Kubernetes Patterns
 * [redhat.com: Kubernetes Patterns e-book 🌟🌟🌟🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
