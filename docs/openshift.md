@@ -2,6 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
+    - [Red Hat CodeReady Containers](#red-hat-codeready-containers)
     - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
     - [Other Awesome Lists](#other-awesome-lists)
@@ -156,11 +157,6 @@
     * [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
     * [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 * [youtube: Getting Started with OpenShift 4 Security 🌟🌟🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
-* **Red Hat CodeReady Containers:**
-    * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
-](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-    * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
-    * [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
 * [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://blog.openshift.com/configure-the-openshift-image-registry-backed-by-openshift-container-storage/)
 * **OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers**
     * OpenShift Hive is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internal IT regulations.
@@ -173,6 +169,13 @@
 * **OpenShift Cost Management**:
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
+
+## Red Hat CodeReady Containers
+    * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
+](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
+    * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
+    * [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
+    * [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 
 ## Backup and Migrate OpenShift
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
