@@ -282,6 +282,7 @@
 * [Guard](https://github.com/appscode/guard) is a Kubernetes Webhook Authentication server. Using guard, you can log into your Kubernetes cluster using various auth providers. Guard also configures groups of authenticated user appropriately.
 * [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟🌟🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
 * [**Kubei**](https://github.com/Portshift/kubei) is a flexible Kubernetes runtime scanner, scanning images of worker and Kubernetes nodes providing accurate vulnerabilities assessment.
+* [**Tubectl**: a kubectl alternative which adds a bit of magic to your everyday kubectl routines by reducing the complexity of working with contexts, namespaces and intelligent matching resources.](https://github.com/reconquest/tubekit)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
