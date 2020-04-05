@@ -102,6 +102,7 @@
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
 * [Code Average API](https://plugins.jenkins.io/code-coverage-api)
 * [Fortify](https://plugins.jenkins.io/fortify)
+* [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75)
 * etc
 
 ## Jenkins DSL
