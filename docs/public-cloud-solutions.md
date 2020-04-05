@@ -1,4 +1,7 @@
 # Public Cloud Solutions
+## AWS Vs Azure Vs Google Cloud
+* [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
+
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
 * [OpenShift in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-get-started)
