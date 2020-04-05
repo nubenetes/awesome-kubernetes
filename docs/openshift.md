@@ -98,7 +98,8 @@
 * [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/)
 * [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository/)
 * [developers.redhat.com: Customizing OpenShift project creation 🌟](https://developers.redhat.com/blog/2020/02/05/customizing-openshift-project-creation/)
-* [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift/)
+* [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift  🌟🌟🌟](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift/)
+* [Cost Management and OpenShift - Sergio Ocón-Cárdenas (Red Hat) 🌟🌟🌟🌟](https://www.openshift.com/blog/cost-management-and-openshift-sergio-oc%C3%B3n-c%C3%A1rdenas-red-hat)
 
 ## Other Awesome Lists
 * [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
@@ -171,11 +172,12 @@
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
 
 ## Red Hat CodeReady Containers
-    * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
+* [developers.redhat.com: Developing applications on Kubernetes 🌟🌟🌟](https://developers.redhat.com/topics/kubernetes/)
+* [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-    * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
-    * [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
-    * [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
+* [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
+* [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
+* [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 
 ## Backup and Migrate OpenShift
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
