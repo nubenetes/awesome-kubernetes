@@ -36,5 +36,6 @@
 |  ClusterAPI | SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | No | No | No |  |  | https://cluster-api.sigs.k8s.io/ |
 |  Kind | Devel | Kubernetes Upstream |  | Yes | OSS | No | Yes | Yes | No | Yes | Not designed for production use; it is intended for development and <br/>testing environments. | https://github.com/kubernetes-sigs/kind |
 |  VMware Pivotal Container Service (PKS) | SRE / DevOps | PKS / Cloud Foundry PaaS <br/>(no kubernetes) | vSphere, multi-cloud, public-cloud | Yes | Yes | Yes | No | No | Yes | Yes | Pivotal Container Service (PKS) adquired by VMware in 2019. <br/>Cloud Foundry PaaS that compites with kubernetes. | https://pivotal.io/platform/pivotal-container-service |
+|  VMware vSphere 7 with Kubernetes | SRE / DevOps | VMware Kubernetes | vSphere | Yes | Yes | Yes | No | No | Yes | Yes | VMware's kubernetes | https://www.vmware.com/products/vsphere.html |
 |  VMware Kubernetes Tanzu (PKS renamed) | SRE / DevOps | Kubernetes Upstream ? | vSphere, multi-cloud, public-cloud | Yes | Yes | Yes | No | No | Yes | Yes | Embed kubernetes natively into vSphere. Competes with OpenShift. | https://cloud.vmware.com/tanzu |
 |  etc |  |  |  |  |  |  |  |  |  |  |  |  |
