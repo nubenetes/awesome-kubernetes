@@ -23,7 +23,7 @@ pages:
 - Home: index.md
 - Introduction:
   - Openshift VS Kubernetes: introduction.md
-  - Microservices FAQ: faq.md
+  - Microservices FAQ. Kubernetes Native: faq.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
 - CI/CD : cicd.md
 - Docker: docker.md
