@@ -11,7 +11,9 @@
 Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
  
 ## Grafana
-* [Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
+* [Grafana](https://grafana.com/)
+* [Grafana Dashboards](https://grafana.com/grafana/dashboards)
+* [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 
 ## Collectors
 * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
