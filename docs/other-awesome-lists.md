@@ -17,6 +17,7 @@
 - [Awesome Compose](https://github.com/docker/awesome-compose)
     - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
 - [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
+    - [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 - [Awesome Packer](https://github.com/dawitnida/awesome-packer)
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
 - [Awesome Security](https://github.com/sbilly/awesome-security)
