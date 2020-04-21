@@ -50,6 +50,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Gradle](gradle.md)
     - [SonarQube](sonarqube.md)
     - [Nexus](nexus.md)
+    - [JFrog Artifactory](artifactory.md)
     - [HAProxy](haproxy.md)
     - [Payara](payara.md)
     - [Undertow](http://undertow.io/)
