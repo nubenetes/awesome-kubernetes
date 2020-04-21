@@ -10,9 +10,14 @@
 * [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA 
 Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
  
-
 ## Grafana
 * [Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
+
+## Collectors
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
+* [Micrometer](http://micrometer.io/)
+* [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+* [Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
