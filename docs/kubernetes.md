@@ -9,6 +9,8 @@
     - [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
     - [Kubernetes Patterns](#kubernetes-patterns)
     - [Kubernetes Networking](#kubernetes-networking)
+    - [Kubernetes Sidecars](#kubernetes-sidecars)
+    - [Kubernetes Storage](#kubernetes-storage)
     - [Local Installers](#local-installers)
     - [Production Cluster Installers](#production-cluster-installers)
     - [VMware](#vmware)
@@ -163,6 +165,9 @@
 * [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
 * [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified/)
 * [medium.com: Fighting Service Latency in Microservices With Kubernetes](https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36)
+
+## Kubernetes Sidecars
+* [banzaicloud.com: Sidecar container lifecycle changes in Kubernetes 1.18 🌟🌟](https://banzaicloud.com/blog/k8s-sidecars/)
 
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
