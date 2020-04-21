@@ -25,6 +25,7 @@
 * [docker.com: Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
 * [**GitHub build-push-action**](https://github.com/docker/build-push-action) Build+push official Docker GitHub action
 * [docker.com: Announcing the Compose Specification 🌟🌟🌟](https://www.docker.com/blog/announcing-the-compose-specification/)
+     * [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html) Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.
      * [Awesome Compose](https://github.com/docker/awesome-compose)
 
 ## Portainer
