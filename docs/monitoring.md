@@ -7,7 +7,9 @@
 ## Prometheus
 * [dzone.com: Monitoring with **Prometheus**](https://dzone.com/articles/monitoring-with-prometheus) Learn how to set up a basic instance of Prometheus along with Grafana and the Node Exporter to monitor a simple Linux server.
 * [**Thanos**](https://thanos.io/) Open source, highly available Prometheus setup with long term storage capabilities.
-* [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup)
+* [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA 
+Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
+ 
 
 ## Grafana
 * [Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
