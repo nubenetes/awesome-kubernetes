@@ -46,6 +46,7 @@ pages:
 - Toolchain:
   - Maven: maven.md
   - Gradle: gradle.md
+  - Podman: podman.md
   - SonarQube: sonarqube.md
   - Nexus: nexus.md
   - JFrog Artifactory: artifactory.md
