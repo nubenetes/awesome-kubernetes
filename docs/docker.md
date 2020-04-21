@@ -24,12 +24,15 @@
      - [freecodecamp.org: a beginners guide to docker - how to create a client server side with docker compose](https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa/)
 * [docker.com: Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
 * [**GitHub build-push-action**](https://github.com/docker/build-push-action) Build+push official Docker GitHub action
+* [docker.com: Announcing the Compose Specification 🌟🌟🌟](https://www.docker.com/blog/announcing-the-compose-specification/)
+     * [Awesome Compose](https://github.com/docker/awesome-compose)
 
 ## Portainer
 * [Portainer 🌟🌟](https://www.portainer.io/) Making Docker management easy
 
 ## Awesome Lists
 * [Awesome Docker 🌟🌟🌟](https://github.com/veggiemonk/awesome-docker)
+* [Awesome Compose 🌟🌟🌟](https://github.com/docker/awesome-compose)
 
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 
