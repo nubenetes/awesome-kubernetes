@@ -26,7 +26,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [agilemanifesto.org](http://agilemanifesto.org/)
     - [12factor.net](https://12factor.net/)
     - [roadmap.sh](https://roadmap.sh/) 
-    - [Microservices FAQ](faq.md)
+    - [Microservices FAQ. Kubernetes Native](faq.md)
     - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
     - [API Landscape](https://www.apidays.co/api-landscape)
 2. [CI/CD](cicd.md)
