@@ -34,6 +34,7 @@
 ## Envoy micro proxy
 - [envoyproxy.io](https://www.envoyproxy.io/)
 - [getenvoy.io](https://www.getenvoy.io/)
+- [Controlling outbound traffic from Kubernetes](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes)
 
 ## Kibana
 - [kibana](https://www.elastic.co/products/kibana)
