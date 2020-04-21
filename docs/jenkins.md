@@ -57,6 +57,7 @@
 * [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟🌟](https://webhookrelay.com/blog/2017/11/23/github-jenkins-guide/)
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 * [opensource.com: Getting started with Jenkins Configuration as Code 🌟🌟🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
+* [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟🌟🌟](https://devopscube.com/jenkins-pipeline-as-code/)
 
 ## Jenkins Cheat Sheet
 * [edureka.co: Jenkins Cheat Sheet 🌟🌟🌟🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
