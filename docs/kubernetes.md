@@ -292,6 +292,7 @@
 * [**Tubectl**: a kubectl alternative which adds a bit of magic to your everyday kubectl routines by reducing the complexity of working with contexts, namespaces and intelligent matching resources.](https://github.com/reconquest/tubekit)
 * [**Kpt**: Packaging up your Kubernetes configuration with git and YAML since 2014 **(Google)**](https://opensource.googleblog.com/2020/03/kpt-packaging-up-your-kubernetes.html)
     * [kpt](https://googlecontainertools.github.io/kpt/)
+* [**Krew** 🌟🌟🌟](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool.
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
