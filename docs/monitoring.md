@@ -19,6 +19,12 @@ Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with
 * [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
 * [Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
 
+## Prometheus Storage
+* [Prometheus TSDB](https://prometheus.io/docs/prometheus/latest/storage/)
+* [Cortex](https://cortexmetrics.io/)
+* [InfluxDB](https://www.influxdata.com/)
+* [M3](https://www.m3db.io/)
+
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 * [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
