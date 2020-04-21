@@ -308,6 +308,8 @@
     * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
+* [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
+    * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
