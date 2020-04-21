@@ -7,7 +7,7 @@
 - [Apache ActiveMQ](https://activemq.apache.org/)
     - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic/)
     - [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/)
-    - [Apache Artemis JMeter](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter)
+    - [Apache Artemis JMeter](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter) Running the ActiveMQ Artemis JMeter Performance Testing Examples.
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
 - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
 
