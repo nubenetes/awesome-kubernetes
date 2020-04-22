@@ -11,6 +11,11 @@
 * [acloud.guru: How youtr org predicts your CI/CD pipeline](https://info.acloud.guru/resources/brazeal-how-your-org-predicts-your-ci/cd-pipeline)
 * [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l)
 
+## CI/CD with Kubernetes
+* [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
+* [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
+* [thenewstack.io: CI/CD with kubernetes 🌟🌟🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes/)
+
 ## Awesome Lists
 * [Awesome CI/CD 🌟🌟🌟](https://github.com/ciandcd/awesome-ciandcd)
 
