@@ -78,6 +78,7 @@
     - [Localstack](#localstack)
     - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
     - [Spain](#spain)
+    - [Blogs](#blogs)
 
 <!-- /MarkdownTOC -->
 
