@@ -60,7 +60,7 @@ pages:
   - SSH: ssh.md
   - Work From Home: workfromhome.md
 - Configuration Management:
-  - Terraform: terraform.md
+  - Terraform & Packer: terraform.md
   - Ansible: ansible.md
   - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
