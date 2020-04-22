@@ -13,7 +13,6 @@
 * [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [medium.freecodecamp.com: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.com/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
-* [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [Google Play: Learning Solution - Learn Docker 🌟🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&hl=en)
 * [Play with docker 🌟🌟🌟](https://labs.play-with-docker.com/) A simple, interactive and fun playground to learn Docker
 * [blog.docker.com: Intro Guide to Dockerfile Best Practices 🌟🌟](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
@@ -29,10 +28,14 @@
      * [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html) Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.
      * [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/) Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.
      * [Awesome Compose](https://github.com/docker/awesome-compose)
-* [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
 
 ## Portainer
 * [Portainer 🌟🌟](https://www.portainer.io/) Making Docker management easy
+
+## Linux Container Base Images
+* [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
+* [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
+* [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
 
 ## Awesome Lists
 * [Awesome Docker 🌟🌟🌟](https://github.com/veggiemonk/awesome-docker)
