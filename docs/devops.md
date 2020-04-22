@@ -2,8 +2,6 @@
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
 * [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
 * [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
-* [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
-* [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
