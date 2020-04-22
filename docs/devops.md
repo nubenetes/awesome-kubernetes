@@ -9,3 +9,6 @@
 * [opensource.com: A beginner's guide to everything DevOps 🌟🌟🌟](https://opensource.com/article/20/2/devops-beginners) Take a fresh look at why DevOps is important, what it means for IT professionals, and its methods, frameworks, and tools.
 * [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps)
 * [Corporate culture complicates Kubernetes and container collaboration 🌟🌟🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration/) 'As the DevOps crew likes to say: containers won't fix your broken culture'
+
+
+[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
