@@ -1,4 +1,4 @@
-# Hashicorp Terraform
+# Hashicorp Terraform & Packer
 * [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))
 * [https://www.terraform.io/](https://www.terraform.io/)
 * [https://github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
