@@ -299,7 +299,9 @@ Apply the SCC with the least privilege required
 ```
 
 ## Operators
-- [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/Documentation/design/architecture.md)
+- [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
+    - [OLM Architecture 🌟🌟](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
+    - [OLM Philosophy](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/philosophy.md)
 - [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
 - [operatorhub.io](https://operatorhub.io/)
 - [learn.crunchydata.com](https://learn.crunchydata.com/) 
