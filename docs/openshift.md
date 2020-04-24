@@ -217,11 +217,12 @@
     * [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.com/helm-and-operators-on-openshift-part-2/)
 
 ## E-books
-* [O'Reilly Free Book: DevOps with OpenShift](https://www.openshift.com/devops-with-openshift/)
-* [O'Reilly Free Book: Openshift for developers](https://www.openshift.com/for-developers/)
-* [O’Reilly: Free ebook: Kubernetes Operators: Automating the Container Orchestration Platform](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
-* [Manning: Openshift in action](https://www.manning.com/books/openshift-in-action)
-* [Packt publishing: Learn Openshift](https://www.packtpub.com/application-development/learn-openshift)
+* [O'Reilly Free Book: **DevOps with OpenShift**](https://www.openshift.com/devops-with-openshift/)
+* [O'Reilly Free Book: **Openshift for developers**](https://www.openshift.com/for-developers/)
+* [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
+* [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
+* [Packt publishing: **Learn Openshift**](https://www.packtpub.com/application-development/learn-openshift)
+* [O’Reilly: Free ebook: **Knative Cookbook**: Building Effective Serverless Applications with Kubernetes and OpenShift](https://developers.redhat.com/books/knative-cookbook/)
 
 ## Online Learning
 * [learn.openshift.com 🌟🌟🌟🌟](https://learn.openshift.com) Interactive Learning Portal
