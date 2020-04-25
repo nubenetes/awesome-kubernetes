@@ -2,7 +2,8 @@
 * [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
 * [Jenkins.io (new Jenkins 2.0 site) 🌟🌟🌟🌟](https://jenkins.io/)
 * [jenkins.io - doc/book/pipeline 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/)
-    * [jenkins.io - jenkinsfile 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/)
+    * [jenkins.io - **jenkinsfile** 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/)
+    * [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4)
 * [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
 * [dzone.com: Jenkins Pipeline - Software Delivery Made Easy](https://dzone.com/articles/jenkins-pipeline-software-delivery-made-easy) Jenkins 2.0 has focused on solving the problem for organizations wanting to continuously deliver software.
 * [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
