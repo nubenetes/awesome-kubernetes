@@ -12,6 +12,7 @@
     - [OKD4](#okd4)
     - [Serverless with Knative](#serverless-with-knative)
     - [Helm and OpenShift](#helm-and-openShift)
+    - [Red Hat Marketplace](#red-hat-marketplace)
     - [E-Books](#e-books)
     - [Online learning](#online-learning)
     - [Local Installers](#local-installers)
@@ -215,6 +216,10 @@
     * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
     * [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://blog.openshift.com/helm-and-operators-on-openshift-part-1/)
     * [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.com/helm-and-operators-on-openshift-part-2/)
+
+## Red Hat Marketplace
+* [marketplace.redhat.com 🌟🌟🌟](https://marketplace.redhat.com/)
+* [developers.redhat.com: Building Kubernetes applications on OpenShift with Red Hat Marketplace](https://developers.redhat.com/blog/2020/04/27/building-kubernetes-applications-on-openshift-with-red-hat-marketplace/)
 
 ## E-books
 * [O'Reilly Free Book: **DevOps with OpenShift**](https://www.openshift.com/devops-with-openshift/)
