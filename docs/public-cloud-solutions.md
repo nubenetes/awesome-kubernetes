@@ -1,6 +1,7 @@
 # Public Cloud Solutions
 ## AWS Vs Azure Vs Google Cloud
 * [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
+* [Dzone.com: GCP vs. AWS](https://dzone.com/articles/gcp-vs-aws-1) This article takes a look at the differences in using GCP vs. AWS in the contexts of agility, cost, deep tech services, tools, and market share.
 
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
