@@ -311,6 +311,7 @@
     * Run a command on all the available containers by kubelet at the same time
     * Get service account tokens from all available containers by kubelet
     * Nice printing :)
+* [**inspektor-gadget**](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF [kinvolk.io](https://kinvolk.io)
 
 ## Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
