@@ -34,6 +34,7 @@
 
 ## RabbitMQ
 - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
+- [medium.com: **RabbitMQ vs. Kafka**](https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793) An architect’s dilemma
 
 ## Red Hat Fuse Online and Syndesis
 - [Red Hat Fuse Online](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
