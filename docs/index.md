@@ -69,43 +69,44 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Liquibase](liquibase.md)
 11. [Databases on Kubernetes](databases.md)
 12. [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](message-queue.md) 
-13. [Service Mesh](servicemesh.md)
+13. [Caching Solutions](caching.md)
+14. [Service Mesh](servicemesh.md)
     - [Istio - Service Mesh](istio.md)
     - [Consul - Service Mesh](consul.md)
     - [Linkerd - Service Mesh](https://linkerd.io/)
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
     - [Meshery](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
-14. [Security Policy as Code](securityascode.md)
-15. [Cloud Native Storage](storage.md)
-16. Dev Environment    
+15. [Security Policy as Code](securityascode.md)
+16. [Cloud Native Storage](storage.md)
+17. Dev Environment    
     - [Git](git.md)
     - [Visual Studio](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Linux Dev Environment](linux-dev-env.md)
     - [Backstage.io](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
     - [Scaffolding Tools](scaffolding.md)
-17. Frameworks
+18. Frameworks
     - [Angular](angular.md)
     - [Java - SpringBoot](SpringBoot.md)
     - [Java - Spring Cloud](SpringCloud.md)
     - [Java - Jakarta EE](https://jakarta.ee/)
     - [Java - Quarkus](quarkus.md)
     - [Python](python.md)
-18. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
+19. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
     - [3scale API Management](3scale.md)
-19. Public Cloud
+20. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [AWS](aws.md)
     - [Google Cloud Platform](GoogleCloudPlatform.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
     - [Edge Computing](edge-computing.md)
-20. [E-Learning](elearning.md)
-21. [Customer Success Stories 🌟](customer.md)
-22. [Subreddits and Newsfeeds](newsfeeds.md)
-22. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+21. [E-Learning](elearning.md)
+22. [Customer Success Stories 🌟](customer.md)
+23. [Subreddits and Newsfeeds](newsfeeds.md)
+24. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
