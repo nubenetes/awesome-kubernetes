@@ -28,6 +28,7 @@
      * [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html) Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.
      * [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/) Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.
      * [Awesome Compose](https://github.com/docker/awesome-compose)
+* [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/)
 
 ## Portainer
 * [Portainer 🌟🌟](https://www.portainer.io/) Making Docker management easy
