@@ -35,3 +35,7 @@
 
 ## Comparisons
 * [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)
+
+<center>
+[![gitlab](images/gitlab.jpg)](https://gitlab.com/)
+</center>
