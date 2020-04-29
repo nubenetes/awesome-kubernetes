@@ -14,7 +14,7 @@
     - [Local Installers](#local-installers)
     - [Production Cluster Installers](#production-cluster-installers)
     - [VMware](#vmware)
-    - [Rancher](#rancher) Rancher is enterprise management for Kubernetes
+    - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes) 
     - [Helm and Kubernetes](#helm-and-kubernetes)
     - [Other tools](#other-tools)
     - [Demos](#demos)
@@ -230,7 +230,7 @@
 * [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes/)
 * [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html/)
 
-## Rancher
+## Rancher: Enterprise management for Kubernetes
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
 * [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 * [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
