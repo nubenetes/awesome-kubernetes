@@ -221,7 +221,7 @@
 * [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
 * [**Microk8s**](https://microk8s.io/)
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
-* [**K8bit** — the tiny Kubernetes dashboard 🌟](https://github.com/learnk8s/k8bit)
+* [**K8bit** — the tiny Kubernetes dashboard 🌟](https://github.com/learnk8s/k8bit) K8bit is a tiny dashboard that is meant to demonstrate how to use the Kubernetes API to watch for changes.
     * [learnk8s.io/real-time-dashboard](https://learnk8s.io/real-time-dashboard)
 
 ## VMware
