@@ -2,7 +2,7 @@
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
 - [KubeMQ](#kubemq)
-- [Apache Kakfa](#apache-kafka)
+- [Apache Kafka](#apache-kafka)
 - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
 - [Red Hat AMQ](#red-hat-amq)
 - [RabbitMQ](#rabbitmq)
