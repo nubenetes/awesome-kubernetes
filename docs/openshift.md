@@ -3,7 +3,7 @@
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
     - [OpenShift Pipelines. Tekton CI/CD Pipelines](#openshift-pipelines-tekton-cicd-pipelines)
-    - [Red Hat CodeReady Containers](#red-hat-codeready-containers)
+    - [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
     - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
     - [Other Awesome Lists](#other-awesome-lists)
@@ -176,7 +176,7 @@
 * [OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
 
-## Red Hat CodeReady Containers
+## Red Hat CodeReady Containers. OpenShift 4 on your laptop
 * [developers.redhat.com: Developing applications on Kubernetes 🌟🌟🌟](https://developers.redhat.com/topics/kubernetes/)
 * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
