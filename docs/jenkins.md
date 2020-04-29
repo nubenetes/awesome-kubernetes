@@ -98,6 +98,7 @@
     * [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
 * [Matrix 🌟🌟🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Blue Ocean 🌟🌟🌟](https://plugins.jenkins.io/blueocean/)
+* [CloudBees Flow 🌟🌟🌟](https://plugins.jenkins.io/electricflow/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
 * [syslog-logger](https://plugins.jenkins.io/syslog-logger)
 * [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline)
@@ -150,6 +151,7 @@
 
 ## Jenkins Blue Ocean
 * [Jenkins BlueOcean 🌟🌟🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
+* [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -157,6 +159,7 @@
 
 ## Cloudbees Flow
 * [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
+* [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
