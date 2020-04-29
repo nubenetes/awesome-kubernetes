@@ -13,7 +13,7 @@
     - [Kubernetes Storage](#kubernetes-storage)
     - [Local Installers](#local-installers)
     - [Production Cluster Installers](#production-cluster-installers)
-    - [VMware](#vmware)
+    - [VMware Kubernetes](#vmware-kubernetes)
     - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes) 
     - [Helm and Kubernetes](#helm-and-kubernetes)
     - [Other tools](#other-tools)
@@ -222,7 +222,7 @@
 * [**Microk8s**](https://microk8s.io/)
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
-## VMware
+## VMware Kubernetes
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
 * [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
 * [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
