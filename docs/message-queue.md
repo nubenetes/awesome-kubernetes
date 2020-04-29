@@ -1,4 +1,4 @@
-# Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
+# Streaming & Messaging. Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
 - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
