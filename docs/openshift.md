@@ -2,6 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
+    - [OpenShift Pipelines Tekton CI/CD pipelines](#openShift-pipelines.-tekton-ci/cd-pipelines)
     - [Red Hat CodeReady Containers](#red-hat-codeready-containers)
     - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
@@ -134,11 +135,6 @@
 * [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 * [developers.redhat.com: Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
-* **Tekton CI/CD pipelines:**
-    * [**tekton.dev**](https://tekton.dev/)
-    * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
-    * [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
-    * [OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
 * [cloudowski.com: Honest review of OpenShift 4 🌟🌟🌟🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)
 * OpenShift 4 Training:
@@ -172,6 +168,13 @@
 * **OpenShift Cost Management**:
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
+
+## OpenShift Pipelines. Tekton CI/CD pipelines
+* [**tekton.dev**](https://tekton.dev/)
+* [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
+* [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
+* [OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
+* [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
 
 ## Red Hat CodeReady Containers
 * [developers.redhat.com: Developing applications on Kubernetes 🌟🌟🌟](https://developers.redhat.com/topics/kubernetes/)
