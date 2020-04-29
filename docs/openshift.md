@@ -10,7 +10,7 @@
     - [Red Hat Communities of Practice](#redhat-communities-of-practice)
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
-    - [OKD4](#okd4)
+    - [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
     - [Serverless with Knative](#serverless-with-knative)
     - [Helm and OpenShift](#helm-and-openShift)
     - [Red Hat Marketplace](#red-hat-marketplace)
@@ -194,7 +194,7 @@
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
 
-## OKD4
+## OKD4. OpenShift 4 without enterprise-level support
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
