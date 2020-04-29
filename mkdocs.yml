@@ -65,7 +65,7 @@ pages:
   - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
 - Caching Solutions: caching.md
-- Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming: message-queue.md
+- Streaming & Messaging: message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
   - Istio Service Mesh: istio.md
