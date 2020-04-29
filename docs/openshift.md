@@ -2,7 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
-    - [OpenShift Pipelines Tekton CI/CD pipelines](#openShift-pipelines.-tekton-ci/cd-pipelines)
+    - [OpenShift Pipelines Tekton CI/CD pipelines](#openShift-pipelines-tekton-ci/cd-pipelines)
     - [Red Hat CodeReady Containers](#red-hat-codeready-containers)
     - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
