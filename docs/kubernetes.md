@@ -3,7 +3,7 @@
 - [Kubernetes](#kubernetes)
     - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
     - [Operators](#operators)
-    - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-Kubernetes-management)
+    - [Tools for multi-cloud kubernetes management](#tools-for-multi-cloud-kubernetes-management)
     - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
     - [Kubenetes Tutorials](#kubernetes-tutorials)
     - [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
