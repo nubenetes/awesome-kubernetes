@@ -49,7 +49,6 @@
 * Configuration as Code for CloudBees Core on modern cloud platforms 🌟🌟🌟:
     * [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms**](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
     * [CloudBees Core Configuration as Code (Preview)](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
-* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
 * [sdtimes.com: CI/CD pipelines are expanding 🌟🌟🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
 * [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟🌟🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins)
 * [WebSocket support in now available for Jenkins CLI and agent networking!](https://jenkins.io/blog/2020/02/02/web-socket/)
@@ -59,6 +58,11 @@
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 * [opensource.com: Getting started with Jenkins Configuration as Code 🌟🌟🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
 * [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟🌟🌟](https://devopscube.com/jenkins-pipeline-as-code/)
+
+## Cloudbees Flow
+* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Jenkins Cheat Sheet
 * [edureka.co: Jenkins Cheat Sheet 🌟🌟🌟🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
