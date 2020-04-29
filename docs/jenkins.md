@@ -97,6 +97,7 @@
     * [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
     * [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
 * [Matrix 🌟🌟🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
+* [Blue Ocean 🌟🌟🌟](https://plugins.jenkins.io/blueocean/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
 * [syslog-logger](https://plugins.jenkins.io/syslog-logger)
 * [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline)
