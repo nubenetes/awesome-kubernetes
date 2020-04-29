@@ -2,7 +2,7 @@
 
 - [Openshift](#openshift)
     - [Openshift 4](#openshift-4)
-    - [OpenShift Pipelines Tekton CI/CD pipelines](#openShift-pipelines-tekton-ci/cd-pipelines)
+    - [OpenShift Pipelines Tekton CI/CD pipelines](#openShift-pipelines-tekton-cicd-pipelines)
     - [Red Hat CodeReady Containers](#red-hat-codeready-containers)
     - [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
     - [Openshift 4 roadmap](#openshift-4-roadmap)
@@ -169,7 +169,7 @@
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
 
-## OpenShift Pipelines Tekton CI/CD pipelines
+## OpenShift Pipelines Tekton CICD pipelines
 * [**tekton.dev**](https://tekton.dev/)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
 * [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
