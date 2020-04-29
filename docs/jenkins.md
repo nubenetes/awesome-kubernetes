@@ -4,6 +4,7 @@
     - [Jenkins Plugins](#jenkins-plugins)
     - [Jenkins DSL](#jenkins-dsl)
     - [Monitoring jenkins](#monitoring-jenkins)
+    - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
     - [Jenkins X](#jenkins-x)
     - [CI/CD BOTs](#cicd-bots)
@@ -145,6 +146,13 @@
     * [github.com/jenkinsci/github-autostatus-plugin](https://github.com/jenkinsci/github-autostatus-plugin)
 * [20 Jenkins Plugins You Can’t Live Without](https://caylent.com/jenkins-plugins)
 * [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
+
+## Jenkins Blue Ocean
+* [Jenkins BlueOcean 🌟🌟🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cloudbees Flow
 * [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
