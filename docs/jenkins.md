@@ -174,4 +174,4 @@ We should be able to configure this bot to automatically apply labels to PR's ba
 * [Jenkins ghprb plugin](https://github.com/jenkinsci/ghprb-plugin)
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 
-[![jenkins and openshift](images/jenkins-ose.png)]()
+[![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
