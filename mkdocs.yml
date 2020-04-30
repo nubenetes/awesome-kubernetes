@@ -92,12 +92,12 @@ pages:
 - TestOps: testops.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
+  - Edge Computing: edge-computing.md
+  - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
   - AWS: aws.md
   - Google Cloud Platform: GoogleCloudPlatform.md
   - Microsoft Azure: azure.md
   - Digital Ocean: digitalocean.md
-  - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
-  - Edge Computing: edge-computing.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
 - Subreddits: newsfeeds.md
