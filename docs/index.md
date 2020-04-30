@@ -40,7 +40,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [List of Openshift Compliant Docker images. Demos](openshift-compliant-images.md)
     - [Monitoring and Performance](monitoring.md)
     - [Java Performance Optimization](java-and-java-performance-optimization.md)
-    - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
+        - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 8. [Jenkins & Cloudbees 😀 🌟🌟🌟](jenkins.md)
