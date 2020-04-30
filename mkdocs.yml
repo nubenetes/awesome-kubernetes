@@ -77,7 +77,7 @@ pages:
   - Git & Git Flow: git.md
   - Visual Studio: visual-studio.md
   - GitKraken: gitkraken.md
-  - Linux Dev Environment: linux-dev-env.md
+  - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
 - Frameworks:
   - Angular: angular.md
