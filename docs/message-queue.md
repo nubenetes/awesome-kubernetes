@@ -2,6 +2,7 @@
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
 - [KubeMQ](#kubemq)
+- [Apache Camel Broker](#apache-camel-broker)
 - [Apache Kafka](#apache-kafka)
 - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
 - [Red Hat AMQ](#red-hat-amq)
@@ -26,6 +27,10 @@
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
 - [kubemq.io: Kafka VS KubeMQ 🌟🌟](https://kubemq.io/kafka-vs-kubemq/)
+
+## Apache Camel Broker
+- [Apache Camel](https://camel.apache.org/)
+- [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)
 
 ## Apache Kafka
 - [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
