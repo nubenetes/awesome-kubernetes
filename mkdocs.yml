@@ -94,8 +94,8 @@ pages:
   - Public Cloud Solutions: public-cloud-solutions.md
   - AWS: aws.md
   - Google Cloud Platform: GoogleCloudPlatform.md
-  - Microsoft Azure: (https://azure.microsoft.com/)
-  - Digital Ocean: (https://www.digitalocean.com/)
+  - Microsoft Azure: azure.md
+  - Digital Ocean: digitalocean.md
   - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
   - Edge Computing: edge-computing.md
 - E-Learning: elearning.md
