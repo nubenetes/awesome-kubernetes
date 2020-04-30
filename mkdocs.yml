@@ -24,7 +24,7 @@ pages:
 - Introduction:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
-  - Microservices FAQ. Kubernetes Native: faq.md
+  - Microservices FAQ & Kubernetes Native: faq.md
 - DevOps: devops.md
 - CI/CD: cicd.md
 - TestOps: testops.md
