@@ -41,7 +41,7 @@ pages:
   - Java Parameters Matrix Table 🌟: jvm-parameters-matrix-table.md
 - Jenkins & Cloudbees: 
   - Jenkins docs: jenkins.md
-  - Performance Testing with Jenkins and JMeter : performance-testing-with-jenkins-and-jmeter.md
+  - Performance testing with jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
   - Jenkins and Openshift. Demos : jenkins-and-openshift.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
