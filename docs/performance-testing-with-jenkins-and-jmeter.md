@@ -1,4 +1,4 @@
-# Performance testing with jenkins and jmeter or gatling
+# Performance testing with jenkins and JMeter or Gatling
 * [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 * [blazemeter.com: Open Source Load Testing Tools: Which One Should You Use?](https://www.blazemeter.com/blog/open-source-load-testing-tools-which-one-should-you-use)
 * [baeldung.com: Gatling vs JMeter vs The Grinder: Comparing Load Test Tools](https://www.baeldung.com/gatling-jmeter-grinder-comparison)
