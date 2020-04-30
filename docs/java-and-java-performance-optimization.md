@@ -1,4 +1,4 @@
-# Java and java performance optimization
+# Java Performance Optimization
 * [reddit.com/r/java](https://www.reddit.com/r/java)
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
