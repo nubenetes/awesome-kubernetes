@@ -97,7 +97,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Python](python.md)
     - [Serverless](https://www.serverless.com/)
 19. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
-    - [Developer Portals and API Gateways](developerportals.md)
+    - [Developer Portals and API Gateways 🌟](developerportals.md)
         - [3scale API Management](3scale.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
