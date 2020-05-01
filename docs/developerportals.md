@@ -1,4 +1,5 @@
 # Developer Portals and API Gateways/Management
+- [API Landscape](#api-landscape)
 - [API Managers](#api-managers)
 - [Mobile](#mobile)
 - [Automotive](#automotive)
@@ -7,6 +8,9 @@
 - [Banking](#banking)
 - [Insurance](#insurance)
 - [Telecom](#telecom)
+
+# API Landscape 
+- [API Landscape](https://www.apidays.co/api-landscape)
 
 # API Managers
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
@@ -29,7 +33,8 @@
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
     - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
 
-## Mobile
+## Mobile Developer Portals
+- [developer.mobileconnect.io](https://developer.mobileconnect.io/)
 - [developer.android.com](https://developer.android.com/)
 - [developer.apple.com](https://developer.apple.com/)
 
