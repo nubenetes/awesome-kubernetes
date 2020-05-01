@@ -1,5 +1,13 @@
-# Serverless Frameworks
-* [Serverless Open-Source Frameworks: OpenFaaS, Knative, & More 🌟🌟🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
+# Serverless Architectures
+* [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
+
+## Serverless Frameworks
+* [Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟🌟🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
+
+## FaaS: Function as a Service
+* [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)
+* [redhat.com: What is Function-as-a-Service (FaaS)?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas)
+* [stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!](https://stackify.com/function-as-a-service-serverless-architecture/)
 
 ## OpenFaaS
 * [OpenFaaS](https://www.openfaas.com/)
