@@ -24,7 +24,7 @@
     - [Security](#security)
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
-    - [Serverless with OpenFaas & Knative](#serverless-with-openfaas-&-knative)
+    - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
     - [Container Ecosystem](#Container-ecosystem)
     - [Container Flowchart](#Container-flowchart)
     - [Videos](#videos)
@@ -436,7 +436,7 @@
     * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
-## Serverless with OpenFaas & Knative
+## Serverless with OpenFaas and Knative
 * [Serverless Architectures](docs/serverless.md)
 
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
