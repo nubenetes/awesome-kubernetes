@@ -1,6 +1,7 @@
 # Developer Portals and API Gateways/Management
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
+    - [Apigee @Youtube](https://www.youtube.com/user/apigee)
 - [3scale API Manager](https://www.3scale.net/)
     - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)
     - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)
