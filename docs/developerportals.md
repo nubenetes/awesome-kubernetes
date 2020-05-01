@@ -2,13 +2,19 @@
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
 - [3scale API Manager](https://www.3scale.net/)
+    - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)
+    - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)
 - [WSO2 API Manager](https://wso2.com/api-management/)
+    - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
 - [Kong API Manager](https://konghq.com/kong/)
+    - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)
 - [Tyk API Manager](https://tyk.io/)
+    - [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)
 - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)
     - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
     - [axway.com/digitize](https://axway.com/digitize)
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
+    - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
 
 ## Mobile
 - [developer.android.com](https://developer.android.com/)
