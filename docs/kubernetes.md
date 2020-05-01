@@ -24,7 +24,7 @@
     - [Security](#security)
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
-    - [Serverless with OpenFaas. FaaS architecture](#serverless-with-openfaas-faas-architecture)
+    - [Serverless with OpenFaas & Knative](#serverless-with-openfaas-&-knative)
     - [Container Ecosystem](#Container-ecosystem)
     - [Container Flowchart](#Container-flowchart)
     - [Videos](#videos)
@@ -436,16 +436,8 @@
     * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
-## Serverless with OpenFaas. FaaS architecture
-* [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)
-* [redhat.com: What is Function-as-a-Service (FaaS)?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas)
-* [stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!](https://stackify.com/function-as-a-service-serverless-architecture/)
-* [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
-* [itnext.io: Deploy your first Serverless Function to Kubernetes](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9)
-* [OpenFAAS](https://www.openfaas.com/)
-* [magalix.com: Implementing FaaS in Kubernetes Using Kubeless](https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless)
-* [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟🌟🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
-* [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-openfaas-java/)
+## Serverless with OpenFaas & Knative
+* [Serverless Architectures](docs/serverless.md)
 
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
 
