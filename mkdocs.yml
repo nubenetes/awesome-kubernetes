@@ -80,6 +80,7 @@ pages:
   - GitKraken: gitkraken.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
+  - Developer Portals: developerportals.md
 - Frameworks:
   - Angular: angular.md
   - Java - SpringBoot: SpringBoot.md
