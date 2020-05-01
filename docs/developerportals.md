@@ -13,6 +13,8 @@
 
 ## Automotive
 - [high-mobility.com](https://high-mobility.com/)
+    - [REST Auto API Tutorial](https://high-mobility.com/learn/tutorials/rest/)
+- [medium.com: BMW CarData now integrated with Auto API](https://medium.com/high-mobility/integrate-bmw-cardata-in-the-high-mobility-platform-now-335b7d880dd6)
 
 ## Insurance
 - [santalucia.es](https://api-market.santalucia.es/)
