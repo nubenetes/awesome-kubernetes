@@ -62,6 +62,8 @@
 - [BBVA API Market](https://www.bbvaapimarket.com/)
 - [CaixaBank API Store](https://apistore.caixabank.com/)
 - [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
+- [Deutsche Bank API Program](https://developer.db.com/)
+- [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
 
 ## Insurance
 - [Open Insurance](https://openinsurance.io/)
