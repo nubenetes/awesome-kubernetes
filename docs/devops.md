@@ -9,7 +9,7 @@
 * [opensource.com: A beginner's guide to everything DevOps 🌟🌟🌟](https://opensource.com/article/20/2/devops-beginners) Take a fresh look at why DevOps is important, what it means for IT professionals, and its methods, frameworks, and tools.
 * [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps)
 * [Corporate culture complicates Kubernetes and container collaboration 🌟🌟🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration/) 'As the DevOps crew likes to say: containers won't fix your broken culture'
-* [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+* [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
