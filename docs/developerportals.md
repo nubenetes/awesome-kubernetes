@@ -11,6 +11,9 @@
 - [developer.android.com](https://developer.android.com/)
 - [developer.apple.com](https://developer.apple.com/)
 
+## Automotive
+- [high-mobility.com](https://high-mobility.com/)
+
 ## Insurance
 - [santalucia.es](https://api-market.santalucia.es/)
 
