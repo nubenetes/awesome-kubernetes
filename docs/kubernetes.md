@@ -82,6 +82,7 @@
 * [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)
 * [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟🌟🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
 * [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes 🌟🌟🌟](https://learnk8s.io/cloud-resources-kubernetes)
+* [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟🌟🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
 ## Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟🌟🌟](https://www.cncf.io/certification/software-conformance/)
@@ -458,6 +459,6 @@
 
 </center>
 
-
+[![Kubernetes architecture](images/Kbernetes-Pod-Creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
 
