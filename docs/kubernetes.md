@@ -252,9 +252,11 @@
 * [rancher.com/blog: Deploy Kubernetes Clusters on Microsoft Azure with Rancher](https://rancher.com/blog/2020/build-kubernetes-clusters-on-azure)
 * [rancher.com/blog: Getting Started with Longhorn Distributed Block Storage and Cloud-Native Distributed SQL](https://rancher.com/blog/2020/yugabyte?utm_content=126950057)
 
-|[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|
-|:---:|:---:|
+
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+|:---:|:---:|
+|[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|
+
 
 ## Helm and Kubernetes
 * [helm.sh](https://helm.sh/)
