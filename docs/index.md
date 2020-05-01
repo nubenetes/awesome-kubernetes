@@ -88,7 +88,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
-    - [Developer Portals](developerportals.md)
+    - [Developer Portals and API Gateways](developerportals.md)
 18. Frameworks
     - [Angular](angular.md)
     - [Java - SpringBoot](SpringBoot.md)
