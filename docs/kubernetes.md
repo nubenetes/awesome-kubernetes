@@ -24,7 +24,7 @@
     - [Security](#security)
     - [AWS EKS](#aws-eks)
     - [Docker in Docker](#docker-in-docker)
-    - [Serverless with OpenFaas & Knative](#serverless-with-openfaas-&-knative)
+    - [Serverless with OpenFaas & Knative](#serverless-with-openfaas-knative)
     - [Container Ecosystem](#Container-ecosystem)
     - [Container Flowchart](#Container-flowchart)
     - [Videos](#videos)
