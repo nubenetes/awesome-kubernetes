@@ -462,6 +462,6 @@
 
 </center>
 
-[![Kubernetes architecture](images/Kubernetes Pod Creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
+[![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
 
