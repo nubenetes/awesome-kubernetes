@@ -11,6 +11,5 @@
 * [Corporate culture complicates Kubernetes and container collaboration 🌟🌟🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration/) 'As the DevOps crew likes to say: containers won't fix your broken culture'
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
-[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
-
-[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) 
+|[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)|[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) |
+|:---:|:---:|
