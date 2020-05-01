@@ -38,6 +38,13 @@
 - [smartcar.com](https://smartcar.com/)
 - [Smartcar API for BMW](https://smartcar.com/bmw/)
 
+## Banking
+- [openbankingtracker.com](https://www.openbankingtracker.com/)
+- [Santander APIs](https://developerhub.santander.com/)
+- [BBVA API Market](https://www.bbvaapimarket.com/)
+- [CaixaBank API Store](https://apistore.caixabank.com/)
+- [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
+
 ## Insurance
 - [santalucia.es](https://api-market.santalucia.es/)
 
