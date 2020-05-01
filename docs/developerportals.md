@@ -8,6 +8,7 @@
 - [Banking](#banking)
 - [Insurance](#insurance)
 - [Telecom](#telecom)
+- [Other API Marketplaces](#other-api-marketplaces)
 
 # API Landscape 
 - [API Landscape](https://www.apidays.co/api-landscape)
@@ -58,6 +59,7 @@
 ## Banking
 - [Wikipedia: Open Banking](https://en.wikipedia.org/wiki/Open_banking)
 - [Wikipedia: PSD2 - the Revised Payment Services Directive](https://en.wikipedia.org/wiki/Payment_Services_Directive)
+    - [berlin-group.org: PSD2 Access to Bank Accounts](https://www.berlin-group.org/psd2-access-to-bank-accounts)
 - [openbankingtracker.com](https://www.openbankingtracker.com/)
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
@@ -65,6 +67,9 @@
 - [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
 - [Deutsche Bank API Program](https://developer.db.com/)
 - [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
+- [ING Developer Portal](https://developer.ing.com/)
+    - [ING API Marketplace](https://developer.ing.com/api-marketplace/marketplace)
+- [OrangeBank API PSD2](https://orangebank.es/para-desarrolladores/)
 
 ## Insurance
 - [Open Insurance](https://openinsurance.io/)
@@ -73,3 +78,6 @@
 ## Telecom
 - [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
+
+## Other API Marketplaces
+- [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
