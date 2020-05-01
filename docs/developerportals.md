@@ -1,4 +1,4 @@
-# Developer Portals and API Gateways/Management
+# Developer Portals and API Management/API Gateway
 - [API Landscape](#api-landscape)
 - [API Managers](#api-managers)
 - [Mobile](#mobile)
