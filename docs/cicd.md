@@ -20,9 +20,12 @@
 ## Awesome Lists
 * [Awesome CI/CD 🌟🌟🌟](https://github.com/ciandcd/awesome-ciandcd)
 
+
+|<iframe src="https://www.youtube.com/embed/N8R3-eNVoEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|<iframe src="https://www.youtube.com/embed/65BnTLcDAJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
+|:---:|:---:|
 [![CD Artifact Management](images/cd-artifact-management.jpg)](https://www.thoughtworks.com/insights/continuous-delivery)
 
-<iframe src="https://www.youtube.com/embed/N8R3-eNVoEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/65BnTLcDAJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
