@@ -32,6 +32,7 @@
     - [github.com/highmobility](https://github.com/highmobility)
 - [high-mobility.com](https://high-mobility.com/)
     - [REST Auto API Tutorial](https://high-mobility.com/learn/tutorials/rest/)
+- [High Mobility @Youtube](https://www.youtube.com/channel/UCZNjYn1NXEgPa_ENPna9Atw)
 
 ### Smartcar
 - [smartcar.com](https://smartcar.com/)
