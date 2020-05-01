@@ -80,7 +80,6 @@ pages:
   - GitKraken: gitkraken.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
-  - Developer Portals and API Gateways: developerportals.md
 - Frameworks:
   - Angular: angular.md
   - Java - SpringBoot: SpringBoot.md
@@ -89,9 +88,9 @@ pages:
   - Python: python.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
-  - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+  - Developer Portals and API Gateways: developerportals.md
   - Test Automation with Postman: postman.md
-  - 3scale API Management: 3scale.md
+  - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
 - TestOps: testops.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
