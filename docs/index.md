@@ -79,7 +79,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Linkerd - Service Mesh](https://linkerd.io/)
     - [Envoy - Service Mesh](https://www.envoyproxy.io/)
     - [Maesh - Service Mesh](https://containo.us/maesh/)
-    - [Meshery](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
 15. [Security Policy as Code](securityascode.md)
 16. [Cloud Native Storage](storage.md)
 17. Dev Environment    
@@ -88,8 +87,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [GitKraken](gitkraken.md)
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
-    - [Backstage.io](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
     - [Scaffolding Tools](scaffolding.md)
+    - [Developer Portals](developerportals.md)
 18. Frameworks
     - [Angular](angular.md)
     - [Java - SpringBoot](SpringBoot.md)
