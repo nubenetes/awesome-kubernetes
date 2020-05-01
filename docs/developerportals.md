@@ -41,6 +41,7 @@
 - [Smartcar API for BMW](https://smartcar.com/bmw/)
 
 ## Banking
+- [Wikipedia: Open Banking](https://en.wikipedia.org/wiki/Open_banking)
 - [openbankingtracker.com](https://www.openbankingtracker.com/)
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
