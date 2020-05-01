@@ -12,3 +12,4 @@
 
 ## Telecom
 - [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
+- [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
