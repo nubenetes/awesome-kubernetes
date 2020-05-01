@@ -14,6 +14,8 @@
 - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)
     - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
     - [axway.com/digitize](https://axway.com/digitize)
+- [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)
+    - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
     - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
 
