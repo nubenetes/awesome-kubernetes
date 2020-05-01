@@ -6,4 +6,4 @@
 * [thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control to Kubernetes](https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes/)
 
 ## Meshery
-* [Meshery](https://meshery.io/): Open source tool for evaluating and contrasting service meshes
+* [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
