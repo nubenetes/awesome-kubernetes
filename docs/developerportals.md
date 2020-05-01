@@ -12,9 +12,20 @@
 - [developer.apple.com](https://developer.apple.com/)
 
 ## Automotive
+- [medium: I want to build a car insurance app — which APIs should I use?](https://medium.com/high-mobility/i-want-to-build-a-car-insurance-app-which-apis-should-i-use-6c0998267c33)
+- [medium.com: BMW CarData now integrated with Auto API](https://medium.com/high-mobility/integrate-bmw-cardata-in-the-high-mobility-platform-now-335b7d880dd6)
+- [medium.com: Field test: Using the Auto API to work with BMW CarData](https://medium.com/high-mobility/field-test-using-the-auto-api-to-work-with-bmw-cardata-480c90148569)
+- [medium.com: Field Test: Accessing Mercedes-Benz Data with the Auto API](https://medium.com/high-mobility/field-test-accessing-mercedes-benz-data-with-the-auto-api-a43d88363dfd)
+
+### Auto API
+- [auto-api.dev](https://auto-api.dev/)
+    - [github.com/highmobility](https://github.com/highmobility)
 - [high-mobility.com](https://high-mobility.com/)
     - [REST Auto API Tutorial](https://high-mobility.com/learn/tutorials/rest/)
-- [medium.com: BMW CarData now integrated with Auto API](https://medium.com/high-mobility/integrate-bmw-cardata-in-the-high-mobility-platform-now-335b7d880dd6)
+
+### Smartcar
+- [smartcar.com](https://smartcar.com/)
+- [Smartcar API for BMW](https://smartcar.com/bmw/)
 
 ## Insurance
 - [santalucia.es](https://api-market.santalucia.es/)
