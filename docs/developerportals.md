@@ -49,6 +49,7 @@
 - [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
 
 ## Insurance
+- [Open Insurance](https://openinsurance.io/)
 - [santalucia.es](https://api-market.santalucia.es/)
 
 ## Telecom
