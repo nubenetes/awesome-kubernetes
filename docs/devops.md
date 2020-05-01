@@ -13,4 +13,4 @@
 
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
-[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) 
