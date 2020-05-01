@@ -57,6 +57,7 @@
 
 ## Banking
 - [Wikipedia: Open Banking](https://en.wikipedia.org/wiki/Open_banking)
+- [Wikipedia: PSD2 - the Revised Payment Services Directive](https://en.wikipedia.org/wiki/Payment_Services_Directive)
 - [openbankingtracker.com](https://www.openbankingtracker.com/)
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
