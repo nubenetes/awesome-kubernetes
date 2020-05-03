@@ -2,6 +2,7 @@
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
 * [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
 * [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+* [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
