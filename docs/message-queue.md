@@ -11,7 +11,9 @@
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red hat AMQ Streams](#red-hat-amq-streams)
-- [Red Hat Fuse Online and Syndesis](#red-hat-fuse-online-and-syndesis)
+- [integration Platform-as-a-Service (iPaaS) solutions (Cloud Based Integration)](#integration-platform-as-a-service-ipaas-solutions-cloud-based-integration)
+	- [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
+	- [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
 - [Related](#related)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
@@ -70,12 +72,19 @@
 - [Red Hat **AMQ streams** (kafka): Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/)
 
-## Red Hat Fuse Online and Syndesis
-- [Red Hat Fuse Online](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
-- [developers.redhat.com: Low-code microservices orchestration with **Syndesis** (OpenSource Project for **Red Hat Fuse Online**)](https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/)
+## integration Platform-as-a-Service (iPaaS) solutions (Cloud Based Integration)
+- [Wikipedia: Cloud Based Integration (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)
+
+### Red Hat Fuse and Red Hat Fuse Online
+- [**Red Hat Fuse**](https://www.redhat.com/en/technologies/jboss-middleware/fuse)
+- [**Red Hat Fuse Online**](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
+    
+### Syndesis open source integration platform 
+- [**Syndesis** open source integration platform](https://syndesis.io/) (OpenSource Project for **Red Hat Fuse Online**)
+- [developers.redhat.com: Low-code microservices orchestration with Syndesis](https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/)
 
 ## Related
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
-- [Debezium](https://debezium.io/) Stream changes from your database
+- [**Debezium**](https://debezium.io/) Stream changes from your database
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
     - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
