@@ -12,6 +12,10 @@
 * [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
 * [kite: Code Faster with AI Autocomplete](https://kite.com/)
 
+## Visual Studio MarketPlace
+* [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
+* [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
+
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/VqCgcpAypFQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
