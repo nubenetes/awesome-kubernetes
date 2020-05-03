@@ -18,7 +18,6 @@ Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with
 
 ## Collectors
 * [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
-  * [medium.com: Jaeger embraces OpenTelemetry collector](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
 * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 * [Micrometer](http://micrometer.io/)
 * [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
@@ -43,6 +42,7 @@ Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with
 - [Jaeger](https://www.jaegertracing.io/)
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
      - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
+     - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟🌟🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
 - [zipkin.io](https://zipkin.io/)
 - [OpenTracing.io](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
