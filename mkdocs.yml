@@ -68,7 +68,7 @@ pages:
   - Liquibase: liquibase.md
 - Databases on Kubernetes: databases.md
 - Caching Solutions: caching.md
-- Streaming & Messaging: message-queue.md
+- Streaming & Messaging. Cloud Based Integration: message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
   - Istio Service Mesh: istio.md
