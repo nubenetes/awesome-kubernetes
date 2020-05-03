@@ -72,7 +72,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
 11. [Databases on Kubernetes](databases.md)
-12. [Streaming & Messaging](message-queue.md) 
+12. [Streaming & Messaging. Cloud Based Integration](message-queue.md) 
 13. [Caching Solutions](caching.md)
 14. [Service Mesh](servicemesh.md)
     - [Istio - Service Mesh](istio.md)
