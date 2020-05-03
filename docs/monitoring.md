@@ -17,6 +17,8 @@ Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with
 * [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 
 ## Collectors
+* [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
+  * [medium.com: Jaeger embraces OpenTelemetry collector](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
 * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 * [Micrometer](http://micrometer.io/)
 * [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
