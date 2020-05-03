@@ -72,7 +72,7 @@
 - [Red Hat **AMQ streams** (kafka): Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/)
 
-[![Red Hat AMQ overview](images/AMQ-in-a-nutshell-2019.png)](https://developers.redhat.com/products/amq/overview)
+[![Red Hat AMQ in a nutshell 2019](images/AMQ-in-a-nutshell-2019.png)](https://developers.redhat.com/products/amq/overview)
 
 ## Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions 
 - [Wikipedia: Cloud Based Integration (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)
