@@ -6,6 +6,7 @@
 - [Apache Kafka](#apache-kafka)
 - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
 - [Red Hat AMQ](#red-hat-amq)
+    - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red hat AMQ Streams](#red-hat-amq-streams)
 - [RabbitMQ](#rabbitmq)
 - [Red Hat Fuse Online and Syndesis](#red-hat-fuse-online-and-syndesis)
@@ -46,6 +47,8 @@
 ## Red Hat AMQ
 - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) = AMQ Broker (Apache ActiveMQ Artemis) + AMQ Streams (Apache Kafka)
+
+### Red Hat AMQ Broker (ActiveMQ Artemis)
 - [developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database](https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database)
 
 ### Red hat AMQ Streams
