@@ -8,7 +8,7 @@
     - [KubeMQ message broker](#kubemq-message-broker)
 - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
-- [Red Hat AMQ (ActiveMQ Artemis broker + Apache Kafka)](#red-hat-amq-amq-activemq-artemis-broker-apache-kafka)
+- [Red Hat AMQ (ActiveMQ Artemis broker + Apache Kafka)](#red-hat-amq-activemq-artemis-broker-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red hat AMQ Streams](#red-hat-amq-streams)
 - [Red Hat Fuse Online and Syndesis](#red-hat-fuse-online-and-syndesis)
