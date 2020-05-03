@@ -11,6 +11,7 @@
 * [acloud.guru: How youtr org predicts your CI/CD pipeline](https://info.acloud.guru/resources/brazeal-how-your-org-predicts-your-ci/cd-pipeline)
 * [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l)
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+* [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4)
 
 ## CI/CD with Kubernetes
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
