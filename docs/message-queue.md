@@ -8,7 +8,7 @@
     - [KubeMQ message broker](#kubemq-message-broker)
 - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
-- [Red Hat AMQ (ActiveMQ Artemis broker & Apache Kafka)](#red-hat-amq-activemq-artemis-broker-apache-kafka)
+- [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red hat AMQ Streams](#red-hat-amq-streams)
 - [Red Hat Fuse Online and Syndesis](#red-hat-fuse-online-and-syndesis)
@@ -57,7 +57,7 @@
 - [Banzai Kafka Operator](https://github.com/banzaicloud/kafka-operator)
 - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits/)
 
-## Red Hat AMQ (ActiveMQ Artemis broker & Apache Kafka)
+## Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)
 - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) = AMQ Broker (Apache ActiveMQ Artemis) + AMQ Streams (Apache Kafka)
 
