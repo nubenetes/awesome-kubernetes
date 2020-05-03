@@ -1,4 +1,4 @@
-# Streaming & Messaging
+# Streaming & Messaging. Cloud Based Integration
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
     - [ActiveMQ message broker](#activemq-message-broker)
