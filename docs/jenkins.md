@@ -190,3 +190,6 @@ We should be able to configure this bot to automatically apply labels to PR's ba
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 
 [![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
+
+[![jenkins hub CD](images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
+
