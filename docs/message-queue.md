@@ -5,7 +5,7 @@
     - [RabbitMQ message broker](#rabbitmq-message-broker)
     - [Redis message broker](#redis-message-broker)
     - [Apache Camel message broker](#apache-camel-message-broker)
-    - [KubeMQ message broker]#kubemq-message-broker)
+    - [KubeMQ message broker](#kubemq-message-broker)
 - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
 - [Red Hat AMQ. AMQ Broker + AMQ Streams (ActiveMQ Artemis broker + Apache Kafka)](#red-hat-amq-activemq-artemis-broker-amq-broker--amq-streams-apache-kafka)
