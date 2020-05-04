@@ -15,6 +15,7 @@
 ## Visual Studio MarketPlace
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
 * [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
+* [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
 
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
