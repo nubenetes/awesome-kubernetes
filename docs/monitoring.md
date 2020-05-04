@@ -163,7 +163,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
     - [https://galaxy.ansible.com/William-Yeh/prometheus](https://galaxy.ansible.com/William-Yeh/prometheus) 
     - [https://github.com/William-Yeh/ansible-prometheus](https://github.com/William-Yeh/ansible-prometheus)
     - [https://awesomeopensource.com/project/William-Yeh/ansible-prometheus](https://awesomeopensource.com/project/William-Yeh/ansible-prometheus)
-- Undergreen: An Ansible role that installs Prometheus Node Exporter on Ubuntu|Debian|edhat-based machines with systemd|Upstart|sysvinit.
+- Undergreen: An Ansible role that installs Prometheus Node Exporter on Ubuntu|Debian|redhat-based machines with systemd|Upstart|sysvinit.
     - [https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter) 
     - [https://github.com/UnderGreen/ansible-prometheus-node-exporter](https://github.com/UnderGreen/ansible-prometheus-node-exporter)
 - Mitesh Sharma: Prometheus With Grafana Using Ansible
