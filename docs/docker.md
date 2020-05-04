@@ -29,6 +29,7 @@
      * [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/) Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.
      * [Awesome Compose](https://github.com/docker/awesome-compose)
 * [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/)
+* [itnext.io: Getting Started with Docker: Facts You Should Know 🌟](https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598)
 
 ## Moving Linux Services Into Containers
 * [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers/)
