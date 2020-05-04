@@ -12,6 +12,18 @@
 - [Kubernetes Storage](#kubernetes-storage)
 - [Local Installers](#local-installers)
 - [Production Cluster Installers](#production-cluster-installers)
+    - [Deploying Kubernetes Cluster with Kops](#deploying-kubernetes-cluster-with-kops)
+    - [Deploying Kubernetes Cluster with Kubeadm](#deploying-kubernetes-cluster-with-kubeadm)
+    - [Deploying Kubernetes Cluster with Ansible](#deploying-kubernetes-cluster-with-ansible)
+    - [Kubespray](#kubespray)
+    - [Conjure up](#conjure-up)
+    - [Comparative Analysis of Kubernetes Deployment Tools](#comparative-analysis-of-kubernetes-deployment-tools)
+    - [WKSctl](#wksctl)
+    - [Terraform](#terraform)
+    - [Caravan](#caravan)
+    - [ClusterAPI](#clusterapi)
+    - [Microk8s](#microk8s)
+    - [k8s-tew](#k8s-tew)
 - [VMware Kubernetes](#vmware-kubernetes)
 - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
 - [Helm and Kubernetes](#helm-and-kubernetes)
@@ -180,37 +192,48 @@
 * [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2) Several options to start playing with K8s in no time
 
 ## Production Cluster Installers
-* [Kubernetes Cluster with **Kops**:](https://github.com/kubernetes/kops) 
-    * Minikube and docker client are great for local setups, but not for real clusters. Kops and kubeadm are tools to spin up a production cluster. You don't need both tools, just one of them. 
-    * On AWS, the best tool is **kops**
-    * At some point AWS EKS (hosted kubernetes) will be available, at that point this will probably be the preferred option. (You won't need to maintain the masters).
-    * For other installs, or if you can't get kops to work, you can use kubeadm
-    * **kubeadm** is an alternative approach, kops is still recommended (on AWS) - you also have AWS integrations with kops automatically
-    * Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershel and run kops installer: 
-
-            C:\ubuntu> vagrant init ubuntu/xenial64
-            C:\ubuntu> vagrant up
-            C:\ubuntu> vagrant ssh-config
-            C:\ubuntu> vagrant ssh
-
-            $ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4)  kops-linux-amd64
-            $ chmod +x kops-linux-amd64`
-            $ sudo mv kops-linux-amd64 /usr/local/bin/kops
-        *
+### Deploying Kubernetes Cluster with Kops
+* [Kubernetes Cluster with **Kops**](https://github.com/kubernetes/kops) 
+* Minikube and docker client are great for local setups, but notfor real clusters. Kops and kubeadm are tools to spin up aproduction cluster. You don't need both tools, just one of them. 
+* On AWS, the best tool is **kops**
+* At some point AWS EKS (hosted kubernetes) will be available, atthat point this will probably be the preferred option. (You won'tneed to maintain the masters).
+* For other installs, or if you can't get kops to work, you canuse kubeadm
+* **kubeadm** is an alternative approach, kops is stillrecommended (on AWS) - you also have AWS integrations with kopsautomatically
+* Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, justspin up ubuntu via vagrant in cmd/powershel and run kopsinstaller: 
+```
+C:\ubuntu> vagrant init ubuntu/xenial64
+C:\ubuntu> vagrant up
+C:\ubuntu> vagrant ssh-config
+C:\ubuntu> vagrant ssh
+$ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4)  kops-linux-amd64
+$ chmod +x kops-linux-amd64
+$ sudo mv kops-linux-amd64 /usr/local/bin/kops
+```
+### Deploying Kubernetes Cluster with Kubeadm
 * [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
-    * [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
+* [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
+### Deploying Kubernetes Cluster with Ansible 
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+### Kubespray
 * [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
+### Conjure up
 * [**Conjure up**](https://conjure-up.io/)
+### Comparative Analysis of Kubernetes Deployment Tools
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
+### WKSctl
 * [infoq.com: **WKSctl**: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
+### Terraform
 * [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
-* [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+### Caravan
+ [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+### ClusterAPI
 * [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
+### Microk8s
 * [**Microk8s**](https://microk8s.io/)
+### k8s-tew
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ## VMware Kubernetes
