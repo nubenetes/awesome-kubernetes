@@ -1,14 +1,23 @@
 # Monitoring and Performance
 - [Monitoring](#monitoring)
 - [Prometheus](#prometheus)
-    - [Prometheus Exporters (collectors)](#prometheus-exporters-collectors)
-    - [Prometheus Exporters (third party)](#prometheus-exporters-third-party)
+    - [Prometheus Storage](#prometheus-storage)
+    - [Prometheus Storage. Scalability, High Availability (HA) & Long-Term Storage](#prometheus-storage-scalability-high-availability-ha--long-term-storage)
+    - [Collectors](#collectors)
+        - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
+        - [Prometheus Third Party Exporters](#prometheus-third-party-exporters)
+        - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
+    - [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
+    - [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
+    - [Prometheus Installers](#prometheus-installers)
+        - [Binaries, source code or Docker](#binaries-source-code-or-docker)
+        - [Ansible Roles](#ansible-roles)
+    - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
-- [Collectors](#collectors)
-- [Prometheus Storage](#prometheus-storage)
+- [Interactive Learning with Prometheus and Grafana](#interactive-learning-with-prometheus-and-grafana)
 - [Performance](#performance)
 - [Distributed Tracing](#distributed-tracing)
-- [Application Performance Management](#application-performance-management)
+- [Application Performance Management (APM)](#application-performance-management-apm)
     - [Dynatrace APM](#dynatrace-apm)
 - [Other Awesome Lists](#other-awesome-lists)
 
@@ -21,43 +30,168 @@
 ## Prometheus
 * [**prometheus.io**](https://prometheus.io/)
 * [dzone.com: Monitoring with **Prometheus**](https://dzone.com/articles/monitoring-with-prometheus) Learn how to set up a basic instance of Prometheus along with Grafana and the Node Exporter to monitor a simple Linux server.
+* [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
+* [Monitoring With Prometheus](https://dzone.com/articles/monitoring-with-prometheus)
+* [Monitoring Self-Destructing Apps Using Prometheus.](https://dzone.com/articles/prometheus-collectors) Learn how to configure Prometheus collectors and their use cases.
+* [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
+* [Focus on Detection: Prometheus and the Case for Time Series Analysis](https://dzone.com/articles/focus-on-detectionprometheus-and-the-case-for-time)
+* [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)
+* [Prometheus 2 Times Series Storage Performance Analyses](https://dzone.com/articles/prometheus-2-times-series-storage-performance-anal)
+* [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra) How to set up and configure Prometheus and Grafana to enable application performance monitoring for REST applications.
+* [Discover Applications Running on Kubernetes With Prometheus](https://dzone.com/articles/discover-applications-running-on-kubernetes-with-p)
+* [Prometheus vs. Graphite: Which Should You Choose for Time Series or Monitoring?](https://dzone.com/articles/prometheus-vs-graphite-which-should-you-choose-for)
+* [PromQL Tutorial](https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085)
+* [How to use Ansible to set up system monitoring with Prometheus](https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus)
+* [Initial experiences with the Prometheus monitoring system](https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c)
+* [Synthetic Monitoring With Telegraf (white-box monitoring)](https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
+*	[https://prometheus.io/docs/instrumenting/writing_exporters/](https://prometheus.io/docs/instrumenting/writing_exporters/)
+*	[https://devconnected.com/complete-node-exporter-mastery-with-prometheus/](https://devconnected.com/complete-node-exporter-mastery-with-prometheus/)
+*	[https://www.scalyr.com/blog/prometheus-metrics-by-example/](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
+* Prometheus es un "time series DBMS" y sistema de monitorización completo, que incluye recogida de datos, almacenamiento, visualización y exportación. 
+* La **arquitectura de Prometheus** se basa en **"pull metrics" (extracción de métricas)**. En lugar de empujar las métricas ("pushing metrics") hacia la herramienta de monitorización, **extrae ("pull") las métricas de los servicios (por defecto un "/metrics" HTTP endpoint)** en texto plano (parseable por humanos y de fácil diagnóstico). Prometheus también tiene un "push gateway", de modo que también soporta "push" para métricas específicas cuando el modelo de "pull" no funciona (si bien este método no es recomendable).
+* Prometheus se puede conectar a **series de tiempo (time series)** con un nombre de métrica y pares clave-valor, simplificando la monitorización en complejos entornos cloud multi-nodo.
+* La herramienta también proporciona [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), para el procesado de datos "time-series". Permite realizar consultas (queries) para la manipulación de datos y generar nueva información relevante. Con [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) se pueden generar gráficos, visualizar conjuntos de datos, crear tablas, y generar alertas basadas en parámetros específicos. 
+* La consola web de Prometheus permite gestionar todas las características y herramientas disponibles en Prometheus. Se pueden utilizar expresiones regulares y consultas avanzadas de [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/) para la creación de conjuntos de datos (datasets) y alertas.
+* Prometheus activamente "scrapea" datos, los almacena, y soporta "queries", "gráficos" y "alertas", así como proporciona "endpoints" a otros consumidores API como Grafana. Todo esto lo realiza con los siguientes componentes:
+    * [Librerías cliente](https://prometheus.io/docs/instrumenting/clientlibs/): instrumentación del código de aplicación (para generar eventos).
+    * [Servidor Prometheus](https://github.com/prometheus/prometheus): "scrapeando" y almacenando estos eventos, cuando se generan, como "time series data". Este es el **modelo "pull"** más común para la recogida general de métricas en Prometheus.
+    * [Pushgateway](https://github.com/prometheus/pushgateway): **Modelo "Push"**, soportando trabajos efímeros de importación de datos. **Sólo recomendable en aplicaciones "serverless"**, donde las aplicaciones son lanzadas y destruidas bajo demanda, así como las aplicaciones que manejan "batch jobs". 
+    * [Exportadores de Datos](https://prometheus.io/docs/instrumenting/exporters/): exportando servicios como HAProxy, StatsD, Graphite, etc.
+* Prometheus se diferencia de otros sistemas de monitorización con las siguientes funcionalidades:
+    *	Modelo de datos multi-dimensional, donde los "time-series data" se definen por el nombre de la métrica y dimensiones clave/valor.
+    *	Nodos únicos de servidor y autónomos, sin dependencia de almacenamiento distribuido.
+    *	Recogida de datos via un modelo "pull" sobre HTTP.
+    *	"Time Series Data" empujado ("pushed") a otros destinos de datos vía un gateway intermediario.
+    *	"Targets" descubiertos via "service discovery" ó configuración estática.
+    *	Soporte de federación horizontal y vertical.
 
-### Prometheus Exporters (collectors)
-* [**Prometheus exporters** (collectors)](https://prometheus.io/docs/instrumenting/exporters/)
-* [**JMX Exporter**](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
-* [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
-    * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
+### Prometheus Storage
+Proporciona etiquetado clave-valor y "time-series".  La propia documentación de Prometheus explica cómo se gestiona el [almacenamiento en disco](https://prometheus.io/docs/prometheus/latest/storage/) (**Prometheus Time-Series DB**). La ingestión de datos se agrupa en bloques de dos horas, donde cada bloque es un directorio conteniendo uno o más "chunk files" (los datos), además de un fichero de metadatos y un fichero index:
 
-### Prometheus Exporters (third party)
-* [Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+Almacenamiento de datos en disco (Prometheus Time-Series DB):
+```
+./data/01BKGV7JBM69T2G1BGBGM6KB12
+./data/01BKGV7JBM69T2G1BGBGM6KB12/meta.json
+./data/01BKGV7JBM69T2G1BGBGM6KB12/wal
+./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000002
+./data/01BKGV7JBM69T2G1BGBGM6KB12/wal/000001
+```
 
-## Grafana
-* [Grafana](https://grafana.com/)
-* [Grafana Dashboards](https://grafana.com/grafana/dashboards)
-* [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
-* [grafana.com: Provisioning Grafana](https://grafana.com/docs/grafana/latest/administration/provisioning/)
-    * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
-* [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
-* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+Un proceso en segundo plano compacta los bloques de dos horas en otros más grandes.
+Es posible almacenar los datos en otras soluciones de "Time-Series Database" como **InfluxDB**.
 
-## Collectors
-* [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
-* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
-* [Micrometer](http://micrometer.io/)
-* [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
-* [Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
+### Prometheus Storage. Scalability, High Availability (HA) & Long-Term Storage
+Prometheus fue diseñado para ser fácil de desplegar. Es extremadamente fácil ponerlo en marcha, recoger algunas métricas, y empezar a construir nuestra propia herramienta de monitorización. Las cosas se complican cuando se intenta operar a un nivel de escalado considerable.
 
-## Prometheus Storage
+Para entender si esto va a ser un problema, conviene plantearse las siguiente preguntas:
+-	¿Cuántas métricas puede ingerir el sistema de monitorización y cuántas son necesarias?
+-	¿Cuál es la cardinalidad de las métricas? La cardinalidad es el número de etiquetas que cada métrica puede tener. Es una cuestión muy frecuente en las métricas pertenecientes a entornos dinámicos donde a los contenedores se les asignan un ID ó nombre diferente cada vez que son lanzados, reiniciados o movidos entre nodos (caso de kubernetes).
+-	¿Es necesaria la Alta Disponibilidad (HA)?
+-	¿Durante cuánto tiempo es necesario mantener las métricas y con qué resolución? 
+
+La implementación de HA es laboriosa porque la funcionalidad de cluster requiere añadir plugins de terceros al servidor Prometheus. Es necesario tratar con "backups" y "restores", y el almacenamiento de métricas por un periodo de tiempo extendido hará que la base de datos crezca exponencialmente. Los servidores Prometheus proporcionan almacenamiento persistente, pero Prometheus no fue creado para el almacenamiento distribuido de métricas a lo largo de múltiples nodos de un cluster con replicación y capacidad curativa (como es el caso de Kubernetes).  Esto es conocido como **"almacenamiento a largo-plazo" (Long-Term)** y actualmente es un requisito en unos pocos casos de uso, por ejemplo en la planificación de la capacidad para monitorizar cómo la infraestructura necesita evolucionar, contracargos para facturar diferentes equipos ó departamentos para un caso específico que han hecho de la infraestructura, análisis de tendencias de uso, o adherirse a regulaciones para verticales específicos como banca, seguros, etc. 
+
+Solutions:
 * [Prometheus TSDB](https://prometheus.io/docs/prometheus/latest/storage/)
-* [Cortex](https://cortexmetrics.io/) provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
-* [**Thanos**:](https://thanos.io/) Open source, **highly available Prometheus setup with long term storage capabilities**. Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
-    * [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA 
-Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
-* [**InfluxDB**:](https://www.influxdata.com/) open-source time series database (TSDB) developed by InfluxData. It is written in Go and optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics. It also has support for processing data from Graphite.
+* [Cortex](https://cortexmetrics.io/) 
+    * provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
+    * [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
+* [**Thanos**:](https://thanos.io/) Open source, **highly available Prometheus setup with long term storage capabilities**. 
+    * Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
+    * [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
+* [**InfluxDB**:](https://www.influxdata.com/) 
+    * [open-source time series database (TSDB)](https://en.wikipedia.org/wiki/Time_series_database) developed by InfluxData. It is written in [Go](https://en.wikipedia.org/wiki/Go_(programming_language)) and optimized for fast, high-availability storage and retrieval of [time series](https://en.wikipedia.org/wiki/Time_series) data in fields such as operations monitoring, application metrics, [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things) sensor data, and real-time analytics. It also has support for processing data from [Graphite](https://en.wikipedia.org/wiki/Graphite_(software)).
+    * [https://en.wikipedia.org/wiki/InfluxDB](https://en.wikipedia.org/wiki/MIT_License)
+    * [https://en.wikipedia.org/wiki/MIT_License](https://en.wikipedia.org/wiki/MIT_License)
 * [**M3**](https://www.m3db.io/) is an open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB.
 In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 
+### Collectors
+* [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
+* [Micrometer](http://micrometer.io/)
+
+#### Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)
+* Prometheus proporciona un ecosistema de **"exporters"**, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto. 
+* **Un "exporter" expone las métricas de uno ó varios "collectors".**
+* [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+    * [https://prometheus.io/download/](https://prometheus.io/download/)
+    * [https://github.com/prometheus](https://github.com/prometheus)
+* [Prometheus JMX Exporter:](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
+* [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
+* [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
+    * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
+* [Example: JMX Exporter with ActiveMQ](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
+
+#### Prometheus Third Party Exporters
+* [Prometheus Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+
+#### Prometheus Exporters Development. Node Exporter
+Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
+*	https://dzone.com/articles/prometheus-collectors
+*	https://prometheus.io/docs/instrumenting/writing_exporters/
+*	https://devconnected.com/complete-node-exporter-mastery-with-prometheus
+*   https://www.scalyr.com/blog/prometheus-metrics-by-example/
+
+### Prometheus Alarms and Event Tracking
+Prometheus no soporta rastreo de eventos (event tracking), pero ofrece un soporte completo de alarmas y gestión de alarmas. El lenguaje de consultas (queries) de Prometheus permite en cambio implementar rastreo de eventos por cuenta propia.
+
+### Prometheus and Cloud Monitoring
+AWS CloudWatch is supported by Prometheus.
+
+### Prometheus Installers
+#### Binaries, source code or Docker
+- https://prometheus.io/docs/prometheus/latest/installation/ 
+- https://prometheus.io/docs/prometheus/latest/getting_started/ 
+- https://github.com/prometheus/prometheus
+
+#### Ansible Roles
+- Cloud Alchemy: Deploy prometheus node exporter using ansible.
+    - https://galaxy.ansible.com/cloudalchemy/node-exporter
+    - https://github.com/cloudalchemy/ansible-prometheus
+- Idealista: This ansible role installs a Prometheus Node Exporter in a debian nvironment. https://github.com/idealista/prometheus_jmx_exporter-role
+- alexdzyoba. This ansible role installs a Prometheus JMX exporter java agent in a debian nvironment. Inspired by [Idealista prometheus_jmx_exporter-role](https://github.com/dealista/prometheus_jmx_exporter-role).
+    - https://galaxy.ansible.com/alexdzyoba/jmx-exporter 
+    - https://github.com/alexdzyoba/ansible-jmx-exporter
+- Mesaguy: Installs and manages Prometheus and Prometheus exporters.
+    - Installs and manages Prometheus server, Alertmanager, PushGateway, and numerous Prometheus exporters
+    - This role was designed to allow adding new exporters with ease. Regular releases ensure it always provides the latest Prometheus software.
+    - This role can register client exporters with the Prometheus server/s automatically (see tgroup management below).
+    - This Ansible role will be migrated to an Ansible Collection.
+    - https://galaxy.ansible.com/mesaguy/prometheus
+    - https://github.com/mesaguy/ansible-prometheus
+- william yeh: Prometheus for Ansible Galaxy. This role only installs 3 components: rometheus server, Node exporter, and Alertmanager. 
+    - https://galaxy.ansible.com/William-Yeh/prometheus 
+    - https://github.com/William-Yeh/ansible-prometheus 
+    - https://awesomeopensource.com/project/William-Yeh/ansible-prometheus
+- Undergreen: An Ansible role that installs Prometheus Node Exporter on Ubuntu|Debian|edhat-based machines with systemd|Upstart|sysvinit.
+    - https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter 
+    - https://github.com/UnderGreen/ansible-prometheus-node-exporter
+- Mitesh Sharma: Prometheus With Grafana Using Ansible
+    - https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa 
+    - https://github.com/MiteshSharma/PrometheusWithGrafana
+
+### Prometheus SaaS Solutions
+* [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
+
+## Grafana
+* [https://grafana.com/](https://grafana.com/)
+* Prometheus utiliza plantillas de consola para los dashboards, si bien su curva de aprendizaje de sus múltiples funcionalidades es alta, con una interfaz de usuario insuficiente. Por este motivo es muy habitual utilizar **Grafana** como interfaz de usuario.
+* [Grafana](https://grafana.com/)
+* [Grafana Dashboards](https://grafana.com/grafana/dashboards)
+* [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
+* [grafana.com: Provisioning Grafana.](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
+    * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
+* [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
+* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+* [Prometheus Monitoring With Grafana](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
+
+## Interactive Learning with Prometheus and Grafana 
+* Katacoda:
+    * [https://www.katacoda.com/courses/prometheus/getting-started](https://www.katacoda.com/courses/prometheus/getting-started)
+    * [https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
@@ -77,7 +211,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [**OpenTracing.io**](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
    
-## Application Performance Management
+## Application Performance Management (APM)
 * [en.wikipedia.org/wiki/Application_performance_management](https://en.wikipedia.org/wiki/Application_performance_management)
 * [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
 * [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
