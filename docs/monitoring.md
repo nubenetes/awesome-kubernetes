@@ -177,15 +177,14 @@ AWS CloudWatch is supported by Prometheus.
 * [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
 
 ## Grafana
-* [https://grafana.com/](https://grafana.com/)
+* [Grafana](https://grafana.com/) 
 * Prometheus utiliza plantillas de consola para los dashboards, si bien su curva de aprendizaje de sus múltiples funcionalidades es alta, con una interfaz de usuario insuficiente. Por este motivo es muy habitual utilizar **Grafana** como interfaz de usuario.
-* [Grafana](https://grafana.com/)
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
 * [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
-* [grafana.com: Provisioning Grafana.](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
+* [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
     * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
-* [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
-* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+* [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
+* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
 * [Prometheus Monitoring With Grafana](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 
 ## Interactive Learning with Prometheus and Grafana 
@@ -199,14 +198,14 @@ AWS CloudWatch is supported by Prometheus.
 * Java:
     * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
     * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
-* [Performance Patterns in Microservices-Based Integrations 🌟🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
+* [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
 ## Distributed Tracing
-- [**opentelemetry.io** 🌟🌟🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
+- [**opentelemetry.io** 🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [**Jaeger** 🌟](https://www.jaegertracing.io/)
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
      - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
-     - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟🌟🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
+     - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
 - [**zipkin.io**](https://zipkin.io/)
 - [**OpenTracing.io**](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
@@ -226,9 +225,9 @@ AWS CloudWatch is supported by Prometheus.
     * [lightstep.com](https://lightstep.com)
     * [skywalking.apache.org](https://skywalking.apache.org/)
     * [Elastic APM](https://www.elastic.co/products/apm)
-    * [AppDynamics 🌟🌟](https://www.appdynamics.com/)
-    * [New Relic 🌟🌟](https://newrelic.com/)
-    * [Dynatrace 🌟🌟🌟](https://www.dynatrace.com/)
+    * [AppDynamics 🌟](https://www.appdynamics.com/)
+    * [New Relic 🌟](https://newrelic.com/)
+    * [Dynatrace 🌟](https://www.dynatrace.com/)
 * List of Performance Analysis Tools:
     * Threadumps + heapdumps + GC analysis tools
     * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
