@@ -18,7 +18,6 @@
 
 ### Prometheus Exporters (third party)
 * [Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
-* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
 
 ## Grafana
 * [Grafana](https://grafana.com/)
@@ -27,6 +26,7 @@
 * [grafana.com: Provisioning Grafana](https://grafana.com/docs/grafana/latest/administration/provisioning/)
     * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
 * [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
+* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
 
 ## Collectors
 * [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
