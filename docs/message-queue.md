@@ -14,6 +14,8 @@
 - [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
 	- [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
 	- [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
+- [Debezium open source distributed platform for change data capture](#debezium-open-source-distributed-platform-for-change-data-capture)
+- [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
 - [Related](#related)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
@@ -89,8 +91,13 @@
 - [**Syndesis** open source integration platform](https://syndesis.io/) (OpenSource Project for **Red Hat Fuse Online**)
 - [developers.redhat.com: Low-code microservices orchestration with Syndesis](https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/)
 
+## Debezium open source distributed platform for change data capture
+- [**Debezium**:](https://debezium.io/) Stream changes from your database
+- [developers.redhat.com: Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/)
+
+## Red Hat Integration service registry and Apicurio
+- [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
+- [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
+
 ## Related
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
-- [**Debezium**](https://debezium.io/) Stream changes from your database
-- [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
-    - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
