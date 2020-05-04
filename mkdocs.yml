@@ -33,6 +33,7 @@ pages:
 - Kubernetes: 
   - Kubernetes: kubernetes.md
   - Kubernetes Matrix Table: matrix-table.md
+  - Kubernetes Matrix Table 2: matrix-table2.md
   - Kubernetes alternatives: kubernetes-alternatives.md
 - Openshift: 
   - Openshift docs: openshift.md
