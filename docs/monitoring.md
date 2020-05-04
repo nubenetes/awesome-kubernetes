@@ -1,15 +1,15 @@
 # Monitoring and Performance
 1. [Monitoring](#monitoring)
 2. [Prometheus](#prometheus)
-   1. [Prometheus Exporters (collectors)](#prometheus-exporters-collectors)
-   2. [Prometheus Exporters (third party)](#prometheus-exporters-third-party)
+    1. [Prometheus Exporters (collectors)](#prometheus-exporters-collectors)
+    2. [Prometheus Exporters (third party)](#prometheus-exporters-third-party)
 3. [Grafana](#grafana)
 4. [Collectors](#collectors)
 5. [Prometheus Storage](#prometheus-storage)
 6. [Performance](#performance)
 7. [Distributed Tracing](#distributed-tracing)
 8. [Application Performance Management](#application-performance-management)
-   1. [Dynatrace APM](#dynatrace-apm)
+    1. [Dynatrace APM](#dynatrace-apm)
 9. [Other Awesome Lists](#other-awesome-lists)
 
 ## Monitoring
