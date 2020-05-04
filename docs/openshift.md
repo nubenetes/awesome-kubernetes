@@ -291,23 +291,19 @@
 * [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟🌟🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)
 
 ### Review Security Context Constraints
-Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. 
-SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
-
-OpenShift ships with several SCCs. The most constrained is the restricted SCC, and the least constrained in the privileged SCC. 
+* Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. 
+* SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
+* OpenShift ships with several SCCs. The most constrained is the restricted SCC, and the least constrained in the privileged SCC. 
 The other SCCs provide intermediate levels of constraint for various use cases. The restricted SCC is granted to all authenticated users by default.
-
-The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
-
-Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
-
-Recommendations: 
-* Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
-* Use the restricted SCC as the default 
-* For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
-* To show all available SCCs: `oc describe scc`
-* To audit a single pod: `oc describe pod <POD> | grep openshift.io\/scc`
-* Remediation: Apply the SCC with the least privilege required
+* The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
+* Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
+* **Recommendations:** 
+    * Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+    * Use the restricted SCC as the default 
+    * For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
+    * To show all available SCCs: `oc describe scc`
+    * To audit a single pod: `oc describe pod <POD> | grep openshift.io\/scc`
+    * Remediation: Apply the SCC with the least privilege required
 
 ## Operators
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
