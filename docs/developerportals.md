@@ -5,7 +5,7 @@
 - [Automotive](#automotive)
    - [Auto API](#auto-api)
    - [Smartcar](#smartcar)
-- [Banking](#banking)
+- [Banking](#banking) 
 - [Insurance](#insurance)
 - [Telecom](#telecom)
 - [Other API Marketplaces](#other-api-marketplaces)
