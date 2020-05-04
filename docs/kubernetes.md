@@ -24,7 +24,7 @@
     - [Kubespray](#kubespray)
     - [Conjure up](#conjure-up)
     - [WKSctl](#wksctl)
-    - [Terraform](#terraform)
+    - [Terraform (kubernetes the hard way)](#terraform-kubernetes-the-hard-way)
     - [Caravan](#caravan)
     - [ClusterAPI](#clusterapi)
     - [Microk8s](#microk8s)
@@ -295,7 +295,7 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 ### WKSctl
 * [infoq.com: **WKSctl**: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
 
-### Terraform
+### Terraform (kubernetes the hard way)
 * [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
