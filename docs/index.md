@@ -91,6 +91,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Scaffolding Tools](scaffolding.md)
 18. Frameworks
     - [Angular](angular.md)
+    - [Java - Spring Framework](SpringFramework.md)
     - [Java - SpringBoot](SpringBoot.md)
     - [Java - Spring Cloud](SpringCloud.md)
     - [Java - Jakarta EE](https://jakarta.ee/)
