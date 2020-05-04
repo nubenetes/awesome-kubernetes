@@ -2,7 +2,7 @@
 - [Monitoring](#monitoring)
 - [Prometheus](#prometheus)
     - [Prometheus Storage](#prometheus-storage)
-    - [Prometheus Storage. Scalability, High Availability (HA) & Long-Term Storage](#prometheus-storage-scalability-high-availability-ha--long-term-storage)
+    - [Prometheus Storage. Scalability, High Availability (HA) and Long-Term Storage](#prometheus-storage-scalability-high-availability-ha-and-long-term-storage)
     - [Collectors](#collectors)
         - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
         - [Prometheus Third Party Exporters](#prometheus-third-party-exporters)
@@ -80,7 +80,7 @@ Almacenamiento de datos en disco (Prometheus Time-Series DB):
 Un proceso en segundo plano compacta los bloques de dos horas en otros más grandes.
 Es posible almacenar los datos en otras soluciones de "Time-Series Database" como **InfluxDB**.
 
-### Prometheus Storage. Scalability, High Availability (HA) & Long-Term Storage
+### Prometheus Storage. Scalability, High Availability (HA) and Long-Term Storage
 Prometheus fue diseñado para ser fácil de desplegar. Es extremadamente fácil ponerlo en marcha, recoger algunas métricas, y empezar a construir nuestra propia herramienta de monitorización. Las cosas se complican cuando se intenta operar a un nivel de escalado considerable.
 
 Para entender si esto va a ser un problema, conviene plantearse las siguiente preguntas:
