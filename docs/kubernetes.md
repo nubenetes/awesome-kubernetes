@@ -83,6 +83,7 @@
 * [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟🌟🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
 * [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes 🌟🌟🌟](https://learnk8s.io/cloud-resources-kubernetes)
 * [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟🌟🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
+* [medium.com: Top 15 Online Courses to Learn Docker, Kubernetes, and AWS for Fullstack Developers and DevOps Engineers](https://medium.com/javarevisited/top-15-online-courses-to-learn-docker-kubernetes-and-aws-for-fullstack-developers-and-devops-d8cc4f16e773)
 
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
