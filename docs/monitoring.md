@@ -1,41 +1,37 @@
 # Monitoring and Performance
-<!-- TOC -->
+1. [Monitoring](#monitoring)
+2. [Prometheus](#prometheus)
+   1. [Prometheus Exporters (collectors)](#prometheus-exporters-collectors)
+   2. [Prometheus Exporters (third party)](#prometheus-exporters-third-party)
+3. [Grafana](#grafana)
+4. [Collectors](#collectors)
+5. [Prometheus Storage](#prometheus-storage)
+6. [Performance](#performance)
+7. [Distributed Tracing](#distributed-tracing)
+8. [Application Performance Management](#application-performance-management)
+   1. [Dynatrace APM](#dynatrace-apm)
+9. [Other Awesome Lists](#other-awesome-lists)
 
-- 1. Monitoring
-- 2. Prometheus
-    - 2.1. Prometheus Exporters (collectors)
-    - 2.2. Prometheus Exporters (third party)
-- 3. Grafana
-- 4. Collectors
-- 5. Prometheus Storage
-- 6. Performance
-- 7. Distributed Tracing
-- 8. Application Performance Management
-    - 8.1. Dynatrace APM
-- 9. Other Awesome Lists
-
-<!-- /TOC -->
-
-## 1. Monitoring
+## Monitoring
 * [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e) Kubernetes handles containers in several computers, removing the complexity of handling distributed processing. But what's the best way to perform Kubernetes monitoring?
 * [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)
 
-## 2. Prometheus
+## Prometheus
 * [**prometheus.io**](https://prometheus.io/)
 * [dzone.com: Monitoring with **Prometheus**](https://dzone.com/articles/monitoring-with-prometheus) Learn how to set up a basic instance of Prometheus along with Grafana and the Node Exporter to monitor a simple Linux server.
 
-### 2.1. Prometheus Exporters (collectors)
+### Prometheus Exporters (collectors)
 * [**Prometheus exporters** (collectors)](https://prometheus.io/docs/instrumenting/exporters/)
 * [**JMX Exporter**](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
 * [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
     * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
 
-### 2.2. Prometheus Exporters (third party)
+### Prometheus Exporters (third party)
 * [Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
 
-## 3. Grafana
+## Grafana
 * [Grafana](https://grafana.com/)
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
 * [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
@@ -44,14 +40,14 @@
 * [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 * [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
 
-## 4. Collectors
+## Collectors
 * [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
 * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 * [Micrometer](http://micrometer.io/)
 * [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
 * [Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)
 
-## 5. Prometheus Storage
+## Prometheus Storage
 * [Prometheus TSDB](https://prometheus.io/docs/prometheus/latest/storage/)
 * [Cortex](https://cortexmetrics.io/) provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
 * [**Thanos**:](https://thanos.io/) Open source, **highly available Prometheus setup with long term storage capabilities**. Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
@@ -63,7 +59,7 @@ In addition, it supports metric deduplication and merging, and provides distribu
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 
 
-## 6. Performance
+## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 * [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
 * Java:
@@ -71,7 +67,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 * [Performance Patterns in Microservices-Based Integrations 🌟🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
-## 7. Distributed Tracing
+## Distributed Tracing
 - [**opentelemetry.io** 🌟🌟🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [**Jaeger** 🌟](https://www.jaegertracing.io/)
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
@@ -81,7 +77,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [**OpenTracing.io**](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
    
-## 8. Application Performance Management
+## Application Performance Management
 * [en.wikipedia.org/wiki/Application_performance_management](https://en.wikipedia.org/wiki/Application_performance_management)
 * [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
 * [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
@@ -111,7 +107,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [gceasy.io 🌟](https://gceasy.io/)
     * [heaphero.io](https://heaphero.io/)
 
-### 8.1. Dynatrace APM
+### Dynatrace APM
 * [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
 * [dynatrace.com: openshift monitoring](https://www.dynatrace.com/technologies/openshift-monitoring/)
 * [dynatrace.com: Dynatrace monitoring for Kubernetes and OpenShift](https://www.dynatrace.com/news/blog/dynatrace-monitoring-for-kubernetes-and-openshift/)
@@ -119,7 +115,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid/)
 * [My Dynatrace proof of concept 🌟](https://github.com/inafev/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf)
 
-## 9. Other Awesome Lists
+## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/J1S3NyN9ZeLjh9" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MartinEtmajer/challenges-in-a-microservices-age-monitoring-logging-and-tracing-on-red-hat-openshift" title="Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift" target="_blank">Challenges in a Microservices Age: Monitoring, Logging and Tracing on Red Hat OpenShift</a> </strong> from <strong><a href="https://www.slideshare.net/MartinEtmajer" target="_blank">Martin Etmajer</a></strong> </div>
