@@ -1,34 +1,38 @@
 # OpenShift
-1. [OpenShift Container Platform (OCP)](#openshift-container-platform-ocp)
-2. [Other Awesome Lists](#other-awesome-lists)
-3. [Red Hat Communities of Practice](#red-hat-communities-of-practice)
-4. [Identity Management](#identity-management)
-5. [Quota Management](#quota-management)
-6. [Openshift 4](#openshift-4)
-7. [OpenShift Pipelines. Tekton CI/CD Pipelines](#openshift-pipelines-tekton-cicd-pipelines)
-8. [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
-9. [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
-10. [Backup and Migrate OpenShift](#backup-and-migrate-openshift)
-11. [OpenShift 4 roadmap](#openshift-4-roadmap)
-12. [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
-13. [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
-14. [Helm and OpenShift](#helm-and-openshift)
-15. [Red Hat Marketplace](#red-hat-marketplace)
-16. [E-books](#e-books)
-17. [Online Learning](#online-learning)
-18. [Local Installers](#local-installers)
-19. [Cluster Installers](#cluster-installers)
-20. [Network Policy](#network-policy)
-21. [Security](#security)
-22. [Operators](#operators)
-23. [Networking](#networking)
-24. [Storage](#storage)
-25. [Demos](#demos)
-26. [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
-27. [Quay](#quay)
-28. [OpenShift on AWS](#openshift-on-aws)
-29. [Videos](#videos)
-30. [Slides](#slides)
+- [OpenShift Container Platform (OCP)](#openshift-container-platform-ocp)
+    - [Red Hat Communities of Practice](#red-hat-communities-of-practice)
+    - [Identity Management](#identity-management)
+    - [Quota Management](#quota-management)
+- [Openshift 4](#openshift-4)
+    - [OpenShift Pipelines. Tekton CI/CD Pipelines](#openshift-pipelines-tekton-cicd-pipelines)
+    - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
+    - [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
+    - [Backup and Migrate to OpenShift 4](#backup-and-migrate-to-openshift-4)
+    - [OpenShift 4 roadmap](#openshift-4-roadmap)
+    - [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
+    - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
+    - [Helm and OpenShift](#helm-and-openshift)
+    - [Red Hat Marketplace](#red-hat-marketplace)
+- [E-books](#e-books)
+- [Online Learning](#online-learning)
+- [Local Installers](#local-installers)
+- [Cluster Installers](#cluster-installers)
+    - [OKD 3](#okd-3)
+    - [OpenShift 3](#openshift-3)
+    - [OpenShift 4](#openshift-4-1)
+- [Network Policy](#network-policy)
+- [Security](#security)
+    - [Review Security Context Constraints](#review-security-context-constraints)
+- [Operators](#operators)
+- [Networking](#networking)
+- [Storage](#storage)
+- [Demos](#demos)
+- [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
+- [Quay Container Registry](#quay-container-registry)
+- [OpenShift on AWS](#openshift-on-aws)
+- [Other Awesome Lists](#other-awesome-lists)
+- [Videos](#videos)
+- [Slides](#slides)
 
 ## OpenShift Container Platform (OCP)
 * [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
@@ -102,11 +106,7 @@
 * [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift  🌟🌟🌟](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift/)
 * [Cost Management and OpenShift - Sergio Ocón-Cárdenas (Red Hat) 🌟🌟🌟🌟](https://www.openshift.com/blog/cost-management-and-openshift-sergio-oc%C3%B3n-c%C3%A1rdenas-red-hat)
 
-## Other Awesome Lists
-* [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
-* [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
-
-## Red Hat Communities of Practice
+### Red Hat Communities of Practice
 * [uncontained.io](http://uncontained.io/)
     * [uncontained.io/articles/openshift-ha-installation](http://uncontained.io/articles/openshift-ha-installation/ )
     * [uncontained.io/articles/openshift-and-the-org](http://uncontained.io/articles/openshift-and-the-org/) 
@@ -117,10 +117,10 @@
 * [OpenShift Pipeline Library 🌟🌟🌟](https://github.com/redhat-cop/pipeline-library)
 * [OpenShift Playbooks](https://github.com/redhat-cop/openshift-playbooks)
 
-## Identity Management
+### Identity Management
 * [GitHub redhat-cop: Ansible Role](https://github.com/redhat-cop/infra-ansible/tree/master/roles/identity-management )
 
-## Quota Management
+### Quota Management
 * [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟🌟🌟🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)
 * [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)
 * [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/2018/11/how-to-create-increase-or-decrease-project-quota-in-openshift.html/#.Xd5OE9WCGUk)
@@ -168,17 +168,17 @@
     * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
 
-## OpenShift Pipelines. Tekton CI/CD Pipelines
+### OpenShift Pipelines. Tekton CI/CD Pipelines
 * [**tekton.dev**](https://tekton.dev/)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
 * [github.com: Tekton pipelines](https://github.com/tektoncd/pipeline)
 * [OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
 
-## Red Hat Advanced Cluster Management for Kubernetes
+### Red Hat Advanced Cluster Management for Kubernetes
 - [Red Hat Advanced Cluster Management for Kubernetes 🌟🌟🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
     
-## Red Hat CodeReady Containers. OpenShift 4 on your laptop
+### Red Hat CodeReady Containers. OpenShift 4 on your laptop
 * [developers.redhat.com: Developing applications on Kubernetes 🌟🌟🌟](https://developers.redhat.com/topics/kubernetes/)
 * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers** 🌟🌟🌟
 ](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
@@ -186,17 +186,17 @@
 * [Overview: running crc on a remote server 🌟🌟🌟](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
 * [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 
-## Backup and Migrate OpenShift
+### Backup and Migrate to OpenShift 4 
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟🌟🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
     * [**Velero**](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
     * [**Restic**](https://restic.net/) Backups done right!
 
-## OpenShift 4 roadmap
+### OpenShift 4 roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
 
-## OKD4. OpenShift 4 without enterprise-level support
+### OKD4. OpenShift 4 without enterprise-level support
 * [docs.okd.io 🌟🌟🌟](https://docs.okd.io/)
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
 * [youtube.com: OKD4](https://www.youtube.com/watch?v=_nl-45ulj1s)
@@ -206,7 +206,7 @@
 * [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://blog.openshift.com/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab/)
 * [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup/) Installing OKD4.X with User Provisioned Infrastructure. Libvirt, iPXE, and FCOS
 
-## OpenShift Serverless with Knative
+### OpenShift Serverless with Knative
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
 * [developers.redhat.com: **Serverless Architecture**](https://developers.redhat.com/topics/serverless-architecture/)
 * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
@@ -214,7 +214,7 @@
 * [Announcing OpenShift Serverless 1.5.0 Tech Preview – A sneak peek of our GA](https://blog.openshift.com/announcing-openshift-serverless-1-5-0-tech-preview-a-sneak-peek-of-our-ga/)
 * [Serverless applications made faster and simpler with **OpenShift Serverless GA**](https://developers.redhat.com/blog/2020/04/30/serverless-applications-made-faster-and-simpler-with-openshift-serverless-ga/)
 
-## Helm and OpenShift
+### Helm and OpenShift
 * [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
 * [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟🌟🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates)
 * Helm Charts and OpenShift 4:
@@ -223,7 +223,7 @@
     * [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://blog.openshift.com/helm-and-operators-on-openshift-part-1/)
     * [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.com/helm-and-operators-on-openshift-part-2/)
 
-## Red Hat Marketplace
+### Red Hat Marketplace
 * [marketplace.redhat.com 🌟🌟🌟](https://marketplace.redhat.com/)
 * [developers.redhat.com: Building Kubernetes applications on OpenShift with Red Hat Marketplace](https://developers.redhat.com/blog/2020/04/27/building-kubernetes-applications-on-openshift-with-red-hat-marketplace/)
 
@@ -255,11 +255,16 @@
     * [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
 
 ## Cluster Installers
+### OKD 3
 * [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟🌟🌟🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
-    * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
-    * [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
+* [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
+* [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
+
+### OpenShift 3
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
+
+### OpenShift 4
 * [github.com/openshift/installer openshift installer 🌟🌟🌟](https://github.com/openshift/installer)
 * [CI/CD Pipeline to deploy OpenShift Container Platform 4.x to AWS 🌟](https://github.com/r3dact3d/rhocp4_aws)
 * [blog.openshift.com: 9 steps to awesome with kubernetes openshift](https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/)
@@ -285,8 +290,7 @@
 - [Dzone: Understanding OpenShift Security Context Constraints](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 * [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟🌟🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)
 
-```
-Review Security Context Constraints
+### Review Security Context Constraints
 Security Context Constraints (SCCs) control what actions pods can perform and what resources they can access. 
 SCCs combine a set of security configurations into a single policy object that can be applied to pods. These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts.
 
@@ -297,18 +301,13 @@ The default SCC for most pods should be the restricted SCC. If required, a clust
 
 Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
 
-Recommendation:
-Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
-Use the restricted SCC as the default 
-For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC
-Audit
-To show all available SCCs:
-oc describe scc
-To audit a single pod:
-oc describe pod <POD> | grep openshift.io\/scc
-Remediation
-Apply the SCC with the least privilege required
-```
+Recommendations: 
+* Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+* Use the restricted SCC as the default 
+* For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
+* To show all available SCCs: `oc describe scc`
+* To audit a single pod: `oc describe pod <POD> | grep openshift.io\/scc`
+* Remediation: Apply the SCC with the least privilege required
 
 ## Operators
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
@@ -350,7 +349,7 @@ Apply the SCC with the least privilege required
 - [https://github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
 - [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
-## Quay
+## Quay Container Registry
 * [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)
 * [Red Hat Quay](https://www.openshift.com/products/quay)
 * [projectquay.io](https://www.projectquay.io/)
@@ -362,6 +361,10 @@ Apply the SCC with the least privilege required
 ## OpenShift on AWS
 * [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift/) View deployment guide
+
+## Other Awesome Lists
+* [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
+* [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
 ## Videos
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
