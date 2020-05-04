@@ -67,15 +67,19 @@
 * [learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟🌟🌟](https://learnk8s.io/kubernetes-long-lived-connections)
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
-    ```
+
+    ```bash
     kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
     ```
+
 * [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/)
 * [itnext.io: K8s Vertical Pod Autoscaling 🌟](https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81)
 * [share a configMap in kubernetes between namespaces:](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
-    ```
+
+    ```bash
     kubectl get configmap --namespace=<source> <configmap> --export -o yaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest> -f -
     ```
+
 * [medium.com: kubernetes Pod Priority and Preemption](https://medium.com/@mohaamer5/kubernetes-pod-priority-and-preemption-943c58aee07d)
 * [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 * [itnext.io: K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
@@ -200,39 +204,51 @@
 * For other installs, or if you can't get kops to work, you canuse kubeadm
 * **kubeadm** is an alternative approach, kops is stillrecommended (on AWS) - you also have AWS integrations with kopsautomatically
 * Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, justspin up ubuntu via vagrant in cmd/powershel and run kopsinstaller: 
-```
-C:\ubuntu> vagrant init ubuntu/xenial64
-C:\ubuntu> vagrant up
-C:\ubuntu> vagrant ssh-config
-C:\ubuntu> vagrant ssh
-$ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4)  kops-linux-amd64
-$ chmod +x kops-linux-amd64
-$ sudo mv kops-linux-amd64 /usr/local/bin/kops
-```
+    ```
+    C:\ubuntu> vagrant init ubuntu/xenial64
+    C:\ubuntu> vagrant up
+    C:\ubuntu> vagrant ssh-config
+    C:\ubuntu> vagrant ssh
+    ```
+    ```bash
+    $ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4)  kops-linux-amd64
+    $ chmod +x kops-linux-amd64
+    $ sudo mv kops-linux-amd64 /usr/local/bin/kops
+    ```
 ### Deploying Kubernetes Cluster with Kubeadm
 * [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
+
 ### Deploying Kubernetes Cluster with Ansible 
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+
 ### Kubespray
 * [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
+
 ### Conjure up
 * [**Conjure up**](https://conjure-up.io/)
+
 ### Comparative Analysis of Kubernetes Deployment Tools
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
+
 ### WKSctl
 * [infoq.com: **WKSctl**: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
+
 ### Terraform
 * [**Kelsey Hightower: kubernetes the hard way**](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [napo.io: Kubernetes The (real) Hard Way on AWS](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
+
 ### Caravan
  [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+
 ### ClusterAPI
 * [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
+
 ### Microk8s
 * [**Microk8s**](https://microk8s.io/)
+
 ### k8s-tew
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
