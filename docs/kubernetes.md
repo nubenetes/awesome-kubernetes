@@ -1,17 +1,22 @@
 # Kubernetes
-- [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-- [Operators](#operators)
-- [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
-- [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
+- [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+- [Kubectl commands](#kubectl-commands)
+    - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
+- [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
-- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
 - [Kubernetes Patterns](#kubernetes-patterns)
+- [Kubernetes Operators](#kubernetes-operators)
 - [Kubernetes Networking](#kubernetes-networking)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
+- [Kubernetes Security](#kubernetes-security)
 - [Kubernetes Storage](#kubernetes-storage)
-- [Local Installers](#local-installers)
-- [Production Cluster Installers](#production-cluster-installers)
+- [Non-production Kubenetes Local Installers](#non-production-kubenetes-local-installers)
+- [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
+    - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
+    - [AWS EKS](#aws-eks)
+    - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
+- [On-Premise Production Kubernetes Cluster Installers](#on-premise-production-kubernetes-cluster-installers)
     - [Deploying Kubernetes Cluster with Kops](#deploying-kubernetes-cluster-with-kops)
     - [Deploying Kubernetes Cluster with Kubeadm](#deploying-kubernetes-cluster-with-kubeadm)
     - [Deploying Kubernetes Cluster with Ansible](#deploying-kubernetes-cluster-with-ansible)
@@ -24,21 +29,22 @@
     - [ClusterAPI](#clusterapi)
     - [Microk8s](#microk8s)
     - [k8s-tew](#k8s-tew)
-- [VMware Kubernetes](#vmware-kubernetes)
-- [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
+    - [Kubernetes Distributions](#kubernetes-distributions)
+        - [VMware Kubernetes](#vmware-kubernetes)
+        - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
 - [Helm and Kubernetes](#helm-and-kubernetes)
-- [Other tools](#other-tools)
+- [Other kubernetes tools](#other-kubernetes-tools)
 - [Demos](#demos)
-- [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
+    - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 - [SpringBoot with Docker](#springboot-with-docker)
-- [Troubleshooting](#troubleshooting)
-- [Security](#security)
-- [AWS EKS](#aws-eks)
 - [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
 - [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
 - [Videos](#videos)
+
+## Certified Kubernetes Offerings
+* [Certified Kubernetes offerings 🌟🌟🌟](https://www.cncf.io/certification/software-conformance/)
 
 ## Kubernetes open-source container-orchestation
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
@@ -66,20 +72,8 @@
 * [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
 * [learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟🌟🌟](https://learnk8s.io/kubernetes-long-lived-connections)
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
-* kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
-
-```bash
-kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
-```
-
 * [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/)
 * [itnext.io: K8s Vertical Pod Autoscaling 🌟](https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81)
-* [share a configMap in kubernetes between namespaces:](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
-
-```bash
-kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest>-f -
-```
-
 * [medium.com: kubernetes Pod Priority and Preemption](https://medium.com/@mohaamer5/kubernetes-pod-priority-and-preemption-943c58aee07d)
 * [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 * [itnext.io: K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
@@ -97,24 +91,33 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-## Certified Kubernetes Offerings
-* [Certified Kubernetes offerings 🌟🌟🌟](https://www.cncf.io/certification/software-conformance/)
+## Kubectl commands
+* kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
 
-## Operators
-* [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
-* [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
-* [redhat.com: Kubernetes operators - Embedding operational expertise side by side with containerized applications](https://www.redhat.com/sysadmin/kubernetes-operators)
-* [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/)
-* [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
-* [devops.com: Day 2 for the Operator Ecosystem 🌟🌟🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
-    * [KUDO: The Kubernetes Universal Declarative Operator 🌟🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
+```bash
+kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
+```
+* [share a configMap in kubernetes between namespaces:](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
 
-## Tools for multi-cloud Kubernetes management
-* [Compare tools for multi-cloud Kubernetes management 🌟🌟🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+```bash
+kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest>-f -
+```
 
-## GKE vs EKS vs AKS
-* [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
-* [stackrox.com: EKS vs GKE vs AKS - Evaluating Kubernetes in the Cloud](https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/)
+### Kubectl Cheat Sheets
+* [developers.redhat.com: Kubernetes Cheat Sheet 🌟](https://developers.redhat.com/cheat-sheets/kubernetes/)
+* [kubernetes.io 🌟🌟🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+* [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
+* [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md)
+* [intellipaat.com 🌟🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
+* [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
+* [jimmysong.io: kubectl cheat sheet 🌟🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
+* [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟🌟🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
+
+## Kubernetes Troubleshooting
+* [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+* [Understanding Kubernetes cluster events 🌟🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)
+* [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
+* [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
 
 ## Kubernetes Tutorials
 * [katacoda.com 🌟🌟🌟🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
@@ -153,16 +156,6 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [35 Advanced Tutorials to Learn Kubernetes 🌟🌟🌟](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
 * [javarevisited.blogspot.com: Top 5 courses to Learn Docker and Kubernetes in 2020 - Best of Lot](https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html)
 
-## Kubernetes Cheat Sheets
-* [developers.redhat.com: Kubernetes Cheat Sheet 🌟](https://developers.redhat.com/cheat-sheets/kubernetes/)
-* [kubernetes.io 🌟🌟🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-* [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
-* [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md)
-* [intellipaat.com 🌟🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
-* [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
-* [jimmysong.io: kubectl cheat sheet 🌟🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
-* [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟🌟🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
-
 ## Kubernetes Patterns
 * [redhat.com: Kubernetes Patterns e-book 🌟🌟🌟🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
 * [github.com/k8spatterns/examples 🌟🌟🌟](https://github.com/k8spatterns/examples) Examples for "Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications"
@@ -170,6 +163,15 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟🌟🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
 * [gardener.cloud: Kubernetes Antipatterns](https://gardener.cloud/050-tutorials/content/howto/antipattern/)
 * [dzone.com: Performance Patterns in Microservices-Based Integrations 🌟🌟🌟🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)
+
+## Kubernetes Operators
+* [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
+* [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
+* [redhat.com: Kubernetes operators - Embedding operational expertise side by side with containerized applications](https://www.redhat.com/sysadmin/kubernetes-operators)
+* [hashicorp.com: Creating Workspaces with the HashiCorp Terraform Operator for Kubernetes](https://www.hashicorp.com/blog/creating-workspaces-with-the-hashicorp-terraform-operator-for-kubernetes/)
+* [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
+* [devops.com: Day 2 for the Operator Ecosystem 🌟🌟🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
+    * [KUDO: The Kubernetes Universal Declarative Operator 🌟🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
 
 ## Kubernetes Networking
 * [dzone: how to setup kubernetes networking](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)
@@ -184,10 +186,35 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 ## Kubernetes Sidecars
 * [banzaicloud.com: Sidecar container lifecycle changes in Kubernetes 1.18 🌟🌟](https://banzaicloud.com/blog/k8s-sidecars/)
 
+## Kubernetes Security
+* [cilium.io](https://cilium.io/)
+* [openpolicyagent.org  🌟🌟🌟](https://www.openpolicyagent.org/)
+    * [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
+* [Dzone - devops security at scale](https://dzone.com/articles/devops-security-at-scale)
+* [searchitoperations.techtarget.com: kubernetes policy project](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 
+* [Dzone - Kubernetes Policy Management with Kyverno](https://dzone.com/articles/kubernetes-policy-management-with-kyverno)
+    * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
+* [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
+* [Kubernetes Security Best Practices 🌟🌟🌟🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
+* [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+* EKS Security:
+    * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
+    * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
+    * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
+* [magalix.com: kubernetes authentication 🌟🌟](https://www.magalix.com/blog/kubernetes-authentication)
+* [magalix.com: kubernetes authorization 🌟🌟](https://www.magalix.com/blog/kubernetes-authorization)
+* [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
+* [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
+* [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
+* [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)
+    * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
+* [Microsoft.com: Attack matrix for Kubernetes 🌟🌟🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
+* [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
+
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
 
-## Local Installers
+## Non-production Kubenetes Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
     * [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)
 * [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes
@@ -195,7 +222,30 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [medium.com: Local Kubernetes for Linux — MiniKube vs MicroK8s](https://medium.com/containers-101/local-kubernetes-for-linux-minikube-vs-microk8s-1b2acad068d3)
 * [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2) Several options to start playing with K8s in no time
 
-## Production Cluster Installers
+## Kubernetes in Public Cloud
+### GKE vs EKS vs AKS
+* [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
+* [stackrox.com: EKS vs GKE vs AKS - Evaluating Kubernetes in the Cloud](https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/)
+  
+### AWS EKS
+* [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
+* [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
+* [eksworkshop.com](https://eksworkshop.com/ )
+* [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
+* Deploy example microservices on EKS:
+    * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
+    * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
+    * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
+    * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
+    * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+* [medium: Implementing Kubernetes Cluster using AWS EKS (AWS Managed Kubernetes)](https://medium.com/@devopsadvocate/how-to-setup-kubernetes-cluster-using-aws-eks-aws-managed-kubernetes-181d5567a8ef)
+* [Amazon EKS Security Best Practices](https://www.stackrox.com/post/2019/09/amazon-eks-security-best-practices/)
+* [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service/)
+
+###  Tools for multi-cloud Kubernetes management
+* [Compare tools for multi-cloud Kubernetes management 🌟🌟🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+
+## On-Premise Production Kubernetes Cluster Installers
 ### Deploying Kubernetes Cluster with Kops
 * [Kubernetes Cluster with **Kops**](https://github.com/kubernetes/kops) 
 * Minikube and docker client are great for local setups, but notfor real clusters. Kops and kubeadm are tools to spin up aproduction cluster. You don't need both tools, just one of them. 
@@ -252,7 +302,8 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 ### k8s-tew
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
-## VMware Kubernetes
+### Kubernetes Distributions
+#### VMware Kubernetes
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
 * [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
 * [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
@@ -260,7 +311,7 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes/)
 * [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html/)
 
-## Rancher: Enterprise management for Kubernetes
+#### Rancher: Enterprise management for Kubernetes
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
 * [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 * [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
@@ -312,7 +363,7 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
     * [hub.helm.sh 🌟🌟🌟](http://hub.helm.sh) 
     * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
 
-## Other tools
+## Other kubernetes tools
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
 * [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
@@ -364,7 +415,7 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
 
-## Spring PetClinic Sample Application
+### Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
     * [spring-petclinic.github.io Docs](https://spring-petclinic.github.io/docs/resources.html)
 * [github.com/spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic)
@@ -403,52 +454,6 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
 * [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 
 * [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide)
-
-## Troubleshooting
-* [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
-* [Understanding Kubernetes cluster events 🌟🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)
-* [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
-* [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
-
-## Security
-* [cilium.io](https://cilium.io/)
-* [openpolicyagent.org  🌟🌟🌟](https://www.openpolicyagent.org/)
-    * [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
-* [Dzone - devops security at scale](https://dzone.com/articles/devops-security-at-scale)
-* [searchitoperations.techtarget.com: kubernetes policy project](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) 
-* [Dzone - Kubernetes Policy Management with Kyverno](https://dzone.com/articles/kubernetes-policy-management-with-kyverno)
-    * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
-* [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
-* [Kubernetes Security Best Practices 🌟🌟🌟🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
-* [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
-* EKS Security:
-    * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
-    * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
-    * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
-* [magalix.com: kubernetes authentication 🌟🌟](https://www.magalix.com/blog/kubernetes-authentication)
-* [magalix.com: kubernetes authorization 🌟🌟](https://www.magalix.com/blog/kubernetes-authorization)
-* [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
-* [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
-* [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
-* [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)
-    * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
-* [Microsoft.com: Attack matrix for Kubernetes 🌟🌟🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
-* [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
-
-## AWS EKS
-* [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
-* [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
-* [eksworkshop.com](https://eksworkshop.com/ )
-* [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
-* Deploy example microservices on EKS:
-    * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
-    * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
-    * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
-    * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
-    * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
-* [medium: Implementing Kubernetes Cluster using AWS EKS (AWS Managed Kubernetes)](https://medium.com/@devopsadvocate/how-to-setup-kubernetes-cluster-using-aws-eks-aws-managed-kubernetes-181d5567a8ef)
-* [Amazon EKS Security Best Practices](https://www.stackrox.com/post/2019/09/amazon-eks-security-best-practices/)
-* [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service/)
 
 ## Docker in Docker
 * [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/)
