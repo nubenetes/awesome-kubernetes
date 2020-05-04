@@ -1,32 +1,32 @@
 # Kubernetes
-1. [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
-2. [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-3. [Operators](#operators)
-4. [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
-5. [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
-6. [Kubernetes Tutorials](#kubernetes-tutorials)
-7. [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
-8. [Kubernetes Patterns](#kubernetes-patterns)
-9. [Kubernetes Networking](#kubernetes-networking)
-10. [Kubernetes Sidecars](#kubernetes-sidecars)
-11. [Kubernetes Storage](#kubernetes-storage)
-12. [Local Installers](#local-installers)
-13. [Production Cluster Installers](#production-cluster-installers)
-14. [VMware Kubernetes](#vmware-kubernetes)
-15. [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
-16. [Helm and Kubernetes](#helm-and-kubernetes)
-17. [Other tools](#other-tools)
-18. [Demos](#demos)
-19. [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
-20. [SpringBoot with Docker](#springboot-with-docker)
-21. [Troubleshooting](#troubleshooting)
-22. [Security](#security)
-23. [AWS EKS](#aws-eks)
-24. [Docker in Docker](#docker-in-docker)
-25. [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
-26. [Container Ecosystem](#container-ecosystem)
-27. [Container Flowchart](#container-flowchart)
-28. [Videos](#videos)
+- [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+- [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
+- [Operators](#operators)
+- [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
+- [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
+- [Kubernetes Tutorials](#kubernetes-tutorials)
+- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
+- [Kubernetes Patterns](#kubernetes-patterns)
+- [Kubernetes Networking](#kubernetes-networking)
+- [Kubernetes Sidecars](#kubernetes-sidecars)
+- [Kubernetes Storage](#kubernetes-storage)
+- [Local Installers](#local-installers)
+- [Production Cluster Installers](#production-cluster-installers)
+- [VMware Kubernetes](#vmware-kubernetes)
+- [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
+- [Helm and Kubernetes](#helm-and-kubernetes)
+- [Other tools](#other-tools)
+- [Demos](#demos)
+- [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
+- [SpringBoot with Docker](#springboot-with-docker)
+- [Troubleshooting](#troubleshooting)
+- [Security](#security)
+- [AWS EKS](#aws-eks)
+- [Docker in Docker](#docker-in-docker)
+- [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
+- [Container Ecosystem](#container-ecosystem)
+- [Container Flowchart](#container-flowchart)
+- [Videos](#videos)
 
 ## Kubernetes open-source container-orchestation
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
@@ -55,18 +55,15 @@
 * [learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟🌟🌟](https://learnk8s.io/kubernetes-long-lived-connections)
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
-
     ```
     kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
     ```
-
 * [blog.alexellis.io: Get a LoadBalancer for your private Kubernetes cluster](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster/)
 * [itnext.io: K8s Vertical Pod Autoscaling 🌟](https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81)
 * [share a configMap in kubernetes between namespaces:](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
     ```
     kubectl get configmap --namespace=<source> <configmap> --export -o yaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest> -f -
     ```
-    
 * [medium.com: kubernetes Pod Priority and Preemption](https://medium.com/@mohaamer5/kubernetes-pod-priority-and-preemption-943c58aee07d)
 * [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 * [itnext.io: K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
@@ -190,25 +187,20 @@
     * For other installs, or if you can't get kops to work, you can use kubeadm
     * **kubeadm** is an alternative approach, kops is still recommended (on AWS) - you also have AWS integrations with kops automatically
     * Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just type in cmd/powershell:
-
-    1. Spin up ubuntu via vagrant:
-    
-    ```
-    C:\ubuntu> vagrant init ubuntu/xenial64
-    C:\ubuntu> vagrant up
-    [...]
-    C:\ubuntu> vagrant ssh-config
-    C:\ubuntu> vagrant ssh
-    ```
-    
-    2. Runt kops installer:
-    
-    ```
-    curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
-    chmod +x kops-linux-amd64
-    sudo mv kops-linux-amd64 /usr/local/bin/kops
-    ```
-
+        1. Spin up ubuntu via vagrant:
+            ```
+            C:\ubuntu> vagrant init ubuntu/xenial64
+            C:\ubuntu> vagrant up
+            [...]
+            C:\ubuntu> vagrant ssh-config
+            C:\ubuntu> vagrant ssh
+            ```
+        2. Runt kops installer:
+            ```
+            curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+            chmod +x kops-linux-amd64
+            sudo mv kops-linux-amd64 /usr/local/bin/kops
+            ```
 * [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
     * [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
@@ -442,10 +434,12 @@
 
 ## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
+  
 [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
 ## Container Flowchart
-**[Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)** Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
+* [Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
+
 [![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
 
 ## Videos
