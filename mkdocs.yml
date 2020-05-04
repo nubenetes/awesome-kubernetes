@@ -83,6 +83,7 @@ pages:
   - Scaffolding Tools: scaffolding.md
 - Frameworks:
   - Angular: angular.md
+  - Java - Spring Framework: SpringFramework.md
   - Java - SpringBoot: SpringBoot.md
   - Java - Spring Cloud: SpringCloud.md
   - Java - Quarkus: quarkus.md
