@@ -17,12 +17,12 @@
     - [AWS EKS](#aws-eks)
     - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 - [On-Premise Production Kubernetes Cluster Installers](#on-premise-production-kubernetes-cluster-installers)
+    - [Comparative Analysis of Kubernetes Deployment Tools](#comparative-analysis-of-kubernetes-deployment-tools)
     - [Deploying Kubernetes Cluster with Kops](#deploying-kubernetes-cluster-with-kops)
     - [Deploying Kubernetes Cluster with Kubeadm](#deploying-kubernetes-cluster-with-kubeadm)
     - [Deploying Kubernetes Cluster with Ansible](#deploying-kubernetes-cluster-with-ansible)
     - [Kubespray](#kubespray)
     - [Conjure up](#conjure-up)
-    - [Comparative Analysis of Kubernetes Deployment Tools](#comparative-analysis-of-kubernetes-deployment-tools)
     - [WKSctl](#wksctl)
     - [Terraform](#terraform)
     - [Caravan](#caravan)
@@ -246,6 +246,10 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [Compare tools for multi-cloud Kubernetes management 🌟🌟🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
 
 ## On-Premise Production Kubernetes Cluster Installers
+### Comparative Analysis of Kubernetes Deployment Tools
+* [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
+* [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
+
 ### Deploying Kubernetes Cluster with Kops
 * [Kubernetes Cluster with **Kops**](https://github.com/kubernetes/kops) 
 * Minikube and docker client are great for local setups, but notfor real clusters. Kops and kubeadm are tools to spin up aproduction cluster. You don't need both tools, just one of them. 
@@ -277,10 +281,6 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 
 ### Conjure up
 * [**Conjure up**](https://conjure-up.io/)
-
-### Comparative Analysis of Kubernetes Deployment Tools
-* [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
-* [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
 
 ### WKSctl
 * [infoq.com: **WKSctl**: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
