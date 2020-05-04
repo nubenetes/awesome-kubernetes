@@ -188,6 +188,7 @@
     * **kubeadm** is an alternative approach, kops is still recommended (on AWS) - you also have AWS integrations with kops automatically
     * Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just type in cmd/powershell:
         1. Spin up ubuntu via vagrant:
+   
             ```
             C:\ubuntu> vagrant init ubuntu/xenial64
             C:\ubuntu> vagrant up
@@ -196,6 +197,7 @@
             C:\ubuntu> vagrant ssh
             ```
         2. Runt kops installer:
+   
             ```
             curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
             chmod +x kops-linux-amd64
