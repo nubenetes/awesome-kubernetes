@@ -268,17 +268,20 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * For other installs, or if you can't get kops to work, you canuse kubeadm
 * **kubeadm** is an alternative approach, kops is stillrecommended (on AWS) - you also have AWS integrations with kopsautomatically
 * Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, justspin up ubuntu via vagrant in cmd/powershel and run kopsinstaller: 
+
     ```
     C:\ubuntu> vagrant init ubuntu/xenial64
     C:\ubuntu> vagrant up
     C:\ubuntu> vagrant ssh-config
     C:\ubuntu> vagrant ssh
     ```
+
     ```bash
     $ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4)  kops-linux-amd64
     $ chmod +x kops-linux-amd64
     $ sudo mv kops-linux-amd64 /usr/local/bin/kops
     ```
+
 ### Deploying Kubernetes Cluster with Kubeadm
 * [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
 * [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
