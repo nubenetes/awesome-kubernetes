@@ -267,7 +267,7 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * At some point AWS EKS (hosted kubernetes) will be available, atthat point this will probably be the preferred option. (You won'tneed to maintain the masters).
 * For other installs, or if you can't get kops to work, you canuse kubeadm
 * **kubeadm** is an alternative approach, kops is stillrecommended (on AWS) - you also have AWS integrations with kopsautomatically
-* Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, justspin up ubuntu via vagrant in cmd/powershel and run kopsinstaller: 
+* Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer: 
 
 ```
 C:\ubuntu> vagrant init ubuntu/xenial64
