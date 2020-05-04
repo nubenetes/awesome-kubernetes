@@ -30,6 +30,7 @@
     - [Microk8s](#microk8s)
     - [k8s-tew](#k8s-tew)
     - [Kubernetes Distributions](#kubernetes-distributions)
+        - [Red Hat OpenShift](#red-hat-openshift)
         - [VMware Kubernetes](#vmware-kubernetes)
         - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
             - [Rancher 2](#rancher-2)
@@ -317,6 +318,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ### Kubernetes Distributions
+#### Red Hat OpenShift 
+* [Openshift Container Platform](openshift.md)
+* [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift
+
 #### VMware Kubernetes
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
 * [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
