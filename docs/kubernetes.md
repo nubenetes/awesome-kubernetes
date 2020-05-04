@@ -196,6 +196,7 @@
             C:\ubuntu> vagrant ssh-config
             C:\ubuntu> vagrant ssh
             ```
+            
         2. Runt kops installer:
    
             ```
@@ -203,6 +204,7 @@
             chmod +x kops-linux-amd64
             sudo mv kops-linux-amd64 /usr/local/bin/kops
             ```
+
 * [Kubernetes Cluster with **Kubeadm**](https://github.com/kubernetes/kubeadm) It works on any deb / rpm compatible Linux OS, for example Ubuntu, Debian, RedHat or CentOS. This is the main advantage of kubeadm. The tool itself is still in beta (Q1 2018), but is expected to become stable somewhere this year. It's very easy to use and lets you spin kubernetes cluster in just a couple of minutes.
     * [medium.com: **Demystifying High Availability in Kubernetes Using Kubeadm**](https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b)
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
