@@ -10,6 +10,7 @@
 7. [Telecom](#telecom)
 8. [Other API Marketplaces](#other-api-marketplaces)
 
+
 ## API Landscape 
 - [API Landscape](https://www.apidays.co/api-landscape)
 
