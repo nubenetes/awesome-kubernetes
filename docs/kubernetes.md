@@ -261,12 +261,13 @@ kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)
 
 ### Deploying Kubernetes Cluster with Kops
-* [Kubernetes Cluster with **Kops**](https://github.com/kubernetes/kops) 
+* [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops) 
+* [Kubernetes.io: Installing Kubernetes with kops](https://kubernetes.io/docs/setup/production-environment/tools/kops/)
 * Minikube and docker client are great for local setups, but notfor real clusters. Kops and kubeadm are tools to spin up aproduction cluster. You don't need both tools, just one of them. 
 * On AWS, the best tool is **kops**
-* At some point AWS EKS (hosted kubernetes) will be available, atthat point this will probably be the preferred option. (You won'tneed to maintain the masters).
-* For other installs, or if you can't get kops to work, you canuse kubeadm
-* **kubeadm** is an alternative approach, kops is stillrecommended (on AWS) - you also have AWS integrations with kopsautomatically
+* At some point AWS EKS (hosted kubernetes) will be available, at that point this will probably be the preferred option. **(You won'tneed to maintain the masters)**.
+* For other installs, or if you can't get kops to work, you can use **kubeadm**.
+* **kubeadm** is an alternative approach, kops is still recommended (on AWS) - you also have AWS integrations with kops automatically
 * Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer: 
 
 ```
@@ -277,7 +278,7 @@ C:\ubuntu> vagrant ssh
 ```
 
 ```bash
-$ curl -LO https://github.com/kubernetes/kops/releases  download/$(curl -s https://api.github.com/reposkubernetes     kops/releases/latest | grep tag_name | cut -d'"' -f 4) kops-linux-amd64
+$ curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 $ chmod +x kops-linux-amd64
 $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ```
