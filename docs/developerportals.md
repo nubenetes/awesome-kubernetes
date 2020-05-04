@@ -1,19 +1,19 @@
 # Developer Portals and API Management/API Gateway
-- [API Landscape](#api-landscape)
-- [API Managers](#api-managers)
-- [Mobile](#mobile)
-- [Automotive](#automotive)
-    - [Auto API](#auto-api)
-    - [Smartcar](#smartcar)
-- [Banking](#banking)
-- [Insurance](#insurance)
-- [Telecom](#telecom)
-- [Other API Marketplaces](#other-api-marketplaces)
+1. [API Landscape](#api-landscape)
+2. [API Managers](#api-managers)
+3. [Mobile Developer Portals](#mobile-developer-portals)
+4. [Automotive](#automotive)
+   1. [Auto API](#auto-api)
+   2. [Smartcar](#smartcar)
+5. [Banking](#banking)
+6. [Insurance](#insurance)
+7. [Telecom](#telecom)
+8. [Other API Marketplaces](#other-api-marketplaces)
 
-# API Landscape 
+## API Landscape 
 - [API Landscape](https://www.apidays.co/api-landscape)
 
-# API Managers
+## API Managers
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
     - [Apigee @Youtube](https://www.youtube.com/user/apigee)
