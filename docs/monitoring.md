@@ -1,4 +1,5 @@
 # Monitoring and Performance
+* [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 
 ## Monitoring
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
@@ -6,15 +7,26 @@
 * [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)
 
 ## Prometheus
+* [**prometheus.io**](https://prometheus.io/)
 * [dzone.com: Monitoring with **Prometheus**](https://dzone.com/articles/monitoring-with-prometheus) Learn how to set up a basic instance of Prometheus along with Grafana and the Node Exporter to monitor a simple Linux server.
-* [**Thanos**](https://thanos.io/) Open source, highly available Prometheus setup with long term storage capabilities.
-* [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA 
-Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
- 
+
+### Prometheus Exporters (collectors)
+* [**Prometheus exporters** (collectors)](https://prometheus.io/docs/instrumenting/exporters/)
+* [**JMX Exporter**](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
+* [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
+    * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
+
+### Prometheus Exporters (third party)
+* [Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+
 ## Grafana
 * [Grafana](https://grafana.com/)
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
 * [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
+* [grafana.com: Provisioning Grafana](https://grafana.com/docs/grafana/latest/administration/provisioning/)
+    * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
+* [openlogic.com: How to develop Grafana Dashboards](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 
 ## Collectors
 * [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
@@ -25,9 +37,15 @@ Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with
 
 ## Prometheus Storage
 * [Prometheus TSDB](https://prometheus.io/docs/prometheus/latest/storage/)
-* [Cortex](https://cortexmetrics.io/)
-* [InfluxDB](https://www.influxdata.com/)
-* [M3](https://www.m3db.io/)
+* [Cortex](https://cortexmetrics.io/) provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
+* [**Thanos**:](https://thanos.io/) Open source, **highly available Prometheus setup with long term storage capabilities**. Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
+    * [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA 
+Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
+* [**InfluxDB**:](https://www.influxdata.com/) open-source time series database (TSDB) developed by InfluxData. It is written in Go and optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics. It also has support for processing data from Graphite.
+* [**M3**](https://www.m3db.io/) is an open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB.
+In addition, it supports metric deduplication and merging, and provides distributed query support.
+Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
+
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
