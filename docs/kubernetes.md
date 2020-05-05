@@ -2,6 +2,9 @@
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
 - [Kubectl commands](#kubectl-commands)
+    - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
+    - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
+    - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
@@ -103,16 +106,38 @@
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
 ## Kubectl commands
+
+### List all resources and sub resources that you can constrain with RBAC
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
 
 ```bash
 kubectl get --raw /openapi/v2  | jq '.paths | keys[]'
 ```
-* [share a configMap in kubernetes between namespaces:](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
+
+### Copy a configMap in kubernetes between namespaces
+* Copy a configMap in kubernetes between namespaces with deprecated "--export" flag:
 
 ```bash
-kubectl get configmap --namespace=<source> <configmap> --export -oyaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest>-f -
+kubectl get configmap --namespace=<source> <configmap> --export -o yaml | sed "s/<source>/<dest>/" | kubectl apply --namespace=<dest> -f -
 ```
+
+* [Flag export deprecated in kubernetes 1.14](https://github.com/kubernetes/kubernetes/pull/73787). Instead following command can be used:
+
+```bash
+kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f
+```
+
+* Reference: [Copy a configMap in kubernetes between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
+  
+### Copy secrets in kubernetes between namespaces
+* [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces):
+
+```bash
+kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f
+```
+
+* Export resources with [zoidbergwill/export.sh](https://gist.github.com/zoidbergwill/6af8c80cc5b706e2adcf25df3dc2f7e1#file-export_resources-py), by [zoidbergwill](https://gist.github.com/zoidbergwill)
+
 
 ### Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet 🌟](https://developers.redhat.com/cheat-sheets/kubernetes/)
