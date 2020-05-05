@@ -103,7 +103,7 @@ pages:
   - Google Cloud Platform: GoogleCloudPlatform.md
   - Microsoft Azure: azure.md
   - Digital Ocean: digitalocean.md
-  - Cloudflare: Cloudflare.md
+  - Cloudflare: cloudflare.md
 - E-Learning: elearning.md
 - Customer Success Stories: customer.md
 - Subreddits: newsfeeds.md
