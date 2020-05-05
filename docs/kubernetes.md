@@ -14,7 +14,7 @@
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
 - [Kubernetes Storage](#kubernetes-storage)
-- [Non-production Kubenetes Local Installers](#non-production-kubenetes-local-installers)
+- [Non-production Kubernetes Local Installers](#non-production-kubernetes-local-installers)
 - [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
     - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
     - [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
@@ -250,7 +250,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
 
-## Non-production Kubenetes Local Installers
+## Non-production Kubernetes Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
     * [murchie85.github.io: Installling minikube](https://murchie85.github.io/Kubernetes.html)
 * [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes
