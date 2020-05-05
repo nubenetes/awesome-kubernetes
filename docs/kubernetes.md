@@ -289,12 +289,10 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Deploying Kubernetes Cluster with Kops
 * [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops) 
 * [Kubernetes.io: Installing Kubernetes with kops](https://kubernetes.io/docs/setup/production-environment/tools/kops/)
-* Minikube and docker client are great for local setups, but notfor real clusters. Kops and kubeadm are tools to spin up aproduction cluster. You don't need both tools, just one of them. 
-* On AWS, the best tool is **kops**
-* At some point AWS EKS (hosted kubernetes) will be available, at that point this will probably be the preferred option. **(You won'tneed to maintain the masters)**.
+* Minikube and docker client are great for local setups, but not for real clusters. **Kops** and **kubeadm** are tools to spin up a production cluster. You don't need both tools, just one of them. 
+* On AWS, the best tool is **kops**. Since [AWS EKS (hosted kubernetes)](https://aws.amazon.com/eks) is currently available, this is the preferred option **(you don't need to maintain the masters)**.
 * For other installs, or if you can't get kops to work, you can use **kubeadm**.
-* **kubeadm** is an alternative approach, kops is still recommended (on AWS) - you also have AWS integrations with kops automatically
-* Setup **kops** in your windows with **virtualbox.org** and**vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer: 
+* Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer: 
 
 ```
 C:\ubuntu> vagrant init ubuntu/xenial64
