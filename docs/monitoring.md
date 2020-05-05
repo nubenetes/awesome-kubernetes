@@ -145,28 +145,28 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
 
 #### Ansible Roles
-- Cloud Alchemy: Deploy prometheus node exporter using ansible.
+- **Cloud Alchemy**: Deploy prometheus node exporter using ansible.
     - [https://galaxy.ansible.com/cloudalchemy/node-exporter](https://galaxy.ansible.com/cloudalchemy/node-exporter)
     - [https://github.com/cloudalchemy/ansible-prometheus](https://github.com/cloudalchemy/ansible-prometheus)
 - [Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment](https://github.com/idealista/prometheus_jmx_exporter-role)
-- alexdzyoba. This ansible role installs a Prometheus JMX exporter java agent in a debian nvironment. Inspired by [Idealista prometheus_jmx_exporter-role](https://github.com/dealista/prometheus_jmx_exporter-role).
+- **Alexdzyoba**: This ansible role installs a Prometheus JMX exporter java agent in a debian nvironment. Inspired by [Idealista prometheus_jmx_exporter-role](https://github.com/dealista/prometheus_jmx_exporter-role).
     - [https://galaxy.ansible.com/alexdzyoba/jmx-exporter](https://galaxy.ansible.com/alexdzyoba/jmx-exporter) 
     - [https://github.com/alexdzyoba/ansible-jmx-exporter](https://github.com/alexdzyoba/ansible-jmx-exporter)
-- Mesaguy: Installs and manages Prometheus and Prometheus exporters.
+- **Mesaguy**: Installs and manages Prometheus and Prometheus exporters.
     - Installs and manages Prometheus server, Alertmanager, PushGateway, and numerous Prometheus exporters
     - This role was designed to allow adding new exporters with ease. Regular releases ensure it always provides the latest Prometheus software.
     - This role can register client exporters with the Prometheus server/s automatically (see tgroup management below).
     - This Ansible role will be migrated to an Ansible Collection.
     - [https://galaxy.ansible.com/mesaguy/prometheus](https://galaxy.ansible.com/mesaguy/prometheus)
     - [https://github.com/mesaguy/ansible-prometheus](https://github.com/mesaguy/ansible-prometheus)
-- william yeh: Prometheus for Ansible Galaxy. This role only installs 3 components: rometheus server, Node exporter, and Alertmanager. 
+- **William Yeh**: Prometheus for Ansible Galaxy. This role only installs 3 components: Prometheus server, Node exporter, and Alertmanager. 
     - [https://galaxy.ansible.com/William-Yeh/prometheus](https://galaxy.ansible.com/William-Yeh/prometheus) 
     - [https://github.com/William-Yeh/ansible-prometheus](https://github.com/William-Yeh/ansible-prometheus)
     - [https://awesomeopensource.com/project/William-Yeh/ansible-prometheus](https://awesomeopensource.com/project/William-Yeh/ansible-prometheus)
-- Undergreen: An Ansible role that installs Prometheus Node Exporter on Ubuntu|Debian|redhat-based machines with systemd|Upstart|sysvinit.
+- **Undergreen**: An Ansible role that installs Prometheus Node Exporter on Ubuntu|Debian|redhat-based machines with systemd|Upstart|sysvinit.
     - [https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter) 
     - [https://github.com/UnderGreen/ansible-prometheus-node-exporter](https://github.com/UnderGreen/ansible-prometheus-node-exporter)
-- Mitesh Sharma: Prometheus With Grafana Using Ansible
+- **Mitesh Sharma**: Prometheus With Grafana Using Ansible
     - [https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa)
     - [https://github.com/MiteshSharma/PrometheusWithGrafana](https://github.com/MiteshSharma/PrometheusWithGrafana)
 
