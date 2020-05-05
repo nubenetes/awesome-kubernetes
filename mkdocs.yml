@@ -95,6 +95,7 @@ pages:
   - Test Automation with Postman: postman.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
 - TestOps: testops.md
+- Demos: demos.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
   - Edge Computing: edge-computing.md

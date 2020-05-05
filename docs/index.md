@@ -103,7 +103,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
         - [3scale API Management](3scale.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
-20. Public Cloud
+20. [Demos](demos.md)
+21. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
@@ -112,10 +113,10 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Microsoft Azure](azure.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
-21. [E-Learning](elearning.md)
-22. [Customer Success Stories 🌟](customer.md)
-23. [Subreddits and Newsfeeds](newsfeeds.md)
-24. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+22. [E-Learning](elearning.md)
+23. [Customer Success Stories 🌟](customer.md)
+24. [Subreddits and Newsfeeds](newsfeeds.md)
+25. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
