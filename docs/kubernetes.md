@@ -6,6 +6,7 @@
     - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
     - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
     - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
+    - [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
 - [Kubernetes Patterns](#kubernetes-patterns)
@@ -144,6 +145,7 @@ kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | 
 kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f
 ```
 
+### Export resources with kubectl and python
 * Export resources with [zoidbergwill/export.sh](https://gist.github.com/zoidbergwill/6af8c80cc5b706e2adcf25df3dc2f7e1#file-export_resources-py), by [zoidbergwill](https://gist.github.com/zoidbergwill)
 
 
