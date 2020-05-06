@@ -1,7 +1,6 @@
 # Visual Studio Code
 * [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-* [Integrated Terminal:](https://code.visualstudio.com/docs/editor/integrated-terminal)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 * [deepu.js.org: My VS Code setup - Making the most out of VS Code](https://deepu.js.org/make-the-most-out-of-vscode/)
 * [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
@@ -17,8 +16,9 @@
 * [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 * [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
 
-## Git Bash Settings Example
-This is an example of Visual Studio Code settings when adding Gib Bash on Windows:
+## Integrated Terminal on Visual Studio Code
+* [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
+* This is an example of Visual Studio Code settings when adding Git Bash on Windows:
 
 ```
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
