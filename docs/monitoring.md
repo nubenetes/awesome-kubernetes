@@ -56,15 +56,13 @@ By default OpenShift 3.11 Grafana is a read-only instance. Many organizations ma
 [Getting Started with Custom Dashboarding on OpenShift using Grafana](https://github.com/redhat-cop/openshift-toolkit/tree/master/custom-dashboards). This repository contains scaffolding and automation for developing a custom dashboarding strategy on OpenShift using the OpenShift Monitoring stac
 
 #### Capacity Management Grafana Dashboard 
-This repo adds a capacity management Grafana dashboard. The intent of this dashboard is to answer a single question: Do I need a new node? . We believe this is the most important question when setting up a capacity management process. We are aware that this is not the only question a capacity management process may need to be able to answer. Thus, this should be considered as the starting point for organizations to build their capacity management process.
-
-[Capacity Management Grafana Dashboard](https://github.com/redhat-cop/openshift-toolkit/tree/master/capacity-dashboard)
+[This repo](https://github.com/redhat-cop/openshift-toolkit/tree/master/capacity-dashboard) adds a capacity management Grafana dashboard. The intent of this dashboard is to answer a single question: Do I need a new node? . We believe this is the most important question when setting up a capacity management process. We are aware that this is not the only question a capacity management process may need to be able to answer. Thus, this should be considered as the starting point for organizations to build their capacity management process.
 
 #### Software Delivery Metrics Grafana Dashboard
-[This repository](https://github.com/redhat-cop/pelorus) contains tooling to help organizations measure Software Delivery and Value Stream metrics. 
+[This repo](https://github.com/redhat-cop/pelorus) contains tooling to help organizations measure Software Delivery and Value Stream metrics. 
 
 #### Prometheus for OpenShift 3.11
-[This directory](https://github.com/openshift/origin/tree/release-3.11/examples/prometheus) contains example components for running either an operational Prometheus setup for your OpenShift cluster, or deploying a standalone secured Prometheus instance for configurating yourself.
+[This repo](https://github.com/openshift/origin/tree/release-3.11/examples/prometheus) contains example components for running either an operational Prometheus setup for your OpenShift cluster, or deploying a standalone secured Prometheus instance for configurating yourself.
 
 ### OpenShift 4
 OpenShift Container Platform includes a pre-configured, pre-installed, and self-updating monitoring stack that is based on the Prometheus open source project and its wider eco-system. It provides monitoring of cluster components and includes a set of alerts to immediately notify the cluster administrator about any occurring problems and a set of Grafana dashboards. The cluster monitoring stack is only supported for monitoring OpenShift Container Platform clusters.
