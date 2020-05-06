@@ -88,9 +88,10 @@ pages:
   - Java - Spring Cloud: SpringCloud.md
   - Java - Quarkus: quarkus.md
   - Python: python.md
+  - Xamarin: xamarin.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
-  - Developer Portals and API Management/API Gateway: developerportals.md
+  - API Marketplaces. Developer Portals and API Management/API Gateway: developerportals.md
   - 3scale API Management: 3scale.md
   - Test Automation with Postman: postman.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
