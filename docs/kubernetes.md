@@ -10,6 +10,8 @@
     - [Kubectl Alternatives](#kubectl-alternatives)
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugin](#jenkins-kubernetes-plugin)
+- [Helm and Kubernetes](#helm-and-kubernetes)
+- [Other kubernetes tools](#other-kubernetes-tools)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
 - [Kubernetes Patterns](#kubernetes-patterns)
@@ -50,8 +52,6 @@
             - [Rancher RKE on vSphere](#rancher-rke-on-vsphere)
             - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
             - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
-- [Helm and Kubernetes](#helm-and-kubernetes)
-- [Other kubernetes tools](#other-kubernetes-tools)
 - [SpringBoot with Docker](#springboot-with-docker)
 - [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
@@ -162,6 +162,71 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 #### Jenkins Kubernetes Plugin
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
+
+## Helm and Kubernetes
+* [helm.sh](https://helm.sh/)
+    * [helm.sh/docs](https://helm.sh/docs) 
+* [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
+* [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)
+* [Delve into Helm: Advanced DevOps](https://www.youtube.com/watch?v=cZ1S2Gp47ng)
+* [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)
+* [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)
+* [DevOps with Azure, Kubernetes, and Helm](https://www.youtube.com/watch?v=INv-VCZvM_o)
+* [dzone: the art of the helm chart patterns](https://dzone.com/articles/the-art-of-the-helm-chart-patterns-from-the-offici)
+* [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)
+* [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)
+* [dzone: create install upgrade and rollback a helm chart - part 2](https://dzone.com/articles/create-install-upgrade-rollback-a-helm-chart-part)
+* [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)
+* [dzone: do you need helm?](https://dzone.com/articles/do-you-need-helm)
+* [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
+* [codefresh.io: Using Helm 3 with Helm 2 charts](https://codefresh.io/helm-tutorial/taking-helm-3-spin/)
+* Helm Charts:
+    * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
+    * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
+    * [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
+    * [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
+    * [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
+    * [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
+    * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
+    * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
+* Helm Charts repositories:
+    * [hub.helm.sh 🌟🌟🌟](http://hub.helm.sh) 
+    * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+
+## Other kubernetes tools
+* [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+    * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
+* [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
+* [kubectl-debug](https://github.com/aylei/kubectl-debug)
+* [kubectl-tree](https://github.com/ahmetb/kubectl-tree) kubectl plugin to browse Kubernetes object hierarchies as a tree
+* [The Golden Kubernetes Tooling and Helpers list](https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w)
+* [kubech (kubectl change)](https://github.com/aabouzaid/kubech) Set kubectl contexts/namespaces per shell/terminal to manage multi Kubernetes cluster at the same time.
+* [Kubecle](https://github.com/rydogs/kubecle) is a web ui running locally that provides useful information about your kubernetes clusters. It is an alternative to Kubernetes Dashboard. Because it runs locally, you can access any kubernetes clusters you have access to
+* [Permission Manager](https://github.com/sighupio/permission-manager) is a project that brings sanity to Kubernetes RBAC and Users management, Web UI FTW
+* [developer.sh: Kubernetes client tools overview](https://developer.sh/posts/kubernetes-client-tools-overview)
+* [kubectx](https://github.com/ahmetb/kubectx) Faster way to switch between clusters and namespaces in kubectl 
+* [go-kubectx](https://github.com/aca/go-kubectx) 5x-10x faster alternative to kubectx. Uses client-go.
+* [kubevious](https://github.com/kubevious/kubevious) is open-source software that provides a usable and highly graphical interface for Kubernetes. Kubevious renders all configurations relevant to the application in one place.
+* [Guard](https://github.com/appscode/guard) is a Kubernetes Webhook Authentication server. Using guard, you can log into your Kubernetes cluster using various auth providers. Guard also configures groups of authenticated user appropriately.
+* [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟🌟🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
+* [**Kubei**](https://github.com/Portshift/kubei) is a flexible Kubernetes runtime scanner, scanning images of worker and Kubernetes nodes providing accurate vulnerabilities assessment.
+* [**Tubectl**: a kubectl alternative which adds a bit of magic to your everyday kubectl routines by reducing the complexity of working with contexts, namespaces and intelligent matching resources.](https://github.com/reconquest/tubekit)
+* [**Kpt**: Packaging up your Kubernetes configuration with git and YAML since 2014 **(Google)**](https://opensource.googleblog.com/2020/03/kpt-packaging-up-your-kubernetes.html)
+    * [kpt](https://googlecontainertools.github.io/kpt/)
+* [**Krew** 🌟🌟🌟](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool.
+* [kubernetes-common-services](https://github.com/ManagedKube/kubernetes-common-services) These services help make it easier to manage your applications environment in Kubernetes
+* [**k8s-job-notify**](https://github.com/sukeesh/k8s-job-notify) Kubernetes Job/CronJob Notifier. This tool sends an alert to slack whenever there is a Kubernetes cronJob/Job failure/success.
+* [**kube-opex-analytics** 🌟🌟🌟🌟](https://github.com/rchakode/kube-opex-analytics) Kubernetes Cost Allocation and Capacity Planning Analytics Tool. Built-in hourly, daily, monthly reports - Prometheus exporter - Grafana dashboard.
+* [**kubeletctl**](https://github.com/cyberark/kubeletctl) is a command line tool that implement kubelet's API. Part of kubelet's API is documented but most of it is not. This tool covers all the documented and undocumented APIs. The full list of all kubelet's API can be view through the tool or this [API table](https://github.com/cyberark/kubeletctl/blob/master/API_TABLE.md). What can it do ?:
+    * Run any kubelet API call
+    * Scan for nodes with opened kubelet API
+    * Scan for containers with RCE
+    * Run a command on all the available containers by kubelet at the same time
+    * Get service account tokens from all available containers by kubelet
+    * Nice printing :)
+* [**inspektor-gadget**](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF [kinvolk.io](https://kinvolk.io)
+* [**K8bit** — the tiny Kubernetes dashboard 🌟](https://github.com/learnk8s/k8bit) K8bit is a tiny dashboard that is meant to demonstrate how to use the Kubernetes API to watch for changes.
+    * [learnk8s.io/real-time-dashboard](https://learnk8s.io/real-time-dashboard)
 
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
@@ -410,71 +475,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 |[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|
 |:---:|:---:|
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
-
-## Helm and Kubernetes
-* [helm.sh](https://helm.sh/)
-    * [helm.sh/docs](https://helm.sh/docs) 
-* [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
-* [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)
-* [Delve into Helm: Advanced DevOps](https://www.youtube.com/watch?v=cZ1S2Gp47ng)
-* [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)
-* [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)
-* [DevOps with Azure, Kubernetes, and Helm](https://www.youtube.com/watch?v=INv-VCZvM_o)
-* [dzone: the art of the helm chart patterns](https://dzone.com/articles/the-art-of-the-helm-chart-patterns-from-the-offici)
-* [dzone: 15 useful helm chart tools](https://dzone.com/articles/15-useful-helm-charts-tools)
-* [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)
-* [dzone: create install upgrade and rollback a helm chart - part 2](https://dzone.com/articles/create-install-upgrade-rollback-a-helm-chart-part)
-* [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)
-* [dzone: do you need helm?](https://dzone.com/articles/do-you-need-helm)
-* [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
-* [codefresh.io: Using Helm 3 with Helm 2 charts](https://codefresh.io/helm-tutorial/taking-helm-3-spin/)
-* Helm Charts:
-    * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
-    * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
-    * [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
-    * [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
-    * [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
-    * [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
-    * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
-    * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
-* Helm Charts repositories:
-    * [hub.helm.sh 🌟🌟🌟](http://hub.helm.sh) 
-    * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
-
-## Other kubernetes tools
-* [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
-    * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
-* [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
-* [kubectl-debug](https://github.com/aylei/kubectl-debug)
-* [kubectl-tree](https://github.com/ahmetb/kubectl-tree) kubectl plugin to browse Kubernetes object hierarchies as a tree
-* [The Golden Kubernetes Tooling and Helpers list](https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w)
-* [kubech (kubectl change)](https://github.com/aabouzaid/kubech) Set kubectl contexts/namespaces per shell/terminal to manage multi Kubernetes cluster at the same time.
-* [Kubecle](https://github.com/rydogs/kubecle) is a web ui running locally that provides useful information about your kubernetes clusters. It is an alternative to Kubernetes Dashboard. Because it runs locally, you can access any kubernetes clusters you have access to
-* [Permission Manager](https://github.com/sighupio/permission-manager) is a project that brings sanity to Kubernetes RBAC and Users management, Web UI FTW
-* [developer.sh: Kubernetes client tools overview](https://developer.sh/posts/kubernetes-client-tools-overview)
-* [kubectx](https://github.com/ahmetb/kubectx) Faster way to switch between clusters and namespaces in kubectl 
-* [go-kubectx](https://github.com/aca/go-kubectx) 5x-10x faster alternative to kubectx. Uses client-go.
-* [kubevious](https://github.com/kubevious/kubevious) is open-source software that provides a usable and highly graphical interface for Kubernetes. Kubevious renders all configurations relevant to the application in one place.
-* [Guard](https://github.com/appscode/guard) is a Kubernetes Webhook Authentication server. Using guard, you can log into your Kubernetes cluster using various auth providers. Guard also configures groups of authenticated user appropriately.
-* [itnext.io: **arkade** by example — Kubernetes apps, the easy way 🌟🌟🌟](https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c)
-* [**Kubei**](https://github.com/Portshift/kubei) is a flexible Kubernetes runtime scanner, scanning images of worker and Kubernetes nodes providing accurate vulnerabilities assessment.
-* [**Tubectl**: a kubectl alternative which adds a bit of magic to your everyday kubectl routines by reducing the complexity of working with contexts, namespaces and intelligent matching resources.](https://github.com/reconquest/tubekit)
-* [**Kpt**: Packaging up your Kubernetes configuration with git and YAML since 2014 **(Google)**](https://opensource.googleblog.com/2020/03/kpt-packaging-up-your-kubernetes.html)
-    * [kpt](https://googlecontainertools.github.io/kpt/)
-* [**Krew** 🌟🌟🌟](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool.
-* [kubernetes-common-services](https://github.com/ManagedKube/kubernetes-common-services) These services help make it easier to manage your applications environment in Kubernetes
-* [**k8s-job-notify**](https://github.com/sukeesh/k8s-job-notify) Kubernetes Job/CronJob Notifier. This tool sends an alert to slack whenever there is a Kubernetes cronJob/Job failure/success.
-* [**kube-opex-analytics** 🌟🌟🌟🌟](https://github.com/rchakode/kube-opex-analytics) Kubernetes Cost Allocation and Capacity Planning Analytics Tool. Built-in hourly, daily, monthly reports - Prometheus exporter - Grafana dashboard.
-* [**kubeletctl**](https://github.com/cyberark/kubeletctl) is a command line tool that implement kubelet's API. Part of kubelet's API is documented but most of it is not. This tool covers all the documented and undocumented APIs. The full list of all kubelet's API can be view through the tool or this [API table](https://github.com/cyberark/kubeletctl/blob/master/API_TABLE.md). What can it do ?:
-    * Run any kubelet API call
-    * Scan for nodes with opened kubelet API
-    * Scan for containers with RCE
-    * Run a command on all the available containers by kubelet at the same time
-    * Get service account tokens from all available containers by kubelet
-    * Nice printing :)
-* [**inspektor-gadget**](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF [kinvolk.io](https://kinvolk.io)
-* [**K8bit** — the tiny Kubernetes dashboard 🌟](https://github.com/learnk8s/k8bit) K8bit is a tiny dashboard that is meant to demonstrate how to use the Kubernetes API to watch for changes.
-    * [learnk8s.io/real-time-dashboard](https://learnk8s.io/real-time-dashboard)
 
 ## SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
