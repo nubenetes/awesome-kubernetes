@@ -28,7 +28,7 @@ pages:
   - Serverless with OpenFaaS & Knative: serverless.md
 - DevOps: devops.md
 - CI/CD: cicd.md
-  - Git & Git Patterns. Git Flow & Trunk: git.md
+  - Git Patterns. Git Flow & Trunk: git.md
 - TestOps: testops.md
 - Docker: docker.md
 - Kubernetes: 
