@@ -121,6 +121,7 @@
 * [Code Average API](https://plugins.jenkins.io/code-coverage-api)
 * [Fortify](https://plugins.jenkins.io/fortify)
 * [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75)
+* [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/) The following plugin provides functionality available through Pipeline-compatible steps.
 * etc
 
 ## Jenkins DSL
