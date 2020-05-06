@@ -503,4 +503,5 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Jayendra's Blog 🌟🌟🌟🌟🌟](https://jayendrapatil.com/)
 
 ## Videos
-<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
