@@ -32,6 +32,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Serverless with OpenFaaS & Knative](serverless.md)
 2. [DevOps](devops.md)
 3. [CI/CD](cicd.md)
+    - [Git & Git Patterns. Git Flow & Trunk](git.md)
 4. [TestOps](testops.md)
 5. [Docker](docker.md)
 6. [Kubernetes 🌟🌟🌟](kubernetes.md)
@@ -50,7 +51,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Groovy](groovy.md)
     - [Jenkins Scripts](scripts/README.md)
     - [CI/CD alternatives](cicd-alternatives.md)
-9. Toolchain
+9.  Toolchain
     - [Maven](maven.md)
     - [Gradle](gradle.md)
     - [Podman & Buildah](podman.md)
@@ -85,7 +86,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 15. [Security Policy as Code](securityascode.md)
 16. [Cloud Native Storage](storage.md)
 17. Dev Environment    
-    - [Git & Git Patterns. Git Flow & Trunk](git.md)
     - [Visual Studio Code](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
