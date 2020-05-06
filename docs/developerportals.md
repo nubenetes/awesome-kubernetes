@@ -1,17 +1,25 @@
-# Developer Portals and API Management/API Gateway
-- [API Landscape](#api-landscape)
+# API Marketplaces. Developer Portals and API Management/API Gateway
+- [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
+    - [API Marketplaces](#api-marketplaces)
 - [API Managers](#api-managers)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
     - [Auto API](#auto-api)
     - [Smartcar](#smartcar)
+    - [Others](#others)
 - [Banking](#banking)
 - [Insurance](#insurance)
 - [Telecom](#telecom)
-- [Other API Marketplaces](#other-api-marketplaces)
 
-## API Landscape 
+## API Landscape and API Marketplaces
 - [API Landscape](https://www.apidays.co/api-landscape)
+
+### API Marketplaces
+- [chakray.com: API Strategy. How to create an API Marketplace](https://www.chakray.com/api-strategy-how-to-create-an-api-marketplace/)
+- [rapidapi.com: What is an API Marketplace?](https://rapidapi.com/blog/api-glossary/api-marketplace/)
+- [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference/)
+- [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight) APIs are driving businesses and innovation.
+    - [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
 
 ## API Managers
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
@@ -56,6 +64,9 @@
 - [smartcar.com](https://smartcar.com/)
 - [Smartcar API for BMW](https://smartcar.com/bmw/)
 
+### Others
+- [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)
+
 ## Banking
 - [Wikipedia: Open Banking](https://en.wikipedia.org/wiki/Open_banking)
 - [Wikipedia: PSD2 - the Revised Payment Services Directive](https://en.wikipedia.org/wiki/Payment_Services_Directive)
@@ -78,6 +89,3 @@
 ## Telecom
 - [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
-
-## Other API Marketplaces
-- [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
