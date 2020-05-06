@@ -1,15 +1,15 @@
 # Jenkins & Cloudbees
-1. [Jenkins](#jenkins)
-2. [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
-3. [Jenkins Scalability](#jenkins-scalability)
-4. [Jenkins Plugins](#jenkins-plugins)
-5. [Jenkins DSL](#jenkins-dsl)
-6. [Monitoring jenkins](#monitoring-jenkins)
-7. [Jenkins Blue Ocean](#jenkins-blue-ocean)
-8. [Cloudbees Flow](#cloudbees-flow)
-9. [Kubernetes native Jenkins Operator](#kubernetes-native-jenkins-operator)
-10. [Jenkins X](#jenkins-x)
-11. [CI/CD BOTs](#cicd-bots)
+- [Jenkins](#jenkins)
+- [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
+- [Jenkins Scalability](#jenkins-scalability)
+- [Jenkins Plugins](#jenkins-plugins)
+- [Jenkins DSL](#jenkins-dsl)
+- [Monitoring jenkins](#monitoring-jenkins)
+- [Jenkins Blue Ocean](#jenkins-blue-ocean)
+- [Cloudbees Flow](#cloudbees-flow)
+- [Kubernetes native Jenkins Operator](#kubernetes-native-jenkins-operator)
+- [Jenkins X](#jenkins-x)
+- [CI/CD BOTs](#cicd-bots)
 
 ## Jenkins
 * [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
@@ -71,6 +71,8 @@
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 * [opensource.com: Getting started with Jenkins Configuration as Code 🌟🌟🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
 * [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟🌟🌟](https://devopscube.com/jenkins-pipeline-as-code/)
+* [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/)
+    * [github.com/LovesCloud/java-groovy-docker](https://github.com/LovesCloud/java-groovy-docker/)
 
 ## Jenkins Cheat Sheet
 * [edureka.co: Jenkins Cheat Sheet 🌟🌟🌟🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
