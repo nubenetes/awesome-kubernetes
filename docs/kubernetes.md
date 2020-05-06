@@ -157,6 +157,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 #### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
 * [Manage Kubernetes (K8s) objects](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+* [ansibleforkubernetes.com 🌟🌟🌟](https://www.ansibleforkubernetes.com/)
 
 #### Jenkins Kubernetes Plugin
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
