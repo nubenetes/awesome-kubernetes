@@ -1,6 +1,6 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
-- [Ansible Cheat Sheet](#ansible-cheat-sheet)
+- [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
     - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
     - [Running Ansible Playbooks From Ansible Tower](#running-ansible-playbooks-from-ansible-tower)
@@ -10,6 +10,7 @@
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
 * [docs.ansible.com](https://docs.ansible.com/)
+* [dureka.co: What Is Ansible?](https://www.edureka.co/blog/what-is-ansible/) Configuration Management And Automation With Ansible
 * [Dzone: Getting Started With Ansible](https://dzone.com/articles/getting-started-with-ansible)
 * [Dzone: Part 1: Getting Started with Ansible](https://dzone.com/articles/part-1-getting-started-ansible)
 * [Dzone: Part 2: Deploying Applications](https://dzone.com/articles/part-2-deploying-applications)
@@ -19,8 +20,12 @@
 * [Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
 
-## Ansible Cheat Sheet
+## Ansible Cheat Sheets
+* [Ansible Roles Explained | Cheat Sheet](https://linuxacademy.com/blog/red-hat/ansible-roles-explained/)
+* [edureka.co: Ansible Cheat Sheet – A DevOps Quick Start Guide](https://www.edureka.co/blog/cheatsheets/ansible-cheat-sheet-guide/)
+* [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet/)
 * [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
+* []()
 
 ## Running Ansible Playbooks
 ### Running Ansible Playbooks From Jenkins
