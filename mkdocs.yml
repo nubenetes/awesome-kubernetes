@@ -78,7 +78,7 @@ pages:
 - Security Policy as Code: securityascode.md
 - Cloud Native Storage: storage.md
 - Dev Environment:
-  - Git & Git Flow: git.md
+  - Git & Git Patterns. Git Flow & Trunk: git.md
   - Visual Studio Code: visual-studio.md
   - GitKraken: gitkraken.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md

@@ -85,7 +85,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 15. [Security Policy as Code](securityascode.md)
 16. [Cloud Native Storage](storage.md)
 17. Dev Environment    
-    - [Git & Git Flow](git.md)
+    - [Git & Git Patterns. Git Flow & Trunk](git.md)
     - [Visual Studio Code](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)

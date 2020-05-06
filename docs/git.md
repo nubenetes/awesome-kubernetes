@@ -1,4 +1,4 @@
-# Git
+# Git and Patterns for Managing Source Code Branches
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
