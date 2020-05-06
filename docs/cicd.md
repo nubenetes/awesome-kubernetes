@@ -12,6 +12,7 @@
 * [dev.to: CI/CD Continuous Integration & Delivery Explained 🌟🌟🌟🌟](https://dev.to/semaphore/ci-cd-continuous-integration-delivery-explained-75l)
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 * [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4)
+* [Dzone refcard: Continuous Delivery - Patterns and Anti-Patterns in the Software Lifecycle 🌟](https://dzone.com/refcardz/continuous-delivery-patterns)
 
 ## CI/CD with Kubernetes
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)

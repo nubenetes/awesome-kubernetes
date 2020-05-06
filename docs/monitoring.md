@@ -87,6 +87,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [dzone.com: Monitoring with **Prometheus**](https://dzone.com/articles/monitoring-with-prometheus) Learn how to set up a basic instance of Prometheus along with Grafana and the Node Exporter to monitor a simple Linux server.
 * [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
 * [Monitoring With Prometheus](https://dzone.com/articles/monitoring-with-prometheus)
+* [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus) Prometheus is an open-source infrastructure and services monitoring system popular for Kubernetes and cloud-native services and apps. It can help make metric collection easier, correlate events and alerts, provide security, and do troubleshooting and tracing at scale. This Refcard will teach you how to pave the path for Prometheus adoption, what observability looks like beyond Prometheus, and how Prometheus helps provide scalability, high availability, and long-term storage.
 * [Monitoring Self-Destructing Apps Using Prometheus.](https://dzone.com/articles/prometheus-collectors) Learn how to configure Prometheus collectors and their use cases.
 * [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
 * [Focus on Detection: Prometheus and the Case for Time Series Analysis](https://dzone.com/articles/focus-on-detectionprometheus-and-the-case-for-time)
