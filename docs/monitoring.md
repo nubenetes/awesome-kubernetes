@@ -122,6 +122,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     *	"Targets" descubiertos via "service discovery" ó configuración estática.
     *	Soporte de federación horizontal y vertical.
 
+[![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
+
 ### Prometheus Storage
 * Proporciona etiquetado clave-valor y "time-series".  La propia documentación de Prometheus explica cómo se gestiona el [almacenamiento en disco](https://prometheus.io/docs/prometheus/latest/storage/) (**Prometheus Time-Series DB**). La ingestión de datos se agrupa en bloques de dos horas, donde cada bloque es un directorio conteniendo uno o más "chunk files" (los datos), además de un fichero de metadatos y un fichero index:
 * Almacenamiento de datos en disco (Prometheus Time-Series DB):
