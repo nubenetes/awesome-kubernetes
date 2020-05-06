@@ -77,7 +77,7 @@ pages:
 - Cloud Native Storage: storage.md
 - Dev Environment:
   - Git & Git Flow: git.md
-  - Visual Studio: visual-studio.md
+  - Visual Studio Code: visual-studio.md
   - GitKraken: gitkraken.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
