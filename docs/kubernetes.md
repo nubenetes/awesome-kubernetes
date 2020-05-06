@@ -7,6 +7,7 @@
     - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
     - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
     - [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
+    - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
 - [Kubernetes Patterns](#kubernetes-patterns)
@@ -148,6 +149,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Export resources with kubectl and python
 * Export resources with [zoidbergwill/export.sh](https://gist.github.com/zoidbergwill/6af8c80cc5b706e2adcf25df3dc2f7e1#file-export_resources-py), by [zoidbergwill](https://gist.github.com/zoidbergwill)
 
+### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
+- [Manage Kubernetes (K8s) objects](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
 
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
