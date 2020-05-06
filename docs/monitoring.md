@@ -77,7 +77,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 | :----------------------- | :-----------------: | :------: | :-----: | :-----: | ------: |
 | ElasticSearch            |         No          | 5.6.13.6 |         |         |         |
 | Fluentd                  |         No          | 0.12.43  |         |         |         |
-| Kibana                   |         NO          |  5.6.13  |         |         |         |
+| Kibana                   |         No          |  5.6.13  |         |         |         |
 | Prometheus               |         Yes         |  2.7.2   |         | 2.14.0  |  2.15.2 |
 | Prometheus Operator      |         Yes         |          |         | 0.34.0  |  0.35.1 |
 | Prometheus Alert Manager |         Yes         |  0.16.2  |         | 0.19.0  |  0.20.0 |
