@@ -78,6 +78,7 @@
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [Spain](#spain)
 - [Blogs](#blogs)
+- [Videos](#videos)
 
 <!-- /MarkdownTOC -->
 
@@ -501,4 +502,5 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Blogs
 - [Jayendra's Blog 🌟🌟🌟🌟🌟](https://jayendrapatil.com/)
 
+## Videos
 <iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
