@@ -278,6 +278,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟🌟🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
 * [gardener.cloud: Kubernetes Antipatterns](https://gardener.cloud/050-tutorials/content/howto/antipattern/)
 * [dzone.com: Performance Patterns in Microservices-Based Integrations 🌟🌟🌟🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)
+* [magalix.com: Kubernetes Application Architecture Patterns eBook 🌟🌟🌟](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
 
 ## Kubernetes Operators
 * [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
