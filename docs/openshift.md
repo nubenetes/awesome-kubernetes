@@ -13,6 +13,7 @@
     - [Quota Management](#quota-management)
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
     - [OpenShift 4 roadmap](#openshift-4-roadmap)
+    - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
     - [Storage in OCP 4](#storage-in-ocp-4)
     - [OpenShift Pipelines. Tekton CI/CD Pipelines](#openshift-pipelines-tekton-cicd-pipelines)
     - [OpenShift 4 Training](#openshift-4-training)
@@ -81,6 +82,7 @@
 * [developers.redhat.com: OpenShift Actions: Deploy to Red Hat OpenShift directly from your GitHub repository](https://developers.redhat.com/blog/2020/02/13/openshift-actions-deploy-to-red-hat-openshift-directly-from-your-github-repository/)
 * [developers.redhat.com: Customizing OpenShift project creation 🌟](https://developers.redhat.com/blog/2020/02/05/customizing-openshift-project-creation/)
 * [developers.redhat.com: Testing memory-based horizontal pod autoscaling on OpenShift  🌟🌟🌟](https://developers.redhat.com/blog/2020/03/19/testing-memory-based-horizontal-pod-autoscaling-on-openshift/)
+- [How to Run HA Elasticsearch (ELK) on Red Hat OpenShift](https://portworx.com/run-ha-elasticsearch-elk-red-hat-openshift/)
 
 ### OpenShift Cheat Sheets
 * [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developersredhat.com/cheat-sheets/red-hat-openshift-container-platform/)
@@ -180,6 +182,11 @@
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
+
+### OpenShift Kubernetes Engine (OKE)
+* [similarities and differences between OpenShift Kubernetes Engine and OpenShift Container Platform](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
+
+[![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
 ### Storage in OCP 4 
 - [State of **OpenShift Container Storage**](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)

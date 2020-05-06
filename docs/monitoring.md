@@ -1,5 +1,12 @@
 # Monitoring and Performance
 - [Monitoring](#monitoring)
+- [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
+    - [OpenShift 3.11](#openshift-311)
+        - [Custom Grafana Dashboard for OpenShift 3.11](#custom-grafana-dashboard-for-openshift-311)
+        - [Capacity Management Grafana Dashboard](#capacity-management-grafana-dashboard)
+        - [Software Delivery Metrics Grafana Dashboard](#software-delivery-metrics-grafana-dashboard)
+        - [Prometheus for OpenShift 3.11](#prometheus-for-openshift-311)
+    - [OpenShift 4](#openshift-4)
 - [Prometheus](#prometheus)
     - [Prometheus Storage](#prometheus-storage)
     - [Prometheus Storage](#prometheus-storage-1)
@@ -27,6 +34,55 @@
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e) Kubernetes handles containers in several computers, removing the complexity of handling distributed processing. But what's the best way to perform Kubernetes monitoring?
 * [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)
+
+## OpenShift Cluster Monitoring Built-in solutions
+
+### OpenShift 3.11
+OpenShift Container Platform Monitoring ships with a Prometheus instance for cluster monitoring and a central Alertmanager cluster. In addition to Prometheus and Alertmanager, OpenShift Container Platform Monitoring also includes a [Grafana](https://grafana.com/) instance as well as pre-built dashboards for cluster monitoring troubleshooting. **The Grafana instance that is provided with the monitoring stack, along with its dashboards, is read-only.**
+
+| Monitoring Component     |       Release       |                                                                                                                                                                                                                URL |
+| :----------------------- | :-----------------: | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ElasticSearch            |          5          |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
+| Fluentd                  |        0.12         |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
+| Kibana                   |       5.6.13        |                                                                                                                                      [kibana 5.6.13](https://www.elastic.co/guide/en/kibana/5.6/introduction.html) |
+| Prometheus               |        2.3.2        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
+| Prometheus Operator      | (Prometheus 2.3.2 ) |                           [Prometheus Operator technical preview](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments) |
+| Prometheus Alert Manager |      0.15.1 1       | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring) |
+| Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
+
+#### Custom Grafana Dashboard for OpenShift 3.11 
+By default OpenShift 3.11 Grafana is a read-only instance. Many organizations may want to add new custom dashboards. This custom grafana will interact with existing Prometheus and will also add all out-of-the-box dashboards plus few more interesting dashboards which may require from day to day operation. Custom Grafana pod uses OpenShift oAuth to authenticate users and assigns "Admin" role to all users so that users can create their own dashboards for additional monitoring.
+
+[Getting Started with Custom Dashboarding on OpenShift using Grafana](https://github.com/redhat-cop/openshift-toolkit/tree/master/custom-dashboards). This repository contains scaffolding and automation for developing a custom dashboarding strategy on OpenShift using the OpenShift Monitoring stac
+
+#### Capacity Management Grafana Dashboard 
+This repo adds a capacity management Grafana dashboard. The intent of this dashboard is to answer a single question: Do I need a new node? . We believe this is the most important question when setting up a capacity management process. We are aware that this is not the only question a capacity management process may need to be able to answer. Thus, this should be considered as the starting point for organizations to build their capacity management process.
+
+[Capacity Management Grafana Dashboard](https://github.com/redhat-cop/openshift-toolkit/tree/master/capacity-dashboard)
+
+#### Software Delivery Metrics Grafana Dashboard
+[This repository](https://github.com/redhat-cop/pelorus) contains tooling to help organizations measure Software Delivery and Value Stream metrics. 
+
+#### Prometheus for OpenShift 3.11
+[This directory](https://github.com/openshift/origin/tree/release-3.11/examples/prometheus) contains example components for running either an operational Prometheus setup for your OpenShift cluster, or deploying a standalone secured Prometheus instance for configurating yourself.
+
+### OpenShift 4
+OpenShift Container Platform includes a pre-configured, pre-installed, and self-updating monitoring stack that is based on the Prometheus open source project and its wider eco-system. It provides monitoring of cluster components and includes a set of alerts to immediately notify the cluster administrator about any occurring problems and a set of Grafana dashboards. The cluster monitoring stack is only supported for monitoring OpenShift Container Platform clusters.
+
+OpenShift Cluster Monitoring components cannot be extended since they are read only. 
+
+[Monitor your own services (technology preview)](https://docs.openshift.com/container-platform/4.3/release_notes/ocp-4-3-release-notes.html): The existing monitoring stack can be extended so you can configure monitoring for your own Services.
+
+| Monitoring Component     | Deployed By Default | OCP 4.1  | OCP 4.2 | OCP 4.3 | OCP 4.4 |
+| :----------------------- | :-----------------: | :------: | :-----: | :-----: | ------: |
+| ElasticSearch            |         No          | 5.6.13.6 |         |         |         |
+| Fluentd                  |         No          | 0.12.43  |         |         |         |
+| Kibana                   |         NO          |  5.6.13  |         |         |         |
+| Prometheus               |         Yes         |  2.7.2   |         | 2.14.0  |  2.15.2 |
+| Prometheus Operator      |         Yes         |          |         | 0.34.0  |  0.35.1 |
+| Prometheus Alert Manager |         Yes         |  0.16.2  |         | 0.19.0  |  0.20.0 |
+| kube-state-metrics       |         Yes         |          |         |  1.8.0  |   1.9.5 |
+| Grafana                  |         Yes         |  5.4.3   |  6.2.4  |  6.4.3  |   6.5.3 |
 
 ## Prometheus
 * [**prometheus.io**](https://prometheus.io/)
