@@ -100,7 +100,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Serverless](https://www.serverless.com/)
     - [Xamarin](xamarin.md)
 19. [APIs and RESTful Architecture](apis-and-restful-architecture.md)
-    - [API Marketplaces. Developer Portals and API Management/API Gateway🌟](developerportals.md)
+    - [API Marketplaces and Developer Portals🌟](developerportals.md)
         - [3scale API Management](3scale.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
