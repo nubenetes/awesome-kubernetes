@@ -1,11 +1,16 @@
 # Git
-* [https://devdocs.io/git/](https://devdocs.io/git/)
-* [https://git-scm.com/book](https://git-scm.com/book)
-* Git Cheet Sheets:
-    * [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
-    * [zeroturnaround.com: Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet.png)
-    * [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheets/git/)
-    * [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
+- [Git Distributed Version-Control System](#git-distributed-version-control-system)
+- [Git Cheat Sheets](#git-cheat-sheets)
+- [Git Flow](#git-flow)
+- [Git Commands](#git-commands)
+- [BitBucket](#bitbucket)
+- [GitLab](#gitlab)
+
+## Git Distributed Version-Control System
+* [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
+* [Git](https://git-scm.com/)
+    * [git-scm.com/book](https://git-scm.com/book)
+* [devdocs.io/git/](https://devdocs.io/git/)
 * [tutorialzine.com: Learn git in 30 minutes 🌟🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
 * [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)
 * [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
@@ -25,6 +30,12 @@
 * [adevait.com: Creating a Branching Strategy for Small Teams 🌟🌟🌟](https://adevait.com/software/creating-branching-strategy)
 * [martinfowler.com: Patterns for Managing Source Code Branches 🌟🌟🌟](https://martinfowler.com/articles/branching-patterns.html)
 
+## Git Cheat Sheets
+* [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
+* [zeroturnaround.com: Git cheat sheet 🌟🌟](https://zeroturnaround.com/wp-contentuploads/2016/02/Git-Cheat-Sheet.png)
+* [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheetsgit/)
+* [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
+
 ## Git Flow
 * [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow/) is a list of rules to keep a repo’s history organized, and is used to make the release process, bug fixes, and feature creation easier.
@@ -36,10 +47,19 @@
 * [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 
+## Git Commands
+* Show commit logs:
+```bash
+git log --oneline --all --graph --decorate
+```
+
 ## BitBucket
+* [bitbucket.org](https://bitbucket.org/)
 * [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [Dzone: source control using atlassian bitbucket](https://dzone.com/articles/source-control-using-atlassian-bitbucket)
 * [Dzone: how I use bitbucket in my regular routine](https://dzone.com/articles/how-i-use-bitbucket-in-my-regular-routine)
 
 ## GitLab
+* [gitlab.com](https://gitlab.com/)
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
+

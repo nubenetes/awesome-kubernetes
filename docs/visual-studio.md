@@ -14,8 +14,12 @@
 
 ## Visual Studio MarketPlace
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
-* [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
-* [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+* [Red Hat](https://marketplace.visualstudio.com/publishers/redhat)
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) Git supercharged
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
+* [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 * [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
 
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
