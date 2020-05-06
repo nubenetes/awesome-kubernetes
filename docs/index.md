@@ -71,7 +71,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Terraform & Packer](terraform.md)
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
-11. Databases on Kubernetes: 
+11. Databases on Kubernetes
     - [Relational Databases](databases.md)
     - [NoSQL Databases](nosql.md)
 12. [Streaming & Messaging. Cloud Based Integration 🌟](message-queue.md) 
