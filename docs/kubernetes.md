@@ -8,6 +8,7 @@
     - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
     - [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
     - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
+    - [Jenkins Kubernetes Plugin](#jenkins-kubernetes-plugin)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
 - [Kubernetes Patterns](#kubernetes-patterns)
@@ -151,6 +152,10 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
 - [Manage Kubernetes (K8s) objects](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+
+### Jenkins Kubernetes Plugin
+- [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
+- [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
 
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟🌟🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
