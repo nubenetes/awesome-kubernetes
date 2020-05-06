@@ -32,7 +32,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Serverless with OpenFaaS & Knative](serverless.md)
 2. [DevOps](devops.md)
 3. [CI/CD](cicd.md)
-    - [Git Patterns. Git Flow & Trunk](git.md)
+    - [Git Patterns](git.md)
 4. [TestOps](testops.md)
 5. [Docker](docker.md)
 6. [Kubernetes 🌟🌟🌟](kubernetes.md)
