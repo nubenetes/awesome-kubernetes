@@ -40,7 +40,7 @@
     - [k8s-tew](#k8s-tew)
     - [Kubernetes Distributions](#kubernetes-distributions)
         - [Red Hat OpenShift](#red-hat-openshift)
-        - [VMware Kubernetes](#vmware-kubernetes)
+        - [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
         - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
             - [Rancher 2](#rancher-2)
             - [Rancher 2 RKE](#rancher-2-rke)
@@ -425,7 +425,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Openshift Container Platform](openshift.md)
 * [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift
 
-#### VMware Kubernetes
+#### VMware Kubernetes Tanzu and Project Pacific
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
 * [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/vsphere.html)
 * [**VMware Kubernetes Tanzu**](https://cloud.vmware.com/tanzu)
