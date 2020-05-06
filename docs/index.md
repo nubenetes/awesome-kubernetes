@@ -84,7 +84,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 16. [Cloud Native Storage](storage.md)
 17. Dev Environment    
     - [Git & Git Flow](git.md)
-    - [Visual Studio](visual-studio.md)
+    - [Visual Studio Code](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
