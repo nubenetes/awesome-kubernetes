@@ -4,7 +4,7 @@
 - [Git Cheat Sheets](#git-cheat-sheets)
 - [Patterns for Managing Source Code Branches](#patterns-for-managing-source-code-branches)
     - [Trunk Based Development](#trunk-based-development)
-    - [Feature Branches](#feature-branches)
+    - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
         - [Git Flow](#git-flow)
     - [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
     - [Alternative Branching Models](#alternative-branching-models)
@@ -66,7 +66,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [quora.com: What is trunk based development?](https://www.quora.com/What-is-trunk-based-development)
 * [kean.github.io: Trunk-Based Development](https://kean.github.io/post/trunk-based-development)
 
-### Feature Branches
+### Feature Branch Development (aka GitFlow)
 * [nvie.com: Feature Branches. A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 #### Git Flow 
