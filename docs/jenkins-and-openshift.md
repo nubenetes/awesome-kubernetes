@@ -4,12 +4,15 @@
 - [Slides](#slides)
 
 ## Jenkins and OpenShift
+* [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
+* [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 * [slideshare.net: OPENSHIFT CONTAINER PLATFORM CI/CD Build & Deploy  🌟🌟](https://www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy)
 * [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
 * [blog.openshift.com: Improving Jenkins’ performance on Openshift: Part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/)
 * [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟🌟🌟🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
+* [**uncontained.io**: external jenkins integration 🌟🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)
 * [Dzone: 4 ways to build applications in openshift](https://dzone.com/articles/4-ways-to-build-applications-in-openshift-1)
 * Improving Jenkins’ performance on Openshift:
