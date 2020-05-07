@@ -1,6 +1,7 @@
 # API Marketplaces. Developer Portals and API Management/API Gateway
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     - [API Marketplaces](#api-marketplaces)
+    - [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
 - [API Managers](#api-managers)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
@@ -18,8 +19,10 @@
 - [chakray.com: API Strategy. How to create an API Marketplace](https://www.chakray.com/api-strategy-how-to-create-an-api-marketplace/)
 - [rapidapi.com: What is an API Marketplace?](https://rapidapi.com/blog/api-glossary/api-marketplace/)
 - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference/)
+
+### Rapid API Marketplace. Free Public & Open REST APIs
+- [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
 - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight) APIs are driving businesses and innovation.
-    - [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
 
 ## API Managers
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
