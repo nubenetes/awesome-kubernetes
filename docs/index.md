@@ -47,7 +47,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 8. [Jenkins & Cloudbees 😀 🌟🌟🌟](jenkins.md)
     - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
-    - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
+    - [Jenkins and Openshift](jenkins-and-openshift.md)
     - [Groovy](groovy.md)
     - [Jenkins Scripts](scripts/README.md)
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
