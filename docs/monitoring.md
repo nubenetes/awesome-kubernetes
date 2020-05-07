@@ -10,7 +10,7 @@
 - [Prometheus](#prometheus)
     - [Prometheus Storage](#prometheus-storage)
         - [Scalability, High Availability (HA) and Long-Term Storage](#scalability-high-availability-ha-and-long-term-storage)
-        - [Scalability, HA and Long-Term Storage Solutions](#scalability-ha-and-long-term-storage-solutions)
+        - [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
     - [Collectors](#collectors)
         - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
         - [Prometheus Third Party Exporters](#prometheus-third-party-exporters)
@@ -145,7 +145,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     -	¿Durante cuánto tiempo es necesario mantener las métricas y con qué resolución? 
 * La implementación de HA es laboriosa porque la funcionalidad de cluster requiere añadir plugins de terceros al servidor Prometheus. Es necesario tratar con "backups" y "restores", y el almacenamiento de métricas por un periodo de tiempo extendido hará que la base de datos crezca exponencialmente. Los servidores Prometheus proporcionan almacenamiento persistente, pero Prometheus no fue creado para el almacenamiento distribuido de métricas a lo largo de múltiples nodos de un cluster con replicación y capacidad curativa (como es el caso de Kubernetes).  Esto es conocido como **"almacenamiento a largo-plazo" (Long-Term)** y actualmente es un requisito en unos pocos casos de uso, por ejemplo en la planificación de la capacidad para monitorizar cómo la infraestructura necesita evolucionar, contracargos para facturar diferentes equipos ó departamentos para un caso específico que han hecho de la infraestructura, análisis de tendencias de uso, o adherirse a regulaciones para verticales específicos como banca, seguros, etc. 
 
-#### Scalability, HA and Long-Term Storage Solutions
+#### Storage Solutions for Prometheus
 * [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage/)
 * [**Cortex**:](https://cortexmetrics.io/) Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
     * [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
