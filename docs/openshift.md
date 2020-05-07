@@ -296,7 +296,8 @@
 * [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
 * [Packt publishing: **Learn Openshift**](https://www.packtpub.com/application-development/learn-openshift)
 * [O’Reilly: Free ebook: **Knative Cookbook**: Building Effective Serverless Applications with Kubernetes and OpenShift](https://developers.redhat.com/books/knative-cookbook/)
-* [magalix.com: Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
+* [magalix.com Free ebook: **Kubernetes Application Architecture Patterns**](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
+* [redhat.com Free ebook: **Container Storage for Dummies**](https://www.redhat.com/en/resources/container-storage-dummies)
 
 ## Online Learning
 * [learn.openshift.com 🌟🌟🌟🌟](https://learn.openshift.com) Interactive Learning Portal
