@@ -31,7 +31,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Microservices FAQ & Kubernetes Native](faq.md)
     - [Serverless with OpenFaaS & Knative](serverless.md)
 2. [DevOps](devops.md)
-3. [CI/CD](cicd.md)
+3. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Git Flow & Trunk 🌟](git.md)
 4. [TestOps](testops.md)
 5. [Docker](docker.md)
@@ -50,7 +50,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Jenkins and Openshift. Demos](jenkins-and-openshift.md)
     - [Groovy](groovy.md)
     - [Jenkins Scripts](scripts/README.md)
-    - [CI/CD alternatives](cicd-alternatives.md)
+    - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
 9.  Toolchain
     - [Maven](maven.md)
     - [Gradle](gradle.md)
@@ -68,6 +68,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [SSH](ssh.md)
     - [OpenProject](https://www.openproject.org/)
     - [Work From Home](workfromhome.md)
+    - [Appointment Scheduling](appointment-scheduling.md)
 10. Configuration Management
     - [Terraform & Packer](terraform.md)
     - [Ansible](ansible.md)

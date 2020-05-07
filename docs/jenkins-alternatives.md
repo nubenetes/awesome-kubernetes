@@ -1,4 +1,4 @@
-# CI/CD Alternatives
+# Jenkins Alternatives for Continuous Integration
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 *  [jenkins-x.io (cloud native)](https://jenkins-x.io/)
     * [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)

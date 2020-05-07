@@ -28,7 +28,7 @@ pages:
   - Serverless with OpenFaaS & Knative: serverless.md
 - DevOps: devops.md
 - CI/CD: 
-  - CI/CD: cicd.md
+  - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
   - Git & Git Patterns. Git Flow & Trunk: git.md
 - TestOps: testops.md
 - Docker: docker.md
@@ -48,7 +48,7 @@ pages:
   - Jenkins and Openshift. Demos : jenkins-and-openshift.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
-  - CI/CD alternatives: cicd-alternatives.md
+  - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
 - Toolchain:
   - Maven: maven.md
   - Gradle: gradle.md
@@ -64,6 +64,7 @@ pages:
   - Appium: appium.md
   - SSH: ssh.md
   - Work From Home: workfromhome.md
+  - Appointment Scheduling: appointment-scheduling.md
 - Configuration Management:
   - Terraform & Packer: terraform.md
   - Ansible: ansible.md

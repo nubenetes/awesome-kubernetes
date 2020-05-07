@@ -13,6 +13,7 @@
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 * [tech.buzzfeed.com: Continuous Deployments at BuzzFeed](https://tech.buzzfeed.com/continuous-deployments-at-buzzfeed-d171f76c1ac4)
 * [Dzone refcard: Continuous Delivery - Patterns and Anti-Patterns in the Software Lifecycle 🌟](https://dzone.com/refcardz/continuous-delivery-patterns)
+* [infoworld.com: What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html) The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably
 
 ## CI/CD with Kubernetes
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)
