@@ -1,21 +1,20 @@
 <!-- MarkdownTOC -->
 
-- [Python](#python)
-	- [Python Blogs and Forums](#python-blogs-and-forums)
-	- [Python docs](#python-docs)
-	- [Python Django](#python-django)
-	- [Python Flask](#python-flask)
-	- [Python pip and pip's wheel](#python-pip-and-pips-wheel)
-	- [Python Feature Flags](#python-feature-flags)
-	- [Python testing](#python-testing)
-	- [Data Science. Python Pandas and pivot tables](#data-science-python-pandas-and-pivot-tables)
-		- [PandasDatabase](#pandasdatabase)
-	- [Python standard library Modules and Code](#python-standard-library-modules-and-code)
-	- [Python and AWS](#python-and-aws)
-	- [Python Tools](#python-tools)
-		- [Web Scraping with Python](#web-scraping-with-python)
-	- [Jython](#jython)
-	- [Eclipse IDE](#eclipse-ide)
+- [Python Blogs and Forums](#python-blogs-and-forums)
+- [Python docs](#python-docs)
+- [Python Django Framework](#python-django-framework)
+- [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
+- [Python pip and pip's wheel](#python-pip-and-pips-wheel)
+- [Python Feature Flags](#python-feature-flags)
+- [Python testing](#python-testing)
+- [Data Science. Python Pandas and pivot tables](#data-science-python-pandas-and-pivot-tables)
+	- [PandasDatabase](#pandasdatabase)
+- [Python standard library Modules and Code](#python-standard-library-modules-and-code)
+- [Python and AWS](#python-and-aws)
+- [Python Tools](#python-tools)
+	- [Web Scraping with Python](#web-scraping-with-python)
+- [Jython](#jython)
+- [Eclipse IDE](#eclipse-ide)
 
 <!-- /MarkdownTOC -->
 
@@ -95,7 +94,7 @@
 <br/>
 <br/>
 
-## Python Django
+## Python Django Framework
 - [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework)
 - [Learn Python Django in 4 Hours](https://dzone.com/articles/learn-python-django-in-4-hours)
 - [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
@@ -115,7 +114,9 @@
 	- [Part 2 Supplementary Code](https://github.com/TrackMaven/getting-started-with-drf-angular/tree/part-2)
 - [webcodegeeks.com: Python Django Tutorial](http://www.webcodegeeks.com/python/python-django-tutorial/)
 
-## Python Flask 
+## Python Flask Lightweight Framework (microframework)
+- Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
+- [Flask Documentation 🌟🌟🌟](https://flask.palletsprojects.com/)
 - [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support)
 - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/blog/python/introduction-to-flask-part-1-setting-up-a-static-site/)
 - [Two-Factor Authentication with Authy](https://www.twilio.com/docs/tutorials/walkthrough/two-factor-authentication/python/flask)

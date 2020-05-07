@@ -25,7 +25,7 @@ pages:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
-  - Serverless with OpenFaaS & Knative: serverless.md
+  - Serverless with OpenFaaS, Knative & Kubeless: serverless.md
 - DevOps: devops.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
@@ -91,7 +91,8 @@ pages:
   - Java - SpringBoot: SpringBoot.md
   - Java - Spring Cloud: SpringCloud.md
   - Java - Quarkus: quarkus.md
-  - Python: python.md
+  - Python - Django & Flask: python.md
+  - Serverless Architectures & Frameworks: serverless.md
   - Xamarin: xamarin.md
 - APIs:
   - APIs and RESTful Architecture: apis-and-restful-architecture.md
