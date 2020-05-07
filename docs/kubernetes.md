@@ -59,6 +59,7 @@
             - [Hosted Rancher](#hosted-rancher)
             - [Rancher on Microsoft Azure](#rancher-on-microsoft-azure)
             - [Rancher RKE on vSphere](#rancher-rke-on-vsphere)
+            - [Rancher Kubernetes on Oracle Cloud](#rancher-kubernetes-on-oracle-cloud)
             - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
             - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
 - [SpringBoot with Docker](#springboot-with-docker)
@@ -514,6 +515,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ##### Rancher RKE on vSphere
 * [rancher.com/blog: Stateful Kubernetes Workloads on vSphere with RKE](https://rancher.com/blog/2020/stateful-kubernetes-workloads)
+
+##### Rancher Kubernetes on Oracle Cloud
+* [medium.com: OKE Clusters from Rancher 2.0](https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293) Part one of a series of articles on creating, monitoring, and managing Kubernetes clusters on OCI using Rancher.
+* [medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure](https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0) Part two of a multi-part series on creating, monitoring, and managing Kubernetes clusters (hosted and non-hosted) on OCI.
 
 ##### Rancher Software Defined Storage with Longhorn 
 * [rancher.com/blog: Getting Started with Longhorn Distributed Block Storage and Cloud-Native Distributed SQL](https://rancher.com/blog/2020/yugabyte?utm_content=126950057)

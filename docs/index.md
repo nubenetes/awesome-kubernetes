@@ -115,6 +115,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [AWS](aws.md)
     - [Google Cloud Platform](GoogleCloudPlatform.md)
     - [Microsoft Azure](azure.md)
+    - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
 22. [E-Learning](elearning.md)
