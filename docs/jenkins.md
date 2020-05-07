@@ -4,14 +4,13 @@
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
 - [Online Learning](#online-learning)
 - [Jenkins Pipeline](#jenkins-pipeline)
-- [Jenkins Configuration as Code](#jenkins-configuration-as-code)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
     - [Job DSL Plugin (Jenkins Job DSL API)](#job-dsl-plugin-jenkins-job-dsl-api)
-    - [Configuration as code plugin](#configuration-as-code-plugin)
+    - [Jenkins Configuration as Code Plugin](#jenkins-configuration-as-code-plugin)
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
 - [Monitoring jenkins](#monitoring-jenkins)
@@ -68,14 +67,6 @@
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
 * [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
-
-## Jenkins Configuration as Code
-* [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
-      * [https://github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
-* [Dzone: Running Jenkins Server With Configuration-as-Code 🌟🌟🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) Take a look at the new plugin for Jenkins that allows you to to create pipelines using YAML! Let's check out the details and examples.
-* [**docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms**](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
-* [CloudBees Core Configuration as Code (Preview)](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
-* [opensource.com: Getting started with Jenkins Configuration as Code 🌟🌟🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
 
 ## Jenkins Architecture. Performance and Scalability
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
@@ -149,15 +140,20 @@
     * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
     * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
 
-### Configuration as code plugin 
-* [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
-* [dzone: jenkins configuration as code 🌟🌟🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
-* [dzone: running jenkins server with configuration as code](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code)
-* [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
+### Jenkins Configuration as Code Plugin 
+* [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
+    * [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
+    * [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
 * [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
+* [opensource.com: Getting started with Jenkins Configuration as Code 🌟](https://opensource.com/article/20/4/getting-started-jcasc-jenkins) JCasC uses YAML formats to set up Jenkins configurations.
+* [dzone.com: Jenkins Configuration as Code: Need for Speed! 🌟](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
+      * [https://github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
+* [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) Take a look at the new plugin for Jenkins that allows you to to create pipelines using YAML! Let's check out the details and examples.
+* [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
+* [cloudbees.com: CloudBees Core Configuration as Code](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
 
 ### Jenkins Blue Ocean
-* [Jenkins BlueOcean 🌟🌟🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
+* [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
 * [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
 
 |<iframe src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|<iframe src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
