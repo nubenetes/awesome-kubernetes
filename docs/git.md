@@ -51,7 +51,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [education.github.com: Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 * [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
-* [rogerdudler.github.io: git - the simple guide](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
+* [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
     * [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 
 ## Patterns for Managing Source Code Branches
