@@ -3,13 +3,16 @@
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
 - [Jenkins Scalability](#jenkins-scalability)
 - [Jenkins Plugins](#jenkins-plugins)
-- [Jenkins DSL](#jenkins-dsl)
+    - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
+    - [Job DSL Plugin](#job-dsl-plugin)
+    - [Jenkins DSL](#jenkins-dsl)
+    - [Configuration as code plugin 🌟🌟🌟](#configuration-as-code-plugin-)
+    - [Jenkins Blue Ocean](#jenkins-blue-ocean)
+    - [Cloudbees Flow](#cloudbees-flow)
 - [Monitoring jenkins](#monitoring-jenkins)
-- [Jenkins Blue Ocean](#jenkins-blue-ocean)
-- [Cloudbees Flow](#cloudbees-flow)
 - [Kubernetes native Jenkins Operator](#kubernetes-native-jenkins-operator)
+- [Jervis: Jenkins as a service](#jervis-jenkins-as-a-service)
 - [Jenkins X](#jenkins-x)
-- [CI/CD BOTs](#cicd-bots)
 
 ## Jenkins
 * [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
@@ -93,13 +96,8 @@
 * [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
 * [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/)
 * [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
-* [job-dsl-plugin 🌟🌟🌟](https://github.com/jenkinsci/job-dsl-plugin/wiki)
-    * [job-dsl gradle example](https://github.com/sheehan/job-dsl-gradle-example)
- * Configuration as code plugin 🌟🌟🌟:
-    * [dzone: jenkins configuration as code](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
-    * [dzone: running jenkins server with configuration as code](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code)
-    * [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
-    * [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
+
+### Selection of Jenkins Plugins
 * [Matrix 🌟🌟🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
 * [syslog-logger](https://plugins.jenkins.io/syslog-logger)
@@ -122,13 +120,43 @@
 * [Fortify](https://plugins.jenkins.io/fortify)
 * [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75)
 * [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/) The following plugin provides functionality available through Pipeline-compatible steps.
+* [Amazon EC2 plugin](https://plugins.jenkins.io/ec2/)
+* [Copy Artifact](https://plugins.jenkins.io/copyartifact/)
+* [Credentials Binding](https://plugins.jenkins.io/credentials-binding/)
+* [CVS plugin](https://plugins.jenkins.io/cvs/)
+* [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * etc
 
-## Jenkins DSL
+### Job DSL Plugin
+* [plugins.jenkins.io/job-dsl](https://plugins.jenkins.io/job-dsl/)
+* [job-dsl-plugin 🌟🌟🌟](https://github.com/jenkinsci/job-dsl-plugin/wiki)
+* [job-dsl gradle example](https://github.com/sheehan/job-dsl-gradle-example)
+
+### Jenkins DSL
 * [Jenkins DSL for Nexus](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/)
 * Jenkins DSL for Maven:
     * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
     * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
+
+### Configuration as code plugin 🌟🌟🌟
+* [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
+* [dzone: jenkins configuration as code](https://dzone.com/articles/jenkins-configuration-as-code-need-for-speed)
+* [dzone: running jenkins server with configuration as code](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code)
+* [github.com/jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
+* [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code/)
+
+### Jenkins Blue Ocean
+* [Jenkins BlueOcean 🌟🌟🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
+* [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
+
+|<iframe src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|<iframe src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
+|:---:|:---:|
+
+### Cloudbees Flow
+* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
+* [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/)
+
+<iframe src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Monitoring jenkins
 * [Performance plugin](https://github.com/jenkinsci/performance-plugin)
@@ -153,21 +181,11 @@
 * [20 Jenkins Plugins You Can’t Live Without](https://caylent.com/jenkins-plugins)
 * [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
 
-## Jenkins Blue Ocean
-* [Jenkins BlueOcean 🌟🌟🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
-* [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
-
-|<iframe src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|<iframe src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
-|:---:|:---:|
-
-## Cloudbees Flow
-* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
-* [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/)
-
-<iframe src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Kubernetes native Jenkins Operator 
 * [github.com/jenkinsci/kubernetes-operator: 🌟🌟🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
+
+## Jervis: Jenkins as a service
+- [github.com: Jervis](https://github.com/samrocketman/jervis/wiki) is [Sam Gleske](https://github.com/samrocketman)'s vision of a good way to roll out Jenkins as a service in very large organizations.
 
 ## Jenkins X
 [**Jenkins X**](https://jenkins-x.io) is a specialized Jenkins for Kubernetes: This is how it works from a bird eye the CI/CD:  a developer creates a branch, then Jenkins X creates a ephemeral namespace with that branch. The developer tests it and once it is ok, a PR is created, then, the branch is deployed in staging.  When I merge it, it goes to QA, and with a manual command "jx promote" it goes to production.  Jenkins X deletes automatically after N hours the branch namespace.
@@ -179,19 +197,6 @@
     * [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU)
     * [Youtube: Kubernetes Package Management with Helm and CI/CD with Jenkins X - Webinar by Neependra Khare](https://www.youtube.com/watch?v=oZOZiL6XIfA&feature=emb_title)
     * [go.digitalocean.com/cicd-on-k8s](https://go.digitalocean.com/cicd-on-k8s)
-
-## CI/CD BOTs
-Use bots to accomplish tasks like merging PR's that have been approved and automatically updating dependencies. Usage of one of these bots might allow us to trigger certain builds based off of specific GitHub tags,  it would allow us to only selectively run certain test suites and increase the throughput of the build by only testing changes made in a branch / PR.
- 
-Investigate options that are available and see if we can integrate them with CI.
- 
-We should be able to configure this bot to automatically apply labels to PR's based off of what is changed in a PR. For instance, if a PR contains any documentation changes, the area/Documentation label can be applied.
-
-* [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot)
-* [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
-* [support.cloudbees.com: how to configure jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
-* [Jenkins ghprb plugin](https://github.com/jenkinsci/ghprb-plugin)
-* [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 
 [![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
 

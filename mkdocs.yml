@@ -29,7 +29,7 @@ pages:
 - DevOps: devops.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
-  - Git & Git Patterns. Git Flow & Trunk: git.md
+  - Git & Git Patterns. Git Flow & Trunk. CI/CD BOTs: git.md
 - TestOps: testops.md
 - Docker: docker.md
 - Kubernetes: 

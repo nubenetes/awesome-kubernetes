@@ -1,4 +1,4 @@
-# Git and Patterns for Managing Source Code Branches
+# Git and Patterns for Managing Source Code Branches. CI/CD BOTs
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
@@ -12,6 +12,7 @@
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
+- [CI/CD BOTs](#cicd-bots)
 
 ## Git Distributed Version-Control System
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
@@ -119,3 +120,15 @@ git log --oneline --all --graph --decorate
 * [gitlab.com](https://gitlab.com/)
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
 
+## CI/CD BOTs
+Use bots to accomplish tasks like merging PR's that have been approved and automatically updating dependencies. Usage of one of these bots might allow us to trigger certain builds based off of specific GitHub tags,  it would allow us to only selectively run certain test suites and increase the throughput of the build by only testing changes made in a branch / PR.
+ 
+Investigate options that are available and see if we can integrate them with CI.
+ 
+We should be able to configure this bot to automatically apply labels to PR's based off of what is changed in a PR. For instance, if a PR contains any documentation changes, the area/Documentation label can be applied.
+
+* [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot)
+* [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
+* [support.cloudbees.com: how to configure jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
+* [Jenkins ghprb plugin](https://github.com/jenkinsci/ghprb-plugin)
+* [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
