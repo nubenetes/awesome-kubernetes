@@ -1,4 +1,4 @@
-# Jenkins & Cloudbees
+# Jenkins & CloudBees
 - [Jenkins](#jenkins)
 - [Awesome Jenkins](#awesome-jenkins)
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
