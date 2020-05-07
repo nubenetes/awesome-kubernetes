@@ -10,7 +10,10 @@
     - [Kubectl Alternatives](#kubectl-alternatives)
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
-- [Helm and Kubernetes](#helm-and-kubernetes)
+- [Helm Kubernetes Tool](#helm-kubernetes-tool)
+- [Cluster Autoscaler Kubernetes Tool. HPA and VPA](#cluster-autoscaler-kubernetes-tool-hpa-and-vpa)
+    - [HPA and VPA](#hpa-and-vpa)
+    - [Cluster Autoscaler in GKE, EKS and AKS](#cluster-autoscaler-in-gke-eks-and-aks)
 - [Other kubernetes tools](#other-kubernetes-tools)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
@@ -165,7 +168,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
 
-## Helm and Kubernetes
+## Helm Kubernetes Tool
 * [helm.sh](https://helm.sh/)
     * [helm.sh/docs](https://helm.sh/docs) 
 * [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
@@ -194,6 +197,20 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * Helm Charts repositories:
     * [hub.helm.sh 🌟🌟🌟](http://hub.helm.sh) 
     * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+
+## Cluster Autoscaler Kubernetes Tool. HPA and VPA
+* [kubernetes.io: Cluster Management - **Resizing a cluster**](https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster)
+* [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler)
+* [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa) In this article we will take a deep dive into Kubernetes autoscaling tools including the cluster autoscaler, the horizontal pod autoscaler and the vertical pod autoscaler. We will also identify best practices that developers, DevOps and Kubernetes administrators should follow when configuring these tools.
+
+### HPA and VPA
+* [HPA: Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
+* [VPA: Vertical Pod Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler)
+
+### Cluster Autoscaler in GKE, EKS and AKS
+* [Amazon Web Services: EKS Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html)
+* [Azure: AKS Cluster Autoscaler](https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler)
+* [Google Cloud Platform: GKE Cluster Autoscaler](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)
 
 ## Other kubernetes tools
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
