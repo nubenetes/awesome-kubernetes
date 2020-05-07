@@ -21,6 +21,7 @@
 - [Jenkins X](#jenkins-x)
 
 ## Jenkins
+* [CloudBees](https://www.cloudbees.com/)
 * [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
 * [Jenkins.io (new Jenkins 2.0 site) 🌟🌟🌟🌟](https://jenkins.io/)
 * [jenkinsci.github.io 🌟🌟🌟🌟](http://jenkinsci.github.io/)
