@@ -28,8 +28,9 @@
 * [info.crunchydata.com: Migrating from Oracle to PostgreSQL: Tips and Tricks](https://info.crunchydata.com/blog/migrating-from-oracle-to-postgresql-questions-and-considerations)
 * [info.crunchydata.com: Scheduled PostgreSQL Backups and Retention Policies with Kubernetes](https://info.crunchydata.com/blog/schedule-postgresql-backups-and-retention-with-kubernetes)
 * [info.crunchydata.com: Guard Against Transaction Loss with PostgreSQL Synchronous Replication](https://info.crunchydata.com/blog/synchronous-replication-in-the-postgresql-operator-for-kubernetes-guarding-against-transactions-loss)
-* [Crunchy PostgreSQL for Kubernetes 4.3 Released](https://info.crunchydata.com/news/crunchy-postgresql-for-kuberenetes-4.3) Crunchy #PostgreSQL for #Kubernetes 4.3 released! Now supports multi-Kubernetes deployments, easier customization + installation, TLS, pgAdmin 4, improved pgBouncer support, and much more!
+* [info.crunchydata.com: Crunchy PostgreSQL for Kubernetes 4.3 Released](https://info.crunchydata.com/news/crunchy-postgresql-for-kuberenetes-4.3) Crunchy #PostgreSQL for #Kubernetes 4.3 released! Now supports multi-Kubernetes deployments, easier customization + installation, TLS, pgAdmin 4, improved pgBouncer support, and much more!
 * [info.crunchydata.com: Deploy pgAdmin4 with PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/deploy-pgadmin4-with-postgresql-on-kubernetes)
+* [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://info.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 
 ### Spilo 
 * [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
