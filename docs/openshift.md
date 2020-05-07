@@ -30,6 +30,7 @@
     - [OpenShift Cost Management](#openshift-cost-management)
     - [Operators in OCP 4](#operators-in-ocp-4)
     - [Quay Container Registry](#quay-container-registry)
+- [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
 - [E-books](#e-books)
 - [Online Learning](#online-learning)
 - [Local Installers](#local-installers)
@@ -283,6 +284,10 @@
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
+
+## Cluster Autoscaler in OpenShift
+* [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)
+* [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)
 
 ## E-books
 * [O'Reilly Free Book: **DevOps with OpenShift**](https://www.openshift.com/devops-with-openshift/)
