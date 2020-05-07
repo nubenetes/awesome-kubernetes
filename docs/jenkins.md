@@ -10,8 +10,7 @@
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-    - [Job DSL Plugin](#job-dsl-plugin)
-    - [Jenkins DSL](#jenkins-dsl)
+    - [Job DSL Plugin (Jenkins Job DSL API)](#job-dsl-plugin-jenkins-job-dsl-api)
     - [Configuration as code plugin](#configuration-as-code-plugin)
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
@@ -140,15 +139,13 @@
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * etc
 
-### Job DSL Plugin 
-* [job-dsl-plugin - Jenkins Job DSL API 🌟🌟🌟](http://jenkinsci.github.io/job-dsl-plugin/)
+### Job DSL Plugin (Jenkins Job DSL API)
 * [plugins.jenkins.io/job-dsl](https://plugins.jenkins.io/job-dsl/)
-* [job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
-* [job-dsl gradle example](https://github.com/sheehan/job-dsl-gradle-example)
-  
-### Jenkins DSL
-* [Jenkins DSL for Nexus](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/)
-* Jenkins DSL for Maven:
+    * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
+* [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
+* [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example)
+* [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/)
+* Jenkins DSL for **Maven**:
     * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
     * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
 
