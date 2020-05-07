@@ -362,7 +362,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 * The default SCC for most pods should be the restricted SCC. If required, a cluster administrator may allow certain pods to run with different SCCs. Pods should be run with the most restrictive SCC possible.
 * Pods inherit their SCC from the Service Account used to run the pod. With the default project template, new projects get a Service Account named default that is used to run pods. This default service account is only granted the ability to run the restricted SCC.
 * **Recommendations:** 
-    * Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as Pod Security Policies. PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
+    * Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/). PSPs are still beta in Kubernetes 1.10, 1.11, and 1.12.
     * Use the restricted SCC as the default 
     * For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC Audit
     * To show all available SCCs: `oc describe scc`

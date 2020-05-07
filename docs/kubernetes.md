@@ -19,6 +19,8 @@
 - [Kubernetes Networking](#kubernetes-networking)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
+    - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
+    - [EKS Security](#eks-security)
 - [Kubernetes Storage](#kubernetes-storage)
 - [Non-production Kubernetes Local Installers](#non-production-kubernetes-local-installers)
 - [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
@@ -313,11 +315,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
 * [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
 * [Kubernetes Security Best Practices 🌟🌟🌟🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
-* [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
-* EKS Security:
-    * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
-    * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
-    * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
 * [magalix.com: kubernetes authentication 🌟🌟](https://www.magalix.com/blog/kubernetes-authentication)
 * [magalix.com: kubernetes authorization 🌟🌟](https://www.magalix.com/blog/kubernetes-authorization)
 * [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
@@ -327,6 +324,14 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
 * [Microsoft.com: Attack matrix for Kubernetes 🌟🌟🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
 * [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
+
+### Pod Security Policies (SCCs - Security Context Constraints in OpenShift)
+* [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+
+### EKS Security
+* [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
+* [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
+* [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
 
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
