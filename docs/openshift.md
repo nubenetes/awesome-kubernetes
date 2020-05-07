@@ -108,7 +108,7 @@
 * [blog.openshift.com: OpenShift Authentication Integration with **ArgoCD**](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
 
 ### Debugging apps
-* [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with**oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
+* [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
 * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https:/developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers/)
 
 ### Capacity Management
