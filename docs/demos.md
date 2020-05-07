@@ -1,23 +1,52 @@
-# Demos
+# Demos 
 - [DevOps Demos](#devops-demos)
+- [Kubernetes Demos](#kubernetes-demos)
+- [OpenShift Demos](#openshift-demos)
+- [Jenkins in Openshift](#jenkins-in-openshift)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
 ## DevOps Demos
-* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
-* [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 * [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟🌟🌟](https://github.com/wardviaene)
     * [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
     * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
-* [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
-* [Mautic](https://github.com/mautic/docker-mautic)
 * [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
-* [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
 * Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟🌟🌟:
     * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
+
+## Kubernetes Demos
+* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
+* [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
+* [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
+* [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
+* [Mautic](https://github.com/mautic/docker-mautic)
+* [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
+
+## OpenShift Demos
+* [https://github.com/OpenShiftDemos](https://github.com/OpenShiftDemos)
+* [github Red Hat Tutorials & Examples 🌟🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+* [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
+* [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
+* [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
+* [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)
+* [Microprofile example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)
+* [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
+* [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
+* [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
+* [github.com/openshiftdemos 🌟🌟](https://github.com/openshiftdemos)
+* [github.com/openshift-labs 🌟🌟](https://github.com/openshift-labs) 
+
+## Jenkins in Openshift
+* [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+* [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
+* [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
+* [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
+* [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
+
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)

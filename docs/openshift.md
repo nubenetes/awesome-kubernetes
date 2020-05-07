@@ -44,7 +44,6 @@
         - [Review Security Context Constraints](#review-security-context-constraints)
     - [Network Policy](#network-policy)
         - [Network Security Zones](#network-security-zones)
-- [Demos](#demos)
 - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
 - [OpenShift on AWS](#openshift-on-aws)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -375,21 +374,6 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 #### Network Security Zones
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟🌟](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
-
-## Demos
-* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
-* [github Red Hat Tutorials & Examples 🌟🌟🌟🌟](https://github.com/redhat-developer-demos)
-* [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
-* [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
-* [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
-* [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
-* [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)
-* [Microprofile example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift)
-* [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
-* [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
-* [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
-* [github.com/openshiftdemos 🌟🌟](https://github.com/openshiftdemos)
-* [github.com/openshift-labs 🌟🌟](https://github.com/openshift-labs)
 
 ## Openshift Compliant Docker Images
 - [Red Hat Container Catalog - RedHat Registry (registry.redhat.io)](https://access.redhat.com/containers/) License required
