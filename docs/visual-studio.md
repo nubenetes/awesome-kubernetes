@@ -1,12 +1,12 @@
 # Visual Studio Code
-- [Visual Studio Code](#visual-studio-code)
+- [VSCode](#vscode)
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
     - [DevOps Extensions](#devops-extensions)
     - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 - [Videos](#videos)
 
-## Visual Studio Code
+## VSCode
 * [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
