@@ -19,6 +19,8 @@
     * [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blog/automating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
 * [harness.io](https://harness.io/)
 * [Drone](https://drone.io/)
+* [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
+    * [JFrog Pipelines](https://jfrog.com/pipelines/)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)
