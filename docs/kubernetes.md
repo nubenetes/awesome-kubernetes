@@ -27,6 +27,8 @@
 - [Kubernetes Security](#kubernetes-security)
     - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
     - [EKS Security](#eks-security)
+- [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
+    - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 - [Kubernetes Storage](#kubernetes-storage)
 - [Non-production Kubernetes Local Installers](#non-production-kubernetes-local-installers)
 - [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
@@ -373,6 +375,14 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
 * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
 * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
+
+## Kubernetes Scheduling and Scheduling Profiles
+* [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)
+* [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/profiles/)
+  
+### Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin
+* [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/)
+* [Introducing PodTopologySpread plugin](https://kubernetes.io/blog/2020/05/introducing-podtopologyspread/)
 
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
