@@ -91,6 +91,7 @@ pages:
   - Java - SpringBoot: SpringBoot.md
   - Java - Spring Cloud: SpringCloud.md
   - Java - Quarkus: quarkus.md
+  - JavaScript - node.js & npm: javascript.md
   - Python - Django & Flask: python.md
   - Serverless Architectures & Frameworks: serverless.md
   - Xamarin: xamarin.md
