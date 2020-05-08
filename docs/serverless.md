@@ -12,7 +12,7 @@
 
 ## Serverless Architectures
 * [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
-* [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟🌟🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
+* [itnext.io: Scaling My App: Serverless vs Kubernetes](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
 * [serverless.com: Comparisons - Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
 
 ### FaaS: Function as a Service
@@ -28,7 +28,7 @@
 * [serverless.com: Serverless Framework](https://www.serverless.com/)
  
 ## Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)
-* [epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟🌟🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
+* [epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
 * [winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more](https://winderresearch.com/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more/)
 * [vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks](https://vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks/)
 
