@@ -8,7 +8,7 @@
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-    - [Job DSL Plugin (Jenkins Job DSL API used in Jenkins Pipelines)](#job-dsl-plugin-jenkins-job-dsl-api-used-in-jenkins-pipelines)
+    - [Job DSL Plugin](#job-dsl-plugin)
     - [Jenkins Configuration as Code Plugin](#jenkins-configuration-as-code-plugin)
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
@@ -126,7 +126,8 @@
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * etc
 
-### Job DSL Plugin (Jenkins Job DSL API used in Jenkins Pipelines)
+### Job DSL Plugin
+* Jenkins Job DSL API used in jenkins declarative pipelines.
 * [plugins.jenkins.io/job-dsl](https://plugins.jenkins.io/job-dsl/)
     * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
 * [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
