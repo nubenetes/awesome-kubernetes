@@ -1,6 +1,8 @@
 # Visual Studio Code
 - [VSCode](#vscode)
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
+    - [Publishers](#publishers)
+    - [Extensions](#extensions)
     - [DevOps Extensions](#devops-extensions)
     - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
@@ -16,7 +18,15 @@
 
 ## Visual Studio MarketPlace and Extensions
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
+
+### Publishers
+* [Microsoft 🌟](https://marketplace.visualstudio.com/publishers/Microsoft)
 * [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
+* [AmazonWebServices](https://marketplace.visualstudio.com/publishers/AmazonWebServices)
+* [Google Cloud](https://marketplace.visualstudio.com/publishers/GoogleCloudTools)
+* [Oracle](https://marketplace.visualstudio.com/publishers/Oracle)
+
+### Extensions
 * [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) Git supercharged
 * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
