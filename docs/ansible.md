@@ -6,6 +6,7 @@
     - [Running Ansible Playbooks From Ansible Tower](#running-ansible-playbooks-from-ansible-tower)
 - [Books](#books)
 - [Awesome Ansible](#awesome-ansible)
+- [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -44,4 +45,8 @@
 ## Awesome Ansible
 * [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)
 * [https://github.com/awesome-devops/awesome-ansible](https://github.com/awesome-devops/awesome-ansible)
+
+## Ansible and Public Cloud Guides
+* [Public Cloud Guides 🌟](https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html)
+* [Ansible to automate Microsoft Azure](https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure)
 
