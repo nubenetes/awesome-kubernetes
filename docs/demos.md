@@ -1,6 +1,7 @@
 # Demos 
 - [DevOps Demos](#devops-demos)
 - [Kubernetes Demos](#kubernetes-demos)
+    - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
 - [OpenShift Demos](#openshift-demos)
 - [Jenkins in Openshift](#jenkins-in-openshift)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
@@ -26,6 +27,13 @@
 * [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
+
+### Amazon EKS. Deploy example microservices on EKS
+* [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
+* [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
+* [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
+* [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
+* [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
 
 ## OpenShift Demos
 * [https://github.com/OpenShiftDemos](https://github.com/OpenShiftDemos)
