@@ -8,7 +8,7 @@
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-    - [Job DSL Plugin (Jenkins Job DSL API)](#job-dsl-plugin-jenkins-job-dsl-api)
+    - [Job DSL Plugin (Jenkins Job DSL API used in Jenkins Pipelines)](#job-dsl-plugin-jenkins-job-dsl-api-used-in-jenkins-pipelines)
     - [Jenkins Configuration as Code Plugin](#jenkins-configuration-as-code-plugin)
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
@@ -49,7 +49,7 @@
 
 ## Jenkins Pipeline
 * [jenkins.io - doc/book/pipeline 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/)
-* [jenkins.io - **jenkinsfile** 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/)
+* [jenkins.io - **jenkinsfile** 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) With **version 2** of the Jenkins Continuous Integration/Continuous Delivery (CI/CD) server, **a new job definition file has been introduced, called Jenkinsfile**. The initial Jenkinsfile format was based on Groovy. As groovy knowledge is not that widespread, a new and more straight forward was published in spring 2017. **This format is called Declarative Pipeline**. [This visual studio code extension](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) is aimed at making the manipulation of this file type easier.
 * [Dzone refcard: **Continuous Delivery with Jenkins Workflow** 🌟🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
 * [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4)
 * [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
@@ -126,7 +126,7 @@
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * etc
 
-### Job DSL Plugin (Jenkins Job DSL API)
+### Job DSL Plugin (Jenkins Job DSL API used in Jenkins Pipelines)
 * [plugins.jenkins.io/job-dsl](https://plugins.jenkins.io/job-dsl/)
     * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
 * [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
@@ -147,6 +147,7 @@
 * [Dzone: Running Jenkins Server With Configuration-as-Code 🌟](https://dzone.com/articles/running-jenkins-server-with-configuration-as-code) Take a look at the new plugin for Jenkins that allows you to to create pipelines using YAML! Let's check out the details and examples.
 * [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
 * [cloudbees.com: CloudBees Core Configuration as Code](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
+* [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) This extension is used to integrate a live jenkins instance configuration with your editor. It can be used to edit and validate YAML files.
 
 ### Jenkins Blue Ocean
 * [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
