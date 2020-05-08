@@ -99,6 +99,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Java - Spring Cloud](SpringCloud.md)
     - [Java - Jakarta EE](https://jakarta.ee/)
     - [Java - Quarkus](quarkus.md)
+    - [JavaScript - node.js & npm](javascript.md)
     - [Python - Django & Flask](python.md)
     - [Serverless Architectures & Frameworks](serverless.md)
     - [Xamarin](xamarin.md)
