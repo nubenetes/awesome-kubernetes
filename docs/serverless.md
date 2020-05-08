@@ -44,7 +44,6 @@
 * [knative.dev](https://knative.dev/)
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
 * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
-* [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 
 ### Kubeless  
 * [kubeless.io](https://kubeless.io/)

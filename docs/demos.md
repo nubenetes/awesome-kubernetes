@@ -1,8 +1,11 @@
 # Demos 
 - [DevOps Demos](#devops-demos)
+    - [Ansible](#ansible)
 - [Kubernetes Demos](#kubernetes-demos)
+    - [Istio](#istio)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
 - [OpenShift Demos](#openshift-demos)
+    - [Knative](#knative)
 - [Jenkins in Openshift](#jenkins-in-openshift)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
@@ -18,6 +21,9 @@
 * [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
 
+### Ansible
+* [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
+
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
 * [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
@@ -28,6 +34,9 @@
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
 
+### Istio
+- [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
+
 ### Amazon EKS. Deploy example microservices on EKS
 * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
 * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
@@ -37,7 +46,7 @@
 
 ## OpenShift Demos
 * [https://github.com/OpenShiftDemos](https://github.com/OpenShiftDemos)
-* [github Red Hat Tutorials & Examples 🌟🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 * [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
 * [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
@@ -50,13 +59,16 @@
 * [github.com/openshiftdemos 🌟🌟](https://github.com/openshiftdemos)
 * [github.com/openshift-labs 🌟🌟](https://github.com/openshift-labs) 
 
+### Knative 
+* [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
+
 ## Jenkins in Openshift
 * [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 * [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
 * [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
 * [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
-
+* [github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test](https://github.com/gnunn1/openshift-basic-pipeline)
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
