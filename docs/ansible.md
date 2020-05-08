@@ -34,7 +34,6 @@
 ### Running Ansible Playbooks From Ansible Tower
 * [Ansible Tower](https://www.ansible.com/products/tower)
 * [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
-* [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 
 ## Books

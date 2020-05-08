@@ -1,6 +1,6 @@
 # Demos 
 - [DevOps Demos](#devops-demos)
-    - [Ansible](#ansible)
+    - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
 - [Kubernetes Demos](#kubernetes-demos)
     - [Istio](#istio)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
@@ -10,6 +10,7 @@
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
 ## DevOps Demos
+* [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 * [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟🌟🌟](https://github.com/wardviaene)
     * [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
     * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
@@ -21,8 +22,9 @@
 * [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
 
-### Ansible
+### Ansible and Ansible Tower
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
+* [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
@@ -38,7 +40,9 @@
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 
 ### Amazon EKS. Deploy example microservices on EKS
+* [eksworkshop.com](https://eksworkshop.com/ )
 * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
+* [eksworkshop.com: Configure Cluster Autoscaler (CA)](https://eksworkshop.com/scaling/deploy_ca/)
 * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
 * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
 * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
@@ -48,6 +52,7 @@
 * [https://github.com/OpenShiftDemos](https://github.com/OpenShiftDemos)
 * [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+* [blog.openshift.com: OCP multi-node deployment on **AWS** using CloudFormation and Ansible (quickstart workshop)](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
 * [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
 * [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
