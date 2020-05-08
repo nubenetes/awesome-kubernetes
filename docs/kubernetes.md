@@ -28,6 +28,7 @@
     - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
     - [EKS Security](#eks-security)
 - [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
+    - [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
     - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 - [Kubernetes Storage](#kubernetes-storage)
 - [Non-production Kubernetes Local Installers](#non-production-kubernetes-local-installers)
@@ -379,7 +380,10 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ## Kubernetes Scheduling and Scheduling Profiles
 * [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)
 * [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/profiles/)
-  
+
+### Assigning Pods to Nodes. Pod Affinity and Anti-Affinity 
+* [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity)
+
 ### Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin
 * [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/)
 * [Introducing PodTopologySpread plugin](https://kubernetes.io/blog/2020/05/introducing-podtopologyspread/)

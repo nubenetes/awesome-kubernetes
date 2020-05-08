@@ -14,7 +14,7 @@
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
     - [OpenShift 4 roadmap](#openshift-4-roadmap)
     - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
-    - [Storage in OCP 4](#storage-in-ocp-4)
+    - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
     - [OpenShift Pipelines. Tekton CI/CD Pipelines](#openshift-pipelines-tekton-cicd-pipelines)
     - [OpenShift 4 Training](#openshift-4-training)
     - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
@@ -188,8 +188,9 @@
 
 [![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
-### Storage in OCP 4 
-- [State of **OpenShift Container Storage**](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
+### Storage in OCP 4. OpenShift Container Storage (OCS)
+- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
+- [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
 
 ### OpenShift Pipelines. Tekton CI/CD Pipelines
 * [**tekton.dev**](https://tekton.dev/)
