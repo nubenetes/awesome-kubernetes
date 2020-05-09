@@ -29,7 +29,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [API Landscape](https://www.apidays.co/api-landscape)
     - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
     - [Microservices FAQ & Kubernetes Native](faq.md)
-    - [Serverless with OpenFaaS, Knative & Kubeless](serverless.md)
 2. [DevOps](devops.md)
 3. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Git Flow & Trunk. CI/CD BOTs 🌟](git.md)
@@ -103,14 +102,15 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Python - Django & Flask](python.md)
     - [Serverless Architectures & Frameworks](serverless.md)
     - [Xamarin](xamarin.md)
-19. Dev Environment    
+19. [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
+20. Dev Environment    
     - [Visual Studio Code 🌟](visual-studio.md)
     - [GitKraken](gitkraken.md)
     - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
-20. [Demos](demos.md)
-21. Public Cloud
+21. [Demos](demos.md)
+22. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
@@ -120,10 +120,10 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
-22. [E-Learning](elearning.md)
-23. [Customer Success Stories 🌟](customer.md)
-24. [Subreddits and Newsfeeds](newsfeeds.md)
-25. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+23. [E-Learning](elearning.md)
+24. [Customer Success Stories 🌟](customer.md)
+25. [Subreddits and Newsfeeds](newsfeeds.md)
+26. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>

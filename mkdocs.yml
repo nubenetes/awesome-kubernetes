@@ -25,7 +25,6 @@ pages:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
-  - Serverless with OpenFaaS, Knative & Kubeless: serverless.md
 - DevOps: devops.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
@@ -98,9 +97,9 @@ pages:
   - Java - Quarkus: quarkus.md
   - JavaScript - node.js & npm: javascript.md
   - Python - Django & Flask: python.md
-  - Serverless Architectures & Frameworks: serverless.md
   - Xamarin: xamarin.md
-- Dev Environment:
+- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+  - Dev Environment:
     - Visual Studio Code: visual-studio.md
     - GitKraken: gitkraken.md
     - WSL - Linux Dev Environment on Windows: linux-dev-env.md
