@@ -105,7 +105,6 @@ pages:
   - Test Automation with Postman: postman.md
   - API Marketplaces and Developer Portals: developerportals.md
   - 3scale API Management: 3scale.md
-- TestOps: testops.md
 - Demos: demos.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
