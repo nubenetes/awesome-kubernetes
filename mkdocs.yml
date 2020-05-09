@@ -99,11 +99,11 @@ pages:
   - Python - Django & Flask: python.md
   - Xamarin: xamarin.md
 - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
-  - Dev Environment:
-    - Visual Studio Code: visual-studio.md
-    - GitKraken: gitkraken.md
-    - WSL - Linux Dev Environment on Windows: linux-dev-env.md
-    - Scaffolding Tools: scaffolding.md
+- Dev Environment:
+  - Visual Studio Code: visual-studio.md
+  - GitKraken: gitkraken.md
+  - WSL - Linux Dev Environment on Windows: linux-dev-env.md
+  - Scaffolding Tools: scaffolding.md
 - Demos: demos.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
