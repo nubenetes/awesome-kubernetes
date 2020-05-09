@@ -83,7 +83,7 @@
 - [SwaggerHub: Free Web Service](https://swagger.io/tools/swaggerhub/)
 - [programmableweb.com](https://www.programmableweb.com/)
 - [any-api.com](https://any-api.com/)
-- [Rapid API:](https://rapidapi.com/)
+- [Rapid API](https://rapidapi.com/)
 
 ## Related
 - [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
