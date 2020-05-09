@@ -3,7 +3,7 @@
 - [Types of API Protocols](#types-of-api-protocols)
     - [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
     - [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
-        - [OpenAPI/Swagger](#openapiswagger)
+        - [OpenAPI Specification (originally known as the Swagger Specification)](#openapi-specification-originally-known-as-the-swagger-specification)
     - [RPC API Protocol (Remote Procedure Call)](#rpc-api-protocol-remote-procedure-call)
         - [gRPC](#grpc)
 - [Comparisons](#comparisons)
@@ -42,8 +42,9 @@
 - [Dzone refcard: Foundations of **RESTful Architecture** 🌟](https://dzone.com/refcardz/rest-foundations-restful)
 - [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials)
 
-#### OpenAPI/Swagger
+#### OpenAPI Specification (originally known as the Swagger Specification)
 - [OpenAPI](https://www.openapis.org/) evolved from the [Swagger](https://swagger.io/) project. Swagger started out as a specification for documenting RESTful APIs. Later on, tools to generate client and server code and generating of test cases were added. While the original Swagger Specification was donated to the Linux Foundation and renamed the OpenAPI, Swagger remains one of the most widely used open-source toolsets for developing OpenAPIs.
+- [Wikipedia: OpenAPI Specification 🌟](https://en.wikipedia.org/wiki/OpenAPI_Specification)
 - [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) The OAS defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 - [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
