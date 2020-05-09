@@ -50,3 +50,4 @@
 
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)
+- [free-for.dev](https://free-for.dev/)

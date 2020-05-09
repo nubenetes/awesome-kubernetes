@@ -76,8 +76,12 @@ pages:
 - Streaming & Messaging. Cloud Based Integration: message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
-  - Istio Service Mesh: istio.md
-  - Consul Service Mesh: consul.md
+  - Consul: consul.md
+  - Envoy & xDS protocol: envoyproxy.md
+  - Istio: istio.md
+  - Linkerd: linkerd.md
+  - Maesh: maesh.md
+  - Traffic Director: trafficdirector.md
 - Security Policy as Code: securityascode.md
 - Cloud Native Storage: storage.md
 - Dev Environment:
@@ -96,7 +100,7 @@ pages:
   - Serverless Architectures & Frameworks: serverless.md
   - Xamarin: xamarin.md
 - APIs:
-  - APIs and RESTful Architecture: apis-and-restful-architecture.md
+  - APIs with SOAP, REST and gRPC: api.md
   - API Marketplaces and Developer Portals: developerportals.md
   - 3scale API Management: 3scale.md
   - Test Automation with Postman: postman.md

@@ -2,6 +2,7 @@
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     - [API Marketplaces](#api-marketplaces)
     - [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
+    - [Apis.guru Large Archive of Sample OpenAPI Descriptions](#apisguru-large-archive-of-sample-openapi-descriptions)
 - [API Managers](#api-managers)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
@@ -23,6 +24,9 @@
 ### Rapid API Marketplace. Free Public & Open REST APIs
 - [Rapid API:](https://rapidapi.com/) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
 - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight) APIs are driving businesses and innovation.
+
+### Apis.guru Large Archive of Sample OpenAPI Descriptions
+- [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
 ## API Managers
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
