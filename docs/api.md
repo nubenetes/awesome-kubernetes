@@ -4,7 +4,7 @@
     - [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
     - [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
         - [OpenAPI/Swagger](#openapiswagger)
-    - [RPC Protocol (Remote Procedure Call)](#rpc-protocol-remote-procedure-call)
+    - [RPC API Protocol (Remote Procedure Call)](#rpc-api-protocol-remote-procedure-call)
         - [gRPC](#grpc)
 - [Comparisons](#comparisons)
     - [SOAP vs REST](#soap-vs-rest)
@@ -47,7 +47,7 @@
 - [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) The OAS defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 - [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
-### RPC Protocol (Remote Procedure Call)
+### RPC API Protocol (Remote Procedure Call)
 - [wikipedia: RPC Remote Procedure Call](https://en.wikipedia.org/wiki/Remote_procedure_call)
 
 #### gRPC
