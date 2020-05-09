@@ -100,7 +100,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Java - Quarkus](quarkus.md)
     - [JavaScript - node.js & npm](javascript.md)
     - [Python - Django & Flask](python.md)
-    - [Serverless Architectures & Frameworks](serverless.md)
     - [Xamarin](xamarin.md)
 19. [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
 20. Dev Environment    
