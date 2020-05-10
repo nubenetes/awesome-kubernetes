@@ -6,7 +6,6 @@
     - [Chaos Monkey for kubernetes/Openshift](#chaos-monkey-for-kubernetesopenshift)
     - [OpenShift GitOps](#openshift-gitops)
     - [Debugging apps](#debugging-apps)
-    - [Cluster Monitoring. Prometheus and Grafana](#cluster-monitoring-prometheus-and-grafana)
     - [Capacity Management](#capacity-management)
     - [OpenShift High Availability](#openshift-high-availability)
     - [Troubleshooting Java applications on Openshift](#troubleshooting-java-applications-on-openshift)
@@ -113,9 +112,6 @@
 ### Debugging apps
 * [developers.redhat.com: Installing debugging tools into a Red Hat OpenShift container with **oc-inject**](https://developers.redhat.com/blog/2020/01/15installing-debugging-tools-into-a-red-hat-openshift-container-with-oc-inject/)
 * [developers.redhat.com: **Debugging applications** within Red Hat OpenShift containers](https:/developers.redhat.com/blog/2020/01/09debugging-applications-within-red-hat-openshift-containers/)
-
-### Cluster Monitoring. Prometheus and Grafana
-* [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 
 ### Capacity Management
 * [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://blogopenshift.com/full-cluster-capacity-management-monitoring-openshift/)
