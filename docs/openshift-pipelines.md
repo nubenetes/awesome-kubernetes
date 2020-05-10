@@ -12,7 +12,7 @@
 - [ODO - OpenShift Command line for Developers](#odo---openshift-command-line-for-developers)
 - [OpenShift Pipelines](#openshift-pipelines)
     - [Jenkins CICD Getting started with Groovy and Docker Containers](#jenkins-cicd-getting-started-with-groovy-and-docker-containers)
-    - [Pipelines with Fabric8](#pipelines-with-fabric8)
+    - [Fabric8 Pipeline Library](#fabric8-pipeline-library)
     - [Jenkins Pipelines with OpenShift 3](#jenkins-pipelines-with-openshift-3)
     - [OpenShift Jenkins Pipeline (DSL) Plugin](#openshift-jenkins-pipeline-dsl-plugin)
         - [Red Hat Communities of Practice](#red-hat-communities-of-practice)
@@ -46,6 +46,7 @@
 ### OpenShift Pipelines with S2i
 * [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
+* [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 
 ## OpenShift Deployments with Deployment Descriptor
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)
@@ -65,10 +66,10 @@
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1)
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
 
-### Pipelines with Fabric8
+### Fabric8 Pipeline Library
 * [Fabric8.io](http://fabric8.io/)
 * [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
-* [fabric8 pipeline library](https://github.com/fabric8io/fabric8-pipeline-library)
+* [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 * [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
 * [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
