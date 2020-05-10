@@ -88,8 +88,9 @@ pages:
   - Test Automation with Postman: postman.md
   - API Marketplaces and Developer Portals: developerportals.md
   - 3scale API Management: 3scale.md
-- Frameworks:
+- Development & Frameworks:
   - Angular: angular.md
+  - Document Object Model (DOM): dom.md
   - Java - Spring Framework: SpringFramework.md
   - Java - SpringBoot: SpringBoot.md
   - Java - Spring Cloud: SpringCloud.md

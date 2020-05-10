@@ -89,8 +89,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Test Automation with Postman](postman.md)
     - [API Marketplaces and Developer Portals🌟](developerportals.md)
         - [3scale API Management](3scale.md)
-18. Frameworks
+18. Development & Frameworks
     - [Angular](angular.md)
+    - [Document Object Model (DOM)](dom.md)
     - [Java - Spring Framework](SpringFramework.md)
     - [Java - SpringBoot](SpringBoot.md)
     - [Java - Spring Cloud](SpringCloud.md)

@@ -16,6 +16,7 @@
     - [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
 - [Debezium open source distributed platform for change data capture](#debezium-open-source-distributed-platform-for-change-data-capture)
 - [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
+- [eBooks](#ebooks)
 - [Related](#related)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
@@ -98,6 +99,9 @@
 ## Red Hat Integration service registry and Apicurio
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
 - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
+
+## eBooks
+- [O'Really: Streaming data](http://streamingsystems.net/)
 
 ## Related
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
