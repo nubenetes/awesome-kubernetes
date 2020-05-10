@@ -45,7 +45,6 @@
 - [Networking (OCP 3 and OCP 4)](#networking-ocp-3-and-ocp-4)
 - [Security](#security)
     - [How is OpenShift Container Platform Secured?](#how-is-openshift-container-platform-secured)
-    - [Open Policy Agent](#open-policy-agent)
     - [Security Context Constraints](#security-context-constraints)
         - [Review Security Context Constraints](#review-security-context-constraints)
     - [Network Policy](#network-policy)
@@ -346,10 +345,6 @@
 - [docs.openshift.com: OpenShift 3 Overview](https://docs.openshift.com/container-platform/3.11/architecture/index.html)
 - [docs.openshift.com: OpenShift 3 Securing the Container Platform](https://docs.openshift.com/container-platform/3.11/security/securing_container_platform.html)
 - [ocs.openshift.com: OpenShift 4 Understanding Authentication](https://docs.openshift.com/container-platform/4.4/authentication/understanding-authentication.html)
-
-### Open Policy Agent
-* [Open Policy Agent 🌟](https://www.openpolicyagent.org/)
-* [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
 
 ### Security Context Constraints
 - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
