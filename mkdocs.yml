@@ -37,7 +37,6 @@ pages:
   - Kubernetes alternatives: kubernetes-alternatives.md
 - Openshift: 
   - Openshift docs: openshift.md
-  - List of Openshift Compliant Docker images : openshift-compliant-images.md
   - Monitoring and Performance : monitoring.md
   - Java Performance Optimization: java-and-java-performance-optimization.md
   - Java Parameters Matrix Table: jvm-parameters-matrix-table.md

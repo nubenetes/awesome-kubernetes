@@ -38,7 +38,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Kubernetes Matrix Table](matrix-table.md)
     - [Kubernetes alternatives](kubernetes-alternatives.md)
 7. [Openshift 🌟🌟🌟](openshift.md)
-    - [List of Openshift Compliant Docker images](openshift-compliant-images.md)
     - [Monitoring and Performance 🌟](monitoring.md)
     - [Java Performance Optimization](java-and-java-performance-optimization.md)
         - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
