@@ -37,13 +37,13 @@ pages:
   - Kubernetes alternatives: kubernetes-alternatives.md
 - Openshift: 
   - Openshift docs: openshift.md
-  - Monitoring and Performance : monitoring.md
+  - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Java Performance Optimization: java-and-java-performance-optimization.md
   - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
 - Jenkins & Cloudbees: 
   - Jenkins docs: jenkins.md
   - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
-  - OpenShift Pipelines with Jenkins, Tekton and more... 🌟: openshift-pipelines.md
+  - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
   - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md

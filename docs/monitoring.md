@@ -1,4 +1,4 @@
-# Monitoring and Performance
+# OpenShift Monitoring and Performance. Prometheus, Grafana, APMs and more
 - [Monitoring](#monitoring)
 - [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
     - [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
@@ -26,7 +26,7 @@
 - [Interactive Learning with Prometheus and Grafana](#interactive-learning-with-prometheus-and-grafana)
 - [Kibana](#kibana)
 - [Performance](#performance)
-- [Distributed Tracing](#distributed-tracing)
+- [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
 - [Application Performance Management (APM)](#application-performance-management-apm)
     - [Dynatrace APM](#dynatrace-apm)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -274,7 +274,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 * [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
-## Distributed Tracing
+## Distributed Tracing. OpenTelemetry and Jaeger
 - [**opentelemetry.io** 🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [**Jaeger** 🌟](https://www.jaegertracing.io/)
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
