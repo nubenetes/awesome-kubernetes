@@ -54,7 +54,6 @@
     - [Gitlab](#gitlab)
     - [Atlassian Confluence6](#atlassian-confluence6)
     - [Sonatype Nexus 3](#sonatype-nexus-3)
-    - [Sonarqube](#sonarqube)
     - [Rocket Chat](#rocket-chat)
 - [OpenShift on AWS](#openshift-on-aws)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -252,7 +251,7 @@
 
 ### Kubestone. Benchmarking Operator for K8s and OpenShift
 * [kubestone.io](https://kubestone.io)
-* [https://operatorhub.io/operator/kubestone](https://operatorhub.io/operator/kubestone)
+* [operatorhub.io: kubestone](https://operatorhub.io/operator/kubestone)
 
 ### OpenShift Cost Management 
 * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure 🌟](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
@@ -344,9 +343,9 @@
 - [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599)
   
 ### How is OpenShift Container Platform Secured?
-- [docs.openshift.com/container-platform/3.11/architecture/index.html](https://docs.openshift.com/container-platform/3.11/architecture/index.html)
-- [docs.openshift.com/container-platform/3.11/security/securing_container_platform.html](https://docs.openshift.com/container-platform/3.11/security/securing_container_platform.html)
-- [ocs.openshift.com/container-platform/4.2/authentication/understanding-authentication.html](https://docs.openshift.com/container-platform/4.2/authentication/understanding-authentication.html)
+- [docs.openshift.com: OpenShift 3 Overview](https://docs.openshift.com/container-platform/3.11/architecture/index.html)
+- [docs.openshift.com: OpenShift 3 Securing the Container Platform](https://docs.openshift.com/container-platform/3.11/security/securing_container_platform.html)
+- [ocs.openshift.com: OpenShift 4 Understanding Authentication](https://docs.openshift.com/container-platform/4.4/authentication/understanding-authentication.html)
 
 ### Open Policy Agent
 * [Open Policy Agent 🌟](https://www.openpolicyagent.org/)
@@ -380,23 +379,20 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
 
 ## Openshift Compliant Docker Images
-- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io)](https://access.redhat.com/containers/) License required
-- [DockerHub openshift](https://hub.docker.com/r/openshift/)
-- [https://github.com/sclorg/](https://github.com/sclorg/)
-- [https://github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
-- [https://github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
+- [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://access.redhat.com/containers/) License required
+- [DockerHub OpenShift](https://hub.docker.com/r/openshift/)
+- [github.com/sclorg/](https://github.com/sclorg/)
+- [github.com/sclorg/postgresql-container/](https://github.com/sclorg/)
+- [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container)
 
 ### Gitlab
-- [https://about.gitlab.com/2016/06/28/get-started-with-openshift-origin-3-and-gitlab/](https://about.gitlab.com/2016/06/28/get-started-with-openshift-origin-3-and-gitlab/)
+- [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/2016/06/28/get-started-with-openshift-origin-3-and-gitlab/)
 
 ### Atlassian Confluence6 
 - [Atlassian Confluence6](https://github.com/inafevwork/confluence6-atlassian)
 
 ### Sonatype Nexus 3
-- [https://hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3/)
-
-### Sonarqube
-- [https://github.com/OpenShiftDemos/sonarqube-openshift-docker](https://github.com/OpenShiftDemos/sonarqube-openshift-docker)
+- [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3/)
 
 ### Rocket Chat
 - [Deploying Rocket.Chat on OpenShift](https://rocket.chat/docs/installation/paas-deployments/openshift/)

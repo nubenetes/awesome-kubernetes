@@ -49,11 +49,13 @@
 * [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
 
 ## OpenShift Demos
-* [https://github.com/OpenShiftDemos](https://github.com/OpenShiftDemos)
+* [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
+* [DockerHub OpenShift Demos](https://hub.docker.com/r/openshiftdemos/)
 * [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟🌟🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 * [blog.openshift.com: OCP multi-node deployment on **AWS** using CloudFormation and Ansible (quickstart workshop)](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
+* [SonarQube: An OpenShift-focused Docker build of Sonarqube](https://github.com/OpenShiftDemos/sonarqube-openshift-docker)
 * [Deploying PostgreSQL in MiniShift/OpenShift 3](https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/)
 * [Clustering WildFly on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator)
 * [Java EE example on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift)
