@@ -4,6 +4,7 @@
 - [Running Ansible Playbooks](#running-ansible-playbooks)
     - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
     - [Running Ansible Playbooks From Ansible Tower](#running-ansible-playbooks-from-ansible-tower)
+- [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
@@ -35,6 +36,14 @@
 * [Ansible Tower](https://www.ansible.com/products/tower)
 * [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
+
+## Ansible Molecule. Development and Testing of Ansible Roles
+* [Ansible Molecule](https://molecule.readthedocs.io/) Molecule project is designed to aid in the development and testing of Ansible roles.
+* [Molecule Configuration](https://molecule.readthedocs.io/en/latest/configuration.html)
+* [jeffgeerling.com: Testing your Ansible roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)
+* [PDF: Practical Ansible Testing with Molecule](https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf)
+* [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule) Learn how to automate your verifications using Python.
+* [medium.com: Test driven Development with Ansible using Molecule](https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac)
 
 ## Books
 * [ansiblefordevops.com](https://www.ansiblefordevops.com/)
