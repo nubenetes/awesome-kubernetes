@@ -3,7 +3,6 @@
 - [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
     - [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
         - [Prometheus and Grafana](#prometheus-and-grafana)
-        - [Kibana](#kibana)
         - [Custom Grafana Dashboard for OpenShift 3.11](#custom-grafana-dashboard-for-openshift-311)
         - [Capacity Management Grafana Dashboard](#capacity-management-grafana-dashboard)
         - [Software Delivery Metrics Grafana Dashboard](#software-delivery-metrics-grafana-dashboard)
@@ -25,6 +24,7 @@
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
 - [Interactive Learning with Prometheus and Grafana](#interactive-learning-with-prometheus-and-grafana)
+- [Kibana](#kibana)
 - [Performance](#performance)
 - [Distributed Tracing](#distributed-tracing)
 - [Application Performance Management (APM)](#application-performance-management-apm)
@@ -63,12 +63,6 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 * [Building an observability stack for automated performance tests on Kubernetes and OpenShift (part 2) 🌟](https://developers.redhat.com/blog/2019/01/03/leveraging-openshift-or-kubernetes-for-automated-performance-tests-part-2/)
 
 [![openshift3 Monitoring](images/ocp_monitoring.png)](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
-
-#### Kibana
-* [Kibana Tutorial: Getting Started [Part 1]](https://dzone.com/articles/kibana-tutorial-getting-started-part-1)
-* [A Kibana Tutorial – Part 2: Creating Visualizations](https://logz.io/blog/kibana-tutorial-2/)
-* [Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
-* [Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
 
 #### Custom Grafana Dashboard for OpenShift 3.11 
 By default OpenShift 3.11 Grafana is a read-only instance. Many organizations may want to add new custom dashboards. This custom grafana will interact with existing Prometheus and will also add all out-of-the-box dashboards plus few more interesting dashboards which may require from day to day operation. Custom Grafana pod uses OpenShift oAuth to authenticate users and assigns "Admin" role to all users so that users can create their own dashboards for additional monitoring.
@@ -263,6 +257,14 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * Katacoda:
     * [https://www.katacoda.com/courses/prometheus/getting-started](https://www.katacoda.com/courses/prometheus/getting-started)
     * [https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
+
+## Kibana
+* [Kibana](https://www.elastic.co/kibana)
+    * [Kibana Docs](https://www.elastic.co/guide/index.html)
+* [dzone: Kibana Tutorial: Part 1 - Getting Started](https://dzone.com/articles/kibana-tutorial-getting-started-part-1)
+    * [dzone: Kibana Tutorial: Part 2 - Creating Visualizations](https://logz.io/blog/kibana-tutorial-2/)
+* [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
+* [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
