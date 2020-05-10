@@ -12,11 +12,11 @@
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
-    - [OpenShift 4 roadmap](#openshift-4-roadmap)
-    - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
-    - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
     - [OpenShift 4 Training](#openshift-4-training)
+    - [OpenShift 4 roadmap](#openshift-4-roadmap)
+    - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
     - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
+    - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
     - [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
     - [OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers](#openshift-hive-cluster-as-a-service-easily-provision-new-paas-environments-for-developers)
     - [OpenShift 4 Master API Protection in Public Cloud](#openshift-4-master-api-protection-in-public-cloud)
@@ -173,28 +173,28 @@
 * [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟🌟🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem. 
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟🌟🌟](https://blog.openshift.com/500_pods_per_node/)
 
+### OpenShift 4 Training
+* [github.com: Openshift 4 training](https://github.com/openshift/training)
+* [learn.openshift.com](https://learn.openshift.com/)
+* [learn.crunchydata.com](https://learn.crunchydata.com/)
+
 ### OpenShift 4 roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/Red-Hat-OpenShift-4.0-Roadmap-Public-Feb-2019-Ali.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides) 🌟🌟🌟🌟](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
+
+### Storage in OCP 4. OpenShift Container Storage (OCS)
+- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
+- [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
+  
+### Red Hat Advanced Cluster Management for Kubernetes
+- [Red Hat Advanced Cluster Management for Kubernetes 🌟🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 
 ### OpenShift Kubernetes Engine (OKE)
 * [Similarities and differences between OpenShift Kubernetes Engine and OpenShift Container Platform](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
 [![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
-### Storage in OCP 4. OpenShift Container Storage (OCS)
-- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
-- [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
-
-### OpenShift 4 Training
-* [github.com: Openshift 4 training](https://github.com/openshift/training)
-* [learn.openshift.com](https://learn.openshift.com/)
-* [learn.crunchydata.com](https://learn.crunchydata.com/)
-  
-### Red Hat Advanced Cluster Management for Kubernetes
-- [Red Hat Advanced Cluster Management for Kubernetes 🌟🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
-    
 ### Red Hat CodeReady Containers. OpenShift 4 on your laptop
 * [developers.redhat.com: Developing applications on Kubernetes 🌟](https://developers.redhat.com/topics/kubernetes/)
 * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)

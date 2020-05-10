@@ -42,7 +42,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Java Performance Optimization](java-and-java-performance-optimization.md)
         - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
-    - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 8. [Jenkins & CloudBees 😀 🌟🌟🌟](jenkins.md)
     - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
     - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
