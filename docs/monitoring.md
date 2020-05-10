@@ -23,8 +23,8 @@
         - [Ansible Roles](#ansible-roles)
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
-- [Interactive Learning with Prometheus and Grafana](#interactive-learning-with-prometheus-and-grafana)
 - [Kibana](#kibana)
+- [Interactive Learning](#interactive-learning)
 - [Performance](#performance)
 - [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
 - [Application Performance Management (APM)](#application-performance-management-apm)
@@ -253,11 +253,6 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
 * [Prometheus Monitoring With Grafana](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 
-## Interactive Learning with Prometheus and Grafana 
-* Katacoda:
-    * [https://www.katacoda.com/courses/prometheus/getting-started](https://www.katacoda.com/courses/prometheus/getting-started)
-    * [https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
-
 ## Kibana
 * [Kibana](https://www.elastic.co/kibana)
     * [Kibana Docs](https://www.elastic.co/guide/index.html)
@@ -265,6 +260,10 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [dzone: Kibana Tutorial: Part 2 - Creating Visualizations](https://logz.io/blog/kibana-tutorial-2/)
 * [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
 * [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
+
+## Interactive Learning
+* [katacoda.com: Getting Started with Prometheus](https://www.katacoda.com/courses/prometheus/getting-started)
+* [katacoda.com: Creating Dashboards with Grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
