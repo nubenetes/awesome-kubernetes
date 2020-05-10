@@ -6,7 +6,7 @@
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
 - [OpenShift Demos](#openshift-demos)
     - [Knative](#knative)
-- [Jenkins in Openshift](#jenkins-in-openshift)
+- [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
 ## DevOps Demos
@@ -67,8 +67,8 @@
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 
-## Jenkins in Openshift
-* [Using Jenkins Pipelines with OpenShift](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
+## Jenkins Declarative Pipelines with OpenShift
+* [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 * [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
 * [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)

@@ -80,7 +80,6 @@
 * [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [blog.openshift.com - Building Declarative Pipelines with OpenShift DSL Plugin](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟🌟🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
-* [Using Jenkins Declarative Pipelines with OpenShift (workshop) 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html)
 
 #### Red Hat Communities of Practice
