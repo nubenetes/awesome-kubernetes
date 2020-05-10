@@ -72,7 +72,7 @@
 
 ## Tools
 ### API Testing
-* [softwaretestingportal.com: API Testing, Key Terminologies and more…..](http://www.softwaretestingportal.com/2020/03/31/api-testing/)
+* [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing/)
 * [dzone.com: 10 API Testing Tips for Beginners (SOAP and REST)](https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest) Let's take a look at ten API testing tips for beginners with a focus on REST APIs and SOAP APIs. 
 
 ### GraphQL
