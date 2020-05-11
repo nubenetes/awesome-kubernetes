@@ -64,9 +64,9 @@ pages:
   - Work From Home: workfromhome.md
   - Appointment Scheduling: appointment-scheduling.md
 - Configuration Management:
-  - Terraform & Packer: terraform.md
   - Ansible: ansible.md
   - Liquibase: liquibase.md
+  - Terraform & Packer: terraform.md
 - Databases on Kubernetes: 
   - Relational Databases: databases.md
   - NoSQL Databases: nosql.md

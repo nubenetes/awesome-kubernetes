@@ -67,9 +67,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Work From Home](workfromhome.md)
     - [Appointment Scheduling](appointment-scheduling.md)
 10. Configuration Management
-    - [Terraform & Packer](terraform.md)
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
+    - [Terraform & Packer](terraform.md)
 11. Databases on Kubernetes
     - [Relational Databases](databases.md)
     - [NoSQL Databases](nosql.md)

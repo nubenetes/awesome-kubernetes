@@ -4,7 +4,6 @@
     - [Publishers](#publishers)
     - [Extensions](#extensions)
     - [Git Flow](#git-flow)
-    - [Git Trunk](#git-trunk)
     - [DevOps Extensions](#devops-extensions)
     - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
@@ -51,8 +50,6 @@ A simple extension to make indentation more readable
 * [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code)
 * [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) Extension to list,view and create Git-flow like branches from issues
 * [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow)
-
-### Git Trunk
 
 ### DevOps Extensions
 * [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
