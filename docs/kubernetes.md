@@ -404,7 +404,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [stackrox.com: EKS vs GKE vs AKS - Evaluating Kubernetes in the Cloud](https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/)
   
 ### AWS EKS (Hosted/Managed Kubernetes on AWS)
-* [dzone: kops VS EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
+* [dzone: kops vs EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
 * [udemy.com: amazon eks starter kubernetes on aws](https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/)
 * [eksctl: EKS installer](https://github.com/weaveworks/eksctl)
 * [medium: Implementing Kubernetes Cluster using AWS EKS (AWS Managed Kubernetes)](https://medium.com/@devopsadvocate/how-to-setup-kubernetes-cluster-using-aws-eks-aws-managed-kubernetes-181d5567a8ef)

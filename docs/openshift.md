@@ -1,5 +1,6 @@
 # OpenShift Container Platform
 - [OpenShift](#openshift)
+- [Red Hat's approach to Kubernetes. Standardization](#red-hats-approach-to-kubernetes-standardization)
 - [OpenShift Container Platform 3 (OCP 3)](#openshift-container-platform-3-ocp-3)
     - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
     - [Helm Charts and OpenShift 3](#helm-charts-and-openshift-3)
@@ -60,14 +61,30 @@
 - [Slides](#slides)
 
 ## OpenShift  
-* [Wikipedia.org: Openshift](https://en.wikipedia.org/wiki/OpenShift)
-* [try.openshift.com](https://try.openshift.com/) 
-* [docs.openshift.com](https://docs.openshift.com/)
+* [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)
+* [OpenShift.com](https://www.openshift.com/)
+* [OpenShift blog 🌟](https://www.openshift.com/blog)
+* [docs.openshift.com 🌟](https://docs.openshift.com/)
+* [developers.redhat.com 🌟](https://developers.redhat.com/)
+* [github.com/openshift/origin 🌟](https://github.com/openshift/origin) Images for OpenShift 3 and 4 - see openshift/okd for more 
+* [try.openshift.com 🌟](https://try.openshift.com/) Create an OCP (OpenShift Container Platform) Cluster or OSD (OpenShift Dedicated) Cluster.
+* [okd.io](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
+* [OpenShift Commons](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift. Commons builds connections and collaboration across OpenShift communities, projects and stakeholders.
 * [twitter.com/openshift](https://twitter.com/openshift) 
 * [OpenShift in DockerHub](https://hub.docker.com/u/openshift/)
-* [www.reddit.com/r/openshift 🌟](https://www.reddit.com/r/openshift)
-* [github.com/openshift/origin 🌟](https://github.com/openshift/origin) Images for OpenShift 3 and 4 - see openshift/okd for more 
-* [OpenShift Commons 🌟](https://commons.openshift.org/) Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
+* [reddit.com/r/openshift](https://www.reddit.com/r/openshift)
+* [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
+
+## Red Hat's approach to Kubernetes. Standardization
+* [Red Hat's approach to Kubernetes 🌟](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+
+Reference | Author | URL
+:---------|:-------------:|-------------:
+"Given the difficulty of navigating the cloud-native ecosystem, especially the one around Kubernetes, **there is a high demand for easy-to-administer development platforms** that deliver applications in Kubernetes-managed containers."| OMDIA|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+Industry momentum has aligned behind Kubernetes as the orchestration platform for Linux® containers. Choosing Kubernetes means you’ll be running the de facto standard regardless of which cloud environments and providers are in your future.|CNCF Survey 2019|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+“It's not just enough to do Kubernetes. You do need to do CI/CD. You need to use alerting. You need to understand how the security model of the cloud and your applications interplay.”|Clayton Coleman,Senior Distinguished Engineer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+“Kubernetes is scalable. It helps develop applications faster. It does hybrid and multicloud. These are not just technology buzzwords, they're real, legitimate business problems.”|Brian Gracely,Director, Product Strategy, Red Hat OpenShift|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+“Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem.”|Chris Wright,Chief Technology Officer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
   
 ## OpenShift Container Platform 3 (OCP 3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)

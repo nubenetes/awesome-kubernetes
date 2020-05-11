@@ -1,4 +1,15 @@
 # Maven
+- [Apache Maven](#apache-maven)
+- [Maven Tests](#maven-tests)
+- [Dependency Resolution in Maven](#dependency-resolution-in-maven)
+- [Maven and Docker](#maven-and-docker)
+- [IDEs](#ides)
+    - [Intellij IDEA](#intellij-idea)
+- [Maven Plugins](#maven-plugins)
+- [Maven Cheat Sheets](#maven-cheat-sheets)
+- [Other Commands](#other-commands)
+
+## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
 * [maven.apache.org](https://maven.apache.org/)
 * [Dzone.com: Starting with Apache Maven](https://dzone.com/articles/starting-with-apache-maven)
@@ -16,7 +27,7 @@
 * [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven)
 * [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)
 
-## Dependency resolution in maven
+## Dependency Resolution in Maven
 * [Apache Maven Dependency Analyzer](https://maven.apache.org/shared/maven-dependency-analyzer/index.html)
 * [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)
 * [Dzone.com: Taming Maven: Transitive Dependency Pitfalls](https://dzone.com/articles/taming-maven-transitive-dependency-pitfalls)
@@ -43,18 +54,13 @@ mvn dependency:tree     (how you got something on your classpath)
 * [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/)
 * [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/)
 
-## Other commands
-```
-jar tf target/example-1.0.0-SNAPSHOT.jar
-```
-
-## Plugins
+## Maven Plugins
 * [Apache Maven Changelog Plugin](https://maven.apache.org/plugins/maven-changelog-plugin/)
 * [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
 * [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/)
 * [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
 
-## Cheat Sheets
+## Maven Cheat Sheets
 * [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 * [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
 * [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
@@ -65,3 +71,10 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 * [lzone.de/cheat-sheet/Maven](https://lzone.de/cheat-sheet/Maven)
 * [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
 * [confluence.sakaiproject.org](https://confluence.sakaiproject.org/display/REL/Maven+release+plugin+cheat+sheet)
+
+## Other Commands
+* Display contents of a jar file:
+
+```bash
+jar tf target/example-1.0.0-SNAPSHOT.jar
+```
