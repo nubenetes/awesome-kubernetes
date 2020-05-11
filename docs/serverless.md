@@ -6,7 +6,7 @@
 - [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
     - [OpenFaaS](#openfaas)
     - [Knative](#knative)
-        - [OpenShift Knative](#openshift-knative)
+        - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
     - [Kubeless](#kubeless)
     - [OpenWhisk](#openwhisk)
 - [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
@@ -47,7 +47,7 @@
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
 * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
 
-#### OpenShift Knative
+#### OpenShift Serverless with Knative
 * [OpenShift Serverless](https://www.openshift.com/learn/topics/serverless)
 * [developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview](https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview/)
 
