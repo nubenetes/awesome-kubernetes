@@ -131,6 +131,7 @@
 * [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
 * [jimmysong.io: kubectl cheat sheet 🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
 * [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
+* [opensource.com: 9 kubectl commands sysadmins need to know](https://opensource.com/article/20/5/kubectl-cheat-sheet) Keep these 9 critical kubectl commands handy to help you with troubleshooting and managing your Kubernetes cluster administration.
 
 ### List all resources and sub resources that you can constrain with RBAC
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
