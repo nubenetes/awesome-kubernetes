@@ -3,6 +3,8 @@
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
     - [Publishers](#publishers)
     - [Extensions](#extensions)
+    - [Git Flow](#git-flow)
+    - [Git Trunk](#git-trunk)
     - [DevOps Extensions](#devops-extensions)
     - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
@@ -21,6 +23,7 @@
 
 ### Publishers
 * [Microsoft 🌟](https://marketplace.visualstudio.com/publishers/Microsoft)
+* [Azure DevOps](https://marketplace.visualstudio.com/azuredevops)
 * [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
 * [AmazonWebServices](https://marketplace.visualstudio.com/publishers/AmazonWebServices)
 * [Google Cloud](https://marketplace.visualstudio.com/publishers/GoogleCloudTools)
@@ -42,6 +45,14 @@
 A simple extension to make indentation more readable
 * [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 * [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
+
+### Git Flow
+* [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow) Gitflow integration and support in Visual Studio Code
+* [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code)
+* [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) Extension to list,view and create Git-flow like branches from issues
+* [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow)
+
+### Git Trunk
 
 ### DevOps Extensions
 * [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)

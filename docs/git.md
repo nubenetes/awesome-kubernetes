@@ -12,6 +12,7 @@
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
+- [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [CI/CD BOTs](#cicd-bots)
 
 ## Git Distributed Version-Control System
@@ -67,6 +68,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [Dzone: Basic Git Branching](https://dzone.com/articles/basic-git-branching) In this article, we walk through the basics of branching with Git to get you started with better managing your versioning during projects.
 * [martinfowler.com: Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
     * [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html#release-branch) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
+* [medium: Which Git branching model should I select for my project?](https://medium.com/aventude/which-git-branching-model-should-i-select-73aafc503b5f)
 
 ### Trunk Based Development
 * [Trunk Based Development](https://trunkbaseddevelopment.com/)
@@ -75,6 +77,8 @@ It prescribes that software designers should define formal, precise and verifiab
 * [The Origins of Trunk Based Development](https://dzone.com/articles/origins-trunk-based)
 * [quora.com: What is trunk based development?](https://www.quora.com/What-is-trunk-based-development)
 * [kean.github.io: Trunk-Based Development](https://kean.github.io/post/trunk-based-development)
+* [paulhammant.com: Microsoft's Trunk-Based Development](https://paulhammant.com/2014/04/03/microsofts-trunk-based-development/)
+* [devblogs.microsoft.com: Release Flow: How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
 
 ### Feature Branch Development (aka GitFlow)
 * [nvie.com: Feature Branches. A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
@@ -120,6 +124,17 @@ git log --oneline --all --graph --decorate
 ## GitLab
 * [gitlab.com](https://gitlab.com/)
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
+
+## Azure DevOps (formerly known as VSTS) 
+* [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)
+    * [wikipedia: Azure DevOps Server](https://en.wikipedia.org/wiki/Azure_DevOps_Server) Collaboration software for software development formerly known as Team Foundation Server and Visual Studio Team System
+    * [wikipedia: Azure DevOps Services](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Azure_DevOps_Services) Cloud service for software development formerly known as Visual Studio Team Services, Visual Studio Online and Team Foundation Service Preview
+* [Azure DevOps Labs 🌟](https://azuredevopslabs.com/)
+* [twitter.com/azuredevops](https://twitter.com/azuredevops)
+* [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts)
+* [Microsoft Visual Studio Team Services (VSTS) Tutorial: The Cloud ALM Platform](https://www.softwaretestinghelp.com/microsoft-vsts-tutorial-1/)
+* [slideshare.net: Git version control and trunk based approach with VSTS](https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts)
+* [Microsoft Replacing Visual Studio Team Services with Azure DevOps](https://redmondmag.com/articles/2018/09/10/microsoft-replacing-vsts-with-azure-devops.aspx)
 
 ## CI/CD BOTs
 Use bots to accomplish tasks like merging PR's that have been approved and automatically updating dependencies. Usage of one of these bots might allow us to trigger certain builds based off of specific GitHub tags,  it would allow us to only selectively run certain test suites and increase the throughput of the build by only testing changes made in a branch / PR.
