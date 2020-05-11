@@ -21,16 +21,16 @@
 ## Jenkins
 * [CloudBees](https://www.cloudbees.com/)
 * [Wikipedia.org: Jenkins Software](https://en.wikipedia.org/wiki/Jenkins_(software))
-* [Jenkins.io (new Jenkins 2.0 site) 🌟🌟🌟🌟](https://jenkins.io/)
-* [jenkinsci.github.io 🌟🌟🌟🌟](http://jenkinsci.github.io/)
+* [Jenkins.io (new Jenkins 2.0 site) 🌟](https://jenkins.io/)
+* [jenkinsci.github.io 🌟](http://jenkinsci.github.io/)
 * [Official Jenkins Docker image](https://github.com/michaelneale/jenkins-ci.org-docker)
-* [github.com/jenkinsci 🌟🌟🌟🌟](https://github.com/jenkinsci)
-* [reddit.com/r/jenkinsci 🌟🌟🌟🌟](https://www.reddit.com/r/jenkinsci) 
+* [github.com/jenkinsci 🌟](https://github.com/jenkinsci)
+* [reddit.com/r/jenkinsci 🌟](https://www.reddit.com/r/jenkinsci) 
 * [dzone: getting started with jenkins the ultimate guide](https://dzone.com/articles/getting-started-with-jenkins-the-ultimate-guide)
 * [dzone: jenkins in a nutshell](https://dzone.com/articles/jenkins-in-a-nutshell)
 * [opensource.com: running jenkins builds containers 🌟](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * [WebSocket support in now available for Jenkins CLI and agent networking!](https://jenkins.io/blog/2020/02/02/web-socket/)
-* [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟🌟](https://webhookrelay.com/blog/2017/11/23/github-jenkins-guide/)
+* [webhookrelay.com: Receive Github webhooks on Jenkins without public IP 🌟](https://webhookrelay.com/blog/2017/11/23/github-jenkins-guide/)
 * [Dzone refcard: Jenkins on PaaS](https://dzone.com/refcardz/jenkins-paas) Continuous Integration with Jenkins for Java Projects. Includes a review of the most useful plugins, best practices, security, integration to an enterprise environment, and more.
 * [jenkins.io 2020-05-06: Slave to Agent renaming. Renaming of the official Docker images for Jenkins agents](https://www.jenkins.io/blog/2020/05/06/docker-agent-image-renaming/) We would like to announce the renaming of the official Docker images for Jenkins agents. The **"slave" term is widely considered inappropriate in open source communities**. It has been **officially deprecated in Jenkins 2.0 in 2016**, but there are remaining usages in some Jenkins components.
 
@@ -39,44 +39,44 @@
 * [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
 
 ## Jenkins Cheat Sheet
-* [edureka.co: Jenkins Cheat Sheet 🌟🌟🌟🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
+* [edureka.co: Jenkins Cheat Sheet 🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
 * [medium: Jenkins Cheat Sheet](https://medium.com/edureka/jenkins-cheat-sheet-e0f7e25558a3)
 * [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins/)
 
 ## Online Learning
 * [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
 * [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) Use Jenkins the DevOps way. Automate your Jenkins jobs by using Jenkins Pipelines, Docker, and the Jenkins Job DSL
-* [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course) 🌟🌟🌟🌟
+* [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course) 
 
 ## Jenkins Pipeline
-* [jenkins.io - doc/book/pipeline 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/)
-* [jenkins.io - **jenkinsfile** 🌟🌟🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) With **version 2** of the Jenkins Continuous Integration/Continuous Delivery (CI/CD) server, **a new job definition file has been introduced, called Jenkinsfile**. The initial Jenkinsfile format was based on Groovy. As groovy knowledge is not that widespread, a new and more straight forward was published in spring 2017. **This format is called Declarative Pipeline**. [This visual studio code extension](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) is aimed at making the manipulation of this file type easier.
-* [Dzone refcard: **Continuous Delivery with Jenkins Workflow** 🌟🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
+* [jenkins.io - doc/book/pipeline 🌟](https://jenkins.io/doc/book/pipeline/)
+* [jenkins.io - **jenkinsfile** 🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) With **version 2** of the Jenkins Continuous Integration/Continuous Delivery (CI/CD) server, **a new job definition file has been introduced, called Jenkinsfile**. The initial Jenkinsfile format was based on Groovy. As groovy knowledge is not that widespread, a new and more straight forward was published in spring 2017. **This format is called Declarative Pipeline**. [This visual studio code extension](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) is aimed at making the manipulation of this file type easier.
+* [Dzone refcard: **Continuous Delivery with Jenkins Workflow** 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow)
 * [GitHub Gist - Faheetah/Jenkinsfile.groovy: **Jenkinsfile idiosynchrasies with escaping and quotes**](https://gist.github.com/Faheetah/e11bd0315c34ed32e681616e41279ef4)
 * [jenkins.io: Jenkins CD and Pipelines Microsite](https://jenkins.io/solutions/pipeline/)
 * [dzone.com: Jenkins Pipeline - Software Delivery Made Easy](https://dzone.com/articles/jenkins-pipeline-software-delivery-made-easy) Jenkins 2.0 has focused on solving the problem for organizations wanting to continuously deliver software.
-* [DZone refcard: declarative pipeline with jenkins 🌟🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
-* [sdtimes.com: CI/CD pipelines are expanding 🌟🌟🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
-* [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟🌟🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins)
-* [dzone: learn how to setup a cicd pipeline from scratch 🌟🌟🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
+* [DZone refcard: declarative pipeline with jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins)
+* [sdtimes.com: CI/CD pipelines are expanding 🌟](https://sdtimes.com/devops/ci-cd-pipelines-are-expanding/) The “basic” CI/CD pipeline includes five processes, which are: merge, build, test, package and deploy. All of these are individually defined so readers have a common reference point. The basic pipeline includes sub-pipelines associated with each step, such as moving artifacts from a build into a repository.
+* [magalix.com: Create a CI/CD pipeline with Kubernetes and Jenkins (Ansible, Docker, Golang App) 🌟](https://www.magalix.com/blog/create-a-ci/cd-pipeline-with-kubernetes-and-jenkins)
+* [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
 * [dzone: how to use basic jenkins pipelines](https://dzone.com/articles/how-to-use-basic-jenkins-pipelines)
-* [opensource.com - building cicd pipelines with jenkins 🌟🌟🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
-* [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟🌟🌟](https://devopscube.com/jenkins-pipeline-as-code/)
+* [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
+* [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/)
 * [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/)
     * [github.com/LovesCloud/java-groovy-docker](https://github.com/LovesCloud/java-groovy-docker/) 
 * [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
-* [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
+* [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
 
 ## Jenkins Architecture. Performance and Scalability
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 * [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 * [devops.com: kubernetes jenkins master slave scalability](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
 * [rancher.com: scaling jenkins](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
-* [rancher.com: Deploying and Scaling Jenkins on Kubernetes 🌟🌟🌟](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
-* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟🌟🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
-* [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟🌟🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
+* [rancher.com: Deploying and Scaling Jenkins on Kubernetes 🌟](https://rancher.com/blog/2018/2018-11-27-scaling-jenkins/)
+* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
+* [dzone.com: How to Set Up Scalable Jenkins on Top of a Kubernetes Cluster 🌟](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
 * [devops.com: Kubernetes Jenkins Master-Slave: Scaling the Scalability Issue](https://devops.com/kubernetes-jenkins-master-slave-scaling-the-scalability-issue/)
 * [7 Ways to Optimize Jenkins](https://www.sitepoint.com/7-ways-optimize-jenkins/)
 * [devopscube.com: How to Setup Docker containers as Build Slaves for Jenkins](https://devopscube.com/docker-containers-as-build-slaves-jenkins/)
@@ -88,17 +88,17 @@
 
 ## Jenkins Plugins
 * [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)
-* [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟🌟🌟🌟](https://caylent.com/jenkins-plugins)
+* [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟](https://caylent.com/jenkins-plugins)
 * [blazemeter.com: Top Jenkins Plugins You Can’t Miss in 2018](https://www.blazemeter.com/blog/top-jenkins-plugins-you-cant-miss-in-2018/)
 * [dzone: Top 5 Jenkins Plugins (2017)](https://dzone.com/articles/5-best-jenkins-plugins-recommended-by-our-team)
 * [devops.com: 15 must have Jenkins plugins to increase productivity](https://devops.com/15-must-jenkins-plugins-increase-productivity/)
 * [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
 * [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/)
-* [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟🌟🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
+* [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
 
 ### Selection of Jenkins Plugins
 * [performance-plugin](https://github.com/jenkinsci/performance-plugin)
-* [Matrix 🌟🌟🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
+* [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
 * [syslog-logger](https://plugins.jenkins.io/syslog-logger)
 * [openshift-pipeline](https://plugins.jenkins.io/openshift-pipeline)
@@ -107,14 +107,14 @@
 * [openshift-login](https://plugins.jenkins.io/openshift-login)
 * [openshift-deployer](https://plugins.jenkins.io/openshift-deployer)
 * [kubernetes plugin](https://plugins.jenkins.io/kubernetes)
-* [Kubernetes Continuous Deploy 🌟🌟🌟](https://plugins.jenkins.io/kubernetes-cd)
-* [Atlassian's new Bitbucket Server integration for Jenkins 🌟🌟🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/)
-* [Blue Ocean 🌟🌟🌟](https://plugins.jenkins.io/blueocean/)
-* [Cloudbees Flow 🌟🌟🌟](https://plugins.jenkins.io/electricflow)
-* [Cloudbees Credentials 🌟🌟](https://plugins.jenkins.io/cloudbees-credentials)
+* [Kubernetes Continuous Deploy 🌟](https://plugins.jenkins.io/kubernetes-cd)
+* [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/)
+* [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean/)
+* [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow)
+* [Cloudbees Credentials 🌟](https://plugins.jenkins.io/cloudbees-credentials)
 * [CloudBees Health Advisor](https://plugins.jenkins.io/cloudbees-jenkins-advisor)
 * [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple)
-* [CloudBees AWS Credentials 🌟🌟](https://plugins.jenkins.io/aws-credentials)
+* [CloudBees AWS Credentials 🌟](https://plugins.jenkins.io/aws-credentials)
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
 * [Code Average API](https://plugins.jenkins.io/code-coverage-api)
 * [Fortify](https://plugins.jenkins.io/fortify)
@@ -159,7 +159,7 @@
 |:---:|:---:|
 
 ### Cloudbees Flow
-* [**Cloudbees Flow** 🌟🌟🌟](https://www.cloudbees.com/products/flow/overview)
+* [**Cloudbees Flow** 🌟](https://www.cloudbees.com/products/flow/overview)
 * [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/)
 
 <iframe src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -192,7 +192,7 @@
 * [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
 
 ## Kubernetes Native Jenkins Operator 
-* [github.com/jenkinsci/kubernetes-operator: 🌟🌟🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
+* [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
 
 ## Jervis: Jenkins as a service
 * [Jervis](https://github.com/samrocketman/jervis/wiki) is [Sam Gleske](https://github.com/samrocketman)'s vision of a good way to roll out Jenkins as a service in very large organizations.
