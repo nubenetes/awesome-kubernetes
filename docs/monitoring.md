@@ -23,6 +23,7 @@
         - [Ansible Roles](#ansible-roles)
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
+    - [Grafana Dashboards](#grafana-dashboards)
 - [Kibana](#kibana)
 - [Interactive Learning](#interactive-learning)
 - [Performance](#performance)
@@ -245,13 +246,21 @@ Although it's exciting to see attempts to address the challenges of running Prom
 ## Grafana
 * [Grafana](https://grafana.com/) 
 * Prometheus utiliza plantillas de consola para los dashboards, si bien su curva de aprendizaje de sus múltiples funcionalidades es alta, con una interfaz de usuario insuficiente. Por este motivo es muy habitual utilizar **Grafana** como interfaz de usuario.
-* [Grafana Dashboards](https://grafana.com/grafana/dashboards)
-* [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 * [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
     * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
+
+### Grafana Dashboards
+* [Grafana Dashboards](https://grafana.com/grafana/dashboards)
+* [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 * [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 * [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
-* [Prometheus Monitoring With Grafana](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
+* [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
+
+Monitored Component|Collector|Dashboard Number|URL
+:------------------|:-------:|:---------------:|------------:|
+Message Streams like Kafka|Other|[9777](https://grafana.com/grafana/dashboards/9777)| None 
+ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[ActiveMQ Integration](https://docs.wavefront.com/activemq.html)
+ActiveMQ Artemis|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[jmx exporter artemis](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml)
 
 ## Kibana
 * [Kibana](https://www.elastic.co/kibana)
