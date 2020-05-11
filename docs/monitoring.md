@@ -14,8 +14,11 @@
         - [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
     - [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
         - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
-        - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
         - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
+        - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
+            - [OpenTelemetry Collector](#opentelemetry-collector)
+            - [Telegraf Collector](#telegraf-collector)
+            - [Micrometer Collector](#micrometer-collector)
     - [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
     - [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
     - [Prometheus Installers](#prometheus-installers)
@@ -31,6 +34,7 @@
 - [Application Performance Management (APM)](#application-performance-management-apm)
     - [Dynatrace APM](#dynatrace-apm)
 - [Message Queue Monitoring](#message-queue-monitoring)
+- [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ## Monitoring
@@ -115,10 +119,9 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [PromQL Tutorial](https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085)
 * [How to use Ansible to set up system monitoring with Prometheus](https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus)
 * [Initial experiences with the Prometheus monitoring system](https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c)
-* [Synthetic Monitoring With Telegraf (white-box monitoring)](https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
-*	[https://prometheus.io/docs/instrumenting/writing_exporters/](https://prometheus.io/docs/instrumenting/writing_exporters/)
-*	[https://devconnected.com/complete-node-exporter-mastery-with-prometheus/](https://devconnected.com/complete-node-exporter-mastery-with-prometheus/)
-*	[https://www.scalyr.com/blog/prometheus-metrics-by-example/](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
+* [https://prometheus.io/docs/instrumenting/writing_exporters/](https://prometheus.io/docs/instrumenting/writing_exporters/)
+* [https://devconnected.com/complete-node-exporter-mastery-with-prometheus/](https://devconnected.com/complete-node-exporter-mastery-with-prometheus/)
+* [https://www.scalyr.com/blog/prometheus-metrics-by-example/](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
 * Prometheus es un "time series DBMS" y sistema de monitorización completo, que incluye recogida de datos, almacenamiento, visualización y exportación. 
 * La **arquitectura de Prometheus** se basa en **"pull metrics" (extracción de métricas)**. En lugar de empujar las métricas ("pushing metrics") hacia la herramienta de monitorización, **extrae ("pull") las métricas de los servicios (por defecto un "/metrics" HTTP endpoint)** en texto plano (parseable por humanos y de fácil diagnóstico). Prometheus también tiene un "push gateway", de modo que también soporta "push" para métricas específicas cuando el modelo de "pull" no funciona (si bien este método no es recomendable).
 * Prometheus se puede conectar a **series de tiempo (time series)** con un nombre de métrica y pares clave-valor, simplificando la monitorización en complejos entornos cloud multi-nodo.
@@ -189,23 +192,30 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
 * [Example: JMX Exporter with ActiveMQ](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
 
-#### Prometheus Third-party Collectors/Exporters
-* Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed.
-* [Prometheus Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
-* [**OpenTelemetry** collector](https://github.com/open-telemetry/opentelemetry-collector)
-* [**Telegraf** Collector](https://www.influxdata.com/time-series-platform/telegraf/)
-    * [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client)
-    * [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
-    * [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards?collector=Telegraf)
-* [**Micrometer** Collector](http://micrometer.io/)
-    * [Micrometer Prometheus](https://micrometer.io/docs/registry/prometheus)
-
 #### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
 * [https://dzone.com/articles/prometheus-collectors](https://dzone.com/articles/prometheus-collectors)
 * [https://prometheus.io/docs/instrumenting/writing_exporters/](https://prometheus.io/docs/instrumenting/writing_exporters/)
 * [https://devconnected.com/complete-node-exporter-mastery-with-prometheus](https://devconnected.com/complete-node-exporter-mastery-with-prometheus)
 * [https://www.scalyr.com/blog/prometheus-metrics-by-example/](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
+
+#### Prometheus Third-party Collectors/Exporters
+* Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed.
+* [Prometheus Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+  
+##### OpenTelemetry Collector
+* [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
+
+##### Telegraf Collector
+* [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)
+* [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client)
+* [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
+* [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards?collector=Telegraf)
+* [dzone: Synthetic Monitoring With Telegraf (white-box monitoring)](https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
+
+##### Micrometer Collector
+* [**Micrometer** Collector](http://micrometer.io/)
+* [Micrometer Prometheus](https://micrometer.io/docs/registry/prometheus)
 
 ### Prometheus Alarms and Event Tracking
 * Prometheus no soporta rastreo de eventos (event tracking), pero ofrece un soporte completo de alarmas y gestión de alarmas. El lenguaje de consultas (queries) de Prometheus permite en cambio implementar rastreo de eventos por cuenta propia.
@@ -263,7 +273,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------:|:---------------:|------------:
-ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[Ref1](https://docs.wavefront.com/activemq.html), [Ref2](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq), [Ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/activemq.yml)
+ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[Ref1](https://docs.wavefront.com/activemq.html), [Ref2](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq), [Ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/activemq.yml), [Ref4](https://stackoverflow.com/questions/57107282/prometheus-and-activemq-integration)
 ActiveMQ Artemis/Red Hat AMQ Broker|[JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[Ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml), [Ref2](http://techiekhannotes.blogspot.com/2018/12/artemis-monitoring-with-grafana.html), [Ref3](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/grafana/dashboards/9777)|  
 
@@ -355,6 +365,17 @@ Red Hat AMQ Broker (ActiveMQ Artemis)|Prometheus plugin for AMQ Broker|[ref1](ht
 Red Hat AMQ Streams (Kafka)|[JMX](https://www.oracle.com/java/technologies/javase/javamanagement.html), OpenTracing+Jaeger|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/index),[ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/assembly-distributed-tracing-str)
 Red Hat AMQ Streams Operator|AMQ Streams Operator (Prometheus & Jaeger), strimzi, jmxtrans|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-metrics-setup-str), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-distributed-tracing-str), [ref3 strimzi](https://operatorhub.io/operator/strimzi-kafka-operator), [ref4: **jmxtrans**](https://github.com/jmxtrans/jmxtrans), [ref5: banzai operator](https://operatorhub.io/operator/banzaicloud-kafka-operator)
 Red Hat AMQ Broker Operator|Prometheus (recommended) or Jolokia REST to JMX|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref3](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#assembly_br-monitoring-broker-runtime-data-using-prometheus_broker-ocp), [ref4](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#proc_br-monitoring-broker_broker-ocp), [ref5](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#con-br-overview-of-prometheus-metrics_broker-ocp)
+
+## Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana
+This is a selection of monitoring solutions suitable for RH AMQ 7 Broker based on Prometheus and Grafana:
+
+Environment|Collector/Exporter|Details/URL
+:----------|:----------------:|--------------:
+RHEL|Prometheus Plugin for AMQ Broker|[ref](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/managing_amq_broker/prometheus-plugin-managing)
+RHEL|Prometheus JMX Exporter|Same solution applied to ActiveMQ Artemis
+OpenShift 3|Prometheus Plugin for AMQ Broker|**Grafana Dashboard not available**, [ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp)
+OpenShift 4|Prometheus Plugin for AMQ Broker|Check if Grafana Dashboard is automatically setup by Red Hat AMQ Operator
+OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](https://www.openshift.com/blog/enhanced-openshift-jboss-amq-container-image-for-production), [ref2](https://github.com/lbroudoux/openshift-cases/tree/master/jboss-amq7-custom)
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
