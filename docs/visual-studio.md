@@ -3,9 +3,10 @@
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
     - [Publishers](#publishers)
     - [Extensions](#extensions)
-    - [Git Flow](#git-flow)
-    - [DevOps Extensions](#devops-extensions)
-    - [Jenkins Extensions](#jenkins-extensions)
+        - [DevOps Extensions](#devops-extensions)
+        - [Azure DevOps Extensions](#azure-devops-extensions)
+        - [Git Flow Extensions](#git-flow-extensions)
+        - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 - [Videos](#videos)
 
@@ -22,7 +23,6 @@
 
 ### Publishers
 * [Microsoft 🌟](https://marketplace.visualstudio.com/publishers/Microsoft)
-* [Azure DevOps](https://marketplace.visualstudio.com/azuredevops)
 * [Red Hat 🌟](https://marketplace.visualstudio.com/publishers/redhat)
 * [AmazonWebServices](https://marketplace.visualstudio.com/publishers/AmazonWebServices)
 * [Google Cloud](https://marketplace.visualstudio.com/publishers/GoogleCloudTools)
@@ -45,13 +45,7 @@ A simple extension to make indentation more readable
 * [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 * [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
 
-### Git Flow
-* [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow) Gitflow integration and support in Visual Studio Code
-* [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code)
-* [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) Extension to list,view and create Git-flow like branches from issues
-* [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow)
-
-### DevOps Extensions
+#### DevOps Extensions
 * [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
 * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow)
 * [Kubernetes (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) Develop, deploy and debug Kubernetes applications
@@ -61,7 +55,16 @@ A simple extension to make indentation more readable
     * [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/)
 * [Ansible](https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)
 
-### Jenkins Extensions
+#### Azure DevOps Extensions
+* [Azure DevOps 🌟](https://marketplace.visualstudio.com/azuredevops)
+
+#### Git Flow Extensions
+* [gitflow by vector-of-bool](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.gitflow) Gitflow integration and support in Visual Studio Code
+* [GitFlow 4 Code](https://marketplace.visualstudio.com/items?itemName=GreatMinds.gitflow4code)
+* [JirAux (Jira integration)](https://marketplace.visualstudio.com/items?itemName=SemihOnay.jiraux) Extension to list,view and create Git-flow like branches from issues
+* [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow)
+
+#### Jenkins Extensions
 * [Jenkins JCasC-Plugin](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) This extension is used to integrate a live jenkins instance configuration with your editor. It can be used to edit and validate YAML files.
 * [Jenkins Pipeline Linter Connector](https://marketplace.visualstudio.com/items?itemName=janjoerke.jenkins-pipeline-linter-connector) Validates Jenkinsfiles by sending them to the Pipeline Linter of a Jenkins server.
 * [secanis.ch: Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=secanis.jenkinsfile-support) Adds syntax highlighting support for Jenkinsfile's. In this version, it's the same like Groovy is.
