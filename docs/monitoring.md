@@ -258,9 +258,9 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------:|:---------------:|------------:
-Message Streams like Kafka|Other|[9777](https://grafana.com/grafana/dashboards/9777)| None 
-ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[ActiveMQ Integration](https://docs.wavefront.com/activemq.html)
-ActiveMQ Artemis|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[jmx exporter artemis](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml)
+Message Streams like Kafka|Other|[9777](https://grafana.com/grafana/dashboards/9777)|  
+ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[ActiveMQ Integration](https://docs.wavefront.com/activemq.html), [Config Example](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/activemq.yml)
+ActiveMQ Artemis|[JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[Ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml), [Ref2](http://techiekhannotes.blogspot.com/2018/12/artemis-monitoring-with-grafana.html), [Ref 3](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 
 ## Kibana
 * [Kibana](https://www.elastic.co/kibana)
