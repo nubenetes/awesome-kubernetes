@@ -1,5 +1,6 @@
 # Kubernetes
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
+- [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
@@ -74,6 +75,9 @@
 
 ## Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟](https://www.cncf.io/certification/software-conformance/)
+
+## The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
+* [Cloud-Native Development Survey Details Kubernetes, Serverless Data 🌟](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
 
 ## Kubernetes open-source container-orchestation
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
