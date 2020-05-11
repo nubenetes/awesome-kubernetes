@@ -12,9 +12,9 @@
     - [Prometheus Storage](#prometheus-storage)
         - [Scalability, High Availability (HA) and Long-Term Storage](#scalability-high-availability-ha-and-long-term-storage)
         - [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
-    - [Collectors](#collectors)
+    - [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
         - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
-        - [Prometheus Third Party Exporters](#prometheus-third-party-exporters)
+        - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
         - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
     - [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
     - [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
@@ -30,6 +30,7 @@
 - [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
 - [Application Performance Management (APM)](#application-performance-management-apm)
     - [Dynatrace APM](#dynatrace-apm)
+- [Message Queue Monitoring](#message-queue-monitoring)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ## Monitoring
@@ -174,10 +175,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 
-### Collectors
-* [OpenTelemetry collector](https://github.com/open-telemetry/opentelemetry-collector)
-* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
-* [Micrometer](http://micrometer.io/)
+### Collectors. Software exposing Prometheus metrics
 
 #### Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)
 * Prometheus proporciona un ecosistema de **"exporters"**, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto. 
@@ -191,9 +189,16 @@ Although it's exciting to see attempts to address the challenges of running Prom
     * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
 * [Example: JMX Exporter with ActiveMQ](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
 
-#### Prometheus Third Party Exporters
+#### Prometheus Third-party Collectors/Exporters
+* Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed.
 * [Prometheus Third Party Exporters](https://prometheus.io/docs/instrumenting/exporters/)
-* [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus](https://github.com/percona/grafana-dashboards)
+* [**OpenTelemetry** collector](https://github.com/open-telemetry/opentelemetry-collector)
+* [**Telegraf** Collector](https://www.influxdata.com/time-series-platform/telegraf/)
+    * [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client)
+    * [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
+    * [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards?collector=Telegraf)
+* [**Micrometer** Collector](http://micrometer.io/)
+    * [Micrometer Prometheus](https://micrometer.io/docs/registry/prometheus)
 
 #### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
@@ -330,6 +335,26 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 * [dynatrace.com: Deploy OneAgent on OpenShift Container Platform](https://www.dynatrace.com/support/help/cloud-platforms/openshift/full-stack/deploy-oneagent-on-openshift-container-platform/)
 * [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid/)
 * [My Dynatrace proof of concept 🌟](https://github.com/inafev/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf)
+
+## Message Queue Monitoring
+
+Messaging Solution|Monitoring Solution|URL
+:-------|:-------:|-----:
+ActiveMQ 5.8.0+|[Dynatrace](https://www.dynatrace.com)|[ref](https://www.dynatrace.com/support/help/technology-support/application-software/other-technologies/supported-out-of-the-box/activemq/)
+ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io/) + Prometheus|[ref1](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
+IBM MQ|[IBM MQ](https://github.com/ibm-messaging) Exporter for Prometheus|[ref](https://github.com/ibm-messaging/mq-metric-samples/tree/master/cmd/mq_prometheus)
+Kakfa|[Dynatrace](https://www.dynatrace.com)|[ref1](https://www.dynatrace.com/support/help/technology-support/application-software/other-technologies/supported-out-of-the-box/kafka/), [ref2](https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring-beta/), [ref3](https://answers.dynatrace.com/spaces/482/dynatrace-open-qa/questions/232421/dynatrace-distributed-tracing-with-kafka.html)
+Kafka|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/zookeeper.yaml), [ref2](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/kafka-2_0_0.yml), [ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/kafka-connect.yml), [ref4](https://strimzi.io/blog/2019/10/14/improving-prometheus-metrics/), [ref5](https://medium.com/activewizards-machine-learning-company/kafka-monitoring-with-prometheus-telegraf-and-grafana-6228fed736f1), [ref6](https://medium.com/@nblaye/exporting-kafka-jmx-metrics-to-grafana-1b9d32fe900a), [ref7](https://blog.knoldus.com/monitoring-kafka-with-prometheus-and-grafana/)
+Kafka|Kafka Exporter|[ref](https://github.com/danielqsj/kafka_exporter), [Use JMX Exporter to export other metrics](https://github.com/prometheus/jmx_exporter)
+Kafka|Kafdrop – Kafka Web UI|[ref](https://github.com/obsidiandynamics/kafdrop)
+Kafka|ZooNavigator: Web-based ZooKeeper UI|[ref](https://zoonavigator.elkozmon.com/)
+Kafka|CMAK (Cluster Manager for Apache Kafka, previously known as Kafka Manager)|[ref](https://github.com/patelh/kafka-manager)
+Kafka|Xinfra Monitor (renamed from Kafka Monitor, created by Linkedin)|[ref](https://github.com/linkedin/kafka-monitor)
+Kafka|Telegraf + InfluxDB|[ref](https://www.influxdata.com/integration/kafka-telegraf-integration/)
+Red Hat AMQ Broker (ActiveMQ Artemis)|Prometheus plugin for AMQ Broker|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/managing_amq_broker/prometheus-plugin-managing), [ref2](https://github.com/lbroudoux/openshift-cases/tree/master/jboss-amq7-custom), [ref3](https://www.openshift.com/blog/enhanced-openshift-jboss-amq-container-image-for-production)
+Red Hat AMQ Streams (Kafka)|[JMX](https://www.oracle.com/java/technologies/javase/javamanagement.html), OpenTracing+Jaeger|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/index),[ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_rhel/assembly-distributed-tracing-str)
+Red Hat AMQ Streams Operator|AMQ Streams Operator (Prometheus & Jaeger), strimzi, jmxtrans|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-metrics-setup-str), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/using_amq_streams_on_openshift/assembly-distributed-tracing-str), [ref3 strimzi](https://operatorhub.io/operator/strimzi-kafka-operator), [ref4: **jmxtrans**](https://github.com/jmxtrans/jmxtrans), [ref5: banzai operator](https://operatorhub.io/operator/banzaicloud-kafka-operator)
+Red Hat AMQ Broker Operator|Prometheus (recommended) or Jolokia REST to JMX|[ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp), [ref3](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#assembly_br-monitoring-broker-runtime-data-using-prometheus_broker-ocp), [ref4](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#proc_br-monitoring-broker_broker-ocp), [ref5](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp#con-br-overview-of-prometheus-metrics_broker-ocp)
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
