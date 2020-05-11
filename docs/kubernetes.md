@@ -555,7 +555,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
     * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
 ## Serverless with OpenFaas and Knative
-* [Serverless Architectures](../docs/serverless.md)
+* [Serverless Architectures](serverless.md)
 
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
 
