@@ -257,7 +257,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 
 Monitored Component|Collector|Dashboard Number|URL
-:------------------|:-------:|:---------------:|------------:|
+:------------------|:-------:|:---------------:|------------:
 Message Streams like Kafka|Other|[9777](https://grafana.com/grafana/dashboards/9777)| None 
 ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[ActiveMQ Integration](https://docs.wavefront.com/activemq.html)
 ActiveMQ Artemis|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[jmx exporter artemis](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml)
