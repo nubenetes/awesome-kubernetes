@@ -12,6 +12,7 @@
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
+- [GitHub](#github)
 - [Git Tools](#git-tools)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [CI/CD BOTs (aka Merge BOTs)](#cicd-bots-aka-merge-bots)
@@ -132,6 +133,12 @@ git log --oneline --all --graph --decorate
 * [gitlab.com](https://gitlab.com/)
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
 
+## GitHub
+* [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
+* [GitHub CLI](https://cli.github.com/)
+    * [github.com/cli/cli](https://github.com/cli/cli)
+    * [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)
+
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 * [gitkraken.com](https://www.gitkraken.com/)
@@ -140,10 +147,6 @@ git log --oneline --all --graph --decorate
 * [gmaster](https://gmaster.io/)
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
-* [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
-* [GitHub CLI](https://cli.github.com/)
-    * [github.com/cli/cli](https://github.com/cli/cli)
-    * [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)
 
 ## Azure DevOps (formerly known as VSTS) 
 * [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)

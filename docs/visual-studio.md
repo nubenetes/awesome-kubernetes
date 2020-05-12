@@ -12,6 +12,7 @@
 
 ## VSCode
 * [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 * [deepu.js.org: My VS Code setup - Making the most out of VS Code](https://deepu.js.org/make-the-most-out-of-vscode/)
