@@ -3,6 +3,7 @@
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
 - [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+    - [Git Workflows](#git-workflows)
     - [Trunk Based Development](#trunk-based-development)
     - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
         - [Git Flow](#git-flow)
@@ -18,19 +19,21 @@
 - [CI/CD BOTs (aka Merge BOTs)](#cicd-bots-aka-merge-bots)
     - [Tips](#tips)
     - [Jenkins for git merges](#jenkins-for-git-merges)
+    - [Bitbucket for git merges](#bitbucket-for-git-merges)
+    - [GitLab for git merges](#gitlab-for-git-merges)
+        - [Marge GitLab bot](#marge-gitlab-bot)
     - [Jenkins-X bots](#jenkins-x-bots)
     - [Plastic SCM bot](#plastic-scm-bot)
-    - [Mergify](#mergify)
+    - [Mergify bot](#mergify-bot)
     - [GitHub bots](#github-bots)
         - [Bors GitHub bot](#bors-github-bot)
-        - [Marge GitHub bot](#marge-github-bot)
 
 ## Git Distributed Version-Control System
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
 * [Git](https://git-scm.com/)
     * [git-scm.com/book](https://git-scm.com/book)
 * [devdocs.io/git/](https://devdocs.io/git/)
-* [tutorialzine.com: Learn git in 30 minutes 🌟🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
+* [tutorialzine.com: Learn git in 30 minutes 🌟](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
 * [3 Git Commands I Use Every Day](https://dev.to/gonedark/3-git-commands-i-use-every-day)
 * [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 * [opensource.com: How to restore older file versions in Git](https://opensource.com/life/16/7/how-restore-older-file-versions-git)
@@ -70,7 +73,7 @@ It prescribes that software designers should define formal, precise and verifiab
 ## Patterns for Managing Source Code Branches (Branching Models/Workflows)
 * [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.
 * [adevait.com: Creating a Branching Strategy for Small Teams](https://adevait.com/software/creating-branching-strategy)
-* [atlassian.com: Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [atlassian.com: Configuring branching models 🌟](https://confluence.atlassian.com/bitbucketserver/using-branches-in-bitbucket-server-776639968.html#UsingbranchesinBitbucketServer-model)
 * [git-scm.com: Git Branching - Branching Workflows](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 * [git-scm.com: Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
     * [Distributed Git - Distributed Workflows - Integration-Manager Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
@@ -80,6 +83,14 @@ It prescribes that software designers should define formal, precise and verifiab
 * [martinfowler.com: Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
     * [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html#release-branch) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
 * [medium: Which Git branching model should I select for my project?](https://medium.com/aventude/which-git-branching-model-should-i-select-73aafc503b5f)
+
+### Git Workflows
+* ```git help workflows```
+* [atlassian.com: Comparing Workflows 🌟](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+* [GitHub Flow](https://guides.github.com/introduction/flow/)
+* [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/)
+* [Git DMZ Flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66)
 
 ### Trunk Based Development
 * [Trunk Based Development](https://trunkbaseddevelopment.com/)
@@ -179,6 +190,28 @@ git log --oneline --all --graph --decorate
 * [GitHub Pull Request Builder Plugin](https://plugins.jenkins.io/ghprb/) , [github ref](https://github.com/jenkinsci/ghprb-plugin). You should probably migrate to GitHub Branch Source Plugin.
 * [GitHub Branch Source Plugin:](https://plugins.jenkins.io/github-branch-source/) Allows you to create a new project based on the repository structure from one or more GitHub users or organizations.
 
+### Bitbucket for git merges
+* [Automatic branch merging](https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html)
+* [BitBucket Auto Merge](https://github.com/bluefrg/bitbucket-auto-merge) Automatically create and merge pull request to keep branches in sync.
+* [BitBucket Bot for Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/new-bitbucket-bot-for-microsoft-teams/ba-p/218212)
+* [Code Dog](https://code-dog.app/) Merge your Pull Requests sooner. Some of the Slack messages your team sends are critical for productivity.
+Automate them.
+* [Jenkins Plugin: Bitbucket Push and Pull Request](https://plugins.jenkins.io/bitbucket-push-and-pull-request/)
+* [How to Implement the Automerge feature that is missing from BitBucket cloud](https://poolofthought.com/how-to-implement-the-automerge-feature-that-is-missing-from-bitbucket-cloud/)
+* [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/t5/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222)
+
+### GitLab for git merges
+* [Auto-merge between release branches](https://gitlab.com/gitlab-org/gitlab/-/issues/2785)
+* [Provide merge bot functionality](https://gitlab.com/gitlab-org/gitlab/-/issues/14595)
+* [lab.texthtml.net: Gitlab Merge Bot](https://lab.texthtml.net/gitlab/merge-bot)
+    * [DockerHub: Gitlab Merge Bot](https://hub.docker.com/r/texthtml/gitlab-merge-bot/) Bot assistant for code review and merge requests approval for Gitlab
+
+#### Marge GitLab bot
+* [Marge-bot: A merge-bot for GitLab](https://github.com/smarkets/marge-bot)
+* [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/marge-merge-bot)
+* [Example: Smarkets's Marge-bot for GitLab keeps master always green](https://smarketshq.com/marge-bot-for-gitlab-keeps-master-always-green-6070e9d248df)
+* [Example: GStreamer Merge Bot](https://gitlab.freedesktop.org/gstreamer-merge-bot)
+
 ### Jenkins-X bots
 * [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot) A simple bot for updating dependencies in source code and automatically generating Pull Requests in downstream projects.
 
@@ -186,7 +219,7 @@ git log --oneline --all --graph --decorate
 * [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle ](https://github.com/PlasticSCM/trunk-mergebot)
 * [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
 
-### Mergify
+### Mergify bot
 * [mergify.io](https://mergify.io/)  
 * [medium: Merging Bots’ Pull Requests Automatically](https://medium.com/mergify/merging-bots-pull-requests-automatically-548ed0b4a424)
 
@@ -203,11 +236,5 @@ git log --oneline --all --graph --decorate
 * [Bors - Readme](https://bors.tech/devdocs/bors-ng/readme.html)
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 * [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
-
-#### Marge GitHub bot
-* [Marge-bot: A merge-bot for GitLab](https://github.com/smarkets/marge-bot)
-* [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/marge-merge-bot)
-* [Example: Smarkets's Marge-bot for GitLab keeps master always green](https://smarketshq.com/marge-bot-for-gitlab-keeps-master-always-green-6070e9d248df)
-* [Example: GStreamer Merge Bot](https://gitlab.freedesktop.org/gstreamer-merge-bot)
 
 
