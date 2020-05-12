@@ -35,7 +35,8 @@
     - [Quay Container Registry](#quay-container-registry)
 - [OpenShift.io online IDE](#openshiftio-online-ide)
 - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
-- [E-books](#e-books)
+- [e-Books](#e-books)
+    - [Kubernetes e-Books](#kubernetes-e-books)
 - [Online Learning](#online-learning)
 - [Local Installers](#local-installers)
 - [Cluster Installers](#cluster-installers)
@@ -302,15 +303,17 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 * [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)
 * [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)
 
-## E-books
+## e-Books
 * [O'Reilly Free Book: **DevOps with OpenShift**](https://www.openshift.com/devops-with-openshift/)
 * [O'Reilly Free Book: **Openshift for developers**](https://www.openshift.com/for-developers/)
 * [O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook)
 * [Manning: **Openshift in action**](https://www.manning.com/books/openshift-in-action)
 * [Packt publishing: **Learn Openshift**](https://www.packtpub.com/application-development/learn-openshift)
 * [O’Reilly: Free ebook: **Knative Cookbook**: Building Effective Serverless Applications with Kubernetes and OpenShift](https://developers.redhat.com/books/knative-cookbook/)
-* [magalix.com Free ebook: **Kubernetes Application Architecture Patterns**](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
 * [redhat.com Free ebook: **Container Storage for Dummies**](https://www.redhat.com/en/resources/container-storage-dummies)
+
+### Kubernetes e-Books
+* [Kubernetes e-Books](kubernetes.md/#e-Books)
 
 ## Online Learning
 * [learn.openshift.com 🌟](https://learn.openshift.com) Interactive Learning Portal

@@ -21,7 +21,12 @@
 - [Other kubernetes tools](#other-kubernetes-tools)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
+    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
+    - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Patterns](#kubernetes-patterns)
+- [e-Books](#e-books)
+    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
+    - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
 - [Kubernetes Networking](#kubernetes-networking)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
@@ -307,32 +312,43 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
 * [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟🌟🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
 * [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟🌟🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
-* **Famous Kubernetes resources of 2019:**
-    * [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
-    * [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes/)
-    * [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started/)
-    * [Kubernetes Tutorial: Learn the Basics](https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh)
-    * [Kubernetes essentials E-book 🌟](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
-    * [Cloud-Native DevOps With Kubernetes O'Reilly book (Free) 🌟](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
-    * [Complete Kubernetes Course](https://www.youtube.com/watch?v=0KQndcIedeg)
-    * [Getting started with Kubernetes](https://learn.pluralsight.com/programs/2019/free-course/template4)
 * [wardviaene/kubernetes-course 🌟🌟](https://github.com/wardviaene/kubernetes-course) 
 * [wardviaene/advanced-kubernetes-course 🌟🌟](https://github.com/wardviaene/advanced-kubernetes-course) 
 * [dzone: The complete kubernetes collection tutorials and tools 🌟](https://dzone.com/articles/the-complete-kubernetes-collection-tutorials-and-tools)
 * [dzone: kubernetes in 10 minutes a complete guide to look](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 * [magalix.com: The Best Kubernetes Tutorials 🌟](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 * [35 Advanced Tutorials to Learn Kubernetes 🌟](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
+
+### Famous Kubernetes resources of 2019
+* [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
+* [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes/)
+* [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started/)
+* [Kubernetes Tutorial: Learn the Basics](https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh)
+* [Complete Kubernetes Course](https://www.youtube.com/watch?v=0KQndcIedeg)
+* [Getting started with Kubernetes](https://learn.pluralsight.com/programs/2019/free-course/template4)
+
+### Famous Kubernetes resources of 2020
 * [javarevisited.blogspot.com: Top 5 courses to Learn Docker and Kubernetes in 2020 - Best of Lot](https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html)
 * [skillslane.com: 10 Best Kubernetes Courses [2020]: Beginner to Advanced Courses](https://skillslane.com/learn-kubernetes-from-these-best-online-courses/)
 
 ## Kubernetes Patterns
-* [redhat.com: Kubernetes Patterns e-book 🌟](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
 * [github.com/k8spatterns/examples 🌟](https://github.com/k8spatterns/examples) Examples for "Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications"
 * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
 * [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
 * [gardener.cloud: Kubernetes Antipatterns](https://gardener.cloud/050-tutorials/content/howto/antipattern/)
 * [dzone.com: Performance Patterns in Microservices-Based Integrations 🌟🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)
-* [magalix.com: Kubernetes Application Architecture Patterns eBook 🌟](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
+* [developers.redhat.com: Top 10 must-know Kubernetes design patterns](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
+
+[![Top 10 Kubernetes patterns](images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
+
+## e-Books
+### Famous Kubernetes resources of 2019
+* [Kubernetes essentials E-book 🌟](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
+* [Cloud-Native DevOps With Kubernetes O'Reilly book (Free) 🌟](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
+
+### Kubernetes Patterns eBooks
+* [k8spatterns.io: Free Kubernetes Patterns e-book 🌟](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+* [magalix.com: Free Kubernetes Application Architecture Patterns eBook 🌟](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
 
 ## Kubernetes Operators
 * [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
