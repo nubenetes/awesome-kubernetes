@@ -18,20 +18,21 @@
         - [Red Hat Communities of Practice](#red-hat-communities-of-practice)
         - [Jenkins Pipelines in OpenShift 4](#jenkins-pipelines-in-openshift-4)
     - [OpenShift Pipelines (aka Tekton CI/CD Pipelines)](#openshift-pipelines-aka-tekton-cicd-pipelines)
+        - [Tekton and Tekton Pipelines](#tekton-and-tekton-pipelines)
 - [Slides](#slides)
 
 ##  Deploying Jenkins on OpenShift
 * [Jenkins Docker Image for Openshift v3](https://github.com/openshift/jenkins)
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
-* [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟🌟🌟🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
+* [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
 
 ### Jenkins Container Images in OpenShift
 * [docs.okd.io: Jenkins in Openshift](https://docs.okd.io/latest/using_images/other_images/jenkins.html) Openshift provides a container image for running Jenkins. This image provides a Jenkins server instance, which can be used to set up a basic flow for continuous testing, integration, and delivery.
 * [OCP 4.2 - Jenkins image](https://docs.openshift.com/container-platform/4.2/openshift_images/using_images/images-other-jenkins-agent.html)
 
 ## External Jenkins Integration with OpenShift
-* [**uncontained.io**: External Jenkins Integration 🌟🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
+* [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
 
 ## Improving Jenkins’ performance on Openshift
 * [blog.openshift.com: Deploying jenkins on openshift - part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
@@ -45,7 +46,7 @@
 
 ### OpenShift Pipelines with S2i
 * [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
-* [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟🌟🌟](https://blog.openshift.com/openshift-3-walkthrough/)
+* [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 
 ## OpenShift Deployments with Deployment Descriptor
@@ -59,7 +60,7 @@
 * [Using **KubeFed** to deploy applications](https://blog.openshift.comusing-kubefed-to-deploy-applications-to-ocp3-and-ocp4-clusters/)
 
 ## ODO - OpenShift Command line for Developers
-* [ODO: OpenShift Command line for Developers 🌟🌟🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
+* [ODO: OpenShift Command line for Developers 🌟](https://github.com/redhat-developer/odo) OpenShift Do (Odo) is a CLI tool for developers who are writing, building, and deploying applications on OpenShift. With Odo, developers get an opinionated CLI tool that supports fast, iterative development which abstracts away Kubernetes and OpenShift concepts, thus allowing them to focus on what's most important to them: code.
 * [developers.redhat.com: odo Cheat Sheet](https://developers.redhat.com/cheat-sheets/odo-cheat-sheet/)
 
 ## OpenShift Pipelines
@@ -75,29 +76,35 @@
 * [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
 ### Jenkins Pipelines with OpenShift 3
-* [slideshare.net: CI/CD with Openshift and Jenkins 🌟🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
+* [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 * [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 
 ### OpenShift Jenkins Pipeline (DSL) Plugin
-* [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
+* [Building Declarative Pipelines with OpenShift DSL Plugin 🌟](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [blog.openshift.com - Building Declarative Pipelines with OpenShift DSL Plugin](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
-* [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟🌟🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
+* [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
 * [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html)
 
 #### Red Hat Communities of Practice
-* [OpenShift Container Pipelines Samples 🌟🌟🌟](https://github.com/redhat-cop/container-pipelines)
-* [OpenShift Pipeline Library 🌟🌟🌟](https://github.com/redhat-cop/pipeline-library) A repository of Jenkins pipeline files we can reference from elsewhere
+* [OpenShift Container Pipelines Samples 🌟](https://github.com/redhat-cop/container-pipelines)
+* [OpenShift Pipeline Library 🌟](https://github.com/redhat-cop/pipeline-library) A repository of Jenkins pipeline files we can reference from elsewhere
 
 #### Jenkins Pipelines in OpenShift 4
 * [developers.redhat.com - Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
 
 ### OpenShift Pipelines (aka Tekton CI/CD Pipelines)
-* [**tekton.dev**](https://tekton.dev/)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
-* [github: Tekton pipelines](https://github.com/tektoncd/pipeline)
-* [github: Pipelines tutorial 🌟🌟🌟](https://github.com/openshift/pipelines-tutorial)
-* [OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
+* [github: OpenShift Pipelines Tutorial 🌟](https://github.com/openshift/pipelines-tutorial)
+* [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
+
+#### Tekton and Tekton Pipelines
+* [**tekton.dev**](https://tekton.dev/)
+* [tekton.dev/try: Interactive Tutorials](https://tekton.dev/try/)
+* [Tekton community](https://github.com/tektoncd/community)
+* [github: Tekton Pipelines](https://github.com/tektoncd/pipeline)
+* [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/)
+* [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
 
 ## Slides
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> von <strong><a href="https://www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>

@@ -139,6 +139,11 @@ git log --oneline --all --graph --decorate
     * [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 * [gmaster](https://gmaster.io/)
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
+* [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
+* [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
+* [GitHub CLI](https://cli.github.com/)
+    * [github.com/cli/cli](https://github.com/cli/cli)
+    * [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)
 
 ## Azure DevOps (formerly known as VSTS) 
 * [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)
