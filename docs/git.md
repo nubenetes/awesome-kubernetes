@@ -2,7 +2,7 @@
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
-- [Patterns for Managing Source Code Branches](#patterns-for-managing-source-code-branches)
+- [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
     - [Trunk Based Development](#trunk-based-development)
     - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
         - [Git Flow](#git-flow)
@@ -64,7 +64,8 @@ It prescribes that software designers should define formal, precise and verifiab
 * [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
     * [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 
-## Patterns for Managing Source Code Branches
+## Patterns for Managing Source Code Branches (Branching Models/Workflows)
+* [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.
 * [adevait.com: Creating a Branching Strategy for Small Teams](https://adevait.com/software/creating-branching-strategy)
 * [atlassian.com: Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 * [git-scm.com: Git Branching - Branching Workflows](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
@@ -79,7 +80,6 @@ It prescribes that software designers should define formal, precise and verifiab
 
 ### Trunk Based Development
 * [Trunk Based Development](https://trunkbaseddevelopment.com/)
-* [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.
 * [paulhammant.com: What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
 * [The Origins of Trunk Based Development](https://dzone.com/articles/origins-trunk-based)
 * [quora.com: What is trunk based development?](https://www.quora.com/What-is-trunk-based-development)
