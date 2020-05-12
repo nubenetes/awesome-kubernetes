@@ -17,10 +17,13 @@
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [CI/CD BOTs (aka Merge BOTs)](#cicd-bots-aka-merge-bots)
     - [Tips](#tips)
-    - [Solutions](#solutions)
-    - [Bors. A GitHub bot](#bors-a-github-bot)
-    - [Marge. A GitHub bot](#marge-a-github-bot)
+    - [Jenkins for git merges](#jenkins-for-git-merges)
+    - [Jenkins-X bots](#jenkins-x-bots)
+    - [Plastic SCM bot](#plastic-scm-bot)
     - [Mergify](#mergify)
+    - [GitHub bots](#github-bots)
+        - [Bors GitHub bot](#bors-github-bot)
+        - [Marge GitHub bot](#marge-github-bot)
 
 ## Git Distributed Version-Control System
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
@@ -169,33 +172,42 @@ git log --oneline --all --graph --decorate
 * Investigate options that are available and see if we can integrate them with CI.
 * We should be able to configure this bot to automatically apply labels to PR's based off of what is changed in a PR. For instance, if a PR contains any documentation changes, the area/Documentation label can be applied.
 
-### Solutions
-* [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot)
-* [support.cloudbees.com: how to configure jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
-* [Jenkins ghprb plugin](https://github.com/jenkinsci/ghprb-plugin)
-* [Plastic SCM DevOps mergebot to implement a trunk-based development cycle ](https://github.com/PlasticSCM/trunk-mergebot)
-    * [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
-* [github-rebase-bot](https://github.com/nicolai86/github-rebase-bot)
-* [Bulldozer: GitHub Pull Request Auto-Merge Bot](https://github.com/palantir/bulldozer)
-* [github-merge-bot](https://github.com/depop/github-merge-bot)
+### Jenkins for git merges
+* [**Git Plugin**: Merge Extensions](https://plugins.jenkins.io/git/#merge-extensions)
+* [**Validated Merge Plugin** for Git in CloudBees Jenkins Enterprise 🌟](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/validated-merge#chapter-validated-merge_validated-merge)
+* [How to configure Jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
+* [GitHub Pull Request Builder Plugin](https://plugins.jenkins.io/ghprb/) , [github ref](https://github.com/jenkinsci/ghprb-plugin). You should probably migrate to GitHub Branch Source Plugin.
+* [GitHub Branch Source Plugin:](https://plugins.jenkins.io/github-branch-source/) Allows you to create a new project based on the repository structure from one or more GitHub users or organizations.
+
+### Jenkins-X bots
+* [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot) A simple bot for updating dependencies in source code and automatically generating Pull Requests in downstream projects.
+
+### Plastic SCM bot
+* [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle ](https://github.com/PlasticSCM/trunk-mergebot)
+* [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
+
+### Mergify
+* [mergify.io](https://mergify.io/)  
+* [medium: Merging Bots’ Pull Requests Automatically](https://medium.com/mergify/merging-bots-pull-requests-automatically-548ed0b4a424)
+
+### GitHub bots
+* [github-rebase-bot](https://github.com/nicolai86/github-rebase-bot) A github bot that monitors repository PRs, rebases them and merges them as they pass tests.
+* [Bulldozer: GitHub Pull Request Auto-Merge Bot](https://github.com/palantir/bulldozer) 
+* [github-merge-bot](https://github.com/depop/github-merge-bot) Automates the process of merging pull requests and keeping them up-to-date.
 * [github.com/squalrus/merge-bot: PR Merge Bot](https://github.com/squalrus/merge-bot) A GitHub action that manages pull request integrations
 * [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
 * [gmaster.io - Mergedroid: Automate merging just by analyzing your GitHub repo.](https://gmaster.io/mergedroid) A BOT that solves conflicts in pull requests without manual intervention.
 
-### Bors. A GitHub bot
+#### Bors GitHub bot
 * [Bors Bot](https://bors.tech/)
 * [Bors - Readme](https://bors.tech/devdocs/bors-ng/readme.html)
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 * [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
 
-### Marge. A GitHub bot
+#### Marge GitHub bot
 * [Marge-bot: A merge-bot for GitLab](https://github.com/smarkets/marge-bot)
 * [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/marge-merge-bot)
 * [Example: Smarkets's Marge-bot for GitLab keeps master always green](https://smarketshq.com/marge-bot-for-gitlab-keeps-master-always-green-6070e9d248df)
 * [Example: GStreamer Merge Bot](https://gitlab.freedesktop.org/gstreamer-merge-bot)
-
-### Mergify
-* [mergify.io](https://mergify.io/)  
-* [medium: Merging Bots’ Pull Requests Automatically](https://medium.com/mergify/merging-bots-pull-requests-automatically-548ed0b4a424)
 
 
