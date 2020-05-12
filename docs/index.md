@@ -103,8 +103,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 19. [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
 20. Dev Environment    
     - [Visual Studio Code 🌟](visual-studio.md)
-    - [GitKraken](gitkraken.md)
-    - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
 21. [Demos](demos.md)

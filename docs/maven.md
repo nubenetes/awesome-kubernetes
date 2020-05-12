@@ -1,5 +1,6 @@
 # Maven
 - [Apache Maven](#apache-maven)
+- [Scaffolding a project with Maven (maven archetype)](#scaffolding-a-project-with-maven-maven-archetype)
 - [Maven Tests](#maven-tests)
 - [Dependency Resolution in Maven](#dependency-resolution-in-maven)
 - [Maven and Docker](#maven-and-docker)
@@ -21,6 +22,13 @@
 * [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)
 * [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)
 * [howtodoinjava.com/maven](https://howtodoinjava.com/maven/)
+
+## Scaffolding a project with Maven (maven archetype)
+* [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
+* [maven.apache.org: Introduction to the Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
+* [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023/)
+* [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html)
+* [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven/) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
 
 ## Maven Tests
 * [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests)

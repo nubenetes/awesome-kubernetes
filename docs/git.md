@@ -17,8 +17,8 @@
 - [CI/CD BOTs (aka Merge BOTs)](#cicd-bots-aka-merge-bots)
     - [Tips](#tips)
     - [Solutions](#solutions)
-    - [Bors - a GitHub bot](#bors---a-github-bot)
-    - [Marge - a GitHub bot](#marge---a-github-bot)
+    - [Bors. A GitHub bot](#bors-a-github-bot)
+    - [Marge. A GitHub bot](#marge-a-github-bot)
     - [Mergify](#mergify)
 
 ## Git Distributed Version-Control System
@@ -135,6 +135,8 @@ git log --oneline --all --graph --decorate
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 * [gitkraken.com](https://www.gitkraken.com/)
+    * [dzone.com: See What's New in GitKraken v4.0](https://dzone.com/articles/see-whats-new-in-gitkraken-v40)
+    * [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 * [gmaster](https://gmaster.io/)
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 
@@ -172,13 +174,13 @@ git log --oneline --all --graph --decorate
 * [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
 * [gmaster.io - Mergedroid: Automate merging just by analyzing your GitHub repo.](https://gmaster.io/mergedroid) A BOT that solves conflicts in pull requests without manual intervention.
 
-### Bors - a GitHub bot
+### Bors. A GitHub bot
 * [Bors Bot](https://bors.tech/)
 * [Bors - Readme](https://bors.tech/devdocs/bors-ng/readme.html)
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 * [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
 
-### Marge - a GitHub bot
+### Marge. A GitHub bot
 * [Marge-bot: A merge-bot for GitLab](https://github.com/smarkets/marge-bot)
 * [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/marge-merge-bot)
 * [Example: Smarkets's Marge-bot for GitLab keeps master always green](https://smarketshq.com/marge-bot-for-gitlab-keeps-master-always-green-6070e9d248df)

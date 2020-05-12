@@ -101,7 +101,6 @@ pages:
 - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
 - Dev Environment:
   - Visual Studio Code: visual-studio.md
-  - GitKraken: gitkraken.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
 - Demos: demos.md
