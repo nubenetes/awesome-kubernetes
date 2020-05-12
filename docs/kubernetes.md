@@ -28,6 +28,7 @@
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
+    - [Flux CD - the GitOps operator for Kubernetes](#flux-cd---the-gitops-operator-for-kubernetes)
 - [Kubernetes Networking](#kubernetes-networking)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
@@ -57,6 +58,7 @@
     - [k8s-tew](#k8s-tew)
     - [Kubernetes Distributions](#kubernetes-distributions)
         - [Red Hat OpenShift](#red-hat-openshift)
+        - [Weave Kubernetes Platform](#weave-kubernetes-platform)
         - [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
         - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
             - [Rancher 2](#rancher-2)
@@ -359,6 +361,12 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
     * [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
 
+### Flux CD - the GitOps operator for Kubernetes
+* [Flux 🌟](https://fluxcd.io/) The GitOps operator for Kubernetes
+* [docs.fluxcd.io](https://docs.fluxcd.io/)
+* [github: Flux CD](https://github.com/fluxcd/flux)
+* [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
+
 ## Kubernetes Networking
 * [dzone: how to setup kubernetes networking](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)
 * [AWS and Kubernetes Networking Options and Trade-Offs (part 1)](https://www.weave.works/blog/introduction-to-kubernetes-pod-networking--part-1)
@@ -498,6 +506,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 #### Red Hat OpenShift 
 * [Openshift Container Platform](openshift.md)
 * [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift
+
+#### Weave Kubernetes Platform
+* [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
+* [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
 
 #### VMware Kubernetes Tanzu and Project Pacific
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)
