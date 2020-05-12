@@ -55,7 +55,7 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 | Kibana                   |       5.6.13        |                                                                                                                                      [kibana 5.6.13](https://www.elastic.co/guide/en/kibana/5.6/introduction.html) |
 | Prometheus               |        2.3.2        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
 | Prometheus Operator      |                     |                           [Prometheus Operator technical preview](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments) |
-| Prometheus Alert Manager |      0.15.1 1       | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring) |
+| Prometheus Alert Manager |      0.15.1         | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring) |
 | Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
 
 #### Prometheus and Grafana
