@@ -34,15 +34,15 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Git & Git Patterns. Git Flow & Trunk. CI/CD BOTs 🌟](git.md)
 4. [TestOps](testops.md)
 5. [Docker](docker.md)
-6. [Kubernetes 🌟🌟🌟](kubernetes.md)
+6. [Kubernetes 🌟](kubernetes.md)
     - [Kubernetes Matrix Table](matrix-table.md)
     - [Kubernetes Alternatives](kubernetes-alternatives.md)
-7. [Openshift 🌟🌟🌟](openshift.md)
+7. [Openshift 🌟](openshift.md)
     - [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
     - [Java Performance Optimization](java-and-java-performance-optimization.md)
         - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
-8. [Jenkins & CloudBees 😀 🌟🌟🌟](jenkins.md)
+8. [Jenkins & CloudBees 😀 🌟](jenkins.md)
     - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
     - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
     - [Groovy](groovy.md)
@@ -119,7 +119,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 23. [E-Learning](elearning.md)
 24. [Customer Success Stories 🌟](customer.md)
 25. [Subreddits and Newsfeeds](newsfeeds.md)
-26. [Other Awesome Lists 🌟🌟🌟](other-awesome-lists.md)
+26. [Other Awesome Lists 🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>

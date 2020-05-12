@@ -2,7 +2,7 @@
 * [reddit.com/r/java](https://www.reddit.com/r/java)
 * [Dzone refcard: Java Peformance Optimization](https://dzone.com/refcardz/java-performance-optimization)
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
-* [blog.openshift.com: Scaling Java Containers 🌟🌟](https://blog.openshift.com/scaling-java-containers/)
+* [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/)
 * [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
 * [dzone.com: Java RAM Usage in Containers: Top 5 Tips for Not Losing Your Memory](https://dzone.com/articles/java-ram-usage-in-containers-top-5-tips-not-to-los)
 * [dzone.com: Running a JVM in a Container Without Getting Killed:](https://dzone.com/articles/running-a-jvm-in-a-container-without-getting-kille) Starting in JDK 9, and earlier if you use JDK 8u131, your JVM can detect how much memory is available when running inside a Docker container.
@@ -23,9 +23,9 @@
          * [fastthread.io](https://fastthread.io/)
          * [gceasy.io](https://gceasy.io/)
          * [heaphero.io](https://heaphero.io/)
-* [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
+* [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
 * [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
-* [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
+* [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
 
 ## Debugging java applications on openshift and kubernetes
 * [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)

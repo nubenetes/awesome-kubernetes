@@ -83,14 +83,14 @@
 <!-- /MarkdownTOC -->
 
 ## Amazon Web Services
-- [AWS Forums 🌟🌟🌟](https://forums.aws.amazon.com)
+- [AWS Forums 🌟](https://forums.aws.amazon.com)
 - [AWS Knowledge Center](https://aws.amazon.com/en/premiumsupport/knowledge-center/)
 - [AWS Support](https://aws.amazon.com/en/premiumsupport/)
 - [github.com/awslabs 🌟](https://github.com/awslabs)
-- [slideshare.net/AmazonWebServices 🌟🌟🌟](http://www.slideshare.net/AmazonWebServices)
-- [AWS 10-Minute Tutorials 🌟🌟](https://aws.amazon.com/getting-started/tutorials/)
+- [slideshare.net/AmazonWebServices 🌟](http://www.slideshare.net/AmazonWebServices)
+- [AWS 10-Minute Tutorials 🌟](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
-- [onlineitguru.com: AWS Services 🌟🌟🌟](https://onlineitguru.com/tutorial/aws-services)
+- [onlineitguru.com: AWS Services 🌟](https://onlineitguru.com/tutorial/aws-services)
 
 ## Awesome AWS
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
@@ -106,29 +106,29 @@
 - [twitter.com/AWS_Partners](https://twitter.com/AWS_Partners)
 
 ## AWS Calculator
-- [AWS Total Cost of Ownership (TCO) Calculators 🌟🌟](https://aws.amazon.com/tco-calculator/)
+- [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
 - [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
 
 ## AWS Application Architecture
-- [AWS application-architecture 🌟🌟🌟](http://www.conceptdraw.com/examples/application-architecture)
+- [AWS application-architecture 🌟](http://www.conceptdraw.com/examples/application-architecture)
 
 ## AWS Stacks
 - [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
 
 ## AWS Youtube channel and Podcasts
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
-- [AWS Tutorial Series 🌟🌟🌟](https://www.youtube.com/user/awstutorialseries)
-- [AWS Webinar Channel 🌟🌟🌟](https://www.youtube.com/user/AWSwebinars)
+- [AWS Tutorial Series 🌟](https://www.youtube.com/user/awstutorialseries)
+- [AWS Webinar Channel 🌟](https://www.youtube.com/user/AWSwebinars)
 - [AWS Podcasts](https://aws.amazon.com/podcasts/aws-podcast/)
 - [AWS Techchat](https://aws.amazon.com/podcasts/aws-techchat)
 - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## Closed groups for AWS certified professionals
 - [awscerts.slack.com](https://awscerts.slack.com)
-- [Amazon AWS Certification Preparation Tips 🌟🌟🌟](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips/)
-- [A curated list of AWS resources to prepare for the AWS Certifications 🌟🌟](https://gist.github.com/leonardofed)
-- [AWS Certified Solutions Architect Professional – Study Guide 🌟🌟](https://blue-clouds.com/category/study-guide/)
-- [aws.amazon.com: First AWS Certification Study Guide Now Available 🌟🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available/)
+- [Amazon AWS Certification Preparation Tips 🌟](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips/)
+- [A curated list of AWS resources to prepare for the AWS Certifications 🌟](https://gist.github.com/leonardofed)
+- [AWS Certified Solutions Architect Professional – Study Guide 🌟](https://blue-clouds.com/category/study-guide/)
+- [aws.amazon.com: First AWS Certification Study Guide Now Available 🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available/)
 - [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/pulse/passed-aws-certified-solutions-architect-level-harshit-agarwal)
 
 ## AWS re:Invent 2015
@@ -174,21 +174,21 @@
 - [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies/thomas-publishing/)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.   
 
 ## AWS tips. AWS Performance. Handling AWS Failures and Outages
-- [AWS Tips I Wish I'd Known Before I Started (Feb 2014) 🌟🌟🌟](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/) A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS.
+- [AWS Tips I Wish I'd Known Before I Started (Feb 2014) 🌟](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/) A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS.
 - [Amazon AWS Tips and Gotchas – Part 1 (Feb 2016)](http://www.tekhead.org/blog/2016/02/amazon-aws-tips-and-gotchas-part-1/)
-- [DZone: 5 Tips for Better AWS Performance 🌟🌟](https://dzone.com/articles/5-tips-for-better-aws-performance) The Ngnix team has a nice list of tips for better performance when using the AWS services. Some of them are related to Ngnix, but others are completely usable for anyone.
-- [How do I get started with AWS cloud computing? 🌟🌟🌟](https://aws.amazon.com/premiumsupport/knowledge-center/get-started-aws/)
-- [DZone: Dude, Where's My Performance? 🌟🌟](https://dzone.com/articles/dude-wheres-my-performance)
+- [DZone: 5 Tips for Better AWS Performance 🌟](https://dzone.com/articles/5-tips-for-better-aws-performance) The Ngnix team has a nice list of tips for better performance when using the AWS services. Some of them are related to Ngnix, but others are completely usable for anyone.
+- [How do I get started with AWS cloud computing? 🌟](https://aws.amazon.com/premiumsupport/knowledge-center/get-started-aws/)
+- [DZone: Dude, Where's My Performance? 🌟](https://dzone.com/articles/dude-wheres-my-performance)
 - [DZone: A Guide to Performance Challenges with AWS EC2: Part 1](https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1/) 
 - [DZone: A Guide to Performance Challenges With AWS EC2: Part 2](https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-1) Using Amazon Web Services? Learn how to get your Elastic Compute Cloud instances to perform better than your competitors.
 - [DZone: A Guide to Performance Challenges With AWS EC2: Part 3](https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-2) In the second part of his guide covering performance challenges in AWS EC2, Saba Anees covers instances and the right applications for your workloads.
-- [DZone: A Guide to Performance Challenges With AWS EC2: Part 4 🌟🌟🌟](https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-3) In the final part of his series covering performance challenges with AWS EC2, Saba Anees goes over poor ELB performance and handling AWS failures and outages.
+- [DZone: A Guide to Performance Challenges With AWS EC2: Part 4 🌟](https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-3) In the final part of his series covering performance challenges with AWS EC2, Saba Anees goes over poor ELB performance and handling AWS failures and outages.
 - [blog.datapath.io: Dynamic Web Accelerator for AWS Hosted Applications 🌟](http://blog.datapath.io/dynamic-web-accelerator-for-aws-hosted-applications)
 - [The Truth About Downtime in the Cloud](http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)
 
 ## AWS Clients
-- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid 🌟🌟🌟](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview/)
-- [London DevOps - Trainline, A DevOps Journey - Chris Turvil 🌟🌟🌟](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
+- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid 🌟](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview/)
+- [London DevOps - Trainline, A DevOps Journey - Chris Turvil 🌟](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
 - [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies/trainline/)
 
 ## AWS New Features
@@ -203,7 +203,7 @@
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/)
 
 ## AWS Management Console
-- [Working with the AWS Management Console 🌟🌟🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+- [Working with the AWS Management Console 🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
 ## AWS Management Tools Blog
 - [AWS Management Tools Blog](https://aws.amazon.com/blogs/mt/)
@@ -211,7 +211,7 @@
 ## AWS Schema Conversion Tool
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
 - [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support/)
-- [Creating an AWS Schema Conversion Tool Project 🌟🌟🌟](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool. 
+- [Creating an AWS Schema Conversion Tool Project 🌟](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool. 
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
 ## AWS RDS
@@ -219,10 +219,10 @@
 - [Partitioning MySQL on RDS: "How We Partitioned Airbnb’s Main Database in Two Weeks" 🌟](https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21)
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/)
 - [Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News](http://blog.rubyroidlabs.com/2016/04/postgresql-9-5/)
-- [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS 🌟🌟](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/)
-- [Migrating from MySQL (RDS) to Aurora with no downtime 🌟🌟](http://cantrill.io/howto/aws/2016/06/06/migrating-from-mysql-to-aurora-with-almost-no-downtime.html)
-- [Replicating Amazon Aurora DB Clusters Across AWS Regions 🌟🌟🌟](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html)
-- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon 🌟🌟](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers. 
+- [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS 🌟](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/)
+- [Migrating from MySQL (RDS) to Aurora with no downtime 🌟](http://cantrill.io/howto/aws/2016/06/06/migrating-from-mysql-to-aurora-with-almost-no-downtime.html)
+- [Replicating Amazon Aurora DB Clusters Across AWS Regions 🌟](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html)
+- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon 🌟](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers. 
 - [Working with an Amazon RDS DB Instance in a VPC](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
@@ -233,7 +233,7 @@
 - [AWS Application Discovery Service 🌟](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
 
 ## New AWS Competency. AWS Migration
-- [New AWS Competency – AWS Migration 🌟🌟🌟](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
+- [New AWS Competency – AWS Migration 🌟](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
 
 ## AWS Database Migration Service
 - [AWS Database Migration Service 🌟](https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/)
@@ -250,11 +250,11 @@
 - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)
 - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations/)
-- [**Multi-Region Infrastructure Deployment** 🌟🌟🌟](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
+- [**Multi-Region Infrastructure Deployment** 🌟](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
 
 ## AWS Elastic Beanstalk
 - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk/)
-- [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk 🌟🌟](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)
+- [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk 🌟](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)
 - [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html)
 - [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support/)
 - [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer/)
@@ -279,7 +279,7 @@
 - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
 ## AWS Application Load Balancer
-- [Application Load Balancer 🌟🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
+- [Application Load Balancer 🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
 - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/)
 
 ## NGINX
@@ -301,7 +301,7 @@
 - [Amazon EC2 Container Registry Documentation](http://aws.amazon.com/es/documentation/ecr/)
 - [Get started with Amazon EC2 Container Registry (Amazon ECR)](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)
 - [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws/)
-- [Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment 🌟🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment/)
+- [Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment 🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment/)
 
 ## Docker for AWS
 - [DZone: Getting Started With Docker for AWS and Scaling Nodes](https://dzone.com/articles/getting-started-with-docker-for-aws-and-scaling-no) This blog will explain how to get started with Docker for AWS and deploy a multi-host Swarm cluster on Amazon.
@@ -326,9 +326,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS VPC
 - [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)
-- [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start 🌟🌟🌟](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start
+- [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start 🌟](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start
 - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance/) You can now easily change the Amazon VPC used by your Amazon RDS DB instance!
-- [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟🌟🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
+- [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
@@ -346,7 +346,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Lambda Serverless
-- [martinfowler.com: Serverless Architectures 🌟🌟🌟](http://martinfowler.com/articles/serverless.html)
+- [martinfowler.com: Serverless Architectures 🌟](http://martinfowler.com/articles/serverless.html)
 - [you can use Python with AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
 - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)
 - [AWS Lambda, Echo, and the Future of Cloud Automation](http://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation/) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
@@ -354,7 +354,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)
 - [AWS Lambda Limits](http://docs.aws.amazon.com/lambda/latest/dg/limits.html)
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda 🌟](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
-- [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟🌟🌟](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
+- [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 
 ## AWS Cloud Formation
@@ -368,19 +368,19 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Continuous Deployment with AWS](https://aws.amazon.com/blogs/devops/tag/continuous-deployment/)
 
 ## AWS Security
-- [AWS Security Blog 🌟🌟](http://blogs.aws.amazon.com/security)
-- [AWS Security 🌟🌟🌟](https://aws.amazon.com/security/)
-- [AWS Security docs 🌟🌟🌟🌟](https://docs.aws.amazon.com/security/)
+- [AWS Security Blog 🌟](http://blogs.aws.amazon.com/security)
+- [AWS Security 🌟](https://aws.amazon.com/security/)
+- [AWS Security docs 🌟](https://docs.aws.amazon.com/security/)
 - [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html)
 - [The Most Popular AWS Security Blog Posts in 2015](http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015)
 - [dzone: Private Subnets Are Broken on AWS](https://dzone.com/articles/private-subnets-are-broken-on-aws)
 - [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3)
-- [Announcing Industry Best Practices for Securing AWS Resources 🌟🌟](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)
-- [The Most Viewed AWS Security Blog Posts so Far in 2016 🌟🌟🌟](http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)
+- [Announcing Industry Best Practices for Securing AWS Resources 🌟](http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources)
+- [The Most Viewed AWS Security Blog Posts so Far in 2016 🌟](http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016)
 - [Oracle Database Encryption Options on Amazon RDS](https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds/)
-- [Learn AWS Security Fundamentals with Free and Online Training 🌟🌟](https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training)
+- [Learn AWS Security Fundamentals with Free and Online Training 🌟](https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training)
 - [How to Restrict Amazon S3 Bucket Access to a Specific IAM Role](http://blogs.aws.amazon.com/security/post/TxK5WUJK3DG9G8/How-to-Restrict-Amazon-S3-Bucket-Access-to-a-Specific-IAM-Role)
-- [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency 🌟🌟🌟](http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)
+- [Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency 🌟](http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency)
 - [AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016](http://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August)
 - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows/)
 - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) Use your own encryption keys with AWS Key Management Service.
@@ -390,13 +390,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment 🌟](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment/)
 
 ### AWS IAM
-- [AWS Identity and Access Management - Getting Started 🌟🌟🌟](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
+- [AWS Identity and Access Management - Getting Started 🌟](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
 - [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)
 - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
 - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
 
 ### AWS CloudFront
-- [Amazon CloudFront now supports HTTP/2 🌟🌟🌟](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
+- [Amazon CloudFront now supports HTTP/2 🌟](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
 
 ### AWS WAF Web Application Firewall
 - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf/)
@@ -406,7 +406,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
 
 ## AWS S3 & EBS. AWS Storage Gateway
-- [S3 FAQ 🌟🌟🌟](https://aws.amazon.com/s3/faqs/)
+- [S3 FAQ 🌟](https://aws.amazon.com/s3/faqs/)
 - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html) Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.
 - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting/)
 - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)
@@ -417,11 +417,11 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Backup and Recovery. Design for failure
 - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)
 - [Linkedin discussion: Need help on Backup and restore methods of EC2 using s3 services](https://www.linkedin.com/groups/49531/49531-6093375473969090562)
-- [Design for failure lessons learnt from the Sydney AWS outage 🌟🌟🌟](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)
-- [Chaos Monkey 🌟🌟](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) The Netflix Chaos Monkey tool allows you to proactively launch attack code against your infrastructure to cause failures and give you the chance to fix potential problems before they occur on their own. 
+- [Design for failure lessons learnt from the Sydney AWS outage 🌟](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)
+- [Chaos Monkey 🌟](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) The Netflix Chaos Monkey tool allows you to proactively launch attack code against your infrastructure to cause failures and give you the chance to fix potential problems before they occur on their own. 
 - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach/)
 - [How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS](https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs/)
-- [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9 🌟🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
+- [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9 🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
 
 ## AWS Diagrams
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
@@ -439,10 +439,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
 
 ## AWS BigData 
-- [aws.amazon.com/big-data 🌟🌟](http://aws.amazon.com/big-data)
+- [aws.amazon.com/big-data 🌟](http://aws.amazon.com/big-data)
 - [blogs.aws.amazon.com/bigdata](http://blogs.aws.amazon.com/bigdata/)
 - [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Streaming)
-- [Analyze Your Data on Amazon DynamoDB with Apache Spark 🌟🌟](http://blogs.aws.amazon.com/bigdata/post/Tx1G4SQRV049UL0/Analyze-Your-Data-on-Amazon-DynamoDB-with-Apache-Spark)
+- [Analyze Your Data on Amazon DynamoDB with Apache Spark 🌟](http://blogs.aws.amazon.com/bigdata/post/Tx1G4SQRV049UL0/Analyze-Your-Data-on-Amazon-DynamoDB-with-Apache-Spark)
 - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
 
 ## AWS Data Lake
@@ -463,7 +463,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Monitoring
 - [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)
-- [github: ElectricEye 🌟🌟🌟](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
+- [github: ElectricEye 🌟](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
 
 ## Amazon Alexa. Voice User Interface
 - [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)
@@ -490,7 +490,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
 
 ## Localstack
-- [localstack.cloud 🌟🌟🌟](https://localstack.cloud/) Develop and test your cloud apps offline.
+- [localstack.cloud 🌟](https://localstack.cloud/) Develop and test your cloud apps offline.
 
 ## Migrating On Premise VM to AWS
 - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://youtu.be/buzusNljpy4)
@@ -500,7 +500,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
 
 ## Blogs
-- [Jayendra's Blog 🌟🌟🌟🌟🌟](https://jayendrapatil.com/)
+- [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
 
 ## Videos
 

@@ -49,7 +49,7 @@
 ### KubeMQ message broker
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
-- [kubemq.io: Kafka VS KubeMQ 🌟🌟](https://kubemq.io/kafka-vs-kubemq/)
+- [kubemq.io: Kafka VS KubeMQ 🌟](https://kubemq.io/kafka-vs-kubemq/)
 
 ## Apache Kafka
 - [Apache Kafka](https://kafka.apache.org/)
