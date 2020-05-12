@@ -30,6 +30,8 @@
 - [Kubernetes Operators](#kubernetes-operators)
     - [Flux CD - the GitOps operator for Kubernetes](#flux-cd---the-gitops-operator-for-kubernetes)
 - [Kubernetes Networking](#kubernetes-networking)
+    - [CNI Container Networking Interface](#cni-container-networking-interface)
+        - [Project Calico](#project-calico)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
     - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
@@ -376,6 +378,17 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI)
 * [stackrox.com: Kubernetes Networking Demystified: A Brief Guide](https://www.stackrox.com/post/2020/01/kubernetes-networking-demystified/)
 * [medium.com: Fighting Service Latency in Microservices With Kubernetes](https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36)
+
+### CNI Container Networking Interface 
+* [Kubernetes.io: Network Plugins](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/)
+* [rancher.com: Container Network Interface (CNI) Providers](https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers/)
+* [github.com/containernetworking 🌟](https://github.com/containernetworking)
+    * [CNI](https://github.com/containernetworking/cni)
+* [dzone: How to Understand and Set Up Kubernetes Networking](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking) Take a look at this tutorial that goes through and explains the inner workings of Kubernetes networking, including working with multiple networks.
+* [medium: Container Networking Interface aka CNI](https://medium.com/@vikram.fugro/container-networking-interface-aka-cni-bdfe23f865cf)
+
+#### Project Calico
+* [Project Calico 🌟](https://www.projectcalico.org/) Secure networking for the cloud native era
 
 ## Kubernetes Sidecars
 * [banzaicloud.com: Sidecar container lifecycle changes in Kubernetes 1.18 🌟](https://banzaicloud.com/blog/k8s-sidecars/)
