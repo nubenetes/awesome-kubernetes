@@ -28,7 +28,7 @@
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
-    - [Flux CD - the GitOps operator for Kubernetes](#flux-cd---the-gitops-operator-for-kubernetes)
+    - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
 - [Kubernetes Networking](#kubernetes-networking)
     - [CNI Container Networking Interface](#cni-container-networking-interface)
         - [Project Calico](#project-calico)
@@ -363,7 +363,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
     * [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
 
-### Flux CD - the GitOps operator for Kubernetes
+### Flux. The GitOps Operator for Kubernetes
 * [Flux 🌟](https://fluxcd.io/) The GitOps operator for Kubernetes
 * [docs.fluxcd.io](https://docs.fluxcd.io/)
 * [github: Flux CD](https://github.com/fluxcd/flux)
