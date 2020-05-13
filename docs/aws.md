@@ -271,6 +271,7 @@
 ## AWS Networking
 - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers/)
 - [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2)
+- [AWS Cloud Networking – Zero to Hero 🌟](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero/)
 
 ## AWS Route 53
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)

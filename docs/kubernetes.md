@@ -29,6 +29,7 @@
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
+    - [Writing Kubernetes Operators](#writing-kubernetes-operators)
 - [Kubernetes Networking](#kubernetes-networking)
     - [CNI Container Networking Interface](#cni-container-networking-interface)
         - [Project Calico](#project-calico)
@@ -368,6 +369,9 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [docs.fluxcd.io](https://docs.fluxcd.io/)
 * [github: Flux CD](https://github.com/fluxcd/flux)
 * [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
+
+### Writing Kubernetes Operators
+* [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
 
 ## Kubernetes Networking
 * [dzone: how to setup kubernetes networking](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)
