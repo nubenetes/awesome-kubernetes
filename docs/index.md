@@ -31,7 +31,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Microservices FAQ & Kubernetes Native](faq.md)
 2. [DevOps](devops.md)
 3. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
-    - [Git & Git Patterns. Git Flow & Trunk. CI/CD BOTs 🌟](git.md)
+    - [Git & Git Patterns. Git Flow & Trunk. Merge BOTs 🌟](git.md)
 4. [TestOps](testops.md)
 5. [Docker](docker.md)
 6. [Kubernetes 🌟](kubernetes.md)
@@ -105,6 +105,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Visual Studio Code 🌟](visual-studio.md)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
+    - [ChromeDevTools](ChromeDevTools.md)
 21. [Demos](demos.md)
 22. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)

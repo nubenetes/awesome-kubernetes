@@ -28,6 +28,9 @@
 * [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 
 ## Running Ansible Playbooks
+* [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
+* [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/)
+
 ### Running Ansible Playbooks From Jenkins
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
 * [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)

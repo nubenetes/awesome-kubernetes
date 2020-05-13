@@ -21,6 +21,7 @@
 * [Drone](https://drone.io/)
 * [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
     * [JFrog Pipelines](https://jfrog.com/pipelines/)
+* [Buildbot](https://buildbot.net/)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)

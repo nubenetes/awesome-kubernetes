@@ -59,6 +59,7 @@
 	- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
 - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
 - [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
+- [AWS Fargate](#aws-fargate)
 - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
 - [AWS Diagrams](#aws-diagrams)
 - [AWS Config Rules](#aws-config-rules)
@@ -413,6 +414,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/es/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
+
+## AWS Fargate
+- [Amazon EFS with Amazon ECS and AWS Fargate – Part 1 🌟](https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/)
 
 ## AWS Backup and Recovery. Design for failure
 - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)

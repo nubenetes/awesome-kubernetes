@@ -1,4 +1,4 @@
-# Git and Patterns for Managing Source Code Branches. CI/CD BOTs
+# Git and Patterns for Managing Source Code Branches. Merge BOTs
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
@@ -16,7 +16,7 @@
 - [GitHub](#github)
 - [Git Tools](#git-tools)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-- [CI/CD BOTs (aka Merge BOTs)](#cicd-bots-aka-merge-bots)
+- [Merge BOTs](#merge-bots)
     - [Tips](#tips)
     - [Jenkins for git merges](#jenkins-for-git-merges)
     - [Bitbucket for git merges](#bitbucket-for-git-merges)
@@ -174,8 +174,8 @@ git log --oneline --all --graph --decorate
 * [Microsoft Replacing Visual Studio Team Services with Azure DevOps](https://redmondmag.com/articles/2018/09/10/microsoft-replacing-vsts-with-azure-devops.aspx)
 * [How We Use Git at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft)
 
-## CI/CD BOTs (aka Merge BOTs)
-* The CI/CD Bot or Merge Bot is a tool to orchestrate pull requests merging into the stable branches.
+## Merge BOTs
+* The Merge Bot is a tool to orchestrate pull requests merging into the stable branches.
 * [Wikipedia: Software bot](https://en.wikipedia.org/wiki/Software_bot)
 
 ### Tips
@@ -205,6 +205,11 @@ Automate them.
 * [Provide merge bot functionality](https://gitlab.com/gitlab-org/gitlab/-/issues/14595)
 * [lab.texthtml.net: Gitlab Merge Bot](https://lab.texthtml.net/gitlab/merge-bot)
     * [DockerHub: Gitlab Merge Bot](https://hub.docker.com/r/texthtml/gitlab-merge-bot/) Bot assistant for code review and merge requests approval for Gitlab
+* [Mergecrush](https://www.mergecrush.com/) A email & slack reminder bot for Gitlab merge requests.
+* [stackoverflow.com: How can we programmatically approve merge requests in GitLab?](https://stackoverflow.com/questions/58019605/how-can-we-programmatically-approve-merge-requests-in-gitlab) 
+    * Our group has a bot that creates merge requests for certain mechanical changes to our code base. We'd like these MRs to get merged in automatically if/when the CI pipeline succeeds, but our projects require an approval from a member of our group. This means that right now a human has to manually click on "approve" and "merge" for each bot-created MR. Apparently GitLab doesn't have a way to set different approval rules for some users, so I haven't found a way to make the bot's user immune to this requirement.
+    * My current idea is to have a separate process that approves each of the merge requests created by the bot. Is there an easy way to do this programmatically? That is, is there an API (or better yet, a command line tool) that, when given the name of the branch for a merge request, approves the merge request associated with that branch?
+    * I'm also open to other ways of getting these changes in with minimal human intervention. I do want them to pass the CI pipeline, though (which is currently accomplished by having them use MRs) and the MRs also help in the rare cases where the pipeline fails, so we can debug what went wrong.
 
 #### Marge GitLab bot
 * [Marge-bot: A merge-bot for GitLab](https://github.com/smarkets/marge-bot)
@@ -216,8 +221,11 @@ Automate them.
 * [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot) A simple bot for updating dependencies in source code and automatically generating Pull Requests in downstream projects.
 
 ### Plastic SCM bot
+* [Plastic SCM](https://www.plasticscm.com/)
+* [blog.plasticscm.com: Add a mergebot to your repo!](http://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html)
 * [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle ](https://github.com/PlasticSCM/trunk-mergebot)
 * [PlasticSCM MergeBot Jenkins Plugin](https://wiki.jenkins.io/display/JENKINS/PlasticSCM+MergeBot+plugin)
+* [genbeta.com: Plastic SCM Mergebot: automatizando tu pipeline de desarrollo](https://www.genbeta.com/desarrollo/plastic-scm-mergebot-automatizando-tu-pipeline-desarrollo)
 
 ### Mergify bot
 * [mergify.io](https://mergify.io/)  
@@ -230,6 +238,14 @@ Automate them.
 * [github.com/squalrus/merge-bot: PR Merge Bot](https://github.com/squalrus/merge-bot) A GitHub action that manages pull request integrations
 * [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
 * [gmaster.io - Mergedroid: Automate merging just by analyzing your GitHub repo.](https://gmaster.io/mergedroid) A BOT that solves conflicts in pull requests without manual intervention.
+* [Kodiak](https://kodiakhq.com/) GitHub bot for updating and merging pull requests
+* [Rultor](http://www.rultor.com/) A merging bot for Github pull requests
+    * [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
+* [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
+    * [help.github.com: Configuring protected branches](https://help.github.com/en/github/administering-a-repository/configuring-protected-branches)
+    * [help.github.com: Enabling required status checks:](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks)
+        * Select Require status checks to pass before merging 
+        * Choose (create) a status check, that always fails
 
 #### Bors GitHub bot
 * [Bors Bot](https://bors.tech/)

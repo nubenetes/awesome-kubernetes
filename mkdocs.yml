@@ -28,7 +28,7 @@ pages:
 - DevOps: devops.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
-  - Git & Git Patterns. Git Flow & Trunk. CI/CD BOTs: git.md
+  - Git & Git Patterns. Git Flow & Trunk. Merge BOTs: git.md
 - TestOps: testops.md
 - Docker: docker.md
 - Kubernetes: 
@@ -103,6 +103,7 @@ pages:
   - Visual Studio Code: visual-studio.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
+  - ChromeDevTools: ChromeDevTools.md
 - Demos: demos.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
