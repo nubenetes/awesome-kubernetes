@@ -51,7 +51,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Jenkins Scripts](scripts/README.md)
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
 9.  Toolchain
-    - [Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo](container-managers.md)
+    - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
     - [Maven](maven.md)
     - [Gradle](gradle.md)
     - [SonarQube](sonarqube.md)
