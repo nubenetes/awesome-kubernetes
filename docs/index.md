@@ -122,6 +122,8 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
         - [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
     - [Microsoft Azure](azure.md)
         - [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
+    - [IBM Cloud](https://www.ibm.com/cloud)
+        - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
     - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
