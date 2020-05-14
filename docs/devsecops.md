@@ -9,7 +9,7 @@
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
 
 ## Project Calico
-* [Project Calico 🌟](https://www.projectcalico.org/) Secure networking for the cloud native era
+* [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era
 
 ## Anchore Container Security Solutions for DevSecOps
 - [Anchore](https://anchore.com) Container image inspection and policy-based compliance
