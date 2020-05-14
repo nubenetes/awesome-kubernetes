@@ -39,7 +39,7 @@
 * [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 * [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
 * [Prettier:](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Code formatter
-* [Live Share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Real-time collaborative development from the comfort of your favorite tools.
+* [Live Share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Real-time collaborative development from the comfort of your favorite tools (pair-programming).
 * [EditorConfig:](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) This plugin attempts to override user/workspace settings with settings found in .editorconfig files. No additional or vscode-specific files are required.
 * [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 * [ESLint:](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) Integrates [ESLint](https://eslint.org/) JavaScript into VS Code.
@@ -52,6 +52,8 @@ A simple extension to make indentation more readable
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) A rainbow brackets extension for VS Code.
 * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) Highlight TODOs, FIXMEs, and any keywords, annotations
+* [Todo+](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus) Manage todo lists with ease. Powerful, easy to use and customizable.
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) Show TODO, FIXME, etc. comment tags in a tree view
 * [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) VSCode syntax highlighting for today's JavaScript, ported from gandm's language-babel for Atom. 
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) Improve highlighting of errors, warnings and other language diagnostics.
 * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) Makes it easy to create, manage, and debug containerized applications.
@@ -59,6 +61,10 @@ A simple extension to make indentation more readable
 * [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) Use Facebook's [Jest](https://github.com/facebook/jest), a delightful JavaScript Testing Framework.
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) This extension integrates Draw.io into VS Code.
+* [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) Automating the process of writing meaningful log messages. 
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) Visual Studio Code plugin that autocompletes filenames
+* [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+* [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) Convert pure react components to class components
 
 #### Themes
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code
