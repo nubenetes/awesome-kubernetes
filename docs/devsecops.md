@@ -12,7 +12,7 @@
 
 ### Secure Container Based CI/CD Workflows
 - [Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
-- [Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
+- [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
 
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
