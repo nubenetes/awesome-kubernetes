@@ -3,6 +3,8 @@
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
     - [Publishers](#publishers)
     - [Extensions](#extensions)
+        - [More Extensions](#more-extensions)
+        - [Themes](#themes)
         - [DevOps Extensions](#devops-extensions)
         - [Azure DevOps Extensions](#azure-devops-extensions)
         - [Git Flow Extensions](#git-flow-extensions)
@@ -45,6 +47,28 @@
 A simple extension to make indentation more readable
 * [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 * [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
+
+#### More Extensions
+* [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package
+* [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) A rainbow brackets extension for VS Code.
+* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) Highlight TODOs, FIXMEs, and any keywords, annotations
+* [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) VSCode syntax highlighting for today's JavaScript, ported from gandm's language-babel for Atom. 
+* [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) Improve highlighting of errors, warnings and other language diagnostics.
+* [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) Makes it easy to create, manage, and debug containerized applications.
+* [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) Support for [DotENV](https://github.com/zaynali53/DotENV) file syntax
+* [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) Use Facebook's [Jest](https://github.com/facebook/jest), a delightful JavaScript Testing Framework.
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
+* [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) This extension integrates Draw.io into VS Code.
+
+#### Themes
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code
+* [Lucy Theme](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) Soft but clear syntax theme
+* [Monokai Pro Theme](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) Professional theme and matching icons, from the author of the original Monokai color scheme.
+* [Codey Midnight Theme](https://marketplace.visualstudio.com/items?itemName=salesforce.codey-midnight) Dark theme configured for accessibility and Salesforce development
+* [1984 Theme](https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984)
+* [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) Official Dracula Theme. A dark theme for many editors, shells, and more.
+    * [Dracula Pro Theme 🌟](https://draculatheme.com/pro)
+* [Discord Presence Theme](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) Update your discord status with the newly added rich presence.
 
 #### DevOps Extensions
 * [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
@@ -92,3 +116,5 @@ A simple extension to make indentation more readable
 <iframe src="https://www.youtube.com/embed/AYbgqmyg7dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>

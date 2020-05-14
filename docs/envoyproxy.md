@@ -1,6 +1,7 @@
 # Envoy Proxy and xDS Protocol
 ## Envoy Proxy
 - [Envoy](https://www.envoyproxy.io/)
+- [Examining Load Balancing Algorithms with Envoy](https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c)
 
 ## xDS protocol (Envoy's Discovery Service Protocol)
 - [xDS REST and gRPC protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)
