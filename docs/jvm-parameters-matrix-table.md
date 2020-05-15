@@ -14,4 +14,4 @@
 |-Dsun.net.client.defaultConnectTimeout<br/>-Dsun.net.client.defaultReadTimeout | Yes | [https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) |
 |-Duser.timeZone | Yes | [https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) |
 |Enable GC Logging | Check | JDK 8: -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:{file-path}<br/> JDK9+: -Xlog:gc*:file={file-path}<br/> [https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) |
-| =======================================||
+| =======================================||================================================================================
