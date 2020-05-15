@@ -36,6 +36,12 @@
         - [Project Calico](#project-calico)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
+    - [Kubernetes Authentication and Authorization](#kubernetes-authentication-and-authorization)
+        - [Kubernetes Authentication Methods](#kubernetes-authentication-methods)
+        - [X.509 client certificates](#x509-client-certificates)
+        - [Static HTTP Bearer Tokens](#static-http-bearer-tokens)
+        - [OpenID Connect](#openid-connect)
+        - [Implementing a custom Kubernetes authentication method](#implementing-a-custom-kubernetes-authentication-method)
     - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
     - [EKS Security](#eks-security)
 - [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
@@ -416,15 +422,36 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [github Kyverno - Kubernetes Native Policy Management](https://github.com/nirmata/kyverno/)
 * [Dzone - OAuth 2.0](https://dzone.com/articles/oauth-20-beginners-guide)
 * [Kubernetes Security Best Practices 🌟](https://github.com/freach/kubernetes-security-best-practice/blob/master/README.md#firewall-ports-fire)
-* [magalix.com: kubernetes authentication 🌟](https://www.magalix.com/blog/kubernetes-authentication)
-* [magalix.com: kubernetes authorization 🌟](https://www.magalix.com/blog/kubernetes-authorization)
-* [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
 * [jeffgeerling.com: Everyone might be a cluster-admin in your Kubernetes cluster](https://www.jeffgeerling.com/blog/2020/everyone-might-be-cluster-admin-your-kubernetes-cluster)
 * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)
     * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
 * [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
 * [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
+
+### Kubernetes Authentication and Authorization
+* [kubernetes.io: Authenticating](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
+* [kubernetes.io: Access Clusters Using the Kubernetes API](https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/)
+* [kubernetes.io: Accesing Clusters](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/)
+* [magalix.com: kubernetes authentication 🌟](https://www.magalix.com/blog/kubernetes-authentication)
+* [magalix.com: kubernetes authorization 🌟](https://www.magalix.com/blog/kubernetes-authorization)
+* [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl/)
+
+#### Kubernetes Authentication Methods
+Kubernetes supports several authentication methods out-of-the-box, such as X.509 client certificates, static HTTP bearer tokens, and OpenID Connect.
+
+#### X.509 client certificates
+* [Kubernetes Authentication and Authorization with X509 client certificates](https://medium.com/@sureshpalemoni/kubernetes-authentication-and-authorization-with-x509-client-certificates-edbc3517c10)
+
+#### Static HTTP Bearer Tokens 
+* [kubernetes.io: Access Clusters Using the Kubernetes API](https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/)
+* [stackoverflow: Accessing the Kubernetes REST end points using bearer token](https://stackoverflow.com/questions/56214715/accessing-the-kubernetes-rest-end-points-using-bearer-token)
+
+#### OpenID Connect
+* [OpenID Connect](https://openid.net/)
+
+#### Implementing a custom Kubernetes authentication method 
+* [Implementing a custom Kubernetes authentication method](https://learnk8s.io/kubernetes-custom-authentication)
 
 ### Pod Security Policies (SCCs - Security Context Constraints in OpenShift)
 * [Pod Security Policy (SCC in OpenShift) 🌟](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
