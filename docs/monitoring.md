@@ -594,21 +594,6 @@ scrape_configs:
 $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmeter-5.2.1/lib/
 ```
 
-* collapside section test
-<details>
-    <summary>I could use some help...</summary>
-
-```c#
-public class Order
-{
-    public int OrderId { get; set; }
-    public int CustomerId { get; set; }
-
-    public List<int> Products { get; set; }
-}
-```
-</details> 
-
 * jndi.properties file is modified with Artemis' IP address (it is not listening on localhost):
 
 ```
