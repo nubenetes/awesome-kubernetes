@@ -487,7 +487,7 @@ $ cd /var/lib/artemisbroker/
 $ /var/lib/artemisbroker/bin/artemis run
 ```
 
-* Artemis Prometehus Console Access. We can now access to Artemis Console via http://\<my_servername.my_domain\>:8161/console using the credentials specified during the CLI deployment (artemisuser / artemispassword)
+* Artemis Prometehus Console Access. We can now access to Artemis Console via http://my_servername.my_domain:8161/console using the credentials specified during the CLI deployment (artemisuser / artemispassword)
 
 * [Artemis Prometheus Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 
@@ -523,7 +523,7 @@ ctivemq/.m2/repository/org/apache/activemq/artemis-prometheus-metrics-plugin/1.0
 [INFO] ------------------------------------------------------------------------
 ```
 
-* New artifact is copied to artemis broker. Artefact artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-\<VERSION\>.jar is copied to our broker:  
+* New artifact is copied to artemis broker. Artefact artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-VERSION.jar is copied to our broker:  
 
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-
