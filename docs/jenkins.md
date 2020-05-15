@@ -8,7 +8,7 @@
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-    - [Job DSL Plugin](#job-dsl-plugin)
+    - [Job DSL Plugin. From Freestyle jobs to Pipeline with JobDSL](#job-dsl-plugin-from-freestyle-jobs-to-pipeline-with-jobdsl)
     - [Jenkins Configuration as Code Plugin](#jenkins-configuration-as-code-plugin)
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
@@ -131,7 +131,7 @@
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * etc
 
-### Job DSL Plugin
+### Job DSL Plugin. From Freestyle jobs to Pipeline with JobDSL 
 * Jenkins Job DSL API used in jenkins declarative pipelines.
 * [plugins.jenkins.io/job-dsl](https://plugins.jenkins.io/job-dsl/)
     * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
@@ -141,6 +141,16 @@
 * Jenkins DSL for **Maven**:
     * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
     * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
+* [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/Jenkins-online-meetup/events/270600737/)
+    * Manually managing Jenkins jobs is painful. Jenkins Pipeline exists, but how do you get started and why should you bother in the first place? Journey with Nicolaj, as he talks about the pains of managing a manually configured job in Jenkins; converts a Freestyle Job to JobDSL, instantly; introduces mechanisms for adding the jobs to Jenkins, as code; and ultimately converts the job to a Jenkins Pipeline!
+    * Just like last time, in the talk “Configuration as Code of Jenkins (for Kubernetes),” you’ll see plenty of live demos and get to take home all the code and examples afterwards. Use it as the starting point for taking advantage of the Configuration as Code (CasC) that everyone is talking about, and hopefully it will save you a lot of headache in the future!
+    * Agenda:
+        * Manual Freestyle jobs, and why they hurt us
+        * Introduction to JobDSL and adding JobDSL-jobs to Jenkins
+        * From Freestyle Jobs to JobDSL, the beginning of our CasC adventure
+        * From JobDSL to Pipeline, all the fun of CasC; with even more resilience!
+    * Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.
+
 
 ### Jenkins Configuration as Code Plugin 
 * [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
