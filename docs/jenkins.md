@@ -151,7 +151,6 @@
         * From JobDSL to Pipeline, all the fun of CasC; with even more resilience!
     * Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.
 
-
 ### Jenkins Configuration as Code Plugin 
 * [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
     * [plugins.jenkins.io/configuration-as-code](https://plugins.jenkins.io/configuration-as-code/)
