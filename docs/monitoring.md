@@ -56,7 +56,7 @@
 OpenShift Container Platform Monitoring ships with a Prometheus instance for cluster monitoring and a central Alertmanager cluster. In addition to Prometheus and Alertmanager, OpenShift Container Platform Monitoring also includes a [Grafana](https://grafana.com/) instance as well as pre-built dashboards for cluster monitoring troubleshooting. **The Grafana instance that is provided with the monitoring stack, along with its dashboards, is read-only.**
 
 | Monitoring Component     |       Release       |                                                                                                                                                                                                                URL |
-| :----------------------- | :-----------------: | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :----------------------- | :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ElasticSearch            |          5          |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
 | Fluentd                  |        0.12         |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
 | Kibana                   |       5.6.13        |                                                                                                                                      [kibana 5.6.13](https://www.elastic.co/guide/en/kibana/5.6/introduction.html) |
@@ -99,7 +99,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 [Monitor your own services (technology preview)](https://docs.openshift.com/container-platform/4.3/release_notes/ocp-4-3-release-notes.html): The existing monitoring stack can be extended so you can configure monitoring for your own Services.
 
 | Monitoring Component     | Deployed By Default | OCP 4.1  | OCP 4.2 | OCP 4.3 | OCP 4.4 |
-| :----------------------- | :-----------------: | :------: | :-----: | :-----: | ------: |
+| :----------------------- | :-----------------: | :------ | :----- | :----- | :----- |
 | ElasticSearch            |         No          | 5.6.13.6 |         |         |         |
 | Fluentd                  |         No          | 0.12.43  |         |         |         |
 | Kibana                   |         No          |  5.6.13  |         |         |         |
@@ -280,7 +280,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 
 Monitored Component|Collector|Dashboard Number|URL
-:------------------|:-------:|:---------------:|------------:
+:------------------|:-------|:---------------|------------
 ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)|[10702](https://grafana.com/grafana/dashboards/10702)|[Ref1](https://docs.wavefront.com/activemq.html), [Ref2](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/activemq), [Ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/activemq.yml), [Ref4](https://stackoverflow.com/questions/57107282/prometheus-and-activemq-integration)
 ActiveMQ Artemis/Red Hat AMQ Broker|[JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[Ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml), [Ref2](http://techiekhannotes.blogspot.com/2018/12/artemis-monitoring-with-grafana.html), [Ref3](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/grafana/dashboards/9777)|  
@@ -644,8 +644,10 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 
 * We can now see metrics displayed on Grafana and Artemis Dashboard:
 
+JMeter|Artemis Grafana|Artemis Dashboard
+:-------:|:---------:|:-------:
 ![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
-:-------|:---------:|-------:
+
 
 
 
@@ -721,7 +723,7 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 ## Message Queue Monitoring
 
 Messaging Solution|Monitoring Solution|URL
-:-------|:-------:|-----:
+:-------|:-------|:-----
 ActiveMQ 5.8.0+|[Dynatrace](https://www.dynatrace.com)|[ref](https://www.dynatrace.com/support/help/technology-support/application-software/other-technologies/supported-out-of-the-box/activemq/)
 ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io/) + Prometheus|[ref1](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
 IBM MQ|[IBM MQ](https://github.com/ibm-messaging) Exporter for Prometheus|[ref](https://github.com/ibm-messaging/mq-metric-samples/tree/master/cmd/mq_prometheus)
