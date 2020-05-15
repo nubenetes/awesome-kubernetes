@@ -298,126 +298,119 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 
 #### Deployment and Configuration
 * Systemd 
-    ```
-    /etc/systemd/system/prometheus.service
-    /etc/systemd/system/activemq.service
-    /usr/lib/systemd/system/telegraf.service
-    /usr/lib/systemd/system/grafana-server.service
-    ```
-* Systemctl
-    ```bash
-    systemctl daemon-reload
 
-    for service in activemq telegraf prometheus grafana-server; do systemctl status $service; done
-    for service in activemq telegraf prometheus grafana-server; do systemctl restart $service; done
-    for service in activemq telegraf prometheus grafana-server; do systemctl stop $service; done
-    for service in activemq telegraf prometheus grafana-server; do systemctl start $service; done
-    ```
+```
+/etc/systemd/system/prometheus.service
+/etc/systemd/system/activemq.service
+/usr/lib/systemd/system/telegraf.service
+/usr/lib/systemd/system/grafana-server.service
+```
+
+* Systemctl
+
+```bash
+systemctl daemon-reload
+for service in activemq telegraf prometheus grafana-server; do systemctl status $service; done
+for service in activemq telegraf prometheus grafana-server; do systemctl restart $service; done
+for service in activemq telegraf prometheus grafana-server; do systemctl stop $service; done
+for service in activemq telegraf prometheus grafana-server; do systemctl start $service; done
+```
+
 *  Jolokia Permissions already integrated in ActiveMQ by default. Jolokia permissions have been disabled by renaming "jolokia-access.xml" to "jolokia-access.xmlORIG" (this is a Proof of Concept):
-    ```bash
-    mv /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xml /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xmlORIG
-    ```
+
+```bash
+mv /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xml /opt/activemq/webapps/api/WEB-INF/classes/jolokia-access.xmlORIG
+```
 
 * Telegraf Jolokia Input Plugin /etc/telegraf/telegraf.d/activemq.conf 
 
-    ```
-    [[inputs.jolokia2_agent]]
-    urls = ["http://localhost:8161/api/jolokia"]
-    name_prefix = "activemq."
-    username = "admin"
-    password = "admin"
+```
+[[inputs.jolokia2_agent]]
+urls = ["http://localhost:8161/api/jolokia"]
+name_prefix = "activemq."
+username = "admin"
+password = "admin"
+### JVM Generic
+[[inputs.jolokia2_agent.metric]]
+name  = "OperatingSystem"
+mbean = "java.lang:type=OperatingSystem"
+paths = ["ProcessCpuLoad","SystemLoadAverage","SystemCpuLoad"]
+[[inputs.jolokia2_agent.metric]]
+name  = "jvm_runtime"
+mbean = "java.lang:type=Runtime"
+paths = ["Uptime"]
+[[inputs.jolokia2_agent.metric]]
+name  = "jvm_memory"
+mbean = "java.lang:type=Memory"
+paths = ["HeapMemoryUsage", "NonHeapMemoryUsage", "ObjectPendingFinalizationCount"]
+[[inputs.jolokia2_agent.metric]]
+name     = "jvm_garbage_collector"
+mbean    = "java.lang:name=*,type=GarbageCollector"
+paths    = ["CollectionTime", "CollectionCount"]
+tag_keys = ["name"]
+[[inputs.jolokia2_agent.metric]]
+name       = "jvm_memory_pool"
+mbean      = "java.lang:name=*,type=MemoryPool"
+paths      = ["Usage", "PeakUsage", "CollectionUsage"]
+tag_keys   = ["name"]
+tag_prefix = "pool_"
+### ACTIVEMQ
+[[inputs.jolokia2_agent.metric]]
+name     = "queue"
+mbean    = "org.apache.activemq:brokerName=*,destinationName=*,destinationType=Queue,type=Broker"
+paths    = ["QueueSize","EnqueueCount","ConsumerCount","DispatchCount","DequeueCount","ProducerCount","InFlightCount"]
+tag_keys = ["brokerName","destinationName"]
+[[inputs.jolokia2_agent.metric]]
+name     = "topic"
+mbean    = "org.apache.activemq:brokerName=*,destinationName=*,destinationType=Topic,type=Broker"
+paths    = ["ProducerCount","DequeueCount","ConsumerCount","QueueSize","EnqueueCount"]
+tag_keys = ["brokerName","destinationName"]
+[[inputs.jolokia2_agent.metric]]
+name     = "broker"
+mbean    = "org.apache.activemq:brokerName=*,type=Broker"
+paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimi
+t","StorePercentUsage","TempPercentUsage","TempLimit"]
+tag_keys = ["brokerName"]
+```
 
-    ### JVM Generic
-
-    [[inputs.jolokia2_agent.metric]]
-    name  = "OperatingSystem"
-    mbean = "java.lang:type=OperatingSystem"
-    paths = ["ProcessCpuLoad","SystemLoadAverage","SystemCpuLoad"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name  = "jvm_runtime"
-    mbean = "java.lang:type=Runtime"
-    paths = ["Uptime"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name  = "jvm_memory"
-    mbean = "java.lang:type=Memory"
-    paths = ["HeapMemoryUsage", "NonHeapMemoryUsage", "ObjectPendingFinalizationCount"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name     = "jvm_garbage_collector"
-    mbean    = "java.lang:name=*,type=GarbageCollector"
-    paths    = ["CollectionTime", "CollectionCount"]
-    tag_keys = ["name"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name       = "jvm_memory_pool"
-    mbean      = "java.lang:name=*,type=MemoryPool"
-    paths      = ["Usage", "PeakUsage", "CollectionUsage"]
-    tag_keys   = ["name"]
-    tag_prefix = "pool_"
-
-    ### ACTIVEMQ
-
-    [[inputs.jolokia2_agent.metric]]
-    name     = "queue"
-    mbean    = "org.apache.activemq:brokerName=*,destinationName=*,destinationType=Queue,type=Broker"
-    paths    = ["QueueSize","EnqueueCount","ConsumerCount","DispatchCount","DequeueCount","ProducerCount","InFlightCount"]
-    tag_keys = ["brokerName","destinationName"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name     = "topic"
-    mbean    = "org.apache.activemq:brokerName=*,destinationName=*,destinationType=Topic,type=Broker"
-    paths    = ["ProducerCount","DequeueCount","ConsumerCount","QueueSize","EnqueueCount"]
-    tag_keys = ["brokerName","destinationName"]
-
-    [[inputs.jolokia2_agent.metric]]
-    name     = "broker"
-    mbean    = "org.apache.activemq:brokerName=*,type=Broker"
-    paths    = ["TotalConsumerCount","TotalMessageCount","TotalEnqueueCount","TotalDequeueCount","MemoryLimit","MemoryPercentUsage","StoreLimi
-    t","StorePercentUsage","TempPercentUsage","TempLimit"]
-    tag_keys = ["brokerName"]
-
-    ```
 *  InfluxDB: Not required.
 * Defautl /etc/telegraf/telegraf.conf file is modified to allow Prometheus to collect ActiveMQ metrics by pulling Telegraf metrics:
-  ```
-    # # Configuration for the Prometheus client to spawn
-    [[outputs.prometheus_client]]
-    #   ## Address to listen on
-        listen = ":9273"
-        ## Path to publish the metrics on.
-        path = "/metrics"
 
+```
+  # # Configuration for the Prometheus client to spawn
+  [[outputs.prometheus_client]]
+  #   ## Address to listen on
+      listen = ":9273"
+      ## Path to publish the metrics on.
+      path = "/metrics"
+  ...
+  ...
+  # # Gather ActiveMQ metrics
+  [[inputs.activemq]]
+  #   ## ActiveMQ WebConsole URL
+  url = "http://127.0.0.1:8161"
+  #   ## Credentials for basic HTTP authentication
+  username = "admin"
+  password = "admin"
+  ...
+  ...
+```
 
-    ...
-    ...
-    # # Gather ActiveMQ metrics
-    [[inputs.activemq]]
-    #   ## ActiveMQ WebConsole URL
-    url = "http://127.0.0.1:8161"
-    #   ## Credentials for basic HTTP authentication
-    username = "admin"
-    password = "admin"
-    ...
-    ...
-  ```
 * scrape_configs in /opt/prometheus/prometheus.yml 
-  ```
-    scrape_configs en /opt/prometheus/prometheus.yml  
-    scrape_configs:
-    # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-    - job_name: 'prometheus'
 
-        # metrics_path defaults to '/metrics'
-        # scheme defaults to 'http'.
-
-        static_configs:
-        - targets: ['localhost:9090']
-    - job_name: 'broker'
-        static_configs:
-        - targets: ['localhost:9273']
-  ```
+```
+  scrape_configs en /opt/prometheus/prometheus.yml  
+  scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+      # metrics_path defaults to '/metrics'
+      # scheme defaults to 'http'.
+      static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'broker'
+      static_configs:
+      - targets: ['localhost:9273']
+```
 
 * Grafana Dashboard [10702](https://grafana.com/grafana/dashboards/10702) is imported from Grafana UI -> "import dashboard". Prometheus data source is connected manually with Grafana via Grafana UI.
 
@@ -436,6 +429,7 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 
 #### Deployment and Configuration
 * systemd
+
 ```
 /etc/systemd/system/prometheus.service
 /etc/systemd/system/artemis.service
@@ -443,6 +437,7 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ```
 
 * systemctl
+
 ```bash
 # systemctl enable artemis
 # systemctl daemon-reload
@@ -454,6 +449,7 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ```
 
 * Creation of Artemis Broker
+
 ```bash
 cd /var/lib
 /opt/artemis/bin/artemis create --addresses 192.168.1.38 --allow-anonymous --home /opt/artemis --host <my_servername.my_domain> --http-host <my_servername.my_domain> --name <my_servername.my_domain> --queues queue1,queue2 --user artemisuser --password artemispassword artemisbroker
@@ -473,11 +469,13 @@ Or you can run the broker in the background using:
 ```
 
 * Permissions change in broker directory
+
 ```bash
 # chown -R activemq. /var/lib/artemisbroker/
 ```
 
 * Running artemis broker
+
 ```bash
 # su - activemq
 $ cd /var/lib/artemisbroker/
@@ -487,6 +485,7 @@ $ /var/lib/artemisbroker/bin/artemis run
 * Artemis Prometehus Console Access. We can now access to Artemis Console via http://<my_servername.my_domain>:8161/console using the credentials specified during the CLI deployment (artemisuser / artemispassword)
 
 * [Artemis Prometheus Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
+
 ```bash
 activemq@my_servername ~]$ pwd
 /home/activemq
@@ -517,32 +516,36 @@ ctivemq/.m2/repository/org/apache/activemq/artemis-prometheus-metrics-plugin/1.0
 [INFO] Total time:  43.030 s
 [INFO] Finished at: 2020-04-10T13:36:27+02:00
 [INFO] ------------------------------------------------------------------------
-
 ```
 
 * New artifact is copied to artemis broker. Artefact artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-<_VERSION>.jar is copied to our broker:  
+
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin/target/artemis-prometheus-metrics-plugin-
 1.0.0.CR1.jar /var/lib/artemisbroker/lib/
 ```
 
 * Edition of file /var/lib/artemisbroker/etc/broker.xml
+
 ```
 <metrics-plugin class-name="org.apache.activemq.artemis.core.server.metrics.plugins.ArtemisPrometheusMetricsPlugin"/>
 ``` 
 
 * Creation of <artemis_instance>/web
+
 ```
 [activemq@my_servername artemisbroker]$ mkdir /var/lib/artemisbroker/web
 ```
 
 * Artifact artemis-prometheus-metrics-plugin-servlet/target/metrics.war is copied to <ARTEMIS_INSTANCE>/web :
+
 ```bash
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ cp artemis-prometheus-metrics-plugin-servlet/target/metrics.war /var/lib/artem
 isbroker/web/
 ```
 
 * Below web component added to <ARTEMIS_INSTANCE>/etc/bootstrap.xml :
+
 ```
 [activemq@my_servername artemis-prometheus-metrics-plugin]$ vim /var/lib/artemisbroker/etc/bootstrap.xml
 ...
@@ -553,6 +556,7 @@ isbroker/web/
 
 * Restart of Artemis Broker
 * Prometheus configuration, scrape_configs in /opt/prometheus/prometheus.yml :
+
 ```
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
@@ -566,8 +570,8 @@ scrape_configs:
   - job_name: 'broker'
     static_configs:
     - targets: ['localhost:8161']
-
 ```
+
 * Last step: Apparently there's not Grafana Dashboard available for this use case. It is required to [develop a new Grafana Dashboard](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana).
 
 
