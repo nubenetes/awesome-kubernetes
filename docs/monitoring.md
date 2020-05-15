@@ -594,6 +594,21 @@ scrape_configs:
 $ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmeter-5.2.1/lib/
 ```
 
+* collapside section test
+<details>
+    <summary>I could use some help...</summary>
+
+```c#
+public class Order
+{
+    public int OrderId { get; set; }
+    public int CustomerId { get; set; }
+
+    public List<int> Products { get; set; }
+}
+```
+</details> 
+
 * jndi.properties file is modified with Artemis' IP address (it is not listening on localhost):
 
 ```
@@ -647,8 +662,6 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 JMeter|Artemis Grafana|Artemis Dashboard
 :-------:|:---------:|:-------:
 ![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
-
-
 
 
 ## Kibana
