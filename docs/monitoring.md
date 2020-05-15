@@ -32,6 +32,8 @@
         - [Deployment and Configuration](#deployment-and-configuration)
     - [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
         - [Deployment and Configuration](#deployment-and-configuration-1)
+    - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
+        - [JMeter Example Test Plans](#jmeter-example-test-plans)
 - [Kibana](#kibana)
 - [Interactive Learning](#interactive-learning)
 - [Performance](#performance)
@@ -578,6 +580,73 @@ scrape_configs:
 ```
 
 * Last step: Apparently there's not Grafana Dashboard available for this use case. It is required to [develop a new Grafana Dashboard](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana).
+
+### Validation of Artemis Broker Monitoring with JMeter
+* In order to validate our Artemis Broker Monitoring solution we need to "inject traffic/data/metrics" with for example Pub/Sub messages. 
+* We can achieve this with a little of java code or by sending messages via Artemis Web Console -> **"Operations"** tab. 
+* Another option is running the jmeter test plans available on [Artemis' github repo](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter). The procedure is described below. Remember to create the queues and addresses (topics) defined in jmeter example test plans.
+
+#### JMeter Example Test Plans 
+* Latest release of [Apache JMeter](https://jmeter.apache.org/) deployed in /opt
+* Library artemis-jms-client-all-2.11.0.jar is copied to $JMETER_HOME/lib :
+
+```bash
+$ cp /opt/artemis/lib/client/artemis-jms-client-all-2.11.0.jar /opt/apache-jmeter-5.2.1/lib/
+```
+
+* jndi.properties file is modified with Artemis' IP address (it is not listening on localhost):
+
+```
+$ vim /opt/artemis/examples/perf/jmeter/jndi.properties
+$ cat /opt/artemis/examples/perf/jmeter/jndi.properties
+connectionFactory.ConnectionFactory=tcp://192.168.1.38:61616
+```
+
+* jndi.properties is packaged in a jar file and moved to $JMETER_HOME/lib :
+
+```
+[activemq@my_servername ~]$ cd /opt/artemis/examples/perf/jmeter/
+[activemq@my_servername jmeter]$ ls -l
+total 28
+-rw-rw-r-- 1 activemq activemq 11887 Jan 10 16:22 1.jms_p2p_test.jmx
+-rw-rw-r-- 1 activemq activemq  8442 Jan 10 16:22 2.pub_sub_test.jmx
+-rw-rw-r-- 1 activemq activemq   833 Jan 10 16:22 jndi.properties
+[activemq@my_servername jmeter]$ jar -cf artemis-jndi.jar jndi.properties
+[activemq@my_servername jmeter]$ ls -l
+total 32
+-rw-rw-r-- 1 activemq activemq 11887 Jan 10 16:22 1.jms_p2p_test.jmx
+-rw-rw-r-- 1 activemq activemq  8442 Jan 10 16:22 2.pub_sub_test.jmx
+-rw-rw-r-- 1 activemq activemq   946 May 15 08:46 artemis-jndi.jar
+-rw-rw-r-- 1 activemq activemq   833 Jan 10 16:22 jndi.properties
+[activemq@my_servername jmeter]$ cp artemis-jndi.jar /opt/apache-jmeter-5.2.1/lib/
+```
+
+* Example Test Plans available at Artemis GitHub Repo are run by JMeter (from within the GUI or the CLI):
+
+```
+[activemq@my_servername ~]$ cd /opt/artemis/examples/perf/jmeter/
+[activemq@my_servername jmeter]$ ls -la
+total 32
+drwxrwxr-x 2 activemq activemq   101 May 15 08:46 .
+drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
+-rw-rw-r-- 1 activemq activemq 11887 Jan 10 16:22 1.jms_p2p_test.jmx
+-rw-rw-r-- 1 activemq activemq  8442 Jan 10 16:22 2.pub_sub_test.jmx
+-rw-rw-r-- 1 activemq activemq   946 May 15 08:46 artemis-jndi.jar
+-rw-rw-r-- 1 activemq activemq   833 Jan 10 16:22 jndi.properties
+[activemq@my_servername jmeter]$
+[activemq@my_servername bin]$ cd
+[activemq@my_servername ~]$ pwd
+/home/activemq
+[activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/1.jms_p2p_test.jmx -l results-file-1.txt -j 1.log
+[activemq@my_servername ~]$ /opt/apache-jmeter-5.2.1/bin/jmeter.sh -n -t /opt/artemis/examples/perf/jmeter/2.pub_sub_test.jmx -l results-file-2.txt -j 2.log
+
+```
+
+* We can now see metrics displayed on Grafana and Artemis Dashboard:
+
+![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
+:-------|:---------:|-------:
+
 
 
 ## Kibana
