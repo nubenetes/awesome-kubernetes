@@ -284,6 +284,12 @@ ActiveMQ Artemis/Red Hat AMQ Broker|[JMX Exporter](https://github.com/prometheus
 Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/grafana/dashboards/9777)|  
 
 ## Proof of Concept: ActiveMQ Monitoring with Prometheus 
+The aim of this Proof of Concept is to learn Prometheus by example being [Red Hat AMQ 7 (broker)](https://developers.redhat.com/products/amq/overview) on RHEL the application to be monitored. Red Hat AMQ Broker is based on ActiveMQ Artemis, being this the reason why one of the following proof of concepts is done with Artemis (the other one was run in order to learn telegraf, prometheus and grafana). The same solution tested with Artemis on RHEL is valid for Red Hat AMQ 7 Broker on RHEL. 
+
+Red Hat AMQ 7 Broker is OpenShift 3.11 compliant as Technical Preview and deployed as Operator.
+
+Red Hat AMQ 7 Operator is fully supported in OpenShift 4.x, initially with Prometheus and Grafana monitoring already setup and maintained by AMQ Operator. It is recommended to check the metrics collected and displayed by AMQ Operator with another Proof of Concept in OpenShift 4.x. 
+
 ### PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702
 * Latest releases of Telegraf and Prometheus have been used in this Proof of Concept:
     * [telegraf-1.14.0-1 (rpm)](https://www.influxdata.com/time-series-platform/telegraf/)
@@ -399,7 +405,6 @@ tag_keys = ["brokerName"]
 * scrape_configs in /opt/prometheus/prometheus.yml 
 
 ```
-  scrape_configs en /opt/prometheus/prometheus.yml  
   scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
