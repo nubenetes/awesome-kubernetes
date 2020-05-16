@@ -11,15 +11,14 @@
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
 
-
-<center>
-[![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
-</center>
-
 <center>
 [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 </center>
 
 <center>
 [![testops flow](images/testops_flow.jpg)](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
+</center>
+
+<center>
+[![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 </center>
