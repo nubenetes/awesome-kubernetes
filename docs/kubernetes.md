@@ -13,6 +13,7 @@
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
+- [Lens Kubernetes IDE](#lens-kubernetes-ide)
 - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
     - [HPA and VPA](#hpa-and-vpa)
     - [Cluster Autoscaler and Helm](#cluster-autoscaler-and-helm)
@@ -231,6 +232,9 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * Helm Charts repositories:
     * [hub.helm.sh 🌟](http://hub.helm.sh) 
     * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+
+## Lens Kubernetes IDE
+* [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!
 
 ## Cluster Autoscaler Kubernetes Tool
 * [kubernetes.io: Cluster Management - **Resizing a cluster**](https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster)
