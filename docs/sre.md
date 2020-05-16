@@ -8,6 +8,7 @@
 - [bmc.com: SRE vs DevOps: What’s The Difference?](https://www.bmc.com/blogs/sre-vs-devops/)
 - [dzone: SRE vs. DevOps: SRE Is to DevOps What Scrum Is to Agile](https://dzone.com/articles/sre-vs-devopssre-is-to-devops-what-scrum-is-to-agi)
 - [linkedin: DevOps vs Site Reliability Engineering](https://www.linkedin.com/pulse/devops-vs-site-reliability-engineering-sean-washington/)
+- [landing.google.com: What is Site Reliability Engineering (SRE)?](https://landing.google.com/sre/)
 
 <center>
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)

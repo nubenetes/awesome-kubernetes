@@ -12,10 +12,16 @@
 * [Corporate culture complicates Kubernetes and container collaboration 🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration/) 'As the DevOps crew likes to say: containers won't fix your broken culture'
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 * [devopscube.com: Become A DevOps Engineer in 2020: A Comprehensive Guide 🌟](https://devopscube.com/become-devops-engineer/)
+* [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
+- [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
+- [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 
 ## Netflix
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
 * [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
+
+
+[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
 [![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
