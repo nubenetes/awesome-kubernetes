@@ -236,6 +236,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ## Lens Kubernetes IDE
 * [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!
 
+[![lens ide](images/header-lens.png)](https://k8slens.dev/)
+
 ## Cluster Autoscaler Kubernetes Tool
 * [kubernetes.io: Cluster Management - **Resizing a cluster**](https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster)
 * [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler)
