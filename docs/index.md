@@ -32,9 +32,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
     - [Microservices FAQ & Kubernetes Native](faq.md)
 2. [DevOps](devops.md)
-3. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
+3. [TestOps and Continuous Testing](testops.md)
+4. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Git Flow & Trunk. Merge BOTs 🌟](git.md)
-4. [TestOps](testops.md)
 5. [Docker](docker.md)
 6. [Kubernetes 🌟](kubernetes.md)
     - [Kubernetes Matrix Table](matrix-table.md)
@@ -69,7 +69,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [OpenProject](https://www.openproject.org/)
     - [Work From Home](workfromhome.md)
     - [Appointment Scheduling](appointment-scheduling.md)
-10. Configuration Management
+10.  Configuration Management
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
     - [Terraform & Packer](terraform.md)
