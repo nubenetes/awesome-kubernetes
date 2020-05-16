@@ -122,6 +122,8 @@
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
 * [Code Average API](https://plugins.jenkins.io/code-coverage-api)
 * [Fortify](https://plugins.jenkins.io/fortify)
+* [SonarQube Scanner 🌟](https://plugins.jenkins.io/sonar/) 
+    * [SonarScanner for Jenkins 🌟](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/) SonarQube plugin for Jenkins with declarative pipeline
 * [medium: ECS Jenkins Plugin to create ephemeral Slaves in Fargate](https://medium.com/@jportasa/ecs-jenkins-plugin-to-create-ephemeral-slaves-in-fargate-8cb80b46fb75)
 * [Pipeline: SCM Step (workflow-scm-step)](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/) The following plugin provides functionality available through Pipeline-compatible steps.
 * [Amazon EC2 plugin](https://plugins.jenkins.io/ec2/)
