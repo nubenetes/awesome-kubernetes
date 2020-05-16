@@ -13,6 +13,8 @@
 ## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
 * [maven.apache.org](https://maven.apache.org/)
+* [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://twitter.com/ASFMavenProject)
+* [twitter.com/ASFMavenRelease: Maven Plugin Release](https://twitter.com/ASFMavenRelease) Tweets of plugin releases
 * [Dzone.com: Starting with Apache Maven](https://dzone.com/articles/starting-with-apache-maven)
 * [Dzone.com: Maven Demystified](https://dzone.com/articles/maven-demystified)
 * [Dzone.com: Creating a Maven Archetype](https://dzone.com/articles/create-maven-archetype-1)

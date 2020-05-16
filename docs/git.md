@@ -130,6 +130,8 @@ It prescribes that software designers should define formal, precise and verifiab
 #### Feature Flags (Feature Toggles)
 * [featureflags.io: Flags vs Branching](https://featureflags.io/feature-flags-vs-branching/) Branch better with feature flag driven development.
 * [martinfowler.com: Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
+* [#FeatureFlags](https://twitter.com/hashtag/featureflag)
+* [CloudBees Releases Another Industry First: Feature Flagging for On-Premise Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)
 
 ## Git Commands
 * Show commit logs:

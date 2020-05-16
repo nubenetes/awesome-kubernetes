@@ -37,6 +37,7 @@
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 * [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+    * [A collapsible section containing markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 * [Auto Markdown TOC By AX1](https://marketplace.visualstudio.com/items?itemName=livepdm.auto-markdown-toc-ax1)
 * [Prettier:](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Code formatter
 * [Live Share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Real-time collaborative development from the comfort of your favorite tools (pair-programming).
