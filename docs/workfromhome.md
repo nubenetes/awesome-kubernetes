@@ -1,5 +1,7 @@
 # Work from home tips
 - [forbes.com: 5 Essential Coronavirus Work From Home Tech Tips](https://www.forbes.com/sites/tjmccue/2020/03/13/5-essential-coronavirus-work-from-home-tech-tips/)
+- [meet.google.com](https://meet.google.com/)
+- [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
 
 ## Tools recommended by Forbes
 - [krisp](https://krisp.ai/) Noise cancelling app
