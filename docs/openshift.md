@@ -88,7 +88,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 “Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem.”|Chris Wright,Chief Technology Officer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
 
 <center>
-![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)
+[![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
 </center>
   
 ## OpenShift Container Platform 3 (OCP 3)
