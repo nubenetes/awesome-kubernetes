@@ -13,6 +13,10 @@
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 * [devopscube.com: Become A DevOps Engineer in 2020: A Comprehensive Guide 🌟](https://devopscube.com/become-devops-engineer/)
 
+## Netflix
+* [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
+* [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
+
 [![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)

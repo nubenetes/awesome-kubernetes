@@ -129,6 +129,8 @@
 * [Credentials Binding](https://plugins.jenkins.io/credentials-binding/)
 * [CVS plugin](https://plugins.jenkins.io/cvs/)
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
+* [Deploy Dashboard by Namecheap](https://plugins.jenkins.io/deploy-dashboard/)
+    * [namecheap.com: Visualize Your Deployment Status with Jenkins 🌟](https://www.namecheap.com/blog/visualize-your-deployment-status-with-jenkins/)
 * etc
 
 ### Job DSL Plugin. From Freestyle jobs to Pipeline with JobDSL 
