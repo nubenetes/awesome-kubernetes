@@ -28,6 +28,10 @@ pages:
 - DevOps: devops.md
 - TestOps and Continuous Testing: testops.md
 - Site Reliability Engineering (SRE): sre.md
+- Project Management Methodology:
+  - Project Management Methodology: project-management-methodology.md
+  - Work From Home: workfromhome.md
+  - Appointment Scheduling: appointment-scheduling.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
   - Git & Git Patterns. Git Flow & Trunk. Merge BOTs: git.md
@@ -62,8 +66,6 @@ pages:
   - Selenium: selenium.md
   - Appium: appium.md
   - SSH: ssh.md
-  - Work From Home: workfromhome.md
-  - Appointment Scheduling: appointment-scheduling.md
 - Configuration Management:
   - Ansible: ansible.md
   - Liquibase: liquibase.md
