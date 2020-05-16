@@ -4,7 +4,7 @@
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
 - [Online Learning](#online-learning)
 - [Jenkins Pipeline. Pipeline as Code with Jenkins](#jenkins-pipeline-pipeline-as-code-with-jenkins)
-    - [Job DSL Plugin. From Freestyle jobs to Pipeline with JobDSL](#job-dsl-plugin-from-freestyle-jobs-to-pipeline-with-jobdsl)
+    - [Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
         - [Shared Libraries](#shared-libraries)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
@@ -75,7 +75,7 @@
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
 * [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
 
-### Job DSL Plugin. From Freestyle jobs to Pipeline with JobDSL
+### Job DSL Plugin. From Freestyle jobs to Declarative Pipeline
 * Jenkins Job DSL API used in jenkins declarative pipelines.
 * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
     * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
