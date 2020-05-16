@@ -27,6 +27,7 @@ pages:
   - Microservices FAQ & Kubernetes Native: faq.md
 - DevOps: devops.md
 - TestOps and Continuous Testing: testops.md
+- Site Reliability Engineering (SRE): sre.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
   - Git & Git Patterns. Git Flow & Trunk. Merge BOTs: git.md
