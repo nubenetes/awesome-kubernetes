@@ -86,6 +86,10 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 “It's not just enough to do Kubernetes. You do need to do CI/CD. You need to use alerting. You need to understand how the security model of the cloud and your applications interplay.”|Clayton Coleman,Senior Distinguished Engineer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
 “Kubernetes is scalable. It helps develop applications faster. It does hybrid and multicloud. These are not just technology buzzwords, they're real, legitimate business problems.”|Brian Gracely,Director, Product Strategy, Red Hat OpenShift|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
 “Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem.”|Chris Wright,Chief Technology Officer, Red Hat|[Red Hat's approach to Kubernetes](https://www.redhat.com/en/topics/containers/kubernetes-approach)
+
+<center>
+![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)
+</center>
   
 ## OpenShift Container Platform 3 (OCP 3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
