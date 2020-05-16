@@ -41,7 +41,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Work From Home](workfromhome.md)
     - [Appointment Scheduling](appointment-scheduling.md)
 6. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
-    - [Git & Git Patterns. Git Flow, Trunk Devel & Feature Flags. Merge BOTs 🌟](git.md)
+    - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
 7. [Docker](docker.md)
 8. [Kubernetes 🌟](kubernetes.md)
     - [Kubernetes Matrix Table](matrix-table.md)

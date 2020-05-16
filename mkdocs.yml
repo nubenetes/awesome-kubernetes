@@ -34,7 +34,7 @@ pages:
   - Appointment Scheduling: appointment-scheduling.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
-  - Git & Git Patterns. Git Flow, Trunk Devel & Feature Flags. Merge BOTs: git.md
+  - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
 - Docker: docker.md
 - Kubernetes: 
   - Kubernetes: kubernetes.md
