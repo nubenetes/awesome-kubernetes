@@ -1,6 +1,6 @@
 # Kubernetes solutions or installers matrix table
 
-|  PaaS Candidate | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | URL |
+|  Kubernetes Installer or Solution | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | URL |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  kubeadm | SRE / DevOps | Kubernetes Upstream | Multi platform | Yes | OSS | Yes | No | No | No | No | Official kubernetes deployment tool | [https://github.com/kubernetes/kubeadm](https://github.com/kubernetes/kubeadm) |
 |  Ansible Role with kubeadm | SRE / DevOps | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes (storage?) | No | Ansible role for kubeadm automation | [https://github.com/geerlingguy/ansible-role-kubernetes](https://github.com/geerlingguy/ansible-role-kubernetes) |
