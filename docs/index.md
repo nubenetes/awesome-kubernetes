@@ -44,7 +44,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 7. [Kubernetes 🌟](kubernetes.md)
     - [Kubernetes Matrix Table 🌟](matrix-table.md)
     - [Kubernetes Alternatives](kubernetes-alternatives.md)
-8.  [Openshift 🌟](openshift.md)
+8.  [OpenShift 🌟](openshift.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
 9. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)

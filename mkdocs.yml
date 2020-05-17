@@ -37,8 +37,8 @@ pages:
   - Kubernetes: kubernetes.md
   - Kubernetes Matrix Table: matrix-table.md
   - Kubernetes alternatives: kubernetes-alternatives.md
-- Openshift: 
-  - Openshift docs: openshift.md
+- OpenShift: 
+  - OpenShift docs: openshift.md
 - CI/CD: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
   - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
