@@ -63,8 +63,9 @@
 - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
 - [AWS Diagrams](#aws-diagrams)
 - [AWS Config Rules](#aws-config-rules)
-- [AWS BigData](#aws-bigdata)
-- [AWS Data Lake](#aws-data-lake)
+- [AWS Big Data](#aws-big-data)
+	- [AWS Data Lake](#aws-data-lake)
+	- [AWS Data Pipeline (aka Big Data Pipelines or Data Streams)](#aws-data-pipeline-aka-big-data-pipelines-or-data-streams)
 - [AWS NoSQL DynamoDB](#aws-nosql-dynamodb)
 - [AWS IoT](#aws-iot)
 - [AWS Elastic Transcoder. Video streaming](#aws-elastic-transcoder-video-streaming)
@@ -443,15 +444,21 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Config Rules
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
 
-## AWS BigData 
+## AWS Big Data 
 - [aws.amazon.com/big-data 🌟](http://aws.amazon.com/big-data)
 - [blogs.aws.amazon.com/bigdata](http://blogs.aws.amazon.com/bigdata/)
 - [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Streaming)
 - [Analyze Your Data on Amazon DynamoDB with Apache Spark 🌟](http://blogs.aws.amazon.com/bigdata/post/Tx1G4SQRV049UL0/Analyze-Your-Data-on-Amazon-DynamoDB-with-Apache-Spark)
 - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
 
-## AWS Data Lake
+### AWS Data Lake
 - [Building a Data Lake on AWS](https://aws.amazon.com/big-data/data-lake-on-aws/) AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.
+
+### AWS Data Pipeline (aka Big Data Pipelines or Data Streams)
+- [AWS Data Pipeline](https://aws.amazon.com/datapipeline/)
+- [AWS Data Pipeline Documentation 🌟](https://docs.aws.amazon.com/data-pipeline/index.html)
+- [medium: No-Code Data Collect API on AWS 🌟](https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204) A No-Code Data Collections mechanism for Big Data Pipelines on AWS.
+- [AWS Big Data Blog: Category - AWS Data Pipeline](https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline/)
 
 ## AWS NoSQL DynamoDB
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/)
