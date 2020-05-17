@@ -16,6 +16,7 @@
     - [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
 - [Debezium open source distributed platform for change data capture](#debezium-open-source-distributed-platform-for-change-data-capture)
 - [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
+- [Apache Flink](#apache-flink)
 - [eBooks](#ebooks)
 - [Related](#related)
 
@@ -109,6 +110,10 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 ## Red Hat Integration service registry and Apicurio
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
 - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
+
+## Apache Flink
+- [Apache Flink](https://flink.apache.org/)
+- [How to set up Apache Flink on Kubernetes for real time data processing](https://ci.apache.org/projects/flink/flink-docs-stable/ops/deployment/kubernetes.html)
 
 ## eBooks
 - [O'Really: Streaming data](http://streamingsystems.net/)
