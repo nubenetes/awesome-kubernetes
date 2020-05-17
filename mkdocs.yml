@@ -44,8 +44,8 @@ pages:
   - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
 - Jenkins & Cloudbees: 
   - Jenkins docs: jenkins.md
-  - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
   - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
+  - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
   - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
