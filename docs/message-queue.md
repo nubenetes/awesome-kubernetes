@@ -5,6 +5,7 @@
     - [RabbitMQ message broker](#rabbitmq-message-broker)
     - [Redis message broker](#redis-message-broker)
     - [Apache Camel message broker](#apache-camel-message-broker)
+        - [Apache Camel K](#apache-camel-k)
     - [KubeMQ message broker](#kubemq-message-broker)
 - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
@@ -46,6 +47,10 @@
 ### Apache Camel message broker
 - [Apache Camel](https://camel.apache.org/)
 - [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)
+
+#### Apache Camel K
+- [Apache Camel K](https://camel.apache.org/camel-k/latest/) is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.
+- [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k/)
 
 ### KubeMQ message broker
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
