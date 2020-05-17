@@ -85,6 +85,7 @@
             - [Rancher Kubernetes on Oracle Cloud](#rancher-kubernetes-on-oracle-cloud)
             - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
             - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
+        - [Kontena Pharos](#kontena-pharos)
 - [SpringBoot with Docker](#springboot-with-docker)
 - [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
@@ -94,6 +95,7 @@
 
 ## Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟](https://www.cncf.io/certification/software-conformance/)
+* [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos/)
 
 ## The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
 * [Cloud-Native Development Survey Details Kubernetes, Serverless Data 🌟](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
@@ -635,6 +637,9 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 |[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)|
 |:---:|:---:|
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+
+#### Kontena Pharos
+* [Pharos 🌟](https://k8spharos.dev/) Kubernetes Distribution
 
 ## SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
