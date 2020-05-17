@@ -86,7 +86,6 @@ pages:
 - Security and DevSecOps:
   - DevSecOps. Container Security: devsecops.md
   - Security Policy as Code: securityascode.md
-  - Security Patterns for Microservice Architectures: security-patterns-microservice.md
 - Cloud Native Storage: storage.md
 - APIs:
   - APIs with SOAP, REST and gRPC: api.md

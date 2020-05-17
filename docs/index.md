@@ -91,7 +91,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Traffic Director](trafficdirector.md)
 17. [Security and DevSecOps. Container Security](devsecops.md)
     - [Security Policy as Code](securityascode.md)
-    - [Security Patterns for Microservice Architectures](security-patterns-microservice.md)
 18. [Cloud Native Storage](storage.md)
 19. [APIs with SOAP, REST and gRPC 🌟](api.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)

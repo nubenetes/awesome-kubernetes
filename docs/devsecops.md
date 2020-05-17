@@ -1,6 +1,7 @@
-# DevSecOps
+# Security and DevSecOps. Container Security
 - [Introduction](#introduction)
 - [Project Calico](#project-calico)
+- [Security Patterns for Microservice Architectures](#security-patterns-for-microservice-architectures)
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
     - [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
     - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
@@ -10,6 +11,9 @@
 
 ## Project Calico
 * [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era
+
+## Security Patterns for Microservice Architectures
+- [Security Patterns for Microservice Architectures](https://developer.okta.com/blog/2020/03/23/microservice-security-patterns)
 
 ## Anchore Container Security Solutions for DevSecOps
 - [Anchore](https://anchore.com) Container image inspection and policy-based compliance
