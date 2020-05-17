@@ -1,4 +1,4 @@
-# OpenShift Monitoring and Performance. Prometheus, Grafana, APMs and more
+# Monitoring and Performance. Prometheus, Grafana, APMs and more
 - [Monitoring](#monitoring)
 - [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
     - [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
