@@ -1,4 +1,4 @@
-# Maven & Grade
+# Maven & Gradle
 - [Apache Maven](#apache-maven)
     - [Scaffolding a project with Maven (maven archetype)](#scaffolding-a-project-with-maven-maven-archetype)
     - [Maven Tests](#maven-tests)
