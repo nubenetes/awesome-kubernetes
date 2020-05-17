@@ -42,7 +42,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Appointment Scheduling](appointment-scheduling.md)
 6. [Docker](docker.md)
 7. [Kubernetes 🌟](kubernetes.md)
-    - [Kubernetes Matrix Table](matrix-table.md)
+    - [Kubernetes Matrix Table 🌟](matrix-table.md)
     - [Kubernetes Alternatives](kubernetes-alternatives.md)
 8.  [Openshift 🌟](openshift.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
