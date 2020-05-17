@@ -1,9 +1,17 @@
-# API Marketplaces. Developer Portals and API Management/API Gateway
+# API Marketplaces. Developer Portals (aka API Management/API Gateway)
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     - [API Marketplaces](#api-marketplaces)
     - [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
     - [Apis.guru Large Archive of Sample OpenAPI Descriptions](#apisguru-large-archive-of-sample-openapi-descriptions)
-- [API Managers](#api-managers)
+- [API Managers (also known as Developer Portals or API Gateways)](#api-managers-also-known-as-developer-portals-or-api-gateways)
+    - [3scale API Management](#3scale-api-management)
+    - [Google Apigee API Manager](#google-apigee-api-manager)
+    - [WSO2 API Manager](#wso2-api-manager)
+    - [Kong API Manager](#kong-api-manager)
+    - [Tyk API Manager](#tyk-api-manager)
+    - [Axway API Management](#axway-api-management)
+    - [MuleSoft API Manager](#mulesoft-api-manager)
+    - [Backstage Developer Portal](#backstage-developer-portal)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
     - [Auto API](#auto-api)
@@ -28,26 +36,47 @@
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 - [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
-## API Managers
+## API Managers (also known as Developer Portals or API Gateways)
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
-- [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
-    - [Apigee @Youtube](https://www.youtube.com/user/apigee)
+
+### 3scale API Management
 - [3scale API Manager](https://www.3scale.net/)
-    - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)
-    - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)
+- [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)
+- [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)
+- [OpenShift Ecosystem: API Management on Red Hat OpenShift with 3scale](https://blog.openshift.com/openshift-ecosystem-api-management-on-red-hat-openshift-with-3scale/)
+- [Adding API Gateway Policies Now Easier With Red Hat 3scale API Management](https://developers.redhat.com/blog/2018/05/30/3scale-api-gateway-policies/)
+- [Install Red Hat 3scale and configure tenants with 7 simple commands](https://developers.redhat.com/blog/2019/09/09/install-3scale-multitenant-in-7-commands/)
+- [dzone: 3Scale Developer Portal Docs Per Application](https://dzone.com/articles/3scale-developer-portal-docs-per-application) Using this open source platform, we to create a more effective version of your API documentation, allowing devs to only see that docs that are relevant to their work.
+- [dzone: Why Red Hat and 3scale Matter: A Developer's View](https://dzone.com/articles/why-red-hat-and-3scale-matter)
+
+### Google Apigee API Manager
+- [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
+- [Apigee @Youtube](https://www.youtube.com/user/apigee)
+
+### WSO2 API Manager 
 - [WSO2 API Manager](https://wso2.com/api-management/)
-    - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
+- [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
+
+### Kong API Manager
 - [Kong API Manager](https://konghq.com/kong/)
-    - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)
+- [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)
+
+### Tyk API Manager 
 - [Tyk API Manager](https://tyk.io/)
-    - [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)
+- [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)
+
+### Axway API Management 
 - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)
-    - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
-    - [axway.com/digitize](https://axway.com/digitize)
+- [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
+- [axway.com/digitize](https://axway.com/digitize)
+
+### MuleSoft API Manager 
 - [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)
-    - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)
+- [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)
+
+### Backstage Developer Portal 
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
-    - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
+- [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
 
 ## Mobile Developer Portals
 - [developer.mobileconnect.io](https://developer.mobileconnect.io/)
