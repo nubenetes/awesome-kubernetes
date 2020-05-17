@@ -1,14 +1,15 @@
-# Maven
+# Maven & Grade
 - [Apache Maven](#apache-maven)
-- [Scaffolding a project with Maven (maven archetype)](#scaffolding-a-project-with-maven-maven-archetype)
-- [Maven Tests](#maven-tests)
-- [Dependency Resolution in Maven](#dependency-resolution-in-maven)
-- [Maven and Docker](#maven-and-docker)
-- [IDEs](#ides)
-    - [Intellij IDEA](#intellij-idea)
-- [Maven Plugins](#maven-plugins)
-- [Maven Cheat Sheets](#maven-cheat-sheets)
-- [Other Commands](#other-commands)
+    - [Scaffolding a project with Maven (maven archetype)](#scaffolding-a-project-with-maven-maven-archetype)
+    - [Maven Tests](#maven-tests)
+    - [Dependency Resolution in Maven](#dependency-resolution-in-maven)
+    - [Maven and Docker](#maven-and-docker)
+    - [IDEs](#ides)
+        - [Intellij IDEA](#intellij-idea)
+    - [Maven Plugins](#maven-plugins)
+    - [Maven Cheat Sheets](#maven-cheat-sheets)
+    - [Other Commands](#other-commands)
+- [Gradle](#gradle)
 
 ## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
@@ -25,19 +26,19 @@
 * [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)
 * [howtodoinjava.com/maven](https://howtodoinjava.com/maven/)
 
-## Scaffolding a project with Maven (maven archetype)
+### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
 * [maven.apache.org: Introduction to the Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 * [Handwritten Maven archetype project scaffolding](http://www.programmersought.com/article/1858176023/)
 * [programmer.ink: Maven scaffolding best practices](https://programmer.ink/think/maven-scaffolding-best-practices.html)
 * [Create the scaffolding for your microservice](http://fuse.labs.osecloud.com/fuse/creating-a-microservices-project-with-maven/) We will use an existing maven archetype that assembles a CDI-based Camel java project that we will then alter to implement the service.
 
-## Maven Tests
+### Maven Tests
 * [Dzone: Maven Skipping Tests](https://dzone.com/articles/maven-skipping-tests)
 * [Dzone: Integration Tests with Maven](https://dzone.com/articles/integration-tests-with-maven)
 * [Dzone.com: Running Cucumber with Maven](https://dzone.com/articles/running-cucumber-with-maven)
 
-## Dependency Resolution in Maven
+### Dependency Resolution in Maven
 * [Apache Maven Dependency Analyzer](https://maven.apache.org/shared/maven-dependency-analyzer/index.html)
 * [Dzone.com: Solving Dependency conflicts in maven](https://dzone.com/articles/solving-dependency-conflicts-in-maven)
 * [Dzone.com: Taming Maven: Transitive Dependency Pitfalls](https://dzone.com/articles/taming-maven-transitive-dependency-pitfalls)
@@ -49,28 +50,28 @@ mvn dependency:resolve  (give me a list of everything I have declared, a nice wa
 mvn dependency:tree     (how you got something on your classpath)
 ```
 
-## Maven and Docker
+### Maven and Docker
 * [Dzone: Meet the Docker Maven Plugin!](https://dzone.com/articles/meet-the-docker-maven-plugin) 
 
-## IDEs
+### IDEs
 * [Dzone: Maven, Eclipse, and Java 9](https://dzone.com/articles/maven-eclipse-and-java-9) Eclipse users who use Maven are used to the M2E plugin issue of having your JRE reset on you. But there's an additional gotcha between Java 8 and Java 9. 
 * [code.visualstudio.com: Java Project Management in VS Code](https://code.visualstudio.com/docs/java/java-project)
 * [medium.com: Instalación de Java y Visual Studio Code en plataformas Windows](https://medium.com/habasconchocos/instalaci%C3%B3n-de-java-y-visual-studio-code-en-plataformas-windows-1fa47a69497f)
 
-### Intellij IDEA
+#### Intellij IDEA
 * [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html)
 * [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)
 * [vaadin.com/learn/tutorials/import-maven-project-intellij-idea](https://vaadin.com/learn/tutorials/import-maven-project-intellij-idea)
 * [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/)
 * [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/)
 
-## Maven Plugins
+### Maven Plugins
 * [Apache Maven Changelog Plugin](https://maven.apache.org/plugins/maven-changelog-plugin/)
 * [Apache Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
 * [Apache Maven Javadoc Plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/)
 * [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
 
-## Maven Cheat Sheets
+### Maven Cheat Sheets
 * [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 * [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
 * [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
@@ -82,9 +83,15 @@ mvn dependency:tree     (how you got something on your classpath)
 * [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
 * [confluence.sakaiproject.org](https://confluence.sakaiproject.org/display/REL/Maven+release+plugin+cheat+sheet)
 
-## Other Commands
+### Other Commands
 * Display contents of a jar file:
 
 ```bash
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
+
+## Gradle
+- [gradle.org](https://gradle.org/)
+- [Dzone: "Refined" Gradle](https://dzone.com/articles/refined-gradle)
+- [Dzone: simplify your script build with gradle](https://dzone.com/articles/simplify-your-script-build-with-gradle)
+- [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)

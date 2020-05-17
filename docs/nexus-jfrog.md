@@ -1,4 +1,9 @@
-# Nexus
+# Nexus & JFrog Artifactory
+- [Nexus](#nexus)
+    - [Nexus 3 configuration as code:](#nexus-3-configuration-as-code)
+- [JFrog Artifactory](#jfrog-artifactory)
+
+## Nexus
 * [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss)
 * [Nexus 3](https://help.sonatype.com/repomanager3)
 * [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
@@ -23,7 +28,12 @@
     * [https://github.com/jetstack/cert-manager/](https://github.com/jetstack/cert-manager/)
 * [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
 * [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
-* Nexus 3 configuration as code: 
-    * [github.com/samrocketman/nexus3-config-as-code](https://github.com/samrocketman/nexus3-config-as-code) 
-    * [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus/) 
-    * [github.com/cinhtau/sonatype-nexus-waffle](https://github.com/cinhtau/sonatype-nexus-waffle) 
+
+### Nexus 3 configuration as code: 
+* [github.com/samrocketman/nexus3-config-as-code](https://github.com/samrocketman/nexus3-config-as-code) 
+* [blog.mimacom.com/automate-nexus](https://blog.mimacom.com/automate-nexus/) 
+* [github.com/cinhtau/sonatype-nexus-waffle](https://github.com/cinhtau/sonatype-nexus-waffle) 
+
+## JFrog Artifactory
+- [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/)
+- [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/)

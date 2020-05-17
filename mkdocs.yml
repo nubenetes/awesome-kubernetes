@@ -49,17 +49,13 @@ pages:
   - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
   - Toolchain:
     - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
-    - Maven: maven.md
-    - Gradle: gradle.md
+    - Maven & Gradle: maven-gradle.md
     - SonarQube: sonarqube.md
-    - Nexus: nexus.md
-    - JFrog Artifactory: artifactory.md
+    - Nexus & JFrog Artifactory: nexus-jfrog.md
     - Web Servers - Apache, HAProxy & Nginx: web-servers.md
     - Payara App Server: payara.md
     - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
-    - Zephyr Jira plugin: zephyr.md
-    - Selenium: selenium.md
-    - Appium: appium.md
+    - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
     - SSH: ssh.md
 - Java Memory Management:
   - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
