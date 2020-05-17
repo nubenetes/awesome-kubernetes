@@ -2,6 +2,8 @@
 - [Awesome](https://github.com/sindresorhus/awesome)
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
+- [Awesome SysAdmin](https://github.com/kahun/awesome-sysadmin)
+- [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
 - [Awesome Cloud Native](https://jimmysong.io/awesome-cloud-native/)
 - [Awesome Cloud Native Java](https://github.com/saturnism/awesome-cloud-native-java)
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
@@ -38,6 +40,9 @@
 - [Awesome Python](https://github.com/vinta/awesome-python)
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
+
+## Data Processing
+- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
 
 ## Bash

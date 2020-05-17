@@ -66,7 +66,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 15. Databases on Kubernetes
     - [Relational Databases](databases.md)
     - [NoSQL Databases](nosql.md)
-16. [Streaming & Messaging. Cloud Based Integration 🌟](message-queue.md) 
+16. [Cloud Based Integration & Messaging. Data Processing & Streaming 🌟](message-queue.md) 
 17. [Service Mesh](servicemesh.md)
     - [Consul](consul.md)
     - [Envoy & xDS protocol](envoyproxy.md)
