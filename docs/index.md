@@ -47,7 +47,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 8.  [OpenShift 🌟](openshift.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
-9. Software Delivery Pipeline:
+9. Software Delivery Pipeline
     - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
     - [Jenkins & CloudBees 😀](jenkins.md)
@@ -74,7 +74,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
 11. [Caching Solutions](caching.md)
 12. [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
-13. Configuration Management:
+13. Configuration Management
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
     - [Terraform & Packer](terraform.md)
@@ -98,7 +98,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Test Automation with Postman](postman.md)
     - [API Marketplaces and Developer Portals🌟](developerportals.md)
         - [3scale API Management](3scale.md)
-21. Development & Frameworks:
+21. Development & Frameworks
     - [Angular](angular.md)
     - [Document Object Model (DOM)](dom.md)
     - [Java - Spring Framework](SpringFramework.md)
@@ -109,13 +109,13 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [JavaScript - node.js & npm](javascript.md)
     - [Python - Django & Flask](python.md)
     - [Xamarin](xamarin.md)
-22. Dev Environment:    
+22. Dev Environment 
     - [Visual Studio Code 🌟](visual-studio.md)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
     - [ChromeDevTools](ChromeDevTools.md)
 23. [Demos](demos.md)
-24. Public Cloud:
+24. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
