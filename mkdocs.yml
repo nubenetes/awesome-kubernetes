@@ -39,16 +39,29 @@ pages:
   - Kubernetes alternatives: kubernetes-alternatives.md
 - OpenShift: 
   - OpenShift docs: openshift.md
-- CI/CD: 
+- Software Delivery Pipeline: 
   - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
-  - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
-- Jenkins & Cloudbees: 
-  - Jenkins docs: jenkins.md
+  - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
+  - Jenkins & Cloudbees: jenkins.md
   - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
   - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
   - Groovy: groovy.md
   - Jenkins Scripts: scripts/README.md
   - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
+  - Toolchain:
+    - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
+    - Maven: maven.md
+    - Gradle: gradle.md
+    - SonarQube: sonarqube.md
+    - Nexus: nexus.md
+    - JFrog Artifactory: artifactory.md
+    - Apache: apache.md
+    - HAProxy: haproxy.md
+    - Payara: payara.md
+    - Zephyr Jira plugin: zephyr.md
+    - Selenium: selenium.md
+    - Appium: appium.md
+    - SSH: ssh.md
 - Java Memory Management:
   - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
   - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
@@ -91,20 +104,6 @@ pages:
   - JavaScript - node.js & npm: javascript.md
   - Python - Django & Flask: python.md
   - Xamarin: xamarin.md
-- Toolchain:
-  - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
-  - Maven: maven.md
-  - Gradle: gradle.md
-  - SonarQube: sonarqube.md
-  - Nexus: nexus.md
-  - JFrog Artifactory: artifactory.md
-  - Apache: apache.md
-  - HAProxy: haproxy.md
-  - Payara: payara.md
-  - Zephyr Jira plugin: zephyr.md
-  - Selenium: selenium.md
-  - Appium: appium.md
-  - SSH: ssh.md
 - Dev Environment:
   - Visual Studio Code: visual-studio.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
