@@ -55,7 +55,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
         - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
     - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
-    - Toolchain:
+    - Toolchain
         - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
         - [Maven](maven.md)
         - [Gradle](gradle.md)
