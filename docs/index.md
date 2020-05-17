@@ -48,8 +48,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Kubernetes Alternatives](kubernetes-alternatives.md)
 9.  [Openshift 🌟](openshift.md)
     - [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
-    - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
-        - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
 10. [Jenkins & CloudBees 😀 🌟](jenkins.md)
@@ -58,7 +56,9 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Groovy](groovy.md)
     - [Jenkins Scripts](scripts/README.md)
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
-11. Toolchain
+11. [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
+    - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
+12. Toolchain
     - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
     - [Maven](maven.md)
     - [Gradle](gradle.md)
@@ -73,31 +73,31 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Selenium](selenium.md)
     - [Appium](appium.md)
     - [SSH](ssh.md)
-12.  Configuration Management
+13.  Configuration Management
     - [Ansible](ansible.md)
     - [Liquibase](liquibase.md)
     - [Terraform & Packer](terraform.md)
-13. Databases on Kubernetes
+14. Databases on Kubernetes
     - [Relational Databases](databases.md)
     - [NoSQL Databases](nosql.md)
-14. [Streaming & Messaging. Cloud Based Integration 🌟](message-queue.md) 
-15. [Caching Solutions](caching.md)
-16. [Service Mesh](servicemesh.md)
+15. [Streaming & Messaging. Cloud Based Integration 🌟](message-queue.md) 
+16. [Caching Solutions](caching.md)
+17. [Service Mesh](servicemesh.md)
     - [Consul](consul.md)
     - [Envoy & xDS protocol](envoyproxy.md)
     - [Istio](istio.md)
     - [Linkerd](linkerd.md)
     - [Maesh](maesh.md)
     - [Traffic Director](trafficdirector.md)
-17. [Security and DevSecOps. Container Security](devsecops.md)
+18. [Security and DevSecOps. Container Security](devsecops.md)
     - [Security Policy as Code](securityascode.md)
-18. [Cloud Native Storage](storage.md)
-19. [APIs with SOAP, REST and gRPC 🌟](api.md)
+19. [Cloud Native Storage](storage.md)
+20. [APIs with SOAP, REST and gRPC 🌟](api.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
     - [Test Automation with Postman](postman.md)
     - [API Marketplaces and Developer Portals🌟](developerportals.md)
         - [3scale API Management](3scale.md)
-20. Development & Frameworks
+21. Development & Frameworks
     - [Angular](angular.md)
     - [Document Object Model (DOM)](dom.md)
     - [Java - Spring Framework](SpringFramework.md)
@@ -108,14 +108,14 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [JavaScript - node.js & npm](javascript.md)
     - [Python - Django & Flask](python.md)
     - [Xamarin](xamarin.md)
-21. [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
-22. Dev Environment    
+22. [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
+23. Dev Environment    
     - [Visual Studio Code 🌟](visual-studio.md)
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
     - [ChromeDevTools](ChromeDevTools.md)
-23. [Demos](demos.md)
-24. Public Cloud
+24. [Demos](demos.md)
+25. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
@@ -130,10 +130,10 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
-25. [E-Learning](elearning.md)
-26. [Customer Success Stories 🌟](customer.md)
-27. [Subreddits and Newsfeeds](newsfeeds.md)
-28. [Other Awesome Lists 🌟](other-awesome-lists.md)
+26. [E-Learning](elearning.md)
+27. [Customer Success Stories 🌟](customer.md)
+28. [Subreddits and Newsfeeds](newsfeeds.md)
+29. [Other Awesome Lists 🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
