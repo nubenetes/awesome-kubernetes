@@ -11,15 +11,15 @@
 
 ## DevOps Demos
 * [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
-* [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟🌟🌟](https://github.com/wardviaene)
+* [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene)
     * [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
     * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 * [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
-* Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟🌟🌟:
+* Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:
     * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
-* [thoughtworks.com: Modernizing your build pipelines 🌟🌟🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
+* [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
 
 ### Ansible and Ansible Tower
@@ -27,7 +27,7 @@
 * [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 
 ## Kubernetes Demos
-* [kubernetesbyexample.com 🌟🌟🌟](http://kubernetesbyexample.com/)
+* [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
 * [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 * [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
@@ -46,12 +46,12 @@
 * [aws.amazon.com: Deploy a kubernetes application](https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/)
 * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
 * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
-* [dzone: deploying a kubernetes cluster with amazon eks 🌟🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+* [dzone: deploying a kubernetes cluster with amazon eks 🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
 
 ## OpenShift Demos
 * [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
 * [DockerHub OpenShift Demos](https://hub.docker.com/r/openshiftdemos/)
-* [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟🌟🌟](https://github.com/redhat-developer-demos)
+* [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟](https://github.com/redhat-developer-demos)
 * [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 * [blog.openshift.com: OCP multi-node deployment on **AWS** using CloudFormation and Ansible (quickstart workshop)](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
@@ -63,8 +63,8 @@
 * [Deploying WildFly apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift)
 * [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
-* [github.com/openshiftdemos 🌟🌟](https://github.com/openshiftdemos)
-* [github.com/openshift-labs 🌟🌟](https://github.com/openshift-labs) 
+* [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
+* [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
 
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
@@ -89,12 +89,12 @@
 ](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 * [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 * [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
-* Modular Pipeline Library: 4. Petclinic Pipeline 🌟🌟🌟🌟 
+* Modular Pipeline Library: 4. Petclinic Pipeline 🌟 
     * [griddynamics/mpl](https://github.com/griddynamics/mpl)
     * [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.com/developing-a-modular-pipeline-library-to-improve-devops-collaboration/)
     * [youtube: Modular Pipeline Library: 4. Petclinic Pipeline](https://www.youtube.com/watch?v=GLtvxY1S3Aw)
 * PetClinic on Kubernetes:
-    * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
+    * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
     * [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
     * [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
     * [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
@@ -109,5 +109,5 @@
     * [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic/)
     * [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
     * [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
-* [OpenShift.io Samples 🌟🌟🌟🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
+* [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
     * [github.com/che-samples](https://github.com/che-samples)
