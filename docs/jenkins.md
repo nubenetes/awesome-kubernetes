@@ -1,5 +1,6 @@
 # Jenkins & CloudBees
 - [Jenkins](#jenkins)
+- [Groovy](#groovy)
 - [Awesome Jenkins](#awesome-jenkins)
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
 - [Online Learning](#online-learning)
@@ -40,7 +41,12 @@
 * [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) Jenkins Is The Way is a collection of experiences from all around the world showcasing how users are building, deploying, and automating great stuff with Jenkins. 
 
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
-  
+
+## Groovy
+* [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
+* [Dzone: Introduction to Groovy](https://dzone.com/articles/introduction-groovy)
+* [Dzone refcard: Groovy, a Rapid-Development JVM Language](https://dzone.com/refcardz/groovy) 
+
 ## Awesome Jenkins
 * [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins)
 * [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
