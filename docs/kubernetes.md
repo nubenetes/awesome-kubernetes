@@ -95,7 +95,6 @@
 
 ## Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟](https://www.cncf.io/certification/software-conformance/)
-* [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos/)
 
 ## The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
 * [Cloud-Native Development Survey Details Kubernetes, Serverless Data 🌟](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
@@ -640,6 +639,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 #### Kontena Pharos
 * [Pharos 🌟](https://k8spharos.dev/) Kubernetes Distribution
+* [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos/)
 
 ## SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
