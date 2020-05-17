@@ -52,21 +52,8 @@ pages:
 - Java Memory Management:
   - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
   - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
+- Caching Solutions: caching.md
 - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
-- Toolchain:
-  - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
-  - Maven: maven.md
-  - Gradle: gradle.md
-  - SonarQube: sonarqube.md
-  - Nexus: nexus.md
-  - JFrog Artifactory: artifactory.md
-  - Apache: apache.md
-  - HAProxy: haproxy.md
-  - Payara: payara.md
-  - Zephyr Jira plugin: zephyr.md
-  - Selenium: selenium.md
-  - Appium: appium.md
-  - SSH: ssh.md
 - Configuration Management:
   - Ansible: ansible.md
   - Liquibase: liquibase.md
@@ -74,7 +61,6 @@ pages:
 - Databases on Kubernetes: 
   - Relational Databases: databases.md
   - NoSQL Databases: nosql.md
-- Caching Solutions: caching.md
 - Streaming & Messaging. Cloud Based Integration: message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
@@ -88,6 +74,7 @@ pages:
   - DevSecOps. Container Security: devsecops.md
   - Security Policy as Code: securityascode.md
 - Cloud Native Storage: storage.md
+- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
 - APIs:
   - APIs with SOAP, REST and gRPC: api.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
@@ -104,7 +91,20 @@ pages:
   - JavaScript - node.js & npm: javascript.md
   - Python - Django & Flask: python.md
   - Xamarin: xamarin.md
-- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+- Toolchain:
+  - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
+  - Maven: maven.md
+  - Gradle: gradle.md
+  - SonarQube: sonarqube.md
+  - Nexus: nexus.md
+  - JFrog Artifactory: artifactory.md
+  - Apache: apache.md
+  - HAProxy: haproxy.md
+  - Payara: payara.md
+  - Zephyr Jira plugin: zephyr.md
+  - Selenium: selenium.md
+  - Appium: appium.md
+  - SSH: ssh.md
 - Dev Environment:
   - Visual Studio Code: visual-studio.md
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
