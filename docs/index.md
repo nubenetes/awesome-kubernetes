@@ -49,7 +49,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
 9. [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
-10. [Jenkins & CloudBees 😀 🌟](jenkins.md)
+10. [Jenkins & CloudBees 😀](jenkins.md)
     - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
     - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
     - [Groovy](groovy.md)
