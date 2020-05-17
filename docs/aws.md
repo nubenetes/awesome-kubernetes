@@ -80,6 +80,7 @@
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [Spain](#spain)
 - [Blogs](#blogs)
+- [AWS Pricing](#aws-pricing)
 - [Videos](#videos)
 
 <!-- /MarkdownTOC -->
@@ -513,6 +514,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Blogs
 - [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
+
+## AWS Pricing
+- [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
 
 ## Videos
 
