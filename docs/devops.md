@@ -25,5 +25,7 @@
 
 [![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
+![Programmer Move](images/programmer-move.jpg)
+
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
