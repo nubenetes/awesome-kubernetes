@@ -1,15 +1,16 @@
-# API Marketplaces. Developer Portals (aka API Management/API Gateway)
+# API Marketplaces. API Management with API Gateways & Developer Portals 
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     - [API Marketplaces](#api-marketplaces)
     - [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
     - [Apis.guru Large Archive of Sample OpenAPI Descriptions](#apisguru-large-archive-of-sample-openapi-descriptions)
-- [API Managers (also known as Developer Portals or API Gateways)](#api-managers-also-known-as-developer-portals-or-api-gateways)
-    - [3scale API Management](#3scale-api-management)
+- [API Managers with API Gateways & Developer Portals](#api-managers-with-api-gateways--developer-portals)
+    - [API Management vs API Gateway vs Developer Portals](#api-management-vs-api-gateway-vs-developer-portals)
+    - [3scale API Manager](#3scale-api-manager)
     - [Google Apigee API Manager](#google-apigee-api-manager)
     - [WSO2 API Manager](#wso2-api-manager)
     - [Kong API Manager](#kong-api-manager)
     - [Tyk API Manager](#tyk-api-manager)
-    - [Axway API Management](#axway-api-management)
+    - [Axway API Manager](#axway-api-manager)
     - [MuleSoft API Manager](#mulesoft-api-manager)
     - [Backstage Developer Portal](#backstage-developer-portal)
 - [Mobile Developer Portals](#mobile-developer-portals)
@@ -36,10 +37,16 @@
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 - [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
-## API Managers (also known as Developer Portals or API Gateways)
+## API Managers with API Gateways & Developer Portals 
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 
-### 3scale API Management
+### API Management vs API Gateway vs Developer Portals
+- **An API gateway** refers to the individual proxy server.
+- **API management** refers to the overall solution of managing APIs in production which includes a **set of API gateways** acting in a cluster, an **administrative UI**, and may even include additional items such as a **developer portal for customers** to sign up and generate new API keys.
+- [API Management vs API Gateway: Where Does API Analytics and Monitoring Fit?](https://dzone.com/articles/api-management-vs-api-gateway-and-where-does-api-a) 
+- [API Management vs API Gateway and where does API Analytics and Monitoring fit?](https://dev.to/moesif/api-management-vs-api-gateway-and-where-does-api-analytics-and-monitoring-fit-4g75)
+
+### 3scale API Manager
 - [3scale API Manager](https://www.3scale.net/)
 - [Red Hat 3scale API Management](https://www.redhat.com/en/technologies/jboss-middleware/3scale)
 - [Red Hat 3Scale API Management @Youtube](https://www.youtube.com/watch?v=kBBBhpKIv9I)
@@ -65,7 +72,7 @@
 - [Tyk API Manager](https://tyk.io/)
 - [Tyk @Youtube](https://www.youtube.com/channel/UCe3VG8wgz03u73xiomGeQzQ)
 
-### Axway API Management 
+### Axway API Manager
 - [Axway API Management](https://www.axway.com/en/products/api-management/full-lifecycle-api-management)
 - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
 - [axway.com/digitize](https://axway.com/digitize)
