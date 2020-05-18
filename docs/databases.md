@@ -276,11 +276,14 @@ role "view" removed: "system:serviceaccounts"
             users:
             - system:serviceaccount:pgouser1:my-sa
         ```
+
     8. ```oc policy add-role-to-user edit system:serviceaccount:pgouser1:my-sa```
+
 - Other commands of interest:
     - ```oc get role```
     - ```oc describe role pgo-role```
     - ```oc edit role pgo-role``` 
+
 - References:
     - [ref1](https://blog.openshift.com/understanding-service-accounts-sccs/)
     - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
