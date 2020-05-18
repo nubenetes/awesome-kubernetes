@@ -135,7 +135,7 @@
     ```
 
 - **Running a Pod with a Different Service Account.** You can run a pod with a service account other than the default:
-    - Edit the deployment configuration:  $ oc edit dc/<deployment_config>
+    - Edit the deployment configuration:  ```$ oc edit dc/<deployment_config>```
     - Add the serviceAccount and serviceAccountName parameters to the spec field, and specify the service account you want to use:
 
     ```
@@ -172,7 +172,7 @@ Events:              <none>
     - ```oc delete sa/myserviceaccount```  
 - Every service account is also a member of two groups:
     - **system:serviceaccounts**, which includes all service accounts in the cluster
-    - **system:serviceaccounts:<project>**, which includes all service accounts in the project
+    - **system:serviceaccounts:\<project\>**, which includes all service accounts in the project
 
 ###### Service Accounts. Roles
 - When you create a pod, if you do not specify a service account, it is automatically assigned the **default service account** in the same namespace. If you get the raw json or yaml for a pod you have created (e.g. ```oc get pods/podname -o yaml```), you can see the **spec.serviceAccountName** field has been automatically set.
