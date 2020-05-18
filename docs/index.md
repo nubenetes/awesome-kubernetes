@@ -74,7 +74,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Liquibase](liquibase.md)
     - [Terraform & Packer](terraform.md)
 14. Databases on Kubernetes
-    - [Relational Databases. CrunchyData Postgres Operator 🌟](databases.md)
+    - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
     - [NoSQL Databases](nosql.md)
 15. [Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 
 16. [Service Mesh](servicemesh.md)
