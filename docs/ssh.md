@@ -1,4 +1,4 @@
-# SSH & Linux Commands
+# SSH & Linux
 - [SSH](#ssh)
 - [Linux Commands](#linux-commands)
 - [Linux Tools](#linux-tools)
