@@ -129,7 +129,7 @@
     3. **Default:** Used by all other pods by default.
 - You can see them by running the following command: 
 
-    ```bash
+    ```
     oc get serviceaccounts
     oc get sa
     ```
@@ -152,7 +152,7 @@
 
 - Each service account is represented by the ServiceAccount resource and is associated with two additional secrets for access to the OpenShift API and the internal registry:
 
-```bash
+```
 $ oc describe serviceaccounts/default
 Name:                default
 Namespace:           pgouser1
