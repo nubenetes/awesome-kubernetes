@@ -18,7 +18,14 @@
                 - [Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow1-without-custom-service-account-and-without-deploymentconfig)
                 - [Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow2-with-custom-service-account-and-without-deploymentconfig)
                 - [Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig](#add-a-scc-to-a-project-workflow3-with-custom-service-account-and-deploymentconfig)
-            - [Environment setup. Port-forward & WSL](#environment-setup-port-forward--wsl)
+            - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
+            - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
+            - [psql access from postgres-operator POD](#psql-access-from-postgres-operator-pod)
+            - [psql: list databases](#psql-list-databases)
+            - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
+            - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
+            - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
+        - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
 
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
@@ -298,7 +305,7 @@ users:
 
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
 
-##### Environment setup. Port-forward & WSL
+##### Environment setup. Port Forward and WSL
 - Deployment method used in this presentation: [Install Operator Using Bash](https://access.crunchydata.com/documentation/postgres-operator/4.3.0/installation/other/bash/)
 - Config files setup by installer are saved in:
     - “pgo” Project -> Deployments
@@ -309,8 +316,10 @@ users:
     - [ref1](https://access.crunchydata.com/documentation/postgres-operator/latest/operatorcli/pgo-overview/)
     - [ref2](https://crunchydata.github.io/postgres-operator/latest/operatorcli/common-pgo-cli-operations/)
 - WSL (Windows Subystem for Linux): **alog/olog/clog** functions must be adapted to be run in WSL's Ubuntu:
-    
-```vim $HOME/.bashrc```:
+ 
+```
+vim $HOME/.bashrc
+```
 
 ```
 # ~/.bashrc: executed by bash(1) for non-login shells.
@@ -488,11 +497,11 @@ export CCP_STORAGE_CAPACITY=400M
 
 - **port-forward** to reach postgres-operator POD with ‘pgo’ tool (18443 port defined in previous .bashrc): 
 
-    ```
-    oc project pgo
-    oc get pod 
-    oc port-forward postgres-operator-844d8f9777-8d5k5 -n pgo 18443:8443
-    ```
+```
+oc project pgo
+oc get pod 
+oc port-forward postgres-operator-844d8f9777-8d5k5 -n pgo 18443:8443
+```
 
 ##### Cluster Deployment and Operation with pgo
 
