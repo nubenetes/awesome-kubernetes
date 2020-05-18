@@ -21,8 +21,8 @@
                 - [Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig](#add-a-scc-to-a-project-workflow3-with-custom-service-account-and-deploymentconfig)
             - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
             - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
-            - [psql access from postgres-operator POD](#psql-access-from-postgres-operator-pod)
-            - [psql: list databases](#psql-list-databases)
+            - [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
+            - [List Databases with psql](#list-databases-with-psql)
             - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
             - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
             - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
@@ -540,7 +540,7 @@ pgo user –-selector=name=mycluster --expired=300 –-update-password –n pgou
 pgo user –-change-password=bob –n pgouser1 --selector=name=mycluster --password=newpass
 ```
 
-##### psql access from postgres-operator POD
+##### Psql access from postgres operator POD
 
 ```
 oc project pgo
@@ -554,7 +554,7 @@ psql -h mycluster-pgpool.pgouser1 -U postgres testdb -c "INSERT INTO test (id,na
 psql -h mycluster-pgpool.pgouser1 -U postgres testdb -c "select * from test"
 ```
 
-##### psql: list databases
+##### List Databases with psql
 
 ```
 postgres=# \l
