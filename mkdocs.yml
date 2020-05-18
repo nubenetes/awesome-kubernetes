@@ -67,7 +67,7 @@ pages:
   - Liquibase: liquibase.md
   - Terraform & Packer: terraform.md
 - Databases on Kubernetes: 
-  - Relational Databases: databases.md
+  - Relational Databases. CrunchyData Postgres Operator: databases.md
   - NoSQL Databases: nosql.md
 - Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline): message-queue.md
 - Service Mesh: 
