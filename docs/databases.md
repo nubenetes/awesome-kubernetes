@@ -14,7 +14,7 @@
             - [Service Accounts](#service-accounts)
             - [Service Accounts. Roles](#service-accounts-roles)
             - [Security Context Constraints (SCC)](#security-context-constraints-scc)
-                - [Recommendations:](#recommendations)
+                - [SCC Recommendations](#scc-recommendations)
             - [Add a SCC to a Project](#add-a-scc-to-a-project)
                 - [Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow1-without-custom-service-account-and-without-deploymentconfig)
                 - [Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow2-with-custom-service-account-and-without-deploymentconfig)
@@ -220,7 +220,7 @@ role "view" removed: "system:serviceaccounts"
 ![crunchdydata scc1](images/crunchydata_scc1.png)|![crunchdydata scc2](images/crunchydata_scc2.png)
 :---:|:---:
 
-###### Recommendations: 
+###### SCC Recommendations
 - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies (PSP)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/). PSPs are still beta in Kubernetes 1.10, 1.11, 1.12, 1.13, 1.14, 1.15 .
 - **Use the restricted SCC as the default** 
 - For pods that require additional access, use the SCC that grants the least amount of additional privileges or create a custom SCC 
