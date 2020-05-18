@@ -251,14 +251,26 @@ role "view" removed: "system:serviceaccounts"
 - If you are currently in the project to which the service account belongs, you can use the -z flag and just specify the **serviceaccount_name**:  
   ```oc adm policy add-scc-to-user <scc_name> -z <serviceaccount_name>```
 - Examples:
+    - ```oc describe scc anyuid```
     - ```oc adm policy add-scc-to-group anyuid system:serviceaccounts:pgouser1```
     - ‘default’ serviceAccount: 
-        ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:default``` 
+  
+        ```
+        oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:default
+        ``` 
+
     - User registered in Identity Provider: 
-        ```oc adm policy add-scc-to-user anyuid myuser```    
+
+        ```
+        oc adm policy add-scc-to-user anyuid myuser
+        ```    
+
     - Custom serviceAccount: 
-        ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:my-sa```    
-    - ```oc describe scc anyuid```
+
+        ```
+        oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:my-sa
+        ```    
+
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html)
     - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html#add-scc-to-user-group-project)
