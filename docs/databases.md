@@ -264,7 +264,8 @@ role "view" removed: "system:serviceaccounts"
     6. ```oc adm policy add-scc-to-user anyuid system:serviceaccount:pgouser1:my-sa```
     7. Alternative to step #6:
    
-        ```oc edit scc anyuid 
+        ```
+        oc edit scc anyuid 
         ```
 
         ```    
