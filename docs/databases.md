@@ -579,8 +579,10 @@ postgres=#
     - StorageClass changed to “gp2” in YAML file (AWS)
     - ‘pgo’ tool compatibility issues
 
-![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)|![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
-:---:|:---:
+![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)
+
+![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
+
 
 - NO PODs are deployed -> configuration needed:
 
