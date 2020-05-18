@@ -49,7 +49,7 @@
     - [How is OpenShift Container Platform Secured?](#how-is-openshift-container-platform-secured)
     - [Security Context Constraints](#security-context-constraints)
         - [Review Security Context Constraints](#review-security-context-constraints)
-    - [Network Policy](#network-policy)
+    - [OpenShift Network Model & Network Policy](#openshift-network-model--network-policy)
         - [Network Security Zones](#network-security-zones)
 - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
     - [Gitlab](#gitlab)
@@ -395,12 +395,22 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
     * To audit a single pod: `oc describe pod <POD> | grep openshift.io\/scc`
     * Remediation: Apply the SCC with the least privilege required
 
-### Network Policy
-* [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
+### OpenShift Network Model & Network Policy 
+* [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
+    * [docs.openshift.com: Configuring network policy with OpenShift SDN](https://docs.openshift.com/container-platform/4.4/networking/configuring-networkpolicy.html)
+* [NetworkPolicies and Microsegmentation](https://www.openshift.com/blog/networkpolicies-and-microsegmentation)
 * [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://blog.openshift.com/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator/)
+* [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
 #### Network Security Zones
-- [OpenShift and Network Security Zones: Coexistence Approaches 🌟](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
+- [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
+    - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking/), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
+    - Network Zones have been the widely accepted approach for building security into a network architecture. The general idea is to create separate networks, each with a specific purpose. Each network contains devices with similar security profiles. Communications between networks is highly scrutinized and controlled by firewall rules ([perimeter defense](https://en.wikipedia.org/wiki/All_round_defence)).
+    - **Conclusion:** A company’s security organization must be involved when deciding how to deploy OpenShift with regard to traditional network zones. Depending on their level of comfort with new technologies you may have different options. If physical network separation is the only acceptable choice, you will have to build a cluster per network zone. If logical network type of separations can be considered, then there are ways to stretch a single OpenShift deployment across multiple network zones. This post presented a few technical approaches.
+
+<center>
+[![Network Security Zones](images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
+</center>
 
 ## Openshift Compliant Docker Images
 - [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://access.redhat.com/containers/) License required
