@@ -144,6 +144,7 @@
         serviceAccount: <service_account>
         serviceAccountName: <service_account>
     ```
+
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/4.1/authentication/using-service-accounts-in-applications.html)
     - [ref2](https://docs.okd.io/latest/dev_guide/deployments/basic_deployment_operations.html#run-pod-with-different-service-account) 
@@ -238,9 +239,12 @@ role "view" removed: "system:serviceaccounts"
   ```oc adm policy add-scc-to-user <scc_name> -z <serviceaccount_name>```
 - Examples:
     - ```oc adm policy add-scc-to-group anyuid system:serviceaccounts:pgouser1```
-    - ‘default’ serviceAccount: ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:default``` 
-    - User registered in Identity Provider: ```oc adm policy add-scc-to-user anyuid myuser```    
-    - Custom serviceAccount: ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:my-sa```    
+    - ‘default’ serviceAccount: 
+    ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:default``` 
+    - User registered in Identity Provider: 
+    ```oc adm policy add-scc-to-user anyuid myuser```    
+    - Custom serviceAccount: 
+    ```oc adm policy add-scc-to-user anyuid system:serviceaccounts:pgouser1:my-sa```    
     - ```oc describe scc anyuid```
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html)
