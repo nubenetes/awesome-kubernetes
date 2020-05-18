@@ -1,24 +1,24 @@
-# Relational Databases on Kubernetes
+# Relational Databases on Kubernetes. Database DevOps
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
 - [Databases on Kubernetes](#databases-on-kubernetes)
 - [Database DevOps](#database-devops)
-- [PostgreSQL Operator](#postgresql-operator)
-    - [Crunchy Data](#crunchy-data)
-        - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
-            - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
-            - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
-            - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
-                - [Service Accounts](#service-accounts)
-                - [Service Accounts. Roles](#service-accounts-roles)
-                - [Security Context Constraints (SCC)](#security-context-constraints-scc)
-                - [Add an SCC to a Project](#add-an-scc-to-a-project)
-                - [SCC Workflow1. Without custom Service Account and without DeploymentConfig](#scc-workflow1-without-custom-service-account-and-without-deploymentconfig)
-                - [SCC Workflow2. With custom ServiceAccount and without DeploymentConfig](#scc-workflow2-with-custom-serviceaccount-and-without-deploymentconfig)
-                - [SCC Workflow3. With custom serviceAccount and DeploymentConfig](#scc-workflow3-with-custom-serviceaccount-and-deploymentconfig)
-                - [Environment setup. Port-forward & WSL](#environment-setup-port-forward--wsl)
-    - [Spilo](#spilo)
-- [KubeDB Run production-grade databases easily on Kubernetes](#kubedb-run-production-grade-databases-easily-on-kubernetes)
-- [Other solutions](#other-solutions)
+- [KubeDB Cloud Native Database](#kubedb-cloud-native-database)
+- [Cockroach Cloud Native Database](#cockroach-cloud-native-database)
+- [Operator Lifecycle Manager (OLM)](#operator-lifecycle-manager-olm)
+- [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
+- [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
+    - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
+        - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
+        - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
+        - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
+            - [Service Accounts](#service-accounts)
+            - [Service Accounts. Roles](#service-accounts-roles)
+            - [Security Context Constraints (SCC)](#security-context-constraints-scc)
+            - [Add a SCC to a Project](#add-a-scc-to-a-project)
+                - [Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow1-without-custom-service-account-and-without-deploymentconfig)
+                - [Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow2-with-custom-service-account-and-without-deploymentconfig)
+                - [Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig](#add-a-scc-to-a-project-workflow3-with-custom-service-account-and-deploymentconfig)
+            - [Environment setup. Port-forward & WSL](#environment-setup-port-forward--wsl)
 
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
@@ -34,10 +34,21 @@
 ## Database DevOps
 - [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops/a/d-id/1337238)
 
-## PostgreSQL Operator
+## KubeDB Cloud Native Database
+* [kubedb.com](https://kubedb.com/) Run production-grade databases easily on Kubernetes
+
+## Cockroach Cloud Native Database
+* [Cockroach](https://www.cockroachlabs.com/docs/stable/orchestration.html)
+
+## Operator Lifecycle Manager (OLM)
 - [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)
 
-### Crunchy Data
+## Spilo PostgreSQL Operator
+* [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
+* [Patroni](https://github.com/zalando/patroni)
+* [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/)
+
+## Crunchy Data PostgreSQL Operator
 * [crunchydata.com](https://www.crunchydata.com/)
 * [learn.crunchydata.com](https://learn.crunchydata.com/)
 * [github.com/CrunchyData](https://github.com/CrunchyData)
@@ -61,7 +72,7 @@
 * [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://info.crunchydata.com/blog/d-meta)
 * [info.crunchydata.com: Fast CSV and JSON Ingestion in PostgreSQL with COPY](https://info.crunchydata.com/blog/fast-csv-and-json-ingestion-in-postgresql-with-copy)
 
-#### Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept
+### Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept
 - In earlier days, Red Hat recommended running PostgreSQL database outside the Kubernetes cluster. Now, with [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) technology, you can run stateful database applications on Kubernetes.
 - [Crunchy PostgreSQL Operator](https://github.com/CrunchyData/postgres-operator) extends Kubernetes to give you the power to easily  create, configure and manage PostgreSQL clusters at scale.  When combined with the [Crunchy PostgreSQL Container Suite](https://github.com/CrunchyData/crunchy-containers), the Crunchy PostgreSQL Operator provides an open source software solution for PostgreSQL scaling, high-availability, disaster recovery, monitoring, and more.  All of this capability comes with the repeatability and automation that comes from Operators on Kubernetes.
 - Crunchy PostgreSQL Operator is open source and developed in close collaboration with users to support enterprise deployments of cloud agnostic PostgreSQL-as-a-Service capability. This release comes after extensive feedback from our customers and the community to ensure the scalability and security that sysadmins, DBAs, and developers have come to rely on.
@@ -94,7 +105,7 @@
 ![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
 </center>
 
-##### Crunchydata Postgres Operator 3.5
+#### Crunchydata Postgres Operator 3.5
 - Release date: Januay 2019
 - pgBackRest Architecture Enhancements
 - pgBackRest Point-In-Time-Recovery
@@ -105,7 +116,7 @@
 
 ![crunchydata operator 3.5](images/crunchydata_operator_3_5.png)
 
-##### Crunchydata Postgres Operator 4.0.1
+#### Crunchydata Postgres Operator 4.0.1
 - Release date: June 2019
 - **Namespace Deployment Options:** Ability to deploy the operator its own namespace but manage PostgreSQL clusters in multiple namespace. The new namespace management features lets users create multi-tenant PostgreSQL environments that add further isolation and security to their deployments. 
 - **Further Enhancements to pgBackRest Integration:** Perform pgBackRest backups to **Amazon S3**. This allows  users to create an automated, geographically distributed, and hybrid cloud disaster recovery strategy.
@@ -115,8 +126,8 @@
 
 ![crunchdydata operator 4.0.1](images/crunchydata_operator_4_0_1.png)
 
-##### Crunchydata Postgres Operator 4.0.1 Community Edition 
-###### Service Accounts
+#### Crunchydata Postgres Operator 4.0.1 Community Edition 
+##### Service Accounts
 - Service accounts give us flexibility to control access to API without sharing user’s credentials. 
 - Service Accounts are also used by pods and other non-human actors to perform various actions and are a central vehicle by which their access to resources is managed. **By default, three service accounts are created in each project:**
     1. **Builder:** Used by build pods and assigned the **system:image-builder** role, which grants push capability into the internal registry to any image stream in the project.
@@ -169,7 +180,7 @@ Events:              <none>
     - **system:serviceaccounts**, which includes all service accounts in the cluster
     - **system:serviceaccounts:<project\>**, which includes all service accounts in the project
 
-###### Service Accounts. Roles
+##### Service Accounts. Roles
 - When you create a pod, if you do not specify a service account, it is automatically assigned the **default service account** in the same namespace. If you get the raw json or yaml for a pod you have created (e.g. ```oc get pods/podname -o yaml```), you can see the **spec.serviceAccountName** field has been automatically set.
 - You can grant privileges to groups of service accounts, which will effectively grant those privileges to all accounts in the group:
   
@@ -185,7 +196,7 @@ $ oc adm policy remove-role-from-group view system:serviceaccounts –n myprojec
 role "view" removed: "system:serviceaccounts" 
 ```
 
-###### Security Context Constraints (SCC)
+##### Security Context Constraints (SCC)
 - **Security Context Constraints (SCCs)** control what actions pods can perform and what resources they can access. 
 - SCCs combine a set of security configurations into a single policy object that can be applied to pods. 
 - These security configurations include, but are not limited to, Linux Capabilities, Seccomp Profiles, User and Group ID Ranges, and types of mounts. 
@@ -225,10 +236,10 @@ role "view" removed: "system:serviceaccounts"
 
     - ```oc describe rs mycluster5-lgyb-84b58f5dd9```: Warning **FailedCreate** 3m24s (x17 over 7m30s) **replicaset-controller Error creating: pods "mycluster5-lgyb-84b58f5dd9-" is forbidden: unable to validate against any security context constraint: [fsGroup: Invalid value: []int64{26}: 26 is not an allowed group]**
 
-###### Add an SCC to a Project
+##### Add a SCC to a Project
 - SCCs are not granted directly to a project. Instead, you add a service account to an SCC and either specify the service account name on your pod or, when unspecified, run as the **default** service account.
-- **To add an SCC to a user:**  ```oc adm policy add-scc-to-group <scc_name> <group_name>```
-- **To add an SCC to all service accounts in a namespace:**  
+- **To add a SCC to a user:**  ```oc adm policy add-scc-to-group <scc_name> <group_name>```
+- **To add a SCC to all service accounts in a namespace:**  
   ```oc adm policy add-scc-to-group <scc_name>  system:serviceaccounts:<serviceaccount_namespace>```
 - If you are currently in the project to which the service account belongs, you can use the -z flag and just specify the **serviceaccount_name**:  
   ```oc adm policy add-scc-to-user <scc_name> -z <serviceaccount_name>```
@@ -246,11 +257,11 @@ role "view" removed: "system:serviceaccounts"
     - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html#add-scc-to-user-group-project)
     - [ref3 🌟](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 
-###### SCC Workflow1. Without custom Service Account and without DeploymentConfig
+###### Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig
 
 ![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
 
-###### SCC Workflow2. With custom ServiceAccount and without DeploymentConfig
+###### Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig
 
 ![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
 
@@ -283,11 +294,11 @@ users:
     - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
     - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth)
 
-###### SCC Workflow3. With custom serviceAccount and DeploymentConfig
+###### Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig
 
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
 
-###### Environment setup. Port-forward & WSL
+##### Environment setup. Port-forward & WSL
 - Deployment method used in this presentation: [Install Operator Using Bash](https://access.crunchydata.com/documentation/postgres-operator/4.3.0/installation/other/bash/)
 - Config files setup by installer are saved in:
     - “pgo” Project -> Deployments
@@ -483,7 +494,7 @@ export CCP_STORAGE_CAPACITY=400M
     oc port-forward postgres-operator-844d8f9777-8d5k5 -n pgo 18443:8443
     ```
 
-###### Cluster Deployment and Operation with pgo
+##### Cluster Deployment and Operation with pgo
 
 ```
 pgo create cluster mycluster --pgpool -n pgouser1 --resources-config=small --replica-count=1
@@ -508,7 +519,7 @@ pgo user –-selector=name=mycluster --expired=300 –-update-password –n pgou
 pgo user –-change-password=bob –n pgouser1 --selector=name=mycluster --password=newpass
 ```
 
-###### psql access from postgres-operator POD
+##### psql access from postgres-operator POD
 
 ```
 oc project pgo
@@ -522,7 +533,7 @@ psql -h mycluster-pgpool.pgouser1 -U postgres testdb -c "INSERT INTO test (id,na
 psql -h mycluster-pgpool.pgouser1 -U postgres testdb -c "select * from test"
 ```
 
-###### psql: list databases
+##### psql: list databases
 
 ```
 postgres=# \l
@@ -541,7 +552,7 @@ postgres=# \l
 (4 rows)
 ```
 
-###### Access from another POD within the cluster with psql client
+##### Access from another POD within the cluster with psql client
 For example with [this psql client](https://hub.docker.com/r/centos/postgresql-10-centos7)
 
 ```
@@ -555,11 +566,11 @@ Type "help" for help.
 postgres=#
 ```
 
-###### Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition
+##### Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition
 
 ![crunchdydata pgadmin](images/crunchydata_pgadmin.png)
 
-###### Debugging Crunchydata Postgres Operator 4.0.1 Community Edition
+##### Debugging Crunchydata Postgres Operator 4.0.1 Community Edition
 - Debug level logging in turned on by default when deploying the Operator.
 - Sample bash functions are supplied in examples/envs.sh to view the Operator logs.
 - You can view the Operator REST API logs with the **alog** bash function.
@@ -573,7 +584,7 @@ postgres=#
 - “alog”, “olog”, “slog” and “setip” are defined in $HOME/.bashrc
 
 
-##### Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup
+#### Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup
 -  We will set this up manually:
     - StorageClass changed to “gp2” in YAML file (AWS)
     - ‘pgo’ tool compatibility issues
@@ -630,13 +641,4 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ![crunchdydata operatorhub install16](images/crunchydata_operatorhub_install16.png)
 
-### Spilo 
-* [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
-* [Patroni](https://github.com/zalando/patroni)
-* [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/)
 
-## KubeDB Run production-grade databases easily on Kubernetes
-* [kubedb.com](https://kubedb.com/)
-
-## Other solutions
-* [Cockroach](https://www.cockroachlabs.com/docs/stable/orchestration.html)

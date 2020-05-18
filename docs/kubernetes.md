@@ -383,6 +383,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [banzaicloud.com: Kafka rolling upgrade made easy with Supertubes](https://banzaicloud.com/blog/kafka-rolling-upgrade/)
 * [devops.com: Day 2 for the Operator Ecosystem 🌟](https://devops.com/day-2-for-the-operator-ecosystem/)
     * [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
+- [itnext.io: **Operator Lifecycle Manager (OLM)** 🌟](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04)
 
 ### Flux. The GitOps Operator for Kubernetes
 * [Flux 🌟](https://fluxcd.io/) The GitOps operator for Kubernetes
