@@ -16,9 +16,6 @@
                 - [SCC Workflow2. With custom ServiceAccount and without DeploymentConfig](#scc-workflow2-with-custom-serviceaccount-and-without-deploymentconfig)
                 - [SCC Workflow3. With custom serviceAccount and DeploymentConfig](#scc-workflow3-with-custom-serviceaccount-and-deploymentconfig)
                 - [Environment setup. Port-forward & WSL](#environment-setup-port-forward--wsl)
-                - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
-                - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
-            - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
     - [Spilo](#spilo)
 - [KubeDB Run production-grade databases easily on Kubernetes](#kubedb-run-production-grade-databases-easily-on-kubernetes)
 - [Other solutions](#other-solutions)
@@ -93,7 +90,9 @@
         2. [Pgadmin4 install](https://access.crunchydata.com/documentation/crunchy-postgres-containers/latest/examples/administration/pgadmin4/) (easy)
     - Not certified by Red Hat
 
+<center>
 ![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
+</center>
 
 ##### Crunchydata Postgres Operator 3.5
 - Release date: Januay 2019
@@ -579,10 +578,11 @@ postgres=#
     - StorageClass changed to “gp2” in YAML file (AWS)
     - ‘pgo’ tool compatibility issues
 
+<center>
 ![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)
+</center>
 
 ![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
-
 
 - NO PODs are deployed -> configuration needed:
 
@@ -600,7 +600,11 @@ postgres=#
 
 ![crunchdydata operatorhub install7](images/crunchydata_operatorhub_install7.png)
 
-- Error detected. Solution: ```oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default```
+- Error detected. Solution: 
+
+```
+oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
+```
 
 ![crunchdydata operatorhub install8](images/crunchydata_operatorhub_install8.png)
 
