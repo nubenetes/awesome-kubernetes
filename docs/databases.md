@@ -12,7 +12,7 @@
         - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
         - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
             - [Service Accounts](#service-accounts)
-            - [Service Accounts. Roles](#service-accounts-roles)
+            - [Roles assigned to Service Accounts](#roles-assigned-to-service-accounts)
             - [Security Context Constraints (SCC)](#security-context-constraints-scc)
                 - [SCC Recommendations](#scc-recommendations)
             - [Add a SCC to a Project](#add-a-scc-to-a-project)
@@ -188,7 +188,7 @@ Events:              <none>
     - **system:serviceaccounts**, which includes all service accounts in the cluster
     - **system:serviceaccounts:<project\>**, which includes all service accounts in the project
 
-##### Service Accounts. Roles
+##### Roles assigned to Service Accounts
 - When you create a pod, if you do not specify a service account, it is automatically assigned the **default service account** in the same namespace. If you get the raw json or yaml for a pod you have created (e.g. ```oc get pods/podname -o yaml```), you can see the **spec.serviceAccountName** field has been automatically set.
 - You can grant privileges to groups of service accounts, which will effectively grant those privileges to all accounts in the group:
   
