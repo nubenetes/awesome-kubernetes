@@ -1,4 +1,4 @@
-# Cloud Based Integration & Messaging. Data Processing & Streaming
+# Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
     - [ActiveMQ message broker](#activemq-message-broker)

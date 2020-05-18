@@ -69,7 +69,7 @@ pages:
 - Databases on Kubernetes: 
   - Relational Databases: databases.md
   - NoSQL Databases: nosql.md
-- Cloud Based Integration & Messaging. Data Processing & Streaming: message-queue.md
+- Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline): message-queue.md
 - Service Mesh: 
   - Service Mesh: servicemesh.md
   - Consul: consul.md
