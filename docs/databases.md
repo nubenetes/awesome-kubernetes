@@ -16,10 +16,6 @@
                 - [SCC Workflow2. With custom ServiceAccount and without DeploymentConfig](#scc-workflow2-with-custom-serviceaccount-and-without-deploymentconfig)
                 - [SCC Workflow3. With custom serviceAccount and DeploymentConfig](#scc-workflow3-with-custom-serviceaccount-and-deploymentconfig)
                 - [Environment setup. Port-forward & WSL](#environment-setup-port-forward--wsl)
-                - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
-                - [psql access from postgres-operator POD](#psql-access-from-postgres-operator-pod)
-                - [psql: list databases](#psql-list-databases)
-                - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
                 - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
                 - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
             - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
@@ -305,215 +301,181 @@ role "view" removed: "system:serviceaccounts"
     - [ref2](https://crunchydata.github.io/postgres-operator/latest/operatorcli/common-pgo-cli-operations/)
 - WSL (Windows Subystem for Linux): **alog/olog/clog** functions must be adapted to be run in WSL's Ubuntu:
     
-    ```vim $HOME/.bashrc```:
+```vim $HOME/.bashrc```:
 
-        ```
-        # ~/.bashrc: executed by bash(1) for non-login shells.
-        # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-        # for examples
-
-        # If not running interactively, don't do anything
-        case $- in
-            *i*) ;;
-            *) return;;
-        esac
-
-        # don't put duplicate lines or lines starting with space in the history.
-        # See bash(1) for more options
-        HISTCONTROL=ignoreboth
-
-        # append to the history file, don't overwrite it
-        shopt -s histappend
-
-        # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-        HISTSIZE=1000
-        HISTFILESIZE=2000
-
-        # check the window size after each command and, if necessary,
-        # update the values of LINES and COLUMNS.
-        shopt -s checkwinsize
-
-        # If set, the pattern "**" used in a pathname expansion context will
-        # match all files and zero or more directories and subdirectories.
-        #shopt -s globstar
-
-        # make less more friendly for non-text input files, see lesspipe(1)
-        [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
-        # set variable identifying the chroot you work in (used in the prompt below)
-        if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-            debian_chroot=$(cat /etc/debian_chroot)
-        fi
-
-        # set a fancy prompt (non-color, unless we know we "want" color)
-        case "$TERM" in
-            xterm-color|*-256color) color_prompt=yes;;
-        esac
-
-        # uncomment for a colored prompt, if the terminal has the capability; turned
-        # off by default to not distract the user: the focus in a terminal window
-        # should be on the output of commands, not on the prompt
-        #force_color_prompt=yes
-
-        if [ -n "$force_color_prompt" ]; then
-            if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-            # We have color support; assume it's compliant with Ecma-48
-            # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-            # a case would tend to support setf rather than setaf.)
-            color_prompt=yes
-            else
-            color_prompt=
-            fi
-        fi
-
-        if [ "$color_prompt" = yes ]; then
-            PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-        else
-            PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-        fi
-        unset color_prompt force_color_prompt
-
-        # If this is an xterm set the title to user@host:dir
-        case "$TERM" in
-        xterm*|rxvt*)
-            PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-            ;;
-        *)
-            ;;
-        esac
-
-        # enable color support of ls and also add handy aliases
-        if [ -x /usr/bin/dircolors ]; then
-            test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-            alias ls='ls --color=auto'
-            #alias dir='dir --color=auto'
-            #alias vdir='vdir --color=auto'
-
-            alias grep='grep --color=auto'
-            alias fgrep='fgrep --color=auto'
-            alias egrep='egrep --color=auto'
-        fi
-
-        # colored GCC warnings and errors
-        #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-        # some more ls aliases
-        alias ll='ls -alF'
-        alias la='ls -A'
-        alias l='ls -CF'
-
-        # Add an "alert" alias for long running commands.  Use like so:
-        #   sleep 10; alert
-        alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
-        # Alias definitions.
-        # You may want to put all your additions into a separate file like
-        # ~/.bash_aliases, instead of adding them here directly.
-        # See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-        if [ -f ~/.bash_aliases ]; then
-            . ~/.bash_aliases
-        fi
-
-        # enable programmable completion features (you don't need to enable
-        # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-        # sources /etc/bash.bashrc).
-        if ! shopt -oq posix; then
-        if [ -f /usr/share/bash-completion/bash_completion ]; then
-            . /usr/share/bash-completion/bash_completion
-        elif [ -f /etc/bash_completion ]; then
-            . /etc/bash_completion
-        fi
-        fi
-
-        #########################################
-        # CRUNCHYDATA POSTGRES OPERATOR SETTINGS:
-        #########################################
-        # operator env vars
-        export PATH=$PATH:$HOME/odev/bin
-        export PGO_APISERVER_URL=https://127.0.0.1:18443
-        #export PGO_APISERVER_URL=https://172.25.212.138:8443
-        export PGO_CA_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
-        export PGO_CLIENT_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
-        export PGO_CLIENT_KEY=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.key
-        #alias setip='export PGO_APISERVER_URL=https://`kubectl get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443'
-        #alias alog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver'
-        #alias olog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator'
-        #
-        export CCP_IMAGE_TAG=rhel7-11.1-2.3.0
-        export CCP_IMAGE_PREFIX=registry.connect.redhat.com/crunchydata
-        export PGO_CMD=oc
-        export PGO_BASEOS=rhel7
-        export PGO_VERSION=4.0.1
-        export PGO_NAMESPACE=pgo
-        export PGO_IMAGE_TAG=rhel7-4.0.1
-        export PGO_IMAGE_PREFIX=registry.connect.redhat.com/crunchydata
-        export GOPATH=$HOME/odev
-        export GOBIN=$GOPATH/bin
-        export PATH=$PATH:$GOBIN
-
-        # NAMESPACE is the list of namespaces the Operator will watch
-        export NAMESPACE=pgouser1,pgouser2
-
-        # PGO_OPERATOR_NAMESPACE is the namespace the Operator is deployed into
-        export PGO_OPERATOR_NAMESPACE=pgo
-
-        # PGO_CMD values are either kubectl or oc, use oc if Openshift
-        export PGO_CMD=kubectl
-
-        # the directory location of the Operator scripts
-        export PGOROOT=$GOPATH/src/github.com/crunchydata/postgres-operator
-
-        # the version of the Operator you run is set by these vars
-        export PGO_IMAGE_PREFIX=crunchydata
-        export PGO_BASEOS=centos7
-        export PGO_VERSION=4.0.1
-        export PGO_IMAGE_TAG=$PGO_BASEOS-$PGO_VERSION
-
-        # for the pgo CLI to authenticate with using TLS
-        export PGO_CA_CERT=$PGOROOT/conf/postgres-operator/server.crt
-        export PGO_CLIENT_CERT=$PGOROOT/conf/postgres-operator/server.crt
-        export PGO_CLIENT_KEY=$PGOROOT/conf/postgres-operator/server.key
-
-        # common bash functions for working with the Operator
-        function setip() { 
-        export PGO_APISERVER_URL=https://`$PGO_CMD -n "$PGO_OPERATOR_NAMESPACE" get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443 
-        export CO_APISERVER_URL=https://`$PGO_CMD -n "$PGO_OPERATOR_NAMESPACE" get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443 
-        }
-
-        function alog() {
-        $PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver
-        }
-
-        function olog () {
-        $PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator
-        }
-
-        function slog () {
-        $PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c scheduler
-        }
-
-        #export DOCKER_HOST=tcp://localhost:2375
-
-        # crunchy containers: https://github.com/CrunchyData/crunchy-containers/tree/2.4.1
-        export GOPATH=$HOME/cdev        # set path to your new Go workspace
-        export GOBIN=$GOPATH/bin        # set bin path 
-        export PATH=$PATH:$GOBIN        # add Go bin path to your overall path
-        export CCP_BASEOS=centos7       # centos7 for Centos, rhel7 for Redhat
-        export CCP_PGVERSION=10         # The PostgreSQL major version
-        export CCP_PG_FULLVERSION=10.9
-        export CCP_VERSION=2.4.1
-        export CCP_IMAGE_PREFIX=crunchydata # Prefix to put before all the container image names
-        export CCP_IMAGE_TAG=$CCP_BASEOS-$CCP_PG_FULLVERSION-$CCP_VERSION   # Used to tag the images
-        export CCPROOT=$GOPATH/src/github.com/crunchydata/crunchy-containers    # The base of the clone github repo
-        export CCP_SECURITY_CONTEXT=""
-        export CCP_CLI=oc          # kubectl for K8s, oc for OpenShift
-        export CCP_NAMESPACE=crunchy-containers       # Change this to whatever namespace/openshift project name you want to use
-        export CCP_SECURITY_CONTEXT='"fsGroup":26'
-        export CCP_STORAGE_CLASS=gp2
-        export CCP_STORAGE_MODE=ReadWriteOnce
-        export CCP_STORAGE_CAPACITY=400M
-        ```
+```
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+    *) return;;
+esac
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+# append to the history file, don't overwrite it
+shopt -s histappend
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+    # We have color support; assume it's compliant with Ecma-48
+    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+    # a case would tend to support setf rather than setaf.)
+    color_prompt=yes
+    else
+    color_prompt=
+    fi
+fi
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi
+fi
+#########################################
+# CRUNCHYDATA POSTGRES OPERATOR SETTINGS:
+#########################################
+# operator env vars
+export PATH=$PATH:$HOME/odev/bin
+export PGO_APISERVER_URL=https://127.0.0.1:18443
+#export PGO_APISERVER_URL=https://172.25.212.138:8443
+export PGO_CA_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
+export PGO_CLIENT_CERT=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.crt
+export PGO_CLIENT_KEY=$HOME/odev/src/github.com/crunchydata/postgres-operator/conf/postgres-operator/server.key
+#alias setip='export PGO_APISERVER_URL=https://`kubectl get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443'
+#alias alog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver'
+#alias olog='kubectl logs `kubectl get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator'
+#
+export CCP_IMAGE_TAG=rhel7-11.1-2.3.0
+export CCP_IMAGE_PREFIX=registry.connect.redhat.com/crunchydata
+export PGO_CMD=oc
+export PGO_BASEOS=rhel7
+export PGO_VERSION=4.0.1
+export PGO_NAMESPACE=pgo
+export PGO_IMAGE_TAG=rhel7-4.0.1
+export PGO_IMAGE_PREFIX=registry.connect.redhat.com/crunchydata
+export GOPATH=$HOME/odev
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+# NAMESPACE is the list of namespaces the Operator will watch
+export NAMESPACE=pgouser1,pgouser2
+# PGO_OPERATOR_NAMESPACE is the namespace the Operator is deployed into
+export PGO_OPERATOR_NAMESPACE=pgo
+# PGO_CMD values are either kubectl or oc, use oc if Openshift
+export PGO_CMD=kubectl
+# the directory location of the Operator scripts
+export PGOROOT=$GOPATH/src/github.com/crunchydata/postgres-operator
+# the version of the Operator you run is set by these vars
+export PGO_IMAGE_PREFIX=crunchydata
+export PGO_BASEOS=centos7
+export PGO_VERSION=4.0.1
+export PGO_IMAGE_TAG=$PGO_BASEOS-$PGO_VERSION
+# for the pgo CLI to authenticate with using TLS
+export PGO_CA_CERT=$PGOROOT/conf/postgres-operator/server.crt
+export PGO_CLIENT_CERT=$PGOROOT/conf/postgres-operator/server.crt
+export PGO_CLIENT_KEY=$PGOROOT/conf/postgres-operator/server.key
+# common bash functions for working with the Operator
+function setip() { 
+export PGO_APISERVER_URL=https://`$PGO_CMD -n "$PGO_OPERATOR_NAMESPACE" get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443 
+export CO_APISERVER_URL=https://`$PGO_CMD -n "$PGO_OPERATOR_NAMESPACE" get service postgres-operator -o=jsonpath="{.spec.clusterIP}"`:18443 
+}
+function alog() {
+$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c apiserver
+}
+function olog () {
+$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c operator
+}
+function slog () {
+$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" logs `$PGO_CMD  -n "$PGO_OPERATOR_NAMESPACE" get pod --selector=name=postgres-operator -o jsonpath="{.items[0].metadata.name}"` -c scheduler
+}
+#export DOCKER_HOST=tcp://localhost:2375
+# crunchy containers: https://github.com/CrunchyData/crunchy-containers/tree/2.4.1
+export GOPATH=$HOME/cdev        # set path to your new Go workspace
+export GOBIN=$GOPATH/bin        # set bin path 
+export PATH=$PATH:$GOBIN        # add Go bin path to your overall path
+export CCP_BASEOS=centos7       # centos7 for Centos, rhel7 for Redhat
+export CCP_PGVERSION=10         # The PostgreSQL major version
+export CCP_PG_FULLVERSION=10.9
+export CCP_VERSION=2.4.1
+export CCP_IMAGE_PREFIX=crunchydata # Prefix to put before all the container image names
+export CCP_IMAGE_TAG=$CCP_BASEOS-$CCP_PG_FULLVERSION-$CCP_VERSION   # Used to tag the images
+export CCPROOT=$GOPATH/src/github.com/crunchydata/crunchy-containers    # The base of the clone github repo
+export CCP_SECURITY_CONTEXT=""
+export CCP_CLI=oc          # kubectl for K8s, oc for OpenShift
+export CCP_NAMESPACE=crunchy-containers       # Change this to whatever namespace/openshift project name you want to use
+export CCP_SECURITY_CONTEXT='"fsGroup":26'
+export CCP_STORAGE_CLASS=gp2
+export CCP_STORAGE_MODE=ReadWriteOnce
+export CCP_STORAGE_CAPACITY=400M
+```
 
 - **port-forward** to reach postgres-operator POD with ‘pgo’ tool (18443 port defined in previous .bashrc): 
 
