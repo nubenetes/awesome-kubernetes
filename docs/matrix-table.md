@@ -1,4 +1,4 @@
-# Kubernetes Distributions or Installers Matrix Table
+# Kubernetes Distributions & Installers Matrix Table
 
 |  Kubernetes Installer or Distribution | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 

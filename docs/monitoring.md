@@ -35,10 +35,16 @@
     - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
         - [JMeter Example Test Plans](#jmeter-example-test-plans)
 - [Kibana](#kibana)
-- [Interactive Learning](#interactive-learning)
+- [Prometheus and Grafana Interactive Learning](#prometheus-and-grafana-interactive-learning)
 - [Performance](#performance)
+- [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
+    - [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
+- [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
 - [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
+    - [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
+    - [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
 - [Application Performance Management (APM)](#application-performance-management-apm)
+    - [Elastic APM](#elastic-apm)
     - [Dynatrace APM](#dynatrace-apm)
 - [Message Queue Monitoring](#message-queue-monitoring)
     - [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
@@ -657,20 +663,78 @@ JMeter|Artemis Grafana|Artemis Dashboard
 * [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
 * [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
 
-## Interactive Learning
+## Prometheus and Grafana Interactive Learning
 * [katacoda.com: Getting Started with Prometheus](https://www.katacoda.com/courses/prometheus/getting-started)
 * [katacoda.com: Creating Dashboards with Grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 * [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
-* Java:
-    * [developers.redhat.com: Troubleshooting java applications on openshift](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
-    * [dzone.com: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
 * [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
+## List of Performance Analysis Tools
+* Threadumps + heapdumps + GC analysis tools
+* [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
+* [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
+* [VisualVM 🌟](https://en.wikipedia.org/wiki/VisualVM)
+* [OverOps](https://en.wikipedia.org/wiki/OverOps)
+* [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
+* [tier1app.com](https://tier1app.com/)
+* [fastthread.io 🌟](https://fastthread.io/)
+* [gceasy.io 🌟](https://gceasy.io/)
+* [heaphero.io](https://heaphero.io/)
+
+### Thread Dumps. Debugging Java Applications
+- [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)
+- [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) **A must read!**
+- [Dzone: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
+- Thread Dump Analyzers: [fastThread](https://fastthread.io/), [Spotify TDA](https://spotify.github.io/threaddump-analyzer/), [IBM Thread and Monitor Dump Analyzer for Java](https://www.ibm.com/support/pages/ibm-thread-and-monitor-dump-analyzer-java-tmda), [TDA - Thread Dump Analyzer](https://github.com/irockel/tda)
+- [FastThread.io](https://fastthread.io/): Thread dumps can be uploaded via Web or API Call from within the POD (jstack must be available within the container):
+
+        ```bash
+        #!/bin/sh
+        # Generate N thread dumps of the process PID with an INTERVAL between each dump.
+        if [ $# -ne 3 ]; then
+           echo Generates Java thread dumps using the jstack command.
+           echo
+           echo usage: $0 process_id repetitions interval
+           exit 1
+        fi 
+        PID=$1
+        N=$2
+        INTERVAL=$3 
+        for ((i=1;i<=$N;i++))
+        do
+           d=$(date +%Y%m%d-%H%M%S)
+           dump="threaddump-$PID-$d.txt"
+           echo $i of $N: $dump
+           jstack -l $PID > $dump
+           curl -X POST --data-binary @./$dump https://fastthread.io/fastthread-api?apiKey=<APIKEY> --header "Content-Type:text"
+           sleep $INTERVAL
+        done
+        ```
+
+    - How to run this script from within the POD: ```./script_thread_dump.sh 1 15 3```, where:
+        - “1”: PID of java process (“1” in containers running a single process, check with “ps ux” command).
+        - “15”: 15 repetitions or thread dumps
+        - “3”: interval of 3 seconds between each thread dump.
+    - According to some references only 3 thread dumps captured in a timeframe of 10 seconds is necessary (when we want to troubleshoot a Java issue during a service degradation).
+    - Sample thread dump analysis reports generated by fastThread: 
+        - [Transitive blocks](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t) 
+        - [Unresponsive JVM](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t) 
+        - [Sudden CPU spike](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
+        - [Thread Leaks](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
+
+## Debugging Java Applications on OpenShift and Kubernetes
+- [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
+- [Debugging Java Applications On OpenShift and Kubernetes](https://www.openshift.com/blog/debugging-java-applications-on-openshift-kubernetes)
+- [Remote Debugging of Java Applications on OpenShift](https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications-on-openshift/)
+    - https://dzone.com/articles/remote-debugging-of-java-applications-on-openshift (JMX + VisualVM)
+- [VisualVM: JVisualVM to an Openshift pod](https://fedidat.com/250-jvisualvm-openshift-pod/)  
+- [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301)
+
 ## Distributed Tracing. OpenTelemetry and Jaeger
-- [**opentelemetry.io** 🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
+- [Microservice Observability with Distributed Tracing: **OpenTelemetry.io** 🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [**Jaeger** 🌟](https://www.jaegertracing.io/)
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
      - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
@@ -678,14 +742,50 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - [**zipkin.io**](https://zipkin.io/)
 - [**OpenTracing.io**](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
-   
+
+### Microservice Observability with Distributed Tracing. OpenTelemetry.io
+- Used for monitoring and troubleshooting microservices-based distributed systems.
+- [OpenTelemetry.io](https://opentelemetry.io/): 
+    - **Unified standard** (open, vendor-neutral API), **merge of [OpenCensus.io](https://opencensus.io/) and [OpenTracing.io](https://opentracing.io/)**. 
+    - “A single set of system components and language-specific telemetry libraries” to standardize how the industry uses metrics, traces, and eventually logs to enable observability. 
+- A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**. 
+- **Tracing** is about analyzing, recording, and describing transactions.
+- **Distributed Tracing:** Troubleshooting requests between interconnected cloud-based microservices can’t always be done with logs and metrics alone. This is where distributed tracing comes into play: It provides developers with a  detailed view of individual requests as they “hop” through a system of microservices. With **distributed tracing** you can:
+    - Trace the path of a request as it travels across a complex system.
+    - Discover the latency of the components along that path.
+    - Know which component in the path is creating a bottleneck or failure.
+- **Performance:** Latency is a very important metric in microservices. Latency problems in one service will impact the overall request latency when chaining calls to different microservices. Every call to a microservice should record a trace, which is basically a record of how much time it took to respond. It's possible to add more details to the function level, including the action, the result, and the pass to the next service. The hard part is triaging all traces in a request from a client. Usually, a trace ID header has to be sent in every request. If there isn't one, the logging library creates it and it will represent the first trace in a request. **Adding traces with [OpenCensus](https://opencensus.io/) is simply a matter of including the libraries and registering an exporter.** 
+- **Monitoring in a Microservices/Kubernetes World:** In distributed system architectures like microservices, having visibility from different perspectives will be critical at troubleshooting time. Many things could happen in a request when there are many parts constantly interacting at the same time. The most common method is to write logs to the stdout and stderr streams.
+    - For example, a latency problem in the system could exist because a microservice is not responding correctly. Maybe Kubernetes is restarting the pod too frequently, or perhaps the cluster is out of capacity and can't schedule any more pods. But for this reason, tools like [Istio](https://istio.io/) exist; by injecting a container in every pod, you can get a pretty good baseline of telemetry. Additionally, when you add instrumentation with libraries like [OpenCensus](https://opencensus.io/), you can deeply understand what's happening with and within each service.
+    - All this information will need a storage location, and as a good practice, you might want to have it a centralized location to provide access to anyone in the team — not just for the operations team.
+- **Older Distributed Tracing Solutions:** 
+    - [Dapper](https://research.google/pubs/pub36356/) (Google)
+    - [Zipkin](https://zipkin.io/) (A.K.A. OpenZipkin, created by Twitter, inspired by Dapper)
+    - [Jaeger](https://www.jaegertracing.io/) (Uber Technologies, inspired by Dapper & Zipkin)
+    - etc.
+- [Medium: Distributed Tracing and Monitoring using OpenCensus](https://medium.com/@rghetia/distributed-tracing-and-monitoring-using-opencensus-fe5f6e9479fb)
+- [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing) Learn about Zipkin and Jaeger, how they work to add request tracing to your logging routine, and how to choose which one is the right fit for you.
+- [opensource.com: Distributed tracing in a microservices world](https://opensource.com/article/18/9/distributed-tracing-microservices-world) What is distributed tracing and why is it so important in a microservices environment?
+- [opensource.com: 3 open source distributed tracing tools](https://opensource.com/article/18/9/distributed-tracing-tools) Find performance issues quickly with these tools, which provide a graphical view of what's happening across complex software systems.
+- [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://blog.newrelic.com/engineering/opentelemetry-opentracing-opencensus/)  
+- There’s no OpenTelemetry UI, instead Jaeger UI (or any APM like Dynatrace or New Relic) can be used as “Tracing backend + Visualization frontend + Data mining platform” of OpenTelemetry API/SDK.
+
+[Jaeger UI](https://www.jaegertracing.io/)|[Zipkin UI](https://zipkin.io/)
+:----:|:----:
+![Jaeger UI](images/jaeger_ui.png)|![Zipking UI](images/zipkin_ui.png)
+
+### Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry
+- [Medium: Jaeger VS OpenTracing VS OpenTelemetry](https://medium.com/jaegertracing/jaeger-and-opentelemetry-1846f701d9f2)
+
+![Jaeger Vs OpenTelemetry](images/jaeger_vs_opentelemetry.png)
+
 ## Application Performance Management (APM)
-* [en.wikipedia.org/wiki/Application_performance_management](https://en.wikipedia.org/wiki/Application_performance_management)
+- [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management): The monitoring and management of performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service. APM is "the translation of IT metrics into business meaning.” 
+- Tip: [Download APM report from IT Central Station](https://www.itcentralstation.com/categories/application-performance-management-apm)
 * [Awesome APM 🌟](https://github.com/antonarhipov/awesome-apm)
 * [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
 * [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
 * [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
-* [elastic.co: Using the Elastic APM Java Agent on Kubernetes](https://www.elastic.co/blog/using-elastic-apm-java-agent-on-kubernetes-k8s)
 * Exception Tracking:
     * [sentry.io](https://sentry.io/)
     * APMs like Dynatrace, etc.
@@ -693,22 +793,21 @@ JMeter|Artemis Grafana|Artemis Dashboard
     * [datadoghq.com](https://www.datadoghq.com/)
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
-    * [skywalking.apache.org](https://skywalking.apache.org/)
-    * [Elastic APM](https://www.elastic.co/products/apm)
+    * [skywalking.apache.org](https://skywalking.apache.org/)   
     * [AppDynamics 🌟](https://www.appdynamics.com/)
     * [New Relic 🌟](https://newrelic.com/)
     * [Dynatrace 🌟](https://www.dynatrace.com/)
-* List of Performance Analysis Tools:
-    * Threadumps + heapdumps + GC analysis tools
-    * [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
-    * [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
-    * [VisualVM 🌟](https://en.wikipedia.org/wiki/VisualVM)
-    * [OverOps](https://en.wikipedia.org/wiki/OverOps)
-    * [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
-    * [tier1app.com](https://tier1app.com/)
-    * [fastthread.io 🌟](https://fastthread.io/)
-    * [gceasy.io 🌟](https://gceasy.io/)
-    * [heaphero.io](https://heaphero.io/)
+
+### Elastic APM
+- [Elastic APM](https://www.elastic.co/products/apm)
+- [Elastic APM Server](https://www.elastic.co/guide/en/apm/get-started/current/components.html): 
+- [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix#matrix_compatibility)
+- Built-in elasticsearch 5.6 in Openshift 3 & Openshift 4 cannot be integrated with Elastic APM Server.
+- Solutions: Deploy a higher version of [Elasticsearch + Kibana](https://hub.docker.com/_/elasticsearch) on a new Project dedicated to Elastic APM; or setup an Elastic Cloud account.
+- [Elastic APM Server Docker image](https://github.com/sls-dev1/openshift-elastic-apm-server) (“oss” & openshift compliant). 
+- [elastic.co: Using the Elastic APM Java Agent on Kubernetes](https://www.elastic.co/blog/using-elastic-apm-java-agent-on-kubernetes-k8s)
+
+![Elastic APM](images/elasticapm.png)
 
 ### Dynatrace APM
 * [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://www.adictosaltrabajo.com/tutoriales/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace/)
