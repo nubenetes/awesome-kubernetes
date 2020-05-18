@@ -729,7 +729,7 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
 - [Debugging Java Applications On OpenShift and Kubernetes](https://www.openshift.com/blog/debugging-java-applications-on-openshift-kubernetes)
 - [Remote Debugging of Java Applications on OpenShift](https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications-on-openshift/)
-    - https://dzone.com/articles/remote-debugging-of-java-applications-on-openshift (JMX + VisualVM)
+    - [Dzone: Remote Debugging of Java Applications on OpenShift (JMX + VisualVM)](https://dzone.com/articles/remote-debugging-of-java-applications-on-openshift) 
 - [VisualVM: JVisualVM to an Openshift pod](https://fedidat.com/250-jvisualvm-openshift-pod/)  
 - [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301)
 
