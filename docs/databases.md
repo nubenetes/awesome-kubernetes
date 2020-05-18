@@ -142,21 +142,21 @@
     3. **Default:** Used by all other pods by default.
 - You can see them by running the following command: 
 
-    ```
-    oc get serviceaccounts
-    oc get sa
-    ```
+```
+oc get serviceaccounts
+oc get sa
+```
 
 - **Running a Pod with a Different Service Account.** You can run a pod with a service account other than the default:
     - Edit the deployment configuration:  ```$ oc edit dc/<deployment_config>```
     - Add the serviceAccount and serviceAccountName parameters to the spec field, and specify the service account you want to use:
 
-    ```
-    spec:
-        securityContext: {}
-        serviceAccount: <service_account>
-        serviceAccountName: <service_account>
-    ```
+```
+spec:
+    securityContext: {}
+    serviceAccount: <service_account>
+    serviceAccountName: <service_account>
+```
 
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/4.1/authentication/using-service-accounts-in-applications.html)
