@@ -64,7 +64,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
         - [Payara App Server](payara.md) 
         - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
         - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
-        - [SSH](ssh.md)
+        - [SSH & Linux Commands](ssh.md)
 10. [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
     - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
 11. [Caching Solutions](caching.md)

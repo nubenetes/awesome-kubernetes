@@ -22,7 +22,7 @@
 ### OCS 4 (OpenShift 4)
 - **OCS Operator** based on Rook.io with Operator LifeCycle Manager (OLM).
 - Tech Stack:
-    - [Rook](https://rook.io) (don't confuse this with non-redhat ["Rook Ceph"](https://operatorhub.io/operator/rook-ceph)).
+    - [Rook](https://rook.io) (don't confuse this with non-redhat ["Rook Ceph"](https://operatorhub.io/operator/rook-ceph) -> [RH ref](https://www.redhat.com/en/blog/rook-ceph-storage-operator-now-operatorhubio)).
         - Replaces [Heketi](https://github.com/heketi/heketi)  (OpenShift 3)
         - Uses **Red Hat Ceph Storage** and **Noobaa**.
     - [Red Hat Ceph Storage](https://ceph.io)
