@@ -17,9 +17,9 @@
             - [Security Context Constraints (SCC)](#security-context-constraints-scc)
                 - [SCC Recommendations](#scc-recommendations)
             - [Add a SCC to a Project](#add-a-scc-to-a-project)
-                - [Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow1-without-custom-service-account-and-without-deploymentconfig)
-                - [Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig](#add-a-scc-to-a-project-workflow2-with-custom-service-account-and-without-deploymentconfig)
-                - [Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig](#add-a-scc-to-a-project-workflow3-with-custom-service-account-and-deploymentconfig)
+                - [Workflow1 without custom Service Account and without DeploymentConfig](#workflow1-without-custom-service-account-and-without-deploymentconfig)
+                - [Workflow2 with custom Service Account and without DeploymentConfig](#workflow2-with-custom-service-account-and-without-deploymentconfig)
+                - [Workflow3 with custom service Account and DeploymentConfig](#workflow3-with-custom-service-account-and-deploymentconfig)
             - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
             - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
             - [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
@@ -282,11 +282,11 @@ openshift.io/scc: restricted
     - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html#add-scc-to-user-group-project)
     - [ref3 🌟](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 
-###### Add a SCC to a Project. Workflow1 without custom Service Account and without DeploymentConfig
+###### Workflow1 without custom Service Account and without DeploymentConfig
 
 ![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
 
-###### Add a SCC to a Project. Workflow2 with custom Service Account and without DeploymentConfig
+###### Workflow2 with custom Service Account and without DeploymentConfig
 
 ![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
 
@@ -319,7 +319,7 @@ users:
     - [ref2](https://docs.openshift.com/container-platform/4.1/authentication/understanding-and-creating-service-accounts.html)
     - [ref3](https://docs.openshift.com/container-platform/4.1/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth)
 
-###### Add a SCC to a Project. Workflow3 with custom service Account and DeploymentConfig
+###### Workflow3 with custom service Account and DeploymentConfig
 
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
 
