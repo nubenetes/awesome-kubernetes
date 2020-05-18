@@ -638,13 +638,19 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ![crunchdydata operatorhub install11](images/crunchydata_operatorhub_install11.png)
 
+<center>
 ![crunchdydata operatorhub install12](images/crunchydata_operatorhub_install12.png)
+</center>
 
 - New errors: 3 “secrets” need to be setup manually -> POD is started successfully and we have psql access.
 
+<center>
 ![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png)
+</center>
 
+<center>
 ![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
+</center>
 
 ![crunchdydata operatorhub install15](images/crunchydata_operatorhub_install15.png)
 
