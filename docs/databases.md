@@ -22,6 +22,7 @@
                 - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
                 - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
                 - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
+            - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
     - [Spilo](#spilo)
 - [KubeDB Run production-grade databases easily on Kubernetes](#kubedb-run-production-grade-databases-easily-on-kubernetes)
 - [Other solutions](#other-solutions)
@@ -597,6 +598,51 @@ postgres=#
 - You can set the REST API URL as follows after a deployment if you are developing on your local host by executing the **setip** bash function.
 - “alog”, “olog”, “slog” and “setip” are defined in $HOME/.bashrc
 
+
+##### Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup
+-  We will set this up manually:
+    - StorageClass changed to “gp2” in YAML file (AWS)
+    - ‘pgo’ tool compatibility issues
+
+![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install1.png)|![crunchdydata operatorhub install2](images/crunchydata_operatorhub_install2.png)
+:---:|:---:
+
+- NO PODs are deployed -> configuration needed:
+
+![crunchdydata operatorhub install3](images/crunchydata_operatorhub_install3.png)
+
+![crunchdydata operatorhub install4](images/crunchydata_operatorhub_install4.png)
+
+- Replica Sets: where PODs should be launched
+
+![crunchdydata operatorhub install5](images/crunchydata_operatorhub_install5.png)
+
+- ReplicaSets (environment) and Deployment:
+
+![crunchdydata operatorhub install6](images/crunchydata_operatorhub_install6.png)
+
+![crunchdydata operatorhub install7](images/crunchydata_operatorhub_install7.png)
+
+- Error detected. Solution: ```oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default```
+
+![crunchdydata operatorhub install8](images/crunchydata_operatorhub_install8.png)
+
+- We see now a new POD being created:
+
+![crunchdydata operatorhub install9](images/crunchydata_operatorhub_install9.png)
+
+- New errors: “secrets” need to be setup:
+
+![crunchdydata operatorhub install10](images/crunchydata_operatorhub_install10.png)
+![crunchdydata operatorhub install11](images/crunchydata_operatorhub_install11.png)
+![crunchdydata operatorhub install12](images/crunchydata_operatorhub_install12.png)
+
+- New errors: 3 “secrets” need to be setup manually -> POD is started successfully and we have psql access.
+
+![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png)
+![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
+![crunchdydata operatorhub install15](images/crunchydata_operatorhub_install15.png)
+![crunchdydata operatorhub install16](images/crunchydata_operatorhub_install16.png)
 
 ### Spilo 
 * [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
