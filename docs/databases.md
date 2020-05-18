@@ -7,6 +7,7 @@
 - [Operator Lifecycle Manager (OLM)](#operator-lifecycle-manager-olm)
 - [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
 - [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
+    - [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
     - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
         - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
         - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
@@ -79,6 +80,11 @@
 * [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://info.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 * [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://info.crunchydata.com/blog/d-meta)
 * [info.crunchydata.com: Fast CSV and JSON Ingestion in PostgreSQL with COPY](https://info.crunchydata.com/blog/fast-csv-and-json-ingestion-in-postgresql-with-copy)
+
+
+### Crunchy Data Developer Portal
+- [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
+- [Crunchy Data Developer Portal](https://www.crunchydata.com/developers) Self-service tools for developers and data scientists to easily get productive with PostgreSQL and Crunchy Data products.
 
 ### Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept
 - In earlier days, Red Hat recommended running PostgreSQL database outside the Kubernetes cluster. Now, with [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) technology, you can run stateful database applications on Kubernetes.
