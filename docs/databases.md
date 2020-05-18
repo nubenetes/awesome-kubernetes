@@ -172,7 +172,7 @@ Events:              <none>
     - ```oc delete sa/myserviceaccount```  
 - Every service account is also a member of two groups:
     - **system:serviceaccounts**, which includes all service accounts in the cluster
-    - **system:serviceaccounts:\<project\>**, which includes all service accounts in the project
+    - **system:serviceaccounts:<project\>**, which includes all service accounts in the project
 
 ###### Service Accounts. Roles
 - When you create a pod, if you do not specify a service account, it is automatically assigned the **default service account** in the same namespace. If you get the raw json or yaml for a pod you have created (e.g. ```oc get pods/podname -o yaml```), you can see the **spec.serviceAccountName** field has been automatically set.
