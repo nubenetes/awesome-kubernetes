@@ -262,18 +262,17 @@ role "view" removed: "system:serviceaccounts"
     4. ```oc describe sa my-sa```
     5. ```oc get scc```
     6. ```oc adm policy add-scc-to-user anyuid system:serviceaccount:pgouser1:my-sa```
-    7. Alternative to step #6:
+    7. ```oc policy add-role-to-user edit system:serviceaccount:pgouser1:my-sa```
+    8. Alternative to step #6:
    
-        ```
-        oc edit scc anyuid 
-        ```
+```
+oc edit scc anyuid 
+```
 
-        ```    
-            users:
-            - system:serviceaccount:pgouser1:my-sa
-        ```
-
-    8. ```oc policy add-role-to-user edit system:serviceaccount:pgouser1:my-sa```
+```    
+users:
+- system:serviceaccount:pgouser1:my-sa
+```
 
 - Other commands of interest:
     - ```oc get role```
