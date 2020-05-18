@@ -299,7 +299,7 @@ role "view" removed: "system:serviceaccounts"
     
     ```vim $HOME/.bashrc```:
 
-    ```
+        ```
         # ~/.bashrc: executed by bash(1) for non-login shells.
         # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
         # for examples
@@ -505,7 +505,7 @@ role "view" removed: "system:serviceaccounts"
         export CCP_STORAGE_CLASS=gp2
         export CCP_STORAGE_MODE=ReadWriteOnce
         export CCP_STORAGE_CAPACITY=400M
-    ```
+        ```
 
 - **port-forward** to reach postgres-operator POD with ‘pgo’ tool (18443 port defined in previous .bashrc): 
 
