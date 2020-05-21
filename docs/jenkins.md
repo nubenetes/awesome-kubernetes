@@ -147,12 +147,8 @@
 * [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
 
 ### Selection of Jenkins Plugins
-* Jenkins Job DSL:
-    * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
+* [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
     * [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
-            * [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
-        * [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
-    * [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 * [performance-plugin](https://github.com/jenkinsci/performance-plugin)
 * [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
