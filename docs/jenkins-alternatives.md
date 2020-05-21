@@ -22,6 +22,9 @@
 * [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
     * [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Buildbot](https://buildbot.net/)
+* [AWS DevOps - CICD](https://aws.amazon.com/es/devops/#cicd)
+* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [Azure DevOps](https://azure.microsoft.com/services/devops/)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)
@@ -47,5 +50,7 @@
 * [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)
 * [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/)
 
+## Integration with other CI/CD engines
+* [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
 
 [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
