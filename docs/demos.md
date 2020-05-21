@@ -6,8 +6,11 @@
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
 - [OpenShift Demos](#openshift-demos)
     - [Knative](#knative)
-- [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
-- [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
+- [Jenkins Demos](#jenkins-demos)
+    - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
+    - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
+    - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
+    - [Jenkins Scripts](#jenkins-scripts)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
 ## DevOps Demos
@@ -70,7 +73,8 @@
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 
-## Jenkins Declarative Pipelines with OpenShift
+## Jenkins Demos
+### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)
 * [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
@@ -78,7 +82,11 @@
 * [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
 * [github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test](https://github.com/gnunn1/openshift-basic-pipeline)
 
-## From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs
+### Jenkins Configuration as Code on Kubernetes
+* [Configuration as Code of Jenkins (for Kubernetes) 🌟🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
+* [Jenkins Configuration as Code on Kubernetes 🌟](https://github.com/inafev/jenkins-CasC-kubernetes-demo) A Codecentric/Jenkins Helm 3 Sample Chart on Digital Ocean Kubernetes with Spring Petclinic Demo Pipeline
+
+### From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs
 * [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/Jenkins-online-meetup/events/270600737/)
     * Manually managing Jenkins jobs is painful. Jenkins Pipeline exists, but how do you get started and why should you bother in the first place? Journey with Nicolaj, as he talks about the pains of managing a manually configured job in Jenkins; converts a Freestyle Job to JobDSL, instantly; introduces mechanisms for adding the jobs to Jenkins, as code; and ultimately converts the job to a Jenkins Pipeline!
     * Just like last time, in the talk “Configuration as Code of Jenkins (for Kubernetes),” you’ll see plenty of live demos and get to take home all the code and examples afterwards. Use it as the starting point for taking advantage of the Configuration as Code (CasC) that everyone is talking about, and hopefully it will save you a lot of headache in the future!
@@ -114,6 +122,13 @@
 
 <iframe src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### Jenkins Scripts
+* **cleanup.Jenkinsfile**: Jenkinsfile with Declarative Pipeline Multiline sh that cleanups old builds. All the Stages are now visually monitored. It is triggered every saturday night and ends with jenkins restart. These Multi-line bash commands make easier to read Jenkins Projects.
+* **daily_restart.Jenkinsfile**: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered). 
+* **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. 
+
+Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awesome-kubernetes/tree/master/scripts)
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
