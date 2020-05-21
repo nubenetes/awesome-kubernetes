@@ -107,7 +107,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
     - [ChromeDevTools](ChromeDevTools.md)
-23. [Demos](demos.md)
+23. [Demos 🌟](demos.md)
     - [Jenkins Scripts. Jenkins Configuration as Code on Kubernetes 🌟](scripts/README.md)
 24. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
