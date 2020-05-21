@@ -75,6 +75,7 @@
 * Jenkins Job DSL API used in jenkins declarative pipelines.
 * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
     * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
+    * [Jenkins Job DSL Plugin documentation](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 * [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
     * [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
     * [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
@@ -149,6 +150,7 @@
 ### Selection of Jenkins Plugins
 * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
     * [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
+    * [Jenkins Job DSL Plugin documentation](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 * [performance-plugin](https://github.com/jenkinsci/performance-plugin)
 * [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
@@ -183,9 +185,8 @@
     * [namecheap.com: Visualize Your Deployment Status with Jenkins 🌟](https://www.namecheap.com/blog/visualize-your-deployment-status-with-jenkins/)
 * [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) This plugin gives you the possibility to analyze the usage of your installed plugins.
 * [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/)
-* [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
 * [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
-* [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
+* [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
