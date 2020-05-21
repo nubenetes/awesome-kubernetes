@@ -51,7 +51,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
     - [Jenkins & CloudBees 😀](jenkins.md)
-        - [Jenkins Scripts 🌟](scripts/README.md)
         - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
     - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
@@ -109,6 +108,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Scaffolding Tools](scaffolding.md)
     - [ChromeDevTools](ChromeDevTools.md)
 23. [Demos](demos.md)
+    - [Jenkins Scripts. Jenkins Configuration as Code on Kubernetes 🌟](scripts/README.md)
 24. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
