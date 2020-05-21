@@ -5,3 +5,11 @@
 * [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote/)
 * [softwarecollections.org](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use 
 multiple versions of software on the same system, without affecting system-wide installed packages.
+
+## Windows Terminal
+- [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
+- [Microsoft launches Windows Terminal 1.0, unveils GPU support and Linux GUI apps in WSL](https://venturebeat.com/2020/05/19/microsoft-windows-terminal-wsl-gpu-support-linux-gui-apps/)
+
+## Windows Package Manager
+- [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli)
+- [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys/)
