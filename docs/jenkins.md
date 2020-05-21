@@ -6,8 +6,8 @@
 - [Online Learning](#online-learning)
 - [Jenkins Configuration as Code Solutions. 3 available DSLs](#jenkins-configuration-as-code-solutions-3-available-dsls)
     - [DSL1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
-        - [Shared Libraries](#shared-libraries)
     - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
+        - [Extending with Shared Libraries](#extending-with-shared-libraries)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
@@ -86,10 +86,6 @@
     * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
 * [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 
-#### Shared Libraries
-- Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
-- [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
-
 ### DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins
 * [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline/)
 * [jenkins.io - doc/book/pipeline 🌟](https://jenkins.io/doc/book/pipeline/)
@@ -111,6 +107,10 @@
 * [Dzone: Top 10 Best Practices for Jenkins Pipeline](https://dzone.com/articles/top-10-best-practices-for-jenkins-pipeline)
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
 * [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
+
+#### Extending with Shared Libraries
+- Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
+- [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
 
 ## Jenkins Architecture. Performance and Scalability
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
