@@ -102,7 +102,7 @@ pages:
   - WSL - Linux Dev Environment on Windows: linux-dev-env.md
   - Scaffolding Tools: scaffolding.md
   - ChromeDevTools: ChromeDevTools.md
-- Demos: demos.md
+- DevOps Demos. Ansible, Terraform, OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
 - Public Cloud: 
   - Public Cloud Solutions: public-cloud-solutions.md
   - Edge Computing: edge-computing.md

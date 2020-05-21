@@ -1,4 +1,4 @@
-# Demos 
+# DevOps Demos
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
 - [Kubernetes Demos](#kubernetes-demos)
@@ -18,12 +18,7 @@
 * [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene)
     * [wardviaene/jenkins-course](https://github.com/wardviaene/jenkins-course)
     * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
-* [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
-* Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:
-    * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
-    * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
-* [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
-* [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
+* [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
 
 ### Ansible and Ansible Tower
@@ -74,6 +69,12 @@
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 
 ## Jenkins Demos
+* [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
+* [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
+* Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:
+    * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
+    * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
+
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 * [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline)

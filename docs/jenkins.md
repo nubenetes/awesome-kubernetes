@@ -68,7 +68,7 @@
 * In consequence 3 [DSL](https://en.wikipedia.org/wiki/Domain-specific_language)s are available to configure jenkins as code:
     1. DSL 1: [Job DSL](https://plugins.jenkins.io/job-dsl/)
     2. DSL 2: [Jenkins (Declarative) Pipeline](https://www.jenkins.io/solutions/pipeline/)
-    3. DSL 3: [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
+    3. DSL 3: [Jenkins Configuration as Code (JCasC)](https://www.jenkins.io/projects/jcasc/)
 * Tip: Don't stay with manually configured freestyle jobs. Use JobDSL wrapper if you cant use Pipeline.
 
 ### DSL1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline
