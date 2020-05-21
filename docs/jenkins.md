@@ -64,12 +64,12 @@
 * [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course) 
 
 ## Jenkins Configuration as Code Solutions. 3 available DSLs
-- [Job DSL](https://plugins.jenkins.io/job-dsl/) was one of the first popular plugins for Jenkins which allows managing configuration as code and many other plugins dealing with this aspect have been created since then, most notably the [Jenkins Pipeline](https://www.jenkins.io/solutions/pipeline/) and [Configuration as Code](https://www.jenkins.io/projects/jcasc/) plugins. It is important to understand the differences between these plugins and Job DSL for managing Jenkins configuration efficiently.
-- In consequence 3 [DSL](https://en.wikipedia.org/wiki/Domain-specific_language)s are available to configure jenkins as code:
+* [Job DSL](https://plugins.jenkins.io/job-dsl/) was one of the first popular plugins for Jenkins which allows managing configuration as code and many other plugins dealing with this aspect have been created since then, most notably the [Jenkins Pipeline](https://www.jenkins.io/solutions/pipeline/) and [Configuration as Code](https://www.jenkins.io/projects/jcasc/) plugins. It is important to understand the differences between these plugins and Job DSL for managing Jenkins configuration efficiently.
+* In consequence 3 [DSL](https://en.wikipedia.org/wiki/Domain-specific_language)s are available to configure jenkins as code:
     1. DSL 1: [Job DSL](https://plugins.jenkins.io/job-dsl/)
     2. DSL 2: [Jenkins (Declarative) Pipeline](https://www.jenkins.io/solutions/pipeline/)
     3. DSL 3: [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
-- Tip: Don'tt stay with manually configured freestyle jobs. Use JobDSL wrapper if you cant use Pipeline.
+* Tip: Don't stay with manually configured freestyle jobs. Use JobDSL wrapper if you cant use Pipeline.
 
 ### DSL1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline
 * Jenkins Job DSL API used in jenkins declarative pipelines.
