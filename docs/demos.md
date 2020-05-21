@@ -6,6 +6,7 @@
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
 - [OpenShift Demos](#openshift-demos)
     - [Knative](#knative)
+- [From Freestyle jobs to Pipeline, with JobDSL](#from-freestyle-jobs-to-pipeline-with-jobdsl)
 - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 
@@ -68,6 +69,42 @@
 
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
+
+## From Freestyle jobs to Pipeline, with JobDSL
+* [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/Jenkins-online-meetup/events/270600737/)
+    * Manually managing Jenkins jobs is painful. Jenkins Pipeline exists, but how do you get started and why should you bother in the first place? Journey with Nicolaj, as he talks about the pains of managing a manually configured job in Jenkins; converts a Freestyle Job to JobDSL, instantly; introduces mechanisms for adding the jobs to Jenkins, as code; and ultimately converts the job to a Jenkins Pipeline!
+    * Just like last time, in the talk “Configuration as Code of Jenkins (for Kubernetes),” you’ll see plenty of live demos and get to take home all the code and examples afterwards. Use it as the starting point for taking advantage of the Configuration as Code (CasC) that everyone is talking about, and hopefully it will save you a lot of headache in the future!
+    * Agenda:
+        * Manual Freestyle jobs, and why they hurt us
+        * Introduction to JobDSL and adding JobDSL-jobs to Jenkins
+        * From Freestyle Jobs to JobDSL, the beginning of our CasC adventure
+        * From JobDSL to Pipeline, all the fun of CasC; with even more resilience!
+    * Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.
+    * [Slides 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins/blob/master/from-freestyle-jobs-to-pipeline-with-jobdsl.pdf)
+    * [Demo repository 🌟🌟🌟](https://github.com/figaw/freestyle-to-pipeline-jenkins)
+* Links of interest provided in the event:
+    * [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/)
+    * [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md)
+    * [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
+    * [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit)
+    * [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool)
+    * [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
+    * Jenkins Configuration as Code:
+        * [Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
+        * [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) It improves the modifying Web UI configuration controls to support the read-only mode.
+    * Plugins:
+        * [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) This plugin gives you the possibility to analyze the usage of your installed plugins.
+        * [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/)
+        * [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
+        * [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
+        * [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
+    * Jenkins Job DSL:
+        * [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
+            * [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
+        * [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
+    * [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
+
+<iframe src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)

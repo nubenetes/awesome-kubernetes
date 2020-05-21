@@ -4,11 +4,13 @@
 - [Awesome Jenkins](#awesome-jenkins)
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
 - [Online Learning](#online-learning)
-- [Jenkins Pipeline. Pipeline as Code with Jenkins](#jenkins-pipeline-pipeline-as-code-with-jenkins)
-    - [Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
+- [Jenkins Configuration as Code Solutions. 3 available DSLs](#jenkins-configuration-as-code-solutions-3-available-dsls)
+    - [DSL1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
         - [Shared Libraries](#shared-libraries)
+    - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
+- [Jenkins Tools](#jenkins-tools)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
     - [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
@@ -61,7 +63,33 @@
 * [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) Use Jenkins the DevOps way. Automate your Jenkins jobs by using Jenkins Pipelines, Docker, and the Jenkins Job DSL
 * [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course) 
 
-## Jenkins Pipeline. Pipeline as Code with Jenkins
+## Jenkins Configuration as Code Solutions. 3 available DSLs
+- [Job DSL](https://plugins.jenkins.io/job-dsl/) was one of the first popular plugins for Jenkins which allows managing configuration as code and many other plugins dealing with this aspect have been created since then, most notably the [Jenkins Pipeline](https://www.jenkins.io/solutions/pipeline/) and [Configuration as Code](https://www.jenkins.io/projects/jcasc/) plugins. It is important to understand the differences between these plugins and Job DSL for managing Jenkins configuration efficiently.
+- In consequence 3 [DSL](https://en.wikipedia.org/wiki/Domain-specific_language)s are available to configure jenkins as code:
+    1. DSL 1: [Job DSL](https://plugins.jenkins.io/job-dsl/)
+    2. DSL 2: [Jenkins (Declarative) Pipeline](https://www.jenkins.io/solutions/pipeline/)
+    3. DSL 3: [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/)
+- Tip: Don'tt stay with manually configured freestyle jobs. Use JobDSL wrapper if you cant use Pipeline.
+
+### DSL1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline
+* Jenkins Job DSL API used in jenkins declarative pipelines.
+* [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
+    * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
+* [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
+    * [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
+    * [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
+* [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example)
+* [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/)
+* Jenkins DSL for **Maven**:
+    * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
+    * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
+* [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
+
+#### Shared Libraries
+- Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
+- [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
+
+### DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins
 * [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline/)
 * [jenkins.io - doc/book/pipeline 🌟](https://jenkins.io/doc/book/pipeline/)
 * [jenkins.io - **jenkinsfile** 🌟](https://jenkins.io/doc/book/pipeline/jenkinsfile/) With **version 2** of the Jenkins Continuous Integration/Continuous Delivery (CI/CD) server, **a new job definition file has been introduced, called Jenkinsfile**. The initial Jenkinsfile format was based on Groovy. As groovy knowledge is not that widespread, a new and more straight forward was published in spring 2017. **This format is called Declarative Pipeline**. [This visual studio code extension](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) is aimed at making the manipulation of this file type easier.
@@ -83,31 +111,6 @@
 * [opensource.com - Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2](https://opensource.com/article/18/8/devops-jenkins-2)
 * [thoughtworks.com: Modernizing your build pipelines 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
 
-### Job DSL Plugin. From Freestyle jobs to Declarative Pipeline
-* Jenkins Job DSL API used in jenkins declarative pipelines.
-* [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
-    * [github.com/jenkinsci/job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki)
-* [Jenkins Job DSL API 🌟](http://jenkinsci.github.io/job-dsl-plugin/)
-* [job-dsl **Gradle** Example](https://github.com/sheehan/job-dsl-gradle-example)
-* [Jenkins DSL for **Nexus**](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/archiving-artefact-to-nexus/)
-* Jenkins DSL for **Maven**:
-    * [ref 1](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.step.StepContext.maven)
-    * [ref 2](https://deors.wordpress.com/2019/04/25/jenkins-ci-pipeline-java-spring-boot-maven-docker/)
-* [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/Jenkins-online-meetup/events/270600737/)
-    * Manually managing Jenkins jobs is painful. Jenkins Pipeline exists, but how do you get started and why should you bother in the first place? Journey with Nicolaj, as he talks about the pains of managing a manually configured job in Jenkins; converts a Freestyle Job to JobDSL, instantly; introduces mechanisms for adding the jobs to Jenkins, as code; and ultimately converts the job to a Jenkins Pipeline!
-    * Just like last time, in the talk “Configuration as Code of Jenkins (for Kubernetes),” you’ll see plenty of live demos and get to take home all the code and examples afterwards. Use it as the starting point for taking advantage of the Configuration as Code (CasC) that everyone is talking about, and hopefully it will save you a lot of headache in the future!
-    * Agenda:
-        * Manual Freestyle jobs, and why they hurt us
-        * Introduction to JobDSL and adding JobDSL-jobs to Jenkins
-        * From Freestyle Jobs to JobDSL, the beginning of our CasC adventure
-        * From JobDSL to Pipeline, all the fun of CasC; with even more resilience!
-    * Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.
-
-#### Shared Libraries
-- Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
-- [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
-
-
 ## Jenkins Architecture. Performance and Scalability
 * [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained/)
 * [dzone: how to setup scalable jenkins on top of a kubernetes cluster](https://dzone.com/articles/how-to-setup-scalable-jenkins-on-top-of-a-kubernet)
@@ -125,6 +128,14 @@
 * [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)
 * [ansible-role-jenkins](https://github.com/geerlingguy/ansible-role-jenkins) Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
 
+## Jenkins Tools
+* [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/)
+* [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md)
+* [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
+* [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit)
+* [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool)
+* [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
+
 ## Jenkins Plugins
 * [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)
 * [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟](https://caylent.com/jenkins-plugins)
@@ -136,7 +147,12 @@
 * [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
 
 ### Selection of Jenkins Plugins
-* [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
+* Jenkins Job DSL:
+    * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)
+    * [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
+            * [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
+        * [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
+    * [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 * [performance-plugin](https://github.com/jenkinsci/performance-plugin)
 * [Matrix 🌟](https://jenkins.io/blog/2019/11/22/welcome-to-the-matrix/)
 * [Compress-buildlog](https://plugins.jenkins.io/compress-buildlog)
@@ -169,7 +185,11 @@
 * [SCM Filter Jervis YAML Plugin](https://plugins.jenkins.io/scm-filter-jervis/) This plugin is intended for Jenkins infrastructure relying on [jervis](https://github.com/samrocketman/jervis/wiki) to deliver software in a self-service manner. This plugin can also be used for Travis CI YAML.
 * [Deploy Dashboard by Namecheap](https://plugins.jenkins.io/deploy-dashboard/)
     * [namecheap.com: Visualize Your Deployment Status with Jenkins 🌟](https://www.namecheap.com/blog/visualize-your-deployment-status-with-jenkins/)
-* etc
+* [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) This plugin gives you the possibility to analyze the usage of your installed plugins.
+* [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/)
+* [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin#documentation) A Groovy DSL for Jenkins Jobs - Sweeeeet!
+* [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
+* [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -191,6 +211,8 @@
 * [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-core/latest/cloud-admin-guide/core-casc-modern)
 * [cloudbees.com: CloudBees Core Configuration as Code](https://www.previous.cloudbees.com/blog/cloudbees-core-configuration-code-preview)
 * [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) This extension is used to integrate a live jenkins instance configuration with your editor. It can be used to edit and validate YAML files.
+* [Example of Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
+* [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) It improves the modifying Web UI configuration controls to support the read-only mode.
 
 ### Jenkins Blue Ocean
 * [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
