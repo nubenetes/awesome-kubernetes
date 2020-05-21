@@ -18,7 +18,7 @@
     - [Apache Flink](#apache-flink)
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
-    - [Red hat AMQ Streams](#red-hat-amq-streams)
+    - [Red Hat AMQ Streams](#red-hat-amq-streams)
 - [eBooks](#ebooks)
 - [Related](#related)
 
@@ -109,7 +109,7 @@
 - [Apache ActiveMQ Artemis broker](https://activemq.apache.org/components/artemis/)
 - [developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database](https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database)
 
-### Red hat AMQ Streams
+### Red Hat AMQ Streams
 - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1/)
 - [Red Hat **AMQ streams** (kafka): Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/)
