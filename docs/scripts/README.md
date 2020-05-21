@@ -6,3 +6,6 @@
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awesome-kubernetes/tree/master/scripts)
 
+## Jenkins Configuration as Code on Kubernetes
+* [Jenkins Configuration as Code on Kubernetes 🌟](https://github.com/inafev/jenkins-CasC-kubernetes-demo) A Codecentric/Jenkins Helm 3 Sample Chart on Digital Ocean Kubernetes with Spring Petclinic Demo Pipeline
+

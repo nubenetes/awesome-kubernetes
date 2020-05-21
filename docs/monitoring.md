@@ -691,28 +691,28 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - Thread Dump Analyzers: [fastThread](https://fastthread.io/), [Spotify TDA](https://spotify.github.io/threaddump-analyzer/), [IBM Thread and Monitor Dump Analyzer for Java](https://www.ibm.com/support/pages/ibm-thread-and-monitor-dump-analyzer-java-tmda), [TDA - Thread Dump Analyzer](https://github.com/irockel/tda)
 - [FastThread.io](https://fastthread.io/): Thread dumps can be uploaded via Web or API Call from within the POD (jstack must be available within the container):
 
-        ```bash
-        #!/bin/sh
-        # Generate N thread dumps of the process PID with an INTERVAL between each dump.
-        if [ $# -ne 3 ]; then
-           echo Generates Java thread dumps using the jstack command.
-           echo
-           echo usage: $0 process_id repetitions interval
-           exit 1
-        fi 
-        PID=$1
-        N=$2
-        INTERVAL=$3 
-        for ((i=1;i<=$N;i++))
-        do
-           d=$(date +%Y%m%d-%H%M%S)
-           dump="threaddump-$PID-$d.txt"
-           echo $i of $N: $dump
-           jstack -l $PID > $dump
-           curl -X POST --data-binary @./$dump https://fastthread.io/fastthread-api?apiKey=<APIKEY> --header "Content-Type:text"
-           sleep $INTERVAL
-        done
-        ```
+```bash
+#!/bin/sh
+# Generate N thread dumps of the process PID with an INTERVAL between each dump.
+if [ $# -ne 3 ]; then
+   echo Generates Java thread dumps using the jstack command.
+   echo
+   echo usage: $0 process_id repetitions interval
+   exit 1
+fi 
+PID=$1
+N=$2
+INTERVAL=$3 
+for ((i=1;i<=$N;i++))
+do
+   d=$(date +%Y%m%d-%H%M%S)
+   dump="threaddump-$PID-$d.txt"
+   echo $i of $N: $dump
+   jstack -l $PID > $dump
+   curl -X POST --data-binary @./$dump https://fastthread.io/fastthread-api?apiKey=<APIKEY> --header "Content-Type:text"
+   sleep $INTERVAL
+done
+```
 
     - How to run this script from within the POD: ```./script_thread_dump.sh 1 15 3```, where:
         - “1”: PID of java process (“1” in containers running a single process, check with “ps ux” command).

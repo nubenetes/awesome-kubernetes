@@ -324,16 +324,17 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - The supported method of using **Helm charts** with Openshift is via the [Helm Operator](https://www.openshift.com/blog/build-kubernetes-operators-from-helm-charts-in-5-steps)
 - [twitter.com/operatorhubio](https://twitter.com/operatorhubio)
 - View the list of Operators available to the cluster from the OperatorHub:
-    ```bash
-    $ oc get packagemanifests -n openshift-marketplace 
-    NAME AGE 
-    amq-streams 14h 
-    packageserver 15h 
-    couchbase-enterprise 14h 
-    mongodb-enterprise 14h 
-    etcd 14h myoperator 14h 
-    ...
-    ```
+
+```bash
+$ oc get packagemanifests -n openshift-marketplace 
+NAME AGE 
+amq-streams 14h 
+packageserver 15h 
+couchbase-enterprise 14h 
+mongodb-enterprise 14h 
+etcd 14h myoperator 14h 
+...
+```
 
 ![OCP Operators](images/ocp_operators.png)
 
@@ -520,13 +521,13 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - Openshift 4 on your laptop: There is a working solution for single node OpenShift cluster. It is provided by a new project called [CodeReady Containers](https://github.com/code-ready/crc/).
 - [Procedure:](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 
-    ```bash
-    untar
-    crc setup
-    crc start
-    environment variables
-    oc login
-    ```
+```bash
+untar
+crc setup
+crc start
+environment variables
+oc login
+```
 
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 

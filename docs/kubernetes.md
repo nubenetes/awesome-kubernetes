@@ -37,6 +37,7 @@
         - [Project Calico](#project-calico)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
+    - [Security Best Practices Across Build, Deploy, and Runtime Phases](#security-best-practices-across-build-deploy-and-runtime-phases)
     - [Kubernetes Authentication and Authorization](#kubernetes-authentication-and-authorization)
         - [Kubernetes Authentication Methods](#kubernetes-authentication-methods)
         - [X.509 client certificates](#x509-client-certificates)
@@ -139,6 +140,7 @@
 * [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes 🌟](https://learnk8s.io/cloud-resources-kubernetes)
 * [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 * [medium.com: Top 15 Online Courses to Learn Docker, Kubernetes, and AWS for Fullstack Developers and DevOps Engineers](https://medium.com/javarevisited/top-15-online-courses-to-learn-docker-kubernetes-and-aws-for-fullstack-developers-and-devops-d8cc4f16e773)
+* [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnk8s.io/allocatable-resources) Not all CPU and memory in your Kubernetes nodes can be used to run Pods. In this article, you will learn how managed Kubernetes Services such AKS, EKS and GKE reserve resources for workloads, operating systems, daemons and Kubernetes agent.
 
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
@@ -436,6 +438,35 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
 * [Microsoft.com: Attack matrix for Kubernetes 🌟](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
 * [codeburst.io: 7 Kubernetes Security Best Practices You Must Follow](https://codeburst.io/7-kubernetes-security-best-practices-you-must-follow-ae32f1ed6444)
+
+### Security Best Practices Across Build, Deploy, and Runtime Phases
+- [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
+- Build Phase:
+    1. Use minimal base images
+    2. Don’t add unnecessary components
+    3. Use up-to-date images only
+    4. Use an image scanner to identify known vulnerabilities
+    5. Integrate security into your CI/CD pipeline
+    6. Label non-fixable vulnerabilities
+- Deploy Phase:
+    1. Use namespaces to isolate sensitive workloads
+    2. Use Kubernetes network policies to control traffic between pods and clusters
+    3. Prevent overly permissive access to secrets
+    4. Assess the privileges used by containers
+    5. Assess image provenance, including registries
+    6. Extend your image scanning to deploy phase
+    7. Use labels and annotations appropriately
+    8. Enable Kubernetes role-based access control (RBAC)
+- Runtime Phase:
+    1. Leverage contextual information in Kubernetes
+    2. Extend vulnerability scanning to running deployments
+    3. Use Kubernetes built-in controls when available to tighten security
+    4. Monitor network traffic to limit unnecessary or insecure communication
+    5. Leverage process whitelisting
+    6. Compare and analyze different runtime activity in pods of the same deployments
+    7. If breached, scale suspicious pods to zero
+
+[![kubernetes security controls landscape](images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
 
 ### Kubernetes Authentication and Authorization
 * [kubernetes.io: Authenticating](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
