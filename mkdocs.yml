@@ -59,7 +59,7 @@ pages:
     - Payara App Server: payara.md
     - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
     - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
-    - SSH & Linux: ssh.md
+    - Linux & SSH: linux.md
     - YAML processors: yaml-processors.md
 - Java Memory Management:
   - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
