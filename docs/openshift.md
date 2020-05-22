@@ -57,6 +57,7 @@
     - [OpenShift Cost Management](#openshift-cost-management)
     - [Operators in OCP 4](#operators-in-ocp-4)
     - [Quay Container Registry](#quay-container-registry)
+    - [OpenShift Topology View](#openshift-topology-view)
 - [OpenShift.io online IDE](#openshiftio-online-ide)
 - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
 - [e-Books](#e-books)
@@ -641,6 +642,9 @@ oc login
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
 
+### OpenShift Topology View
+- [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)
+
 ## OpenShift.io online IDE
 * [openshift.io 🌟](https://openshift.io/) an online IDE for building container-based apps, built for team collaboration.
 
@@ -670,7 +674,6 @@ oc login
 
 ## Local Installers
 * [developers.redhat.com: **Red Hat Container Development Kit**](https://developers.redhat.com/products/cdk/overview/)
-* [Fabric8.io Microservices Development Platform](https://fabric8.io/) It is an open source microservices platform based on Docker, Kubernetes and Jenkins. It is built by the Red Hat guys.The purpose of the project is to make it easy to create microservices, build, test and deploy them via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps. Fabric8 installs and configures the following things for you automatically: Jenkins, Gogs, Fabric8 registry, Nexus, SonarQube.
 * A few other options to use OKD locally include [oc cluster up](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md) and [minishift](https://www.okd.io/minishift/). These may be a better fit for your use case if you only need a quick throwaway environment.
 * [github.com/redhatdemocentral: OpenShift Container Platform Install Demo 🌟](https://github.com/redhatdemocentral/ocp-install-demo)
     * [Dzone.com: Installing OpenShift Container Platform v3.5 in Minutes](https://dzone.com/articles/installing-openshift-container-platform-v35-in-min)

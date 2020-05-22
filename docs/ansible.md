@@ -1,5 +1,6 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
+- [Automation services catalog](#automation-services-catalog)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
     - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
@@ -20,6 +21,9 @@
 * [Dzone: Ansible: An Effective IT Automation Tool](https://dzone.com/articles/ansible-an-effective-it-automation-tool) Learn about Ansible, a tool for automating application deployments, configuration management, and more in a DevOps environment.
 * [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)
 * [Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
+
+## Automation services catalog
+- [Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.ansible.com/products/automation-services-catalog) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
 
 ## Ansible Cheat Sheets
 * [Ansible Cheat Sheets](cheatsheets.md)

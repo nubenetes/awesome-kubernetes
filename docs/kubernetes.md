@@ -2,6 +2,7 @@
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+    - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
     - [Kubernetes Limits](#kubernetes-limits)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
@@ -12,6 +13,9 @@
     - [Kubectl Alternatives](#kubectl-alternatives)
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
+- [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
+    - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
+    - [Go Client for Kubernetes](#go-client-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
 - [Lens Kubernetes IDE](#lens-kubernetes-ide)
 - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
@@ -144,6 +148,11 @@
 
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
+### Templating YAML in Kubernetes with real code. YQ YAML processor
+- [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code)
+    - TL;DR: You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
+    - If you're working on large scale projects, you should consider using **real code** — you can find [hands-on examples on how to programmatically generate Kubernetes resources in Java, Go, Javascript, C# and Python in this repository](https://github.com/learnk8s/templating-kubernetes).
+
 ### Kubernetes Limits
 * [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range/)
 * [sysdig.com: Understanding Kubernetes limits and requests by example 🌟](https://sysdig.com/blog/kubernetes-limits-requests/)
@@ -197,6 +206,16 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 #### Jenkins Kubernetes Plugins
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
+
+## Client Libraries for Kubernetes
+### Fabric8 Java Client for Kubernetes
+- [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is client-go, which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
+* [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
+* [Fabric8.io Microservices Development Platform](https://fabric8.io/) It is an open source microservices platform based on Docker, Kubernetes and Jenkins. It is built by the Red Hat guys.The purpose of the project is to make it easy to create microservices, build, test and deploy them via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps. Fabric8 installs and configures the following things for you automatically: Jenkins, Gogs, Fabric8 registry, Nexus, SonarQube.
+
+### Go Client for Kubernetes
+- [Go client for Kubernetes](https://github.com/kubernetes/client-go) Go clients for talking to a kubernetes cluster.
+
 
 ## Helm Kubernetes Tool
 * [helm.sh](https://helm.sh/)
@@ -303,7 +322,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [**KUbernetes Test TooL (kuttl)** 🌟](https://kuttl.dev/)
     * [Youtube Webinar: The KUbernetes Test TooL (kuttl)](https://www.youtube.com/watch?v=Jh-viBv-D04)
 * [Portfall: A desktop k8s port-forwarding portal for easy access to all your cluster UIs 🌟](https://github.com/rekon-oss/portfall)
-
+* [k8s-dt-node-labeller](https://github.com/adaptant-labs/k8s-dt-node-labeller) is a Kubernetes controller for labelling a node with devicetree properties (devicetree is a data structure for describing hardware).
+  
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
 * [Understanding Kubernetes cluster events 🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)

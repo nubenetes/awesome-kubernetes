@@ -69,7 +69,8 @@
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
 
 ### Fabric8 Pipeline Library
-* [Fabric8.io](http://fabric8.io/)
+* [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
+* [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
 * [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
 * [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 * [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)

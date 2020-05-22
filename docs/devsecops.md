@@ -5,6 +5,7 @@
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
     - [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
     - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
+- [GitHub security](#github-security)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -24,3 +25,6 @@
 
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
+
+## GitHub security
+- [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)

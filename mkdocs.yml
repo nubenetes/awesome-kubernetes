@@ -28,6 +28,7 @@ pages:
 - DevOps:
   - DevOps: devops.md
   - Cheat Sheets: cheatsheets.md
+  - GitOps: gitops.md
   - Demos. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
 - TestOps and Continuous Testing: testops.md
 - Site Reliability Engineering (SRE): sre.md
@@ -59,6 +60,7 @@ pages:
     - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
     - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
     - SSH & Linux: ssh.md
+    - YAML processors: yaml-processors.md
 - Java Memory Management:
   - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
   - Java Parameters Matrix Table: jvm-parameters-matrix-table.md

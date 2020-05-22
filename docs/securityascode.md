@@ -8,3 +8,4 @@
 
 ## Open Policy Agent in Cloudflare Workers
 * [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
+

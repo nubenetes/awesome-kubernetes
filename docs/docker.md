@@ -1,5 +1,6 @@
 # Docker
 - [Introduction](#introduction)
+- [Docker and WSL2](#docker-and-wsl2)
 - [Docker Cheat sheet](#docker-cheat-sheet)
 - [Docker Compose](#docker-compose)
 - [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
@@ -28,6 +29,9 @@
 * [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/)
 * [itnext.io: Getting Started with Docker: Facts You Should Know 🌟](https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598)
 * [jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
+
+## Docker and WSL2
+- [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 
 ## Docker Cheat sheet
 * [Docker Cheat Sheets](cheatsheets.md)
