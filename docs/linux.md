@@ -5,49 +5,40 @@
 - [Youtube](#youtube)
 - [Reddit](#reddit)
 - [Linux Commands and Tools](#linux-commands-and-tools)
+    - [Blogs](#blogs)
     - [CommandLineFu](#commandlinefu)
 - [SSH](#ssh)
 - [Linux Networking](#linux-networking)
 
 ## Linux Blogs
+- [The Linux Foundation](http://www.linuxfoundation.org/)
 - [tecmint.com 🌟](https://www.tecmint.com/)
 - [nixCraft 🌟](https://www.cyberciti.biz/)
 - [unixmen.com 🌟](https://unixmen.com/)
 - [opensource.com 🌟](https://opensource.com/)
-- [linoxide.com](https://linoxide.com/)
-- [learnitguide.net](https://www.learnitguide.net/)
-- [linux.com](https://www.linux.com/)
-- [systemcodegeeks.com](https://www.systemcodegeeks.com/)
-- [linuxnix.com](https://www.linuxnix.com/)
-- [linuxhomenetworking.com](http://www.linuxhomenetworking.com/)
+- [linux.com 🌟](https://www.linux.com/)
+- [linoxide.com 🌟](https://linoxide.com/)
+- [linuxjourney.com](https://linuxjourney.com/)
 - [howtoforge.com](https://www.howtoforge.com/)
 - [tecadmin.net](https://tecadmin.net/)
-- [linuxjourney.com](https://linuxjourney.com/)
+- [systemcodegeeks.com](https://www.systemcodegeeks.com/)
+- [linuxnix.com](https://www.linuxnix.com/)
+- [learnitguide.net](https://www.learnitguide.net/)
 - [FOSS Force](http://fossforce.com/)
-- [The Linux Foundation](http://www.linuxfoundation.org/)
-- [LinuxJournal](http://www.linuxjournal.com)
+- [linuxhomenetworking.com](http://www.linuxhomenetworking.com/)
 - [linuxtoday.com](http://www.linuxtoday.com/)
-- [Xmodulo - Linux FAQs, tips and tutorials](http://xmodulo.com)
-- [MyLinuxSoftware.com: A Linux Software Directory for GUI and Console Apps](http://www.mylinuxsoftware.com/)
 - [unixetc.co.uk](http://unixetc.co.uk/)
 - [LWN.net](http://lwn.net/)
 - [Linux-tutorial.info](http://www.linux-tutorial.info/)
 - [The Lone Sysadmin](https://lonesysadmin.net/)
-- [Linux 101 Hacks](http://linux.101hacks.com/)
 - [LinuxLinks.com](http://www.linuxlinks.com)
-- [The Geek Stuff | Linux | DB | Open Source | Web](http://www.thegeekstuff.com/)
-- [cathcam.wordpress.com - blogger](https://cathcam.wordpress.com/)
-- [tech.paulcz.net](http://tech.paulcz.net/#blog)
-- [Benjamin Cane](http://bencane.com/) A Systems Architect writing about Linux Systems Administration
-- [chruz.wordpress.com](https://chruz.wordpress.com) Linux, OpenStack & Provisioning
-- [climagic.org](http://www.climagic.org)
-- [unixmages.com](http://unixmages.com) Unix Mages started in the summer of 2005 with the purpose of teaching Unix and Linux by using stories of wizards, mages, magic, and spells.
+- [unixmages.com](http://unixmages.com) 
+- [The Geek Stuff](http://www.thegeekstuff.com/)
 
 ## Spanish Linux Blogs
 - [systemadmin.es](http://systemadmin.es/)
 - [muylinux.com](http://www.muylinux.com/)
 - [linuxadictos.com](http://www.linuxadictos.com)
-- [systemadmin.es](http://systemadmin.es/)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) Simple bite-sized DevOps Screencasts (released weekly)
@@ -63,6 +54,11 @@
 - [**watchman command**: A File and Directory Watching Tool for Changes](https://www.tecmint.com/watchman-monitor-file-changes-in-linux/)
 - [**ip command**: How to use IP Command in Linux with Examples](https://linoxide.com/linux-command/use-ip-command-linux/)
 - [**curl command**: Understanding the Hidden Powers of curl](https://nordicapis.com/understanding-the-hidden-powers-of-curl/)
+
+### Blogs
+- [climagic.org](http://www.climagic.org)
+- [Linux 101 Hacks](http://linux.101hacks.com/)
+- [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)
 
 ### CommandLineFu
 - [CommandLineFu 🌟](https://www.commandlinefu.com)
