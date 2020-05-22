@@ -17,6 +17,7 @@
 - [banzaicloud.com: Istio telemetry V2 (Mixerless) deep dive](https://banzaicloud.com/blog/istio-mixerless-telemetry/)
 - [medium.com: How to Manage Microservices on Kubernetes With Istio](https://medium.com/better-programming/how-to-manage-microservices-on-kubernetes-with-istio-c25e97a60a59) How to implement DevSecOps on microservices architecture with a service mesh
 - [github.com/askmeegs/learn-istio 🌟](https://github.com/askmeegs/learn-istio)
+- [banzaicloud.com: What's new in Istio 1.6, a quick walkthrough](https://banzaicloud.com/blog/istio-1.6/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
