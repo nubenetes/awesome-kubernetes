@@ -10,6 +10,7 @@
         - [Git Flow Extensions](#git-flow-extensions)
         - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
+- [Test Debugging](#test-debugging)
 - [Videos](#videos)
 
 ## VSCode
@@ -113,6 +114,9 @@ A simple extension to make indentation more readable
 ```
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 ```
+
+## Test Debugging
+- [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
 
 ## Videos
 
