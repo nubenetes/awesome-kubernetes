@@ -30,10 +30,10 @@
 
 ## Public Cloud DevOps
 ### AWS DevOps
-* [AWS DevOps](https://aws.amazon.com/devops/)
+* [AWS DevOps 🌟](https://aws.amazon.com/devops/)
 
 ### Azure DevOps
-* [Azure DevOps](https://azure.microsoft.com/services/devops/)
+* [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 
 ###  Google Cloud Platform
 * [cloud.google.com: DevOps](https://cloud.google.com/devops)
