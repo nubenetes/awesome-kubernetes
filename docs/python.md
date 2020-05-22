@@ -20,6 +20,7 @@
 
 # Python
 ## Python Blogs and Forums
+- [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)
 - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)
 	- [reddit: python cheat sheet](https://www.reddit.com/r/learnpython/comments/3r2hsq/python_cheat_sheet/)
 - [Full Stack Python is an open book that explains each Python web application stack layer and provides the best web resources for those topics](http://www.fullstackpython.com/)
