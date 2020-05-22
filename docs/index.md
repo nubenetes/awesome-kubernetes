@@ -33,6 +33,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Microservices FAQ & Kubernetes Native](faq.md)
 2. [DevOps](devops.md)
     - [Cheat Sheets 🌟](cheatsheets.md)
+    - [Demos. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
 3. [TestOps and Continuous Testing](testops.md)
 4. [Site Reliability Engineering (SRE)](sre.md)
 5. [Project Management Methodology](project-management-methodology.md)
@@ -108,8 +109,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
     - [Scaffolding Tools](scaffolding.md)
     - [ChromeDevTools](ChromeDevTools.md)
-23. [DevOps Demos. Ansible, Terraform, OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
-24. Public Cloud
+23. Public Cloud
     - [Public Cloud Solutions](public-cloud-solutions.md)
     - [Edge Computing](edge-computing.md)
     - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
@@ -124,10 +124,10 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)
     - [Cloudflare](cloudflare.md)
-25. [E-Learning](elearning.md)
-26. [Customer Success Stories 🌟](customer.md)
-27. [Subreddits and Newsfeeds](newsfeeds.md)
-28. [Other Awesome Lists 🌟](other-awesome-lists.md)
+24. [E-Learning](elearning.md)
+25. [Customer Success Stories 🌟](customer.md)
+26. [Subreddits and Newsfeeds](newsfeeds.md)
+27. [Other Awesome Lists 🌟](other-awesome-lists.md)
 
 <!-- El fin de la memoria? Documental 
 <center>
