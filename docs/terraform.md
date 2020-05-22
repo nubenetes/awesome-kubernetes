@@ -15,7 +15,7 @@
 
 ## Terraform
 * [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))
-* [terraform.io/](https://www.terraform.io/)
+* [terraform.io](https://www.terraform.io/)
 * [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
 * [Dzone: intro to terraform](https://dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
 * [blog.teemo.co: Terraform in 10 commands](https://blog.teemo.co/terraform-in-10-commands-e737dfd8bf31)
