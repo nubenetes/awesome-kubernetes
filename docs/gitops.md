@@ -6,3 +6,8 @@
 - [cloudbees.com: What is GitOps?](https://www.cloudbees.com/gitops/what-is-gitops)
 - [dzone: What Is GitOps, Really?](https://dzone.com/articles/what-is-gitops-really) This article will help you understand what GitOps really is as a strategy for development, and its benefits over other CI/CD approaches
 - [Continuous GitOps, the way to do DevOps in Kubernetes](https://medium.com/@imarunrk/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster  
+
+## Flux. The GitOps Operator for Kubernetes
+* [Flux 🌟](https://fluxcd.io/) The GitOps operator for Kubernetes
+* [github: Flux CD](https://github.com/fluxcd/flux)
+* [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
