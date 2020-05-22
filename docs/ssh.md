@@ -5,6 +5,7 @@
 
 ## SSH
 - [gravitational.com: How to SSH Properly](https://gravitational.com/blog/how-to-ssh-properly/)
+- [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
 
 ## Linux Commands
 - [commandlinefu.com](https://www.commandlinefu.com/)

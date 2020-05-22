@@ -1,14 +1,22 @@
 # Cheat Sheets
+- [Cheat Sheets](#cheat-sheets)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
-- [Terraform Cheat Sheet](#terraform-cheat-sheet)
+- [Packer and Terraform Cheat Sheets](#packer-and-terraform-cheat-sheets)
 - [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
+    - [SSH Cheat Sheets](#ssh-cheat-sheets)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
+
+## Cheat Sheets
+* [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
+* [cheatography.com](https://cheatography.com/)
+* [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
+* [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 
 ## Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
@@ -51,11 +59,25 @@
 * [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 * [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 
-## Terraform Cheat Sheet
-* [Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
+## Packer and Terraform Cheat Sheets
+* [Packer Cheatsheet](https://adamrushuk.github.io/cheatsheets/packer/)
+* [dzone: Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
+* [terraform.io: Terraform Commands](https://www.terraform.io/docs/commands/index.html)
+* [github.com/scraly: Terraform Cheat sheet](https://github.com/scraly/terraform-cheat-sheet/blob/master/terraform-cheat-sheet.pdf)
+* [lzone.de: Terraform Cheat Sheet](https://lzone.de/cheat-sheet/Terraform)
+* [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
+* [terraform-infraestructura.readthedocs.io: comandos](https://terraform-infraestructura.readthedocs.io/es/latest/comandos/)
 
 ## Linux Command Cheat Sheets
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)
+* [commandlinefu.com](https://www.commandlinefu.com/)
+
+### SSH Cheat Sheets
+- [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
+- [lzone.de: ssh cheat sheet](https://lzone.de/cheat-sheet/SSH)
+- [pentestmonkey.net: ssh cheat sheet](http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)
+- [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-cheatsheet-for-sysadmins/)
+- [opensource.com: Learn advanced SSH commands with this cheat sheet](https://opensource.com/article/18/4/learn-advanced-ssh-commands-new-cheat-sheet)
 
 ## OpenShift Cheat Sheets
 * [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)

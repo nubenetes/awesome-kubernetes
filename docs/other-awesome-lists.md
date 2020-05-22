@@ -49,11 +49,6 @@
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
 - [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets/) Generate SSH Keys, Push SSH public key, run remote commands, etc.
 
-## Cheat Sheets
-- [cheatography.com](https://cheatography.com/)
-- [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
-- [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
-
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)
 - [free-for.dev](https://free-for.dev/)
