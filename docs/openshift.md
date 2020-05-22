@@ -145,9 +145,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### OpenShift GitOps
 * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/)
-* [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/ )
+* [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/)
 * [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/)
-* [blog.openshift.com: OpenShift Authentication Integration with **ArgoCD**](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
+* [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
 * [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.openshift.com/blog/from-code-to-production-with-gitops)
 
 ### Debugging apps
