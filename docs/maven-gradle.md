@@ -10,6 +10,7 @@
     - [Maven Cheat Sheets](#maven-cheat-sheets)
     - [Other Commands](#other-commands)
 - [Gradle](#gradle)
+    - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 
 ## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
@@ -72,16 +73,7 @@ mvn dependency:tree     (how you got something on your classpath)
 * [Maven Surefire Report Plugin](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
 
 ### Maven Cheat Sheets
-* [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
-* [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
-* [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
-* [journaldev.com](https://www.journaldev.com/33645/maven-commands-options-cheat-sheet)
-* [cheatography.com](https://www.cheatography.com/mikesac/cheat-sheets/maven/)
-* [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)
-* [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
-* [lzone.de/cheat-sheet/Maven](https://lzone.de/cheat-sheet/Maven)
-* [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
-* [confluence.sakaiproject.org](https://confluence.sakaiproject.org/display/REL/Maven+release+plugin+cheat+sheet)
+* [Maven Cheat Sheets](cheatsheets.md)
 
 ### Other Commands
 * Display contents of a jar file:
@@ -92,6 +84,11 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 
 ## Gradle
 - [gradle.org](https://gradle.org/)
+- [docs.gradle.org: Getting Started](https://docs.gradle.org/current/userguide/getting_started.html)
 - [Dzone: "Refined" Gradle](https://dzone.com/articles/refined-gradle)
 - [Dzone: simplify your script build with gradle](https://dzone.com/articles/simplify-your-script-build-with-gradle)
 - [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)
+- [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/)
+
+### Gradle Cheat Sheets
+- [Gradle Cheat Sheets](cheatsheets.md)

@@ -10,6 +10,8 @@
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
+- [Maven Cheat Sheets](#maven-cheat-sheets)
+- [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
 
 ## Cheat Sheets
@@ -92,6 +94,26 @@
 
 ## Helm Cheat Sheets
 * [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
+
+## Maven Cheat Sheets
+* [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
+* [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
+* [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
+* [journaldev.com](https://www.journaldev.com/33645/maven-commands-options-cheat-sheet)
+* [cheatography.com](https://www.cheatography.com/mikesac/cheat-sheets/maven/)
+* [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)
+* [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
+* [lzone.de/cheat-sheet/Maven](https://lzone.de/cheat-sheet/Maven)
+* [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
+* [confluence.sakaiproject.org](https://confluence.sakaiproject.org/display/REL/Maven+release+plugin+cheat+sheet)
+
+## Gradle Cheat Sheets
+* [polyglotdeveloper.com: Gradle Cheat Sheet](https://www.polyglotdeveloper.com/cheatsheet/2015-01-08-Gradle-cheatsheet/)
+* [eta-lang.org: Gradle Cheat Sheet](https://eta-lang.org/docs/cheatsheets/gradle-cheatsheet)
+* [mingliang.me: Gradle Cheat Sheet](https://mingliang.me/blog/gradle-cheatsheet/)
+* [rratliff.com: Gradle Cheat Sheet](https://www.rratliff.com/gradle-cheat-sheet/)
+* [github.com/jahe: Gradle Cheat Sheet](https://gist.github.com/jahe/59557d507f43574b0d96)
+* [github.com/jiffle: Gradle Cheat Sheet](https://gist.github.com/jiffle/499caa5f53ab8f90dc19a3040ee40f48)
 
 ## Jenkins Cheat Sheets
 * [edureka.co: Jenkins Cheat Sheet 🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
