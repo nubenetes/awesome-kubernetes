@@ -13,6 +13,7 @@
 - [Maven Cheat Sheets](#maven-cheat-sheets)
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
+- [JMeter Cheat Sheets](#jmeter-cheat-sheets)
 
 ## Cheat Sheets
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
@@ -120,3 +121,12 @@
     * [Jenkins Cheat Sheet](https://miro.medium.com/max/1400/1*5tZVl-tqZwSoxH97v4u45w.png)
 * [medium: Jenkins Cheat Sheet](https://medium.com/edureka/jenkins-cheat-sheet-e0f7e25558a3)
 * [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins/)
+
+## JMeter Cheat Sheets
+- [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
+- [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
+- [JMeter Web Application Testing Cheatsheet](http://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet/)
+- [CheatSheet for JMeter __time Function Calls](https://hellotestworld.com/2016/02/02/cheatsheet-for-jmeter-__time-function-calls/)
+- [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
+    - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
+- [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
