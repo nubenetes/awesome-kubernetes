@@ -21,6 +21,7 @@
 * [deepu.js.org: My VS Code setup - Making the most out of VS Code](https://deepu.js.org/make-the-most-out-of-vscode/)
 * [VScode run from WSL in Linux: Cannot activate the 'Atlassian for VSCode (Official)' extension because 'git' extension is not loaded](https://bitbucket.org/atlassianlabs/atlascode/issues/112/cannot-activate-the-atlassian-for-vscode)
 * [kite: Code Faster with AI Autocomplete](https://kite.com/)
+* [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
 
 ## Visual Studio MarketPlace and Extensions
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
