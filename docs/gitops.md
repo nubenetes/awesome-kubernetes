@@ -21,7 +21,7 @@
 
 ## GitOps Tools
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
-- [slideshare: GitOps, Jenkins X &Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd)
+- [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd)
 
 ### Flux. The GitOps Operator for Kubernetes
 * [Flux](https://fluxcd.io/) The GitOps operator for Kubernetes
