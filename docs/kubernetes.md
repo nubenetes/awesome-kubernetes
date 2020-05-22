@@ -14,8 +14,8 @@
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
-    - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
     - [Go Client for Kubernetes](#go-client-for-kubernetes)
+    - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
 - [Lens Kubernetes IDE](#lens-kubernetes-ide)
 - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
@@ -208,14 +208,13 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
 
 ## Client Libraries for Kubernetes
-### Fabric8 Java Client for Kubernetes
-- [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is client-go, which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
-* [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
-* [Fabric8.io Microservices Development Platform](https://fabric8.io/) It is an open source microservices platform based on Docker, Kubernetes and Jenkins. It is built by the Red Hat guys.The purpose of the project is to make it easy to create microservices, build, test and deploy them via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps. Fabric8 installs and configures the following things for you automatically: Jenkins, Gogs, Fabric8 registry, Nexus, SonarQube.
-
 ### Go Client for Kubernetes
 - [Go client for Kubernetes](https://github.com/kubernetes/client-go) Go clients for talking to a kubernetes cluster.
 
+### Fabric8 Java Client for Kubernetes
+- [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [c]lient-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
+* [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
+* [Fabric8.io Microservices Development Platform](https://fabric8.io/) It is an open source microservices platform based on Docker, Kubernetes and Jenkins. It is built by the Red Hat guys.The purpose of the project is to make it easy to create microservices, build, test and deploy them via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps. Fabric8 installs and configures the following things for you automatically: Jenkins, Gogs, Fabric8 registry, Nexus, SonarQube.
 
 ## Helm Kubernetes Tool
 * [helm.sh](https://helm.sh/)
