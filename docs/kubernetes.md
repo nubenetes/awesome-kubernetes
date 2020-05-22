@@ -75,6 +75,7 @@
     - [Kubernetes Distributions](#kubernetes-distributions)
         - [Red Hat OpenShift](#red-hat-openshift)
         - [Weave Kubernetes Platform](#weave-kubernetes-platform)
+        - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
         - [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
         - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
             - [Rancher 2](#rancher-2)
@@ -622,6 +623,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 #### Weave Kubernetes Platform
 * [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
 * [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
+
+#### Ubuntu Charmed Kubernetes 
+* [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
+* [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
 
 #### VMware Kubernetes Tanzu and Project Pacific
 * [blogs.vmware.com: Introducing Project Pacific (vSphere with Kubernetes)](https://blogs.vmware.com/vsphere/2019/08/introducing-project-pacific.html)

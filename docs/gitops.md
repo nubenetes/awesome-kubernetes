@@ -9,6 +9,7 @@
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     - [OpenShift GitOps](#openshift-gitops)
     - [Weave Kubernetes Platform](#weave-kubernetes-platform)
+    - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
 
 ## Introduction
 - [gitops.tech](https://www.gitops.tech/)
@@ -55,3 +56,7 @@
 ### Weave Kubernetes Platform
 * [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way
 * [github: Weave Net - Weaving Containers into Applications](https://github.com/weaveworks/weave)
+
+### Ubuntu Charmed Kubernetes
+* [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
+* [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
