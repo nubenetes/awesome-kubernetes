@@ -26,7 +26,7 @@ pages:
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
 - DevOps:
-  - DevOps: devops.md
+  - DevOps & DevOps Screencasts: devops.md
   - Cheat Sheets: cheatsheets.md
   - GitOps: gitops.md
   - Demos. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md

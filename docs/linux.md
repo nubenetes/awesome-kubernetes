@@ -1,14 +1,18 @@
 # Linux and SSH
+- [SSH](#ssh)
 - [Linux Blogs](#linux-blogs)
 - [Spanish Linux Blogs](#spanish-linux-blogs)
-- [DevOps Screencasts](#devops-screencasts)
 - [Youtube](#youtube)
 - [Reddit](#reddit)
 - [Linux Commands and Tools](#linux-commands-and-tools)
     - [Blogs](#blogs)
     - [CommandLineFu](#commandlinefu)
-- [SSH](#ssh)
 - [Linux Networking](#linux-networking)
+
+## SSH
+- [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
+- [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
+- [commandlinefu.com/commands/matching/ssh](https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes)
 
 ## Linux Blogs
 - [The Linux Foundation](http://www.linuxfoundation.org/)
@@ -40,9 +44,6 @@
 - [muylinux.com](http://www.muylinux.com/)
 - [linuxadictos.com](http://www.linuxadictos.com)
 
-## DevOps Screencasts
-- [SysAdmin Casts 🌟](https://sysadmincasts.com/) Simple bite-sized DevOps Screencasts (released weekly)
-
 ## Youtube
 - [Linux Skills](https://www.youtube.com/channel/UCu2eNnWy-zc1xt_shCXQQfA)
 - [CLImagic](https://www.youtube.com/user/climagic)
@@ -65,11 +66,6 @@
 - [twitter.com/commandlinefu](https://twitter.com/commandlinefu) Command line diamonds, created and voted on by our members
 - [twitter.com/commandlinefu3](https://twitter.com/commandlinefu3) 3-star commands, a Linux afficionado's wet dream
 - [twitter.com/commandlinefu10](https://twitter.com/commandlinefu10) 10 star command line gems - known to make experienced sysadmins weep with joy.
-
-## SSH
-- [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
-- [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
-- [commandlinefu.com/commands/matching/ssh](https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes)
 
 ## Linux Networking
 - [ntop](http://www.ntop.org/)

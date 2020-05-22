@@ -1,4 +1,9 @@
-# DevOps
+# DevOps and DevOps Screencasts
+- [DevOps](#devops)
+- [Netflix](#netflix)
+- [DevOps Screencasts](#devops-screencasts)
+
+## DevOps
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
 * [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
 * [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
@@ -20,6 +25,9 @@
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
 * [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
 
+## DevOps Screencasts
+- [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
+- [DEVOPS Library 🌟](https://devopslibrary.com/)
 
 [![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
