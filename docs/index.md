@@ -32,6 +32,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
     - [Microservices FAQ & Kubernetes Native](faq.md)
 2. [DevOps](devops.md)
+    - [Cheat Sheets 🌟](cheatsheets.md)
 3. [TestOps and Continuous Testing](testops.md)
 4. [Site Reliability Engineering (SRE)](sre.md)
 5. [Project Management Methodology](project-management-methodology.md)
@@ -47,7 +48,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 8.  [OpenShift 🌟](openshift.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
-9. Software Delivery Pipeline
+9.  Software Delivery Pipeline
     - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
     - [Jenkins & CloudBees 😀](jenkins.md)

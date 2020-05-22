@@ -25,7 +25,9 @@ pages:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
-- DevOps: devops.md
+- DevOps:
+  - DevOps: devops.md
+  - Cheat Sheets: cheatsheets.md
 - TestOps and Continuous Testing: testops.md
 - Site Reliability Engineering (SRE): sre.md
 - Project Management Methodology:

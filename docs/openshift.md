@@ -129,11 +129,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - [How to Run HA Elasticsearch (ELK) on Red Hat OpenShift](https://portworx.com/run-ha-elasticsearch-elk-red-hat-openshift/)
 
 ### OpenShift Cheat Sheets
-* [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developersredhat.com/cheat-sheets/red-hat-openshift-container-platform/)
-* [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/masterdocs/command-cheatsheet.md)
-* [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho111850b0db31106a4d12a186e1fbc53e)
-* [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
-* [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
+* [OpenShift Cheat Sheets](cheatsheets.md)
   
 ### Helm Charts and OpenShift 3
 * [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)

@@ -57,18 +57,7 @@
 It prescribes that software designers should define formal, precise and verifiable interface specifications for software components, which extend the ordinary definition of abstract data types with preconditions, postconditions and invariants. These specifications are referred to as "contracts", in accordance with a conceptual metaphor with the conditions and obligations of business contracts.
 
 ## Git Cheat Sheets
-* [git-scm.com: Git reference](https://git-scm.com/docs)
-* [zeroturnaround.com: Git cheat sheet 🌟](https://www.jrebel.com/blog/git-cheat-sheet)
-* [ndpsoftware.com: Interactive git cheat sheet 🌟](https://ndpsoftware.com/git-cheatsheet.html)
-* [The awesome git cheat sheet](https://the-awesome-git-cheat-sheet.com/)
-* [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheetsgit/)
-* [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-* [github.github.com/training-kit: Git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [education.github.com: Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-* [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
-* [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
-* [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
-    * [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+* [Git and GitHub Cheat Sheets](cheatsheets.md)
 
 ## Patterns for Managing Source Code Branches (Branching Models/Workflows)
 * [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.

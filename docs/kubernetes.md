@@ -152,15 +152,7 @@
 ## Kubectl commands
 
 ### Kubectl Cheat Sheets
-* [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
-* [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-* [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
-* [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md)
-* [intellipaat.com 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
-* [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
-* [jimmysong.io: kubectl cheat sheet 🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
-* [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
-* [opensource.com: 9 kubectl commands sysadmins need to know](https://opensource.com/article/20/5/kubectl-cheat-sheet) Keep these 9 critical kubectl commands handy to help you with troubleshooting and managing your Kubernetes cluster administration.
+* [Kubectl Cheat Sheets](cheatsheets.md)
 
 ### List all resources and sub resources that you can constrain with RBAC
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
@@ -398,7 +390,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)
 * [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)
 * [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)
-* [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
 * [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator/)
 
 ## Kubernetes Networking

@@ -54,9 +54,7 @@
 * [Hacking jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
 
 ## Jenkins Cheat Sheet
-* [edureka.co: Jenkins Cheat Sheet 🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)
-* [medium: Jenkins Cheat Sheet](https://medium.com/edureka/jenkins-cheat-sheet-e0f7e25558a3)
-* [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins/)
+* [Jenkins Cheat Sheets](cheatsheets.md)
 
 ## Online Learning
 * [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
