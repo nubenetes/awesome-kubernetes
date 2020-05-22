@@ -1,4 +1,18 @@
 # Google Cloud Platform
+- [Introduction](#introduction)
+- [GitHub](#github)
+- [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
+- [Serverless](#serverless)
+
+## Introduction
+* [cloud.google.com](https://cloud.google.com)
+* [cloud.google.com: DevOps](https://cloud.google.com/devops)
+* [Cloud Developer Tools](https://cloud.google.com/products/tools)
+* [Google Cloud Code](https://cloud.google.com/code)
+* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
+
+## GitHub 
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
 - [github.com/GoogleCloudPlatform/cloud-code-samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
 

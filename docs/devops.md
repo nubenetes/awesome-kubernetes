@@ -1,6 +1,10 @@
 # DevOps 
 - [DevOps](#devops)
 - [Netflix](#netflix)
+- [Public Cloud DevOps](#public-cloud-devops)
+    - [AWS DevOps](#aws-devops)
+    - [Azure DevOps](#azure-devops)
+    - [Google Cloud Platform](#google-cloud-platform)
 
 ## DevOps
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
@@ -24,6 +28,20 @@
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
 * [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
 
+## Public Cloud DevOps
+### AWS DevOps
+* [AWS DevOps](https://aws.amazon.com/devops/)
+
+### Azure DevOps
+* [Azure DevOps](https://azure.microsoft.com/services/devops/)
+
+###  Google Cloud Platform
+* [cloud.google.com: DevOps](https://cloud.google.com/devops)
+* [Cloud Developer Tools](https://cloud.google.com/products/tools)
+* [Google Cloud Code](https://cloud.google.com/code)
+    * [github: Google Cloud Code samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
+* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 
 [![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 

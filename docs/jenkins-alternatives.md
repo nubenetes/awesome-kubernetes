@@ -22,7 +22,7 @@
 * [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
     * [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Buildbot](https://buildbot.net/)
-* [AWS DevOps - CICD](https://aws.amazon.com/es/devops/#cicd)
+* [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [Azure DevOps](https://azure.microsoft.com/services/devops/)
 
