@@ -1,4 +1,5 @@
-# DevOps Demos
+# DevOps Demos & Screencasts
+- [DevOps Screencasts](#devops-screencasts)
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
 - [Kubernetes Demos](#kubernetes-demos)
@@ -12,6 +13,10 @@
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [Jenkins Scripts](#jenkins-scripts)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
+
+## DevOps Screencasts
+- [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
+- [DEVOPS Library 🌟](https://devopslibrary.com/)
 
 ## DevOps Demos
 * [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
