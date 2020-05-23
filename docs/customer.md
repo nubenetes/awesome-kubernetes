@@ -24,5 +24,6 @@
 
 </center>
 
-|<iframe src="https://www.youtube.com/embed/FUu4kMc0PL8" frameborder="0" allow="autoplay; encrypted-media" start=7740 allowfullscreen></iframe>|<iframe src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>|
-|:---:|:---:|
+<iframe src="https://www.youtube.com/embed/FUu4kMc0PL8" frameborder="0" allow="autoplay; encrypted-media" start=7740 allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
