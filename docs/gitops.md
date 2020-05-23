@@ -54,7 +54,7 @@
 * [learn.openshift.com: GitOps introduction](https://learn.openshift.com/introduction/gitops-introduction/)
 * [blog.openshift.com: is it too late to integrate GitOps?](https://blog.openshift.comis-it-too-late-to-integrate-gitops/)
 * [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
-* [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.openshift.com/blog/from-code-to-production-with-gitops)
+* [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.openshift.com/blog/from-code-to-production-with-gitops)
 
 ### Weave Kubernetes Platform
 * [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way

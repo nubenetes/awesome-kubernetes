@@ -34,7 +34,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 2. [Site Reliability Engineering (SRE)](sre.md)
 3. [DevOps](devops.md)
     - [Cheat Sheets 🌟](cheatsheets.md)
-    - [GitOps](gitops.md)
+    - [GitOps 🌟](gitops.md)
     - [Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
 4. [NoOps](noops.md)
     - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
