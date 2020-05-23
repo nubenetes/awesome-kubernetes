@@ -122,7 +122,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
 * [Monitoring With Prometheus](https://dzone.com/articles/monitoring-with-prometheus)
 * [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus) Prometheus is an open-source infrastructure and services monitoring system popular for Kubernetes and cloud-native services and apps. It can help make metric collection easier, correlate events and alerts, provide security, and do troubleshooting and tracing at scale. This Refcard will teach you how to pave the path for Prometheus adoption, what observability looks like beyond Prometheus, and how Prometheus helps provide scalability, high availability, and long-term storage.
-* [Monitoring Self-Destructing Apps Using Prometheus.](https://dzone.com/articles/prometheus-collectors) Learn how to configure Prometheus collectors and their use cases.
+* [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors) Learn how to configure Prometheus collectors and their use cases.
 * [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
 * [Focus on Detection: Prometheus and the Case for Time Series Analysis](https://dzone.com/articles/focus-on-detectionprometheus-and-the-case-for-time)
 * [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)
@@ -153,6 +153,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     *	"Time Series Data" empujado ("pushed") a otros destinos de datos vía un gateway intermediario.
     *	"Targets" descubiertos via "service discovery" ó configuración estática.
     *	Soporte de federación horizontal y vertical.
+* [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
