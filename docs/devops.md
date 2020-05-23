@@ -27,6 +27,7 @@
 * [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
 * [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
 * [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
+* [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
 
 ## Netflix
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
@@ -54,4 +55,6 @@
 [![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
 
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
+
+[![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
 
