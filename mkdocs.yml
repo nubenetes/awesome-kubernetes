@@ -35,7 +35,7 @@ pages:
 - NoOps: 
   - NoOps: noops.md
   - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
-- FinOps: finops.md
+- FinOps - Cloud Financial Management: finops.md
 - TestOps and Continuous Testing: testops.md
 - Project Management Methodology:
   - Project Management Methodology: project-management-methodology.md

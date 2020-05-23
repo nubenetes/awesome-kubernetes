@@ -38,7 +38,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
 4. [NoOps](noops.md)
     - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
-5. [FinOps](finops.md)
+5. [FinOps - Cloud Financial Management](finops.md)
 6. [TestOps and Continuous Testing](testops.md)
 7. [Project Management Methodology](project-management-methodology.md)
     - [Jira](https://www.atlassian.com/software/jira) 
