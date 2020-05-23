@@ -65,6 +65,7 @@
     - [Deploying Kubernetes Cluster with Kops](#deploying-kubernetes-cluster-with-kops)
     - [Deploying Kubernetes Cluster with Kubeadm](#deploying-kubernetes-cluster-with-kubeadm)
     - [Deploying Kubernetes Cluster with Ansible](#deploying-kubernetes-cluster-with-ansible)
+    - [kube-aws Kubernetes on AWS](#kube-aws-kubernetes-on-aws)
     - [Kubespray](#kubespray)
     - [Conjure up](#conjure-up)
     - [WKSctl](#wksctl)
@@ -327,7 +328,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [Youtube Webinar: The KUbernetes Test TooL (kuttl)](https://www.youtube.com/watch?v=Jh-viBv-D04)
 * [Portfall: A desktop k8s port-forwarding portal for easy access to all your cluster UIs 🌟](https://github.com/rekon-oss/portfall)
 * [k8s-dt-node-labeller](https://github.com/adaptant-labs/k8s-dt-node-labeller) is a Kubernetes controller for labelling a node with devicetree properties (devicetree is a data structure for describing hardware).
-  
+* [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup)  
+
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟](https://github.com/inafev/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
 * [Understanding Kubernetes cluster events 🌟](https://banzaicloud.com/blog/k8s-cluster-logging/)
@@ -593,6 +595,9 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Deploying Kubernetes Cluster with Ansible 
 * [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+
+### kube-aws Kubernetes on AWS
+* [Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
 
 ### Kubespray
 * [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)

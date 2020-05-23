@@ -13,6 +13,10 @@
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [Jenkins Scripts](#jenkins-scripts)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
+- [AWS Demos](#aws-demos)
+- [Azure DevOps Demos](#azure-devops-demos)
+- [Google DevOps Demos](#google-devops-demos)
+
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -25,6 +29,8 @@
     * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 * [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
+* [yankils/Simple-DevOps-Project](https://github.com/yankils/Simple-DevOps-Project) 
+- [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
 
 ### Ansible and Ansible Tower
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
@@ -170,3 +176,16 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awes
     * [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
 * [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
     * [github.com/che-samples](https://github.com/che-samples)
+
+## AWS Demos
+- [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
+- [github.com/aws-samples](https://github.com/aws-samples)
+- [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
+
+## Azure DevOps Demos
+- [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/)
+- [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
+- [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
+
+## Google DevOps Demos
+- [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)

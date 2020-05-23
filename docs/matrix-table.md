@@ -5,6 +5,7 @@
 | [kubeadm](https://github.com/kubernetes/kubeadm)| SRE / DevOps | Kubernetes Upstream | Multi platform | Yes | OSS | Yes | No | No | No | No | Official kubernetes deployment tool | 
 | [Ansible role for kubeadm automation](https://github.com/geerlingguy/ansible-role-kubernetes) | SRE / DevOps | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes (storage?) | No | Ansible role for kubeadm automation |
 | [Kops](https://github.com/kubernetes/kops)| SRE / DevOps | Kubernetes Upstream | AWS | No | OSS | Yes | No | No | Yes | Yes | AWS compliant, alpha release <br/>for other providers | 
+| [kube-aws](https://kubernetes-incubator.github.io/kube-aws/)| SRE / DevOps | | | | | | | | | | A command-line tool to declaratively manage Kubernetes clusters on AWS|
 | [Minikube](https://github.com/kubernetes/minikube)| Devel | Kubernetes Upstream | Dektop Virtual Machine | Yes | OSS | No | Yes | No | No | Yes | Official development environment |
 | [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/#kubernetes)| Devel | Kubernetes Upstream | Desktop Virtual Machine | Yes | OSS | No | Yes | Yes | No | Yes | Development environment available in <br/>Docker Desktop on Windows | 
 | [Rancher 2](https://rancher.com/docs/rancher/v2.x/en/)| SRE / DevOps | Multi-cloud kubernetes <br/>management | Virtual Machine | Yes | OSS | Yes | No | No | No | No | Racher is an enterprise kubernetes installer <br/>that competes with OpenShift. | 

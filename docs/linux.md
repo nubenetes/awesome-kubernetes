@@ -13,6 +13,8 @@
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
 - [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
 - [commandlinefu.com/commands/matching/ssh](https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes)
+- [Auto-SSH for Linux security](https://github.com/mohanad86/secure-ssh-python)
+- [Grant-Revoke-ssh-access](https://github.com/suraksha-123/Grant-Revoke-ssh-access) To automate the process of granting ssh access to a group of servers instances
 
 ## Linux Blogs
 - [The Linux Foundation](http://www.linuxfoundation.org/)
