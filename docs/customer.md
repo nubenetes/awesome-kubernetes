@@ -5,8 +5,8 @@
 ## BMW IT-Zentrum (Munich)
 * [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
 * CI/CD at BMW IT-Zentrum (2018): 
-    * Jenkins (CloudBees & OSS): Seed Job, Merge BOTs, Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
-    * SonarQube, Nexus3.
+    * Jenkins (CloudBees & OSS): Maven, Seed Job, Merge BOTs, Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
+    * Docker, SonarQube, Nexus3, JMeter, etc.
     * Terraform, Packer, Ansible.
     * Private and Public Cloud: OpenStack, OpenShift 3.10 on-premise, AWS.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
