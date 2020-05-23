@@ -12,9 +12,7 @@
 * [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
 
 ## DevOps
-* [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
-* [xebialabs.com: Periodic table of devops tools](https://xebialabs.com/periodic-table-of-devops-tools/)
-* [xebialabs.com: The Ultimate DevOps Tool Chest](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+* [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
 * [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
@@ -60,15 +58,15 @@
 
 [![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
 
-![Programmer Move](images/term_devops.jpg)
+[![DevOps Gene Kim](images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
 
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
 [![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
 
-![DevOps wikipedia](images/devops_wikipedia.png)
+[![DevOps wikipedia](images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
 
-![DevOps today](images/todays_devops.jpg)
+[![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
 
 ![DevOps dilbert](images/dilbert_devops.jpg)
 
