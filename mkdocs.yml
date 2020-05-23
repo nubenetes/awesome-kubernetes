@@ -32,7 +32,8 @@ pages:
   - Cheat Sheets: cheatsheets.md
   - GitOps: gitops.md
   - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
-- NoOps: noops.md
+- NoOps: 
+  - NoOps: noops.md
   - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
 - FinOps: finops.md
 - TestOps and Continuous Testing: testops.md
