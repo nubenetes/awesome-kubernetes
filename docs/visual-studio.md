@@ -78,6 +78,7 @@ A simple extension to make indentation more readable
 * [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) Official Dracula Theme. A dark theme for many editors, shells, and more.
     * [Dracula Pro Theme 🌟](https://draculatheme.com/pro)
 * [Discord Presence Theme](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) Update your discord status with the newly added rich presence.
+* [GitHub Theme 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) GitHub theme for VS Code
 
 #### DevOps Extensions
 * [Jira and Bitbucket (Official)](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)

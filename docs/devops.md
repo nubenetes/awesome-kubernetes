@@ -1,10 +1,14 @@
 # DevOps 
+- [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [DevOps](#devops)
 - [Netflix](#netflix)
 - [Public Cloud DevOps](#public-cloud-devops)
     - [AWS DevOps](#aws-devops)
     - [Azure DevOps](#azure-devops)
     - [Google Cloud Platform](#google-cloud-platform)
+
+## Introduction to Digital Business Transformation
+* [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
 
 ## DevOps
 * [xebialabs.com: The Complete DevOps Glossary](https://xebialabs.com/glossary/)
@@ -21,8 +25,8 @@
 * [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 * [devopscube.com: Become A DevOps Engineer in 2020: A Comprehensive Guide 🌟](https://devopscube.com/become-devops-engineer/)
 * [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
-- [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
-- [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
+* [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
+* [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 
 ## Netflix
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 

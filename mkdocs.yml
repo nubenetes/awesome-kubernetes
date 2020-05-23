@@ -25,13 +25,17 @@ pages:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
+- Site Reliability Engineering (SRE): sre.md
+- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
 - DevOps:
   - DevOps: devops.md
   - Cheat Sheets: cheatsheets.md
   - GitOps: gitops.md
   - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
+- NoOps: noops.md
+  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+- FinOps: finops.md
 - TestOps and Continuous Testing: testops.md
-- Site Reliability Engineering (SRE): sre.md
 - Project Management Methodology:
   - Project Management Methodology: project-management-methodology.md
   - Work From Home: workfromhome.md
@@ -86,7 +90,6 @@ pages:
   - DevSecOps. Container Security: devsecops.md
   - Security Policy as Code: securityascode.md
 - Cloud Native Storage: storage.md
-- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
 - APIs:
   - APIs with SOAP, REST and gRPC: api.md
   - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
