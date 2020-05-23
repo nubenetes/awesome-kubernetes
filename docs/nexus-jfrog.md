@@ -5,9 +5,11 @@
     - [Nexus as a Docker repo](#nexus-as-a-docker-repo)
         - [Secure Docker Registries](#secure-docker-registries)
     - [SSL/TLS Certificates](#ssltls-certificates)
+        - [Add Insecure Registry to Docker](#add-insecure-registry-to-docker)
     - [Jenkins Integration with Nexus](#jenkins-integration-with-nexus)
     - [Nexus 3 Configuration as Code](#nexus-3-configuration-as-code)
     - [Nexus CLI](#nexus-cli)
+    - [Sonatype Nexus Community](#sonatype-nexus-community)
 - [JFrog Artifactory](#jfrog-artifactory)
 
 ## Nexus Repository Manager (NXRM) 3
@@ -21,6 +23,7 @@
 * [Dzone: Nexus Guide Update January 2018](https://dzone.com/articles/nexus-guide-update-january-2018)
 
 ### Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster
+* [Sonatype Nexus Community: Nexus Kubernetes OpenShift 🌟](https://github.com/sonatype-nexus-community/nexus-kubernetes-openshift)
 * [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes/)
 * [stackoverflow: run nexus3 with docker in a kubernetes cluster](https://stackoverflow.com/questions/42766349/run-nexus-3-with-docker-in-a-kubernetes-cluster)
 * [https://github.com/jetstack/cert-manager/](https://github.com/jetstack/cert-manager/)
@@ -42,6 +45,12 @@
 * [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
 * [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
 
+#### Add Insecure Registry to Docker
+- [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/)
+- [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry)
+- [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159)
+- [Add Insecure Registry to Docker](https://intellipaat.com/community/19079/add-insecure-registry-to-docker)
+
 ### Jenkins Integration with Nexus
 * [Nexus Platform Plugin for Jenkins](https://help.sonatype.com/integrations/nexus-and-continuous-integration/nexus-platform-plugin-for-jenkins)
 * [Jenkins: Publish Maven Artifacts to Nexus OSS Using Pipelines or Maven Jobs 🌟](https://dzone.com/articles/jenkins-publish-maven-artifacts-to-nexus-oss-using) Check out how following this tutorial to connect Maven and Nexus OSS can help increase your CI/CD pipelines.
@@ -57,6 +66,10 @@
 ### Nexus CLI
 * [GitHub: Nexus-CLI](https://github.com/mlabouardy/nexus-cli)
 * [nexus3-cli.readthedocs.io](https://nexus3-cli.readthedocs.io)
+
+### Sonatype Nexus Community
+* [Sonatype Nexus Community 🌟](https://github.com/sonatype-nexus-community)
+* Check out the [Nexus3](https://stackoverflow.com/questions/tagged/nexus3) tag on Stack Overflow
 
 ## JFrog Artifactory
 - [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/)
