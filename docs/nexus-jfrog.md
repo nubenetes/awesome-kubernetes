@@ -27,7 +27,7 @@
 
 ### Nexus as a Docker repo 
 * [Docker Registry](https://help.sonatype.com/repomanager3/formats/docker-registry)
-* [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images: ](https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-images)
+* [blog.sonatype.com: Using Nexus 3 as Your Repository – Part 3: Docker Images 🌟](https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-images)
 * [Dzone: Setting up a docker private registry with authentication](https://dzone.com/articles/setting-up-a-docker-private-registry-with-authenti)
 * [sonatype: how to delete docker images from Nexus Repository Manager](https://support.sonatype.com/hc/en-us/articles/360009696054-How-to-delete-docker-images-from-Nexus-Repository-Manager)
 * [hackermoon.com: cleanup old docker images from nexus repository](https://hackernoon.com/cleanup-old-docker-images-from-nexus-repository-617b1004dad8)
