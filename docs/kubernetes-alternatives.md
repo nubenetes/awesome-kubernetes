@@ -11,6 +11,7 @@
 * [nomadproject.io: Nomad vs. Kubernetes](https://www.nomadproject.io/intro/vs/kubernetes/)
 * [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/dev-hub/backend-dev/nomad-kubernetes-but-without-the-complexity/)
 * [autentia.com: Nomad vs. Kubernetes](https://www.autentia.com/2018/09/20/nomad-vs-kubernetes/)
+* [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
 
 ## Portainer
 * [Portainer](https://www.portainer.io/) Making Docker management easy
