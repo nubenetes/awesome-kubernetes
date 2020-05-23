@@ -54,7 +54,29 @@
 
 [![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
 
+![Programmer Move](images/term_devops.jpg)
+
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
 [![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
 
+![DevOps wikipedia](images/devops_wikipedia.png)
+
+![DevOps today](images/todays_devops.jpg)
+
+![DevOps dilbert](images/dilbert_devops.jpg)
+
+[![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
+       
+[![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+         
+[![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+        
+[![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+               
+[![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
+
+<div class="container">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
+</div>
+<br>
