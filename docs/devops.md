@@ -1,7 +1,8 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [DevOps](#devops)
-- [Netflix](#netflix)
+- [Xebia Labs and DevOps](#xebia-labs-and-devops)
+- [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
     - [AWS DevOps](#aws-devops)
     - [Azure DevOps](#azure-devops)
@@ -29,7 +30,12 @@
 * [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 * [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
 
-## Netflix
+## Xebia Labs and DevOps
+- [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)
+- [The Ultimate DevOps Tool Chest 🌟](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+- [Periodic Table of DevOps 🌟](https://xebialabs.com/periodic-table-of-devops-tools/)
+
+## Netflix and DevOps
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
 * [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
 
