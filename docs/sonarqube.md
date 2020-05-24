@@ -7,8 +7,8 @@
 - [SonarQube Scanners](#sonarqube-scanners)
 
 ## Introduction
-* [https://en.wikipedia.org/wiki/SonarQube](https://en.wikipedia.org/wiki/SonarQube)
-* [https://www.sonarqube.org/](https://www.sonarqube.org/)
+* [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube)
+* [Sonarqube.org](https://www.sonarqube.org/)
 * [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)
 
 ## Analyzing Code with SonarQube
