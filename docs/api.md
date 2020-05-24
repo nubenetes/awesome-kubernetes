@@ -1,5 +1,6 @@
 # APIs with SOAP, REST and gRPC
 - [APIs](#apis)
+- [Motivation](#motivation)
 - [Types of API Protocols](#types-of-api-protocols)
     - [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
     - [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
@@ -22,6 +23,9 @@
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 - [Devdocs.io API Documentation](https://devdocs.io/)
+
+## Motivation
+- [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure. 
 
 ## Types of API Protocols
 - [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis/) Types of API Protocols: SOAP, REST and RPC
