@@ -164,6 +164,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awes
     * [youtube: Modular Pipeline Library: 4. Petclinic Pipeline](https://www.youtube.com/watch?v=GLtvxY1S3Aw)
 * PetClinic on Kubernetes:
     * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
+        * While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
+    * [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
     * [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
     * [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
     * [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
