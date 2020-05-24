@@ -549,8 +549,10 @@ oc login
 
 ### OpenShift 4 roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) - this link may change](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
-* [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides) - this link is now broken](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
-* [blog.openshift.com: OpenShift 4 Roadmap Update (slides) - this link is now broken](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
+* [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
+    * This link is now broken. [Grab a copy from here](https://github.com/inafev/awesome-kubernetes/tree/master/pdf)
+* [blog.openshift.com: OpenShift 4 Roadmap Update (slides)](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
+    * This link is now broken. [Grab a copy from here](https://github.com/inafev/awesome-kubernetes/tree/master/pdf) 
 
 ### Kubevirt Virtual Machine Management on Kubernetes
 * [kubevirt.io 🌟](https://kubevirt.io/) 
