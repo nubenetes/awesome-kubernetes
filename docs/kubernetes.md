@@ -55,6 +55,8 @@
     - [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
     - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 - [Kubernetes Storage](#kubernetes-storage)
+    - [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
+    - [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
 - [Non-production Kubernetes Local Installers](#non-production-kubernetes-local-installers)
 - [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
     - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
@@ -537,6 +539,18 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 
 ## Kubernetes Storage
 * [Cloud Native Storage](storage.md)
+
+### Kubernetes Volumes Guide
+- [Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html)
+- This is a guide that covers:
+    - How to set up and use volumes in Kubernetes
+    - What are persistent volumes, and how to use them
+    - How to use an NFS volume
+    - Shared data and volumes between pods
+
+### ReadWriteMany PersistentVolumeClaims 
+- [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3) Kubernetes allows us to provision our PersistentVolumes dynamically using PersistentVolumeClaims. Pods treat these claims as volumes. The access mode of the PVC determines how many nodes can establish a connection to it. We can refer to the resource provider’s docs for their supported access modes.
+- [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative)
 
 ## Non-production Kubernetes Local Installers
 * [Minikube](https://github.com/kubernetes/minikube) A tool that makes it easy to run Kubernetes locally inside a Linux VM. It's aimed on users who want to just test it out or use it for development. It cannot spin up a production cluster, it's a one node machine with no high availability.
