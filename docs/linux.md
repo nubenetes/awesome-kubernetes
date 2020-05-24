@@ -5,6 +5,7 @@
 - [Youtube](#youtube)
 - [Reddit](#reddit)
 - [Linux Commands and Tools](#linux-commands-and-tools)
+    - [Systemd](#systemd)
     - [Blogs](#blogs)
     - [CommandLineFu](#commandlinefu)
 - [Linux Networking](#linux-networking)
@@ -57,6 +58,9 @@
 - [**watchman command**: A File and Directory Watching Tool for Changes](https://www.tecmint.com/watchman-monitor-file-changes-in-linux/)
 - [**ip command**: How to use IP Command in Linux with Examples](https://linoxide.com/linux-command/use-ip-command-linux/)
 - [**curl command**: Understanding the Hidden Powers of curl](https://nordicapis.com/understanding-the-hidden-powers-of-curl/)
+
+### Systemd
+- [Start using systemd as a troubleshooting tool](https://opensource.com/article/20/5/systemd-troubleshooting-tool) While systemd is not really a troubleshooting tool, the information in its output points the way toward solving problems.
 
 ### Blogs
 - [climagic.org](http://www.climagic.org)

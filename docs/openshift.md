@@ -24,20 +24,21 @@
             - [Introduction](#introduction)
             - [Catalog](#catalog)
             - [Certified Opeators, OLM Operators and Red Hat Operators](#certified-opeators-olm-operators-and-red-hat-operators)
+            - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](#deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators)
             - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
                 - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
                 - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
             - [Cluster Network Operator (CNO) & Routers](#cluster-network-operator-cno--routers)
             - [ServiceMesh Operator](#servicemesh-operator)
             - [Serverless Operator (Knative)](#serverless-operator-knative)
-            - [Monitoring & Observability](#monitoring--observability)
-                - [Grafana](#grafana)
-                - [Prometheus](#prometheus)
-                - [Alerts & Silences](#alerts--silences)
-                - [Cluster Logging (EFK)](#cluster-logging-efk)
-            - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
-            - [Registry & Quay](#registry--quay)
-            - [Local Development Environment](#local-development-environment)
+        - [Monitoring & Observability](#monitoring--observability)
+            - [Grafana](#grafana)
+            - [Prometheus](#prometheus)
+            - [Alerts & Silences](#alerts--silences)
+            - [Cluster Logging (EFK)](#cluster-logging-efk)
+        - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
+        - [Registry & Quay](#registry--quay)
+        - [Local Development Environment](#local-development-environment)
     - [OpenShift Youtube](#openshift-youtube)
     - [OpenShift 4 Training](#openshift-4-training)
     - [OpenShift 4 roadmap](#openshift-4-roadmap)
@@ -64,6 +65,7 @@
     - [Kubernetes e-Books](#kubernetes-e-books)
 - [Online Learning](#online-learning)
 - [Local Installers](#local-installers)
+- [Cloud Native Development Architecture. Architectural Diagrams](#cloud-native-development-architecture-architectural-diagrams)
 - [Cluster Installers](#cluster-installers)
     - [OKD 3](#okd-3)
     - [OpenShift 3](#openshift-3)
@@ -362,6 +364,9 @@ etcd 14h myoperator 14h
 
 ![OCP Certified Operators](images/ocp_certified_operators.png)
 
+##### Deploy and bind enterprise-grade microservices with Kubernetes Operators
+- [Deploy and bind enterprise-grade microservices with Kubernetes Operators](https://developers.redhat.com/blog/2020/05/18/deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators/)
+
 ##### OpenShift Container Storage Operator (OCS)
 ###### OCS 3 (OpenShift 3)
 - OpenShift Container Storage based on [GlusterFS](https://www.gluster.org/) technology.
@@ -439,20 +444,20 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - [openshift.com/learn/topics/serverless](https://www.openshift.com/learn/topics/serverless)
 - [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)  
 
-##### Monitoring & Observability
-###### Grafana
+#### Monitoring & Observability
+##### Grafana
 - Integrated Grafana v5.4.3 (deployed by default): 
 - Monitoring -> Dashboards
 - Project “openshift-monitoring”
 - https://grafana.com/docs/v5.4/ 
 
-###### Prometheus
+##### Prometheus
 - Integrated Prometheus v2.7.2 (deployed by default): 
 - Monitoring -> metrics
 - Project “openshift-monitoring”
 - https://prometheus.io/docs/prometheus/2.7/getting_started/ 
 
-###### Alerts & Silences
+##### Alerts & Silences
 - Integrated Alertmanager 0.16.2 (deployed by default):
     - Monitoring -> Alerts
     - Monitoring -> Silences 
@@ -460,7 +465,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Project “openshift-monitoring”
 - https://prometheus.io/docs/alerting/alertmanager/
 
-###### Cluster Logging (EFK)
+##### Cluster Logging (EFK)
 - EFK: Elasticsearch + Fluentd + Kibana
 - Cluster Logging EFK **not deployed by default**
 - As an OpenShift Container Platform cluster administrator, you can deploy cluster logging to aggregate logs for a range of OpenShift Container Platform services.
@@ -477,7 +482,7 @@ OCP Release|Elasticsearch|Fluentd|Kibana|EFK deployed by default
 OpenShift 3.11| 5.6.13.6|0.12.43|5.6.13|No
 OpenShift 4.1|5.6.16|?|5.6.16|No
 
-##### Build Images. Next-Generation Container Image Building Tools
+#### Build Images. Next-Generation Container Image Building Tools
 - Redesign of how images are built on the platform.
 - Instead of relying on a daemon on the host to manage containers, image creation, and image pushing, we are leveraging [Buildah](https://buildah.io/) running inside our build pods.
 - This aligns with the general OpenShift 4 theme of making everything “just another pod”
@@ -492,7 +497,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 
 ![Buildah](images/Buildah.png)
 
-##### Registry & Quay
+#### Registry & Quay
 - A Docker registry is a place to store and distribute Docker images.
 - It serves as a target for your docker push and docker pull commands.
 - [Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/)
@@ -513,7 +518,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
     - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
     - [github.com/quay](https://github.com/quay]
 
-##### Local Development Environment
+#### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.
 - Openshift 4 on your laptop: There is a working solution for single node OpenShift cluster. It is provided by a new project called [CodeReady Containers](https://github.com/code-ready/crc/).
 - [Procedure:](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
@@ -680,6 +685,15 @@ oc login
     * [Dzone.com: Install OpenShift Container Platform 3.6 in Minutes](https://dzone.com/articles/cloud-happiness-install-openshift-container-platfo)
     * [Dzone.com: How to Install New OpenShift Container Platform 3.7](https://dzone.com/articles/cloud-happiness-how-to-install-new-openshift-conta-2)
     * [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
+
+## Cloud Native Development Architecture. Architectural Diagrams
+* [Dzone: Cloud-native development - A blueprint 🌟](https://dzone.com/articles/cloud-native-development-a-blueprint) These architectural blueprints are providing you with a way to implement a solution using open source technologies focusing on the integrations, structures and interactions proven to work.
+* **'Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).'**
+* [Portfolio Architecture WorkShops🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+* [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
+* [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
+
+[![Cloud-native development](images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
 
 ## Cluster Installers
 ### OKD 3

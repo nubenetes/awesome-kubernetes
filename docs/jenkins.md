@@ -269,6 +269,7 @@
 ## CloudBees Rollout and Feature Flags
 * [CloudBees Rollout 🌟](https://app.rollout.io/)
 * [rollout.io: CloudBees Rollout Tutorial: Feature Flagging in your React Native App in 5 minutes](https://rollout.io/blog/rollout-tutorial-feature-flagging-in-your-react-native-app-in-5-minutes/)
+* [How to Disable Code: The Developer's Production Kill Switch 🌟](https://www.cloudbees.com/blog/how-disable-code-developers-production-kill-switch)
 
 ### Feature Flags in CloudBees Enterprise On-Premise
 * [CloudBees Releases Another Industry First: Feature Flagging for On-Premise Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)

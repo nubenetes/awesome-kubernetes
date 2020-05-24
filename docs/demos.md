@@ -5,6 +5,8 @@
 - [Kubernetes Demos](#kubernetes-demos)
     - [Istio](#istio)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
+- [Red Hat Demo Central](#red-hat-demo-central)
+    - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
     - [Knative](#knative)
 - [Jenkins Demos](#jenkins-demos)
@@ -58,6 +60,16 @@
 * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
 * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
 * [dzone: deploying a kubernetes cluster with amazon eks 🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+
+## Red Hat Demo Central
+* [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)
+* [redhatdemocentral.gitlab.io](https://redhatdemocentral.gitlab.io)
+
+### Cloud Native Development Architectural Diagrams Demos
+* **'Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).'**
+* [Portfolio Architecture](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+    * [redhatdemocentral.gitlab.io/portfolio-architecture-tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
+    * [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 ## OpenShift Demos
 * [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
@@ -196,3 +208,4 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awes
 
 ## Google DevOps Demos
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)
+
