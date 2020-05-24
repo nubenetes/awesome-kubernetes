@@ -124,8 +124,16 @@ It prescribes that software designers should define formal, precise and verifiab
 
 ## Git Commands
 * Show commit logs:
+
 ```bash
 git log --oneline --all --graph --decorate
+```
+
+* [Removing the last commit](https://gist.github.com/CrookedNumber/8964442):
+
+```bash
+git reset --hard HEAD^
+git push origin -f
 ```
 
 ## BitBucket

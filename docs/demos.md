@@ -12,6 +12,7 @@
     - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [Jenkins Scripts](#jenkins-scripts)
+- [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
@@ -141,6 +142,9 @@
 * **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. 
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/inafev/awesome-kubernetes/tree/master/scripts)
+
+## Nexus3 on Kubernetes
+* [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/inafev/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
