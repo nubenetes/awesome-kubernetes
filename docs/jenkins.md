@@ -12,6 +12,8 @@
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
+- [Jenkins Multibranch Pipeline](#jenkins-multibranch-pipeline)
+    - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
 - [Jenkins Plugins](#jenkins-plugins)
     - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
     - [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
@@ -151,6 +153,12 @@
 * [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool)
 * [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
 
+## Jenkins Multibranch Pipeline
+- The [Multibranch Pipeline 🌟](https://www.jenkins.io/doc/book/pipeline/multibranch/) enable developer to implement different Jenkinsfiles for different branches of the same project. It’s can discover branches and execute pipeline automatically with Jenkinsfiles in version control for better management pipeline.
+
+### Multibranch Pipelines with Kubernetes
+- [Build CI/CD Multibranch Pipeline with Jenkins and Kubernetes 🌟](https://medium.com/@peiruwang/build-ci-cd-multibranch-pipeline-with-jenkins-and-kubernetes-637de560d55a)
+
 ## Jenkins Plugins
 * [dev.to: 8 Jenkins plugins I can't live without (2019)](https://dev.to/jcoelho/8-jenkins-plugins-i-cant-live-without-3bin)
 * [caylent: 20 Jenkins Plugins You Can’t Live Without (2018) 🌟](https://caylent.com/jenkins-plugins)
@@ -177,6 +185,7 @@
 * [openshift-deployer](https://plugins.jenkins.io/openshift-deployer)
 * [kubernetes plugin](https://plugins.jenkins.io/kubernetes)
 * [Kubernetes Continuous Deploy 🌟](https://plugins.jenkins.io/kubernetes-cd)
+* [Kubernetes CLI 🌟](https://plugins.jenkins.io/kubernetes-cli/)
 * [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins/)
 * [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean/)
 * [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow)
