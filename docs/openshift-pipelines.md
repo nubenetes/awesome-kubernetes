@@ -6,6 +6,7 @@
 - [Building applications in OpenShift](#building-applications-in-openshift)
     - [OpenShift Pipelines with Build Config](#openshift-pipelines-with-build-config)
     - [OpenShift Pipelines with S2i](#openshift-pipelines-with-s2i)
+        - [OpenShift Pipelines with S2i and Jenkins Blue Ocean. Deploying Blue Ocean on OpenShift](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean-deploying-blue-ocean-on-openshift)
 - [OpenShift Deployments with Deployment Descriptor](#openshift-deployments-with-deployment-descriptor)
 - [OpenShift Deployments with GitHub Actions](#openshift-deployments-with-github-actions)
 - [Deployments with OpenShift HA in Multiple Datacenters](#deployments-with-openshift-ha-in-multiple-datacenters)
@@ -48,6 +49,14 @@
 * [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 * [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟](https://blog.openshift.com/openshift-3-walkthrough/)
 * [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
+
+#### OpenShift Pipelines with S2i and Jenkins Blue Ocean. Deploying Blue Ocean on OpenShift
+- [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean)
+- [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) Jenkins Blue Ocean for OpenShift Jenkins S2I
+
+<center>
+<iframe src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ## OpenShift Deployments with Deployment Descriptor
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)

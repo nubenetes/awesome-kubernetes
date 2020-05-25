@@ -78,6 +78,8 @@
         - [Review Security Context Constraints](#review-security-context-constraints)
     - [OpenShift Network Model & Network Policy](#openshift-network-model--network-policy)
         - [Network Security Zones](#network-security-zones)
+        - [OpenShift Route and OpenShift Ingress](#openshift-route-and-openshift-ingress)
+        - [OpenShift Egress](#openshift-egress)
 - [Openshift Compliant Docker Images](#openshift-compliant-docker-images)
     - [Gitlab](#gitlab)
     - [Atlassian Confluence6](#atlassian-confluence6)
@@ -762,6 +764,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 * [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
 
 #### Network Security Zones
+- [stackoverflow.com: Is that possible to deploy an openshift or kubernetes in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone) 
 - [OpenShift and Network Security Zones: Coexistence Approaches 🌟🌟🌟](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
     - **Introduction:** Kubernetes and consequently OpenShift adopt a [flat Software Defined Network (SDN) model](https://kubernetes.io/docs/concepts/cluster-administration/networking/), which means that all pods in the SDN are in the same logical network. Traditional network implementations adopt a zoning model in which different networks or zones are dedicated to specific purposes, with very strict communication rules between each zone. When implementing OpenShift in organizations that are using network security zones, the two models may clash. In this article, we will analyze a few options for coexistence. But first, let’s understand the two network models a bit more in depth.
     - Network Zones have been the widely accepted approach for building security into a network architecture. The general idea is to create separate networks, each with a specific purpose. Each network contains devices with similar security profiles. Communications between networks is highly scrutinized and controlled by firewall rules ([perimeter defense](https://en.wikipedia.org/wiki/All_round_defence)).
@@ -770,6 +773,16 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 <center>
 [![Network Security Zones](images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
 </center>
+
+#### OpenShift Route and OpenShift Ingress
+- [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.openshift.com/blog/kubernetes-ingress-vs-openshift-route)
+- [Ingress Operator in OCP 4](https://docs.openshift.com/container-platform/4.4/networking/ingress-operator.html)
+- [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)
+
+#### OpenShift Egress
+- [Accessing External Services Using Egress Router](https://www.openshift.com/blog/accessing-external-services-using-egress-router)
+- [How to Enable Static Egress IP in OCP](https://www.openshift.com/blog/how-to-enable-static-egress-ip-in-ocp)
+- [dzone: OpenShift Egress Options](https://dzone.com/articles/openshift-egress-options) Network security is a crucial part of any of Software as a Service type business. Read on to see how to implement OpenShift to create better network security.
 
 ## Openshift Compliant Docker Images
 - [Red Hat Container Catalog - RedHat Registry (registry.redhat.io) 🌟](https://access.redhat.com/containers/) License required

@@ -11,6 +11,7 @@
     - [Knative](#knative)
 - [Jenkins Demos](#jenkins-demos)
     - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
+    - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
     - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [Jenkins Scripts](#jenkins-scripts)
@@ -106,6 +107,10 @@
 * [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
 * [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
 * [github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test](https://github.com/gnunn1/openshift-basic-pipeline)
+
+### OpenShift Pipelines with S2i and Jenkins Blue Ocean
+- [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean)
+- [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) Jenkins Blue Ocean for OpenShift Jenkins S2I
 
 ### Jenkins Configuration as Code on Kubernetes
 * [Configuration as Code of Jenkins (for Kubernetes) 🌟🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
