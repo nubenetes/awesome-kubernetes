@@ -153,10 +153,13 @@
 * [5 open source projects that make Kubernetes even better: Prometheus, Operator framework, Knative, Tekton, Kubeflow 🌟](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve) Open source projects bring many additional capabilities to Kubernetes, such as performance monitoring, developer tools, serverless capabilities, and CI/CD workflows. Check out these five widely used options
 * [**Optimize** Kubernetes cluster management with these 5 tips 🌟](https://searchitoperations.techtarget.com/feature/Optimize-Kubernetes-cluster-management-with-these-5-tips) Effective Kubernetes cluster management requires operations teams to balance pod and node deployments with performance and availability needs.
 * [medium: How to Deploy a Web Application with Kubernetes 🌟](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
+* [blog.pipetail.io: 10 most common mistakes using kubernetes 🌟](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
 
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
 [![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg)](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+
+[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg)](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
 
 ### Templating YAML in Kubernetes with real code. YQ YAML processor
 - [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code)
