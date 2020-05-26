@@ -690,7 +690,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 
 ###### K3S Use Cases
-[K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
+- [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
     1. Edge computing and Embedded Systems
     2. IOT Gateway
     3. **CI environments** (i.e. Jenkins with Configuration as Code)
