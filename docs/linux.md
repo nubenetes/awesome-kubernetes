@@ -66,6 +66,7 @@
 - [climagic.org](http://www.climagic.org)
 - [Linux 101 Hacks](http://linux.101hacks.com/)
 - [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ### CommandLineFu
 - [CommandLineFu 🌟](https://www.commandlinefu.com)
@@ -86,6 +87,9 @@
 - [Linux networking examples and tutorials for advanced users](https://github.com/knorrie/network-examples) Includes lab examples for lxc, bgp, vpn, & more
 - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands/) VNStat, ping, traceroute, ping, arp, curl and wget, netstat, whois, ssh, tcpdump, ngrep, nmap, netcat, lsof, iptraf
 
+<center>
+[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
+</center>
 
 
 

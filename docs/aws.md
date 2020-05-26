@@ -57,6 +57,7 @@
 	- [AWS IAM](#aws-iam)
 	- [AWS CloudFront](#aws-cloudfront)
 	- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+	- [AWS Vault](#aws-vault)
 - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
 - [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
 - [AWS Fargate](#aws-fargate)
@@ -409,6 +410,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests 🌟](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)
 - [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
+
+### AWS Vault
+- [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
+- [AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault](https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/)
 
 ## AWS S3 & EBS. AWS Storage Gateway
 - [S3 FAQ 🌟](https://aws.amazon.com/s3/faqs/)

@@ -5,6 +5,7 @@
 * [Take your Linux development experience in Windows to the next level with WSL and Visual Studio Code Remote](https://devblogs.microsoft.com/commandline/take-your-linux-development-experience-in-windows-to-the-next-level-with-wsl-and-visual-studio-code-remote/)
 * [softwarecollections.org](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use 
 multiple versions of software on the same system, without affecting system-wide installed packages.
+* [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) A lesson on how to install Kubernetes in Docker KinD and Minikube.
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
