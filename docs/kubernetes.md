@@ -698,7 +698,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 3. **CI environments** (i.e. Jenkins with Configuration as Code)
 4. Single-App Clusters
 
-- Referencce: [Intro to k3s: Lightweight Kubernetes](https://www.youtube.com/watch?v=2LNxGVS81mE)
+Reference: [Intro to k3s: Lightweight Kubernetes](https://www.youtube.com/watch?v=2LNxGVS81mE)
 
 ###### K3D
 * [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
