@@ -27,3 +27,7 @@
 <center>
 [![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 </center>
+
+<center>
+![debugging tactics](images/debugging_tactics.jpg)
+</center>
