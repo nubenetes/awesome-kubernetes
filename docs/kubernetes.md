@@ -85,8 +85,8 @@
             - [Rancher 2](#rancher-2)
             - [Rancher 2 RKE](#rancher-2-rke)
             - [K3S](#k3s)
-                - [K3S in Public Clouds](#k3s-in-public-clouds)
                 - [K3S Use Cases](#k3s-use-cases)
+                - [K3S in Public Clouds](#k3s-in-public-clouds)
                 - [K3D](#k3d)
                 - [K3OS](#k3os)
             - [K3C](#k3c)
@@ -689,16 +689,15 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [**k3sup (said 'ketchup')**](https://github.com/alexellis/k3sup) is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
 * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 
+###### K3S Use Cases
+[K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
+    1. Edge computing and Embedded Systems
+    2. IOT Gateway
+    3. **CI environments** (i.e. Jenkins with Configuration as Code)
+    4. Single-App Clusters
+
 ###### K3S in Public Clouds
 * [Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
-
-###### K3S Use Cases
-1. Edge computing and Embedded Systems
-2. IOT Gateway
-3. **CI environments** (i.e. Jenkins with Configuration as Code)
-4. Single-App Clusters
-
-Reference: [Intro to k3s: Lightweight Kubernetes](https://www.youtube.com/watch?v=2LNxGVS81mE)
 
 ###### K3D
 * [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
