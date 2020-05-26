@@ -25,6 +25,7 @@
         - [Binaries, source code or Docker](#binaries-source-code-or-docker)
         - [Ansible Roles](#ansible-roles)
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
+    - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
 - [Grafana](#grafana)
     - [Grafana Dashboards](#grafana-dashboards)
     - [Grafana 7](#grafana-7)
@@ -273,6 +274,9 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ### Prometheus SaaS Solutions
 * [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
+
+### Prometheus Operator with Helm3
+* [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry/)
 
 ## Grafana
 * [Grafana](https://grafana.com/) 
