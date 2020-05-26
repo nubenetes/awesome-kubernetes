@@ -86,6 +86,7 @@
             - [Rancher 2 RKE](#rancher-2-rke)
             - [K3S](#k3s)
                 - [K3S in Public Clouds](#k3s-in-public-clouds)
+                - [K3S Use Cases](#k3s-use-cases)
                 - [K3D](#k3d)
                 - [K3OS](#k3os)
             - [K3C](#k3c)
@@ -691,15 +692,28 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ###### K3S in Public Clouds
 * [Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
 
-[![k3s use cases](images/k3s-use-cases.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+###### K3S Use Cases
+1. Edge computing and Embedded Systems
+2. IOT Gateway
+3. **CI environments** (i.e. Jenkins with Configuration as Code)
+4. Single-App Clusters
+
+- Referencce: [Intro to k3s: Lightweight Kubernetes](https://www.youtube.com/watch?v=2LNxGVS81mE)
 
 ###### K3D
 * [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 
 ###### K3OS
-* [**k3OS**](https://github.com/rancher/k3os) k3OS is a Linux distribution designed to remove as much OS maintenance as possible in a Kubernetes cluster. It is specifically designed to only have what is needed to run k3s. Additionally the OS is designed to be managed by kubectl once a cluster is bootstrapped. Nodes only need to join a cluster and then all aspects of the OS can be managed from Kubernetes. Both k3OS and k3s upgrades are handled by the k3OS operator.
-
-[![kOS value add](images/k3OS-value-add.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
+- [**k3OS**](https://github.com/rancher/k3os) k3OS is a Linux distribution designed to remove as much OS maintenance as possible in a Kubernetes cluster. It is specifically designed to only have what is needed to run k3s. Additionally the OS is designed to be managed by kubectl once a cluster is bootstrapped. Nodes only need to join a cluster and then all aspects of the OS can be managed from Kubernetes. Both k3OS and k3s upgrades are handled by the k3OS operator.
+- [**K3OS Value Add**](https://www.youtube.com/watch?v=2LNxGVS81mE):
+    - **Supports multiple architectures**
+        - K3OS runs on x86 and ARM processors to give you maximum flexibility.
+    - **Runs only the minimum required services**
+        - Fewer services means a tiny attack surface, for greater security.
+    - **Doesn't require a package manager**
+        - The required services are built into the distribution image.
+    - **Models infrastructure as code**
+        - Manage system configuration with version control systems.
 
 ##### K3C 
 * [K3C](https://github.com/rancher/k3c) Lightweight local container engine for container development. K3C is a local container engine designed to fill the same gap Docker does in the Kubernetes ecosystem. Specifically k3c focuses on developing and running local containers, basically docker run/build. Currently k3s, the [lightweight Kubernetes distribution](https://github.com/rancher/k3s), provides a great solution for Kubernetes from dev to production. While k3s satisifies the Kubernetes runtime needs, one still needs to run docker (or a docker-like tool) to actually develop and build the container images. k3c is intended to replace docker for just the functionality needed for the Kubernetes ecosystem.
