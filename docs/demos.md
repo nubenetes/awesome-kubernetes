@@ -1,5 +1,6 @@
 # DevOps Demos & Screencasts
 - [DevOps Screencasts](#devops-screencasts)
+- [DevOps Blogs](#devops-blogs)
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
 - [Kubernetes Demos](#kubernetes-demos)
@@ -25,6 +26,9 @@
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
 - [DEVOPS Library 🌟](https://devopslibrary.com/)
+
+## DevOps Blogs
+- [DevStack](https://devstack.in/) All about DevOps
 
 ## DevOps Demos
 * [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
