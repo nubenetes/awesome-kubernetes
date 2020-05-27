@@ -24,7 +24,10 @@
     - [Prometheus Installers](#prometheus-installers)
         - [Binaries, source code or Docker](#binaries-source-code-or-docker)
         - [Ansible Roles](#ansible-roles)
+    - [Prometheus Operator](#prometheus-operator)
+        - [kube Prometheus](#kube-prometheus)
         - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
+        - [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
     - [Grafana Dashboards](#grafana-dashboards)
@@ -272,8 +275,15 @@ Although it's exciting to see attempts to address the challenges of running Prom
     - [itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa)
     - [github.com/MiteshSharma/PrometheusWithGrafana](https://github.com/MiteshSharma/PrometheusWithGrafana)
 
+### Prometheus Operator 
+#### kube Prometheus
+* [kube-prometheus](https://github.com/coreos/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes.
+
 #### Prometheus Operator with Helm3
 * [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry/)
+
+#### Kubernetes Cluster Monitoring Stack based on Prometheus Operator
+- [Cluster Monitoring stack for ARM / X86-64 platforms](https://github.com/carlosedp/cluster-monitoring) Updated the cluster-monitoring stack for kubernetes to latest versions. Fresh Grafana 7, Prometheus Operator and more. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
 
 ### Prometheus SaaS Solutions
 * [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/features/prometheus-monitoring/)
