@@ -5,7 +5,7 @@
 ## BMW IT-Zentrum (Munich)
 * [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
 * CI/CD at BMW IT-Zentrum (2018): 
-    * Jenkins (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
+    * Jenkins (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
     * Requirements of each microservice defined in a single json file.
     * SpringBoot, Docker, Payara, HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
     * Terraform, Packer, Ansible.

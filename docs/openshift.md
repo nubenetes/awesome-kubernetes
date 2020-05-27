@@ -13,6 +13,7 @@
     - [Red Hat Communities of Practice. Uncontained.io Project](#red-hat-communities-of-practice-uncontainedio-project)
     - [Identity Management](#identity-management)
     - [Quota Management](#quota-management)
+    - [Source-to-Image (S2I) Image Building Tools](#source-to-image-s2i-image-building-tools)
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
     - [OCP 4 Overview](#ocp-4-overview)
         - [Three New Functionalities](#three-new-functionalities)
@@ -197,6 +198,10 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 * [techbeatly.com: How to create, increase or decrease project quota](https://www.techbeatly.com/2018/11/how-to-create-increase-or-decrease-project-quota-in-openshift.html/#.Xd5OE9WCGUk)
 * [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)
 * [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)
+
+### Source-to-Image (S2I) Image Building Tools
+- [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html#source-build)
+    - [Source-to-Image (S2I)](https://docs.openshift.com/container-platform/3.11/creating_images/s2i.html#creating-images-s2i) is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by **injecting application source into a container image and assembling a new image**. The new image incorporates the base image (the builder) and built source and is ready to use with the docker run command. S2I supports incremental builds, which re-use previously downloaded dependencies, previously built artifacts, etc.
 
 ## OpenShift Container Platform 4 (OCP 4)
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
