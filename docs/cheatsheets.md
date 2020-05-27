@@ -1,6 +1,6 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
-- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
+- [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
@@ -23,7 +23,7 @@
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 
-## Kubernetes Cheat Sheets
+## Kubernetes Knowledge Hubs
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 
