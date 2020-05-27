@@ -509,7 +509,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
 
 ## Localstack
-- [localstack.cloud 🌟](https://localstack.cloud/) Develop and test your cloud apps offline.
+- [localstack.cloud 🌟](https://localstack.cloud/) Develop and test your cloud apps offline. A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline! 
+- [github.com/localstack/localstack](https://github.com/localstack/localstack)
 
 ## Migrating On Premise VM to AWS
 - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://youtu.be/buzusNljpy4)
@@ -526,4 +527,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Videos
 
+<center>
 <iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
