@@ -8,3 +8,6 @@
 
 ## Azure Traffic Manager
 - [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)
+
+## Azure OpenVPN
+- [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)
