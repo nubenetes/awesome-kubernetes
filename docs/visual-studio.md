@@ -50,6 +50,8 @@
 A simple extension to make indentation more readable
 * [Live Server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Launch a development local Server with live reload feature for static & dynamic pages
 * [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
+* [Python Visual Studio Code](https://github.com/microsoft/vscode-python)
+    * [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package

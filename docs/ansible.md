@@ -7,6 +7,7 @@
     - [Running Ansible Playbooks From Ansible Tower](#running-ansible-playbooks-from-ansible-tower)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
+- [Ansible Galaxy Roles](#ansible-galaxy-roles)
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 
@@ -52,6 +53,10 @@
 ## Books
 * [ansiblefordevops.com](https://www.ansiblefordevops.com/)
 * [ansibleforkubernetes.com](https://www.ansibleforkubernetes.com/)
+
+## Ansible Galaxy Roles
+- [galaxy.ansible.com](https://galaxy.ansible.com/)
+- [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)
 
 ## Awesome Ansible
 * [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)

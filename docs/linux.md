@@ -8,6 +8,7 @@
     - [Systemd](#systemd)
     - [Blogs](#blogs)
     - [CommandLineFu](#commandlinefu)
+    - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
 - [Linux Networking](#linux-networking)
 
 ## SSH
@@ -73,6 +74,10 @@
 - [twitter.com/commandlinefu](https://twitter.com/commandlinefu) Command line diamonds, created and voted on by our members
 - [twitter.com/commandlinefu3](https://twitter.com/commandlinefu3) 3-star commands, a Linux afficionado's wet dream
 - [twitter.com/commandlinefu10](https://twitter.com/commandlinefu10) 10 star command line gems - known to make experienced sysadmins weep with joy.
+
+### Wait until Your Dockerized Database Is Ready before Continuing
+- [Wait until Your Dockerized Database Is Ready before Continuing](https://nickjanetakis.com/blog/wait-until-your-dockerized-database-is-ready-before-continuing) A zero dependency Bash script that waits until a command of your choosing has run successfully
+    - [github.com/nickjj/wait-until](https://github.com/nickjj/wait-until)
 
 ## Linux Networking
 - [ntop](http://www.ntop.org/)

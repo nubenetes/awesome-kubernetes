@@ -9,6 +9,8 @@
     - [SSH Cheat Sheets](#ssh-cheat-sheets)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
+- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
+- [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Maven Cheat Sheets](#maven-cheat-sheets)
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
@@ -93,6 +95,17 @@
 ## Kubernetes Operator Cheat Sheets
 * [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
 
+## Kubernetes Cheat Sheets
+- [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
+
+## Kubernetes POD Cheat Sheets
+- [jimmysong.io/kubernetes-handbook/concepts/pod.html 🌟](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
+- [https://dev.to/aurelievache: Understanding Kubernetes: part 1 – Pods](https://dev.to/aurelievache/kubernetes-sketchnotes-pods-4ib0)
+
+<center>
+[![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
+</center>
+
 ## Helm Cheat Sheets
 * [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
 
@@ -130,3 +143,4 @@
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
+

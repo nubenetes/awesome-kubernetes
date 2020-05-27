@@ -70,7 +70,8 @@
     - [OKD 3](#okd-3)
     - [OpenShift 3](#openshift-3)
     - [OpenShift 4](#openshift-4)
-        - [OpenShift 4 deployment on vSphere](#openshift-4-deployment-on-vsphere)
+        - [OpenShift 4 deployment on VMWare vSphere](#openshift-4-deployment-on-vmware-vsphere)
+            - [Deploying OpenShift 4.4 to VMware vSphere 7](#deploying-openshift-44-to-vmware-vsphere-7)
 - [Networking (OCP 3 and OCP 4)](#networking-ocp-3-and-ocp-4)
 - [Security](#security)
     - [How is OpenShift Container Platform Secured?](#how-is-openshift-container-platform-secured)
@@ -692,8 +693,9 @@ oc login
     * [Dzone.com: Install OpenShift Container Platform in Minutes [Video]](https://dzone.com/articles/install-openshift-container-platform-in-minutes-video)
 
 ## Cloud Native Development Architecture. Architectural Diagrams
+* Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 * [Dzone: Cloud-native development - A blueprint 🌟](https://dzone.com/articles/cloud-native-development-a-blueprint) These architectural blueprints are providing you with a way to implement a solution using open source technologies focusing on the integrations, structures and interactions proven to work.
-* **'Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).'**
+* [Dzone: Cloud-Native Development - Common Architectural Elements 🌟](https://dzone.com/articles/cloud-native-development-common-architectural-elem)
 * [Portfolio Architecture WorkShops🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
 * [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
 * [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
@@ -717,11 +719,16 @@ oc login
 * [blog.openshift.com: 9 steps to awesome with kubernetes openshift](https://blog.openshift.com/9-steps-to-awesome-with-kubernetes-openshift-presented-by-burr-sutter/)
     * [github: burrsutter/9stepsawesome](https://github.com/burrsutter/9stepsawesome) 
 
-#### OpenShift 4 deployment on vSphere
+#### OpenShift 4 deployment on VMWare vSphere
 * [reddit](https://www.reddit.com/r/openshift/comments/e1kw48/openshift_42_vsphere_install/)
 * [blog.openshift.com: OpenShift 4.2 vSphere Install Quickstart](https://blog.openshift.com/openshift-4-2-vsphere-install-quickstart/) 
 * [blog.openshift.com: OpenShift 4.2 vsphere install with static IPs 🌟](https://blog.openshift.com/openshift-4-2-vsphere-install-with-static-ips/)
 * [youtube: Deploy OpenShift 4 to vSphere using OpenShift's UPI](https://www.youtube.com/watch?v=DLB9m17aGus)    
+
+##### Deploying OpenShift 4.4 to VMware vSphere 7
+- [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
+
+[![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
 ## Networking (OCP 3 and OCP 4)
 - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)

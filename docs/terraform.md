@@ -25,6 +25,7 @@
 * [Dzone: What's new in Terraform v0.12](https://dzone.com/articles/whats-new-in-terraform-v012)
 * [terraform-infraestructura.readthedocs.io](https://terraform-infraestructura.readthedocs.io)
 * [Deploying and Managing a Minimal App in a Kubernetes Cluster with Terraform and Ansible](https://www.hashicorp.com/resources/deploying-managing-minimal-app-kubernetes-cluster-terraform-ansible/)
+* [Deploy Any Resource With The New Kubernetes Provider for HashiCorp Terraform](https://www.hashicorp.com/blog/deploy-any-resource-with-the-new-kubernetes-provider-for-hashicorp-terraform/)
 
 ### Awesome Terraform
 * [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
