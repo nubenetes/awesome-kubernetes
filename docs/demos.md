@@ -22,7 +22,6 @@
 - [Azure DevOps Demos](#azure-devops-demos)
 - [Google DevOps Demos](#google-devops-demos)
 
-
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
 - [DEVOPS Library 🌟](https://devopslibrary.com/)
@@ -71,7 +70,7 @@
 * [redhatdemocentral.gitlab.io](https://redhatdemocentral.gitlab.io)
 
 ### Cloud Native Development Architectural Diagrams Demos
-* **'Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).'**
+* Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 * [Portfolio Architecture](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
     * [redhatdemocentral.gitlab.io/portfolio-architecture-tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
     * [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
