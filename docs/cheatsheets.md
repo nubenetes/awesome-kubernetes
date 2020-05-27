@@ -1,5 +1,6 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
+- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
@@ -9,7 +10,6 @@
     - [SSH Cheat Sheets](#ssh-cheat-sheets)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
-- [Kubernetes Cheat Sheets](#kubernetes-cheat-sheets)
 - [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Maven Cheat Sheets](#maven-cheat-sheets)
@@ -22,6 +22,10 @@
 * [cheatography.com](https://cheatography.com/)
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
+
+## Kubernetes Cheat Sheets
+- [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
+- [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 
 ## Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
@@ -94,9 +98,6 @@
 
 ## Kubernetes Operator Cheat Sheets
 * [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
-
-## Kubernetes Cheat Sheets
-- [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 
 ## Kubernetes POD Cheat Sheets
 - [jimmysong.io/kubernetes-handbook/concepts/pod.html 🌟](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)

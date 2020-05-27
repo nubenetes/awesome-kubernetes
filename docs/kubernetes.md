@@ -1,6 +1,7 @@
 # Kubernetes
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
+- [Kubernetes References and Research Documents](#kubernetes-references-and-research-documents)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
     - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
     - [Kubernetes Limits](#kubernetes-limits)
@@ -112,10 +113,13 @@
 ## The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
 * [Cloud-Native Development Survey Details Kubernetes, Serverless Data 🌟](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
 
+## Kubernetes References and Research Documents
+- [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
+- [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
+
 ## Kubernetes open-source container-orchestation
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
-* [youtube: Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
-* [docs.kubernetes.io](http://docs.kubernetes.io/)
+* [kubernetes.io](https://kubernetes.io/)
 * [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 * [Awesome kubernetes 🌟](https://github.com/ramitsurana/awesome-kubernetes)
 * [https://www.reddit.com/r/kubernetes 🌟](https://www.reddit.com/r/kubernetes) 
