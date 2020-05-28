@@ -6,6 +6,7 @@
 * [softwarecollections.org](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use 
 multiple versions of software on the same system, without affecting system-wide installed packages.
 * [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) A lesson on how to install Kubernetes in Docker KinD and Minikube.
+* [Ubuntu on WSL 2 Is Generally Available 🌟](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available)
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
