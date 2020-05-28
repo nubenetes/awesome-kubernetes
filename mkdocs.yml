@@ -15,7 +15,7 @@ extra_css:
 - extra.css
 extra_javascript:
 - extra.js
-#site_favicon: images/favicon.ico
+site_favicon: docs/images/favicon.ico
 markdown_extensions:
 - smarty
 - sane_lists
@@ -23,7 +23,7 @@ markdown_extensions:
 - meta
 - admonition
 - toc:
-    permalink: True
+  permalink: True
 pages:
 - Home: index.md
 - Introduction:
