@@ -1,11 +1,13 @@
 site_name: Awesome Kubernetes
-site_url: https://awesome-kubernetes.readthedocs.io
+site_url: https://docs.redhatspain.com
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafev
 
 repo_url: https://github.com/inafev/awesome-kubernetes
 
-theme: readthedocs
+#theme: readthedocs
+theme:
+  name: mkdocs
 extra_css:
 - extra.css
 extra_javascript:
@@ -128,5 +130,5 @@ pages:
 - Other Awesome Lists: other-awesome-lists.md
 - About: about.md
 
-copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
+copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://docs.redhatspain.com/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
