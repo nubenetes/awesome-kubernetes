@@ -11,7 +11,7 @@ theme:
   #navigation_depth: 3
   #titles_only: True
   #sticky_navigation: True
-  include_sidebar: true
+  include_sidebar: false
 extra_css:
 - extra.css
 extra_javascript:
