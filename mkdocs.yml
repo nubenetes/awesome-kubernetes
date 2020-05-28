@@ -6,12 +6,11 @@ site_author: inafev
 repo_url: https://github.com/inafev/awesome-kubernetes
 
 theme: 
-  name: mkdocs #readthedocs
-  #prev_next_buttons_location: both
-  #navigation_depth: 3
-  #titles_only: True
-  #sticky_navigation: True
-  include_sidebar: false
+  name: readthedocs
+  prev_next_buttons_location: both
+  navigation_depth: 2
+  titles_only: True
+  sticky_navigation: True
 extra_css:
 - extra.css
 extra_javascript:
@@ -24,7 +23,7 @@ markdown_extensions:
 - meta
 - admonition
 - toc:
-    permalink: False
+    permalink: True
 pages:
 - Home: index.md
 - Introduction:
