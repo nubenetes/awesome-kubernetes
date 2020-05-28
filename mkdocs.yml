@@ -22,9 +22,9 @@ markdown_extensions:
   - fenced_code
   - meta
   - admonition
-- toc:
-    permalink: True
-    separator: "-"
+  - toc:
+      permalink: True
+      separator: "-"
 #pages:
 nav:
 - Home: index.md
