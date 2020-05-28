@@ -8,7 +8,7 @@ repo_url: https://github.com/inafev/awesome-kubernetes
 #theme: readthedocs
 theme:
   name: mkdocs
-  nav_style: dark
+  nav_style: light
 extra_css:
 - extra.css
 extra_javascript:
