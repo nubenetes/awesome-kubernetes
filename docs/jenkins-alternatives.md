@@ -29,6 +29,7 @@
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)
     * [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
+    * [devopstoolkitseries.com](https://www.devopstoolkitseries.com/)
 * [spinnaker.io](https://www.spinnaker.io/)
 * [ArgoCD](https://argoproj.github.io/argo-cd/) Declarative GitOps CD for Kubernetes
     * [Cloud Native Computing Foundation Accepts Argo as an Incubator Project](https://www.intuit.com/blog/technology/cloud-native-computing-foundation-accepts-argo-as-an-incubator-project/)
@@ -53,4 +54,10 @@
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
 
+<center>
 [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
+</center>
+
+<center>
+<iframe src="https://www.youtube.com/embed/ihHr-iLfEGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
