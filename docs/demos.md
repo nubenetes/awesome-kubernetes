@@ -9,6 +9,7 @@
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
+    - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
 - [Jenkins Demos](#jenkins-demos)
@@ -77,6 +78,7 @@
     * [gitlab.com: Project Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
 ## OpenShift Demos
+* [developers.redhat.com: Developing on OpenShift (katacoda interactive learning) 🌟](https://developers.redhat.com/courses/openshift/) Learn how to access an OpenShift cluster, manage apps with the odo command-line tool, then try image and source-based deployment techniques.
 * [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
 * [DockerHub OpenShift Demos](https://hub.docker.com/r/openshiftdemos/)
 * [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟](https://github.com/redhat-developer-demos)
@@ -93,6 +95,9 @@
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 * [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
 * [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
+
+### IBM Cloud Pak Playbooks
+* [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/)
 
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.

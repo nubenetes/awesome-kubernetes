@@ -118,6 +118,7 @@ pages:
   - AWS: aws.md
   - Google Cloud Platform: GoogleCloudPlatform.md
   - Microsoft Azure: azure.md
+  - IBM Cloud: ibm_cloud.md
   - Oracle Cloud: oraclecloud.md
   - Digital Ocean: digitalocean.md
   - Cloudflare: cloudflare.md

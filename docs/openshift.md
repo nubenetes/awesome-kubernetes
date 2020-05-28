@@ -88,6 +88,7 @@
     - [Atlassian Confluence6](#atlassian-confluence6)
     - [Sonatype Nexus 3](#sonatype-nexus-3)
     - [Rocket Chat](#rocket-chat)
+- [OpenShift on IBM Cloud. IBM Cloud Pak](#openshift-on-ibm-cloud-ibm-cloud-pak)
 - [OpenShift on AWS](#openshift-on-aws)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Videos](#videos)
@@ -819,7 +820,11 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ### Rocket Chat
 - [Deploying Rocket.Chat on OpenShift](https://rocket.chat/docs/installation/paas-deployments/openshift/)
-  
+
+## OpenShift on IBM Cloud. IBM Cloud Pak 
+* [cloudpak8s.io 🌟](https://cloudpak8s.io/) IBM Cloud™ Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud.
+* [IBM Cloud Pak Playbook 🌟](https://cloudpak8s.io/apps/cp4a_overview/)
+
 ## OpenShift on AWS
 * [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift/) View deployment guide
