@@ -1,6 +1,7 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [DevOps](#devops)
+- [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
@@ -27,6 +28,11 @@
 * [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
 * [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 * [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
+
+## Blogs
+- [devops.com](https://devops.com/)
+- [devopscube.com](https://devopscube.com/)
+- [devopszone.info](https://www.devopszone.info/)
 
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)

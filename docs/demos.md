@@ -10,6 +10,7 @@
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
     - [Knative](#knative)
+    - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
 - [Jenkins Demos](#jenkins-demos)
     - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
     - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
@@ -95,6 +96,11 @@
 
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
+
+### OpenShift Pipelines Workshop (Tekton)
+- [openshift-pipelines-workshop](https://redhat-developer-demos.github.io/openshift-pipelines-workshop/) Workshop to demonstrate OpenShift Pipelines (featuring Tekton)
+- [Build a Go application using OpenShift Pipelines](https://developers.redhat.com/blog/2020/05/26/build-a-go-application-using-openshift-pipelines/)
+- [OpenShift Pipelines Catalog](https://github.com/openshift/pipelines-catalog)
 
 ## Jenkins Demos
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)

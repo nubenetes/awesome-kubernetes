@@ -9,6 +9,7 @@
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
+- [DevSecOps Explained](https://www.devopszone.info/post/devsecops-explained)
 
 ## Project Calico
 * [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era

@@ -14,6 +14,9 @@
     - [Kubectl Alternatives](#kubectl-alternatives)
         - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
         - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
+- [Extending Kubernetes](#extending-kubernetes)
+    - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
+    - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
     - [Go Client for Kubernetes](#go-client-for-kubernetes)
     - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
@@ -224,6 +227,29 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 #### Jenkins Kubernetes Plugins
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
+
+## Extending Kubernetes
+### Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API
+- [Custom Resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
+- Use a custom resource (CRD or Aggregated API) if most of the following apply:
+    - You want to use Kubernetes client libraries and CLIs to create and update the new resource.
+    - You want top-level support from kubectl; for example, kubectl get my-object object-name.
+    - You want to build new automation that watches for updates on the new object, and then CRUD other objects, or vice versa.
+    - You want to write automation that handles updates to the object.
+    - You want to use Kubernetes API conventions like .spec, .status, and .metadata.
+    - You want the object to be an abstraction over a collection of controlled resources, or a summarization of other resources.
+- Kubernetes provides two ways to add custom resources to your cluster:
+    - CRDs are simple and can be created without any programming.
+    - API Aggregation requires programming, but allows more control over API behaviors like how data is stored and conversion between API versions.
+- Kubernetes provides these two options to meet the needs of different users, so that neither ease of use nor flexibility is compromised.
+- Aggregated APIs are subordinate API servers that sit behind the primary API server, which acts as a proxy. This arrangement is called API Aggregation (AA). To users, it simply appears that the Kubernetes API is extended.
+- CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
+- Regardless of how they are installed, the new resources are referred to as Custom Resources to distinguish them from built-in Kubernetes resources (like pods).
+
+###  Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
+- [crossplane.io 🌟](https://crossplane.io/) Crossplane is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl.
+- [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane/)
+- [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
 
 ## Client Libraries for Kubernetes
 ### Go Client for Kubernetes

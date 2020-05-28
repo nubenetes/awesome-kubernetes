@@ -32,6 +32,7 @@
             - [Cluster Network Operator (CNO) & Routers](#cluster-network-operator-cno--routers)
             - [ServiceMesh Operator](#servicemesh-operator)
             - [Serverless Operator (Knative)](#serverless-operator-knative)
+            - [Crossplane Operator (Universal Control Plane API for Cloud Computing)](#crossplane-operator-universal-control-plane-api-for-cloud-computing)
         - [Monitoring & Observability](#monitoring--observability)
             - [Grafana](#grafana)
             - [Prometheus](#prometheus)
@@ -452,6 +453,9 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Integration with Openshift ServiceMesh, Logging, Monitoring.
 - [openshift.com/learn/topics/serverless](https://www.openshift.com/learn/topics/serverless)
 - [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)  
+
+##### Crossplane Operator (Universal Control Plane API for Cloud Computing)
+- [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
 
 #### Monitoring & Observability
 ##### Grafana

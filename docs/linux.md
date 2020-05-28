@@ -9,6 +9,7 @@
     - [Blogs](#blogs)
     - [CommandLineFu](#commandlinefu)
     - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
+    - [Copr Build System](#copr-build-system)
 - [Linux Networking](#linux-networking)
 
 ## SSH
@@ -78,6 +79,11 @@
 ### Wait until Your Dockerized Database Is Ready before Continuing
 - [Wait until Your Dockerized Database Is Ready before Continuing](https://nickjanetakis.com/blog/wait-until-your-dockerized-database-is-ready-before-continuing) A zero dependency Bash script that waits until a command of your choosing has run successfully
     - [github.com/nickjj/wait-until](https://github.com/nickjj/wait-until)
+
+### Copr Build System
+- Building a repo with RPM packages from PyPI is super easy using Copr.
+- [copr.fedorainfracloud.org](https://copr.fedorainfracloud.org/) Copr is an easy-to-use automatic build system providing a package repository as its output.
+- [Copr](https://pagure.io/copr/copr)
 
 ## Linux Networking
 - [ntop](http://www.ntop.org/)

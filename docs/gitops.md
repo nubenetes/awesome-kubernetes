@@ -1,5 +1,6 @@
 # GitOps
 - [Introduction](#introduction)
+- [Git Repositories Structures](#git-repositories-structures)
 - [GitOps Tools](#gitops-tools)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
     - [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
@@ -19,6 +20,9 @@
 - [cloudbees.com: What is GitOps?](https://www.cloudbees.com/gitops/what-is-gitops)
 - [dzone: What Is GitOps, Really?](https://dzone.com/articles/what-is-gitops-really) This article will help you understand what GitOps really is as a strategy for development, and its benefits over other CI/CD approaches
 - [Continuous GitOps, the way to do DevOps in Kubernetes](https://medium.com/@imarunrk/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster  
+
+## Git Repositories Structures
+- [GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 
 ## GitOps Tools
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
