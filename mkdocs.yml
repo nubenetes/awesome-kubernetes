@@ -15,7 +15,7 @@ extra_css:
 - extra.css
 extra_javascript:
 - extra.js
-#site_favicon: docs/images/favicon.ico
+site_favicon: docs/images/favicon.ico
 markdown_extensions:
 - smarty
 - sane_lists
