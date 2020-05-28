@@ -8,8 +8,8 @@ repo_url: https://github.com/inafev/awesome-kubernetes
 theme: 
   name: readthedocs
   prev_next_buttons_location: both
-  navigation_depth: 2
-  titles_only: True
+  navigation_depth: 6
+  titles_only: False
   sticky_navigation: True
 extra_css:
   - static/extra.css
@@ -24,7 +24,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: True
-      separator: "-"
+      separator: "#"
 #pages:
 nav:
   - Home: index.md
