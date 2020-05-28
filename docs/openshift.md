@@ -43,7 +43,7 @@
         - [Local Development Environment](#local-development-environment)
     - [OpenShift Youtube](#openshift-youtube)
     - [OpenShift 4 Training](#openshift-4-training)
-    - [OpenShift 4 roadmap](#openshift-4-roadmap)
+    - [OpenShift 4 Roadmap](#openshift-4-roadmap)
     - [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
     - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
     - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
@@ -560,7 +560,7 @@ oc login
 * [learn.openshift.com](https://learn.openshift.com/)
 * [learn.crunchydata.com](https://learn.crunchydata.com/)
 
-### OpenShift 4 roadmap
+### OpenShift 4 Roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) - this link may change](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
     * This link is now broken. [Grab a copy from here](https://github.com/inafev/awesome-kubernetes/tree/master/pdf)
