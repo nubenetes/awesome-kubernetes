@@ -1,0 +1,10 @@
+
+version: 2
+
+mkdocs:
+  configuration: mkdocs.yml
+
+python:
+  version: 3.6
+  install:
+    - requirements: requirements.txt

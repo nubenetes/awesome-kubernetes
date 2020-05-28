@@ -12,20 +12,21 @@ theme:
   titles_only: True
   sticky_navigation: True
 extra_css:
-- extra.css
+  - static/extra.css
 extra_javascript:
-- extra.js
+  - javascript/extra.js
 site_favicon: images/favicon.ico
 markdown_extensions:
-- smarty
-- sane_lists
-- fenced_code
-- meta
-- admonition
+  - smarty
+  - sane_lists
+  - fenced_code
+  - meta
+  - admonition
 - toc:
     permalink: True
     separator: "-"
-pages:
+#pages:
+nav:
 - Home: index.md
 - Introduction:
   - Openshift VS Kubernetes: introduction.md
