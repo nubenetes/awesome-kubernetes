@@ -5,9 +5,12 @@ site_author: inafev
 
 repo_url: https://github.com/inafev/awesome-kubernetes
 
-#theme: readthedocs
-theme:
+theme: 
   name: readthedocs
+  prev_next_buttons_location: both
+  navigation_depth: 3
+  titles_only: True
+  sticky_navigation: False
 extra_css:
 - extra.css
 extra_javascript:
