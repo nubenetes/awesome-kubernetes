@@ -682,7 +682,7 @@ oc login
 * [redhat.com Free ebook: **Container Storage for Dummies**](https://www.redhat.com/en/resources/container-storage-dummies)
 
 ### Kubernetes e-Books
-* [Kubernetes e-Books](kubernetes.md/#e-Books)
+* [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)
 
 ## Online Learning
 * [learn.openshift.com 🌟](https://learn.openshift.com) Interactive Learning Portal
