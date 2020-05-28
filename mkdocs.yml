@@ -23,7 +23,8 @@ markdown_extensions:
 - meta
 - admonition
 - toc:
-  permalink: True
+    permalink: True
+    separator: "-"
 pages:
 - Home: index.md
 - Introduction:
