@@ -95,7 +95,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 20. [Cloud Native Storage](storage.md)
 21. [APIs with SOAP, REST and gRPC 🌟](api.md)
     - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
-    - [Test Automation with Postman](postman.md)
+    - [API Test Automation with Postman](postman.md)
     - [API Marketplaces. API Management with API Gateways & Developer Portals 🌟](developerportals.md)
 22. Development & Frameworks
     - [Angular](angular.md)
