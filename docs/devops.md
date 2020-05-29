@@ -58,35 +58,37 @@
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 
+<center>
 [![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
-
+<br>
 [![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
-
+<br>
 [![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
-
+<br>
 [![DevOps Gene Kim](images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
-
+<br>
 [![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
-
+<br>
 [![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
-
+<br>
 [![DevOps wikipedia](images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
-
+<br>
 [![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
-
+<br>
 ![DevOps dilbert](images/dilbert_devops.jpg)
-
+<br>
 [![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
-       
+<br>       
 [![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-         
+<br>        
 [![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-        
+<br>        
 [![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-               
+<br>               
 [![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
-
+<br>
 <div class="container">
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 </div>
+</center>
 <br>
