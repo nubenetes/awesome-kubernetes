@@ -836,6 +836,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 </center>
 <br/>
 <center>
-<iframe src="https://www.youtube.com/embed/9wvEwPLcLcA" width="100%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9wvEwPLcLcA" width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br/>
