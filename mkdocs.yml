@@ -23,8 +23,9 @@ markdown_extensions:
   - meta
   - admonition
   - toc:
-      permalink: True
-      separator: "-"
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
 
 nav:
 - Home: index.md
