@@ -654,16 +654,16 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04/)
 
 ### Deploying Kubernetes Cluster with Ansible 
-[Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+- [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 
 ### kube-aws Kubernetes on AWS
-[Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
+- [Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
 
 ### Kubespray
-[**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
+- [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
 
 ### Conjure up
-[**Conjure up**](https://conjure-up.io/)
+- [**Conjure up**](https://conjure-up.io/)
 
 ### WKSctl
 * [**Weave Kubernetes System Control - wksctl**](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
@@ -676,16 +676,16 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
 
 ### Caravan
-[linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+- [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
 
 ### ClusterAPI
-[**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
+- [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
 
 ### Microk8s
-[**Microk8s**](https://microk8s.io/)
+- [**Microk8s**](https://microk8s.io/)
 
 ### k8s-tew
-[**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
+- [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ### Kubernetes Distributions
 #### Red Hat OpenShift 
