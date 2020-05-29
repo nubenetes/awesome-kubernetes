@@ -577,7 +577,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [Introducing PodTopologySpread plugin](https://kubernetes.io/blog/2020/05/introducing-podtopologyspread/)
 
 ## Kubernetes Storage
-* [Cloud Native Storage](storage.md)
+[Cloud Native Storage](storage.md)
 
 ### Kubernetes Volumes Guide
 - [Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html)
@@ -613,7 +613,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service/)
 
 ###  Tools for multi-cloud Kubernetes management
-* [Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+[Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
 
 ## On-Premise Production Kubernetes Cluster Installers
 ### Comparative Analysis of Kubernetes Deployment Tools
@@ -647,16 +647,16 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://loves.cloud/setting-up-a-kubernetes-cluster-on-ubuntu-18-04/)
 
 ### Deploying Kubernetes Cluster with Ansible 
-* [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
+[Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)
 
 ### kube-aws Kubernetes on AWS
-* [Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
+[Kubernetes on AWS (kube-aws)](https://kubernetes-incubator.github.io/kube-aws/) A command-line tool to declaratively manage Kubernetes clusters on AWS
 
 ### Kubespray
-* [**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
+[**Kubespray**](https://github.com/kubernetes-sigs/kubespray)
 
 ### Conjure up
-* [**Conjure up**](https://conjure-up.io/)
+[**Conjure up**](https://conjure-up.io/)
 
 ### WKSctl
 * [**Weave Kubernetes System Control - wksctl**](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
@@ -669,16 +669,16 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [napo.io: Terraform Kubernetes Multi-Cloud (ACK, AKS, DOK, EKS, GKE, OKE)](https://napo.io/posts/terraform-kubernetes-multi-cloud-ack-aks-dok-eks-gke-oke/)
 
 ### Caravan
- [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
+[linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)
 
 ### ClusterAPI
-* [**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
+[**ClusterAPI**](https://cluster-api.sigs.k8s.io/)
 
 ### Microk8s
-* [**Microk8s**](https://microk8s.io/)
+[**Microk8s**](https://microk8s.io/)
 
 ### k8s-tew
-* [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
+[**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ### Kubernetes Distributions
 #### Red Hat OpenShift 
@@ -706,14 +706,17 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [rancher.com: Custom alerts using Prometheus queries](https://rancher.com/blog/2020/custom-monitoring)
 * [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere/) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
 
+<center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
+</center>
+</br>
 
 ##### Rancher 2 
-* [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
+[**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 
 ##### Rancher 2 RKE
-* [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
-    * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
+[**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
+* [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 
 ##### K3S 
 * [**k3s**](https://k3s.io/) Basic kubernetes with automated installer. Lightweight Kubernetes Distribution.
@@ -722,17 +725,17 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 
 ###### K3S Use Cases
-- [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
-    1. Edge computing and Embedded Systems
-    2. IOT Gateway
-    3. **CI environments** (i.e. Jenkins with Configuration as Code)
-    4. Single-App Clusters
+[K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
+1. Edge computing and Embedded Systems
+2. IOT Gateway
+3. **CI environments** (i.e. Jenkins with Configuration as Code)
+4. Single-App Clusters
 
 ###### K3S in Public Clouds
-* [Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
+[Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
 
 ###### K3D
-* [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
+[**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 
 ###### K3OS
 - [**k3OS**](https://github.com/rancher/k3os) k3OS is a Linux distribution designed to remove as much OS maintenance as possible in a Kubernetes cluster. It is specifically designed to only have what is needed to run k3s. Additionally the OS is designed to be managed by kubectl once a cluster is bootstrapped. Nodes only need to join a cluster and then all aspects of the OS can be managed from Kubernetes. Both k3OS and k3s upgrades are handled by the k3OS operator.
@@ -825,10 +828,12 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ## Videos
 
+<center>
 <iframe src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 <br/>
 <center>
 <iframe src="https://www.youtube.com/embed/9wvEwPLcLcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
