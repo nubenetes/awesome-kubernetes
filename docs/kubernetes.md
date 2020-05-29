@@ -712,11 +712,11 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 </br>
 
 ##### Rancher 2 
-[**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
+- [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 
 ##### Rancher 2 RKE
-[**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
-* [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
+- [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
+    * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 
 ##### K3S 
 * [**k3s**](https://k3s.io/) Basic kubernetes with automated installer. Lightweight Kubernetes Distribution.
@@ -725,17 +725,17 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 
 ###### K3S Use Cases
-[K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
-1. Edge computing and Embedded Systems
-2. IOT Gateway
-3. **CI environments** (i.e. Jenkins with Configuration as Code)
-4. Single-App Clusters
+- [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
+    1. Edge computing and Embedded Systems
+    2. IOT Gateway
+    3. **CI environments** (i.e. Jenkins with Configuration as Code)
+    4. Single-App Clusters
 
 ###### K3S in Public Clouds
-[Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
+- [Run Rancher 2.4 in Azure with K3s and MySQL](https://rancher.com/blog/2020/run-rancher-k3s-mysql)
 
 ###### K3D
-[**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
+- [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 
 ###### K3OS
 - [**k3OS**](https://github.com/rancher/k3os) k3OS is a Linux distribution designed to remove as much OS maintenance as possible in a Kubernetes cluster. It is specifically designed to only have what is needed to run k3s. Additionally the OS is designed to be managed by kubectl once a cluster is bootstrapped. Nodes only need to join a cluster and then all aspects of the OS can be managed from Kubernetes. Both k3OS and k3s upgrades are handled by the k3OS operator.
