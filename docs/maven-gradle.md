@@ -9,6 +9,7 @@
     - [Maven Plugins](#maven-plugins)
     - [Maven Cheat Sheets](#maven-cheat-sheets)
     - [Other Commands](#other-commands)
+    - [Fabric8 Maven Plugin](#fabric8-maven-plugin)
 - [Gradle](#gradle)
     - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 
@@ -81,6 +82,9 @@ mvn dependency:tree     (how you got something on your classpath)
 ```bash
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
+
+### Fabric8 Maven Plugin
+- [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/05/28/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/)
 
 ## Gradle
 - [gradle.org](https://gradle.org/)

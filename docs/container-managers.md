@@ -8,6 +8,7 @@
 - [Container Managers / Container Runtimes (CRI runtimes)](#container-managers--container-runtimes-cri-runtimes)
     - [CRI-O](#cri-o)
     - [Podman. Pod Manager tool](#podman-pod-manager-tool)
+        - [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
 - [Container Images](#container-images)
     - [Red Hat Universal Base Image](#red-hat-universal-base-image)
 - [Container Tools](#container-tools)
@@ -47,6 +48,9 @@
 - [developer.ibm.com: How templating works with Podman, Kubernetes, and Red Hat OpenShift](https://developer.ibm.com/technologies/containers/articles/templating-and-podman-openshift/)
 - [redhat.com: Be careful when pulling images by short name](https://www.redhat.com/en/blog/be-careful-when-pulling-images-short-name)
 - [developers.redhat.com: Podman and Buildah for Docker users 🌟](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users/)
+
+#### Containers In High Security Environments with Podman
+- [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.
 
 ## Container Images
 ### Red Hat Universal Base Image
