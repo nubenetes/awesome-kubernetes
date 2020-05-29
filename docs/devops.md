@@ -87,8 +87,14 @@
          
 [![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
 
+[![What-is-DevOps](images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
+
+[![automation](images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
+
+[![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
+
 <div class="container">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 </div>
 </center>
 <br/>
