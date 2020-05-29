@@ -14,7 +14,7 @@
 ## Serverless Architectures
 * [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
 * [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
-* [itnext.io: Scaling My App: Serverless vs Kubernetes](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
+* [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
 * [serverless.com: Comparisons - Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
 * [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609) A comparison of both technologies to stop the debate about what is better.
 

@@ -504,6 +504,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## EKS
 - [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
+* [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
 
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
