@@ -531,3 +531,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <center>
 <iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
+
+<center>
+[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+</center>
