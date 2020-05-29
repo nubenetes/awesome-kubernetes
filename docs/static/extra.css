@@ -2,10 +2,12 @@
 selectors). */
 
 body {
-  margin: 25px;
+  margin: 25px auto;
   background-color:rgb(240,240,240);
   font-family: arial, sans-serif;
   font-size: 18px;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
 
 /* Applies to all <h1>...</h1> elements. */
