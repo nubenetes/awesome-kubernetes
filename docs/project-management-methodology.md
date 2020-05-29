@@ -1,5 +1,6 @@
 # Project Management Methodology
 - [Project Management Methodology](#project-management-methodology)
+    - [Team Topologies](#team-topologies)
     - [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
     - [Waterfall vs Agile](#waterfall-vs-agile)
     - [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
@@ -11,6 +12,9 @@
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
 - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)
 - [dzone: 7 Project Management Basics](https://dzone.com/articles/7-project-management-basics-for-lifetime) Whether you're just starting out or are a career PM, these rules should never leave your mind.
+
+### Team Topologies
+- [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
 
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
