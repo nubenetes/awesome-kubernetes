@@ -1,3 +1,4 @@
+# Python
 <!-- MarkdownTOC -->
 
 - [Python Blogs and Forums](#python-blogs-and-forums)
@@ -18,7 +19,6 @@
 
 <!-- /MarkdownTOC -->
 
-# Python
 ## Python Blogs and Forums
 - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)
 - [Learn Python 'subreddit'](https://www.reddit.com/r/learnpython)
