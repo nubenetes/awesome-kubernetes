@@ -123,7 +123,8 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 <center>
 [![rh openshift solutions 2020](images/openshift_solutions_2020.jpg)](https://www.zdnet.com/article/amazon-red-hat-openshift-announced-for-public-cloud-kubernetes-users/)
 </center>
-  
+<br/>
+
 ## OpenShift Container Platform 3 (OCP 3)
 * [Dzone.com: OpenShift Quick Start 🌟](https://dzone.com/articles/openshift-quick-start)
 * [claydesk.com: Google Cloud App Engine Vs Red Hat OpenShift](https://www.claydesk.com/ecampus/google-cloud-app-engine-vs-red-hat/)
@@ -253,6 +254,8 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 ![ocp update1](images/ocp_update1.png)|![ocp update2](images/ocp_update2.png)|![ocp update3](images/ocp_update3.png)
 :---:|:---:|:---:
 
+<br/>
+
 #### New Technical Components
 - **[New Installer](https://cloud.redhat.com/openshift/install):**
     - [try.openshift.com](https://try.openshift.com/)
@@ -313,7 +316,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 ![OCP IPI2](images/ocp_ipi2.png)
 
 ![OCP UPI](images/ocp_upi.png)
-
+<br/>
 
 #### Cluster Autoscaler Operator
 - Adjusts the size of an OpenShift Container Platform cluster to meet its current deployment needs. It uses declarative, Kubernetes-style arguments
@@ -322,6 +325,8 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ![OCP Autoscaler1](images/ocp4_autoscaler1.png)|![OCP Autoscaler2](images/ocp4_autoscaler2.png)
 :----:|:----:
+
+<br/>
 
 #### Operators
 ##### Introduction
@@ -347,6 +352,7 @@ etcd 14h myoperator 14h
 ```
 
 ![OCP Operators](images/ocp_operators.png)
+<br/>
 
 ##### Catalog
 - Developer Catalog
@@ -357,6 +363,7 @@ etcd 14h myoperator 14h
     - **Operator Subscriptions** keep your services up to date by tracking a channel in a package. The approval strategy determines either manual or automatic updates.
 
 ![Operator Subscriptions](images/operator_subscriptions.png)
+<br/>
 
 ##### Certified Opeators, OLM Operators and Red Hat Operators
 - **Certified Operators** packaged by Certified:
@@ -374,6 +381,7 @@ etcd 14h myoperator 14h
     - **Not supported** by Red Hat
 
 ![OCP Certified Operators](images/ocp_certified_operators.png)
+<br/>
 
 ##### Deploy and bind enterprise-grade microservices with Kubernetes Operators
 - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](https://developers.redhat.com/blog/2020/05/18/deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators/)
@@ -400,6 +408,7 @@ etcd 14h myoperator 14h
 - OCS Dashboard in OCS Operator
 
 ![OCS Dashboard](images/ocs_dashboard.png)
+<br/>
 
 ##### Cluster Network Operator (CNO) & Routers
 - Cluster Network Operator (CNO): The cluster network is now configured and managed by an Operator. The Operator upgrades and monitors the cluster network.
@@ -426,6 +435,7 @@ etcd 14h myoperator 14h
 oc describe clusteroperators/ingress
 oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 ```
+<br/>
 
 ##### ServiceMesh Operator 
 - ServiceMesh: [Istio](https://istio.io/) + [kiali](https://kiali.io/) + [Jaeger](https://www.jaegertracing.io/)
@@ -447,6 +457,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 :----:|:----:|:----:
 
 ![OCS Servicemesh 4](images/ocp_servicemesh4.png)
+<br/>
 
 ##### Serverless Operator (Knative) 
 - Operator install on OperatorHub.io
@@ -496,6 +507,8 @@ OCP Release|Elasticsearch|Fluentd|Kibana|EFK deployed by default
 OpenShift 3.11| 5.6.13.6|0.12.43|5.6.13|No
 OpenShift 4.1|5.6.16|?|5.6.16|No
 
+<br/>
+
 #### Build Images. Next-Generation Container Image Building Tools
 - Redesign of how images are built on the platform.
 - Instead of relying on a daemon on the host to manage containers, image creation, and image pushing, we are leveraging [Buildah](https://buildah.io/) running inside our build pods.
@@ -510,6 +523,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - [Rootless podman and NFS](https://www.redhat.com/sysadmin/rootless-podman-nfs)
 
 ![Buildah](images/Buildah.png)
+<br/>
 
 #### Registry & Quay
 - A Docker registry is a place to store and distribute Docker images.
@@ -546,7 +560,7 @@ oc login
 ```
 
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
-
+<br/>
 
 ### OpenShift Youtube
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
@@ -791,6 +805,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 <center>
 [![Network Security Zones](images/Network_security_zones5.png)](https://www.openshift.com/blog/openshift-and-network-security-zones-coexistence-approaches)
 </center>
+<br/>
 
 #### OpenShift Route and OpenShift Ingress
 - [openshift.com: Kubernetes Ingress vs OpenShift Route](https://www.openshift.com/blog/kubernetes-ingress-vs-openshift-route)
@@ -834,19 +849,19 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 * [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
 ## Videos
+
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/qaIROwHUm54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/Rj0We91ec9Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/B0bziEVHyqg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/mgR0BspLr1w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/_zDDAwLctUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/WwQ62OyCNz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ## Slides
+
+<center>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qUTP0wDDEH9bVo" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe>
+</center>
+<br/>
