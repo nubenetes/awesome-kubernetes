@@ -34,7 +34,7 @@
 * [flood.io](https://flood.io/)
 
 ## Jenkins & JMeter
-* [https://github.com/jenkinsci/performance-plugin](https://github.com/jenkinsci/performance-plugin)
+* [jenkinsci/performance-plugin](https://github.com/jenkinsci/performance-plugin)
     * [plugins.jenkins.io: performance](https://plugins.jenkins.io/performance/)
 * [Blazemeter.com: Continuous Integration 101 - How to run Jmeter with jenkins 🌟](https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins) 
 * [baeldung.com: Configure Jenkins to Run and Show JMeter Tests](https://www.baeldung.com/jenkins-and-jmeter)
