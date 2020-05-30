@@ -323,9 +323,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 - Increases the size of the cluster when there are pods that failed to schedule on any of the current nodes due to insufficient resources or when another node is necessary to meet deployment needs. The ClusterAutoscaler does not increase the cluster resources beyond the limits that you specify.
 - A huge improvement over the manual, error-prone process used in the previous version of OpenShift and RHEL nodes.
 
-![OCP Autoscaler1](images/ocp4_autoscaler1.png)|![OCP Autoscaler2](images/ocp4_autoscaler2.png)
-:----:|:----:
-
+<center>
+![OCP Autoscaler1](images/ocp4_autoscaler1.png) ![OCP Autoscaler2](images/ocp4_autoscaler2.png)
+</center>
 <br/>
 
 #### Operators
@@ -351,7 +351,9 @@ etcd 14h myoperator 14h
 ...
 ```
 
+<center>
 ![OCP Operators](images/ocp_operators.png)
+</center>
 <br/>
 
 ##### Catalog
@@ -362,7 +364,9 @@ etcd 14h myoperator 14h
     - **Operator Catalogs** are groups of Operators you can make available on the cluster. They can be added via **CatalogSource** (i.e. “catalogsource.yaml”). Subscribe and grant a namespace access to use the installed Operators. 
     - **Operator Subscriptions** keep your services up to date by tracking a channel in a package. The approval strategy determines either manual or automatic updates.
 
+<center>
 ![Operator Subscriptions](images/operator_subscriptions.png)
+</center>
 <br/>
 
 ##### Certified Opeators, OLM Operators and Red Hat Operators
@@ -380,7 +384,9 @@ etcd 14h myoperator 14h
     - Deployed by any means
     - **Not supported** by Red Hat
 
+<center>
 ![OCP Certified Operators](images/ocp_certified_operators.png)
+</center>
 <br/>
 
 ##### Deploy and bind enterprise-grade microservices with Kubernetes Operators
@@ -407,7 +413,9 @@ etcd 14h myoperator 14h
 - Backups available in OpenShift 4.2+ (Snapshots + Restore of Volumes)
 - OCS Dashboard in OCS Operator
 
+<center>
 ![OCS Dashboard](images/ocs_dashboard.png)
+</center>
 <br/>
 
 ##### Cluster Network Operator (CNO) & Routers
@@ -453,10 +461,11 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
         - Kiali
     - Do not install Community versions of the Operators. Community Operators are not supported.
 
-![OCS Servicemesh 1](images/ocp_servicemesh1.png)|![OCS Servicemesh 2](images/ocp_servicemesh2.png)|![OCS Servicemesh 3](images/ocp_servicemesh3.png)
-:----:|:----:|:----:
+<center>
+![OCS Servicemesh 1](images/ocp_servicemesh1.png) ![OCS Servicemesh 2](images/ocp_servicemesh2.png) ![OCS Servicemesh 3](images/ocp_servicemesh3.png)
 
 ![OCS Servicemesh 4](images/ocp_servicemesh4.png)
+</center>
 <br/>
 
 ##### Serverless Operator (Knative) 
@@ -502,11 +511,12 @@ Deployment procedure based on CLI + web console:
     - **CatalogSourceConfig** added to enable Elasticsearch Operator on the cluster
     - etc.
 
+<center>
 OCP Release|Elasticsearch|Fluentd|Kibana|EFK deployed by default
 :--|:--|:--|:--|:--
 OpenShift 3.11| 5.6.13.6|0.12.43|5.6.13|No
 OpenShift 4.1|5.6.16|?|5.6.16|No
-
+</center>
 <br/>
 
 #### Build Images. Next-Generation Container Image Building Tools
@@ -522,7 +532,9 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - [Custom image builds with Buildah](https://docs.openshift.com/container-platform/4.4/builds/custom-builds-buildah.html)
 - [Rootless podman and NFS](https://www.redhat.com/sysadmin/rootless-podman-nfs)
 
+<center>
 ![Buildah](images/Buildah.png)
+</center>
 <br/>
 
 #### Registry & Quay
@@ -551,6 +563,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - Openshift 4 on your laptop: There is a working solution for single node OpenShift cluster. It is provided by a new project called [CodeReady Containers](https://github.com/code-ready/crc/).
 - [Procedure:](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 
+<center>
 ```bash
 untar
 crc setup
@@ -558,6 +571,7 @@ crc start
 environment variables
 oc login
 ```
+</center>
 
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 <br/>
@@ -724,7 +738,10 @@ oc login
 * [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
 * [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
+<center>
 [![Cloud-native development](images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
+</center>
+<br/>
 
 ## Cluster Installers
 ### OKD 3
@@ -752,7 +769,10 @@ oc login
 ##### Deploying OpenShift 4.4 to VMware vSphere 7
 - [Deploying OpenShift 4.4 to VMware vSphere 7 🌟](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
 
+<center>
 [![openshift 4 to vsphere 7](images/OpenShift4-to-vSphere7.png)](https://www.openshift.com/blog/deploying-openshift-4.4-to-vmware-vsphere-7)
+</center>
+<br/>
 
 ## Networking (OCP 3 and OCP 4)
 - [Using sidecars to analyze and debug network traffic in OpenShift and Kubernetes pods](https://developers.redhat.com/blog/2019/02/27/sidecars-analyze-debug-network-traffic-kubernetes-pod/)

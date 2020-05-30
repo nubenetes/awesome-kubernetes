@@ -22,11 +22,10 @@ markdown_extensions:
   - fenced_code
   - meta
   - admonition
+  - attr_list
   - toc:
-      permalink: "#"
+      permalink: true
       baselevel: 2
-      separator: "-"
-
 nav:
 - Home: index.md
 - Introduction:
@@ -136,5 +135,5 @@ nav:
 - Other Awesome Lists: other-awesome-lists.md
 - About: about.md
 
-copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://docs.redhatspain.com/about/">about</a>.
+copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://docs.redhatspain.com/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
