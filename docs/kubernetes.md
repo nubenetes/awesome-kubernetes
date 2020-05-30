@@ -101,6 +101,7 @@
             - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
             - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
         - [Kontena Pharos](#kontena-pharos)
+        - [Mirantis Docker Enterprise with Kubernetes and Docker Swarm](#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm)
 - [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
     - [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
 - [SpringBoot with Docker](#springboot-with-docker)
@@ -786,6 +787,17 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 #### Kontena Pharos
 * [Pharos 🌟](https://k8spharos.dev/) Kubernetes Distribution
 * [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos/)
+
+#### Mirantis Docker Enterprise with Kubernetes and Docker Swarm
+- [Mirantis Docker Enterprise 3.1+ with Kubernetes](https://www.mirantis.com/software/docker/docker-enterprise/)
+- Docker Enterprise 3.1 announced. Features:
+    - Istio is now built into Docker Enterprise 3.1!
+    - Comes with Kubernetes 1.17. Kubernetes on Windows capability.
+    - Enable Istio Ingress for a Kubernetes cluster with the click of a button
+    - Intelligent defaults to get started quickly
+    - Virtual services supported out of the box
+    - Inbuilt support for GPU Orchestration
+    - Launchpad CLI for Docker Enterprise deployment & upgrades
 
 ## Cloud Development Kit (CDK) for Kubernetes 
 * [cdk8s.io 🌟](https://cdk8s.io/) Define Kubernetes apps and components using familiar languages. cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
