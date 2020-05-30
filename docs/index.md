@@ -1,9 +1,5 @@
 # Awesome Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<img alt="Container with cars" src="images/container_with_cars.png"> 
-<head>
-<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
-</head>
 A curated list of awesome references collected since 2018.
 Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API—focused designs.
 
@@ -12,11 +8,19 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 <center>
 [New site under construction here!](https://www.redhatspain.com)
 
-|[![openshift videos](images/docker_kubernetes_openshift.png)](https://www.youtube.com/user/rhopenshift)|[![jenkins videos](images/jenkins-logo.png)](https://www.youtube.com/user/CloudBeesTV)|
-|:---:|:---:|
-
+[![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
+</center>
+<!--
+<img alt="Container with cars" src="images/container_with_cars.png"> 
+<head>
+<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
+</head>
+-->
+<center>
+[![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
 </center>
 <div id="player"></div>
+---
 
 ## Table of Contents
 
@@ -143,6 +147,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 </div>
 </br>
 -->
+---
 <center>
 [![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
 </center>
