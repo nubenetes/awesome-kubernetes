@@ -791,9 +791,9 @@ done
 - [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://blog.newrelic.com/engineering/opentelemetry-opentracing-opencensus/)  
 - There’s no OpenTelemetry UI, instead Jaeger UI (or any APM like Dynatrace or New Relic) can be used as “Tracing backend + Visualization frontend + Data mining platform” of OpenTelemetry API/SDK.
 
-[![Jaeger UI](images/jaeger_ui.png){: style="height:350px}](https://www.jaegertracing.io/)
+[![Jaeger UI](images/jaeger_ui.png){: style="height:500px}](https://www.jaegertracing.io/)
 
-[![Zipking UI](images/zipkin_ui.png){: style="height:350px}](https://zipkin.io/)
+[![Zipking UI](images/zipkin_ui.png){: style="height:500px}](https://zipkin.io/)
 
 ### Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry
 - [medium: Jaeger VS OpenTracing VS OpenTelemetry](https://medium.com/jaegertracing/jaeger-and-opentelemetry-1846f701d9f2)
