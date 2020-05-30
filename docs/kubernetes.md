@@ -159,11 +159,14 @@
 * [medium: How to Deploy a Web Application with Kubernetes 🌟](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
 * [blog.pipetail.io: 10 most common mistakes using kubernetes 🌟](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
 
+<center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="height:500px"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="height:800px"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 
-[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="height:500px"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="height:800px"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+</center>
+<br/>
 
 ### Templating YAML in Kubernetes with real code. YQ YAML processor
 - [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code)
