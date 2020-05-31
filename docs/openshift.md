@@ -597,9 +597,9 @@ oc login
 ### OpenShift 4 Roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) - this link may change](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
-    * This link is now broken. [Grab a copy from here](https://github.com/inafev/awesome-kubernetes/tree/master/pdf)
+    * This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides)](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
-    * This link is now broken. [Grab a copy from here](https://github.com/inafev/awesome-kubernetes/tree/master/pdf) 
+    * This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf) 
 
 ### Kubevirt Virtual Machine Management on Kubernetes
 * [kubevirt.io 🌟](https://kubevirt.io/) 
@@ -853,7 +853,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 - [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/2016/06/28/get-started-with-openshift-origin-3-and-gitlab/)
 
 ### Atlassian Confluence6 
-- [Atlassian Confluence6](https://github.com/inafevwork/confluence6-atlassian)
+- [Atlassian Confluence6](https://github.com/redhatspain/confluence6-atlassian)
 
 ### Sonatype Nexus 3
 - [hub.docker.com/r/sonatype/nexus3/](https://hub.docker.com/r/sonatype/nexus3/)
