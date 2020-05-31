@@ -97,6 +97,7 @@
 - [lintut.com: Monitoring network connection using ss command](http://lintut.com/monitoring-network-connection-using-ss-command/)
 - [Linux networking examples and tutorials for advanced users](https://github.com/knorrie/network-examples) Includes lab examples for lxc, bgp, vpn, & more
 - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands/) VNStat, ping, traceroute, ping, arp, curl and wget, netstat, whois, ssh, tcpdump, ngrep, nmap, netcat, lsof, iptraf
+- [Diferencias entre servidor proxy y servidor proxy inverso](https://www.redeszone.net/tutoriales/servidores/diferencias-proxy-vs-proxy-inverso/)
 
 <center>
 [![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)

@@ -28,7 +28,9 @@
     - [Cluster Autoscaler and DockerHub](#cluster-autoscaler-and-dockerhub)
     - [Cluster Autoscaler in GKE, EKS, AKS and DOKS](#cluster-autoscaler-in-gke-eks-aks-and-doks)
     - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
-- [Other kubernetes tools](#other-kubernetes-tools)
+- [Kubernetes Special Interest Groups (SIGs). Kubernetes Community](#kubernetes-special-interest-groups-sigs-kubernetes-community)
+    - [Kubectl Plugins](#kubectl-plugins)
+        - [Kubectl Plugins and Tools](#kubectl-plugins-and-tools)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
@@ -107,6 +109,7 @@
 - [SpringBoot with Docker](#springboot-with-docker)
 - [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
+- [Kubernetes interview questions](#kubernetes-interview-questions)
 - [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
 - [Videos](#videos)
@@ -163,9 +166,9 @@
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="height:800px"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:50%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 
-[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="height:800px"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:50%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
 </center>
 <br/>
 
@@ -332,7 +335,22 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)
 * [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)
 
-## Other kubernetes tools
+## Kubernetes Special Interest Groups (SIGs). Kubernetes Community
+- [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.
+- [SIG Apps: build apps for and operate them in Kubernetes](https://kubernetes.io/blog/2016/08/sig-apps-running-apps-in-kubernetes/)
+- [Kubernetes SIGs 🌟](https://github.com/kubernetes-sigs)
+
+### Kubectl Plugins 
+* [Available kubectl plugins 🌟](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
+* [Extend kubectl with plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/)
+* [youtube: Welcome to the world of kubectl plugins](https://www.youtube.com/watch?v=_W2qZvQT6XY)
+
+<center>
+<iframe src="https://www.youtube.com/embed/_W2qZvQT6XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br/>
+
+#### Kubectl Plugins and Tools
 * [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
@@ -623,6 +641,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [Amazon EKS Security Best Practices](https://www.stackrox.com/post/2019/09/amazon-eks-security-best-practices/)
 * [thenewstack.io: Install and Configure OpenEBS on Amazon Elastic Kubernetes Service](https://thenewstack.io/tutorial-install-and-configure-openebs-on-amazon-elastic-kubernetes-service/)
 * [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
+* [magalix.com: Deploying Kubernetes Cluster With EKS 🌟](https://www.magalix.com/blog/deploying-kubernetes-cluster-with-eks) Fargate Deployment vs. Linux Workload
 
 ###  Tools for multi-cloud Kubernetes management
 [Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
@@ -840,6 +859,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 <center>
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
 </center>
+
+## Kubernetes interview questions
+- [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)
+- [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers/)
 
 ## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
