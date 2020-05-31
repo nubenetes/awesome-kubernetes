@@ -249,12 +249,16 @@ oc describe pod <POD> | grep openshift.io\/scc
 openshift.io/scc: restricted             
 ``` 
 
+<center>
 ![crunchdydata scc3](images/crunchydata_scc3.png)
+</center>
 
 - **Problem:** Default SCC is “restricted” SCC -> Crunchydata Postgres Cluster PODs are not rolled out
     - ```oc get rs```: 
 
-    ![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
+<center>
+![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
+</center>
 
     - ```oc describe rs mycluster5-lgyb-84b58f5dd9```: Warning **FailedCreate** 3m24s (x17 over 7m30s) **replicaset-controller Error creating: pods "mycluster5-lgyb-84b58f5dd9-" is forbidden: unable to validate against any security context constraint: [fsGroup: Invalid value: []int64{26}: 26 is not an allowed group]**
 
@@ -338,7 +342,7 @@ users:
 
 <center>
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
-<center>
+</center>
 <br/>
 
 ##### Environment setup. Port Forward and WSL
@@ -698,7 +702,6 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 ![crunchdydata operatorhub install13](images/crunchydata_operatorhub_install13.png)
-</center>
 
 ![crunchdydata operatorhub install14](images/crunchydata_operatorhub_install14.png)
 
