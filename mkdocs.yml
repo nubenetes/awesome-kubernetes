@@ -136,5 +136,5 @@ nav:
   - About: about.md
 copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
-#remote_branch: gh-pages 
-#remote_name: origin
+remote_branch: gh-pages 
+remote_name: origin
