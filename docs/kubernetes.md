@@ -166,9 +166,9 @@
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:50%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:60%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
 
-[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:50%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 </center>
 <br/>
 
