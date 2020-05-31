@@ -6,10 +6,11 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow." ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
 
 <center>
-[New site under construction here!](https://www.redhatspain.com)
-
 [![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
 </center>
+<!-- youtube player 
+<div id="player"></div>
+-->
 <!--
 <img alt="Container with cars" src="images/container_with_cars.png"> 
 <head>
@@ -19,7 +20,6 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 <center>
 [![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
 </center>
-<div id="player"></div>
 ---
 
 ## Table of Contents
