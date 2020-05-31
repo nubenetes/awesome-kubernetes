@@ -4,7 +4,7 @@ site_description: A curated list of awesome IT projects and resources. Inspired 
 site_author: inafev
 docs_dir: docs/
 repo_name: inafev/awesome-kubernetes
-repo_url: https://github.com/inafev/awesome-kubernetes
+repo_url: https://github.com/redhatspain/awesome-kubernetes
 theme: 
   name: material 
   prev_next_buttons_location: both
@@ -135,7 +135,7 @@ nav:
   - Other Awesome Lists: other-awesome-lists.md
   - About: about.md
 copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.com/about/">about</a>.
-google_analytics: ['UA-167788447-1', 'awesome kubernetes']
+google_analytics: ['UA-167788447-1', 'redhatspain']
 #remote_branch: gh-pages 
 #remote_name: origin
 extra:
