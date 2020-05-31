@@ -138,3 +138,11 @@ copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unoffic
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
 #remote_branch: gh-pages 
 #remote_name: origin
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/redhatspain
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/1937212/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/inafev
