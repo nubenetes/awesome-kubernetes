@@ -14,5 +14,5 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.12
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          #CUSTOM_DOMAIN: redhatspain.com
+          CUSTOM_DOMAIN: redhatspain.com
 
