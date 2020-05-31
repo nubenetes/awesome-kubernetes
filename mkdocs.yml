@@ -1,10 +1,10 @@
 site_name: Awesome Kubernetes
-site_url: https://redhatspain.github.io
+site_url: https://redhatspain.com
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafev
 docs_dir: docs/
-repo_name: redhatspain/redhatspain.github.io
-repo_url: https://github.com/redhatspain/redhatspain.github.io
+repo_name: inafev/awesome-kubernetes
+repo_url: https://github.com/inafev/awesome-kubernetes
 theme: 
   name: material 
   prev_next_buttons_location: both
@@ -134,7 +134,7 @@ nav:
   - Subreddits: newsfeeds.md
   - Other Awesome Lists: other-awesome-lists.md
   - About: about.md
-copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
+copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.com/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
 #remote_branch: gh-pages 
 #remote_name: origin
