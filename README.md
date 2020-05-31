@@ -6,6 +6,5 @@ Readable content can be reached at:
 
 A new and recommended MKDocs theme is available at:
 - [redhatspain.com](https://redhatspain.com)
-- [redhatspain.github.io](https://redhatspain.github.io/)
 
 
