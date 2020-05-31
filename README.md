@@ -5,7 +5,7 @@ Readable content can be reached at:
 - [awesome-kubernetes.readthedocs.io](https://awesome-kubernetes.readthedocs.io)
 
 A new MKDocs theme is being tested at:
-- [redhatspain.com](https://www.redhatspain.com)
+- [redhatspain.com](https://redhatspain.com)
 - [redhatspain.github.io](https://redhatspain.github.io/)
 
 
