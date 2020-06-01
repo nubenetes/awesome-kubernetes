@@ -6,7 +6,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow." ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
 
 <center>
-This Awesome Kubernetes site with *Material* theme is also available at [redhatspain.com](https://redhatspain.com)
+This Awesome Kubernetes site with *MKDocs Material theme* is also available at [redhatspain.com](https://redhatspain.com)
 
 [![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
 </center>
