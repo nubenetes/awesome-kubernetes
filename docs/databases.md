@@ -256,9 +256,9 @@ openshift.io/scc: restricted
 - **Problem:** Default SCC is “restricted” SCC -> Crunchydata Postgres Cluster PODs are not rolled out
     - ```oc get rs```: 
 
-<center>
-![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
-</center>
+    <center>
+    ![crunchdydata restricted scc](images/crunchydata_restricted_scc.png)
+    </center>
 
     - ```oc describe rs mycluster5-lgyb-84b58f5dd9```: Warning **FailedCreate** 3m24s (x17 over 7m30s) **replicaset-controller Error creating: pods "mycluster5-lgyb-84b58f5dd9-" is forbidden: unable to validate against any security context constraint: [fsGroup: Invalid value: []int64{26}: 26 is not an allowed group]**
 
