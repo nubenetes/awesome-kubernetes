@@ -491,13 +491,13 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Integrated Grafana v5.4.3 (deployed by default): 
 - Monitoring -> Dashboards
 - Project “openshift-monitoring”
-- https://grafana.com/docs/v5.4/ 
+- [grafana.com/docs/v5.4/](https://grafana.com/docs/v5.4/) 
 
 ##### Prometheus
 - Integrated Prometheus v2.7.2 (deployed by default): 
 - Monitoring -> metrics
 - Project “openshift-monitoring”
-- https://prometheus.io/docs/prometheus/2.7/getting_started/ 
+- [prometheus.io/docs/prometheus/2.7/getting_started/](https://prometheus.io/docs/prometheus/2.7/getting_started/) 
 
 ##### Alerts & Silences
 - Integrated Alertmanager 0.16.2 (deployed by default):
@@ -505,7 +505,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
     - Monitoring -> Silences 
     - Silences temporarily mute alerts based on a set of conditions that you define. Notifications are not sent for alerts that meet the given conditions.
 - Project “openshift-monitoring”
-- https://prometheus.io/docs/alerting/alertmanager/
+- [prometheus.io/docs/alerting/alertmanager/](https://prometheus.io/docs/alerting/alertmanager/)
 
 ##### Cluster Logging (EFK)
 - EFK: Elasticsearch + Fluentd + Kibana
@@ -563,7 +563,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay)
 - Open Source [ProjectQuay.io](https://www.projectquay.io/) Container Registry: 
     - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
-    - [github.com/quay](https://github.com/quay]
+    - [github.com/quay](https://github.com/quay)
 
 #### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.
@@ -753,7 +753,7 @@ oc login
 * [OKD.io:](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
 * [blog.openshift.com: Installing OKD 3.10 on a Single Host 🌟](https://blog.openshift.com/installing-okd-3-10-on-a-single-host/)
 * [youtube.com: OpenShift Origin is now OKD. Installation of OKD 3.10 from start to finish](https://www.youtube.com/watch?v=ZkFIozGY0IA)
-* [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.]
+* [Install RedHat OKD 3.10 on your development box:](https://github.com/gshipley/installcentos) This repository is a set of scripts that will allow you easily install the latest version (3.10) of OKD in a single node fashion. What that means is that all of the services required for OKD to function (master, node, etcd, etc.) will all be installed on a single host. The script supports a custom hostname which you can provide using the interactive mode.
 * [docs.okd.io: Planning your installation](https://docs.okd.io/latest/install/)
 
 ### OpenShift 3
