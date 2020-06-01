@@ -95,6 +95,7 @@
 * [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 * [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
 * [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
+* [MapIt](https://github.com/siamaksade/mapit-spring) MapIt is a geo-spatial Spring Boot app which shows the location of AirPorts on the Map using Leaflet.
 
 ### IBM Cloud Pak Playbooks
 * [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/)

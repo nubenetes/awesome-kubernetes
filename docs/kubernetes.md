@@ -10,6 +10,7 @@
     - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
+    - [Debugging with ephemeral containers](#debugging-with-ephemeral-containers)
     - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
     - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
     - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
@@ -21,6 +22,8 @@
     - [Go Client for Kubernetes](#go-client-for-kubernetes)
     - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
+    - [Helm Charts repositories](#helm-charts-repositories)
+    - [Helm Charts](#helm-charts)
 - [Lens Kubernetes IDE](#lens-kubernetes-ide)
 - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
     - [HPA and VPA](#hpa-and-vpa)
@@ -213,6 +216,9 @@
 ### Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
 
+### Debugging with ephemeral containers
+* [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
+
 ### List all resources and sub resources that you can constrain with RBAC
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
 
@@ -284,18 +290,21 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [dzone: do you need helm?](https://dzone.com/articles/do-you-need-helm)
 * [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
 * [codefresh.io: Using Helm 3 with Helm 2 charts](https://codefresh.io/helm-tutorial/taking-helm-3-spin/)
-* Helm Charts:
-    * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
-    * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
-    * [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
-    * [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
-    * [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
-    * [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
-    * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
-    * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
-* Helm Charts repositories:
-    * [hub.helm.sh 🌟](http://hub.helm.sh) 
-    * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+* [banzaicloud.com: Helm 3, the Good, the Bad and the Ugly](https://banzaicloud.com/blog/helm3-the-good-the-bad-and-the-ugly/)
+
+### Helm Charts repositories
+* [hub.helm.sh 🌟](http://hub.helm.sh) 
+* [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+
+### Helm Charts
+* [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
+* [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
+* [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
+* [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)
+* [Sonar](https://github.com/helm/charts/tree/master/stable/sonarqube)
+* [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
+* [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
+* [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
 
 ## Lens Kubernetes IDE
 * [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!

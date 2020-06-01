@@ -37,6 +37,7 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
     - [API Landscape](https://www.apidays.co/api-landscape)
     - [From Java EE To Cloud Native](javaee-to-cloud-native.md)
     - [Microservices FAQ & Kubernetes Native](faq.md)
+    - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
 2. [Site Reliability Engineering (SRE)](sre.md)
 3. [DevOps](devops.md)
     - [Cheat Sheets 🌟](cheatsheets.md)
