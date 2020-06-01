@@ -1,0 +1,141 @@
+site_name: Awesome Kubernetes
+site_url: https://awesome-kubernetes.readthedocs.io/
+site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
+site_author: inafev
+docs_dir: docs/
+repo_name: redhatspain/awesome-kubernetes
+repo_url: https://github.com/redhatspain/awesome-kubernetes
+theme: 
+  name: readthedocs
+  prev_next_buttons_location: both
+  navigation_depth: 4
+  titles_only: False
+  sticky_navigation: True
+extra_css:
+  - static/extra.css
+extra_javascript:
+  - javascript/extra.js
+site_favicon: images/favicon.ico
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - fenced_code
+  - meta
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+      baselevel: 2
+nav:
+- Home: index.md
+- Introduction:
+  - Openshift VS Kubernetes: introduction.md
+  - From Java EE To Cloud Native: javaee-to-cloud-native.md
+  - Microservices FAQ & Kubernetes Native: faq.md
+- Site Reliability Engineering (SRE): sre.md
+- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+- DevOps:
+  - DevOps: devops.md
+  - Cheat Sheets: cheatsheets.md
+  - GitOps: gitops.md
+  - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
+- NoOps: 
+  - NoOps: noops.md
+  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+- FinOps - Cloud Financial Management: finops.md
+- TestOps and Continuous Testing: testops.md
+- Project Management Methodology:
+  - Project Management Methodology: project-management-methodology.md
+  - Work From Home: workfromhome.md
+  - Appointment Scheduling: appointment-scheduling.md
+- Docker: docker.md
+- Kubernetes: 
+  - Kubernetes: kubernetes.md
+  - Kubernetes Matrix Table: matrix-table.md
+  - Kubernetes alternatives: kubernetes-alternatives.md
+- OpenShift: 
+  - OpenShift docs: openshift.md
+- Software Delivery Pipeline: 
+  - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
+  - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
+  - Jenkins & Cloudbees: jenkins.md
+  - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
+  - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
+  - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
+  - Toolchain:
+    - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
+    - Maven & Gradle: maven-gradle.md
+    - SonarQube: sonarqube.md
+    - Nexus & JFrog Artifactory: nexus-jfrog.md
+    - Web Servers - Apache, HAProxy & Nginx: web-servers.md
+    - Payara App Server: payara.md
+    - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
+    - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
+    - Linux & SSH: linux.md
+    - YAML processors: yaml-processors.md
+- Java Memory Management:
+  - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
+  - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
+- Caching Solutions: caching.md
+- Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
+- Configuration Management:
+  - Ansible: ansible.md
+  - Liquibase: liquibase.md
+  - Terraform & Packer: terraform.md
+- Databases on Kubernetes: 
+  - Relational Databases and Database DevOps. CrunchyData Postgres Operator: databases.md
+  - NoSQL Databases: nosql.md
+- Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline): message-queue.md
+- Service Mesh: 
+  - Service Mesh: servicemesh.md
+  - Consul: consul.md
+  - Envoy & xDS protocol: envoyproxy.md
+  - Istio: istio.md
+  - Linkerd: linkerd.md
+  - Maesh: maesh.md
+  - Traffic Director: trafficdirector.md
+- Security and DevSecOps:
+  - DevSecOps. Container Security: devsecops.md
+  - Security Policy as Code: securityascode.md
+- Cloud Native Storage: storage.md
+- APIs:
+  - APIs with SOAP, REST and gRPC: api.md
+  - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
+  - API Test Automation with Postman: postman.md
+  - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
+- Development & Frameworks:
+  - Angular: angular.md
+  - Document Object Model (DOM): dom.md
+  - Java - Spring Framework: SpringFramework.md
+  - Java - SpringBoot: SpringBoot.md
+  - Java - Spring Cloud: SpringCloud.md
+  - Java - Quarkus: quarkus.md
+  - JavaScript - node.js & npm: javascript.md
+  - Python - Django & Flask: python.md
+  - Xamarin: xamarin.md
+- Dev Environment:
+  - Visual Studio Code: visual-studio.md
+  - WSL - Linux Dev Environment on Windows: linux-dev-env.md
+  - Scaffolding Tools: scaffolding.md
+  - ChromeDevTools: ChromeDevTools.md
+- Public Cloud: 
+  - Public Cloud Solutions: public-cloud-solutions.md
+  - Edge Computing: edge-computing.md
+  - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
+  - AWS: aws.md
+  - Google Cloud Platform: GoogleCloudPlatform.md
+  - Microsoft Azure: azure.md
+  - IBM Cloud: ibm_cloud.md
+  - Oracle Cloud: oraclecloud.md
+  - Digital Ocean: digitalocean.md
+  - Cloudflare: cloudflare.md
+- E-Learning: elearning.md
+- Customer Success Stories: customer.md
+- Subreddits: newsfeeds.md
+- Other Awesome Lists: other-awesome-lists.md
+- About: about.md
+
+copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
+google_analytics: ['UA-167788447-1', 'awesome kubernetes']
+remote_branch: mkdocs-readthedocs 
+remote_name: origin
