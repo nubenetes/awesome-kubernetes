@@ -2,7 +2,7 @@
 A curated list of awesome references collected in 2018.
 
 Readable content can be reached at:
-- [awesome-kubernetes.readthedocs.io](https://awesome-kubernetes.readthedocs.io) (deprecated)
+- [awesome-kubernetes.readthedocs.io](https://awesome-kubernetes.readthedocs.io) 
 
-Since 31st May 2020 the above URL/Site is deprecated. A **new github pages site** with "MKDocs Material" theme is available at:
+A **new github pages site** with "MKDocs Material" theme and with the same content is available at:
 - [redhatspain.com 🌟](https://redhatspain.com)
