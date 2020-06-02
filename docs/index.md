@@ -9,8 +9,6 @@ This [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Mate
 <center>
 [![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
 
-[![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
-
 [![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
 </center>
 <!-- youtube player 

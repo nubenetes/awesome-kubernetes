@@ -223,9 +223,9 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 * [OpenShift End-to-End: Plan and Deploy 🌟🌟](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 
 <center>
-[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
-
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
+
+[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 </center>
 
 ### OCP 4 Overview
