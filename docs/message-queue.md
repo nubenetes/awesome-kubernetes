@@ -7,6 +7,7 @@
     - [Apache Camel message broker](#apache-camel-message-broker)
         - [Apache Camel K](#apache-camel-k)
     - [KubeMQ message broker](#kubemq-message-broker)
+    - [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
 - [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
     - [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
     - [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
@@ -57,6 +58,10 @@
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
 - [kubemq.io: Kafka VS KubeMQ 🌟](https://kubemq.io/kafka-vs-kubemq/)
+
+### Google Cloud Platform Pub/Sub
+- [Google Cloud Platform Pub/Sub](https://cloud.google.com/pubsub/docs/overview)
+- [A generic framework of concurrent consumers for Google Cloud Platform Pub/Sub 🌟](https://towardsdatascience.com/a-python-implementation-of-concurrent-consumers-for-google-cloud-platform-pub-sub-991ae8b9841d) An example shows how to publish messages to Pub/Sub and build a service to consume the messages concurrently using the Python multiprocessing module
 
 ## Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions 
 - [Wikipedia: Cloud Based Integration (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)

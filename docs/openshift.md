@@ -220,8 +220,13 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟](https://blog.openshift.com/500_pods_per_node/)
 * [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 * [devclass.com: OpenShift 4.4 goes all out on mixed workloads, puts observability at devs’ fingertips 🌟](https://devclass.com/2020/05/04/openshift-4-4-goes-all-out-on-mixed-workloads-puts-observability-at-devs-fingertips/)
+* [OpenShift End-to-End: Plan and Deploy 🌟🌟](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 
+<center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+
+[![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
+</center>
 
 ### OCP 4 Overview
 - Result of RedHat’s (now IBM) acquisition of CoreOS -> [RHCOS](https://docs.openshift.com/container-platform/4.4/architecture/architecture-rhcos.html) (Red Hat Enterprise Linux CoreOS)
@@ -742,9 +747,12 @@ oc login
 * [Portfolio Architecture WorkShops🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
 * [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/)
 * [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
+* [schabell.org: Cloud-native development - On local containers](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
 
 <center>
 [![Cloud-native development](images/cloud-native-development-ld.png)](https://dzone.com/articles/cloud-native-development-a-blueprint)
+
+[![Cloud-native development container runtimes](images/cloud-native-development-local-containers-runtimes-sd.png)](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
 </center>
 <br/>
 

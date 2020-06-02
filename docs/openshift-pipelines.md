@@ -106,6 +106,7 @@
 
 #### Jenkins Pipelines in OpenShift 4
 * [developers.redhat.com - Get started with Jenkins CI/CD in Red Hat OpenShift 4](https://developers.redhat.com/blog/2019/05/02/get-started-with-jenkins-ci-cd-in-red-hat-openshift-4/)
+* [Simply Explained: OpenShift and Jenkins Pipelines](https://www.openshift.com/blog/jenkins-pipelines)
 
 ### OpenShift Pipelines (aka Tekton CI/CD Pipelines)
 * [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
