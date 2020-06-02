@@ -15,7 +15,7 @@
     - [Jenkins CICD Getting started with Groovy and Docker Containers](#jenkins-cicd-getting-started-with-groovy-and-docker-containers)
     - [Fabric8 Pipeline Library](#fabric8-pipeline-library)
     - [Jenkins Pipelines with OpenShift 3](#jenkins-pipelines-with-openshift-3)
-    - [OpenShift Jenkins Pipeline (DSL) Plugin](#openshift-jenkins-pipeline-dsl-plugin)
+    - [OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#openshift-jenkins-pipeline-dsl-plugin-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
         - [Red Hat Communities of Practice](#red-hat-communities-of-practice)
         - [Jenkins Pipelines in OpenShift 4](#jenkins-pipelines-in-openshift-4)
     - [OpenShift Pipelines (aka Tekton CI/CD Pipelines)](#openshift-pipelines-aka-tekton-cicd-pipelines)
@@ -89,13 +89,12 @@
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)
 * [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
 
-### OpenShift Jenkins Pipeline (DSL) Plugin
+### OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax
 * [Building Declarative Pipelines with OpenShift DSL Plugin 🌟🌟](https://www.openshift.com/blog/building-declarative-pipelines-openshift-dsl-plugin):
     * [Jenkins Pipeline Syntax: Scripted Syntax (Groovy DSL syntax) & Declarative Syntax 🌟](https://www.jenkins.io/doc/book/pipeline/syntax/) Declarative Pipeline is a relatively recent addition to Jenkins Pipeline **(Version 2.5 of the "Pipeline plugin" introduces support for Declarative Pipeline syntax)** which presents a more simplified and opinionated syntax on top of the Pipeline sub-systems.
     * **Jenkinsfiles have only become an integral part of Jenkins since version 2** but they have quickly become the de-facto standard for building continuous delivery pipelines with Jenkins. **Jenkinsfile allows defining pipelines as code using a Groovy DSL syntax** and checking it into source version control which allows you to track, review, audit, and manage the lifecycle of changes to the continuous delivery pipelines the same way that you manage the source code of your application. 
     * Although the **Groovy DSL syntax which is referred to as the scripted syntax** is the more well-known and established syntax for building Jenkins pipelines and **was the default when Jenkins 2 was released**, support for a **newer declarative syntax is also added since Jenkins 2.5** in order to offer a simplified way for controlling all aspects of the pipeline. Although the scripted and declarative syntax provides two ways to define your pipeline, they both translate to the same execution blocks in Jenkins and achieve the same result. 
     * The declarative syntax in its simplest form is composed of an agent which defines the Jenkins slave to be used for executing the pipeline and a number of stages and each stage with a number of steps to be performed. 
-* [blog.openshift.com - Building Declarative Pipelines with OpenShift DSL Plugin](https://blog.openshift.com/building-declarative-pipelines-openshift-dsl-plugin/)
 * [Dzone - Continuous Delivery with OpenShift and Jenkins: A/B Testing 🌟](https://dzone.com/articles/continuous-delivery-with-openshift-and-jenkins-ab)
 * [docs.openshift.com: OpenShift 3.11 Pipeline Builds with OpenShift Jenkins Image and OpenShift DSL](https://docs.openshift.com/container-platform/3.11/dev_guide/dev_tutorials/openshift_pipeline.html)
 
