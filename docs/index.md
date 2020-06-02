@@ -7,9 +7,11 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 
 This [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Material for MKDocs theme* is also available at [redhatspain.com](https://redhatspain.com)
 <center>
+[![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
+
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 
-[![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
+[![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
 </center>
 <!-- youtube player 
 <div id="player"></div>
@@ -20,9 +22,6 @@ This [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Mate
 <meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
 </head>
 -->
-<center>
-[![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
-</center>
 ---
 
 ## Table of Contents
