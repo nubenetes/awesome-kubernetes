@@ -62,6 +62,7 @@ This [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Mate
 10.  [OpenShift 🌟](openshift.md)
     - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
     - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
+    - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
 11.  Software Delivery Pipeline
     - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
     - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
