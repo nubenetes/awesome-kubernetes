@@ -1,11 +1,11 @@
 # Awesome Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome references collected since 2018.
-Microservices architectures rely on DevOps practices, automation, CI/CD (continuous integration and delivery), and API-focused designs.
+A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
 
-"I do not believe you can do today's job with yesterday's methods and be in business tomorrow." ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
+[Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Material theme* available at [redhatspain.com](https://redhatspain.com)
 
-This [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Material for MKDocs theme* is also available at [redhatspain.com](https://redhatspain.com)
+"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
+
 <center>
 [![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV)
 
