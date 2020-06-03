@@ -55,6 +55,8 @@ nav:
     - Kubernetes alternatives: kubernetes-alternatives.md
   - OpenShift: 
     - OpenShift docs: openshift.md
+    - OCP 3: ocp3.md
+    - OCP 4: ocp4.md
   - Software Delivery Pipeline: 
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
