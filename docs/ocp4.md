@@ -1,52 +1,53 @@
 # OCP 4
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
-    - [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
-    - [OCP 4 Overview](#ocp-4-overview)
-        - [Three New Functionalities](#three-new-functionalities)
-        - [New Technical Components](#new-technical-components)
-        - [Installation & Cluster Autoscaler](#installation--cluster-autoscaler)
-            - [IPI & UPI](#ipi--upi)
-        - [Cluster Autoscaler Operator](#cluster-autoscaler-operator)
-        - [Operators](#operators)
-            - [Introduction](#introduction)
-            - [Catalog](#catalog)
-            - [Certified Opeators, OLM Operators and Red Hat Operators](#certified-opeators-olm-operators-and-red-hat-operators)
-            - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](#deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators)
-            - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
-                - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
-                - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
-            - [Cluster Network Operator (CNO) & Routers](#cluster-network-operator-cno--routers)
-            - [ServiceMesh Operator](#servicemesh-operator)
-            - [Serverless Operator (Knative)](#serverless-operator-knative)
-            - [Crossplane Operator (Universal Control Plane API for Cloud Computing)](#crossplane-operator-universal-control-plane-api-for-cloud-computing)
-        - [Monitoring & Observability](#monitoring--observability)
-            - [Grafana](#grafana)
-            - [Prometheus](#prometheus)
-            - [Alerts & Silences](#alerts--silences)
-            - [Cluster Logging (EFK)](#cluster-logging-efk)
-        - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
-        - [Registry & Quay](#registry--quay)
-        - [Local Development Environment](#local-development-environment)
-    - [OpenShift Youtube](#openshift-youtube)
-    - [OpenShift 4 Training](#openshift-4-training)
-    - [OpenShift 4 Roadmap](#openshift-4-roadmap)
-    - [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
-    - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
-    - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
-    - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
-    - [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
-    - [OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers](#openshift-hive-cluster-as-a-service-easily-provision-new-paas-environments-for-developers)
-    - [OpenShift 4 Master API Protection in Public Cloud](#openshift-4-master-api-protection-in-public-cloud)
-    - [Backup and Migrate to OpenShift 4](#backup-and-migrate-to-openshift-4)
-    - [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
-    - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
-    - [Helm Charts and OpenShift 4](#helm-charts-and-openshift-4)
-    - [Red Hat Marketplace](#red-hat-marketplace)
-    - [Kubestone. Benchmarking Operator for K8s and OpenShift](#kubestone-benchmarking-operator-for-k8s-and-openshift)
-    - [OpenShift Cost Management](#openshift-cost-management)
-    - [Operators in OCP 4](#operators-in-ocp-4)
-    - [Quay Container Registry](#quay-container-registry)
-    - [OpenShift Topology View](#openshift-topology-view)
+- [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
+- [OCP 4 Overview](#ocp-4-overview)
+    - [Three New Functionalities](#three-new-functionalities)
+    - [New Technical Components](#new-technical-components)
+    - [Installation & Cluster Autoscaler](#installation--cluster-autoscaler)
+        - [IPI & UPI](#ipi--upi)
+    - [Cluster Autoscaler Operator](#cluster-autoscaler-operator)
+    - [Operators](#operators)
+        - [Introduction](#introduction)
+        - [Catalog](#catalog)
+        - [Certified Opeators, OLM Operators and Red Hat Operators](#certified-opeators-olm-operators-and-red-hat-operators)
+        - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](#deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators)
+        - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
+            - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
+            - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
+        - [Cluster Network Operator (CNO) & Routers](#cluster-network-operator-cno--routers)
+        - [ServiceMesh Operator](#servicemesh-operator)
+        - [Serverless Operator (Knative)](#serverless-operator-knative)
+        - [Crossplane Operator (Universal Control Plane API for Cloud Computing)](#crossplane-operator-universal-control-plane-api-for-cloud-computing)
+    - [Monitoring & Observability](#monitoring--observability)
+        - [Grafana](#grafana)
+        - [Prometheus](#prometheus)
+        - [Alerts & Silences](#alerts--silences)
+        - [Cluster Logging (EFK)](#cluster-logging-efk)
+    - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
+    - [Registry & Quay](#registry--quay)
+    - [Local Development Environment](#local-development-environment)
+- [OpenShift Youtube](#openshift-youtube)
+- [OpenShift 4 Training](#openshift-4-training)
+- [OpenShift 4 Roadmap](#openshift-4-roadmap)
+- [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
+- [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
+- [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
+- [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
+- [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
+- [OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers](#openshift-hive-cluster-as-a-service-easily-provision-new-paas-environments-for-developers)
+- [OpenShift 4 Master API Protection in Public Cloud](#openshift-4-master-api-protection-in-public-cloud)
+- [Backup and Migrate to OpenShift 4](#backup-and-migrate-to-openshift-4)
+- [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
+- [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
+- [Helm Charts and OpenShift 4](#helm-charts-and-openshift-4)
+- [Red Hat Marketplace](#red-hat-marketplace)
+- [Kubestone. Benchmarking Operator for K8s and OpenShift](#kubestone-benchmarking-operator-for-k8s-and-openshift)
+- [OpenShift Cost Management](#openshift-cost-management)
+- [Operators in OCP 4](#operators-in-ocp-4)
+- [Quay Container Registry](#quay-container-registry)
+- [OpenShift Topology View](#openshift-topology-view)
+- [Slides](#slides)
 
 ## OpenShift Container Platform 4 (OCP 4)
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
@@ -67,7 +68,7 @@
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 </center>
 
-### OpenShift End-to-End. Day 0, Day 1 & Day 2
+## OpenShift End-to-End. Day 0, Day 1 & Day 2
 * [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 * [OpenShift End-to-End: **Day 1** - Core Services](https://www.openshift.com/blog/openshift-end-to-end-core-services)
 * [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -76,7 +77,7 @@
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 </center>
 
-### OCP 4 Overview
+## OCP 4 Overview
 - Result of RedHat’s (now IBM) acquisition of CoreOS -> [RHCOS](https://docs.openshift.com/container-platform/4.4/architecture/architecture-rhcos.html) (Red Hat Enterprise Linux CoreOS)
 - Merge of two leading Kubernetes distributions, Tectonic and OpenShift:
     - **CoreOS Tectonic**:
@@ -96,7 +97,7 @@
 </center>
 <br/>
 
-#### Three New Functionalities
+### Three New Functionalities
 1. Self-Managing Platform
 2. Application Lifecycle Management ([OLM](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html)):
     - **OLM Operator**:
@@ -112,7 +113,7 @@
 </center>
 <br/>
 
-#### New Technical Components
+### New Technical Components
 - **[New Installer](https://cloud.redhat.com/openshift/install):**
     - [try.openshift.com](https://try.openshift.com/)
     - [github.com/openshift/installer](https://github.com/openshift/installer)
@@ -152,7 +153,7 @@
             - manages multiple node pools (e.g. pool for testing, pool for machine learning with GPU attached, etc)
 - **Everything “just another pod”**
 
-#### Installation & Cluster Autoscaler
+### Installation & Cluster Autoscaler
 - New installer openshift-install tool, replacement for the old Ansible scripts.  
 - 40 min (AWS). Terraform.
 - 2 installation patterns:
@@ -167,7 +168,7 @@
 </center>
 <br/>
 
-##### IPI & UPI
+#### IPI & UPI
 - 2 installation patterns:
     1. **Installer Provisioned Infrastructure (IPI):** On supported platforms, the installer is capable of provisioning the underlying infrastructure for the cluster. The installer programmatically creates all portions of the networking, machines, and operating systems required to support the cluster. Think of it as best-practice reference architecture implemented in code.  It is recommended that most users make use of this functionality to avoid having to provision their own infrastructure.  The installer will create and destroy the infrastructure components it needs to be successful over the life of the cluster.
     2. **User Provisioned Infrastructure (UPI):** For other platforms or in scenarios where installer provisioned infrastructure would be incompatible, the installer can stop short of creating the infrastructure, and allow the platform administrator to provision their own using the cluster assets generated by the install tool. Once the infrastructure has been created, OpenShift 4 is installed, maintaining its ability to support automated operations and over-the-air platform updates.
@@ -179,7 +180,7 @@
 </center>
 <br/>
 
-#### Cluster Autoscaler Operator
+### Cluster Autoscaler Operator
 - Adjusts the size of an OpenShift Container Platform cluster to meet its current deployment needs. It uses declarative, Kubernetes-style arguments
 - Increases the size of the cluster when there are pods that failed to schedule on any of the current nodes due to insufficient resources or when another node is necessary to meet deployment needs. The ClusterAutoscaler does not increase the cluster resources beyond the limits that you specify.
 - A huge improvement over the manual, error-prone process used in the previous version of OpenShift and RHEL nodes.
@@ -189,8 +190,8 @@
 </center>
 <br/>
 
-#### Operators
-##### Introduction
+### Operators
+#### Introduction
 - Core of the platform
 - The hierarchy of operators, with clusterversion at the top, is the single door for configuration changes and is responsible for reconciling the system to the desired state.
 - For example, if you break a critical cluster resource directly, the system automatically recovers itself. 
@@ -217,7 +218,7 @@ etcd 14h myoperator 14h
 </center>
 <br/>
 
-##### Catalog
+#### Catalog
 - Developer Catalog
 - Installed Operators
 - OperatorHub (OLM)
@@ -230,7 +231,7 @@ etcd 14h myoperator 14h
 </center>
 <br/>
 
-##### Certified Opeators, OLM Operators and Red Hat Operators
+#### Certified Opeators, OLM Operators and Red Hat Operators
 - **Certified Operators** packaged by Certified:
     - Not provided by Red Hat 
     - Supported by Red Hat
@@ -250,15 +251,15 @@ etcd 14h myoperator 14h
 </center>
 <br/>
 
-##### Deploy and bind enterprise-grade microservices with Kubernetes Operators
+#### Deploy and bind enterprise-grade microservices with Kubernetes Operators
 - [Deploy and bind enterprise-grade microservices with Kubernetes Operators](https://developers.redhat.com/blog/2020/05/18/deploy-and-bind-enterprise-grade-microservices-with-kubernetes-operators/)
 
-##### OpenShift Container Storage Operator (OCS)
-###### OCS 3 (OpenShift 3)
+#### OpenShift Container Storage Operator (OCS)
+##### OCS 3 (OpenShift 3)
 - OpenShift Container Storage based on [GlusterFS](https://www.gluster.org/) technology.
 - Not OpenShift 4 compliant: Migration tooling will be available to facilitate the move to OCS 4.x (OpenShift Gluster APP Mitration Tool).
 
-###### OCS 4 (OpenShift 4)
+##### OCS 4 (OpenShift 4)
 - **OCS Operator** based on Rook.io with Operator LifeCycle Manager (OLM).
 - Tech Stack:
     - [Rook](https://rook.io) (don't confuse this with non-redhat ["Rook Ceph"](https://operatorhub.io/operator/rook-ceph) -> [RH ref](https://www.redhat.com/en/blog/rook-ceph-storage-operator-now-operatorhubio)).
@@ -279,7 +280,7 @@ etcd 14h myoperator 14h
 </center>
 <br/>
 
-##### Cluster Network Operator (CNO) & Routers
+#### Cluster Network Operator (CNO) & Routers
 - Cluster Network Operator (CNO): The cluster network is now configured and managed by an Operator. The Operator upgrades and monitors the cluster network.
 - [Router plug-ins in OCP3:](https://docs.openshift.com/container-platform/3.11/install_config/router/index.html)
     - A « route » is the external entrypoint to a [Kubernetes Service](https://kubernetes.io/docs/concepts/services-networking/service/). This is one of the biggest differences between [Kubernetes](https://kubernetes.io/) and [OpenShift Enterprise (= OCP)](https://www.openshift.com/) and [origin](https://www.okd.io/). 
@@ -306,7 +307,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 ```
 <br/>
 
-##### ServiceMesh Operator 
+#### ServiceMesh Operator 
 - ServiceMesh: [Istio](https://istio.io/) + [kiali](https://kiali.io/) + [Jaeger](https://www.jaegertracing.io/)
 - ServiceMesh Community Edition: [github.com/maistra/istio](https://github.com/maistra/istio)
     - Red Hat community installer compliant with OCP 4.1: [maistra.io/docs/getting_started/install](https://maistra.io/docs/getting_started/install)
@@ -329,30 +330,30 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 </center>
 <br/>
 
-##### Serverless Operator (Knative) 
+#### Serverless Operator (Knative) 
 - Operator install on OperatorHub.io
 - Knative Eventing (Camel-K, Kafka, Cron, etc)
 - Integration with Openshift ServiceMesh, Logging, Monitoring.
 - [openshift.com/learn/topics/serverless](https://www.openshift.com/learn/topics/serverless)
 - [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)  
 
-##### Crossplane Operator (Universal Control Plane API for Cloud Computing)
+#### Crossplane Operator (Universal Control Plane API for Cloud Computing)
 - [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
 
-#### Monitoring & Observability
-##### Grafana
+### Monitoring & Observability
+#### Grafana
 - Integrated Grafana v5.4.3 (deployed by default): 
 - Monitoring -> Dashboards
 - Project “openshift-monitoring”
 - [grafana.com/docs/v5.4/](https://grafana.com/docs/v5.4/) 
 
-##### Prometheus
+#### Prometheus
 - Integrated Prometheus v2.7.2 (deployed by default): 
 - Monitoring -> metrics
 - Project “openshift-monitoring”
 - [prometheus.io/docs/prometheus/2.7/getting_started/](https://prometheus.io/docs/prometheus/2.7/getting_started/) 
 
-##### Alerts & Silences
+#### Alerts & Silences
 - Integrated Alertmanager 0.16.2 (deployed by default):
     - Monitoring -> Alerts
     - Monitoring -> Silences 
@@ -360,7 +361,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Project “openshift-monitoring”
 - [prometheus.io/docs/alerting/alertmanager/](https://prometheus.io/docs/alerting/alertmanager/)
 
-##### Cluster Logging (EFK)
+#### Cluster Logging (EFK)
 - EFK: Elasticsearch + Fluentd + Kibana
 - Cluster Logging EFK **not deployed by default**
 - As an OpenShift Container Platform cluster administrator, you can deploy cluster logging to aggregate logs for a range of OpenShift Container Platform services.
@@ -379,7 +380,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 
 <br/>
 
-#### Build Images. Next-Generation Container Image Building Tools
+### Build Images. Next-Generation Container Image Building Tools
 - Redesign of how images are built on the platform.
 - Instead of relying on a daemon on the host to manage containers, image creation, and image pushing, we are leveraging [Buildah](https://buildah.io/) running inside our build pods.
 - This aligns with the general OpenShift 4 theme of making everything “just another pod”
@@ -397,7 +398,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 </center>
 <br/>
 
-#### Registry & Quay
+### Registry & Quay
 - A Docker registry is a place to store and distribute Docker images.
 - It serves as a target for your docker push and docker pull commands.
 - [Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/)
@@ -418,7 +419,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
     - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
     - [github.com/quay](https://github.com/quay)
 
-#### Local Development Environment
+### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.
 - Openshift 4 on your laptop: There is a working solution for single node OpenShift cluster. It is provided by a new project called [CodeReady Containers](https://github.com/code-ready/crc/).
 - [Procedure:](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
@@ -434,7 +435,7 @@ oc login
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 <br/>
 
-### OpenShift Youtube
+## OpenShift Youtube
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
 * [youtube: Installing OpenShift 4 on AWS with operatorhub.io integration 🌟](https://www.youtube.com/watch?v=kQJxGtsqphk)
 * [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
@@ -442,59 +443,59 @@ oc login
 * [youtube: Getting Started with OpenShift 4 Security 🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
 * [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem. 
 
-### OpenShift 4 Training
+## OpenShift 4 Training
 * [github.com: Openshift 4 training](https://github.com/openshift/training)
 * [learn.openshift.com](https://learn.openshift.com/)
 * [learn.crunchydata.com](https://learn.crunchydata.com/)
 
-### OpenShift 4 Roadmap
+## OpenShift 4 Roadmap
 * [blog.openshift.com: OpenShift 4 Roadmap (slides) - this link may change](https://assets.openshift.com/hubfs/Commons-London-OpenShift-Container-Platform-4.3-Roadmap.pdf)
 * [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
     * This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
 * [blog.openshift.com: OpenShift 4 Roadmap Update (slides)](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
     * This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf) 
 
-### Kubevirt Virtual Machine Management on Kubernetes
+## Kubevirt Virtual Machine Management on Kubernetes
 * [kubevirt.io 🌟](https://kubevirt.io/) 
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 
-### Storage in OCP 4. OpenShift Container Storage (OCS)
+## Storage in OCP 4. OpenShift Container Storage (OCS)
 - [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
   
-### Red Hat Advanced Cluster Management for Kubernetes
+## Red Hat Advanced Cluster Management for Kubernetes
 - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 
-### OpenShift Kubernetes Engine (OKE)
+## OpenShift Kubernetes Engine (OKE)
 * [Similarities and differences between OpenShift Kubernetes Engine and OpenShift Container Platform](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
 [![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
-### Red Hat CodeReady Containers. OpenShift 4 on your laptop
+## Red Hat CodeReady Containers. OpenShift 4 on your laptop
 * [developers.redhat.com: Developing applications on Kubernetes 🌟](https://developers.redhat.com/topics/kubernetes/)
 * [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 * [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
 * [Overview: running crc on a remote server](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
 * [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 
-### OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers
+## OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers
 * **OpenShift Hive** is an operator which enables operations teams to easily provision new PaaSenvironments for developers improving productivity and reducing process burden due to internalIT regulations.
 * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.comopenshift-hive-cluster-as-a-service/)
 * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_NOrGxfH5Y)
 
-### OpenShift 4 Master API Protection in Public Cloud
+## OpenShift 4 Master API Protection in Public Cloud
 * [blog.openshift.com: Introducing Red Hat OpenShift 4.3 to Enhance Kubernetes Security 🌟](https://blog.openshift.com/introducing-red-hat-openshift-4-3-to-enhance-kubernetes-security/) OpenShift 4.3 adds new capabilities and platforms to the installer, helping customers to embrace their company’s best security practices and gain greater access control across hybrid cloud environments. Customers can deploy OpenShift clusters to customer-managed, pre-existing VPN / VPC (Virtual Private Network / Virtual Private Cloud) and subnets on AWS, Microsoft Azure and Google Cloud Platform. They can also install OpenShift clusters with private facing load balancer endpoints, not publicly accessible from the Internet, on AWS, Azure and GCP.
 * [containerjournal.com: Red Hat Delivers Latest Kubernetes Enhancements](https://containerjournal.com/topics/container-management/red-hat-delivers-latest-kubernetes-enhancements/)
 * [Create an OpenShift 4.2 Private Cluster in AWS 🌟](https://access.redhat.com/solutions/4363731)
 * [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
 * [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 
-### Backup and Migrate to OpenShift 4 
+## Backup and Migrate to OpenShift 4 
 * [blog.openshift.com: Migrating your applications to OpenShift 4 🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
     * [**Velero**](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
     * [**Restic**](https://restic.net/) Backups done right!
 
-### OKD4. OpenShift 4 without enterprise-level support
+## OKD4. OpenShift 4 without enterprise-level support
 * [OKD.io:](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift.
 * [docs.okd.io 🌟](https://docs.okd.io/)
 * [GitHub: OKD4](https://github.com/openshift/okd/blob/master/README.md)
@@ -506,32 +507,32 @@ oc login
 * [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup/) Installing OKD4.X with User Provisioned Infrastructure. Libvirt, iPXE, and FCOS
 * [redhat.com: How to run a Kubernetes cluster on your laptop 🌟](https://www.redhat.com/sysadmin/kubernetes-cluster-laptop) Want containers? Learn how to set up and run a Kubernetes container cluster on your laptop with OKD.
 
-### OpenShift Serverless with Knative
+## OpenShift Serverless with Knative
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
 * [developers.redhat.com: **Serverless Architecture**](https://developers.redhat.com/topics/serverless-architecture/)
 * [datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants](https://www.datacenterknowledge.com/open-source/explaining-knative-project-liberate-serverless-cloud-giants)
 * [Announcing OpenShift Serverless 1.5.0 Tech Preview – A sneak peek of our GA](https://blog.openshift.com/announcing-openshift-serverless-1-5-0-tech-preview-a-sneak-peek-of-our-ga/)
 * [Serverless applications made faster and simpler with **OpenShift Serverless GA**](https://developers.redhat.com/blog/2020/04/30/serverless-applications-made-faster-and-simpler-with-openshift-serverless-ga/)
 
-### Helm Charts and OpenShift 4
+## Helm Charts and OpenShift 4
 * [The supported method of using Helm charts with Openshift4 is via the Helm Operator](https://blog.openshift.combuild-kubernetes-operators-from-helm-charts-in-5-steps/)
 * [youtube](https://www.youtube.com/watch?v=6NM6sqXIsoA)
 * [blog.openshift.com: Helm and Operators on OpenShift, Part 1](https://blog.openshift.comhelm-and-operators-on-openshift-part-1/)
 * [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.comhelm-and-operators-on-openshift-part-2/)
 
-### Red Hat Marketplace
+## Red Hat Marketplace
 * [marketplace.redhat.com 🌟](https://marketplace.redhat.com/)
 * [developers.redhat.com: Building Kubernetes applications on OpenShift with Red Hat Marketplace](https://developers.redhat.com/blog/2020/04/27/building-kubernetes-applications-on-openshift-with-red-hat-marketplace/)
 
-### Kubestone. Benchmarking Operator for K8s and OpenShift
+## Kubestone. Benchmarking Operator for K8s and OpenShift
 * [kubestone.io](https://kubestone.io)
 * [operatorhub.io: kubestone](https://operatorhub.io/operator/kubestone)
 
-### OpenShift Cost Management 
+## OpenShift Cost Management 
 * [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure 🌟](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 * [Cost Management and OpenShift - Sergio Ocón-Cárdenas (Red Hat) 🌟](https://www.openshift.com/blog/cost-management-and-openshift-sergio-oc%C3%B3n-c%C3%A1rdenas-red-hat)
 
-### Operators in OCP 4
+## Operators in OCP 4
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
     - [OLM Architecture 🌟](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
     - [OLM Philosophy](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/philosophy.md)
@@ -540,7 +541,7 @@ oc login
 - [learn.crunchydata.com](https://learn.crunchydata.com/) 
 - [developers.redhat.com: Operator pattern: REST API for Kubernetes and Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/01/22/operator-pattern-rest-api-for-kubernetes-and-red-hat-openshift/)
 
-### Quay Container Registry
+## Quay Container Registry
 * [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry)
 * [Red Hat Quay](https://www.openshift.com/products/quay)
 * [projectquay.io](https://www.projectquay.io/)
@@ -549,5 +550,16 @@ oc login
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
 
-### OpenShift Topology View
+## OpenShift Topology View
 - [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)
+
+## Slides
+
+<center>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qc1rIHqvXuiuzj" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/KangarootLinux/openshift-4-the-smarter-kubernetes-platform" title="OpenShift 4, the smarter Kubernetes platform" target="_blank">OpenShift 4, the smarter Kubernetes platform</a> </strong> from <strong><a href="https://www.slideshare.net/KangarootLinux" target="_blank">Kangaroot</a></strong> </div>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/ko4KgmpBYmqhyf" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/wintonjkt/open-shift-4-infra-deep-dive" title="Open shift 4 infra deep dive" target="_blank">Open shift 4 infra deep dive</a> </strong> from <strong><a href="https://www.slideshare.net/wintonjkt" target="_blank">Winton Winton</a></strong> </div>
+
+<script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+<br/>

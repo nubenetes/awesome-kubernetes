@@ -32,8 +32,6 @@
 - [OpenShift on AWS](#openshift-on-aws)
 - [OpenShift Dedicated](#openshift-dedicated)
 - [Other Awesome Lists](#other-awesome-lists)
-- [Videos](#videos)
-- [Slides](#slides)
 
 ## OpenShift  
 * [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)
@@ -256,26 +254,5 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 * [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 * [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
 
-## Videos
 
-<center>
-<iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/qaIROwHUm54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/Rj0We91ec9Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/B0bziEVHyqg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/mgR0BspLr1w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/_zDDAwLctUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/WwQ62OyCNz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
-<br/>
 
-## Slides
-
-<center>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/qc1rIHqvXuiuzj" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/KangarootLinux/openshift-4-the-smarter-kubernetes-platform" title="OpenShift 4, the smarter Kubernetes platform" target="_blank">OpenShift 4, the smarter Kubernetes platform</a> </strong> from <strong><a href="https://www.slideshare.net/KangarootLinux" target="_blank">Kangaroot</a></strong> </div>
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ko4KgmpBYmqhyf" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/wintonjkt/open-shift-4-infra-deep-dive" title="Open shift 4 infra deep dive" target="_blank">Open shift 4 infra deep dive</a> </strong> from <strong><a href="https://www.slideshare.net/wintonjkt" target="_blank">Winton Winton</a></strong> </div>
-
-<script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-</center>
-<br/>
