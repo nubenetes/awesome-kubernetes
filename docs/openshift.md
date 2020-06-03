@@ -15,6 +15,7 @@
     - [Quota Management](#quota-management)
     - [Source-to-Image (S2I) Image Building Tools](#source-to-image-s2i-image-building-tools)
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
+    - [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
     - [OCP 4 Overview](#ocp-4-overview)
         - [Three New Functionalities](#three-new-functionalities)
         - [New Technical Components](#new-technical-components)
@@ -221,12 +222,18 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟](https://blog.openshift.com/500_pods_per_node/)
 * [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 * [devclass.com: OpenShift 4.4 goes all out on mixed workloads, puts observability at devs’ fingertips 🌟](https://devclass.com/2020/05/04/openshift-4-4-goes-all-out-on-mixed-workloads-puts-observability-at-devs-fingertips/)
-* [OpenShift End-to-End: Plan and Deploy 🌟🌟](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
+
+<center>
+[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+</center>
+
+### OpenShift End-to-End. Day 0, Day 1 & Day 2
+* [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
+* [OpenShift End-to-End: **Day 1** - Core Services](https://www.openshift.com/blog/openshift-end-to-end-core-services)
+* [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
 
 <center>
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
-
-[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 </center>
 
 ### OCP 4 Overview
