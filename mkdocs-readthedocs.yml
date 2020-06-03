@@ -52,6 +52,7 @@ nav:
 - Docker: docker.md
 - Kubernetes: 
   - Kubernetes: kubernetes.md
+  - Rancher - Enterprise management for Kubernetes: rancher.md
   - Kubernetes Matrix Table: matrix-table.md
   - Kubernetes alternatives: kubernetes-alternatives.md
 - OpenShift: 
