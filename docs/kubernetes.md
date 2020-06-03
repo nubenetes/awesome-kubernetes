@@ -244,7 +244,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 
 ### Kubectl Alternatives
 * [Helm and Kubernetes](#helm-and-kubernetes)
-* [Other kubernetes tools](#other-kubernetes-tools)
+* [Kubectl plugins and tools](#kubectl-plugins)
 
 #### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
 * [Manage Kubernetes (K8s) objects](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
