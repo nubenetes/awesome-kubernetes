@@ -55,7 +55,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Appointment Scheduling](appointment-scheduling.md)
 8. [Docker](docker.md)
 9. [Kubernetes 🌟](kubernetes.md)
-    - [Rancher - Enterprise management for Kubernetes](rancher.md)
+    - [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
     - [Kubernetes Matrix Table 🌟](matrix-table.md)
     - [Kubernetes Alternatives](kubernetes-alternatives.md)
 10.  [OpenShift 🌟](openshift.md)
