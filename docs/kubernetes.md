@@ -47,6 +47,7 @@
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
+    - [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
     - [Writing Kubernetes Operators](#writing-kubernetes-operators)
 - [Kubernetes Networking](#kubernetes-networking)
     - [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
@@ -498,6 +499,9 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [docs.fluxcd.io](https://docs.fluxcd.io/)
 * [github: Flux CD](https://github.com/fluxcd/flux)
 * [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
+
+### K8s KPIs with Kuberhealthy Operator
+- [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/) transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic [KPIs](https://kpi.org/KPI-Basics).
 
 ### Writing Kubernetes Operators
 * [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)

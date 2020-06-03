@@ -90,6 +90,7 @@
     - [Rocket Chat](#rocket-chat)
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
 - [OpenShift on AWS](#openshift-on-aws)
+- [OpenShift Dedicated](#openshift-dedicated)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Videos](#videos)
 - [Slides](#slides)
@@ -885,6 +886,10 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 ## OpenShift on AWS
 * [blog.openshift.com: AWS and red hat quickstart workshop](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 * [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/quickstart/architecture/openshift/) View deployment guide
+
+## OpenShift Dedicated
+- [OpenShift Dedicated 🌟](https://www.openshift.com/products/dedicated/)
+- [Bringing OpenShift Dedicated to Life at Red Hat](https://www.openshift.com/blog/bringing-openshift-dedicated-to-life-at-red-hat)
 
 ## Other Awesome Lists
 * [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
