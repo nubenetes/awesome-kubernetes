@@ -2,7 +2,7 @@
 selectors). */
 
 body {
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   background-color:rgb(240,240,240);
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -12,7 +12,7 @@ body {
 h1 {
   font-size: 35px;
   font-weight: normal;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
