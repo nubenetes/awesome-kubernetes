@@ -23,6 +23,7 @@ markdown_extensions:
   - meta
   - admonition
   - attr_list
+  - sphinx_search.extension
   - toc:
       permalink: true
       baselevel: 2
