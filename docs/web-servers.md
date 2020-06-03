@@ -1,24 +1,44 @@
-# Web Servers
+# Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
+- [Introduction](#introduction)
 - [Apache](#apache)
     - [Apache Configuration Samples](#apache-configuration-samples)
-- [HAProxy](#haproxy)
 - [Nginx](#nginx)
+- [HAProxy](#haproxy)
+- [Traefik](#traefik)
+
+## Introduction
+- [Reverse Proxy: What, When, How](https://dzone.com/articles/reverse-proxy-what-when-how) Look at a tutorial that explains reverse proxies.
 
 ## Apache
+- [Apache](https://httpd.apache.org/)
+- [Dzone Refcard: Essential Apache HTTP Server](https://dzone.com/refcardz/essential-apache-http-server)
 - [nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8](https://www.cyberciti.biz/faq/how-to-secure-apache-with-lets-encrypt-certificates-on-rhel-8/)
+- [Apache Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html)
+
 ### Apache Configuration Samples
 - [Apache Reverse Proxy for Jenkins](https://github.com/redhatspain/apache-reverse-proxy-jenkins) Reverse Proxy configuration with HTTPS for Jenkins, Sonarqube and Nexus. Based on RHEL 7 Apache config.
 
+## Nginx
+- [Nginx](https://www.nginx.com/)
+- [Dzone: NGINX: Load Balancing Your Application Made Easy](https://dzone.com/articles/nginx-load-balancing-your-application-made-easy-1)
+- [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804) In this post, we will show you how to install Nginx Web Server and configure it as a reverse proxy on Ubuntu Server 18.04
+- [Dzone: DevOps 101: Set Up Nginx in Front of Your Spring Boot Application [Video]](https://dzone.com/articles/devops-101-setup-nginx-in-front-of-your-spring-boo)
+
+<center>
+<iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 ## HAProxy
-* [https://en.wikipedia.org/wiki/HAProxy](https://en.wikipedia.org/wiki/HAProxy)
+* [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)
 * [haproxy.org](http://www.haproxy.org/)
 * [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)
 * [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux/)
 * [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8/)
 * [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/)
 
-## Nginx
-- [Nginx](https://www.nginx.com/)
+## Traefik
+- [Traefik](http://traefik.io/)
+- [Dzone: How to Use the Open Source Tool Traefik to Direct Kubernetes Traffic](https://dzone.com/articles/how-to-use-the-open-source-tool-traefik-to-direct) 
 
 
 

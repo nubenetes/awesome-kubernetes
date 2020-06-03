@@ -1,2 +1,2 @@
 mkdocs==1.1.2
-
+sphinx-rtd-theme==0.4.3

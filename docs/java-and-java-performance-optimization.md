@@ -1,6 +1,11 @@
-# Java Memory Management
+# Java and Memory Management
 - [Java](#java)
+    - [Existing Java Implementations](#existing-java-implementations)
+    - [Use Java 11](#use-java-11)
+    - [Java Frameworks](#java-frameworks)
 - [Java Performance Optimization](#java-performance-optimization)
+    - [Relevant JVM Metrics](#relevant-jvm-metrics)
+    - [Common JVM Errors](#common-jvm-errors)
     - [Tuning Jenkins GC](#tuning-jenkins-gc)
     - [Tuning Java Containers](#tuning-java-containers)
     - [Debugging java applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
@@ -18,6 +23,29 @@
 * [redhat.com: The history and future of OpenJDK](https://www.redhat.com/en/blog/history-and-future-openjdk)
 * [javarevisited.blogspot.com: The 2020 Java Developer RoadMap 🌟](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
 
+### Existing Java Implementations
+- [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html)
+- [Oracle OpenJDK](https://jdk.java.net/11/)
+- [IBM JDK](https://developer.ibm.com/javasdk/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
+- [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
+- [AdoptOpenJDk](https://adoptopenjdk.net/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
+
+### Use Java 11
+- [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)
+- [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
+- [**AdoptOpenJDK 11** Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/)
+- [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/)
+
+### Java Frameworks
+
+Framework / Java Ecosystem|Technology|Cloud Native|Platform
+:----|:---|:---|:---
+[Java EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)<br/>[Java EE at a Glance](https://www.oracle.com/java/technologies/java-ee-glance.html)|Frontend + Backend <br/>Java EE Monoliths|No|Java EE Middleware Servers (WAS, WebLogic, JBoss EAP, etc)
+[Jakarta EE (Java EE renamed)](https://jakarta.ee/)|Frontend + Backend|Yes|OpenShift, Kubernetes, etc 
+[SpringBoot (Spring)](https://spring.io/projects/spring-boot)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
+[Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
+[Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
+
 ## Java Performance Optimization
 * [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps
 - [DZone: String Concatenation's Effect on Performance](https://dzone.com/articles/string-concatentions-effect-on-performance) Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use StringBuilder’s append method instead. 
@@ -27,8 +55,22 @@
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)
 * [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
 
+### Relevant JVM Metrics
+Metric|Details / Reference
+:---|:---
+GC Throughput|**Repeated Full GC happens way before OutOfMemoryError**<br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
+etc|
+
+### Common JVM Errors
+JVM Error|Details / Reference
+:----|:----
+OutOfMemoryError|**Repeated Full GC happens way before OutOfMemoryError** <br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
+StackOverflowError|[ref](https://blog.fastthread.io/2018/09/24/stackoverflowerror/)
+etc|
+
 ### Tuning Jenkins GC
 * [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
+* [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)
 
 ### Tuning Java Containers
 * [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/)

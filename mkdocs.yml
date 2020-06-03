@@ -67,7 +67,7 @@ nav:
       - Maven & Gradle: maven-gradle.md
       - SonarQube: sonarqube.md
       - Nexus & JFrog Artifactory: nexus-jfrog.md
-      - Web Servers - Apache, HAProxy & Nginx: web-servers.md
+      - Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more: web-servers.md
       - Payara App Server: payara.md
       - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
       - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
@@ -80,6 +80,7 @@ nav:
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
     - Ansible: ansible.md
+    - Chef: chef.md
     - Liquibase: liquibase.md
     - Terraform & Packer: terraform.md
   - Databases on Kubernetes: 

@@ -73,7 +73,7 @@ A curated list of awesome references collected since 2018. Microservices archite
         - [Maven & Gradle](maven-gradle.md)
         - [SonarQube](sonarqube.md)
         - [Nexus & JFrog Artifactory](nexus-jfrog.md)
-        - [Web Servers: Apache, HAProxy & Nginx](web-servers.md)
+        - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
         - [Payara App Server](payara.md) 
         - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
         - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
@@ -85,6 +85,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 14. [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
 15. Configuration Management
     - [Ansible](ansible.md)
+    - [Chef](chef.md)
     - [Liquibase](liquibase.md)
     - [Terraform & Packer](terraform.md)
 16. Databases on Kubernetes

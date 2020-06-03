@@ -31,11 +31,14 @@
     - [Cluster Autoscaler and DockerHub](#cluster-autoscaler-and-dockerhub)
     - [Cluster Autoscaler in GKE, EKS, AKS and DOKS](#cluster-autoscaler-in-gke-eks-aks-and-doks)
     - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
-- [Kubernetes Special Interest Groups (SIGs). Kubernetes Community](#kubernetes-special-interest-groups-sigs-kubernetes-community)
-    - [Kubectl Plugins](#kubectl-plugins)
-        - [Kubectl Plugins and Tools](#kubectl-plugins-and-tools)
+- [Kubernetes Community](#kubernetes-community)
+    - [Community Forums](#community-forums)
+    - [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
+        - [Kubectl Plugins](#kubectl-plugins)
+            - [Kubectl Plugins and Tools](#kubectl-plugins-and-tools)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
+    - [Online Training](#online-training)
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
     - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Patterns](#kubernetes-patterns)
@@ -91,6 +94,7 @@
         - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
         - [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
         - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
+            - [Rancher Academy (online training)](#rancher-academy-online-training)
             - [Rancher 2](#rancher-2)
             - [Rancher 2 RKE](#rancher-2-rke)
             - [K3S](#k3s)
@@ -345,12 +349,16 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)
 * [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)
 
-## Kubernetes Special Interest Groups (SIGs). Kubernetes Community
+## Kubernetes Community
+### Community Forums
+- [Community Forums 🌟🌟](https://discuss.kubernetes.io/)
+
+### Kubernetes Special Interest Groups (SIGs)
 - [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.
 - [SIG Apps: build apps for and operate them in Kubernetes](https://kubernetes.io/blog/2016/08/sig-apps-running-apps-in-kubernetes/)
 - [Kubernetes SIGs 🌟](https://github.com/kubernetes-sigs)
 
-### Kubectl Plugins 
+#### Kubectl Plugins 
 * [Available kubectl plugins 🌟](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 * [Extend kubectl with plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/)
 * [youtube: Welcome to the world of kubectl plugins](https://www.youtube.com/watch?v=_W2qZvQT6XY)
@@ -360,7 +368,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 </center>
 <br/>
 
-#### Kubectl Plugins and Tools
+##### Kubectl Plugins and Tools
 * [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
@@ -411,9 +419,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [managedkube.com: Troubleshooting a Kubernetes ingress](https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html)
 
 ## Kubernetes Tutorials
-* [katacoda.com 🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
-* [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
-* [Play with Kubernetes 🌟](https://labs.play-with-k8s.com/) A simple, interactive and fun playground to learn Kubernetes
 * [devopscube.com: Kubernetes Tutorials For Beginners: Getting Started Guide 🌟](https://devopscube.com/kubernetes-tutorials-beginners/)
 * [Intoduction to Kubernetes (slides, beginners and advanced) 🌟](https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco)
 * [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
@@ -428,14 +433,19 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [apkplz.net: Learn Kubernetes 1 APK](https://apkplz.net/app/com.LearningSolution.LearnKubernetes)
     * [Google Play Search](https://play.google.com/store/search?q=learn+kubernetes)
 * [Dzone refcard: Getting Started with Kubernetes](https://dzone.com/refcardz/kubernetes-essentials)
-* [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
-* [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
-* [wardviaene/kubernetes-course 🌟](https://github.com/wardviaene/kubernetes-course) 
-* [wardviaene/advanced-kubernetes-course 🌟](https://github.com/wardviaene/advanced-kubernetes-course) 
 * [dzone: The complete kubernetes collection tutorials and tools 🌟](https://dzone.com/articles/the-complete-kubernetes-collection-tutorials-and-tools)
 * [dzone: kubernetes in 10 minutes a complete guide to look](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 * [magalix.com: The Best Kubernetes Tutorials 🌟](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 * [35 Advanced Tutorials to Learn Kubernetes 🌟](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
+
+### Online Training
+* [katacoda.com 🌟](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
+* [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
+* [Play with Kubernetes 🌟](https://labs.play-with-k8s.com/) A simple, interactive and fun playground to learn Kubernetes
+* [udemy.com: Learn DevOps: The Complete Kubernetes Course 🌟](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
+    * [wardviaene/kubernetes-course 🌟](https://github.com/wardviaene/kubernetes-course) 
+* [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
+    * [wardviaene/advanced-kubernetes-course 🌟](https://github.com/wardviaene/advanced-kubernetes-course) 
 
 ### Famous Kubernetes resources of 2019
 * [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
@@ -756,6 +766,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
 </center>
 </br>
+
+##### Rancher Academy (online training)
+- [Rancher Academy 🌟](https://academy.rancher.com/)
+- [Rancher Labs launches free training course to meet surging demand for Kubernetes skills](https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes) Five-week course covers how to deploy Rancher and manage Kubernetes
 
 ##### Rancher 2 
 - [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 

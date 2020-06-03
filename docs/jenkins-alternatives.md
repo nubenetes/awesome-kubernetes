@@ -55,10 +55,9 @@
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
 
-<center>
-[![gitlab](images/gitlab.jpg)](https://gitlab.com/)
-</center>
-
+---
 <center>
 <iframe src="https://www.youtube.com/embed/ihHr-iLfEGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![gitlab](images/gitlab.jpg)](https://gitlab.com/)
 </center>

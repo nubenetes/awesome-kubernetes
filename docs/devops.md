@@ -1,5 +1,6 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
+- [Configuration Drift](#configuration-drift)
 - [DevOps](#devops)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [Blogs](#blogs)
@@ -12,6 +13,10 @@
 
 ## Introduction to Digital Business Transformation
 * [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
+
+## Configuration Drift
+- [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
+- [What is Configuration Drift?](https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift/) Configuration drift  is a data center environment term. At a high level, configuration drift happens when production or primary hardware and software infrastructure configurations “drift” or become different in some way from a recovery or secondary configuration or visa versa.  Production or primary and recovery or secondary configurations are designed to be identical in certain aspects is order for business resumption should there be a disaster or major failure in production.  When these infrastructure configurations drift from another, they leave a gap between them which commonly called a configuration gap.
 
 ## DevOps
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
@@ -29,6 +34,7 @@
 * [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
 * [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 * [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
+* [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
 
 <center>
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
