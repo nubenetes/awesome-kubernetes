@@ -67,7 +67,7 @@ nav:
     - Maven & Gradle: maven-gradle.md
     - SonarQube: sonarqube.md
     - Nexus & JFrog Artifactory: nexus-jfrog.md
-    - Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more: web-servers.md
+    - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
     - Payara App Server: payara.md
     - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
     - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
