@@ -38,7 +38,7 @@
     - [Spring](https://spring.io/projects/spring-boot) 
     - [MicroProfile](https://microprofile.io) 
 
-Framework / Java Ecosystem|Technology|Cloud Native (microservices)|Platform
+Java Programming Model|Technology|Cloud Native (microservices)|Platform
 :----|:---|:---|:---
 [Java EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)<br/>[Java EE at a Glance](https://www.oracle.com/java/technologies/java-ee-glance.html)|Frontend + Backend <br/>Java EE Monoliths|No|Java EE Middleware Servers (WAS, WebLogic, JBoss EAP, etc)
 [Jakarta EE (Java EE renamed)](https://jakarta.ee/)|Frontend + Backend|Yes|OpenShift, Kubernetes, etc 
@@ -47,7 +47,6 @@ Framework / Java Ecosystem|Technology|Cloud Native (microservices)|Platform
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 etc|||
-
 <br/>
 
 ## Spring 
