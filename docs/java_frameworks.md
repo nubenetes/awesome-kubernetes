@@ -7,7 +7,6 @@
     - [SpringBoot](#springboot)
     - [SpringBoot with Docker](#springboot-with-docker)
     - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
-    - [Spring Cloud](#spring-cloud)
 - [Quarkus](#quarkus)
 - [Eclipse MicroProfile](#eclipse-microprofile)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
@@ -49,13 +48,15 @@ Framework / Java Ecosystem|Technology|Cloud Native (microservices)|Platform
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 etc|||
 
+<br/>
+
 ## Spring 
 - [Spring](https://spring.io/)
 - [SpringBoot](https://spring.io/projects/spring-boot)
 - [Spring Cloud](https://spring.io/projects/spring-cloud)
+    - [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 
 ### SpringBoot
-- [spring.io](https://spring.io/)
 - [SpringBoot](https://spring.io/projects/spring-boot)
 - [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials)
 - [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://jaxenter.com/cicd-microservices-docker-162408.html)
@@ -82,10 +83,6 @@ etc|||
 <center>
 [![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 </center>
-
-### Spring Cloud
-- [Java - Spring Cloud](https://spring.io/projects/spring-cloud)
-- [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 
 ## Quarkus
 - [quarkus.io](https://quarkus.io/) Quarkus is a Kubernetes-native Java stack that is crafted from best-of-breed Java libraries and standards, and tailored for containers and cloud deployments
