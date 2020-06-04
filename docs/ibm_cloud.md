@@ -1,6 +1,6 @@
 # IBM 
 - [IBM Cloud](#ibm-cloud)
-- [WebSphere Liberty](#websphere-liberty)
+- [WebSphere Liberty with support of Java Microservices and Cloud Native Apps](#websphere-liberty-with-support-of-java-microservices-and-cloud-native-apps)
     - [Open Liberty](#open-liberty)
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
 
@@ -8,13 +8,16 @@
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
 
-## WebSphere Liberty 
+## WebSphere Liberty with support of Java Microservices and Cloud Native Apps
 - [WebSphere Liberty](https://developer.ibm.com/wasdev/) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
 - [Download WAS Liberty](https://developer.ibm.com/wasdev/downloads/)
 - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty/) WebSphere Liberty is a fast, dynamic, and easy-to-use Java application server, built on the open source [Open Liberty project](https://www.openliberty.io/). Ideal for developers but also ready for production, on-premise or in the cloud Liberty is a combination of IBM technology and open source software, with fast startup times (<2 seconds), no server restarts to pick up changes, and a simple XML configuration. All in [a package (with Java EE 8 Web Profile) that’s 80 MB to download](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-non-eclipse-environments/). You can be developing applications in no time. 
+- [DockerHub: websphere-liberty](https://hub.docker.com/_/websphere-liberty/) Official IBM WebSphere Application Server for Developers Liberty image.
 
 ### Open Liberty 
 - [openliberty.io](https://www.openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
+- [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
+- [github.com/openliberty](https://github.com/openliberty/)
 
 ## IBM Cloud Paks and OpenShift
 * [cloudpak8s.io](https://cloudpak8s.io/) 
