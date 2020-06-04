@@ -6,8 +6,8 @@
 - [Spring](#spring)
     - [SpringBoot](#springboot)
     - [SpringBoot with Docker](#springboot-with-docker)
-    - [CI/CD for kubernetes](#cicd-for-kubernetes)
-- [Spring Cloud](#spring-cloud)
+    - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
+    - [Spring Cloud](#spring-cloud)
 - [Quarkus](#quarkus)
 - [Eclipse MicroProfile Project](#eclipse-microprofile-project)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
@@ -76,14 +76,14 @@ etc|||
 <iframe src="https://www.youtube.com/embed/1w1Jv9qssqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-### CI/CD for kubernetes
+### CI/CD for kubernetes with SpringBoot
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
 
 <center>
 [![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 </center>
 
-## Spring Cloud
+### Spring Cloud
 - [Java - Spring Cloud](https://spring.io/projects/spring-cloud)
 - [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 

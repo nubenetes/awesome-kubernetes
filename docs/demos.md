@@ -4,6 +4,7 @@
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
 - [Kubernetes Demos](#kubernetes-demos)
+    - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
     - [Istio](#istio)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
@@ -56,6 +57,9 @@
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
  
+### CI/CD with SpringBoot for Kubernetes 
+* [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
+
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 * [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
 

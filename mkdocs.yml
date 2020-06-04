@@ -76,9 +76,6 @@ nav:
       - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
       - Linux & SSH: linux.md
       - YAML processors: yaml-processors.md
-  - Java Memory Management:
-    - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
-    - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
   - Caching Solutions: caching.md
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
@@ -110,10 +107,10 @@ nav:
   - Development & Frameworks:
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
-    - Java - Spring Framework: SpringFramework.md
-    - Java - SpringBoot: SpringBoot.md
-    - Java - Spring Cloud: SpringCloud.md
-    - Java - Quarkus: quarkus.md
+    - Java:
+      - Java & Java Programming Models. SpringBoot, MicroProfile, Quarkus and more: java_frameworks.md
+      - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
+      - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
     - JavaScript - node.js & npm: javascript.md
     - Python - Django & Flask: python.md
     - Xamarin: xamarin.md
