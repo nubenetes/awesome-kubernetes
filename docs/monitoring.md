@@ -162,6 +162,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     *	"Targets" descubiertos via "service discovery" ó configuración estática.
     *	Soporte de federación horizontal y vertical.
 * [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)
+* [Cloud Native Monitoring with Prometheus 🌟](https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus/)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
