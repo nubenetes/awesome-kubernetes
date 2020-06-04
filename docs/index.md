@@ -7,9 +7,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
 
 <center>
-[![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![kubernetes logo](images/kubernetes_logo.jpg)](https://www.youtube.com/kubernetescommunity) [![cloudbees videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg)](https://www.youtube.com/user/jenkinsci) 
-
-[![rh devel](images/rh_developer_logo.jpg)](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q/) [![spring logo](images/spring-logo.jpg)](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg)](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg) 
+[![openshift videos](images/openshift_logo.jpg)](https://www.youtube.com/user/rhopenshift) [![kubernetes logo](images/kubernetes_logo.jpg)](https://www.youtube.com/kubernetescommunity) [![cloudbees videos](images/cloudbees_logo.jpg)](https://www.youtube.com/user/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg)](https://www.youtube.com/user/jenkinsci) [![rh devel](images/rh_developer_logo.jpg)](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q/) [![spring logo](images/spring-logo.jpg)](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg)](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg) 
 
 [![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
 </center>
