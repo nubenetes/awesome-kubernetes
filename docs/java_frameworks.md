@@ -2,7 +2,7 @@
 - [Java](#java)
     - [Existing Java Implementations](#existing-java-implementations)
     - [Use Java 11](#use-java-11)
-- [Java Programming Models (Java Frameworks)](#java-programming-models-java-frameworks)
+- [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Spring](#spring)
     - [SpringBoot](#springboot)
     - [SpringBoot with Docker](#springboot-with-docker)
@@ -32,7 +32,7 @@
 - [**AdoptOpenJDK 11** Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/)
 - [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/)
 
-## Java Programming Models (Java Frameworks)
+## Java Programming Models (Frameworks)
 - [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) The best Java Frameworks vendors are **Apache Spark**, **Spring Boot**, **Oracle Application Development Framework (Oracle ADF)**, **Jakarta EE**, and **Open Liberty**. Apache is the top solution according to IT Central Station reviews and rankings. One reviewer writes: "Fast performance and has an easy initial setup", and another reviewer writes: "Easy to use and is capable of processing large amounts of data". The 2nd best product is Spring Boot. A user writes: "Very smooth implementation; excellent features for monitoring and tracking network calls ", and another reviewer writes: "Makes it difficult to support a specific functionality in a user-friendly manner, but simplifies application deployment".
 - **Open Source Microservices Frameworks** (frameworks for microservices development): 
     - [Spring](https://spring.io/projects/spring-boot) 
