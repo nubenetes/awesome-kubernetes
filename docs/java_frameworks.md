@@ -1,4 +1,4 @@
-# Java and Java Programming Models
+# Java and Java Programming Models. Open Source Microservices Frameworks
 - [Java](#java)
     - [Existing Java Implementations](#existing-java-implementations)
     - [Use Java 11](#use-java-11)
@@ -9,7 +9,7 @@
     - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
     - [Spring Cloud](#spring-cloud)
 - [Quarkus](#quarkus)
-- [Eclipse MicroProfile Project](#eclipse-microprofile-project)
+- [Eclipse MicroProfile](#eclipse-microprofile)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
 
 ## Java
@@ -39,11 +39,11 @@
     - [Spring](https://spring.io/projects/spring-boot) 
     - [MicroProfile](https://microprofile.io) 
 
-Framework / Java Ecosystem|Technology|Cloud Native|Platform
+Framework / Java Ecosystem|Technology|Cloud Native (microservices)|Platform
 :----|:---|:---|:---
 [Java EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)<br/>[Java EE at a Glance](https://www.oracle.com/java/technologies/java-ee-glance.html)|Frontend + Backend <br/>Java EE Monoliths|No|Java EE Middleware Servers (WAS, WebLogic, JBoss EAP, etc)
 [Jakarta EE (Java EE renamed)](https://jakarta.ee/)|Frontend + Backend|Yes|OpenShift, Kubernetes, etc 
-[MicroProfile](https://microprofile.io/)|Frontend+Backend|Yes|OpenShift, Kubernetes, etc
+[MicroProfile](https://microprofile.io/)|Backend|Yes|OpenShift, Kubernetes, etc
 [SpringBoot (Spring)](https://spring.io/projects/spring-boot)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
@@ -102,13 +102,20 @@ etc|||
 - [developers.redhat.com: Migrating a Spring Boot microservices application to Quarkus](https://developers.redhat.com/blog/2020/04/10/migrating-a-spring-boot-microservices-application-to-quarkus/)
 - [Quarkus, a Kubernetes-native Java runtime, now fully supported by Red Hat](https://developers.redhat.com/blog/2020/05/28/quarkus-a-kubernetes-native-java-runtime-now-fully-supported-by-red-hat/)
 
-## Eclipse MicroProfile Project
+## Eclipse MicroProfile
 - [Eclipse MicroProfile Project](https://projects.eclipse.org/projects/technology.microprofile) The Eclipse MicroProfile project is aimed at
 optimizing Enterprise Java for the microservices architecture. 
     - Many innovative "microservice" Enterprise Java environments and frameworks already exist in the Java ecosystem. These projects are creating new features and capabilities to address microservice architectures -- leveraging both Java EE and non-Java EE technologies.
     - The goal of the Eclipse MicroProfile project is to iterate and innovate in short cycles to propose new common APIs and functionality, get community approval, release, and repeat.  Eventually, the outputs of this project could be submitted to the Eclipse Jakarta EE, JCP, OpenJDK or any relevant standards body.
 - [MicroProfile.io](https://microprofile.io/) Optimizing Enterprise Java for a Microservices Architecture
 - [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers/)
+- [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6)
+- **Server Vendors providing MicroProfile runtimes**:
+    - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
+    - [TomEE from Tomitribe](http://tomee.apache.org/)
+    - [Payara](https://www.payara.fish/)
+    - [RedHat’s WildFly Swarm](http://wildfly-swarm.io/)
+    - [KumuluzEE](https://ee.kumuluz.com/)
 
 ## Spring Boot VS MicroProfile
 - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)

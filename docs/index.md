@@ -110,7 +110,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 21. Development & Frameworks
     - [Angular](angular.md)
     - [Document Object Model (DOM)](dom.md)
-    - [Java & Java Programming Models. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
+    - [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
         - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
         - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
     - [JavaScript - node.js & npm](javascript.md)
