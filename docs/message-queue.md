@@ -27,6 +27,7 @@
 - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
+- [nginx.com: Event-Driven Data Management for Microservices 🌟](https://www.nginx.com/blog/event-driven-data-management-microservices/)
 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)

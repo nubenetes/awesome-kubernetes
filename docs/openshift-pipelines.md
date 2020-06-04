@@ -109,13 +109,13 @@
 * [Simply Explained: OpenShift and Jenkins Pipelines](https://www.openshift.com/blog/jenkins-pipelines)
 
 ### OpenShift Pipelines (aka Tekton CI/CD Pipelines)
-* [https://blog.openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
+* [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.openshift.com/blog/cloud-native-ci-cd-with-openshift-pipelines)
 * [github: OpenShift Pipelines Tutorial 🌟](https://github.com/openshift/pipelines-tutorial)
 * [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
 
 #### Tekton and Tekton Pipelines
-* [**tekton.dev**](https://tekton.dev/)
+* [tekton.dev](https://tekton.dev/)
 * [tekton.dev/try: Interactive Tutorials](https://tekton.dev/try/)
 * [Tekton community](https://github.com/tektoncd/community)
 * [github: Tekton Pipelines](https://github.com/tektoncd/pipeline)
