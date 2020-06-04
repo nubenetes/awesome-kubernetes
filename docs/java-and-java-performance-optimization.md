@@ -2,7 +2,11 @@
 - [Java](#java)
     - [Existing Java Implementations](#existing-java-implementations)
     - [Use Java 11](#use-java-11)
-    - [Java Frameworks](#java-frameworks)
+    - [Java Programming Models (Java Frameworks)](#java-programming-models-java-frameworks)
+        - [Spring and MicroProfile frameworks for microservices development (open source microservices frameworks)](#spring-and-microprofile-frameworks-for-microservices-development-open-source-microservices-frameworks)
+            - [Spring](#spring)
+            - [Eclipse MicroProfile Project](#eclipse-microprofile-project)
+            - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
 - [Java Performance Optimization](#java-performance-optimization)
     - [Relevant JVM Metrics](#relevant-jvm-metrics)
     - [Common JVM Errors](#common-jvm-errors)
@@ -36,15 +40,36 @@
 - [**AdoptOpenJDK 11** Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/)
 - [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/)
 
-### Java Frameworks
+### Java Programming Models (Java Frameworks)
+- [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) The best Java Frameworks vendors are **Apache Spark**, **Spring Boot**, **Oracle Application Development Framework (Oracle ADF)**, **Jakarta EE**, and **Open Liberty**. Apache is the top solution according to IT Central Station reviews and rankings. One reviewer writes: "Fast performance and has an easy initial setup", and another reviewer writes: "Easy to use and is capable of processing large amounts of data". The 2nd best product is Spring Boot. A user writes: "Very smooth implementation; excellent features for monitoring and tracking network calls ", and another reviewer writes: "Makes it difficult to support a specific functionality in a user-friendly manner, but simplifies application deployment".
 
 Framework / Java Ecosystem|Technology|Cloud Native|Platform
 :----|:---|:---|:---
 [Java EE](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)<br/>[Java EE at a Glance](https://www.oracle.com/java/technologies/java-ee-glance.html)|Frontend + Backend <br/>Java EE Monoliths|No|Java EE Middleware Servers (WAS, WebLogic, JBoss EAP, etc)
 [Jakarta EE (Java EE renamed)](https://jakarta.ee/)|Frontend + Backend|Yes|OpenShift, Kubernetes, etc 
+[MicroProfile](https://microprofile.io/)|Frontend+Backend|Yes|OpenShift, Kubernetes, etc
 [SpringBoot (Spring)](https://spring.io/projects/spring-boot)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
+etc|||
+
+#### Spring and MicroProfile frameworks for microservices development (open source microservices frameworks)
+##### Spring 
+- [Spring](https://spring.io/)
+- [SpringBoot](https://spring.io/projects/spring-boot)
+- [Spring Cloud](https://spring.io/projects/spring-cloud)
+
+##### Eclipse MicroProfile Project
+- [Eclipse MicroProfile Project](https://projects.eclipse.org/projects/technology.microprofile) The Eclipse MicroProfile project is aimed at
+optimizing Enterprise Java for the microservices architecture. 
+    - Many innovative "microservice" Enterprise Java environments and frameworks already exist in the Java ecosystem. These projects are creating new features and capabilities to address microservice architectures -- leveraging both Java EE and non-Java EE technologies.
+    - The goal of the Eclipse MicroProfile project is to iterate and innovate in short cycles to propose new common APIs and functionality, get community approval, release, and repeat.  Eventually, the outputs of this project could be submitted to the Eclipse Jakarta EE, JCP, OpenJDK or any relevant standards body.
+- [MicroProfile.io](https://microprofile.io/) Optimizing Enterprise Java for a Microservices Architecture
+- [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers/)
+
+##### Spring Boot VS MicroProfile
+- [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
+- [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/cloud/blog/migrate-java-microservices-from-spring-to-microprofile-p2) Spring Boot or MicroProfile for Java microservices apps? Choose the path of least resistance. The Spring Boot and MicroProfile frameworks have many of the same goals (i.e., you can do everything in MicroProfile that you can do in Spring Boot). Both of them are built on top of the same core APIs; even though there are differences in some of the APIs, the work they do is similar.
 
 ## Java Performance Optimization
 * [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps

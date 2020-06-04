@@ -7,6 +7,7 @@
 ## IBM Cloud
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+- [IBM Knowledge Center 🌟](https://www.ibm.com/support/knowledgecenter/)
 
 ## WebSphere Liberty with support of Java Microservices and Cloud Native Apps
 - [WebSphere Liberty](https://developer.ibm.com/wasdev/) A fast, light, awesome runtime for your Java apps and microservices, free for developers, and built on Open Liberty.
