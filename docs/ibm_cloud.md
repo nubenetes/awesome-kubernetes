@@ -4,6 +4,10 @@
     - [Open Liberty](#open-liberty)
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
 
+<center>
+[![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/user/IBMCloud)
+</center>
+
 ## IBM Cloud
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
