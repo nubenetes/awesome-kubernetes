@@ -48,8 +48,6 @@ Java Programming Model|Technology|Cloud Native (microservices)|Platform
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 etc|||
 
-<br/>
-
 ## Spring 
 - [Spring](https://spring.io/)
 - [SpringBoot](https://spring.io/projects/spring-boot)
