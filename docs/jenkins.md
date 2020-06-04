@@ -177,6 +177,8 @@
 [![keptn](images/keptn-jenkins-sli-slo-2.jpg)](https://twitter.com/keptnProject)
 
 [![keptn](images/keptn-jenkins-sli-slo-3.jpg)](https://twitter.com/keptnProject)
+
+<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
 
 #### Jenkinsfile Runner. Serverless / function-as-a-service build execution
