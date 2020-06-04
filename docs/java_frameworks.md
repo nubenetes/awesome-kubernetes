@@ -47,6 +47,7 @@ Java Programming Model|Technology|Cloud Native (microservices)|Platform
 [Spring Cloud (Spring)](https://spring.io/projects/spring-cloud)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 [Quarkus](https://quarkus.io/)|Backend (RESTful)|Yes|OpenShift, Kubernetes, etc
 etc|||
+
 <br/>
 
 ## Spring 
