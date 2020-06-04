@@ -161,7 +161,9 @@ git push origin -f
 
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
+    * [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)
 * [gitkraken.com](https://www.gitkraken.com/)
+    * [GitKraken Git Cheat](https://www.gitkraken.com/resources/gitkraken-cheat-sheet)
     * [dzone.com: See What's New in GitKraken v4.0](https://dzone.com/articles/see-whats-new-in-gitkraken-v40)
     * [youtube: GitKraken Tutorials and Tips](https://www.youtube.com/watch?v=gjtXTm_TvvE&list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n)
 * [gmaster](https://gmaster.io/)

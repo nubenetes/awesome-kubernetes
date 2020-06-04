@@ -27,7 +27,7 @@
 </br>
 
 ## Rancher Academy (online training)
-- [Rancher Academy 🌟](https://academy.rancher.com/)
+- [Rancher Academy 🌟](https://academy.rancher.com/) Rancher Academy is a professional, no-cost, zero obligation certification program centered on empowering commercial customers and the open source community to be successful with Kubernetes and Rancher. 
 - [Rancher Labs launches free training course to meet surging demand for Kubernetes skills](https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes) Five-week course covers how to deploy Rancher and manage Kubernetes
 
 ## Rancher 2 

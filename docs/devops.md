@@ -47,6 +47,7 @@
 - [devops.com](https://devops.com/)
 - [devopscube.com](https://devopscube.com/)
 - [devopszone.info](https://www.devopszone.info/)
+- [devopsdigest.com](https://www.devopsdigest.com/)
 
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)

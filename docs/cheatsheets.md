@@ -1,10 +1,16 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
+- [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
+    - [Dash for MacOS (paid)](#dash-for-macos-paid)
+    - [Velocity (Windows, paid)](#velocity-windows-paid)
+    - [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
 - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
     - [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
+    - [Sourcetree Cheat Sheet](#sourcetree-cheat-sheet)
+    - [GitKraken Git Cheat](#gitkraken-git-cheat)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Packer and Terraform Cheat Sheets](#packer-and-terraform-cheat-sheets)
 - [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
@@ -23,6 +29,17 @@
 * [cheatography.com](https://cheatography.com/)
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
+
+## Documentation Browser for Software Developers
+### Dash for MacOS (paid)
+* [Dash for MacOS](https://kapeli.com/dash) Dash gives your Mac instant offline access to 200+ API documentation sets.
+* [Dash Cheat Sheets](https://kapeli.com/cheatsheets)
+
+### Velocity (Windows, paid)
+* [Velocity](https://velocity.silverlakesoftware.com/) Velocity gives your Windows desktop offline access to over 150 API documentation sets
+
+### Zeal (Windows, Linux, Free)
+* [Zeal](https://zealdocs.org/) Zeal is an offline documentation browser for software developers.
 
 ## Kubernetes Knowledge Hubs
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
@@ -64,6 +81,12 @@
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+
+### Sourcetree Cheat Sheet
+* [Sourcetree Cheat Sheet](https://kapeli.com/cheat_sheets/Sourcetree.docset/Contents/Resources/Documents/index)
+
+### GitKraken Git Cheat
+* [GitKraken Git Cheat](https://www.gitkraken.com/resources/gitkraken-cheat-sheet)
 
 ## Ansible Cheat Sheets
 * [Ansible Roles Explained | Cheat Sheet](https://linuxacademy.com/blog/red-hat/ansible-roles-explained/)
