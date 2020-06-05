@@ -22,6 +22,7 @@
     - [Red Hat AMQ Streams](#red-hat-amq-streams)
 - [eBooks](#ebooks)
 - [Related](#related)
+- [Questions and Answers](#questions-and-answers)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
 - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)
@@ -143,3 +144,12 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 ## Related
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
+
+## Questions and Answers
+- [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) "Kafka vs. JAX-RS / RPC, thoughts about APIs, JSON-B vs. GSON, Path.of over Paths.get, Java Records, MicroProfile JWT, beginners vs. expert content, best Java fullstack, code coverage, NetBeans in 2020, Visual Studio Setup for Java, screencast configuration, ReactJS / Angular over JSF?, JSON-P vs. JSON-B, security code scanning"
+
+---
+
+<center>
+<iframe src="https://www.youtube.com/embed/LieT75Zb_OY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>

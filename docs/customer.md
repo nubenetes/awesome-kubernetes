@@ -7,8 +7,8 @@
 * CI/CD at BMW IT-Zentrum (2018): 
     * Jenkins (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
     * Requirements of each microservice defined in a single json file.
-    * Frameworks: SpringBoot, Jakarta EE and MicroProfile, angular, etc.
-    * Docker, Payara, HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
+    * Java Frameworks: Jakarta EE and/or MicroProfile running on Payara 
+    * Docker, HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
     * Terraform, Packer, Ansible, Liquibase.
     * Private and Public Cloud: OpenStack, OpenShift 3.10 on-premise, AWS.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.

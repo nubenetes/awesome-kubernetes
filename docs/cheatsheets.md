@@ -23,6 +23,7 @@
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
+- [Quarkus Cheat Sheet](#quarkus-cheat-sheet)
 
 ## Cheat Sheets
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
@@ -171,4 +172,7 @@
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
+
+## Quarkus Cheat Sheet
+- [Quarkus Cheat-Sheet](https://lordofthejars.github.io/quarkus-cheat-sheet/)
 
