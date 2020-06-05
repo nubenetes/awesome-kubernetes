@@ -4,7 +4,7 @@
     - [Dash for MacOS (paid)](#dash-for-macos-paid)
     - [Velocity (Windows, paid)](#velocity-windows-paid)
     - [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
-- [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
+- [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
@@ -42,9 +42,10 @@
 ### Zeal (Windows, Linux, Free)
 * [Zeal](https://zealdocs.org/) Zeal is an offline documentation browser for software developers.
 
-## Kubernetes Knowledge Hubs
+## Kubernetes Knowledge Hubs and Glossary
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
+- [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 
 ## Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
