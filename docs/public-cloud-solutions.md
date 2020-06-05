@@ -9,6 +9,7 @@
     * [Openshift on Azure](https://azure.microsoft.com/en-us/blog/openshift-on-azure-the-easiest-fully-managed-openshift-in-the-cloud/)
 
 ## Kubernetes as a Service
+* [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms) With the number of services for Kubernetes increasing at a fast pace, we take a look at five such services and compare them.
 * [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
 * [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes/) 
     - [Digital Ocean pricing](https://www.digitalocean.com/pricing/)
@@ -16,8 +17,5 @@
 * [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service/)
 * [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)
 * [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/managed-kubernetes)
-* etc
 
-### References
-* [https://dzone.com/articles/5-hosted-kubernetes-platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms)
 
