@@ -27,6 +27,7 @@
 * [opensource.com: Running Jenkins builds in Openshift containers](https://opensource.com/article/18/4/running-jenkins-builds-containers)
 * [blog.openshift.com: Deploying Jenkins on OpenShift: Part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
 * [cloudowski.com: Jenkins on OpenShift - how to use and customize it in a cloud-native way 🌟](https://cloudowski.com/articles/jenkins-on-openshift/)
+* [developers.redhat.com: An easier way to create custom Jenkins containers in OpenShift 4 🌟](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers/) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
 
 ### Jenkins Container Images in OpenShift
 * [docs.okd.io: Jenkins in Openshift](https://docs.okd.io/latest/using_images/other_images/jenkins.html) Openshift provides a container image for running Jenkins. This image provides a Jenkins server instance, which can be used to set up a basic flow for continuous testing, integration, and delivery.
