@@ -63,4 +63,6 @@
 ## Popular Deployment Frameworks for AWS Lambda
 * [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)
 
+<center>
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
+</center>
