@@ -13,6 +13,7 @@
 - [Google meet](https://meet.google.com/) Alternative to Zoom
 - [Rocket Chat](https://rocket.chat/) Alternative to Slack
 - [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
+- [atlassian.com/remote](https://www.atlassian.com/remote) Free collaboration tools to kickstart remote teamwork
 
 ## Tips
 * [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
