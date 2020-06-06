@@ -24,6 +24,26 @@ markdown_extensions:
   - meta
   - admonition
   - attr_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - codehilite
+  - footnotes
   - toc:
       permalink: true
       baselevel: 2
@@ -153,4 +173,5 @@ extra:
       link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars
-      
+    - icon: fontawesome/icons/envelope
+      link: info@redhatspain.com 
