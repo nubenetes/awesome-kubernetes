@@ -6,7 +6,10 @@
     - [www.electron.build](https://www.electron.build/)
     - etc
 
-### Markdown and Markdown Cheat Sheet
+## Material for MkDocs
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+## Markdown and Markdown Cheat Sheet
 - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 - [markdownguide.org](https://www.markdownguide.org/)
     - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
