@@ -23,7 +23,8 @@
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
-- [Quarkus Cheat Sheet](#quarkus-cheat-sheet)
+- [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
+- [Markdown Cheat Sheets](#markdown-cheat-sheets)
 
 ## Cheat Sheets
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
@@ -67,6 +68,7 @@
 - [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 
 ## Git and GitHub Cheat Sheets
+* [guides.github.com 🌟](https://guides.github.com/)
 * [dev.to: Git & Github Cheatsheet 🌟](https://dev.to/zinox9/git-github-cheatsheet-22ok)
 * [git-scm.com: Git reference](https://git-scm.com/docs)
 * [zeroturnaround.com: Git cheat sheet 🌟](https://www.jrebel.com/blog/git-cheat-sheet)
@@ -174,6 +176,13 @@
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
 - [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
 
-## Quarkus Cheat Sheet
+## Quarkus Cheat Sheets
 - [Quarkus Cheat-Sheet](https://lordofthejars.github.io/quarkus-cheat-sheet/)
+
+## Markdown Cheat Sheets
+- [markdownguide.org](https://www.markdownguide.org/)
+    - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
+- [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/images/)
+- [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

@@ -77,7 +77,7 @@ nav:
     - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
     - Linux & SSH: linux.md
     - YAML processors: yaml-processors.md
-    - MkDocs: mkdocs.md
+    - MkDocs & GitHub Pages: mkdocs.md
 - Caching Solutions: caching.md
 - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
 - Configuration Management:
