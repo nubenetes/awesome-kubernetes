@@ -60,6 +60,7 @@
 - [Periodic Table of DevOps 🌟](https://xebialabs.com/periodic-table-of-devops-tools/)
 
 ## DevOps Tools
+- These tools help you manage servers and deploy happier and more often with more confidence.
 - [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/resources/devops-report-2020)
 - [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation) 
 - [dzone: Most Popular DevOps Tools You Must Learn In 2019](https://dzone.com/articles/most-popular-devops-tools-you-must-learn-in-2019)
