@@ -3,7 +3,8 @@ site_url: https://awesome-kubernetes.readthedocs.io/
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafev
 docs_dir: docs/
-repo_name: redhatspain/awesome-kubernetes
+#repo_name: redhatspain/awesome-kubernetes
+github: redhatspain/awesome-kubernetes
 repo_url: https://github.com/redhatspain/awesome-kubernetes
 theme: 
   name: readthedocs
