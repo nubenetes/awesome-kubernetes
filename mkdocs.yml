@@ -47,6 +47,7 @@ markdown_extensions:
   - pymdownx.tilde
   - codehilite
   - footnotes
+  - emailprotect
   - toc:
       permalink: true
       baselevel: 2
@@ -176,6 +177,3 @@ extra:
       link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars
-    #- icon: fontawesome/regular/envelope
-    - icon: fontawesome/brands/speaker-deck
-      link: info@redhatspain.com 
