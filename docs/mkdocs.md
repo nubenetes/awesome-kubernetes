@@ -9,7 +9,7 @@
 - [markdownguide.org](https://www.markdownguide.org/)
     - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
 - [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/images/)
+- [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## GitHub Pages
