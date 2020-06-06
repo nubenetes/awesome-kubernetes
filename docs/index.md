@@ -82,6 +82,7 @@ A curated list of awesome references collected since 2018. Microservices archite
         - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
         - [Linux & SSH 🌟](linux.md)
         - [YAML processors](yaml-processors.md)
+        - [MkDocs](mkdocs.md)
 12. [Caching Solutions](caching.md)
 13. [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
 14. Configuration Management

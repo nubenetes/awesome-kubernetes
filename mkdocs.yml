@@ -4,6 +4,7 @@ site_description: A curated list of awesome IT projects and resources. Inspired 
 site_author: inafev
 docs_dir: docs/
 #repo_name: redhatspain/awesome-kubernetes
+repo_name: 'GitHub'
 repo_url: https://github.com/redhatspain/awesome-kubernetes
 theme: 
   name: material 
@@ -76,6 +77,7 @@ nav:
       - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
       - Linux & SSH: linux.md
       - YAML processors: yaml-processors.md
+      - MkDocs: mkdocs.md
   - Caching Solutions: caching.md
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
