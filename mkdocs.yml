@@ -45,7 +45,6 @@ markdown_extensions:
   - pymdownx.tilde
   - codehilite
   - footnotes
-  - emailprotect
   - toc:
       permalink: true
       baselevel: 2
