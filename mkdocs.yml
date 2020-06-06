@@ -177,4 +177,5 @@ extra:
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars
     #- icon: fontawesome/regular/envelope
-    #  link: info@redhatspain.com 
+    - icon: fontawesome/brands/speaker-deck
+      link: info@redhatspain.com 
