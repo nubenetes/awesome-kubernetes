@@ -5,6 +5,7 @@
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
+- [DevOps Tools](#devops-tools)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
     - [AWS DevOps](#aws-devops)
@@ -35,9 +36,12 @@
 * [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
 * [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
 * [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
+* [dzone: The 10-Minute Read to Understanding DevOps Tools 🌟](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
+
+[![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 </center>
 
 ## DevOps as a Service (DaaS)
@@ -52,7 +56,22 @@
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)
 - [The Ultimate DevOps Tool Chest 🌟](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+    - [The Ultimate List of Open Source DevOps Tools](https://xebialabs.com/the-ultimate-devops-tool-chest/open-source/)
 - [Periodic Table of DevOps 🌟](https://xebialabs.com/periodic-table-of-devops-tools/)
+
+## DevOps Tools
+- [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/resources/devops-report-2020)
+- [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation) 
+- [dzone: Most Popular DevOps Tools You Must Learn In 2019](https://dzone.com/articles/most-popular-devops-tools-you-must-learn-in-2019)
+- [dzone: 5 DevOps Tools You Should Know In 2019](https://dzone.com/articles/5-devops-tools-you-should-know-in-2019) From containers and automation to CI/CD, this list has five basic tools you need to get started with DevOps.
+- [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)
+- [raygun.com: The 10 best DevOps tools for 2020](https://raygun.com/blog/best-devops-tools/)
+- [hackr.io: Top 10 DevOps Tools To Look For in 2020](https://hackr.io/blog/top-devops-tools)
+- [medium: The 10 best DevOps tools for 2020](https://medium.com/javarevisited/the-10-best-devops-tools-for-2020-72e7c489342a)
+- [victorops.com: 20 Top DevOps Tools for 2020](https://victorops.com/blog/20-top-devops-tools-for-2020)
+- [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)
+- [geekflare.com: devops-tools](https://geekflare.com/devops-tools/)
+- [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools/)
 
 ## Netflix and DevOps
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
