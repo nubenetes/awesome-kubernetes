@@ -37,7 +37,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tabbed
   - pymdownx.tilde
-  - codehilite
   - footnotes 
   #- sphinx_search.extension
   - toc:
