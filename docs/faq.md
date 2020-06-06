@@ -10,10 +10,18 @@
 ## Kubernetes Native
 - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native/)
 
+## Migration Styles. Lift and Shift Cloud Migration Strategy
+- [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU):
+    - Lift and shift is a cloud migration strategy that refers to removing workloads and tasks from one storage location and placing them in another, usually cloud-based, location.
+    - Moving applications to the cloud can be challenging if you are unprepared. In fact, many businesses experience some level of migration failure because of poor planning.
+    - The lift and shift migration style is one of the approaches that can help you transition to the cloud without the need to redesign applications or disrupt workflow operations.
+    - It all starts with containerizing the applications using platforms like Docker and then moving entirely to a microservices architecture.
 
 ---
 <center>
 [![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 
 [![Full Stack developer](images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
+
+[![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
 </center>
