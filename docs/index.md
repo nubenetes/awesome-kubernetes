@@ -73,7 +73,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
     - Toolchain
         - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
-        - [Maven & Gradle](maven-gradle.md)
+        - [Maven, Gradle & SDKMAN](maven-gradle.md)
         - [SonarQube](sonarqube.md)
         - [Nexus & JFrog Artifactory](nexus-jfrog.md)
         - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
