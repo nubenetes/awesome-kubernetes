@@ -2,7 +2,7 @@
 
 A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
 
-[Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) with *Material theme* available at [redhatspain.com](https://redhatspain.com)
+[Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) also available at [redhatspain.com](https://redhatspain.com)
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
 

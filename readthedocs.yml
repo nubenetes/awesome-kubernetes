@@ -2,7 +2,7 @@
 version: 2
 
 mkdocs:
-  configuration: mkdocs-readthedocs.yml
+  configuration: mkdocs.yml
 
 # Optionally build your docs in additional formats such as PDF
 formats: all
@@ -10,4 +10,4 @@ formats: all
 python:
   version: 3.7
   install:
-    - requirements: requirements-readthedocs.txt
+    - requirements: requirements.txt
