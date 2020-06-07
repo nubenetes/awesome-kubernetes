@@ -110,7 +110,7 @@
 
 [![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
 
-![DevOps dilbert](images/dilbert_devops.jpg)
+[![DevOps dilbert](images/dilbert_devops.jpg)](https://dilbert.com/)
 
 [![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
       
