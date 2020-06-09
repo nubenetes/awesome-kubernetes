@@ -7,6 +7,8 @@
 <!-- MarkdownTOC -->
 
 - [Amazon Web Services](#amazon-web-services)
+- [Blogs](#blogs)
+- [AWS Free Resources](#aws-free-resources)
 - [Awesome AWS](#awesome-aws)
 - [AWS Glossary](#aws-glossary)
 - [AWS on Twitter](#aws-on-twitter)
@@ -80,7 +82,6 @@
 - [Localstack](#localstack)
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [Spain](#spain)
-- [Blogs](#blogs)
 - [AWS Pricing](#aws-pricing)
 - [Videos](#videos)
 
@@ -95,6 +96,20 @@
 - [AWS 10-Minute Tutorials 🌟](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 - [onlineitguru.com: AWS Services 🌟](https://onlineitguru.com/tutorial/aws-services)
+
+## Blogs
+- [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
+
+## AWS Free Resources
+- https://aws.amazon.com/architecture
+- https://aws.amazon.com/whitepapers
+- https://docs.aws.amazon.com
+- https://www.aws.training
+- https://aws.amazon.com/solutions/case-studies
+- https://www.youtube.com/user/amazonWebServices
+- https://forums.aws.amazon.com
+- https://aws.amazon.com/blogs
+- https://www.slideshare.net/AmazonWebServices 
 
 ## Awesome AWS
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
@@ -519,9 +534,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
-
-## Blogs
-- [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
 
 ## AWS Pricing
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)

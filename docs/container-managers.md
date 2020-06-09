@@ -60,6 +60,8 @@
 - [Red Hat Ecosystem Catalog](https://catalog.redhat.com/software/containers/explore)
 
 ## Container Tools
+- [Say “Hello” to Buildah, Podman, and Skopeo. New Generation of Container Management Tools](https://servicesblog.redhat.com/2019/10/09/say-hello-to-buildah-podman-and-skopeo/)
+
 ### Buildah
 - [Buildah.io](https://buildah.io/) A tool that facilitates building [Open Container Initiative (OCI)](https://www.opencontainers.org/) container images
     - [github.com/containers/buildah](https://github.com/containers/buildah)

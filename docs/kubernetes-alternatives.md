@@ -16,6 +16,7 @@
 * [codemotion.com: Nomad vs Kubernetes but without the complexity](https://www.codemotion.com/magazine/dev-hub/backend-dev/nomad-kubernetes-but-without-the-complexity/)
 * [autentia.com: Nomad vs. Kubernetes](https://www.autentia.com/2018/09/20/nomad-vs-kubernetes/)
 * [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
+* [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/)
 
 ## Portainer
 * [Portainer](https://www.portainer.io/) Making Docker management easy

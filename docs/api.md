@@ -82,7 +82,8 @@
 ### GraphQL
 - [GraphQL](https://graphql.org/) A query language for your API
 - [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) How are screws better than nails? Both are useful tools that solve similar problems in slightly different ways. OpenAPI Specification offers a declarative contract that defines the structure of API requests and responses as discrete operations. GraphQL prefers an interface style that is more like querying a database and is best suited to graph databases. 
-
+- [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/)
+ 
 ## Free Web Services (Public APIs)
 - [free-web-services.com](http://free-web-services.com/)
 - [SwaggerHub: Free Web Service](https://swagger.io/tools/swaggerhub/)
