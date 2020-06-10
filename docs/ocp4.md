@@ -31,6 +31,11 @@
 - [OpenShift 4 Training](#openshift-4-training)
 - [OpenShift 4 Roadmap](#openshift-4-roadmap)
 - [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
+- [Networking in OCP4. SDN/CNI plug-ins](#networking-in-ocp4-sdncni-plug-ins)
+    - [Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network](#multiple-networks-with-sdncni-plug-ins-usage-scenarios-for-an-additional-network)
+    - [Istio CNI plug-in](#istio-cni-plug-in)
+    - [Calico CNI Plug-in](#calico-cni-plug-in)
+    - [Third Party Network Operators with OpenShift](#third-party-network-operators-with-openshift)
 - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
 - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
 - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
@@ -459,8 +464,28 @@ oc login
 * [kubevirt.io 🌟](https://kubevirt.io/) 
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 
+## Networking in OCP4. SDN/CNI plug-ins
+- [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
+
+### Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network
+- [Understanding multiple networks](https://docs.openshift.com/container-platform/4.4/networking/multiple_networks/understanding-multiple-networks.html) In Kubernetes, container networking is delegated to networking plug-ins that implement the Container Network Interface (CNI). OpenShift Container Platform uses the [Multus CNI plug-in](https://github.com/openshift/multus-cni) to allow chaining of CNI plug-ins. During cluster installation, you configure your default Pod network. The default network handles all ordinary network traffic for the cluster. You can define an additional network based on the available CNI plug-ins and attach one or more of these networks to your Pods. You can define more than one additional network for your cluster, depending on your needs. This gives you flexibility when you configure Pods that deliver network functionality, such as switching or routing. 
+- You can use an additional network in situations where network isolation is needed, including data plane and control plane separation. Isolating network traffic is useful for the following performance and security reasons:
+    - **Performance:** You can send traffic on two different planes in order to manage how much traffic is along each plane.
+    - **Security:** You can send sensitive traffic onto a network plane that is managed specifically for security considerations, and you can separate private data that must not be shared between tenants or customers.
+- **All of the Pods in the cluster still use the cluster-wide default network to maintain connectivity across the cluster.** Every Pod has an eth0 interface that is attached to the cluster-wide Pod network. You can view the interfaces for a Pod by using the oc exec -it <pod_name> -- ip a command. If you add additional network interfaces that use Multus CNI, they are named net1, net2, …​, netN.
+- To attach additional network interfaces to a Pod, you must create configurations that define how the interfaces are attached. You specify each interface by using a Custom Resource (CR) that has a NetworkAttachmentDefinition type. A CNI configuration inside each of these CRs defines how that interface is created.
+
+### Istio CNI plug-in
+- [Istio CNI plug-in 🌟](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_arch/ossm-vs-community.html#ossm-cni_ossm-vs-istio) Red Hat OpenShift Service Mesh includes CNI plug-in, which provides you with an alternate way to configure application pod networking. The CNI plug-in replaces the init-container network configuration eliminating the need to grant service accounts and projects access to Security Context Constraints (SCCs) with elevated privileges.
+
+### Calico CNI Plug-in
+- [Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟](https://www.openshift.com/blog/operator-based-calico-cni-plug-in-is-supported-on-openshift-4)
+
+### Third Party Network Operators with OpenShift
+- [Using Third Party Network Operators with OpenShift](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/using-third-party-network-operators-with-openshift)
+
 ## Storage in OCP 4. OpenShift Container Storage (OCS)
-- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
+- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/) 
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
   
 ## Red Hat Advanced Cluster Management for Kubernetes

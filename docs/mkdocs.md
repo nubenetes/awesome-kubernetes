@@ -19,3 +19,7 @@
 
 ## GitHub Pages
 - [pages.github.com](https://pages.github.com/)
+
+## GitBook
+- [gitbook.com](https://www.gitbook.com/)
+    - [Example](https://redhat-connect.gitbook.io/certified-operator-guide/)
