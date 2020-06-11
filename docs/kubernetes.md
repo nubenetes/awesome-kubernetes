@@ -52,6 +52,7 @@
 - [Kubernetes Networking](#kubernetes-networking)
     - [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
     - [CNI Container Networking Interface](#cni-container-networking-interface)
+        - [List of existing CNI Plugins](#list-of-existing-cni-plugins)
         - [Project Calico](#project-calico)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
 - [Kubernetes Security](#kubernetes-security)
@@ -526,6 +527,23 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * [CNI](https://github.com/containernetworking/cni)
 * [dzone: How to Understand and Set Up Kubernetes Networking 🌟](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking) Take a look at this tutorial that goes through and explains the inner workings of Kubernetes networking, including working with multiple networks.
 * [medium: Container Networking Interface aka CNI](https://medium.com/@vikram.fugro/container-networking-interface-aka-cni-bdfe23f865cf)
+
+#### List of existing CNI Plugins 
+- Overlay Network plugins:
+    - Flannel
+    - Weave-net
+- Routed Network Plugins:
+    - AWS-VPC
+    - kube-router
+    - Calico
+    - Canal
+- IPAM modules:
+    - dhcp
+    - host-local
+- Multi CNI plugins:
+    - Damn
+    - Multus
+    - CNI-Genie
 
 #### Project Calico
 * [Project Calico 🌟](https://www.projectcalico.org/) Secure networking for the cloud native era
