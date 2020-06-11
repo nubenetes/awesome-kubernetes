@@ -7,6 +7,7 @@
 - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)
 - [Dzone: how to download and install postman REST client](https://dzone.com/articles/how-to-download-and-install-postman-rest-client-so)
 - [Dzone: using postman REST client, quick tips](https://dzone.com/articles/using-postman-rest-client-cleverly-some-quick-tips)
+- [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery/)
 
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman

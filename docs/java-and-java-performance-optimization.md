@@ -1,5 +1,6 @@
 # Java and Memory Management
 - [Java Performance Optimization](#java-performance-optimization)
+    - [Benchmarking modern Java Virtual Machines and the next-generation garbage collectors](#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors)
     - [Relevant JVM Metrics](#relevant-jvm-metrics)
     - [Common JVM Errors](#common-jvm-errors)
     - [Tuning Jenkins GC](#tuning-jenkins-gc)
@@ -19,6 +20,9 @@
 - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes) Your Java application has been running fine, but all of a sudden CPU consumption starts to go higher and higher... sound familiar?
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching)
 * [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1) How to use 7 JVM arguments to help increase your application's performance and avoid common memory pitfalls.
+
+### Benchmarking modern Java Virtual Machines and the next-generation garbage collectors
+* [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1) The Java runtime has been evolving more rapidly in recent years and, after 15 years, we finally got a **new default garbage collector: the G1**. Two more GCs are on their way to production and are available as experimental features: **Oracle's ZGC** and **OpenJDK's Shenandoah**. We at Hazelcast thought it was time to put all these new options to the test and find which choices work well with workloads typical for our distributed stream processing engine, [Hazelcast Jet](https://jet-start.sh/).
 
 ### Relevant JVM Metrics
 Metric|Details / Reference

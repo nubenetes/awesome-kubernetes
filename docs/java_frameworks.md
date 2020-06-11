@@ -6,6 +6,7 @@
 - [Jakarta EE](#jakarta-ee)
 - [Eclipse MicroProfile](#eclipse-microprofile)
 - [Spring](#spring)
+    - [Spring Cloud](#spring-cloud)
     - [SpringBoot](#springboot)
     - [SpringBoot with Docker](#springboot-with-docker)
     - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
@@ -69,9 +70,14 @@ optimizing Enterprise Java for the microservices architecture.
 
 ## Spring 
 - [Spring](https://spring.io/)
-- [SpringBoot](https://spring.io/projects/spring-boot)
+- [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html)
+- [javatutorial.net: Introduction to Spring Web Framework](https://javatutorial.net/introduction-to-spring-web-framework)
+- [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html)
+- [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d)
+
+### Spring Cloud
 - [Spring Cloud](https://spring.io/projects/spring-cloud)
-    - [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
+- [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)
@@ -83,6 +89,8 @@ optimizing Enterprise Java for the microservices architecture.
 - [javatutorial.net: Spring vs. Java EE](https://javatutorial.net/spring-vs-java-ee)
 - [medium.com: Spring Cloud kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
+- [**Spring Boot Istio library**: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/)
+* [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications)
 
 ### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
