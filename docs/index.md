@@ -132,7 +132,7 @@ A curated list of awesome references collected since 2018. Microservices archite
         - [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
     - [Microsoft Azure](azure.md)
         - [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
-    - [IBM Cloud](ibm_cloud.md)
+    - [IBM & IBM Cloud](ibm_cloud.md)
         - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
     - [Oracle Cloud](oraclecloud.md)
     - [Digital Ocean](digitalocean.md)

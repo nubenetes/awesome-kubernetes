@@ -466,6 +466,11 @@ oc login
 
 ## Networking in OCP4. SDN/CNI plug-ins
 - [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
+- Currently, the **default OpenShift CNI is OpenShift SDN (network-policy)**, which configures an **overlay network using Open vSwitch** (OVS 2.11). The following diagram shows the CNI options for OpenShift and the status of each (supported, validated, etc. …):
+
+<center>
+[![ocp4 cni arch](images/ocp4_cni_arch.png)](https://www.openshift.com/blog/demystifying-multus)
+</center>
 
 ### Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network
 - [Understanding multiple networks](https://docs.openshift.com/container-platform/4.4/networking/multiple_networks/understanding-multiple-networks.html) In Kubernetes, container networking is delegated to networking plug-ins that implement the Container Network Interface (CNI). OpenShift Container Platform uses the [Multus CNI plug-in](https://github.com/openshift/multus-cni) to allow chaining of CNI plug-ins. During cluster installation, you configure your default Pod network. The default network handles all ordinary network traffic for the cluster. You can define an additional network based on the available CNI plug-ins and attach one or more of these networks to your Pods. You can define more than one additional network for your cluster, depending on your needs. This gives you flexibility when you configure Pods that deliver network functionality, such as switching or routing. 
@@ -474,12 +479,14 @@ oc login
     - **Security:** You can send sensitive traffic onto a network plane that is managed specifically for security considerations, and you can separate private data that must not be shared between tenants or customers.
 - **All of the Pods in the cluster still use the cluster-wide default network to maintain connectivity across the cluster.** Every Pod has an eth0 interface that is attached to the cluster-wide Pod network. You can view the interfaces for a Pod by using the oc exec -it <pod_name> -- ip a command. If you add additional network interfaces that use Multus CNI, they are named net1, net2, …​, netN.
 - To attach additional network interfaces to a Pod, you must create configurations that define how the interfaces are attached. You specify each interface by using a Custom Resource (CR) that has a NetworkAttachmentDefinition type. A CNI configuration inside each of these CRs defines how that interface is created.
+- [openshift.com: Demystifying Multus 🌟](https://www.openshift.com/blog/demystifying-multus)
 
 ### Istio CNI plug-in
 - [Istio CNI plug-in 🌟](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_arch/ossm-vs-community.html#ossm-cni_ossm-vs-istio) Red Hat OpenShift Service Mesh includes CNI plug-in, which provides you with an alternate way to configure application pod networking. The CNI plug-in replaces the init-container network configuration eliminating the need to grant service accounts and projects access to Security Context Constraints (SCCs) with elevated privileges.
 
 ### Calico CNI Plug-in
 - [Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟](https://www.openshift.com/blog/operator-based-calico-cni-plug-in-is-supported-on-openshift-4)
+- [docs.projectcalico.org: Install an OpenShift 4 cluster with Calico](https://docs.projectcalico.org/getting-started/openshift/installation)
 
 ### Third Party Network Operators with OpenShift
 - [Using Third Party Network Operators with OpenShift](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/using-third-party-network-operators-with-openshift)
