@@ -35,7 +35,7 @@
 - [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
 
 ### Rancher Networking and CNI Providers 
-- [Rancher CNI Providers(https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers/)
+- [Rancher CNI Providers 🌟](https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers/)
 
 ### Rancher 2 RKE
 - [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
