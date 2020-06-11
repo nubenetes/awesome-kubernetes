@@ -16,10 +16,11 @@
 - [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
     - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
+    - [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
+        - [KsqlDB](#ksqldb)
     - [Apache Pulsar](#apache-pulsar)
     - [Apache Flink](#apache-flink)
     - [Hazelcast JET](#hazelcast-jet)
-    - [KsqlDB](#ksqldb)
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red Hat AMQ Streams](#red-hat-amq-streams)
@@ -109,6 +110,14 @@
 - [Banzai Kafka Operator](https://github.com/banzaicloud/kafka-operator)
 - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits/)
 
+### Confluent Cloud (Apache Kafka Re-engineered for the Cloud)
+- [confluent.io](https://www.confluent.io/) The Complete Event Streaming Platform for Apache Kafka. 
+- Focus on building apps and not managing clusters with a scalable, resilient and secure event streaming platform. Event streaming with Kafka made simple on AWS, Azure and GCP clouds.
+
+#### KsqlDB
+- [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.
+- [Kafka Streams and ksqlDB Compared – How to Choose](https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/)
+
 ### Apache Pulsar
 - [Apache Pulsar](https://pulsar.apache.org/) is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation
 - [Pulsar vs Kafka – Comparison and Myths Explored](https://www.kai-waehner.de/blog/2020/06/09/apache-kafka-versus-apache-pulsar-event-streaming-comparison-features-myths-explored/)
@@ -120,10 +129,6 @@
 ### Hazelcast JET
 - [Hazelcast JET](https://jet-start.sh/) Open-Source Distributed Stream Processing
 - [devops.com: Hazelcast Simplifies Streaming for Extremely Fast Event Processing in IoT, Edge and Cloud Environments](https://devops.com/hazelcast-simplifies-streaming-for-extremely-fast-event-processing-in-iot-edge-and-cloud-environments/)
-
-### KsqlDB
-- [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.
-- [Kafka Streams and ksqlDB Compared – How to Choose](https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/)
 
 ## Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)
 - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)
