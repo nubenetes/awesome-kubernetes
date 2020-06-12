@@ -13,7 +13,9 @@
     * Terraform, Packer, Ansible, Flyway.
     * Private and Public Cloud: OpenStack, OpenShift 3.10 on-premise, AWS.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
-    * BMC Remedy ITSM.
+    * Dynatrace APM
+    * Rocket Chat
+    * BMC Remedy ITSM
 
 ### BMW ConnectedDrive and OpenShift
 * [**BMW ConnectedDrive**:](https://www.bmw-connecteddrive.com/) BMW ConnectedDrive Platform helps drivers communicate with their cars. Initially, the platform was enabled for convenience type of features like locating the vehicle, sounding the horn, locking the car, remote car health check... As the adoption of electric cars grows, BMW decided to create an ultimate driving experience by add new services addressing the unique challenges of electric vehicles, like locating the closest electric charging stations, monitoring the car battery... This addition of new services has been creating new challenges in terms of API security. 
