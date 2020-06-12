@@ -88,7 +88,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 14. Configuration Management
     - [Ansible](ansible.md)
     - [Chef](chef.md)
-    - [Liquibase](liquibase.md)
+    - [Liquibase and Flyway](liquibase.md)
     - [Terraform & Packer](terraform.md)
 15. Databases on Kubernetes
     - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)

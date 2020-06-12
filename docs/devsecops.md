@@ -8,6 +8,7 @@
     - [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
     - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
+- [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -38,3 +39,6 @@
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
+
+## Databases in DMZ and Intranet
+- [Databases in DMZ and Intranet](https://security.stackexchange.com/questions/58167/databases-in-dmz-and-intranet)
