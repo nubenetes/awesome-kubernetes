@@ -167,6 +167,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Subreddits and Newsfeeds](newsfeeds.md)
 ## Other Awesome Lists
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
+---
+<center>
+[![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
+</center>
+
 <!-- El fin de la memoria? Documental 
 <center>
     
@@ -175,7 +180,3 @@ A curated list of awesome references collected since 2018. Microservices archite
 </div>
 </br>
 -->
----
-<center>
-[![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
-</center>
