@@ -51,6 +51,7 @@
 - Alternative to [Red Hat Advanced Cluster Management for Kubernetes](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
 - [IBM Cloud Pak for Multicloud Management](https://www.ibm.com/cloud/cloud-pak-for-management) Automated, end-to-end lifecycle management for applications and IT operations.
 - [IBM Knowledge Center: IBM Cloud Pak for Multicloud Management](https://www.ibm.com/support/knowledgecenter/SSFC4F) The IBM Cloud Pak for Multicloud Management, running on Red Hat® OpenShift®, provides consistent visibility, governance, and automation from on premises to the edge.
+- [medium.com/search?q=cp4mcm](https://medium.com/search?q=cp4mcm)
 - [medium: tagged/cp4mcm](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/tagged/cp4mcm)
     - [medium: IBM Multicloud Manager Cluster Sizing](https://medium.com/@cdoan/ibm-multicloud-manager-cluster-sizing-bc3b609b7de9)
     - [medium: Installing Monitoring Module on IBM Cloud Pak for MultiCloud Management](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/installing-monitoring-module-on-ibm-cloud-pak-for-multicloud-management-v1-3-0-58e5d3e5e047)
