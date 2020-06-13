@@ -14,7 +14,7 @@
     * Swagger, Postman, Visual Studio Code.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
     * Hybrid Clouds: OpenStack on-premise clusters, OpenShift 3.10 on-premise clusters, AWS.
-    * Dynatrace APM
+    * Dynatrace APM, Prometheus, Grafana.
     * Rocket Chat
     * BMC Remedy ITSM
     * DevOps with Scrum, GitOps, ITIL Incident Management Workflow, Remote Work
