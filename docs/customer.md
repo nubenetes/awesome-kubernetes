@@ -17,7 +17,7 @@
     * Dynatrace APM
     * Rocket Chat
     * BMC Remedy ITSM
-    * DevOps with Scrum, GitOps, ITIL Icident Management Workflow, Remote Work
+    * DevOps with Scrum, GitOps, ITIL Incident Management Workflow, Remote Work
     * International Deloitte team based in Munich and outside Germany: Germany, Poland, Albany, Bulgaria, Portugal, Spain.
 
 ### BMW ConnectedDrive and OpenShift
