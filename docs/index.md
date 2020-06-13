@@ -11,15 +11,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/IBMCloud) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/AmazonWebServices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/windowsazure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC60OcDzeEtn194-UPYNJs8A) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/DigitalOceanVideos) [![digitalocean videos](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![digitalocean videos](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC-AdvAxaagE9W2f0webyNUQ) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ) [![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/GoAtlassian)<br/> 
 [![prometheus videos](images/prometheus_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA) [![grafana videos](images/grafana_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCYCwgQAMm9sTJv0rgwQLCxw) [![istio videos](images/istio_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC-zVlo1F3mUbExQ96fABWcQ) [![elastic videos](images/elasticsearch_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/elasticsearch) [![dynatrace videos](images/dynatrace_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcYJ-5q_AfmjQ4XTjTS0o3g) [![appdynamics videos](images/appdynamics_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCTL2V4fqMMERSWQa1kT4EMw) [![newrelic videos](images/newrelic_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/NewRelicInc) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SmartBearSoftware) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCs5Y5_7XK8HLDX0SLNwkd3w) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/ChromeDevelopers)
 </center>
-<!-- youtube player 
-<div id="player"></div>
--->
-<!--
-<img alt="Container with cars" src="images/container_with_cars.png"> 
-<head>
-<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
-</head>
--->
 ---
 
 ## Introduction. Openshift VS Kubernetes
@@ -172,6 +163,16 @@ A curated list of awesome references collected since 2018. Microservices archite
 <center>
 [![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
 </center>
+
+<!-- youtube player 
+<div id="player"></div>
+-->
+<!--
+<img alt="Container with cars" src="images/container_with_cars.png"> 
+<head>
+<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
+</head>
+-->
 
 <!-- El fin de la memoria? Documental 
 <center>
