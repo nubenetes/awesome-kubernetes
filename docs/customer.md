@@ -6,16 +6,19 @@
 ## BMW IT-Zentrum (Munich)
 * [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
 * CI/CD at BMW IT-Zentrum (2018): 
-    * Jenkins (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
+    * Jenkins in OpenShift (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
     * Requirements of each microservice defined in a single json file.
-    * Java Frameworks: Java EE (Jakarta EE) running on Payara 
+    * Java Frameworks: Java EE (Jakarta EE) running on Payara. 
     * Docker, HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
     * Terraform, Packer, Ansible, Flyway.
-    * Private and Public Cloud: OpenStack, OpenShift 3.10 on-premise, AWS.
+    * Swagger, Postman, Visual Studio Code.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
+    * Hybrid Clouds: OpenStack on-premise clusters, OpenShift 3.10 on-premise clusters, AWS.
     * Dynatrace APM
     * Rocket Chat
     * BMC Remedy ITSM
+    * DevOps with Scrum, GitOps, ITIL Icident Management Workflow, Remote Work
+    * International Deloitte team based in Munich and outside Germany: Germany, Poland, Albany, Bulgaria, Portugal, Spain.
 
 ### BMW ConnectedDrive and OpenShift
 * [**BMW ConnectedDrive**:](https://www.bmw-connecteddrive.com/) BMW ConnectedDrive Platform helps drivers communicate with their cars. Initially, the platform was enabled for convenience type of features like locating the vehicle, sounding the horn, locking the car, remote car health check... As the adoption of electric cars grows, BMW decided to create an ultimate driving experience by add new services addressing the unique challenges of electric vehicles, like locating the closest electric charging stations, monitoring the car battery... This addition of new services has been creating new challenges in terms of API security. 
