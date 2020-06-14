@@ -109,12 +109,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
-- [Consul](consul.md)
-- [Envoy & xDS protocol](envoyproxy.md)
 - [Istio](istio.md)
-- [Linkerd](linkerd.md)
-- [Maesh](maesh.md)
-- [Traffic Director](trafficdirector.md)
 ## Security and DevSecOps. Container Security
 - [Security and DevSecOps. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
