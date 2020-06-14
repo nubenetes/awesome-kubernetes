@@ -152,11 +152,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
 ## More References
-### E-Learning
 - [E-Learning](elearning.md)
-### Subreddits and Newsfeeds
 - [Subreddits and Newsfeeds](newsfeeds.md)
-### Other Awesome Lists
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
 
 ---
