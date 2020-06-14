@@ -94,14 +94,15 @@ nav:
       - Maven, Gradle & SDKMAN: maven-gradle.md
       - SonarQube: sonarqube.md
       - Nexus & JFrog Artifactory: nexus-jfrog.md
-      - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
-      - Payara App Server: payara.md
-      - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
       - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
       - Linux & SSH: linux.md
       - YAML processors: yaml-processors.md
       - MkDocs & GitHub Pages: mkdocs.md
-  - Caching Solutions: caching.md
+    - Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions: 
+      - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
+      - Payara App Server: payara.md
+      - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
+      - Caching Solutions: caching.md
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
     - Ansible: ansible.md

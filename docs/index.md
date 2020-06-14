@@ -86,14 +86,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
 - [SonarQube](sonarqube.md)
 - [Nexus & JFrog Artifactory](nexus-jfrog.md)
-- [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
-- [Payara App Server](payara.md) 
-- [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
 - [Linux & SSH 🌟](linux.md)
 - [YAML processors](yaml-processors.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
-## Caching Solutions
+### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+- [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
+- [Payara App Server](payara.md) 
+- [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 - [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
 - [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
