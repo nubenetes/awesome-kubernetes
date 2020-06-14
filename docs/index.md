@@ -15,9 +15,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 ## Introduction. Openshift VS Kubernetes
 - [Introduction. Openshift VS Kubernetes](introduction.md)
+- [From Java EE To Cloud Native](javaee-to-cloud-native.md)
+- [Microservices FAQ & Kubernetes Native](faq.md)
+### References
 - [microservices.io](https://microservices.io/)
-- [landscape.cncf.io](https://landscape.cncf.io/)
+- [cncf.io](https://www.cncf.io/)
+    - [landscape.cncf.io](https://landscape.cncf.io/)
     - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
+    - [CNCF Survey Report 2019](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
 - [CRI-O Lightweight Container Runtime for Kubernetes](https://cri-o.io/)
 - [Open Container Initiative](https://www.opencontainers.org/)
 - [agilemethodology.org](http://agilemethodology.org/)
@@ -25,8 +30,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [12factor.net](https://12factor.net/)
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
-- [From Java EE To Cloud Native](javaee-to-cloud-native.md)
-- [Microservices FAQ & Kubernetes Native](faq.md)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
 ## Site Reliability Engineering (SRE)
 - [Site Reliability Engineering (SRE)](sre.md)
@@ -44,11 +47,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [TestOps and Continuous Testing](testops.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
+- [Work From Home](workfromhome.md)
+- [Appointment Scheduling](appointment-scheduling.md)
+### References
 - [Jira](https://www.atlassian.com/software/jira) 
 - [OpenProject](https://www.openproject.org/)
 - [Confluence](https://www.atlassian.com/software/confluence)
-- [Work From Home](workfromhome.md)
-- [Appointment Scheduling](appointment-scheduling.md)
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -60,6 +64,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [OpenShift 🌟](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
+### References
 - [OpenShift.tv](https://openshift.tv) Red Hat OpenShift Streaming
 - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
