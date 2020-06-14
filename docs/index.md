@@ -60,6 +60,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [OpenShift 🌟](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
+- [OpenShift.tv](https://openshift.tv) Red Hat OpenShift Streaming
 - [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
 - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
