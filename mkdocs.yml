@@ -68,8 +68,9 @@ nav:
   - TestOps and Continuous Testing: testops.md
   - Project Management Methodology:
     - Project Management Methodology: project-management-methodology.md
-    - Work From Home: workfromhome.md
+    - Project Management Tools: project-management-tools.md
     - Appointment Scheduling: appointment-scheduling.md
+    - Work From Home: workfromhome.md
   - Docker: docker.md
   - Kubernetes: 
     - Kubernetes: kubernetes.md
@@ -80,6 +81,7 @@ nav:
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
+    - Customer Success Stories: customer.md
   - Software Delivery Pipeline: 
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
@@ -130,13 +132,13 @@ nav:
   - Development & Frameworks:
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
+    - JavaScript - node.js & npm: javascript.md
+    - Python - Django & Flask: python.md
+    - Xamarin: xamarin.md
     - Java:
       - Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more: java_frameworks.md
       - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
       - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
-    - JavaScript - node.js & npm: javascript.md
-    - Python - Django & Flask: python.md
-    - Xamarin: xamarin.md
   - Dev Environment:
     - Visual Studio Code: visual-studio.md
     - WSL - Linux Dev Environment on Windows: linux-dev-env.md
@@ -154,7 +156,6 @@ nav:
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
   - E-Learning: elearning.md
-  - Customer Success Stories: customer.md
   - Subreddits: newsfeeds.md
   - Other Awesome Lists: other-awesome-lists.md
   - About: about.md

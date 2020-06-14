@@ -13,11 +13,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 </center>
 ---
 
-## Introduction. Openshift VS Kubernetes
-- [Introduction. Openshift VS Kubernetes](introduction.md)
-- [From Java EE To Cloud Native](javaee-to-cloud-native.md)
-- [Microservices FAQ & Kubernetes Native](faq.md)
-### References
+## Introduction
 - [microservices.io](https://microservices.io/)
 - [cncf.io](https://www.cncf.io/)
     - [landscape.cncf.io](https://landscape.cncf.io/)
@@ -31,6 +27,10 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
+### Openshift VS Kubernetes
+- [Introduction. Openshift VS Kubernetes](introduction.md)
+- [From Java EE To Cloud Native](javaee-to-cloud-native.md)
+- [Microservices FAQ & Kubernetes Native](faq.md)
 ## Site Reliability Engineering (SRE)
 - [Site Reliability Engineering (SRE)](sre.md)
 ## DevOps
@@ -47,12 +47,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [TestOps and Continuous Testing](testops.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
-- [Work From Home](workfromhome.md)
+- [Project Management Tools](project-management-tools.md)
 - [Appointment Scheduling](appointment-scheduling.md)
-### References
-- [Jira](https://www.atlassian.com/software/jira) 
-- [OpenProject](https://www.openproject.org/)
-- [Confluence](https://www.atlassian.com/software/confluence)
+- [Work From Home](workfromhome.md)
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -62,19 +59,27 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 ## OpenShift
 - [OpenShift 🌟](openshift.md)
+- [OpenShift.tv](https://openshift.tv) Red Hat OpenShift Streaming
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
-### References
-- [OpenShift.tv](https://openshift.tv) Red Hat OpenShift Streaming
-- [Red Hat Developer @Youtube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q)
-- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
 - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
+### OpenShift on Public Cloud
+- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
+- [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
+- [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
+- [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
+- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+### Customer Success Stories
+- [Customer Success Stories 🌟](customer.md)
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
+### Jenkins & CloudBees 
 - [Jenkins & CloudBees 😀](jenkins.md)
-    - [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
+- [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
+### OpenShift Pipelines
 - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
+### Jenkins Alternatives
 - [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
 ### Toolchain
 - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
@@ -123,13 +128,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Development & Frameworks
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)
-- [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
-    - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
-    - [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
 - [Xamarin](xamarin.md)
-## Dev Environment 
+### Java
+- [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
+- [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
+- [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
+### Dev Environment 
 - [Visual Studio Code 🌟](visual-studio.md)
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
@@ -138,31 +144,19 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Public Cloud Solutions](public-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
-### AWS
 - [AWS](aws.md)
-- [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
-### Google Cloud Platform 
 - [Google Cloud Platform](GoogleCloudPlatform.md)
-- [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
-### Microsoft Azure 
 - [Microsoft Azure](azure.md)
-- [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
-### IBM & IBM Cloud 
 - [IBM & IBM Cloud](ibm_cloud.md)
-- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
-### Oracle Cloud 
-- [Oracle Cloud](oraclecloud.md)
-### Digital Ocean 
+- [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)
-### Cloudflare 
 - [Cloudflare](cloudflare.md)
-## E-Learning
+## More References
+### E-Learning
 - [E-Learning](elearning.md)
-## Customer Success Stories
-- [Customer Success Stories 🌟](customer.md)
-## Subreddits and Newsfeeds
+### Subreddits and Newsfeeds
 - [Subreddits and Newsfeeds](newsfeeds.md)
-## Other Awesome Lists
+### Other Awesome Lists
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
 
 ---
