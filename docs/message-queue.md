@@ -104,6 +104,7 @@
 - [developers.redhat.com: Using secrets in Kafka Connect configuration](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 - [developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors](https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/)
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
+* [Single Message Transformations - The Swiss Army Knife of Kafka Connect](https://www.morling.dev/blog/single-message-transforms-swiss-army-knife-of-kafka-connect/)
 
 ### Banzai Cloud Supertubes (Cloud Native Kafka implementation)
 - [Banzai Cloud](https://banzaicloud.com/)

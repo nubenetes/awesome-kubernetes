@@ -15,6 +15,7 @@
     - [GraphQL](#graphql)
 - [Free Web Services (Public APIs)](#free-web-services-public-apis)
 - [Related](#related)
+- [API Business Models](#api-business-models)
 
 ## APIs
 - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)
@@ -96,3 +97,11 @@
 * [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)
 * [Dzone: Step-By-Step Spring Boot RESTful Web Service Complete Example](https://dzone.com/articles/spring-boot-restful-web-service-complete-example)
 * [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/)
+
+## API Business Models
+- [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)
+
+---
+<center>
+[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
+</center>

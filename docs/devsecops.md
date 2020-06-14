@@ -9,6 +9,7 @@
     - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
+- [Manage your secrets in Git with SOPS for Kubernetes](#manage-your-secrets-in-git-with-sops-for-kubernetes)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -42,3 +43,6 @@
 
 ## Databases in DMZ and Intranet
 - [Databases in DMZ and Intranet](https://security.stackexchange.com/questions/58167/databases-in-dmz-and-intranet)
+
+## Manage your secrets in Git with SOPS for Kubernetes
+- [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)

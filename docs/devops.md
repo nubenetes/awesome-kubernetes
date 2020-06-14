@@ -38,6 +38,7 @@
 * [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
 * [dzone: The 10-Minute Read to Understanding DevOps Tools 🌟](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 * [stackoverflow.blog: The rise of the DevOps mindset 🌟](https://stackoverflow.blog/2020/06/10/the-rise-of-the-devops-mindset/)
+* [DevOps engineers: Common misconceptions about the role](https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions) What qualities and skills define a future-ready DevOps engineer? Hint: It's about people, not code deployment.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

@@ -190,6 +190,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 * [NetworkPolicies and Microsegmentation](https://www.openshift.com/blog/networkpolicies-and-microsegmentation)
 * [Fully Automated Management of Egress IPs with the egressip-ipam-operator 🌟](https://blog.openshift.com/fully-automated-management-of-egress-ips-with-the-egressip-ipam-operator/)
 * [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy)
+- [redhat.com: Network traffic control for containers in Red Hat OpenShift 🌟](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)
 
 #### Network Security Zones
 - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone) 

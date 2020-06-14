@@ -31,7 +31,7 @@
 - [OpenShift 4 Training](#openshift-4-training)
 - [OpenShift 4 Roadmap](#openshift-4-roadmap)
 - [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
-- [Networking in OCP4. SDN/CNI plug-ins](#networking-in-ocp4-sdncni-plug-ins)
+- [Networking and Network Policy in OCP4. SDN/CNI plug-ins](#networking-and-network-policy-in-ocp4-sdncni-plug-ins)
     - [Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network](#multiple-networks-with-sdncni-plug-ins-usage-scenarios-for-an-additional-network)
     - [Istio CNI plug-in](#istio-cni-plug-in)
     - [Calico CNI Plug-in](#calico-cni-plug-in)
@@ -464,9 +464,10 @@ oc login
 * [kubevirt.io 🌟](https://kubevirt.io/) 
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 
-## Networking in OCP4. SDN/CNI plug-ins
+## Networking and Network Policy in OCP4. SDN/CNI plug-ins
 - [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
 - Currently, the **default OpenShift CNI is OpenShift SDN (network-policy)**, which configures an **overlay network using Open vSwitch** (OVS 2.11). The following diagram shows the CNI options for OpenShift and the status of each (supported, validated, etc. …):
+- [redhat.com: Network traffic control for containers in Red Hat OpenShift](https://www.redhat.com/en/blog/network-traffic-control-containers-red-hat-openshift)
 
 <center>
 [![ocp4 cni arch](images/ocp4_cni_arch.png)](https://www.openshift.com/blog/demystifying-multus)
@@ -511,8 +512,8 @@ oc login
 * [dzone: Code Ready Containers: Installing Process Automation](https://dzone.com/articles/code-ready-containers-installing-process-automatio) Learn how to make better use of Red Hat's Code Ready Containers platform by installing process automation from a catalog.
 
 ## OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers
-* **OpenShift Hive** is an operator which enables operations teams to easily provision new PaaSenvironments for developers improving productivity and reducing process burden due to internalIT regulations.
 * [blog.openshift.com: openshift hive cluster as a service](https://blog.openshift.comopenshift-hive-cluster-as-a-service/)
+* [github.com/openshift/hive](https://github.com/openshift/hive) **API driven OpenShift 4 cluster provisioning and management.** Hive is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift clusters. **OpenShift Hive** is an operator which enables operations teams to easily provision new PaaS environments for developers improving productivity and reducing process burden due to internalIT regulations.
 * [youtube: how to deliver OpenShift as a service (just like Red Hat)](https://www.youtube.comwatch?v=b_NOrGxfH5Y)
 
 ## OpenShift 4 Master API Protection in Public Cloud

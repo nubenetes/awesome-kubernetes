@@ -90,6 +90,7 @@ A simple extension to make indentation more readable
 * [Docker (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 * [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform
     * [hashicorp.com: Supporting the HashiCorp Terraform Extension for Visual Studio Code](https://www.hashicorp.com/blog/supporting-the-hashicorp-terraform-extension-for-visual-studio-code/)
+    * [Announcing the Terraform Visual Studio Code Extension v2.0.0](https://www.hashicorp.com/blog/announcing-the-terraform-visual-studio-code-extension-v2-0-0/)
 * [Ansible](https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)
 * [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
     * [Introducing MongoDB for VS Code](https://www.mongodb.com/blog/post/introducing-mongodb-for-vs-code)
