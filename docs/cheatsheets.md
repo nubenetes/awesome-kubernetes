@@ -121,9 +121,9 @@
 
 ## OpenShift Cheat Sheets
 * [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)
-* [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developersredhat.com/cheat-sheets/red-hat-openshift-container-platform/)
-* [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/masterdocs/command-cheatsheet.md)
-* [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho111850b0db31106a4d12a186e1fbc53e)
+* [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform/)
+* [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
+* [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 

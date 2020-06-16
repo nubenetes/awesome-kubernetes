@@ -59,9 +59,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 ## OpenShift
 - [OpenShift 🌟](openshift.md)
-- [OpenShift.tv](https://openshift.tv) Red Hat OpenShift Streaming
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
+### OpenShift Streaming & Training
+- [OpenShift.tv](https://openshift.tv) 
+- [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
 - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
 ### OpenShift on Public Cloud
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
@@ -69,6 +71,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
 - [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+- [OpenShift Online](https://www.openshift.com/products/online/)
+- [OpenShift.io](https://openshift.io/)
 ### Customer Success Stories
 - [Customer Success Stories 🌟](customer.md)
 ## Software Delivery Pipeline
