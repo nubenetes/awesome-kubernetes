@@ -2,6 +2,7 @@
 - [OpenShift](#openshift)
 - [Red Hat's approach to Kubernetes. Standardization](#red-hats-approach-to-kubernetes-standardization)
 - [OpenShift.io online IDE](#openshiftio-online-ide)
+- [OC CLI Auto Completion](#oc-cli-auto-completion)
 - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
 - [e-Books](#e-books)
     - [Kubernetes e-Books](#kubernetes-e-books)
@@ -66,6 +67,10 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ## OpenShift.io online IDE
 * [openshift.io 🌟](https://openshift.io/) an online IDE for building container-based apps, built for team collaboration.
+
+## OC CLI Auto Completion
+- [docs.openshift.com: Enabling tab completion](https://docs.openshift.com/container-platform/4.4/cli_reference/openshift_cli/configuring-cli.html)
+- [medium: How to enable OpenShift oc bash auto completion](https://medium.com/@ismailyenigul/how-to-enable-openshift-oc-bash-auto-completion-958b80e56e17)
 
 ## Cluster Autoscaler in OpenShift
 * [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)

@@ -10,6 +10,7 @@
     - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
+    - [Kubectl Autocomplete](#kubectl-autocomplete)
     - [Debugging with ephemeral containers](#debugging-with-ephemeral-containers)
     - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
     - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
@@ -25,7 +26,10 @@
     - [Helm Charts repositories](#helm-charts-repositories)
     - [Helm Charts](#helm-charts)
     - [Helm Books](#helm-books)
-- [Lens Kubernetes IDE](#lens-kubernetes-ide)
+- [Kubernetes Development Tools](#kubernetes-development-tools)
+    - [Lens Kubernetes IDE](#lens-kubernetes-ide)
+    - [Skaffold. Local Kubernetes Development](#skaffold-local-kubernetes-development)
+    - [Kind](#kind)
 - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
     - [HPA and VPA](#hpa-and-vpa)
     - [Cluster Autoscaler and Helm](#cluster-autoscaler-and-helm)
@@ -216,6 +220,23 @@
 ### Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
 
+### Kubectl Autocomplete
+* [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+* [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)
+* [Kubernetes productivity tips and tricks 🌟](https://www.padok.fr/en/blog/kubernetes-productivity-tips)
+
+```bash
+source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
+echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
+```
+
+You can also use a shorthand alias for kubectl that also works with completion:
+
+```bash
+alias k=kubectl
+complete -F __start_kubectl k
+```
+
 ### Debugging with ephemeral containers
 * [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
 
@@ -312,10 +333,17 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)
 
-## Lens Kubernetes IDE
-* [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!
+## Kubernetes Development Tools
+### Lens Kubernetes IDE
+- [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!
 
 [![lens ide](images/header-lens.png)](https://k8slens.dev/)
+
+### Skaffold. Local Kubernetes Development
+- [Skaffold 🌟](https://skaffold.dev/)
+
+### Kind
+- [Kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
 ## Cluster Autoscaler Kubernetes Tool
 * [kubernetes.io: Cluster Management - **Resizing a cluster**](https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster)

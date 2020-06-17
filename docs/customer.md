@@ -9,15 +9,15 @@
     * Jenkins in OpenShift (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
     * Requirements of each microservice defined in a single json file.
     * Java Frameworks: Java EE (Jakarta EE) running on Payara. 
-    * Docker, HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
-    * Terraform, Packer, Ansible, Flyway.
+    * HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
+    * Docker, Terraform, Packer, Ansible, Flyway, PostgreSQL.
     * Swagger, Postman, Visual Studio Code.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
     * Hybrid Clouds: OpenStack on-premise clusters, OpenShift 3.10 on-premise clusters, AWS.
     * Dynatrace APM, Prometheus, Grafana.
     * Rocket Chat
     * BMC Remedy ITSM
-    * DevOps with Scrum, GitOps, ITIL Incident Management Workflow, Remote Work
+    * DevOps with Scrum, GitOps, ITIL Incident Management Workflow, Remote Work.
     * International Deloitte team based in Munich and outside Germany: Germany, Poland, Albany, Bulgaria, Portugal, Spain.
 
 ### BMW ConnectedDrive and OpenShift
