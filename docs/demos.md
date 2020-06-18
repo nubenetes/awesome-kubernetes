@@ -57,7 +57,9 @@
 * [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
- 
+* [medium.com/@Kubernetes_Advocate 🌟](https://medium.com/@Kubernetes_Advocate)
+    * [medium.com/avmconsulting-blog](https://medium.com/avmconsulting-blog)
+
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
 
@@ -124,6 +126,7 @@
 * Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:
     * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
+* [medium.com/@Kubernetes_Advocate: CI/CD with Dockers and Jenkins](https://medium.com/@Kubernetes_Advocate/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)

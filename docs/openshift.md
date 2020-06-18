@@ -134,6 +134,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### OpenShift 3
 * [belgium.devoteam.com: Using Ansible Tower to deploy OpenShift 3 on Azure: a step-by-step guide](https://belgium.devoteam.com/blog/ansible-tower-openshift-azure-tower-installation-prerequisites/)
+* [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](http://uncontained.io/articles/openshift-ha-installation/)
 
 ### OpenShift 4
 * [github.com/openshift/installer openshift installer 🌟](https://github.com/openshift/installer)

@@ -19,6 +19,9 @@
 - [github.com/askmeegs/learn-istio 🌟](https://github.com/askmeegs/learn-istio)
 - [banzaicloud.com: What's new in Istio 1.6, a quick walkthrough](https://banzaicloud.com/blog/istio-1.6/)
 - [Riding the Tiger: Lessons Learned Implementing Istio 🌟](https://zwischenzugs.com/2020/05/05/riding-the-tiger-lessons-learned-implementing-istio/)
+- [dev.to/aurelievache: Understanding Istio: part 1 – Istio Components](https://dev.to/aurelievache/understanding-istio-part-1-istio-components-4ik5)
+  - [dev.to/aurelievache: Understanding Istio: part 9 – DestinationRule](https://dev.to/aurelievache/understanding-istio-part-9-destinationrule-1g7e)
+- [Controlling egress traffic with Istio](https://banzaicloud.com/blog/istio-external-demo/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

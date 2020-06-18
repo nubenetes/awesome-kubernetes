@@ -92,7 +92,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Nexus & JFrog Artifactory](nexus-jfrog.md)
 - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
 - [Linux & SSH 🌟](linux.md)
-- [YAML processors](yaml-processors.md)
+- [YAML processors & Static Checking of Kubernetes YAML Files](yaml-processors.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
 ### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
 - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
@@ -138,7 +138,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Visual Studio Code 🌟](visual-studio.md)
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
-- [ChromeDevTools](ChromeDevTools.md)
+- [Chrome DevTools & Firefox DevTools](ChromeDevTools.md)
 ## Public Cloud
 - [Public Cloud Solutions](public-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)
