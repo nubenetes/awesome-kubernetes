@@ -55,6 +55,7 @@
 - [AWS for Windows](#aws-for-windows)
 - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
 - [AWS Security](#aws-security)
+	- [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
 	- [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
 	- [AWS IAM](#aws-iam)
 	- [AWS CloudFront](#aws-cloudfront)
@@ -378,6 +379,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda 🌟](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
+* [Using Amazon EFS for AWS Lambda in your serverless applications 🌟](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
 
 ## AWS Cloud Formation
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
@@ -408,6 +410,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows/)
 - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) Use your own encryption keys with AWS Key Management Service.
 - [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)
+
+### Policy as Code with AWS CDK and Open Policy Agent
+- [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
 
 ### Payment Card Industry Data Security Standard compliance
 - [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment 🌟](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment/)

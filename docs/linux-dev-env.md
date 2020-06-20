@@ -7,6 +7,7 @@
 multiple versions of software on the same system, without affecting system-wide installed packages.
 * [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) A lesson on how to install Kubernetes in Docker KinD and Minikube.
 * [Ubuntu on WSL 2 Is Generally Available 🌟](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available)
+* [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) ```wsl.exe --install```
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
@@ -15,3 +16,6 @@ multiple versions of software on the same system, without affecting system-wide 
 ## Windows Package Manager
 - [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli)
 - [Microsoft debuts Windows Package Manager for your dev environment](https://venturebeat.com/2020/05/19/microsoft-windows-package-manager-powertoys/)
+
+## ASDF-VM
+- [asdf version manager (asdf-vm)](https://asdf-vm.com/) is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like gvm, nvm, rbenv & pyenv (and more) all in one! Simply install your language’s plugin! 

@@ -18,6 +18,7 @@
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
+    - [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
 - [Jenkins Multibranch Pipeline](#jenkins-multibranch-pipeline)
     - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
 - [Jenkins Plugins](#jenkins-plugins)
@@ -234,8 +235,11 @@
 * [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md)
 * [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
 * [Jenkins Pipeline Unit testing framework](https://github.com/jenkinsci/JenkinsPipelineUnit)
-* [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool)
 * [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
+
+### Plugin Installation Manager Tool
+* [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool) The plugin manager downloads plugins and their dependencies into a folder so that they can easily be imported into an instance of Jenkins. The goal of this tool is to replace the [Docker install-plugins.sh script](https://github.com/jenkinsci/docker/blob/master/install-plugins.sh) and the many other implementations of plugin management that have been recreated across Jenkins. The tool also allows users to see more information about the plugins they are downloading such as available updates and security warnings. By default, plugins will be downloaded; the user can specify not to download plugins using the --no-download option.
+* [Jenkins Plugin Manager CLI v1.1.0](https://github.com/jenkinsci/plugin-installation-manager-tool/releases/tag/plugin-management-parent-pom-1.1.0) is now released: caching of update site data and downloaded plugins, retry on download, and dependency resolution fixes.
 
 ## Jenkins Multibranch Pipeline
 - The [Multibranch Pipeline 🌟](https://www.jenkins.io/doc/book/pipeline/multibranch/) enable developer to implement different Jenkinsfiles for different branches of the same project. It’s can discover branches and execute pipeline automatically with Jenkinsfiles in version control for better management pipeline.

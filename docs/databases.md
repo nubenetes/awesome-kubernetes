@@ -2,10 +2,11 @@
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
 - [Databases on Kubernetes](#databases-on-kubernetes)
 - [Database DevOps](#database-devops)
-- [KubeDB Cloud Native Database](#kubedb-cloud-native-database)
+- [KubeDB Cloud Native Postgress Database](#kubedb-cloud-native-postgress-database)
 - [Cockroach Cloud Native Database](#cockroach-cloud-native-database)
 - [Operator Lifecycle Manager (OLM)](#operator-lifecycle-manager-olm)
 - [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
+- [Zalando PostgreSQL Operator](#zalando-postgresql-operator)
 - [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
     - [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
     - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
@@ -44,7 +45,7 @@
 ## Database DevOps
 - [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops/a/d-id/1337238)
 
-## KubeDB Cloud Native Database
+## KubeDB Cloud Native Postgress Database
 * [kubedb.com](https://kubedb.com/) Run production-grade databases easily on Kubernetes
 
 ## Cockroach Cloud Native Database
@@ -57,6 +58,10 @@
 * [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
 * [Patroni](https://github.com/zalando/patroni)
 * [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/)
+
+## Zalando PostgreSQL Operator
+* [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) Postgres operator creates and manages PostgreSQL clusters running in Kubernetes
+* [vitobotta.com: Postgres on Kubernetes with the Zalando operator](https://vitobotta.com/2020/02/05/postgres-kubernetes-zalando-operator/)
 
 ## Crunchy Data PostgreSQL Operator
 * [crunchydata.com](https://www.crunchydata.com/)

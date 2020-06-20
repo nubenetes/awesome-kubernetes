@@ -40,6 +40,7 @@
 * [stackoverflow.blog: The rise of the DevOps mindset 🌟](https://stackoverflow.blog/2020/06/10/the-rise-of-the-devops-mindset/)
 * [DevOps engineers: Common misconceptions about the role](https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions) What qualities and skills define a future-ready DevOps engineer? Hint: It's about people, not code deployment.
 * [DevOps for beginners: Where to start learning and focusing](https://enterprisersproject.com/article/2020/6/devops-beginners-where-start) Where to start with DevOps? Let's explore how to get going with this cross-functional way of working that breaks down walls, improves speed of delivery, and increases experimentation.
+* [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) 
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -97,6 +98,8 @@
 * [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 
 <center>
+[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
+
 [![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
 [![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)

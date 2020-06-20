@@ -11,7 +11,7 @@
     - **API validators**: Tools in this category validate a given YAML manifest against the Kubernetes API server.
     - **Built-in checkers**: Tools in this category bundle opinionated checks for security, best practices, etc.
     - **Custom validators**: Tools in this category allow writing custom checks in several languages such as Rego and Javascript.
-- [Validating Kubernetes YAML for best practice and policies 🌟](https://learnk8s.io/validating-kubernetes-yaml#config-lint) In this article, you will learn and compare six different tools:
+- [Validating Kubernetes YAML for best practice and policies 🌟](https://learnk8s.io/validating-kubernetes-yaml) In this article, you will learn and compare six different tools:
     - [Kubeval](https://www.kubeval.com/)
     - [Kube-score](https://github.com/zegl/kube-score)
     - [Config-lint](https://stelligent.github.io/config-lint)
