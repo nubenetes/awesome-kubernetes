@@ -11,6 +11,7 @@
     - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
     - [Copr Build System](#copr-build-system)
     - [Pulp](#pulp)
+- [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
 
 ## SSH
@@ -89,6 +90,9 @@
 
 ### Pulp
 - [pulpproject.org](https://pulpproject.org/) Fetch, Upload, Organize, and Distribute Software Packages.
+
+## Linux Libraries
+- [How to handle dynamic and static libraries in Linux](https://opensource.com/article/20/6/linux-libraries)
 
 ## Linux Networking
 - [ntop](http://www.ntop.org/)
