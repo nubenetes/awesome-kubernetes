@@ -3,8 +3,11 @@
 - [youcanbook.me](https://youcanbook.me/)
 - [Acuity Scheduling](https://acuityscheduling.com/)
 - [Doodle](https://doodle.com/)
+- [Karen](https://karenapp.io)
+- [ScheduleOnce](https://www.oncehub.com/scheduleonce)
 
 ## Comparisons
 - [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me/)
 - [wpamelia.com: Calendly vs Acuity](https://wpamelia.com/calendly-vs-acuity/)
 - [wpamelia.com: Calendly vs Doodle](https://wpamelia.com/calendly-vs-doodle/)
+- [karenapp.io: Calendly vs ScheduleOnce](https://karenapp.io/articles/calendly-vs-scheduleonce/)
