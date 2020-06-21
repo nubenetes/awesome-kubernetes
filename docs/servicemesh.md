@@ -21,6 +21,10 @@
 - [Linkerd](https://linkerd.io/)
 - [Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes](https://linkerd.io/2020/06/09/announcing-linkerd-2.8/)
 
+```
+[Installed @Linkerd in staging yesterday using Helm and Terraform](https://twitter.com/DanielJamesPost). It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production.
+ ```
+
 ## Maesh Service Mesh
 - [Maesh](https://containo.us/maesh/)
 
@@ -36,6 +40,7 @@
 ## Envoy Proxy Service Mesh 
 - [Envoy](https://www.envoyproxy.io/)
 - [Examining Load Balancing Algorithms with Envoy](https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c)
+- [solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟](https://www.solo.io/blog/why-the-control-plane-matters/)
 
 ### xDS protocol (Envoy's Discovery Service Protocol)
 - [xDS REST and gRPC protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)
