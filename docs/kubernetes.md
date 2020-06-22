@@ -759,7 +759,16 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [magalix.com: Deploying Kubernetes Cluster With EKS 🌟](https://www.magalix.com/blog/deploying-kubernetes-cluster-with-eks) Fargate Deployment vs. Linux Workload
 
 ###  Tools for multi-cloud Kubernetes management
-[Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+- [Banzai Cloud 🌟](https://banzaicloud.com/)
+    - [Kubernetes node pool upgrades with Banzai Pipeline](https://banzaicloud.com/blog/kubernetes-nodepool-upgrades/)
+- [Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
+    - NetApp Kubernetes Service -- formerly StackPointCloud
+    - Cloudify
+    - Terraform
+    - Rancher
+    - Platform9 Managed Kubernetes 
+    - Red Hat OpenShift
+    - Juke, from HTBase, now owned by Juniper Networks. 
 
 ## On-Premise Production Kubernetes Cluster Installers
 ### Comparative Analysis of Kubernetes Deployment Tools
