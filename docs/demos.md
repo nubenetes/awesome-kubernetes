@@ -24,7 +24,7 @@
     - [Jenkins Scripts](#jenkins-scripts)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
-    - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL 🌟](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl-)
+    - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
     - [PetClinic on Kubernetes:](#petclinic-on-kubernetes)
     - [PetClinic Docker images:](#petclinic-docker-images)
     - [OpenShift.io Samples](#openshiftio-samples)
@@ -232,10 +232,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 * [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
 
-### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL 🌟 
+### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL  
 * [griddynamics/mpl](https://github.com/griddynamics/mpl)
 * [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration/)
-* [youtube: Modular Pipeline Library: 4. Petclinic Pipeline](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
+* [youtube: Modular Pipeline Library: 4. Petclinic Pipeline 🌟](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
 
 ### PetClinic on Kubernetes:
 * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
