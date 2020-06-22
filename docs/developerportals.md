@@ -7,6 +7,7 @@
     - [API Management vs API Gateway vs Developer Portals](#api-management-vs-api-gateway-vs-developer-portals)
     - [3scale API Manager](#3scale-api-manager)
     - [Google Apigee API Manager](#google-apigee-api-manager)
+    - [IBM API Connect](#ibm-api-connect)
     - [WSO2 API Manager](#wso2-api-manager)
     - [Kong API Manager](#kong-api-manager)
     - [Tyk API Manager](#tyk-api-manager)
@@ -59,6 +60,9 @@
 ### Google Apigee API Manager
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
 - [Apigee @Youtube](https://www.youtube.com/user/apigee)
+
+### IBM API Connect
+- [IBM API Connect](https://developer.ibm.com/apiconnect/)
 
 ### WSO2 API Manager 
 - [WSO2 API Manager](https://wso2.com/api-management/)
