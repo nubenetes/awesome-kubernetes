@@ -14,5 +14,7 @@
 
 ---
 </center>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re learning JavaScript, you&#39;ve likely heard people tell you how important it is to learn the fundamentals.<br><br>But what are they? And where do you learn them?<br><br>Here&#39;s a list of JavaScript fundamentals and my favorite free resources for learning them. 👇</p>&mdash; Madison Kanna (@Madisonkanna) <a href="https://twitter.com/Madisonkanna/status/1274424134139666432?ref_src=twsrc%5Etfw">June 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
