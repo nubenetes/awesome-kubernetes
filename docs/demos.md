@@ -24,6 +24,10 @@
     - [Jenkins Scripts](#jenkins-scripts)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
+    - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL 🌟](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl-)
+    - [PetClinic on Kubernetes:](#petclinic-on-kubernetes)
+    - [PetClinic Docker images:](#petclinic-docker-images)
+    - [OpenShift.io Samples](#openshiftio-samples)
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
 - [Google DevOps Demos](#google-devops-demos)
@@ -227,30 +231,37 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 * [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 * [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
-* Modular Pipeline Library: 4. Petclinic Pipeline 🌟 
-    * [griddynamics/mpl](https://github.com/griddynamics/mpl)
-    * [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.com/developing-a-modular-pipeline-library-to-improve-devops-collaboration/)
-    * [youtube: Modular Pipeline Library: 4. Petclinic Pipeline](https://www.youtube.com/watch?v=GLtvxY1S3Aw)
-* PetClinic on Kubernetes:
-    * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
-        * While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
-    * [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
-    * [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
-    * [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
-    * [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
-    * [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
-* PetClinic Docker images:
-    * [ref 1](https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins)
-    * [ref 2](https://hub.docker.com/r/sarjunkumar24391/petclinic)
-    * [ref 3](https://hub.docker.com/r/bmoussaud/petclinic)
-    * [ref 4](https://hub.docker.com/r/alwin2/petclinic-customers-service)
-    * [ref 5 arey/springboot-petclinic](https://hub.docker.com/r/arey/springboot-petclinic/)
-    * [ref 6](https://hub.docker.com/r/anthonydahanne/spring-petclinic)
-    * [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic/)
-    * [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
-    * [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
+
+### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL 🌟 
+* [griddynamics/mpl](https://github.com/griddynamics/mpl)
+* [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration/)
+* [youtube: Modular Pipeline Library: 4. Petclinic Pipeline](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
+
+### PetClinic on Kubernetes:
+* [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
+    * While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
+* [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices)
+    * [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices).
+* [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
+* [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
+* [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
+* [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
+* [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
+
+### PetClinic Docker images:
+* [ref 1](https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins)
+* [ref 2](https://hub.docker.com/r/sarjunkumar24391/petclinic)
+* [ref 3](https://hub.docker.com/r/bmoussaud/petclinic)
+* [ref 4](https://hub.docker.com/r/alwin2/petclinic-customers-service)
+* [ref 5 arey/springboot-petclinic](https://hub.docker.com/r/arey/springboot-petclinic/)
+* [ref 6](https://hub.docker.com/r/anthonydahanne/spring-petclinic)
+* [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic/)
+* [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
+* [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
+
+### OpenShift.io Samples 
 * [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
-    * [github.com/che-samples](https://github.com/che-samples)
+* [github.com/che-samples](https://github.com/che-samples)
 
 ## AWS Demos
 - [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
