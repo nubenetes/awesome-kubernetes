@@ -51,8 +51,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Introduction:
-    - Openshift VS Kubernetes: introduction.md
-    - From Java EE To Cloud Native: javaee-to-cloud-native.md
+    - From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
   - Site Reliability Engineering (SRE): sre.md
   - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md

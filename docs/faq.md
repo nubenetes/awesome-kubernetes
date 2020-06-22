@@ -32,7 +32,5 @@
 
 [![Full Stack developer](images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
 
-![you dont need kubenetes](images/you_dont_need_kubernetes.jpg)
-
 [![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
 </center>

@@ -11,6 +11,7 @@
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
+    - [OpenShift VS Kubernetes](#openshift-vs-kubernetes)
     - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
@@ -107,6 +108,9 @@
 * [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
 * [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
 * [MapIt](https://github.com/siamaksade/mapit-spring) MapIt is a geo-spatial Spring Boot app which shows the location of AirPorts on the Map using Leaflet.
+
+### OpenShift VS Kubernetes
+* [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
 
 ### IBM Cloud Pak Playbooks
 * [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/)
