@@ -105,6 +105,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Ansible](ansible.md)
 - [Chef](chef.md)
 - [Liquibase and Flyway](liquibase.md)
+- [Pulumi](pulumi.md)
 - [Terraform & Packer](terraform.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
