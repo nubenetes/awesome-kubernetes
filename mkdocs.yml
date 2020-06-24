@@ -107,6 +107,7 @@ nav:
     - Ansible: ansible.md
     - Chef: chef.md
     - Liquibase & Flyway: liquibase.md
+    - Pulumi: pulumi.md
     - Terraform & Packer: terraform.md
   - Databases on Kubernetes: 
     - Relational Databases and Database DevOps. CrunchyData Postgres Operator: databases.md
