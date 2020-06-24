@@ -120,6 +120,7 @@
     - [Crossplane](#crossplane)
     - [Istio Service Mesh](#istio-service-mesh)
 - [Kubernetes interview questions](#kubernetes-interview-questions)
+- [Kubernetes Blogs](#kubernetes-blogs)
 - [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
 - [Videos](#videos)
@@ -965,6 +966,9 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ## Kubernetes interview questions
 - [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)
 - [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers/)
+
+## Kubernetes Blogs
+- [returngis.net by @0GiS0 (Spanish)](https://www.returngis.net/)
 
 ## Container Ecosystem
 * [Author: github.com/rootsongjc](https://github.com/rootsongjc)
