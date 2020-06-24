@@ -9,8 +9,9 @@
 - [Amazon Web Services](#amazon-web-services)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
-- [Awesome AWS](#awesome-aws)
 - [AWS Glossary](#aws-glossary)
+- [Awesome AWS](#awesome-aws)
+- [AWS Marketplace](#aws-marketplace)
 - [AWS on Twitter](#aws-on-twitter)
 - [AWS Calculator](#aws-calculator)
 - [AWS Application Architecture](#aws-application-architecture)
@@ -112,11 +113,14 @@
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
 
+## AWS Glossary
+- [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+
 ## Awesome AWS
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws)
 
-## AWS Glossary
-- [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+## AWS Marketplace
+- [AWS Marketplace](https://aws.amazon.com/marketplace)
 
 ## AWS on Twitter
 - [twitter.com/awscloud](https://twitter.com/awscloud)

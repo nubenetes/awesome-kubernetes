@@ -17,7 +17,8 @@
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
-- [DevSecOps Explained](https://www.devopszone.info/post/devsecops-explained)
+- [devopszone.info: DevSecOps Explained](https://www.devopszone.info/post/devsecops-explained)
+- [linkedin: Dear Google, my data has left your building!](https://www.linkedin.com/pulse/dear-google-my-data-has-left-your-building-zakir-khan/)
 
 ## Kubernetes Config Security Threats
 - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root/)

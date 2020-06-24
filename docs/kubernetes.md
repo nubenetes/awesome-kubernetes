@@ -8,11 +8,11 @@
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
 - [Extending Kubernetes](#extending-kubernetes)
     - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
+    - [OpenKruise/Kruise](#openkruisekruise)
     - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
     - [Kubectl Autocomplete](#kubectl-autocomplete)
-    - [Debugging with ephemeral containers](#debugging-with-ephemeral-containers)
     - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
     - [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
     - [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
@@ -40,9 +40,11 @@
 - [Kubernetes Community](#kubernetes-community)
     - [Community Forums](#community-forums)
     - [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
+        - [Kubernetes SIG's Repos](#kubernetes-sigs-repos)
         - [Kubectl Plugins](#kubectl-plugins)
             - [Kubectl Plugins and Tools. Kubernetes Extensions](#kubectl-plugins-and-tools-kubernetes-extensions)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
+    - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
     - [Online Training](#online-training)
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
@@ -111,6 +113,12 @@
 - [SpringBoot with Docker](#springboot-with-docker)
 - [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
+- [Multi-Cluster Federation. Hybrid Cloud Setup Tools](#multi-cluster-federation-hybrid-cloud-setup-tools)
+    - [KubeFed](#kubefed)
+    - [KubeCarrier](#kubecarrier)
+    - [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
+    - [Crossplane](#crossplane)
+    - [Istio Service Mesh](#istio-service-mesh)
 - [Kubernetes interview questions](#kubernetes-interview-questions)
 - [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
@@ -168,6 +176,7 @@
 * [medium: How to configure and manage Pod in Kubernetes Cluster (K8s)](https://medium.com/faun/pod-in-kubernetes-cluster-k8s-adeb5b901153) There are two types of Pods: Single container pod & Multi container pod. 
 * [opensource.com: 5 ways to boost your Kubernetes knowledge](https://opensource.com/article/20/6/kubernetes-anniversary)
 * [kinvolk.io: Investigating Kubernetes performance issues with BPF 🌟](https://kinvolk.io/blog/2020/04/inside-kinvolk-labs-investigating-kubernetes-performance-issues-with-bpf/)
+* [blog.container-solutions.com: 7 Cloud Native Trends to Watch in 2020 🌟](https://blog.container-solutions.com/7-cloud-native-trends-to-watch-in-2020)
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
@@ -217,6 +226,11 @@
 - CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
 - Regardless of how they are installed, the new resources are referred to as Custom Resources to distinguish them from built-in Kubernetes resources (like pods).
 
+### OpenKruise/Kruise
+- [openkruise.io](https://openkruise.io/)
+- [OpenKruise/Kruise](https://github.com/openkruise/kruise)
+- [thenewstack.io: Introducing CloneSet: A Production-Grade Kubernetes Deployment CRD](https://thenewstack.io/introducing-cloneset-production-grade-kubernetes-deployment-crd/)
+
 ###  Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
 - [crossplane.io 🌟](https://crossplane.io/) Crossplane is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl.
 - [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane/)
@@ -242,9 +256,6 @@ You can also use a shorthand alias for kubectl that also works with completion:
 alias k=kubectl
 complete -F __start_kubectl k
 ```
-
-### Debugging with ephemeral containers
-* [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
 
 ### List all resources and sub resources that you can constrain with RBAC
 * kind of a handy way to see all thing things you can affect with Kubernetes RBAC. This will list all resources and sub resources that you can constrain with RBAC. If you want to see just subresources append "| grep {name}/":
@@ -322,6 +333,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [helm.sh: How to migrate from Helm v2 to Helm v3](https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/)
 * [Helm 3: Validating Helm Chart Values with JSON Schemas 🌟](https://www.arthurkoziel.com/validate-helm-chart-values-with-json-schemas/)
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)
+* [hackernoon.com: Kubernetes and Helm: A Deadly Combo to Help You Deploy with Ease](https://hackernoon.com/kubernetes-and-helm-a-deadly-combo-to-help-you-deploy-with-ease-rjr30x2)
 
 ### Helm Charts repositories
 * [hub.helm.sh 🌟](http://hub.helm.sh) 
@@ -394,7 +406,12 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Kubernetes Special Interest Groups (SIGs)
 - [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.
 - [SIG Apps: build apps for and operate them in Kubernetes](https://kubernetes.io/blog/2016/08/sig-apps-running-apps-in-kubernetes/)
-- [Kubernetes SIGs 🌟](https://github.com/kubernetes-sigs)
+
+#### Kubernetes SIG's Repos
+- [Kubernetes SIGs 🌟](https://github.com/kubernetes-sigs) Org for Kubernetes SIG-related work.
+- [ExternalDNS: Configure external DNS servers (AWS Route53, Google CloudDNS and others) for Kubernetes Ingresses and Services](https://github.com/kubernetes-sigs/external-dns)
+- [Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes secrets](https://github.com/kubernetes-sigs/secrets-store-csi-driver) Integrates secrets stores with Kubernetes via a CSI volume.
+- [kustomize](https://github.com/kubernetes-sigs/kustomize) Customization of kubernetes YAML configurations.
 
 #### Kubectl Plugins 
 * [Available kubectl plugins 🌟](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
@@ -411,7 +428,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
 * [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
-* [kubectl-debug](https://github.com/aylei/kubectl-debug)
 * [kubectl-tree](https://github.com/ahmetb/kubectl-tree) kubectl plugin to browse Kubernetes object hierarchies as a tree
 * [The Golden Kubernetes Tooling and Helpers list](https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w)
 * [kubech (kubectl change)](https://github.com/aabouzaid/kubech) Set kubectl contexts/namespaces per shell/terminal to manage multi Kubernetes cluster at the same time.
@@ -438,7 +454,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     * Run a command on all the available containers by kubelet at the same time
     * Get service account tokens from all available containers by kubelet
     * Nice printing :)
-* [**inspektor-gadget**](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF [kinvolk.io](https://kinvolk.io)
 * [**K8bit** — the tiny Kubernetes dashboard 🌟](https://github.com/learnk8s/k8bit) K8bit is a tiny dashboard that is meant to demonstrate how to use the Kubernetes API to watch for changes.
     * [learnk8s.io/real-time-dashboard](https://learnk8s.io/real-time-dashboard)
 * [**KUbernetes Test TooL (kuttl)** 🌟](https://kuttl.dev/)
@@ -453,7 +468,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Access Pod Online using Podtnl](https://github.com/narendranathreddythota/podtnl) A Powerful CLI that makes your pod available to online without exposing a k8 service.
 * [kiosk: Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning 🌟](https://github.com/kiosk-sh/kiosk?utm_sq=gf3f25b1tk#why-kiosk) Kubernetes is designed as a single-tenant platform, which makes it hard for cluster admins to host multiple tenants in a single cluster. **Kiosk extends Kubernetes for multi-tenancy. The core idea is to use Kubernetes namespaces as isolated workspaces.**
 * [asdf-kubectl](https://github.com/Banno/asdf-kubectl) kubectl plugin for [asdf version manager](https://asdf-vm.com/). asdf-vm is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like gvm, nvm, rbenv & pyenv (and more) all in one! Simply install your language’s plugin! 
-* [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.
 
 ## Kubernetes Troubleshooting
 * [Kubernetes troubleshooting diagram 🌟](https://github.com/redhatspain/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
@@ -461,6 +475,20 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
 * [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
 * [managedkube.com: Troubleshooting a Kubernetes ingress](https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html)
+
+### Debugging Techniques and Strategies. Debugging with ephemeral containers
+- [kubectl-debug](https://github.com/aylei/kubectl-debug)
+- [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
+- [How to quarantine pods 🌟](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
+- [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.
+- [inspektor-gadget](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF 
+    - [kinvolk.io](https://kinvolk.io)
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: How to quarantine a Pod in Kubernetes.<br><br>This technique helps you with debugging running Pods in production.<br><br>The Pod is detached from the Service (no traffic), and you can troubleshoot it live.<br><br>Let&#39;s get started! <a href="https://t.co/E7AUh2ylM7">pic.twitter.com/E7AUh2ylM7</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1275786970610843648?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
 
 ## Kubernetes Tutorials
 * [kubernetes.io: Kubernetes Tutorials 🌟](https://kubernetes.io/docs/tutorials/) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.
@@ -759,7 +787,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
 * [magalix.com: Deploying Kubernetes Cluster With EKS 🌟](https://www.magalix.com/blog/deploying-kubernetes-cluster-with-eks) Fargate Deployment vs. Linux Workload
 
-###  Tools for multi-cloud Kubernetes management
+### Tools for multi-cloud Kubernetes management
 - [Banzai Cloud 🌟](https://banzaicloud.com/)
     - [Kubernetes node pool upgrades with Banzai Pipeline](https://banzaicloud.com/blog/kubernetes-nodepool-upgrades/)
 - [Compare tools for multi-cloud Kubernetes management 🌟](https://searchcloudcomputing.techtarget.com/tip/Compare-tools-for-multi-cloud-Kubernetes-management)
@@ -917,6 +945,22 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 <center>
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
 </center>
+
+## Multi-Cluster Federation. Hybrid Cloud Setup Tools
+### KubeFed
+- [KubeFed: Kubernetes Cluster Federation](https://github.com/kubernetes-sigs/kubefed)
+
+### KubeCarrier
+- [KubeCarrier](https://github.com/kubermatic/kubecarrier)
+
+### Red Hat Operator Lifecycle Manager (OLM) 
+- [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager)
+
+### Crossplane
+- [Crossplane](https://crossplane.io/)
+
+### Istio Service Mesh
+- [Istio](https://istio.io/)
 
 ## Kubernetes interview questions
 - [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)

@@ -1,6 +1,8 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
-- [Automation services catalog](#automation-services-catalog)
+- [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
+    - [Automation services catalog](#automation-services-catalog)
+    - [Red Hat Certified Ansible Content Collections](#red-hat-certified-ansible-content-collections)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
     - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
@@ -23,8 +25,15 @@
 * [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)
 * [Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
 
-## Automation services catalog
-- [Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.ansible.com/products/automation-services-catalog) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
+##  Red Hat Ansible Automation Platform
+- [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation
+
+### Automation services catalog
+- [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.ansible.com/products/automation-services-catalog) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
+
+### Red Hat Certified Ansible Content Collections
+- [ansible.com: Now Available: Red Hat-Maintained Content Collections on Automation Hub](https://www.ansible.com/blog/now-available-the-new-ansible-content-collections-on-automation-hub)
+- [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)
 
 ## Ansible Cheat Sheets
 * [Ansible Cheat Sheets](cheatsheets.md)
