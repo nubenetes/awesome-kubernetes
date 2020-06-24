@@ -2,6 +2,20 @@
 - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [v8.dev:](https://v8.dev/) Google’s open source high-performance JavaScript and WebAssembly engine.
 
+## Learning javascript by @Madisonkanna
+1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://scotch.io/courses/10-need-to-know-javascript-concepts/declaring-javascript-variables-var-let-and-const)
+2. Types: [Understanding Data Types in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-javascript)
+3. Objects, functions & arrays: [Intro to Web Dev V2](https://btholt.github.io/intro-to-web-dev-v2/intro/)
+4. The DOM: [What exactly is the DOM?!](https://dev.to/karaluton/what-exactly-is-the-dom-jhg)
+5. Prototypes + this: [A Beginner's Guide to JavaScript's Prototype](https://ui.dev/beginners-guide-to-javascript-prototype/)
+6. Events: ["What the heck is the event loop anyway?" By @philip_roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+7. Flow control: [For Loops - Beau teaches JavaScript](https://www.youtube.com/watch?v=24Wpg6njlYI)
+8. Security and Accessibility: [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+9. Good to know - How to write clean code: [Clean code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+10. Async JavaScript. Another epic tutorial by Tyler McGinnis [Async JavaScript: From Callbacks, to Promises, to Async/Await](https://ui.dev/async-javascript-from-callbacks-to-promises-to-async-await/)
+11. Other things good to know but don't need to necessarily master as a beginner: closures, Ajax requests, modules. To listen to the episode that inspired this thread: [The Fundamentals — JS](https://syntax.fm/show/162/the-fundamentals-js)
+12. This blew up—if you’d like to join myself and an amazing community of beginners and advanced developers, I host this free club: [CodeBookClub](https://madisonkanna.com/codebookclub/)
+
 ## Node.js
 - [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
 - [nodejs.org](https://nodejs.org/)
@@ -11,6 +25,8 @@
 - [wikipedia: Npm](https://en.wikipedia.org/wiki/Npm_(software)) (originally short for Node Package Manager) is a package manager for the JavaScript programming language. 
 - [Npm](https://www.npmjs.com/)
 - [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/)
+
+
 
 ---
 <center>
