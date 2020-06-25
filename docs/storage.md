@@ -45,4 +45,8 @@
         - Encryption
 - Backups available in OpenShift 4.2+ (Snapshots + Restore of Volumes)
 - OCS Dashboard in OCS Operator
- 
+
+---
+<center>
+[![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
+</center>
