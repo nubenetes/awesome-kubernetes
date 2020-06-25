@@ -241,7 +241,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
     * While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
 * [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices)
-    * [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices).
+    * [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices). 
+* spring-petclinic-microservices renamed to spring-petclinic-cloud 🌟: https://github.com/spring-petclinic/spring-petclinic-cloud 
 * [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
 * [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
 * [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
