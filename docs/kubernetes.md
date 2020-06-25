@@ -487,9 +487,9 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 - [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments 🌟](https://learnk8s.io/troubleshooting-deployments)
 
 <center>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: How to quarantine a Pod in Kubernetes.<br><br>This technique helps you with debugging running Pods in production.<br><br>The Pod is detached from the Service (no traffic), and you can troubleshoot it live.<br><br>Let&#39;s get started! <a href="https://t.co/E7AUh2ylM7">pic.twitter.com/E7AUh2ylM7</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1275786970610843648?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:20%"}](https://learnk8s.io/troubleshooting-deployments)
 </center>
 
 ## Kubernetes Tutorials
