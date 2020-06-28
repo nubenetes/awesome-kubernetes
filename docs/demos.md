@@ -74,6 +74,7 @@
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)
 * [medium.com/@Kubernetes_Advocate 🌟](https://medium.com/@Kubernetes_Advocate)
     * [medium.com/avmconsulting-blog](https://medium.com/avmconsulting-blog)
+* [medium: Efficient Node Out-of-Resource Management in Kubernetes](https://medium.com/kubernetes-tutorials/efficient-node-out-of-resource-management-in-kubernetes-67f158da6e59)
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -284,6 +285,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
 - [github.com/aws-samples](https://github.com/aws-samples)
 - [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
+- [cyberciti.biz: How to create MySQL user and grant permissions in AWS RDS](https://www.cyberciti.biz/faq/how-to-create-mysql-user-and-grant-permissions-in-aws-rds/)
 
 ## Azure DevOps Demos
 - [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/)
