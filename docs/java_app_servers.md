@@ -15,12 +15,12 @@
 - [Red Hat JBoss Enterprise Application Platform (JBoss EAP)](https://developers.redhat.com/products/eap/overview)
 - [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) Red Hat recently released the first Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) version 1.0. This version enables JBoss EAP developers to build Java microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. This article goes into detail on the nature of this new offering and an easy way to get started.
 
+## WildFly
+- [WildFly](https://wildfly.org/)
+
 ## IBM WebSphere Liberty 
 - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
 - [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
-
-## Wildfly
-- [WildFly](https://wildfly.org/)
 
 ## Alternatives
 - [TomEE from Tomitribe](http://tomee.apache.org/)
