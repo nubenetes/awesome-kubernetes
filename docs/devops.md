@@ -6,6 +6,7 @@
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
+    - [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
     - [AWS DevOps](#aws-devops)
@@ -42,6 +43,7 @@
 * [DevOps for beginners: Where to start learning and focusing](https://enterprisersproject.com/article/2020/6/devops-beginners-where-start) Where to start with DevOps? Let's explore how to get going with this cross-functional way of working that breaks down walls, improves speed of delivery, and increases experimentation.
 * [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) 
 * [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops/)
+* [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -78,6 +80,11 @@
 - [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)
 - [geekflare.com: devops-tools](https://geekflare.com/devops-tools/)
 - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools/)
+
+### Relay
+- [Relay](https://relay.sh/) Event-driven automation that connects the cloud providers, DevOps tools, and other APIs you already use.
+- Automation tools can learn a lot from the CI/CD and Serverless ecosystems. Relay by **PuppetLabs** leverages **Tekton** and **Knative** in an attempt to do just that.
+- [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) The open-source wants to expand DevOps to cover cloud and containers with its newest program.
 
 ## Netflix and DevOps
 * [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 

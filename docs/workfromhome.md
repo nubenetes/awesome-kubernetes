@@ -15,5 +15,14 @@
 - [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
 - [atlassian.com/remote](https://www.atlassian.com/remote) Free collaboration tools to kickstart remote teamwork
 
+## More Tools
+- [Miro](https://miro.com/) Online Collaborative Whiteboard Platform
+    - [Summarising Top 10 API Testing Tools](https://miro.com/app/board/o9J_kqwfjqs=/)
+
 ## Tips
 * [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
+
+---
+<center>
+[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
+</center>

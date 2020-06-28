@@ -1,4 +1,4 @@
-# Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
+# Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
     - [ActiveMQ message broker](#activemq-message-broker)
@@ -24,6 +24,7 @@
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
     - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
     - [Red Hat AMQ Streams](#red-hat-amq-streams)
+- [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
 - [eBooks](#ebooks)
 - [Related](#related)
 - [Questions and Answers](#questions-and-answers)
@@ -59,6 +60,7 @@
 #### Apache Camel K
 - [Apache Camel K](https://camel.apache.org/camel-k/latest/) is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.
 - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k/)
+- [developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors](https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors/)
 
 ### KubeMQ message broker
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
@@ -166,6 +168,11 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 <center>
 <script async class="speakerdeck-embed" data-id="54c1ce6ee6e44d68a0c311c31ddc8225" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
+
+## Open Data Hub AI-as-a-Service (AIaaS) platform
+- [Open Data Hub](https://opendatahub.io/)
+- [Open Data Hub 0.6 brings component updates and Kubeflow architecture](https://developers.redhat.com/blog/2020/05/07/open-data-hub-0-6-brings-component-updates-and-kubeflow-architecture/)
+- [A development roadmap for Open Data Hub](https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub/)
 
 ## eBooks
 - [O'Really: Streaming data](http://streamingsystems.net/)

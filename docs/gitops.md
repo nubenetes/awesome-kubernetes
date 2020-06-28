@@ -3,10 +3,13 @@
 - [Git Repositories Structures](#git-repositories-structures)
 - [GitOps Tools](#gitops-tools)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
+    - [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
     - [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
     - [Helm](#helm)
     - [Jenkins](#jenkins)
     - [Terraform](#terraform)
+    - [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
+- [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     - [OpenShift GitOps](#openshift-gitops)
     - [Weave Kubernetes Platform](#weave-kubernetes-platform)
@@ -35,6 +38,9 @@
 * [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
 * [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 
 
+### Kustomize. Kubernetes native configuration management
+- [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+
 ### WKSctl. Weave Kubernetes System Control
 * [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
 * [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
@@ -53,6 +59,15 @@
 
 ### Terraform
 - [How to Create a GitOps Workflow with Terraform and Jenkins](https://www.hashicorp.com/resources/how-create-gitops-workflow-terraform-jenkins/)
+
+### Config Sync and Anthos Config Management 
+- [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview)
+- [Anthos Config Management](https://cloud.google.com/anthos/config-management)
+- Google built a tool called [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) which acts as the bridge between an external source code repository and the Kubernetes API server. [Anthos Config Management](https://cloud.google.com/anthos/config-management) is based on Config Sync to extend it to multicluster scenarios.
+
+## GitOps Frameworks
+- [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.
+- [Kubestack 🌟](https://www.kubestack.com/framework/documentation) is an open-source GitOps framework for infrastructure automation built on Terraform and Kustomize. It’s designed for teams that want to automate Kubernetes based infrastructure and not reinvent automation. Think of it this way, Kubestack is to Terraform and infrastructure automation, what Spring Boot is to Java and cloud native applications. The framework supports all three major cloud providers and has been used as the foundation for a number of real world customer projects as part of my colleagues’ and my consulting work. It is fully documented, has a step-by-step tutorial to help users get started and even includes a local [GitOps development lab](https://www.kubestack.com/framework/documentation/tutorial-build-local-lab). So you can test-drive Kubestack and learn more about GitOps for infrastructure automation in the comfort of your own localhost.
 
 ## Kubernetes Platforms and GitOps
 ### OpenShift GitOps

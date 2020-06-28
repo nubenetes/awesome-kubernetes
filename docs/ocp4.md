@@ -51,6 +51,7 @@
 - [OpenShift Cost Management](#openshift-cost-management)
 - [Operators in OCP 4](#operators-in-ocp-4)
 - [Quay Container Registry](#quay-container-registry)
+- [Application Migration Toolkit](#application-migration-toolkit)
 - [OpenShift Topology View](#openshift-topology-view)
 - [Slides](#slides)
 
@@ -451,6 +452,7 @@ oc login
 ## OpenShift 4 Training
 * [github.com: Openshift 4 training](https://github.com/openshift/training)
 * [learn.openshift.com](https://learn.openshift.com/)
+    * [OpenShift 4.4](https://learn.openshift.com/playgrounds/openshift44)
 * [learn.crunchydata.com](https://learn.crunchydata.com/)
 
 ## OpenShift 4 Roadmap
@@ -554,7 +556,7 @@ oc login
 * [blog.openshift.com: Helm and Operators on OpenShift, Part 2](https://blog.openshift.comhelm-and-operators-on-openshift-part-2/)
 
 ## Red Hat Marketplace
-* [marketplace.redhat.com 🌟](https://marketplace.redhat.com/)
+* [marketplace.redhat.com 🌟](https://marketplace.redhat.com/) A simpler way to buy and manage enterprise software, with automated deployment to any cloud. 
 * [developers.redhat.com: Building Kubernetes applications on OpenShift with Red Hat Marketplace](https://developers.redhat.com/blog/2020/04/27/building-kubernetes-applications-on-openshift-with-red-hat-marketplace/)
 
 ## Kubestone. Benchmarking Operator for K8s and OpenShift
@@ -582,6 +584,9 @@ oc login
 * [GitHub Quay (OSS)](https://github.com/quay/quay)
 * [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 * [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
+
+## Application Migration Toolkit
+- [Red Hat Application Migration Toolkit](https://developers.redhat.com/products/rhamt/overview) is an assembly of open source tools that enables large-scale application migrations and modernizations. The tooling consists of multiple individual components that provide support for each phase of a migration process.
 
 ## OpenShift Topology View
 - [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)

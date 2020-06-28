@@ -2,6 +2,7 @@
 - [Java](#java)
     - [Existing Java Implementations](#existing-java-implementations)
     - [Use Java 11](#use-java-11)
+    - [Java Collections Interview Questions](#java-collections-interview-questions)
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Jakarta EE](#jakarta-ee)
 - [Eclipse MicroProfile](#eclipse-microprofile)
@@ -33,6 +34,9 @@
 - [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
 - [**AdoptOpenJDK 11** Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/)
 - [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/)
+
+### Java Collections Interview Questions
+* [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
 
 ## Java Programming Models (Frameworks)
 - [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) The best Java Frameworks vendors are **Apache Spark**, **Spring Boot**, **Oracle Application Development Framework (Oracle ADF)**, **Jakarta EE**, and **Open Liberty**. Apache is the top solution according to IT Central Station reviews and rankings. One reviewer writes: "Fast performance and has an easy initial setup", and another reviewer writes: "Easy to use and is capable of processing large amounts of data". The 2nd best product is Spring Boot. A user writes: "Very smooth implementation; excellent features for monitoring and tracking network calls ", and another reviewer writes: "Makes it difficult to support a specific functionality in a user-friendly manner, but simplifies application deployment".

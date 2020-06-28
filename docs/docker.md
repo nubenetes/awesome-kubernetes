@@ -1,5 +1,6 @@
 # Docker
 - [Introduction and Tutorials](#introduction-and-tutorials)
+- [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
 - [Docker Tools](#docker-tools)
 - [Docker and WSL2](#docker-and-wsl2)
 - [Docker Cheat sheet](#docker-cheat-sheet)
@@ -18,7 +19,6 @@
 * [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
 * [medium.com: Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [medium.freecodecamp.com: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.com/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
-* [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
 * [Google Play: Learning Solution - Learn Docker 🌟](https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&hl=en)
 * [Play with docker 🌟](https://labs.play-with-docker.com/) A simple, interactive and fun playground to learn Docker
 * [blog.docker.com: Intro Guide to Dockerfile Best Practices 🌟](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
@@ -34,6 +34,10 @@
 * [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard/)
 * [geekflare.com: docker tutorials](https://geekflare.com/docker-tutorials/)
 * [medium: What is Docker, Why should you use it in simple words](https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db)
+
+## How To Build a Smaller Docker Image
+* [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
+* [medium: How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a) When you’re building a Docker image it’s important to keep the size under control. Having small images means ensuring faster deployment and transfers.
 
 ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)

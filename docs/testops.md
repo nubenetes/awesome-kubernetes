@@ -15,6 +15,7 @@
 
 ## Test Driven Development (TDD)
 - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)
+- [functionize.com: Testers vs TDD](https://www.functionize.com/blog/testers-vs-tdd/) Test-driven development was supposed to eliminate the need for independent testing. Alas, it doesn’t go far enough.
 
 <center>
 [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)

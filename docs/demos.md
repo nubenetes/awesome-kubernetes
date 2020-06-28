@@ -1,8 +1,9 @@
-# DevOps Demos & Screencasts
+# DevOps Demos, Tutorials & Screencasts
 - [DevOps Screencasts](#devops-screencasts)
 - [DevOps Blogs](#devops-blogs)
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
+    - [GitOps](#gitops)
 - [Kubernetes Demos](#kubernetes-demos)
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
@@ -15,6 +16,8 @@
     - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
+    - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
+    - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
 - [Jenkins Demos](#jenkins-demos)
     - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
     - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
@@ -31,6 +34,10 @@
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
 - [Google DevOps Demos](#google-devops-demos)
+    - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
+- [Quarkus Demos](#quarkus-demos)
+- [Kafka](#kafka)
+- [Codeless](#codeless)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -52,6 +59,9 @@
 ### Ansible and Ansible Tower
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
 * [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
+
+### GitOps 
+- [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
 
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
@@ -123,10 +133,16 @@
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
 
 ### OpenShift Pipelines Workshop (Tekton)
-- [openshift-pipelines-workshop](https://redhat-developer-demos.github.io/openshift-pipelines-workshop/) Workshop to demonstrate OpenShift Pipelines (featuring Tekton)
 - [Build a Go application using OpenShift Pipelines](https://developers.redhat.com/blog/2020/05/26/build-a-go-application-using-openshift-pipelines/)
+    - [openshift-pipelines-workshop](https://redhat-developer-demos.github.io/openshift-pipelines-workshop/) Workshop to demonstrate OpenShift Pipelines (featuring Tekton)
 - [OpenShift Pipelines Catalog](https://github.com/openshift/pipelines-catalog)
 - [systemcraftsman/lab-tekton-pipelines: OpenShift Pipelines workshop](https://github.com/systemcraftsman/lab-tekton-pipelines)
+
+### Monitoring Services with OpenShift ServiceMesh
+- [Monitoring Services like an SRE in OpenShift ServiceMesh](https://www.openshift.com/blog/monitoring-services-like-an-sre-in-openshift-servicemesh)
+
+### Red Hat Migration Toolkit for Applications
+- [Migration Toolkit for Applications Demo - June 2020](https://youtu.be/mRCz6Jl0Ds8) Migraiton Toolkit from Applications by Red Hat can help you migrate and/or modernize your applications by analyzing them and finding isses such as use of proprietary classes or behaviousr that are not conformant with 12factor app, in order to help you modernize your app portfolio and make it more cloud & container friendly.
 
 ## Jenkins Demos
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
@@ -276,4 +292,20 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## Google DevOps Demos
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)
+
+### GitOps with Anthos Config Management 
+- [Tutorial: Connect Amazon EKS and Azure AKS Clusters with Google Anthos](https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos/)
+- [Tutorial: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
+- [Tutorial: Deploy Anthos Apps from GCP Marketplace into Amazon EKS Cluster](https://thenewstack.io/tutorial-deploy-anthos-apps-from-gcp-marketplace-into-amazon-eks-cluster/)
+
+## Quarkus Demos
+- [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
+
+## Kafka
+- [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
+
+## Codeless
+- [github.com/kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
+
+
 

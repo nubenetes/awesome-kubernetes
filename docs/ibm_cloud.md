@@ -30,6 +30,7 @@
 - [openliberty.io](https://www.openliberty.io/) A lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. 
 - [IBM open sources WebSphere Liberty code to support Java microservices and cloud-native apps](https://developer.ibm.com/dwblog/2017/websphere-liberty-java-open-source/)
 - [github.com/openliberty](https://github.com/openliberty/)
+- [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6/)
 
 ## Red Hat OpenShift on IBM Z and LinuxONE
 - [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.openshift.com/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone)

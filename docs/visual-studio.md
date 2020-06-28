@@ -1,9 +1,11 @@
 # Visual Studio Code
 - [VSCode](#vscode)
+    - [Updates](#updates)
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
     - [Publishers](#publishers)
     - [Extensions](#extensions)
         - [More Extensions](#more-extensions)
+        - [More Extensions (Blogs)](#more-extensions-blogs)
         - [Themes](#themes)
         - [DevOps Extensions](#devops-extensions)
         - [Azure DevOps Extensions](#azure-devops-extensions)
@@ -23,6 +25,10 @@
 * [kite: Code Faster with AI Autocomplete](https://kite.com/)
 * [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
 * [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/)
+
+### Updates
+* [VSCode Updates](https://code.visualstudio.com/updates)
+* [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_46#_flexible-layout)
 
 ## Visual Studio MarketPlace and Extensions
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
@@ -71,6 +77,9 @@ A simple extension to make indentation more readable
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) Visual Studio Code plugin that autocompletes filenames
 * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 * [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) Convert pure react components to class components
+
+#### More Extensions (Blogs)
+* [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
 
 #### Themes
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code

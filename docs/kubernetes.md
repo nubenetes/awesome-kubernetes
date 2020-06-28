@@ -2,14 +2,11 @@
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+    - [Health Checks](#health-checks)
     - [Architecting Kubernetes clusters](#architecting-kubernetes-clusters)
     - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
     - [Kubernetes Limits](#kubernetes-limits)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
-- [Extending Kubernetes](#extending-kubernetes)
-    - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
-    - [OpenKruise/Kruise](#openkruisekruise)
-    - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubectl commands](#kubectl-commands)
     - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
     - [Kubectl Autocomplete](#kubectl-autocomplete)
@@ -37,6 +34,11 @@
     - [Cluster Autoscaler and DockerHub](#cluster-autoscaler-and-dockerhub)
     - [Cluster Autoscaler in GKE, EKS, AKS and DOKS](#cluster-autoscaler-in-gke-eks-aks-and-doks)
     - [Cluster Autoscaler in OpenShift](#cluster-autoscaler-in-openshift)
+- [Extending Kubernetes](#extending-kubernetes)
+    - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
+    - [Krew, a plugin manager for kubectl plugins](#krew-a-plugin-manager-for-kubectl-plugins)
+    - [OpenKruise/Kruise](#openkruisekruise)
+    - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubernetes Community](#kubernetes-community)
     - [Community Forums](#community-forums)
     - [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
@@ -150,7 +152,6 @@
 * [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/ )
 * [techbeacon.com: Why teams fail with Kubernetes—and what to do about it 🌟](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
 * [itnext.io: Kubernetes rolling updates, rollbacks and multi-environments 🌟](https://itnext.io/kubernetes-rolling-updates-rollbacks-and-multi-environments-4ff9912df5)
-* [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
 * [learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟](https://learnk8s.io/kubernetes-long-lived-connections)
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 * [itnext.io: K8s Vertical Pod Autoscaling 🌟](https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81)
@@ -190,6 +191,11 @@
 </center>
 <br/>
 
+### Health Checks
+* [medium: How to Perform Health checks in Kubernetes (K8s)](https://medium.com/faun/how-to-perform-health-checks-in-kubernetes-k8s-a4e5300b1f9d)
+* [wideops.com: Kubernetes best practices: Setting up health checks with readiness and liveness probes](https://wideops.com/kubernetes-best-practices-setting-up-health-checks-with-readiness-and-liveness-probes/)
+* [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
+
 ### Architecting Kubernetes clusters
 * [learnk8s.io: Architecting Kubernetes clusters — how many should you have?](https://learnk8s.io/how-many-clusters)
 * [learnk8s.io: Architecting Kubernetes clusters — choosing a worker node size](https://learnk8s.io/kubernetes-node-size)
@@ -208,34 +214,6 @@
 ### Kubernetes Knowledge Hubs
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
-
-## Extending Kubernetes
-### Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API
-- [Custom Resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
-- Use a custom resource (CRD or Aggregated API) if most of the following apply:
-    - You want to use Kubernetes client libraries and CLIs to create and update the new resource.
-    - You want top-level support from kubectl; for example, kubectl get my-object object-name.
-    - You want to build new automation that watches for updates on the new object, and then CRUD other objects, or vice versa.
-    - You want to write automation that handles updates to the object.
-    - You want to use Kubernetes API conventions like .spec, .status, and .metadata.
-    - You want the object to be an abstraction over a collection of controlled resources, or a summarization of other resources.
-- Kubernetes provides two ways to add custom resources to your cluster:
-    - CRDs are simple and can be created without any programming.
-    - API Aggregation requires programming, but allows more control over API behaviors like how data is stored and conversion between API versions.
-- Kubernetes provides these two options to meet the needs of different users, so that neither ease of use nor flexibility is compromised.
-- Aggregated APIs are subordinate API servers that sit behind the primary API server, which acts as a proxy. This arrangement is called API Aggregation (AA). To users, it simply appears that the Kubernetes API is extended.
-- CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
-- Regardless of how they are installed, the new resources are referred to as Custom Resources to distinguish them from built-in Kubernetes resources (like pods).
-
-### OpenKruise/Kruise
-- [openkruise.io](https://openkruise.io/)
-- [OpenKruise/Kruise](https://github.com/openkruise/kruise)
-- [thenewstack.io: Introducing CloneSet: A Production-Grade Kubernetes Deployment CRD](https://thenewstack.io/introducing-cloneset-production-grade-kubernetes-deployment-crd/)
-
-###  Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
-- [crossplane.io 🌟](https://crossplane.io/) Crossplane is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl.
-- [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane/)
-- [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
 
 ## Kubectl commands
 ### Kubectl Cheat Sheets
@@ -339,6 +317,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Helm Charts repositories
 * [hub.helm.sh 🌟](http://hub.helm.sh) 
 * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
+* [JFrog ChartCenter](https://chartcenter.io/)
+    * [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications 
 
 ### Helm Charts
 * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
@@ -400,6 +380,38 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [OpenShift 3.11: Configuring the cluster auto-scaler in AWS](https://docs.openshift.com/container-platform/3.11/admin_guide/cluster-autoscaler.html)
 * [OpenShift 4.4: Applying autoscaling to an OpenShift Container Platform cluster](https://docs.openshift.com/container-platform/4.4/machine_management/applying-autoscaling.html)
 
+## Extending Kubernetes
+### Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API
+- [Custom Resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
+- Use a custom resource (CRD or Aggregated API) if most of the following apply:
+    - You want to use Kubernetes client libraries and CLIs to create and update the new resource.
+    - You want top-level support from kubectl; for example, kubectl get my-object object-name.
+    - You want to build new automation that watches for updates on the new object, and then CRUD other objects, or vice versa.
+    - You want to write automation that handles updates to the object.
+    - You want to use Kubernetes API conventions like .spec, .status, and .metadata.
+    - You want the object to be an abstraction over a collection of controlled resources, or a summarization of other resources.
+- Kubernetes provides two ways to add custom resources to your cluster:
+    - CRDs are simple and can be created without any programming.
+    - API Aggregation requires programming, but allows more control over API behaviors like how data is stored and conversion between API versions.
+- Kubernetes provides these two options to meet the needs of different users, so that neither ease of use nor flexibility is compromised.
+- Aggregated APIs are subordinate API servers that sit behind the primary API server, which acts as a proxy. This arrangement is called API Aggregation (AA). To users, it simply appears that the Kubernetes API is extended.
+- CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
+- Regardless of how they are installed, the new resources are referred to as Custom Resources to distinguish them from built-in Kubernetes resources (like pods).
+
+### Krew, a plugin manager for kubectl plugins
+* [Krew 🌟](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool.
+* [itnext.io: Extending Kubernetes Cluster; Kubectl Plugins and Krew](https://itnext.io/extending-kubernetes-cluster-kubectl-plugins-and-krew-547a8bc839a3)
+
+### OpenKruise/Kruise
+- [openkruise.io](https://openkruise.io/)
+- [OpenKruise/Kruise](https://github.com/openkruise/kruise)
+- [thenewstack.io: Introducing CloneSet: A Production-Grade Kubernetes Deployment CRD](https://thenewstack.io/introducing-cloneset-production-grade-kubernetes-deployment-crd/)
+
+###  Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
+- [crossplane.io 🌟](https://crossplane.io/) Crossplane is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl.
+- [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane/)
+- [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
+
 ## Kubernetes Community
 ### Community Forums
 - [Community Forums 🌟🌟](https://discuss.kubernetes.io/)
@@ -444,7 +456,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [**Tubectl**: a kubectl alternative which adds a bit of magic to your everyday kubectl routines by reducing the complexity of working with contexts, namespaces and intelligent matching resources.](https://github.com/reconquest/tubekit)
 * [**Kpt**: Packaging up your Kubernetes configuration with git and YAML since 2014 **(Google)**](https://opensource.googleblog.com/2020/03/kpt-packaging-up-your-kubernetes.html)
     * [kpt](https://googlecontainertools.github.io/kpt/)
-* [**Krew** 🌟](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool.
 * [kubernetes-common-services](https://github.com/ManagedKube/kubernetes-common-services) These services help make it easier to manage your applications environment in Kubernetes
 * [**k8s-job-notify**](https://github.com/sukeesh/k8s-job-notify) Kubernetes Job/CronJob Notifier. This tool sends an alert to slack whenever there is a Kubernetes cronJob/Job failure/success.
 * [**kube-opex-analytics** 🌟](https://github.com/rchakode/kube-opex-analytics) Kubernetes Cost Allocation and Capacity Planning Analytics Tool. Built-in hourly, daily, monthly reports - Prometheus exporter - Grafana dashboard.
@@ -485,6 +496,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 - [inspektor-gadget](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF 
     - [kinvolk.io](https://kinvolk.io)
 - [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments 🌟](https://learnk8s.io/troubleshooting-deployments)
+- [StatusBay 🌟](https://github.com/similarweb/statusbay) is a tool that provides the missing visibility into the K8S deployment process. The main goal is to ease the experience of troubleshooting and debugging services in K8S and provide confidence while making changes.
 
 <center>
 [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
@@ -733,6 +745,8 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
 * [EC2 ENI and IP Limit](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html#AvailableIpPerENI)
 * [Calico in EKS](https://docs.aws.amazon.com/eks/latest/userguide/calico.html )
+* [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices/)
+    * [EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices/iam/)
 
 ## Kubernetes Scheduling and Scheduling Profiles
 * [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)

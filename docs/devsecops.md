@@ -12,13 +12,16 @@
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 - [Manage your secrets in Git with SOPS for Kubernetes](#manage-your-secrets-in-git-with-sops-for-kubernetes)
 - [Pentesting](#pentesting)
-- [HashiCorp Vault](#hashicorp-vault)
+- [GitOps Secret Management](#gitops-secret-management)
+    - [HashiCorp Vault](#hashicorp-vault)
+    - [Alternatives](#alternatives)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
 - [devopszone.info: DevSecOps Explained](https://www.devopszone.info/post/devsecops-explained)
 - [linkedin: Dear Google, my data has left your building!](https://www.linkedin.com/pulse/dear-google-my-data-has-left-your-building-zakir-khan/)
+- [snyk.io: The State of Open Source Security 2020](https://snyk.io/open-source-security-report/)
 
 ## Kubernetes Config Security Threats
 - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root/)
@@ -59,9 +62,19 @@
 ## Pentesting
 - [forbes.com: DevOps Drives Pentesting Delivered As A Service](https://www.forbes.com/sites/chenxiwang/2020/06/17/devops-drives-pentesting-delivered-as-a-service/)
 
-## HashiCorp Vault
+## GitOps Secret Management
+### HashiCorp Vault
 - [vaultproject.io](https://www.vaultproject.io/) Manage Secrets and Protect Sensitive Data. Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 - [medium: Coding for Secrets Reliability with HashiCorp Vault](https://medium.com/hashicorp-engineering/coding-for-secrets-reliability-with-hashicorp-vault-2090dd8667e)
+- [hashicorp.com: Vault & Kubernetes: Better Together](https://www.hashicorp.com/resources/vault-and-kubernetes-better-together/)
+- OpenShift Blogs:
+    - https://www.openshift.com/blog/managing-secrets-openshift-vault-integration
+    - https://www.openshift.com/blog/vault-integration-using-kubernetes-authentication-method
+    - https://www.openshift.com/blog/integrating-vault-with-legacy-applications
+    - https://www.openshift.com/blog/integrating-hashicorp-vault-in-openshift-4
+
+### Alternatives
+- [GitOps secret management with bitnami-labs Sealed Secret and GoDaddy Kubernetes External Secrets](https://www.openshift.com/blog/gitops-secret-management)
 
 ## Serverless Security Best Practices
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)
