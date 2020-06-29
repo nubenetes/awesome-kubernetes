@@ -28,6 +28,7 @@
     - [Jenkins Blue Ocean](#jenkins-blue-ocean)
     - [Cloudbees Flow](#cloudbees-flow)
 - [Monitoring jenkins](#monitoring-jenkins)
+- [Externalizing Fingerprint Storage for Jenkins](#externalizing-fingerprint-storage-for-jenkins)
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
 - [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [CloudBees](#cloudbees)
@@ -354,6 +355,16 @@
     * [github.com/jenkinsci/github-autostatus-plugin](https://github.com/jenkinsci/github-autostatus-plugin)
 * [20 Jenkins Plugins You Can’t Live Without](https://caylent.com/jenkins-plugins)
 * [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
+
+## Externalizing Fingerprint Storage for Jenkins 
+- New FingerprintStorage API to build external fingerprint storage plugins.
+- [External Fingerprint Storage Phase-1 Updates](https://www.jenkins.io/blog/2020/06/27/external-fingerprint-storage/) Externalizing fingerprint storage for Jenkins is a Google Summer of Code 2020 project. Fingerprinting is a way to track which version of a file is being used by a job/build, making dependency tracking easy. The fingerprint engine of Jenkins can track usages of artifacts, credentials, files, images, etc. within the system. Currently, it does this by maintaining a local XML-based database. Advantages of using external storage drivers:
+    - Remove dependence on Jenkins master disk storage
+    - Support for configure pay-as-you-use cloud storages
+    - Easy Backup Management
+    - Better Reliability and Availability
+    - Fingerprints can be tracked across Jenkins instances
+- [Redis Fingerprint Storage Plugin](https://github.com/jenkinsci/redis-fingerprint-storage-plugin)
 
 ## Jenkins and Spring Boot
 * [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html)
