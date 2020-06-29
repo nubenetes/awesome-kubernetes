@@ -14,6 +14,7 @@
 - [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files.
 
 ## Templating JSON Files
+- [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 
 ## Static Checking of Kubernetes YAML Files
