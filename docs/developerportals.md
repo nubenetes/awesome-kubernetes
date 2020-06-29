@@ -113,6 +113,7 @@
 
 ### Others
 - [rapidapi.com/collection/car-api](https://rapidapi.com/collection/car-api)
+- [BMW InnovationLab](https://github.com/BMW-InnovationLab)
 
 ## Banking
 - [Wikipedia: Open Banking](https://en.wikipedia.org/wiki/Open_banking)

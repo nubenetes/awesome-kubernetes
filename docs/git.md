@@ -161,6 +161,7 @@ git push origin -f
     * [github.com/cli/cli](https://github.com/cli/cli)
     * [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)
     * [github.blog: Mark pull requests as ready for review, view the diff, review, and merge from GitHub CLI](https://github.blog/changelog/2020-05-26-mark-pull-requests-as-ready-for-review-review-and-merge-from-github-cli/)
+* [githubstatus.com/uptime 🌟](https://www.githubstatus.com/uptime)
 
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)

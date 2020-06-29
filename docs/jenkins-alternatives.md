@@ -6,6 +6,7 @@
 * [GoCD](https://www.gocd.org/)
 * [Codefresh](https://codefresh.io/)
 * [skaffold](https://skaffold.dev/)
+* [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
      * [Bamboo](https://www.atlassian.com/software/bamboo)
 * [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
