@@ -24,3 +24,4 @@
 * [ine.com](https://ine.com/)
 * [GCF LearnFree.org](https://edu.gcfglobal.org/en/)
 * [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
+* [SQL Police Department](https://sqlpd.com/)
