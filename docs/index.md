@@ -95,7 +95,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Nexus & JFrog Artifactory](nexus-jfrog.md)
 - [Selenium, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
 - [Linux & SSH 🌟](linux.md)
-- [YAML processors & Static Checking of Kubernetes YAML Files](yaml-processors.md)
+- [Templating YAML, YAML Processors & Static Checking of Kubernetes YAML Files](yaml.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
 ### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
 - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
