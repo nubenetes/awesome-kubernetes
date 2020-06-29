@@ -8,7 +8,6 @@
     - [Debugging java applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
 - [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
     - [Threadumps, Heapdumps and GC Analysis Tools](#threadumps-heapdumps-and-gc-analysis-tools)
-        - [Capturing a Java Thread Dump](#capturing-a-java-thread-dump)
 - [Garbage Collection and Heap Offloading](#garbage-collection-and-heap-offloading)
 - [Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)](#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014)
 
@@ -60,13 +59,12 @@ etc|
 * etc
 
 ### Threadumps, Heapdumps and GC Analysis Tools
+* [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/)
+* [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
 * [tier1app.com](https://tier1app.com/)
 * [fastthread.io](https://fastthread.io/)
 * [gceasy.io](https://gceasy.io/)
 * [heaphero.io](https://heaphero.io/)
-
-#### Capturing a Java Thread Dump
-* [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
 
 ## Garbage Collection and Heap Offloading
 - [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org/)
