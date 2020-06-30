@@ -1,6 +1,15 @@
 # Cloud Native Storage
 - [Introduction](#introduction)
 - [Solutions](#solutions)
+    - [Rook](#rook)
+    - [Robin](#robin)
+    - [Reduxio](#reduxio)
+    - [Portworx](#portworx)
+    - [StorageOS](#storageos)
+    - [OpenEBS](#openebs)
+    - [LightOS](#lightos)
+    - [Longhorn](#longhorn)
+    - [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -11,18 +20,38 @@
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
 
 ## Solutions
-- [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
-    - [MayaData](https://mayadata.io/) Founder of OpenEBS
-- [StorageOS](https://storageos.com/)
+### Rook
 - [Rook](https://rook.io/)
+
+### Robin
 - [Robin](https://robin.io/)
+
+### Reduxio
 - [Reduxio](https://www.reduxio.com/)
+
+### Portworx
 - [Portworx](https://portworx.com/)
-- [Longhorn](https://longhorn.io/)
-    - [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf/). Gluster and Ceph were “designed to be run by some storage admin. In the Kubernetes world, a lot of these things tend to be deployed by DevOps teams, so (the storage layer) needs to be a lot more lightweight and a lot simpler.” — Rancher Labs CEO Sheng Liang.
-    - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://rancher.com/blog/2020/longhorn-container-storage)
+
+### StorageOS
+- [StorageOS](https://storageos.com/)
+
+### OpenEBS
+- [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
+- [MayaData](https://mayadata.io/) Founder of OpenEBS
+
+### LightOS
 - [LightOS](https://www.lightbitslabs.com/product/)
-    - [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://blocksandfiles.com/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/)
+- [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://blocksandfiles.com/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/)
+
+### Longhorn
+- [Longhorn](https://longhorn.io/)
+- [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf/). Gluster and Ceph were “designed to be run by some storage admin. In the Kubernetes world, a lot of these things tend to be deployed by DevOps teams, so (the storage layer) needs to be a lot more lightweight and a lot simpler.” — Rancher Labs CEO Sheng Liang.
+- [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://rancher.com/blog/2020/longhorn-container-storage)
+- [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://containerjournal.com/topics/container-management/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters/)
+
+### IBM Spectrum Storage Suite
+- [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
+- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## OpenShift Container Storage Operator (OCS)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)

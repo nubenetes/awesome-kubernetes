@@ -4,6 +4,7 @@
 - [WebSphere Liberty with support of Java Microservices and Cloud Native Apps](#websphere-liberty-with-support-of-java-microservices-and-cloud-native-apps)
     - [Open Liberty](#open-liberty)
 - [Red Hat OpenShift on IBM Z and LinuxONE](#red-hat-openshift-on-ibm-z-and-linuxone)
+    - [IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite](#ibm-storage-for-red-hat-openshift-ibm-spectrum-storage-suite)
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
     - [CloudPaks For Applications (CP4A)](#cloudpaks-for-applications-cp4a)
     - [IBM Cloud Pak for Multicloud Management (CP4MCM)](#ibm-cloud-pak-for-multicloud-management-cp4mcm)
@@ -38,7 +39,10 @@
 - [Installing OCP in a Mainframe z-series](https://www.openshift.com/blog/installing-ocp-in-a-mainframe-z-series)
 - [OpenShift Container Platform 4.2. Installing on IBM Z (html)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html/installing_on_ibm_z)
 - [OpenShift Container Platform 4.2. Installing on IBM Z (pdf)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/pdf/installing_on_ibm_z)
-- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift Blueprint Version 1 Release 4](http://www.redbooks.ibm.com/abstracts/redp5565.html)
+
+### IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite 
+- [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
+- [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 
 ## IBM Cloud Paks and OpenShift
 * [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io/) 

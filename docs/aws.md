@@ -81,7 +81,8 @@
 - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
 - [EKS](#eks)
 - [Interview Questions](#interview-questions)
-- [Localstack](#localstack)
+- [Local Testing](#local-testing)
+	- [Localstack](#localstack)
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [Spain](#spain)
 - [AWS Pricing](#aws-pricing)
@@ -536,7 +537,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
 
-## Localstack
+## Local Testing
+- [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock)
+
+### Localstack
 - [localstack.cloud 🌟](https://localstack.cloud/) Develop and test your cloud apps offline. A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline! 
 - [github.com/localstack/localstack](https://github.com/localstack/localstack)
 
