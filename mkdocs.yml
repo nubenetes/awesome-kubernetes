@@ -95,7 +95,6 @@ nav:
       - Nexus & JFrog Artifactory: nexus-jfrog.md
       - Selenium, Appium & Zephyr Jira plugin: selenium-appium-zephyr.md
       - Linux & SSH: linux.md
-      - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
       - MkDocs & GitHub Pages: mkdocs.md
     - Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions: 
       - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
@@ -109,6 +108,7 @@ nav:
     - Liquibase & Flyway: liquibase.md
     - Pulumi: pulumi.md
     - Terraform & Packer: terraform.md
+    - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
   - Databases on Kubernetes: 
     - Relational Databases and Database DevOps. CrunchyData Postgres Operator: databases.md
     - NoSQL Databases: nosql.md
