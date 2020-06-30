@@ -307,6 +307,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## Kafka
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
+- [towardsdatascience.com: Kafka, for your data pipeline? Why not?](https://towardsdatascience.com/kafka-for-your-data-pipeline-why-not-5a14b50efe7f)
 
 ## Codeless
 - [github.com/kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
