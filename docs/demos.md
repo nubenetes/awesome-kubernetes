@@ -70,6 +70,7 @@
 * [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 * [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
 * [Mautic](https://github.com/mautic/docker-mautic)
+* [howtoforge.com: How to create a Deployment in Kubernetes](https://www.howtoforge.com/create-a-deployment-in-kubernetes/)
 * [codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes](https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370)
 * [Kubernetes workshop in a box](https://www.theguild.nl/k8s-workshop-in-a-box/)
     * [GitHub: K8s workshop in a box](https://github.com/kabisa/k8s-workshop-in-a-box)

@@ -12,7 +12,8 @@
 ## Alternatives
 - [Google meet](https://meet.google.com/) Alternative to Zoom
 - [Rocket Chat](https://rocket.chat/) Alternative to Slack
-- [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)
+- [Mattermost](https://mattermost.com/) Alternative to Slack
+- [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) Alternative to Slack and Zoom
 - [atlassian.com/remote](https://www.atlassian.com/remote) Free collaboration tools to kickstart remote teamwork
 
 ## More Tools

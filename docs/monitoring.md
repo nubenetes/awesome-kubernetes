@@ -848,6 +848,7 @@ done
 * [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid/)
 * [My Dynatrace proof of concept 🌟](https://github.com/redhatspain/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf)
 * [Tutorial: Guide to automated SRE-driven performance engineering 🌟](https://www.dynatrace.com/news/blog/guide-to-automated-sre-driven-performance-engineering-analysis/)
+* [dynatrace.com: 4 steps to modernize your IT service operations with Dynatrace](https://www.dynatrace.com/news/blog/4-steps-to-modernize-your-it-service-operations-with-dynatrace/)
 
 ## Message Queue Monitoring
 
