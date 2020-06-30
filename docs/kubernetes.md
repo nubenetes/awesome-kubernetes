@@ -265,7 +265,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * Export resources with [zoidbergwill/export.sh](https://gist.github.com/zoidbergwill/6af8c80cc5b706e2adcf25df3dc2f7e1#file-export_resources-py), by [zoidbergwill](https://gist.github.com/zoidbergwill)
 
 ### Kubectl Alternatives
-* [Helm and Kubernetes](#helm-and-kubernetes)
+* [Helm and Kubernetes](#helm-kubernetes-tool)
 * [Kubectl plugins and tools](#kubectl-plugins)
 
 #### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module

@@ -12,6 +12,7 @@
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
+- [Ansible Kubernetes Module](#ansible-kubernetes-module)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -62,8 +63,8 @@
 
 ## Books
 * [ansiblefordevops.com](https://www.ansiblefordevops.com/)
-* [ansibleforkubernetes.com](https://www.ansibleforkubernetes.com/)
-
+* [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com/)
+  
 ## Ansible Galaxy Roles
 - [galaxy.ansible.com](https://galaxy.ansible.com/)
 - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)
@@ -76,3 +77,5 @@
 * [Public Cloud Guides 🌟](https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html)
 * [Ansible to automate Microsoft Azure](https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure)
 
+## Ansible Kubernetes Module
+* [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
