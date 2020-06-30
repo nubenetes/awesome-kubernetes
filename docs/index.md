@@ -110,7 +110,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Liquibase and Flyway](liquibase.md)
 - [Pulumi](pulumi.md)
 - [Terraform & Packer](terraform.md)
-- [Template-Free Configuration Customization with Kustomize](kustomize.md)
+- [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
 - [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
