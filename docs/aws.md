@@ -12,8 +12,9 @@
 - [AWS Glossary](#aws-glossary)
 - [Awesome AWS](#awesome-aws)
 - [AWS Marketplace](#aws-marketplace)
+- [AWS Pricing](#aws-pricing)
+	- [AWS Calculator](#aws-calculator)
 - [AWS on Twitter](#aws-on-twitter)
-- [AWS Calculator](#aws-calculator)
 - [AWS Application Architecture](#aws-application-architecture)
 - [AWS Stacks](#aws-stacks)
 - [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
@@ -85,7 +86,6 @@
 	- [Localstack](#localstack)
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [Spain](#spain)
-- [AWS Pricing](#aws-pricing)
 - [Videos](#videos)
 
 <!-- /MarkdownTOC -->
@@ -123,16 +123,20 @@
 ## AWS Marketplace
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
 
+## AWS Pricing
+- [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
+- [ec2.shop: Compare AWS EC2 instance price from the CLI 🌟](https://ec2.shop/)
+
+### AWS Calculator
+- [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
+- [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
+
 ## AWS on Twitter
 - [twitter.com/awscloud](https://twitter.com/awscloud)
 - [twitter.com/AWSreInvent](https://twitter.com/AWSreInvent)
 - [twitter.com/jeffbarr](https://twitter.com/jeffbarr)
 - [twitter.com/AWSstartups](https://twitter.com/AWSstartups)
 - [twitter.com/AWS_Partners](https://twitter.com/AWS_Partners)
-
-## AWS Calculator
-- [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
-- [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
 
 ## AWS Application Architecture
 - [AWS application-architecture 🌟](http://www.conceptdraw.com/examples/application-architecture)
@@ -550,10 +554,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
-
-## AWS Pricing
-- [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
-- [ec2.shop: Compare AWS EC2 instance price from the CLI 🌟](https://ec2.shop/)
 
 ## Videos
 
