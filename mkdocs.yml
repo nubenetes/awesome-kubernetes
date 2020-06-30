@@ -104,6 +104,7 @@ nav:
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
     - Ansible: ansible.md
+    - Client Libraries for Kubernetes - Go client & Fabric8: kubernetes-client-libraries.md
     - Chef: chef.md
     - Helm Kubernetes Tool: helm.md
     - Liquibase & Flyway: liquibase.md

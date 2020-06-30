@@ -106,6 +106,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Configuration Management
 - [Ansible](ansible.md)
 - [Chef](chef.md)
+- [Client Libraries for Kubernetes: Go client & Fabric8](kubernetes-client-libraries.md)
 - [Helm Kubernetes Tool](helm.md)
 - [Liquibase and Flyway](liquibase.md)
 - [Pulumi](pulumi.md)
