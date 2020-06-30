@@ -553,6 +553,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Pricing
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
+- [ec2.shop: Compare AWS EC2 instance price from the CLI 🌟](https://ec2.shop/)
 
 ## Videos
 
