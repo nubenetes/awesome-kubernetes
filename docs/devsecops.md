@@ -10,6 +10,7 @@
     - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
+- [Removing Credentials From Git Repo](#removing-credentials-from-git-repo)
 - [Manage your secrets in Git with SOPS for Kubernetes](#manage-your-secrets-in-git-with-sops-for-kubernetes)
 - [Pentesting](#pentesting)
 - [GitOps Secret Management](#gitops-secret-management)
@@ -55,6 +56,9 @@
 
 ## Databases in DMZ and Intranet
 - [Databases in DMZ and Intranet](https://security.stackexchange.com/questions/58167/databases-in-dmz-and-intranet)
+
+## Removing Credentials From Git Repo
+- [medium: The Easiest Way To Remove Checked In Credentials From A Git Repo](https://medium.com/@tanmay.avinash.deshpande/the-easiest-way-to-remove-checked-in-credentials-from-a-git-repo-704a373b94e3)
 
 ## Manage your secrets in Git with SOPS for Kubernetes
 - [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)

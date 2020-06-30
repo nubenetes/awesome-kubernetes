@@ -12,6 +12,7 @@
 
 ## Azure DevOps
 * [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
+* [info.acloud.guru: Deploying your first kubernetes app with Azure DevOps](https://info.acloud.guru/resources/deploy-kubernetes-app-with-azure-devops)
 
 ## Azure Traffic Manager
 - [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)

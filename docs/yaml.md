@@ -13,6 +13,9 @@
 - You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
 - [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files.
 
+### Templating with Kustomize. Kubernetes Native Configuration Management
+- [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+
 ## Templating JSON Files
 - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers

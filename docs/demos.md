@@ -38,6 +38,7 @@
 - [Quarkus Demos](#quarkus-demos)
 - [Kafka](#kafka)
 - [Codeless](#codeless)
+- [JBoss EAP](#jboss-eap)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -75,6 +76,7 @@
 * [medium.com/@Kubernetes_Advocate 🌟](https://medium.com/@Kubernetes_Advocate)
     * [medium.com/avmconsulting-blog](https://medium.com/avmconsulting-blog)
 * [medium: Efficient Node Out-of-Resource Management in Kubernetes](https://medium.com/kubernetes-tutorials/efficient-node-out-of-resource-management-in-kubernetes-67f158da6e59)
+* [itnext.io: K8s raise StatefulSet volume size with low impact](https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6) Shown step-by-step on a simple example application
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -309,5 +311,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Codeless
 - [github.com/kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
 
-
+## JBoss EAP 
+- [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. 
 

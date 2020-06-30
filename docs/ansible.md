@@ -34,6 +34,7 @@
 ### Red Hat Certified Ansible Content Collections
 - [ansible.com: Now Available: Red Hat-Maintained Content Collections on Automation Hub](https://www.ansible.com/blog/now-available-the-new-ansible-content-collections-on-automation-hub)
 - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)
+- [ansible.com: Automating Red Hat Satellite with Ansible](https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible)
 
 ## Ansible Cheat Sheets
 * [Ansible Cheat Sheets](cheatsheets.md)
