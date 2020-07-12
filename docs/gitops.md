@@ -4,6 +4,7 @@
 - [GitOps Tools](#gitops-tools)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
     - [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
+    - [Flagger](#flagger)
     - [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
     - [Helm](#helm)
     - [Jenkins](#jenkins)
@@ -12,6 +13,7 @@
 - [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     - [OpenShift GitOps](#openshift-gitops)
+    - [AWS Kubernetes](#aws-kubernetes)
     - [Weave Kubernetes Platform](#weave-kubernetes-platform)
     - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
 
@@ -35,11 +37,18 @@
 ### Flux. The GitOps Operator for Kubernetes
 * [Flux](https://fluxcd.io/) The GitOps operator for Kubernetes
 * [github: Flux CD](https://github.com/fluxcd/flux)
+- [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://toolkit.fluxcd.io/) Great docs for the GitOps toolkit 
+    - https://github.com/fluxcd/toolkit
 * [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
 * [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+
+### Flagger
+- [Flagger](https://flagger.app/) Progressive Delivery Operator for Kubernetes. Release new versions of your application/services to Kubernetes like a pro with 
+Weaveworks's Flagger.
+- [partlycloudy.blog: Release to Kubernetes like a Pro with Flagger](https://partlycloudy.blog/2020/07/08/release-to-k8s-like-a-pro-with-flagger/)
 
 ### WKSctl. Weave Kubernetes System Control
 * [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
@@ -77,6 +86,9 @@
 * [blog.openshift.com: OpenShift Authentication Integration with ArgoCD](https://blogopenshift.com/openshift-authentication-integration-with-argocd/)
 * [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD](https://www.openshift.com/blog/from-code-to-production-with-gitops)
 * [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3)
+
+### AWS Kubernetes
+* [info.acloud.guru: Adopting GitOps for Kubernetes on AWS](https://info.acloud.guru/resources/deploying-kubernetes-with-gitops)
 
 ### Weave Kubernetes Platform
 * [weave.works: Weave Kubernetes Platform](https://www.weave.works/) Automate Enterprise Kubernetes the GitOps way

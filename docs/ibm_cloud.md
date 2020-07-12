@@ -17,6 +17,7 @@
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
 - [IBM Knowledge Center 🌟](https://www.ibm.com/support/knowledgecenter/)
+- [IBM Leverages Containers to Advance DevOps on Mainframes](https://containerjournal.com/topics/container-ecosystems/ibm-leverages-containers-to-advance-devops-on-mainframes/)
 
 ## IBM API Connect
 - [IBM API Connect](https://developer.ibm.com/apiconnect/)

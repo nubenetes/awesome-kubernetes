@@ -1,5 +1,6 @@
 # OCP 4
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
+- [Downloads](#downloads)
 - [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
 - [OCP 4 Overview](#ocp-4-overview)
     - [Three New Functionalities](#three-new-functionalities)
@@ -73,6 +74,9 @@
 <center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 </center>
+
+## Downloads
+- https://mirror.openshift.com/pub/openshift-v4/
 
 ## OpenShift End-to-End. Day 0, Day 1 & Day 2
 * [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
@@ -465,6 +469,7 @@ oc login
 ## Kubevirt Virtual Machine Management on Kubernetes
 * [kubevirt.io 🌟](https://kubevirt.io/) 
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
+* [containerjournal.com: Red Hat Integrates KubeVirt With Kubernetes Management Platform From SAP](https://containerjournal.com/topics/container-management/red-hat-integrates-kubevirt-with-kubernetes-management-platform-from-sap/)
 
 ## Networking and Network Policy in OCP4. SDN/CNI plug-ins
 - [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)

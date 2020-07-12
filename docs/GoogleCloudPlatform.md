@@ -12,6 +12,9 @@
 * [Google Cloud Code](https://cloud.google.com/code)
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
+* [Platform comparisons](https://cloud.google.com/docs/compare)
+    * [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
+    * [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
 
 ## GitHub 
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)

@@ -308,6 +308,8 @@
 * [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/)
 * [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
 * [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
+* [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/)
+* [Git Plugin Performance Improvement](https://www.jenkins.io/blog/2020/07/09/git-performance-improvement-phase1/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

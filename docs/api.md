@@ -1,6 +1,9 @@
 # APIs with SOAP, REST and gRPC
 - [APIs](#apis)
 - [Motivation](#motivation)
+- [State of the API Report](#state-of-the-api-report)
+    - [Postman State of the API Report](#postman-state-of-the-api-report)
+    - [Smartbear State of the API Report](#smartbear-state-of-the-api-report)
 - [Types of API Protocols](#types-of-api-protocols)
     - [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
     - [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
@@ -24,9 +27,18 @@
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
 - [Devdocs.io API Documentation](https://devdocs.io/)
+- [Dzone: 5 Tips for Better REST API Design](https://dzone.com/articles/my-5-tips-for-better-restapi-design) Good API design is difficult. Maintaining backwards compatibility, effectively testing, handling upgrades, etc. is hard to manage. Check out this guide for help!
 
 ## Motivation
 - [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure. 
+- [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)
+
+## State of the API Report
+### Postman State of the API Report
+- [postman.com: 2019 Postman State of the API Report 🌟](https://www.postman.com/resources/infographics/api-survey-2019/)
+
+### Smartbear State of the API Report
+- [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/ebooks/the-state-of-api-2019-report/)
 
 ## Types of API Protocols
 - [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis/) Types of API Protocols: SOAP, REST and RPC

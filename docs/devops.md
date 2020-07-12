@@ -46,6 +46,8 @@
 * [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.
 * [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://containerjournal.com/topics/container-ecosystems/how-the-rise-of-containers-will-drive-devops/)
 * [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.itprotoday.com/devops-and-software-development/devops-model-killing-developer-word-no) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
+* [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/management/2020/06/devops-culture.html)
+* [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

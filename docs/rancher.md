@@ -16,6 +16,7 @@
 - [Rancher Kubernetes on Oracle Cloud](#rancher-kubernetes-on-oracle-cloud)
 - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
 - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
+- [Kubernautic](#kubernautic)
 
 ## Rancher: Enterprise management for Kubernetes
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
@@ -96,3 +97,6 @@
 ## Rancher Fleet to manage multiple kubernetes clusters
 * [**Fleet** Management for kubernetes](https://rancher.com/blog/2020/fleet-management-kubernetes/) a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.
 * [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)
+
+## Kubernautic
+- [Kubernautic](https://kubernauts.sh/) Kubernetes For Everyone, Free Forever! Start your CloudLess Journey and get free access to Rancher Shared as a Service (RSaaS) or apply to get access to your own Dedicated Rancher Dashboard (RDaaS) and save up-to 90% of your cloud costs with Auto Scaling of Spot Instances and Kubernauts Kubernetes Services KKS!

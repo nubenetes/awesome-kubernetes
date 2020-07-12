@@ -20,6 +20,8 @@
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
 
 ## Solutions
+- [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)
+
 ### Rook
 - [Rook](https://rook.io/)
 
@@ -38,6 +40,7 @@
 ### OpenEBS
 - [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
 - [MayaData](https://mayadata.io/) Founder of OpenEBS
+- [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371/)
 
 ### LightOS
 - [LightOS](https://www.lightbitslabs.com/product/)

@@ -8,7 +8,10 @@
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
     - [Istio](#istio)
+    - [Rancher](#rancher)
+    - [GitOps Workflow with Flux](#gitops-workflow-with-flux)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
+    - [Environments to learn and practice Kubernetes security](#environments-to-learn-and-practice-kubernetes-security)
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
@@ -18,6 +21,8 @@
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
     - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
     - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
+    - [OKD](#okd)
+    - [Helm 3 on OpenShift](#helm-3-on-openshift)
 - [Jenkins Demos](#jenkins-demos)
     - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
     - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
@@ -25,6 +30,7 @@
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [SDKMAN](#sdkman)
     - [Jenkins Scripts](#jenkins-scripts)
+- [Jenkins X](#jenkins-x)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
     - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
@@ -39,6 +45,7 @@
 - [Kafka](#kafka)
 - [Codeless](#codeless)
 - [JBoss EAP](#jboss-eap)
+- [Terraform](#terraform)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -78,6 +85,13 @@
     * [medium.com/avmconsulting-blog](https://medium.com/avmconsulting-blog)
 * [medium: Efficient Node Out-of-Resource Management in Kubernetes](https://medium.com/kubernetes-tutorials/efficient-node-out-of-resource-management-in-kubernetes-67f158da6e59)
 * [itnext.io: K8s raise StatefulSet volume size with low impact](https://itnext.io/k8s-raise-statefulset-volume-size-with-low-impact-33fe1e2576f6) Shown step-by-step on a simple example application
+* [Kubernetes Examples](https://github.com/ianmiell/kubernetes-examples)
+* [medium: Prometheus-Grafana on K8s](https://medium.com/@sdhah1999/prometheus-grafana-on-k8s-6efee4af4036)
+* [blog.scottlowe.org: Using kubectl via an SSH Tunnel](https://blog.scottlowe.org/2020/06/16/using-kubectl-via-an-ssh-tunnel/) Learn how to use kubectl via an SSH Tunnel to connect to the Kubernetes API server.
+* [trainings.kubernauts.sh](https://trainings.kubernauts.sh/) Learn Kubernetes by doing and run into problems!
+* [magalix.com: How To Integrate OPA Into Your Kubernetes Cluster Using Kube-mgmt](https://www.magalix.com/blog/how-to-integrate-opa-into-your-kubernetes-cluster-using-kube-mgmt)
+* [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1)
+* [medium: Build a Federation of Multiple Kubernetes Clusters With Kubefed V2](https://medium.com/better-programming/build-a-federation-of-multiple-kubernetes-clusters-with-kubefed-v2-8d2f7d9e198a)
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -88,6 +102,12 @@
 ### Istio
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 
+### Rancher
+- [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
+
+### GitOps Workflow with Flux
+- [managedkube.com: A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
+
 ### Amazon EKS. Deploy example microservices on EKS
 * [eksworkshop.com](https://eksworkshop.com/ )
 * [eksworkshop.com/x-ray/microservices](https://eksworkshop.com/x-ray/microservices/)
@@ -96,6 +116,9 @@
 * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
 * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
 * [dzone: deploying a kubernetes cluster with amazon eks 🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+
+### Environments to learn and practice Kubernetes security
+- [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
 
 ## Red Hat Demo Central
 * [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)
@@ -148,6 +171,12 @@
 ### Red Hat Migration Toolkit for Applications
 - [Migration Toolkit for Applications Demo - June 2020](https://youtu.be/mRCz6Jl0Ds8) Migraiton Toolkit from Applications by Red Hat can help you migrate and/or modernize your applications by analyzing them and finding isses such as use of proprietary classes or behaviousr that are not conformant with 12factor app, in order to help you modernize your app portfolio and make it more cloud & container friendly.
 
+### OKD
+* [medium.com: Installing an OKD 4.5 Cluster](https://medium.com/@craig_robinson/guide-installing-an-okd-4-5-cluster-508a2631cbee)
+
+### Helm 3 on OpenShift
+- [Katacoda Lab: Getting Started with Helm 3 on OpenShift](https://learn.openshift.com/developing-on-openshift/helm/)
+
 ## Jenkins Demos
 * [kublr.com: cicd pipeline with jenkins nexus kubernetes](https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/)
 * [bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws](https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws )
@@ -156,6 +185,8 @@
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
 * [medium.com/@Kubernetes_Advocate: CI/CD with Dockers and Jenkins](https://medium.com/@Kubernetes_Advocate/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
 * [medium.com/@devml2016: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
+* [developers.redhat.com: An easier way to create custom Jenkins containers](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
+* [medium: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -235,6 +266,9 @@
 * **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. 
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain/awesome-kubernetes/tree/master/scripts)
+
+## Jenkins X
+- [blog.testproject.io: Jenkins X Cloud Native CI/CD with TestProject](https://blog.testproject.io/2020/07/09/jenkins-x-cloud-native-ci-cd-with-testproject/)
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes
@@ -316,3 +350,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## JBoss EAP 
 - [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. 
 
+## Terraform
+- [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.
+- [opensource.com: A guide to Terraform for Kubernetes beginners](https://opensource.com/article/20/7/terraform-kubernetes) Learn how to make a Minikube cluster and deploy to it with Terraform.

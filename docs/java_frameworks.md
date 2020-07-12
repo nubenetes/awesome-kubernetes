@@ -6,6 +6,7 @@
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Jakarta EE](#jakarta-ee)
 - [Eclipse MicroProfile](#eclipse-microprofile)
+    - [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
 - [Spring](#spring)
     - [Spring Cloud](#spring-cloud)
     - [SpringBoot](#springboot)
@@ -67,12 +68,14 @@ optimizing Enterprise Java for the microservices architecture.
 - [MicroProfile.io](https://microprofile.io/) Optimizing Enterprise Java for a Microservices Architecture
 - [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers/)
 - [Eclipse MicroProfile: 5 Things You Need to Know 🌟](https://medium.com/@alextheedom/eclipse-microprofile-5-things-you-need-to-know-e7a0bc9a3fb6)
-- **Server Vendors providing MicroProfile runtimes**:
-    - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
-    - [TomEE from Tomitribe](http://tomee.apache.org/)
-    - [Payara](https://www.payara.fish/)
-    - [RedHat’s WildFly Swarm](http://wildfly-swarm.io/)
-    - [KumuluzEE](https://ee.kumuluz.com/)
+- [developers.redhat.com: Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces/)
+
+### Server Vendors providing MicroProfile runtimes
+- [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)
+- [TomEE from Tomitribe](http://tomee.apache.org/)
+- [Payara](https://www.payara.fish/)
+- [RedHat’s WildFly Swarm](http://wildfly-swarm.io/)
+- [KumuluzEE](https://ee.kumuluz.com/)
 
 ## Spring 
 - [Spring](https://spring.io/)

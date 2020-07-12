@@ -1,4 +1,5 @@
 # Linux and SSH
+- [VIM](#vim)
 - [SSH](#ssh)
 - [Linux Blogs](#linux-blogs)
 - [Spanish Linux Blogs](#spanish-linux-blogs)
@@ -13,6 +14,9 @@
     - [Pulp](#pulp)
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
+
+## VIM
+- [VimWiki](https://github.com/vimwiki/vimwiki)
 
 ## SSH
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
@@ -65,6 +69,7 @@
 - [How To Use grep Command In Linux / UNIX 🌟](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
 - [tecmint.com: vtop – A Linux Process and Memory Activity Monitoring Tool](https://www.tecmint.com/vtop-monitor-linux-process-usage/)
 - [tecmint.com: How to Install htop on CentOS 8](https://www.tecmint.com/install-htop-on-centos-8/)
+- [redhat.com: Save time at the command line with HTTPie instead of curl](https://www.redhat.com/sysadmin/curl-hack-httpie) Automate testing endpoints, downloading files, and submitting forms with HTTPie.
 
 ### Systemd
 - [Start using systemd as a troubleshooting tool](https://opensource.com/article/20/5/systemd-troubleshooting-tool) While systemd is not really a troubleshooting tool, the information in its output points the way toward solving problems.

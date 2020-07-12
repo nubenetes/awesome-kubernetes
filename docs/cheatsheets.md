@@ -128,6 +128,7 @@
 * [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
+* [openshift.tips](https://openshift.tips/)
 
 ## Kubernetes Operator Cheat Sheets
 * [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)

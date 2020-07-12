@@ -2,6 +2,7 @@
 - [TestOps](#testops)
 - [Continuous Testing in DevOps](#continuous-testing-in-devops)
 - [Test Driven Development (TDD)](#test-driven-development-tdd)
+- [Tools](#tools)
 
 ## TestOps
 - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops/)
@@ -12,10 +13,15 @@
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
+- [opensource.com: What you need to know about automation testing in CI/CD](https://opensource.com/article/20/7/automation-testing-cicd)
 
 ## Test Driven Development (TDD)
 - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)
 - [functionize.com: Testers vs TDD](https://www.functionize.com/blog/testers-vs-tdd/) Test-driven development was supposed to eliminate the need for independent testing. Alas, it doesn’t go far enough.
+
+## Tools
+- [Smocker (server mock) is a simple and efficient HTTP mock server](https://github.com/Thiht/smocker)
+- [copyist](https://github.com/cockroachdb/copyist) Mocking Your SQL Database in Go Tests Has Never Been Easier.
 
 <center>
 [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)

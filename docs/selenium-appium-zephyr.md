@@ -1,7 +1,13 @@
-# Selenium, Appium & Zephyr Jira Plugin
+# Test Automation Frameworks. Selenium, Cucumber, Appium & Zephyr Jira Plugin
+- [Introduction](#introduction)
 - [Selenium](#selenium)
-- [Appium](#appium)
+- [Mobile Tests](#mobile-tests)
+    - [Appium](#appium)
+    - [Cucumber and Appium](#cucumber-and-appium)
 - [Test Automation with Zephyr (Jira Plugin)](#test-automation-with-zephyr-jira-plugin)
+
+## Introduction
+- [opensource.com: 9 open source test-automation frameworks](https://opensource.com/article/20/7/open-source-test-automation-frameworks) Get some advice to choose the right test-automation framework for your organization.
 
 ## Selenium
 - [selenium.dev](https://selenium.dev/)
@@ -12,10 +18,14 @@
 - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)
 - [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A)
 
-## Appium
+## Mobile Tests
+### Appium
 - [appium.io](http://appium.io/)
 - [Dzone: appium tutorial for complete beginners](https://dzone.com/articles/appium-tutorial-for-complete-beginners)
 - [Dzone: best practices in appium](https://dzone.com/articles/best-practices-in-appium)
+
+### Cucumber and Appium
+- [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://experitest.com/appium-blog/start-automating-your-mobile-tests-with-cucumber-and-appium/)
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)
