@@ -28,6 +28,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [agilemethodology.org](http://agilemethodology.org/)
 - [agilemanifesto.org](http://agilemanifesto.org/)
 - [12factor.net](https://12factor.net/)
+- [openpracticelibrary.com](https://openpracticelibrary.com/)
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
@@ -136,6 +137,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Development & Frameworks
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)
+- [Golang](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
 - [Xamarin](xamarin.md)

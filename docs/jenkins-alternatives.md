@@ -26,6 +26,7 @@
 * [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [Azure DevOps](https://azure.microsoft.com/services/devops/)
+* [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)
@@ -37,6 +38,7 @@
 * [ArgoCD](https://argoproj.github.io/argo-cd/) Declarative GitOps CD for Kubernetes
     * [Cloud Native Computing Foundation Accepts Argo as an Incubator Project](https://www.intuit.com/blog/technology/cloud-native-computing-foundation-accepts-argo-as-an-incubator-project/)
     * [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd)
+    * [developers.redhat.com: OpenShift joins the Argo CD community (KubeCon Europe 2020)](https://developers.redhat.com/blog/2020/08/17/openshift-joins-the-argo-cd-community-kubecon-europe-2020/)
 * [Tekton](https://github.com/tektoncd/)
     * [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
     * [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
@@ -63,4 +65,8 @@
 <iframe src="https://www.youtube.com/embed/ihHr-iLfEGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: Is it possible that Kubeflow pipeline is one of the best CI/CD tools for Kubernetes?<br><br>I spent some time playing with Kubernetes &amp; <a href="https://twitter.com/kubeflow?ref_src=twsrc%5Etfw">@kubeflow</a> pipelines, and they have one feature which is just great:<br><br>You can define the pipeline with real code! <a href="https://t.co/gNDzvvkCij">pic.twitter.com/gNDzvvkCij</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1285929877493800961?ref_src=twsrc%5Etfw">July 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

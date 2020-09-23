@@ -13,6 +13,8 @@
 - [opensource.com: What is an SRE and how does it relate to DevOps?](https://opensource.com/article/18/10/sre-startup) The SRE role is common in large enterprises, but smaller businesses need it, too.
 - [thenewstack.io: Where Site Reliability Engineering Overlaps with DevOps](https://thenewstack.io/where-the-site-reliability-engineer-role-overlaps-with-devops/)
 - [openshift.com: From Ops to SRE - Evolution of the OpenShift Dedicated Team](https://www.openshift.com/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)
+- [cncf.io: DevOps vs. SRE](https://www.cncf.io/blog/2020/07/17/site-reliability-engineering-sre-101-with-devops-vs-sre/)
+- [kelda.io: Why SREs Should be Responsible for Development Environments](https://kelda.io/blog/sres-should-manage-development-environments/)
 
 <center>
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)

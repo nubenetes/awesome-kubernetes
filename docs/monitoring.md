@@ -63,6 +63,7 @@
 * [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 * [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e) Kubernetes handles containers in several computers, removing the complexity of handling distributed processing. But what's the best way to perform Kubernetes monitoring?
 * [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)
+* [Dzone: Comparison of Open Source API Analytics and Monitoring Tools 🌟](https://dzone.com/articles/comparison-of-open-source-api-analytics-and-monito) There are a variety of open-source projects you can leverage to build a complete API analytics platform. This articles compares them.
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -83,6 +84,7 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 | Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
 
 #### Prometheus and Grafana
+* [github.com/prometheus-operator](https://github.com/prometheus-operator)
 * [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
 * [Generally Available today: Red Hat OpenShift Container Platform 3.11 is ready to power enterprise Kubernetes deployments 🌟](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments)
 * [The Challenges of Monitoring Kubernetes and OpenShift 3.11 🌟](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
@@ -91,6 +93,9 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 * [Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring)
 * [Leveraging Kubernetes and OpenShift for automated performance tests (part 1)](https://developers.redhat.com/blog/2018/11/22/automated-performance-testing-kubernetes-openshift/)
 * [Building an observability stack for automated performance tests on Kubernetes and OpenShift (part 2) 🌟](https://developers.redhat.com/blog/2019/01/03/leveraging-openshift-or-kubernetes-for-automated-performance-tests-part-2/)
+* [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster)
+* [developers.redhat.com: Monitoring .NET Core applications on Kubernetes](https://developers.redhat.com/blog/2020/08/05/monitoring-net-core-applications-on-kubernetes/)
+* [Systems Monitoring with Prometheus and Grafana](https://flightaware.engineering/systems-monitoring-with-prometheus-grafana/)
 
 [![openshift3 Monitoring](images/ocp_monitoring.png)](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
 
@@ -165,6 +170,9 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     *	Soporte de federación horizontal y vertical.
 * [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)
 * [Cloud Native Monitoring with Prometheus 🌟](https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus/)
+* [itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS CloudWatch metrics](https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8)
+* [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d) Live issues are a great opportunity to learn and improve. Here’s what happened to us
+* [Prometheus Monitoring Ecosystem Begins to Mature](https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp/)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
@@ -220,6 +228,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
     * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
 * [Example: JMX Exporter with ActiveMQ](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
+* [k8s-image-availability-exporter](https://github.com/flant/k8s-image-availability-exporter) is a Prometheus exporter that warns you proactively about images that are defined in Kubernetes objects (e.g., an image field in the Deployment) but are not available in the container registry (such as Docker Registry, etc.).
 
 #### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
@@ -302,13 +311,18 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * Prometheus utiliza plantillas de consola para los dashboards, si bien su curva de aprendizaje de sus múltiples funcionalidades es alta, con una interfaz de usuario insuficiente. Por este motivo es muy habitual utilizar **Grafana** como interfaz de usuario.
 * [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning/) Las últimas versiones de Grafana permiten la creación de "datasources" y "dashboards" con Ansible, mediante las opciones de provisión de Grafana. Funciona con cualquier "datasource" (Prometheus, InfluxDB, etc), incluyendo la configuración de Grafana correspondiente y dejando poco margen para el error humano.
     * [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
- 
+* [grafana.com: Introducing the new and improved New Relic plugin for Grafana](https://grafana.com/blog/2020/07/22/introducing-the-new-and-improved-new-relic-plugin-for-grafana/)
+* [Log Monitoring and Alerting with Grafana Loki](https://www.infracloud.io/blogs/grafana-loki-log-monitoring-alerting)
+* [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)
+* [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)
+
 ### Grafana Dashboards
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
 * [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 * [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 * [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
 * [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
+* [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/2020/08/26/popular-community-plugins-that-can-improve-your-grafana-dashboards/)
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
@@ -691,6 +705,7 @@ JMeter|Artemis Grafana|Artemis Dashboard
     * [dzone: Kibana Tutorial: Part 2 - Creating Visualizations](https://logz.io/blog/kibana-tutorial-2/)
 * [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
 * [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
+* [juanonlab.com: Dashboards de Kibana](https://www.juanonlab.com/blog/es/dashboards-de-kibana)
 
 ## Prometheus and Grafana Interactive Learning
 * [katacoda.com: Getting Started with Prometheus](https://www.katacoda.com/courses/prometheus/getting-started)
@@ -769,6 +784,7 @@ done
      - [Jaeger Demo1](https://github.com/obitech/micro-obs)
      - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
      - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
+     - [Best Practices for Deploying Jaeger on Kubernetes in Production](https://thenewstack.io/best-practices-for-deploying-jaeger-on-kubernetes-in-production/)
 - [**zipkin.io**](https://zipkin.io/)
 - [**OpenTracing.io**](https://opentracing.io/)
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)

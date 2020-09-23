@@ -14,6 +14,7 @@
 - [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
 - [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
 - [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
+    - [Apache Airflow](#apache-airflow)
     - [Apache Kafka](#apache-kafka)
     - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
     - [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
@@ -34,11 +35,13 @@
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
 - [nginx.com: Event-Driven Data Management for Microservices 🌟](https://www.nginx.com/blog/event-driven-data-management-microservices/)
+- [dzone: Event-Driven Architecture as a Strategy](https://dzone.com/articles/event-driven-architecture-as-a-strategy) Event-driven architecture provides five key benefits to modern application architecture: scalability, resilience, agility, data sharing, and cloud enabling.
 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
 - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
+- [developers.redhat.com: Choosing the right asynchronous-messaging infrastructure for the job](https://developers.redhat.com/blog/2020/07/31/choosing-the-right-asynchronous-messaging-infrastructure-for-the-job/)
 
 ### ActiveMQ message broker
 - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic/)
@@ -95,13 +98,19 @@
 - [developers.redhat.com: Change data capture for microservices without writing any code](https://developers.redhat.com/blog/2020/05/15/change-data-capture-for-microservices-without-writing-any-code/)
 - [debezium.io: Lessons Learned from Running Debezium with PostgreSQL on Amazon RDS](https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds/)
 - [info.crunchydata.com: PostgreSQL Change Data Capture With Debezium](https://info.crunchydata.com/blog/postgresql-change-data-capture-with-debezium)
+- [medium.com: Stream Your Database into Kafka with Debezium](https://medium.com/comsystoreply/stream-your-database-into-kafka-with-debezium-a94b2f649664) An Introduction and Experience Report. Insightful post by David Hettler of 
+comsysto about their usage of Debezium, touching on many details like outbox pattern, Avro schemas, Postgres on RDS etc.
 
 ## Red Hat Integration service registry and Apicurio
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
 - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
+- [Event streaming and data federation: A citizen integrator’s story](https://developers.redhat.com/blog/2020/06/12/event-streaming-and-data-federation-a-citizen-integrators-story/)
 
 ## Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
+
+### Apache Airflow
+- [towardsdatascience.com: A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
 
 ### Apache Kafka
 - [Apache Kafka](https://kafka.apache.org/)
@@ -113,6 +122,11 @@
 - [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776) Replacing Apache Airflow with Debezium. 
 - [medium: Apache Kafka Startup Guide: System Design Architectures: Notification System, Web Activity Tracker, ELT Pipeline, Storage System 🌟](https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7)
 - [medium: Getting Started With Kafka on OpenShift](https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384)
+- [containerjournal.com: Red Hat Platform Brings Kafka Closer to Kubernetes](https://containerjournal.com/topics/container-management/red-hat-platform-brings-kafka-closer-to-kubernetes/)
+- [lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter](https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter)
+- [AKHQ (previously known as KafkaHQ) 🌟](https://github.com/tchiotludo/akhq) Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry, connect and more...
+- [banzaicloud.com: Kafka Schema Registry on Kubernetes the declarative way](https://banzaicloud.com/blog/kafka-schemareg/)
+- [Build a simple cloud-native change data capture pipeline](https://developers.redhat.com/blog/2020/07/02/build-a-simple-cloud-native-change-data-capture-pipeline/)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
@@ -150,6 +164,7 @@
 ### Red Hat AMQ Broker (ActiveMQ Artemis)
 - [Apache ActiveMQ Artemis broker](https://activemq.apache.org/components/artemis/)
 - [developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database](https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database)
+- [developers.redhat.com: Connecting external clients to Red Hat AMQ Broker on Red Hat OpenShift](https://developers.redhat.com/blog/2020/08/26/connecting-external-clients-to-red-hat-amq-broker-on-red-hat-openshift)
 
 ### Red Hat AMQ Streams
 - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1/)
@@ -190,4 +205,8 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 <center>
 <iframe src="https://www.youtube.com/embed/LieT75Zb_OY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pub-Sub ≠ Partitioning ≠ Multiplexing <a href="https://t.co/0ZVaH9Mxvr">pic.twitter.com/0ZVaH9Mxvr</a></p>&mdash; Clemens Vasters 🇪🇺☁📨 (@clemensv) <a href="https://twitter.com/clemensv/status/1288152399211909120?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

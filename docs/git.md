@@ -56,6 +56,11 @@
 * [dev.to: Git Concepts I Wish I Knew Years Ago 🌟](https://dev.to/g_abud/advanced-git-reference-1o9j)
 * [opensource.com: 6 best practices for managing Git repos](https://opensource.com/article/20/7/git-repos-best-practices) Resist the urge to add things in Git that will make it harder to manage; here's what to do instead.
 * [codeburst.io: Debug your code using git bisect](https://codeburst.io/debug-your-code-using-git-bisect-45db2983cc69)
+* [github.blog: Highlights from Git 2.28](https://github.blog/2020-07-27-highlights-from-git-2-28/)
+* [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca)
+* [Things You Want to Do in Git and How to Do Them](https://stu2b50.dev/posts/things-you-wante9665)
+* [Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
+* [livecodestream.dev: Git Concepts and Workflow for Beginners](https://livecodestream.dev/post/2020-08-21-git-concepts-and-workflow-for-beginners/)
 
 ## Design By Contract
 [Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. 
@@ -135,6 +140,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [CloudBees Releases Another Industry First: Feature Flagging for On-Premise Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)
 * [cioperu.pe: 5 formas de impulsar la utilización de feature flags](https://cioperu.pe/articulo/30477/devops-5-formas-de-impulsar-la-utilizacion-de-feature-flags/)
 * [cloudbees.com: Testing with Feature Flags to Improve Developer Productivity](https://www.cloudbees.com/blog/feature-flags-improve-developer-productivity)
+* [cloudbees.com: Goodbye Sleepless Nights: De-Risking Deployments with Feature Flags](https://www.cloudbees.com/case-study/petdesk)
 
 ## Git Commands
 * Show commit logs:
@@ -169,6 +175,13 @@ git push origin -f
     * [github.blog: Mark pull requests as ready for review, view the diff, review, and merge from GitHub CLI](https://github.blog/changelog/2020-05-26-mark-pull-requests-as-ready-for-review-review-and-merge-from-github-cli/)
 * [githubstatus.com/uptime 🌟](https://www.githubstatus.com/uptime)
 * [github.blog: How we launched docs.github.com](https://github.blog/2020-07-02-how-we-launched-docs-github-com/)
+* [Introducing GitHub’s OpenAPI Description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/)
+* [GitHub public roadmap 🌟](https://github.com/github/roadmap)
+* [Token authentication requirements for API and Git operations](https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/)
+* [GitHub Chaos Actions in Your CI/CD workflow](https://blog.mayadata.io/github-chaos-actions-in-your-ci/cd-workflow-part-1)
+* [GitHub's OpenAPI Spec Open-Sourced in Beta](https://www.infoq.com/news/2020/08/GitHub-open-api-spec/)
+* [Things you didn't know you could diff in GitHub](https://sebastiandedeyne.com/things-you-didnt-know-you-could-diff-in-github/)
+* [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/)
 
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)

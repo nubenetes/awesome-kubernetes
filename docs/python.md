@@ -84,6 +84,7 @@
 - [PEP 8 Cheatsheet 🌟](https://es.scribd.com/document/207247675/PEP-8-Cheatsheet-2009)
 - [Lists vs. Tuples](http://nedbatchelder.com/blog/201608/lists_vs_tuples.html) A common beginner Python question: what's the difference between a list and a tuple?
 - [linuxconfig.org: python tuples 🌟](https://linuxconfig.org/python-tuples)
+- [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -127,6 +128,7 @@
 - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/blog/python/introduction-to-flask-part-1-setting-up-a-static-site/)
 - [Two-Factor Authentication with Authy](https://www.twilio.com/docs/tutorials/walkthrough/two-factor-authentication/python/flask)
 - [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World)
+- [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/)
 
 ## Python pip and pip's wheel
 - [wheel replaces Python's eggs](https://wheel.readthedocs.org)

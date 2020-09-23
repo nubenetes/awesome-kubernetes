@@ -58,6 +58,9 @@
 * [Jenkins: Shifting Gears 🌟🌟](https://www.jenkins.io/blog/2018/08/31/shifting-gears/) **Evolutionary line from the current Jenkins 2, but with breaking changes in order to gain higher development speed.** This document lays out the key directions and approaches in a broad stroke, which I discussed with a number of you in the past. Hopefully, this gives you the big picture of how I envision where to move Jenkins forward, not just as the creator of Jenkins but as the CTO of CloudBees, who employs a number of key contributors to the Jenkins project.
 * [aws.amazon.com/blogs: Why Jenkins still continuously serves developers 🌟](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/) 
 * [On Jenkins Terminology Updates](https://www.jenkins.io/blog/2020/06/18/terminology-update/)
+* [medium: Deploy your App Using CI/CD Pipeline](https://medium.com/wind-of-change/creating-a-ci-cd-pipeline-6ff9aeb0848c)
+* [medium: CI/CD Pipeline of Jenkins Using Groovy Language With Monitoring on the Top of Kubernetes 🌟](https://medium.com/swlh/ci-cd-pipeline-of-jenkins-using-groovy-language-with-monitoring-on-the-top-of-kubernetes-b37f962fb0ac)
+* [Cross account ECR push with Jenkins](https://devopsformula.hashnode.dev/cross-account-ecr-push-with-jenkins)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -212,6 +215,7 @@
 * [Example of Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
 * [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) It improves the modifying Web UI configuration controls to support the read-only mode.
 * [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support)
+* [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins)
 
 #### Read-only Jenkins Configuration
 - [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) This feature allows restricting configuration UIs and APIs while providing access to essential Jenkins system configuration, diagnostics, and self-monitoring tools through Web UI. Such mode is critical for instances managed as code, e.g. with Jenkins [Configuration-as-Code plugin](https://plugins.jenkins.io/configuration-as-code). It is delivered as a part of the [JEP-224: Read-only system configuration](https://github.com/jenkinsci/jep/blob/master/jep/224/README.adoc) effort.
@@ -310,6 +314,7 @@
 * [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
 * [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/)
 * [Git Plugin Performance Improvement](https://www.jenkins.io/blog/2020/07/09/git-performance-improvement-phase1/)
+    * [Git Plugin Performance Improvement Phase-2 Progress](https://www.jenkins.io/blog/2020/07/29/git-performance-improvement-phase2/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

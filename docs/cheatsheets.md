@@ -25,6 +25,7 @@
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
 - [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
+- [Machine Learning](#machine-learning)
 
 ## Cheat Sheets
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
@@ -60,6 +61,8 @@
 * [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
 * [opensource.com: 9 kubectl commands sysadmins need to know 🌟](https://opensource.com/article/20/5/kubectl-cheat-sheet) Keep these 9 critical kubectl commands handy to help you with troubleshooting and managing your Kubernetes cluster administration.
 * [bluematador.com: kubectl cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
+* [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f)
+* [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -113,6 +116,7 @@
 ## Linux Command Cheat Sheets
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)
 * [commandlinefu.com](https://www.commandlinefu.com/)
+* [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -189,3 +193,5 @@
 - [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+## Machine Learning
+- [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)

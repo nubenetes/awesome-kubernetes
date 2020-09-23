@@ -48,6 +48,10 @@
 * [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.itprotoday.com/devops-and-software-development/devops-model-killing-developer-word-no) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
 * [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/management/2020/06/devops-culture.html)
 * [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
+* [How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
+* [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418) Breaking down DevOps into practical chunks for real-world implementation.
+* [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
+* [Hating code of others](https://statemanagement.substack.com/p/hating-the-code-of-others) We struggle to appreciate the meaning and intent of other people's work because we fail to understand the deeply personal and subjective quality of software development.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

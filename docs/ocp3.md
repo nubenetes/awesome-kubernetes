@@ -40,6 +40,7 @@
 * [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.comjoshmsmith/monkey-ops)
 * [chaoskube periodically kills random pods in your Kubernetes cluster](https://github.com/linkichaoskube)
 * [Chaos Mesh](https://github.com/pingcap/chaos-mesh)
+* [Litmus is a toolset to do chaos engineering in a kubernetes native way. Litmus provides chaos CRDs for Cloud-Native developers and SREs to inject, orchestrate and monitor chaos to find weaknesses in Kubernetes deployments](https://github.com/litmuschaos/litmus)
 
 ## OpenShift GitOps
 * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/)

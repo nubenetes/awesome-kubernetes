@@ -25,6 +25,7 @@
 * [Dzone: Ansible: An Effective IT Automation Tool](https://dzone.com/articles/ansible-an-effective-it-automation-tool) Learn about Ansible, a tool for automating application deployments, configuration management, and more in a DevOps environment.
 * [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)
 * [Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)](https://www.udemy.com/ansible-essentials-simplicity-in-automation)
+* [Deployment of Microservices in Cloud With Ansible](https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68) This tutorial will help you understand how Ansible orchestrates Docker containers at least for a dev environment
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation

@@ -11,6 +11,7 @@
     - [Nexus CLI](#nexus-cli)
     - [Sonatype Nexus Community](#sonatype-nexus-community)
 - [JFrog Artifactory](#jfrog-artifactory)
+- [JFrog DevOps Platform](#jfrog-devops-platform)
 
 ## Nexus Repository Manager (NXRM) 3
 * [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss)
@@ -74,3 +75,7 @@
 ## JFrog Artifactory
 - [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry/)
 - [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/)
+
+## JFrog DevOps Platform
+- [JFrog DevOps Platform](https://jfrog.com/platform/)
+- [Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)

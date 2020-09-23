@@ -20,6 +20,7 @@
         - [Bash](#bash)
     - [Data Processing](#data-processing)
 - [Open Source Alternatives](#open-source-alternatives)
+- [Kubectl Plugins](#kubectl-plugins)
 
 ## Inspired By
 - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)
@@ -111,3 +112,7 @@
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)
 - [free-for.dev](https://free-for.dev/)
+
+## Kubectl Plugins
+- [Available kubectl plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
+- [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)

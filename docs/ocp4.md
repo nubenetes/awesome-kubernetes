@@ -70,6 +70,11 @@
 * [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟](https://blog.openshift.com/500_pods_per_node/)
 * [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 * [devclass.com: OpenShift 4.4 goes all out on mixed workloads, puts observability at devs’ fingertips 🌟](https://devclass.com/2020/05/04/openshift-4-4-goes-all-out-on-mixed-workloads-puts-observability-at-devs-fingertips/)
+* [developers.redhat.com - Best practices: Using health checks in the OpenShift 4.5 web console 🌟](https://developers.redhat.com/blog/2020/07/20/best-practices-using-health-checks-in-the-openshift-4-5-web-console/) 3 types of health checks offered in OpenShift 4.5 to improve application reliability and uptime
+* [OpenShift 4.5: Node Improvements](https://www.openshift.com/blog/openshift-4.5-node-improvements)
+* [OpenShift 4.5: Red Hat takes Kubernetes to the cloud's edge](https://www.zdnet.com/google-amp/article/red-hat-takes-kubernetes-to-the-clouds-edge/) Red Hat agrees that edge computing is the future and it's getting ready for this next stage in cloud computing with its latest OpenShift release.
+* [Fully Automated OpenShift Deployments With VMware vSphere](https://www.openshift.com/blog/fully-automated-openshift-deployments-with-vmware-vsphere)
+* [OpenShift 4 “under-the-hood” 🌟](https://medium.com/faun/openshift-4-under-the-hood-ab854c3439dd)
 
 <center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
@@ -310,6 +315,7 @@ etcd 14h myoperator 14h
     - The Ingress Operator implements the ingresscontroller API and is the component responsible for enabling external access to OpenShift Container Platform cluster services. 
     - The operator makes this possible by deploying and managing one or more HAProxy-based [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) to handle routing.
 - [Network Security Zones in Openshift (DMZ)](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
+- [openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach](https://www.openshift.com/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)
 
 ```bash
 oc describe clusteroperators/ingress
@@ -546,6 +552,7 @@ oc login
 * [blog.openshift.com: Guide to Installing an OKD 4.4 Cluster on your Home Lab](https://blog.openshift.com/guide-to-installing-an-okd-4-4-cluster-on-your-home-lab/)
 * [okd4-upi-lab-setup: Building an OpenShift - OKD 4.X Lab](https://cgruver.github.io/okd4-upi-lab-setup/) Installing OKD4.X with User Provisioned Infrastructure. Libvirt, iPXE, and FCOS
 * [redhat.com: How to run a Kubernetes cluster on your laptop 🌟](https://www.redhat.com/sysadmin/kubernetes-cluster-laptop) Want containers? Learn how to set up and run a Kubernetes container cluster on your laptop with OKD.
+* [openshift.com: Deploy a multi-master OKD 4.5 cluster using a single command in ~30 minutes](https://www.openshift.com/blog/deploy-a-multi-master-okd-4.5-cluster-using-a-single-command-in-30-minutes)
 
 ## OpenShift Serverless with Knative
 * [redhat.com: What is knative?](https://www.redhat.com/en/topics/microservices/what-is-knative)
@@ -592,6 +599,7 @@ oc login
 
 ## Application Migration Toolkit
 - [Red Hat Application Migration Toolkit](https://developers.redhat.com/products/rhamt/overview) is an assembly of open source tools that enables large-scale application migrations and modernizations. The tooling consists of multiple individual components that provide support for each phase of a migration process.
+- [RHAMT in Github Actions](https://carlosthe19916.wordpress.com/2020/04/12/rhamt-in-github-actions/) You can embed the Migration Toolkit for Application MTA (now still RHAMT) in your GitHub  to ensure your app is JEE / Tomcat compliant (and more ...)
 
 ## OpenShift Topology View
 - [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)

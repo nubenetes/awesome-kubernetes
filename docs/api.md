@@ -114,6 +114,10 @@
 * [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)
 * [Dzone: Step-By-Step Spring Boot RESTful Web Service Complete Example](https://dzone.com/articles/spring-boot-restful-web-service-complete-example)
 * [Creando un API REST en Java (parte 1)](https://www.oscarblancarteblog.com/2018/06/25/creando-un-api-rest-en-java-parte-1/)
+* [dev.to: Rapid API Creation with AWS Amplify](https://dev.to/fllstck/rapid-api-creation-with-aws-amplify-3c8i)
+* [portal.dev](https://portal.dev/) Build beautiful API documentation. Portal lets you create, publish, and maintain your API docs with ease.
+* [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) A clean and simple way to document your code for generating OpenAPI (Swagger) specs.
+    * [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation/)
 
 ## API Business Models
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)

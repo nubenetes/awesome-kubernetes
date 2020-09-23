@@ -30,6 +30,7 @@
 - [AWS Management Tools Blog](#aws-management-tools-blog)
 - [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
 - [AWS RDS](#aws-rds)
+	- [AWS DMS](#aws-dms)
 	- [AWS RDS Proxy](#aws-rds-proxy)
 - [AWS Application Discovery Service](#aws-application-discovery-service)
 - [New AWS Competency. AWS Migration](#new-aws-competency-aws-migration)
@@ -87,6 +88,7 @@
 - [Local Testing](#local-testing)
 	- [Localstack](#localstack)
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
+- [AWS configuration files](#aws-configuration-files)
 - [Spain](#spain)
 - [Videos](#videos)
 
@@ -256,9 +258,12 @@
 - [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon 🌟](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers. 
 - [Working with an Amazon RDS DB Instance in a VPC](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
-- [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
 - [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
+
+### AWS DMS
+- [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
+- [Migrating Oracle databases with near-zero downtime using AWS DMS](https://aws.amazon.com/blogs/database/migrating-oracle-databases-with-near-zero-downtime-using-aws-dms/)
 
 ### AWS RDS Proxy
 - [Amazon RDS Proxy – Now Generally Available](https://aws.amazon.com/es/blogs/aws/amazon-rds-proxy-now-generally-available/) A fully managed, highly available database proxy for Amazon Relational Database Service (RDS) that makes applications more scalable, more resilient to database failures, and more secure.
@@ -366,6 +371,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start 🌟](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start
 - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance/) You can now easily change the Amazon VPC used by your Amazon RDS DB instance!
 - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
+- [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
@@ -485,6 +491,14 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?](https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F)
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [PlantUML](https://plantuml.com/)
+- [cloudskew.com](https://www.cloudskew.com/)
+- [draw.io](https://drawio-app.com/)
+- [Isoflow](https://isoflow.io) Infrastructure Diagrams
+- [AWS Perspective 🌟](https://aws.amazon.com/solutions/implementations/aws-perspective/) a tool to automatically visualise your loud workloads.
+	- https://github.com/awslabs/aws-perspective
+	- Perspective inventories your aws accounts and can automatically create architecture diagrams with your resources along with the relationships between them. The diagrams are dynamic and you have the ability to explore them to discover how your resources are associated and connected.
+	- Perspective displays indicative costing data for the resources in your diagrams and works cross-account and cross-region.
+	- Perspective is open source and has an open road map. Feel free to raise issues and contribute to future development!
 
 ## AWS Config Rules
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
@@ -562,6 +576,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Migrating On Premise VM to AWS
 - [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://youtu.be/buzusNljpy4)
+
+## AWS configuration files
+- [medium: AWS configuration files, explained](https://medium.com/@ben11kehoe/aws-configuration-files-explained-9a7ea7a5b42e)
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

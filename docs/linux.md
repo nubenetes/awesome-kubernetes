@@ -12,6 +12,7 @@
     - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
     - [Copr Build System](#copr-build-system)
     - [Pulp](#pulp)
+    - [Hashicorp](#hashicorp)
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
 
@@ -24,6 +25,10 @@
 - [commandlinefu.com/commands/matching/ssh](https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes)
 - [Auto-SSH for Linux security](https://github.com/mohanad86/secure-ssh-python)
 - [Grant-Revoke-ssh-access](https://github.com/suraksha-123/Grant-Revoke-ssh-access) To automate the process of granting ssh access to a group of servers instances
+- [How to use SSH properly and what is SSH Agent Forwarding](https://dev.to/levivm/how-to-use-ssh-and-ssh-agent-forwarding-more-secure-ssh-2c32)
+- [How To Set up SSH Keys on a Linux / Unix System](https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/)
+- [opensource.com: Bypass your Linux firewall with SSH over HTTP](https://opensource.com/article/20/7/linux-shellhub) Remote work is here to stay; use this helpful open source solution to quickly connect and access all your devices from anywhere.
+- [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh)
 
 ## Linux Blogs
 - [The Linux Foundation](http://www.linuxfoundation.org/)
@@ -70,6 +75,7 @@
 - [tecmint.com: vtop – A Linux Process and Memory Activity Monitoring Tool](https://www.tecmint.com/vtop-monitor-linux-process-usage/)
 - [tecmint.com: How to Install htop on CentOS 8](https://www.tecmint.com/install-htop-on-centos-8/)
 - [redhat.com: Save time at the command line with HTTPie instead of curl](https://www.redhat.com/sysadmin/curl-hack-httpie) Automate testing endpoints, downloading files, and submitting forms with HTTPie.
+- [redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2](https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2)
 
 ### Systemd
 - [Start using systemd as a troubleshooting tool](https://opensource.com/article/20/5/systemd-troubleshooting-tool) While systemd is not really a troubleshooting tool, the information in its output points the way toward solving problems.
@@ -97,6 +103,9 @@
 
 ### Pulp
 - [pulpproject.org](https://pulpproject.org/) Fetch, Upload, Organize, and Distribute Software Packages.
+
+### Hashicorp
+- [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)
 
 ## Linux Libraries
 - [How to handle dynamic and static libraries in Linux](https://opensource.com/article/20/6/linux-libraries)

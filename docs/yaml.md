@@ -9,8 +9,11 @@
 - [github.com/topics/yaml-processor](https://github.com/topics/yaml-processor)
 - [ytt](https://get-ytt.io/) is a templating tool that understands YAML structure allowing you to focus on your data instead of how to properly escape it.
 - You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
-- [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files.
+- [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files. `yq` allows to query the yaml tree and highlights it: ```k get svc a -oyaml | yq r -```
 - [Kapitan](https://kapitan.dev/) Generic templated configuration management for Kubernetes, Terraform and other things.
+- [yaml.sh](https://www.yaml.sh/) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec) 
+- [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
+- [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
 
 ## Templating JSON Files
 - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)

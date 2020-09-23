@@ -11,6 +11,7 @@
     - [medium: API Testing with Postman](https://medium.com/@michaelkm03/rest-api-test-automation-with-postman-jenkins-1-of-3-860edf3c2a45)
 - [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery/)
     - [medium: API Testing with Postman — Build a Dynamic Test Suite](https://medium.com/@michaelkm03/api-testing-with-postman-build-a-dynamic-test-suite-e874f4d78e69)
+- [API Testing with Postman — Run a Collection with Docker](https://www.linkedin.com/pulse/api-testing-postman-run-collection-docker-michael-montgomery/)
 
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman

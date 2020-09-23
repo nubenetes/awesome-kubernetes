@@ -31,6 +31,7 @@
         - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
 - [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
 - [SQL Server](#sql-server)
+- [Percona MySQL](#percona-mysql)
 
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
@@ -45,6 +46,7 @@
   
 ## Database DevOps
 - [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops/a/d-id/1337238)
+- [medium: DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)
 
 ## KubeDB Cloud Native Postgress Database
 * [kubedb.com](https://kubedb.com/) Run production-grade databases easily on Kubernetes
@@ -91,6 +93,9 @@
 * [info.crunchydata.com: Composite Primary Keys, PostgreSQL and Django](https://info.crunchydata.com/blog/composite-primary-keys-postgresql-and-django)
 * [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
 * [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
+* [info.crunchydata.com: Introducing the Postgres Prometheus Adapter](https://info.crunchydata.com/blog/using-postgres-to-back-prometheus-for-your-postgresql-monitoring-1)
+* [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
+* [info.crunchydata.com: Deploying Active-Active PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/active-active-on-kubernetes)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -724,3 +729,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## SQL Server
 - [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/)
+
+## Percona MySQL
+- [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
+- [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)

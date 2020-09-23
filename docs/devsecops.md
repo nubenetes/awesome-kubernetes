@@ -21,9 +21,10 @@
     - [SOPS for Kubernetes](#sops-for-kubernetes)
     - [Alternatives](#alternatives)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
-- [Docker Images](#docker-images)
+- [Docker Images & Container Security](#docker-images--container-security)
 - [Pod Security Policies](#pod-security-policies)
 - [Kubernetes Network Policies](#kubernetes-network-policies)
+- [Books](#books)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -31,6 +32,7 @@
 - [linkedin: Dear Google, my data has left your building!](https://www.linkedin.com/pulse/dear-google-my-data-has-left-your-building-zakir-khan/)
 - [snyk.io: The State of Open Source Security 2020](https://snyk.io/open-source-security-report/)
 - [managedsentinel.com: Executive View — Current and Future Cybersecurity Architecture On One Page](https://www.managedsentinel.com/2019/05/23/cybersecurity-roadmap/)
+- [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation/)
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
@@ -75,6 +77,8 @@
 ## Credential Managers
 ### keycloak
 - [keycloak.org](https://www.keycloak.org/) Open Source Identity and Access Management For Modern Applications and Services
+- [Securing Kubernetes Apps with Keycloak and Gatekeeper](https://fdk.codes/securing-kubernetes-apps-with-keycloak-and-gatekeeper/)
+- [Authorizing multi-language microservices with Louketo Proxy](https://developers.redhat.com/blog/2020/08/03/authorizing-multi-language-microservices-with-louketo-proxy/)
 
 ### Git Credential Manager Core
 - [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) GCM Core is a free, open-source, cross-platform credential manager for Git.
@@ -90,9 +94,12 @@
     - https://www.openshift.com/blog/vault-integration-using-kubernetes-authentication-method
     - https://www.openshift.com/blog/integrating-vault-with-legacy-applications
     - https://www.openshift.com/blog/integrating-hashicorp-vault-in-openshift-4
+- [Vault Learning Resources: Vault 1.5 features and more](https://www.hashicorp.com/blog/learn-vault-1-5)
+- [medium: Securing K8s Ingress Traffic with HashiCorp Vault PKIaaS and JetStack Cert-Manager](https://medium.com/hashicorp-engineering/securing-k8s-ingress-traffic-with-hashicorp-vault-pkiaas-and-jetstack-cert-manager-cb46195742ca)
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
+- [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform)
 
 ### SOPS for Kubernetes
 - [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)
@@ -103,8 +110,10 @@
 ## Serverless Security Best Practices
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)
 
-## Docker Images
+## Docker Images & Container Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
+- [sysdig.com: 12 Container image scanning best practices to adopt in production](https://sysdig.com/blog/image-scanning-best-practices/)
+- [The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security/?utm_sq=ghrej190y8)
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.
@@ -112,3 +121,6 @@
 
 ## Kubernetes Network Policies
 - [medium.com: K8s Network Policies Demystified and Simplified 🌟](https://medium.com/swlh/k8s-network-policies-demystified-and-simplified-18f5ea9848e2)
+
+## Books
+- [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)

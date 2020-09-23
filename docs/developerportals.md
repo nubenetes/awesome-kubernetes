@@ -1,4 +1,5 @@
 # API Marketplaces. API Management with API Gateways & Developer Portals 
+- [Introduction](#introduction)
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     - [API Marketplaces](#api-marketplaces)
     - [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
@@ -13,7 +14,9 @@
     - [Tyk API Manager](#tyk-api-manager)
     - [Axway API Manager](#axway-api-manager)
     - [MuleSoft API Manager](#mulesoft-api-manager)
+    - [Gloo Federation API Gateway Management](#gloo-federation-api-gateway-management)
     - [Backstage Developer Portal](#backstage-developer-portal)
+    - [APISIX](#apisix)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
     - [Auto API](#auto-api)
@@ -22,6 +25,9 @@
 - [Banking](#banking)
 - [Insurance](#insurance)
 - [Telecom](#telecom)
+
+## Introduction
+- [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
 
 ## API Landscape and API Marketplaces
 - [API Landscape](https://www.apidays.co/api-landscape)
@@ -85,9 +91,16 @@
 - [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)
 - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)
 
+### Gloo Federation API Gateway Management
+- [Introducing Gloo Federation for Multi-Cluster API Gateway Management](https://www.solo.io/blog/introducing-gloo-federation-for-multi-cluster-management/)
+
 ### Backstage Developer Portal 
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
 - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
+
+### APISIX
+- [apisix](https://github.com/apache/apisix)
+- [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices/)
 
 ## Mobile Developer Portals
 - [developer.mobileconnect.io](https://developer.mobileconnect.io/)

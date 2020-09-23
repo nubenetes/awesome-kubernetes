@@ -35,6 +35,9 @@
 * [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard/)
 * [geekflare.com: docker tutorials](https://geekflare.com/docker-tutorials/)
 * [medium: What is Docker, Why should you use it in simple words](https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db)
+* [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker/)
+* [medium: How to Start Working With Docker Containers](https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c)
+* [dzone: Mitigating DevOps Repository Risks](https://dzone.com/articles/mitigating-devops-repository-risks) Docker is in the news for two reasons: Image retention limits and download throttling. Let's discuss both and see the better alternatives.
 
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
@@ -45,6 +48,7 @@
 
 ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
+- [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)

@@ -22,6 +22,7 @@
 ## Tools
 - [Smocker (server mock) is a simple and efficient HTTP mock server](https://github.com/Thiht/smocker)
 - [copyist](https://github.com/cockroachdb/copyist) Mocking Your SQL Database in Go Tests Has Never Been Easier.
+- [opensource.com: Cerberus - An open source solution for continuous testing at scale](https://opensource.com/article/20/8/cerberus-test-automation) Cerberus focuses on testing usability, scalability, and integration.
 
 <center>
 [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)

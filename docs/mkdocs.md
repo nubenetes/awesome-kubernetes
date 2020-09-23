@@ -19,6 +19,7 @@
 
 ## GitHub Pages
 - [pages.github.com](https://pages.github.com/)
+- [opensource.com: How to create a documentation site with Docsify and GitHub Pages](https://opensource.com/article/20/7/docsify-github-pages)
 
 ## GitBook
 - [gitbook.com](https://www.gitbook.com/)

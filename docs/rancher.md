@@ -22,6 +22,8 @@
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
 * [rancher.com: Custom alerts using Prometheus queries](https://rancher.com/blog/2020/custom-monitoring)
 * [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere/) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
+* [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)
+* [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
@@ -49,6 +51,7 @@
 * [Install Kubernetes with k3sup and k3s](https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a)
 * [k3s-gitlab](https://github.com/apk8s/k3s-gitlab) k3s + Gitlab install notes. Steps for utilizing k3s to manage a self-hosted Gitlab instance.
 * [Upgrade Your K3s Clusters Smoothly in Rancher 2.4](https://rancher.com/blog/2020/upgrade-your-k3s-cluster)
+* [Keptn Control Plane on k3s](https://github.com/keptn-sandbox/keptn-on-k3s) It allows you to install the Keptn control plane running on K3s within  minutes! Great way to get started using Keptn!
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

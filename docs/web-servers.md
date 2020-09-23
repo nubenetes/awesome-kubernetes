@@ -25,6 +25,7 @@
 - [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804) In this post, we will show you how to install Nginx Web Server and configure it as a reverse proxy on Ubuntu Server 18.04.
 - [Dzone: DevOps 101: Set Up Nginx in Front of Your Spring Boot Application [Video]](https://dzone.com/articles/devops-101-setup-nginx-in-front-of-your-spring-boo)
 - [NGINXConfig 🌟🌟](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
+- [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
 
 <center>
 <iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -43,6 +44,7 @@
 - [Traefik](http://traefik.io/)
 - [Dzone: How to Use the Open Source Tool Traefik to Direct Kubernetes Traffic](https://dzone.com/articles/how-to-use-the-open-source-tool-traefik-to-direct) 
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
+- [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
 
 ## Skipper (HTTP router and reverse proxy)
 - [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper)

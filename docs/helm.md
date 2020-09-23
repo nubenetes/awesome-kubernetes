@@ -21,8 +21,15 @@
 * [Helm 3: Validating Helm Chart Values with JSON Schemas 🌟](https://www.arthurkoziel.com/validate-helm-chart-values-with-json-schemas/)
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)
 * [hackernoon.com: Kubernetes and Helm: A Deadly Combo to Help You Deploy with Ease](https://hackernoon.com/kubernetes-and-helm-a-deadly-combo-to-help-you-deploy-with-ease-rjr30x2)
+* [medium: Helm Chart — Development Guide 🌟](https://medium.com/swlh/helm-chart-development-guide-bbc525d3b448) Writing maintainable and reliable charts with few tricks
+* [medium: Multi-namespace Helm deploy in Kubernetes](https://medium.com/analytics-vidhya/multi-namespace-helm-deploy-in-kubernetes-26d1baf1ca5c)
+* [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://rancher.com/blog/2020/helm-security)
 
-### Helm Charts repositories
+## Kubecrt
+* [Kubecrt](https://github.com/blendle/kubecrt)
+* [Kubecrt - Convert HELM charts to kubernetes resources 🌟](https://toolbox.kali-linuxtr.net/kubecrt-convert-helm-charts-to-kubernetes-resources.tool)
+
+## Helm Charts repositories
 * [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts/)
 * [hub.helm.sh 🌟](http://hub.helm.sh) 
 * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
@@ -31,7 +38,7 @@
 * [Artifact Hub](https://artifacthub.io/)
 * [KubeApps Hub](https://hub.kubeapps.com/)
 
-### Helm Charts
+## Helm Charts
 * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
 * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
 * [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
@@ -41,5 +48,5 @@
 * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
 * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
 
-### Helm Books
+## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

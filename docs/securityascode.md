@@ -1,9 +1,13 @@
 # Security Policy as Code and Open Policy Agent (OPA)
+- [SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager](#ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager)
 - [Security Policy as Code](#security-policy-as-code)
 - [Open Policy Agent in Kubernetes](#open-policy-agent-in-kubernetes)
 - [Open Policy Agent in OpenShift](#open-policy-agent-in-openshift)
 - [Open Policy Agent in Cloudflare Workers](#open-policy-agent-in-cloudflare-workers)
 - [Policy as Code in Terraform Cloud](#policy-as-code-in-terraform-cloud)
+
+## SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
+- [medium: Using SSL certificates from Let’s Encrypt in your Kubernetes Ingress via cert-manager](https://medium.com/flant-com/cert-manager-lets-encrypt-ssl-certs-for-kubernetes-7642e463bbce)
 
 ## Security Policy as Code
 - [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org/)
