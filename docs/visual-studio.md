@@ -27,6 +27,7 @@
 * [With the Edge (Chromium) Tools for VS Code you can see the browser's Inspector and Dev Tools within VSCode, to debug your front-end code](https://gist.github.com/hxlnt/60d0e62efdb973e221e585e2b990bfd6)
 * [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/)
 * [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help/)
+* [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -139,6 +140,8 @@ A simple extension to make indentation more readable
 ## Alternatives
 - [Repl.it](https://repl.it/) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.
 - [Gitpod Open Sources a ‘Holistic IDE’](https://thenewstack.io/gitpod-open-sources-a-holistic-ide/) 
+- [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
+- [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
 
 ## Videos
 

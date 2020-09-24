@@ -48,5 +48,9 @@
 * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
 * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
 
+## Helmfile
+- [helmfile](https://github.com/linuxadvise/helmfile)
+- [linuxadvise.com: Helmfile - Next Level to manage your helm Charts](https://www.linuxadvise.com/amp/helmfile-next-level-to-manage-your-helm-charts)
+
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

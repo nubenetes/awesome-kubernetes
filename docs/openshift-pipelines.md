@@ -13,7 +13,8 @@
 - [ODO - OpenShift Command line for Developers](#odo---openshift-command-line-for-developers)
 - [OpenShift Pipelines](#openshift-pipelines)
     - [Jenkins CICD Getting started with Groovy and Docker Containers](#jenkins-cicd-getting-started-with-groovy-and-docker-containers)
-    - [Fabric8 Pipeline Library](#fabric8-pipeline-library)
+    - [Fabric8 Pipeline Library (deprecated)](#fabric8-pipeline-library-deprecated)
+    - [Eclipse Jkube Pipeline Library (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-pipeline-library-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
     - [Jenkins Pipelines with OpenShift 3](#jenkins-pipelines-with-openshift-3)
     - [OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#openshift-jenkins-pipeline-dsl-plugin-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
         - [Red Hat Communities of Practice](#red-hat-communities-of-practice)
@@ -79,13 +80,17 @@
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1)
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
 
-### Fabric8 Pipeline Library
+### Fabric8 Pipeline Library (deprecated)
 * [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
 * [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
 * [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
 * [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 * [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
 * [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
+
+### Eclipse Jkube Pipeline Library (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
+* [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
+* [Github: Eclipse Jkube](https://github.com/eclipse/jkube)
 
 ### Jenkins Pipelines with OpenShift 3
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)

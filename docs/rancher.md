@@ -24,6 +24,8 @@
 * [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere/) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
 * [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)
 * [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
+* [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://rancher.com/blog/2020/faster-kubernetes-development-rancher-devspace-loft)
+* [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
@@ -52,6 +54,7 @@
 * [k3s-gitlab](https://github.com/apk8s/k3s-gitlab) k3s + Gitlab install notes. Steps for utilizing k3s to manage a self-hosted Gitlab instance.
 * [Upgrade Your K3s Clusters Smoothly in Rancher 2.4](https://rancher.com/blog/2020/upgrade-your-k3s-cluster)
 * [Keptn Control Plane on k3s](https://github.com/keptn-sandbox/keptn-on-k3s) It allows you to install the Keptn control plane running on K3s within  minutes! Great way to get started using Keptn!
+* [thenewstack.io: How K3s, Portworx, and Calico Can Serve as a Foundation of Cloud Native Edge Infrastructure](https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure/)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

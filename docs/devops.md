@@ -52,6 +52,9 @@
 * [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418) Breaking down DevOps into practical chunks for real-world implementation.
 * [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
 * [Hating code of others](https://statemanagement.substack.com/p/hating-the-code-of-others) We struggle to appreciate the meaning and intent of other people's work because we fail to understand the deeply personal and subjective quality of software development.
+* [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia/amp/)
+* [dzone: DevOps Guide: Implementing Four-Eyes Principle With Process Automation Tooling](https://dzone.com/articles/devops-guide-implementing-four-eyes-principle-with) With great power comes great responsibility. More and more organisations are moving towards a DevOps based organisational model, putting more and more respon...
+* [cloudsavvyit.com: A Beginner’s Introduction To DevOps Principles](https://www.cloudsavvyit.com/3233/a-beginners-introduction-to-devops-principles/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

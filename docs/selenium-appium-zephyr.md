@@ -17,6 +17,7 @@
 - [Dzone: best practices for selenium automation](https://dzone.com/articles/best-practices-for-selenium-automation-one-must-kn)
 - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)
 - [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A)
+- [lambdatest.com: Why Selenium Grid Is Ideal For Automated Browser Testing?](https://www.lambdatest.com/blog/why-selenium-grid-is-ideal-for-automated-browser-testing/)
 
 ## Mobile Tests
 ### Appium

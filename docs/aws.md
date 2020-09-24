@@ -28,6 +28,7 @@
 - [AWS New Features](#aws-new-features)
 - [AWS Management Console](#aws-management-console)
 - [AWS Management Tools Blog](#aws-management-tools-blog)
+- [AWS Cloudwatch](#aws-cloudwatch)
 - [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
 - [AWS RDS](#aws-rds)
 	- [AWS DMS](#aws-dms)
@@ -42,7 +43,7 @@
 - [AWS Networking](#aws-networking)
 - [AWS Route 53](#aws-route-53)
 - [AWS Elastic Load Balancing](#aws-elastic-load-balancing)
-- [AWS Application Load Balancer](#aws-application-load-balancer)
+- [AWS Application Load Balancer (ALB)](#aws-application-load-balancer-alb)
 - [NGINX](#nginx)
 - [AWS Latency](#aws-latency)
 - [Amazon ECS optimized AMI](#amazon-ecs-optimized-ami)
@@ -89,6 +90,8 @@
 	- [Localstack](#localstack)
 - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 - [AWS configuration files](#aws-configuration-files)
+- [Open Source at AWS](#open-source-at-aws)
+- [AWS Service Quota Requests](#aws-service-quota-requests)
 - [Spain](#spain)
 - [Videos](#videos)
 
@@ -241,6 +244,9 @@
 ## AWS Management Tools Blog
 - [AWS Management Tools Blog](https://aws.amazon.com/blogs/mt/)
 
+## AWS Cloudwatch
+- [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.threatstack.com/blog/50-best-aws-cloudwatch-tutorials)
+
 ## AWS Schema Conversion Tool
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
 - [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support/)
@@ -319,9 +325,10 @@
 - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)
 - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
-## AWS Application Load Balancer
+## AWS Application Load Balancer (ALB)
 - [Application Load Balancer 🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
 - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/)
+- [medium: 10 reasons why you should think about using an AWS Application Load Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)
 
 ## NGINX
 - [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment/)
@@ -579,6 +586,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS configuration files
 - [medium: AWS configuration files, explained](https://medium.com/@ben11kehoe/aws-configuration-files-explained-9a7ea7a5b42e)
+
+## Open Source at AWS
+- [OpenSource at AWS 🌟](https://aws.github.io/)
+
+## AWS Service Quota Requests
+- [How can I troubleshoot errors using the AWS CLI to manage my service quota requests?](https://aws.amazon.com/es/premiumsupport/knowledge-center/troubleshoot-service-quotas-cli-commands/)
+- [AWS API: get-service-quota](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/service-quotas/get-service-quota.html) 
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

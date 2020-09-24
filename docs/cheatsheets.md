@@ -18,6 +18,7 @@
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
+- [Buildah Cheat Sheets](#buildah-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Maven Cheat Sheets](#maven-cheat-sheets)
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
@@ -103,6 +104,7 @@
 * [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet/)
 * [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 * [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
+* [Ansible k8s cheat sheet 🌟](https://opensource.com/downloads/ansible-k8s-cheat-sheet) The Ansible k8s module enables you to manage Kubernetes objects with Ansible playbooks.
 
 ## Packer and Terraform Cheat Sheets
 * [Packer Cheatsheet](https://adamrushuk.github.io/cheatsheets/packer/)
@@ -144,6 +146,9 @@
 <center>
 [![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
 </center>
+
+## Buildah Cheat Sheets
+- [developers.redhat.com: Buildah Cheat Sheet](https://developers.redhat.com/cheat-sheets/buildah-cheat-sheet)
 
 ## Helm Cheat Sheets
 * [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
