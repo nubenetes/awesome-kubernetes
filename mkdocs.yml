@@ -107,7 +107,7 @@ nav:
     - Ansible: ansible.md
     - Chef: chef.md
     - CI/CD Kubernetes Plugins: cicd-kubernetes-plugins.md
-    - Client Libraries for Kubernetes - Go client & Fabric8: kubernetes-client-libraries.md
+    - Client Libraries for Kubernetes - Go client, Fabric8 & JKube: kubernetes-client-libraries.md
     - Helm Kubernetes Tool: helm.md
     - Liquibase & Flyway: liquibase.md
     - Pulumi: pulumi.md
