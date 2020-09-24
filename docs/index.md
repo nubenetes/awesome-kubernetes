@@ -138,7 +138,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Development & Frameworks
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)
-- [Golang](golang.md)
+- [Go](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
 - [Xamarin](xamarin.md)
