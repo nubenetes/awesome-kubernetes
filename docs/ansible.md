@@ -6,7 +6,7 @@
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
     - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
-    - [Running Ansible Playbooks From Ansible Tower](#running-ansible-playbooks-from-ansible-tower)
+    - [Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower--ansible-awx-running-ansible-playbooks-from-ansible-tower)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
@@ -51,10 +51,12 @@
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
 * [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)
 
-### Running Ansible Playbooks From Ansible Tower
+### Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower
 * [Ansible Tower](https://www.ansible.com/products/tower)
+* [Ansible AWX](https://github.com/ansible/awx)
 * [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
+* [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
 
 ## Ansible Molecule. Development and Testing of Ansible Roles
 * [Ansible Molecule](https://molecule.readthedocs.io/) Molecule project is designed to aid in the development and testing of Ansible roles.
@@ -79,6 +81,7 @@
 ## Ansible and Public Cloud Guides
 * [Public Cloud Guides 🌟](https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html)
 * [Ansible to automate Microsoft Azure](https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure)
+* [medium: AWS Configuration with Web Server in EC2 Using Ansible](https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e)
 
 ## Ansible Kubernetes Module
 * [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)

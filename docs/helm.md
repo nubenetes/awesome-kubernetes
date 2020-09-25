@@ -1,4 +1,13 @@
 # Helm Kubernetes Tool
+- [Helm](#helm)
+- [Kubecrt](#kubecrt)
+- [Helm Charts repositories](#helm-charts-repositories)
+- [Helm Charts](#helm-charts)
+- [Helmfile](#helmfile)
+- [Database Migrations](#database-migrations)
+- [Helm Books](#helm-books)
+
+## Helm
 * [thoughtworks.com: Helm](https://www.thoughtworks.com/radar/tools/helm)
 * [helm.sh](https://helm.sh/)
     * [helm.sh/docs](https://helm.sh/docs) 
@@ -51,6 +60,9 @@
 ## Helmfile
 - [helmfile](https://github.com/linuxadvise/helmfile)
 - [linuxadvise.com: Helmfile - Next Level to manage your helm Charts](https://www.linuxadvise.com/amp/helmfile-next-level-to-manage-your-helm-charts)
+
+## Database Migrations
+- [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)
 
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

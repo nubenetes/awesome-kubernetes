@@ -92,6 +92,7 @@
 - [AWS configuration files](#aws-configuration-files)
 - [Open Source at AWS](#open-source-at-aws)
 - [AWS Service Quota Requests](#aws-service-quota-requests)
+- [Resource Hierarchies](#resource-hierarchies)
 - [Spain](#spain)
 - [Videos](#videos)
 
@@ -246,6 +247,7 @@
 
 ## AWS Cloudwatch
 - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.threatstack.com/blog/50-best-aws-cloudwatch-tutorials)
+- [Amazon CloudWatch now monitors Prometheus metrics from Container environments](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments/)
 
 ## AWS Schema Conversion Tool
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
@@ -593,6 +595,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Service Quota Requests
 - [How can I troubleshoot errors using the AWS CLI to manage my service quota requests?](https://aws.amazon.com/es/premiumsupport/knowledge-center/troubleshoot-service-quotas-cli-commands/)
 - [AWS API: get-service-quota](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/service-quotas/get-service-quota.html) 
+
+## Resource Hierarchies
+- [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511)
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

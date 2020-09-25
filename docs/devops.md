@@ -55,6 +55,7 @@
 * [BBVA - DevOps: qué es y cómo mejorar los procesos gracias a esta estrategia](https://www.bbva.com/es/devops-que-es-y-como-mejorar-los-procesos-gracias-a-esta-estrategia/amp/)
 * [dzone: DevOps Guide: Implementing Four-Eyes Principle With Process Automation Tooling](https://dzone.com/articles/devops-guide-implementing-four-eyes-principle-with) With great power comes great responsibility. More and more organisations are moving towards a DevOps based organisational model, putting more and more respon...
 * [cloudsavvyit.com: A Beginner’s Introduction To DevOps Principles](https://www.cloudsavvyit.com/3233/a-beginners-introduction-to-devops-principles/)
+* [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -70,6 +71,7 @@
 - [devopscube.com](https://devopscube.com/)
 - [devopszone.info](https://www.devopszone.info/)
 - [devopsdigest.com](https://www.devopsdigest.com/)
+- [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
 
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)

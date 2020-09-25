@@ -7,6 +7,7 @@
 - [nginx.com: Introduction to Microservices 🌟🌟🌟](https://www.nginx.com/blog/introduction-to-microservices/)
 - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
 - [Dzone: Containerization in 2020](https://dzone.com/articles/containerization-in-2020) Let's look at how containerization has changed enterprise development in the past few years and what developers should know when considering a container strategy.
+- [shekhargulati.com: Service Discovery for Modern Distributed Applications](https://shekhargulati.com/2018/08/01/week-1-service-discovery-for-modern-distributed-applications/)
 
 ## History of Microservices
 - [History of Microservices](https://bit.ly/kubeappserver)

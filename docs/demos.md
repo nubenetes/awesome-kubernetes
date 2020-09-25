@@ -33,6 +33,7 @@
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [SDKMAN](#sdkman)
     - [Jenkins Scripts](#jenkins-scripts)
+    - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
 - [Jenkins X](#jenkins-x)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
@@ -281,6 +282,9 @@
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain/awesome-kubernetes/tree/master/scripts)
 
+### Postman & Newman API Automated Tests
+- [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests)
+  
 ## Jenkins X
 - [blog.testproject.io: Jenkins X Cloud Native CI/CD with TestProject](https://blog.testproject.io/2020/07/09/jenkins-x-cloud-native-ci-cd-with-testproject/)
 
