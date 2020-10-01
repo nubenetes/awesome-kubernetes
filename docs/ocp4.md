@@ -29,6 +29,7 @@
     - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
     - [Registry & Quay](#registry--quay)
     - [Local Development Environment](#local-development-environment)
+- [OpenShift on Azure](#openshift-on-azure)
 - [OpenShift Youtube](#openshift-youtube)
 - [OpenShift 4 Training](#openshift-4-training)
 - [OpenShift 4 Roadmap](#openshift-4-roadmap)
@@ -458,6 +459,9 @@ oc login
 
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 <br/>
+
+## OpenShift on Azure
+- [Introducing Azure Red Hat OpenShift on OpenShift 4 🌟](https://www.openshift.com/blog/introducing-azure-red-hat-openshift-on-openshift-4)
 
 ## OpenShift Youtube
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)

@@ -93,6 +93,8 @@
 - [techradar.com: techradar.com](https://www.techradar.com/best/best-devops-tools)
 - [geekflare.com: devops-tools](https://geekflare.com/devops-tools/)
 - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools/)
+- [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
+- [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 
 ### Relay
 - [Relay](https://relay.sh/) Event-driven automation that connects the cloud providers, DevOps tools, and other APIs you already use.

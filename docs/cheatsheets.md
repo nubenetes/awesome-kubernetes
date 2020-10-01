@@ -28,6 +28,7 @@
 - [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
 - [Machine Learning](#machine-learning)
+- [TypeScript](#typescript)
 
 ## Cheat Sheets
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
@@ -205,3 +206,6 @@
 
 ## Machine Learning
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
+
+## TypeScript
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)

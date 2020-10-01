@@ -63,6 +63,7 @@
 	- [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
 	- [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
 	- [AWS IAM](#aws-iam)
+	- [AWS Organizations](#aws-organizations)
 	- [AWS CloudFront](#aws-cloudfront)
 	- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
 	- [AWS Vault](#aws-vault)
@@ -82,7 +83,7 @@
 - [Amazon Alexa. Voice User Interface](#amazon-alexa-voice-user-interface)
 - [AWS Partner Network (APN)](#aws-partner-network-apn)
 - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
-- [AWS EKS](#aws-eks)
+- [AWS EKS & AWS ECS](#aws-eks--aws-ecs)
 - [AWS Fargate](#aws-fargate-1)
 - [Interview Questions](#interview-questions)
 - [Local Testing](#local-testing)
@@ -451,6 +452,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
 - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
 
+### AWS Organizations
+- [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
+
 ### AWS CloudFront
 - [Amazon CloudFront now supports HTTP/2 🌟](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
 
@@ -493,8 +497,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Big Data 
 - [aws.amazon.com/big-data 🌟](http://aws.amazon.com/big-data)
 - [blogs.aws.amazon.com/bigdata](http://blogs.aws.amazon.com/bigdata/)
-- [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Streaming)
-- [Analyze Your Data on Amazon DynamoDB with Apache Spark 🌟](http://blogs.aws.amazon.com/bigdata/post/Tx1G4SQRV049UL0/Analyze-Your-Data-on-Amazon-DynamoDB-with-Apache-Spark)
+- [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Stream  
 - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
 
 ### AWS Data Lake
@@ -541,12 +544,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [medium.com: Building a Serverless Dynamic DNS System with AWS](https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8#.qq54pucbd)
 - [medium.com: The Top 10 AWS Startup Blog Posts of 2015](https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb)
 
-## AWS EKS
+## AWS EKS & AWS ECS
 - [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
 - [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
 - [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices/)
 - [info.acloud.guru: Scaling the hottest app in tech on AWS and Kubernetes](https://info.acloud.guru/resources/kubernetes-aws-cloud-scaling-hey)
 - [itnext.io: Using AWS NLB manually targeting an EKS Service exposing UDP traffic](https://itnext.io/using-aws-nlb-manually-targeting-an-eks-service-exposing-udp-traffic-17053ecd8f52)
+- [medium: Creating CI/CD Pipeline for AWS ECS — Part I](https://medium.com/@harshvijaythakkar/creating-ci-cd-pipeline-for-aws-ecs-part-i-b2f61bb1522f)
 
 ## AWS Fargate
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
