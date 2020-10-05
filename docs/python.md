@@ -85,6 +85,7 @@
 - [Lists vs. Tuples](http://nedbatchelder.com/blog/201608/lists_vs_tuples.html) A common beginner Python question: what's the difference between a list and a tuple?
 - [linuxconfig.org: python tuples 🌟](https://linuxconfig.org/python-tuples)
 - [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function)
+- [thenextweb.com: 6 practical tricks every Python developer should have](https://thenextweb.com/readme/2020/09/23/6-practical-tricks-every-python-developer-should-have/)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>

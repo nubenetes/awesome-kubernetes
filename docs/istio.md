@@ -1,4 +1,13 @@
 # Istio - Service Mesh
+- [Docs](#docs)
+- [Maistra Istio](#maistra-istio)
+- [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
+- [Jaeger tracing. Open source, end-to-end distributed tracing](#jaeger-tracing-open-source-end-to-end-distributed-tracing)
+- [Envoy micro proxy](#envoy-micro-proxy)
+- [Kibana](#kibana)
+- [AWS App Mesh](#aws-app-mesh)
+
+## Docs
 - [Istio.io](https://istio.io/)
 - [github.com: Istio](https://github.com/istio/istio)
 - [blog.openshift.com: How to Explain Service Mesh in Plain English](https://blog.openshift.com/from-the-enterprisersproject-how-to-explain-service-mesh-in-plain-english/)
@@ -29,6 +38,8 @@
 - [thenewstack.io: Kubernetes, Microservices, and Istio  — A Great Fit!](https://thenewstack.io/kubernetes-microservices-istio%E2%80%8A-%E2%80%8Aa-great-fit/)
 - [medium: Observability With Istio, Kiali, and Grafana in Kubernetes and Spring Boot 🌟](https://medium.com/swlh/observability-with-istio-kiali-and-grafana-in-kubernetes-and-spring-boot-743af225c24f)
 - [solo.io: Learn how to rate limit requests in Istio 🌟](https://www.solo.io/blog/tutorial-rate-limiting-of-service-requests-in-istio-service-mesh)
+- [solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh](https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/)
+- [sysdig.com: How to monitor Istio, the Kubernetes service mesh](https://sysdig.com/blog/monitor-istio/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
@@ -44,6 +55,7 @@
 ## Jaeger tracing. Open source, end-to-end distributed tracing
 - Monitor and troubleshoot transactions in complex distributed systems
 - [jaegertracing.io](https://www.jaegertracing.io/)
+- [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)
 
 ## Envoy micro proxy
 - [envoyproxy.io](https://www.envoyproxy.io/)

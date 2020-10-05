@@ -2,6 +2,13 @@
 - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [v8.dev:](https://v8.dev/) Google’s open source high-performance JavaScript and WebAssembly engine.
 
+
+## Useful websites for web developers
+- [canva.com](https://www.canva.com/) Create cover images, graphs, videos and more
+- [mockuper.net](https://mockuper.net/) Mockups generator
+- [cssnectar.com](https://cssnectar.com/) Website design showcase
+- [bgjar.com](https://bgjar.com/) SVG background image generator
+
 ## Learning javascript by @Madisonkanna
 1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://scotch.io/courses/10-need-to-know-javascript-concepts/declaring-javascript-variables-var-let-and-const)
 2. Types: [Understanding Data Types in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-javascript)

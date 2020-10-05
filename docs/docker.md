@@ -39,6 +39,11 @@
 * [medium: How to Start Working With Docker Containers](https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c)
 * [dzone: Mitigating DevOps Repository Risks](https://dzone.com/articles/mitigating-devops-repository-risks) Docker is in the news for two reasons: Image retention limits and download throttling. Let's discuss both and see the better alternatives.
 * [Top 18 Docker commands for Automation Tester/Devops/SDET/Test Lead?](https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html)
+* [A Gentle Introduction to Using a Docker Container as a Dev Environment 🌟](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/)
+* [docs.docker.com: Deploying Docker containers on ECS](https://docs.docker.com/engine/context/ecs-integration/)
+    * [AWS and Docker collaborate to simplify the developer experience](https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience/)
+    * [From Docker Straight to AWS](https://www.docker.com/blog/from-docker-straight-to-aws/)
+* [medium: Understanding Docker Volumes, Mounts and Layers and How to Manage Data in Containers](https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493)
 
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)

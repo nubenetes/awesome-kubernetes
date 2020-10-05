@@ -2,7 +2,7 @@
 - [OpenShift Container Platform 3 (OCP 3)](#openshift-container-platform-3-ocp-3)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 - [Helm Charts and OpenShift 3](#helm-charts-and-openshift-3)
-- [Chaos Monkey for kubernetes/Openshift](#chaos-monkey-for-kubernetesopenshift)
+- [Chaos Engineering for kubernetes/Openshift](#chaos-engineering-for-kubernetesopenshift)
 - [OpenShift GitOps](#openshift-gitops)
 - [Debugging apps](#debugging-apps)
 - [Capacity Management](#capacity-management)
@@ -34,7 +34,7 @@
 * [blog.openshift.com: From Templates to Openshift Helm Charts](https://blog.openshift.com/from-templates-to-openshift-helm-charts/)
 * [Templating on OpenShift: should I use Helm templates or OpenShift templates? 🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates)
 
-## Chaos Monkey for kubernetes/Openshift
+## Chaos Engineering for kubernetes/Openshift
 * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
 * [GitHub: monkey-ops, Openshift compliant, no cluster-admin required](https://github.comjoshmsmith/monkey-ops)
@@ -42,6 +42,8 @@
 * [Chaos Mesh](https://github.com/pingcap/chaos-mesh)
 * [Litmus is a toolset to do chaos engineering in a kubernetes native way. Litmus provides chaos CRDs for Cloud-Native developers and SREs to inject, orchestrate and monitor chaos to find weaknesses in Kubernetes deployments](https://github.com/litmuschaos/litmus)
 * [thenewstack.io: Using Chaos Engineering to Improve the Resilience of Stateful Applications on Kubernetes](https://thenewstack.io/using-chaos-engineering-to-improve-the-resilience-of-stateful-applications-on-kubernetes/)
+* [chaos-mesh.org: Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier](https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier/)
+* [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci)
 
 ## OpenShift GitOps
 * [blog.openshift.com: Introduction to GitOps with OpenShift](https://blog.openshift.comintroduction-to-gitops-with-openshift/)

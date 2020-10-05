@@ -10,6 +10,7 @@
     - [Jenkins](#jenkins)
     - [Terraform](#terraform)
     - [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
+    - [Portworx AutoPilot](#portworx-autopilot)
 - [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     - [OpenShift GitOps](#openshift-gitops)
@@ -30,6 +31,7 @@
 - [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster 
 - [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-the-bad-and-the-ugly)
 - [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) Deliver Infrastructure and Software running on it Rapidly and Reliably at Scale.
+- [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d)
 
 ## Git Repositories Structures
 - [GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
@@ -78,6 +80,10 @@ Weaveworks's Flagger.
 - [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview)
 - [Anthos Config Management](https://cloud.google.com/anthos/config-management)
 - Google built a tool called [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) which acts as the bridge between an external source code repository and the Kubernetes API server. [Anthos Config Management](https://cloud.google.com/anthos/config-management) is based on Config Sync to extend it to multicluster scenarios.
+
+### Portworx AutoPilot
+- [Portworx AutoPilot](https://docs.portworx.com/portworx-install-with-kubernetes/autopilot/)
+- [portworx.com: Automating Kubernetes Data Management with GitOps & AutoPilot](https://portworx.com/automating-kubernetes-data-management-with-gitops-autopilot)
 
 ## GitOps Frameworks
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.

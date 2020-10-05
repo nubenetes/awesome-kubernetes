@@ -9,6 +9,7 @@
     - [Maven Plugins](#maven-plugins)
     - [Maven Cheat Sheets](#maven-cheat-sheets)
     - [Other Commands](#other-commands)
+    - [Docker Maven Plugin (fabric8)](#docker-maven-plugin-fabric8)
     - [Fabric8 Maven Plugin](#fabric8-maven-plugin)
 - [Gradle](#gradle)
     - [Gradle Cheat Sheets](#gradle-cheat-sheets)
@@ -84,8 +85,11 @@ mvn dependency:tree     (how you got something on your classpath)
 jar tf target/example-1.0.0-SNAPSHOT.jar
 ```
 
+### Docker Maven Plugin (fabric8)
+- [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) This is a Maven plugin for building Docker images and managing containers for integration tests. It works with Maven 3.0.5 and Docker 1.6.0 or later.
+
 ### Fabric8 Maven Plugin
-- [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/05/28/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/)
+- [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/)
 
 ## Gradle
 - [gradle.org](https://gradle.org/)

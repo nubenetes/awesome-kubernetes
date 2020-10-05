@@ -13,6 +13,7 @@
 - [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://es.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
 - [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops/)
 - [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs/)
+- [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead/)
 
 ## Books
 - [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)

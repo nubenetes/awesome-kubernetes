@@ -12,6 +12,7 @@
 - [Istio - Service Mesh](#istio---service-mesh)
 - [Open Service Mesh](#open-service-mesh)
 - [Kourier](#kourier)
+- [AWS App Mesh](#aws-app-mesh)
 
 ## Introduction
 * [infoq.com: Service Mesh Ultimate Guide:](https://www.infoq.com/articles/service-mesh-ultimate-guide/)  Managing Service-to-Service Communications in the Era of Microservices
@@ -72,3 +73,6 @@
 ## Kourier
 - [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress/)
 - https://github.com/knative/net-kourier : Kourier is an Ingress for Knative Serving. Kourier is a lightweight alternative for the Istio ingress as its deployment consists only of an Envoy proxy and a control plane for it.
+
+## AWS App Mesh
+- [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)

@@ -18,6 +18,9 @@
 - [Dzone: top 11 challenges in autmation testing using selenium](https://dzone.com/articles/top-11-challenges-in-automation-testing-using-sele)
 - [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A)
 - [lambdatest.com: Why Selenium Grid Is Ideal For Automated Browser Testing?](https://www.lambdatest.com/blog/why-selenium-grid-is-ideal-for-automated-browser-testing/)
+- [lambdatest.com: Top 27 Best Practices For Selenium Test Automation](https://www.lambdatest.com/blog/27-best-practices-selenium-test-automation/)
+- [automationreinvented.blogspot.com: Top 30 Interview Questions on Automation Testing - Selenium for SDET/Automation QA?](https://automationreinvented.blogspot.com/2020/06/top-30-interview-questions-on.html)
+- [lambdatest.com: Complete Guide To Access Forms In Selenium With Java](https://www.lambdatest.com/blog/complete-guide-to-access-forms-in-selenium-with-java/)
 
 ## Mobile Tests
 ### Appium

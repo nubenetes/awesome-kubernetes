@@ -35,6 +35,7 @@
     - [SDKMAN](#sdkman)
     - [Jenkins Scripts](#jenkins-scripts)
     - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
+    - [Monitoring Jenkins with Grafana](#monitoring-jenkins-with-grafana)
 - [Jenkins X](#jenkins-x)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
@@ -48,9 +49,11 @@
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [Quarkus Demos](#quarkus-demos)
 - [Kafka](#kafka)
+- [Apache Camel & ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
 - [Codeless](#codeless)
 - [JBoss EAP](#jboss-eap)
 - [Terraform](#terraform)
+- [Prometheus and Grafana](#prometheus-and-grafana)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -98,6 +101,7 @@
 * [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1)
 * [medium: Build a Federation of Multiple Kubernetes Clusters With Kubefed V2](https://medium.com/better-programming/build-a-federation-of-multiple-kubernetes-clusters-with-kubefed-v2-8d2f7d9e198a)
 * [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed) This article walks you through creating a service, exposing it with an Ingress, and adding Single Sign On. The article uses Okta (but of course you’re free to use any other OIDC SSO provider you prefer)
+* [Free Kubernetes 🌟🌟](https://github.com/learnk8s/free-kubernetes/) List of free Trials/Credit for Managed Kubernetes Services.
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -122,6 +126,7 @@
 * [aws blogs: Git Push to Deploy Your App on EKS](https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/)
 * [medium: create your first application on aws eks kubernetes](https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293)
 * [dzone: deploying a kubernetes cluster with amazon eks 🌟](https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks)
+* [stacksimplify.com: DevOps with AWS CodePipeline on AWS EKS](https://www.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline/)
 
 ### Environments to learn and practice Kubernetes security
 - [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
@@ -155,6 +160,8 @@
 * [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
 * [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
 * [MapIt](https://github.com/siamaksade/mapit-spring) MapIt is a geo-spatial Spring Boot app which shows the location of AirPorts on the Map using Leaflet.
+* [openshift.com: Simple Canary Deployments using Kubernetes StatefulSets on OpenShift](https://www.openshift.com/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift)
+* [github.com/jbossdemocentral: Red Hat Process Automation Manager Mortgage Demo](https://github.com/jbossdemocentral/rhpam7-mortgage-demo)
 
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
@@ -171,10 +178,12 @@
 - [OpenShift Pipelines Catalog](https://github.com/openshift/pipelines-catalog)
 - [systemcraftsman/lab-tekton-pipelines: OpenShift Pipelines workshop](https://github.com/systemcraftsman/lab-tekton-pipelines)
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management](https://www.openshift.com/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management)
+- [Set up continuous integration for .NET Core with OpenShift Pipelines](https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines/)
 
 ### ArgoCD
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 
 - [developers.redhat.com: From code to production with OpenShift Pipelines and Argo CD](https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd/)
+- [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 1](https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1/)
 
 ### Deploying Web Applications with Eclipse JKube (formerly known as fabric8)
 - [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4)
@@ -183,6 +192,7 @@
 - [Monitoring Services like an SRE in OpenShift ServiceMesh](https://www.openshift.com/blog/monitoring-services-like-an-sre-in-openshift-servicemesh)
 
 ### Red Hat Migration Toolkit for Applications
+- [Migration Toolkit for Applications: Getting Started](https://developers.redhat.com/products/mta/getting-started)
 - [Migration Toolkit for Applications Demo - June 2020](https://youtu.be/mRCz6Jl0Ds8) Migraiton Toolkit from Applications by Red Hat can help you migrate and/or modernize your applications by analyzing them and finding isses such as use of proprietary classes or behaviousr that are not conformant with 12factor app, in order to help you modernize your app portfolio and make it more cloud & container friendly.
 
 ### Red Hat Advanced Cluster Management RHACM 
@@ -207,6 +217,7 @@
 * [medium.com/@devml2016: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
 * [developers.redhat.com: An easier way to create custom Jenkins containers](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
 * [medium: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
+* [medium: Just commit your code and your docker server is ready (jenkins + github + docker)](https://medium.com/@deepanshuyadavv11/task1-integrating-github-jenkins-and-docker-d66a817774be)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -289,7 +300,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ### Postman & Newman API Automated Tests
 - [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests)
-  
+
+### Monitoring Jenkins with Grafana
+- [Mostrando resultados de Jenkins en Grafana mediante InfluxDB 🌟](https://enmilocalfunciona.io/mostrando-resultados-de-jenkins-en-grafana-mediante-influxdb/)
+
 ## Jenkins X
 - [blog.testproject.io: Jenkins X Cloud Native CI/CD with TestProject](https://blog.testproject.io/2020/07/09/jenkins-x-cloud-native-ci-cd-with-testproject/)
 - [Modernize Your CI/CD Pipeline Using Jenkins X with Amazon EKS](https://aws.amazon.com/blogs/apn/modernize-your-ci-cd-pipeline-using-jenkins-x-with-amazon-eks/)
@@ -368,6 +382,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
 - [towardsdatascience.com: Kafka, for your data pipeline? Why not?](https://towardsdatascience.com/kafka-for-your-data-pipeline-why-not-5a14b50efe7f)
 
+## Apache Camel & ActiveMQ. Event driven integration
+- [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda/)
+
 ## Codeless
 - [github.com/kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
 
@@ -377,3 +394,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Terraform
 - [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.
 - [opensource.com: A guide to Terraform for Kubernetes beginners](https://opensource.com/article/20/7/terraform-kubernetes) Learn how to make a Minikube cluster and deploy to it with Terraform.
+
+## Prometheus and Grafana
+- [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

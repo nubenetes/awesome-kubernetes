@@ -17,6 +17,7 @@
 - [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
     - [SSH Cheat Sheets](#ssh-cheat-sheets)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
+    - [Debezium Cheat Sheets](#debezium-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 - [Buildah Cheat Sheets](#buildah-cheat-sheets)
@@ -36,6 +37,7 @@
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 * [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
+- [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets/)
 
 ## eBooks
 * [Red Hat Developer eBooks 🌟](https://developers.redhat.com/ebooks) Browse through our collection of eBooks to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy books on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
@@ -125,6 +127,7 @@
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)
 * [commandlinefu.com](https://www.commandlinefu.com/)
 * [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
+* [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -141,6 +144,9 @@
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [openshift.tips](https://openshift.tips/)
+
+### Debezium Cheat Sheets
+* [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) Debezium is a distributed open-source platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong. This cheat sheet covers how to deploy/create/run/update a Debezium Connector on OpenShift. 
 
 ## Kubernetes Operator Cheat Sheets
 * [developers.redhat.com: Writing a Kubernetes Operator in Java using Quarkus - **Cheat Sheet** 🌟](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
@@ -208,4 +214,4 @@
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 
 ## TypeScript
-- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react

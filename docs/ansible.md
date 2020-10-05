@@ -28,6 +28,9 @@
 * [Deployment of Microservices in Cloud With Ansible](https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68) This tutorial will help you understand how Ansible orchestrates Docker containers at least for a dev environment
 * [opensource.com: How to install software with Ansible](https://opensource.com/article/20/9/install-packages-ansible) Automate software installations and updates across your devices with Ansible playbooks.
 * [opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟](https://opensource.com/article/20/9/ansible-modules-kubernetes) Combine Ansible with Kubernetes for cloud automation. Plus, get our cheat sheet for using the Ansible k8s module.
+* [opensource.com: A quickstart guide to Ansible 🌟](https://opensource.com/article/19/2/quickstart-guide-ansible) Download the Ansible Automation for SysAdmins guide.
+* [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible) If Ansible's inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.
+* [medium.com: The Ultimate Guide for Ansible Total Domination 🌟](https://medium.com/the-programming-hub/the-ultimate-guide-for-ansible-total-domination-e70bdfc11175)
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation

@@ -56,6 +56,12 @@
 * [dzone: DevOps Guide: Implementing Four-Eyes Principle With Process Automation Tooling](https://dzone.com/articles/devops-guide-implementing-four-eyes-principle-with) With great power comes great responsibility. More and more organisations are moving towards a DevOps based organisational model, putting more and more respon...
 * [cloudsavvyit.com: A Beginner’s Introduction To DevOps Principles](https://www.cloudsavvyit.com/3233/a-beginners-introduction-to-devops-principles/)
 * [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline/)
+* [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
+* [medium: The Complete DevOps RoadMap 🌟](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb) An illustrated guide to becoming a DevOps Engineer with links to relevant courses
+* [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) CEO Sacha Labourey: 'DevOps is a pretty good proxy for what needs to happen in any organisation'
+* [devopscurry.com: DevOps vs Agile – understanding the difference 🌟](https://devopscurry.com/devops-vs-agile-understanding-the-difference/)
+* [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://acloudguru.com/blog/engineering/5-reasons-to-not-move-to-devops)
+* [forbes: Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail](https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

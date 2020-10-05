@@ -13,6 +13,7 @@
         - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 - [Test Debugging](#test-debugging)
+- [Python in Visual Studio Code](#python-in-visual-studio-code)
 - [Alternatives](#alternatives)
 - [Videos](#videos)
 
@@ -28,6 +29,8 @@
 * [docker.com: How to Develop Inside a Container Using Visual Studio Code Remote Containers 🌟](https://www.docker.com/blog/how-to-develop-inside-a-container-using-visual-studio-code-remote-containers/)
 * [devblogs.microsoft.com: Need an Intro to VS Code? Let Tech with Tim Help!](https://devblogs.microsoft.com/python/need-an-intro-to-vs-code-let-tech-with-tim-help/)
 * [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)
+* [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code/)
+* [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -136,6 +139,9 @@ A simple extension to make indentation more readable
 
 ## Test Debugging
 - [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
+
+## Python in Visual Studio Code
+- [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 
 ## Alternatives
 - [Repl.it](https://repl.it/) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.

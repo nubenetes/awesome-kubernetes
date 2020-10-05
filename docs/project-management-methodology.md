@@ -15,6 +15,7 @@
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2/)
+- [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)  
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -41,6 +42,8 @@
 - [Create A Responsibility Assignment Matrix (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple/)
 - [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix/)
 - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
+- [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
+- [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
 
 <center>
 [![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)

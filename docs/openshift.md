@@ -1,5 +1,6 @@
 # OpenShift Container Platform
 - [OpenShift](#openshift)
+- [Differences in developing on OpenShift as opposed to other Kubernetes distributions](#differences-in-developing-on-openshift-as-opposed-to-other-kubernetes-distributions)
 - [Red Hat's approach to Kubernetes. Standardization](#red-hats-approach-to-kubernetes-standardization)
 - [OpenShift.io online IDE](#openshiftio-online-ide)
 - [OC CLI Auto Completion](#oc-cli-auto-completion)
@@ -48,6 +49,9 @@
 * [OpenShift in DockerHub](https://hub.docker.com/u/openshift/)
 * [reddit.com/r/openshift](https://www.reddit.com/r/openshift)
 * [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
+
+## Differences in developing on OpenShift as opposed to other Kubernetes distributions
+* [I’m So Sorry OpenShift, I’ve Taken You for Granted 🌟](https://medium.com/swlh/im-so-sorry-openshift-i-ve-taken-you-for-granted-f36fb47ea4d9)
 
 ## Red Hat's approach to Kubernetes. Standardization
 * [Red Hat's approach to Kubernetes 🌟](https://www.redhat.com/en/topics/containers/kubernetes-approach)
