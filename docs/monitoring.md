@@ -74,7 +74,7 @@
 * [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design/)
 * [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline/)
 * [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus/)
-* [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)
+* [sysdig.com: Kubernetes Monitoring with Prometheus 🌟](https://sysdig.com/blog/kubernetes-monitoring-prometheus/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -260,6 +260,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
 * [thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code](https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code/) 
 * [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher)
+* [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry/)
 
 ##### Telegraf Collector
 * [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)

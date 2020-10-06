@@ -1,5 +1,6 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
+- [Interview Questions](#interview-questions)
 - [Configuration Drift](#configuration-drift)
 - [DevOps](#devops)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
@@ -14,7 +15,10 @@
     - [Google Cloud Platform](#google-cloud-platform)
 
 ## Introduction to Digital Business Transformation
-* [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
+- [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
+
+## Interview Questions
+- [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.

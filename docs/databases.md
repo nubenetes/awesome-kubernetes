@@ -104,6 +104,7 @@
 * [opensource.com: Scaling PostgreSQL with Kubernetes Operators 🌟](https://opensource.com/article/19/2/scaling-postgresql-kubernetes-operators) Operators let users create standardized interfaces for managing stateful applications, like PostgreSQL, across Kubernetes-enabled cloud environments.
 * [info.crunchydata.com: Setup ora2pg for Oracle to Postgres Migration](https://info.crunchydata.com/blog/setup-ora2pg-for-oracle-to-postgres-migration)
 * [info.crunchydata.com: pgBackRest - Performing Backups on a Standby Cluster](https://info.crunchydata.com/blog/pgbackrest-performing-backups-on-a-standby-cluster)
+* [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator 🌟](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)

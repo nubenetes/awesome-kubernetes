@@ -7,3 +7,4 @@
 - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators. 
 * [Kubestack Gitops Framework](https://github.com/kbst/terraform-kubestack) is a Gitops framework built on Terraform and Kustomize
 * [3 ways to customize off-the-shelf Helm charts with Kustomize - Kubernetes](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html)
+* [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.

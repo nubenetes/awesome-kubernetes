@@ -8,6 +8,7 @@
 ## Why Not Use Kubernetes
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
+- [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)
 
 ## Nomad
 * [Nomad](https://nomadproject.io/)
