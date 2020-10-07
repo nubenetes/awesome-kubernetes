@@ -71,7 +71,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
 - [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
 ### OpenShift on Public Cloud
-- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
+- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 - [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
 - [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
 - [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
