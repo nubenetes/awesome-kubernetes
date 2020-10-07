@@ -1,6 +1,7 @@
 # Jenkins Alternatives for Continuous Integration
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 * [Circle CI](https://circleci.com/)
+    * [Adding approval jobs to your CI pipeline](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
 * [Travis CI](https://travis-ci.org/)
 * [Concourse](https://concourse-ci.org/)
 * [GoCD](https://www.gocd.org/)

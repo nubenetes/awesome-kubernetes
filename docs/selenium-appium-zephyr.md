@@ -21,6 +21,7 @@
 - [lambdatest.com: Top 27 Best Practices For Selenium Test Automation](https://www.lambdatest.com/blog/27-best-practices-selenium-test-automation/)
 - [automationreinvented.blogspot.com: Top 30 Interview Questions on Automation Testing - Selenium for SDET/Automation QA?](https://automationreinvented.blogspot.com/2020/06/top-30-interview-questions-on.html)
 - [lambdatest.com: Complete Guide To Access Forms In Selenium With Java](https://www.lambdatest.com/blog/complete-guide-to-access-forms-in-selenium-with-java/)
+- [[lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.lambdatest.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa/)
 
 ## Mobile Tests
 ### Appium

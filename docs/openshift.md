@@ -261,6 +261,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 ## OpenShift Dedicated
 - [OpenShift Dedicated 🌟](https://www.openshift.com/products/dedicated/)
 - [Bringing OpenShift Dedicated to Life at Red Hat](https://www.openshift.com/blog/bringing-openshift-dedicated-to-life-at-red-hat)
+- [Red Hat OpenShift Dedicated price reduction: Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
 
 ## Other Awesome Lists
 * [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
