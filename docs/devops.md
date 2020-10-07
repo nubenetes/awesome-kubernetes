@@ -66,6 +66,7 @@
 * [devopscurry.com: DevOps vs Agile – understanding the difference 🌟](https://devopscurry.com/devops-vs-agile-understanding-the-difference/)
 * [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://acloudguru.com/blog/engineering/5-reasons-to-not-move-to-devops)
 * [forbes: Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail](https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail/)
+* [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/2020-10-07-devops-definition/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
