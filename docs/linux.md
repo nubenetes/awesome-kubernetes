@@ -83,6 +83,7 @@
 - [tecmint.com: How to Control Systemd Services on Remote Linux Server](https://www.tecmint.com/control-systemd-services-on-remote-linux-server/)
 - [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands)
 - [redhat.com: Using ssh-keygen and sharing for key-based authentication in Linux](https://www.redhat.com/sysadmin/configure-ssh-keygen) SSH key-based authentication is helpful for both security and convenience. See how to generate and share keys.
+- [tecmint.com: How to Run Commands from Standard Input Using Tee and Xargs in Linux](https://www.tecmint.com/run-commands-from-standard-input-using-tee-and-xargs-in-linux/)
 
 ## Linux processes
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)

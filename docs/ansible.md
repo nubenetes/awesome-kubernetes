@@ -13,6 +13,7 @@
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 - [Ansible Kubernetes Module](#ansible-kubernetes-module)
+- [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -89,3 +90,7 @@
 
 ## Ansible Kubernetes Module
 * [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+
+## NGINX Core Collection for Ansibe
+- [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)
+- [nginx.com: Announcing the NGINX Core Collection for Ansible](https://www.nginx.com/blog/announcing-nginx-core-collection-ansible/)

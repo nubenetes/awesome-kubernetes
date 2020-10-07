@@ -12,6 +12,7 @@
 - [dzone: Managing Your Database With Liquibase and Gradle](https://dzone.com/articles/managing-your-database-with-liquibase-and-gradle)
 - [dzone: Source control your database with Liquibase and Maven](https://dzone.com/articles/source-control-your-database)
 - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)
+- [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase/)
 
 ## Flyway
 - [Flyway](https://flywaydb.org/) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.

@@ -51,6 +51,7 @@
 ## How To Build a Smaller Docker Image
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
 * [medium: How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a) When you’re building a Docker image it’s important to keep the size under control. Having small images means ensuring faster deployment and transfers.
+* [itsopensource.com: How to Reduce Node Docker Image Size by 10X](https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times/)
 
 ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)

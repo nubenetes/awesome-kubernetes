@@ -16,6 +16,7 @@
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2/)
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)  
+- [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

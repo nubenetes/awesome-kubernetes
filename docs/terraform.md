@@ -10,6 +10,7 @@
     - [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
     - [Terraform and AWS](#terraform-and-aws)
 - [Gruntwork](#gruntwork)
+- [Terraform Modules](#terraform-modules)
 
 ## Packer
 * [packer.io](https://packer.io/)
@@ -84,3 +85,6 @@
 - [gruntwork.io](https://gruntwork.io/)
 - [towardsdatascience.com: State of the Art Infrastructure as Code](https://towardsdatascience.com/state-of-the-art-infrastructure-as-code-4fbd59d92462) The newest layer of abstraction by Gruntwork that’ll make your life easier. Gruntwork’s Terragrunt is a wrapper over Terraform which concentrates on solving your problems of Terraform state management and configuration. It also solves some of the problems around having similar infrastructure deployed in different environments.
 - [blog.gruntwork.io: Introducing: The Gruntwork Module, Service, and Architecture Catalogs](https://blog.gruntwork.io/introducing-the-gruntwork-module-service-and-architecture-catalogs-eb3a21b99f70)
+
+## Terraform Modules
+- [Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)

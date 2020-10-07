@@ -20,6 +20,7 @@
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
     - [ArgoCD](#argocd)
+    - [GitLab Pipelines on OpenShift](#gitlab-pipelines-on-openshift)
     - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
     - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
     - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
@@ -184,6 +185,9 @@
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 
 - [developers.redhat.com: From code to production with OpenShift Pipelines and Argo CD](https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd/)
 - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 1](https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1/)
+
+### GitLab Pipelines on OpenShift
+- [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
 
 ### Deploying Web Applications with Eclipse JKube (formerly known as fabric8)
 - [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4)

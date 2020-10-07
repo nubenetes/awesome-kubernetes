@@ -105,6 +105,8 @@
 * [info.crunchydata.com: Setup ora2pg for Oracle to Postgres Migration](https://info.crunchydata.com/blog/setup-ora2pg-for-oracle-to-postgres-migration)
 * [info.crunchydata.com: pgBackRest - Performing Backups on a Standby Cluster](https://info.crunchydata.com/blog/pgbackrest-performing-backups-on-a-standby-cluster)
 * [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator 🌟](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
+* [postgresql.org: Crunchy PostgreSQL Operator 4.5: Enhanced Monitoring, Custom Annotations, PostgreSQL 13 🌟](https://www.postgresql.org/about/news/crunchy-postgresql-operator-45-enhanced-monitoring-custom-annotations-postgresql-13-2086/)
+* [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://info.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
