@@ -214,4 +214,4 @@
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 
 ## TypeScript
-- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
