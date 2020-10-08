@@ -59,6 +59,7 @@
 - [Serverless Monitoring](#serverless-monitoring)
 - [Distributed Tracing in Apache Beam](#distributed-tracing-in-apache-beam)
 - [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
+- [Instana APM](#instana-apm)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ## Monitoring
@@ -938,6 +939,9 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 ## Krossboard Converged Kubernetes usage analytics
 - [Krossboard](https://krossboard.app/) All in one single place, Krossboard tracks the usage of all your clusters over time, it helps forecast capacity scale up/down, thereby enabling you to easily anticipate and master operations costs.
 - [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)
+
+## Instana APM
+- [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana)
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
