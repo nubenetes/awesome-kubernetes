@@ -10,3 +10,7 @@
 ## Community Tools
 - [Community Tools 🌟](https://www.digitalocean.com/community/tools)
 - [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
+
+## App Platform. Digital Ocean PaaS
+- [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform/)
+- [theregister.com: DigitalOcean decides to head rivals off at the PaaS, floats App Platform to deploy, run code without juggling servers](https://www.theregister.com/2020/10/07/digitalocean_paas_app_platform/)

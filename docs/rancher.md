@@ -27,6 +27,7 @@
 * [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://rancher.com/blog/2020/faster-kubernetes-development-rancher-devspace-loft)
 * [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher)
 * [Monitor Etcd with Prometheus and Grafana using Rancher](https://rancher.com/blog/2020/monitor-etcd-prometheus-grafana-rancher)
+* [rancher.com: Driving Kubernetes Adoption in Finance with Rancher](https://rancher.com/blog/2020/driving-kubernetes-adoption-finance-rancher)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 

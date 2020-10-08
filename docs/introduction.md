@@ -1,5 +1,6 @@
 # From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [PaaS](#paas)
 - [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
 - [Openshift VS Kubernetes](#openshift-vs-kubernetes)
 - [Career Path](#career-path)
@@ -37,6 +38,9 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## PaaS
+- [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
 
 ## From Java EE To Cloud Native
 - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)

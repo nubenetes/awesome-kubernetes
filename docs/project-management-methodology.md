@@ -18,6 +18,7 @@
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)  
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
 - [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)
+- [scruminc.com: Better Scrum with Essence](https://www.scruminc.com/better-scrum-with-essence/) Essence is an industry standard for describing practices, which means there is no change to the actual Scrum content but an enhanced way for presenting it to teams. One of the main things you notice with Essence is the use of cards to represent the main concepts of any practice. 
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
