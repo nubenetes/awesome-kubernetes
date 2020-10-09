@@ -38,7 +38,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Site Reliability Engineering (SRE)
 - [Site Reliability Engineering (SRE)](sre.md)
 ## DevOps
-- [DevOps](devops.md)
+- [DevOps 🌟](devops.md)
 - [Cheat Sheets 🌟](cheatsheets.md)
 - [GitOps 🌟](gitops.md)
 - [MLOps](mlops.md)
@@ -109,12 +109,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
 ## Configuration Management
 - [Ansible](ansible.md)
+- [Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/)
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
 - [Client Libraries for Kubernetes: Go client, Fabric8 & JKube](kubernetes-client-libraries.md)
 - [Flux. The GitOps operator for Kubernetes](https://fluxcd.io/) 
 - [Helm Kubernetes Tool](helm.md)
 - [Liquibase and Flyway](liquibase.md)
+- [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [Pulumi](pulumi.md)
 - [Terraform & Packer](terraform.md)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)

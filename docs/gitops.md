@@ -11,6 +11,7 @@
     - [Terraform](#terraform)
     - [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
     - [Portworx AutoPilot](#portworx-autopilot)
+    - [OpenShift Applier](#openshift-applier)
 - [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     - [OpenShift GitOps](#openshift-gitops)
@@ -84,6 +85,10 @@ Weaveworks's Flagger.
 ### Portworx AutoPilot
 - [Portworx AutoPilot](https://docs.portworx.com/portworx-install-with-kubernetes/autopilot/)
 - [portworx.com: Automating Kubernetes Data Management with GitOps & AutoPilot](https://portworx.com/automating-kubernetes-data-management-with-gitops-autopilot)
+
+### OpenShift Applier
+- [openshift-applier](https://github.com/redhat-cop/openshift-applier)
+- [dzone: GitOps With OpenShift Applier 🌟](https://dzone.com/articles/gitops-with-openshift-applier) GitOps in short is a set of practices to use Git pull requests to manage infrastructure and application configurations.
 
 ## GitOps Frameworks
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.

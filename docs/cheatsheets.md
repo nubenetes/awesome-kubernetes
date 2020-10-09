@@ -32,6 +32,7 @@
 - [TypeScript](#typescript)
 
 ## Cheat Sheets
+* [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
 * [lzone.de/cheat-sheet](https://lzone.de/cheat-sheet/)
 * [cheatography.com](https://cheatography.com/)
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
