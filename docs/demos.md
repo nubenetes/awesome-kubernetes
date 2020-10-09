@@ -165,6 +165,7 @@
 * [openshift.com: Simple Canary Deployments using Kubernetes StatefulSets on OpenShift](https://www.openshift.com/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift)
 * [github.com/jbossdemocentral: Red Hat Process Automation Manager Mortgage Demo](https://github.com/jbossdemocentral/rhpam7-mortgage-demo)
 * [medium: Tutorial : Secure your API with x509 Mutual Authentication with Spring Boot on OpenShift4](https://medium.com/@erfin.feluzy/tutorial-secure-your-api-with-x509-mutual-authentication-with-spring-boot-on-openshift4-416a00a47af8)
+* [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo)
 
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
