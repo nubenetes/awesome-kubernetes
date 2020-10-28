@@ -1,24 +1,26 @@
 # Visual Studio Code
 - [VSCode](#vscode)
-    - [Updates](#updates)
+  - [Updates](#updates)
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
-    - [Publishers](#publishers)
-    - [Extensions](#extensions)
-        - [More Extensions](#more-extensions)
-        - [More Extensions (Blogs)](#more-extensions-blogs)
-        - [Themes](#themes)
-        - [DevOps Extensions](#devops-extensions)
-        - [Azure DevOps Extensions](#azure-devops-extensions)
-        - [Git Flow Extensions](#git-flow-extensions)
-        - [Jenkins Extensions](#jenkins-extensions)
+  - [Publishers](#publishers)
+  - [Extensions](#extensions)
+    - [More Extensions](#more-extensions)
+    - [More Extensions (Blogs)](#more-extensions-blogs)
+    - [Themes](#themes)
+    - [DevOps Extensions](#devops-extensions)
+    - [Azure DevOps Extensions](#azure-devops-extensions)
+    - [Git Flow Extensions](#git-flow-extensions)
+    - [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 - [Test Debugging](#test-debugging)
 - [Python in Visual Studio Code](#python-in-visual-studio-code)
+- [Bridge to Kubernetes](#bridge-to-kubernetes)
 - [Alternatives](#alternatives)
 - [Videos](#videos)
 
 ## VSCode
 * [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
+* [vscode.github.com: GitHub and Visual Studio Code 🌟](https://vscode.github.com/) Bring your workflows closer to your code. Learn how Visual Studio Code and GitHub are better together.
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 * [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
@@ -65,6 +67,7 @@ A simple extension to make indentation more readable
 * [SVG:](https://marketplace.visualstudio.com/items?itemName=jock.svg) SVG Coding, Minify, Pretty, Preview All-In-One.
 * [Python Visual Studio Code](https://github.com/microsoft/vscode-python)
     * [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
+    * [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package
@@ -84,6 +87,7 @@ A simple extension to make indentation more readable
 * [GitHub Pull Requests and Issues 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 * [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) Convert pure react components to class components
 * [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) Helm Intellisense is a Visual Studio Code extension that provides intellisense for helm-templates
+* [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) New VS Code extension for working with Azure Resource Manager (ARM) templates that will make your life much easier.
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -142,6 +146,10 @@ A simple extension to make indentation more readable
 
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
+
+## Bridge to Kubernetes
+- [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) Bridge to Kubernetes extends the Kubernetes perimeter to your development computer allowing you to write, test, and debug microservice code while connected to your Kubernetes cluster with the rest of your application or services. With this workflow, there is no need for extra assets, such as a Dockerfile or Kubernetes manifests. You can simply run your code natively on your development workstation while connected to the Kubernetes cluster, allowing you to test your code changes in the context of the larger application.
+- [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx)
 
 ## Alternatives
 - [Repl.it](https://repl.it/) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.

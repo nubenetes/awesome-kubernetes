@@ -8,33 +8,34 @@
 - [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
 - [Zalando PostgreSQL Operator](#zalando-postgresql-operator)
 - [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
-    - [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
-    - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
-        - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
-        - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
-        - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
-            - [Service Accounts](#service-accounts)
-            - [Roles assigned to Service Accounts](#roles-assigned-to-service-accounts)
-            - [Security Context Constraints (SCC)](#security-context-constraints-scc)
-                - [SCC Recommendations](#scc-recommendations)
-            - [Add a SCC to a Project](#add-a-scc-to-a-project)
-                - [Workflow1 without custom Service Account and without DeploymentConfig](#workflow1-without-custom-service-account-and-without-deploymentconfig)
-                - [Workflow2 with custom Service Account and without DeploymentConfig](#workflow2-with-custom-service-account-and-without-deploymentconfig)
-                - [Workflow3 with custom service Account and DeploymentConfig](#workflow3-with-custom-service-account-and-deploymentconfig)
-            - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
-            - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
-            - [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
-            - [List Databases with psql](#list-databases-with-psql)
-            - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
-            - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
-            - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
-        - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
+  - [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
+  - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
+    - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
+    - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
+    - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
+      - [Service Accounts](#service-accounts)
+      - [Roles assigned to Service Accounts](#roles-assigned-to-service-accounts)
+      - [Security Context Constraints (SCC)](#security-context-constraints-scc)
+        - [SCC Recommendations](#scc-recommendations)
+      - [Add a SCC to a Project](#add-a-scc-to-a-project)
+        - [Workflow1 without custom Service Account and without DeploymentConfig](#workflow1-without-custom-service-account-and-without-deploymentconfig)
+        - [Workflow2 with custom Service Account and without DeploymentConfig](#workflow2-with-custom-service-account-and-without-deploymentconfig)
+        - [Workflow3 with custom service Account and DeploymentConfig](#workflow3-with-custom-service-account-and-deploymentconfig)
+      - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
+      - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
+      - [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
+      - [List Databases with psql](#list-databases-with-psql)
+      - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
+      - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
+      - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
+    - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
 - [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
 - [SQL Server](#sql-server)
 - [MySQL](#mysql)
 - [PostgreSQL](#postgresql)
 - [Percona MySQL](#percona-mysql)
 - [Tools](#tools)
+- [Time-Series Database](#time-series-database)
 
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
@@ -85,7 +86,6 @@
 * [Youtube: Crunchy PostgreSQL Operator for Kubernetes 3.4 Overview (2018)](https://www.youtube.com/watch?v=gaXlrlz7GVc)
 * [Youtube: OpenShift Meetup Tokyo #05 - Operator and Operator Lifecycle Manager on OpenShift (2019, openshift 4.1)](https://www.youtube.com/watch?v=X4vuktlK0Tg)
 * [info.crunchydata.com: Monitoring PostgreSQL clusters in kubernetes](https://info.crunchydata.com/blog/monitoring-postgresql-clusters-in-kubernetes)
-* [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 * [info.crunchydata.com: Deploy High-Availability PostgreSQL Clusters on Kubernetes by Example](https://info.crunchydata.com/blog/deploy-high-availability-postgresql-on-kubernetes)
 * [info.crunchydata.com: Migrating from Oracle to PostgreSQL: Tips and Tricks](https://info.crunchydata.com/blog/migrating-from-oracle-to-postgresql-questions-and-considerations)
 * [info.crunchydata.com: Scheduled PostgreSQL Backups and Retention Policies with Kubernetes](https://info.crunchydata.com/blog/schedule-postgresql-backups-and-retention-with-kubernetes)
@@ -97,7 +97,6 @@
 * [info.crunchydata.com: Fast CSV and JSON Ingestion in PostgreSQL with COPY](https://info.crunchydata.com/blog/fast-csv-and-json-ingestion-in-postgresql-with-copy)
 * [info.crunchydata.com: Composite Primary Keys, PostgreSQL and Django](https://info.crunchydata.com/blog/composite-primary-keys-postgresql-and-django)
 * [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
-* [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 * [info.crunchydata.com: Introducing the Postgres Prometheus Adapter](https://info.crunchydata.com/blog/using-postgres-to-back-prometheus-for-your-postgresql-monitoring-1)
 * [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
 * [info.crunchydata.com: Deploying Active-Active PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/active-active-on-kubernetes)
@@ -107,6 +106,11 @@
 * [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator 🌟](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 * [postgresql.org: Crunchy PostgreSQL Operator 4.5: Enhanced Monitoring, Custom Annotations, PostgreSQL 13 🌟](https://www.postgresql.org/about/news/crunchy-postgresql-operator-45-enhanced-monitoring-custom-annotations-postgresql-13-2086/)
 * [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://info.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
+* [redhat.com: Crunchy Data PostgreSQL on Red Hat OpenShift Container Storage (Overview) 🌟](https://www.redhat.com/en/resources/crunchy-data-postgresql-overview)
+* [info.crunchydata.com: PostgreSQL Monitoring for Application Developers: The DBA Fundamentals](https://info.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats)
+* [youtube: OCB: High Availability PostgreSQL and more on OpenShift - Jonathan Katz (Crunchy Data) 🌟](https://www.youtube.com/watch?v=9jbR9lZuSU0) Learn how the PostgreSQL Operator from Crunchy Data makes it easy to deploy high availability Postgres clusters on OpenShift. Beyond that, we'll look at how the Operator pattern makes it possible to run your own open source database-as-a-service and cover the essential features: provisioning, HA, disaster recovery, monitoring, and how to do it all securely!
+* [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://info.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)
+* [info.crunchydata.com: Using the PostgreSQL Operator with Rook Ceph Storage](https://info.crunchydata.com/blog/crunchy-postgresql-operator-with-rook-ceph-storage)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -743,9 +747,11 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## MySQL
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/)
+- [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table)
 
 ## PostgreSQL
 - [momjian.us: Mastering PostgreSQL Administration [pdf] ](https://momjian.us/main/writings/pgsql/administration.pdf)
+- [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips/)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
@@ -753,3 +759,6 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## Tools
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
+
+## Time-Series Database
+- [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database/)

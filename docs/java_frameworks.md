@@ -1,17 +1,17 @@
 # Java and Java Programming Models. Open Source Microservices Frameworks
 - [Java](#java)
-    - [Existing Java Implementations](#existing-java-implementations)
-    - [Use Java 11](#use-java-11)
-    - [Java Collections Interview Questions](#java-collections-interview-questions)
+  - [Existing Java Implementations](#existing-java-implementations)
+  - [Use Java 11](#use-java-11)
+  - [Java Collections Interview Questions](#java-collections-interview-questions)
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Jakarta EE](#jakarta-ee)
 - [Eclipse MicroProfile](#eclipse-microprofile)
-    - [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
+  - [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
 - [Spring](#spring)
-    - [Spring Cloud](#spring-cloud)
-    - [SpringBoot](#springboot)
-    - [SpringBoot with Docker](#springboot-with-docker)
-    - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
+  - [Spring Cloud](#spring-cloud)
+  - [SpringBoot](#springboot)
+  - [SpringBoot with Docker](#springboot-with-docker)
+  - [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
 - [Quarkus](#quarkus)
 - [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
@@ -26,6 +26,7 @@
 * [marcobehler.com: Java Versions and Features 🌟](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features)
 * [advancedweb.hu: A categorized list of all Java and JVM features since JDK 8 to 14](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-14/)
 * [JDK 15: The new features in Java 15](https://www.infoworld.com/article/3534133/jdk-15-the-new-features-in-java-15.html) Just-arrived update to standard Java features text blocks, hidden classes, the Z Garbage Collector, and previews of pattern matching and records.
+* [GitHub Welcomes the OpenJDK Project!](https://github.blog/2020-09-30-github-welcomes-the-openjdk-project/)
 
 ### Existing Java Implementations
 - [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html)
@@ -104,6 +105,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 - [**Spring Boot Istio library**: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/)
 * [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications)
+* [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/)
 
 ### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
@@ -140,6 +142,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [The road to Quarkus GA: Completing the first supported Kubernetes-native Java stack](https://developers.redhat.com/blog/2020/06/04/the-road-to-quarkus-ga-completing-the-first-supported-kubernetes-native-java-stack/)
 - [containerjournal.com: Red Hat Adds Java Runtime for Kubernetes to Subscription](https://containerjournal.com/topics/container-ecosystems/red-hat-adds-java-runtime-for-kubernetes-to-subscription/) Quarkus provides access to a library of more than 200 extensions, including tools such as RESTEasy, Hibernate and Eclipse MicroProfile, along with specific extensions fo Red Hat cloud services such as Red Hat AMQ Streams, Red Hat AMQ Broker and Red Hat Fuse.
 - [developers.redhat.com: Quarkus and Jakarta EE: Together, or not?](https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not)
+- [youtube: CyberJUG-HH:Why is everybody talking about Quarkus?](https://www.youtube.com/watch?v=nXXPOS8gjtA) In this (Why is everybody talking about Quarkus?) Java User Group Hamburg (CyberJUG-HH) session I highlighted possible reasons for Quarkus' popularity, explained Quarkus' optimisation tricks, the differences between Jakarta EE / J2EE / Java EE application servers and Quarkus, discussed the role of MicroProfile and Jakarta EE, migrated a Java EE application to Quarkus, performed multiple deployments, decompiled some code, measured memory consumption and finally cross compiled the Java service to native code using GraalVM.
 
 ## Thorntail (aka WildFly Swarm)
 - [Red Hat Thorntail](https://thorntail.io/) is a framework based on the popular [WildFly Java application server](https://wildfly.org/) to enable the creation of small, stand-alone microservice-based applications. Thorntail is capable of producing so-called just enough app-server to support each component of your system.

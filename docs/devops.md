@@ -7,15 +7,16 @@
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
-    - [Relay](#relay)
+  - [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
-    - [AWS DevOps](#aws-devops)
-    - [Azure DevOps](#azure-devops)
-    - [Google Cloud Platform](#google-cloud-platform)
+  - [AWS DevOps](#aws-devops)
+  - [Azure DevOps](#azure-devops)
+  - [Google Cloud Platform](#google-cloud-platform)
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
+- [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
 
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
@@ -52,7 +53,8 @@
 * [itprotoday.com: Is the DevOps Model Killing the Developer? In a Word, No](https://www.itprotoday.com/devops-and-software-development/devops-model-killing-developer-word-no) The rise of the DevOps model means that app environments are moving faster and running on a larger scale than they did a decade ago.
 * [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/management/2020/06/devops-culture.html)
 * [enterprisersproject.com: 3 DevOps skills IT leaders need for the next normal](https://enterprisersproject.com/article/2020/7/3-devops-skills-it-leaders-need-next-normal)
-* [How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
+* [medium: How to Become a DevOps Engineer in 2020 (Tj Blogumas)](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8)
+* [medium: How to Become a DevOps Engineer in 2020 (Shane Shown)](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52)
 * [Digestible DevOps: The 7 DevOps Practices](https://levelup.gitconnected.com/digestible-devops-the-7-devops-practices-8bd8b34e1418) Breaking down DevOps into practical chunks for real-world implementation.
 * [red-gate.com: Automated Production Deployments are Not the Key to DevOps Performance](https://www.red-gate.com/blog/automated-production-deployments-are-not-the-key-to-devops-performance) There’s a myth about DevOps which is hard to shake free of: that “success” means fully automating your deployments from code check-in to production.
 * [Hating code of others](https://statemanagement.substack.com/p/hating-the-code-of-others) We struggle to appreciate the meaning and intent of other people's work because we fail to understand the deeply personal and subjective quality of software development.
@@ -69,6 +71,12 @@
 * [github.blog: What is DevOps? A guide to common methods and misconceptions 🌟](https://github.blog/2020-10-07-devops-definition/)
 * [thenewstack.io: From DevOps to DevApps 🌟](https://thenewstack.io/from-devops-to-devapps/)
 * [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers/)
+* [cloudtweaks.com: DevOps - Secure & scalable CI/CD pipeline with AWS 🌟](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/) Devops is a union of software development and operations. It is a culture that the company imbibes in the agile development process.
+* [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
+* [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps/) 
+* [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration/)
+* [devopscurry.com: Key DevOps Principles to focus in 2021](https://devopscurry.com/key-devops-principles-to-focus-in-2021/)
+* [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -108,6 +116,7 @@
 - [edureka.com: Top 10 DevOps Tools You Must Know In 2020](https://www.c/blog/top-10-devops-tools/)
 - [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
 - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
+- [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
 
 ### Relay
 - [Relay](https://relay.sh/) Event-driven automation that connects the cloud providers, DevOps tools, and other APIs you already use.

@@ -1,18 +1,18 @@
 # Cloud Native Storage
 - [Introduction](#introduction)
 - [Solutions](#solutions)
-    - [Rook](#rook)
-    - [Robin](#robin)
-    - [Reduxio](#reduxio)
-    - [Portworx](#portworx)
-    - [StorageOS](#storageos)
-    - [OpenEBS](#openebs)
-    - [LightOS](#lightos)
-    - [Longhorn](#longhorn)
-    - [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
+  - [Rook](#rook)
+  - [Robin](#robin)
+  - [Reduxio](#reduxio)
+  - [Portworx](#portworx)
+  - [StorageOS](#storageos)
+  - [OpenEBS](#openebs)
+  - [LightOS](#lightos)
+  - [Longhorn](#longhorn)
+  - [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
-    - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
-    - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
+  - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
+  - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
 
 ## Introduction
 - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/)
@@ -20,6 +20,8 @@
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
 - [medium: Solution architect’s guide to Kubernetes persistent storage](https://medium.com/weareservian/solution-architects-guide-to-kubernetes-persistant-storage-3c9660187e8f)
 - [howtoforge.com: Storage in Kubernetes 🌟](https://www.howtoforge.com/storage-in-kubernetes/)
+- [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas/)
+- [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/)
 
 ## Solutions
 - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)
@@ -43,6 +45,7 @@
 - [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
 - [MayaData](https://mayadata.io/) Founder of OpenEBS
 - [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371/)
+- [OpenEBS Features and Benefits](https://docs.openebs.io/docs/next/features.html) OpenEBS is cloudnative storage for stateful applications on K8s where "cloud native" means following a loosely coupled architecture. As such the normal benefits to cloud native, loosely coupled architectures apply. 
 
 ### LightOS
 - [LightOS](https://www.lightbitslabs.com/product/)

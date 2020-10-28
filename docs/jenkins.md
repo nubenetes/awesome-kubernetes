@@ -7,36 +7,37 @@
 - [Running Jenkins on Java 11. Use OpenJDK 11](#running-jenkins-on-java-11-use-openjdk-11)
 - [Online Learning](#online-learning)
 - [Jenkins Configuration as Code Solutions. 3 available DSLs](#jenkins-configuration-as-code-solutions-3-available-dsls)
-    - [DSL 1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl-1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
-    - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
-        - [Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#jenkins-pipeline-syntax-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
-        - [Extending with Shared Libraries](#extending-with-shared-libraries)
-            - [Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-        - [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
-    - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
-        - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
+  - [DSL 1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl-1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
+  - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
+    - [Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#jenkins-pipeline-syntax-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
+    - [Extending with Shared Libraries](#extending-with-shared-libraries)
+      - [Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
+    - [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
+  - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
+    - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
-    - [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
-    - [Pipeline Development Tools](#pipeline-development-tools)
+  - [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
+  - [Pipeline Development Tools](#pipeline-development-tools)
 - [Jenkins Multibranch Pipeline](#jenkins-multibranch-pipeline)
-    - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
+  - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
 - [Jenkins Plugins](#jenkins-plugins)
-    - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-    - [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
-    - [Jenkins Blue Ocean](#jenkins-blue-ocean)
-    - [Cloudbees Flow](#cloudbees-flow)
+  - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
+  - [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
+  - [Jenkins Blue Ocean](#jenkins-blue-ocean)
+  - [Cloudbees Flow](#cloudbees-flow)
 - [Monitoring jenkins](#monitoring-jenkins)
 - [Externalizing Fingerprint Storage for Jenkins](#externalizing-fingerprint-storage-for-jenkins)
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
 - [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [CloudBees](#cloudbees)
-    - [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
-        - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
-    - [CloudBees Accelerator](#cloudbees-accelerator)
+  - [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
+    - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
+  - [CloudBees Accelerator](#cloudbees-accelerator)
 - [Jervis: Jenkins as a service](#jervis-jenkins-as-a-service)
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
+- [Jenkins and SAP](#jenkins-and-sap)
 
 ## Jenkins
 * [CloudBees](https://www.cloudbees.com/)
@@ -64,6 +65,8 @@
 * [dzone.com: Easily Automate Your CI/CD Pipeline With Jenkins, Helm, and Kubernetes 🌟](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he) Learn how to set up a workflow to automate your CI/CD pipeline for quick and easy deployments using Jenkins, Helm, and Kubernetes.
 * [Building Pipeline and Launching Jenkins in Container](https://medium.com/@rishabh1799/building-pipeline-and-launching-jenkins-in-container-d4faf39de173)
 * [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.lambdatest.com/blog/jenkins-pipeline-tutorial/)
+* [youtube: MSBuild With Jenkins | Jenkins For C# / .NET Applications](https://www.youtube.com/watch?v=uC7vajbnZS4)
+* [betsol.com: DevOps Using Jenkins, Docker, and Kubernetes](https://www.betsol.com/blog/devops-using-jenkins-docker-and-kubernetes/)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -180,6 +183,7 @@
     - In many organizations up to 80% of pipeline execution time is spent in manual build validation steps. How can we reduce that? One option is applying Google's SRE (Site Reliability Engineering) practices by **automating SLI (Service Level Indicators) & SLO (Service Level Objectives) based build validation**. This method has proven to detect problematic issues in production and also allows us to automatically approve or reject builds being pushed through our pipelines.
     - In this session you learn the basics of picking good **SLIs & SLOs** and how to extract them from your monitoring tools. After this session you will be able to start implementing this integration yourself with Jenkins. To give you a jump start you will be introduced to the open source project [Keptn](https://www.keptn.sh) which provides **automated SLI/SLO-based quality gates**. Then we'll talk about [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) which **integrates Jenkins and Keptn** with just a couple of function calls.
 - [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s)
+- [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/)
 
 <center>
 [![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
@@ -321,6 +325,10 @@
     * [Git Plugin Performance Improvement: Final Phase and Release 🌟](https://www.jenkins.io/blog/2020/08/29/git-performance-improvement-phase3/)
 * [Parameter Separator](https://plugins.jenkins.io/parameter-separator/)
 * [Declarative Pipeline Migration Assistant API 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant-api/) This project includes a plugin that uses details from a Freestyle project to generate a starting Jenkinsfile. The Declarative Pipeline Migration Assistant plugin uses a “best effort” approach during generation, which means supported configurations in Freestyle projects will be automatically converted, and placeholder stages will be created for plugins that are not yet supported.
+* [HashiCorp Vault 🌟](https://plugins.jenkins.io/hashicorp-vault-plugin/)
+* [Matrix Authorization Strategy 🌟](https://plugins.jenkins.io/matrix-auth/)
+* [AWS Secrets Manager Credentials Provider](https://plugins.jenkins.io/aws-secrets-manager-credentials-provider/)
+* [QF-Test](https://plugins.jenkins.io/qftest/) is a cross-platform software tool for the GUI test automation specialized on Java and Web applications. 
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -420,6 +428,10 @@
     * [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU)
     * [Youtube: Kubernetes Package Management with Helm and CI/CD with Jenkins X - Webinar by Neependra Khare](https://www.youtube.com/watch?v=oZOZiL6XIfA&feature=emb_title)
     * [go.digitalocean.com/cicd-on-k8s](https://go.digitalocean.com/cicd-on-k8s)
+
+## Jenkins and SAP
+- [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5/)
+- [blogs.sap.com: CI/CD Tools for SAP Cloud Platform ABAP Environment](https://blogs.sap.com/2020/10/22/ci-cd-tools-for-sap-cloud-platform-abap-environment/)
 
 [![jenkins and openshift](images/jenkins-ose.png)](https://www.cloudbees.com/)
 

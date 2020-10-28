@@ -1,30 +1,31 @@
 # Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 - [Message Brokers](#message-brokers)
-    - [ActiveMQ message broker](#activemq-message-broker)
-    - [RabbitMQ message broker](#rabbitmq-message-broker)
-    - [Redis message broker](#redis-message-broker)
-    - [Apache Camel message broker](#apache-camel-message-broker)
-        - [Apache Camel K](#apache-camel-k)
-    - [KubeMQ message broker](#kubemq-message-broker)
-    - [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
+  - [ActiveMQ message broker](#activemq-message-broker)
+  - [RabbitMQ message broker](#rabbitmq-message-broker)
+  - [Redis message broker](#redis-message-broker)
+  - [Apache Camel message broker](#apache-camel-message-broker)
+    - [Apache Camel K](#apache-camel-k)
+  - [KubeMQ message broker](#kubemq-message-broker)
+  - [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
 - [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
-    - [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
-    - [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
+  - [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
+  - [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
 - [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
 - [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
 - [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
-    - [Apache Airflow](#apache-airflow)
-    - [Apache Kafka](#apache-kafka)
-    - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
-    - [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
-        - [KsqlDB](#ksqldb)
-    - [Apache Pulsar](#apache-pulsar)
-    - [Apache Flink](#apache-flink)
-    - [Hazelcast JET](#hazelcast-jet)
+  - [Apache Airflow](#apache-airflow)
+  - [Apache Kafka](#apache-kafka)
+  - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
+  - [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
+  - [Redpanda (kafka alternative). A modern streaming platform for mission critical workloads](#redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads)
+    - [KsqlDB](#ksqldb)
+  - [Apache Pulsar](#apache-pulsar)
+  - [Apache Flink](#apache-flink)
+  - [Hazelcast JET](#hazelcast-jet)
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
-    - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
-    - [Red Hat AMQ Streams](#red-hat-amq-streams)
+  - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
+  - [Red Hat AMQ Streams](#red-hat-amq-streams)
 - [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
 - [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
 - [eBooks](#ebooks)
@@ -136,6 +137,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [confluent.fr: Infrastructure Modernization with Google Anthos and Apache Kafka](https://www.confluent.fr/blog/modernize-apps-and-infrastructure-with-anthos-confluent-kafka/)
 - [confluent.io: Apache Kafka DevOps with Kubernetes and GitOps](https://www.confluent.io/blog/kafka-devops-with-confluent-kubernetes-and-gitops/)
 - [Build a data streaming pipeline using Kafka Streams and Quarkus](https://developers.redhat.com/blog/2020/09/28/build-a-data-streaming-pipeline-using-kafka-streams-and-quarkus/)
+- [strimzi.io: Optimizing Kafka producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
@@ -149,6 +151,10 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Confluent Cloud (Apache Kafka Re-engineered for the Cloud)
 - [confluent.io](https://www.confluent.io/) The Complete Event Streaming Platform for Apache Kafka. 
 - Focus on building apps and not managing clusters with a scalable, resilient and secure event streaming platform. Event streaming with Kafka made simple on AWS, Azure and GCP clouds.
+- [mongodb.com: DaaS with MongoDB and Confluent](https://www.mongodb.com/blog/post/daa-s-with-mongo-db-and-confluent)
+
+### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
+- [Redpanda](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
 
 #### KsqlDB
 - [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.
@@ -211,7 +217,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [O'Really: Streaming data](http://streamingsystems.net/)
 
 ## Related
-- [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes](https://learnk8s.io/kubernetes-long-lived-connections)
+- [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟](https://learnk8s.io/kubernetes-long-lived-connections) Kubernetes doesn't load balance long-lived connections, some Pods might receive more requests than others, In case you are using HTTP/2, gRPC, RSockets, AMQP. Any work around?
 
 ## Questions and Answers
 - [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) "Kafka vs. JAX-RS / RPC, thoughts about APIs, JSON-B vs. GSON, Path.of over Paths.get, Java Records, MicroProfile JWT, beginners vs. expert content, best Java fullstack, code coverage, NetBeans in 2020, Visual Studio Setup for Java, screencast configuration, ReactJS / Angular over JSF?, JSON-P vs. JSON-B, security code scanning"

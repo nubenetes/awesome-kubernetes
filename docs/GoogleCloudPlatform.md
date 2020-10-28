@@ -16,6 +16,7 @@
 * [Platform comparisons](https://cloud.google.com/docs/compare)
     * [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
     * [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
+* [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
 
 ## GitHub 
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
@@ -31,6 +32,7 @@
 - [Anthos 🌟](https://cloud.google.com/anthos/)
 - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform/)
 - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
+- [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)
 
 ## Python
 - [anderfernandez.com: Cómo automatizar un script de Python en Google Cloud](https://anderfernandez.com/blog/automatizar-script-python-google-cloud/)

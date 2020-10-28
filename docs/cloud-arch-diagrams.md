@@ -7,6 +7,7 @@
 - [PlantUML](https://plantuml.com/)
 - [draw.io](https://drawio-app.com/)
 - [Isoflow](https://isoflow.io) Infrastructure Diagrams
+- [acloudguru.com: The top cloud diagramming tools, ranked](https://acloudguru.com/blog/engineering/the-top-cloud-diagramming-tools-ranked)
 
 ## AWS
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams

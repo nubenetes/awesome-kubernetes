@@ -3,13 +3,13 @@
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
 - [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
-    - [Git Workflows](#git-workflows)
-    - [Trunk Based Development](#trunk-based-development)
-    - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
-        - [Git Flow](#git-flow)
-    - [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
-    - [Alternative Branching Models](#alternative-branching-models)
-        - [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
+  - [Git Workflows](#git-workflows)
+  - [Trunk Based Development](#trunk-based-development)
+  - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
+    - [Git Flow](#git-flow)
+  - [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
+  - [Alternative Branching Models](#alternative-branching-models)
+    - [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
@@ -17,16 +17,16 @@
 - [Git Tools](#git-tools)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [Merge BOTs](#merge-bots)
-    - [Tips](#tips)
-    - [Jenkins for git merges](#jenkins-for-git-merges)
-    - [Bitbucket for git merges](#bitbucket-for-git-merges)
-    - [GitLab for git merges](#gitlab-for-git-merges)
-        - [Marge GitLab bot](#marge-gitlab-bot)
-    - [Jenkins-X bots](#jenkins-x-bots)
-    - [Plastic SCM bot](#plastic-scm-bot)
-    - [Mergify bot](#mergify-bot)
-    - [GitHub bots](#github-bots)
-        - [Bors GitHub bot](#bors-github-bot)
+  - [Tips](#tips)
+  - [Jenkins for git merges](#jenkins-for-git-merges)
+  - [Bitbucket for git merges](#bitbucket-for-git-merges)
+  - [GitLab for git merges](#gitlab-for-git-merges)
+    - [Marge GitLab bot](#marge-gitlab-bot)
+  - [Jenkins-X bots](#jenkins-x-bots)
+  - [Plastic SCM bot](#plastic-scm-bot)
+  - [Mergify bot](#mergify-bot)
+  - [GitHub bots](#github-bots)
+    - [Bors GitHub bot](#bors-github-bot)
 
 ## Git Distributed Version-Control System
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
@@ -98,6 +98,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [GitHub Flow](https://guides.github.com/introduction/flow/)
 * [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/)
 * [Git DMZ Flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66)
+* [kubernetes.dev: GitHub Workflow](https://www.kubernetes.dev/docs/guide/github-workflow/) An overview of the GitHub workflow used by the Kubernetes project. It includes some tips and suggestions on things such as keeping your local environment in sync with upstream and commit hygiene.
 
 ### Trunk Based Development
 * [Trunk Based Development](https://trunkbaseddevelopment.com/)
@@ -169,6 +170,7 @@ git push origin -f
 * [gitlab.com](https://gitlab.com/)
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
 * [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/) CI/CD is a key part of the DevOps journey. Here’s everything you need to understand about this game-changing process.
+* [levelup.gitconnected.com: Automating Integration and Deployment to Remote Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf) GitLab CI/CD
 
 ## GitHub
 * [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
@@ -187,6 +189,10 @@ git push origin -f
 * [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/)
 * [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests/)
 * [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
+* [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests/)
+* [docker.com: Docker Github Actions](https://www.docker.com/blog/docker-github-actions/)
+* [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
+* [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
 
 ## Git Tools
 * [Atlassian Sourcetree](https://www.sourcetreeapp.com/)

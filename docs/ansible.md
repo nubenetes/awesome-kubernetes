@@ -1,12 +1,13 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
 - [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
-    - [Automation services catalog](#automation-services-catalog)
-    - [Red Hat Certified Ansible Content Collections](#red-hat-certified-ansible-content-collections)
+  - [Automation services catalog](#automation-services-catalog)
+  - [Red Hat Certified Ansible Content Collections](#red-hat-certified-ansible-content-collections)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
-    - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
-    - [Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower--ansible-awx-running-ansible-playbooks-from-ansible-tower)
+  - [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
+  - [Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower--ansible-awx-running-ansible-playbooks-from-ansible-tower)
+  - [Alternatives to Ansible Tower](#alternatives-to-ansible-tower)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
@@ -14,6 +15,7 @@
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 - [Ansible Kubernetes Module](#ansible-kubernetes-module)
 - [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
+- [Dynatrace with Ansible](#dynatrace-with-ansible)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -33,6 +35,15 @@
 * [opensource.com: 7 things you can do with Ansible right now](https://opensource.com/article/20/9/ansible) If Ansible's inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.
 * [medium.com: The Ultimate Guide for Ansible Total Domination 🌟](https://medium.com/the-programming-hub/the-ultimate-guide-for-ansible-total-domination-e70bdfc11175)
 * [opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟](https://opensource.com/article/20/10/calendar-ansible) Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
+* [opensource.com: My first day using Ansible](https://opensource.com/article/20/10/first-day-ansible) A sysadmin shares information and advice about putting Ansible into real-world use configuring computers on his network.
+* [siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟](https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management/)
+* [sdxcentral.com: Red Hat Links Ansible Automation to Kubernetes Management 🌟](https://www.sdxcentral.com/articles/news/red-hat-links-ansible-automaton-to-kubernetes-management/)
+* [thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟](https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes/)
+* [openshift.com: Ansible and OpenShift: Connecting for Success 🌟](https://www.openshift.com/blog/ansible-and-openshift-connecting-for-success)
+* [zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟](https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs/) And, on top of more plug-and-play Ansible programs, you can now run Ansible hand-in-glove with Red Hat OpenShift.
+* [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/) 
+* [redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview)
+* [opensource.com: 10 Ansible modules for Linux system automation 🌟](https://opensource.com/article/20/10/ansible-modules-linux) These handy modules save time and hassle by automating many of your daily tasks, and they're easy to implement with a few commands.
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation
@@ -63,6 +74,14 @@
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 * [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
 * [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/)
+
+### Alternatives to Ansible Tower
+* [Jenkins](https://www.jenkins.io/)
+* [Foreman](https://www.theforeman.org/)
+    * [Ansible Modules to manage Foreman and Katello installations](https://galaxy.ansible.com/theforeman/foreman)
+    * [Foreman Ansible Modules (FAM)](https://github.com/theforeman/foreman-ansible-modules) Ansible modules for interacting with the Foreman API and various plugin APIs such as Katello.
+    * [RFC: Foreman Operations Ansible Collection](https://community.theforeman.org/t/rfc-operations-ansible-collection/20971)
+* [Rundeck](https://www.rundeck.com/ansible)
 
 ## Ansible Molecule. Development and Testing of Ansible Roles
 * [Ansible Molecule](https://molecule.readthedocs.io/) Molecule project is designed to aid in the development and testing of Ansible roles.
@@ -95,3 +114,6 @@
 ## NGINX Core Collection for Ansibe
 - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)
 - [nginx.com: Announcing the NGINX Core Collection for Ansible](https://www.nginx.com/blog/announcing-nginx-core-collection-ansible/)
+
+## Dynatrace with Ansible
+- [dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)](https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview/)

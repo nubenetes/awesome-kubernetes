@@ -2,8 +2,8 @@
 - [Introduction](#introduction)
 - [Selenium](#selenium)
 - [Mobile Tests](#mobile-tests)
-    - [Appium](#appium)
-    - [Cucumber and Appium](#cucumber-and-appium)
+  - [Appium](#appium)
+  - [Cucumber and Appium](#cucumber-and-appium)
 - [Test Automation with Zephyr (Jira Plugin)](#test-automation-with-zephyr-jira-plugin)
 
 ## Introduction
@@ -21,7 +21,9 @@
 - [lambdatest.com: Top 27 Best Practices For Selenium Test Automation](https://www.lambdatest.com/blog/27-best-practices-selenium-test-automation/)
 - [automationreinvented.blogspot.com: Top 30 Interview Questions on Automation Testing - Selenium for SDET/Automation QA?](https://automationreinvented.blogspot.com/2020/06/top-30-interview-questions-on.html)
 - [lambdatest.com: Complete Guide To Access Forms In Selenium With Java](https://www.lambdatest.com/blog/complete-guide-to-access-forms-in-selenium-with-java/)
-- [[lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.lambdatest.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa/)
+- [lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.lambdatest.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa/)
+- [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter/)
+- [dev.to: Using Selenium With Python in a Docker Container](https://dev.to/nazliander/using-selenium-within-a-docker-container-ghp)
 
 ## Mobile Tests
 ### Appium

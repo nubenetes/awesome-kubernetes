@@ -6,25 +6,26 @@
 - [Project Calico](#project-calico)
 - [Security Patterns for Microservice Architectures](#security-patterns-for-microservice-architectures)
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
-    - [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
-    - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
+  - [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
+  - [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 - [Removing Credentials From Git Repo](#removing-credentials-from-git-repo)
 - [Pentesting](#pentesting)
 - [Credential Managers](#credential-managers)
-    - [keycloak](#keycloak)
-    - [Git Credential Manager Core](#git-credential-manager-core)
+  - [keycloak](#keycloak)
+  - [Git Credential Manager Core](#git-credential-manager-core)
 - [GitOps Secret Management](#gitops-secret-management)
-    - [HashiCorp Vault](#hashicorp-vault)
-    - [CyberArk and Ansible](#cyberark-and-ansible)
-    - [SOPS for Kubernetes](#sops-for-kubernetes)
-    - [Alternatives](#alternatives)
+  - [HashiCorp Vault](#hashicorp-vault)
+  - [CyberArk and Ansible](#cyberark-and-ansible)
+  - [SOPS for Kubernetes](#sops-for-kubernetes)
+  - [Alternatives](#alternatives)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
 - [Docker Images & Container Security](#docker-images--container-security)
 - [Pod Security Policies](#pod-security-policies)
 - [Kubernetes Network Policies](#kubernetes-network-policies)
 - [Static Analysis SAST](#static-analysis-sast)
+- [Kubernetes Security Tools](#kubernetes-security-tools)
 - [Books](#books)
 
 ## Introduction
@@ -38,6 +39,9 @@
 - [loves.cloud: Creating a fully automated DevSecOps CI/CD Pipeline](https://loves.cloud/creation-of-a-fully-automated-devsecops-cicd-pipeline/)
 - [redhat.com: Balancing Linux security with usability](https://www.redhat.com/sysadmin/linux-security-usability) Your system should be secure, but open enough to serve its function. Here are some tips on how to strike that balance.
 - [thenewstack.io: Culture, Vulnerabilities and Budget: Why Devs and AppSec Disagree](https://thenewstack.io/culture-vulnerabilities-and-budget-why-devs-and-appsec-disagree/)
+- [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) CEO Sacha Labourey: 'DevOps is a pretty good proxy for what needs to happen in any organisation'
+- [paloaltonetworks.com: Is Your Organization Protected Against IAM Misconfiguration Risks?](https://blog.paloaltonetworks.com/2020/10/cloud-iam-misconfiguration-risks/)
+- [devops.com: How to Successfully Integrate Security and DevOps](https://devops.com/how-to-successfully-integrate-security-and-devops/)
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
@@ -45,6 +49,7 @@
 ## Kubernetes Config Security Threats
 - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root/)
 - [mirantis.com: Introduction to Istio Ingress: The easy way to manage incoming Kubernetes app traffic](https://www.mirantis.com/blog/introduction-to-istio-ingress-the-easy-way-to-manage-incoming-kubernetes-app-traffic/) Leaving your cluster exposed can be risky. That's why you need Istio Ingress, which only exposes the part that handles incoming traffic & allows routing rules based on routes, headers, IP addresses and more.
+- [thenewstack.io: How Kubernetes vulnerabilities have shifted since the first attacks](https://thenewstack.io/how-kubernetes-vulnerabilities-have-shifted-since-the-first-api-attacks/)
 
 ## Multi-Level Security (MLS) vs Multi-Category Security (MCS). Make Secure Pipelines with Podman and Containers
 - [Why you should be using Multi-Category Security (MCS) for your Linux containers](https://www.redhat.com/en/blog/why-you-should-be-using-multi-category-security-your-linux-containers)
@@ -125,7 +130,7 @@
 ## Docker Images & Container Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [sysdig.com: 12 Container image scanning best practices to adopt in production](https://sysdig.com/blog/image-scanning-best-practices/)
-- [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security/?utm_sq=ghrej190y8)
+- [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security/)
 - [medium: KubeSecOps Pipeline(Container security) in a cloudnative ecosystem](https://medium.com/@vaib16dec/kubesecops-pipeline-container-security-in-a-cloudnative-ecosystem-e59bf19a713d)
 
 ## Pod Security Policies
@@ -137,6 +142,10 @@
 
 ## Static Analysis SAST
 - [DevSecOps – Static Analysis SAST with Jenkins Pipeline](https://digitalvarys.com/devsecops-static-analysis-sast-with-jenkins-pipeline/)
+
+## Kubernetes Security Tools 
+- [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes)
+- [Pomerium](https://github.com/pomerium/pomerium) is an identity-aware proxy that enables secure access to internal applications. Pomerium brings consistent authz/authn, tooling, and auditing across cloud and on-premise deployments. No VPN or cloud provider account is required
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)

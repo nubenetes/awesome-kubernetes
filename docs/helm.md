@@ -34,7 +34,12 @@
 * [medium: Multi-namespace Helm deploy in Kubernetes](https://medium.com/analytics-vidhya/multi-namespace-helm-deploy-in-kubernetes-26d1baf1ca5c)
 * [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://rancher.com/blog/2020/helm-security)
 * [daveops.xyz: Running DB migrations on Kubernetes with Helm](https://daveops.xyz/en/2020/09/18/running-db-migrations-on-kubernetes-with-helm/)
+* [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)
 * [mbbaig.blog: How to create custom Helm charts 🌟](https://mbbaig.blog/how-to-create-custom-helm-charts/)
+* [medium: Using Helm with Amazon EKS without kubeconfigs](https://medium.com/analytics-vidhya/using-helm-with-amazon-eks-without-a-kubeconfig-733f44a31b1d)
+* [dev.to: Introduction to Helm 🌟](https://dev.to/edlegaultle/introduction-to-helm-50jl)
+* [itnext.io: Helm 3 Umbrella Charts & Standalone Chart Image Tags — An Alternative Approach](https://itnext.io/helm-3-umbrella-charts-standalone-chart-image-tags-an-alternative-approach-78a218d74e2d) Helm umbrella charts, for those who aren’t familiar, describe and encapsulate a deployable collection of loosely couple Kubernetes components as a higher-order Helm chart. In other words, a collection of software elements that each have their own individual charts but, for whatever reason (e.g. design choices, ease of deployability, versioning complexities), must be installed or upgraded as a since atomic unit.
+* [rancher.com: Create Reproducible Security in Kubernetes with Helm 3 and Helm Charts](https://rancher.com/blog/2020/helm-security)
 
 ## Helm Chart Documentation
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)

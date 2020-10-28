@@ -2,13 +2,13 @@
 - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
 - [Rancher Academy (online training)](#rancher-academy-online-training)
 - [Rancher 2](#rancher-2)
-    - [Rancher Networking and CNI Providers](#rancher-networking-and-cni-providers)
-    - [Rancher 2 RKE](#rancher-2-rke)
+  - [Rancher Networking and CNI Providers](#rancher-networking-and-cni-providers)
+  - [Rancher 2 RKE](#rancher-2-rke)
 - [K3S](#k3s)
-    - [K3S Use Cases](#k3s-use-cases)
-    - [K3S in Public Clouds](#k3s-in-public-clouds)
-    - [K3D](#k3d)
-    - [K3OS](#k3os)
+  - [K3S Use Cases](#k3s-use-cases)
+  - [K3S in Public Clouds](#k3s-in-public-clouds)
+  - [K3D](#k3d)
+  - [K3OS](#k3os)
 - [K3C](#k3c)
 - [Hosted Rancher](#hosted-rancher)
 - [Rancher on Microsoft Azure](#rancher-on-microsoft-azure)
@@ -61,6 +61,8 @@
 * [thenewstack.io: How K3s, Portworx, and Calico Can Serve as a Foundation of Cloud Native Edge Infrastructure](https://thenewstack.io/how-k3s-portworx-and-calico-can-serve-as-a-foundation-of-cloud-native-edge-infrastructure/)
 * [thenewstack.io: Tutorial - Configure Cloud Native Edge Infrastructure with K3s, Calico, Portworx](https://thenewstack.io/tutorial-configure-cloud-native-edge-infrastructure-with-k3s-calico-portworx/)
 * [github.com/aws-samples/cdk-k3s-cluster 🌟](https://github.com/aws-samples/aws-cdk-for-k3scluster) is a new JSII construct library for AWS CDK that deploys a scalable Kubernetes K3s cluster on Graviton2 Arm-based (mg6 by default) Spot instances with one command on AWS.
+* [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d)
+* [sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟](https://sysdig.com/blog/k3s-sysdig-falco/)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

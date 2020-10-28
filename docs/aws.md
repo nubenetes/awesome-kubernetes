@@ -93,6 +93,8 @@
 - [Open Source at AWS](#open-source-at-aws)
 - [AWS Service Quota Requests](#aws-service-quota-requests)
 - [Resource Hierarchies](#resource-hierarchies)
+- [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
+- [Best Practices](#best-practices)
 - [Spain](#spain)
 - [Videos](#videos)
 
@@ -134,6 +136,7 @@
 ## AWS Pricing
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
 - [ec2.shop: Compare AWS EC2 instance price from the CLI 🌟](https://ec2.shop/)
+- [infoq.com: AWS Launches Low-Cost Burstable T4g Instances Powered by AWS Graviton2](https://www.infoq.com/news/2020/09/aws-ec2-t4g-instances/)
 
 ### AWS Calculator
 - [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
@@ -248,6 +251,7 @@
 ## AWS Cloudwatch
 - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.threatstack.com/blog/50-best-aws-cloudwatch-tutorials)
 - [Amazon CloudWatch now monitors Prometheus metrics from Container environments](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments/)
+- [Amazon CloudWatch Dashboards now supports sharing](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing/)
 
 ## AWS Schema Conversion Tool
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
@@ -331,6 +335,7 @@
 - [Application Load Balancer 🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
 - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/)
 - [medium: 10 reasons why you should think about using an AWS Application Load Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)
+- [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/es/blogs/containers/introducing-aws-load-balancer-controller/)
 
 ## NGINX
 - [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment/)
@@ -352,6 +357,7 @@
 - [Get started with Amazon EC2 Container Registry (Amazon ECR)](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)
 - [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws/)
 - [Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment 🌟](https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment/)
+- [ecrcp](https://github.com/bit-cloner/ecrcp) aims to mimic cp command in Linux systems as closely as possible in its implementation. Consider ecrcp to be the cp equivalent to copy container images from docker hub to ECR.
 
 ## Docker for AWS
 - [DZone: Getting Started With Docker for AWS and Scaling Nodes](https://dzone.com/articles/getting-started-with-docker-for-aws-and-scaling-no) This blog will explain how to get started with Docker for AWS and deploy a multi-host Swarm cluster on Amazon.
@@ -408,7 +414,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [blog.powerupcloud.com: AWS inventory details in CSV using lambda 🌟](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟](https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
-* [Using Amazon EFS for AWS Lambda in your serverless applications 🌟](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
+- [Using Amazon EFS for AWS Lambda in your serverless applications 🌟](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
+- [medium: AWS Serverless Application Lens — A Summary 🌟](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d) 
 
 ## AWS Cloud Formation
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
@@ -452,6 +459,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
 - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
 - [New IAMCTL tool compares multiple IAM roles and policies 🌟](https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies/)
+- [Bring your own CLI to Session Manager with configurable shell profiles](https://aws.amazon.com/es/blogs/mt/bring-your-own-cli-session-manager-configurable-shell-profiles/)
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -552,6 +560,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [info.acloud.guru: Scaling the hottest app in tech on AWS and Kubernetes](https://info.acloud.guru/resources/kubernetes-aws-cloud-scaling-hey)
 - [itnext.io: Using AWS NLB manually targeting an EKS Service exposing UDP traffic](https://itnext.io/using-aws-nlb-manually-targeting-an-eks-service-exposing-udp-traffic-17053ecd8f52)
 - [medium: Creating CI/CD Pipeline for AWS ECS — Part I](https://medium.com/@harshvijaythakkar/creating-ci-cd-pipeline-for-aws-ecs-part-i-b2f61bb1522f)
+- [Amazon EKS Now Supports EC2 Inf1 Instances](https://aws.amazon.com/blogs/aws/amazon-eks-now-supports-ec2-inf1-instances/)
 
 ## AWS Fargate
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
@@ -581,6 +590,12 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Resource Hierarchies
 - [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511)
+
+## AWS Systems Manager Explorer
+- [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer/)
+
+## Best Practices
+- [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time 🌟](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time/)
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

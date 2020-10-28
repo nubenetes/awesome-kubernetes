@@ -1,7 +1,8 @@
 # Jenkins Alternatives for Continuous Integration
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 * [Circle CI](https://circleci.com/)
-    * [Adding approval jobs to your CI pipeline](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
+    * [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
+    * [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/)
 * [Travis CI](https://travis-ci.org/)
 * [Concourse](https://concourse-ci.org/)
 * [GoCD](https://www.gocd.org/)
@@ -28,6 +29,10 @@
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [Azure DevOps](https://azure.microsoft.com/services/devops/)
 * [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
+* [shuttleOps](https://www.shuttleops.io/)
+  * [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
+* [HashiCorp Waypoint](https://www.waypointproject.io/)
+  * [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)

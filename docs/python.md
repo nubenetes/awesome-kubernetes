@@ -87,6 +87,7 @@
 - [digitalocean.com: How To Use the Python Map Function 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-map-function)
 - [thenextweb.com: 6 practical tricks every Python developer should have](https://thenextweb.com/readme/2020/09/23/6-practical-tricks-every-python-developer-should-have/)
 - [dzone: Best of DZone: Python 🌟](https://dzone.com/articles/best-of-dzone-python)
+- [digitalocean.com: How To Code in Python 3 🌟](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-python-3)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -187,9 +188,17 @@
 ### Web Scraping with Python
 - [Scrapy](http://scrapy.org/) An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [First web scraper](https://first-web-scraper.readthedocs.org) A step-by-step guide to writing a web scraper with Python.
+- [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint) Twint is an advanced Twitter scraping tool written in Python that allows for scraping Tweets from Twitter profiles without using Twitter's API.
 
 ## Jython 
 - [Jython is a language that makes it easy to create projects with libraries from Python and Java.](http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=43#pg43)
 
 ## Eclipse IDE
 - [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide)
+
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is a beautiful programming language. It contains really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing more efficient and compact code.<br><br>🧵🧵🧵</p>&mdash; Danny Steenman (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1314930561220313088?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TOP Python Github repositories for you. <br><br>A Thread... 🧵<a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/CodeNewbies?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbies</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1318179578720919552?ref_src=twsrc%5Etfw">October 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

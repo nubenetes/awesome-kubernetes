@@ -2,17 +2,18 @@
 - [Introduction](#introduction)
 - [Tools For Evaluating Service Meshes](#tools-for-evaluating-service-meshes)
 - [Consul Service Mesh](#consul-service-mesh)
-    - [Consul Connect](#consul-connect)
+  - [Consul Connect](#consul-connect)
 - [Linkerd Service Mesh](#linkerd-service-mesh)
 - [Maesh Service Mesh](#maesh-service-mesh)
 - [Traffic Director (Google's Service Mesh)](#traffic-director-googles-service-mesh)
-    - [Google L7 Internal Load Balancer](#google-l7-internal-load-balancer)
+  - [Google L7 Internal Load Balancer](#google-l7-internal-load-balancer)
 - [Envoy Proxy Service Mesh](#envoy-proxy-service-mesh)
-    - [xDS protocol (Envoy's Discovery Service Protocol)](#xds-protocol-envoys-discovery-service-protocol)
+  - [xDS protocol (Envoy's Discovery Service Protocol)](#xds-protocol-envoys-discovery-service-protocol)
 - [Istio - Service Mesh](#istio---service-mesh)
 - [Open Service Mesh](#open-service-mesh)
 - [Kourier](#kourier)
 - [AWS App Mesh](#aws-app-mesh)
+- [NGINX Service mesh](#nginx-service-mesh)
 
 ## Introduction
 * [infoq.com: Service Mesh Ultimate Guide:](https://www.infoq.com/articles/service-mesh-ultimate-guide/)  Managing Service-to-Service Communications in the Era of Microservices
@@ -22,6 +23,7 @@
 * [thenewstack.io: Service Mesh Adds Security, Observability and Traffic Control to Kubernetes](https://thenewstack.io/service-mesh-adds-security-observability-and-traffic-control-to-kubernetes/)
 * [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases/)
 * [thenewstack.io: Zero-Trust Security with Service Mesh](https://thenewstack.io/zero-trust-security-with-service-mesh/)
+* [solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh](https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/)
 
 ## Tools For Evaluating Service Meshes
 * [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
@@ -32,6 +34,7 @@
 - [medium: HashiCorp Consul: Multi-Cloud and Multi-Platform Service Mesh](https://medium.com/hashicorp-engineering/hashicorp-consul-multi-cloud-and-multi-platform-service-mesh-372a82264e8e)
 - [hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟](https://www.hashicorp.com/blog/get-started-with-consul-service-mesh-on-kubernetes/)
 - [HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes](https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes) Learn about the advanced features of HashiCorp's Consul service mesh that are valuable to both infrastructure operators and developers.
+- [hashicorp.com: HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes 🌟](https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes)
 
 ### Consul Connect
 - [consul Connect](https://www.consul.io/docs/connect/index.html)
@@ -78,3 +81,6 @@
 
 ## AWS App Mesh
 - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)
+
+## NGINX Service mesh
+- [nginx.com: Introducing NGINX Service Mesh](https://www.nginx.com/blog/introducing-nginx-service-mesh/)

@@ -1,19 +1,19 @@
 # Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo
 - [Introduction](#introduction)
 - [OCI Project](#oci-project)
-    - [OCI Runtimes](#oci-runtimes)
-        - [runc](#runc)
-        - [crun](#crun)
-    - [OCI Monitors](#oci-monitors)
+  - [OCI Runtimes](#oci-runtimes)
+    - [runc](#runc)
+    - [crun](#crun)
+  - [OCI Monitors](#oci-monitors)
 - [Container Managers / Container Runtimes (CRI runtimes)](#container-managers--container-runtimes-cri-runtimes)
-    - [CRI-O](#cri-o)
-    - [Podman. Pod Manager tool](#podman-pod-manager-tool)
-        - [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
+  - [CRI-O](#cri-o)
+  - [Podman. Pod Manager tool](#podman-pod-manager-tool)
+    - [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
 - [Container Images](#container-images)
-    - [Red Hat Universal Base Image](#red-hat-universal-base-image)
+  - [Red Hat Universal Base Image](#red-hat-universal-base-image)
 - [Container Tools](#container-tools)
-    - [Buildah](#buildah)
-    - [Skopeo](#skopeo)
+  - [Buildah](#buildah)
+  - [Skopeo](#skopeo)
 
 ## Introduction
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
@@ -51,6 +51,7 @@
 - [podmain.io: Announcing Podman v2](https://podman.io/blogs/2020/06/29/podman-v2-announce.html) Featuring a new REST API, Remote Clients, Auto-update, Systemd Integration Improvements and more!
 - [youtube: Getting started with Podman](https://www.youtube.com/watch?v=Za36qHbrf3g)
 - [Podman remote clients for macOS and Windows](https://www.redhat.com/sysadmin/podman-clients-macos-windows) Podman manages your containers on a Linux host. Manage your containers from macOS or Windows by using the Podman remote client.
+- [developers.redhat.com: Rootless containers with Podman: The basics](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics/)
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

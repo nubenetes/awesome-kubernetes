@@ -1,65 +1,67 @@
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 - [Monitoring](#monitoring)
-    - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
+  - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
 - [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
-    - [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
-        - [Prometheus and Grafana](#prometheus-and-grafana)
-        - [Custom Grafana Dashboard for OpenShift 3.11](#custom-grafana-dashboard-for-openshift-311)
-        - [Capacity Management Grafana Dashboard](#capacity-management-grafana-dashboard)
-        - [Software Delivery Metrics Grafana Dashboard](#software-delivery-metrics-grafana-dashboard)
-        - [Prometheus for OpenShift 3.11](#prometheus-for-openshift-311)
-    - [OpenShift 4](#openshift-4)
+  - [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
+    - [Prometheus and Grafana](#prometheus-and-grafana)
+    - [Custom Grafana Dashboard for OpenShift 3.11](#custom-grafana-dashboard-for-openshift-311)
+    - [Capacity Management Grafana Dashboard](#capacity-management-grafana-dashboard)
+    - [Software Delivery Metrics Grafana Dashboard](#software-delivery-metrics-grafana-dashboard)
+    - [Prometheus for OpenShift 3.11](#prometheus-for-openshift-311)
+  - [OpenShift 4](#openshift-4)
 - [Prometheus](#prometheus)
-    - [Prometheus Storage](#prometheus-storage)
-        - [Scalability, High Availability (HA) and Long-Term Storage](#scalability-high-availability-ha-and-long-term-storage)
-        - [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
-            - [InfluxDB & InfluxDB Templates](#influxdb--influxdb-templates)
-    - [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
-        - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
-        - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
-        - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
-            - [OpenTelemetry Collector](#opentelemetry-collector)
-            - [Telegraf Collector](#telegraf-collector)
-            - [Micrometer Collector](#micrometer-collector)
-    - [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
-    - [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
-    - [Prometheus Installers](#prometheus-installers)
-        - [Binaries, source code or Docker](#binaries-source-code-or-docker)
-        - [Ansible Roles](#ansible-roles)
-    - [Prometheus Operator](#prometheus-operator)
-        - [kube Prometheus](#kube-prometheus)
-        - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
-        - [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
-    - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
+  - [Prometheus Storage](#prometheus-storage)
+    - [Scalability, High Availability (HA) and Long-Term Storage](#scalability-high-availability-ha-and-long-term-storage)
+    - [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
+      - [InfluxDB & InfluxDB Templates](#influxdb--influxdb-templates)
+  - [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
+    - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
+    - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
+    - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
+      - [OpenTelemetry Collector](#opentelemetry-collector)
+      - [Telegraf Collector](#telegraf-collector)
+      - [Micrometer Collector](#micrometer-collector)
+  - [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
+  - [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
+  - [Prometheus Installers](#prometheus-installers)
+    - [Binaries, source code or Docker](#binaries-source-code-or-docker)
+    - [Ansible Roles](#ansible-roles)
+  - [Prometheus Operator](#prometheus-operator)
+    - [kube Prometheus](#kube-prometheus)
+    - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
+    - [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
+  - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
-    - [Grafana Dashboards](#grafana-dashboards)
-    - [Grafana 7](#grafana-7)
+  - [Grafana Dashboards](#grafana-dashboards)
+  - [Grafana 7](#grafana-7)
 - [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
-    - [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
-        - [Deployment and Configuration](#deployment-and-configuration)
-    - [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
-        - [Deployment and Configuration](#deployment-and-configuration-1)
-    - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
-        - [JMeter Example Test Plans](#jmeter-example-test-plans)
+  - [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
+    - [Deployment and Configuration](#deployment-and-configuration)
+  - [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
+    - [Deployment and Configuration](#deployment-and-configuration-1)
+  - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
+    - [JMeter Example Test Plans](#jmeter-example-test-plans)
 - [Kibana](#kibana)
 - [Prometheus and Grafana Interactive Learning](#prometheus-and-grafana-interactive-learning)
 - [Logging & Centralized Log Management](#logging--centralized-log-management)
 - [Performance](#performance)
 - [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
-    - [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
+  - [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
 - [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
 - [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
-    - [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
-    - [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
+  - [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
+  - [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
+  - [Jaeger vs Zipkin](#jaeger-vs-zipkin)
 - [Application Performance Management (APM)](#application-performance-management-apm)
-    - [Elastic APM](#elastic-apm)
-    - [Dynatrace APM](#dynatrace-apm)
+  - [Elastic APM](#elastic-apm)
+  - [Dynatrace APM](#dynatrace-apm)
 - [Message Queue Monitoring](#message-queue-monitoring)
-    - [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
+  - [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
 - [Serverless Monitoring](#serverless-monitoring)
 - [Distributed Tracing in Apache Beam](#distributed-tracing-in-apache-beam)
 - [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
 - [Instana APM](#instana-apm)
+- [Monitoring Etcd](#monitoring-etcd)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ## Monitoring
@@ -76,6 +78,7 @@
 * [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline/)
 * [thenewstack.io: 3 Key Configuration Challenges for Kubernetes Monitoring with Prometheus](https://thenewstack.io/3-key-configuration-challenges-for-kubernetes-monitoring-with-prometheus/)
 * [sysdig.com: Kubernetes Monitoring with Prometheus 🌟](https://sysdig.com/blog/kubernetes-monitoring-prometheus/)
+* [sysdig.com: How to monitor kube-proxy](https://sysdig.com/blog/monitor-kube-proxy/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -185,6 +188,11 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS CloudWatch metrics](https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8)
 * [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d) Live issues are a great opportunity to learn and improve. Here’s what happened to us
 * [Prometheus Monitoring Ecosystem Begins to Mature](https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp/)
+* [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design/)
+* [ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block](https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block/)
+* [ganeshvernekar.com: Prometheus TSDB (Part 2): WAL and Checkpoint](https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/)
+* [ganeshvernekar.com: Prometheus TSDB (Part 3): Memory Mapping of Head Chunks from Disk](https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/)
+* [ganeshvernekar.com: Prometheus TSDB (Part 4): Persistent Block and its Index](https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
@@ -252,6 +260,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [prometheus.io: Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters/)
 * [devconnected.com: Complete Node Exporter Mastery with Prometheus](https://devconnected.com/complete-node-exporter-mastery-with-prometheus)
 * [scalyr.com: Prometheus metrics by example: 5 things you can learn](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
+* [aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry Go SDK](https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk/)
 
 #### Prometheus Third-party Collectors/Exporters
 * Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed.
@@ -345,6 +354,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 * [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/2020/08/26/popular-community-plugins-that-can-improve-your-grafana-dashboards/)
 * [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2020/09/cisco-dna-center-with-grafana-dashboard/)
+* [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet/) Simple way how to make your dashboard easy to maintain.
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
@@ -855,6 +865,9 @@ done
 
 ![Jaeger Vs OpenTelemetry](images/jaeger_vs_opentelemetry.png)
 
+### Jaeger vs Zipkin
+- [thenewstack.io: Jaeger vs. Zipkin: Battle of the Open Source Tracing Tools](https://thenewstack.io/jaeger-vs-zipkin-battle-of-the-open-source-tracing-tools/)
+
 ## Application Performance Management (APM)
 - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management): The monitoring and management of performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service. APM is "the translation of IT metrics into business meaning.” 
 - Tip: [Download APM report from IT Central Station](https://www.itcentralstation.com/categories/application-performance-management-apm)
@@ -897,6 +910,8 @@ done
 * [Tutorial: Guide to automated SRE-driven performance engineering 🌟](https://www.dynatrace.com/news/blog/guide-to-automated-sre-driven-performance-engineering-analysis/)
 * [dynatrace.com: 4 steps to modernize your IT service operations with Dynatrace](https://www.dynatrace.com/news/blog/4-steps-to-modernize-your-it-service-operations-with-dynatrace/)
 * [dynatrace.com: Monitoring of Kubernetes Infrastructure for day 2 operations](https://www.dynatrace.com/news/blog/monitoring-of-kubernetes-infrastructure-for-day-2-operations/)
+* [dynatrace.com: The Power of OpenShift, The Visibility of Dynatrace](https://www.dynatrace.com/news/blog/the-power-of-openshift-the-visibility-of-dynatrace/)
+* [dynatrace.com: Why conventional observability fails in Kubernetes environments—A real-world use case 🌟](https://www.dynatrace.com/news/blog/why-conventional-observability-fails-in-kubernetes-environments-a-real-world-use-case)
 
 ## Message Queue Monitoring
 
@@ -942,6 +957,9 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 
 ## Instana APM
 - [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana)
+
+## Monitoring Etcd
+- [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://rancher.com/blog/2020/monitor-etcd-prometheus-grafana-rancher)
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)

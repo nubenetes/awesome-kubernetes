@@ -8,18 +8,20 @@
 - [Linux Commands and Tools](#linux-commands-and-tools)
 - [Linux processes](#linux-processes)
 - [Linux and Kubernetes](#linux-and-kubernetes)
-    - [Systemd](#systemd)
-    - [Blogs](#blogs)
-    - [CommandLineFu](#commandlinefu)
-    - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
-    - [Copr Build System](#copr-build-system)
-    - [Pulp](#pulp)
-    - [Hashicorp](#hashicorp)
+  - [Systemd](#systemd)
+  - [Blogs](#blogs)
+  - [CommandLineFu](#commandlinefu)
+  - [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
+  - [Copr Build System](#copr-build-system)
+  - [Pulp](#pulp)
+  - [Hashicorp](#hashicorp)
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)
+- [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands) 
+- [dev.to: Another one short Vim cheat sheet](https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc)
 
 ## SSH
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
@@ -84,6 +86,9 @@
 - [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands)
 - [redhat.com: Using ssh-keygen and sharing for key-based authentication in Linux](https://www.redhat.com/sysadmin/configure-ssh-keygen) SSH key-based authentication is helpful for both security and convenience. See how to generate and share keys.
 - [tecmint.com: How to Run Commands from Standard Input Using Tee and Xargs in Linux](https://www.tecmint.com/run-commands-from-standard-input-using-tee-and-xargs-in-linux/)
+- [cyberciti.biz: How to configure pfSense as multi wan (DUAL WAN) load balance failover router](https://www.cyberciti.biz/faq/howto-configure-dual-wan-load-balance-failover-pfsense-router/)
+- [nikhilism.com: Mystery Knowledge and Useful Tools](https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/)
+- [developers.redhat.com: Linux commands for developers](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet)
 
 ## Linux processes
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)

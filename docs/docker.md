@@ -44,6 +44,8 @@
     * [AWS and Docker collaborate to simplify the developer experience](https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience/)
     * [From Docker Straight to AWS](https://www.docker.com/blog/from-docker-straight-to-aws/)
 * [medium: Understanding Docker Volumes, Mounts and Layers and How to Manage Data in Containers](https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493)
+* [A Gentle Introduction to Using a Docker Container as a Dev Environment](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/)
+* [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)
 
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)

@@ -1,14 +1,14 @@
 # Serverless Architectures and Frameworks
 - [Serverless Architectures](#serverless-architectures)
-    - [FaaS: Function as a Service](#faas-function-as-a-service)
-    - [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
+  - [FaaS: Function as a Service](#faas-function-as-a-service)
+  - [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
 - [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
 - [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
-    - [OpenFaaS](#openfaas)
-    - [Knative](#knative)
-        - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
-    - [Kubeless](#kubeless)
-    - [OpenWhisk](#openwhisk)
+  - [OpenFaaS](#openfaas)
+  - [Knative](#knative)
+    - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
+  - [Kubeless](#kubeless)
+  - [OpenWhisk](#openwhisk)
 - [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
 
 ## Serverless Architectures
@@ -20,6 +20,7 @@
 * [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49/)
 * [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)
 * [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/2020/09/22/microservices_talk_gotopia/)
+* [serverless.com: Why we switched from docker to serverless](https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless)
 
 ### FaaS: Function as a Service
 * [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)
@@ -55,6 +56,7 @@
 #### OpenShift Serverless with Knative
 * [OpenShift Serverless](https://www.openshift.com/learn/topics/serverless)
 * [developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview](https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview/)
+* [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.openshift.com/blog/why-and-when-you-need-to-consider-openshift-serverless)
 
 ### Kubeless  
 * [kubeless.io](https://kubeless.io/)

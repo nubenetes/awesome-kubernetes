@@ -1,16 +1,17 @@
 # Hashicorp Packer & Terraform 
 - [Packer](#packer)
 - [Terraform](#terraform)
-    - [Terraform Infracost](#terraform-infracost)
-    - [Awesome Terraform](#awesome-terraform)
-    - [Terraform Cheat Sheets](#terraform-cheat-sheets)
-    - [Best Practices](#best-practices)
-    - [Terraform and CI/CD](#terraform-and-cicd)
-    - [OpenShift and Terraform](#openshift-and-terraform)
-    - [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
-    - [Terraform and AWS](#terraform-and-aws)
+  - [Terraform Infracost](#terraform-infracost)
+  - [Awesome Terraform](#awesome-terraform)
+  - [Terraform Cheat Sheets](#terraform-cheat-sheets)
+  - [Best Practices](#best-practices)
+  - [Terraform and CI/CD](#terraform-and-cicd)
+  - [OpenShift and Terraform](#openshift-and-terraform)
+  - [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
+  - [Terraform and AWS](#terraform-and-aws)
 - [Gruntwork](#gruntwork)
 - [Terraform Modules](#terraform-modules)
+- [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 
 ## Packer
 * [packer.io](https://packer.io/)
@@ -48,14 +49,17 @@
 * [Terraform Feature Flags & Environment Toggle Design Patterns](https://build5nines.com/terraform-feature-flags-environment-toggle-design-patterns/)
 * [dzone: Immutable Infrastructure CI/CD Using Hashicorp Terraform and Jenkins](https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr) This extensive article should leave few questions unanswered about creating your infrastructure.
 * [Announcing Databricks Labs Terraform integration on AWS and Azure](https://databricks.com/blog/2020/09/11/announcing-databricks-labs-terraform-integration-on-aws-and-azure.html)
-* [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
+* [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
 * [hodovi.cc: Creating a Low Cost Managed Kubernetes Cluster for Personal Development using Terraform](https://hodovi.cc/blog/creating-low-cost-managed-kubernetes-cluster-personal-development-terraform/)
 * [hashicorp.com: Announcing 11 Verified Providers for Terraform](https://www.hashicorp.com/blog/announcing-11-verified-providers-for-terraform)
 * [learnk8s.io: Provisioning Kubernetes clusters on AWS with Terraform and EKS 🌟](https://learnk8s.io/terraform-eks) Fully automated dev, test, prod environments with EKS, Terraform and the ALB Ingress Controller. 
-* [learn.hashicorp.com: Learn how to use and create custom Terraform Providers in a new collection of tutorials on HashiCorp Learn 🌟](https://learn.hashicorp.com/collections/terraform/providers)
+* [learn.hashicorp.com: Call APIs with Terraform Providers. Learn how to use and create custom Terraform Providers in a new collection of tutorials on HashiCorp Learn 🌟](https://learn.hashicorp.com/collections/terraform/providers)
+* [globaldatanet.com: Terraform CI/CD Best Practices](https://globaldatanet.com/blog/terraform-cicd-best-practices)
+* [devblogs.microsoft.com: What is infrastructure as code? 🌟](https://devblogs.microsoft.com/devops/what-is-infrastructure-as-code/)
 
 ### Terraform Infracost
-- [Infracost](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront
+- [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront
+- [A Guide to Cloud Cost Optimization with HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/a-guide-to-cloud-cost-optimization-with-hashicorp-terraform)
 
 ### Awesome Terraform
 * [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
@@ -90,3 +94,6 @@
 
 ## Terraform Modules 
 - [Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
+
+## Enforce Policy with Sentinel
+- [learn.hashicorp.com: Enforce Policy with Sentinel](https://learn.hashicorp.com/collections/terraform/policy#sentinel)

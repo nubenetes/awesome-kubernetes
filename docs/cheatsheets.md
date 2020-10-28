@@ -2,22 +2,22 @@
 - [Cheat Sheets](#cheat-sheets)
 - [eBooks](#ebooks)
 - [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
-    - [Dash for MacOS (paid)](#dash-for-macos-paid)
-    - [Velocity (Windows, paid)](#velocity-windows-paid)
-    - [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
+  - [Dash for MacOS (paid)](#dash-for-macos-paid)
+  - [Velocity (Windows, paid)](#velocity-windows-paid)
+  - [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
 - [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
-    - [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
-    - [Sourcetree Cheat Sheet](#sourcetree-cheat-sheet)
-    - [GitKraken Git Cheat](#gitkraken-git-cheat)
+  - [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
+  - [Sourcetree Cheat Sheet](#sourcetree-cheat-sheet)
+  - [GitKraken Git Cheat](#gitkraken-git-cheat)
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Packer and Terraform Cheat Sheets](#packer-and-terraform-cheat-sheets)
 - [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
-    - [SSH Cheat Sheets](#ssh-cheat-sheets)
+  - [SSH Cheat Sheets](#ssh-cheat-sheets)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
-    - [Debezium Cheat Sheets](#debezium-cheat-sheets)
+  - [Debezium Cheat Sheets](#debezium-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 - [Buildah Cheat Sheets](#buildah-cheat-sheets)
@@ -30,6 +30,9 @@
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
 - [Machine Learning](#machine-learning)
 - [TypeScript](#typescript)
+- [Jupyter](#jupyter)
+- [Postgres](#postgres)
+- [MongoDB](#mongodb)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -42,6 +45,7 @@
 
 ## eBooks
 * [Red Hat Developer eBooks 🌟](https://developers.redhat.com/ebooks) Browse through our collection of eBooks to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy books on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
+* [Transformation takes practice](https://www.redhat.com/en/engage/open-practice-library-ebook) Our experts understand this: When it comes to your unique business challenges, one size does not fit all. We can guide you through exercises and tools, like the ones within the Open Practice Library, that are right for where you are, right now.
 
 ## Documentation Browser for Software Developers
 ### Dash for MacOS (paid)
@@ -73,6 +77,7 @@
 * [bluematador.com: kubectl cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
 * [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f)
 * [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)
+* [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -216,3 +221,12 @@
 
 ## TypeScript
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
+
+## Jupyter
+- [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet)
+
+## Postgres
+- [postgrescheatsheet.com](https://postgrescheatsheet.com/)
+
+## MongoDB
+- [developer.mongodb.com: MongoDB Cheat Sheet](https://developer.mongodb.com/quickstart/cheat-sheet)

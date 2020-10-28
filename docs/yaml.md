@@ -1,7 +1,13 @@
 # Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
+- [Templating YAML Files](#templating-yaml-files)
+  - [YAML Processors](#yaml-processors)
+  - [Helm and Kustomize](#helm-and-kustomize)
+- [Templating JSON Files](#templating-json-files)
+- [Static Checking of Kubernetes YAML Files](#static-checking-of-kubernetes-yaml-files)
 
 ## Templating YAML Files
 - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
+- [redhat.com: YAML for beginners](https://www.redhat.com/sysadmin/yaml-beginners) YAML is an easy, expressive, data-oriented language that distinguishes itself from document markup languages.
 - [thoughtworks.com: Templating in YAML](https://www.thoughtworks.com/radar/techniques/templating-in-yaml) As infrastructures grow in complexity, so do the configuration files that define them. Tools such as [AWS CloudFormation](https://aws.amazon.com/cloudformation/), [Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes) and [Helm](https://www.thoughtworks.com/radar/tools/helm) expect configuration files in JSON or YAML syntax, presumably in an attempt to make them easy to write and process. However, in most cases, teams quickly reach the point where they have some parts that are similar but not quite the same, for example, when the same service must be deployed in different regions with a slightly different setup. For such cases tools offer templating in YAML (or JSON), which has caused a huge amount of [frustration with practitioners](https://leebriggs.co.uk/blog/2019/02/07/why-are-we-templating-yaml.html). The problem is that the syntax of JSON and YAML requires all sorts of awkward compromises to graft templating features such as conditionals and loops into the files. **We recommend using an API from a programming language instead or, when this is not an option, a templating system in a programming language, either a general-purpose language such as Python or something specialized such as [Jsonnet](https://jsonnet.org/).**
 - [Steve Horsfield: DevOps tricks - Templating YAML files](https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files/) Basic text tools fall foul of YAML’s indentation sensitivity. On the other hand, **YAML tools like [ytt](https://get-ytt.io/) are pretty difficult to interpret.** In my case, I opted for a small [jq](https://stedolan.github.io/jq/) program executed via [yq](https://mikefarah.gitbook.io/yq/).
 
@@ -16,8 +22,12 @@
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
 
+### Helm and Kustomize
+- [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
+
 ## Templating JSON Files
 - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
+- [json.org: Introducing JSON](https://www.json.org/json-en.html)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 
