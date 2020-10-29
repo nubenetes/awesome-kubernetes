@@ -52,6 +52,7 @@
   - [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
   - [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
   - [Jaeger vs Zipkin](#jaeger-vs-zipkin)
+  - [Grafana Tempo distributed tracing system](#grafana-tempo-distributed-tracing-system)
 - [Application Performance Management (APM)](#application-performance-management-apm)
   - [Elastic APM](#elastic-apm)
   - [Dynatrace APM](#dynatrace-apm)
@@ -867,6 +868,9 @@ done
 
 ### Jaeger vs Zipkin
 - [thenewstack.io: Jaeger vs. Zipkin: Battle of the Open Source Tracing Tools](https://thenewstack.io/jaeger-vs-zipkin-battle-of-the-open-source-tracing-tools/)
+
+### Grafana Tempo distributed tracing system
+- [grafana.com: Announcing Grafana Tempo, a massively scalable distributed tracing system 🌟](https://grafana.com/blog/2020/10/27/announcing-grafana-tempo-a-massively-scalable-distributed-tracing-system/)
 
 ## Application Performance Management (APM)
 - [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management): The monitoring and management of performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service. APM is "the translation of IT metrics into business meaning.” 

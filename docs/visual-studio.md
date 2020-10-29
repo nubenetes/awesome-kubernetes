@@ -68,6 +68,7 @@ A simple extension to make indentation more readable
 * [Python Visual Studio Code](https://github.com/microsoft/vscode-python)
     * [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
     * [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
+    * [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package

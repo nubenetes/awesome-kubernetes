@@ -51,7 +51,11 @@
 
 ## Helm Charts repositories
 * [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts/)
-* [hub.helm.sh 🌟](http://hub.helm.sh) 
+* [hub.helm.sh 🌟](http://hub.helm.sh) -> [artifacthub.io 🌟](https://artifacthub.io/) Find, install and publish
+Kubernetes packages
+    * [New Location For Stable and Incubator Charts](https://helm.sh/blog/new-location-stable-incubator-charts/)
+    * [charts.helm.sh/stable 🌟](https://charts.helm.sh/stable)
+    * [charts.helm.sh/incubator 🌟](https://charts.helm.sh/incubator/)
 * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
 * [JFrog ChartCenter](https://chartcenter.io/)
     * [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications 
