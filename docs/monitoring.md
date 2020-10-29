@@ -356,6 +356,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/2020/08/26/popular-community-plugins-that-can-improve-your-grafana-dashboards/)
 * [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2020/09/cisco-dna-center-with-grafana-dashboard/)
 * [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet/) Simple way how to make your dashboard easy to maintain.
+* [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/2019/11/22/designing-grafana-dashboards/)
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------

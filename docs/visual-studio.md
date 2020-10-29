@@ -160,6 +160,7 @@ A simple extension to make indentation more readable
 
 ## Videos
 
+<center>
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/VqCgcpAypFQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -171,3 +172,4 @@ A simple extension to make indentation more readable
 <iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+</center>

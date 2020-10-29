@@ -194,6 +194,7 @@
 - [systemcraftsman/lab-tekton-pipelines: OpenShift Pipelines workshop](https://github.com/systemcraftsman/lab-tekton-pipelines)
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management](https://www.openshift.com/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management)
 - [Set up continuous integration for .NET Core with OpenShift Pipelines](https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines/)
+- [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters/)
 
 ### ArgoCD
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 

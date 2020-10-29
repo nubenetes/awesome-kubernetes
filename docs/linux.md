@@ -89,6 +89,7 @@
 - [cyberciti.biz: How to configure pfSense as multi wan (DUAL WAN) load balance failover router](https://www.cyberciti.biz/faq/howto-configure-dual-wan-load-balance-failover-pfsense-router/)
 - [nikhilism.com: Mystery Knowledge and Useful Tools](https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/)
 - [developers.redhat.com: Linux commands for developers](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet)
+- [cyberciti.biz: BASH Shell Change The Color of Shell Prompt on Linux or UNIX](https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/)
 
 ## Linux processes
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)
