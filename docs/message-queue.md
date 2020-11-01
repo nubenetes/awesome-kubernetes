@@ -14,7 +14,6 @@
 - [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
 - [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
 - [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
-  - [Apache Airflow](#apache-airflow)
   - [Apache Kafka](#apache-kafka)
   - [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
   - [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
@@ -23,6 +22,10 @@
   - [Apache Pulsar](#apache-pulsar)
   - [Apache Flink](#apache-flink)
   - [Hazelcast JET](#hazelcast-jet)
+- [Workflow Engines](#workflow-engines)
+- [Zeebe](#zeebe)
+  - [Apache Airflow](#apache-airflow)
+  - [Couler](#couler)
 - [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
   - [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
   - [Red Hat AMQ Streams](#red-hat-amq-streams)
@@ -115,9 +118,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
 - [cloudblog.withgoogle.com: Turn any Dataflow pipeline into a reusable template](https://cloudblog.withgoogle.com/products/data-analytics/create-templates-from-any-dataflow-pipeline/amp/)
 
-### Apache Airflow
-- [towardsdatascience.com: A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
-
 ### Apache Kafka
 - [Apache Kafka](https://kafka.apache.org/)
 - [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
@@ -171,6 +171,20 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Hazelcast JET
 - [Hazelcast JET](https://jet-start.sh/) Open-Source Distributed Stream Processing
 - [devops.com: Hazelcast Simplifies Streaming for Extremely Fast Event Processing in IoT, Edge and Cloud Environments](https://devops.com/hazelcast-simplifies-streaming-for-extremely-fast-event-processing-in-iot-edge-and-cloud-environments/)
+
+## Workflow Engines
+- [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)
+
+## Zeebe
+- [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows)
+- [Zeebe workflow engine](https://zeebe.io/)
+- [Orchestration Made Easy with Zeebe and Kafka](https://www.softobiz.com/orchestration-made-easy-with-zeebe-and-kafka/)
+
+### Apache Airflow
+- [towardsdatascience.com: A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
+
+### Couler
+- [Couler](https://github.com/couler-proj/couler) Couler aims to provide a unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.
 
 ## Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)
 - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)
