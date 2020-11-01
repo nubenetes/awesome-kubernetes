@@ -2,22 +2,22 @@
 - [Introduction](#introduction)
 - [Git Repositories Structures](#git-repositories-structures)
 - [GitOps Tools](#gitops-tools)
-    - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
-    - [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
-    - [Flagger](#flagger)
-    - [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
-    - [Helm](#helm)
-    - [Jenkins](#jenkins)
-    - [Terraform](#terraform)
-    - [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
-    - [Portworx AutoPilot](#portworx-autopilot)
-    - [OpenShift Applier](#openshift-applier)
+  - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
+  - [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
+  - [Flagger](#flagger)
+  - [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
+  - [Helm](#helm)
+  - [Jenkins](#jenkins)
+  - [Terraform](#terraform)
+  - [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
+  - [Portworx AutoPilot](#portworx-autopilot)
+  - [OpenShift Applier](#openshift-applier)
 - [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
-    - [OpenShift GitOps](#openshift-gitops)
-    - [AWS Kubernetes](#aws-kubernetes)
-    - [Weave Kubernetes Platform](#weave-kubernetes-platform)
-    - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
+  - [OpenShift GitOps](#openshift-gitops)
+  - [AWS Kubernetes](#aws-kubernetes)
+  - [Weave Kubernetes Platform](#weave-kubernetes-platform)
+  - [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
 
 ## Introduction
 - [gitops.tech](https://www.gitops.tech/)
@@ -43,12 +43,14 @@
 - [kubesandclouds.com: Werf: Fully customizable GitOps](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/)
 
 ### Flux. The GitOps Operator for Kubernetes
-* [Flux](https://fluxcd.io/) The GitOps operator for Kubernetes
-* [github: Flux CD](https://github.com/fluxcd/flux)
+- [Flux](https://fluxcd.io/) The GitOps operator for Kubernetes
+- [github: Flux](https://github.com/fluxcd/flux)
+- [github: Flux Version 2](https://github.com/fluxcd/flux2)
 - [toolkit.fluxcd.io: GitOps Toolkit 🌟](https://toolkit.fluxcd.io/) Great docs for the GitOps toolkit 
     - https://github.com/fluxcd/toolkit
-* [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
-* [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 
+- [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
+- [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 
+- [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.

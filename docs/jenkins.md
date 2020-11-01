@@ -173,6 +173,7 @@
 #### Extending with Shared Libraries
 - Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
 - [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
+- [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library/)
 
 ##### Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
 - [Keptn](https://www.keptn.sh) provides **automated SLI/SLO-based quality gates**
@@ -329,6 +330,7 @@
 * [Matrix Authorization Strategy 🌟](https://plugins.jenkins.io/matrix-auth/)
 * [AWS Secrets Manager Credentials Provider](https://plugins.jenkins.io/aws-secrets-manager-credentials-provider/)
 * [QF-Test](https://plugins.jenkins.io/qftest/) is a cross-platform software tool for the GUI test automation specialized on Java and Web applications. 
+* [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

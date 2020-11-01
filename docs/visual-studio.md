@@ -15,6 +15,7 @@
 - [Test Debugging](#test-debugging)
 - [Python in Visual Studio Code](#python-in-visual-studio-code)
 - [Bridge to Kubernetes](#bridge-to-kubernetes)
+- [Cloud Code](#cloud-code)
 - [Alternatives](#alternatives)
 - [Videos](#videos)
 
@@ -151,6 +152,9 @@ A simple extension to make indentation more readable
 ## Bridge to Kubernetes
 - [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) Bridge to Kubernetes extends the Kubernetes perimeter to your development computer allowing you to write, test, and debug microservice code while connected to your Kubernetes cluster with the rest of your application or services. With this workflow, there is no need for extra assets, such as a Dockerfile or Kubernetes manifests. You can simply run your code natively on your development workstation while connected to the Kubernetes cluster, allowing you to test your code changes in the context of the larger application.
 - [visualstudiomagazine.com: Bridge to Kubernetes Simplifies Microservice Development in Visual Studio/VS Code](https://visualstudiomagazine.com/articles/2020/10/07/bridge-kubernetes.aspx)
+
+## Cloud Code
+- [Cloud Code 🌟](https://cloud.google.com/code) Everything you need to write, debug, and deploy your cloud-native applications.
 
 ## Alternatives
 - [Repl.it](https://repl.it/) Reading code is hard! Don't you wish you could just ask the code what it does? To describe its functions, its types. And maybe... how can it be improved? Introducing: Replit code oracle.

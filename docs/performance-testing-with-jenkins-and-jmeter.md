@@ -4,8 +4,8 @@
 - [JMeter based Cloud solutions](#jmeter-based-cloud-solutions)
 - [Jenkins & JMeter](#jenkins--jmeter)
 - [Gatling](#gatling)
-    - [API Load Testing](#api-load-testing)
-    - [Gatling and Maven](#gatling-and-maven)
+  - [API Load Testing](#api-load-testing)
+  - [Gatling and Maven](#gatling-and-maven)
 - [Jenkins & Gatling](#jenkins--gatling)
 - [Alternatives](#alternatives)
 
@@ -55,6 +55,7 @@
 * [Gatling Tool Review for Performance Tests (Written in Scala)](https://dzone.com/articles/gatling-tool-review-for-performance-tests-written)
 * [How to Use RegEx Extractor in Gatling Projects](https://dzone.com/articles/how-to-use-regex-extractor-in-gatling-projects)
 * [How to Implement Load Test Scenarios in Gatling](https://dzone.com/articles/how-to-implement-load-test-scenarios-in-gatling)
+* [qautomation.blog: Power Full Load Testing Tool : Gatling](https://qautomation.blog/2019/05/03/power-full-load-testing-tool-gatling/)
 
 ### API Load Testing
 * [API Load Testing With Gatling](https://dzone.com/articles/api-load-testing-with-gatling) In this article, we'll learn how to perform a load test on a REST API endpoint using Gatling and JMeter. Read on for more information!

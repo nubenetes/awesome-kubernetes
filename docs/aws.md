@@ -70,6 +70,7 @@
 - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
 - [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
 - [AWS Fargate](#aws-fargate)
+	- [Admiralty](#admiralty)
 - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
 - [AWS Config Rules](#aws-config-rules)
 - [AWS Big Data](#aws-big-data)
@@ -336,6 +337,7 @@
 - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/)
 - [medium: 10 reasons why you should think about using an AWS Application Load Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)
 - [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/es/blogs/containers/introducing-aws-load-balancer-controller/)
+- [Fine-tuning blue/green deployments on application load balancer 🌟](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
 
 ## NGINX
 - [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment/)
@@ -490,6 +492,11 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Fargate
 - [Amazon EFS with Amazon ECS and AWS Fargate – Part 1 🌟](https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/)
+
+### Admiralty
+- [admiralty.io](https://admiralty.io/) The simplest way to deploy applications to multiple Kubernetes clusters.
+- [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty/)
+  - [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate/)
 
 ## AWS Backup and Recovery. Design for failure
 - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)

@@ -3,6 +3,7 @@
 
 - [Python Blogs and Forums](#python-blogs-and-forums)
 - [Python docs](#python-docs)
+- [Python Books](#python-books)
 - [Python Django Framework](#python-django-framework)
 - [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
 - [Python pip and pip's wheel](#python-pip-and-pips-wheel)
@@ -103,6 +104,9 @@
 <br/>
 <br/>
 <br/>
+
+## Python Books
+- [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks.
 
 ## Python Django Framework
 - [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework)
