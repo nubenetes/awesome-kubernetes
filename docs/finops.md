@@ -2,7 +2,7 @@
 - [Introduction](#introduction)
 - [Books](#books)
 - [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
-    - [Replex](#replex)
+	- [Replex](#replex)
 
 ## Introduction
 - [FinOps Foundation: FinOps.org](https://www.finops.org/) Collaborative, Real-Time Cloud Financial Management

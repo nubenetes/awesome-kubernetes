@@ -2,12 +2,12 @@
 - [IBM Cloud](#ibm-cloud)
 - [IBM API Connect](#ibm-api-connect)
 - [WebSphere Liberty with support of Java Microservices and Cloud Native Apps](#websphere-liberty-with-support-of-java-microservices-and-cloud-native-apps)
-    - [Open Liberty](#open-liberty)
+	- [Open Liberty](#open-liberty)
 - [Red Hat OpenShift on IBM Z and LinuxONE](#red-hat-openshift-on-ibm-z-and-linuxone)
-    - [IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite](#ibm-storage-for-red-hat-openshift-ibm-spectrum-storage-suite)
+	- [IBM Storage for Red Hat OpenShift. IBM Spectrum Storage Suite](#ibm-storage-for-red-hat-openshift-ibm-spectrum-storage-suite)
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
-    - [CloudPaks For Applications (CP4A)](#cloudpaks-for-applications-cp4a)
-    - [IBM Cloud Pak for Multicloud Management (CP4MCM)](#ibm-cloud-pak-for-multicloud-management-cp4mcm)
+	- [CloudPaks For Applications (CP4A)](#cloudpaks-for-applications-cp4a)
+	- [IBM Cloud Pak for Multicloud Management (CP4MCM)](#ibm-cloud-pak-for-multicloud-management-cp4mcm)
 
 <center>
 [![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/user/IBMCloud)

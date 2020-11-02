@@ -1,6 +1,4 @@
 # Python
-<!-- MarkdownTOC -->
-
 - [Python Blogs and Forums](#python-blogs-and-forums)
 - [Python docs](#python-docs)
 - [Python Books](#python-books)
@@ -17,8 +15,6 @@
 	- [Web Scraping with Python](#web-scraping-with-python)
 - [Jython](#jython)
 - [Eclipse IDE](#eclipse-ide)
-
-<!-- /MarkdownTOC -->
 
 ## Python Blogs and Forums
 - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)

@@ -1,7 +1,7 @@
 # Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 - [Templating YAML Files](#templating-yaml-files)
-  - [YAML Processors](#yaml-processors)
-  - [Helm and Kustomize](#helm-and-kustomize)
+	- [YAML Processors](#yaml-processors)
+	- [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
 - [Static Checking of Kubernetes YAML Files](#static-checking-of-kubernetes-yaml-files)
 

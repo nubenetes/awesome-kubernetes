@@ -1,14 +1,14 @@
 # Serverless Architectures and Frameworks
 - [Serverless Architectures](#serverless-architectures)
-  - [FaaS: Function as a Service](#faas-function-as-a-service)
-  - [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
+	- [FaaS: Function as a Service](#faas-function-as-a-service)
+	- [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
 - [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
 - [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
-  - [OpenFaaS](#openfaas)
-  - [Knative](#knative)
-    - [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
-  - [Kubeless](#kubeless)
-  - [OpenWhisk](#openwhisk)
+	- [OpenFaaS](#openfaas)
+	- [Knative](#knative)
+		- [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
+	- [Kubeless](#kubeless)
+	- [OpenWhisk](#openwhisk)
 - [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
 
 ## Serverless Architectures

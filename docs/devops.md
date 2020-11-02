@@ -7,12 +7,12 @@
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
-  - [Relay](#relay)
+	- [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
-  - [AWS DevOps](#aws-devops)
-  - [Azure DevOps](#azure-devops)
-  - [Google Cloud Platform](#google-cloud-platform)
+	- [AWS DevOps](#aws-devops)
+	- [Azure DevOps](#azure-devops)
+	- [Google Cloud Platform](#google-cloud-platform)
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)

@@ -3,7 +3,7 @@
 - [Analyzing Code with SonarQube](#analyzing-code-with-sonarqube)
 - [Integrations](#integrations)
 - [SonarQube on Kubernetes](#sonarqube-on-kubernetes)
-    - [GCP Kubernetes](#gcp-kubernetes)
+	- [GCP Kubernetes](#gcp-kubernetes)
 - [SonarQube Scanners](#sonarqube-scanners)
 
 ## Introduction

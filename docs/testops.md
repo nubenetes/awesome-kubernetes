@@ -3,7 +3,7 @@
 - [Continuous Testing in DevOps](#continuous-testing-in-devops)
 - [Test Driven Development (TDD)](#test-driven-development-tdd)
 - [Tools](#tools)
-  - [KubeAudit](#kubeaudit)
+	- [KubeAudit](#kubeaudit)
 
 ## TestOps
 - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops/)

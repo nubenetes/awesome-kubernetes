@@ -1,9 +1,9 @@
 # Project Management Methodology
 - [Project Management Methodology](#project-management-methodology)
-  - [Team Topologies](#team-topologies)
-  - [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
-  - [Waterfall vs Agile](#waterfall-vs-agile)
-  - [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
+	- [Team Topologies](#team-topologies)
+	- [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
+	- [Waterfall vs Agile](#waterfall-vs-agile)
+	- [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
 
 ## Project Management Methodology

@@ -4,8 +4,8 @@
 - [JMeter based Cloud solutions](#jmeter-based-cloud-solutions)
 - [Jenkins & JMeter](#jenkins--jmeter)
 - [Gatling](#gatling)
-  - [API Load Testing](#api-load-testing)
-  - [Gatling and Maven](#gatling-and-maven)
+	- [API Load Testing](#api-load-testing)
+	- [Gatling and Maven](#gatling-and-maven)
 - [Jenkins & Gatling](#jenkins--gatling)
 - [Alternatives](#alternatives)
 

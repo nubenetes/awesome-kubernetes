@@ -1,7 +1,7 @@
 # Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 - [Introduction](#introduction)
 - [Apache](#apache)
-    - [Apache Configuration Samples](#apache-configuration-samples)
+	- [Apache Configuration Samples](#apache-configuration-samples)
 - [Nginx](#nginx)
 - [HAProxy (HTTP router and reverse proxy)](#haproxy-http-router-and-reverse-proxy)
 - [Traefik (HTTP router and reverse proxy)](#traefik-http-router-and-reverse-proxy)
