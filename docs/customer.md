@@ -44,13 +44,6 @@
 
 ---
 <center>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/opSQSmEIKpRq4K" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JensKassert/containertechnologie-als-schlssel-zur-digitalisierung-in-der-automobilindustrie" title="CONTAINER-TECHNOLOGIE ALS SCHLÜSSEL ZUR DIGITALISIERUNG IN DER AUTOMOBILINDUSTRIE" target="_blank">CONTAINER-TECHNOLOGIE ALS SCHLÜSSEL ZUR DIGITALISIERUNG IN DER AUTOMOBILINDUSTRIE</a> </strong> from <strong><a href="https://www.slideshare.net/JensKassert" target="_blank">Jens Kassert</a></strong> </div>
-</center>
-
-<center>
 <iframe src="https://www.youtube.com/embed/FUu4kMc0PL8" frameborder="0" allow="autoplay; encrypted-media" start=7740 allowfullscreen></iframe>
-</center>
-
-<center>
 <iframe src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
