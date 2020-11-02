@@ -63,6 +63,7 @@
 * [livecodestream.dev: Git Concepts and Workflow for Beginners](https://livecodestream.dev/post/2020-08-21-git-concepts-and-workflow-for-beginners/)
 * [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/syndication/2020/09/02/a-beginners-guide-to-the-most-popular-git-commands/)
 * [devroom.io: Git Squash your latests commits into one ](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
+* [julien.danjou.info: Stop merging your pull requests manually 🌟](https://julien.danjou.info/stop-merging-your-pull-request-manually/)
 
 ## Design By Contract
 [Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. 
