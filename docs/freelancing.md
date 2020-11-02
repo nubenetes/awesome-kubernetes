@@ -3,7 +3,7 @@
 
 # Top Freelancing Platforms
 - [malt 🌟](https://www.malt.com/)
-    - [Webinar Legal: Autónomo, todo lo que necesitas saber](https://app.livestorm.co/malt-community/webinar-legal-autonomo-todo-lo-que-necesitas-saber/live)
+    - [Malt Spain - Webinar Legal: Autónomo, todo lo que necesitas saber](https://app.livestorm.co/malt-community/webinar-legal-autonomo-todo-lo-que-necesitas-saber/live)
 - [upwork 🌟](https://www.upwork.com/)
 - [freelancer 🌟](https://www.freelancer.com/)
 - [yeeply 🌟](https://www.yeeply.com/)
@@ -25,3 +25,4 @@
 - [certace](https://www.certace.com/)
 - [hellobonsai](https://www.hellobonsai.com/)
 - [remoteone](https://remote.one/)
+
