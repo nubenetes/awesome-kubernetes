@@ -171,9 +171,10 @@
     * The declarative syntax in its simplest form is composed of an agent which defines the Jenkins slave to be used for executing the pipeline and a number of stages and each stage with a number of steps to be performed. 
 
 #### Extending with Shared Libraries
-- Shared-libraries are not recommended since more coding involves more maintenance issues. Use Declarative Pipelines as much as possible.
+- Shared-libraries with **scripted pipeline syntax** are not recommended since more coding involves more maintenance issues. Use **Declarative Pipeline Syntax** as much as possible.
 - [Extending with Shared Libraries 🌟](https://www.jenkins.io/doc/book/pipeline/shared-libraries/)
 - [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library/)
+- [tomd.xyz: Jenkins shared library: tutorial with examples 🌟](https://tomd.xyz/jenkins-shared-library/) How to use a shared library in Jenkins, to allow you to share common code and steps across multiple pipelines. Includes a demo Git repo that you can fork.
 
 ##### Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
 - [Keptn](https://www.keptn.sh) provides **automated SLI/SLO-based quality gates**
