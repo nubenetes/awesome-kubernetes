@@ -42,6 +42,7 @@
 - [nginx.com: Event-Driven Data Management for Microservices 🌟](https://www.nginx.com/blog/event-driven-data-management-microservices/)
 - [dzone: Event-Driven Architecture as a Strategy](https://dzone.com/articles/event-driven-architecture-as-a-strategy) Event-driven architecture provides five key benefits to modern application architecture: scalability, resilience, agility, data sharing, and cloud enabling.
 - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams/)
+- [wikipedia: Enterprise service bus](https://en.wikipedia.org/wiki/Enterprise_service_bus)
 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)

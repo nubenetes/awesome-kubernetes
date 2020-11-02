@@ -171,9 +171,9 @@ A simple extension to make indentation more readable
 
 <iframe src="https://www.youtube.com/embed/Ijz1mXQm7KU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/AYbgqmyg7dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AYbgqmyg7dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
