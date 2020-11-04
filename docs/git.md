@@ -15,6 +15,7 @@
 - [GitLab](#gitlab)
 - [GitHub](#github)
 - [Git Tools](#git-tools)
+	- [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [Merge BOTs](#merge-bots)
 	- [Tips](#tips)
@@ -205,6 +206,10 @@ git push origin -f
 * [gmaster](https://gmaster.io/)
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
+
+### Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)
+* [semantic-release.gitbook.io 🌟](https://semantic-release.gitbook.io/semantic-release/) Semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
+* [css-tricks.com: How to Automate Project Versioning and Releases with Continuous Deployment 🌟](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/)
 
 ## Azure DevOps (formerly known as VSTS) 
 * [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)

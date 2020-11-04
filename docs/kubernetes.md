@@ -2,7 +2,7 @@
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
-	- [Kubernetes Best Practices & Tips](#kubernetes-best-practices--tips)
+	- [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
 	- [Disruptions](#disruptions)
 	- [Cost Estimation Strategies](#cost-estimation-strategies)
 	- [Kubernetes Resource and Capacity Management](#kubernetes-resource-and-capacity-management)
@@ -51,7 +51,7 @@
 	- [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
 		- [Kubernetes SIG's Repos](#kubernetes-sigs-repos)
 		- [Kubectl Plugins](#kubectl-plugins)
-			- [Kubectl Plugins and Tools. Kubernetes Extensions & Projects](#kubectl-plugins-and-tools-kubernetes-extensions--projects)
+			- [Kubectl Plugins and Tools. Kubernetes Extensions and Projects](#kubectl-plugins-and-tools-kubernetes-extensions-and-projects)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 - [Kubernetes Backup](#kubernetes-backup)
 	- [Backup with Velero](#backup-with-velero)
@@ -104,7 +104,7 @@
 - [Kubernetes in Public Cloud](#kubernetes-in-public-cloud)
 	- [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
 	- [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
-	- [GCP & GKE](#gcp--gke)
+	- [GCP and GKE](#gcp-and-gke)
 	- [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 - [On-Premise Production Kubernetes Cluster Installers](#on-premise-production-kubernetes-cluster-installers)
 	- [Comparative Analysis of Kubernetes Deployment Tools](#comparative-analysis-of-kubernetes-deployment-tools)
@@ -321,7 +321,7 @@
 </center>
 <br/>
 
-### Kubernetes Best Practices & Tips
+### Kubernetes Best Practices and Tips
 * [**Optimize** Kubernetes cluster management with these 5 tips 🌟](https://searchitoperations.techtarget.com/feature/Optimize-Kubernetes-cluster-management-with-these-5-tips) Effective Kubernetes cluster management requires operations teams to balance pod and node deployments with performance and availability needs.
 * [techradar.com: Three tips to implement Kubernetes with open standards](https://www.techradar.com/news/three-tips-to-implement-kubernetes-with-open-standards)
 * [geekflare.com: 10 Kubernetes Best Practices for Better Container Orchestration 🌟](https://geekflare.com/kubernetes-best-practices/)
@@ -605,7 +605,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 </center>
 <br/>
 
-##### Kubectl Plugins and Tools. Kubernetes Extensions & Projects
+##### Kubectl Plugins and Tools. Kubernetes Extensions and Projects
 * [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
@@ -1199,7 +1199,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [aws.amazon.com: How to track costs in multi-tenant Amazon EKS clusters using Kubecost](https://aws.amazon.com/de/blogs/containers/how-to-track-costs-in-multi-tenant-amazon-eks-clusters-using-kubecost/?utm_sq=gilm3zsytz)
 * [medium: Designing a Kubernetes Cluster with Amazon EKS From Scratch 🌟](https://medium.com/adobetech/designing-a-kubernetes-cluster-with-amazon-eks-from-scratch-4b4ee9d1b8f)
 
-### GCP & GKE
+### GCP and GKE
 - [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions)
 - [Using new traffic control features in External HTTP(S) load balancer](https://cloudblog.withgoogle.com/products/networking/how-to-use-new-traffic-control-features-in-cloud-load-balancing/amp/)
 - [Setting up NodeLocal DNSCache](https://cloud.google.com/kubernetes-engine/docs/how-to/nodelocal-dns-cache)

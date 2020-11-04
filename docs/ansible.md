@@ -16,6 +16,7 @@
 - [Ansible Kubernetes Module](#ansible-kubernetes-module)
 - [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
 - [Dynatrace with Ansible](#dynatrace-with-ansible)
+- [SQL Server with Ansible](#sql-server-with-ansible)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -117,3 +118,8 @@
 
 ## Dynatrace with Ansible
 - [dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)](https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview/)
+
+## SQL Server with Ansible
+- [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/sysadmin/mssql-linux-easy)   
+
+

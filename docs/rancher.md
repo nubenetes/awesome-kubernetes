@@ -63,6 +63,7 @@
 * [github.com/aws-samples/cdk-k3s-cluster 🌟](https://github.com/aws-samples/aws-cdk-for-k3scluster) is a new JSII construct library for AWS CDK that deploys a scalable Kubernetes K3s cluster on Graviton2 Arm-based (mg6 by default) Spot instances with one command on AWS.
 * [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d)
 * [sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟](https://sysdig.com/blog/k3s-sysdig-falco/)
+* [rancher.com: Set up Your K3s Cluster for High Availability](https://rancher.com/blog/2020/k3s-high-availability)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
