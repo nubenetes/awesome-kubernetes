@@ -2,55 +2,55 @@
 - [DevOps Screencasts](#devops-screencasts)
 - [DevOps Blogs](#devops-blogs)
 - [DevOps Demos](#devops-demos)
-	- [Ansible and Ansible Tower](#ansible-and-ansible-tower)
-	- [GitOps](#gitops)
+    - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
+    - [GitOps](#gitops)
 - [Kubernetes Demos](#kubernetes-demos)
-	- [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
-	- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
-	- [Istio](#istio)
-	- [Rancher](#rancher)
-	- [GitOps Workflow with Flux](#gitops-workflow-with-flux)
-	- [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
-	- [Environments to learn and practice Kubernetes security](#environments-to-learn-and-practice-kubernetes-security)
+    - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
+    - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
+    - [Istio](#istio)
+    - [Rancher](#rancher)
+    - [GitOps Workflow with Flux](#gitops-workflow-with-flux)
+    - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
+    - [Environments to learn and practice Kubernetes security](#environments-to-learn-and-practice-kubernetes-security)
 - [Red Hat Demo Central](#red-hat-demo-central)
-	- [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
+    - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
-	- [OpenShift VS Kubernetes](#openshift-vs-kubernetes)
-	- [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
-	- [Knative](#knative)
-	- [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
-	- [ArgoCD](#argocd)
-	- [GitLab Pipelines on OpenShift](#gitlab-pipelines-on-openshift)
-	- [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
-	- [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
-	- [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
-	- [Red Hat Advanced Cluster Management RHACM](#red-hat-advanced-cluster-management-rhacm)
-	- [OKD](#okd)
-	- [Helm 3 on OpenShift](#helm-3-on-openshift)
-	- [Writing Kubernetes Operators](#writing-kubernetes-operators)
-	- [Customized Reports with Metering Operator (monitoring k8s resources)](#customized-reports-with-metering-operator-monitoring-k8s-resources)
-	- [Red Hat AMQ Streams (Kafka)](#red-hat-amq-streams-kafka)
+    - [OpenShift VS Kubernetes](#openshift-vs-kubernetes)
+    - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
+    - [Knative](#knative)
+    - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
+    - [ArgoCD](#argocd)
+    - [GitLab Pipelines on OpenShift](#gitlab-pipelines-on-openshift)
+    - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
+    - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
+    - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
+    - [Red Hat Advanced Cluster Management RHACM](#red-hat-advanced-cluster-management-rhacm)
+    - [OKD](#okd)
+    - [Helm 3 on OpenShift](#helm-3-on-openshift)
+    - [Writing Kubernetes Operators](#writing-kubernetes-operators)
+    - [Customized Reports with Metering Operator (monitoring k8s resources)](#customized-reports-with-metering-operator-monitoring-k8s-resources)
+    - [Red Hat AMQ Streams (Kafka)](#red-hat-amq-streams-kafka)
 - [Jenkins Demos](#jenkins-demos)
-	- [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
-	- [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
-	- [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
-	- [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
-	- [SDKMAN](#sdkman)
-	- [Jenkins Scripts](#jenkins-scripts)
-	- [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
-	- [Monitoring Jenkins with Grafana](#monitoring-jenkins-with-grafana)
+    - [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
+    - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
+    - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
+    - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
+    - [SDKMAN](#sdkman)
+    - [Jenkins Scripts](#jenkins-scripts)
+    - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
+    - [Monitoring Jenkins with Grafana](#monitoring-jenkins-with-grafana)
 - [Jenkins X](#jenkins-x)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [GitLab](#gitlab)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
-	- [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
-	- [PetClinic on Kubernetes:](#petclinic-on-kubernetes)
-	- [PetClinic Docker images:](#petclinic-docker-images)
-	- [OpenShift.io Samples](#openshiftio-samples)
+    - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
+    - [PetClinic on Kubernetes:](#petclinic-on-kubernetes)
+    - [PetClinic Docker images:](#petclinic-docker-images)
+    - [OpenShift.io Samples](#openshiftio-samples)
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
 - [Google DevOps Demos](#google-devops-demos)
-	- [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
+    - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [Quarkus Demos](#quarkus-demos)
 - [Kafka](#kafka)
 - [Apache Camel & ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
@@ -110,6 +110,7 @@
 * [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed) This article walks you through creating a service, exposing it with an Ingress, and adding Single Sign On. The article uses Okta (but of course you’re free to use any other OIDC SSO provider you prefer)
 * [Free Kubernetes 🌟🌟](https://github.com/learnk8s/free-kubernetes/) List of free Trials/Credit for Managed Kubernetes Services.
 * [medium: Kubernetes in a nutshell — tutorial for beginners 🌟🌟](https://medium.com/swlh/kubernetes-in-a-nutshell-tutorial-for-beginners-caa442dfd6c0) Deploy a complete application stack just in a few steps!
+* [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://www.shipa.io/development/deploying-applications-on-kubernetes/)
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -122,6 +123,7 @@
 
 ### Rancher
 - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
+- [cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and Argo CD](https://www.cncf.io/blog/2020/11/12/implementing-gitops-on-kubernetes-using-k3s-rancher-vault-and-argo-cd/)
 
 ### GitOps Workflow with Flux
 - [managedkube.com: A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
@@ -177,6 +179,7 @@
 * [medium.com: Red Hat OpenShift Virtualization in nested VMware vSphere Cluster](https://medium.com/@carlosedp/red-hat-openshift-virtualization-in-nested-vmware-vsphere-56c5e5d76a80) In this post, I'll go thru the process of running Virtual Machines on OpenShift Virtualization in a nested setup inside VMware vSphere. This requires both ESXi hosts and a VCenter, both on 6.7U3 or up.
 * [schabell.org: CodeReady Containers - Building a Cloud-Native Human Resources Process](https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html)
 * [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
+* [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) Install, configure, and use Minishift to create your first pipeline.
 
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
@@ -211,6 +214,7 @@
 - [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4)
 - [Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
   - [medium: Deploy Quarkus Todo List App to Kubernetes Using Eclipse JKube](https://medium.com/swlh/deploy-quarkus-todo-list-app-to-kubernetes-using-eclipse-jkube-c774ef6b68f0)
+- [youtube: Deploy your Java applications to the Cloud using Eclipse JKube (petclinic) 🌟](https://www.youtube.com/watch?v=vgIwRX4LXfU)
 
 ### Monitoring Services with OpenShift ServiceMesh
 - [Monitoring Services like an SRE in OpenShift ServiceMesh](https://www.openshift.com/blog/monitoring-services-like-an-sre-in-openshift-servicemesh)
@@ -255,6 +259,7 @@
 * [cloudogu/jenkinsfiles 🌟🌟🌟](https://github.com/cloudogu/jenkinsfiles) This project contains examples for the [Jenkins pipeline plugin](https://jenkins.io/solutions/pipeline/), comparing both declarative and scripted syntax. The examples were developed while working on an article series called Coding Continuous Delivery published in [Java aktuell](http://www.ijug.eu/java-aktuell/das-magazin.html). Both English translation and German original can be found on the [Cloudogu Blog](https://cloudogu.com/en/blog).
 * [aws.amazon.com: Integrating Jenkins with AWS CodeArtifact to publish and consume Python artifacts](https://aws.amazon.com/blogs/devops/using-jenkins-with-codeartifact/)
 * [github.com/monodot/pipeline-library-demo 🌟](https://github.com/monodot/pipeline-library-demo) Demonstrates how to use a Shared Library in Jenkins pipelines. This repository defines a single function, sayHello, which will echo a greeting.
+* [piotrminkowski.com: Continuous Integration with Jenkins on Kubernetes 🌟](https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes/)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -407,6 +412,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/)
 - [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
 - [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
+- [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft/)
 
 ## Google DevOps Demos
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)

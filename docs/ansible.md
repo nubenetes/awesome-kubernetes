@@ -17,6 +17,7 @@
 - [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
 - [Dynatrace with Ansible](#dynatrace-with-ansible)
 - [SQL Server with Ansible](#sql-server-with-ansible)
+- [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -122,4 +123,7 @@
 ## SQL Server with Ansible
 - [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/sysadmin/mssql-linux-easy)   
 
+## Ansistrano. Deploying applications with Ansible in Capistrano style
+- [Ansistrano](https://github.com/ansistrano) 
+- [Capistrano](https://capistranorb.com/) A remote server automation and deployment tool written in Ruby.
 

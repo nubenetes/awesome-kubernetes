@@ -56,6 +56,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [harness.io: 3 Ways to Use Automation in CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/)
 * [cloudbees.com: 7 Tips for Creating A Successful CI/CD Pipeline 🌟](https://www.cloudbees.com/blog/tips-creating-successful-cicd-pipeline)
 * [gitconnected.com: Blue-Green with Canary Deployment — A Novel approach](https://levelup.gitconnected.com/blue-green-with-canary-deployment-a-novel-approach-2cee77ff564d)
+* [dzone: CI/CD Pipeline: Demystifying The Complexities](https://dzone.com/articles/cicd-pipeline-demystifying-the-complexities) Get a high-level overview of CI/CD pipelines and the components that make up a DevOps process, and some of the challenges and benefits of a CI/CD pipeline.
 
 ## Security in CI/CD
 * [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/)

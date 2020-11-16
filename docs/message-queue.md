@@ -43,6 +43,7 @@
 - [dzone: Event-Driven Architecture as a Strategy](https://dzone.com/articles/event-driven-architecture-as-a-strategy) Event-driven architecture provides five key benefits to modern application architecture: scalability, resilience, agility, data sharing, and cloud enabling.
 - [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams/)
 - [wikipedia: Enterprise service bus](https://en.wikipedia.org/wiki/Enterprise_service_bus)
+- [thenewstack.io: The Rise of the Event Streaming Database 🌟](https://thenewstack.io/the-rise-of-the-event-streaming-database/)
 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
@@ -227,6 +228,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 ## KEDA. Kubernetes Event Driven Autoscaling
 - [KEDA](https://keda.sh/) Kubernetes Event-driven Autoscaling. Application autoscaling made simple.
 - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
+- [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
 
 ## eBooks
 - [O'Really: Streaming data](http://streamingsystems.net/)

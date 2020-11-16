@@ -33,6 +33,7 @@
 - [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-the-bad-and-the-ugly)
 - [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) Deliver Infrastructure and Software running on it Rapidly and Reliably at Scale.
 - [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d)
+- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster.
 
 ## Git Repositories Structures
 - [GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
@@ -51,6 +52,12 @@
 - [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
 - [A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux 🌟](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html) 
 - [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
+- [acloudguru.com: Adopting GitOps for Kubernetes on AWS 🌟](https://acloudguru.com/blog/engineering/adopting-gitops-for-kubernetes-on-aws?utm_source=linkedin&utm_medium=social&utm_campaign=kubernetesblog) Tips for adopting GitOps for your Kubernetes workload in AWS: 
+	- Use Git as your source of truth
+	- Use a Git branch per environment
+	- Practice proper change management
+	- Roll back with Git
+	- Automate everything
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.

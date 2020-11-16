@@ -34,6 +34,7 @@
 - [Microsoft: Python Engineering](https://blogs.msdn.microsoft.com/pythonengineering/)
 - [blog.pythonlibrary.org 🌟](http://www.blog.pythonlibrary.org/)
 - [nixCraft: Python Execute Unix/Linux Command Examples 🌟](http://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/)
+- [fedoralovespython.org 🌟](https://fedoralovespython.org/)
 
 ## Python docs
 - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)

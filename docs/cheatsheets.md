@@ -32,6 +32,7 @@
 - [TypeScript](#typescript)
 - [Jupyter](#jupyter)
 - [Postgres](#postgres)
+- [MariaDB and mySQL](#mariadb-and-mysql)
 - [MongoDB](#mongodb)
 
 ## Cheat Sheets
@@ -75,7 +76,6 @@
 * [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
 * [opensource.com: 9 kubectl commands sysadmins need to know 🌟](https://opensource.com/article/20/5/kubectl-cheat-sheet) Keep these 9 critical kubectl commands handy to help you with troubleshooting and managing your Kubernetes cluster administration.
 * [bluematador.com: kubectl cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
-* [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f)
 * [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)
 * [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 
@@ -134,6 +134,7 @@
 * [commandlinefu.com](https://www.commandlinefu.com/)
 * [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
 * [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
+* [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -227,6 +228,9 @@
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
+
+## MariaDB and mySQL
+- [opensource.com: MariaDB and mySQL cheat sheet](https://opensource.com/downloads/mariadb-mysql-cheat-sheet)
 
 ## MongoDB
 - [developer.mongodb.com: MongoDB Cheat Sheet](https://developer.mongodb.com/quickstart/cheat-sheet)

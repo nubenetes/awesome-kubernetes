@@ -77,6 +77,9 @@
 * [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration/)
 * [devopscurry.com: Key DevOps Principles to focus in 2021](https://devopscurry.com/key-devops-principles-to-focus-in-2021/)
 * [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
+* [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://cloudacademy.com/blog/devops-why-is-it-important-to-decouple-deployment-from-release/)
+* [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
+* [devopscurry.com: DevOps 2021: A Complete Guide To Transition From a SysAdmin to DevOps Role](https://devopscurry.com/devops-2021-a-complete-guide-to-transition-from-a-sysadmin-to-devops-role/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

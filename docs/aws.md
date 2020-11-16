@@ -57,6 +57,7 @@
 - [AWS Developer Blog](#aws-developer-blog)
 - [AWS Lambda Serverless](#aws-lambda-serverless)
 - [AWS Cloud Formation](#aws-cloud-formation)
+- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
 - [AWS for Windows](#aws-for-windows)
 - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
 - [AWS Security](#aws-security)
@@ -336,7 +337,7 @@
 - [Application Load Balancer 🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
 - [aws blogs - New – AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/)
 - [medium: 10 reasons why you should think about using an AWS Application Load Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)
-- [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/es/blogs/containers/introducing-aws-load-balancer-controller/)
+- [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)
 - [Fine-tuning blue/green deployments on application load balancer 🌟](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
 
 ## NGINX
@@ -389,6 +390,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance/) You can now easily change the Amazon VPC used by your Amazon RDS DB instance!
 - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
 - [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
+- [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
@@ -424,6 +426,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance 🌟](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
 	- [AWS CloudFormation Guard 🌟](https://github.com/aws-cloudformation/cloudformation-guard)
+
+## Former2 to generate IaC templates
+- [Accelerate infrastructure as code development with open source Former2 🌟](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2/)
+- [former2.com 🌟](https://former2.com/)
 
 ## AWS for Windows
 - [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS
@@ -569,6 +575,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [itnext.io: Using AWS NLB manually targeting an EKS Service exposing UDP traffic](https://itnext.io/using-aws-nlb-manually-targeting-an-eks-service-exposing-udp-traffic-17053ecd8f52)
 - [medium: Creating CI/CD Pipeline for AWS ECS — Part I](https://medium.com/@harshvijaythakkar/creating-ci-cd-pipeline-for-aws-ecs-part-i-b2f61bb1522f)
 - [Amazon EKS Now Supports EC2 Inf1 Instances](https://aws.amazon.com/blogs/aws/amazon-eks-now-supports-ec2-inf1-instances/)
+- [Create a pipeline with canary deployments for Amazon EKS with AWS App Mesh 🌟](https://aws.amazon.com/blogs/containers/create-a-pipeline-with-canary-deployments-for-amazon-eks-with-aws-app-mesh/)
+- [medium: Using Helm with Amazon EKS without kubeconfigs](https://medium.com/analytics-vidhya/using-helm-with-amazon-eks-without-a-kubeconfig-733f44a31b1d)
 
 ## AWS Fargate
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)

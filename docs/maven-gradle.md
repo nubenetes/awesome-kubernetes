@@ -29,6 +29,7 @@
 * [Dzone: 10 Effective Tips on Using Maven](https://dzone.com/articles/10-effective-tips-on-using-maven)
 * [Dzone: Building Java Applications With Maven](https://dzone.com/articles/building-java-applications-with-maven)
 * [howtodoinjava.com/maven](https://howtodoinjava.com/maven/)
+* [Dzone: 7 Tips to Achieve High-Availability(HA) For Your Maven Repository](https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1) 
 
 ### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)

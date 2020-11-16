@@ -1,9 +1,9 @@
-# Test Automation Frameworks. Selenium, Cucumber, Appium & Zephyr Jira Plugin
+# Test Automation Frameworks and Behavior Driven Development. Selenium, Cucumber, Appium & Zephyr Jira Plugin
 - [Introduction](#introduction)
 - [Selenium](#selenium)
 - [Mobile Tests](#mobile-tests)
   - [Appium](#appium)
-  - [Cucumber and Appium](#cucumber-and-appium)
+  - [Cucumber and Appium. Behavior Driven Development](#cucumber-and-appium-behavior-driven-development)
 - [Test Automation with Zephyr (Jira Plugin)](#test-automation-with-zephyr-jira-plugin)
 
 ## Introduction
@@ -24,6 +24,7 @@
 - [lambdatest.com: Selenium IDE: What Is It? & Why Is It Must For Every QA?](https://www.lambdatest.com/blog/selenium-ide-what-is-it-why-is-it-must-for-every-qa/)
 - [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter/)
 - [dev.to: Using Selenium With Python in a Docker Container](https://dev.to/nazliander/using-selenium-within-a-docker-container-ghp)
+- [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial/)
 
 ## Mobile Tests
 ### Appium
@@ -31,8 +32,9 @@
 - [Dzone: appium tutorial for complete beginners](https://dzone.com/articles/appium-tutorial-for-complete-beginners)
 - [Dzone: best practices in appium](https://dzone.com/articles/best-practices-in-appium)
 
-### Cucumber and Appium
+### Cucumber and Appium. Behavior Driven Development
 - [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://experitest.com/appium-blog/start-automating-your-mobile-tests-with-cucumber-and-appium/)
+- [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)

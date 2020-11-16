@@ -49,6 +49,7 @@
 
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
+- [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
 
 ## How To Build a Smaller Docker Image
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)

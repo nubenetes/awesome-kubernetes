@@ -90,6 +90,8 @@ A simple extension to make indentation more readable
 * [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) Convert pure react components to class components
 * [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) Helm Intellisense is a Visual Studio Code extension that provides intellisense for helm-templates
 * [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) New VS Code extension for working with Azure Resource Manager (ARM) templates that will make your life much easier.
+* [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code/)
+	* [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -161,6 +163,7 @@ A simple extension to make indentation more readable
 - [Gitpod Open Sources a ‘Holistic IDE’](https://thenewstack.io/gitpod-open-sources-a-holistic-ide/) 
 - [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
 - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
+- [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps. 
 
 ## Videos
 

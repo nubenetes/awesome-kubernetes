@@ -25,6 +25,8 @@
 * [thenewstack.io: Zero-Trust Security with Service Mesh](https://thenewstack.io/zero-trust-security-with-service-mesh/)
 * [solo.io: Identity Federation for Multi-Cluster Kubernetes and Service Mesh](https://www.solo.io/blog/identity-federation-for-multi-cluster-kubernetes-and-service-mesh/)
 * [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard/)
+* [medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟](https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f)
+* [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0)
 
 ## Tools For Evaluating Service Meshes
 * [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes

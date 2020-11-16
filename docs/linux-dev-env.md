@@ -13,6 +13,7 @@ multiple versions of software on the same system, without affecting system-wide 
 * [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update/) Docker Desktop Edge users will be able to use Docker Desktop with WSL 2 rather than our legacy HyperV based backend. This is available not only for Windows Pro and Windows Enterprise, but also for Windows Home users.  
 * [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
 * [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246/)
+* [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia para el sector TI](https://pandorafms.com/blog/es/wsl2/)
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)

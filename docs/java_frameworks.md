@@ -106,6 +106,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [**Spring Boot Istio library**: Spring Boot library for integration with Istio](https://piotrminkowski.com/2020/06/10/spring-boot-library-for-integration-with-istio/)
 * [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications)
 * [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/)
+* [piotrminkowski.com: Spring Boot Autoscaling on kubernetes 🌟](https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/)
 
 ### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)

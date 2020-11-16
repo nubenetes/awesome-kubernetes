@@ -13,7 +13,7 @@
 	- [Prometheus Storage](#prometheus-storage)
 		- [Scalability, High Availability (HA) and Long-Term Storage](#scalability-high-availability-ha-and-long-term-storage)
 		- [Storage Solutions for Prometheus](#storage-solutions-for-prometheus)
-			- [InfluxDB & InfluxDB Templates](#influxdb--influxdb-templates)
+			- [InfluxDB and InfluxDB Templates](#influxdb-and-influxdb-templates)
 	- [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
 		- [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
 		- [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
@@ -230,7 +230,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [**M3**:](https://www.m3db.io/) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 
-##### InfluxDB & InfluxDB Templates
+##### InfluxDB and InfluxDB Templates
 * [**InfluxDB**:](https://www.influxdata.com/) An [open-source time series database (TSDB)](https://en.wikipedia.org/wiki/Time_series_database) developed by InfluxData. It is written in [Go](https://en.wikipedia.org/wiki/Go_(programming_language)) and optimized for fast, high-availability storage and retrieval of [time series](https://en.wikipedia.org/wiki/Time_series) data in fields such as operations monitoring, application metrics, [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things) sensor data, and real-time analytics. It also has support for processing data from [Graphite](https://en.wikipedia.org/wiki/Graphite_(software)).
 * [en.wikipedia.org/wiki/InfluxDB](https://en.wikipedia.org/wiki/MIT_License)
 * [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack/)

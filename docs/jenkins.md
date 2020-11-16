@@ -1,5 +1,7 @@
 # Jenkins & CloudBees
 - [Jenkins](#jenkins)
+- [Jenkins on Kubernetes](#jenkins-on-kubernetes)
+    - [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [Groovy](#groovy)
 - [Awesome Jenkins](#awesome-jenkins)
 - [Jenkins Cheat Sheet](#jenkins-cheat-sheet)
@@ -7,34 +9,33 @@
 - [Running Jenkins on Java 11. Use OpenJDK 11](#running-jenkins-on-java-11-use-openjdk-11)
 - [Online Learning](#online-learning)
 - [Jenkins Configuration as Code Solutions. 3 available DSLs](#jenkins-configuration-as-code-solutions-3-available-dsls)
-	- [DSL 1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl-1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
-	- [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
-		- [Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#jenkins-pipeline-syntax-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
-		- [Extending with Shared Libraries](#extending-with-shared-libraries)
-			- [Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-		- [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
-	- [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
-		- [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
+    - [DSL 1. Job DSL Plugin. From Freestyle jobs to Declarative Pipeline](#dsl-1-job-dsl-plugin-from-freestyle-jobs-to-declarative-pipeline)
+    - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
+        - [Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#jenkins-pipeline-syntax-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
+        - [Extending with Shared Libraries](#extending-with-shared-libraries)
+            - [Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
+        - [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
+    - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
+        - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
-	- [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
-	- [Pipeline Development Tools](#pipeline-development-tools)
+    - [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
+    - [Pipeline Development Tools](#pipeline-development-tools)
 - [Jenkins Multibranch Pipeline](#jenkins-multibranch-pipeline)
-	- [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
+    - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
 - [Jenkins Plugins](#jenkins-plugins)
-	- [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
-	- [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
-	- [Jenkins Blue Ocean](#jenkins-blue-ocean)
-	- [Cloudbees Flow](#cloudbees-flow)
+    - [Selection of Jenkins Plugins](#selection-of-jenkins-plugins)
+    - [Plugin Development. Jenkins Plugin Parent POM 4.0](#plugin-development-jenkins-plugin-parent-pom-40)
+    - [Jenkins Blue Ocean](#jenkins-blue-ocean)
+    - [Cloudbees Flow](#cloudbees-flow)
 - [Monitoring jenkins](#monitoring-jenkins)
 - [Externalizing Fingerprint Storage for Jenkins](#externalizing-fingerprint-storage-for-jenkins)
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
-- [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [CloudBees](#cloudbees)
-	- [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
-		- [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
-	- [CloudBees Accelerator](#cloudbees-accelerator)
+    - [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
+        - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
+    - [CloudBees Accelerator](#cloudbees-accelerator)
 - [Jervis: Jenkins as a service](#jervis-jenkins-as-a-service)
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
 - [Jenkins and SAP](#jenkins-and-sap)
@@ -73,6 +74,13 @@
 
 [![Jenkins growth](images/jenkins_growth.png)](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/)
 </center>
+
+## Jenkins on Kubernetes
+* [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/)
+* [jenkins.io: Installing Jenkins on Kubernetes 🌟](https://www.jenkins.io/doc/book/installing/kubernetes/)
+
+### Kubernetes Native Jenkins Operator 
+* [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
 
 ## Groovy
 * [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
@@ -393,9 +401,6 @@
 ## Jenkins and Spring Boot
 * [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html)
 * [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
-
-## Kubernetes Native Jenkins Operator 
-* [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
 
 ## CloudBees 
 ### CloudBees Rollout and Feature Flags

@@ -137,15 +137,16 @@ nav:
     - JavaScript - node.js & npm: javascript.md
     - Python - Django & Flask: python.md
     - Xamarin: xamarin.md
+    - Websites for web developers: devel-sites.md
     - Java:
       - Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more: java_frameworks.md
       - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
       - Java Parameters Matrix Table: jvm-parameters-matrix-table.md
-  - Dev Environment:
-    - Visual Studio Code: visual-studio.md
-    - WSL - Linux Dev Environment on Windows: linux-dev-env.md
-    - Scaffolding Tools: scaffolding.md
-    - Chrome & Firefox DevTools. HTTP Protocols & WebSockets: ChromeDevTools.md
+    - Dev Environment:
+      - Visual Studio Code: visual-studio.md
+      - WSL - Linux Dev Environment on Windows: linux-dev-env.md
+      - Scaffolding Tools: scaffolding.md
+      - Chrome & Firefox DevTools. HTTP Protocols & WebSockets: ChromeDevTools.md
   - Public Cloud: 
     - Public Cloud Solutions: public-cloud-solutions.md
     - Edge Computing: edge-computing.md
@@ -164,6 +165,7 @@ nav:
   - Recruitment and Freelancing:
     - Recruitment: recruitment.md
     - Freelancing: freelancing.md
+    - Remote Tech Jobs: remote-tech-jobs.md
   - About: about.md
 copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain</a>, <a href="https://redhatspain.com/about/">about</a>.
 google_analytics: ['UA-168051035-1', 'redhatspain.com']
