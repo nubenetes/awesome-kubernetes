@@ -13,6 +13,7 @@
 		- [Spring Cloud](#spring-cloud)
 			- [Spring Cloud Kubernetes](#spring-cloud-kubernetes)
 			- [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
+			- [Secure Secrets with Spring Cloud Vault and alternatives](#secure-secrets-with-spring-cloud-vault-and-alternatives)
 - [Quarkus](#quarkus)
 - [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
@@ -123,6 +124,14 @@ optimizing Enterprise Java for the microservices architecture.
 - [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend)
 - [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
 - [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
+
+##### Secure Secrets with Spring Cloud Vault and alternatives
+- [cloud.spring.io: Spring Cloud Vault](https://cloud.spring.io/spring-cloud-vault/reference/html/)
+- [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2020/05/04/spring-vault) Nowadays it is widely recommended to never store secret values in code. Therefore, this tutorial will demonstrate the following alternatives:
+	- Using environment variables for Spring Boot secrets
+	- Secrets encryption with Spring Cloud Config
+	- Secrets management with HashiCorp’s Vault
+	- Using Spring Cloud Vault
 
 <center>
 <iframe src="https://www.youtube.com/embed/1w1Jv9qssqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
