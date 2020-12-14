@@ -6,6 +6,7 @@
 - [Youtube](#youtube)
 - [Reddit](#reddit)
 - [Linux Commands and Tools](#linux-commands-and-tools)
+- [Bash](#bash)
 - [Linux processes](#linux-processes)
 - [Linux and Kubernetes](#linux-and-kubernetes)
 	- [Systemd](#systemd)
@@ -92,6 +93,9 @@
 - [cyberciti.biz: BASH Shell Change The Color of Shell Prompt on Linux or UNIX](https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/)
 - [cyberciti.biz: How to check TLS/SSL certificate expiration date from command-line](https://www.cyberciti.biz/faq/find-check-tls-ssl-certificate-expiry-date-from-linux-unix/)
 - [igoroseledko.com: Parallel Rsync](https://www.igoroseledko.com/parallel-rsync/)
+
+## Bash
+- [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
 
 ## Linux processes
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)

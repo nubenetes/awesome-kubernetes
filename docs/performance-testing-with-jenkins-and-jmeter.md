@@ -28,6 +28,7 @@
 * [Dzone: The simple anatomy of a good performance report](https://dzone.com/articles/the-simple-anatomy-of-a-good-performance-report)
 * [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf)
 * [JMeter Distributed Testing Step-by-step](https://venkatmatta.files.wordpress.com/2016/03/jmeter_distributed_testing_step_by_step.pdf)
+* [testinglpoint.com: Timer in JMeter](https://www.testinglpoint.com/timer/) Timer in JMeter is easy but crucial part of JMeter where we have to manage the thread user count and time to apply the load to the application.
 
 ## JMeter based Cloud solutions
 * [octoperf.com](https://octoperf.com/)

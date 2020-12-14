@@ -56,8 +56,10 @@
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
 - [AWS Developer Blog](#aws-developer-blog)
 - [AWS Lambda Serverless](#aws-lambda-serverless)
+- [AWS API Gateway](#aws-api-gateway)
 - [AWS Cloud Formation](#aws-cloud-formation)
-- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
+- [Infrastructure Code Template Generators](#infrastructure-code-template-generators)
+	- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
 - [AWS for Windows](#aws-for-windows)
 - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
 - [AWS Security](#aws-security)
@@ -421,15 +423,22 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Using Amazon EFS for AWS Lambda in your serverless applications 🌟](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
 - [medium: AWS Serverless Application Lens — A Summary 🌟](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d) 
 
+## AWS API Gateway
+- [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
+
 ## AWS Cloud Formation
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
 - [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance 🌟](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
 	- [AWS CloudFormation Guard 🌟](https://github.com/aws-cloudformation/cloudformation-guard)
 
-## Former2 to generate IaC templates
-- [Accelerate infrastructure as code development with open source Former2 🌟](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2/)
+## Infrastructure Code Template Generators
+- [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)
+
+### Former2 to generate IaC templates
 - [former2.com 🌟](https://former2.com/)
+- [Accelerate infrastructure as code development with open source Former2 🌟](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2/)
+
 
 ## AWS for Windows
 - [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS

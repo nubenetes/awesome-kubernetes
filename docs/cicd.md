@@ -14,6 +14,7 @@
 * [Wikipedia.org: DevOps](https://en.wikipedia.org/wiki/DevOps)
 * [Wikipedia.org: Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 * [Wikipedia.org: Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+* [martinfowler.com: Continuous Integration (original version)](https://martinfowler.com/articles/originalContinuousIntegration.html)
 
 <center>
 [![CD Artifact Management](images/cd-artifact-management.jpg)](https://www.thoughtworks.com/insights/continuous-delivery)

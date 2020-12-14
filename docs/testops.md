@@ -3,7 +3,7 @@
 - [Continuous Testing in DevOps](#continuous-testing-in-devops)
 - [Test Driven Development (TDD)](#test-driven-development-tdd)
 - [Tools](#tools)
-	- [KubeAudit](#kubeaudit)
+    - [KubeAudit](#kubeaudit)
 
 ## TestOps
 - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops/)
@@ -29,6 +29,8 @@
 - [opensource.com: Cerberus - An open source solution for continuous testing at scale](https://opensource.com/article/20/8/cerberus-test-automation) Cerberus focuses on testing usability, scalability, and integration.
 - [Diffblue](https://www.diffblue.com/) Catch regressions earlier in your pipeline with Java unit tests that are automatically created by Diffblue Cover
     - [theregister.com: Coding unit tests is boring. Wouldn't it be cool if an AI could do it for you? That's where Diffblue comes in](https://www.theregister.com/2020/09/21/diffblue_let_ai_code_unit_tests) A big time saver – but 'we can't tell if the current logic that you have in the code is correct or not.' Oh
+- [Cicada: A tool for testing microservices](https://cicadatesting.github.io/cicada-2/)
+    - [medium: Cicada: An integration testing framework for Docker and Kubernetes](https://medium.com/@jeremyaherzog/cicada-an-integration-testing-framework-for-docker-and-kubernetes-7eee5624cc55)
 
 ### KubeAudit 
 - [developers.redhat.com: Static analysis with KubeAudit for Red Hat OpenShift](https://developers.redhat.com/blog/2020/10/09/static-analysis-with-kubeaudit-for-red-hat-openshift/) This auditing tool currently only supports Kubernetes manifests, but we plan to expand it to include Helm charts and Go code, as well. The tool is in very early stages, but is looking for community input to help add use cases.

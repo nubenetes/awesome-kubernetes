@@ -2,8 +2,8 @@
 - [Scaffold Definition](#scaffold-definition)
 - [Nodejs Scaffolding with Yeoman](#nodejs-scaffolding-with-yeoman)
 - [Java Scaffolding](#java-scaffolding)
-	- [Java Scaffolding with Spring Roo](#java-scaffolding-with-spring-roo)
-	- [Java Scaffolding with Maven](#java-scaffolding-with-maven)
+  - [Java Scaffolding with Spring Roo](#java-scaffolding-with-spring-roo)
+  - [Java Scaffolding with Maven](#java-scaffolding-with-maven)
 - [Kubernetes Scaffolding](#kubernetes-scaffolding)
 
 ## Scaffold Definition 
@@ -24,7 +24,7 @@
 - [Maven](maven-gradle.md)
 
 ## Kubernetes Scaffolding
-- [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://app.getambassador.io/)
+- [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://app.getambassador.io/) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
 - [Skaffold 🌟](https://skaffold.dev/)
   - [cloud.google.com: Kubernetes development, simplified—Skaffold is now GA](https://cloud.google.com/blog/products/application-development/kubernetes-development-simplified-skaffold-is-now-ga)
   - [Cloud Code](https://cloud.google.com/code) Skaffold is the underlying engine that drives Cloud Code.

@@ -86,6 +86,7 @@
 - [thenextweb.com: 6 practical tricks every Python developer should have](https://thenextweb.com/readme/2020/09/23/6-practical-tricks-every-python-developer-should-have/)
 - [dzone: Best of DZone: Python 🌟](https://dzone.com/articles/best-of-dzone-python)
 - [digitalocean.com: How To Code in Python 3 🌟](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-python-3)
+- [towardsdatascience.com: Top 11 Github Repositories to Learn Python 🌟](https://towardsdatascience.com/top-11-github-repositories-to-learn-python-e75e8676757a) Popular GitHub repositories for learning Python
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>

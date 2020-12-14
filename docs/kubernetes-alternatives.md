@@ -34,6 +34,8 @@
 * [galaxy.ansible.com: Docker Ansible Role](https://galaxy.ansible.com/atosatto/docker-swarm) Setup Docker on RHEL/CentOS and Debian/Ubuntu servers. The role supports Docker Engine's "Swarm Mode" to create a cluster of Docker nodes.
 * [Kubernetes vs Docker Swarm: A Comprehensive Comparison](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
 * [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert/)
+* [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.dotnettricks.com/learn/docker/kubernetes-vs-docker-analyzing-the-differences)
+* [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
 
 ---
 <center>

@@ -1,5 +1,6 @@
 # Cloud Native Storage
 - [Introduction](#introduction)
+- [Ebooks](#ebooks)
 - [Solutions](#solutions)
 	- [Rook](#rook)
 	- [Robin](#robin)
@@ -22,6 +23,9 @@
 - [howtoforge.com: Storage in Kubernetes 🌟](https://www.howtoforge.com/storage-in-kubernetes/)
 - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas/)
 - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/)
+
+## Ebooks
+- [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
 
 ## Solutions
 - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)

@@ -26,6 +26,7 @@
 - [Dzone: DevOps 101: Set Up Nginx in Front of Your Spring Boot Application [Video]](https://dzone.com/articles/devops-101-setup-nginx-in-front-of-your-spring-boo)
 - [NGINXConfig 🌟🌟](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
 - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
+- [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1) Optimizing Nginx on Kubernetes Without a Adding a Cloud CDN.
 
 <center>
 <iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

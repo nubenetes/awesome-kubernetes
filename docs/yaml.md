@@ -1,9 +1,11 @@
 # Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 - [Templating YAML Files](#templating-yaml-files)
+    - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
 - [Static Checking of Kubernetes YAML Files](#static-checking-of-kubernetes-yaml-files)
+- [Alternatives](#alternatives)
 
 ## Templating YAML Files
 - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
@@ -12,6 +14,12 @@
 - [Steve Horsfield: DevOps tricks - Templating YAML files](https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files/) Basic text tools fall foul of YAML’s indentation sensitivity. On the other hand, **YAML tools like [ytt](https://get-ytt.io/) are pretty difficult to interpret.** In my case, I opted for a small [jq](https://stedolan.github.io/jq/) program executed via [yq](https://mikefarah.gitbook.io/yq/).
 - [redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟](https://www.redhat.com/sysadmin/understanding-yaml-ansible) Ansible playbooks are written in YAML, YAML Ain't Markup Language. Understanding YAML syntax is a key to success with Ansible.
 - [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics/) 
+
+### YAML anchors and aliases
+- [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
+- [support.atlassian.com: YAML anchors and aliases](https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/)
+- [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
+- [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values)
 
 ### YAML Processors 
 - [github.com/topics/yaml-processor](https://github.com/topics/yaml-processor)
@@ -45,3 +53,7 @@
     - [Copper](https://github.com/cloud66-oss/copper)
     - [Conftest](https://www.conftest.dev/)
     - [Polaris](https://github.com/FairwindsOps/polaris)
+
+## Alternatives
+- [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
+    

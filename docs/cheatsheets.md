@@ -78,6 +78,7 @@
 * [bluematador.com: kubectl cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet)
 * [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)
 * [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
+* [akhilsharma.work: kubectl Get Resource - Short Names](https://akhilsharma.work/kubectl-get-resource-short-names/)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -128,6 +129,7 @@
 * [lzone.de: Terraform Cheat Sheet](https://lzone.de/cheat-sheet/Terraform)
 * [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
 * [terraform-infraestructura.readthedocs.io: comandos](https://terraform-infraestructura.readthedocs.io/es/latest/comandos/)
+* [acloudguru.com: The Ultimate Terraform Cheatsheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
 
 ## Linux Command Cheat Sheets
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)
@@ -161,6 +163,7 @@
 ## Kubernetes POD Cheat Sheets
 - [jimmysong.io/kubernetes-handbook/concepts/pod.html 🌟](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
 - [https://dev.to/aurelievache: Understanding Kubernetes: part 1 – Pods](https://dev.to/aurelievache/kubernetes-sketchnotes-pods-4ib0)
+- [garba.org: Kubernetes Pod Life Cycle Cheat Sheet](https://garba.org/posts/2018/k8s_pod_lc/)
 
 <center>
 [![pod cheat sheets](images/pod_cheat_sheet.png)](https://jimmysong.io/kubernetes-handbook/concepts/pod.html)
