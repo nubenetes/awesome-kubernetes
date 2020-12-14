@@ -126,7 +126,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
 
 ##### Secure Secrets with Spring Cloud Vault and alternatives
-- [cloud.spring.io: Spring Cloud Vault](https://cloud.spring.io/spring-cloud-vault/reference/html/)
+- [cloud.spring.io: Spring Cloud Vault 🌟](https://cloud.spring.io/spring-cloud-vault/reference/html/)
 - [developer.okta.com: Secure Secrets With Spring Cloud Config and Vault 🌟](https://developer.okta.com/blog/2020/05/04/spring-vault) Nowadays it is widely recommended to never store secret values in code. Therefore, this tutorial will demonstrate the following alternatives:
 	- Using environment variables for Spring Boot secrets
 	- Secrets encryption with Spring Cloud Config
