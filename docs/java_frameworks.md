@@ -9,6 +9,7 @@
 	- [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
 - [Spring](#spring)
 	- [Spring Cloud](#spring-cloud)
+	- [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
 	- [SpringBoot](#springboot)
 	- [SpringBoot with Docker](#springboot-with-docker)
 	- [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
@@ -92,6 +93,12 @@ optimizing Enterprise Java for the microservices architecture.
 - [Spring Cloud](https://spring.io/projects/spring-cloud)
 - [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
 - [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)
+
+### Spring Cloud Config and Spring Cloud Config Server
+- [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/)
+- [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend)
+- [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
+- [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
 
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)
