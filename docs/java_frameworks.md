@@ -8,11 +8,11 @@
 - [Eclipse MicroProfile](#eclipse-microprofile)
 	- [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
 - [Spring](#spring)
-	- [Spring Cloud](#spring-cloud)
-	- [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
 	- [SpringBoot](#springboot)
-	- [SpringBoot with Docker](#springboot-with-docker)
-	- [CI/CD for kubernetes with SpringBoot](#cicd-for-kubernetes-with-springboot)
+		- [SpringBoot with Docker](#springboot-with-docker)
+		- [Spring Cloud](#spring-cloud)
+			- [Spring Cloud Kubernetes](#spring-cloud-kubernetes)
+			- [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
 - [Quarkus](#quarkus)
 - [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
@@ -89,17 +89,6 @@ optimizing Enterprise Java for the microservices architecture.
 - [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html)
 - [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d)
 
-### Spring Cloud
-- [Spring Cloud](https://spring.io/projects/spring-cloud)
-- [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
-- [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)
-
-### Spring Cloud Config and Spring Cloud Config Server
-- [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/)
-- [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend)
-- [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
-- [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
-
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)
 - [dzone: All About Spring Boot (Tutorials and Articles)](https://dzone.com/articles/spring-boot-framework-tutorials)
@@ -115,18 +104,29 @@ optimizing Enterprise Java for the microservices architecture.
 * [piotrminkowski.com: Best practices for microservices on kubernetes 🌟](https://piotrminkowski.com/2020/03/10/best-practices-for-microservices-on-kubernetes/)
 * [piotrminkowski.com: Spring Boot Autoscaling on kubernetes 🌟](https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/)
 
-### SpringBoot with Docker
+#### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
 * [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 
 * [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide)
 * [youtube: Creating Docker Images With Spring Boot](https://www.youtube.com/watch?v=1w1Jv9qssqg)
 
+#### Spring Cloud
+- [Spring Cloud](https://spring.io/projects/spring-cloud)
+
+##### Spring Cloud Kubernetes
+- [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes)
+- [Spring Cloud Kubernetes for hybrid microservices architecture](https://medium.com/javarevisited/spring-cloud-kubernetes-for-hybrid-microservices-architecture-f487d67328d0)
+- [piotrminkowski.com: Microservices with spring cloud kubernetes](https://piotrminkowski.com/2019/12/20/microservices-with-spring-cloud-kubernetes)
+
+##### Spring Cloud Config and Spring Cloud Config Server
+- [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/)
+- [Spring Cloud Config Server: Git Backend](https://cloud.spring.io/spring-cloud-config/reference/html/#_git_backend)
+- [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
+- [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
+
 <center>
 <iframe src="https://www.youtube.com/embed/1w1Jv9qssqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
-
-### CI/CD for kubernetes with SpringBoot
-* [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
 
 <center>
 [![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)

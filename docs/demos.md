@@ -121,6 +121,7 @@
 * [onlineitguru.com: How to utilize Spring Boot Microservices on Kubernetes?](https://onlineitguru.com/blogger/how-to-utilize-spring-boot-microservices-on-kubernetes)
 
 #### Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin
+* [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes)
 * [baeldung.com: Deploy a Spring Boot Application to OpenShift with Spring Cloud Kubernetes 🌟](https://www.baeldung.com/spring-boot-deploy-openshift)
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
