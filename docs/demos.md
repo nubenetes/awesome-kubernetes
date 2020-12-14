@@ -6,6 +6,7 @@
     - [GitOps](#gitops)
 - [Kubernetes Demos](#kubernetes-demos)
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
+        - [Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin](#deploy-a-spring-boot-application-to-openshift-with-spring-cloud-kubernetes-and-fabric-8-maven-plugin)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
     - [Istio](#istio)
     - [Rancher](#rancher)
@@ -117,6 +118,10 @@
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
+* [onlineitguru.com: How to utilize Spring Boot Microservices on Kubernetes?](https://onlineitguru.com/blogger/how-to-utilize-spring-boot-microservices-on-kubernetes)
+
+#### Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin
+* [baeldung.com: Deploy a Spring Boot Application to OpenShift with Spring Cloud Kubernetes 🌟](https://www.baeldung.com/spring-boot-deploy-openshift)
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 * [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
