@@ -2,6 +2,7 @@
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
+- [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
 - [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
     - [Git Workflows](#git-workflows)
     - [Trunk Based Development](#trunk-based-development)
@@ -76,6 +77,10 @@ It prescribes that software designers should define formal, precise and verifiab
 
 ## Git Cheat Sheets
 * [Git and GitHub Cheat Sheets](cheatsheets.md)
+
+## Monorepo VS Polyrepo
+* [fourtheorem.com: How to end Microservice pain and embrace the Monorepo](https://www.fourtheorem.com/blog/monorepo)
+* [medium: The Pros and Cons of Monorepos, Explained](https://medium.com/better-programming/the-pros-and-cons-monorepos-explained-f86c998392e1) Should you keep all of your code in a single directory?
 
 ## Patterns for Managing Source Code Branches (Branching Models/Workflows)
 * [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model/) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.
