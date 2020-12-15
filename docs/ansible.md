@@ -60,6 +60,7 @@
 - [ansible.com: Now Available: Red Hat-Maintained Content Collections on Automation Hub](https://www.ansible.com/blog/now-available-the-new-ansible-content-collections-on-automation-hub)
 - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)
 - [ansible.com: Automating Red Hat Satellite with Ansible](https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible)
+	- [galaxy.ansible.com: letsencrypt](https://galaxy.ansible.com/t_systems_mms/letsencrypt) This collection contains a role for issuing ssl certificates from Let's Encrypt via dns or http-challenge
 
 ## Ansible Cheat Sheets
 * [Ansible Cheat Sheets](cheatsheets.md)
@@ -67,6 +68,7 @@
 ## Running Ansible Playbooks
 * [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
 * [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/)
+* [Ansible Let's Encrypt Collection](https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection)
 
 ### Running Ansible Playbooks From Jenkins
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
