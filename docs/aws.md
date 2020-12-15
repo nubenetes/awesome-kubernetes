@@ -68,6 +68,7 @@
 	- [AWS IAM](#aws-iam)
 	- [AWS Organizations](#aws-organizations)
 	- [AWS CloudFront](#aws-cloudfront)
+	- [AWS Firewalls](#aws-firewalls)
 	- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
 	- [AWS Vault](#aws-vault)
 - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
@@ -484,6 +485,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ### AWS CloudFront
 - [Amazon CloudFront now supports HTTP/2 🌟](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
+
+### AWS Firewalls
+- [doit-intl.com: AWS Firewalls 101: How and when to use each one 🌟](https://blog.doit-intl.com/aws-firewalls-101-how-and-when-to-use-each-one-d4ad8087a6b3)
 
 ### AWS WAF Web Application Firewall
 - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf/)
