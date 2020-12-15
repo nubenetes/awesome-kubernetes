@@ -27,7 +27,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Open Container Initiative](https://www.opencontainers.org/)
 - [agilemethodology.org](http://agilemethodology.org/)
 - [agilemanifesto.org](http://agilemanifesto.org/)
-- [12factor.net](https://12factor.net/)
+- [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready)
 - [openpracticelibrary.com](https://openpracticelibrary.com/)
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
