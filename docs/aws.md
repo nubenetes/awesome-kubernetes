@@ -308,6 +308,7 @@
 - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations/)
 - [**Multi-Region Infrastructure Deployment** 🌟](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
+- [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/amazon-web-services/aws-devops-vs-azure-devops/?utm_source=linkedin&utm_medium=referral&utm_campaign=awsdevops17_dec20_aws_cloud_computing_for_interested_parties__users)
 
 ## AWS Elastic Beanstalk
 - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk/)
