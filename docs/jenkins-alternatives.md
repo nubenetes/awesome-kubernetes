@@ -61,6 +61,8 @@
     * [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)
     * [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image)
     * [medium: Dailymotion’s journey from Jenkins to Jenkins X](https://medium.com/dailymotion/from-jenkins-to-jenkins-x-604b6cde0ce3)
+* HAT is the acronym for Helm, ArgoCD and Tekton:
+    * [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 
 
 ## Comparisons
 * [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)

@@ -89,6 +89,7 @@
 - [AWS Partner Network (APN)](#aws-partner-network-apn)
 - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
 - [AWS EKS & AWS ECS](#aws-eks--aws-ecs)
+- [AWS App Mesh](#aws-app-mesh)
 - [AWS Fargate](#aws-fargate-1)
 - [Interview Questions](#interview-questions)
 - [Local Testing](#local-testing)
@@ -99,6 +100,8 @@
 - [AWS Service Quota Requests](#aws-service-quota-requests)
 - [Resource Hierarchies](#resource-hierarchies)
 - [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
+- [AWS Managed Services for Prometheus and Grafana](#aws-managed-services-for-prometheus-and-grafana)
+- [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Best Practices](#best-practices)
 - [Spain](#spain)
 - [Videos](#videos)
@@ -246,7 +249,7 @@
 - [Amazon WorkMail – Now Generally Available](https://aws.amazon.com/blogs/aws/amazon-workmail-now-generally-available/)
 - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/)
-
+- [AWS CloudShell - Command-Line Access to AWS Resources 🌟](https://aws.amazon.com/es/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/)
 ## AWS Management Console
 - [Working with the AWS Management Console 🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
@@ -591,6 +594,11 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon EKS Now Supports EC2 Inf1 Instances](https://aws.amazon.com/blogs/aws/amazon-eks-now-supports-ec2-inf1-instances/)
 - [Create a pipeline with canary deployments for Amazon EKS with AWS App Mesh 🌟](https://aws.amazon.com/blogs/containers/create-a-pipeline-with-canary-deployments-for-amazon-eks-with-aws-app-mesh/)
 - [medium: Using Helm with Amazon EKS without kubeconfigs](https://medium.com/analytics-vidhya/using-helm-with-amazon-eks-without-a-kubeconfig-733f44a31b1d)
+- [linkedin.com: Amazon EKS Distro (EKS-D): The Kubernetes Distribution Used by Amazon EKS 🌟](https://www.linkedin.com/pulse/amazon-eks-distro-eks-d-kubernetes-distribution-used-gokul-chandra/)
+
+## AWS App Mesh 
+- [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
+- [amazon.com: Leveraging App Mesh with Amazon EKS in a Multi-Account environment](https://aws.amazon.com/blogs/containers/leveraging-app-mesh-with-amazon-eks-in-a-multi-account-environment/)
 
 ## AWS Fargate
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
@@ -623,6 +631,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Systems Manager Explorer
 - [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer/)
+
+## AWS Managed Services for Prometheus and Grafana
+- [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) Highly available, secure, and managed monitoring for your containers
+- [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana/) Powerful, interactive data visualizations for builders, operators, and business leaders
+
+## AWS Chaos Engineeering. AWS Fault Injection Simulator 
+- [techcrunch.com: AWS introduces new Chaos Engineering as a Service offering](https://techcrunch.com/2020/12/15/aws-introduces-new-chaos-engineering-as-a-service-offering/)
 
 ## Best Practices
 - [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time 🌟](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time/)

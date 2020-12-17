@@ -77,6 +77,7 @@ Kubernetes packages
 ## Helmfile
 - [helmfile](https://github.com/linuxadvise/helmfile)
 - [linuxadvise.com: Helmfile - Next Level to manage your helm Charts](https://www.linuxadvise.com/amp/helmfile-next-level-to-manage-your-helm-charts)
+- [kubesandclouds.com: Helmfile: turbocharging Helm](https://kubesandclouds.com/index.php/2020/12/16/helmfile/)
 
 ## Database Migrations
 - [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)

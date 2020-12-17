@@ -1,4 +1,5 @@
 # Linux and SSH
+- [RHEL](#rhel)
 - [VIM](#vim)
 - [SSH](#ssh)
 - [Linux Blogs](#linux-blogs)
@@ -18,6 +19,9 @@
 	- [Hashicorp](#hashicorp)
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
+
+## RHEL
+- [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)
