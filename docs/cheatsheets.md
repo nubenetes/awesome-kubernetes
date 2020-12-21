@@ -24,6 +24,7 @@
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Maven Cheat Sheets](#maven-cheat-sheets)
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
+- [Eclipse MicroProfile](#eclipse-microprofile)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
 - [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
@@ -194,6 +195,9 @@
 * [rratliff.com: Gradle Cheat Sheet](https://www.rratliff.com/gradle-cheat-sheet/)
 * [github.com/jahe: Gradle Cheat Sheet](https://gist.github.com/jahe/59557d507f43574b0d96)
 * [github.com/jiffle: Gradle Cheat Sheet](https://gist.github.com/jiffle/499caa5f53ab8f90dc19a3040ee40f48)
+
+## Eclipse MicroProfile
+* [developers.redhat.com: MicroProfile JWT (JSON Web Tokens)](https://developers.redhat.com/cheat-sheets/microprofile-jwt)
 
 ## Jenkins Cheat Sheets
 * [edureka.co: Jenkins Cheat Sheet 🌟](https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/)

@@ -35,6 +35,8 @@
   * [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
 * [HashiCorp Waypoint](https://www.waypointproject.io/)
   * [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
+* [onedev](https://github.com/theonedev/onedev)
+    * [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)

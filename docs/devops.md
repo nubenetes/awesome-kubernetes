@@ -85,6 +85,7 @@
 * [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/devops/whats-holding-devops-back/a/d-id/1339540) DevOps teams are at different stages of maturity. However, there are some common challenges they face along the way.
 * [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/)
 * [opensource.com: Create a DevOps culture with open source principles](https://opensource.com/article/20/12/remote-devops) Now that more workforces are remote, DevOps teams can maximize their collaboration and productivity by following open source principles.
+* [github.blog: How to make DevOps your competitive advantage](https://github.blog/2020-12-18-how-to-make-devops-your-competitive-advantage/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

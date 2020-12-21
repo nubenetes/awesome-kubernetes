@@ -17,6 +17,7 @@
 - [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
 - [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
 - [Kubernautic](#kubernautic)
+- [Harvester Hyperconverged Infrastructure Software](#harvester-hyperconverged-infrastructure-software)
 
 ## Rancher: Enterprise management for Kubernetes
 * [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
@@ -116,3 +117,7 @@
 
 ## Kubernautic
 - [Kubernautic](https://kubernauts.sh/) Kubernetes For Everyone, Free Forever! Start your CloudLess Journey and get free access to Rancher Shared as a Service (RSaaS) or apply to get access to your own Dedicated Rancher Dashboard (RDaaS) and save up-to 90% of your cloud costs with Auto Scaling of Spot Instances and Kubernauts Kubernetes Services KKS!
+
+## Harvester Hyperconverged Infrastructure Software
+- [Harvester](https://github.com/rancher/harvester) Rancher Harvester is an open source hyper-converged infrastructure (HCI) software built on Kubernetes. It is an open source alternative to vSphere and Nutanix.
+- [rancher.com: Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software](https://rancher.com/blog/2020/announcing-harvester-open-source-hyperconverged-infrastructure-software)
