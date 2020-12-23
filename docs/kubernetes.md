@@ -131,6 +131,7 @@
             - [KubeAcademy Pro (free training)](#kubeacademy-pro-free-training)
         - [Kontena Pharos](#kontena-pharos)
         - [Mirantis Docker Enterprise with Kubernetes and Docker Swarm](#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm)
+        - [Mirantis k0s](#mirantis-k0s)
 - [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
     - [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
 - [SpringBoot with Docker](#springboot-with-docker)
@@ -1404,6 +1405,10 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
     - Virtual services supported out of the box
     - Inbuilt support for GPU Orchestration
     - Launchpad CLI for Docker Enterprise deployment & upgrades
+
+#### Mirantis k0s
+- [k0s](https://k0sproject.io/)
+- [infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution](https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution/)
 
 ## Cloud Development Kit (CDK) for Kubernetes 
 * [cdk8s.io 🌟](https://cdk8s.io/) Define Kubernetes apps and components using familiar languages. cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.

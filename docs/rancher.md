@@ -66,6 +66,8 @@
 * [codeburst.io: Creating a Local Development Kubernetes Cluster with k3s and Traefik Proxy](https://codeburst.io/creating-a-local-development-kubernetes-cluster-with-k3s-and-traefik-proxy-7a5033cb1c2d)
 * [sysdig.com: K3s + Sysdig: Deploying and securing your cluster… in less than 8 minutes! 🌟](https://sysdig.com/blog/k3s-sysdig-falco/)
 * [rancher.com: Set up Your K3s Cluster for High Availability](https://rancher.com/blog/2020/k3s-high-availability)
+* [blog.alexellis.io: Bare-metal Kubernetes with K3s](https://blog.alexellis.io/bare-metal-kubernetes-with-k3s/)
+* [rancher.com: Set up K3s in High Availability using k3d](https://rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

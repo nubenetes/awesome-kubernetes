@@ -41,6 +41,7 @@
 | [Caravan](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |
 | [ClusterAPI](https://cluster-api.sigs.k8s.io/)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | No | No | No |  |  | 
 | [Kind](https://github.com/kubernetes-sigs/kind)| Devel | Kubernetes Upstream |  | Yes | OSS | No | Yes | Yes | No | Yes | Not designed for production use; it is intended for development and <br/>testing environments. | 
+| [k0s](https://k0sproject.io/)| SRE / DevOps | | | Yes | OSS | Yes | Yes | No | Yes | Yes | Developed by Mirantis | 
 | [Ubuntu Charmed Kubernetes](https://ubuntu.com/kubernetes/features)| SRE / DevOps / Devel |  Kubernetes Upstream |  | | |  |  | |  |  |  |
 | [VMware Pivotal Container Service (PKS)](https://pivotal.io/platform/pivotal-container-service)| SRE / DevOps | PKS / Cloud Foundry PaaS <br/>(no kubernetes) | vSphere, multi-cloud, public-cloud | Yes | Yes | Yes | No | No | Yes | Yes | Pivotal Container Service (PKS) adquired by VMware in 2019. <br/>Cloud Foundry PaaS that compites with kubernetes. | 
 | [VMware vSphere 7 with Kubernetes](https://www.vmware.com/products/vsphere.html)| SRE / DevOps | VMware Kubernetes | vSphere | Yes | Yes | Yes | No | No | Yes | Yes | VMware's kubernetes | 

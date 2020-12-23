@@ -1,7 +1,7 @@
 # Cloud Native Storage
 - [Introduction](#introduction)
 - [Ebooks](#ebooks)
-- [Solutions](#solutions)
+- [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
 	- [Rook](#rook)
 	- [Robin](#robin)
 	- [Reduxio](#reduxio)
@@ -28,7 +28,7 @@
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
 
-## Solutions
+## Cloud Native Storage Solutions
 - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)
 
 ### Rook

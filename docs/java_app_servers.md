@@ -1,4 +1,14 @@
 # Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes
+- [Introduction. Jakarta EE (formerly J2EE)](#introduction-jakarta-ee-formerly-j2ee)
+- [Payara](#payara)
+    - [Docker Hub images](#docker-hub-images)
+- [Red Hat JBoss EAP](#red-hat-jboss-eap)
+- [WildFly](#wildfly)
+- [IBM WebSphere Liberty](#ibm-websphere-liberty)
+- [Alternatives](#alternatives)
+
+## Introduction. Jakarta EE (formerly J2EE)
+- [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE)
 ## Payara
 * [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server) 
 * [Payara](https://www.payara.fish/) Java EE/Jakarta EE Application Server and MicroProfile implementation.

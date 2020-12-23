@@ -13,6 +13,7 @@
 	- [AWS DevOps](#aws-devops)
 	- [Azure DevOps](#azure-devops)
 	- [Google Cloud Platform](#google-cloud-platform)
+- [NoOps](#noops)
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
@@ -150,6 +151,9 @@
     * [github: Google Cloud Code samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
+
+## NoOps
+- [devops.com: Up Your DevOps Game: It’s Time for NoOps](https://devops.com/up-your-devops-game-its-time-for-noops/)
 
 <center>
 [![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
