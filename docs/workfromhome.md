@@ -23,7 +23,3 @@
 ## Tips
 * [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
 
----
-<center>
-[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
-</center>
