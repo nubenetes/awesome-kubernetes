@@ -24,6 +24,7 @@
 - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas/)
 - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/)
 - [medium: Kubernetes Storage Performance Comparison v2 (2020 Updated) 🌟](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)
+- [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://blocksandfiles.com/2020/12/22/the-storageless-storage-paradox/)
 
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
