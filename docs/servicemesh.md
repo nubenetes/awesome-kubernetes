@@ -46,9 +46,7 @@
 - [Linkerd](https://linkerd.io/)
 - [Announcing Linkerd 2.8: simple, secure multi-cluster Kubernetes](https://linkerd.io/2020/06/09/announcing-linkerd-2.8/)
 
-```
-[Installed @Linkerd in staging yesterday using Helm and Terraform](https://twitter.com/DanielJamesPost). It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production.
- ```
+"[Installed @Linkerd in staging yesterday using Helm and Terraform](https://twitter.com/DanielJamesPost). It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production."
 
 ## Maesh Service Mesh
 - [Maesh](https://containo.us/maesh/)

@@ -25,6 +25,7 @@
 - [qautomation.blog: How to run selenium script in JMeter](https://qautomation.blog/2019/05/07/how-to-run-selenium-script-in-jmeter/)
 - [dev.to: Using Selenium With Python in a Docker Container](https://dev.to/nazliander/using-selenium-within-a-docker-container-ghp)
 - [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial/)
+- [lambdatest.com: ow To Integrate Jenkins & Maven With Selenium?](https://www.lambdatest.com/blog/selenium-maven-jenkins-integration/)
 
 ## Mobile Tests
 ### Appium

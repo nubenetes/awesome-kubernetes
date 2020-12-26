@@ -36,7 +36,8 @@
     - [Kubenav](#kubenav)
     - [Skaffold. Local Kubernetes Development](#skaffold-local-kubernetes-development)
     - [Kind](#kind)
-- [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
+- [Autoscaling](#autoscaling)
+    - [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
     - [HPA and VPA](#hpa-and-vpa)
     - [Cluster Autoscaler and Helm](#cluster-autoscaler-and-helm)
     - [Cluster Autoscaler and DockerHub](#cluster-autoscaler-and-dockerhub)
@@ -440,6 +441,7 @@
 * [Kubectl Autocomplete](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3)
 * [Kubernetes productivity tips and tricks 🌟](https://www.padok.fr/en/blog/kubernetes-productivity-tips)
+* [complete-alias](https://github.com/cykerway/complete-alias) Automagical shell alias completion.
 
 ```bash
 source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
@@ -529,7 +531,14 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Kind
 - [Kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
-## Cluster Autoscaler Kubernetes Tool
+## Autoscaling
+* [levelup.gitconnected.com: Effects of Docker Image Size on AutoScaling w.r.t Single and Multi-Node Kube Cluster](https://levelup.gitconnected.com/effects-of-docker-image-size-on-autoscaling-w-r-t-single-and-multi-node-kube-cluster-29c4f689cd99)
+* [infracloud.io: 3 Autoscaling Projects to Optimise Kubernetes Costs](https://www.infracloud.io/blogs/3-autoscaling-projects-optimising-kubernetes-costs/) Three autoscaling use cases:
+    * Autoscaling Event-driven workloads
+    * Autoscaling real-time workloads
+    * Autoscaling Nodes/Infrastructure 
+
+### Cluster Autoscaler Kubernetes Tool
 * [kubernetes.io: Cluster Management - **Resizing a cluster**](https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#resizing-a-cluster)
 * [github.com/kubernetes: **Kubernetes Cluster Autoscaler**](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler)
 * [Kubernetes Autoscaling in Production: Best Practices for **Cluster Autoscaler, HPA and VPA**](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa) In this article we will take a deep dive into Kubernetes autoscaling tools including the cluster autoscaler, the horizontal pod autoscaler and the vertical pod autoscaler. We will also identify best practices that developers, DevOps and Kubernetes administrators should follow when configuring these tools.
@@ -544,7 +553,6 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Auto-Scaling Your Kubernetes Workloads (K8s) 🌟](https://medium.com/faun/autoscaling-in-kubernetes-cluster-bc55b8393a19)
 * [medium: Cluster Autoscaler in Kubernetes](https://medium.com/avmconsulting-blog/cluster-autoscaler-type-in-kubernetes-part2-f2ae432eefbb)
 * [itnext.io: Kubernetes Resources and Autoscaling — From Basics to Greatness 🌟](https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b)
-* [levelup.gitconnected.com: Effects of Docker Image Size on AutoScaling w.r.t Single and Multi-Node Kube Cluster](https://levelup.gitconnected.com/effects-of-docker-image-size-on-autoscaling-w-r-t-single-and-multi-node-kube-cluster-29c4f689cd99)
 
 ### HPA and VPA
 * [HPA: Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
@@ -797,6 +805,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 - [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) ekglue is a projects that facilitates connecting Kubernetes and Envoy, allowing Envoy to read Kubernetes services and endpoints as clusters (via CDS) and endpoints (via EDS).
 - [salesforce/Craft](https://github.com/salesforce/craft) CRAFT helps you to create Kubernetes Operators in a robust and generic way for any resource, letting developers focus on CRUD operations of resource management in a Dockerfile.
 - [hyscale 🌟](https://github.com/hyscale/hyscale) HyScale takes a declarative definition of your service config and it generates Dockerfile, Container Image, Kubernetes Manifests (YAMLs) and deploys to any Kubernetes Cluster.
+- [kubectl-reap is a kubectl plugin that deletes unused Kubernetes resources 🌟](https://github.com/micnncim/kubectl-reap)
 
 ## Enforcing Policies and governance for kubernetes workloads with Conftest
 * [Accelerated Feedback Loops when Developing for Kubernetes with Conftest](https://engineering.plex.com/posts/kubernetes-policy-conftest) Learn how to validate Kubernetes resources with Conftest for faster feedback loops

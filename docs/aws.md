@@ -105,6 +105,7 @@
 - [Best Practices](#best-practices)
 - [Tools](#tools)
 - [Spain](#spain)
+- [Scripts](#scripts)
 - [Videos](#videos)
 
 <!-- /MarkdownTOC -->
@@ -649,6 +650,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
+
+## Scripts
+- [AWS IP inventory](https://github.com/okelet/awsipinventory) Tool to generate an inventory of all IP addresses in use in an account, one or multiple VPC, or one or multiple subnet.
 
 ## Videos
 

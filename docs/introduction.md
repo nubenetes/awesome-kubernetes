@@ -7,6 +7,7 @@
 - [Career Path](#career-path)
 - [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
 - [Software Development Models](#software-development-models)
+- [Software Development Tools](#software-development-tools)
 
 ## Introduction
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
@@ -88,6 +89,9 @@
 
 ## Software Development Models
 - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know) Software Development Models are integral to the success (or failure) of a project. Here are 7 models you should know, from Waterfall to the V-Model to Scrum.
+
+## Software Development Tools
+- [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive/)
 
 <center>
 [![Openshift SaaS VS Kubernetes SaaS](images/openshift-vs-kubernetes-saas.png)](https://proteon.com/2018/10/18/openshift-in-a-world-of-kubernetes-as-a-service/)

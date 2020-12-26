@@ -3,6 +3,7 @@
 - [Security](#security)
 - [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
 - [Reducing Build Time](#reducing-build-time)
+- [Modify containers without rebuilding](#modify-containers-without-rebuilding)
 - [Docker Tools](#docker-tools)
 - [Docker and WSL2](#docker-and-wsl2)
 - [Docker Cheat sheet](#docker-cheat-sheet)
@@ -62,6 +63,9 @@
 ## Reducing Build Time
 * [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)
     * ``BUILDKIT_INLINE_CACHE=1 build-arg`` is a neat flag that you could add to your docker build to reduce the build time upto 89%
+
+## Modify containers without rebuilding
+* [cloudowski.com: How to modify containers without rebuilding their image](https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/)
 
 ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
