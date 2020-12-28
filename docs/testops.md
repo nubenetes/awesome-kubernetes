@@ -11,6 +11,7 @@
 - [opcito.com: TestOps: How to automate your software pipeline at the speed of DevOps](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [xeridia.co.uk: Benefits of Test-Driven Development in DevOps Environments](https://www.xeridia.co.uk/blog/benefits-test-driven-development-devops-environments)
+- [softwarebusinessgrowth.com: Parallel System Validation – The End Of DevOps](https://www.softwarebusinessgrowth.com/doc/parallel-system-validation-the-end-of-devops-0001)
 
 ## Continuous Testing in DevOps
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
