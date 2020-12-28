@@ -1,4 +1,9 @@
 # Jenkins Alternatives for Continuous Integration
+- [Alternatives](#alternatives)
+- [Cloud Native CI/CD](#cloud-native-cicd)
+- [Comparisons](#comparisons)
+- [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
+## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 * [Circle CI](https://circleci.com/)
     * [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
@@ -37,6 +42,7 @@
   * [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
 * [onedev](https://github.com/theonedev/onedev)
     * [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c)
+* [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
 
 ## Cloud Native CI/CD
 * [jenkins-x.io](https://jenkins-x.io/)
