@@ -23,6 +23,7 @@
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
 - [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
 - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)
+- [agilecheetah.com: Why So Many Developers are Fed Up with Agile 🌟](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3/)
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
