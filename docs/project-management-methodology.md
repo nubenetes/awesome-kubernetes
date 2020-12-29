@@ -23,7 +23,10 @@
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
 - [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
 - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)
-- [agilecheetah.com: Why So Many Developers are Fed Up with Agile 🌟](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3/)
+- [agilecheetah.com: Why So Many Developers are Fed Up with Agile](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3/)
+- [age-of-product.com: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://age-of-product.com/scrum-2021/)
+- [age-of-product.com: Hiring: 71 Scrum Product Owner Interview Questions to Avoid Agile Imposters](https://age-of-product.com/42-scrum-product-owner-interview-questions/)
+- [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner)
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

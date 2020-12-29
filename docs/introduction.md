@@ -1,6 +1,7 @@
 # From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
 - [PaaS](#paas)
+- [Modular Monolith](#modular-monolith)
 - [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
 - [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
 - [Openshift VS Kubernetes](#openshift-vs-kubernetes)
@@ -56,6 +57,9 @@
 
 ## PaaS
 - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
+
+## Modular Monolith
+- [kamilgrzybek.com: Modular Monolith: A Primer 🌟](https://www.kamilgrzybek.com/design/modular-monolith-primer/)
 
 ## From Java EE To Cloud Native
 - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)

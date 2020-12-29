@@ -93,6 +93,7 @@ A simple extension to make indentation more readable
 * [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code/)
 	* [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
 * [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/2020/11/30/vscode-extension-development-with-gitlab/) As VS Code editor increases in popularity, find out how GitLab + VS Code can be used for extension development and how we develop the official GitLab VS Code extension.
+* [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity/)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
