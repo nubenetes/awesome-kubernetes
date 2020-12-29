@@ -75,7 +75,8 @@
 * [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     * [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
 * [yankils/Simple-DevOps-Project](https://github.com/yankils/Simple-DevOps-Project) 
-- [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
+* [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
+* [swissarmydevops.com](https://swissarmydevops.com/) 
 
 ### Ansible and Ansible Tower
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
