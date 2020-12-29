@@ -388,6 +388,7 @@
 * [sysdig.com: Monitoring Kubernetes in Production](https://sysdig.com/blog/monitoring-kubernetes/)
 * [sysdig.com: How to monitor Kubernetes control plane 🌟](https://sysdig.com/blog/monitor-kubernetes-control-plane/)
 * [thenewstack.io: 12 Critical Kubernetes Health Conditions You Need to Monitor 🌟](https://thenewstack.io/12-critical-kubernetes-health-conditions-you-need-to-monitor/)
+* [devopscurry.com: Best  Open-Source Monitoring Tools for Kubernetes in 2021 🌟](https://devopscurry.com/best-open-source-monitoring-tools-for-kubernetes-in-2021/)
 
 #### Logging in Kubernetes
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack 🌟](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)
