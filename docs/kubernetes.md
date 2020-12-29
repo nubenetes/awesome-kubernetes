@@ -348,6 +348,7 @@
 * [towardsdatascience.com: Kubernetes is deprecating Docker in the upcoming release](https://towardsdatascience.com/kubernetes-is-deprecating-docker-in-the-upcoming-release-2a03d607934a) Kubernetes and Docker will part ways; what does that mean to you?
 * [zdnet.com: Kubernetes dropping Docker is not that big of a deal](https://www.zdnet.com/article/kubernetes-dropping-docker-is-not-that-big-of-a-deal/) Chill, people. Your Docker skills haven't suddenly become useless. Here's what's really going on.
 * [thenewstack.io: Kubernetes 1.20 Lands with 44 Enhancements](https://thenewstack.io/kubernetes-1-20-lands-with-44-enhancements/)
+* [thenewstack.io: Kubernetes 1.20 Enhances the Operator Experience and Brings New Features to the Container Runtime](https://thenewstack.io/kubernetes-1-20-enhances-the-operator-experience-and-brings-new-features-to-the-container-runtime/)
 * [openshift.com: Kubernetes is Removing Docker Support, Kubernetes is Not Removing Docker Support](https://www.openshift.com/blog/kubernetes-is-removing-docker-support-kubernetes-is-not-removing-docker-support)
 
 ### Namespaces

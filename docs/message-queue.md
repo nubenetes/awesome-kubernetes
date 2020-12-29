@@ -165,7 +165,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [mongodb.com: DaaS with MongoDB and Confluent](https://www.mongodb.com/blog/post/daa-s-with-mongo-db-and-confluent)
 
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
-- [Redpanda](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
+- [Redpanda 🌟](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
+- [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/) 
 
 #### KsqlDB
 - [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.
