@@ -8,27 +8,27 @@
 - [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
 - [Zalando PostgreSQL Operator](#zalando-postgresql-operator)
 - [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
-	- [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
-	- [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
-		- [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
-		- [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
-		- [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
-			- [Service Accounts](#service-accounts)
-			- [Roles assigned to Service Accounts](#roles-assigned-to-service-accounts)
-			- [Security Context Constraints (SCC)](#security-context-constraints-scc)
-				- [SCC Recommendations](#scc-recommendations)
-			- [Add a SCC to a Project](#add-a-scc-to-a-project)
-				- [Workflow1 without custom Service Account and without DeploymentConfig](#workflow1-without-custom-service-account-and-without-deploymentconfig)
-				- [Workflow2 with custom Service Account and without DeploymentConfig](#workflow2-with-custom-service-account-and-without-deploymentconfig)
-				- [Workflow3 with custom service Account and DeploymentConfig](#workflow3-with-custom-service-account-and-deploymentconfig)
-			- [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
-			- [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
-			- [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
-			- [List Databases with psql](#list-databases-with-psql)
-			- [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
-			- [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
-			- [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
-		- [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
+    - [Crunchy Data Developer Portal](#crunchy-data-developer-portal)
+    - [Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept](#crunchy-data-postgres-operator-in-openshift-4-overview--proof-of-concept)
+        - [Crunchydata Postgres Operator 3.5](#crunchydata-postgres-operator-35)
+        - [Crunchydata Postgres Operator 4.0.1](#crunchydata-postgres-operator-401)
+        - [Crunchydata Postgres Operator 4.0.1 Community Edition](#crunchydata-postgres-operator-401-community-edition)
+            - [Service Accounts](#service-accounts)
+            - [Roles assigned to Service Accounts](#roles-assigned-to-service-accounts)
+            - [Security Context Constraints (SCC)](#security-context-constraints-scc)
+                - [SCC Recommendations](#scc-recommendations)
+            - [Add a SCC to a Project](#add-a-scc-to-a-project)
+                - [Workflow1 without custom Service Account and without DeploymentConfig](#workflow1-without-custom-service-account-and-without-deploymentconfig)
+                - [Workflow2 with custom Service Account and without DeploymentConfig](#workflow2-with-custom-service-account-and-without-deploymentconfig)
+                - [Workflow3 with custom service Account and DeploymentConfig](#workflow3-with-custom-service-account-and-deploymentconfig)
+            - [Environment setup. Port Forward and WSL](#environment-setup-port-forward-and-wsl)
+            - [Cluster Deployment and Operation with pgo](#cluster-deployment-and-operation-with-pgo)
+            - [Psql access from postgres operator POD](#psql-access-from-postgres-operator-pod)
+            - [List Databases with psql](#list-databases-with-psql)
+            - [Access from another POD within the cluster with psql client](#access-from-another-pod-within-the-cluster-with-psql-client)
+            - [Access from another POD within the cluster with Pgadmin4 of Crunchy containers Community Edition](#access-from-another-pod-within-the-cluster-with-pgadmin4-of-crunchy-containers-community-edition)
+            - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
+        - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
 - [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
 - [SQL Server](#sql-server)
 - [MySQL](#mysql)
@@ -762,3 +762,11 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## Time-Series Database
 - [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database/)
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/963413508300812295?ref_src=twsrc%5Etfw">February 13, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Postgres is what happens when tech gets so good, for so long, it becomes boring. Dope since the 80s. <a href="https://t.co/zeoagBfMvW">https://t.co/zeoagBfMvW</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1343617588262096896?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

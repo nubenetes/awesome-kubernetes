@@ -18,6 +18,7 @@
 	- [GraphQL](#graphql)
 - [Free Web Services (Public APIs)](#free-web-services-public-apis)
 - [Related](#related)
+- [Video APIs](#video-apis)
 - [API Business Models](#api-business-models)
 
 ## APIs
@@ -122,6 +123,10 @@
 * [portal.dev](https://portal.dev/) Build beautiful API documentation. Portal lets you create, publish, and maintain your API docs with ease.
 * [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) A clean and simple way to document your code for generating OpenAPI (Swagger) specs.
     * [IBM creates an open source tool to simplify API documentation](https://www.techrepublic.com/article/ibm-creates-an-open-source-tool-to-simplify-api-documentation/)
+
+## Video APIs
+* [Mux: The API to Video](https://mux.com/)
+	* [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (audio)](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat/)
 
 ## API Business Models
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)

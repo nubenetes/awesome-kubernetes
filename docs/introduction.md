@@ -1,5 +1,6 @@
 # From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Raft Consensus Algorithm](#raft-consensus-algorithm)
 - [PaaS](#paas)
 - [Modular Monolith](#modular-monolith)
 - [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
@@ -54,6 +55,9 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## Raft Consensus Algorithm
+- [The Raft Consensus Algorithm 🌟](https://raft.github.io/) [etcd](https://github.com/etcd-io/etcd) is a “distributed reliable key-value store for the most critical data of a distributed system”. It uses the Raft consensus algorithm which was designed to be easy to understand, to scale, and to operate. The protocol and the etcd implementation were very quickly adopted by large distributed systems like Kubernetes, large distributed databases or messaging frameworks, where consensus and strong consistency is a must. 
 
 ## PaaS
 - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
