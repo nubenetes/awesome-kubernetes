@@ -8,7 +8,8 @@
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
         - [Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin](#deploy-a-spring-boot-application-to-openshift-with-spring-cloud-kubernetes-and-fabric-8-maven-plugin)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
-    - [Istio](#istio)
+    - [Istio Service Mesh](#istio-service-mesh)
+    - [Envoy Service Mesh](#envoy-service-mesh)
     - [Rancher](#rancher)
     - [GitOps Workflow with Flux](#gitops-workflow-with-flux)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
@@ -59,6 +60,7 @@
 - [JBoss EAP](#jboss-eap)
 - [Terraform](#terraform)
 - [Prometheus and Grafana](#prometheus-and-grafana)
+- [GitHub Actions](#github-actions)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -131,9 +133,12 @@
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 * [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
 
-### Istio
+### Istio Service Mesh
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 - [blog.jetstack.io: Istio OIDC Authentication](https://blog.jetstack.io/blog/istio-oidc/) In this article you'll deploy an app and secure it with authenticaiton and authorisation for using Istio
+
+### Envoy Service Mesh
+- [loginradius.com: Service Mesh with Envoy](https://www.loginradius.com/blog/async/service-mesh-with-envoy/) This post will cover a working setup of a service mesh architecture using Envoy using a demo application. You will be using Envoy proxy for both control and data plane.
 
 ### Rancher
 - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
@@ -460,3 +465,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).
+
+## GitHub Actions
+- [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)

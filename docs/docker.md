@@ -49,6 +49,9 @@
 * [A Gentle Introduction to Using a Docker Container as a Dev Environment](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/)
 * [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)
 * [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool/)
+* [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 1 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-1/)
+* [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 2 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2/)
+* [adictosaltrabajo.com: Cómo crear y desplegar microservicios con Spring Boot, Spring Cloud Netflix y Docker](https://www.adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker/)
 
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)

@@ -150,6 +150,9 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [levelup.gitconnected.com: Kafka for Engineers 🌟](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067) Here are things about Kafka that you need to understand as a software engineer.
 - [confluent.io: How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka](https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka/)
 - [banzaicloud.com: Kafka on Kubernetes - using etcd 🌟](https://banzaicloud.com/blog/kafka-on-etcd/)
+- [softwareengineeringdaily.com: Kafka Applications with Tim Berglund (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/16/kafka-applications-with-tim-berglund-repeat/)
+- [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
+- [infoq.com: Building a SQL Database Audit System using Kafka, MongoDB and Maxwell's Daemon](https://www.infoq.com/articles/database-audit-system-kafka/)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)

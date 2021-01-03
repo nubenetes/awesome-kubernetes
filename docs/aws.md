@@ -104,6 +104,7 @@
 - [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Best Practices](#best-practices)
 - [Tools](#tools)
+- [AWS Amplify](#aws-amplify)
 - [Spain](#spain)
 - [Scripts](#scripts)
 - [Videos](#videos)
@@ -646,6 +647,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Tools
 - [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
+
+## AWS Amplify
+- [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-and-react-native-a-tutorial/)
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

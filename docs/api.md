@@ -126,7 +126,7 @@
 
 ## Video APIs
 * [Mux: The API to Video](https://mux.com/)
-	* [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (audio)](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat/)
+	* [softwareengineeringdaily.com: Kubernetes vs. Serverless with Matt Ward (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/29/kubernetes-vs-serverless-with-matt-ward-repeat/)
 
 ## API Business Models
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)

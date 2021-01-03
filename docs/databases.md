@@ -1,4 +1,5 @@
 # Relational Databases on Kubernetes. Database DevOps
+- [Introduction](#introduction)
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
 - [Databases on Kubernetes](#databases-on-kubernetes)
 - [Database DevOps](#database-devops)
@@ -37,8 +38,11 @@
 - [Tools](#tools)
 - [Time-Series Database](#time-series-database)
 
+## Introduction
+- [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture/)
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
+* [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html)
 
 [![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 
@@ -111,6 +115,7 @@
 * [youtube: OCB: High Availability PostgreSQL and more on OpenShift - Jonathan Katz (Crunchy Data) 🌟](https://www.youtube.com/watch?v=9jbR9lZuSU0) Learn how the PostgreSQL Operator from Crunchy Data makes it easy to deploy high availability Postgres clusters on OpenShift. Beyond that, we'll look at how the Operator pattern makes it possible to run your own open source database-as-a-service and cover the essential features: provisioning, HA, disaster recovery, monitoring, and how to do it all securely!
 * [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://info.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)
 * [info.crunchydata.com: Using the PostgreSQL Operator with Rook Ceph Storage](https://info.crunchydata.com/blog/crunchy-postgresql-operator-with-rook-ceph-storage)
+* [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://info.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)

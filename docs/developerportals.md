@@ -94,6 +94,7 @@
 
 ### Gloo Federation API Gateway Management
 - [Introducing Gloo Federation for Multi-Cluster API Gateway Management](https://www.solo.io/blog/introducing-gloo-federation-for-multi-cluster-management/)
+- [solo.io: [Tutorial] Securing APIs with OIDC Using Keycloak](https://www.solo.io/blog/tutorial-gloo-integration-with-keycloak/) In this tutorial, you will learn how to integrate the Gloo API gateway with Keycloack in Kubernetes
 
 ### Backstage Developer Portal 
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify

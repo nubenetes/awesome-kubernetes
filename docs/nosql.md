@@ -47,6 +47,7 @@
 ### Alternatives
 - [Couchdb.apache.org](http://couchdb.apache.org)
 - [Cassandra.apache.org](http://cassandra.apache.org/)
+	- [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing/) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. 
 - [HBase.apache.org](http://hbase.apache.org/)
 - [Hive.apache.org](https://hive.apache.org/)
 - [rethinkdb.com](http://rethinkdb.com)
@@ -58,6 +59,7 @@
 ## NewSQL
 - [NuoDB, elastically scalable database. A revolution compared to traditional monolithic 1-box databases. NuoDB is ACID,SQL, distributed/scalable and support flexible schemas](http://www.nuodb.com/)
 - [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)
+- [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)
 
 ---
 <center>

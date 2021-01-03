@@ -330,6 +330,7 @@
 * [redhat.com: Start learning Kubernetes from your local machine](https://www.redhat.com/sysadmin/start-learning-kubernetes)
 * [medium: Pratyush Mathur - Kubernetes Architecture](https://medium.com/@pratyush.mathur/kubernetes-architecture-82e9bc8324f1)
 * [medium: Deployment types in Kubernetes 🌟](https://medium.com/avmconsulting-blog/deployment-types-in-kubernetes-14b70ca7ef93)
+* [platform9.com: Difference Between multi-cluster, multi-master, multi-tenant & federated Kubernetes 🌟](https://platform9.com/blog/difference-between-multi-cluster-multi-master-multi-tenant-federated-kubernetes/)
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)

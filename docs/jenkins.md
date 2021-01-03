@@ -344,6 +344,7 @@
 * [QF-Test](https://plugins.jenkins.io/qftest/) is a cross-platform software tool for the GUI test automation specialized on Java and Web applications. 
 * [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/)
 * [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter/)
+* [devopscurry.com: Best Jenkins Plugin for 2021 🌟](https://devopscurry.com/best-jenkins-plugins-for-2021/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
