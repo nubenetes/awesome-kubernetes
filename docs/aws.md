@@ -9,6 +9,7 @@
 - [Amazon Web Services](#amazon-web-services)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
+- [AWS Certification](#aws-certification)
 - [AWS Glossary](#aws-glossary)
 - [Awesome AWS](#awesome-aws)
 - [AWS Marketplace](#aws-marketplace)
@@ -134,6 +135,9 @@
 - https://forums.aws.amazon.com
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
+
+## AWS Certification
+- [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 
 ## AWS Glossary
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
@@ -554,6 +558,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS NoSQL DynamoDB
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/)
+- [medium: An Ultimate Guide to AWS Serverless database — DynamoDB](https://medium.com/javascript-in-plain-english/an-ultimate-guide-to-aws-serverless-database-dynamodb-aa048a62f2da) AWS DynamoDb is a fully managed, NoSQL, Single digit latency, a serverless database that can handle any kind of online workloads.
 
 ## AWS IoT
 - [aws.amazon.com/en/iot](https://aws.amazon.com/en/iot)

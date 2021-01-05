@@ -7,6 +7,7 @@
 - [Kubernetes Demos](#kubernetes-demos)
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
         - [Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin](#deploy-a-spring-boot-application-to-openshift-with-spring-cloud-kubernetes-and-fabric-8-maven-plugin)
+        - [Spring Initializr and k8s Initializer](#spring-initializr-and-k8s-initializer)
     - [Kubernetes CKAD Example Exam Questions Practical Challenge Series](#kubernetes-ckad-example-exam-questions-practical-challenge-series)
     - [Istio Service Mesh](#istio-service-mesh)
     - [Envoy Service Mesh](#envoy-service-mesh)
@@ -129,6 +130,11 @@
 #### Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin
 * [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes)
 * [baeldung.com: Deploy a Spring Boot Application to OpenShift with Spring Cloud Kubernetes 🌟](https://www.baeldung.com/spring-boot-deploy-openshift)
+
+#### Spring Initializr and k8s Initializer
+- [Spring Initializr](https://start.spring.io/)
+- [k8s Initializer](https://app.getambassador.io/initializer/)
+- [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 * [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
@@ -375,6 +381,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## GitLab 
 - [piotrminkowski.com: GitLab CI/CD on Kubernetes](https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes/)
+- [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) New to continuous integration? Learn how to build your first CI pipeline with GitLab.
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
@@ -462,6 +469,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Terraform
 - [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.
 - [opensource.com: A guide to Terraform for Kubernetes beginners](https://opensource.com/article/20/7/terraform-kubernetes) Learn how to make a Minikube cluster and deploy to it with Terraform.
+- [medium: Install Istio on Azure Kubernetes cluster using Terraform](https://medium.com/@vipinagarwal18/install-istio-on-azure-kubernetes-cluster-using-terraform-214f6d3f611)
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

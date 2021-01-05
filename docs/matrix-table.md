@@ -1,6 +1,7 @@
 # Kubernetes Distributions & Installers Matrix Table
-- [Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode/)
+- [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode/)
 - [Learnk8s: Comparison of Kubernetes Managed Services 🌟](https://docs.google.com/spreadsheets/d/1RPpyDOLFmcgxMCpABDzrsBYWpPYCIBuvAoUQLwOGoQw/) [Learnk8s](https://www.linkedin.com/company/learnk8s/) has compared Managed Kubernetes Services and put up online a nice sheet displaying best-breed cloud services and their Managed K8s offerings. Look for Price, Quotas, Security, etc.
+- [Learnk8s: Comparison of Kubernetes Ingress controllers 🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) Daniele Polencic: "What's the best Kubernetes Ingress Controller? There is not a simple answer as some controllers are better suited for APIs, others require less maintenance, etc. To make sense of all the options, we've expanded the comparison of the Ingress controllers to include 16 Ingress controllers and several other missing features such as Hot Reloading, Proxy Protocol, Cert manager integration, etc."
 
 |  Kubernetes Installer or Distribution | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 

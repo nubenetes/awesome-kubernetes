@@ -1,5 +1,6 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
+- [AWS Cheat Sheets](#aws-cheat-sheets)
 - [eBooks](#ebooks)
 - [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
 	- [Dash for MacOS (paid)](#dash-for-macos-paid)
@@ -44,7 +45,10 @@
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 * [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
 - [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets/)
+
+## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
+- [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
 
 ## eBooks
 * [Red Hat Developer eBooks 🌟](https://developers.redhat.com/ebooks) Browse through our collection of eBooks to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy books on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
