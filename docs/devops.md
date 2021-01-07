@@ -161,6 +161,7 @@
   
 ## Data as Code
 - [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code/)
+- [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code/)
 
 <center>
 [![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)

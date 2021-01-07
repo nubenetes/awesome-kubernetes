@@ -50,11 +50,13 @@
 
 ## Responsibility Assignment Matrix (RACI)
 - [wikipedia: Responsibility assignment matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
-- [Create A Responsibility Assignment Matrix (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple/)
+- [thedigitalprojectmanager.com: Create A Responsibility Assignment Matrix (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple/)
+	- [thedigitalprojectmanager.com: Matriz RACI Simplificado: Cómo Crear Una Matriz De Responsabilidades Que Realmente Funcione](https://thedigitalprojectmanager.com/es/grafico-raci-manera-mas-simple/)
 - [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix/)
 - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
 - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
+- [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 
 <center>
 [![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
