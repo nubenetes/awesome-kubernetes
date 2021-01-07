@@ -126,6 +126,7 @@
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
 * [onlineitguru.com: How to utilize Spring Boot Microservices on Kubernetes?](https://onlineitguru.com/blogger/how-to-utilize-spring-boot-microservices-on-kubernetes)
 * [piotrminkowski.com: Spring Boot on Kubernetes with Buildpacks and Skaffold 🌟](https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold/)
+* [spring.io: YMNNALFT: Easy Docker Image Creation with the Spring Boot Maven Plugin and Buildpacks](https://spring.io/blog/2021/01/04/ymnnalft-easy-docker-image-creation-with-the-spring-boot-maven-plugin-and-buildpacks)
 
 #### Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin
 * [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes)

@@ -27,6 +27,8 @@
 - [Kubernetes Network Policies](#kubernetes-network-policies)
 - [Static Analysis SAST](#static-analysis-sast)
 - [Kubernetes Security Tools](#kubernetes-security-tools)
+- [Helm Charts Security](#helm-charts-security)
+- [Password Recovery](#password-recovery)
 - [Books](#books)
 
 ## Introduction
@@ -154,6 +156,12 @@
 ## Kubernetes Security Tools 
 - [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes)
 - [Pomerium](https://github.com/pomerium/pomerium) is an identity-aware proxy that enables secure access to internal applications. Pomerium brings consistent authz/authn, tooling, and auditing across cloud and on-premise deployments. No VPN or cloud provider account is required
+
+## Helm Charts Security
+- [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1) Or, how to deploy 25+ CVEs to prod in one command!
+
+## Password Recovery
+- [hashcat](https://hashcat.net/hashcat/)
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)
