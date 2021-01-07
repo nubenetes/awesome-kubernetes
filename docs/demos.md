@@ -233,6 +233,7 @@
   - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 2](https://developers.redhat.com/blog/2020/10/14/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-2/)
 - [itnext.io: Deploy Argo CD with Ingress and TLS in Three Steps: No YAML Yak Shaving Required 🌟](https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491)
   - [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://app.getambassador.io/)
+- [developers.redhat.com: Introduction to Tekton and Argo CD for multicluster development](https://developers.redhat.com/blog/2020/09/03/introduction-to-tekton-and-argo-cd-for-multicluster-development/)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)

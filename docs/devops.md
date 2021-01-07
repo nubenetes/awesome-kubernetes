@@ -14,6 +14,7 @@
 	- [Azure DevOps](#azure-devops)
 	- [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
+- [Data as Code](#data-as-code)
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
@@ -88,6 +89,8 @@
 * [opensource.com: Create a DevOps culture with open source principles](https://opensource.com/article/20/12/remote-devops) Now that more workforces are remote, DevOps teams can maximize their collaboration and productivity by following open source principles.
 * [github.blog: How to make DevOps your competitive advantage](https://github.blog/2020-12-18-how-to-make-devops-your-competitive-advantage/)
 * [opensource.com: 3 critical DevOps concepts we explored in 2020 🌟](https://opensource.com/article/20/12/devops) In 2020, Opensource.com's top DevOps articles focused on testing, software methodologies, and the most important part: the people.
+* [sysadmin.prod.acquia-sites.com: 10 container guides for sysadmins](https://sysadmin.prod.acquia-sites.com/sysadmin/container-guides-2020) Containers continue their quest to take over the world, and these 10 articles help you manage this technology.
+* [devops.com: Unlocking Your DevOps Automation Mindset 🌟](https://devops.com/unlocking-your-devops-automation-mindset/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -155,6 +158,9 @@
 
 ## NoOps
 - [devops.com: Up Your DevOps Game: It’s Time for NoOps](https://devops.com/up-your-devops-game-its-time-for-noops/)
+  
+## Data as Code
+- [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code/)
 
 <center>
 [![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)

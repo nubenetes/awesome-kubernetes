@@ -434,6 +434,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 - [Using Amazon EFS for AWS Lambda in your serverless applications 🌟](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/)
 - [medium: AWS Serverless Application Lens — A Summary 🌟](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d) 
+- [blog.usejournal.com: Building a Serverless Back-end with AWS 🌟](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
+- [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker/)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
