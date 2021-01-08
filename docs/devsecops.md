@@ -7,6 +7,7 @@
 - [Project Calico](#project-calico)
 - [Security Patterns for Microservice Architectures](#security-patterns-for-microservice-architectures)
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
+- [StackRox](#stackrox)
 	- [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
@@ -71,6 +72,10 @@
 
 ## Anchore Container Security Solutions for DevSecOps
 - [Anchore](https://anchore.com) Container image inspection and policy-based compliance
+
+## StackRox
+- [stackrox.com](https://www.stackrox.com/)
+- [redhat.com: Red Hat to Acquire Kubernetes-Native Security Leader StackRox](https://www.redhat.com/en/about/press-releases/red-hat-acquire-kubernetes-native-security-leader-stackrox)
 
 ### Secure Container Based CI/CD Workflows
 - [Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
