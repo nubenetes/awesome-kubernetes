@@ -36,6 +36,7 @@
 * [Alternative to Kubernetes: Docker Swarm](https://www.linkedin.com/pulse/alternative-kubernetes-docker-swarm-marcel-koert/)
 * [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.dotnettricks.com/learn/docker/kubernetes-vs-docker-analyzing-the-differences)
 * [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
+* [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)
 
 ---
 <center>

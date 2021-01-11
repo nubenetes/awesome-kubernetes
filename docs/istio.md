@@ -46,6 +46,7 @@
 - [medium: Introduction to Istio Traffic Management. Traffic Routing with Istio by Example 🌟](https://medium.com/swlh/introduction-to-istio-traffic-management-6b62c86f8cb4) 
 - [loginradius.com: Istio Service Mesh: A Beginners Guide 🌟](https://www.loginradius.com/blog/async/istio-service-mesh/) This post will give a high-level introduction to Istio and its related concepts and terminologies.
 - [dzone: The Kubernetes Service Mesh: A Brief Introduction to Istio 🌟](https://dzone.com/articles/the-kubernetes-service-mesh-a-brief-introduction-t) In this blog we explore what the Istio service mesh is, its architecture, when and where to use it, plus some criticisms of the platform.
+- [blog.jetstack.io: Istio OIDC Authentication](https://blog.jetstack.io/blog/istio-oidc/) A service mesh is an architectural pattern that provides common network services as a feature of the infrastructure. This typically includes features such as service discovery and policy enforcement to control how services within the mesh can communicate with each other.
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

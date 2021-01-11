@@ -121,6 +121,7 @@
 - [AWS 10-Minute Tutorials 🌟](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 - [onlineitguru.com: AWS Services 🌟](https://onlineitguru.com/tutorial/aws-services)
+- [The Open Guide to Amazon Web Services 🌟](https://github.com/open-guides/og-aws)
 
 ## Blogs
 - [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
@@ -645,6 +646,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Managed Services for Prometheus and Grafana
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) Highly available, secure, and managed monitoring for your containers
 - [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana/) Powerful, interactive data visualizations for builders, operators, and business leaders
+- [infoq.com: AWS Introduces Amazon Managed Service for Grafana and Amazon Managed Service for Prometheus](https://www.infoq.com/news/2021/01/aws-grafana-prometheus/)
 
 ## AWS Chaos Engineeering. AWS Fault Injection Simulator 
 - [techcrunch.com: AWS introduces new Chaos Engineering as a Service offering](https://techcrunch.com/2020/12/15/aws-introduces-new-chaos-engineering-as-a-service-offering/)

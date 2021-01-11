@@ -23,6 +23,7 @@
 
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
+- [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
@@ -92,6 +93,8 @@
 * [opensource.com: 3 critical DevOps concepts we explored in 2020 🌟](https://opensource.com/article/20/12/devops) In 2020, Opensource.com's top DevOps articles focused on testing, software methodologies, and the most important part: the people.
 * [sysadmin.prod.acquia-sites.com: 10 container guides for sysadmins](https://sysadmin.prod.acquia-sites.com/sysadmin/container-guides-2020) Containers continue their quest to take over the world, and these 10 articles help you manage this technology.
 * [devops.com: Unlocking Your DevOps Automation Mindset 🌟](https://devops.com/unlocking-your-devops-automation-mindset/)
+* [devops.com: 7 Trends Influencing DevOps and DevSecOps Adoption](https://devops.com/7-trends-influencing-devops-and-devsecops-adoption/)
+* [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

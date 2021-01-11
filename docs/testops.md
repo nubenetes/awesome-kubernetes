@@ -14,14 +14,12 @@
 - [softwarebusinessgrowth.com: Parallel System Validation – The End Of DevOps](https://www.softwarebusinessgrowth.com/doc/parallel-system-validation-the-end-of-devops-0001)
 - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)
 - [gcreddy.com: Domain Knowledge for Software Testers](https://www.gcreddy.com/2016/06/domain-knowledge-for-testers.html)
-
 ## Continuous Testing in DevOps
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [opensource.com: What you need to know about automation testing in CI/CD](https://opensource.com/article/20/7/automation-testing-cicd)
 - [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
-
 ## Test Driven Development (TDD)
 - [guru99.com: What is Test Driven Development (TDD)? Tutorial with Example](https://www.guru99.com/test-driven-development.html)
 - [functionize.com: Testers vs TDD](https://www.functionize.com/blog/testers-vs-tdd/) Test-driven development was supposed to eliminate the need for independent testing. Alas, it doesn’t go far enough.

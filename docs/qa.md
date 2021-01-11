@@ -1,6 +1,7 @@
 # QA: Software Quality Test Automation
 * [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
 * [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
+* [softwaretestguideforu.com: What is system testing?How to perform system testing?](https://www.softwaretestguideforu.com/2020/06/what-is-system-testinghow-to-perform.html)
 
 ## Tools
 * [collabnix.com: The Ultimate Docker Tutorial for Automation Testing](https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing/)
