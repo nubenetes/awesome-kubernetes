@@ -251,6 +251,7 @@
 ### Red Hat Migration Toolkit for Applications
 - [Migration Toolkit for Applications: Getting Started](https://developers.redhat.com/products/mta/getting-started)
 - [Migration Toolkit for Applications Demo - June 2020](https://youtu.be/mRCz6Jl0Ds8) Migraiton Toolkit from Applications by Red Hat can help you migrate and/or modernize your applications by analyzing them and finding isses such as use of proprietary classes or behaviousr that are not conformant with 12factor app, in order to help you modernize your app portfolio and make it more cloud & container friendly.
+- [dzone: Red Hat’s Migration Toolkit for Applications](https://dzone.com/articles/analyze-monolithic-java-applications-in-multiple-w) This article explains how to analyze monolithic Java applications in multiple workspaces with Red Hat’s migration toolkit for applications.
 
 ### Red Hat Advanced Cluster Management RHACM 
 - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.openshift.com/blog/applications-here-applications-there-part-3-application-migration)

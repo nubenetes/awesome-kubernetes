@@ -21,6 +21,7 @@
 - [How to Evolve from RDBMS to NoSQL + SQL 🌟](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott)
 - [DZone: SQL vs. NoSQL 🌟](https://dzone.com/articles/sql-vs-nosql) Take a look at the most recent developments between SQL and NoSQL databases. And remember, make your DB decision based on the project, not on the hype.
 - [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
+- [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e)
 
 ### MongoDB Tools and MongoDB as a Service
 - [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com/)

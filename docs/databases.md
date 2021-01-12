@@ -33,6 +33,7 @@
 - [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
 - [SQL Server](#sql-server)
 - [MySQL](#mysql)
+- [MariaDB](#mariadb)
 - [PostgreSQL](#postgresql)
 - [Percona MySQL](#percona-mysql)
 - [Tools](#tools)
@@ -754,6 +755,9 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## MySQL
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/)
 - [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table)
+
+## MariaDB
+- [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java/)
 
 ## PostgreSQL
 - [momjian.us: Mastering PostgreSQL Administration [pdf] ](https://momjian.us/main/writings/pgsql/administration.pdf)

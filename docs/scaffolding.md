@@ -5,6 +5,7 @@
   - [Java Scaffolding with Spring Roo](#java-scaffolding-with-spring-roo)
   - [Java Scaffolding with Maven](#java-scaffolding-with-maven)
 - [Kubernetes Scaffolding](#kubernetes-scaffolding)
+- [Other Scaffolding Tools](#other-scaffolding-tools)
 
 ## Scaffold Definition 
 - [Wikipedia: Scaffold (programming)](https://en.wikipedia.org/wiki/Scaffold_(programming))
@@ -14,6 +15,7 @@
 - [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application/)
 
 ## Java Scaffolding 
+- [jhipster](https://www.jhipster.tech/)
 ### Java Scaffolding with Spring Roo
 - [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)
 - [Spring Roo](https://projects.spring.io/spring-roo/)
@@ -31,3 +33,6 @@
 - [Draft](https://draft.sh/)
 - [Garden](https://garden.io/)
 - [codefresh.io: The ultimate guide for local development on Kubernetes: Draft vs Skaffold vs Garden.io](https://codefresh.io/howtos/local-k8s-draft-skaffold-garden/)
+
+## Other Scaffolding Tools
+- [Atomist](https://go.atomist.com/) New automation platform, delivering pre-built automations called Skills. 
