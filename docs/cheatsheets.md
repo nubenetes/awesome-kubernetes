@@ -36,6 +36,7 @@
 - [Postgres](#postgres)
 - [MariaDB and mySQL](#mariadb-and-mysql)
 - [MongoDB](#mongodb)
+- [Go](#go)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -45,6 +46,9 @@
 * [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 * [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
 - [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets/)
+- [cheat-sheets.org 🌟](http://www.cheat-sheets.org/)
+- [jimmysong.io/cheatsheets 🌟](https://jimmysong.io/cheatsheets/)
+- [simplecheatsheet.com](https://simplecheatsheet.com/)
 
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
@@ -246,3 +250,9 @@
 
 ## MongoDB
 - [developer.mongodb.com: MongoDB Cheat Sheet](https://developer.mongodb.com/quickstart/cheat-sheet)
+
+## Go
+- [devhints.io/go: Go cheatsheet](https://devhints.io/go)
+- [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
+- [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
+- [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)

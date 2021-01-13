@@ -75,6 +75,7 @@
 - [Buildah.io](https://buildah.io/) A tool that facilitates building [Open Container Initiative (OCI)](https://www.opencontainers.org/) container images
     - [github.com/containers/buildah](https://github.com/containers/buildah)
 - [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah/)
+- [youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov)
 
 ### Skopeo
 - [Skopeo](https://github.com/containers/skopeo) is a command line utility that performs various operations on container images and image repositories.

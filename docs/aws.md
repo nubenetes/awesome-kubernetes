@@ -105,9 +105,11 @@
 - [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Best Practices](#best-practices)
 - [Tools](#tools)
+- [Third party tools](#third-party-tools)
 - [AWS Amplify](#aws-amplify)
 - [Spain](#spain)
 - [Scripts](#scripts)
+- [Development](#development)
 - [Videos](#videos)
 
 <!-- /MarkdownTOC -->
@@ -657,6 +659,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Tools
 - [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
 
+## Third party tools
+- [techcrunch.com: Vantage makes managing AWS easier](https://techcrunch.com/2021/01/12/vantage-makes-managing-aws-easier/)
+- [vantage.sh](https://www.vantage.sh/)
+
 ## AWS Amplify
 - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-and-react-native-a-tutorial/)
 
@@ -666,6 +672,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Scripts
 - [AWS IP inventory](https://github.com/okelet/awsipinventory) Tool to generate an inventory of all IP addresses in use in an account, one or multiple VPC, or one or multiple subnet.
+
+## Development
+- [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
 
 ## Videos
 

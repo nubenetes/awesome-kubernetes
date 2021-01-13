@@ -9,6 +9,9 @@
 - http://github.com/remoteintech/remote-jobs
 - https://shieldgeo.com Shield GEO makes international employment simple. 
 
+## Kubernetes 
+- [kube.careers](https://kube.careers/) Hand-picked Kubernetes jobs
+
 ## Spain
 - https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 - https://bcneng.net

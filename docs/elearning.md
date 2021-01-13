@@ -26,3 +26,4 @@
 * [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
 * [SQL Police Department](https://sqlpd.com/)
 * [techstudyslack.com](https://techstudyslack.com/) TechStudySlack is a Slack for people studying Tech.
+* [kube.academy](https://kube.academy/) KubeAcademy from VMware. Learn Kubernetes From Experts For Free

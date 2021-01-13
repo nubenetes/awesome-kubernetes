@@ -95,6 +95,7 @@
 * [devops.com: Unlocking Your DevOps Automation Mindset 🌟](https://devops.com/unlocking-your-devops-automation-mindset/)
 * [devops.com: 7 Trends Influencing DevOps and DevSecOps Adoption](https://devops.com/7-trends-influencing-devops-and-devsecops-adoption/)
 * [learnsteps.com: DevOps Interview Questions: How will you design your cloud VPC and subnets?](https://www.learnsteps.com/devops-interview-questions-how-will-you-design-your-cloud-vpc-and-subnets/)
+* [devopscurry.com: Understanding the Role of DevOps professional in 2020 🌟](https://devopscurry.com/understanding-the-role-of-devops-professional-in-2020/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

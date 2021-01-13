@@ -58,4 +58,6 @@
 
 ## Alternatives
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
+    - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
+- [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
     
