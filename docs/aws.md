@@ -9,6 +9,7 @@
 - [Amazon Web Services](#amazon-web-services)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
+- [Training](#training)
 - [AWS Certification](#aws-certification)
 - [AWS Glossary](#aws-glossary)
 - [Awesome AWS](#awesome-aws)
@@ -138,6 +139,9 @@
 - https://forums.aws.amazon.com
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
+
+## Training
+- [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer/)
 
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
@@ -439,6 +443,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [medium: AWS Serverless Application Lens — A Summary 🌟](https://medium.com/swlh/aws-serverless-application-lens-a-summary-4f740c4f376d) 
 - [blog.usejournal.com: Building a Serverless Back-end with AWS 🌟](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
 - [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker/)
+- [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1 🌟](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
+- [aws.amazon.com: Optimizing Lambda functions packaged as container images](https://aws.amazon.com/es/blogs/compute/optimizing-lambda-functions-packaged-as-container-images/)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)

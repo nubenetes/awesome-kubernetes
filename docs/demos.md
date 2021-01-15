@@ -62,6 +62,7 @@
 - [Terraform](#terraform)
 - [Prometheus and Grafana](#prometheus-and-grafana)
 - [GitHub Actions](#github-actions)
+- [Red Hat Process Automation Manager](#red-hat-process-automation-manager)
 
 ## DevOps Screencasts
 - [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
@@ -482,3 +483,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## GitHub Actions
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)
+
+## Red Hat Process Automation Manager
+- [gitlab.com: Red Hat Process Automation Manager - Signal Marketing Demo](https://gitlab.com/bpmworkshop/rhpam-signal-marketing-demo)

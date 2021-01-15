@@ -73,6 +73,7 @@ Kubernetes packages
 * [Selenium](https://github.com/helm/charts/tree/master/stable/selenium)
 * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
 * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
+* [openshift.com: oducing the Quarkus Helm Chart](https://www.openshift.com/blog/introducing-the-quarkus-helm-chart)
 
 ## Helmfile
 - [helmfile](https://github.com/linuxadvise/helmfile)

@@ -11,6 +11,7 @@
     - [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
     - [Alternative Branching Models](#alternative-branching-models)
         - [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
+            - [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
@@ -76,6 +77,8 @@
 * [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch)
 * [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial/)
 * [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial/)
+* [freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
+* [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6)
 
 ## Design By Contract
 [Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. 
@@ -168,6 +171,10 @@ It prescribes that software designers should define formal, precise and verifiab
 * [cloudbees.com: How to Grow Continuous Delivery Maturity Using Feature Flags](https://www.cloudbees.com/blog/grow-cd-maturity)
 * [cloudbees.com: Feature Flag Best Practices: Change Management in Production](https://www.cloudbees.com/blog/change-management-in-production)
 
+##### Keystone Interface and Keystone Flags
+* [martinfowler.com: KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html)
+* [split.io: Keystone Flags: Feature Flagging With Less Mess](https://split.io/blog/keystone-feature-flags/)
+
 ## Git Commands
 * Show commit logs:
 
@@ -193,6 +200,7 @@ git push origin -f
 * [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)
 * [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/) CI/CD is a key part of the DevOps journey. Here’s everything you need to understand about this game-changing process.
 * [levelup.gitconnected.com: Automating Integration and Deployment to Remote Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf) GitLab CI/CD
+* [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/2020/07/29/effective-ci-cd-pipelines/) Here’s how to take your CI/CD pipeline to the next level with hands on advice about faster builds, better security and more.
 
 ## GitHub
 * [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.

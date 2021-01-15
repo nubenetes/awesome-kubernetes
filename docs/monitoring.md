@@ -251,10 +251,11 @@ Although it's exciting to see attempts to address the challenges of running Prom
 #### Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)
 * Prometheus proporciona un ecosistema de **"exporters"**, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto. 
 * **Un "exporter" expone las métricas de uno ó varios "collectors".**
-* [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)
+* [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/) 
     * [prometheus.io/download/](https://prometheus.io/download/)
     * [github.com/prometheus](https://github.com/prometheus)
-* [Prometheus JMX Exporter:](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
+* [Prometheus JMX Exporter 🌟](https://github.com/prometheus/jmx_exporter) A process for exposing JMX Beans via HTTP for Prometheus consumption.
+* [blackbox_exporter 🌟](https://github.com/prometheus/blackbox_exporter) The blackbox exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP.
 * [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)
 * [Maven Prometheus instrumentation library for JVM applications (client library)](https://mvnrepository.com/artifact/io.prometheus)
     * [github.com/prometheus/client_java](https://github.com/prometheus/client_java)
