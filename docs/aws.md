@@ -584,6 +584,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Monitoring
 - [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)
 - [github: ElectricEye 🌟](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
+- [medium: AWS Account Security Monitoring 🌟](https://medium.com/swlh/aws-account-security-monitoring-d7ca129d52ac)
 
 ## Amazon Alexa. Voice User Interface
 - [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)

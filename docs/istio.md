@@ -48,6 +48,8 @@
 - [dzone: The Kubernetes Service Mesh: A Brief Introduction to Istio 🌟](https://dzone.com/articles/the-kubernetes-service-mesh-a-brief-introduction-t) In this blog we explore what the Istio service mesh is, its architecture, when and where to use it, plus some criticisms of the platform.
 - [blog.jetstack.io: Istio OIDC Authentication](https://blog.jetstack.io/blog/istio-oidc/) A service mesh is an architectural pattern that provides common network services as a feature of the infrastructure. This typically includes features such as service discovery and policy enforcement to control how services within the mesh can communicate with each other.
 - [medium.com: Increasing observability on Istio: The new Kiali health configuration](https://medium.com/kialiproject/increasing-observability-on-istio-the-new-kiali-health-configuration-3c91852c1bfe)
+- [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 1: Theory 🌟](https://dzone.com/articles/metadata-management-in-big-data-systems-a-complete-1) In Part 1, we go over the concepts behind Istio and Service Mesh, such as their architecture, how they function, and more.
+  - [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 2: Tutorial 🌟](https://dzone.com/articles/istio-service-mesh-the-step-by-step-guide-part-2-t)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

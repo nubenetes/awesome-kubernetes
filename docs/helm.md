@@ -4,6 +4,7 @@
 - [Kubecrt](#kubecrt)
 - [Helm Charts repositories](#helm-charts-repositories)
 - [Helm Charts](#helm-charts)
+- [Shalm. Scriptable helm charts](#shalm-scriptable-helm-charts)
 - [Helmfile](#helmfile)
 - [Database Migrations](#database-migrations)
 - [Helm Books](#helm-books)
@@ -74,6 +75,9 @@ Kubernetes packages
 * [Jmeter](https://github.com/helm/charts/tree/master/stable/distributed-jmeter)
 * [bitnami: create your first helm chart](https://docs.bitnami.com/kubernetes/how-to/create-your-first-helm-chart/)
 * [openshift.com: oducing the Quarkus Helm Chart](https://www.openshift.com/blog/introducing-the-quarkus-helm-chart)
+
+## Shalm. Scriptable helm charts
+* [shalm: Scriptable helm charts](https://github.com/wonderix/shalm) This project brings the starlark scripting language to helm charts.
 
 ## Helmfile
 - [helmfile](https://github.com/linuxadvise/helmfile)
