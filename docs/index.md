@@ -32,8 +32,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
-### Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
-- [From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
+### Introduction
+- [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
 ## Site Reliability Engineering (SRE)
 - [Site Reliability Engineering (SRE)](sre.md)
