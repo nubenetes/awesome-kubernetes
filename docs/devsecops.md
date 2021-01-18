@@ -49,6 +49,7 @@
 - [helpnetsecurity.com: How to make DevSecOps stick with developers](https://www.helpnetsecurity.com/2020/12/14/how-devsecops-developers/)
 - [blog.christophetd.fr: Shifting Cloud Security Left — Scanning Infrastructure as Code for Security Issues](https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/)
 - [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://devclass.com/2021/01/13/sysdig-container-security-and-usage-report-2021/)
+
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
 
@@ -148,6 +149,8 @@
 - [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security/)
 - [medium: KubeSecOps Pipeline(Container security) in a cloudnative ecosystem](https://medium.com/@vaib16dec/kubesecops-pipeline-container-security-in-a-cloudnative-ecosystem-e59bf19a713d)
 - [sysdig.com: Sysdig 2021 container security and usage report: Shifting left is not enough 🌟](https://sysdig.com/blog/sysdig-2021-container-security-usage-report/)
+- [itnext.io: Hardening Docker and Kubernetes with seccomp 🌟](https://itnext.io/hardening-docker-and-kubernetes-with-seccomp-a88b1b4e2111)
+- [redhat.com: Improving Linux container security with seccomp 🌟](https://www.redhat.com/sysadmin/container-security-seccomp) Try this method of using an OCI runtime hook for tracing syscalls before you build a container.
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.

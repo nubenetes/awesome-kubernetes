@@ -1,5 +1,6 @@
-# From Java EE To Cloud Native. Openshift VS Kubernetes
+# Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Namespaces for Data Structuring](#namespaces-for-data-structuring)
 - [From SysAdmin to Architect](#from-sysadmin-to-architect)
 - [Raft Consensus Algorithm](#raft-consensus-algorithm)
 - [PaaS](#paas)
@@ -65,6 +66,9 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## Namespaces for Data Structuring
+* [blog.appsignal.com: Microservices Monitoring: Using Namespaces for Data Structuring 🌟](https://blog.appsignal.com/2021/01/06/microservices-monitoring-using-namespaces-for-data-structuring.html)
 
 ## From SysAdmin to Architect
 - [redhat.com: 5 strategies to shift your career from sysadmin to architect](https://www.redhat.com/architect/from-sysadmin-to-architect) Many engineers make the shift from hands-on-keyboard system administration to building architectures as an architect. Here are five ways they make the shift.

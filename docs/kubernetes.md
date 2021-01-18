@@ -58,6 +58,7 @@
             - [Kubectl Plugins and Tools. Kubernetes Extensions and Projects](#kubectl-plugins-and-tools-kubernetes-extensions-and-projects)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 - [Kubernetes Backup and Migrations](#kubernetes-backup-and-migrations)
+    - [Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization](#trillio-cloud-native-data-protection-for-kubernetes-openstack-and-virtualization)
     - [Backup with Velero](#backup-with-velero)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
     - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
@@ -71,6 +72,7 @@
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Operators](#kubernetes-operators)
+    - [Operator Capability Levels](#operator-capability-levels)
     - [Cluster Addons](#cluster-addons)
     - [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
     - [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
@@ -836,6 +838,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
     - [developers.redhat.com: 10 awesome Kubernetes tools every user should know | DevNation Tech Talk (video)](https://developers.redhat.com/devnation/tech-talks/10-kubernetes-tools)
 - [HyScale 🌟](https://github.com/hyscale/hyscale) takes a declarative definition of your service config and it generates Dockerfile, Container Image, Kubernetes Manifests (YAMLs) and deploys to any Kubernetes Cluster
 - [kube-fledged](https://github.com/senthilrch/kube-fledged) is a kubernetes add-on for creating and managing a cache of container images directly on the worker nodes of a kubernetes cluster. It allows a user to define a list of images and onto which worker nodes those images should be cached (i.e. pre-pulled). As a result, application pods start almost instantly, since the images need not be pulled from the registry.
+- [Tagger](https://github.com/ricardomaraschini/tagger) keeps references to externally hosted Docker images internally in a Kubernetes cluster by mapping their tags (such as latest) into their references by hash
+- [helm-ecr 🌟](https://github.com/vetyy/helm-ecr) is a Helm plugin that supports installing Charts from AWS ECR.
 
 ## Enforcing Policies and governance for kubernetes workloads with Conftest
 * [Accelerated Feedback Loops when Developing for Kubernetes with Conftest](https://engineering.plex.com/posts/kubernetes-policy-conftest) Learn how to validate Kubernetes resources with Conftest for faster feedback loops
@@ -862,6 +866,11 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292) 
 * [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift/)
 * [cloudify.co: Migrating Pods With Containerized Applications Between Nodes In The Same Kubernetes Cluster Using Cloudify 🌟](https://cloudify.co/blog/migrating-pods-containerized-applications-nodes-kubernetes-cluster-using-cloudify/)
+
+### Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
+* [Trillio](http://trilio.io)
+* [TrillioVault for Kubernetes](https://www.trilio.io/triliovault-for-kubernetes/)
+* [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/about/videos/openshift-backup-and-cluster-failover-triliovault)
 
 ### Backup with Velero
 * [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)
@@ -1012,6 +1021,9 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 - [gemini](https://github.com/FairwindsOps/gemini) is a Kubernetes CRD and operator for managing VolumeSnapshots. This allows you to back up your PersistentVolumes on a regular schedule, retire old backups, and restore backups with minimal downtime.
 - [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev/) Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.
 
+### Operator Capability Levels
+- [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.
+
 ### Cluster Addons
 - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons) With cluster addon operators, we are exploring a kubernetes-native way of managing addons using CRDs(Custom Resource Definitions) and controllers where the controllers encode how best to manage the addon. Installing and managing an addon could be as simple as creating a custom resource.
 
@@ -1039,6 +1051,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework/)
 * [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)
 * [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89) In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.
+* [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool) **Go-based operators are by far the most popular. That is why Go is probably the first option to consider.** The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don't need any complex [capability levels](https://operatorframework.io/operator-capabilities/). I'd leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.
+* [codilime.com: How to create a custom resource with Kubernetes Operator](https://codilime.com/how-to-create-a-custom-resource-with-kubernetes-operator/) Implementing DaemonJob from scratch learn how to create a custom resource with the Kubernetes Operator Framework.
 
 ## Kubernetes Networking
 * [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
@@ -1231,6 +1245,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)
     * [rancher.com: Enhancing Kubernetes Security with Pod Security Policies, Part 2](https://rancher.com/blog/2020/pod-security-policies-part-2)
 * [developer.squareup.com: Kubernetes Pod Security Policies (PSP)](https://developer.squareup.com/blog/kubernetes-pod-security-policies/) an example with exception management
+* [itnext.io: Implementing a Secure-First Pod Security Policy Architecture](https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0)
 
 ### EKS Security
 * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)
@@ -1425,6 +1440,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### Microk8s
 - [**Microk8s**](https://microk8s.io/)
+- [Kata Containers on MicroK8s](https://github.com/didier-durand/microk8s-kata-containers) This repository encompasses a fully scripted Github workflow to test the transparent use of the runtime for Kata Containers (Katas) on MicroK8s
 
 ### k8s-tew
 - [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.

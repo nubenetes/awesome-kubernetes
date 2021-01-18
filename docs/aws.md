@@ -125,6 +125,7 @@
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 - [onlineitguru.com: AWS Services 🌟](https://onlineitguru.com/tutorial/aws-services)
 - [The Open Guide to Amazon Web Services 🌟](https://github.com/open-guides/og-aws)
+- [AWS Ramp-Up Guides 🌟](https://aws.amazon.com/es/training/ramp-up-guides/) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
 
 ## Blogs
 - [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
@@ -326,6 +327,8 @@
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations/)
 - [**Multi-Region Infrastructure Deployment** 🌟](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
 - [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/amazon-web-services/aws-devops-vs-azure-devops/?utm_source=linkedin&utm_medium=referral&utm_campaign=awsdevops17_dec20_aws_cloud_computing_for_interested_parties__users)
+- [Amazon DevOps Guru 🌟](https://aws.amazon.com/devops-guru/) ML-powered cloud operations service to improve application availability
+	- [infoq.com: AWS Launches Amazon DevOps Guru](https://www.infoq.com/news/2021/01/aws-devops-guru/)
 
 ## AWS Elastic Beanstalk
 - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk/)
