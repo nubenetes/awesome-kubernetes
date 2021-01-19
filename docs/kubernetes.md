@@ -58,7 +58,8 @@
             - [Kubectl Plugins and Tools. Kubernetes Extensions and Projects](#kubectl-plugins-and-tools-kubernetes-extensions-and-projects)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 - [Kubernetes Backup and Migrations](#kubernetes-backup-and-migrations)
-    - [Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization](#trillio-cloud-native-data-protection-for-kubernetes-openstack-and-virtualization)
+    - [Backup with Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization](#backup-with-trillio-cloud-native-data-protection-for-kubernetes-openstack-and-virtualization)
+    - [Backup with Kasten K10](#backup-with-kasten-k10)
     - [Backup with Velero](#backup-with-velero)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
     - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
@@ -443,6 +444,15 @@
 * [medium: Ready-to-use commands and tips for kubectl](https://medium.com/flant-com/kubectl-commands-and-tips-7b33de0c5476)
 * [medium: Be fast with Kubectl 1.19 CKAD/CKA 🌟](https://medium.com/faun/be-fast-with-kubectl-1-18-ckad-cka-31be00acc443) Collection of the fastest ways to create k8s resources using kubectl ≥ 1.18
 * [developers.redhat.com: Kubectl: Developer tips for the Kubernetes command line 🌟](https://developers.redhat.com/blog/2020/11/20/kubectl-developer-tips-for-the-kubernetes-command-line/)
+* [ibm.com: 8 Kubernetes Tips and Tricks 🌟](https://www.ibm.com/cloud/blog/8-kubernetes-tips-and-tricks) Most of the tips given below are using kubectl, a powerful command-line tool that allows you to execute commands against Kubernetes clusters.
+    * Set default namespaces
+    * Helpful aliases to save time
+    * YAML editing with vi
+    * Create YAML from kubectl commands 
+    * Switching between Kubernetes namespaces
+    * Shell auto-completion
+    * Viewing resource utilization
+    * Extend kubectl and create your own commands using raw outputs
 
 ### Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
@@ -867,10 +877,14 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift/)
 * [cloudify.co: Migrating Pods With Containerized Applications Between Nodes In The Same Kubernetes Cluster Using Cloudify 🌟](https://cloudify.co/blog/migrating-pods-containerized-applications-nodes-kubernetes-cluster-using-cloudify/)
 
-### Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
+### Backup with Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
 * [Trillio](http://trilio.io)
 * [TrillioVault for Kubernetes](https://www.trilio.io/triliovault-for-kubernetes/)
 * [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/about/videos/openshift-backup-and-cluster-failover-triliovault)
+
+### Backup with Kasten K10
+* [Kasten](https://www.kasten.io/)
+* [redhat.com: OpenShift Backup and Recovery with Kasten K10](https://www.redhat.com/es/about/videos/openshift-backup-and-recovery-kasten-k10)
 
 ### Backup with Velero
 * [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)

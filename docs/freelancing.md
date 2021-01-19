@@ -26,3 +26,6 @@
 - [hellobonsai](https://www.hellobonsai.com/)
 - [remoteone](https://remote.one/)
 
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">- Getting clients is easier when you show proof of work<br>- Negotiation is easier when you have other projects<br>- Pricing is easier when you don&#39;t need the money<br><br>Freelancing is easier when you make marketing part of your job.</p>&mdash; Tom Hirst (@tom_hirst) <a href="https://twitter.com/tom_hirst/status/1351136592514187276?ref_src=twsrc%5Etfw">January 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

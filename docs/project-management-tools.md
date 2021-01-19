@@ -17,3 +17,5 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [Podium](https://github.com/sa-mw-dach/podium) A collaboration environment.
 - [Renoj](https://ribal.dev/renoj) Fast to-do task management in Desktop for ultimate productivity. Manage your day-to-day like a boss.
 - [neilpatel.com: Best Free Project Management Software](https://neilpatel.com/blog/best-free-project-management-software/)
+- [Swim](https://swimm.io/) Sync Teams with Code. 
+    - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation/)

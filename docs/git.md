@@ -336,4 +336,6 @@ Automate them.
 ---
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> tip: the git stash commands<br><br>Create, apply, and manage <a href="https://twitter.com/hashtag/git?src=hash&amp;ref_src=twsrc%5Etfw">#git</a> stashes using VS Code commands.<br><br>Stashes let you quickly save off your workspace changes and restore them when they are needed again<a href="https://twitter.com/hashtag/code2020?src=hash&amp;ref_src=twsrc%5Etfw">#code2020</a> <a href="https://t.co/VPursGdRka">pic.twitter.com/VPursGdRka</a></p>&mdash; Matt Bierner (@mattbierner) <a href="https://twitter.com/mattbierner/status/1276915695788470273?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Writing good Git commit messages matters!<br><br>A thread about how to write clean commit messages:<br><br>🧵 👇</p>&mdash; Deni Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1351152452179996682?ref_src=twsrc%5Etfw">January 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

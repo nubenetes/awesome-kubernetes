@@ -1,5 +1,6 @@
 # Service Mesh
 - [Introduction](#introduction)
+- [Service Mesh and API Gateways](#service-mesh-and-api-gateways)
 - [Tools For Evaluating Service Meshes](#tools-for-evaluating-service-meshes)
 - [Consul Service Mesh](#consul-service-mesh)
 	- [Consul Connect](#consul-connect)
@@ -29,6 +30,9 @@
 * [openshift.com: Introducing OpenShift Service Mesh 2.0 🌟](https://www.openshift.com/blog/introducing-openshift-service-mesh-2.0)
 * [weave.works: Introduction to Service Meshes on Kubernetes and Progressive Delivery 🌟](https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery)
 * [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments) Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process. In this blog, we’ll provide an overview of the most common microservice communication requirements that the Service Mesh architecture pattern solves.
+
+## Service Mesh and API Gateways
+* [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)
 
 ## Tools For Evaluating Service Meshes
 * [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes

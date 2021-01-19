@@ -51,7 +51,7 @@
 - [Amazon ECS optimized AMI](#amazon-ecs-optimized-ami)
 - [AWS EC2 Container Registry (Docker)](#aws-ec2-container-registry-docker)
 - [Docker for AWS](#docker-for-aws)
-- [AWS CLI](#aws-cli)
+- [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
 - [AWS VPC](#aws-vpc)
 - [AWS SQS. Amazon Simple Queue Service](#aws-sqs-amazon-simple-queue-service)
 - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
@@ -75,6 +75,7 @@
 	- [AWS Vault](#aws-vault)
 - [AWS S3 & EBS. AWS Storage Gateway](#aws-s3--ebs-aws-storage-gateway)
 - [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
+- [AWS Transfer](#aws-transfer)
 - [AWS Fargate](#aws-fargate)
 	- [Admiralty](#admiralty)
 - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
@@ -390,7 +391,7 @@
 - [DZone: Getting Started With Docker for AWS and Scaling Nodes](https://dzone.com/articles/getting-started-with-docker-for-aws-and-scaling-no) This blog will explain how to get started with Docker for AWS and deploy a multi-host Swarm cluster on Amazon.
 - [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](http://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)
 
-## AWS CLI
+## AWS CLI and AWS SDK
 - [Amazon CLI Documentation](https://aws.amazon.com/cli)
 - [AWS CLI Command Reference](http://docs.aws.amazon.com/cli/latest/index.html)
 - [New usage examples have been added to the CLI for CodePipeline API Reference](http://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)
@@ -406,6 +407,8 @@ aws ec2 describe-instances --filters Name=instance-state-name,Values=running --q
 ```bash
 aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.AvailabilityZone, State.Name, InstanceID,InstanceType,Platform,Tags.Value,State.Code,Tags.Values]' --output table
 ```
+
+- [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
 
 ## AWS VPC
 - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
@@ -534,6 +537,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/es/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
+
+## AWS Transfer
+- [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs/)
 
 ## AWS Fargate
 - [Amazon EFS with Amazon ECS and AWS Fargate – Part 1 🌟](https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/)

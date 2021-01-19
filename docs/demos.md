@@ -208,6 +208,7 @@
 * [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
 * [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) Install, configure, and use Minishift to create your first pipeline.
 * [dzone: CodeReady Containers - Exploring a home loan mortgage process](https://dzone.com/articles/codeready-containers-exploring-a-home-loan-mortgag) As a cloud-native developer you've installed an OpenShift Container Platform development environment on your local machine, but what's next...
+* [Rcarrata's blog](https://rcarrata.com/)
 
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.

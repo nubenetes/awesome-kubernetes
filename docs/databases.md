@@ -42,6 +42,7 @@
 ## Introduction
 - [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture/)
 - [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices/)
+- [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io/just-how-challenging-is-state-in-kubernetes/)
 ## Stateful and Stateless Applications
 * [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 * [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html)
@@ -764,6 +765,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## PostgreSQL
 - [momjian.us: Mastering PostgreSQL Administration [pdf] ](https://momjian.us/main/writings/pgsql/administration.pdf)
 - [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips/)
+- [dzone: A Guide to SQL Triggers: Setting up Database Tracking in PostgreSQL](https://dzone.com/articles/a-guide-to-sql-triggers-setting-up-database-tracking-in-postgresql) SQL triggers are less common but can be a great solution for certain situations. I'll show how to use triggers in Postgres to enforce data integrity and track changes to a database.
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
