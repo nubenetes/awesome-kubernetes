@@ -2,6 +2,7 @@
 - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
 - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
 - [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+    - [Kubernetes API](#kubernetes-api)
     - [Kubernetes Releases](#kubernetes-releases)
     - [Namespaces](#namespaces)
     - [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
@@ -355,6 +356,9 @@
 [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
 </center>
 <br/>
+
+### Kubernetes API
+- [kubernetes.io: Kubernetes API 🌟](https://kubernetes.io/docs/reference/kubernetes-api/)
 
 ### Kubernetes Releases
 * [sysdig.com: What’s new in Kubernetes 1.20?](https://sysdig.com/blog/whats-new-kubernetes-1-20/)
