@@ -27,6 +27,7 @@
 
 ## Other Awesome Kubernetes Lists
 - [@ramitsurana' Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
+- [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
 - [@sindresorhus' Awesome Kubernetes](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools 
