@@ -24,6 +24,7 @@
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
 - [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)
+- [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline/)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.

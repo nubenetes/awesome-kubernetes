@@ -92,6 +92,7 @@
 
 ### GitOps 
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
+- [kubesandclouds.com: Werf: Fully customizable GitOps 🌟](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/) Werf builds and publishes images, deploys applications to Kubernetes clusters, and removes unused images based on policies and rules defined in the Git repository.
 
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
@@ -137,6 +138,7 @@
 - [Spring Initializr](https://start.spring.io/)
 - [k8s Initializer](https://app.getambassador.io/initializer/)
 - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
+- [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer) Kubernetes Initializer built by Ambassador Labs provides a new experience for simplifying the deployment of Ambassador and Consul in a Sandbox Kubernetes environment.
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
 * [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
