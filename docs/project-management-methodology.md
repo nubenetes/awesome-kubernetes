@@ -28,6 +28,7 @@
 - [age-of-product.com: Hiring: 71 Scrum Product Owner Interview Questions to Avoid Agile Imposters](https://age-of-product.com/42-scrum-product-owner-interview-questions/)
 - [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner)
 - [scrum.org: Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) The Kanban Guide for Scrum Teams helps you add professional flow concepts to improve your value delivery.
+- [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/sysadmin/11-manager-considerations) Here are some guidelines for managers when dealing with your system administrator staff members.
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

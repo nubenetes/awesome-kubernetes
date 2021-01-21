@@ -345,6 +345,7 @@
 * [Role-based Authorization Strategy 🌟](https://plugins.jenkins.io/role-strategy/)
 * [Extensible Choice Parameter](https://plugins.jenkins.io/extensible-choice-parameter/)
 * [devopscurry.com: Best Jenkins Plugin for 2021 🌟](https://devopscurry.com/best-jenkins-plugins-for-2021/)
+* [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru/) and attach it to build during Jenkins job run.
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

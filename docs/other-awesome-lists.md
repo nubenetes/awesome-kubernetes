@@ -88,6 +88,7 @@
 ### QA
 - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
 - [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
+- [Awesome Testing](https://github.com/TheJambo/awesome-testing)
 - [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting)
 - [Awesome JMeter](https://github.com/aliesbelik/awesome-jmeter)
 

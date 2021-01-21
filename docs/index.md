@@ -51,6 +51,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [FinOps - Cloud Financial Management](finops.md)
 ## TestOps and Continuous Testing
 - [TestOps and Continuous Testing](testops.md)
+- [QA](qa.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)

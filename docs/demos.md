@@ -123,6 +123,7 @@
 * [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e)
 * [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML.
 * [medium: Production Ready CI/CD Pipeline with Kubernetes](https://medium.com/awsblogs/ci-cd-with-kubernetes-3c29e8073c38)
+* [myweblearner.com: Kubernetes(k8s) Readiness and Liveness Probe](https://myweblearner.com/springboot_k8s_readiness_liveness.html)
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)

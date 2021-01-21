@@ -22,6 +22,9 @@
 
 ## RHEL
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
+- [arstechnica.com: CentOS is gone—but RHEL is now free for up to 16 production servers](https://arstechnica.com/gadgets/2021/01/centos-is-gone-but-rhel-is-now-free-for-up-to-16-production-servers/) RHEL is now free for dev teams, and it's even free in production for up to 16 systems.
+- [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option/)
+- [zdnet.com: Red Hat introduces free RHEL for small production workloads and development teams](https://www.zdnet.com/google-amp/article/red-hat-introduces-free-rhel-for-small-production-workloads-development-teams/) In response to complaints about Red Hat's latest plans for CentOS Linux, Red Hat will start offering no-cost Red Hat Enterprise Linux for small production workloads and customer development teams.
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)

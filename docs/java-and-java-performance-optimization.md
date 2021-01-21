@@ -67,6 +67,7 @@ etc|
 
 ### Threadumps, Heapdumps and GC Analysis Tools
 * [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/)
+* [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps)
 * [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
 * [tier1app.com](https://tier1app.com/)
 * [fastthread.io](https://fastthread.io/)

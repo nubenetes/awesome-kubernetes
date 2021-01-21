@@ -9,6 +9,7 @@
 		- [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
 	- [Kubeless](#kubeless)
 	- [OpenWhisk](#openwhisk)
+	- [Dapr Microservices Frameworks](#dapr-microservices-frameworks)
 - [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
 
 ## Serverless Architectures
@@ -66,6 +67,11 @@
 
 ### OpenWhisk
 * [openwhisk.apache.org](https://openwhisk.apache.org/)
+
+### Dapr Microservices Frameworks
+- [Dapr](https://dapr.io/)
+- [Building microservices? Give Dapr a try](https://www.infoworld.com/article/3604010/building-microservices-give-dapr-a-try.html) Microsoft’s open source, cross-platform microservices framework is ready for prime time at last.
+- [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications)
 
 ## Popular Deployment Frameworks for AWS Lambda
 * [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)
