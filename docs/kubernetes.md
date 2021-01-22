@@ -70,7 +70,7 @@
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
     - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
     - [K8s Diagrams](#k8s-diagrams)
-- [Kubernetes Patterns](#kubernetes-patterns)
+- [Kubernetes Patterns and Antipatterns](#kubernetes-patterns-and-antipatterns)
 - [e-Books](#e-books)
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
@@ -969,6 +969,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [udemy.com: Learn DevOps: Advanced Kubernetes Usage 🌟](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
     * [wardviaene/advanced-kubernetes-course 🌟](https://github.com/wardviaene/advanced-kubernetes-course) 
 * [Certified Kubernetes Administrator CKA course notes — diagrams for each subject area and use as reference for future refresher 🌟](https://drive.google.com/file/d/1RhPULD1IAVgCo1KD857iCoaNKuJjQKa1/view)
+* [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 
 ### Famous Kubernetes resources of 2019
 * [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
@@ -987,7 +988,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### K8s Diagrams
 - [k8s-diagrams 🌟](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
-## Kubernetes Patterns
+## Kubernetes Patterns and Antipatterns
 * [github.com/k8spatterns/examples 🌟](https://github.com/k8spatterns/examples) Examples for "Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications"
 * [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns/)
 * [magalix.com: Kubernetes Patterns - The Service Discovery Pattern 🌟](https://www.magalix.com/blog/kubernetes-patterns-the-service-discovery-pattern)
@@ -998,6 +999,8 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [learnsteps.com: How Kubernetes works on reconciler pattern](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern/)
 * [learncloudnative.com: Sidecar Container Pattern](https://www.learncloudnative.com/blog/2020-09-30-sidecar-container/)
 - [towardsdatascience.com: Kubernetes pattern for applications with external environment configuration 🌟](https://towardsdatascience.com/kubernetes-pattern-for-applications-with-external-environment-configuration-a42d7bdd7e97) Learn how to decouple configuration from the application using git-sync, Kubernetes init-containers, ConfigMaps and volumes.
+- [codefresh.io: Kubernetes Deployment Antipatterns – part 1 🌟](https://codefresh.io/kubernetes-tutorial/kubernetes-antipatterns-1/)
+- [codefresh.io: Kubernetes Deployment Antipatterns – part 2 🌟](https://codefresh.io/kubernetes-tutorial/kubernetes-antipatterns-2/)
 
 [![Top 10 Kubernetes patterns](images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
 
