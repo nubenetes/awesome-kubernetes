@@ -345,6 +345,7 @@
 * [medium: Kubernetes Resources 🌟](https://medium.com/@pratyush.mathur/kubernetes-resources-c09d172dbdc5)
 * [medium: Notes on Graceful Shutdown in Kubernetes 🌟](https://medium.com/@pleasingsmoke/graceful-shutdown-of-pods-in-kubernetes-6da5588b5356)
 * [loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls 🌟](https://loft.sh/blog/kubernetes-readiness-probes-examples-common-pitfalls/)
+* [srcco.de: Many Kubernetes Clusters instead of 1 huge cluster 🌟](https://srcco.de/posts/many-kubernetes-clusters.html)
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)

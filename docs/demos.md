@@ -1,6 +1,7 @@
 # DevOps Demos, Tutorials & Screencasts
 - [DevOps Screencasts](#devops-screencasts)
 - [DevOps Blogs](#devops-blogs)
+- [Kubernetes Blogs](#kubernetes-blogs)
 - [DevOps Demos](#devops-demos)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
     - [GitOps](#gitops)
@@ -70,6 +71,9 @@
 
 ## DevOps Blogs
 - [DevStack](https://devstack.in/) All about DevOps
+
+## Kubernetes Blogs
+- [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com/)
 
 ## DevOps Demos
 * [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
@@ -285,7 +289,7 @@
 * Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:
     * [Part 1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
     * [Part 2](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf)
-* [medium.com/@Kubernetes_Advocate: CI/CD with Dockers and Jenkins](https://medium.com/@Kubernetes_Advocate/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
+* [kubernetes-advocate.medium.com: CI/CD with Dockers and Jenkins 🌟](https://kubernetes-advocate.medium.com/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
 * [medium.com/@devml2016: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
 * [developers.redhat.com: An easier way to create custom Jenkins containers](https://developers.redhat.com/blog/2020/06/04/an-easier-way-to-create-custom-jenkins-containers) Create your own custom Jenkins container image by aggregating readily available containers in a pod template.
 * [medium: Let’s Start Automation using Jenkins, Docker, GitHub](https://medium.com/@devml2016/lets-start-automation-using-jenkins-docker-github-d5f8d019ec4a)
