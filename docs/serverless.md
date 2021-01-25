@@ -1,5 +1,6 @@
 # Serverless Architectures and Frameworks
 - [Serverless Architectures](#serverless-architectures)
+	- [Case Studies](#case-studies)
 	- [FaaS: Function as a Service](#faas-function-as-a-service)
 	- [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
 - [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
@@ -24,6 +25,9 @@
 * [serverless.com: Why we switched from docker to serverless](https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless)
 * [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
 * [developers.redhat.com: Orchestrate event-driven, distributed services with Serverless Workflow and Kubernetes](https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow/)
+
+### Case Studies
+* [dashbird.io: Serverless Case Study – Coca-Cola](https://dashbird.io/blog/serverless-case-study-coca-cola/)
 
 ### FaaS: Function as a Service
 * [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)

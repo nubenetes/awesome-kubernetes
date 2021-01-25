@@ -25,6 +25,7 @@
 - [arstechnica.com: CentOS is gone—but RHEL is now free for up to 16 production servers](https://arstechnica.com/gadgets/2021/01/centos-is-gone-but-rhel-is-now-free-for-up-to-16-production-servers/) RHEL is now free for dev teams, and it's even free in production for up to 16 systems.
 - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option/)
 - [zdnet.com: Red Hat introduces free RHEL for small production workloads and development teams](https://www.zdnet.com/google-amp/article/red-hat-introduces-free-rhel-for-small-production-workloads-development-teams/) In response to complaints about Red Hat's latest plans for CentOS Linux, Red Hat will start offering no-cost Red Hat Enterprise Linux for small production workloads and customer development teams.
+- [enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent](https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent/)
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)

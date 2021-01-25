@@ -4,6 +4,7 @@
 - [Python Books](#python-books)
 - [Python Django Framework](#python-django-framework)
 - [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
+- [FastAPI](#fastapi)
 - [Python pip and pip's wheel](#python-pip-and-pips-wheel)
 - [Python Feature Flags](#python-feature-flags)
 - [Python testing](#python-testing)
@@ -92,6 +93,7 @@
 - [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f) How much memory does a Python object take on memory?
 - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions/)
 - [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python)
+- [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) Learn how experienced developers use environment variables in Python, including managing default values and typecasting.
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -140,6 +142,11 @@
 - [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World)
 - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/)
 - [towardsdatascience.com: Create and Deploy a Simple Web Application with Flask and Heroku](https://towardsdatascience.com/create-and-deploy-a-simple-web-application-with-flask-and-heroku-103d867298eb)
+- [towardsdatascience.com: How to deploy a Flask API in Kubernetes and connect it with other micro-services](https://towardsdatascience.com/how-to-deploy-a-flask-api-in-kubernetes-and-connect-it-with-other-micro-services-af16965b67fe) A hands-on tutorial on how to implement your micro-service architecture using the powerful container orchestration tool Kubernetes.
+
+## FastAPI
+- [FastAPI 🌟](https://fastapi.tiangolo.com/)
+- [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) A step by step guide creating high performance APIs in Python
 
 ## Python pip and pip's wheel
 - [wheel replaces Python's eggs](https://wheel.readthedocs.org)
@@ -193,6 +200,7 @@
 - [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython/)
 - [Kite 🌟](https://www.kite.com/) Kite is the best autocompletions engine available for Python, powered by AI. Check it out — It's free! 
 - [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter)
+- [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75) Bored of traditional CLIs? Develop interactive command lines with PyInquirer
 
 ### Web Scraping with Python
 - [Scrapy](http://scrapy.org/) An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
@@ -210,4 +218,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is a beautiful programming language. It contains really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing more efficient and compact code.<br><br>🧵🧵🧵</p>&mdash; Danny Steenman (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1314930561220313088?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TOP Python Github repositories for you. <br><br>A Thread... 🧵<a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/CodeNewbies?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbies</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1318179578720919552?ref_src=twsrc%5Etfw">October 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python has really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing better and more compact Python code.<br><br>🧵🧵🧵👇👇👇</p>&mdash; Danny (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1353252368058560512?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

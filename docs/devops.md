@@ -99,6 +99,7 @@
 * [devopscurry.com: Understanding the Role of DevOps professional in 2020 🌟](https://devopscurry.com/understanding-the-role-of-devops-professional-in-2020/)
 * [devops.com: DevOps for the Development and Delivery of High-Performance Applications](https://devops.com/devops-for-the-development-and-delivery-of-high-performance-applications/)
 * [thenewstack.io: DevOps, DevApps and the Death of Infrastructure](https://thenewstack.io/devops-devapps-and-the-death-of-infrastructure/)
+* [dzone: 15 DevOps Trends to Expect in 2021 🌟](https://dzone.com/articles/15-devops-trends-to-expect-in-2021) This is a round-up article where we collected opinions from 15 DevOps experts on what they think will be a trend in 2021 with context to DevOps.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

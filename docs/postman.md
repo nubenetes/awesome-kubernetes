@@ -13,6 +13,9 @@
     - [medium: API Testing with Postman — Build a Dynamic Test Suite](https://medium.com/@michaelkm03/api-testing-with-postman-build-a-dynamic-test-suite-e874f4d78e69)
 - [API Testing with Postman — Run a Collection with Docker](https://www.linkedin.com/pulse/api-testing-postman-run-collection-docker-michael-montgomery/)
 - [medium: Kubernetes Tutorial: Your Complete Guide to Deploying an App on AWS with Postman 🌟](https://medium.com/better-practices/kubernetes-tutorial-b6f302a67426) Use Postman to learn Kubernetes and deploy an app on an AWS cluster
+- [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1)
+    - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 2](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-2)
+    - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 3](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-3)
 
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman

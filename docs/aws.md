@@ -9,6 +9,7 @@
 - [Amazon Web Services](#amazon-web-services)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
+	- [Books](#books)
 - [Training](#training)
 - [AWS Certification](#aws-certification)
 - [AWS Glossary](#aws-glossary)
@@ -141,6 +142,9 @@
 - https://forums.aws.amazon.com
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
+
+### Books
+- [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
 
 ## Training
 - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer/)
@@ -409,6 +413,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ```
 
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
+- [AWS SDK for Java 🌟](https://aws.amazon.com/sdk-for-java/)
 
 ## AWS VPC
 - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)

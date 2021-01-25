@@ -32,6 +32,7 @@
 * [devclass.com: Open sauce - Rancher 2.5 puts new UI forward, gets to continuously delivering](https://devclass.com/2020/10/06/rancher-2_5/)
 * [rancher.com: Rancher 2.5 Delivers On "Computing Everywhere" Strategy](https://rancher.com/blog/2020/rancher-2-5-delivers-computing-everwhere-strategy)
 * [vitobotta.com: Kubernetes in DigitalOcean with Rancher](https://vitobotta.com/2020/11/02/kubernetes-digitalocean-rancher/?utm_sq=gkuh2clx8u)
+* [rancher: Speed Up Development with Automated Kubernetes Deployments](https://rancher.com/blog/2020/speed-development-automated-kubernetes-deployments)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 

@@ -170,6 +170,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [infoworld.com: Why aren’t you using feature flags?](https://www.infoworld.com/article/3600150/why-arent-you-using-feature-flags.amp.html) Software development is changing. If you’re still focused on release management rather than feature management, then you’re doing it wrong.
 * [cloudbees.com: How to Grow Continuous Delivery Maturity Using Feature Flags](https://www.cloudbees.com/blog/grow-cd-maturity)
 * [cloudbees.com: Feature Flag Best Practices: Change Management in Production](https://www.cloudbees.com/blog/change-management-in-production)
+* [cloudbees.com: Feature Flag Best Practices: Understanding the Feature Flag Lifecycle](https://www.cloudbees.com/blog/feature-flag-lifecycle)
 
 ##### Keystone Interface and Keystone Flags
 * [martinfowler.com: KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html)
@@ -201,6 +202,7 @@ git push origin -f
 * [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/) CI/CD is a key part of the DevOps journey. Here’s everything you need to understand about this game-changing process.
 * [levelup.gitconnected.com: Automating Integration and Deployment to Remote Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf) GitLab CI/CD
 * [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/2020/07/29/effective-ci-cd-pipelines/) Here’s how to take your CI/CD pipeline to the next level with hands on advice about faster builds, better security and more.
+* [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/2021/01/25/mr-reviews-with-vs-code/)
 
 ## GitHub
 * [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.

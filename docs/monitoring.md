@@ -44,6 +44,7 @@
 - [Kibana](#kibana)
 - [Prometheus and Grafana Interactive Learning](#prometheus-and-grafana-interactive-learning)
 - [Logging & Centralized Log Management](#logging--centralized-log-management)
+    - [ElasticSearch](#elasticsearch)
 - [Performance](#performance)
 - [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
     - [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
@@ -63,6 +64,7 @@
 - [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
 - [Instana APM](#instana-apm)
 - [Monitoring Etcd](#monitoring-etcd)
+- [Zabbix](#zabbix)
 - [Other Tools](#other-tools)
 - [Other Awesome Lists](#other-awesome-lists)
 
@@ -245,6 +247,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation) New language being developed at InfluxData.
 * [influxdb-templates](https://www.influxdata.com/products/influxdb-templates/) Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.
     * [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates/)
+* [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker/)
 
 ### Collectors. Software exposing Prometheus metrics
 
@@ -758,6 +761,9 @@ JMeter|Artemis Grafana|Artemis Dashboard
 ## Logging & Centralized Log Management
 - [devops.com: How Centralized Log Management Can Save Your Company](https://devops.com/how-centralized-log-management-can-save-your-company/)
 
+### ElasticSearch
+- [zdnet.com: AWS, as predicted, is forking Elasticsearch](https://www.zdnet.com/article/aws-as-predicted-is-forking-elasticsearch/) Amazon Web Services, however, isn't the only one who dislikes Elastic's move to relicense Elasticsearch under the non-open-source Server Side Public License.
+
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
 * [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
@@ -974,6 +980,9 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 
 ## Monitoring Etcd
 - [rancher.com: Monitor Etcd with Prometheus and Grafana using Rancher](https://rancher.com/blog/2020/monitor-etcd-prometheus-grafana-rancher)
+
+## Zabbix
+- [openshift.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.openshift.com/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)
 
 ## Other Tools
 - [Netdata](https://github.com/netdata/netdata) Netdata's distributed, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration.
