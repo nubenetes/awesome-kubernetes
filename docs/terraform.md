@@ -9,6 +9,7 @@
 	- [Terraform and CI/CD](#terraform-and-cicd)
 	- [OpenShift and Terraform](#openshift-and-terraform)
 	- [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
+	- [Terraform and GKE](#terraform-and-gke)
 	- [Terraform and AWS](#terraform-and-aws)
 - [Gruntwork](#gruntwork)
 - [Terraform Modules](#terraform-modules)
@@ -95,6 +96,13 @@
 
 ### Terraform Kubernetes Operator
 * [infoq.com: Managing Infrastructure from Kubernetes with the HashiCorp Terraform Operator](https://www.infoq.com/news/2020/04/terraform-operator-kubernetes/)
+
+### Terraform and GKE
+* [learnk8s.io: Provisioning Kubernetes clusters on GCP with Terraform and GKE 🌟](https://learnk8s.io/terraform-gke) Fully automated dev, test, prod environments with Google Kubernetes Engine (GKE) + container-native load balancing? The guide goes into the details of how you can provision your infrastructure with Terraform and how you can route live traffic with the GKE Ingress controller. By the end Kristijan M. will teach you how you can have: 
+	- The creation of 3 environments (dev, test, prod) automated
+	- A cluster that can handle live traffic with the GKE Ingress controller.
+	- GKE Ingress enabled with container-native load balancing.
+	- All source code and knowledge to build your own infra.
 
 ### Terraform and AWS
 * [Dzone: terraform and AWS](https://dzone.com/articles/terraform-and-aws)

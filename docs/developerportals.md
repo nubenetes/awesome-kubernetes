@@ -17,6 +17,7 @@
 	- [Gloo Federation API Gateway Management](#gloo-federation-api-gateway-management)
 	- [Backstage Developer Portal](#backstage-developer-portal)
 	- [APISIX](#apisix)
+	- [NGINX as an API Gateway](#nginx-as-an-api-gateway)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
 	- [Auto API](#auto-api)
@@ -103,6 +104,9 @@
 ### APISIX
 - [apisix](https://github.com/apache/apisix)
 - [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices/)
+
+### NGINX as an API Gateway
+- [nginx.com: Deploying NGINX as an API Gateway, Part 1 🌟](https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/)
 
 ## Mobile Developer Portals
 - [developer.mobileconnect.io](https://developer.mobileconnect.io/)

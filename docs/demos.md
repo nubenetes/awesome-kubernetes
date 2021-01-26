@@ -44,6 +44,7 @@
     - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
     - [Monitoring Jenkins with Grafana](#monitoring-jenkins-with-grafana)
 - [Jenkins X](#jenkins-x)
+- [Spinnaker](#spinnaker)
 - [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 - [GitLab](#gitlab)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
@@ -390,6 +391,18 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Jenkins X
 - [blog.testproject.io: Jenkins X Cloud Native CI/CD with TestProject](https://blog.testproject.io/2020/07/09/jenkins-x-cloud-native-ci-cd-with-testproject/)
 - [Modernize Your CI/CD Pipeline Using Jenkins X with Amazon EKS](https://aws.amazon.com/blogs/apn/modernize-your-ci-cd-pipeline-using-jenkins-x-with-amazon-eks/)
+
+## Spinnaker
+- [Demo/Evaluation Installations](https://spinnaker.io/setup/quickstart/)
+- [imperialwicket/spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo)
+- [henrybell/spinnaker-demo-app](https://github.com/henrybell/spinnaker-demo-app)
+- [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689)
+- [codeburst.io: Spinnaker by Example: Part 2](https://codeburst.io/spinnaker-by-example-part-2-6f92a1fdaedf)
+- [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce)
+- [dzone: Continuous Deployment on Kubernetes With Spinnaker](https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker) In this article, learn how to setup Spinnaker and integrate it with Gitlab CI and Jenkins to build and run CI and CD pipelines.
+- [dzone: Continuous Delivery Pipeline for Kubernetes Using Spinnaker](https://dzone.com/articles/continuous-delivery-pipeline-for-kubernetes-using) This post will focus on pushing out new releases of the application to our Kubernetes cluster i.e. Continuous Delivery.
+- [armory.io: How to Set Up Liquibase in Spinnaker](https://www.armory.io/blog/how-to-set-up-liquibase-in-spinnaker/)
+- [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes

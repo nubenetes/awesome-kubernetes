@@ -89,6 +89,7 @@
 * [dockerlabs.collabnix.com: Cheatsheet - Kubectl 🌟](https://dockerlabs.collabnix.com/kubernetes/cheatsheets/kubectl.html)
 * [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 * [akhilsharma.work: kubectl Get Resource - Short Names](https://akhilsharma.work/kubectl-get-resource-short-names/)
+* [blog.mimacom.com: Kubernetes Cheat Sheet](https://blog.mimacom.com/kubernetes-cheat-sheet/)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
