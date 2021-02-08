@@ -30,6 +30,8 @@
 
 <center>
 <iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD<br><br>Nginx has a service mesh too. Is it any good?<br><br>Let&#39;s find out. <a href="https://t.co/890EIahXGq">pic.twitter.com/890EIahXGq</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1356935454206005249?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ## HAProxy (HTTP router and reverse proxy)
@@ -46,6 +48,7 @@
 - [Dzone: How to Use the Open Source Tool Traefik to Direct Kubernetes Traffic](https://dzone.com/articles/how-to-use-the-open-source-tool-traefik-to-direct) 
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
 - [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
+- [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh/)
 
 ## Skipper (HTTP router and reverse proxy)
 - [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper)

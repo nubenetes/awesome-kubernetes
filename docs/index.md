@@ -114,7 +114,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/)
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
-- [Client Libraries for Kubernetes: Go client, Fabric8 & JKube](kubernetes-client-libraries.md)
+- [Client Libraries for Kubernetes: Go client, Python, Fabric8 & JKube](kubernetes-client-libraries.md)
 - [Flux. The GitOps operator for Kubernetes](https://fluxcd.io/) 
 - [Helm Kubernetes Tool](helm.md)
 - [Liquibase and Flyway](liquibase.md)

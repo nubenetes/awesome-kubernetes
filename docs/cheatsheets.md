@@ -1,6 +1,7 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
 - [AWS Cheat Sheets](#aws-cheat-sheets)
+- [API Cheatsheets](#api-cheatsheets)
 - [eBooks](#ebooks)
 - [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
 	- [Dash for MacOS (paid)](#dash-for-macos-paid)
@@ -54,6 +55,9 @@
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
 
+## API Cheatsheets
+- [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
+
 ## eBooks
 * [Red Hat Developer eBooks 🌟](https://developers.redhat.com/ebooks) Browse through our collection of eBooks to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy books on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
 * [Transformation takes practice](https://www.redhat.com/en/engage/open-practice-library-ebook) Our experts understand this: When it comes to your unique business challenges, one size does not fit all. We can guide you through exercises and tools, like the ones within the Open Practice Library, that are right for where you are, right now.
@@ -90,6 +94,7 @@
 * [medium: Awesome Kubernetes Command-Line Hacks](https://medium.com/better-programming/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 * [akhilsharma.work: kubectl Get Resource - Short Names](https://akhilsharma.work/kubectl-get-resource-short-names/)
 * [blog.mimacom.com: Kubernetes Cheat Sheet](https://blog.mimacom.com/kubernetes-cheat-sheet/)
+* [github: K8s in 30 mins 🌟](https://github.com/r0hi7/k8s-In-30Mins) This is not a comprehensive guide to learn Kubernetes from scratch, rather this is just a small guide/cheat sheet to quickly setup and run applications with Kubernetes and deploy a very simple application on single workload VM. This repo can be served as quick learning manual to understand Kubernetes.
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -114,6 +119,7 @@
 * [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
 * [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
     * [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+* [towardsdatascience.com: 18 Git Commands I Learned During My First Year as a Software Developer](https://towardsdatascience.com/git-commands-cheat-sheet-software-developer-54f6aedc1c46)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
@@ -164,6 +170,7 @@
 * [github.com: openshift cheat sheet 3](https://github.com/mhausenblas/openshift-cheat-sheet)
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [openshift.tips](https://openshift.tips/)
+* [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)
 
 ### Debezium Cheat Sheets
 * [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) Debezium is a distributed open-source platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong. This cheat sheet covers how to deploy/create/run/update a Debezium Connector on OpenShift. 

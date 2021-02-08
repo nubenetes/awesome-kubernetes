@@ -1,5 +1,6 @@
 # Kubernetes Alternatives
 - [Why Not Use Kubernetes](#why-not-use-kubernetes)
+- [Amazon ECS](#amazon-ecs)
 - [Nomad](#nomad)
 - [Portainer](#portainer)
 - [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
@@ -9,6 +10,10 @@
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
 - [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)
+- [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/3604652/when-kubernetes-is-not-the-solution.html)
+
+## Amazon ECS
+- [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
 
 ## Nomad
 * [Nomad](https://nomadproject.io/)
@@ -37,6 +42,7 @@
 * [dotnettricks.com: Kubernetes vs Docker: Analyzing The Differences](https://www.dotnettricks.com/learn/docker/kubernetes-vs-docker-analyzing-the-differences)
 * [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
 * [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)
+* [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphoreci.com/blog/kubernetes-vs-docker)
 
 ---
 <center>

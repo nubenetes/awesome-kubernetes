@@ -50,6 +50,8 @@
 - [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
 - [Awesome Jenkins](https://github.com/sahilsk/awesome-jenkins)
 - [Hacking Jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
+- [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
+- [Awesome Spinnaker](https://github.com/robzienert/awesome-spinnaker)
 
 ### DevOps
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
@@ -102,6 +104,7 @@
 - [Awesome Python](https://github.com/vinta/awesome-python)
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
+- [Awesome Go](https://github.com/avelino/awesome-go)
 
 #### Bash
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)

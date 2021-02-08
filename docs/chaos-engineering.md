@@ -12,6 +12,7 @@
 * [chaos-mesh.org: Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier](https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier/)
 * [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci)
 * [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.openshift.com/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes)
+* [thenewstack.io: Chaos Engineering Progressively Moves to Production](https://thenewstack.io/chaos-engineering-progressively-moves-to-production/)
 
 ## Chaos Engineering for serverless computing
 * [thenewstack.io: Breaking Serverless on Purpose with Chaos Engineering](https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering/)

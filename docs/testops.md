@@ -4,6 +4,7 @@
 - [Test Driven Development (TDD)](#test-driven-development-tdd)
 - [Tools](#tools)
     - [KubeAudit](#kubeaudit)
+- [Application Security Testing (AST)](#application-security-testing-ast)
 
 ## TestOps
 - [devops.com: Shift-Right Testing: The Emergence of TestOps](https://devops.com/shift-right-testing-the-emergence-of-testops/)
@@ -35,6 +36,9 @@
 
 ### KubeAudit 
 - [developers.redhat.com: Static analysis with KubeAudit for Red Hat OpenShift](https://developers.redhat.com/blog/2020/10/09/static-analysis-with-kubeaudit-for-red-hat-openshift/) This auditing tool currently only supports Kubernetes manifests, but we plan to expand it to include Helm charts and Go code, as well. The tool is in very early stages, but is looking for community input to help add use cases.
+
+## Application Security Testing (AST)
+- [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.synopsys.com/blogs/software-security/integrating-automated-ast-tools)
 
 <center>
 [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)

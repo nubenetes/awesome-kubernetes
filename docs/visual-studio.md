@@ -14,6 +14,7 @@
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 - [Test Debugging](#test-debugging)
 - [Python in Visual Studio Code](#python-in-visual-studio-code)
+- [Go in Visual Studio Code](#go-in-visual-studio-code)
 - [Bridge to Kubernetes](#bridge-to-kubernetes)
 - [Cloud Code](#cloud-code)
 - [Alternatives](#alternatives)
@@ -34,6 +35,8 @@
 * [A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code and deploy on Azure](https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial)
 * [thenewstack.io: This Week in Programming: All Hail Visual Studio Code](https://thenewstack.io/this-week-in-programming-all-hail-visual-studio-code/)
 * [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/)
+* [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)
+* [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -96,6 +99,7 @@ A simple extension to make indentation more readable
 * [freecodecamp.org: VS Code Extensions That'll Boost Your Development Productivity 🌟](https://www.freecodecamp.org/news/vs-code-extensions-to-boost-your-development-productivity/)
 * [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dsteenman.cloudformation-yaml-snippets) Adds autocompletion for all AWS CloudFormation resources. The snippets are updated automatically every week by fetching the data from the official AWS CloudFormation resource specification.
 	* [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code)
+* [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -156,6 +160,10 @@ A simple extension to make indentation more readable
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/)
+
+## Go in Visual Studio Code
+- [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md)
+- [blog.golang.org: Gopls on by default in the VS Code Go extension](https://blog.golang.org/gopls-vscode-go)
 
 ## Bridge to Kubernetes
 - [Bridge to Kubernetes 🌟](https://github.com/microsoft/mindaro) Bridge to Kubernetes extends the Kubernetes perimeter to your development computer allowing you to write, test, and debug microservice code while connected to your Kubernetes cluster with the rest of your application or services. With this workflow, there is no need for extra assets, such as a Dockerfile or Kubernetes manifests. You can simply run your code natively on your development workstation while connected to the Kubernetes cluster, allowing you to test your code changes in the context of the larger application.

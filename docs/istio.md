@@ -50,6 +50,7 @@
 - [medium.com: Increasing observability on Istio: The new Kiali health configuration](https://medium.com/kialiproject/increasing-observability-on-istio-the-new-kiali-health-configuration-3c91852c1bfe)
 - [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 1: Theory 🌟](https://dzone.com/articles/metadata-management-in-big-data-systems-a-complete-1) In Part 1, we go over the concepts behind Istio and Service Mesh, such as their architecture, how they function, and more.
   - [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 2: Tutorial 🌟](https://dzone.com/articles/istio-service-mesh-the-step-by-step-guide-part-2-t)
+- [solo.io: The evolution of VM support in Istio 1.8 (with video)](https://www.solo.io/blog/the-evolution-of-vm-support-in-istio-1-8-with-video/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

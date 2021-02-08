@@ -19,6 +19,7 @@
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
+    - [Developer Sandbox](#developer-sandbox)
     - [OpenShift VS Kubernetes](#openshift-vs-kubernetes)
     - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
     - [Knative](#knative)
@@ -64,6 +65,7 @@
 - [Terraform](#terraform)
 - [Prometheus and Grafana](#prometheus-and-grafana)
 - [GitHub Actions](#github-actions)
+    - [RedHat GitHub Actions](#redhat-github-actions)
 - [Red Hat Process Automation Manager](#red-hat-process-automation-manager)
 
 ## DevOps Screencasts
@@ -98,6 +100,7 @@
 ### GitOps 
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
 - [kubesandclouds.com: Werf: Fully customizable GitOps 🌟](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/) Werf builds and publishes images, deploys applications to Kubernetes clusters, and removes unused images based on policies and rules defined in the Git repository.
+- [mytechramblings.com: A practical example of GitOps using Azure DevOps, Azure Container Registry, Helm, Flux and Kubernetes](https://www.mytechramblings.com/posts/gitops-with-azure-devops-helm-acr-flux-and-k8s/)
 
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
@@ -129,6 +132,7 @@
 * [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML.
 * [medium: Production Ready CI/CD Pipeline with Kubernetes](https://medium.com/awsblogs/ci-cd-with-kubernetes-3c29e8073c38)
 * [myweblearner.com: Kubernetes(k8s) Readiness and Liveness Probe](https://myweblearner.com/springboot_k8s_readiness_liveness.html)
+* [medium.com: Attacking Kubernetes clusters using the Kubelet API](https://medium.com/faun/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca) Knock-knockin’ on kubelet’s door. From the doormat to full node access.
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -218,6 +222,10 @@
 * [dzone: CodeReady Containers - Exploring a home loan mortgage process](https://dzone.com/articles/codeready-containers-exploring-a-home-loan-mortgag) As a cloud-native developer you've installed an OpenShift Container Platform development environment on your local machine, but what's next...
 * [Rcarrata's blog](https://rcarrata.com/)
 
+### Developer Sandbox
+* [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
+* [developers.redhat.com: How to deploy a Java application on Kubernetes in minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes) Move your legacy Java application into a container and deploy it to Kubernetes. The Developer Sandbox for Red Hat OpenShift is a free OpenShift cluster that gives you access to the cutting-edge technologies built on Kubernetes. A quick sign-up gets you a cluster and access to a set of developer tools and services. Move this Spring Pet Clinic example application into a container using the Source-to-Image (s2i) feature. 
+
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
 
@@ -266,6 +274,7 @@
 ### Red Hat Advanced Cluster Management RHACM 
 - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.openshift.com/blog/applications-here-applications-there-part-3-application-migration)
 - [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of) Want to manage Kubernetes clusters at scale? Struggle with Application Lifecycle? Need to ensure Security and Compliance policies across clusters? Check out these demos of Red Hat Advanced Cluster Manager (RHACM).
+- [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/about/videos/acm-ansible-integration-overview)
 
 ### OKD
 * [medium.com: Installing an OKD 4.5 Cluster](https://medium.com/@craig_robinson/guide-installing-an-okd-4-5-cluster-508a2631cbee)
@@ -394,6 +403,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## Spinnaker
 - [Demo/Evaluation Installations](https://spinnaker.io/setup/quickstart/)
+* [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker)
 - [imperialwicket/spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo)
 - [henrybell/spinnaker-demo-app](https://github.com/henrybell/spinnaker-demo-app)
 - [codeburst.io: Spinnaker by Example: Part 1](https://codeburst.io/spinnaker-by-example-part-1-c4de9180d689)
@@ -403,6 +413,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [dzone: Continuous Delivery Pipeline for Kubernetes Using Spinnaker](https://dzone.com/articles/continuous-delivery-pipeline-for-kubernetes-using) This post will focus on pushing out new releases of the application to our Kubernetes cluster i.e. Continuous Delivery.
 - [armory.io: How to Set Up Liquibase in Spinnaker](https://www.armory.io/blog/how-to-set-up-liquibase-in-spinnaker/)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
+- [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes
@@ -423,6 +434,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift)
 * [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 * [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
+* [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic)
 
 ### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL  
 * [griddynamics/mpl](https://github.com/griddynamics/mpl)
@@ -505,6 +517,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## GitHub Actions
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)
+
+### RedHat GitHub Actions
+- [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)
 
 ## Red Hat Process Automation Manager
 - [gitlab.com: Red Hat Process Automation Manager - Signal Marketing Demo](https://gitlab.com/bpmworkshop/rhpam-signal-marketing-demo)

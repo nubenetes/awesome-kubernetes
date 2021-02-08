@@ -23,6 +23,7 @@
 
 ## AKS Azure Kubernetes Service 
 - [trstringer.com: Run Kubernetes Pods on Specific VM Types in AKS](https://trstringer.com/run-kubernetes-pods-on-vm-types/)
+- [docs.microsoft.com: AKS-managed Azure Active Directory integration](https://docs.microsoft.com/en-us/azure/aks/managed-aad)
 
 ## Azure Traffic Manager
 - [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)
