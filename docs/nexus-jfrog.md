@@ -79,6 +79,8 @@
 - [jfrog.com: Control Your Kubernetes Voyage with JFrog Artifactory 🌟](https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/) 5-Step Kubernetes CI/CD Process using Artifactory & Helm
 - [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog)
 - [jfrog.com: JFrog and Docker Partner to Combine the Power of JFrog Artifactory and Docker Hub to Improve Quality, Performance, and Developer Experience for Modern Application Development](https://jfrog.com/press/jfrog-docker-partner-to-combine-the-power-jfrog-artifactory-docker-hub/)
+- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
+- [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/)
 
 ## JFrog DevOps Platform
 - [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)

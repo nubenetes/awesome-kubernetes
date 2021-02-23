@@ -50,6 +50,8 @@
 * [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html)
 * [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier/) “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”
 * [dzone: Kubernetes and Running Stateful Workloads 🌟](https://dzone.com/articles/kubernetes-and-running-stateful-workloads)
+* [towardsdatascience.com: Understanding the Relational Model of Database Management Systems 🌟](https://towardsdatascience.com/understanding-the-relational-model-of-database-management-systems-56f17db99f56)
+* [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.openshift.com/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift)
 
 [![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 
@@ -128,6 +130,8 @@
 * [info.crunchydata.com: An Easy Recipe for Creating a PostgreSQL Cluster with Docker Swarm](https://info.crunchydata.com/blog/an-easy-recipe-for-creating-a-postgresql-cluster-with-docker-swarm)
 * [info.crunchydata.com: Deploying the PostgreSQL Operator on GKE](https://info.crunchydata.com/blog/install-postgres-operator-kubernetes-on-gke-ansible)
 * [info.crunchydata.com: Using GitOps to Self-Manage Postgres in Kubernetes 🌟](https://info.crunchydata.com/blog/gitops-postgres-kubernetes)
+* [info.crunchydata.com: Kubernetes Pod Tolerations and Postgres Deployment Strategies](https://info.crunchydata.com/blog/kubernetes-pod-tolerations-and-postgresql-deployment-strategies)
+
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -777,6 +781,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
 - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)
+- [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/2020/06/26/mysql-101-how-to-find-and-tune-a-slow-sql-query/)
 
 ## Tools
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.

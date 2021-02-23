@@ -83,6 +83,9 @@
 * [freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟](https://www.freecodecamp.org/news/how-to-use-branches-in-git/)
 * [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6)
 * [blog.gitguardian.com: Rewriting your git history, removing files permanently - cheatsheet & guide](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/)
+* [smashingmagazine.com: Getting The Most Out Of Git](https://www.smashingmagazine.com/2021/02/getting-the-most-out-of-git/)
+* [thenewstack.io: Why Open Source Project Maintainers are Reluctant to use Digital Signatures, Two-Factor Authentication](https://thenewstack.io/why-open-source-project-maintainers-are-reluctant-to-use-digital-signatures-two-factor-authentication/)
+* [geeksforgeeks.org: How to Write Good Commit Messages in GitHub?](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
 
 ## Design By Contract
 [Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. 
@@ -208,6 +211,9 @@ git push origin -f
 * [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/2020/07/29/effective-ci-cd-pipelines/) Here’s how to take your CI/CD pipeline to the next level with hands on advice about faster builds, better security and more.
 * [gitlab.com: How to do GitLab merge request reviews in VS Code](https://about.gitlab.com/blog/2021/01/25/mr-reviews-with-vs-code/)
 * [about.gitlab.com: How we used parallel CI/CD jobs to increase our productivity](https://about.gitlab.com/blog/2021/01/20/using-run-parallel-jobs/) GitLab uses parallel jobs to help long-running jobs run faster.
+* [about.gitlab.com: How to use GitLab CI to deploy to multiple environments](https://about.gitlab.com/blog/2021/02/05/ci-deployment-and-environments/)
+* [about.gitlab.com: Meet Pipeline Editor, your one-stop-shop for building a CI/CD pipeline](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview/)
+* [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/2021/02/22/gitlab-kubernetes-agent-on-gitlab-com/) The GitLab Kubernetes Agent enables secure deployments from GitLab SaaS to your Kubernetes cluster and provides deep integrations of your cluster to GitLab.
 
 ## GitHub
 * [githubstatus.com 🌟](https://www.githubstatus.com/)
@@ -236,6 +242,8 @@ git push origin -f
 * [github.blog: Improving how we deploy GitHub](https://github.blog/2021-01-25-improving-how-we-deploy-github/) 
 * [github.blog: Deployment reliability at GitHub](https://github.blog/2021-02-03-deployment-reliability-at-github/)
 * [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/2021-02-04-extending-gitops-to-reliability-as-code-with-github-and-stackpulse/)
+* [backhub.co](https://www.backhub.co/) Reliable GitHub repository backup, set up in minutes
+* [GitHub public roadmap 🌟](https://github.com/github/roadmap)
 
 ### GitHub Actions and OpenShift
 - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem

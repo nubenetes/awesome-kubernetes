@@ -13,6 +13,7 @@
 - [dzone: Source control your database with Liquibase and Maven](https://dzone.com/articles/source-control-your-database)
 - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)
 - [percona: Database Schema Management Via Liquibase](https://www.percona.com/community-blog/2020/10/01/database-schema-management-via-liquibase/)
+- [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes/)
 
 ## Flyway
 - [Flyway](https://flywaydb.org/) Version control for your database. Robust schema evolution across all your environments. With ease, pleasure and plain SQL.

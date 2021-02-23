@@ -38,7 +38,7 @@
 
 ### CRI-O
 - [cri-o.io](https://cri-o.io/) Lightweight Container Runtime for Kubernetes
-- [Why Red Hat is investing in CRI-O and Podman](redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)
+- [Why Red Hat is investing in CRI-O and Podman](https://redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)
 
 ### Podman. Pod Manager tool
 - [Podman.io](https://podman.io/)

@@ -73,6 +73,8 @@
 #### gRPC
 - [gRPC](https://grpc.io/)
 - [wikipedia: gRPC](https://en.wikipedia.org/wiki/GRPC)
+- [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/2015/02/introducing-grpc-new-open-source-http2.html)
+- [nordicapis.com: Using gRPC to Connect a Microservices Ecosystem](https://nordicapis.com/using-grpc-to-connect-a-microservices-ecosystem/)
 
 ## Comparisons
 ### SOAP vs REST

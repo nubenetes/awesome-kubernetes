@@ -49,6 +49,10 @@
 - [helpnetsecurity.com: How to make DevSecOps stick with developers](https://www.helpnetsecurity.com/2020/12/14/how-devsecops-developers/)
 - [blog.christophetd.fr: Shifting Cloud Security Left — Scanning Infrastructure as Code for Security Issues](https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/)
 - [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://devclass.com/2021/01/13/sysdig-container-security-and-usage-report-2021/)
+- [roxsrossve.medium.com: El camino hacia DevSecOps](https://roxsrossve.medium.com/el-camino-hacia-devsecops-bbd55e075043)
+- [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together/)
+- [opensource.com: How to adopt DevSecOps successfully](https://opensource.com/article/21/2/devsecops) Integrating security throughout the software development lifecycle is important, but it's not always easy.
+- [devops.com: DevSecOps Trends to Know For 2021](https://devops.com/devsecops-trends-for-2021/)
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
@@ -68,6 +72,7 @@
 
 ## Project Calico
 * [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era
+* [thenewstack.io: Project Calico: Kubernetes Security as SaaS](https://thenewstack.io/project-calico-kubernetes-security-as-saas/)
 
 ## Security Patterns for Microservice Architectures
 - [Security Patterns for Microservice Architectures](https://developer.okta.com/blog/2020/03/23/microservice-security-patterns)

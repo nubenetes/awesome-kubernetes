@@ -95,6 +95,8 @@
 * [akhilsharma.work: kubectl Get Resource - Short Names](https://akhilsharma.work/kubectl-get-resource-short-names/)
 * [blog.mimacom.com: Kubernetes Cheat Sheet](https://blog.mimacom.com/kubernetes-cheat-sheet/)
 * [github: K8s in 30 mins 🌟](https://github.com/r0hi7/k8s-In-30Mins) This is not a comprehensive guide to learn Kubernetes from scratch, rather this is just a small guide/cheat sheet to quickly setup and run applications with Kubernetes and deploy a very simple application on single workload VM. This repo can be served as quick learning manual to understand Kubernetes.
+* [kunchalavikram1427: kubernetes Public](https://github.com/kunchalavikram1427/Kubernetes_public)
+	* [kunchalavikram1427: kubernetes Commands](https://github.com/kunchalavikram1427/Kubernetes_public/blob/master/Kubernetes_Commands.txt)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -154,6 +156,7 @@
 * [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
 * [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
 * [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
+* [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -171,6 +174,8 @@
 * [monodot.co.uk: openshift cheat sheet 4](https://monodot.co.uk/openshift-cheatsheet/)
 * [openshift.tips](https://openshift.tips/)
 * [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)
+* [cookbook.openshift.org 🌟](https://cookbook.openshift.org/)
+* [cookbook.openshift.org: How do I import an image from an external image registry? 🌟](https://cookbook.openshift.org/image-registry-and-image-streams/how-do-i-import-an-image-from-an-external-image.html)
 
 ### Debezium Cheat Sheets
 * [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) Debezium is a distributed open-source platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong. This cheat sheet covers how to deploy/create/run/update a Debezium Connector on OpenShift. 

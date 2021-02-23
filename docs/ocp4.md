@@ -86,11 +86,14 @@
 * [openshift.com: OpenShift Architectures for the Edge With OpenShift 4.6](https://www.openshift.com/blog/openshift-architectures-for-the-edge-with-openshift-4.6)
 * [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)
 * [openshift.com: Nested OpenShift using OpenShift Virtualization](https://www.openshift.com/blog/nested-openshift-using-openshift-virtualization)
+* [developers.redhat.com: Deploying Kubernetes Operators with Operator Lifecycle Manager bundles](https://developers.redhat.com/blog/2021/02/08/deploying-kubernetes-operators-with-operator-lifecycle-manager-bundles/)
+* [openshift.com: 8 Answers to 7 OpenShift Questions 🌟](https://www.openshift.com/blog/8-answers-to-7-openshift-questions)
 
 ### Best Practices
 * [developers.redhat.com - Best practices: Using health checks in the OpenShift 4.5 web console 🌟](https://developers.redhat.com/blog/2020/07/20/best-practices-using-health-checks-in-the-openshift-4-5-web-console/) 3 types of health checks offered in OpenShift 4.5 to improve application reliability and uptime
 * [redhat-cop.github.io: Best practices for migrating from OpenShift Container Platform 3 to 4 🌟](https://redhat-cop.github.io/openshift-migration-best-practices/) This guide provides recommendations and best practices for migrating from OpenShift Container Platform 3.9+ to OpenShift 4.x with the Migration Tookit for Containers (MTC).
 * [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.openshift.com/blog/applications-here-applications-there-part-3-application-migration) Application Migration on Advanced Cluster Management
+* [openshift-yolo](https://github.com/e-minguez/openshift-yolo) OpenShift CronJob to check if updates are available, and if so, upgrade the cluster to the latest version.
 
 ### Setting up OCP4 on AWS
 * [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md)).

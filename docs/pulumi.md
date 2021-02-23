@@ -5,3 +5,4 @@
 - [DRY (Don’t Repeat Yourself) on the cloud with Pulumi](https://blog.thundra.io/dry-dont-repeat-yourself-on-the-cloud-with-pulumi)
 - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn/kubernetes-clusters-using-the-civo-pulumi-provider)
 - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines/)
+- [pulumi.com: From Terraform to Infrastructure as Software](https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software/)

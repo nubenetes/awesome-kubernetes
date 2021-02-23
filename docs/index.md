@@ -81,6 +81,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
 - [OpenShift Online](https://www.openshift.com/products/online/)
 - [OpenShift.io](https://openshift.io/)
+- [Developer Sandbox](https://developers.redhat.com/developer-sandbox)
 - [Red Hat Marketplace](https://marketplace.redhat.com/) 
 ### Customer Success Stories
 - [Customer Success Stories 🌟](customer.md)
@@ -122,6 +123,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Pulumi](pulumi.md)
 - [StackStorm](stackstorm.md)
 - [Terraform & Packer](terraform.md)
+- [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
 - [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
 ## Databases on Kubernetes
@@ -170,6 +172,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
+
+## Big Data
+- [Big Data](bigdata.md)
 ## More References
 - [E-Learning](elearning.md)
 - [Subreddits and Newsfeeds](newsfeeds.md)

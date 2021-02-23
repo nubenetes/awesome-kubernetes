@@ -95,6 +95,8 @@
 - [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python)
 - [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) Learn how experienced developers use environment variables in Python, including managing default values and typecasting.
 - [src-r-r.github.io: How To Property Set Up Python Logging With A Command Line Program](https://src-r-r.github.io/articles/how_to_log_with_a_python_cli_program/)
+- [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc/)
+- [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python/)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -144,6 +146,7 @@
 - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/)
 - [towardsdatascience.com: Create and Deploy a Simple Web Application with Flask and Heroku](https://towardsdatascience.com/create-and-deploy-a-simple-web-application-with-flask-and-heroku-103d867298eb)
 - [towardsdatascience.com: How to deploy a Flask API in Kubernetes and connect it with other micro-services](https://towardsdatascience.com/how-to-deploy-a-flask-api-in-kubernetes-and-connect-it-with-other-micro-services-af16965b67fe) A hands-on tutorial on how to implement your micro-service architecture using the powerful container orchestration tool Kubernetes.
+- [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)
 
 ## FastAPI
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)

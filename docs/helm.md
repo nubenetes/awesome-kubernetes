@@ -67,7 +67,9 @@ Kubernetes packages
     * [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications 
 * [Artifact Hub](https://artifacthub.io/)
 * [KubeApps Hub](https://hub.kubeapps.com/)
-
+* [github: Nova 🌟](https://github.com/fairwindsops/nova) Find outdated or deprecated Helm charts running in your cluster.
+* [github: Kubernetes Deployment Orchestrator](https://github.com/SAP/kubernetes-deployment-orchestrator) This project brings the starlark scripting language to helm charts.
+  
 ## Helm Charts
 * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
 * [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)

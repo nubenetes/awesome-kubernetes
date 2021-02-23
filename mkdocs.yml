@@ -160,6 +160,7 @@ nav:
     - Oracle Cloud: oraclecloud.md
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
+  - Big Data: bigdata.md
   - More References:
     - E-Learning: elearning.md
     - Subreddits: newsfeeds.md

@@ -40,6 +40,7 @@
 - [MongoDB Administration Checklist for MySQL DBAs 🌟](https://dzone.com/articles/mongodb-administration-checklist-for-mysql-dbas) If you are MySQL DBA, starting MongoDB administration is not always an easy transition. This post provides a checklist for MongoDB administrators who are familiar with MySQL.
 - [DZone: Maximizing MongoDB on AWS](https://dzone.com/articles/maximizing-mongodb-on-aws) This lengthy post will tell you everything you need to know about getting MongoDB Atlas working as best as it can on Amazon Web Services.
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/kubernetes)
+- [polarsparc.com: Hands-on MongoDB :: Part-5 🌟](https://www.polarsparc.com/xhtml/MongoDB-5.html)
 
 ### Redis
 - [Redis](http://redis.io/)

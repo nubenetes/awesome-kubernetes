@@ -2,9 +2,10 @@
 - [Templating YAML Files](#templating-yaml-files)
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
+    - [Kubernetes examples](#kubernetes-examples)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
-- [Static Checking of Kubernetes YAML Files](#static-checking-of-kubernetes-yaml-files)
+- [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
 
 ## Templating YAML Files
@@ -35,6 +36,9 @@
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
 
+### Kubernetes examples
+- [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.
+
 ### Helm and Kustomize
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 
@@ -44,7 +48,7 @@
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 
-## Static Checking of Kubernetes YAML Files
+## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 - The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:
     - **API validators**: Tools in this category validate a given YAML manifest against the Kubernetes API server.
     - **Built-in checkers**: Tools in this category bundle opinionated checks for security, best practices, etc.
@@ -56,6 +60,7 @@
     - [Copper](https://github.com/cloud66-oss/copper)
     - [Conftest](https://www.conftest.dev/)
     - [Polaris](https://github.com/FairwindsOps/polaris)
+- [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools/)
 
 ## Alternatives
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)

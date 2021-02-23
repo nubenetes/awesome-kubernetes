@@ -56,6 +56,9 @@
 * [cloudsavvyit.com: How to Use Cron With Your Docker Containers](https://www.cloudsavvyit.com/9033/how-to-use-cron-with-your-docker-containers/)
 * [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership/) 
 * [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) Exploring the tradeoffs of building container images at scale
+* [docker.com: Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
+    * [docker.com: Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/)
+    * [docker.com: Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
@@ -63,7 +66,9 @@
 ## Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
-
+- [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan/) Docker included a new command called `docker scan` that scans local images against the Snyk security engine, providing you with security visibility into your local Dockerfiles and images.
+- [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices/)
+  
 ## How To Build a Smaller Docker Image
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
 * [medium: How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a) When you’re building a Docker image it’s important to keep the size under control. Having small images means ensuring faster deployment and transfers.

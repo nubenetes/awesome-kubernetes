@@ -56,6 +56,12 @@
 * [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert/)
 * [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/sysadmin/automate-reboot-ansible) 
 * [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible)
+* [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/sysadmin/how-start-ansible) This article gives you a quick, high-level guide on how to start with Ansible
+* [cloudify.co: Ansible Vs Terraform 🌟](https://cloudify.co/blog/ansible-vs-terraform/)
+* [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)
+* [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package)
+* [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses/) Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.
+	* [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/)
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation

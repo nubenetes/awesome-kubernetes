@@ -1,6 +1,7 @@
 # Istio - Service Mesh
 - [Docs](#docs)
 - [Maistra Istio](#maistra-istio)
+- [Admiral](#admiral)
 - [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
 - [Jaeger tracing. Open source, end-to-end distributed tracing](#jaeger-tracing-open-source-end-to-end-distributed-tracing)
 - [Envoy micro proxy](#envoy-micro-proxy)
@@ -56,6 +57,9 @@
 - [Maistra.io](https://maistra.io)
 - [github.com: Maistra Istio](https://github.com/maistra/istio)
 - [Installing on OKD/OCP](https://maistra.io/docs/getting_started/install/)
+
+## Admiral
+- [istio-ecosystem/admiral](https://github.com/istio-ecosystem/admiral) Admiral provides automatic configuration and service discovery for multicluster Istio service mesh. Istio has a very robust set of multi-cluster capabilities. Managing this configuration across multiple clusters at scale is challenging. Admiral takes an opinionated view on this configuration and provides automatic provisioning and syncing across clusters. This removes the complexity for developers and mesh operators.
 
 ## Kiali project, observability for the Istio service mesh
 - [kiali.io](https://www.kiali.io/)

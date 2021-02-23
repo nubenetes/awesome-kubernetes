@@ -13,6 +13,7 @@
     - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 ## Go Clients for Kubernetes
 - [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) Go clients for talking to a kubernetes cluster.
+- [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting/)
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
 
@@ -33,3 +34,4 @@
 - [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available/)
 - [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
 - [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
+- [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)

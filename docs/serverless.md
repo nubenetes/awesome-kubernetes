@@ -37,6 +37,7 @@
 ### Serverless Ecosystems Comparison
 * [fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless Function (FaaS) Providers](https://fauna.com/blog/comparison-faas-providers)
 * [techbeacon.com: An essential guide to the 2019 serverless ecosystem](https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem) The Serverless Framework, the most popular option, offers integrations with all major platform providers. Others to consider include (in alphabetical order): Architect (Node, AWS), Chalice (Python, AWS), Claudia.js (Node, AWS), Dawson (Node, AWS), DEEP (Node, AWS), Flogo (Go, AWS), Lambada Framework (Java, AWS), Python-Lambda (Python, AWS), Pulumi (Node/Python/Go, AWS/Azure/GCP/Kubernetes), Shep (Node, AWS), Sparta (Go, AWS), Spring Cloud Function (Java, AWS/Azure/OpenWhisk), and Zappa (Python, AWS).
+* [vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks/)
 
 ## Serverless Framework (the most popular serverless ecosystem)
 * [serverless.com: Serverless Framework](https://www.serverless.com/)

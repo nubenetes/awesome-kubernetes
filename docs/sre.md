@@ -27,6 +27,7 @@
 - [hernan-david-hd.medium.com: 5 pilares del SRE/DevOps](https://hernan-david-hd.medium.com/5-pilares-del-sre-devops-f16e45f8d3fd)
 - [hernan-david-hd.medium.com: Breaking down SRE/DevOps into 5 key areas](https://hernan-david-hd.medium.com/breaking-down-sre-devops-into-5-key-areas-5aacf40e8392)
 - [getcortexapp.com: A guide to the best SRE tools](https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools)
+- [devops.com: How the SRE Role Is Evolving](https://devops.com/how-the-sre-role-is-evolving/)
 
 <center>
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)

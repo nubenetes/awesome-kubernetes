@@ -3,6 +3,7 @@
 - [DevOps Blogs](#devops-blogs)
 - [Kubernetes Blogs](#kubernetes-blogs)
 - [DevOps Demos](#devops-demos)
+    - [Container Tools](#container-tools)
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
     - [GitOps](#gitops)
 - [Kubernetes Demos](#kubernetes-demos)
@@ -89,6 +90,10 @@
 * [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
 * [swissarmydevops.com](https://swissarmydevops.com/) 
 
+### Container Tools
+- [dzone Avengers of the Container World, Episode 1: Podman Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands) CRI-O and Podman have been widely adapted by most of the modern container platforms. In this blog, we will deep-dive on Podman with a hands-on session.
+- [dzone: Avengers of Container World, Episode 2: Buildah and Skopeo Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-2-buildah-amp) In this post, we will explore Buildah and Skopeo, build a Node.js application container using Buildah, and run it using Podman
+
 ### Ansible and Ansible Tower
 * [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://ansible.github.io/workshops/demos/)
 * [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
@@ -133,6 +138,7 @@
 * [medium: Production Ready CI/CD Pipeline with Kubernetes](https://medium.com/awsblogs/ci-cd-with-kubernetes-3c29e8073c38)
 * [myweblearner.com: Kubernetes(k8s) Readiness and Liveness Probe](https://myweblearner.com/springboot_k8s_readiness_liveness.html)
 * [medium.com: Attacking Kubernetes clusters using the Kubelet API](https://medium.com/faun/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca) Knock-knockin’ on kubelet’s door. From the doormat to full node access.
+* [nfrankel/jvm-controller](https://github.com/nfrankel/jvm-controller) Example on how to write a kubernetes controller in Java. The demo code for nfrankel's talk on Kubernetes operators in Java.
 
 ### CI/CD with SpringBoot for Kubernetes 
 * [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
@@ -244,6 +250,7 @@
 - [Set up continuous integration for .NET Core with OpenShift Pipelines](https://developers.redhat.com/blog/2020/09/24/set-up-continuous-integration-for-net-core-with-openshift-pipelines/)
 - [alesnosek.com: CI/CD Pipeline Spanning Multiple OpenShift Clusters (jenkins & tekton)](http://alesnosek.com/blog/2020/06/30/ci-slash-cd-pipeline-spanning-multiple-openshift-clusters/)
 - [openshift.com: Guide to OpenShift Pipelines Part 1 - Introducing OpenShift Pipelines](https://www.openshift.com/blog/guide-to-openshift-pipelines-part-1-introducing-openshift-pipelines)
+- [kailashyogeshwar.medium.com: How we implemented Reusable CI/CD Pipeline using Git and Tekton](https://kailashyogeshwar.medium.com/how-we-implemented-reusable-ci-cd-pipeline-using-git-and-tekton-503bed91975b)
 
 ### ArgoCD
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 
@@ -253,6 +260,8 @@
 - [itnext.io: Deploy Argo CD with Ingress and TLS in Three Steps: No YAML Yak Shaving Required 🌟](https://itnext.io/deploy-argo-cd-with-ingress-and-tls-in-three-steps-no-yaml-yak-shaving-required-bc536d401491)
   - [Ambassador Edge Stack. K8S Initializer  (scaffolding tool) 🌟](https://app.getambassador.io/)
 - [developers.redhat.com: Introduction to Tekton and Argo CD for multicluster development](https://developers.redhat.com/blog/2020/09/03/introduction-to-tekton-and-argo-cd-for-multicluster-development/)
+- [itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟](https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05)
+- [youtube: Exploring The Cloud-native Kubernetes CI/CD Pipeline Tool Landscape](https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor) In this meetup, we explore the new era of Kubernetes continuous integration continuous deployment pipelines based on a set of fancy tools as Tekton Pipelines, ArgoCD or Helm. We walk through the new DevOps and GitOps technologies landscape and a real demonstration of how these tools work together in order to make developers and system administrators lives easier. [repo1](https://github.com/acidonper/jump-app-gitops) , [repo2](https://github.com/acidonper/jump-app-docs) , [slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoMnVrcVR5Tjl0dlBGWkx2UTZzMHA3N1N3QXxBQ3Jtc0tsZkZrcUpfSzhBX1EzdUtOanRqV3o2WDZpdkhPY0NyODhmbERSQUhROFRPa2pZRC13Q3l0ekQ2MjR1LTIyY254VmhwdHVack1XeDJiRWVBMUl6U3RDRHo3cF9XVDVJRTluLWJFVXNYUjF5OFV4ZlN5SQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F14fSLwfEVpDU-3udMGEW9bQATCAOy0F8b6UOgNgDkD3A%2Fedit%3Fusp%3Dsharing)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
@@ -311,6 +320,7 @@
 * [github.com/monodot/pipeline-library-demo 🌟](https://github.com/monodot/pipeline-library-demo) Demonstrates how to use a Shared Library in Jenkins pipelines. This repository defines a single function, sayHello, which will echo a greeting.
 * [piotrminkowski.com: Continuous Integration with Jenkins on Kubernetes 🌟](https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes/)
 * [youtube: Simple DevOps Project | Publish Android APK to App Center | Beginner Pipeline](https://www.youtube.com/watch?v=KgH0QzMHXLs)
+* [blog.flant.com: Configuring Continuous Integration for Jenkins & Bitbucket using werf](https://blog.flant.com/configuring-continuous-integration-for-jenkins-bitbucket-using-werf/)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)

@@ -14,6 +14,7 @@ multiple versions of software on the same system, without affecting system-wide 
 * [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
 * [Distro installation added to WSL --install in Windows 10 insiders preview build 20246](https://devblogs.microsoft.com/commandline/distro-installation-added-to-wsl-install-in-windows-10-insiders-preview-build-20246/)
 * [pandorafms.com: Qué es, cómo instalar WSL2 y por qué es una gran noticia para el sector TI](https://pandorafms.com/blog/es/wsl2/)
+* [dev.to: Install Docker on Windows (WSL) without Docker Desktop 🌟](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9)
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)

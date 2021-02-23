@@ -109,6 +109,7 @@ optimizing Enterprise Java for the microservices architecture.
 * [spring.io: What's new in Spring Boot 2.4 🌟](https://spring.io/blog/2021/01/17/what-s-new-in-spring-boot-2-4)
 	* [Changes to Application properties/yaml](https://youtu.be/lgyO9C9zdrg?t=1489s)
 * [arnoldgalovics.com: Java and Spring Boot multiline log support for Fluentd (EFK stack)](https://arnoldgalovics.com/java-and-spring-boot-multiline-log-support-for-fluentd-efk-stack/)
+* [developers.redhat.com: Spring Boot on Quarkus: Magic or madness?](https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness/)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)

@@ -37,6 +37,7 @@
 ### Cucumber and Appium. Behavior Driven Development
 - [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://experitest.com/appium-blog/start-automating-your-mobile-tests-with-cucumber-and-appium/)
 - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
+- [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.lambdatest.com/blog/cucumber-with-jenkins-integration)
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)

@@ -46,6 +46,7 @@
 - [opensource.com: Bypass your Linux firewall with SSH over HTTP](https://opensource.com/article/20/7/linux-shellhub) Remote work is here to stay; use this helpful open source solution to quickly connect and access all your devices from anywhere.
 - [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh)
 - [paepper.com: How to properly manage ssh keys for server access](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/)
+- [goteleport.com: SSH Certificates Security. SSH Access Hardening 🌟](https://goteleport.com/blog/ssh-certificates/)
 
 ## Linux Blogs
 - [The Linux Foundation](http://www.linuxfoundation.org/)
@@ -109,6 +110,8 @@
 - [redhat.com: 5 advanced rsync tips for Linux sysadmins](https://www.redhat.com/sysadmin/5-rsync-tips) Use rsync compression and checksums to better manage file synchronization.
 - [metacpan.org: a2p - Awk to Perl translator](https://metacpan.org/pod/App::a2p) A2p takes an awk script specified on the command line (or from standard input) and produces a comparable perl script on the standard output.
 - [redhat.com: 5 questions to ask during your next sysadmin interview](https://www.redhat.com/sysadmin/5-questions-interview)
+- [oilshell: Alternative shells](https://github.com/oilshell/oil/wiki/Alternative-Shells)
+- [Timezone Bullshit](https://blog.wesleyac.com/posts/timezone-bullshit)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)

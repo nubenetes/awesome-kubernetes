@@ -63,6 +63,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [stackoverflow.blog: Fulfilling the promise of CI/CD 🌟](https://stackoverflow.blog/2021/01/19/fulfilling-the-promise-of-ci-cd/) When people say “CI/CD,” they are only talking about continuous integration. Nobody is talking about (or practicing) continuous deployment. AT ALL. It’s like we have all forgotten it exists. It's time to change that.
 * [Top 5 CI/CD best practices for 2021 🌟](https://circleci.com/blog/top-5-ci-cd-best-practices/)
 * [harness.io: What is Continuous Integration? 🌟](https://harness.io/blog/continuous-integration/what-is-continuous-integration/)
+* [cd.foundation: 2021 Technology Trends and Predictions](https://cd.foundation/blog/2021/02/01/trends-that-will-define-ci-cd-in-2021/)
 
 ## Security in CI/CD
 * [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/)

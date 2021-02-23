@@ -10,6 +10,7 @@
     * [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/)
 * [Travis CI](https://travis-ci.org/)
 * [Concourse](https://concourse-ci.org/)
+    * [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html)
 * [GoCD](https://www.gocd.org/)
 * [Codefresh](https://codefresh.io/)
 * [skaffold](https://skaffold.dev/)
@@ -65,6 +66,7 @@
     * [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins)
     * [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8)
     * [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made, and highly-collaborative continuous delivery pipelines. 
+    * [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-blog/how-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
 * [ArgoCD](https://argoproj.github.io/argo-cd/) Declarative GitOps CD for Kubernetes
     * [Cloud Native Computing Foundation Accepts Argo as an Incubator Project](https://www.intuit.com/blog/technology/cloud-native-computing-foundation-accepts-argo-as-an-incubator-project/)
     * [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd)
@@ -91,14 +93,14 @@
 * [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/)
 * [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a)
 * [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) The battle of CI/CD tools rages on — come and find out which is the right tool for your DevOps testing needs.
+* [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/)
+* [lambdatest.com: Bamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/)
 
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
 
 ---
 <center>
-<iframe src="https://www.youtube.com/embed/ihHr-iLfEGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
 </center>
 

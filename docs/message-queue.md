@@ -163,6 +163,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: How Pinterest runs Kafka at scale](https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be)
 - [medium: Google Pub/Sub Lite for Kafka Users](https://medium.com/google-cloud/google-pub-sub-lite-for-kafka-users-dec8a7cfc5e5)
 - [medium: 4 Microservices Caching Patterns at Wix](https://medium.com/wix-engineering/4-microservices-caching-patterns-at-wix-b4dfee1ae22f)
+- [Confluent.io: Intro to Apache Kafka: How Kafka Works 🌟](https://www.confluent.io/blog/apache-kafka-intro-how-kafka-works/)
+- [levelup.gitconnected.com: Kafka for Engineers](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
@@ -195,6 +197,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 ### Apache Flink
 - [Apache Flink](https://flink.apache.org/) Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
 - [How to set up Apache Flink on Kubernetes for real time data processing](https://ci.apache.org/projects/flink/flink-docs-stable/ops/deployment/kubernetes.html)
+- [flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)](https://flink.apache.org/2021/02/10/native-k8s-with-ha.html)
 
 ### Hazelcast JET
 - [Hazelcast JET](https://jet-start.sh/) Open-Source Distributed Stream Processing

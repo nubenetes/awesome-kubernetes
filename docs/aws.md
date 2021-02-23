@@ -54,6 +54,7 @@
 - [Docker for AWS](#docker-for-aws)
 - [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
 - [AWS VPC](#aws-vpc)
+	- [AWS Client VPN](#aws-client-vpn)
 - [AWS SQS. Amazon Simple Queue Service](#aws-sqs-amazon-simple-queue-service)
 - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
@@ -107,9 +108,12 @@
 - [AWS Managed Services for Prometheus and Grafana](#aws-managed-services-for-prometheus-and-grafana)
 - [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Best Practices](#best-practices)
+- [New Features](#new-features)
+- [Superwerker](#superwerker)
 - [Tools](#tools)
 - [Third party tools](#third-party-tools)
 - [AWS Amplify](#aws-amplify)
+- [AWS Control Tower](#aws-control-tower)
 - [Spain](#spain)
 - [Scripts](#scripts)
 - [Development](#development)
@@ -306,6 +310,7 @@
 ### AWS DMS
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
 - [Migrating Oracle databases with near-zero downtime using AWS DMS](https://aws.amazon.com/blogs/database/migrating-oracle-databases-with-near-zero-downtime-using-aws-dms/)
+- [Migrating a commercial database to open source with AWS SCT and AWS DMS](https://aws.amazon.com/blogs/database/migrating-a-commercial-database-to-open-source-with-aws-sct-and-aws-dms/)
 
 ### AWS RDS Proxy
 - [Amazon RDS Proxy – Now Generally Available](https://aws.amazon.com/es/blogs/aws/amazon-rds-proxy-now-generally-available/) A fully managed, highly available database proxy for Amazon Relational Database Service (RDS) that makes applications more scalable, more resilient to database failures, and more secure.
@@ -425,6 +430,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
 - [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
 - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)
+
+### AWS Client VPN
+- [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud/)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
@@ -637,6 +645,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [medium: How to Deploy an EKS stack in AWS?](https://medium.com/avmconsulting-blog/how-to-deploy-an-eks-stack-to-kubernetes-aws-5ec9c5a07247)
 - [aws.amazon.com: Fluent Bit Integration in CloudWatch Container Insights for EKS](https://aws.amazon.com/blogs/containers/fluent-bit-integration-in-cloudwatch-container-insights-for-eks/)
 - [Optimizing Your Kubernetes Clusters with Rancher and Amazon EKS 🌟](https://aws.amazon.com/blogs/apn/optimizing-your-kubernetes-clusters-with-rancher-and-amazon-eks/)
+- [clickittech.com: Amazon ECS vs EKS : The Best Container Orchestration Platform 🌟](https://www.clickittech.com/aws/amazon-ecs-vs-eks/)
+- [dev.to: Sharing secrets to ECS in an AWS multi-account architecture](https://dev.to/aws-builders/sharing-secrets-to-ecs-in-an-aws-multi-account-architecture-5h1i)
 
 ## AWS App Mesh 
 - [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
@@ -685,6 +695,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Best Practices
 - [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time 🌟](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time/)
 
+## New Features
+- [thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws/)
+- [Amazon EKS clusters now support user authentication with OIDC compatible identity providers](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers/)
+
+## Superwerker
+- [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/ 🌟) Automates AWS Cloud deployments backed by decades of expertise and best practices
+
 ## Tools
 - [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
 
@@ -694,6 +711,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Amplify
 - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-and-react-native-a-tutorial/)
+
+## AWS Control Tower
+- [AWS Control Tower](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
 
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)

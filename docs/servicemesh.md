@@ -33,6 +33,11 @@
 * [thenewstack.io: Offloading Authentication and Authorization from Application Code to a Service Mesh](https://thenewstack.io/offloading-authentication-and-authorization-from-application-code-to-a-service-mesh/)
 * [thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals](https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals/)
 * [thenewstack.io: Mutual TLS: Securing Microservices in Service Mesh](https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh/)
+* [medium: Service Mesh with Istio](https://medium.com/cloud-techies/service-mesh-with-istio-a0d045a28165)
+* [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments. Get Hands-On with Rancher, Kong and Kong Mesh 🌟](https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments) 
+	* Service Mesh is an emerging architecture pattern gaining traction today. Along with Kubernetes, Service Mesh can form a powerful platform which addresses the technical requirements that arise in a highly distributed environment typically found on a microservices cluster and/or service infrastructure. A Service Mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices.
+	* Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process.
+	* Kong provides an enterprise-class and comprehensive service connectivity platform that includes an API gateway, a Kubernetes ingress controller and a Service Mesh implementation. The platform allows customers to deploy on multiple environments such as on premises, hybrid, multi-­­­­­­region and multi-cloud.
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)
@@ -47,6 +52,8 @@
 - [hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟](https://www.hashicorp.com/blog/get-started-with-consul-service-mesh-on-kubernetes/)
 - [HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes](https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes) Learn about the advanced features of HashiCorp's Consul service mesh that are valuable to both infrastructure operators and developers.
 - [hashicorp.com: HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes 🌟](https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes)
+- [learn.hashicorp.com: Consul Service Mesh on Kubernetes Design Patterns](https://learn.hashicorp.com/tutorials/consul/kubernetes-consul-design-patterns)
+- [hashicorp.com: Disaster Recovery for HashiCorp Consul on Kubernetes 🌟](https://www.hashicorp.com/blog/disaster-recovery-for-hashicorp-consul-on-kubernetes) See the recovery steps to protect your data and secrets during an extended outage using Kubernetes and HashiCorp Consul.
 
 ### Consul Connect
 - [consul Connect](https://www.consul.io/docs/connect/index.html)

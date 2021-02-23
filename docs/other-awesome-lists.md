@@ -7,6 +7,7 @@
 	- [Cloud Native](#cloud-native)
 	- [CI/CD and Pipelines](#cicd-and-pipelines)
 	- [DevOps](#devops)
+	- [SRE](#sre)
 	- [OpenShift](#openshift)
 	- [Microservices](#microservices)
 	- [Monitoring](#monitoring)
@@ -19,6 +20,7 @@
 	- [Development](#development)
 		- [Bash](#bash)
 	- [Data Processing](#data-processing)
+	- [Big Data](#big-data)
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
 
@@ -56,6 +58,12 @@
 ### DevOps
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 
+### SRE
+- [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
+- [SquadcastHub/awesome-sre-tools](https://github.com/SquadcastHub/awesome-sre-tools)
+- [mancubus77/awesome-sre](https://github.com/mancubus77/awesome-sre)
+- [awesome-sre/awesome-sre](https://github.com/awesome-sre/awesome-sre)
+- [upgundecha/howtheysre 🌟](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 ### OpenShift
 - [Awesome Openshift](https://github.com/dudash/openshift-is-awesome)
 - [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3)
@@ -105,6 +113,7 @@
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - [Awesome Go](https://github.com/avelino/awesome-go)
+	- [awesome-go.com](https://awesome-go.com/)
 
 #### Bash
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
@@ -113,6 +122,9 @@
 ### Data Processing
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
+
+### Big Data
+- [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
 
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)

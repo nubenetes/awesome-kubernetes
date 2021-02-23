@@ -1,5 +1,6 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
 - [Namespaces for Data Structuring](#namespaces-for-data-structuring)
 - [From SysAdmin to Architect](#from-sysadmin-to-architect)
 - [Raft Consensus Algorithm](#raft-consensus-algorithm)
@@ -70,6 +71,12 @@
 * [thenewstack.io: Study: Silos Are the Chief Impediment to IT and Business Value](https://thenewstack.io/study-silos-are-chief-impediment-to-it-and-business-value/)
 * [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed/) DevOps has an automation problem, while agile has an identification problem. Both face organizational problems. Both are needed in the digital transformation shaping the months ahead.
 * [dzone: 10 Mandatory Services You Should Consider Adopting in AWS and Azure 🌟](https://dzone.com/articles/10-mandatory-services-you-should-consider-adopting) Thanks to the cloud revolution, the software engineering industry went from struggling to maintain IT infrastructure to selling software for subscription within a decade.
+* [thenewstack.io: Prepare to Adopt the Cloud: A 10-Step Cloud Migration Checklist 🌟](https://thenewstack.io/prepare-to-adopt-the-cloud-a-10-step-cloud-migration-checklist/)
+* [devprojournal.com: Containers, Kubernetes and Software Development in 2021](https://www.devprojournal.com/technology-trends/kubernetes/containers-kubernetes-and-software-development-in-2021/) Advice, expertise, and tools are available to help you get started developing with containers.
+* [infoq.com: Migrating Monoliths to Microservices with Decomposition and Incremental Changes](https://www.infoq.com/articles/migrating-monoliths-to-microservices-with-decomposition/)
+* [getcortexapp.com: Why You Need a Microservices Catalog Tool](https://www.getcortexapp.com/post/why-you-need-a-microservices-catalog-tool)
+* [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.co.uk/gb/en/blog/definitions/software-as-a-service-saas/)
+* [levelup.gitconnected.com: Multi-Tenant Architecture](https://levelup.gitconnected.com/multi-tenant-architecture-8c1f597e069c)
 
 <center>
 [![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
@@ -78,6 +85,10 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## Transform Legacy Java Apps to Microservices with automation tools
+- [devops.com: Transform Legacy Java Apps to Microservices with vFunction](https://devops.com/transform-legacy-java-apps-to-microservices/)
+- [devops.com: Function Automates Conversion of Java Apps to Microservices](https://devops.com/vfunction-automates-conversion-of-java-apps-to-microservices/)
 
 ## Namespaces for Data Structuring
 * [blog.appsignal.com: Microservices Monitoring: Using Namespaces for Data Structuring 🌟](https://blog.appsignal.com/2021/01/06/microservices-monitoring-using-namespaces-for-data-structuring.html)

@@ -1,5 +1,6 @@
 # Jenkins & CloudBees
 - [Jenkins](#jenkins)
+- [eBooks](#ebooks)
 - [Jenkins on Kubernetes](#jenkins-on-kubernetes)
     - [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [Groovy](#groovy)
@@ -74,12 +75,17 @@
 * [jenkinsistheway.io: Financial Transactions Simplified With Faster Build Cycles 🌟](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-fintech-excellence/) After integrating Jenkins, this FinTech’s financial transaction product quality is improved and 3X simpler.
 * [medium: CI/CD with Dockers and Jenkins](https://medium.com/avmconsulting-blog/ci-cd-with-dockers-and-jenkins-70b6f801f9f7)
 * [harness.io: Modernizing Jenkins CI/CD Pipelines](https://harness.io/blog/continuous-delivery/modernizing-jenkins-ci-cd-pipelines-with-harness/)
+* [jenkins.io: Docker image updates](https://www.jenkins.io/blog/2021/02/08/docker-base-os-upgrade/)
+* [blog.executeautomation.com: Running Jenkins Build Agent within Docker container – Part A](https://blog.executeautomation.com/running-jenkins-build-agent-within-docker-container-part-a/) Jenkins is one of the most popular CI/CD open source tool without any doubt. It has evolved so much in recent past that, the tool can be utilised with many modern way approach to build the application and deploy the application. Jenkins can be scaled with not just by installing different build agents in different machines, rather we can use the power of Docker containers to install agent and perform build operations effortlessly.
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
 
 [![Jenkins growth](images/jenkins_growth.png)](https://aws.amazon.com/blogs/opensource/why-jenkins-still-continuously-serves-developers/)
 </center>
+
+## eBooks
+- [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) Continuous Delivery with Jenkins, Kubernetes, and Terraform
 
 ## Jenkins on Kubernetes
 * [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/)
@@ -352,6 +358,8 @@
 * [Allure 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru/) and attach it to build during Jenkins job run.
 * [Amazon Web Services SDK](https://plugins.jenkins.io/aws-java-sdk/)
 * [Metrics](https://plugins.jenkins.io/metrics/) This plugin exposes the Metrics API to Jenkins plugins.
+* [Git Forensics](https://plugins.jenkins.io/git-forensics/) This Git Forensics Jenkins plugin mines and analyzes data from a Git repository. It implements all extension points of Jenkins' Forensics API Plugin.
+* [Robot Framework](https://plugins.jenkins.io/robot/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

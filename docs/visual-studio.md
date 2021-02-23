@@ -18,6 +18,7 @@
 - [Bridge to Kubernetes](#bridge-to-kubernetes)
 - [Cloud Code](#cloud-code)
 - [Alternatives](#alternatives)
+	- [Online VSCode](#online-vscode)
 - [Videos](#videos)
 
 ## VSCode
@@ -37,6 +38,7 @@
 * [blogs.windows.com: Bringing the browser developer tools to Visual Studio Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode/)
 * [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)
 * [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)
+* [jung-christian.de: Ansible support in Visual Studio Code 🌟](https://www.jung-christian.de/post/2021/02/ansible-vscode/)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -178,6 +180,10 @@ A simple extension to make indentation more readable
 - [piotrminkowski.com: Development on Kubernetes: IDE & TOOLS](https://piotrminkowski.com/2020/08/03/development-on-kubernetes-ide-tools/) In this article, you will learn what tools, frameworks, and platforms could help you to speed up the development of JVM microservices on Kubernetes.
 - [openshift.com: Visual Web Terminal - A Turbocharged Command Line for Kubernetes and OpenShift](https://www.openshift.com/blog/visual-web-terminal-a-turbocharged-command-line-for-kubernetes-and-openshift)
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps. 
+
+### Online VSCode
+- [gitpod.io 🌟](https://www.gitpod.io/) 
+- [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 
 ## Videos
 

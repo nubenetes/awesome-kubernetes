@@ -88,6 +88,7 @@
 * [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability/)
 * [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it/)
 * [thenewstack.io: Observability Won’t Replace Monitoring (Because It Shouldn’t) 🌟](https://thenewstack.io/observability-wont-replace-monitoring-because-it-shouldnt/)
+* [devopscurry.com: Understanding Container Monitoring and popular Container Monitoring Tools in 2021](https://devopscurry.com/understaning-container-monitoring-and-popular-container-monitoring-tools-in-2021/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -206,6 +207,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl) **Determine offending pods that use more RAM than requested, causing OOM.**
 * [devclass.com: Safety…first? Prometheus 2.24 finally features TLS on HTTP serving endpoints](https://devclass.com/2021/01/07/prometheus-2_24/)
 * [sysadminxpert.com: Steps to Monitor Linux Server using Prometheus](https://sysadminxpert.com/steps-to-monitor-linux-server-using-prometheus/)
+* [medium.com: Prometheus-Grafana : Node Monitoring on Kubernetes](https://medium.com/@akshitverma8191/prometheus-grafana-node-monitoring-on-kubernetes-79fd8311b56d)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
@@ -288,6 +290,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code](https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code/) 
 * [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher)
 * [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry/)
+* [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)
 
 ##### Telegraf Collector
 * [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)
@@ -362,6 +365,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)
 * [medium: Why Grafana: Part II](https://medium.com/lightspeed-venture-partners/why-grafana-part-ii-2e7e42e0f7bb)
 * [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin/)
+* [thenewstack.io: Grafana Adds Logging to Its Enterprise Observability Stack 🌟](https://thenewstack.io/grafana-adds-logging-to-its-enterprise-observability-stack/)
 
 ### Grafana Dashboards
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
@@ -910,7 +914,8 @@ done
     * [datadoghq.com](https://www.datadoghq.com/)
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
-    * [skywalking.apache.org](https://skywalking.apache.org/)   
+    * [skywalking.apache.org](https://skywalking.apache.org/)
+        * [tetrate.io: SkyWalking 8.4 provides infrastucture monitoring for VMs](https://www.tetrate.io/blog/27835-revision-v1/)   
     * [AppDynamics 🌟](https://www.appdynamics.com/)
     * [New Relic 🌟](https://newrelic.com/)
     * [Dynatrace 🌟](https://www.dynatrace.com/)
@@ -999,6 +1004,8 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 - [OS Query](https://github.com/osquery/osquery) SQL powered operating system instrumentation, monitoring, and analytics.
 - [Glances](https://github.com/nicolargo/glances) Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems. It is written in Python and uses libraries to grab information from your system. It is based on an open architecture where developers can add new plugins or exports modules.
 - [TDengine](https://github.com/taosdata/TDengine) is an open-sourced big data platform under GNU AGPL v3.0, designed and optimized for the Internet of Things (IoT), Connected Cars, Industrial IoT, and IT Infrastructure and Application Monitoring.
+- [stackpulse.com: Automated Kubernetes Pod Restarting Analysis with StackPulse](https://stackpulse.com/blog/automated-kubernetes-pod-restarting-analysis-with-stackpulse/)
+
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)
