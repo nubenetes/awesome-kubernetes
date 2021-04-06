@@ -2,7 +2,7 @@
 ## MultiCloud
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [diagrams.net](https://www.diagrams.net/) Diagram with anyone, anywhere. Open source, online, desktop and container deployable diagramming software.
-- [hyperglance](https://www.hyperglance.com/)
+- [Hyperglance](https://www.hyperglance.com/) Cloud diagrams & inventory - Cost optimization & alerting - Security & compliance monitoring - Automatic policy enforcement - Self-hosted deployment - Free trial.
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [PlantUML](https://plantuml.com/)
 - [draw.io](https://drawio-app.com/)
