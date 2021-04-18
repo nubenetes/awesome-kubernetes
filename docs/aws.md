@@ -701,6 +701,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
+- [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions/)
 
 ## Local Testing
 - [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock)
