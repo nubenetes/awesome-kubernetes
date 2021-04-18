@@ -39,6 +39,8 @@
 * [visualstudiomagazine.com: Code with Fire! Top VS Code Tips](https://visualstudiomagazine.com/articles/2021/01/29/vs-code-tips.aspx)
 * [39digits.com: How to sign your commits to GitHub using Visual Studio Code on Windows 10 and WSL2 🌟](https://www.39digits.com/signed-git-commits-on-wsl2-using-visual-studio-code)
 * [jung-christian.de: Ansible support in Visual Studio Code 🌟](https://www.jung-christian.de/post/2021/02/ansible-vscode/)
+* [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode)
+* [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -56,6 +58,7 @@
 
 ### Extensions
 * [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) Git supercharged
+	* [GitLens interactive rebase](https://github.com/eamodio/vscode-gitlens#interactive-rebase-editor-)
 * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)

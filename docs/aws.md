@@ -9,6 +9,7 @@
 - [Amazon Web Services](#amazon-web-services)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
+- [Introduction](#introduction)
 	- [Books](#books)
 - [Training](#training)
 - [AWS Certification](#aws-certification)
@@ -117,6 +118,10 @@
 - [Spain](#spain)
 - [Scripts](#scripts)
 - [Development](#development)
+- [Cloud Development Kit CDK](#cloud-development-kit-cdk)
+- [AWS Secrets Manager](#aws-secrets-manager)
+- [AWS Cloud Endure](#aws-cloud-endure)
+- [AWS Patterns](#aws-patterns)
 - [Videos](#videos)
 
 <!-- /MarkdownTOC -->
@@ -147,12 +152,22 @@
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
 
+## Introduction
+- [dzone: AWS Basics 🌟](https://dzone.com/articles/aws-basics)
+- [dzone: AWS Elastic Compute Cloud (EC2) Basics 🌟](https://dzone.com/articles/aws-elastic-compute-cloud-ec2-basics) We will learn about IP Addresses and also connect to public EC2 instances externally using SSH. Let's have a look at public and private IP behavior first.
+- [dzone: AWS Basics: Bastion Hosts and NAT 🌟](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
+- [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://acloudguru.com/blog/engineering/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
+
 ### Books
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
 
 ## Training
 - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer/)
-
+- [acloudguru.com 🌟](https://acloudguru.com/)
+- [twitch.tv/acloudguruofficial 🌟](https://www.twitch.tv/acloudguruofficial)
+- [learn.cantrill.io 🌟](https://learn.cantrill.io/)
+	- [github.com/acantril/learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs)
+	- [linkedin.com/pulse: So, you think you're an associate level Solutions Architect?](https://www.linkedin.com/pulse/so-you-think-youre-associate-level-solutions-adrian-cantrill/)
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 
@@ -169,6 +184,10 @@
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
 - [ec2.shop: Compare AWS EC2 instance price from the CLI 🌟](https://ec2.shop/)
 - [infoq.com: AWS Launches Low-Cost Burstable T4g Instances Powered by AWS Graviton2](https://www.infoq.com/news/2020/09/aws-ec2-t4g-instances/)
+- [freecodecamp.org: How to Optimize your AWS Cloud Architecture Costs 🌟](https://www.freecodecamp.org/news/cost-optimization-in-aws/)
+- [aws.amazon.com: Amazon S3 Glacier Price Reduction](https://aws.amazon.com/es/blogs/aws/amazon-s3-glacier-price-reduction/)
+- [infoq.com: AWS Announces Lower Cost Storage Classes for Amazon Elastic File System](https://www.infoq.com/news/2021/03/aws-efs-one-zone-storage-classes/)
+- [dzone: Understanding AWS Costs 🌟](https://dzone.com/articles/understanding-aws-costs) In this article, I'll provide a comprehensive guide on how to understand your AWS costs and needs.
 
 ### AWS Calculator
 - [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
@@ -275,6 +294,12 @@
 - [London Calling! An AWS Region is coming to the UK!](http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html)
 - [New – Scheduled Reserved Instances](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/)
 - [AWS CloudShell - Command-Line Access to AWS Resources 🌟](https://aws.amazon.com/es/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/)
+- [zdnet.com: AWS rolls out S3 Object Lambda to process data for multiple applications](https://www.zdnet.com/google-amp/article/aws-rolls-out-s3-object-lambda-to-process-data-for-multiple-applications/) The new capability allows you to share data across applications, without having to manage a proxy layer or create copies of the dataset.
+- [github.com/hayao-k/cdk-ecr-image-scan-notify](https://github.com/hayao-k/cdk-ecr-image-scan-notify)
+- [cloudonaut.io: Seamless EC2 monitoring with the Unified CloudWatch Agent](https://cloudonaut.io/seamless-ec2-monitoring-with-the-unified-cloudwatch-agent/)
+- [amazon.com: Reduce Unwanted Traffic on Your Website with New AWS WAF Bot Control](https://aws.amazon.com/blogs/aws/reduce-unwanted-traffic-on-your-web-site-with-aws-bot-control/)
+- [infoq.com: AWS Introduces EC2 Serial Console: Troubleshoot Boot and Networking Issues](https://www.infoq.com/news/2021/04/aws-ec2-serial-console/)
+
 ## AWS Management Console
 - [Working with the AWS Management Console 🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
@@ -306,6 +331,8 @@
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
 - [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
+- [Introducing the Aurora Storage Engine](https://aws.amazon.com/blogs/database/introducing-the-aurora-storage-engine/)
+- [dzone: AWS Relational Database Service (RDS): PostgreSQL in Cloud 🌟](https://dzone.com/articles/aws-relational-database-service-rds-postgresql-in) Today, we will go into details of Amazon RDS. We also set up a PostgreSQL instance using this service and connect to it using a tool Azure Data Studio.
 
 ### AWS DMS
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
@@ -361,6 +388,8 @@
 - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers/)
 - [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2)
 - [AWS Cloud Networking – Zero to Hero 🌟](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero/)
+- [cloudonaut.io: What Architects Need to Know About Networking on AWS 🌟](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws/)
+- [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid/)
 
 ## AWS Route 53
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)
@@ -368,6 +397,7 @@
 ## AWS Elastic Load Balancing
 - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)
 - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
+- [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers)
 
 ## AWS Application Load Balancer (ALB)
 - [Application Load Balancer 🌟](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
@@ -430,6 +460,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)
 - [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
 - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)
+- [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
 
 ### AWS Client VPN
 - [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud/)
@@ -467,6 +498,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1 🌟](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
 - [aws.amazon.com: Optimizing Lambda functions packaged as container images](https://aws.amazon.com/es/blogs/compute/optimizing-lambda-functions-packaged-as-container-images/)
 - [Security Overview of AWS Lambda 🌟](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf)
+- [cloudonaut.io: Serverless Hybrid Cloud: Accessing an API Gateway via VPN or Direct Connect](https://cloudonaut.io/serverless-hybrid-cloud-accessing-an-api-gateway-via-vpn-or-direct-connect/)
+- [infoworld.com: Serverless computing with AWS Lambda, Part 1](https://www.infoworld.com/article/3210726/serverless-computing-with-aws-lambda.html) Get an overview of AWS Lambda's nanoservices architecture and execution model, then build your first Lambda function in Java
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -509,6 +542,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon Inspector Announces General Availability for Windows](https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows/)
 - [encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html) Use your own encryption keys with AWS Key Management Service.
 - [Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols](http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n)
+- [dzone: 9 AWS Security Best Practices: Securing Your AWS Cloud 🌟](https://dzone.com/articles/9-aws-security-best-practices-securing-your-aws-cl) Working with Amazon facilities, it is necessary to implement AWS security best practices to ensure the safety of the data and the cloud.
 
 ### Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
@@ -523,6 +557,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page](http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage)
 - [New IAMCTL tool compares multiple IAM roles and policies 🌟](https://aws.amazon.com/es/blogs/security/new-iamctl-tool-compares-multiple-iam-roles-and-policies/)
 - [Bring your own CLI to Session Manager with configurable shell profiles](https://aws.amazon.com/es/blogs/mt/bring-your-own-cli-session-manager-configurable-shell-profiles/)
+- [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/2021/03/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws/)
+- [aws.amazon.com: IAM Access Analyzer now supports over 100 policy checks with actionable recommendations to help you author secure and functional policies](https://aws.amazon.com/about-aws/whats-new/2021/03/iam-access-analyzer-supports-over-100-policy-checks-with-actionable-recommendations/)
+- [aws.amazon.com: IAM Access Analyzer Update – Policy Validation](https://aws.amazon.com/blogs/aws/iam-access-analyzer-update-policy-validation/)
+- [netflixtechblog.com: ConsoleMe: A Central Control Plane for AWS Permissions and Access](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8) - [github.com/Netflix/consoleme](https://github.com/Netflix/consoleme)
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -532,6 +570,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ### AWS Firewalls
 - [doit-intl.com: AWS Firewalls 101: How and when to use each one 🌟](https://blog.doit-intl.com/aws-firewalls-101-how-and-when-to-use-each-one-d4ad8087a6b3)
+- [Automatically block suspicious traffic with AWS Network Firewall and Amazon GuardDuty](https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty)
 
 ### AWS WAF Web Application Firewall
 - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf/)
@@ -539,6 +578,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests 🌟](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)
 - [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
+- [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)
 
 ### AWS Vault
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
@@ -581,8 +621,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Big Data 
 - [aws.amazon.com/big-data 🌟](http://aws.amazon.com/big-data)
 - [blogs.aws.amazon.com/bigdata](http://blogs.aws.amazon.com/bigdata/)
-- [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Stream  
+- [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming/)
 - [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
+- [whizlabs.com: AWS Kinesis vs Kafka Apache](https://www.whizlabs.com/blog/kinesis-vs-kafka/)
 
 ### AWS Data Lake
 - [Building a Data Lake on AWS](https://aws.amazon.com/big-data/data-lake-on-aws/) AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.
@@ -647,6 +688,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Optimizing Your Kubernetes Clusters with Rancher and Amazon EKS 🌟](https://aws.amazon.com/blogs/apn/optimizing-your-kubernetes-clusters-with-rancher-and-amazon-eks/)
 - [clickittech.com: Amazon ECS vs EKS : The Best Container Orchestration Platform 🌟](https://www.clickittech.com/aws/amazon-ecs-vs-eks/)
 - [dev.to: Sharing secrets to ECS in an AWS multi-account architecture](https://dev.to/aws-builders/sharing-secrets-to-ecs-in-an-aws-multi-account-architecture-5h1i)
+- [faun.pub: Upgrading and Scaling Kubernetes cluster in AWS](https://faun.pub/upgrading-and-scaling-kubernetes-cluster-in-aws-6971b3936465)
+- [youtube/StackSimplify: Kubernetes Deployments on AWS EKS | Amazon Elastic Kubernetes Service | Amazon EKS 🌟](https://www.youtube.com/watch?v=vZK_W-fpft0&ab_channel=StackSimplify)
+- [cloudify.co: Simplifying Hybrid Cloud Deployments With AWS EKS And Outpost](https://cloudify.co/blog/simplifying-hybrid-cloud-deployments-with-aws-eks-and-outpost)
 
 ## AWS App Mesh 
 - [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
@@ -698,6 +742,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## New Features
 - [thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws/)
 - [Amazon EKS clusters now support user authentication with OIDC compatible identity providers](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers/)
+- [Amazon Managed Service for Grafana (AMG) preview updated with new capabilities](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities/)
 
 ## Superwerker
 - [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/ 🌟) Automates AWS Cloud deployments backed by decades of expertise and best practices
@@ -727,6 +772,20 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Development
 - [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
 
+## Cloud Development Kit CDK 
+- [CDK](https://aws.amazon.com/cdk/)
+- [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
+
+## AWS Secrets Manager
+- [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
+- [AWS Secrets Manager controller POC: an EKS operator for automatic rotation of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets/)
+
+## AWS Cloud Endure
+- [AWS Cloud Endure Migration 🌟](https://aws.amazon.com/cloudendure-migration/)
+
+## AWS Patterns
+- [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96) We want to tell you about a few common patterns that can be used to build highly available APIs on top of AWS infrastructure. We will highlight each of them and briefly describe the pros and cons.
+
 ## Videos
 
 <center>
@@ -735,4 +794,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 <center>
 [![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+</center>
+
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t know how to get started with AWS?<br><br>I can relate!<br>When I started, AWS already offered so much that I literally couldn&#39;t find an entry point.<br><br>If you still feel this way, let me give you a little guide.<br><br>🧵⏬</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1379096498592432128?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

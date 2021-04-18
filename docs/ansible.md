@@ -62,6 +62,12 @@
 * [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package)
 * [toptechskills.com: Ansible Tutorials & Courses 🌟](https://www.toptechskills.com/ansible-tutorials-courses/) Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.
 	* [toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/)
+* [opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟](https://opensource.com/article/21/3/ansible-sysadmin) Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.
+* [redhat.com: 8 steps to developing an Ansible role in Linux 🌟](https://www.redhat.com/sysadmin/developing-ansible-role) In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.
+* [ansible.com: Ansible whitepaper](https://www.ansible.com/resources/whitepapers/ansible-in-depth) Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.
+* [redhat.slides.com: Ansible 202 - Best Practices from the field](http://redhat.slides.com/jparrill/ansible-202/fullscreen?token=1hUEEPF4#/11/1) - [asciinema.org/~padajuan](https://asciinema.org/~padajuan)
+* [redhat.com: How to use Ansible to send an email using Gmail](https://www.redhat.com/sysadmin/configure-gmail-using-ansible)
+* [youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures](https://www.youtube.com/watch?v=pJFZ5h9fT5o&ab_channel=InfraXpertzz)
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation
@@ -75,6 +81,9 @@
 - [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781)
 - [ansible.com: Automating Red Hat Satellite with Ansible](https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible)
 	- [galaxy.ansible.com: letsencrypt](https://galaxy.ansible.com/t_systems_mms/letsencrypt) This collection contains a role for issuing ssl certificates from Let's Encrypt via dns or http-challenge
+- [opensource.com: 5 tips for choosing an Ansible collection that's right for you](https://opensource.com/article/21/3/ansible-collections) Try these strategies to find and vet collections of Ansible plugins and modules before you install them.
+- [ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟](https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection)
+- [youtube: Ansible Collections](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock)
 
 ## Ansible Cheat Sheets
 * [Ansible Cheat Sheets](cheatsheets.md)

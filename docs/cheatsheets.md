@@ -38,6 +38,7 @@
 - [MariaDB and mySQL](#mariadb-and-mysql)
 - [MongoDB](#mongodb)
 - [Go](#go)
+- [NodeJS](#nodejs)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -97,6 +98,8 @@
 * [github: K8s in 30 mins 🌟](https://github.com/r0hi7/k8s-In-30Mins) This is not a comprehensive guide to learn Kubernetes from scratch, rather this is just a small guide/cheat sheet to quickly setup and run applications with Kubernetes and deploy a very simple application on single workload VM. This repo can be served as quick learning manual to understand Kubernetes.
 * [kunchalavikram1427: kubernetes Public](https://github.com/kunchalavikram1427/Kubernetes_public)
 	* [kunchalavikram1427: kubernetes Commands](https://github.com/kunchalavikram1427/Kubernetes_public/blob/master/Kubernetes_Commands.txt)
+* [betterprogramming.pub: Awesome Kubernetes Command-Line Hacks](https://betterprogramming.pub/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
+* [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet/)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -157,6 +160,7 @@
 * [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
 * [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
 * [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)
+* [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -251,6 +255,7 @@
 
 ## TypeScript
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
+- [docs.microsoft.com: Build JavaScript applications using TypeScript](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/)
 
 ## Jupyter
 - [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet)
@@ -269,3 +274,6 @@
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
 - [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
+
+## NodeJS
+- [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)

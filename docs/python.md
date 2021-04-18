@@ -8,8 +8,10 @@
 - [Python pip and pip's wheel](#python-pip-and-pips-wheel)
 - [Python Feature Flags](#python-feature-flags)
 - [Python testing](#python-testing)
-- [Data Science. Python Pandas and pivot tables](#data-science-python-pandas-and-pivot-tables)
+- [Data Science.](#data-science)
+	- [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
 	- [PandasDatabase](#pandasdatabase)
+	- [NumPy](#numpy)
 - [Python standard library Modules and Code](#python-standard-library-modules-and-code)
 - [Python and AWS](#python-and-aws)
 - [Python Tools](#python-tools)
@@ -97,6 +99,18 @@
 - [src-r-r.github.io: How To Property Set Up Python Logging With A Command Line Program](https://src-r-r.github.io/articles/how_to_log_with_a_python_cli_program/)
 - [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc/)
 - [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python/)
+- [freecodecamp.org: The Python Handbook 🌟](https://www.freecodecamp.org/news/the-python-handbook/)
+- [towardsdatascience.com: 7 Must-Know Data Wrangling Operations with Python Pandas](https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15)
+- [towardsdatascience.com: All The Important Features and Changes in Python 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf)
+- [towardsdatascience.com: Data Preprocessing in Python Pandas — Part 6 Dropping Duplicates](https://towardsdatascience.com/data-preprocessing-in-python-pandas-part-6-dropping-duplicates-e35e46bcc9d6) A quick tutorial to drop duplicates using the Python Pandas library.
+- [antonz.org: How to make an awesome Python package in 2021](https://antonz.org/python-packaging/)
+- [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0, With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code/)
+- [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf)
+- [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python/)
+- [towardsdatascience.com: Python loops: Some beginner-friendly looping challenges](https://towardsdatascience.com/python-loops-some-beginner-friendly-looping-challenge-e112fa606493) Looping through lists, tuples, dictionaries and strings.
+- [lambdatest.com: Python Tutorial 🌟](https://www.lambdatest.com/learning-hub/python-tutorial)
+- [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python/)
+- [towardsdatascience.com: Master Label Processing In Python](https://towardsdatascience.com/essential-python-string-processing-techniques-aa5be43a4f1f) The full tutorial on working with string-type data in Python.
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -168,7 +182,9 @@
 - [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/)
 - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker)
 
-## Data Science. Python Pandas and pivot tables
+## Data Science. 
+
+### Python Pandas and pivot tables
 - [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables)
 - [pbpython.com: Practical Business Python](http://pbpython.com/)
 	- [pbpython.com: Pandas Pivot Table Explained](http://pbpython.com/pandas-pivot-table-explained.html)
@@ -181,6 +197,9 @@
 
 ### PandasDatabase
 - [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/)
+
+### NumPy
+- [towardsdatascience.com: NumPy Basics Cheat Sheet (2021), Python for Data Science](https://towardsdatascience.com/numpy-basics-cheat-sheet-2021-python-for-data-science-89c483773880) The absolute basics for beginners learning NumPy in 2021
 
 ## Python standard library Modules and Code
 - [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com)

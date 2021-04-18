@@ -112,10 +112,11 @@ nav:
     - Client Libraries for Kubernetes - Go client, Python, Fabric8 & JKube: kubernetes-client-libraries.md
     - Helm Kubernetes Tool: helm.md
     - Liquibase & Flyway: liquibase.md
-    - Pulumi: pulumi.md
-    - Terraform & Packer: terraform.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
     - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
+  - Infrastructure Management Tools:
+    - Pulumi: pulumi.md
+    - Terraform & Packer: terraform.md
   - Databases on Kubernetes: 
     - Relational Databases and Database DevOps. CrunchyData Postgres Operator: databases.md
     - NoSQL Databases: nosql.md

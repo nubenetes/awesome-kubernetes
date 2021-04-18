@@ -1,6 +1,7 @@
 # Test Automation Frameworks and Behavior Driven Development. Selenium, Cucumber, Appium & Zephyr Jira Plugin
 - [Introduction](#introduction)
 - [Selenium](#selenium)
+- [Cypress](#cypress)
 - [Mobile Tests](#mobile-tests)
   - [Appium](#appium)
   - [Cucumber and Appium. Behavior Driven Development](#cucumber-and-appium-behavior-driven-development)
@@ -27,6 +28,10 @@
 - [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial/)
 - [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.lambdatest.com/blog/selenium-maven-jenkins-integration/)
 - [lambdatest.com: Selenium 4 🌟](https://www.lambdatest.com/learning-hub/selenium-4)
+- [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium?Run selenium maven project from command line?](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
+
+## Cypress
+- [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
 
 ## Mobile Tests
 ### Appium

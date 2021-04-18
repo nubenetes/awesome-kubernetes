@@ -2,6 +2,7 @@
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
     - [Best Practices](#best-practices)
     - [Setting up OCP4 on AWS](#setting-up-ocp4-on-aws)
+    - [ROSA Red Hat OpenShift Service on AWS](#rosa-red-hat-openshift-service-on-aws)
 - [Downloads](#downloads)
 - [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
 - [OCP 4 Overview](#ocp-4-overview)
@@ -88,6 +89,20 @@
 * [openshift.com: Nested OpenShift using OpenShift Virtualization](https://www.openshift.com/blog/nested-openshift-using-openshift-virtualization)
 * [developers.redhat.com: Deploying Kubernetes Operators with Operator Lifecycle Manager bundles](https://developers.redhat.com/blog/2021/02/08/deploying-kubernetes-operators-with-operator-lifecycle-manager-bundles/)
 * [openshift.com: 8 Answers to 7 OpenShift Questions 🌟](https://www.openshift.com/blog/8-answers-to-7-openshift-questions)
+* [openshift.com: Red Hat OpenShift 4.7 Is Now Available](https://www.openshift.com/blog/red-hat-openshift-4.7-is-now-available)
+    * Kubernetes 1.20
+    * Updated OpenShift Virtualization
+    * Virtualization Migrations
+    * Windows Containers on vSphere
+    * Simplified Bare Metal installs
+    * Horizontal Pod Autoscaler (CPU & Memory)
+    * New RHACM integrations
+    * and much, much more!!
+* [zdnet.com: Red Hat opens the door for both VMs and containers in its latest OpenShift release](https://www.zdnet.com/google-amp/article/red-hat-opens-the-door-for-both-vms-and-containers-in-its-latest-openshift-release/) Red Hat's OpenShift 4.7 can help you manage your entire cloud application stack.
+* [finance.yahoo.com: IBM's Red Hat OpenShift Platform to be Leveraged by Siemens](https://finance.yahoo.com/news/ibms-red-hat-openshift-platform-143702224.html)
+* [openshift.com: How to Offer Service Running on OpenShift on AWS to Other AWS VPCs, Privately 🌟](https://www.openshift.com/blog/how-to-offer-service-running-on-openshift-on-aws-to-other-aws-vpcs-privately)
+* [developers.redhat.com: A guide to Red Hat OpenShift 4.5 installer-provisioned infrastructure on vSphere 🌟](https://developers.redhat.com/blog/2021/03/09/a-guide-to-red-hat-openshift-4-5-installer-provisioned-infrastructure-on-vsphere/)
+* [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.openshift.com/blog/openshift-security-best-practices-for-kubernetes-cluster-design)
 
 ### Best Practices
 * [developers.redhat.com - Best practices: Using health checks in the OpenShift 4.5 web console 🌟](https://developers.redhat.com/blog/2020/07/20/best-practices-using-health-checks-in-the-openshift-4-5-web-console/) 3 types of health checks offered in OpenShift 4.5 to improve application reliability and uptime
@@ -99,6 +114,11 @@
 * [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md)).
 * [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
 * [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.openshift.com/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
+
+### ROSA Red Hat OpenShift Service on AWS 
+* [redhat.com: Amazon and Red Hat Announce the General Availability of Red Hat OpenShift Service on AWS (ROSA)](https://www.redhat.com/en/about/press-releases/amazon-and-red-hat-announce-general-availability-red-hat-openshift-service-aws-rosa)
+* [amazon.com: Red Hat OpenShift Service on AWS Now GA](https://aws.amazon.com/es/blogs/aws/red-hat-openshift-service-on-aws-now-generally-availably/)
+* [infoq.com: AWS Announces the General Availability of the Red Hat OpenShift Service on AWS](https://www.infoq.com/news/2021/04/red-hat-openshift-aws/)
 
 <center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
@@ -619,6 +639,7 @@ oc login
 - [OLM operator lifecycle manager](https://github.com/operator-framework/operator-lifecycle-manager/)
     - [OLM Architecture 🌟](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
     - [OLM Philosophy](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/philosophy.md)
+    - [developers.redhat.com: OpenShift Commons Briefing: Operator Lifecycle Management (video)](https://developers.redhat.com/openshift-commons/Operator-Lifecycle-Management)
 - [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
 - [operatorhub.io](https://operatorhub.io/)
 - [learn.crunchydata.com](https://learn.crunchydata.com/) 

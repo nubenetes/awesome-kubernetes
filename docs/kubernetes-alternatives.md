@@ -5,6 +5,7 @@
 - [Portainer](#portainer)
 - [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
 - [Docker Swarm](#docker-swarm)
+- [Simplenetes](#simplenetes)
 
 ## Why Not Use Kubernetes
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
@@ -24,6 +25,7 @@
 * [autentia.com: Nomad vs. Kubernetes](https://www.autentia.com/2018/09/20/nomad-vs-kubernetes/)
 * [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
 * [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/)
+* [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes)
 
 ## Portainer
 * [Portainer](https://www.portainer.io/) Making Docker management easy
@@ -43,6 +45,9 @@
 * [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
 * [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)
 * [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphoreci.com/blog/kubernetes-vs-docker)
+
+## Simplenetes
+* [Simplenetes](https://github.com/simplenetes-io/simplenetes) Alternative to Kubernetes written in pure Sh
 
 ---
 <center>

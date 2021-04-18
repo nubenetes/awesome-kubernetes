@@ -22,6 +22,8 @@
 - [DZone: SQL vs. NoSQL 🌟](https://dzone.com/articles/sql-vs-nosql) Take a look at the most recent developments between SQL and NoSQL databases. And remember, make your DB decision based on the project, not on the hype.
 - [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
 - [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e)
+- [stackoverflow.blog: Have the tables turned on NoSQL?](https://stackoverflow.blog/2021/01/14/have-the-tables-turned-on-nosql/) NoSQL was the next big thing in system architecture in 2011, but overall interest in it has plateaued recently. What is NoSQL, what does it have to do with modern development, and is it worth implementing in your project?
+- [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases) Evaluate which type of NoSQL database best fits your use case
 
 ### MongoDB Tools and MongoDB as a Service
 - [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com/)

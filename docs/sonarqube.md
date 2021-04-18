@@ -3,13 +3,14 @@
 - [Analyzing Code with SonarQube](#analyzing-code-with-sonarqube)
 - [Integrations](#integrations)
 - [SonarQube on Kubernetes](#sonarqube-on-kubernetes)
-	- [GCP Kubernetes](#gcp-kubernetes)
+    - [GCP Kubernetes](#gcp-kubernetes)
 - [SonarQube Scanners](#sonarqube-scanners)
 
 ## Introduction
 * [wikipedia: SonarQube](https://en.wikipedia.org/wiki/SonarQube)
 * [Sonarqube.org](https://www.sonarqube.org/)
 * [Dzone: Why SonarQube](https://dzone.com/articles/why-sonarqube-1)
+* [thenewstack.io: How to Install the SonarQube Security Analysis Platform](https://thenewstack.io/how-to-install-the-sonarqube-security-analysis-platform/)
 
 ## Analyzing Code with SonarQube
 * [Dzone: How to quickly get started with Sonar](https://dzone.com/articles/how-quickly-get-started-sonar)
@@ -18,6 +19,8 @@
 * [Dzone: Quick start with sonarqube for static code analysis](https://dzone.com/articles/quick-start-witj-sonarqube-for-static-code-analysi)
 * [Dzone.com: Code Analysis Part 1 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup)
 * [Dzone.com: Code Analysis Part 2 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube)
+* [navsinghoberoi.medium.com: Configure Sonarqube to analyse health of a project](https://navsinghoberoi.medium.com/configure-sonarqube-to-analyse-health-of-a-project-5cb80ff6616b)
+* [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube/)
 
 ## Integrations
 * [sonarqube.org: Bitbucket integration](https://www.sonarqube.org/bitbucket-integration/) Eliminate Bugs and Vulnerabilities

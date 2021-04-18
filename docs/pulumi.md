@@ -6,3 +6,6 @@
 - [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn/kubernetes-clusters-using-the-civo-pulumi-provider)
 - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines/)
 - [pulumi.com: From Terraform to Infrastructure as Software](https://www.pulumi.com/blog/from-terraform-to-infrastructure-as-software/)
+- [pulumi.com: Observability with Infrastructure as Code](https://www.pulumi.com/blog/observability-with-infrastructure-as-code/)
+- [octopus.com: Create an AKS Cluster with Pulumi and Octopus Deploy](https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy)
+- [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines/)

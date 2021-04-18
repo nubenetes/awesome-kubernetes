@@ -29,9 +29,11 @@
 - [scrum.org: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://www.scrum.org/resources/blog/scrum-2021-getting-you-started-scrum-master-or-product-owner)
 - [scrum.org: Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) The Kanban Guide for Scrum Teams helps you add professional flow concepts to improve your value delivery.
 - [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/sysadmin/11-manager-considerations) Here are some guidelines for managers when dealing with your system administrator staff members.
+- [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)
 
 ### Team Topologies
 - [The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
+- [dzone: Breaking Silos: Enhance Speed and Value Delivery](https://dzone.com/articles/silos-breaking-for-business-to-enhance-speed-to-va) How do we diagnose organizational silos? And how do we slice the large size business teams who are serving many customers or products with poor efficiency?
 
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)

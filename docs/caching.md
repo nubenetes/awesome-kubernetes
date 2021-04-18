@@ -45,6 +45,7 @@
 - [slideshare: Haproxy best practice](http://www.slideshare.net/haproxytech/haproxy-best-practice)
 - [slideshare: How To Set Up SQL Load Balancing with HAProxy](http://www.slideshare.net/Severalnines/severalnines-ha-proxyjul20143)
 - [slideshare: Performance Tuning of HAProxy for Database Load Balancing](http://www.slideshare.net/Severalnines/haproxy-mysql-slides)
+- [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf/)
 
 <center>
 <div class="container">

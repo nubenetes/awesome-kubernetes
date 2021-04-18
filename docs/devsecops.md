@@ -7,6 +7,7 @@
 - [Project Calico](#project-calico)
 - [Security Patterns for Microservice Architectures](#security-patterns-for-microservice-architectures)
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
+- [Twistlock and Threat Stack Container Security](#twistlock-and-threat-stack-container-security)
 - [StackRox](#stackrox)
 	- [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
@@ -14,12 +15,14 @@
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 - [Removing Credentials From Git Repo](#removing-credentials-from-git-repo)
 - [Pentesting](#pentesting)
+- [SQL Injection](#sql-injection)
 - [Credential Managers](#credential-managers)
 	- [keycloak](#keycloak)
 	- [Git Credential Manager Core](#git-credential-manager-core)
 - [GitOps Secret Management](#gitops-secret-management)
 	- [HashiCorp Vault](#hashicorp-vault)
 	- [CyberArk and Ansible](#cyberark-and-ansible)
+	- [CyberArk Conjur](#cyberark-conjur)
 	- [SOPS for Kubernetes](#sops-for-kubernetes)
 	- [Alternatives](#alternatives)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
@@ -31,6 +34,7 @@
 - [Helm Charts Security](#helm-charts-security)
 - [Password Recovery](#password-recovery)
 - [Books](#books)
+- [CVEs](#cves)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -53,6 +57,12 @@
 - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together/)
 - [opensource.com: How to adopt DevSecOps successfully](https://opensource.com/article/21/2/devsecops) Integrating security throughout the software development lifecycle is important, but it's not always easy.
 - [devops.com: DevSecOps Trends to Know For 2021](https://devops.com/devsecops-trends-for-2021/)
+- [devops.com: From Agile to DevOps to DevSecOps: The Next Evolution](https://devops.com/from-agile-to-devops-to-devsecops-the-next-evolution/)
+- [permission.site](https://permission.site/) How much stuff one can do from a web browser these days—scary stuff. Stay safe. Disable JS and most of stuff won't work at all.
+- [ais.com: Leaping into DevSecOps from DevOps](https://www.ais.com/leaping-into-devsecops-from-devops/)
+- [infoq.com: The Defense Department's Journey with DevSecOps](https://www.infoq.com/news/2020/06/defense-department-devsecops/)
+- [amazon.com: Building end-to-end AWS DevSecOps CI/CD pipeline with open source SCA, SAST and DAST tools](https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/)
+- [infoq.com: 9 Trends That Are Influencing the Adoption of Devops and Devsecops in 2021](https://www.infoq.com/articles/devops-secure-trends/)
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
@@ -80,6 +90,11 @@
 ## Anchore Container Security Solutions for DevSecOps
 - [Anchore](https://anchore.com) Container image inspection and policy-based compliance
 
+## Twistlock and Threat Stack Container Security
+- [Twistlock](https://www.twistlock.com/)
+- [Threat Stack](https://www.threatstack.com/)
+- [dzone: A Twistlock and Threat Stack Comparison](https://dzone.com/articles/a-twistlock-and-threat-stack-comparison) Compare two of the most popular tools available for container security, and how their different approaches breed different solutions.
+
 ## StackRox
 - [stackrox.com](https://www.stackrox.com/)
 - [redhat.com: Red Hat to Acquire Kubernetes-Native Security Leader StackRox](https://www.redhat.com/en/about/press-releases/red-hat-acquire-kubernetes-native-security-leader-stackrox)
@@ -103,6 +118,10 @@
 ## Pentesting
 - [forbes.com: DevOps Drives Pentesting Delivered As A Service](https://www.forbes.com/sites/chenxiwang/2020/06/17/devops-drives-pentesting-delivered-as-a-service/)
 - [emagined.com: How to conduct a penetration test](https://www.emagined.com/news-notes/2020/6/8/how-to-conduct-a-penetration-test)
+- [securityboulevard.com: Kubernetes Pentest Methodology Part 3](https://securityboulevard.com/2019/11/kubernetes-pentest-methodology-part-3/)
+
+## SQL Injection
+- [patchthenet.medium.com: Introduction to SQL Injection](https://patchthenet.medium.com/introduction-to-sql-injection-sql-injection-for-beginners-579c00431d40)
 
 ## Credential Managers
 ### keycloak
@@ -135,10 +154,17 @@
 - [hashicorp.com: Automate Secret Injection into CI/CD Workflows with the GitHub Action for Vault](https://www.hashicorp.com/blog/vault-github-action)
 - [hashicorp.com: Use AWS Lambda Extensions to Securely Retrieve Secrets From HashiCorp Vault](https://www.hashicorp.com/blog/aws-lambda-extensions-for-hashicorp-vault) Developers no longer have to make their Lambda functions Vault-aware.
 - [github.com/kelseyhightower: Serverless Vault with Cloud Run](https://github.com/kelseyhightower/serverless-vault-with-cloud-run) This tutorial walks you through deploying Hashicorp's Vault on Cloud Run, Google Cloud's container based Serverless compute platform.
+- [confluent.io: How to Manage Secrets for Confluent with Kubernetes and HashiCorp Vault](https://www.confluent.io/blog/manage-secrets-with-kubernetes-and-hashicorp-vault/)
+- [digitalvarys.com: Simple Introduction to HashiCorp Vault](https://digitalvarys.com/simple-introduction-to-hashicorp-vault/)
+- [hashicorp.com: HCP Vault is now generally available on AWS 🌟](https://www.hashicorp.com/blog/vault-on-the-hashicorp-cloud-platform-ga)
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
 - [ansible.com: Automating Security with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/automating-security-with-cyberark-and-red-hat-ansible-automation-platform)
+
+### CyberArk Conjur
+- [conjur.org](https://www.conjur.org/)
+- [infracloud.io: Securing Kubernetes Secrets with Conjur 🌟](https://www.infracloud.io/blogs/securing-kubernetes-secrets-conjur)
 
 ### SOPS for Kubernetes
 - [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)
@@ -158,6 +184,9 @@
 - [sysdig.com: Sysdig 2021 container security and usage report: Shifting left is not enough 🌟](https://sysdig.com/blog/sysdig-2021-container-security-usage-report/)
 - [itnext.io: Hardening Docker and Kubernetes with seccomp 🌟](https://itnext.io/hardening-docker-and-kubernetes-with-seccomp-a88b1b4e2111)
 - [redhat.com: Improving Linux container security with seccomp 🌟](https://www.redhat.com/sysadmin/container-security-seccomp) Try this method of using an OCI runtime hook for tracing syscalls before you build a container.
+- [openshift.com: Signing and Verifying Container Images 🌟](https://www.openshift.com/blog/signing-and-verifying-container-images)
+- [redhat.com: Introducing Red Hat Vulnerability Scanner Certification](https://www.redhat.com/en/blog/introducing-red-hat-vulnerability-scanner-certification)
+- [docs.microsoft.com: Introduction to Azure Defender for container registries](https://docs.microsoft.com/en-us/azure/security-center/defender-for-container-registries-introduction#when-are-images-scanned) Defender for Container Registries Continuous Image Scan for vulnerabilities is now available for General Availability (GA)
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.
@@ -182,3 +211,6 @@
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)
+
+## CVEs
+- [sysdig.com: Mitigating CVE-2021-20291: DoS affecting CRI-O and Podman](https://sysdig.com/blog/cve-2021-20291-cri-o-podman/)

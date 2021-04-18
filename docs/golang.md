@@ -8,6 +8,11 @@
 - [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) A Huge Number of Go Examples, Exercises and Quizzes.
 - [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/)
+- [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
+- [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/)
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
+- [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go)
+
 ## Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)

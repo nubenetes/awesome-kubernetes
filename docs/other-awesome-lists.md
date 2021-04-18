@@ -23,6 +23,7 @@
 	- [Big Data](#big-data)
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
+- [Base64](#base64)
 
 ## Inspired By
 - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)
@@ -34,8 +35,11 @@
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools 
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
+- [Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 
 ## Other Awesome Lists
+- [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
+- [Awesome WSL](https://awesomeopensource.com/project/sirredbeard/Awesome-WSL)
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
@@ -114,6 +118,18 @@
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - [Awesome Go](https://github.com/avelino/awesome-go)
 	- [awesome-go.com](https://awesome-go.com/)
+- [github.com/charlax/professional-programming: A collection of full-stack resources for programmers 🌟](https://github.com/charlax/professional-programming) Free resources⚡
+	- Books
+	- Articles
+	- Design patterns
+	- Algo and DS
+	- Databases
+	- JavaScript
+	- Interview questions
+	- Security
+	- Debugging
+	- Data Science
+	- etc...
 
 #### Bash
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
@@ -133,3 +149,6 @@
 ## Kubectl Plugins
 - [Available kubectl plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 - [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)
+
+## Base64 
+- [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode

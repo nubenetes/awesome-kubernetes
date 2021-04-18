@@ -8,6 +8,8 @@
 - [draw.io](https://drawio-app.com/)
 - [Isoflow](https://isoflow.io) Infrastructure Diagrams
 - [acloudguru.com: The top cloud diagramming tools, ranked](https://acloudguru.com/blog/engineering/the-top-cloud-diagramming-tools-ranked)
+- [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/architect/diagramming-tools-cloud-infrastructure) Communicating a vision for cloud computing requires meaningful diagrams of logical, physical, and every layer in between. Here are tools that will help make them.
+- [autodraw.com](https://www.autodraw.com/) Fast drawing for everyone. AutoDraw pairs machine learning with drawings from talented artists to help you draw stuff fast.
 
 ## AWS
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams

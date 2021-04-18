@@ -27,11 +27,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Open Container Initiative](https://www.opencontainers.org/)
 - [agilemethodology.org](http://agilemethodology.org/)
 - [agilemanifesto.org](http://agilemanifesto.org/)
-- [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready)
+- [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/architect/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com/)
 - [roadmap.sh](https://roadmap.sh/) 
 - [API Landscape](https://www.apidays.co/api-landscape)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
+- [Open Source Guides](https://opensource.guide/)
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
@@ -120,12 +121,14 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Helm Kubernetes Tool](helm.md)
 - [Liquibase and Flyway](liquibase.md)
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
-- [Pulumi](pulumi.md)
 - [StackStorm](stackstorm.md)
-- [Terraform & Packer](terraform.md)
-- [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
 - [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
+
+## Infrastructure Management Tools
+- [Pulumi](pulumi.md)
+- [Terraform & Packer](terraform.md)
+- [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
 - [NoSQL Databases](nosql.md)

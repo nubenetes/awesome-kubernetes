@@ -8,6 +8,7 @@
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools-1)
+	- [Puppet](#puppet)
 	- [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
@@ -25,6 +26,8 @@
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
 - [denic.hashnode.dev: Resources to crush the technical interview](https://denic.hashnode.dev/resources-to-crush-the-technical-interview)
 - [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline/)
+- [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions/)
+- [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
@@ -104,6 +107,23 @@
 * [devopscurry.com: DevOps 2021: Market yourself with a smart and highly impressive DevOps](https://devopscurry.com/tips-to-create-a-highly-effective-devops-resume/)
 * [dzone: DevOps is not just automation! 🌟](https://dzone.com/articles/devops-is-not-only-automation) While every day we are talking about different technologies, tools, and methods under the name of DevOps, we should not forget the in-depth meaning of DevOps.
 * [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
+* [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://containerjournal.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes/)
+* [content.techgig.com: 5 Best DevOps practices for beginners](https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms)
+* [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
+* [devops.com: 5 Steps to Successful DevOps Culture](https://devops.com/five-steps-to-successful-devops-culture)
+* [cst-bg.net: 13 clues you are doing DevOps right 🌟](https://www.cst-bg.net/post/13-clues-to-good-devops)
+* [medium.com: DevOps, Observability, and the need to tear down organizational boundaries 🌟](https://medium.com/lightstephq/devops-observability-and-the-need-to-tear-down-organizational-boundaries-f5d25755ff3a)
+* [softwebsolutions.com: DevOps and Microservices – Creating change together](https://www.softwebsolutions.com/resources/devops-and-microservices.html)
+* [thenewstack.io: 5 Cloud Automation Tips for Developers and DevOps](https://thenewstack.io/5-cloud-automation-tips-for-developers-and-devops/)
+* [thenewstack.io: Debugging for Reduced DevOps Disruptions](https://thenewstack.io/debugging-for-reduced-devops-disruptions)
+* [containerjournal.com: Kubernetes Enables DevOps-as-a-Service (DaaS) 🌟](https://containerjournal.com/features/kubernetes-enables-devops-as-a-service-daas/)
+* [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops/)
+* [opensource.com: A DevOps guide to documentation](https://opensource.com/article/21/3/devops-documentation) Bring your documentation writing into the DevOps lifecycle.
+* [infoq.com: DevOps is Not Enough for Scaling and Evolving Tech-Driven Organizations: a Q&A with Eduardo da Silva](https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations/)
+* [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
+* [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/3613155/5-devops-practices-to-improve-application-reliability.html)
+* [devops.com: Languages and DevOps: Recommendations](https://devops.com/languages-and-devops-recommendations/)
+* [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -115,6 +135,7 @@
 - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
 - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
+- [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
@@ -125,6 +146,7 @@
 - [devopszone.info](https://www.devopszone.info/)
 - [devopsdigest.com](https://www.devopsdigest.com/)
 - [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
+- [devopstips.net](https://devopstips.net/)
 
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)
@@ -149,6 +171,10 @@
 - [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
 - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
+- [reviewnprep.com: DevOps Tool Primer: Docker, Kubernetes, Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
+
+### Puppet
+- [puppet.com: Reporting 🌟](https://puppet.com/docs/puppet/7.5/reporting_about.html) As more projects adopt the Kubernetes Resource Model for managing things beyond containers, we really need a reporting framework to help people understand configuration drift. 
 
 ### Relay
 - [Relay](https://relay.sh/) Event-driven automation that connects the cloud providers, DevOps tools, and other APIs you already use.

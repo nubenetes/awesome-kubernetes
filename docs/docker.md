@@ -11,9 +11,11 @@
 - [Docker Compose](#docker-compose)
 - [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
 - [Portainer](#portainer)
+- [DockStation](#dockstation)
 - [Linux Container Base Images](#linux-container-base-images)
 - [Blogs](#blogs)
 - [Awesome Lists](#awesome-lists)
+- [Alternatives to Docker](#alternatives-to-docker)
 
 ## Introduction and Tutorials
 * [Wikipedia.org: Docker](https://en.wikipedia.org/wiki/Docker_(software))
@@ -59,6 +61,11 @@
 * [docker.com: Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
     * [docker.com: Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/)
     * [docker.com: Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
+* [sysdig.com: Top 20 Dockerfile best practices 🌟](https://sysdig.com/blog/dockerfile-best-practices/)
+* [pythonspeed.com: The worst so-called “best practice” for Docker](https://pythonspeed.com/articles/security-updates-in-docker/)
+* [developers.redhat.com: Making environment variables accessible in front-end containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers/)
+* [towardsdatascience.com: Have you heard about our lord and savior Docker?](https://towardsdatascience.com/docker-101-ee3d2b8ace11) Introduction to working with Docker and creating your own development environment
+* [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
@@ -88,9 +95,11 @@
 ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
 - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
+- [dive 🌟](https://github.com/wagoodman/dive) A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image. Use the dive tool to analyze a Docker image of your application. What did I learn? While Jib creates 3 layers for Spring Boot app (dependencies, resources and classes), Paketo Buildpacks places resources and classes in the same layer.
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
+- [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)
 
 ## Docker Cheat sheet
 * [Docker Cheat Sheets](cheatsheets.md)
@@ -110,6 +119,10 @@
 
 ## Portainer
 * [Portainer 🌟](https://www.portainer.io/) Making Docker management easy
+* [Portainer Community Edition](https://www.portainer.io/products/community-edition)
+
+## DockStation
+- [dockstation.io](https://dockstation.io/)
 
 ## Linux Container Base Images
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
@@ -122,6 +135,10 @@
 ## Awesome Lists
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
 * [Awesome Compose 🌟](https://github.com/docker/awesome-compose)
+
+## Alternatives to Docker
+- [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
+- [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)
 
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 

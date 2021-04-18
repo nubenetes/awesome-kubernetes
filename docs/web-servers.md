@@ -9,6 +9,7 @@
 
 ## Introduction
 - [Reverse Proxy: What, When, How](https://dzone.com/articles/reverse-proxy-what-when-how) Look at a tutorial that explains reverse proxies.
+- [opensource.com: A beginner's guide to load balancing](https://opensource.com/article/21/4/load-balancing) Load balancing distributes resources to where they're needed most at that moment.
 
 ## Apache
 - [Apache](https://httpd.apache.org/)

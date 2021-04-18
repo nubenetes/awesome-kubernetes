@@ -3,6 +3,7 @@
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
     - [Kubernetes examples](#kubernetes-examples)
+    - [Scaffold. Built in snippets for creating k8s resources](#scaffold-built-in-snippets-for-creating-k8s-resources)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
@@ -17,6 +18,7 @@
 - [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics/) 
 - [developers.redhat.com: How to configure YAML schema to make editing files easier](https://developers.redhat.com/blog/2020/11/25/how-to-configure-yaml-schema-to-make-editing-files-easier/)
 - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml/)
+- [betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8) Syntax, salient features, and advanced features.
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
@@ -39,6 +41,9 @@
 ### Kubernetes examples
 - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.
 
+### Scaffold. Built in snippets for creating k8s resources 
+- [cloud.google.com: configuring_with_snippets 🌟](https://cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) GoogleCloudTech Code has built-in snippets for creating common resources (pod, service, configmap, etc). Plus diffing and dry-run of YAML.
+
 ### Helm and Kustomize
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 
@@ -47,6 +52,7 @@
 - [json.org: Introducing JSON](https://www.json.org/json-en.html)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
+- [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/)
 
 ## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 - The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:
@@ -65,5 +71,6 @@
 ## Alternatives
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
     - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
+    - [github.com/shipa-corp/ketch](https://github.com/shipa-corp/ketch/) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
     

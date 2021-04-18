@@ -1,4 +1,12 @@
 # Microservices FAQ
+- [FAQ](#faq)
+- [History of Microservices](#history-of-microservices)
+- [Kubernetes Native](#kubernetes-native)
+- [Adoption of Cloud-Native Architecture](#adoption-of-cloud-native-architecture)
+- [Migration Styles. Lift and Shift Cloud Migration Strategy](#migration-styles-lift-and-shift-cloud-migration-strategy)
+- [Architectural Patterns for Caching Microservices](#architectural-patterns-for-caching-microservices)
+  
+## FAQ
 - [Should I Use A Microservices Architecture? What about the UI? 🌟](https://www.jamesmichaelhickey.com/microservices-architecture/)
 - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)
 - [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
@@ -18,12 +26,18 @@
 ## Adoption of Cloud-Native Architecture
 - [Adoption of Cloud-Native Architecture, Part 1: Architecture Evolution and Maturity](https://www.infoq.com/articles/cloud-native-architecture-adoption-part1/)
 
-### Migration Styles. Lift and Shift Cloud Migration Strategy
+## Migration Styles. Lift and Shift Cloud Migration Strategy
 - [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU):
     - Lift and shift is a cloud migration strategy that refers to removing workloads and tasks from one storage location and placing them in another, usually cloud-based, location.
     - Moving applications to the cloud can be challenging if you are unprepared. In fact, many businesses experience some level of migration failure because of poor planning.
     - The lift and shift migration style is one of the approaches that can help you transition to the cloud without the need to redesign applications or disrupt workflow operations.
     - It all starts with containerizing the applications using platforms like Docker and then moving entirely to a microservices architecture.
+- [dzone: Cloud Migration(Lift-and-Shift): My Notes From the Ground 🌟](https://dzone.com/articles/lift-and-shift-my-experience-on-the-ground)
+- [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r) There are a number of ways to get your applications to the cloud, but the question of which method to use is a little up in the air.
+- [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition) In this article, I will try to cover the purposes of terms used while decomposing microservices and try to fit them under one umbrella concept.
+
+## Architectural Patterns for Caching Microservices
+- [hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
 
 ---
 <center>

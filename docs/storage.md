@@ -14,6 +14,7 @@
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
 	- [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
 	- [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
+- [Kubestr](#kubestr)
 
 ## Introduction
 - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/)
@@ -28,6 +29,8 @@
 - [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
 - [rancher.com: What is Cloud-Native Storage?](https://rancher.com/blog/2020/what-is-cloud-native-storage)
 - [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/)
+- [devopscurry.com: Top 7 Object Storage tools to consider in 2021](https://devopscurry.com/top-7-object-storage-tools-to-consider-in-2021/)
+- [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale/)
 
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
@@ -37,6 +40,7 @@
 
 ### Rook
 - [Rook](https://rook.io/)
+- [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)
 
 ### Robin
 - [Robin](https://robin.io/)
@@ -93,6 +97,10 @@
         - Encryption
 - Backups available in OpenShift 4.2+ (Snapshots + Restore of Volumes)
 - OCS Dashboard in OCS Operator
+
+## Kubestr
+- [kubestr.io](https://kubestr.io/) Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
+- [blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with Kubestr](https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr)
 
 ---
 <center>

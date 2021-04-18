@@ -52,6 +52,15 @@
 - [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 1: Theory 🌟](https://dzone.com/articles/metadata-management-in-big-data-systems-a-complete-1) In Part 1, we go over the concepts behind Istio and Service Mesh, such as their architecture, how they function, and more.
   - [dzone: Istio Service Mesh, the Step-by-Step Guide, Part 2: Tutorial 🌟](https://dzone.com/articles/istio-service-mesh-the-step-by-step-guide-part-2-t)
 - [solo.io: The evolution of VM support in Istio 1.8 (with video)](https://www.solo.io/blog/the-evolution-of-vm-support-in-istio-1-8-with-video/)
+- [jetstack.io: Securing Istio workloads with mTLS using cert-manager](https://www.jetstack.io/blog/cert-manager-istio-integration/)
+- [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes)
+- [medium: Managing Microservices With Istio Service Mesh in Kubernetes](https://medium.com/avmconsulting-blog/managing-microservices-with-istio-service-mesh-in-kubernetes-36e1fda81757)
+- [thenewstack.io: Solo.io: Istio Is Winning the Service Mesh War](https://thenewstack.io/solo-io-istio-is-winning-the-service-mesh-war/)
+- [dzone: vice Meshes: Why Istio? An Introduction](https://dzone.com/articles/why-istio-intro) There are 3 leading contenders in the cluster ecosystem for service mesh, all open source. We compare and discuss why Istio is the best choice in most scenarios.
+- [tetrate.io: Why do you need Istio when you already have Kubernetes?](https://www.tetrate.io/blog/why-do-you-need-istio-when-you-already-have-kubernetes/)
+- [learncloudnative.com: Attach multiple VirtualServices to Istio Gateway](https://learncloudnative.com/blog/2020-11-23-multiple-vs-gateway)
+- [thenewstack.io: What Is Istio and Why Does Kubernetes Need it? 🌟](https://thenewstack.io/what-is-istio-and-why-does-kubernetes-need-it/)
+- [youtube: Istio & Service Mesh - simply explained in 15 mins 🌟](https://www.youtube.com/watch?v=16fgzklcF7Y&ab_channel=TechWorldwithNana)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
@@ -66,6 +75,7 @@
 - [github.com: kiali](https://github.com/kiali/kiali)
 - [medium.com: kiali project](https://medium.com/kialiproject)
 - [itnext.io: Find issues in your Istio mesh with Kiali](https://itnext.io/find-issues-in-your-istio-mesh-with-kiali-89d37d5e1fb1)
+- [dzone: Deployment Monitoring Tools — Kiali](https://dzone.com/articles/kubernetes-deployment-monitoring-tools-kiali) A description of common issues with deployment monitoring, and a features list of Kiali and how to use it.
 
 ## Jaeger tracing. Open source, end-to-end distributed tracing
 - Monitor and troubleshoot transactions in complex distributed systems
