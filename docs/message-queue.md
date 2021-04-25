@@ -51,6 +51,8 @@
 - [wiprodigital.com: A Guide to Enterprise Event-Driven Architecture](https://wiprodigital.com/2020/11/10/a-guide-to-enterprise-event-driven-architecture/)
 - [medium: Introduction to Event-Driven Architecture](https://medium.com/microservicegeeks/introduction-to-event-driven-architecture-e94ef442d824) The essential concepts that every developer should know
 - [ibm.com: Event-driven cloud-native applications (microservices)](https://www.ibm.com/cloud/architecture/architecture/practices/event-driven-cloud-native-apps-architecture) The event backbone is being part of the microservices mesh, providing the publish-and-subscribe communication between microservices and enabling the support of loosely coupled event-driven microservices.
+- [stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems/) In this article, we’ll discuss some of the problems driving innovation in modern web development. Then we’ll dive into the basics of event-driven architecture (EDA), which tries to address these problems by thinking about back-end architecture in a novel way.
+- [sebalopezz.medium.com: Monolith to Microservices + Event-Driven Architecture 🌟](https://sebalopezz.medium.com/monolith-to-microservices-event-driven-architecture-ff4284bf4ecf)
 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
@@ -74,6 +76,7 @@
 ### Apache Camel message broker
 - [Apache Camel](https://camel.apache.org/)
 - [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)
+- [dzone: Hybrid multi-cloud event mesh architectural design](https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with) Building the event mesh with Camel
 
 #### Apache Camel K
 - [Apache Camel K](https://camel.apache.org/camel-k/latest/) is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.
@@ -138,6 +141,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [thenewstack.io: Part 1: The Evolution of Data Pipeline Architecture](https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture/)
 - [eng.uber.com: Uber’s Journey Toward Better Data Culture From First Principles](https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/)
 - [satishchandragupta.com: Scalable Efficient Big Data Pipeline Architecture](https://www.satishchandragupta.com/tech/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud.html)
+- [openshift.com: How to Orchestrate Data Pipelines with Applications Deployed on OpenShift](https://www.openshift.com/blog/how-to-orchestrate-data-pipelines-with-applications-deployed-on-openshift)
 
 ### Apache Kafka
 - [Apache Kafka](https://kafka.apache.org/)
@@ -189,6 +193,10 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [thenewstack.io: Beyond the Quickstart: Running Apache Kafka as a Service on Kubernetes](https://thenewstack.io/beyond-the-quickstart-running-apache-kafka-as-a-service-on-kubernetes/)
 - [towardsdatascience.com: You Can Replace Kafka with a Database](https://towardsdatascience.com/you-can-replace-kafka-with-a-database-39e13b610b63)
 - [Handling Retries in Kafka: If You’re Using Kafka With Your Microservices, You’re Probably Handling Retries Wrong](https://dt-23597.medium.com/if-youre-using-kafka-with-your-microservices-you-re-probably-handling-retries-wrong-8492890899fa)
+- [Kafdrop – Kafka Web UI 🌟](https://github.com/obsidiandynamics/kafdrop)
+- [confluent.io: What’s New in Apache Kafka 2.8](https://www.confluent.io/blog/kafka-2-8-0-features-and-improvements-with-early-access-to-kip-500/)
+- [devclass.com: Apache Kafka 2.8.0 previews life without ZooKeeper](https://devclass.com/2021/04/20/apache-kafka-2-8-0-previews-life-without-zookeeper/)
+- [KLoadGen - Kafka + (Avro/Json Schema) Load Generator 🌟](https://github.com/corunet/kloadgen) KLoadGen is kafka load generator plugin for jmeter designed to work with AVRO and JSON schema. It allows sending kafka messages with a structure defined as an AVRO Schema or a Json Schema. It connects to the Scheme Registry Server, retrieve the subject to send and generate a random message every time.
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)

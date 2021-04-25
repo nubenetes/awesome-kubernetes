@@ -1,5 +1,6 @@
 # Golang - Go
 - [golang.org](https://golang.org/)
+- [github.com/golang/go](https://github.com/golang/go)
 - [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
 - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)
@@ -12,6 +13,8 @@
 - [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/)
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 - [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go)
+- [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters/)
+- [cyberciti.biz: How to install Go [golang] on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/)
 
 ## Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)

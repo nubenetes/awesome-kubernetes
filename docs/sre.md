@@ -30,6 +30,7 @@
 - [devops.com: How the SRE Role Is Evolving](https://devops.com/how-the-sre-role-is-evolving/)
 - [itprotoday.com: Why Site Reliability Engineering Is Key to Modern DevOps](https://www.itprotoday.com/testing-and-quality-assurance/why-site-reliability-engineering-key-modern-devops) Among the hottest areas of growth in DevOps is the emerging field of site reliability engineering as organizations look to bake reliability into the earliest stages of the software development cycle.
 - [stackpulse.com: Managing Reliability for Monoliths vs. Microservices: The Challenges for SREs](https://stackpulse.com/blog/monoliths-vs-microservices-challenges/)
+- [stackpulse.com: Managing Reliability for Monoliths vs. Microservices: Best Practices for SREs](https://stackpulse.com/blog/monoliths-vs-microservices-best-practices/)
 
 <center>
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)

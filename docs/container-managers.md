@@ -68,6 +68,7 @@
 - [podman.io: Podman Release v3.1.0](https://podman.io/releases/2021/04/02/podman-release-v3.1.0.html) The new Podman release includes a number of exciting new features, including the podman secret command for managing secrets, support for a volume chown option to fix permissions automatically, improved support for volumes in podman generate kube, and over 60 bug fixes, many to the HTTP API. Read on for more details!
 - [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/sysadmin/replace-docker-podman-macos) Want to use Podman to work with containers? Here's what you need to know about Podman on a Mac.
 - [redhat.com: Exploring the new Podman secret command 🌟](https://www.redhat.com/sysadmin/new-podman-secrets-command) Use the new podman secret command to secure sensitive data when working with containers.
+- [developers.redhat.com: Using Podman Compose with Microcks: A cloud-native API mocking and testing tool](https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool)
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

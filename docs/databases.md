@@ -3,6 +3,7 @@
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
 - [Serverless Databases](#serverless-databases)
 - [DataOps](#dataops)
+- [Database Continuous Integration](#database-continuous-integration)
 - [Databases on Kubernetes](#databases-on-kubernetes)
 - [Database DevOps](#database-devops)
 - [KubeDB Cloud Native Postgress Database](#kubedb-cloud-native-postgress-database)
@@ -68,6 +69,9 @@
 
 ## DataOps
 - [dzone: 2021: The Year of DataOps](https://dzone.com/articles/2021-the-year-of-dataops) Centralizing an organization's data in a cloud data warehouse gives all stakeholders big-picture access to everything going on at the company.
+
+## Database Continuous Integration
+- [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/database-continuous-integration)
 
 ## Databases on Kubernetes
 * [cloud.google.com: To run or not to run a database on Kubernetes - What to consider](https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider)
@@ -150,6 +154,9 @@
 * [blog.crunchydata.com: Deploy PostgreSQL With TLS in Kubernetes](https://blog.crunchydata.com/blog/set-up-tls-for-postgresql-in-kubernetes)
 * [blog.crunchydata.com: Announcing Google Cloud Storage (GCS) Support for pgBackRest](https://blog.crunchydata.com/blog/announcing-google-cloud-storage-gcs-support-for-pgbackrest)
 * [youtube: Install and use Crunchy PostgreSQLfor OpenShift operator for simple todo app on OpenShift 🌟](https://www.youtube.com/watch?v=9wuUXi6Qbis&ab_channel=MichaelBornholdtNielsen)
+* [blog.crunchydata.com: Query Optimization in Postgres with pg_stat_statements](https://blog.crunchydata.com/blog/tentative-smarter-query-optimization-in-postgres-starts-with-pg_stat_statements)
+* [blog.crunchydata.com: Kubernetes Pod Tolerations and Postgres Deployment Strategies 🌟](https://blog.crunchydata.com/blog/kubernetes-pod-tolerations-and-postgresql-deployment-strategies)
+* [blog.crunchydata.com: Active-Active PostgreSQL Federation on Kubernetes](https://blog.crunchydata.com/blog/active-active-postgres-federation-on-kubernetes)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -788,6 +795,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/)
 - [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table)
 - [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/2020/06/30/mysql-101-parameters-to-tune-for-mysql-performance/)
+- [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER) in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4) Database schema relationships of tables
 
 ## MariaDB
 - [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java/)
@@ -797,6 +805,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips/)
 - [dzone: A Guide to SQL Triggers: Setting up Database Tracking in PostgreSQL](https://dzone.com/articles/a-guide-to-sql-triggers-setting-up-database-tracking-in-postgresql) SQL triggers are less common but can be a great solution for certain situations. I'll show how to use triggers in Postgres to enforce data integrity and track changes to a database.
 - [migops.com: pgBackRest – The Best Postgres Backup Tool with a very active community](https://www.migops.com/blog/2021/04/09/pgbackrest-the-best-postgres-backup-tool-with-a-very-active-community/)
+- [towardsdatascience.com: Practical Introduction to PostgreSQL](https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)

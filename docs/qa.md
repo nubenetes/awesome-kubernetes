@@ -4,6 +4,7 @@
 * [softwaretestguideforu.com: What is system testing? How to perform system testing?](https://www.softwaretestguideforu.com/2020/06/what-is-system-testinghow-to-perform.html)
 * [linkedin.com/pulse: Importance of API Automation Testing 🌟](https://www.linkedin.com/pulse/importance-api-automation-testing-manish-saini/)
 * [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
+* [thenewstack.io: Optimizing App Performance in a Multicloud Stack](https://thenewstack.io/optimizing-app-performance-in-a-multicloud-stack/)
 
 ## Tools
 * [collabnix.com: The Ultimate Docker Tutorial for Automation Testing](https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing/)

@@ -96,6 +96,8 @@
 * [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog/how-to-solve-the-challenges-of-multicloud-aws-azure-and-gcp-observability/)
 * [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes/)
 * [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture/)
+* [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://opsdis.com/custom-monitoring-solution-with-grafana-prometheus-and-loki/)
+* [harness.io: Metrics to Improve Continuous Integration Performance](https://harness.io/blog/continuous-integration/continuous-integration-performance-metrics/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -297,6 +299,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [k8s-image-availability-exporter](https://github.com/flant/k8s-image-availability-exporter) is a Prometheus exporter that warns you proactively about images that are defined in Kubernetes objects (e.g., an image field in the Deployment) but are not available in the container registry (such as Docker Registry, etc.).
 * [engineeringblog.yelp.com: Improving the performance of the Prometheus JMX Exporter](https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html)
 * [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://sysdig.com/blog/monitor-oracle-database-prometheus/)
+* [YACE - yet another cloudwatch exporter 🌟](https://github.com/ivx/yet-another-cloudwatch-exporter) AWS cloudwatch to prometheus exporter - Discovers services through AWS tags, gets cloudwatch data and provides them as prometheus metrics with AWS tags as labels
 
 #### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
@@ -817,6 +820,7 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - [amazon.com: Introducing OpenSearch](https://aws.amazon.com/blogs/opensource/introducing-opensearch/)
 - [logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open Source Fork of Elasticsearch and Kibana](https://logz.io/news-posts/logz-io-announces-support-for-opensearch-a-community-driven-open-source-fork-of-elasticsearch-and-kibana/)
 - [techrepublic.com: OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
+- [thenewstack.io: This Week in Programming: AWS Completes Elasticsearch Fork with OpenSearch](https://thenewstack.io/this-week-in-programming-aws-completes-elasticsearch-fork-with-opensearch/)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)

@@ -14,7 +14,6 @@
     - [DSL 2. Jenkins Pipeline. Pipeline as Code with Jenkins](#dsl-2-jenkins-pipeline-pipeline-as-code-with-jenkins)
         - [Jenkins Pipeline Syntax. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#jenkins-pipeline-syntax-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
         - [Extending with Shared Libraries](#extending-with-shared-libraries)
-            - [Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
         - [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
     - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
         - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
@@ -84,6 +83,9 @@
 * [amazon.com: Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/es/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate/)
 * [youtube: How to Create a GitLab Multibranch Pipeline in Jenkins](https://www.youtube.com/watch?app=desktop&v=y4XGFluzPHY&ab_channel=CloudBeesTV)
 * [lambdatest.com: Jenkins Tutorial 🌟](https://www.lambdatest.com/learning-hub/jenkins)
+* [youtube/Bribe By Bytes: Jenkins Pipelines | Pipeline Concept | Types of Pipelines | Part 1](https://www.youtube.com/watch?v=iddMXjmr7mk&t=657s&ab_channel=BribeByBytes)
+* [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) Jenkins can now be used to automate Tekton pipelines too which helps teams digitally transform to more cloud native solutions for their CI and CD. In such a case, you can use Tekton pipeline engine while getting all benefits from Jenkins as an orchestrator, user interface and the reporting engine. The Tekton Client plugin for Jenkins lets you easily use Jenkins to automate creating and running Tekton pipelines. It bridges the Kubernetes learning gap and allows invoking Tekton Pipelines and resources through Jenkins. This allows users to not have much of the Kubernetes specific knowledge beforehand and work. Its a single Jenkins plugin to install - so it’s easy to use.
+* [harness.io: What is Pipeline as Code, and How Can You Leverage It?](https://harness.io/blog/devops/pipeline-as-code/)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -205,31 +207,7 @@
 - [A sustainable pattern with shared library 🌟](https://www.jenkins.io/blog/2020/10/21/a-sustainable-pattern-with-shared-library/)
 - [tomd.xyz: Jenkins shared library: tutorial with examples 🌟](https://tomd.xyz/jenkins-shared-library/) How to use a shared library in Jenkins, to allow you to share common code and steps across multiple pipelines. Includes a demo Git repo that you can fork.
 - [jjba.dev: Jenkins Shared Library with Unit tests](https://jjba.dev/posts/jenkins-shared-library/) Tired of un-testable, un-reliable, repetitive and tedious scripts to deploy your applications with Jenkins? Look no further, here is your solution.
-
-##### Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
-- [Keptn](https://www.keptn.sh) provides **automated SLI/SLO-based quality gates**
-- [tutorials.keptn.sh](https://tutorials.keptn.sh/)
-- [github.com/keptn/keptn](https://github.com/keptn/keptn)
-- [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) **integrates Jenkins and Keptn** with just a couple of function calls.
-- [Jenkins Online Meetup](https://www.meetup.com/Jenkins-online-meetup/events/270861119/) Andreas Grabner from Dynatrace will talk about **automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins.** 
-    - In many organizations up to 80% of pipeline execution time is spent in manual build validation steps. How can we reduce that? One option is applying Google's SRE (Site Reliability Engineering) practices by **automating SLI (Service Level Indicators) & SLO (Service Level Objectives) based build validation**. This method has proven to detect problematic issues in production and also allows us to automatically approve or reject builds being pushed through our pipelines.
-    - In this session you learn the basics of picking good **SLIs & SLOs** and how to extract them from your monitoring tools. After this session you will be able to start implementing this integration yourself with Jenkins. To give you a jump start you will be introduced to the open source project [Keptn](https://www.keptn.sh) which provides **automated SLI/SLO-based quality gates**. Then we'll talk about [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) which **integrates Jenkins and Keptn** with just a couple of function calls.
-- [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s)
-- [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/)
-- [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) - [Tutorial on keptnProject with argoproj for canary deployments using Dynatrace for SLO-based rollout control](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md#use-case-5-canary-rollouts-with-argo) 
-- [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)
-
-<center>
-[![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-
-[![keptn](images/keptn-jenkins-sli-slo-2.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-
-[![keptn](images/keptn-jenkins-sli-slo-3.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-
-<iframe src="https://www.youtube.com/embed/GhEZLvc8B70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-</center>
+- [lambdatest.com: How To Use Shared Libraries In A Jenkins Pipeline? 🌟](https://www.lambdatest.com/blog/use-jenkins-shared-libraries-in-a-jenkins-pipeline/)
 
 #### Jenkinsfile Runner. Serverless / function-as-a-service build execution
 - [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) Jenkinsfile Runner is an experiment to package Jenkins pipeline execution as a command line tool. The intend use cases include:
@@ -373,6 +351,8 @@
 * [Metrics](https://plugins.jenkins.io/metrics/) This plugin exposes the Metrics API to Jenkins plugins.
 * [Git Forensics](https://plugins.jenkins.io/git-forensics/) This Git Forensics Jenkins plugin mines and analyzes data from a Git repository. It implements all extension points of Jenkins' Forensics API Plugin.
 * [Robot Framework](https://plugins.jenkins.io/robot/)
+* [Jenkins Prometheus Metrics Plugin 🌟](https://github.com/jenkinsci/prometheus-plugin) Jenkins Prometheus Plugin expose an endpoint (default /prometheus) with metrics where a Prometheus Server can scrape.
+* [tekton-plugin: Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) Use tektoncd pipeline engine while getting all benefits from jenkinsci as an orchestrator, user interface and reporting eng. 
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

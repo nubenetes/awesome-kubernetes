@@ -3,9 +3,9 @@
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
     - [Kubernetes examples](#kubernetes-examples)
-    - [Scaffold. Built in snippets for creating k8s resources](#scaffold-built-in-snippets-for-creating-k8s-resources)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
+    - [JSON formatting with jq](#json-formatting-with-jq)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
 
@@ -41,9 +41,6 @@
 ### Kubernetes examples
 - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.
 
-### Scaffold. Built in snippets for creating k8s resources 
-- [cloud.google.com: configuring_with_snippets 🌟](https://cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) GoogleCloudTech Code has built-in snippets for creating common resources (pod, service, configmap, etc). Plus diffing and dry-run of YAML.
-
 ### Helm and Kustomize
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 
@@ -53,6 +50,10 @@
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/)
+
+### JSON formatting with jq
+- [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/)
+- ```jq -C '.' data.json | less -R``` Use jq to pretty print some JSON data with ANSI color coded syntax and use -R in less to process the color.
 
 ## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 - The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:

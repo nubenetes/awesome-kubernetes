@@ -31,6 +31,7 @@
 - [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/)
 - [devopscurry.com: Top 7 Object Storage tools to consider in 2021](https://devopscurry.com/top-7-object-storage-tools-to-consider-in-2021/)
 - [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale/)
+- [blog.min.io: Why Kubernetes Managed Object Storage Matters](https://blog.min.io/why-kubernetes-managed/)
 
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)

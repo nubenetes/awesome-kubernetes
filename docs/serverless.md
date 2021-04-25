@@ -30,6 +30,7 @@
 * [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture) In this article, we will explain how enterprises can implement serverless microservices architectures using AWS Cloud.
 * [docs.google.com: Serverless Guide to Success 2021](https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic)
 * [vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds](https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2)
+* [dzone: Serverless Guide for Everyone 🌟](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 
 ### Microservices vs. Serverless
 * [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless/)

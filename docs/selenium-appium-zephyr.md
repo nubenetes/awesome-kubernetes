@@ -29,6 +29,9 @@
 - [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.lambdatest.com/blog/selenium-maven-jenkins-integration/)
 - [lambdatest.com: Selenium 4 🌟](https://www.lambdatest.com/learning-hub/selenium-4)
 - [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium?Run selenium maven project from command line?](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
+- [lambdatest.com/selenium: Introduction to Selenium Basics](https://www.lambdatest.com/selenium) Selenium is an open-source software to automate web testing by controlling browsers
+based on your test scripts.
+- [lambdatest.com: Selenium Webdriver Java Tutorial – Guide for Beginners](https://www.lambdatest.com/blog/selenium-java-tutorial-how-to-test-login-process/)
 
 ## Cypress
 - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
@@ -43,6 +46,7 @@
 - [experitest.com: Start Automating your mobile tests with Cucumber and Appium](https://experitest.com/appium-blog/start-automating-your-mobile-tests-with-cucumber-and-appium/)
 - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
 - [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.lambdatest.com/blog/cucumber-with-jenkins-integration)
+- [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)

@@ -62,6 +62,7 @@
 - [medium: A Practical Guide to HashiCorp Consul — Part 1 🌟](https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-1-5ee778a7fcf4)
 	- [medium: A Practical Guide to HashiCorp Consul — Part 2 🌟](https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-2-3c0ebc0351e8)
 - [Fabio Load Balancer 🌟](https://fabiolb.net/) fabio is a fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul. Register your services in consul, provide a health check and fabio will start routing traffic to them. No configuration required. Deployment, upgrading and refactoring has never been easier.
+- [hashicorp.com: Getting Started with HCP Consul: Frequently Asked Questions](https://www.hashicorp.com/blog/getting-started-with-hcp-consul-frequently-asked-questions)
 
 ### Consul Connect
 - [consul Connect](https://www.consul.io/docs/connect/index.html)

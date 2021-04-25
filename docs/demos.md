@@ -301,6 +301,7 @@
 - [itnext.io: Solving ArgoCD Secret Management with the argocd-vault-plugin 🌟](https://itnext.io/argocd-secret-management-with-argocd-vault-plugin-539f104aff05)
 - [youtube: Exploring The Cloud-native Kubernetes CI/CD Pipeline Tool Landscape](https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor) In this meetup, we explore the new era of Kubernetes continuous integration continuous deployment pipelines based on a set of fancy tools as Tekton Pipelines, ArgoCD or Helm. We walk through the new DevOps and GitOps technologies landscape and a real demonstration of how these tools work together in order to make developers and system administrators lives easier. [repo1](https://github.com/acidonper/jump-app-gitops) , [repo2](https://github.com/acidonper/jump-app-docs) , [slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoMnVrcVR5Tjl0dlBGWkx2UTZzMHA3N1N3QXxBQ3Jtc0tsZkZrcUpfSzhBX1EzdUtOanRqV3o2WDZpdkhPY0NyODhmbERSQUhROFRPa2pZRC13Q3l0ekQ2MjR1LTIyY254VmhwdHVack1XeDJiRWVBMUl6U3RDRHo3cF9XVDVJRTluLWJFVXNYUjF5OFV4ZlN5SQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F14fSLwfEVpDU-3udMGEW9bQATCAOy0F8b6UOgNgDkD3A%2Fedit%3Fusp%3Dsharing)
 - [blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD](https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5)
+
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
 

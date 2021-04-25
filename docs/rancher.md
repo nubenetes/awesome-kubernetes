@@ -34,6 +34,7 @@
 * [vitobotta.com: Kubernetes in DigitalOcean with Rancher](https://vitobotta.com/2020/11/02/kubernetes-digitalocean-rancher/?utm_sq=gkuh2clx8u)
 * [rancher: Speed Up Development with Automated Kubernetes Deployments](https://rancher.com/blog/2020/speed-development-automated-kubernetes-deployments)
 * [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops/)
+* [SUSE & Rancher Community 🌟](https://community.suse.com/feed) Learn and share with other cloud native enthusiasts
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 

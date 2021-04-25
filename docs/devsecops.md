@@ -63,6 +63,7 @@
 - [infoq.com: The Defense Department's Journey with DevSecOps](https://www.infoq.com/news/2020/06/defense-department-devsecops/)
 - [amazon.com: Building end-to-end AWS DevSecOps CI/CD pipeline with open source SCA, SAST and DAST tools](https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/)
 - [infoq.com: 9 Trends That Are Influencing the Adoption of Devops and Devsecops in 2021](https://www.infoq.com/articles/devops-secure-trends/)
+- [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
@@ -132,6 +133,7 @@
 - [blog.getambassador.io: Step-by-Step Centralized Authentication for Kubernetes with Keycloak and the Ambassador Edge Stack](https://blog.getambassador.io/centralized-authentication-with-keycloak-and-ambassador-edge-stack-d509ffbc7b6f)
 - [blog.sighup.io: How to run Keycloak in HA on Kubernetes](https://blog.sighup.io/keycloak-ha-on-kubernetes/) How to setup Keycloak, the Open Source Identity and Access Management, in HA on Kubernetes.
 - [developers.redhat.com: Authentication and authorization using the Keycloak REST API](https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-using-the-keycloak-rest-api/)
+- [faun.pub: Integrate Keycloak with HashiCorp Vault](https://faun.pub/integrate-keycloak-with-hashicorp-vault-5264a873dd2f) A How-To guide using Terraform
 
 ### Git Credential Manager Core
 - [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) GCM Core is a free, open-source, cross-platform credential manager for Git.
@@ -157,6 +159,7 @@
 - [confluent.io: How to Manage Secrets for Confluent with Kubernetes and HashiCorp Vault](https://www.confluent.io/blog/manage-secrets-with-kubernetes-and-hashicorp-vault/)
 - [digitalvarys.com: Simple Introduction to HashiCorp Vault](https://digitalvarys.com/simple-introduction-to-hashicorp-vault/)
 - [hashicorp.com: HCP Vault is now generally available on AWS 🌟](https://www.hashicorp.com/blog/vault-on-the-hashicorp-cloud-platform-ga)
+- [hashicorp.com: Serverless Secrets with HashiCorp Vault](https://www.hashicorp.com/resources/serverless-secrets-vault) Learn how to securely store and retrieve credentials across providers for applications running within AWS Lambda, Azure Functions, and Google Cloud Functions.
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
@@ -171,7 +174,9 @@
 
 ### Alternatives
 - [GitOps secret management with bitnami-labs Sealed Secret and GoDaddy Kubernetes External Secrets 🌟](https://www.openshift.com/blog/gitops-secret-management)
+	- [Kubernetes External Secrets 🌟](https://github.com/external-secrets/kubernetes-external-secrets)
 - [aws.amazon.com: Managing secrets deployment in Kubernetes using Sealed Secrets 🌟](https://aws.amazon.com/blogs/opensource/managing-secrets-deployment-in-kubernetes-using-sealed-secrets/)
+- [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets) The importance of keeping your secrets safe.
 
 ## Serverless Security Best Practices
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)

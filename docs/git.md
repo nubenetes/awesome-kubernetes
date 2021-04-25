@@ -98,6 +98,8 @@
 * [stackoverflow.blog: A look under the hood: how branches work in Git](https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git/) Git branches allow you to keep different versions of your code cleanly separated. Here's a look at how they work and why you should know about them.
 * [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review/)
 * [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) Compare the pros and cons of four options to switch branches while working in Git.
+* [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
+* [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
 
 ## Shields
 - [shields.io 🌟](https://shields.io/)
@@ -232,6 +234,7 @@ git push origin -f
 * [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/2021/02/22/gitlab-kubernetes-agent-on-gitlab-com/) The GitLab Kubernetes Agent enables secure deployments from GitLab SaaS to your Kubernetes cluster and provides deep integrations of your cluster to GitLab.
 * [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html)
 * [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://devclass.com/2021/03/23/gitlab-march-release-focuses-on-security-and-scalability-pops-in-support-for-red-hat-openshift)
+* [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11-released/)
   
 ## GitHub
 * [githubstatus.com 🌟](https://www.githubstatus.com/)
@@ -263,6 +266,7 @@ git push origin -f
 * [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process/)
 * [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/2021-03-23-solving-the-innersource-discovery-problem/)
 * [devopstips.net: Create, Host and Share Docker Images with GitHub Packages](https://devopstips.net/create-host-and-share-docker-images-with-github-packages)
+* [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
@@ -273,7 +277,9 @@ git push origin -f
 - [proandroiddev.com: “Continuous Integration/Delivery” for Android with GitHub Actions — Part 1](https://proandroiddev.com/continuous-integration-delivery-for-android-with-github-actions-part-1-b232ed2b1740)
 - [github.blog: Implementing least privilege for secrets in GitHub Actions](https://github.blog/2021-04-13-implementing-least-privilege-for-secrets-in-github-actions/)
 - [github.blog: Work with GitHub Actions in your terminal with GitHub CLI](https://github.blog/2021-04-15-work-with-github-actions-in-your-terminal-with-github-cli/)
-
+- [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token/)
+- [github.blog: GitHub Actions update: Helping maintainers combat bad actors](https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors/)
+  
 ### GitHub Actions and OpenShift
 - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
 - [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.openshift.com/blog/deploying-to-openshift-using-github-actions)

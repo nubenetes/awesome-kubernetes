@@ -157,6 +157,7 @@
 - [dzone: AWS Elastic Compute Cloud (EC2) Basics 🌟](https://dzone.com/articles/aws-elastic-compute-cloud-ec2-basics) We will learn about IP Addresses and also connect to public EC2 instances externally using SSH. Let's have a look at public and private IP behavior first.
 - [dzone: AWS Basics: Bastion Hosts and NAT 🌟](https://dzone.com/articles/aws-basics-bastian-hosts-and-nat) In this post, we will set up Bastion Host and NAT instances in our VPC. We will learn why we need those and some of the options available to us.
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://acloudguru.com/blog/engineering/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
+- [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
 
 ### Books
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
@@ -168,6 +169,7 @@
 - [learn.cantrill.io 🌟](https://learn.cantrill.io/)
 	- [github.com/acantril/learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs)
 	- [linkedin.com/pulse: So, you think you're an associate level Solutions Architect?](https://www.linkedin.com/pulse/so-you-think-youre-associate-level-solutions-adrian-cantrill/)
+- [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing/)
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 
@@ -390,6 +392,7 @@
 - [AWS Cloud Networking – Zero to Hero 🌟](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero/)
 - [cloudonaut.io: What Architects Need to Know About Networking on AWS 🌟](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws/)
 - [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid/)
+- [gprakash-sharma.medium.com: AWS Site-to-Site VPN with NAT](https://gprakash-sharma.medium.com/aws-site-to-site-vpn-with-nat-8bb99f4653ab)
 
 ## AWS Route 53
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)
@@ -500,6 +503,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Security Overview of AWS Lambda 🌟](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf)
 - [cloudonaut.io: Serverless Hybrid Cloud: Accessing an API Gateway via VPN or Direct Connect](https://cloudonaut.io/serverless-hybrid-cloud-accessing-an-api-gateway-via-vpn-or-direct-connect/)
 - [infoworld.com: Serverless computing with AWS Lambda, Part 1](https://www.infoworld.com/article/3210726/serverless-computing-with-aws-lambda.html) Get an overview of AWS Lambda's nanoservices architecture and execution model, then build your first Lambda function in Java
+- [dashbird.io: 4 Tips for AWS Lambda Optimization for Production](https://dashbird.io/blog/optimizing-aws-lambda-for-production/)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -691,6 +695,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [faun.pub: Upgrading and Scaling Kubernetes cluster in AWS](https://faun.pub/upgrading-and-scaling-kubernetes-cluster-in-aws-6971b3936465)
 - [youtube/StackSimplify: Kubernetes Deployments on AWS EKS | Amazon Elastic Kubernetes Service | Amazon EKS 🌟](https://www.youtube.com/watch?v=vZK_W-fpft0&ab_channel=StackSimplify)
 - [cloudify.co: Simplifying Hybrid Cloud Deployments With AWS EKS And Outpost](https://cloudify.co/blog/simplifying-hybrid-cloud-deployments-with-aws-eks-and-outpost)
+- [eksworkshop.com 🌟](https://www.eksworkshop.com/)
+- [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes/)
 
 ## AWS App Mesh 
 - [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
@@ -780,6 +786,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Secrets Manager
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
 - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets/)
+- [k21academy.com: AWS Secrets Manager](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-secrets-manager/)
 
 ## AWS Cloud Endure
 - [AWS Cloud Endure Migration 🌟](https://aws.amazon.com/cloudendure-migration/)

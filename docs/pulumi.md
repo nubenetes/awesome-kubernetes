@@ -9,3 +9,5 @@
 - [pulumi.com: Observability with Infrastructure as Code](https://www.pulumi.com/blog/observability-with-infrastructure-as-code/)
 - [octopus.com: Create an AKS Cluster with Pulumi and Octopus Deploy](https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy)
 - [build5nines.com: Beginner’s Guide to Pulumi CI/CD Pipelines](https://build5nines.com/beginners-guide-to-pulumi-ci-cd-pipelines/)
+- [pulumi.com: Announcing Pulumi 3.0](https://www.pulumi.com/blog/pulumi-3-0)
+- [devops.com: Pulumi Moves to Automate Cloud Infrastructure Provisioning](https://devops.com/pulumi-moves-to-automate-cloud-infrastructure-provisioning/)

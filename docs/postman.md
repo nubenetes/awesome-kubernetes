@@ -16,7 +16,6 @@
 - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 1](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-1)
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 2](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-2)
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 3](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-3)
-
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman
 - [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/)

@@ -59,6 +59,7 @@
 - [Application Migration Toolkit](#application-migration-toolkit)
 - [Developer Sandbox](#developer-sandbox)
 - [OpenShift Topology View](#openshift-topology-view)
+- [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
 - [Slides](#slides)
 
 ## OpenShift Container Platform 4 (OCP 4)
@@ -560,6 +561,7 @@ oc login
   
 ## Red Hat Advanced Cluster Management for Kubernetes
 - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
+- [containerjournal.com: Red Hat Simplifies Kubernetes Cluster Management](https://containerjournal.com/features/red-hat-simplifies-kubernetes-cluster-management/)
 
 ## OpenShift Kubernetes Engine (OKE)
 * [Similarities and differences between OpenShift Kubernetes Engine and OpenShift Container Platform](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
@@ -668,6 +670,10 @@ oc login
 - [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift ](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
 ## OpenShift Topology View
 - [OpenShift topology view: A milestone towards a better developer experience](https://www.redhat.com/en/blog/openshift-topology-view-milestone-towards-better-developer-experience)
+
+## OpenBuilt Platform for the Construction Industry
+- [OpenBuilt](https://openbuilt.io/) 
+- [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt/)
 
 ## Slides
 

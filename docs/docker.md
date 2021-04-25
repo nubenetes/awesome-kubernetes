@@ -66,6 +66,7 @@
 * [developers.redhat.com: Making environment variables accessible in front-end containers](https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers/)
 * [towardsdatascience.com: Have you heard about our lord and savior Docker?](https://towardsdatascience.com/docker-101-ee3d2b8ace11) Introduction to working with Docker and creating your own development environment
 * [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
+* [datamechanics.co: Optimized Apache Spark Docker Images](https://www.datamechanics.co/blog-post/optimized-spark-docker-images-now-available)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
@@ -128,6 +129,7 @@
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
+    * [book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
 
 ## Blogs
 - [Digital Ocean: Docker Tutorials](https://www.digitalocean.com/community/tags/docker)

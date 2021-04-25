@@ -111,6 +111,9 @@
 - [lambdatest.com: Python Tutorial 🌟](https://www.lambdatest.com/learning-hub/python-tutorial)
 - [analyticsvidhya.com: Top Online Platforms to Learn Python](https://www.analyticsvidhya.com/blog/2021/04/top-online-platforms-to-learn-python/)
 - [towardsdatascience.com: Master Label Processing In Python](https://towardsdatascience.com/essential-python-string-processing-techniques-aa5be43a4f1f) The full tutorial on working with string-type data in Python.
+- [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03) A deep dive into some of the parameters of the read_csv function in pandas
+- [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python/)
+- [towardsdatascience.com: Concurrency and Parallelism in Python](https://towardsdatascience.com/concurrency-and-parallelism-in-python-bbd7af8c6625)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>

@@ -62,6 +62,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Docker](docker.md)
 ## Kubernetes
 - [Kubernetes 🌟](kubernetes.md)
+    - [Kubernetes Plugins, Tools, Extensions and Projects 🌟](kubernetes-tools.md)
 - [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
@@ -127,7 +128,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 ## Infrastructure Management Tools
 - [Pulumi](pulumi.md)
-- [Terraform & Packer](terraform.md)
+- [Terraform & Packer 🌟](terraform.md)
+- [Crossplane](https://crossplane.io/)
 - [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)

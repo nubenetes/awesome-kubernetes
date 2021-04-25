@@ -50,6 +50,7 @@
 - [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh)
 - [paepper.com: How to properly manage ssh keys for server access](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/)
 - [goteleport.com: SSH Certificates Security. SSH Access Hardening 🌟](https://goteleport.com/blog/ssh-certificates/)
+- [dev.to: How to Manage Multiple SSH Key Pairs](https://dev.to/josephmidura/how-to-manage-multiple-ssh-key-pairs-1ik)
 
 ## OpenSSL
 - [redhat.com: 6 OpenSSL command options that every sysadmin should know](https://www.redhat.com/sysadmin/6-openssl-commands) Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.
@@ -126,6 +127,7 @@
 - [cyberciti.biz: How To Find Largest Top 10 Files and Directories On Linux / UNIX / BSD](https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/)
 - [cyberciti.biz: How to restart systemd without rebooting Linux when critical libraries installed](https://www.cyberciti.biz/faq/how-to-restart-systemd-without-rebooting-linux-when-critical-libraries-installed/)
 - [cyberciti.biz: How to install ncdu on Linux / Unix to see disk usage](https://www.cyberciti.biz/open-source/install-ncdu-on-linux-unix-ncurses-disk-usage/)
+- [cyberciti.biz: 21 Examples To Make Sure Unix / Linux Configuration Files Are Free From Syntax Errors](https://www.cyberciti.biz/tips/check-unix-linux-configuration-file-for-syntax-errors.html)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
@@ -134,8 +136,10 @@
 - [datafix.com.au: BASHing data - Data ops on the Linux command line 🌟](https://datafix.com.au/BASHing/)
 - [medium: How to trigger an action at the end of the Shell/Bash script](https://medium.com/bash-tips-and-tricks/how-to-trigger-an-action-at-the-end-of-the-shell-bash-script-52b0ba9c157e) Using Bash/Shell trap, a built-in command to define any action to be executed before exiting the Bash or Shell script. You can define multiple actions and per signal.
 - [redhat.com: Bash scripting: How to read data from text files](https://www.redhat.com/sysadmin/data-text-files) Here's how to extract data from a text file such as reading in a list of servers to test connectivity to them.
-- [Over 100 sed one-liners](http://www.pement.org/sed/sed1line.txt)
+- [pement.org: Over 100 sed one-liners](http://www.pement.org/sed/sed1line.txt)
 - [github: Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md)
+- [rexegg.com: Regex Syntax Tricks](https://rexegg.com/regex-tricks.html)
+- [pement.org: Handy one-line scripts for AWK](http://www.pement.org/awk/awk1line.txt)
   
 ## Zsh
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...

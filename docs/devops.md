@@ -4,10 +4,12 @@
 - [Configuration Drift](#configuration-drift)
 - [DevOps Docs](#devops-docs)
 - [DevOps Tools](#devops-tools)
+- [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools-1)
+	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
 	- [Puppet](#puppet)
 	- [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
@@ -109,7 +111,6 @@
 * [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
 * [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://containerjournal.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes/)
 * [content.techgig.com: 5 Best DevOps practices for beginners](https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms)
-* [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
 * [devops.com: 5 Steps to Successful DevOps Culture](https://devops.com/five-steps-to-successful-devops-culture)
 * [cst-bg.net: 13 clues you are doing DevOps right 🌟](https://www.cst-bg.net/post/13-clues-to-good-devops)
 * [medium.com: DevOps, Observability, and the need to tear down organizational boundaries 🌟](https://medium.com/lightstephq/devops-observability-and-the-need-to-tear-down-organizational-boundaries-f5d25755ff3a)
@@ -124,6 +125,9 @@
 * [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/3613155/5-devops-practices-to-improve-application-reliability.html)
 * [devops.com: Languages and DevOps: Recommendations](https://devops.com/languages-and-devops-recommendations/)
 * [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs/)
+* [youtube: The best DevOps tools, frameworks, and platforms in 2021 🌟](https://www.youtube.com/watch?v=js-rq7SvPpE&ab_channel=DevOpsToolkit)
+* [devops.com: DevOps Trends to Watch in 2021 🌟](https://devops.com/devops-trends-to-watch-in-2021/)
+* [itproportal.com: How to implement DevOps successfully in 2021 🌟](https://www.itproportal.com/features/how-to-implement-devops-successfully-in-2021/) The question isn’t whether or not companies should adopt DevOps, but how to successfully.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -136,6 +140,10 @@
 - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
+
+## IaC Infrastructure as Code
+- [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
+- [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial/)
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
@@ -172,6 +180,31 @@
 - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
 - [reviewnprep.com: DevOps Tool Primer: Docker, Kubernetes, Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
+
+### Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
+- [Keptn](https://www.keptn.sh) provides **automated SLI/SLO-based quality gates** Introduction to Data Driven DevOps Automation. Keptn is a CNCF sandbox project and aims to automate delivery and operational processes using a data-driven approach. Keptn’s architecture solves a key problem with traditional automation tools where process and tool integrations are often hard coded or hard to maintain. Keptn uses an event-driven orchestrator with declarative process and tooling definitions that eliminate the need for any custom tool integration and make changing processes or tools a matter of changing a config file entry! At the core Keptn integrates with your observability platforms to automate SRE best practices such as SLO validation as part of your DevOps delivery and operations automation. Start automating your DevOps processes with Keptn to cover SLO-based Quality Gates, Performance & Chaos Test Automation, Event Driven Delivery as well as SRE-driven Auto-Remediation.
+- [tutorials.keptn.sh](https://tutorials.keptn.sh/)
+- [github.com/keptn/keptn](https://github.com/keptn/keptn)
+- [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) **integrates Jenkins and Keptn** with just a couple of function calls.
+- [Jenkins Online Meetup](https://www.meetup.com/Jenkins-online-meetup/events/270861119/) Andreas Grabner from Dynatrace will talk about **automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins.** 
+    - In many organizations up to 80% of pipeline execution time is spent in manual build validation steps. How can we reduce that? One option is applying Google's SRE (Site Reliability Engineering) practices by **automating SLI (Service Level Indicators) & SLO (Service Level Objectives) based build validation**. This method has proven to detect problematic issues in production and also allows us to automatically approve or reject builds being pushed through our pipelines.
+    - In this session you learn the basics of picking good **SLIs & SLOs** and how to extract them from your monitoring tools. After this session you will be able to start implementing this integration yourself with Jenkins. To give you a jump start you will be introduced to the open source project [Keptn](https://www.keptn.sh) which provides **automated SLI/SLO-based quality gates**. Then we'll talk about [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) which **integrates Jenkins and Keptn** with just a couple of function calls.
+- [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg&t=5s)
+- [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/)
+- [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) - [Tutorial on keptnProject with argoproj for canary deployments using Dynatrace for SLO-based rollout control](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md#use-case-5-canary-rollouts-with-argo) 
+- [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)
+
+<center>
+[![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+
+[![keptn](images/keptn-jenkins-sli-slo-2.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+
+[![keptn](images/keptn-jenkins-sli-slo-3.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+
+<iframe src="https://www.youtube.com/embed/GhEZLvc8B70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
 
 ### Puppet
 - [puppet.com: Reporting 🌟](https://puppet.com/docs/puppet/7.5/reporting_about.html) As more projects adopt the Kubernetes Resource Model for managing things beyond containers, we really need a reporting framework to help people understand configuration drift. 
@@ -252,4 +285,6 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I were a system administrator looking to learn a new programming language it would be Go.<br><br>So many of our tools including Kubernetes, Prometheus, and Terraform are written, and extended, in Go that it&#39;s almost a requirement next to learning Bash. <a href="https://t.co/OfZmGo4uP5">https://t.co/OfZmGo4uP5</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1336097427586129920?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<iframe src="https://www.youtube.com/embed/js-rq7SvPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
