@@ -69,6 +69,7 @@
 * [youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures](https://www.youtube.com/watch?v=pJFZ5h9fT5o&ab_channel=InfraXpertzz)
 * [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/sysadmin/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
 * [youtube playlist: Ansible Tutorial 🌟](https://www.youtube.com/playlist?app=desktop&list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)
+* [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)
 
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation

@@ -132,6 +132,8 @@
 * [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)
 * [OpenShift End-to-End: **Day 1** - Core Services](https://www.openshift.com/blog/openshift-end-to-end-core-services)
 * [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
+    * [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 1](https://www.openshift.com/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-1)
+    * [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 2](https://www.openshift.com/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-2)
 
 <center>
 [![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.openshift.com/blog/openshift-end-to-end-plan-and-deploy)

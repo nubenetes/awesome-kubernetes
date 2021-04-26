@@ -128,6 +128,7 @@
 - [cyberciti.biz: How to restart systemd without rebooting Linux when critical libraries installed](https://www.cyberciti.biz/faq/how-to-restart-systemd-without-rebooting-linux-when-critical-libraries-installed/)
 - [cyberciti.biz: How to install ncdu on Linux / Unix to see disk usage](https://www.cyberciti.biz/open-source/install-ncdu-on-linux-unix-ncurses-disk-usage/)
 - [cyberciti.biz: 21 Examples To Make Sure Unix / Linux Configuration Files Are Free From Syntax Errors](https://www.cyberciti.biz/tips/check-unix-linux-configuration-file-for-syntax-errors.html)
+- [opensource.com: Don't love diff? Use Meld instead](https://opensource.com/article/20/3/meld) Meld is a visual diff tool that makes it easier to compare and merge changes in files, directories, Git repos, and more.
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)

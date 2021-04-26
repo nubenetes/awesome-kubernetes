@@ -67,6 +67,8 @@
 * [towardsdatascience.com: Have you heard about our lord and savior Docker?](https://towardsdatascience.com/docker-101-ee3d2b8ace11) Introduction to working with Docker and creating your own development environment
 * [medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image](https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a)
 * [datamechanics.co: Optimized Apache Spark Docker Images](https://www.datamechanics.co/blog-post/optimized-spark-docker-images-now-available)
+* [theskillpedia.com: Managing docker images - openshift tutorial](https://www.theskillpedia.com/managing-docker-images-openshift-tutorial/)
+* [iximiuz.com: Container Networking Is Simple!](https://iximiuz.com/en/posts/container-networking-is-simple/)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
