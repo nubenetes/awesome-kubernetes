@@ -532,8 +532,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [freecodecamp.org: How to Deploy a React App to Production Using Docker and NGINX with API Proxies](https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production/)
 
 ## Azure DevOps Demos
-- [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
-- [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
+- [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs 🌟](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
 - [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
 - [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
 - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft/)
