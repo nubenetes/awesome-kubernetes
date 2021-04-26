@@ -116,6 +116,7 @@ nav:
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
     - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
   - Infrastructure Management Tools:
+    - IaC Infrastructure as Code: iac.md
     - Pulumi: pulumi.md
     - Terraform & Packer: terraform.md
   - Databases on Kubernetes: 

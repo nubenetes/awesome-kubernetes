@@ -127,6 +127,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
 
 ## Infrastructure Management Tools
+- [IaC Infrastructure as Code](iac.md)
 - [Pulumi](pulumi.md)
 - [Terraform & Packer 🌟](terraform.md)
 - [Crossplane](https://crossplane.io/)

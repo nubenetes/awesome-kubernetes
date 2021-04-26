@@ -7,6 +7,7 @@
 	- [Cloud Native](#cloud-native)
 	- [CI/CD and Pipelines](#cicd-and-pipelines)
 	- [DevOps](#devops)
+	- [GitOps](#gitops)
 	- [SRE](#sre)
 	- [OpenShift](#openshift)
 	- [Microservices](#microservices)
@@ -61,6 +62,9 @@
 
 ### DevOps
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
+
+### GitOps
+- [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
 
 ### SRE
 - [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)

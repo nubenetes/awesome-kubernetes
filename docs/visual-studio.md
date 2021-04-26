@@ -109,7 +109,7 @@ A simple extension to make indentation more readable
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
 * [blog.logrocket.com: Top 10 VS Code extensions for 2021](https://blog.logrocket.com/top-10-vs-code-extensions-2021/)
-* [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://www.thunderclient.io) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative)
+* [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://www.thunderclient.io) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative) - [youtube: I Don't Need Postman Anymore!! I Use VS Code Instead...](https://www.youtube.com/watch?v=AbCTlemwZ1k&ab_channel=JamesQQuick)
 
 #### Themes
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code

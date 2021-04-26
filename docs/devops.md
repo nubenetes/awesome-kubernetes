@@ -4,8 +4,8 @@
 - [Configuration Drift](#configuration-drift)
 - [DevOps Docs](#devops-docs)
 - [DevOps Tools](#devops-tools)
-- [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+- [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools-1)
@@ -141,12 +141,11 @@
 - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
 
-## IaC Infrastructure as Code
-- [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
-- [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial/)
-
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
+
+## IaC Infrastructure as Code
+- [IaC Infrastructure as Code](iac.md)
 
 ## Blogs
 - [devops.com](https://devops.com/)
