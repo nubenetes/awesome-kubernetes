@@ -115,3 +115,4 @@
 
 ## NGINX Service mesh
 - [nginx.com: Introducing NGINX Service Mesh](https://www.nginx.com/blog/introducing-nginx-service-mesh/)
+- [nginx.com: The mTLS Architecture in NGINX Service Mesh](https://www.nginx.com/blog/mtls-architecture-nginx-service-mesh/)

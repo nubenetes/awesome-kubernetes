@@ -152,6 +152,7 @@
 * [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
 * [terraform-infraestructura.readthedocs.io: comandos](https://terraform-infraestructura.readthedocs.io/es/latest/comandos/)
 * [acloudguru.com: The Ultimate Terraform Cheatsheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
+* [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
 
 ## Linux Command Cheat Sheets
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)

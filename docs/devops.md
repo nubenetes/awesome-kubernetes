@@ -192,6 +192,8 @@
 - [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems/)
 - [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) - [Tutorial on keptnProject with argoproj for canary deployments using Dynatrace for SLO-based rollout control](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md#use-case-5-canary-rollouts-with-argo) 
 - [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)
+- [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh/)
+	- [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
 
 <center>
 [![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)

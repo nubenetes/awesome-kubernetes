@@ -1,5 +1,7 @@
 # Security and DevSecOps. Container Security
 - [Introduction](#introduction)
+- [Quality Gates](#quality-gates)
+- [16 Gates](#16-gates)
 - [Kubernetes Threat Modelling](#kubernetes-threat-modelling)
 - [Kubernetes Config Security Threats](#kubernetes-config-security-threats)
 - [Security Linting on Kubernetes](#security-linting-on-kubernetes)
@@ -64,6 +66,28 @@
 - [amazon.com: Building end-to-end AWS DevSecOps CI/CD pipeline with open source SCA, SAST and DAST tools](https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/)
 - [infoq.com: 9 Trends That Are Influencing the Adoption of Devops and Devsecops in 2021](https://www.infoq.com/articles/devops-secure-trends/)
 - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)
+
+## Quality Gates
+- [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
+## 16 Gates 
+- [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd) Delivering High Quality Working Software Faster with Agile DevOps. At Capital One, we design pipelines using the concept of the “16 Gates”. These are our guiding design principles and they are:
+	- Source code version control
+	- Optimum branching strategy
+	- Static analysis
+	- >80% code coverage
+	- Vulnerability scan
+	- Open source scan
+	- Artifact version control
+	- Auto provisioning
+	- Immutable servers
+	- Integration testing
+	- Performance testing
+	- Build deploy testing automated for every commit
+	- Automated rollback
+	- Automated change order
+	- Zero downtime release
+	- Feature toggle
+- [github.com/hygieia/Hygieia 🌟](https://github.com/hygieia/Hygieia) CapitalOne DevOps Dashboard
 
 ## Kubernetes Threat Modelling
 - [marcolancini.it: The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)

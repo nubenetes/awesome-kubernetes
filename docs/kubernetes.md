@@ -467,6 +467,7 @@
 * [Kubernetes setup with CRI-O Runtime](https://github.com/msfidelis/kubernetes-with-cri-o) Example to build Kubernetes Clusters using CRI-O runtime instead of Docker
 * [kubernetes.io: Graceful Node Shutdown Goes Beta 🌟](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta/)
 * [blog.min.io: Kubernetes, Consistency and Commoditization - The Way of the Cloud](https://blog.min.io/the_way_of_the_cloud/)
+* [hjrocha.medium.com: Add a Custom Host to Kubernetes](https://hjrocha.medium.com/add-a-custom-host-to-kubernetes-a06472cedccb)
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)

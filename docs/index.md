@@ -45,6 +45,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [MLOps](mlops.md)
 - [Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
 - [Chaos Engineering](chaos-engineering.md)
+## Security and DevSecOps. Container Security
+- [Security and DevSecOps. Container Security](devsecops.md)
+- [Security Policy as Code](securityascode.md)
 ## NoOps
 - [NoOps](noops.md)
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
@@ -140,9 +143,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
-## Security and DevSecOps. Container Security
-- [Security and DevSecOps. Container Security](devsecops.md)
-- [Security Policy as Code](securityascode.md)
 ## Cloud Native Storage
 - [Cloud Native Storage](storage.md)
 ## APIs with SOAP, REST and gRPC
@@ -178,7 +178,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
-
 ## Big Data
 - [Big Data](bigdata.md)
 ## More References

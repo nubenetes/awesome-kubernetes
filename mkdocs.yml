@@ -61,6 +61,9 @@ nav:
     - GitOps: gitops.md
     - MLOps: mlops.md
     - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
+  - Security and DevSecOps:
+    - DevSecOps. Container Security: devsecops.md
+    - Security Policy as Code: securityascode.md
   - NoOps: 
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
@@ -126,9 +129,6 @@ nav:
   - Service Mesh: 
     - Service Mesh: servicemesh.md
     - Istio: istio.md
-  - Security and DevSecOps:
-    - DevSecOps. Container Security: devsecops.md
-    - Security Policy as Code: securityascode.md
   - Cloud Native Storage: storage.md
   - APIs:
     - APIs with SOAP, REST and gRPC: api.md

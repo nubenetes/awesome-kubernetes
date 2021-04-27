@@ -1,5 +1,6 @@
 # OCP 4
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
+    - [OpenShift Platform Plus](#openshift-platform-plus)
     - [Best Practices](#best-practices)
     - [Setting up OCP4 on AWS](#setting-up-ocp4-on-aws)
     - [ROSA Red Hat OpenShift Service on AWS](#rosa-red-hat-openshift-service-on-aws)
@@ -104,6 +105,10 @@
 * [openshift.com: How to Offer Service Running on OpenShift on AWS to Other AWS VPCs, Privately 🌟](https://www.openshift.com/blog/how-to-offer-service-running-on-openshift-on-aws-to-other-aws-vpcs-privately)
 * [developers.redhat.com: A guide to Red Hat OpenShift 4.5 installer-provisioned infrastructure on vSphere 🌟](https://developers.redhat.com/blog/2021/03/09/a-guide-to-red-hat-openshift-4-5-installer-provisioned-infrastructure-on-vsphere/)
 * [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.openshift.com/blog/openshift-security-best-practices-for-kubernetes-cluster-design)
+
+### OpenShift Platform Plus
+- [Red Hat OpenShift Platform Plus 🌟](https://www.openshift.com/products/platform-plus) Build, deploy, run, manage, and secure intelligent applications at scale across the hybrid cloud.
+- [thenewstack.io: Red Hat Offers a ‘Complete Kubernetes Stack’ with OpenShift Platform Plus 🌟](https://thenewstack.io/red-hat-offers-a-complete-kubernetes-stack-with-openshift-platform-plus/)
 
 ### Best Practices
 * [developers.redhat.com - Best practices: Using health checks in the OpenShift 4.5 web console 🌟](https://developers.redhat.com/blog/2020/07/20/best-practices-using-health-checks-in-the-openshift-4-5-web-console/) 3 types of health checks offered in OpenShift 4.5 to improve application reliability and uptime

@@ -100,6 +100,7 @@
 * [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) Compare the pros and cons of four options to switch branches while working in Git.
 * [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 * [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
+* [freecodecamp.org: Git Push to Remote Branch – How to Push a Local Branch to Origin](https://www.freecodecamp.org/news/git-push-to-remote-branch-how-to-push-a-local-branch-to-origin/)
 
 ## Shields
 - [shields.io 🌟](https://shields.io/)
