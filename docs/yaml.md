@@ -5,6 +5,7 @@
     - [Kubernetes examples](#kubernetes-examples)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
+    - [JSON in Ansible](#json-in-ansible)
     - [JSON formatting with jq](#json-formatting-with-jq)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
@@ -50,6 +51,9 @@
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/)
+
+### JSON in Ansible
+- [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) Structured data is friendly for automation, and you can take full advantage of it with Ansible.
 
 ### JSON formatting with jq
 - [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/)

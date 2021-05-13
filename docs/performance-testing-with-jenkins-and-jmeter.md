@@ -76,3 +76,5 @@
 ## Alternatives
 * [webpagetest.org](https://webpagetest.org/)
 * [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org/)
+* [Distributed Load Testing on AWS 🌟](https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws/)
+	* [amazon.com: Introducing Distributed Load Testing v1.3](https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3/)

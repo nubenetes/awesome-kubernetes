@@ -34,6 +34,7 @@
 - [Machine Learning](#machine-learning)
 - [TypeScript](#typescript)
 - [Jupyter](#jupyter)
+- [SQL](#sql)
 - [Postgres](#postgres)
 - [MariaDB and mySQL](#mariadb-and-mysql)
 - [MongoDB](#mongodb)
@@ -100,6 +101,8 @@
 	* [kunchalavikram1427: kubernetes Commands](https://github.com/kunchalavikram1427/Kubernetes_public/blob/master/Kubernetes_Commands.txt)
 * [betterprogramming.pub: Awesome Kubernetes Command-Line Hacks](https://betterprogramming.pub/awesome-kubernetes-command-line-hacks-8bd3604e394f) Tips for you to kubectl like a pro
 * [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet/)
+* [ithands-on.com: Kubernetes 101 : kubectl - communication with pods and containers / running commands inside pods and containers](https://www.ithands-on.com/2021/05/kubernetes-101-kubectl-communication.html)
+* [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) Start exploring kubectl, containers, pods, and more, then download our free cheat sheet so you always have the key commands at your fingertips.
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -162,6 +165,8 @@
 * [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
 * [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)
 * [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)
+* [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)
+* [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -260,6 +265,9 @@
 
 ## Jupyter
 - [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet)
+
+## SQL
+- [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet/)
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)

@@ -30,6 +30,7 @@
 - [Skaffold 🌟](https://skaffold.dev/)
   - [cloud.google.com: Kubernetes development, simplified—Skaffold is now GA](https://cloud.google.com/blog/products/application-development/kubernetes-development-simplified-skaffold-is-now-ga)
   - [Cloud Code](https://cloud.google.com/code) Skaffold is the underlying engine that drives Cloud Code.
+  - [ashishtechmill.com: CI/CD Workflow for Spring Boot Application on Kubernetes via Skaffold](https://ashishtechmill.com/cicd-workflow-for-spring-boot-application-on-kubernetes-via-skaffold) This article will cover how to create CI/CD workflow for a SpringBoot Application deployed to Kubernetes using Skaffold.
 - [Draft](https://draft.sh/)
 - [Garden](https://garden.io/)
 - [codefresh.io: The ultimate guide for local development on Kubernetes: Draft vs Skaffold vs Garden.io](https://codefresh.io/howtos/local-k8s-draft-skaffold-garden/)

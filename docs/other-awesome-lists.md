@@ -41,6 +41,9 @@
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
 - [Awesome WSL](https://awesomeopensource.com/project/sirredbeard/Awesome-WSL)
+- [Awesome Container](https://github.com/tcnksm/awesome-container) A curated list of awesome container technologies and services
+- [Awesome Productivity](https://github.com/jyguyomarch/awesome-productivity) A curated list of delightful productivity resources.
+- [Awesome Linux](https://github.com/inputsh/awesome-linux) A list of awesome projects and resources that make Linux even more awesome
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)

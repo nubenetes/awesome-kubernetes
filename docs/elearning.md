@@ -28,3 +28,7 @@
 * [techstudyslack.com](https://techstudyslack.com/) TechStudySlack is a Slack for people studying Tech.
 * [kube.academy](https://kube.academy/) KubeAcademy from VMware. Learn Kubernetes From Experts For Free
 * [codewars.com](https://www.codewars.com) Improve your skills by training with others on real code challenges
+* [riptutorial.com 🌟](https://riptutorial.com/) Learn programming through books and examples - [eBooks by Tags (PDF) 🌟](https://riptutorial.com/ebook)
+
+## Opinions
+* [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)

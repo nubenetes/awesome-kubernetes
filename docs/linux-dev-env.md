@@ -27,3 +27,6 @@ multiple versions of software on the same system, without affecting system-wide 
 
 ## ASDF-VM
 - [asdf version manager (asdf-vm)](https://asdf-vm.com/) is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like gvm, nvm, rbenv & pyenv (and more) all in one! Simply install your language’s plugin! 
+
+## Alternatives to WSL on Windows
+- [cmder 🌟](https://cmder.net/)

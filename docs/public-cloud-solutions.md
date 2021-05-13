@@ -1,15 +1,16 @@
 # Public Cloud Solutions
 - [Public Cloud References](#public-cloud-references)
-- [AWS Vs Azure Vs Google Cloud](#aws-vs-azure-vs-google-cloud)
+- [Public Cloud Services Comparison](#public-cloud-services-comparison)
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
 ## Public Cloud References
 - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com/) A unique website gathering all catalogs
     - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)
-## AWS Vs Azure Vs Google Cloud
+## Public Cloud Services Comparison
 * [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
 * [Dzone.com: GCP vs. AWS](https://dzone.com/articles/gcp-vs-aws-1) This article takes a look at the differences in using GCP vs. AWS in the contexts of agility, cost, deep tech services, tools, and market share.
-
+* [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in/)
+* [zarantech.com: Difference between AWS and Azure](https://www.zarantech.com/blog/difference-between-aws-and-azure/)
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
 * [OpenShift in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-get-started)

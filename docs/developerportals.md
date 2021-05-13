@@ -18,6 +18,7 @@
 	- [Backstage Developer Portal](#backstage-developer-portal)
 	- [APISIX](#apisix)
 	- [NGINX as an API Gateway](#nginx-as-an-api-gateway)
+	- [Lura API Gateway (based on KrakenD)](#lura-api-gateway-based-on-krakend)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
 	- [Auto API](#auto-api)
@@ -66,6 +67,7 @@
 - [dzone: 3Scale Developer Portal Docs Per Application](https://dzone.com/articles/3scale-developer-portal-docs-per-application) Using this open source platform, we to create a more effective version of your API documentation, allowing devs to only see that docs that are relevant to their work.
 - [dzone: Why Red Hat and 3scale Matter: A Developer's View](https://dzone.com/articles/why-red-hat-and-3scale-matter)
 - [developers.redhat.com: New custom metrics and air gapped (restricted networks) installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9/) The 3scale Operator now fully supports air gapped installation for 3scale API Management on OpenShift. Air gapped or restricted networks are isolated from the Internet and physically isolated from any other network. Secure environments such as government agencies and financial institutions typically require an air gapped installation for Red Hat Integration on OpenShift. 
+- [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens/)
 
 ### Google Apigee API Manager
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
@@ -109,6 +111,11 @@
 
 ### NGINX as an API Gateway
 - [nginx.com: Deploying NGINX as an API Gateway, Part 1 🌟](https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/)
+
+### Lura API Gateway (based on KrakenD)
+- [Lura 🌟](https://luraproject.org/) An extendable, simple and stateless high-performance API Gateway framework designed for both cloud-native and on-prem setups.
+- [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io/) KrakenD is a stateless, distributed, high-performance API Gateway that helps you effortlessly adopt microservices.
+- [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation/) KrakenD framework has been donated to the Linux Foundation and is now the “Lura Project."
 
 ## Mobile Developer Portals
 - [developer.mobileconnect.io](https://developer.mobileconnect.io/)
@@ -166,4 +173,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is clean code?<br><br>Clean code is the code if:<br>- it is easily readable<br>- it is easily extendable and maintainable<br>- it is as simple as possible<br>- it is cheap and risk-free to change<br>- it reveals our intent<br>- it has corresponding clean tests <br><br>What else would you add?</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1353311679845703685?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">5 things I&#39;ve learned in 10 years as a developer:<br><br>1. No one knows exactly what they are doing<br>2. Anything can be learned with enough dedication<br>3. Perception &gt; reality<br>4. Taking on the toughest problems pays dividends<br>5. People like to make things sound complicated for their ego</p>&mdash; Nader Dabit (@dabit3) <a href="https://twitter.com/dabit3/status/1385379589615198209?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deleting code matters! You can provide tons of value by deleting code!<br><br>Deleting code such as:<br>- removing duplication<br>- removing redundant comments<br>- removing unnecessary complexity<br>- removing unused code<br><br>Always keep in mind: The less the code, the less to maintain.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1389942964030480385?ref_src=twsrc%5Etfw">May 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

@@ -12,7 +12,7 @@
 		- [Git Flow Extensions](#git-flow-extensions)
 		- [Jenkins Extensions](#jenkins-extensions)
 - [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
-- [Test Debugging](#test-debugging)
+- [Debugging in VScode](#debugging-in-vscode)
 - [Python in Visual Studio Code](#python-in-visual-studio-code)
 - [Go in Visual Studio Code](#go-in-visual-studio-code)
 - [Bridge to Kubernetes](#bridge-to-kubernetes)
@@ -41,6 +41,8 @@
 * [jung-christian.de: Ansible support in Visual Studio Code 🌟](https://www.jung-christian.de/post/2021/02/ansible-vscode/)
 * [youtube: Source Control Tip 9: Dealing with Merge Conflicts in VS Code](https://www.youtube.com/watch?v=ybCxPHzRJfA&ab_channel=VisualStudioCode)
 * [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
+* [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)
+* [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) Remember all those times you’ve wanted to manage a pull request but didn’t want to leave VS Code? Now they’re in the past. Create and manage them with the GitHub Pull Requests Extension.
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -160,8 +162,9 @@ A simple extension to make indentation more readable
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 ```
 
-## Test Debugging
+## Debugging in VScode
 - [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
+- [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)

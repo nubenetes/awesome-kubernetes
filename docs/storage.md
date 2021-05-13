@@ -42,6 +42,7 @@
 ### Rook
 - [Rook](https://rook.io/)
 - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)
+- [documentation.suse.com: Rook Best Practices for running Ceph on Kubernetes (PDF)](https://documentation.suse.com/sbp/all/pdf/SBP-rook-ceph-kubernetes_color_en.pdf)
 
 ### Robin
 - [Robin](https://robin.io/)
