@@ -62,7 +62,7 @@
 - [AWS Developer Blog](#aws-developer-blog)
 - [AWS Lambda Serverless](#aws-lambda-serverless)
 - [AWS API Gateway](#aws-api-gateway)
-- [AWS Cloud Formation](#aws-cloud-formation)
+- [AWS Cloud Formation. Free Templates](#aws-cloud-formation-free-templates)
 - [Infrastructure Code Template Generators](#infrastructure-code-template-generators)
 	- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
 - [AWS for Windows](#aws-for-windows)
@@ -511,11 +511,12 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
 
-## AWS Cloud Formation
+## AWS Cloud Formation. Free Templates
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
 - [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance 🌟](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
 	- [AWS CloudFormation Guard 🌟](https://github.com/aws-cloudformation/cloudformation-guard)
+- [cloudonaut.io: Getting Started with Free Templates for AWS CloudFormation 🌟](https://cloudonaut.io/getting-started-with-aws-cf-templates/) - [Free Templates for AWS CloudFormation 🌟](https://github.com/widdix/aws-cf-templates/) - [templates.cloudonaut.io 🌟](https://templates.cloudonaut.io/)
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)

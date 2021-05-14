@@ -37,6 +37,7 @@ based on your test scripts.
 - [lambdatest.com: 49 Most Common Selenium Exceptions for Automation Testing](https://www.lambdatest.com/blog/49-common-selenium-exceptions-automation-testing/)
 - [lambdatest.com: How to execute JUnit 4 tests with JUnit 5 [Tutorial]](https://www.lambdatest.com/blog/execute-junit4-tests-with-junit5/)
 - [lambdatest.com: How To Run Selenium Tests In Docker ? 🌟](https://www.lambdatest.com/blog/run-selenium-tests-in-docker/)
+- [lambdatest.com: What Is New In Selenium 4 And What Is Deprecated In It? 🌟](https://www.lambdatest.com/blog/what-is-deprecated-in-selenium4/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
