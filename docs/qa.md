@@ -7,6 +7,7 @@
 * [thenewstack.io: Optimizing App Performance in a Multicloud Stack](https://thenewstack.io/optimizing-app-performance-in-a-multicloud-stack/)
 * [botplayautomation.com: Automation Testing Implementation Guide](https://www.botplayautomation.com/post/what-is-automation-testing-the-need-for-automation-testing-automation-testing-implementation-guide)
 * [botplayautomation.com: Types of Software Testing](https://www.botplayautomation.com/post/types-of-software-testing)
+* [botplayautomation.com: Automation & Manual Testing Best Practices](https://www.botplayautomation.com/post/best-practices-to-follow-in-software-testing-manual-and-automation-testing)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.

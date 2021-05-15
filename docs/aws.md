@@ -338,6 +338,7 @@
 - [Introducing the Aurora Storage Engine](https://aws.amazon.com/blogs/database/introducing-the-aurora-storage-engine/)
 - [dzone: AWS Relational Database Service (RDS): PostgreSQL in Cloud 🌟](https://dzone.com/articles/aws-relational-database-service-rds-postgresql-in) Today, we will go into details of Amazon RDS. We also set up a PostgreSQL instance using this service and connect to it using a tool Azure Data Studio.
 - [sysadminxpert.com: How to Enable Slow Query Logs in AWS RDS MySQL](https://sysadminxpert.com/how-to-enable-slow-query-logs-in-aws-rds-mysql/)
+- [New – Create Microsoft SQL Server Instances of Amazon RDS on AWS Outposts](https://aws.amazon.com/blogs/aws/new-create-microsoft-sql-server-instances-of-amazon-rds-on-aws-outposts/)
 
 ### AWS DMS
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
@@ -749,6 +750,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Best Practices
 - [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time 🌟](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time/)
+- [zarantech.com: Top 5 Pillars of AWS Well-Architected Structure](https://www.zarantech.com/blog/top-5-pillars-of-aws-well-architected-structure/)
 
 ## New Features
 - [thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws/)

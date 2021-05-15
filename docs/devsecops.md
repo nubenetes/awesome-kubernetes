@@ -223,6 +223,7 @@
 - [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets) The importance of keeping your secrets safe.
 - [blog.container-solutions.com: The Birth of the External Secrets Community](https://blog.container-solutions.com/the-birth-of-the-external-secrets-community)
 - [itnext.io: Secrets injection at runtime from external Vault into Kubernetes — POC](https://itnext.io/secrets-injection-from-external-vault-into-kubernetes-poc-83a52c8cf5cb)
+- [jx-secret-postrenderer 🌟](https://github.com/jenkins-x-plugins/jx-secret-postrenderer) a helm postrenderer for working with helm and Kubernetes External Secrets. This post renderer lets you use helm charts which contain Secret resources and have those secrets managed by Kubernetes External Secrets without having to modify your charts. Want seamless support for kubernetes external secrets with existing helm charts? but you're not using Jenkins X yet? then why not try this helm post renderer.
 
 ## Serverless Security Best Practices
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)

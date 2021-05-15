@@ -101,6 +101,7 @@
 * [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.co.uk/gb/en/blog/definitions/cloud-management/)
 * [rudderstack.com: Reinventing the On-Prem Deployment Model](https://rudderstack.com/blog/reinventing-the-on-prem-deployment-model)
 * [medium: Honestly, We Shouldn’t Have Used Microservices](https://medium.com/codex/honestly-we-shouldnt-have-used-microservices-443582def48b)
+* [hashicorp.com: Why Microservices? 🌟](https://www.hashicorp.com/resources/why-microservices)
 
 <center>
 [![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)

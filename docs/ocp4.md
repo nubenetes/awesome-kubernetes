@@ -110,6 +110,7 @@
 * [opensourcerers.org: Automated Application Packaging and Distribution with OpenShift – Part 1/2](https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-12/ 🌟) Learn how to automate application deployment and packaging with openshift and tools like source-to-image, templates, kustomize. 
 * [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.openshift.com/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
 * [schabell.org: How to setup the OpenShift Container Platform 4.7 on your local machine](https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html)
+* [developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container)
 
 ### OpenShift Platform Plus
 - [Red Hat OpenShift Platform Plus 🌟](https://www.openshift.com/products/platform-plus) Build, deploy, run, manage, and secure intelligent applications at scale across the hybrid cloud.

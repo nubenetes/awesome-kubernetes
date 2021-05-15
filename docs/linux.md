@@ -139,6 +139,7 @@
 - [cyberciti.biz: ls* Commands Are Even More Useful Than You May Have Thought](https://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples/)
 - [linuxtechlab.com: Search a file in Linux using Find & Locate command](https://linuxtechlab.com/search-a-file-in-linux-using-find-locate-command/)
 - [tecmint.com: How to Install and Configure ‘Collectd’ and ‘Collectd-Web’ to Monitor Server Resources in Linux](https://www.tecmint.com/install-collectd-and-collectd-web-to-monitor-server-resources-in-linux/)
+- [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux/)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)

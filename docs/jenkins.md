@@ -95,6 +95,7 @@
 * [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV)
 * [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs) Jenkins' default logs can be hard to read, but they don't have to be.
 * [medium: Dynamic and reactive parameterization in Jenkins pipelines using HTML, Groovy, and Bash 🌟](https://medium.com/globant/dynamic-and-reactive-parameterization-in-jenkins-pipelines-using-html-groovy-and-bash-27b031fcd69b) - [Jenkins Plugin: Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) The Active Choices plugin is used in parametrized freestyle Jenkins jobs to create scripted, dynamic and interactive job parameters. Active Choices parameters can be dynamically updated and can be rendered as combo-boxes, check-boxes, radio-buttons or rich HTML UI widgets.
+* [automationreinvented.blogspot.com: How to schedule a job in Jenkins pipeline? How to run automation suite everyday with auto trigger scheduler?](https://automationreinvented.blogspot.com/2021/05/how-to-schedule-job-in-jenkins-pipeline.html)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -389,6 +390,7 @@
 * [Warnings Next Generation 🌟](https://plugins.jenkins.io/warnings-ng/) The Jenkins Next Generation Warnings plugin collects compiler warnings or issues reported by static analysis tools and visualizes the results. It has built-in support for more than hundred report formats. [youtube: How to Use the Warnings Next Generation Plugin in Jenkins](https://www.youtube.com/watch?v=tj3xYFA6Q2o&ab_channel=CloudBeesTV)
 * [robot-plugin: Robot Framework Plugin](https://github.com/jenkinsci/robot-plugin) This plugin publishes [Robot Framework](https://robotframework.org/) test reports for Jenkins.
 * [Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) The Active Choices plugin is used in parametrized freestyle Jenkins jobs to create scripted, dynamic and interactive job parameters. Active Choices parameters can be dynamically updated and can be rendered as combo-boxes, check-boxes, radio-buttons or rich HTML UI widgets.
+* [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) This plugin lets you search for some text using regular expressions in a set of files or the console log. Based on the outcome, you can downgrade the build result to UNSTABLE, FAILURE, NOT_BUILT, or ABORTED.
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
