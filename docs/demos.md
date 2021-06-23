@@ -21,6 +21,7 @@
     - [Azure AKS](#azure-aks)
     - [Google Kubernetes Engine GKE](#google-kubernetes-engine-gke)
     - [Environments to learn and practice Kubernetes security](#environments-to-learn-and-practice-kubernetes-security)
+    - [Harbor Container Registry](#harbor-container-registry)
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
@@ -36,7 +37,7 @@
     - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
     - [Red Hat Advanced Cluster Management RHACM](#red-hat-advanced-cluster-management-rhacm)
     - [OKD](#okd)
-    - [Helm 3 on OpenShift](#helm-3-on-openshift)
+    - [Helm demos](#helm-demos)
     - [Writing Kubernetes Operators](#writing-kubernetes-operators)
     - [Customized Reports with Metering Operator (monitoring k8s resources)](#customized-reports-with-metering-operator-monitoring-k8s-resources)
     - [Red Hat AMQ Streams (Kafka)](#red-hat-amq-streams-kafka)
@@ -60,7 +61,7 @@
     - [OpenShift.io Samples](#openshiftio-samples)
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
-- [Google DevOps Demos](#google-devops-demos)
+- [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [Quarkus Demos](#quarkus-demos)
 - [Kafka](#kafka)
@@ -97,6 +98,7 @@
 * [swissarmydevops.com](https://swissarmydevops.com/) 
 * [dev.to: Build a highly available Node.js application using Docker, NGINX and AWS ELB](https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp)
 * [towardsdatascience.com: Developing and Deploying a COMPLETE Project Using FastAPI, Jinja2, SQLAlchemy, Docker, and AWS](https://towardsdatascience.com/developing-and-deploying-a-complete-project-using-fastapi-jinja2-sqlalchemy-docker-and-aws-1b504a1a2be4)
+* [dzone: Docker Image Tutorial](https://dzone.com/articles/docker-image-tutorial) In this tutorial, see how to build and run a Docker image using Python code examples.
 
 ### Container Tools
 - [dzone Avengers of the Container World, Episode 1: Podman Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands) CRI-O and Podman have been widely adapted by most of the modern container platforms. In this blog, we will deep-dive on Podman with a hands-on session.
@@ -117,6 +119,7 @@
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
 - [kubesandclouds.com: Werf: Fully customizable GitOps 🌟](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/) Werf builds and publishes images, deploys applications to Kubernetes clusters, and removes unused images based on policies and rules defined in the Git repository.
 - [mytechramblings.com: A practical example of GitOps using Azure DevOps, Azure Container Registry, Helm, Flux and Kubernetes](https://www.mytechramblings.com/posts/gitops-with-azure-devops-helm-acr-flux-and-k8s/)
+- [youtube.com: Cloud Native GitOps with Anthos and JFrog Artifactory](https://www.youtube.com/watch?v=HSjm6-ACmWQ&ab_channel=JFrog)
 
 ## Kubernetes Demos
 * [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
@@ -143,6 +146,7 @@
 * [Free Kubernetes 🌟🌟](https://github.com/learnk8s/free-kubernetes/) List of free Trials/Credit for Managed Kubernetes Services.
 * [medium: Kubernetes in a nutshell — tutorial for beginners 🌟🌟](https://medium.com/swlh/kubernetes-in-a-nutshell-tutorial-for-beginners-caa442dfd6c0) Deploy a complete application stack just in a few steps!
 * [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://www.shipa.io/development/deploying-applications-on-kubernetes/)
+* [shipa.io: Deploying a real-world application on Kubernetes](https://www.shipa.io/development/a-real-world-application-deployment-on-kubernetes/)
 * [shipa.io: GitOps in Kubernetes, the easy way–with GitHub Actions and Shipa](https://www.shipa.io/development/gitops/)
 * [kruyt.org: Running a mailserver in Kubernetes](https://kruyt.org/running-a-mailserver-in-kubernetes/)
 * [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e)
@@ -155,6 +159,8 @@
 * [digitalocean.com: How To Deploy a Scalable and Secure Django Application with Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes)
 * [developers.redhat.com: Deploying Node.js applications to Kubernetes with Nodeshift and Minikube](https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube/)
 * [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3) In this article you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
+* [dev.to: Implementing a simple K8s admission controller in Go](https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg)
+* [sj14.gitlab.io: Deploy a free Kubernetes cluster in the cloud](https://sj14.gitlab.io/post/2021/01-30-free-k8s-cloud-cluster/)
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
@@ -181,6 +187,7 @@
 ### Istio Service Mesh
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 - [blog.jetstack.io: Istio OIDC Authentication](https://blog.jetstack.io/blog/istio-oidc/) In this article you'll deploy an app and secure it with authenticaiton and authorisation for using Istio
+- [github.com/stefanprodan/gitops-istio: A GitOps recipe for Progressive Delivery with Flux v2, Flagger and Istio 🌟](https://github.com/stefanprodan/gitops-istio)
 
 ### Envoy Service Mesh
 - [loginradius.com: Service Mesh with Envoy](https://www.loginradius.com/blog/async/service-mesh-with-envoy/) This post will cover a working setup of a service mesh architecture using Envoy using a demo application. You will be using Envoy proxy for both control and data plane.
@@ -200,6 +207,7 @@
 ### GitOps Workflow with Flux
 - [managedkube.com: A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
 - [youtube: GitOps Guide to the Galaxy (Ep 12): Flux On OpenShift](https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat)
+- [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm. 
 
 ### Amazon EKS. Deploy example microservices on EKS
 * [eksworkshop.com](https://eksworkshop.com/ )
@@ -222,6 +230,9 @@
 
 ### Environments to learn and practice Kubernetes security
 - [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
+
+### Harbor Container Registry
+- [geko.cloud: Harbor: Instalar un registry privado en Kubernetes](https://geko.cloud/es/harbor-private-docker-registry-in-kubernetes/)
 
 ## Red Hat Demo Central
 * [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)
@@ -264,7 +275,7 @@
 * [dzone: CodeReady Containers - Exploring a home loan mortgage process](https://dzone.com/articles/codeready-containers-exploring-a-home-loan-mortgag) As a cloud-native developer you've installed an OpenShift Container Platform development environment on your local machine, but what's next...
 * [Rcarrata's blog](https://rcarrata.com/)
 * [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift 
-* [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/?sc_cid=7013a0000026GuZAAU)
+* [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/)
 
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
@@ -305,6 +316,8 @@
 - [youtube: Exploring The Cloud-native Kubernetes CI/CD Pipeline Tool Landscape](https://www.youtube.com/watch?v=5XWwjyikWMQ&feature=emb_logo&ab_channel=Konveyor) In this meetup, we explore the new era of Kubernetes continuous integration continuous deployment pipelines based on a set of fancy tools as Tekton Pipelines, ArgoCD or Helm. We walk through the new DevOps and GitOps technologies landscape and a real demonstration of how these tools work together in order to make developers and system administrators lives easier. [repo1](https://github.com/acidonper/jump-app-gitops) , [repo2](https://github.com/acidonper/jump-app-docs) , [slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoMnVrcVR5Tjl0dlBGWkx2UTZzMHA3N1N3QXxBQ3Jtc0tsZkZrcUpfSzhBX1EzdUtOanRqV3o2WDZpdkhPY0NyODhmbERSQUhROFRPa2pZRC13Q3l0ekQ2MjR1LTIyY254VmhwdHVack1XeDJiRWVBMUl6U3RDRHo3cF9XVDVJRTluLWJFVXNYUjF5OFV4ZlN5SQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F14fSLwfEVpDU-3udMGEW9bQATCAOy0F8b6UOgNgDkD3A%2Fedit%3Fusp%3Dsharing)
 - [blog.argoproj.io: Introducing the ApplicationSet Controller for Argo CD](https://blog.argoproj.io/introducing-the-applicationset-controller-for-argo-cd-982e28b62dc5)
 - [vzilla.co.uk: GitOps - Getting started with ArgoCD](https://vzilla.co.uk/vzilla-blog/gitops-getting-started-with-argocd)
+- [openshift.com: SSO Integration for the OpenShift GitOps Operator](https://www.openshift.com/blog/sso-integration-for-the-openshift-gitops-operator) This is a demo-heavy blog. Readers of this blog will get an idea about why SSO is important, how OpenShift handles authN/authZ and a step-by-step guide on using Red Hat Single Sign-On(RHSSO) to log in to an Argo CD application.
+- [openshift.com: How to Use HashiCorp Vault and Argo CD for GitOps on OpenShift](https://www.openshift.com/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
@@ -334,8 +347,9 @@
   * [itnext.io: Guide: Installing an OKD 4.5 Cluster](https://itnext.io/guide-installing-an-okd-4-5-cluster-508a2631cbee)
 * [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.openshift.com/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
 
-### Helm 3 on OpenShift
+### Helm demos
 - [Katacoda Lab: Getting Started with Helm 3 on OpenShift](https://learn.openshift.com/developing-on-openshift/helm/)
+- [wkrzywiec.medium.com: How to deploy application on Kubernetes with Helm](https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8) In this blog post I present step-by-step how to deploy multiple applications on Kubernetes cluster using Helm.
 
 ### Writing Kubernetes Operators
 - [developers.redhat.com: ‘Hello, World’ tutorial with Kubernetes Operators](https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators/)
@@ -366,6 +380,10 @@
 * [youtube: Simple DevOps Project | Publish Android APK to App Center | Beginner Pipeline](https://www.youtube.com/watch?v=KgH0QzMHXLs)
 * [blog.flant.com: Configuring Continuous Integration for Jenkins & Bitbucket using werf](https://blog.flant.com/configuring-continuous-integration-for-jenkins-bitbucket-using-werf/)
 * [lambdatest.com: Comprehensive Guide To Jenkins Declarative Pipeline [With Examples] 🌟](https://www.lambdatest.com/blog/jenkins-declarative-pipeline-examples/)
+* [dzone: A Deep Dive on Continuous Integration and Continuous Delivery: Part 1](https://dzone.com/articles/deep-dive-on-continuous-integration-and-continuous-1) As part of this article, let's do a deep dive on Continuous Integration and Continuous Delivery with the AnyPoint Platform, CloudHub.
+* [medium: DevOps CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 1 🌟](https://medium.com/the-programmer/ci-cd-pipeline-with-jenkins-github-part-1-c057a31b5297) How to set up Jenkins and CI/CD pipelines using GitHub?
+    * [medium: Building CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 2 🌟](https://medium.com/the-programmer/building-ci-cd-pipeline-with-jenkins-kubernetes-github-part-2-cbb6c366aa41) How To Configure Jenkins To Build Your CI CD Pipeline?
+* [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -539,9 +557,12 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
 - [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
 - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft/)
+- [docs.microsoft.com: Deploy Spring microservices to Azure](https://docs.microsoft.com/en-us/learn/modules/azure-spring-cloud-workshop)
+- [davidsr.me: Deploy Azure WAF with Terraform and Azure DevOps](https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops/)
 
-## Google DevOps Demos
+## Google DevOps Demos. Custom Samples and Cloud Code
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)
+- [cloud.google.com: Follow your org’s app dev best practices with Cloud Code custom samples 🌟](https://cloud.google.com/blog/products/application-development/access-an-orgs-custom-code-repo-from-cloud-code-ides) As an engineering leader, it can be difficult to disseminate best practices to developers in your organization. This is critical, however, as these best practices can be used as a starting point to accelerate the time-to-market for your team’s ideas. Today, we are excited to introduce custom samples in Cloud Code, our family of IDE plugins, helping you easily distribute your best practices directly to your developers’ environments. - [youtube: Getting started with custom samples and Cloud Code](https://www.youtube.com/watch?v=pgjEe44XQf8&ab_channel=GoogleCloudTech)
 
 ### GitOps with Anthos Config Management 
 - [Tutorial: Connect Amazon EKS and Azure AKS Clusters with Google Anthos](https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos/)
@@ -578,6 +599,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## GitHub Actions
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)
+- [github.com/major/imagebuilder-containerized](https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml) Image Builder in Github Actions building a CentOS Stream image, uploading it to S3, and importing it into EC2 -- all from within a CentOS Stream container.
+- [docs.microsoft.com: Build and deploy applications to Azure by using GitHub Actions 🌟](https://docs.microsoft.com/en-us/learn/modules/github-actions-cd/)
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)

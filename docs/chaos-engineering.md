@@ -14,9 +14,16 @@
 * [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.openshift.com/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes)
 * [thenewstack.io: Chaos Engineering Progressively Moves to Production](https://thenewstack.io/chaos-engineering-progressively-moves-to-production/)
 * [blog.flant.com: Open Source solutions for chaos engineering in Kubernetes](https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/)
+    - kube-monkey
+    - chaoskube
+    - Chaos Mesh
+    - Litmus Chaos
+    - Chaos Toolkit
+    - KubeInvaders
 * [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
 * [devopscurry.com: How Chaos Engineering plays a vital role in devops success](https://devopscurry.com/how-chaos-engineering-plays-a-vital-role-in-devops-success)
 * [BuggyApp: Simulate performance problems](https://buggyapp.ycrash.io/) BuggyApp can simulate various performance problems like Memory Leak, OutOfMemoryError, CPU spike, thread leak StackOverflowError, deadlock, unresponsiveness and so on. [youtube: BuggyApp Demo](https://www.youtube.com/watch?v=exsv-RUrUFY&t=2s&ab_channel=yCrash)
+* [medium.com: Getting Started with Chaos Engineering](https://1829034.medium.com/getting-started-with-chaos-engineering-13e85a438d37)
 
 ## Chaos Engineering for serverless computing
 * [thenewstack.io: Breaking Serverless on Purpose with Chaos Engineering](https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering/)

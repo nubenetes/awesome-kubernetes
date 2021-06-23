@@ -1,5 +1,6 @@
 # OCP 4
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
+    - [OpenShift sizing and subscription guide](#openshift-sizing-and-subscription-guide)
     - [OpenShift Platform Plus](#openshift-platform-plus)
     - [Best Practices](#best-practices)
     - [Setting up OCP4 on AWS](#setting-up-ocp4-on-aws)
@@ -111,6 +112,11 @@
 * [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.openshift.com/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
 * [schabell.org: How to setup the OpenShift Container Platform 4.7 on your local machine](https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html)
 * [developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container)
+* [openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes](https://www.openshift.com/blog/a-brief-introduction-to-red-hat-advanced-cluster-security-for-kubernetes)
+* [openshift.com: Customizing Virtual Machine Templates in OpenShift](https://www.openshift.com/blog/customizing-virtual-machine-templates-in-openshift-1)
+
+### OpenShift sizing and subscription guide
+- [redhat.com: OpenShift sizing and subscription guide for enterprise Kubernetes 🌟](https://www.redhat.com/en/resources/openshift-subscription-sizing-guide-detail)
 
 ### OpenShift Platform Plus
 - [Red Hat OpenShift Platform Plus 🌟](https://www.openshift.com/products/platform-plus) Build, deploy, run, manage, and secure intelligent applications at scale across the hybrid cloud.
@@ -132,6 +138,8 @@
 * [amazon.com: Red Hat OpenShift Service on AWS Now GA](https://aws.amazon.com/es/blogs/aws/red-hat-openshift-service-on-aws-now-generally-availably/)
 * [infoq.com: AWS Announces the General Availability of the Red Hat OpenShift Service on AWS](https://www.infoq.com/news/2021/04/red-hat-openshift-aws/)
 * [datacenterknowledge.com: Red Hat Brings Its Managed OpenShift Kubernetes Service to AWS](https://www.datacenterknowledge.com/devops/red-hat-brings-its-managed-openshift-kubernetes-service-aws)
+* [aws.amazon.com: Red Hat OpenShift Service on AWS: architecture and networking](https://aws.amazon.com/es/blogs/containers/red-hat-openshift-service-on-aws-architecture-and-networking/)
+* [openshift.com: Using VPC Peering to Connect an OpenShift Service on an AWS (ROSA) Cluster to an Amazon RDS MySQL Database in a Different VPC](https://www.openshift.com/blog/using-vpc-peering-to-connect-an-openshift-service-on-an-aws-rosa-cluster-to-an-amazon-rds-mysql-database-in-a-different-vpc)
 
 <center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)

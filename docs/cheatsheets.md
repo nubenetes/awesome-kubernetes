@@ -32,6 +32,7 @@
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
 - [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
+- [Kafka](#kafka)
 - [Machine Learning](#machine-learning)
 - [TypeScript](#typescript)
 - [Jupyter](#jupyter)
@@ -57,6 +58,7 @@
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
+- [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet/)
 
 ## API Cheatsheets
 - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
@@ -127,12 +129,14 @@
 * [developers.redhat.com: Git cheat sheet](https://developers.redhat.com/cheat-sheetsgit/)
 * [atlassian.com: Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [github.github.com/training-kit: Git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [education.github.com: Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* [education.github.com: Git cheat sheet 🌟](https://education.github.com/git-cheat-sheet-education.pdf)
 * [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)
 * [git-tower.com: Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
 * [rogerdudler.github.io: git - the simple guide 🌟](https://rogerdudler.github.io/git-guide) Just a simple guide for getting started with git. no deep shit ;)
     * [rogerdudler.github.io: git cheat sheet pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 * [towardsdatascience.com: 18 Git Commands I Learned During My First Year as a Software Developer](https://towardsdatascience.com/git-commands-cheat-sheet-software-developer-54f6aedc1c46)
+* [dzone: Top 35 Git Commands With Examples 🌟](https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus) Git commands are essential, and they help to manage your source code effectively. In this guide, you will learn Git commands from Beginners to Advanced level.
+* [gitexplorer.com: Git Command Explorer 🌟](https://gitexplorer.com/) Find the right commands you need without digging through the web.
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
@@ -172,6 +176,7 @@
 * [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)
 * [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)
 * [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
+* [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/) Deprecated Linux command and their replacement cheat sheet.
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
@@ -261,6 +266,9 @@
 - [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+## Kafka
+- [codingharbour.com: kafkacat cheatsheet](https://codingharbour.com/kafkacat-cheatsheet/) Kafkacat is a versatile tool for producing and consuming messages, as well as exploring the cluster and topic metadata. Download the 1-page cheatsheet to get the most out of this awesome CLI tool.
+
 ## Machine Learning
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 
@@ -273,6 +281,7 @@
 
 ## SQL
 - [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet/)
+- [sqltutorial.org: SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)

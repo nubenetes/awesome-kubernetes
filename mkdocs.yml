@@ -111,6 +111,7 @@ nav:
   - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
   - Configuration Management:
     - Ansible: ansible.md
+    - Argo CD - Declarative GitOps for Kubernetes: argocd.md
     - Chef: chef.md
     - CI/CD Kubernetes Plugins: cicd-kubernetes-plugins.md
     - Client Libraries for Kubernetes - Go client, Python, Fabric8 & JKube: kubernetes-client-libraries.md

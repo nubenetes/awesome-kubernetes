@@ -18,6 +18,8 @@
 	- [Web Scraping with Python](#web-scraping-with-python)
 - [Jython](#jython)
 - [Eclipse IDE](#eclipse-ide)
+- [Python Libraries](#python-libraries)
+- [Python Snippets](#python-snippets)
 
 ## Python Blogs and Forums
 - [digitalocean.com python 🌟](https://www.digitalocean.com/community/tags/python)
@@ -115,6 +117,14 @@
 - [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python/)
 - [towardsdatascience.com: Concurrency and Parallelism in Python](https://towardsdatascience.com/concurrency-and-parallelism-in-python-bbd7af8c6625)
 - [pythonsimplified.com: Introduction to Python Sequence Types 🌟](https://pythonsimplified.com/python-sequence-types-an-introduction/)
+- [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db) OOPs is a highly efficient way of writing a program
+- [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications)
+- [pythonsimplified.com: Python List Vs Tuple 🌟](https://pythonsimplified.com/python-list-vs-tuple/)
+- [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) Explore positional-only parameters and two other underutilized but still useful Python features.
+- [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes/)
+- [towardsdatascience.com: 7 advanced pandas tricks for data science](https://towardsdatascience.com/7-advanced-tricks-in-pandas-for-data-science-41a71632b5d9) Pandas is the go-to library for data science. These are the shortcuts I use to do repetitive data science tasks faster and simpler.
+- [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) A handy concept for software development programs
+- [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file/)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -243,6 +253,11 @@
 ## Eclipse IDE
 - [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide)
 
+## Python Libraries
+- [Click 🌟](https://click.palletsprojects.com/) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
+
+## Python Snippets
+- [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e)
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is a beautiful programming language. It contains really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing more efficient and compact code.<br><br>🧵🧵🧵</p>&mdash; Danny Steenman (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1314930561220313088?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

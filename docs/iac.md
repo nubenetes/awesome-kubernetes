@@ -6,3 +6,4 @@
 - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/)
 - [cloudify.co: Ansible Vs Terraform 🌟](https://cloudify.co/blog/ansible-vs-terraform/)
 - [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools/)
+- [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.agileconnection.com/article/infrastructure-code-foundation-effective-devops)

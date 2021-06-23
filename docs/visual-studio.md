@@ -107,6 +107,8 @@ A simple extension to make indentation more readable
 * [CloudFormation Snippets 🌟](https://marketplace.visualstudio.com/items?itemName=dsteenman.cloudformation-yaml-snippets) Adds autocompletion for all AWS CloudFormation resources. The snippets are updated automatically every week by fetching the data from the official AWS CloudFormation resource specification.
 	* [dannys.cloud: Autocomplete your CloudFormation Resources in VS Code](https://dannys.cloud/autocomplete-cloudformation-resources-vs-code)
 * [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions)
+* [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) Save files into local history
+* [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) You can now browse or even make edits to any GitHub repo straight from code, instantly WITHOUT having to pull the source down first.
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -189,7 +191,7 @@ A simple extension to make indentation more readable
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps. 
 
 ### Online VSCode
-- [gitpod.io 🌟](https://www.gitpod.io/) 
+- [gitpod.io 🌟🌟](https://www.gitpod.io/) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 
 ## Videos

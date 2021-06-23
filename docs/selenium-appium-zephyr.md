@@ -29,7 +29,7 @@
 - [intellipaat.com: Selenium Tutorial – Learn Selenium from Experts](https://intellipaat.com/blog/tutorial/selenium-tutorial/)
 - [lambdatest.com: How To Integrate Jenkins & Maven With Selenium?](https://www.lambdatest.com/blog/selenium-maven-jenkins-integration/)
 - [lambdatest.com: Selenium 4 🌟](https://www.lambdatest.com/learning-hub/selenium-4)
-- [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium?Run selenium maven project from command line?](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
+- [automationreinvented.blogspot.com: How to run selenium tests from Jenkins? Maven and Jenkins Integration with Testng-Selenium? Run selenium maven project from command line? 🌟](https://automationreinvented.blogspot.com/2021/02/how-to-run-test-selenium-tests-from.html)
 - [lambdatest.com/selenium: Introduction to Selenium Basics](https://www.lambdatest.com/selenium) Selenium is an open-source software to automate web testing by controlling browsers
 based on your test scripts.
 - [lambdatest.com: Selenium Webdriver Java Tutorial – Guide for Beginners](https://www.lambdatest.com/blog/selenium-java-tutorial-how-to-test-login-process/)
@@ -38,6 +38,10 @@ based on your test scripts.
 - [lambdatest.com: How to execute JUnit 4 tests with JUnit 5 [Tutorial]](https://www.lambdatest.com/blog/execute-junit4-tests-with-junit5/)
 - [lambdatest.com: How To Run Selenium Tests In Docker ? 🌟](https://www.lambdatest.com/blog/run-selenium-tests-in-docker/)
 - [lambdatest.com: What Is New In Selenium 4 And What Is Deprecated In It? 🌟](https://www.lambdatest.com/blog/what-is-deprecated-in-selenium4/)
+- [lambdatest.com: How To Upgrade From Selenium 3 To Selenium 4?](https://www.lambdatest.com/blog/upgrade-from-selenium3-to-selenium4/)
+- [lambdatest.com: Automation Testing with Selenium JavaScript [Tutorial]](https://www.lambdatest.com/blog/automation-testing-with-selenium-javascript/)
+- [lambdatest.com: How To Scroll a Page Using Selenium WebDriver?](https://www.lambdatest.com/blog/scroll-a-webpage-in-selenium-using-java/)
+- [automationscript.com: Parallel Execution In Selenium Using Jenkins](https://automationscript.com/parallel-execution-in-selenium-using-jenkins/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
@@ -56,6 +60,7 @@ based on your test scripts.
 - [medium: Testing APIs with Python 🌟](https://medium.com/python-in-plain-english/testing-apis-with-python-4ca51d604ffe) Getting started with BDD, Cucumber, and Gherkin.
 - [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.lambdatest.com/blog/cucumber-with-jenkins-integration)
 - [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
+- [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question/)
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)

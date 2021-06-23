@@ -5,6 +5,7 @@
     - [Open Policy Agent in OpenShift](#open-policy-agent-in-openshift)
     - [Open Policy Agent in Cloudflare Workers](#open-policy-agent-in-cloudflare-workers)
     - [Policy as Code in Terraform Cloud](#policy-as-code-in-terraform-cloud)
+- [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
 - [Kyverno](#kyverno)
 - [Cloud Custodian](#cloud-custodian)
 
@@ -46,6 +47,17 @@
 
 ### Policy as Code in Terraform Cloud
 - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines/) Learn how to use policy as code in Terraform Cloud to securely deliver applications.
+
+## Other Policy as Code Scanning Tools
+- [thenewstack.io: Yor Automates Tagging for Infrastructure as Code](https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code/)
+- [yor.io](https://yor.io/) Automated IaC tag and trace. Yor is an open-source tool that automatically tags infrastructure as code (IaC) templates with attribution and ownership details, unique IDs that get carried across to cloud resources, and any other need-to-know information. Run Yor as a pre-commit hook or in your CI/CD pipeline for code to cloud traceability and auditability.
+- [checkov.io](https://www.checkov.io/) policy as code scanning tool
+- [aws.amazon.com: Policy-based countermeasures for Kubernetes – Part 1](https://aws.amazon.com/es/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1/) Choosing the right policy-as-code solution for your Kubernetes cluster:
+    - OPA
+    - Gatekeeper
+    - Kyverno
+    - k-rail
+    - MagTape
 
 ## Kyverno
 - [Kyverno 🌟](https://kyverno.io/) Kubernetes Native Policy Management. Open Policy Agent? That’s old school. Securely manage workloads on your kubernetesio clusters with this handy new tool, Kyverno.Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. This allows using familiar tools such as kubectl, git, and kustomize to manage policies. Kyverno policies can validate, mutate, and generate Kubernetes resources. The Kyverno CLI can be used to test policies and validate resources as part of a CI/CD pipeline. [youtube: The Way of the Future | Kubernetes Policy Management with Kyverno](https://www.youtube.com/watch?v=8fgrjBnxqi0&t=270s&ab_channel=AppSecEngineer)

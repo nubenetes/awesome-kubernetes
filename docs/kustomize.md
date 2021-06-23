@@ -11,3 +11,4 @@
 - [Secretize 🌟](https://github.com/bbl/secretize) Secretize is a kustomize plugin that helps generating kubernetes secrets from various sources such as AWS Secret Manager & Azure Vault. It's like a swiss army knife, but for kubernetes secrets.
 - [blog.stack-labs.com: Kustomize - The right way to do templating in Kubernetes](https://blog.stack-labs.com/code/kustomize-101/)
 - [harness.io: Comparing Helm vs Kustomize 🌟](https://harness.io/blog/devops/helm-vs-kustomize/)
+- [opensource.com: Modify your Kubernetes manifests with Kustomize](https://opensource.com/article/21/6/kustomize-kubernetes) Modify your Kubernetes manifests without losing control of what's in the original versions.

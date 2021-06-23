@@ -30,6 +30,7 @@
 * [JMeter Distributed Testing Step-by-step](https://venkatmatta.files.wordpress.com/2016/03/jmeter_distributed_testing_step_by_step.pdf)
 * [testinglpoint.com: Timer in JMeter](https://www.testinglpoint.com/timer/) Timer in JMeter is easy but crucial part of JMeter where we have to manage the thread user count and time to apply the load to the application.
 * [youtube: JMeter API Performance Testing Tutorial 🌟](https://www.youtube.com/watch?v=8r5LYzUIepo)
+* [testinglpoint.com: Features of JMeter](https://www.testinglpoint.com/features-of-jmeter/) Features and disadvantages.
 
 ## JMeter based Cloud solutions
 * [octoperf.com](https://octoperf.com/)

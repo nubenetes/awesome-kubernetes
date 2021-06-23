@@ -4,7 +4,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) is also available at [redhatspain.com](https://redhatspain.com)
 
-"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://www.history.com/news/the-first-great-american-road-trip))
+"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson)) 
 <center>
 [![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
 [![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/dockerrun) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/RedHatVideos) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/rhopenshift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCh5Xtp82q8wjijP8npkVTBA) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/jenkinsci) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/goPivotal)<br/> 
@@ -118,7 +118,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
 ## Configuration Management
 - [Ansible](ansible.md)
-- [Argo CD - Declarative GitOps for Kubernetes](https://argoproj.github.io/argo-cd/)
+- [Argo CD - Declarative GitOps for Kubernetes](argocd.md)
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
 - [Client Libraries for Kubernetes: Go client, Python, Fabric8 & JKube](kubernetes-client-libraries.md)

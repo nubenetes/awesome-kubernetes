@@ -1,5 +1,6 @@
 # Docker
 - [Introduction and Tutorials](#introduction-and-tutorials)
+- [Awesome Lists](#awesome-lists)
 - [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
 - [Security](#security)
 - [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
@@ -14,13 +15,11 @@
 - [DockStation](#dockstation)
 - [Linux Container Base Images](#linux-container-base-images)
 - [Blogs](#blogs)
-- [Awesome Lists](#awesome-lists)
 - [Cloud Native Buildpacks](#cloud-native-buildpacks)
 - [Alternatives to Docker](#alternatives-to-docker)
 
 ## Introduction and Tutorials
 * [Wikipedia.org: Docker](https://en.wikipedia.org/wiki/Docker_(software))
-* [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Dzone refcard: Getting Started with Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Dzone refcard: Java Containerization 🌟](https://dzone.com/refcardz/java-containerization)
 * [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root/)
@@ -72,6 +71,14 @@
 * [iximiuz.com: Container Networking Is Simple!](https://iximiuz.com/en/posts/container-networking-is-simple/)
 * [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications/)
 * [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead/)
+* [turbofuture.com: A Beginners Guide to Containers and Docker](https://turbofuture.com/computers/introductiontodocker)
+* [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://releasehub.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
+* [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
+* [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/reference/integrations/integration-docker/) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+
+## Awesome Lists
+* [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
+* [Awesome Compose 🌟](https://github.com/docker/awesome-compose)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
@@ -99,10 +106,13 @@
 ## Modify containers without rebuilding
 * [cloudowski.com: How to modify containers without rebuilding their image](https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/)
 
-## Docker Tools
+ ## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
 - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
 - [dive 🌟](https://github.com/wagoodman/dive) A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image. Use the dive tool to analyze a Docker image of your application. What did I learn? While Jib creates 3 layers for Spring Boot app (dependencies, resources and classes), Paketo Buildpacks places resources and classes in the same layer.
+- [ctop 🌟](https://github.com/bcicen/ctop) Top-like interface for container metrics
+- [phpdocker](https://github.com/sherifabdlnaby/phpdocker) Production Grade, Rootless, Pre-configured, Extendable, and Multistage
+PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
@@ -136,13 +146,10 @@
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
     * [book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
+* [dev.to: The best Docker base image for your Python application](https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83)
 
 ## Blogs
 - [Digital Ocean: Docker Tutorials](https://www.digitalocean.com/community/tags/docker)
-
-## Awesome Lists
-* [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
-* [Awesome Compose 🌟](https://github.com/docker/awesome-compose)
 
 ## Cloud Native Buildpacks
 - [buildpacks.io: Cloud Native Buildpacks 🌟](https://buildpacks.io/) transform your application source code into images that can run on any cloud.
@@ -153,8 +160,12 @@
 - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)
 - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/knowledge-base/the-basics-7-alternatives-to-docker-all-in-one-solutions-and-standalone-container-tools/)
 
+<center>
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 
 <iframe src="https://www.youtube.com/embed/n-JwAM6XF88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Environment variables in Docker:<br><br>Environment variables are dynamic-named values that affect how our app will behave when running.<br><br>We can define them with Docker:<br>- at runtime<br>- in the Dockerfile<br>- in the Compose file (2 ways)<br><br>Let&#39;s see in detail in 1 minute:<br><br>1/5</p>&mdash; Francesco Ciulla (@FrancescoCiull4) <a href="https://twitter.com/FrancescoCiull4/status/1393448190729465856?ref_src=twsrc%5Etfw">May 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

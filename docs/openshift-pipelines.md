@@ -123,6 +123,7 @@
 * [github: OpenShift Pipelines Tutorial 🌟](https://github.com/openshift/pipelines-tutorial)
 * [github: OpenShift Pipelines Node.js Tutorial](https://github.com/csantanapr/faststart2020-pipelines-lab)
 * [developers.redhat.com: Modern web applications on OpenShift, Part 4: Openshift Pipelines](https://developers.redhat.com/blog/2020/04/27/modern-web-applications-on-openshift-part-4-openshift-pipelines/)
+* [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.openshift.com/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository)
 
 #### Tekton and Tekton Pipelines
 * [tekton.dev](https://tekton.dev/)

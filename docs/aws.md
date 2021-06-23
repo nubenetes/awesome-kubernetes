@@ -151,6 +151,7 @@
 - https://forums.aws.amazon.com
 - https://aws.amazon.com/blogs
 - https://www.slideshare.net/AmazonWebServices 
+- [Everything AWS | Search and discover 6K+ quality AWS repositories 🌟](https://app.polymersearch.com/discover/aws)
 
 ## Introduction
 - [dzone: AWS Basics 🌟](https://dzone.com/articles/aws-basics)
@@ -194,7 +195,7 @@
 - [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/7-tips-for-cutting-down-your-aws-kubernetes-bill/)
 
 ### AWS Calculator
-- [AWS Total Cost of Ownership (TCO) Calculators 🌟](https://aws.amazon.com/tco-calculator/)
+- [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators 🌟](https://calculator.aws/)
 - [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
 - [Announcing General Availability of AWS Cost Anomaly Detection 🌟](https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/)
 
@@ -516,8 +517,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
 - [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance 🌟](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
-	- [AWS CloudFormation Guard 🌟](https://github.com/aws-cloudformation/cloudformation-guard)
+	- [AWS CloudFormation Guard 🌟](https://github.com/aws-cloudformation/cloudformation-guard) Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules.
 - [cloudonaut.io: Getting Started with Free Templates for AWS CloudFormation 🌟](https://cloudonaut.io/getting-started-with-aws-cf-templates/) - [Free Templates for AWS CloudFormation 🌟](https://github.com/widdix/aws-cf-templates/) - [templates.cloudonaut.io 🌟](https://templates.cloudonaut.io/)
+- [Use Git pre-commit hooks to avoid AWS CloudFormation errors](https://aws.amazon.com/es/blogs/infrastructure-and-automation/use-git-pre-commit-hooks-avoid-aws-cloudformation-errors/)
+- [Introducing a Public Registry for AWS CloudFormation](https://aws.amazon.com/es/blogs/aws/introducing-a-public-registry-for-aws-cloudformation/)
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)
@@ -702,6 +705,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudify.co: Simplifying Hybrid Cloud Deployments With AWS EKS And Outpost](https://cloudify.co/blog/simplifying-hybrid-cloud-deployments-with-aws-eks-and-outpost)
 - [eksworkshop.com 🌟](https://www.eksworkshop.com/)
 - [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes/)
+- [cast.ai: 8 best practices to reduce your AWS bill for Kubernetes](https://cast.ai/blog/8-best-practices-to-reduce-your-aws-bill-for-kubernetes)
 
 ## AWS App Mesh 
 - [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
@@ -756,6 +760,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws/)
 - [Amazon EKS clusters now support user authentication with OIDC compatible identity providers](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers/)
 - [Amazon Managed Service for Grafana (AMG) preview updated with new capabilities](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities/)
+- [xataka.com: Hasta AWS se pasa al low-code: Workflow Studio es su primera herramienta de desarrollo de bajo código](https://www.xataka.com/pro/aws-se-pasa-al-low-code-workflow-studio-su-primera-herramienta-desarrollo-codigo)
 
 ## Superwerker
 - [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/ 🌟) Automates AWS Cloud deployments backed by decades of expertise and best practices

@@ -2,7 +2,9 @@
 - [Introduction](#introduction)
 - [CI/CD Continuous Integration and Continuous Delivery](#cicd-continuous-integration-and-continuous-delivery)
 - [Security in CI/CD](#security-in-cicd)
+- [Progressive Delivery](#progressive-delivery)
 - [Deployment Strategies](#deployment-strategies)
+- [Pipeline Patterns](#pipeline-patterns)
 - [CI/CD with Kubernetes](#cicd-with-kubernetes)
 - [CI/CD with OpenShift](#cicd-with-openshift)
 - [CI/CD with AWS](#cicd-with-aws)
@@ -75,6 +77,11 @@ Here are some important things to consider while building a CI/CD pipeline:
 ## Security in CI/CD
 * [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/)
 
+## Progressive Delivery
+- [split.io: Progressive Delivery](https://www.split.io/glossary/progressive-delivery/)
+- [harness.io: Progressive Delivery: Everything You Need to Know](https://harness.io/blog/feature-flags/progressive-delivery/)
+- [weave.works: Progressively Delivering Applications Across Cloud and On-Premise. Using Kuma & GitOps to implement canary releasing](https://www.weave.works/blog/progressively-delivering-applications-across-cloud-and-on-premise)
+
 ## Deployment Strategies
 - [blog.container-solutions.com: Deployment Strategies 🌟](https://blog.container-solutions.com/deployment-strategies) 
     - It really depends on the needs and budget. When releasing to development/staging environments, a recreate or ramped deployment is usually a good choice. When it comes to production, a ramped or blue/green deployment is usually a good fit, but proper testing of the new platform is necessary. 
@@ -90,6 +97,9 @@ Here are some important things to consider while building a CI/CD pipeline:
 <center>
 [![deployment strategies](images/K8s_deployment_strategies.png)](https://blog.container-solutions.com/deployment-strategies)
 </center>
+
+## Pipeline Patterns
+- [harness.io: Pipeline Patterns for CI/CD Pipelines 🌟](https://harness.io/blog/devops/deployment-pipeline-patterns/) **Button Push Pattern, Test Automation Pattern, Full Approval Pattern.** 
 
 ## CI/CD with Kubernetes
 * [blog.sonatype.com: Achieving CI and CD With Kubernetes 🌟](https://blog.sonatype.com/achieving-ci/cd-with-kubernetes)

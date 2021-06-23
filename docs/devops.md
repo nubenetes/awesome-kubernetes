@@ -31,11 +31,14 @@
 - [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline/)
 - [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions/)
 - [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions)
+- [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions/)
+- [learnsteps.com: DevOps Interview Questions: What do you know about proc filesystem in Linux.](https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux/)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
 - [What is Configuration Drift?](https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift/) Configuration drift  is a data center environment term. At a high level, configuration drift happens when production or primary hardware and software infrastructure configurations “drift” or become different in some way from a recovery or secondary configuration or visa versa.  Production or primary and recovery or secondary configurations are designed to be identical in certain aspects is order for business resumption should there be a disaster or major failure in production.  When these infrastructure configurations drift from another, they leave a gap between them which commonly called a configuration gap.
 - [thenewstack.io: Cloud Drift Detection: How to Resolve Out-of-State Changes](https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes/)
+- [fairwinds.com: Configuration Drift in Kubernetes - What Is It and Why it Matters 🌟](https://www.fairwinds.com/blog/configuration-drift-kubernetes)
 
 ## DevOps Docs
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
@@ -133,6 +136,10 @@
 * [medium: Digital Transformation for Modern Enterprises Through DevOps — A Complete Guide](https://medium.com/hackernoon/digital-transformation-for-modern-enterprises-through-devops-a-complete-guide-6f595463c7dd)
 * [weblineindia.com: DevOps Automation – Everything You Need to Know](https://www.weblineindia.com/blog/all-about-devops-automation/)
 * [getxray.app: Get started with DevOps: principles, best practices and tips](https://www.getxray.app/blog/get-started-with-devops-principles-best-practices-and-tips)
+* [dzone: 4 Mistakes to Avoid When Implementing DevOps](https://dzone.com/articles/four-mistakes-to-avoid-when-implementing-devops) While many companies are starting to reap the benefits of DevOps, there are also a number of pitfalls companies might step in resulting in a lack of business outcome.
+* [stackoverflow.blog: How developers can be their own operations department](https://stackoverflow.blog/2021/05/24/how-developers-can-be-their-own-operations-department/) Many companies run parallel development and operations organizations. But what if you just ran one team that did both?
+* [linkedin.com/pulse: Top 10 skills a DevOps engineer should possess](https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar/)
+* [devops.com: How Containers Simplify DevOps Workflows and CI/CD Pipelines 🌟](https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -199,6 +206,7 @@
 - [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)
 - [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh/)
 	- [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
+- [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) Codelab explaining the benefits of automating SLO-based quality gates with keptnProject.
 
 <center>
 [![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
@@ -297,4 +305,8 @@
 
 <center>
 <iframe src="https://www.youtube.com/embed/js-rq7SvPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It drives me nuts when people say &quot;DevOps&quot; when they really mean &quot;Ops.&quot; Ops didn&#39;t just disappear, folks.</p>&mdash; emily freeman (@editingemily) <a href="https://twitter.com/editingemily/status/1404840667558207489?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

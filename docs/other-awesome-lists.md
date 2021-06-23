@@ -20,6 +20,7 @@
 	- [API](#api)
 	- [Development](#development)
 		- [Bash](#bash)
+		- [Powershell](#powershell)
 	- [Data Processing](#data-processing)
 	- [Big Data](#big-data)
 - [Open Source Alternatives](#open-source-alternatives)
@@ -36,7 +37,8 @@
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools 
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
-- [Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
+- [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
+- [ksoclabs/awesome-kubernetes-security 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
@@ -68,6 +70,7 @@
 
 ### GitOps
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
+- [gitops-resources](https://github.com/microtica/gitops-resources) The Ultimate List of GitOps Resources (Articles, Videos, Podcasts, Events & More)
 
 ### SRE
 - [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
@@ -141,6 +144,10 @@
 #### Bash
 - [wiki.bash-hackers.org](https://wiki.bash-hackers.org/)
 - [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets/) Generate SSH Keys, Push SSH public key, run remote commands, etc.
+
+#### Powershell
+- [janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+- [awesomerank.github.io: janikvonrotz/awesome-powershell](https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html)
 
 ### Data Processing
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.

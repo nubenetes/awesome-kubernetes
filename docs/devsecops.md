@@ -13,7 +13,7 @@
 - [Twistlock and Threat Stack Container Security](#twistlock-and-threat-stack-container-security)
 - [OWASP](#owasp)
 - [StackRox](#stackrox)
-	- [Secure Container Based CI/CD Workflows](#secure-container-based-cicd-workflows)
+- [Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images](#secure-container-based-cicd-workflows-vulnerability-scanner-for-container-images)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
@@ -23,7 +23,8 @@
 - [Credential Managers](#credential-managers)
 	- [keycloak](#keycloak)
 	- [Git Credential Manager Core](#git-credential-manager-core)
-- [GitOps Secret Management](#gitops-secret-management)
+- [Secrets Management](#secrets-management)
+	- [Store private data in git repo](#store-private-data-in-git-repo)
 	- [HashiCorp Vault](#hashicorp-vault)
 	- [CyberArk and Ansible](#cyberark-and-ansible)
 	- [CyberArk Conjur](#cyberark-conjur)
@@ -39,6 +40,7 @@
 - [Password Recovery](#password-recovery)
 - [Books](#books)
 - [CVEs](#cves)
+- [Powershell](#powershell)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -75,6 +77,8 @@
 - [redeszone.net: No configurar bien la nube es culpable de la mayoría de vulnerabilidades](https://www.redeszone.net/noticias/seguridad/configurar-mal-nube-vulnerabilidades/)
 - [cybersecuritydive.com: Relationships between DevOps, security warm slowly](https://www.cybersecuritydive.com/news/developer-security-gitlab-devsecops/) Some hurdles stem from miscommunication, or balancing quick product releases with undesired security gaps. **"Security people need developers to be more like security people and developers need security people to be more like developers."** James Arlen, CISO at Aiven.
 - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure/)
+- [harness.io: Automated DevSecOps with StackHawk and Harness](https://harness.io/blog/continuous-delivery/automated-devsecops/)
+- [cloudify.co: Understanding DevSecOps And Its Challenges](https://cloudify.co/blog/overcoming-devsecops-delivery-pipeline-challenges/)
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -126,6 +130,7 @@
 
 ## Anchore Container Security Solutions for DevSecOps
 - [Anchore](https://anchore.com) Container image inspection and policy-based compliance
+- [thenewstack.io: Anchore: Scan Your Container Images for Vulnerabilities from the Command Line](https://thenewstack.io/anchore-scan-your-container-images-for-vulnerabilities-from-the-command-line/)
 
 ## Twistlock and Threat Stack Container Security
 - [Twistlock](https://www.twistlock.com/)
@@ -140,12 +145,12 @@
 - [stackrox.com](https://www.stackrox.com/)
 - [redhat.com: Red Hat to Acquire Kubernetes-Native Security Leader StackRox](https://www.redhat.com/en/about/press-releases/red-hat-acquire-kubernetes-native-security-leader-stackrox)
 
-### Secure Container Based CI/CD Workflows
-- [Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
-- [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
-
+## Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images
+- [trivy](https://github.com/aquasecurity/trivy) A Simple and Comprehensive Vulnerability Scanner for Container Images, Git Repositories and Filesystems. Suitable for CI
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
+- [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
+- [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
@@ -179,8 +184,14 @@
 - [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) GCM Core is a free, open-source, cross-platform credential manager for Git.
 - [Git Credential Manager Core: Building a universal authentication experience](https://github.blog/2020-07-02-git-credential-manager-core-building-a-universal-authentication-experience/)
 
-## GitOps Secret Management
+## Secrets Management
 - [blog.gitguardian.com: Secrets in source code (episode 2/3). Why secrets in git are such a problem](https://blog.gitguardian.com/secrets-credentials-api-git/)
+- [harness.io: Managing Secrets in CI/CD Pipelines 🌟](https://harness.io/blog/devops/secrets-management-ci-cd/) How has your organization dealt with the challenge of managing secrets while delivering with CI/CD pipelines? Learn how to improve your process in the article.
+- [smallstep.com: How to Handle Secrets on the Command Line 🌟](https://smallstep.com/blog/command-line-secrets/)
+
+### Store private data in git repo
+- [git-secret.io](https://git-secret.io/)
+- [git-cipher](https://github.com/wincent/git-cipher)
 
 ### HashiCorp Vault
 - [vaultproject.io](https://www.vaultproject.io/) Manage Secrets and Protect Sensitive Data. Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
@@ -204,6 +215,7 @@
 - [datadoghq.com: Monitor HashiCorp Vault metrics and logs](https://www.datadoghq.com/blog/monitor-vault-metrics-and-logs/)
 - [thenewstack.io: Reasons to Implement HashiCorp Vault and Other Zero Trust Tools](https://thenewstack.io/reasons-to-implement-hashicorp-vault-and-other-zero-trust-tools/)
 - [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
+- [testdriven.io: Running Vault and Consul on Kubernetes](https://testdriven.io/blog/running-vault-and-consul-on-kubernetes/)
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
@@ -267,3 +279,6 @@
 
 ## CVEs
 - [sysdig.com: Mitigating CVE-2021-20291: DoS affecting CRI-O and Podman](https://sysdig.com/blog/cve-2021-20291-cri-o-podman/)
+
+## Powershell
+- [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

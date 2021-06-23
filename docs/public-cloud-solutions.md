@@ -11,6 +11,7 @@
 * [Dzone.com: GCP vs. AWS](https://dzone.com/articles/gcp-vs-aws-1) This article takes a look at the differences in using GCP vs. AWS in the contexts of agility, cost, deep tech services, tools, and market share.
 * [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in/)
 * [zarantech.com: Difference between AWS and Azure](https://www.zarantech.com/blog/difference-between-aws-and-azure/)
+* [medium: AWS vs Azure — Battle Of The Best Cloud Computing Platforms](https://medium.com/edureka/aws-vs-azure-1a882339f127)
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
 * [OpenShift in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-get-started)

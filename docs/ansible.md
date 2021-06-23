@@ -1,5 +1,7 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
+- [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
+- [Interview Questions](#interview-questions)
 - [Ansible Videos](#ansible-videos)
 - [Ansible Collections](#ansible-collections)
 - [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
@@ -71,6 +73,18 @@
 * [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/sysadmin/reverse-proxy-ansible) Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn't bring down the site.
 * [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)
 * [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers/)
+* [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you)
+* [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/sysadmin/install-ansible-way) How to add package repositories and install packages on many hosts by using Ansible.
+* [automateinfra.com: Everything about Ansible 🌟](https://automateinfra.com/everything-about-ansible/)
+* [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux 
+* [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands/)
+
+## Deploying custom files with Jinja2 templates
+- [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
+- [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
+
+## Interview Questions
+- [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
 ## Ansible Videos
 * [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)
@@ -86,6 +100,7 @@
 ##  Red Hat Ansible Automation Platform
 - [redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives) Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation
 - [ansible.com: Red Hat Ansible Automation Platform 1.2](https://www.ansible.com/blog/now-available-red-hat-ansible-automation-platform-1.2)
+- [pypi.org: ansible-navigator 🌟](https://pypi.org/project/ansible-navigator/) A text-based user interface (TUI) for the Red Hat Ansible Automation Platform
 
 ### Automation services catalog
 - [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.ansible.com/products/automation-services-catalog) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
@@ -106,6 +121,7 @@
 * [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
 * [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/)
 * [Ansible Let's Encrypt Collection](https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection)
+* [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/sysadmin/troubleshoot-ansible-playbooks) Here are six ways you can check for problems when running Ansible playbooks.
 
 ### Running Ansible Playbooks From Jenkins
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)

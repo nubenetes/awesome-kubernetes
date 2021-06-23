@@ -1,5 +1,5 @@
 # Caching Solutions 
-- [Caching](#caching)
+- [Introduction to Caching](#introduction-to-caching)
 - [Java Caching](#java-caching)
 - [Infinispan](#infinispan)
 - [Red Hat Data Grid (commercial version of Infinispan)](#red-hat-data-grid-commercial-version-of-infinispan)
@@ -10,12 +10,13 @@
 - [Redis](#redis)
 - [Nginx High-performance caching](#nginx-high-performance-caching)
 
-## Caching
+## Introduction to Caching
 - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)
 - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)
 - [Slideshare: Caching](http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
 - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/)
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
+- [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
 
 ## Java Caching
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) Strategies and the JCache API. Explores the building blocks of JCache and other caching APIs, as well as multiple strategies for implementing temporary data storage in your application.

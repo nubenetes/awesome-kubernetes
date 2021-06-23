@@ -1,6 +1,7 @@
 # APIs with SOAP, REST and gRPC
 - [APIs](#apis)
 - [Motivation](#motivation)
+- [API Testing Interview Questions](#api-testing-interview-questions)
 - [State of the API Report](#state-of-the-api-report)
 	- [Postman State of the API Report](#postman-state-of-the-api-report)
 	- [Smartbear State of the API Report](#smartbear-state-of-the-api-report)
@@ -10,6 +11,8 @@
 		- [OpenAPI Specification (originally known as the Swagger Specification)](#openapi-specification-originally-known-as-the-swagger-specification)
 	- [RPC API Protocol (Remote Procedure Call)](#rpc-api-protocol-remote-procedure-call)
 		- [gRPC](#grpc)
+	- [Asynchronous APIs](#asynchronous-apis)
+		- [AsyncAPI](#asyncapi)
 - [Comparisons](#comparisons)
 	- [SOAP vs REST](#soap-vs-rest)
 	- [REST vs OpenAPI vs gRPC](#rest-vs-openapi-vs-grpc)
@@ -17,6 +20,7 @@
 - [Tools](#tools)
 	- [API Testing](#api-testing)
 	- [GraphQL](#graphql)
+		- [Hasura](#hasura)
 - [API Security](#api-security)
 - [Free Web Services (Public APIs)](#free-web-services-public-apis)
 - [Related](#related)
@@ -40,6 +44,9 @@
 ## Motivation
 - [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure. 
 - [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html)
+
+## API Testing Interview Questions
+- [automationreinvented.blogspot.com: Top 30 API Testing Interview Questions & Answers for SDET/API Automation-Rest Assured? SET-03](https://automationreinvented.blogspot.com/2020/11/top-30-api-testing-interview-questions.html)
 
 ## State of the API Report
 ### Postman State of the API Report
@@ -83,6 +90,11 @@
 - [developers.googleblog.com: Introducing gRPC, a new open source HTTP/2 RPC Framework](https://developers.googleblog.com/2015/02/introducing-grpc-new-open-source-http2.html)
 - [nordicapis.com: Using gRPC to Connect a Microservices Ecosystem](https://nordicapis.com/using-grpc-to-connect-a-microservices-ecosystem/)
 
+### Asynchronous APIs 
+#### AsyncAPI
+- [AsyncAPI](https://www.asyncapi.com/) Building the future of event-driven architecture. Open source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
+- [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/)
+
 ## Comparisons
 ### SOAP vs REST
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
@@ -120,6 +132,13 @@
 - [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) How are screws better than nails? Both are useful tools that solve similar problems in slightly different ways. OpenAPI Specification offers a declarative contract that defines the structure of API requests and responses as discrete operations. GraphQL prefers an interface style that is more like querying a database and is best suited to graph databases. 
 - [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/)
 
+#### Hasura
+- [Hasura 🌟](https://hasura.io/) Instant realtime GraphQL APIs for all your data
+	- Build modern apps and APIs 10x faster
+	- TickInstant GraphQL & REST APIs
+	- TickBuilt in authorization for secure data access
+	- TickOpen source
+
 ## API Security
 - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/)
 
@@ -154,4 +173,8 @@
 
 <center>
 [![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">People complain about tooling fatigue but web dev in 2021 is 10x simpler than in 2011. You just gotta pick the right tools.<br><br>Infra: <a href="https://twitter.com/PulumiCorp?ref_src=twsrc%5Etfw">@PulumiCorp</a> <br>Data: <a href="https://twitter.com/PostgreSQL?ref_src=twsrc%5Etfw">@PostgreSQL</a> <br>API: <a href="https://twitter.com/HasuraHQ?ref_src=twsrc%5Etfw">@HasuraHQ</a> <br>Frontend: <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a>&#39;s NextJS<br><br>And no proprietary bullshit—100% open source!</p>&mdash; gunar.uk (@gunar) <a href="https://twitter.com/gunar/status/1395744592071323651?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

@@ -31,6 +31,9 @@
 - [redhat.com: 11 considerations for effectively managing a Linux sysadmin team 🌟](https://www.redhat.com/sysadmin/11-manager-considerations) Here are some guidelines for managers when dealing with your system administrator staff members.
 - [medium: Scrum Teams That Don’t Verify Their Outcomes Are Basically Waterfall Teams](https://medium.com/serious-scrum/scrum-teams-that-dont-verify-their-outcomes-are-basically-waterfall-teams-cb208acdcc61)
 - [codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟](https://codefresh.io/helm-tutorial/kanban-promotion-boards/)
+- [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde) What you should do when starting a new journey as a Product Owner
+- [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-communication)
+- [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -76,6 +79,9 @@
 [![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 </center>
 
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 questions I try to answer before starting any new project:<br><br>1. What problem am I solving?<br>2. What constraints do I have?<br>3. Who are the main stakeholders?<br>4. What are the risks?<br>5. How do I measure progress?<br>6. What does success look like?<br><br>Don&#39;t sail without a compass.</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1393868830859010049?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 
 

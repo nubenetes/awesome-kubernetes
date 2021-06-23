@@ -7,6 +7,7 @@
 - [Shalm. Scriptable helm charts](#shalm-scriptable-helm-charts)
 - [Helmfile](#helmfile)
 - [Database Migrations](#database-migrations)
+- [Helm Tools](#helm-tools)
 - [Helm Books](#helm-books)
 
 ## Helm
@@ -57,6 +58,12 @@
 * [bridgecrew.io: Part 1: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research/)
     * [bridgecrew.io: Part 2: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-2/)
     * [bridgecrew.io: Part 3: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-3/)
+* [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
+* [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm) **Helm or Operators: how to choose**
+* [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3)
+* [jasiek-petryk.medium.com: Setting up a private Helm chart repository on GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)
+* [betterprogramming.pub: How To Continuously Test and Deploy Your Helm Charts on Kubernetes Clusters Using Kind](https://betterprogramming.pub/how-to-continuously-test-and-deploy-your-helm-charts-on-kubernetes-clusters-using-kind-d71e3585d2dc) Set up your CI/CD tools to easily test and publish charts on ephemeral Kubernetes clusters
+* [blog.flant.com: Making the most out of Helm templates 🌟](https://blog.flant.com/advanced-helm-templating/) The standard Helm library and traditional approaches to creating Helm charts are generally okay to automate non-complex tasks. But the growing complexity and number of Helm charts rapidly make the minimalistic Helm templates and controversial standard Helm library insufficient. In this article, we will show you how to make your Helm templates much more flexible and dynamic by implementing your own Helm “functions” and exploiting the capabilities of the tpl function.
 
 ## Helm Chart Documentation
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)
@@ -64,6 +71,7 @@
 * [rafay.co: Helm Chart Hooks Tutorial](https://rafay.co/the-kubernetes-current/helm-chart-hooks-tutorial/)
 * [itnext.io: Helm: reusable chart — named templates, and a generic chart for multiple applications](https://itnext.io/helm-reusable-chart-named-templates-and-a-generic-chart-for-multiple-applications-13d9b26e9244) Designing reusable chart with Helm:  named templates, and a generic chart for multiple applications
 * [jfrog.com: Helm is for everyone! (download your free helm guide) ](https://jfrog.com/assets/helm-is-for-everyone/)
+* [thenewstack.io: Applying Kubernetes Security Best Practices to Helm Charts 🌟](https://thenewstack.io/applying-kubernetes-security-best-practices-to-helm-charts/)
 
 ## Kubecrt
 * [Kubecrt](https://github.com/blendle/kubecrt)
@@ -79,7 +87,7 @@ Kubernetes packages
 * [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
 * [JFrog ChartCenter](https://chartcenter.io/)
     * [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications 
-* [Artifact Hub](https://artifacthub.io/)
+* [Artifact Hub 🌟](https://artifacthub.io/) Find, install and publish Kubernetes packages
 * [KubeApps Hub](https://hub.kubeapps.com/)
 * [github: Nova 🌟](https://github.com/fairwindsops/nova) Find outdated or deprecated Helm charts running in your cluster.
 * [github: Kubernetes Deployment Orchestrator](https://github.com/SAP/kubernetes-deployment-orchestrator) This project brings the starlark scripting language to helm charts.
@@ -106,5 +114,13 @@ Kubernetes packages
 ## Database Migrations
 - [itnext.io: Database migrations on Kubernetes using Helm hooks](https://itnext.io/database-migrations-on-kubernetes-using-helm-hooks-fb80c0d97805)
 
+## Helm Tools 
+- [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
+- [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
+
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is Three-way Strategic Merge Update in <a href="https://twitter.com/hashtag/Helm?src=hash&amp;ref_src=twsrc%5Etfw">#Helm</a>?<br><br>A 3-way merge reconciles a modified configuration with an original configuration while preserving any changes or deletions made to the original configuration in the interim.<br>more... 👇<a href="https://twitter.com/learnk8s?ref_src=twsrc%5Etfw">@learnk8s</a> <a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/cncf?src=hash&amp;ref_src=twsrc%5Etfw">#cncf</a> <a href="https://twitter.com/hashtag/k8s?src=hash&amp;ref_src=twsrc%5Etfw">#k8s</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://t.co/HlmPeHG8On">pic.twitter.com/HlmPeHG8On</a></p>&mdash; Rahul Rai🌥️ (@rahulrai_in) <a href="https://twitter.com/rahulrai_in/status/1397768176297865221?ref_src=twsrc%5Etfw">May 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

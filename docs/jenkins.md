@@ -18,12 +18,15 @@
         - [Jenkinsfile Runner. Serverless / function-as-a-service build execution](#jenkinsfile-runner-serverless--function-as-a-service-build-execution)
     - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
         - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
+    - [Jenkins Job Builder](#jenkins-job-builder)
 - [Jenkins Pipeline Unit Testing Framework](#jenkins-pipeline-unit-testing-framework)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
 - [Jenkins Tools](#jenkins-tools)
     - [Plugin Installation Manager Tool](#plugin-installation-manager-tool)
     - [Pipeline Development Tools](#pipeline-development-tools)
+    - [Custom WAR Docker Packager](#custom-war-docker-packager)
+    - [jenkins-std-lib Jenkins Standard Shared Library](#jenkins-std-lib-jenkins-standard-shared-library)
 - [Jenkins Multibranch Pipeline](#jenkins-multibranch-pipeline)
     - [Multibranch Pipelines with Kubernetes](#multibranch-pipelines-with-kubernetes)
 - [Jenkins Plugins](#jenkins-plugins)
@@ -96,6 +99,20 @@
 * [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs) Jenkins' default logs can be hard to read, but they don't have to be.
 * [medium: Dynamic and reactive parameterization in Jenkins pipelines using HTML, Groovy, and Bash 🌟](https://medium.com/globant/dynamic-and-reactive-parameterization-in-jenkins-pipelines-using-html-groovy-and-bash-27b031fcd69b) - [Jenkins Plugin: Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) The Active Choices plugin is used in parametrized freestyle Jenkins jobs to create scripted, dynamic and interactive job parameters. Active Choices parameters can be dynamically updated and can be rendered as combo-boxes, check-boxes, radio-buttons or rich HTML UI widgets.
 * [automationreinvented.blogspot.com: How to schedule a job in Jenkins pipeline? How to run automation suite everyday with auto trigger scheduler?](https://automationreinvented.blogspot.com/2021/05/how-to-schedule-job-in-jenkins-pipeline.html)
+* [automationscript.com: How To Read Jenkins Build Log Console Output](https://automationscript.com/how-to-read-console-output-in-jenkins-pipeline/)
+* [cloudbees.com: So, Your Jenkins Is Slow. Here’s How to Fix It 🌟](https://www.cloudbees.com/blog/your-jenkins-slow-how-to-fix)
+* [youtube: Jenkins World 2017: How to Use Jenkins Less 🌟](https://www.youtube.com/watch?v=Zeqc6--0eQw&ab_channel=CloudBeesTV) In 
+jenkinsci CloudBees' advice is to use build tool features when possible (Maven/Gradle/make/etc.). When the tools are not enough and you need a distributed orchestrator/reporting layer, this is where Jenkins shines. - [slides & demos](https://github.com/jglick/jk--)
+* [youtube: Build Docker Image using Jenkins Pipeline | Push Docker Image to Docker Hub using Jenkins 🌟](https://www.youtube.com/watch?v=ShTC1u7_jew&ab_channel=DevOpsHint)
+* [sngular.com: QA + DEVOPS - Dockerizando un pipeline de Jenkins](https://www.sngular.com/es/qa-devops-dockerizando-un-pipeline-de-jenkins/)
+* [youtube: Online Meetup: From local installation to scalable Jenkins on Kubernetes 🌟](https://www.youtube.com/watch?v=BsYYVkophsk)
+* [youtube: Jenkins and Sonarqube Integration with Maven | SonarScanner for Maven and Integrate with Jenkins](https://www.youtube.com/watch?v=yEyVXUExSqs&ab_channel=DevOpsHint)
+* [youtube: LambdaTest - Jenkins Tutorial For Beginners | Part 7 | Adding A Jenkins Controller & Jenkins Agent Node On Azure](https://www.youtube.com/watch?v=-NUQhwmhTCw&ab_channel=LambdaTest)
+* [youtube: Jenkins On Kubernetes Tutorial | How to setup Jenkins on kubernetes cluster | Thetips4you 🌟](https://www.youtube.com/watch?v=_r-C_FFDLmU&ab_channel=Thetips4you)
+* [docs.google.com: Jenkins Artwork Social Media & Open Graph Images](https://docs.google.com/presentation/d/1Q1PgNnRTgzBpVRXPqQo3PudzCa2eoc6_1_NRjFRMLrU/edit#slide=id.g778409cba7_0_46) Google Slides is one of the easiest ways to collaborate on open graphs and other artwork in the community. Main jenkinsci slidedeck is here.
+* [automationreinvented.blogspot.com: How to send email notification in Jenkins using Groovy Script?](https://automationreinvented.blogspot.com/2021/06/how-to-send-email-notification-in.html)
+* [gist.github.com/twasink: Jenkins Image, using Docker-in-Docker 🌟](https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f)
+* [youtube: Run Jenkins Pipeline With AWS ECS Fargate & AWS EC2 Based ECS Cluster | Learn DevOps Tools Ep4](https://www.youtube.com/watch?v=K2CBHLwPL50&ab_channel=SandipDas)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -263,9 +280,17 @@
 * [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) It improves the modifying Web UI configuration controls to support the read-only mode.
 * [cloudbees.com: All Tier 1 Plugins Support Configuration as Code 🌟🌟](https://www.cloudbees.com/blog/configuration-as-code-plugin-support)
 * [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins)
+* [iceburn.medium.com: Jenkins Configuration As Code](https://iceburn.medium.com/jenkins-configuration-as-code-afd9031a42c9)
+* [werner-dijkerman.nl: Jenkins as code, part 1: Setting up Jenkins in Docker (JCasC)](https://werner-dijkerman.nl/2021/06/14/jenkins-as-code-part-1-setting-up-jenkins-in-docker/)
+    * [werner-dijkerman.nl: Jenkins as code, part 2: Setting up the Jenkins job (job-dsl-plugin, sharedlibrary & jenkinsfile)](https://werner-dijkerman.nl/2021/06/17/jenkins-as-code-part-2-setting-up-the-jenkins-job/)
 
 #### Read-only Jenkins Configuration
 - [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) This feature allows restricting configuration UIs and APIs while providing access to essential Jenkins system configuration, diagnostics, and self-monitoring tools through Web UI. Such mode is critical for instances managed as code, e.g. with Jenkins [Configuration-as-Code plugin](https://plugins.jenkins.io/configuration-as-code). It is delivered as a part of the [JEP-224: Read-only system configuration](https://github.com/jenkinsci/jep/blob/master/jep/224/README.adoc) effort.
+
+### Jenkins Job Builder
+* [jenkins-job-builder.readthedocs.io 🌟](https://jenkins-job-builder.readthedocs.io/) Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML or JSON format and uses them to configure Jenkins. You can keep your job descriptions in human readable text format in a version control system to make changes and auditing easier. It also has a flexible template system, so creating many similarly configured jobs is easy.
+* [docs.openstack.org: Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/index.html) 
+* [faun.pub: Automate Jenkins Pipelines management with Jenkins Job Builder 🌟](https://faun.pub/automate-jenkins-pipelines-management-6e771b5890f) - [demo code](https://github.com/mysticrenji/jenkins-cicd-pipelines)
 
 ## Jenkins Pipeline Unit Testing Framework
 - [github.com/jenkinsci/JenkinsPipelineUnit: Framework for unit testing Jenkins pipelines 🌟](https://github.com/jenkinsci/JenkinsPipelineUnit) Jenkins Pipeline Unit is a testing framework for unit testing Jenkins pipelines, written in [Groovy Pipeline DSL](https://www.jenkins.io/doc/book/pipeline/). If you aren't using jenkinsUnit to test your jenkins pipeline code, then I've got a treat for you. TDD with pipeline is possible and can centralized in a sharedLib can really improve development. (works nicely with Spock too)
@@ -305,6 +330,12 @@
 ### Pipeline Development Tools 
 - [Pipeline Development Tools (Command-line Pipeline Linter)](https://www.jenkins.io/doc/book/pipeline/development/#linter)
 - [Validating Jenkinsfile in Vim and/or using CLI / terminal](https://gist.github.com/MorganGeek/2958ba47630a176733e0136b42557284)
+
+### Custom WAR Docker Packager
+- [jenkinsci/custom-war-packager 🌟](https://github.com/jenkinsci/custom-war-packager) Custom Jenkins WAR packager for Jenkins. Custom WAR Packager (CWP) allows building ready-to-fly Jenkins packages using a YAML specification. The tool can produce Docker images, WAR files, and Jenkinsfile Runner docker images (aka single-shot Jenkins masters). These bundles may include Jenkins core, plugins, extra libraries, and self-configuration via Groovy Hook Scripts or Configuration-as-Code Plugin YAML files.
+
+###  jenkins-std-lib Jenkins Standard Shared Library
+- [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) A set of useful tools for every day CI/CD jobs. Bringing the Zen of Python to Jenkins. **Run GitHub actions on Jenkins**
 
 ## Jenkins Multibranch Pipeline
 - The [Multibranch Pipeline 🌟](https://www.jenkins.io/doc/book/pipeline/multibranch/) enable developer to implement different Jenkinsfiles for different branches of the same project. It’s can discover branches and execute pipeline automatically with Jenkinsfiles in version control for better management pipeline.
@@ -364,6 +395,7 @@
     * [namecheap.com: Visualize Your Deployment Status with Jenkins 🌟](https://www.namecheap.com/blog/visualize-your-deployment-status-with-jenkins/)
 * [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) This plugin gives you the possibility to analyze the usage of your installed plugins.
 * [Pipeline as YAML (Incubated) 🌟](https://plugins.jenkins.io/pipeline-as-yaml/)
+    * [ebook: Hands-on Pipeline as YAML with Jenkins: A Beginner's Guide to Implement CI/CD Pipelines for Mobile, Hybrid, and Web Applications Using Jenkins (English Edition)](https://www.amazon.com/gp/product/B0976SB2YG)
 * [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
 * [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
 * [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/)
@@ -391,6 +423,8 @@
 * [robot-plugin: Robot Framework Plugin](https://github.com/jenkinsci/robot-plugin) This plugin publishes [Robot Framework](https://robotframework.org/) test reports for Jenkins.
 * [Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) The Active Choices plugin is used in parametrized freestyle Jenkins jobs to create scripted, dynamic and interactive job parameters. Active Choices parameters can be dynamically updated and can be rendered as combo-boxes, check-boxes, radio-buttons or rich HTML UI widgets.
 * [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) This plugin lets you search for some text using regular expressions in a set of files or the console log. Based on the outcome, you can downgrade the build result to UNSTABLE, FAILURE, NOT_BUILT, or ABORTED.
+* [Pull Request Monitoring 🌟](https://github.com/jenkinsci/pull-request-monitoring-plugin) Jenkins plugin to monitor pull requests with customizable dashboard. You can also provide a view for your plugin that other developers can use in their dashboard.
+* [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) This plugin provides new Action and View to view a WorkflowRun via the "Pipeline Graph" visualization that was popularized in the Blue Ocean plugin.
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -441,6 +475,11 @@
 * [youtube - CloudBeesTV: Jenkins Performance: Avoiding Pitfalls, Diagnosing Issues & Scaling for Growth](https://www.youtube.com/watch?v=yTafQ-e84eY)
 * [Jenkins opentelemetry-plugin 🌟](https://github.com/jenkinsci/opentelemetry-plugin) Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller. What if you could transform your jenkinsci pipeline into an observable transaction that can be analyzed using OpenTelemetry backends such as Elastic APM? Code analyzed via code?
 * [influxdata.com: Monitoring Jenkins CI with InfluxDB](https://www.influxdata.com/influxdb-templates/jenkins-monitoring/)
+* [jenkins.io: Jenkins Remoting Monitoring 🌟](https://www.jenkins.io/projects/gsoc/2021/projects/remoting-monitoring/) Goal: Support monitoring of Jenkins remoting networking with open source monitoring tools such as Prometheus, Grafana, etc. 
+    * [Jenkins Remoting monitoring with OpenTelemetry Plugin 🌟](https://github.com/jenkinsci/remoting-opentelemetry-plugin) Publish Jenkins Remoting monitoring data to an OpenTelemetry endpoint.
+    * [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform)
+    * [github PR: Enable to provide telemetry data to OpenTelemetry Collector](https://github.com/jenkinsci/remoting-opentelemetry-plugin/pull/40) Great step forward for the troubleshooting of JenkinsCI Agents  with the visualization of the "Jenkins Remoting Keep Alive" messages as distributed traces
+* [influxdb-plugin](https://github.com/jenkinsci/influxdb-plugin) Jenkins plugin to send build metrics into InfluxDB
 
 ## Externalizing Fingerprint Storage for Jenkins 
 - New FingerprintStorage API to build external fingerprint storage plugins.
@@ -490,6 +529,10 @@
     * [Youtube: Jenkins X: Continuous Delivery for Kubernetes with James Strachan](https://www.youtube.com/watch?v=BF3MhFjvBTU)
     * [Youtube: Kubernetes Package Management with Helm and CI/CD with Jenkins X - Webinar by Neependra Khare](https://www.youtube.com/watch?v=oZOZiL6XIfA&feature=emb_title)
     * [go.digitalocean.com/cicd-on-k8s](https://go.digitalocean.com/cicd-on-k8s)
+* [blog.csanchez.org: Serverless Jenkins Pipelines with Google Cloud Run](https://blog.csanchez.org/2021/06/15/serverless-jenkins-pipelines-with-google-cloud-run/)
+    1. Jobs execute in Cloud Run (fast, scalable, pay per use compute)
+    2. Ships as a container (extensible)
+    3. Posts cat pics (amazing)
 
 ## Jenkins and SAP
 - [blogs.sap.com: Continuous quality using plugins and Jenkins (ABAP & UI5)](https://blogs.sap.com/2020/10/18/continuous-quality-using-plugins-and-jenkins-abap-ui5/)
@@ -510,5 +553,9 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hudson as in 2008 is dead. Jenkins as in 2012 is legacy. Jenkins as in 2021 is different: Pipeline, CasC, K8s, etc. The secret of long term survival is constant evolution. <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> has been changing A LOT, and it should keep doing so.<br><br>What do you want to see in Jenkins next? <a href="https://t.co/v5U40obh7M">https://t.co/v5U40obh7M</a> <a href="https://t.co/GHkhEj81x4">pic.twitter.com/GHkhEj81x4</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1387774862111002627?ref_src=twsrc%5Etfw">April 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> tricks you should know✅<br>A thread🧵👇<a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a></p>&mdash; gekocloud (@geko_cloud) <a href="https://twitter.com/geko_cloud/status/1403282847096573955?ref_src=twsrc%5Etfw">June 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
