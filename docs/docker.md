@@ -1,6 +1,7 @@
 # Docker
 - [Introduction and Tutorials](#introduction-and-tutorials)
 - [Awesome Lists](#awesome-lists)
+- [Docker VS Kubernetes](#docker-vs-kubernetes)
 - [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
 - [Security](#security)
 - [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
@@ -81,6 +82,9 @@
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
 * [Awesome Compose 🌟](https://github.com/docker/awesome-compose)
 
+## Docker VS Kubernetes
+- [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/)
+
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
 
@@ -107,7 +111,7 @@
 ## Modify containers without rebuilding
 * [cloudowski.com: How to modify containers without rebuilding their image](https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/)
 
- ## Docker Tools
+## Docker Tools
 - [Top 50 Docker Tools](https://blog.inedo.com/top-50-docker-tools)
 - [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin/)
 - [dive 🌟](https://github.com/wagoodman/dive) A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image. Use the dive tool to analyze a Docker image of your application. What did I learn? While Jib creates 3 layers for Spring Boot app (dependencies, resources and classes), Paketo Buildpacks places resources and classes in the same layer.
