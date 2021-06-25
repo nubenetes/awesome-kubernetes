@@ -122,6 +122,7 @@
 * [linuxtechi.com: How to Use Loops in Ansible Playbook](https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/)
 * [Ansible Let's Encrypt Collection](https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection)
 * [redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟](https://www.redhat.com/sysadmin/troubleshoot-ansible-playbooks) Here are six ways you can check for problems when running Ansible playbooks.
+* [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/sysadmin/extra-variables-ansible-playbook) Learn how to pass variables to your Ansible playbooks makes them more portable and flexible.
 
 ### Running Ansible Playbooks From Jenkins
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)

@@ -125,6 +125,7 @@
 - [cloud-viadee.medium.com: GitOps for IT-Architects: Transparent and Secure Kubernetes deployments](https://cloud-viadee.medium.com/gitops-for-it-architects-6312e7822819)
 - [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49) From manually deployed monoliths to containers and GitOps with Weaveworks Flux
 - [thenewstack.io: GitOps at Home: Automate Code Deploys with Kubernetes and Flux](https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux/)
+- [medium: Integrating GitOps Deployments in Kubernetes Using Weave Flux](https://medium.com/contino-engineering/integrating-gitops-deployments-in-kubernetes-using-weave-flux-9a617ea17684)
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.

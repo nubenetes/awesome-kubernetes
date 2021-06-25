@@ -546,6 +546,7 @@
 * [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/)
 * [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?](https://www.talos-systems.com/blog/is-vanilla-kubernetes-really-too-heavy-for-the-raspberry-pi/)
 * [towardsdatascience.com: Kubernetes 101: Cluster Architecture](https://towardsdatascience.com/kubernetes-101-cluster-architecture-d79995785563) They say a picture is worth a thousand (or a million) words
+* [blog.kintone.io: Tolerating failures in container image registries 🌟](https://blog.kintone.io/entry/neco-registry)
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
@@ -1762,6 +1763,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
 ### Kubernetes Distributions
+- [acloudguru.com: Which Kubernetes distribution is right for you?](https://acloudguru.com/blog/engineering/which-kubernetes-distribution-is-right-for-you)
 #### Red Hat OpenShift 
 * [Openshift Container Platform](openshift.md)
 * [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift

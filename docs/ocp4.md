@@ -502,6 +502,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 - Open Source [ProjectQuay.io](https://www.projectquay.io/) Container Registry: 
     - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
     - [github.com/quay](https://github.com/quay)
+- [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds)
 
 ### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.

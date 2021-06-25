@@ -10,6 +10,7 @@
         - [Prometheus for OpenShift 3.11](#prometheus-for-openshift-311)
     - [OpenShift 4](#openshift-4)
 - [Prometheus](#prometheus)
+    - [Promgen](#promgen)
     - [Promcat Resource Catalog](#promcat-resource-catalog)
     - [Prometheus Demo](#prometheus-demo)
     - [Prometheus Storage](#prometheus-storage)
@@ -232,8 +233,13 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [portworx.com: Monitoring Kubernetes Backup with Prometheus and Grafana](https://portworx.com/kubernetes-backup-monitoring/)
 * [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://sysdig.com/blog/postgresql-monitoring/)
 * [itnext.io: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b)
+* [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc) Starting your journey in observability by gathering metrics with Prometheus
+* [innoq.com: Scraping a Docker swarm service with Prometheus](https://www.innoq.com/en/blog/scraping-docker-swarm-service-instances-with-prometheus/)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
+
+### Promgen
+- [Promgen 🌟](https://github.com/line/promgen) Promgen is a configuration file generator for Prometheus
 
 ### Promcat Resource Catalog
 - [Promcat: A resource catalog for enterprise-class Prometheus monitoring 🌟](https://promcat.io/)
@@ -300,6 +306,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker/)
 
 ### Collectors. Software exposing Prometheus metrics
+- http://localhost:9090/targets : you should see a list of targets that you Prometheus server is scraping. 
 
 #### Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)
 * Prometheus proporciona un ecosistema de **"exporters"**, los cuales permiten que herramientas de terceros puedan exportar sus datos en Prometheus. Muchos componentes de software de código abierto son compatibles por defecto. 

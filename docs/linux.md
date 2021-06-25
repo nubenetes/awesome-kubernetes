@@ -146,6 +146,7 @@
 - [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux/)
 - [cyberciti.biz: How to flush Redis cache and delete everything using the CLI](https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli/)
 - [cyberciti.biz: How To: Linux Find Large Files in a Directory](https://www.cyberciti.biz/faq/find-large-files-linux/)
+- [linuxteck.com: 15 basic curl command in Linux with practical examples](https://www.linuxteck.com/curl-command-in-linux-with-examples/)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
