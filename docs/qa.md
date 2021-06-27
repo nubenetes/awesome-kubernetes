@@ -20,6 +20,9 @@
 * [blog.thundra.io: 4 Software Testing Roles](https://blog.thundra.io/4-software-testing-roles)
 * [lambdatest.com: TestNG vs JUnit : Which testing framework should you choose?](https://www.lambdatest.com/blog/testng-vs-junit-which-testing-framework-should-you-choose/)
 * [botplayautomation.com: Common mistakes test teams make in automation testing and how to fix them](https://www.botplayautomation.com/post/common-mistakes-test-teams-make-in-automation-testing-and-how-to-fix-them)
+* [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://blog.testproject.io/2021/06/17/a-complete-guide-to-test-automation-framework/) 
+    * [Test Automation Framework: TestProject](https://testproject.io/) TestProject is a free end-to-end test automation platform for web, mobile, and API testing that’s supported by
+the #1 test automation community.
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.
@@ -33,6 +36,7 @@
 * [Semgrep](https://semgrep.dev/) Static analysis at ludicrous speed. Find bugs and enforce code standards
     * [meetup.com: A single open-source security scanner for most languages on Jenkins](https://www.meetup.com/es/Jenkins-online-meetup/events/276135789/) As software security is becoming an increasingly bigger organization risk, static and dynamic analysis are becoming indispensable. However most popular open-source static analysis scanners cover only a handful of languages, or offer limited security rules. In this talk, we’ll present Semgrep, an open-source static analysis tool that support 12+ languages, and simplifies writing custom rules for organization-specific code patterns. In addition, we’ll show how to integrate Semgrep into a Jenkins Pipeline for scanning every commit or PR.
 * [testcontainers 🌟](https://github.com/testcontainers) Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+    * [thenewstack.io: Testcontainers Integration Library Gets Commercial Backing with AtomicJar](https://thenewstack.io/testcontainers-integration-library-gets-commercial-backing-with-atomicjar/)
 * [Metabob](https://www.metabob.com/) Metabob is an AI Static Analysis Tool that enables developers to quickly identify the causes behind errors and performance sinks. An AI-assisted tool to visualize and debug Python code.
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)

@@ -13,6 +13,7 @@
 - [Azure OpenVPN](#azure-openvpn)
 - [Azure Security](#azure-security)
 - [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+- [Windows 11](#windows-11)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -129,6 +130,9 @@
 ## WinGet Windows Package Manager CLI
 - [WinGet: Welcome to the Windows Package Manager Client (aka winget.exe) repository](https://github.com/microsoft/winget-cli/) Windows Package Manager CLI (aka winget)
 - [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10/)
+
+## Windows 11
+- [thenewstack.io: This Week in Programming: Windows Opens Up to Android Developers](https://thenewstack.io/this-week-in-programming-windows-opens-up-to-android-developers/)
 
 <center>
 [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)

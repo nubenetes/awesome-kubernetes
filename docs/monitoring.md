@@ -999,12 +999,13 @@ done
     * [datadoghq.com](https://www.datadoghq.com/)
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
-    * [skywalking.apache.org](https://skywalking.apache.org/)
+    * [skywalking.apache.org 🌟](https://skywalking.apache.org/)
         * [tetrate.io: SkyWalking 8.4 provides infrastucture monitoring for VMs](https://www.tetrate.io/blog/27835-revision-v1/)   
         * [thenewstack.io: End-User Tracing in a SkyWalking-Observed Browser](https://thenewstack.io/end-user-tracing-in-a-skywalking-observed-browser/)
     * [AppDynamics 🌟](https://www.appdynamics.com/)
     * [New Relic 🌟](https://newrelic.com/)
     * [Dynatrace 🌟](https://www.dynatrace.com/)
+    * [SigNoz 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
 
 ### Elastic APM
 - [Elastic APM](https://www.elastic.co/products/apm)

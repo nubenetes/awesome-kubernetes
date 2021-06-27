@@ -77,6 +77,7 @@
 * [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://releasehub.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
 * [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
 * [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/reference/integrations/integration-docker/) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+* [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
 
 ## Awesome Lists
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)

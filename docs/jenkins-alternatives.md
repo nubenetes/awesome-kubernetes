@@ -109,6 +109,7 @@
     * [cd.foundation: Tekton Pipelines Kickstarter. Cloud Native CI/CD with Tekton — Building Custom Tasks](https://cd.foundation/blog/2021/04/22/cloud-native-ci-cd-with-tekton-building-custom-tasks)
     * [openshift.com: Running Testcontainers in OpenShift Pipelines With Docker-in-Docker (with Tekton)](https://www.openshift.com/blog/running-testcontainers-in-openshift-pipelines-with-docker-in-docker)
     * [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub repos using Tekton](https://blog.harbur.io/the-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde)
+    * [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb) Learn how to use, build and deploy custom Tasks for Cloud-Native CI/CD on Kubernetes with Tekton Pipelines…
 * [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator)
     * [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)
     * [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial)

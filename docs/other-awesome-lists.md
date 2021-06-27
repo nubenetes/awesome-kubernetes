@@ -46,6 +46,11 @@
 - [Awesome Container](https://github.com/tcnksm/awesome-container) A curated list of awesome container technologies and services
 - [Awesome Productivity](https://github.com/jyguyomarch/awesome-productivity) A curated list of delightful productivity resources.
 - [Awesome Linux](https://github.com/inputsh/awesome-linux) A list of awesome projects and resources that make Linux even more awesome
+- [The Book of Secret Knowledge 🌟](https://github.com/trimstray/the-book-of-secret-knowledge) A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
+- [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
+- [How they SRE](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)

@@ -280,6 +280,7 @@
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
 * [developers.redhat.com: How to deploy a Java application on Kubernetes in minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes) Move your legacy Java application into a container and deploy it to Kubernetes. The Developer Sandbox for Red Hat OpenShift is a free OpenShift cluster that gives you access to the cutting-edge technologies built on Kubernetes. A quick sign-up gets you a cluster and access to a set of developer tools and services. Move this Spring Pet Clinic example application into a container using the Source-to-Image (s2i) feature. 
+* [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift. Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/developer-sandbox/activities/deploying-full-stack-javascript-applications-to-the-sandbox/part1)
 
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.

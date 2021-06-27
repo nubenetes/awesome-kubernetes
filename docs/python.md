@@ -125,6 +125,8 @@
 - [towardsdatascience.com: 7 advanced pandas tricks for data science](https://towardsdatascience.com/7-advanced-tricks-in-pandas-for-data-science-41a71632b5d9) Pandas is the go-to library for data science. These are the shortcuts I use to do repetitive data science tasks faster and simpler.
 - [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) A handy concept for software development programs
 - [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file/)
+- [theglitchblog.com: Logging in Python Using Best Practices](https://theglitchblog.com/2021/06/17/logging-in-python-using-best-practices/)
+- [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
