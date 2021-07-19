@@ -282,6 +282,7 @@
 ## SQL
 - [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet/)
 - [sqltutorial.org: SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+- Kanak Infosystems LLP. [SQL Cheat Sheet](https://kanakinfosystems.com/blog/sql-cheat-sheet)
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
