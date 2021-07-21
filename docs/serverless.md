@@ -1,6 +1,6 @@
 # Serverless Architectures and Frameworks
 - [Serverless Architectures](#serverless-architectures)
-	- [Microservices vs. Serverless](#microservices-vs-serverless)
+	- [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
 	- [Case Studies](#case-studies)
 	- [FaaS: Function as a Service](#faas-function-as-a-service)
 	- [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
@@ -33,8 +33,9 @@
 * [dzone: Serverless Guide for Everyone 🌟](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 * [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes) If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.
 
-### Microservices vs. Serverless
+### Microservices vs. Serverless. Kubernetes vs Serverless
 * [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless/)
+* [cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟](https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose/)
 
 ### Case Studies
 * [dashbird.io: Serverless Case Study – Coca-Cola](https://dashbird.io/blog/serverless-case-study-coca-cola/)

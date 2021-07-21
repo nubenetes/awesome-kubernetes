@@ -4,6 +4,7 @@
 - [Datree](#datree)
 - [Kaniko Build Images in Kubernetes](#kaniko-build-images-in-kubernetes)
 - [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
+- [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
 - [Kubevela](#kubevela)
 - [Kubesploit](#kubesploit)
 
@@ -56,7 +57,8 @@
 * [k8s Spot Rescheduler](https://github.com/pusher/k8s-spot-rescheduler) is a tool that tries to reduce load on a set of Kubernetes nodes. It was designed with the purpose of moving Pods scheduled on AWS on-demand instances to AWS spot instances to allow the on-demand instances to be safely scaled down (By the Cluster Autoscaler). 
 * [kube-spot-termination-notice-handler](https://github.com/kube-aws/kube-spot-termination-notice-handler) is a Kubernetes DaemonSet designed to gracefully delete pods 2 minutes before an EC2 Spot Instance is terminated.
 * [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
-* [Polaris](https://github.com/FairwindsOps/polaris) helps Kubernetes users avoid common mistakes when configuring their workloads. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future.
+* [Polaris 🌟](https://github.com/FairwindsOps/polaris) helps Kubernetes users avoid common mistakes when configuring their workloads. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future.
+    * [cncf.io: What is Polaris? Kubernetes open source configuration validation 🌟](https://www.cncf.io/blog/2021/07/01/what-is-fairwinds-polaris-kubernetes-open-source-configuration-validation/)
 * [kmoncon](https://github.com/Stono/kconmon) Monitoring connectivity between your kubernetes nodes.
 * [Tesoro](https://github.com/kapicorp/tesoro) [Kapitan](https://kapitan.dev/) Secrets Controller for Kubernetes. Tesoro is Kapitan Admission Controller Webhook. Tesoro allows you to seamleslsly apply Kapitan secret refs in compiled Kubernetes manifests. As it runs in the cluster, it will be able to reveal embedded kapitan secret refs in manifests when applied.
 * [DAST operator](https://github.com/banzaicloud/dast-operator) Dynamic application security testing (DAST) is a Kubernetes operator that leverages OWASP ZAP to make automated basic web service security testing.
@@ -255,6 +257,12 @@
 * [Raspbernetes - Kubernetes Cluster: k8s-gitops](https://github.com/xUnholy/k8s-gitops) Kubernetes cluster managed by GitOps - Git as a single source of truth, automated pipelines, declarative everything, next-generation DevOps. This repo is a declarative implementation of a Kubernetes cluster. It's using the GitOps Toolkit known as Fluxv2. The goal is to demonstrates how to implement enterprise-grade security, observability, and overall cluster config management using GitOps in a Kubernetes cluster.
 * [KubeHelper](https://github.com/kubehelper/kubehelper) KubeHelper - simplifies many daily Kubernetes cluster tasks through a web interface. Search, analysis, run commands, cron jobs, reports, filters, git synchronization and many more.
 * [Kpexec](https://github.com/ssup2/kpexec) kpexec is a kubernetes cli that runs commands in a container with high privileges. 
+* [OpenShiftKubeAudit](https://github.com/AICoE/OpenShiftKubeAudit) An auditing program to detect incompatibilities in Kubernetes manifests brought over to OpenShift. This auditing tool currently only supports Kubernetes manifests, but we plan to expand it to include Helm charts and Go code, as well. The tool is in very early stages, but is looking for community input to help add use cases.
+* [Kubernetes Kpt in The Wild: What it is and how to use it 🌟](https://labs.meanpug.com/kubernetes-kpt-in-the-wild) Kubernetes Kpt is tooling by Google that facilitates a structured approach to defining, managing, and distributing kubernetes templates between teams and orgs.
+* [RollingUpgrade](https://github.com/keikoproj/upgrade-manager) Reliable, extensible rolling-upgrades of Autoscaling groups in Kubernetes
+* [Kerbi 🌟](https://github.com/nmachine-io/kerbi) Kerbi (Kubernetes Emdedded Ruby Interpolator) is yet another templating engine for generating Kubernetes resource manifests. It enables multi-strategy, multi-source templating, giving you the freedom to design highly specialized templating pipelines.
+* [Kourier](https://github.com/knative-sandbox/net-kourier) Purpose-built Knative Ingress implementation using just Envoy with no additional CRDs. Kourier is an Ingress for Knative Serving. Kourier is a lightweight alternative for the Istio ingress as its deployment consists only of an Envoy proxy and a control plane for it.
+* [space-cloud: Develop, Deploy and Secure Serverless Apps on Kubernetes.](https://github.com/spacecloud-io/space-cloud) Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes - [space-cloud.io](https://space-cloud.io/) Space Cloud is a Kubernetes based serverless platform that provides instant, realtime APIs on any database, with event triggers and unified APIs for your custom business logic.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
@@ -270,6 +278,9 @@
 ## BuildKit CLI for kubectl
 - [BuildKit CLI for kubectl (by vmware-tanzu) 🌟](https://github.com/vmware-tanzu/buildkit-cli-for-kubectl) BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.
 - [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl/) With BuildKit CLI for kubectl a drop in replacement for docker build
+
+## Buildpacks vs Dockerfiles
+- [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) Exploring the tradeoffs of building container images at scale
 
 ## Kubevela
 - [kubevela.io 🌟](https://kubevela.io/) KubeVela is a modern application platform that makes deploying and managing applications across today's hybrid, multi-cloud environments easier and faster. KubeVela is runtime agnostic, natively extensible, yet most importantly, application-centric .

@@ -113,6 +113,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [automationreinvented.blogspot.com: How to send email notification in Jenkins using Groovy Script?](https://automationreinvented.blogspot.com/2021/06/how-to-send-email-notification-in.html)
 * [gist.github.com/twasink: Jenkins Image, using Docker-in-Docker 🌟](https://gist.github.com/twasink/d52ef998b2a5b24cdfaa9e7358c5282f)
 * [youtube: Run Jenkins Pipeline With AWS ECS Fargate & AWS EC2 Based ECS Cluster | Learn DevOps Tools Ep4](https://www.youtube.com/watch?v=K2CBHLwPL50&ab_channel=SandipDas)
+* [youtube LambdaTest: Jenkins Tutorial For Beginners | Part 9 | Cross Browser Testing With LambdaTest Jenkins Plugin](https://www.youtube.com/watch?v=x5cyrE9ecis&ab_channel=LambdaTest)
+* [medium: Integrate BitBucket & Jenkins](https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe) Connect Jenkins and Bitbucket. And trigger a job automatically in Jenkins when a new code is committed in Bitbucket.
+* [developer.okta.com: Update App Secrets with Jenkins CI and .NET Core](https://developer.okta.com/blog/2021/07/08/jenkins-ci-dotnet-update-secrets)
+* [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -376,7 +380,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean/)
 * [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow)
 * [Cloudbees Credentials 🌟](https://plugins.jenkins.io/cloudbees-credentials)
-* [CloudBees Health Advisor](https://plugins.jenkins.io/cloudbees-jenkins-advisor)
+* [CloudBees Health Advisor 🌟](https://plugins.jenkins.io/cloudbees-jenkins-advisor) Jenkins Health Advisor by CloudBees (formerly known as "CloudBees Jenkins Advisor") proactively notifies you of problems with your Jenkins-based environment. Jenkins Health Advisor by CloudBees identifies numerous issues before they affect your users, including security vulnerabilities, performance problems, and plugin version issues. Best of all, Jenkins Health Advisor by CloudBees is constantly being improved by the CloudBees Support and Engineering teams to cover the most recent identified issues.
 * [CloudBees Disk Usage Simple](https://plugins.jenkins.io/cloudbees-disk-usage-simple)
 * [CloudBees AWS Credentials 🌟](https://plugins.jenkins.io/aws-credentials)
 * [CloudBees Docker Custom Build Environment](https://plugins.jenkins.io/docker-custom-build-environment)
@@ -425,6 +429,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) This plugin lets you search for some text using regular expressions in a set of files or the console log. Based on the outcome, you can downgrade the build result to UNSTABLE, FAILURE, NOT_BUILT, or ABORTED.
 * [Pull Request Monitoring 🌟](https://github.com/jenkinsci/pull-request-monitoring-plugin) Jenkins plugin to monitor pull requests with customizable dashboard. You can also provide a view for your plugin that other developers can use in their dashboard.
 * [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) This plugin provides new Action and View to view a WorkflowRun via the "Pipeline Graph" visualization that was popularized in the Blue Ocean plugin.
+* [URL Filter Plugin](https://github.com/jenkinsci/url-filter-plugin) This plugin enables filtering servlet/http/url requests in Jenkins and blocking the ones which are matched with the given Regex Pattern.
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

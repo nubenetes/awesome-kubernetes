@@ -64,6 +64,8 @@
 * [jasiek-petryk.medium.com: Setting up a private Helm chart repository on GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)
 * [betterprogramming.pub: How To Continuously Test and Deploy Your Helm Charts on Kubernetes Clusters Using Kind](https://betterprogramming.pub/how-to-continuously-test-and-deploy-your-helm-charts-on-kubernetes-clusters-using-kind-d71e3585d2dc) Set up your CI/CD tools to easily test and publish charts on ephemeral Kubernetes clusters
 * [blog.flant.com: Making the most out of Helm templates 🌟](https://blog.flant.com/advanced-helm-templating/) The standard Helm library and traditional approaches to creating Helm charts are generally okay to automate non-complex tasks. But the growing complexity and number of Helm charts rapidly make the minimalistic Helm templates and controversial standard Helm library insufficient. In this article, we will show you how to make your Helm templates much more flexible and dynamic by implementing your own Helm “functions” and exploiting the capabilities of the tpl function.
+* [levelup.gitconnected.com: Helm 101 for Developers](https://levelup.gitconnected.com/helm-101-for-developers-1c28e734937e)
+* [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 
 ## Helm Chart Documentation
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)
@@ -91,6 +93,7 @@ Kubernetes packages
 * [KubeApps Hub](https://hub.kubeapps.com/)
 * [github: Nova 🌟](https://github.com/fairwindsops/nova) Find outdated or deprecated Helm charts running in your cluster.
 * [github: Kubernetes Deployment Orchestrator](https://github.com/SAP/kubernetes-deployment-orchestrator) This project brings the starlark scripting language to helm charts.
+* [harness.io: Tutorial: Turning a GitHub Repo Into a Helm Chart Repo](https://harness.io/blog/devops/helm-chart-repo/)
   
 ## Helm Charts
 * [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
@@ -117,6 +120,7 @@ Kubernetes packages
 ## Helm Tools 
 - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
 - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
+- [helm-scanner](https://github.com/bridgecrewio/helm-scanner/) Open source IaC security scanner for public Helm charts
 
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

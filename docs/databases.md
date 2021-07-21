@@ -60,9 +60,15 @@
 * [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://blog.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)
 * [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized/)
 * [percona.com: Autoscaling Databases in Kubernetes for MongoDB, MySQL, and PostgreSQL](https://www.percona.com/blog/2021/06/23/autoscaling-databases-in-kubernetes-for-mongodb-mysql-and-postgresql/)
+* [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d) Think Big, Do Small, Learn Fast
+* [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)
+* [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106) When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.
+* [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/)
+* [redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟](https://redislabs.com/blog/dbless-architecture-and-why-its-the-future/) DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
+- [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference/)
 
 ## Performance
 - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739) “If everything seems under control, you’re not going fast enough”
@@ -170,6 +176,8 @@
 * [blog.crunchydata.com: Query Optimization in Postgres with pg_stat_statements](https://blog.crunchydata.com/blog/tentative-smarter-query-optimization-in-postgres-starts-with-pg_stat_statements)
 * [blog.crunchydata.com: Kubernetes Pod Tolerations and Postgres Deployment Strategies 🌟](https://blog.crunchydata.com/blog/kubernetes-pod-tolerations-and-postgresql-deployment-strategies)
 * [blog.crunchydata.com: Active-Active PostgreSQL Federation on Kubernetes](https://blog.crunchydata.com/blog/active-active-postgres-federation-on-kubernetes)
+* [blog.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://blog.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
+* [blog.crunchydata.com: Next Generation Crunchy Postgres for Kubernetes 5.0 Released](https://blog.crunchydata.com/news/next-generation-crunchy-postgres-for-kubernetes-released)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -812,6 +820,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [dbasecenter.com: The top 5 MySQL performance variables](https://dbasecenter.com/blog/the-top-5-mysql-performance-variables/)
 - [opensource.com](https://opensource.com/article/21/5/mysql-query-tuning) Tune your MySQL queries like a pro. Optimizing your queries isn't a dark art; it's just simple engineering.
 - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/2021/06/23/mysql-on-kubernetes-with-gitops/)
+- [Moco](https://cybozu-go.github.io/moco/) MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.
 
 ## MariaDB
 - [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java/)
@@ -843,6 +852,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## Data Analytics and Visualization Tools
 - [opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics](https://opensource.com/article/21/4/visualize-data-eda) - [EDA](https://eda.jortilles.com/en/jortilles-english/)
+- [thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium](https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium/)
 
 ## Data Lakes
 - [unifieddatascience.com: Data lake design patterns on Azure (Microsoft) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-azure-microsoft-cloud)

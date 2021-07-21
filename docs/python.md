@@ -127,6 +127,10 @@
 - [dineshkumarkb.com: How to specify non PYPI requirements in your requirements.txt file](https://dineshkumarkb.com/tech/how-to-specify-non-pypi-requirements-in-your-requirements-txt-file/)
 - [theglitchblog.com: Logging in Python Using Best Practices](https://theglitchblog.com/2021/06/17/logging-in-python-using-best-practices/)
 - [jhhemal.medium.com: Some Tips and Tricks for Writing Better Code in Python](https://jhhemal.medium.com/some-tips-and-tricks-for-writing-better-code-in-python-f65e4b6814fd)
+- [jhhemal.medium.com: Some Essential Built-in Tools for Working with Lists](https://jhhemal.medium.com/some-essential-built-in-tools-for-working-with-lists-81c4f9d5f25e)
+- [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python/)
+- [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process/)
+- [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/3623689/how-to-use-the-python-for-loop.html) The for loop construction in Python easily iterates over a collection of items. Here’s what you need to know to use it well.
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -257,6 +261,7 @@
 
 ## Python Libraries
 - [Click 🌟](https://click.palletsprojects.com/) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
+- [towardsdatascience.com: Auto Import Python Libraries](https://towardsdatascience.com/auto-import-python-libraries-d095a11b4cca) Using Pyforest to import important python libraries
 
 ## Python Snippets
 - [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e)

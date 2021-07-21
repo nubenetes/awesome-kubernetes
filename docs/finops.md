@@ -14,6 +14,8 @@
 - [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops/)
 - [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs/)
 - [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead/)
+- [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/)
+- [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://loft.sh/blog/the-cost-of-managed-kubernetes-a-comparison/)
 
 ## Books
 - [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)

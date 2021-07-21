@@ -11,6 +11,7 @@
 - [Running Ansible Playbooks](#running-ansible-playbooks)
 	- [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
 	- [Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower--ansible-awx-running-ansible-playbooks-from-ansible-tower)
+		- [Tower & AWX Installers](#tower--awx-installers)
 	- [Alternatives to Ansible Tower](#alternatives-to-ansible-tower)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
@@ -21,6 +22,8 @@
 - [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
 - [Dynatrace with Ansible](#dynatrace-with-ansible)
 - [SQL Server with Ansible](#sql-server-with-ansible)
+- [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
+- [Oracle Database with Ansible](#oracle-database-with-ansible)
 - [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
 
 ## Configuration Management with Ansible DevOps Tool
@@ -78,6 +81,9 @@
 * [automateinfra.com: Everything about Ansible 🌟](https://automateinfra.com/everything-about-ansible/)
 * [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux 
 * [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands/)
+* [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases](https://k21academy.com/ansible/ansible-for-beginners)
+* [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
+* [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/sysadmin/6-code-pushes-aap) Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.
 
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
@@ -130,11 +136,27 @@
 
 ### Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower
 * [Ansible Tower](https://www.ansible.com/products/tower)
+* [Ansible Tower Docs](https://docs.ansible.com/ansible-tower/index.html)
 * [Ansible AWX](https://github.com/ansible/awx)
 * [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 * [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
 * [steampunk.si: Managing infrastructure using Ansible Tower](https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/)
+* [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx/)
+* [miquelmariano.github.io: Instalación de Ansible AWX sobre Centos 7 con Docker](https://miquelmariano.github.io/2020/01/15/instalacion-ansible-awx-docker-centos7/)
+* [techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8](https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html)
+* [developer.ibm.com: Automating IT infrastructure using Ansible and AWX](https://developer.ibm.com/technologies/systems/articles/automation-using-ansible-awx-gui/)
+
+#### Tower & AWX Installers
+* [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx) Installs and configures AWX (Ansible Tower's open source version).
+* [AWX Ansible Collection: galaxy.ansible.com/awx/awx](https://galaxy.ansible.com/awx/awx) This Ansible collection allows for easy interaction with an AWX server via Ansible playbooks.
+* [vagrant: ansible tower](https://app.vagrantup.com/ansible/boxes/tower)
+* [vagrant: centos-awx](https://app.vagrantup.com/krlex/boxes/centos-awx)
+* [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer) ansible awx golden image based amazon linux
+* [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) Packer image build code for Ansible AWX (Tower) Vagrant box
+* [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer/)
+* [artifacthub.io: Helm Charts - AWX](https://artifacthub.io/packages/search?ts_query_web=awx&sort=relevance&page=1)
+* [AWS Marketplace (AMIs): AWX/Tower](https://aws.amazon.com/marketplace/search/results?searchTerms=tower)
 
 ### Alternatives to Ansible Tower
 * [Jenkins](https://www.jenkins.io/)
@@ -183,6 +205,17 @@
 
 ## SQL Server with Ansible
 - [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/sysadmin/mssql-linux-easy)   
+
+## OCI Oracle Cloud Infrastructure with Ansible
+- [oci-ansible-collection.readthedocs.io](https://oci-ansible-collection.readthedocs.io/)
+## Oracle Database with Ansible
+- [github.com/oravirt/ansible-oracle](https://github.com/oravirt/ansible-oracle)
+- [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules) Oracle modules for Ansible
+- [oravirt.wordpress.com: Getting started with ansible-oracle](https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle/)
+- [oravirt.wordpress.com: Changes in ansible-oracle v1.2](https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2/)
+- [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus) Ansible role to install sqlplus tool to connect to an Oracle database server
+- [stackoverflow.com: Ansible playbook to execute Oracle script](https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script)
+- [stackoverflow.com: Running Oracle SQL scripts with Ansible playbook](https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook)
 
 ## Ansistrano. Deploying applications with Ansible in Capistrano style
 - [Ansistrano](https://github.com/ansistrano) 

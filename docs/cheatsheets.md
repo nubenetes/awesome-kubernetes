@@ -54,6 +54,8 @@
 - [cheat-sheets.org 🌟](http://www.cheat-sheets.org/)
 - [jimmysong.io/cheatsheets 🌟](https://jimmysong.io/cheatsheets/)
 - [simplecheatsheet.com](https://simplecheatsheet.com/)
+- [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c) This comprehensive guide covers everything DevOps
+- [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
@@ -106,6 +108,7 @@
 * [thechief.io: The Definitive Kubectl Cheat Sheet](https://thechief.io/c/editorial/definitive-kubectl-cheat-sheet/)
 * [ithands-on.com: Kubernetes 101 : kubectl - communication with pods and containers / running commands inside pods and containers](https://www.ithands-on.com/2021/05/kubernetes-101-kubectl-communication.html)
 * [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) Start exploring kubectl, containers, pods, and more, then download our free cheat sheet so you always have the key commands at your fingertips.
+* [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
 
 ## Docker Cheat Sheets
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -137,6 +140,7 @@
 * [towardsdatascience.com: 18 Git Commands I Learned During My First Year as a Software Developer](https://towardsdatascience.com/git-commands-cheat-sheet-software-developer-54f6aedc1c46)
 * [dzone: Top 35 Git Commands With Examples 🌟](https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus) Git commands are essential, and they help to manage your source code effectively. In this guide, you will learn Git commands from Beginners to Advanced level.
 * [gitexplorer.com: Git Command Explorer 🌟](https://gitexplorer.com/) Find the right commands you need without digging through the web.
+* [justingarrison.com: GitHub URL Hacks 🌟](https://www.justingarrison.com/blog/2021-07-11-github-url-hacks/) GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with curl and other CLI tools.
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
@@ -177,6 +181,7 @@
 * [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)
 * [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 * [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/) Deprecated Linux command and their replacement cheat sheet.
+* [linuxhandbook.com: Yum Command Cheat Sheet](https://linuxhandbook.com/yum-cheatsheet/)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)

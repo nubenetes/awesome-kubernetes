@@ -5,6 +5,7 @@
 	- [Waterfall vs Agile](#waterfall-vs-agile)
 	- [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
+- [MVP Minimum Viable Product](#mvp-minimum-viable-product)
 
 ## Project Management Methodology
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
@@ -56,6 +57,7 @@
 - [dzone: Agile vs. Scrum: Differences Between Scrum and Agile Development](https://dzone.com/articles/agile-vs-scrum-differences-between-scrum-and-agile) 
 - [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile/)
 - [atlassian.com: Kanban vs. Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
+- [medium: Are Scrum and Kanban Allies Or Enemies?](https://medium.com/serious-scrum/are-scrum-and-kanban-allies-or-enemies-9d1d27353cd7) The potential and pitfalls of Scrum and Kanban
 
 ## Responsibility Assignment Matrix (RACI)
 - [wikipedia: Responsibility assignment matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
@@ -66,6 +68,16 @@
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
 - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
 - [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
+
+## MVP Minimum Viable Product
+- [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)
+- [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+- [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable)
+- [bloo.media: Producto Mínimo Viable ¿Qué es y cómo crearlo?](https://bloo.media/blog/producto-minimo-viable-mvp/)
+
+<center>
+[![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+</center>
 
 <center>
 [![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)

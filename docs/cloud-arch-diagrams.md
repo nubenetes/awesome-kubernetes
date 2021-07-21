@@ -20,6 +20,7 @@
 ## AWS
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://cloudcraft.co/)
+	- [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
 - [hava.io](https://www.hava.io/)
 - [CloudMapper (OSS)](https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool)
 - [Lucidchart](https://www.lucidchart.com/pages/integrations/aws-architecture-import)
@@ -40,3 +41,4 @@
 	- Perspective inventories your aws accounts and can automatically create architecture diagrams with your resources along with the relationships between them. The diagrams are dynamic and you have the ability to explore them to discover how your resources are associated and connected.
 	- Perspective displays indicative costing data for the resources in your diagrams and works cross-account and cross-region.
 	- Perspective is open source and has an open road map. Feel free to raise issues and contribute to future development!
+- [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks or draw.io diagrams.

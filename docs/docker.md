@@ -78,6 +78,8 @@
 * [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
 * [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/reference/integrations/integration-docker/) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 * [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
+* [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/)
+    * ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://twitter.com/agarcia)
 
 ## Awesome Lists
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
@@ -119,6 +121,7 @@
 - [ctop 🌟](https://github.com/bcicen/ctop) Top-like interface for container metrics
 - [phpdocker](https://github.com/sherifabdlnaby/phpdocker) Production Grade, Rootless, Pre-configured, Extendable, and Multistage
 PHP Docker Image for Cloud Native Deployments (and Kubernetes)
+- [dev.to: Use Kool to Dockerize Your Local Development Environment the Right Way](https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl)
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
@@ -156,6 +159,9 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
     * [book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
 * [dev.to: The best Docker base image for your Python application](https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83)
+* [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat) 
+* [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care)
+* [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) Verified content from the world’s leading enterprise Linux platform aimed at helping developers and operators build more secure and scalable containerized solutions from the industry’s leading container registry
 
 ## Blogs
 - [Digital Ocean: Docker Tutorials](https://www.digitalocean.com/community/tags/docker)

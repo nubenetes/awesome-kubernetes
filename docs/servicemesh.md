@@ -46,6 +46,7 @@
 * [koyeb.com: Service Mesh and Microservices: Improving Network Management and Observability](https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability)
 * [thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh](https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh/)
 * [toptal.com: A Kubernetes Service Mesh Comparison 🌟](https://www.toptal.com/kubernetes/service-mesh-comparison)
+* [nginx.com: How to Choose a Service Mesh 🌟](https://www.nginx.com/blog/how-to-choose-a-service-mesh/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

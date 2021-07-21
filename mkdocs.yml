@@ -114,7 +114,7 @@ nav:
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
     - Chef: chef.md
     - CI/CD Kubernetes Plugins: cicd-kubernetes-plugins.md
-    - Client Libraries for Kubernetes - Go client, Python, Fabric8 & JKube: kubernetes-client-libraries.md
+    - Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK: kubernetes-client-libraries.md
     - Helm Kubernetes Tool: helm.md
     - Liquibase & Flyway: liquibase.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md

@@ -33,6 +33,8 @@
 * [maarten.mulders.it: What's New in Maven 4](https://maarten.mulders.it/2020/11/whats-new-in-maven-4/)
 * [dev.to: Maven Plugin Configuration - The (Unknown) Tiny Details](https://dev.to/khmarbaise/maven-plugin-configuration-the-unknown-tiny-details-1emm)
 * [ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder](https://ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) This article covers some internals of image layering created by container image builder Jib and explore what distroless images are and their benefits.
+* [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-1/)
+	* [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 2](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-2/)
 
 ### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)

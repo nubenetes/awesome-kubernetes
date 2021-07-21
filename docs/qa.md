@@ -23,6 +23,11 @@
 * [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://blog.testproject.io/2021/06/17/a-complete-guide-to-test-automation-framework/) 
     * [Test Automation Framework: TestProject](https://testproject.io/) TestProject is a free end-to-end test automation platform for web, mobile, and API testing that’s supported by
 the #1 test automation community.
+* [botplayautomation.com: Automation Test Plan](https://www.botplayautomation.com/post/automation-test-plan)
+* [devops.com: Continuous Testing Practices (Part 1) 🌟](https://devops.com/continuous-testing-practices-part-1/)
+    * [devops.com: Continuous Testing Practices – Part 2 🌟](https://devops.com/continuous-testing-practices-part-2/)
+* [boozangfromthetrenches.com: Root Cause Analysis in Test Automation](https://boozangfromthetrenches.com/root-cause-analysis-in-test-automation/9)
+* [copyconstruct.medium.com: Testing in Production, the safe way 🌟🌟🌟](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.

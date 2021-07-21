@@ -51,6 +51,7 @@
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
 - [How they SRE](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) Materials to help you rock your next coding interview
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)

@@ -21,6 +21,7 @@
     - [GitHub Actions](#github-actions)
         - [GitHub Actions Marketplace](#github-actions-marketplace)
     - [GitHub Actions and OpenShift](#github-actions-and-openshift)
+    - [GitHub Copilot](#github-copilot)
 - [Gitea](#gitea)
 - [Git Tools](#git-tools)
     - [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
@@ -106,6 +107,9 @@
 * [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/) 
 * [blog.balasundar.com: Automate Git Operations Using Python](https://blog.balasundar.com/automate-git-operations-using-python) Automate your git operations using GitPython.
 * [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/13-git-commands-to-know-in-order)
+* [levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship](https://levelup.gitconnected.com/5-git-commands-to-know-before-your-first-tech-job-or-internship-1b5856313338)
+* [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai)
+* [blog.greenroots.info: How NOT to use Git in Practice. Ten Git usages, you should know to avoid](https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid) 
 
 ## Git Interview Questions
 - [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
@@ -283,6 +287,7 @@ git push origin -f
 * [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
 * [github.blog: Security keys are now supported for SSH Git operations 🌟](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/)
 * [education.github.com](https://education.github.com/) Real-world tools, engaged students. GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
+* [GitHub Copilot 🌟](https://copilot.github.com/) Your AI pair programmer With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
@@ -308,6 +313,20 @@ git push origin -f
 - [github.com: RedHat Actions 🌟](https://github.com/redhat-actions)
 - [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runner)
 - [github.com: OpenShift GitHub Actions Runner Chart 🌟](https://github.com/redhat-actions/openshift-actions-runner-chart)
+
+### GitHub Copilot
+- [GitHub Copilot 🌟](https://copilot.github.com/) Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
+- [hipertextual.com: GitHub une fuerzas con OpenIA para crear una inteligencia artificial capaz de autocompletar código](https://hipertextual.com/2021/06/github-inteligencia-artificial-autocompletar-codigo) GitHub Copilot funciona con la inteligencia artificial de OpenAI. La herramienta busca mejorar el aprendizaje de lenguajes de programación.
+- [xataka.com: Para qué programar cuando una máquina lo hace (un poco) por ti: así es Github Copilot, un sistema que se nutre del prodigioso GPT-3](https://www.xataka.com/robotica-e-ia/programar-cuando-maquina-hace-poco-ti-asi-github-copilot-sistema-que-se-nutre-prodigioso-gpt-3)
+- [thenewstack.io: GitHub Copilot: A Powerful, Controversial Autocomplete for Developers](https://thenewstack.io/github-copilot-a-powerful-controversial-autocomplete-for-developers)
+
+<center>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">No, ninguna inteligencia artificial te va a quitar tu trabajo como data scientist o developer.<br><br>La automatización de <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> CoPilot creará más trabajos de los que destruirá.<br><br>Acá te explico porque 👇🧵</p>&mdash; Xavier Carrera (@XaviGrowth) <a href="https://twitter.com/XaviGrowth/status/1410040729305485317?ref_src=twsrc%5Etfw">June 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m using GitHub Copilot in the last few hours and all I&#39;m going to say that it is magic. It really helps me with dealing with the boilerplate, writing code comments, and avoiding antipatterns. It also is occasionally reading my mind.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1413006071627583488?ref_src=twsrc%5Etfw">July 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">GitHub&#39;s Copilot would benefit from a compliance feature to help developers detect when any code, hand written or auto generated, possibly violates another projects license or copyright.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1412975901277671426?ref_src=twsrc%5Etfw">July 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 ## Gitea
 - [Gitea](https://gitea.com/)

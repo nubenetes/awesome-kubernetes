@@ -24,6 +24,7 @@
 	- [Hashicorp](#hashicorp)
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
+- [Networking Protocols](#networking-protocols)
 
 ## RHEL
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
@@ -39,6 +40,8 @@
 - [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands) 
 - [dev.to: Another one short Vim cheat sheet](https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc)
 - [thevaluable.dev: A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
+- [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/sysadmin/recursive-vim-macros) Take Vim to the limit with recursive macros.
+- [openvim.com](https://openvim.com/) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users. 
 
 ## Neovim
 - [neovim](https://neovim.io/) hyperextensible Vim-based text editor
@@ -147,6 +150,12 @@
 - [cyberciti.biz: How to flush Redis cache and delete everything using the CLI](https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli/)
 - [cyberciti.biz: How To: Linux Find Large Files in a Directory](https://www.cyberciti.biz/faq/find-large-files-linux/)
 - [linuxteck.com: 15 basic curl command in Linux with practical examples](https://www.linuxteck.com/curl-command-in-linux-with-examples/)
+- [linuxteck.com: 12 basic cat command in Linux with examples](https://www.linuxteck.com/basic-cat-command-in-linux-with-examples/)
+- [tecmint.com: How to Find Recent or Today’s Modified Files in Linux 🌟](https://www.tecmint.com/find-recent-modified-files-in-linux/)
+- [linuxshelltips.com: How to Use Netcat to Scan Open Ports in Linux 🌟](https://www.linuxshelltips.com/netcat-linux-port-scanning)
+- [Rclone 🌟🌟🌟](https://rclone.org/) Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces. Over 40 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols. Rclone has powerful cloud equivalents to the unix commands rsync, cp, mv, mount, ls, ncdu, tree, rm, and cat. Rclone's familiar syntax includes shell pipeline support, and --dry-run protection. It is used at the command line, in scripts or via its API.
+- [cyberciti.biz: 8 Tips to Solve Linux Hard Disk Problems: Like Disk Full Or Can’t Write to the Disk](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/)
+- [blog.ycrash.io: dmesg – Unix/Linux command, beginners introduction with examples](https://blog.ycrash.io/2021/06/28/dmesg-unix-linux-command-beginners-introduction-with-examples/)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
@@ -161,7 +170,9 @@
 - [pement.org: Handy one-line scripts for AWK](http://www.pement.org/awk/awk1line.txt)
 - [flowfactor.be: Unit testing bash scripts the cloud-native way](https://www.flowfactor.be/2021/03/23/unit-testing-bash-scripts-the-cloud-native-way/)
 - [robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
-  
+- [cyberciti.biz: How To Bash Shell Find Out If a Variable Is Empty Or Not](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty/)
+- [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls)
+
 ## Zsh
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 - [zshdb.readthedocs.io](https://zshdb.readthedocs.io) zshdb - a gdb-like debugger for zsh
@@ -227,6 +238,9 @@
 - [cyberciti.biz: Linux ip Command Examples 🌟](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/)
 - [cyberciti.biz: Linux: 25 Iptables Netfilter Firewall Examples For New SysAdmins](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - [redhat.com: 6 tcpdump network traffic filter options](https://www.redhat.com/sysadmin/tcpdump-part-one) The first six of eighteen common tcpdump options that you should use for network troubleshooting and analysis.
+
+## Networking Protocols
+- [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
 
 ---
 

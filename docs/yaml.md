@@ -21,6 +21,7 @@
 - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml/)
 - [betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8) Syntax, salient features, and advanced features.
 - [abhisheksaini.hashnode.dev: YAML For Data Representation?](https://abhisheksaini.hashnode.dev/yaml-for-representation) YAML is a better option than JSON when comes to representation of Data
+- [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files/)
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)

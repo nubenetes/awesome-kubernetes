@@ -103,6 +103,9 @@
 * [harness.io: Metrics to Improve Continuous Integration Performance](https://harness.io/blog/continuous-integration/continuous-integration-performance-metrics/)
 * [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams/)
 * [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e)
+* [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs/)
+* [thenewstack.io: Growing Adoption of Observability Powers Business Transformation](https://thenewstack.io/growing-adoption-of-observability-powers-business-transformation/)
+* [blog.thundra.io: What CI Observability Means for DevOps 🌟](https://blog.thundra.io/what-ci-observability-means-for-devops)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -235,6 +238,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [itnext.io: Observability at Scale](https://itnext.io/observability-at-scale-52d0d9a5fb9b)
 * [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc) Starting your journey in observability by gathering metrics with Prometheus
 * [innoq.com: Scraping a Docker swarm service with Prometheus](https://www.innoq.com/en/blog/scraping-docker-swarm-service-instances-with-prometheus/)
+* [opensource.com: Run Prometheus at home in a container](https://opensource.com/article/21/7/run-prometheus-home-container)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
@@ -291,6 +295,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     * [particule.io: Multi-Cluster Monitoring with Thanos](https://particule.io/en/blog/thanos-monitoring)
     * [prometheus-operator.dev: Thanos and the Prometheus Operator 🌟](https://prometheus-operator.dev/docs/operator/thanos/)
     * [Thanos Architecture Overview 🌟](https://github.com/thanos-io/thanos#architecture-overview)
+    * [enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose](https://enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose/)
 * [**M3**:](https://www.m3db.io/) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 * [VictoriaMetrics](https://victoriametrics.com/)
@@ -346,6 +351,11 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry/)
 * [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)
 * [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
+* [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)
+
+<center>
+<iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ##### Telegraf Collector
 * [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)
@@ -432,6 +442,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [zdnet.com: Grafana 8.0 integrates with Prometheus alerting](https://www.zdnet.com/article/grafana-8-0-integrates-with-prometheus-alerting/) Alerting is finally unified in the latest update of the Grafana open source stack.
 * [thenewstack.io: Grafana 8.0 Rethinks Alerts and Visualizations](https://thenewstack.io/grafana-8-0-rethinks-alerts-and-visualizations/)
 * [youtube.com: Grafana Loki Promtail | Grafana Loki Setup And Configuration On CentOs](https://www.youtube.com/watch?v=iqpLXUdJ0Ro&ab_channel=Thetips4you)
+* [grafana.com: What's new in Grafana Cloud for July 2021: Traces, live streaming, Kubernetes and Docker integrations, and more](https://grafana.com/blog/2021/07/06/whats-new-in-grafana-cloud-for-july-2021-traces-live-streaming-kubernetes-and-docker-integrations-and-more/)
 
 ### Grafana Dashboards
 * [Grafana Dashboards](https://grafana.com/grafana/dashboards)
@@ -935,6 +946,7 @@ done
      - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
 - [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/2021/01/25/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance/)
 - [awkwardferny.medium.com: Setting up Distributed Tracing in Kubernetes with OpenTracing, Jaeger, and Ingress-NGINX](https://awkwardferny.medium.com/setting-up-distributed-tracing-with-opentelemetry-jaeger-in-kubernetes-ingress-nginx-cfdda7d9441d)
+- [ploffay.medium.com: Five years evolution of open-source distributed tracing 🌟](https://ploffay.medium.com/five-years-evolution-of-open-source-distributed-tracing-ec1c5a5dd1ac)
 
 ### Microservice Observability with Distributed Tracing. OpenTelemetry.io
 - Used for monitoring and troubleshooting microservices-based distributed systems.

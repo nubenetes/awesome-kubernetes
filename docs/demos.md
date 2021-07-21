@@ -56,13 +56,14 @@
 - [GitLab](#gitlab)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
     - [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
-    - [PetClinic on Kubernetes:](#petclinic-on-kubernetes)
-    - [PetClinic Docker images:](#petclinic-docker-images)
+    - [PetClinic on Kubernetes](#petclinic-on-kubernetes)
+    - [PetClinic Docker images](#petclinic-docker-images)
     - [OpenShift.io Samples](#openshiftio-samples)
 - [AWS Demos](#aws-demos)
 - [Azure DevOps Demos](#azure-devops-demos)
 - [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
+- [SpringBoot Demos](#springboot-demos)
 - [Quarkus Demos](#quarkus-demos)
 - [Kafka](#kafka)
 - [Apache Camel & ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
@@ -99,6 +100,7 @@
 * [dev.to: Build a highly available Node.js application using Docker, NGINX and AWS ELB](https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp)
 * [towardsdatascience.com: Developing and Deploying a COMPLETE Project Using FastAPI, Jinja2, SQLAlchemy, Docker, and AWS](https://towardsdatascience.com/developing-and-deploying-a-complete-project-using-fastapi-jinja2-sqlalchemy-docker-and-aws-1b504a1a2be4)
 * [dzone: Docker Image Tutorial](https://dzone.com/articles/docker-image-tutorial) In this tutorial, see how to build and run a Docker image using Python code examples.
+* [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example/)
 
 ### Container Tools
 - [dzone Avengers of the Container World, Episode 1: Podman Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands) CRI-O and Podman have been widely adapted by most of the modern container platforms. In this blog, we will deep-dive on Podman with a hands-on session.
@@ -114,6 +116,7 @@
 * [konstruktoid.medium.com: Running a NGINX container using rootless Docker with Ansible](https://konstruktoid.medium.com/running-a-nginx-container-using-rootless-docker-with-ansible-a2bfcedd3b07)
 * [kmahi2600.medium.com: Launching A WordPress Application With MYSQL Database in K8S Cluster On AWS Using Ansible](https://kmahi2600.medium.com/launching-a-wordpress-application-with-mysql-database-in-k8s-cluster-on-aws-using-ansible-a78d6bf12b1a)
 * [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3) Ansible infrastructure-as-code to automate Nginx deployment in Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
+* [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos)
 
 ### GitOps 
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
@@ -161,6 +164,8 @@
 * [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3) In this article you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
 * [dev.to: Implementing a simple K8s admission controller in Go](https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg)
 * [sj14.gitlab.io: Deploy a free Kubernetes cluster in the cloud](https://sj14.gitlab.io/post/2021/01-30-free-k8s-cloud-cluster/)
+* [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes/)
+* [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
@@ -188,6 +193,7 @@
 - [github: redhat-developer-demos Istio Tutorial for Java Microservices](https://github.com/redhat-developer-demos/istio-tutorial)
 - [blog.jetstack.io: Istio OIDC Authentication](https://blog.jetstack.io/blog/istio-oidc/) In this article you'll deploy an app and secure it with authenticaiton and authorisation for using Istio
 - [github.com/stefanprodan/gitops-istio: A GitOps recipe for Progressive Delivery with Flux v2, Flagger and Istio 🌟](https://github.com/stefanprodan/gitops-istio)
+- [blog.alexellis.io: A bit of Istio before tea-time](https://blog.alexellis.io/a-bit-of-istio-before-tea-time/) In this post you will learn how to set up a full Istio demo running with a public IP directly to your laptop Wirth KinD
 
 ### Envoy Service Mesh
 - [loginradius.com: Service Mesh with Envoy](https://www.loginradius.com/blog/async/service-mesh-with-envoy/) This post will cover a working setup of a service mesh architecture using Envoy using a demo application. You will be using Envoy proxy for both control and data plane.
@@ -319,6 +325,7 @@
 - [vzilla.co.uk: GitOps - Getting started with ArgoCD](https://vzilla.co.uk/vzilla-blog/gitops-getting-started-with-argocd)
 - [openshift.com: SSO Integration for the OpenShift GitOps Operator](https://www.openshift.com/blog/sso-integration-for-the-openshift-gitops-operator) This is a demo-heavy blog. Readers of this blog will get an idea about why SSO is important, how OpenShift handles authN/authZ and a step-by-step guide on using Red Hat Single Sign-On(RHSSO) to log in to an Argo CD application.
 - [openshift.com: How to Use HashiCorp Vault and Argo CD for GitOps on OpenShift](https://www.openshift.com/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift)
+- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
@@ -385,6 +392,7 @@
 * [medium: DevOps CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 1 🌟](https://medium.com/the-programmer/ci-cd-pipeline-with-jenkins-github-part-1-c057a31b5297) How to set up Jenkins and CI/CD pipelines using GitHub?
     * [medium: Building CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 2 🌟](https://medium.com/the-programmer/building-ci-cd-pipeline-with-jenkins-kubernetes-github-part-2-cbb6c366aa41) How To Configure Jenkins To Build Your CI CD Pipeline?
 * [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
+* [devopscube.com: How to Setup Jenkins Build Agents on Kubernetes Cluster 🌟](https://devopscube.com/jenkins-build-agents-kubernetes/)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -489,6 +497,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [armory.io: How to Set Up Liquibase in Spinnaker](https://www.armory.io/blog/how-to-set-up-liquibase-in-spinnaker/)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
 - [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
+- [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane/)
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes
@@ -516,7 +525,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration](https://blog.griddynamics.comdeveloping-a-modular-pipeline-library-to-improve-devops-collaboration/)
 * [youtube: Modular Pipeline Library: 4. Petclinic Pipeline 🌟](https://www.youtube.com/watch?v=GLtvxY1S3Aw) MPL demo video about more or less real petclinic pipeline with selenium tests, comparison to bare jenkinsfile pipeline without mpl, modules override mechanisms.
 
-### PetClinic on Kubernetes:
+### PetClinic on Kubernetes
 * [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
     * While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
 * [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices)
@@ -528,7 +537,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
 * [pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
 
-### PetClinic Docker images:
+### PetClinic Docker images
 * [ref 1](https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins)
 * [ref 2](https://hub.docker.com/r/sarjunkumar24391/petclinic)
 * [ref 3](https://hub.docker.com/r/bmoussaud/petclinic)
@@ -569,6 +578,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [Tutorial: Connect Amazon EKS and Azure AKS Clusters with Google Anthos](https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos/)
 - [Tutorial: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
 - [Tutorial: Deploy Anthos Apps from GCP Marketplace into Amazon EKS Cluster](https://thenewstack.io/tutorial-deploy-anthos-apps-from-gcp-marketplace-into-amazon-eks-cluster/)
+
+## SpringBoot Demos
+- [javatechonline.com: How To Deploy Spring Boot Application In Docker?](https://javatechonline.com/how-to-deploy-spring-boot-application-in-docker/)
 
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)

@@ -25,6 +25,9 @@
 - [blog.heaphero.io: HeapHero - Java & Android Heap Dump Analyzer](https://blog.heaphero.io/)
 - [blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟](https://blog.heaphero.io/2020/10/16/what-is-gc-log-thread-dump-and-heapdump/) Java Virtual Machine (JVM) generates 3 critical #artifacts that are useful for optimizing the performance and troubleshooting production problems. Those artifacts & their differences are explained in this PDF.
 - [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing)
+- [java-success.com: 01: 9 Java low latency interview questions & answers](https://www.java-success.com/writing-low-latency-applications-in-java/)
+- [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
+
 ### Java on Kubernetes. Java Memory Arguments for Containers
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)
 - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.

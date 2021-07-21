@@ -71,6 +71,8 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [istio.io: Configuring failover for external services](https://istio.io/latest/blog/2021/external-locality-failover/) Learn how to configure locality load balancing and failover for endpoints that are outside of your mesh.
 - [medium: Automated canary deployments with Flagger and Istio](https://medium.com/google-cloud/automated-canary-deployments-with-flagger-and-istio-ac747827f9d1)
 - [thenewstack.io: Multicluster Management with Kubernetes and Istio](https://thenewstack.io/multicluster-management-with-kubernetes-and-istio/)
+- [piotrminkowski.com: Multicluster Traffic Mirroring with Istio and Kind](https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind)
+- [thenewstack.io: Securing Istio Workloads with Auth0](https://thenewstack.io/securing-istio-workloads-with-auth0/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

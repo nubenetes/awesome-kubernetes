@@ -18,6 +18,7 @@
 - [Kogito cloud-native business automation framework](#kogito-cloud-native-business-automation-framework)
 - [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
+- [More Java Frameworks](#more-java-frameworks)
 
 ## Java
 * [reddit.com/r/java](https://www.reddit.com/r/java)
@@ -134,7 +135,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [developer.okta.com: Spring Cloud Config for Shared Microservice Configuration](https://developer.okta.com/blog/2020/12/07/spring-cloud-config)
 - [redhat.com: Spring Boot Microservices on Red Hat OpenShift Container Platform 3 - Software Stack - Externalized Configuration](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#spring_cloud_config) [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments.
 - [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1)
-- [dzone: Spring Cloud Config Server on Kubernetes (Part 2](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-2) Time to bring your services to Kubernetes.
+- [dzone: Spring Cloud Config Server on Kubernetes (Part 2)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-2) Time to bring your services to Kubernetes.
 
 ##### Secure Secrets with Spring Cloud Vault and alternatives
 - [cloud.spring.io: Spring Cloud Vault 🌟](https://cloud.spring.io/spring-cloud-vault/reference/html/)
@@ -172,6 +173,12 @@ optimizing Enterprise Java for the microservices architecture.
 - [developers.redhat.com: Quarkus and Jakarta EE: Together, or not?](https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not)
 - [youtube: CyberJUG-HH:Why is everybody talking about Quarkus?](https://www.youtube.com/watch?v=nXXPOS8gjtA) In this (Why is everybody talking about Quarkus?) Java User Group Hamburg (CyberJUG-HH) session I highlighted possible reasons for Quarkus' popularity, explained Quarkus' optimisation tricks, the differences between Jakarta EE / J2EE / Java EE application servers and Quarkus, discussed the role of MicroProfile and Jakarta EE, migrated a Java EE application to Quarkus, performed multiple deployments, decompiled some code, measured memory consumption and finally cross compiled the Java service to native code using GraalVM.
 - [developers.redhat.com: Build an API using Quarkus from the ground up 🌟](https://developers.redhat.com/blog/2021/05/11/building-an-api-using-quarkus-from-the-ground-up/)
+- [developers.redhat.com: RESTEasy Reactive and more in Quarkus 2.0](https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20)
+- [opensource.com: 3 reasons Quarkus 2.0 improves developer productivity on Linux 🌟](https://opensource.com/article/21/7/developer-productivity-linux) New features in Quarkus 2.0 make it easier to test code in the developer console.
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Imagine needing to spend less😉<br>Guess what minimum heap size you need to run a <a href="https://twitter.com/QuarkusIO?ref_src=twsrc%5Etfw">@QuarkusIO</a> 2.0 *on JVM* to run a simple CRUD endpoint? (no toy: including <a href="https://twitter.com/Hibernate?ref_src=twsrc%5Etfw">@Hibernate</a> , <a href="https://twitter.com/resteasy?ref_src=twsrc%5Etfw">@resteasy</a>, Jackson, JTA transactions, DB connection pool, caching, <a href="https://twitter.com/vertx_project?ref_src=twsrc%5Etfw">@vertx_project</a> ,Netty, CDI via ArC, ...)</p>&mdash; Sanne (@SanneGrinovero) <a href="https://twitter.com/SanneGrinovero/status/1410889304520462336?ref_src=twsrc%5Etfw">July 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 ## Kogito cloud-native business automation framework 
 - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)
@@ -184,3 +191,6 @@ optimizing Enterprise Java for the microservices architecture.
 ## Spring Boot VS MicroProfile
 - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
 - [ibm.com: Java Microservices with MicroProfile – RESTful APIs and Dependency Injection. For microservices-based Java apps, knowing how to create REST APIs is an essential skill. Eclipse MicroProfile makes it easier](https://www.ibm.com/cloud/blog/migrate-java-microservices-from-spring-to-microprofile-p2) Spring Boot or MicroProfile for Java microservices apps? Choose the path of least resistance. The Spring Boot and MicroProfile frameworks have many of the same goals (i.e., you can do everything in MicroProfile that you can do in Spring Boot). Both of them are built on top of the same core APIs; even though there are differences in some of the APIs, the work they do is similar.
+
+## More Java Frameworks
+- [JPA streamer 🌟](https://jpastreamer.org/) JPAstreamer is a library for expressing JPA/Hibernate queries as Java streams. It can be also integrated with Spring. 

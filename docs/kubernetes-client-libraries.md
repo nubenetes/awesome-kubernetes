@@ -4,6 +4,7 @@
 - [Python Client for Kubernetes](#python-client-for-kubernetes)
 - [Fabric8 Java Client for Kubernetes (deprecated)](#fabric8-java-client-for-kubernetes-deprecated)
 - [Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-java-client-for-kubernetes-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
+- [Java Operator SDK](#java-operator-sdk)
 ## Kubernetes Client Libraries
 - [github.com/kubernetes-client 🌟](https://github.com/kubernetes-client)
 - [medium: Building stuff with the Kubernetes API — TOC 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-toc-84d751876650)
@@ -36,3 +37,6 @@
 - [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
 - [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
 - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
+
+## Java Operator SDK
+- [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io/) Whether you want to build applications that operate themselves or provision infrastructure from Java code, Kubernetes Operators are the way to go. This SDK will make it easy for Java developers to embrace this new way of automation. The java-operator-sdk is based on the fabric8 Kubernetes client.

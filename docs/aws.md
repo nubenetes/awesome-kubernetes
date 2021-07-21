@@ -62,7 +62,7 @@
 - [AWS Developer Blog](#aws-developer-blog)
 - [AWS Lambda Serverless](#aws-lambda-serverless)
 - [AWS API Gateway](#aws-api-gateway)
-- [AWS Cloud Formation. Free Templates](#aws-cloud-formation-free-templates)
+- [AWS CloudFormation. Free Templates](#aws-cloudformation-free-templates)
 - [Infrastructure Code Template Generators](#infrastructure-code-template-generators)
 	- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
 - [AWS for Windows](#aws-for-windows)
@@ -95,6 +95,7 @@
 - [AWS Partner Network (APN)](#aws-partner-network-apn)
 - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
 - [AWS EKS & AWS ECS](#aws-eks--aws-ecs)
+- [Rancher on AWS](#rancher-on-aws)
 - [AWS App Mesh](#aws-app-mesh)
 - [AWS Fargate](#aws-fargate-1)
 - [Interview Questions](#interview-questions)
@@ -160,6 +161,8 @@
 - [acloudguru.com: The Cloud Dictionary of Pain: Five Of AWS’s Toughest Cloud Topics](https://acloudguru.com/blog/engineering/the-cloud-dictionary-of-pain-five-of-awss-toughest-cloud-topics)
 - [dannys.cloud: 10 Best Free AWS Learning Resources for Beginners](https://dannys.cloud/10-best-free-aws-learning-resources-for-beginners) This blogpost provides free resources for beginners to get started with AWS through videos, whitepapers, labs, and certification guides.
 - [linkedin pulse: Listado de todos los Servicios de AWS (actualizado 1 de Enero 2021) 🌟](https://www.linkedin.com/pulse/listado-de-todos-los-servicios-amazon-web-services-daniel-pe%25C3%25B1a-silva)
+- [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS) 🌟](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc)
+- [docs.aws.amazon.com: The AWS Security Reference Architecture 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html)
 
 ### Books
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
@@ -193,6 +196,7 @@
 - [infoq.com: AWS Announces Lower Cost Storage Classes for Amazon Elastic File System](https://www.infoq.com/news/2021/03/aws-efs-one-zone-storage-classes/)
 - [dzone: Understanding AWS Costs 🌟](https://dzone.com/articles/understanding-aws-costs) In this article, I'll provide a comprehensive guide on how to understand your AWS costs and needs.
 - [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/7-tips-for-cutting-down-your-aws-kubernetes-bill/)
+- [cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation (EKS) 🌟](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) A guide to intelligently allocating Kubernetes costs with EKS
 
 ### AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators 🌟](https://calculator.aws/)
@@ -304,6 +308,10 @@
 - [cloudonaut.io: Seamless EC2 monitoring with the Unified CloudWatch Agent](https://cloudonaut.io/seamless-ec2-monitoring-with-the-unified-cloudwatch-agent/)
 - [amazon.com: Reduce Unwanted Traffic on Your Website with New AWS WAF Bot Control](https://aws.amazon.com/blogs/aws/reduce-unwanted-traffic-on-your-web-site-with-aws-bot-control/)
 - [infoq.com: AWS Introduces EC2 Serial Console: Troubleshoot Boot and Networking Issues](https://www.infoq.com/news/2021/04/aws-ec2-serial-console/)
+- [infoq.com: AWS Introduces a New Workflow Studio for AWS Step Functions](https://www.infoq.com/news/2021/06/step-functions-workflow-studio/)
+- [New AWS Solutions Implementation: Tag Tamer 🌟](https://aws.amazon.com/about-aws/whats-new/2021/06/new-aws-solutions-implementation-tag-tamer/) Tag Tamer helps you apply tags to new and existing AWS resources. Using the pre-built web user interface ensures a consistent tagging implementation—providing improved cost allocations, automation, access controls, and organization.
+- [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru 🌟](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru/)
+- [Automate preapproved operations with AWS Service Catalog service actions](https://aws.amazon.com/blogs/mt/automate-preapproved-operations-with-aws-service-catalog-service-actions/) Most of my enterprise customers have the need to allow their users to execute self-service operational tasks while restricting access to a minimum set of services. With AWS Service Catalog, you can provision pre-approved products, when combined with AWS Service Catalog service actions, you can provide simple predefined actions associated with the AWS Service Catalog products that their users can execute.
 
 ## AWS Management Console
 - [Working with the AWS Management Console 🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -509,11 +517,14 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudonaut.io: Serverless Hybrid Cloud: Accessing an API Gateway via VPN or Direct Connect](https://cloudonaut.io/serverless-hybrid-cloud-accessing-an-api-gateway-via-vpn-or-direct-connect/)
 - [infoworld.com: Serverless computing with AWS Lambda, Part 1](https://www.infoworld.com/article/3210726/serverless-computing-with-aws-lambda.html) Get an overview of AWS Lambda's nanoservices architecture and execution model, then build your first Lambda function in Java
 - [dashbird.io: 4 Tips for AWS Lambda Optimization for Production](https://dashbird.io/blog/optimizing-aws-lambda-for-production/)
+- [AWS Step Functions 🌟](https://aws.amazon.com/step-functions/)
+- [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching in the Cloud** 🌟](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
+- [medium: Going Serverless (on AWS)](https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
 
-## AWS Cloud Formation. Free Templates
+## AWS CloudFormation. Free Templates
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
 - [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance 🌟](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
@@ -521,6 +532,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudonaut.io: Getting Started with Free Templates for AWS CloudFormation 🌟](https://cloudonaut.io/getting-started-with-aws-cf-templates/) - [Free Templates for AWS CloudFormation 🌟](https://github.com/widdix/aws-cf-templates/) - [templates.cloudonaut.io 🌟](https://templates.cloudonaut.io/)
 - [Use Git pre-commit hooks to avoid AWS CloudFormation errors](https://aws.amazon.com/es/blogs/infrastructure-and-automation/use-git-pre-commit-hooks-avoid-aws-cloudformation-errors/)
 - [Introducing a Public Registry for AWS CloudFormation](https://aws.amazon.com/es/blogs/aws/introducing-a-public-registry-for-aws-cloudformation/)
+- [cloudkatha.com: How to Setup S3 Bucket CORS Configuration using CloudFormation 🌟](https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation)
+- [cloudkatha.com: How to Configure AWS SQS Dead Letter Queue using CloudFormation](https://cloudkatha.com/how-to-configure-aws-sqs-dead-letter-queue-using-cloudformation/)
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)
@@ -603,6 +616,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting/)
 - [Getting Started with AWS Storage Gateway](http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html)
 - [devopscube.com: How to Automate EBS Snapshot Creation, Retention and Deletion](https://devopscube.com/automate-ebs-snapshot-creation-deletion/)
+- [cloudkatha.com: Is S3 Region Specific or Global? What do you think?](https://cloudkatha.com/is-s3-region-specific-or-global-what-do-you-think/)
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
@@ -707,6 +721,21 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [eksworkshop.com 🌟](https://www.eksworkshop.com/)
 - [cast.ai: AWS EKS vs. ECS vs. Fargate: Where to manage your Kubernetes?](https://cast.ai/blog/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kubernetes/)
 - [cast.ai: 8 best practices to reduce your AWS bill for Kubernetes](https://cast.ai/blog/8-best-practices-to-reduce-your-aws-bill-for-kubernetes)
+- [aws whitepapers: Architecting Amazon EKS for PCI DSS Compliance 🌟](https://d1.awsstatic.com/whitepapers/architecting-amazon-eks-for-pci-dss-compliance.pdf)
+- [github.com/aws/eks-charts 🌟](https://github.com/aws/eks-charts)
+- [AWS Load Balancer Controller 🌟](https://kubernetes-sigs.github.io/aws-load-balancer-controller)
+- [Updating a managed node group](https://docs.aws.amazon.com/eks/latest/userguide/update-managed-node-group.html) amazon eks managed node groups now supports parallel node upgrades
+- [particule.io: Create Kubernetes federated clusters on AWS](https://particule.io/en/blog/aws-federated-eks/)
+- [aws.github.io/aws-eks-best-practices 🌟](https://aws.github.io/aws-eks-best-practices/)
+	- [aws.github.io/aws-eks-best-practices: Networking in EKS](https://aws.github.io/aws-eks-best-practices/reliability/docs/networkmanagement)
+- [betterprogramming.pub: Amazon EKS Is Eating My IPs!](https://betterprogramming.pub/amazon-eks-is-eating-my-ips-e18ea057e045) Understand how AWS EKS manages IP addresses and what you can do about it
+- [engineering.salesforce.com: Optimizing EKS networking for scale](https://engineering.salesforce.com/optimizing-eks-networking-for-scale-1325706c8f6d)
+- [blog.usejournal.com: Spice up Your Kubernetes Environment with AWS Lambda 🌟](https://blog.usejournal.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607) In this blog you will learn a simple yet effective and secure way to integrate AWS Lambda with an existing Kubernetes environment without codes changes.
+- [azon EKS Pod Identity Webhook](https://github.com/aws/amazon-eks-pod-identity-webhook) Amazon EKS Pod Identity Webhook
+- [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator/)
+
+## Rancher on AWS
+- [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher/)
 
 ## AWS App Mesh 
 - [AWS App Mesh Workshop](https://www.appmeshworkshop.com/)
@@ -762,6 +791,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon EKS clusters now support user authentication with OIDC compatible identity providers](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers/)
 - [Amazon Managed Service for Grafana (AMG) preview updated with new capabilities](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities/)
 - [xataka.com: Hasta AWS se pasa al low-code: Workflow Studio es su primera herramienta de desarrollo de bajo código](https://www.xataka.com/pro/aws-se-pasa-al-low-code-workflow-studio-su-primera-herramienta-desarrollo-codigo)
+- [Easily Manage Security Group Rules with the New Security Group Rule ID](https://aws.amazon.com/blogs/aws/easily-manage-security-group-rules-with-the-new-security-group-rule-id)
 
 ## Superwerker
 - [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/ 🌟) Automates AWS Cloud deployments backed by decades of expertise and best practices

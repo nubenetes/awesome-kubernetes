@@ -79,3 +79,5 @@
 * [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org/)
 * [Distributed Load Testing on AWS 🌟](https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws/)
 	* [amazon.com: Introducing Distributed Load Testing v1.3](https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3/)
+* [Locust](https://locust.io/) An open source load testing tool. Define user behaviour with Python code, and swarm your system with millions of simultaneous users.
+* [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)

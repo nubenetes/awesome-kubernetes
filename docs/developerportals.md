@@ -31,6 +31,7 @@
 ## Introduction
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
 - [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
+- [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 
 ## API Landscape and API Marketplaces
 - [API Landscape](https://www.apidays.co/api-landscape)
@@ -68,6 +69,7 @@
 - [dzone: Why Red Hat and 3scale Matter: A Developer's View](https://dzone.com/articles/why-red-hat-and-3scale-matter)
 - [developers.redhat.com: New custom metrics and air gapped (restricted networks) installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9/) The 3scale Operator now fully supports air gapped installation for 3scale API Management on OpenShift. Air gapped or restricted networks are isolated from the Internet and physically isolated from any other network. Secure environments such as government agencies and financial institutions typically require an air gapped installation for Red Hat Integration on OpenShift. 
 - [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens/)
+- [developers.redhat.com: How to expose a WebSocket endpoint using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management)
 
 ### Google Apigee API Manager
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
@@ -178,4 +180,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deleting code matters! You can provide tons of value by deleting code!<br><br>Deleting code such as:<br>- removing duplication<br>- removing redundant comments<br>- removing unnecessary complexity<br>- removing unused code<br><br>Always keep in mind: The less the code, the less to maintain.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1389942964030480385?ref_src=twsrc%5Etfw">May 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 8 Things I Learned as a Software Engineer (Developer)...<br><br>A Thread... <a href="https://t.co/P4AMGlzYA9">pic.twitter.com/P4AMGlzYA9</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1396444989085782016?ref_src=twsrc%5Etfw">May 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be fullstack doesn&#39;t mean you know every part of the modern technology landscape. It means that you&#39;ve made a decision to be open to picking up the parts you need as you need them.</p>&mdash; Chris Ford (@ctford) <a href="https://twitter.com/ctford/status/1406559406804852740?ref_src=twsrc%5Etfw">June 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

@@ -11,7 +11,7 @@
 - [OpenShift Deployments with GitHub Actions](#openshift-deployments-with-github-actions)
 - [Deployments with OpenShift HA in Multiple Datacenters](#deployments-with-openshift-ha-in-multiple-datacenters)
 - [ODO - OpenShift Command line for Developers](#odo---openshift-command-line-for-developers)
-- [OpenShift Pipelines](#openshift-pipelines)
+- [All about OpenShift Pipelines](#all-about-openshift-pipelines)
 	- [Jenkins CICD Getting started with Groovy and Docker Containers](#jenkins-cicd-getting-started-with-groovy-and-docker-containers)
 	- [Fabric8 Pipeline Library (deprecated)](#fabric8-pipeline-library-deprecated)
 	- [Eclipse Jkube Pipeline Library (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-pipeline-library-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
@@ -78,10 +78,11 @@
 * [piotrminkowski.com: Java Development on OpenShift with odo](https://piotrminkowski.com/2021/02/05/java-development-on-openshift-with-odo/)
 * [developers.redhat.com: Developing your own custom devfiles for odo 2.0](https://developers.redhat.com/blog/2021/02/12/developing-your-own-custom-devfiles-for-odo-2-0/)
 
-## OpenShift Pipelines
+## All about OpenShift Pipelines
 ### Jenkins CICD Getting started with Groovy and Docker Containers
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 1](https://blog.isaack.io/articles/2016-08/Jenkins-CICD-Getting-Started-With-Groovy-Part-1)
 * [medium: Jenkins CICD Getting started with Groovy and Docker Containers — Part 2](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)
+* [openshift.com: Using OpenShift Pipelines to Automate Red Hat Advanced Cluster Security for Kubernetes](https://www.openshift.com/blog/using-openshift-pipelines-to-automate-red-hat-advanced-cluster-security-for-kubernetes)
 
 ### Fabric8 Pipeline Library (deprecated)
 * [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.

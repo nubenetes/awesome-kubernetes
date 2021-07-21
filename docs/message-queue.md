@@ -59,7 +59,8 @@
 - [redhat.com: Event-driven architecture: Understanding the essential benefits 🌟](https://www.redhat.com/architect/event-driven-architecture-essentials) Event-driven architectures bring significant benefits when managing many endpoints, but it also has its complexities to be aware of.
 - [medium: Introduction to Message Queues 🌟](https://medium.com/hookdeck/introduction-to-message-queues-20d00373cc1f)
 - [headspring.com: Is Kafka or RabbitMQ the right messaging tool for you?](https://headspring.com/2019/07/09/kafka-or-rabbitmq-messaging/)
-
+- [medium: Introduction to Event-Driven Architecture 🌟](https://medium.com/microservicegeeks/introduction-to-event-driven-architecture-e94ef442d824) The essential concepts that every developer should know
+ 
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
@@ -70,6 +71,7 @@
 - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic/)
 - [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) Apache ActiveMQ is a subproject of Apache ActiveMQ. It has been donated to the Apache Software Foundation in 2015. There were lots of changes in project names in the past. The Artemis project first started as JBoss Messaging and got renamed to HornetQ in August 2009.
 - [Apache Artemis JMeter](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter) Running the ActiveMQ Artemis JMeter Performance Testing Examples.
+- [developers.redhat.com: Implementing Apache ActiveMQ-style broker meshes with Apache Artemis](https://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis)
 
 ### RabbitMQ message broker
 - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
@@ -216,6 +218,11 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dzone: Event-Driven APIs and Schema Governance for Apache Kafka](https://dzone.com/articles/event-driven-apis-and-schema-governance-for-apache) As a developer, I'm always excited to attend so many great sessions addressing critical challenges in the Apache Kafka ecosystem like how changes to event-driven APIs are leading developers to focus on contract-first development for Kafka.
 - [phoenixnap.com: How to Set Up and Run Kafka on Kubernetes 🌟](https://phoenixnap.com/kb/kafka-on-kubernetes)
 - [piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel](https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel/)
+- [itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative](https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208) This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.
+- [strimzi.io: Kafka upgrade improvements](https://strimzi.io/blog/2021/07/05/upgrade-improvements/)
+- [developers.redhat.com: Getting started with Red Hat OpenShift Streams for Apache Kafka](https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka)
+- [developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟](https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach)
+- [baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands 🌟](https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster)
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)

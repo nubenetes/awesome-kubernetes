@@ -42,6 +42,7 @@ based on your test scripts.
 - [lambdatest.com: Automation Testing with Selenium JavaScript [Tutorial]](https://www.lambdatest.com/blog/automation-testing-with-selenium-javascript/)
 - [lambdatest.com: How To Scroll a Page Using Selenium WebDriver?](https://www.lambdatest.com/blog/scroll-a-webpage-in-selenium-using-java/)
 - [automationscript.com: Parallel Execution In Selenium Using Jenkins](https://automationscript.com/parallel-execution-in-selenium-using-jenkins/)
+- [lambdatest.com: How To Modify HTTP Request Headers In JAVA Using Selenium WebDriver?](https://www.lambdatest.com/blog/modifying-http-request-headers-in-java-using-selenium-webdriver)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

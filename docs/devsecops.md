@@ -41,6 +41,7 @@
 - [Books](#books)
 - [CVEs](#cves)
 - [Powershell](#powershell)
+- [More Security Tools](#more-security-tools)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -79,6 +80,7 @@
 - [bbvanexttechnologies.com: Filosofía DevSecOps en el desarrollo de aplicaciones sobre Azure](https://www.bbvanexttechnologies.com/blogs/filosofia-devsecops-en-el-desarrollo-de-aplicaciones-sobre-azure/)
 - [harness.io: Automated DevSecOps with StackHawk and Harness](https://harness.io/blog/continuous-delivery/automated-devsecops/)
 - [cloudify.co: Understanding DevSecOps And Its Challenges](https://cloudify.co/blog/overcoming-devsecops-delivery-pipeline-challenges/)
+- [containerjournal.com: The What and Why of Cloud-Native Security](https://containerjournal.com/editorial-calendar/cloud-native-security/the-what-and-why-of-cloud-native-security/)
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -188,6 +190,7 @@
 - [blog.gitguardian.com: Secrets in source code (episode 2/3). Why secrets in git are such a problem](https://blog.gitguardian.com/secrets-credentials-api-git/)
 - [harness.io: Managing Secrets in CI/CD Pipelines 🌟](https://harness.io/blog/devops/secrets-management-ci-cd/) How has your organization dealt with the challenge of managing secrets while delivering with CI/CD pipelines? Learn how to improve your process in the article.
 - [smallstep.com: How to Handle Secrets on the Command Line 🌟](https://smallstep.com/blog/command-line-secrets/)
+- [cloud.google.com: Analyze secrets with Cloud Asset Inventory](https://cloud.google.com/secret-manager/docs/analyze-resources) Query information about all the secrets across your entire GoogleCloudTech organization! Secret Manager is now integrated with Asset Inventory!
 
 ### Store private data in git repo
 - [git-secret.io](https://git-secret.io/)
@@ -216,6 +219,8 @@
 - [thenewstack.io: Reasons to Implement HashiCorp Vault and Other Zero Trust Tools](https://thenewstack.io/reasons-to-implement-hashicorp-vault-and-other-zero-trust-tools/)
 - [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
 - [testdriven.io: Running Vault and Consul on Kubernetes](https://testdriven.io/blog/running-vault-and-consul-on-kubernetes/)
+- [hashicorp.com: Onboarding Applications to Vault Using Terraform: A Practical Guide 🌟](https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide) Learn how to build an automated HashiCorp Vault onboarding system with Terraform using sensible naming standards, ACL policy templates, pre-created application entities, and workflows driven by VCS and CI/CD.
+- [hashicorp.com: Managing SSH Access at Scale with HashiCorp Vault](https://www.hashicorp.com/blog/managing-ssh-access-at-scale-with-hashicorp-vault) Learn how to build scalable, role-based SSH access with SSH certificates and HashiCorp Vault.
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
@@ -282,3 +287,6 @@
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.
+
+## More Security Tools
+- [zdnet.com: Google releases new open-source security software program: Scorecards](https://www.zdnet.com/article/google-releases-new-open-source-security-software-program-scorecards/) How safe is that open-source software in the Git library, the one with the questionable history? Scorecard 2.0 can quickly tell you just how secure, or not, it really is.

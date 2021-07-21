@@ -12,3 +12,4 @@
 - [blog.stack-labs.com: Kustomize - The right way to do templating in Kubernetes](https://blog.stack-labs.com/code/kustomize-101/)
 - [harness.io: Comparing Helm vs Kustomize 🌟](https://harness.io/blog/devops/helm-vs-kustomize/)
 - [opensource.com: Modify your Kubernetes manifests with Kustomize](https://opensource.com/article/21/6/kustomize-kubernetes) Modify your Kubernetes manifests without losing control of what's in the original versions.
+- [dev.to: Introduction to Kustomize - How to customize Kubernetes objects kubernetes](https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08)

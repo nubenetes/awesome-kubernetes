@@ -3,6 +3,7 @@
 - [Cloud Native CI/CD](#cloud-native-cicd)
 - [Comparisons](#comparisons)
 - [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
+
 ## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 * [Circle CI](https://circleci.com/)
@@ -33,6 +34,7 @@
     * [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
     * [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setup Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescript version of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
     * [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) This controller operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
+    * [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https://towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How to automatically build your Docker images; a case study.
 * [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 * [Agola](https://agola.io/)
 * [keptn](https://keptn.sh/) Keptn not only orchestrates Continuous Deployment, but it also orchestrates Continuous or Automated Operations.    
@@ -94,6 +96,7 @@
     * [openshift.com: Getting Started with ApplicationSets](https://www.openshift.com/blog/getting-started-with-applicationsets) "App of Apps" pattern.
     * [argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) The Argo-CD Autopilot is a tool which offers an opinionated way of installing Argo-CD and managing GitOps repositories.
     * [gspann.com: Significance of Using Spinnaker When Adopting a Kubernetes Environment 🌟](https://www.gspann.com/resources/blogs/significance-of-using-spinnaker-when-adopting-a-kubernetes-environment/) Spinnaker acts as a multi-cloud deployment tool to support continuous workflows in a Kubernetes environment. Understand the Spinnaker architecture and learn about the best practices that can help you better deploy applications on Kubernetes clusters.
+    * [medium: Argo CD: A Tool for Kubernetes DevOps](https://medium.com/geekculture/argo-cd-a-tool-for-kubernetes-devops-c46f2881edfe)
 * [Tekton](https://github.com/tektoncd/)
     * [Tekton PetClinic Demo](https://github.com/tektoncd/pipeline)
     * [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)

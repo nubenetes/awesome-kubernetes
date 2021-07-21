@@ -14,6 +14,7 @@
 	- [Portworx AutoPilot](#portworx-autopilot)
 	- [OpenShift Applier](#openshift-applier)
 	- [HashiCorp Waypoint](#hashicorp-waypoint)
+	- [Weave GitOps](#weave-gitops)
 - [GitOps Frameworks](#gitops-frameworks)
 - [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
 	- [OpenShift GitOps](#openshift-gitops)
@@ -74,9 +75,19 @@
 - [weave.works: There’s More to GitOps Than Meets the Eye](https://www.weave.works/blog/theres-more-to-gitops-than-meets-the-eye)
 - [solo.io: GlooOps: Progressive delivery, the GitOps way](https://www.solo.io/blog/glooops-progressive-delivery-the-gitops-way)
 - [go.weave.works: The GitOps Maturity Model - 4 evolutionary steps to continuous delivery (pdf)](https://go.weave.works/2021_GitOps_Maturity_Model.html)
+- [thenewstack.io: A Look at GitOps for the Modern Enterprise 🌟](https://thenewstack.io/a-look-at-gitops-for-the-modern-enterprise/)
+- [shipa.io: GitOps in the enterprise 🌟](https://www.shipa.io/innovation/gitops-in-the-enterprise/)
+- [itnext.io: GitOps with Kubernetes 🌟](https://itnext.io/gitops-with-kubernetes-740f37ea015b) 
+- [shipa.io: GitOps meets AppOps](https://www.shipa.io/innovation/gitops-meets-appops/)
+- [weave.works: Automating Kubernetes with GitOps (whitepaper) 🌟](https://go.weave.works/automating-kubernetes-with-gitops-wp.html)
+- [devopslearners.com: What is GitOps?](https://devopslearners.com/what-is-gitops-168aac9a2ee) A small explanation for GitOps
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
+</center>
+
+<center>
+[![app ops](images/appops.png)](https://www.shipa.io/innovation/gitops-in-the-enterprise/)
 </center>
 
 ## GitOps Working Group
@@ -101,6 +112,8 @@
 - [ibm.com: Enable GitOps](https://www.ibm.com/garage/method/practices/run/gitops/) GitOps focuses on the Ops side of DevOps and shows how operations configurations, infrastructures, and actions are like software. Everything is code and code is managed with Git.
 - [openshift.com: OpenShift Pipelines and OpenShift GitOps are now Generally Available 🌟](https://www.openshift.com/blog/openshift-pipelines-and-openshift-gitops-are-now-generally-available)
 - [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac)
+- [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
+- [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://cloudogu.com/en/blog/gitops-tools)
 
 <center>
 [![gitops pipeline](images/gitops-pipeline.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -127,6 +140,7 @@
 - [johnclarke73.medium.com: How GitOps works for us](https://johnclarke73.medium.com/our-continuous-delivery-journey-11d86dd68a49) From manually deployed monoliths to containers and GitOps with Weaveworks Flux
 - [thenewstack.io: GitOps at Home: Automate Code Deploys with Kubernetes and Flux](https://thenewstack.io/gitops-at-home-automate-code-deploys-with-kubernetes-and-flux/)
 - [medium: Integrating GitOps Deployments in Kubernetes Using Weave Flux](https://medium.com/contino-engineering/integrating-gitops-deployments-in-kubernetes-using-weave-flux-9a617ea17684)
+- [alexander.holbreich.org: (Typical) journey towards full GitOps with Flux](https://alexander.holbreich.org/gitops-journey)
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
@@ -171,6 +185,9 @@ Weaveworks's Flagger.
 ### HashiCorp Waypoint
 - [waypointproject.io](https://www.waypointproject.io/) Waypoint provides a modern workflow to build, deploy, and release across platforms. Waypoint uses a single configuration file and common workflow to manage and observe deployments across platforms such as Kubernetes, Nomad, EC2, Google Cloud Run, and more.
 - [hashicorp.com: Using Waypoint Runners To Enable GitOps Workflows](https://www.hashicorp.com/blog/using-waypoint-runners-to-enable-gitops-workflows) Waypoint runners perform builds, deployments, poll for Git repository changes, and allow deployments for any platform.
+
+### Weave GitOps
+- [Weave GitOps Enterprise](https://www.weave.works/product/gitops-enterprise/) Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications in any environment. With a single management console that lets you operate clusters running anywhere, in the public cloud, on the edge or in any hybrid scenario. Strong multi-tenancy can accelerate app delivery by providing developers with self-serve isolated workload namespaces across environments.
 
 ## GitOps Frameworks
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.

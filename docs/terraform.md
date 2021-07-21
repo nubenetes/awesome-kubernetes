@@ -21,6 +21,7 @@
 - [Graph Visualization Software](#graph-visualization-software)
 - [Gruntwork](#gruntwork)
 - [Terraform Modules](#terraform-modules)
+- [Terraform Providers](#terraform-providers)
 - [Terraform Quality Checks](#terraform-quality-checks)
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 - [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
@@ -28,6 +29,7 @@
 ## Packer
 * [packer.io](https://packer.io/)
 * [packer.io docs](https://www.packer.io/docs/index.html)
+* [computingforgeeks.com: Build AWS EC2 Machine Images (AMI) With Packer and Ansible](https://computingforgeeks.com/build-aws-ec2-machine-images-with-packer-and-ansible/)
 
 ## Terraform
 * [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))
@@ -227,6 +229,9 @@
 
 ## Terraform Modules 
 - [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
+
+## Terraform Providers
+- [Junos-terraform: JUNOS Terraform Automation Framework (JTAF)](https://github.com/Juniper/Junos-terraform) 
 
 ## Terraform Quality Checks
 - [adinermie.com: Publishing GitHub Super-Linter Terraform Quality Checks to Azure DevOps Pipelines](https://adinermie.com/publishing-github-super-linter-terraform-quality-checks-to-azure-devops-pipelines/)

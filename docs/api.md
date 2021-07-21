@@ -5,7 +5,7 @@
 - [State of the API Report](#state-of-the-api-report)
 	- [Postman State of the API Report](#postman-state-of-the-api-report)
 	- [Smartbear State of the API Report](#smartbear-state-of-the-api-report)
-- [Types of API Protocols](#types-of-api-protocols)
+- [Types of API Protocols. Interprocess Communication in Microservices](#types-of-api-protocols-interprocess-communication-in-microservices)
 	- [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
 	- [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
 		- [OpenAPI Specification (originally known as the Swagger Specification)](#openapi-specification-originally-known-as-the-swagger-specification)
@@ -42,6 +42,7 @@
 - [amazicworld.com: Why APIs can’t be missed when it comes to DevOps](https://amazicworld.com/why-apis-cant-be-missed-when-it-comes-to-devops/)
 - [medium: API Gateway Part 1](https://medium.com/easyread/api-gateway-part-1-7901ba703f9) Understanding how API Gateway Works
 	- [medium: API Gateway Part 2](https://medium.com/easyread/api-gateway-part-2-7264ee5be187) 
+- [rapidapi.com: API vs Microservices [What’s the Difference?]](https://rapidapi.com/blog/api-vs-microservices-whats-the-differences/)
 
 ## Motivation
 - [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure. 
@@ -57,8 +58,9 @@
 ### Smartbear State of the API Report
 - [smartbear.com: The State of API 2019 Report 🌟](https://smartbear.com/resources/ebooks/the-state-of-api-2019-report/)
 
-## Types of API Protocols
+## Types of API Protocols. Interprocess Communication in Microservices
 - [apifriends.com: What are the different types of APIs? 🌟](https://apifriends.com/api-creation/different-types-apis/) Types of API Protocols: SOAP, REST and RPC
+- [vishnuch.tech: Interprocess Communication in Microservices 🌟](https://vishnuch.tech/interprocess-communication-in-microservices) Different IPC methods in microservices like REST API, gRPC, Kafka, RabbitMQ, etc... which developers should know.
 
 ### SOAP API Protocol (Simple Object Access Protocol)
 - [wikipedia: SOAP](https://en.wikipedia.org/wiki/SOAP)
@@ -98,6 +100,7 @@
 - [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/)
 
 ## Comparisons
+- [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907)
 ### SOAP vs REST
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.
@@ -124,6 +127,7 @@
 * [mockoon 🌟](https://mockoon.com/) Create mock APIs in seconds. Mockoon is the easiest and quickest way to run mock API locally. No remote deployment, no account required, open source.
 * [thenewstack.io: 4 Essential Tools for Protecting APIs and Web Applications](https://thenewstack.io/4-essential-tools-for-protecting-apis-and-web-applications/)
 * [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
+* [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/)
 
 <center>
 [![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
@@ -143,6 +147,7 @@
 
 ## API Security
 - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/)
+- [biztechmagazine.com: 6 Steps to Improved API Security](https://biztechmagazine.com/article/2021/07/6-steps-improved-api-security) Application programming interfaces are critical to businesses. Tech leaders must do more to protect them.
 
 ## Free Web Services (Public APIs)
 - [free-web-services.com](http://free-web-services.com/)

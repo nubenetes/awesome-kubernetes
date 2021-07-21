@@ -1,5 +1,7 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Cloud Migration Checklist](#cloud-migration-checklist)
+- [Microservices Failures](#microservices-failures)
 - [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
 - [Namespaces for Data Structuring](#namespaces-for-data-structuring)
 - [From SysAdmin to Architect](#from-sysadmin-to-architect)
@@ -107,6 +109,11 @@
 * [developers.redhat.com: Application modernization patterns with Apache Kafka, Debezium, and Kubernetes](https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes)
 * [medium: Microservices Architecture From A to Z 🌟](https://medium.com/swlh/microservices-architecture-from-a-to-z-7287da1c5d28)
 * [skycrafters.io: Do Containers Really Contain? Virtual Machines vs. Containers 🌟](https://skycrafters.io/blog/2021/06/08/do-containers-really-contain/) 
+* [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.itprotoday.com/containers/whos-winning-container-software-market) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
+* [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
+* [simform.com: What is Multi Cloud? Why you Need a Multi Cloud Strategy?](https://www.simform.com/multi-cloud-strategy/)
+* [blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds](https://blog.min.io/monoclouds-vs-multiclouds-hybridclouds/)
+* [xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas)
 
 <center>
 [![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
@@ -115,6 +122,25 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## Cloud Migration Checklist
+- [betterprogramming.pub: A Cloud Migration Questionnaire for Solution Architects 🌟🌟](https://betterprogramming.pub/a-cloud-migration-questionnaire-for-solution-architects-dec7ffcf063e) The questions you must ask your customers before migrating their on-premise workload to AWS Cloud:
+    - Why do you want to migrate to the cloud?
+    - How many code changes can you afford as part of migration?
+    - What type of database are you using?
+    - What type of load balancers are you using?
+    - What application servers and versions are you using?
+    - What operating system are you using?
+    - Is your application public facing?
+    - Is your application stateful or stateless?
+    - Is your application containerized?
+    - What are the current resource requirements of the servers?
+    - How is your workload variation?
+    - What are your logging and monitoring requirements?
+    - What is your current backup strategy?
+
+## Microservices Failures
+- [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
 
 ## Transform Legacy Java Apps to Microservices with automation tools
 - [devops.com: Transform Legacy Java Apps to Microservices with vFunction](https://devops.com/transform-legacy-java-apps-to-microservices/)
