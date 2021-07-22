@@ -122,6 +122,7 @@
 * [blog.byte.builders: Manage MongoDB in Openshift Using KubeDB](https://blog.byte.builders/post/openshift-mongodb/)
 * [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 1: Requirements](https://developers.redhat.com/articles/2021/07/08/troubleshooting-application-performance-red-hat-openshift-metrics-part-1)
 * [openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟](https://www.openshift.com/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)
+* [openshift.com: OpenShift on ARM Developer Preview Now Available for AWS](https://www.openshift.com/blog/openshift-on-arm-developer-preview-now-available-for-aws)
 
 ### OpenShift sizing and subscription guide
 - [redhat.com: OpenShift sizing and subscription guide for enterprise Kubernetes 🌟](https://www.redhat.com/en/resources/openshift-subscription-sizing-guide-detail)

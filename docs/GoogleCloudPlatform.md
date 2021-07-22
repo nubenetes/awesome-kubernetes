@@ -34,6 +34,8 @@
 - [cloud.google.com: Secret Manager Best Practices](https://cloud.google.com/secret-manager/docs/best-practices)
 - [cloud.google.com: Choose the best way to use and authenticate service accounts on Google Cloud](https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure)
 - [cloud.google.com: 5 cheat sheets to help you get started on your Google Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021) Sometimes a picture is worth a thousand words, and that’s where these cheat sheets come in handy. Cloud Developer Advocate Priyanka Vergadia has built a number of guides that help developers visually navigate critical decisions, whether it’s determining the best way to move to the cloud, or deciding on the best storage options. Below are five of her top cheat sheets in one handy location.
+- [thenewstack.io: Configuring the Google Cloud Platform for High Availability](https://thenewstack.io/configuring-for-high-availability-in-google-cloud-platform/)
+- [zdnet.com: Google Cloud rolls out new security tools as threat landscape heats up](https://www.zdnet.com/article/google-cloud-rolls-out-new-security-tools-as-threat-landscape-heats-up/) New tools for the public sector will help agencies comply with President Joe Biden's cybersecurity executive order, while other tools give Google Cloud customers more automated security operations and access to Palo Alto Networks' threat detection technologies.
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

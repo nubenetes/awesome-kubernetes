@@ -36,6 +36,7 @@
 * [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops/)
 * [SUSE & Rancher Community 🌟](https://community.suse.com/feed) Learn and share with other cloud native enthusiasts
 * [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher/)
+* [dzone: Getting Started With Rancher 🌟](https://dzone.com/refcardz/getting-started-with-rancher) What is Rancher? And how does it make Kubernetes crazy easy? Rancher is a complete Kubernetes stack that's easy to navigate — whether it's physical servers on-prem or in the cloud. This Refcard helps you get started with Rancher — from zero to fully production-ready.
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
@@ -74,6 +75,7 @@
 * [rancher.com: Set up K3s in High Availability using k3d](https://rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d)
 * [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://rancher.com/blog/2020/k3s-high-availability)
 * [community.suse.com: Introduction to K3s 🌟](https://community.suse.com/posts/13903989)
+* [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) How to build a kubernetes cluster in [Hetzner Cloud](https://www.hetzner.com/cloud)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):
@@ -124,6 +126,7 @@
 * [github.com/rancher/fleet](https://github.com/rancher/fleet) Fleet is GitOps at scale. Fleet can manage deployments from git of raw Kubernetes YAML, Helm charts, or Kustomize or any combination of the three.
 * [**Fleet** Management for kubernetes](https://rancher.com/blog/2020/fleet-management-kubernetes/) a new open source project from the team at Rancher focused on managing fleets of Kubernetes clusters.
 * [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)
+* [digitalis.io: Kubernetes GitOps Continuous Integration and Delivery with Fleet and Rancher](https://digitalis.io/blog/kubernetes/kubernetes-gitops-continuous-integration-and-delivery-with-fleet-and-rancher/)
 
 ## Kubernautic
 - [Kubernautic](https://kubernauts.sh/) Kubernetes For Everyone, Free Forever! Start your CloudLess Journey and get free access to Rancher Shared as a Service (RSaaS) or apply to get access to your own Dedicated Rancher Dashboard (RDaaS) and save up-to 90% of your cloud costs with Auto Scaling of Spot Instances and Kubernauts Kubernetes Services KKS!

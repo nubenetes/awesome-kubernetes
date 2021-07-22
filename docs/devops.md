@@ -2,6 +2,7 @@
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [Interview Questions](#interview-questions)
 - [Configuration Drift](#configuration-drift)
+	- [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
 - [DevOps Tools](#devops-tools)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
@@ -39,6 +40,9 @@
 - [What is Configuration Drift?](https://www.continuitysoftware.com/blog/it-resilience/what-is-configuration-drift/) Configuration drift  is a data center environment term. At a high level, configuration drift happens when production or primary hardware and software infrastructure configurations “drift” or become different in some way from a recovery or secondary configuration or visa versa.  Production or primary and recovery or secondary configurations are designed to be identical in certain aspects is order for business resumption should there be a disaster or major failure in production.  When these infrastructure configurations drift from another, they leave a gap between them which commonly called a configuration gap.
 - [thenewstack.io: Cloud Drift Detection: How to Resolve Out-of-State Changes](https://thenewstack.io/cloud-drift-detection-how-to-resolve-out-of-state-changes/)
 - [fairwinds.com: Configuration Drift in Kubernetes - What Is It and Why it Matters 🌟](https://www.fairwinds.com/blog/configuration-drift-kubernetes)
+
+### Drift Detection Tools
+- [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
 
 ## DevOps Docs
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)

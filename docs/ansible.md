@@ -10,8 +10,8 @@
 - [Ansible Cheat Sheets](#ansible-cheat-sheets)
 - [Running Ansible Playbooks](#running-ansible-playbooks)
 	- [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
-	- [Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower--ansible-awx-running-ansible-playbooks-from-ansible-tower)
-		- [Tower & AWX Installers](#tower--awx-installers)
+	- [Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower)
+		- [Tower and AWX Installers](#tower-and-awx-installers)
 	- [Alternatives to Ansible Tower](#alternatives-to-ansible-tower)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
@@ -84,6 +84,7 @@
 * [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases](https://k21academy.com/ansible/ansible-for-beginners)
 * [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
 * [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/sysadmin/6-code-pushes-aap) Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.
+* [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/sysadmin/ansible-create-users-csv) Automate Linux user account creation in four simple steps with Ansible.
 
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
@@ -134,10 +135,11 @@
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
 * [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)
 
-### Ansible Tower & Ansible AWX. Running Ansible Playbooks From Ansible Tower
+### Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
 * [Ansible Tower](https://www.ansible.com/products/tower)
 * [Ansible Tower Docs](https://docs.ansible.com/ansible-tower/index.html)
 * [Ansible AWX](https://github.com/ansible/awx)
+* [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible. 
 * [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
 * [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 * [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
@@ -147,7 +149,7 @@
 * [techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8](https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html)
 * [developer.ibm.com: Automating IT infrastructure using Ansible and AWX](https://developer.ibm.com/technologies/systems/articles/automation-using-ansible-awx-gui/)
 
-#### Tower & AWX Installers
+#### Tower and AWX Installers
 * [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx) Installs and configures AWX (Ansible Tower's open source version).
 * [AWX Ansible Collection: galaxy.ansible.com/awx/awx](https://galaxy.ansible.com/awx/awx) This Ansible collection allows for easy interaction with an AWX server via Ansible playbooks.
 * [vagrant: ansible tower](https://app.vagrantup.com/ansible/boxes/tower)
@@ -183,6 +185,7 @@
 - [galaxy.ansible.com](https://galaxy.ansible.com/)
 - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)
 - [redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟](https://www.redhat.com/sysadmin/ansible-system-role) In this part one of two articles, learn to use rhel-system-roles with your Ansible deployment to better manage functionality such as network, firewall, SELinux, and more on your Red Hat Enterprise Linux servers.
+- [Ansible Role: Docker 🌟](https://github.com/geerlingguy/ansible-role-docker) An Ansible Role that installs Docker on Linux. "My Docker role now supports managing the Docker `daemon.json` file, after years of people asking" (Jeff Geerling)
 
 ## Awesome Ansible
 * [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)

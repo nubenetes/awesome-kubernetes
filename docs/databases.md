@@ -65,6 +65,7 @@
 * [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106) When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.
 * [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/)
 * [redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟](https://redislabs.com/blog/dbless-architecture-and-why-its-the-future/) DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.
+* [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures/)
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
@@ -178,6 +179,7 @@
 * [blog.crunchydata.com: Active-Active PostgreSQL Federation on Kubernetes](https://blog.crunchydata.com/blog/active-active-postgres-federation-on-kubernetes)
 * [blog.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://blog.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 * [blog.crunchydata.com: Next Generation Crunchy Postgres for Kubernetes 5.0 Released](https://blog.crunchydata.com/news/next-generation-crunchy-postgres-for-kubernetes-released)
+* [blog.crunchydata.com: pgBackRest Point-In-Time Recovery Using Crunchy PostgreSQL Operator](https://blog.crunchydata.com/blog/pgbackrest-point-in-time-recovery-using-crunchy-postgresql-operator)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -834,6 +836,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://blog.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
 - [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/)
+- [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://blog.crunchydata.com/blog/generating-json-directly-from-postgres)
   
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)

@@ -339,7 +339,12 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [jenkinsci/custom-war-packager 🌟](https://github.com/jenkinsci/custom-war-packager) Custom Jenkins WAR packager for Jenkins. Custom WAR Packager (CWP) allows building ready-to-fly Jenkins packages using a YAML specification. The tool can produce Docker images, WAR files, and Jenkinsfile Runner docker images (aka single-shot Jenkins masters). These bundles may include Jenkins core, plugins, extra libraries, and self-configuration via Groovy Hook Scripts or Configuration-as-Code Plugin YAML files.
 
 ###  jenkins-std-lib Jenkins Standard Shared Library
-- [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) A set of useful tools for every day CI/CD jobs. Bringing the Zen of Python to Jenkins. **Run GitHub actions on Jenkins**
+- [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) A set of useful tools for every day CI/CD jobs. Bringing the Zen of Python to Jenkins. **Run GitHub actions on Jenkins**. "I still have lots of features I want to add but I'm adding to it when I can. My favorite feature currently is the ability to run GitHub Actions on Jenkins. For teams that use Jenkins but want something simple" (@shady_cruz)
+- [marketplace.visualstudio.com: Jenkins Extension Pack: DontShaveTheYak](https://marketplace.visualstudio.com/items?itemName=DontShaveTheYak.jenkins-extension-pack)
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Please everyone in technology stop using <a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> for CI/CD systems. It is one of the worst non immutable systems out there. Also don&#39;t get me started with pipelines. Otherwise <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> future is just going to be managing multi decade old jenkins servers :( What a nightmare.</p>&mdash; The Sheff (@thesheff17) <a href="https://twitter.com/thesheff17/status/1414909241295581184?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 ## Jenkins Multibranch Pipeline
 - The [Multibranch Pipeline 🌟](https://www.jenkins.io/doc/book/pipeline/multibranch/) enable developer to implement different Jenkinsfiles for different branches of the same project. It’s can discover branches and execute pipeline automatically with Jenkinsfiles in version control for better management pipeline.

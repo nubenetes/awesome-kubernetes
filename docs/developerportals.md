@@ -32,6 +32,7 @@
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
 - [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
+- [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
 
 ## API Landscape and API Marketplaces
 - [API Landscape](https://www.apidays.co/api-landscape)
@@ -86,6 +87,7 @@
 - [Kong API Manager](https://konghq.com/kong/)
 - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)
 - [medium: Kong API Gateway - From Zero to Production](https://medium.com/swlh/kong-api-gateway-zero-to-production-5b8431495ee) Let’s start by exploring the API gateway architecture pattern and then slowly deep dive into the details of running a production-grade Kong API gateway.
+- [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.openshift.com/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)
 
 ### Tyk API Manager 
 - [Tyk API Manager](https://tyk.io/)

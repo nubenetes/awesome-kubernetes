@@ -131,6 +131,7 @@
 - [dineshkumarkb.com: Reverse a linked list without additional datastructures using python](https://dineshkumarkb.com/tech/reverse-a-linked-list-without-additional-datastructures-using-python/)
 - [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process/)
 - [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/3623689/how-to-use-the-python-for-loop.html) The for loop construction in Python easily iterates over a collection of items. Here’s what you need to know to use it well.
+- [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python/) Here's a collection of resources on how to get started using Python.
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -236,6 +237,7 @@
 - [Migrating to Boto3](https://aws.amazon.com/es/blogs/developer/migrating-to-boto3/)
 - [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](http://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python)
 - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.python.org/pypi/ec2-ssh-yplan/)
+- [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python/)
 
 ## Python Tools
 - [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org/)

@@ -77,7 +77,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ### OpenShift Streaming & Training
 - [OpenShift.tv](https://openshift.tv) 
 - [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
-- [Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
 ### OpenShift on Public Cloud
 - OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
 - [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)

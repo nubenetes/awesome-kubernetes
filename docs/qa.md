@@ -28,6 +28,8 @@ the #1 test automation community.
     * [devops.com: Continuous Testing Practices – Part 2 🌟](https://devops.com/continuous-testing-practices-part-2/)
 * [boozangfromthetrenches.com: Root Cause Analysis in Test Automation](https://boozangfromthetrenches.com/root-cause-analysis-in-test-automation/9)
 * [copyconstruct.medium.com: Testing in Production, the safe way 🌟🌟🌟](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
+* [blog.thundra.io: How to Fix Your Failing End-to-End Tests?](https://blog.thundra.io/how-to-fix-your-failing-end-to-end-tests)
+* [rookout.com: How Real-Time Debugging Improves Reliability](https://www.rookout.com/blog/how-real-time-debugging-improves-reliability)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.

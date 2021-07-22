@@ -10,6 +10,8 @@
 - [GitHub Copilot](https://copilot.github.com/)
 - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
 
+## No code tools
+- [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10 Best Github repositories for all web developers:<br><br>🧵👇🏻</p>&mdash; Sunil Kumar (@sunilc_) <a href="https://twitter.com/sunilc_/status/1401902233478828038?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

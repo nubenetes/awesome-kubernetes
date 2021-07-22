@@ -83,8 +83,11 @@
 - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/)
 - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) JFrog’s software is similarly disruptive as MongoDB’s, and likewise its cloud offering is growing faster than the overall company.
 - [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://www.jfrog.com/confluence/display/JFROG/Kubernetes+Helm+Chart+Repositories)
+- [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integration/kubernetes-docker-registry/)
+- [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.openshift.com/blog/18333-2)
 
 ## JFrog DevOps Platform
 - [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)
 - [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
+- [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
