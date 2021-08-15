@@ -148,6 +148,8 @@
 * [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry)
 * [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/sysadmin/it-automation-book) Download this collection of short stories about the excitement, frustrations, and challenges associated with learning IT automation.
 * [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
+* [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams/) Latest Puppet survey finds DevOps teams actually have a variety of roles that are more in line with business goals.
+* [puppet.com: The 2021 State of DevOps Report is here! 🌟](https://puppet.com/resources/report/2021-state-of-devops-report/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
