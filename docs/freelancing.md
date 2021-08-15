@@ -1,8 +1,17 @@
 # Freelancing
+- [Introduction](#introduction)
+- [Freelancing in Spain](#freelancing-in-spain)
+- [Top Freelancing Platforms](#top-freelancing-platforms)
+## Introduction
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
 - [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere/)
-# Top Freelancing Platforms
-- [malt 🌟](https://www.malt.com/)
+## Freelancing in Spain
+- [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)
+- [malt.com: Las 7 dudas legales que siempre tenemos como autónomos](https://resources.malt.com/es/freelances/art%C3%ADculos-freelance/dudas-legales-freelance/)
+
+## Top Freelancing Platforms
+- [malt 🌟](https://www.malt.com/) 
+- [upper 🌟](https://upper.co) Europe’s top product & tech professionals, on demand
 - [upwork 🌟](https://www.upwork.com/)
 - [freelancer 🌟](https://www.freelancer.com/)
 - [yeeply 🌟](https://www.yeeply.com/)

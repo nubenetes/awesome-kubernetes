@@ -76,6 +76,13 @@
 * [rancher.com: Set up Your K3s Cluster for High Availability on DigitalOcean](https://rancher.com/blog/2020/k3s-high-availability)
 * [community.suse.com: Introduction to K3s 🌟](https://community.suse.com/posts/13903989)
 * [k3s_hetzner](https://gitlab.com/k3s_hetzner/k3s_hetzner) How to build a kubernetes cluster in [Hetzner Cloud](https://www.hetzner.com/cloud)
+* [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1) In this article you'll learn:
+    - What's new with k3d v3
+    - Create a multi-server and multi-agent with k3s
+    - How to replace the default CNI plugin of k3s
+* [edgelab 🌟 (with k3s)](https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
+* [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020. 
+* [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

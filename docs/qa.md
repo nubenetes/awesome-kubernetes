@@ -30,6 +30,10 @@ the #1 test automation community.
 * [copyconstruct.medium.com: Testing in Production, the safe way 🌟🌟🌟](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 * [blog.thundra.io: How to Fix Your Failing End-to-End Tests?](https://blog.thundra.io/how-to-fix-your-failing-end-to-end-tests)
 * [rookout.com: How Real-Time Debugging Improves Reliability](https://www.rookout.com/blog/how-real-time-debugging-improves-reliability)
+* [itnext.io: Software Development Is Misunderstood 🌟](https://itnext.io/software-development-is-misunderstood-quality-is-fastest-way-to-get-code-into-production-f1f5a0792c69) Quality is fastest way to get code into production. **Non-developers focus on creating code, developers focus on creating maintainable code**
+* [blog.testproject.io: The 10–10–10 Rule of Test Automation](https://blog.testproject.io/2021/07/21/the-10-10-10-rule-of-test-automation/)
+* [blog.testproject.io: End to End Testing](https://blog.testproject.io/2021/07/22/end-to-end-testing/)
+* [blog.testproject.io: REST API Automation From Scratch 🌟](https://blog.testproject.io/2021/07/28/rest-api-automation-from-scratch/)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.
@@ -45,6 +49,9 @@ the #1 test automation community.
 * [testcontainers 🌟](https://github.com/testcontainers) Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
     * [thenewstack.io: Testcontainers Integration Library Gets Commercial Backing with AtomicJar](https://thenewstack.io/testcontainers-integration-library-gets-commercial-backing-with-atomicjar/)
 * [Metabob](https://www.metabob.com/) Metabob is an AI Static Analysis Tool that enables developers to quickly identify the causes behind errors and performance sinks. An AI-assisted tool to visualize and debug Python code.
+* [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)
+* [SystemTap](https://sourceware.org/systemtap/)
+    * [developers.redhat.com: Opening black boxes with statement tracing (SystemTap)](https://developers.redhat.com/articles/2021/08/04/opening-black-boxes-statement-tracing)
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)
 
@@ -59,4 +66,8 @@ the #1 test automation community.
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If your code has no tests, then:<br><br>- it is not clean<br>- it is not complete<br>- it is not correct<br>- it is not documented<br>- it is not verified<br>- it is not working<br><br>And most importantly: It is not quality.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1365995255322001409?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+<center>
+![tests in prod](images/testinprodmeme.jfif)
 </center>

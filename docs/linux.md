@@ -12,6 +12,7 @@
 - [Bash](#bash)
 - [Zsh](#zsh)
 - [ZX](#zx)
+- [bpftrace](#bpftrace)
 - [Linux processes](#linux-processes)
 - [Linux Memory](#linux-memory)
 - [Linux and Kubernetes](#linux-and-kubernetes)
@@ -35,6 +36,9 @@
 - [arstechnica.com: Why Red Hat killed CentOS—a CentOS board member speaks](https://arstechnica.com/gadgets/2021/01/on-the-death-of-centos-red-hat-liaison-brian-exelbierd-speaks/) "The CentOS Board doesn't get to decide what Red Hat engineering teams do."
 - [zdnet.com: Red Hat introduces free RHEL for open-source, non-profit organizations](https://www.zdnet.com/article/free-red-hat-enterprise-linux-for-open-source-non-profit-organizations/) Some CentOS users still aren't happy, but Red Hat is keeping its promise to open-source organizations that they'll have access to a free version of RHEL.
 - [genbeta.com: Red Hat Enterprise Linux lanza una versión a bajo costo para llegar a más público de sectores de investigación y académico](https://www.genbeta.com/actualidad/red-hat-enterprise-linux-lanza-version-a-costo-para-llegar-a-publico-sectores-investigacion-academico)
+- [makeuseof.com: The 4 Best RHEL-Based Alternatives to CentOS](https://www.makeuseof.com/best-centos-alternatives/) Now that CentOS is gone, you should make a switch to some other OS. Check out these four RHEL-based CentOS alternatives.
+- [centos.org: Comparing Centos Linux and CentOS Stream](https://www.centos.org/cl-vs-cs/) The CentOS Project produces two variants: CentOS Linux and CentOS Stream. They are alike in many ways. Here’s what sets them apart.
+- [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos/)
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)
@@ -61,6 +65,8 @@
 - [goteleport.com: SSH Certificates Security. SSH Access Hardening 🌟](https://goteleport.com/blog/ssh-certificates/)
 - [dev.to: How to Manage Multiple SSH Key Pairs](https://dev.to/josephmidura/how-to-manage-multiple-ssh-key-pairs-1ik)
 - [cyberciti.biz: Top 20 OpenSSH Server Best Security Practices](https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
+- [cyberciti.biz: How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
+- [cyberciti.biz: OpenSSH Change a Passphrase With ssh-keygen command](https://www.cyberciti.biz/faq/howto-ssh-changing-passphrase/)
 
 ## OpenSSL
 - [redhat.com: 6 OpenSSL command options that every sysadmin should know](https://www.redhat.com/sysadmin/6-openssl-commands) Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.
@@ -160,6 +166,14 @@
 - [opensource.com: Use XMLStarlet to parse XML in the Linux terminal](https://opensource.com/article/21/7/parse-xml-linux) Become an XML star with XMLStarlet, an XML toolkit for your terminal.
 - [redhat.com: 5 Linux commands I'm going to start using](https://www.redhat.com/sysadmin/5-linux-commands) Five standard Linux commands that can make your life much easier.
 - [developers.redhat.com: Build your own RPM package with a sample Go program to simplify installing, updating, or removing a piece of software](https://developers.redhat.com/articles/2021/05/21/build-your-own-rpm-package-sample-go-program)
+- [cyberciti.biz: How to copy and transfer files remotely on Linux using scp and rsync](https://www.cyberciti.biz/faq/how-to-copy-and-transfer-files-remotely-on-linux-using-scp-and-rsync/)
+- [nginx.com: What Are Namespaces and cgroups, and How Do They Work? 🌟](https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work) Namespaces provide isolation of system resources, and cgroups allow for fine‑grained control and enforcement of limits for those resources. Containers are not the only way that you can use namespaces and cgroups. Namespaces and cgroup interfaces are built into the Linux kernel, which means that other applications can use them to provide separation and resource constraints.
+- [cyberciti.biz: How to check CPU temperature on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-check-cpu-temperature-on-ubuntu-linux/)
+- [opensource.com: Check used disk space on Linux with du](https://opensource.com/article/21/7/check-disk-space-linux-du) Find out how much disk space you're using with the Linux du command.
+- [linuxshelltips.com: How to Kill Running Linux Process on Particular Port](https://www.linuxshelltips.com/kill-linux-process-with-port/)
+- [freecodecamp.org: The Linux Command Handbook 🌟](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
+- [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)
+- [tecmint.com: 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
@@ -178,6 +192,7 @@
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls)
 - [cyberciti.biz: Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop)
 - [opensource.com: Parsing config files with Bash](https://opensource.com/article/21/6/bash-config) Separating config files from code enables anyone to change their configurations without any special programming skills.
+- [cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts/)
 
 ## Zsh
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
@@ -185,6 +200,12 @@
 
 ## ZX
 - [zx](https://github.com/google/zx) A tool for writing better scripts
+
+## bpftrace
+- [bpftrace](https://github.com/iovisor/bpftrace) High-level tracing language for Linux eBPF. bpftrace is pretty impressive in terms of conciseness and practicality of their docs.
+- https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md
+- https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
+- https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md
 
 ## Linux processes
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)
@@ -244,6 +265,9 @@
 - [cyberciti.biz: Linux ip Command Examples 🌟](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/)
 - [cyberciti.biz: Linux: 25 Iptables Netfilter Firewall Examples For New SysAdmins](https://www.cyberciti.biz/tips/linux-iptables-examples.html)
 - [redhat.com: 6 tcpdump network traffic filter options](https://www.redhat.com/sysadmin/tcpdump-part-one) The first six of eighteen common tcpdump options that you should use for network troubleshooting and analysis.
+- [redhat.com: Learn the networking basics every sysadmin needs to know](https://www.redhat.com/sysadmin/sysadmin-essentials-networking-basics)
+- [tecmint.com: 16 Useful Bandwidth Monitoring Tools to Analyze Network Usage in Linux](https://www.tecmint.com/linux-network-bandwidth-monitoring-tools/)
+- [iximiuz.com: Illustrated introduction to Linux iptables](https://iximiuz.com/en/posts/laymans-iptables-101/)
 
 ## Networking Protocols
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)

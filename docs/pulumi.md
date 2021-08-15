@@ -12,3 +12,4 @@
 - [pulumi.com: Announcing Pulumi 3.0](https://www.pulumi.com/blog/pulumi-3-0)
 - [devops.com: Pulumi Moves to Automate Cloud Infrastructure Provisioning](https://devops.com/pulumi-moves-to-automate-cloud-infrastructure-provisioning/)
 - [thenewstack.io: The Next Step after DevOps and GitOps Is Cloud Engineering, Pulumi Says](https://thenewstack.io/the-next-step-after-devops-and-gitops-is-cloud-engineering-pulumi-says/)
+- [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/guides/adopting/from_kubernetes/)

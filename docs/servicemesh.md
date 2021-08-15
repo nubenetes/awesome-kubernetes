@@ -48,6 +48,9 @@
 * [toptal.com: A Kubernetes Service Mesh Comparison 🌟](https://www.toptal.com/kubernetes/service-mesh-comparison)
 * [nginx.com: How to Choose a Service Mesh 🌟](https://www.nginx.com/blog/how-to-choose-a-service-mesh/)
 * [cncf.io: Networking with a service mesh: use cases, best practices, and comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/)
+* [layer5.io: The Service Mesh Landscape 🌟🌟](https://layer5.io/service-mesh-landscape) Comparison of Service Mesh Strengths
+* [blog.polymatic.systems: Service Mesh Wars, Goodbye Istio](https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7) After using Istio in production for almost 2 years, we’re saying goodbye to it. Learn why, as well as the current state of the Service Mesh Wars.
+* [thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist](https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)
@@ -80,6 +83,9 @@
 - [thenewstack.io: Linkerd 2.0: The Service Mesh for Service Owners, Platform Architects, SREs](https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres/)
 - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy/)
 - [linkerd.io: Multi-cluster communication](https://linkerd.io/2.10/tasks/multicluster/index.html) This guide will walk you through installing and configuring Linkerd so that two clusters can talk to services hosted on both. 
+- [linkerd.io: Benchmarking Linkerd and Istio](https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html)
+- [nais.io: Changing Service Mesh](https://nais.io/blog/posts/2021/05/changing-service-mesh.html) How we swapped Istio with Linkerd with hardly any downtime
+- [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/)
 
 "[Installed @Linkerd in staging yesterday using Helm and Terraform](https://twitter.com/DanielJamesPost). It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production."
 

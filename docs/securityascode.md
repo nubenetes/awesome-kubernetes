@@ -8,6 +8,7 @@
 - [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
 - [Kyverno](#kyverno)
 - [Cloud Custodian](#cloud-custodian)
+- [Apolicy](#apolicy)
 
 ## Introduction
 - [Dzone: DevOps Security at Scale - Security Policy as Code](https://dzone.com/articles/devops-security-at-scale)
@@ -26,7 +27,12 @@
 - [itprotoday.com: Who Needs Open Policy Agent?](https://www.itprotoday.com/devops-and-software-development/who-needs-open-policy-agent) Open Policy Agent makes it possible to create a single set of configuration rules and deploy them automatically across a large-scale environment.
 - [blog.styra.com: Dynamic Policy Composition for OPA](https://blog.styra.com/blog/dynamic-policy-composition-for-opa)
 - [blog.styra.com: 5 OPA Deployment Performance Models for Microservices](https://blog.styra.com/blog/5-opa-deployment-performance-models-for-microservices)
-- [blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control Policies](https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies)
+- [blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control Policies](https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies) 
+    - Trusted Repo
+    - Label Safety
+    - Privileged Mode
+    - Ingress
+    - Egress
 - [thenewstack.io: Getting Open Policy Agent Up and Running](https://thenewstack.io/getting-open-policy-agent-up-and-running/)
 - [siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using Notary and Open Policy Agent](https://siegert-maximilian.medium.com/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c) A detailed guide to help you to ensure that only signed images can get deployed on the cluster
 - [blog.styra.com: Policy-based infrastructure guardrails with Terraform and OPA 🌟](https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa)
@@ -64,10 +70,25 @@
 
 ## Kyverno
 - [Kyverno 🌟](https://kyverno.io/) Kubernetes Native Policy Management. Open Policy Agent? That’s old school. Securely manage workloads on your kubernetesio clusters with this handy new tool, Kyverno.Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. This allows using familiar tools such as kubectl, git, and kustomize to manage policies. Kyverno policies can validate, mutate, and generate Kubernetes resources. The Kyverno CLI can be used to test policies and validate resources as part of a CI/CD pipeline. [youtube: The Way of the Future | Kubernetes Policy Management with Kyverno](https://www.youtube.com/watch?v=8fgrjBnxqi0&t=270s&ab_channel=AppSecEngineer)
+- [venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with open source Kyverno](https://venturebeat.com/2021/08/10/how-nirmata-plans-to-conquer-kubernetes-complexity-with-open-source-kyverno/)
 - [neonmirrors.net: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno 🌟](https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
 - [kyverno.io: 56 sample policies 🌟](https://kyverno.io/policies/)
 - [dev.to: Using Kyverno To Enforce EKS Best Practices](https://dev.to/rinkiyakedad/using-kyverno-to-enforce-eks-best-practices-cad)
 - Tip: Use kyverno to monitor for usage of deprecated resources ahead of the Kubernetes 1.22 release (validation check to scan and report usage of deprecated resources) - [ref](https://github.com/kyverno/policies/issues/80#issuecomment-882332198) - [ref2](https://twitter.com/Marcus_Noble_/status/1417007780888825856)
+- [aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟](https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks/)
+- [kyverno.io: Mutating Resources](https://kyverno.io/docs/writing-policies/mutate/) Modify resources during admission control (Kyverno supports mutating resources).
+- [squadcast.com: Kyverno - Policy Management in Kubernetes 🌟](https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes)
+- [neonmirrors.net: Exploring Kyverno: Part 3, Generation](https://neonmirrors.net/post/2020-12/exploring-kyverno-part3/)
+- [kyverno.io: Check deprecated APIs 🌟](https://kyverno.io/policies/best-practices/check_deprecated_apis/) Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.
+- [kyverno.io: Generating resources into existing namespaces](https://kyverno.io/docs/writing-policies/generate/#generating-resources-into-existing-namespaces)
+- [kyverno.io: Add Pod Proxies](https://kyverno.io/policies/other/add-pod-proxies/) A kyverno policy to inject K8s Pod proxy env variables.
+- [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen/) Automatically generate rules for Pod controllers. 
+- [kyverno.io: Require PodDisruptionBudget](https://kyverno.io/policies/other/require_pdb/) Use this kyverno sample to prevent app downtime by requiring all kubernetesio Deployments have a corresponding PodDisruptionBudget.
+- [nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno](https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno/)
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.
+
+## Apolicy
+- [Apolicy](https://apolicy.io/)
+- [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code/)

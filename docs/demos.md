@@ -181,8 +181,8 @@
 * [baeldung.com: Deploy a Spring Boot Application to OpenShift with Spring Cloud Kubernetes 🌟](https://www.baeldung.com/spring-boot-deploy-openshift)
 
 #### Spring Initializr and k8s Initializer
-- [Spring Initializr](https://start.spring.io/)
-- [k8s Initializer](https://app.getambassador.io/initializer/)
+- [Spring Initializr 🌟](https://start.spring.io/) a web application that can generate a Spring Boot project structure, fill in your project details, pick your options, and download a bundled up project
+- [k8s Initializer 🌟](https://app.getambassador.io/initializer/) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
 - [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
 - [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer) Kubernetes Initializer built by Ambassador Labs provides a new experience for simplifying the deployment of Ambassador and Consul in a Sandbox Kubernetes environment.
 
@@ -282,6 +282,7 @@
 * [Rcarrata's blog](https://rcarrata.com/)
 * [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift 
 * [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/)
+* [developers.redhat.com: Build lean Java containers with the new Red Hat Universal Base Images OpenJDK runtime images 🌟](https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime)
 
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
@@ -310,6 +311,7 @@
 - [kailashyogeshwar.medium.com: How we implemented Reusable CI/CD Pipeline using Git and Tekton](https://kailashyogeshwar.medium.com/how-we-implemented-reusable-ci-cd-pipeline-using-git-and-tekton-503bed91975b)
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.openshift.com/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)
 - [developers.redhat.com: Getting started with Tekton and Pipelines](https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines/)
+- [developers.redhat.com: Bootstrap GitOps with Red Hat OpenShift Pipelines and kam CLI](https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli) Generate a #GitOps repository using the kam CLI for simple GitOps adoption by bootstrapping Git repositories with opinionated layouts for continuous delivery.
 
 ### ArgoCD
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 
@@ -326,6 +328,12 @@
 - [openshift.com: SSO Integration for the OpenShift GitOps Operator](https://www.openshift.com/blog/sso-integration-for-the-openshift-gitops-operator) This is a demo-heavy blog. Readers of this blog will get an idea about why SSO is important, how OpenShift handles authN/authZ and a step-by-step guide on using Red Hat Single Sign-On(RHSSO) to log in to an Argo CD application.
 - [openshift.com: How to Use HashiCorp Vault and Argo CD for GitOps on OpenShift](https://www.openshift.com/blog/how-to-use-hashicorp-vault-and-argo-cd-for-gitops-on-openshift)
 - [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
+- [piotrminkowski.com: Kubernetes CI/CD with Tekton and ArgoCD 🌟](https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd/)
+- [infracloud.io: Multicluster GitOps with ArgoCD](https://www.infracloud.io/blogs/multicluster-gitops-argocd/)
+- [developers.redhat.com: Managing GitOps control planes for secure GitOps practices 🌟](https://developers.redhat.com/articles/2021/08/03/managing-gitops-control-planes-secure-gitops-practices)
+- [opensource.com: Get started with Argo CD 🌟](https://opensource.com/article/21/8/argo-cd) Argo CD is a simple pull-based GitOps deployment tool that syncs Kubernetes manifest files with a cluster for easy, no-nonsense deployments.
+- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
+- [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
@@ -581,6 +589,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## SpringBoot Demos
 - [javatechonline.com: How To Deploy Spring Boot Application In Docker?](https://javatechonline.com/how-to-deploy-spring-boot-application-in-docker/)
+- [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://tanzu.vmware.com/developer/guides/kubernetes/app-enhancements-spring-k8s/)
 
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
@@ -592,6 +601,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## Apache Camel & ActiveMQ. Event driven integration
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda/)
+- [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift#)
 
 ## Codeless
 - [github.com/kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
@@ -606,6 +616,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [brennerm.github.io: Setting up an EKS cluster with IAM/IRSA integration](https://brennerm.github.io/posts/setting-up-eks-with-irsa-using-terraform.html)
 - [betterprogramming.pub: Create an Amazon EKS Fargate Cluster and Managed Node Group Using Terraform](https://betterprogramming.pub/with-latest-updates-create-amazon-eks-fargate-cluster-and-managed-node-group-using-terraform-bc5cfefd5773) Serverless clusters and HashiCorp’s Terraform on AWS
 - [azapril.dev: Deploying a LogicApp with Terraform (Bonus: in an AzDO pipeline)](https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform/)
+- [k21academy.com: Automate AWS Virtual Machine using Terraform – Creation Demo](https://k21academy.com/terraform-iac/terraform-automate-aws-vm/)
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).
@@ -614,6 +625,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)
 - [github.com/major/imagebuilder-containerized](https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml) Image Builder in Github Actions building a CentOS Stream image, uploading it to S3, and importing it into EC2 -- all from within a CentOS Stream container.
 - [docs.microsoft.com: Build and deploy applications to Azure by using GitHub Actions 🌟](https://docs.microsoft.com/en-us/learn/modules/github-actions-cd/)
+- [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832)
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)

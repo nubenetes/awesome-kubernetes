@@ -7,6 +7,7 @@
 - [Templating JSON Files](#templating-json-files)
     - [JSON in Ansible](#json-in-ansible)
     - [JSON formatting with jq](#json-formatting-with-jq)
+    - [Kubernetes JSON Schemas](#kubernetes-json-schemas)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
 
@@ -62,6 +63,9 @@
 - [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/)
 - ```jq -C '.' data.json | less -R``` Use jq to pretty print some JSON data with ANSI color coded syntax and use -R in less to process the color.
 
+### Kubernetes JSON Schemas
+- [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
+
 ## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
 - The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:
     - **API validators**: Tools in this category validate a given YAML manifest against the Kubernetes API server.
@@ -81,4 +85,5 @@
     - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
     - [github.com/shipa-corp/ketch](https://github.com/shipa-corp/ketch/) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
+- [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
     

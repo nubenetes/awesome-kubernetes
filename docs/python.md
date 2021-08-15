@@ -132,6 +132,10 @@
 - [analyticsvidhya.com: Implementing ETL Process Using Python to Learn Data Engineering](https://www.analyticsvidhya.com/blog/2021/06/implementing-python-to-learn-data-engineering-etl-process/)
 - [infoworld.com: How to use the Python for loop](https://www.infoworld.com/article/3623689/how-to-use-the-python-for-loop.html) The for loop construction in Python easily iterates over a collection of items. Here’s what you need to know to use it well.
 - [stackoverflow.blog: Getting started with… Python 🌟](https://stackoverflow.blog/2021/07/14/getting-started-with-python/) Here's a collection of resources on how to get started using Python.
+- [oxylabs.io: Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)
+- [towardsdatascience.com: Automate Email Sending with Python](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a) The Definitive Snippets Collection for your ETL Pipelines
+- [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python/)
+- [pythonsimplified.com: Making Sense of Python Iterables and Iterators](https://pythonsimplified.com/making-sense-of-python-iterables-and-iterators/)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -172,6 +176,7 @@
 - [webcodegeeks.com: Python Django Tutorial](http://www.webcodegeeks.com/python/python-django-tutorial/)
 - [digitalocean.com: Building a REST API With Django REST Framework](https://www.digitalocean.com/community/tech_talks/building-a-rest-api-with-django-rest-framework)
 - [github.com: Django Blog Site](https://github.com/AmineAsli/django-blog-site) A simple blog application based on Django
+- [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework. 
 
 ## Python Flask Lightweight Framework (microframework)
 - Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
@@ -238,6 +243,8 @@
 - [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](http://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python)
 - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.python.org/pypi/ec2-ssh-yplan/)
 - [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python/)
+- [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks/)
+- [hands-on.cloud: Quick Intro To Python 3 for AWS Automation Engineers 🌟](https://hands-on.cloud/quick-introduction-to-python-for-aws-automation-engineers/)
 
 ## Python Tools
 - [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org/)
@@ -264,6 +271,7 @@
 ## Python Libraries
 - [Click 🌟](https://click.palletsprojects.com/) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 - [towardsdatascience.com: Auto Import Python Libraries](https://towardsdatascience.com/auto-import-python-libraries-d095a11b4cca) Using Pyforest to import important python libraries
+- [PyGithub 🌟](https://github.com/PyGithub/PyGithub) Typed interactions with the GitHub API v3 - [pygithub.readthedocs.io](https://pygithub.readthedocs.io/) PyGitHub is a Python library to access the GitHub REST API. This library enables you to manage GitHub resources such as repositories, user profiles, and organizations in your Python applications.
 
 ## Python Snippets
 - [python.plainenglish.io: 12 Python Snippets That Will Boost Your Productivity](https://python.plainenglish.io/python-snippets-7e8dcbeae26e)

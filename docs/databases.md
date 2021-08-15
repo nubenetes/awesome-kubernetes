@@ -41,6 +41,7 @@
 - [MariaDB](#mariadb)
 - [PostgreSQL](#postgresql)
 - [Percona MySQL](#percona-mysql)
+- [Percona PostgreSQL Operator](#percona-postgresql-operator)
 - [Rockset](#rockset)
 - [Tools](#tools)
 - [Time-Series Database](#time-series-database)
@@ -63,7 +64,7 @@
 * [levelup.gitconnected.com: How to design a system to scale to your first 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d) Think Big, Do Small, Learn Fast
 * [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)
 * [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106) When to use SQL vs. NoSQL database? Deep dive, differences, decision tree, and cloud cheatsheet to choose the best database for your data type and use case.
-* [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/)
+* [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/) Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.
 * [redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟](https://redislabs.com/blog/dbless-architecture-and-why-its-the-future/) DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.
 * [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures/)
 
@@ -180,6 +181,8 @@
 * [blog.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://blog.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 * [blog.crunchydata.com: Next Generation Crunchy Postgres for Kubernetes 5.0 Released](https://blog.crunchydata.com/news/next-generation-crunchy-postgres-for-kubernetes-released)
 * [blog.crunchydata.com: pgBackRest Point-In-Time Recovery Using Crunchy PostgreSQL Operator](https://blog.crunchydata.com/blog/pgbackrest-point-in-time-recovery-using-crunchy-postgresql-operator)
+* [blog.crunchydata.com: Using Cert Manager to Deploy TLS for Postgres on Kubernetes](https://blog.crunchydata.com/blog/using-cert-manager-to-deploy-tls-for-postgres-on-kubernetes)
+* [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes) I share my thoughts about how to set up a PostgreSQL Database in Kubernetes with some level of high availability, introducing 3 different architectural styles to do so.
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -837,12 +840,17 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [blog.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://blog.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
 - [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/)
 - [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://blog.crunchydata.com/blog/generating-json-directly-from-postgres)
-  
+- [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
+- [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac 
+
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
 - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)
 - [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/2020/06/26/mysql-101-how-to-find-and-tune-a-slow-sql-query/)
 - [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/2021/03/22/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github/)
+
+## Percona PostgreSQL Operator
+- [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes)
 
 ## Rockset
 - [rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset](https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset/)

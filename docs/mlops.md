@@ -13,6 +13,7 @@
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
 - [cloudblogs.microsoft.com: Simple steps to create scalable processes to deploy ML models as microservices](https://cloudblogs.microsoft.com/opensource/2021/07/09/simple-steps-to-create-scalable-processes-to-deploy-ml-models-as-microservices/)
 - [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop) Example code for a basic ML Platform based on Pulumi, FastAPI, DVC, MLFlow and more
+- [rubrix](https://github.com/recognai/rubrix) A free and open-source tool to explore, label, and monitor data for NLP projects.
 
 ## Kubeflow
 - [kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes

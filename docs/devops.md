@@ -145,6 +145,9 @@
 * [linkedin.com/pulse: Top 10 skills a DevOps engineer should possess](https://www.linkedin.com/pulse/top-10-skills-devops-engineer-should-possess-saurabh-badhwar/)
 * [devops.com: How Containers Simplify DevOps Workflows and CI/CD Pipelines 🌟](https://devops.com/how-containers-simplify-devops-workflows-and-ci-cd-pipelines/)
 * [dev.to: 5 GitHub Projects to make you a better DevOps Engineer 🌟](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)
+* [cloudbees.com: How to Nail DevOps Governance and Compliance in a Highly Regulated Industry 🌟](https://www.cloudbees.com/blog/how-to-nail-devops-governance-and-compliance-in-a-highly-regulated-industry)
+* [redhat.com: Tales from the field: A system administrator's guide to IT automation](https://www.redhat.com/sysadmin/it-automation-book) Download this collection of short stories about the excitement, frustrations, and challenges associated with learning IT automation.
+* [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -157,6 +160,7 @@
 - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 - [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
+- [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.

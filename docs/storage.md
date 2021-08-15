@@ -11,6 +11,9 @@
 	- [LightOS](#lightos)
 	- [Longhorn](#longhorn)
 	- [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
+	- [Linbit](#linbit)
+	- [Kadalu](#kadalu)
+	- [IOMesh](#iomesh)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
 	- [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
 	- [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -39,6 +42,13 @@
 - [thenewstack.io: When Is Decentralized Storage the Right Choice?](https://thenewstack.io/when-is-decentralized-storage-the-right-choice/)
 - [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/blog/integrating-decentralized-cloud-storage-with-duplicati)
 - [thenewstack.io: The Biggest Gap in Kubernetes Storage Architecture?](https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture/)
+- [medium: Provisioning storage in Kubernetes](https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d)
+- [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes/) In this post I’ll briefly explain how persistent storage works in Kubernetes.
+- [blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined Storage - Which One to Choose?](https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose)
+- [kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
+- [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
+- [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage/)
+- [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction)
 
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
@@ -83,6 +93,17 @@
 - [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 - [searchstorage.techtarget.com: IBM Spectrum](https://searchstorage.techtarget.com/definition/IBM-Spectrum)
+
+### Linbit
+- [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes/) 
+
+### Kadalu
+- [Kadalu](https://github.com/kadalu/kadalu) A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background.
+
+### IOMesh
+- [iomesh.com](https://www.iomesh.com/)
+- [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://blocksandfiles.com/2021/08/05/kubernetes-storage-chinese-vendor-smartxs-iomesh-beats-portworx-longhorn-and-openebs/)
+- [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)
 
 ## OpenShift Container Storage Operator (OCS)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)

@@ -3,6 +3,7 @@
 - [Go Clients for Kubernetes](#go-clients-for-kubernetes)
 - [Python Client for Kubernetes](#python-client-for-kubernetes)
 - [Fabric8 Java Client for Kubernetes (deprecated)](#fabric8-java-client-for-kubernetes-deprecated)
+- [CDK8s Python](#cdk8s-python)
 - [Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-java-client-for-kubernetes-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
 - [Java Operator SDK](#java-operator-sdk)
 ## Kubernetes Client Libraries
@@ -29,6 +30,10 @@
 - [Fabric8.io Microservices Development Platform](https://fabric8.io/) It is an open source microservices platform based on Docker, Kubernetes and Jenkins. It is built by the Red Hat guys.The purpose of the project is to make it easy to create microservices, build, test and deploy them via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps. Fabric8 installs and configures the following things for you automatically: Jenkins, Gogs, Fabric8 registry, Nexus, SonarQube.
 - [developers.redhat.com: What’s new in Fabric8 Kubernetes Java client 4.12.0](https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0/) 
 
+## CDK8s Python
+- [cdk8s](https://github.com/cdk8s-team/cdk8s) Define Kubernetes native apps and abstractions using object-oriented programming
+- [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python) CDK8S is an alpha level library that allows you to write high level abstractions of Kubernetes objects like deployments, services, and more all in your favorite language ( TypeScript, Python, and others).
+
 ## Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
 - [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
 - [Github: Eclipse Jkube](https://github.com/eclipse/jkube)
@@ -37,6 +42,7 @@
 - [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
 - [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
 - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
+- [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
 
 ## Java Operator SDK
 - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io/) Whether you want to build applications that operate themselves or provision infrastructure from Java code, Kubernetes Operators are the way to go. This SDK will make it easy for Java developers to embrace this new way of automation. The java-operator-sdk is based on the fabric8 Kubernetes client.

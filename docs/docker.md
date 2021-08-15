@@ -1,5 +1,6 @@
 # Docker
 - [Introduction and Tutorials](#introduction-and-tutorials)
+- [Docker Swarm](#docker-swarm)
 - [Awesome Lists](#awesome-lists)
 - [Docker VS Kubernetes](#docker-vs-kubernetes)
 - [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
@@ -9,7 +10,7 @@
 - [Modify containers without rebuilding](#modify-containers-without-rebuilding)
 - [Docker Tools](#docker-tools)
 - [Docker and WSL2](#docker-and-wsl2)
-- [Docker Cheat sheet](#docker-cheat-sheet)
+- [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
 - [Docker Compose](#docker-compose)
 - [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
 - [Windows Containers](#windows-containers)
@@ -81,6 +82,12 @@
 * [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/)
     * ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://twitter.com/agarcia)
 * [katacoda.com: Learn Docker & Containers using Interactive Browser-Based Scenarios 🌟](https://www.katacoda.com/courses/docker)
+* [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad) Create Docker hub account and push Docker image.
+* [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker) 
+
+## Docker Swarm
+- [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
+- [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
 
 ## Awesome Lists
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)
@@ -123,13 +130,14 @@
 - [phpdocker](https://github.com/sherifabdlnaby/phpdocker) Production Grade, Rootless, Pre-configured, Extendable, and Multistage
 PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [dev.to: Use Kool to Dockerize Your Local Development Environment the Right Way](https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl)
+- [sematext: Monitor Docker Metrics & Logs 🌟](https://sematext.com/docker/) Full Docker observability: Docker metrics, logs, and events. Yes, Kubernetes & Swarm, too!
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)
 
-## Docker Cheat sheet
-* [Docker Cheat Sheets](cheatsheets.md)
+## Docker and Docker Swarm Cheat sheets
+* [Docker and Docker Swarm Cheat Sheets](cheatsheets.md)
 
 ## Docker Compose
 - [freecodecamp.org: a beginners guide to docker - how to create a client server side with docker compose](https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa/)
@@ -158,7 +166,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images/)
 * [kubedex.com: Base images comparison](https://kubedex.com/base-images/)
 * [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
-    * [book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
+    * [developers.redhat.com: book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
 * [dev.to: The best Docker base image for your Python application](https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83)
 * [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat) 
 * [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care)
@@ -175,6 +183,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
 - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)
 - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/knowledge-base/the-basics-7-alternatives-to-docker-all-in-one-solutions-and-standalone-container-tools/)
+- [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
 
 <center>
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>

@@ -37,7 +37,7 @@
     - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Grafana](#grafana)
     - [Grafana Dashboards](#grafana-dashboards)
-    - [Grafana 7](#grafana-7)
+    - [Grafana Releases](#grafana-releases)
     - [Grafana Loki](#grafana-loki)
 - [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
     - [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
@@ -106,6 +106,12 @@
 * [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs/)
 * [thenewstack.io: Growing Adoption of Observability Powers Business Transformation](https://thenewstack.io/growing-adoption-of-observability-powers-business-transformation/)
 * [blog.thundra.io: What CI Observability Means for DevOps 🌟](https://blog.thundra.io/what-ci-observability-means-for-devops)
+* [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid) Find 4 common mistakes engineers make when using histograms to monitor API latencies from release to release.
+* [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid/)
+* [thenewstack.io: DevOps Observability from Code to Cloud](https://thenewstack.io/devops-observability-from-code-to-cloud/)
+* [ortelius.io: Microservice Monitoring and Visualization with Ortelius open source project](https://ortelius.io/blog/2021/03/26/microservice-monitoring-and-visualization/)
+* [thenewstack.io: CI Observability for Effective Change Management 🌟](https://thenewstack.io/ci-observability-for-effective-change-management/)
+* [thenewstack.io: Monitor Your Containers with Sysdig](https://thenewstack.io/monitor-your-containers-with-sysdig/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -243,6 +249,11 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 * [howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04](https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04/)
 * [cribl.io: Using Prometheus for Agentless Monitoring](https://cribl.io/blog/using-prometheus-for-agentless-monitoring/)
 * [logz.io:  Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io 🌟](https://logz.io/blog/aws-lambda-metrics-monitoring-guide/)
+* [aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas](https://aprenderbigdata.com/prometheus/)
+* [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)
+* [karma 🌟](https://github.com/prymitive/karma) Alert dashboard for Prometheus Alertmanager
+* [Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0)
+* [youtube: Monitoring your k6 load test: how to install Grafana and Prometheus on a Kubernetes cluster](https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6)
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 
@@ -356,6 +367,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)
 * [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
 * [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)
+* [newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry](https://newrelic.com/blog/best-practices/java-opentelemetry)
 
 <center>
 <iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -458,6 +470,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2020/09/cisco-dna-center-with-grafana-dashboard/)
 * [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet/) Simple way how to make your dashboard easy to maintain.
 * [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/2019/11/22/designing-grafana-dashboards/)
+* [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/)
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
@@ -465,9 +478,10 @@ ActiveMQ 5.x "classic"|[Telegraf](https://www.influxdata.com/time-series-platfor
 ActiveMQ Artemis/Red Hat AMQ Broker|[JMX Exporter](https://github.com/prometheus/jmx_exporter)|[9087](https://grafana.com/grafana/dashboards/9087)|[Ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/artemis-2.yml), [Ref2](http://techiekhannotes.blogspot.com/2018/12/artemis-monitoring-with-grafana.html), [Ref3](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin)
 Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/grafana/dashboards/9777)|  
 
-### Grafana 7
+### Grafana Releases
 - [Open source observability, meet data transformation: Grafana 7.0 promises to connect, unify, and visualize all your data](https://www.zdnet.com/article/open-source-observability-meet-data-transformation-grafana-7-0-promises-to-connect-unify-and-visualize-all-your-data/) Grafana Labs sets the bar for open source observability with Grafana 7.0: more developer friendly, more data sources, data transformation, and growth in the cloud and on premise
 - [Grafana 7.0: “We’ve built one of the best visualisation tools and it’s not tied to any one database”](https://jaxenter.com/grafana-7-0-interview-tom-wilkie-172261.html)
+- [grafana.com: Grafana 8.1 released: New Geomap and Annotations panels, updated plugin management, and more](https://grafana.com/blog/2021/08/05/grafana-8.1-released-new-geomap-and-annotations-panels-updated-plugin-management-and-more/)
 
 ### Grafana Loki
 - [Grafana Loki](https://grafana.com/oss/loki/)
@@ -863,6 +877,7 @@ JMeter|Artemis Grafana|Artemis Dashboard
     - [Rancher Logging Operator 🌟](https://rancher.com/docs/rancher/v2.x/en/logging/v2.5/)
 - [blog.streammonkey.com: How We Serverlessly Migrated 1.58 Billion Elasticsearch Documents](https://blog.streammonkey.com/how-we-serverlessly-migrated-1-58-billion-elasticsearch-documents-33ad3d0d7c4f)
 - [youtube: ELK for beginners - by XavkiEn 🌟](https://www.youtube.com/playlist?list=PLWZKNB9waqIX00uj5q4nX_TOFiX3if1z3)
+- [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 
 ### OpenSearch
 - [opensearch.org 🌟](https://opensearch.org/)
@@ -871,6 +886,8 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - [techrepublic.com: OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
 - [thenewstack.io: This Week in Programming: AWS Completes Elasticsearch Fork with OpenSearch](https://thenewstack.io/this-week-in-programming-aws-completes-elasticsearch-fork-with-opensearch/)
 - [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork/)
+- [thenewstack.io: This Week in Programming: The ElasticSearch Saga Continues](https://thenewstack.io/this-week-in-programming-the-elasticsearch-saga-continues/)
+- [aws.amazon.com: Keeping clients of OpenSearch and Elasticsearch compatible with open source](https://aws.amazon.com/blogs/opensource/keeping-clients-of-opensearch-and-elasticsearch-compatible-with-open-source/)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
@@ -1104,6 +1121,7 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 ## Zabbix
 - [openshift.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.openshift.com/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)
 - [openshift.com: How to Monitor Openshift 4.x with Zabbix using Prometheus - Part 2](https://www.openshift.com/blog/how-to-monitoring-openshift-4.x-with-zabbix-using-prometheus-part-2)
+- [cloud.redhat.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://cloud.redhat.com/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)
 
 ## Other Tools
 - [Netdata](https://github.com/netdata/netdata) Netdata's distributed, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration.

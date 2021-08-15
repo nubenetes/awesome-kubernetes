@@ -81,6 +81,10 @@
 - [harness.io: Automated DevSecOps with StackHawk and Harness](https://harness.io/blog/continuous-delivery/automated-devsecops/)
 - [cloudify.co: Understanding DevSecOps And Its Challenges](https://cloudify.co/blog/overcoming-devsecops-delivery-pipeline-challenges/)
 - [containerjournal.com: The What and Why of Cloud-Native Security](https://containerjournal.com/editorial-calendar/cloud-native-security/the-what-and-why-of-cloud-native-security/)
+- [sysdig.com: Top vulnerability assessment and management best practices](https://sysdig.com/blog/vulnerability-assessment/)
+- [thenewstack.io: Where Are You on the DevSecOps Maturity Curve?](https://thenewstack.io/where-are-you-on-the-devsecops-maturity-curve/)
+- [thenewstack.io: The Top 5 Secrets Management Mistakes and How to Avoid Them](https://thenewstack.io/the-top-5-secrets-management-mistakes-and-how-to-avoid-them/)
+- [arsouyes.org: PKCS, pem, der, key, crt,...](https://www.arsouyes.org/en/blog/2021/2021-06-21_PKCS_pem_der_key_crt) Interesting read on security and ssl/tls certificates
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -143,6 +147,7 @@
 - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)
 - [redeszone.net: OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades](https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/)
 - [sonarqube.org: OWASP Top 10 - We’ve got you covered!](https://www.sonarqube.org/features/security/owasp/) See issues in the 10 most critical security risk categories in your web applications.
+- [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 
 ## StackRox
 - [stackrox.com](https://www.stackrox.com/)
@@ -194,6 +199,8 @@
 - [smallstep.com: How to Handle Secrets on the Command Line 🌟](https://smallstep.com/blog/command-line-secrets/)
 - [cloud.google.com: Analyze secrets with Cloud Asset Inventory](https://cloud.google.com/secret-manager/docs/analyze-resources) Query information about all the secrets across your entire GoogleCloudTech organization! Secret Manager is now integrated with Asset Inventory!
 - [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/mozilla/sops)
+- [jenkins-x.io: Setting up the secrets for your installation](https://jenkins-x.io/v3/admin/setup/secrets/) Jenkins X 3.x uses Kubernetes External Secrets to manage populating secrets from your underlying secret store.
+- [medium: AWS Secret Manager: Protect sensitive information and functionality 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4) Protect Your Secrets in ApplicationsSecrets are frequently used to protect sensitive information and functionality.
 
 ### Store private data in git repo
 - [git-secret.io](https://git-secret.io/)
@@ -225,6 +232,13 @@
 - [hashicorp.com: Onboarding Applications to Vault Using Terraform: A Practical Guide 🌟](https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide) Learn how to build an automated HashiCorp Vault onboarding system with Terraform using sensible naming standards, ACL policy templates, pre-created application entities, and workflows driven by VCS and CI/CD.
 - [hashicorp.com: Managing SSH Access at Scale with HashiCorp Vault](https://www.hashicorp.com/blog/managing-ssh-access-at-scale-with-hashicorp-vault) Learn how to build scalable, role-based SSH access with SSH certificates and HashiCorp Vault.
 - [devopscube.com: How to Setup Vault in Kubernetes- Beginners Tutorial 🌟](https://devopscube.com/vault-in-kubernetes/)
+- [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
+	- [harness.io: Tutorial: How to Use the New Vault Agent Integration Method With Harness](https://harness.io/blog/devops/vault-agent-secrets-management)
+	- [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://harness.io/blog/devops/vault-agent-kubernetes-delegates)
+- [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI 🌟](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
+- [devopscube.com: Vault Agent Injector Tutorial: Inject Secrets to Pods Using Vault Agent](https://devopscube.com/vault-agent-injector-tutorial/)
+- [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)
+- [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
@@ -247,6 +261,7 @@
 - [itnext.io: Secrets injection at runtime from external Vault into Kubernetes — POC](https://itnext.io/secrets-injection-from-external-vault-into-kubernetes-poc-83a52c8cf5cb)
 - [jx-secret-postrenderer 🌟](https://github.com/jenkins-x-plugins/jx-secret-postrenderer) a helm postrenderer for working with helm and Kubernetes External Secrets. This post renderer lets you use helm charts which contain Secret resources and have those secrets managed by Kubernetes External Secrets without having to modify your charts. Want seamless support for kubernetes external secrets with existing helm charts? but you're not using Jenkins X yet? then why not try this helm post renderer.
 - [thenewstack.io: Managing Kubernetes Secrets with AWS Secrets Manager 🌟](https://thenewstack.io/managing-kubernetes-secrets-with-aws-secrets-manager/)
+- [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook/) - [github: k8s-vault-webhook](https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook) A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
 
 ## Serverless Security Best Practices
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)
@@ -263,6 +278,9 @@
 - [redhat.com: Introducing Red Hat Vulnerability Scanner Certification](https://www.redhat.com/en/blog/introducing-red-hat-vulnerability-scanner-certification)
 - [docs.microsoft.com: Introduction to Azure Defender for container registries](https://docs.microsoft.com/en-us/azure/security-center/defender-for-container-registries-introduction#when-are-images-scanned) Defender for Container Registries Continuous Image Scan for vulnerabilities is now available for General Availability (GA)
 - [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools)
+- [about.gitlab.com: How to secure your container images with GitLab and Grype](https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/) - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype)
+- [sigstore.dev](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
+	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.
@@ -296,3 +314,4 @@
 
 ## More Security Tools
 - [zdnet.com: Google releases new open-source security software program: Scorecards](https://www.zdnet.com/article/google-releases-new-open-source-security-software-program-scorecards/) How safe is that open-source software in the Git library, the one with the questionable history? Scorecard 2.0 can quickly tell you just how secure, or not, it really is.
+- [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)

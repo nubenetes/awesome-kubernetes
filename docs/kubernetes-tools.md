@@ -3,6 +3,7 @@
 - [Porter](#porter)
 - [Datree](#datree)
 - [Kaniko Build Images in Kubernetes](#kaniko-build-images-in-kubernetes)
+- [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
 - [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
 - [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
 - [Kubevela](#kubevela)
@@ -126,7 +127,6 @@
 * [NS Killer](https://github.com/germainlefebvre4/ns-killer) A Kubernetes project to kill all namespace living over X times. Quite useful when auto-generated development environments on the fly and give them a lifecycle out-of-the-box from Kubernetes or even Helm. You might find it useful if auto-generate development environments on the fly and want to remove old ones on a schedule.
 * [kubeswitch: Kubernetes Version Switcher 🌟](https://github.com/steamhaus/kubeswitch) Easily switch kubectl binary versions.
 * [Kubeswitch (for operators) 🌟](https://github.com/danielfoehrKn/kubeswitch) The kubectx for operators. kubeswitch (lazy: switch) takes Kubeconfig context switching to the next level, catering to operators of large scale Kubernetes installations. Designed as a drop-in replacement for kubectx.
-* [Move2Kube 🌟](https://github.com/konveyor/move2kube) a tool that can help users migrate from Cloud Foundry and Docker Swarm to Kubernetes. Move2Kube is a command-line tool that accelerates the process of re-platforming to Kubernetes/Openshift. It does so by analysing the environment and source artifacts, and asking guidance from the user when required.
 * [kubectl build (formerly known as kubectl-kaniko)](https://github.com/kvaps/kubectl-build) Kubectl build mimics the kaniko executor, but performs building on your Kubernetes cluster side. This allows you to simply build your local dockerfiles remotely without leaving your cozy environment.
 * [Kubei 🌟](https://github.com/Portshift/Kubei) is a vulnerabilities scanning tool that allows users to get an accurate and immediate risk assessment of their kubernetes clusters. Kubei scans all images used in a Kubernetes cluster including images of application pods and system pods
 * [Shell-operator](https://github.com/flant/shell-operator) is a tool for running event-driven scripts in a Kubernetes cluster. Shell-operator provides an integration layer between Kubernetes cluster events and shell scripts.
@@ -270,6 +270,45 @@
 * [kubelogin 🌟](https://github.com/int128/kubelogin) kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
 * [kube-oidc-proxy](https://github.com/jetstack/kube-oidc-proxy) Reverse proxy to authenticate to managed Kubernetes API servers via OIDC.
 * [KubeSurvival 🌟](https://github.com/aporia-ai/kubesurvival) Significantly reduce Kubernetes costs by finding the cheapest machine types that can run your workloads
+* [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook/) - [github: k8s-vault-webhook](https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook) A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
+* [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s) The open source deployment manifest for Cloud Foundry on Kubernetes. cf-for-k8s blends the popular CF developer API with Kubernetes, Istio, and other open source technologies. The project aims to improve developer productivity for organizations using Kubernetes
+* [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
+* [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
+* [El Carro: The Oracle Operator for Kubernetes 🌟](https://github.com/GoogleCloudPlatform/elcarro-oracle-operator) El Carro is a new project that offers a way to run Oracle databases in Kubernetes as a portable, open source, community driven, no vendor lock-in container orchestration system. El Carro provides a powerful declarative API for comprehensive and consistent configuration and deployment as well as for real-time operations and monitoring.
+* [jspolicy](https://github.com/loft-sh/jspolicy) jsPolicy is an operator that helps you define Kubernetes Policies using JavaScript or TypeScript. Easier & Faster Kubernetes Policies using JavaScript or TypeScript.
+* [k8scr 🌟](https://github.com/hasheddan/k8scr) A kubectl plugin for pushing OCI images through the Kubernetes API server.
+* [jsonnet-controller](https://github.com/pelotech/jsonnet-controller) A fluxcd controller for managing manifests declared in jsonnet.
+* [rback: RBAC in Kubernetes visualizer 🌟🌟](https://github.com/team-soteria/rback) A simple "RBAC in Kubernetes" visualizer. No matter how complex the setup, rback queries all RBAC related information of an Kubernetes cluster in constant time and generates a graph representation of service accounts, (cluster) roles, and the respective access rules in dot format.
+* [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
+* [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) Kubernetes is mainly known as a container orchestration platform today, but we believe it can be even more. With the power of CustomResourceDefinitions, Kubernetes provides a flexible platform for declarative APIs of all types, and the reconciliation pattern common to Kubernetes controllers is a powerful tool in building robust, expressive systems. At the same time, a diverse and creative community of tools and services has sprung up around Kubernetes APIs. Imagine a declarative Kubernetes-style API for anything, supported by an ecosystem of Kubernetes-aware tooling, separate from Kubernetes-the-container-orchestrator. That's kcp.
+* [Metacontroller](https://github.com/metacontroller/metacontroller) Metacontroller is an add-on for Kubernetes that makes it easy to write and deploy custom controllers in the form of simple scripts.
+* [KubeCarrier - Service Management at Scale](https://github.com/kubermatic/kubecarrier) KubeCarrier is an open source system for managing applications and services across multiple Kubernetes Clusters; providing a framework to centralize the management of services and provide these services with external users in a self service hub.
+* [github.com: NFS Ganesha server and external provisioner](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner) NFS Ganesha Server and Volume Provisioner. nfs-ganesha-server-and-external-provisioner is an out-of-tree dynamic provisioner for Kubernetes 1.14+. You can use it to quickly & easily deploy shared storage that works almost anywhere. 
+* [Armada kubectl plugin 🌟](https://github.com/night-gold/armada) Command line tools to manage kustomize packaged apps deployment. Armada is a Kubectl plugin that adds templating capacity and manage deployment to Kustomize apps. Templating uses go template to allow you to generate kustomize apps with templates inside. Armada allows you to git clone a packaged kustomize base and call it with the help of a config file.
+* [Minnaker](https://github.com/armory/minnaker) Minnaker is a simple way to install Spinnaker inside a VM. Spinnaker on Lightweight Kubernetes (K3s)
+* [kVDI](https://github.com/kvdi/kvdi) A Kubernetes-native Virtual Desktop Infrastructure
+* [Kubesurveyor 🌟](https://github.com/viralpoetry/kubesurveyor) Good enough Kubernetes namespace visualization tool. No provisioning to a cluster required, only Kubernetes API is scrapped.
+* [NVIDIA k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) NVIDIA device plugin for Kubernetes. The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically: Expose GPUs on each nodes of your cluster, Keep track of the health of your GPUs, Run GPU enabled containers.
+* [kubectl-tmux-exec](https://github.com/predatorray/kubectl-tmux-exec) A kubectl plugin to control multiple pods simultaneously using Tmux
+* [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype)
+* [KubeView 🌟](https://github.com/benc-uk/kubeview) Kubernetes cluster visualiser and graphical explorer. KubeView displays what is happening inside a Kubernetes cluster (or single namespace), it maps out the API objects and how they are interconnected. Data is fetched real-time from the Kubernetes API. The status of some objects (Pods, ReplicaSets, Deployments) is colour coded red/green to represent their status and health
+* [karma 🌟](https://github.com/prymitive/karma) Alert dashboard for Prometheus Alertmanager
+* [Rancher Desktop 🌟](https://github.com/rancher-sandbox/rancher-desktop) Kubernetes and container management to the desktop. Rancher Desktop is an open-source project to bring Kubernetes and container management to the desktop. Windows and macOS versions of Rancher Desktop are available for download.
+* [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
+* [Sloop - Kubernetes History Visualization 🌟](https://github.com/salesforce/sloop) Sloop monitors Kubernetes, recording histories of events and resource state changes and providing visualizations to aid in debugging past events.
+* [init-sync](https://github.com/scalabledelivery/init-sync) Sidecar for securely copying directory for statefulsets. A sidecar containner and initContainer for securely copying a directory between pods in StatefulSets.
+* [Keel 🌟](https://github.com/keel-hq/keel) Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates
+* [Kspan - Turning Kubernetes Events into spans 🌟](https://github.com/weaveworks-experiments/kspan) Most Kubernetes components produce Events when something interesting happens. This program turns those Events into OpenTelemetry Spans, joining them up by causality and grouping them together into Traces.
+* [csi-rclone: CSI rclone mount plugin](https://github.com/wunderio/csi-rclone) CSI driver for rclone. This project implements Container Storage Interface (CSI) plugin that allows using rclone mount as storage backend. Rclone mount points and parameters can be configured using Secret or PersistentVolume volumeAttibutes.
+* [stackrox.io: Top 9 Open Source DevSecOps Tools for Kubernetes in 2021 🌟](https://www.stackrox.io/blog/top-9-open-source-devsecops-tools-for-kubernetes/) **Anchore, Checkov, Clair, Falco, Kube-bench, Kube-hunter, KubeLinter, Open Policy Agent (OPA), Terrascan**
+* [Kdo: deployless development on Kubernetes 🌟](https://kdo.dev/) Kdo is a command line tool that enables developers to run, develop and test code changes in a realistic deployed setting without having to deal with the complexity of Kubernetes deployment and configuration.
+* [chekr](https://github.com/ckotzbauer/chekr) A inspection utility for the maintenance of Kubernetes clusters.
+    * [github.com issues: Generate Kyverno deprecation policies with chekr](https://github.com/ckotzbauer/chekr/issues/61)
+* [KUR8 🌟](https://github.com/oslabs-beta/KUR8) A visual overview of Kubernetes architecture and Prometheus metrics. KUR8 is an open-source Kubernetes analytics, monitoring, and visualizer web application that allows for querying, alerts, and creating custom charts and graphs that leverage Prothemeus and its time logged series database metrics.
+* [mperezco/forklift-configmap-service](https://github.com/mperezco/forklift-configmap-service) Systemd service to run in VMs on KubeVirt to mount ConfigMaps
+* [cdk8s](https://github.com/cdk8s-team/cdk8s) Define Kubernetes native apps and abstractions using object-oriented programming
+* [Havener](https://github.com/homeport/havener) Think of it as a swiss army knife for Kubernetes tasks. 
+* [KFServing 🌟](https://github.com/kubeflow/kfserving) Serverless Inferencing on Kubernetes. KFServing provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
@@ -281,6 +320,11 @@
 - [Kaniko 🌟](https://github.com/GoogleContainerTools/kaniko) Kaniko is a tool to build container images from a Dockerfile. Unlike Docker, Kaniko doesn’t require the Docker daemon. With the help of Kaniko, you won’t be needing to run docker containers with privileged mode.
 - [medium: Multibranch and HA Pipeline in Jenkins with Kaniko on GKE](https://medium.com/searce/multibranch-and-ha-pipeline-in-jenkins-with-kaniko-on-gke-8a1e7fa93403)
 - [developers.redhat.com: Perform a kaniko build on a Red Hat OpenShift cluster and push the image to a registry](https://developers.redhat.com/articles/2021/06/18/perform-kaniko-build-red-hat-openshift-cluster-and-push-image-registry)
+- [devopscube.com: How To Build Docker Image In Kubernetes Pod 🌟](https://devopscube.com/build-docker-image-kubernetes-pod/)
+
+## Shipwright Framework for Building Container Images on Kubernetes
+- [shipwright.io](https://shipwright.io/)
+- [cd.foundation: CD Foundation Welcomes Shipwright, Framework for Building Container Images on Kubernetes, As New Incubating Project](https://cd.foundation/blog/2021/08/03/cd-foundation-shipwright-announcement/)
 
 ## BuildKit CLI for kubectl
 - [BuildKit CLI for kubectl (by vmware-tanzu) 🌟](https://github.com/vmware-tanzu/buildkit-cli-for-kubectl) BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.
@@ -299,4 +343,6 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the biggest problems in IT is that we keep reinventing the wheel.<br><br>We are running the same circles, producing similar technologies to solve the same problems.<br><br>Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1388448114047164416?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">`kubectl logs --previous` saved my life <a href="https://t.co/mIsCJehVwI">pic.twitter.com/mIsCJehVwI</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1425925390644690954?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

@@ -33,7 +33,8 @@
 - [Npm](https://www.npmjs.com/)
 - [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/)
 
-
+## More Frontend JavaScript Frameworks
+- [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/)
 
 ---
 <center>

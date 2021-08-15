@@ -3,6 +3,7 @@
 - [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
 - [Interview Questions](#interview-questions)
 - [Ansible Videos](#ansible-videos)
+- [Ansible Playbooks](#ansible-playbooks)
 - [Ansible Collections](#ansible-collections)
 - [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
 	- [Automation services catalog](#automation-services-catalog)
@@ -81,10 +82,12 @@
 * [automateinfra.com: Everything about Ansible 🌟](https://automateinfra.com/everything-about-ansible/)
 * [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux 
 * [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands/)
-* [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases](https://k21academy.com/ansible/ansible-for-beginners)
+* [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/ansible/ansible-for-beginners)
+	* [k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟](https://k21academy.com/ansible/day2-live-session-review-and-q-a/)
 * [analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools](https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools)
 * [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/sysadmin/6-code-pushes-aap) Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.
 * [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/sysadmin/ansible-create-users-csv) Automate Linux user account creation in four simple steps with Ansible.
+* [cyberciti.biz: How to define multiple when conditions in Ansible](https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible/)
 
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
@@ -99,6 +102,9 @@
 	* [youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures](https://www.youtube.com/watch?v=pJFZ5h9fT5o&ab_channel=InfraXpertzz)
 * [youtube: Ansible for beginners - by XavkiEn](https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk) - [slides](https://gitlab.com/xavki/devopsland/-/tree/master/ansible)
 	* [youtube: Exercises / Monitoring : How to install node exporter 🌟](https://www.youtube.com/watch?v=NgRuap0MmZw&ab_channel=XavkiEn) In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.
+
+## Ansible Playbooks
+- [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) Build a Kubernetes cluster using Ansible with k3s.
 
 ## Ansible Collections
 - [Ansible Collections 🌟](https://github.com/ansible-collections)

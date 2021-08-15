@@ -74,6 +74,9 @@
 - [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 - [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable)
 - [bloo.media: Producto Mínimo Viable ¿Qué es y cómo crearlo?](https://bloo.media/blog/producto-minimo-viable-mvp/)
+- [blog.asmartbear.com: I hate MVPs. So do your customers. Make it SLC instead 🌟](https://blog.asmartbear.com/slc.html)
+- [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)
+- [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins/) The big benefits of little changes.
 
 <center>
 [![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)

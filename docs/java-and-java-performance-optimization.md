@@ -27,6 +27,7 @@
 - [developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing](https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing)
 - [java-success.com: 01: 9 Java low latency interview questions & answers](https://www.java-success.com/writing-low-latency-applications-in-java/)
 - [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
+- [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far)
 
 ### Java on Kubernetes. Java Memory Arguments for Containers
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)

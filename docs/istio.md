@@ -74,6 +74,10 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [piotrminkowski.com: Multicluster Traffic Mirroring with Istio and Kind](https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind)
 - [thenewstack.io: Securing Istio Workloads with Auth0](https://thenewstack.io/securing-istio-workloads-with-auth0/)
 - [tetrate.io: Multicluster Management with Kubernetes and Istio 🌟](https://www.tetrate.io/blog/multicluster-management-with-kubernetes-and-istio/)
+- [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes/)
+- [solo.io: Upgrading Istio without Downtime](https://www.solo.io/blog/upgrading-istio-without-downtime/)
+- [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://www.tetrate.io/blog/istio-servicemesh-api-gateway/)
+- [mirantis.com: Your App Deserves More than Kubernetes Ingress: Kubernetes Ingress vs. Istio Gateway [webinar]](https://www.mirantis.com/blog/your-app-deserves-more-than-kubernetes-ingress-kubernetes-ingress-vs-istio-gateway-webinar)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)
@@ -100,6 +104,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [envoyproxy.io](https://www.envoyproxy.io/)
 - [getenvoy.io](https://www.getenvoy.io/)
 - [Controlling outbound traffic from Kubernetes](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes)
+- [medium: Troubleshooting Envoy with Kiali](https://medium.com/kialiproject/troubleshooting-envoy-with-kiali-7f78a57b16ad) Inspect and debug your Envoy configuration
 
 ## Kibana
 - [kibana](https://www.elastic.co/products/kibana)

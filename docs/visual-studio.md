@@ -109,6 +109,7 @@ A simple extension to make indentation more readable
 * [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions)
 * [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) Save files into local history
 * [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) You can now browse or even make edits to any GitHub repo straight from code, instantly WITHOUT having to pull the source down first.
+* [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)

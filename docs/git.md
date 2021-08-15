@@ -114,6 +114,9 @@
 * [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://livecodestream.dev/post/five-advanced-git-concepts-that-make-you-look-like-a-pro/) Learn how to master GIT with these 5 advanced concepts
 * [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
 * [freecodecamp.org: How Git Branches Work](https://www.freecodecamp.org/news/how-git-branches-work/)
+* [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/)
+* [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
+* [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
 
 ## Git Interview Questions
 - [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
@@ -257,6 +260,8 @@ git push origin -f
 * [about.gitlab.com: GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11-released/)
 * [lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟](https://www.lambdatest.com/blog/use-gitlab-ci-to-run-test-locally/)
 * [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains/)
+* [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/)
+* [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name/)
   
 ## GitHub
 * [githubstatus.com 🌟](https://www.githubstatus.com/)
@@ -292,6 +297,15 @@ git push origin -f
 * [github.blog: Security keys are now supported for SSH Git operations 🌟](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/)
 * [education.github.com](https://education.github.com/) Real-world tools, engaged students. GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
 * [GitHub Copilot 🌟](https://copilot.github.com/) Your AI pair programmer With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
+* [github.blog: GitHub brings supply chain security features to the Go community](https://github.blog/2021-07-22-github-supply-chain-security-features-go-community/) 
+* [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) We're deprecating password support for Git operations to keep you more secure. You can authenticate Git actions using:
+    * SSH keys
+    * Personal Access Tokens
+    * OAuth Apps
+    * Credential Manager
+    * GH Desktop
+    * GH CLI
+    * Physical keys
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
@@ -308,6 +322,7 @@ git push origin -f
 - [vimeo.com: How to Create a CI/CD Pipeline with GitHub Actions and K8s Like a Boss](https://vimeo.com/552276182)
 - [medium: Create CI/CD with Github Actions + AWS EC2, CodeDeploy and S3](https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0)
 - [actions-runner-controller 🌟](https://github.com/actions-runner-controller/actions-runner-controller) Kubernetes controller for GitHub Actions self-hosted runnners 
+- [itnext.io: GitHub Actions for Android Developers](https://itnext.io/github-actions-for-android-developers-9ae606df2bfa)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 
@@ -326,6 +341,7 @@ git push origin -f
 - [thenewstack.io: GitHub Copilot: A Powerful, Controversial Autocomplete for Developers](https://thenewstack.io/github-copilot-a-powerful-controversial-autocomplete-for-developers)
 - [xataka.com: Llevo algunos días usando Copilot de GitHub para programar y esta es mi experiencia](https://www.xataka.com/robotica-e-ia/llevo-algunos-dias-usando-copilot-github-para-programar-esta-mi-experiencia)
 - [medium: GitHub’s AI Copilot Might Get You Sued If You Use It](https://medium.com/geekculture/githubs-ai-copilot-might-get-you-sued-if-you-use-it-c1cade1ea229) Some are even abandoning GitHub because of it
+- [towardsdatascience.com: Can Github Copilot Replace Developers?](https://towardsdatascience.com/can-githubs-copilot-replace-developers-b89f28007c05) Since its release, copilot has become the talk of the town among developers. There are many pros and cons to using it.
 
 <center>
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">No, ninguna inteligencia artificial te va a quitar tu trabajo como data scientist o developer.<br><br>La automatización de <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> CoPilot creará más trabajos de los que destruirá.<br><br>Acá te explico porque 👇🧵</p>&mdash; Xavier Carrera (@XaviGrowth) <a href="https://twitter.com/XaviGrowth/status/1410040729305485317?ref_src=twsrc%5Etfw">June 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -457,4 +473,6 @@ Automate them.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Writing good Git commit messages matters!<br><br>A thread about how to write clean commit messages:<br><br>🧵 👇</p>&mdash; Deni Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1351152452179996682?ref_src=twsrc%5Etfw">January 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here are _some_ of the most essential git operations you will need when working as a developer.<br><br>🧵🔽 <a href="https://t.co/ZTUUObuj70">pic.twitter.com/ZTUUObuj70</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1374323799991054339?ref_src=twsrc%5Etfw">March 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Git is by far the most used source control management tool out there.<br><br>It is basially an essential to know. And this justifies knowing a few of the most important git commands you need in your daily work.<br><br>Here are 19 that any developer should know.<br><br>A thread. ↓ <a href="https://t.co/nLglrUWp6o">pic.twitter.com/nLglrUWp6o</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1425461523426725891?ref_src=twsrc%5Etfw">August 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

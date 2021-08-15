@@ -11,6 +11,7 @@
 - [Cloud Code](#cloud-code)
 - [Google Cloud Buildpacks](#google-cloud-buildpacks)
 - [Cloud SQL](#cloud-sql)
+- [Tools](#tools)
 
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
@@ -36,6 +37,10 @@
 - [cloud.google.com: 5 cheat sheets to help you get started on your Google Cloud journey 🌟](https://cloud.google.com/blog/products/gcp/5-google-cloud-product-cheat-sheets-2021) Sometimes a picture is worth a thousand words, and that’s where these cheat sheets come in handy. Cloud Developer Advocate Priyanka Vergadia has built a number of guides that help developers visually navigate critical decisions, whether it’s determining the best way to move to the cloud, or deciding on the best storage options. Below are five of her top cheat sheets in one handy location.
 - [thenewstack.io: Configuring the Google Cloud Platform for High Availability](https://thenewstack.io/configuring-for-high-availability-in-google-cloud-platform/)
 - [zdnet.com: Google Cloud rolls out new security tools as threat landscape heats up](https://www.zdnet.com/article/google-cloud-rolls-out-new-security-tools-as-threat-landscape-heats-up/) New tools for the public sector will help agencies comply with President Joe Biden's cybersecurity executive order, while other tools give Google Cloud customers more automated security operations and access to Palo Alto Networks' threat detection technologies.
+- [cloud.google.com: Consume services faster, privately and securely - Private Service Connect now in GA](https://cloud.google.com/blog/products/networking/private-service-connect-is-now-generally-available)
+- [cloud.google.com: VPN network overview](https://cloud.google.com/vpc/docs/vpc) Most VPC products in the public cloud take a regional approach. If you want to interconnect a bunch of regional VPCs later on, it's tricky. Not with googlecloud. A single VPC is global with automatic communication across regions.
+- [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/google-cloud-hosting/)
+- [cloud.google.com: Monitor and troubleshoot your VMs in context for faster resolution](https://cloud.google.com/blog/products/operations/better-access-to-observability-data-for-virtual-machines)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
@@ -76,6 +81,7 @@
 - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
 - [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)
 - [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/solutions/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud. 
+- [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 
 ## Python
 - [anderfernandez.com: Cómo automatizar un script de Python en Google Cloud](https://anderfernandez.com/blog/automatizar-script-python-google-cloud/)
@@ -88,6 +94,9 @@
 
 ## Cloud SQL
 - [Testing Cloud SQL failover: Where to begin](https://cloud.google.com/blog/topics/developers-practitioners/testing-cloud-sql-failover-where-begin)
+
+## Tools
+- [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
 
 <center>
 <iframe src="https://www.youtube.com/embed/Zztufl4mFQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

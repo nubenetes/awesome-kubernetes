@@ -19,6 +19,7 @@
 	- [APISIX](#apisix)
 	- [NGINX as an API Gateway](#nginx-as-an-api-gateway)
 	- [Lura API Gateway (based on KrakenD)](#lura-api-gateway-based-on-krakend)
+	- [Spring Cloud Gateway](#spring-cloud-gateway)
 - [Mobile Developer Portals](#mobile-developer-portals)
 - [Automotive](#automotive)
 	- [Auto API](#auto-api)
@@ -71,6 +72,7 @@
 - [developers.redhat.com: New custom metrics and air gapped (restricted networks) installation in Red Hat 3scale API Management 2.9](https://developers.redhat.com/blog/2020/10/29/new-custom-metrics-and-air-gapped-installation-in-red-hat-3scale-api-management-2-9/) The 3scale Operator now fully supports air gapped installation for 3scale API Management on OpenShift. Air gapped or restricted networks are isolated from the Internet and physically isolated from any other network. Secure environments such as government agencies and financial institutions typically require an air gapped installation for Red Hat Integration on OpenShift. 
 - [developers.redhat.com: Enhance application security by rotating 3scale access tokens](https://developers.redhat.com/blog/2021/04/29/enhance-application-security-by-rotating-3scale-access-tokens/)
 - [developers.redhat.com: How to expose a WebSocket endpoint using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management)
+- [developers.redhat.com: Simplify load balancing for API gateways using Red Hat 3scale API Management](https://developers.redhat.com/articles/2021/08/11/simplify-load-balancing-api-gateways-using-red-hat-3scale-api-management)
 
 ### Google Apigee API Manager
 - [Google Apigee API Manager](https://cloud.google.com/apigee/) Apigee is an API management platform for developing, analyzing, securing & scaling various APIs and apps. It provides API technology and services for a wide range of organizations and developers to stimulate the pace of digital business. Through API, Apigee assists businesses to securely share data and services across various channels/devices in order to enhance the customer experience. Companies can manage growth and spikes in API traffic with features like traffic isolation and independent scaling.  
@@ -121,6 +123,10 @@
 - [Lura 🌟](https://luraproject.org/) An extendable, simple and stateless high-performance API Gateway framework designed for both cloud-native and on-prem setups.
 - [KrakenD: The fastest API gateway comes with true linear scalability 🌟](https://www.krakend.io/) KrakenD is a stateless, distributed, high-performance API Gateway that helps you effortlessly adopt microservices.
 - [krakend.io: KrakenD framework becomes a Linux Foundation project](https://www.krakend.io/blog/krakend-framework-joins-the-linux-foundation/) KrakenD framework has been donated to the Linux Foundation and is now the “Lura Project."
+
+### Spring Cloud Gateway
+- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
+- [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices) Enforcing rate limits on microservices is a common requirement in the API economy. In this article, we are going to build a custom rate limiting solution.
 
 ## Mobile Developer Portals
 - [developer.mobileconnect.io](https://developer.mobileconnect.io/)

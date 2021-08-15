@@ -31,9 +31,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [openpracticelibrary.com](https://openpracticelibrary.com/)
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
 - [API Landscape](https://www.apidays.co/api-landscape)
-- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
+- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) - [2021 🌟](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
+- [dzone: How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
+
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
@@ -171,7 +173,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Public Cloud Solutions](public-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
-- [AWS](aws.md)
+- [AWS 🌟](aws.md)
 - [Google Cloud Platform](GoogleCloudPlatform.md)
 - [Microsoft Azure](azure.md)
 - [IBM & IBM Cloud](ibm_cloud.md)

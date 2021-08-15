@@ -133,6 +133,7 @@
 * [github: Tekton Pipelines](https://github.com/tektoncd/pipeline)
 * [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/)
 * [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
+* [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
 
 ## Slides
 

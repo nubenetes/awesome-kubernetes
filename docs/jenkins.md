@@ -117,6 +117,14 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [medium: Integrate BitBucket & Jenkins](https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe) Connect Jenkins and Bitbucket. And trigger a job automatically in Jenkins when a new code is committed in Bitbucket.
 * [developer.okta.com: Update App Secrets with Jenkins CI and .NET Core](https://developer.okta.com/blog/2021/07/08/jenkins-ci-dotnet-update-secrets)
 * [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
+* [jenkins.io: Git Username/Password Credentials Binding for sh, bat, and powershell 🌟](https://www.jenkins.io/blog/2021/07/27/git-credentials-binding-phase-1/) Google Summer of Code 2021 is implementing git credentials binding for sh, bat, and powershell. Git credentials binding is one of the most requested features for Jenkins Pipeline (see JENKINS-28335). The project involves extending the Credentials Binding Plugin to create custom bindings for two types of credentials essential to establish a remote connection with a git repository: Username/Password , SSH Private Key.
+* [youtube: Creating a CI/CD deployment pipeline for JenkinsCI with AWS SAM Pipelines 🌟](https://www.youtube.com/watch?v=tJOlk-B66R4&ab_channel=ServerlessLand) Learn how to simplify CI/CD pipelines for **serverless** applications with a **pipeline generator and templates** with AWS built-in best practices for CloudBees and JenkinsCI.
+* [blogs.sap.com: SAP Cloud Integration automated testing using Jenkins and Pipeline as a Code approach](https://blogs.sap.com/2021/07/29/sap-cloud-integration-automated-testing-using-jenkins-and-pipeline-as-a-code-approach/)
+* [github.com/jenkins-infra/jenkins.io/issues](https://github.com/jenkins-infra/jenkins.io/issues) A static site for the Jenkins automation server. Contribute to jenkins-infra/jenkins.io development by creating an account on GitHub.
+* [itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509)
+    * [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07)
+    * [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
+* [dev.to: Send notification to slack from the Jenkins CI Job and Jenkinsfile](https://dev.to/eavnitech/send-notification-to-slack-from-the-jenkins-ci-job-and-jenkinsfile-e-avni-tech-2lm5)
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -226,6 +234,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     * **Use shared libraries.** Do you remember the days of when you used inline JavaScript in your web pages? When you introduce a "script" tag into a Declarative pipeline, that's a warning sign that you are starting to head down the same path. When you decide that the "script" tag is the only way to go, instead of using the "script" tag, you should instead create a custom step in a shared library and use that step within your Declarative pipeline.
     * **Don't use shared libraries (the wrong way).** Wait, what? You just told me to use shared libraries and now you're telling me not to use shared libraries. What gives? Many people will treat shared libraries like a programming project. Here's the thing to keep in mind. Scripted and Declarative syntax are meant to only do CI tasks and not to be a general purpose programming language. Many Jenkins controller performance issues can be traced back to the misuse of scripted syntax and shared libraries written in a way where all the work is being done within the Jenkins controller itself instead of on the agents.
     * **Only use Scripted syntax when it doesn't make sense to use Declarative plus a shared library.**
+* [cuelogic.com: Decoding Pipeline as Code (With Jenkins) 🌟](https://www.cuelogic.com/blog/pipeline-as-code) Pipeline as code technique rests on the paradigm that delivery pipeline configuration which builds, tests, deploys applications, and software infrastructure must be treated as code. 
 
 #### How to share a Declarative Pipeline. Examples of Declarative Pipelines in Shared Libraries:
 * [mtijhof.wordpress.com: Jenkins: Running a declarative pipeline from your Shared Library 🌟](https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/)
@@ -408,9 +417,11 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
 * [Declarative Pipeline Migration Assistant 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
 * [Configuration Slicing](https://plugins.jenkins.io/configurationslicing/)
-* [Git Plugin Performance Improvement 🌟](https://www.jenkins.io/blog/2020/07/09/git-performance-improvement-phase1/)
+* [git-plugin 🌟](https://github.com/jenkinsci/git-plugin)
+    * [Git Plugin Performance Improvement 🌟](https://www.jenkins.io/blog/2020/07/09/git-performance-improvement-phase1/)
     * [Git Plugin Performance Improvement Phase-2 Progress 🌟](https://www.jenkins.io/blog/2020/07/29/git-performance-improvement-phase2/)
     * [Git Plugin Performance Improvement: Final Phase and Release 🌟](https://www.jenkins.io/blog/2020/08/29/git-performance-improvement-phase3/)
+    * [Git plugin 4.8.0 for jenkinsci allows Pipeline and Freestyle users to perform authenticated git operations from sh, bat, and powershell](https://github.com/jenkinsci/git-plugin/releases/tag/git-4.8.0)
 * [Parameter Separator](https://plugins.jenkins.io/parameter-separator/)
 * [Declarative Pipeline Migration Assistant API 🌟](https://plugins.jenkins.io/declarative-pipeline-migration-assistant-api/) This project includes a plugin that uses details from a Freestyle project to generate a starting Jenkinsfile. The Declarative Pipeline Migration Assistant plugin uses a “best effort” approach during generation, which means supported configurations in Freestyle projects will be automatically converted, and placeholder stages will be created for plugins that are not yet supported.
 * [HashiCorp Vault 🌟](https://plugins.jenkins.io/hashicorp-vault-plugin/)
@@ -433,8 +444,16 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Active Choices 🌟](https://plugins.jenkins.io/uno-choice/) The Active Choices plugin is used in parametrized freestyle Jenkins jobs to create scripted, dynamic and interactive job parameters. Active Choices parameters can be dynamically updated and can be rendered as combo-boxes, check-boxes, radio-buttons or rich HTML UI widgets.
 * [Text Finder 🌟](https://plugins.jenkins.io/text-finder/) This plugin lets you search for some text using regular expressions in a set of files or the console log. Based on the outcome, you can downgrade the build result to UNSTABLE, FAILURE, NOT_BUILT, or ABORTED.
 * [Pull Request Monitoring 🌟](https://github.com/jenkinsci/pull-request-monitoring-plugin) Jenkins plugin to monitor pull requests with customizable dashboard. You can also provide a view for your plugin that other developers can use in their dashboard.
+* [pipeline-graph-view 🌟](https://plugins.jenkins.io/pipeline-graph-view) This plugin provides new Action and View to view a WorkflowRun via the "Pipeline Graph" visualization that was popularized in the Blue Ocean plugin.
 * [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) This plugin provides new Action and View to view a WorkflowRun via the "Pipeline Graph" visualization that was popularized in the Blue Ocean plugin.
 * [URL Filter Plugin](https://github.com/jenkinsci/url-filter-plugin) This plugin enables filtering servlet/http/url requests in Jenkins and blocking the ones which are matched with the given Regex Pattern.
+* [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) Jenkins plugin to run dynamic agents in a Kubernetes/Docker environment
+* [OpenTelemetry 🌟](https://plugins.jenkins.io/opentelemetry) Collect Jenkins monitoring data through OpenTelemetry.
+* [sysdig-secure: Sysdig Secure Container Image Scanner](https://plugins.jenkins.io/sysdig-secure) Sysdig Secure is a container security platform that brings together Docker image scanning and run-time protection to identify vulnerabilities, block threats, enforce compliance, and audit activity across your microservices. The Sysdig Secure Jenkins plugin can be used in a Pipeline job, or added as a build step to a Freestyle job to automate the process of running an image analysis, evaluating custom policies against images, and performing security scans.
+* [qualys-cs: Qualys Container Scanning Connector](https://plugins.jenkins.io/qualys-cs/) The Qualys Container Scanning Connector for Jenkins empowers DevOps to assess container images in their existing CI/CD processes with help of Qualys Container Security(CS) module. Integrating this assessment step will help you catch and eliminate container images related flaws. This plugin supports pipeline as well as free-style projects.
+* [REST List Parameter](https://plugins.jenkins.io/rest-list-parameter/) This Plugin provides parameter type that can request a REST endpoint and offer a list of values parsed from the response value at build start time. The REST responses may contain Json or XML, which can be parsed with Json-Path and xPath respectively. If the REST endpoint requires authentication, then either Basic or Bearer authentication can be used.
+* [Script Security](https://plugins.jenkins.io/script-security/) 
+* [Azure Artifact Manager](https://plugins.jenkins.io/azure-artifact-manager/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -490,6 +509,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     * [Jenkins: Agents Monitoring End User Survey](https://docs.google.com/forms/d/e/1FAIpQLSdiuQN3sm2mQ2E86VTXVXu7bf_9C0hVdzhw2_Kvu3DFqL7EZA/viewform)
     * [github PR: Enable to provide telemetry data to OpenTelemetry Collector](https://github.com/jenkinsci/remoting-opentelemetry-plugin/pull/40) Great step forward for the troubleshooting of JenkinsCI Agents  with the visualization of the "Jenkins Remoting Keep Alive" messages as distributed traces
 * [influxdb-plugin](https://github.com/jenkinsci/influxdb-plugin) Jenkins plugin to send build metrics into InfluxDB
+* [youtube.com: CloudBeesTV - How to Monitor Jenkins With Grafana and Prometheus 🌟](https://www.youtube.com/watch?v=3H9eNIf9KZs&ab_channel=CloudBeesTV)
 
 ## Externalizing Fingerprint Storage for Jenkins 
 - New FingerprintStorage API to build external fingerprint storage plugins.
@@ -567,5 +587,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> tricks you should know✅<br>A thread🧵👇<a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a></p>&mdash; gekocloud (@geko_cloud) <a href="https://twitter.com/geko_cloud/status/1403282847096573955?ref_src=twsrc%5Etfw">June 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kuisathaverat?ref_src=twsrc%5Etfw">@kuisathaverat</a> and I just recorded one of our sessions for the upcoming <a href="https://twitter.com/hashtag/DevOpsWorld?src=hash&amp;ref_src=twsrc%5Etfw">#DevOpsWorld</a> with real examples how distributed traces with <a href="https://twitter.com/hashtag/OpenTelemetry?src=hash&amp;ref_src=twsrc%5Etfw">#OpenTelemetry</a> in <a href="https://twitter.com/hashtag/JenkinsCI?src=hash&amp;ref_src=twsrc%5Etfw">#JenkinsCI</a> can help to troubleshoot and apply performance improvements without the need of debugging logs. 👌 great work mate 🤩</p>&mdash; Victor Mrtez (@AnInfinite) <a href="https://twitter.com/AnInfinite/status/1418260151996399618?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 

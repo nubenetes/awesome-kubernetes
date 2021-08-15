@@ -60,6 +60,9 @@
 - [medium: Introduction to Message Queues 🌟](https://medium.com/hookdeck/introduction-to-message-queues-20d00373cc1f)
 - [headspring.com: Is Kafka or RabbitMQ the right messaging tool for you?](https://headspring.com/2019/07/09/kafka-or-rabbitmq-messaging/)
 - [medium: Introduction to Event-Driven Architecture 🌟](https://medium.com/microservicegeeks/introduction-to-event-driven-architecture-e94ef442d824) The essential concepts that every developer should know
+- [dzone: Why Pub/Sub Isn’t Enough for Modern Apps](https://dzone.com/articles/why-pubsub-isnt-enough-for-modern-apps) Pub/Sub is the most appropriate way of architecting the delivery side of an event-driven architecture (especially for the web).
+- [baeldung.com: Pub-Sub vs. Message Queues 🌟](https://www.baeldung.com/pub-sub-vs-message-queues)
+- [engineering.atspotify.com: Spotify’s Event Delivery – The Road to the Cloud (Part I)](https://engineering.atspotify.com/2016/02/25/spotifys-event-delivery-the-road-to-the-cloud-part-i/)
  
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
@@ -77,15 +80,17 @@
 - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
 - [medium.com: **RabbitMQ vs. Kafka**](https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793) An architect’s dilemma
 - [blog.rabbitmq.com: First Application With RabbitMQ Streams](https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-first-application/)
+- [geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose](https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs/)
 
 ### Redis message broker
 - [Redis](https://redis.io/)
 - [Redis Pub/sub](https://redis.io/topics/pubsub)
 
 ### Apache Camel message broker
-- [Apache Camel](https://camel.apache.org/)
+- [Apache Camel](https://camel.apache.org/) Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data. In version 3 we use <5MB memory, including the JVM. Also reflection free, low GC, super modular, native compilation friendly.
 - [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)
 - [dzone: Hybrid multi-cloud event mesh architectural design](https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with) Building the event mesh with Camel
+- [developers.redhat.com: Integrating systems with Apache Camel and Quarkus on Red Hat OpenShift](https://developers.redhat.com/articles/2021/05/17/integrating-systems-apache-camel-and-quarkus-red-hat-openshift)
 
 #### Apache Camel K
 - [Apache Camel K](https://camel.apache.org/camel-k/latest/) is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.
@@ -134,6 +139,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [developers.redhat.com: Db2 and Oracle connectors coming to Debezium 1.4 GA](https://developers.redhat.com/blog/2021/03/25/db2-and-oracle-connectors-coming-to-debezium-1-4-ga)
 - [medium: Change Data Capture — Using Debezium](https://medium.com/geekculture/change-data-capture-using-debezium-ec48631d643a)
 - [daily.dev: Building a fault-tolerant event-driven architecture with Google Cloud, Pulumi and Debezium](https://daily.dev/blog/building-a-fault-tolerant-event-driven-architecture-with-google-cloud-pulumi-and-debezium)
+- [pradeepdaniel.medium.com: Creating an ETL data pipeline to sync data to Snowflake using Kafka and Debezium](https://pradeepdaniel.medium.com/real-time-change-data-replication-to-snowflake-using-kafka-and-debezium-d6ebb0d4eb29) Setting up a real-time data pipeline from scratch to sync data from transactional databases to Snowflake cloud warehouse.
 
 ## Red Hat Integration service registry and Apicurio
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
@@ -226,6 +232,12 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟](https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach)
 - [baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands 🌟](https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster)
 - [developers.redhat.com: How to secure Apache Kafka schemas with Red Hat Integration Service Registry 2.0](https://developers.redhat.com/articles/2021/07/16/how-secure-apache-kafka-schemas-red-hat-integration-service-registry-20)
+- [mercurytfs.blogspot.com: Colas Kafka](https://mercurytfs.blogspot.com/2021/07/colas-kafka.html)
+- [grafana.com: Get comprehensive monitoring for your Apache Kafka ecosystem instances quickly with Grafana Cloud](https://grafana.com/blog/2021/07/26/get-comprehensive-monitoring-for-your-apache-kafka-ecosystem-instances-quickly-with-grafana-cloud/)
+- [dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟](https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s) This article examines the architecture patterns and provides some sample code for the readers to implement in their own environment.
+- [github.com/lensesio/fast-data-dev (Lenses Box)](https://github.com/lensesio/fast-data-dev) Kafka Docker for development. Kafka, Zookeeper, Schema Registry, Kafka-Connect, Landoop Tools, 20+ connectors. A apachekafka docker image that actually works without zookeeper. If you don't want do deal with docker-compose this one is for you.
+- [confluent.io: Making Apache Kafka Serverless: Lessons From Confluent Cloud](https://www.confluent.io/blog/designing-an-elastic-apache-kafka-for-the-cloud/)
+- [developer.confluent.io 🌟🌟](https://developer.confluent.io/) over ten hours of FREE video Cámara de cine courses with hands-on exercises, 50+ event streaming patterns, deep-dive articles on Kafka's internals, and a ton more Estrellas en los ojos
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)
@@ -236,6 +248,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [strimzi.io: Optimizing Kafka producers 🌟](https://strimzi.io/blog/2020/10/15/producer-tuning/)
 - [pepy.tech/project/strimzi-kafka-cli 🌟](https://pepy.tech/project/strimzi-kafka-cli) - [pypi.org/project/strimzi-kafka-cli](https://pypi.org/project/strimzi-kafka-cli/)
 - [strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider for Apache Kafka](https://github.com/strimzi/kafka-kubernetes-config-provider) Apache Kafka supports pluggable configuration providers which can load configuration data from external sources. The configuration providers in this repo can be used to load data from Kubernetes Secrets and Config Maps. It can be used in all Kafka components and does not depend on the other Strimzi components. So you could, for example, use it with your producer or consumer applications even if you don't use the Strimzi operators to provide your Kafka cluster. One of the example use-cases is to load certificates or JAAS configuration from Kubernetes Secrets.
+- [strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps](https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps/)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)

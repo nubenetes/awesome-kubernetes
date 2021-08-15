@@ -29,6 +29,7 @@
 - [WildFly](https://wildfly.org/)
 - [Dzone: Building a Mission-Critical Open Source Java Platform - The Web Layer](https://dzone.com/articles/building-a-mission-critical-open-source-java-platf) Currently the Java platform is one of the most consolidated in the world, much of this is due to platform's ability to support other languages such as Kotlin...
 - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes) Learn how to create a custom Wildfly instance that runs a Jakarta EE appplications through Kubernetes.
+- [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) WildFly is a popular choice for developers who want to develop enterprise-ready applications.
 
 ## IBM WebSphere Liberty 
 - [WebSphere Liberty from IBM](https://developer.ibm.com/wasdev/websphere-liberty/)

@@ -14,6 +14,7 @@
 - [Gradle](#gradle)
 	- [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [SDKMAN](#sdkman)
+- [Related Tools](#related-tools)
 
 ## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
@@ -35,6 +36,7 @@
 * [ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder](https://ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) This article covers some internals of image layering created by container image builder Jib and explore what distroless images are and their benefits.
 * [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-1/)
 	* [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 2](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-2/)
+* Maven 3.8.2 is available now! It contains several fixes and non invasive backports from the Maven 4 branch. 
 
 ### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
@@ -115,3 +117,6 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
     * [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide/)
     * [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) In this video, I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job. 
     * [Jenkins Pipeline Maven build demo](https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman)
+
+## Related Tools
+* [jitpack.io 🌟](https://jitpack.io) Easy to use package repository for Git. Publish your JVM and Android libraries. Publishing your own library to the Maven Central repository may be a painful experience. Therefore, you may just create a GitHub Release for your library, and then include it as a dependency using jitpack.

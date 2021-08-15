@@ -1,5 +1,6 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
+- [Bash Shell](#bash-shell)
 - [AWS Cheat Sheets](#aws-cheat-sheets)
 - [API Cheatsheets](#api-cheatsheets)
 - [eBooks](#ebooks)
@@ -10,6 +11,7 @@
 - [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
+	- [Docker Swarm Cheat Sheets](#docker-swarm-cheat-sheets)
 - [Security Cheat Sheets](#security-cheat-sheets)
 - [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
 	- [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
@@ -24,6 +26,7 @@
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 - [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 - [Buildah Cheat Sheets](#buildah-cheat-sheets)
+- [Prometheus Cheat Sheets](#prometheus-cheat-sheets)
 - [Helm Cheat Sheets](#helm-cheat-sheets)
 - [Maven Cheat Sheets](#maven-cheat-sheets)
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
@@ -34,6 +37,7 @@
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
 - [Kafka](#kafka)
 - [Machine Learning](#machine-learning)
+- [Javascript](#javascript)
 - [TypeScript](#typescript)
 - [Jupyter](#jupyter)
 - [SQL](#sql)
@@ -42,6 +46,7 @@
 - [MongoDB](#mongodb)
 - [Go](#go)
 - [NodeJS](#nodejs)
+- [Selenium](#selenium)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -55,7 +60,13 @@
 - [jimmysong.io/cheatsheets 🌟](https://jimmysong.io/cheatsheets/)
 - [simplecheatsheet.com](https://simplecheatsheet.com/)
 - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c) This comprehensive guide covers everything DevOps
+- [ABZ-Aaron/CheatSheets](https://github.com/ABZ-Aaron/CheatSheets)
+- [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)
+- [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)
+- [cheat.sh 🌟](https://cheat.sh/)
+## Bash Shell 
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
+- [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
 
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
@@ -109,15 +120,29 @@
 * [ithands-on.com: Kubernetes 101 : kubectl - communication with pods and containers / running commands inside pods and containers](https://www.ithands-on.com/2021/05/kubernetes-101-kubectl-communication.html)
 * [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) Start exploring kubectl, containers, pods, and more, then download our free cheat sheet so you always have the key commands at your fingertips.
 * [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
+* [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 
 ## Docker Cheat Sheets
+- [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
+- [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+- [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
 - [Dzone: docker cheet sheet](https://dzone.com/articlesdocker-command-cheatsheet)
 - [developers.redhat.com: Containers Cheat Sheet](https://developers.redhatcom/cheat-sheets/containers/)
 - [github.com: Docker cheat Sheet](https://github.com/wsargentdocker-cheat-sheet)
 - [linuxhero.tk: Docker command cheat sheet](https://linuxhero.tkdockercommands/)
-- [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
-- [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+- [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/docker-commands-cheat-sheet)
+- [intellipaat.com: Docker Cheat Sheet (2019, pdf)](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
+- [design.jboss.org/redhatdeveloper: docker CLI & Dockerfile Cheat Sheet 🌟](https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf)
+- [blog.gitguardian.com: How to improve your Docker containers security [cheat sheet included]](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
+
+### Docker Swarm Cheat Sheets
+- [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
+	- [docker-swarm-cheatsheet-sematext.pdf](https://cdn2.hubspot.net/hubfs/5111483/docker-swarm-cheatsheet-sematext.pdf)
+- [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de/cheat-sheet/Docker%20Swarm)
+- [kerneltalks.com: Docker swarm cheat sheet](https://kerneltalks.com/virtualization/docker-swarm-cheat-sheet/)
+- [codingfriend.medium.com: Docker Swarm Cheatsheet (2017)](https://codingfriend.medium.com/docker-swarm-cheatsheet-22665e3278b1)
+- [blog.programster.org: Docker Swarm Cheatsheet](https://blog.programster.org/docker-swarm-cheatsheet)
 
 ## Security Cheat Sheets
 - [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics. These cheat sheets were created by various application security professionals who have expertise in specific topics.
@@ -141,6 +166,7 @@
 * [dzone: Top 35 Git Commands With Examples 🌟](https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus) Git commands are essential, and they help to manage your source code effectively. In this guide, you will learn Git commands from Beginners to Advanced level.
 * [gitexplorer.com: Git Command Explorer 🌟](https://gitexplorer.com/) Find the right commands you need without digging through the web.
 * [justingarrison.com: GitHub URL Hacks 🌟](https://www.justingarrison.com/blog/2021-07-11-github-url-hacks/) GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with curl and other CLI tools.
+* [dev.to: Git it Right🔥🔥🚀(Git CheatSheet) 🌟](https://dev.to/star_trooper/git-it-right-git-cheatsheet-4o0h)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
@@ -169,6 +195,7 @@
 * [terraform-infraestructura.readthedocs.io: comandos](https://terraform-infraestructura.readthedocs.io/es/latest/comandos/)
 * [acloudguru.com: The Ultimate Terraform Cheatsheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
 * [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
+* [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://searchitoperations.techtarget.com/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) Terraform has a lot going on. This cheat sheet rounds up the essentials, from configuration settings to the key commands for managing the Terraform directory.
 
 ## Linux Command Cheat Sheets
 * [linoxide.com: Linux Commands Cheat Sheet](https://linoxide.com/linux-command/linux-commands-cheat-sheet/)
@@ -219,6 +246,9 @@
 
 ## Buildah Cheat Sheets
 - [developers.redhat.com: Buildah Cheat Sheet](https://developers.redhat.com/cheat-sheets/buildah-cheat-sheet)
+
+## Prometheus Cheat Sheets
+- [iximiuz.com: Prometheus Cheat Sheet - How to Join Multiple Metrics (Vector Matching) 🌟](https://iximiuz.com/en/posts/prometheus-vector-matching/)
 
 ## Helm Cheat Sheets
 * [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
@@ -277,6 +307,9 @@
 ## Machine Learning
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 
+## Javascript
+- [opensource.com: JavaScript cheat sheet](https://opensource.com/downloads/javascript-cheat-sheet)
+
 ## TypeScript
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
 - [docs.microsoft.com: Build JavaScript applications using TypeScript](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/)
@@ -288,6 +321,8 @@
 - [intellipaat.com: SQL Commands Cheat Sheet](https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet/)
 - [sqltutorial.org: SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 - Kanak Infosystems LLP. [SQL Cheat Sheet](https://kanakinfosystems.com/blog/sql-cheat-sheet)
+- [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/CheatSheets/blob/main/SQL.pdf)
+- [github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟](https://github.com/enochtangg/quick-SQL-cheatsheet) A quick reminder of all SQL queries and examples on how to use them.
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
@@ -306,3 +341,6 @@
 
 ## NodeJS
 - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)
+
+## Selenium
+- [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)

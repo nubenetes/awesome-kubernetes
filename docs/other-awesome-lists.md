@@ -99,7 +99,8 @@
 - [Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
 - [Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)
 - [Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)
-- [Awesome EKS](https://github.com/christopherhein/awesome-eks)
+- [christopherhein/awesome-eks: Awesome EKS](https://github.com/christopherhein/awesome-eks)
+- [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
 
 ### Docker
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)

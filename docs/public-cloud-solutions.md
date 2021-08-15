@@ -12,6 +12,8 @@
 * [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in/)
 * [zarantech.com: Difference between AWS and Azure](https://www.zarantech.com/blog/difference-between-aws-and-azure/)
 * [medium: AWS vs Azure — Battle Of The Best Cloud Computing Platforms](https://medium.com/edureka/aws-vs-azure-1a882339f127)
+* [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)
+
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
 * [OpenShift in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-get-started)
