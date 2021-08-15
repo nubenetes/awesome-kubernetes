@@ -35,6 +35,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [dzone: How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
+- [Kubernetes magic is in enterprise standardization, not app portability 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
