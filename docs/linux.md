@@ -174,6 +174,7 @@
 - [freecodecamp.org: The Linux Command Handbook 🌟](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
 - [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)
 - [tecmint.com: 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
+- [tecmint.com: 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)

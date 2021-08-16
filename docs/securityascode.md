@@ -85,6 +85,7 @@
 - [kyverno.io: Auto-Gen Rules for Pod Controllers](https://kyverno.io/docs/writing-policies/autogen/) Automatically generate rules for Pod controllers. 
 - [kyverno.io: Require PodDisruptionBudget](https://kyverno.io/policies/other/require_pdb/) Use this kyverno sample to prevent app downtime by requiring all kubernetesio Deployments have a corresponding PodDisruptionBudget.
 - [nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno](https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno/)
+- [neonmirrors.net: Exploring Kyverno: Introduction 🌟](https://neonmirrors.net/post/2020-11/exploring-kyverno-intro/)
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

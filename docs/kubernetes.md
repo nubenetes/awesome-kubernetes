@@ -674,6 +674,7 @@
 * [redhat.com: 10 considerations for Kubernetes deployments - Checklist](https://www.redhat.com/en/engage/considerations-kubernetes-deployments-s-202001101221)
 * [redkubes.com: DIY Kubernetes-based platform building – part 3](https://redkubes.com/diy-kubernetes-based-platform-building-part-3/)
 * [weave.works: Tools for Automating and Implementing Cloud Native Patterns 🌟](https://www.weave.works/blog/tools-for-automating-and-implementing-cloud-native-patterns)
+* [hobby-kube/guide 🌟🌟](https://github.com/hobby-kube/guide) Kubernetes clusters for the hobbyist. This guide answers the question of how to setup and operate a fully functional, secure Kubernetes cluster on a cloud provider such as Hetzner Cloud, DigitalOcean or Scaleway. It explains how to overcome the lack of external ingress controllers, fully isolated secure private networking and persistent distributed block storage.
 
 <center>
 [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)

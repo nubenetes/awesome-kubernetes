@@ -112,6 +112,7 @@
 * [ortelius.io: Microservice Monitoring and Visualization with Ortelius open source project](https://ortelius.io/blog/2021/03/26/microservice-monitoring-and-visualization/)
 * [thenewstack.io: CI Observability for Effective Change Management 🌟](https://thenewstack.io/ci-observability-for-effective-change-management/)
 * [thenewstack.io: Monitor Your Containers with Sysdig](https://thenewstack.io/monitor-your-containers-with-sysdig/)
+* [medium: Monitoring Microservices - Part 1: Observability 🌟](https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e) Achieving observability with probes, logs, metrics, and traces
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)

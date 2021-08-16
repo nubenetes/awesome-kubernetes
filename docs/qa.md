@@ -52,6 +52,7 @@ the #1 test automation community.
 * [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)
 * [SystemTap](https://sourceware.org/systemtap/)
     * [developers.redhat.com: Opening black boxes with statement tracing (SystemTap)](https://developers.redhat.com/articles/2021/08/04/opening-black-boxes-statement-tracing)
+* [auchenberg/volkswagen](https://github.com/auchenberg/volkswagen) Volkswagen detects when your tests are being run in a CI server, and makes them pass.
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)
 

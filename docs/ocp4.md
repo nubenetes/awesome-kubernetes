@@ -129,6 +129,7 @@
 * [zdnet.com: Qualys partners with Red Hat to improve Linux and Kubernetes security](https://www.zdnet.com/article/qualys-partners-with-red-hat-to-improve-linux-and-kubernetes-security/) Security company Qualys is partnering with Red Hat to bring built-in Cloud Agent security to Red Hat Enterprise Linux CoreOS and Red Hat OpenShift.
 * [cloud.redhat.com: Getting Started in OpenShift 🌟](https://cloud.redhat.com/blog/getting-started-in-openshift)
 * [redhat.com: Simplify application management in Kubernetes environments (ebook)](https://www.redhat.com/en/resources/simplify-app-management-in-kuberentes-e-book) Automation is at the core of cloud-native application development and deployment. Helm and Kubernetes Operators are two popular choices for automating the management of application and infrastructure software within your Kubernetes environment. These tools help to improve developer productivity, simplify application deployment and streamline updates and upgrades. Red Hat OpenShift supports both of these automation technologies, helping you to increase speed, efficiency, and scale and deliver a better user experience.
+* [cloud.redhat.com: OpenShift Sandboxed Containers 101 🌟](https://cloud.redhat.com/blog/openshift-sandboxed-containers-101)
 
 ### OpenShift sizing and subscription guide
 - [redhat.com: OpenShift sizing and subscription guide for enterprise Kubernetes 🌟](https://www.redhat.com/en/resources/openshift-subscription-sizing-guide-detail)

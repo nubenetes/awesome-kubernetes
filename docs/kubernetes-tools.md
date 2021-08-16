@@ -310,6 +310,7 @@
 * [Havener](https://github.com/homeport/havener) Think of it as a swiss army knife for Kubernetes tasks. 
 * [KFServing 🌟](https://github.com/kubeflow/kfserving) Serverless Inferencing on Kubernetes. KFServing provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX.
 * [Kubescape 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
+* [rkubelog 🌟](https://github.com/solarwinds/rkubelog) Send k8s Logs to Papertrail and Loggly Without DaemonSets (for Nodeless Clusters) - [dzone: ContainerD Kubernetes Syslog Forwarding](https://dzone.com/articles/containerd-kubernetes-syslog-forwarding) Move from Logspout to Filebeat to support containerd logging architecture.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
