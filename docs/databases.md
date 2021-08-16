@@ -67,6 +67,7 @@
 * [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations/) Deploying ASP.NET Core applications to Kubernetes - Part 7. Learn how to run database migrations with init containers and Jobs in Kubernetes.
 * [redislabs.com: What is a “Databaseless” (DBLess) Architecture, and Why It’s the Future 🌟](https://redislabs.com/blog/dbless-architecture-and-why-its-the-future/) DBLess architecture provides a new approach to data pipeline and backend architecture. Just like the terms serverless, stateless, and NoSQL, it attempts to provide more options for architects to think about.
 * [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures/)
+* [dev.to: Introduction Migrations](https://dev.to/mahmoudessa/introduction-migrations-8me)
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)

@@ -5,6 +5,7 @@
 - [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn/) One of the big headlines this week in the world of programming comes in the form of a single statistic: 83% of developers suffer from burnout, according to a study by Haystack Analytics.
 - [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs)
 - [about.gitlab.com: The Remote Work Report 2021](https://about.gitlab.com/remote-work-report/) 3,900 global remote workers share the good, bad, and unexpected of the new status quo
+- [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat/)
 
 ## Recruitment Portals in Spain
 - [trycircular.com (Spain)](https://trycircular.com) The hiring community for tech recruiters and developers with good Candidate Experience guaranteed.

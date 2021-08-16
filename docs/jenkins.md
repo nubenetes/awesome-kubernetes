@@ -454,6 +454,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [REST List Parameter](https://plugins.jenkins.io/rest-list-parameter/) This Plugin provides parameter type that can request a REST endpoint and offer a list of values parsed from the response value at build start time. The REST responses may contain Json or XML, which can be parsed with Json-Path and xPath respectively. If the REST endpoint requires authentication, then either Basic or Bearer authentication can be used.
 * [Script Security](https://plugins.jenkins.io/script-security/) 
 * [Azure Artifact Manager](https://plugins.jenkins.io/azure-artifact-manager/)
+* [Custom Checkbox Parameter 🌟](https://plugins.jenkins.io/custom-checkbox-parameter/) This plug-in can dynamically create a set of check boxes for users to check before building. The check box settings are configured through YAML or JSON files, and the file content can be obtained through HTTP, HTTPS, or file paths. After checking the check box, the user can use params['ParameterName'] in the build script to get the selected value. The result of the user's selection is returned in the form of a string separated by "," value1, value2, value3. 
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
