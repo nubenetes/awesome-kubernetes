@@ -62,6 +62,7 @@
 ### JSON formatting with jq
 - [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/)
 - ```jq -C '.' data.json | less -R``` Use jq to pretty print some JSON data with ANSI color coded syntax and use -R in less to process the color.
+- [github.com/ilyash/show-struct](https://github.com/ilyash/show-struct) Shows possible jq paths in a JSON file
 
 ### Kubernetes JSON Schemas
 - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
