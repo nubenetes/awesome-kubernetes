@@ -34,6 +34,7 @@ the #1 test automation community.
 * [blog.testproject.io: The 10–10–10 Rule of Test Automation](https://blog.testproject.io/2021/07/21/the-10-10-10-rule-of-test-automation/)
 * [blog.testproject.io: End to End Testing](https://blog.testproject.io/2021/07/22/end-to-end-testing/)
 * [blog.testproject.io: REST API Automation From Scratch 🌟](https://blog.testproject.io/2021/07/28/rest-api-automation-from-scratch/)
+* [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.
