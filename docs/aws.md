@@ -207,6 +207,7 @@
 - [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/7-tips-for-cutting-down-your-aws-kubernetes-bill/)
 - [cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation (EKS) 🌟](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) A guide to intelligently allocating Kubernetes costs with EKS
 - [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans/)
+- [dzone: A Guide on Estimating AWS EC2 Workloads for a Microservice Application 🌟](https://dzone.com/articles/a-guide-on-estimating-aws-ec2-workloads-for-a-micr) AWS EC2 instance costs can be a significant part of the cloud bill, so it's always a good idea to estimate the workloads using the AWS pricing calculator.
 
 ### AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators 🌟](https://calculator.aws/)
