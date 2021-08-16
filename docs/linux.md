@@ -9,6 +9,7 @@
 - [Youtube](#youtube)
 - [Reddit](#reddit)
 - [Linux Commands and Tools](#linux-commands-and-tools)
+- [BusyBox](#busybox)
 - [Bash](#bash)
 - [Zsh](#zsh)
 - [ZX](#zx)
@@ -175,6 +176,10 @@
 - [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)
 - [tecmint.com: 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 - [tecmint.com: 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)
+
+## BusyBox
+- [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux
+- [genbeta.com: BusyBox, el ejecutable que agrupa casi 200 utilidades Unix de línea de comandos (y que puedes usar también en Windows o Android)](https://www.genbeta.com/herramientas/busybox-ejecutable-que-agrupa-casi-200-utilidades-gnu-linea-comandos-que-puedes-usar-tambien-windows-android)
 
 ## Bash
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
