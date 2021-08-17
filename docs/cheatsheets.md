@@ -323,6 +323,7 @@
 - Kanak Infosystems LLP. [SQL Cheat Sheet](https://kanakinfosystems.com/blog/sql-cheat-sheet)
 - [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/CheatSheets/blob/main/SQL.pdf)
 - [github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟](https://github.com/enochtangg/quick-SQL-cheatsheet) A quick reminder of all SQL queries and examples on how to use them.
+- [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands)
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
