@@ -23,7 +23,7 @@
     * [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html)
 * [GoCD](https://www.gocd.org/)
 * [Codefresh](https://codefresh.io/)
-* [skaffold](https://skaffold.dev/)
+* [skaffold](https://skaffold.dev/) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
 * [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
      * [Bamboo](https://www.atlassian.com/software/bamboo)
