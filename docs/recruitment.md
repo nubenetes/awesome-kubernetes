@@ -1,4 +1,9 @@
 # Recruitment
+- [Introduction](#introduction)
+- [Recruitment Portals in Spain](#recruitment-portals-in-spain)
+- [Soft Skills](#soft-skills)
+- [Tweets](#tweets)
+## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
 - [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40/)
@@ -16,6 +21,10 @@
 
 ## Soft Skills
 - [skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) For varying levels of seniority, from senior, to staff, and beyond.
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Question for software engineers: Would you leave your job because you didn&#39;t like the tech stack?</p>&mdash; David Fowler 🇧🇧 (@davidfowl) <a href="https://twitter.com/davidfowl/status/1384955137588875265?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -46,4 +55,10 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working for a bad manager can torch your professional confidence and make you feel like you&#39;re incapable of succeeding at your job.<br><br>Here&#39;s a checklist to help you tell the difference between legitimate criticism you should act upon and illegitimate criticism you should ignore.</p>&mdash; Phoebe the Career Coach (@betterwphoebe) <a href="https://twitter.com/betterwphoebe/status/1424757039713112068?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
+
+<center>
+![interviews getting harder](images/interviews_getting_harder.jfif)
+</center>
+
 

@@ -353,3 +353,7 @@
 
 ## Selenium
 - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)
+
+<center>
+![googling stuff](images/googling_stuff.jpg)
+</center>
