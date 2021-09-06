@@ -4,7 +4,6 @@
 - [Other Managed Kubernetes](#other-managed-kubernetes)
 - [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
 - [AKS Azure Kubernetes Service](#aks-azure-kubernetes-service)
-- [Azure Red Hat OpenShift ARO](#azure-red-hat-openshift-aro)
 - [Kubesphere](#kubesphere)
 - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 
@@ -146,10 +145,6 @@
 - [blog.kasten.io: AKS and Storage: Performance Differences Among K8s Storage Services](https://blog.kasten.io/aks-and-storage-performance-differences-among-kubernetes-storage-services)
 - [medium: AKS — different load balancing options. When to use what?](https://medium.com/microsoftazure/aks-different-load-balancing-options-for-a-single-cluster-when-to-use-what-abd2c22c2825)
 - [medium: Going multicloud with kubernetes and Azure Front Door](https://medium.com/microsoftazure/going-multicloud-with-kubernetes-and-azure-front-door-f34a2f39068a) Kubernetes/AKS/GKE/MultiCloud/Azure Front Door
-
-## Azure Red Hat OpenShift ARO
-- [ARO](https://www.openshift.com/products/azure-openshift)
-- [aroworkshop.io 🌟](http://aroworkshop.io/) 
 
 ## Kubesphere
 - [kubesphere.io](https://kubesphere.io/) The Kubernetes platform tailored for hybrid multicloud. KubeSphere is a distributed operating system managing cloud native applications with Kubernetes as its kernel, and provides plug-and-play architecture for the seamless integration of third-party applications to boost its ecosystem.

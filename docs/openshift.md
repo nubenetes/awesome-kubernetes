@@ -1,5 +1,8 @@
 # OpenShift Container Platform
 - [OpenShift](#openshift)
+- [OpenShift Streaming & Training](#openshift-streaming--training)
+- [OpenShift on Public Cloud](#openshift-on-public-cloud)
+    - [Azure Red Hat OpenShift ARO](#azure-red-hat-openshift-aro)
 - [Blogs](#blogs)
 - [Meetings](#meetings)
 - [Differences in developing on OpenShift as opposed to other Kubernetes distributions](#differences-in-developing-on-openshift-as-opposed-to-other-kubernetes-distributions)
@@ -51,6 +54,25 @@
 * [OpenShift in DockerHub](https://hub.docker.com/u/openshift/)
 * [reddit.com/r/openshift](https://www.reddit.com/r/openshift)
 * [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
+
+## OpenShift Streaming & Training
+- [OpenShift.tv](https://openshift.tv) 
+- [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
+## OpenShift on Public Cloud
+- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
+- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
+- [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
+- [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
+- [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
+- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+- [OpenShift Online](https://www.openshift.com/products/online/)
+- [OpenShift.io](https://openshift.io/)
+- [Developer Sandbox](https://developers.redhat.com/developer-sandbox)
+- [Red Hat Marketplace](https://marketplace.redhat.com/) 
+
+### Azure Red Hat OpenShift ARO
+- [ARO](https://www.openshift.com/products/azure-openshift)
+- [aroworkshop.io 🌟](http://aroworkshop.io/) 
 
 ## Blogs
 - [Rcarrata's blog](https://rcarrata.com/)

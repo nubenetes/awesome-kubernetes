@@ -82,29 +82,16 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [kubernetes non-production local environments](kubernetes-local-non-prod.md)
     - [Kubernetes on premise](kubernetes-on-premise.md)
     - [Managed kubernetes in public clouds](managed-kubernetes-in-public-cloud.md)
-- [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
-## OpenShift
+
+## SUSE Rancher
+- [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
+## Red Hat OpenShift
 - [OpenShift 🌟](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
-### OpenShift Streaming & Training
-- [OpenShift.tv](https://openshift.tv) 
-- [twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
-### OpenShift on Public Cloud
-- OCP4 on AWS: [ref1](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md) , [ref2](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
-- [OpenShift Dedicated](https://www.openshift.com/products/dedicated/) - [Price lowered by 75% on average, SLA improved to 99.95% 🌟](https://www.redhat.com/en/blog/red-hat-openshift-dedicated-price-reduction)
-- [Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
-- [OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
-- [Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
-- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
-- [OpenShift Online](https://www.openshift.com/products/online/)
-- [OpenShift.io](https://openshift.io/)
-- [Developer Sandbox](https://developers.redhat.com/developer-sandbox)
-- [Red Hat Marketplace](https://marketplace.redhat.com/) 
-### Customer Success Stories
-- [Customer Success Stories 🌟](customer.md)
+
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
@@ -143,7 +130,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [StackStorm](stackstorm.md)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
 - [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
-
 ## Infrastructure Management Tools
 - [IaC Infrastructure as Code](iac.md)
 - [Pulumi](pulumi.md)
@@ -158,7 +144,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
-
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
@@ -202,6 +187,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Recruitment](recruitment.md)
 - [Freelancing](freelancing.md)
 - [Remote Tech Jobs](remote-tech-jobs.md)
+
+## Customer Success Stories
+- [Customer Success Stories 🌟](customer.md)
 
 ---
 <center>

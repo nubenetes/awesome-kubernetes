@@ -80,9 +80,10 @@ nav:
   - kubernetes non-production local environments: kubernetes-local-non-prod.md
   - Kubernetes on premise: kubernetes-on-premise.md
   - Managed kubernetes in public clouds: managed-kubernetes-in-public-cloud.md
-  - Rancher - Enterprise management for Kubernetes: rancher.md
   - Kubernetes Matrix Table: matrix-table.md
   - Kubernetes alternatives: kubernetes-alternatives.md
+- SUSE Rancher: 
+  - Rancher - Enterprise management for Kubernetes: rancher.md
 - OpenShift: 
   - OpenShift docs: openshift.md
   - OCP 3: ocp3.md
@@ -161,9 +162,9 @@ nav:
   - Digital Ocean: digitalocean.md
   - Cloudflare: cloudflare.md
 - E-Learning: elearning.md
-- Customer Success Stories: customer.md
 - Subreddits: newsfeeds.md
 - Other Awesome Lists: other-awesome-lists.md
+- Customer Success Stories: customer.md
 - About: about.md
 
 copyright: 2021 <a href="https://twitter.com/RedHatSpain">Red Hat Spain</a>, <a href="https://awesome-kubernetes.readthedocs.io/about/">about</a>.
