@@ -55,7 +55,7 @@ Una vez más, para Pilar
 </center>
 </details>
 
-## Stats 5. IT, languages and Olympics
+## Stats 5. IT, Languages and Olympics
 <details>
   <summary>Click to expand!</summary>
 

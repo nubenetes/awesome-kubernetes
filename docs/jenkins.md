@@ -472,6 +472,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ### Jenkins Blue Ocean
 * [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started/)
 * [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
+* [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins/)
 
 <iframe src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
