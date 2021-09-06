@@ -243,6 +243,7 @@
 
 ## Software Development Tools
 - [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive/)
+- [sloboda-studio.com: Python Tools for Machine Learning](https://sloboda-studio.com/blog/python-tools-for-machine-learning/)
 
 ## vFunction. A system to transform monolithic Java applications into microservices
 - [vFunction](https://vfunction.com/) vFunction accelerates your journey to cloud native by automating Java app modernization.
