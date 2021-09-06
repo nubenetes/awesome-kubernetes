@@ -75,7 +75,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Networking](kubernetes-networking.md)
     - [Kubernetes security](kubernetes-security.md)
     - [Kubernetes Storage](kubernetes-storage.md)
-    - [Kubernetes backup migrations](kubernetes-backup-migrations.md)
+    - [Kubernetes Backup and Migrations](kubernetes-backup-migrations.md)
     - [Kubernetes autoscaling](kubernetes-autoscaling.md)
     - [Kubernetes Operators and Controllers](kubernetes-operators-controllers.md)
     - [Kubernetes devel tools](kubernetes-devel-tools.md)
