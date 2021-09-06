@@ -27,6 +27,7 @@
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 - [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
 - [Terraform Tools](#terraform-tools)
+- [Tweets](#tweets)
 
 ## Packer
 * [packer.io](https://packer.io/)
@@ -272,6 +273,11 @@
 	* https://github.com/darinpope/jenkins-example-terraform
 	* https://www.jenkins.io/changelog-stable/#v2.289.3 
 
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m getting questions about Terraform vs Kubernetes for managing infrastructure resources.<br><br>I make the distinction by treating Terraform as a frontend tool that interacts with control planes that present **its** resources through a declarative interface. Ownership is key.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1329552116638117889?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -281,3 +287,4 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unfortunately I think this is the biggest misconception that orgs have when deciding to adopt Terraform. It&#39;s &quot;cloud agnostic&quot; in the same way that Python is cloud agnostic. You still need vendor specific libraries. The only thing you standardize on is syntax and workflow</p>&mdash; Noah Mercado (@noah_mercado) <a href="https://twitter.com/noah_mercado/status/1420797838129340417?ref_src=twsrc%5Etfw">July 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
