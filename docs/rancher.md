@@ -1,5 +1,6 @@
 # Rancher
 - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
+- [Rancher Desktop](#rancher-desktop)
 - [Rancher Academy (online training)](#rancher-academy-online-training)
 - [Rancher 2](#rancher-2)
     - [Rancher Networking and CNI Providers](#rancher-networking-and-cni-providers)
@@ -43,6 +44,9 @@
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
 </center>
 </br>
+
+## Rancher Desktop
+* [Rancher Desktop 🌟](https://github.com/rancher-sandbox/rancher-desktop) Kubernetes and container management to the desktop. Rancher Desktop is an open-source project to bring Kubernetes and container management to the desktop. Windows and macOS versions of Rancher Desktop are available for download.
 
 ## Rancher Academy (online training)
 - [Rancher Academy 🌟](https://academy.rancher.com/) Rancher Academy is a professional, no-cost, zero obligation certification program centered on empowering commercial customers and the open source community to be successful with Kubernetes and Rancher. 
