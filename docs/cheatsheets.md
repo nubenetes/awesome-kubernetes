@@ -1,5 +1,6 @@
 # Cheat Sheets
 - [Cheat Sheets](#cheat-sheets)
+- [Google Search](#google-search)
 - [Bash Shell](#bash-shell)
 - [AWS Cheat Sheets](#aws-cheat-sheets)
 - [API Cheatsheets](#api-cheatsheets)
@@ -65,6 +66,12 @@
 - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)
 - [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)
 - [cheat.sh 🌟](https://cheat.sh/)
+
+## Google Search 
+- [wikipedia: Google Search](https://en.wikipedia.org/wiki/Google_Search)
+- [seranking.com: The cheat sheet of 30+ Google Search operators](https://seranking.com/blog/practical-tips-google-search-operators/)
+- [supple.com.au: Google advanced search operators tips and tricks](https://supple.com.au/tools/google-advanced-search-operators/)
+- [blog.linkody.com: The Ultimate Google Search Operators Cheatsheet 🌟](https://blog.linkody.com/guides/google-search-operators-cheatsheet)
 ## Bash Shell 
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
