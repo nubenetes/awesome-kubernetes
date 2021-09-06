@@ -10,7 +10,7 @@
 	- [Google L7 Internal Load Balancer](#google-l7-internal-load-balancer)
 - [Envoy Proxy Service Mesh](#envoy-proxy-service-mesh)
 	- [xDS protocol (Envoy's Discovery Service Protocol)](#xds-protocol-envoys-discovery-service-protocol)
-- [Istio - Service Mesh](#istio---service-mesh)
+- [Istio Service Mesh](#istio-service-mesh)
 - [Open Service Mesh](#open-service-mesh)
 - [Kourier](#kourier)
 - [AWS App Mesh](#aws-app-mesh)
@@ -113,7 +113,7 @@
 - [xDS REST and gRPC protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)
 - "The [gRPC project](https://grpc.io/faq/) is adding support for the **xDS protocol**, think Envoy Proxy as a library, which will provide a subset of functionality without an external proxy. 🤯 The best part, xDS based control planes such as Istio, Traffic Director, and Consul Connect should just work." Kelsey Hightower
 
-## Istio - Service Mesh
+## Istio Service Mesh
 - [Istio](istio.md)
 
 ## Open Service Mesh
