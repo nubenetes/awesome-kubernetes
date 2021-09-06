@@ -58,7 +58,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
 ## FinOps - Cloud Financial Management
 - [FinOps - Cloud Financial Management](finops.md)
-## TestOps and Continuous Testing
+## TestOps - Continuous Testing
 - [TestOps and Continuous Testing](testops.md)
 - [QA](qa.md)
 ## Project Management Methodology
