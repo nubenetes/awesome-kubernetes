@@ -876,7 +876,9 @@
 * [medium: Common Kubernetes Errors Made by Beginners [2021] 🌟🌟](https://medium.com/nerd-for-tech/common-kubernetes-errors-made-by-beginners-274b50e18a01)
 * [cloud.redhat.com: Troubleshooting Sandboxed Containers Operator](https://cloud.redhat.com/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2)
 
+<center>
 [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
+</center>
 
 ### Debugging Techniques and Strategies. Debugging with ephemeral containers
 - [kubectl-debug](https://github.com/aylei/kubectl-debug)
