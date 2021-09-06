@@ -22,6 +22,8 @@
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
 - [Multi Cloud](#multi-cloud)
 - [Low Code and No Code](#low-code-and-no-code)
+- [Videos](#videos)
+- [Tweets](#tweets)
 
 ## Introduction
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
@@ -272,9 +274,20 @@
 - [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) Prepare for hard times or move to where the sun is shining
 - [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/)
 
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/Q6i0LK4vHsU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Questions to quickly spot red flags of a software project:<br><br>- how long does the CI pipeline take?<br>- how long is the onboarding process?<br>- how short are the working cycles?<br>- what type of tests are integrated in the QA?<br>- is there any micromanagement?<br><br>What else would you add?</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1358385361588781067?ref_src=twsrc%5Etfw">February 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD<br><br>The <a href="https://twitter.com/learnk8s?ref_src=twsrc%5Etfw">@Learnk8s</a> Twitter account is expanding!<br><br>Starting today you will be able to follow 4x more news:<br><br>- Security focus Kubernetes news<br>- Kubernetes for devs and architects<br>- Job offers<br>- And … a surprise (read on)<br><br>Let me explain <a href="https://t.co/pAQJYw8Fn6">pic.twitter.com/pAQJYw8Fn6</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1389187636493918213?ref_src=twsrc%5Etfw">May 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -291,3 +304,4 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The top 5 most widely used Cloud platforms according to the Stack Overflow Developer survey 2021:<br><br>1. AWS - 59%<br>2. Azure - 32% <br>3. GCP - 29%<br>4. Heroku - 21%<br>5. DigitalOcean - 18% <a href="https://t.co/56cqg70gZo">pic.twitter.com/56cqg70gZo</a></p>&mdash; Danny  (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1430390741583290375?ref_src=twsrc%5Etfw">August 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
