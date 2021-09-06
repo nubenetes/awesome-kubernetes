@@ -90,6 +90,7 @@
 - [Kong API Platform @Youtube](https://www.youtube.com/channel/UCJfQURxlI_pQdeJUGXtA_zw)
 - [medium: Kong API Gateway - From Zero to Production](https://medium.com/swlh/kong-api-gateway-zero-to-production-5b8431495ee) Let’s start by exploring the API gateway architecture pattern and then slowly deep dive into the details of running a production-grade Kong API gateway.
 - [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.openshift.com/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)
+- [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)
 
 ### Tyk API Manager 
 - [Tyk API Manager](https://tyk.io/)

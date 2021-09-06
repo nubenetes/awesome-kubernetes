@@ -43,6 +43,9 @@
 * [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appland/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j)
 * [serverless-stack.com: How to debug Lambda functions with Visual Studio Code](https://serverless-stack.com/examples/how-to-debug-lambda-functions-with-visual-studio-code.html)
 * [github.blog: VS Code: Now creating pull requests 🌟](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) Remember all those times you’ve wanted to manage a pull request but didn’t want to leave VS Code? Now they’re in the past. Create and manage them with the GitHub Pull Requests Extension.
+* [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc)
+* [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/)
+* [softzone.es: Mejora y añade más funciones a Visual Studio Code con plugins](https://www.softzone.es/programas/lenguajes/mejores-plugins-anadir-visual-code/)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -110,6 +113,7 @@ A simple extension to make indentation more readable
 * [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) Save files into local history
 * [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) You can now browse or even make edits to any GitHub repo straight from code, instantly WITHOUT having to pull the source down first.
 * [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
+* [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)

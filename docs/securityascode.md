@@ -86,6 +86,11 @@
 - [kyverno.io: Require PodDisruptionBudget](https://kyverno.io/policies/other/require_pdb/) Use this kyverno sample to prevent app downtime by requiring all kubernetesio Deployments have a corresponding PodDisruptionBudget.
 - [nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno](https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno/)
 - [neonmirrors.net: Exploring Kyverno: Introduction 🌟](https://neonmirrors.net/post/2020-11/exploring-kyverno-intro/)
+- [nirmata.com: Introducing Kyverno 1.4.2: Trusted And More Efficient!](https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient/)
+- [searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps](https://searchitoperations.techtarget.com/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps) Kyverno, a CNCF policy-as-code sandbox project, can help platform engineers navigate the transition toward the successor to Kubernetes pod security policies.
+- [Policy Reporter 🌟](https://github.com/kyverno/policy-reporter) Creates Prometheus Metrics for PolicyReports and ClusterPolicyReports. Ships with an optional Web UI and can send new Results to different Clients like Loki and Elasticsearch. Provides a optional Monitoring Subchart with a ServiceMonitor and Grafana Dashboards for the Prometheus Operator.
+- [sesin.at: Securing Kubernetes with Kyverno: How to Protect Your Users From Themselves by Ritesh Patel](https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel/)
+- [movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno](https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4) Kyverno, a policy engine designed specifically for Kubernetes.
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

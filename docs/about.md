@@ -7,15 +7,50 @@ Unofficial Red Hat. A Community Linkedin Group since 2009. Red Hat is the world'
 ----
 Una vez más, para Pilar
 
-<center>
+## A collapsible section with stats 1
+<details>
+  <summary>Click to expand!</summary>
+  
 <iframe src="https://www.youtube.com/embed/a3bnNi2R8Vo" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/45Dt1Hdm39U" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/YeiFMirdToA" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/Mxny6euiars" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+## A collapsible section with stats 2
+<details>
+  <summary>Click to expand!</summary>
+
 <iframe src="https://www.youtube.com/embed/cRuTgJHYAtI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/CxUDjQ0uUhI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/wMsBVN4C9V4" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/hKPVhTolLJM" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+## A collapsible section with stats 3
+<details> 
+  <summary>Click to expand!</summary>
+
+<iframe src="https://www.youtube.com/embed/MrmVCMhE6BE" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/-Q7Ga4D6ty8" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AhvMuxcvlt0" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/5kG7LscIyBE" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+## A collapsible section with stats 4
+<details>
+  <summary>Click to expand!</summary>
+
+<iframe src="https://www.youtube.com/embed/kM4W-GY2EFU" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/RfOVHYllSOw" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/2Uj1A9AguFs" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/wYJev_r5tUI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+## A collapsible section with stats 5
+<details>
+  <summary>Click to expand!</summary>
+
 <iframe src="https://www.youtube.com/embed/Og847HVwRSI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/JmYz6mfT0MU" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</details>

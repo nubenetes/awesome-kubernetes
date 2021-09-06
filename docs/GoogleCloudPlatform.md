@@ -41,6 +41,11 @@
 - [cloud.google.com: VPN network overview](https://cloud.google.com/vpc/docs/vpc) Most VPC products in the public cloud take a regional approach. If you want to interconnect a bunch of regional VPCs later on, it's tricky. Not with googlecloud. A single VPC is global with automatic communication across regions.
 - [kinsta.com: Top 7 Advantages of Choosing Google Cloud Hosting](https://kinsta.com/blog/google-cloud-hosting/)
 - [cloud.google.com: Monitor and troubleshoot your VMs in context for faster resolution](https://cloud.google.com/blog/products/operations/better-access-to-observability-data-for-virtual-machines)
+- [infoq.com: Google Releases Its Certificate Authority Service into General Availability](https://www.infoq.com/news/2021/08/google-cloud-cas-ga/)
+- [cloud.google.com: Your Google Cloud database options, explained](https://cloud.google.com/blog/topics/developers-practitioners/your-google-cloud-database-options-explained)
+- [cloud.google.com: A container story - Google Kubernetes Engine](https://cloud.google.com/blog/topics/developers-practitioners/container-story-google-kubernetes-engine)
+- [cloud.google.com: Save money and time with automated VM management and suspend/resume](https://cloud.google.com/blog/products/compute/guide-to-cost-optimization-through-automated-vm-management)
+- [cloud.google.com: Traffic Director explained!](https://cloud.google.com/blog/topics/developers-practitioners/traffic-director-explained)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
@@ -74,6 +79,7 @@
 * [insights.project-a.com: Using GitHub Actions to deploy to Kubernetes in GKE 🌟](https://insights.project-a.com/using-github-actions-to-deploy-to-kubernetes-122c653c0b09)
 * [faun.pub: How to automate the setup of a Kubernetes cluster on GCP](https://faun.pub/how-to-automate-the-setup-of-a-kubernetes-cluster-on-gcp-e97918bf41de) Using Ansible to install, setup, and configure a Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
 * [Kubernetes Cloud DNS](https://cloud.google.com/kubernetes-engine/docs/how-to/cloud-dns#vpc_scope_dns) GCP now makes it easy to query DNS for Kubernetes services across multiple clusters from anywhere inside the VPC! The less stuff users have to run in their clusters, the more they can use for their own apps. It was always problematic to make users admin their own DNS.
+* [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model/) I look at a new managed service that provisions cloud-native services as if they were k8s resources.
 
 ## Anthos. Google's Hybrid And Multi-Cloud Platform
 - [Anthos 🌟](https://cloud.google.com/anthos/)

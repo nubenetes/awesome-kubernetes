@@ -79,6 +79,4 @@
 
 <center>
 <iframe src="https://www.youtube.com/embed/78wvDIK5Hys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLOspHqNVtKABCyZQ2sDrZ2glJlBWzCpXV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>

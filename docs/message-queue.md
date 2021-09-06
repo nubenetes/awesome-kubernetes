@@ -63,6 +63,9 @@
 - [dzone: Why Pub/Sub Isn’t Enough for Modern Apps](https://dzone.com/articles/why-pubsub-isnt-enough-for-modern-apps) Pub/Sub is the most appropriate way of architecting the delivery side of an event-driven architecture (especially for the web).
 - [baeldung.com: Pub-Sub vs. Message Queues 🌟](https://www.baeldung.com/pub-sub-vs-message-queues)
 - [engineering.atspotify.com: Spotify’s Event Delivery – The Road to the Cloud (Part I)](https://engineering.atspotify.com/2016/02/25/spotifys-event-delivery-the-road-to-the-cloud-part-i/)
+- [medium: Monolithic to Microservices Architecture with Patterns & Best Practices 🌟](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)
+- [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/)
+- [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.
  
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
@@ -238,7 +241,12 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dzone: Next-Gen Data Pipes With Spark, Kafka and k8s 🌟](https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s) This article examines the architecture patterns and provides some sample code for the readers to implement in their own environment.
 - [github.com/lensesio/fast-data-dev (Lenses Box)](https://github.com/lensesio/fast-data-dev) Kafka Docker for development. Kafka, Zookeeper, Schema Registry, Kafka-Connect, Landoop Tools, 20+ connectors. A apachekafka docker image that actually works without zookeeper. If you don't want do deal with docker-compose this one is for you.
 - [confluent.io: Making Apache Kafka Serverless: Lessons From Confluent Cloud](https://www.confluent.io/blog/designing-an-elastic-apache-kafka-for-the-cloud/)
-- [developer.confluent.io 🌟🌟](https://developer.confluent.io/) over ten hours of FREE video Cámara de cine courses with hands-on exercises, 50+ event streaming patterns, deep-dive articles on Kafka's internals, and a ton more Estrellas en los ojos
+- [developer.confluent.io 🌟🌟](https://developer.confluent.io/) over ten hours of FREE video courses with hands-on exercises, 50+ event streaming patterns, deep-dive articles on Kafka's internals, and a ton more.
+- [itnext.io: Sending Messages to Kafka in Kubernetes](https://itnext.io/sending-messages-to-kafka-cfb5a246f5eb)
+- [cloudhut.dev: Running Apache Kafka on Kubernetes successfully](https://cloudhut.dev/blog/2021-06-24-running-kafka-on-kubernetes/) A comparison for different installation methods for running Kafka in Kubernetes
+- [developers.redhat.com: The outbox pattern with Apache Kafka and Debezium 🌟](https://developers.redhat.com/articles/2021/09/01/outbox-pattern-apache-kafka-and-debezium)
+- [towardsdatascience.com: Overview of UI Tools for Monitoring and Management of Apache Kafka Clusters](https://towardsdatascience.com/overview-of-ui-tools-for-monitoring-and-management-of-apache-kafka-clusters-8c383f897e80)
+- [analyticsindiamag.com: How Uber is Leveraging Apache Kafka For More Than 300 Micro Services](https://analyticsindiamag.com/how-uber-is-leveraging-apache-kafka-for-more-than-300-micro-services/)
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)
@@ -250,6 +258,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [pepy.tech/project/strimzi-kafka-cli 🌟](https://pepy.tech/project/strimzi-kafka-cli) - [pypi.org/project/strimzi-kafka-cli](https://pypi.org/project/strimzi-kafka-cli/)
 - [strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider for Apache Kafka](https://github.com/strimzi/kafka-kubernetes-config-provider) Apache Kafka supports pluggable configuration providers which can load configuration data from external sources. The configuration providers in this repo can be used to load data from Kubernetes Secrets and Config Maps. It can be used in all Kafka components and does not depend on the other Strimzi components. So you could, for example, use it with your producer or consumer applications even if you don't use the Strimzi operators to provide your Kafka cluster. One of the example use-cases is to load certificates or JAAS configuration from Kubernetes Secrets.
 - [strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps](https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps/)
+- [strimzi.io: Using HTTP Bridge as a Kubernetes sidecar](https://strimzi.io/blog/2021/08/18/using-http-bridge-as-a-kubernetes-sidecar/)
+- [strimzi.io: Using Open Policy Agent with Strimzi and Apache Kafka](https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
@@ -278,8 +288,10 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
 - [Redpanda 🌟](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
+- [hub.docker.com/r/vectorized/redpanda](https://hub.docker.com/r/vectorized/redpanda) Easy Docker experience to use VectorizedIO Redpanda in a container. Streaming platform for mission critical workloads, Kafka compatible, no Zookeeper, no JVM, no code changes required - 10x faster.
 - [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/) 
 - [softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟](https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego/)
+
 
 #### KsqlDB
 - [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.

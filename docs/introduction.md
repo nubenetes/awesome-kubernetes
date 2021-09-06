@@ -1,5 +1,6 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Disaster Recovery](#disaster-recovery)
 - [Cloud Automation](#cloud-automation)
 - [Microservice Patterns](#microservice-patterns)
 - [Cloud Migration Checklist](#cloud-migration-checklist)
@@ -20,6 +21,7 @@
 - [Software Development Tools](#software-development-tools)
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
 - [Multi Cloud](#multi-cloud)
+- [Low Code and No Code](#low-code-and-no-code)
 
 ## Introduction
 * [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
@@ -126,6 +128,20 @@
 * [acloudguru.com: 7 Common Cloud Adoption Mistakes (ebook)](https://go.acloudguru.com/cloud-adoption-mistakes-ebook)
 * [medium: What is microservices and why is it different? 🌟](https://medium.com/microservices-for-net-developers/what-is-microservices-and-why-is-it-different-fac017cb8cf4)
 * [dzone: How Your Application Architecture Has Evolved 🌟🌟](https://dzone.com/articles/how-your-application-architecture-evolved) In this post, I will discuss how application architecture, in my opinion, has evolved in the last few years and what has been the driving factor for each evolution.
+* [simform.com: 6 Multi-Cloud Architecture Designs for an Effective Cloud Strategy 🌟](https://www.simform.com/blog/multi-cloud-architecture/)
+* [dzone: A Study of Hosting and Managing on Hybrid Multi-Cloud 🌟](https://dzone.com/articles/a-study-of-hosting-and-managing-on-hybrid-multi-cl) This is my study of a real customer use case on GitOps, multi-cloud management system and, securing dynamic infrastructure secrets, using Red Hat’s open source technology
+* [simform.com: Cloud Migration ebook](https://www.simform.com/cloud-migration-ebook/)
+* [blog.snapblocs.com: Architecture as a Service: The Evolution of Cloud Computing “as a Service”](https://www.blog.snapblocs.com/post/architecture-as-a-service-theevolution-of-cloud-computing-asaservice)
+* [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt/)
+* [fylamynt.com: Mastering Cloud Automation in the Cloud-Native Era 🌟](https://www.fylamynt.com/post/mastering-cloud-automation-in-the-cloud-native-era) As cloud computing is increasingly getting adopted all over, automation is taking a prime stage these days in the cloud-native space to streamline and manage various IT-related tasks. In this article, we will discuss cloud automation and various aspects related in brief.
+* [dynatrace.com: What are microservices? All you need to know](https://www.dynatrace.com/news/blog/what-are-microservices/)
+* [medium: Monoliths vs Microservices](https://medium.com/getdefault-in/monoliths-vs-microservices-59cff20bb106)
+* [dzone: Guaranteed Ways of Failing With Microservices](https://dzone.com/articles/guaranteed-ways-of-failing-with-microservices) Microservices cannot be used in every context. It is perfectly fine to not use microservices in applications that are small and can be managed easily as monolithic.
+* [dzone: Top 6 Time Wastes as a Software Engineer](https://dzone.com/articles/top-time-wastes-as-a-software-engineer) Increase your productivity and advance in your career by avoiding these 6 time wastes.
+* [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy/)
+* [developers.redhat.com: devnation/summer-camp 🌟](https://developers.redhat.com/devnation/summer-camp) A great resource to learn cloud-native, kubernetes, event-driven architecture and more.
+* [community.hpe.com: Containers vs. VMs: What’s the difference?](https://community.hpe.com/t5/HPE-Ezmeral-Uncut/Containers-vs-VMs-What-s-the-difference/ba-p/7147090)
+* [hiralee.medium.com: Software Architecture vs Design](https://hiralee.medium.com/software-design-vs-architecture-1da0a94322a4)
 
 <center>
 [![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
@@ -134,6 +150,9 @@
 
 [![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
 </center>
+
+## Disaster Recovery
+* [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
 
 ## Cloud Automation
 * [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed/) DevOps has an automation problem, while agile has an identification problem. Both face organizational problems. Both are needed in the digital transformation shaping the months ahead.
@@ -242,6 +261,16 @@
 [![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
 </center>
 
+## Low Code and No Code
+- [dzone: Low-Code, the Silent Revolution](https://dzone.com/articles/low-code-the-silent-revolution) For years I have made bold statements about Software Automation. Today we've got research more or less proving that most of what I claimed was true.
+- [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles) See the 10 most popular articles on Low-Code with topics covering Low-Code introduction, building an application with Low-Code, comparison with Microservices, a smack-down with pro-code, and more!
+- [dzone: No-Code and Low-Code Development: The Ultimate Dev Time-Saver](https://dzone.com/articles/no-code-low-code-development-ultimate-time-saver) By applying low code, save 90% or more of your time
+- [dzone: Low Code and No-Code Considerations](https://dzone.com/articles/low-code-and-no-code-considerations)
+- [sdtimes.com: Low code cuts down on dev time, increases testing headaches](https://sdtimes.com/lowcode/low-code-cuts-down-on-dev-time-increases-testing-headaches/)
+- [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams/)
+- [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) Prepare for hard times or move to where the sun is shining
+- [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/)
+
 <center>
 <iframe src="https://www.youtube.com/embed/Q6i0LK4vHsU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -258,4 +287,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everyone sensible in IT has been saying for years that if you buy COTS (commercial off-the-shelf software packages) you shouldn’t customize it - it’s wildly expensive and you end up with something hard to maintain and almost impossible to upgrade.</p>&mdash; Jez Humble (@jezhumble) <a href="https://twitter.com/jezhumble/status/1422924762750210049?ref_src=twsrc%5Etfw">August 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">COTS is for business processes that aren’t strategic to your org. So you should MODIFY YOUR BUSINESS PROCESS TO FIT WHAT THE SOFTWARE DOES OUT OF THE BOX! Sorry for shouting, I’m old.</p>&mdash; Jez Humble (@jezhumble) <a href="https://twitter.com/jezhumble/status/1422924763647778821?ref_src=twsrc%5Etfw">August 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The top 5 most widely used Cloud platforms according to the Stack Overflow Developer survey 2021:<br><br>1. AWS - 59%<br>2. Azure - 32% <br>3. GCP - 29%<br>4. Heroku - 21%<br>5. DigitalOcean - 18% <a href="https://t.co/56cqg70gZo">pic.twitter.com/56cqg70gZo</a></p>&mdash; Danny  (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1430390741583290375?ref_src=twsrc%5Etfw">August 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

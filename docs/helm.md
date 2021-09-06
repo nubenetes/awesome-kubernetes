@@ -70,6 +70,7 @@
 * [betterprogramming.pub: 6 Tips for Creating Helm Charts in Kubernetes Applications](https://betterprogramming.pub/6-tips-for-creating-helm-charts-in-kubernetes-applications-452a37446f31) Build, maintain, and control Helm chart releases with fewer bugs and code issues
 * if you're having either https://github.com/helm/helm/issues/10005 or https://github.com/helm/helm/issues/10004, it's because the older Helm 2 backing store is finally gone. You REALLY should upgrade to Helm 3, and now. You're risking your security more than you should.
 * [medium: Kubernetes Deployment using Helm Charts and Krane 🌟](https://medium.com/groupon-eng/kubernetes-deployment-using-helm-charts-and-krane-e0100b55d00c)
+* [cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators](https://cloud.redhat.com/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators)
 
 ## Helm Chart Documentation
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)

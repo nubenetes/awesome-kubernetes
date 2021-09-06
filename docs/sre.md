@@ -40,6 +40,7 @@
 - [stackpulse.com: No, SRE Is Not the New DevOps – Unless It Is](https://stackpulse.com/blog/no-sre-is-not-the-new-devops-unless-it-is/)
 - [youtube: Viktor Farcic - What is the difference between SRE and DevOps?](https://www.youtube.com/watch?v=jgW4r9FxItI&ab_channel=DevOpsToolkitbyViktorFarcic)
 - [dzone: Remote server management - Common architectural elements](https://dzone.com/articles/remote-server-management-common-architectural-elem)
+- [dzone: Upcoming Trends in DevOps and SRE in 2021](https://dzone.com/articles/upcoming-trends-in-devops-and-sre) DevOps and SRE are domains with rapid growth and frequent innovations. With this blog you can explore the latest trends in DevOps, SRE and stay ahead of the curve.
 
 ## SRE Tools
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)

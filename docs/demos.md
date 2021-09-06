@@ -101,6 +101,7 @@
 * [towardsdatascience.com: Developing and Deploying a COMPLETE Project Using FastAPI, Jinja2, SQLAlchemy, Docker, and AWS](https://towardsdatascience.com/developing-and-deploying-a-complete-project-using-fastapi-jinja2-sqlalchemy-docker-and-aws-1b504a1a2be4)
 * [dzone: Docker Image Tutorial](https://dzone.com/articles/docker-image-tutorial) In this tutorial, see how to build and run a Docker image using Python code examples.
 * [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example/)
+* [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE. Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 
 ### Container Tools
 - [dzone Avengers of the Container World, Episode 1: Podman Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands) CRI-O and Podman have been widely adapted by most of the modern container platforms. In this blog, we will deep-dive on Podman with a hands-on session.
@@ -166,6 +167,7 @@
 * [sj14.gitlab.io: Deploy a free Kubernetes cluster in the cloud](https://sj14.gitlab.io/post/2021/01-30-free-k8s-cloud-cluster/)
 * [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes/)
 * [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
+* [github.com/developer-guy: Set up HA k3s cluster on DigitalOcean using Terraform + Ansible](https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean)
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
@@ -283,6 +285,7 @@
 * [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift 
 * [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/)
 * [developers.redhat.com: Build lean Java containers with the new Red Hat Universal Base Images OpenJDK runtime images 🌟](https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime)
+* [youtube: No YAML! Kubernetes done the easy way | DevNation Tech Talk](https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper)
 
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
@@ -402,6 +405,7 @@
     * [medium: Building CI/CD Pipeline with Jenkins, Kubernetes & GitHub: Part 2 🌟](https://medium.com/the-programmer/building-ci-cd-pipeline-with-jenkins-kubernetes-github-part-2-cbb6c366aa41) How To Configure Jenkins To Build Your CI CD Pipeline?
 * [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)
 * [devopscube.com: How to Setup Jenkins Build Agents on Kubernetes Cluster 🌟](https://devopscube.com/jenkins-build-agents-kubernetes/)
+* [medium: Deploy Docker Image To Kubernetes Cluster Using Jenkins 🌟](https://medium.com/codex/deploy-docker-image-to-kubernetes-cluster-using-jenkins-8182cc0a8de7) This article explains the complete DevOps pipeline setup from creating project to deploying the Docker image to Kubernetes cluster using Jenkins.
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -507,6 +511,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
 - [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
 - [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane/)
+- [armory.io: Git Pull Support in Spinnaker](https://www.armory.io/blog/git-pull-support-in-spinnaker)
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes
@@ -570,6 +575,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [medium: Fetch Application Inventory using Systems Manager](https://medium.com/cloud-techies/application-inventory-using-system-manager-f3eeb75d3279) Get application inventory from each EC2 instance and store it in centralized account S3 bucket. To query the information from s3 bucket, we are integrating Glue, Athena (from another account).
 - [youtube: Build a Music Sharing App with Amazon S3 and AWS Amplify](https://www.youtube.com/watch?v=6W2TuBDaaiI&ab_channel=AliSpittel)
 - [freecodecamp.org: How to Deploy a React App to Production Using Docker and NGINX with API Proxies](https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production/)
+- [itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f) Import data from Amazon RDS into Amazon S3 using Amazon MSK, Apache Kafka Connect, Debezium, Apicurio Registry, and Amazon EKS
 
 ## Azure DevOps Demos
 - [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs 🌟](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
@@ -591,6 +597,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## SpringBoot Demos
 - [javatechonline.com: How To Deploy Spring Boot Application In Docker?](https://javatechonline.com/how-to-deploy-spring-boot-application-in-docker/)
 - [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://tanzu.vmware.com/developer/guides/kubernetes/app-enhancements-spring-k8s/)
+- [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) Workshop-style guide for rearchitecting a Java Monolith application to a Cloud Native architecture running in Kubernetes
+- [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)
 
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
@@ -599,6 +607,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Kafka
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
 - [towardsdatascience.com: Kafka, for your data pipeline? Why not?](https://towardsdatascience.com/kafka-for-your-data-pipeline-why-not-5a14b50efe7f)
+- [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing ](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
 
 ## Apache Camel & ActiveMQ. Event driven integration
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda/)
@@ -618,9 +627,11 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [betterprogramming.pub: Create an Amazon EKS Fargate Cluster and Managed Node Group Using Terraform](https://betterprogramming.pub/with-latest-updates-create-amazon-eks-fargate-cluster-and-managed-node-group-using-terraform-bc5cfefd5773) Serverless clusters and HashiCorp’s Terraform on AWS
 - [azapril.dev: Deploying a LogicApp with Terraform (Bonus: in an AzDO pipeline)](https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform/)
 - [k21academy.com: Automate AWS Virtual Machine using Terraform – Creation Demo](https://k21academy.com/terraform-iac/terraform-automate-aws-vm/)
+- [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).
+- [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices/)
 
 ## GitHub Actions
 - [linkedin: Test Automation - How To Build a CI/CD Pipeline Using Pytest and GitHub Actions](https://www.linkedin.com/pulse/test-automation-how-build-cicd-pipeline-using-pytest-nir-tal/)

@@ -49,4 +49,5 @@
 | [VMware vSphere 7 with Kubernetes](https://www.vmware.com/products/vsphere.html)| SRE / DevOps | VMware Kubernetes | vSphere | Yes | Yes | Yes | No | No | Yes | Yes | VMware's kubernetes | 
 | [VMware Kubernetes Tanzu (PKS renamed)](https://cloud.vmware.com/tanzu)| SRE / DevOps | VMware Kubernetes | vSphere, multi-cloud, public-cloud | Yes | Yes | Yes | No | No | Yes | Yes | Embed kubernetes natively into vSphere. Competes with OpenShift. | 
 | [Mirantis Docker Enterprise 3.1+ with Kubernetes](https://www.mirantis.com/software/docker/docker-enterprise/)| SRE / DevOps | Mirantis Kubernetes | multi-cloud, private & public cloud | Yes | Yes | Yes | No | No | Yes | Yes | Istio, Windows and Linux Worker nodes| 
+| [KubeZero - ZeroDownTime](https://zero-downtime.net/) |  |  |  |  |  |  |  |  |  |  | | 
 |====================================|==================|======================|==========================|  |  |  |  |  |  |  |=============================================|==============================================================================|

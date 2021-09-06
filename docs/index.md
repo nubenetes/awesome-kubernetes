@@ -41,7 +41,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
-## Site Reliability Engineering (SRE)
+## SRE Site Reliability Engineering 
 - [Site Reliability Engineering (SRE)](sre.md)
 ## DevOps
 - [DevOps 🌟](devops.md)

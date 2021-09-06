@@ -37,6 +37,7 @@
 * [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 1](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-1/)
 	* [blog.testproject.io: Getting Started with Maven in Less Than 10 Minutes – Part 2](https://blog.testproject.io/2021/06/28/getting-started-with-maven-part-2/)
 * Maven 3.8.2 is available now! It contains several fixes and non invasive backports from the Maven 4 branch. 
+* [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)

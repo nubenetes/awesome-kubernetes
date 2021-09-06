@@ -117,6 +117,10 @@
 * [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/)
 * [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
 * [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
+* [blog.annamcdougall.com: Git Workflow Tutorial: Start Using Git TODAY with Basic Git Commands](https://blog.annamcdougall.com/git-workflow-tutorial-start-using-git-today-with-basic-git-commands-ckdc1nvfs02zp66s1d4zydz47)
+* [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects/)
+* [netflixtechblog.medium.com: Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65)
+* [cloudsavvyit.com: How to Use Git Hooks For Commit Automation 🌟](https://www.cloudsavvyit.com/14036/how-to-use-git-hooks-for-commit-automation/)
 
 ## Git Interview Questions
 - [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
@@ -153,6 +157,7 @@ It prescribes that software designers should define formal, precise and verifiab
 * [speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
 * [Dzone: Git Branch Naming Conventions](https://dzone.com/articles/git-branch-naming-conventions-1) A primer on naming branches for modern git workflows.
 * [gitkraken.com: Branching in Git 🌟](https://www.gitkraken.com/learn/git/branch)
+* [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git/)
 
 <center>
 <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
@@ -306,6 +311,8 @@ git push origin -f
     * GH Desktop
     * GH CLI
     * Physical keys
+* [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7)
+* [github.blog: GitHub CLI 2.0 includes extensions!](https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

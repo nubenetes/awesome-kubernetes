@@ -26,6 +26,7 @@
 - [Terraform Quality Checks](#terraform-quality-checks)
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 - [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
+- [Terraform Tools](#terraform-tools)
 
 ## Packer
 * [packer.io](https://packer.io/)
@@ -136,6 +137,9 @@
 * [about.gitlab.com: How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/)
 * [opensource.com: My top 5 tips for setting up Terraform 🌟](https://opensource.com/article/21/8/terraform-tips) These are the lessons I've learned after five years with Terraform.
 * [bridgecrew.io: Terraform security 101: Best practices for secure infrastructure as code 🌟](https://bridgecrew.io/blog/terraform-security-101-best-practices-for-secure-infrastructure-as-code/)
+* [rpadovani.com: How to make Terraform waiting for cloud-init to finish on EC2 without SSH](https://rpadovani.com/terraform-cloudinit) Terraform is a powerful tool. However, it has some limitations: since it uses AWS APIs, it doesn’t have a native way to check if an EC2 instance has completed to run cloud-init before marking it as ready. A possible workaround is asking Terraform to SSH on the instance, and wait until it is able to perform a connection before marking the instance as ready.
+* [hashicorp.com: Cisco, Citrix, and Fortinet Among New Verified Terraform Providers](https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers)
+* [terraform-best-practices.com 🌟](https://www.terraform-best-practices.com/)
 
 ### HCL
 * [github.com/hashicorp/hcl: HCL](https://github.com/hashicorp/hcl) HCL is the HashiCorp configuration language.
@@ -259,6 +263,14 @@
 
 ## Reverse terraform with Terraformer 
 - [github.com/GoogleCloudPlatform/terraformer 🌟](https://github.com/GoogleCloudPlatform/terraformer) A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform).
+
+## Terraform Tools
+- [Brainboard 🌟](https://www.brainboard.co/) Interesting solution for building infrastructure visually before generating terraform code automatically from the designed architecture 
+- [terrascan 🌟](https://runterrascan.io/) Use terrascan to detect compliance and security violations
+- [tfsec 🌟](https://tfsec.dev) a static analysis security scanner for your Terraform code
+	* [youtube: Using tfsec and Jenkins to Secure Your Terraform Code](https://www.youtube.com/watch?v=hbMVGEw0HpE&ab_channel=CloudBeesTV)
+	* https://github.com/darinpope/jenkins-example-terraform
+	* https://www.jenkins.io/changelog-stable/#v2.289.3 
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m getting questions about Terraform vs Kubernetes for managing infrastructure resources.<br><br>I make the distinction by treating Terraform as a frontend tool that interacts with control planes that present **its** resources through a declarative interface. Ownership is key.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1329552116638117889?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

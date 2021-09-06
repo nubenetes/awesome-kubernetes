@@ -24,6 +24,7 @@
 - [API Security](#api-security)
 - [Free Web Services (Public APIs)](#free-web-services-public-apis)
 - [Open Banking](#open-banking)
+- [RPA](#rpa)
 - [Related](#related)
 - [Video APIs](#video-apis)
 - [API Business Models](#api-business-models)
@@ -135,6 +136,7 @@
 * [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter)
 * [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/)
 * [microcks.io 🌟](https://microcks.io/) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging/)
+* [tricentis.com: Getting started with automated continuous performance testing](https://www.tricentis.com/blog/automated-continuous-performance-testing)
  
 
 <center>
@@ -168,6 +170,9 @@
 ## Open Banking
 - [Open Banking](https://en.wikipedia.org/wiki/Open_banking)
 - [thenewstack.io: A Digital Transformation Journey in the Banking Sector](https://thenewstack.io/a-digital-transformation-journey-in-the-banking-sector/)
+
+## RPA
+- [thenewstack.io: True Success in Process Automation Requires Microservices](https://thenewstack.io/true-success-in-process-automation-requires-microservices/)
 
 ## Related
 - [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)

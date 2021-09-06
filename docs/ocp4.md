@@ -130,6 +130,9 @@
 * [cloud.redhat.com: Getting Started in OpenShift 🌟](https://cloud.redhat.com/blog/getting-started-in-openshift)
 * [redhat.com: Simplify application management in Kubernetes environments (ebook)](https://www.redhat.com/en/resources/simplify-app-management-in-kuberentes-e-book) Automation is at the core of cloud-native application development and deployment. Helm and Kubernetes Operators are two popular choices for automating the management of application and infrastructure software within your Kubernetes environment. These tools help to improve developer productivity, simplify application deployment and streamline updates and upgrades. Red Hat OpenShift supports both of these automation technologies, helping you to increase speed, efficiency, and scale and deliver a better user experience.
 * [cloud.redhat.com: OpenShift Sandboxed Containers 101 🌟](https://cloud.redhat.com/blog/openshift-sandboxed-containers-101)
+* [thenewstack.io: IBM, Red Hat Bring Load-Aware Resource Management to Kubernetes](https://thenewstack.io/ibm-red-hat-bring-load-aware-resource-management-to-kubernetes/)
+    * [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) Trimaran is a collection of load-aware scheduler plugins
+* [developers.redhat.com: Composable software catalogs on Kubernetes: An easier way to update containerized applications](https://developers.redhat.com/articles/2021/08/20/composable-software-catalogs-kubernetes-easier-way-update-containerized)
 
 ### OpenShift sizing and subscription guide
 - [redhat.com: OpenShift sizing and subscription guide for enterprise Kubernetes 🌟](https://www.redhat.com/en/resources/openshift-subscription-sizing-guide-detail)

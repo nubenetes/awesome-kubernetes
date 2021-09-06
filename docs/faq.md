@@ -16,6 +16,11 @@
 - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)
 - [Dzone: Containerization in 2020](https://dzone.com/articles/containerization-in-2020) Let's look at how containerization has changed enterprise development in the past few years and what developers should know when considering a container strategy.
 - [shekhargulati.com: Service Discovery for Modern Distributed Applications](https://shekhargulati.com/2018/08/01/week-1-service-discovery-for-modern-distributed-applications/)
+- [infoq.com: Pitfalls and Patterns in Microservice Dependency Management](https://www.infoq.com/articles/pitfalls-patterns-microservice-dependency-management/)
+- [dev.to: Microservice Roadmap](https://dev.to/majidqafouri/microservice-roadmap-4mci)
+- [clickittech.com: Microservices vs Monolith 🌟](https://www.clickittech.com/devops/microservices-vs-monolith/)
+- [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559) An in-depth look at an architectural pattern that will suit the majority of small- to medium-sized companies
+- [thenewstack.io: Microservices: Align the Pain with the Solution](https://thenewstack.io/microservices-align-the-pain-with-the-solution/)
 
 ## History of Microservices
 - [History of Microservices](https://bit.ly/kubeappserver)

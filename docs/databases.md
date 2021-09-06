@@ -69,6 +69,8 @@
 * [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures/)
 * [dev.to: Introduction Migrations](https://dev.to/mahmoudessa/introduction-migrations-8me)
 * [medium: Not using trendy technologies is the best thing for your Startup!](https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0) I refused to use MongoDB and I convinced my company to use a SQL relational database system.
+* [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth/)
+* [cloud.redhat.com: OpenShift Commons Briefing: Database Disaster Recovery Made Easy with Annette Clewett (Red Hat) and Andrew L'Ecuyer (Crunchy Data)](https://cloud.redhat.com/blog/openshift-commons-briefing-database-disaster-recovery-made-easy-with-annette-clewett-red-hat-and-andrew-lecuyer-crunchy-data)
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
@@ -84,6 +86,7 @@
 * [towardsdatascience.com: Understanding the Relational Model of Database Management Systems 🌟](https://towardsdatascience.com/understanding-the-relational-model-of-database-management-systems-56f17db99f56)
 * [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.openshift.com/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift) 
 * [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
+* [stackexchange.com/performance 🌟](https://stackexchange.com/performance)
 
 [![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
 
@@ -828,6 +831,8 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [opensource.com](https://opensource.com/article/21/5/mysql-query-tuning) Tune your MySQL queries like a pro. Optimizing your queries isn't a dark art; it's just simple engineering.
 - [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/2021/06/23/mysql-on-kubernetes-with-gitops/)
 - [Moco](https://cybozu-go.github.io/moco/) MOCO is a Kubernetes operator for MySQL created and maintained by Cybozu.
+- [cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container](https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container/)
+- [percona.com: Storing JSON in Your Databases: Tips and Tricks For MySQL Part One](https://www.percona.com/blog/storing-json-in-your-databases-tips-mysql/)
 
 ## MariaDB
 - [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java/)
@@ -844,6 +849,8 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://blog.crunchydata.com/blog/generating-json-directly-from-postgres)
 - [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
 - [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac 
+- [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset/)
+- [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://blog.crunchydata.com/blog/d-meta)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
@@ -881,4 +888,6 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Postgres is what happens when tech gets so good, for so long, it becomes boring. Dope since the 80s. <a href="https://t.co/zeoagBfMvW">https://t.co/zeoagBfMvW</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1343617588262096896?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stack Overflow&#39;s SQL Server is at 4% CPU with 500M queries/day <a href="https://t.co/wX9Od749ik">https://t.co/wX9Od749ik</a> <a href="https://t.co/1BAuEV9VgT">https://t.co/1BAuEV9VgT</a></p>&mdash; Lukas Eder (@lukaseder) <a href="https://twitter.com/lukaseder/status/1428025568461737996?ref_src=twsrc%5Etfw">August 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

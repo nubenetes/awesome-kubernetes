@@ -26,6 +26,7 @@
 - [Secrets Management](#secrets-management)
 	- [Store private data in git repo](#store-private-data-in-git-repo)
 	- [HashiCorp Vault](#hashicorp-vault)
+	- [Azure Key Vault to Kubernetes akv2k8s](#azure-key-vault-to-kubernetes-akv2k8s)
 	- [CyberArk and Ansible](#cyberark-and-ansible)
 	- [CyberArk Conjur](#cyberark-conjur)
 	- [SOPS for Kubernetes](#sops-for-kubernetes)
@@ -85,6 +86,10 @@
 - [thenewstack.io: Where Are You on the DevSecOps Maturity Curve?](https://thenewstack.io/where-are-you-on-the-devsecops-maturity-curve/)
 - [thenewstack.io: The Top 5 Secrets Management Mistakes and How to Avoid Them](https://thenewstack.io/the-top-5-secrets-management-mistakes-and-how-to-avoid-them/)
 - [arsouyes.org: PKCS, pem, der, key, crt,...](https://www.arsouyes.org/en/blog/2021/2021-06-21_PKCS_pem_der_key_crt) Interesting read on security and ssl/tls certificates
+- [torq.io: 5 Security Automation Examples for Non-Developers](https://torq.io/blog/5-security-automation-examples-for-non-developers/)
+- [infoq.com: Serverless Security: What's Left to Protect?](https://www.infoq.com/articles/serverless-security/)
+- [dqindia.com: Secure your CI/CD pipeline with these tips from experts](https://www.dqindia.com/secure-cicd-pipeline-tips-experts/)
+- [thenewstack.io: The DevSecOps Skillsets Required for Cloud Deployments](https://thenewstack.io/the-devsecops-skillsets-required-for-cloud-deployments/)
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -155,6 +160,7 @@
 
 ## Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images
 - [trivy](https://github.com/aquasecurity/trivy) A Simple and Comprehensive Vulnerability Scanner for Container Images, Git Repositories and Filesystems. Suitable for CI
+- [returngis.net: Buscar vulnerabilidades en imágenes de Docker con Snyk](https://www.returngis.net/2021/09/buscar-vulnerabilidades-en-imagenes-de-docker-con-snyk/)
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
 - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
@@ -201,6 +207,11 @@
 - [sops: Simple and flexible tool for managing secrets 🌟](https://github.com/mozilla/sops)
 - [jenkins-x.io: Setting up the secrets for your installation](https://jenkins-x.io/v3/admin/setup/secrets/) Jenkins X 3.x uses Kubernetes External Secrets to manage populating secrets from your underlying secret store.
 - [medium: AWS Secret Manager: Protect sensitive information and functionality 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4) Protect Your Secrets in ApplicationsSecrets are frequently used to protect sensitive information and functionality.
+- [fpcomplete.com: Announcing Amber, encrypted secrets management](https://www.fpcomplete.com/blog/announcing-amber-ci-secret-tool/)
+- [jfrog.com: How to protect your secrets with Spectral and JFrog Pipelines](https://jfrog.com/blog/how-to-protect-your-secrets-with-spectral-and-jfrog-pipelines/)
+- [github.com/keilerkonzept/aws-secretsmanager-files](https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files) Writes AWS Secrets Manager secrets to files on disk. Single binary, no dependencies. osx & linux & windows.
+- [medium: How to Handle Secrets Like a Pro Using Gitops](https://medium.com/containers-101/how-to-handle-secrets-like-a-pro-using-gitops-f3b812536434)
+- [youtube: Which of your Kubernetes Apps are accessing Secrets? 🌟](https://www.youtube.com/watch?v=6UF-QxiRGms&ab_channel=Kubevious) How do you know which apps across all your clusters are using Kubernetes Secrets? How are you sure that your secrets are not leaking? In the next 5 minutes, you will learn right that. 
 
 ### Store private data in git repo
 - [git-secret.io](https://git-secret.io/)
@@ -239,6 +250,10 @@
 - [devopscube.com: Vault Agent Injector Tutorial: Inject Secrets to Pods Using Vault Agent](https://devopscube.com/vault-agent-injector-tutorial/)
 - [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)
 - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
+- [igorzhivilo.com: Scheduled backup of Vault secrets with Jenkins on Kubernetes](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/) If you ever wondered how to save the secrets of HashiCorp's Vault on a daily basis.
+
+### Azure Key Vault to Kubernetes akv2k8s
+- [akv2k8s.io 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
@@ -281,6 +296,7 @@
 - [about.gitlab.com: How to secure your container images with GitLab and Grype](https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/) - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype)
 - [sigstore.dev](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
 	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
+- [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) validate the structure of your container images
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.
@@ -296,7 +312,8 @@
 ## Kubernetes Security Tools 
 - [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes)
 - [Pomerium](https://github.com/pomerium/pomerium) is an identity-aware proxy that enables secure access to internal applications. Pomerium brings consistent authz/authn, tooling, and auditing across cloud and on-premise deployments. No VPN or cloud provider account is required
-
+- [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://cloud.redhat.com/blog/top-open-source-kubernetes-security-tools-of-2021)
+  
 ## Helm Charts Security
 - [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1) Or, how to deploy 25+ CVEs to prod in one command!
 

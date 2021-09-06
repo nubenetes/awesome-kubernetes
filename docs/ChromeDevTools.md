@@ -77,5 +77,7 @@
 <iframe src="https://www.youtube.com/embed/yGTtzcfHcdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">❤️ the Performance Monitor in <a href="https://twitter.com/ChromeDevTools?ref_src=twsrc%5Etfw">@ChromeDevTools</a>. Gives you a real-time view of CPU use, JS heap size, JS event listeners, style recalcs &amp; more: <a href="https://t.co/tc6CyTya3O">https://t.co/tc6CyTya3O</a> <a href="https://t.co/BWSi8klGkE">pic.twitter.com/BWSi8klGkE</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/1280403679380561920?ref_src=twsrc%5Etfw">July 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">8 Google extensions every developer must use<br><br>A thread 🧵🧵</p>&mdash; Meet Jain🦅 (@meetjain74) <a href="https://twitter.com/meetjain74/status/1434406944932982793?ref_src=twsrc%5Etfw">September 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 

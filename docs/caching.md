@@ -65,6 +65,7 @@
 - [varnish-cache.org: Installation on RedHat](https://www.varnish-cache.org/installation/redhat)
 - [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://hitch-tls.org/)
 - [slideshare: Varnish - Tips & Tricks - 4Developers 2015](http://www.slideshare.net/piotrpasich/varnish-47199139)
+- [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04)
 
 <center>
 <div class="container">
@@ -101,6 +102,7 @@
 ## Redis
 - [redis.io](http://redis.io)
 - [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
+- [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 
 <center>
 <div class="container">

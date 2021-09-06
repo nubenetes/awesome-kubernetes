@@ -44,6 +44,7 @@
 - [Postgres](#postgres)
 - [MariaDB and mySQL](#mariadb-and-mysql)
 - [MongoDB](#mongodb)
+- [Python](#python)
 - [Go](#go)
 - [NodeJS](#nodejs)
 - [Selenium](#selenium)
@@ -67,6 +68,7 @@
 ## Bash Shell 
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
+- [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)
 
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
@@ -121,6 +123,7 @@
 * [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) Start exploring kubectl, containers, pods, and more, then download our free cheat sheet so you always have the key commands at your fingertips.
 * [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
 * [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
+* [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy/)
 
 ## Docker Cheat Sheets
 - [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
@@ -135,6 +138,8 @@
 - [intellipaat.com: Docker Cheat Sheet (2019, pdf)](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
 - [design.jboss.org/redhatdeveloper: docker CLI & Dockerfile Cheat Sheet 🌟](https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf)
 - [blog.gitguardian.com: How to improve your Docker containers security [cheat sheet included]](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
+- [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
+- [dev.to: Docker Cheatsheet](https://dev.to/ibmdeveloper/docker-command-cheatsheet-1pe8)
 
 ### Docker Swarm Cheat Sheets
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
@@ -333,6 +338,9 @@
 
 ## MongoDB
 - [developer.mongodb.com: MongoDB Cheat Sheet](https://developer.mongodb.com/quickstart/cheat-sheet)
+
+## Python
+- [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet/)
 
 ## Go
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)

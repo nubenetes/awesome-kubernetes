@@ -51,6 +51,7 @@
 * [layer5.io: The Service Mesh Landscape 🌟🌟](https://layer5.io/service-mesh-landscape) Comparison of Service Mesh Strengths
 * [blog.polymatic.systems: Service Mesh Wars, Goodbye Istio](https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7) After using Istio in production for almost 2 years, we’re saying goodbye to it. Learn why, as well as the current state of the Service Mesh Wars.
 * [thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist](https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist/)
+* [infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh](https://www.infoq.com/articles/cloud-native-architecture-adoption-part3/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

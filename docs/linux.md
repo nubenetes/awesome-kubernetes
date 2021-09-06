@@ -68,6 +68,7 @@
 - [cyberciti.biz: Top 20 OpenSSH Server Best Security Practices](https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
 - [cyberciti.biz: How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
 - [cyberciti.biz: OpenSSH Change a Passphrase With ssh-keygen command](https://www.cyberciti.biz/faq/howto-ssh-changing-passphrase/)
+- [thenewstack.io: SSH Made Easy with SSH Agent and SSH Config](https://thenewstack.io/ssh-made-easy-with-ssh-agent-and-ssh-config/)
 
 ## OpenSSL
 - [redhat.com: 6 OpenSSL command options that every sysadmin should know](https://www.redhat.com/sysadmin/6-openssl-commands) Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.
@@ -176,6 +177,9 @@
 - [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)
 - [tecmint.com: 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 - [tecmint.com: 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)
+- [tecmint.com: What’s Difference Between Grep, Egrep and Fgrep in Linux?](https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/)
+- [opensource.com: Check file status on Linux with the stat command](https://opensource.com/article/21/8/linux-stat-file-status)
+- [tecmint.com: How to Kill Linux Process Using Kill, Pkill and Killall](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
 
 ## BusyBox
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux
@@ -199,6 +203,8 @@
 - [cyberciti.biz: Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop)
 - [opensource.com: Parsing config files with Bash](https://opensource.com/article/21/6/bash-config) Separating config files from code enables anyone to change their configurations without any special programming skills.
 - [cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts/)
+- [opensource.com: How to include options in your Bash shell scripts](https://opensource.com/article/21/8/option-parsing-bash)
+- [bash.cyberciti.biz Wiki 🌟](https://bash.cyberciti.biz/guide/Main_Page)
 
 ## Zsh
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
@@ -274,9 +280,11 @@
 - [redhat.com: Learn the networking basics every sysadmin needs to know](https://www.redhat.com/sysadmin/sysadmin-essentials-networking-basics)
 - [tecmint.com: 16 Useful Bandwidth Monitoring Tools to Analyze Network Usage in Linux](https://www.tecmint.com/linux-network-bandwidth-monitoring-tools/)
 - [iximiuz.com: Illustrated introduction to Linux iptables](https://iximiuz.com/en/posts/laymans-iptables-101/)
+- [linuxteck.com: 15 basic useful firewall-cmd commands in Linux](https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux/)
 
 ## Networking Protocols
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
+- [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
 
 ---
 

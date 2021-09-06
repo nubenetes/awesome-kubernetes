@@ -87,6 +87,7 @@
     * [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-blog/how-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
     * [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
     * [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
+    * [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box, using Grafana and Tempo directly to store and visualize traces.
 * [ArgoCD](https://argoproj.github.io/argo-cd/) Declarative GitOps CD for Kubernetes
     * [Cloud Native Computing Foundation Accepts Argo as an Incubator Project](https://www.intuit.com/blog/technology/cloud-native-computing-foundation-accepts-argo-as-an-incubator-project/)
     * [openshift.com: OpenShift Authentication Integration with ArgoCD](https://www.openshift.com/blog/openshift-authentication-integration-with-argocd)

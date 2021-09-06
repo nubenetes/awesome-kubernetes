@@ -150,6 +150,12 @@
 * [forbes.com: DevOps: What You Need To Know 🌟](https://www.forbes.com/sites/tomtaulli/2021/07/16/devops-what-you-need-to-know)  The future of DevOps according to CloudBees' CEO: **"no company should re-write code that you can repeat through automation.”**
 * [zdnet.com: Stop calling DevOps teams 'DevOps teams' 🌟🌟](https://www.zdnet.com/article/stop-calling-devops-teams-devops-teams/) Latest Puppet survey finds DevOps teams actually have a variety of roles that are more in line with business goals.
 * [puppet.com: The 2021 State of DevOps Report is here! 🌟](https://puppet.com/resources/report/2021-state-of-devops-report/)
+* [devops.com: Yeah, You’re Doing DevOps](https://devops.com/yeah-youre-doing-devops/)
+* [infoq.com: How External IT Providers Can Adopt DevOps Practices 🌟](https://www.infoq.com/news/2021/08/external-IT-providers-devops/)
+* [chaossearch.io: 9 Essential DevOps Tools for 2021](https://www.chaossearch.io/blog/essential-devops-tools)
+* [devopsonline.co.uk: The role of Automation in DevOps](https://www.devopsonline.co.uk/the-role-of-automation-in-devops/)
+* [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation/)
+* [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/sites/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -202,6 +208,7 @@
 - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
 - [reviewnprep.com: DevOps Tool Primer: Docker, Kubernetes, Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
+- [ASDF 🌟](https://asdf-vm.com/) Manage multiple runtime versions with a single CLI tool
 
 ### Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
 - [Keptn](https://www.keptn.sh) provides **automated SLI/SLO-based quality gates** Introduction to Data Driven DevOps Automation. Keptn is a CNCF sandbox project and aims to automate delivery and operational processes using a data-driven approach. Keptn’s architecture solves a key problem with traditional automation tools where process and tool integrations are often hard coded or hard to maintain. Keptn uses an event-driven orchestrator with declarative process and tooling definitions that eliminate the need for any custom tool integration and make changing processes or tools a matter of changing a config file entry! At the core Keptn integrates with your observability platforms to automate SRE best practices such as SLO validation as part of your DevOps delivery and operations automation. Start automating your DevOps processes with Keptn to cover SLO-based Quality Gates, Performance & Chaos Test Automation, Event Driven Delivery as well as SRE-driven Auto-Remediation.
@@ -320,4 +327,6 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It drives me nuts when people say &quot;DevOps&quot; when they really mean &quot;Ops.&quot; Ops didn&#39;t just disappear, folks.</p>&mdash; emily freeman (@editingemily) <a href="https://twitter.com/editingemily/status/1404840667558207489?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> can hide some deep K8s knowledge.<a href="https://twitter.com/crossplane_io?ref_src=twsrc%5Etfw">@crossplane_io</a> does the same for infrastructure, best practices Postgres can be as simple as provide the version and the size. A game-changer for platforms</p>&mdash; Omer Kahani (@OmerKahani) <a href="https://twitter.com/OmerKahani/status/1427711077350006786?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>

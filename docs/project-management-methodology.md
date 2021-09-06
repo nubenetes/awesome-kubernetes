@@ -35,6 +35,8 @@
 - [medium: Nine Steps to Successfully Start Your New Product Owner Job](https://medium.com/serious-scrum/nine-steps-to-successfully-start-your-new-product-owner-job-b276c85e3dde) What you should do when starting a new journey as a Product Owner
 - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-communication)
 - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
+- [infoq.com: Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream/)
+- [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://rockcontent.com/es/blog/tipos-de-consultoria/) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

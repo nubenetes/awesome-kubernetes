@@ -83,7 +83,24 @@
     * ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://twitter.com/agarcia)
 * [katacoda.com: Learn Docker & Containers using Interactive Browser-Based Scenarios 🌟](https://www.katacoda.com/courses/docker)
 * [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad) Create Docker hub account and push Docker image.
-* [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker) 
+* [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker)
+* [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/) 
+* [dev.to: Docker 101!](https://dev.to/kubona_my/docker-101-124e)
+* [pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies](https://pawelurbanek.com/asdf-docker-development)
+* [tecmint.com: How to Install Docker on Rocky Linux and AlmaLinux](https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux/)
+* [blog.adoptium.net: Using Jlink in Dockerfiles instead of a JRE](https://blog.adoptium.net/2021/08/using-jlink-in-dockerfiles/)
+* [cloudsavvyit.com: How to SSH into a Docker container](https://www.cloudsavvyit.com/13937/how-to-ssh-into-a-docker-container/)
+* [cloudsavvyit.com: How to use docker cp to copy files between host and containers](https://www.cloudsavvyit.com/13987/how-to-use-docker-cp-to-copy-files-between-host-and-containers/)
+* [baeldung.com: Deploying a Java War in a Docker Container](https://www.baeldung.com/docker-deploy-java-war)
+* [returngis.net: Explorar gráficamente el contenido de un volumen de Docker](https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker/)
+* [opensource.com: What is a container image?](https://opensource.com/article/21/8/container-image) A container image contains a packaged application, along with its dependencies, and information on what processes it runs when launched. 
+* [zdnet.com: Docker changes its subscription plans, usage rules, and product line](https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line/)
+* [servethehome.com: Docker Abruptly Starts Charging Many Users for Docker Desktop](https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop/)
+* [matt-rickard.com: An Overview of Docker Desktop Alternatives](https://matt-rickard.com/docker-desktop-alternatives/)
+* [blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques](https://blog.aquasec.com/container-isolation-techniques)
+* `docker system prune --all` 
+* `docker image prune -a -f --filter "until=720h"`
+* `docker container prune -f --filter "until=48h"`
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
@@ -113,6 +130,7 @@
 * [blog.bitsrc.io: Best Practices for Writing a Dockerfile](https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3) Optimize your Docker Image by following these best practices from day one.
 * [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments/)
 * [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582) Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…
+* [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage/)
 
 ## Reducing Build Time
 * [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)
@@ -178,6 +196,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 ## Cloud Native Buildpacks
 - [buildpacks.io: Cloud Native Buildpacks 🌟](https://buildpacks.io/) transform your application source code into images that can run on any cloud.
 - [altoros.com: Streamlining the Creation of Docker Images with Cloud Native Buildpacks](https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks/) The new Cloud Native Buildpacks framework changes the obnoxious development chore of Dockerfile writing into a simple, automated operations pipeline. When deploying apps to Kubernetes or other container-as-a-service platforms, the proliferation of nonstandard, unauditable containers built manually via Dockerfiles is a real problem. A few products have emerged to solve this problem, among them Cloud Native Buildpacks (СNB). In this blog post, we explore the capabilities of these buildpacks and explain how to use them in build pipelines to deliver standardized, auditable images as artifacts suitable for deployment.
+- [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks/)
 
 ## Alternatives to Docker
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)

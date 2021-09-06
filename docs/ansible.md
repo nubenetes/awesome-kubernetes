@@ -88,6 +88,12 @@
 * [redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟](https://www.redhat.com/sysadmin/6-code-pushes-aap) Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.
 * [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/sysadmin/ansible-create-users-csv) Automate Linux user account creation in four simple steps with Ansible.
 * [cyberciti.biz: How to define multiple when conditions in Ansible](https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible/)
+* [dev.to: DevOps 101 : Introduction to Ansible](https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64)
+* [redhat.com: How to set up and use Python virtual environments for Ansible](https://www.redhat.com/sysadmin/python-venv-ansible) Python's venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.
+* [redhat.com: Deep dive into Ansible ad hoc commands](https://www.redhat.com/sysadmin/ansible-ad-hoc-commands) Make life easier when dealing with Ansible automation by using ad hoc commands.
+* [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/sysadmin/software-packages-ansible) Learn how to install new software packages on all your managed hosts with a single Ansible playbook.
+* [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://getbetterdevops.io/build-docker-images-using-ansible-and-packer/) Build Image from Ansible code and persist them on local or in AWS ECR
+* [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)
 
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)

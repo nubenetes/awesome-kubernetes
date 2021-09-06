@@ -27,6 +27,7 @@
 - [wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
 - [nodejs.org](https://nodejs.org/)
 - [github.com/nodejs/node](https://github.com/nodejs/node)
+- [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers#what_base_images_to_start_with_)
 
 ## Npm
 - [wikipedia: Npm](https://en.wikipedia.org/wiki/Npm_(software)) (originally short for Node Package Manager) is a package manager for the JavaScript programming language. 

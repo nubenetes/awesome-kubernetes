@@ -33,6 +33,7 @@
 * [dzone: Serverless Guide for Everyone 🌟](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 * [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes) If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.
 * [dzone: Serverless Guide for Everyone](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
+* [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 
 ### Microservices vs. Serverless. Kubernetes vs Serverless
 * [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless/)
@@ -92,6 +93,7 @@
 - [Dapr](https://dapr.io/)
 - [Building microservices? Give Dapr a try](https://www.infoworld.com/article/3604010/building-microservices-give-dapr-a-try.html) Microsoft’s open source, cross-platform microservices framework is ready for prime time at last.
 - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications)
+- [developers.redhat.com: Build and deploy microservices with Kubernetes and Dapr](https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr)
 
 ## Popular Deployment Frameworks for AWS Lambda
 * [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)

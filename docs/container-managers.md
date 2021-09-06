@@ -19,6 +19,7 @@
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 - [inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟](https://www.inovex.de/blog/containers-docker-containerd-nabla-kata-firecracker/)
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
+- [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/container-best-practices-what-they-are-and-why-you-should-care/)
 
 ## OCI Project
 - [OCI: Open Container Initiative](https://www.opencontainers.org/)

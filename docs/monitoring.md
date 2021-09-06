@@ -113,6 +113,9 @@
 * [thenewstack.io: CI Observability for Effective Change Management 🌟](https://thenewstack.io/ci-observability-for-effective-change-management/)
 * [thenewstack.io: Monitor Your Containers with Sysdig](https://thenewstack.io/monitor-your-containers-with-sysdig/)
 * [medium: Monitoring Microservices - Part 1: Observability 🌟](https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e) Achieving observability with probes, logs, metrics, and traces
+* [thenewstack.io: Applying Basic vs. Advanced Monitoring Techniques](https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/)
+* [cloudforecast.io: cAdvisor and Kubernetes Monitoring Guide 🌟](https://cloudforecast.io/blog/cadvisor-and-kubernetes-monitoring-guide/)
+* [hmh.engineering: Musings on microservice observability!](https://hmh.engineering/musings-on-microservice-observability-f7052ac42f04)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -369,9 +372,15 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
 * [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)
 * [newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry](https://newrelic.com/blog/best-practices/java-opentelemetry)
+* https://github.com/jenkinsci/opentelemetry-plugin Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller.
+* https://github.com/cyrille-leclerc/opentelemetry-maven-extension Maven extension to observe Maven builds as distributed traces using OpenTelemetry
+* https://github.com/equinix-labs/otel-cli OpenTelemetry command-line tool for sending events from shell scripts & similar environments
+* https://github.com/ansible-collections/community.general/pull/3091 Send distributed traces for the ansible runs with OpenTelemetry
 
 <center>
 <iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The ecosystem of CI / CD tools that integrates in <a href="https://twitter.com/hashtag/OpenTelemetry?src=hash&amp;ref_src=twsrc%5Etfw">#OpenTelemetry</a> traces is growing rapidly with already <a href="https://twitter.com/hashtag/Jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#Jenkins</a>, <a href="https://twitter.com/hashtag/Maven?src=hash&amp;ref_src=twsrc%5Etfw">#Maven</a>, <a href="https://twitter.com/hashtag/Ansible?src=hash&amp;ref_src=twsrc%5Etfw">#Ansible</a>, and the generic otel-cli<a href="https://t.co/GeKUMd5zl4">https://t.co/GeKUMd5zl4</a><a href="https://t.co/KrMIGZ3vkp">https://t.co/KrMIGZ3vkp</a><a href="https://t.co/UiJ0Dk78Pd">https://t.co/UiJ0Dk78Pd</a><a href="https://t.co/UdwnxXOUa4">https://t.co/UdwnxXOUa4</a> <a href="https://t.co/MsYViY6jwf">pic.twitter.com/MsYViY6jwf</a></p>&mdash; Cyrille Le Clerc (@cyrilleleclerc) <a href="https://twitter.com/cyrilleleclerc/status/1430070961366257693?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ##### Telegraf Collector
@@ -472,6 +481,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet/) Simple way how to make your dashboard easy to maintain.
 * [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/2019/11/22/designing-grafana-dashboards/)
 * [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/)
+* [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring) KubeVirt monitoring dashboards. This repository collects Grafana dashboards for KubeVirt and Prometheus runbooks for alerts shipped with the KubeVirt stack.
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
@@ -879,6 +889,8 @@ JMeter|Artemis Grafana|Artemis Dashboard
 - [blog.streammonkey.com: How We Serverlessly Migrated 1.58 Billion Elasticsearch Documents](https://blog.streammonkey.com/how-we-serverlessly-migrated-1-58-billion-elasticsearch-documents-33ad3d0d7c4f)
 - [youtube: ELK for beginners - by XavkiEn 🌟](https://www.youtube.com/playlist?list=PLWZKNB9waqIX00uj5q4nX_TOFiX3if1z3)
 - [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
+- [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
+- [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
 
 ### OpenSearch
 - [opensearch.org 🌟](https://opensearch.org/)

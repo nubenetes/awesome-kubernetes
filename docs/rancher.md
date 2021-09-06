@@ -37,6 +37,7 @@
 * [SUSE & Rancher Community 🌟](https://community.suse.com/feed) Learn and share with other cloud native enthusiasts
 * [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher/)
 * [dzone: Getting Started With Rancher 🌟](https://dzone.com/refcardz/getting-started-with-rancher) What is Rancher? And how does it make Kubernetes crazy easy? Rancher is a complete Kubernetes stack that's easy to navigate — whether it's physical servers on-prem or in the cloud. This Refcard helps you get started with Rancher — from zero to fully production-ready.
+* [devclass.com: Rancher presents first big release after SUSE acquisition, ups game on hosted cluster provisioning](https://devclass.com/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
@@ -56,6 +57,7 @@
 ### Rancher 2 RKE
 - [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
     * [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
+* [Bootstrap RKE Kubernetes Cluster in AWS Environment](https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws)
 
 ## K3S 
 * [**k3s**](https://k3s.io/) Basic kubernetes with automated installer. Lightweight Kubernetes Distribution.
@@ -83,6 +85,7 @@
 * [edgelab 🌟 (with k3s)](https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
 * [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020. 
 * [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
+* [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

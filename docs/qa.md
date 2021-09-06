@@ -1,5 +1,6 @@
 # QA: Software Quality Test Automation
 - [QA](#qa)
+- [Testing Frameworks](#testing-frameworks)
 - [Release Testing](#release-testing)
 - [Tools](#tools)
 - [Performance Testing](#performance-testing)
@@ -35,6 +36,13 @@ the #1 test automation community.
 * [blog.testproject.io: End to End Testing](https://blog.testproject.io/2021/07/22/end-to-end-testing/)
 * [blog.testproject.io: REST API Automation From Scratch 🌟](https://blog.testproject.io/2021/07/28/rest-api-automation-from-scratch/)
 * [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
+* [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation/)
+
+## Testing Frameworks
+* [JUnit](https://junit.org)
+    * [lambdatest.com](https://www.lambdatest.com/blog/junit5-extensions/) A Comprehensive Guide On JUnit 5 Extensions 
+* [TestNG](https://testng.org)
+* [Spock Framework](https://spockframework.org)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.
@@ -49,6 +57,8 @@ the #1 test automation community.
     * [meetup.com: A single open-source security scanner for most languages on Jenkins](https://www.meetup.com/es/Jenkins-online-meetup/events/276135789/) As software security is becoming an increasingly bigger organization risk, static and dynamic analysis are becoming indispensable. However most popular open-source static analysis scanners cover only a handful of languages, or offer limited security rules. In this talk, we’ll present Semgrep, an open-source static analysis tool that support 12+ languages, and simplifies writing custom rules for organization-specific code patterns. In addition, we’ll show how to integrate Semgrep into a Jenkins Pipeline for scanning every commit or PR.
 * [testcontainers 🌟](https://github.com/testcontainers) Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
     * [thenewstack.io: Testcontainers Integration Library Gets Commercial Backing with AtomicJar](https://thenewstack.io/testcontainers-integration-library-gets-commercial-backing-with-atomicjar/)
+    * [spinscale.de: Using Testcontainers To Test Elasticsearch Plugins](https://spinscale.de/posts/2021-08-25-using-testcontainers-to-test-elasticsearch-plugins.html)
+    * [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot Hoja balanceándose en el viento you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
 * [Metabob](https://www.metabob.com/) Metabob is an AI Static Analysis Tool that enables developers to quickly identify the causes behind errors and performance sinks. An AI-assisted tool to visualize and debug Python code.
 * [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)
 * [SystemTap](https://sourceware.org/systemtap/)

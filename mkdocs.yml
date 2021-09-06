@@ -53,7 +53,7 @@ nav:
   - Introduction:
     - From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
-  - Site Reliability Engineering (SRE): sre.md
+  - SRE Site Reliability Engineering: sre.md
   - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
   - DevOps:
     - DevOps: devops.md

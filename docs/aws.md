@@ -60,6 +60,7 @@
 - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
 - [AWS Developer Blog](#aws-developer-blog)
+- [AWS Application Services](#aws-application-services)
 - [AWS Serverless](#aws-serverless)
 - [AWS API Gateway](#aws-api-gateway)
 - [AWS CloudFormation. Free Templates](#aws-cloudformation-free-templates)
@@ -144,6 +145,7 @@
 - [serverlessland.com 🌟](https://serverlessland.com/) This site brings together all the latest blogs, videos, and training for AWS Serverless. Learn to use and build apps that scale automatically on low-cost, fully-managed serverless architecture.
 	- [serverlessland.com/patterns: Serverless Patterns Collection 🌟](https://serverlessland.com/patterns) Use serverless patterns to quickly build integrations using AWS SAM and CDK templates. Filter by pattern and copy the template directly into your application.
 	- [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines) Video tutorials: Learn how to generate CI/CD pipelines and deployment templates for serverless applications with AWS’ best practices for CloudBees, JenkinsCI, GitLab, GitHub using AWS SAM Pipelines.
+- [AWS Activate 🌟](https://aws.amazon.com/activate) AWS Activate offers startups free tools, resources, and more to quickly get started on AWS. Build and scale with up to $100,000 in AWS Activate credits
 
 ## Blogs
 - [Jayendra's Blog 🌟🌟🌟](https://jayendrapatil.com/)
@@ -161,6 +163,8 @@
 - https://www.slideshare.net/AmazonWebServices 
 - https://www.twitch.tv/aws
 - [Everything AWS | Search and discover 6K+ quality AWS repositories 🌟](https://app.polymersearch.com/discover/aws)
+- [workshops.aws: AWS Workshops 🌟](https://workshops.aws/) This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
+You can filter by topic using the toolbar above.
 
 ## Introduction
 - [dzone: AWS Basics 🌟](https://dzone.com/articles/aws-basics)
@@ -172,6 +176,11 @@
 - [towardsaws.com: A Gentle Introduction to Amazon Web Services (AWS) 🌟](https://towardsaws.com/a-gentle-introduction-to-amazon-web-services-aws-50f18c7c57dc)
 - [docs.aws.amazon.com: The AWS Security Reference Architecture 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html)
 - [thenewstack.io: The AWS Shared Responsibility Model for Kubernetes 🌟](https://thenewstack.io/understand-the-aws-shared-responsibility-model-for-kubernetes/)
+- [dzone: Migrating to AWS](https://dzone.com/articles/migrating-to-aws) AWS Cloud is the way to go, but migrating to the cloud is not simple. Read this article for a step-by-step migration strategy.
+- [medium: AWS Services Every Developer Should Be Aware Of](https://medium.com/@ashish_fagna/aws-services-every-developer-should-be-aware-of-f7c48aaa854f)
+- [blog.cloudyali.io: The Absolute minimum every developer must know about AWS security!](https://blog.cloudyali.io/absolute-minimum-every-developer-must-know-about-aws-security)
+- [acloudguru.com: 12 AWS Config rules that every account should have](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have)
+- [cloudonaut.io: EC2 Checklist: 7 things to do after launching an instance](https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance/)
 
 ### Books
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
@@ -186,6 +195,7 @@
 - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing/)
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
+- [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
 
 ## AWS Glossary
 - [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
@@ -327,6 +337,10 @@
 - [Amazon RDS Proxy can now be created in a shared Virtual Private Cloud (VPC)](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-rds-proxy-created-shared-virtual-private-cloud-vpc/)
 - [Amazon VPC CNI plugin increases pods per node limits](https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits/)
 - [theregister.com: AWS to retire EC2-Classic – the network glue that helped start the IaaS rush](https://www.theregister.com/2021/07/29/amazon_web_services_ec2_classic_networking/) You've got a year to sort yourself out if you're still using it for some reason
+- [AWS Security Hub adds 18 new controls to its Foundational Security Best Practices standard and 8 new partners for enhanced cloud security posture monitoring](https://aws.amazon.com/about-aws/whats-new/2021/08/aws-security-hub-adds-18-new-controls-foundational-security-best-practices-standard-8-new-partners-enhanced-cloud-security-posture-monitoring/)
+- [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/es/about-aws/whats-new/2021/08/ec2-vm-import-export-unified-extensible-firmware-interface-aws/)
+- [Amazon Virtual Private Cloud (VPC) customers can now resize their prefix list](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-vpc-resize-prefix-list)
+- [New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console 🌟](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -402,6 +416,7 @@
 - [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/amazon-web-services/aws-devops-vs-azure-devops/?utm_source=linkedin&utm_medium=referral&utm_campaign=awsdevops17_dec20_aws_cloud_computing_for_interested_parties__users)
 - [Amazon DevOps Guru 🌟](https://aws.amazon.com/devops-guru/) ML-powered cloud operations service to improve application availability
 	- [infoq.com: AWS Launches Amazon DevOps Guru](https://www.infoq.com/news/2021/01/aws-devops-guru/)
+- [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91) In this tutorial, I would like to explain to you how to create an AWS CodePipeline for ECS with a Blue/green deployment type.
 
 ## AWS Elastic Beanstalk
 - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk/)
@@ -518,6 +533,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer/)
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
+## AWS Application Services
+- [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF 🌟](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)
+
 ## AWS Serverless
 - [martinfowler.com: Serverless Architectures 🌟](http://martinfowler.com/articles/serverless.html)
 - [you can use Python with AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
@@ -546,6 +564,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications)
 - [Simplify CI/CD configuration for serverless applications and your favorite CI/CD system — Public Preview](https://aws.amazon.com/about-aws/whats-new/2021/07/simplify-ci-cd-configuration-serverless-applications-your-favorite-ci-cd-system-public-preview/)
 - [Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
+- [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway 🌟](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -561,6 +580,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudkatha.com: How to Setup S3 Bucket CORS Configuration using CloudFormation 🌟](https://cloudkatha.com/how-to-setup-s3-bucket-cors-configuration-using-cloudformation)
 - [cloudkatha.com: How to Configure AWS SQS Dead Letter Queue using CloudFormation](https://cloudkatha.com/how-to-configure-aws-sqs-dead-letter-queue-using-cloudformation/)
 - [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation/)
+- [cloudkatha.com: How to use CloudFormation to Create SNS Topic and Subscription](https://cloudkatha.com/how-to-use-cloudformation-to-create-sns-topic-and-subscription/)
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)
@@ -598,6 +618,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Encrypt global data client-side with AWS KMS multi-Region keys 🌟](https://aws.amazon.com/blogs/security/encrypt-global-data-client-side-with-aws-kms-multi-region-keys/) Today, AWS Key Management Service (AWS KMS) is introducing multi-Region keys, a new capability that lets you replicate keys from one Amazon Web Services (AWS) Region into another. Multi-Region keys are designed to simplify management of client-side encryption when your encrypted data has to be copied into other Regions for disaster recovery or is replicated in Amazon DynamoDB global tables.
 - [dzone: Removing the Bastion Host and Improving the Security in AWS 🌟](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi) This article covers the security in AWS and overcoming the classic SSH/RDP jump with a better alternative for all OS.
 - [acloudguru.com: How to audit and secure an AWS account 🌟](https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-account)
+- [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
 
 ### Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
@@ -635,6 +656,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront](http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou)
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
 - [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)
+- [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)
 
 ### AWS Vault
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
@@ -650,6 +672,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudkatha.com: This is why S3 Bucket Names are unique Globally](https://cloudkatha.com/why-s3-bucket-names-are-unique-globally/)
 - [cloudkatha.com: AWS S3 Storage Classes: Everything You Need to Know](https://cloudkatha.com/aws-s3-storage-classes-everything-you-need-to-know/)
 - [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets)
+- [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws/)
+- [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://harness.io/blog/devops/tutorial-s3-cross-account/)
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
@@ -772,6 +796,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [nextlinklabs.com: Handling Auth in EKS Clusters: Setting Up Kubernetes User Access Using AWS IAM](https://nextlinklabs.com/insights/handling-authentication-in-EKS-clusters-kubernetes-AWS-IAM)
 - [neal-davis.medium.com: ECS vs EC2 vs Lambda 🌟](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)
 - [faun.pub: Kubernetes Multi-tenancy with Amazon EKS: Best practices and considerations 🌟](https://faun.pub/kubernetes-multi-tenancy-with-amazon-eks-best-practices-and-considerations-60bfd78c2f9a)
+- [nginx.com: Deploying NGINX Ingress Controller on Amazon EKS: How We Tested](https://www.nginx.com/blog/deploying-nginx-ingress-controller-on-amazon-eks-how-we-tested)
+- [hackerxone.com: 13 Steps Guide to Create Kubernetes Cluster on AWS](https://www.hackerxone.com/2021/08/20/13-steps-guide-to-create-kubernetes-cluster-on-amazon-web-serviceaws/) 
+- [hackerxone.com: Steps to Create Amazon EKS node group on Amazon web Service (AWS)](https://www.hackerxone.com/2021/08/25/steps-to-create-amazon-eks-node-group-on-amazon-web-service-aws/)
+- [dev.to: EKS IAM Deep Dive 🌟](https://dev.to/aws-builders/eks-iam-deep-dive-136d)
 
 ## Rancher on AWS
 - [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher/)
@@ -838,6 +866,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [EC2-Classic Networking is Retiring – Here’s How to Prepare](https://aws.amazon.com/blogs/aws/ec2-classic-is-retiring-heres-how-to-prepare/)
 - [Announcing General Availability of Amazon Redshift Cross-account Data Sharing](https://aws.amazon.com/about-aws/whats-new/2021/08/announcing-general-availability-amazon-redshift-cross-account-data-sharing/)
 - [infoq.com: Amazon Introduces Cloudwatch Cross Account Alarms to Consolidate Management](https://www.infoq.com/news/2021/08/aws-cloudwatch-alarms/)
+- [Monitor, Evaluate, and Demonstrate Backup Compliance with AWS Backup Audit Manager](https://aws.amazon.com/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/)
+- [Amazon Managed Grafana Is Now Generally Available with Many New Features](https://aws.amazon.com/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features)
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is BIG! You can now assign IPv4 and IPv6 prefixes to your ENIs. The net result is that EC2 instances will now support vastly larger number of IP addresses, and managing those addresses will become easier. 1/n<a href="https://t.co/3ilNrFtuAp">https://t.co/3ilNrFtuAp</a></p>&mdash; Joe Magerramov (@_joemag_) <a href="https://twitter.com/_joemag_/status/1418345704964063232?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -870,6 +900,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [dev.to: How to Copy a Security Group with Rules from one AWS Account to Another account ?](https://dev.to/dineshrathee12/how-to-copy-a-security-group-with-rules-from-one-aws-account-to-another-account-36mb)
 	- [CopySGFromOneAWSAccountToAnotherScript.py](https://github.com/dineshrathee12/CopySecurityGroupWithRulesFromOneAWSAccountToAnotherAWSAccount/blob/main/CopySGFromOneAWSAccountToAnotherScript.py)
 - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler - Find resources that are not logging, and turn them on 🌟](https://github.com/awslabs/assisted-log-enabler-for-aws)
+- https://github.com/dannysteenman/aws-toolbox 🌟 A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.
 
 ## Development
 - [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
@@ -877,6 +908,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Cloud Development Kit CDK 
 - [CDK](https://aws.amazon.com/cdk/)
 - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
+- [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 
 ## AWS Secrets Manager
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)

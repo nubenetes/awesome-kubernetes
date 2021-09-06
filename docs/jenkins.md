@@ -125,6 +125,11 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     * [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07)
     * [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
 * [dev.to: Send notification to slack from the Jenkins CI Job and Jenkinsfile](https://dev.to/eavnitech/send-notification-to-slack-from-the-jenkins-ci-job-and-jenkinsfile-e-avni-tech-2lm5)
+* [dev.to: Setting up a CI/CD with Jenkins](https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln)
+* [fabiogomezdiaz.com: How to Run Packer Pipelines on Jenkins: Part 1 - Traditional Jenkins](https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part1-traditional-jenkins/)
+* [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default/) The default Java version in the Jenkins Docker images is switching to Java 11. 
+* [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases/)
+* [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) A Jenkins-based tool receives pipeline alerts and, in turn, determines who to notify.
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
@@ -143,6 +148,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ### Kubernetes Native Jenkins Operator 
 * [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
 * [jenkins.io: Jenkins Operator becomes an official sub-project! ](https://www.jenkins.io/blog/2021/04/15/jenkins-operator-sub-project/)
+* [jenkins.io: Security Validator for Jenkins Operator for Kubernetes](https://www.jenkins.io/blog/2021/08/23/jenkins-operator-security-work-report/)
+* [cd.foundation: Going Cloud Native with Jenkins Kubernetes Operator](https://cd.foundation/blog/2021/09/02/going-cloud-native-with-jenkins-kubernetes-operator/)
 
 ## Groovy
 * [Wikipedia.org: Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
@@ -455,6 +462,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Script Security](https://plugins.jenkins.io/script-security/) 
 * [Azure Artifact Manager](https://plugins.jenkins.io/azure-artifact-manager/)
 * [Custom Checkbox Parameter 🌟](https://plugins.jenkins.io/custom-checkbox-parameter/) This plug-in can dynamically create a set of check boxes for users to check before building. The check box settings are configured through YAML or JSON files, and the file content can be obtained through HTTP, HTTPS, or file paths. After checking the check box, the user can use params['ParameterName'] in the build script to get the selected value. The result of the user's selection is returned in the form of a string separated by "," value1, value2, value3. 
+* [Git Push](https://plugins.jenkins.io/git-push)
+* [ec2-fleet-plugin](https://plugins.jenkins.io/ec2-fleet/) The EC2 Fleet Plugin launches EC2 Spot or On Demand instances as worker nodes for Jenkins CI server, automatically scaling the capacity with the load.
+* [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

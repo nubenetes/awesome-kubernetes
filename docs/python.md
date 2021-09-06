@@ -136,6 +136,9 @@
 - [towardsdatascience.com: Automate Email Sending with Python](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a) The Definitive Snippets Collection for your ETL Pipelines
 - [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python/)
 - [pythonsimplified.com: Making Sense of Python Iterables and Iterators](https://pythonsimplified.com/making-sense-of-python-iterables-and-iterators/)
+- [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse) Use the argparse module to enable options in your Python applications.
+- [itsallaboutpython.blogspot.com: Simple Script To Send Emails In Python](https://itsallaboutpython.blogspot.com/2021/08/simple-script-to-send-emails-in-python.html)
+- [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python)
 
 <center>
 <blockquote class="twitter-tweet tw-align-center" data-lang="es"><p lang="en" dir="ltr">29 common beginner Python errors on one page via <a href="https://t.co/Ctvy84KXKx">https://t.co/Ctvy84KXKx</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://twitter.com/hashtag/Sysadmin?src=hash">#Sysadmin</a> <a href="https://twitter.com/hashtag/Programming?src=hash">#Programming</a> <a href="https://twitter.com/hashtag/Unix?src=hash">#Unix</a> <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> <a href="https://t.co/vaZaJETNPU">pic.twitter.com/vaZaJETNPU</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/706530828092731393">6 de marzo de 2016</a></blockquote>
@@ -153,7 +156,8 @@
 <br/>
 
 ## Python Books
-- [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks.
+- [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks. 
+- [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 ## Python Django Framework
 - [gettopical.com: Get Django Latest News](http://gettopical.com/djangoframework)
@@ -177,6 +181,7 @@
 - [digitalocean.com: Building a REST API With Django REST Framework](https://www.digitalocean.com/community/tech_talks/building-a-rest-api-with-django-rest-framework)
 - [github.com: Django Blog Site](https://github.com/AmineAsli/django-blog-site) A simple blog application based on Django
 - [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework. 
+- [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m)
 
 ## Python Flask Lightweight Framework (microframework)
 - Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
