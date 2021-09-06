@@ -1,26 +1,31 @@
-# Cloud Native Storage
+# Kubernetes Storage. Cloud Native Storage
 - [Introduction](#introduction)
+- [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
+- [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
 - [Ebooks](#ebooks)
 - [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
-	- [Rook](#rook)
-	- [Robin](#robin)
-	- [Reduxio](#reduxio)
-	- [Portworx](#portworx)
-	- [StorageOS](#storageos)
-	- [OpenEBS](#openebs)
-	- [LightOS](#lightos)
-	- [Longhorn](#longhorn)
-	- [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
-	- [Linbit](#linbit)
-	- [Kadalu](#kadalu)
-	- [IOMesh](#iomesh)
+    - [Rook](#rook)
+    - [Robin](#robin)
+    - [Reduxio](#reduxio)
+    - [Portworx](#portworx)
+    - [StorageOS](#storageos)
+    - [OpenEBS](#openebs)
+    - [LightOS](#lightos)
+    - [Longhorn](#longhorn)
+    - [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
+    - [Linbit](#linbit)
+    - [Kadalu](#kadalu)
+    - [IOMesh](#iomesh)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
-	- [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
-	- [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
+    - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
+    - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
 - [Kubestr](#kubestr)
 - [VolSync](#volsync)
 
 ## Introduction
+* [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
+* [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/)
+* [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c) kubernetes/volumes/claims
 - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/)
 - [forbes.com: 5 Cloud Native Storage Startups To Watch Out For In 2019](https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019/)
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
@@ -50,6 +55,19 @@
 - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
 - [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage/)
 - [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction)
+
+
+## Kubernetes Volumes Guide
+- [Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html)
+- This is a guide that covers:
+    - How to set up and use volumes in Kubernetes
+    - What are persistent volumes, and how to use them
+    - How to use an NFS volume
+    - Shared data and volumes between pods
+
+## ReadWriteMany PersistentVolumeClaims 
+- [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3) Kubernetes allows us to provision our PersistentVolumes dynamically using PersistentVolumeClaims. Pods treat these claims as volumes. The access mode of the PVC determines how many nodes can establish a connection to it. We can refer to the resource provider’s docs for their supported access modes.
+- [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative)
 
 ## Ebooks
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)

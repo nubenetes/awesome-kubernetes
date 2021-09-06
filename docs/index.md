@@ -71,6 +71,17 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Kubernetes
 - [Kubernetes 🌟](kubernetes.md)
     - [Kubernetes Plugins, Tools, Extensions and Projects 🌟](kubernetes-tools.md)
+    - [kubectl commands](kubectl-commands.md)
+    - [Kubernetes Networking](kubernetes-networking.md)
+    - [Kubernetes security](kubernetes-security.md)
+    - [Kubernetes Storage](kubernetes-storage.md)
+    - [Kubernetes backup migrations](kubernetes-backup-migrations.md)
+    - [Kubernetes autoscaling](kubernetes-autoscaling.md)
+    - [Kubernetes Operators and Controllers](kubernetes-operators-controllers.md)
+    - [Kubernetes devel tools](kubernetes-devel-tools.md)
+    - [kubernetes non-production local environments](kubernetes-local-non-prod.md)
+    - [Kubernetes on premise](kubernetes-on-premise.md)
+    - [Managed kubernetes in public clouds](managed-kubernetes-in-public-cloud.md)
 - [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
@@ -147,8 +158,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
-## Cloud Native Storage
-- [Cloud Native Storage](storage.md)
+
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
