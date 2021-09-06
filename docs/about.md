@@ -31,7 +31,7 @@ Una vez más, para Pilar
 </center>
 </details>
 
-## Stats 3. Inflaction and Unemployment 
+## Stats 3. Inflation and Unemployment 
 <details> 
   <summary>Click to expand!</summary>
 
