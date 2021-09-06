@@ -155,7 +155,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Go](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
-- [Xamarin](xamarin.md)
+- [Microsoft Xamarin](xamarin.md)
+- [Microsoft .NET](dotnet.md)
 - [Websites for web developers](devel-sites.md)
 ### Java
 - [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
