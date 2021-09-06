@@ -45,6 +45,7 @@
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
 - [Jenkins and SAP](#jenkins-and-sap)
 - [Jenkins Free Templates for AWS CloudFormation](#jenkins-free-templates-for-aws-cloudformation)
+- [Tweets](#tweets)
 
 ## Jenkins
 * [CloudBees](https://www.cloudbees.com/)
@@ -280,8 +281,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 <center>
 <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linus Torvalds: Shared libraries are not a good thing in general<a href="https://t.co/j94eT3n4qW">https://t.co/j94eT3n4qW</a> <a href="https://t.co/pZp4m50qtx">pic.twitter.com/pZp4m50qtx</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/1388630310225469441?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ### DSL 3. Jenkins Configuration as Code (JCasC) 
@@ -357,10 +356,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ###  jenkins-std-lib Jenkins Standard Shared Library
 - [DontShaveTheYak/jenkins-std-lib:  Jenkins Standard Shared Library 🌟](https://github.com/DontShaveTheYak/jenkins-std-lib) A set of useful tools for every day CI/CD jobs. Bringing the Zen of Python to Jenkins. **Run GitHub actions on Jenkins**. "I still have lots of features I want to add but I'm adding to it when I can. My favorite feature currently is the ability to run GitHub Actions on Jenkins. For teams that use Jenkins but want something simple" (@shady_cruz)
 - [marketplace.visualstudio.com: Jenkins Extension Pack: DontShaveTheYak](https://marketplace.visualstudio.com/items?itemName=DontShaveTheYak.jenkins-extension-pack)
-
-<center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Please everyone in technology stop using <a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> for CI/CD systems. It is one of the worst non immutable systems out there. Also don&#39;t get me started with pipelines. Otherwise <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> future is just going to be managing multi decade old jenkins servers :( What a nightmare.</p>&mdash; The Sheff (@thesheff17) <a href="https://twitter.com/thesheff17/status/1414909241295581184?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
 
 ## Jenkins Multibranch Pipeline
 - The [Multibranch Pipeline 🌟](https://www.jenkins.io/doc/book/pipeline/multibranch/) enable developer to implement different Jenkinsfiles for different branches of the same project. It’s can discover branches and execute pipeline automatically with Jenkinsfiles in version control for better management pipeline.
@@ -592,13 +587,19 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 [![jenkins hub CD](images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 </center>
 
-<center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hudson as in 2008 is dead. Jenkins as in 2012 is legacy. Jenkins as in 2021 is different: Pipeline, CasC, K8s, etc. The secret of long term survival is constant evolution. <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> has been changing A LOT, and it should keep doing so.<br><br>What do you want to see in Jenkins next? <a href="https://t.co/v5U40obh7M">https://t.co/v5U40obh7M</a> <a href="https://t.co/GHkhEj81x4">pic.twitter.com/GHkhEj81x4</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1387774862111002627?ref_src=twsrc%5Etfw">April 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linus Torvalds: Shared libraries are not a good thing in general<a href="https://t.co/j94eT3n4qW">https://t.co/j94eT3n4qW</a> <a href="https://t.co/pZp4m50qtx">pic.twitter.com/pZp4m50qtx</a></p>&mdash; nixCraft (@nixcraft) <a href="https://twitter.com/nixcraft/status/1388630310225469441?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Please everyone in technology stop using <a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> for CI/CD systems. It is one of the worst non immutable systems out there. Also don&#39;t get me started with pipelines. Otherwise <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> future is just going to be managing multi decade old jenkins servers :( What a nightmare.</p>&mdash; The Sheff (@thesheff17) <a href="https://twitter.com/thesheff17/status/1414909241295581184?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hudson as in 2008 is dead. Jenkins as in 2012 is legacy. Jenkins as in 2021 is different: Pipeline, CasC, K8s, etc. The secret of long term survival is constant evolution. <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> has been changing A LOT, and it should keep doing so.<br><br>What do you want to see in Jenkins next? <a href="https://t.co/v5U40obh7M">https://t.co/v5U40obh7M</a> <a href="https://t.co/GHkhEj81x4">pic.twitter.com/GHkhEj81x4</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1387774862111002627?ref_src=twsrc%5Etfw">April 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> tricks you should know✅<br>A thread🧵👇<a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a></p>&mdash; gekocloud (@geko_cloud) <a href="https://twitter.com/geko_cloud/status/1403282847096573955?ref_src=twsrc%5Etfw">June 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kuisathaverat?ref_src=twsrc%5Etfw">@kuisathaverat</a> and I just recorded one of our sessions for the upcoming <a href="https://twitter.com/hashtag/DevOpsWorld?src=hash&amp;ref_src=twsrc%5Etfw">#DevOpsWorld</a> with real examples how distributed traces with <a href="https://twitter.com/hashtag/OpenTelemetry?src=hash&amp;ref_src=twsrc%5Etfw">#OpenTelemetry</a> in <a href="https://twitter.com/hashtag/JenkinsCI?src=hash&amp;ref_src=twsrc%5Etfw">#JenkinsCI</a> can help to troubleshoot and apply performance improvements without the need of debugging logs. 👌 great work mate 🤩</p>&mdash; Victor Mrtez (@AnInfinite) <a href="https://twitter.com/AnInfinite/status/1418260151996399618?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-
+</details>
