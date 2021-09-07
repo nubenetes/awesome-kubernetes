@@ -13,6 +13,10 @@
 ## No code tools
 - [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10 Best Github repositories for all web developers:<br><br>🧵👇🏻</p>&mdash; Sunil Kumar (@sunilc_) <a href="https://twitter.com/sunilc_/status/1401902233478828038?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -24,4 +28,4 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is WEB SCRAPING? 🤷‍♂️<br><br>To answer this question, I created a small web scraper for Amazon items.<br><br>This is a thread that explains step by step how it works 🧵👇<br><br>(find the complete code at the end) <a href="https://t.co/DWdkE8EAYh">pic.twitter.com/DWdkE8EAYh</a></p>&mdash; Marc Backes (@themarcba) <a href="https://twitter.com/themarcba/status/1423549087719243778?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-
+</details>
