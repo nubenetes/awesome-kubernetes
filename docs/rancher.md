@@ -1,4 +1,4 @@
-# Rancher
+# SUSE Rancher
 - [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
 - [Rancher Desktop](#rancher-desktop)
 - [Rancher Academy (online training)](#rancher-academy-online-training)
@@ -39,6 +39,7 @@
 * [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment 🌟](https://aws-quickstart.github.io/quickstart-eks-rancher/)
 * [dzone: Getting Started With Rancher 🌟](https://dzone.com/refcardz/getting-started-with-rancher) What is Rancher? And how does it make Kubernetes crazy easy? Rancher is a complete Kubernetes stack that's easy to navigate — whether it's physical servers on-prem or in the cloud. This Refcard helps you get started with Rancher — from zero to fully production-ready.
 * [devclass.com: Rancher presents first big release after SUSE acquisition, ups game on hosted cluster provisioning](https://devclass.com/2021/09/02/rancher-presents-first-big-release-after-suse-acquisition-ups-game-on-hosted-cluster-provisioning/)
+* [suse.com: SUSE Rancher 2.6 delivers interoperability across multi-cloud environments with redesigned user experience, hosted cluster support, and improved security posture](https://www.suse.com/c/intro-rancher-2-6-features/)
 
 <center>
 [![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 

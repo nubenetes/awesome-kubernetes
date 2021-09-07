@@ -146,6 +146,7 @@
 - [blog.kasten.io: AKS and Storage: Performance Differences Among K8s Storage Services](https://blog.kasten.io/aks-and-storage-performance-differences-among-kubernetes-storage-services)
 - [medium: AKS — different load balancing options. When to use what?](https://medium.com/microsoftazure/aks-different-load-balancing-options-for-a-single-cluster-when-to-use-what-abd2c22c2825)
 - [medium: Going multicloud with kubernetes and Azure Front Door](https://medium.com/microsoftazure/going-multicloud-with-kubernetes-and-azure-front-door-f34a2f39068a) Kubernetes/AKS/GKE/MultiCloud/Azure Front Door
+- [docs.microsoft.com: Best practices for cluster isolation in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation)
 
 ## GKE Google Kubernetes Engine
 - [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions)
