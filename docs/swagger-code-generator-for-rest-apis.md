@@ -8,7 +8,12 @@
 * [jonnylangefeld.com: Kubernetes: How to View Swagger UI](https://jonnylangefeld.com/blog/kubernetes-how-to-view-swagger-ui?utm_sq=gkuh13vgq3)
 
 ## Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
 <iframe src="https://www.youtube.com/embed/rJQ-SVKxb5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/ivGUbfxRXms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/PbwQWw7xSOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+</center>
+</details>
