@@ -3,6 +3,7 @@
 - [Google Search](#google-search)
 - [Bash Shell](#bash-shell)
 - [AWS Cheat Sheets](#aws-cheat-sheets)
+- [Google Cloud Cheat Sheet](#google-cloud-cheat-sheet)
 - [API Cheatsheets](#api-cheatsheets)
 - [eBooks](#ebooks)
 - [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
@@ -76,12 +77,13 @@
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
 - [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)
-
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet/)
 
+## Google Cloud Cheat Sheet
+- [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words)
 ## API Cheatsheets
 - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 

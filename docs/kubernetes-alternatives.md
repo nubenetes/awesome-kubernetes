@@ -13,6 +13,7 @@
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
 - [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)
 - [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/3604652/when-kubernetes-is-not-the-solution.html)
+- [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes)
 
 ## Amazon ECS
 - [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
