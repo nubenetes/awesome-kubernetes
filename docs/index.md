@@ -116,7 +116,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 - [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
-- [Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
+- [Monitoring and Performance 🌟](monitoring.md)
+- [Prometheus](prometheus.md)
+- [Grafana](grafana.md)
 ## Configuration Management
 - [Ansible](ansible.md)
 - [Argo CD - Declarative GitOps for Kubernetes](argocd.md)

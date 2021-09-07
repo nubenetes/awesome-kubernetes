@@ -119,7 +119,10 @@ nav:
       - Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more: java_app_servers.md
       - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
       - Caching Solutions: caching.md
-  - Monitoring and Performance. Prometheus, Grafana, APMs and more: monitoring.md
+  - Monitoring and Performance. Prometheus, Grafana, APMs and more:
+    - Monitoring and Performance: monitoring.md
+    - Prometheus: prometheus.md
+    - Grafana: grafana.md
   - Configuration Management:
     - Ansible: ansible.md
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
