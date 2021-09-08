@@ -149,6 +149,9 @@
 - [blog.gitguardian.com: How to improve your Docker containers security [cheat sheet included]](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
 - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
 - [dev.to: Docker Cheatsheet](https://dev.to/ibmdeveloper/docker-command-cheatsheet-1pe8)
+- `docker system prune --all` 
+- `docker image prune -a -f --filter "until=720h"`
+- `docker container prune -f --filter "until=48h"`
 
 ### Docker Swarm Cheat Sheets
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)

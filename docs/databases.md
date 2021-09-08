@@ -48,6 +48,7 @@
 - [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
 - [Data Lakes](#data-lakes)
 - [Graph Databases](#graph-databases)
+- [Tweets](#tweets)
 
 ## Introduction
 - [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture/)
@@ -882,6 +883,10 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## Graph Databases
 - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) Tiny ORM for graph databases: Neo4j, RedisGraph, AWS Neptune or Gremlin
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/963413508300812295?ref_src=twsrc%5Etfw">February 13, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
@@ -891,3 +896,4 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stack Overflow&#39;s SQL Server is at 4% CPU with 500M queries/day <a href="https://t.co/wX9Od749ik">https://t.co/wX9Od749ik</a> <a href="https://t.co/1BAuEV9VgT">https://t.co/1BAuEV9VgT</a></p>&mdash; Lukas Eder (@lukaseder) <a href="https://twitter.com/lukaseder/status/1428025568461737996?ref_src=twsrc%5Etfw">August 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

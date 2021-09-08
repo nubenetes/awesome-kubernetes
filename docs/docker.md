@@ -98,9 +98,7 @@
 * [servethehome.com: Docker Abruptly Starts Charging Many Users for Docker Desktop](https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop/)
 * [matt-rickard.com: An Overview of Docker Desktop Alternatives](https://matt-rickard.com/docker-desktop-alternatives/)
 * [blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques](https://blog.aquasec.com/container-isolation-techniques)
-* `docker system prune --all` 
-* `docker image prune -a -f --filter "until=720h"`
-* `docker container prune -f --filter "until=48h"`
+* [infoworld.com: How Docker broke in half](https://www.infoworld.com/article/3632142/how-docker-broke-in-half.html) The game changing container company is a shell of its former self. What happened to one of the hottest enterprise technology businesses of the cloud era?
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)

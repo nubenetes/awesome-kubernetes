@@ -619,6 +619,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [dzone: Removing the Bastion Host and Improving the Security in AWS 🌟](https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi) This article covers the security in AWS and overcoming the classic SSH/RDP jump with a better alternative for all OS.
 - [acloudguru.com: How to audit and secure an AWS account 🌟](https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-account)
 - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
+- [try.jupiterone.com: The Absolute Minimum Every Developer Must Know about AWS Security](https://try.jupiterone.com/the-absolute-minimum-every-developer-must-know-about-aws-security)
 
 ### Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
@@ -849,6 +850,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Amplify
 - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-and-react-native-a-tutorial/)
+- [dev.to: 10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291)
 
 ## AWS Control Tower
 - [AWS Control Tower](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment

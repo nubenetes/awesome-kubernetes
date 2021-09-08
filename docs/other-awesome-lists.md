@@ -32,7 +32,7 @@
 
 ## Other Awesome Kubernetes Lists
 - [@ramitsurana' Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
-- [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
+- [tomhuang12: Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
 - [@sindresorhus' Awesome Kubernetes](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools  - [kubetools 🌟](https://collabnix.github.io/kubetools/)
@@ -135,6 +135,7 @@
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - [Awesome Go](https://github.com/avelino/awesome-go)
 	- [awesome-go.com](https://awesome-go.com/)
+	- [golangrepo.com 🌟](https://golangrepo.com/) Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.
 - [github.com/charlax/professional-programming: A collection of full-stack resources for programmers 🌟](https://github.com/charlax/professional-programming) Free resources⚡
 	- Books
 	- Articles

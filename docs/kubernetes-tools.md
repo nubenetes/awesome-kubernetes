@@ -10,6 +10,7 @@
 - [Kubesploit](#kubesploit)
 
 ## K8s Tools
+* [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
 * [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
 * [VMware octant](https://github.com/vmware/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     * [octant.dev](https://octant.dev/) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
@@ -319,6 +320,7 @@
 * [kube-scheduler-simulator](https://github.com/kubernetes-sigs/kube-scheduler-simulator) Web-based Kubernetes scheduler simulator
 * [multus-cni 🌟](https://github.com/k8snetworkplumbingwg/multus-cni) A CNI meta-plugin for multi-homed pods in Kubernetes. Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods. Typically, in Kubernetes each pod only has one network interface (apart from a loopback) -- with Multus you can create a multi-homed pod that has multiple interfaces. This is accomplished by Multus acting as a "meta-plugin", a CNI plugin that can call multiple other CNI plugins.
 * [kim - The Kubernetes Image Manager](https://github.com/rancher/kim)
+* [Kompose 🌟](https://kompose.io/) A conversion tool to go from Docker Compose to Kubernetes. kompose is a tool to help users familiar with docker-compose move to Kubernetes. It takes a Docker Compose file and translates it into Kubernetes resources
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
