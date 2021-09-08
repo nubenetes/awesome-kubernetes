@@ -1,7 +1,7 @@
 # Awesome Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center>
-[![opentowork](images/opentowork.jfif)](https://www.linkedin.com/in/inafev/)
+[![opentowork](images/opentowork.jfif){: style="width:25%"}](https://www.linkedin.com/in/inafev/)
 </center>
 
 A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
