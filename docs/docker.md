@@ -20,6 +20,8 @@
 - [Blogs](#blogs)
 - [Cloud Native Buildpacks](#cloud-native-buildpacks)
 - [Alternatives to Docker](#alternatives-to-docker)
+- [Videos and Podcasts](#videos-and-podcasts)
+- [Tweets](#tweets)
 
 ## Introduction and Tutorials
 * [Wikipedia.org: Docker](https://en.wikipedia.org/wiki/Docker_(software))
@@ -203,12 +205,24 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/knowledge-base/the-basics-7-alternatives-to-docker-all-in-one-solutions-and-standalone-container-tools/)
 - [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
 
+## Videos and Podcasts
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
 
 <iframe src="https://www.youtube.com/embed/n-JwAM6XF88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
+</details>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Environment variables in Docker:<br><br>Environment variables are dynamic-named values that affect how our app will behave when running.<br><br>We can define them with Docker:<br>- at runtime<br>- in the Dockerfile<br>- in the Compose file (2 ways)<br><br>Let&#39;s see in detail in 1 minute:<br><br>1/5</p>&mdash; Francesco Ciulla (@FrancescoCiull4) <a href="https://twitter.com/FrancescoCiull4/status/1393448190729465856?ref_src=twsrc%5Etfw">May 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

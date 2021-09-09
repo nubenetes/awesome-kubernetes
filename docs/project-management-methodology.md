@@ -7,6 +7,7 @@
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
 - [KPIs and Employee Performance](#kpis-and-employee-performance)
 - [MVP Minimum Viable Product](#mvp-minimum-viable-product)
+- [Tweets](#tweets)
 
 ## Project Management Methodology
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
@@ -100,9 +101,13 @@
 [![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 </center>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 questions I try to answer before starting any new project:<br><br>1. What problem am I solving?<br>2. What constraints do I have?<br>3. Who are the main stakeholders?<br>4. What are the risks?<br>5. How do I measure progress?<br>6. What does success look like?<br><br>Don&#39;t sail without a compass.</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1393868830859010049?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-
+</details>
 
 
