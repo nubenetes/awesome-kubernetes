@@ -128,6 +128,7 @@
 - [AWS Tags](#aws-tags)
 - [ECommerce](#ecommerce)
 - [Videos](#videos)
+- [Tweets](#tweets)
 
 <!-- /MarkdownTOC -->
 
@@ -894,17 +895,25 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## ECommerce
 - [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site 🌟](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site/)
 
-## Videos
-
-<center>
-<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
-
+---
 <center>
 [![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 </center>
 
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t know how to get started with AWS?<br><br>I can relate!<br>When I started, AWS already offered so much that I literally couldn&#39;t find an entry point.<br><br>If you still feel this way, let me give you a little guide.<br><br>🧵⏬</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1379096498592432128?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
