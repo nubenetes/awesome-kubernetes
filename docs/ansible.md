@@ -94,6 +94,8 @@
 * [redhat.com: How to install software packages with an Ansible playbook](https://www.redhat.com/sysadmin/software-packages-ansible) Learn how to install new software packages on all your managed hosts with a single Ansible playbook.
 * [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://getbetterdevops.io/build-docker-images-using-ansible-and-packer/) Build Image from Ansible code and persist them on local or in AWS ECR
 * [developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible](https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible)
+* [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/sysadmin/ansible-templates-configuration) Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.
+* [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/sysadmin/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
 
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)

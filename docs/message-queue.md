@@ -35,7 +35,8 @@
 	- [Red Hat AMQ Streams](#red-hat-amq-streams)
 - [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
 - [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
-- [Platforms for collecting, storing and routing customer event data](#platforms-for-collecting-storing-and-routing-customer-event-data)
+- [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
+	- [IpaaS Vendors](#ipaas-vendors)
 - [eBooks](#ebooks)
 - [Related](#related)
 - [Questions and Answers](#questions-and-answers)
@@ -100,6 +101,7 @@
 - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k/)
 - [developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors](https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors/)
 - [developers.redhat.com: Design event-driven integrations with Kamelets and Camel K](https://developers.redhat.com/blog/2021/04/02/design-event-driven-integrations-with-kamelets-and-camel-k)
+- [thenewstack.io: Camel K Brings Apache Camel to Kubernetes for Event-Driven Architectures](https://thenewstack.io/camel-k-brings-apache-camel-to-kubernetes-for-event-driven-architectures/)
 
 ### KubeMQ message broker
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
@@ -371,8 +373,14 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
 
-## Platforms for collecting, storing and routing customer event data
-- [rudderstack.com](https://rudderstack.com/) - [opensource.com: Stream event data with rudderstack](https://opensource.com/article/21/4/event-streaming-rudderstack)
+## Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data
+- [quandarycg.com: Everything You Need To Know About System Integration (And IPaaS) 🌟](https://quandarycg.com/everything-you-need-to-know-about-integrations/)
+- [blog.hubspot.com: The 22 Best iPaaS Vendors for Any Budget](https://blog.hubspot.com/marketing/ipaas-vendors)
+
+### IpaaS Vendors
+- [rudderstack.com iPaaS](https://rudderstack.com/) - [opensource.com: Stream event data with rudderstack](https://opensource.com/article/21/4/event-streaming-rudderstack)
+- [Mulesoft](https://www.mulesoft.com/)
+- etc
 
 ## eBooks
 - [O'Really: Streaming data](http://streamingsystems.net/)

@@ -13,7 +13,8 @@
 - http://github.com/remoteintech/remote-jobs
 - https://shieldgeo.com Shield GEO makes international employment simple. 
 - https://www.deskhiker.com
-- https://4dayweek.io/ Find a 4 day work week software job.
+- https://4dayweek.io Find a 4 day work week software job.
+- https://remotetechjobs.com 3000 active tech jobs on the site, excellent search-and-subscribe functionality, and 37 tech job categories.
 
 ## Kubernetes 
 - [kube.careers](https://kube.careers/) Hand-picked Kubernetes jobs

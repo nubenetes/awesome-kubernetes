@@ -5,6 +5,7 @@
 	- [Waterfall vs Agile](#waterfall-vs-agile)
 	- [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
+- [KPIs and Employee Performance](#kpis-and-employee-performance)
 - [MVP Minimum Viable Product](#mvp-minimum-viable-product)
 
 ## Project Management Methodology
@@ -70,6 +71,9 @@
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
 - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
 - [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
+
+## KPIs and Employee Performance
+- [creately.com: A Step By Step Guide to Set KPIs for Team Members](https://creately.com/blog/business/how-to-set-kpis-for-team-members/)
 
 ## MVP Minimum Viable Product
 - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)

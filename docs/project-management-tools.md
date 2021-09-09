@@ -7,6 +7,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [Servicenow](https://www.servicenow.com/)
 - [BMC Remedy ITSM](https://www.bmcsoftware.es/it-solutions/remedy-itsm.html)
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
+    - [nightfall.ai: Is Atlassian Cloud HIPAA Compliant?](https://nightfall.ai/atlassian-cloud-hipaa-compliant) HIPAA stands for Health Insurance Portability and Accountability Act, the standard for sensitive patient data protection.
 
 ## Alternatives
 - [32 Best Jira Alternatives For Agile Project Management Teams In 2020 [Free and Paid]](https://dzone.com/articles/32-best-jira-alternatives-for-agile-project-manage) 
