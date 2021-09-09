@@ -20,6 +20,7 @@
 - [Alternatives](#alternatives)
 	- [Online VSCode](#online-vscode)
 - [Videos](#videos)
+- [Tweets](#tweets)
 
 ## VSCode
 * [code.visualstudio.com: Visual Studio Code](https://code.visualstudio.com/)
@@ -200,6 +201,8 @@ A simple extension to make indentation more readable
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 
 ## Videos
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -209,7 +212,13 @@ A simple extension to make indentation more readable
 <iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know, you can have project specific user settings in VS Code? <br><br>I certainly didn’t, but I needed to make some tweaks for a better live coding experience for workshop attendees.<br><br>Create a .vscode folder in your project then add settings.json in there. <br><br>Handy! <a href="https://t.co/X3PbgwSVWp">pic.twitter.com/X3PbgwSVWp</a></p>&mdash; Andy Bell (@piccalilli_) <a href="https://twitter.com/piccalilli_/status/1337063582790537224?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

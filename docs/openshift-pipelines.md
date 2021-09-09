@@ -136,6 +136,8 @@
 * [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
 
 ## Slides
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> von <strong><a href="https://www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
@@ -146,3 +148,4 @@
 
 <script async class="speakerdeck-embed" data-id="63bd2b3c53d748b0be8e2f91ac3e6870" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
+</details>

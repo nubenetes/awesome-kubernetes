@@ -6,6 +6,7 @@
 - [Performance Testing](#performance-testing)
 - [Kubernetes conformance testing tools](#kubernetes-conformance-testing-tools)
 - [Codeless Automation Testing](#codeless-automation-testing)
+- [Tweets](#tweets)
 
 ## QA
 * [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
@@ -77,9 +78,14 @@ the #1 test automation community.
 - [botplayautomation.com: Benefits of Codeless (no code) Automation Testing](https://www.botplayautomation.com/post/benefits-of-codeless-automation-testing)
 
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If your code has no tests, then:<br><br>- it is not clean<br>- it is not complete<br>- it is not correct<br>- it is not documented<br>- it is not verified<br>- it is not working<br><br>And most importantly: It is not quality.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1365995255322001409?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-
-<center>
 ![tests in prod](images/testinprodmeme.jfif)
 </center>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If your code has no tests, then:<br><br>- it is not clean<br>- it is not complete<br>- it is not correct<br>- it is not documented<br>- it is not verified<br>- it is not working<br><br>And most importantly: It is not quality.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1365995255322001409?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

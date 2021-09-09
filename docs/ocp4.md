@@ -723,6 +723,8 @@ oc login
 - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt/)
 
 ## Slides
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qc1rIHqvXuiuzj" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/KangarootLinux/openshift-4-the-smarter-kubernetes-platform" title="OpenShift 4, the smarter Kubernetes platform" target="_blank">OpenShift 4, the smarter Kubernetes platform</a> </strong> from <strong><a href="https://www.slideshare.net/KangarootLinux" target="_blank">Kangaroot</a></strong> </div>
@@ -731,4 +733,4 @@ oc login
 
 <script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
-<br/>
+</details>

@@ -88,6 +88,8 @@
     - [Source-to-Image (S2I)](https://docs.openshift.com/container-platform/3.11/creating_images/s2i.html#creating-images-s2i) is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by **injecting application source into a container image and assembling a new image**. The new image incorporates the base image (the builder) and built source and is ready to use with the docker run command. S2I supports incremental builds, which re-use previously downloaded dependencies, previously built artifacts, etc.
 
 ## Videos
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <iframe src="https://www.youtube.com/embed/yFPYGeKwmpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -98,4 +100,4 @@
 <iframe src="https://www.youtube.com/embed/_zDDAwLctUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/WwQ62OyCNz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
-<br/>
+</details>
