@@ -28,6 +28,7 @@
 - [Banking](#banking)
 - [Insurance](#insurance)
 - [Telecom](#telecom)
+- [Tweets](#tweets)
 
 ## Introduction
 - [Layering domains and microservices using API Gateways](https://kislayverma.com/software-architecture/layering-domains-and-microservices-using-api-gateways/)
@@ -181,6 +182,10 @@
 - [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is clean code?<br><br>Clean code is the code if:<br>- it is easily readable<br>- it is easily extendable and maintainable<br>- it is as simple as possible<br>- it is cheap and risk-free to change<br>- it reveals our intent<br>- it has corresponding clean tests <br><br>What else would you add?</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1353311679845703685?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -192,3 +197,4 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be fullstack doesn&#39;t mean you know every part of the modern technology landscape. It means that you&#39;ve made a decision to be open to picking up the parts you need as you need them.</p>&mdash; Chris Ford (@ctford) <a href="https://twitter.com/ctford/status/1406559406804852740?ref_src=twsrc%5Etfw">June 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

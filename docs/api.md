@@ -28,6 +28,7 @@
 - [Related](#related)
 - [Video APIs](#video-apis)
 - [API Business Models](#api-business-models)
+- [Tweets](#tweets)
 
 ## APIs
 - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)
@@ -191,11 +192,15 @@
 ## API Business Models
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)
 
----
 <center>
 [![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
 </center>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">People complain about tooling fatigue but web dev in 2021 is 10x simpler than in 2011. You just gotta pick the right tools.<br><br>Infra: <a href="https://twitter.com/PulumiCorp?ref_src=twsrc%5Etfw">@PulumiCorp</a> <br>Data: <a href="https://twitter.com/PostgreSQL?ref_src=twsrc%5Etfw">@PostgreSQL</a> <br>API: <a href="https://twitter.com/HasuraHQ?ref_src=twsrc%5Etfw">@HasuraHQ</a> <br>Frontend: <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a>&#39;s NextJS<br><br>And no proprietary bullshit—100% open source!</p>&mdash; gunar.uk (@gunar) <a href="https://twitter.com/gunar/status/1395744592071323651?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

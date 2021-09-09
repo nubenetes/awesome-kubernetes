@@ -7,6 +7,7 @@
 - [Envoy micro proxy](#envoy-micro-proxy)
 - [Kibana](#kibana)
 - [AWS App Mesh](#aws-app-mesh)
+- [Tweets](#tweets)
 
 ## Docs
 - [Istio.io](https://istio.io/)
@@ -114,6 +115,11 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh/)
 - [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💎 Hidden gem feature<br><br>Did you know that Kiali can automatically generate all the Authorization Policies of a namespace?<br><br>Via telemetry, Kiali can define one Authz Policy per each service in the mesh.<a href="https://twitter.com/IstioMesh?ref_src=twsrc%5Etfw">@IstioMesh</a> <a href="https://twitter.com/hashtag/servicemesh?src=hash&amp;ref_src=twsrc%5Etfw">#servicemesh</a> <a href="https://twitter.com/hashtag/authorization?src=hash&amp;ref_src=twsrc%5Etfw">#authorization</a> <a href="https://twitter.com/hashtag/security?src=hash&amp;ref_src=twsrc%5Etfw">#security</a> <a href="https://twitter.com/hashtag/k8s?src=hash&amp;ref_src=twsrc%5Etfw">#k8s</a> <a href="https://t.co/YlEKRq6nq0">pic.twitter.com/YlEKRq6nq0</a></p>&mdash; Kiali (@KialiProject) <a href="https://twitter.com/KialiProject/status/1393940551637127168?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
