@@ -5,6 +5,7 @@
 	- [Alternatives](#alternatives)
 	- [Apache Drill. Schema free SQL query on everything engines](#apache-drill-schema-free-sql-query-on-everything-engines)
 - [NewSQL](#newsql)
+- [Videos](#videos)
 
 ## NoSQL
 - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
@@ -68,7 +69,11 @@
 - [Traditional database replication drawbacks](http://www.nuodb.com/blog/replication-is-it-easy)
 - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)
 
----
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/qI_g07C_Q5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+</details>
