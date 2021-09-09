@@ -27,6 +27,7 @@
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
 - [Networking Protocols](#networking-protocols)
+- [Tweets](#tweets)
 
 ## RHEL
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
@@ -287,15 +288,17 @@
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
 - [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
 
----
-
 <center>
 [![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
 </center>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">bash for president <a href="https://t.co/CpIQh23az1">pic.twitter.com/CpIQh23az1</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1407081109570166791?ref_src=twsrc%5Etfw">June 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-
+</details>
 
 

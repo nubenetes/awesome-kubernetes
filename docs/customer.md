@@ -1,9 +1,11 @@
 # Customer Success Stories
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-	- [BMW InnovationLab](#bmw-innovationlab)
-	- [GAIA-X](#gaia-x)
+    - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+    - [BMW InnovationLab](#bmw-innovationlab)
+    - [GAIA-X](#gaia-x)
 - [Carrefour Spain](#carrefour-spain)
+- [Add your Cloud Native Project here](#add-your-cloud-native-project-here)
+- [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
 * [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
@@ -41,9 +43,15 @@
 ## Carrefour Spain
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
 
+## Add your Cloud Native Project here
+- Bla bla bla
 
----
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/FUu4kMc0PL8" frameborder="0" allow="autoplay; encrypted-media" start=7740 allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
+</details>

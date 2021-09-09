@@ -11,6 +11,7 @@
 - [Reports on the Enterprise CI/CD Market](#reports-on-the-enterprise-cicd-market)
 - [Tools](#tools)
 - [Awesome Lists](#awesome-lists)
+- [Videos](#videos)
 
 ## Introduction
 * [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)
@@ -132,13 +133,16 @@ Here are some important things to consider while building a CI/CD pipeline:
 ## Awesome Lists
 * [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd)
 
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/N8R3-eNVoEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
-<center>
+
 <iframe src="https://www.youtube.com/embed/65BnTLcDAJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
-
+</details>
 
 
 

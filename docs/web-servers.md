@@ -7,6 +7,8 @@
 - [HAProxy (HTTP router and reverse proxy)](#haproxy-http-router-and-reverse-proxy)
 - [Traefik (HTTP router and reverse proxy)](#traefik-http-router-and-reverse-proxy)
 - [Skipper (HTTP router and reverse proxy)](#skipper-http-router-and-reverse-proxy)
+- [Videos](#videos)
+- [Tweets](#tweets)
 
 ## Introduction
 - [Reverse Proxy: What, When, How](https://dzone.com/articles/reverse-proxy-what-when-how) Look at a tutorial that explains reverse proxies.
@@ -33,12 +35,6 @@
 ### Nginx Unit
 - [unit.nginx.org](https://unit.nginx.org) open source multi-language application server
 
-<center>
-<iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD<br><br>Nginx has a service mesh too. Is it any good?<br><br>Let&#39;s find out. <a href="https://t.co/890EIahXGq">pic.twitter.com/890EIahXGq</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1356935454206005249?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-
 ## HAProxy (HTTP router and reverse proxy)
 * [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)
 * [haproxy.org](http://www.haproxy.org/)
@@ -58,4 +54,20 @@
 ## Skipper (HTTP router and reverse proxy)
 - [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper)
 
+## Videos
+<details>
+  <summary>Click to expand!</summary>
 
+<center>
+<iframe src="https://www.youtube.com/embed/KZFkssRuBLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD<br><br>Nginx has a service mesh too. Is it any good?<br><br>Let&#39;s find out. <a href="https://t.co/890EIahXGq">pic.twitter.com/890EIahXGq</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1356935454206005249?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
