@@ -9,6 +9,7 @@
     - [HAT is the acronym for Helm, ArgoCD and Tekton](#hat-is-the-acronym-for-helm-argocd-and-tekton)
 - [Comparisons](#comparisons)
 - [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
+- [Slides](#slides)
 - [Tweets](#tweets)
 
 ## Alternatives
@@ -149,13 +150,21 @@
 [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
 </center>
 
+## Slides
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<script async class="speakerdeck-embed" data-id="4792e3bc2f474efb8589d231314091e8" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+</details>
+
 ## Tweets
 <details>
   <summary>Click to expand!</summary>
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: Is it possible that Kubeflow pipeline is one of the best CI/CD tools for Kubernetes?<br><br>I spent some time playing with Kubernetes &amp; <a href="https://twitter.com/kubeflow?ref_src=twsrc%5Etfw">@kubeflow</a> pipelines, and they have one feature which is just great:<br><br>You can define the pipeline with real code! <a href="https://t.co/gNDzvvkCij">pic.twitter.com/gNDzvvkCij</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1285929877493800961?ref_src=twsrc%5Etfw">July 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<script async class="speakerdeck-embed" data-id="4792e3bc2f474efb8589d231314091e8" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
 </details>
+

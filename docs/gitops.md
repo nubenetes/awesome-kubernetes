@@ -21,6 +21,7 @@
 	- [AWS Kubernetes](#aws-kubernetes)
 	- [Weave Kubernetes Platform](#weave-kubernetes-platform)
 	- [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
+- [Tweets](#tweets)
 
 ## Introduction
 - [gitops.tech 🌟](https://www.gitops.tech/)
@@ -232,6 +233,11 @@ Weaveworks's Flagger.
 * [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
 * [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: What is GitOps?<br><br>Is this something that you should learn?<br><br>Let&#39;s dive into it. <a href="https://t.co/hsMUesvP23">pic.twitter.com/hsMUesvP23</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1288469479693803525?ref_src=twsrc%5Etfw">July 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>
