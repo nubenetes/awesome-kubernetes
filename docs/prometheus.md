@@ -32,6 +32,7 @@
         - [Deployment and Configuration](#deployment-and-configuration-1)
     - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
         - [JMeter Example Test Plans](#jmeter-example-test-plans)
+- [Videos](#videos)
 
 ## Introduction
 * [**prometheus.io**](https://prometheus.io/)
@@ -226,10 +227,6 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * https://github.com/cyrille-leclerc/opentelemetry-maven-extension Maven extension to observe Maven builds as distributed traces using OpenTelemetry
 * https://github.com/equinix-labs/otel-cli OpenTelemetry command-line tool for sending events from shell scripts & similar environments
 * https://github.com/ansible-collections/community.general/pull/3091 Send distributed traces for the ansible runs with OpenTelemetry
-
-<center>
-<iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
 
 #### Telegraf Collector
 * [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)
@@ -662,3 +659,13 @@ drwxrwxr-x 3 activemq activemq    19 Jan 10 16:22 ..
 JMeter|Artemis Grafana|Artemis Dashboard
 :-------:|:---------:|:-------:
 ![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
+
+
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
