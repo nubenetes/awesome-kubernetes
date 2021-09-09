@@ -1,6 +1,12 @@
 # About
 Unofficial Red Hat. A Community Linkedin Group since 2009. Red Hat is the world's leading provider of open source solutions.
 
+Cloud Computing job market in 2016:
+
+<center>
+![cloud job market 2016](images/cloud_job_market_2016.png)
+</center>
+
 <info@redhatspain.com>
 
 
