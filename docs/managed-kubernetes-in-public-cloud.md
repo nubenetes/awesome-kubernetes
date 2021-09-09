@@ -9,6 +9,7 @@
 - [IKS IBM Cloud Kubernetes Service](#iks-ibm-cloud-kubernetes-service)
 - [Kubesphere](#kubesphere)
 - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
+- [Videos](#videos)
 
 ## Introduction
 * [infoworld.com: 6 reasons to switch to managed Kubernetes](https://www.infoworld.com/article/3614605/6-reasons-to-switch-to-managed-kubernetes.html) Managed Kubernetes services have matured to the point where many enterprises are handing over the keys to their clusters. Here we identify some of the main drivers behind that trend.
@@ -26,10 +27,6 @@
 - [thenewstack.io: Otomi Container Platform Offers an Integrated Kubernetes Bundle](https://thenewstack.io/otomi-container-platform-offers-an-integrated-kubernetes-bundle/) If you want to enjoy the benefits of Kubernetes, configuring and installing the software itself can be just the first of many deeply technical and oftentimes confusing steps. To simplify this, many major cloud providers offer managed Kubernetes services, but even then you may need to install secondary services to handle tasks such as tracing, logging, monitoring, identity access management, and so on. The Otomi Container Platform looks to address this complexity by bundling together more than 30 different Kubernetes add-ons, as well as providing what it calls an “OSX like interface,” and today the project has open sourced a community edition under the Apache 2.0 license.
     - [otomi.io 🌟](https://otomi.io/)
     - [github: Otomi](https://github.com/redkubes/otomi-core)
-
-<center>
-<iframe src="https://www.youtube.com/embed/xM9jpcVGTzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
 
 ## AWS EKS (Hosted/Managed Kubernetes on AWS)
 * [dzone: kops vs EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
@@ -195,3 +192,12 @@
     - Platform9 Managed Kubernetes 
     - Red Hat OpenShift
     - Juke, from HTBase, now owned by Juniper Networks. 
+
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe src="https://www.youtube.com/embed/xM9jpcVGTzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>  

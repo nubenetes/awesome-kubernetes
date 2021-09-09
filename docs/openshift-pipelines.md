@@ -21,6 +21,7 @@
 		- [Jenkins Pipelines in OpenShift 4](#jenkins-pipelines-in-openshift-4)
 	- [OpenShift Pipelines (aka Tekton CI/CD Pipelines)](#openshift-pipelines-aka-tekton-cicd-pipelines)
 		- [Tekton and Tekton Pipelines](#tekton-and-tekton-pipelines)
+- [Videos](#videos)
 - [Slides](#slides)
 
 ##  Deploying Jenkins on OpenShift
@@ -55,10 +56,6 @@
 #### OpenShift Pipelines with S2i and Jenkins Blue Ocean. Deploying Blue Ocean on OpenShift
 - [OpenShift Pipelines with Jenkins Blue Ocean 🌟](https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean)
 - [github.com/siamaksade/jenkins-blueocean](https://github.com/siamaksade/jenkins-blueocean) Jenkins Blue Ocean for OpenShift Jenkins S2I
-
-<center>
-<iframe src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
 
 ## OpenShift Deployments with Deployment Descriptor
 * [Dzone: a quick guide to deploying java apps on openshift](https://dzone.com/articles/a-quick-guide-to-deploying-java-apps-on-openshift)
@@ -134,6 +131,15 @@
 * [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/)
 * [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
 * [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
+
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
 
 ## Slides
 <details>
