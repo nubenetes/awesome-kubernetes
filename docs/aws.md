@@ -640,6 +640,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [aws.amazon.com: IAM Access Analyzer Update – Policy Validation](https://aws.amazon.com/blogs/aws/iam-access-analyzer-update-policy-validation/)
 - [netflixtechblog.com: ConsoleMe: A Central Control Plane for AWS Permissions and Access](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8) - [github.com/Netflix/consoleme](https://github.com/Netflix/consoleme)
 - [cloudkatha.com: Difference between Root User and IAM User in AWS You Need to Know](https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know/)
+- [ben11kehoe.medium.com: AWS Authentication: Principals (users and roles) in AWS IAM 🌟](https://ben11kehoe.medium.com/principals-in-aws-iam-38c4a3dc322a) this article uses the boto3, the AWS Python SDK, as an example, but other SDKs have analogous features.
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -913,5 +914,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t know how to get started with AWS?<br><br>I can relate!<br>When I started, AWS already offered so much that I literally couldn&#39;t find an entry point.<br><br>If you still feel this way, let me give you a little guide.<br><br>🧵⏬</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1379096498592432128?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is BIG! You can now assign IPv4 and IPv6 prefixes to your ENIs. The net result is that EC2 instances will now support vastly larger number of IP addresses, and managing those addresses will become easier. 1/n<a href="https://t.co/3ilNrFtuAp">https://t.co/3ilNrFtuAp</a></p>&mdash; Joe Magerramov (@_joemag_) <a href="https://twitter.com/_joemag_/status/1418345704964063232?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When we first launched the managed Prometheus service, one of the feedback was about cost of ingestion. We announced a pricing discount up to 84% recently in case you haven&#39;t seen it. <a href="https://t.co/wqioBvSXme">https://t.co/wqioBvSXme</a> <a href="https://t.co/64ezXUg753">pic.twitter.com/64ezXUg753</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1435717610704834566?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

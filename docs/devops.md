@@ -21,6 +21,9 @@
 - [NoOps](#noops)
 - [Data as Code](#data-as-code)
 - [Youtube Playlists](#youtube-playlists)
+- [Bunch of Images](#bunch-of-images)
+- [Videos](#videos)
+- [Tweets](#tweets)
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
@@ -156,6 +159,7 @@
 * [devopsonline.co.uk: The role of Automation in DevOps](https://www.devopsonline.co.uk/the-role-of-automation-in-devops/)
 * [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation/)
 * [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/sites/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/)
+* [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -278,7 +282,12 @@
 - [youtube playlist: Ansible 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)
 - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 
 
+## Bunch of Images
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
+
 [![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 
 [![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
@@ -320,13 +329,24 @@
 </div>
 </center>
 <br/>
+</details>
+
+## Videos
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <iframe src="https://www.youtube.com/embed/js-rq7SvPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It drives me nuts when people say &quot;DevOps&quot; when they really mean &quot;Ops.&quot; Ops didn&#39;t just disappear, folks.</p>&mdash; emily freeman (@editingemily) <a href="https://twitter.com/editingemily/status/1404840667558207489?ref_src=twsrc%5Etfw">June 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> can hide some deep K8s knowledge.<a href="https://twitter.com/crossplane_io?ref_src=twsrc%5Etfw">@crossplane_io</a> does the same for infrastructure, best practices Postgres can be as simple as provide the version and the size. A game-changer for platforms</p>&mdash; Omer Kahani (@OmerKahani) <a href="https://twitter.com/OmerKahani/status/1427711077350006786?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
+</details>

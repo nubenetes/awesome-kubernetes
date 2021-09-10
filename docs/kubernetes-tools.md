@@ -321,6 +321,7 @@
 * [kube-scheduler-simulator](https://github.com/kubernetes-sigs/kube-scheduler-simulator) Web-based Kubernetes scheduler simulator
 * [multus-cni 🌟](https://github.com/k8snetworkplumbingwg/multus-cni) A CNI meta-plugin for multi-homed pods in Kubernetes. Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods. Typically, in Kubernetes each pod only has one network interface (apart from a loopback) -- with Multus you can create a multi-homed pod that has multiple interfaces. This is accomplished by Multus acting as a "meta-plugin", a CNI plugin that can call multiple other CNI plugins.
 * [kim - The Kubernetes Image Manager](https://github.com/rancher/kim)
+* [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 

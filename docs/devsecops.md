@@ -162,6 +162,7 @@
 - [trivy](https://github.com/aquasecurity/trivy) A Simple and Comprehensive Vulnerability Scanner for Container Images, Git Repositories and Filesystems. Suitable for CI
 - [returngis.net: Buscar vulnerabilidades en imágenes de Docker con Snyk](https://www.returngis.net/2021/09/buscar-vulnerabilidades-en-imagenes-de-docker-con-snyk/)
 - [iximiuz.com: The need for slimmer containers. Scanning official Python images with Snyk](https://iximiuz.com/en/posts/thick-container-vulnerabilities/)
+- [gkovan.medium.com: A Zero Trust Approach for Securing the Supply Chain of Microservices Packaged as Container Images (sigstore, kyverno, openshift tekton, quarkus) 🌟](https://gkovan.medium.com/a-zero-trust-approach-for-securing-the-supply-chain-of-microservices-packaged-as-container-images-89d2f5b7293b)
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
 - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)

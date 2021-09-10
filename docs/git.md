@@ -331,6 +331,7 @@ git push origin -f
 - [medium: Create CI/CD with Github Actions + AWS EC2, CodeDeploy and S3](https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0)
 - [actions-runner-controller 🌟](https://github.com/actions-runner-controller/actions-runner-controller) Kubernetes controller for GitHub Actions self-hosted runnners 
 - [itnext.io: GitHub Actions for Android Developers](https://itnext.io/github-actions-for-android-developers-9ae606df2bfa)
+- [github.com: Branch Cleanup Action 🌟](https://github.com/jessfraz/branch-cleanup-action) A GitHub action to automatically delete the branch after a pull request has been merged.
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 
