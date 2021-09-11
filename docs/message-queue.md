@@ -109,6 +109,7 @@
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
 - [kubemq.io: Kafka VS KubeMQ 🌟](https://kubemq.io/kafka-vs-kubemq/)
+- [github.com/kubemq-io/kubemq-community 🌟](https://github.com/kubemq-io/kubemq-community) KubeMQ community version is now available as an open-source project!
 
 ### Google Cloud Platform Pub/Sub
 - [Google Cloud Platform Pub/Sub](https://cloud.google.com/pubsub/docs/overview)
@@ -408,5 +409,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pub-Sub ≠ Partitioning ≠ Multiplexing <a href="https://t.co/0ZVaH9Mxvr">pic.twitter.com/0ZVaH9Mxvr</a></p>&mdash; Clemens Vasters 🇪🇺☁📨 (@clemensv) <a href="https://twitter.com/clemensv/status/1288152399211909120?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are excited to announce that KubeMQ community version is now available as an open-source project!<br><br>The community version supports all messaging patterns, connectors, bridges, and run in production. Give us a star on Github if you like our project!<a href="https://t.co/0ufRQ5bhCE">https://t.co/0ufRQ5bhCE</a></p>&mdash; KubeMQ (@KubeMq) <a href="https://twitter.com/KubeMq/status/1436284885132529707?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

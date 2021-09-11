@@ -5,12 +5,9 @@ This blog started in 2018, after finishing my first relevant project on cloud co
 
 Since then I tried to apply in my country what I learnt from the germans and from the other european colleagues. I'm not a freelancer and I continue working as a regular contractor or employee. 
 
-This blog tries to share relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation. Let's improve the IT sector and the opportunities.
+This blog tries to share relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation. Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!.
 
 <info@redhatspain.com>
-
-
-Una vez más, para Pilar
 
 ----
 

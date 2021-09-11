@@ -17,6 +17,7 @@
 
 ## Amazon ECS
 - [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
+- [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere/) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
 
 ## Nomad
 * [Nomad](https://nomadproject.io/)
