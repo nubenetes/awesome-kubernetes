@@ -112,6 +112,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [medium.com: Top 10 Courses to Learn Microservices in Java and Spring Framework](https://medium.com/javarevisited/top-5-courses-to-learn-microservices-in-java-and-spring-framework-e9fed1ba804d)
 - [dzone: How to Create Microservices Using Spring 🌟](https://dzone.com/articles/how-to-create-microservices-using-spring) Let’s consider the use case of BookMyHotel Web Application, developed by a company known as MyInternetSolutions.
 - [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6)
+- [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/)
 
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)

@@ -7,6 +7,7 @@
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
 - [KPIs and Employee Performance](#kpis-and-employee-performance)
 - [MVP Minimum Viable Product](#mvp-minimum-viable-product)
+- [Bunch of images](#bunch-of-images)
 - [Tweets](#tweets)
 
 ## Project Management Methodology
@@ -85,21 +86,21 @@
 - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)
 - [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins/) The big benefits of little changes.
 
+## Bunch of images
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
+
 [![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
-</center>
 
-<center>
 [![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
-</center>
 
-<center>
 [![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
-</center>
 
-<center>
 [![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 </center>
+</details>  
 
 ## Tweets
 <details>
