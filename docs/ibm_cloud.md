@@ -23,8 +23,7 @@
 - [reuters.com: IBM to break up 109-year old company to focus on cloud growth 🌟](https://www.reuters.com/article/us-ibm-divestiture/ibm-to-break-up-109-year-old-company-to-focus-on-cloud-growth-idUSKBN26T1TZ)
 
 ## IBM cloud Enterprise Sandbox
-- [IBM cloud Enterprise ccccccfrnufhucnriuhfecnljdhjltirdvdgrrhunjfvccccccfrnufhgluucntrtnhjcbvfvlftktcvchrdnlug
-- Sandbox 🌟](https://ibm-gsi-ecosystem.github.io/ibm-gsi-cloudnative-journey/)
+- [IBM cloud Enterprise Sandbox 🌟](https://ibm-gsi-ecosystem.github.io/ibm-gsi-cloudnative-journey/)
 
 ## IBM API Connect
 - [IBM API Connect](https://developer.ibm.com/apiconnect/)

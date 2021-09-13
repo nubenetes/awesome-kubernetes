@@ -3,7 +3,7 @@ Unofficial Red Hat. A Community Linkedin Group since 2009. Red Hat is the world'
 
 This blog started in 2018, after finishing my first relevant project on cloud computing with a well known consulting firm. It was an international project coordinated from Munich with remote work from other european countries and regular flights. The client was a major car manufacturer with a big investment in OpenShift and Cloudbees/Jenkins infrastructure. Our role was to help the client with their pretty large CI/CD ecosystem while also implementing a new distributed solution, including areas of development and operations and within a DevOps model. Standardization and automation with a GitOps pattern was a requirement and I learnt their advantages, specially in demanding projects like this with hundreds of real microservices with a big volume of developers and final users.
 
-Since then I tried to apply in my country what I learnt from the germans and from the other european colleagues. I'm not a freelancer and I continue working as a regular contractor or employee. 
+Since then I tried to apply in my country what I learnt from the germans and other european colleagues. I'm not a freelancer and I continue working as a regular contractor or employee. 
 
 This blog tries to share relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation. Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!.
 

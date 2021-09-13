@@ -55,6 +55,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The interview process is ultra-competitive.<br><br>But with proper preparation, it is possible to stand out.<br><br>THREAD: 20 common interview questions, what they really mean, and how to nail them:</p>&mdash; Sahil Bloom (@SahilBloom) <a href="https://twitter.com/SahilBloom/status/1423971814443819009?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working for a bad manager can torch your professional confidence and make you feel like you&#39;re incapable of succeeding at your job.<br><br>Here&#39;s a checklist to help you tell the difference between legitimate criticism you should act upon and illegitimate criticism you should ignore.</p>&mdash; Phoebe the Career Coach (@betterwphoebe) <a href="https://twitter.com/betterwphoebe/status/1424757039713112068?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Companies optimize for people who can pass the coding interview instead of optimizing for people who can do the job.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1436836735569199106?ref_src=twsrc%5Etfw">September 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

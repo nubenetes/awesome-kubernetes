@@ -460,6 +460,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Git Push](https://plugins.jenkins.io/git-push)
 * [ec2-fleet-plugin](https://plugins.jenkins.io/ec2-fleet/) The EC2 Fleet Plugin launches EC2 Spot or On Demand instances as worker nodes for Jenkins CI server, automatically scaling the capacity with the load.
 * [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud)
+* [Nomad](https://plugins.jenkins.io/nomad)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

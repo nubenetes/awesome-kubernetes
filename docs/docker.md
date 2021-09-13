@@ -102,6 +102,9 @@
 * [blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques](https://blog.aquasec.com/container-isolation-techniques)
 * [infoworld.com: How Docker broke in half](https://www.infoworld.com/article/3632142/how-docker-broke-in-half.html) The game changing container company is a shell of its former self. What happened to one of the hottest enterprise technology businesses of the cloud era?
 * [cloudsavvyit.com: How to Pass Environment Variables to Docker Containers](https://www.cloudsavvyit.com/14081/how-to-pass-environment-variables-to-docker-containers/)
+* [dev.to: One does not "just containerize" an app](https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae)
+    * The Docker ecosystem is filled with leaky abstractions. The utopian vision of Docker containers is a world where a developer can grab a base container for a language, copy in their code with a minimal Dockerfile, and be ready to develop and deploy instantly.
+    * Unfortunately, this landscape is filled with per-language gotchas that make this world a far cry from reality. Here are some of the wonky things I've run into when working with containers.
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)

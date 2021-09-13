@@ -5,6 +5,7 @@
 - [Adoption of Cloud-Native Architecture](#adoption-of-cloud-native-architecture)
 - [Migration Styles. Lift and Shift Cloud Migration Strategy](#migration-styles-lift-and-shift-cloud-migration-strategy)
 - [Architectural Patterns for Caching Microservices](#architectural-patterns-for-caching-microservices)
+- [Bunch of Images](#bunch-of-images)
   
 ## FAQ
 - [Should I Use A Microservices Architecture? What about the UI? 🌟](https://www.jamesmichaelhickey.com/microservices-architecture/)
@@ -45,7 +46,10 @@
 ## Architectural Patterns for Caching Microservices
 - [hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
 
----
+## Bunch of Images
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 [![history of microservices](images/history_of_microservices.png)](https://bit.ly/kubeappserver)
 
@@ -55,3 +59,4 @@
 
 [![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
 </center>
+</details>

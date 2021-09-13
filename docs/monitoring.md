@@ -194,6 +194,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork/)
 - [thenewstack.io: This Week in Programming: The ElasticSearch Saga Continues](https://thenewstack.io/this-week-in-programming-the-elasticsearch-saga-continues/)
 - [aws.amazon.com: Keeping clients of OpenSearch and Elasticsearch compatible with open source](https://aws.amazon.com/blogs/opensource/keeping-clients-of-opensearch-and-elasticsearch-compatible-with-open-source/)
+- [aws.amazon.com: Amazon Elasticsearch Service Is Now Amazon OpenSearch Service and Supports OpenSearch 1.0](https://aws.amazon.com/es/blogs/aws/amazon-elasticsearch-service-is-now-amazon-opensearch-service-and-supports-opensearch-10)
 
 ## Performance
 * [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)

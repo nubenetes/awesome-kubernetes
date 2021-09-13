@@ -214,6 +214,7 @@
 - [github.com/keilerkonzept/aws-secretsmanager-files](https://pkg.go.dev/github.com/keilerkonzept/aws-secretsmanager-files) Writes AWS Secrets Manager secrets to files on disk. Single binary, no dependencies. osx & linux & windows.
 - [medium: How to Handle Secrets Like a Pro Using Gitops](https://medium.com/containers-101/how-to-handle-secrets-like-a-pro-using-gitops-f3b812536434)
 - [youtube: Which of your Kubernetes Apps are accessing Secrets? 🌟](https://www.youtube.com/watch?v=6UF-QxiRGms&ab_channel=Kubevious) How do you know which apps across all your clusters are using Kubernetes Secrets? How are you sure that your secrets are not leaking? In the next 5 minutes, you will learn right that. 
+- [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) gsm-controller is a Kubernetes controller that copies secrets from Google Secrets Manager into Kubernetes secrets. The controller watches Kubernetes secrets looking for an annotation, if the annotation is not found on the secret nothing more is done.
 
 ### Store private data in git repo
 - [git-secret.io](https://git-secret.io/)
@@ -254,6 +255,7 @@
 - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
 - [igorzhivilo.com: Scheduled backup of Vault secrets with Jenkins on Kubernetes](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/) If you ever wondered how to save the secrets of HashiCorp's Vault on a daily basis.
 - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)
+- [hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store CSI Driver](https://github.com/hashicorp/vault-csi-provider) HashiCorp Vault provider for the Secrets Store CSI driver allows you to get secrets stored in Vault and use the Secrets Store CSI driver interface to mount them into Kubernetes pods
 
 ### Azure Key Vault to Kubernetes akv2k8s
 - [akv2k8s.io 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way

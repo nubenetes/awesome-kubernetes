@@ -323,6 +323,8 @@
 * [kim - The Kubernetes Image Manager](https://github.com/rancher/kim)
 * [KUDO: The Kubernetes Universal Declarative Operator 🌟](https://kudo.dev/) KUDO is a toolkit that makes it easy to build Kubernetes Operators, in most cases just using YAML.
 * [K8sPurger 🌟](https://github.com/yogeshkk/K8sPurger) K8SPurger is a controller that finds all unused resources and show them in a nice format
+* [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) gsm-controller is a Kubernetes controller that copies secrets from Google Secrets Manager into Kubernetes secrets. The controller watches Kubernetes secrets looking for an annotation, if the annotation is not found on the secret nothing more is done.
+* [kontacts](https://github.com/scalabledelivery/kontacts) A Kubernetes directory tool for finding pods and services.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 

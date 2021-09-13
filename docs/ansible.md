@@ -113,6 +113,7 @@
 
 ## Ansible Playbooks
 - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) Build a Kubernetes cluster using Ansible with k3s.
+- [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) Ansible role for installing k3s as either a standalone server or HA cluster.
 
 ## Ansible Collections
 - [Ansible Collections 🌟](https://github.com/ansible-collections)

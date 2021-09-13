@@ -2,8 +2,8 @@
 - [Introduction](#introduction)
 - [Freelancing in Spain](#freelancing-in-spain)
 - [Top Freelancing Platforms](#top-freelancing-platforms)
-- [Alternatives. Umbrella Companies](#alternatives-umbrella-companies)
-  - [Umbrella companies](#umbrella-companies)
+- [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
+  - [Umbrella Companies](#umbrella-companies)
 - [Tweets](#tweets)
 ## Introduction
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
@@ -41,16 +41,18 @@
 - [hellobonsai](https://www.hellobonsai.com/)
 - [remoteone](https://remote.one/)
 
-## Alternatives. Umbrella Companies
+## Alternatives. Contractor Management / Umbrella Company solutions
 - If you are not earning substantial amounts of money, Umbrella Companies are a cheaper option than being self-employed in Spain. They generate invoices for you, pay social security, deduct tax and file your tax return at the end of the year. 
+- They offer solutions across Europe, the Middle East and Africa.
+- Most of the time the umbrella company will want you to work as a freelancer. Otherwise it's a B2B contract role for employees, and your Umbrella company will raise invoices to the client, with whom you will be signed a contract if you get shortlisted (although many clients will reject an increase in the invoice).
 - [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/umbrella/what-is-an-umbrella-company/)
 - [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain)
 - [freelance.es](https://freelance.es/) Work like an umbrella company
-- [contractortaxation.com/contracting-in-spain 🌟](https://contractortaxation.com/contracting-in-spain)
+- [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)
 
-###  Umbrella companies
-- https://accessfinancial.com/ 
-- https://www.6catsint.com/
+### Umbrella Companies
+- https://6catsint.com
+- https://accessfinancial.com
 - https://groupchesterfield.com/umbrella-services/ 
 - https://pixie-services.com 
 

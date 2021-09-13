@@ -22,6 +22,7 @@
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
 - [Multi Cloud](#multi-cloud)
 - [Low Code and No Code](#low-code-and-no-code)
+- [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -144,14 +145,7 @@
 * [developers.redhat.com: devnation/summer-camp 🌟](https://developers.redhat.com/devnation/summer-camp) A great resource to learn cloud-native, kubernetes, event-driven architecture and more.
 * [community.hpe.com: Containers vs. VMs: What’s the difference?](https://community.hpe.com/t5/HPE-Ezmeral-Uncut/Containers-vs-VMs-What-s-the-difference/ba-p/7147090)
 * [hiralee.medium.com: Software Architecture vs Design](https://hiralee.medium.com/software-design-vs-architecture-1da0a94322a4)
-
-<center>
-[![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
-
-[![you dont need kubenetes](images/you_dont_need_kubernetes.jpg)](https://twitter.com/a_sykim)
-
-[![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
-</center>
+* [blog.deref.io: Containers Don't Solve Everything 🌟](https://blog.deref.io/containers-dont-solve-everything/) Our industry has made incredible strides in the past decade, thanks in part to technologies like Docker, Docker Compose, and Kubernetes. However, we are still figuring out how to do development in the heterogeneous environments in which we live.
 
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
@@ -254,16 +248,6 @@
 ## Multi Cloud
 - [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
 
-<center>
-[![Openshift SaaS VS Kubernetes SaaS](images/openshift-vs-kubernetes-saas.png)](https://proteon.com/2018/10/18/openshift-in-a-world-of-kubernetes-as-a-service/)
-
-[![Openshift VS Kubernetes](images/openshift_vs_kubernetes.jpeg)](https://www.linkedin.com/feed/update/urn:li:activity:6459657167300583424)
-
-[![Kubernetes on its own is not enough](images/k8s-not-enough.jpg)](https://twitter.com/brendandburns)
-
-[![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
-</center>
-
 ## Low Code and No Code
 - [dzone: Low-Code, the Silent Revolution](https://dzone.com/articles/low-code-the-silent-revolution) For years I have made bold statements about Software Automation. Today we've got research more or less proving that most of what I claimed was true.
 - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles) See the 10 most popular articles on Low-Code with topics covering Low-Code introduction, building an application with Low-Code, comparison with Microservices, a smack-down with pro-code, and more!
@@ -273,6 +257,28 @@
 - [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams/)
 - [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) Prepare for hard times or move to where the sun is shining
 - [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/)
+
+## Bunch of Images
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+[![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
+
+[![you dont need kubenetes](images/you_dont_need_kubernetes.jpg)](https://twitter.com/a_sykim)
+
+[![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
+
+[![Openshift SaaS VS Kubernetes SaaS](images/openshift-vs-kubernetes-saas.png)](https://proteon.com/2018/10/18/openshift-in-a-world-of-kubernetes-as-a-service/)
+
+[![Openshift VS Kubernetes](images/openshift_vs_kubernetes.jpeg)](https://www.linkedin.com/feed/update/urn:li:activity:6459657167300583424)
+
+[![Kubernetes on its own is not enough](images/k8s-not-enough.jpg)](https://twitter.com/brendandburns)
+
+[![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
+</center>
+</details>
 
 ## Videos
 <details>

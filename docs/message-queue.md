@@ -330,6 +330,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [towardsdatascience.com: Apache Airflow for containerized data-pipelines](https://towardsdatascience.com/apache-airflow-for-containerized-data-pipelines-4d7a3c385bd) Are you having problems running tasks with a different version of Python on Airflow? In this article, I explain how to solve this issue.
 - [Apache Airflow official helm chart 🌟](https://airflow.apache.org/docs/helm-chart/)
 - [youtube: Airflow Helm Chart : Quick Start For Beginners in 10mins](https://www.youtube.com/watch?v=GDOw8ByzMyY&ab_channel=MarcLamberti)
+- [snowflake.com: Migrating Airflow from Amazon EC2 to Kubernetes](https://www.snowflake.com/blog/migrating-airflow-from-amazon-ec2-to-kubernetes/)
 
 ### Couler
 - [Couler](https://github.com/couler-proj/couler) Couler aims to provide a unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.
