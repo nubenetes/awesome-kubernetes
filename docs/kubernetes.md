@@ -1093,10 +1093,6 @@
 ## Container Flowchart
 * [Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
 
-<center>
-[![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
-</center>
-
 ## Kubernetes Scripts
 - [Kubernetes Scripts 🌟](https://github.com/eldada/kubernetes-scripts)
 - [Get applied and effective apiVersion from Kubernetes objects](https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236)
@@ -1127,6 +1123,8 @@
 [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
 
 [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
+
+[![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
 </center>
 </details>
 

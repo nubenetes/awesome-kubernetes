@@ -13,6 +13,7 @@
 	- [OpenWhisk](#openwhisk)
 	- [Dapr Microservices Frameworks](#dapr-microservices-frameworks)
 - [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
+- [Tweets](#tweets)
 
 ## Serverless Architectures
 * [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
@@ -100,6 +101,11 @@
 * [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)
 * [thenewstack.io: Build a Serverless API with AWS Gateway and Lambda](https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda/)
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 [![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
 </center>
+</details>
