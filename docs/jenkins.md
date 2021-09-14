@@ -131,6 +131,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [jenkins.io: Docker images use Java 11 by default 🌟](https://www.jenkins.io/blog/2021/08/17/docker-images-use-jdk-11-by-default/) The default Java version in the Jenkins Docker images is switching to Java 11. 
 * [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases/)
 * [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) A Jenkins-based tool receives pipeline alerts and, in turn, determines who to notify.
+* [igorzhivilo.com: Build CI/CD of the future with Kubernetes (AWS EKS) and Jenkins 🌟](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/) **A series of tutorials with code examples about how to build CI/CD of the future using Kubernetes/Jenkins/AWS**
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)

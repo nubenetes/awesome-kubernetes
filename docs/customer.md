@@ -1,9 +1,10 @@
 # Customer Success Stories
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-    - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-    - [BMW InnovationLab](#bmw-innovationlab)
-    - [GAIA-X](#gaia-x)
+  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+  - [BMW InnovationLab](#bmw-innovationlab)
+  - [GAIA-X](#gaia-x)
 - [Carrefour Spain](#carrefour-spain)
+- [Decathlon](#decathlon)
 - [Add your Cloud Native Project here](#add-your-cloud-native-project-here)
 - [Videos](#videos)
 
@@ -42,6 +43,9 @@
 
 ## Carrefour Spain
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
+
+## Decathlon
+- [quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus](https://quarkus.io/blog/decathlon-user-story/) Another successful Quarkus user story! Decathlon picking QuarkusIO over springboot
 
 ## Add your Cloud Native Project here
 - Bla bla bla
