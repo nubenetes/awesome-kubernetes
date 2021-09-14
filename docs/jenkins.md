@@ -461,6 +461,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [ec2-fleet-plugin](https://plugins.jenkins.io/ec2-fleet/) The EC2 Fleet Plugin launches EC2 Spot or On Demand instances as worker nodes for Jenkins CI server, automatically scaling the capacity with the load.
 * [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud)
 * [Nomad](https://plugins.jenkins.io/nomad)
+* [Azure Key Vault](https://plugins.jenkins.io/azure-keyvault)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -603,5 +604,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> tricks you should know✅<br>A thread🧵👇<a href="https://twitter.com/hashtag/jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#jenkins</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a></p>&mdash; gekocloud (@geko_cloud) <a href="https://twitter.com/geko_cloud/status/1403282847096573955?ref_src=twsrc%5Etfw">June 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kuisathaverat?ref_src=twsrc%5Etfw">@kuisathaverat</a> and I just recorded one of our sessions for the upcoming <a href="https://twitter.com/hashtag/DevOpsWorld?src=hash&amp;ref_src=twsrc%5Etfw">#DevOpsWorld</a> with real examples how distributed traces with <a href="https://twitter.com/hashtag/OpenTelemetry?src=hash&amp;ref_src=twsrc%5Etfw">#OpenTelemetry</a> in <a href="https://twitter.com/hashtag/JenkinsCI?src=hash&amp;ref_src=twsrc%5Etfw">#JenkinsCI</a> can help to troubleshoot and apply performance improvements without the need of debugging logs. 👌 great work mate 🤩</p>&mdash; Victor Mrtez (@AnInfinite) <a href="https://twitter.com/AnInfinite/status/1418260151996399618?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can save a lot of time and resources if you configure the clone your <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> jobs to perform a shallow, no tags clone instead of a full clone. The screenshot shows how to configure it in a Jenkinsfile.<a href="https://twitter.com/hashtag/Jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#Jenkins</a> <a href="https://twitter.com/hashtag/cicd?src=hash&amp;ref_src=twsrc%5Etfw">#cicd</a> <a href="https://t.co/yI0EFGTYbQ">pic.twitter.com/yI0EFGTYbQ</a></p>&mdash; Igorski (@IgorskiCo) <a href="https://twitter.com/IgorskiCo/status/1437309452416425990?ref_src=twsrc%5Etfw">September 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
