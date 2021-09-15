@@ -18,6 +18,7 @@
 		- [Terraform and managed AWS EKS](#terraform-and-managed-aws-eks)
 	- [Terraform and Azure](#terraform-and-azure)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
+	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
 - [Graph Visualization Software](#graph-visualization-software)
 - [Gruntwork](#gruntwork)
@@ -233,6 +234,9 @@
 
 ### Terraform and Apache Kafka
 - [medium: From AWS CloudFormation to Terraform: Migrating Apache Kafka](https://medium.com/riskified-technology/from-aws-cloudformation-to-terraform-migrating-apache-kafka-32bdabdbaa59)
+
+### Terraform Video Tutorials
+- [youtube: Terraform Tutorial for beginners | AWS Infrastructure as Code | Github Actions 🌟](https://www.youtube.com/playlist?list=PLlvAxgO7JdIXAzHx887zl-4no4X-CtiFu)
 
 ## CDK for Terraform
 - [CDK for Terraform 🌟](https://github.com/hashicorp/terraform-cdk) CDK (Cloud Development Kit) for Terraform allows developers to use familiar programming languages to define cloud infrastructure and provision it through HashiCorp Terraform.

@@ -79,6 +79,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [solo.io: Upgrading Istio without Downtime](https://www.solo.io/blog/upgrading-istio-without-downtime/)
 - [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://www.tetrate.io/blog/istio-servicemesh-api-gateway/)
 - [mirantis.com: Your App Deserves More than Kubernetes Ingress: Kubernetes Ingress vs. Istio Gateway [webinar]](https://www.mirantis.com/blog/your-app-deserves-more-than-kubernetes-ingress-kubernetes-ingress-vs-istio-gateway-webinar)
+- [solo.io: Configuration as Data, GitOps, and Controllers: it’s not simple for multi-cluster](https://www.solo.io/blog/configuration-as-data-gitops-and-controllers-its-not-simple-for-multi-cluster/)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

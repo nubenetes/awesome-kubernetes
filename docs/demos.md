@@ -78,8 +78,9 @@
 - [Serverless](#serverless)
 
 ## DevOps Screencasts
-- [SysAdmin Casts 🌟](https://sysadmincasts.com/) 
-- [DEVOPS Library 🌟](https://devopslibrary.com/)
+- [SysAdmin Casts](https://sysadmincasts.com/) 
+- [DEVOPS Library](https://devopslibrary.com/)
+- [youtube: Cloud Quick POCs](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)
 
 ## DevOps Blogs
 - [DevStack](https://devstack.in/) All about DevOps
@@ -629,6 +630,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [azapril.dev: Deploying a LogicApp with Terraform (Bonus: in an AzDO pipeline)](https://azapril.dev/2021/04/12/deploying-a-logicapp-with-terraform/)
 - [k21academy.com: Automate AWS Virtual Machine using Terraform – Creation Demo](https://k21academy.com/terraform-iac/terraform-automate-aws-vm/)
 - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)
+- [StarpTech/k-andy](https://github.com/StarpTech/k-andy) This terraform module will install a High Availability K3s Cluster with Embedded DB in a private network on Hetzner Cloud.
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

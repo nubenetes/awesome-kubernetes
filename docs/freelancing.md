@@ -15,6 +15,7 @@
 - [eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable para los autónomos](https://www.eleconomista.es/actualidad/noticias/11361634/08/21/El-acceso-a-financiacion-una-barrera-casi-infranqueable-para-los-autonomos.html)
 - [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](http://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)
 - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)
+- [eleconomista.es: Estos son los gastos de los autónomos que no se pueden deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)
 
 ## Top Freelancing Platforms
 - [malt 🌟](https://www.malt.com/) 

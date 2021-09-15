@@ -17,6 +17,7 @@
 - [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/)
 - [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://loft.sh/blog/the-cost-of-managed-kubernetes-a-comparison/)
 - [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team/)
+- [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417) Financial Operations (FinOps) is a culture that will help you creating cost awareness in your organisation!
 
 ## Books
 - [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)

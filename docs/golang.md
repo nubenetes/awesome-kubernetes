@@ -1,6 +1,6 @@
 # Golang - Go
 - [Introduction](#introduction)
-- [Client Go](#client-go)
+- [Kubernetes Client Go](#kubernetes-client-go)
 - [Building container images](#building-container-images)
 - [Go cheatsheets](#go-cheatsheets)
 - [Go Frameworks](#go-frameworks)
@@ -24,8 +24,9 @@
 - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters/)
 - [cyberciti.biz: How to install Go [golang] on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/)
 - [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide)
+- [go-ini/ini](https://github.com/go-ini/ini) Package ini provides INI file read and write functionality in Go
 
-## Client Go
+## Kubernetes Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 

@@ -573,12 +573,14 @@
 * [dev.to: How to start with Kubernetes for begginer](https://dev.to/dhirajpatra/how-to-start-with-kubernetes-for-begginer-309e)
 * [blog.kubecost.com: The Guide to Kubernetes Labels 🌟](https://blog.kubecost.com/blog/kubernetes-labels/)
 * [kubernetes.io: Alpha in Kubernetes v1.22: API Server Tracing](https://kubernetes.io/blog/2021/09/03/api-server-tracing/)
+* [thenewstack.io: 5 Things Developers Need to Know About Kubernetes Management](https://thenewstack.io/5-things-developers-need-to-know-about-kubernetes-management/)
 
 ### Kubernetes Deployment Strategies
 - [youtube: deployment strategies in kubernetes | recreate | rolling update | blue/green | canary](https://youtu.be/efiMiaFjtn8)
 - [auth0.com: Deployment Strategies In Kubernetes 🌟](https://auth0.com/blog/deployment-strategies-in-kubernetes) Learn what are the different deployment strategies available in Kubernetes and how to use them.
 - [educative.io: A deep dive into Kubernetes Deployment strategies 🌟](https://www.educative.io/blog/kubernetes-deployments-strategies)
 - [weave.works: Kubernetes Deployment Strategies](https://www.weave.works/blog/kubernetes-deployment-strategies)
+- [sivalabs.in: Kubernetes - Blue/Green Deployments](https://www.sivalabs.in/2021/09/kubernetes-blue-green-deployments/)
 
 ### Kubernetes API
 - [kubernetes.io: Kubernetes API 🌟](https://kubernetes.io/docs/reference/kubernetes-api/)

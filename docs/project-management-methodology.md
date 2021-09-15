@@ -40,6 +40,7 @@
 - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
 - [infoq.com: Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream/)
 - [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://rockcontent.com/es/blog/tipos-de-consultoria/) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
+- [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/diagrams/what-is-a-kanban-board/)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

@@ -644,6 +644,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
+- [Standardize compliance in AWS using DevOps and a Cloud Center of Excellence (CCOE) approach](https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach/)
 
 ### AWS CloudFront
 - [Amazon CloudFront now supports HTTP/2 🌟](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
