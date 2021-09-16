@@ -76,6 +76,7 @@
 - [fedoramagazine.org: Use Docker Compose with Podman to Orchestrate Containers on Fedora Linux](https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-containers-on-fedora/)
 - [opensource.com: Run a Linux virtual machine in Podman](https://opensource.com/article/21/7/linux-podman) Use Podman Machine to create a basic Fedora CoreOS VM to use with containers and containerized workloads.
 - [developers.redhat.com: Transitioning from Docker to Podman 🌟](https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman)
+- [redhat.com: How to run Podman on Windows](https://www.redhat.com/sysadmin/podman-windows-wsl) With a little help from Windows Subsystem for Linux, you can use Podman to build container images, run a web server in a container, and more.
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

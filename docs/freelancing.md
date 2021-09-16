@@ -8,6 +8,7 @@
 ## Introduction
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
 - [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere/)
+- [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina)
 ## Freelancing in Spain
 - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)
 - [malt.com: Las 7 dudas legales que siempre tenemos como autónomos](https://resources.malt.com/es/freelances/art%C3%ADculos-freelance/dudas-legales-freelance/)

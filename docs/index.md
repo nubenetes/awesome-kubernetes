@@ -85,6 +85,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes non-production local environments, Dashboards and Devel Tools](kubernetes-local.md)
     - [Kubernetes on premise](kubernetes-on-premise.md)
     - [Managed kubernetes in public clouds](managed-kubernetes-in-public-cloud.md)
+    - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 

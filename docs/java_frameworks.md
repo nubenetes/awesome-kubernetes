@@ -44,6 +44,8 @@
 * [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-design-principles/)
 * [javatechonline.com: Making Java easy to learn - Spring Boot Annotations With Examples](https://javatechonline.com/spring-boot-annotations-with-examples/)
 * [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)
+* [dzone: How can Java bring you into Kubernetes-Native Future](https://dzone.com/articles/how-can-java-bring-you-into-kubernetes-native-futu)
+* [infoq.com: Java 17, the Next Long-Term Support Release, is Now Available](https://www.infoq.com/news/2021/09/java17-released/)
 
 ### How to migrate Java workloads to containers
 * [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors
