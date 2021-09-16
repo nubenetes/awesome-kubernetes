@@ -20,7 +20,6 @@
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
 * [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
-
 ## Python Client for Kubernetes
 - [github.com/kubernetes-client/python](https://github.com/kubernetes-client/python)
 - [github.com/kubernetes-client/python-base](https://github.com/kubernetes-client/python-base)
