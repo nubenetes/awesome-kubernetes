@@ -28,3 +28,4 @@
 * [kubernetes.io: Kubernetes 1.22: Reaching New Peaks](https://kubernetes.io/blog/2021/08/04/kubernetes-1-22-release-announcement/) Kubernetes' default backend storage, etcd, has a new release: 3.5.0. The new release comes with improvements to the security, performance, monitoring, and developer experience.
 * [thenewstack.io: Less Is More with Kubernetes 1.22](https://thenewstack.io/less-is-more-with-kubernetes-1-22/)
 * [acloudguru.com: What’s new with Kubernetes 1.22?](https://acloudguru.com/blog/engineering/whats-new-with-kubernetes-1-22)
+* [kubernetes.io: Graceful Node Shutdown Goes Beta 🌟](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta/)
