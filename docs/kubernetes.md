@@ -1,23 +1,26 @@
 # Kubernetes. "Kubernetes is not for application development but for platform development" (Kelsey Hightower) 
 
-<center>
-[Kubernetes magic is in enterprise standardization, not app portability 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
-</center>
-
-- [Kubernetes Jobs Market](#kubernetes-jobs-market)
-- [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-- [Channel based messaging platform](#channel-based-messaging-platform)
-- [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
-- [Kubernetes Failure Stories](#kubernetes-failure-stories)
-- [Kubernetesbyexample](#kubernetesbyexample)
-- [Kubernetes README](#kubernetes-readme)
-- [Kubernetes open-source container-orchestation](#kubernetes-open-source-container-orchestation)
+- [Introduction](#introduction)
+    - [Kubernetes Jobs Market](#kubernetes-jobs-market)
+    - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
+    - [Channel based messaging platform](#channel-based-messaging-platform)
+    - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
+    - [Kubernetes Failure Stories](#kubernetes-failure-stories)
+    - [Kubernetesbyexample](#kubernetesbyexample)
+    - [Kubernetes README](#kubernetes-readme)
+- [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
+    - [kubeconfig](#kubeconfig)
+    - [Docker and Kubernetes](#docker-and-kubernetes)
+    - [Kubernetes Resources](#kubernetes-resources)
     - [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
     - [Kubernetes API](#kubernetes-api)
     - [Kubernetes ConfigMaps](#kubernetes-configmaps)
     - [Kubernetes Secrets](#kubernetes-secrets)
-    - [Namespaces and Multi Tenancy](#namespaces-and-multi-tenancy)
+    - [Namespaces and Multi Tenancy. Self Service Namespaces](#namespaces-and-multi-tenancy-self-service-namespaces)
+        - [Creating Users](#creating-users)
+    - [Kubernetes Labels and Selectors](#kubernetes-labels-and-selectors)
     - [Kubernetes Deployment, Rollling Updates and Rollbacks](#kubernetes-deployment-rollling-updates-and-rollbacks)
+    - [Kubernetes Cron Jobs](#kubernetes-cron-jobs)
     - [Kubernetes Probes. Startup, Liveness, Readiness](#kubernetes-probes-startup-liveness-readiness)
     - [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
     - [Disruptions](#disruptions)
@@ -34,7 +37,6 @@
     - [Kubernetes Limits](#kubernetes-limits)
     - [Kube Scheduler](#kube-scheduler)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
-- [Self Service Kubernetes Namespaces](#self-service-kubernetes-namespaces)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
 - [Extending Kubernetes](#extending-kubernetes)
@@ -49,6 +51,7 @@
         - [Kubectl Plugins](#kubectl-plugins)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
+    - [Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](#provisioning-cloud-resources-aws-gcp-azure-in-kubernetes)
     - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
     - [Online Training](#online-training)
@@ -80,6 +83,7 @@
 - [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
 - [Kubernetes Scripts](#kubernetes-scripts)
+    - [Kubernetes and Ansible](#kubernetes-and-ansible)
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
 - [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
@@ -87,64 +91,92 @@
 - [Videos](#videos)
 - [Tweets](#tweets)
 
-## Kubernetes Jobs Market
+
+## Introduction
+* [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
+* [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
+* [kubernetes.io](https://kubernetes.io/)
+* [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
+* [Awesome kubernetes 🌟](https://github.com/ramitsurana/awesome-kubernetes)
+* [https://www.reddit.com/r/kubernetes 🌟](https://www.reddit.com/r/kubernetes) 
+* [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/ )
+* [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
+* [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
+* [opensource.com: Explaining Kubernetes in 10 minutes using an analogy](https://opensource.com/article/20/7/kubernetes-analogy)
+* [medium: A Practical Step-by-Step Guide to Understanding Kubernetes](https://medium.com/better-programming/a-practical-step-by-step-guide-to-understanding-kubernetes-d8be7f82e533) Deploy a distributed application and understand key underlying concepts.
+* [medium: Kubernetes, a practical introduction](https://medium.com/nexton/kubernetes-a-practical-introduction-18a5b69e7763)
+* [itnext.io: Kubernetes is Hard! 🌟](https://itnext.io/kubernetes-is-hard-190f1d0c6d36) But, where there’s Kubernetes, there’s a way!
+* [medium: Starting with kubernetes](https://medium.com/@thomaspoignant/starting-with-kubernetes-db121b09fd4)
+* [thenewstack.io: Kubernetes Is the New Standard for Computing, Including the Edge](https://thenewstack.io/kubernetes-is-the-new-standard-for-computing-including-the-edge/)
+* [thenewstack.io: How does kubernetes work?](https://thenewstack.io/how-does-kubernetes-work/)
+* [cloudsavvyit.com: How Does Kubernetes Work?](https://www.cloudsavvyit.com/10110/how-does-kubernetes-work/)
+* [elmanytas.es: Kubernetes para impostores III](http://elmanytas.es/?q=node/358)
+* [enterprisersproject.com: How to explain Kubernetes in plain English](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english) How do you explain Kubernetes and orchestration to non-technical people? Listen to the experts
+* [maximilianmichels.com: Kubernetes in a Nutshell: 10 Things You Need to Know](https://maximilianmichels.com/2021/kubernetes-what-you-need-to-know/)
+* [brennerm.github.io: Kubernetes Overview Diagrams 🌟](https://brennerm.github.io/posts/kubernetes-overview-diagrams.html#architecture)
+* [thenewstack.io: Kubernetes Lifecycle Management! So Important! (Day 0, Day 1, Day 2) 🌟](https://thenewstack.io/kubernetes-lifecycle-management-so-important-what-does-it-mean)
+* [lemoncode.net: Hola Kubernetes: Definiciones 🌟](https://lemoncode.net/lemoncode-blog/2021/3/17/hola-kubernetes-definiciones)
+* [opensource.com: A beginner's guide to Kubernetes container orchestration](https://opensource.com/article/20/6/container-orchestration) Understanding the building blocks of container orchestration makes it easier to get started with Kubernetes.  
+* [luminousmen.com: Kubernetes 101](https://luminousmen.com/post/kubernetes-101)
+* [css-tricks.com: Kubernetes Explained Simply: Containers, Pods and Images](https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images/)
+* [auth0.com: Kubernetes Tutorial - Step by Step Introduction to Basic Concepts](https://auth0.com/blog/kubernetes-tutorial-step-by-step-introduction-to-basic-concepts/) Learn about the basic Kubernetes concepts while deploying a sample application on a real cluster.
+* [thenewstack.io: Why developers should learn kubernetes](https://thenewstack.io/why-developers-should-learn-kubernetes/)
+* [thenewstack.io: This Week in Programming: Kubernetes from Day One? 🌟](https://thenewstack.io/this-week-in-programming-kubernetes-from-day-one/)
+* [nextplatform.com: KUBERNETES EXPANDS FROM CONTAINERS TO INFRASTRUCTURE MANAGEMENT 🌟](https://www.nextplatform.com/2021/08/02/kubernetes-expands-from-containers-to-infrastructure-management) **More and more in the middleware layer, not in the hardware**
+* [thenewstack.io: Monolithic Development Practices Kill Powerful Kubernetes Benefits 🌟🌟](https://thenewstack.io/monolithic-development-practices-kill-powerful-kubernetes-benefits/) **"It’s not about the economy of data, it’s about speed and nimbleness of data. The benefits of using Kubernetes and microservices is incredible — just make sure you know how to fully wield its power!"**
+* [dev.to: Getting Started Tutorial for Learning Kubernetes 🌟](https://dev.to/chefgs/getting-started-tutorial-for-learning-kubernetes-455e)
+* [tech.showmax.com: Developers' basic guide to kubernetes](https://tech.showmax.com/2021/08/developers-101-kubernetes/)
+* [dev.to: How to start with Kubernetes for begginer](https://dev.to/dhirajpatra/how-to-start-with-kubernetes-for-begginer-309e)
+
+<center>
+
+[**Kubernetes magic is in enterprise standardization, not app portability** 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
+
+</center>
+
+### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021) 🌟](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
     - Kubernetes salary ranges
     - Remote vs office offers
     - Popular cloud providers
 
-## Certified Kubernetes Offerings
+### Certified Kubernetes Offerings
 * [Certified Kubernetes offerings 🌟](https://www.cncf.io/certification/software-conformance/)
 
-## Channel based messaging platform
+### Channel based messaging platform
 - [kubernetes.slack.com](https://kubernetes.slack.com)
 
-## The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
+### The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
 * [Cloud-Native Development Survey Details Kubernetes, Serverless Data 🌟](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
 
-## Kubernetes Failure Stories
+### Kubernetes Failure Stories
 - [k8s.af 🌟](https://k8s.af/)
-
-## Kubernetesbyexample
+- [thenewstack.io: Kubernetes Horror Stories](https://thenewstack.io/kubernetes-horror-stories/)
+- [techbeacon.com: Why teams fail with Kubernetes—and what to do about it 🌟](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
+- [kodekloud.com: Kubernetes Features Every Beginner Must Know](https://kodekloud.com/blog/200628/kubernetes-features-every-beginner-must-know)
+  
+### Kubernetesbyexample
 - [kubernetesbyexample.com 🌟🌟🌟](https://www.kubernetesbyexample.com) A free learning platform covering the fundamentals of how to develop, deploy, manage, and automate containers in cloud-native environments. 
 
-## Kubernetes README
+### Kubernetes README
 - [kubernetesreadme.com 🌟](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
 
-## Kubernetes open-source container-orchestation
-* [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
-* [kubernetes.io](https://kubernetes.io/)
-* [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
-* [Awesome kubernetes 🌟](https://github.com/ramitsurana/awesome-kubernetes)
-* [https://www.reddit.com/r/kubernetes 🌟](https://www.reddit.com/r/kubernetes) 
+## Kubernetes Open Source Container Orchestation
 * [stackify.com: The Advantages of Using Kubernetes and Docker Together 🌟](https://stackify.com/kubernetes-docker-deployments/)
-* [Ansible for devops: Kubernetes](https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes)
 * [kubedex.com 🌟](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
-    * [kubedex.com: autoscaling 🌟](https://kubedex.com/autoscaling)
 * [medium.com: The Kubernetes Scheduler: this series aims to advance the understanding of Kubernetes and its underlying concepts](https://medium.com/@dominik.tornow/the-kubernetes-scheduler-cd429abac02f)
 * [opensource.com: How the Kubernetes scheduler works 🌟](https://opensource.com/article/20/11/kubernetes-scheduler) Understand how the Kubernetes scheduler discovers new pods and assigns them to nodes.
 * [medium.com: A Year Of Running Kubernetes at MYOB, And The Importance Of Empathy](https://medium.com/@jpcontad/a-year-of-running-kubernetes-as-a-product-7eed1204eecd)
 * [blogs.mulesoft.com - K8s: 8 questions about Kubernetes](https://blogs.mulesoft.com/dev/resources-dev/k8s-kubernetes/)
 * [labs.mwrinfosecurity.com: Attacking Kubernetes through Kubelet](https://labs.mwrinfosecurity.com/blog/attacking-kubernetes-through-kubelet/)
-* [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
-* [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/ )
-* [techbeacon.com: Why teams fail with Kubernetes—and what to do about it 🌟](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
 * [itnext.io: Successful & Short Kubernetes Stories For DevOps Architects](https://itnext.io/successful-short-kubernetes-stories-for-devops-architects-677f8bfed803)
 * [medium.com: kubernetes Pod Priority and Preemption](https://medium.com/@mohaamer5/kubernetes-pod-priority-and-preemption-943c58aee07d)
-* [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 * [itnext.io: K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
-* [kodekloud.com: Kubernetes Features Every Beginner Must Know](https://kodekloud.com/blog/200628/kubernetes-features-every-beginner-must-know)
 * [platform9.com: Kubernetes CI/CD Pipelines at Scale](https://platform9.com/blog/kubernetes-ci-cd-pipelines-at-scale/)
 * [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)
-* [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
-* [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes 🌟](https://learnk8s.io/cloud-resources-kubernetes)
-* [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 * [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnk8s.io/allocatable-resources) Not all CPU and memory in your Kubernetes nodes can be used to run Pods. In this article, you will learn how managed Kubernetes Services such AKS, EKS and GKE reserve resources for workloads, operating systems, daemons and Kubernetes agent.
 * [5 open source projects that make Kubernetes even better: Prometheus, Operator framework, Knative, Tekton, Kubeflow 🌟](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve) Open source projects bring many additional capabilities to Kubernetes, such as performance monitoring, developer tools, serverless capabilities, and CI/CD workflows. Check out these five widely used options
-* [medium: How to Deploy a Web Application with Kubernetes 🌟](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
-* [blog.pipetail.io: 10 most common mistakes using kubernetes 🌟](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
 * [4 trends for Kubernetes cloud-native teams to watch in 2020 🌟](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020) Today's software architectural landscape seems to change like the weather. Stay ahead of the curve with these cloud-related trends, including GitOps and service meshes.
-* [opensource.com: A beginner's guide to Kubernetes container orchestration](https://opensource.com/article/20/6/container-orchestration) Understanding the building blocks of container orchestration makes it easier to get started with Kubernetes.
 * [Creating a Kubernetes cloud provider, doesn't required boiling the ocean 🌟](https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/)
 * [medium: How to configure and manage Pod in Kubernetes Cluster (K8s)](https://medium.com/faun/pod-in-kubernetes-cluster-k8s-adeb5b901153) There are two types of Pods: Single container pod & Multi container pod. 
 * [opensource.com: 5 ways to boost your Kubernetes knowledge](https://opensource.com/article/20/6/kubernetes-anniversary)
@@ -153,51 +185,27 @@
 * [snyk.io: Shipping Kubernetes-native applications with confidence](https://snyk.io/blog/shipping-kubernetes-native-applications-with-confidence/)
 * [medium: Delivering value on Kubernetes](https://medium.com/@dius_au/delivering-value-on-kubernetes-8d5c5655c1b4)
 * [dev.to: Open a command prompt in a Kubernetes cluster](https://dev.to/eldadak/open-a-command-prompt-in-a-kubernetes-cluster-206g) This starts up a pod (in the default namespace by default) and opens a command line in the given container. As I'm running as root, I can install anything I need for debugging and testing right in my cluster.
-* [medium: 5 Things We Overlooked When Deploying Our First App on Kubernetes 🌟](https://medium.com/gumgum-tech/5-things-we-overlooked-when-putting-our-first-app-on-kubernetes-58583c1783e4)
-* [opensource.com: Explaining Kubernetes in 10 minutes using an analogy](https://opensource.com/article/20/7/kubernetes-analogy)
-* [itnext.io: Kubernetes is Hard!](https://itnext.io/kubernetes-is-hard-190f1d0c6d36)
 * [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
 * [howtoforge.com: How to create Multi-Container Pods in Kubernetes](https://www.howtoforge.com/multi-container-pods-in-kubernetes/)
 * [blocksandfiles.com: Kubernetes is in a bit of state about state](https://blocksandfiles.com/2020/07/21/kubernetes-stateful-status/) Kubernetes is “four to five years away” from being a stable distribution capable of running stateful apps, according to Redis Labs chief product officer Alvin Richards.
-* [medium: A Practical Step-by-Step Guide to Understanding Kubernetes](https://medium.com/better-programming/a-practical-step-by-step-guide-to-understanding-kubernetes-d8be7f82e533) Deploy a distributed application and understand key underlying concepts.
-* [medium: Kubernetes, a practical introduction](https://medium.com/nexton/kubernetes-a-practical-introduction-18a5b69e7763)
-* [itnext.io: Automating System Updates for Kubernetes Clusters using Ansible](https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972)
-* [medium: Starting with kubernetes](https://medium.com/@thomaspoignant/starting-with-kubernetes-db121b09fd4)
 * [Discovering Running Pods By Using DNS and Headless Services in Kubernetes](https://medium.com/swlh/discovering-running-pods-by-using-dns-and-headless-services-in-kubernetes-7002a50747f4) When retrieving all service’s connected pods is desired
-* [itnext.io: Kubernetes is Hard! 🌟](https://itnext.io/kubernetes-is-hard-190f1d0c6d36) But, where there’s Kubernetes, there’s a way!
-* [How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)](https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4)
-    * [How we learned to improve Kubernetes CronJobs at Scale (Part 2 of 2)](https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca)
-* [thenewstack.io: Kubernetes Is the New Standard for Computing, Including the Edge](https://thenewstack.io/kubernetes-is-the-new-standard-for-computing-including-the-edge/)
-* [enterprisersproject.com: Managing Kubernetes resources: 5 things to remember](https://enterprisersproject.com/article/2020/8/managing-kubernetes-resources-5-things-remember) Kubernetes automates much of the work of managing containers at scale. But containerized applications commonly share pooled resources, so you need to allocate and manage them properly
 * [Kubernetes Tip: What Happens To Pods Running On Node That Become Unreachable?](https://medium.com/tailwinds-navigator/kubernetes-tip-what-happens-to-pods-running-on-node-that-become-unreachable-3d409f734e5d)
-* [hackernoon.com: How To Deploy Code Faster Using Kubernetes](https://hackernoon.com/how-to-deploy-code-faster-using-kubernetes-jh1y3ul0)
 * [How to handle environment variables with Kubernetes? 🌟](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
-* [learnk8s.io: Graceful shutdown and zero downtime deployments in Kubernetes 🌟🌟](https://learnk8s.io/graceful-shutdown)
 * [medium: Kubernetes Pod Redundancy Strategies](https://medium.com/better-programming/kubernetes-pod-redundancy-strategies-a6d9b560749a)
 * [medium: Then he asked me “Is Kubernetes right for us?”](https://medium.com/@alexellisuk/then-he-asked-me-is-kubernetes-right-for-us-78695ee35289)
-* [thenewstack.io: How does kubernetes work?](https://thenewstack.io/how-does-kubernetes-work/)
-* [elmanytas.es: Kubernetes para impostores III](http://elmanytas.es/?q=node/358)
 * [loft.sh: Kubernetes: Virtual Clusters For CI/CD & Testing](https://loft.sh/blog/kubernetes-virtual-clusters-for-ci-cd-testing/)
-* [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
-* [luminousmen.com: Kubernetes 101](https://luminousmen.com/post/kubernetes-101)
-* [thenewstack.io: How do applications run on kubernetes? 🌟](https://thenewstack.io/how-do-applications-run-on-kubernetes/)
-* [deepsource.io: Breaking down zero downtime deployments in Kubernetes 🌟](https://deepsource.io/blog/zero-downtime-deployment/) An in-depth analysis of deployments in Kubernetes
 * [medium: Single Sign-On in Kubernetes 🌟](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)
 * [jfrog.com: Kubernetes in Production with Jessica Deen at swampUP 2020](https://jfrog.com/blog/kubernetes-in-production-with-jessica-deen-at-swampup-2020/)
 * [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
 * [medium: Discovering Running Pods By Using DNS and Headless Services in Kubernetes 🌟](https://medium.com/swlh/discovering-running-pods-by-using-dns-and-headless-services-in-kubernetes-7002a50747f4) When retrieving all service’s connected pods is desired.
-* [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes)
 * [iximiuz.com: Service proxy, pod, sidecar, oh my!](https://iximiuz.com/en/posts/service-proxy-pod-sidecar-oh-my/)
 * [medium: 3 Years of Kubernetes in Production–Here’s What We Learned 🌟](https://medium.com/better-programming/3-years-of-kubernetes-in-production-heres-what-we-learned-44e77e1749c8)
-* [linuxadvise.com: Kubernetes Node Selectors](https://www.linuxadvise.com/post/kubernetes-node-selectors)
 * [linuxadvise.com: Kubernetes Node Affinity](https://www.linuxadvise.com/post/kubernetes-node-affinity)
 * [linuxadvise.com: Kubernetes Daemon Sets](https://www.linuxadvise.com/post/kubernetes-daemon-sets)
 * [linuxadvise.com: Kubernetes Static Pods](https://www.linuxadvise.com/post/kubernetes-static-pods)
 * [linuxadvise.com: Kubernetes Pod Security Policy](https://www.linuxadvise.com/post/kubernetes-pod-security-policy)
 * [thenewstack.io: How do applications run on kubernetes?](https://thenewstack.io/how-do-applications-run-on-kubernetes/)
 * [medium: Kubernetes — Learn Init Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-init-container-pattern-7a757742de6b) Understanding Init Container Pattern With an Example Project.
-* [Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere/) This tutorial shows you how to expose your private Kubernetes API server to the Internet, so that you can manage your cluster from anywhere, just like you would with a cloud offering.
-* [enterprisersproject.com: How to explain Kubernetes in plain English](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english) How do you explain Kubernetes and orchestration to non-technical people? Listen to the experts
 * [revistacloudcomputing.com: Los mejores proveedores de Kubernetes](https://www.revistacloudcomputing.com/2020/09/los-mejores-proveedores-de-kubernetes/)
 * [Virtual Clusters for Kubernetes — Benefits and Use Cases](https://medium.com/better-programming/virtual-clusters-for-kubernetes-benefits-use-cases-a4eee1c5c5a5) Virtual Kubernetes clusters could be the next driver for Kubernetes adoption.
 * [medium: Kubernetes Tip: How Statefulsets Behave Differently Than Deployments When Node Fails? 🌟](https://medium.com/tailwinds-navigator/kubernetes-tip-how-statefulsets-behave-differently-than-deployments-when-node-fails-d29e36bca7d5) What happens to the Pods when a node fails in Kubernetes?
@@ -227,11 +235,9 @@
   * https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/
 * [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods/) Why are Pod not fully restartable in Kubernetes? Why is Kubernetes not restarting the Pod in CrashLoopBackOff?
 * [loginradius.com: Understanding Basics of Kubernetes](https://www.loginradius.com/engineering/blog/understanding-kubernetes/)
-* [Kubernetes Horror Stories](https://thenewstack.io/kubernetes-horror-stories/)
 * [lambda.grofers.com: Learnings From Two Years of Kubernetes in Production 🌟](https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-production-b0ec21aa2814)
 * [devopsunlocked.com: Kubernetes: Learning Material 🌟](https://devopsunlocked.com/kubernetes-learning-material/)
 * [magalix.com: **Team Productivity: Resource Management** 🌟](https://www.magalix.com/blog/team-productivity-1) Resource Requests, Limits and Quota
-* [opensource.com: A beginner's guide to Kubernetes Jobs and CronJobs](https://opensource.com/article/20/11/kubernetes-jobs-cronjobs) Use Jobs and CronJobs to control and manage Kubernetes pods and containers.
 * [learnsteps.com: How Kubernetes works on reconciler pattern 🌟](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern/)
 * [redhat.com: Kubernetes Components - A sysadmin's guide to basic Kubernetes components 🌟](https://www.redhat.com/sysadmin/kubernetes-components) Kubernetes control plane nodes and worker nodes, their features, and how they interact.
 * [medium: Installing cf-for-k8s on a Kubernetes Cluster Running on Digital Ocean](https://medium.com/cloud-foundry-foundation/installing-cf-for-k8s-on-a-kubernetes-cluster-running-on-digitalocean-acffdc652dcf) If you want to install Cloud Foundry on Kubernetes on Digital Ocean, you might find this article relevant.
@@ -242,11 +248,8 @@
 * [lastweekinaws.com: Is ECS deprecated? Has Kubernetes won?](https://www.lastweekinaws.com/blog/reader-mailbag-is-ecs-deprecated/)
 * [redhat.com: Start learning Kubernetes from your local machine](https://www.redhat.com/sysadmin/start-learning-kubernetes)
 * [medium: Pratyush Mathur - Kubernetes Architecture](https://medium.com/@pratyush.mathur/kubernetes-architecture-82e9bc8324f1)
-* [medium: Deployment types in Kubernetes 🌟](https://medium.com/avmconsulting-blog/deployment-types-in-kubernetes-14b70ca7ef93)
 * [platform9.com: Difference Between multi-cluster, multi-master, multi-tenant & federated Kubernetes 🌟](https://platform9.com/blog/difference-between-multi-cluster-multi-master-multi-tenant-federated-kubernetes/)
 * [opensource.com: 8 Kubernetes insights for 2021 🌟](https://opensource.com/article/21/1/kubernetes) Review the top five Kubernetes articles of 2020, then preview three tools you should learn about in 2021.
-* [thoughtbot.com: Zero Downtime Rails Deployments with Kubernetes](https://thoughtbot.com/blog/zero-downtime-rails-deployments-with-kubernetes)
-* [medium: Kubernetes Resources 🌟](https://medium.com/@pratyush.mathur/kubernetes-resources-c09d172dbdc5)
 * [medium: Notes on Graceful Shutdown in Kubernetes 🌟](https://medium.com/@pleasingsmoke/graceful-shutdown-of-pods-in-kubernetes-6da5588b5356)
 * [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster 🌟](https://srcco.de/posts/many-kubernetes-clusters.html) Running 80+ Kubernetes clusters in production? Yes, Zalando runs 100+ Kubernetes clusters on AWS.
     - Each cluster runs in its own AWS account.
@@ -265,10 +268,7 @@
 * [thenewstack.io: A Deep Dive into Architecting a Kubernetes Infrastructure 🌟](https://thenewstack.io/a-deep-dive-into-architecting-a-kubernetes-infrastructure/)
 * [thenewstack.io: Manage Multicluster Kubernetes with Operators](https://thenewstack.io/manage-multicluster-kubernetes-with-operators/)
 * [kubernetes.io: Out of the Clouds onto the Ground: How to Make Kubernetes Production Grade Anywhere 🌟](https://kubernetes.io/blog/2018/08/03/out-of-the-clouds-onto-the-ground-how-to-make-kubernetes-production-grade-anywhere/)
-* [opensourcerers.org: How to go from Docker to Kubernetes the right way 🌟](https://www.opensourcerers.org/2021/02/01/how-to-go-from-docker-to-kubernetes-the-right-way/)
 * [magalix.com: Influencing Kubernetes Scheduler Decisions](https://www.magalix.com/blog/influencing-kubernetes-scheduler-decisions) To ensure maximum possible performance and availability given the infrastructure at hand, the scheduler uses complex algorithms to ensure the most efficient Pod placement. In this article, we discuss how the scheduler selects the best node to host the Pod and how we can influence its decision.
-* [openshift.com: The Hidden Dangers of Terminating Namespaces 🌟](https://www.openshift.com/blog/the-hidden-dangers-of-terminating-namespaces)
-* [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl) Determine offending pods that use more RAM than requested, causing OOM, with Prometheus and jq.
 * [nginx.com: Reduce Complexity with Production-Grade Kubernetes](https://www.nginx.com/blog/reduce-complexity-with-production-grade-kubernetes/)
 * [medium: Making Sense of Taints and Tolerations in Kubernetes](https://medium.com/kubernetes-tutorials/making-sense-of-taints-and-tolerations-in-kubernetes-446e75010f4e)
 * [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup/)
@@ -279,11 +279,7 @@
 * [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative 🌟](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
 * [elastisys.com: What do I need to add on top of Kubernetes?](https://elastisys.com/what-do-i-need-to-add-on-top-of-kubernetes/)
 * [infoq.com: Experts Discuss Top Kubernetes Trends and Production Challenges](https://www.infoq.com/articles/kubernetes-trends-and-challenges/)
-* [maximilianmichels.com: Kubernetes in a Nutshell: 10 Things You Need to Know](https://maximilianmichels.com/2021/kubernetes-what-you-need-to-know/)
-* [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
-* [brennerm.github.io: Kubernetes Overview Diagrams 🌟](https://brennerm.github.io/posts/kubernetes-overview-diagrams.html#architecture)
 * [blog.appstack.one: How to run Ghost blog inside Kubernetes](https://blog.appstack.one/how-to-run-ghost-blog-inside-kubernetes/)
-* [thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟](https://thenewstack.io/kubernetes-is-not-just-about-containers-its-about-the-api/)
 * [dzone refcard: Advanced kubernetes 🌟](https://dzone.com/refcardz/advanced-kubernetes)
 * [dzone refcard: Kubernetes Multi-Cluster Management and Governance 🌟](https://dzone.com/refcardz/kubernetes-multi-cluster-management-and-governance)
 * [tech2fun.net: Using Service Endpoints and Alias for accessing External Service in K8s](https://tech2fun.net/using-k8s-service-resource-for-enabling-clients-discovering-talking-to-pods/)
@@ -291,14 +287,9 @@
     1. Learn how to set up a metrics pipeline
     2. How you can drive autoscaling based on metrics from RabbitMQ.
     3. Why KEDA might be an alternative to prometheus+adapters
-* [cloudsavvyit.com: How Does Kubernetes Work?](https://www.cloudsavvyit.com/10110/how-does-kubernetes-work/)
 * [arabitnetwork.com: K8S – Enabling Auditing Logs | Step-by-Step](https://arabitnetwork.com/2021/03/13/k8s-enabling-auditing-logs-step-by-step/)
-* [thenewstack.io: Kubernetes Lifecycle Management! So Important! (Day 0, Day 1, Day 2) 🌟](https://thenewstack.io/kubernetes-lifecycle-management-so-important-what-does-it-mean)
-* [kruyt.org: Migrate from Docker to Containerd in Kubernetes](https://kruyt.org/migrate-docker-containerd-kubernetes)
-* [lemoncode.net: Hola Kubernetes: Definiciones 🌟](https://lemoncode.net/lemoncode-blog/2021/3/17/hola-kubernetes-definiciones)
 * [superuser.openstack.org: Run Your Kubernetes Cluster on OpenStack in Production](https://superuser.openstack.org/articles/run-your-kubernetes-cluster-on-openstack-in-production/)
 * [medium: How to deploy StatefulSets in Kubernetes (K8s)?](https://medium.com/avmconsulting-blog/deploying-statefulsets-in-kubernetes-k8s-5924e701d327)
-* [sandeepbaldawa.medium.com: K8s Labels & Selectors 🌟](https://sandeepbaldawa.medium.com/k8s-labels-selectors-9ad2fcf78a4e) In this post, we will look at What Kubernetes(K8s) Labels and Selectors are, Why do we need them, How to use them.
 * [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications 🌟](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications/)
     * [dekorate.io 🌟](http://dekorate.io/)
 * [thenucleargeeks.com: Introduction to Kubernetes Pods](https://thenucleargeeks.com/2021/03/22/introduction-to-pods-in-kubernetes/)
@@ -310,12 +301,9 @@
     * [millionvisit.blogspot.com: Kubernetes for Developers #5: Kubernetes Web UI Dashboard](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-5-webui-dashboard.html)
     * [millionvisit.blogspot.com: Kubernetes for Developers #6: Kubernetes Objects](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-6-KubernetesObjects.html)
     * [millionvisit.blogspot.com: Kubernetes for Developers #7: Imperative vs. Declarative Kubernetes Objects](http://millionvisit.blogspot.com/2021/01/kubernetes-for-developers-7-imperative-vs-Declarative.html)
-    * [millionvisit.blogspot.com: Kubernetes for Developers #8: Kubernetes Object Name, Labels, Selectors and Namespace](http://millionvisit.blogspot.com/2021/02/kubernetes-for-developers-8-Object%20Name-Labels-Selectors-Namespace.html)
     * [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
     * [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail ](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
-    * [millionvisit.blogspot.com: Kubernetes for Developers #11: Pod Organization using Labels](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-11-pod-organization-using-labels.html)
     * [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail 🌟](http://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
-* [thenewstack.io: Scaling Microservices on Kubernetes 🌟](https://thenewstack.io/scaling-microservices-on-kubernetes)
 * [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
     * [andrewlock.net: Deploying ASP.NET Core applications to Kubernetes - Part 6 - Adding health checks with Liveness, Readiness, and Startup probes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-6-adding-health-checks-with-liveness-readiness-and-startup-probes/)
 * [infoq.com: The Evolution of Distributed Systems on Kubernetes 🌟](https://www.infoq.com/articles/distributed-systems-kubernetes) What Comes After Microservices:
@@ -327,14 +315,9 @@
     * You get all the benefits of microservice. You still have all your domain, all the bounded contexts in one place.
     * You have all the infrastructure and distributed application needs in a separate container, and you combine them at runtime.
     * Probably, the closest thing that's getting to that right now is [Dapr](https://dapr.io/).
-* [cloud.ibm.com: Tutorial - Scalable webapp 🌟](https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-kubernetes)
 * [hackernoon.com: The Ultimate Beginners Guide To Kubernetes and Container Orchestration](https://hackernoon.com/the-ultimate-beginners-guide-to-kubernetes-and-container-orchestration-5d83354y)
 * [thenucleargeeks.com: Taints and Tolerations in Kubernetes](https://thenucleargeeks.com/2021/03/28/taints-and-tolerations-in-kubernetes/)
-* [fosstechnix.com: Rolling out and Rolling back updates with Zero Downtime on Kubernetes Cluster 🌟](https://www.fosstechnix.com/rolling-out-and-rolling-back-updates-with-zero-downtime-on-kubernetes-cluster/)
-* [rcarrata.github.io: Regenerating Kubeconfig for system:admin user in OpenShift clusters 🌟](https://rcarrata.github.io/openshift/regenerate-kubeconfig/) You missed your kubeconfig file of your OpenShift cluster? Your dog ate your kubeconfig file? No worries! Let’s regenerate it in a easy and automated way!
 * [medium: Kubernetes — Difference between Deployment and StatefulSet in K8s](https://medium.com/devops-mojo/kubernetes-difference-between-deployment-and-statefulset-in-k8s-deployments-vs-statefulsets-855f9e897091)
-* [medium: Jobs & Cronjobs in Kubernetes Cluster](https://medium.com/avmconsulting-blog/jobs-cronjobs-in-kubernetes-cluster-d0e872e3c8c8)
-* [devopscube.com: How To Create Kubernetes Jobs/Cron Jobs – Getting Started Guide](https://devopscube.com/create-kubernetes-jobs-cron-jobs/)
 * [speakerdeck.com: Kubernetes Pod internals with the fundamentals of Containers 🌟](https://speakerdeck.com/devinjeon/kubernetes-pod-internals-with-the-fundamentals-of-containers)
 * [medium: Graceful shutdown of fpm and nginx in Kubernetes](https://medium.com/inside-personio/graceful-shutdown-of-fpm-and-nginx-in-kubernetes-f362369dff22)
 * [medium: Kubernetes Fundamentals For Absolute Beginners: Architecture & Components](https://medium.com/the-programmer/kubernetes-fundamentals-for-absolute-beginners-architecture-components-1f7cda8ea536)
@@ -433,15 +416,10 @@
 * [humanitec.com: Benchmark your Kubernetes setup against 500+ other teams and find out how well (or not) you are doing](https://humanitec.com/kubernetes-team-setup-test)
 * [devopshubproject/cka-lab](https://github.com/devopshubproject/cka-lab) This repo contains set of practice questions which will help you to get ready for the cka exam.
 * [medium: Run Kubernetes Production Environment on EC2 Spot Instances With Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)
-* [geekflare.com: Diez mejores prácticas de Kubernetes para una mejor orquestación de contenedores](https://geekflare.com/es/kubernetes-best-practices/)
-* [medium: One CKA/CKAD/CKS requirement: Mastering Kubectl](https://medium.com/nerd-for-tech/one-cka-ckad-cks-requirement-mastering-kubectl-85486bc0a3aa)
 * [shayn-71079.medium.com: Scaling Kubernetes Clusters](https://shayn-71079.medium.com/scaling-kubernetes-clusters-8a061321de93) The below figure presents a schematic diagram of how cluster auto-scaling is done in AWS EKS clusters.
 * [itnext.io: Kubernetes Essential Tools: 2021 🌟](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572)
-* [medium: Fully automated canary deployments in Kubernetes 🌟](https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273)
-* [medium: Kubernetes Namespaces vs. Virtual Clusters](https://medium.com/geekculture/kubernetes-namespaces-vs-virtual-clusters-cc8731752972)
 * [thenewstack.io: Living with Kubernetes: Multicluster Management](https://thenewstack.io/living-with-kubernetes-multicluster-management/)
 * [tigera.io: Comparing kube-proxy modes: iptables or IPVS?](https://www.tigera.io/blog/comparing-kube-proxy-modes-iptables-or-ipvs/)
-* [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
 * [fairwinds.com: K8s Clinic: How to Run Kubernetes Securely and Efficiently 🌟](https://www.fairwinds.com/blog/k8s-clinic-how-to-run-kubernetes-securely-and-efficiently) 
     * With the adoption of containers, software packaging is increasingly shifting left, which means (depending on your organization) that developers are taking on responsibility for the containerization of applications. Developers may also be responsible for some parts of Kubernetes configuration. As that process shifts left, developers need support to make the right decisions for the organization in order to run Kubernetes securely and efficiently. 
     * Many companies are adopting cloud native technologies to deliver speed to market. For businesses seeking to compete in today's marketplace, it’s important to ship new features and meet customer needs where they are — and increasingly those needs are being met through software.
@@ -450,19 +428,15 @@
     * It wasn’t obvious while it was happening, probably because everyone was focused on dealing with a global pandemic, but your IT environment became more complex. Cloud technology continued to evolve, and while that was happening, cloud use grew. Hybrid cloud use, already growing before the pandemic, became much more established with a year-over-year annual growth rate of 17.8%, according to Quince Market Insights. And with more distinct technology advances from each of the major cloud service providers, multi-cloud use also became more established.
     * This more complex environment encouraged the use of containers, and Kubernetes became the preferred means of managing them. Unfortunately, the great irony of Kubernetes is that the technology created to make the management of modern cloud applications easier is, itself, incredibly difficult to manage. Just to deploy and manage a single application in your own data center requires working familiarity with a Kubernetes distribution and working integrations with a number of supporting systems and enterprise software including code registries, CI/CD, secrets management, storage management, networking, logging and monitoring, service mesh, backup and disaster recovery (DR). That’s just for one environment. In a hybrid infrastructure, perhaps using one of the leading cloud service providers such as AWS, Azure or GCP, you could double this overhead.
     * This rapid growth combined with immense complexity means not every Kubernetes implementation has been successful, and in the worst cases, misconfigurations have led to security breaches and significant application downtime. Overwhelmed teams with insufficient training only make the problem worse, putting these implementations farther behind as Kubernetes management becomes increasingly difficult. As such, I believe **the time is now for a new role to emerge in the enterprise—Kubernetes Manager**. This is a job function that more and more companies will need to hire as operating and managing Kubernetes becomes a significantly larger part of the engineering operation than ever before. Let me explain.
-* [css-tricks.com: Kubernetes Explained Simply: Containers, Pods and Images](https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images/)
 * [okteto.com: Run your Pull Request Preview Environments on Kubernetes](https://okteto.com/blog/preview-environments-for-kubernetes/)
 * [allanjohn909.medium.com: Kubernetes Ingress with Traefik, CertManager, LetsEncrypt and HAProxy](https://allanjohn909.medium.com/kubernetes-ingress-traefik-cert-manager-letsencrypt-3cb5ea4ee071)
 * [asishmm.medium.com: Discussion on Horizontal Pod Autoscaler with a demo on local k8s cluster](https://asishmm.medium.com/discussion-on-horizontal-pod-autoscaler-with-a-demo-on-local-k8s-cluster-81694c09f818)
 * [piotrminkowski.com: Kubernetes Multicluster with Kind and Submariner](https://piotrminkowski.com/2021/07/08/kubernetes-multicluster-with-kind-and-submariner/)
-* [auth0.com: Kubernetes Tutorial - Step by Step Introduction to Basic Concepts](https://auth0.com/blog/kubernetes-tutorial-step-by-step-introduction-to-basic-concepts/) Learn about the basic Kubernetes concepts while deploying a sample application on a real cluster.
 * [civo.com: Get up and running with Kubeflow on Civo Kubernetes](https://www.civo.com/learn/get-up-and-running-with-kubeflow-on-civo-kubernetes)
 * [medium: Kubernetes — Learn Sidecar Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-sidecar-container-pattern-6d8c21f873d) Understanding Sidecar Container Pattern With an Example Project
-* [cloudhero.io: Creating Users for your Kubernetes Cluster](https://cloudhero.io/creating-users-for-your-kubernetes-cluster)
 * [blog.nillsf.com: How to run your own admission controller on Kubernetes](https://blog.nillsf.com/index.php/2020/12/03/how-to-run-your-own-admission-controller-on-kubernetes/)
 * [blog.flant.com: Failure stories #2. How to destroy Elasticsearch while migrating it within Kubernetes](https://blog.flant.com/failure-stories-elasticsearch-migration-within-kubernetes/)
 * [dbafromthecold.com: Adjusting pod eviction time in Kubernetes](https://dbafromthecold.com/2020/04/08/adjusting-pod-eviction-time-in-kubernetes/)
-* [thenewstack.io: Why developers should learn kubernetes](https://thenewstack.io/why-developers-should-learn-kubernetes/)
 * [doordash.engineering: Gradual Code Releases Using an In-House Kubernetes Canary Controller](https://doordash.engineering/2021/04/14/gradual-code-releases-using-an-in-house-kubernetes-canary-controller/) Gradual code releases with canary deployments and a custom Kubernetes controller
 * [itnext.io: How to deploy a cross-cloud Kubernetes cluster with built-in disaster recovery 🌟](https://itnext.io/how-to-deploy-a-cross-cloud-kubernetes-cluster-with-built-in-disaster-recovery-bbce27fcc9d7)
 * [kubernetes.io: PodSecurityPolicy Deprecation: Past, Present, and Future 🌟](https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/)
@@ -472,8 +446,6 @@
 * [ubuntu.com: How to test the latest Kubernetes 1.22 release candidate with MicroK8s](https://ubuntu.com/blog/how-to-test-the-latest-kubernetes-with-microk8s)
 * [thenewstack.io: 10 Steps to a Successful Kubernetes Technical Transformation 🌟](https://thenewstack.io/10-steps-to-a-successful-kubernetes-technical-transformation/)
 * [bsucaciu.com: What is a Sidecar?](https://bsucaciu.com/?p=4645)
-* [thenewstack.io: This Week in Programming: Kubernetes from Day One? 🌟](https://thenewstack.io/this-week-in-programming-kubernetes-from-day-one/)
-* [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes)
 * [kubermatic.com: Keeping the State of Apps 6: Introduction to StatefulSets 🌟](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5/)
 * [medium: Kubernetes Scaling & Replicas 🌟](https://medium.com/brainyydude/kubernetes-scaling-replicas-69fcd44b0630) Whenever we talk about “Scaling”, we need to discuss the states of the application. There are two types: Stateful and Stateless Applications.
     *  Stateful: A stateful application can remember at least some of the things(from the past) about its state when it runs each time. For example: It stores our preferences, keeps track of window size and location, and remembers what files they have opened recently. Their Attributes are:
@@ -491,13 +463,10 @@
 * [cloudsavvyit.com: How to Scale Docker Containers Across Servers Using Kubernetes](https://www.cloudsavvyit.com/13039/how-to-scale-docker-containers-across-servers-using-kubernetes/)
 * [Kubernetes. Label and Selector. Important Topic. Identify object in cluster. CKA Exam Tips](https://www.youtube.com/watch?app=desktop&v=Vh3piGAxcf8&ab_channel=AlokKumar)
 * [thenewstack.io: Cloud Foundry Summit: Kubernetes Must Do Better by Developers](https://thenewstack.io/cloud-foundry-summit-kubernetes-must-do-better-by-developers/)
-* [nextplatform.com: KUBERNETES EXPANDS FROM CONTAINERS TO INFRASTRUCTURE MANAGEMENT 🌟](https://www.nextplatform.com/2021/08/02/kubernetes-expands-from-containers-to-infrastructure-management) **More and more in the middleware layer, not in the hardware**
 * [itnext.io: How to create Kubernetes home lab on an old laptop with K3s](https://itnext.io/how-to-create-kubernetes-home-lab-on-an-old-laptop-1de6cc12c13e)
 * [itnext.io: How to deploy a single Kubernetes cluster across multiple clouds using k3s and WireGuard](https://itnext.io/how-to-deploy-a-single-kubernetes-cluster-across-multiple-clouds-using-k3s-and-wireguard-a5ae176a6e81)
 * [ithands-on.com: Kubernetes 101 : Extending the container's functionalities - Sidecar containers](https://www.ithands-on.com/2021/07/kubernetes-101-extending-containers.html)
 * [itnext.io: How to Add MySql & MongoDB to a Kubernetes .Net Core Microservice Architecture](https://itnext.io/databases-in-a-kubernetes-angular-net-core-microservice-arch-a0c0ae23dca9) How to add a MySQL DB and a MongoDB replica set in K8S on Docker desktop using persistent volumes and access the databases from ASP.NET Core, C# and Angular
-* [medium: Replication Controller Vs ReplicaSets in Kubernetes](https://medium.com/geekculture/replication-controller-vs-replicasets-in-kubernetes-7b780e4d09d5) Learn why we need replication and how replication works in Kubernetes. Scale the application using the kubectl scale command.
-* [thenewstack.io: Monolithic Development Practices Kill Powerful Kubernetes Benefits 🌟🌟](https://thenewstack.io/monolithic-development-practices-kill-powerful-kubernetes-benefits/) **"It’s not about the economy of data, it’s about speed and nimbleness of data. The benefits of using Kubernetes and microservices is incredible — just make sure you know how to fully wield its power!"**
 * [itnext.io: Expose Open Policy Agent/Gatekeeper Constraint Violations for Kubernetes Applications with Prometheus and Grafana](https://itnext.io/expose-open-policy-agent-gatekeeper-constraint-violations-with-prometheus-and-grafana-6b7ac92ea07f)
 * [thenewstack.io: How Airbnb and Twitter Cut Back on Microservice Complexities](https://thenewstack.io/how-airbnb-and-twitter-cut-back-on-microservice-complexities/)
 * Some useful and promising Kubernetes projects to follow: 
@@ -506,8 +475,6 @@
     - [microcksio](https://twitter.com/microcksio) testing API and messaging
     - [telepresenceio](https://twitter.com/telepresenceio) development tool
     - [k0sproject](https://twitter.com/k0sproject) new Kubernetes distro
-* [cloudhero.io](https://cloudhero.io/creating-users-for-your-kubernetes-cluster) Creating Users for your Kubernetes Cluster. Learn how to use x509 certificates to authenticate users in your cluster.
-* [loft.sh: Docker Compose to Kubernetes: Step-by-Step Migration 🌟](https://loft.sh/blog/docker-compose-to-kubernetes-step-by-step-migration)
 * [redkubes.com: DIY Kubernetes-based platform building – part 3](https://redkubes.com/diy-kubernetes-based-platform-building-part-3/)
 * [weave.works: Tools for Automating and Implementing Cloud Native Patterns 🌟](https://www.weave.works/blog/tools-for-automating-and-implementing-cloud-native-patterns)
 * [hobby-kube/guide 🌟🌟](https://github.com/hobby-kube/guide) Kubernetes clusters for the hobbyist. This guide answers the question of how to setup and operate a fully functional, secure Kubernetes cluster on a cloud provider such as Hetzner Cloud, DigitalOcean or Scaleway. It explains how to overcome the lack of external ingress controllers, fully isolated secure private networking and persistent distributed block storage.
@@ -515,8 +482,6 @@
 * [kubernetes.io: Kubernetes Memory Manager moves to beta 🌟](https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta/)
 * [learnk8s.io: Kubernetes wallpapers](https://learnk8s.io/kubernetes-wallpapers) A collection of free Kubernetes wallpapers for your computer.
 * [youtube: Tinder's Move to Kubernetes - Chris O'Brien & Chris Thomas, Tinder](https://www.youtube.com/watch?app=desktop&v=o3WXPXDuCSU)
-* [dev.to: Getting Started Tutorial for Learning Kubernetes 🌟](https://dev.to/chefgs/getting-started-tutorial-for-learning-kubernetes-455e)
-* [tech.showmax.com: Developers' basic guide to kubernetes](https://tech.showmax.com/2021/08/developers-101-kubernetes/)
 * [medium: How to enable Kubernetes container RuntimeDefault seccomp profile for all workloads](https://medium.com/@LachlanEvenson/how-to-enable-kubernetes-container-runtimedefault-seccomp-profile-for-all-workloads-6795624fcbcc)
 * [doordash.engineering: Gradual Code Releases Using an In-House Kubernetes Canary Controller](https://doordash.engineering/2021/04/14/gradual-code-releases-using-an-in-house-kubernetes-canary-controller/)
 * [containiq.com: Kubernetes Autoscaling: A Beginners Guide](https://www.containiq.com/post/kubernetes-autoscaling)
@@ -524,25 +489,37 @@
 * [CKAD-Bookmarks 🌟](https://github.com/reetasingh/CKAD-Bookmarks) save time in searching docs in CKAD exam
 * [weave.works: Kubernetes components that make up its architecture 🌟](https://www.weave.works/blog/kubernetes-components-that-makeup-its-architecture) Great intro
 * [dev.to: Automating quality checks for Kubernetes YAMLs 🌟](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
-* [dev.to: How to start with Kubernetes for begginer](https://dev.to/dhirajpatra/how-to-start-with-kubernetes-for-begginer-309e)
-* [blog.kubecost.com: The Guide to Kubernetes Labels 🌟](https://blog.kubecost.com/blog/kubernetes-labels/)
-* [kubernetes.io: Alpha in Kubernetes v1.22: API Server Tracing](https://kubernetes.io/blog/2021/09/03/api-server-tracing/)
 * [thenewstack.io: 5 Things Developers Need to Know About Kubernetes Management](https://thenewstack.io/5-things-developers-need-to-know-about-kubernetes-management/)
-* [akhilsharma.work: Checking Kubernetes API Calls using kubectl](https://akhilsharma.work/checking-kubernetes-api-calls-using-kubectl/) In order to interact, we can simply use `kubectl`. Just add verbose logging level of 8+ and you will get the API calls! 
-    * `kubectl get pods -v=8`
-    * `kubectl create job my-job --image=busybox --dry-run=server -v8`
 
+### kubeconfig
+* [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
+* [rcarrata.github.io: Regenerating Kubeconfig for system:admin user in OpenShift clusters](https://rcarrata.github.io/openshift/regenerate-kubeconfig/) You missed your kubeconfig file of your OpenShift cluster? Your dog ate your kubeconfig file? No worries! Let’s regenerate it in a easy and automated way!
+
+### Docker and Kubernetes
+* [kruyt.org: Migrate from Docker to Containerd in Kubernetes](https://kruyt.org/migrate-docker-containerd-kubernetes)
+* [opensourcerers.org: How to go from Docker to Kubernetes the right way 🌟](https://www.opensourcerers.org/2021/02/01/how-to-go-from-docker-to-kubernetes-the-right-way/)
+* [loft.sh: Docker Compose to Kubernetes: Step-by-Step Migration 🌟](https://loft.sh/blog/docker-compose-to-kubernetes-step-by-step-migration)
+### Kubernetes Resources
+* [medium: Kubernetes Resources 🌟](https://medium.com/@pratyush.mathur/kubernetes-resources-c09d172dbdc5)
+* [enterprisersproject.com: Managing Kubernetes resources: 5 things to remember](https://enterprisersproject.com/article/2020/8/managing-kubernetes-resources-5-things-remember) Kubernetes automates much of the work of managing containers at scale. But containerized applications commonly share pooled resources, so you need to allocate and manage them properly
+  
 ### Kubernetes Deployment Strategies
 - [youtube: deployment strategies in kubernetes | recreate | rolling update | blue/green | canary](https://youtu.be/efiMiaFjtn8)
 - [auth0.com: Deployment Strategies In Kubernetes 🌟](https://auth0.com/blog/deployment-strategies-in-kubernetes) Learn what are the different deployment strategies available in Kubernetes and how to use them.
 - [educative.io: A deep dive into Kubernetes Deployment strategies 🌟](https://www.educative.io/blog/kubernetes-deployments-strategies)
 - [weave.works: Kubernetes Deployment Strategies](https://www.weave.works/blog/kubernetes-deployment-strategies)
 - [sivalabs.in: Kubernetes - Blue/Green Deployments](https://www.sivalabs.in/2021/09/kubernetes-blue-green-deployments/)
+- [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
+- [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes)
+- [medium: Fully automated canary deployments in Kubernetes 🌟](https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273)
 
 ### Kubernetes API
 - [kubernetes.io: Kubernetes API 🌟](https://kubernetes.io/docs/reference/kubernetes-api/)
 - [thenewstack.io: Living with Kubernetes: API Lifecycles and You](https://thenewstack.io/living-with-kubernetes-api-lifecycles-and-you/)
 - [blog.tilt.dev: Kubernetes is so Simple You Can Explore it with Curl](https://blog.tilt.dev/2021/03/18/kubernetes-is-so-simple.html)
+- [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl) Determine offending pods that use more RAM than requested, causing OOM, with Prometheus and jq.
+- [thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟](https://thenewstack.io/kubernetes-is-not-just-about-containers-its-about-the-api/)
+- [kubernetes.io: Alpha in Kubernetes v1.22: API Server Tracing](https://kubernetes.io/blog/2021/09/03/api-server-tracing/)
 
 ### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -557,7 +534,8 @@
 ### Kubernetes Secrets
 * [linuxadvise.com: Kubernetes Secrets](https://www.linuxadvise.com/post/kubernetes-secrets)
 * https://blog.newrelic.com/engineering/how-to-use-kubernetes-secrets/
-### Namespaces and Multi Tenancy
+### Namespaces and Multi Tenancy. Self Service Namespaces
+- [Self-Service Kubernetes Namespaces Are A Game-Changer 🌟](https://loft.sh/blog/self-service-kubernetes-namespaces-are-a-game-changer/)
 - [qvault.io: How to Restart All Pods in a Kubernetes Namespace](https://qvault.io/2020/10/26/how-to-restart-all-pods-in-a-kubernetes-namespace/)
 - [medium: How to create Namespaces in Kubernetes? 🌟](https://medium.com/faun/namespaces-in-kubernetes-4bac49414770)
 - [starwindsoftware.com: Remove a Kubernetes namespace blocked with Terminating status](https://www.starwindsoftware.com/blog/remove-a-kubernetes-namespace-blocked-with-terminating-status)
@@ -574,12 +552,26 @@
 - [blog.sighup.io: Hierarchical Namespace Controller (HNC): a look into the future of Kubernetes Multitenancy](https://blog.sighup.io/an-introduction-to-hierarchical-namespace-controller-hnc/) Hierarchical Namespace Controller (HNC) is bringing a better multi-tenancy model to Kubernetes. In this article we are exploring the current state of the project and useful use-cases.
 - [vamsitalkstech.com: Introduction to Kubernetes Multi-tenancy..(1/2)](https://www.vamsitalkstech.com/architecture/a-deepdive-into-kubernetes-multitenancy-1-2/)
 - [asonisg.medium.com: Multi-tenancy with Kubernetes (Part-1)](https://asonisg.medium.com/multi-tenancy-with-kubernetes-part-1-8ac4e5083e31)
+- [openshift.com: The Hidden Dangers of Terminating Namespaces 🌟](https://www.openshift.com/blog/the-hidden-dangers-of-terminating-namespaces)
+- [medium: Kubernetes Namespaces vs. Virtual Clusters](https://medium.com/geekculture/kubernetes-namespaces-vs-virtual-clusters-cc8731752972)
 
+#### Creating Users
+* [cloudhero.io](https://cloudhero.io/creating-users-for-your-kubernetes-cluster) Creating Users for your Kubernetes Cluster. Learn how to use x509 certificates to authenticate users in your cluster.
+
+### Kubernetes Labels and Selectors
+* [sandeepbaldawa.medium.com: K8s Labels & Selectors](https://sandeepbaldawa.medium.com/k8s-labels-selectors-9ad2fcf78a4e) In this post, we will look at What Kubernetes(K8s) Labels and Selectors are, Why do we need them, How to use them.
+* [blog.kubecost.com: The Guide to Kubernetes Labels](https://blog.kubecost.com/blog/kubernetes-labels/)
+* [millionvisit.blogspot.com: Kubernetes for Developers #8: Kubernetes Object Name, Labels, Selectors and Namespace](http://millionvisit.blogspot.com/2021/02/kubernetes-for-developers-8-Object%20Name-Labels-Selectors-Namespace.html)
+* [millionvisit.blogspot.com: Kubernetes for Developers #11: Pod Organization using Labels](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-11-pod-organization-using-labels.html)
+* [linuxadvise.com: Kubernetes Node Selectors](https://www.linuxadvise.com/post/kubernetes-node-selectors)
 ### Kubernetes Deployment, Rollling Updates and Rollbacks
+* [medium: How to Deploy a Web Application with Kubernetes 🌟](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
 * [itnext.io: Kubernetes rolling updates, rollbacks and multi-environments](https://itnext.io/kubernetes-rolling-updates-rollbacks-and-multi-environments-4ff9912df5)
 * [linuxadvise.com: Kubernetes Rolling Updates and Rollbacks](https://www.linuxadvise.com/post/kubernetes-rolling-updates-and-rollbacks)
 * [medium: How Rolling and Rollback Deployments work in Kubernetes](https://medium.com/@yankee.exe/how-rolling-and-rollback-deployments-work-in-kubernetes-8db4c4dce599)
 * [medium: Kubernetes Deployment — Rolling Updates and Rollbacks Explained](https://medium.com/codex/kubernetes-deployment-rolling-updates-and-rollbacks-explained-e3efa6557368) Learn how to update the application once created a Deployment in the Kubernetes cluster and how to rollback. 
+* [thenewstack.io: How do applications run on kubernetes?](https://thenewstack.io/how-do-applications-run-on-kubernetes/)
+* [deepsource.io: Breaking down zero downtime deployments in Kubernetes](https://deepsource.io/blog/zero-downtime-deployment/) An in-depth analysis of deployments in Kubernetes
 * [k21academy.com: Kubernetes Deployment and Step-by-Step Guide to Deployment: Update, Rollback, Scale & Delete 🌟](https://k21academy.com/docker-kubernetes/kubernetes-deployment/)
 * [medium: Kubernetes Deployment: Connect Your Front End to Your Back End With Nginx](https://medium.com/better-programming/kubernetes-deployment-connect-your-front-end-to-your-back-end-with-nginx-7e4e7cfef177)
 * [sbg.technology: Zero-Downtime Kubernetes Deployments](https://sbg.technology/2020/08/21/zero-downtime-kubernetes-deployments/)
@@ -587,6 +579,19 @@
 * [mirantis.com: Introduction to YAML: Creating a Kubernetes deployment](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment)
 * [medium: Kubernetes Deployment Explained](https://medium.com/geekculture/kubernetes-deployment-explained-9b2b89dd3977) Learn what is Deployment in the Kubernetes cluster and learn the advantages of the Deployment object.
 * [redhat.com: 10 considerations for Kubernetes deployments - Checklist](https://www.redhat.com/en/engage/considerations-kubernetes-deployments-s-202001101221)
+* [learnk8s.io: Graceful shutdown and zero downtime deployments in Kubernetes 🌟](https://learnk8s.io/graceful-shutdown)
+* [thoughtbot.com: Zero Downtime Rails Deployments with Kubernetes](https://thoughtbot.com/blog/zero-downtime-rails-deployments-with-kubernetes)
+* [medium: Deployment types in Kubernetes 🌟](https://medium.com/avmconsulting-blog/deployment-types-in-kubernetes-14b70ca7ef93)
+* [hackernoon.com: How To Deploy Code Faster Using Kubernetes](https://hackernoon.com/how-to-deploy-code-faster-using-kubernetes-jh1y3ul0)
+* [fosstechnix.com: Rolling out and Rolling back updates with Zero Downtime on Kubernetes Cluster 🌟](https://www.fosstechnix.com/rolling-out-and-rolling-back-updates-with-zero-downtime-on-kubernetes-cluster/)
+* [medium: 5 Things We Overlooked When Deploying Our First App on Kubernetes 🌟](https://medium.com/gumgum-tech/5-things-we-overlooked-when-putting-our-first-app-on-kubernetes-58583c1783e4)
+
+### Kubernetes Cron Jobs
+* [How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)](https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4)
+    * [How we learned to improve Kubernetes CronJobs at Scale (Part 2 of 2)](https://eng.lyft.com/how-we-learned-to-improve-kubernetes-cronjobs-at-scale-part-2-of-2-dad0c973ffca)
+* [opensource.com: A beginner's guide to Kubernetes Jobs and CronJobs](https://opensource.com/article/20/11/kubernetes-jobs-cronjobs) Use Jobs and CronJobs to control and manage Kubernetes pods and containers.
+* [medium: Jobs & Cronjobs in Kubernetes Cluster](https://medium.com/avmconsulting-blog/jobs-cronjobs-in-kubernetes-cluster-d0e872e3c8c8)
+* [devopscube.com: How To Create Kubernetes Jobs/Cron Jobs – Getting Started Guide](https://devopscube.com/create-kubernetes-jobs-cron-jobs/)
 
 ### Kubernetes Probes. Startup, Liveness, Readiness
 * [If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s](https://github.com/kubernetes/kubernetes/pull/97057)
@@ -598,8 +603,10 @@
 * [andrewlock.net: Deploying ASP.NET Core applications to Kubernetes - Part 6 - Adding health checks with Liveness, Readiness, and Startup probes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-6-adding-health-checks-with-liveness-readiness-and-startup-probes/)
 * [itnext.io: Kubernetes Probes: Startup, Liveness, Readiness](https://itnext.io/kubernetes-probes-startup-liveness-readiness-a9fc9ccff4b2)
 * [itnext.io: Kubernetes Readiness Probes — Examples & Common Pitfalls](https://itnext.io/kubernetes-readiness-probes-examples-common-pitfalls-136e3a9a058d)
-
+* [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
+  
 ### Kubernetes Best Practices and Tips
+* [blog.pipetail.io: 10 most common mistakes using kubernetes 🌟](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
 * [**Optimize** Kubernetes cluster management with these 5 tips 🌟](https://searchitoperations.techtarget.com/feature/Optimize-Kubernetes-cluster-management-with-these-5-tips) Effective Kubernetes cluster management requires operations teams to balance pod and node deployments with performance and availability needs.
 * [techradar.com: Three tips to implement Kubernetes with open standards](https://www.techradar.com/news/three-tips-to-implement-kubernetes-with-open-standards)
 * [10 most common mistakes when using Kubernetes 🌟🌟](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
@@ -629,7 +636,8 @@
 * [thenewstack.io: 5 Best Practices for Configuring Kubernetes Pods Running in Production](https://thenewstack.io/5-best-practices-for-configuring-kubernetes-pods-running-in-production/)
 * [containiq.com: Setting and Rightsizing Kubernetes Resource Limits | Best Practices 🌟](https://www.containiq.com/post/setting-and-rightsizing-kubernetes-resource-limits) Part of managing a Kubernetes cluster is making sure your clusters aren’t using too many resources. Let’s walk through the concepts of setting and rightsizing resource limits for Kubernetes.
 * [freecodecamp.org: How to Make Your Enterprise Kubernetes Environment Secure, Efficient, and Reliable](https://www.freecodecamp.org/news/make-your-kubernetes-environment-secure-efficient-reliable/)
-  
+* [geekflare.com: Diez mejores prácticas de Kubernetes para una mejor orquestación de contenedores](https://geekflare.com/es/kubernetes-best-practices/)
+
 ### Disruptions
 - [thenewstack.io: Kubernetes: Use PodDisruptionBudgets for Application Maintenance and Upgrades](https://thenewstack.io/kubernetes-use-poddisruptionbudgets-for-application-maintenance-and-upgrades/)
 
@@ -731,9 +739,6 @@
 ### Kubernetes Knowledge Hubs
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
-
-## Self Service Kubernetes Namespaces
-- [Self-Service Kubernetes Namespaces Are A Game-Changer 🌟](https://loft.sh/blog/self-service-kubernetes-namespaces-are-a-game-changer/)
 
 ## Client Libraries for Kubernetes
 - [Client Libraries for Kubernetes](kubernetes-client-libraries.md)
@@ -850,6 +855,8 @@
 [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
 </center>
 
+### Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes
+* [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes 🌟](https://learnk8s.io/cloud-resources-kubernetes)
 ### Debugging Techniques and Strategies. Debugging with ephemeral containers
 - [kubectl-debug](https://github.com/aylei/kubectl-debug)
 - [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
@@ -987,7 +994,8 @@
 - [medium: Getting Started with Kubernetes etcd](https://medium.com/@Alibaba_Cloud/getting-started-with-kubernetes-etcd-a26cba0b4258)
 - [sysdig.com: How to monitor etcd 🌟](https://sysdig.com/blog/monitor-etcd/) Learning how to monitor etcd is of vital importance when running Kubernetes in production. Monitoring etcd will let you validate that things work as expected, while detecting and troubleshooting issues that could take your entire infrastructure down.
 - [learnk8s.io: How etcd works with and without Kubernetes 🌟](https://learnk8s.io/etcd-kubernetes)
-
+- [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
+  
 ## Cloud Development Kit (CDK) for Kubernetes 
 * [cdk8s.io 🌟](https://cdk8s.io/) Define Kubernetes apps and components using familiar languages. cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
 * [github.com/awslabs/cdk8s](https://github.com/awslabs/cdk8s)
@@ -1070,6 +1078,10 @@
 ## Kubernetes Scripts
 - [Kubernetes Scripts 🌟](https://github.com/eldada/kubernetes-scripts)
 - [Get applied and effective apiVersion from Kubernetes objects](https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236)
+
+### Kubernetes and Ansible
+- [itnext.io: Automating System Updates for Kubernetes Clusters using Ansible](https://itnext.io/automating-system-updates-for-kubernetes-clusters-using-ansible-94a70f4e1972)
+- [Ansible for devops: Kubernetes](https://github.com/geerlingguy/ansible-for-devops/tree/master/kubernetes)
 
 ## Spot instances in Kubernetes
 - [itnext.io: Embracing failures and cutting infrastructure costs: Spot instances in Kubernetes](https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc)
