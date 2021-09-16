@@ -1,6 +1,7 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
 - [Disaster Recovery](#disaster-recovery)
+- [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
@@ -21,7 +22,6 @@
 - [Software Development Models](#software-development-models)
 - [Software Development Tools](#software-development-tools)
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
-- [Multi Cloud](#multi-cloud)
 - [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -149,6 +149,9 @@
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
 
+## Multi Cloud
+- [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
+- [architectelevator.com: Multi Cloud Architecture: Decisions and Options](https://architectelevator.com/cloud/hybrid-multi-cloud/) Multi cloud means different things to different people. A decision model helps bust the buzzwords and show the options clearly.
 ## Cloud Automation
 * [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed/) DevOps has an automation problem, while agile has an identification problem. Both face organizational problems. Both are needed in the digital transformation shaping the months ahead.
 * [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)
@@ -248,9 +251,6 @@
 ## vFunction. A system to transform monolithic Java applications into microservices
 - [vFunction](https://vfunction.com/) vFunction accelerates your journey to cloud native by automating Java app modernization.
 - [thenewstack.io: vFunction Transforms Monolithic Java to Microservices](https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices/)
-
-## Multi Cloud
-- [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
 
 ## Bunch of Images
 <details>
