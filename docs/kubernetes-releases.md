@@ -17,7 +17,6 @@
 * [openshift.com: Kubernetes 1.21 Grows Innovative New Features](https://www.openshift.com/blog/kubernetes-1.21-grows-innovative-new-features)
 * [Kubernetes v1.16 API deprecation testing](https://gist.github.com/jimangel/0014770713cdca8b363816930ef2520f) Examples of how to test the impact of the v1.16 API deprecations and ways to debug early!
 * [kubernetes.io: Kubernetes 1.21: Metrics Stability hits GA](https://kubernetes.io/blog/2021/04/23/kubernetes-release-1.21-metrics-stability-ga/)
-* [blog.gopaddle.io: Strange things you never knew about Kubernetes ConfigMaps on day one 🌟🌟](https://blog.gopaddle.io/2021/04/01/strange-things-you-never-knew-about-kubernetes-configmaps-on-day-one/)
 * [sysdig.com: Kubernetes 1.22 – What’s new?](https://sysdig.com/blog/kubernetes-1-22-whats-new/)
 * [kubernetes.io: Kubernetes API and Feature Removals In 1.22: Here’s What You Need To Know](https://kubernetes.io/blog/2021/07/14/upcoming-changes-in-kubernetes-1-22/) In this version, multiple beta APIs will be *removed.* Not deprecated, removed. Specifically, the following:
     - Ingress
