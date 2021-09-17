@@ -24,7 +24,6 @@
     - [Kubernetes Taints and Tolerations](#kubernetes-taints-and-tolerations)
     - [Kubernetes Deployment, Rollling Updates and Rollbacks](#kubernetes-deployment-rollling-updates-and-rollbacks)
     - [Kubernetes StatefulSet](#kubernetes-statefulset)
-    - [Quality Checks for Kubernetes YAMLs](#quality-checks-for-kubernetes-yamls)
     - [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
     - [Kubernetes Probes. Startup, Liveness, Readiness](#kubernetes-probes-startup-liveness-readiness)
     - [Kubernetes Sidecars](#kubernetes-sidecars)
@@ -32,20 +31,22 @@
     - [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
     - [Disruptions](#disruptions)
     - [Cost Estimation Strategies](#cost-estimation-strategies)
-    - [Kubernetes Node Size](#kubernetes-node-size)
         - [kubecost](#kubecost)
+    - [Kubernetes Node Size](#kubernetes-node-size)
     - [Kubernetes Resource and Capacity Management. Capacity Planning](#kubernetes-resource-and-capacity-management-capacity-planning)
     - [Kubernetes Monitoring](#kubernetes-monitoring)
         - [Logging in Kubernetes](#logging-in-kubernetes)
         - [ECK Elastic Cloud on Kubernetes](#eck-elastic-cloud-on-kubernetes)
     - [Kubernetes Health Checks](#kubernetes-health-checks)
     - [Architecting Kubernetes clusters. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-multi-clusters-and-hybrid-cloud)
-    - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
     - [Kubernetes Limits](#kubernetes-limits)
     - [Kube Scheduler](#kube-scheduler)
+    - [Kubernetes etcd](#kubernetes-etcd)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
+- [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
+- [Quality Checks for Kubernetes YAMLs](#quality-checks-for-kubernetes-yamls)
 - [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
 - [Extending Kubernetes](#extending-kubernetes)
     - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
@@ -73,7 +74,6 @@
 - [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
     - [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
     - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
-- [Kubernetes etcd](#kubernetes-etcd)
 - [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
     - [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
 - [SpringBoot with Docker](#springboot-with-docker)
@@ -437,6 +437,7 @@
 * [linuxtechi.com: How to Setup Private Docker Registry in Kubernetes (k8s)](https://www.linuxtechi.com/setup-private-docker-registry-kubernetes/)
 * [itnexst.io: Docker and Kubernetes — root vs. privileged](https://itnext.io/docker-and-kubernetes-root-vs-privileged-9d2a37453dec)
 * [containerjournal.com: Best of 2020: How Docker and Kubernetes Work Together](https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/)
+* [blog.sighup.io: How to run Kubernetes without Docker](https://blog.sighup.io/how-to-run-kubernetes-without-docker/) Sooner or later this moment had to come, and it finally has: Kubernetes is deprecating Docker as a Container Runtime Interface in favor of the other supported runtimes. Let's try to explain why Docker seems really replaceable.
 
 ### Kubernetes Cloud Controller Manager
 * [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
@@ -564,9 +565,6 @@
 ### Kubernetes StatefulSet
 * [medium: Kubernetes — Difference between Deployment and StatefulSet in K8s](https://medium.com/devops-mojo/kubernetes-difference-between-deployment-and-statefulset-in-k8s-deployments-vs-statefulsets-855f9e897091)
 
-### Quality Checks for Kubernetes YAMLs
-* [dev.to: Automating quality checks for Kubernetes YAMLs 🌟](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
-
 ### Kubernetes Jobs and Cron Jobs
 * [ithands-on.com: Kubernetes 101 : Performing tasks in kubernetes - Jobs](https://www.ithands-on.com/2021/05/kubernetes-101-performing-tasks-in.html)
 * [How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)](https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4)
@@ -646,12 +644,6 @@
 - [ubuntu.com: Kubernetes Fully Managed – half the cost of AWS](https://ubuntu.com/blog/managed-kubernetes-cheaper-than-aws)
 - [learnk8s.io: Kubernetes Instance Calculator 🌟](https://learnk8s.io/kubernetes-instance-calculator)
 
-### Kubernetes Node Size
-- [learnk8s.io: Allocatable memory and CPU in Kubernetes Nodes 🌟🌟](https://learnk8s.io/allocatable-resources)
-- [docs.google.com - learnk8s.io: Research on the trade offs when choosing an instance type for a kubernetes cluster 🌟🌟](https://docs.google.com/spreadsheets/d/1yhkuBJBY2iO2Ax5FcbDMdWD5QLTVO6Y_kYt_VumnEtI/edit#gid=1994017257)
-- [Architecting Kubernetes clusters — choosing a cluster size 🌟](https://itnext.io/architecting-kubernetes-clusters-choosing-a-cluster-size-92f6feaa2908) This article discusses the pros and cons of having either many small clusters or few large clusters for running a given set of apps.d
-- [medium: Deploying Kubernetes — Deciding the size of your nodes 🌟](https://medium.com/swlh/deploying-kubernetes-deciding-the-size-of-your-nodes-a115e770e09)
-
 #### kubecost
 - [How to track costs in multi-tenant Amazon EKS clusters using Kubecost 🌟](https://aws.amazon.com/blogs/containers/how-to-track-costs-in-multi-tenant-amazon-eks-clusters-using-kubecost/)
 - [infracloud.io: Kubernetes Cost Reporting using Kubecost 🌟](https://www.infracloud.io/blogs/kubernetes-cost-reporting-using-kubecost/)
@@ -660,6 +652,12 @@
 - [kubectl-cost 🌟](https://github.com/kubecost/kubectl-cost) is a kubectl plugin that provides easy CLI access to Kubernetes cost allocation metrics via the kubecost APIs. It allows developers, devops, and others to quickly determine the cost & efficiency for any Kubernetes workload
 - [blog.kubecost.com: AKS Cost Monitoring and Governance With Kubecost](https://blog.kubecost.com/blog/aks-cost/)
 - [thenewstack.io: KubeCost: Monitor Kubernetes Costs with kubectl](https://thenewstack.io/kubecost-monitor-kubernetes-costs-with-kubectl/)
+
+### Kubernetes Node Size
+- [learnk8s.io: Allocatable memory and CPU in Kubernetes Nodes 🌟🌟](https://learnk8s.io/allocatable-resources)
+- [docs.google.com - learnk8s.io: Research on the trade offs when choosing an instance type for a kubernetes cluster 🌟🌟](https://docs.google.com/spreadsheets/d/1yhkuBJBY2iO2Ax5FcbDMdWD5QLTVO6Y_kYt_VumnEtI/edit#gid=1994017257)
+- [Architecting Kubernetes clusters — choosing a cluster size 🌟](https://itnext.io/architecting-kubernetes-clusters-choosing-a-cluster-size-92f6feaa2908) This article discusses the pros and cons of having either many small clusters or few large clusters for running a given set of apps.d
+- [medium: Deploying Kubernetes — Deciding the size of your nodes 🌟](https://medium.com/swlh/deploying-kubernetes-deciding-the-size-of-your-nodes-a115e770e09)
 
 ### Kubernetes Resource and Capacity Management. Capacity Planning
 * [itnext.io: Kubernetes Resource Management in Production 🌟](https://itnext.io/kubernetes-resource-management-in-production-d5382c904ed1) Requests, Limits, Overcommitment, Slack/Waste, Throttling
@@ -724,11 +722,6 @@
 * [elastisys.com: What do I need to add on top of Kubernetes?](https://elastisys.com/what-do-i-need-to-add-on-top-of-kubernetes/)
 * [platform9.com: Kubernetes Cluster Sizing – How Large Should a Kubernetes Cluster Be? 🌟](https://platform9.com/blog/kubernetes-cluster-sizing-how-large-should-a-kubernetes-cluster-be/)
 
-### Templating YAML in Kubernetes with real code. YQ YAML processor
-- [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code)
-    - TL;DR: You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
-    - If you're working on large scale projects, you should consider using **real code** — you can find [hands-on examples on how to programmatically generate Kubernetes resources in Java, Go, Javascript, C# and Python in this repository](https://github.com/learnk8s/templating-kubernetes).
-
 ### Kubernetes Limits
 * [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range/)
 * [sysdig.com: Understanding Kubernetes limits and requests by example 🌟](https://sysdig.com/blog/kubernetes-limits-requests/)
@@ -740,6 +733,13 @@
 ### Kube Scheduler
 - [All you need to know to get started with the Kube Scheduler](https://gist.github.com/luisalfonsopreciado/40a0fc2319241d517832affdce2bc1ff)
 
+### Kubernetes etcd
+- [medium: How to modify etcd data of your Kubernetes directly (without K8s API)](https://medium.com/flant-com/modifying-kubernetes-etcd-data-ed3d4bb42379)
+- [medium: Getting Started with Kubernetes etcd](https://medium.com/@Alibaba_Cloud/getting-started-with-kubernetes-etcd-a26cba0b4258)
+- [sysdig.com: How to monitor etcd 🌟](https://sysdig.com/blog/monitor-etcd/) Learning how to monitor etcd is of vital importance when running Kubernetes in production. Monitoring etcd will let you validate that things work as expected, while detecting and troubleshooting issues that could take your entire infrastructure down.
+- [learnk8s.io: How etcd works with and without Kubernetes 🌟](https://learnk8s.io/etcd-kubernetes)
+- [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
+
 ### Kubernetes Knowledge Hubs
 - [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
@@ -750,10 +750,16 @@
 ## Helm Kubernetes Tool
 - [Helm](helm.md)
 
+## Templating YAML in Kubernetes with real code. YQ YAML processor
+- [Templating YAML in Kubernetes with real code](https://learnk8s.io/templating-yaml-with-code)
+    - TL;DR: You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
+    - If you're working on large scale projects, you should consider using **real code** — you can find [hands-on examples on how to programmatically generate Kubernetes resources in Java, Go, Javascript, C# and Python in this repository](https://github.com/learnk8s/templating-kubernetes).
+## Quality Checks for Kubernetes YAMLs
+* [dev.to: Automating quality checks for Kubernetes YAMLs 🌟](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
+
 ## Dekorate. Generate k8s manifests for java apps
 * [dekorate.io 🌟](http://dekorate.io/)
 * [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications 🌟](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications/)
-   
 
 ## Extending Kubernetes
 ### Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API
@@ -1000,13 +1006,6 @@
 ### Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin
 * [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/)
 * [Introducing PodTopologySpread plugin](https://kubernetes.io/blog/2020/05/introducing-podtopologyspread/)
-
-## Kubernetes etcd
-- [medium: How to modify etcd data of your Kubernetes directly (without K8s API)](https://medium.com/flant-com/modifying-kubernetes-etcd-data-ed3d4bb42379)
-- [medium: Getting Started with Kubernetes etcd](https://medium.com/@Alibaba_Cloud/getting-started-with-kubernetes-etcd-a26cba0b4258)
-- [sysdig.com: How to monitor etcd 🌟](https://sysdig.com/blog/monitor-etcd/) Learning how to monitor etcd is of vital importance when running Kubernetes in production. Monitoring etcd will let you validate that things work as expected, while detecting and troubleshooting issues that could take your entire infrastructure down.
-- [learnk8s.io: How etcd works with and without Kubernetes 🌟](https://learnk8s.io/etcd-kubernetes)
-- [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
   
 ## Cloud Development Kit (CDK) for Kubernetes 
 * [cdk8s.io 🌟](https://cdk8s.io/) Define Kubernetes apps and components using familiar languages. cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.

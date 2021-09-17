@@ -1,5 +1,6 @@
 # Security and DevSecOps. Container Security
 - [Introduction](#introduction)
+- [Authentication and Authorization](#authentication-and-authorization)
 - [Quality Gates](#quality-gates)
 - [16 Gates](#16-gates)
 - [Kubernetes Threat Modelling](#kubernetes-threat-modelling)
@@ -90,6 +91,9 @@
 - [infoq.com: Serverless Security: What's Left to Protect?](https://www.infoq.com/articles/serverless-security/)
 - [dqindia.com: Secure your CI/CD pipeline with these tips from experts](https://www.dqindia.com/secure-cicd-pipeline-tips-experts/)
 - [thenewstack.io: The DevSecOps Skillsets Required for Cloud Deployments](https://thenewstack.io/the-devsecops-skillsets-required-for-cloud-deployments/)
+
+## Authentication and Authorization
+- [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
