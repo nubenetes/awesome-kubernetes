@@ -89,6 +89,8 @@
 * [redhat.com: State of Kubernetes Security Report - Spring 2021 (PDF) 🌟](https://www.redhat.com/rhdc/managed-files/cl-state-kubernetes-security-report-ebook-f29117-202106-en.pdf)
 * [kubernetes.io: Overview of Cloud Native Security 🌟🌟](https://kubernetes.io/docs/concepts/security/overview/) This overview defines a model for thinking about Kubernetes security in the context of Cloud Native security.
 * [elastisys.com: NSA and CISA Kubernetes Security Guidance: Summarized and Explained](https://elastisys.com/nsa-and-cisa-kubernetes-security-guidance-summarized-and-explained/)
+* [learn.hashicorp.com: Integrate a Kubernetes Cluster with an External Vault 🌟](https://learn.hashicorp.com/tutorials/vault/kubernetes-external-vault)
+* [talkingquickly.co.uk: Kubernetes Single Sign On - A detailed guide 🌟](http://www.talkingquickly.co.uk/kubernetes-sso-a-detailed-guide)
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
