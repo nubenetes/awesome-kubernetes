@@ -1035,6 +1035,10 @@
     * [Don't make this container security mistake](https://bitfieldconsulting.com/blog/container-security)
 * [digitalocean.com: From Containers to Kubernetes with Node.js eBook](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook)
 
+<center>
+[![Kubernetes: Up and Running](images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
+</center>
+
 ## Famous Kubernetes resources of 2019
 * [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
 * [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes/)
@@ -1055,11 +1059,6 @@
 ### Spanish Kubernetes Blogs 
 - [returngis.net by @0GiS0](https://www.returngis.net/)
 - [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
-
-
-<center>
-[![Kubernetes: Up and Running](images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
-</center>
 
 ### Kubernetes Patterns eBooks
 * [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
