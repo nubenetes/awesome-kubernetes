@@ -8,6 +8,7 @@
 - [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
 - [Kubevela](#kubevela)
 - [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
+- [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
 - [Kubesploit](#kubesploit)
 - [Tweets](#tweets)
 
@@ -359,6 +360,10 @@
 - [docs.pixielabs.ai: Pixie](https://docs.pixielabs.ai/) Instantly debug your applications on Kubernetes
 - [github.com: Pixie - Instant Kubernetes-Native Application Observability](https://github.com/pixie-io/pixie/)
 - [open source PxL scripts](https://github.com/pixie-labs/pixie/tree/main/pxl_scripts)
+
+## Dekorate. Generate k8s manifests for java apps
+* [dekorate.io](http://dekorate.io/)
+* [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications/)
 
 ## Kubesploit
 - [github.com/cyberark/kubesploit 🌟](https://github.com/cyberark/kubesploit) Kubesploit is a cross-platform post-exploitation HTTP/2 Command & Control server and agent dedicated for containerized environments written in Golang and built on top of Merlin project

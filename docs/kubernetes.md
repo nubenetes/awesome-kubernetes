@@ -46,7 +46,6 @@
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
 - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
 - [Quality Checks for Kubernetes YAMLs](#quality-checks-for-kubernetes-yamls)
-- [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
 - [Extending Kubernetes](#extending-kubernetes)
     - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
     - [Krew, a plugin manager for kubectl plugins](#krew-a-plugin-manager-for-kubectl-plugins)
@@ -63,13 +62,8 @@
     - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
     - [Online Training](#online-training)
-    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
-    - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
     - [K8s Diagrams](#k8s-diagrams)
 - [Kubernetes Patterns and Antipatterns. Service Discovery](#kubernetes-patterns-and-antipatterns-service-discovery)
-- [Books and e-Books](#books-and-e-books)
-    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
-    - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
     - [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
     - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
@@ -82,15 +76,19 @@
     - [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
     - [Crossplane](#crossplane)
     - [Istio Service Mesh](#istio-service-mesh)
-- [Kubernetes interview questions](#kubernetes-interview-questions)
-- [Kubernetes Blogs](#kubernetes-blogs)
-- [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
-- [Container Ecosystem](#container-ecosystem)
 - [Container Flowchart](#container-flowchart)
 - [Kubernetes Scripts](#kubernetes-scripts)
     - [Kubernetes and Ansible](#kubernetes-and-ansible)
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
+- [Kubernetes interview questions](#kubernetes-interview-questions)
+- [Books and e-Books](#books-and-e-books)
+    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
+- [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
+- [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
+- [Kubernetes Blogs](#kubernetes-blogs)
+    - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
+    - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -744,10 +742,6 @@
 ## Quality Checks for Kubernetes YAMLs
 * [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 
-## Dekorate. Generate k8s manifests for java apps
-* [dekorate.io](http://dekorate.io/)
-* [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications/)
-
 ## Extending Kubernetes
 ### Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API
 - [Custom Resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
@@ -919,22 +913,8 @@
 * [Certified Kubernetes Administrator CKA course notes — diagrams for each subject area and use as reference for future refresher](https://drive.google.com/file/d/1RhPULD1IAVgCo1KD857iCoaNKuJjQKa1/view)
 * [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 
-### Famous Kubernetes resources of 2019
-* [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
-* [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes/)
-* [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started/)
-* [Kubernetes Tutorial: Learn the Basics](https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh)
-* [Complete Kubernetes Course](https://www.youtube.com/watch?v=0KQndcIedeg)
-* [Getting started with Kubernetes](https://learn.pluralsight.com/programs/2019/free-course/template4)
-
-### Famous Kubernetes resources of 2020
-* [javarevisited.blogspot.com: Top 5 courses to Learn Docker and Kubernetes in 2020 - Best of Lot](https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html)
-* [medium.com: Top 15 Online Courses to Learn Docker, Kubernetes, and AWS for Fullstack Developers and DevOps Engineers](https://medium.com/javarevisited/top-15-online-courses-to-learn-docker-kubernetes-and-aws-for-fullstack-developers-and-devops-d8cc4f16e773)
-* [medium.com: 7 Free Online Courses to Learn Kubernetes in 2020](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)
-* [skillslane.com: 10 Best Kubernetes Courses [2020]: Beginner to Advanced Courses](https://skillslane.com/learn-kubernetes-from-these-best-online-courses/)
-
 ### K8s Diagrams
-- [k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
+- [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
 ## Kubernetes Patterns and Antipatterns. Service Discovery
 - [github.com/k8spatterns/examples](https://github.com/k8spatterns/examples) Examples for "Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications"
@@ -962,27 +942,6 @@
 - [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://www.weave.works/blog/tools-for-automating-and-implementing-cloud-native-patterns)
 
 [![Top 10 Kubernetes patterns](images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
-
-## Books and e-Books
-- [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)
-- [Kubernetes 101](https://leanpub.com/kubernetes-101)
-- [learnk8s.io/first-steps](https://learnk8s.io/first-steps)
-- [ubuntuask.com: Best New Kubernetes Books](https://ubuntuask.com/blog/best-new-kubernetes-books)
-### Famous Kubernetes resources of 2019
-* [Kubernetes essentials E-book](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
-* [Cloud-Native DevOps With Kubernetes O'Reilly book (Free)](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
-* [Kubernetes: Up and Running, 2nd Edition🌟](http://shop.oreilly.com/product/0636920223788.do) Dive into the Future of Infrastructure. By Brendan Burns, Kelsey Hightower, Joe Beda
-* [Container Security](https://www.amazon.com/gp/product/1492056707)
-    * [Don't make this container security mistake](https://bitfieldconsulting.com/blog/container-security)
-* [digitalocean.com: From Containers to Kubernetes with Node.js eBook](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook)
-
-<center>
-[![Kubernetes: Up and Running](images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
-</center>
-
-### Kubernetes Patterns eBooks
-* [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
-* [magalix.com: Free Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
 
 ## Kubernetes Scheduling and Scheduling Profiles
 * [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)
@@ -1036,24 +995,6 @@
 ### Istio Service Mesh
 - [Istio](https://istio.io/)
 
-## Kubernetes interview questions
-- [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)
-- [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers/)
-- [automationreinvented.blogspot.com: Top 11 Kubernetes interview question and answers for SDET Devops QA SET-01?](https://automationreinvented.blogspot.com/2020/09/top-11-kubernetes-interview-question.html)
-- [devsecops.co.in: Kubernetes Interview Questions and Answers](https://devsecops.co.in/2021/05/22/kubernetes-interview/)
-- [ymmt2005.hatenablog.com: 47 things that you should know to be a Kubernetes experts (questions + answers)](https://ymmt2005.hatenablog.com/entry/k8s-things)
-- [automationreinvented.blogspot.com: kubernetes posts](https://automationreinvented.blogspot.com/search/label/Kubernetes?m=1)
-
-## Kubernetes Blogs
-- [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
-
-## Spanish Kubernetes Blogs 
-- [returngis.net by @0GiS0](https://www.returngis.net/)
-- [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
-
-## Container Ecosystem
-* [Author: github.com/rootsongjc](https://github.com/rootsongjc)
-
 ## Container Flowchart
 * [Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
 
@@ -1071,6 +1012,59 @@
 ## Kubernetes Incident Report Plan IRP
 - [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan/)
 - [kubermatic.com: A Framework for Kubernetes Incident Response](https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response/)
+
+## Kubernetes interview questions
+- [Kubernetes Interview Questions and Answers 2019 2020](https://linux.amitmaheshwari.in/2019/11/kubernetes-interview-questions-and.html)
+- [intellipaat.com: Top Kubernetes Interview Questions and Answers](https://intellipaat.com/blog/interview-question/kubernetes-interview-questions-answers/)
+- [automationreinvented.blogspot.com: Top 11 Kubernetes interview question and answers for SDET Devops QA SET-01?](https://automationreinvented.blogspot.com/2020/09/top-11-kubernetes-interview-question.html)
+- [devsecops.co.in: Kubernetes Interview Questions and Answers](https://devsecops.co.in/2021/05/22/kubernetes-interview/)
+- [ymmt2005.hatenablog.com: 47 things that you should know to be a Kubernetes experts (questions + answers)](https://ymmt2005.hatenablog.com/entry/k8s-things)
+- [automationreinvented.blogspot.com: kubernetes posts](https://automationreinvented.blogspot.com/search/label/Kubernetes?m=1)
+
+## Books and e-Books
+- [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)
+- [Kubernetes 101](https://leanpub.com/kubernetes-101)
+- [learnk8s.io/first-steps](https://learnk8s.io/first-steps)
+- [ubuntuask.com: Best New Kubernetes Books](https://ubuntuask.com/blog/best-new-kubernetes-books)
+### Famous Kubernetes resources of 2019
+* [Kubernetes essentials E-book](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
+* [Cloud-Native DevOps With Kubernetes O'Reilly book (Free)](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
+* [Kubernetes: Up and Running, 2nd Edition](http://shop.oreilly.com/product/0636920223788.do) Dive into the Future of Infrastructure. By Brendan Burns, Kelsey Hightower, Joe Beda
+* [Container Security](https://www.amazon.com/gp/product/1492056707)
+    * [Don't make this container security mistake](https://bitfieldconsulting.com/blog/container-security)
+* [digitalocean.com: From Containers to Kubernetes with Node.js eBook](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook)
+
+## Famous Kubernetes resources of 2019
+* [Kubernetes for developers](https://www.udemy.com/course/kubernetes-for-developers/)
+* [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes/)
+* [Kubernetes: Getting Started (Free)](https://www.udemy.com/course/kubernetes-getting-started/)
+* [Kubernetes Tutorial: Learn the Basics](https://dev.to/scalyr/kubernetes-tutorial-learn-the-basics-and-get-started-5dgh)
+* [Complete Kubernetes Course](https://www.youtube.com/watch?v=0KQndcIedeg)
+* [Getting started with Kubernetes](https://learn.pluralsight.com/programs/2019/free-course/template4)
+
+## Famous Kubernetes resources of 2020
+* [javarevisited.blogspot.com: Top 5 courses to Learn Docker and Kubernetes in 2020 - Best of Lot](https://javarevisited.blogspot.com/2019/05/top-5-courses-to-learn-docker-and-kubernetes-for-devops.html)
+* [medium.com: Top 15 Online Courses to Learn Docker, Kubernetes, and AWS for Fullstack Developers and DevOps Engineers](https://medium.com/javarevisited/top-15-online-courses-to-learn-docker-kubernetes-and-aws-for-fullstack-developers-and-devops-d8cc4f16e773)
+* [medium.com: 7 Free Online Courses to Learn Kubernetes in 2020](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)
+* [skillslane.com: 10 Best Kubernetes Courses [2020]: Beginner to Advanced Courses](https://skillslane.com/learn-kubernetes-from-these-best-online-courses/)
+
+## Kubernetes Blogs
+- [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
+
+### Spanish Kubernetes Blogs 
+- [returngis.net by @0GiS0](https://www.returngis.net/)
+- [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
+
+
+<center>
+[![Kubernetes: Up and Running](images/kubernetes_up_running_kelsey_hightower.gif)](http://shop.oreilly.com/product/0636920223788.do)
+</center>
+
+### Kubernetes Patterns eBooks
+* [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+* [magalix.com: Free Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
+
+
 
 ## Bunch of images
 <details>
