@@ -82,13 +82,13 @@
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
 - [Kubernetes interview questions](#kubernetes-interview-questions)
 - [Certified Kubernetes Application Developer (CKAD)](#certified-kubernetes-application-developer-ckad)
-- [Books and e-Books](#books-and-e-books)
+- [Books and eBooks](#books-and-ebooks)
+    - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
     - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Blogs](#kubernetes-blogs)
     - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
-    - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -1022,11 +1022,16 @@
 - [cncf.io: Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/)
 - [CKAD-Bookmarks](https://github.com/reetasingh/CKAD-Bookmarks) save time in searching docs in CKAD exam
 
-## Books and e-Books
+## Books and eBooks
 - [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)
 - [Kubernetes 101](https://leanpub.com/kubernetes-101)
 - [learnk8s.io/first-steps](https://learnk8s.io/first-steps)
 - [ubuntuask.com: Best New Kubernetes Books](https://ubuntuask.com/blog/best-new-kubernetes-books)
+
+### Kubernetes Patterns eBooks
+* [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+* [magalix.com: Free Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
+
 ### Famous Kubernetes resources of 2019
 * [Kubernetes essentials E-book](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
 * [Cloud-Native DevOps With Kubernetes O'Reilly book (Free)](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
@@ -1059,11 +1064,6 @@
 ### Spanish Kubernetes Blogs 
 - [returngis.net by @0GiS0](https://www.returngis.net/)
 - [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
-
-### Kubernetes Patterns eBooks
-* [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
-* [magalix.com: Free Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
-
 
 
 ## Bunch of images
