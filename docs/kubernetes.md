@@ -8,6 +8,7 @@
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
         - [Kubernetes Blogs](#kubernetes-blogs)
+        - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
     - [kubeconfig](#kubeconfig)
     - [Docker and Kubernetes](#docker-and-kubernetes)
@@ -87,7 +88,6 @@
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Slack Channel](#kubernetes-slack-channel)
-    - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -96,12 +96,7 @@
 ## Introduction
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
-* [kubernetes.io](https://kubernetes.io/)
 * [twitter.com/kubernetesio](https://twitter.com/kubernetesio)
-* [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
-* [Awesome kubernetes 🌟](https://github.com/ramitsurana/awesome-kubernetes)
-* [https://www.reddit.com/r/kubernetes 🌟](https://www.reddit.com/r/kubernetes) 
-* [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/ )
 * [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
 * [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 * [opensource.com: Explaining Kubernetes in 10 minutes using an analogy](https://opensource.com/article/20/7/kubernetes-analogy)
@@ -185,12 +180,27 @@
 - [kubernetesbyexample.com 🌟🌟](https://www.kubernetesbyexample.com) A free learning platform covering the fundamentals of how to develop, deploy, manage, and automate containers in cloud-native environments. 
 
 ### Kubernetes Knowledge Hubs
+- [kubernetes.io](https://kubernetes.io/)
+- [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes) 
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 
 #### Kubernetes Blogs
+- [Awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
+- [learnk8s.io/blog](https://learnk8s.io/blog)
 - [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
+- [dev.to/t/kubernetes](https://dev.to/t/kubernetes)
+- [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/)
+- [opensource.com/tags/kubernetes](https://opensource.com/tags/kubernetes)
+- [itnext.io/tagged/kubernetes](https://itnext.io/tagged/kubernetes)
+- [thenewstack.io/category/kubernetes](https://thenewstack.io/category/kubernetes)
+- [k21academy.com/category/docker-kubernetes](https://k21academy.com/category/docker-kubernetes)
+- [weave.works/blog/category/kubernetes](https://www.weave.works/blog/category/kubernetes)
+- [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)
+#### Spanish Kubernetes Blogs 
+- [returngis.net](https://www.returngis.net/)
 
 ## Kubernetes Open Source Container Orchestation
 * [kubedex.com](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
@@ -459,6 +469,7 @@
 * [speakerdeck.com: Kubernetes Pod internals with the fundamentals of Containers](https://speakerdeck.com/devinjeon/kubernetes-pod-internals-with-the-fundamentals-of-containers)
 * [kubernetes.io: PodSecurityPolicy Deprecation: Past, Present, and Future 🌟](https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/)
 * [dustinspecker.com: IPVS: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/ipvs-how-kubernetes-services-direct-traffic-to-pods/)
+* [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
 
 #### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -1059,11 +1070,6 @@
 ## Kubernetes Slack Channel
 - [kubernetes.slack.com](https://kubernetes.slack.com)
 - [slack.kubernetes.io](http://slack.kubernetes.io) is the way to get yourself invited.
-
-### Spanish Kubernetes Blogs 
-- [returngis.net by @0GiS0](https://www.returngis.net/)
-- [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
-
 
 ## Bunch of images
 <details>
