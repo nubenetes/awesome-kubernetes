@@ -75,8 +75,6 @@
     - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 - [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
     - [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
-- [SpringBoot with Docker](#springboot-with-docker)
-- [Docker in Docker](#docker-in-docker)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
 - [Multi-Cluster Federation. Hybrid Cloud Setup Tools](#multi-cluster-federation-hybrid-cloud-setup-tools)
     - [KubeFed](#kubefed)
@@ -194,7 +192,7 @@
 ### Kubernetes Knowledge Hubs
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
-- [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
+- [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 
 ## Kubernetes Open Source Container Orchestation
 * [kubedex.com](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
@@ -1014,23 +1012,6 @@
     * [kubegen](https://github.com/errordeveloper/kubegen) Simple way to describe Kubernetes resources in a structured way, but without new syntax or magic
     * [Pulumi](https://www.pulumi.com/docs/get-started/kubernetes/) 
 * We realized this was exactly the same problem our customers had faced when defining their applications through CloudFormation templates, a problem solved by the [AWS Cloud Development Kit (AWS CDK)](https://aws.amazon.com/cdk/), and that we could apply the same design concepts from the AWS CDK to help all Kubernetes users.
-
-## SpringBoot with Docker
-* [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
-* [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 
-* [learnk8s.io: Developing and deploying Spring Boot microservices on Kubernetes](https://learnk8s.io/spring-boot-kubernetes-guide)
-
-## Docker in Docker
-* [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/)
-    * [pushbuildtestdeploy.com: jenkins on kubernetes building docker images](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
-    * [ref2](https://github.com/samrocketman/docker-jenkins-jervis/blob/master/README.md#working-with-docker-in-docker)
-* [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd)
-* [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/)
-* [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff)
-* [getintodevops.com: the simplest way to run docker in docker](https://getintodevops.com/blog/the-simple-way-to-run-docker-in-docker-for-ci#%3A~%3AtargetText=Building+Docker+containers+with+Jenkins+inside+a+container)
-* Docker in Docker on EKS:
-    * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
-    * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
 ## Serverless with OpenFaas and Knative
 * [Serverless Architectures](serverless.md)

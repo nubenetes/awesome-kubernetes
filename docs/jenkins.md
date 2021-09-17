@@ -37,6 +37,7 @@
 - [Monitoring jenkins](#monitoring-jenkins)
 - [Externalizing Fingerprint Storage for Jenkins](#externalizing-fingerprint-storage-for-jenkins)
 - [Jenkins and Spring Boot](#jenkins-and-spring-boot)
+- [Docker in Docker. Running Jenkins in Kubernetes](#docker-in-docker-running-jenkins-in-kubernetes)
 - [CloudBees](#cloudbees)
     - [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
         - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
@@ -536,6 +537,18 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins and Spring Boot
 * [jaxenter.com - CI/CD for Spring Boot Microservices](https://jaxenter.com/cicd-microservices-docker-162408.html)
 * [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
+
+## Docker in Docker. Running Jenkins in Kubernetes
+* [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in/)
+    * [pushbuildtestdeploy.com: jenkins on kubernetes building docker images](https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/)
+    * [ref2](https://github.com/samrocketman/docker-jenkins-jervis/blob/master/README.md#working-with-docker-in-docker)
+* [itnext.io: docker in docker](https://itnext.io/docker-in-docker-521958d34efd)
+* [code-maze.com: ci jenkins docker](https://code-maze.com/ci-jenkins-docker/)
+* [medium: quickstart ci with jenkins and docker in docker](https://medium.com/swlh/quickstart-ci-with-jenkins-and-docker-in-docker-c3f7174ee9ff)
+* [getintodevops.com: the simplest way to run docker in docker](https://getintodevops.com/blog/the-simple-way-to-run-docker-in-docker-for-ci#%3A~%3AtargetText=Building+Docker+containers+with+Jenkins+inside+a+container)
+* Docker in Docker on EKS:
+    * [ref1: docker build --network=host](https://github.com/awslabs/amazon-eks-ami/issues/183)
+    * [ref2](https://github.com/weaveworks/eksctl/issues/942)
 
 ## CloudBees 
 ### CloudBees Rollout and Feature Flags
