@@ -17,6 +17,7 @@
 - [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.co.uk/article/great-resignation-quit-job) Around the world, workers are quitting their jobs in record numbers – and bosses are still scrambling to figure out how to keep them
 - [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan) Employees are leaving their workplaces in record numbers in a wave named "#TheGreatResignation.”
 - [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)
+- [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://magnet.xataka.com/en-diez-minutos/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos)
 - [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
 
 ## Recruitment Portals

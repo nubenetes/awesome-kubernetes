@@ -4,6 +4,7 @@
 - [Backup with Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization](#backup-with-trillio-cloud-native-data-protection-for-kubernetes-openstack-and-virtualization)
 - [Backup with Kasten K10](#backup-with-kasten-k10)
 - [Backup with Velero](#backup-with-velero)
+- [Backup for GKE](#backup-for-gke)
 - [Konveyor Open Source Migration Tool for Kubernetes](#konveyor-open-source-migration-tool-for-kubernetes)
 
 ## Introduction
@@ -55,6 +56,8 @@
 * [medium: Backup,Restore & Migrate Kubernetes cluster with Velero](https://medium.com/@maheshd7878/restore-backup-migrate-kubernetes-cluster-with-velero-434fa151f1e8)
 * [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc?utm_sq=gi0vbpxxa3)
 
+## Backup for GKE
+- [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)
 ## Konveyor Open Source Migration Tool for Kubernetes
 - [github.com/konveyor 🌟](https://github.com/konveyor) - [konveyor.io](https://www.konveyor.io/) A community to build tools and document best practices to modernize workloads and bring them to Kubernetes.
 - [containerjournal.com: Red Hat, IBM Launch Konveyor to Aggregate Kubernetes Tools](https://containerjournal.com/features/red-hat-ibm-launch-konveyor-to-aggregate-kubernetes-tools/)

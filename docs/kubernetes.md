@@ -3,11 +3,11 @@
 - [Introduction](#introduction)
     - [Kubernetes Jobs Market](#kubernetes-jobs-market)
     - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-    - [Channel based messaging platform](#channel-based-messaging-platform)
     - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
+        - [Kubernetes Blogs](#kubernetes-blogs)
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
     - [kubeconfig](#kubeconfig)
     - [Docker and Kubernetes](#docker-and-kubernetes)
@@ -86,7 +86,7 @@
     - [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
-- [Kubernetes Blogs](#kubernetes-blogs)
+- [Kubernetes Slack Channel](#kubernetes-slack-channel)
     - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
@@ -97,6 +97,7 @@
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
 * [kubernetes.io](https://kubernetes.io/)
+* [twitter.com/kubernetesio](https://twitter.com/kubernetesio)
 * [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 * [Awesome kubernetes 🌟](https://github.com/ramitsurana/awesome-kubernetes)
 * [https://www.reddit.com/r/kubernetes 🌟](https://www.reddit.com/r/kubernetes) 
@@ -171,9 +172,6 @@
 ### Certified Kubernetes Offerings
 * [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
 
-### Channel based messaging platform
-- [kubernetes.slack.com](https://kubernetes.slack.com)
-
 ### The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
 * [Cloud-Native Development Survey Details Kubernetes, Serverless Data](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
 
@@ -190,6 +188,9 @@
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
+
+#### Kubernetes Blogs
+- [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
 
 ## Kubernetes Open Source Container Orchestation
 * [kubedex.com](https://kubedex.com/) Discover, Compare and Share Kubernetes Applications
@@ -1055,8 +1056,9 @@
 * [medium.com: 7 Free Online Courses to Learn Kubernetes in 2020](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)
 * [skillslane.com: 10 Best Kubernetes Courses [2020]: Beginner to Advanced Courses](https://skillslane.com/learn-kubernetes-from-these-best-online-courses/)
 
-## Kubernetes Blogs
-- [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
+## Kubernetes Slack Channel
+- [kubernetes.slack.com](https://kubernetes.slack.com)
+- [slack.kubernetes.io](http://slack.kubernetes.io) is the way to get yourself invited.
 
 ### Spanish Kubernetes Blogs 
 - [returngis.net by @0GiS0](https://www.returngis.net/)
