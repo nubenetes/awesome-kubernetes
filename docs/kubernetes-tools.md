@@ -7,6 +7,7 @@
 - [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
 - [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
 - [Kubevela](#kubevela)
+- [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
 - [Kubesploit](#kubesploit)
 - [Tweets](#tweets)
 
@@ -352,6 +353,12 @@
 ## Kubevela
 - [kubevela.io 🌟](https://kubevela.io/) KubeVela is a modern application platform that makes deploying and managing applications across today's hybrid, multi-cloud environments easier and faster. KubeVela is runtime agnostic, natively extensible, yet most importantly, application-centric .
 - [blog.logrocket.com: Intro to KubeVela: A better way to ship applications](https://blog.logrocket.com/kubevela-intro-better-way-ship-applications/) KubeVela makes deploying applications to Kubernetes much easier. Rather than knowing about service, deployment, pods, and horizontal pod scaling, you can specify a much lighter configuration. 
+
+## Pixie. Instantly troubleshoot applications on Kubernetes
+- [px.dev: Pixie](https://px.dev) Open source Kubernetes observability for developers. Auto-instrumented. Scriptable. Kubernetes native.
+- [docs.pixielabs.ai: Pixie](https://docs.pixielabs.ai/) Instantly debug your applications on Kubernetes
+- [github.com: Pixie - Instant Kubernetes-Native Application Observability](https://github.com/pixie-io/pixie/)
+- [open source PxL scripts](https://github.com/pixie-labs/pixie/tree/main/pxl_scripts)
 
 ## Kubesploit
 - [github.com/cyberark/kubesploit 🌟](https://github.com/cyberark/kubesploit) Kubesploit is a cross-platform post-exploitation HTTP/2 Command & Control server and agent dedicated for containerized environments written in Golang and built on top of Merlin project

@@ -11,6 +11,7 @@
 - [Google Cloud Buildpacks](#google-cloud-buildpacks)
 - [Cloud SQL](#cloud-sql)
 - [Tools](#tools)
+- [Videos](#videos)
 
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
@@ -83,6 +84,11 @@
 ## Tools
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
 
+## Videos
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/Zztufl4mFQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+</details>
