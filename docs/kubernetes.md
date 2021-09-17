@@ -84,8 +84,8 @@
 - [Certified Kubernetes Application Developer (CKAD)](#certified-kubernetes-application-developer-ckad)
 - [Books and eBooks](#books-and-ebooks)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
-    - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
-- [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019-1)
+    - [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
+- [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Blogs](#kubernetes-blogs)
     - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
@@ -1032,7 +1032,7 @@
 * [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
 * [magalix.com: Free Kubernetes Application Architecture Patterns eBook](https://www.magalix.com/kubernetes-application-patterns-e-book-download)
 
-### Famous Kubernetes resources of 2019
+### Famous Kubernetes ebooks of 2019
 * [Kubernetes essentials E-book](https://images.linoxide.com/ebook-kubernetes-essentials.pdf)
 * [Cloud-Native DevOps With Kubernetes O'Reilly book (Free)](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/)
 * [Kubernetes: Up and Running, 2nd Edition](http://shop.oreilly.com/product/0636920223788.do) Dive into the Future of Infrastructure. By Brendan Burns, Kelsey Hightower, Joe Beda
