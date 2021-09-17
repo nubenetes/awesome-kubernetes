@@ -25,7 +25,7 @@
         - [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
     - [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
     - [Kubernetes API](#kubernetes-api)
-    - [Kubernetes Probes. Startup, Liveness, Readiness](#kubernetes-probes-startup-liveness-readiness)
+    - [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
     - [Kubernetes Limits](#kubernetes-limits)
     - [Kube Scheduler](#kube-scheduler)
     - [Kubernetes etcd](#kubernetes-etcd)
@@ -40,7 +40,6 @@
     - [Kubernetes Monitoring](#kubernetes-monitoring)
         - [Logging in Kubernetes](#logging-in-kubernetes)
         - [ECK Elastic Cloud on Kubernetes](#eck-elastic-cloud-on-kubernetes)
-    - [Kubernetes Health Checks](#kubernetes-health-checks)
     - [Architecting Kubernetes clusters. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-multi-clusters-and-hybrid-cloud)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
@@ -563,7 +562,8 @@
 - [thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟](https://thenewstack.io/kubernetes-is-not-just-about-containers-its-about-the-api/)
 - [kubernetes.io: Alpha in Kubernetes v1.22: API Server Tracing](https://kubernetes.io/blog/2021/09/03/api-server-tracing/)
 
-### Kubernetes Probes. Startup, Liveness, Readiness
+### Kubernetes Health Checks/Probes. Startup, Liveness, Readiness
+* [medium: How to Perform Health checks in Kubernetes (K8s)](https://medium.com/faun/how-to-perform-health-checks-in-kubernetes-k8s-a4e5300b1f9d)
 * [If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s](https://github.com/kubernetes/kubernetes/pull/97057)
 * [Liveness and Readiness Probes for Kubernetes in Phoenix application](https://blog.lelonek.me/liveness-and-readiness-probes-for-kubernetes-in-phoenix-application-890e24d0737e)
 * [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes/)
@@ -573,6 +573,7 @@
 * [andrewlock.net: Deploying ASP.NET Core applications to Kubernetes - Part 6 - Adding health checks with Liveness, Readiness, and Startup probes](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-6-adding-health-checks-with-liveness-readiness-and-startup-probes/)
 * [itnext.io: Kubernetes Probes: Startup, Liveness, Readiness](https://itnext.io/kubernetes-probes-startup-liveness-readiness-a9fc9ccff4b2)
 * [itnext.io: Kubernetes Readiness Probes — Examples & Common Pitfalls](https://itnext.io/kubernetes-readiness-probes-examples-common-pitfalls-136e3a9a058d)
+* [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
 * [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 
 ### Kubernetes Limits
@@ -707,10 +708,6 @@
 
 #### ECK Elastic Cloud on Kubernetes 
 - [elastic.co: How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture](https://www.elastic.co/es/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture) Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more. 
-
-### Kubernetes Health Checks
-* [medium: How to Perform Health checks in Kubernetes (K8s)](https://medium.com/faun/how-to-perform-health-checks-in-kubernetes-k8s-a4e5300b1f9d)
-* [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
 
 ### Architecting Kubernetes clusters. Multi Clusters and Hybrid Cloud
 * [learnk8s.io: Architecting Kubernetes clusters — how many should you have?](https://learnk8s.io/how-many-clusters)
