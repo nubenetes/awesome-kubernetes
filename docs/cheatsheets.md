@@ -77,6 +77,8 @@
 - [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
 - [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)
+- [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet)
+
 ## AWS Cheat Sheets
 - [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet/)
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)

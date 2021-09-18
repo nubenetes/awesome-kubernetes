@@ -105,6 +105,7 @@
 * [dev.to: One does not "just containerize" an app](https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae)
     * The Docker ecosystem is filled with leaky abstractions. The utopian vision of Docker containers is a world where a developer can grab a base container for a language, copy in their code with a minimal Dockerfile, and be ready to develop and deploy instantly.
     * Unfortunately, this landscape is filled with per-language gotchas that make this world a far cry from reality. Here are some of the wonky things I've run into when working with containers.
+* [cloudsavvyit.com: How To Clean Up and Delete Docker Images](https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images/)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)

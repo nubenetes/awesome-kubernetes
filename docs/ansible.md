@@ -182,6 +182,7 @@
     * [Foreman Ansible Modules (FAM)](https://github.com/theforeman/foreman-ansible-modules) Ansible modules for interacting with the Foreman API and various plugin APIs such as Katello.
     * [RFC: Foreman Operations Ansible Collection](https://community.theforeman.org/t/rfc-operations-ansible-collection/20971)
     * [theforeman.org: Updating Foreman inventory with system facts](https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html)
+    * [theforeman.org: Foreman 3.0 is here!](https://theforeman.org/2021/09/foreman-30-is-here.html)
 * [Rundeck](https://www.rundeck.com/ansible)
 
 ## Ansible Molecule. Development and Testing of Ansible Roles
