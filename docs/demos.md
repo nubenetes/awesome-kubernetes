@@ -46,6 +46,7 @@
     - [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
     - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
+    - [Jenkins and GitHub](#jenkins-and-github)
     - [SDKMAN](#sdkman)
     - [Jenkins Scripts](#jenkins-scripts)
     - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
@@ -409,6 +410,7 @@
 * [devopscube.com: How to Setup Jenkins Build Agents on Kubernetes Cluster 🌟](https://devopscube.com/jenkins-build-agents-kubernetes/)
 * [medium: Deploy Docker Image To Kubernetes Cluster Using Jenkins 🌟](https://medium.com/codex/deploy-docker-image-to-kubernetes-cluster-using-jenkins-8182cc0a8de7) This article explains the complete DevOps pipeline setup from creating project to deploying the Docker image to Kubernetes cluster using Jenkins.
 * [igorzhivilo.com: How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline 🌟](https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/)
+* [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -469,6 +471,9 @@
 <center>
 <iframe src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+### Jenkins and GitHub
+- [towardsdatascience.com: Create your first CI/CD pipeline with Jenkins and GitHub](https://towardsdatascience.com/create-your-first-ci-cd-pipeline-with-jenkins-and-github-6aefe21c9240) A guide to create and deploy a freestyle Jenkins project
 
 ### SDKMAN 
 * [SdkMan](https://sdkman.io/) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Formerly known as **GVM** the **Groovy enVironment Manager**, it was inspired by the very useful [RVM](https://rvm.io/) and [rbenv](https://github.com/sstephenson/rbenv) tools, used at large by the Ruby community.
