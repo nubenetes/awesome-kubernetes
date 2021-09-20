@@ -76,6 +76,7 @@
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
 - [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference/)
+- [vettabase.com: How slow is SELECT * ?](https://vettabase.com/blog/how-slow-is-select/)
 
 ## Performance
 - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739) “If everything seems under control, you’re not going fast enough”
@@ -858,6 +859,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)
 - [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/2020/06/26/mysql-101-how-to-find-and-tune-a-slow-sql-query/)
 - [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/2021/03/22/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github/)
+- [percona.com: Migration of a MySQL Database to a Kubernetes Cluster Using Asynchronous Replication](https://www.percona.com/blog/migration-of-a-mysql-database-to-a-kubernetes-cluster-using-asynchronous-replication/)
 
 ## Percona PostgreSQL Operator
 - [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes)

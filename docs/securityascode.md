@@ -17,7 +17,8 @@
 - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)
 
 ## Open Policy Agent (OPA)
-- [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org/)
+- [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org/) 
+- OPA is most often used as an admission controller in Kubernetes. An admission controller is where all the semantic validation of Kubernetes resources occur before resources are persisted to etcd and controllers go off and start doing work.
 - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)
 - [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://www.fugue.co/blog/5-tips-for-using-the-rego-language-for-open-policy-agent-opa)
 - [PolicyHub CLI, a CLI tool that makes Rego policies searchable 🌟](https://github.com/policy-hub/policy-hub-cli) a list of community OPA policies
@@ -91,6 +92,8 @@
 - [Policy Reporter 🌟](https://github.com/kyverno/policy-reporter) Creates Prometheus Metrics for PolicyReports and ClusterPolicyReports. Ships with an optional Web UI and can send new Results to different Clients like Loki and Elasticsearch. Provides a optional Monitoring Subchart with a ServiceMonitor and Grafana Dashboards for the Prometheus Operator.
 - [sesin.at: Securing Kubernetes with Kyverno: How to Protect Your Users From Themselves by Ritesh Patel](https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel/)
 - [movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno](https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4) Kyverno, a policy engine designed specifically for Kubernetes.
+- [arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy as Code)](https://arun-sisodiya.medium.com/kyverno-a-policy-manager-for-kubernetes-286f6e082062)
+- [dev.to: Default Kyverno Policies for OpenEBS](https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf)
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

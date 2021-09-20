@@ -19,6 +19,7 @@
 - [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)
 - [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://magnet.xataka.com/en-diez-minutos/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos)
 - [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
+- [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0) How to avoid tech interviews as we know them
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
@@ -68,6 +69,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Companies optimize for people who can pass the coding interview instead of optimizing for people who can do the job.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1436836735569199106?ref_src=twsrc%5Etfw">September 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Wow you&#39;ve had a lot of jobs&quot; <br><br>Yes, I can get a 25% raise for jumping or stick around for the possibility of a cost of living bonus, which is usually less than 5%.</p>&mdash; alex dee (@aalexdee) <a href="https://twitter.com/aalexdee/status/1438592640308613121?ref_src=twsrc%5Etfw">September 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We need to reinvent interviewing in tech. Companies are optimizing for the people who can game the interview but not the people who are good at the job.....</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1439650505664315394?ref_src=twsrc%5Etfw">September 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

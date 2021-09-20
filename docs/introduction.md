@@ -146,6 +146,7 @@
 * [blog.deref.io: Containers Don't Solve Everything 🌟](https://blog.deref.io/containers-dont-solve-everything/) Our industry has made incredible strides in the past decade, thanks in part to technologies like Docker, Docker Compose, and Kubernetes. However, we are still figuring out how to do development in the heterogeneous environments in which we live.
 * [thenewstack.io: Stop Technical Debt Before It Damages Your Company](https://thenewstack.io/stop-technical-debt-before-it-damages-your-company/)
 * [geeksforgeeks.org: Microservice Architecture – Introduction, Challeneges & Best Practices](https://www.geeksforgeeks.org/microservice-architecture-introduction-challeneges-best-practices/)
+* [redhat.com: Use automation to combat your increased workload](https://www.redhat.com/sysadmin/automation-combat-increased-workload)Tired of mundane, tedious, boring tasks? Automation improves your efficiency and frees your time to focus on new and innovative opportunities.
 
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)

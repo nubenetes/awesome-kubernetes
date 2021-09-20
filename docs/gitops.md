@@ -92,9 +92,10 @@
 - [opensource.com: How to get the most out of GitOps right now](https://opensource.com/article/21/8/gitops) GitOps is a great starting point to understand what is running in production, but it may need a little more augmentation to get it working just right for your engineering team.
 - [redhat.com: 3 rules for applying principles of GitOps to enterprise architecture](https://www.redhat.com/architect/3-gitops-rules-architecture) Check out these three rules for using GitOps to get your enterprise architecture up and running effectively.
 - [weave.works: Hardening Git for GitOps (white paper)](https://go.weave.works/hardening-git-for-gitops.html)
-- [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management](https://searchitoperations.techtarget.com/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management) Configuration management challenges GitOps early adopters, especially at large enterprises with millions of lines of Kubernetes YAML to manage.
 - [magalix.com: GitOps 101: What’s It All About?](https://www.magalix.com/blog/what-is-gitops)
 - [containerjournal.com: The 4 Levels of GitOps Maturity](https://containerjournal.com/features/the-4-levels-of-gitops-maturity/)
+- [thenewstack.io: How to Get the Most out of GitOps](https://thenewstack.io/how-to-get-the-most-out-of-gitops) **Just as Kubernetes was accepted as the best way to do cloud native applications, GitOps is gaining recognition as the best way to do Kubernetes.**
+- [weave.works: Case Study: National Australia Bank Decreases Operational Overhead with GitOps](https://www.weave.works/blog/case-study-national-australia-bank-decreases-operational-overhead-with-gitops) New case study on how GitOps helped NAB, Australia's largest business bank decrease operational overhead for their move to EKS: "We turned to Weaveworks because of their extensive EKS and Kubernetes experience, including their close partnership with AWS".
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)

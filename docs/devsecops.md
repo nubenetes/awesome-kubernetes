@@ -16,6 +16,7 @@
 - [StackRox](#stackrox)
 - [Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images](#secure-container-based-cicd-workflows-vulnerability-scanner-for-container-images)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
+	- [Notary](#notary)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 - [Removing Credentials From Git Repo](#removing-credentials-from-git-repo)
@@ -92,6 +93,8 @@
 - [dqindia.com: Secure your CI/CD pipeline with these tips from experts](https://www.dqindia.com/secure-cicd-pipeline-tips-experts/)
 - [thenewstack.io: The DevSecOps Skillsets Required for Cloud Deployments](https://thenewstack.io/the-devsecops-skillsets-required-for-cloud-deployments/)
 - [devblogs.microsoft.com: You can’t have security for DevOps until you have DevOps for security](https://devblogs.microsoft.com/engineering-at-microsoft/you-cant-have-security-for-devops-until-you-have-devops-for-security/)
+- [goteleport.com: Anatomy of a Cloud Infrastructure Attack via a Pull Request](https://goteleport.com/blog/hack-via-pull-request/)
+- [cncf/tag-security: CNCF Security Technical Advisory Group 🌟](https://github.com/cncf/tag-security) CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
@@ -172,6 +175,10 @@
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
 - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
 - [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
+
+### Notary
+- [Notary](https://github.com/notaryproject/notary) Notary is a project that allows anyone to have trust over arbitrary collections of data
+- [infracloud.io: Enforcing Image Trust on Docker Containers using Notary](https://www.infracloud.io/blogs/enforcing-image-trust-docker-containers-notary/)
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)

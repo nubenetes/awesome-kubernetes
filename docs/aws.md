@@ -108,6 +108,7 @@
 - [AWS Service Quota Requests](#aws-service-quota-requests)
 - [Resource Hierarchies](#resource-hierarchies)
 - [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
+- [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
 - [AWS Managed Services for Prometheus and Grafana](#aws-managed-services-for-prometheus-and-grafana)
 - [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Best Practices](#best-practices)
@@ -807,6 +808,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Systems Manager Explorer
 - [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer/)
+
+## AWS Systems Manager Incident Manager
+- [How to automate incident response to security events with AWS Systems Manager Incident Manager](https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager/)
 
 ## AWS Managed Services for Prometheus and Grafana
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) Highly available, secure, and managed monitoring for your containers

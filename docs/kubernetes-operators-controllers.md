@@ -56,6 +56,7 @@
 - [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/)
 - [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea/)
 - [thenewstack.io: We Pushed Helm to the Limit, then Built a Kubernetes Operator 🌟](https://thenewstack.io/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator/)
+- [cncf.io: CNCF Operator White Paper](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf) This white paper defines Operators in a wider context than Kubernetes. It describes their characteristics and components, gives an overview of common patterns currently in use and explains how they differ from Kubernetes controllers.
 
 ## Operator Capability Levels
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.

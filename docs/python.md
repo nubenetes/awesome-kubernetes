@@ -141,6 +141,9 @@
 - [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse) Use the argparse module to enable options in your Python applications.
 - [itsallaboutpython.blogspot.com: Simple Script To Send Emails In Python](https://itsallaboutpython.blogspot.com/2021/08/simple-script-to-send-emails-in-python.html)
 - [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python)
+- [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend)
+- [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know)
+- [geeksforgeeks.org: Top 10 Advance Python Concepts That You Must Know](https://www.geeksforgeeks.org/top-10-advance-python-concepts-that-you-must-know/)
 
 ## Python Books
 - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks. 
@@ -181,6 +184,7 @@
 - [towardsdatascience.com: Create and Deploy a Simple Web Application with Flask and Heroku](https://towardsdatascience.com/create-and-deploy-a-simple-web-application-with-flask-and-heroku-103d867298eb)
 - [towardsdatascience.com: How to deploy a Flask API in Kubernetes and connect it with other micro-services](https://towardsdatascience.com/how-to-deploy-a-flask-api-in-kubernetes-and-connect-it-with-other-micro-services-af16965b67fe) A hands-on tutorial on how to implement your micro-service architecture using the powerful container orchestration tool Kubernetes.
 - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)
+- [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)
 
 ## FastAPI
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)

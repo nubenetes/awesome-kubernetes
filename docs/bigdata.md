@@ -8,3 +8,4 @@
 * [dzone: un and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber) Learn how to set up Apache Spark on IBM Cloud Kubernetes Service by pushing the Spark container images to IBM Cloud Container Registry.
 * [dzone: Quickstart: Apache Spark on Kubernetes](https://dzone.com/articles/quickstart-apache-spark-on-kubernetes) See how to run Apache Spark Operator on Kubernetes.
 * [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes) This article covers using Spark on K8s to overcome dependency on cloud providers and running Apache Spark on Kubernetes.
+* [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://cloud.redhat.com/blog/getting-started-running-spark-workloads-on-openshift)

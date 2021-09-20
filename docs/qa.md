@@ -44,6 +44,7 @@ the #1 test automation community.
     * [lambdatest.com](https://www.lambdatest.com/blog/junit5-extensions/) A Comprehensive Guide On JUnit 5 Extensions 
 * [TestNG](https://testng.org)
 * [Spock Framework](https://spockframework.org)
+* [testsvision.com: 6 Popular Automation Testing Frameworks & Tools](https://testsvision.com/6-popular-automation-testing-frameworks-tools/)
 
 ## Release Testing
 - [launchdarkly.com: Release Testing Explained 🌟](https://launchdarkly.com/blog/get-a-detailed-explanation-of-release-testing-several/) Release testing refers to coding practices and test strategies that give teams confidence that a software release candidate is ready for users. Release testing aims to find and eliminate errors and bugs from a software release so that it can be released to users. Let’s dive in and explore several methods used to perform release testing.

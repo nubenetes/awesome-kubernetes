@@ -82,6 +82,7 @@
 - [unixmen.com 🌟](https://unixmen.com/)
 - [opensource.com 🌟](https://opensource.com/)
 - [linux.com 🌟](https://www.linux.com/)
+- [linuxteck.com](https://www.linuxteck.com/)
 - [linoxide.com 🌟](https://linoxide.com/)
 - [linuxjourney.com](https://linuxjourney.com/)
 - [howtoforge.com](https://www.howtoforge.com/)
@@ -181,6 +182,7 @@
 - [tecmint.com: What’s Difference Between Grep, Egrep and Fgrep in Linux?](https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/)
 - [opensource.com: Check file status on Linux with the stat command](https://opensource.com/article/21/8/linux-stat-file-status)
 - [tecmint.com: How to Kill Linux Process Using Kill, Pkill and Killall](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
+- [linuxteck.com: 13 Top command in Linux (Monitor Linux Server Processes) 🌟](https://www.linuxteck.com/13-top-command-in-linux/)
 
 ## BusyBox
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux

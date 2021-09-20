@@ -10,6 +10,7 @@
 - [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
 - [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
 - [Kubesploit](#kubesploit)
+- [Kubeshop](#kubeshop)
 - [Tweets](#tweets)
 
 ## K8s Tools
@@ -327,6 +328,8 @@
 * [K8sPurger 🌟](https://github.com/yogeshkk/K8sPurger) K8SPurger is a controller that finds all unused resources and show them in a nice format
 * [jenkins-x/gsm-controller](https://github.com/jenkins-x/gsm-controller) gsm-controller is a Kubernetes controller that copies secrets from Google Secrets Manager into Kubernetes secrets. The controller watches Kubernetes secrets looking for an annotation, if the annotation is not found on the secret nothing more is done.
 * [kontacts](https://github.com/scalabledelivery/kontacts) A Kubernetes directory tool for finding pods and services.
+* [sciuro](https://github.com/cloudflare/sciuro) Alertmanager to Kubernetes Node conditions bridge. Sciuro is a bridge between Alertmanager and Kubernetes to sync alerts as Node Conditions. It is designed to work in tandem with other controllers that observe Node Conditions such as draino or the cluster-api. 
+* [rottencandy/vimkubectl](https://github.com/rottencandy/vimkubectl) Manage Kubernetes resources from Vim
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
@@ -368,6 +371,10 @@
 ## Kubesploit
 - [github.com/cyberark/kubesploit 🌟](https://github.com/cyberark/kubesploit) Kubesploit is a cross-platform post-exploitation HTTP/2 Command & Control server and agent dedicated for containerized environments written in Golang and built on top of Merlin project
 - [cyberark.com: Kubesploit: A New Offensive Tool for Testing Containerized Environments](https://www.cyberark.com/resources/threat-research-blog/kubesploit-a-new-offensive-tool-for-testing-containerized-environments) 
+
+## Kubeshop
+- [Kubeshop 🌟](https://kubeshop.io/) First in the World Open-Source Accelerator/Incubator focusing on building project for Developers in the Kubernetes space
+- [venturebeat.com: Kubeshop wants to be a Kubernetes product pipeline](https://venturebeat.com/2021/09/17/kubeshop-wants-to-be-a-kubernetes-product-pipeline/)
 
 ## Tweets
 <details>

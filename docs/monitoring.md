@@ -84,6 +84,7 @@
 * [cloudforecast.io: cAdvisor and Kubernetes Monitoring Guide 🌟](https://cloudforecast.io/blog/cadvisor-and-kubernetes-monitoring-guide/)
 * [hmh.engineering: Musings on microservice observability!](https://hmh.engineering/musings-on-microservice-observability-f7052ac42f04)
 * [stackoverflow.blog: Observability is key to the future of software (and your DevOps career)](https://stackoverflow.blog/2021/09/08/observability-is-key-to-the-future-of-software-and-your-devops-career/) Observability platforms enable you to easily figure out what’s happening with every request and to identify the cause of issues fast. Learning the principles of observability and OpenTelemetry will set you apart from the crowd and provide you with a skill set that will be in increasing demand as more companies perform cloud migrations.
+* [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/sites/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/)
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -338,6 +339,7 @@ done
     * APMs like Dynatrace, etc.
 * APM Tools:
     * [datadoghq.com](https://www.datadoghq.com/)
+        * [blog.porter.run: Datadog on Kubernetes: Avoiding Common Pitfalls](https://blog.porter.run/datadog-and-kubernetes/) Install Datadog on Kubernetes and configure additional features like DogStatsD and APM while avoiding common pitfalls.
     * [honeycomb.io](https://www.honeycomb.io)
     * [lightstep.com](https://lightstep.com)
     * [skywalking.apache.org 🌟](https://skywalking.apache.org/)

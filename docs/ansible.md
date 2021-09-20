@@ -17,6 +17,7 @@
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
+- [More Ansible Roles](#more-ansible-roles)
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 - [Ansible Kubernetes Module](#ansible-kubernetes-module)
@@ -202,6 +203,9 @@
 - [galaxy.ansible.com/geerlingguy](https://galaxy.ansible.com/geerlingguy)
 - [redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟](https://www.redhat.com/sysadmin/ansible-system-role) In this part one of two articles, learn to use rhel-system-roles with your Ansible deployment to better manage functionality such as network, firewall, SELinux, and more on your Red Hat Enterprise Linux servers.
 - [Ansible Role: Docker 🌟](https://github.com/geerlingguy/ansible-role-docker) An Ansible Role that installs Docker on Linux. "My Docker role now supports managing the Docker `daemon.json` file, after years of people asking" (Jeff Geerling)
+
+## More Ansible Roles
+- [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) Use Ansible and some custom scripts to deploy advisories and patches to RHEL servers.
 
 ## Awesome Ansible
 * [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)

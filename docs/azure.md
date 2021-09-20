@@ -94,6 +94,7 @@
 - [powershellmagazine.com](https://powershellmagazine.com/)
 - [dbatools.io](https://dbatools.io/) SQL Server instance migrations and best practice implementation.
 - [thomasmaurer.ch: PowerShell: Download script or file from GitHub](https://www.thomasmaurer.ch/2021/07/powershell-download-script-or-file-from-github/)
+- [deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟](https://www.deepinstinct.com/2021/07/01/what-makes-powershell-a-challenge-for-cybersecurity-solutions/)
 
 ### Powershell repos
 - [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinhacoder/collection-of-useful-scripts)

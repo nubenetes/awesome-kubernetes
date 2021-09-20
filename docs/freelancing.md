@@ -18,6 +18,7 @@
 - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)
 - [eleconomista.es: Estos son los gastos de los autónomos que no se pueden deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)
 - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)
+- [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/) 
 
 ## Top Freelancing Platforms
 - [malt 🌟](https://www.malt.com/) 

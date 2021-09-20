@@ -119,6 +119,7 @@
 * [kmahi2600.medium.com: Launching A WordPress Application With MYSQL Database in K8S Cluster On AWS Using Ansible](https://kmahi2600.medium.com/launching-a-wordpress-application-with-mysql-database-in-k8s-cluster-on-aws-using-ansible-a78d6bf12b1a)
 * [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3) Ansible infrastructure-as-code to automate Nginx deployment in Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
 * [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos)
+* [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS, Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)
 
 ### GitOps 
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
@@ -642,6 +643,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [github.com/major/imagebuilder-containerized](https://github.com/major/imagebuilder-containerized/blob/main/.github/workflows/main.yml) Image Builder in Github Actions building a CentOS Stream image, uploading it to S3, and importing it into EC2 -- all from within a CentOS Stream container.
 - [docs.microsoft.com: Build and deploy applications to Azure by using GitHub Actions 🌟](https://docs.microsoft.com/en-us/learn/modules/github-actions-cd/)
 - [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832)
+- [debianmaster/actions-k3s](https://github.com/debianmaster/actions-k3s) Github action for spinning up local k3s instance and running kubectl commands
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)

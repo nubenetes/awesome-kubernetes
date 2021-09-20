@@ -88,6 +88,7 @@
 - [linkerd.io: Benchmarking Linkerd and Istio](https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html)
 - [nais.io: Changing Service Mesh](https://nais.io/blog/posts/2021/05/changing-service-mesh.html) How we swapped Istio with Linkerd with hardly any downtime
 - [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/)
+- [containerjournal.com: Linkerd’s CNCF Graduation Due to its Simplicity](https://containerjournal.com/features/linkerds-cncf-graduation-due-to-its-simplicity/)
 
 "[Installed @Linkerd in staging yesterday using Helm and Terraform](https://twitter.com/DanielJamesPost). It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production."
 

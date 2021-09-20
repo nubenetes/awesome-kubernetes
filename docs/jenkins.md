@@ -42,6 +42,7 @@
     - [CloudBees Rollout and Feature Flags](#cloudbees-rollout-and-feature-flags)
         - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
     - [CloudBees Accelerator](#cloudbees-accelerator)
+- [Jenkins Scripts](#jenkins-scripts)
 - [Jervis: Jenkins as a service](#jervis-jenkins-as-a-service)
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
 - [Jenkins and SAP](#jenkins-and-sap)
@@ -465,7 +466,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [vSphere cloud](https://plugins.jenkins.io/vsphere-cloud)
 * [Nomad](https://plugins.jenkins.io/nomad)
 * [Azure Key Vault](https://plugins.jenkins.io/azure-keyvault)
-* [Pipeline Utility Steps 🌟🌟🌟](https://plugins.jenkins.io/pipeline-utility-steps/) Small, miscellaneous, cross platform utility steps for Jenkins Pipeline jobs [githu ref](https://github.com/jenkinsci/pipeline-utility-steps-plugin)
+* [Pipeline Utility Steps 🌟🌟](https://plugins.jenkins.io/pipeline-utility-steps/) Small, miscellaneous, cross platform utility steps for Jenkins Pipeline jobs [githu ref](https://github.com/jenkinsci/pipeline-utility-steps-plugin)
+* [InsightVM Container Image Scanner](https://plugins.jenkins.io/rapid7-insightvm-container-assessment/) Scan your Docker containers using InsightVM.
+* [Aqua Security Scanner](https://plugins.jenkins.io/aqua-security-scanner) Adds a Build Step for scanning Docker images, local or hosted on registries, for security vulnerabilities, using the API provided by Aqua Security
+* [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -567,6 +571,11 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ### CloudBees Accelerator
 - [CloudBees Accelerator](https://www.cloudbees.com/products/accelerator/overview) Shorten Build and Test Times
 - [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog/how-speed-software-development-build-test-acceleration-tools)
+
+## Jenkins Scripts
+Two very helpful collections of utility groovy scripts:
+- [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts)
+- [samrocketman/jenkins-script-console-scripts 🌟](https://github.com/samrocketman/jenkins-script-console-scripts) A repository of one-off script console scripts for Jenkins.
 
 ## Jervis: Jenkins as a service
 * [Jervis](https://github.com/samrocketman/jervis/wiki) is [Sam Gleske](https://github.com/samrocketman)'s vision of a good way to roll out Jenkins as a service in very large organizations.
