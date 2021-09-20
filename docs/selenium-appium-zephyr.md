@@ -45,6 +45,7 @@ based on your test scripts.
 - [lambdatest.com: How To Modify HTTP Request Headers In JAVA Using Selenium WebDriver?](https://www.lambdatest.com/blog/modifying-http-request-headers-in-java-using-selenium-webdriver)
 - [dzone: What's New in Selenium 4?](https://dzone.com/articles/what-is-new-in-selenium-4) The newly released Selenium 4 is creating a lot of buzz and the complete testing community is looking forward to exploring its updated features.
 - [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot)
+- [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.lambdatest.com/blog/debunking-selenium-testing-myths/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

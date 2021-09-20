@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
     - [Kubernetes Jobs Market](#kubernetes-jobs-market)
     - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-    - [The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more](#the-state-of-cloud-native-development-details-data-on-the-use-of-kubernetes-serverless-computing-and-more)
+    - [The State of Cloud-Native Development](#the-state-of-cloud-native-development)
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
@@ -95,6 +95,7 @@
 ## Introduction
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
+* [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 * [twitter.com/kubernetesio](https://twitter.com/kubernetesio)
 * [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
 * [padok.fr: Kubernetes’ Architecture: Understanding the components and structure of clusters 🌟](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
@@ -167,8 +168,8 @@
 ### Certified Kubernetes Offerings
 * [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
 
-### The State of Cloud-Native Development. Details data on the use of Kubernetes, serverless computing and more
-* [Cloud-Native Development Survey Details Kubernetes, Serverless Data](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx)
+### The State of Cloud-Native Development
+* [Cloud-Native Development Survey Details Kubernetes, Serverless Data](https://virtualizationreview.com/articles/2020/05/08/cloud-native-dev-survey.aspx) Detailed data on the use of Kubernetes, serverless computing and more.
 
 ### Kubernetes Failure Stories
 - [k8s.af 🌟](https://k8s.af/)

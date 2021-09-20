@@ -105,10 +105,9 @@
 * [Zeal](https://zealdocs.org/) Zeal is an offline documentation browser for software developers.
 
 ## Kubernetes Knowledge Hubs and Glossary
-- [k8sref.io 🌟](https://www.k8sref.io/) Kubernetes Reference
+- [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://dev-k8sref-io.web.app/) Imports paths are not always easy to find for a resource. Get some help from this doc.
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
-- [Kubernetes Reference: dev-k8sref-io.web.app 🌟](https://dev-k8sref-io.web.app/) Imports paths are not always easy to find for a resource. Get some help from this doc.
 
 ## Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
