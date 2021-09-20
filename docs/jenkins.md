@@ -573,9 +573,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [How to Speed Up Software Development with Build and Test Acceleration Tools](https://www.cloudbees.com/blog/how-speed-software-development-build-test-acceleration-tools)
 
 ## Jenkins Scripts
-Two very helpful collections of utility groovy scripts:
-- [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts)
-- [samrocketman/jenkins-script-console-scripts 🌟](https://github.com/samrocketman/jenkins-script-console-scripts) A repository of one-off script console scripts for Jenkins.
+- Two very helpful collections of utility groovy scripts:
+    - [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts)
+    - [samrocketman/jenkins-script-console-scripts 🌟](https://github.com/samrocketman/jenkins-script-console-scripts) A repository of one-off script console scripts for Jenkins.
 
 ## Jervis: Jenkins as a service
 * [Jervis](https://github.com/samrocketman/jervis/wiki) is [Sam Gleske](https://github.com/samrocketman)'s vision of a good way to roll out Jenkins as a service in very large organizations.
