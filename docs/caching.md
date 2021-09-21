@@ -20,6 +20,7 @@
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
 - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
 - [elastisys.com: Evaluation of Caching Methodologies for Microservice-Based Architectures in Kubernetes](https://elastisys.com/evaluation-of-caching-methodologies/)
+- [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b) In this article, we are going to talk about Microservices Distributed Caching for Microservices Architectures. As you know that we learned practices and patterns and add them into our design toolbox. And we will use these pattern and practices when designing e-commerce microservice architecture.
 
 ## Java Caching
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) Strategies and the JCache API. Explores the building blocks of JCache and other caching APIs, as well as multiple strategies for implementing temporary data storage in your application.

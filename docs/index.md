@@ -52,8 +52,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Cheat Sheets 🌟](cheatsheets.md)
 - [GitOps 🌟](gitops.md)
 - [MLOps](mlops.md)
-- [Demos, Boiler Plates & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
 - [Chaos Engineering](chaos-engineering.md)
+## Demos and Boiler Plates
+- [Demos, Boiler Plates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
 ## Security and DevSecOps. Container Security
 - [Security and DevSecOps. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
@@ -129,7 +130,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
 - [Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube & Java Operator SDK](kubernetes-client-libraries.md)
-- [Flux. The GitOps operator for Kubernetes](https://fluxcd.io/) 
+- [Flux. The GitOps operator for Kubernetes](flux.md) 
 - [Helm Kubernetes Tool](helm.md)
 - [Liquibase and Flyway](liquibase.md)
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
@@ -140,7 +141,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [IaC Infrastructure as Code](iac.md)
 - [Pulumi](pulumi.md)
 - [Terraform & Packer 🌟](terraform.md)
-- [Crossplane](https://crossplane.io/)
+- [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)

@@ -73,7 +73,6 @@
     - [KubeFed](#kubefed)
     - [KubeCarrier](#kubecarrier)
     - [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
-    - [Crossplane](#crossplane)
     - [Istio Service Mesh](#istio-service-mesh)
 - [Kubernetes Scripts](#kubernetes-scripts)
     - [Kubernetes and Ansible](#kubernetes-and-ansible)
@@ -774,10 +773,7 @@
 - [thenewstack.io: Introducing CloneSet: A Production-Grade Kubernetes Deployment CRD](https://thenewstack.io/introducing-cloneset-production-grade-kubernetes-deployment-crd/)
 
 ###  Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
-- [crossplane.io](https://crossplane.io/) Crossplane is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl.
-- [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane/)
-- [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services/)
-- [Crossplane: A Kubernetes Control Plane to Roll Your Own PaaS](https://thenewstack.io/crossplane-a-kubernetes-control-plane-to-roll-your-own-paas/)
+- [Crossplane](crossplane.md)
 
 ## Kubernetes Community
 ### Community Forums
@@ -999,9 +995,6 @@
 
 ### Red Hat Operator Lifecycle Manager (OLM) 
 - [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) operator-lifecycle-manager is a management framework for extending Kubernetes with Operators. OLM extends Kubernetes to provide a declarative way to install, manage, and upgrade Operators and their dependencies in a cluster.
-
-### Crossplane
-- [Crossplane](https://crossplane.io/)
 
 ### Istio Service Mesh
 - [Istio](https://istio.io/)
