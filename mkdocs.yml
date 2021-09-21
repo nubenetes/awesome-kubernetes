@@ -139,6 +139,7 @@ nav:
     - IaC Infrastructure as Code: iac.md
     - Pulumi: pulumi.md
     - Terraform & Packer: terraform.md
+    - Crossplane: crossplane.md
   - Databases on Kubernetes: 
     - Relational Databases and Database DevOps. CrunchyData Postgres Operator: databases.md
     - NoSQL Databases: nosql.md
