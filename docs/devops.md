@@ -20,6 +20,7 @@
 	- [Azure DevOps](#azure-devops)
 	- [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
+- [NetOps](#netops)
 - [Data as Code](#data-as-code)
 - [Youtube Playlists](#youtube-playlists)
 - [Bunch of Images](#bunch-of-images)
@@ -278,7 +279,10 @@
 
 ## NoOps
 - [devops.com: Up Your DevOps Game: It’s Time for NoOps](https://devops.com/up-your-devops-game-its-time-for-noops/)
-  
+
+## NetOps
+- [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/)
+
 ## Data as Code
 - [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code/)
 - [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code/)

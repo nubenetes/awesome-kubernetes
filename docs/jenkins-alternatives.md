@@ -13,7 +13,7 @@
     - [TeamCity](#teamcity)
     - [Octopus Deploy](#octopus-deploy)
     - [JFrog and Shippable](#jfrog-and-shippable)
-    - [JFrog DevOps Platform](#jfrog-devops-platform)
+        - [JFrog DevOps Platform](#jfrog-devops-platform)
 - [Cloud Native CI/CD](#cloud-native-cicd)
     - [Jenkins X](#jenkins-x)
     - [Spinnaker](#spinnaker)
@@ -117,7 +117,7 @@
 * [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
     
-### JFrog DevOps Platform
+#### JFrog DevOps Platform
 - [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)
 - [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
