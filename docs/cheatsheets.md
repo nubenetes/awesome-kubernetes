@@ -5,6 +5,7 @@
 - [AWS Cheat Sheets](#aws-cheat-sheets)
 - [Google Cloud Cheat Sheet](#google-cloud-cheat-sheet)
 - [API Cheatsheets](#api-cheatsheets)
+- [REST API](#rest-api)
 - [eBooks](#ebooks)
 - [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
 	- [Dash for MacOS (paid)](#dash-for-macos-paid)
@@ -88,6 +89,10 @@
 - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words)
 ## API Cheatsheets
 - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
+
+## REST API
+- [karneliuk.com: REST API 1. Basics cheat sheet (Ansible, Bash, Postman, and Python) for GET using NetBox and Docker as examples](https://karneliuk.com/2019/07/rest-api-1-basics-cheat-sheet-ansible-bash-postman-and-python-for-get-using-netbox-and-docker-as-examples/)
+- [karneliuk.com: REST API 2. Basics cheat sheet (Ansible, Bash, Postman, and Python) for POST/DELETE using NetBox and Docker as examples](https://karneliuk.com/2019/08/rest-api-2-basics-cheat-sheet-ansible-bash-postman-and-python-for-post-delete-using-netbox-and-docker-as-examples/)
 
 ## eBooks
 * [Red Hat Developer eBooks 🌟](https://developers.redhat.com/ebooks) Browse through our collection of eBooks to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy books on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.

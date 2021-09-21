@@ -1,6 +1,7 @@
 # Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
 - [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
+- [Interacting with REST API](#interacting-with-rest-api)
 - [Interview Questions](#interview-questions)
 - [Ansible Videos](#ansible-videos)
 - [Ansible Playbooks](#ansible-playbooks)
@@ -27,6 +28,7 @@
 - [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
 - [Oracle Database with Ansible](#oracle-database-with-ansible)
 - [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
+- [Writing an Ansible module](#writing-an-ansible-module)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -102,6 +104,12 @@
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
 
+## Interacting with REST API
+* [linuxctl.com: Ansible - Interacting with external REST API](https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api/) Ansible has many powerful modules. One of which is called uri which is capable of sending any kind of HTTP request. Using this module, it is fairly simple to allow ansible to intelligently talk to a REST API. This will come in handy during for automation of the sensu monitoring docker infrastructure I am currently working on.
+* [steampunk.si: Let us give Ansible a REST](https://steampunk.si/blog/let-us-give-ansible-a-rest/)
+* [netways.de: Ansible puede hablar con tu API favorita](https://www.netways.de/blog/2019/04/26/ansible-can-talk-to-your-favorite-api/)
+* [redhat.com: Using Ansible to interact with web endpoints](https://www.redhat.com/sysadmin/ansible-web-endpoints) How about an Ansible use case that you can implement today?
+
 ## Interview Questions
 - [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
@@ -164,6 +172,7 @@
 * [miquelmariano.github.io: Instalación de Ansible AWX sobre Centos 7 con Docker](https://miquelmariano.github.io/2020/01/15/instalacion-ansible-awx-docker-centos7/)
 * [techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8](https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html)
 * [developer.ibm.com: Automating IT infrastructure using Ansible and AWX](https://developer.ibm.com/technologies/systems/articles/automation-using-ansible-awx-gui/)
+* [medium: Ansible AWX: from scratch to REST API (part 4 of 8)](https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6) Playbook to automate AWX REST API interactions
 
 #### Tower and AWX Installers
 * [galaxy.ansible.com/geerlingguy/awx 🌟](https://galaxy.ansible.com/geerlingguy/awx) Installs and configures AWX (Ansible Tower's open source version).
@@ -243,4 +252,10 @@
 ## Ansistrano. Deploying applications with Ansible in Capistrano style
 - [Ansistrano](https://github.com/ansistrano) 
 - [Capistrano](https://capistranorb.com/) A remote server automation and deployment tool written in Ruby.
+
+## Writing an Ansible module
+- [docs.ansible.com: Developing Ansible modules](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
+- [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that. 
+- [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
+- [techforce1.nl: Creating your first Ansible module](https://techforce1.nl/creating-your-first-ansible-module)
 

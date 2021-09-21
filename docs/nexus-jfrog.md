@@ -1,4 +1,4 @@
-# Nexus & JFrog Artifactory
+# Nexus, JFrog Artifactory & Harbor
 - [Nexus Repository Manager (NXRM) 3](#nexus-repository-manager-nxrm-3)
 	- [Getting Started](#getting-started)
 	- [Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster](#setup-nexus-kubernetes-run-nexus3-with-docker-in-a-kubernetes-cluster)
@@ -12,6 +12,7 @@
 	- [Sonatype Nexus Community](#sonatype-nexus-community)
 - [JFrog Artifactory](#jfrog-artifactory)
 - [JFrog DevOps Platform](#jfrog-devops-platform)
+- [Harbor. Cloud native repository for Kubernetes](#harbor-cloud-native-repository-for-kubernetes)
 
 ## Nexus Repository Manager (NXRM) 3
 * [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss)
@@ -92,3 +93,11 @@
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
 - [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
 - [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog)
+
+## Harbor. Cloud native repository for Kubernetes
+- [Harbor](https://goharbor.io/) 
+- [goharbor.io: Deploy Harbor with the Quick Installation Script](https://goharbor.io/docs/2.0.0/install-config/quick-install-script/)
+- [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor)
+- [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor) Ansible playbook to install and setup Harbor
+- [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) An Ansible role Installs Harbor from VMware as the dependancies from Docker.
+- [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220) An Ansible Role to manage Harbor API

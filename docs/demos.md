@@ -245,7 +245,6 @@
 
 ### Harbor Container Registry
 - [geko.cloud: Harbor: Instalar un registry privado en Kubernetes](https://geko.cloud/es/harbor-private-docker-registry-in-kubernetes/)
-- [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor)
 
 ### OPA Gatekeeper
 - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize

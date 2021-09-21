@@ -111,7 +111,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
 - [SonarQube](sonarqube.md)
-- [Nexus & JFrog Artifactory](nexus-jfrog.md)
+- [Nexus, JFrog Artifactory & Harbor](nexus-jfrog.md)
 - [Selenium, Cucumber, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
 - [Linux & SSH 🌟](linux.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
