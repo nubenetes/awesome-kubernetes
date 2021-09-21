@@ -14,7 +14,6 @@
 	- [Nexus CLI](#nexus-cli)
 	- [Sonatype Nexus Community](#sonatype-nexus-community)
 - [JFrog Artifactory](#jfrog-artifactory)
-- [JFrog DevOps Platform](#jfrog-devops-platform)
 - [Harbor. Cloud native repository for Kubernetes](#harbor-cloud-native-repository-for-kubernetes)
 
 ## Introduction
@@ -116,13 +115,6 @@
 - [jfrog.com: Kubernetes Helm Chart Repositories 🌟](https://www.jfrog.com/confluence/display/JFROG/Kubernetes+Helm+Chart+Repositories)
 - [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integration/kubernetes-docker-registry/)
 - [openshift.com: Using JFrog's Artifactory and Red Hat OpenShift Together](https://www.openshift.com/blog/18333-2)
-
-## JFrog DevOps Platform
-- [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)
-- [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)
-- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
-- [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
-- [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog)
 
 ## Harbor. Cloud native repository for Kubernetes
 - [Harbor](https://goharbor.io/) 

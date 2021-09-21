@@ -1,5 +1,19 @@
 # Jenkins Alternatives for Continuous Integration
 - [Alternatives](#alternatives)
+    - [Circle CI](#circle-ci)
+    - [Travis CI](#travis-ci)
+    - [Concourse](#concourse)
+    - [Atlassian CI/CD](#atlassian-cicd)
+    - [GitHub Actions](#github-actions)
+    - [Ketpn](#ketpn)
+    - [Azure DevOps](#azure-devops)
+    - [ShuttleOps](#shuttleops)
+    - [HashiCorp Waypoint](#hashicorp-waypoint)
+    - [OneDev](#onedev)
+    - [TeamCity](#teamcity)
+    - [Octopus Deploy](#octopus-deploy)
+    - [JFrog and Shippable](#jfrog-and-shippable)
+    - [JFrog DevOps Platform](#jfrog-devops-platform)
 - [Cloud Native CI/CD](#cloud-native-cicd)
     - [Jenkins X](#jenkins-x)
     - [Spinnaker](#spinnaker)
@@ -14,70 +28,101 @@
 
 ## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
+* [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
+* [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
+* [Agola](https://agola.io/)
+* [harness.io](https://harness.io/)
+* [Drone](https://drone.io/)
+* [Buildbot](https://buildbot.net/)
+* [GoCD](https://www.gocd.org/)
+* [Codefresh](https://codefresh.io/)
+* [skaffold](https://skaffold.dev/) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
+* [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
+* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
+* [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
+* [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
+
+### Circle CI
 * [Circle CI](https://circleci.com/)
     * [Getting started with Kubernetes: how to set up your first cluster](https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/)
     * [Adding approval jobs to your CI pipeline](https://circleci.com/blog/adding-approval-jobs-to-your-ci-pipeline/)
     * [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/)
     * [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/)
+### Travis CI
 * [Travis CI](https://travis-ci.org/)
     * [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
+
+### Concourse
 * [Concourse](https://concourse-ci.org/)
     * [Building a continious deployment pipeline with Kubernetes and Concourse-CI](https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html)
-* [GoCD](https://www.gocd.org/)
-* [Codefresh](https://codefresh.io/)
-* [skaffold](https://skaffold.dev/) Local Kubernetes Development. Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
-* [JFrog Pipelines](https://jfrog.com/pipelines/)
+
+### Atlassian CI/CD
 * [Atlassian CI/CD](https://www.atlassian.com/continuous-delivery)
      * [Bamboo](https://www.atlassian.com/software/bamboo)
      * [lambdatest.com: How To Setup CI/CD Pipeline With Bamboo For PHP Projects](https://www.lambdatest.com/blog/how-to-setup-cicd-pipeline-with-bamboo-for-php-projects/)
-* [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
+
+### GitHub Actions
 * [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
-    * [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
-    * [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.io/github-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’s find out whether it’s worth considering moving from Jenkins.
-    * [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.openshift.com/blog/deploying-to-openshift-using-github-actions)
-    * [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blog/cicd-github-registry/)
-    * [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.com/improving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
-    * [redhat-actions](https://github.com/redhat-actions)
-    * [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner)
-        * [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
-    * [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
-    * [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setup Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescript version of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
-    * [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) This controller operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
-    * [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https://towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How to automatically build your Docker images; a case study.
-* [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
-* [Agola](https://agola.io/)
+* [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
+* [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’sfind out whether it’s worth considering moving from Jenkins.
+* [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.openshift.com/blogdeploying-to-openshift-using-github-actions)
+* [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/)
+* [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
+* [redhat-actions](https://github.com/redhat-actions)
+* [redhat-actions/openshift-actions-runner](https://github.com/redhat-actions/openshift-actions-runner)
+    * [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
+* [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
+* [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) A GitHub Action that setupKubernetes tools (kubectl, kustomize, helm, kubeval, conftest, yq) and cache them on the runner. It is like a typescriptversion of stefanprodan/kube-tools with no command input param, but it's very fast as it installs the tools asynchronously.
+* [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller) This controller operatesself-hosted runners for GitHub Actions on your Kubernetes cluster.
+* [towardsdatascience.com: Jenkins for CI Is Dead: Why Do People Hate It and What’s the Alternative? GitHub actions](https:/towardsdatascience.com/jenkins-for-ci-is-dead-why-do-people-hate-it-and-whats-the-alternative-8d8b6b88fdba) How toautomatically build your Docker images; a case study.
+
+### Ketpn
 * [keptn](https://keptn.sh/) Keptn not only orchestrates Continuous Deployment, but it also orchestrates Continuous or Automated Operations.    
-    * [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blog/what-is-keptn-how-it-works-and-how-to-get-started/) 
-    * [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)
-    * [Quick Start](https://keptn.sh/docs/quickstart/)
-    * [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blog/automating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
-* [harness.io](https://harness.io/)
-* [Drone](https://drone.io/)
-* [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
-    * [JFrog Pipelines](https://jfrog.com/pipelines/)
-* [Buildbot](https://buildbot.net/)
-* [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
-* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blogwhat-is-keptn-how-it-works-and-how-to-get-started/) 
+* [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptnkeptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)
+* [Quick Start](https://keptn.sh/docs/quickstart/)
+* [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blogautomating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
+
+### Azure DevOps 
 * [Azure DevOps](https://azure.microsoft.com/services/devops/)
-    * [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/)
-* [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
+* [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/)
+
+### ShuttleOps
 * [shuttleOps](https://www.shuttleops.io/)
-  * [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
+* [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
+
+### HashiCorp Waypoint 
 * [HashiCorp Waypoint](https://www.waypointproject.io/)
-  * [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
+* [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
+
+### OneDev
 * [onedev](https://github.com/theonedev/onedev)
-    * [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c)
-* [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
-* [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
+* [Hands-on GitOps with OneDev and Kubernetes](https://robinshen.medium.com/hands-on-gitops-with-onedev-f05bd278f07c)
+
+### TeamCity
 * [TeamCity](https://www.jetbrains.com/teamcity/)
-    * [jetbrains.com: Storing Project Settings in Version Control](https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html)
-    * [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/)
-    * [github.com/OctopusDeploy/Octopus-TeamCity: JetBrains TeamCity plugin to trigger releases on build completion](https://github.com/OctopusDeploy/Octopus-TeamCity)
+* [jetbrains.com: Storing Project Settings in Version Control](https://www.jetbrains.com/help/teamcity/storing-project-settings-in-version-control.html)
+* [blog.jetbrains.com: Configuration as Code, Part 1: Getting Started with Kotlin DSL](https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/)
+* [github.com/OctopusDeploy/Octopus-TeamCity: JetBrains TeamCity plugin to trigger releases on build completion](https://github.com/OctopusDeploy/Octopus-TeamCity)
+
+### Octopus Deploy
 * [Octopus Deploy - deployment tool](https://octopus.com/)
-    * [octopus.com: Octopus Configuration-as-Code with a language based on Hashicorp's HCL](https://octopus.com/blog/shaping-config-as-code)
-    * [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) If you want to do Octopus configuration as code today, we recommend using our .NET SDK which will always be supported. The Terraform provider will be a simpler, more declarative approach, that we will support in the future.
-    * [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploy/latest/docs)
-    * [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for Octopus Deploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://github.com/OctopusDeploy/terraform-provider-octopusdeploy).
+* [octopus.com: Octopus Configuration-as-Code with a language based on Hashicorp's HCL](https://octopus.com/blogshaping-config-as-code)
+* [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) If youwant to do Octopus configuration as code today, we recommend using our .NET SDK which will always be supported. The Terraformprovider will be a simpler, more declarative approach, that we will support in the future.
+* [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs)
+* [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for OctopusDeploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://githubcom/OctopusDeploy/terraform-provider-octopusdeploy).
+
+### JFrog and Shippable
+* [JFrog Pipelines](https://jfrog.com/pipelines/)
+* [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
+    
+### JFrog DevOps Platform
+- [jfrog.com: JFrog DevOps Platform](https://jfrog.com/platform/)
+- [jfrog.com: Pipelines CI/CD and the JFrog Platform Difference](https://jfrog.com/blog/pipelines-ci-cd-and-the-jfrog-platform-difference/)
+- [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
+- [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
+- [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog)
 
 ## Cloud Native CI/CD
 ### Jenkins X
