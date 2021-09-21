@@ -70,6 +70,7 @@
 - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/)
 - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.
 - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture) Hybrid architecture with both RESTful and event-driven services.
+- [developers.redhat.com: Distributed transaction patterns for microservices compared](https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared)
  
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
