@@ -30,7 +30,7 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
 
 ## Stats
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Stats 1. Click to expand!</summary>
 
 <center>  
 <iframe src="https://www.youtube.com/embed/a3bnNi2R8Vo" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -39,9 +39,8 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
 <iframe src="https://www.youtube.com/embed/Mxny6euiars" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-  ### Stats 2
   <details>
-    <summary>Click to expand!</summary>
+    <summary>Stats 2. Click to expand!</summary>
 
   <center>
   <iframe src="https://www.youtube.com/embed/CxUDjQ0uUhI" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,9 +50,8 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
   </center>
   </details>
 
-  ### Stats 3. Inflation and Unemployment 
   <details> 
-    <summary>Click to expand!</summary>
+    <summary>Stats 3. Inflation and Unemployment. Click to expand!</summary>
 
   <center>
   <iframe src="https://www.youtube.com/embed/MrmVCMhE6BE" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -62,9 +60,8 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
   </center>
   </details>
 
-  ### Stats 4. Government Debt and Income Tax Rate
   <details>
-    <summary>Click to expand!</summary>
+    <summary>Stats 4. Government Debt and Income Tax Rate. Click to expand!</summary>
 
   <center>
   <iframe src="https://www.youtube.com/embed/AhvMuxcvlt0" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -75,9 +72,8 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
   </center>
   </details>
 
-  ### Stats 5. IT, Languages and Olympics
   <details>
-    <summary>Click to expand!</summary>
+    <summary>Stats 5. IT, Languages and Olympics. Click to expand!</summary>
 
   <center>
   <iframe src="https://www.youtube.com/embed/2Uj1A9AguFs" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
