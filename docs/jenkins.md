@@ -633,3 +633,13 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can save a lot of time and resources if you configure the clone your <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> jobs to perform a shallow, no tags clone instead of a full clone. The screenshot shows how to configure it in a Jenkinsfile.<a href="https://twitter.com/hashtag/Jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#Jenkins</a> <a href="https://twitter.com/hashtag/cicd?src=hash&amp;ref_src=twsrc%5Etfw">#cicd</a> <a href="https://t.co/yI0EFGTYbQ">pic.twitter.com/yI0EFGTYbQ</a></p>&mdash; Igorski (@IgorskiCo) <a href="https://twitter.com/IgorskiCo/status/1437309452416425990?ref_src=twsrc%5Etfw">September 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168051035-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168051035-1');
+</script>

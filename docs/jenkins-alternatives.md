@@ -1,4 +1,5 @@
 # Jenkins Alternatives for Continuous Integration
+- [Introduction and Comparisons](#introduction-and-comparisons)
 - [Alternatives](#alternatives)
     - [Circle CI](#circle-ci)
     - [Travis CI](#travis-ci)
@@ -21,10 +22,22 @@
     - [Tekton](#tekton)
     - [Jenkins X and Tekton on OpenShift](#jenkins-x-and-tekton-on-openshift)
     - [HAT is the acronym for Helm, ArgoCD and Tekton](#hat-is-the-acronym-for-helm-argocd-and-tekton)
-- [Comparisons](#comparisons)
 - [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
 - [Slides](#slides)
 - [Tweets](#tweets)
+
+## Introduction and Comparisons
+* [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
+* [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)
+* [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/)
+* [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a)
+* [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) The battle of CI/CD tools rages on — come and find out which is the right tool for your DevOps testing needs.
+* [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/)
+* [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/)
+* [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies)
+* [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/)
+* [acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
+* [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084)
 
 ## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
@@ -40,7 +53,6 @@
 * [AWS DevOps - CICD](https://aws.amazon.com/devops/#cicd)
 * [Google Cloud Build](https://cloud.google.com/cloud-build)
 * [Kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
-* [lambdatest.com: 21 Of The Best Jenkins Alternatives For Developers](https://www.lambdatest.com/blog/best-jenkins-alternatives/)
 * [Screwdriver API](https://github.com/screwdriver-cd/screwdriver) Screwdriver is a self-contained, pluggable service to help you build, test, and continuously deliver software using the latest containerization technologies.
 
 ### Circle CI
@@ -174,18 +186,6 @@
 
 ### HAT is the acronym for Helm, ArgoCD and Tekton
 * [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 
-
-## Comparisons
-* [dzone: Which CI is Best For My Team?](https://dzone.com/articles/which-ci-is-best-for-my-team)
-* [inovex.de: Spinnaker vs. Argo CD vs. Tekton vs. Jenkins X: Cloud-Native CI/CD](https://www.inovex.de/blog/spinnaker-vs-argo-cd-vs-tekton-vs-jenkins-x/)
-* [medium: Top 7 Best CI/CD Tools you should get your hands on in 2020](https://medium.com/devops-dudes/top-7-best-ci-cd-tools-you-should-get-your-hands-on-in-2020-832c29db936a)
-* [dzone: Jenkins vs GitLab CI: Battle of CI/CD Tools](https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools) The battle of CI/CD tools rages on — come and find out which is the right tool for your DevOps testing needs.
-* [lambdatest.com: TeamCity vs. Jenkins: Picking The Right CI/CD Tool](https://www.lambdatest.com/blog/teamcity-vs-jenkins-picking-the-right-ci-cd-tool/)
-* [cBamboo vs Jenkins: Showdown Of CI/CD Tools](https://www.lambdatest.com/blog/bamboo-vs-jenkins-showdown-of-ci-cd-tools/)
-* [blog.thundra.io: The CI/CD War of 2021: A Look at the Most Popular Technologies](https://blog.thundra.io/the-ci/cd-war-of-2021-a-look-at-the-most-popular-technologies)
-* [lambdatest.com: CircleCI Vs. GitLab: Choosing The Right CI/CD Tool](https://www.lambdatest.com/blog/circleci-vs-gitlab/)
-* [acloudguru.com: Azure DevOps vs GitHub: Comparing Microsoft’s DevOps Tools 🌟](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
-* [medium: Choosing a CI that grows at the same pace as a scale-up 🌟](https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084)
 
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
