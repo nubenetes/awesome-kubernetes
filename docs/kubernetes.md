@@ -192,6 +192,7 @@
 - [learnk8s.io/blog](https://learnk8s.io/blog)
 - [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
 - [containerjournal.com](https://containerjournal.com)
+- [cloudowski.com](https://cloudowski.com/)
 - [dev.to/t/kubernetes](https://dev.to/t/kubernetes)
 - [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/)
 - [opensource.com/tags/kubernetes](https://opensource.com/tags/kubernetes)
@@ -200,6 +201,7 @@
 - [k21academy.com/category/docker-kubernetes](https://k21academy.com/category/docker-kubernetes)
 - [weave.works/blog/category/kubernetes](https://www.weave.works/blog/category/kubernetes)
 - [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)
+- [rcarrata.com](https://rcarrata.com)
 #### Spanish Kubernetes Blogs 
 - [returngis.net](https://www.returngis.net/)
 

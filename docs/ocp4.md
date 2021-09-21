@@ -30,7 +30,7 @@
         - [Alerts & Silences](#alerts--silences)
         - [Cluster Logging (EFK)](#cluster-logging-efk)
     - [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
-    - [Registry & Quay](#registry--quay)
+    - [OpenShift Registry & Quay Registry](#openshift-registry--quay-registry)
     - [Local Development Environment](#local-development-environment)
 - [OpenShift on Azure](#openshift-on-azure)
 - [OpenShift Youtube](#openshift-youtube)
@@ -497,27 +497,8 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 </center>
 <br/>
 
-### Registry & Quay
-- A Docker registry is a place to store and distribute Docker images.
-- It serves as a target for your docker push and docker pull commands.
-- [Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/)
-- The registry is now managed by an Operator instead of ```oc adm``` registry.
-- [Quay.io](https://quay.io/) is a hosted Docker registry from CoreOS:
-    - Main features:
-        - “Powerful build triggers” 
-        - “Advanced team permissions”
-        - “Secure storage”
-    - One of the more enterprise-friendly options out there, offering fine-grained permission controls.
-    - They support any git server and let you build advanced workflows by doing things like mapping git branches to Docker tags so that when you commit code it automatically builds a corresponding image.
-    - Quay offers unlimited free public repositories. Otherwise, you pay by the number of private repositories. There’s no extra charge for storage or bandwidth.
-- [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers): support for multiple architectures, Windows containers, and a [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)-based image to this container image registry.
-- [Quay 3.1 released in September 2019](https://www.redhat.com/en/blog/red-hat-quay-31-now-even-better-across-distributed-environments): The newest Quay feature is repository mirroring, which complements our existing geographic replication features. Repository mirroring reflects content between distinct, different registries. With this, you can synchronize whitelisted repositories or a source registry subset into Quay. This makes it much easier to distribute images and related data through Quay. 
-- [Quay Community Edition operator](https://github.com/redhat-cop/quay-operator)
-- [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay)
-- Open Source [ProjectQuay.io](https://www.projectquay.io/) Container Registry: 
-    - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
-    - [github.com/quay](https://github.com/quay)
-- [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds)
+### OpenShift Registry & Quay Registry
+- [OpenShift Registry & Quay](registry.md)
 
 ### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.

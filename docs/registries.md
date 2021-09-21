@@ -1,4 +1,7 @@
-# Nexus, JFrog Artifactory & Harbor
+# Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
+- [Introduction](#introduction)
+- [OpenShift Registry](#openshift-registry)
+- [Quay Registry](#quay-registry)
 - [Nexus Repository Manager (NXRM) 3](#nexus-repository-manager-nxrm-3)
 	- [Getting Started](#getting-started)
 	- [Setup Nexus Kubernetes. Run nexus3 with docker in a kubernetes cluster](#setup-nexus-kubernetes-run-nexus3-with-docker-in-a-kubernetes-cluster)
@@ -14,13 +17,40 @@
 - [JFrog DevOps Platform](#jfrog-devops-platform)
 - [Harbor. Cloud native repository for Kubernetes](#harbor-cloud-native-repository-for-kubernetes)
 
+## Introduction
+- A Docker registry is a place to store and distribute Docker images.
+- It serves as a target for your docker push and docker pull commands.
+- [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
+- [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management)
+
+## OpenShift Registry
+- [docs.openshift.com: Integrated OpenShift Container Platform registry](https://docs.openshift.com/container-platform/4.8/registry/architecture-component-imageregistry.html)
+- [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes/)
+- The registry in OCP4 is now managed by an Operator instead of ```oc adm``` registry.
+
+## Quay Registry
+- [Quay.io](https://quay.io/) is a hosted Docker registry from CoreOS:
+    - Main features:
+        - “Powerful build triggers” 
+        - “Advanced team permissions”
+        - “Secure storage”
+    - One of the more enterprise-friendly options out there, offering fine-grained permission controls.
+    - They support any git server and let you build advanced workflows by doing things like mapping git branches to Docker tags so that when you commit code it automatically builds a corresponding image.
+    - Quay offers unlimited free public repositories. Otherwise, you pay by the number of private repositories. There’s no extra charge for storage or bandwidth.
+- [Quay 3.0 released in May 2019](https://www.redhat.com/en/blog/introducing-red-hat-quay-3-registry-your-linux-and-windows-containers): support for multiple architectures, Windows containers, and a [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)-based image to this container image registry.
+- [Quay 3.1 released in September 2019](https://www.redhat.com/en/blog/red-hat-quay-31-now-even-better-across-distributed-environments): The newest Quay feature is repository mirroring, which complements our existing geographic replication features. Repository mirroring reflects content between distinct, different registries. With this, you can synchronize whitelisted repositories or a source registry subset into Quay. This makes it much easier to distribute images and related data through Quay. 
+- [Quay Community Edition operator](https://github.com/redhat-cop/quay-operator)
+- [Quay 3.1 Certified Operator is not available in Openshift and must be purchased](https://www.openshift.com/products/quay)
+- Open Source [ProjectQuay.io](https://www.projectquay.io/) Container Registry: 
+    - [Red Hat Introduces open source Project Quay container registry](https://www.redhat.com/en/blog/red-hat-introduces-open-source-project-quay-container-registry) 
+    - [github.com/quay](https://github.com/quay)
+- [openshift.com: Keep Your Applications Secure With Automatic Rebuilds](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds)
+
 ## Nexus Repository Manager (NXRM) 3
 * [sonatype.com/nexus-repository-oss](https://www.sonatype.com/nexus-repository-oss)
 * [Nexus Repository Manager (NXRM) 3 🌟](https://help.sonatype.com/repomanager3)
 
 ### Getting Started
-* [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
-* [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management)
 * [Dzone: Getting started with Nexus](https://dzone.com/articles/getting-started-nexus-maven)
 * [Dzone: Nexus Guide Update January 2018](https://dzone.com/articles/nexus-guide-update-january-2018)
 
