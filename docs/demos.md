@@ -1,4 +1,4 @@
-# DevOps Demos, Tutorials & Screencasts
+# DevOps Demos, Boiler Plates, Tutorials & Screencasts
 - [DevOps Screencasts](#devops-screencasts)
 - [DevOps Blogs](#devops-blogs)
 - [Kubernetes Blogs](#kubernetes-blogs)
@@ -22,6 +22,7 @@
     - [Google Kubernetes Engine GKE](#google-kubernetes-engine-gke)
     - [Environments to learn and practice Kubernetes security](#environments-to-learn-and-practice-kubernetes-security)
     - [Harbor Container Registry](#harbor-container-registry)
+    - [OPA Gatekeeper](#opa-gatekeeper)
 - [Red Hat Demo Central](#red-hat-demo-central)
     - [Cloud Native Development Architectural Diagrams Demos](#cloud-native-development-architectural-diagrams-demos)
 - [OpenShift Demos](#openshift-demos)
@@ -244,6 +245,10 @@
 
 ### Harbor Container Registry
 - [geko.cloud: Harbor: Instalar un registry privado en Kubernetes](https://geko.cloud/es/harbor-private-docker-registry-in-kubernetes/)
+- [nicholasamorim/ansible-role-harbor](https://github.com/nicholasamorim/ansible-role-harbor)
+
+### OPA Gatekeeper
+- [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
 
 ## Red Hat Demo Central
 * [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)
@@ -627,6 +632,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 
 ## JBoss EAP 
 - [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. 
+- [redhat.com: Getting started with JBoss](https://www.redhat.com/sysadmin/getting-started-jboss) Learn how to set up JBoss EAP and start using it to build, run, deploy, and manage enterprise Java applications.
 
 ## Terraform
 - [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.

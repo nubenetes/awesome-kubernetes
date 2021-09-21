@@ -2,7 +2,7 @@
 - [SRE](#sre)
 - [SRE Tools](#sre-tools)
 - [Service Level Objectives (SLO)](#service-level-objectives-slo)
-    - [OpenSLO](#openslo)
+  - [OpenSLO](#openslo)
 - [Videos](#videos)
 - [Tweets](#tweets)
 ## SRE
@@ -43,6 +43,7 @@
 - [youtube: Viktor Farcic - What is the difference between SRE and DevOps?](https://www.youtube.com/watch?v=jgW4r9FxItI&ab_channel=DevOpsToolkitbyViktorFarcic)
 - [dzone: Remote server management - Common architectural elements](https://dzone.com/articles/remote-server-management-common-architectural-elem)
 - [dzone: Upcoming Trends in DevOps and SRE in 2021](https://dzone.com/articles/upcoming-trends-in-devops-and-sre) DevOps and SRE are domains with rapid growth and frequent innovations. With this blog you can explore the latest trends in DevOps, SRE and stay ahead of the curve.
+- [dzone: SRE vs. DevOps: What are the Differences?](https://dzone.com/articles/sre-vs-devops-what-are-the-differences) SRE and DevOps are closely related concepts with some important distinctions between both, and many businesses can benefit from embracing both of them.
 
 ## SRE Tools
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)

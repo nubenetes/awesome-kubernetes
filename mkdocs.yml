@@ -60,7 +60,7 @@ nav:
     - Cheat Sheets: cheatsheets.md
     - GitOps: gitops.md
     - MLOps: mlops.md
-    - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
+    - Demos, Boiler Plates & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
   - Security and DevSecOps:
     - DevSecOps. Container Security: devsecops.md
     - Security Policy as Code: securityascode.md

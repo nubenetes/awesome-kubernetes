@@ -14,3 +14,4 @@
 - [thenewstack.io: The Next Step after DevOps and GitOps Is Cloud Engineering, Pulumi Says](https://thenewstack.io/the-next-step-after-devops-and-gitops-is-cloud-engineering-pulumi-says/)
 - [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/guides/adopting/from_kubernetes/)
 - [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/pulumi-tutorial-automate-kubernetes-operations/)
+- [pulumi.com: Announcing the Pulumi REST API](https://www.pulumi.com/blog/pulumi-rest-api/)
