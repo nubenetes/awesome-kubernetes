@@ -83,3 +83,7 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
   </center>
   </details>
 </details>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">"El mundo digital cambia a menudo de estándar y su capacidad aumenta. Por ejemplo, hoy es imposible encontrar un solo aparato que pueda leer los disquetes flexibles que usábamos hace 20 años. Cada 10 años es necesario migrar prácticamente todos los archivos a nuevos soportes y a un nuevo software." Patrick Charton<a href="https://t.co/rnIGT8XqDF">https://t.co/rnIGT8XqDF</a></p>&mdash; RedHatSpain (@RedHatSpain) <a href="https://twitter.com/RedHatSpain/status/1440637519666704385?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<center>

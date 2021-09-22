@@ -18,7 +18,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q/) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxTiKb1h2lY_gpTCDgXn1g) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SmartBearSoftware) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/artifrog) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/sonatype) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/ChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCh5UlGiu9d6LegIeUCW4N1w)<br/> 
 [![crunchydata](images/crunchydata_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCooRnlDz6VLAbFyKIChz4fg) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCxObRDZ0DtaQe_cCP-dN-xg) [![cockroachdb](images/cockroachdb_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCc-m3P54YDVTjtMUJlmAuow) [![mongodb](images/mongodb_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/MongoDB) [![redis](images/redis_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCD78lHSwYqMlyetR0_P4Vig/) [![confluent video](images/confluent_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCmZz-Gj3caLLzEWBtbYUXaA) [![kubemq video](images/kubemq_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA) [![openebs](images/openebs_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g) [![storageos](images/storageos_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w) [![robin](images/robin_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w) [![portworx](images/portworx_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Portworx)<br/>
 [![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy/videos) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/xebialabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOnioSzUZS-ZqsRnf38V2nA) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/guru99com) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/intellipaaat) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV)<br/>  
-[![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ)
+[![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
 </center>
 --- 
 
@@ -211,23 +211,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 <!--
 [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
 -->
-<!-- youtube player 
-<div id="player"></div>
--->
-<!--
-<img alt="Container with cars" src="images/container_with_cars.png"> 
-<head>
-<meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
-</head>
--->
 
-<!-- El fin de la memoria? Documental 
-<center>
-    
-<div class="container">
-<iframe src="https://www.youtube.com/embed/tentcmxz3Bo?start=633&end=654" frameborder="0" allowfullscreen class="video"></iframe>	
-</div>
-</br>
 
-[![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
--->
+
+
+
