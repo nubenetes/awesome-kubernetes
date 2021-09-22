@@ -31,5 +31,7 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To my JVM friends looking to explore Machine Learning techniques - you don’t necessarily have to learn Python to do that. There are libraries you can use from the comfort of your JVM environment. 🧵👇</p>&mdash; Maria Khalusova (@mariaKhalusova) <a href="https://twitter.com/mariaKhalusova/status/1331982686819389440?ref_src=twsrc%5Etfw">November 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t need to go to a university to learn machine learning - you can do it from your living room, for completely free.<br><br>Here is an extensive list of curated free courses and tutorials, from beginner to advanced. ↓<br><br>(Trust me, you want to bookmark this tweet.)</p>&mdash; Tivadar Danka (@TivadarDanka) <a href="https://twitter.com/TivadarDanka/status/1440281314398138373?ref_src=twsrc%5Etfw">September 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

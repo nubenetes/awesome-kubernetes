@@ -334,6 +334,10 @@
 * [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator) Access your Kubernetes Deployment over the Internet - [itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!](https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07) Access your Kubernetes Deployment over the Internet
 * [kubernetes-reflector](https://github.com/emberstack/kubernetes-reflector) **Custom Kubernetes controller that can be used to replicate secrets, configmaps and certificates.**
 * [Another Autoscaler](https://github.com/dignajar/another-autoscaler) Another Autoscaler is a Kubernetes controller that automatically starts, stops, or restarts pods from a deployment at a specified time using a cron syntax.
+* [cloud-ark/kubeplus 🌟](https://github.com/cloud-ark/kubeplus) Kubernetes Operator to deliver Helm charts as-a-service
+* [cloud-ark/caastle](https://github.com/cloud-ark/caastle) Full-stack microservices deployment for Google Kubernetes Engine and Amazon Elastic Container Service
+* [eezhee/eezhee](https://github.com/eezhee/eezhee) The easiest way to build a k3s cluster on various public clouds. A super fast and easy way to create a k3s based kubernetes cluster on a variety of public clouds. Currently DigitalOcean, Linode and Vultr are supported. All it takes is a single command and about 2 minutes and your cluster is ready to use. Most of the time is taken by the cloud provider bring up the base VM. Eezhee is ideal for development, testing or learning about Kubernetes.
+* [ContainerSolutions/ImageWolf: ImageWolf - Fast Distribution of Docker Images on Clusters](https://github.com/ContainerSolutions/ImageWolf) Fast Distribution of Docker Images on Clusters. ImageWolf is a PoC that provides a blazingly fast way to get Docker images loaded onto your cluster, allowing updates to be pushed out quicker.
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 

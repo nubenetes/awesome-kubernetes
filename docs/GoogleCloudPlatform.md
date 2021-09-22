@@ -46,6 +46,7 @@
 - [cloud.google.com: A container story - Google Kubernetes Engine](https://cloud.google.com/blog/topics/developers-practitioners/container-story-google-kubernetes-engine)
 - [cloud.google.com: Save money and time with automated VM management and suspend/resume](https://cloud.google.com/blog/products/compute/guide-to-cost-optimization-through-automated-vm-management)
 - [cloud.google.com: Traffic Director explained!](https://cloud.google.com/blog/topics/developers-practitioners/traffic-director-explained)
+- [cloud.google.com: How to transfer your data to Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/how-transfer-your-data-google-cloud)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

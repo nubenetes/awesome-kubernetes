@@ -470,6 +470,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [InsightVM Container Image Scanner](https://plugins.jenkins.io/rapid7-insightvm-container-assessment/) Scan your Docker containers using InsightVM.
 * [Aqua Security Scanner](https://plugins.jenkins.io/aqua-security-scanner) Adds a Build Step for scanning Docker images, local or hosted on registries, for security vulnerabilities, using the API provided by Aqua Security
 * [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest)
+* [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

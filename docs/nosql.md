@@ -56,6 +56,7 @@
 - [Cassandra.apache.org](http://cassandra.apache.org/)
 	- [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing/) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. 
 	- [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
+	- [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.datastax.com/blog/apache-cassandra-40-now-delivered-k8ssandra-amazon-eks)
 - [HBase.apache.org](http://hbase.apache.org/)
 - [Hive.apache.org](https://hive.apache.org/)
 - [rethinkdb.com](http://rethinkdb.com)

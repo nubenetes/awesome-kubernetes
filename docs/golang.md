@@ -25,6 +25,7 @@
 - [cyberciti.biz: How to install Go [golang] on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/)
 - [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide)
 - [go-ini/ini](https://github.com/go-ini/ini) Package ini provides INI file read and write functionality in Go
+- [rakyll/go-test-trace 🌟](https://github.com/rakyll/go-test-trace) Go test with tracing. go-test-trace is like go test but it also generates distributed traces. Generated traces are exported in OTLP to a OpenTelemetry collector. You need to run go-test-trace alongside a collector to export data to distributed tracing service.
 
 ## Kubernetes Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
@@ -53,5 +54,7 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I were a system administrator looking to learn a new programming language it would be Go.<br><br>So many of our tools including Kubernetes, Prometheus, and Terraform are written, and extended, in Go that it&#39;s almost a requirement next to learning Bash. <a href="https://t.co/OfZmGo4uP5">https://t.co/OfZmGo4uP5</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1336097427586129920?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✨ Freshly released: go-test-trace. Allows you to generate distributed trace spans from <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> test cases and can participate into an existing distributed trace. Useful to diagnose CI/CD or to run locally. <a href="https://t.co/ypLt3sg5MW">https://t.co/ypLt3sg5MW</a> <a href="https://t.co/hGfNJUxi81">pic.twitter.com/hGfNJUxi81</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1440368144430759949?ref_src=twsrc%5Etfw">September 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

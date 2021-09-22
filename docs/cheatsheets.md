@@ -68,6 +68,7 @@
 - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)
 - [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)
 - [cheat.sh 🌟](https://cheat.sh/)
+- [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
 
 ## Google Search 
 - [wikipedia: Google Search](https://en.wikipedia.org/wiki/Google_Search)
