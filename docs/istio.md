@@ -1,5 +1,6 @@
 # Istio - Service Mesh
 - [Docs](#docs)
+- [API Access Control](#api-access-control)
 - [Maistra Istio](#maistra-istio)
 - [Admiral](#admiral)
 - [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
@@ -80,6 +81,10 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://www.tetrate.io/blog/istio-servicemesh-api-gateway/)
 - [mirantis.com: Your App Deserves More than Kubernetes Ingress: Kubernetes Ingress vs. Istio Gateway [webinar]](https://www.mirantis.com/blog/your-app-deserves-more-than-kubernetes-ingress-kubernetes-ingress-vs-istio-gateway-webinar)
 - [solo.io: Configuration as Data, GitOps, and Controllers: it’s not simple for multi-cluster](https://www.solo.io/blog/configuration-as-data-gitops-and-controllers-its-not-simple-for-multi-cluster/)
+
+## API Access Control
+- [medium: API Access Control using Istio Ingress Gateway](https://medium.com/@senthilrch/api-access-control-using-istio-ingress-gateway-44be659a087e)
+- [medium: API Authentication using Istio Ingress Gateway, OAuth2-Proxy and Keycloak](https://medium.com/codex/api-authentication-using-istio-ingress-gateway-oauth2-proxy-and-keycloak-a980c996c259)
 
 ## Maistra Istio
 - [Maistra.io](https://maistra.io)

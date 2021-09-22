@@ -15,6 +15,7 @@
 - [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
 - [Windows 11](#windows-11)
 - [ASP.NET Core](#aspnet-core)
+- [Azure API Management](#azure-api-management)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -129,6 +130,10 @@
 ## ASP.NET Core
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)
 - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d) This article looks at RESTful architecture and how we can implement a RESTful service using ASP.NET Core and dotConnect for PostgreSQL.
+
+## Azure API Management
+- [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/services/api-management)
+- [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management/)
 
 <center>
 [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
