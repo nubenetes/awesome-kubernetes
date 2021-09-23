@@ -145,8 +145,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 </center>
 
 ## Evolution of open source CI/CD Tools
-- [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit#slide=id.ge2ec0e74a3_0_9)
-
+- [Presentation: NADOG - Evolution of open source CI/CD tools - Oleg Nenashev 🌟](https://docs.google.com/presentation/d/17bQ30ycAUB-k4YZ4dC23cxNiNChvRRQO7_6FNGcS0j4/edit?usp=sharing)
 ## eBooks
 - [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) Continuous Delivery with Jenkins, Kubernetes, and Terraform
 - [riptutorial.com: Learning Jenkins](https://riptutorial.com/ebook/jenkins)
