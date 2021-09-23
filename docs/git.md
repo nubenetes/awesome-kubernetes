@@ -279,6 +279,10 @@ git push origin -f
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
+    - [Go Collective](https://stackoverflow.com/collectives/go)
+    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
+    - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
+    - etc
 - [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/) 
 
 ## GitHub

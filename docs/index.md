@@ -37,8 +37,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
 - [API Landscape](https://www.apidays.co/api-landscape)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) - [2021 🌟](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
-- [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies. A set of spaces where content related to certain languages, products, or services is grouped together
-- [GitLab Collective](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
+- [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
+    - [Go Collective](https://stackoverflow.com/collectives/go)
+    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
+    - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
+    - etc
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
