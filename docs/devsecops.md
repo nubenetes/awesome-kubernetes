@@ -102,6 +102,18 @@
 	- [KubeLinter](https://github.com/stackrox/kube-linter)
 	- [Open Policy Agent and Gatekeeper](https://github.com/open-policy-agent/gatekeeper)
 	- [Falco](https://falco.org/)
+- [thenewstack.io: 10 Steps to Simplify Your DevSecOps](https://thenewstack.io/10-steps-to-simplify-your-devsecops/)
+	1. Promote a DevSecOps Culture 
+	2. Empower Teams to Build Security into the SDLC
+	3. Plan Security Activities
+	4. Improve Speed and Scale with Automation
+	5. Start Early with Small Changes
+	6. Tie in the Out-of-Band Activities
+	7. Manage Security Vulnerabilities as Software Defects
+	8. Collect and Analyze Data at Every Stage
+	9. Learn from Your Failures
+	10. Improve Velocity with Scalable Governance
+- [dzone: Top 10 Application Security Articles to Read Now](https://dzone.com/articles/top-10-application-security-articles) See the 10 most popular articles on Application Security with topics covering bot attacks, resolving thefts, testing tools, security best practices, and more!
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)

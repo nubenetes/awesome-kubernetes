@@ -44,6 +44,7 @@
         - [Feature Flags in CloudBees Enterprise On-Premise](#feature-flags-in-cloudbees-enterprise-on-premise)
     - [CloudBees Accelerator](#cloudbees-accelerator)
 - [Jenkins Scripts](#jenkins-scripts)
+- [Backup for Jenkins on Kubernetes](#backup-for-jenkins-on-kubernetes)
 - [Jervis: Jenkins as a service](#jervis-jenkins-as-a-service)
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
 - [Jenkins and SAP](#jenkins-and-sap)
@@ -581,6 +582,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - Two very helpful collections of utility groovy scripts:
     - [jenkinsci/jenkins-scripts 🌟](https://github.com/jenkinsci/jenkins-scripts)
     - [samrocketman/jenkins-script-console-scripts 🌟](https://github.com/samrocketman/jenkins-script-console-scripts) A repository of one-off script console scripts for Jenkins.
+
+## Backup for Jenkins on Kubernetes
+- [igorzhivilo.com: Simple Backup for Jenkins on Kubernetes](https://igorzhivilo.com/jenkins/simple-backup-jenkins/) - [ref2: medium](https://medium.com/swlh/simple-backup-for-jenkins-on-kubernetes-f24743de7499)
 
 ## Jervis: Jenkins as a service
 * [Jervis](https://github.com/samrocketman/jervis/wiki) is [Sam Gleske](https://github.com/samrocketman)'s vision of a good way to roll out Jenkins as a service in very large organizations.

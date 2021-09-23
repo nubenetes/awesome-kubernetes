@@ -13,6 +13,7 @@
 - [Kubesploit](#kubesploit)
 - [Kubeshop](#kubeshop)
 - [KubeLibrary](#kubelibrary)
+- [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
 - [Tweets](#tweets)
 
 ## K8s Tools
@@ -64,7 +65,6 @@
 * [asdf-kubectl](https://github.com/Banno/asdf-kubectl) kubectl plugin for [asdf version manager](https://asdf-vm.com/). asdf-vm is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like gvm, nvm, rbenv & pyenv (and more) all in one! Simply install your language’s plugin! 
 * [k8s Spot Rescheduler](https://github.com/pusher/k8s-spot-rescheduler) is a tool that tries to reduce load on a set of Kubernetes nodes. It was designed with the purpose of moving Pods scheduled on AWS on-demand instances to AWS spot instances to allow the on-demand instances to be safely scaled down (By the Cluster Autoscaler). 
 * [kube-spot-termination-notice-handler](https://github.com/kube-aws/kube-spot-termination-notice-handler) is a Kubernetes DaemonSet designed to gracefully delete pods 2 minutes before an EC2 Spot Instance is terminated.
-* [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
 * [Polaris 🌟](https://github.com/FairwindsOps/polaris) helps Kubernetes users avoid common mistakes when configuring their workloads. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future.
     * [cncf.io: What is Polaris? Kubernetes open source configuration validation 🌟](https://www.cncf.io/blog/2021/07/01/what-is-fairwinds-polaris-kubernetes-open-source-configuration-validation/)
 * [kmoncon](https://github.com/Stono/kconmon) Monitoring connectivity between your kubernetes nodes.
@@ -341,8 +341,9 @@
 * [eezhee/eezhee](https://github.com/eezhee/eezhee) The easiest way to build a k3s cluster on various public clouds. A super fast and easy way to create a k3s based kubernetes cluster on a variety of public clouds. Currently DigitalOcean, Linode and Vultr are supported. All it takes is a single command and about 2 minutes and your cluster is ready to use. Most of the time is taken by the cloud provider bring up the base VM. Eezhee is ideal for development, testing or learning about Kubernetes.
 * [ContainerSolutions/ImageWolf: ImageWolf - Fast Distribution of Docker Images on Clusters](https://github.com/ContainerSolutions/ImageWolf) Fast Distribution of Docker Images on Clusters. ImageWolf is a PoC that provides a blazingly fast way to get Docker images loaded onto your cluster, allowing updates to be pushed out quicker.
 * [dcherman/image-cache-daemon)](https://github.com/dcherman/image-cache-daemon) Image Cache Daemon is a service to pre-pull / cache images on Kubernetes before they're needed
-* [Temp Kubernetes CI](https://github.com/KnicKnic/temp-kubernetes-ci) A github action to create a k3s kubernetes cluster in your CI VM for both linux & windows. Also has cmdline to copy and paste for other CI platforms.
-* [warm-image: Kubernetes WarmImage CRD](https://github.com/mattmoor/warm-image) A Kubernetes CRD for prefetching container images onto nodes.
+* [KnicKnic/temp-kubernetes-ci: Temp Kubernetes CI](https://github.com/KnicKnic/temp-kubernetes-ci) A github action to create a k3s kubernetes cluster in your CI VM for both linux & windows. Also has cmdline to copy and paste for other CI platforms.
+* [mattmoor/warm-image: Kubernetes WarmImage CRD](https://github.com/mattmoor/warm-image) A Kubernetes CRD for prefetching container images onto nodes.
+* [maorfr/kube-tasks: Kube tasks](https://github.com/maorfr/kube-tasks) A tool to perform simple Kubernetes related actions. Simple Backups, Wait for Pods, Execute a command in a container. 
 
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
@@ -394,6 +395,10 @@
 
 ## KubeLibrary
 - [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) KubeLibrary is a RobotFramework library for testing Kubernetes cluster
+
+## Kubermatic Kubernetes Platform
+- [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
+- [thenewstack.io: Kubermatic Kubernetes Platform Beats Complexity Through Automation](https://thenewstack.io/kubermatic-kubernetes-platform-beats-complexity-through-automation/)
 
 ## Tweets
 <details>

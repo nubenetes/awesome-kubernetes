@@ -1,5 +1,6 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
+- [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
 - [Configuration Drift](#configuration-drift)
 	- [Drift Detection Tools](#drift-detection-tools)
@@ -30,6 +31,10 @@
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
 - [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
+
+## State of DevOps. Google's DevOps Research and Assessment (DORA)
+- [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
+- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams.
 
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)
@@ -162,6 +167,7 @@
 * [sqlshack.com: 6 Reasons why you can’t have DevOps without Test Automation 🌟](https://www.sqlshack.com/6-reasons-why-you-cant-have-devops-without-test-automation/)
 * [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/sites/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/)
 * [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)
+* [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do/) DevOps assimilates development and operations teams to improve the collaboration process. **A DevOps Engineer will work with IT developers to facilitate better coordination among operations, development, and testing functions by automating and streamlining the integration and deployment processes.**
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

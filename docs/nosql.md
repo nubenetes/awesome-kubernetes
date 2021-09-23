@@ -1,5 +1,6 @@
 # NoSQL Databases and NewSQL
 - [NoSQL](#nosql)
+	- [Couchbase](#couchbase)
 	- [MongoDB Tools and MongoDB as a Service](#mongodb-tools-and-mongodb-as-a-service)
 	- [Redis](#redis)
 	- [Alternatives](#alternatives)
@@ -16,8 +17,6 @@
 - [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](http://www.facilcloud.com/noticias/?p=1294&lang=es_ES)
 - [zdnet.com: SQL, NoSQL? What's the difference these days?](http://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days/)
 - [NoSQL Databases: 4 Game-Changing Use Cases](http://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)
-- [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](http://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)
-- [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc) Would you like to query a JSON document database using SQL-like syntax? Couchbase has N1QL for you.
 - [DZone: A Primer on Open-Source NoSQL Databases](https://dzone.com/articles/a-primer-on-open-source-nosql-databases) A beginner's guide to the different flavors of NoSQL databases, including key-value, document-oriented, graph, and column-oriented databases.
 - [How to Evolve from RDBMS to NoSQL + SQL 🌟](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott)
 - [DZone: SQL vs. NoSQL 🌟](https://dzone.com/articles/sql-vs-nosql) Take a look at the most recent developments between SQL and NoSQL databases. And remember, make your DB decision based on the project, not on the hype.
@@ -26,7 +25,14 @@
 - [stackoverflow.blog: Have the tables turned on NoSQL?](https://stackoverflow.blog/2021/01/14/have-the-tables-turned-on-nosql/) NoSQL was the next big thing in system architecture in 2011, but overall interest in it has plateaued recently. What is NoSQL, what does it have to do with modern development, and is it worth implementing in your project?
 - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases) Evaluate which type of NoSQL database best fits your use case
 - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)
-- [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/)
+- [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/) 
+
+### Couchbase
+* [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)
+* [couchbase.com](https://www.couchbase.com/)
+* [blog.couchbase.com: How to Build Observability Dashboards with Prometheus, Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase/)
+- [blog.couchbase.com podcast: NoSQL in the Perspective of Industry Leaders](http://blog.couchbase.com/2016/january/nosql-in-the-perspective-of-industry-leaders)
+- [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc) Would you like to query a JSON document database using SQL-like syntax? Couchbase has N1QL for you.
 
 ### MongoDB Tools and MongoDB as a Service
 - [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](http://mongodb-tools.com/)

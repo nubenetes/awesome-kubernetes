@@ -140,7 +140,8 @@
 * [blog.testproject.io: API Testing 101 🌟](https://blog.testproject.io/2021/06/16/api-testing-101/)
 * [microcks.io 🌟](https://microcks.io/) Open source Kubernetes Native tool for API Mocking and Testing. If you are looking for a tool that helps in microservices API testing on Kubernetes it is worth taking a look at microcksio. It supports OpenAPI 3 and e.g. Kafka with [Avro encoding](https://microcks.io/documentation/guides/avro-messaging/)
 * [tricentis.com: Getting started with automated continuous performance testing](https://www.tricentis.com/blog/automated-continuous-performance-testing)
- 
+* [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip)
+* [opensource.com: 3 ways to test your API with Python](https://opensource.com/article/21/9/unit-test-python) Unit testing can be daunting, but these Python modules will make your life much easier.
 
 <center>
 [![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
