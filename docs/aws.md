@@ -185,6 +185,7 @@ You can filter by topic using the toolbar above.
 - [acloudguru.com: 12 AWS Config rules that every account should have](https://acloudguru.com/blog/engineering/12-aws-config-rules-that-every-account-should-have)
 - [cloudonaut.io: EC2 Checklist: 7 things to do after launching an instance](https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance/)
 - [medium: 6 Lessons Learned - Migrating Application on Production](https://medium.com/swlh/6-lessons-learned-from-migrating-web-application-on-production-ce9add8e63f3)
+- [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws/)
 
 ### Books
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
