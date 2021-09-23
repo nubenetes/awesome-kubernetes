@@ -106,6 +106,7 @@
 * [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example/)
 * [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE. Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 * [jose-r-lopez/SSI_Materials](https://github.com/jose-r-lopez/SSI_Materials) A bunch of infrastructure automation scripts we use in our course, in case you find them useful! 
+* [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps) Azure and AWS is insanely cool until you look at your invoice and realise that what you're paying for can easily be replicated for 2% of your current cloud costs.
 
 ### Container Tools
 - [dzone Avengers of the Container World, Episode 1: Podman Hands-On 🌟](https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands) CRI-O and Podman have been widely adapted by most of the modern container platforms. In this blog, we will deep-dive on Podman with a hands-on session.
