@@ -105,6 +105,7 @@
 * [openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift](https://www.openshift.com/blog/network-policies-controlling-cross-project-communication-on-openshift)
 * [loft-sh.medium.com: Kubernetes Network Policies: A Practitioner’s Guide 🌟](https://loft-sh.medium.com/kubernetes-network-policies-a-practitioners-guide-c9bb4cdd0dbc)
 * [loft.sh: Kubernetes Network Policies: A Practitioner's Guide](https://loft.sh/blog/kubernetes-network-policies-a-practitioners-guide)
+* [medium: Kubernetes Network Policies: Are They Really Useful? 🌟](https://medium.com/codex/kubernetes-network-polices-are-they-really-useful-c3a153c49316)
 
 ### Cilium 
 * [cilium.io 🌟](https://cilium.io/) eBPF-based Networking, Observability, and Security

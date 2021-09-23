@@ -2,6 +2,7 @@
 - [Java](#java)
 	- [How to migrate Java workloads to containers](#how-to-migrate-java-workloads-to-containers)
 	- [Existing Java Implementations](#existing-java-implementations)
+		- [Amazon Corretto OpenJDK distribution](#amazon-corretto-openjdk-distribution)
 	- [Use Java 11](#use-java-11)
 	- [Java Collections Interview Questions](#java-collections-interview-questions)
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
@@ -58,6 +59,11 @@
 - [IBM JDK](https://developer.ibm.com/javasdk/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptopenjdk.net/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
+
+#### Amazon Corretto OpenJDK distribution
+- [Amazon Corretto](https://aws.amazon.com/corretto/) No-cost, multiplatform, production-ready distribution of OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Linux, Windows, and macOS.
+- Amazon has been putting a lot of effort into Java.  One of the central themes has been the reduction of latency. - [youtube: Amazon Corretto, A Journey into Latency Reduction](https://www.youtube.com/watch?v=S4IrAZ5wT3c&ab_channel=SeaJUG) Corretto is a multi-platform, production-ready distribution of OpenJDK, supported by Amazon. We will talk about the Corretto project, it’s principals, and walk through examples that drove performance gains, latency reduction, and cost reduction in some of the biggest services in AWS.
+
 
 ### Use Java 11
 - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)

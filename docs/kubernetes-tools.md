@@ -1,5 +1,6 @@
 # Kubernetes Plugins, Tools, Extensions and Projects
 - [K8s Tools](#k8s-tools)
+- [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
 - [Porter](#porter)
 - [Datree](#datree)
 - [Kaniko Build Images in Kubernetes](#kaniko-build-images-in-kubernetes)
@@ -338,6 +339,12 @@
 * [cloud-ark/caastle](https://github.com/cloud-ark/caastle) Full-stack microservices deployment for Google Kubernetes Engine and Amazon Elastic Container Service
 * [eezhee/eezhee](https://github.com/eezhee/eezhee) The easiest way to build a k3s cluster on various public clouds. A super fast and easy way to create a k3s based kubernetes cluster on a variety of public clouds. Currently DigitalOcean, Linode and Vultr are supported. All it takes is a single command and about 2 minutes and your cluster is ready to use. Most of the time is taken by the cloud provider bring up the base VM. Eezhee is ideal for development, testing or learning about Kubernetes.
 * [ContainerSolutions/ImageWolf: ImageWolf - Fast Distribution of Docker Images on Clusters](https://github.com/ContainerSolutions/ImageWolf) Fast Distribution of Docker Images on Clusters. ImageWolf is a PoC that provides a blazingly fast way to get Docker images loaded onto your cluster, allowing updates to be pushed out quicker.
+* [dcherman/image-cache-daemon)](https://github.com/dcherman/image-cache-daemon) Image Cache Daemon is a service to pre-pull / cache images on Kubernetes before they're needed
+* [Temp Kubernetes CI](https://github.com/KnicKnic/temp-kubernetes-ci) A github action to create a k3s kubernetes cluster in your CI VM for both linux & windows. Also has cmdline to copy and paste for other CI platforms.
+* [warm-image: Kubernetes WarmImage CRD](https://github.com/mattmoor/warm-image) A Kubernetes CRD for prefetching container images onto nodes.
+
+## Deckhouse Kubernetes Platform
+* [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
 
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 

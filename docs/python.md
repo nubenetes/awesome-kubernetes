@@ -1,6 +1,7 @@
 # Python
 - [Python Blogs and Forums](#python-blogs-and-forums)
 - [Python docs](#python-docs)
+- [Thoth](#thoth)
 - [Python Books](#python-books)
 - [Python Django Framework](#python-django-framework)
 - [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
@@ -12,6 +13,7 @@
 	- [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
 	- [PandasDatabase](#pandasdatabase)
 	- [NumPy](#numpy)
+	- [Orchest. Data Pipelines with Python and R code. No frameworks. No YAML](#orchest-data-pipelines-with-python-and-r-code-no-frameworks-no-yaml)
 - [Python standard library Modules and Code](#python-standard-library-modules-and-code)
 - [Python and AWS](#python-and-aws)
 - [Python Tools](#python-tools)
@@ -146,6 +148,10 @@
 - [geeksforgeeks.org: Top 10 Advance Python Concepts That You Must Know](https://www.geeksforgeeks.org/top-10-advance-python-concepts-that-you-must-know/)
 - [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/)
 
+## Thoth
+- [Project Thoth](https://thoth-station.ninja/) Using Artificial Intelligence to analyse and recommend software stacks for Python applications.
+- [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) One of Thoth's major offerings is a cloud-based resolver, which examines the packages and libraries requested by an application and determines the best way to resolve them so that they work together in the target environment. 
+
 ## Python Books
 - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks. 
 - [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
@@ -225,6 +231,9 @@
 
 ### NumPy
 - [towardsdatascience.com: NumPy Basics Cheat Sheet (2021), Python for Data Science](https://towardsdatascience.com/numpy-basics-cheat-sheet-2021-python-for-data-science-89c483773880) The absolute basics for beginners learning NumPy in 2021
+
+### Orchest. Data Pipelines with Python and R code. No frameworks. No YAML
+- [orchest.io](https://www.orchest.io/) - [orchest/orchest](https://github.com/orchest/orchest) Build data pipelines, the easy way 🛠️. No frameworks. No YAML. Just write Python and R code in Notebooks. 
 
 ## Python standard library Modules and Code
 - [Python 3 standard library Module of the Week, Doug Hellmann](https://pymotw.com)

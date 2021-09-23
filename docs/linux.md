@@ -210,6 +210,7 @@
 - [bash.cyberciti.biz Wiki 🌟](https://bash.cyberciti.biz/guide/Main_Page)
 - [redhat.com: Audit user accounts for never-expiring passwords with a Bash script](https://www.redhat.com/sysadmin/find-non-expiring-passwords) Non-expiring passwords might violate your organization's policies, so use this basic Bash script to quickly pick them out.
 - [thenewstack.io: An Introduction to AWK](https://thenewstack.io/an-introduction-to-awk/)
+- [cyberciti.biz: How to repeat a character ‘n’ times in Bash](https://www.cyberciti.biz/faq/repeat-a-character-in-bash-script-under-linux-unix/)
 
 ## Zsh
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...

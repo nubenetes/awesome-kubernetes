@@ -34,5 +34,7 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every company that has told their employees they need to come back into the office is in for a rough surprise. <br><br>PSA: Your entire eng teams are hunting for new remote jobs and not telling you they’ll be leaving soon.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1406317668378955776?ref_src=twsrc%5Etfw">June 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I heard there was a dress code <a href="https://t.co/sWdWKxhhLa">pic.twitter.com/sWdWKxhhLa</a></p>&mdash; Molly Struve 🦄 (@molly_struve) <a href="https://twitter.com/molly_struve/status/1440777471259860992?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

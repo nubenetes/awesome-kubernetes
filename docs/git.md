@@ -18,6 +18,7 @@
 - [Git Commands](#git-commands)
 - [BitBucket](#bitbucket)
 - [GitLab](#gitlab)
+    - [GitLab Collective](#gitlab-collective)
 - [GitHub](#github)
     - [GitHub Actions](#github-actions)
         - [GitHub Actions Marketplace](#github-actions-marketplace)
@@ -275,7 +276,11 @@ git push origin -f
 * [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/)
 * [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name/)
 * [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/2021/09/09/5-code-review-features/)
-  
+
+### GitLab Collective
+- [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
+- [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/) 
+
 ## GitHub
 * [githubstatus.com 🌟](https://www.githubstatus.com/)
 * [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.

@@ -71,6 +71,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Wow you&#39;ve had a lot of jobs&quot; <br><br>Yes, I can get a 25% raise for jumping or stick around for the possibility of a cost of living bonus, which is usually less than 5%.</p>&mdash; alex dee (@aalexdee) <a href="https://twitter.com/aalexdee/status/1438592640308613121?ref_src=twsrc%5Etfw">September 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We need to reinvent interviewing in tech. Companies are optimizing for the people who can game the interview but not the people who are good at the job.....</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1439650505664315394?ref_src=twsrc%5Etfw">September 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hiring in tech is broken: Learnings from our Twitter Space a 🧵</p>&mdash; Alex Jones 🚀 (@AlexJonesax) <a href="https://twitter.com/AlexJonesax/status/1440665554436517898?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

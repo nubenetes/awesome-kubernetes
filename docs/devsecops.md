@@ -41,6 +41,7 @@
 - [Kubernetes Security Tools](#kubernetes-security-tools)
 - [Helm Charts Security](#helm-charts-security)
 - [Password Recovery](#password-recovery)
+- [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
 - [Books](#books)
 - [CVEs](#cves)
 - [Powershell](#powershell)
@@ -342,6 +343,9 @@
 
 ## Password Recovery
 - [hashcat](https://hashcat.net/hashcat/)
+
+## Attacks on Kubernetes via Misconfigured Argo Workflows
+- [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://www.intezer.com/blog/container-security/new-attacks-on-kubernetes-via-misconfigured-argo-workflows/)
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)
