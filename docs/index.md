@@ -150,7 +150,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes
-- [Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
+- [Relational Databases and Database DevOps 🌟](databases.md)
 - [NoSQL Databases](nosql.md)
 ## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
 - [Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 

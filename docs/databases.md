@@ -873,6 +873,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [clickhouse.com](https://clickhouse.com) ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).
 - [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 - [radondb/radondb-clickhouse-kubernetes](https://github.com/radondb/radondb-clickhouse-kubernetes) Open Source，High Availability Cluster，based on ClickHouse
+- [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)
 
 ## Tools
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
