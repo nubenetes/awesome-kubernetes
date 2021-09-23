@@ -353,6 +353,7 @@
 
 ## Datree
 - [Datree.io](https://www.datree.io/) Datree prevents kubernetes misconfigurations from reaching production. Datree is a CLI solution that supports kubernetes owners in their roles, by preventing developers from making errors in k8s configurations. 
+- [dev.to: CI With Datree](https://dev.to/thenjdevopsguy/ci-with-datree-4h8d) Learn all about Datree, the leader in Kubernetes static code analysis; Helm chart analysis; and how to ensure that all manifest configurations are working properly in a Continuous Integration (CI) build process.
 
 ## Kaniko Build Images in Kubernetes
 - [Kaniko 🌟](https://github.com/GoogleContainerTools/kaniko) Kaniko is a tool to build container images from a Dockerfile. Unlike Docker, Kaniko doesn’t require the Docker daemon. With the help of Kaniko, you won’t be needing to run docker containers with privileged mode.

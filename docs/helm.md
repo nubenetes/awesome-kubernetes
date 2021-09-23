@@ -2,6 +2,7 @@
 - [Helm](#helm)
 - [Helm Chart Documentation](#helm-chart-documentation)
 - [Kubecrt](#kubecrt)
+- [Datree](#datree)
 - [Helm Charts repositories](#helm-charts-repositories)
 - [Helm Charts](#helm-charts)
 - [Shalm. Scriptable helm charts](#shalm-scriptable-helm-charts)
@@ -57,7 +58,6 @@
 * [bridgecrew.io: Part 1: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research/)
     * [bridgecrew.io: Part 2: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-2/)
     * [bridgecrew.io: Part 3: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-3/)
-* [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
 * [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm) **Helm or Operators: how to choose**
 * [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3)
 * [jasiek-petryk.medium.com: Setting up a private Helm chart repository on GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)
@@ -86,6 +86,9 @@
 ## Kubecrt
 * [Kubecrt](https://github.com/blendle/kubecrt)
 * [Kubecrt - Convert HELM charts to kubernetes resources 🌟](https://toolbox.kali-linuxtr.net/kubecrt-convert-helm-charts-to-kubernetes-resources.tool)
+
+## Datree
+* [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
 
 ## Helm Charts repositories
 * [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts/)
