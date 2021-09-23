@@ -198,7 +198,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Big Data](bigdata.md)
 ## More References
 - [E-Learning](elearning.md)
-- [Subreddits and Newsfeeds](newsfeeds.md)
+- [Forums and Communities](newsfeeds.md)
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
 ## Recruitment and Freelancing 
 - [Recruitment](recruitment.md)

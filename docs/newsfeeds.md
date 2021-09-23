@@ -1,4 +1,9 @@
-# Subreddits
+# Forums and Communities
+- [Subreddits](#subreddits)
+- [Forums](#forums)
+- [Newsfeeds](#newsfeeds)
+- [Stack Overflow Collectives](#stack-overflow-collectives)
+## Subreddits
 * [reddit.com/r/devops](https://www.reddit.com/r/devops/)
 * [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
 * [reddit.com/r/openshift](https://www.reddit.com/r/openshift/)
@@ -25,11 +30,18 @@
 * [reddit.com/r/python](https://www.reddit.com/r/Python/)
 * [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
 
-# Forums
+## Forums
 * [AWS Forums](https://forums.aws.amazon.com)
 
-# Newsfeeds
+## Newsfeeds
 * [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)
 * [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
 * [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
 * [feedly.com](https://feedly.com)
+
+## Stack Overflow Collectives
+- [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives) Communities for your favorite technologies
+    - [Go Collective](https://stackoverflow.com/collectives/go)
+    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
+    - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
+    - etc
