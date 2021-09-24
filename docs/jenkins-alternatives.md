@@ -13,7 +13,7 @@
     - [OneDev](#onedev)
     - [TeamCity](#teamcity)
     - [Octopus Deploy](#octopus-deploy)
-    - [JFrog and Shippable](#jfrog-and-shippable)
+    - [JFrog](#jfrog)
         - [JFrog DevOps Platform](#jfrog-devops-platform)
 - [Cloud Native CI/CD](#cloud-native-cicd)
     - [Jenkins X](#jenkins-x)
@@ -133,7 +133,7 @@
 * [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs)
 * [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for OctopusDeploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://githubcom/OctopusDeploy/terraform-provider-octopusdeploy).
 
-### JFrog and Shippable
+### JFrog 
 * [JFrog Pipelines](https://jfrog.com/pipelines/)
 * [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
     
