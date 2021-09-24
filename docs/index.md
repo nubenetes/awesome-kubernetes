@@ -56,8 +56,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [GitOps 🌟](gitops.md)
 - [MLOps](mlops.md)
 - [Chaos Engineering](chaos-engineering.md)
-## Demos and Boiler Plates
-- [Demos, Boiler Plates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+## Demos and Boilerplates
+- [Demos, Boilerplates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
 ## Security and DevSecOps. Container Security
 - [Security and DevSecOps. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
