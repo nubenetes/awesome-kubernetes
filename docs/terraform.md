@@ -275,10 +275,11 @@
 - [Brainboard 🌟](https://www.brainboard.co/) Interesting solution for building infrastructure visually before generating terraform code automatically from the designed architecture 
 - [terrascan 🌟](https://runterrascan.io/) Use terrascan to detect compliance and security violations
 - [tfsec 🌟](https://tfsec.dev) a static analysis security scanner for your Terraform code
-	* [youtube: Using tfsec and Jenkins to Secure Your Terraform Code](https://www.youtube.com/watch?v=hbMVGEw0HpE&ab_channel=CloudBeesTV)
-	* https://github.com/darinpope/jenkins-example-terraform
-	* https://www.jenkins.io/changelog-stable/#v2.289.3 
-
+	- [youtube: Using tfsec and Jenkins to Secure Your Terraform Code](https://www.youtube.com/watch?v=hbMVGEw0HpE&ab_channel=CloudBeesTV)
+	- https://github.com/darinpope/jenkins-example-terraform
+	- https://www.jenkins.io/changelog-stable/#v2.289.3 
+- [Rover - Terraform Visualizer 🌟](https://github.com/im2nguyen/rover) Interactive Terraform visualization. State and configuration explorer.
+	- [hashicorp.com: Rover - Terraform Visualizer](https://www.hashicorp.com/resources/terraform-plan-interactive-configuration-and-state-visualization-with-rover) 
 
 ## Tweets
 <details>
