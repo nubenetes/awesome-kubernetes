@@ -155,6 +155,10 @@
 PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [dev.to: Use Kool to Dockerize Your Local Development Environment the Right Way](https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl)
 - [sematext: Monitor Docker Metrics & Logs 🌟](https://sematext.com/docker/) Full Docker observability: Docker metrics, logs, and events. Yes, Kubernetes & Swarm, too!
+- [stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟](https://github.com/stepchowfun/docuum) Docuum performs least recently used (LRU) eviction of Docker images.
+    - Docker's built-in docker image prune --all --filter until=… command serves a similar purpose. However, the built-in solution isn't ideal since it uses the image creation time, rather than the last usage time, to determine which images to remove. That means it can delete frequently used images, which may be expensive to rebuild.
+    - **Docuum is ideal for use cases such as continuous integration (CI) workers, developer workstations, or any other environment in which Docker images accumulate on disk over time.** Docuum works well with tools like Toast and Docker Compose.
+    - Docuum is used by Airbnb on its fleet of 1.5k+ CI workers.
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)

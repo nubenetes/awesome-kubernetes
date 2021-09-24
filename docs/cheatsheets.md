@@ -159,6 +159,11 @@
 - `docker system prune --all` 
 - `docker image prune -a -f --filter "until=720h"`
 - `docker container prune -f --filter "until=48h"`
+- `sudo docker image prune --all --filter until=1h`
+- Standard crontab on all machines I run docker builds on:
+	- `50 * * * * docker container prune -f --filter "until=4h"`
+	- `55 * * * * docker image prune --all -f --filter "until=4h"`
+	- `59 * * * * docker volume prune -f`
 
 ### Docker Swarm Cheat Sheets
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
