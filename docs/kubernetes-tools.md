@@ -13,6 +13,8 @@
 - [Kubesploit](#kubesploit)
 - [Kubeshop](#kubeshop)
 - [KubeLibrary](#kubelibrary)
+- [kube-vip](#kube-vip)
+- [MetalLB](#metallb)
 - [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
 - [Tweets](#tweets)
 
@@ -153,7 +155,6 @@
 * [kcg 🌟](https://github.com/bit-cloner/kcg) is a command line tool that lets you create kubeconfig files. The user can interactively choose a namespace and service account and generate a config file with token authentication that has same RBAC permissions assigned to chosen service account.
 * [Compass 🌟](https://github.com/winfordlin/Compass) Quickly Pinpoint Errors in your Kubernetes Deployment.
 * [kubernetes-dashboard-iam-proxy](https://github.com/Nitro/kubernetes-dashboard-iam-proxy) An in-browser version of aws eks get-token to enable cluster authentication using IAM for the Kubernetes dashboard.
-* [kube-vip](https://github.com/plunder-app/kube-vip) is a Load-Balancer for both inside and outside a Kubernetes cluster.
 * [Gitkube 🌟](https://github.com/hasura/gitkube) is a tool for building and deploying Docker images on Kubernetes using git push. After a simple initial setup, users can simply keep git push-ing their repos to build and deploy to Kubernetes automatically.
 * [vesion-checker](https://github.com/jetstack/version-checker) is a Kubernetes utility for observing the current versions of images running in the cluster, as well as the latest available upstream. These checks get exposed as Prometheus metrics to be viewed on a dashboard, or soft alert cluster operators.
 * [Descheduler for Kubernetes 🌟](https://github.com/kubernetes-sigs/descheduler) -> [wecloudpro.com: Balance your Kubernetes cluster](https://www.wecloudpro.com/2020/11/01/Balance-your-kubernetes-cluster.html)
@@ -396,6 +397,13 @@
 
 ## KubeLibrary
 - [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) KubeLibrary is a RobotFramework library for testing Kubernetes cluster
+
+## kube-vip
+* [kube-vip](https://github.com/kube-vip/kube-vip) is a Load-Balancer for both inside and outside a Kubernetes cluster. 
+* **What's one of the biggest pain in implementing Kubernetes for on-prem? Lack of support for LoadBalancer Service.** Now there's a second project (the first is [MetalLB](https://github.com/metallb/metallb)) that provides this functionality for on-prem: kube-vip.
+
+## MetalLB
+- [MetalLB](https://github.com/metallb/metallb) A network load-balancer implementation for Kubernetes using standard routing protocols
 
 ## Kubermatic Kubernetes Platform
 - [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
