@@ -22,6 +22,7 @@
 	- [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
 - [NetOps](#netops)
+- [GPT 3 Tools](#gpt-3-tools)
 - [Data as Code](#data-as-code)
 - [Youtube Playlists](#youtube-playlists)
 - [Bunch of Images](#bunch-of-images)
@@ -31,6 +32,8 @@
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
 - [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
+- [redhat.com: Understanding DevOps](https://www.redhat.com/en/topics/devops) DevOps is an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. This is all made possible through fast-paced, iterative IT service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure.
+- [redhat.com: El concepto de DevOps](https://www.redhat.com/es/topics/devops) DevOps es un modo de abordar la cultura, la automatización y el diseño de las plataformas para generar mayor valor empresarial y capacidad de respuesta, mediante la prestación ágil de servicios de alta calidad. Todo ello es posible gracias a la prestación rápida y constante de servicios de TI. Para DevOps, se necesita vincular las aplicaciones heredadas con las aplicaciones creadas en la nube y las infraestructuras más nuevas.
 
 ## State of DevOps. Google's DevOps Research and Assessment (DORA)
 - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
@@ -288,6 +291,13 @@
 
 ## NetOps
 - [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/)
+
+## GPT 3 Tools
+- [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.
+    - [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause 
+Resolve your software incidents 10x faster
+    - [Debuild](https://debuild.co/) Debuild is a tool that lets you generate functional web apps from a simple English description.
+    - [seekwell](https://www.seekwell.io/) SeekWell helps write SQL requests and synchronizes the results to the apps your team operates in.
 
 ## Data as Code
 - [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code/)

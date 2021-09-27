@@ -17,6 +17,7 @@
 - [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
 	- [Apache Kafka](#apache-kafka)
 		- [Strimzi kubernetes operator for apache kafka](#strimzi-kubernetes-operator-for-apache-kafka)
+		- [Apache Kafka Desktop Clients](#apache-kafka-desktop-clients)
 	- [AWS Kinesis](#aws-kinesis)
 	- [MQTT](#mqtt)
 	- [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
@@ -272,6 +273,9 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
 </center>
 
+#### Apache Kafka Desktop Clients
+- [conduktor.io 🌟](https://www.conduktor.io/) Apache Kafka Desktop Client. We created Conduktor, the all-in-one friendly interface to work with the Kafka ecosystem. Develop and manage Apache Kafka with confidence.
+
 ### AWS Kinesis
 - [AWS Kinesis](https://docs.aws.amazon.com/kinesis/index.html)
 - [softkraft.co: WS Kinesis vs Kafka comparison: Which is right for you? 🌟](https://www.softkraft.co/aws-kinesis-vs-kafka-comparison/)
@@ -333,6 +337,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [Apache Airflow official helm chart 🌟](https://airflow.apache.org/docs/helm-chart/)
 - [youtube: Airflow Helm Chart : Quick Start For Beginners in 10mins](https://www.youtube.com/watch?v=GDOw8ByzMyY&ab_channel=MarcLamberti)
 - [snowflake.com: Migrating Airflow from Amazon EC2 to Kubernetes](https://www.snowflake.com/blog/migrating-airflow-from-amazon-ec2-to-kubernetes/)
+- [dev.to: Get started with Apache Airflow](https://dev.to/arunkc/get-started-with-apache-airflow-1218)
 
 ### Couler
 - [Couler](https://github.com/couler-proj/couler) Couler aims to provide a unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.

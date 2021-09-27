@@ -345,6 +345,14 @@
 * [KnicKnic/temp-kubernetes-ci: Temp Kubernetes CI](https://github.com/KnicKnic/temp-kubernetes-ci) A github action to create a k3s kubernetes cluster in your CI VM for both linux & windows. Also has cmdline to copy and paste for other CI platforms.
 * [mattmoor/warm-image: Kubernetes WarmImage CRD](https://github.com/mattmoor/warm-image) A Kubernetes CRD for prefetching container images onto nodes.
 * [maorfr/kube-tasks: Kube tasks](https://github.com/maorfr/kube-tasks) A tool to perform simple Kubernetes related actions. Simple Backups, Wait for Pods, Execute a command in a container. 
+* [tmobile/MagTape](https://github.com/tmobile/magtape) MagTape Policy-as-Code for Kubernetes. MagTape is a Policy-as-Code tool for Kubernetes that allows for evaluating Kubernetes resources against a set of defined policies. MagTape includes variable policy enforcement, notifications, and targeted metrics
+* [vidispine/HULL - Helm Uniform Layer Library](https://github.com/vidispine/hull) HULL (Helm Uniform Layer Library) is designed to ease building, maintaining and configuring Kubernetes objects in Helm charts.
+* [hiddeco/Cronjobber](https://github.com/hiddeco/cronjobber) Cronjobber is a cronjob controller for Kubernetes with support for time zones
+* [karmab/autolabeller](https://github.com/karmab/autolabeller) This repo contains a controller automatically labelling nodes based on either:
+    * predefined regex rules matching node name.
+    * a set of matching labels (with their associated value) present on the node.
+* [kubernetes-sigs/nfs-subdir-external-provisioner: Kubernetes NFS Subdir External Provisioner](https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner) Dynamic sub-dir volume provisioner on a remote NFS server. NFS subdir external provisioner is an automatic provisioner that use your existing NFS server to support dynamic provisioning of Kubernetes Persistent Volumes via Persistent Volume Claims
+* [ori-edge/k8s_gateway](https://github.com/ori-edge/k8s_gateway) A CoreDNS plugin to resolve all types of external Kubernetes resources
 
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 

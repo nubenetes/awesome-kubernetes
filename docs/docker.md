@@ -19,7 +19,7 @@
 - [Linux Container Base Images](#linux-container-base-images)
 - [Blogs](#blogs)
 - [Cloud Native Buildpacks](#cloud-native-buildpacks)
-- [Alternatives to Docker](#alternatives-to-docker)
+- [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
 - [Videos and Podcasts](#videos-and-podcasts)
 - [Tweets](#tweets)
 
@@ -107,6 +107,7 @@
     * Unfortunately, this landscape is filled with per-language gotchas that make this world a far cry from reality. Here are some of the wonky things I've run into when working with containers.
 * [cloudsavvyit.com: How To Clean Up and Delete Docker Images](https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images/)
 * [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
+* [dev.to: How to create a production Docker image](https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
@@ -208,11 +209,17 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [altoros.com: Streamlining the Creation of Docker Images with Cloud Native Buildpacks](https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks/) The new Cloud Native Buildpacks framework changes the obnoxious development chore of Dockerfile writing into a simple, automated operations pipeline. When deploying apps to Kubernetes or other container-as-a-service platforms, the proliferation of nonstandard, unauditable containers built manually via Dockerfiles is a real problem. A few products have emerged to solve this problem, among them Cloud Native Buildpacks (СNB). In this blog post, we explore the capabilities of these buildpacks and explain how to use them in build pipelines to deliver standardized, auditable images as artifacts suitable for deployment.
 - [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks/)
 
-## Alternatives to Docker
+## Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
 - [medium: nerdctl: Docker-compatible CLI for contaiNERD](https://medium.com/nttlabs/nerdctl-359311b32d0e)
 - [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/knowledge-base/the-basics-7-alternatives-to-docker-all-in-one-solutions-and-standalone-container-tools/)
 - [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
+- [img](https://github.com/genuinetools/img)
+- [jib](https://github.com/GoogleContainerTools/jib)
+- [kaniko](https://github.com/GoogleContainerTools/kaniko)
+- [buildah](https://buildah.io/)
+- [buildkit](https://docs.docker.com/develop/develop-images/build_enhancements/)
+- [podman](https://podman.io/)
 
 ## Videos and Podcasts
 <details>

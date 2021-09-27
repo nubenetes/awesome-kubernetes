@@ -417,6 +417,7 @@
 * [medium: Deploy Docker Image To Kubernetes Cluster Using Jenkins 🌟](https://medium.com/codex/deploy-docker-image-to-kubernetes-cluster-using-jenkins-8182cc0a8de7) This article explains the complete DevOps pipeline setup from creating project to deploying the Docker image to Kubernetes cluster using Jenkins.
 * [igorzhivilo.com: How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline 🌟](https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/)
 * [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
+* [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)

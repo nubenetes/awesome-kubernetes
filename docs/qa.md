@@ -89,5 +89,7 @@ the #1 test automation community.
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If your code has no tests, then:<br><br>- it is not clean<br>- it is not complete<br>- it is not correct<br>- it is not documented<br>- it is not verified<br>- it is not working<br><br>And most importantly: It is not quality.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1365995255322001409?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The term &quot;legacy&quot; is not about time or author. It is about quality.</p>&mdash; Mario Cervera (@macerub) <a href="https://twitter.com/macerub/status/1441072867974725636?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -10,6 +10,7 @@
 - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [v8.dev:](https://v8.dev/) Google’s open source high-performance JavaScript and WebAssembly engine.
 - [dev.to: JavaScript Objects](https://dev.to/shreyazz/javascript-objects-57ob)
+- [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k)
 
 ## Useful websites for web developers
 - [canva.com](https://www.canva.com/) Create cover images, graphs, videos and more

@@ -56,6 +56,7 @@
 - [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
 - [AWS VPC](#aws-vpc)
 	- [AWS Client VPN](#aws-client-vpn)
+	- [Tailscale](#tailscale)
 - [AWS SQS. Amazon Simple Queue Service](#aws-sqs-amazon-simple-queue-service)
 - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
@@ -346,7 +347,8 @@ You can filter by topic using the toolbar above.
 - [EC2 VM Import/Export now supports migration of virtual machines with Unified Extensible Firmware Interface (UEFI) boot to AWS](https://aws.amazon.com/es/about-aws/whats-new/2021/08/ec2-vm-import-export-unified-extensible-firmware-interface-aws/)
 - [Amazon Virtual Private Cloud (VPC) customers can now resize their prefix list](https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-vpc-resize-prefix-list)
 - [New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/)
-- [AWS Site-to-Site VPN releases updated Download Configuration utility](https://aws.amazon.com/about-aws/whats-new/2021/09/aws-site-to-site-vpn-download-configuration-utility/) With this update, Site-to-Site VPN customers can generate configuration templates for compatible Customer Gateway (CGW) devices, making it easier to create VPN connections to AWS. 
+- [AWS Site-to-Site VPN releases updated Download Configuration utility](https://aws.amazon.com/about-aws/whats-new/2021/09/aws-site-to-site-vpn-download-configuration-utility/) With this update, Site-to-Site VPN customers can generate configuration templates for compatible Customer Gateway (CGW) devices, making it easier to create VPN connections to AWS.
+- [New for AWS Distro for OpenTelemetry – Tracing Support is Now Generally Available](https://aws.amazon.com/blogs/aws/new-for-aws-distro-for-opentelemetry-tracing-support-is-now-generally-available/) 
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -523,6 +525,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ### AWS Client VPN
 - [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud/)
+
+### Tailscale
+- [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/kb/1021/install-aws/)
 
 ## AWS SQS. Amazon Simple Queue Service
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
@@ -925,5 +930,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is BIG! You can now assign IPv4 and IPv6 prefixes to your ENIs. The net result is that EC2 instances will now support vastly larger number of IP addresses, and managing those addresses will become easier. 1/n<a href="https://t.co/3ilNrFtuAp">https://t.co/3ilNrFtuAp</a></p>&mdash; Joe Magerramov (@_joemag_) <a href="https://twitter.com/_joemag_/status/1418345704964063232?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When we first launched the managed Prometheus service, one of the feedback was about cost of ingestion. We announced a pricing discount up to 84% recently in case you haven&#39;t seen it. <a href="https://t.co/wqioBvSXme">https://t.co/wqioBvSXme</a> <a href="https://t.co/64ezXUg753">pic.twitter.com/64ezXUg753</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1435717610704834566?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💫 AWS VPC 101<br><br>Virtual Private Cloud is a fundamental concept of AWS ☁️<br><br>Let&#39;s explore it together in this thread 🧵👇</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1441452612331704321?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

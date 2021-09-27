@@ -5,6 +5,7 @@
     - [Best Practices](#best-practices)
     - [Setting up OCP4 on AWS](#setting-up-ocp4-on-aws)
     - [ROSA Red Hat OpenShift Service on AWS](#rosa-red-hat-openshift-service-on-aws)
+    - [CI/CD in OpenShift](#cicd-in-openshift)
 - [Downloads](#downloads)
 - [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
 - [OCP 4 Overview](#ocp-4-overview)
@@ -133,6 +134,7 @@
     * [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) Trimaran is a collection of load-aware scheduler plugins
 * [developers.redhat.com: Composable software catalogs on Kubernetes: An easier way to update containerized applications](https://developers.redhat.com/articles/2021/08/20/composable-software-catalogs-kubernetes-easier-way-update-containerized)
 * [cloud.redhat.com: Announcing Bring Your Own Host Support for Windows nodes to Red Hat OpenShift](https://cloud.redhat.com/blog/announcing-bring-your-own-host-support-for-windows-nodes-to-red-hat-openshift)
+* [cloud.redhat.com: OpenShift Sandboxed Containers Operator From Zero to Hero, the Hard Way. The Operator Framework and Its Usage](https://cloud.redhat.com/blog/openshift-sandboxed-containers-operator-from-zero-to-hero-the-hard-way)
 
 ### OpenShift sizing and subscription guide
 - [redhat.com: OpenShift sizing and subscription guide for enterprise Kubernetes 🌟](https://www.redhat.com/en/resources/openshift-subscription-sizing-guide-detail)
@@ -163,6 +165,9 @@
 <center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
 </center>
+
+### CI/CD in OpenShift
+- [developers.redhat.com: Improving CI/CD in Red Hat OpenShift 🌟](https://developers.redhat.com/articles/2021/09/06/improving-cicd-red-hat-openshift)
 
 ## Downloads
 - https://mirror.openshift.com/pub/openshift-v4/

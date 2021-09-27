@@ -65,6 +65,7 @@ based on your test scripts.
 - [lambdatest.com: How To Integrate Cucumber With Jenkins?](https://www.lambdatest.com/blog/cucumber-with-jenkins-integration)
 - [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io/#/Idaithalam) Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Postman collection. It allows to build and test api workflow in minutes.
 - [testinglpoint.com: Cucumber Interview Question](https://www.testinglpoint.com/cucumber-interview-question/)
+- [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber) Testing APIs in a microservices environment can be a challenging task. In this tutorial, we will learn to address it in BDD-style testing using Cucumber.
 
 ## Test Automation with Zephyr (Jira Plugin)
 - [Atlassian Marketplace: Zephyr](https://marketplace.atlassian.com/apps/1014681/zephyr-for-jira-test-management)

@@ -1,4 +1,12 @@
 # MkDocs, Mardkown & GitHub Pages
+- [Introduction](#introduction)
+- [Material for MkDocs](#material-for-mkdocs)
+- [Markdown and Markdown Cheat Sheet](#markdown-and-markdown-cheat-sheet)
+- [GitHub Pages](#github-pages)
+- [GitBook](#gitbook)
+- [Alternatives. Jekyll open source static site generator](#alternatives-jekyll-open-source-static-site-generator)
+
+## Introduction
 - [MkDocs](https://www.mkdocs.org/)
 - [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs):
     - [docs.traefik.io](https://docs.traefik.io/)
@@ -25,3 +33,6 @@
 ## GitBook
 - [gitbook.com](https://www.gitbook.com/)
     - [Example](https://redhat-connect.gitbook.io/certified-operator-guide/)
+
+## Alternatives. Jekyll open source static site generator
+- [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) Jekyll is an open source static site generator. You can write your content in Markdown, use HTML/CSS for structure and presentation, and Jekyll compiles it all into static HTML.

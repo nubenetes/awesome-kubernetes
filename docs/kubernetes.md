@@ -7,6 +7,7 @@
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
+    - [Kubernetes Podcasts](#kubernetes-podcasts)
         - [Kubernetes Blogs](#kubernetes-blogs)
         - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
@@ -186,6 +187,9 @@
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
+
+### Kubernetes Podcasts
+- [kubernetespodcast.com](https://kubernetespodcast.com/)
 
 #### Kubernetes Blogs
 - [Awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
@@ -408,6 +412,8 @@
 * [infoq.com: Six Tips for Running Scalable Workloads on Kubernetes](https://www.infoq.com/articles/tips-running-scalable-workloads-kubernetes/)
 * [Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
 * [itnext.io: Evolution of PaaSes to Platform-as-Code in Kubernetes world](https://itnext.io/evolution-of-paases-to-platform-as-code-in-kubernetes-world-74464b0013ca)
+* [medium: Wordpress High Availability on Kubernetes](https://medium.com/@icheko/wordpress-high-availability-on-kubernetes-f6c0bcc2f28d) Wordpress is configured to support two separate ingress paths — a private for edits and a public for read-only traffic. By “read-only”, mean that Wordpress is only able to execute SELECTs on the DB. The HA MySQL cluster is accomplished using oracle’s mysql-operator. This makes it extremely easy to handle the master-slave replication for the DB side of things.
+* [cloudfoundry.org: Deploy A Laravel Application To Kubernetes Using Cloud Foundry](https://www.cloudfoundry.org/blog/deploy-laravel-app-to-k8s-with-cf/) This tutorial uses the Google Kubernetes Engine (GKE). However, the steps followed in this guide can be applied to Kubernetes clusters running on any cloud provider, as long as Cloud Foundry (cf-for-k8s) has been installed on it. Also, the series of install steps outlined here can function for any “composer” based PHP application such as Drupal, Symfony, etc.
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -655,7 +661,8 @@
 - [KubeSurvival](https://github.com/aporia-ai/kubesurvival) Significantly reduce Kubernetes costs by finding the cheapest machine types that can run your workloads
 - [containerjournal.com: Assessing the True Cost of Kubernetes](https://containerjournal.com/features/assessing-the-true-cost-of-kubernetes/)
 - [ubuntu.com: Kubernetes Fully Managed – half the cost of AWS](https://ubuntu.com/blog/managed-kubernetes-cheaper-than-aws)
-- [learnk8s.io: Kubernetes Instance Calculator 🌟🌟🌟](https://learnk8s.io/kubernetes-instance-calculator)
+- [learnk8s.io: Kubernetes Instance Calculator 🌟🌟](https://learnk8s.io/kubernetes-instance-calculator)
+- [dev.to: Kubernetes Cost Management and Analysis Guide 🌟](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
 
 #### kubecost
 - [How to track costs in multi-tenant Amazon EKS clusters using Kubecost](https://aws.amazon.com/blogs/containers/how-to-track-costs-in-multi-tenant-amazon-eks-clusters-using-kubecost/)
@@ -845,6 +852,8 @@
 * [andydote.co.uk: The Problem with CPUs and Kubernetes](https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes/)
 * [kinvolk.io: Investigating Kubernetes performance issues with BPF](https://kinvolk.io/blog/2020/04/inside-kinvolk-labs-investigating-kubernetes-performance-issues-with-bpf/)
 * [medium: Better Debugging Environment for your Micro-Services](https://medium.com/@moshe.beladev.mb/better-debugging-environment-for-your-micro-services-9420a71b8a37)
+* [thenewstack.io: 6 Kubernetes Best Practices to Empower Devs to Troubleshoot](https://thenewstack.io/6-kubernetes-best-practices-to-empower-devs-to-troubleshoot/)
+* [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious) The "latest" image tag is a disaster waiting to happen. In this video, you will learn how to detect usage of the latest images using 3 different methods.
 
 <center>
 [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
@@ -1039,6 +1048,7 @@
 - [Kubernetes 101](https://leanpub.com/kubernetes-101)
 - [learnk8s.io/first-steps](https://learnk8s.io/first-steps)
 - [ubuntuask.com: Best New Kubernetes Books](https://ubuntuask.com/blog/best-new-kubernetes-books)
+- [suse.com: Kubernetes Management For Dummies](https://www.suse.com/lp/kubernetes-for-dummies) Getting Kubernetes up and running is one thing. Managing it successfully is quite another
 
 ### Kubernetes Patterns eBooks
 * [k8spatterns.io: Free Kubernetes Patterns e-book](https://k8spatterns.io/) , [ref](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)

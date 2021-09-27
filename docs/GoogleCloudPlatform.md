@@ -9,6 +9,7 @@
 - [Python](#python)
 - [Cloud Code](#cloud-code)
 - [Google Cloud Buildpacks](#google-cloud-buildpacks)
+- [Google Cloud Deploy](#google-cloud-deploy)
 - [Cloud SQL](#cloud-sql)
 - [Tools](#tools)
 - [Videos](#videos)
@@ -47,6 +48,8 @@
 - [cloud.google.com: Save money and time with automated VM management and suspend/resume](https://cloud.google.com/blog/products/compute/guide-to-cost-optimization-through-automated-vm-management)
 - [cloud.google.com: Traffic Director explained!](https://cloud.google.com/blog/topics/developers-practitioners/traffic-director-explained)
 - [cloud.google.com: How to transfer your data to Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/how-transfer-your-data-google-cloud)
+- [cloud.google.com: Cloud DNS explained!](https://cloud.google.com/blog/topics/developers-practitioners/cloud-dns-explained)
+- [cloud.google.com: Where should I run my stuff? Choosing a Google Cloud compute option](https://cloud.google.com/blog/topics/developers-practitioners/where-should-i-run-my-stuff-choosing-google-cloud-compute-option)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
@@ -78,6 +81,10 @@
 
 ## Google Cloud Buildpacks
 - [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks)
+
+## Google Cloud Deploy
+- [cloud.google.com: Introducing Google Cloud Deploy: Managed continuous delivery to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-automates-deploys-to-gke)
+
 
 ## Cloud SQL
 - [Testing Cloud SQL failover: Where to begin](https://cloud.google.com/blog/topics/developers-practitioners/testing-cloud-sql-failover-where-begin)

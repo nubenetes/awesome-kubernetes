@@ -1,9 +1,10 @@
 # Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 - [Introduction](#introduction)
 - [Apache](#apache)
-	- [Apache Configuration Samples](#apache-configuration-samples)
+  - [Apache Configuration Samples](#apache-configuration-samples)
 - [Nginx](#nginx)
-	- [Nginx Unit](#nginx-unit)
+  - [Nginx Unit](#nginx-unit)
+  - [Nginx playground](#nginx-playground)
 - [HAProxy (HTTP router and reverse proxy)](#haproxy-http-router-and-reverse-proxy)
 - [Traefik (HTTP router and reverse proxy)](#traefik-http-router-and-reverse-proxy)
 - [Skipper (HTTP router and reverse proxy)](#skipper-http-router-and-reverse-proxy)
@@ -34,6 +35,10 @@
 
 ### Nginx Unit
 - [unit.nginx.org](https://unit.nginx.org) open source multi-language application server
+
+### Nginx playground
+- [jvns.ca: New tool: an nginx playground](https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground/) It would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.
+- [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com/)
 
 ## HAProxy (HTTP router and reverse proxy)
 * [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)

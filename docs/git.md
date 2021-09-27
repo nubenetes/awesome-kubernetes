@@ -126,6 +126,10 @@
 * [cloudsavvyit.com: How to Use Git Hooks For Commit Automation 🌟](https://www.cloudsavvyit.com/14036/how-to-use-git-hooks-for-commit-automation/)
 * [simplilearn.com: How to Resolve Merge Conflicts in Git?](https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git)
 * [towardsdatascience.com: How to Learn Git in Simple Words](https://towardsdatascience.com/how-to-learn-git-in-simple-words-263618071dd8) A playbook for protecting your job position as a data scientist
+* [blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321)
+* [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356)
+* [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://blog.testproject.io/2021/09/23/git-101-from-scratch-the-ultimate-guide-for-qas)
+* [cloudsavvyit.com: How to Delete Git Branches on Local and Remote Repositories](https://www.cloudsavvyit.com/14289/how-to-delete-git-branches-on-local-and-remote-repositories/)
 
 ## Git Submodules
 - [git-scm.com: Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) It often happens that while working on one project, you need to use another project from within it. Perhaps it’s a library that a third party developed or that you’re developing separately and using in multiple parent projects. A common issue arises in these scenarios: you want to be able to treat the two projects as separate yet still be able to use one from within the other.
@@ -326,6 +330,7 @@ git push origin -f
     * Physical keys
 * [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7)
 * [github.blog: GitHub CLI 2.0 includes extensions!](https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/)
+* [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
