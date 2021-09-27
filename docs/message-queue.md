@@ -1,5 +1,6 @@
 # Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub
 - [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
+- [RPC vs Messaging](#rpc-vs-messaging)
 - [Message Brokers](#message-brokers)
 	- [ActiveMQ message broker](#activemq-message-broker)
 	- [RabbitMQ message broker](#rabbitmq-message-broker)
@@ -73,6 +74,9 @@
 - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture) Hybrid architecture with both RESTful and event-driven services.
 - [developers.redhat.com: Distributed transaction patterns for microservices compared](https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared)
  
+## RPC vs Messaging
+- [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
+
 ## Message Brokers
 - [Apache ActiveMQ](https://activemq.apache.org/)
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)

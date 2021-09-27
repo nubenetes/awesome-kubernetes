@@ -112,6 +112,8 @@
 
 ## Comparisons
 - [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907)
+- [levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist](https://levelup.gitconnected.com/truth-about-soap-vs-rest-vs-grpc-vs-graphql-checklist-f50bcb475adf)
+- [medium: REST, RPC, GraphQL… What to choose?](https://medium.com/geekculture/rest-rpc-graphql-what-to-choose-c57c78c0593d) API protocols comparison from the practical straightpoint
 ### SOAP vs REST
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.

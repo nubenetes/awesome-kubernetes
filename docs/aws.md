@@ -1,4 +1,4 @@
-# Amazon Web Services
+# Public Cloud Provider. Amazon Web Services
 <br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png">
@@ -136,6 +136,7 @@
 
 ## Amazon Web Services
 - [AWS Cloud Products](https://aws.amazon.com/products/)
+- [status.aws.amazon.com: Service Health Dashboard](https://status.aws.amazon.com) 
 - [AWS Forums](https://forums.aws.amazon.com)
 - [AWS Knowledge Center](https://aws.amazon.com/en/premiumsupport/knowledge-center/)
 - [AWS Support](https://aws.amazon.com/en/premiumsupport/)

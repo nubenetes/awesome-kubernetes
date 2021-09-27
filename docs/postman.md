@@ -1,4 +1,9 @@
 # Test Automation with Postman. API Testing
+- [Introduction](#introduction)
+- [Newman](#newman)
+- [KIE Server and Drools](#kie-server-and-drools)
+
+## Introduction
 - [getpostman.com](https://www.getpostman.com/)
 - [blog.getpostman.com](https://blog.getpostman.com/)
 - [Dzone: getting started with postman](https://dzone.com/articles/getting-started-with-postman)
@@ -17,6 +22,7 @@
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 2](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-2)
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 3](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-3)
 - [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/)
+- [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman
 - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)

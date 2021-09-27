@@ -108,6 +108,7 @@
 * [cloudsavvyit.com: How To Clean Up and Delete Docker Images](https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images/)
 * [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
 * [dev.to: How to create a production Docker image](https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe)
+* [dev.to: How to run docker on Windows without Docker Desktop](https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
