@@ -11,6 +11,7 @@
     - [Trunk Based Development](#trunk-based-development)
     - [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
         - [Git Flow](#git-flow)
+        - [Git Flow is a bad idea](#git-flow-is-a-bad-idea)
     - [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
     - [Alternative Branching Models](#alternative-branching-models)
         - [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
@@ -208,6 +209,13 @@ It prescribes that software designers should define formal, precise and verifiab
 * [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 * [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches/)
+
+#### Git Flow is a bad idea
+* [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html)
+    * [youtube: Feature Branching is Evil (Thierry de Pauw, Belgium)](https://www.youtube.com/watch?v=h4DM-Wa0aDQ&t=38s&ab_channel=XPDaysUkraine)
+    * Feature branching is again gaining in popularity due to the rise of distributed version control systems. Although branch creation has become very easy, it comes with a certain cost. Long living branches break the flow of the software delivery process, impacting throughput and stability.
+    * This session explores why teams are using feature branches, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what’s evil about feature branches, which is not necessarily the problems they introduce - but rather, the real reasons why teams are using them.
+* [youtube: Git Flow Is A Bad Idea - Dave Farley ](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) What is GitFlow and why is it a bad idea if you want to practice Continuous Delivery or Continuous Integration? GitFlow is a feature branching strategy that adds several extra layers of complexity. Git Flow is bad when we need fast feedback and a clear picture of the quality and 'releasability' of our work, so how do we adapt to get that faster feedback and a clearer picture?
 
 ### Trunk-based Development vs. Git Flow
 * [toptal.com: Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)

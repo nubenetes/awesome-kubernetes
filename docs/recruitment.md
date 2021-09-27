@@ -21,6 +21,7 @@
 - [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
 - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0) How to avoid tech interviews as we know them
 - [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market/)
+- [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
