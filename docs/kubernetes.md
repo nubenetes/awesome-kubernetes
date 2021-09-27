@@ -7,7 +7,7 @@
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
-    - [Kubernetes Podcasts](#kubernetes-podcasts)
+        - [Kubernetes Podcasts](#kubernetes-podcasts)
         - [Kubernetes Blogs](#kubernetes-blogs)
         - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
@@ -188,7 +188,7 @@
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 
-### Kubernetes Podcasts
+#### Kubernetes Podcasts
 - [kubernetespodcast.com](https://kubernetespodcast.com/)
 
 #### Kubernetes Blogs
