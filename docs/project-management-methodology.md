@@ -7,6 +7,8 @@
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
 - [KPIs and Employee Performance](#kpis-and-employee-performance)
 - [MVP Minimum Viable Product](#mvp-minimum-viable-product)
+- [DevDriven.By](#devdrivenby)
+- [Promotion Driven Development](#promotion-driven-development)
 - [Bunch of images](#bunch-of-images)
 - [Tweets](#tweets)
 
@@ -89,6 +91,14 @@
 - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)
 - [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins/) The big benefits of little changes.
 
+## DevDriven.By
+- [devdriven.by](https://devdriven.by/)
+
+## Promotion Driven Development
+- [devdriven.by: When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap](https://devdriven.by/promotion/)
+- [nichesoftware.co.nz:Promotion Driven Development (PDD)](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
+- [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+
 ## Bunch of images
 <details>
   <summary>Click to expand!</summary>
@@ -102,6 +112,8 @@
 [![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
 [![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+
+[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 </center>
 </details>  
 
@@ -111,6 +123,8 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 questions I try to answer before starting any new project:<br><br>1. What problem am I solving?<br>2. What constraints do I have?<br>3. Who are the main stakeholders?<br>4. What are the risks?<br>5. How do I measure progress?<br>6. What does success look like?<br><br>Don&#39;t sail without a compass.</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1393868830859010049?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We really need to normalize the conversation around big tech and promotion processes that lead to unnecessary complexity and waste. <a href="https://t.co/pAfErKPKBH">https://t.co/pAfErKPKBH</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1442298856406863876?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
