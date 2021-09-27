@@ -22,7 +22,7 @@
 ## Introduction
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Part 1](https://collabnix.com/top-10-kubernetes-tools-you-need-for-2021/)
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Part 2](https://collabnix.com/top-10-kubernetes-tool-you-need-for-2021-part-2/)
-- [Kubetools - A Curated List of Kubernetes Tools: Kubetools - A Curated List of Kubernetes Tools](https://c/kubetools/)
+- [collabnix.github.io: Kubetools - A Curated List of Kubernetes Tools: Kubetools - A Curated List of Kubernetes Tools](https://collabnix.github.io/kubetools/)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
