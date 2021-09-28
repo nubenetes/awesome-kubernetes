@@ -7,8 +7,9 @@
 - [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
 - [KPIs and Employee Performance](#kpis-and-employee-performance)
 - [MVP Minimum Viable Product](#mvp-minimum-viable-product)
-- [DevDriven.By](#devdrivenby)
-- [Promotion Driven Development](#promotion-driven-development)
+- [Other Development Methodologies. Worst practices in Project Management](#other-development-methodologies-worst-practices-in-project-management)
+	- [DevDriven.By](#devdrivenby)
+	- [Promotion Driven Development](#promotion-driven-development)
 - [Bunch of images](#bunch-of-images)
 - [Tweets](#tweets)
 
@@ -91,12 +92,15 @@
 - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)
 - [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins/) The big benefits of little changes.
 
-## DevDriven.By
+## Other Development Methodologies. Worst practices in Project Management
+- [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
+- [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
+### DevDriven.By 
 - [devdriven.by](https://devdriven.by/)
 
-## Promotion Driven Development
-- [devdriven.by: When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap](https://devdriven.by/promotion/)
-- [nichesoftware.co.nz:Promotion Driven Development (PDD)](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
+### Promotion Driven Development
+- [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion/) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
+- [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
 ## Bunch of images

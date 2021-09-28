@@ -156,6 +156,7 @@
 ## Multi Cloud
 - [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
 - [architectelevator.com: Multi Cloud Architecture: Decisions and Options](https://architectelevator.com/cloud/hybrid-multi-cloud/) Multi cloud means different things to different people. A decision model helps bust the buzzwords and show the options clearly.
+- [softwebsolutions.com: Why enterprises need to adopt a multi-cloud strategy](https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy.html)
 ## Cloud Automation
 * [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed/) DevOps has an automation problem, while agile has an identification problem. Both face organizational problems. Both are needed in the digital transformation shaping the months ahead.
 * [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)
@@ -307,5 +308,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">COTS is for business processes that aren’t strategic to your org. So you should MODIFY YOUR BUSINESS PROCESS TO FIT WHAT THE SOFTWARE DOES OUT OF THE BOX! Sorry for shouting, I’m old.</p>&mdash; Jez Humble (@jezhumble) <a href="https://twitter.com/jezhumble/status/1422924763647778821?ref_src=twsrc%5Etfw">August 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The top 5 most widely used Cloud platforms according to the Stack Overflow Developer survey 2021:<br><br>1. AWS - 59%<br>2. Azure - 32% <br>3. GCP - 29%<br>4. Heroku - 21%<br>5. DigitalOcean - 18% <a href="https://t.co/56cqg70gZo">pic.twitter.com/56cqg70gZo</a></p>&mdash; Danny  (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1430390741583290375?ref_src=twsrc%5Etfw">August 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💫 Cloud Knowledge 101<br><br>☁️ Public vs. Private vs. Hybrid Cloud ☁️<br><br>A quick comparison of these concepts 🧵👇</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1442170013226438660?ref_src=twsrc%5Etfw">September 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

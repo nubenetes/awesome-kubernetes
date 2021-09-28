@@ -7,3 +7,4 @@
 - [thenewstack.io: Use Low Code to Reduce Friction for Cloud Operations Teams](https://thenewstack.io/use-low-code-to-reduce-friction-for-cloud-operations-teams/)
 - [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) Prepare for hard times or move to where the sun is shining
 - [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/)
+- [thenewstack.io: Low Code for Pro Coders](https://thenewstack.io/low-code-for-pro-coders/)

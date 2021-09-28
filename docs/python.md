@@ -150,6 +150,7 @@
 - [developers.redhat.com: Learn Python: Tutorials and updates from Red Hat experts](https://developers.redhat.com/topics/python) Python is a popular programming language for data science, machine learning, and web development.
 - [python.plainenglish.io: Special Methods Will Change How You Write Classes in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6) An introduction to the most useful special methods
 - [towardsdatascience.com: 12 Of My Favorite Python Practices For Better Functions](https://towardsdatascience.com/12-of-my-favorite-python-practices-for-better-functions-7a21d18cfb38)
+- [towardsdatascience.com: Stop Hardcoding Sensitive Data in Your Python Applications](https://towardsdatascience.com/stop-hardcoding-sensitive-data-in-your-python-applications-86eb2a96bec3) **Keep your settings and credentials private with .env files**
 
 ## Thoth
 - [Project Thoth](https://thoth-station.ninja/) Using Artificial Intelligence to analyse and recommend software stacks for Python applications.

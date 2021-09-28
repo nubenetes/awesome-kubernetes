@@ -970,6 +970,7 @@
 ## Kubernetes Scheduling and Scheduling Profiles
 * [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)
 * [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/profiles/)
+* [granulate.io: A Deep Dive into Kubernetes Scheduling](https://granulate.io/a-deep-dive-into-kubernetes-scheduling/)
 
 ### Assigning Pods to Nodes. Pod Affinity and Anti-Affinity 
 * [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity)

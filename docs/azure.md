@@ -7,6 +7,7 @@
 - [Mobile Apps](#mobile-apps)
 - [Powershell](#powershell)
     - [Powershell repos](#powershell-repos)
+    - [Crescendo powershell module](#crescendo-powershell-module)
 - [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
 - [Azure Bicep](#azure-bicep)
 - [Azure Traffic Manager](#azure-traffic-manager)
@@ -15,6 +16,7 @@
 - [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
 - [Windows 11](#windows-11)
 - [ASP.NET Core](#aspnet-core)
+- [Polly .NET resilience and transient-fault-handling library](#polly-net-resilience-and-transient-fault-handling-library)
 - [Azure API Management](#azure-api-management)
 
 ## Azure
@@ -104,6 +106,10 @@
 - [jrussellfreelance/powershell-scripts](https://github.com/jrussellfreelance/powershell-scripts)
 - [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)
 
+### Crescendo powershell module
+- [Crescendo](https://devblogs.microsoft.com/powershell/announcing-powershell-crescendo-preview-1/) is an experimental module developed by Jim Truher, one of the main developers of PowerShell. Crescendo provides a framework to rapidly develop PowerShell cmdlets that wrap native commands, regardless of platform. The goal of a Crescendo-based module is to create PowerShell cmdlets that use a native command-line tool, but unlike the tool, return PowerShell objects instead of plain text.
+- [devblogs.microsoft.com: My Crescendo journey](https://devblogs.microsoft.com/powershell-community/my-crescendo-journey/)
+
 ## IaC with PowerShell DSC Desired State Configuration
 - [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://docs.microsoft.com/en-us/powershell/scripting/dsc/)
 - [docs.microsoft.com: Using configuration data in DSC](https://docs.microsoft.com/en-us/powershell/scripting/dsc/configurations/configData)
@@ -132,6 +138,10 @@
 ## ASP.NET Core
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)
 - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d) This article looks at RESTful architecture and how we can implement a RESTful service using ASP.NET Core and dotConnect for PostgreSQL.
+
+## Polly .NET resilience and transient-fault-handling library 
+- [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
+- [medium: Microservices Resilience and Fault Tolerance with applying Retry and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990)
 
 ## Azure API Management
 - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/services/api-management)

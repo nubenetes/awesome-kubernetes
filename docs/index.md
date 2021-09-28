@@ -43,7 +43,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
 - [Kubernetes magic is in enterprise standardization, not app portability 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 - [A new role to emerge: Kubernetes Manager 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
-- [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps
+- [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary](https://devops.com/google-dora-report-shows-modest-devops-gains/)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)

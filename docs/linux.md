@@ -184,6 +184,7 @@
 - [tecmint.com: How to Kill Linux Process Using Kill, Pkill and Killall](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
 - [linuxteck.com: 13 Top command in Linux (Monitor Linux Server Processes) 🌟](https://www.linuxteck.com/13-top-command-in-linux/)
 - [cyberciti.biz: How to use df command in Linux / Unix {with examples}](https://www.cyberciti.biz/faq/df-command-examples-in-linux-unix/)
+- [commandlinefu.com: Compare directories via diff](https://www.commandlinefu.com/commands/view/9116/compare-directories-via-diff): `diff -rq dirA dirB`
 
 ## BusyBox
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux

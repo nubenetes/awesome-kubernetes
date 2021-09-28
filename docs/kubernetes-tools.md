@@ -15,6 +15,7 @@
 - [Kubeshop](#kubeshop)
 - [KubeLibrary](#kubelibrary)
 - [kube-vip](#kube-vip)
+- [Kubermetrics](#kubermetrics)
 - [MetalLB](#metallb)
 - [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
 - [Tweets](#tweets)
@@ -415,6 +416,9 @@
 ## kube-vip
 * [kube-vip](https://github.com/kube-vip/kube-vip) is a Load-Balancer for both inside and outside a Kubernetes cluster. 
 * **What's one of the biggest pain in implementing Kubernetes for on-prem? Lack of support for LoadBalancer Service.** Now there's a second project (the first is [MetalLB](https://github.com/metallb/metallb)) that provides this functionality for on-prem: kube-vip.
+
+## Kubermetrics
+* [oslabs-beta/kubermetrics](https://github.com/oslabs-beta/kubermetrics) Kubermetrics is an open-source dev tool that provides Kubernetes cluster monitoring as well as data visualization in a simple and easy to understand user interface. Kubermetrics intergrates both the Prometheus and Grafana Dashboards on one page! Allowing for custominzable dashboards and alerts.
 
 ## MetalLB
 - [MetalLB](https://github.com/metallb/metallb) A network load-balancer implementation for Kubernetes using standard routing protocols

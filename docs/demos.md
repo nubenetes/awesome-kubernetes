@@ -174,6 +174,7 @@
 * [ishantgaurav.in: Complete Application Deployment using Kubernetes](https://ishantgaurav.in/2021/06/22/complete-application-deployment-using-kubernetes/)
 * [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
 * [github.com/developer-guy: Set up HA k3s cluster on DigitalOcean using Terraform + Ansible](https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean)
+* [cncf.io: Kubernetes Ingress gRPC example with a Dune quote service](https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service/)
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
