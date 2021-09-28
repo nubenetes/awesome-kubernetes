@@ -15,6 +15,7 @@
 	- [Sonatype Nexus Community](#sonatype-nexus-community)
 - [JFrog Artifactory](#jfrog-artifactory)
 - [Harbor. Cloud native repository for Kubernetes](#harbor-cloud-native-repository-for-kubernetes)
+- [Other Alternatives](#other-alternatives)
 
 ## Introduction
 - A Docker registry is a place to store and distribute Docker images.
@@ -123,3 +124,6 @@
 - [mramanathan/ansible-harbor](https://github.com/mramanathan/ansible-harbor) Ansible playbook to install and setup Harbor
 - [galaxy.ansible.com/mkgin/vmware-harbor](https://galaxy.ansible.com/mkgin/vmware-harbor) An Ansible role Installs Harbor from VMware as the dependancies from Docker.
 - [freesoft.dev: Ansible Role: Harbor API Codifying](https://freesoft.dev/program/126957220) An Ansible Role to manage Harbor API
+
+## Other Alternatives
+- [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
