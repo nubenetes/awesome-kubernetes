@@ -15,6 +15,7 @@
     - [Octopus Deploy](#octopus-deploy)
     - [JFrog](#jfrog)
         - [JFrog DevOps Platform](#jfrog-devops-platform)
+    - [Semaphore](#semaphore)
 - [Cloud Native CI/CD](#cloud-native-cicd)
     - [Jenkins X](#jenkins-x)
     - [Spinnaker](#spinnaker)
@@ -146,6 +147,10 @@
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
 - [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)
 - [cloud.redhat.com: Cloud DevOps With OpenShift and JFrog](https://cloud.redhat.com/blog/cloud-devops-with-openshift-and-jfrog)
+
+### Semaphore
+- [Semaphore](https://semaphoreci.com/) Hosted CI/CD for teams that don’t like bottlenecks
+- [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphoreci.com/blog/revving-up-continuous-integration-with-parallel-testing) Is your CI/CD pipeline slow? Do wait times make you feel unproductive? Parallel testing is an indispensable technique for reducing wait times. And mastering it is key to getting the most out of CI/CD.
 
 ## Cloud Native CI/CD
 ### Jenkins X

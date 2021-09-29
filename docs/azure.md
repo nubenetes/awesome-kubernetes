@@ -3,6 +3,7 @@
 - [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
 - [ARM Templates](#arm-templates)
 - [Azure DevOps](#azure-devops)
+- [GitOps with Azure Arc](#gitops-with-azure-arc)
 - [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
 - [Mobile Apps](#mobile-apps)
 - [Powershell](#powershell)
@@ -75,6 +76,10 @@
 - [letsdevops.net: Introduction to Azure DevOps for Beginners - Create CI/CD Pipelines, Setup Repository 🌟](https://www.letsdevops.net/post/letsdevops-introduction-to-azure-devops-for-beginners)
 - [kevinrchant.com: Increase in demand for Data Platform automation](https://www.kevinrchant.com/2021/09/16/increase-in-demand-for-data-platform-automation/)
     - [kevinrchant.com: Introducing my Azure DevOps templates for Data Platform deployments](https://www.kevinrchant.com/2021/09/14/t-sql-tuesday-142-introducing-my-azure-devops-templates-for-data-platform-deployments/)
+
+## GitOps with Azure Arc 
+- [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
+- [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/t5/itops-talk-blog/standardize-devops-practices-across-hybrid-and-multicloud/ba-p/2795010) With Azure Arc-enabled Kubernetes, you can attach and configure Kubernetes clusters located either inside or outside Azure.
 
 ## Secure DevOps Kit for Azure
 - [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit)
