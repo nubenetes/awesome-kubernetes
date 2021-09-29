@@ -921,7 +921,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 [![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 </center>
-<details>
+</details>
+
 ## Videos
 <details>
   <summary>Click to expand!</summary>
