@@ -5,6 +5,7 @@
     - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
     - [The State of Cloud-Native Development](#the-state-of-cloud-native-development)
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
+    - [Kubernetes Maturity Model](#kubernetes-maturity-model)
     - [Kubernetesbyexample](#kubernetesbyexample)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
         - [Kubernetes Podcasts](#kubernetes-podcasts)
@@ -177,7 +178,15 @@
 - [thenewstack.io: Kubernetes Horror Stories](https://thenewstack.io/kubernetes-horror-stories/)
 - [techbeacon.com: Why teams fail with Kubernetes—and what to do about it](https://techbeacon.com/enterprise-it/why-teams-fail-kubernetes-what-do-about-it)
 - [kodekloud.com: Kubernetes Features Every Beginner Must Know](https://kodekloud.com/blog/200628/kubernetes-features-every-beginner-must-know)
-  
+
+### Kubernetes Maturity Model
+- [fairwinds.medium.com: Kubernetes Maturity Model](https://www.fairwinds.com/kubernetes-maturity-model)
+- [fairwinds.medium.com: An Introduction to the Kubernetes Maturity Model — How to Use It](https://fairwinds.medium.com/an-introduction-to-the-kubernetes-maturity-model-how-to-use-it-54ebfc21e413)
+    - The Fairwinds team developed the Kubernetes Maturity Model over a year ago, and they continue to update and refine it to reflect the five stages you go through in your journey to Kubernetes maturity. 
+    - If the Kubernetes Maturity Model is new to you, this is a helpful introduction and guide on how to use it.
+    - Before you do anything, consider what a cloud-native journey means to you and your organization. Kubernetes isn’t right for everyone, so make sure you understand where to start and how to prove value by embracing Kubernetes.
+    - Any maturity model is a process, and you’re likely to move back and forth between phases, and some will take longer than others. Even once you’ve reached phase five, you’ll always be working on ongoing optimization, removing human error and effort, and improving reliability and efficiency.
+
 ### Kubernetesbyexample
 - [kubernetesbyexample.com 🌟🌟](https://www.kubernetesbyexample.com) A free learning platform covering the fundamentals of how to develop, deploy, manage, and automate containers in cloud-native environments. 
 
