@@ -1,5 +1,6 @@
 # API Marketplaces. API Management with API Gateways & Developer Portals 
 - [Introduction](#introduction)
+- [HTTPs for Developers](#https-for-developers)
 - [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
 	- [API Marketplaces](#api-marketplaces)
 	- [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
@@ -35,6 +36,10 @@
 - [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
+
+## HTTPs for Developers
+- [howhttps.works](https://howhttps.works)
+- [dev.to: HTTPS for Developers 🌟](https://dev.to/tiangolo/https-for-developers-1774)
 
 ## API Landscape and API Marketplaces
 - [API Landscape](https://www.apidays.co/api-landscape)
@@ -92,6 +97,7 @@
 - [medium: Kong API Gateway - From Zero to Production](https://medium.com/swlh/kong-api-gateway-zero-to-production-5b8431495ee) Let’s start by exploring the API gateway architecture pattern and then slowly deep dive into the details of running a production-grade Kong API gateway.
 - [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.openshift.com/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)
 - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)
+- [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
 
 ### Tyk API Manager 
 - [Tyk API Manager](https://tyk.io/)

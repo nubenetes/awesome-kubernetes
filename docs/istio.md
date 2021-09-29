@@ -8,6 +8,7 @@
 - [Envoy micro proxy](#envoy-micro-proxy)
 - [Kibana](#kibana)
 - [AWS App Mesh](#aws-app-mesh)
+- [Istio and AWS EKS](#istio-and-aws-eks)
 - [Tweets](#tweets)
 
 ## Docs
@@ -120,6 +121,9 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 ## AWS App Mesh
 - [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh/)
 - [allthingsdistributed.com: Redefining application communications with AWS App Mesh](https://www.allthingsdistributed.com/2019/03/redefining-application-communications-with-aws-app-mesh.html)
+
+## Istio and AWS EKS
+- [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
 
 ## Tweets
 <details>

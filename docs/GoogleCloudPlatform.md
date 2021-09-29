@@ -11,6 +11,7 @@
 - [Google Cloud Buildpacks](#google-cloud-buildpacks)
 - [Google Cloud Deploy](#google-cloud-deploy)
 - [Cloud SQL](#cloud-sql)
+- [Apigee](#apigee)
 - [Tools](#tools)
 - [Videos](#videos)
 
@@ -88,6 +89,9 @@
 
 ## Cloud SQL
 - [Testing Cloud SQL failover: Where to begin](https://cloud.google.com/blog/topics/developers-practitioners/testing-cloud-sql-failover-where-begin)
+
+## Apigee
+- [Announcing Apigee Integration: An API-first approach for connecting data and applications](https://cloud.google.com/blog/products/api-management/google-cloud-announces-apigee-integration)
 
 ## Tools
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases

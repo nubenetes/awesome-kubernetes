@@ -117,6 +117,8 @@
 
 [![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
+![scrum vs kanban](images/scrum_vs_kanban.jfif)
+
 [![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 </center>
 </details>  

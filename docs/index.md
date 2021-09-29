@@ -143,7 +143,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Infrastructure Management Tools
 - [IaC Infrastructure as Code](iac.md)
 - [Pulumi](pulumi.md)
-- [Terraform & Packer 🌟](terraform.md)
+- [Terraform & Packer. K8s boilerplates 🌟](terraform.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes

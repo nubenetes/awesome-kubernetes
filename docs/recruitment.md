@@ -4,6 +4,7 @@
 - [Recruitment Portals in Spain](#recruitment-portals-in-spain)
 - [Recruitment Software](#recruitment-software)
 - [Soft Skills](#soft-skills)
+- [Writing a CV](#writing-a-cv)
 - [Tweets](#tweets)
 ## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
@@ -35,6 +36,9 @@
 
 ## Soft Skills
 - [skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) For varying levels of seniority, from senior, to staff, and beyond.
+
+## Writing a CV 
+- [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
 
 ## Tweets
 <details>

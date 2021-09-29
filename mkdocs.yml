@@ -138,7 +138,7 @@ nav:
   - Infrastructure Management Tools:
     - IaC Infrastructure as Code: iac.md
     - Pulumi: pulumi.md
-    - Terraform & Packer: terraform.md
+    - Terraform & Packer. K8s boilerplates: terraform.md
     - Crossplane: crossplane.md
   - Databases on Kubernetes: 
     - Relational Databases and Database DevOps: databases.md

@@ -3,7 +3,7 @@
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
 - [Configuration Drift](#configuration-drift)
-	- [Drift Detection Tools](#drift-detection-tools)
+  - [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
 - [DevOps Tools](#devops-tools)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
@@ -11,15 +11,15 @@
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools-1)
-	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-		- [keptn slides and videos](#keptn-slides-and-videos)
-	- [Puppet](#puppet)
-	- [Relay](#relay)
+  - [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
+    - [keptn slides and videos](#keptn-slides-and-videos)
+  - [Puppet](#puppet)
+  - [Relay](#relay)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
-	- [AWS DevOps](#aws-devops)
-	- [Azure DevOps](#azure-devops)
-	- [Google Cloud Platform](#google-cloud-platform)
+  - [AWS DevOps](#aws-devops)
+  - [Azure DevOps](#azure-devops)
+  - [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
 - [NetOps](#netops)
 - [GPT 3 Tools](#gpt-3-tools)
@@ -37,7 +37,7 @@
 
 ## State of DevOps. Google's DevOps Research and Assessment (DORA)
 - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
-- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams.
+- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary](https://devops.com/google-dora-report-shows-modest-devops-gains/)
 
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)

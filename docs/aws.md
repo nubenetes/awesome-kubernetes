@@ -129,6 +129,7 @@
 - [AWS Patterns](#aws-patterns)
 - [AWS Tags](#aws-tags)
 - [ECommerce](#ecommerce)
+- [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -351,6 +352,7 @@ You can filter by topic using the toolbar above.
 - [AWS Site-to-Site VPN releases updated Download Configuration utility](https://aws.amazon.com/about-aws/whats-new/2021/09/aws-site-to-site-vpn-download-configuration-utility/) With this update, Site-to-Site VPN customers can generate configuration templates for compatible Customer Gateway (CGW) devices, making it easier to create VPN connections to AWS.
 - [New for AWS Distro for OpenTelemetry – Tracing Support is Now Generally Available](https://aws.amazon.com/blogs/aws/new-for-aws-distro-for-opentelemetry-tracing-support-is-now-generally-available/)
 - [Application Load Balancer now enables AWS PrivateLink and static IP addresses by direct integration with Network Load Balancer](https://aws.amazon.com/about-aws/whats-new/2021/09/application-load-balancer-aws-privatelink-static-ip-addresses-network-load-balancer/) 
+- [Amazon EC2 now offers Global View on the console to view all resources across regions together](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-ec2-global-view-console-regions/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -909,10 +911,17 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Architecting a Highly Available Serverless, Microservices-Based Ecommerce Site](https://aws.amazon.com/blogs/architecture/architecting-a-highly-available-serverless-microservices-based-ecommerce-site/)
 
 ---
+## Bunch of Images
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
+
+![aws responsability model](images/s3_storage_classes.jfif)
+
 [![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 </center>
-
+<details>
 ## Videos
 <details>
   <summary>Click to expand!</summary>
@@ -934,5 +943,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When we first launched the managed Prometheus service, one of the feedback was about cost of ingestion. We announced a pricing discount up to 84% recently in case you haven&#39;t seen it. <a href="https://t.co/wqioBvSXme">https://t.co/wqioBvSXme</a> <a href="https://t.co/64ezXUg753">pic.twitter.com/64ezXUg753</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1435717610704834566?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💫 AWS VPC 101<br><br>Virtual Private Cloud is a fundamental concept of AWS ☁️<br><br>Let&#39;s explore it together in this thread 🧵👇</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1441452612331704321?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📚 AWS 1x1<br><br>ɪᴅᴇɴᴛɪᴛʏ- &amp; ᴀᴄᴄᴇꜱꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ (ɪᴀᴍ) 🔑<br><br>The concepts are crucial &amp; being confident in them is a necessity.<br><br>From basics to advanced concepts 🧵↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1442880455179657219?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">AWS Amplify refers to different products.<br><br>You are confused what Amplify exactly is? <br><br>We know that AWS isn&#39;t the best with naming its products so let&#39;s see what Amplify products are exactly out there.<br><br>1/6 <a href="https://t.co/9dUtwpdjPU">pic.twitter.com/9dUtwpdjPU</a></p>&mdash; Sandro Volpic (@sandro_vol) <a href="https://twitter.com/sandro_vol/status/1442762063416283139?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

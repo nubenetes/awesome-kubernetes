@@ -73,6 +73,7 @@
 ### Travis CI
 * [Travis CI](https://travis-ci.org/)
 * [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
+* [lambdatest.com: Building A CI/CD Pipeline With Travis CI, Docker, And LambdaTest](https://www.lambdatest.com/blog/ci-cd-pipeline-with-travis-ci-docker-and-lambdatest/)
 
 ### Concourse
 * [Concourse](https://concourse-ci.org/)
