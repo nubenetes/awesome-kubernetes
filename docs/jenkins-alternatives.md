@@ -105,6 +105,7 @@
 * [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptnkeptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)
 * [Quick Start](https://keptn.sh/docs/quickstart/)
 * [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blogautomating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
+* [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e) Sharing the story of why we decided to adopt Keptn internally at Dynatrace and how we are making it happen
 
 ### Azure DevOps 
 * [Azure DevOps](https://azure.microsoft.com/services/devops/)

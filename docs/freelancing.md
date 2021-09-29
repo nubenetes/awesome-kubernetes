@@ -19,6 +19,7 @@
 - [eleconomista.es: Estos son los gastos de los autónomos que no se pueden deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)
 - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)
 - [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/) 
+- [autonomosyemprendedor.es: Los autónomos no sólo deben presentar el IVA en octubre, hay más obligaciones tributarias este mes](https://www.autonomosyemprendedor.es/articulo/tus-finanzas/autonomos-solo-deben-presentar-iva-octubre-mas-obligaciones-tributarias-mes/20210927125637025167.html)
 
 ## Top Freelancing Platforms
 - [malt 🌟](https://www.malt.com/) 

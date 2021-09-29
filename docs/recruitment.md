@@ -4,6 +4,7 @@
 - [Recruitment Portals in Spain](#recruitment-portals-in-spain)
 - [Recruitment Software](#recruitment-software)
 - [Soft Skills](#soft-skills)
+- [Fair Job Offer](#fair-job-offer)
 - [Writing a CV](#writing-a-cv)
 - [Tweets](#tweets)
 ## Introduction
@@ -36,6 +37,9 @@
 
 ## Soft Skills
 - [skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) For varying levels of seniority, from senior, to staff, and beyond.
+
+## Fair Job Offer
+-  [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) Looking for a job? this is what you should know first. This is a MUST read project when looking for a job and expand this properly to any country, turn yourself into an expert to easily & securely find a job globally, Understand your rights in a market populated by AI, Data Lakes. Use templates legally approved to handle your data less possible.
 
 ## Writing a CV 
 - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
