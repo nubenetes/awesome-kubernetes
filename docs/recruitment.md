@@ -87,6 +87,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hiring in tech is broken: Learnings from our Twitter Space a 🧵</p>&mdash; Alex Jones 🚀 (@AlexJonesax) <a href="https://twitter.com/AlexJonesax/status/1440665554436517898?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software eng interviews today: “Invert this binary tree” (because I said so)<br><br>What software eng interviews should be:“The customer wants you to implement feature X. How would you make it work with the legacy codebase? What’s your time estimate? What security issues could arise?”</p>&mdash; Anna Spysz 💉💉 (@annaspies) <a href="https://twitter.com/annaspies/status/1441420614263214086?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;terminated within the hour&quot; -- big companies treat employees as disposable :/ <a href="https://t.co/BAgiSBmX4c">https://t.co/BAgiSBmX4c</a></p>&mdash; Liz Fong-Jones (方禮真) (@lizthegrey) <a href="https://twitter.com/lizthegrey/status/1443266495971094531?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

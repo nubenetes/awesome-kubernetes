@@ -85,7 +85,7 @@
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
 - [Kubernetes interview questions](#kubernetes-interview-questions)
-- [Certified Kubernetes Application Developer (CKAD)](#certified-kubernetes-application-developer-ckad)
+- [Kubernetes Certifications. CKA, CKAD and CKS](#kubernetes-certifications-cka-ckad-and-cks)
 - [Books and eBooks](#books-and-ebooks)
     - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
     - [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
@@ -1060,9 +1060,10 @@
 - [ymmt2005.hatenablog.com: 47 things that you should know to be a Kubernetes experts (questions + answers)](https://ymmt2005.hatenablog.com/entry/k8s-things)
 - [automationreinvented.blogspot.com: kubernetes posts](https://automationreinvented.blogspot.com/search/label/Kubernetes?m=1)
 
-## Certified Kubernetes Application Developer (CKAD)
+## Kubernetes Certifications. CKA, CKAD and CKS
 - [cncf.io: Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/)
 - [CKAD-Bookmarks](https://github.com/reetasingh/CKAD-Bookmarks) save time in searching docs in CKAD exam
+- [itnext.io: Tips & Tricks for CKA, CKAD and CKS exams](https://itnext.io/tips-tricks-for-cka-ckad-and-cks-exams-cc9dade1f76d)
 
 ## Books and eBooks
 - [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)
