@@ -51,6 +51,7 @@
 - [cloud.google.com: How to transfer your data to Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/how-transfer-your-data-google-cloud)
 - [cloud.google.com: Cloud DNS explained!](https://cloud.google.com/blog/topics/developers-practitioners/cloud-dns-explained)
 - [cloud.google.com: Where should I run my stuff? Choosing a Google Cloud compute option](https://cloud.google.com/blog/topics/developers-practitioners/where-should-i-run-my-stuff-choosing-google-cloud-compute-option)
+- [cloud.google.com: What is Cloud Load Balancing?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-load-balancing)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

@@ -7,6 +7,7 @@
     - [Kubernetes Failure Stories](#kubernetes-failure-stories)
     - [Kubernetes Maturity Model](#kubernetes-maturity-model)
     - [Kubernetesbyexample](#kubernetesbyexample)
+    - [Kubernetes Installation Methods](#kubernetes-installation-methods)
     - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
         - [Kubernetes Podcasts](#kubernetes-podcasts)
         - [Kubernetes Blogs](#kubernetes-blogs)
@@ -14,6 +15,7 @@
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
     - [kubeconfig](#kubeconfig)
     - [Docker and Kubernetes](#docker-and-kubernetes)
+        - [Kubernetes vs Docker Swarm](#kubernetes-vs-docker-swarm)
     - [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
     - [Kubernetes Resources](#kubernetes-resources)
         - [Kubernetes Pods](#kubernetes-pods)
@@ -189,6 +191,9 @@
 
 ### Kubernetesbyexample
 - [kubernetesbyexample.com 🌟🌟](https://www.kubernetesbyexample.com) A free learning platform covering the fundamentals of how to develop, deploy, manage, and automate containers in cloud-native environments. 
+
+### Kubernetes Installation Methods
+- [itnext.io: Kubernetes Installation Methods The Complete Guide](https://itnext.io/kubernetes-installation-methods-the-complete-guide-1036c860a2b3)
 
 ### Kubernetes Knowledge Hubs
 - [kubernetes.io](https://kubernetes.io/)
@@ -437,6 +442,9 @@
 * [containerjournal.com: Best of 2020: How Docker and Kubernetes Work Together](https://containerjournal.com/topics/container-ecosystems/how-docker-and-kubernetes-work-together/)
 * [blog.sighup.io: How to run Kubernetes without Docker](https://blog.sighup.io/how-to-run-kubernetes-without-docker/) Sooner or later this moment had to come, and it finally has: Kubernetes is deprecating Docker as a Container Runtime Interface in favor of the other supported runtimes. Let's try to explain why Docker seems really replaceable.
 * [imaginarycloud.com: Docker VS Kubernetes? It should be Docker + Kubernetes](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
+
+#### Kubernetes vs Docker Swarm
+* [dynatrace.com: Kubernetes vs Docker: What’s the difference?](https://www.dynatrace.com/news/blog/kubernetes-vs-docker/)
 
 ### Kubernetes Cloud Controller Manager
 * [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
