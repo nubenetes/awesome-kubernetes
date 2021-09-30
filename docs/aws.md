@@ -10,12 +10,9 @@
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
 - [Introduction](#introduction)
-	- [Books](#books)
+- [eBooks](#ebooks)
 - [Training](#training)
 - [AWS Certification](#aws-certification)
-- [AWS Glossary](#aws-glossary)
-- [Awesome AWS](#awesome-aws)
-- [AWS Marketplace](#aws-marketplace)
 - [AWS Pricing](#aws-pricing)
 	- [AWS Calculator](#aws-calculator)
 - [AWS on Twitter](#aws-on-twitter)
@@ -139,6 +136,9 @@
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/releasenotes)
 - [AWS Forums](https://forums.aws.amazon.com)
 - [AWS Knowledge Center](https://aws.amazon.com/en/premiumsupport/knowledge-center/)
+- [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+- [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
+- [AWS Marketplace](https://aws.amazon.com/marketplace)
 - [AWS Support](https://aws.amazon.com/en/premiumsupport/)
 - [github.com/awslabs](https://github.com/awslabs)
 - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
@@ -154,7 +154,7 @@
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
 
 ## Blogs
-- [Jayendra's Blog🌟🌟](https://jayendrapatil.com/)
+- [Jayendra's Blog 🌟🌟](https://jayendrapatil.com/)
 - [aws.plainenglish.io](https://aws.plainenglish.io/)
 
 ## AWS Free Resources
@@ -191,7 +191,7 @@ You can filter by topic using the toolbar above.
 - [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws/)
 - [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
 
-### Books
+## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
 
 ## Training
@@ -205,15 +205,6 @@ You can filter by topic using the toolbar above.
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
-
-## AWS Glossary
-- [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
-
-## Awesome AWS
-- [Awesome AWS](https://github.com/donnemartin/awesome-aws)
-
-## AWS Marketplace
-- [AWS Marketplace](https://aws.amazon.com/marketplace)
 
 ## AWS Pricing
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
