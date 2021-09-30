@@ -150,6 +150,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## eBooks
 - [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) Continuous Delivery with Jenkins, Kubernetes, and Terraform
 - [riptutorial.com: Learning Jenkins](https://riptutorial.com/ebook/jenkins)
+- [cloudbees.com: Jenkins Pipeline with Plugins](https://www.cloudbees.com/resource/whitepaper/jenkins-pipeline-plugins) Jenkins is one of the preeminent automation tools. Jenkins is extensible by design, via plugins. Plugins are what give Jenkins its great flexibility for automating a wide range of processes on diverse platforms. Jenkins Pipeline builds on that flexibility and rich plugin ecosystem while enabling Jenkins users to write their Jenkins software pipelines as code. This technical guide will show a number of common use cases for plugins with Jenkins Pipeline.
 
 ## Jenkins on Kubernetes
 * [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/)
