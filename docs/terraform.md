@@ -23,6 +23,7 @@
 - [Graph Visualization Software](#graph-visualization-software)
 - [Gruntwork](#gruntwork)
 - [Terraform Modules](#terraform-modules)
+	- [Segment AWS Stack Terraform Modules](#segment-aws-stack-terraform-modules)
 - [Terraform Providers](#terraform-providers)
 - [Terraform Quality Checks](#terraform-quality-checks)
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
@@ -258,6 +259,11 @@
 
 ## Terraform Modules 
 - [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
+
+### Segment AWS Stack Terraform Modules
+- [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
+- [segmentio/stack](https://github.com/segmentio/stack) A set of Terraform modules for configuring production infrastructure with AWS
+
 
 ## Terraform Providers
 - [Junos-terraform: JUNOS Terraform Automation Framework (JTAF)](https://github.com/Juniper/Junos-terraform) 

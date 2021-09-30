@@ -20,7 +20,6 @@
 	- [AWS Calculator](#aws-calculator)
 - [AWS on Twitter](#aws-on-twitter)
 - [AWS Architecture](#aws-architecture)
-- [AWS Stacks](#aws-stacks)
 - [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
 - [Closed groups for AWS certified professionals](#closed-groups-for-aws-certified-professionals)
 - [AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start](#aws-architecture-blog-official-blog-aws-labs-aws-quick-start)
@@ -242,13 +241,10 @@ You can filter by topic using the toolbar above.
 - [twitter.com/AWS_Partners](https://twitter.com/AWS_Partners)
 
 ## AWS Architecture
-- [AWS Well Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+- [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 - [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)
-
-## AWS Stacks
-- [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
 
 ## AWS Youtube channel and Podcasts
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
