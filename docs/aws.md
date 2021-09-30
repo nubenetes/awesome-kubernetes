@@ -38,8 +38,8 @@
 	- [AWS DMS](#aws-dms)
 	- [AWS RDS Proxy](#aws-rds-proxy)
 - [AWS Application Discovery Service](#aws-application-discovery-service)
-- [New AWS Competency. AWS Migration](#new-aws-competency-aws-migration)
-- [AWS Database Migration Service](#aws-database-migration-service)
+- [AWS Migrations](#aws-migrations)
+	- [AWS Database Migration Service](#aws-database-migration-service)
 - [AWS Redshift](#aws-redshift)
 - [AWS DevOps. AWS CodePipeline](#aws-devops-aws-codepipeline)
 - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
@@ -409,10 +409,11 @@ You can filter by topic using the toolbar above.
 ## AWS Application Discovery Service
 - [AWS Application Discovery Service](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
 
-## New AWS Competency. AWS Migration
+## AWS Migrations
 - [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
+- [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)
 
-## AWS Database Migration Service
+### AWS Database Migration Service
 - [AWS Database Migration Service](https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/)
 - [Whitepaper: Migrating Your Databases to AWS](https://aws.amazon.com/es/dms/learn-more/)
 
