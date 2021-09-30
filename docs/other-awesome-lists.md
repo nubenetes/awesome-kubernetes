@@ -26,6 +26,7 @@
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
 - [Base64](#base64)
+- [Tweets](#tweets)
 
 ## Inspired By
 - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)
@@ -175,3 +176,12 @@
 
 ## Base64 
 - [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Puedo escuchar todo el día a Henry Cavill diciendo wikipedia <a href="https://t.co/fgOPGwsPD5">pic.twitter.com/fgOPGwsPD5</a></p>&mdash; katniss (@katia_larissa) <a href="https://twitter.com/katia_larissa/status/1443078663017320450?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
