@@ -14,6 +14,7 @@
 - [Apigee](#apigee)
 - [Tools](#tools)
 - [Videos](#videos)
+- [Images](#images)
 
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
@@ -103,5 +104,15 @@
 
 <center>
 <iframe src="https://www.youtube.com/embed/Zztufl4mFQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</details>
+
+## Images
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
 </center>
 </details>

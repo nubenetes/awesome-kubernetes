@@ -48,6 +48,7 @@
 - [AWS EC2 Container Registry ECR (Docker)](#aws-ec2-container-registry-ecr-docker)
 - [Docker for AWS](#docker-for-aws)
 - [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
+- [AWS Cloud Control API](#aws-cloud-control-api)
 - [AWS VPC](#aws-vpc)
 	- [AWS Client VPN](#aws-client-vpn)
 	- [Tailscale](#tailscale)
@@ -78,6 +79,7 @@
 - [AWS Fargate](#aws-fargate)
 	- [Admiralty](#admiralty)
 - [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
+	- [AWS Backup Service](#aws-backup-service)
 - [AWS Config Rules](#aws-config-rules)
 - [AWS Big Data](#aws-big-data)
 	- [AWS Data Lake](#aws-data-lake)
@@ -190,6 +192,8 @@ You can filter by topic using the toolbar above.
 - [medium: 6 Lessons Learned - Migrating Application on Production](https://medium.com/swlh/6-lessons-learned-from-migrating-web-application-on-production-ce9add8e63f3)
 - [lastweekinaws.com: 17 More Ways to Run Containers on AWS](https://www.lastweekinaws.com/blog/17-more-ways-to-run-containers-on-aws/)
 - [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
+- [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure) Before deciding on how to create your production platform, learn about the benefits and drawbacks of different ways to build your AWS infrastructure.
+- [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
 
 ## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
@@ -233,6 +237,7 @@ You can filter by topic using the toolbar above.
 
 ## AWS Architecture
 - [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+	- [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
 - [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)
@@ -325,6 +330,7 @@ You can filter by topic using the toolbar above.
 - [Amazon EC2 now offers Global View on the console to view all resources across regions together](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-ec2-global-view-console-regions/)
 - [siliconangle.com: Amazon debuts fully managed, Prometheus-based container monitoring service](https://siliconangle.com/2021/09/29/amazon-debuts-fully-managed-prometheus-based-container-monitoring-service/)
 - [aws.amazon.com: Amazon Managed Service for Prometheus Is Now Generally Available with Alert Manager and Ruler](https://aws.amazon.com/blogs/aws/amazon-managed-service-for-prometheus-is-now-generally-available-with-alert-manager-and-ruler/)
+- [Now — AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -489,6 +495,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
 - [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/)
+
+## AWS Cloud Control API
+- [AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi/) **Manage AWS and third-party cloud infrastructure with consistent APIs**
+- [AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api)
 
 ## AWS VPC
 - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
@@ -690,6 +700,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach/)
 - [How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS](https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs/)
 - [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
+
+### AWS Backup Service
+- [AWS Backup Service](https://aws.amazon.com/backup)
+- [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 
 ## AWS Config Rules
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
@@ -922,5 +936,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📚 AWS 1x1<br><br>ɪᴅᴇɴᴛɪᴛʏ- &amp; ᴀᴄᴄᴇꜱꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ (ɪᴀᴍ) 🔑<br><br>The concepts are crucial &amp; being confident in them is a necessity.<br><br>From basics to advanced concepts 🧵↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1442880455179657219?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">AWS Amplify refers to different products.<br><br>You are confused what Amplify exactly is? <br><br>We know that AWS isn&#39;t the best with naming its products so let&#39;s see what Amplify products are exactly out there.<br><br>1/6 <a href="https://t.co/9dUtwpdjPU">pic.twitter.com/9dUtwpdjPU</a></p>&mdash; Sandro Volpic (@sandro_vol) <a href="https://twitter.com/sandro_vol/status/1442762063416283139?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yes, creating your first AWS account with your own credit card feels scary<br><br>• those are your first steps 🚶<br>• you haven&#39;t got much or any hands-on yet 🏗<br>• you&#39;ve read about those expenses horror stories 💥<br><br>but there are a lot of easy ways to get 𝗳𝗿𝗲𝗲 𝗰𝗿𝗲𝗱𝗶𝘁𝘀 ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1443606717200314370?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">☁️ Knowledge - Virtual Private Cloud (VPC)<a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> VPCs are region-scoped. If you want to route traffic between regional resources, you need to set up VPC peering, for example. ✅<a href="https://twitter.com/hashtag/GCP?src=hash&amp;ref_src=twsrc%5Etfw">#GCP</a> VPCs are global-scoped. Traffic between resources is automatically routed across regions. ☑️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1443855193813233664?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

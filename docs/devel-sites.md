@@ -1,4 +1,11 @@
 # Websites for web developers
+- [Introduction](#introduction)
+- [Developer Tools](#developer-tools)
+- [AI Programming](#ai-programming)
+- [No code tools](#no-code-tools)
+- [Tweets](#tweets)
+
+## Introduction
 - https://public-apis.io  A list of free Apis for developers.
 - https://drawkit.io  Hand drawn illustrations.
 - https://happyhues.com  Superb colors palettes.
@@ -6,6 +13,9 @@
 - [El camino del Frontend Developer](https://github.com/mrcodedev/frontend-developer-resources) Recursos gratuitos para empezar a ser un Frontend Developer o ampliar conocimientos
 - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - https://www.geeksforgeeks.org
+
+## Developer Tools
+- [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
 
 ## AI Programming
 - [GitHub Copilot](https://copilot.github.com/)

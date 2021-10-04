@@ -9,3 +9,4 @@
 * [dzone: Quickstart: Apache Spark on Kubernetes](https://dzone.com/articles/quickstart-apache-spark-on-kubernetes) See how to run Apache Spark Operator on Kubernetes.
 * [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes) This article covers using Spark on K8s to overcome dependency on cloud providers and running Apache Spark on Kubernetes.
 * [cloud.redhat.com: Getting Started running Spark workloads on OpenShift](https://cloud.redhat.com/blog/getting-started-running-spark-workloads-on-openshift)
+* [medium: Running Apache Spark on Kubernetes](https://medium.com/empathyco/running-apache-spark-on-kubernetes-2e64c73d0bb2) Using Spark on K8s to overcome dependency on cloud providers

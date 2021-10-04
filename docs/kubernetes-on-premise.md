@@ -1,4 +1,5 @@
 # On-Premise Production Kubernetes Cluster Installers
+- [Introduction](#introduction)
 - [Comparative Analysis of Kubernetes Deployment Tools](#comparative-analysis-of-kubernetes-deployment-tools)
 - [Deploying Kubernetes Cluster with Kops](#deploying-kubernetes-cluster-with-kops)
 - [Deploying Kubernetes Cluster with Kubeadm](#deploying-kubernetes-cluster-with-kubeadm)
@@ -25,6 +26,8 @@
     - [Mirantis k0s](#mirantis-k0s)
     - [K0s](#k0s)
 
+## Introduction
+- [containerjournal.com: Deploying Kubernetes on Bare Metal](https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/)
 ## Comparative Analysis of Kubernetes Deployment Tools
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)

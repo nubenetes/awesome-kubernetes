@@ -37,7 +37,7 @@
 
 ## State of DevOps. Google's DevOps Research and Assessment (DORA)
 - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
-- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary](https://devops.com/google-dora-report-shows-modest-devops-gains/)
+- [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [dzone: summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 
 ## Interview Questions
 - [automationreinvented.blogspot.com: Top 11 kubernetes interview questions for SDET/DevOps SET-02? Kubernetes deployment commands](https://automationreinvented.blogspot.com/2020/10/top-11-kubernetes-interview-questions.html)

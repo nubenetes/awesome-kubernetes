@@ -33,6 +33,9 @@
 - [jsontoolbox.com](https://jsontoolbox.com/)
 
 ## HTTP Protocols
+- [wizardzines.com: Request Headers](https://wizardzines.com/comics/request-headers/)
+- [wizardzines.com: Response Headers](https://wizardzines.com/comics/response-headers/)
+
 ### HTTP Status Codes
 - [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)

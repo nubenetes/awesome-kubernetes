@@ -171,6 +171,8 @@ nav:
       - Scaffolding Tools: scaffolding.md
       - Chrome & Firefox DevTools. HTTP Protocols & WebSockets: ChromeDevTools.md
       - Low Code and No Code: lowcode-nocode.md
+      - Web 3: web3.md
+      - Digital Money: digital-money.md
   - Public Cloud: 
     - Public Cloud Solutions: public-cloud-solutions.md
     - Edge Computing: edge-computing.md

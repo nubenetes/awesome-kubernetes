@@ -6,7 +6,7 @@
 - [Soft Skills](#soft-skills)
 - [Fair Job Offer](#fair-job-offer)
 - [Writing a CV](#writing-a-cv)
-- [Tweets](#tweets)
+- [Tweets 1](#tweets-1)
 ## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
@@ -45,7 +45,7 @@
 ## Writing a CV 
 - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
 
-## Tweets
+## Tweets 1
 <details>
   <summary>Click to expand!</summary>
 
@@ -89,6 +89,14 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software eng interviews today: “Invert this binary tree” (because I said so)<br><br>What software eng interviews should be:“The customer wants you to implement feature X. How would you make it work with the legacy codebase? What’s your time estimate? What security issues could arise?”</p>&mdash; Anna Spysz 💉💉 (@annaspies) <a href="https://twitter.com/annaspies/status/1441420614263214086?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;terminated within the hour&quot; -- big companies treat employees as disposable :/ <a href="https://t.co/BAgiSBmX4c">https://t.co/BAgiSBmX4c</a></p>&mdash; Liz Fong-Jones (方禮真) (@lizthegrey) <a href="https://twitter.com/lizthegrey/status/1443266495971094531?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will never understand why tech companies optimize interviews for a college grad to do better than someone with ten years of experience.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1443651873412550682?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I 10x’d my salary as a developer in 5 years. Here’s how:<br><br>Just start real fucking low 🤣</p>&mdash; Trisha Lim 🍪 (@trishathecookie) <a href="https://twitter.com/trishathecookie/status/1443477826196295680?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Ayer me pegué una juerga. Una de las de verdad, de decir &quot;te quiero tío&quot; a los colegas y volver a casa hecho unos zorros. Pero, como casi todo lo que comento, lo importante no es qué hice, sino por qué. Hoy: cómo ha cambiado el covid nuestra relación con el trabajo. Dentro hilo.</p>&mdash; Dani Sanchez-Crespo (@DaniNovarama) <a href="https://twitter.com/DaniNovarama/status/1444200847416627200?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everyone is hiring. Everyone is understaffed. Everyone is sticking to the same ineffective and inequitable interview processes. Everyone remains understaffed.</p>&mdash; Tashay (@tashay_g) <a href="https://twitter.com/tashay_g/status/1444036520646778881?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

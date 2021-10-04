@@ -1,5 +1,8 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
+- [Automation and Automation Glossary](#automation-and-automation-glossary)
+- [Self service developer platform](#self-service-developer-platform)
 - [Disaster Recovery](#disaster-recovery)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
@@ -22,6 +25,7 @@
 - [Software Development Models](#software-development-models)
 - [Software Development Tools](#software-development-tools)
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
+- [Software in Automotive Industry](#software-in-automotive-industry)
 - [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -151,6 +155,18 @@
 * [thenewstack.io: Intention-as Code: Making Self-Healing Infrastructure Work](https://thenewstack.io/intention-as-code-making-self-healing-infrastructure-work/) **Reliability is Non-Negotiable**
 * [dzone: Top 10 August '21 Microservices Articles to Read Now](https://dzone.com/articles/most-viewed-articles-microservices-zone-august) See the 10 most popular articles from the Microservices zone with topics covering API verification checklist, custom rate limiting, feign client, and more!
 * [hackernoon.com: 9 Basic (and Crucial) Tips for Microservices Developers 🌟](https://hackernoon.com/9-basic-and-crucial-tips-for-microservices-developers)
+* [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive/) Building a global SaaS platform requires lots of preparation, deep evaluation of your request routes and a truckload of R&D cooperation. Here's how we did it
+* [cloud.redhat.com: How to Modernize Virtualized Workloads 🌟](https://cloud.redhat.com/blog/how-to-modernize-virtualized-workloads) how to #Modernize workloads using OpenShift. The example is with DotNet and MSSQL server.
+
+## Twelve-Factor Apps in Kubernetes
+- [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
+
+## Automation and Automation Glossary
+- [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
+- [cncf.io: Automation is the future of cloud cost optimization 🌟](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
+
+## Self service developer platform
+- [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)
 
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
@@ -258,6 +274,9 @@
 ## vFunction. A system to transform monolithic Java applications into microservices
 - [vFunction](https://vfunction.com/) vFunction accelerates your journey to cloud native by automating Java app modernization.
 - [thenewstack.io: vFunction Transforms Monolithic Java to Microservices](https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices/)
+
+## Software in Automotive Industry
+- [spectrum.ieee.org: How Software Is Eating the Car](https://spectrum.ieee.org/software-eating-car) The trend toward self-driving and electric vehicles will add hundreds of millions of lines of code to cars. Can the auto industry cope?
 
 ## Bunch of Images
 <details>

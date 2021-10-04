@@ -56,6 +56,7 @@
 
 ### Existing Java Implementations
 - [Oracle Java](https://www.oracle.com/technetwork/java/javase/overview/index.html)
+	- [blogs.oracle.com: Introducing the Free Java License (Java 17)](https://blogs.oracle.com/cloud-infrastructure/post/introducing-free-java-license)
 - [Oracle OpenJDK](https://jdk.java.net/11/)
 - [IBM JDK](https://developer.ibm.com/javasdk/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)

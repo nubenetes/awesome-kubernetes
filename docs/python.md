@@ -1,6 +1,7 @@
 # Python
 - [Python Blogs and Forums](#python-blogs-and-forums)
 - [Python docs](#python-docs)
+- [APIs in Python](#apis-in-python)
 - [Thoth](#thoth)
 - [Python Books](#python-books)
 - [Python Django Framework](#python-django-framework)
@@ -9,7 +10,7 @@
 - [Python pip and pip's wheel](#python-pip-and-pips-wheel)
 - [Python Feature Flags](#python-feature-flags)
 - [Python testing](#python-testing)
-- [Data Science.](#data-science)
+- [Data Science](#data-science)
 	- [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
 	- [PandasDatabase](#pandasdatabase)
 	- [NumPy](#numpy)
@@ -124,7 +125,6 @@
 - [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db) OOPs is a highly efficient way of writing a program
 - [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications)
 - [pythonsimplified.com: Python List Vs Tuple 🌟](https://pythonsimplified.com/python-list-vs-tuple/)
-- [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) Explore positional-only parameters and two other underutilized but still useful Python features.
 - [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes/)
 - [towardsdatascience.com: 7 advanced pandas tricks for data science](https://towardsdatascience.com/7-advanced-tricks-in-pandas-for-data-science-41a71632b5d9) Pandas is the go-to library for data science. These are the shortcuts I use to do repetitive data science tasks faster and simpler.
 - [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) A handy concept for software development programs
@@ -151,6 +151,11 @@
 - [python.plainenglish.io: Special Methods Will Change How You Write Classes in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6) An introduction to the most useful special methods
 - [towardsdatascience.com: 12 Of My Favorite Python Practices For Better Functions](https://towardsdatascience.com/12-of-my-favorite-python-practices-for-better-functions-7a21d18cfb38)
 - [towardsdatascience.com: Stop Hardcoding Sensitive Data in Your Python Applications](https://towardsdatascience.com/stop-hardcoding-sensitive-data-in-your-python-applications-86eb2a96bec3) **Keep your settings and credentials private with .env files**
+- [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593) Understanding Mutable Objects in Python.
+
+## APIs in Python
+- [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication
+- [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) Explore positional-only parameters and two other underutilized but still useful Python features.
 
 ## Thoth
 - [Project Thoth](https://thoth-station.ninja/) Using Artificial Intelligence to analyse and recommend software stacks for Python applications.
@@ -217,7 +222,8 @@
 - [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/)
 - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker)
 
-## Data Science. 
+## Data Science
+- [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
 
 ### Python Pandas and pivot tables
 - [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables)
@@ -306,5 +312,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is a beautiful programming language. It contains really useful features that make writing code more efficient than ever. <br><br>Here are 5 tips for writing more efficient and compact code.<br><br>🧵🧵🧵</p>&mdash; Danny Steenman (@dannysteenman) <a href="https://twitter.com/dannysteenman/status/1314930561220313088?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TOP Python Github repositories for you. <br><br>A Thread... 🧵<a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/CodeNewbies?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbies</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1318179578720919552?ref_src=twsrc%5Etfw">October 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python Quick Revision Guide(Part-1) 🐍<br><br>MEGA Thread 🧵👇</p>&mdash; Saurav Jain (@Sauain) <a href="https://twitter.com/Sauain/status/1443496764682604546?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -28,7 +28,10 @@
 - [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
 - [Oracle Database with Ansible](#oracle-database-with-ansible)
 - [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
+- [Anacron and Ansible](#anacron-and-ansible)
 - [Writing an Ansible module](#writing-an-ansible-module)
+- [Using Ansible with REST APIs](#using-ansible-with-rest-apis)
+	- [Writing an Ansible module for a REST API](#writing-an-ansible-module-for-a-rest-api)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -101,6 +104,7 @@
 * [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/sysadmin/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
 * [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
 * [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)
+* [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
@@ -138,6 +142,8 @@
 - [redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2](https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2)
 - [redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners](https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners)
 - [crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access](https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access) ‘Automation is foundational. Not an option. Not tactical,’ Massimo Ferrari, Red Hat’s management strategy director, tells CRN in an interview. “You need automation, otherwise you won‘t be able to do many other things, whether that be DevOps, whether that be digital transformation.”
+- [devops.com: Red Hat Extends Scope of Ansible Automation Ambitions](https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions/) Red Hat announced the availability of a preview edition of Red Hat Ansible Automation Platform 2 that is intended to make it easier to automate IT processes at scale.
+- [redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators](https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators) Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development
 
 ### Automation services catalog
 - [ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform](https://www.ansible.com/products/automation-services-catalog) Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business
@@ -259,9 +265,17 @@
 - [Ansistrano](https://github.com/ansistrano) 
 - [Capistrano](https://capistranorb.com/) A remote server automation and deployment tool written in Ruby.
 
+## Anacron and Ansible
+- [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation) With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.
+- [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation) Instead of manually performing repetitive tasks, let Linux do them for you.
+
 ## Writing an Ansible module
 - [docs.ansible.com: Developing Ansible modules](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
-- [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that. 
-- [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
 - [techforce1.nl: Creating your first Ansible module](https://techforce1.nl/creating-your-first-ansible-module)
 
+## Using Ansible with REST APIs
+- [opensource.com: Using Ansible with REST APIs](https://opensource.com/article/21/9/ansible-rest-apis) You may have queried APIs with a web browser or curl, but one of the overlooked capabilities of Ansible is how well it can leverage APIs as part of any playbook.
+
+### Writing an Ansible module for a REST API
+- [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that. 
+- [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)

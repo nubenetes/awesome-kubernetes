@@ -20,6 +20,7 @@
     - [DSL 3. Jenkins Configuration as Code (JCasC)](#dsl-3-jenkins-configuration-as-code-jcasc)
         - [Read-only Jenkins Configuration](#read-only-jenkins-configuration)
     - [Jenkins Job Builder](#jenkins-job-builder)
+- [Jenkins Template Engine JTE](#jenkins-template-engine-jte)
 - [Jenkins Pipeline Unit Testing Framework](#jenkins-pipeline-unit-testing-framework)
 - [Jenkins Architecture. Performance and Scalability](#jenkins-architecture-performance-and-scalability)
 - [Ansible and Jenkins. Running Ansible Playbooks From Jenkins](#ansible-and-jenkins-running-ansible-playbooks-from-jenkins)
@@ -321,6 +322,13 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [docs.openstack.org: Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/index.html) 
 * [faun.pub: Automate Jenkins Pipelines management with Jenkins Job Builder 🌟](https://faun.pub/automate-jenkins-pipelines-management-6e771b5890f) - [demo code](https://github.com/mysticrenji/jenkins-cicd-pipelines)
 
+## Jenkins Template Engine JTE
+- [plugins.jenkins.io/templating-engine: Jenkins Template Engine JTE 🌟](https://plugins.jenkins.io/templating-engine/)
+- [cloudbees.com: Managing DevSecOps Pipelines at Scale with Jenkins Templating Engine](https://www.cloudbees.com/videos/jenkins-template-pipeline-devsecops) 
+    - Are you currently helping build or maintain a Jenkins pipeline for more than one application or team? Are you tired of copying and pasting Jenkinsfiles and tweaking them to fit each team's specific needs? This session will feature a live demonstration of getting up and running with the Jenkins Templating Engine (JTE). Attendees will learn how to stop creating bespoke pipelines on a per-application basis and, instead, create tool-agnostic pipeline templates that multiple teams can inherit - regardless of tech stack.
+    - For DevSecOps engineers, this means less copying and pasting and more time spent focusing on the fun parts of the job. For managers or executives worried about compliance and standardization, this approach will ensure security is embedded in every step of the software development lifecycle for every application development team they oversee.
+    - Through JTE, businesses can find order in the chaos of managing DevSecOps pipelines at scale. Enable organizational governance, optimize pipeline code reuse and simplify pipeline management for the whole team.
+
 ## Jenkins Pipeline Unit Testing Framework
 - [github.com/jenkinsci/JenkinsPipelineUnit: Framework for unit testing Jenkins pipelines 🌟](https://github.com/jenkinsci/JenkinsPipelineUnit) Jenkins Pipeline Unit is a testing framework for unit testing Jenkins pipelines, written in [Groovy Pipeline DSL](https://www.jenkins.io/doc/book/pipeline/). If you aren't using jenkinsUnit to test your jenkins pipeline code, then I've got a treat for you. TDD with pipeline is possible and can centralized in a sharedLib can really improve development. (works nicely with Spock too)
 
@@ -477,6 +485,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Aqua Security Scanner](https://plugins.jenkins.io/aqua-security-scanner) Adds a Build Step for scanning Docker images, local or hosted on registries, for security vulnerabilities, using the API provided by Aqua Security
 * [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest)
 * [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/)
+* [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer/)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)

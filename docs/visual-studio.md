@@ -47,6 +47,7 @@
 * [dev.to: Using VS Code to git rebase](https://dev.to/colbygarland/using-vs-code-to-git-rebase-1lc)
 * [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/)
 * [softzone.es: Mejora y añade más funciones a Visual Studio Code con plugins](https://www.softzone.es/programas/lenguajes/mejores-plugins-anadir-visual-code/)
+* [dzone: VS Code Extensions for Frontend Developers](https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -200,6 +201,7 @@ A simple extension to make indentation more readable
 ### Online VSCode
 - [gitpod.io 🌟🌟](https://www.gitpod.io/) - [github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) Gitpod automates the provisioning of ready-to-code development environments. Gitpod is an open-source Kubernetes application for automated and ready-to-code development environments that blends in your existing workflow. It enables you to describe your dev environment as code and start instant and fresh development environments for each new task directly from your browser. Tightly integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result, team members can instantly start coding with fresh, ephemeral and fully-compiled dev environments - no matter if you are building a new feature, want to fix a bug or do a code review.
 	- [gitpod.io: VS Code in the browser for everyone](https://www.gitpod.io/blog/openvscode-server-launch)
+	- [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser/)
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 
 ## Videos
@@ -224,5 +226,7 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know, you can have project specific user settings in VS Code? <br><br>I certainly didn’t, but I needed to make some tweaks for a better live coding experience for workshop attendees.<br><br>Create a .vscode folder in your project then add settings.json in there. <br><br>Handy! <a href="https://t.co/X3PbgwSVWp">pic.twitter.com/X3PbgwSVWp</a></p>&mdash; Andy Bell (@piccalilli_) <a href="https://twitter.com/piccalilli_/status/1337063582790537224?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> extension: Github Repositories<br><br>Browse and edit code from <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@Github</a> without cloning. You can even review PRs!<br><br>It&#39;s kind of like <a href="https://t.co/dqc8Luetlw">https://t.co/dqc8Luetlw</a>, but for desktop VS Code<a href="https://twitter.com/hashtag/code2020?src=hash&amp;ref_src=twsrc%5Etfw">#code2020</a> <a href="https://t.co/ttVstg2HPO">pic.twitter.com/ttVstg2HPO</a></p>&mdash; Matt Bierner (@mattbierner) <a href="https://twitter.com/mattbierner/status/1438573398574215172?ref_src=twsrc%5Etfw">September 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I was forced to use closed source IDE for a paid job, I would go for JetBrains. They are far better than VSCode or anything else ever created. Of course, VIM is my first choice, but sometimes they or other team members are comfier with a professional tool.</p>&mdash; The Best Linux Blog In the Unixverse (@nixcraft) <a href="https://twitter.com/nixcraft/status/1443645958797987855?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -1,5 +1,6 @@
 # Relational Databases on Kubernetes. Database DevOps
 - [Introduction](#introduction)
+- [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
 - [SQL](#sql)
 - [Performance](#performance)
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
@@ -74,6 +75,9 @@
 * [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth/)
 * [cloud.redhat.com: OpenShift Commons Briefing: Database Disaster Recovery Made Easy with Annette Clewett (Red Hat) and Andrew L'Ecuyer (Crunchy Data)](https://cloud.redhat.com/blog/openshift-commons-briefing-database-disaster-recovery-made-easy-with-annette-clewett-red-hat-and-andrew-lecuyer-crunchy-data)
 * [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic)
+
+## How to choose the right database for your service 
+* [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)

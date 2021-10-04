@@ -43,8 +43,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
 - [Kubernetes magic is in enterprise standardization, not app portability 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 - [A new role to emerge: Kubernetes Manager 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
-- [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary](https://devops.com/google-dora-report-shows-modest-devops-gains/)
+- [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
+- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
+- [The rise of the automation architect](https://www.redhat.com/sysadmin/automation-architects)
+- [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
@@ -110,7 +113,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ### OpenShift Pipelines
 - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
 ### Jenkins Alternatives
-- [Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
+- [Jenkins Alternatives for Continuous Integration 🌟](jenkins-alternatives.md)
 ### Toolchain
 - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
@@ -181,6 +184,13 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 ### Low Code and No Code
 - [Low Code and No Code](lowcode-nocode.md)
+
+### Web 3 
+- [Web3](web3.md)
+
+### Digital Money
+- [Digital Money](digital-money.md)
+
 ## Public Cloud
 - [Public Cloud Solutions](public-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)

@@ -71,6 +71,8 @@
 * [Building CI/CD pipelines using dynamic config](https://circleci.com/blog/building-cicd-pipelines-using-dynamic-config/)
 * [Managing reusable pipeline configuration with object parameters](https://circleci.com/blog/parameters-in-pipeline-config/)
 * [dev.to: CI/CD: Automating our build and deploy process](https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91)
+* [towardsdatascience.com: How to Build an Automated Development Pipeline](https://towardsdatascience.com/how-to-build-an-automated-development-pipeline-d0b9820a2f3d) A playbook for developing software with minimum frustration
+* [circleci.com: Performing database tests on SQL databases](https://circleci.com/blog/relational-db-testing)
 ### Travis CI
 * [Travis CI](https://travis-ci.org/)
 * [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
