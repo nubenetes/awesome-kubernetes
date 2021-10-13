@@ -3,6 +3,7 @@
 - [Books](#books)
 - [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
 	- [Replex](#replex)
+- [Cost Optimization Tools](#cost-optimization-tools)
 
 ## Introduction
 - [FinOps Foundation: FinOps.org](https://www.finops.org/) Collaborative, Real-Time Cloud Financial Management
@@ -26,4 +27,7 @@
 ### Replex
 - [replex.io](https://www.replex.io/)
 - [replex.io: An Introduction to Kubernetes FinOps](https://www.replex.io/blog/an-introduction-to-kubernetes-finops) FinOps is a cross domain discipline that represents a set of tools, best practices and processes aimed towards making software and infrastructure more cost effective. In this article we provide an introduction to Kubernetes Finops.
+
+## Cost Optimization Tools
+- [CAST AI](https://cast.ai/) cuts your cloud bill automatically so engineers can focus on building a better product
     

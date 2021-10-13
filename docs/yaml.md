@@ -2,6 +2,7 @@
 - [Templating YAML Files](#templating-yaml-files)
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
+    - [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
     - [Kubernetes examples](#kubernetes-examples)
     - [Helm and Kustomize](#helm-and-kustomize)
 - [Templating JSON Files](#templating-json-files)
@@ -24,6 +25,7 @@
 - [abhisheksaini.hashnode.dev: YAML For Data Representation?](https://abhisheksaini.hashnode.dev/yaml-for-representation) YAML is a better option than JSON when comes to representation of Data
 - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files/)
 - [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet) YAML looks simple so why is it so hard to write? Learn the two secrets to YAML success.
+- [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
@@ -43,6 +45,11 @@
 - [yaml.sh](https://www.yaml.sh/) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec) 
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
+
+### Other YAML Tools. How to create Kubernetes YAML files
+- [avencera/yamine](https://github.com/avencera/yamine) A simple CLI for combining json and yaml files
+- [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
+- [itnext.io: How to create Kubernetes YAML files](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45)
 
 ### Kubernetes examples
 - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.

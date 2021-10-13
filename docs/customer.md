@@ -3,6 +3,7 @@
   - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
   - [BMW InnovationLab](#bmw-innovationlab)
   - [GAIA-X](#gaia-x)
+- [Audi Kubika-O](#audi-kubika-o)
 - [Carrefour Spain](#carrefour-spain)
 - [Decathlon](#decathlon)
 - [Add your Cloud Native Project here](#add-your-cloud-native-project-here)
@@ -40,6 +41,9 @@
 
 ### GAIA-X 
 - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bmwi.de/Redaktion/EN/Dossier/gaia-x.html)
+
+## Audi Kubika-O
+- [redhat.com: Audi builds developer environment with Red Hat OpenShift](https://www.redhat.com/en/resources/audi-case-study) Audi decided to use Red Hat OpenShift, an enterprise Kubernetes platform, as the foundation of **Kubika-O**, its new self-service developer environment, to speed and scale delivery of innovative projects. 
 
 ## Carrefour Spain
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"

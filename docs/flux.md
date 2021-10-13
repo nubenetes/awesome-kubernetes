@@ -23,3 +23,4 @@
 	- Repository
 	- Deployment with a script
 	- Flux
+- [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/) Server-side reconciliation will make Flux more performant, improve overall observability and going forward will allow us to add new capabilities, like being able to preview local changes to manifests without pushing to upstream.

@@ -2,6 +2,7 @@
 - [Java](#java)
 	- [How to migrate Java workloads to containers](#how-to-migrate-java-workloads-to-containers)
 	- [Existing Java Implementations](#existing-java-implementations)
+		- [Which Version of JDK Should I Use?](#which-version-of-jdk-should-i-use)
 		- [Amazon Corretto OpenJDK distribution](#amazon-corretto-openjdk-distribution)
 	- [Use Java 11](#use-java-11)
 	- [Java Collections Interview Questions](#java-collections-interview-questions)
@@ -62,10 +63,12 @@
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptopenjdk.net/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 
+#### Which Version of JDK Should I Use?
+- http://whichjdk.com 🌟
+
 #### Amazon Corretto OpenJDK distribution
 - [Amazon Corretto](https://aws.amazon.com/corretto/) No-cost, multiplatform, production-ready distribution of OpenJDK. Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Linux, Windows, and macOS.
 - Amazon has been putting a lot of effort into Java.  One of the central themes has been the reduction of latency. - [youtube: Amazon Corretto, A Journey into Latency Reduction](https://www.youtube.com/watch?v=S4IrAZ5wT3c&ab_channel=SeaJUG) Corretto is a multi-platform, production-ready distribution of OpenJDK, supported by Amazon. We will talk about the Corretto project, it’s principals, and walk through examples that drove performance gains, latency reduction, and cost reduction in some of the biggest services in AWS.
-
 
 ### Use Java 11
 - [It’s time! Migrating to Java 11 🌟](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)
@@ -225,6 +228,8 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices)
 - Quarkus Tip: if you DON'T set a database URL, user, and password, QuarkusIO automatically starts your database using testcontainers if a Docker daemon is running. It is enabled in dev, test mode and applies to e.g. postgresql, mysql and mongodb.
 - [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started)
+- [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions)
+- [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/)
 
 ## Kogito cloud-native business automation framework 
 - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)

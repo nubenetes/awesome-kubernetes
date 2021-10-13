@@ -89,7 +89,7 @@ nav:
     - Kubernetes Backup and Migrations: kubernetes-backup-migrations.md
     - Kubernetes autoscaling: kubernetes-autoscaling.md
     - Kubernetes Operators and Controllers: kubernetes-operators-controllers.md
-    - Kubernetes non-production local environments, Dashboards and Devel Tools: kubernetes-local.md
+    - Kubernetes Based Development: kubernetes-based-devel.md
     - Kubernetes on premise: kubernetes-on-premise.md
     - Managed kubernetes in public clouds: managed-kubernetes-in-public-cloud.md
     - Kubernetes Releases: kubernetes-releases.md

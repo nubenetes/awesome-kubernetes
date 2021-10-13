@@ -1,11 +1,11 @@
 # Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
 - [Introduction](#introduction)
 - [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
-- [Automation and Automation Glossary](#automation-and-automation-glossary)
 - [Self service developer platform](#self-service-developer-platform)
 - [Disaster Recovery](#disaster-recovery)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
+  - [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
 - [Cloud Migration Checklist](#cloud-migration-checklist)
@@ -157,13 +157,11 @@
 * [hackernoon.com: 9 Basic (and Crucial) Tips for Microservices Developers 🌟](https://hackernoon.com/9-basic-and-crucial-tips-for-microservices-developers)
 * [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive/) Building a global SaaS platform requires lots of preparation, deep evaluation of your request routes and a truckload of R&D cooperation. Here's how we did it
 * [cloud.redhat.com: How to Modernize Virtualized Workloads 🌟](https://cloud.redhat.com/blog/how-to-modernize-virtualized-workloads) how to #Modernize workloads using OpenShift. The example is with DotNet and MSSQL server.
+* [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e)
+* [dzone: Transitioning from Monolith to Microservices (with python django example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)
 
 ## Twelve-Factor Apps in Kubernetes
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
-
-## Automation and Automation Glossary
-- [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
-- [cncf.io: Automation is the future of cloud cost optimization 🌟](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 
 ## Self service developer platform
 - [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)
@@ -175,9 +173,13 @@
 - [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
 - [architectelevator.com: Multi Cloud Architecture: Decisions and Options](https://architectelevator.com/cloud/hybrid-multi-cloud/) Multi cloud means different things to different people. A decision model helps bust the buzzwords and show the options clearly.
 - [softwebsolutions.com: Why enterprises need to adopt a multi-cloud strategy](https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy.html)
+- [medium: Multi Cloud Enterprise Deployment Pattern](https://medium.com/solutions-architecture-patterns/multi-cloud-enterprise-deployment-pattern-19571604e64b)
 ## Cloud Automation
 * [zdnet.com: The year ahead in DevOps and agile: bring on the automation, bring on the business involvement](https://www.zdnet.com/article/the-year-ahead-in-devops-and-agile-more-automation-more-business-involvement-needed/) DevOps has an automation problem, while agile has an identification problem. Both face organizational problems. Both are needed in the digital transformation shaping the months ahead.
 * [thenewstack.io: What Is Cloud Automation and How Does It Benefit IT Teams? 🌟](https://thenewstack.io/what-is-cloud-automation-and-how-does-it-benefit-it-teams)
+- [cncf.io: Automation is the future of cloud cost optimization 🌟](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
+### Automation Glossary
+- [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 
 ## Microservices Best Practices
 - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.

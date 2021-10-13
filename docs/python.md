@@ -152,6 +152,10 @@
 - [towardsdatascience.com: 12 Of My Favorite Python Practices For Better Functions](https://towardsdatascience.com/12-of-my-favorite-python-practices-for-better-functions-7a21d18cfb38)
 - [towardsdatascience.com: Stop Hardcoding Sensitive Data in Your Python Applications](https://towardsdatascience.com/stop-hardcoding-sensitive-data-in-your-python-applications-86eb2a96bec3) **Keep your settings and credentials private with .env files**
 - [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593) Understanding Mutable Objects in Python.
+- [pythonsimplified.com: Understanding Python map function](https://pythonsimplified.com/understanding-python-map-function/)
+- [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html)
+- [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) Python overtakes Java and C for the first time in 20 years of a key language popularity index.
+- [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)
 
 ## APIs in Python
 - [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication

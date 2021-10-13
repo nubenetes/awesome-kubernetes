@@ -1,5 +1,6 @@
 # Helm Kubernetes Tool
 - [Helm](#helm)
+- [Helm Plugins](#helm-plugins)
 - [Helm Chart Documentation](#helm-chart-documentation)
 - [Kubecrt](#kubecrt)
 - [Datree](#datree)
@@ -54,7 +55,6 @@
 * [cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly](https://www.cncf.io/blog/2021/03/24/add-java-agents-to-existing-kubernetes-and-helm-applications-instantly)
 * [medium: Create Helm Charts to manage Kubernetes applications](https://medium.com/marionete/create-helm-charts-to-manage-kubernetes-applications-9c4235acf99e) Understand what is Helm, Helm Charts and how to configure GitHub pages to store and share your Charts.
 * [blog.heyal.co.uk: How to unit-test your helm charts with Golang 🌟](https://blog.heyal.co.uk/unit-testing-helm-charts/) Learn how to write Golang unit tests for your Helm charts to keep quality high and make changes with confidence.
-* [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
 * [bridgecrew.io: Part 1: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research/)
     * [bridgecrew.io: Part 2: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-2/)
     * [bridgecrew.io: Part 3: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-3/)
@@ -74,6 +74,10 @@
 * [cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators](https://cloud.redhat.com/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators)
 * [codersociety.com: 13 Best Practices for using Helm](https://codersociety.com/blog/articles/helm-best-practices) Helm is an indispensable tool for deploying applications to Kubernetes clusters. But it is only by following best practices that you’ll truly reap the benefits of Helm. Here are 13 best practices to help you create, operate, and upgrade applications using Helm.
 * [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts/)
+
+## Helm Plugins
+* [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
+* [Helm mapkubeapis Plugin](https://github.com/helm/helm-mapkubeapis) This is a Helm plugin which map deprecated or removed Kubernetes APIs in a release to supported APIs. **With kubernetes 1.22 dropping support for more beta APIs, you might be in need of a helmpack plugin to help you with that..** 
 
 ## Helm Chart Documentation
 * [chart-doc-gen: Helm Chart Documentation Generator](https://github.com/kubepack/chart-doc-gen)

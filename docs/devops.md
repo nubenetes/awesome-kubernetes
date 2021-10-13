@@ -172,6 +172,8 @@
 * [dev.to: DevOps Is Not Automation](https://dev.to/run-x/devops-is-not-automation-2amo)
 * [intellipaat.com: What Does a DevOps Engineer Do? 🌟](https://intellipaat.com/blog/what-does-a-devops-engineer-do/) DevOps assimilates development and operations teams to improve the collaboration process. **A DevOps Engineer will work with IT developers to facilitate better coordination among operations, development, and testing functions by automating and streamlining the integration and deployment processes.**
 * [siliconangle.com: ‘DevOps for Dummies’ author Emily Freeman introduces revolutionary model for modern software development](https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3/)
+* [thenewstack.io: Microservices Transformed DevOps — Why Security Is Next](https://thenewstack.io/microservices-transformed-devops-why-security-is-next/)
+* [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)

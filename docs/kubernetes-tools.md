@@ -19,6 +19,9 @@
 - [Kustomizer](#kustomizer)
 - [MetalLB](#metallb)
 - [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
+- [Usernetes](#usernetes)
+- [k8syaml.com](#k8syamlcom)
+- [Komodor Workflows](#komodor-workflows)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -37,7 +40,7 @@
 * [kubech (kubectl change)](https://github.com/aabouzaid/kubech) Set kubectl contexts/namespaces per shell/terminal to manage multi Kubernetes cluster at the same time.
 * [Kubecle](https://github.com/rydogs/kubecle) is a web ui running locally that provides useful information about your kubernetes clusters. It is an alternative to Kubernetes Dashboard. Because it runs locally, you can access any kubernetes clusters you have access to
 * [Permission Manager](https://github.com/sighupio/permission-manager) is a project that brings sanity to Kubernetes RBAC and Users management, Web UI FTW
-* [developer.sh: Kubernetes client tools overview](https://developer.sh/posts/kubernetes-client-tools-overview)
+* [cloudnatively.com: Kubernetes client tools overview](https://www.cloudnatively.com/kubernetes-client-tools-overview/)
 * [kubectx 🌟🌟](https://github.com/ahmetb/kubectx) Faster way to switch between clusters and namespaces in kubectl 
 * [go-kubectx](https://github.com/aca/go-kubectx) 5x-10x faster alternative to kubectx. Uses client-go.
 * [kubevious: application centric Kubernetes UI 🌟](https://kubevious.io/) is open-source software that provides a usable and highly graphical interface for Kubernetes. Kubevious renders all configurations relevant to the application in one place.
@@ -363,6 +366,8 @@
 * [ori-edge/k8s_gateway](https://github.com/ori-edge/k8s_gateway) A CoreDNS plugin to resolve all types of external Kubernetes resources
 * [viaduct-ai/kustomize-sops](https://github.com/viaduct-ai/kustomize-sops) KSOPS - A Flexible Kustomize Plugin for SOPS Encrypted Resources
 * [vadosware.io: Using Makefiles And Envsubst As An Alternative To Helm And Ksonnet (deprecated)](https://vadosware.io/post/using-makefiles-and-envsubst-as-an-alternative-to-helm-and-ksonnet/)
+* [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html)
+* [zakkg3/ClusterSecret: Kubernetes ClusterSecret operator](https://github.com/zakkg3/ClusterSecret) ClusterSecret operator makes sure all the matching namespaces have the secret available. New namespaces, if they match the pattern, will also have the secret. Any change on the ClusterSecret will update all related secrets. Deleting the ClusterSecret deletes "child" secrets (all cloned secrets) too. 
 
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
@@ -433,6 +438,19 @@
 - [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
 - [thenewstack.io: Kubermatic Kubernetes Platform Beats Complexity Through Automation](https://thenewstack.io/kubermatic-kubernetes-platform-beats-complexity-through-automation/)
 
+## Usernetes
+- [rootless-containers/usernetes](https://github.com/rootless-containers/usernetes) Kubernetes installable under $HOME, without the root privileges
+
+## k8syaml.com
+- [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
+
+## Komodor Workflows
+- [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+
+<center>
+[![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+</center>
+
 ## Tweets
 <details>
   <summary>Click to expand!</summary>
@@ -454,3 +472,5 @@
 
   gtag('config', 'UA-168051035-1');
 </script>
+
+

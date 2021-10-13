@@ -36,11 +36,12 @@
 - [tomhuang12: Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
 - [@sindresorhus' Awesome Kubernetes](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools  - [kubetools 🌟](https://collabnix.github.io/kubetools/)
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools  	   - [kubetools 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [ksoclabs/awesome-kubernetes-security 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
+- [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
@@ -54,6 +55,7 @@
 - [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
 - [How they SRE](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) Materials to help you rock your next coding interview
+- [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
@@ -75,6 +77,7 @@
 
 ### DevOps
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
+- [bregman-arie/devops-resources 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 
 ### GitOps
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
@@ -138,6 +141,9 @@
 - [Awesome Go](https://github.com/avelino/awesome-go)
 	- [awesome-go.com](https://awesome-go.com/)
 	- [golangrepo.com 🌟](https://golangrepo.com/) Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.
+- Awesome .NET Core:
+	- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)
+	- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet)
 - [github.com/charlax/professional-programming: A collection of full-stack resources for programmers 🌟](https://github.com/charlax/professional-programming) Free resources⚡
 	- Books
 	- Articles

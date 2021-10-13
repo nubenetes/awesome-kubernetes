@@ -19,6 +19,7 @@
 - [mockuper.net](https://mockuper.net/) Mockups generator
 - [cssnectar.com](https://cssnectar.com/) Website design showcase
 - [bgjar.com](https://bgjar.com/) SVG background image generator
+- [npkill.js.org](https://npkill.js.org/) Easily find and remove old and heavy node_modules folders
 
 ## Learning javascript by @Madisonkanna
 1. Variables + Scoping: [Declaring JavaScript Variables: var, let and const](https://scotch.io/courses/10-need-to-know-javascript-concepts/declaring-javascript-variables-var-let-and-const)

@@ -35,6 +35,7 @@
 	- [Alternatives with Kubernetes External Secrets](#alternatives-with-kubernetes-external-secrets)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
 - [Docker Images & Container Security](#docker-images--container-security)
+	- [Container security best practices](#container-security-best-practices)
 - [Pod Security Policies](#pod-security-policies)
 - [Kubernetes Network Policies](#kubernetes-network-policies)
 - [Static Analysis SAST](#static-analysis-sast)
@@ -117,6 +118,8 @@
 - [dzone: Top 10 Application Security Articles to Read Now](https://dzone.com/articles/top-10-application-security-articles) See the 10 most popular articles on Application Security with topics covering bot attacks, resolving thefts, testing tools, security best practices, and more!
 - [redhat.com: 5 ways for teams to create an automation-first mentality](https://www.redhat.com/sysadmin/automation-first-mentality) DevSecOps can provide a competitive edge for your organization. Use these five strategies to get started.
 - [devops.com: Transform Mobile DevOps into Mobile DevSecOps](https://devops.com/transform-mobile-devops-into-mobile-devsecops/)
+- [softwebsolutions.com: What is DevSecOps and why your business needs it](https://www.softwebsolutions.com/resources/devops-security-tools-benefits.html)
+- [containerjournal.com: Siloscape: The Dark Side of Kubernetes](https://containerjournal.com/features/siloscape-the-dark-side-of-kubernetes/) **Siloscape is the first known malware to operate exclusively from within a container and target backdoors inside poorly configured Kubernetes clusters. Prizmant details how the malware collects data at the cluster level, making any hosted databases, user credentials and any business-critical data inside an easy and obvious target for the autonomous attacker.**
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
@@ -183,6 +186,7 @@
 - [redeszone.net: OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades](https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/)
 - [sonarqube.org: OWASP Top 10 - We’ve got you covered!](https://www.sonarqube.org/features/security/owasp/) See issues in the 10 most critical security risk categories in your web applications.
 - [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
+- [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp/)
 
 ## StackRox
 - [stackrox.com](https://www.stackrox.com/)
@@ -194,6 +198,7 @@
 - [iximiuz.com: The need for slimmer containers. Scanning official Python images with Snyk](https://iximiuz.com/en/posts/thick-container-vulnerabilities/)
 - [gkovan.medium.com: A Zero Trust Approach for Securing the Supply Chain of Microservices Packaged as Container Images (sigstore, kyverno, openshift tekton, quarkus) 🌟](https://gkovan.medium.com/a-zero-trust-approach-for-securing-the-supply-chain-of-microservices-packaged-as-container-images-89d2f5b7293b)
 - [thenewstack.io: Find Vulnerabilities in Container Images with Docker Scan](https://thenewstack.io/find-vulnerabilities-in-container-images-with-docker-scan/)
+
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
 - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
@@ -341,6 +346,9 @@
 	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
 - [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) validate the structure of your container images
 - [dynatrace.com: Container security: What it is, why it’s tricky, and how to do it right](https://www.dynatrace.com/news/blog/what-is-container-security/)
+
+### Container security best practices
+- [sysdig.com: Container security best practices: Ultimate guide 🌟](https://sysdig.com/blog/container-security-best-practices)
 
 ## Pod Security Policies
 - [octetz.com: Setting Up Pod Security Policies](https://octetz.com/docs/2018/2018-12-07-psp/) By default, Kubernetes allows anything capable of creating a Pod to run a fairly privileged container that can compromise a system. Pod Security Policies protect clusters from privileged pods by ensuring the requester is authorised.

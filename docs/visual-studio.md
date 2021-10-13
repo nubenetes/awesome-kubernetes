@@ -48,6 +48,8 @@
 * [freecodecamp.org: 10 VS Code Extensions to Increase Your Productivity](https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/)
 * [softzone.es: Mejora y añade más funciones a Visual Studio Code con plugins](https://www.softzone.es/programas/lenguajes/mejores-plugins-anadir-visual-code/)
 * [dzone: VS Code Extensions for Frontend Developers](https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers)
+* In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting: 
+	* `"editor.guides.bracketPairs": true`
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -117,6 +119,7 @@ A simple extension to make indentation more readable
 * [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
 * [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)
 * [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon. 
+* [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -228,5 +231,7 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> extension: Github Repositories<br><br>Browse and edit code from <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@Github</a> without cloning. You can even review PRs!<br><br>It&#39;s kind of like <a href="https://t.co/dqc8Luetlw">https://t.co/dqc8Luetlw</a>, but for desktop VS Code<a href="https://twitter.com/hashtag/code2020?src=hash&amp;ref_src=twsrc%5Etfw">#code2020</a> <a href="https://t.co/ttVstg2HPO">pic.twitter.com/ttVstg2HPO</a></p>&mdash; Matt Bierner (@mattbierner) <a href="https://twitter.com/mattbierner/status/1438573398574215172?ref_src=twsrc%5Etfw">September 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I was forced to use closed source IDE for a paid job, I would go for JetBrains. They are far better than VSCode or anything else ever created. Of course, VIM is my first choice, but sometimes they or other team members are comfier with a professional tool.</p>&mdash; The Best Linux Blog In the Unixverse (@nixcraft) <a href="https://twitter.com/nixcraft/status/1443645958797987855?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m currently using the following <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> extensions (fundamentally, Python development):<br><br>1. Python<br>2. GitHub Copilot<br>3. Docker<br>4. Jupyter<br>5. Prettier<br>6. YAML<br>7. OpenAPI Swagger<br>8. Bookmarks<br>9. AWS Toolkit<br>10. Cloud Code<br><br>Is there something else that you&#39;d recommend?</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1448000684176125959?ref_src=twsrc%5Etfw">October 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

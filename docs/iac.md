@@ -9,3 +9,4 @@
 - [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.agileconnection.com/article/infrastructure-code-foundation-effective-devops)
 - [cloudify.co: Infrastructure As Code – Is It REALLY Enough For DevOps? IAC DevOps Best Practices 🌟](https://cloudify.co/blog/infrastructure-as-code-is-it-really-enough-for-devops/)
 - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code/)
+- [dzone: Why Should You Leverage Infrastructure as Code?](https://dzone.com/articles/reasons-to-leverage-infrastructure-as-code) Learn the essentials of Infrastructure as Code (IaC) and how engineers can utilize its many benefits.

@@ -1,4 +1,5 @@
 # Hashicorp Packer & Terraform 
+- [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 - [Packer](#packer)
 - [Terraform](#terraform)
 - [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
@@ -10,6 +11,7 @@
 	- [Best Practices](#best-practices)
 	- [Terraform and CI/CD](#terraform-and-cicd)
 	- [Terraform and Kubernetes](#terraform-and-kubernetes)
+	- [Hashicorp Terraform Kubernetes Collection](#hashicorp-terraform-kubernetes-collection)
 		- [Learnk8s Terraform and Managed Kubernetes](#learnk8s-terraform-and-managed-kubernetes)
 		- [OpenShift and Terraform](#openshift-and-terraform)
 		- [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
@@ -22,7 +24,6 @@
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
 - [Graph Visualization Software](#graph-visualization-software)
-- [Gruntwork](#gruntwork)
 - [Terraform Modules](#terraform-modules)
 	- [Segment AWS Stack Terraform Modules](#segment-aws-stack-terraform-modules)
 - [Terraform Providers](#terraform-providers)
@@ -30,8 +31,13 @@
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 - [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
 - [Terraform Tools](#terraform-tools)
+- [Terraform Frameworks](#terraform-frameworks)
+	- [Gruntwork Terragrunt](#gruntwork-terragrunt)
+	- [Terraspace](#terraspace)
 - [Tweets](#tweets)
 
+## HashiCorp Learning Resources Reference Guide
+- [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
 ## Packer
 * [packer.io](https://packer.io/)
 * [packer.io docs](https://www.packer.io/docs/index.html)
@@ -195,6 +201,12 @@
 * [thenewstack.io: A Better Way to Provision Kubernetes Using Terraform](https://thenewstack.io/a-better-way-to-provision-kubernetes-using-terraform/)
 * [medium: Deploy Infrastructure with the Terraform Cloud Operator for Kubernetes 🌟](https://medium.com/avmconsulting-blog/deploy-infrastructure-with-the-terraform-cloud-operator-for-kubernetes-a179ea4dbbfe)
 
+### Hashicorp Terraform Kubernetes Collection
+- https://github.com/hashicorp/learn-terraform-provision-aks-cluster
+- https://github.com/hashicorp/learn-terraform-provision-eks-cluster
+- https://github.com/hashicorp/learn-terraform-provision-gke-cluster
+- https://github.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider
+
 #### Learnk8s Terraform and Managed Kubernetes
 * [learnk8s.io/terraform-gke: Provisioning Kubernetes clusters on AWS with Terraform and GKE 🌟](https://learnk8s.io/terraform-gke) Fully automated dev, staging, prod clusters with GKE and the GKE Ingress in a single click.
 * [learnk8s.io/terraform-eks: Provisioning Kubernetes clusters on AWS with Terraform and EKS 🌟](https://learnk8s.io/terraform-eks) Fully automated dev, test, prod environments with EKS, Terraform and the ALB Ingress Controller. 
@@ -227,6 +239,7 @@
 * [stories.schubergphilis.com: (Terraform) AWS management using your Google account](https://stories.schubergphilis.com/terraform-aws-management-using-your-google-account-cfe5ea70c75)
 * [thenewstack.io: Terraform on AWS: Multi-Account Setup and Other Advanced Tips](https://thenewstack.io/terraform-on-aws-multi-account-setup-and-other-advanced-tips/)
 * [medium: How to Provision AWS Infrastructure with Terraform? 🌟](https://medium.com/faun/provisioning-aws-infrastructure-with-terraform-6ab885fb3fcb)
+* [middlewareinventory.com: Terraform import All AWS Security Groups – How to 🌟](https://www.middlewareinventory.com/blog/terraform-import-securitygroup-aws/)
 
 #### Terraform and managed AWS EKS
 * [learnk8s.io/terraform-eks 🌟](https://learnk8s.io/terraform-eks) Fully automated dev, test, prod environments with EKS, Terraform and the ALB Ingress Controller. 
@@ -257,13 +270,9 @@
 - [dreampuf.github.io/GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 - [graphviz.online](https://graphviz.online/)
 
-## Gruntwork
-- [gruntwork.io](https://gruntwork.io/)
-- [towardsdatascience.com: State of the Art Infrastructure as Code](https://towardsdatascience.com/state-of-the-art-infrastructure-as-code-4fbd59d92462) The newest layer of abstraction by Gruntwork that’ll make your life easier. Gruntwork’s Terragrunt is a wrapper over Terraform which concentrates on solving your problems of Terraform state management and configuration. It also solves some of the problems around having similar infrastructure deployed in different environments.
-- [blog.gruntwork.io: Introducing: The Gruntwork Module, Service, and Architecture Catalogs](https://blog.gruntwork.io/introducing-the-gruntwork-module-service-and-architecture-catalogs-eb3a21b99f70)
-
 ## Terraform Modules 
 - [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
+- [digitalocean.com: How To Build a Custom Terraform Module](https://www.digitalocean.com/community/tutorials/how-to-build-a-custom-terraform-module)
 
 ### Segment AWS Stack Terraform Modules
 - [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
@@ -291,6 +300,19 @@
 	- https://www.jenkins.io/changelog-stable/#v2.289.3 
 - [Rover - Terraform Visualizer 🌟](https://github.com/im2nguyen/rover) Interactive Terraform visualization. State and configuration explorer.
 	- [hashicorp.com: Rover - Terraform Visualizer](https://www.hashicorp.com/resources/terraform-plan-interactive-configuration-and-state-visualization-with-rover) 
+- [cloudify.co: Cloudify and Terraform Integration. Supercharge Your Terraform Templates](https://cloudify.co/terraform-integration/) Significantly extend Terraform usability with Cloudify's plugin and enjoy end-to-end automation and avoid costly blueprint transformation.
+
+## Terraform Frameworks
+### Gruntwork Terragrunt 
+- [gruntwork.io](https://gruntwork.io/) Build your infrastructure on top of a collection of over 300,000 lines of reusable, battle-tested infrastructure code written in Terraform, Go, Python, and Bash that has been proven in production at hundreds of companies and is maintained and supported by DevOps experts.
+- [towardsdatascience.com: State of the Art Infrastructure as Code. Terragrunt](https://towardsdatascience.com/state-of-the-art-infrastructure-as-code-4fbd59d92462) The newest layer of abstraction by Gruntwork that’ll make your life easier. **Gruntwork’s Terragrunt** is a wrapper over Terraform which concentrates on solving your problems of Terraform state management and configuration. It also solves some of the problems around having similar infrastructure deployed in different environments.
+- [blog.gruntwork.io: Introducing: The Gruntwork Module, Service, and Architecture Catalogs](https://blog.gruntwork.io/introducing-the-gruntwork-module-service-and-architecture-catalogs-eb3a21b99f70)
+- [medium: Terragrunt cheat sheet](https://medium.com/geekculture/terragrunt-cheat-sheet-bedafbf9d61f) **What is Terragrunt?** Terragrunt is a framework on top of Terraform with some new tools out-of-the-box. Thanks to some new files *.hcl and new keywords, you can share variables across terraform modules very easily.
+- [pie-r/terragrunt-vs-terraspace](https://github.com/pie-r/terragrunt-vs-terraspace)
+- [gruntwork-io/terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) A repo used to show examples file/folder structures you can use with Terragrunt and Terraform
+
+### Terraspace
+- [Terraspace.cloud](https://terraspace.cloud/) Terraspace is a Terraform Framework that optimizes for infrastructure-as-code happiness. It provides an organized structure, conventions over configurations, keeps your code DRY, and adds convenient tooling. Terraspace makes working with Terraform easier and more fun.
 
 ## Tweets
 <details>

@@ -33,7 +33,7 @@
 	- [AWS RDS Proxy](#aws-rds-proxy)
 - [AWS Application Discovery Service](#aws-application-discovery-service)
 - [AWS Migrations](#aws-migrations)
-	- [AWS Database Migration Service](#aws-database-migration-service)
+	- [AWS Database Migration Service DMS](#aws-database-migration-service-dms)
 - [AWS Redshift](#aws-redshift)
 - [AWS DevOps. AWS CodePipeline](#aws-devops-aws-codepipeline)
 - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
@@ -154,6 +154,7 @@
 	- [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines) Video tutorials: Learn how to generate CI/CD pipelines and deployment templates for serverless applications with AWS’ best practices for CloudBees, JenkinsCI, GitLab, GitHub using AWS SAM Pipelines.
 - [AWS Activate](https://aws.amazon.com/activate) AWS Activate offers startups free tools, resources, and more to quickly get started on AWS. Build and scale with up to $100,000 in AWS Activate credits
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
+- [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free/)
 
 ## Blogs
 - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com/)
@@ -194,6 +195,7 @@ You can filter by topic using the toolbar above.
 - [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
 - [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure) Before deciding on how to create your production platform, learn about the benefits and drawbacks of different ways to build your AWS infrastructure.
 - [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
+- [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
 
 ## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)
@@ -222,6 +224,7 @@ You can filter by topic using the toolbar above.
 - [cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation (EKS)](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) A guide to intelligently allocating Kubernetes costs with EKS
 - [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans/)
 - [dzone: A Guide on Estimating AWS EC2 Workloads for a Microservice Application](https://dzone.com/articles/a-guide-on-estimating-aws-ec2-workloads-for-a-micr) AWS EC2 instance costs can be a significant part of the cloud bill, so it's always a good idea to estimate the workloads using the AWS pricing calculator.
+- [Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight)
 
 ### AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws/)
@@ -387,9 +390,10 @@ You can filter by topic using the toolbar above.
 - [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
 - [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)
 
-### AWS Database Migration Service
+### AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/)
 - [Whitepaper: Migrating Your Databases to AWS](https://aws.amazon.com/es/dms/learn-more/)
+- [Replicate and transform data in Amazon Aurora PostgreSQL across multiple Regions using AWS DMS](https://aws.amazon.com/blogs/database/replicate-and-transform-data-in-amazon-aurora-postgresql-across-multiple-regions-using-aws-dms)
 
 ## AWS Redshift
 - [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) In this tutorial, you will learn how to optimize the design of your tables.
@@ -433,6 +437,7 @@ You can filter by topic using the toolbar above.
 - [gprakash-sharma.medium.com: AWS Site-to-Site VPN with NAT](https://gprakash-sharma.medium.com/aws-site-to-site-vpn-with-nat-8bb99f4653ab)
 - [Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic](https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic)
 - [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) AWS adds an extra 5.5M IPv4 addresses. Tracking the history and size of AWS's ip-ranges.json file. AWS provides a data file showing the current IP ranges their services use, called ip-ranges.json. This repository tracks changes to that file, and based off a trigger on the SNS topic automatically produces this chart showing how what percentage of the Internet's IPv4 address space AWS is in control of.
+- [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12) Connecting branch and corporate offices into the AWS cloud to build a global network is necessary to provide ubiquitous accessibility for users. This solution uses AWS Transit Gateway, AWS Direct Connect, and AWS Accelerated Site-to-Site VPN to build a modern, secure, scalable, and cost-efficient WAN on top of the AWS global network.
 
 ## AWS Route 53
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)
@@ -580,6 +585,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudkatha.com: How to Configure AWS SQS Dead Letter Queue using CloudFormation](https://cloudkatha.com/how-to-configure-aws-sqs-dead-letter-queue-using-cloudformation/)
 - [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation/)
 - [cloudkatha.com: How to use CloudFormation to Create SNS Topic and Subscription](https://cloudkatha.com/how-to-use-cloudformation-to-create-sns-topic-and-subscription/)
+- [cloudkatha.com: How to Create IAM Role using CloudFormation](https://cloudkatha.com/how-to-create-iam-role-using-cloudformation/)
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)
@@ -703,6 +709,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ### AWS Backup Service
 - [AWS Backup Service](https://aws.amazon.com/backup)
+- [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 
 ## AWS Config Rules
@@ -865,7 +872,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## Scripts
 - [AWS IP inventory](https://github.com/okelet/awsipinventory) Tool to generate an inventory of all IP addresses in use in an account, one or multiple VPC, or one or multiple subnet.
-- [dev.to: How to Copy a Security Group with Rules from one AWS Account to Another account ?](https://dev.to/dineshrathee12/how-to-copy-a-security-group-with-rules-from-one-aws-account-to-another-account-36mb)
+- [dev.to: How to Copy a Security Group with Rules from one AWS Account to Another account](https://dev.to/dineshrathee12/how-to-copy-a-security-group-with-rules-from-one-aws-account-to-another-account-36mb)
 	- [CopySGFromOneAWSAccountToAnotherScript.py](https://github.com/dineshrathee12/CopySecurityGroupWithRulesFromOneAWSAccountToAnotherAWSAccount/blob/main/CopySGFromOneAWSAccountToAnotherScript.py)
 - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler - Find resources that are not logging, and turn them on](https://github.com/awslabs/assisted-log-enabler-for-aws)
 - https://github.com/dannysteenman/aws-toolbox A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.

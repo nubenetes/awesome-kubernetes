@@ -6,7 +6,8 @@
 - [Soft Skills](#soft-skills)
 - [Fair Job Offer](#fair-job-offer)
 - [Writing a CV](#writing-a-cv)
-- [Tweets 1](#tweets-1)
+- [Tweets](#tweets)
+- [Images](#images)
 ## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
@@ -19,7 +20,9 @@
 - [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.co.uk/article/great-resignation-quit-job) Around the world, workers are quitting their jobs in record numbers – and bosses are still scrambling to figure out how to keep them
 - [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan) Employees are leaving their workplaces in record numbers in a wave named "#TheGreatResignation.”
 - [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)
+- [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage)
 - [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://magnet.xataka.com/en-diez-minutos/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos)
+- [xataka.com: La Gran Renuncia: en EEUU los empleados están dejando en masa sus trabajos, la gran pregunta es si veremos esto (y cuándo) en España](https://www.xataka.com/pro/gran-renuncia-eeuu-empleados-estan-dejando-masa-sus-trabajos-gran-pregunta-veremos-esto-cuando-espana)
 - [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety/)
 - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0) How to avoid tech interviews as we know them
 - [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market/)
@@ -45,7 +48,7 @@
 ## Writing a CV 
 - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
 
-## Tweets 1
+## Tweets
 <details>
   <summary>Click to expand!</summary>
 
@@ -92,16 +95,26 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will never understand why tech companies optimize interviews for a college grad to do better than someone with ten years of experience.</p>&mdash; Randall Kanna (@RandallKanna) <a href="https://twitter.com/RandallKanna/status/1443651873412550682?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I 10x’d my salary as a developer in 5 years. Here’s how:<br><br>Just start real fucking low 🤣</p>&mdash; Trisha Lim 🍪 (@trishathecookie) <a href="https://twitter.com/trishathecookie/status/1443477826196295680?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Ayer me pegué una juerga. Una de las de verdad, de decir &quot;te quiero tío&quot; a los colegas y volver a casa hecho unos zorros. Pero, como casi todo lo que comento, lo importante no es qué hice, sino por qué. Hoy: cómo ha cambiado el covid nuestra relación con el trabajo. Dentro hilo.</p>&mdash; Dani Sanchez-Crespo (@DaniNovarama) <a href="https://twitter.com/DaniNovarama/status/1444200847416627200?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everyone is hiring. Everyone is understaffed. Everyone is sticking to the same ineffective and inequitable interview processes. Everyone remains understaffed.</p>&mdash; Tashay (@tashay_g) <a href="https://twitter.com/tashay_g/status/1444036520646778881?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">9⃣cloud-related jobs you can do 🔥<br><br>Cloud Administrator<br>Cloud (Solution) Architect<br>Cloud Developer<br>Cloud DevOps Engineer<br>Cloud Data Engineer<br>Cloud Operations Engineer<br>Cloud Security Engineer<br>Cloud Support Engineer<br>Cloud AI/ML Engineer<br><br>So many opportunities in the cloud ...☁️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1445019048446775300?ref_src=twsrc%5Etfw">October 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is not just Nigeria, but worldwide.<br><br>If you work in IT: you’re usually seen cost center, typically in a “traditional” company.<br><br>If you work in tech, you’re typically viewed as a profit generator, and core to the company. Both autonomy, motivation and pay tend to be higher. <a href="https://t.co/z579RoAS3I">https://t.co/z579RoAS3I</a></p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1445641496066072582?ref_src=twsrc%5Etfw">October 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unpopular opinion: I don’t think being a 10x engineer is a persona. 10xness is specific to projects and what orgs allow you to do. It’s a combination of having authority and skills to execute. It depends on the momentary situation and it’s not always repeatable. <a href="https://t.co/xSMY50OouT">https://t.co/xSMY50OouT</a></p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1447052037246447617?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+## Images
+<details>
+  <summary>Click to expand!</summary>
 
 <center>
 ![interviews getting harder](images/interviews_getting_harder.jfif)
 </center>
-
+</details>
 

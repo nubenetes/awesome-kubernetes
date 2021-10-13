@@ -47,6 +47,7 @@
 - [hbr.org: As Your Team Gets Bigger, Your Leadership Style Has to Adapt](https://hbr.org/2019/03/as-your-team-gets-bigger-your-leadership-style-has-to-adapt)
 - [carlos-piqueres.medium.com: Product Backlog vs Sprint Backlog](https://carlos-piqueres.medium.com/product-backlog-vs-sprint-backlog-c951f972e979)
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
+- [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -132,6 +133,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 questions I try to answer before starting any new project:<br><br>1. What problem am I solving?<br>2. What constraints do I have?<br>3. Who are the main stakeholders?<br>4. What are the risks?<br>5. How do I measure progress?<br>6. What does success look like?<br><br>Don&#39;t sail without a compass.</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1393868830859010049?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We really need to normalize the conversation around big tech and promotion processes that lead to unnecessary complexity and waste. <a href="https://t.co/pAfErKPKBH">https://t.co/pAfErKPKBH</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1442298856406863876?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I can&#39;t stop thinking how easier it looks to adjust to new organizations as a manager vs software engineer. Institutional knowledge, historical background, footprint/track record, and connections matter a lot more when you are a senior engineer.</p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1445439161570267141?ref_src=twsrc%5Etfw">October 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

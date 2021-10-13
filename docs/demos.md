@@ -62,7 +62,7 @@
     - [PetClinic Docker images](#petclinic-docker-images)
     - [OpenShift.io Samples](#openshiftio-samples)
 - [AWS Demos](#aws-demos)
-- [Azure DevOps Demos](#azure-devops-demos)
+- [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
 - [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [SpringBoot Demos](#springboot-demos)
@@ -298,6 +298,7 @@
 * [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/)
 * [developers.redhat.com: Build lean Java containers with the new Red Hat Universal Base Images OpenJDK runtime images 🌟](https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime)
 * [youtube: No YAML! Kubernetes done the easy way | DevNation Tech Talk](https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper)
+* [developers.redhat.com: New application samples in Red Hat OpenShift 4.8](https://developers.redhat.com/articles/2021/10/01/new-application-samples-red-hat-openshift-48) Check out all of the new and updated samples that comes with OpenShift 4.8. Try any or all of these samples within minutes of downloading your free openshift cluster.
 
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
@@ -597,13 +598,14 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f) Import data from Amazon RDS into Amazon S3 using Amazon MSK, Apache Kafka Connect, Debezium, Apicurio Registry, and Amazon EKS
 - [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service/)
 
-## Azure DevOps Demos
+## Azure DevOps Demos. Azure DevOps Pipelines
 - [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs 🌟](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
 - [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
 - [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
 - [reddit.com: Automate Infrastructure Deployments on Microsoft Azure with Terraform and Jenkins](https://www.reddit.com/r/Terraform/comments/h0tdq3/automate_infrastructure_deployments_on_microsoft/)
 - [docs.microsoft.com: Deploy Spring microservices to Azure](https://docs.microsoft.com/en-us/learn/modules/azure-spring-cloud-workshop)
 - [davidsr.me: Deploy Azure WAF with Terraform and Azure DevOps](https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops/)
+- [mbenko/myYAML 🌟](https://github.com/mbenko/myYAML) This project contains the initial code for a course on [YAML Pipelines](https://www.linkedin.com/learning/azure-devops-continuous-delivery-with-yaml-pipelines).
 
 ## Google DevOps Demos. Custom Samples and Cloud Code
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)
@@ -619,6 +621,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://tanzu.vmware.com/developer/guides/kubernetes/app-enhancements-spring-k8s/)
 - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) Workshop-style guide for rearchitecting a Java Monolith application to a Cloud Native architecture running in Kubernetes
 - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)
+- [piomin/sample-spring-microservices-kubernetes: Microservices with Spring Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) sample spring boot application that uses some features provided by spring cloud kubernetes, spring cloud ribbon and zuul proxy deployed on Kubernetes 
 
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)

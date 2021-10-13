@@ -69,6 +69,7 @@
 - [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)
 - [cheat.sh 🌟](https://cheat.sh/)
 - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
+- [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)
 
 ## Google Search 
 - [wikipedia: Google Search](https://en.wikipedia.org/wiki/Google_Search)
@@ -114,6 +115,7 @@
 - [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app 🌟](https://dev-k8sref-io.web.app/) Imports paths are not always easy to find for a resource. Get some help from this doc.
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
+- [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 
 ## Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
@@ -140,6 +142,9 @@
 * [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
 * [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 * [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy/)
+* `--tail=-1` lets you output all logs when you use a label selector: 
+	* `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1` 
+	* `kubectl logs -l app=my.app --tail=-1` 
 
 ## Docker Cheat Sheets
 - [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)

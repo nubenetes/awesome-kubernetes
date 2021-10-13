@@ -134,6 +134,8 @@
 * [css-tricks.com: Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
 * [freecodecamp.org: Git for Professionals – Free Version Control Course](https://www.freecodecamp.org/news/git-for-professionals/)
 * [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)
+* [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) Ever accidentally deleted files or necessary code? Or do you wish to look back at an older version of your code?
+* [css-tricks.com: Better Collaboration With Pull Requests](https://css-tricks.com/better-collaboration-with-pull-requests/)
 
 ## Cherry-picking
 * [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) Cherry-picking solves a lot of problems in Git repositories. Here are three ways to fix your mistakes with git cherry-pick.
@@ -298,6 +300,8 @@ git push origin -f
 * [about.gitlab.com: The new Git default branch name](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name/)
 * [about.gitlab.com: How GitLab's 5 new code review features will make life easier](https://about.gitlab.com/blog/2021/09/09/5-code-review-features/)
 * [pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟](https://pythonspeed.com/articles/gitlab-build-docker-image/)
+* [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities)
+* [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/2021/10/12/open-shift-ga/)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows

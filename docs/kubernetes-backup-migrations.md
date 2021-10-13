@@ -52,6 +52,7 @@
 * [Kasten](https://www.kasten.io/)
 * [redhat.com: OpenShift Backup and Recovery with Kasten K10](https://www.redhat.com/es/about/videos/openshift-backup-and-recovery-kasten-k10)
 * [blog.kasten.io: Extending Kubernetes Application Backup and Mobility to the Edge with Kasten K10 V4.5](https://blog.kasten.io/posts/extending-kubernetes-application-backup-and-mobility-to-the-edge-with-kasten-k10-v4.5)
+* [thenewstack.io: Kasten K10 V4.5: Grafana Observability, More Edge Support](https://thenewstack.io/kasten-k10-v4-5-grafana-observability-more-edge-support/)
 
 ## Backup with Velero
 * [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)
@@ -61,8 +62,9 @@
 * [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://cloud.redhat.com/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 
 ## Backup with Portworx PX-Backup
-* [PX-Backup](https://backup.docs.portworx.com/)
-* [portworx.com: Backup and Restore with Role-Based Access Controls for Red Hat OpenShift](https://portworx.com/backup-and-restore-with-role-based-access-controls-for-red-hat-openshift) With PX-Backup, backups of OpenShift applications can also be provided in a secure, self-service environment.
+* [PX-Backup](https://portworx.com/products/px-backup/)
+* [PX-Backup: docs](https://backup.docs.portworx.com/)
+* With PX-Backup, backups of OpenShift applications can also be provided in a secure, self-service environment.
 
 ## Backup for GKE
 - [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)

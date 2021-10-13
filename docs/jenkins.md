@@ -3,6 +3,7 @@
 - [Evolution of open source CI/CD Tools](#evolution-of-open-source-cicd-tools)
 - [eBooks](#ebooks)
 - [Jenkins on Kubernetes](#jenkins-on-kubernetes)
+- [Jenkins on Docker](#jenkins-on-docker)
     - [Kubernetes Native Jenkins Operator](#kubernetes-native-jenkins-operator)
 - [Groovy](#groovy)
 - [Awesome Jenkins](#awesome-jenkins)
@@ -156,6 +157,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins on Kubernetes
 * [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/)
 * [jenkins.io: Installing Jenkins on Kubernetes 🌟](https://www.jenkins.io/doc/book/installing/kubernetes/)
+* [ssbostan/jenkins-stack-kubernetes 🌟](https://github.com/ssbostan/jenkins-stack-kubernetes) Scripts and manifests to deploy Jenkins on Kubernetes
+
+## Jenkins on Docker
+* [ssbostan/jenkins-stack-docker](https://github.com/ssbostan/jenkins-stack-docker) Docker-compose version of jenkins-stack-kubernetes
 
 ### Kubernetes Native Jenkins Operator 
 * [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
@@ -486,6 +491,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [blueocean-rest: REST API for Blue Ocean](https://plugins.jenkins.io/blueocean-rest)
 * [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/)
 * [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer/)
+* [Cucumber reports](https://plugins.jenkins.io/cucumber-reports)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
