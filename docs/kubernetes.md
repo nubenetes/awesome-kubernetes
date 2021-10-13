@@ -692,7 +692,7 @@
 * [dev.to: Prevent Configuration Errors in Kubernetes](https://dev.to/solegaonkar/prevent-configuration-errors-in-kubernetes-30dn)
 
 <center>
-![k8s experts be like](images/k8sexpertsbelike.jfif)
+[![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
 </center>
 
 ### Disruptions
