@@ -2,7 +2,7 @@
 - [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 - [Packer](#packer)
 - [Terraform](#terraform)
-- [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
+	- [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
 	- [HCL](#hcl)
 	- [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
 	- [Terraform Infracost](#terraform-infracost)
@@ -153,7 +153,7 @@
 * [bridgecrew.io: Advanced Terraform security: Pro tips for secure infrastructure as code](https://bridgecrew.io/blog/advanced-terraform-security-pro-tips-for-secure-infrastructure-as-code)
 * [hub.qovery.com: Terraform is Not the Golden Hammer](https://hub.qovery.com/guides/engineering/terraform-not-the-golden-hammer/)
 
-## AWSCC. Terraform AWS Cloud Control Provider
+### AWSCC. Terraform AWS Cloud Control Provider
 * [awscc](https://registry.terraform.io/providers/hashicorp/awscc/latest) Lifecycle management of AWS resources powered by the AWS Cloud Control API. This provider is fully generated from the available CloudFormation resource definitions and is maintained internally by the HashiCorp AWS Provider team.
 * [hashicorp.com: Announcing Terraform AWS Cloud Control Provider Tech Preview](https://www.hashicorp.com/blog/announcing-terraform-aws-cloud-control-provider-tech-preview) This new provider for HashiCorp Terraform — built around the AWS Cloud Control API — is designed to bring new services to Terraform faster.
 
