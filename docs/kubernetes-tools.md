@@ -22,6 +22,7 @@
 - [Usernetes](#usernetes)
 - [k8syaml.com](#k8syamlcom)
 - [Komodor Workflows](#komodor-workflows)
+- [kbrew](#kbrew)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -450,6 +451,9 @@
 <center>
 [![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 </center>
+
+## kbrew
+- [kbrew](https://github.com/kbrew-dev/kbrew) kbrew is homebrew for Kubernetes. kbrew is a CLI tool for Kubernetes which makes installing any complex stack easy in one step (And yes we are definitely inspired by Homebrew from MacOS)
 
 ## Tweets
 <details>

@@ -10,3 +10,4 @@
 - [cloudify.co: Infrastructure As Code – Is It REALLY Enough For DevOps? IAC DevOps Best Practices 🌟](https://cloudify.co/blog/infrastructure-as-code-is-it-really-enough-for-devops/)
 - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code/)
 - [dzone: Why Should You Leverage Infrastructure as Code?](https://dzone.com/articles/reasons-to-leverage-infrastructure-as-code) Learn the essentials of Infrastructure as Code (IaC) and how engineers can utilize its many benefits.
+- [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/architect/pull-push-provisioning-cicd) Understanding the different techniques for provisioning virtual machines in the CI/CD process is essential for enterprise architects planning deployment automation into their designs.
