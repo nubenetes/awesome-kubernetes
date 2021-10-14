@@ -3,7 +3,7 @@
 - [ASP.NET Core](#aspnet-core)
 - [Polly .NET resilience and transient-fault-handling library](#polly-net-resilience-and-transient-fault-handling-library)
 - [Paradigm framework](#paradigm-framework)
-- [More donet frameworks and tools](#more-donet-frameworks-and-tools)
+- [More dotnet frameworks and tools](#more-dotnet-frameworks-and-tools)
 - [Kubernetes for ASP.NET Core Developers](#kubernetes-for-aspnet-core-developers)
 - [Deploying ASP.NET Core applications to Kubernetes](#deploying-aspnet-core-applications-to-kubernetes)
 
@@ -26,7 +26,7 @@
 - [Paradigm framework](https://www.paradigm.net.co) Built for NetCore, and featuring its own ORM and code generation tools, Paradigm sets the stage for a new breed of high-performance, multiplatform applications.
 - Paradigm Framework is a .net core Enterprise libraries, ORM and code scaffolding tool.
 
-## More donet frameworks and tools
+## More dotnet frameworks and tools
 - [Oakton](https://jasperfx.github.io/oakton/) Add Robust Command Line Options to .Net Applications
 - [Lamar](https://jasperfx.github.io/lamar/) Lamar is a .NET library that provides two pieces of functionality:
     - A fast Inversion of Control Container that natively supports the ASP.Net Core DI abstractions and a subset of the older StructureMap library
