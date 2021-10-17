@@ -22,7 +22,10 @@
 - [Usernetes](#usernetes)
 - [k8syaml.com](#k8syamlcom)
 - [Komodor Workflows](#komodor-workflows)
+- [Popeye](#popeye)
 - [kbrew](#kbrew)
+- [KubExplorer](#kubexplorer)
+- [Kubescape](#kubescape)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -246,7 +249,6 @@
 * [kube-bench](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
 * [kube-bench-exporter](https://github.com/yashvardhan-kukreja/kube-bench-exporter) Helps you to export your kube-bench reports to multiple targets like Amazon S3 buckets with ease.
 * [Karmada](https://github.com/karmada-io/karmada) Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling capabilities, Karmada enables truly open, multi-cloud Kubernetes.
-* [Popeye - A Kubernetes Cluster Sanitizer 🌟🌟](https://github.com/derailed/popeye) Popeye is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. By scanning your cluster, it detects misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches. It aims at reducing the cognitive overload one faces when operating a Kubernetes cluster in the wild. Furthermore, if your cluster employs a metric-server, it reports potential resources over/under allocations and attempts to warn you should your cluster run out of capacity.
 * [kube-secrets-init](https://github.com/doitintl/kube-secrets-init) Kubernetes mutating webhook for `secrets-init` injection
 * [liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies](https://github.com/liqotech/liqo) Building your endless Kubernetes ocean. Liqo is a platform to enable dynamic and decentralized resource sharing across Kubernetes clusters, either on-prem or managed. Liqo allows to run pods on a remote cluster seamlessly and without any modification of Kubernetes and the applications. With Liqo it is possible to extend the control plane of a Kubernetes cluster across the cluster's boundaries, making multi-cluster native and transparent: collapse an entire remote cluster to a virtual local node, by allowing workloads offloading and resource management compliant with the standard Kubernetes approach.
 * [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
@@ -329,7 +331,6 @@
 * [cdk8s](https://github.com/cdk8s-team/cdk8s) Define Kubernetes native apps and abstractions using object-oriented programming
 * [Havener](https://github.com/homeport/havener) Think of it as a swiss army knife for Kubernetes tasks. 
 * [KFServing 🌟](https://github.com/kubeflow/kfserving) Serverless Inferencing on Kubernetes. KFServing provides a Kubernetes Custom Resource Definition for serving machine learning (ML) models on arbitrary frameworks. It aims to solve production model serving use cases by providing performant, high abstraction interfaces for common ML frameworks like Tensorflow, XGBoost, ScikitLearn, PyTorch, and ONNX.
-* [Kubescape 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
 * [rkubelog 🌟](https://github.com/solarwinds/rkubelog) Send k8s Logs to Papertrail and Loggly Without DaemonSets (for Nodeless Clusters) - [dzone: ContainerD Kubernetes Syslog Forwarding](https://dzone.com/articles/containerd-kubernetes-syslog-forwarding) Move from Logspout to Filebeat to support containerd logging architecture.
 * [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) Trimaran is a collection of load-aware scheduler plugins - [thenewstack.io: IBM, Red Hat Bring Load-Aware Resource Management to Kubernetes](https://thenewstack.io/ibm-red-hat-bring-load-aware-resource-management-to-kubernetes/)
 * [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes
@@ -369,6 +370,11 @@
 * [vadosware.io: Using Makefiles And Envsubst As An Alternative To Helm And Ksonnet (deprecated)](https://vadosware.io/post/using-makefiles-and-envsubst-as-an-alternative-to-helm-and-ksonnet/)
 * [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html)
 * [zakkg3/ClusterSecret: Kubernetes ClusterSecret operator](https://github.com/zakkg3/ClusterSecret) ClusterSecret operator makes sure all the matching namespaces have the secret available. New namespaces, if they match the pattern, will also have the secret. Any change on the ClusterSecret will update all related secrets. Deleting the ClusterSecret deletes "child" secrets (all cloned secrets) too. 
+* [tektoncd/chains](https://github.com/tektoncd/chains) Tekton Chains is a Kubernetes Custom Resource Definition (CRD) controller that allows you to manage your supply chain security in Tekton.
+* [gopaddle-io/configurator](https://github.com/gopaddle-io/configurator) Synchronize and Version Control ConfigMaps & Secrets across Deployment Rollouts.
+* [biosimulations/deployment](https://github.com/biosimulations/deployment) Kubernetes Configuration for [BioSimulations](https://github.com/biosimulations/biosimulations) platform. 
+* [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
+* [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, local tiering, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, Hadoop, WebDAV, encryption, Erasure Coding.
 
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
@@ -448,12 +454,25 @@
 ## Komodor Workflows
 - [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 
+## Popeye
+- [Popeye - A Kubernetes Cluster Sanitizer 🌟🌟](https://github.com/derailed/popeye) Popeye is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. By scanning your cluster, it detects misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches. It aims at reducing the cognitive overload one faces when operating a Kubernetes cluster in the wild. Furthermore, if your cluster employs a metric-server, it reports potential resources over/under allocations and attempts to warn you should your cluster run out of capacity.
+- [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Popeye](https://collabnix.com/top-10-kubernetes-tools-you-need-for-2021/)
+
+
 <center>
 [![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 </center>
 
 ## kbrew
 - [kbrew](https://github.com/kbrew-dev/kbrew) kbrew is homebrew for Kubernetes. kbrew is a CLI tool for Kubernetes which makes installing any complex stack easy in one step (And yes we are definitely inspired by Homebrew from MacOS)
+
+## KubExplorer
+- [Pscheidl/kubexplorer](https://github.com/Pscheidl/kubexplorer) Detects orphan configmaps and secrets in a Kubernetes cluster
+
+## Kubescape
+- [Kubescape 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
+- [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/blog/kubescape-checks-if-kubernetes-exposed-to-k8s-symlink-vulnerability-cve202125741)
+
 
 ## Tweets
 <details>

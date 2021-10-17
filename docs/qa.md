@@ -39,6 +39,7 @@ the #1 test automation community.
 * [dzone: Checklist for API Verification 🌟](https://dzone.com/articles/checklist-for-api-verification) These days where Applications talk to each other using API, the verification of any message between the applications/microservices needs to be verified. This checklist includes some best practices for API verification.
 * [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation/)
 * [dzone: A Detailed Comparison: Unit Testing vs. Functional Testing](https://dzone.com/articles/detailed-comparison-unit-testing-vs-functional-testing) The main goal of any testing is to deliver a quality product with find the right job balance between unit testing and functional testing.
+* [dzone: Microservice Testing Strategies](https://dzone.com/articles/microservice-testing-strategies) This article contains Microservice testing strategies. Learn more about testing in layered architectures.
 
 ## Testing Frameworks
 * [JUnit](https://junit.org)

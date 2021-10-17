@@ -302,6 +302,7 @@ git push origin -f
 * [pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟](https://pythonspeed.com/articles/gitlab-build-docker-image/)
 * [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities)
 * [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/2021/10/12/open-shift-ga/)
+* [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://containerjournal.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift/)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
@@ -353,7 +354,8 @@ git push origin -f
 * [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7)
 * [github.blog: GitHub CLI 2.0 includes extensions!](https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/)
 * [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74)
-* [github.blog: Improved pull request file filtering](https://github.blog/changelog/2021-09-27-improved-pull-request-file-filtering/) Filtered files on the Pull Request Files Changed tab are now completely hidden from view (not just collapsed). This helps decrease distractions and lets you focus on just the files you need to review:
+* [github.blog: Improved pull request file filtering](https://github.blog/changelog/2021-09-27-improved-pull-request-file-filtering/) Filtered files on the Pull Request Files Changed tab are now completely hidden from view (not just collapsed). This helps decrease distractions and lets you focus on just the files you need to review.
+* [dev.to: Git and GitHub Series' Articles - The Complete Guides 🌟](https://dev.to/ifierygod/series/14420)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

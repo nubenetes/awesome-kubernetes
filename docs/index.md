@@ -50,6 +50,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes/)
+- [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)

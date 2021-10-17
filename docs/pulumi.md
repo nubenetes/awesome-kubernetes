@@ -15,3 +15,4 @@
 - [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/guides/adopting/from_kubernetes/)
 - [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/pulumi-tutorial-automate-kubernetes-operations/)
 - [pulumi.com: Announcing the Pulumi REST API](https://www.pulumi.com/blog/pulumi-rest-api/)
+- [thenewstack.io: Pulumi Releases a Kubernetes Operator](https://thenewstack.io/pulumi-releases-a-kubernetes-operator/)

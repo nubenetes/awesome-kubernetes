@@ -31,6 +31,7 @@
     - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
+    - [OpenShift GitOps (ArgoCD)](#openshift-gitops-argocd)
     - [ArgoCD](#argocd)
     - [GitLab Pipelines on OpenShift](#gitlab-pipelines-on-openshift)
     - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
@@ -328,6 +329,10 @@
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.openshift.com/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)
 - [developers.redhat.com: Getting started with Tekton and Pipelines](https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines/)
 - [developers.redhat.com: Bootstrap GitOps with Red Hat OpenShift Pipelines and kam CLI](https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli) Generate a #GitOps repository using the kam CLI for simple GitOps adoption by bootstrapping Git repositories with opinionated layouts for continuous delivery.
+
+### OpenShift GitOps (ArgoCD)
+- [docs.openshift.com: OpenShift GitOps](https://docs.openshift.com/container-platform/4.8/cicd/gitops/understanding-openshift-gitops.html)
+- [cloud.redhat.com: Virtual Machines as Code with OpenShift GitOps and OpenShift Virtualization](https://cloud.redhat.com/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization)
 
 ### ArgoCD
 - [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 

@@ -50,6 +50,7 @@
 * [dzone: VS Code Extensions for Frontend Developers](https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers)
 * In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting: 
 	* `"editor.guides.bracketPairs": true`
+* [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

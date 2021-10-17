@@ -5,6 +5,7 @@
     - [Open Policy Agent in OpenShift](#open-policy-agent-in-openshift)
     - [Open Policy Agent in Cloudflare Workers](#open-policy-agent-in-cloudflare-workers)
     - [Policy as Code in Terraform Cloud](#policy-as-code-in-terraform-cloud)
+    - [Other OPA based solutions](#other-opa-based-solutions)
 - [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
 - [Kyverno](#kyverno)
 - [Cloud Custodian](#cloud-custodian)
@@ -57,6 +58,9 @@
 
 ### Policy as Code in Terraform Cloud
 - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines/) Learn how to use policy as code in Terraform Cloud to securely deliver applications.
+
+### Other OPA based solutions
+- [Fugue: Container and Kubernetes. Runtime infrastructure security](https://www.fugue.co/container-kubernetes) - [darkreading.com: Fugue Adds Kubernetes Security Checks to Secure Infrastructure-as-Code](https://www.darkreading.com/dr-tech/fugue-adds-kubernetes-security-checks-to-secure-infrastructure-as-code) Developers can apply proper security controls as they programmatically deploy Kubernetes clusters.
 
 ## Other Policy as Code Scanning Tools
 - [thenewstack.io: Yor Automates Tagging for Infrastructure as Code](https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code/)

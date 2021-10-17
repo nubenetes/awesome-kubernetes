@@ -156,6 +156,7 @@
 - [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html)
 - [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) Python overtakes Java and C for the first time in 20 years of a key language popularity index.
 - [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)
+- [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python)
 
 ## APIs in Python
 - [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication

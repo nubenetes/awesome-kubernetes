@@ -158,6 +158,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [jenkins.io: Document Jenkins on Kubernetes: Installing Jenkins on Kubernetes Documentation Release 🌟](https://www.jenkins.io/blog/2020/11/05/installing-jenkins-on-kubernetes/)
 * [jenkins.io: Installing Jenkins on Kubernetes 🌟](https://www.jenkins.io/doc/book/installing/kubernetes/)
 * [ssbostan/jenkins-stack-kubernetes 🌟](https://github.com/ssbostan/jenkins-stack-kubernetes) Scripts and manifests to deploy Jenkins on Kubernetes
+    * [ssbostan/jenkins-tutorial 🌟](https://github.com/ssbostan/jenkins-tutorial)
+    * [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c)
 
 ## Jenkins on Docker
 * [ssbostan/jenkins-stack-docker](https://github.com/ssbostan/jenkins-stack-docker) Docker-compose version of jenkins-stack-kubernetes

@@ -51,6 +51,8 @@
 - [Go](#go)
 - [NodeJS](#nodejs)
 - [Selenium](#selenium)
+- [CIDR subnets](#cidr-subnets)
+- [Scrum Cheat Sheet](#scrum-cheat-sheet)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -145,9 +147,10 @@
 * `--tail=-1` lets you output all logs when you use a label selector: 
 	* `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1` 
 	* `kubectl logs -l app=my.app --tail=-1` 
+* [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
 
 ## Docker Cheat Sheets
-- [docker.com: Docker Cheat Sheet🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
+- [docker.com: Docker Cheat Sheet 🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
 - [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
@@ -370,6 +373,7 @@
 
 ## Python
 - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet/)
+- https://blog.finxter.com/python-cheat-sheets
 
 ## Go
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
@@ -382,6 +386,23 @@
 
 ## Selenium
 - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)
+
+## CIDR subnets
+- [cidr.xyz 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
+- https://en.wikipedia.org/wiki/Classful_network
+- [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74)
+- [pbxbook.com: CIDR Cheat Sheet](https://pbxbook.com/other/cidrcheat.html)
+- [aelius.com: subnet sheet](https://www.aelius.com/njh/subnet_sheet.html)
+- [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)
+- [dzone: What Is CIDR (Classless Inter-Domain Routing) ](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
+- [opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)
+- [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/)
+- [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)
+- [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
+
+## Scrum Cheat Sheet
+- [dzone: Scrum refcard](https://dzone.com/refcardz/scrum)
+- [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet/)
 
 <center>
 ![googling stuff](images/googling_stuff.jpg)

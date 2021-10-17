@@ -16,6 +16,7 @@
 - [k8s-ruby: Kubernetes Ruby Client](https://github.com/k8s-ruby/k8s-ruby)
 ## Go Clients for Kubernetes
 - [kubernetes/client-go: Go client for Kubernetes 🌟](https://github.com/kubernetes/client-go) Go clients for talking to a kubernetes cluster.
+    - [pkg.go.dev/k8s.io/client-go](https://pkg.go.dev/k8s.io/client-go)
 - [Rate Limiting in Controller-Runtime and Client-go](https://danielmangum.com/posts/controller-runtime-client-go-rate-limiting/)
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.

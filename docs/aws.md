@@ -208,6 +208,8 @@ You can filter by topic using the toolbar above.
 	- [github.com/acantril/learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs)
 	- [linkedin.com/pulse: So, you think you're an associate level Solutions Architect?](https://www.linkedin.com/pulse/so-you-think-youre-associate-level-solutions-adrian-cantrill/)
 - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing/)
+- [acloudguru.com: 10 fun hands-on projects to learn AWS](https://acloudguru.com/blog/engineering/10-fun-hands-on-projects-to-learn-aws)
+
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
@@ -500,6 +502,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
 - [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/)
+- [medium: AWS CLI with jq and Bash](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1) The CLI is utilitarian, but a little jq sauce makes it beautiful
 
 ## AWS Cloud Control API
 - [AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi/) **Manage AWS and third-party cloud infrastructure with consistent APIs**

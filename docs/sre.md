@@ -3,6 +3,7 @@
 - [SRE Tools](#sre-tools)
 - [Service Level Objectives (SLO)](#service-level-objectives-slo)
   - [OpenSLO](#openslo)
+  - [Validate Service-Level Objectives of REST APIs Using Iter8](#validate-service-level-objectives-of-rest-apis-using-iter8)
 - [Videos](#videos)
 - [Tweets](#tweets)
 ## SRE
@@ -57,6 +58,10 @@
 
 ### OpenSLO
 - [OpenSLO specification 🌟](https://github.com/OpenSLO/OpenSLO) The goal of this project is to provide an open specification for defining and interfacing with SLOs to allow for a common approach, giving a set vendor-agnostic solution to defining and tracking SLOs. Platform specific implementation details are purposefully excluded from the scope of this specification.
+
+### Validate Service-Level Objectives of REST APIs Using Iter8
+- [Iter8](https://iter8.tools)
+- [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8/)
 
 <center>
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
