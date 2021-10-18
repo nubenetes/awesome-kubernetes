@@ -32,6 +32,7 @@
         - [Deployment and Configuration](#deployment-and-configuration-1)
     - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
         - [JMeter Example Test Plans](#jmeter-example-test-plans)
+- [Prometheus and Azure](#prometheus-and-azure)
 - [Videos](#videos)
 
 ## Introduction
@@ -664,6 +665,8 @@ JMeter|Artemis Grafana|Artemis Dashboard
 :-------:|:---------:|:-------:
 ![jmeter artemis](images/jmeter_artemis.png)|![artemis grafana](images/artemis_grafana.png)|![artemis dashboard monitoring](images/artemis_dashboard_mon.png)
 
+## Prometheus and Azure
+- [Promitor 🌟](https://promitor.io) An Azure Monitor scraper for Prometheus 
 
 ## Videos
 <details>
