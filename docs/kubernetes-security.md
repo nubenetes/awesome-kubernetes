@@ -176,6 +176,7 @@
     6. Compare and analyze different runtime activity in pods of the same deployments
     7. If breached, scale suspicious pods to zero
 - [thenewstack.io: 6 Kubernetes Security Best Practices 🌟](https://thenewstack.io/6-kubernetes-security-best-practices/)
+- [kodekloud.com: Kubernetes Security Best Practices](https://kodekloud.com/kubernetes-security-best-practices/)
 
 <center>
 [![kubernetes security controls landscape](images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
