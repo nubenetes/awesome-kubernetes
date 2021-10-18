@@ -73,6 +73,7 @@
 ### Azure Red Hat OpenShift ARO
 - [ARO](https://www.openshift.com/products/azure-openshift)
 - [aroworkshop.io 🌟](http://aroworkshop.io/) 
+- [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/jboss-deployment-red-hat)
 
 ## Blogs
 - [Rcarrata's blog](https://rcarrata.com/)

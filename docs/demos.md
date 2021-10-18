@@ -648,7 +648,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## JBoss EAP 
 - [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. 
 - [redhat.com: Getting started with JBoss](https://www.redhat.com/sysadmin/getting-started-jboss) Learn how to set up JBoss EAP and start using it to build, run, deploy, and manage enterprise Java applications.
-- [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/jboss-deployment-red-hat)
 
 ## Terraform
 - [terraform.collabnix.com](https://collabnix.github.io/terraform/) An Ultimate Terraform Hands-on Labs. Get access to 50+ tutorials around Terraform, Kubernetes & Cloud.
