@@ -5,6 +5,7 @@
 		- [Which Version of JDK Should I Use?](#which-version-of-jdk-should-i-use)
 		- [Amazon Corretto OpenJDK distribution](#amazon-corretto-openjdk-distribution)
 	- [Use Java 11](#use-java-11)
+	- [Java 18](#java-18)
 	- [Java Collections Interview Questions](#java-collections-interview-questions)
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Jakarta EE](#jakarta-ee)
@@ -75,6 +76,9 @@
 - [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
 - [**AdoptOpenJDK 11** Is the New Default 🌟](https://blog.adoptopenjdk.net/2020/06/adoptopenjdk-11-new-default/)
 - [All You Need To Know For Migrating To Java 11](https://blog.codefx.org/java/java-11-migration-guide/)
+
+### Java 18
+- [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.java.net/jeps/413)
 
 ### Java Collections Interview Questions
 * [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
