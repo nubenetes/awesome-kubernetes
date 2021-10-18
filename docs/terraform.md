@@ -9,11 +9,13 @@
 	- [Terraform Cheat Sheets](#terraform-cheat-sheets)
 	- [Best Practices](#best-practices)
 	- [Terraform and CI/CD](#terraform-and-cicd)
+	- [Terraform Boilerplates](#terraform-boilerplates)
 	- [Terraform and Kubernetes](#terraform-and-kubernetes)
 	- [Terraform Kubernetes Boilerplates](#terraform-kubernetes-boilerplates)
 		- [Hashicorp Terraform Kubernetes Collection](#hashicorp-terraform-kubernetes-collection)
 		- [Learnk8s Terraform and Managed Kubernetes](#learnk8s-terraform-and-managed-kubernetes)
 		- [OpenShift and Terraform](#openshift-and-terraform)
+		- [Other Boilerplates](#other-boilerplates)
 	- [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
 	- [Terraform and K3s](#terraform-and-k3s)
 	- [Terraform and GCP](#terraform-and-gcp)
@@ -183,6 +185,11 @@
 * [dzone: Manage Multiple Environments With Terraform Workspaces](https://dzone.com/articles/manage-multiple-environments-with-terraform-worksp) Read this tutorial to learn about easily setting up Terraform to manage your CI/CD environments and create workspaces.
 * [hashicorp.com: Announcing Support for Code Signing for AWS Lambda in the Terraform AWS Provider](https://www.hashicorp.com/blog/announcing-support-for-aws-lambda-code-signing-in-the-terraform-aws-provider)
 
+### Terraform Boilerplates
+- https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples
+- https://github.com/hashicorp/terraform-provider-aws/tree/main/examples
+- https://github.com/hashicorp/terraform-provider-awscc/tree/main/examples/resources
+- etc
 ### Terraform and Kubernetes
 * [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
 * [hodovi.cc: Creating a Low Cost Managed Kubernetes Cluster for Personal Development using Terraform](https://hodovi.cc/blog/creating-low-cost-managed-kubernetes-cluster-personal-development-terraform/)
@@ -205,7 +212,8 @@
 - https://github.com/hashicorp/learn-terraform-provision-eks-cluster
 - https://github.com/hashicorp/learn-terraform-provision-gke-cluster
 - https://github.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider
-- [gist.github.com/chadmcrowell: AKS w/Virtual Nodes (ACI)](https://gist.github.com/chadmcrowell/4d11b8a56aba3bdc32ea73c31104357b)
+- https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples/kubernetes 🌟
+- https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples/kubernetes/nodes-on-internal-network 🌟
 
 #### Learnk8s Terraform and Managed Kubernetes
 * [learnk8s.io/terraform-gke: Provisioning Kubernetes clusters on AWS with Terraform and GKE 🌟](https://learnk8s.io/terraform-gke) Fully automated dev, staging, prod clusters with GKE and the GKE Ingress in a single click.
@@ -215,6 +223,9 @@
 
 #### OpenShift and Terraform
 * [Dzone: Platform as Code With Openshift and Terraform](https://dzone.com/articles/platform-as-code-with-openshift-amp-terraform) Learn how to set up a pipeline workflow with Openshift and the Terraform infrastructure-as-code tool to configure builds and deployments.
+
+#### Other Boilerplates
+- [gist.github.com/chadmcrowell: AKS w/Virtual Nodes (ACI)](https://gist.github.com/chadmcrowell/4d11b8a56aba3bdc32ea73c31104357b)
 
 ### Terraform Kubernetes Operator
 * [infoq.com: Managing Infrastructure from Kubernetes with the HashiCorp Terraform Operator](https://www.infoq.com/news/2020/04/terraform-operator-kubernetes/)
