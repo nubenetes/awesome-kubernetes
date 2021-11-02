@@ -38,5 +38,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">5 great code snippet websites for every web developer and designer <br><br>🧵👇🏻 <a href="https://t.co/rN41mIftMV">pic.twitter.com/rN41mIftMV</a></p>&mdash; Pratham (@Prathkum) <a href="https://twitter.com/Prathkum/status/1421218481081667586?ref_src=twsrc%5Etfw">July 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is WEB SCRAPING? 🤷‍♂️<br><br>To answer this question, I created a small web scraper for Amazon items.<br><br>This is a thread that explains step by step how it works 🧵👇<br><br>(find the complete code at the end) <a href="https://t.co/DWdkE8EAYh">pic.twitter.com/DWdkE8EAYh</a></p>&mdash; Marc Backes (@themarcba) <a href="https://twitter.com/themarcba/status/1423549087719243778?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 10 Programming Practices to Code Like a Pro😎<br><br>A THREAD 🧵👇</p>&mdash; Ayesha Sahar (@IAyeshaSahar) <a href="https://twitter.com/IAyeshaSahar/status/1451818320081031170?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -63,6 +63,7 @@
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/)
+- [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs. JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja) We ran a benchmark test in 2017 and again in 2021 to see how fast four of the most popular JSON libraries for Java parse different sizes of files.
 
 ### JSON in Ansible
 - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) Structured data is friendly for automation, and you can take full advantage of it with Ansible.
@@ -93,6 +94,7 @@
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
     - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
     - [github.com/shipa-corp/ketch](https://github.com/shipa-corp/ketch/) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
+    - [dzone.com: Use Ketch to Deploy Apps on Kubernetes Without YAML](https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne) An open-source project for deploying and managing applications on Kubernetes with a command-line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
 - [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
     

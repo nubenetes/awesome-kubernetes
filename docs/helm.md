@@ -74,6 +74,7 @@
 * [cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators](https://cloud.redhat.com/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators)
 * [codersociety.com: 13 Best Practices for using Helm](https://codersociety.com/blog/articles/helm-best-practices) Helm is an indispensable tool for deploying applications to Kubernetes clusters. But it is only by following best practices that you’ll truly reap the benefits of Helm. Here are 13 best practices to help you create, operate, and upgrade applications using Helm.
 * [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts/)
+* [dzone.com: Deploy a Java application using Helm, Part 1 (OpenShift) 🌟](https://dzone.com/articles/deploy-a-java-application-using-helm-part-1)
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

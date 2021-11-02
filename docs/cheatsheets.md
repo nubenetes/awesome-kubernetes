@@ -393,12 +393,14 @@
 - [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74)
 - [pbxbook.com: CIDR Cheat Sheet](https://pbxbook.com/other/cidrcheat.html)
 - [aelius.com: subnet sheet](https://www.aelius.com/njh/subnet_sheet.html)
+- [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet/)
 - [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)
 - [dzone: What Is CIDR (Classless Inter-Domain Routing) ](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
 - [opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)
 - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/)
 - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)
 - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
+- [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)
 
 ## Scrum Cheat Sheet
 - [dzone: Scrum refcard](https://dzone.com/refcardz/scrum)
@@ -406,4 +408,6 @@
 
 <center>
 ![googling stuff](images/googling_stuff.jpg)
+
+[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
 </center>

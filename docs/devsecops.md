@@ -120,6 +120,7 @@
 - [devops.com: Transform Mobile DevOps into Mobile DevSecOps](https://devops.com/transform-mobile-devops-into-mobile-devsecops/)
 - [softwebsolutions.com: What is DevSecOps and why your business needs it](https://www.softwebsolutions.com/resources/devops-security-tools-benefits.html)
 - [containerjournal.com: Siloscape: The Dark Side of Kubernetes](https://containerjournal.com/features/siloscape-the-dark-side-of-kubernetes/) **Siloscape is the first known malware to operate exclusively from within a container and target backdoors inside poorly configured Kubernetes clusters. Prizmant details how the malware collects data at the cluster level, making any hosted databases, user credentials and any business-critical data inside an easy and obvious target for the autonomous attacker.**
+- [thenewstack.io: Infrastructure-as-Code: 6 Best Practices for Securing Applications 🌟](https://thenewstack.io/infrastructure-as-code-6-best-practices-for-securing-applications/)
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
@@ -194,6 +195,8 @@
 
 ## Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images
 - [trivy](https://github.com/aquasecurity/trivy) A Simple and Comprehensive Vulnerability Scanner for Container Images, Git Repositories and Filesystems. Suitable for CI
+	- [blog.aquasec.com: A Security Review of Docker Official Images: Which Do You Trust? (with trivy)](https://blog.aquasec.com/docker-official-images)
+	- [dev.to: Terraform IaC Scanning with Trivy](https://dev.to/pwd9000/terraform-iac-scanning-with-trivy-3cai)
 - [returngis.net: Buscar vulnerabilidades en imágenes de Docker con Snyk](https://www.returngis.net/2021/09/buscar-vulnerabilidades-en-imagenes-de-docker-con-snyk/)
 - [iximiuz.com: The need for slimmer containers. Scanning official Python images with Snyk](https://iximiuz.com/en/posts/thick-container-vulnerabilities/)
 - [gkovan.medium.com: A Zero Trust Approach for Securing the Supply Chain of Microservices Packaged as Container Images (sigstore, kyverno, openshift tekton, quarkus) 🌟](https://gkovan.medium.com/a-zero-trust-approach-for-securing-the-supply-chain-of-microservices-packaged-as-container-images-89d2f5b7293b)
@@ -263,6 +266,8 @@
 - [git-cipher](https://github.com/wincent/git-cipher)
 
 ### HashiCorp Vault
+- [hashicorp/vault](https://github.com/hashicorp/vault) A tool for secrets management, encryption as a service, and privileged access management
+- [hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store CSI Driver](https://github.com/hashicorp/vault-csi-provider) HashiCorp Vault provider for the Secrets Store CSI driver allows you to get secrets stored in Vault and use the Secrets Store CSI driver interface to mount them into Kubernetes pods
 - [vaultproject.io](https://www.vaultproject.io/) Manage Secrets and Protect Sensitive Data. Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 - [medium: Coding for Secrets Reliability with HashiCorp Vault](https://medium.com/hashicorp-engineering/coding-for-secrets-reliability-with-hashicorp-vault-2090dd8667e)
 - [hashicorp.com: Vault & Kubernetes: Better Together](https://www.hashicorp.com/resources/vault-and-kubernetes-better-together/)
@@ -297,7 +302,6 @@
 - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
 - [igorzhivilo.com: Scheduled backup of Vault secrets with Jenkins on Kubernetes](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/) If you ever wondered how to save the secrets of HashiCorp's Vault on a daily basis.
 - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)
-- [hashicorp/vault-csi-provider: HashiCorp Vault Provider for Secrets Store CSI Driver](https://github.com/hashicorp/vault-csi-provider) HashiCorp Vault provider for the Secrets Store CSI driver allows you to get secrets stored in Vault and use the Secrets Store CSI driver interface to mount them into Kubernetes pods
 
 ### Azure Key Vault to Kubernetes akv2k8s
 - [akv2k8s.io 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way
@@ -365,6 +369,8 @@
 - [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes)
 - [Pomerium](https://github.com/pomerium/pomerium) is an identity-aware proxy that enables secure access to internal applications. Pomerium brings consistent authz/authn, tooling, and auditing across cloud and on-premise deployments. No VPN or cloud provider account is required
 - [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://cloud.redhat.com/blog/top-open-source-kubernetes-security-tools-of-2021)
+- [fluentbit.io](https://fluentbit.io) Fluent Bit is an open source Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations. It's the preferred choice for containerized environments like Kubernetes.
+	- [falco.org: Detect Malicious Behaviour on Kubernetes API Server through gathering Audit Logs by using FluentBit - Part 2](https://falco.org/blog/detect-malicious-behaviour-on-kubernetes-api-server-through-gathering-audit-logs-by-using-fluentbit-part-2/)
   
 ## Helm Charts Security
 - [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1) Or, how to deploy 25+ CVEs to prod in one command!

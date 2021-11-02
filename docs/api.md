@@ -1,5 +1,6 @@
 # APIs with SOAP, REST and gRPC
 - [APIs](#apis)
+- [Python FastAPI](#python-fastapi)
 - [Motivation](#motivation)
 - [API Testing Interview Questions](#api-testing-interview-questions)
 - [State of the API Report](#state-of-the-api-report)
@@ -51,6 +52,9 @@
 - [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a)
 - [freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
 - [dzone: API Throttling Strategies When Clients Exceed Their Limit](https://dzone.com/articles/api-throttling-strategies) Here's how to handle clients exceeding API rate limits, as well as a few alternate strategies to explore and implement.
+
+## Python FastAPI
+- [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi/)
 
 ## Motivation
 - [APIs published, APIs consumed: mainstream enterprises increasingly behave like software vendors](https://www.zdnet.com/article/apis-published-apis-consumed-mainstream-enterprises-increasingly-behave-like-software-vendors/) Mainstream enterprises increasingly reach out to customers with APIs, digital services. Unlike software providers though, many still have mostly on-premises infrastructure. 

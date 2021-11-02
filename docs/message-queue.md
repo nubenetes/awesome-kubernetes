@@ -72,6 +72,7 @@
 - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.
 - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture) Hybrid architecture with both RESTful and event-driven services.
 - [developers.redhat.com: Distributed transaction patterns for microservices compared](https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared)
+- [thenewstack.io: The Rise of Event-Driven Architecture ](https://thenewstack.io/the-rise-of-event-driven-architecture/)
  
 ## RPC vs Messaging
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
@@ -156,6 +157,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [daily.dev: Building a fault-tolerant event-driven architecture with Google Cloud, Pulumi and Debezium](https://daily.dev/blog/building-a-fault-tolerant-event-driven-architecture-with-google-cloud-pulumi-and-debezium)
 - [pradeepdaniel.medium.com: Creating an ETL data pipeline to sync data to Snowflake using Kafka and Debezium](https://pradeepdaniel.medium.com/real-time-change-data-replication-to-snowflake-using-kafka-and-debezium-d6ebb0d4eb29) Setting up a real-time data pipeline from scratch to sync data from transactional databases to Snowflake cloud warehouse.
 - [medium: A Visual Introduction to Debezium 🌟](https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8) A story-based introduction to understanding what Debezium is, how it is made of, and how it works in a real-world scenario
+- [debezium.io: Using Debezium to Create a Data Lake with Apache Iceberg](https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg/)
 
 ## Red Hat Integration service registry and Apicurio
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
@@ -276,6 +278,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps](https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps/)
 - [strimzi.io: Using HTTP Bridge as a Kubernetes sidecar](https://strimzi.io/blog/2021/08/18/using-http-bridge-as-a-kubernetes-sidecar/)
 - [strimzi.io: Using Open Policy Agent with Strimzi and Apache Kafka](https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/)
+- [strimzi/strimzi-canary](https://github.com/strimzi/strimzi-canary) This repository contains the Strimzi canary tool implementation. It acts as an indicator of whether Kafka clusters are operating correctly. This is achieved by creating a canary topic and periodically producing and consuming events on the topic and getting metrics out of these exchanges.
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)

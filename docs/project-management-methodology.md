@@ -48,6 +48,7 @@
 - [carlos-piqueres.medium.com: Product Backlog vs Sprint Backlog](https://carlos-piqueres.medium.com/product-backlog-vs-sprint-backlog-c951f972e979)
 - [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
 - [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)
+- [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -113,6 +114,10 @@
 
 [![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 
+[![mvp2](images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
+
+[![mvp3](images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
+
 [![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
 [![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
@@ -135,6 +140,10 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We really need to normalize the conversation around big tech and promotion processes that lead to unnecessary complexity and waste. <a href="https://t.co/pAfErKPKBH">https://t.co/pAfErKPKBH</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1442298856406863876?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I can&#39;t stop thinking how easier it looks to adjust to new organizations as a manager vs software engineer. Institutional knowledge, historical background, footprint/track record, and connections matter a lot more when you are a senior engineer.</p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1445439161570267141?ref_src=twsrc%5Etfw">October 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enterprise SaaS MVP trap .. <a href="https://t.co/CNXkHzFOnn">pic.twitter.com/CNXkHzFOnn</a></p>&mdash; John Cutler (@johncutlefish) <a href="https://twitter.com/johncutlefish/status/1452048722917871620?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"> <a href="https://t.co/r5qyaOWFXP">pic.twitter.com/r5qyaOWFXP</a></p>&mdash; Pukar (@PukarDesign) <a href="https://twitter.com/PukarDesign/status/1452141978167267332?ref_src=twsrc%5Etfw">October 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

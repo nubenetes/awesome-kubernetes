@@ -157,6 +157,11 @@
 - [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) Python overtakes Java and C for the first time in 20 years of a key language popularity index.
 - [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)
 - [sureshdsk.dev: Check diff between two files in Python](https://sureshdsk.dev/check-diff-between-two-files-in-python)
+- [freecodecamp.org: Python String split() and join() Methods – Explained with Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples/)
+- [pythonsimplified.com: How to schedule Python scripts using schedule library](https://pythonsimplified.com/how-to-schedule-python-scripts-using-schedule-library/)
+- [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class/)
+- [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python/)
+- [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/)
 
 ## APIs in Python
 - [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication

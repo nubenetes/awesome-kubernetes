@@ -14,6 +14,8 @@
 - [Container Tools](#container-tools)
 	- [Buildah](#buildah)
 	- [Skopeo](#skopeo)
+- [Images](#images)
+- [Tweets](#tweets)
 
 ## Introduction
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
@@ -84,6 +86,9 @@
 	- New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
 	- Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
 - [opensource.com: Get podman up and running on Windows using Linux](https://opensource.com/article/21/10/podman-windows-wsl) Enable WSL 2 guests to run the podman, skopeo, or buildah commands from within Windows using the Linux distribution of your choice.
+- [dzone.com: Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman](https://dzone.com/articles/beginners-guide-to-installing-decision-management) Recently the open source community project called Podman announced that there was solid support for using its container tooling to replace docker on your local development machine. 
+- [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman/)
+- [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.
@@ -113,4 +118,20 @@
 - [Promoting container images between registries with skopeo](https://www.openshift.com/blog/promoting-container-images-between-registries-with-skopeo)
 
 
+## Images
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
 [![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+</center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Running openvscode-server from <a href="https://twitter.com/hashtag/podman?src=hash&amp;ref_src=twsrc%5Etfw">#podman</a> with:<br><br>podman pull <a href="https://t.co/eXpnV9qXTt">https://t.co/eXpnV9qXTt</a><br>podman run -it --init -p 3000:3000 -v &quot;$(pwd):/home/workspace:cached&quot; gitpod/openvscode-server<br><br>Note; you might get a permission denied, is not aware of rootless use. Resolve with `chmod o+w -R` :-/</p>&mdash; Forever Young (@gbraad) (@gbraad) <a href="https://twitter.com/gbraad/status/1453259956120084486?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

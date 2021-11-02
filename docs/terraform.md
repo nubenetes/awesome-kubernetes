@@ -17,12 +17,12 @@
 		- [OpenShift and Terraform](#openshift-and-terraform)
 		- [Other Boilerplates](#other-boilerplates)
 	- [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
-	- [Terraform and K3s](#terraform-and-k3s)
-	- [Terraform and GCP](#terraform-and-gcp)
+	- [Terraform and K3s Boilerplates](#terraform-and-k3s-boilerplates)
+	- [Terraform and GCP Boilerplates](#terraform-and-gcp-boilerplates)
 	- [Terraform and AWS](#terraform-and-aws)
-		- [Terraform and managed AWS EKS](#terraform-and-managed-aws-eks)
+		- [Terraform and managed AWS EKS. Boilerplates](#terraform-and-managed-aws-eks-boilerplates)
 		- [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
-	- [Terraform and Azure](#terraform-and-azure)
+	- [Terraform and Azure. AKS Boilerplates](#terraform-and-azure-aks-boilerplates)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
@@ -156,6 +156,9 @@
 * [bridgecrew.io: Advanced Terraform security: Pro tips for secure infrastructure as code](https://bridgecrew.io/blog/advanced-terraform-security-pro-tips-for-secure-infrastructure-as-code)
 * [hub.qovery.com: Terraform is Not the Golden Hammer](https://hub.qovery.com/guides/engineering/terraform-not-the-golden-hammer/)
 * [scalefactory.com: Failing faster with terraform](https://scalefactory.com/blog/2021/10/13/failing-faster-with-terraform/) **Terraform validation rules**. Terraform is an extremely powerful tool, but with great power comes great opportunity to break stuff, or whatever Uncle Ben said. With a single command a developer can deploy hundreds of resources in an instant, and when that developer inevitably configured the inputs wrong Terraform makes it easy to patch or rollback that mistake. But you know what’s better than recovering from mistakes? Never making the mistake in the first place.
+* [medium.com/geekculture: Managing Infra with Terraform](https://medium.com/geekculture/managing-infra-with-terraform-275968590fa4)
+* [hashicorp.com: AWS and HashiCorp Collaborate on New Terraform Modules](https://www.hashicorp.com/blog/aws-hashicorp-collaborate-new-terraform-modules)
+* [learn.hashicorp.com: Automate Terraform with GitHub Actions](https://learn.hashicorp.com/tutorials/terraform/github-actions) Automate infrastructure deployments with CI/CD using Terraform and GitHub Actions
 
 ### HCL
 * [github.com/hashicorp/hcl: HCL](https://github.com/hashicorp/hcl) HCL is the HashiCorp configuration language.
@@ -189,6 +192,9 @@
 - https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples
 - https://github.com/hashicorp/terraform-provider-aws/tree/main/examples
 - https://github.com/hashicorp/terraform-provider-awscc/tree/main/examples/resources
+- [awesomeopensource.com: Terraform Aws Multi Az Subnets](https://awesomeopensource.com/project/cloudposse/terraform-aws-multi-az-subnets)
+- [github.com/cloudposse?q=terraform-](https://github.com/cloudposse?q=terraform-)
+- [devopshubproject/azure-terraform-ansible](https://github.com/devopshubproject/azure-terraform-ansible) This repo contains script which will help you to provision full functioning ansible lab environment on azure using terraform
 - etc
 ### Terraform and Kubernetes
 * [hashicorp.com: New Terraform Tutorials on Provisioning and Managing Kubernetes Clusters 🌟](https://www.hashicorp.com/blog/new-terraform-tutorials-on-provisioning-and-managing-kubernetes-clusters) Explore a new collection of Terraform tutorials that can help you through your Kubernetes adoption journey.
@@ -230,10 +236,10 @@
 ### Terraform Kubernetes Operator
 * [infoq.com: Managing Infrastructure from Kubernetes with the HashiCorp Terraform Operator](https://www.infoq.com/news/2020/04/terraform-operator-kubernetes/)
 
-### Terraform and K3s
+### Terraform and K3s Boilerplates
 * [Global K3s Deployment on Packet Baremetal 🌟](https://github.com/c0dyhi11/k3s-linkerd) This repository contains Terraform scripts to deploy K3s and LinkerD on Packet baremetal servers spanning the globe.
 
-### Terraform and GCP
+### Terraform and GCP Boilerplates
 * [learnk8s.io/terraform-gke  🌟](https://learnk8s.io/terraform-gke) Provisioning Kubernetes clusters on GCP with Terraform and GKE. Fully automated dev, test, prod environments with Google Kubernetes Engine (GKE) + container-native load balancing? The guide goes into the details of how you can provision your infrastructure with Terraform and how you can route live traffic with the GKE Ingress controller. By the end Kristijan M. will teach you how you can have: 
 	- The creation of 3 environments (dev, test, prod) automated
 	- A cluster that can handle live traffic with the GKE Ingress controller.
@@ -252,7 +258,7 @@
 * [medium: How to Provision AWS Infrastructure with Terraform? 🌟](https://medium.com/faun/provisioning-aws-infrastructure-with-terraform-6ab885fb3fcb)
 * [middlewareinventory.com: Terraform import All AWS Security Groups – How to 🌟](https://www.middlewareinventory.com/blog/terraform-import-securitygroup-aws/)
 
-#### Terraform and managed AWS EKS
+#### Terraform and managed AWS EKS. Boilerplates
 * [learnk8s.io/terraform-eks 🌟](https://learnk8s.io/terraform-eks) Fully automated dev, test, prod environments with EKS, Terraform and the ALB Ingress Controller. 
 * [github.com/maddevsio/aws-eks-base: Boilerplate for a basic AWS infrastructure with EKS cluster 🌟](https://github.com/maddevsio/aws-eks-base) This boilerplate contains the know-how of the Mad Devs team for the rapid deployment of a Kubernetes cluster, supporting services, and the underlying infrastructure in the Amazon cloud.
 
@@ -260,7 +266,7 @@
 * [awscc](https://registry.terraform.io/providers/hashicorp/awscc/latest) Lifecycle management of AWS resources powered by the AWS Cloud Control API. This provider is fully generated from the available CloudFormation resource definitions and is maintained internally by the HashiCorp AWS Provider team.
 * [hashicorp.com: Announcing Terraform AWS Cloud Control Provider Tech Preview](https://www.hashicorp.com/blog/announcing-terraform-aws-cloud-control-provider-tech-preview) This new provider for HashiCorp Terraform — built around the AWS Cloud Control API — is designed to bring new services to Terraform faster.
 
-### Terraform and Azure 
+### Terraform and Azure. AKS Boilerplates
 - [learnk8s.io/terraform-aks 🌟](https://learnk8s.io/terraform-aks)
 - [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08) Learn how to use Terraform to manage a highly-available Azure AKS Kubernetes cluster with Azure AD integration and Calico network policies enabled.
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
@@ -297,6 +303,7 @@
 
 ## Terraform Providers
 - [Junos-terraform: JUNOS Terraform Automation Framework (JTAF)](https://github.com/Juniper/Junos-terraform) 
+- [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) Terraform Provider for cascading runs across multiple workspaces.
 
 ## Terraform Quality Checks
 - [adinermie.com: Publishing GitHub Super-Linter Terraform Quality Checks to Azure DevOps Pipelines](https://adinermie.com/publishing-github-super-linter-terraform-quality-checks-to-azure-devops-pipelines/)

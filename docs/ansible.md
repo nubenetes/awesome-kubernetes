@@ -17,6 +17,7 @@
 	- [Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower)
 		- [Tower and AWX Installers](#tower-and-awx-installers)
 	- [Alternatives to Ansible Tower](#alternatives-to-ansible-tower)
+- [Ansible Kubernetes Operators](#ansible-kubernetes-operators)
 - [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
 - [Books](#books)
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
@@ -104,6 +105,7 @@
 * [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
 * [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)
 * [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
+* [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook/)
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
@@ -216,6 +218,9 @@
     * [theforeman.org: Updating Foreman inventory with system facts](https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html)
     * [theforeman.org: Foreman 3.0 is here!](https://theforeman.org/2021/09/foreman-30-is-here.html)
 * [Rundeck](https://www.rundeck.com/ansible)
+
+## Ansible Kubernetes Operators
+- [ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes](https://www.ansible.com/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes)
 
 ## Ansible Molecule. Development and Testing of Ansible Roles
 * [Ansible Molecule](https://molecule.readthedocs.io/) Molecule project is designed to aid in the development and testing of Ansible roles.

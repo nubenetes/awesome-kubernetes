@@ -112,6 +112,7 @@
 * [dev.to: Beginner's guide to Docker and Docker CLI commands](https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75)
 * [testdriven.io: Docker Best Practices for Python Developers](https://testdriven.io/blog/docker-best-practices/)
 * [freecodecamp.org: Learn How to Deploy 12 Apps to AWS, Azure, & Google Cloud](https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud/)
+* [cloudsavvyit.com: How to Assign a Static IP to a Docker Container](https://www.cloudsavvyit.com/14508/how-to-assign-a-static-ip-to-a-docker-container/)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
@@ -142,6 +143,7 @@
 * [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments/)
 * [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582) Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…
 * [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage/)
+* [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
 
 ## Reducing Build Time
 * [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)

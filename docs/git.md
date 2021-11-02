@@ -136,6 +136,7 @@
 * [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)
 * [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) Ever accidentally deleted files or necessary code? Or do you wish to look back at an older version of your code?
 * [css-tricks.com: Better Collaboration With Pull Requests](https://css-tricks.com/better-collaboration-with-pull-requests/)
+* [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main/)
 
 ## Cherry-picking
 * [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) Cherry-picking solves a lot of problems in Git repositories. Here are three ways to fix your mistakes with git cherry-pick.
@@ -303,6 +304,7 @@ git push origin -f
 * [about.gitlab.com: Why we built GitDock, our desktop app to navigate your GitLab activities](https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities)
 * [about.gitlab.com: GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available](https://about.gitlab.com/blog/2021/10/12/open-shift-ga/)
 * [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://containerjournal.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift/)
+* [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci/)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
@@ -377,6 +379,7 @@ git push origin -f
 - [blog.thundra.io: How to Set Up a CI Pipeline in GitHub Actions](https://blog.thundra.io/how-to-set-up-a-ci-pipeline-in-github-actions)
 - [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling/)
 - [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests/)
+- [blog.thundra.io: Top 10 GitHub Actions You Should Use to set up your CI/CD Pipeline](https://blog.thundra.io/top-10-github-actions-you-should-use-to-set-up-your-ci/cd-pipeline)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 

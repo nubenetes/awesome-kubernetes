@@ -25,6 +25,7 @@
     - [Mirantis Docker Enterprise with Kubernetes and Docker Swarm](#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm)
     - [Mirantis k0s](#mirantis-k0s)
     - [K0s](#k0s)
+    - [K8e](#k8e)
 
 ## Introduction
 - [containerjournal.com: Deploying Kubernetes on Bare Metal](https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/)
@@ -181,3 +182,6 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [K0s - Zero Friction Kubernetes](https://github.com/k0sproject/k0s) k0s is an all-inclusive Kubernetes distribution with all the required bells and whistles preconfigured to make building a Kubernetes clusters a matter of just copying an executable to every host and running it.
 - [medium: k0s Ready for Production](https://medium.com/k0sproject/k0s-ready-for-production-20255c4b0791)
 - [medium: k0s Optimizes Start Time, Adds Cluster Level Backup/Restore and More](https://medium.com/k0sproject/k0s-optimizes-start-time-adds-cluster-level-backup-restore-and-more-8ffef894a1ae)
+
+### K8e
+- [xiaods/k8e](https://github.com/xiaods/k8e) K8e 🚀 (said 'kuber easy') - Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices. 

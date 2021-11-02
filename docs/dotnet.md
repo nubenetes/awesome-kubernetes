@@ -1,6 +1,7 @@
 # Microsoft .NET
 - [Introduction](#introduction)
 - [ASP.NET Core](#aspnet-core)
+- [NuGet Packages and nuspec file](#nuget-packages-and-nuspec-file)
 - [Polly .NET resilience and transient-fault-handling library](#polly-net-resilience-and-transient-fault-handling-library)
 - [Paradigm framework](#paradigm-framework)
 - [More dotnet frameworks and tools](#more-dotnet-frameworks-and-tools)
@@ -16,6 +17,12 @@
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)
 - [dzone: Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL](https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d) This article looks at RESTful architecture and how we can implement a RESTful service using ASP.NET Core and dotConnect for PostgreSQL.
 - [enlear.academy: Repository Pattern and Unit of Work with ASP.NET Core Web API](https://enlear.academy/repository-pattern-and-unit-of-work-with-asp-net-core-web-api-6802e1aa4f78)
+- [itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f) Use RabbitMQ, C#, REST-API and Entity Framework for asynchronous decoupled communication and eventually consistency with integration events and publish-subscribe
+
+## NuGet Packages and nuspec file
+- [dzone: How to Create and Publish NuGet Packages Using .NET Core CLI](https://dzone.com/articles/how-to-create-and-publish-nuget-packages-using-net)
+- [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md)
+- [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b)
 
 ## Polly .NET resilience and transient-fault-handling library 
 - [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.

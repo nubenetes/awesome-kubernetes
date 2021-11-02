@@ -12,6 +12,8 @@
 - [Garbage Collection and Heap Offloading](#garbage-collection-and-heap-offloading)
 - [Java Tracing Tools. JDK Flight Recorder](#java-tracing-tools-jdk-flight-recorder)
 - [Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)](#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014)
+- [Slides](#slides)
+- [Tweets](#tweets)
 
 ## Java Performance Optimization
 * [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps
@@ -131,12 +133,22 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 1. caché de sesión de usuarios, donde un fichero mapeado en memoria almacena gigabytes de sesiones de usuarios inactivos. Una vez que el usuario hace log-in, la aplicación dispone de todos sus datos sin ser necesaria una consulta a la BBDD. 
 2. caché de resultados computacionales como queries, páginas html, etc (donde el coste computacional es mayor a la deserialización)
 
+## Slides
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <div class="container">
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="//www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
 </div>
 </center>
-<br/>
+</details>
 
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
 
-
+<center>
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://t.co/MRP0RwJWaG">pic.twitter.com/MRP0RwJWaG</a></p>&mdash; Bruno Borges (@brunoborges) <a href="https://twitter.com/brunoborges/status/1449655747764056073?ref_src=twsrc%5Etfw">October 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

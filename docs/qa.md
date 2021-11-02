@@ -40,6 +40,8 @@ the #1 test automation community.
 * [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation/)
 * [dzone: A Detailed Comparison: Unit Testing vs. Functional Testing](https://dzone.com/articles/detailed-comparison-unit-testing-vs-functional-testing) The main goal of any testing is to deliver a quality product with find the right job balance between unit testing and functional testing.
 * [dzone: Microservice Testing Strategies](https://dzone.com/articles/microservice-testing-strategies) This article contains Microservice testing strategies. Learn more about testing in layered architectures.
+* [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly) We should write tests to enable developers to move fast with confidence. Code is always evolving, so question everything, collect experience, and judge for yourself.
+* [thenewstack.io: Error Handling from Backends to the Frontend](https://thenewstack.io/error-handling-from-backends-to-the-frontend/)
 
 ## Testing Frameworks
 * [JUnit](https://junit.org)

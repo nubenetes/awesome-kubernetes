@@ -187,6 +187,8 @@
 - [cyberciti.biz: How to use df command in Linux / Unix {with examples}](https://www.cyberciti.biz/faq/df-command-examples-in-linux-unix/)
 - [commandlinefu.com: Compare directories via diff](https://www.commandlinefu.com/commands/view/9116/compare-directories-via-diff): `diff -rq dirA dirB`
 - [opensource.com: Check Java processes on Linux with the jps command](https://opensource.com/article/21/10/check-java-jps) With many processes running on a system, it's useful to have a quick way to identify only Java with the jps command.
+- [opensource.com: Get memory use statistics with this Linux command-line tool](https://opensource.com/article/21/10/memory-stats-linux-smem) The smem command allows you to quickly view your web applications' memory use.
+- [redhat.com: 3 basic Linux group management commands every sysadmin should know](https://www.redhat.com/sysadmin/linux-commands-manage-groups) How to use the groupadd, groupmod, and groupdel commands is essential knowledge for Linux sysadmins.
 
 ## BusyBox
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux
@@ -219,6 +221,7 @@
 - [cyberciti.biz: Bash Read Comma Separated CSV File on Linux / Unix](https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile)
 - [fedoramagazine.org: Bash Shell Scripting for beginners (Part 1)](https://fedoramagazine.org/bash-shell-scripting-for-beginners-part-1/)
 - [igoroseledko.com: Awk & sed Snippets for SysAdmins](https://www.igoroseledko.com/awk-sed-snippets-for-sysadmins/)
+- [dev.to: Writing Bash Scripts Like A Pro - Part 1 - Styling Guide](https://dev.to/unfor19/writing-bash-scripts-like-a-pro-part-1-styling-guide-4bin)
 
 ## Automation. Bash VS Python VS JavaScript
 - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e) Comparing the pros and cons of Bash, Python, and JavaScript-based Shell scripts
@@ -316,6 +319,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">bash for president <a href="https://t.co/CpIQh23az1">pic.twitter.com/CpIQh23az1</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1407081109570166791?ref_src=twsrc%5Etfw">June 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">DEPRECATED LINUX COMMANDS AND THEIR REPLACEMENTS💻<br><br>A short overview for Linux commands that have been replaced.❌</p>&mdash; Seb 🇧🇦 (@LinuxSeb) <a href="https://twitter.com/LinuxSeb/status/1443393886865408002?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linux has so many built-in password managers:<br> syslog<br>.bash_history<br>.zsh_history<br>.mysql_history<br>…</p>&mdash; 🇫🇷 Jean-Ph˙ ͜ʟ˙ppe 🇪🇺 (@Jipe_) <a href="https://twitter.com/Jipe_/status/1450181992260177923?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

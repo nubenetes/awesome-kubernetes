@@ -8,6 +8,7 @@
   - [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
+- [Backends for Frontends](#backends-for-frontends)
 - [Cloud Migration Checklist](#cloud-migration-checklist)
 - [Microservices Failures](#microservices-failures)
 - [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
@@ -15,7 +16,7 @@
 - [From SysAdmin to Architect](#from-sysadmin-to-architect)
 - [Raft Consensus Algorithm](#raft-consensus-algorithm)
 - [PaaS](#paas)
-- [Micro Frontends](#micro-frontends)
+- [Micro Frontend Architecture](#micro-frontend-architecture)
 - [Modular Monolith](#modular-monolith)
 - [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
 - [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
@@ -159,6 +160,7 @@
 * [cloud.redhat.com: How to Modernize Virtualized Workloads 🌟](https://cloud.redhat.com/blog/how-to-modernize-virtualized-workloads) how to #Modernize workloads using OpenShift. The example is with DotNet and MSSQL server.
 * [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e)
 * [dzone: Transitioning from Monolith to Microservices (with python django example)](https://dzone.com/articles/transitioning-from-monolith-to-microservices)
+* [cncf.io: How to justify infrastructure replacement to your manager](https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager)
 
 ## Twelve-Factor Apps in Kubernetes
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
@@ -192,6 +194,9 @@
 - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/) Your microservices should be more than simple RESTful APIs. They should also be publishing important events, such as a change feed. 
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
+
+## Backends for Frontends
+- [developers.soundcloud.com: Service Architecture at SoundCloud — Part 1: Backends for Frontends](https://developers.soundcloud.com/blog/service-architecture-1)
 
 ## Cloud Migration Checklist
 - [betterprogramming.pub: A Cloud Migration Questionnaire for Solution Architects 🌟🌟](https://betterprogramming.pub/a-cloud-migration-questionnaire-for-solution-architects-dec7ffcf063e) The questions you must ask your customers before migrating their on-premise workload to AWS Cloud:
@@ -228,8 +233,9 @@
 ## PaaS
 - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
 
-## Micro Frontends
+## Micro Frontend Architecture
 - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8) Monolithic frontends are difficult to maintain, develop, test, and deploy. The solution is micro frontends. It is a type of architecture that can increase effectiveness and efficiency across teams.
+- [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325)
 
 ## Modular Monolith
 - [kamilgrzybek.com: Modular Monolith: A Primer 🌟](https://www.kamilgrzybek.com/design/modular-monolith-primer/)

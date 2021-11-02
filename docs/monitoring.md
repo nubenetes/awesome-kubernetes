@@ -89,6 +89,7 @@
 * [dzone: Monitoring Web Servers Should Never Be Complex](https://dzone.com/articles/monitoring-web-servers-should-never-be-complex) Monitoring Web Services can become very very complex. But what really is needed to detect a failure? And how can setup and simplify your monitoring?
 * [dynatrace.com: What is observability? Not just logs, metrics and traces](https://www.dynatrace.com/news/blog/what-is-observability-2/)
 * [thenewstack.io: Observability Is the New Kubernetes 🌟](https://thenewstack.io/observability-is-the-new-kubernetes/)
+* [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design/) Logging infrastructure system design is very important for each and every infrastructure as you need to look into logs. When you have a huge number of applications talking to each other there is an enormous amount of logs that they produce. Handling this amount of logs can be very costly and a headache. Let’s look at this problem for handling your logs at scale and Logging infrastructure System Design.
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)
@@ -290,6 +291,7 @@ done
 - [OpenTelemetry.io](https://opentelemetry.io/): 
     - **Unified standard** (open, vendor-neutral API), **merge of [OpenCensus.io](https://opencensus.io/) and [OpenTracing.io](https://opentracing.io/)**. 
     - “A single set of system components and language-specific telemetry libraries” to standardize how the industry uses metrics, traces, and eventually logs to enable observability. 
+    - [dynatrace.com: What is  OpenTelemetry? An open-source standard for logs, metrics, and traces](https://www.dynatrace.com/news/blog/what-is-opentelemetry-2/)
 - A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**. 
 - **Tracing** is about analyzing, recording, and describing transactions.
 - **Distributed Tracing:** Troubleshooting requests between interconnected cloud-based microservices can’t always be done with logs and metrics alone. This is where distributed tracing comes into play: It provides developers with a  detailed view of individual requests as they “hop” through a system of microservices. With **distributed tracing** you can:

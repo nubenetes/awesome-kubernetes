@@ -88,6 +88,7 @@ A simple extension to make indentation more readable
     * [twitter.com/pythonvscode](https://twitter.com/pythonvscode)
     * [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
     * [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
+* [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) Yes, there’s more than GitLens!
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package
@@ -207,6 +208,9 @@ A simple extension to make indentation more readable
 	- [gitpod.io: VS Code in the browser for everyone](https://www.gitpod.io/blog/openvscode-server-launch)
 	- [thenewstack.io: GitPod OpenVSCode Server Brings Visual Studio Code to the Browser](https://thenewstack.io/gitpod-openvscode-server-brings-visual-studio-code-to-the-browser/)
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
+- [vscode.dev 🌟](https://vscode.dev/) 
+	- [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
+	- [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
 
 ## Videos
 <details>

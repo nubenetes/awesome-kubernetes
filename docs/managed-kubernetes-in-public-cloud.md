@@ -3,6 +3,7 @@
 - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
 - [Other Managed Kubernetes](#other-managed-kubernetes)
 - [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
+    - [AWS EKS Vs ECS Vs Fargate](#aws-eks-vs-ecs-vs-fargate)
     - [EKS Anywhere (on premises)](#eks-anywhere-on-premises)
     - [Testing Kubernetes Canary deployment on EKS](#testing-kubernetes-canary-deployment-on-eks)
 - [AKS Azure Kubernetes Service](#aks-azure-kubernetes-service)
@@ -15,6 +16,7 @@
 ## Introduction
 * [infoworld.com: 6 reasons to switch to managed Kubernetes](https://www.infoworld.com/article/3614605/6-reasons-to-switch-to-managed-kubernetes.html) Managed Kubernetes services have matured to the point where many enterprises are handing over the keys to their clusters. Here we identify some of the main drivers behind that trend.
 * [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnk8s.io/allocatable-resources) Not all CPU and memory in your Kubernetes nodes can be used to run Pods. In this article, you will learn how managed Kubernetes Services such AKS, EKS and GKE reserve resources for workloads, operating systems, daemons and Kubernetes agent.
+* [armosec.io: Which Managed Kubernetes Is Right for Me?](https://www.armosec.io/blog/which-managed-kubernetes-is-right-for-me)
 
 ## GKE vs EKS vs AKS
 * [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
@@ -105,6 +107,10 @@
 * [aws.amazon.com: Using Prometheus Adapter to autoscale applications running on Amazon EKS](https://aws.amazon.com/blogs/mt/automated-scaling-of-applications-running-on-eks-using-custom-metric-collected-by-amazon-prometheus-using-prometheus-adapter/)
 * [youtube: CloudGeeks - Terraform Eks Kubernetes RDS Secrets Manager Eksctl Cloudformation ALB Controller (Redmine App)](https://www.youtube.com/watch?v=OFZYIr66Ku4&ab_channel=cloudgeeksinc) - [quickbooks2018/eks-redmin](https://github.com/quickbooks2018/eks-redmin)
 * [aws.amazon.com: Kubernetes Ingress with AWS ALB Ingress Controller](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
+* [automateinfra.com: The Ultimate Guide on AWS EKS for Beginners (Easiest Way)](https://automateinfra.com/2021/10/19/the-ultimate-guide-on-aws-eks-for-beginners-easiest-way/)
+
+### AWS EKS Vs ECS Vs Fargate
+* [cloudify.co: AWS EKS Vs. ECS Vs. Fargate: The Breakdown](https://cloudify.co/blog/aws-eks-vs-ecs-vs-fargate/)
 
 ### EKS Anywhere (on premises)
 - [EKS Anywhere: github.com/aws/eks-anywhere](https://github.com/aws/eks-anywhere) Run Amazon EKS on your own infrastructure
@@ -163,6 +169,7 @@
 - [docs.microsoft.com: Best practices for cluster isolation in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation)
 - [docs.cloudblue.com: Deploying an AKS Cluster with Custom IP Ranges (ARM template)](https://docs.cloudblue.com/cbc/20.5/premium/content/Deployment-of-Product-to-Azure-Cloud-Guide/Deploying-AKS-Cluster-with-Custom-IP-Ranges.htm)
 - [k21academy.com: Azure Kubernetes Service & Azure Container Instances For Beginners 🌟](https://k21academy.com/microsoft-azure/az-303/azure-container-instances-and-kubernetes-service)
+- [azurecloudai.blog: Deploy Azure Kubernetes Service (AKS) to a preexisting VNET](https://azurecloudai.blog/2019/09/27/deploy-azure-kubernetes-service-aks-to-a-preexisting-vnet/)
 
 ## GKE Google Kubernetes Engine
 - [Fetches all Primitive and Predefined GCP IAM Roles](https://github.com/darkbitio/gcp-iam-role-permissions)
@@ -200,6 +207,7 @@
 - [kubesphere.io: Scaling a Kubernetes Cluster: One of the Best Practices for Using KubeKey](https://kubesphere.io/blogs/scale-kubernetes-cluster-using-kubekey/)
 - [itnext.io: Adding Master Nodes to Achieve HA: One of the Best Practices for Using KubeKey](https://itnext.io/adding-master-nodes-to-achieve-ha-one-of-the-best-practices-for-using-kubekey-6207e94b0bdd)
 - [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&t=40s&ab_channel=KubeSphere) Two built-in Jenkins pipeline templates are available in KubeSphere 3.1. DevOps team can generate CICD or customize the workflow as you need by simple drag-and-drop.
+- [itnext.io: KubeSphere: A New Pluggable Kubernetes Application Management Platform](https://itnext.io/kubesphere-a-new-pluggable-kubernetes-application-management-platform-bf078b9f3330)
 
 ## Tools for multi-cloud Kubernetes management
 - [Banzai Cloud 🌟](https://banzaicloud.com/)

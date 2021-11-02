@@ -2,6 +2,7 @@
 - [Introduction](#introduction)
 - [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
 - [SQL](#sql)
+- [Stored Procedures](#stored-procedures)
 - [Performance](#performance)
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
 - [Serverless Databases](#serverless-databases)
@@ -79,6 +80,8 @@
 * [hackernoon.com: Practical Transaction Handling in Microservice Architecture](https://hackernoon.com/practical-transaction-handling-in-microservice-architecture-5x1631ke)
 * [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization/)
 * [medium: How to Put a Database in Kubernetes](https://medium.com/building-the-open-data-stack/how-to-put-a-database-in-kubernetes-ab7c21540ec2) For example, a deployment of Apache Cassandra will typically use a StatefulSet to launch pods across available Kubernetes worker nodes, with each Cassandra pod having its own PersistentVolumeClaim that can be preserved and reused if the pod needs to be replaced.
+* [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management/)
+* [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report/) Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization's decision to run stateful workloads on Kubernetes. 
 
 ## How to choose the right database for your service 
 * [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)
@@ -87,6 +90,10 @@
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
 - [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference/)
 - [vettabase.com: How slow is SELECT * ?](https://vettabase.com/blog/how-slow-is-select/)
+
+## Stored Procedures
+- [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)
+- [stackoverflow.com: Is the usage of stored procedures a bad practice?](https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice)
 
 ## Performance
 - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739) “If everything seems under control, you’re not going fast enough”
@@ -864,6 +871,9 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac 
 - [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset/)
 - [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://blog.crunchydata.com/blog/d-meta)
+- **Why Postgres?**
+    - Its fully open source, so control over destiny
+    - Features are comparable to Oracle, so minimizes mental friction of the move
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
@@ -919,5 +929,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stack Overflow&#39;s SQL Server is at 4% CPU with 500M queries/day <a href="https://t.co/wX9Od749ik">https://t.co/wX9Od749ik</a> <a href="https://t.co/1BAuEV9VgT">https://t.co/1BAuEV9VgT</a></p>&mdash; Lukas Eder (@lukaseder) <a href="https://twitter.com/lukaseder/status/1428025568461737996?ref_src=twsrc%5Etfw">August 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">PostgreSQL for relational.<br>PromQL for monitoring.<br><br>Two big alignments across the industry.</p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1448084198418522113?ref_src=twsrc%5Etfw">October 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m super curious, how many people have successfully migrated their databases from Oracle to Postgres in production? I&#39;m talking 100% migration with Oracle being turned off at the end.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1455212853678338048?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

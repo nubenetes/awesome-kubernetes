@@ -25,6 +25,7 @@
 - [k21academy.com: Monolithic vs Microservices – Difference, Advantages & Disadvantages](https://k21academy.com/docker-kubernetes/monolithic-vs-microservices/)
 - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)
 - [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage/) Into this discussion about the new container data-services layer come two main approaches: container-native and container-ready.
+- [blog.risingstack.com: Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
 
 ## History of Microservices
 - [History of Microservices](https://bit.ly/kubeappserver)

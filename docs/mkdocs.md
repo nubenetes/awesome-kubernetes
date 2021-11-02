@@ -13,6 +13,7 @@
     - [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
     - [www.electron.build](https://www.electron.build/)
     - etc
+- [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)
 
 ## Material for MkDocs
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)

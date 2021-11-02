@@ -14,6 +14,8 @@
 * [medium: AWS vs Azure — Battle Of The Best Cloud Computing Platforms](https://medium.com/edureka/aws-vs-azure-1a882339f127)
 * [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)
 * [xataka.com: El talón de Aquiles de AWS son sus altas tarifas de salida de datos, y sus rivales empiezan a explotarlo: guerra de precios contra el gigante de la nube](https://www.xataka.com/pro/talon-aquiles-aws-sus-altas-tarifas-salida-datos-sus-rivales-empiezan-a-explotarlo-guerra-precios-gigante-nube)
+* [cast.ai: Ultimate cloud pricing comparison: AWS vs. Azure vs. Google Cloud in 2021](https://cast.ai/blog/ultimate-cloud-pricing-comparison-aws-vs-azure-vs-google-cloud-in-2021) An analysis of cloud pricing: running compute nodes on AWS vs. Azure vs. Google Cloud
+* [xataka.com: Así se reparte el mercado cloud: los tres grandes tienen el 63%, los siguientes 10 un 22%](https://www.xataka.com/pro/asi-se-reparte-mercado-cloud-tres-grandes-tienen-63-siguientes-10-22)
 
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)

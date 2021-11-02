@@ -131,6 +131,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [itnext.io: Jenkins Tutorial — Part 1 — Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-1-pipelines-bd1397cf5509)
     * [itnext.io: Jenkins Tutorial — Part 2 — Pipeline Variables 🌟](https://itnext.io/jenkins-tutorial-part-2-pipeline-variables-5e4783aa2c07)
     * [itnext.io: Jenkins Tutorial — Part 3 — Parameterized Pipeline 🌟](https://itnext.io/jenkins-tutorial-part-3-parameterized-pipeline-3898643ac6ad)
+    * [itnext.io: Jenkins Tutorial — Part 7 — Interactive Pipelines 🌟](https://itnext.io/jenkins-tutorial-part-7-interactive-pipelines-a739b23ac41c?gi=563a447caa2b)
 * [dev.to: Send notification to slack from the Jenkins CI Job and Jenkinsfile](https://dev.to/eavnitech/send-notification-to-slack-from-the-jenkins-ci-job-and-jenkinsfile-e-avni-tech-2lm5)
 * [dev.to: Setting up a CI/CD with Jenkins](https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln)
 * [fabiogomezdiaz.com: How to Run Packer Pipelines on Jenkins: Part 1 - Traditional Jenkins](https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part1-traditional-jenkins/)
@@ -140,7 +141,9 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [igorzhivilo.com: Build CI/CD of the future with Kubernetes (AWS EKS) and Jenkins 🌟](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/) **A series of tutorials with code examples about how to build CI/CD of the future using Kubernetes/Jenkins/AWS**
 * [community.jenkins.io: DSTY - jenkins-std-lib (Shared Library) - Interact with files/directories using Groovy!](https://community.jenkins.io/t/dsty-jenkins-std-lib-shared-library-interact-with-files-directories-using-groovy/398) - [Pipeline Utility Steps 🌟](https://plugins.jenkins.io/pipeline-utility-steps/) Small, miscellaneous, cross platform utility steps for Jenkins Pipeline jobs [githu ref](https://github.com/jenkinsci/pipeline-utility-steps-plugin)
 * [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) This shows integrating a Jenkins with Teleport Application Access for Access and Authentication. 
-
+* [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) Select different Jenkinsfiles as a parameter in MultiBranch Jobs
+* [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) How to pull from Git, build a Docker image, and publish the image to Docker Hub.
+ 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)
 
@@ -353,6 +356,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance)
 * [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools)
 * [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins) Jenkins is a fantastic CI/CD solution but it has a significant weak point: Managing & scaling Jenkins for the enterprise is an uphill battle. Tanya Jacob shares the 2 most common issues we hear from enterprises using Jenkins & how to fix them.
+* [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance)
 
 ## Ansible and Jenkins. Running Ansible Playbooks From Jenkins
 * [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
@@ -660,6 +664,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can save a lot of time and resources if you configure the clone your <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> jobs to perform a shallow, no tags clone instead of a full clone. The screenshot shows how to configure it in a Jenkinsfile.<a href="https://twitter.com/hashtag/Jenkins?src=hash&amp;ref_src=twsrc%5Etfw">#Jenkins</a> <a href="https://twitter.com/hashtag/cicd?src=hash&amp;ref_src=twsrc%5Etfw">#cicd</a> <a href="https://t.co/yI0EFGTYbQ">pic.twitter.com/yI0EFGTYbQ</a></p>&mdash; Igorski (@IgorskiCo) <a href="https://twitter.com/IgorskiCo/status/1437309452416425990?ref_src=twsrc%5Etfw">September 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">For everyone participating in the the <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> panel by <a href="https://twitter.com/incredibuild?ref_src=twsrc%5Etfw">@incredibuild</a>, here are my slides about evolution of CI/CD tools. Jenkins and other &quot;classic&quot; tools remain very relevant in 2021 <a href="https://t.co/iFyNe6Mqn9">https://t.co/iFyNe6Mqn9</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1440684224793624582?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why did I not think of this before <a href="https://twitter.com/jenkinsci?ref_src=twsrc%5Etfw">@jenkinsci</a> if you want your build parameters to be sticky:<br><br>parameters {<br> string name: &#39;STICKY&#39;, defaultValue: params.STICKY?:&#39;initial value&#39;<br>} <a href="https://t.co/QCRFYuTfJS">pic.twitter.com/QCRFYuTfJS</a></p>&mdash; 😀 Stephen Connolly (@connolly_s) <a href="https://twitter.com/connolly_s/status/1450743524291399682?ref_src=twsrc%5Etfw">October 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

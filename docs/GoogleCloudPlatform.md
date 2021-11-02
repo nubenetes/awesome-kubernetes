@@ -15,6 +15,7 @@
 - [Tools](#tools)
 - [Videos](#videos)
 - [Images](#images)
+- [Tweets](#tweets)
 
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
@@ -27,6 +28,8 @@
     * [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
     * [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
 * [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
+* [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
+  * [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
 
 ## Google Cloud
 - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)
@@ -53,6 +56,7 @@
 - [cloud.google.com: Cloud DNS explained!](https://cloud.google.com/blog/topics/developers-practitioners/cloud-dns-explained)
 - [cloud.google.com: Where should I run my stuff? Choosing a Google Cloud compute option](https://cloud.google.com/blog/topics/developers-practitioners/where-should-i-run-my-stuff-choosing-google-cloud-compute-option)
 - [cloud.google.com: What is Cloud Load Balancing?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-load-balancing)
+- [cloud.google.com: Google Cloud Networking overview 🌟🌟](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
@@ -116,3 +120,15 @@
 [![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
 </center>
 </details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🎟 You want to get a ticket to <a href="https://twitter.com/googlecloud?ref_src=twsrc%5Etfw">@googlecloud</a> networking, it&#39;s really cool!<br>🤓 I take an example company and walk trough the different networking services, take look 👉 <a href="https://t.co/tTwLp7DXH4">https://t.co/tTwLp7DXH4</a><a href="https://twitter.com/hashtag/cloudnetworking?src=hash&amp;ref_src=twsrc%5Etfw">#cloudnetworking</a> <a href="https://twitter.com/hashtag/cloudcomputing?src=hash&amp;ref_src=twsrc%5Etfw">#cloudcomputing</a> <a href="https://t.co/yFVEUpLy1g">pic.twitter.com/yFVEUpLy1g</a></p>&mdash; Priyanka Vergadia (@pvergadia) <a href="https://twitter.com/pvergadia/status/1455233394476998660?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+
+
+

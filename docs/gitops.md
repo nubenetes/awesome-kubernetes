@@ -100,6 +100,7 @@
 - [betterprogramming.pub: How GitOps Can Help Prevent Security Misconfigurations](https://betterprogramming.pub/how-gitops-can-help-prevent-security-misconfigurations-8b506dcd89e1) Cloud-native development comes with its own set of security risks. Know how to tackle them
 - [blogs.sap.com: Decentralized GitOps over multiple environments](https://blogs.sap.com/2021/05/06/decentralized-gitops-over-environments/)
 - [thenewstack.io: Application Deployment Is Faster with GitOps](https://thenewstack.io/application-deployment-is-faster-with-gitops/)
+- [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://twitter.com/janakiramm) - git init, git add, git commit, git status, git log, git revert - to harness the power of GitOps.
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)

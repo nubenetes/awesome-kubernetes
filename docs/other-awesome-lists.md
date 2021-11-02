@@ -11,6 +11,7 @@
 	- [SRE](#sre)
 	- [OpenShift](#openshift)
 	- [Microservices](#microservices)
+	- [Argo](#argo)
 	- [Monitoring](#monitoring)
 	- [Cloud](#cloud)
 	- [Docker](#docker)
@@ -56,6 +57,7 @@
 - [How they SRE](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) Materials to help you rock your next coding interview
 - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
+- [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github](https://awesomeopensource.com/projects/cidr)
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
@@ -78,6 +80,7 @@
 ### DevOps
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [bregman-arie/devops-resources 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
+- [andredesousa/devops-best-practices](https://github.com/andredesousa/devops-best-practices)
 
 ### GitOps
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
@@ -95,6 +98,9 @@
 
 ### Microservices
 - [Awesome microservices](https://github.com/mfornos/awesome-microservices)
+
+### Argo
+- [terrytangyuan/awesome-argo 🌟](https://github.com/terrytangyuan/awesome-argo) A curated list of awesome projects and resources related to Argo (a CNCF hosted project)
 
 ### Monitoring
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)

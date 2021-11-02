@@ -59,6 +59,8 @@
 - [cncf.io: CNCF Operator White Paper (PDF) 🌟](https://www.cncf.io/wp-content/uploads/2021/07/CNCF_Operator_WhitePaper.pdf) This white paper defines Operators in a wider context than Kubernetes. It describes their characteristics and components, gives an overview of common patterns currently in use and explains how they differ from Kubernetes controllers.
 - [itnext.io: Kubexpose: A Kubernetes Operator, for fun and profit!](https://itnext.io/kubexpose-a-kubernetes-operator-for-fun-and-profit-f528586eee07) Access your Kubernetes Deployment over the Internet - [abhirockzz/kubexpose-operator](https://github.com/abhirockzz/kubexpose-operator) Access your Kubernetes Deployment over the Internet
 - [redhat.com: Kubernetes Operators on Red Hat Marketplace](https://www.redhat.com/en/resources/kubernetes-operators-marketplace-datasheet)
+- [itnext.io: Kubernetes Operators: Cruise Control for Managing Cloud-Native Apps](https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345)
+- [digitalis-io/vals-operator](https://github.com/digitalis-io/vals-operator) Kubernetes Operator to sync secrets between different secret backends and Kubernetes
 
 ## Operator Capability Levels
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.
@@ -101,6 +103,7 @@
 * [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)
 * [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.
 * [medium: Kubernetes Dummy Operator in Java](https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55) - [youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher](https://www.youtube.com/watch?v=C0E93Uc4h5k&t=761s&ab_channel=xgeeks)
+* [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2) Develop a simple Kubernetes operator from scratch. In this article, you will build a "hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.
 
 ## Tweets
 <details>

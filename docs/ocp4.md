@@ -137,6 +137,8 @@
 * [cloud.redhat.com: Announcing Bring Your Own Host Support for Windows nodes to Red Hat OpenShift](https://cloud.redhat.com/blog/announcing-bring-your-own-host-support-for-windows-nodes-to-red-hat-openshift)
 * [cloud.redhat.com: OpenShift Sandboxed Containers Operator From Zero to Hero, the Hard Way. The Operator Framework and Its Usage](https://cloud.redhat.com/blog/openshift-sandboxed-containers-operator-from-zero-to-hero-the-hard-way)
 * [developers.redhat.com: Get started with OpenShift Service Registry](https://developers.redhat.com/articles/2021/10/11/get-started-openshift-service-registry)
+* [cloud.redhat.com: Red Hat OpenShift 4.9 Is Now Generally Available](https://cloud.redhat.com/blog/red-hat-openshift-4.9-is-now-generally-available)
+* [redhat.com: Meet single node OpenShift: Our newest small OpenShift footprint for edge architectures](https://www.redhat.com/en/blog/meet-single-node-openshift-our-smallest-openshift-footprint-edge-architectures)
 
 ### Single Node OpenShift
 - [redhat.com: Meet single node OpenShift: Our newest small OpenShift footprint for edge architectures](https://www.redhat.com/en/blog/meet-single-node-openshift-our-smallest-openshift-footprint-edge-architectures)

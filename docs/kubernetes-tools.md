@@ -1,6 +1,7 @@
 # Kubernetes Plugins, Tools, Extensions and Projects
 - [Introduction](#introduction)
 - [K8s Tools](#k8s-tools)
+- [Penetration Testing Tools](#penetration-testing-tools)
 - [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
 - [Porter](#porter)
 - [Datree](#datree)
@@ -26,12 +27,14 @@
 - [kbrew](#kbrew)
 - [KubExplorer](#kubexplorer)
 - [Kubescape](#kubescape)
+- [Kubectl Connections](#kubectl-connections)
 - [Tweets](#tweets)
 
 ## Introduction
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Part 1](https://collabnix.com/top-10-kubernetes-tools-you-need-for-2021/)
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Part 2](https://collabnix.com/top-10-kubernetes-tool-you-need-for-2021-part-2/)
 - [collabnix.github.io: Kubetools - A Curated List of Kubernetes Tools: Kubetools - A Curated List of Kubernetes Tools](https://collabnix.github.io/kubetools/)
+- [cyberithub.com: 70+ Important Kubernetes Related Tools You Should Know About](https://www.cyberithub.com/70-important-kubernetes-related-tools-you-should-know-about)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -161,7 +164,7 @@
 * [kubectl-eksporter 🌟](https://github.com/Kyrremann/kubectl-eksporter) A simple Ruby-script to export k8s resources, and removes a pre-defined set of fields for later import.
 * [kubectl-neat 🌟](https://github.com/itaysk/kubectl-neat) Remove clutter from Kubernetes manifests to make them more readable.
 * [medium: 4 Simple Kubernetes Terminal Customizations to Boost Your Productivity](https://medium.com/better-programming/4-simple-kubernetes-terminal-customizations-to-boost-your-productivity-deda60a19924)
-* [Move2Kube 🌟](https://github.com/konveyor/move2kube) Move2Kube is a command-line tool that accelerates the process of re-platforming to Kubernetes/Openshift. It does so by analysing the environment and source artifacts, and asking guidance from the user when required. This tool that can help users migrate from Cloud Foundry and Docker Swarm to Kubernetes.
+* [Move2Kube 🌟](https://github.com/konveyor/move2kube) Move2Kube is a command-line tool that accelerates the process of re-platforming to Kubernetes/Openshift. It does so by analysing the environment and source artifacts, and asking guidance from the user when required. This tool that can help users migrate from Cloud Foundry and Docker Swarm to Kubernetes. https://move2kube.konveyor.io
 * [skopeo 🌟](https://github.com/containers/skopeo) Use skopeo to copy images between registries
 * [junit5-kubernetes](https://github.com/JeanBaptisteWATENBERG/junit5-kubernetes) aims at using a kubernetes pod directly form your junit5 test classes.
 * [mbuffett.com: Replacing ngrok with ktunnel](https://mbuffett.com/posts/ktunnel-ngrok-replace/)
@@ -365,7 +368,7 @@
     * predefined regex rules matching node name.
     * a set of matching labels (with their associated value) present on the node.
 * [kubernetes-sigs/nfs-subdir-external-provisioner: Kubernetes NFS Subdir External Provisioner](https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner) Dynamic sub-dir volume provisioner on a remote NFS server. NFS subdir external provisioner is an automatic provisioner that use your existing NFS server to support dynamic provisioning of Kubernetes Persistent Volumes via Persistent Volume Claims
-* [ori-edge/k8s_gateway](https://github.com/ori-edge/k8s_gateway) A CoreDNS plugin to resolve all types of external Kubernetes resources
+* [ori-edge/k8s_gateway](https://github.com/ori-edge/k8s_gateway) A CoreDNS plugin to resolve all types of external Kubernetes resources. k8s_gateway is a CoreDNS plugin that resolves load balancer and external IPs from outside Kubernetes clusters and supports all types of Kubernetes external resources - Ingress, Service of type LoadBalancer.
 * [viaduct-ai/kustomize-sops](https://github.com/viaduct-ai/kustomize-sops) KSOPS - A Flexible Kustomize Plugin for SOPS Encrypted Resources
 * [vadosware.io: Using Makefiles And Envsubst As An Alternative To Helm And Ksonnet (deprecated)](https://vadosware.io/post/using-makefiles-and-envsubst-as-an-alternative-to-helm-and-ksonnet/)
 * [uw-labs.github.io: Kubernetes Semaphore: A modular and nonintrusive framework for cross cluster communication](https://uw-labs.github.io/blog/kubernetes,/multicluster/2021/07/21/kube-semaphore-intro.html)
@@ -373,9 +376,19 @@
 * [tektoncd/chains](https://github.com/tektoncd/chains) Tekton Chains is a Kubernetes Custom Resource Definition (CRD) controller that allows you to manage your supply chain security in Tekton.
 * [gopaddle-io/configurator](https://github.com/gopaddle-io/configurator) Synchronize and Version Control ConfigMaps & Secrets across Deployment Rollouts.
 * [biosimulations/deployment](https://github.com/biosimulations/deployment) Kubernetes Configuration for [BioSimulations](https://github.com/biosimulations/biosimulations) platform. 
-* [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
 * [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, local tiering, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, Hadoop, WebDAV, encryption, Erasure Coding.
+* [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui) A hybrid command-line/UI development experience for cloud-native development
+* [DaspawnW/vault-crd](https://github.com/DaspawnW/vault-crd) Vault CRD for sharing Vault Secrets with Kubernetes. Vault-CRD is a custom resource definition for holding secrets that are stored in HashiCorp Vault and kept up to date with Kubernetes secrets
+* [stakater/Reloader 🌟](https://github.com/stakater/Reloader) A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig 
+* [dignajar/another-ldap](https://github.com/dignajar/another-ldap) Another LDAP is a form-based authentication for Active Directory / LDAP server. Provides Authentication and Authorization for your applications running in Kubernetes.
+* [ddosify/ddosify](https://github.com/ddosify/ddosify) High-performance load testing tool, written in Golang.
+* [anchore/syft](https://github.com/anchore/syft) CLI tool and library for generating a Software Bill of Materials from container images and filesystems
+* [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
+* [aelsabbahy/goss](https://github.com/aelsabbahy/goss) Quick and Easy server testing/validation
 
+## Penetration Testing Tools
+* [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
+* [inguardians/peirates](https://github.com/inguardians/peirates) Peirates - Kubernetes Penetration Testing tool
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
 
@@ -391,6 +404,7 @@
 - [medium: Multibranch and HA Pipeline in Jenkins with Kaniko on GKE](https://medium.com/searce/multibranch-and-ha-pipeline-in-jenkins-with-kaniko-on-gke-8a1e7fa93403)
 - [developers.redhat.com: Perform a kaniko build on a Red Hat OpenShift cluster and push the image to a registry](https://developers.redhat.com/articles/2021/06/18/perform-kaniko-build-red-hat-openshift-cluster-and-push-image-registry)
 - [devopscube.com: How To Build Docker Image In Kubernetes Pod 🌟](https://devopscube.com/build-docker-image-kubernetes-pod/)
+- [learnsteps.com: Kaniko and how you can build images on Kubernetes using kaniko?](https://www.learnsteps.com/kaniko-and-how-you-can-build-images-on-kubernetes-using-kaniko/)
 
 ## Shipwright Framework for Building Container Images on Kubernetes
 - [shipwright.io](https://shipwright.io/)
@@ -473,6 +487,9 @@
 - [Kubescape 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
 - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/blog/kubescape-checks-if-kubernetes-exposed-to-k8s-symlink-vulnerability-cve202125741)
 
+## Kubectl Connections
+- [KubePlus kubectl plugins -> kubectl connections](https://github.com/cloud-ark/kubeplus/blob/master/kubeplus-kubectl-commands.md)
+- [cloudark.medium.com: kubectl connections](https://cloudark.medium.com/whats-cooking-in-your-kubernetes-namespace-9200be114f8) that can help you discover and visualize relationship between resources (Deployments, Services, etc.) in your namespace
 
 ## Tweets
 <details>
@@ -482,6 +499,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the biggest problems in IT is that we keep reinventing the wheel.<br><br>We are running the same circles, producing similar technologies to solve the same problems.<br><br>Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1388448114047164416?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">`kubectl logs --previous` saved my life <a href="https://t.co/mIsCJehVwI">pic.twitter.com/mIsCJehVwI</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1425925390644690954?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1451990747318611968?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

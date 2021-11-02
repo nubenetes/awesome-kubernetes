@@ -111,7 +111,7 @@
 - [Best Practices](#best-practices)
 - [New Features](#new-features)
 - [Superwerker](#superwerker)
-- [Tools](#tools)
+- [Tools and Samples](#tools-and-samples)
 - [Third party tools](#third-party-tools)
 - [AWS Amplify](#aws-amplify)
 - [AWS Control Tower](#aws-control-tower)
@@ -685,6 +685,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [A step-by-step guide to synchronize data between Amazon S3 buckets](https://aws.amazon.com/blogs/storage/a-step-by-step-guide-to-synchronize-data-between-amazon-s3-buckets)
 - [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws/)
 - [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://harness.io/blog/devops/tutorial-s3-cross-account/)
+- [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3/)
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
@@ -854,10 +855,12 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Superwerker
 - [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/) Automates AWS Cloud deployments backed by decades of expertise and best practices
 
-## Tools
+## Tools and Samples
 - [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
-- [github.com/aws-samples/aws-auto-inventory: AWS Automated Inventory](https://github.com/aws-samples/aws-auto-inventory) A command line tool that allows you to quickly and easily generate inventory reports of your AWS resources.
+- [github.com/aws-samples 🌟](https://github.com/aws-samples)
+- [github.com/aws-samples/aws-auto-inventory: AWS Automated Inventory 🌟](https://github.com/aws-samples/aws-auto-inventory) A command line tool that allows you to quickly and easily generate inventory reports of your AWS resources.
 - [github.com/aws-samples/aws-waf-ops-dashboards](https://github.com/aws-samples/aws-waf-ops-dashboards) In this repository, we share code for building infrastructure to collect, enrich, and visualize AWS Web Application Firewall logs. Implementing this project in your AWS account will allow you to view and filter the logs through Kibana dashboards below, as well as customize views and dashboards to your needs.
+- [github.com/aws-samples/aws-customer-playbook-framework 🌟](https://github.com/aws-samples/aws-customer-playbook-framework) This repository provides sample templates for security playbooks against various scenarios when using Amazon Web Services.
 
 ## Third party tools
 - [techcrunch.com: Vantage makes managing AWS easier](https://techcrunch.com/2021/01/12/vantage-makes-managing-aws-easier/)

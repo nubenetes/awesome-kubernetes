@@ -176,6 +176,11 @@
 * [betterprogramming.pub: Deploy a Python API With Docker and Kubernetes](https://betterprogramming.pub/python-fastapi-kubernetes-gcp-296e0dc3abb6) Autoscale compute-intensive workloads to keep up with changing demand
 * [github.com/developer-guy: Set up HA k3s cluster on DigitalOcean using Terraform + Ansible](https://github.com/developer-guy/kubernetes-cluster-setup-using-terraform-and-k3s-on-digitalocean)
 * [cncf.io: Kubernetes Ingress gRPC example with a Dune quote service](https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service/)
+* [betterprogramming.pub: How To Create a NoOps Deployment With GitHub Actions Kubernetes and Shipa](https://betterprogramming.pub/how-to-create-a-noops-deployment-with-github-actions-kubernetes-and-shipa-18aab208fe7a) Discover the DevOps simplicity and reduce the Kubernetes complexity
+* [ahgraber/homelab-terraform](https://github.com/ahgraber/homelab-terraform) Bootstrap VMs with Terraform & vSphere provider
+* [piotrminkowski.com: Kubernetes Multicluster with Kind and Cilium](https://piotrminkowski.com/2021/10/25/kubernetes-multicluster-with-kind-and-cilium/)
+* [todaywasawesome/atomic-cluster: The Atomic Cluster](https://github.com/todaywasawesome/atomic-cluster) Running a k3s Kubernetes cluster homelab on the adorable and affordable Atomic Pi.
+* [youtube: Deploy Docker image to Kubernetes Cluster | CI-CD for Azure Kubernetes Service | Mohamed Radwan - DevOps](https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps)
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
@@ -219,6 +224,7 @@
 - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
 - [cncf.io: Implementing GitOps on Kubernetes Using K3s, Rancher, Vault and Argo CD](https://www.cncf.io/blog/2020/11/12/implementing-gitops-on-kubernetes-using-k3s-rancher-vault-and-argo-cd/)
 - [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.com/post/2021/01/part-1-rancher-kubernetes-engine-rke-security-best-practices-for-cluster-setup)
+- [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane/)
 
 ### GitOps Workflow with Flux
 - [managedkube.com: A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
@@ -388,6 +394,8 @@
 ### Helm demos
 - [Katacoda Lab: Getting Started with Helm 3 on OpenShift](https://learn.openshift.com/developing-on-openshift/helm/)
 - [wkrzywiec.medium.com: How to deploy application on Kubernetes with Helm](https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8) In this blog post I present step-by-step how to deploy multiple applications on Kubernetes cluster using Helm.
+- [dzone.com: Deploy a Java application with JBoss EAP using Helm, Part 1](https://dzone.com/articles/deploy-a-java-application-using-helm-part-1)
+    - [dzone.com: Deploy a Java application with JBoss EAP using Helm, Part 2](https://dzone.com/articles/deploy-a-java-application-using-helm-part-2)
 
 ### Writing Kubernetes Operators
 - [developers.redhat.com: ‘Hello, World’ tutorial with Kubernetes Operators](https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators/)
@@ -428,6 +436,7 @@
 * [igorzhivilo.com: How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline 🌟](https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/)
 * [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
 * [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy)
+* [lambdatest.com: How To Create Jenkins Multibranch Pipeline 🌟](https://www.lambdatest.com/blog/how-to-create-jenkins-multibranch-pipeline)
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
@@ -631,6 +640,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
 - [aytartana.wordpress.com: Migrating SpringBoot PetClinic REST to Quarkus](https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus/)
+- [aalmiray/q-cli](https://github.com/aalmiray/q-cli) Sample Quarkus CLI application 
+- [piomin/sample-quarkus-serverless-kafka](https://github.com/piomin/sample-quarkus-serverless-kafka) Demo illustrating how to run Quarkus application on Knative Eventing with Kafka and Funqy modules
 
 ## Kafka
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
@@ -659,6 +670,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [k21academy.com: Automate AWS Virtual Machine using Terraform – Creation Demo](https://k21academy.com/terraform-iac/terraform-automate-aws-vm/)
 - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)
 - [StarpTech/k-andy](https://github.com/StarpTech/k-andy) This terraform module will install a High Availability K3s Cluster with Embedded DB in a private network on Hetzner Cloud.
+- [adamtheautomator.com: How To Build a Database Instance with Terraform and AWS RDS](https://adamtheautomator.com/terraform-aws-rds/)
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

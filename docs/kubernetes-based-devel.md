@@ -37,6 +37,7 @@
 - [tilt.dev](https://tilt.dev) You can use Tilt to easily build and run your application on Kubernetes. In comparison with similar tools, it provides [UI for managing the process and cloud platform](https://cloud.tilt.dev) to share data with your team.
 - [garden.io](https://garden.io/)
 - [devspace.sh](https://devspace.sh/)
+    - [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve/)
 - [microcks.io](https://microcks.io) K8s-based API mock/test tool. 
     - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)
 - [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://loft.sh/blog/checklist-for-kubernetes-based-development)

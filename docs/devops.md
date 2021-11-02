@@ -31,7 +31,7 @@
 
 ## Introduction to Digital Business Transformation
 - [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
-- [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need)Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
+- [enterprisersproject.com: DevOps: 5 things teams need from CIOs](https://enterprisersproject.com/article/2020/7/devops-5-things-teams-need) Consider these lessons learned as you strive to give DevOps teams what they need to succeed - from flexible technogy models to transparency.
 - [redhat.com: Understanding DevOps](https://www.redhat.com/en/topics/devops) DevOps is an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. This is all made possible through fast-paced, iterative IT service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure.
 - [redhat.com: El concepto de DevOps](https://www.redhat.com/es/topics/devops) DevOps es un modo de abordar la cultura, la automatización y el diseño de las plataformas para generar mayor valor empresarial y capacidad de respuesta, mediante la prestación ágil de servicios de alta calidad. Todo ello es posible gracias a la prestación rápida y constante de servicios de TI. Para DevOps, se necesita vincular las aplicaciones heredadas con las aplicaciones creadas en la nube y las infraestructuras más nuevas.
 
@@ -174,6 +174,7 @@
 * [siliconangle.com: ‘DevOps for Dummies’ author Emily Freeman introduces revolutionary model for modern software development](https://siliconangle.com/2021/09/29/devops-dummies-author-emily-freeman-introduces-revolutionary-model-modern-software-development-awsq3/)
 * [thenewstack.io: Microservices Transformed DevOps — Why Security Is Next](https://thenewstack.io/microservices-transformed-devops-why-security-is-next/)
 * [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery/)
+* [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams/)
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -381,5 +382,7 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/HelmPack?ref_src=twsrc%5Etfw">@HelmPack</a> can hide some deep K8s knowledge.<a href="https://twitter.com/crossplane_io?ref_src=twsrc%5Etfw">@crossplane_io</a> does the same for infrastructure, best practices Postgres can be as simple as provide the version and the size. A game-changer for platforms</p>&mdash; Omer Kahani (@OmerKahani) <a href="https://twitter.com/OmerKahani/status/1427711077350006786?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working on infrastructure is to keep things boring.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1438931035077505024?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Progress! <a href="https://t.co/FB7v3OOdsf">pic.twitter.com/FB7v3OOdsf</a></p>&mdash; Richard Campbell (@richcampbell) <a href="https://twitter.com/richcampbell/status/1454100747453349892?ref_src=twsrc%5Etfw">October 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
