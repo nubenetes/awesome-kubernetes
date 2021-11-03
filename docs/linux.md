@@ -71,6 +71,7 @@
 - [cyberciti.biz: How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
 - [cyberciti.biz: OpenSSH Change a Passphrase With ssh-keygen command](https://www.cyberciti.biz/faq/howto-ssh-changing-passphrase/)
 - [thenewstack.io: SSH Made Easy with SSH Agent and SSH Config](https://thenewstack.io/ssh-made-easy-with-ssh-agent-and-ssh-config/)
+- [linuxteck.com: 10 basic and most useful 'ssh' client commands in Linux](https://www.linuxteck.com/basic-ssh-client-commands-in-linux/)
 
 ## OpenSSL
 - [redhat.com: 6 OpenSSL command options that every sysadmin should know](https://www.redhat.com/sysadmin/6-openssl-commands) Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.

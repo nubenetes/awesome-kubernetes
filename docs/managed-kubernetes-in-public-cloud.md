@@ -138,6 +138,8 @@
     - Azure Pipelines
     - Helm
     - Azure Monitor
+- [docs.microsoft.com: Use kubenet networking with your own IP address ranges in Azure Kubernetes Service (AKS) 🌟](https://docs.microsoft.com/en-us/azure/aks/configure-kubenet)
+- [docs.microsoft.com: Configure Azure CNI networking in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni)
 - [trstringer.com: Run Kubernetes Pods on Specific VM Types in AKS](https://trstringer.com/run-kubernetes-pods-on-vm-types/)
 - [docs.microsoft.com: AKS-managed Azure Active Directory integration](https://docs.microsoft.com/en-us/azure/aks/managed-aad)
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)

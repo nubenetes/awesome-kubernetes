@@ -10,6 +10,7 @@
 Jira and Bitbucket integration. Now you can transition issues right from your merge window. Less back and forth with Jira.
 - [OpenProject](https://www.openproject.org/)
     - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/create-configure-manage-projects-openproject/)
+    - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
 - [Servicenow](https://www.servicenow.com/)
 - [BMC Remedy ITSM](https://www.bmcsoftware.es/it-solutions/remedy-itsm.html)
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
