@@ -213,7 +213,7 @@
     - How is your workload variation?
     - What are your logging and monitoring requirements?
     - What is your current backup strategy?
-
+- [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration/)
 ## Microservices Failures
 - [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
 

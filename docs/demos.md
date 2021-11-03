@@ -546,6 +546,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [hackernoon: Using Spinnaker with Kubernetes for CI/CD](https://hackernoon.com/using-spinnaker-with-kubernetes-for-cicd-52w3uo9)
 - [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane/)
 - [armory.io: Git Pull Support in Spinnaker](https://www.armory.io/blog/git-pull-support-in-spinnaker)
+- [containiq.com: Using Kubernetes with Spinnaker | The Ultimate Guide](https://www.containiq.com/post/using-kubernetes-with-spinnaker) Spinnaker is an application deployment service. This article will provide a walkthrough and introduce best practices for deploying a Kubernetes application using Spinnaker.
 
 ## Nexus3 on Kubernetes
 * [Proof of Concept: Nexus3 Chart configuration on Kubernetes](https://github.com/redhatspain/nexus3-helm-chart) A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes

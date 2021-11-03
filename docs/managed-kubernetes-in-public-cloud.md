@@ -5,6 +5,7 @@
 - [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
     - [AWS EKS Vs ECS Vs Fargate](#aws-eks-vs-ecs-vs-fargate)
     - [EKS Anywhere (on premises)](#eks-anywhere-on-premises)
+    - [EKS Distro (EKS-D)](#eks-distro-eks-d)
     - [Testing Kubernetes Canary deployment on EKS](#testing-kubernetes-canary-deployment-on-eks)
 - [AKS Azure Kubernetes Service](#aks-azure-kubernetes-service)
 - [GKE Google Kubernetes Engine](#gke-google-kubernetes-engine)
@@ -119,6 +120,8 @@
 - [anywhere.eks.amazonaws.com: Compare EKS Anywhere and EKS](https://anywhere.eks.amazonaws.com/docs/concepts/eksafeatures/)
 - [aws.amazon.com: Getting started with Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/introducing-general-availability-of-amazon-eks-anywhere/)
 
+### EKS Distro (EKS-D)
+- [aws/eks-distro](https://github.com/aws/eks-distro) Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create reliable and secure Kubernetes clusters.
 ### Testing Kubernetes Canary deployment on EKS
 - [medium: Kubernetes + EKS + Canary Deployment](https://medium.com/@jerome.decoster/kubernetes-eks-canary-deployment-1ef79ae89dfc)
 
