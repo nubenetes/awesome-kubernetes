@@ -715,7 +715,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ### AWS Backup Service
 - [AWS Backup Service](https://aws.amazon.com/backup)
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
-- [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 
 ## AWS Config Rules
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
