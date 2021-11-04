@@ -70,6 +70,7 @@ the #1 test automation community.
 * [SystemTap](https://sourceware.org/systemtap/)
     * [developers.redhat.com: Opening black boxes with statement tracing (SystemTap)](https://developers.redhat.com/articles/2021/08/04/opening-black-boxes-statement-tracing)
 * [auchenberg/volkswagen](https://github.com/auchenberg/volkswagen) Volkswagen detects when your tests are being run in a CI server, and makes them pass.
+* [getxray.app: 7 benefits of using a Test Management App vs. Excel](https://www.getxray.app/blog/7-benefits-of-using-a-test-management-app-vs.-excel)
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)
 

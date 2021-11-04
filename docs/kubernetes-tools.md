@@ -4,7 +4,7 @@
 - [Penetration Testing Tools](#penetration-testing-tools)
 - [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
 - [Porter](#porter)
-- [Datree](#datree)
+- [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
 - [Kaniko Build Images in Kubernetes](#kaniko-build-images-in-kubernetes)
 - [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
 - [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
@@ -395,9 +395,10 @@
 ## Porter
 - [Porter](https://porter.sh/) Package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and then install with a single command - [github.com/getporter/porter](https://github.com/getporter/porter) 
 
-## Datree
+## Datree. Quality Checks for Kubernetes YAMLs
 - [Datree.io](https://www.datree.io/) Datree prevents kubernetes misconfigurations from reaching production. Datree is a CLI solution that supports kubernetes owners in their roles, by preventing developers from making errors in k8s configurations. 
 - [dev.to: CI With Datree](https://dev.to/thenjdevopsguy/ci-with-datree-4h8d) Learn all about Datree, the leader in Kubernetes static code analysis; Helm chart analysis; and how to ensure that all manifest configurations are working properly in a Continuous Integration (CI) build process. [youtube: CI and Building Code With Datree](https://www.youtube.com/watch?v=2Z5HhEk1zK8&ab_channel=MichaelLevan)
+* [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 
 ## Kaniko Build Images in Kubernetes
 - [Kaniko 🌟](https://github.com/GoogleContainerTools/kaniko) Kaniko is a tool to build container images from a Dockerfile. Unlike Docker, Kaniko doesn’t require the Docker daemon. With the help of Kaniko, you won’t be needing to run docker containers with privileged mode.

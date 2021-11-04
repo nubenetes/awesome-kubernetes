@@ -51,6 +51,7 @@
 * In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting: 
 	* `"editor.guides.bracketPairs": true`
 * [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
+* **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -238,5 +239,7 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I was forced to use closed source IDE for a paid job, I would go for JetBrains. They are far better than VSCode or anything else ever created. Of course, VIM is my first choice, but sometimes they or other team members are comfier with a professional tool.</p>&mdash; The Best Linux Blog In the Unixverse (@nixcraft) <a href="https://twitter.com/nixcraft/status/1443645958797987855?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m currently using the following <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> extensions (fundamentally, Python development):<br><br>1. Python<br>2. GitHub Copilot<br>3. Docker<br>4. Jupyter<br>5. Prettier<br>6. YAML<br>7. OpenAPI Swagger<br>8. Bookmarks<br>9. AWS Toolkit<br>10. Cloud Code<br><br>Is there something else that you&#39;d recommend?</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1448000684176125959?ref_src=twsrc%5Etfw">October 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know that <a href="https://twitter.com/hashtag/vscode?src=hash&amp;ref_src=twsrc%5Etfw">#vscode</a> has so called zen mode, that makes editor fullscreen and removes all the menus, so cool! <a href="https://t.co/My5jelmLnU">pic.twitter.com/My5jelmLnU</a></p>&mdash; Jaka Hudoklin 🤖 5G: 100% (@offlinehacker) <a href="https://twitter.com/offlinehacker/status/1455903658151923717?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

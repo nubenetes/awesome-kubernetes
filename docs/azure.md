@@ -18,6 +18,7 @@
 - [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
 - [Windows 11](#windows-11)
 - [Azure API Management](#azure-api-management)
+- [Azure Container Apps](#azure-container-apps)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -152,6 +153,10 @@
 ## Azure API Management
 - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/services/api-management)
 - [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management/)
+
+## Azure Container Apps
+- [Azure Container Apps](https://azure.microsoft.com/services/container-apps/) Build and deploy modern apps and microservices using serverless containers
+- [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/t5/apps-on-azure/introducing-azure-container-apps-a-serverless-container-service/ba-p/2867265)
 
 <center>
 [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)

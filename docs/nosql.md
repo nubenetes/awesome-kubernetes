@@ -64,6 +64,7 @@
 	- [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
 	- [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.datastax.com/blog/apache-cassandra-40-now-delivered-k8ssandra-amazon-eks)
 	- [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes/)
+	- [datastax.medium.com: We Pushed Helm to the Limit—then Built a Kubernetes Operator](https://datastax.medium.com/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator-5136f7c71e91)
 - [HBase.apache.org](http://hbase.apache.org/)
 - [Hive.apache.org](https://hive.apache.org/)
 - [rethinkdb.com](http://rethinkdb.com)
