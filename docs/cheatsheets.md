@@ -154,7 +154,7 @@
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
 - [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 - [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
-- [Dzone: docker cheet sheet](https://dzone.com/articlesdocker-command-cheatsheet)
+- [Dzone: Docker Command Cheatsheet](https://dzone.com/articles/docker-command-cheatsheet) If you're new to Docker or just want to have a list of handy commands, this cheatsheet will help you install, monitor, maintain, and clean up your images and processes.
 - [developers.redhat.com: Containers Cheat Sheet](https://developers.redhatcom/cheat-sheets/containers/)
 - [github.com: Docker cheat Sheet](https://github.com/wsargentdocker-cheat-sheet)
 - [linuxhero.tk: Docker command cheat sheet](https://linuxhero.tkdockercommands/)
