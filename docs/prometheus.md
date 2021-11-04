@@ -22,8 +22,9 @@
     - [Ansible Roles](#ansible-roles)
 - [Prometheus Operator](#prometheus-operator)
     - [kube Prometheus](#kube-prometheus)
-    - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
-    - [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
+        - [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
+        - [Kube-prometheus-stack (best choice)](#kube-prometheus-stack-best-choice)
+        - [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
 - [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 - [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
     - [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
@@ -289,10 +290,13 @@ Although it's exciting to see attempts to address the challenges of running Prom
 ### kube Prometheus
 * [kube-prometheus](https://github.com/coreos/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes.
 
-### Prometheus Operator with Helm3
+#### Prometheus Operator with Helm3
 * [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry/)
 
-### Kubernetes Cluster Monitoring Stack based on Prometheus Operator
+#### Kube-prometheus-stack (best choice)
+* [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) **kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.**
+
+#### Kubernetes Cluster Monitoring Stack based on Prometheus Operator
 - [Cluster Monitoring stack for ARM / X86-64 platforms](https://github.com/carlosedp/cluster-monitoring) Updated the cluster-monitoring stack for kubernetes to latest versions. Fresh Grafana 7, Prometheus Operator and more. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
 
 ## Prometheus SaaS Solutions

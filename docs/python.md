@@ -10,6 +10,7 @@
 - [Python pip and pip's wheel](#python-pip-and-pips-wheel)
 - [Python Feature Flags](#python-feature-flags)
 - [Python testing](#python-testing)
+- [Python Cyber Security](#python-cyber-security)
 - [Data Science](#data-science)
 	- [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
 	- [PandasDatabase](#pandasdatabase)
@@ -162,6 +163,8 @@
 - [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class/)
 - [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python/)
 - [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/)
+- [pythonsimplified.com: Python secrets module for strong random number and token generation](https://pythonsimplified.com/python-secrets-module-for-strong-random-number-and-token-generation/) Do you know Python has a built-in module called secrets that can be used to generate cryptographically strong passwords, tokens, and other related secrets? The secrets module was first introduced in Python 3.6
+- [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/)
 
 ## APIs in Python
 - [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication
@@ -231,6 +234,9 @@
 - [nylas.com: Profiling Python in Production](https://nylas.com/blog/performance) How We Reduced CPU Usage by 80% through Python Profiling 
 - [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/)
 - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker)
+
+## Python Cyber Security
+- [coursereport.com: A Beginner’s Guide to Python for Cybersecurity](https://www.coursereport.com/blog/python-for-cyber-security-with-flatiron-school)
 
 ## Data Science
 - [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
