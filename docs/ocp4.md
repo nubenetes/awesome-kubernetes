@@ -64,6 +64,7 @@
 - [OpenShift Topology View](#openshift-topology-view)
 - [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
 - [Slides](#slides)
+- [Tweets](#tweets)
 
 ## OpenShift Container Platform 4 (OCP 4)
 * [blog.openshift.com: Introducing Red Hat OpenShift 4](https://blog.openshift.com/introducing-red-hat-openshift-4/)
@@ -723,5 +724,14 @@ oc login
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ko4KgmpBYmqhyf" scrolling="no" allowfullscreen> </iframe> <div style="margin-bottom:0px"> <strong> <a href="//www.slideshare.net/wintonjkt/open-shift-4-infra-deep-dive" title="Open shift 4 infra deep dive" target="_blank">Open shift 4 infra deep dive</a> </strong> from <strong><a href="https://www.slideshare.net/wintonjkt" target="_blank">Winton Winton</a></strong> </div>
 
 <script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+</details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The GUI with <a href="https://twitter.com/openshift?ref_src=twsrc%5Etfw">@openshift</a> that shows services, and connections between pods, is so cool. Such a great tool to help understand whats happening instead of a bazillion <a href="https://twitter.com/hashtag/CuddleKube?src=hash&amp;ref_src=twsrc%5Etfw">#CuddleKube</a> commands! <a href="https://twitter.com/hashtag/CFD12?src=hash&amp;ref_src=twsrc%5Etfw">#CFD12</a> <a href="https://t.co/3XQjScS6TM">pic.twitter.com/3XQjScS6TM</a></p>&mdash; Nathan Bennett (@vNathanBennett) <a href="https://twitter.com/vNathanBennett/status/1456342084873441280?ref_src=twsrc%5Etfw">November 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
