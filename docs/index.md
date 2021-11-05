@@ -88,6 +88,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Plugins, Tools, Extensions and Projects 🌟](kubernetes-tools.md)
     - [kubectl commands](kubectl-commands.md)
     - [Kubernetes Networking](kubernetes-networking.md)
+    - [Kubernetes Monitoring and Logging](kubernetes-monitoring.md)
     - [Kubernetes security](kubernetes-security.md)
     - [Kubernetes Storage](kubernetes-storage.md)
     - [Kubernetes Backup and Migrations](kubernetes-backup-migrations.md)
