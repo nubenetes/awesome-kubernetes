@@ -197,11 +197,11 @@
 * [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model/) I look at a new managed service that provisions cloud-native services as if they were k8s resources.
 * [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads 🌟](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)
 * Features of Google Kubernetes Engine that NO other K8s provider has or are rapidly copying :
-  * Autopilot
-  * Backup
-  * Multi-cluster Ingress
-  * OOTB SRE Dashboards with ASM
-  * Config Management across clouds
+    * Autopilot
+    * Backup
+    * Multi-cluster Ingress
+    * OOTB SRE Dashboards with ASM
+    * Config Management across clouds
 
 ## IKS IBM Cloud Kubernetes Service
 - [IKS](https://www.ibm.com/cloud/kubernetes-service)
