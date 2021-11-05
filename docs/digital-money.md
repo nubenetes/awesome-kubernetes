@@ -1,7 +1,8 @@
 # Digital Money
 - [Introduction](#introduction)
 - [Tweets](#tweets)
-- [Videos](#videos)
+- [Spanish Videos](#spanish-videos)
+- [English Videos](#english-videos)
 
 ## Introduction
 - [en.wikipedia.org: Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)
@@ -25,7 +26,7 @@
 </center>
 </details>
 
-## Videos
+## Spanish Videos 
 <details>
   <summary>Click to expand!</summary>
 
@@ -41,5 +42,15 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UWfzb0l1jV4?start=528" frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 <br/>
+</center>
+</details>
+
+## English Videos
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<!-- Keiser report en inglés -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/meFsjKJdqwg?start=515" frameborder="0" allowfullscreen class="video"></iframe>
 </center>
 </details>
