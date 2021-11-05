@@ -228,6 +228,8 @@ You can filter by topic using the toolbar above.
 - [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans/)
 - [dzone: A Guide on Estimating AWS EC2 Workloads for a Microservice Application](https://dzone.com/articles/a-guide-on-estimating-aws-ec2-workloads-for-a-micr) AWS EC2 instance costs can be a significant part of the cloud bill, so it's always a good idea to estimate the workloads using the AWS pricing calculator.
 - [Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight)
+- [blog.cloud-mercato.com: AWS m6i: The why you should abandon your m5](https://blog.cloud-mercato.com/aws-m6i-the-why-you-should-abandon-your-m5/)
+- [aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases)
 
 ### AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws/)

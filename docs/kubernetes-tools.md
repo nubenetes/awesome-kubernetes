@@ -385,6 +385,7 @@
 * [anchore/syft](https://github.com/anchore/syft) CLI tool and library for generating a Software Bill of Materials from container images and filesystems
 * [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
 * [aelsabbahy/goss](https://github.com/aelsabbahy/goss) Quick and Easy server testing/validation
+* [chr-fritz/csi-sshfs](https://github.com/chr-fritz/csi-sshfs) Kubernetes CSI Plugin for SSHFS. It allows to mount directories using a ssh connection.
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
