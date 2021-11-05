@@ -36,6 +36,7 @@
 	- [AWS Database Migration Service DMS](#aws-database-migration-service-dms)
 - [AWS Redshift](#aws-redshift)
 - [AWS DevOps. AWS CodePipeline](#aws-devops-aws-codepipeline)
+	- [AWS CodeDeploy](#aws-codedeploy)
 - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
 - [AWS OpsWorks](#aws-opsworks)
 - [AWS Networking](#aws-networking)
@@ -403,10 +404,8 @@ You can filter by topic using the toolbar above.
 ## AWS DevOps. AWS CodePipeline
 * [AWS DevOps](https://aws.amazon.com/devops/)
 - [AWS DevOps Blog](https://blogs.aws.amazon.com/application-management/)
-- [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://blogs.aws.amazon.com/application-management/post/TxMJROUIFQZ4HS/Setting-Up-the-Jenkins-Plugin-for-AWS-CodeDeploy)
 - [Continuous Delivery for a PHP Application Using AWS CodePipeline, AWS Elastic Beanstalk, and Solano Labs](https://blogs.aws.amazon.com/application-management/post/TxYSRRBH57NP2P/Continuous-Delivery-for-a-PHP-Application-Using-AWS-CodePipeline-AWS-Elastic-Bea)
 - [Building Continuous Deployment on AWS with AWS CodePipeline, Jenkins and AWS Elastic Beanstalk](https://blogs.aws.amazon.com/application-management/post/Tx34AXRMYLXG5OT/Building-Continuous-Deployment-on-AWS-with-AWS-CodePipeline-Jenkins-and-AWS-Elas)
-- [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)
 - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)
 - [AWS Partner Network - CodePipeline Integrations](https://aws.amazon.com/es/codepipeline/product-integrations/)
 - [**Multi-Region Infrastructure Deployment**](https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/) This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates
@@ -414,6 +413,11 @@ You can filter by topic using the toolbar above.
 - [Amazon DevOps Guru](https://aws.amazon.com/devops-guru/) ML-powered cloud operations service to improve application availability
 	- [infoq.com: AWS Launches Amazon DevOps Guru](https://www.infoq.com/news/2021/01/aws-devops-guru/)
 - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91) In this tutorial, I would like to explain to you how to create an AWS CodePipeline for ECS with a Blue/green deployment type.
+
+### AWS CodeDeploy
+- [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)
+- [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://blogs.aws.amazon.com/application-management/post/TxMJROUIFQZ4HS/Setting-Up-the-Jenkins-Plugin-for-AWS-CodeDeploy)
+- [adamtheautomator.com: Getting Started with AWS CodeDeploy](https://adamtheautomator.com/aws-codedeploy/)
 
 ## AWS Elastic Beanstalk
 - [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk/)
