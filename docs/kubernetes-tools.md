@@ -5,7 +5,7 @@
 - [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
 - [Porter](#porter)
 - [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
-- [Kaniko Build Images in Kubernetes](#kaniko-build-images-in-kubernetes)
+- [Kaniko Build Images in Kubernetes without docker](#kaniko-build-images-in-kubernetes-without-docker)
 - [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
 - [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
 - [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
@@ -391,6 +391,7 @@
 * [chr-fritz/csi-sshfs](https://github.com/chr-fritz/csi-sshfs) Kubernetes CSI Plugin for SSHFS. It allows to mount directories using a ssh connection.
 * [ctrox/csi-s3](https://github.com/ctrox/csi-s3) A Container Storage Interface for S3. This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.
 * [codesenberg/bombardier 🌟](https://github.com/codesenberg/bombardier) Fast cross-platform HTTP benchmarking tool written in Go
+* [fstab/cifs](https://github.com/fstab/cifs) CIFS Flexvolume Plugin for Kubernetes. Driver for CIFS (SMB, Samba, Windows Share) network filesystems as Kubernetes volumes.
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
@@ -406,12 +407,13 @@
 - [dev.to: CI With Datree](https://dev.to/thenjdevopsguy/ci-with-datree-4h8d) Learn all about Datree, the leader in Kubernetes static code analysis; Helm chart analysis; and how to ensure that all manifest configurations are working properly in a Continuous Integration (CI) build process. [youtube: CI and Building Code With Datree](https://www.youtube.com/watch?v=2Z5HhEk1zK8&ab_channel=MichaelLevan)
 * [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 
-## Kaniko Build Images in Kubernetes
+## Kaniko Build Images in Kubernetes without docker
 - [Kaniko 🌟](https://github.com/GoogleContainerTools/kaniko) Kaniko is a tool to build container images from a Dockerfile. Unlike Docker, Kaniko doesn’t require the Docker daemon. With the help of Kaniko, you won’t be needing to run docker containers with privileged mode.
 - [medium: Multibranch and HA Pipeline in Jenkins with Kaniko on GKE](https://medium.com/searce/multibranch-and-ha-pipeline-in-jenkins-with-kaniko-on-gke-8a1e7fa93403)
 - [developers.redhat.com: Perform a kaniko build on a Red Hat OpenShift cluster and push the image to a registry](https://developers.redhat.com/articles/2021/06/18/perform-kaniko-build-red-hat-openshift-cluster-and-push-image-registry)
 - [devopscube.com: How To Build Docker Image In Kubernetes Pod 🌟](https://devopscube.com/build-docker-image-kubernetes-pod/)
 - [learnsteps.com: Kaniko and how you can build images on Kubernetes using kaniko?](https://www.learnsteps.com/kaniko-and-how-you-can-build-images-on-kubernetes-using-kaniko/)
+- [kubesandclouds.com: Kaniko: Building images without Docker](https://kubesandclouds.com/index.php/2021/11/04/kaniko/)
 
 ## Shipwright Framework for Building Container Images on Kubernetes
 - [shipwright.io](https://shipwright.io/)

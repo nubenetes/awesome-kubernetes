@@ -75,7 +75,15 @@
 - [thenewstack.io: The Rise of Event-Driven Architecture ](https://thenewstack.io/the-rise-of-event-driven-architecture/)
 - [jinwookim928.medium.com: Why Not Event Driven Architecture?](https://jinwookim928.medium.com/intro-to-event-driven-architecture-79914e5969d7)
 - [thenewstack.io: Streaming Data and the Modern Real-Time Data Stack](https://thenewstack.io/streaming-data-and-the-modern-real-time-data-stack/)
- 
+
+	|  | **Modern Data Stack** | **Modern Real-Time Data Stack** | 
+	| :--- | :--- | :--- | 
+	| Language | SQL | SQL |
+	| Deployment | Cloud-native | Cloud-native |
+	| Data Ops | Complex batch transformations every 15 minutes, hourly or daily | Simple incremental transformations every second |
+	| Insights | Monthly, Weekly or Daily | Instantly |
+	| Cost | Affordable at massive scale | Affordable at massive scale and speed |
+
 ## RPC vs Messaging
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 
