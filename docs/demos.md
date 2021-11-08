@@ -125,6 +125,7 @@
 * [faun.pub: Automation: Deploying an app in GKE using Ansible](https://faun.pub/automation-deploying-an-app-in-gke-using-ansible-4b6687967ac3) Ansible infrastructure-as-code to automate Nginx deployment in Google Kubernetes Cluster (GKE) on Google Cloud Platform (GCP).
 * [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos)
 * [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS, Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)
+* [redhat.com: Build a lab in 36 seconds with Ansible](https://www.redhat.com/sysadmin/build-VM-fast-ansible) Using Ansible makes provisioning virtual machines automated, flexible, repeatable, and fast.
 
 ### GitOps 
 - [thenewstack.io: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)

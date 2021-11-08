@@ -8,6 +8,7 @@
 	- [HTTP/3](#http3)
 	- [HTTP Structured Fields](#http-structured-fields)
 - [WebSockets](#websockets)
+- [Tweets](#tweets)
 
 ## ChromeDevTools
 - [devtools.chrome.com](https://devtools.chrome.com)
@@ -74,7 +75,10 @@
 - [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets) Welcome to another installment of You May Not Need Another Library For That (YMNNALFT)! 
 - [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) Understand the important attributes of WebSockets that every developer should know
 
----
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
 <iframe src="https://www.youtube.com/embed/WkLBrHW4NhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,5 +87,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">❤️ the Performance Monitor in <a href="https://twitter.com/ChromeDevTools?ref_src=twsrc%5Etfw">@ChromeDevTools</a>. Gives you a real-time view of CPU use, JS heap size, JS event listeners, style recalcs &amp; more: <a href="https://t.co/tc6CyTya3O">https://t.co/tc6CyTya3O</a> <a href="https://t.co/BWSi8klGkE">pic.twitter.com/BWSi8klGkE</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/1280403679380561920?ref_src=twsrc%5Etfw">July 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">8 Google extensions every developer must use<br><br>A thread 🧵🧵</p>&mdash; Meet Jain🦅 (@meetjain74) <a href="https://twitter.com/meetjain74/status/1434406944932982793?ref_src=twsrc%5Etfw">September 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡 Web Development tip<br><br>You can restart Chrome from the address bar by typing: chrome://restart <a href="https://t.co/0jbVoHwS1z">pic.twitter.com/0jbVoHwS1z</a></p>&mdash; Csaba Kissi ⚡ (@csaba_kissi) <a href="https://twitter.com/csaba_kissi/status/1457291401197199367?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

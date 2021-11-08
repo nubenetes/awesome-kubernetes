@@ -10,6 +10,7 @@
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
 - [Introduction](#introduction)
+- [AWS Toolkits](#aws-toolkits)
 - [eBooks](#ebooks)
 - [Training](#training)
 - [AWS Certification](#aws-certification)
@@ -175,6 +176,7 @@
 - [Everything AWS | Search and discover 6K+ quality AWS repositories](https://app.polymersearch.com/discover/aws)
 - [workshops.aws: AWS Workshops](https://workshops.aws/) This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
 You can filter by topic using the toolbar above.
+- [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
 
 ## Introduction
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
@@ -197,6 +199,9 @@ You can filter by topic using the toolbar above.
 - [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure) Before deciding on how to create your production platform, learn about the benefits and drawbacks of different ways to build your AWS infrastructure.
 - [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
+  
+## AWS Toolkits  
+- [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
 
 ## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)

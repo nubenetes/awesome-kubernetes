@@ -133,5 +133,7 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Running openvscode-server from <a href="https://twitter.com/hashtag/podman?src=hash&amp;ref_src=twsrc%5Etfw">#podman</a> with:<br><br>podman pull <a href="https://t.co/eXpnV9qXTt">https://t.co/eXpnV9qXTt</a><br>podman run -it --init -p 3000:3000 -v &quot;$(pwd):/home/workspace:cached&quot; gitpod/openvscode-server<br><br>Note; you might get a permission denied, is not aware of rootless use. Resolve with `chmod o+w -R` :-/</p>&mdash; Forever Young (@gbraad) (@gbraad) <a href="https://twitter.com/gbraad/status/1453259956120084486?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The RHEL/UBI 9 container images were released today! I&#39;m quite happy with the size reduction! We have UBI Micro down to 7MB compressed! <a href="https://t.co/PBU3cAApsp">pic.twitter.com/PBU3cAApsp</a></p>&mdash; Scott McCarty (@fatherlinux) <a href="https://twitter.com/fatherlinux/status/1455872808660217862?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

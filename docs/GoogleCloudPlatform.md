@@ -57,6 +57,7 @@
 - [cloud.google.com: Where should I run my stuff? Choosing a Google Cloud compute option](https://cloud.google.com/blog/topics/developers-practitioners/where-should-i-run-my-stuff-choosing-google-cloud-compute-option)
 - [cloud.google.com: What is Cloud Load Balancing?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-load-balancing)
 - [cloud.google.com: Google Cloud Networking overview 🌟🌟](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview)
+- [cloud.google.com: Service orchestration on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/service-orchestration-google-cloud)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

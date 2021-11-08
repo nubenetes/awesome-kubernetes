@@ -14,6 +14,7 @@
 - [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
 - [Kubesploit](#kubesploit)
 - [Kubeshop](#kubeshop)
+- [Monokle](#monokle)
 - [KubeLibrary](#kubelibrary)
 - [kube-vip](#kube-vip)
 - [Kubermetrics](#kubermetrics)
@@ -28,6 +29,7 @@
 - [KubExplorer](#kubexplorer)
 - [Kubescape](#kubescape)
 - [Kubectl Connections](#kubectl-connections)
+- [Benchmark Operator](#benchmark-operator)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -35,6 +37,7 @@
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Part 2](https://collabnix.com/top-10-kubernetes-tool-you-need-for-2021-part-2/)
 - [collabnix.github.io: Kubetools - A Curated List of Kubernetes Tools: Kubetools - A Curated List of Kubernetes Tools](https://collabnix.github.io/kubetools/)
 - [cyberithub.com: 70+ Important Kubernetes Related Tools You Should Know About](https://www.cyberithub.com/70-important-kubernetes-related-tools-you-should-know-about)
+- [itnext.io: Kubernetes GitOps Tools](https://itnext.io/kubernetes-gitops-tools-cf0247eb5368)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -386,6 +389,8 @@
 * [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
 * [aelsabbahy/goss](https://github.com/aelsabbahy/goss) Quick and Easy server testing/validation
 * [chr-fritz/csi-sshfs](https://github.com/chr-fritz/csi-sshfs) Kubernetes CSI Plugin for SSHFS. It allows to mount directories using a ssh connection.
+* [ctrox/csi-s3](https://github.com/ctrox/csi-s3) A Container Storage Interface for S3. This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.
+* [codesenberg/bombardier 🌟](https://github.com/codesenberg/bombardier) Fast cross-platform HTTP benchmarking tool written in Go
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
@@ -441,6 +446,9 @@
 - [Kubeshop 🌟](https://kubeshop.io/) First in the World Open-Source Accelerator/Incubator focusing on building project for Developers in the Kubernetes space
 - [venturebeat.com: Kubeshop wants to be a Kubernetes product pipeline](https://venturebeat.com/2021/09/17/kubeshop-wants-to-be-a-kubernetes-product-pipeline/)
 
+## Monokle
+- [kubeshop/monokle](https://github.com/kubeshop/monokle) Monokle - your friendly desktop UI for managing k8s manifests!
+
 ## KubeLibrary
 - [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) KubeLibrary is a RobotFramework library for testing Kubernetes cluster
 
@@ -474,7 +482,6 @@
 - [Popeye - A Kubernetes Cluster Sanitizer 🌟🌟](https://github.com/derailed/popeye) Popeye is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. By scanning your cluster, it detects misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches. It aims at reducing the cognitive overload one faces when operating a Kubernetes cluster in the wild. Furthermore, if your cluster employs a metric-server, it reports potential resources over/under allocations and attempts to warn you should your cluster run out of capacity.
 - [collabnix.com: Top 10 Kubernetes Tools You Need for 2021 – Popeye](https://collabnix.com/top-10-kubernetes-tools-you-need-for-2021/)
 
-
 <center>
 [![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
 </center>
@@ -492,6 +499,9 @@
 ## Kubectl Connections
 - [KubePlus kubectl plugins -> kubectl connections](https://github.com/cloud-ark/kubeplus/blob/master/kubeplus-kubectl-commands.md)
 - [cloudark.medium.com: kubectl connections](https://cloudark.medium.com/whats-cooking-in-your-kubernetes-namespace-9200be114f8) that can help you discover and visualize relationship between resources (Deployments, Services, etc.) in your namespace
+
+## Benchmark Operator
+- [cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks](https://github.com/cloud-bulldozer/benchmark-operator) The intent of this Operator is to deploy common workloads to establish a performance baseline of Kubernetes cluster on your provider.
 
 ## Tweets
 <details>

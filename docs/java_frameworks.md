@@ -28,6 +28,7 @@
 - [Quarkus vs Spring Boot](#quarkus-vs-spring-boot)
 - [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
 - [Java Testing Frameworks](#java-testing-frameworks)
+- [Debugging Java Threads](#debugging-java-threads)
 - [Videos](#videos)
 - [Tweets](#tweets)
 ## Java
@@ -262,6 +263,9 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021) Java Testing Frameworks provide standardized, extendable ways for programmers and developers to build any software application or web apps.
 - [jfrunit](https://github.com/moditect/jfrunit) A JUnit extension for asserting JDK Flight Recorder events
 	- [morling.dev: Introducing JfrUnit 1.0.0.Alpha1](https://www.morling.dev/blog/introducing-jfrunit-1-0-0-alpha1/)
+
+## Debugging Java Threads
+- [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues/)
 
 ## Videos
 <details>

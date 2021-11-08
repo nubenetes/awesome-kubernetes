@@ -1,6 +1,7 @@
 # Python
 - [Python Blogs and Forums](#python-blogs-and-forums)
 - [Python docs](#python-docs)
+- [PHP vs Python](#php-vs-python)
 - [APIs in Python](#apis-in-python)
 - [Thoth](#thoth)
 - [Python Books](#python-books)
@@ -165,6 +166,11 @@
 - [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/)
 - [pythonsimplified.com: Python secrets module for strong random number and token generation](https://pythonsimplified.com/python-secrets-module-for-strong-random-number-and-token-generation/) Do you know Python has a built-in module called secrets that can be used to generate cryptographically strong passwords, tokens, and other related secrets? The secrets module was first introduced in Python 3.6
 - [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/)
+- [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/blog/coding-tutorial/pro-python-tips-for-data-analysts)
+- [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc)
+
+## PHP vs Python
+- [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
 
 ## APIs in Python
 - [towardsdatascience.com: Quick-Fire Guide to APIs in Python](https://towardsdatascience.com/quick-fire-guide-to-apis-in-python-891dd98c8877) A straightforward guide to web communication
@@ -176,6 +182,7 @@
 
 ## Python Books
 - [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks. 
+	- [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 - [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 ## Python Django Framework
@@ -330,5 +337,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TOP Python Github repositories for you. <br><br>A Thread... 🧵<a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/CodeNewbies?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbies</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1318179578720919552?ref_src=twsrc%5Etfw">October 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python Quick Revision Guide(Part-1) 🐍<br><br>MEGA Thread 🧵👇</p>&mdash; Saurav Jain (@Sauain) <a href="https://twitter.com/Sauain/status/1443496764682604546?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Have you checked out <a href="https://twitter.com/jakevdp?ref_src=twsrc%5Etfw">@jakevdp</a>&#39;s <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> Data Science Handbook yet? 📕 You can follow along right in the comfort of your browser with <a href="https://t.co/UMiyEY5CgZ">https://t.co/UMiyEY5CgZ</a> 😎<br><br>👉 <a href="https://t.co/g9gCznaoqz">https://t.co/g9gCznaoqz</a> <a href="https://t.co/g1fluMB6eH">pic.twitter.com/g1fluMB6eH</a></p>&mdash; Visual Studio Code (@code) <a href="https://twitter.com/code/status/1457428301266370563?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
