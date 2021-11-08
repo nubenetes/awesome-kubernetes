@@ -28,7 +28,7 @@
 - [OpenShift Demos](#openshift-demos)
     - [Developer Sandbox](#developer-sandbox)
     - [OpenShift VS Kubernetes](#openshift-vs-kubernetes)
-    - [IBM Cloud Pak Playbooks](#ibm-cloud-pak-playbooks)
+    - [IBM Cloud Pak Playbooks and GitOps](#ibm-cloud-pak-playbooks-and-gitops)
     - [Knative](#knative)
     - [OpenShift Pipelines Workshop (Tekton)](#openshift-pipelines-workshop-tekton)
     - [OpenShift GitOps (ArgoCD)](#openshift-gitops-argocd)
@@ -316,8 +316,9 @@
 ### OpenShift VS Kubernetes
 * [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/) Example exercises to differentiate OpenShift and Kubernetes. Walk through some steps with Red Hat OpenShift on IBM Cloud.
 
-### IBM Cloud Pak Playbooks
+### IBM Cloud Pak Playbooks and GitOps
 * [IBM Cloud Pak Playbook](https://cloudpak8s.io/apps/cp4a_overview/)
+* [cloud-native-toolkit/multi-tenancy-gitops 🌟](https://github.com/cloud-native-toolkit/multi-tenancy-gitops) **Provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** The GitOps concept originated from Weaveworks back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth (History of GitOps). **This repository provides our opinionated point of view on how GitOps can be used to manage the infrastructure, services and application layers of K8s based systems.** It takes into account the various personas interacting with the system and accounts for separation of duties. **The instructions and examples are focused around the Red Hat OpenShift platform and IBM Cloud Paks.** The reference architecture for this GitOps workflow can be found [here](https://cloudnativetoolkit.dev/adopting/use-cases/gitops/gitops-ibm-cloud-paks/).
 
 ### Knative 
 * [knative-tutorial](https://github.com/redhat-developer-demos/knative-tutorial) A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.
