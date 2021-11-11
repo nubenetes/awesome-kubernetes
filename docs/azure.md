@@ -19,6 +19,7 @@
 - [Windows 11](#windows-11)
 - [Azure API Management](#azure-api-management)
 - [Azure Container Apps](#azure-container-apps)
+- [Azure Container Instances](#azure-container-instances)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -157,6 +158,10 @@
 ## Azure Container Apps
 - [Azure Container Apps](https://azure.microsoft.com/services/container-apps/) Build and deploy modern apps and microservices using serverless containers
 - [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/t5/apps-on-azure/introducing-azure-container-apps-a-serverless-container-service/ba-p/2867265)
+
+## Azure Container Instances
+- [azure.microsoft.com: Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/) Launch containers with hypervisor isolation
+- [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances/)
 
 <center>
 [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)

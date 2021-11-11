@@ -94,6 +94,7 @@
 * [Kubecrt - Convert HELM charts to kubernetes resources 🌟](https://toolbox.kali-linuxtr.net/kubecrt-convert-helm-charts-to-kubernetes-resources.tool)
 
 ## Datree
+* https://github.com/datreeio/datree Prevent Kubernetes misconfigurations from reaching production (again 😤 )! **Datree** is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies. See our docs: https://hub.datree.io/
 * [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
 
 ## Helm Charts repositories

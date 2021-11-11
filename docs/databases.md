@@ -210,6 +210,7 @@
 * [blog.crunchydata.com: Using Cert Manager to Deploy TLS for Postgres on Kubernetes](https://blog.crunchydata.com/blog/using-cert-manager-to-deploy-tls-for-postgres-on-kubernetes)
 * [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes) I share my thoughts about how to set up a PostgreSQL Database in Kubernetes with some level of high availability, introducing 3 different architectural styles to do so.
 * [blog.crunchydata.com: Can't Resize your Postgres Kubernetes Volume? No Problem!](https://blog.crunchydata.com/blog/resize-postgres-kubernetes-volume-instance-sets)
+* [blog.crunchydata.com: Your Guide to Connection Management in Postgres 🌟](https://blog.crunchydata.com/blog/your-guide-to-connection-management-in-postgres)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -878,6 +879,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - **Why Postgres?**
     - Its fully open source, so control over destiny
     - Features are comparable to Oracle, so minimizes mental friction of the move
+- [blog.crunchydata.com: Devious SQL: Message Queuing Using Native PostgreSQL](https://blog.crunchydata.com/blog/message-queuing-using-native-postgresql)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
@@ -936,5 +938,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">PostgreSQL for relational.<br>PromQL for monitoring.<br><br>Two big alignments across the industry.</p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1448084198418522113?ref_src=twsrc%5Etfw">October 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m super curious, how many people have successfully migrated their databases from Oracle to Postgres in production? I&#39;m talking 100% migration with Oracle being turned off at the end.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1455212853678338048?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes can only meet stateful services half way. We need direct changes in databases, message brokers, and other stateful systems if we want to see a future where Kubernetes becomes the preferred destination to run them. The <a href="https://twitter.com/VectorizedIO?ref_src=twsrc%5Etfw">@vectorizedio</a> team is doing their part. <a href="https://t.co/w94Q56nnXM">https://t.co/w94Q56nnXM</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1457828928022745090?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -366,6 +366,7 @@ git push origin -f
 * [dev.to: Git and GitHub Series' Articles - The Complete Guides 🌟](https://dev.to/ifierygod/series/14420)
 * [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/3639588/github-introduces-code-review-controls.html) New controls in the popular code-sharing site are designed to deal with ‘drive-by‘ pull request approvals and ‘spammy’ change requests.
 * [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github/)
+* [freecodecamp.org: Git and GitHub Tutorial – Version Control for Beginners 🌟](https://www.freecodecamp.org/news/git-and-github-for-beginners)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

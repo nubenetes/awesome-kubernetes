@@ -43,6 +43,7 @@
 - [ksoclabs/awesome-kubernetes-security 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
 - [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
+- [diegolnasc/kubernetes-best-practices 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.

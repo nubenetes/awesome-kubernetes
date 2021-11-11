@@ -15,6 +15,7 @@
 - [DNS Service with CoreDNS](#dns-service-with-coredns)
 - [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
+- [Tweets](#tweets)
 
 ## Introduction
 * [kubernetes.io: The Kubernetes network model. How to implement the Kubernetes networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
@@ -201,3 +202,14 @@
 ## Kubernetes Sidecars
 * [banzaicloud.com: Sidecar container lifecycle changes in Kubernetes 1.18 🌟](https://banzaicloud.com/blog/k8s-sidecars/)
 * [medium: Delaying application start until sidecar is ready](https://medium.com/@marko.luksa/delaying-application-start-until-sidecar-is-ready-2ec2d21a7b74) Taking advantage of a peculiar Kubernetes implementation detail to block containers from starting before another container starts.
+
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes is an example of what happens when you have an indefinitely complex network stack and no troubleshooting tools in place.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1458317772941713408?ref_src=twsrc%5Etfw">November 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

@@ -31,6 +31,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
     - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation/)
 - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management/)
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
+- [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
 
 ## Productivity Tips with .new TLD to quickly create
 - [Google Docs: doc.new](https://doc.new)

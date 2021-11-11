@@ -7,11 +7,14 @@
 - [More dotnet frameworks and tools](#more-dotnet-frameworks-and-tools)
 - [Kubernetes for ASP.NET Core Developers](#kubernetes-for-aspnet-core-developers)
 - [Deploying ASP.NET Core applications to Kubernetes](#deploying-aspnet-core-applications-to-kubernetes)
+- [Tweets](#tweets)
 
 ## Introduction
 - [wikipedia.org: .NET](https://en.wikipedia.org/wiki/.NET) .NET (previously named .NET Core) is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems. It is a cross-platform successor to .NET Framework. The project is primarily developed by Microsoft employees by way of the .NET Foundation, and released under the MIT License.
 - https://dotnet.microsoft.com
 - https://github.com/dotnet/core
+- [techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps](https://techcommunity.microsoft.com/t5/apps-on-azure/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static/ba-p/2933428)
+- [developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift)
 
 ## ASP.NET Core
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)
@@ -46,3 +49,14 @@
 ## Deploying ASP.NET Core applications to Kubernetes 
 - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
 - [dzone: CI/CD as a Code for .NET Core Application and Kubernetes 🌟](https://dzone.com/articles/cicd-as-a-code-for-net-core-application-and-kubern) The process of building a simple CI/CD pipeline for existing .net core application to moving it to Azure Kubernetes Services using Azure DevOps.
+
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My favorite .NET 6 feature: single file deployment and executable binaries across multiple platforms. <a href="https://t.co/Zfd7zJGf0N">https://t.co/Zfd7zJGf0N</a> <a href="https://t.co/jpu9R36S7v">pic.twitter.com/jpu9R36S7v</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1457772150576742415?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

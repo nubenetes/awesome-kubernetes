@@ -12,7 +12,7 @@
 	- [Velocity (Windows, paid)](#velocity-windows-paid)
 	- [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
 - [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
-- [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
+- [Kubernetes and Kubectl Cheat Sheets](#kubernetes-and-kubectl-cheat-sheets)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 	- [Docker Swarm Cheat Sheets](#docker-swarm-cheat-sheets)
 - [Security Cheat Sheets](#security-cheat-sheets)
@@ -119,7 +119,7 @@
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 
-## Kubectl Cheat Sheets
+## Kubernetes and Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
 * [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
@@ -148,6 +148,7 @@
 	* `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1` 
 	* `kubectl logs -l app=my.app --tail=-1` 
 * [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
+* [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
 
 ## Docker Cheat Sheets
 - [docker.com: Docker Cheat Sheet 🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)

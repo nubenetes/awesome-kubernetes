@@ -47,6 +47,7 @@
 - [blog.pythonlibrary.org 🌟](http://www.blog.pythonlibrary.org/)
 - [nixCraft: Python Execute Unix/Linux Command Examples 🌟](http://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/)
 - [fedoralovespython.org 🌟](https://fedoralovespython.org/)
+- [futurecoder.io](https://futurecoder.io) Learn Python from scratch with interactive learning.
 
 ## Python docs
 - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)
@@ -168,6 +169,8 @@
 - [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/)
 - [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/blog/coding-tutorial/pro-python-tips-for-data-analysts)
 - [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc)
+- [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78)
+- [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) Understand Python Inheritance using an intuitive example
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -308,6 +311,7 @@
 - [opensource.com: How to use Python to hack your Eclipse IDE](https://opensource.com/life/16/2/how-use-python-hack-your-ide)
 
 ## Python Libraries
+- https://pypi.org 🌟 **Find, install and publish Python packages with the Python Package Index**. The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
 - [Click 🌟](https://click.palletsprojects.com/) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 - [towardsdatascience.com: Auto Import Python Libraries](https://towardsdatascience.com/auto-import-python-libraries-d095a11b4cca) Using Pyforest to import important python libraries
 - [PyGithub 🌟](https://github.com/PyGithub/PyGithub) Typed interactions with the GitHub API v3 - [pygithub.readthedocs.io](https://pygithub.readthedocs.io/) PyGitHub is a Python library to access the GitHub REST API. This library enables you to manage GitHub resources such as repositories, user profiles, and organizations in your Python applications.

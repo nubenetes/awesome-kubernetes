@@ -2,6 +2,7 @@
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
+- [AIOps](#aiops)
 - [Configuration Drift](#configuration-drift)
   - [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
@@ -47,6 +48,14 @@
 - [vitalflux.com: 15 Tricky DevOps Architect Interview Questions & Answers](https://vitalflux.com/devops-architect-interview-questions)
 - [devsecops.co.in: DevOps Interview Questions and Answers](https://devsecops.co.in/2021/05/20/devops-interview-questions/)
 - [learnsteps.com: DevOps Interview Questions: What do you know about proc filesystem in Linux.](https://www.learnsteps.com/devops-interview-questions-what-do-you-know-about-proc-filesystem-in-linux/)
+
+## AIOps
+- [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
+  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
+  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 3](https://www.apmdigest.com/aiops-itops-3)
+  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
+  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
+- [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.
@@ -175,6 +184,10 @@
 * [thenewstack.io: Microservices Transformed DevOps — Why Security Is Next](https://thenewstack.io/microservices-transformed-devops-why-security-is-next/)
 * [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery/)
 * [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams/)
+* [devops.com: 5 Tips for a Successful DevOps Implementation](https://devops.com/5-tips-for-a-successful-devops-implementation)
+* [dev.to: DEV-OPS](https://dev.to/attaullahshafiq10/dev-ops-59dm) 
+  * Its a culture, concept, process and approach that merges software requirement gathering, software development, testing, quality assurance, system configurations, product deployment and operations. Organizations building or improving software products are moving towards a DevOps approach where development, testing, security, quality assurance and operations are getting merged within a large team and those technical resources work side by side to achieve higher return on investment
+  * DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 
 <center>
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
@@ -189,6 +202,7 @@
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
 - [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
 - [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop/)
+- [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.

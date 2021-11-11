@@ -84,6 +84,7 @@
 	| Insights | Monthly, Weekly or Daily | Instantly |
 	| Cost | Affordable at massive scale | Affordable at massive scale and speed |
 
+- [blog.direktiv.io: Event driven orchestration with Knative (part 1)](https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03)
 ## RPC vs Messaging
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 

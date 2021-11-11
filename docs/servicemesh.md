@@ -54,6 +54,7 @@
 * [infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh](https://www.infoq.com/articles/cloud-native-architecture-adoption-part3/)
 * [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide-2e/)
 * [itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41)
+* [thenewstack.io: The Hidden Costs of Service Meshes](https://thenewstack.io/the-hidden-costs-of-service-meshes/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

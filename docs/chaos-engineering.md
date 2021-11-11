@@ -1,8 +1,11 @@
 # Chaos Engineering
+- [Introduction](#introduction)
 - [Chaos Engineering for kubernetes/Openshift](#chaos-engineering-for-kubernetesopenshift)
 - [Chaos Engineering for serverless computing](#chaos-engineering-for-serverless-computing)
 - [Other Chaos Engineering Tools](#other-chaos-engineering-tools)
 
+## Introduction
+- [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops/)
 ## Chaos Engineering for kubernetes/Openshift
 * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)

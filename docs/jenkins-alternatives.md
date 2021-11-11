@@ -195,6 +195,7 @@
 * [openshift.com: Running Testcontainers in OpenShift Pipelines With Docker-in-Docker (with Tekton)](https://www.openshift.com/blogrunning-testcontainers-in-openshift-pipelines-with-docker-in-docker)
 * [blog.harbur.io: The Seven Steps to build a Cloud Native CI/CD for GitHub repos using Tekton](https://blog.harbur.iothe-seven-steps-to-build-a-cloud-native-ci-cd-for-github-repos-using-tekton-31a445a3bde)
 * [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb) Learn how to use, buildand deploy custom Tasks for Cloud-Native CI/CD on Kubernetes with Tekton Pipelines…
+* [opensource.com: Write your first CI/CD pipeline in Kubernetes with Tekton 🌟](https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton) Tekton is a Kubernetes-native open source framework for creating continuous integration and continuous delivery (CI/CD) systems.
 ### Jenkins X and Tekton on OpenShift
 * [Jenkins-X + Tekton on OpenShift](https://github.com/openshift/tektoncd-pipeline-operator)
 * [CI/CD OpenShift and Tekton](https://blog.sonatype.com/new-cloud-native-ci/cd-projects-openshift-and-tekton)

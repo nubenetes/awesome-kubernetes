@@ -8,6 +8,7 @@
   - [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
+- [Microservices Anti Patterns](#microservices-anti-patterns)
 - [Backends for Frontends](#backends-for-frontends)
 - [Cloud Migration Checklist](#cloud-migration-checklist)
 - [Microservices Failures](#microservices-failures)
@@ -200,6 +201,9 @@
 - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/) Your microservices should be more than simple RESTful APIs. They should also be publishing important events, such as a change feed. 
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
+
+## Microservices Anti Patterns
+- [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns/)
 
 ## Backends for Frontends
 - [developers.soundcloud.com: Service Architecture at SoundCloud — Part 1: Backends for Frontends](https://developers.soundcloud.com/blog/service-architecture-1)

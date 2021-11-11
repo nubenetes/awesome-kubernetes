@@ -199,6 +199,7 @@ You can filter by topic using the toolbar above.
 - [dzone: Five Different Ways to Build AWS Infrastructure](https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure) Before deciding on how to create your production platform, learn about the benefits and drawbacks of different ways to build your AWS infrastructure.
 - [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
+- [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
   
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)

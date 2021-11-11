@@ -117,7 +117,7 @@
 - [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes/) 
 
 ### Kadalu
-- [Kadalu](https://github.com/kadalu/kadalu) A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background.
+- [Kadalu](https://github.com/kadalu/kadalu) A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background. **Kadalu is a project to provide Persistent Storage in Kubernetes. The Kadalu operator deploys CSI pods, and gluster storage pods**
 
 ### IOMesh
 - [iomesh.com](https://www.iomesh.com/)
