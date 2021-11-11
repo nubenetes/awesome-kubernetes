@@ -216,6 +216,7 @@
 #### Hashicorp Terraform Kubernetes Collection
 - https://github.com/hashicorp/learn-terraform-provision-aks-cluster
 - https://github.com/hashicorp/learn-terraform-provision-eks-cluster
+	- [spacelift.io: How to Provision an AWS EKS Kubernetes Cluster with Terraform](https://spacelift.io/blog/how-to-provision-aws-eks-kubernetes-cluster-with-terraform) 
 - https://github.com/hashicorp/learn-terraform-provision-gke-cluster
 - https://github.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider
 - https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples/kubernetes 🌟
