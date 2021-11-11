@@ -35,6 +35,7 @@
         - [JMeter Example Test Plans](#jmeter-example-test-plans)
 - [Prometheus and Azure](#prometheus-and-azure)
 - [Videos](#videos)
+- [Tweets](#tweets)
 
 ## Introduction
 * [**prometheus.io**](https://prometheus.io/)
@@ -681,3 +682,13 @@ JMeter|Artemis Grafana|Artemis Dashboard
 <iframe src="https://www.youtube.com/embed/r8UvWSX3KA8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Over the last months we have added a lot of functionalities to <a href="https://twitter.com/PrometheusIO?ref_src=twsrc%5Etfw">@PrometheusIO</a> to help admins limit the risks of targets blowing up servers ⬇️</p>&mdash; Julien Pivotto (@roidelapluie) <a href="https://twitter.com/roidelapluie/status/1458698615082344451?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+

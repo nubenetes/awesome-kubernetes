@@ -6,6 +6,7 @@
 - [Audi Kubika-O](#audi-kubika-o)
 - [Carrefour Spain](#carrefour-spain)
 - [Decathlon](#decathlon)
+- [Deutsche Telekom](#deutsche-telekom)
 - [Add your Cloud Native Project here](#add-your-cloud-native-project-here)
 - [Videos](#videos)
 
@@ -50,6 +51,9 @@
 
 ## Decathlon
 - [quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus](https://quarkus.io/blog/decathlon-user-story/) Another successful Quarkus user story! Decathlon picking QuarkusIO over springboot
+
+## Deutsche Telekom
+- [thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops/)
 
 ## Add your Cloud Native Project here
 - Bla bla bla
