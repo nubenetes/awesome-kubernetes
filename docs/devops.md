@@ -51,10 +51,10 @@
 
 ## AIOps
 - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
-  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
-  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 3](https://www.apmdigest.com/aiops-itops-3)
-  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
-  - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 3](https://www.apmdigest.com/aiops-itops-3)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
 - [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
 
 ## Configuration Drift
