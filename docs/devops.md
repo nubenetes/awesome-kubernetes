@@ -15,7 +15,7 @@
     - [keptn slides and videos](#keptn-slides-and-videos)
   - [Puppet](#puppet)
   - [Relay](#relay)
-  - [Devtron Labs](#devtron)
+  - [Devtron Labs](#devtron-labs)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
   - [AWS DevOps](#aws-devops)
