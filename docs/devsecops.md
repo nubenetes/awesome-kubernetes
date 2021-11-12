@@ -125,6 +125,7 @@
 - [thenewstack.io: Infrastructure-as-Code: 6 Best Practices for Securing Applications 🌟](https://thenewstack.io/infrastructure-as-code-6-best-practices-for-securing-applications/)
 - [devops.com: Securing Your Software Development Pipelines](https://devops.com/securing-your-software-development-pipelines/)
 - [thenewstack.io: How GitOps Benefits from Security-as-Code](https://thenewstack.io/how-gitops-benefits-from-security-as-code/)
+- [devops.com: Tips for a Successful DevSecOps Life Cycle](https://devops.com/tips-for-a-successful-devsecops-life-cycle/)
 
 ## Zero Trust Security
 - [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
@@ -195,6 +196,7 @@
 - [sonarqube.org: OWASP Top 10 - We’ve got you covered!](https://www.sonarqube.org/features/security/owasp/) See issues in the 10 most critical security risk categories in your web applications.
 - [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp/)
+- [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/)
 
 ## StackRox
 - [stackrox.com](https://www.stackrox.com/)

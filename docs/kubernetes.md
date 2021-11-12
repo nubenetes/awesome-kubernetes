@@ -709,6 +709,13 @@
 * [geekflare.com: Diez mejores prácticas de Kubernetes para una mejor orquestación de contenedores](https://geekflare.com/es/kubernetes-best-practices/)
 * [containerjournal.com: 4 Expert-Level Things I Wish I’d Known About Kubernetes](https://containerjournal.com/features/4-expert-level-things-i-wish-id-known-about-kubernetes/)
 * [dev.to: Prevent Configuration Errors in Kubernetes](https://dev.to/solegaonkar/prevent-configuration-errors-in-kubernetes-30dn)
+* [komodor.com: Four Best Practices to Migrate to Kubernetes (Part 1)](https://komodor.com/blog/best-practices-to-migrate-to-kubernetes/)
+    * [komodor.com: Five Kubernetes Deployment Best Practices (Part 2) 🌟](https://komodor.com/blog/5-kubernetes-deployment-best-practices)
+        1. Maintaining Good YAML Hygiene (AKA Your K8s Deployment Manifest)
+        2. Stateless Apps FTW!
+        3. Logging, but Specifically for Kubernetes
+        4. Separation of Environments
+        5. Invest in Proper Monitoring
 
 <center>
 [![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
@@ -854,6 +861,7 @@
 * [pixelstech.net: Build a Kubectl Plugin from Scratch](https://www.pixelstech.net/article/1606901393-Build-a-Kubectl-Plugin-from-Scratch)
 * [k8scr](https://github.com/hasheddan/k8scr) A kubectl plugin for pushing OCI images through the Kubernetes API server.
 * [martinheinz.dev: Making Kubernetes Operations Easy with kubectl Plugins](https://martinheinz.dev/blog/58)
+* [kei6u/kubectl-secret-data](https://github.com/kei6u/kubectl-secret-data) A kubectl plugin for finding decoded secret data with productive search flags.
 
 <center>
 <iframe src="https://www.youtube.com/embed/_W2qZvQT6XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

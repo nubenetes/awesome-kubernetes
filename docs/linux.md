@@ -191,6 +191,7 @@
 - [opensource.com: Get memory use statistics with this Linux command-line tool](https://opensource.com/article/21/10/memory-stats-linux-smem) The smem command allows you to quickly view your web applications' memory use.
 - [redhat.com: 3 basic Linux group management commands every sysadmin should know](https://www.redhat.com/sysadmin/linux-commands-manage-groups) How to use the groupadd, groupmod, and groupdel commands is essential knowledge for Linux sysadmins.
 - [itsfoss.com/exa](https://itsfoss.com/exa) **exa**: A Modern Replacement for the ls Command
+- [cyberciti.biz: diff Command Colorize Output On the Unix / Linux Command Line](https://www.cyberciti.biz/programming/color-terminal-highlighter-for-diff-files/) **colordiff**
 
 ## BusyBox
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux
