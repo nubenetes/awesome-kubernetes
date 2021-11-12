@@ -834,7 +834,7 @@
 
 ## Kubernetes Community
 ### Community Forums
-- [Community Forums🌟](https://discuss.kubernetes.io/)
+- [Community Forums 🌟](https://discuss.kubernetes.io/)
 
 ### Kubernetes Special Interest Groups (SIGs)
 - [Kubernetes Special Interest Groups (SIGs)](https://github.com/kubernetes/community/blob/master/README.md#special-interest-groups-sig) have been around to support the community of developers and operators since around the 1.0 release. People organized around networking, storage, scaling and other operational areas.

@@ -74,3 +74,4 @@
 - [engineering.konveyor.io: Konveyor Engineering Knowledgebase](https://engineering.konveyor.io/) Engineers working on Konveyor have started putting their own kbase articles here.
 - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/konveyor/crane) Crane 2, a tool for rehosting cloud workloads for Kubernetes.
     - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) Migrating workloads across clusters, from one k8s distro to another, will be the focus of open-source tool Crane 2.0. (A tool that's part of the Konveyor community.) 
+- [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/en/community/blog/migrating-to-kubernetes-with-open-source-tools) **KubeByExample's newest learning path applies open source tools to help you rehost, replatform, and refractor your applications to Kubernetes.**
