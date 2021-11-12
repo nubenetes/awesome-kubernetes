@@ -388,6 +388,7 @@
 
 ## Selenium
 - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)
+- [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.lambdatest.com/blog/selenium-python-cheat-sheet/)
 
 ## CIDR subnets
 - [cidr.xyz 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
