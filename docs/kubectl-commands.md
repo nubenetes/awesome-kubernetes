@@ -102,7 +102,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 - [vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)](https://github.com/vmware-tanzu/buildkit-cli-for-kubectl) BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.
 
 ## Kubectl Alternatives
-* [Helm and Kubernetes](kubernetes.md#helm-kubernetes-tool)
+* [Helm and Kubernetes](helm.md)
 * [Kubectl plugins and tools](kubernetes.md#kubectl-plugins)
 
 ### Manage Kubernetes (K8s) objects with Ansible Kubernetes Module
