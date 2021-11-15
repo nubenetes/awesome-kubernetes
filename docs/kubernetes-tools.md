@@ -32,6 +32,8 @@
 - [Benchmark Operator](#benchmark-operator)
 - [Source-To-Image (S2I)](#source-to-image-s2i)
 - [VMware Tanzu Octant](#vmware-tanzu-octant)
+- [Qovery Engine](#qovery-engine)
+- [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -517,6 +519,12 @@
 
 ## VMware Tanzu Octant
 * [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
+
+## Qovery Engine
+- [Qovery/engine: Qovery Engine 🌟](https://github.com/Qovery/engine) Qovery Engine is an open-source abstraction layer library that turns easy apps deployment on AWS, GCP, Azure, and other Cloud providers in just a few minutes. The Qovery Engine is written in Rust and takes advantage of Terraform, Helm, Kubectl, and Docker to manage resources.
+
+## mck8s Container orchestrator for multi-cluster Kubernetes
+- [moule3053/mck8s](https://github.com/moule3053/mck8s) mck8s, short for multi-cluster Kubernetes, allows you to automate the deployment of multi-cluster applications on multiple Kubernetes clusters by offering enhanced configuration possibilities. The main aim of mck8s is maximizing resource utilization and supporting elasitcity across multiple Kubenetes clusters by providing multiple placement policies, as well as bursting, cloud resource provisioning, autoscaling and de-provisioning capabilities. mck8s builds upon other open-source software such as Kubernetes, Kubernetes Federation, kopf, serf, Cilium, Cluster API, and Prometheus.
 
 ## Tweets
 <details>
