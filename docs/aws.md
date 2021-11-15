@@ -113,8 +113,8 @@
 - [Best Practices](#best-practices)
 - [New Features](#new-features)
 - [Superwerker](#superwerker)
-- [Tools and Samples](#tools-and-samples)
-- [Third party tools](#third-party-tools)
+- [AWS Samples (Boilerplates)](#aws-samples-boilerplates)
+- [Third Party Tools](#third-party-tools)
 - [AWS Amplify](#aws-amplify)
 - [AWS Control Tower](#aws-control-tower)
 - [Spain](#spain)
@@ -868,14 +868,14 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## Superwerker
 - [superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/) Automates AWS Cloud deployments backed by decades of expertise and best practices
 
-## Tools and Samples
-- [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
+## AWS Samples (Boilerplates)
 - [github.com/aws-samples 🌟](https://github.com/aws-samples)
 - [github.com/aws-samples/aws-auto-inventory: AWS Automated Inventory 🌟](https://github.com/aws-samples/aws-auto-inventory) A command line tool that allows you to quickly and easily generate inventory reports of your AWS resources.
 - [github.com/aws-samples/aws-waf-ops-dashboards](https://github.com/aws-samples/aws-waf-ops-dashboards) In this repository, we share code for building infrastructure to collect, enrich, and visualize AWS Web Application Firewall logs. Implementing this project in your AWS account will allow you to view and filter the logs through Kibana dashboards below, as well as customize views and dashboards to your needs.
 - [github.com/aws-samples/aws-customer-playbook-framework 🌟](https://github.com/aws-samples/aws-customer-playbook-framework) This repository provides sample templates for security playbooks against various scenarios when using Amazon Web Services.
 
-## Third party tools
+## Third Party Tools
+- [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
 - [techcrunch.com: Vantage makes managing AWS easier](https://techcrunch.com/2021/01/12/vantage-makes-managing-aws-easier/)
 - [vantage.sh](https://www.vantage.sh/)
 

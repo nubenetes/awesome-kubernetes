@@ -2,7 +2,7 @@
 - [Introduction](#introduction)
 - [Google Cloud](#google-cloud)
 - [Dev Library](#dev-library)
-- [GitHub](#github)
+- [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
 - [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
 - [Serverless](#serverless)
 - [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
@@ -62,9 +62,9 @@
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
 
-## GitHub 
+## GCP Samples (Boilerplates)
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
-- [github.com/GoogleCloudPlatform/cloud-code-samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
+- [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples)
 - [kelseyhightower/cmd-tutorial](https://github.com/kelseyhightower/cmd-tutorial) This tutorial will walk you through provisioning some VMs on GCP so you can kick the tires on Cmd -- Track and Control Users in Production.
 
 ## Managing Cluster Level Configuration
