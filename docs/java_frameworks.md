@@ -238,6 +238,7 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - [developers.redhat.com: Quarkus for Spring developers: Getting started 🌟](https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started)
 - [dzone refcard: Getting Started With Quarkus Serverless Functions](https://dzone.com/refcardz/getting-started-with-quarkus-serverless-functions)
 - [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/)
+- [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22)
 
 ## Kogito cloud-native business automation framework 
 - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)

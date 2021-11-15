@@ -53,6 +53,7 @@
 	* `"editor.guides.bracketPairs": true`
 * [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
 * **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
+* [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

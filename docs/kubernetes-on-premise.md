@@ -26,6 +26,7 @@
     - [Mirantis k0s](#mirantis-k0s)
     - [K0s](#k0s)
     - [K8e](#k8e)
+    - [Typhoon](#typhoon)
 
 ## Introduction
 - [containerjournal.com: Deploying Kubernetes on Bare Metal](https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/)
@@ -153,6 +154,8 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html/)
 * [tanzu.vmware.com: VMware Tanzu SQL: MySQL at Scale Made Easy for Kubernetes](https://tanzu.vmware.com/content/blog/vmware-tanzu-sql-mysql-at-scale-kubernetes)
 * [VMware hands-on Labs 🌟](https://labs.hol.vmware.com/)
+* [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)
+* [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
 
 #### KubeAcademy Pro (free training)
 * [tanzu.vmware.com: Introducing KubeAcademy Pro: In-Depth Kubernetes Training, Totally Free](https://tanzu.vmware.com/content/blog/introducing-kubeacademy-pro-in-depth-kubernetes-training-totally-free)
@@ -185,3 +188,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### K8e
 - [xiaods/k8e](https://github.com/xiaods/k8e) K8e 🚀 (said 'kuber easy') - Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices. 
+
+### Typhoon
+- [poseidon/typhoon](https://github.com/poseidon/typhoon) **Typhoon is a minimal and free Kubernetes distribution with Terraform.** [typhoon.psdn.io](https://typhoon.psdn.io/)
+

@@ -140,7 +140,10 @@
     * [css-tricks.com: Advanced Git series. 3 Better Collaboration With Pull Requests](https://css-tricks.com/better-collaboration-with-pull-requests/)
     * [css-tricks.com: Advanced Git series. 4 Merge Conflicts: What They Are and How to Deal with Them​](https://css-tricks.com/merge-conflicts-what-they-are-and-how-to-deal-with-them/)
     * [css-tricks.com: Advanced Git series. 5 Rebase vs. Merge: Integrating Changes in Git](https://css-tricks.com/rebase-vs-merge-integrating-changes-in-git/)
+    * [css-tricks.com:  Advanced Git series. 6 Interactive Rebase: Clean up your Commit History](https://css-tricks.com/interactive-rebase-clean-up-your-commit-history/)
 * [cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟](https://www.cloudbees.com/blog/git-reset-undo-changes)
+* [dev.to: How to become a Git expert! 🌟](https://dev.to/sagarbarapatre/how-to-become-a-git-expert-1jl2)
+* [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers/)
 
 ## Cherry-picking
 * [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) Cherry-picking solves a lot of problems in Git repositories. Here are three ways to fix your mistakes with git cherry-pick.
@@ -367,6 +370,7 @@ git push origin -f
 * [infoworld.com: GitHub introduces code review controls 🌟](https://www.infoworld.com/article/3639588/github-introduces-code-review-controls.html) New controls in the popular code-sharing site are designed to deal with ‘drive-by‘ pull request approvals and ‘spammy’ change requests.
 * [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github/)
 * [freecodecamp.org: Git and GitHub Tutorial – Version Control for Beginners 🌟](https://www.freecodecamp.org/news/git-and-github-for-beginners)
+* [github/hub 🌟](https://github.com/github/hub) A command-line tool that makes git easier to use with GitHub.
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

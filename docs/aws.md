@@ -699,6 +699,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [percona.com: Performance of Various EBS Storage Types in AWS](https://www.percona.com/blog/performance-of-various-ebs-storage-types-in-aws/)
 - [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://harness.io/blog/devops/tutorial-s3-cross-account/)
 - [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3/)
+- [blog.min.io: Certificate-based Authentication for S3](https://blog.min.io/certificate-based-authentication-with-s3/) MinIO encrypts data when stored on disk and when transmitted over the network.
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)

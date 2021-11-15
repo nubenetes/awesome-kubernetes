@@ -13,6 +13,7 @@
 - [Kubesphere](#kubesphere)
 - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 - [Videos](#videos)
+- [Tweets](#tweets)
 
 ## Introduction
 * [infoworld.com: 6 reasons to switch to managed Kubernetes](https://www.infoworld.com/article/3614605/6-reasons-to-switch-to-managed-kubernetes.html) Managed Kubernetes services have matured to the point where many enterprises are handing over the keys to their clusters. Here we identify some of the main drivers behind that trend.
@@ -236,3 +237,14 @@
 <iframe src="https://www.youtube.com/embed/xM9jpcVGTzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>  
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloud providers after selling managed kubernetes <a href="https://t.co/p9jd4Ov4Ej">pic.twitter.com/p9jd4Ov4Ej</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1458941321725546498?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Small companies managing their own Kubernetes. <a href="https://t.co/nTHrqPiQnm">pic.twitter.com/nTHrqPiQnm</a></p>&mdash; joshobrien77 (@joshobrien77) <a href="https://twitter.com/joshobrien77/status/1459032252768157696?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

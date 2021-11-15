@@ -206,6 +206,7 @@
 * [justingarrison.com: GitHub URL Hacks 🌟](https://www.justingarrison.com/blog/2021-07-11-github-url-hacks/) GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with curl and other CLI tools.
 * [dev.to: Git it Right🔥🔥🚀(Git CheatSheet) 🌟](https://dev.to/star_trooper/git-it-right-git-cheatsheet-4o0h)
 * [jan-krueger.net: Git cheat sheet, extended edition](https://jan-krueger.net/git-cheat-sheet-extended-edition)
+* [dev.to: A Git Cheat Sheet](https://dev.to/baransel/a-git-cheat-sheet-4mab)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)

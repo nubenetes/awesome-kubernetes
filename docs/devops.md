@@ -56,6 +56,7 @@
     - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
     - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
 - [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
+- [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops/)
 
 ## Configuration Drift
 - [Dzone: Configuration Drift 🌟](https://dzone.com/articles/configuration-drift) Configuration Drift is the phenomenon where running servers in an infrastructure become more and more different as time goes on, due to manual ad-hoc changes and updates, and general entropy.

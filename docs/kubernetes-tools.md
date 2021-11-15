@@ -30,6 +30,8 @@
 - [Kubescape](#kubescape)
 - [Kubectl Connections](#kubectl-connections)
 - [Benchmark Operator](#benchmark-operator)
+- [Source-To-Image (S2I)](#source-to-image-s2i)
+- [VMware Tanzu Octant](#vmware-tanzu-octant)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -396,6 +398,7 @@
 * [bloomberg/goldpinger 🌟](https://github.com/bloomberg/goldpinger) Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster. **Goldpinger makes calls between its instances to monitor your networking. It runs as a DaemonSet on Kubernetes and produces Prometheus metrics that can be scraped, visualised and alerted on.**
 * [haxsaw/hikaru 🌟](https://github.com/haxsaw/hikaru) Move smoothly between Kubernetes YAML and Python for creating/updating/componentizing configurations. **Hikaru is a tool that provides you the ability to easily shift between YAML, Python objects/source, and JSON representations of your Kubernetes config files.** It provides assistance in authoring these files in Python, opens up options in how you can assemble and customise the files, and provides some programmatic tools for inspecting large, complex files to enable automation of policy and security compliance. Additionally, Hikaru allows you to use its K8s model objects to interact with Kubernetes, directing it to create, modify, and delete resources.
 * [kei6u/kubectl-secret-data](https://github.com/kei6u/kubectl-secret-data) A kubectl plugin for finding decoded secret data with productive search flags.
+* [ofek/csi-gcs](https://github.com/ofek/csi-gcs) Kubernetes CSI driver for Google Cloud Storage. An easy-to-use, cross-platform, and highly optimized Kubernetes CSI driver for mounting Google Cloud Storage buckets.
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
@@ -508,6 +511,12 @@
 
 ## Benchmark Operator
 - [cloud-bulldozer/benchmark-operator: The Chuck Norris of cloud benchmarks](https://github.com/cloud-bulldozer/benchmark-operator) The intent of this Operator is to deploy common workloads to establish a performance baseline of Kubernetes cluster on your provider.
+
+## Source-To-Image (S2I)
+- [openshift/source-to-image](https://github.com/openshift/source-to-image) A tool for building artifacts from source and injecting into container images. Source-to-Image (S2I) is a toolkit and workflow for building reproducible container images from source code. **No writing a bunch of YAML to build your container.**
+
+## VMware Tanzu Octant
+* [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
 
 ## Tweets
 <details>

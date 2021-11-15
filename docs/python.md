@@ -211,6 +211,7 @@
 - [github.com: Django Blog Site](https://github.com/AmineAsli/django-blog-site) A simple blog application based on Django
 - [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework. 
 - [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m)
+- [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/faruqt/how-to-connect-django-to-reactjs-part-2-2oje)
 
 ## Python Flask Lightweight Framework (microframework)
 - Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
@@ -224,6 +225,7 @@
 - [towardsdatascience.com: How to deploy a Flask API in Kubernetes and connect it with other micro-services](https://towardsdatascience.com/how-to-deploy-a-flask-api-in-kubernetes-and-connect-it-with-other-micro-services-af16965b67fe) A hands-on tutorial on how to implement your micro-service architecture using the powerful container orchestration tool Kubernetes.
 - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)
 - [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)
+- [freecodecamp.org: How to Dockerize a Flask Application](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/)
 
 ## FastAPI
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)

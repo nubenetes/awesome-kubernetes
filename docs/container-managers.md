@@ -89,6 +89,7 @@
 - [dzone.com: Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman](https://dzone.com/articles/beginners-guide-to-installing-decision-management) Recently the open source community project called Podman announced that there was solid support for using its container tooling to replace docker on your local development machine. 
 - [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman/)
 - [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)
+- [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

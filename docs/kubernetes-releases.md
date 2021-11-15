@@ -30,3 +30,4 @@
 * [acloudguru.com: What’s new with Kubernetes 1.22?](https://acloudguru.com/blog/engineering/whats-new-with-kubernetes-1-22)
 * [kubernetes.io: Graceful Node Shutdown Goes Beta](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta/)
 * [kubernetes.io: Kubernetes Memory Manager moves to beta](https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta/)
+* [kubernetes.io: Dockershim removal is coming. Are you ready?](https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal) 

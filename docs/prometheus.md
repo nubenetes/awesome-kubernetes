@@ -187,6 +187,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [influxdb-templates](https://www.influxdata.com/products/influxdb-templates/) Build and share InfluxDB templates for monitoring solutions that deliver faster time to awesome.
     * [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates/)
 * [influxdata.com: Running InfluxDB 2.0 and Telegraf Using Docker](https://www.influxdata.com/blog/running-influxdb-2-0-and-telegraf-using-docker/)
+* [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud/)
 
 ## Collectors. Software exposing Prometheus metrics
 - http://localhost:9090/targets : you should see a list of targets that you Prometheus server is scraping. 
@@ -209,6 +210,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://sysdig.com/blog/monitor-oracle-database-prometheus/)
 * [YACE - yet another cloudwatch exporter 🌟](https://github.com/ivx/yet-another-cloudwatch-exporter) AWS cloudwatch to prometheus exporter - Discovers services through AWS tags, gets cloudwatch data and provides them as prometheus metrics with AWS tags as labels
 * [prometheus-community/elasticsearch_exporter](https://github.com/prometheus-community/elasticsearch_exporter) Prometheus exporter for various metrics about ElasticSearch, written in Go.
+* [muxinc/certificate-expiry-monitor](https://github.com/muxinc/certificate-expiry-monitor) Utility that exposes the expiry of TLS certificates as Prometheus metrics
 
 ### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
