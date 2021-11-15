@@ -50,6 +50,7 @@
 - [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)
 - [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
+- [acumen.io: Can Kanban scale for teams of over 50 developers? When should you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

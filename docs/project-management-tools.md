@@ -33,6 +33,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [techrepublic.com: Kanboard: A simple to deploy, easy to use Kanban board for project management](https://www.techrepublic.com/article/kanboard-a-simple-to-deploy-easy-to-use-kanban-board-for-project-management/)
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
 - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
+- [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)
 
 ## Productivity Tips with .new TLD to quickly create
 - [Google Docs: doc.new](https://doc.new)

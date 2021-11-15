@@ -371,6 +371,7 @@ git push origin -f
 * [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github/)
 * [freecodecamp.org: Git and GitHub Tutorial – Version Control for Beginners 🌟](https://www.freecodecamp.org/news/git-and-github-for-beginners)
 * [github/hub 🌟](https://github.com/github/hub) A command-line tool that makes git easier to use with GitHub.
+* [cloudsavvyit.com: How To Properly Fork a Github Repository](https://www.cloudsavvyit.com/14640/how-to-properly-fork-a-github-repository)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

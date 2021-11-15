@@ -171,6 +171,7 @@
 - [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc)
 - [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78)
 - [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) Understand Python Inheritance using an intuitive example
+- [pythonsimplified.com: Understanding namespaces and scope in Python](https://pythonsimplified.com/understanding-namespaces-and-scope-in-python)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
