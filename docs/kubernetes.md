@@ -948,7 +948,7 @@
 * [magalix.com: The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 * [35 Advanced Tutorials to Learn Kubernetes](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
 * [geekflare.com: 14 Kubernetes Tutorials for Beginner to Master](https://geekflare.com/learn-kubernetes/)
-* [freecodecamp.org: The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
+* [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/) 
 * [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND)
 * [medium: DraftKings Kubernetes Workshop: Hands-on Learning in K8s (with Video Walkthrough)](https://medium.com/draftkings-engineering/draftkings-workshop-demystifying-kubernetes-4ce86c187408)
 * [100 Days Of Kubernetes: 100daysofkubernetes.io](https://100daysofkubernetes.io/) 100 Days of Kubernetes is the challenge in which we aim to learn something new related to Kubernetes each day across 100 Days!!!

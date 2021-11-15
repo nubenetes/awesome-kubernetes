@@ -21,7 +21,7 @@
 - [Azure Container Apps](#azure-container-apps)
 - [Azure Container Instances](#azure-container-instances)
 - [Windows Server Container Host](#windows-server-container-host)
-- [Azure Samples](#azure-samples)
+- [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -169,8 +169,13 @@
 ## Windows Server Container Host
 - [thomasmaurer.ch: How to Install a Windows Server Container Host](https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host/)
 
-## Azure Samples
+## Azure Samples (Boilerplates)
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
+    - [Azure-Samples/azure-pipelines-variable-templates](https://github.com/Azure-Samples/azure-pipelines-variable-templates) This sample Python Web app demonstrates the use of variable template files in Azure Pipelines.
+    - [Azure-Samples/jmeter-aci-terraform](https://github.com/Azure-Samples/jmeter-aci-terraform) Scalable cloud load/stress testing pipeline solution with Apache JMeter and Terraform to dynamically provision and destroy the required infrastructure on Azure.
+    - [Azure-Samples/azure-pipelines-remote-tasks](https://github.com/Azure-Samples/azure-pipelines-remote-tasks)
+    - [Azure-Samples/jenkins-terraform-azure-example](https://github.com/Azure-Samples/jenkins-terraform-azure-example)
+    - etc
 
 <center>
 [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
