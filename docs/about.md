@@ -73,7 +73,19 @@ From the above graph (credit: Forbes) we can see that the top three countries fo
   </details>
 
   <details>
-    <summary>Stats 5. IT, Languages and Olympics. Click to expand!</summary>
+    <summary>Stats 5. Corruption. Click to expand!</summary>
+
+  <center>
+  <iframe src="https://www.youtube.com/embed/v_zxzysqaKk" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <iframe src="https://www.youtube.com/embed/TxODhn13IC8" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <iframe src="https://www.youtube.com/embed/6NxZjjYA3zY" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </center>
+  </details>
+
+  <details>
+    <summary>Stats 6. IT, Languages and Olympics. Click to expand!</summary>
 
   <center>
   <iframe src="https://www.youtube.com/embed/2Uj1A9AguFs" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
