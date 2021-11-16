@@ -25,6 +25,6 @@ reset max-width with the following CSS: */
 }
 
 /* Applies to the element with <... id="someid"> specified. */
-someid { color: green; }
+.someid { color: green; }
 
 
