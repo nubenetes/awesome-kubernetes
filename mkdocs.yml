@@ -70,7 +70,7 @@ nav:
     - Chaos Engineering: chaos-engineering.md
   - Demos and Boilerplates:
     - Demos, Boilerplates & Screencasts: demos.md
-  - Security and DevSecOps:
+  - DevSecOps:
     - DevSecOps. Container Security: devsecops.md
     - Security Policy as Code: securityascode.md
   - NoOps: 
@@ -105,11 +105,11 @@ nav:
     - Kubernetes alternatives: kubernetes-alternatives.md
   - SUSE Rancher:     
     - Rancher - Enterprise management for Kubernetes: rancher.md
-  - Red Hat OpenShift: 
+  - RedHat OpenShift: 
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
-  - Software Delivery Pipeline: 
+  - Software Delivery: 
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
     - Jenkins & Cloudbees: jenkins.md
@@ -133,7 +133,7 @@ nav:
     - Monitoring and Performance: monitoring.md
     - Prometheus: prometheus.md
     - Grafana: grafana.md
-  - Configuration Management:
+  - Config Management:
     - Ansible: ansible.md
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
     - Chef: chef.md
@@ -143,12 +143,12 @@ nav:
     - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
     - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
-  - Infrastructure Management Tools:
+  - Infra Management Tools:
     - IaC Infrastructure as Code: iac.md
     - Pulumi: pulumi.md
     - Terraform & Packer. K8s boilerplates: terraform.md
     - Crossplane: crossplane.md
-  - Databases on K8s: 
+  - Databases: 
     - Relational Databases and Database DevOps: databases.md
     - NoSQL Databases: nosql.md
   - Data Pipeline: message-queue.md
@@ -160,7 +160,7 @@ nav:
     - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
     - API Test Automation with Postman: postman.md
     - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
-  - Development:
+  - Devel:
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
     - Go: golang.md
