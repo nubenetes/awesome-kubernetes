@@ -62,9 +62,11 @@
     - [PetClinic on Kubernetes](#petclinic-on-kubernetes)
     - [PetClinic Docker images](#petclinic-docker-images)
     - [OpenShift.io Samples](#openshiftio-samples)
-- [AWS Demos](#aws-demos)
-- [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
-- [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
+- [AWS Samples](#aws-samples)
+- [Azure Samples](#azure-samples)
+    - [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
+- [GCP Samples](#gcp-samples)
+    - [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [SpringBoot Demos](#springboot-demos)
 - [Quarkus Demos](#quarkus-demos)
@@ -603,7 +605,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
 * [github.com/che-samples](https://github.com/che-samples)
 
-## AWS Demos
+## AWS Samples
 - [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
 - [github.com/aws-samples](https://github.com/aws-samples)
 - [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
@@ -616,7 +618,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service/)
 - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour) Get your microservices where they need to be.
 
-## Azure DevOps Demos. Azure DevOps Pipelines
+## Azure Samples
+- [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
+
+### Azure DevOps Demos. Azure DevOps Pipelines
 - [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs 🌟](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
 - [Azure DevOps Demo Generator is now open source](https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/)
 - [Get started creating and populating demo Azure DevOps Services projects](https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops)
@@ -625,7 +630,11 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [davidsr.me: Deploy Azure WAF with Terraform and Azure DevOps](https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops/)
 - [mbenko/myYAML 🌟](https://github.com/mbenko/myYAML) This project contains the initial code for a course on [YAML Pipelines](https://www.linkedin.com/learning/azure-devops-continuous-delivery-with-yaml-pipelines).
 
-## Google DevOps Demos. Custom Samples and Cloud Code
+## GCP Samples 
+- [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
+- [github.com/GoogleCloudPlatform/cloud-code-samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
+
+### Google DevOps Demos. Custom Samples and Cloud Code
 - [Terraform Automation Demo using Google Cloud Provider](https://github.com/TerraHubCorp/terraform-google-automation-demo)
 - [cloud.google.com: Follow your org’s app dev best practices with Cloud Code custom samples 🌟](https://cloud.google.com/blog/products/application-development/access-an-orgs-custom-code-repo-from-cloud-code-ides) As an engineering leader, it can be difficult to disseminate best practices to developers in your organization. This is critical, however, as these best practices can be used as a starting point to accelerate the time-to-market for your team’s ideas. Today, we are excited to introduce custom samples in Cloud Code, our family of IDE plugins, helping you easily distribute your best practices directly to your developers’ environments. - [youtube: Getting started with custom samples and Cloud Code](https://www.youtube.com/watch?v=pgjEe44XQf8&ab_channel=GoogleCloudTech)
 
@@ -652,6 +661,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 - [towardsdatascience.com: Kafka, for your data pipeline? Why not?](https://towardsdatascience.com/kafka-for-your-data-pipeline-why-not-5a14b50efe7f)
 - [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing ](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
 - [ably.com: Building a realtime ticket booking solution with Kafka, FastAPI, and Ably](https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably)
+- [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7)
 
 ## Apache Camel & ActiveMQ. Event driven integration
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA](https://tomd.xyz/kubernetes-event-driven-keda/)

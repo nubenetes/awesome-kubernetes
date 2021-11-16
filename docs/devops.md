@@ -6,12 +6,11 @@
 - [Configuration Drift](#configuration-drift)
   - [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
-- [DevOps Tools](#devops-tools)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
-- [DevOps Tools](#devops-tools-1)
+- [DevOps Tools](#devops-tools)
   - [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
     - [keptn slides and videos](#keptn-slides-and-videos)
   - [Puppet](#puppet)
@@ -197,15 +196,6 @@
 [![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 </center>
 
-## DevOps Tools
-- [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
-- [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
-- [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
-- [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
-- [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
-- [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop/)
-- [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
-
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
 
@@ -228,6 +218,13 @@
 
 ## DevOps Tools
 - These tools help you manage servers and deploy happier and more often with more confidence.
+- [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
+- [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
+- [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
+- [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
+- [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
+- [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop/)
+- [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
 - [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/resources/devops-report-2020)
 - [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation) 
 - [dzone: Most Popular DevOps Tools You Must Learn In 2019](https://dzone.com/articles/most-popular-devops-tools-you-must-learn-in-2019)

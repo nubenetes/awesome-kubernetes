@@ -162,7 +162,7 @@
 - [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/docker-commands-cheat-sheet)
 - [intellipaat.com: Docker Cheat Sheet (2019, pdf)](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
 - [design.jboss.org/redhatdeveloper: docker CLI & Dockerfile Cheat Sheet 🌟](https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf)
-- [blog.gitguardian.com: How to improve your Docker containers security [cheat sheet included]](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
+- [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
 - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
 - [dev.to: Docker Cheatsheet](https://dev.to/ibmdeveloper/docker-command-cheatsheet-1pe8)
 - `docker system prune --all` 
