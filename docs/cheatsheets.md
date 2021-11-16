@@ -53,6 +53,7 @@
 - [Selenium](#selenium)
 - [CIDR subnets](#cidr-subnets)
 - [Scrum Cheat Sheet](#scrum-cheat-sheet)
+- [Images](#images)
 
 ## Cheat Sheets
 * [wizardzines.com 🌟](https://wizardzines.com/) programming zines by Julia Evans
@@ -410,8 +411,14 @@
 - [dzone: Scrum refcard](https://dzone.com/refcardz/scrum)
 - [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet/)
 
+## Images
+<details>
+  <summary>Click to expand!</summary>
+
 <center>
+
 ![googling stuff](images/googling_stuff.jpg)
 
 [![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
 </center>
+</details>
