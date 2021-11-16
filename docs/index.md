@@ -45,7 +45,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [A new role to emerge: Kubernetes Manager 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
-- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
+- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) **Automation anxiety:**
+    - Sysadmins and engineers may have personal fears about adopting automation, as much of their typical day revolves around the manual tasks and processes that automation promises to eliminate. Automation anxiety is the fear that if these tasks can be handled by automated tools, there will no longer be any reason to keep a person in that role. Nobody likes being automated out of a job.
+    - Automation anxiety is largely unfounded, however, as automating manual tasks frees up people’s time that can instead be used to work on more innovative, more strategic and higher value projects.
 - [The rise of the automation architect](https://www.redhat.com/sysadmin/automation-architects)
 - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
