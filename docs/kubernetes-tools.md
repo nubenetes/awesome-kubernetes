@@ -34,8 +34,8 @@
 - [VMware Tanzu Octant](#vmware-tanzu-octant)
 - [Qovery Engine](#qovery-engine)
 - [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
-- [Shipwright framework for building container images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes-1)
-- [Schiff - Deutsche Telekom Technik's engine for Kubernetes Cluster as a Service](#schiff---deutsche-telekom-techniks-engine-for-kubernetes-cluster-as-a-service)
+- [Shipwright framework](#shipwright-framework)
+- [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -528,7 +528,7 @@
 ## mck8s Container orchestrator for multi-cluster Kubernetes
 - [moule3053/mck8s](https://github.com/moule3053/mck8s) mck8s, short for multi-cluster Kubernetes, allows you to automate the deployment of multi-cluster applications on multiple Kubernetes clusters by offering enhanced configuration possibilities. The main aim of mck8s is maximizing resource utilization and supporting elasitcity across multiple Kubenetes clusters by providing multiple placement policies, as well as bursting, cloud resource provisioning, autoscaling and de-provisioning capabilities. mck8s builds upon other open-source software such as Kubernetes, Kubernetes Federation, kopf, serf, Cilium, Cluster API, and Prometheus.
 
-## Shipwright framework for building container images on Kubernetes
+## Shipwright framework
 - [shipwright-io/build: shipwright](https://github.com/shipwright-io/build) A framework for building container images on Kubernetes.
 - With Shipwright, developers get a simplified approach for building container images, by defining a minimal YAML that does not require any previous knowledge of containers or container tooling. All you need is your source code in git and access to a container registry.
 - Shipwright supports any tool that can build container images in Kubernetes clusters, such as:
@@ -537,7 +537,7 @@
     - BuildKit
     - Buildah
 
-## Schiff - Deutsche Telekom Technik's engine for Kubernetes Cluster as a Service
+## Schiff (Deutsche Telekom)
 - [telekom/das-schiff](https://github.com/telekom/das-schiff) This is home of Das Schiff - Deutsche Telekom Technik's engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs.
 
 ## Tweets
