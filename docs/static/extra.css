@@ -18,15 +18,13 @@ h1 {
 /* Applies to all elements with <... class="someclass"> specified. */
 .someclass { color: red; }
 
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
-
 /* If you want the content area to always stretch to the available screen space, 
 reset max-width with the following CSS: */
-/*.md-grid {
-  max-width: initial;
-}*/
-
 .md-grid {
-  max-width: 1440px; 
+  max-width: initial;
 }
+
+/* Applies to the element with <... id="someid"> specified. */
+someid { color: green; }
+
+

@@ -46,7 +46,7 @@ markdown_extensions:
   - codehilite
   - footnotes
   - toc:
-      permalink: false
+      permalink: True
       #baselevel: 2
 nav:
   - Home: index.md
