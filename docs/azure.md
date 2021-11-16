@@ -88,6 +88,8 @@
 
 ## GitOps with Azure Arc 
 - [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
+- [azurearcjumpstart.io](https://azurearcjumpstart.io/) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
+    - [architecture diagrams and slides](https://github.com/microsoft/azure_arc/tree/main/docs/ppt)
 - [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/t5/itops-talk-blog/standardize-devops-practices-across-hybrid-and-multicloud/ba-p/2795010) With Azure Arc-enabled Kubernetes, you can attach and configure Kubernetes clusters located either inside or outside Azure.
 
 ## Secure DevOps Kit for Azure
