@@ -2,8 +2,8 @@
 - [Scaffold Definition](#scaffold-definition)
 - [Nodejs Scaffolding with Yeoman](#nodejs-scaffolding-with-yeoman)
 - [Java Scaffolding](#java-scaffolding)
-  - [Java Scaffolding with Spring Roo](#java-scaffolding-with-spring-roo)
-  - [Java Scaffolding with Maven](#java-scaffolding-with-maven)
+	- [Java Scaffolding with Spring Roo](#java-scaffolding-with-spring-roo)
+	- [Java Scaffolding with Maven](#java-scaffolding-with-maven)
 - [Kubernetes Scaffolding. Built in snippets for creating k8s resources](#kubernetes-scaffolding-built-in-snippets-for-creating-k8s-resources)
 - [Other Scaffolding Tools](#other-scaffolding-tools)
 

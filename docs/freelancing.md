@@ -3,7 +3,7 @@
 - [Freelancing in Spain](#freelancing-in-spain)
 - [Top Freelancing Platforms](#top-freelancing-platforms)
 - [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
-  - [Umbrella Companies](#umbrella-companies)
+	- [Umbrella Companies](#umbrella-companies)
 - [Tweets](#tweets)
 ## Introduction
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.

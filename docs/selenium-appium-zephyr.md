@@ -4,8 +4,8 @@
 - [Robot Framework](#robot-framework)
 - [Cypress](#cypress)
 - [Mobile Tests](#mobile-tests)
-  - [Appium](#appium)
-  - [Cucumber and Appium. Behavior Driven Development](#cucumber-and-appium-behavior-driven-development)
+	- [Appium](#appium)
+	- [Cucumber and Appium. Behavior Driven Development](#cucumber-and-appium-behavior-driven-development)
 - [Test Automation with Zephyr (Jira Plugin)](#test-automation-with-zephyr-jira-plugin)
 
 ## Introduction
