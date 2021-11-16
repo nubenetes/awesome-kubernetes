@@ -20,3 +20,9 @@ h1 {
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: green; }
+
+/* If you want the content area to always stretch to the available screen space, 
+reset max-width with the following CSS: */
+.md-grid {
+  max-width: initial;
+}
