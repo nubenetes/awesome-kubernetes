@@ -11,6 +11,14 @@ theme:
   #navigation_depth: 4
   #titles_only: False
   #sticky_navigation: True
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
 extra_css:
   - static/extra.css
 extra_javascript:
