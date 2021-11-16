@@ -116,6 +116,10 @@
 * [sysdig.com: How to monitor Redis with Prometheus](https://sysdig.com/blog/redis-prometheus/)
 * [jfrog.com: Don’t let Prometheus Steal your Fire](https://jfrog.com/blog/dont-let-prometheus-steal-your-fire/) **Real world secrets exposed by unsafe defaults**
 * [itnext.io: Monitoring Spark Streaming on K8s with Prometheus and Grafana](https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02)
+* [source.coveo.com: Prometheus at scale](https://source.coveo.com/2021/11/11/prometheus-at-scale/) Check out how Coveo uses Thanos and Prometheus.
+* [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
+* [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1) In this blog post, you will go through the two different approaches for integrating  
+Thanos Metrics with prometheus in Kubernetes environments.
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 

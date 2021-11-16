@@ -143,7 +143,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube & Java Operator SDK](kubernetes-client-libraries.md)
 - [Flux. The GitOps operator for Kubernetes](flux.md) 
 - [Helm Kubernetes Tool](helm.md)
-- [Liquibase and Flyway](liquibase.md)
+- [Database Version Control. Liquibase, Flyway and PlanetScale](liquibase.md)
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [StackStorm](stackstorm.md)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)

@@ -133,7 +133,7 @@ nav:
     - CI/CD Kubernetes Plugins: cicd-kubernetes-plugins.md
     - Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK: kubernetes-client-libraries.md
     - Helm Kubernetes Tool: helm.md
-    - Liquibase & Flyway: liquibase.md
+    - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
     - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
   - Infrastructure Management Tools:

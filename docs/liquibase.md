@@ -1,4 +1,10 @@
 ## Evolutionary Database. Database Version Control with Liquibase and Flyway
+- [Evolutionary Database. Database Version Control with Liquibase and Flyway](#evolutionary-database-database-version-control-with-liquibase-and-flyway)
+- [Evolutionary Database Design](#evolutionary-database-design)
+- [Liquibase](#liquibase)
+- [Flyway](#flyway)
+- [Liquibase vs. Flyway](#liquibase-vs-flyway)
+- [PlanetScale](#planetscale)
 
 ## Evolutionary Database Design
 - [martinfowler.com](https://martinfowler.com/articles/evodb.html)
@@ -24,3 +30,6 @@
 ## Liquibase vs. Flyway
 - [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.org/liquibase-vs-flyway)
 - [medium: Database version control — Liquibase versus Flyway](https://medium.com/@ruxijitianu/database-version-control-liquibase-versus-flyway-9872d43ee5a4)
+
+## PlanetScale
+- [docs.planetscale.com: The PlanetScale workflow 🌟](https://docs.planetscale.com/concepts/planetscale-workflow) Use the PlanetScale workflow for branching databases, non-blocking schema changes and more.

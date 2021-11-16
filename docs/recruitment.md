@@ -116,7 +116,10 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unpopular opinion: I don’t think being a 10x engineer is a persona. 10xness is specific to projects and what orgs allow you to do. It’s a combination of having authority and skills to execute. It depends on the momentary situation and it’s not always repeatable. <a href="https://t.co/xSMY50OouT">https://t.co/xSMY50OouT</a></p>&mdash; Jaana Dogan at KubeCon ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1447052037246447617?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to get really good job offers on LinkedIn, I suggest the following neat little hack:<br><br>Add emojis to your name.<br><br>A recruiter who doesn&#39;t even take the time to write me personally does not deserve my attention at all. <a href="https://t.co/9DpltKSqul">pic.twitter.com/9DpltKSqul</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1459478049351782407?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </center>
 </details>
 

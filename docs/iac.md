@@ -15,3 +15,4 @@
 - [itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e)
 - [dzone.com: How to Start an Infrastructure as Code Project 🌟](https://dzone.com/articles/how-to-start-an-infrastructure-as-code-project) Learn the best practices to properly start an infrastructure as code project, from the source code to collaboration exercises and tools.
 - [daffodilsw.medium.com: What is Infrastructure Automation in DevOps?](https://daffodilsw.medium.com/what-is-infrastructure-automation-in-devops-d9681870b07d)
+- [thenewstack.io: IaC Cloud Misconfiguration Tools too Noisy without Context](https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context/)

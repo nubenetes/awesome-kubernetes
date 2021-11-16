@@ -44,6 +44,7 @@
 - [PostgreSQL](#postgresql)
 - [Percona MySQL](#percona-mysql)
 - [Percona PostgreSQL Operator](#percona-postgresql-operator)
+- [Redis](#redis)
 - [Rockset](#rockset)
 - [Clickhouse](#clickhouse)
 - [Apache Ignite](#apache-ignite)
@@ -891,6 +892,9 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 
 ## Percona PostgreSQL Operator
 - [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes)
+
+## Redis
+- [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) This page describes how to deploy Redis Enterprise on Kubernetes using the Redis Enterprise Operator.
 
 ## Rockset
 - [rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset](https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset/)
