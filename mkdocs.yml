@@ -60,8 +60,8 @@ nav:
   - Introduction:
     - From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
-  - SRE Site Reliability Engineering: sre.md
-  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+  - SRE: sre.md
+  - Serverless: serverless.md
   - DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
@@ -76,11 +76,11 @@ nav:
   - NoOps: 
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
-  - FinOps - Cloud Financial Management: finops.md
-  - TestOps - Continuous Testing:
+  - FinOps: finops.md
+  - TestOps:
     - TestOps and Continuous Testing: testops.md
     - QA: qa.md
-  - Project Management Methodology:
+  - Project Management:
     - Project Management Methodology: project-management-methodology.md
     - Project Management Tools: project-management-tools.md
     - Appointment Scheduling: appointment-scheduling.md
@@ -129,7 +129,7 @@ nav:
       - Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more: java_app_servers.md
       - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
       - Caching Solutions: caching.md
-  - Monitoring and Performance. Prometheus, Grafana, APMs and more:
+  - Monitoring:
     - Monitoring and Performance: monitoring.md
     - Prometheus: prometheus.md
     - Grafana: grafana.md
@@ -148,10 +148,10 @@ nav:
     - Pulumi: pulumi.md
     - Terraform & Packer. K8s boilerplates: terraform.md
     - Crossplane: crossplane.md
-  - Databases on Kubernetes: 
+  - Databases on K8s: 
     - Relational Databases and Database DevOps: databases.md
     - NoSQL Databases: nosql.md
-  - Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline): message-queue.md
+  - Data Pipeline: message-queue.md
   - Service Mesh: 
     - Service Mesh: servicemesh.md
     - Istio: istio.md
@@ -160,7 +160,7 @@ nav:
     - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
     - API Test Automation with Postman: postman.md
     - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
-  - Development & Frameworks:
+  - Development:
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
     - Go: golang.md
@@ -197,11 +197,11 @@ nav:
     - E-Learning: elearning.md
     - Subreddits: newsfeeds.md
     - Other Awesome Lists: other-awesome-lists.md
-  - Recruitment and Freelancing:
+  - Recruitment:
     - Recruitment: recruitment.md
     - Freelancing: freelancing.md
     - Remote Tech Jobs: remote-tech-jobs.md
-  - Customer Success Stories: customer.md
+  - Clients: customer.md
   - About: about.md
 copyright: 2021 <a href="https://twitter.com/RedHatSpain">Red Hat Spain</a>, <a href="https://redhatspain.com/about/">about</a>.
 google_analytics: ['UA-168051035-1', 'redhatspain.com']
