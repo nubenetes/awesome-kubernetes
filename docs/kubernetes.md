@@ -1,5 +1,5 @@
 # Kubernetes 
-{=="Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability" (Kelsey Hightower) ==}
+{=="Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability" (Kelsey Hightower)==}
 - [Introduction](#introduction)
     - [Kubernetes Jobs Market](#kubernetes-jobs-market)
     - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
