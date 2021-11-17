@@ -19,6 +19,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - content.code.annotate
 extra_css:
   - static/extra.css
 extra_javascript:
@@ -30,28 +31,38 @@ markdown_extensions:
   - meta
   - admonition
   - attr_list
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details 
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
+  - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tabbed
   - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.magiclink
   - codehilite
   - footnotes
   - md_in_html
   - tables
   - pymdownx.highlight
   - pymdownx.snippets
-    #- toc:
+  - pymdownx.keys
+  - abbr
+  - def_list
+  #- toc:
     #  permalink: True
 nav:
   - Home: index.md
