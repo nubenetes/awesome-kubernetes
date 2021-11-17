@@ -49,7 +49,9 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
-  #- toc:
+  - pymdownx.highlight
+  - pymdownx.snippets
+    #- toc:
     #  permalink: True
 nav:
   - Home: index.md
