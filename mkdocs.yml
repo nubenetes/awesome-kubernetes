@@ -47,8 +47,9 @@ markdown_extensions:
   - pymdownx.tilde
   - codehilite
   - footnotes
-  - toc:
-      permalink: True
+  - md_in_html
+  #- toc:
+    #  permalink: True
 nav:
   - Home: index.md
   - Introduction:
