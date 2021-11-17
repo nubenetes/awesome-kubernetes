@@ -80,11 +80,6 @@ nav:
   - TestOps:
     - TestOps and Continuous Testing: testops.md
     - QA: qa.md
-  - Project Management:
-    - Project Management Methodology: project-management-methodology.md
-    - Project Management Tools: project-management-tools.md
-    - Appointment Scheduling: appointment-scheduling.md
-    - Work From Home: workfromhome.md
   - Docker: docker.md
   - Kubernetes: 
     - Kubernetes: kubernetes.md
@@ -103,9 +98,9 @@ nav:
     - Kubernetes Releases: kubernetes-releases.md
     - Kubernetes Matrix Table: matrix-table.md
     - Kubernetes alternatives: kubernetes-alternatives.md
-  - SUSE Rancher:     
+  - Rancher:     
     - Rancher - Enterprise management for Kubernetes: rancher.md
-  - RedHat OpenShift: 
+  - OpenShift: 
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
@@ -143,7 +138,7 @@ nav:
     - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
     - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
-  - Infra Management Tools:
+  - Infra Mgmt Tools:
     - IaC Infrastructure as Code: iac.md
     - Pulumi: pulumi.md
     - Terraform & Packer. K8s boilerplates: terraform.md
@@ -181,7 +176,7 @@ nav:
       - Low Code and No Code: lowcode-nocode.md
       - Web 3: web3.md
       - Digital Money: digital-money.md
-  - Public Cloud: 
+  - Cloud: 
     - Public Cloud Solutions: public-cloud-solutions.md
     - Edge Computing: edge-computing.md
     - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
@@ -193,6 +188,11 @@ nav:
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
   - Big Data: bigdata.md
+  - Project Management:
+    - Project Management Methodology: project-management-methodology.md
+    - Project Management Tools: project-management-tools.md
+    - Appointment Scheduling: appointment-scheduling.md
+    - Work From Home: workfromhome.md
   - More References:
     - E-Learning: elearning.md
     - Subreddits: newsfeeds.md

@@ -26,6 +26,7 @@
 - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases) Evaluate which type of NoSQL database best fits your use case
 - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)
 - [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/) 
+- [datastax.medium.com: SQL versus NoSQL: The Pros and Cons](https://datastax.medium.com/sql-versus-nosql-the-pros-and-cons-488d4a7ba92f)
 
 ### Couchbase
 * [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)

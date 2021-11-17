@@ -132,6 +132,7 @@
 ![interviews getting harder](images/interviews_getting_harder.jfif)
 
 [![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
+
 </center>
 </details>
 

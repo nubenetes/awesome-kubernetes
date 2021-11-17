@@ -76,11 +76,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## TestOps - Continuous Testing
 - [TestOps and Continuous Testing](testops.md)
 - [QA](qa.md)
-## Project Management Methodology
-- [Project Management Methodology](project-management-methodology.md)
-- [Project Management Tools](project-management-tools.md)
-- [Appointment Scheduling](appointment-scheduling.md)
-- [Work From Home](workfromhome.md)
+
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -208,6 +204,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Cloudflare](cloudflare.md)
 ## Big Data
 - [Big Data](bigdata.md)
+## Project Management Methodology
+- [Project Management Methodology](project-management-methodology.md)
+- [Project Management Tools](project-management-tools.md)
+- [Appointment Scheduling](appointment-scheduling.md)
+- [Work From Home](workfromhome.md)
 ## More References
 - [E-Learning](elearning.md)
 - [Forums and Communities](newsfeeds.md)
