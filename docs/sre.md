@@ -78,32 +78,13 @@
 - [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8/)
 
 ## Images
-<details>
-<summary>Click to expand!</summary>
-<center>
-
-[![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
-
-[![devops vs sre](images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
-</center>
-</details>
-
 ??? note "Click to expand"
 
+	<center>
     [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
 
     [![devops vs sre](images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
-
-
-??? note "Test2"
-
-    This is a test
-
-??? note "Test 3"
-
-    [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
-
-	Test
+	</center>
 
 ## Videos
 <details>
