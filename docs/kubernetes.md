@@ -1,4 +1,8 @@
-# Kubernetes. "Kubernetes is not for application development but for platform development" (Kelsey Hightower) 
+# Kubernetes 
+
+{==
+"Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability" (Kelsey Hightower) 
+==}
 
 - [Introduction](#introduction)
     - [Kubernetes Jobs Market](#kubernetes-jobs-market)
@@ -99,6 +103,7 @@
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 * [cloud.google.com: What is Kubernetes? 🌟](https://cloud.google.com/learn/what-is-kubernetes)
 * [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
+* [**"Kubernetes magic is in enterprise standardization, not app portability"** (Kelsey Hightower) 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 * [twitter.com/kubernetesio](https://twitter.com/kubernetesio)
 * [techbeacon.com: 25 Kubernetes experts you should follow on Twitter](https://techbeacon.com/enterprise-it/25-kubernetes-experts-you-should-follow-twitter)
 * [enterprisersproject.com: Kubernetes: Everything you need to know (2020) 🌟](https://enterprisersproject.com/article/2020/4/kubernetes-everything-you-need-know)
@@ -159,13 +164,6 @@
 * [elastisys.com: Evaluation of Caching Methodologies for Microservice-Based Architectures in Kubernetes](https://elastisys.com/evaluation-of-caching-methodologies/)
 * [thenewstack.io: What Workloads Do Businesses Run on Kubernetes?](https://thenewstack.io/what-workloads-do-businesses-run-on-kubernetes/)
 * [dzone: Getting Started With Kubernetes In 2 Days](https://dzone.com/articles/getting-started-with-kubernetes-in-2-days) Check out these tools to help you deploy and manage your K8s clusters from the ground up...
-
-<center>
-
-[**Kubernetes magic is in enterprise standardization, not app portability** 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
-
-</center>
-
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
     - Kubernetes salary ranges
