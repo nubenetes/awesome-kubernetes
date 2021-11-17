@@ -5,23 +5,23 @@
 - [Interview Questions](#interview-questions)
 - [AIOps](#aiops)
 - [Configuration Drift](#configuration-drift)
-  - [Drift Detection Tools](#drift-detection-tools)
+	- [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
-  - [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-    - [keptn slides and videos](#keptn-slides-and-videos)
-  - [Puppet](#puppet)
-  - [Relay](#relay)
-  - [Devtron Labs](#devtron-labs)
+	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
+		- [keptn slides and videos](#keptn-slides-and-videos)
+	- [Puppet](#puppet)
+	- [Relay](#relay)
+	- [Devtron Labs](#devtron-labs)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
-  - [AWS DevOps](#aws-devops)
-  - [Azure DevOps](#azure-devops)
-  - [Google Cloud Platform](#google-cloud-platform)
+	- [AWS DevOps](#aws-devops)
+	- [Azure DevOps](#azure-devops)
+	- [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
 - [NetOps](#netops)
 - [GPT 3 Tools](#gpt-3-tools)
@@ -340,52 +340,49 @@ Resolve your software incidents 10x faster
 - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 
 
 ## Bunch of Images
-<details>
-  <summary>Click to expand!</summary>
+??? Click to expand!
+	<center>
 
-<center>
+	[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 
-[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
+	[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
 
-[![Dynamic kubernetes config](images/dynamic-kubernetes-config.png)](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell)
+	[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
 
-[![DevOps culture](images/devops-culture.jpg)](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+	[![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
 
-[![Programmer Move](images/programmer-move.jpg)](https://www.tecmint.com/)
+	[![DevOps Gene Kim](images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
 
-[![DevOps Gene Kim](images/term_devops.jpg)](https://itrevolution.com/faculty/gene-kim/)
+	[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
 
-[![DevOps to no ops](images/devops-to-no-ops.jpg)](https://www.dynatrace.com/)
+	[![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
 
-[![DevOps Ken Mugrage](images/devops_culture_ken_mugrage.jpg)](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4)
+	[![DevOps wikipedia](images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
 
-[![DevOps wikipedia](images/devops_wikipedia.png)](https://en.wikipedia.org/wiki/DevOps)
+	[![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
 
-[![DevOps today](images/todays_devops.jpg)](https://www.appdynamics.com/)
+	[![DevOps dilbert](images/dilbert_devops.jpg)](https://dilbert.com/)
 
-[![DevOps dilbert](images/dilbert_devops.jpg)](https://dilbert.com/)
+	[![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
+		
+	[![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+		
+	[![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+		
+	[![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
+			
+	[![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
 
-[![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
-      
-[![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-      
-[![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-    
-[![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-         
-[![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
+	[![What-is-DevOps](images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
 
-[![What-is-DevOps](images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
+	[![automation](images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
 
-[![automation](images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
+	[![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
 
-[![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
-
-<div class="container">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
-</div>
-</center>
-</details>
+	<div class="container">
+	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
+	</div>
+	</center>
 
 ## Videos
 <details>
@@ -415,15 +412,3 @@ Resolve your software incidents 10x faster
 </center>
 </details>
 
-
-??? collapside test 
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-    <center>
-
-    [![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
-    
-    </center>
