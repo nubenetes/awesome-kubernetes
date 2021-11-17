@@ -141,7 +141,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Infrastructure Management Tools
 - [IaC Infrastructure as Code](iac.md)
 - [Pulumi](pulumi.md)
-- [Terraform & Packer. K8s boilerplates 🌟](terraform.md)
+- [==Terraform & Packer. K8s Boilerplates== 🌟](terraform.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
 ## Databases on Kubernetes
@@ -159,9 +159,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Big Data](bigdata.md)
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
-- [AWS 🌟](aws.md)
-- [Google Cloud Platform](GoogleCloudPlatform.md)
-- [Microsoft Azure](azure.md)
+- [==AWS==](aws.md)
+- [==Google Cloud Platform==](GoogleCloudPlatform.md)
+- [==Microsoft Azure==](azure.md)
 - [IBM & IBM Cloud](ibm_cloud.md)
 - [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)

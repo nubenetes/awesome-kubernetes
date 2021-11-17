@@ -21,8 +21,12 @@
 * [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnk8s.io/allocatable-resources) Not all CPU and memory in your Kubernetes nodes can be used to run Pods. In this article, you will learn how managed Kubernetes Services such AKS, EKS and GKE reserve resources for workloads, operating systems, daemons and Kubernetes agent.
 * [armosec.io: Which Managed Kubernetes Is Right for Me?](https://www.armosec.io/blog/which-managed-kubernetes-is-right-for-me)
 
+{==
+
 ## Terraform Kubernetes Boilerplates
 - [Terraform Kubernetes Boilerplates 🌟](terraform.md)
+
+==}
 
 ## GKE vs EKS vs AKS
 * [medium.com: Kubernetes Cloud Services: Comparing GKE, EKS and AKS](https://medium.com/@Platform9Sys/kubernetes-cloud-services-comparing-gke-eks-and-aks-1fe42770cad3)
