@@ -513,7 +513,7 @@ OpenShift 4.1|5.6.16|?|5.6.16|No
 <br/>
 
 ### OpenShift Registry and Quay Registry
-- [OpenShift Registry & Quay](registry.md)
+- [OpenShift Registry & Quay](registries.md)
 
 ### Local Development Environment
 - For version 3 we have [Container Development Kit](https://developers.redhat.com/products/cdk/overview) (or its open source equivalent for OKD - [minishift](https://github.com/minishift/minishift/releases)) which launches a single node VM with Openshift and it does it in a few minutes. It’s perfect for testing also as a part of CI/CD pipeline.
