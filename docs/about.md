@@ -21,9 +21,9 @@ This blog tries to share relevant information that helps spread the new technolo
 
 	From the above graph (credit: Forbes) we can see that the top three countries for Cloud Computing Jobs are:
 
-	1. China (7.5 Million).
-	2. USA (4 Million).
-	3. India (2.2 Million).
+	China (7.5 Million).
+	USA (4 Million).
+	India (2.2 Million).
 	</center>
 ## Stats
 <details>
