@@ -17,12 +17,13 @@
 		- [OpenShift and Terraform](#openshift-and-terraform)
 		- [Other Boilerplates](#other-boilerplates)
 	- [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
-	- [Terraform and K3s Boilerplates](#terraform-and-k3s-boilerplates)
-	- [Terraform and GCP Boilerplates](#terraform-and-gcp-boilerplates)
+	- [Terraform K3s Boilerplates](#terraform-k3s-boilerplates)
+	- [Terraform GKE Boilerplates](#terraform-gke-boilerplates)
 	- [Terraform and AWS](#terraform-and-aws)
-		- [Terraform and managed AWS EKS. Boilerplates](#terraform-and-managed-aws-eks-boilerplates)
+		- [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
 		- [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
-	- [Terraform and Azure. AKS Boilerplates](#terraform-and-azure-aks-boilerplates)
+	- [Terraform with Azure](#terraform-with-azure)
+		- [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
@@ -233,6 +234,8 @@
 * [learnk8s.io/terraform-aks: Provisioning Kubernetes clusters on AWS with Terraform and AKS 🌟](https://learnk8s.io/terraform-aks) Fully utomated dev and prod clusters complete with an Ingress controller in a single command.
 * [learnk8s.io/terraform-lke: Provisioning Kubernetes clusters on Linode with Terraform 🌟](https://learnk8s.io/terraform-lke)
 
+==}
+
 #### OpenShift and Terraform
 * [Dzone: Platform as Code With Openshift and Terraform](https://dzone.com/articles/platform-as-code-with-openshift-amp-terraform) Learn how to set up a pipeline workflow with Openshift and the Terraform infrastructure-as-code tool to configure builds and deployments.
 
@@ -245,17 +248,18 @@
 ### Terraform Kubernetes Operator
 * [infoq.com: Managing Infrastructure from Kubernetes with the HashiCorp Terraform Operator](https://www.infoq.com/news/2020/04/terraform-operator-kubernetes/)
 
-### Terraform and K3s Boilerplates
+{==
+
+### Terraform K3s Boilerplates
 * [Global K3s Deployment on Packet Baremetal 🌟](https://github.com/c0dyhi11/k3s-linkerd) This repository contains Terraform scripts to deploy K3s and LinkerD on Packet baremetal servers spanning the globe.
 
-### Terraform and GCP Boilerplates
+### Terraform GKE Boilerplates
 * [learnk8s.io/terraform-gke  🌟](https://learnk8s.io/terraform-gke) Provisioning Kubernetes clusters on GCP with Terraform and GKE. Fully automated dev, test, prod environments with Google Kubernetes Engine (GKE) + container-native load balancing? The guide goes into the details of how you can provision your infrastructure with Terraform and how you can route live traffic with the GKE Ingress controller. By the end Kristijan M. will teach you how you can have: 
 	- The creation of 3 environments (dev, test, prod) automated
 	- A cluster that can handle live traffic with the GKE Ingress controller.
 	- GKE Ingress enabled with container-native load balancing.
 	- All source code and knowledge to build your own infra.
-* [AWS EKS Accelerator for Terraform: github.com/aws-samples/aws-eks-accelerator-for-terraform 🌟](https://github.com/aws-samples/aws-eks-accelerator-for-terraform) The AWS EKS Accelerator for Terraform is a framework designed to help deploy and operate secure multi-account, multi-region AWS environments. The power of the solution is the configuration file which enables the users to provide a unique terraform state for each cluster and manage multiple clusters from one repository.
-- [circleci.com: Infrastructure as Code, part 1: create a Kubernetes cluster with Terraform](https://circleci.com/blog/learn-iac-part1/)
+* [circleci.com: Infrastructure as Code, part 1: create a Kubernetes cluster with Terraform](https://circleci.com/blog/learn-iac-part1/)
     - [circleci.com: Infrastructure as Code, part 2: build Docker images and deploy to Kubernetes with Terraform](https://circleci.com/blog/learn-iac-part02/)
     - [circleci.com: Infrastructure as Code, part 3: automate Kubernetes deployments with CI/CD and Terraform](https://circleci.com/blog/learn-iac-part3/)
 
@@ -274,9 +278,10 @@
 
 {==
 
-#### Terraform and managed AWS EKS. Boilerplates
+#### Terraform EKS Boilerplates
 * [learnk8s.io/terraform-eks 🌟](https://learnk8s.io/terraform-eks) Fully automated dev, test, prod environments with EKS, Terraform and the ALB Ingress Controller. 
 * [github.com/maddevsio/aws-eks-base: Boilerplate for a basic AWS infrastructure with EKS cluster 🌟](https://github.com/maddevsio/aws-eks-base) This boilerplate contains the know-how of the Mad Devs team for the rapid deployment of a Kubernetes cluster, supporting services, and the underlying infrastructure in the Amazon cloud.
+* [github.com/aws-samples/aws-eks-accelerator-for-terraform: AWS EKS Accelerator for Terraform 🌟](https://github.com/aws-samples/aws-eks-accelerator-for-terraform) The AWS EKS Accelerator for Terraform is a framework designed to help deploy and operate secure multi-account, multi-region AWS environments. The power of the solution is the configuration file which enables the users to provide a unique terraform state for each cluster and manage multiple clusters from one repository.
 
 ==}
 
@@ -284,9 +289,14 @@
 * [awscc](https://registry.terraform.io/providers/hashicorp/awscc/latest) Lifecycle management of AWS resources powered by the AWS Cloud Control API. This provider is fully generated from the available CloudFormation resource definitions and is maintained internally by the HashiCorp AWS Provider team.
 * [hashicorp.com: Announcing Terraform AWS Cloud Control Provider Tech Preview](https://www.hashicorp.com/blog/announcing-terraform-aws-cloud-control-provider-tech-preview) This new provider for HashiCorp Terraform — built around the AWS Cloud Control API — is designed to bring new services to Terraform faster.
 
+### Terraform with Azure
+- [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
+- [thomasthornton.cloud: Deploy Terraform using GitHub Actions to Azure](https://thomasthornton.cloud/2021/03/19/deploy-terraform-using-github-actions-into-azure/)
+- [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
+
 {==
 
-### Terraform and Azure. AKS Boilerplates
+#### Terraform AKS Boilerplates
 - [learnk8s.io/terraform-aks 🌟](https://learnk8s.io/terraform-aks)
 - [itnext.io: How We Used Terraform to Create and Manage a HA AKS Kubernetes Cluster in Azure](https://itnext.io/how-we-used-terraform-to-create-and-manage-a-ha-aks-kubernetes-cluster-in-azure-812f64896c08) Learn how to use Terraform to manage a highly-available Azure AKS Kubernetes cluster with Azure AD integration and Calico network policies enabled.
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
