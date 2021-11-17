@@ -940,7 +940,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 </details>
 

@@ -80,9 +80,9 @@
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="https://www.youtube.com/embed/WkLBrHW4NhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkLBrHW4NhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/yGTtzcfHcdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yGTtzcfHcdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">❤️ the Performance Monitor in <a href="https://twitter.com/ChromeDevTools?ref_src=twsrc%5Etfw">@ChromeDevTools</a>. Gives you a real-time view of CPU use, JS heap size, JS event listeners, style recalcs &amp; more: <a href="https://t.co/tc6CyTya3O">https://t.co/tc6CyTya3O</a> <a href="https://t.co/BWSi8klGkE">pic.twitter.com/BWSi8klGkE</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/1280403679380561920?ref_src=twsrc%5Etfw">July 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
