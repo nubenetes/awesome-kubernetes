@@ -5,23 +5,23 @@
 - [Interview Questions](#interview-questions)
 - [AIOps](#aiops)
 - [Configuration Drift](#configuration-drift)
-	- [Drift Detection Tools](#drift-detection-tools)
+  - [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
-	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-		- [keptn slides and videos](#keptn-slides-and-videos)
-	- [Puppet](#puppet)
-	- [Relay](#relay)
-	- [Devtron Labs](#devtron-labs)
+  - [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
+    - [keptn slides and videos](#keptn-slides-and-videos)
+  - [Puppet](#puppet)
+  - [Relay](#relay)
+  - [Devtron Labs](#devtron-labs)
 - [Netflix and DevOps](#netflix-and-devops)
 - [Public Cloud DevOps](#public-cloud-devops)
-	- [AWS DevOps](#aws-devops)
-	- [Azure DevOps](#azure-devops)
-	- [Google Cloud Platform](#google-cloud-platform)
+  - [AWS DevOps](#aws-devops)
+  - [Azure DevOps](#azure-devops)
+  - [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
 - [NetOps](#netops)
 - [GPT 3 Tools](#gpt-3-tools)
@@ -197,6 +197,7 @@
   * DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 
 <center>
+
 [![OCP 4 Pland and Deploy](images/openshift_day2.png)](https://www.openshift.com/blog/openshift-end-to-end-cluster-customization)
 
 [![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
@@ -384,7 +385,6 @@ Resolve your software incidents 10x faster
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 </div>
 </center>
-<br/>
 </details>
 
 ## Videos
@@ -414,3 +414,16 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Artem Kobrin from <a href="https://twitter.com/NTTDATAServices?ref_src=twsrc%5Etfw">@NTTDATAServices</a> presents their multi-stage blue-green deployments with <a href="https://twitter.com/keptnProject?ref_src=twsrc%5Etfw">@keptnProject</a> and <a href="https://twitter.com/argoproj?ref_src=twsrc%5Etfw">@argoproj</a> in <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a>. Nice pipelines😍 <a href="https://twitter.com/hashtag/keptnUserGroup?src=hash&amp;ref_src=twsrc%5Etfw">#keptnUserGroup</a> <a href="https://t.co/E1eDMoxcDz">pic.twitter.com/E1eDMoxcDz</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1460644013120315397?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+
+??? collapside test 
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+    <center>
+
+    [![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
+    
+    </center>

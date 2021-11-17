@@ -35,13 +35,7 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.details
-  #- pymdownx.emoji:
-  #    emoji_index: !!python/name:pymdownx.emoji.twemoji
-  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  #- pymdownx.emoji:
-  #    emoji_index: !!python/name:materialx.emoji.twemoji
-  #    emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details 
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -53,8 +47,8 @@ markdown_extensions:
   - pymdownx.tilde
   - codehilite
   - footnotes
-  #- toc:
-    #  permalink: True
+  - toc:
+      permalink: True
 nav:
   - Home: index.md
   - Introduction:
