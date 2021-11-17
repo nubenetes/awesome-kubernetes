@@ -127,7 +127,6 @@
 <details>
   <summary>Click to expand!</summary>
 
-![interviews getting harder](images/interviews_getting_harder.jfif)
 <center>
 
 ![interviews getting harder](images/interviews_getting_harder.jfif)
