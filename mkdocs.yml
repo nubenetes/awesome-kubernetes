@@ -66,7 +66,7 @@ nav:
     - GitOps: gitops.md
     - MLOps: mlops.md
     - Chaos Engineering: chaos-engineering.md
-  - Demos and Boilerplates:
+  - Demos:
     - Demos, Boilerplates & Screencasts: demos.md
   - DevSecOps:
     - DevSecOps. Container Security: devsecops.md
