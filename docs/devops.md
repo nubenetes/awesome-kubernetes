@@ -341,6 +341,7 @@ Resolve your software incidents 10x faster
 
 ## Bunch of Images
 ??? Click to expand!
+
 	<center>
 
 	[![Devops containers strategy](images/devops_containers_strategy.png)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
