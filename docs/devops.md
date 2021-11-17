@@ -1,6 +1,7 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [Automation Glossary](#automation-glossary)
+	- [Automation anxiety](#automation-anxiety)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
 - [AIOps](#aiops)
@@ -38,11 +39,13 @@
 - [redhat.com: El concepto de DevOps](https://www.redhat.com/es/topics/devops) DevOps es un modo de abordar la cultura, la automatización y el diseño de las plataformas para generar mayor valor empresarial y capacidad de respuesta, mediante la prestación ágil de servicios de alta calidad. Todo ello es posible gracias a la prestación rápida y constante de servicios de TI. Para DevOps, se necesita vincular las aplicaciones heredadas con las aplicaciones creadas en la nube y las infraestructuras más nuevas.
 
 ## Automation Glossary
-- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) **Automation anxiety:** 
+- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
+
+### Automation anxiety
 {==
 
-    - Sysadmins and engineers may have personal fears about adopting automation, as much of their typical day revolves around the manual tasks and processes that automation promises to eliminate. Automation anxiety is the fear that if these tasks can be handled by automated tools, there will no longer be any reason to keep a person in that role. Nobody likes being automated out of a job.
-    - Automation anxiety is largely unfounded, however, as automating manual tasks frees up people’s time that can instead be used to work on more innovative, more strategic and higher value projects.
+- Sysadmins and engineers may have personal fears about adopting automation, as much of their typical day revolves around the manual tasks and processes that automation promises to eliminate. Automation anxiety is the fear that if these tasks can be handled by automated tools, there will no longer be any reason to keep a person in that role. Nobody likes being automated out of a job.
+- Automation anxiety is largely unfounded, however, as automating manual tasks frees up people’s time that can instead be used to work on more innovative, more strategic and higher value projects.
 
 ==}
 
