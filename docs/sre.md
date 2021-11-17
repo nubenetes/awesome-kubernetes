@@ -79,7 +79,7 @@
 
 ## Images
 <details>
-<summary>Click to expand!</summary>
+<summary>Click to expand</summary>
 <center>
 
 [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
