@@ -63,7 +63,7 @@
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="https://www.youtube.com/embed/FUu4kMc0PL8?start=5340" frameborder="0" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?start=5340" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allowfullscreen></iframe>
 </center>
 </details>
