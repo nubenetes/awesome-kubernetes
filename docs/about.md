@@ -12,21 +12,19 @@ This blog tries to share relevant information that helps spread the new technolo
 ----
 
 ## Cloud Computing job market in 2016
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
-"In the U.S. in 2016, 3.9 million jobs are associated with cloud computing, with 384,478 of them in IT. The median salary for IT professionals with cloud computing experience was $90,950. (Forbes)"
+	<center>
+	"In the U.S. in 2016, 3.9 million jobs are associated with cloud computing, with 384,478 of them in IT. The median salary for IT professionals with cloud computing experience was $90,950. (Forbes)"
 
-[![cloud job market 2016](images/cloud_job_market_2016.png)](https://web.archive.org/web/20160716182152/http://cloudacademy.com/blog/cloud-computing-salary/)
-</center>
+	[![cloud job market 2016](images/cloud_job_market_2016.png)](https://web.archive.org/web/20160716182152/http://cloudacademy.com/blog/cloud-computing-salary/)
+	</center>
 
-From the above graph (credit: Forbes) we can see that the top three countries for Cloud Computing Jobs are:
+	From the above graph (credit: Forbes) we can see that the top three countries for Cloud Computing Jobs are:
 
-1. China (7.5 Million).
-2. USA (4 Million).
-3. India (2.2 Million).
-</details>
+	1. China (7.5 Million).
+	2. USA (4 Million).
+	3. India (2.2 Million).
 
 ## Stats
 <details>

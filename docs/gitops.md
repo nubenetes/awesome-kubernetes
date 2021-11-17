@@ -103,6 +103,7 @@
 - [As an ops engineer not too familiar with Git, you just need to know 6 commands](https://twitter.com/janakiramm) - git init, git add, git commit, git status, git log, git revert - to harness the power of GitOps.
 - [thenewstack.io: Wait, Do We Need to Hold Up on GitOps?](https://thenewstack.io/wait-do-we-need-to-hold-up-on-gitops/)
 - [redhat.com: How to use GitOps in your enterprise architecture strategy 🌟](https://www.redhat.com/architect/understanding-gitops) Understanding the four guiding principles is like runway lighting for implementing GitOps in your enterprise.
+- [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/) GitOps as a practice for releasing software has several advantages, but like all other solutions before it, has also several shortcomings. It seems that the honeymoon period is now over, and we can finally talk about the issues of GitOps (and the current generation of GitOps tools)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
