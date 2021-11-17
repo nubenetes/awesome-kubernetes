@@ -69,7 +69,7 @@ nav:
   - Introduction:
     - From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
-  - SRE: sre.md
+  - SRE: 
     - SRE Site Reliability Engineering: sre.md
     - FinOps. Cloud Financial Management: finops.md
   - DevOps:
