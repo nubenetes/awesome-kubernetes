@@ -1,4 +1,4 @@
-mkdocs==1.2.3
+#mkdocs==1.2.3
 sphinx-rtd-theme
 pymdown-extensions
 #readthedocs-sphinx-search
