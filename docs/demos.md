@@ -572,6 +572,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain
 * [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 * [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
 * [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic)
+* https://github.com/Azure-Samples/spring-petclinic-microservices
+* https://github.com/Azure-Samples/spring-petclinic-microservices-config
+* https://github.com/Azure-Samples/java-spring-petclinic
 
 ### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL  
 * [griddynamics/mpl](https://github.com/griddynamics/mpl)
