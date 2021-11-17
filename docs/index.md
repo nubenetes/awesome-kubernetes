@@ -63,8 +63,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [GitOps 🌟](gitops.md)
 - [MLOps](mlops.md)
 - [Chaos Engineering](chaos-engineering.md)
-## Demos and Boilerplates
-- [Demos, Boilerplates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
 ## Security and DevSecOps. Container Security
 - [Security and DevSecOps. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
@@ -76,7 +74,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## TestOps - Continuous Testing
 - [TestOps and Continuous Testing](testops.md)
 - [QA](qa.md)
-
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -96,14 +93,12 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
-
 ## SUSE Rancher
 - [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 ## Red Hat OpenShift
 - [OpenShift 🌟](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
-
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
@@ -158,6 +153,20 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
+## Demos and Boilerplates
+- [Demos, Boilerplates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+## Public Cloud
+- [Public Cloud Solutions](public-cloud-solutions.md)
+- [Big Data](bigdata.md)
+- [Edge Computing](edge-computing.md)
+- [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
+- [AWS 🌟](aws.md)
+- [Google Cloud Platform](GoogleCloudPlatform.md)
+- [Microsoft Azure](azure.md)
+- [IBM & IBM Cloud](ibm_cloud.md)
+- [Oracle Cloud](oraclecloud.md) 
+- [Digital Ocean](digitalocean.md)
+- [Cloudflare](cloudflare.md)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
@@ -181,29 +190,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
 - [Chrome & Firefox DevTools. HTTP Protocols & WebSockets](ChromeDevTools.md)
-
 ### Low Code and No Code
 - [Low Code and No Code](lowcode-nocode.md)
-
 ### Web 3 
 - [Web3](web3.md)
-
 ### Digital Money
 - [Digital Money](digital-money.md)
-
-## Public Cloud
-- [Public Cloud Solutions](public-cloud-solutions.md)
-- [Edge Computing](edge-computing.md)
-- [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
-- [AWS 🌟](aws.md)
-- [Google Cloud Platform](GoogleCloudPlatform.md)
-- [Microsoft Azure](azure.md)
-- [IBM & IBM Cloud](ibm_cloud.md)
-- [Oracle Cloud](oraclecloud.md) 
-- [Digital Ocean](digitalocean.md)
-- [Cloudflare](cloudflare.md)
-## Big Data
-- [Big Data](bigdata.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)
@@ -217,7 +209,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Recruitment](recruitment.md)
 - [Freelancing](freelancing.md)
 - [Remote Tech Jobs](remote-tech-jobs.md)
-
 ## Customer Success Stories
 - [Customer Success Stories](customer.md)
 
