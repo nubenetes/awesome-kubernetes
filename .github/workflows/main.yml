@@ -11,7 +11,7 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
       - name: Deploy MkDocs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@latest
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           CUSTOM_DOMAIN: redhatspain.com
