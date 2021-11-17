@@ -216,6 +216,7 @@
 * [medium: Deploy Infrastructure with the Terraform Cloud Operator for Kubernetes 🌟](https://medium.com/avmconsulting-blog/deploy-infrastructure-with-the-terraform-cloud-operator-for-kubernetes-a179ea4dbbfe)
 
 {==
+
 ### Terraform Kubernetes Boilerplates
 #### Hashicorp Terraform Kubernetes Collection
 - https://github.com/hashicorp/learn-terraform-provision-aks-cluster
@@ -257,6 +258,7 @@
 - [circleci.com: Infrastructure as Code, part 1: create a Kubernetes cluster with Terraform](https://circleci.com/blog/learn-iac-part1/)
     - [circleci.com: Infrastructure as Code, part 2: build Docker images and deploy to Kubernetes with Terraform](https://circleci.com/blog/learn-iac-part02/)
     - [circleci.com: Infrastructure as Code, part 3: automate Kubernetes deployments with CI/CD and Terraform](https://circleci.com/blog/learn-iac-part3/)
+
 ==}
 ### Terraform and AWS
 * [Dzone: terraform and AWS](https://dzone.com/articles/terraform-and-aws)
