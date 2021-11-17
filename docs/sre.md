@@ -78,7 +78,7 @@
 - [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8/)
 
 ## Images
-??? note "Click to expand"
+??? note "Click to expand!"
 
 	<center>
     [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)

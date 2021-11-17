@@ -51,16 +51,14 @@
 - [hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
 
 ## Bunch of Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
-[![history of microservices](images/history_of_microservices.png)](https://bit.ly/kubeappserver)
+	<center>
+	[![history of microservices](images/history_of_microservices.png)](https://bit.ly/kubeappserver)
 
-[![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
+	[![microservice arch](images/microservice_arch.png)](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)
 
-[![Full Stack developer](images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
+	[![Full Stack developer](images/Full_Stack_cybercoders.png)](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer/)
 
-[![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
-</center>
-</details>
+	[![from_monolith_to_containers](images/from_monolith_to_containers.jpg)](https://www.youtube.com/watch?v=Q6i0LK4vHsU)
+	</center>

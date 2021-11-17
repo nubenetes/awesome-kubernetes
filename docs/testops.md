@@ -43,17 +43,15 @@
 - [synopsys.com: How to integrate automated AST tools in your CI/CD pipeline](https://www.synopsys.com/blogs/software-security/integrating-automated-ast-tools)
 
 ## Bunch of Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+    <center>
 
-[![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
+    [![testops and devops](images/TestOps-What-Does-This-Mean.jpg)](https://www.opcito.com/blogs/testops-how-to-automate-your-software-pipeline-at-the-speed-of-devops)
 
-[![testops flow](images/testops_flow.jpg)](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
+    [![testops flow](images/testops_flow.jpg)](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
 
-[![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
+    [![rubber duck debugging](images/Rubber_duck_assisting_with_debugging.jpg)](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 
-![debugging tactics](images/debugging_tactics.jpg)
-</center>
-</details>
+    ![debugging tactics](images/debugging_tactics.jpg)
+    </center>

@@ -1143,28 +1143,26 @@
 - [slack.kubernetes.io](http://slack.kubernetes.io) is the way to get yourself invited.
 
 ## Bunch of images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+    <center>
 
-[![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
+    [![Kubernetes architecture](images/kubernetes-pod-creation.png)](https://www.padok.fr/en/blog/kubernetes-architecture-clusters)
 
-[![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:60%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
+    [![10 most common mistakes](images/10_common_kubernetes_mistakes.jpg){: style="width:60%"}](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)
 
-[![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
+    [![5 Open-source projects that make #Kubernetes even better](images/five-oss-projects-kubernetes.jpg){: style="width:80%"}](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve)
 
-[![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
+    [![kubernetes arch multicloud hybrid](images/kubernetes_architecture_multicloud_hybride.jpg){: style="width:70%"}](https://www.journaldunet.com/web-tech/cloud/1492047-comment-kubernetes-perce-les-frontieres-du-cloud/)
 
-[![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
+    [![Kubernetes components](images/kubernetes_components_rootsongjc.jpg)](https://github.com/rootsongjc)
 
-[![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
+    [![Container flowchart](images/container_flowchart.jpg)](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services)
 
-[![dockerswarm vs kubernetes](images/dockerswarm_vs_kubernetes.png)](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
+    [![dockerswarm vs kubernetes](images/dockerswarm_vs_kubernetes.png)](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
 
-![simple k8s cluster meme](images/simple_k8s_cluster_meme.jfif)
-</center>
-</details>
+    ![simple k8s cluster meme](images/simple_k8s_cluster_meme.jfif)
+    </center>
 
 ## Videos
 <details>

@@ -120,13 +120,11 @@
 
 
 ## Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
-[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
-</center>
-</details>
+	<center>
+	[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.openshift.com/blog/enterprise-kubernetes-with-openshift-part-one)
+	</center>
 
 ## Tweets
 <details>

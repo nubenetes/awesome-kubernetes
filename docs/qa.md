@@ -87,13 +87,11 @@ the #1 test automation community.
 - [botplayautomation.com: Benefits of Codeless (no code) Automation Testing](https://www.botplayautomation.com/post/benefits-of-codeless-automation-testing)
 
 ## Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
-![tests in prod](images/testinprodmeme.jfif)
-</center>
-</details>
+    <center>
+    ![tests in prod](images/testinprodmeme.jfif)
+    </center>
 
 ## Tweets
 <details>

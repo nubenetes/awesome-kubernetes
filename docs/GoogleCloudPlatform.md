@@ -113,14 +113,12 @@
 </details>
 
 ## Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+	<center>
 
-[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
-</center>
-</details>
+	[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
+	</center>
 
 ## Tweets
 <details>

@@ -109,28 +109,26 @@
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
 ## Bunch of images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+	<center>
 
-[![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+	[![mvp](images/mvp.png)](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 
-[![mvp2](images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
+	[![mvp2](images/mvp_2.jfif)](https://twitter.com/johncutlefish/status/1452048722917871620)
 
-[![mvp3](images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
+	[![mvp3](images/mvp_3.jfif)](https://twitter.com/PukarDesign/status/1452141978167267332)
 
-[![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![agile](images/agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![waterfall-agile](images/waterfall-agile.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
+	[![scrum-one-min](images/scrum-one-min.jpg)](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 
-![scrum vs kanban](images/scrum_vs_kanban.jfif)
+	![scrum vs kanban](images/scrum_vs_kanban.jfif)
 
-[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
-</center>
-</details>  
+	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+	</center> 
 
 ## Tweets
 <details>

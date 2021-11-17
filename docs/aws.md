@@ -927,16 +927,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ---
 ## Bunch of Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+	<center>
+	![aws responsability model](images/s3_storage_classes.jfif)
 
-![aws responsability model](images/s3_storage_classes.jfif)
-
-[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
-</center>
-</details>
+	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+	</center>
 
 ## Videos
 <details>
