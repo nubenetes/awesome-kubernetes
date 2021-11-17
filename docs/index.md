@@ -57,6 +57,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Microservices FAQ & Kubernetes Native](faq.md)
 ## SRE Site Reliability Engineering 
 - [Site Reliability Engineering (SRE)](sre.md)
+- [FinOps - Cloud Financial Management](finops.md)
 ## DevOps
 - [DevOps 🌟](devops.md)
 - [Cheat Sheets 🌟](cheatsheets.md)
@@ -69,11 +70,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## NoOps
 - [NoOps](noops.md)
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
-## FinOps - Cloud Financial Management
-- [FinOps - Cloud Financial Management](finops.md)
-## TestOps - Continuous Testing
-- [TestOps and Continuous Testing](testops.md)
+## QA/TestOps - Continuous Testing
 - [QA](qa.md)
+- [TestOps and Continuous Testing](testops.md)
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -93,12 +92,12 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
-## SUSE Rancher
-- [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 ## Red Hat OpenShift
 - [OpenShift 🌟](openshift.md)
 - [OCP 3](ocp3.md)
 - [OCP 4 🌟](ocp4.md)
+## SUSE Rancher
+- [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)

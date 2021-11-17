@@ -70,6 +70,8 @@ nav:
     - From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
   - SRE: sre.md
+    - SRE Site Reliability Engineering: sre.md
+    - FinOps. Cloud Financial Management: finops.md
   - DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
@@ -82,10 +84,9 @@ nav:
   - NoOps: 
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
-  - FinOps: finops.md
-  - TestOps:
-    - TestOps and Continuous Testing: testops.md
+  - QA/TestOps:
     - QA: qa.md
+    - TestOps and Continuous Testing: testops.md
   - Docker: docker.md
   - Kubernetes: 
     - Kubernetes: kubernetes.md
@@ -104,12 +105,12 @@ nav:
     - Kubernetes Releases: kubernetes-releases.md
     - Kubernetes Matrix Table: matrix-table.md
     - Kubernetes alternatives: kubernetes-alternatives.md
-  - Rancher:     
-    - Rancher - Enterprise management for Kubernetes: rancher.md
   - OpenShift: 
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
+  - Rancher:     
+    - Rancher - Enterprise management for Kubernetes: rancher.md
   - Software Delivery: 
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
@@ -134,7 +135,7 @@ nav:
     - Monitoring and Performance: monitoring.md
     - Prometheus: prometheus.md
     - Grafana: grafana.md
-  - Config Management:
+  - Config Mgmt:
     - Ansible: ansible.md
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
     - Chef: chef.md
@@ -196,7 +197,7 @@ nav:
       - Low Code and No Code: lowcode-nocode.md
       - Web 3: web3.md
       - Digital Money: digital-money.md
-  - Project Management:
+  - Project Mgmt:
     - Project Management Methodology: project-management-methodology.md
     - Project Management Tools: project-management-tools.md
     - Appointment Scheduling: appointment-scheduling.md
