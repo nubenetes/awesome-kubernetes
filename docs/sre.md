@@ -80,11 +80,13 @@
 ## Images
 ??? note "Click to expand"
 
-	<center>
+<center>
+
     [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
 
     [![devops vs sre](images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
-	</center>
+
+</center>
 
 ## Videos
 <details>
