@@ -1,5 +1,5 @@
 # QA: Software Quality Test Automation
-- [QA](#qa)
+- [Introduction](#introduction)
 - [Testing Frameworks](#testing-frameworks)
 - [Release Testing](#release-testing)
 - [Tools](#tools)
@@ -9,7 +9,7 @@
 - [Images](#images)
 - [Tweets](#tweets)
 
-## QA
+## Introduction
 * [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
 * [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
 * [softwaretestguideforu.com: What is system testing? How to perform system testing?](https://www.softwaretestguideforu.com/2020/06/what-is-system-testinghow-to-perform.html)
