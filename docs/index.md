@@ -208,6 +208,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Remote Tech Jobs](remote-tech-jobs.md)
 ## Customer Success Stories
 - [Customer Success Stories](customer.md)
+## Tags
+- [Tags](tags.md)
 
 ---
 <center>
