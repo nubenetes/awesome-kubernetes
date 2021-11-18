@@ -49,7 +49,7 @@
 - [acloudguru.com: What is lift and shift cloud migration?](https://acloudguru.com/blog/business/what-is-lift-and-shift-cloud-migration)
 
 ## Architectural Patterns for Caching Microservices
-- [==hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices==](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
+- [==hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices== 🌟](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
 
 ## Bunch of Images
 ??? note "Click to expand!"

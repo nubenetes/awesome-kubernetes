@@ -881,7 +881,7 @@
 * [Draino](https://github.com/planetlabs/draino) Draino automatically drains Kubernetes nodes based on labels and node conditions. Nodes that match all of the supplied labels and any of the supplied node conditions will be cordoned immediately and drained after a configurable drain-buffer time.
 
 ## Kubernetes Troubleshooting
-* [==learnk8s.io: A visual guide on troubleshooting Kubernetes deployments==](https://learnk8s.io/troubleshooting-deployments)
+* [==learnk8s.io: A visual guide on troubleshooting Kubernetes deployments== 🌟](https://learnk8s.io/troubleshooting-deployments)
 * [Understanding Kubernetes cluster events](https://banzaicloud.com/blog/k8s-cluster-logging/)
 * [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
 * [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
