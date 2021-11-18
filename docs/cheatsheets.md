@@ -412,13 +412,11 @@
 - [teamhood.com: scrum cheat sheet](https://teamhood.com/agile/scrum-cheat-sheet/)
 
 ## Images
-<details>
-  <summary>Click to expand!</summary>
+??? note "Click to expand!"
 
-<center>
+	<center>
+	![googling stuff](images/googling_stuff.jpg)
 
-![googling stuff](images/googling_stuff.jpg)
+	[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
+	</center>
 
-[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
-</center>
-</details>
