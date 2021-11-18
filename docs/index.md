@@ -178,6 +178,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Go](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
+- [Low Code and No Code](lowcode-nocode.md)
+- [Web3](web3.md)
+- [Digital Money](digital-money.md)
 ### Microsoft
 - [Microsoft .NET](dotnet.md)
 - [Microsoft Xamarin](xamarin.md)
@@ -190,12 +193,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
 - [Chrome & Firefox DevTools. HTTP Protocols & WebSockets](ChromeDevTools.md)
-### Low Code and No Code
-- [Low Code and No Code](lowcode-nocode.md)
-### Web 3 
-- [Web3](web3.md)
-### Digital Money
-- [Digital Money](digital-money.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)
