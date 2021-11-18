@@ -17,7 +17,7 @@ theme:
         name: Switch to dark mode
     - scheme: slate
       primary: light blue
-      accent: teal
+      accent: yellow
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
