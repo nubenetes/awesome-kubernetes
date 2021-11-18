@@ -11,7 +11,7 @@ theme:
   name: material 
   prev_next_buttons_location: both
   icon:
-    logo: material/library
+    logo: logo
     repo: fontawesome/brands/github
   favicon: images/favicon-car.png
   palette:
