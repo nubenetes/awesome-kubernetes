@@ -8,17 +8,22 @@ repo_url: https://github.com/redhatspain/awesome-kubernetes
 theme: 
   name: material 
   prev_next_buttons_location: both
-  palette: 
+  palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate 
+    - scheme: slate
+      primary: teal
+      accent: teal
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.instant
     - navigation.tracking
@@ -28,6 +33,10 @@ theme:
     - toc.integrate
     - navigation.top
     - content.code.annotate
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
 extra_css:
   - static/extra.css
 extra_javascript:
