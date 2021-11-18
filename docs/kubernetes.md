@@ -1,8 +1,3 @@
----
-tags:
-  - kubernetes
-  - tutorials
----
 # Kubernetes
 
 {=="Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability" (Kelsey Hightower)==}
