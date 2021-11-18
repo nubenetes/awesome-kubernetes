@@ -142,7 +142,7 @@
 ### Development
 - [Awesome Git](https://github.com/dictcp/awesome-git)
 - [Awesome Visual Studio Code](https://github.com/viatsko/awesome-vscode)
-- [Awesome Python](https://github.com/vinta/awesome-python)
+- [Awesome Python 🌟](https://github.com/vinta/awesome-python) - https://awesome-python.com
 - [Awesome Java 🌟](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - [Awesome Go](https://github.com/avelino/awesome-go)

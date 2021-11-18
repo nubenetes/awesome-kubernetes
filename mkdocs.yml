@@ -8,6 +8,7 @@ repo_url: https://github.com/redhatspain/awesome-kubernetes
 theme: 
   name: material 
   prev_next_buttons_location: both
+  favicon: docs/images/favicon-car.png
   palette:
     - scheme: default
       primary: indigo
