@@ -16,7 +16,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: white
+      primary: light blue
       accent: teal
       toggle:
         icon: material/toggle-switch
