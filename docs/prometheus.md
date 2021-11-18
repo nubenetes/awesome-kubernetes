@@ -1,5 +1,6 @@
 # Prometheus
 - [Introduction](#introduction)
+- [Prometheus Agent](#prometheus-agent)
 - [Promgen](#promgen)
 - [Promcat Resource Catalog](#promcat-resource-catalog)
 - [Prometheus Demo](#prometheus-demo)
@@ -117,11 +118,13 @@
 * [jfrog.com: Don’t let Prometheus Steal your Fire](https://jfrog.com/blog/dont-let-prometheus-steal-your-fire/) **Real world secrets exposed by unsafe defaults**
 * [itnext.io: Monitoring Spark Streaming on K8s with Prometheus and Grafana](https://itnext.io/monitoring-spark-streaming-on-k8s-with-prometheus-and-grafana-e6d8720c4a02)
 * [source.coveo.com: Prometheus at scale](https://source.coveo.com/2021/11/11/prometheus-at-scale/) Check out how Coveo uses Thanos and Prometheus.
-* [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
 * [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1) In this blog post, you will go through the two different approaches for integrating  
 Thanos Metrics with prometheus in Kubernetes environments.
 
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
+
+## Prometheus Agent
+- [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
 
 ## Promgen
 - [Promgen 🌟](https://github.com/line/promgen) Promgen is a configuration file generator for Prometheus
@@ -261,6 +264,8 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ## Prometheus and Cloud Monitoring
 * AWS CloudWatch is supported by Prometheus.
+* https://aws.amazon.com/prometheus/
+* [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus) Prometheus, the de facto standard for Kubernetes monitoring, works well for many basic deployments, but managing Prometheus infrastructure can become challenging at scale. As Kubernetes deployments continue to play a bigger role in enterprise IT, scaling Prometheus for a large number of metrics across a global footprint has become a pressing need for many organizations. Today, we’re excited to announce the public preview of Google Cloud Managed Service for Prometheus, a new monitoring offering designed for scale and ease of use that maintains compatibility with the open-source Prometheus ecosystem. 
 
 ## Prometheus Installers
 ### Binaries, source code or Docker
@@ -695,6 +700,10 @@ JMeter|Artemis Grafana|Artemis Dashboard
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Over the last months we have added a lot of functionalities to <a href="https://twitter.com/PrometheusIO?ref_src=twsrc%5Etfw">@PrometheusIO</a> to help admins limit the risks of targets blowing up servers ⬇️</p>&mdash; Julien Pivotto (@roidelapluie) <a href="https://twitter.com/roidelapluie/status/1458698615082344451?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The why and how of the Prometheus Agent, an Efficient and Cloud-Native Way for Metric Forwarding, by <a href="https://twitter.com/bwplotka?ref_src=twsrc%5Etfw">@bwplotka</a><a href="https://t.co/rEc2krU2nd">https://t.co/rEc2krU2nd</a></p>&mdash; PrometheusMonitoring (@PrometheusIO) <a href="https://twitter.com/PrometheusIO/status/1460629280963153930?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prometheus Agent is a great alternative with better resource usage footprint especially for those who run Prometheus server to only scrape metrics to send samples via remote write. It will allow fleet wide optimizations. <a href="https://t.co/wGd0I9xyaH">https://t.co/wGd0I9xyaH</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1461061166734589954?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

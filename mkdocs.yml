@@ -150,6 +150,7 @@ nav:
     - Pulumi: pulumi.md
     - Terraform & Packer. K8s boilerplates: terraform.md
     - Crossplane: crossplane.md
+    - Cloud Asset Inventory: cloud-asset-inventory.md
   - Databases: 
     - Relational Databases and Database DevOps: databases.md
     - NoSQL Databases: nosql.md
@@ -177,14 +178,15 @@ nav:
     - API Test Automation with Postman: postman.md
     - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
   - Devel:
+    - Websites for web developers: devel-sites.md
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
     - Go: golang.md
     - JavaScript - node.js & npm: javascript.md
     - Python - Django & Flask: python.md
-    - Microsoft Xamarin: xamarin.md
-    - Microsoft .NET: dotnet.md
-    - Websites for web developers: devel-sites.md
+    - Microsoft:
+      - Microsoft .NET: dotnet.md
+      - Microsoft Xamarin: xamarin.md
     - Java:
       - Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more: java_frameworks.md
       - Java Memory Management & Java Performance Optimization: java-and-java-performance-optimization.md
@@ -202,7 +204,7 @@ nav:
     - Project Management Tools: project-management-tools.md
     - Appointment Scheduling: appointment-scheduling.md
     - Work From Home: workfromhome.md
-  - More References:
+  - More Refs:
     - E-Learning: elearning.md
     - Subreddits: newsfeeds.md
     - Other Awesome Lists: other-awesome-lists.md

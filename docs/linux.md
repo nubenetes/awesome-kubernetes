@@ -1,5 +1,6 @@
 # Linux and SSH
 - [RHEL](#rhel)
+- [Rocky Linux](#rocky-linux)
 - [VIM](#vim)
 - [Neovim](#neovim)
 - [SSH](#ssh)
@@ -41,7 +42,11 @@
 - [genbeta.com: Red Hat Enterprise Linux lanza una versión a bajo costo para llegar a más público de sectores de investigación y académico](https://www.genbeta.com/actualidad/red-hat-enterprise-linux-lanza-version-a-costo-para-llegar-a-publico-sectores-investigacion-academico)
 - [makeuseof.com: The 4 Best RHEL-Based Alternatives to CentOS](https://www.makeuseof.com/best-centos-alternatives/) Now that CentOS is gone, you should make a switch to some other OS. Check out these four RHEL-based CentOS alternatives.
 - [centos.org: Comparing Centos Linux and CentOS Stream](https://www.centos.org/cl-vs-cs/) The CentOS Project produces two variants: CentOS Linux and CentOS Stream. They are alike in many ways. Here’s what sets them apart.
+
+## Rocky Linux
+- https://rockylinux.org
 - [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos/)
+- [9to5linux.com: CentOS Alternative Rocky Linux 8.5 Is Out Now with Secure Boot Support, Updated Components](https://9to5linux.com/centos-alternative-rocky-linux-8-5-is-out-now-with-secure-boot-support-updated-components) Derived from Red Hat Enterprise Linux 8.5, Rocky Linux 8.5 is here to introduce an important feature for the mass adoption of this CentOS Linux alternative, namely Secure Boot support.
 
 ## VIM
 - [VimWiki](https://github.com/vimwiki/vimwiki)

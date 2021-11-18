@@ -38,6 +38,8 @@
     * `kubectl get pods -v=8`
     * `kubectl create job my-job --image=busybox --dry-run=server -v8`
 
+* [cloudsavvyit.com: How to Restart Kubernetes Pods with Kubectl](https://www.cloudsavvyit.com/14587/how-to-restart-kubernetes-pods-with-kubectl/)
+
 ## Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
 

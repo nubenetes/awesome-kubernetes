@@ -143,7 +143,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Pulumi](pulumi.md)
 - [==Terraform & Packer. K8s Boilerplates== 🌟](terraform.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
-- [Kubestack: Terraform GitOps Framework](https://www.kubestack.com/)
+- [Cloud Asset Inventory](cloud-asset-inventory.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps 🌟](databases.md)
 - [NoSQL Databases](nosql.md)
@@ -172,14 +172,15 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [API Test Automation with Postman](postman.md)
 - [API Marketplaces. API Management with API Gateways & Developer Portals 🌟](developerportals.md)
 ## Development & Frameworks
+- [Websites for web developers](devel-sites.md)
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)
 - [Go](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
-- [Microsoft Xamarin](xamarin.md)
+### Microsoft
 - [Microsoft .NET](dotnet.md)
-- [Websites for web developers](devel-sites.md)
+- [Microsoft Xamarin](xamarin.md)
 ### Java
 - [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
 - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)

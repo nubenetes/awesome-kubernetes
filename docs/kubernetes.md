@@ -448,6 +448,9 @@
 * [danielmangum.com: How Kubernetes validates custom resources](https://danielmangum.com/posts/how-kubernetes-validates-custom-resources/)
 * [ronaknathani.com: How a Kubernetes Pod Gets an IP Address](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/)
 * [opensource.com: How the Kubernetes ReplicationController works](https://opensource.com/article/21/11/kubernetes-replicationcontroller) A ReplicationController is responsible for managing the pod lifecycle and ensuring that the specified number of pods required are running at any given time.
+* [containerjournal.com: When is Kubernetes Service Ownership the Right Fit?](https://containerjournal.com/features/when-is-kubernetes-service-ownership-the-right-fit/)
+    * Why is Kubernetes service ownership emerging as the way for software delivery and operations teams to establish full “ownership” of the services they support? Because ownership covers the lifespan of software from development to deployment to the sunsetting process. And this shift to full-spectrum accountability brings about dramatic improvements in the overall speed, reliability, security and cost of applications. 
+    * Of course, it’s not always easy to determine which organizations need this level of ownership. When businesses grow, they typically discover that pushing the delivery of applications and services through a gate of operations is challenging at best, impossible at worst. Even so, the DevSecOps mindset is on the rise, which means teams are now seeking ways to make this type of shift into more meaningful and effective ownership. It is the shift that enables a deep fundamental change to occur within an organization. 
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -878,7 +881,7 @@
 * [Draino](https://github.com/planetlabs/draino) Draino automatically drains Kubernetes nodes based on labels and node conditions. Nodes that match all of the supplied labels and any of the supplied node conditions will be cordoned immediately and drained after a configurable drain-buffer time.
 
 ## Kubernetes Troubleshooting
-* [Kubernetes troubleshooting diagram](https://github.com/redhatspain/awesome-kubernetes/blob/master/docs/images/kubernetes-troubleshooting.jpg)
+* [==learnk8s.io: A visual guide on troubleshooting Kubernetes deployments==](https://learnk8s.io/troubleshooting-deployments)
 * [Understanding Kubernetes cluster events](https://banzaicloud.com/blog/k8s-cluster-logging/)
 * [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
 * [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)

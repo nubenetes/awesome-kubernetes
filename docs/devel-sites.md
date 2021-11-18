@@ -1,6 +1,7 @@
 # Websites for web developers
 - [Introduction](#introduction)
 - [Developer Tools](#developer-tools)
+  - [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
 - [AI Programming](#ai-programming)
 - [No code tools](#no-code-tools)
 - [Tweets](#tweets)
@@ -17,6 +18,12 @@
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
+
+### Red Hat Software Collections and Red Hat Developer Toolset
+- [==softwarecollections.org==](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use multiple versions of software on the same system, without affecting system-wide installed packages.
+- [developers.redhat.com: ==Red Hat Software Collections==](https://developers.redhat.com/products/softwarecollections/overview)
+- [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview)
+- [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally)
 
 ## AI Programming
 - [GitHub Copilot](https://copilot.github.com/)

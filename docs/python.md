@@ -253,6 +253,7 @@
 
 ## Data Science
 - [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
+- [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)
 
 ### Python Pandas and pivot tables
 - [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables)

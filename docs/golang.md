@@ -29,6 +29,7 @@
 - [hashicorp.com: 8 Best Practices for Writing Secure Go Code](https://www.hashicorp.com/resources/8-best-practices-for-writing-secure-go-code)
 - [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/)
 - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign)
+- [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
 
 ## Kubernetes Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)

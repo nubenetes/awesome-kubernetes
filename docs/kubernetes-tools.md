@@ -403,6 +403,7 @@
 * [haxsaw/hikaru 🌟](https://github.com/haxsaw/hikaru) Move smoothly between Kubernetes YAML and Python for creating/updating/componentizing configurations. **Hikaru is a tool that provides you the ability to easily shift between YAML, Python objects/source, and JSON representations of your Kubernetes config files.** It provides assistance in authoring these files in Python, opens up options in how you can assemble and customise the files, and provides some programmatic tools for inspecting large, complex files to enable automation of policy and security compliance. Additionally, Hikaru allows you to use its K8s model objects to interact with Kubernetes, directing it to create, modify, and delete resources.
 * [kei6u/kubectl-secret-data](https://github.com/kei6u/kubectl-secret-data) A kubectl plugin for finding decoded secret data with productive search flags.
 * [ofek/csi-gcs](https://github.com/ofek/csi-gcs) Kubernetes CSI driver for Google Cloud Storage. An easy-to-use, cross-platform, and highly optimized Kubernetes CSI driver for mounting Google Cloud Storage buckets.
+* [target/pod-reaper](https://github.com/target/pod-reaper) ==Rule based pod killing kubernetes controller==. Pod-Reaper was designed to kill pods that meet specific conditions. See the "Implemented Rules" section below for details on specific rules.
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
