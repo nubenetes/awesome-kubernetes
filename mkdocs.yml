@@ -233,10 +233,10 @@ nav:
   - Clients: customer.md
   - About: about.md
 copyright: 2021 <a href="https://twitter.com/RedHatSpain">Red Hat Spain</a>, <a href="https://redhatspain.com/about/">about</a>.
-google_analytics: ['UA-168051035-1', 'redhatspain.com']
-#remote_branch: gh-pages 
-#remote_name: origin
 extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/redhatspain
