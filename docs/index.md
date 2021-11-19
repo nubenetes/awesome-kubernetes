@@ -177,7 +177,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Python - Django & Flask](python.md)
 - [Low Code and No Code](lowcode-nocode.md)
 - [Web3](web3.md)
-- [Digital Money](digital-money.md)
 ### Microsoft
 - [Microsoft .NET](dotnet.md)
 - [Microsoft Xamarin](xamarin.md)
@@ -202,6 +201,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [E-Learning](elearning.md)
 - [Forums and Communities](newsfeeds.md)
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
+- [Digital Money](digital-money.md)
 ## Recruitment and Freelancing 
 - [Recruitment](recruitment.md)
 - [Freelancing](freelancing.md)
