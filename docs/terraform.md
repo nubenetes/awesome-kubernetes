@@ -1,7 +1,6 @@
 # Hashicorp Packer & Terraform. K8s Boilerplates 
 
-{=="It's not controversial to provision resources with code. It shouldn't be controversial to deploy and manage resources with code" (
-Jaana Dogan)==}
+{=="It's not controversial to provision resources with code. It shouldn't be controversial to deploy and manage resources with code" (Jaana Dogan)==}
 
 - [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 - [Packer](#packer)
