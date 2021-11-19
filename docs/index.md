@@ -70,9 +70,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## NoOps
 - [NoOps](noops.md)
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
-## QA/TestOps - Continuous Testing
-- [QA](qa.md)
-- [TestOps and Continuous Testing](testops.md)
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
@@ -193,6 +190,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
 - [Chrome & Firefox DevTools. HTTP Protocols & WebSockets](ChromeDevTools.md)
+## QA/TestOps - Continuous Testing
+- [QA](qa.md)
+- [TestOps and Continuous Testing](testops.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)
