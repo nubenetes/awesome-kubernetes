@@ -22,6 +22,7 @@
 - [Azure Container Instances](#azure-container-instances)
 - [Windows Server Container Host](#windows-server-container-host)
 - [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+- [Images](#images)
 
 ## Azure
 - [Microsoft Azure](https://azure.microsoft.com/)
@@ -179,6 +180,9 @@
     - [Azure-Samples/jenkins-terraform-azure-example](https://github.com/Azure-Samples/jenkins-terraform-azure-example)
     - etc
 
-<center>
-[![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
-</center>
+## Images
+??? note "Click to expand!"
+
+    <center>
+    [![pizza model](images/pizza-model-vert.jpeg)](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/)
+    </center>
