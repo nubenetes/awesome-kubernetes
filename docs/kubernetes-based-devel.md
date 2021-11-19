@@ -10,6 +10,7 @@
     - [Lens Kubernetes IDE](#lens-kubernetes-ide)
     - [Kubenav](#kubenav)
     - [Cloud Manager](#cloud-manager)
+- [Images](#images)
 - [Videos](#videos)
 
 ## Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s
@@ -97,14 +98,19 @@
 - [medium: How To Give Developers Secure Access to Kubernetes Clusters](https://medium.com/k8slens/how-to-give-developers-secure-access-to-kubernetes-clusters-c6025f0dd288)
 - [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) Lens - The Kubernetes IDE extension that displays Kubernetes resources and their relations as a force graph.
 
-[![lens ide](images/header-lens.png)](https://k8slens.dev/)
-
 ### Kubenav
 - [kubenav](https://github.com/kubenav/kubenav) is the navigator for your Kubernetes clusters right in your pocket. kubenav is a mobile, desktop and web app to manage Kubernetes clusters and to get an overview of the status of your resources.
 
 ### Cloud Manager
 - [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes/)
 - [medium: Do It All Kubernetes Dashboard](https://medium.com/faun/do-it-all-kubernetes-dashboard-81375833e01c)
+
+## Images
+??? note "Click to expand!"
+
+    <center>
+    [![lens ide](images/header-lens.png)](https://k8slens.dev/)
+    </center>
 
 ## Videos
 <details>

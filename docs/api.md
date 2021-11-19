@@ -29,6 +29,7 @@
 - [Related](#related)
 - [Video APIs](#video-apis)
 - [API Business Models](#api-business-models)
+- [Images](#images)
 - [Tweets](#tweets)
 
 ## APIs
@@ -152,10 +153,6 @@
 * [dev.to: Top 15 Automated API Testing Tools](https://dev.to/katalon/top-15-automated-api-testing-tools-lasted-update-32ip)
 * [opensource.com: 3 ways to test your API with Python](https://opensource.com/article/21/9/unit-test-python) Unit testing can be daunting, but these Python modules will make your life much easier.
 
-<center>
-[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
-</center>
-
 ### GraphQL
 - [GraphQL](https://graphql.org/) A query language for your API
 - [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) How are screws better than nails? Both are useful tools that solve similar problems in slightly different ways. OpenAPI Specification offers a declarative contract that defines the structure of API requests and responses as discrete operations. GraphQL prefers an interface style that is more like querying a database and is best suited to graph databases. 
@@ -206,9 +203,14 @@
 ## API Business Models
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)
 
-<center>
-[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
-</center>
+## Images
+??? note "Click to expand!"
+
+	<center>
+	[![top 10 api testing tools](images/summarising_top_10_api_testing_tools.png){: style="width:50%"}](https://blog.testproject.io/2020/06/25/top-10-api-testing-tools-to-watch-in-2020/)
+
+	[![20 API Business Models](images/api_business_models.jpg)](https://www.infoq.com/presentations/API-Business-Models/)
+	</center>
 
 ## Tweets
 <details>

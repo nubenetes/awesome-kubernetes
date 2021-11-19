@@ -22,6 +22,7 @@
     - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
 - [Kubestr](#kubestr)
 - [VolSync](#volsync)
+- [Images](#images)
 
 ## Introduction
 * [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
@@ -162,7 +163,9 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [VolSync 🌟](https://github.com/backube/volsync) Asynchronous data replication for Kubernetes volumes. VolSync asynchronously replicates Kubernetes persistent volumes between clusters using either rsync or rclone. It also supports creating backups of persistent volumes via restic.
 - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/) VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters! 
 
----
-<center>
-[![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
-</center>
+## Images
+??? note "Click to expand!"
+
+    <center>
+    [![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
+    </center>

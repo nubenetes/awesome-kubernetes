@@ -24,6 +24,7 @@
     - [Jenkins X and Tekton on OpenShift](#jenkins-x-and-tekton-on-openshift)
     - [HAT is the acronym for Helm, ArgoCD and Tekton](#hat-is-the-acronym-for-helm-argocd-and-tekton)
 - [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
+- [Images](#images)
 - [Slides](#slides)
 - [Tweets](#tweets)
 
@@ -209,10 +210,12 @@
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)
 
----
-<center>
-[![gitlab](images/gitlab.jpg)](https://gitlab.com/)
-</center>
+## Images
+??? note "Click to expand!"
+
+    <center>
+    [![gitlab](images/gitlab.jpg)](https://gitlab.com/)
+    </center>
 
 ## Slides
 <details>

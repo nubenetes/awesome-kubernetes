@@ -29,6 +29,7 @@
 - [Linux Libraries](#linux-libraries)
 - [Linux Networking](#linux-networking)
 - [Networking Protocols](#networking-protocols)
+- [Images](#images)
 - [Tweets](#tweets)
 
 ## RHEL
@@ -316,9 +317,12 @@
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
 - [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
 
-<center>
-[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
-</center>
+## Images
+??? note "Click to expand!"
+
+	<center>
+	[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
+	</center>
 
 ## Tweets
 <details>

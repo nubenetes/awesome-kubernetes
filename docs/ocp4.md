@@ -600,7 +600,9 @@ oc login
 ## OpenShift Kubernetes Engine (OKE)
 * [Similarities and differences between OpenShift Kubernetes Engine and OpenShift Container Platform](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
 
+<center>
 [![openshift4 architecture](images/openshift4-architecture.png)](https://docs.openshift.com/container-platform/4.4/welcome/oke_about.html)
+</center>
 
 ## Red Hat CodeReady Containers. OpenShift 4 on your laptop
 * [developers.redhat.com: Developing applications on Kubernetes 🌟](https://developers.redhat.com/topics/kubernetes/)

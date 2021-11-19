@@ -110,7 +110,9 @@
 * [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
 * [stackexchange.com/performance 🌟](https://stackexchange.com/performance)
 
+<center>
 [![Statefull and Stateless Aplications](images/stateful-and-stateless-applications.png)](https://www.xenonstack.com/insights/stateful-and-stateless-applications/)
+</center>
 
 ## Serverless Databases
 - [thenewstack.io: How to Ensure Your Serverless Database Stays Serverless](https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless/)
@@ -250,7 +252,6 @@
 <center>
 ![crunchdydata in operatorhub](images/crunchydata_operator_hub.png)
 </center>
-<br/>
 
 #### Crunchydata Postgres Operator 3.5
 - Release date: Januay 2019
@@ -264,7 +265,6 @@
 <center>
 ![crunchydata operator 3.5](images/crunchydata_operator_3_5.png)
 </center>
-<br/>
 
 #### Crunchydata Postgres Operator 4.0.1
 - Release date: June 2019
@@ -277,7 +277,6 @@
 <center>
 ![crunchdydata operator 4.0.1](images/crunchydata_operator_4_0_1.png)
 </center>
-<br/>
 
 #### Crunchydata Postgres Operator 4.0.1 Community Edition 
 ##### Service Accounts
@@ -365,7 +364,6 @@ role "view" removed: "system:serviceaccounts"
 <center>
 ![crunchdydata scc1](images/crunchydata_scc1.png) ![crunchdydata scc2](images/crunchydata_scc2.png)
 </center>
-<br/>
 
 ###### SCC Recommendations
 - Use OpenShift's Security Context Constraint feature, which has been contributed to Kubernetes as [Pod Security Policies (PSP)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/). PSPs are still beta in Kubernetes 1.10, 1.11, 1.12, 1.13, 1.14, 1.15 .
@@ -432,14 +430,12 @@ openshift.io/scc: restricted
 <center>
 ![crunchdydata scc workflow1](images/crunchydata_scc_workflow1.png)
 </center>
-<br/>
 
 ###### Workflow2 with custom Service Account and without DeploymentConfig
 
 <center>
 ![crunchdydata scc workflow2](images/crunchydata_scc_workflow2.png)
 </center>
-<br/>
 
 - Create a custom ServiceAccount and add a role to it within a Project:
     1. ```oc project pgouser1```
@@ -475,7 +471,6 @@ users:
 <center>
 ![crunchdydata scc workflow3](images/crunchydata_scc_workflow3.png)
 </center>
-<br/>
 
 ##### Environment setup. Port Forward and WSL
 - Deployment method used in this presentation: [Install Operator Using Bash](https://access.crunchydata.com/documentation/postgres-operator/4.3.0/installation/other/bash/)
@@ -755,7 +750,6 @@ postgres=#
 <center>
 ![crunchdydata pgadmin](images/crunchydata_pgadmin.png)
 </center>
-<br/>
 
 ##### Debugging Crunchydata Postgres Operator 4.0.1 Community Edition
 - Debug level logging in turned on by default when deploying the Operator.

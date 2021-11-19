@@ -9,6 +9,7 @@
 - [IBM Cloud Paks and OpenShift](#ibm-cloud-paks-and-openshift)
 	- [CloudPaks For Applications (CP4A)](#cloudpaks-for-applications-cp4a)
 	- [IBM Cloud Pak for Multicloud Management (CP4MCM)](#ibm-cloud-pak-for-multicloud-management-cp4mcm)
+- [Videos](#videos)
 
 <center>
 [![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/user/IBMCloud)
@@ -74,8 +75,9 @@
 - [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) Repo to hold and manage documentation and samples for the CloudPak for MCM components. Integrating business partner apps into IBM Cloud Pak for Multicloud Management (MCM) can be mutually beneficial to both parties. Depending on the business partner’s app, there may be different scenarios and requirements for the integration. This repository provides documentations and samples for various scenarios to help business partners integrate their app into IBM MCM.
 - [IBM Cloud Pak for Multicloud Management Ideas Portal](https://cp4mcm.ideas.aha.io/) 
 
----
+## Videos
+??? note "Click to expand!"
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78wvDIK5Hys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/78wvDIK5Hys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
