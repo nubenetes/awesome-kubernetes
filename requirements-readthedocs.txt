@@ -1,3 +1,0 @@
-mkdocs
-sphinx-rtd-theme
-pymdown-extensions

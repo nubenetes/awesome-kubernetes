@@ -5,6 +5,7 @@
 - [GitHub Pages](#github-pages)
 - [GitBook](#gitbook)
 - [Alternatives. Jekyll open source static site generator](#alternatives-jekyll-open-source-static-site-generator)
+- [Tweets](#tweets)
 
 ## Introduction
 - [MkDocs](https://www.mkdocs.org/)
@@ -37,3 +38,10 @@
 
 ## Alternatives. Jekyll open source static site generator
 - [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) Jekyll is an open source static site generator. You can write your content in Markdown, use HTML/CSS for structure and presentation, and Jekyll compiles it all into static HTML.
+
+## Tweets
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I really can&#39;t wait for code annotations to be generally available! They have the potential to transform the way we document code examples, allowing for rich text (incl. images, graphs, tables, etc.) to be co-located with code.<a href="https://t.co/vFiHRAwKx4">https://t.co/vFiHRAwKx4</a> <a href="https://t.co/f8UYmY3LjO">pic.twitter.com/f8UYmY3LjO</a></p>&mdash; Martin Donath (@squidfunk) <a href="https://twitter.com/squidfunk/status/1457299354386116610?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>

@@ -2,6 +2,7 @@
 - [Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s](#non-production-kubernetes-local-installers-kubernetes-distributions-for-local-environments-desktop-k8s)
 - [Kubernetes Based Development. Kubernetes Development Tools.](#kubernetes-based-development-kubernetes-development-tools)
     - [Skaffold. Local Kubernetes Development](#skaffold-local-kubernetes-development)
+    - [DevSpace](#devspace)
     - [Telepresence local development for k8s and openshift microservices](#telepresence-local-development-for-k8s-and-openshift-microservices)
     - [Bridge to Kubernetes](#bridge-to-kubernetes)
 - [Kubernetes Clients and Dashboards](#kubernetes-clients-and-dashboards)
@@ -34,12 +35,9 @@
 
 ## Kubernetes Based Development. Kubernetes Development Tools. 
 - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
-- [kubevious 🌟🌟](https://github.com/kubevious/kubevious) Kubevious is a read-only dashboard and config validator. Kubevious gives deep insights on app config and structure.
-- [skaffold.dev](https://skaffold.dev/)
-- [tilt.dev](https://tilt.dev) You can use Tilt to easily build and run your application on Kubernetes. In comparison with similar tools, it provides [UI for managing the process and cloud platform](https://cloud.tilt.dev) to share data with your team.
-- [garden.io](https://garden.io/)
-- [devspace.sh](https://devspace.sh/)
-    - [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve/)
+- [==kubevious== 🌟🌟](https://github.com/kubevious/kubevious) Kubevious is a read-only dashboard and config validator. Kubevious gives deep insights on app config and structure.
+- [==tilt.dev==](https://tilt.dev) You can use Tilt to easily build and run your application on Kubernetes. In comparison with similar tools, it provides [UI for managing the process and cloud platform](https://cloud.tilt.dev) to share data with your team.
+- [==garden.io==](https://garden.io/)
 - [microcks.io](https://microcks.io) K8s-based API mock/test tool. 
     - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)
 - [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://loft.sh/blog/checklist-for-kubernetes-based-development)
@@ -55,9 +53,14 @@
     - [rookout.com: Developer Tools for Kubernetes in 2021: Development Machines (Part 5)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-development-machines-part-5)
 
 ### Skaffold. Local Kubernetes Development
-- [Skaffold 🌟](https://skaffold.dev/)
+- [==Skaffold== 🌟](https://skaffold.dev/)
 - [infracloud.io: Build and deploy Kubernetes apps with Skaffold](https://www.infracloud.io/blogs/skaffold-usecases/)
 - [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold/)
+
+### DevSpace
+- [==devspace.sh==](https://devspace.sh/)
+- [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve/)
+- [==cloudsavvyit.com: How to Get Started With DevSpace and Rapidly Develop Kubernetes Apps==](https://www.cloudsavvyit.com/14690/how-to-get-started-with-devspace-and-rapidly-develop-kubernetes-apps/)
 
 ### Telepresence local development for k8s and openshift microservices
 * [telepresence.io 🌟](https://www.telepresence.io) Fast, local development for kubernetes and openshift microservices.

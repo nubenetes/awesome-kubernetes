@@ -404,6 +404,8 @@
 * [kei6u/kubectl-secret-data](https://github.com/kei6u/kubectl-secret-data) A kubectl plugin for finding decoded secret data with productive search flags.
 * [ofek/csi-gcs](https://github.com/ofek/csi-gcs) Kubernetes CSI driver for Google Cloud Storage. An easy-to-use, cross-platform, and highly optimized Kubernetes CSI driver for mounting Google Cloud Storage buckets.
 * [target/pod-reaper](https://github.com/target/pod-reaper) ==Rule based pod killing kubernetes controller==. Pod-Reaper was designed to kill pods that meet specific conditions. See the "Implemented Rules" section below for details on specific rules.
+* [utilitywarehouse/kube-applier](https://github.com/utilitywarehouse/kube-applier) **kube-applier enables automated deployment and declarative configuration for your Kubernetes cluster.** kube-applier is Kubernetes deployment tool strongly following gitOps principals. It enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster.
+* [Trendyol/kink](https://github.com/Trendyol/kink) KinK is a helper CLI that facilitates to manage KinD clusters as Kubernetes pods. Designed to ease clusters up for fast testing with batteries included in mind.
 
 ## Penetration Testing Tools
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.

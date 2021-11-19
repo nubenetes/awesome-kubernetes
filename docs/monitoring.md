@@ -400,6 +400,7 @@ done
 * [dynatrace.com: A look behind the scenes of AWS Lambda and our new Lambda monitoring extension](https://www.dynatrace.com/news/blog/a-look-behind-the-scenes-of-aws-lambda-and-our-new-lambda-monitoring-extension/)
 * [dynatrace.com: Analyze all AWS data in minutes with Amazon CloudWatch Metric Streams available in Dynatrace](https://www.dynatrace.com/news/blog/amazon-cloudwatch-metric-streams-launch-partnership/)
 * [dynatrace.com: New Dynatrace Operator elevates cloud-native observability for Kubernetes](https://www.dynatrace.com/news/blog/new-dynatrace-operator-elevates-cloud-native-observability-for-kubernetes/)
+* [dynatrace.com: How to collect Prometheus metrics in Dynatrace](https://www.dynatrace.com/news/blog/how-to-collect-prometheus-metrics-in-dynatrace)
 
 ## Message Queue Monitoring
 
