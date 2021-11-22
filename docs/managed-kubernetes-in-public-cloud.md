@@ -255,5 +255,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloud providers after selling managed kubernetes <a href="https://t.co/p9jd4Ov4Ej">pic.twitter.com/p9jd4Ov4Ej</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1458941321725546498?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Small companies managing their own Kubernetes. <a href="https://t.co/nTHrqPiQnm">pic.twitter.com/nTHrqPiQnm</a></p>&mdash; joshobrien77 (@joshobrien77) <a href="https://twitter.com/joshobrien77/status/1459032252768157696?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">AWS recently released a new version of the AWS-CNI that allows more Pods to be deployed in each EC2 instance.<br><br>More pod density means more efficiency, but how does it work?<br><br>And if it&#39;s that good, why release it only now?<br><br>Let&#39;s see 👇<br><br>🧵 <a href="https://t.co/MHnDrYJUvf">pic.twitter.com/MHnDrYJUvf</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1462751673143611395?ref_src=twsrc%5Etfw">November 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

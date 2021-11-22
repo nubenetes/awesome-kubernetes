@@ -76,6 +76,8 @@ the #1 test automation community.
 * [getxray.app: 7 benefits of using a Test Management App vs. Excel](https://www.getxray.app/blog/7-benefits-of-using-a-test-management-app-vs.-excel)
 * [==google/clusterfuzzlite== 🌟](https://github.com/google/clusterfuzzlite) ClusterFuzzLite - Simple continuous [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) that runs in CI.
     * [thenewstack.io: Google Introduces ClusterFuzzLite Security Tool for CI/CD](https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd/)
+* [convert.com: Top 10 A/B Testing Tools That Are Good for the Next 5 Years (Vetted by Features, Privacy, Maturity & Price)](https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond/)
+
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)
 
