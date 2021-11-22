@@ -59,7 +59,6 @@
     * [bridgecrew.io: Part 2: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-2/)
     * [bridgecrew.io: Part 3: Top trends from analyzing the security posture of open-source Helm charts](https://bridgecrew.io/blog/open-source-helm-security-research-part-3/)
 * [redhat.com: Red Hat OpenShift Certification extends support for Kubernetes-native technologies with Helm 🌟](https://www.redhat.com/en/blog/red-hat-openshift-certification-extends-support-kubernetes-native-technologies-helm) **Helm or Operators: how to choose**
-* [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3)
 * [jasiek-petryk.medium.com: Setting up a private Helm chart repository on GitHub](https://jasiek-petryk.medium.com/setting-up-a-private-helm-chart-repository-on-github-4a767703cec8)
 * [betterprogramming.pub: How To Continuously Test and Deploy Your Helm Charts on Kubernetes Clusters Using Kind](https://betterprogramming.pub/how-to-continuously-test-and-deploy-your-helm-charts-on-kubernetes-clusters-using-kind-d71e3585d2dc) Set up your CI/CD tools to easily test and publish charts on ephemeral Kubernetes clusters
 * [blog.flant.com: Making the most out of Helm templates 🌟](https://blog.flant.com/advanced-helm-templating/) The standard Helm library and traditional approaches to creating Helm charts are generally okay to automate non-complex tasks. But the growing complexity and number of Helm charts rapidly make the minimalistic Helm templates and controversial standard Helm library insufficient. In this article, we will show you how to make your Helm templates much more flexible and dynamic by implementing your own Helm “functions” and exploiting the capabilities of the tpl function.
@@ -75,7 +74,6 @@
 * [codersociety.com: 13 Best Practices for using Helm](https://codersociety.com/blog/articles/helm-best-practices) Helm is an indispensable tool for deploying applications to Kubernetes clusters. But it is only by following best practices that you’ll truly reap the benefits of Helm. Here are 13 best practices to help you create, operate, and upgrade applications using Helm.
 * [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts/)
 * [dzone.com: Deploy a Java application using Helm, Part 1 (OpenShift) 🌟](https://dzone.com/articles/deploy-a-java-application-using-helm-part-1)
-* [==itnext.io: Manage Auto-generated Secrets In Your Helm Charts== 🌟](https://itnext.io/manage-auto-generated-secrets-in-your-helm-charts-5aee48ba6918)
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

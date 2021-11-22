@@ -44,7 +44,7 @@
 - [Kubernetes Network Policies](#kubernetes-network-policies)
 - [Static Analysis SAST](#static-analysis-sast)
 - [Kubernetes Security Tools](#kubernetes-security-tools)
-- [Helm Charts Security](#helm-charts-security)
+- [Helm Charts Security. Helm Secrets](#helm-charts-security-helm-secrets)
 - [Password Recovery](#password-recovery)
 - [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
 - [Books](#books)
@@ -398,8 +398,10 @@
 - [fluentbit.io](https://fluentbit.io) Fluent Bit is an open source Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations. It's the preferred choice for containerized environments like Kubernetes.
 	- [falco.org: Detect Malicious Behaviour on Kubernetes API Server through gathering Audit Logs by using FluentBit - Part 2](https://falco.org/blog/detect-malicious-behaviour-on-kubernetes-api-server-through-gathering-audit-logs-by-using-fluentbit-part-2/)
   
-## Helm Charts Security
+## Helm Charts Security. Helm Secrets
 - [medium: Who’s at the Helm?](https://dlorenc.medium.com/whos-at-the-helm-1101c37bf0f1) Or, how to deploy 25+ CVEs to prod in one command!
+* [itnext.io: Helm 3 — Secrets management, an alternative approach 🌟](https://itnext.io/helm-3-secrets-management-4f23041f05c3)
+* [==itnext.io: Manage Auto-generated Secrets In Your Helm Charts== 🌟](https://itnext.io/manage-auto-generated-secrets-in-your-helm-charts-5aee48ba6918)
 
 ## Password Recovery
 - [hashcat](https://hashcat.net/hashcat/)
