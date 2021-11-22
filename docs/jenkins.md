@@ -1,5 +1,6 @@
 # Jenkins & CloudBees
 - [Jenkins](#jenkins)
+- [Interview Questions](#interview-questions)
 - [Jenkins Is The Way](#jenkins-is-the-way)
 - [Evolution of open source CI/CD Tools](#evolution-of-open-source-cicd-tools)
 - [eBooks](#ebooks)
@@ -99,7 +100,6 @@
 * [jenkins.io: Easily reuse Tekton and Jenkins X from Jenkins 🌟](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/) Jenkins can now be used to automate Tekton pipelines too which helps teams digitally transform to more cloud native solutions for their CI and CD. In such a case, you can use Tekton pipeline engine while getting all benefits from Jenkins as an orchestrator, user interface and the reporting engine. The Tekton Client plugin for Jenkins lets you easily use Jenkins to automate creating and running Tekton pipelines. It bridges the Kubernetes learning gap and allows invoking Tekton Pipelines and resources through Jenkins. This allows users to not have much of the Kubernetes specific knowledge beforehand and work. Its a single Jenkins plugin to install - so it’s easy to use.
 * [harness.io: What is Pipeline as Code, and How Can You Leverage It?](https://harness.io/blog/devops/pipeline-as-code/)
 * [lambdatest.com: How To Set Jenkins Pipeline Environment Variables? 🌟](https://www.lambdatest.com/blog/set-jenkins-pipeline-environment-variables-list/)
-* [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
 * [slideshare.net: Jeff Geerling - Jenkins or: How I learned to stop worrying and love automation 🌟](https://www.slideshare.net/geerlingguy/jenkins-or-how-i-learned-to-stop-worrying-and-love-automation) Configuring Jenkins like a pro. Use authorization strategies in jenkinsci unless you want to have Remote Code Execution as a Service! There are many plugins like Matrix Auth, Role Strategy and Folder Auth. Vendors like CloudBees also provide security engines in their products.
 * [youtube - CloudBeesTV: How to Run a Shell Script in Jenkins Pipeline 🌟](https://www.youtube.com/watch?v=mbeQWBNaNKQ&ab_channel=CloudBeesTV)
 * [opensource.com: Make Jenkins logs pretty](https://opensource.com/article/21/5/jenkins-logs) Jenkins' default logs can be hard to read, but they don't have to be.
@@ -140,6 +140,10 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Connecting and authenticating to Jenkins with Teleport Application Access](https://github.com/gravitational/teleport/discussions/8330) This shows integrating a Jenkins with Teleport Application Access for Access and Authentication. 
 * [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) Select different Jenkinsfiles as a parameter in MultiBranch Jobs
 * [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) How to pull from Git, build a Docker image, and publish the image to Docker Hub.
+
+## Interview Questions 
+* [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
+* [automationreinvented.blogspot.com: Top 10 Jenkins Interview Question for SDET - DevOps - Automation QA?](https://automationreinvented.blogspot.com/2021/09/top-10-jenkins-interview-question-for.html)
 
 ## Jenkins Is The Way
 * [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) Jenkins Is The Way is a collection of experiences from all around the world showcasing how users are building, deploying, and automating great stuff with Jenkins. 

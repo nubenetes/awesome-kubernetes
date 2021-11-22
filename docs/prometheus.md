@@ -127,6 +127,8 @@ Thanos Metrics with prometheus in Kubernetes environments.
 
 ## Prometheus Agent
 - [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
+- [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/)
+- [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent/)
 
 ## Promgen
 - [Promgen 🌟](https://github.com/line/promgen) Promgen is a configuration file generator for Prometheus

@@ -44,6 +44,7 @@
 - [collabnix.github.io: Kubetools - A Curated List of Kubernetes Tools: Kubetools - A Curated List of Kubernetes Tools](https://collabnix.github.io/kubetools/)
 - [cyberithub.com: 70+ Important Kubernetes Related Tools You Should Know About](https://www.cyberithub.com/70-important-kubernetes-related-tools-you-should-know-about)
 - [itnext.io: Kubernetes GitOps Tools](https://itnext.io/kubernetes-gitops-tools-cf0247eb5368)
+- [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -406,10 +407,15 @@
 * [target/pod-reaper](https://github.com/target/pod-reaper) ==Rule based pod killing kubernetes controller==. Pod-Reaper was designed to kill pods that meet specific conditions. See the "Implemented Rules" section below for details on specific rules.
 * [utilitywarehouse/kube-applier](https://github.com/utilitywarehouse/kube-applier) **kube-applier enables automated deployment and declarative configuration for your Kubernetes cluster.** kube-applier is Kubernetes deployment tool strongly following gitOps principals. It enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster.
 * [Trendyol/kink](https://github.com/Trendyol/kink) KinK is a helper CLI that facilitates to manage KinD clusters as Kubernetes pods. Designed to ease clusters up for fast testing with batteries included in mind.
+* [vbouchaud/k8s-ldap-auth](https://github.com/vbouchaud/k8s-ldap-auth) Kubernetes webhook token authentication plugin implementation using ldap.
+* [wangjia184/pod-inspector](https://github.com/wangjia184/pod-inspector) A tool to inspect pods in kubernetes. Unlike other dashboardes for Kubernetes(Lens / Rancher / etc), ==Kubernetes Pod Inspector allows to check the file system and processes within running Linux pods without using kubectl. This is useful when we want to check the files within volumes mounted by pods==
+* [witchery-project/witchery](https://github.com/witchery-project/witchery) build distroless images with alpine tools
 
 ## Penetration Testing Tools
+* [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
 * [quarkslab/kdigger](https://github.com/quarkslab/kdigger) kdigger is a context discovery tool for Kubernetes penetration testing.
 * [inguardians/peirates](https://github.com/inguardians/peirates) Peirates - Kubernetes Penetration Testing tool
+
 ## Deckhouse Kubernetes Platform
 * [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) Deckhouse is an Open Source platform for managing Kubernetes clusters in a fully automatic and uniform fashion. It allows you to create homogeneous Kubernetes clusters anywhere and fully manages them. It supplies all the add-ons you need for auto-scaling, observability, security, and service mesh. It comes in Enterprise Edition (EE) and Community Edition (CE). 
 
@@ -474,6 +480,7 @@
 
 ## Kubermetrics
 * [oslabs-beta/kubermetrics](https://github.com/oslabs-beta/kubermetrics) Kubermetrics is an open-source dev tool that provides Kubernetes cluster monitoring as well as data visualization in a simple and easy to understand user interface. Kubermetrics intergrates both the Prometheus and Grafana Dashboards on one page! Allowing for custominzable dashboards and alerts.
+* [medium: Kubermetrics — Cluster Visualization Made Simple](https://medium.com/@sachem2015/kubermetrics-cluster-visualization-made-simple-d24928f63451)
 
 ## Kustomizer
 - [kustomizer](https://kustomizer.dev/) Kustomize build, apply, prune command-line utility. Kustomizer is a command-line utility for applying kustomizations on Kubernetes clusters. Kustomizer garbage collector keeps track of the applied resources and prunes the Kubernetes objects that were previously applied on the cluster but are missing from the current revision.

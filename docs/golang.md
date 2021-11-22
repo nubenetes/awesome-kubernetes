@@ -3,8 +3,9 @@
 - [Kubernetes Client Go](#kubernetes-client-go)
 - [Building container images](#building-container-images)
 - [Go cheatsheets](#go-cheatsheets)
-- [Go Frameworks](#go-frameworks)
+- [Go Frameworks and libraries](#go-frameworks-and-libraries)
 - [Go packages](#go-packages)
+- [Go Samples for Google Cloud](#go-samples-for-google-cloud)
 - [Tweets](#tweets)
 ## Introduction
 - [golang.org](https://golang.org/)
@@ -44,15 +45,24 @@
 - [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 
-## Go Frameworks
+## Go Frameworks and libraries
 - [go-micro](https://github.com/asim/go-micro) Go Micro is a framework for distributed systems development
 - [dapr.io](https://dapr.io)
 - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/)
+- [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) Useful template functions for Go templates. The Go language comes with a built-in template language, but not very many template functions. Sprig is a library that provides more than 100 commonly used template functions.
 
 ## Go packages
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
+- [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) Generate a Go ORM tailored to your database schema.
+
+## Go Samples for Google Cloud
+- [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
+- [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
+- [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
 
 ## Tweets
+- [twitter.com/GolangRepos](https://twitter.com/GolangRepos)
+
 <details>
   <summary>Click to expand!</summary>
 

@@ -15,6 +15,7 @@
 - [python.plainenglish.io: 15 GitHub Repos That Every Developers Must Bookmark Right Now](https://python.plainenglish.io/15-github-repos-that-every-developers-must-bookmark-right-now-eee01db63977) Everything from Command Line (Linux), Python, Java, JavaScript, web development, and many more.
 - https://www.geeksforgeeks.org
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
+- [medium: 5 Programming Languages that will Die](https://medium.com/@lidiaaa08/5-programming-languages-that-will-die-1a4e40371a2e)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)

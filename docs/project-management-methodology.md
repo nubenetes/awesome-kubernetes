@@ -11,6 +11,7 @@
 	- [DevDriven.By](#devdrivenby)
 	- [Promotion Driven Development](#promotion-driven-development)
 - [Bunch of images](#bunch-of-images)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Project Management Methodology
@@ -51,6 +52,7 @@
 - [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [acumen.io: Can Kanban scale for teams of over 50 developers? When should you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)
+- [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -130,6 +132,13 @@
 	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 	</center> 
 
+## Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+
 ## Tweets
 <details>
   <summary>Click to expand!</summary>
@@ -144,6 +153,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enterprise SaaS MVP trap .. <a href="https://t.co/CNXkHzFOnn">pic.twitter.com/CNXkHzFOnn</a></p>&mdash; John Cutler (@johncutlefish) <a href="https://twitter.com/johncutlefish/status/1452048722917871620?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"> <a href="https://t.co/r5qyaOWFXP">pic.twitter.com/r5qyaOWFXP</a></p>&mdash; Pukar (@PukarDesign) <a href="https://twitter.com/PukarDesign/status/1452141978167267332?ref_src=twsrc%5Etfw">October 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La llamada transformación digital no solo se trata del cambio tecnológico sino principalmente del cambio de mentalidad de las personas para implementar nuevos estilos de gestión y liderazgo necesarios para gestionar en la era digital</p>&mdash; RICARDO SORRON (@RSorron) <a href="https://twitter.com/RSorron/status/1460971778533122050?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

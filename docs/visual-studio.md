@@ -54,6 +54,7 @@
 * [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
 * **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
 * [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
+* [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -126,6 +127,7 @@ A simple extension to make indentation more readable
 * [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)
 * [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon. 
 * [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
+* [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -219,18 +221,21 @@ A simple extension to make indentation more readable
 - [vscode.dev 🌟](https://vscode.dev/) 
 	- [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
 	- [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
+	- [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser/)
 
 ## Videos
 <details>
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/VqCgcpAypFQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/Ijz1mXQm7KU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/AYbgqmyg7dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fnPhJHN0jTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VqCgcpAypFQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ijz1mXQm7KU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AYbgqmyg7dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BO-nhyqpm7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PGsMy75ffPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7FltByLPnrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 
@@ -250,5 +255,7 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know that <a href="https://twitter.com/hashtag/vscode?src=hash&amp;ref_src=twsrc%5Etfw">#vscode</a> has so called zen mode, that makes editor fullscreen and removes all the menus, so cool! <a href="https://t.co/My5jelmLnU">pic.twitter.com/My5jelmLnU</a></p>&mdash; Jaka Hudoklin 🤖 5G: 100% (@offlinehacker) <a href="https://twitter.com/offlinehacker/status/1455903658151923717?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The brand new Visual Studio Code for the Web looks fantastic, and it&#39;s blazingly fast!<br><br>They say it is &quot;a zero-install experience running entirely in your browser.&quot; <br><br>Your local environment has its days counted.<a href="https://t.co/4XIKBANfxL">https://t.co/4XIKBANfxL</a> <a href="https://t.co/NElvgQq20F">pic.twitter.com/NElvgQq20F</a></p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1458920285164425224?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sometimes I do a bit of coding on my laptop where I don&#39;t have GitHub Copilot installed - and it becomes VERY clear how super productive that tool is making me.<br><br>Without comparison the best addition to VSCode I&#39;ve tried!</p>&mdash; Simon Høiberg (@SimonHoiberg) <a href="https://twitter.com/SimonHoiberg/status/1462031896477634567?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

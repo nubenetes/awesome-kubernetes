@@ -38,6 +38,7 @@
 * [paper.li: The redhat daily](https://paper.li/tag/redhat#/)
 * [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
 * [feedly.com](https://feedly.com)
+* [==nativecloud.dev== 🌟](https://nativecloud.dev)
 
 ## Stack Overflow Collectives
 - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives) Communities for your favorite technologies

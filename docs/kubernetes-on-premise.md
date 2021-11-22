@@ -114,6 +114,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [thenewstack.io: Cluster API Offers a Way to Manage Multiple Kubernetes Deployments](https://thenewstack.io/cluster-api-offers-a-way-to-manage-multiple-kubernetes-deployments/)
 - [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api/)
 - [cncf.io: Kubernetes Cluster API reaches production readiness with version 1.0](https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/)
+- [weaveworks/cluster-api-provider-existinginfra](https://github.com/weaveworks/cluster-api-provider-existinginfra) Manage existing infrastructure with Cluster API using this provider. A Cluster API v1alpha3 Infrastructure Provider for already-provisioned hosts running Linux. This controller is split out from and used by weaveworks/wksctl.
 
 ## Microk8s
 - [**Microk8s**](https://microk8s.io/)

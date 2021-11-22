@@ -70,13 +70,11 @@ This blog tries to share relevant information that helps spread the new technolo
   </details>
 
   <details>
-    <summary>Stats 5. Corruption. Click to expand!</summary>
+    <summary>Stats 5. Corruption, Favours, Influence Peddling, No Meritocracy. Click to expand!</summary>
 
   <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/v_zxzysqaKk" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TxODhn13IC8" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6NxZjjYA3zY" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yCylJtmWZkA" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lpz2twlK4JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/v_zxzysqaKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </center>
   </details>
 

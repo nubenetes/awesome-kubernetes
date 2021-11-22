@@ -269,6 +269,7 @@
 * [redhatdemocentral.gitlab.io](https://redhatdemocentral.gitlab.io)
 * [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo)
 * [youtube: CodeReady Containers - Easy OpenShift Container Platform 4.5 Installation](https://www.youtube.com/watch?v=CJMdSQVFVik)
+* [gitlab.com/redhatdemocentral: Healthcare](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc) Have you wondered what an edge medical diagnosis architecture might look like when you want to create a scaleable #opensource solutions? Here's a peak at the logical view, but you can explore all the diagrams. 
 
 ### Cloud Native Development Architectural Diagrams Demos
 * Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).

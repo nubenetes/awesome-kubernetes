@@ -360,6 +360,7 @@ done
 * [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 * Exception Tracking:
     * [sentry.io](https://sentry.io/)
+        * [blog.sentry.io: Development Environment Observability with Sentry](https://blog.sentry.io/2021/11/18/monitoring-our-local-development-environment-with-sentry)
     * APMs like Dynatrace, etc.
 * APM Tools:
     * [datadoghq.com](https://www.datadoghq.com/)
@@ -406,6 +407,7 @@ done
 * [dynatrace.com: Analyze all AWS data in minutes with Amazon CloudWatch Metric Streams available in Dynatrace](https://www.dynatrace.com/news/blog/amazon-cloudwatch-metric-streams-launch-partnership/)
 * [dynatrace.com: New Dynatrace Operator elevates cloud-native observability for Kubernetes](https://www.dynatrace.com/news/blog/new-dynatrace-operator-elevates-cloud-native-observability-for-kubernetes/)
 * [dynatrace.com: How to collect Prometheus metrics in Dynatrace](https://www.dynatrace.com/news/blog/how-to-collect-prometheus-metrics-in-dynatrace)
+* [dynatrace.com: Automatic connection of logs and traces accelerates AI-driven cloud analytics](https://www.dynatrace.com/news/blog/automatic-connection-of-logs-and-traces-accelerates-ai-driven-cloud-analytics/)
 
 ## Message Queue Monitoring
 

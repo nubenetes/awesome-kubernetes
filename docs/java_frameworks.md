@@ -29,6 +29,7 @@
 - [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
 - [Java Testing Frameworks](#java-testing-frameworks)
 - [Debugging Java Threads](#debugging-java-threads)
+- [Lombok](#lombok)
 - [Videos](#videos)
 - [Tweets](#tweets)
 ## Java
@@ -267,6 +268,10 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 
 ## Debugging Java Threads
 - [java-success.com: 5 Ways to debug thread-safety issues in Java](https://www.java-success.com/debugging-java-thread-safety-multi-threading-concurrency-issues/)
+
+## Lombok
+- https://projectlombok.org
+- [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/)
 
 ## Videos
 <details>

@@ -89,5 +89,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">8 Google extensions every developer must use<br><br>A thread 🧵🧵</p>&mdash; Meet Jain🦅 (@meetjain74) <a href="https://twitter.com/meetjain74/status/1434406944932982793?ref_src=twsrc%5Etfw">September 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡 Web Development tip<br><br>You can restart Chrome from the address bar by typing: chrome://restart <a href="https://t.co/0jbVoHwS1z">pic.twitter.com/0jbVoHwS1z</a></p>&mdash; Csaba Kissi ⚡ (@csaba_kissi) <a href="https://twitter.com/csaba_kissi/status/1457291401197199367?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Copy link to highlight is a new Chrome feature that allows you to create links to the exact part of a web page you want to share. <a href="https://t.co/IS0jijOjvP">https://t.co/IS0jijOjvP</a> <a href="https://t.co/L9q2abGQMd">pic.twitter.com/L9q2abGQMd</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1462147617199063043?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

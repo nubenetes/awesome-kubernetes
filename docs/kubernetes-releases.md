@@ -31,3 +31,4 @@
 * [kubernetes.io: Graceful Node Shutdown Goes Beta](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta/)
 * [kubernetes.io: Kubernetes Memory Manager moves to beta](https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta/)
 * [kubernetes.io: Dockershim removal is coming. Are you ready?](https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal) 
+* [medium: Kubernetes v1.22 ends Cloud Provider LoadBalancer lock-in](https://medium.com/thermokline/kubernetes-v1-22-ends-cloud-provider-loadbalancer-lock-in-80ed7907695e) Users of Cloud Provider provisioned Kubernetes have been locked into using the Cloud providers LoadBalancers for external access to their applications. This changed in v1.22, a new feature called LoadBalancer class allows 3rd party solutions to selected as an alternative to the default Cloud LoadBalancer.
