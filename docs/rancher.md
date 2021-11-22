@@ -6,7 +6,7 @@
     - [Rancher Networking and CNI Providers](#rancher-networking-and-cni-providers)
     - [Rancher 2 RKE](#rancher-2-rke)
 - [K3S](#k3s)
-    - [K3p](#k3p)
+    - [K3s Tools](#k3s-tools)
     - [K3S Use Cases](#k3s-use-cases)
     - [K3S in Public Clouds](#k3s-in-public-clouds)
     - [K3D](#k3d)
@@ -95,8 +95,9 @@
 * [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
 * [nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud](https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud/) Using Gardener Machine-Controller-Manager and Tailscale to extend a local Raspberry-Pi K3s cluster with cloud instances.
 
-### K3p
+### K3s Tools
 - [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments 
+* [alexellis/k3sup](https://github.com/alexellis/k3sup) bootstrap Kubernetes with k3s over SSH < 1 min 🚀. k3sup is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
 
 ### K3S Use Cases
 - [K3S Use Cases](https://www.youtube.com/watch?v=2LNxGVS81mE):

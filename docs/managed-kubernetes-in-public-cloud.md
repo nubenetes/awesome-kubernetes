@@ -128,6 +128,7 @@
 - [solo.io: Connect Your Services Seamlessly with Amazon EKS Anywhere and Istio](https://www.solo.io/blog/amazon-eks-anywhere-and-solo-istio/)
 - [anywhere.eks.amazonaws.com: Compare EKS Anywhere and EKS](https://anywhere.eks.amazonaws.com/docs/concepts/eksafeatures/)
 - [aws.amazon.com: Getting started with Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/introducing-general-availability-of-amazon-eks-anywhere/)
+- [gokulchandrapr.medium.com: Amazon EKS Anywhere & EKS Connector](https://gokulchandrapr.medium.com/amazon-eks-anywhere-eks-connector-600953aaa42d)
 
 ### EKS Distro (EKS-D)
 - [aws/eks-distro](https://github.com/aws/eks-distro) Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create reliable and secure Kubernetes clusters.

@@ -30,6 +30,7 @@
 * [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
 * [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
   * [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
+* [==cloud.google.com: Microservices architecture on Google Cloud==](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)
 
 ## Google Cloud
 - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)
