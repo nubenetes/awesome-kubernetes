@@ -319,6 +319,7 @@ location            = azurerm_resource_group.aks_rg.location
 resource_group_name = azurerm_resource_group.aks_rg.name
 address_space       = ["10.x.x.0/22"]
 }
+
 resource "azurerm_subnet" "internal" { # (2) 
 name                 = "internal"
 virtual_network_name = azurerm_virtual_network.example.name

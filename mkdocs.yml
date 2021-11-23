@@ -80,7 +80,6 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
-  - pymdownx.highlight
   - pymdownx.snippets
   - pymdownx.keys
   - abbr
