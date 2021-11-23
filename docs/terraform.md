@@ -316,23 +316,19 @@
 
 ==}
 
-
 ```terraform="01-main.tf"
-
 resource "azurerm_virtual_network" "example" { # (1) 
 name                = "${var.environment}-network"
 location            = azurerm_resource_group.aks_rg.location
 resource_group_name = azurerm_resource_group.aks_rg.name
 address_space       = ["10.x.x.0/22"]
 }
-
 resource "azurerm_subnet" "internal" { # (2) 
 name                 = "internal"
 virtual_network_name = azurerm_virtual_network.example.name
 resource_group_name  = azurerm_resource_group.aks_rg.name
 address_prefixes     = ["10.x.x.0/24"]
 }
-
 ```
 
 ```terraform="07-aks-cluster.tf"
@@ -341,9 +337,8 @@ load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
 service_cidr = "10.x.x.0/24"
 dns_service_ip = "10.x.x.10"
-docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse thisrange across different AKS clusters.  
+docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.  
 }
-
 ```
 
 1.  VNet
