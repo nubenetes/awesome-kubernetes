@@ -317,7 +317,8 @@
 ==}
 
 
-``` terraform="01-main.tf"
+```terraform="01-main.tf"
+
 resource "azurerm_virtual_network" "example" { # (1) 
 name                = "${var.environment}-network"
 location            = azurerm_resource_group.aks_rg.location
@@ -331,12 +332,10 @@ virtual_network_name = azurerm_virtual_network.example.name
 resource_group_name  = azurerm_resource_group.aks_rg.name
 address_prefixes     = ["10.x.x.0/24"]
 }
+
 ```
 
-1.  VNet
-2.  Subnet nodes (and pods with Azure CNI network plugin)
-
-``` terraform="07-aks-cluster.tf"
+```terraform="07-aks-cluster.tf"
 network_profile {  # (3)
 load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
@@ -345,7 +344,8 @@ dns_service_ip = "10.x.x.10"
 docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse thisrange across different AKS clusters.  
 }
 ```
-
+1.  VNet
+2.  Subnet nodes (and pods with Azure CNI network plugin)
 3.  Network Profile
 
 ### Terraform and Apache Kafka
