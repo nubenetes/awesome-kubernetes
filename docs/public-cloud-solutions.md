@@ -1,11 +1,16 @@
 # Public Cloud Solutions
 - [Public Cloud References](#public-cloud-references)
+- [Cloud Agnostic Design](#cloud-agnostic-design)
 - [Public Cloud Services Comparison](#public-cloud-services-comparison)
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
 ## Public Cloud References
 - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com/) A unique website gathering all catalogs
     - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)
+
+## Cloud Agnostic Design
+- [==medium: Cloud Agnostic Design== 🌟](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)
+
 ## Public Cloud Services Comparison
 * [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
 * [Dzone.com: GCP vs. AWS](https://dzone.com/articles/gcp-vs-aws-1) This article takes a look at the differences in using GCP vs. AWS in the contexts of agility, cost, deep tech services, tools, and market share.

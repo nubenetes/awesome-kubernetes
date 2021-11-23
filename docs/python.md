@@ -173,6 +173,7 @@
 - [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) Understand Python Inheritance using an intuitive example
 - [pythonsimplified.com: Understanding namespaces and scope in Python](https://pythonsimplified.com/understanding-namespaces-and-scope-in-python)
 - [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners)
+- [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf)
 - [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 
 
 ## PHP vs Python

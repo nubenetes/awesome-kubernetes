@@ -6,6 +6,7 @@
 - [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
 - [Kubernetes Network Policy](#kubernetes-network-policy)
     - [Cilium](#cilium)
+    - [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
 - [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
 - [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
 - [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
@@ -133,6 +134,9 @@
 <center>
 <script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
+
+### Kubernetes Network Policy Samples
+- [==ahmetb/kubernetes-network-policy-recipes== 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes) Example recipes for Kubernetes Network Policies that you can just copy paste. This repository contains various use cases of Kubernetes Network Policies and sample YAML files to leverage in your setup. If you ever wondered how to drop/restrict traffic to applications running on Kubernetes, this is for you
 
 ## Kubernetes Ingress Specification
 - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/)

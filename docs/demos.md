@@ -15,6 +15,7 @@
     - [Istio Service Mesh](#istio-service-mesh)
     - [Envoy Service Mesh](#envoy-service-mesh)
     - [Consul Service Mesh](#consul-service-mesh)
+    - [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
     - [Rancher](#rancher)
     - [GitOps Workflow with Flux](#gitops-workflow-with-flux)
     - [Amazon EKS. Deploy example microservices on EKS](#amazon-eks-deploy-example-microservices-on-eks)
@@ -222,6 +223,9 @@
 - [medium: Kittens-as-a-Service: Layer 7 Traffic Management & Security with Consul Connect](https://medium.com/hashicorp-engineering/kittens-as-a-service-layer-7-traffic-management-security-with-consul-connect-f5965fac5aa)
 - [learn.hashicorp.com: Consul Service Discovery and Mesh on Minikube 🌟](https://learn.hashicorp.com/tutorials/consul/kubernetes-minikube?in=consul/kubernetes)
 - [consul.io: Ingress Gateways on Kubernetes 🌟](https://www.consul.io/docs/k8s/connect/ingress-gateways)
+
+### Kubernetes Network Policy Samples
+- [==ahmetb/kubernetes-network-policy-recipes== 🌟](https://github.com/ahmetb/kubernetes-network-policy-recipes) Example recipes for Kubernetes Network Policies that you can just copy paste. This repository contains various use cases of Kubernetes Network Policies and sample YAML files to leverage in your setup. If you ever wondered how to drop/restrict traffic to applications running on Kubernetes, this is for you.
 
 ### Rancher
 - [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)

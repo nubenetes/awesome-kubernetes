@@ -421,3 +421,7 @@ Resolve your software incidents 10x faster
 </center>
 </details>
 
+---
+<center>
+[![automated_ansible](images/automated_ansible.jpg)](https://www.ansible.com/blog/migrating-the-runbook-a-journey-from-legacy-to-devops)
+</center>

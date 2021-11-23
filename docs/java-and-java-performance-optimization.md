@@ -31,6 +31,7 @@
 - [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
 - [developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟](https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far)
 - [OpenHFT/Java-Thread-Affinity](https://github.com/OpenHFT/Java-Thread-Affinity) Bind a java thread to a given core. A library that lets you pin the threads of your Java application to specific CPU cores. Looks like an interesting part of the performance engineering toolbox, e.g. helping to reduce the number of cache misses.
+- [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps) Learn how to use Java's Flight Recorder to profile Java and Kotlin apps and get a close look at JVM internals.
 
 ### Java on Kubernetes. Java Memory Arguments for Containers
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)

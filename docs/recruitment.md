@@ -8,6 +8,7 @@
 - [Writing a CV](#writing-a-cv)
 - [Tweets](#tweets)
 - [Tweets 2](#tweets-2)
+- [Tweets 3](#tweets-3)
 - [Images](#images)
 ## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
@@ -32,6 +33,7 @@
 - [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona/)
 - [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://www.entrepreneur.com/article/267642) Descubre si la gente que trabaja contigo te tiene confianza o si debes cambiar ciertas actitudes para obtener mejores resultados.
 - [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy)
+- [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
@@ -119,7 +121,17 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to get really good job offers on LinkedIn, I suggest the following neat little hack:<br><br>Add emojis to your name.<br><br>A recruiter who doesn&#39;t even take the time to write me personally does not deserve my attention at all. <a href="https://t.co/9DpltKSqul">pic.twitter.com/9DpltKSqul</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1459478049351782407?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
 
+## Tweets 3
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In cutthroat cultures, people kiss up and kick down. They protect themselves by currying favor with people in power and exploiting those without it.<br><br>In supportive cultures, people speak up and support down. They protect people without power by raising problems to those with it.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1460680644200124419?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Politeness is not the same as kindness.<br><br>Being polite is saying what makes people feel good today. Being kind is doing what helps people get better tomorrow.<br><br>In polite cultures, people withhold disagreement and criticism. In kind cultures, people speak their minds respectfully.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1459535163273138176?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

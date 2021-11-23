@@ -310,6 +310,37 @@
 - [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
 - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
 	- [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
+
+		``` terraform="01-main.tf"
+		resource "azurerm_virtual_network" "example" { # (1) 
+		name                = "${var.environment}-network"
+		location            = azurerm_resource_group.aks_rg.location
+		resource_group_name = azurerm_resource_group.aks_rg.name
+		address_space       = ["10.x.x.0/22"]
+		}
+
+		resource "azurerm_subnet" "internal" { # (2) 
+		name                 = "internal"
+		virtual_network_name = azurerm_virtual_network.example.name
+		resource_group_name  = azurerm_resource_group.aks_rg.name
+		address_prefixes     = ["10.x.x.0/24"]
+		}
+		```
+
+		``` terraform="07-aks-cluster.tf"
+		network_profile {  # (3)
+		load_balancer_sku = "Standard"
+		network_plugin = "azure"  # Azure CNI because windows node pools are not supported by kubenet (unfortunately)
+		service_cidr = "10.x.x.0/24"
+		dns_service_ip = "10.x.x.10"
+		docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.  
+		}
+		```
+
+		1. VNet
+		2. Subnet nodes (and pods with Azure CNI network plugin)
+		3. Network Profile
+
 	- [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)

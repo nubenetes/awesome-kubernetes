@@ -106,7 +106,7 @@
     * The Docker ecosystem is filled with leaky abstractions. The utopian vision of Docker containers is a world where a developer can grab a base container for a language, copy in their code with a minimal Dockerfile, and be ready to develop and deploy instantly.
     * Unfortunately, this landscape is filled with per-language gotchas that make this world a far cry from reality. Here are some of the wonky things I've run into when working with containers.
 * [cloudsavvyit.com: How To Clean Up and Delete Docker Images](https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images/)
-* [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
+* [==itnext.io: Software development in containers — a cookbook== 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
 * [dev.to: How to create a production Docker image](https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe)
 * [dev.to: How to run docker on Windows without Docker Desktop](https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik)
 * [dev.to: Beginner's guide to Docker and Docker CLI commands](https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75)
@@ -116,6 +116,7 @@
 * [cloudsavvyit.com: How to Inspect a Docker Image’s Content Without Starting a Container](https://www.cloudsavvyit.com/14663/how-to-inspect-a-docker-images-content-without-starting-a-container/)
 * [freecodecamp.org: Why You Should Start Using Docker Right Now](https://www.freecodecamp.org/news/why-you-should-start-using-docker-now/)
 * [infoworld.com: Docker really did change the world](https://www.infoworld.com/article/3639596/docker-really-did-change-the-world.html) Developers quickly understood the value of containers for building cloud-native applications, and that the Docker command-line tool was better than all of the bells and whistles they got with PaaS.
+* [==dev.to: Top 8 Docker Best Practices for using Docker in Production== 🌟](https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)

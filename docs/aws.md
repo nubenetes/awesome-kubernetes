@@ -56,6 +56,7 @@
 	- [AWS Client VPN](#aws-client-vpn)
 	- [Tailscale](#tailscale)
 - [AWS SQS. Amazon Simple Queue Service](#aws-sqs-amazon-simple-queue-service)
+	- [SNS vs SQS](#sns-vs-sqs)
 - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
 - [AWS Developer Blog](#aws-developer-blog)
@@ -178,6 +179,7 @@
 - [workshops.aws: AWS Workshops](https://workshops.aws/) This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
 You can filter by topic using the toolbar above.
 - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
+- [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
 
 ## Introduction
 - [dzone: AWS Basics](https://dzone.com/articles/aws-basics)
@@ -549,6 +551,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
 - [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs/)
 
+### SNS vs SQS
+- [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)
+
 ## AWS Application Discovery Service Update. Agentless Discovery for VMware 
 - [AWS Application Discovery Service Update – Agentless Discovery for VMware](https://aws.amazon.com/es/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware/)
 
@@ -593,6 +598,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)
 - [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)
 - [Achieve up to 34% better price/performance with AWS Lambda Functions powered by AWS Graviton2 processor](https://aws.amazon.com/about-aws/whats-new/2021/09/better-price-performance-aws-lambda-functions-aws-graviton2-processor/)
+- [==Deploying AWS Lambda layers automatically across multiple Regions==](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-layers-automatically-across-multiple-regions/) Many developers import libraries and dependencies into their AWS Lambda functions. These dependencies can be zipped and uploaded as part of the build and deployment process but it’s often easier to use Lambda layers instead.
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -774,6 +780,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [github: Steps I used to install Nagios in the cloud](https://github.com/andrewpuch/nagios_setup)
 - [github: ElectricEye](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
 - [medium: AWS Account Security Monitoring](https://medium.com/swlh/aws-account-security-monitoring-d7ca129d52ac)
+- [==elastic.co: Elastic and AWS: Accelerating the cloud migration journey==](https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey)
 
 ## Amazon Alexa. Voice User Interface
 - [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour)
