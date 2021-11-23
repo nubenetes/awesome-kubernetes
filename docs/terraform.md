@@ -311,7 +311,8 @@
 - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
 	- [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
 	- [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
-{
+
+<!--
 	```terraform="01-main.tf"
 resource "azurerm_virtual_network" "example" { # (1) 
 name                = "${var.environment}-network"
@@ -340,7 +341,8 @@ docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across 
 1.  VNet
 2.  Subnet nodes (and pods with Azure CNI network plugin)
 3.  Network Profile
-}
+-->
+
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
 
