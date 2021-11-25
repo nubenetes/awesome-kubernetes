@@ -13,6 +13,7 @@
 	- [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
 - [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
 - [Kubernetes and Kubectl Cheat Sheets](#kubernetes-and-kubectl-cheat-sheets)
+- [Kubernetes Kustomize Cheat Sheet](#kubernetes-kustomize-cheat-sheet)
 - [Docker Cheat Sheets](#docker-cheat-sheets)
 	- [Docker Swarm Cheat Sheets](#docker-swarm-cheat-sheets)
 - [Security Cheat Sheets](#security-cheat-sheets)
@@ -150,6 +151,9 @@
 	* `kubectl logs -l app=my.app --tail=-1` 
 * [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
 * [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
+
+## Kubernetes Kustomize Cheat Sheet
+- [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)
 
 ## Docker Cheat Sheets
 - [docker.com: Docker Cheat Sheet 🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)

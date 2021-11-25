@@ -10,9 +10,11 @@
 - [Other Development Methodologies. Worst practices in Project Management](#other-development-methodologies-worst-practices-in-project-management)
 	- [DevDriven.By](#devdrivenby)
 	- [Promotion Driven Development](#promotion-driven-development)
+- [Culture and Leadership](#culture-and-leadership)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
+- [Tweets 2. Cultures](#tweets-2-cultures)
 
 ## Project Management Methodology
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
@@ -52,7 +54,6 @@
 - [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 - [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [acumen.io: Can Kanban scale for teams of over 50 developers? When should you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)
-- [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -110,6 +111,10 @@
 - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
+## Culture and Leadership
+- [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)
+- [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
+
 ## Bunch of images
 ??? note "Click to expand!"
 
@@ -158,4 +163,16 @@
 </center>
 </details>
 
+## Tweets 2. Cultures
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Irish and German people offering things <a href="https://t.co/AoPgWJpK6L">pic.twitter.com/AoPgWJpK6L</a></p>&mdash; Killian Sundermann (@killersundymann) <a href="https://twitter.com/killersundymann/status/1446131283969589250?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In cutthroat cultures, people kiss up and kick down. They protect themselves by currying favor with people in power and exploiting those without it.<br><br>In supportive cultures, people speak up and support down. They protect people without power by raising problems to those with it.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1460680644200124419?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Politeness is not the same as kindness.<br><br>Being polite is saying what makes people feel good today. Being kind is doing what helps people get better tomorrow.<br><br>In polite cultures, people withhold disagreement and criticism. In kind cultures, people speak their minds respectfully.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1459535163273138176?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
 

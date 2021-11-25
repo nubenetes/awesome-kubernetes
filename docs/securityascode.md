@@ -101,6 +101,8 @@
 - [dev.to: Default Kyverno Policies for OpenEBS](https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf)
 - [cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟](https://cloud.redhat.com/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno)
 - [A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742](https://github.com/kubernetes/ingress-nginx/issues/7837)
+- [==kyverno.io: Restrict Image Registries==](https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/) kyverno
+ has a solid set of kubernetes policies and excellent documentation out of the box!
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

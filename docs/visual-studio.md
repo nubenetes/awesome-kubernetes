@@ -128,11 +128,14 @@ A simple extension to make indentation more readable
 * [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon. 
 * [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
 * [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+* [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
 * [blog.logrocket.com: Top 10 VS Code extensions for 2021](https://blog.logrocket.com/top-10-vs-code-extensions-2021/)
 * [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://www.thunderclient.io) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative) - [youtube: I Don't Need Postman Anymore!! I Use VS Code Instead...](https://www.youtube.com/watch?v=AbCTlemwZ1k&ab_channel=JamesQQuick)
+* [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/)
+* [dev.to: VS Code extensions to increase your Productivity](https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb)
 
 #### Themes
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code

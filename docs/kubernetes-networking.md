@@ -4,6 +4,7 @@
 - [Gateway API](#gateway-api)
 - [Kube-proxy](#kube-proxy)
 - [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
+- [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
 - [Kubernetes Network Policy](#kubernetes-network-policy)
     - [Cilium](#cilium)
     - [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
@@ -108,6 +109,10 @@
 
 ## Multicloud communication for Kubernetes
 * [developers.redhat.com: Use Skupper to connect multiple Kubernetes clusters 🌟](https://developers.redhat.com/blog/2021/04/20/use-skupper-to-connect-multiple-kubernetes-clusters/) - [skupper.io](https://skupper.io/) Multicloud communication for Kubernetes. Skupper is a layer 7 service interconnect. It enables secure communication across Kubernetes clusters with no VPNs or special firewall rules. With Skupper, your application can span multiple cloud providers, data centers, and regions.
+
+## Multi-Cluster Kubernetes Networking
+* [itnext.io: Multi-Cluster Kubernetes Networking with Netmaker](https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb)
+    * [NetMaker](https://github.com/gravitl/netmaker) Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
 
 ## Kubernetes Network Policy
 * [howtoforge.com: Network Policy in Kubernetes 🌟](https://www.howtoforge.com/kubernetes_network_policy/) By default, pods accept traffic from any source. A network policy helps to specify how a group of pods can communicate with each other and other network endpoints.

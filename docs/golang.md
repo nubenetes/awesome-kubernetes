@@ -6,6 +6,7 @@
 - [Go cheatsheets](#go-cheatsheets)
 - [Go Frameworks and libraries](#go-frameworks-and-libraries)
 - [Go packages](#go-packages)
+- [Goo Tools](#goo-tools)
 - [Go Samples for Google Cloud](#go-samples-for-google-cloud)
 - [Tweets](#tweets)
 ## Introduction
@@ -32,6 +33,7 @@
 - [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/)
 - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign)
 - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
+- [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#?
 
 ## Tutorials
 - [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2)
@@ -59,6 +61,9 @@
 ## Go packages
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
 - [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) Generate a Go ORM tailored to your database schema.
+
+## Goo Tools
+- [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go/) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
 
 ## Go Samples for Google Cloud
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)

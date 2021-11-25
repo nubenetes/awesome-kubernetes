@@ -189,6 +189,7 @@ nav:
     - Oracle Cloud: oraclecloud.md
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
+    - Scaleway: scaleway.md
   - APIs:
     - APIs with SOAP, REST and gRPC: api.md
     - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md

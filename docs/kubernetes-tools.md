@@ -21,6 +21,7 @@
 - [Kustomizer](#kustomizer)
 - [MetalLB](#metallb)
 - [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
+    - [Kubermatic Kubeone](#kubermatic-kubeone)
 - [Usernetes](#usernetes)
 - [k8syaml.com](#k8syamlcom)
 - [Komodor Workflows](#komodor-workflows)
@@ -36,6 +37,7 @@
 - [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
 - [Shipwright framework](#shipwright-framework)
 - [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
+- [NetMaker](#netmaker)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -410,6 +412,7 @@
 * [vbouchaud/k8s-ldap-auth](https://github.com/vbouchaud/k8s-ldap-auth) Kubernetes webhook token authentication plugin implementation using ldap.
 * [wangjia184/pod-inspector](https://github.com/wangjia184/pod-inspector) A tool to inspect pods in kubernetes. Unlike other dashboardes for Kubernetes(Lens / Rancher / etc), ==Kubernetes Pod Inspector allows to check the file system and processes within running Linux pods without using kubectl. This is useful when we want to check the files within volumes mounted by pods==
 * [witchery-project/witchery](https://github.com/witchery-project/witchery) build distroless images with alpine tools
+* [==knight42/kubectl-blame: kubectl-blame: git-like blame for kubectl==](https://github.com/knight42/kubectl-blame) Show who edited resource fields. A useful opensource tool that comes as a plugin to show who modified attributes in kubernetes resource fields.
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -492,6 +495,10 @@
 - [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
 - [thenewstack.io: Kubermatic Kubernetes Platform Beats Complexity Through Automation](https://thenewstack.io/kubermatic-kubernetes-platform-beats-complexity-through-automation/)
 
+### Kubermatic Kubeone
+- [==kubermatic/kubeone== 🌟](https://github.com/kubermatic/kubeone) Kubermatic KubeOne automate cluster operations on all your cloud, on-prem, edge, and IoT environments.
+- [youtube.com: How to Write Software That Sets Up Kubernetes Anywhere with Kubermatic Kubeone](https://www.youtube.com/watch?v=BJufhuPK2DY&t=250s&ab_channel=Kubermatic) Kubernetes is a complex system. But installing Kubernetes doesn’t need to be hard. In this short clip, our Software Engineer Marko Mudrinić explains how to use existing tools to make tasks easier for you. He provides you with some insights on the learnings we made while creating KubeOne, an open source and infrastructure-agnostic cluster lifecycle management tool for single and HA Kubernetes clusters.
+
 ## Usernetes
 - [rootless-containers/usernetes](https://github.com/rootless-containers/usernetes) Kubernetes installable under $HOME, without the root privileges
 
@@ -549,6 +556,9 @@
 
 ## Schiff (Deutsche Telekom)
 - [telekom/das-schiff](https://github.com/telekom/das-schiff) This is home of Das Schiff - Deutsche Telekom Technik's engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs.
+
+## NetMaker 
+- [NetMaker](https://github.com/gravitl/netmaker) Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
 
 ## Tweets
 <details>

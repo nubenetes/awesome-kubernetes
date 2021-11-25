@@ -10,6 +10,7 @@
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
 - [Introduction](#introduction)
+	- [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
 - [AWS Toolkits](#aws-toolkits)
 - [AWS Tools](#aws-tools)
 - [eBooks](#ebooks)
@@ -119,6 +120,7 @@
 - [Third Party Tools](#third-party-tools)
 - [AWS Amplify](#aws-amplify)
 - [AWS Control Tower](#aws-control-tower)
+- [AWS App Runner](#aws-app-runner)
 - [Spain](#spain)
 - [Scripts](#scripts)
 - [Development](#development)
@@ -203,6 +205,10 @@ You can filter by topic using the toolbar above.
 - [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
 - [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
+
+### AWS Cloud Adoption Framework (AWS CAF)
+- [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/professional-services/CAF/) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
+- [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available/)
   
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
@@ -227,6 +233,7 @@ You can filter by topic using the toolbar above.
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
+- [dev.to: How to become a Certified AWS Solution Architect in 2022](https://dev.to/javinpaul/how-to-become-a-certified-aws-solution-architect-in-2022-35ad)
 
 ## AWS Pricing
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
@@ -901,6 +908,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 ## AWS Control Tower
 - [AWS Control Tower](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
 
+## AWS App Runner
+- https://aws.amazon.com/apprunner/
+- [dev.to: AWS App Runner : How to deploy containerized applications using App Runner](https://dev.to/aws-builders/aws-app-runner-how-to-deploy-containerized-applications-using-app-runner-1f7c) AWS App Runner is an AWS service that provides a fast, simple and cost-effective way to deploy from source code or a container image directly to a scalable and secure web application in the AWS Cloud. You don’t need to learn new technologies, decide which compute service to use, or know how to provision and configure AWS resources.
+
 ## Spain
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
@@ -979,5 +990,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yes, creating your first AWS account with your own credit card feels scary<br><br>• those are your first steps 🚶<br>• you haven&#39;t got much or any hands-on yet 🏗<br>• you&#39;ve read about those expenses horror stories 💥<br><br>but there are a lot of easy ways to get 𝗳𝗿𝗲𝗲 𝗰𝗿𝗲𝗱𝗶𝘁𝘀 ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1443606717200314370?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">☁️ Knowledge - Virtual Private Cloud (VPC)<a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> VPCs are region-scoped. If you want to route traffic between regional resources, you need to set up VPC peering, for example. ✅<a href="https://twitter.com/hashtag/GCP?src=hash&amp;ref_src=twsrc%5Etfw">#GCP</a> VPCs are global-scoped. Traffic between resources is automatically routed across regions. ☑️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1443855193813233664?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A new checkbox appears in the create subnet dialog of the Amazon VPC console... <a href="https://t.co/RroXl07Fe0">pic.twitter.com/RroXl07Fe0</a></p>&mdash; Matthew S. Wilson (msw) (@_msw_) <a href="https://twitter.com/_msw_/status/1463215340536614912?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

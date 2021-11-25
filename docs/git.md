@@ -26,6 +26,7 @@
         - [GitHub Actions Marketplace](#github-actions-marketplace)
     - [GitHub Actions and OpenShift](#github-actions-and-openshift)
     - [GitHub Copilot](#github-copilot)
+        - [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
 - [Gitea](#gitea)
 - [Git Tools](#git-tools)
     - [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
@@ -149,6 +150,7 @@
 * [cloudsavvyit.com: How to Move Changes to Another Branch in Git](https://www.cloudsavvyit.com/14710/how-to-move-changes-to-another-branch-in-git/)
 * [dzone.com: Git Clone Command vs. GitHub Backup - Best Practices](https://dzone.com/articles/git-clone-command-vs-github-backup-best-practices) Git clone command vs. GitHub backup - what you should know to keep your git repositories and metadata safe and sound. Check in-depth analysis.
 * [==marklodato.github.io: A Visual Git Reference== 🌟](https://marklodato.github.io/visual-git-guide/index-en.html)
+* [dev.to: Get lazy with lazygit](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37)
 
 ## Cherry-picking
 * [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) Cherry-picking solves a lot of problems in Git repositories. Here are three ways to fix your mistakes with git cherry-pick.
@@ -378,6 +380,8 @@ git push origin -f
 * [github/hub 🌟](https://github.com/github/hub) A command-line tool that makes git easier to use with GitHub.
 * [cloudsavvyit.com: How To Properly Fork a Github Repository](https://www.cloudsavvyit.com/14640/how-to-properly-fork-a-github-repository)
 * [==dev.to: New GitHub Rules Guide [git push -u origin main]==](https://dev.to/bekbrace/new-rules-in-github-git-push-u-origin-main-2k82) This post explains very quickly how to push your code to your GitHub repository following the new rules imposed by GitHub.
+* [==dev.to: Learn how to use Git and GitHub in a team like a pro==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7)
+    * [==dev.to: Learn how to use Git and GitHub in a team like a pro (part 2)==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-part-2-11j)
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)
@@ -401,6 +405,7 @@ git push origin -f
 - [github.blog: Showing code scanning alerts on pull requests](https://github.blog/changelog/2021-09-27-showing-code-scanning-alerts-on-pull-requests/)
 - [blog.thundra.io: Top 10 GitHub Actions You Should Use to set up your CI/CD Pipeline](https://blog.thundra.io/top-10-github-actions-you-should-use-to-set-up-your-ci/cd-pipeline)
 - [github.blog: 10 GitHub Actions resources to bookmark from the basics to CI/CD](https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/)
+- [==resources.github.com: What is GitHub Actions? How automation & CI/CD work on GitHub (whitepaper/pdf)==](https://resources.github.com/devops/tools/automation/actions)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 
@@ -422,6 +427,9 @@ git push origin -f
 - [towardsdatascience.com: Can Github Copilot Replace Developers?](https://towardsdatascience.com/can-githubs-copilot-replace-developers-b89f28007c05) Since its release, copilot has become the talk of the town among developers. There are many pros and cons to using it.
 - [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989) Using AI to generate Python scripts for simple neural networks, data visualization and more
 - [dev.to: GitHub Copilot blew my mind on a code-along exercise](https://dev.to/colocodes/github-copilot-blew-my-mind-on-a-code-along-exercise-186n)
+
+#### GitHub CoPilot VS GPT-3
+- [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b)
 
 ## Gitea
 - [Gitea](https://gitea.com/)

@@ -15,6 +15,7 @@
 - [Prometheus and Grafana Interactive Learning](#prometheus-and-grafana-interactive-learning)
 - [Logging & Centralized Log Management](#logging--centralized-log-management)
     - [ElasticSearch](#elasticsearch)
+        - [Elastic Cloud on Kubernetes (ECK)](#elastic-cloud-on-kubernetes-eck)
     - [OpenSearch](#opensearch)
     - [EFK](#efk)
 - [Performance](#performance)
@@ -204,6 +205,9 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 - [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
 - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
+
+#### Elastic Cloud on Kubernetes (ECK)
+- [medium: A detailed guide to deploying Elasticsearch on Elastic Cloud on Kubernetes (ECK)](https://medium.com/99dotco/a-detail-guide-to-deploying-elasticsearch-on-elastic-cloud-on-kubernetes-eck-31808ac60466) Running Elasticsearch on Kubernetes allows developers/admins to utilize container orchestration by Kubernetes and apply best practices on managing Elasticsearch clusters by the Elastic Operator
 
 ### OpenSearch
 - [opensearch.org 🌟](https://opensearch.org/)

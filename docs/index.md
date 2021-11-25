@@ -44,6 +44,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes/)
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
+- [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
@@ -156,6 +157,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
+- [Scaleway](scaleway.md)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
