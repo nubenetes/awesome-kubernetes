@@ -825,6 +825,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## AWS Fargate
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
+- [deloitte.com: Fargate con EKS](https://www2.deloitte.com/es/es/blog/todo-tecnologia/2021/fargate-con-eks.html) ¿Es Fargate la solución de AWS con la que siempre soñamos para evitar manejar infraestructura con Kubernetes? Sí, pero…
 
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
