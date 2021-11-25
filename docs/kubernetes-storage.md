@@ -53,7 +53,7 @@
 - [medium: Provisioning storage in Kubernetes](https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d)
 - [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes/) In this post I’ll briefly explain how persistent storage works in Kubernetes.
 - [blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined Storage - Which One to Choose?](https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose)
-- [kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
+- [==kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes==](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
 - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
 - [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage/)
 - [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction)

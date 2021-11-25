@@ -428,3 +428,4 @@
 - [tryhackme.com: Metasploit: Introduction](https://tryhackme.com/room/metasploitintro) An introduction to the main components of the Metasploit Framework. Metasploit is a powerful tool that can support all phases of a penetration testing engagement
 - [bridgecrew](https://bridgecrew.io) The codified cloud security platform for developers. Complete security and compliance visibility streamlined into developer-friendly workflows.
 	- [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)
+- [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more

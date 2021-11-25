@@ -413,6 +413,7 @@
 * [wangjia184/pod-inspector](https://github.com/wangjia184/pod-inspector) A tool to inspect pods in kubernetes. Unlike other dashboardes for Kubernetes(Lens / Rancher / etc), ==Kubernetes Pod Inspector allows to check the file system and processes within running Linux pods without using kubectl. This is useful when we want to check the files within volumes mounted by pods==
 * [witchery-project/witchery](https://github.com/witchery-project/witchery) build distroless images with alpine tools
 * [==knight42/kubectl-blame: kubectl-blame: git-like blame for kubectl==](https://github.com/knight42/kubectl-blame) Show who edited resource fields. A useful opensource tool that comes as a plugin to show who modified attributes in kubernetes resource fields.
+* [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.

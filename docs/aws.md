@@ -270,6 +270,7 @@ You can filter by topic using the toolbar above.
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)
 - [==AWS App2Container: Migrate your Applications to Containers at Scale==](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale/)
+- [dev.to: How Well-Architected Enables Junior Engineers](https://dev.to/aws-builders/how-well-architected-enables-junior-engineers-24j)
 
 ## AWS Youtube channel and Podcasts
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
