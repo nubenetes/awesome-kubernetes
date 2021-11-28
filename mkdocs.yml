@@ -1,11 +1,11 @@
 site_name: Nubenetes
-site_url: https://redhatspain.com
+site_url: https://nubenetes.com
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
-site_author: info@redhatspain.com
+site_author: nubenetes@gmail.com
 docs_dir: docs/
 #repo_name: 'GitHub'
 repo_name: nubenetes/awesome-kubernetes
-repo_url: https://github.com/redhatspain/awesome-kubernetes
+repo_url: https://github.com/nubenetes/awesome-kubernetes
 edit_uri: ""
 theme: 
   name: material 
