@@ -158,8 +158,6 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enterprise SaaS MVP trap .. <a href="https://t.co/CNXkHzFOnn">pic.twitter.com/CNXkHzFOnn</a></p>&mdash; John Cutler (@johncutlefish) <a href="https://twitter.com/johncutlefish/status/1452048722917871620?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"> <a href="https://t.co/r5qyaOWFXP">pic.twitter.com/r5qyaOWFXP</a></p>&mdash; Pukar (@PukarDesign) <a href="https://twitter.com/PukarDesign/status/1452141978167267332?ref_src=twsrc%5Etfw">October 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La llamada transformación digital no solo se trata del cambio tecnológico sino principalmente del cambio de mentalidad de las personas para implementar nuevos estilos de gestión y liderazgo necesarios para gestionar en la era digital</p>&mdash; RICARDO SORRON (@RSorron) <a href="https://twitter.com/RSorron/status/1460971778533122050?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -173,6 +171,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In cutthroat cultures, people kiss up and kick down. They protect themselves by currying favor with people in power and exploiting those without it.<br><br>In supportive cultures, people speak up and support down. They protect people without power by raising problems to those with it.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1460680644200124419?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Politeness is not the same as kindness.<br><br>Being polite is saying what makes people feel good today. Being kind is doing what helps people get better tomorrow.<br><br>In polite cultures, people withhold disagreement and criticism. In kind cultures, people speak their minds respectfully.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1459535163273138176?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La llamada transformación digital no solo se trata del cambio tecnológico sino principalmente del cambio de mentalidad de las personas para implementar nuevos estilos de gestión y liderazgo necesarios para gestionar en la era digital</p>&mdash; RICARDO SORRON (@RSorron) <a href="https://twitter.com/RSorron/status/1460971778533122050?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

@@ -1,4 +1,4 @@
-# Nubenetes: Awesome Kubernetes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
 
 [Awesome Kubernetes](https://awesome-kubernetes.readthedocs.io/) is also available at [redhatspain.com](https://redhatspain.com) and [nubenetes.com](https://nubenetes.com)
