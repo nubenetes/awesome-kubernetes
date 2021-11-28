@@ -5,4 +5,5 @@ Readable content can be reached at:
 - [awesome-kubernetes.readthedocs.io](https://awesome-kubernetes.readthedocs.io) 
 
 A **new github pages site** with "MKDocs Material" theme and with the same content is available at:
-- [redhatspain.com 🌟](https://redhatspain.com)
+- [redhatspain.com](https://redhatspain.com)
+- [nubenetes.com 🌟](https://nubenetes.com)
