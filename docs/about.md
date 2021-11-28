@@ -5,7 +5,7 @@ Since then I tried to apply in my country what I learnt from the germans and oth
 
 This blog tries to share relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation. Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!.
 
-<info@redhatspain.com>
+<nubenetes@gmail.com>
 
 ----
 
