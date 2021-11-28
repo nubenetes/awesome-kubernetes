@@ -264,15 +264,19 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/redhatspain
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nubenetes
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/groups/1937212/
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/redhatspain
+      link: https://github.com/nubenetes
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars
+    - icon: fontawesome/brands/speaker-deck
+      link: https://speakerdeck.com/nubenetes/stars
     - icon: fontawesome/brands/slideshare
       link: https://es.slideshare.net/RedHatSpain/favorites
     - icon: fontawesome/brands/slack
-      link: https://redhatspain.slack.com/
+      link: https://nubenetes.slack.com/
