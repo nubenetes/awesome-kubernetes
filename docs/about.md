@@ -69,7 +69,7 @@ This blog tries to share relevant information that helps spread the new technolo
   </details>
 
   <details>
-    <summary>Stats 5. Corruption, Favours, Influence Peddling, No Meritocracy. Click to expand!</summary>
+    <summary>Stats 5. Corruption, Favours, Influence Peddling, Unfair Competition, No Meritocracy. Click to expand!</summary>
 
   <center>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/lpz2twlK4JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

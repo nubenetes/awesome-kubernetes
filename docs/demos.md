@@ -38,7 +38,7 @@
     - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
     - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
     - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
-    - [Red Hat Advanced Cluster Management RHACM](#red-hat-advanced-cluster-management-rhacm)
+    - [Red Hat Advanced Cluster Management RHACM. Red Hat’s Hybrid And Multi-Cloud Platform](#red-hat-advanced-cluster-management-rhacm-red-hats-hybrid-and-multi-cloud-platform)
     - [OKD](#okd)
     - [Helm demos](#helm-demos)
     - [Writing Kubernetes Operators](#writing-kubernetes-operators)
@@ -392,7 +392,7 @@
 - [Migration Toolkit for Applications Demo - June 2020](https://youtu.be/mRCz6Jl0Ds8) Migraiton Toolkit from Applications by Red Hat can help you migrate and/or modernize your applications by analyzing them and finding isses such as use of proprietary classes or behaviousr that are not conformant with 12factor app, in order to help you modernize your app portfolio and make it more cloud & container friendly.
 - [dzone: Red Hat’s Migration Toolkit for Applications](https://dzone.com/articles/analyze-monolithic-java-applications-in-multiple-w) This article explains how to analyze monolithic Java applications in multiple workspaces with Red Hat’s migration toolkit for applications.
 
-### Red Hat Advanced Cluster Management RHACM 
+### Red Hat Advanced Cluster Management RHACM. Red Hat’s Hybrid And Multi-Cloud Platform
 - [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.openshift.com/blog/applications-here-applications-there-part-3-application-migration)
 - [Advanced Cluster Management Demos](https://www.youtube.com/playlist?list=PLbMP1JcGBmSFA56rykbH2fg1F9Tozk4of) Want to manage Kubernetes clusters at scale? Struggle with Application Lifecycle? Need to ensure Security and Compliance policies across clusters? Check out these demos of Red Hat Advanced Cluster Manager (RHACM).
 - [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/about/videos/acm-ansible-integration-overview)

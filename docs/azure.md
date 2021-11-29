@@ -4,7 +4,7 @@
 - [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
 - [ARM Templates](#arm-templates)
 - [Azure DevOps](#azure-devops)
-- [GitOps with Azure Arc](#gitops-with-azure-arc)
+- [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
 - [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
 - [Mobile Apps](#mobile-apps)
 - [Powershell](#powershell)
@@ -87,7 +87,7 @@
 - [dotnetcurry.com: Customization of Work Items in Azure DevOps and Azure DevOps Server 2020](https://www.dotnetcurry.com/devops/workitem-customize-azure-devops-server-2020)
 - [thomast1906/DevOps-The-Hard-Way-Azure 🌟](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in Azure
 
-## GitOps with Azure Arc 
+## Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc 
 - [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
 - [azurearcjumpstart.io](https://azurearcjumpstart.io/) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
     - [architecture diagrams and slides](https://github.com/microsoft/azure_arc/tree/main/docs/ppt)
