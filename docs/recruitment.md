@@ -137,6 +137,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Politeness is not the same as kindness.<br><br>Being polite is saying what makes people feel good today. Being kind is doing what helps people get better tomorrow.<br><br>In polite cultures, people withhold disagreement and criticism. In kind cultures, people speak their minds respectfully.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1459535163273138176?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Esta infografía que publicaba <a href="https://twitter.com/AurelioMedel?ref_src=twsrc%5Etfw">@AurelioMedel</a> en <a href="https://twitter.com/CincoDiascom?ref_src=twsrc%5Etfw">@CincoDiascom</a> es para reflexionar<br>-16 millones de nóminas en sector público<br>-16,5 millones de nóminas en sector privado<br>Este es nuestro retrato laboral en España👇 <a href="https://t.co/0jfPiC8Y8W">pic.twitter.com/0jfPiC8Y8W</a></p>&mdash; Lorenzo Amor (@lorenzoamor_ata) <a href="https://twitter.com/lorenzoamor_ata/status/1457107168356864009?ref_src=twsrc%5Etfw">November 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

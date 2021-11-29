@@ -136,6 +136,7 @@ A simple extension to make indentation more readable
 * [dev.to: Thunder Client - Http Client Extension for VS Code](https://dev.to/ranga_vadhineni/thunder-client-http-client-extension-for-vs-code-30i9) - [thunderclient.io 🌟](https://www.thunderclient.io) Hand-crafted lightweight Rest Client for Testing APIs (postman alternative) - [youtube: I Don't Need Postman Anymore!! I Use VS Code Instead...](https://www.youtube.com/watch?v=AbCTlemwZ1k&ab_channel=JamesQQuick)
 * [c-sharpcorner.com: The Best VS Code Extensions To Supercharge Git](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/)
 * [dev.to: VS Code extensions to increase your Productivity](https://dev.to/harishash/vs-code-extensions-to-increase-your-productivity-eeb)
+* [dev.to: Top 5 Best Git Extensions For VS Code (You must have)](https://dev.to/thenomadevel/top-5-best-git-extensions-for-vs-code-you-must-have-40b6)
 
 #### Themes
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design Icons for Visual Studio Code
