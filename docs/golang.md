@@ -33,10 +33,11 @@
 - [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb/)
 - [go.dev: A new search experience on pkg.go.dev](https://go.dev/blog/pkgsite-search-redesign)
 - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
-- [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#?
+- [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60) 
 
 ## Tutorials
 - [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2)
+- [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery
 
 ## Kubernetes Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)

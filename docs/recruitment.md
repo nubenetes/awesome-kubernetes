@@ -35,6 +35,8 @@
 - [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy)
 - [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia)
 - [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html)
+- [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend) Employees often assume human resources is there to help. But given HR really works for the company, is it ever really on our side?
+- [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 

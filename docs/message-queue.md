@@ -87,6 +87,7 @@
 - [blog.direktiv.io: Event driven orchestration with Knative (part 1)](https://blog.direktiv.io/event-driven-orchestration-with-knative-part-1-fbdcc0e2ea03)
 - [blog.direktiv.io: Redefining event-driven orchestration for automation & applications](https://blog.direktiv.io/redefining-event-driven-orchestration-for-automation-applications-ec07d79f21c0)
 - [pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad](https://pub.towardsai.net/software-engineering-baa4e7a8015c)
+- [developer.com: An Introduction to Event Driven Microservices](https://www.developer.com/design/event-driven-microservices/)
 ## RPC vs Messaging
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 
@@ -293,6 +294,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [strimzi.io: Using HTTP Bridge as a Kubernetes sidecar](https://strimzi.io/blog/2021/08/18/using-http-bridge-as-a-kubernetes-sidecar/)
 - [strimzi.io: Using Open Policy Agent with Strimzi and Apache Kafka](https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/)
 - [strimzi/strimzi-canary](https://github.com/strimzi/strimzi-canary) This repository contains the Strimzi canary tool implementation. It acts as an indicator of whether Kafka clusters are operating correctly. This is achieved by creating a canary topic and periodically producing and consuming events on the topic and getting metrics out of these exchanges.
+- [medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator](https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)

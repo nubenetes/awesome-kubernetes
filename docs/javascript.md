@@ -13,6 +13,7 @@
 - [dev.to: JavaScript Arrays and its Methods](https://dev.to/insha/javascript-array-and-its-methods-432k)
 - [dev.to: 25 Métodos de Arrays en JavaScript que todo desarrollador debe conocer](https://dev.to/gdcodev/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
 - [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)
+- [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
 
 ## Useful websites for web developers
 - [canva.com](https://www.canva.com/) Create cover images, graphs, videos and more

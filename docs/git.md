@@ -22,6 +22,7 @@
 - [GitLab](#gitlab)
     - [GitLab Collective](#gitlab-collective)
 - [GitHub](#github)
+    - [GitHub Lab](#github-lab)
     - [GitHub Actions](#github-actions)
         - [GitHub Actions Marketplace](#github-actions-marketplace)
     - [GitHub Actions and OpenShift](#github-actions-and-openshift)
@@ -382,6 +383,9 @@ git push origin -f
 * [==dev.to: New GitHub Rules Guide [git push -u origin main]==](https://dev.to/bekbrace/new-rules-in-github-git-push-u-origin-main-2k82) This post explains very quickly how to push your code to your GitHub repository following the new rules imposed by GitHub.
 * [==dev.to: Learn how to use Git and GitHub in a team like a pro==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7)
     * [==dev.to: Learn how to use Git and GitHub in a team like a pro (part 2)==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-part-2-11j)
+
+### GitHub Lab
+- [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

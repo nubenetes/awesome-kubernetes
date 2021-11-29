@@ -269,6 +269,7 @@
 ### OPA Gatekeeper
 - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
 - [medium: Verifying container signatures on Kubernetes with Gatekeeper](https://medium.com/@LachlanEvenson/verifying-container-signatures-on-kubernetes-with-gatekeeper-19a4519c3016)
+- [medium: Mutating Kubernetes resources with Gatekeeper](https://medium.com/@LachlanEvenson/mutating-kubernetes-resources-with-gatekeeper-3e5585d49ead)
 
 ## Red Hat Demo Central
 * [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)

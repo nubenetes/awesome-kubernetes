@@ -129,6 +129,7 @@
 - [thenewstack.io: How GitOps Benefits from Security-as-Code](https://thenewstack.io/how-gitops-benefits-from-security-as-code/)
 - [devops.com: Tips for a Successful DevSecOps Life Cycle](https://devops.com/tips-for-a-successful-devsecops-life-cycle/)
 - [blog.aquasec.com: Advanced Persistent Threat Techniques Used in Container Attacks](https://blog.aquasec.com/advanced-persistent-threat-techniques-container-attacks) In this blog, you will explore advanced persistent threat techniques used in container attacks, learn how rootkits work, and how adversaries are using them to attack cloud native environments.
+- [thenewstack.io: 5 Misconceptions About DevSecOps](https://thenewstack.io/5-misconceptions-about-devsecops/)
 
 ## Zero Trust Security
 - [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
@@ -388,6 +389,7 @@
 ## Kubernetes Network Policies
 - [medium.com: K8s Network Policies Demystified and Simplified 🌟](https://medium.com/swlh/k8s-network-policies-demystified-and-simplified-18f5ea9848e2)
 - [blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification/)
+- [medium: Kubernetes Network Policies: Are They Really Useful?](https://medium.com/@senthilrch/kubernetes-network-polices-are-they-really-useful-c3a153c49316)
 
 ## Static Analysis SAST
 - [DevSecOps – Static Analysis SAST with Jenkins Pipeline](https://digitalvarys.com/devsecops-static-analysis-sast-with-jenkins-pipeline/)

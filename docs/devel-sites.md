@@ -16,6 +16,8 @@
 - https://www.geeksforgeeks.org
 - [dev.to: Top 3 sites for programmers](https://dev.to/why_and_how/top-3-sites-for-programmers-4bmc)
 - [medium: 5 Programming Languages that will Die](https://medium.com/@lidiaaa08/5-programming-languages-that-will-die-1a4e40371a2e)
+- [dev.to: Software Engineering Best Practices + The Best Resources to Save🚀](https://dev.to/alexomeyer/software-engineering-best-practices-useful-resources-c75)
+- [makeuseof.com: The 5 Best Open-Source Webinar Software](https://www.makeuseof.com/best-open-source-webinar-software/)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)

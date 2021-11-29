@@ -446,7 +446,7 @@
 * [ithands-on.com: Kubernetes 101 : Switching namespaces](https://www.ithands-on.com/2021/10/kubernetes-101-switching-namespaces.html)
 * [juju.is: Kubernetes and cloud native operations report 2021](https://juju.is/cloud-native-kubernetes-usage-report-2021) Data from 1200 respondents on hybrid and multi-cloud operations, Kubernetes, VMs, bare metal, goals, benefits, challenges, operators, advanced usage, edge, and more.
 * [medium.com: Tinder’s move to Kubernetes](https://medium.com/tinder-engineering/tinders-move-to-kubernetes-cda2a6372f44)
-* [blog.flant.com: Best practices for deploying highly available apps in Kubernetes. Part 1](https://blog.flant.com/best-practices-for-deploying-highly-available-apps-in-kubernetes-part-1/)
+* [==blog.flant.com: Best practices for deploying highly available apps in Kubernetes. Part 1==](https://blog.flant.com/best-practices-for-deploying-highly-available-apps-in-kubernetes-part-1/)
     * [blog.flant.com: Best practices for deploying highly available apps in Kubernetes. Part 2](https://blog.flant.com/best-practices-for-deploying-highly-available-apps-in-kubernetes-part-2/)
 * [danielmangum.com: How Kubernetes validates custom resources](https://danielmangum.com/posts/how-kubernetes-validates-custom-resources/)
 * [ronaknathani.com: How a Kubernetes Pod Gets an IP Address](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/)
@@ -460,6 +460,7 @@
     * [medium: Kubernetes for dummies: the cluster. Part 2](https://medium.com/@mfsilv/kubernetes-for-dummies-the-cluster-7cf6a7b5532)
     * [itnext.io: Kubernetes for dummies: Life of a Pod. Part 3](https://itnext.io/kubernetes-for-dummies-life-of-a-pod-fc8158e27aa)
 * [==iximiuz.com: Containers vs. Pods - Taking a Deeper Look==](https://iximiuz.com/en/posts/containers-vs-pods/)
+* [kubermatic.com: The Ultimate Checklist for Running Kubernetes in Production](https://www.kubermatic.com/resources/the-ultimate-checklist-for-running-kubernetes-in-production)
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -483,6 +484,7 @@
 ### Kubernetes Admission Controllers
 * [sysdig.com: Kubernetes admission controllers in 5 minutes](https://sysdig.com/blog/kubernetes-admission-controllers/)
 * [blog.rewanthtammana.com: Creating Malicious Admission Controllers](https://blog.rewanthtammana.com/creating-malicious-admission-controllers)
+* [loft.sh: Kubernetes Admission Controllers: What They Are and Why They Matter](https://loft.sh/blog/kubernetes-admission-controllers-what-they-are-and-why-they-matter)
 
 ### Kubernetes Cloud Controller Manager
 * [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
@@ -605,6 +607,7 @@
 #### Kubernetes StatefulSet
 * [medium: Kubernetes — Difference between Deployment and StatefulSet in K8s](https://medium.com/devops-mojo/kubernetes-difference-between-deployment-and-statefulset-in-k8s-deployments-vs-statefulsets-855f9e897091)
 * [kubermatic.com: Keeping the State of Apps 6: Introduction to StatefulSets](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5/)
+* [loft-sh.medium.com: Kubernetes StatefulSet — Examples & Best Practices](https://loft-sh.medium.com/kubernetes-statefulset-examples-best-practices-902cd50f7fff)
 
 #### Kubernetes Jobs and Cron Jobs
 * [ithands-on.com: Kubernetes 101 : Performing tasks in kubernetes - Jobs](https://www.ithands-on.com/2021/05/kubernetes-101-performing-tasks-in.html)
@@ -727,6 +730,7 @@
         4. Separation of Environments
         5. Invest in Proper Monitoring
 * [bridgecrew.io: 5 common Kubernetes misconfigs and how to fix them](https://bridgecrew.io/blog/5-common-kubernetes-misconfigs-and-how-to-fix-them/)
+* [snapt.net: Best Practices for Load Balancing Kubernetes Containers](https://www.snapt.net/blog/best-practices-for-load-balancing-kubernetes-containers)
 
 <center>
 [![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
@@ -942,6 +946,7 @@
     - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)
     - [marketplace.visualstudio.com: Bridge to Kubernetes (Visual Studio)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro) Bridge to Kubernetes for Visual Studio 2019
 - [==thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads== 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads/)
+- [==levelup.gitconnected.com: De-Mystifying Kubernetes Debugging==](https://levelup.gitconnected.com/de-mystifying-kubernetes-debugging-de9e1c82ac3e) __How to debug your microservice in VS Code with Bridge to Kubernetes__
 
 ## Kubernetes Tutorials
 * [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.

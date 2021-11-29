@@ -16,7 +16,7 @@
 - [eBooks](#ebooks)
 - [Training](#training)
 - [AWS Certification](#aws-certification)
-- [AWS Pricing](#aws-pricing)
+- [AWS Pricing and Cost Optimization](#aws-pricing-and-cost-optimization)
 	- [AWS Calculator](#aws-calculator)
 - [AWS on Twitter](#aws-on-twitter)
 - [AWS Architecture](#aws-architecture)
@@ -31,7 +31,7 @@
 - [AWS Management Tools Blog](#aws-management-tools-blog)
 - [AWS Cloudwatch](#aws-cloudwatch)
 - [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
-- [AWS RDS](#aws-rds)
+- [AWS RDS Databases](#aws-rds-databases)
 	- [AWS DMS](#aws-dms)
 	- [AWS RDS Proxy](#aws-rds-proxy)
 - [AWS Application Discovery Service](#aws-application-discovery-service)
@@ -205,6 +205,7 @@ You can filter by topic using the toolbar above.
 - [AWS Architecture Blog: What to Consider when Selecting a Region for your Workloads](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
 - [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
+- [intellipaat.com: What is AWS?](https://intellipaat.com/blog/what-is-amazon-web-services-aws/)
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 - [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/professional-services/CAF/) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
@@ -235,7 +236,7 @@ You can filter by topic using the toolbar above.
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
 - [dev.to: How to become a Certified AWS Solution Architect in 2022](https://dev.to/javinpaul/how-to-become-a-certified-aws-solution-architect-in-2022-35ad)
 
-## AWS Pricing
+## AWS Pricing and Cost Optimization
 - [May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances](https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/)
 - [ec2.shop: Compare AWS EC2 instance price from the CLI](https://ec2.shop/)
 - [infoq.com: AWS Launches Low-Cost Burstable T4g Instances Powered by AWS Graviton2](https://www.infoq.com/news/2020/09/aws-ec2-t4g-instances/)
@@ -250,6 +251,7 @@ You can filter by topic using the toolbar above.
 - [Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight)
 - [blog.cloud-mercato.com: AWS m6i: The why you should abandon your m5](https://blog.cloud-mercato.com/aws-m6i-the-why-you-should-abandon-your-m5/)
 - [aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases)
+- [==cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check==](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check/)
 
 ### AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws/)
@@ -363,6 +365,8 @@ You can filter by topic using the toolbar above.
 - [Now — AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/)
 - [AWS Control Tower now supports nested organizational units](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-control-tower-supports-nested-organizational-units/)
 - [==Visualize all your Kubernetes clusters in one place with Amazon EKS Connector, now generally available==](https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available/)
+- [==venturebeat.com: Amazon’s AWS expands free ‘egress’ data transfer limits==](https://venturebeat.com/2021/11/25/amazons-aws-expands-free-egress-data-transfer-limits/)
+- [linux.slashdot.org: AWS Embraces Fedora Linux for Its Cloud-Based 'Amazon Linux'](https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-its-cloud-based-amazon-linux)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -383,7 +387,7 @@ You can filter by topic using the toolbar above.
 - [Creating an AWS Schema Conversion Tool Project](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool. 
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
-## AWS RDS
+## AWS RDS Databases
 - [Tutorial: Restoring a DB Instance from a DB Snapshot](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html)
 - [Partitioning MySQL on RDS: "How We Partitioned Airbnb’s Main Database in Two Weeks"](https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21)
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/)
@@ -402,6 +406,7 @@ You can filter by topic using the toolbar above.
 - [New – Create Microsoft SQL Server Instances of Amazon RDS on AWS Outposts](https://aws.amazon.com/blogs/aws/new-create-microsoft-sql-server-instances-of-amazon-rds-on-aws-outposts/)
 - [percona.com: The Benefits of Amazon RDS for MySQL](https://www.percona.com/blog/2019/12/19/the-benefits-of-amazon-rds-for-mysql/)
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
+- [migops.com: Is Aurora PostgreSQL really faster and cheaper than RDS PostgreSQL – Benchmarking](https://www.migops.com/blog/2021/11/26/is-aurora-postgresql-really-faster-and-cheaper-than-rds-postgresql-benchmarking/)
 
 ### AWS DMS
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
@@ -478,6 +483,7 @@ You can filter by topic using the toolbar above.
 - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)
 - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 - [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers)
+- [==luis-sena.medium.com: Automated AWS Load Balancer Warm-Up==](https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc) Automate AWS load balancer to avoid issues with huge traffic spikes
 
 ## AWS Application Load Balancer (ALB)
 - [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)

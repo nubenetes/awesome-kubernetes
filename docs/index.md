@@ -1,7 +1,7 @@
 # Nubenetes: Awesome Kubernetes & Cloud [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of awesome references collected since 2018. Microservices architectures rely on DevOps practices, automation, CI/CD (Continuous Integration & Delivery), and API-focused designs.
 
-[Nubenetes](https://nubenetes.com) is also available at [this other site](https://awesome-kubernetes.readthedocs.io/)
+[Nubenetes](https://nubenetes.com) is also available at [this other site](https://awesome-kubernetes.readthedocs.io/).
 
 "I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson)) 
 <center>
@@ -44,7 +44,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes/)
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
-- [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
+- [==How to Explain Kubernetes to a Business Team== 🌟](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 
 ## Introduction
 - [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
