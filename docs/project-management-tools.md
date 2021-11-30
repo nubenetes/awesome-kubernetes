@@ -8,9 +8,10 @@
 - [Jira](https://www.atlassian.com/software/jira)
     - [Transition Jira issues on merge](https://bitbucket.org/blog/transition-jira-issues-on-merge) Check out the latest 
 Jira and Bitbucket integration. Now you can transition issues right from your merge window. Less back and forth with Jira.
-- [OpenProject](https://www.openproject.org/)
+- [==OpenProject==](https://www.openproject.org/) Project Management 
     - [openproject.org: How to create, configure and manage your projects with OpenProject](https://www.openproject.org/create-configure-manage-projects-openproject/)
     - [youtube.com: Learn to deploy OpenProject with Postgres in Kubernetes](https://www.youtube.com/watch?v=2mNAsrThius&ab_channel=CloudControl)
+- [==nextcloud.com==](https://nextcloud.com) Open Source On-Premises Content collaboration platform
 - [Servicenow](https://www.servicenow.com/)
 - [BMC Remedy ITSM](https://www.bmcsoftware.es/it-solutions/remedy-itsm.html)
 - [Atlassian Confluence](https://www.atlassian.com/software/confluence)
