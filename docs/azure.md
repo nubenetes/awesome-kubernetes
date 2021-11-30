@@ -88,7 +88,7 @@
 - [thomast1906/DevOps-The-Hard-Way-Azure 🌟](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in Azure
 
 ## Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc 
-- [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
+- [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview) Alternative to Google Anthos or RHACM
 - [azurearcjumpstart.io](https://azurearcjumpstart.io/) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
     - [architecture diagrams and slides](https://github.com/microsoft/azure_arc/tree/main/docs/ppt)
 - [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/t5/itops-talk-blog/standardize-devops-practices-across-hybrid-and-multicloud/ba-p/2795010) With Azure Arc-enabled Kubernetes, you can attach and configure Kubernetes clusters located either inside or outside Azure.

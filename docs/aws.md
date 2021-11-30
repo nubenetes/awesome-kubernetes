@@ -915,7 +915,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [dev.to: 10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291)
 
 ## AWS Control Tower
-- [AWS Control Tower](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
+- [==AWS Control Tower==](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
+- [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
+- [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
 
 ## AWS App Runner
 - https://aws.amazon.com/apprunner/

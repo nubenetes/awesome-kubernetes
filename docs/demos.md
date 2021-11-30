@@ -163,6 +163,7 @@
 * [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://www.shipa.io/development/deploying-applications-on-kubernetes/)
 * [shipa.io: Deploying a real-world application on Kubernetes](https://www.shipa.io/development/a-real-world-application-deployment-on-kubernetes/)
 * [shipa.io: GitOps in Kubernetes, the easy way–with GitHub Actions and Shipa](https://www.shipa.io/development/gitops/)
+* [shipa.io: A Developer focused CI/CD pipeline for Kubernetes](https://shipa.io/development/a-developer-focused-ci-cd-pipeline-for-kubernetes/)
 * [kruyt.org: Running a mailserver in Kubernetes](https://kruyt.org/running-a-mailserver-in-kubernetes/)
 * [piotrminkowski.com: RabbitMQ Monitoring on Kubernetes](https://piotrminkowski.com/2020/09/29/rabbitmq-monitoring-on-kubernetes/?utm_sq=gl0f6vph5e)
 * [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer 🌟](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML.
