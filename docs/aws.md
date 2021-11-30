@@ -367,6 +367,7 @@ You can filter by topic using the toolbar above.
 - [==Visualize all your Kubernetes clusters in one place with Amazon EKS Connector, now generally available==](https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available/)
 - [==venturebeat.com: Amazon’s AWS expands free ‘egress’ data transfer limits==](https://venturebeat.com/2021/11/25/amazons-aws-expands-free-egress-data-transfer-limits/)
 - [linux.slashdot.org: AWS Embraces Fedora Linux for Its Cloud-Based 'Amazon Linux'](https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-its-cloud-based-amazon-linux)
+- [AWS announces the new **Amazon Inspector** for continual vulnerability management](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
