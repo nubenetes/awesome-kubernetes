@@ -738,6 +738,7 @@
         5. Invest in Proper Monitoring
 * [bridgecrew.io: 5 common Kubernetes misconfigs and how to fix them](https://bridgecrew.io/blog/5-common-kubernetes-misconfigs-and-how-to-fix-them/)
 * [snapt.net: Best Practices for Load Balancing Kubernetes Containers](https://www.snapt.net/blog/best-practices-for-load-balancing-kubernetes-containers)
+* [==vladimir.varank.in: Making sense of requests for CPU resources in Kubernetes== 🌟](https://vladimir.varank.in/notes/2021/09/making-sense-of-requests-for-cpu-resources-in-kubernetes/)
 
 <center>
 [![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
