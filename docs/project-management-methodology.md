@@ -137,9 +137,9 @@
 
 	![scrum vs kanban](images/scrum_vs_kanban.jfif)
 
-	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+	[![burnout](images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
 
-	![burnout](images/burnout.jfif)
+	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 	</center> 
 
 ## Videos
