@@ -34,7 +34,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
-- [Kubernetes magic is in enterprise standardization, not app portability 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
+- [==Kubernetes magic is in enterprise standardization, not app portability== 🌟](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 - [A new role to emerge: Kubernetes Manager 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
