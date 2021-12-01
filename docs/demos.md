@@ -533,7 +533,7 @@
 * **daily_restart.Jenkinsfile**: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered). 
 * **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. 
 
-Grab them from here: [awesome-kubernetes/scripts](https://github.com/redhatspain/awesome-kubernetes/tree/master/scripts)
+Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/awesome-kubernetes/tree/master/scripts)
 
 ### Postman & Newman API Automated Tests
 - [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests)
