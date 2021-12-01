@@ -209,18 +209,18 @@
 ### Kubernetes Installation Methods
 - [itnext.io: Kubernetes Installation Methods The Complete Guide](https://itnext.io/kubernetes-installation-methods-the-complete-guide-1036c860a2b3)
 
+{==
+
 ### Kubernetes Knowledge Hubs
 - [kubernetes.io](https://kubernetes.io/)
 - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes) 
 - [Kubernetes README: kubernetesreadme.com](https://kubernetesreadme.com/) What to Read to Learn More About Kubernetes
-- [k8sref.io](https://www.k8sref.io/) Kubernetes Reference - [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/)
+- [dev-k8sref-io.web.app](https://dev-k8sref-io.web.app/) Kubernetes Reference - [k8sref.io](https://www.k8sref.io/)
 - [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s) 🤔 What happens when I type kubectl run?
 
 #### Kubernetes Podcasts
 - [kubernetespodcast.com](https://kubernetespodcast.com/)
-
-{==
 
 #### Kubernetes Blogs
 - [learnk8s.io/blog](https://learnk8s.io/blog)
