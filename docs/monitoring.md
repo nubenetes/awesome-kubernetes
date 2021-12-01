@@ -101,6 +101,7 @@
     * **Metrics:** Metrics give us the visibility of good and bad events that happen inside of an application. Metrics help us to distinguish between normal and abnormal application behavior. Usually, we collect, count, summarize and compare events related to rate, errors, duration, and saturation to produce metrics.
 
     * **Traces:** Traces record the flow of data between different components and execution details of each one along the way. By tracing we can discover the relationships, dependencies between components, identify bottlenecks, comprehend the data flow, and the time span on each component.
+
 * [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/3638693/the-red-method-a-new-strategy-for-monitoring-microservices.html) By using the RED metrics—rate, error, and duration—you can get a solid understanding of how your services are performing for end-users.
 * [intellipaat.com: Top 10 DevOps Monitoring Tools](https://intellipaat.com/blog/devops-monitoring-tools) Are you a DevOps engineer? Are you confused about which DevOps monitoring tools to use for monitoring? If so, go through this comprehensive blog to know more about different types of DevOps monitoring tools, their purpose, and their importance.
 * [==cncf.io: How to add observability to your application pipeline==](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline/)
