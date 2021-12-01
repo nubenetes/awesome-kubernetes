@@ -86,10 +86,10 @@
 {== 
 
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
-	* [Wikipedia: Twelve-Factor App methodology](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
-	* [Wikipedia: Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
-	* [Wikipedia: Lean software development](https://en.wikipedia.org/wiki/Lean_software_development)
-	* [Wikipedia: Value stream](https://en.wikipedia.org/wiki/Value_stream)
+* [Wikipedia: Twelve-Factor App methodology](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
+* [Wikipedia: Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+* [Wikipedia: Lean software development](https://en.wikipedia.org/wiki/Lean_software_development)
+* [Wikipedia: Value stream](https://en.wikipedia.org/wiki/Value_stream)
 
 ==}
 
