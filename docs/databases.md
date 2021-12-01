@@ -93,6 +93,7 @@
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
 - [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference/)
 - [vettabase.com: How slow is SELECT * ?](https://vettabase.com/blog/how-slow-is-select/)
+- [towardsdatascience.com: How to Use SQL Cross Joins](https://towardsdatascience.com/how-to-use-sql-cross-joins-5653fe7d353) The SQL join you never knew existed
 
 ## Stored Procedures
 - [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)

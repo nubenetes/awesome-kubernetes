@@ -27,6 +27,7 @@
 		- [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
 		- [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
 	- [Terraform with Azure](#terraform-with-azure)
+		- [Terraform in Azure DevOps](#terraform-in-azure-devops)
 		- [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
@@ -306,6 +307,9 @@
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
 - [thomasthornton.cloud: Deploy Terraform using GitHub Actions to Azure](https://thomasthornton.cloud/2021/03/19/deploy-terraform-using-github-actions-into-azure/)
 - [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
+
+#### Terraform in Azure DevOps
+- [==adamtheautomator.com: How to Build Infrastructure with Terraform in Azure DevOps== 🌟](https://adamtheautomator.com/terraform-azure-devops/)
 
 {==
 

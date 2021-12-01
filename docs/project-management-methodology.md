@@ -116,6 +116,7 @@
 - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)
 - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
 - [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/tan-dificil-decir-no-jefe-965459)
+- [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737)
 
 ## Bunch of images
 ??? note "Click to expand!"

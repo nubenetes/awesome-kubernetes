@@ -319,6 +319,7 @@
 * [youtube: No YAML! Kubernetes done the easy way | DevNation Tech Talk](https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper)
 * [developers.redhat.com: New application samples in Red Hat OpenShift 4.8](https://developers.redhat.com/articles/2021/10/01/new-application-samples-red-hat-openshift-48) Check out all of the new and updated samples that comes with OpenShift 4.8. Try any or all of these samples within minutes of downloading your free openshift cluster.
 * [developers.redhat.com: Build and store universal application images on OpenShift (with Buildah)](https://developers.redhat.com/articles/2021/11/18/build-and-store-universal-application-images-openshift)
+* [==piotrminkowski.com: Serverless Java Functions on OpenShift==](https://piotrminkowski.com/2021/11/30/serverless-java-functions-on-openshift/)
 
 ### Developer Sandbox
 * [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.

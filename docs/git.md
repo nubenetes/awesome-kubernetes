@@ -144,6 +144,7 @@
     * [css-tricks.com: Advanced Git series. 5 Rebase vs. Merge: Integrating Changes in Git](https://css-tricks.com/rebase-vs-merge-integrating-changes-in-git/)
     * [css-tricks.com: Advanced Git series. 6 Interactive Rebase: Clean up your Commit History](https://css-tricks.com/interactive-rebase-clean-up-your-commit-history/)
     * [css-tricks.com: Cherry-Picking Commits in Git](https://css-tricks.com/cherry-picking-commits-in-git/)
+    * [css-tricks.com: Using the Reflog to Restore Lost Commits](https://css-tricks.com/using-the-reflog-to-restore-lost-commits/)
 * [cloudbees.com: Git Reset Clearly Explained: How to Undo Your Changes 🌟](https://www.cloudbees.com/blog/git-reset-undo-changes)
 * [dev.to: How to become a Git expert! 🌟](https://dev.to/sagarbarapatre/how-to-become-a-git-expert-1jl2)
 * [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers/)
