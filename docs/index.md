@@ -198,9 +198,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Appointment Scheduling](appointment-scheduling.md)
 - [Work From Home](workfromhome.md)
 ## More References
-- [E-Learning](elearning.md)
-- [Forums and Communities](newsfeeds.md)
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
+- [Forums and Communities](newsfeeds.md)
+- [E-Learning](elearning.md)
 - [Digital Money](digital-money.md)
 ## Recruitment and Freelancing 
 - [Recruitment](recruitment.md)
