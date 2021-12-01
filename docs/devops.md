@@ -86,13 +86,12 @@
 {==
 
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
-* [Wikipedia: Twelve-Factor App methodology](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
-* [Wikipedia: Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
-* [Wikipedia: Lean software development](https://en.wikipedia.org/wiki/Lean_software_development)
-* [Wikipedia: Value stream](https://en.wikipedia.org/wiki/Value_stream)
+	* [Wikipedia: Twelve-Factor App methodology](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
+	* [Wikipedia: Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+	* [Wikipedia: Lean software development](https://en.wikipedia.org/wiki/Lean_software_development)
+	* [Wikipedia: Value stream](https://en.wikipedia.org/wiki/Value_stream)
 
 ==}
-
 * [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 * [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
