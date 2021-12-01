@@ -33,17 +33,18 @@
 - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)
 
 ## Other Awesome Kubernetes Lists
-- [@ramitsurana' Awesome Kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
-- [tomhuang12: Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
-- [@sindresorhus' Awesome Kubernetes](https://github.com/sindresorhus/awesome)
+- [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes/)
+- [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
+- [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
-- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools  	   - [kubetools 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
+- [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
 - [magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟](https://github.com/magnologan/awesome-k8s-security)
 - [ksoclabs/awesome-kubernetes-security 🌟](https://github.com/ksoclabs/awesome-kubernetes-security) A curated list of awesome Kubernetes security resources
 - [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native)
 - [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [diegolnasc/kubernetes-best-practices 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
+- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.

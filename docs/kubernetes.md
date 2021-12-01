@@ -223,8 +223,6 @@
 {==
 
 #### Kubernetes Blogs
-- [Awesome kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
-- [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 - [learnk8s.io/blog](https://learnk8s.io/blog)
 - [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
 - [containerjournal.com](https://containerjournal.com)
@@ -239,6 +237,7 @@
 - [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)
 - [devopscube.com](https://devopscube.com)
 - [rcarrata.com](https://rcarrata.com)
+
 #### Spanish Kubernetes Blogs 
 - [returngis.net](https://www.returngis.net/)
 
