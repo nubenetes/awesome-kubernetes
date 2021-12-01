@@ -12,7 +12,7 @@
 - [Videos](#videos)
 
 <center>
-[![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/user/IBMCloud)
+[![ibm cloud videos](images/ibm_cloud_logo.jpg)](https://www.youtube.com/c/IBMTechnology)
 </center>
 
 ## IBM Cloud
