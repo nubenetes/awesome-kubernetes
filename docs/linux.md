@@ -57,6 +57,7 @@
 - [thevaluable.dev: A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
 - [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/sysadmin/recursive-vim-macros) Take Vim to the limit with recursive macros.
 - [openvim.com](https://openvim.com/) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users. 
+- [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff) Key Techniques with Vim for Faster Programming
 
 ## Neovim
 - [neovim](https://neovim.io/) hyperextensible Vim-based text editor

@@ -133,7 +133,7 @@ nav:
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
     - Jenkins & Cloudbees: jenkins.md
     - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
-    - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
+    - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
     - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
     - Toolchain:
       - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md

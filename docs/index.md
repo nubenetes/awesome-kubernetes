@@ -99,7 +99,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
 ### Jenkins & CloudBees 
 - [Jenkins & CloudBees 😀](jenkins.md)
-- [Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
+- [Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc](performance-testing-with-jenkins-and-jmeter.md)
 ### OpenShift Pipelines
 - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
 ### Jenkins Alternatives

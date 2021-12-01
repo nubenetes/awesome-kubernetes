@@ -175,6 +175,7 @@
 - [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners)
 - [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf)
 - [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 
+- [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know/) Python One-Liners can help you perform complex tasks with just one line of Python code. Here are some of the most useful ones to know!
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

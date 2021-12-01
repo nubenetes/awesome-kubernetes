@@ -7,6 +7,7 @@
 	- [API Load Testing](#api-load-testing)
 	- [Gatling and Maven](#gatling-and-maven)
 - [Jenkins & Gatling](#jenkins--gatling)
+- [Azure Load Testing Service](#azure-load-testing-service)
 - [Alternatives](#alternatives)
 
 ## Introduction
@@ -74,6 +75,11 @@
 * [baeldung.com: Run Gatling Tests From Jenkins](https://www.baeldung.com/jenkins-run-gatling-tests)
 * [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling/)
 * [medium.com: Pipeline Performance Testing with Jenkins and Gatling](https://medium.com/thepeg/pipeline-performance-testing-with-jenkins-and-gatling-b7b762274680)
+
+## Azure Load Testing Service
+- [docs.microsoft.com: Azure Load Testing](https://docs.microsoft.com/azure/load-testing/)
+- [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale/)
+- [venturebeat.com: Microsoft launches fully managed Azure Load Testing service](https://venturebeat.com/2021/11/30/microsoft-launches-fully-managed-azure-load-testing-service/)
 
 ## Alternatives
 * [webpagetest.org](https://webpagetest.org/)
