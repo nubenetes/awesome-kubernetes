@@ -1,4 +1,4 @@
-# Hashicorp Packer & Terraform. K8s Boilerplates 
+# Hashicorp Terraform & Packer. Kubernetes Boilerplates 
 
 {=="It's not controversial to provision resources with code. It shouldn't be controversial to deploy and manage resources with code" (Jaana Dogan)==}
 
