@@ -137,6 +137,8 @@
 	![scrum vs kanban](images/scrum_vs_kanban.jfif)
 
 	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+
+	![burnout](images/burnout.jfif)
 	</center> 
 
 ## Videos
@@ -157,6 +159,8 @@
 
 	<center>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/TQOzU53xmQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
 ## Tweets
