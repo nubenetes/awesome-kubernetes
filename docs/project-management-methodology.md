@@ -13,6 +13,7 @@
 - [Culture and Leadership](#culture-and-leadership)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
+- [Spanish Videos](#spanish-videos)
 - [Tweets](#tweets)
 - [Tweets 2. Cultures](#tweets-2-cultures)
 
@@ -114,6 +115,7 @@
 ## Culture and Leadership
 - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)
 - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
+- [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/tan-dificil-decir-no-jefe-965459)
 
 ## Bunch of images
 ??? note "Click to expand!"
@@ -141,13 +143,20 @@
 ??? note "Click to expand!"
 
 	<center>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/kJdXjtSnZTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/0fx7yy9-L7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/B0hPpGsslgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/YyXRYgjQXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+
+## Spanish Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

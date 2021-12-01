@@ -147,7 +147,7 @@
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
 - [Awesome Go](https://github.com/avelino/awesome-go)
 	- [awesome-go.com](https://awesome-go.com/)
-	- [golangrepo.com 🌟](https://golangrepo.com/) Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.
+	- [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
 - Awesome .NET Core:
 	- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)
 	- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet)

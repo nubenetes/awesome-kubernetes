@@ -38,6 +38,8 @@
 - [Shipwright framework](#shipwright-framework)
 - [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
 - [NetMaker](#netmaker)
+- [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
+- [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -47,6 +49,7 @@
 - [cyberithub.com: 70+ Important Kubernetes Related Tools You Should Know About](https://www.cyberithub.com/70-important-kubernetes-related-tools-you-should-know-about)
 - [itnext.io: Kubernetes GitOps Tools](https://itnext.io/kubernetes-gitops-tools-cf0247eb5368)
 - [itnext.io: Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572)
+- [containerjournal.com: 9 Open Source Developer Tools for Kubernetes](https://containerjournal.com/features/9-open-source-developer-tools-for-kubernetes/)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -560,6 +563,14 @@
 
 ## NetMaker 
 - [NetMaker](https://github.com/gravitl/netmaker) Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
+
+## AWS Karpenter kubernetes Autoscaler
+- [==Karpenter==](https://karpenter.sh/) Just-in-time Nodes for Any Kubernetes Cluster. __Karpenter simplifies Kubernetes infrastructure with the right nodes at the right time.__ Karpenter automatically launches just the right compute resources to handle your cluster's applications. It is designed to let you take full advantage of the cloud with fast and simple compute provisioning for Kubernetes clusters.
+- [techcrunch.com: AWS launches Karpenter, an open source autoscaler for Kubernetes clusters](https://techcrunch.com/2021/11/30/aws-launches-karpenter-an-open-source-autoscaler-for-kubernetes-clusters/)
+
+## Kuby (easy deployments of Ruby Rails App)
+- [Kuby](https://getkuby.io/) Deploy Your Rails App the Easy Way. Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt.
+- [evilmartians.com: Kubing Rails: stressless Kubernetes deployments with Kuby](https://evilmartians.com/chronicles/kubing-rails-stressless-kubernetes-deployments-with-kuby)
 
 ## Tweets
 <details>

@@ -10,6 +10,7 @@
 - [Kyverno](#kyverno)
 - [Cloud Custodian](#cloud-custodian)
 - [Apolicy](#apolicy)
+- [Azure Policy](#azure-policy)
 
 ## Introduction
 - [Dzone: DevOps Security at Scale - Security Policy as Code](https://dzone.com/articles/devops-security-at-scale)
@@ -110,3 +111,6 @@
 ## Apolicy
 - [Apolicy](https://apolicy.io/)
 - [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code/)
+
+## Azure Policy
+- [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-for-kubernetes-releases-support-for-custom-policy/ba-p/2699466) **A tutorial on how to set up Azure Policy for Kubernetes with custom policies.** 
