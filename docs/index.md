@@ -133,11 +133,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [StackStorm](stackstorm.md)
 - [Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
-- [Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
+- [Templating YAML with YAML Processors.Static Checking of Kubernetes YAML Files](yaml.md)
 ## Infrastructure Management Tools
 - [IaC Infrastructure as Code](iac.md)
+- [==Terraform & Packer.Kubernetes Boilerplates== 🌟](terraform.md)
 - [Pulumi](pulumi.md)
-- [==Terraform & Packer. K8s Boilerplates== 🌟](terraform.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Cloud Asset Inventory](cloud-asset-inventory.md)
 ## Databases on Kubernetes

@@ -161,11 +161,11 @@ nav:
     - Helm Kubernetes Tool: helm.md
     - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - Template-Free Kubernetes Configuration Customization with Kustomize: kustomize.md
-    - Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files: yaml.md
+    - Templating YAML with YAML Processors.Static Checking of Kubernetes YAML Files: yaml.md
   - Infra Mgmt Tools:
     - IaC Infrastructure as Code: iac.md
+    - Terraform & Packer.Kubernetes Boilerplates: terraform.md
     - Pulumi: pulumi.md
-    - Terraform & Packer. K8s boilerplates: terraform.md
     - Crossplane: crossplane.md
     - Cloud Asset Inventory: cloud-asset-inventory.md
   - Databases: 
