@@ -83,7 +83,7 @@
 - [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
 
 ## DevOps Docs
-{== 
+{==
 
 * [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
 * [Wikipedia: Twelve-Factor App methodology](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
