@@ -399,7 +399,7 @@
 - [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.lambdatest.com/blog/selenium-python-cheat-sheet/)
 
 ## CIDR subnets
-- [cidr.xyz 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
+- [==cidr.xyz== 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
 - https://en.wikipedia.org/wiki/Classful_network
 - [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74)
 - [pbxbook.com: CIDR Cheat Sheet](https://pbxbook.com/other/cidrcheat.html)
@@ -407,7 +407,7 @@
 - [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet/)
 - [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)
 - [dzone: What Is CIDR (Classless Inter-Domain Routing) ](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
-- [opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)
+- [==opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc== 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)
 - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/)
 - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)
 - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
