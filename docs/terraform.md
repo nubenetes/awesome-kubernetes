@@ -340,7 +340,7 @@ address_prefixes     = ["10.x.x.0/24"]
 }
 ```
 
-``` terraform="07-aks-cluster.tf"
+``` terraform = "07-aks-cluster.tf"
 network_profile {  # (3)
 load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
@@ -364,7 +364,7 @@ theme:
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
 
-``` 
+``` yaml = "07-aks-cluster.tf"
 network_profile {  # (3)
 load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
