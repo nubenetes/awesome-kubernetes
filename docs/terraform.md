@@ -350,9 +350,19 @@ docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across 
 }
 ```
 
-1.  VNet
-2.  Subnet nodes (and pods with Azure CNI network plugin)
-3.  Network Profile
+1.    VNet
+2.    Subnet nodes (and pods with Azure CNI network plugin)
+3.    Network Profile
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+
 
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
