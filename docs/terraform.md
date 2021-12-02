@@ -325,7 +325,8 @@
 	- [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
 	- [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
 
-``` tf="01-main.tf"
+``` tf
+# 01-main.tf
 resource "azurerm_virtual_network" "example" { # (1) 
 name                = "${var.environment}-network"
 location            = azurerm_resource_group.aks_rg.location
@@ -343,7 +344,8 @@ address_prefixes     = ["10.x.x.0/24"]
 1.  :man_raising_hand: VNet
 2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
 
-``` tf = "07-aks-cluster.tf" 
+``` tf 
+# 07-aks-cluster.tf
 network_profile {  # (3)
 load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
