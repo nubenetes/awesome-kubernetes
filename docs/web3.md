@@ -1,6 +1,7 @@
 # Web 3
 - [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/)
 - [blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English](https://blog.suhailkakar.com/web-30-terms-and-their-definitions-in-plain-english)
+- [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview/) Gavin Wood, who coined the term Web3 in 2014, believes decentralized technologies are the only hope of preserving liberal democracy.
 
 ## Tweets
 <details>
