@@ -327,22 +327,19 @@
 
 ``` tf
 # 01-main.tf
-resource "azurerm_virtual_network" "example" { # (1) 
+resource "azurerm_virtual_network" "example" {  # (1) 
 name                = "${var.environment}-network"
 location            = azurerm_resource_group.aks_rg.location
 resource_group_name = azurerm_resource_group.aks_rg.name
 address_space       = ["10.x.x.0/22"]
 }
-resource "azurerm_subnet" "internal" { # (2) 
+resource "azurerm_subnet" "internal" {  # (2) 
 name                 = "internal"
 virtual_network_name = azurerm_virtual_network.example.name
 resource_group_name  = azurerm_resource_group.aks_rg.name
 address_prefixes     = ["10.x.x.0/24"]
 }
 ```
-
-1.  :man_raising_hand: VNet
-2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
 
 ``` tf 
 # 07-aks-cluster.tf
@@ -355,6 +352,8 @@ docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across 
 }
 ```
 
+1.  :man_raising_hand: VNet
+2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
 3.  :man_raising_hand: Network Profile
 
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
