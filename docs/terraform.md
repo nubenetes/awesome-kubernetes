@@ -340,7 +340,7 @@ address_prefixes     = ["10.x.x.0/24"]
 }
 ```
 
-``` tf="07-aks-cluster.tf" 
+``` tf = "07-aks-cluster.tf" 
 network_profile {  # (3)
 load_balancer_sku = "Standard"
 network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
