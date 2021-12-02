@@ -40,6 +40,7 @@
 - [NetMaker](#netmaker)
 - [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
 - [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
+- [Direktiv](#direktiv)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -290,7 +291,6 @@
 * [Polaris: Best Practices for Kubernetes Workload Configuration 🌟](https://github.com/FairwindsOps/polaris) Validation of best practices in your Kubernetes clusters - [fairwinds.com: What is Fairwinds’ Polaris? Kubernetes Open Source Configuration Validation](https://www.fairwinds.com/blog/fairwinds-polaris-kubernetes-open-source-configuration-validation) 
 * [Krane 🌟](https://github.com/appvia/krane) is a Kubernetes RBAC static analysis tool. It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.
 * [KTail: Kubernetes log viewer 🌟](https://www.ktail.de/) KTail allows you to tail multiple pods in one view. It automatically detects updates and attaches to new pods. Configurable highlighters show how often regular expressions matched and let you quickly navigate in the results.
-* [direktiv](https://github.com/vorteil/direktiv) Serverless Container Workflows. Diretiv is a serverless workflow and automation engine running on Kubernetes and Knative. Direktiv is the equivalent of AWS Step Functions, or Google Cloud Workflows or Alibaba Serverless Workflows. The difference between Direktiv and the cloud provider workflow engines is that Direktiv is cloud & platform agnostic, runs on kubernetes and executes containers as "plugins".
 * [Manifesto 🌟](https://gitlab.com/jackatbancast/manifesto) allows you to create an application structure to facilitate easy deployment to kubernetes. Jsonnet is used to create the underlying application structure, manifesto manipulates this structure to produce manifests.
 * [SigNoz 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
 * [port-map-operator](https://github.com/MOZGIII/port-map-operator) LoadBalancer Service type implementation for home clusters via Port Control Protocol.
@@ -571,6 +571,10 @@
 ## Kuby (easy deployments of Ruby Rails App)
 - [Kuby](https://getkuby.io/) Deploy Your Rails App the Easy Way. Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt.
 - [evilmartians.com: Kubing Rails: stressless Kubernetes deployments with Kuby](https://evilmartians.com/chronicles/kubing-rails-stressless-kubernetes-deployments-with-kuby)
+
+## Direktiv
+- [Direktiv](https://github.com/direktiv/direktiv) Serverless Container Orchestration. Diretiv is a serverless workflow and automation engine running on Kubernetes and Knative. Direktiv is the equivalent of AWS Step Functions, or Google Cloud Workflows or Alibaba Serverless Workflows. The difference between Direktiv and the cloud provider workflow engines is that Direktiv is cloud & platform agnostic, runs on kubernetes and executes containers as "plugins".
+- [blog.direktiv.io: Building a simple cloud-native, orchestrated microservice from containers](https://blog.direktiv.io/building-a-simple-cloud-native-orchestrated-microservice-from-containers-39dbcb80b0d8) 
 
 ## Tweets
 <details>

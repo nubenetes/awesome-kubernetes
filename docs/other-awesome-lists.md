@@ -7,6 +7,7 @@
 	- [Cloud Native](#cloud-native)
 	- [CI/CD and Pipelines](#cicd-and-pipelines)
 	- [DevOps](#devops)
+	- [DevSecOps](#devsecops)
 	- [GitOps](#gitops)
 	- [SRE](#sre)
 	- [OpenShift](#openshift)
@@ -83,6 +84,9 @@
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [bregman-arie/devops-resources 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [andredesousa/devops-best-practices](https://github.com/andredesousa/devops-best-practices)
+
+### DevSecOps
+- [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
 
 ### GitOps
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
