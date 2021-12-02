@@ -354,10 +354,6 @@ docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across 
 2.    Subnet nodes (and pods with Azure CNI network plugin)
 3.    Network Profile
 
-- [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
-- [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
-
-==}
 
 ``` yaml
 theme:
@@ -367,6 +363,24 @@ theme:
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
+
+``` terraform="07-aks-cluster.tf"
+network_profile {  # (3)
+load_balancer_sku = "Standard"
+network_plugin = "azure"  # Azure CNI because windows node pools arenot supported by kubenet (unfortunately)
+service_cidr = "10.x.x.0/24"
+dns_service_ip = "10.x.x.10"
+docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.  
+}
+```
+
+3.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+
+- [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
+- [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
+
+==}
 
 ### Terraform and Apache Kafka
 - [medium: From AWS CloudFormation to Terraform: Migrating Apache Kafka](https://medium.com/riskified-technology/from-aws-cloudformation-to-terraform-migrating-apache-kafka-32bdabdbaa59)
