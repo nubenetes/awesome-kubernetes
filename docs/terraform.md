@@ -340,6 +340,9 @@ address_prefixes     = ["10.x.x.0/24"]
 }
 ```
 
+1.  :man_raising_hand: VNet
+2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
+
 ``` tf = "07-aks-cluster.tf" 
 network_profile {  # (3)
 load_balancer_sku = "Standard"
@@ -350,8 +353,6 @@ docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across 
 }
 ```
 
-1.  :man_raising_hand: VNet
-2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
 3.  :man_raising_hand: Network Profile
 
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
