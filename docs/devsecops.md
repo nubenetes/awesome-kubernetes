@@ -32,7 +32,7 @@
 	- [Store private data in git repo](#store-private-data-in-git-repo)
 	- [HashiCorp Vault](#hashicorp-vault)
 		- [HashiCorp Vault Agent](#hashicorp-vault-agent)
-	- [Azure Key Vault to Kubernetes akv2k8s](#azure-key-vault-to-kubernetes-akv2k8s)
+	- [Azure Key Vault](#azure-key-vault)
 	- [CyberArk and Ansible](#cyberark-and-ansible)
 	- [CyberArk Conjur](#cyberark-conjur)
 	- [SOPS for Kubernetes](#sops-for-kubernetes)
@@ -331,8 +331,13 @@
 - [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://harness.io/blog/devops/vault-agent-kubernetes-delegates)
 - [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)
 
-### Azure Key Vault to Kubernetes akv2k8s
-- [akv2k8s.io 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way
+### Azure Key Vault 
+- [docs.microsoft.com: Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+- [azure.github.io: Azure Key Vault Provider for Secrets Store CSI Driver](https://azure.github.io/secrets-store-csi-driver-provider-azure/)
+- [==akv2k8s.io: Azure Key Vault to Kubernetes akv2k8s== 🌟](https://akv2k8s.io/) Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way
+	- [Azure Key Vault to Kubernetes](https://github.com/SparebankenVest/azure-key-vault-to-kubernetes) Azure Key Vault to Kubernetes (akv2k8s for short) makes it simple and secure to use Azure Key Vault secrets, keys and certificates in Kubernetes.
+- [Neoteroi/essentials-configuration-keyvault](https://github.com/Neoteroi/essentials-configuration-keyvault) Azure Key Vault source for essentials-configuration
+- [==techcommunity.microsoft.com: In preview: Azure Key Vault secrets provider extension for Arc enabled Kubernetes clusters==](https://techcommunity.microsoft.com/t5/azure-arc-blog/in-preview-azure-key-vault-secrets-provider-extension-for-arc/ba-p/3002160)
 
 ### CyberArk and Ansible
 - [ansible.com: Simplifying secrets management with CyberArk and Red Hat Ansible Automation Platform](https://www.ansible.com/blog/simplifying-secrets-management-with-cyberark-and-red-hat-ansible-automation-platform)
