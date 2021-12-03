@@ -10,6 +10,7 @@
 - [dzone: How DevOps Teams Can Switch to Remote Work](https://dzone.com/articles/effective-transition-to-remote-working-for-devops)
 - [enterprisersproject.com: Remote work: 10 tips to be a better virtual collaborator](https://enterprisersproject.com/article/2021/2/remote-work-virtual-collaboration-best-practices) Mismatched expectations, poor tools, or even bad manners can hurt virtual collaboration. Consider these remote working best practices for leaders and colleagues.
 - [elconfidencial.com: ¿Qué negociar en el acuerdo de teletrabajo? Guía práctica para empresas y empleados](https://www.elconfidencial.com/juridico/2021-09-27/negociar-acuerdo-teletrabajo-guia-practica-empresas_3295723/) Los pactos individuales de empleo remoto generan muchas dudas tanto a compañías como a los trabajadores. Estas son algunas claves a tener en cuenta en el proceso de negociación
+- [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre/)
 
 ## Tools recommended by Forbes
 - [krisp](https://krisp.ai/) Noise cancelling app

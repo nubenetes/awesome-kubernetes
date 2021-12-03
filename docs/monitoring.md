@@ -207,6 +207,15 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 - [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
 - [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
+- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) In this post, we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
+
+    |  | __AWS ESS__ | __Elastic Cloud__ | __Self-hosted__ | 
+    | :--- | :--- | :--- | :--- |
+    | __Operational Burden__ | __Medium__. Requires intimate knowledge of other AWS services to go beyond defaults. | __Low__. Backups, version upgrades, etc. are automated. | __High__ You need to provision, configure and maintain the cluster(s) yourself. |
+    | __Cost__ | __Medium__. Over 50% premium on underlying infrastructure cost. | __High__. Up to 3x the cost of underlying infrastructure.| __Low__. Only pay for the underlying infrastructure. Optionally can purchase x-pack license for additional features and support. |
+    | __Configurability__ | __Low__. No support for custom plugins. Several configuration parameters are not available. | __Medium__. Does support custom plugins and all parameters are available. Lack of direct node ssh access. | __High__. Full node-level acess. |
+    | __Monitoring__ | __Mediocre__. Kibana monitoring is not available. Cloudwatch is often inadequate for Elasticsearch monitoring. | __Good__. Kibana monitoring available and pre-installed. | __Depends__. It is up to you to implement an adequate monitoring system, but you have access to kibana monitoring. |
+    | __Future-proof__ | __Medium__. Oftern lags several minor versions behind the latest Elasticsearch version. Some features are not available at all. | __High__. Same day Elasticsearch version parity. All features are available. | __High__. Up to you to upgrade as needed, but in theory the same Elastic Cloud. |
 
 #### Elastic Cloud on Kubernetes (ECK)
 - [medium: A detailed guide to deploying Elasticsearch on Elastic Cloud on Kubernetes (ECK)](https://medium.com/99dotco/a-detail-guide-to-deploying-elasticsearch-on-elastic-cloud-on-kubernetes-eck-31808ac60466) Running Elasticsearch on Kubernetes allows developers/admins to utilize container orchestration by Kubernetes and apply best practices on managing Elasticsearch clusters by the Elastic Operator

@@ -213,6 +213,7 @@
 * [jan-krueger.net: Git cheat sheet, extended edition](https://jan-krueger.net/git-cheat-sheet-extended-edition)
 * [dev.to: A Git Cheat Sheet](https://dev.to/baransel/a-git-cheat-sheet-4mab)
 * [==geeksforgeeks.org: Essential Git Commands== 🌟](https://www.geeksforgeeks.org/essential-git-commands/)
+* [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)

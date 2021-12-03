@@ -26,6 +26,7 @@
 - [guides.github.com: Markdown Cheat Sheet 2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)
 
 ## GitHub Pages
 - [pages.github.com](https://pages.github.com/)
