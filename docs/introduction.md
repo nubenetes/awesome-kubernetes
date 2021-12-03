@@ -1,4 +1,4 @@
-# Introduction. From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes
+# Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
 - [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
 - [Self service developer platform](#self-service-developer-platform)
@@ -253,7 +253,7 @@
 
 ## From Java EE To Cloud Native
 - [wikipedia: Java Enterprise Edition (Java EE)](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition)
-- [lightbend.com: From Java EE To Cloud Native: The End Of The Heavyweight Era 🌟](https://www.lightbend.com/white-papers-and-reports/java-ee-to-cloud-native-modernization)
+- [==lightbend.com: From Java EE To Cloud Native: The End Of The Heavyweight Era== 🌟](https://www.lightbend.com/white-papers-and-reports/java-ee-to-cloud-native-modernization)
 
 ## Monolith to Microservices Using the Strangler Pattern
 - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt) The Strangler Pattern is a popular design pattern to incrementally transform your monolithic application into microservices by replacing a particular functionality with a new service. Once the new functionality is ready, the old component is strangled, the new service is put into use, and the old component is decommissioned altogether.

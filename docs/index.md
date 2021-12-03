@@ -52,7 +52,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==How to Explain Kubernetes to a Business Team== 🌟](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 
 ## Introduction
-- [From Java EE To Cloud Native. Microservice Architecture. Openshift VS Kubernetes](introduction.md)
+- [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
 ## SRE Site Reliability Engineering 
 - [Site Reliability Engineering (SRE)](sre.md)

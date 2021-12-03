@@ -211,7 +211,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
     |  | __AWS ESS__ | __Elastic Cloud__ | __Self-hosted__ | 
     | :--- | :--- | :--- | :--- |
-    | __Operational Burden__ | __Medium__. Requires intimate knowledge of other AWS services to go beyond defaults. | __Low__. Backups, version upgrades, etc. are automated. | __High__ You need to provision, configure and maintain the cluster(s) yourself. |
+    | __Operational Burden__ | __Medium__. Requires intimate knowledge of other AWS services to go beyond defaults. | __Low__. Backups, version upgrades, etc. are automated. | __High__. You need to provision, configure and maintain the cluster(s) yourself. |
     | __Cost__ | __Medium__. Over 50% premium on underlying infrastructure cost. | __High__. Up to 3x the cost of underlying infrastructure.| __Low__. Only pay for the underlying infrastructure. Optionally can purchase x-pack license for additional features and support. |
     | __Configurability__ | __Low__. No support for custom plugins. Several configuration parameters are not available. | __Medium__. Does support custom plugins and all parameters are available. Lack of direct node ssh access. | __High__. Full node-level acess. |
     | __Monitoring__ | __Mediocre__. Kibana monitoring is not available. Cloudwatch is often inadequate for Elasticsearch monitoring. | __Good__. Kibana monitoring available and pre-installed. | __Depends__. It is up to you to implement an adequate monitoring system, but you have access to kibana monitoring. |
