@@ -109,7 +109,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
 - [SonarQube](sonarqube.md)
 - [Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more](registries.md)
-- [Selenium, Cucumber, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
 - [Linux & SSH 🌟](linux.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
 ### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
@@ -192,6 +191,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## QA/TestOps - Continuous Testing
 - [QA](qa.md)
 - [TestOps and Continuous Testing](testops.md)
+- [Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more](test-automation-frameworks.md)
+
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)

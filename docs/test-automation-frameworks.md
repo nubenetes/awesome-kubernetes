@@ -1,4 +1,4 @@
-# Test Automation Frameworks and Behavior Driven Development. Selenium, Cucumber, Appium & Zephyr Jira Plugin
+# Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more
 - [Introduction](#introduction)
 - [Selenium](#selenium)
 - [Robot Framework](#robot-framework)
