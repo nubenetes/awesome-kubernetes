@@ -40,6 +40,7 @@
 - [medium: 6 key areas to improve your DevOps performance](https://medium.com/codex/6-key-areas-to-improve-your-devops-performance-f4c4226feb25)
 - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/sysadmin/it-automation-training) Make the path to automation more efficient with training that translates into immediate business impacts.
 - [about.gitlab.com: Soft skills are the key to your DevOps career advancement](https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement)
+- [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know/)
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 

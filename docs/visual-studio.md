@@ -94,6 +94,7 @@ A simple extension to make indentation more readable
     * [Python in Visual Studio Code – October 2020 Release. Debugpy 1.0](https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2020-release/)
 * [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) Yes, there’s more than GitLens!
 * [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt) The best engineering teams I’ve talked to use the right tools to continuously refactor code, improve their codebase communication, and address technical debt.
+* [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package

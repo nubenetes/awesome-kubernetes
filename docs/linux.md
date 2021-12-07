@@ -204,6 +204,7 @@
 - [dev.to: Useful Tmux Configuration Examples](https://dev.to/iggredible/useful-tmux-configuration-examples-k3g)
 - [betterprogramming.pub: How to Use tmuxp to Manage Your tmux Session](https://betterprogramming.pub/how-to-use-tmuxp-to-manage-your-tmux-session-614b6d42d6b6) Take control of your tmux sessions.
 - [opensource.com: Linux tips for using cron to schedule tasks](https://opensource.com/article/21/11/cron-linux) Schedule backups, file cleanups, and other tasks by using this simple yet powerful Linux command-line tool. Download our new cron cheat sheet.
+- [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) Download files from the internet in your Linux terminal. Get the most out of the wget command with our new cheat sheet.
 
 ## Guestfish
 - [Guestfish](https://libguestfs.org/guestfish.1.html)

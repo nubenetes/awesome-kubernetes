@@ -417,6 +417,8 @@
 * [witchery-project/witchery](https://github.com/witchery-project/witchery) build distroless images with alpine tools
 * [==knight42/kubectl-blame: kubectl-blame: git-like blame for kubectl==](https://github.com/knight42/kubectl-blame) Show who edited resource fields. A useful opensource tool that comes as a plugin to show who modified attributes in kubernetes resource fields.
 * [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
+* [==kubernetes-sigs/node-feature-discovery: Node feature discovery for Kubernetes==](https://github.com/kubernetes-sigs/node-feature-discovery) Welcome to Node Feature Discovery – a Kubernetes add-on for detecting hardware features and system configuration!
+* [grpc-ecosystem/grpc-gateway: gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) gRPC to JSON proxy generator following the gRPC HTTP spec
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -567,6 +569,7 @@
 ## AWS Karpenter kubernetes Autoscaler
 - [==Karpenter==](https://karpenter.sh/) Just-in-time Nodes for Any Kubernetes Cluster. __Karpenter simplifies Kubernetes infrastructure with the right nodes at the right time.__ Karpenter automatically launches just the right compute resources to handle your cluster's applications. It is designed to let you take full advantage of the cloud with fast and simple compute provisioning for Kubernetes clusters.
 - [techcrunch.com: AWS launches Karpenter, an open source autoscaler for Kubernetes clusters](https://techcrunch.com/2021/11/30/aws-launches-karpenter-an-open-source-autoscaler-for-kubernetes-clusters/)
+- [itnext.io: Karpenter: Open-Source, High-Performance Kubernetes Cluster Autoscaler](https://itnext.io/karpenter-open-source-high-performance-kubernetes-cluster-autoscaler-d56e3ab06aae)
 
 ## Kuby (easy deployments of Ruby Rails App)
 - [Kuby](https://getkuby.io/) Deploy Your Rails App the Easy Way. Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt.

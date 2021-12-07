@@ -32,6 +32,7 @@
 - [NGINXConfig 🌟🌟](https://www.digitalocean.com/community/tools/nginx) The easiest way to configure a performant, secure, and stable NGINX server.
 - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
 - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1) Optimizing Nginx on Kubernetes Without a Adding a Cloud CDN.
+- [==freecodecamp.org: The NGINX Handbook== 🌟](https://www.freecodecamp.org/news/the-nginx-handbook/)
 
 ### Nginx Unit
 - [unit.nginx.org](https://unit.nginx.org) open source multi-language application server

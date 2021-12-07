@@ -81,6 +81,7 @@
     - [KubeCarrier](#kubecarrier)
     - [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
     - [Istio Service Mesh](#istio-service-mesh)
+- [Multi-Regional Architecture](#multi-regional-architecture)
 - [Kubernetes Scripts](#kubernetes-scripts)
     - [Kubernetes and Ansible](#kubernetes-and-ansible)
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
@@ -225,6 +226,7 @@
 - [kubernetespodcast.com](https://kubernetespodcast.com/)
 
 #### Kubernetes Blogs
+- [nativecloud.dev](https://nativecloud.dev)
 - [learnk8s.io/blog](https://learnk8s.io/blog)
 - [kubermatic.com](https://www.kubermatic.com/categories/kubernetes/)
 - [containerjournal.com](https://containerjournal.com)
@@ -471,6 +473,8 @@
 * [vxav.fr: Interacting with containerd runtime for kubernetes](https://www.vxav.fr/2021-09-13-interacting-with-containerd-runtime-for-kubernetes/)
 * [medium: Exploring Kubernetes Node Architecture](https://medium.com/nerd-for-tech/exploring-kubernetes-node-architecture-3a36df6ae034)
 * [mayankshah.dev: Demystifying kube-proxy](https://mayankshah.dev/blog/demystifying-kube-proxy/)
+* [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy/) This post analyzes the Kubernetes node proxy model, and provides 5 demo implementations (within couples of lines of code) of the model, each based on different tech-stacks (userspace/iptables/ipvs/tc-ebpf/sock-ebpf).
+* [blog.brujordet.no: Using custom hardware in kubernetes](https://blog.brujordet.no/post/homelab/using_custom_hardware_in_kubernetes/)
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -528,6 +532,7 @@
 * [dustinspecker.com: IPVS: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/ipvs-how-kubernetes-services-direct-traffic-to-pods/)
 * [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
 * [==medium: How to Schedule Pods on Nodes in Kubernetes==](https://medium.com/@knoldus/how-to-schedule-pods-on-nodes-in-kubernetes-af321d8ea5d)
+* [==medium: Kubernetes: Evenly Distribution of Pods Across Cluster Nodes== |Puru Tuladhar](https://medium.com/geekculture/kubernetes-distributing-pods-evenly-across-cluster-c6bdc9b49699)
 
 #### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -1106,6 +1111,9 @@
 ### Istio Service Mesh
 - [Istio](https://istio.io/)
 
+## Multi-Regional Architecture
+- [engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive/) Building a global SaaS platform requires lots of preparation, deep evaluation of your request routes and a truckload of R&D cooperation. Here's how we did it
+
 ## Kubernetes Scripts
 - [Kubernetes Scripts](https://github.com/eldada/kubernetes-scripts)
 - [Get applied and effective apiVersion from Kubernetes objects](https://gist.github.com/ninlil/affbf7514d4e74c7634e77f47e172236)
@@ -1210,6 +1218,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9wvEwPLcLcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NrytqS43dgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

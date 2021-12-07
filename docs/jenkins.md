@@ -507,6 +507,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Blue Ocean Pipeline Editor](https://plugins.jenkins.io/blueocean-pipeline-editor/)
 * [AWS Kinesis Consumer](https://plugins.jenkins.io/aws-kinesis-consumer/)
 * [Cucumber reports](https://plugins.jenkins.io/cucumber-reports)
+* [NPM and Yarn Wrapper and Steps](https://plugins.jenkins.io/npm-yarn-wrapper-steps)
 
 ### Plugin Development. Jenkins Plugin Parent POM 4.0
 - [Plugin Development](https://www.jenkins.io/doc/developer/plugin-development/)
@@ -568,6 +569,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     * [github PR: Enable to provide telemetry data to OpenTelemetry Collector](https://github.com/jenkinsci/remoting-opentelemetry-plugin/pull/40) Great step forward for the troubleshooting of JenkinsCI Agents  with the visualization of the "Jenkins Remoting Keep Alive" messages as distributed traces
 * [influxdb-plugin](https://github.com/jenkinsci/influxdb-plugin) Jenkins plugin to send build metrics into InfluxDB
 * [youtube.com: CloudBeesTV - How to Monitor Jenkins With Grafana and Prometheus 🌟](https://www.youtube.com/watch?v=3H9eNIf9KZs&ab_channel=CloudBeesTV)
+* [==jenkins-infra/jenkins-usage-stats== 🌟](https://github.com/jenkins-infra/jenkins-usage-stats) Jenkins usage statistics reports generator. jenkins-usage-stats handles importing daily Jenkins usage reports into a database, and generating monthly reports from that data.
+    * [==stats.jenkins.io== 🌟](http://stats.jenkins.io) Jenkins infra-statistics
 
 ## Externalizing Fingerprint Storage for Jenkins 
 - New FingerprintStorage API to build external fingerprint storage plugins.

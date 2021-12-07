@@ -177,6 +177,10 @@
 - [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 
 - [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know/) Python One-Liners can help you perform complex tasks with just one line of Python code. Here are some of the most useful ones to know!
 - [dev.to: Installing Python in Ubuntu 20.04](https://dev.to/jkariukidev/installing-python-in-ubuntu-2004-4nf8)
+- [redhat.com: Packaging applications to install on other machines with Python](https://www.redhat.com/sysadmin/packaging-applications-python) Use a virtual environment, pip, and setuptools to package applications with their dependencies for smooth installation on other computers.
+- [redhat.com: Writing and unit testing a Python application to query the RPM database](https://www.redhat.com/sysadmin/query-rpm-database-python)
+- [thenewstack.io: More Python for Non-Programmers](https://thenewstack.io/more-python-for-non-programmers/)
+- [==python.plainenglish.io: How to Perform Read and Write Operations on JSON Files in Python==](https://python.plainenglish.io/how-to-perform-read-and-write-operations-on-json-files-in-python-a5bac724320d) A simple guide to handle JSON files in Python.
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

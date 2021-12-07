@@ -12,6 +12,7 @@
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [PlantUML](https://plantuml.com/)
 - [draw.io](https://drawio-app.com/)
+	- [opensource.com: Open source mind mapping with Draw.io](https://opensource.com/article/21/12/open-source-mind-mapping-drawio) Next time you need to brainstorm, organize ideas, or plan a project, start with Draw.io.
 - [Isoflow](https://isoflow.io) Infrastructure Diagrams
 - [acloudguru.com: The top cloud diagramming tools, ranked](https://acloudguru.com/blog/engineering/the-top-cloud-diagramming-tools-ranked)
 - [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/architect/diagramming-tools-cloud-infrastructure) Communicating a vision for cloud computing requires meaningful diagrams of logical, physical, and every layer in between. Here are tools that will help make them.

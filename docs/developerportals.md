@@ -98,6 +98,7 @@
 - [openshift.com: Modern Application Development With Kong Konnect Enterprise and Red Hat OpenShift](https://www.openshift.com/blog/modern-application-development-with-kong-konnect-enterprise-and-red-hat-openshift)
 - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)
 - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
+- [==dzone: Breaking Up a Monolithic Database with Kong==](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong) If your microservice design results in a very large API or multiple services accessing a single database, check out why Kong Gateway should be part of your project.
 
 ### Tyk API Manager 
 - [Tyk API Manager](https://tyk.io/)

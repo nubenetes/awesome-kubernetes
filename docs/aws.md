@@ -368,6 +368,10 @@ You can filter by topic using the toolbar above.
 - [==venturebeat.com: Amazon’s AWS expands free ‘egress’ data transfer limits==](https://venturebeat.com/2021/11/25/amazons-aws-expands-free-egress-data-transfer-limits/)
 - [linux.slashdot.org: AWS Embraces Fedora Linux for Its Cloud-Based 'Amazon Linux'](https://linux.slashdot.org/story/21/11/27/0328223/aws-embraces-fedora-linux-for-its-cloud-based-amazon-linux)
 - [AWS announces the new **Amazon Inspector** for continual vulnerability management](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/)
+- [techcrunch.com: AWS to launch over 30 new Local Zones internationally starting in 2022](https://techcrunch.com/2021/12/02/aws-to-launch-over-30-new-local-zones-starting-in-2022/)
+- [==venturebeat.com: 6 big Kubernetes container security launches at AWS re:Invent 2021==](https://venturebeat.com/2021/12/03/6-big-kubernetes-container-security-launches-at-aws-reinvent-2021/)
+- [forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements/)
+- [==aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021==](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)

@@ -80,6 +80,7 @@
 - [docs.microsoft.com: Azure Load Testing](https://docs.microsoft.com/azure/load-testing/)
 - [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale/)
 - [venturebeat.com: Microsoft launches fully managed Azure Load Testing service](https://venturebeat.com/2021/11/30/microsoft-launches-fully-managed-azure-load-testing-service/)
+- [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview/)
 
 ## Alternatives
 * [webpagetest.org](https://webpagetest.org/)

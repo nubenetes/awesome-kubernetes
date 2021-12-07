@@ -93,6 +93,7 @@
 
 ## Google Cloud Cheat Sheet
 - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words)
+
 ## API Cheatsheets
 - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 
@@ -151,6 +152,7 @@
 	* `kubectl logs -l app=my.app --tail=-1` 
 * [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
 * [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
+* [==komodor.com: The Ultimate Kubectl Cheat Sheet== 🌟](https://komodor.com/learn/the-ultimate-kubectl-cheat-sheet/)
 
 ## Kubernetes Kustomize Cheat Sheet
 - [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)
@@ -214,6 +216,8 @@
 * [dev.to: A Git Cheat Sheet](https://dev.to/baransel/a-git-cheat-sheet-4mab)
 * [==geeksforgeeks.org: Essential Git Commands== 🌟](https://www.geeksforgeeks.org/essential-git-commands/)
 * [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)
+* Find the first commit you ever made: ```git log --reverse``` 
+* [==joshnh/Git-Commands== 🌟](https://github.com/joshnh/Git-Commands/blob/master/README.md) A list of commonly used Git commands
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)

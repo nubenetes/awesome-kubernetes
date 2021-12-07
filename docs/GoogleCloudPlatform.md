@@ -60,6 +60,7 @@
 - [cloud.google.com: What is Cloud Load Balancing?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-load-balancing)
 - [cloud.google.com: Google Cloud Networking overview 🌟🌟](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview)
 - [cloud.google.com: Service orchestration on Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/service-orchestration-google-cloud)
+- [cloud.google.com: The next big evolution in serverless computing](https://cloud.google.com/blog/products/serverless/the-next-big-evolution-in-cloud-computing)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

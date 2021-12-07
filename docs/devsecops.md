@@ -10,6 +10,7 @@
 - [IaC and Security](#iac-and-security)
 - [Multi-Level Security (MLS) vs Multi-Category Security (MCS). Make Secure Pipelines with Podman and Containers](#multi-level-security-mls-vs-multi-category-security-mcs-make-secure-pipelines-with-podman-and-containers)
 - [Project Calico](#project-calico)
+- [The Falco Project](#the-falco-project)
 - [Security Patterns for Microservice Architectures](#security-patterns-for-microservice-architectures)
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
 - [Twistlock and Threat Stack Container Security](#twistlock-and-threat-stack-container-security)
@@ -39,6 +40,7 @@
 	- [Alternatives with Kubernetes External Secrets](#alternatives-with-kubernetes-external-secrets)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
 - [Docker Images & Container Security](#docker-images--container-security)
+	- [Sigstore](#sigstore)
 	- [Container security best practices](#container-security-best-practices)
 - [Pod Security Policies](#pod-security-policies)
 - [Kubernetes Network Policies](#kubernetes-network-policies)
@@ -130,6 +132,7 @@
 - [devops.com: Tips for a Successful DevSecOps Life Cycle](https://devops.com/tips-for-a-successful-devsecops-life-cycle/)
 - [blog.aquasec.com: Advanced Persistent Threat Techniques Used in Container Attacks](https://blog.aquasec.com/advanced-persistent-threat-techniques-container-attacks) In this blog, you will explore advanced persistent threat techniques used in container attacks, learn how rootkits work, and how adversaries are using them to attack cloud native environments.
 - [thenewstack.io: 5 Misconceptions About DevSecOps](https://thenewstack.io/5-misconceptions-about-devsecops/)
+- [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach/)
 
 ## Zero Trust Security
 - [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
@@ -182,6 +185,10 @@
 * [Project Calico](https://www.projectcalico.org/) Secure networking for the cloud native era
 * [thenewstack.io: Project Calico: Kubernetes Security as SaaS](https://thenewstack.io/project-calico-kubernetes-security-as-saas/)
 
+## The Falco Project
+- [Falco.org](https://falco.org) Cloud-Native runtime security
+- [==sysdig.com: Getting started with runtime security and Falco==](https://sysdig.com/blog/intro-runtime-security-falco/)
+
 ## Security Patterns for Microservice Architectures
 - [Security Patterns for Microservice Architectures](https://developer.okta.com/blog/2020/03/23/microservice-security-patterns)
 
@@ -226,6 +233,7 @@
 - [medium: Verify Container Image Signatures in Kubernetes using Notary or Cosign or both](https://medium.com/sse-blog/verify-container-image-signatures-in-kubernetes-using-notary-or-cosign-or-both-c25d9e79ec45) Connaisseur v2.0 adds support for multiple keys and signature solutions.
 - [infracloud.io: How to Secure Containers with Cosign and Distroless Images](https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images/)
 - [appvia.io: Tutorial: Keyless Sign and Verify Your Container Images With Cosign](https://www.appvia.io/blog/tutorial-keyless-sign-and-verify-your-container-images)
+- [==github.blog: Safeguard your containers with new container signing capability in GitHub Actions (cosign)==](https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/)
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
@@ -324,6 +332,8 @@
 - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
 - [igorzhivilo.com: Scheduled backup of Vault secrets with Jenkins on Kubernetes](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/) If you ever wondered how to save the secrets of HashiCorp's Vault on a daily basis.
 - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)
+- [==medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1== | Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1)
+	- [==medium: Install Hashicorp Vault on Kubernetes using Helm — Part 2== | Marco Franssen](https://medium.com/@marco.franssen/install-hashicorp-vault-on-kubernetes-using-helm-part-2-d612cf6c0c91)
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
@@ -379,10 +389,13 @@
 - [docs.microsoft.com: Introduction to Azure Defender for container registries](https://docs.microsoft.com/en-us/azure/security-center/defender-for-container-registries-introduction#when-are-images-scanned) Defender for Container Registries Continuous Image Scan for vulnerabilities is now available for General Availability (GA)
 - [techbeacon.com: 17 open-source container security tools 🌟](https://techbeacon.com/security/17-open-source-container-security-tools)
 - [about.gitlab.com: How to secure your container images with GitLab and Grype](https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/) - [grype: a vulnerability scanner for container images and filesystems](https://github.com/anchore/grype)
-- [sigstore.dev](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
-	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
 - [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) validate the structure of your container images
 - [dynatrace.com: Container security: What it is, why it’s tricky, and how to do it right](https://www.dynatrace.com/news/blog/what-is-container-security/)
+
+### Sigstore 
+- [sigstore.dev](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
+	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
+- [==opensource.com: Sign and verify container images with this open source tool (sigstore)==](https://opensource.com/article/21/12/sigstore-container-images) The sigstore project aims at securing supply chain technology.
 
 ### Container security best practices
 - [sysdig.com: Container security best practices: Ultimate guide 🌟](https://sysdig.com/blog/container-security-best-practices)

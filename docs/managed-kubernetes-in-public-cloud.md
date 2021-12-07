@@ -187,6 +187,7 @@
 - [azurecloudai.blog: Deploy Azure Kubernetes Service (AKS) to a preexisting VNET](https://azurecloudai.blog/2019/09/27/deploy-azure-kubernetes-service-aks-to-a-preexisting-vnet/)
 - [tigera.io: Turbocharging AKS networking with Calico eBPF](https://www.tigera.io/blog/turbocharging-aks-networking-with-calico-ebpf/)
 - [akhilsharma.work: How to list Azure RBAC Roles to Secure AKS Clusters](https://akhilsharma.work/how-to-list-azure-rbac-roles-to-secure-aks-clusters/)
+- [tigera.io: Calico WireGuard support with Azure CNI](https://www.tigera.io/blog/calico-wireguard-support-with-azure-cni/) Last June, Tigera announced a first for Kubernetes: supporting open-source WireGuard for encrypting data in transit within your cluster. We never like to sit still, so we have been working hard on some exciting new features for this technology, the first of which is support for WireGuard on AKS using the Azure CNI.
 
 ## GKE Google Kubernetes Engine
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)

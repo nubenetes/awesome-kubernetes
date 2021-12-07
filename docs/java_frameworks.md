@@ -163,6 +163,7 @@ optimizing Enterprise Java for the microservices architecture.
 * [piotrminkowski.com: Spring Boot Tips, Tricks and Techniques](https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/)
 * [javatechonline.com: How To Work With Apache Kafka In Spring Boot?](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/)
 * [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) In this Spring Boot video tutorial, take a closer look at how to run the Spring Boot application as a stand-alone Java application and RESTful Web Services.
+* [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)

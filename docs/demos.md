@@ -634,6 +634,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## Azure Samples
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
+- [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://doylestowncoder.com/2021/11/29/building-ci-cd-pipelines-with-azure-data-factory-part-1/)
+    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://doylestowncoder.com/2021/12/02/building-ci-cd-pipelines-with-azure-data-factory-part-2/)
+    - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://doylestowncoder.com/2021/12/05/building-ci-cd-pipelines-with-azure-data-factory-part-3/)
 
 ### Azure DevOps Demos. Azure DevOps Pipelines
 - [Azure DevOps Demo Generator 🌟](https://azuredevopsdemogenerator.azurewebsites.net/) Azure DevOps Demo Generator helps you create projects on your Azure DevOps Organization with pre-populated sample content that includes source code, work items, iterations, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to simplify working with the [Azure Devops hands-on-labs 🌟](https://www.azuredevopslabs.com/), demos and other education material provided by the Microsoft Azure Marketing team.
@@ -663,6 +666,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) Workshop-style guide for rearchitecting a Java Monolith application to a Cloud Native architecture running in Kubernetes
 - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)
 - [piomin/sample-spring-microservices-kubernetes: Microservices with Spring Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) sample spring boot application that uses some features provided by spring cloud kubernetes, spring cloud ribbon and zuul proxy deployed on Kubernetes 
+- [==piomin/sample-spring-microservices-new: Microservices with Spring Cloud Advanced Demo Project==](https://github.com/piomin/sample-spring-microservices-new) I have just updated my sample microservices repository to the latest versions of SpringBoot (2.6.1), SpringCloud, and Java (17). The previously used versions were Java 8 and Spring Boot 2.0.6. Demo for Spring Boot 2 and Spring Cloud microservices with distributed configuration (Spring Cloud Config), service discovery (Eureka), API gateway (Spring Cloud Gateway, Zuul), Swagger2 API documentation, logs correlation using Spring Cloud Sleuth and many more.
 
 ## Quarkus Demos
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
@@ -699,6 +703,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [fsgeorgee.medium.com: Growing out of Heroku to Terraform, Docker and AWS](https://fsgeorgee.medium.com/growing-out-of-heroku-to-terraform-docker-and-aws-69e66df4132d)
 - [StarpTech/k-andy](https://github.com/StarpTech/k-andy) This terraform module will install a High Availability K3s Cluster with Embedded DB in a private network on Hetzner Cloud.
 - [adamtheautomator.com: How To Build a Database Instance with Terraform and AWS RDS](https://adamtheautomator.com/terraform-aws-rds/)
+- [BishopFox/iam-vulnerable](https://github.com/BishopFox/iam-vulnerable) Use Terraform to create your own vulnerable by design AWS IAM privilege escalation playground. IAM Vulnerable uses the Terraform binary and your AWS credentials to deploy over 250 IAM resources into your selected AWS account. Within minutes, you can start learning how to identify and exploit vulnerable IAM configurations that allow for privilege escalation.
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

@@ -31,6 +31,7 @@
 * [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes)
 * [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad/) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay." 
 * [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes/)
+* [nomadproject.io: An alternative to Kubernetes](https://www.nomadproject.io/docs/nomad-vs-kubernetes/alternative)
 
 ## Portainer
 * [Portainer](https://www.portainer.io/) Making Docker management easy

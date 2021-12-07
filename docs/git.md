@@ -1,5 +1,6 @@
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
+- [Git and GitHub Backup](#git-and-github-backup)
 - [Cherry-picking](#cherry-picking)
 - [Git Submodules](#git-submodules)
 - [Git Interview Questions](#git-interview-questions)
@@ -150,10 +151,15 @@
 * [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers/)
 * [==cloudsavvyit.com: Should You Use HTTPS or SSH For Git?== 🌟](https://www.cloudsavvyit.com/14822/should-you-use-https-or-ssh-for-git/)
 * [cloudsavvyit.com: How to Move Changes to Another Branch in Git](https://www.cloudsavvyit.com/14710/how-to-move-changes-to-another-branch-in-git/)
-* [dzone.com: Git Clone Command vs. GitHub Backup - Best Practices](https://dzone.com/articles/git-clone-command-vs-github-backup-best-practices) Git clone command vs. GitHub backup - what you should know to keep your git repositories and metadata safe and sound. Check in-depth analysis.
 * [==marklodato.github.io: A Visual Git Reference== 🌟](https://marklodato.github.io/visual-git-guide/index-en.html)
 * [dev.to: Get lazy with lazygit](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37)
 * [levelup.gitconnected.com: Top 30 Git Commands You Should Know To Master Git CLI](https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc) Learn the most essential Git commands to boost your productivity, and become a master in managing the GitHub repositories.
+
+## Git and GitHub Backup
+- [backhub.co](https://www.backhub.co/) Reliable GitHub repository backup, set up in minutes
+- [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process/)
+- [dzone.com: Git Clone Command vs. GitHub Backup - Best Practices](https://dzone.com/articles/git-clone-command-vs-github-backup-best-practices) Git clone command vs. GitHub backup - what you should know to keep your git repositories and metadata safe and sound. Check in-depth analysis.
+- [dev.to: 3 Ways to Backup Your Code (Even If You Don’t Know Git)](https://dev.to/github/3-ways-to-backup-your-code-even-if-you-dont-know-git-1o5l)
 
 ## Cherry-picking
 * [opensource.com: 3 reasons I use the Git cherry-pick command](https://opensource.com/article/21/3/git-cherry-pick) Cherry-picking solves a lot of problems in Git repositories. Here are three ways to fix your mistakes with git cherry-pick.
@@ -354,9 +360,7 @@ git push origin -f
 * [github.blog: Improving how we deploy GitHub](https://github.blog/2021-01-25-improving-how-we-deploy-github/) 
 * [github.blog: Deployment reliability at GitHub](https://github.blog/2021-02-03-deployment-reliability-at-github/)
 * [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/2021-02-04-extending-gitops-to-reliability-as-code-with-github-and-stackpulse/)
-* [backhub.co](https://www.backhub.co/) Reliable GitHub repository backup, set up in minutes
 * [GitHub public roadmap 🌟](https://github.com/github/roadmap)
-* [devops.com: Make GitHub Backups Part of Your Development Process](https://devops.com/make-github-backups-part-of-your-development-process/)
 * [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/2021-03-23-solving-the-innersource-discovery-problem/)
 * [devopstips.net: Create, Host and Share Docker Images with GitHub Packages](https://devopstips.net/create-host-and-share-docker-images-with-github-packages)
 * [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
@@ -386,6 +390,8 @@ git push origin -f
 * [==dev.to: Learn how to use Git and GitHub in a team like a pro==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7)
     * [==dev.to: Learn how to use Git and GitHub in a team like a pro (part 2)==](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-part-2-11j)
 * [==dev.to: Git and GitHub for beginners==](https://dev.to/ericawanja/git-and-github-for-beginners-33a0)
+* [==adamtheautomator.com: How to Manage GitHub Actions Environment Variables and Secrets==](https://adamtheautomator.com/github-actions-environment-variables/)
+* [dev.to: Introduction to Git and GitHub](https://dev.to/estherwanjiru/introduction-to-git-and-github-25ei)
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
@@ -452,6 +458,7 @@ git push origin -f
 * [gmaster](https://gmaster.io/)
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
+* [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) Git extension for versioning large files
 
 ### Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)
 * [semantic-release.gitbook.io 🌟](https://semantic-release.gitbook.io/semantic-release/) Semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.

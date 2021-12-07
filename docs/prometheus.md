@@ -120,6 +120,7 @@
 * [source.coveo.com: Prometheus at scale](https://source.coveo.com/2021/11/11/prometheus-at-scale/) Check out how Coveo uses Thanos and Prometheus.
 * [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1) In this blog post, you will go through the two different approaches for integrating  
 Thanos Metrics with prometheus in Kubernetes environments.
+* [==prometheus.io: Comparison to Alternatives== 🌟](https://prometheus.io/docs/introduction/comparison/)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

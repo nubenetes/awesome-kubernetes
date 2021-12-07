@@ -3,6 +3,8 @@
 - [Kubernetes Logging](#kubernetes-logging)
 - [SLOs in Kubernetes](#slos-in-kubernetes)
 - [ECK Elastic Cloud on Kubernetes](#eck-elastic-cloud-on-kubernetes)
+- [Telegraf Operator](#telegraf-operator)
+- [Monitoring Certificates Expiration](#monitoring-certificates-expiration)
 
 ## Introduction
 * [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
@@ -47,3 +49,9 @@
 
 ## ECK Elastic Cloud on Kubernetes 
 - [elastic.co: How to configure Elastic Cloud on Kubernetes with SAML and hot-warm-cold architecture](https://www.elastic.co/es/blog/how-to-configure-elastic-cloud-on-kubernetes-with-saml-and-hot-warm-cold-architecture) Elastic Cloud on Kubernetes (ECK) is an easy way to get the Elastic Stack up and running on top of Kubernetes. That’s because ECK automates the deployment, provisioning, management, and setup of Elasticsearch, Kibana, Beats, and more. 
+
+## Telegraf Operator
+- [influxdata.com: Expand Kubernetes Monitoring with Telegraf Operator](https://www.influxdata.com/blog/expand-kubernetes-monitoring-telegraf-operator)
+
+## Monitoring Certificates Expiration
+- [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)

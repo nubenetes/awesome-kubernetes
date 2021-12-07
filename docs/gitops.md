@@ -44,9 +44,9 @@
 - [medium: GitOps : The Next Big Thing for DevOps and Automation!](https://medium.com/searce/gitops-the-next-big-thing-for-devops-and-automation-2a9597e51559) If you have similar questions like: “What’s GitOps?”, “Why we are moving towards this?”, “How and when one can implement this strategy in now running environment?”, “What are the tools it included?” then you have landed on the right page.
 - [thenewstack.io: Understanding GitOps: The Latest Tools and Philosophies](https://thenewstack.io/understanding-gitops-the-latest-tools-and-philosophies/)
 - [samiyaakhtar.medium.com: GitOps Observability — Visualizing the journey of a container](https://samiyaakhtar.medium.com/gitops-observability-visualizing-the-journey-of-a-container-5f6ef1f3c9d2)
-- [clickittech.com: What is GitOps? 🌟](https://www.clickittech.com/devops/what-is-gitops)
+- [==clickittech.com: What is GitOps?== 🌟](https://www.clickittech.com/devops/what-is-gitops)
 - [blog.container-solutions.com: 11 Reasons for Adopting GitOps](https://blog.container-solutions.com/why-adopt-gitops)
-- [opensource.com: GitOps vs. DevOps: What's the difference? 🌟](https://opensource.com/article/21/3/gitops) Get to know GitOps, an evolved form of DevOps.
+- [==opensource.com: GitOps vs. DevOps: What's the difference?== 🌟](https://opensource.com/article/21/3/gitops) Get to know GitOps, an evolved form of DevOps.
 - [geekflare.com: An Introduction to GitOps](https://geekflare.com/gitops-introduction/)
 - [thenewstack.io: GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/)
 - [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22)
@@ -112,6 +112,7 @@
 - [thenewstack.io: GitOps and the Cheap Cloud Myth](https://thenewstack.io/repatriation-or-cloud-what-we-need-is-control/)
 - [==redhat.com: Comparing GitOps implementation patterns: Pros and cons==](https://www.redhat.com/architect/gitops-implementation-patterns) The CI/CD Controller pattern and the SCM Controller pattern take different approaches to automating application deployment from source code management.
 - [==developer.ibm.com: GitOps: Best practices for the real world==](https://developer.ibm.com/blogs/gitops-best-practices-for-the-real-world)
+- [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops/) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -146,6 +147,13 @@
 - [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://cloudogu.com/en/blog/gitops-tools)
 - [shipa.io: From Terraform to GitOps to Pulumi 🌟](https://shipa.io/2021/10/from-terraform-to-gitops-to-pulumi/) 
+- [==vimeo.com: Weaveworks - Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps==](https://vimeo.com/516520492) One of the biggest advantages Kubernetes has to offer is that it is agnostic to infrastructure and capable of managing diverse workloads running on different compute resources. This allows organizations to manage multiple developer platforms, who can operate across many environments such as on premise, hybrid and multiple clouds.
+	- Streamlined processes and automation is pivotal for operations when managing clusters at scale and maintaining security and policy checks. Paul Curtis, Principal Solutions Architect will demonstrate GitOps and Weave Kubernetes Platform in a hybrid and multi-cloud setup.
+	- Learn how to:
+		- Use model-driven automation to increases reliability and stability across environments
+		- Simplify multi-cluster management with GitOps
+		- Enable developers to push code to production daily (self-service)
+		- Improve utilization and capacity management through Kubernetes platforms on cloud and on-premise infrastructure
 
 <center>
 [![gitops pipeline](images/gitops-pipeline.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -247,6 +255,9 @@
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IpvFd41R9Vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/516520492?h=44510fb350" width="640" height="320" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/516520492">Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps</a> from <a href="https://vimeo.com/user58523808">Weaveworks</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </center>
 </details>
 

@@ -14,6 +14,7 @@
     - [Implementing a custom Kubernetes authentication method](#implementing-a-custom-kubernetes-authentication-method)
 - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
 - [EKS Security](#eks-security)
+- [CVE](#cve)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -229,6 +230,10 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [Amazon EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices/)
     * [EKS Best Practices Guide for Security 🌟](https://aws.github.io/aws-eks-best-practices/iam/)
 * [medium.com: Securing Kubernetes Dashboard on EKS with Pomerium](https://medium.com/dev-genius/securing-kubernetes-dashboard-on-eks-with-pomerium-e98c47610e2f)
+
+## CVE
+- [hackerone.com: Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces](https://hackerone.com/reports/1249583)
+- [blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742](https://blog.lightspin.io/nginx-custom-snippets-cve-2021-25742)
 
 ## Tweets
 <details>
