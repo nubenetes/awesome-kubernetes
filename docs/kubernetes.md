@@ -1144,6 +1144,23 @@
 - [itnext.io: Tips & Tricks for CKA, CKAD and CKS exams](https://itnext.io/tips-tricks-for-cka-ckad-and-cks-exams-cc9dade1f76d)
 - [bmuschko/ckad-crash-course: Certified Kubernetes Application Developer (CKAD) Crash Course](https://github.com/bmuschko/ckad-crash-course) 
 - [jamesbuckett/ckad-questions](https://github.com/jamesbuckett/ckad-questions) A set of exercises and solutions to prepare for the Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation.
+- [reddit.com/r/kubernetes: CKAD - free materials](https://www.reddit.com/r/kubernetes/comments/r4q1ec/ckad_free_materials/) This collection of useful links and resources is indispensable if you're thinking of passing the CKAD (Certified Kubernetes Application Developer) course!
+    - Courses: https://www.edx.org/course/introduction-to-kubernetes
+    - Exercises: https://github.com/dgkanatsios/CKAD-exercises
+    - Workshops: 
+        - https://kube.academy/courses/ckad-practice
+        - https://kodekloud.com/courses/game-of-pods/
+        - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+        - https://www.katacoda.com/courses/kubernetes/
+    - VIM: [Vim Crash Course | How to edit files quickly in CKAD / CKA exam](https://www.youtube.com/watch?v=knyJt8d6C_8&ab_channel=TheFrontOpsGuy)
+    - Cheatsheet: 
+        - https://kubernetes.io/docs/reference/kubectl/cheatsheet/ 
+        - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+    - Example questions: 
+        - [CKAD Example Question with Tips & Tricks](https://www.youtube.com/watch?v=wHha-Q3XVOg&ab_channel=DanLister)
+        - [Mock Test - 1, CKAD Prep Exam](https://www.youtube.com/watch?v=TPXwVmvzlV4&ab_channel=TheFrontOpsGuy)
+        - [Mock Test - 2, CKAD Prep Exam (Solution)](https://www.youtube.com/watch?v=BiY3b7F96wc&ab_channel=TheFrontOpsGuy)
+        - https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552
 
 ## Books and eBooks
 - [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)

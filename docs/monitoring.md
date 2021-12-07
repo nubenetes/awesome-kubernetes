@@ -388,7 +388,7 @@ done
     * [AppDynamics 🌟](https://www.appdynamics.com/)
     * [New Relic 🌟](https://newrelic.com/)
     * [Dynatrace 🌟](https://www.dynatrace.com/)
-    * [SigNoz 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.
+    * [==SigNoz: Open source Application Performance Monitoring (APM) & Observability tool== 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
     * [savecost/datav 🌟](https://github.com/savecost/datav) A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
 
 ### Elastic APM

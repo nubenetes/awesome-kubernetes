@@ -419,6 +419,7 @@ git push origin -f
 - [blog.thundra.io: Top 10 GitHub Actions You Should Use to set up your CI/CD Pipeline](https://blog.thundra.io/top-10-github-actions-you-should-use-to-set-up-your-ci/cd-pipeline)
 - [github.blog: 10 GitHub Actions resources to bookmark from the basics to CI/CD](https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/)
 - [==resources.github.com: What is GitHub Actions? How automation & CI/CD work on GitHub (whitepaper/pdf)==](https://resources.github.com/devops/tools/automation/actions)
+- [==github.blog: Container signing added to the Publish Docker Container workflow for GitHub Actions==](https://github.blog/changelog/2021-12-06-container-signing-added-to-the-publish-docker-container-workflow-for-github-actions/) We have added support for [sigstore](https://www.sigstore.dev/) container signing to the default GitHub Actions starter workflow for publishing container images. New workflows on public repositories will use this by default. If you have an existing workflow, you will need to update your workflow to take advantage of this capability.
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 

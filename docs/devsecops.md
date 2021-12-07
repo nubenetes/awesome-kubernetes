@@ -393,7 +393,7 @@
 - [dynatrace.com: Container security: What it is, why it’s tricky, and how to do it right](https://www.dynatrace.com/news/blog/what-is-container-security/)
 
 ### Sigstore 
-- [sigstore.dev](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
+- [==sigstore.dev==](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
 	- [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key. 
 - [==opensource.com: Sign and verify container images with this open source tool (sigstore)==](https://opensource.com/article/21/12/sigstore-container-images) The sigstore project aims at securing supply chain technology.
 

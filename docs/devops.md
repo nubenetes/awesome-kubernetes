@@ -41,6 +41,7 @@
 - [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/sysadmin/it-automation-training) Make the path to automation more efficient with training that translates into immediate business impacts.
 - [about.gitlab.com: Soft skills are the key to your DevOps career advancement](https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement)
 - [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know/)
+- [enterprisersproject.com: DevOps: 3 skills needed to support its future in the enterprise](https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it) If you're aiming for continuous improvement with your DevOps effort, prioritize these skills. They're critical to helping teams conquer cultural and technology challenges
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 

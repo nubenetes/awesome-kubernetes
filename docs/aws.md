@@ -372,6 +372,7 @@ You can filter by topic using the toolbar above.
 - [==venturebeat.com: 6 big Kubernetes container security launches at AWS re:Invent 2021==](https://venturebeat.com/2021/12/03/6-big-kubernetes-container-security-launches-at-aws-reinvent-2021/)
 - [forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements/)
 - [==aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021==](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021/)
+- [infoq.com: AWS Launches Amazon Kinesis Data Streams On-Demand](https://www.infoq.com/news/2021/12/kinesis-data-streams-ondemand/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -733,6 +734,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [harness.io: Tutorial: [Artifact Servers] S3 – How to Provide Cross-Account Access Via Bucket Policies](https://harness.io/blog/devops/tutorial-s3-cross-account/)
 - [Connect Amazon S3 File Gateway using AWS PrivateLink for Amazon S3](https://aws.amazon.com/es/blogs/architecture/connect-amazon-s3-file-gateway-using-aws-privatelink-for-amazon-s3/)
 - [blog.min.io: Certificate-based Authentication for S3](https://blog.min.io/certificate-based-authentication-with-s3/) MinIO encrypts data when stored on disk and when transmitted over the network.
+- [==acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?==](https://acloudguru.com/blog/engineering/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me)
 
 ## Amazon EFS Elastic File System
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
