@@ -34,3 +34,4 @@
 * [medium: Kubernetes v1.22 ends Cloud Provider LoadBalancer lock-in](https://medium.com/thermokline/kubernetes-v1-22-ends-cloud-provider-loadbalancer-lock-in-80ed7907695e) Users of Cloud Provider provisioned Kubernetes have been locked into using the Cloud providers LoadBalancers for external access to their applications. This changed in v1.22, a new feature called LoadBalancer class allows 3rd party solutions to selected as an alternative to the default Cloud LoadBalancer.
 * [sysdig.com: Kubernetes 1.23 – What’s new?](https://sysdig.com/blog/kubernetes-1-23-whats-new/)
 * [armosec.io: Kubernetes version 1.23 is out – everything you should know](https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know)
+* [thenewstack.io: Kubernetes 1.23: Dual Stack IPv4/IPv6, CronJobs, Ephemeral Volumes](https://thenewstack.io/kubernetes-1-23-dual-stack-ipv4-ipv6-cronjobs-ephemeral-volumes/)

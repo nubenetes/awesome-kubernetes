@@ -87,6 +87,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The chances of any candidate matching 100% of the requirements of a job ad for a software engineer are low.<br><br>Give it a shot and apply if you tick at least 40 - 50% of the boxes.<br><br>That company might still consider you for a different role.</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1423940403582144512?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The interview process is ultra-competitive.<br><br>But with proper preparation, it is possible to stand out.<br><br>THREAD: 20 common interview questions, what they really mean, and how to nail them:</p>&mdash; Sahil Bloom (@SahilBloom) <a href="https://twitter.com/SahilBloom/status/1423971814443819009?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interviewing for technical positions is a broken process.<br><br>I believe this is going to change soon.<br><br>Getting a job in the software industry we’ll look very different within the next 10 years.<br><br>Some thoughts: ↓</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1468203651759890432?ref_src=twsrc%5Etfw">December 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

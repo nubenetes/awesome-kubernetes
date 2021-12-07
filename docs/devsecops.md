@@ -133,6 +133,7 @@
 - [blog.aquasec.com: Advanced Persistent Threat Techniques Used in Container Attacks](https://blog.aquasec.com/advanced-persistent-threat-techniques-container-attacks) In this blog, you will explore advanced persistent threat techniques used in container attacks, learn how rootkits work, and how adversaries are using them to attack cloud native environments.
 - [thenewstack.io: 5 Misconceptions About DevSecOps](https://thenewstack.io/5-misconceptions-about-devsecops/)
 - [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach/)
+- [==redhat.com: Considerations for implementing DevSecOps practices. Checklist== 🌟](https://www.redhat.com/en/resources/considerations-implementing-devsecops-checklist)
 
 ## Zero Trust Security
 - [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
