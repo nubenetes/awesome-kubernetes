@@ -161,6 +161,7 @@
 * [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/master/docs/user/aws/README.md)).
 * [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start/)
 * [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.openshift.com/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
+* [==cloud.redhat.com: OpenShift Virtualization on Amazon Web Services==](https://cloud.redhat.com/blog/openshift-virtualization-on-amazon-web-services) Of the many selling points for OpenShift, one of the biggest is its ability to provide a common platform for workloads whether they are on premise or at one of the major cloud providers. With the availability of AWS bare metal instance types, Red Hat has announced that OpenShift 4.9 supports OpenShift Virtualization on AWS as a tech preview. Now virtual machines can be managed in much the same way in the cloud as on-premise.
 
 ### ROSA Red Hat OpenShift Service on AWS 
 * [redhat.com: Amazon and Red Hat Announce the General Availability of Red Hat OpenShift Service on AWS (ROSA)](https://www.redhat.com/en/about/press-releases/amazon-and-red-hat-announce-general-availability-red-hat-openshift-service-aws-rosa)

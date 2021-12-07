@@ -262,6 +262,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel](https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel/)
 - [itnext.io: Configuring Kafka Sources and Sinks declaratively in Kubernetes using Knative](https://itnext.io/configuring-kafka-sources-and-sinks-in-kubernetes-271e3757b208) This solves the complexity in work flow of compiling JARs and uploading them to a Kafka connect cluster. Using Knative it can be possible to leverage the Kubernetes cluster and define Kafka sources and sinks with Kubernetes objects.
 - [strimzi.io: Kafka upgrade improvements](https://strimzi.io/blog/2021/07/05/upgrade-improvements/)
+- [==redhat.com: Introducing Red Hat OpenShift Streams for Apache Kafka==](https://www.redhat.com/en/blog/introducing-red-hat-openshift-streams-apache-kafka)
 - [developers.redhat.com: Getting started with Red Hat OpenShift Streams for Apache Kafka](https://developers.redhat.com/articles/2021/07/07/getting-started-red-hat-openshift-streams-apache-kafka)
 - [developers.redhat.com: Managing the API life cycle in an event-driven architecture: A practical approach 🌟](https://developers.redhat.com/articles/2021/07/07/managing-api-life-cycle-event-driven-architecture-practical-approach)
 - [baeldung.com: List Active Brokers in a Kafka Cluster Using Shell Commands 🌟](https://www.baeldung.com/ops/kafka-list-active-brokers-in-cluster)
