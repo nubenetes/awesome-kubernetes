@@ -562,6 +562,7 @@ oc login
 * [kubevirt.io 🌟](https://kubevirt.io/) 
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 * [containerjournal.com: Red Hat Integrates KubeVirt With Kubernetes Management Platform From SAP](https://containerjournal.com/topics/container-management/red-hat-integrates-kubevirt-with-kubernetes-management-platform-from-sap/)
+* [kubermatic.com: Bringing Your VMs to Kubernetes With KubeVirt](https://www.kubermatic.com/blog/bringing-your-vms-to-kubernetes-with-kubevirt/)
 
 ## Networking and Network Policy in OCP4. SDN/CNI plug-ins
 - [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)

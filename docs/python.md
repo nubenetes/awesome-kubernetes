@@ -263,6 +263,7 @@
 ## Data Science
 - [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
 - [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)
+- [==towardsdatascience.com: How to Land a Data Science Job in 2022==](https://towardsdatascience.com/how-to-land-a-data-science-job-in-2022-ebfbc506516b) 7 skills to improve employability for a data science position
 
 ### Python Pandas and pivot tables
 - [oreilly.com: how to use pivot tables in Pandas step-by-step](https://www.oreilly.com/learning/pivot-tables)

@@ -35,3 +35,6 @@
 * [sysdig.com: Kubernetes 1.23 – What’s new?](https://sysdig.com/blog/kubernetes-1-23-whats-new/)
 * [armosec.io: Kubernetes version 1.23 is out – everything you should know](https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know)
 * [thenewstack.io: Kubernetes 1.23: Dual Stack IPv4/IPv6, CronJobs, Ephemeral Volumes](https://thenewstack.io/kubernetes-1-23-dual-stack-ipv4-ipv6-cronjobs-ephemeral-volumes/)
+* [blog.aquasec.com: Kubernetes Version 1.23: What’s New for Security?](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
+* [kubernetes.io: Kubernetes 1.23: The Next Frontier](https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement/)
+* [loft.sh: Kubernetes 1.23 Release](https://loft.sh/blog/kubernetes-1.23-release/)

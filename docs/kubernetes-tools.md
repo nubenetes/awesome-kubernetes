@@ -398,7 +398,7 @@
 * [dignajar/another-ldap](https://github.com/dignajar/another-ldap) Another LDAP is a form-based authentication for Active Directory / LDAP server. Provides Authentication and Authorization for your applications running in Kubernetes.
 * [ddosify/ddosify](https://github.com/ddosify/ddosify) High-performance load testing tool, written in Golang.
 * [==anchore/syft==](https://github.com/anchore/syft) CLI tool and library for generating a Software Bill of Materials from container images and filesystems. Exceptional for vulnerability detection when used with a scanner tool like Grype.
-* [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
+* [==aws/aws-node-termination-handler== 🌟](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
 * [aelsabbahy/goss](https://github.com/aelsabbahy/goss) Quick and Easy server testing/validation
 * [chr-fritz/csi-sshfs](https://github.com/chr-fritz/csi-sshfs) Kubernetes CSI Plugin for SSHFS. It allows to mount directories using a ssh connection.
 * [ctrox/csi-s3](https://github.com/ctrox/csi-s3) A Container Storage Interface for S3. This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.

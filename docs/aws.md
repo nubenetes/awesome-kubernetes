@@ -930,8 +930,10 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [dev.to: AWS App Runner : How to deploy containerized applications using App Runner](https://dev.to/aws-builders/aws-app-runner-how-to-deploy-containerized-applications-using-app-runner-1f7c) AWS App Runner is an AWS service that provides a fast, simple and cost-effective way to deploy from source code or a container image directly to a scalable and secure web application in the AWS Cloud. You don’t need to learn new technologies, decide which compute service to use, or know how to provision and configure AWS resources.
 
 ## Spain
+- [AWS en España](https://aws.amazon.com/es/local/spain/)
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
+- [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España) para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a)
 
 ## Scripts
 - [AWS IP inventory](https://github.com/okelet/awsipinventory) Tool to generate an inventory of all IP addresses in use in an account, one or multiple VPC, or one or multiple subnet.

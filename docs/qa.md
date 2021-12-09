@@ -44,6 +44,7 @@ the #1 test automation community.
 * [dzone: We Are Testing Software Incorrectly and It's Costly](https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly) We should write tests to enable developers to move fast with confidence. Code is always evolving, so question everything, collect experience, and judge for yourself.
 * [thenewstack.io: Error Handling from Backends to the Frontend](https://thenewstack.io/error-handling-from-backends-to-the-frontend/)
 * [==lambdatest.com: Top Automation Testing Trends To Look Out In 2021==](https://www.lambdatest.com/blog/top-automation-testing-trends-2021)
+* [==betterprogramming.pub: Why We Quit Unit Testing Classes to Focus On a Behavioral Approach==](https://betterprogramming.pub/quit-unit-testing-classes-and-use-a-behavior-oriented-approach-306a667f9a31) Why you should consider avoiding class-level tests, in favor of a behavior-oriented approach
 
 ## Testing Frameworks
 * [JUnit](https://junit.org)

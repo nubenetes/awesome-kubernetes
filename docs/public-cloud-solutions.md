@@ -4,6 +4,7 @@
 - [Public Cloud Services Comparison](#public-cloud-services-comparison)
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
+- [Outages](#outages)
 ## Public Cloud References
 - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com/) A unique website gathering all catalogs
     - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)
@@ -38,4 +39,5 @@
 * [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)
 * [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/managed-kubernetes)
 
-
+## Outages
+- [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline
