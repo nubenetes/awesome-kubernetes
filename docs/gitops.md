@@ -47,6 +47,12 @@
 - [==clickittech.com: What is GitOps?== 🌟](https://www.clickittech.com/devops/what-is-gitops)
 - [blog.container-solutions.com: 11 Reasons for Adopting GitOps](https://blog.container-solutions.com/why-adopt-gitops)
 - [==opensource.com: GitOps vs. DevOps: What's the difference?== 🌟](https://opensource.com/article/21/3/gitops) Get to know GitOps, an evolved form of DevOps.
+
+	| __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
+	| :---: | :---: | :---: | :---: | :---: | :---: | 
+	| __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |  
+	| __GitOps__ | Correctness; doing DevOps correctly | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | Stricter and less open | Designed with correctness |  
+
 - [geekflare.com: An Introduction to GitOps](https://geekflare.com/gitops-introduction/)
 - [thenewstack.io: GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/)
 - [kumomind.medium.com: Should I consider the GitOps methodology?](https://kumomind.medium.com/should-i-consider-the-gitops-methodology-f49e042b8c22)
