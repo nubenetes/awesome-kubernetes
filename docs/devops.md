@@ -8,6 +8,7 @@
 - [Configuration Drift](#configuration-drift)
 	- [Drift Detection Tools](#drift-detection-tools)
 - [DevOps Docs](#devops-docs)
+- [Serverless DevOps](#serverless-devops)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [IaC Infrastructure as Code](#iac-infrastructure-as-code)
 - [Blogs](#blogs)
@@ -146,7 +147,6 @@
 * [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
 * [medium: How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8) Your guide to getting started in a career in DevOps.
 * [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://cloudacademy.com/blog/devops-why-is-it-important-to-decouple-deployment-from-release/)
-* [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
 * [devopscurry.com: DevOps 2021: A Complete Guide To Transition From a SysAdmin to DevOps Role](https://devopscurry.com/devops-2021-a-complete-guide-to-transition-from-a-sysadmin-to-devops-role/)
 * [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report/)
 * [informationweek.com: What's Holding DevOps Back?](https://www.informationweek.com/devops/whats-holding-devops-back/a/d-id/1339540) DevOps teams are at different stages of maturity. However, there are some common challenges they face along the way.
@@ -224,6 +224,10 @@
 
 [![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 </center>
+
+## Serverless DevOps
+* [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
+* [searchitoperations.techtarget.com: Tips and tools to achieve a serverless DevOps workflow](https://searchitoperations.techtarget.com/tip/Tips-and-tools-to-achieve-a-serverless-DevOps-workflow) Serverless functions bring the benefits of event-driven computing to a CI/CD pipeline -- but to get there, DevOps teams might need to lean heavily on services and tools from the major cloud computing providers.
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.

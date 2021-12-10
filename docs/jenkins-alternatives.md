@@ -56,6 +56,7 @@
 * [Agola](https://agola.io/)
 * [harness.io](https://harness.io/)
 * [Drone](https://drone.io/)
+    * [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 * [Buildbot](https://buildbot.net/)
 * [GoCD](https://www.gocd.org/)
 * [Codefresh](https://codefresh.io/)

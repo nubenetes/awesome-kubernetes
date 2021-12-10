@@ -25,6 +25,7 @@
 		- [Powershell](#powershell)
 	- [Data Processing](#data-processing)
 	- [Big Data](#big-data)
+	- [MLOps](#mlops)
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
 - [Base64](#base64)
@@ -184,6 +185,9 @@
 
 ### Big Data
 - [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
+
+### MLOps
+- [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops)
 
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)

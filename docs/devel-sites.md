@@ -1,5 +1,6 @@
 # Websites for web developers
 - [Introduction](#introduction)
+- [Design Patterns](#design-patterns)
 - [Developer Tools](#developer-tools)
 	- [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
 - [AI Programming](#ai-programming)
@@ -25,6 +26,14 @@
 - [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
+
+## Design Patterns
+- [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)
+	- [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
+	- [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
+	- [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
+	- etc
+- [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)

@@ -8,3 +8,4 @@
 - [itnext.io: For Developers the Low-Code Winter Is Coming](https://itnext.io/for-developers-the-low-code-winter-is-coming-76875d3606c0) Prepare for hard times or move to where the sun is shining
 - [thenewstack.io: Why Businesses Want to Enable ‘No-Code’ and ‘Low-Code’ Automation](https://thenewstack.io/why-businesses-want-to-enable-no-code-and-low-code-automation/)
 - [thenewstack.io: Low Code for Pro Coders](https://thenewstack.io/low-code-for-pro-coders/)
+- [acloudguru.com: AWS adds to the no-code pile: Is it the end of the engineer?](https://acloudguru.com/blog/engineering/aws-adds-to-the-no-code-pile-is-it-the-end-of-the-engineer)

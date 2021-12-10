@@ -139,6 +139,7 @@
 
 ## Amazon Web Services
 - [AWS Cloud Products](https://aws.amazon.com/products/)
+- [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/)
 - [status.aws.amazon.com: Service Health Dashboard](https://status.aws.amazon.com) 
 - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/releasenotes)
@@ -372,7 +373,9 @@ You can filter by topic using the toolbar above.
 - [==venturebeat.com: 6 big Kubernetes container security launches at AWS re:Invent 2021==](https://venturebeat.com/2021/12/03/6-big-kubernetes-container-security-launches-at-aws-reinvent-2021/)
 - [forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements/)
 - [==aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021==](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021/)
+- [infoq.com: Recap of AWS re:Invent 2021](https://www.infoq.com/news/2021/12/recap-reinvent-2021/)
 - [infoq.com: AWS Launches Amazon Kinesis Data Streams On-Demand](https://www.infoq.com/news/2021/12/kinesis-data-streams-ondemand/)
+- [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/2021/12/09/the_big_aws_event_120/) Our wrap-up: Instant Glacier storage, Kubernetes at AWS, Adobe pops up despite Microsoft partnership, and more
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
