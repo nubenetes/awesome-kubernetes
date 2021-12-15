@@ -1,5 +1,6 @@
 # Security and DevSecOps. Container Security
 - [Introduction](#introduction)
+- [Kubernetes Security Compliance Frameworks](#kubernetes-security-compliance-frameworks)
 - [Zero Trust Security](#zero-trust-security)
 - [Authentication and Authorization](#authentication-and-authorization)
 - [Quality Gates](#quality-gates)
@@ -135,6 +136,23 @@
 - [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach/)
 - [==redhat.com: Considerations for implementing DevSecOps practices. Checklist== 🌟](https://www.redhat.com/en/resources/considerations-implementing-devsecops-checklist)
 - [==dzone: Security Matters: Vulnerability Scanning Done Right!== 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1) Security has become the priority in every company these days. Let's see how vulnerability scanning is done the right way.
+
+## Kubernetes Security Compliance Frameworks
+- [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
+	- The challenge of administering security and maintaining compliance in a Kubernetes ecosystem is typically the same: an increasingly dynamic, changing landscape, be it new approaches of cyberattacks or adhering to changing regulations. Kubernetes security requires a complex and multifaceted approach since an effective strategy needs to:
+		- Ensure clean code
+		- Provide full observability
+		- Prevent the exchange of information with untrusted services
+		- Produce digital signatures for clean code and trusted applications
+	- Since Kubernetes follows a loosely coupled architecture, securing the ecosystem involves a cross-combination of best practices, tools, and processes. It is also recommended to consider frameworks that issue specific guidelines for easing the complexity of administering the security and compliance of a Kubernetes ecosystem. Such frameworks help organizations create flexible, iterative, and cost-effective approaches to keeping clusters and applications safe and compliant while ensuring optimum performance. A typical framework’s guidance on Kubernetes security and compliance should essentially consider:
+		- Architecture best practices
+		- Security within CI/CD pipelines
+		- Resource protection
+		- Container runtime protection
+		- Supply chain security
+		- Network security
+		- Vulnerability scanning
+		- Secrets management and protection
 
 ## Zero Trust Security
 - [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
