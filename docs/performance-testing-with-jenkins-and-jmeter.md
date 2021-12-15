@@ -33,6 +33,7 @@
 * [youtube: JMeter API Performance Testing Tutorial 🌟](https://www.youtube.com/watch?v=8r5LYzUIepo)
 * [testinglpoint.com: Features of JMeter](https://www.testinglpoint.com/features-of-jmeter/) Features and disadvantages.
 * [linkedin.com: Tuning Grafana - Jmeter Dashboards](https://www.linkedin.com/pulse/tuning-grafana-jmeter-dashboards-ezhil-arasu/) This article is for performance testers who configured JMeter - influx - Grafana setup or Jmeter - Prometheus - Grafana setup.
+* [gslab.com: How to Optimize Performance Testing with Apache JMeter and Resources Monitoring Using DStat](https://www.gslab.com/blogs/performance-testing-with-Apache-JMeter)
 
 ## JMeter based Cloud solutions
 * [octoperf.com](https://octoperf.com/)
@@ -89,3 +90,4 @@
 	* [amazon.com: Introducing Distributed Load Testing v1.3](https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3/)
 * [Locust](https://locust.io/) An open source load testing tool. Define user behaviour with Python code, and swarm your system with millions of simultaneous users.
 * [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)
+* [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema/)

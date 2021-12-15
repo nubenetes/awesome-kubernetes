@@ -1,5 +1,6 @@
 # Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more
 - [Introduction](#introduction)
+- [Blogs](#blogs)
 - [Selenium](#selenium)
 - [Robot Framework](#robot-framework)
 - [Cypress](#cypress)
@@ -10,6 +11,12 @@
 
 ## Introduction
 - [opensource.com: 9 open source test-automation frameworks](https://opensource.com/article/20/7/open-source-test-automation-frameworks) Get some advice to choose the right test-automation framework for your organization.
+
+## Blogs
+- https://automated-360.com
+- https://www.lambdatest.com
+- https://intellipaat.com
+- https://qautomation.blog
 
 ## Selenium
 - [selenium.dev](https://selenium.dev/)
@@ -47,6 +54,7 @@ based on your test scripts.
 - [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot)
 - [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.lambdatest.com/blog/debunking-selenium-testing-myths/)
 - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna/) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
+- [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://automated-360.com/integration/how-to-perform-code-quality-check-for-selenium-test-automation/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

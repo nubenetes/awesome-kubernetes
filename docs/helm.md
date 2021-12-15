@@ -75,6 +75,7 @@
 * [bridgecrew.io: Applying Kubernetes security best practices to Helm charts](https://bridgecrew.io/blog/applying-kubernetes-security-best-practices-to-helm-charts/)
 * [dzone.com: Deploy a Java application using Helm, Part 1 (OpenShift) 🌟](https://dzone.com/articles/deploy-a-java-application-using-helm-part-1)
 * [codefresh.io: Using Helm with GitOps 🌟](https://codefresh.io/helm-tutorial/using-helm-with-gitops/)
+    * [medium: Using Helm with GitOps](https://medium.com/containers-101/using-helm-with-gitops-555443340369)
 * [==medium: Test Helm Release in Production Environment with Zero Downtime== 🌟](https://medium.com/@deejiw/test-helm-release-in-production-environment-with-zero-downtime-400c5d41ecdf) Helm has been very popular for Kubernetes production. However, to ensure consistency across releases, today we are going to learn how to test deployment on production environment without any interruption with production pods.
 * [==learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps==](https://learn.hashicorp.com/tutorials/waypoint/gitops-helm-deployment)
 

@@ -376,6 +376,7 @@ You can filter by topic using the toolbar above.
 - [infoq.com: Recap of AWS re:Invent 2021](https://www.infoq.com/news/2021/12/recap-reinvent-2021/)
 - [infoq.com: AWS Launches Amazon Kinesis Data Streams On-Demand](https://www.infoq.com/news/2021/12/kinesis-data-streams-ondemand/)
 - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/2021/12/09/the_big_aws_event_120/) Our wrap-up: Instant Glacier storage, Kubernetes at AWS, Adobe pops up despite Microsoft partnership, and more
+- [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -622,6 +623,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)
 - [Achieve up to 34% better price/performance with AWS Lambda Functions powered by AWS Graviton2 processor](https://aws.amazon.com/about-aws/whats-new/2021/09/better-price-performance-aws-lambda-functions-aws-graviton2-processor/)
 - [==Deploying AWS Lambda layers automatically across multiple Regions==](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-layers-automatically-across-multiple-regions/) Many developers import libraries and dependencies into their AWS Lambda functions. These dependencies can be zipped and uploaded as part of the build and deployment process but it’s often easier to use Lambda layers instead.
+- [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)

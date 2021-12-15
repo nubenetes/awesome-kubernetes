@@ -2,6 +2,7 @@
 - [thenewstack.io: Web3 Architecture and How It Compares to Traditional Web Apps](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/)
 - [blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English](https://blog.suhailkakar.com/web-30-terms-and-their-definitions-in-plain-english)
 - [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview/) Gavin Wood, who coined the term Web3 in 2014, believes decentralized technologies are the only hope of preserving liberal democracy.
+- [elconfidencial.com: El futuro de internet ya está aquí y se llama Web3, pero casi nadie sabe de qué se trata](https://www.elconfidencial.com/tecnologia/2021-12-12/el-futuro-de-internet-ya-esta-aqui-y-se-llama-web3-pero-casi-nadie-sabe-lo-que-es_3339244/) En teoría, esta nueva etapa se parecerá mucho más a la idea primigenia de la red, un lugar descentralizado que reequilibre la balanza del poder entre usuarios y empresas, pero en la práctica puede volver a acabar en papel mojado
 
 ## Tweets
 <details>

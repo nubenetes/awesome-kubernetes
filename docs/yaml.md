@@ -1,4 +1,4 @@
-# Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
+# YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 - [Templating YAML Files](#templating-yaml-files)
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)

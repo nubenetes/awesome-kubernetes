@@ -6,6 +6,7 @@
 
 ## Introduction
 - [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops/)
+- [==dzone: How to Pinpoint and Fix Distributed Problems Across Microservices==](https://dzone.com/articles/how-to-pinpoint-and-fix-distributed-problems-acros) While logical separation of APIs fosters parallel development of independent functions, complexity and interdependency becomes harder to manage.
 ## Chaos Engineering for kubernetes/Openshift
 * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
@@ -17,6 +18,7 @@
 * [thenewstack.io: Using Chaos Engineering to Improve the Resilience of Stateful Applications on Kubernetes](https://thenewstack.io/using-chaos-engineering-to-improve-the-resilience-of-stateful-applications-on-kubernetes/)
 * [infoq.com: Chaos Engineering on Kubernetes : Chaos Mesh Generally Available with v1.0](https://www.infoq.com/news/2020/10/kubernetes-chaos-mesh-ga/)
 * [chaos-mesh.org: Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier](https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier/)
+* [thenewstack.io: Develop a Daily Reporting System for Chaos Mesh to Improve System Resilience](https://thenewstack.io/develop-a-daily-reporting-system-for-chaos-mesh-to-improve-system-resilience/)
 * [pingcap.com: chaos-mesh-action: Integrate Chaos Engineering into Your CI](https://pingcap.com/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci)
 * [openshift.com: Introduction to Kraken, a Chaos Tool for OpenShift/Kubernetes](https://www.openshift.com/blog/introduction-to-kraken-a-chaos-tool-for-openshift/kubernetes)
 * [thenewstack.io: Chaos Engineering Progressively Moves to Production](https://thenewstack.io/chaos-engineering-progressively-moves-to-production/)

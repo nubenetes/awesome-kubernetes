@@ -28,6 +28,7 @@
 - [NetOps](#netops)
 - [GPT 3 Tools](#gpt-3-tools)
 - [Data as Code](#data-as-code)
+- [DevOps for SAP](#devops-for-sap)
 - [Youtube Playlists](#youtube-playlists)
 - [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
@@ -357,6 +358,9 @@ Resolve your software incidents 10x faster
 ## Data as Code
 - [thenewstack.io: The Coming Era of Data as Code 🌟](https://thenewstack.io/the-coming-era-of-data-as-code/)
 - [arrikto.com: What is Data as Code 🌟](https://www.arrikto.com/blog/what-is-data-as-code/)
+
+## DevOps for SAP
+- [blogs.sap.com: A Practical Guide to DevOps for SAP ERP](https://blogs.sap.com/2021/12/13/a-practical-guide-to-devops-for-sap-erp/)
 
 ## Youtube Playlists
 - [youtube playlist: DevOps - SonarQube, Artifactory, JFrog, Jenkins, Maven, etc 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ)

@@ -31,6 +31,7 @@
 * [riptutorial.com 🌟](https://riptutorial.com/) Learn programming through books and examples - [eBooks by Tags (PDF) 🌟](https://riptutorial.com/ebook)
 * [Cloud DevJam](https://www.techgig.com/googlecloud) Cloud DevJam is an interactive cloud-learning platform that allows enterprise IT professionals to learn and upskill on Google Cloud.​They can start their learning journey by choosing from various cloud learning modules. These modules provide them with the latest in Google Cloud technologies. One of these is the Network and Security learning track.
 * [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
+* [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science) An introduction to the intellectual enterprises of computer science and the art of programming.
 
 ## Opinions
 * [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)

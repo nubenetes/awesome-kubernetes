@@ -89,6 +89,7 @@
 
 ### DevSecOps
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
+- [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) Collection and Roadmap for everyone who wants DevSecOps
 
 ### GitOps
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
@@ -152,9 +153,11 @@
 - [Awesome Python 🌟](https://github.com/vinta/awesome-python) - https://awesome-python.com
 - [Awesome Java 🌟](https://github.com/akullpp/awesome-java)
 - [Awesome Angular](https://github.com/PatrickJS/awesome-angular)
-- [Awesome Go](https://github.com/avelino/awesome-go)
-	- [awesome-go.com](https://awesome-go.com/)
-	- [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+- Awesome Go:
+	- [Awesome Go](https://github.com/avelino/awesome-go)
+		- [awesome-go.com](https://awesome-go.com/)
+		- [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
+	- [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
 - Awesome .NET Core:
 	- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)
 	- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet)

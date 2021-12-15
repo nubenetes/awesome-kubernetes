@@ -6,7 +6,7 @@
 - [Go cheatsheets](#go-cheatsheets)
 - [Go Frameworks and libraries](#go-frameworks-and-libraries)
 - [Go packages](#go-packages)
-- [Goo Tools](#goo-tools)
+- [Go Tools](#go-tools)
 - [Go Samples for Google Cloud](#go-samples-for-google-cloud)
 - [Tweets](#tweets)
 ## Introduction
@@ -64,8 +64,10 @@
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
 - [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) Generate a Go ORM tailored to your database schema.
 
-## Goo Tools
+## Go Tools
 - [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go/) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
+- [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
+- [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
 
 ## Go Samples for Google Cloud
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)

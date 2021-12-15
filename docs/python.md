@@ -181,6 +181,7 @@
 - [redhat.com: Writing and unit testing a Python application to query the RPM database](https://www.redhat.com/sysadmin/query-rpm-database-python)
 - [thenewstack.io: More Python for Non-Programmers](https://thenewstack.io/more-python-for-non-programmers/)
 - [==python.plainenglish.io: How to Perform Read and Write Operations on JSON Files in Python==](https://python.plainenglish.io/how-to-perform-read-and-write-operations-on-json-files-in-python-a5bac724320d) A simple guide to handle JSON files in Python.
+- [developers.redhat.com: Generating pseudorandom numbers in Python](https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-numbers-python)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -275,6 +276,7 @@
 - [analyticsvidhya.com: A Complete Tutorial to Learn Data Science with Python from Scratch](http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
 - [analyticsvidhya.com: Tutorial – Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/)
 - [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python)
+- [==pandastutor.com== 🌟](https://pandastutor.com) Pandas Tutor visualizes how your Python code transforms dataframes
 
 ### PandasDatabase
 - [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/)
