@@ -716,6 +716,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [docs.microsoft.com: Build and deploy applications to Azure by using GitHub Actions 🌟](https://docs.microsoft.com/en-us/learn/modules/github-actions-cd/)
 - [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832)
 - [debianmaster/actions-k3s](https://github.com/debianmaster/actions-k3s) Github action for spinning up local k3s instance and running kubectl commands
+- [==judebantony.github.io: DevSecOps with GitHub Action and SaaS Tools==](https://judebantony.github.io/cicd-github-action-example/) CICD Using GitHub Action and Harness
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)

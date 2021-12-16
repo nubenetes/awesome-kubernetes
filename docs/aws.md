@@ -67,6 +67,7 @@
 - [AWS CloudFormation. Free Templates](#aws-cloudformation-free-templates)
 - [Infrastructure Code Template Generators](#infrastructure-code-template-generators)
 	- [Former2 to generate IaC templates](#former2-to-generate-iac-templates)
+	- [Console Recorder for AWS](#console-recorder-for-aws)
 - [AWS for Windows](#aws-for-windows)
 - [Continuous Deployment with AWS](#continuous-deployment-with-aws)
 - [AWS Security](#aws-security)
@@ -649,6 +650,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [former2.com](https://former2.com/)
 - [Accelerate infrastructure as code development with open source Former2](https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2/)
 
+### Console Recorder for AWS
+- [==onecloudplease.com: Console Recorder for AWS==](https://onecloudplease.com/project/console-recorder) Records actions made in the AWS Management Console and outputs the equivalent CLI / SDK commands and CloudFormation / Terraform templates.
 
 ## AWS for Windows
 - [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS

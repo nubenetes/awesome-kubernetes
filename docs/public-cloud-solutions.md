@@ -43,3 +43,5 @@
 - [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline
 - [==techrepublic.com: AWS outage: Your response to AWS going down shouldn't be multicloud==](https://www.techrepublic.com/article/aws-outage-your-response-to-aws-going-down-shouldnt-be-multicloud/) Commentary: It's convenient to assume multicloud will solve your application resilience woes. Convenient, but wrong. Here's why.
 - [techrepublic.com: AWS has gone down before, as have other providers; Fastly has lessons to share from its own outage](https://www.techrepublic.com/article/aws-has-gone-down-before-as-have-other-providers-fastly-has-lessons-to-share-from-its-own-outage/)
+- [==Downdetector==](https://downdetector.co.uk)
+    - [downdetector: aws](https://downdetector.co.uk/status/aws-amazon-web-services/)

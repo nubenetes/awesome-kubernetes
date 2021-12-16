@@ -9,6 +9,7 @@
 - [dev.to: GKE Cluster using Crossplane](https://dev.to/abhivaidya07/gke-cluster-using-crossplane-3298)
 - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)
 - [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) ==Use crossplane and provision new EKS/AKS/GKE clusters declaratively and have them continuously managed for you.==
+- [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://codefresh.io/about-gitops/gitops-for-infrastructure-and-applications/)
 
 ## Demo. YAML Your Cloud. Managing Cloud-Hosted Resources from Kubernetes
 - Very cool talk from @askmeegs and @shabirmean with an insightful look into the tools for managing cloud resources from Kubernetes. Great demonstration of @crossplane_io spanning your control plane across multiple clouds.

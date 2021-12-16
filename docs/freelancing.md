@@ -3,13 +3,14 @@
 - [Freelancing in Spain](#freelancing-in-spain)
 - [Top Freelancing Platforms](#top-freelancing-platforms)
 - [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
-	- [Umbrella Companies](#umbrella-companies)
+  - [Umbrella Companies](#umbrella-companies)
 - [Tweets](#tweets)
 ## Introduction
-- [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
 - [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere/)
-- [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina)
+
 ## Freelancing in Spain
+- [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
+- [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina)
 - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)
 - [malt.com: Las 7 dudas legales que siempre tenemos como autónomos](https://resources.malt.com/es/freelances/art%C3%ADculos-freelance/dudas-legales-freelance/)
 - [calculadora.malt.es](https://calculadora.malt.es/) Una de las dudas de los freelance es saber cómo fijar su tarifa, respetando su experiencia y la cotización de su sector. Con la calculadora de Malt vas a tener una orientación sobre cuánto podrías ingresar en función de tu sector y especialización.
