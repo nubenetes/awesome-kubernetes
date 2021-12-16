@@ -41,7 +41,7 @@
 * [medium: What is CI/CD Pipeline in DevOps? 🌟🌟](https://medium.com/faun/what-is-ci-cd-pipeline-in-devops-6fba17a76e73) Understanding the Importance of CI/CD Pipeline.
 * [aws.amazon.com: Automating safe, hands-off deployments 🌟🌟](https://aws.amazon.com/es/builders-library/automating-safe-hands-off-deployments/)
 * [techuz.com: What is CI/CD? An Introduction to Continuous Integration, Continuous Deployment and CI/CD Pipeline](https://www.techuz.com/blog/what-is-ci-cd-an-introduction-to-continuous-integration-continuous-deployment-and-ci-cd-pipeline/)
-* [kodekloud.com: What is CI/CD Pipeline in DevOps](https://kodekloud.com/blog/208192/what-is-ci-cd-pipeline-in-devops) CI/CD plays an important role in your DevOps implementation path.
+* [kodekloud.com: What is CI/CD Pipeline in DevOps](https://kodekloud.com/what-is-ci-cd-pipeline-in-devops) CI/CD plays an important role in your DevOps implementation path.
 Here are some important things to consider while building a CI/CD pipeline: 
     * Peer code review
     * Build in a containerized environment
