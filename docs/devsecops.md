@@ -16,6 +16,7 @@
 - [Anchore Container Security Solutions for DevSecOps](#anchore-container-security-solutions-for-devsecops)
 - [Twistlock and Threat Stack Container Security](#twistlock-and-threat-stack-container-security)
 - [OWASP](#owasp)
+- [Source Code Audit](#source-code-audit)
 - [StackRox](#stackrox)
 - [Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images](#secure-container-based-cicd-workflows-vulnerability-scanner-for-container-images)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
@@ -52,6 +53,7 @@
 - [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
 - [Books](#books)
 - [CVEs](#cves)
+	- [Log4j Log4Shell](#log4j-log4shell)
 - [Powershell](#powershell)
 - [Let's Encrypt SSL certificates](#lets-encrypt-ssl-certificates)
 - [More Security Tools](#more-security-tools)
@@ -136,6 +138,7 @@
 - [thenewstack.io: Why Cloud Native Systems Demand a Zero Trust Approach](https://thenewstack.io/why-cloud-native-systems-demand-a-zero-trust-approach/)
 - [==redhat.com: Considerations for implementing DevSecOps practices. Checklist== 🌟](https://www.redhat.com/en/resources/considerations-implementing-devsecops-checklist)
 - [==dzone: Security Matters: Vulnerability Scanning Done Right!== 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1) Security has become the priority in every company these days. Let's see how vulnerability scanning is done the right way.
+- [==redhat.com: Getting DevSecOps to production and beyond==](https://www.redhat.com/architect/devsecops-enterprise-architecture) Building security into DevOps practices helps safeguard the organization across the software development lifecycle.
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -159,6 +162,7 @@
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
+- [==osohq.com: Patterns for Authorization in Microservices==](https://www.osohq.com/post/microservices-authorization-patterns)
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -228,6 +232,9 @@
 - [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp/)
 - [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/)
+
+## Source Code Audit
+- [==securecoding.com: Code Audit: How to Ensure Compliance for an Application==](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application/) A source code audit is a process of analyzing the source code of an application with the objective of discovering security vulnerabilities, security design problems, and places of potential improvement in programming practices. After the analysis, a report is generated that is used to implement a range of measures that guarantee the security and reliability of the code. Code audits can be carried out in parallel with penetration tests. They can test the exploitability of code vulnerabilities to better estimate the risk they pose. Ideally, code audits are performed throughout the application lifecycle. The faster a vulnerability is discovered, the easier it is to fix!
 
 ## StackRox
 - [stackrox.com](https://www.stackrox.com/)
@@ -460,9 +467,18 @@
 ## CVEs
 - [sysdig.com: Mitigating CVE-2021-20291: DoS affecting CRI-O and Podman](https://sysdig.com/blog/cve-2021-20291-cri-o-podman/)
 - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/blog/kubescape-checks-if-kubernetes-exposed-to-k8s-symlink-vulnerability-cve202125741)
+
+### Log4j Log4Shell
 - [medium: CVE-2021–44228: finding Log4j vulnerable k8s pods with bash & trivy](https://medium.com/linkbynet/cve-2021-44228-finding-log4j-vulnerable-k8s-pods-with-bash-trivy-caa10905744d)
 - [sysdig.com: Mitigating log4j with Runtime-based Kubernetes Network Policies](https://sysdig.com/blog/mitigating-log4j-kubernetes-network-policies/)
 - [github.com/aws-samples: Apache Log4j2 CVE-2021-44228 node agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) AWS has developed an RPM that performs a JVM-level hot-patch which disables JNDI lookups from the Log4j2 library, mitigating Log4j2 CVE-2021-44228. **The Apache Log4j2 CVE-2021-44228 node agent is an open source project built by the Kubernetes team at AWS. It is designed to run as a DaemonSet and mitigate the impact of Log4j2 CVE-2021-44228, which affects applications running Apache Log4j2 versions < 2.15.0 when processing inputs from untrusted sources. Running this DeamonSet will patch JVMs running in containers as well as on the host.**
+- [proferosec/log4jScanner](https://github.com/proferosec/log4jScanner) This tool provides you with the ability to scan internal (only) subnets for vulnerable log4j web services. 
+- [Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html)
+- [cloud.redhat.com: Log4Shell: Practical Mitigations and Impact Analysis of the Log4j Vulnerabilities](https://cloud.redhat.com/blog/log4shell-practical-mitigations-and-impact-analysis)
+- [edition.cnn.com: The Log4j security flaw could impact the entire internet. Here's what you should know](https://edition.cnn.com/2021/12/15/tech/log4j-vulnerability/index.html)
+- [yahoo/check-log4j](https://github.com/yahoo/check-log4j) To determine if a host is vulnerable to log4j CVE‐2021‐44228
+- [welivesecurity.com: Lo que todo líder de una empresa debe saber sobre Log4Shell](https://www.welivesecurity.com/la-es/2021/12/16/que-deben-saber-lideres-empresas-sobre-log4shell/) Se están detectando cientos de miles de intentos de ataque que buscan explotar la vulnerabilidad.
+- [genbeta.com: "Internet está en llamas": Cloudflare ha detectado más de 24.600 ataques por minuto que explotaban la vulnerabilidad Log4Shell](https://www.genbeta.com/actualidad/internet-esta-llamas-cloudflare-ha-detectado-24-600-ataques-minuto-que-explotaban-vulnerabilidad-log4shell)
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

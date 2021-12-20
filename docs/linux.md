@@ -13,6 +13,7 @@
 - [Guestfish](#guestfish)
 - [BusyBox](#busybox)
 - [Bash](#bash)
+- [Questions and Answers](#questions-and-answers)
 - [Automation. Bash VS Python VS JavaScript](#automation-bash-vs-python-vs-javascript)
 - [Zsh](#zsh)
 - [ZX](#zx)
@@ -149,7 +150,6 @@
 - [redhat.com: How to record your Linux terminal using asciinema](https://www.redhat.com/sysadmin/using-asciinema) Asciinema might be the application you've been looking for to demonstrate a skill or process that you want your colleagues or students to learn on-demand.
 - [redhat.com: 5 advanced rsync tips for Linux sysadmins](https://www.redhat.com/sysadmin/5-rsync-tips) Use rsync compression and checksums to better manage file synchronization.
 - [metacpan.org: a2p - Awk to Perl translator](https://metacpan.org/pod/App::a2p) A2p takes an awk script specified on the command line (or from standard input) and produces a comparable perl script on the standard output.
-- [redhat.com: 5 questions to ask during your next sysadmin interview](https://www.redhat.com/sysadmin/5-questions-interview)
 - [oilshell: Alternative shells](https://github.com/oilshell/oil/wiki/Alternative-Shells)
 - [Timezone Bullshit](https://blog.wesleyac.com/posts/timezone-bullshit)
 - [cyberciti.biz: How to check memory utilization in Linux](https://www.cyberciti.biz/faq/how-to-check-memory-utilization-in-linux/)
@@ -206,6 +206,8 @@
 - [betterprogramming.pub: How to Use tmuxp to Manage Your tmux Session](https://betterprogramming.pub/how-to-use-tmuxp-to-manage-your-tmux-session-614b6d42d6b6) Take control of your tmux sessions.
 - [opensource.com: Linux tips for using cron to schedule tasks](https://opensource.com/article/21/11/cron-linux) Schedule backups, file cleanups, and other tasks by using this simple yet powerful Linux command-line tool. Download our new cron cheat sheet.
 - [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) Download files from the internet in your Linux terminal. Get the most out of the wget command with our new cheat sheet.
+- [makeuseof.com: The 6 Best Command Line Tools to Monitor Linux Performance in the Terminal](https://www.makeuseof.com/best-cli-tools-to-monitor-linux-performance-terminal/) Want to track and debug Linux System resources, storage, and network-related problems? Get started with the best Linux performance monitoring tools.
+- [opensource.com: 4 Linux tools to erase your data](https://opensource.com/article/21/10/linux-tools-erase-data) Erase data from your hard disk drive with these open source tools.
 
 ## Guestfish
 - [Guestfish](https://libguestfs.org/guestfish.1.html)
@@ -244,6 +246,11 @@
 - [igoroseledko.com: Awk & sed Snippets for SysAdmins](https://www.igoroseledko.com/awk-sed-snippets-for-sysadmins/)
 - [dev.to: Writing Bash Scripts Like A Pro - Part 1 - Styling Guide](https://dev.to/unfor19/writing-bash-scripts-like-a-pro-part-1-styling-guide-4bin)
 - [linuxhandbook.com: Unusual Ways to Use Variables Inside Bash Scripts](https://linuxhandbook.com/variables-bash-script/)
+- [opensource.com: An introduction to programming with Bash (eBook)](https://opensource.com/downloads/bash-programming-guide)
+
+## Questions and Answers
+- [redhat.com: 5 questions to ask during your next sysadmin interview](https://www.redhat.com/sysadmin/5-questions-interview)
+- [==trimstray/test-your-sysadmin-skills==](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
 
 ## Automation. Bash VS Python VS JavaScript
 - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e) Comparing the pros and cons of Bash, Python, and JavaScript-based Shell scripts

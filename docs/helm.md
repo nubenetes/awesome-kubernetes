@@ -78,6 +78,7 @@
     * [medium: Using Helm with GitOps](https://medium.com/containers-101/using-helm-with-gitops-555443340369)
 * [==medium: Test Helm Release in Production Environment with Zero Downtime== 🌟](https://medium.com/@deejiw/test-helm-release-in-production-environment-with-zero-downtime-400c5d41ecdf) Helm has been very popular for Kubernetes production. However, to ensure consistency across releases, today we are going to learn how to test deployment on production environment without any interruption with production pods.
 * [==learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps==](https://learn.hashicorp.com/tutorials/waypoint/gitops-helm-deployment)
+* [hashicorp.com: Deploying Helm Apps to Kubernetes with Waypoint and GitOps](https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops)
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
@@ -144,6 +145,9 @@ Kubernetes packages
 - [redhat-certification: chart-verifier: Rules based tool to certify Helm charts 🌟](https://github.com/redhat-certification/chart-verifier)
 - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
 - [helm-scanner](https://github.com/bridgecrewio/helm-scanner/) Open source IaC security scanner for public Helm charts. Helm-scanner is a tool designed to automate discovering, templating, security scanning, then recording and providing easy access to the results for publicly available Helm charts
+- [helm-diff: Helm Diff Plugin](https://github.com/databus23/helm-diff)
+- [Helmsman: Helm Charts as Code](https://github.com/Praqma/helmsman) Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code.
+    - [medium: Gitops using Helmsman to apply Helm Charts to k8s](https://medium.com/@marco.franssen/gitops-using-helmsman-to-apply-helm-charts-to-k8s-1a7217ced411)
 
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

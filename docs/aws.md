@@ -275,6 +275,7 @@ You can filter by topic using the toolbar above.
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)
 - [==AWS App2Container: Migrate your Applications to Containers at Scale==](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale/)
 - [dev.to: How Well-Architected Enables Junior Engineers](https://dev.to/aws-builders/how-well-architected-enables-junior-engineers-24j)
+- [==This is My Architecture==](https://aws.amazon.com/architecture/this-is-my-architecture) Innovative cloud architectures from AWS partners and customers. **'This is My Architecture' is a video series that showcases innovative architectural solutions on the AWS Cloud by customers and partners.** Each episode examines the most interesting and technically creative elements of each cloud architecture.
 
 ## AWS Youtube channel and Podcasts
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
@@ -378,6 +379,8 @@ You can filter by topic using the toolbar above.
 - [infoq.com: AWS Launches Amazon Kinesis Data Streams On-Demand](https://www.infoq.com/news/2021/12/kinesis-data-streams-ondemand/)
 - [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/2021/12/09/the_big_aws_event_120/) Our wrap-up: Instant Glacier storage, Kubernetes at AWS, Adobe pops up despite Microsoft partnership, and more
 - [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on/)
+- [New – Amazon VPC Network Access Analyzer](https://aws.amazon.com/blogs/aws/new-amazon-vpc-network-access-analyzer/)
+- [AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -625,6 +628,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Achieve up to 34% better price/performance with AWS Lambda Functions powered by AWS Graviton2 processor](https://aws.amazon.com/about-aws/whats-new/2021/09/better-price-performance-aws-lambda-functions-aws-graviton2-processor/)
 - [==Deploying AWS Lambda layers automatically across multiple Regions==](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-layers-automatically-across-multiple-regions/) Many developers import libraries and dependencies into their AWS Lambda functions. These dependencies can be zipped and uploaded as part of the build and deployment process but it’s often easier to use Lambda layers instead.
 - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)
+- [dev.to: Manage webhooks at scale with AWS Serverless](https://dev.to/aws-builders/manage-webhooks-at-scale-with-aws-serverless-fof)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -1019,5 +1023,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">☁️ Knowledge - Virtual Private Cloud (VPC)<a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> VPCs are region-scoped. If you want to route traffic between regional resources, you need to set up VPC peering, for example. ✅<a href="https://twitter.com/hashtag/GCP?src=hash&amp;ref_src=twsrc%5Etfw">#GCP</a> VPCs are global-scoped. Traffic between resources is automatically routed across regions. ☑️</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1443855193813233664?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A new checkbox appears in the create subnet dialog of the Amazon VPC console... <a href="https://t.co/RroXl07Fe0">pic.twitter.com/RroXl07Fe0</a></p>&mdash; Matthew S. Wilson (msw) (@_msw_) <a href="https://twitter.com/_msw_/status/1463215340536614912?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Me: using AWS since 2014, using k8s since 2016, AWS Container Hero, and other fancy-sounding stats.<br><br>Also me: takes 2 hours to get AWS CloudWatch Container Insights (expensive logs and metrics) running on an EKS cluster<br><br>Tech is hard for everybody! Be confident! Full-steam ahead!</p>&mdash; Vlad Ionescu (he/him) (@iamvlaaaaaaad) <a href="https://twitter.com/iamvlaaaaaaad/status/1472212200009961474?ref_src=twsrc%5Etfw">December 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

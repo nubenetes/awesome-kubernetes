@@ -11,6 +11,7 @@
         - [InfluxDB and InfluxDB Templates](#influxdb-and-influxdb-templates)
 - [Collectors. Software exposing Prometheus metrics](#collectors-software-exposing-prometheus-metrics)
     - [Prometheus Exporters. Plug-in architecture and extensibility with Prometheus Exporters (collectors)](#prometheus-exporters-plug-in-architecture-and-extensibility-with-prometheus-exporters-collectors)
+        - [Certificates Expiration](#certificates-expiration)
     - [Prometheus Exporters Development. Node Exporter](#prometheus-exporters-development-node-exporter)
     - [Prometheus Third-party Collectors/Exporters](#prometheus-third-party-collectorsexporters)
         - [OpenTelemetry Collector](#opentelemetry-collector)
@@ -121,6 +122,7 @@
 * [medium.com: Prometheus HA with Thanos Sidecar Or Receiver?](https://medium.com/infracloud-technologies/prometheus-ha-with-thanos-sidecar-or-receiver-2c8d0e585ff1) In this blog post, you will go through the two different approaches for integrating  
 Thanos Metrics with prometheus in Kubernetes environments.
 * [==prometheus.io: Comparison to Alternatives== 🌟](https://prometheus.io/docs/introduction/comparison/)
+* [==cloudsavvyit.com: What is Prometheus and Why Is It So Popular==](https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular/)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
@@ -222,7 +224,10 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://sysdig.com/blog/monitor-oracle-database-prometheus/)
 * [YACE - yet another cloudwatch exporter 🌟](https://github.com/ivx/yet-another-cloudwatch-exporter) AWS cloudwatch to prometheus exporter - Discovers services through AWS tags, gets cloudwatch data and provides them as prometheus metrics with AWS tags as labels
 * [prometheus-community/elasticsearch_exporter](https://github.com/prometheus-community/elasticsearch_exporter) Prometheus exporter for various metrics about ElasticSearch, written in Go.
+
+#### Certificates Expiration
 * [muxinc/certificate-expiry-monitor](https://github.com/muxinc/certificate-expiry-monitor) Utility that exposes the expiry of TLS certificates as Prometheus metrics
+* [enix/x509-certificate-exporter](https://github.com/enix/x509-certificate-exporter) A Prometheus exporter to monitor x509 certificates expiration in Kubernetes clusters or standalone
 
 ### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 

@@ -32,6 +32,7 @@
 - [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend) Employees often assume human resources is there to help. But given HR really works for the company, is it ever really on our side?
 - [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration/)
 - https://en.wikipedia.org/wiki/Great_Resignation 
+- [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -44,6 +45,8 @@
 - [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa)
 - [lainformacion.com: Podcast | La Gran Dimisión da alas a la revolución laboral de los '40 y tantos'](https://www.lainformacion.com/economia-negocios-y-finanzas/podcast-la-gran-dimision-da-alas-a-la-revolucion-laboral-de-los-40-y-tantos/2855480/) En EEUU 4,2 millones de personas han dejado su puesto de trabajo en octubre y se suman a los 4,4 millones que ya lo hicieron en septiembre y a los 4,3 millones de agosto, según el Departamento de Trabajo
 - [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) Los hay autoritarios, carismáticos, inseguros... EL ESPAÑOL analiza todos estos perfiles con la experta de 'employer branding'.
+- [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021)
+- [xataka.com: La guerra de talento en el sector tecnológico amenaza la viabilidad de muchas pymes españolas: cada vez les resulta más difícil retener a los seniors](https://www.xataka.com/empresas-y-economia/guerra-talento-sector-tecnologico-amenaza-viabilidad-muchas-pymes-espanolas-cada-vez-les-resulta-dificil-retener-a-seniors)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 

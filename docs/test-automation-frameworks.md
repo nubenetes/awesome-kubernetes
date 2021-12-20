@@ -55,6 +55,7 @@ based on your test scripts.
 - [lambdatest.com: Debunking The Top 8 Selenium Testing Myths](https://www.lambdatest.com/blog/debunking-selenium-testing-myths/)
 - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna/) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
 - [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://automated-360.com/integration/how-to-perform-code-quality-check-for-selenium-test-automation/)
+- [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

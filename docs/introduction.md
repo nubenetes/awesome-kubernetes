@@ -1,6 +1,7 @@
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
 - [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
+- [Architecture Decision Records](#architecture-decision-records)
 - [Self service developer platform](#self-service-developer-platform)
 - [Disaster Recovery](#disaster-recovery)
 - [Multi Cloud](#multi-cloud)
@@ -169,9 +170,13 @@
 * [yellow.systems: How to Make a Scalable Web Application: Architecture, Technologies, Cost](https://yellow.systems/blog/how-to-build-a-scalable-web-application)
 * [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops/)
 * [==Dzone: 22 Software Development Trends for 2022==](https://dzone.com/articles/22-software-development-trends-for-2022-1) AI, ML, IaC, SRE, DevSecOps, and many others will define how we make software in 2022. Discover what they mean and why they matter in this article.
+* [==redhat.com: 97 Things Every Cloud Engineer Should Know==](https://www.redhat.com/en/resources/oreilly-97things-cloud-engineers-should-know-ebook) If you create, manage, operate, or configure systems running in the cloud, you're a cloud engineer—even if you work as a system administrator, software developer, data scientist, or site reliability engineer. All of these topics are covered in this e-book: fundamentals, architecture, migration, security & compliance, operations & reliability, software development, cloud economics and measuring spend, automation, data, networking, organizational culture, and personal and professional development.
 
 ## Twelve-Factor Apps in Kubernetes
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
+
+## Architecture Decision Records
+- [redhat.com: Why you should be using architecture decision records to document your project](https://www.redhat.com/architect/architecture-decision-records) ==Documenting architectural decisions helps a project succeed by helping current and future contributors understand the reasons for doing things a certain way.==
 
 ## Self service developer platform
 - [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)

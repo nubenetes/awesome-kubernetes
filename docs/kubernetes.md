@@ -85,6 +85,7 @@
 - [Kubernetes Scripts](#kubernetes-scripts)
     - [Kubernetes and Ansible](#kubernetes-and-ansible)
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
+- [Kubernetes on Windows](#kubernetes-on-windows)
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
 - [Kubernetes interview questions](#kubernetes-interview-questions)
 - [Kubernetes Certifications. CKA, CKAD and CKS](#kubernetes-certifications-cka-ckad-and-cks)
@@ -169,6 +170,7 @@
 * [searchitoperations.techtarget.com: Ensure Kubernetes high availability with master node planning](https://searchitoperations.techtarget.com/tip/Ensure-Kubernetes-high-availability-with-master-node-planning) Kubernetes ensures high availability in its worker nodes, but for a mission-critical workload, IT teams should take these extra steps for redundancy in the master node components.
 * [thenewstack.io: The New Stack’s Top Kubernetes Stories of 2021](https://thenewstack.io/the-new-stacks-top-kubernetes-stories-of-2021/)
 * [ostechnix.com: Kubernetes Features Explained In Detail](https://ostechnix.com/kubernetes-features/)
+* [==kodekloud.com: Kubernetes Features Every Beginner Must Know==](https://kodekloud.com/kubernetes-features-every-beginner-must-know/)
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
@@ -477,6 +479,7 @@
 * [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy/) This post analyzes the Kubernetes node proxy model, and provides 5 demo implementations (within couples of lines of code) of the model, each based on different tech-stacks (userspace/iptables/ipvs/tc-ebpf/sock-ebpf).
 * [blog.brujordet.no: Using custom hardware in kubernetes](https://blog.brujordet.no/post/homelab/using_custom_hardware_in_kubernetes/)
 * [==technos.medium.com: Kubernetes Workflow for Absolute Beginners==](https://technos.medium.com/kubernetes-workflow-bad346c54962)
+* [==cloud.google.com: The past, present, and future of Kubernetes with Eric Brewer==](https://cloud.google.com/blog/products/containers-kubernetes/the-rise-and-future-of-kubernetes-and-open-source-at-google)
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -1130,6 +1133,9 @@
 
 ## Spot instances in Kubernetes
 - [itnext.io: Embracing failures and cutting infrastructure costs: Spot instances in Kubernetes](https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc)
+
+## Kubernetes on Windows
+- [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://loft.sh/blog/kubernetes-on-windows-6-life-saving-tools-and-tips/)
 
 ## Kubernetes Incident Report Plan IRP
 - [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan/)

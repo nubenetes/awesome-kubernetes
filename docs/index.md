@@ -72,7 +72,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
-- [Kubernetes 🌟](kubernetes.md)
+- [==Kubernetes== 🌟](kubernetes.md)
     - [Kubernetes Plugins, Tools, Extensions and Projects 🌟](kubernetes-tools.md)
     - [kubectl commands](kubectl-commands.md)
     - [Kubernetes Networking](kubernetes-networking.md)
@@ -84,7 +84,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Operators and Controllers](kubernetes-operators-controllers.md)
     - [Kubernetes Based Development](kubernetes-based-devel.md)
     - [Kubernetes on premise](kubernetes-on-premise.md)
-    - [==Managed kubernetes in public clouds==](managed-kubernetes-in-public-cloud.md)
+    - [==Managed kubernetes in public clouds== 🌟](managed-kubernetes-in-public-cloud.md)
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)

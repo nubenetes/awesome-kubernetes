@@ -45,3 +45,4 @@
 - [techrepublic.com: AWS has gone down before, as have other providers; Fastly has lessons to share from its own outage](https://www.techrepublic.com/article/aws-has-gone-down-before-as-have-other-providers-fastly-has-lessons-to-share-from-its-own-outage/)
 - [==Downdetector==](https://downdetector.co.uk)
     - [downdetector: aws](https://downdetector.co.uk/status/aws-amazon-web-services/)
+- [sdxcentral.com: AWS Outage Stresses Telco Cloud Challenges](https://www.sdxcentral.com/articles/news/aws-outage-stresses-telco-cloud-challenges/2021/12/)

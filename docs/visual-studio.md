@@ -95,6 +95,7 @@ A simple extension to make indentation more readable
 * [betterprogramming.pub: The Best VS Code Extensions to Supercharge Your Git](https://betterprogramming.pub/the-best-vs-code-extensions-to-supercharge-your-git-5d5ab3f64f64) Yes, there’s more than GitLens!
 * [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt) The best engineering teams I’ve talked to use the right tools to continuously refactor code, improve their codebase communication, and address technical debt.
 * [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)
+* [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working/)
 
 #### More Extensions
 * [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) Extension to format JavaScript code using prettier-eslint package
@@ -192,6 +193,7 @@ A simple extension to make indentation more readable
 ## Debugging in VScode
 - [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
+- [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
 
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)

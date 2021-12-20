@@ -237,6 +237,7 @@
 ## Books
 * [ansiblefordevops.com](https://www.ansiblefordevops.com/)
 * [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com/)
+* [redhat.com: The Automated Enterprise](https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107) Transform your business with an automation platform that unifies your people and processes.
   
 ## Ansible Galaxy Roles
 - [galaxy.ansible.com](https://galaxy.ansible.com/)

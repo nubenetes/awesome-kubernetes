@@ -400,6 +400,7 @@ git push origin -f
 * [towardsdatascience.com: Git and GitHub basics for Data Scientists](https://towardsdatascience.com/git-and-github-basics-for-data-scientists-b9fd96f8a02a) UCL Data Science Workshop 8: What is Git, Creating a local repository, Committing your first files, Linking to a remote repository
 * [github.blog: Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta/) Lists level up the starring experience by making it easy to organize and curate your favorite repositories on GitHub. You can create public lists that appear on your stars page at https://github.com/USERNAME?tab=stars.
 * [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/)
+* [==about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)==](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp)
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
@@ -429,6 +430,9 @@ git push origin -f
 - [==resources.github.com: What is GitHub Actions? How automation & CI/CD work on GitHub (whitepaper/pdf)==](https://resources.github.com/devops/tools/automation/actions)
 - [==github.blog: Container signing added to the Publish Docker Container workflow for GitHub Actions==](https://github.blog/changelog/2021-12-06-container-signing-added-to-the-publish-docker-container-workflow-for-github-actions/) We have added support for [sigstore](https://www.sigstore.dev/) container signing to the default GitHub Actions starter workflow for publishing container images. New workflows on public repositories will use this by default. If you have an existing workflow, you will need to update your workflow to take advantage of this capability.
 - [dev.to: What's the difference between a GitHub Action and a Workflow?](https://dev.to/github/whats-the-difference-between-a-github-action-and-a-workflow-2gba)
+- [github.blog: 5 automations every developer should be running](https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/)
+- [==github.blog: Getting started with GitHub Actions just got easier!==](https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/)
+- [github.blog: GitHub Actions: Improvements to GitHub Actions starter experience](https://github.blog/changelog/2021-12-17-github-actions-improvements-to-github-actions-starter-experience/)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 

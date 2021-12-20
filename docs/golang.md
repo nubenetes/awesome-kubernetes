@@ -8,6 +8,7 @@
 - [Go packages](#go-packages)
 - [Go Tools](#go-tools)
 - [Go Samples for Google Cloud](#go-samples-for-google-cloud)
+- [Dockerfile for go](#dockerfile-for-go)
 - [Tweets](#tweets)
 ## Introduction
 - [golang.org](https://golang.org/)
@@ -35,6 +36,7 @@
 - [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) Learn Go with test-driven development
 - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60) 
 - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)
+- [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)
 
 ## Tutorials
 - [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2)
@@ -73,6 +75,9 @@
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
 - [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
+
+## Dockerfile for go
+- [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)
 
 ## Tweets
 - [twitter.com/GolangRepos](https://twitter.com/GolangRepos)

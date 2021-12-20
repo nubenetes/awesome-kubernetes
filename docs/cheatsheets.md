@@ -127,7 +127,7 @@
 * [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [linuxacademy](https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/)
 * [fabric8 - kubectl](https://github.com/fabric8io/kansible/blob/master/vendor/k8s.io/kubernetes/docs/user-guide/kubectl-cheatsheet.md)
-* [intellipaat.com 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
+* [==intellipaat.com== 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/)
 * [dzone: kubectl commands cheat sheet](https://dzone.com/articles/kubectl-commands-cheat-sheet)
 * [jimmysong.io: kubectl cheat sheet 🌟](https://jimmysong.io/kubernetes-handbook/guide/using-kubectl.html)
 * [cheatsheet.dennyzhang.com: kubectl kubernetes free cheat sheet 🌟](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-a4)
