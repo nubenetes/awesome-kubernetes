@@ -6,6 +6,7 @@
     - [Telepresence local development for k8s and openshift microservices](#telepresence-local-development-for-k8s-and-openshift-microservices)
     - [Bridge to Kubernetes](#bridge-to-kubernetes)
 - [Kubernetes Clients and Dashboards](#kubernetes-clients-and-dashboards)
+    - [Octant](#octant)
     - [Okteto local kubernetes development](#okteto-local-kubernetes-development)
     - [Lens Kubernetes IDE](#lens-kubernetes-ide)
     - [Kubenav](#kubenav)
@@ -94,6 +95,10 @@
 - [thenewstack.io: Who Needs a Dashboard? Why the Kubernetes Command Line Is Not Enough](https://thenewstack.io/who-needs-a-dashboard-why-the-kubernetes-command-line-is-not-enough/)
 - [kui.tools](https://kui.tools) Kui: CLI-driven Graphics for Kubernetes. Tired of working with Kubernetes in cli mode only? Try kui - a hybrid tool that allows you to interact with any Kubernetes cluster easily with more advanced features available only in GUI.
 - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat)
+
+### Octant
+- [==octant.dev==](https://octant.dev) Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
+- [linode.com: A Overview of Using Octant with Kubernetes](https://www.linode.com/docs/guides/using-octant-with-kubernetes-a-tutorial)
 
 ### Okteto local kubernetes development
 - [okteto.com: How to Develop and Debug Java Applications on Kubernetes](https://okteto.com/blog/how-to-develop-java-apps-in-kubernetes/)

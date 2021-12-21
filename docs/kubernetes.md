@@ -598,6 +598,7 @@
 
 #### Kubernetes Taints and Tolerations
 * [thenucleargeeks.com: Taints and Tolerations in Kubernetes](https://thenucleargeeks.com/2021/03/28/taints-and-tolerations-in-kubernetes/)
+* [faun.pub: Taints And Toleration Basics In Kubernetes](https://faun.pub/taints-and-toleration-basics-in-kubernetes-c0538c3f6deb)
 #### Kubernetes Deployment, Rollling Updates and Rollbacks
 * [medium: How to Deploy a Web Application with Kubernetes](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
 * [itnext.io: Kubernetes rolling updates, rollbacks and multi-environments](https://itnext.io/kubernetes-rolling-updates-rollbacks-and-multi-environments-4ff9912df5)

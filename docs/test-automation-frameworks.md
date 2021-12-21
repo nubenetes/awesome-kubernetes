@@ -56,6 +56,7 @@ based on your test scripts.
 - [linkedin.com: Selenium 4 and Grid Integration with Kubernetes 🌟](https://www.linkedin.com/pulse/selenium-4-grid-integration-kubernetes-rishi-khanna/) This article is written to highlight Selenium 4 capabilities and how selenium grid can be incorporated with Kubernetes.
 - [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://automated-360.com/integration/how-to-perform-code-quality-check-for-selenium-test-automation/)
 - [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script/)
+- [lambdatest.com: Selenium Locators Tutorial 🌟](https://www.lambdatest.com/learning-hub/selenium-locators) Locators in Selenium play an important role in the life of an automation engineer. They provide a path to access web elements that are essential to automate specific actions like click, type, checkboxes, etc.
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

@@ -184,6 +184,7 @@
 - [developers.redhat.com: Generating pseudorandom numbers in Python](https://developers.redhat.com/articles/2021/11/04/generating-pseudorandom-numbers-python)
 - [dev.to: Best Practices For Writing Clean Pythonic Code](https://dev.to/dollardhingra/python-code-best-practices-4k96)
 - [searchenginejournal.com: An Introduction To Python & Machine Learning For Technical SEO](https://www.searchenginejournal.com/python-machine-learning-technical-seo/) Python is used to power platforms, perform data analysis, and run their machine learning models. Get started with Python for technical SEO.
+- [digitalocean.com: How To Create a Twitterbot with Python 3 and the Tweepy Library](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

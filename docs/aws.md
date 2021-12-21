@@ -998,6 +998,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4OLpOZ77crc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

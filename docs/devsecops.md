@@ -479,6 +479,7 @@
 - [yahoo/check-log4j](https://github.com/yahoo/check-log4j) To determine if a host is vulnerable to log4j CVE‐2021‐44228
 - [welivesecurity.com: Lo que todo líder de una empresa debe saber sobre Log4Shell](https://www.welivesecurity.com/la-es/2021/12/16/que-deben-saber-lideres-empresas-sobre-log4shell/) Se están detectando cientos de miles de intentos de ataque que buscan explotar la vulnerabilidad.
 - [genbeta.com: "Internet está en llamas": Cloudflare ha detectado más de 24.600 ataques por minuto que explotaban la vulnerabilidad Log4Shell](https://www.genbeta.com/actualidad/internet-esta-llamas-cloudflare-ha-detectado-24-600-ataques-minuto-que-explotaban-vulnerabilidad-log4shell)
+- [dynatrace.com: Log4Shell vulnerability](https://www.dynatrace.com/resource-center/log4j-vulnerability)
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

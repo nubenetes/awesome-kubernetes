@@ -121,6 +121,7 @@
 * [cloudsavvyit.com: What’s the Difference Between Exposing and Publishing a Docker Port?](https://www.cloudsavvyit.com/14880/whats-the-difference-between-exposing-and-publishing-a-docker-port/)
 * [==clavinjune.dev: Working With Remote Docker Using Docker Context==](https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context/) This is a cheatsheet for working with docker context to connect remote docker locally. Might help you to work with remote docker without manually SSH to the remote server.
 * [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/)
+* [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
