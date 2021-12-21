@@ -158,6 +158,7 @@
 		- [awesome-go.com](https://awesome-go.com/)
 		- [==golangrepo.com== 🌟](https://golangrepo.com/) __Find The Best Go Repositories For Your Project. A curated list of awesome Go frameworks, libraries and software.__
 	- [mehdihadeli/awesome-go-education](https://github.com/mehdihadeli/awesome-go-education) A curated list of awesome articles and resources for learning and practicing Go and its related technologies.
+	- [nleiva/go-links](https://github.com/nleiva/go-links)
 - Awesome .NET Core:
 	- [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)
 	- [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet)
