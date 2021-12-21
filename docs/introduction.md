@@ -1,5 +1,6 @@
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Technical Debt](#technical-debt)
 - [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
 - [Architecture Decision Records](#architecture-decision-records)
 - [Self service developer platform](#self-service-developer-platform)
@@ -171,6 +172,9 @@
 * [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops/)
 * [==Dzone: 22 Software Development Trends for 2022==](https://dzone.com/articles/22-software-development-trends-for-2022-1) AI, ML, IaC, SRE, DevSecOps, and many others will define how we make software in 2022. Discover what they mean and why they matter in this article.
 * [==redhat.com: 97 Things Every Cloud Engineer Should Know==](https://www.redhat.com/en/resources/oreilly-97things-cloud-engineers-should-know-ebook) If you create, manage, operate, or configure systems running in the cloud, you're a cloud engineer—even if you work as a system administrator, software developer, data scientist, or site reliability engineer. All of these topics are covered in this e-book: fundamentals, architecture, migration, security & compliance, operations & reliability, software development, cloud economics and measuring spend, automation, data, networking, organizational culture, and personal and professional development.
+
+## Technical Debt
+- [==medium: Technical debt 101==](https://medium.com/@joaomilho/festina-lente-e29070811b84) A primer about technical debt, legacy code, big rewrites and ancient wisdom for non technical managers
 
 ## Twelve-Factor Apps in Kubernetes
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
