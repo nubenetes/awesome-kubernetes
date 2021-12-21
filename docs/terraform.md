@@ -370,6 +370,8 @@
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
 
 ### Terraform and OCI
+- https://github.com/oracle-quickstart/oci-quickstart-template
+- https://github.com/oracle-quickstart/oci-oke
 - [oracle-quickstart/oci-arch-db-migration](https://github.com/oracle-quickstart/oci-arch-db-migration/tree/master/oci-arch-ee-exa-db-mig) This code will help you deploy a compute instance and Exadata Cloud Service (Quarter Rack) database system in Oracle Cloud Infrastructure.
 
 ==}
