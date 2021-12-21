@@ -1,6 +1,7 @@
 # Relational Databases on Kubernetes. Database DevOps
 - [Introduction](#introduction)
 - [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
+- [Database Load Balancer](#database-load-balancer)
 - [SQL](#sql)
 - [Stored Procedures](#stored-procedures)
 - [Performance](#performance)
@@ -88,6 +89,9 @@
 
 ## How to choose the right database for your service 
 * [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)
+
+## Database Load Balancer
+- [severalnines.com: How Does a Database Load Balancer Work?](https://severalnines.com/database-blog/how-does-database-load-balancer-work)
 
 ## SQL
 - [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)
