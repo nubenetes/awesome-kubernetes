@@ -481,6 +481,9 @@
 - [genbeta.com: "Internet está en llamas": Cloudflare ha detectado más de 24.600 ataques por minuto que explotaban la vulnerabilidad Log4Shell](https://www.genbeta.com/actualidad/internet-esta-llamas-cloudflare-ha-detectado-24-600-ataques-minuto-que-explotaban-vulnerabilidad-log4shell)
 - [dynatrace.com: Log4Shell vulnerability](https://www.dynatrace.com/resource-center/log4j-vulnerability)
 - [Maelstromage/Log4jSherlock](https://github.com/Maelstromage/Log4jSherlock) Log4j Scanner coded in Powershell, so you can run it in windows! This tool scans for JAR, WAR, EAR, JPI, HPI that contain the effected JndiLookup.class even in nested files. Scans nested files searches for the effected JNDI class. pulls version and reports in CSV, JSON, and txt log. reports error i.e. access issues to folders where files could be missed.
+- [blog.mimacom.com: A Summary of log4j Exploit in a Log4shell - What Happened and What You Can Do About It](https://blog.mimacom.com/log4j-in-a-log4shell/)
+- [cyberscoop.com: The Log4j flaw is the latest reminder that quick security fixes are easier said than done](https://www.cyberscoop.com/log4j-hack-security-update-ransomware/)
+- [vpnranks.com: Belgian Defense Ministry Under Cyber Attack Due to Log4j Vulnerability](https://www.vpnranks.com/news/belgian-defense-ministry-under-cyber-attack-due-to-log4j-vulnerability/)
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

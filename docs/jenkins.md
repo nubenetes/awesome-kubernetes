@@ -141,6 +141,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [dzone: Parameterize Jenkinsfile in MultiBranch Jobs 🌟](https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs) Select different Jenkinsfiles as a parameter in MultiBranch Jobs
 * [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) How to pull from Git, build a Docker image, and publish the image to Docker Hub.
 * [==lambdatest.com: What Is Jenkins Used For?== 🌟](https://www.lambdatest.com/blog/what-is-jenkins/)
+* [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins/) 
 
 ## Interview Questions 
 * [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
