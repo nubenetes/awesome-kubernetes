@@ -5,6 +5,7 @@
 - [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
 - [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
 - [Google Cloud AppSheet](#google-cloud-appsheet)
+- [Cloud Spanner](#cloud-spanner)
 - [Serverless](#serverless)
 - [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
 - [Python](#python)
@@ -79,6 +80,11 @@
 ## Google Cloud AppSheet
 - [Google Cloud AppSheet](https://cloud.google.com/appsheet) 
 - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/3640975/google-cloud-appsheet-review-no-code-with-extras.html) Google’s easy no-code app builder lets you add functionality with spreadsheet formulas and expressions, and even apply machine learning models.
+
+## Cloud Spanner
+- https://cloud.google.com/spanner
+- https://github.com/cloudspannerecosystem/autoscaler
+- [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler/)
 
 ## Serverless
 - [Cloud Functions, meet VPC functionality](https://cloud.google.com/blog/products/serverless/learn-how-to-use-advanced-vpc-functionality-with-your-cloud-functions)
