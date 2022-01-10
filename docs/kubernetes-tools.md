@@ -41,6 +41,13 @@
 - [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
 - [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
 - [Direktiv](#direktiv)
+- [Jabos](#jabos)
+- [Pleco](#pleco)
+- [Mesh-kridik](#mesh-kridik)
+- [kubewatch](#kubewatch)
+- [Botkube](#botkube)
+- [Robusta](#robusta)
+- [Epinio](#epinio)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -308,7 +315,8 @@
 * [weaveworks: kured - Kubernetes Reboot Daemon 🌟](https://github.com/weaveworks/kured) - [weave.works: One year kured - your Kubernetes Reboot Daemon](https://www.weave.works/blog/one-year-kured-kubernetes-reboot-daemon) Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS. Many rely on Kured, which helps perform safe automatic node reboots when indicated by the package management of the underlying OS, to help make OS security better.
 * [k8s-cluster-simulator](https://github.com/pfnet-research/k8s-cluster-simulator) Kubernetes cluster simulator for evaluating schedulers.
 * [kubelogin 🌟](https://github.com/int128/kubelogin) kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
-* [kube-oidc-proxy](https://github.com/jetstack/kube-oidc-proxy) Reverse proxy to authenticate to managed Kubernetes API servers via OIDC.
+* [==kube-oidc-proxy==](https://github.com/jetstack/kube-oidc-proxy) Reverse proxy to authenticate to managed Kubernetes API servers via OIDC.
+    * [==tremolosecurity.com: Updating kube-oidc-proxy==](https://www.tremolosecurity.com/post/updating-kube-oidc-proxy) **Kubernetes offers multiple ways to authenticate users to the API server. The best way to go, when available, is to use OpenID Connect (OIDC). We've talked about why you shouldn't use certificates for kubernetes authentication, but most cloud providers won't let you configure the API server flags needed to integrate managed clusters into an OIDC identity provider.**
 * [KubeSurvival 🌟](https://github.com/aporia-ai/kubesurvival) Significantly reduce Kubernetes costs by finding the cheapest machine types that can run your workloads
 * [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook/) - [github: k8s-vault-webhook](https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook) A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
 * [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s) The open source deployment manifest for Cloud Foundry on Kubernetes. cf-for-k8s blends the popular CF developer API with Kubernetes, Istio, and other open source technologies. The project aims to improve developer productivity for organizations using Kubernetes
@@ -571,6 +579,8 @@
 - [==Karpenter==](https://karpenter.sh/) Just-in-time Nodes for Any Kubernetes Cluster. __Karpenter simplifies Kubernetes infrastructure with the right nodes at the right time.__ Karpenter automatically launches just the right compute resources to handle your cluster's applications. It is designed to let you take full advantage of the cloud with fast and simple compute provisioning for Kubernetes clusters.
 - [techcrunch.com: AWS launches Karpenter, an open source autoscaler for Kubernetes clusters](https://techcrunch.com/2021/11/30/aws-launches-karpenter-an-open-source-autoscaler-for-kubernetes-clusters/)
 - [itnext.io: Karpenter: Open-Source, High-Performance Kubernetes Cluster Autoscaler](https://itnext.io/karpenter-open-source-high-performance-kubernetes-cluster-autoscaler-d56e3ab06aae)
+- [blog.kloia.com: Karpenter Cluster Autoscaler](https://blog.kloia.com/karpenter-cluster-autoscaler-76d7f7ec0d0e)
+- [infoq.com: AWS Releases Multi-Cloud Kubernetes Autoscaler Karpenter](https://www.infoq.com/news/2022/01/karpenter-kubernetes-autoscaler/)
 
 ## Kuby (easy deployments of Ruby Rails App)
 - [Kuby](https://getkuby.io/) Deploy Your Rails App the Easy Way. Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt.
@@ -579,6 +589,31 @@
 ## Direktiv
 - [Direktiv](https://github.com/direktiv/direktiv) Serverless Container Orchestration. Diretiv is a serverless workflow and automation engine running on Kubernetes and Knative. Direktiv is the equivalent of AWS Step Functions, or Google Cloud Workflows or Alibaba Serverless Workflows. The difference between Direktiv and the cloud provider workflow engines is that Direktiv is cloud & platform agnostic, runs on kubernetes and executes containers as "plugins".
 - [blog.direktiv.io: Building a simple cloud-native, orchestrated microservice from containers](https://blog.direktiv.io/building-a-simple-cloud-native-orchestrated-microservice-from-containers-39dbcb80b0d8) 
+
+## Jabos
+- [Jabos](https://github.com/srfrnk/jabos)
+- [itnext.io: Keep it simple K8s. Kubernetes GitOps using Jabos](https://itnext.io/keep-it-simple-k8s-c0c68c46eabb)
+
+## Pleco
+- [Qovery/pleco](https://github.com/Qovery/pleco) Automatically removes Cloud managed services and Kubernetes resources based on tags with TTL
+- [qovery.com: Announcement: Pleco - the open-source Kubernetes and Cloud Services garbage collector](https://www.qovery.com/blog/announcement-of-pleco-the-open-source-kubernetes-and-cloud-services-garbage-collector)
+
+## Mesh-kridik
+- (chen-keinan/mesh-kridik)[https://github.com/chen-keinan/mesh-kridik] mesh-kridik is an open-source security checker that performs various security checks on a Kubernetes cluster with istio service mesh and is leveraged by OPA (Open Policy Agent) to enforce security rules.
+- [kitploit.com: Mesh-Kridik](https://www.kitploit.com/2021/12/mesh-kridik-open-source-security.html)
+
+## kubewatch
+- [==bitnami-labs/kubewatch==](https://github.com/bitnami-labs/kubewatch) Watch k8s events and trigger Handlers. kubewatch is a Kubernetes watcher that currently publishes notification to available collaboration hubs/notification channels. Run it in your k8s cluster, and you will get event notifications through webhooks.
+
+## Botkube
+- [botkube.io](https://www.botkube.io) BotKube is a messaging bot for monitoring and debugging Kubernetes clusters.
+
+## Robusta
+- [Robusta](https://docs.robusta.dev/) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
+
+## Epinio
+- https://epinio.io The Application Development Engine for Kubernetes. Epinio is how you tame the developer workflow in Kubernetes to go from Code to URL in a single step.
+- [epinio/epinio](https://github.com/epinio/epinio) Opinionated platform that runs on Kubernetes, that takes you from App to URL in one step.
 
 ## Tweets
 <details>
@@ -590,6 +625,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">`kubectl logs --previous` saved my life <a href="https://t.co/mIsCJehVwI">pic.twitter.com/mIsCJehVwI</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1425925390644690954?ref_src=twsrc%5Etfw">August 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1451990747318611968?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting developer tools &amp; frameworks for <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> to learn in 2022:<br>🔹<a href="https://twitter.com/telepresenceio?ref_src=twsrc%5Etfw">@telepresenceio</a> - dev CLI<br>🔹<a href="https://twitter.com/DevSpace?ref_src=twsrc%5Etfw">@DevSpace</a> - dev CLI <br>🔹<a href="https://twitter.com/KnativeProject?ref_src=twsrc%5Etfw">@KnativeProject</a> - <a href="https://twitter.com/hashtag/serverless?src=hash&amp;ref_src=twsrc%5Etfw">#serverless</a> platform<br>🔹<a href="https://twitter.com/skaffolddev?ref_src=twsrc%5Etfw">@skaffolddev</a> - dev CLI<br>🔹<a href="https://twitter.com/hashtag/KubeVela?src=hash&amp;ref_src=twsrc%5Etfw">#KubeVela</a> - <a href="https://twitter.com/oam_dev?ref_src=twsrc%5Etfw">@oam_dev</a> platform<br>🔹<a href="https://twitter.com/okteto?ref_src=twsrc%5Etfw">@okteto</a> - dev platform <br>🔹<a href="https://twitter.com/QuarkusIO?ref_src=twsrc%5Etfw">@QuarkusIO</a> - <a href="https://twitter.com/hashtag/java?src=hash&amp;ref_src=twsrc%5Etfw">#java</a> framework</p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1475065476388728832?ref_src=twsrc%5Etfw">December 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

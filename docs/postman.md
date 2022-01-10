@@ -23,6 +23,7 @@
     - [vaishnavidontha.hashnode.dev: API Testing using Postman - Part 3](https://vaishnavidontha.hashnode.dev/api-testing-using-postman-part-3)
 - [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/)
 - [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)
+- [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/)
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman
 - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)

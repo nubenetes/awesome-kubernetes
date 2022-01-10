@@ -1,4 +1,5 @@
 # Java and Memory Management
+- [Introduction](#introduction)
 - [Java Performance Optimization](#java-performance-optimization)
 	- [Java on Kubernetes. Java Memory Arguments for Containers](#java-on-kubernetes-java-memory-arguments-for-containers)
 	- [Benchmarking modern Java Virtual Machines and the next-generation garbage collectors](#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors)
@@ -14,6 +15,9 @@
 - [Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)](#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014)
 - [Slides](#slides)
 - [Tweets](#tweets)
+
+## Introduction
+- [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html)
 
 ## Java Performance Optimization
 * [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps

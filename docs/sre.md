@@ -9,7 +9,7 @@
 - [Tweets](#tweets)
 ## SRE
 - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
-- [sre.google: What is Site Reliability Engineering (SRE)? 🌟](https://sre.google/)
+- [==sre.google: What is Site Reliability Engineering (SRE)?== 🌟](https://sre.google/)
 - [cloud.google.com: SRE vs. DevOps: competing standards or close friends?](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends)
 - [overops.com: DevOps vs. SRE: What’s the Difference Between Them, and Which One Are You?](https://blog.overops.com/devops-vs-sre-whats-the-difference-between-them-and-which-one-are-you/)
 - [victorops.com: SRE vs. DevOps](https://victorops.com/blog/sre-vs-devops)
@@ -62,6 +62,7 @@
 - [thenewstack.io: Centralized vs. Decentralized Operations](https://thenewstack.io/sharing-the-operations-burden-centralized-vs-decentralized/)
 - [==dev.to: What You Need to Break into DevOps and SRE==](https://dev.to/thenjdevopsguy/what-you-need-to-break-into-devops-and-sre-3fp5)
 - [infoq.com: Observing and Understanding Failures: SRE Apprentices](https://www.infoq.com/presentations/sre-apprentices/)
+- [medium: Agile vs. DevOps vs. SRE… it’s not OR, it’s AND !](https://medium.com/@ta.abhisingh/agile-vs-devops-vs-sre-its-not-or-it-s-and-aa312904e577)
 
 ## SRE Tools
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)
@@ -86,6 +87,8 @@
     [![cn do sre](images/CN-DO-SRE.png)](https://devops.com/sre-devops-cloud-native-server-cage-match/)
 
     [![devops vs sre](images/devops_vs_sre.jpg)](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
+
+    [![agile devops sre](images/agile_devops_sre.jpeg)](https://medium.com/@ta.abhisingh/agile-vs-devops-vs-sre-its-not-or-it-s-and-aa312904e577)
 	</center>
 
 ## Videos

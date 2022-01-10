@@ -122,6 +122,7 @@
 * [==clavinjune.dev: Working With Remote Docker Using Docker Context==](https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context/) This is a cheatsheet for working with docker context to connect remote docker locally. Might help you to work with remote docker without manually SSH to the remote server.
 * [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/)
 * [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
+* [iximiuz.com: Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
@@ -134,6 +135,7 @@
 ## Docker VS Kubernetes
 - [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://containerjournal.com/features/whats-the-difference-between-docker-and-kubernetes/)
+- [peoplactive.com: Kubernetes Vs Docker – Which to Adopt?](https://peoplactive.com/kubernetes-vs-docker-swarm-difference)
 
 ## Docker Patterns and Antipatterns
 - [codefresh.io: Docker anti-patterns 🌟](https://codefresh.io/containers/docker-anti-patterns/)
@@ -160,6 +162,8 @@
 * [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage/)
 * [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
 * [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnk8s.io/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
+* [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
+* [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 
 ## Reducing Build Time
 * [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)
@@ -183,6 +187,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
     - **Docuum is ideal for use cases such as continuous integration (CI) workers, developer workstations, or any other environment in which Docker images accumulate on disk over time.** Docuum works well with tools like Toast and Docker Compose.
     - Docuum is used by Airbnb on its fleet of 1.5k+ CI workers.
 
+- [cloudsavvyit.com: 10 Tools That Complement Docker](https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker/)
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)
@@ -199,6 +204,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [Visual docker-compose.yml file generator 🌟](https://nuxx.io/)
 * [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)
 * [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
+* [==geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners==](https://geshan.com.np/blog/2021/12/docker-postgres/)
 
 ## Moving Linux Services Into Containers
 * [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers/)
@@ -265,5 +271,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Environment variables in Docker:<br><br>Environment variables are dynamic-named values that affect how our app will behave when running.<br><br>We can define them with Docker:<br>- at runtime<br>- in the Dockerfile<br>- in the Compose file (2 ways)<br><br>Let&#39;s see in detail in 1 minute:<br><br>1/5</p>&mdash; Francesco Ciulla (@FrancescoCiull4) <a href="https://twitter.com/FrancescoCiull4/status/1393448190729465856?ref_src=twsrc%5Etfw">May 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introduction to Docker🐳<a href="https://twitter.com/Docker?ref_src=twsrc%5Etfw">@Docker</a> is an open-source platform for deploying and managing containerized applications. It allows developers to easily package their applications into containers that can be deployed on every machine with a valid Docker installation.<br><br>Thread 🧵👇</p>&mdash; Gabriel Tanner (@GabrielTanner14) <a href="https://twitter.com/GabrielTanner14/status/1470411963884707844?ref_src=twsrc%5Etfw">December 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to grasp Containers and Docker (Mega Thread)<br><br>When I started using containers back in 2015, I thought they were tiny virtual machines with a subsecond startup time.<br><br>It was easy to follow tutorials from the Internet on how to put your Python or Node.js app into a container...</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1423984739514454033?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -39,6 +39,7 @@
 	- [CyberArk and Ansible](#cyberark-and-ansible)
 	- [CyberArk Conjur](#cyberark-conjur)
 	- [SOPS for Kubernetes](#sops-for-kubernetes)
+	- [Kapitan](#kapitan)
 	- [Alternatives with Kubernetes External Secrets](#alternatives-with-kubernetes-external-secrets)
 - [Serverless Security Best Practices](#serverless-security-best-practices)
 - [Docker Images & Container Security](#docker-images--container-security)
@@ -139,6 +140,7 @@
 - [==redhat.com: Considerations for implementing DevSecOps practices. Checklist== 🌟](https://www.redhat.com/en/resources/considerations-implementing-devsecops-checklist)
 - [==dzone: Security Matters: Vulnerability Scanning Done Right!== 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1) Security has become the priority in every company these days. Let's see how vulnerability scanning is done the right way.
 - [==redhat.com: Getting DevSecOps to production and beyond==](https://www.redhat.com/architect/devsecops-enterprise-architecture) Building security into DevOps practices helps safeguard the organization across the software development lifecycle.
+- [opensource.com: 5 open source security resources from 2021](https://opensource.com/article/21/12/open-source-security) This countdown is for the security articles for 2021 you need to read right now.
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -232,6 +234,20 @@
 - [cloud.google.com: OWASP Top 10 mitigation options on Google Cloud 🌟](https://cloud.google.com/architecture/owasp-top-ten-mitigation#product_overviews) Terrific guidance in this paper that explains each attack vector and which product(s) can help
 - [thenewstack.io: Latest OWASP Top 10 Surfaces Web Development Security Bugs](https://thenewstack.io/the-latest-owasp-top-10-looks-a-lot-like-the-old-owasp/)
 - [thenewstack.io: OWASP Top 10: A Guide to the Worst Software Vulnerabilities](https://thenewstack.io/owasp-top-10-a-guide-to-the-worst-software-vulnerabilities/)
+- [==owasp.org: OWASP API Security Project== 🌟](https://owasp.org/www-project-api-security)
+- [traceable.ai: Use the OWASP API Top 10 To Secure Your APIs](https://www.traceable.ai/blog-post/use-the-owasp-api-top-10-to-secure-your-apis) The [==OWASP API Top 10==](https://owasp.org/www-project-api-security/) documents the risks associated with API development. Here are the vulnerabilities highlighted in the most recent OWASP API Top 10:
+	1. Broken Object Level Authorization (BOLA)
+	2. Broken User Authentication
+	3. Excessive Data Exposure
+	4. Lack of Resources and Rate Limiting
+	5. Broken Function Level Authorization
+	6. Mass Assignment
+	7. Security Misconfiguration
+	8. Injection
+	9. Improper Assets Management
+	10. Insufficient Logging and Monitoring
+
+- [cequence.ai: The OWASP API Security Top 10 From a Real-World Perspective](https://www.cequence.ai/blog/owasp-api-security-top-10-from-a-real-world-perspective/)
 
 ## Source Code Audit
 - [==securecoding.com: Code Audit: How to Ensure Compliance for an Application==](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application/) A source code audit is a process of analyzing the source code of an application with the objective of discovering security vulnerabilities, security design problems, and places of potential improvement in programming practices. After the analysis, a report is generated that is used to implement a range of measures that guarantee the security and reliability of the code. Code audits can be carried out in parallel with penetration tests. They can test the exploitability of code vulnerabilities to better estimate the risk they pose. Ideally, code audits are performed throughout the application lifecycle. The faster a vulnerability is discovered, the easier it is to fix!
@@ -290,6 +306,7 @@
 - [developers.redhat.com: Authentication and authorization using the Keycloak REST API](https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-using-the-keycloak-rest-api/)
 - [faun.pub: Integrate Keycloak with HashiCorp Vault](https://faun.pub/integrate-keycloak-with-hashicorp-vault-5264a873dd2f) A How-To guide using Terraform
 - [openshift.com: Geographically Distributed Stateful Workloads - Part 3: Keycloak](https://www.openshift.com/blog/geographically-distributed-stateful-workloads-part-3-keycloak)
+- [blog.flant.com: Running fault-tolerant Keycloak with Infinispan in Kubernetes](https://blog.flant.com/ha-keycloak-infinispan-kubernetes/)
 
 ### Git Credential Manager Core
 - [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) GCM Core is a free, open-source, cross-platform credential manager for Git.
@@ -365,6 +382,8 @@
 - [hashicorp.com: HashiCorp Vault Use Cases and Best Practices on Azure](https://www.hashicorp.com/blog/hashicorp-vault-use-cases-and-best-practices-on-azure)
 - [==medium: Install Hashicorp Vault on Kubernetes using Helm - Part 1== | Marco Franssen](https://marcofranssen.nl/install-hashicorp-vault-on-kubernetes-using-helm-part-1)
 	- [==medium: Install Hashicorp Vault on Kubernetes using Helm — Part 2== | Marco Franssen](https://medium.com/@marco.franssen/install-hashicorp-vault-on-kubernetes-using-helm-part-2-d612cf6c0c91)
+- [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud/)
+- [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
@@ -390,6 +409,10 @@
 
 ### SOPS for Kubernetes
 - [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)
+
+### Kapitan
+- [Kapitan: Generic templated configuration management for Kubernetes, Terraform and other things](https://kapitan.dev)
+- [medium: Declarative secret management for GitOps with Kapitan](https://medium.com/kapitan-blog/declarative-secret-management-for-gitops-with-kapitan-b3c596eab088)
 
 ### Alternatives with Kubernetes External Secrets
 - [GitOps secret management with bitnami-labs Sealed Secret and GoDaddy Kubernetes External Secrets 🌟](https://www.openshift.com/blog/gitops-secret-management)
@@ -484,6 +507,13 @@
 - [blog.mimacom.com: A Summary of log4j Exploit in a Log4shell - What Happened and What You Can Do About It](https://blog.mimacom.com/log4j-in-a-log4shell/)
 - [cyberscoop.com: The Log4j flaw is the latest reminder that quick security fixes are easier said than done](https://www.cyberscoop.com/log4j-hack-security-update-ransomware/)
 - [vpnranks.com: Belgian Defense Ministry Under Cyber Attack Due to Log4j Vulnerability](https://www.vpnranks.com/news/belgian-defense-ministry-under-cyber-attack-due-to-log4j-vulnerability/)
+- [dynatrace.com: Log4Shell vulnerability discovery and mitigation require automatic and intelligent observability](https://www.dynatrace.com/news/blog/log4shell-vulnerability-discovery-and-mitigation)
+- [thenewstack.io: Yet Another Log4j Security Problem Appears](https://thenewstack.io/yet-another-log4j-security-problem-appears)
+- [==cisagov/log4j-scanner==](https://github.com/cisagov/log4j-scanner) **log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities.**
+- [venturebeat.com: What Log4Shell teaches us about open source security](https://venturebeat.com/2021/12/18/what-log4shell-teaches-us-about-open-source-security/)
+- [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://tanzu.vmware.com/developer/blog/log4shell-vulnerability-spotlights-the-importance-of-adopting-trusted-open-source-software-providers-for-the-enterprise/)
+- [==google/log4jscanner==](https://github.com/google/log4jscanner) A log4j vulnerability filesystem scanner and Go package for analyzing JAR files.
+- [thehackernews.com: Microsoft Warns of Continued Attacks Exploiting Apache Log4j Vulnerabilities](https://thehackernews.com/2022/01/microsoft-warns-of-continued-attacks.html)
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

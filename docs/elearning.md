@@ -35,3 +35,4 @@
 
 ## Opinions
 * [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)
+* [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus/)

@@ -60,6 +60,7 @@
     - [rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko, Buildpack & Jib (Part 4)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-4)
     - [rookout.com: Developer Tools for Kubernetes in 2021: Development Machines (Part 5)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-development-machines-part-5)
 - [yitaek.medium.com: Useful Tools for Better Kubernetes Development](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435)
+- [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://okteto.com/blog/kubernetes-for-developers-blog-series-by-okteto/)
 
 ### Skaffold. Local Kubernetes Development
 - [==Skaffold== 🌟](https://skaffold.dev/)

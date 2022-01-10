@@ -57,6 +57,10 @@ based on your test scripts.
 - [==automated-360.com: How to perform Code Quality Check for Selenium Test Automation? (SonarQube)==](https://automated-360.com/integration/how-to-perform-code-quality-check-for-selenium-test-automation/)
 - [testrigtechnologies.com: Selenium Automation Testing: How to write automated test scripts using selenium](https://www.testrigtechnologies.com/how-to-write-a-test-automation-selenium-test-script/)
 - [lambdatest.com: Selenium Locators Tutorial 🌟](https://www.lambdatest.com/learning-hub/selenium-locators) Locators in Selenium play an important role in the life of an automation engineer. They provide a path to access web elements that are essential to automate specific actions like click, type, checkboxes, etc.
+- [==lambdatest.com: Selenium Automation Testing: Basics and Getting Started== 🌟](https://www.lambdatest.com/blog/selenium-automation-testing/)
+- [lambdatest.com: How To Read Config Files In Python Using Selenium [With Example]](https://www.lambdatest.com/blog/how-to-read-configuration-files-in-python-using-selenium/)
+- [lambdatest.com: How To Create Automated Web Bot With Selenium In Python](https://www.lambdatest.com/blog/automated-web-bot-with-selenium-python/)
+- [==lambdatest.com: Selenium Python Tutorial== 🌟](https://www.lambdatest.com/learning-hub/python-tutorial)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

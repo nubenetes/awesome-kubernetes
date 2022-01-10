@@ -1,5 +1,6 @@
 # Kubernetes Networking
 - [Introduction](#introduction)
+- [NetworkPolicy](#networkpolicy)
 - [Nginx Ingress controller](#nginx-ingress-controller)
 - [Gateway API](#gateway-api)
 - [Kube-proxy](#kube-proxy)
@@ -97,6 +98,15 @@
     * Node Port
     * External IPs
     * Load Balancer
+
+* [netris.ai: A Cloud-Like On-Prem Load Balancer for Kubernetes? (a practical guide)](https://www.netris.ai/cloud-like-load-balancer/)
+* [==thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes==](https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/)
+* [==nginx.com: Kubernetes Networking 101==](https://www.nginx.com/blog/kubernetes-networking-101)
+* [medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes](https://medium.com/the-programmer/working-with-clusterip-service-type-in-kubernetes-45f2c01a89c8) Working with services in Kubernetes Using ClusterIP
+* [olamiko.medium.com: Technical Series: Kubernetes Networking](https://olamiko.medium.com/technical-series-kubernetes-networking-5a5dc3823163)
+
+## NetworkPolicy
+- [opensource.com: What you need to know about Kubernetes NetworkPolicy](https://opensource.com/article/21/10/kubernetes-networkpolicy) Understanding Kubernetes NetworkPolicy is one of the fundamental requirements to learn before deploying an application to Kubernetes.
 
 ## Nginx Ingress controller
 * [tech2fun.net: K8s Nginx Ingress Handling TLS Traffic and Using Pod Readiness Probes](https://tech2fun.net/k8s-nginx-ingress-handling-tls-traffic-and-using-pod-readiness-probes/)

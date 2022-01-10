@@ -100,6 +100,7 @@
 ## Datree
 * https://github.com/datreeio/datree Prevent Kubernetes misconfigurations from reaching production (again 😤 )! **Datree** is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies. See our docs: https://hub.datree.io/
 * [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
+* [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) Why policy management was the key to understanding Kubernetes and the DevOps pipeline.
 
 ## Helm Charts repositories
 * [codeengineered.com: 4 Places To Find Helm Charts](https://codeengineered.com/blog/2020/helm-find-charts/)

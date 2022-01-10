@@ -36,6 +36,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
     - etc
+- [==repost.aws== 🌟](https://repost.aws)
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 

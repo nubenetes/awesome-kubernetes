@@ -118,10 +118,12 @@
 - [thenewstack.io: GitOps and the Cheap Cloud Myth](https://thenewstack.io/repatriation-or-cloud-what-we-need-is-control/)
 - [==redhat.com: Comparing GitOps implementation patterns: Pros and cons==](https://www.redhat.com/architect/gitops-implementation-patterns) The CI/CD Controller pattern and the SCM Controller pattern take different approaches to automating application deployment from source code management.
 - [==developer.ibm.com: GitOps: Best practices for the real world==](https://developer.ibm.com/blogs/gitops-best-practices-for-the-real-world)
-- [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops/) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
+- [chrisshort.net: GitOps: An implementation of DevOps (abstracts)](https://chrisshort.net/abstracts/gitops-implementation-devops/)
+	- [==chrisshort.net: GitOps: An implementation of DevOps==](https://chrisshort.net/gitops-an-implementation-of-devops/) GitOps is a prescriptive way of implementing DevOps. You will not succeed in using GitOps if you haven't embraced some DevOps philosophies along the way.
 - [thenewstack.io: Trusted Delivery: Policy-Based Compliance the GitOps Way](https://thenewstack.io/trusted-delivery-policy-based-compliance-the-gitops-way/)
 - [thenewstack.io: Getting Started with GitOps ](https://thenewstack.io/getting-started-with-gitops/)
 - [==medium: Stop Using Branches for Deploying to Different GitOps Environments | ostis Kapelonis==](https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402)
+- [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -173,6 +175,7 @@
 
 ### Kustomize. Kubernetes native configuration management
 - [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+- [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627)
 
 ### Flagger
 - [Flagger](https://flagger.app/) Progressive Delivery Operator for Kubernetes. Release new versions of your application/services to Kubernetes like a pro with Weaveworks's Flagger.
@@ -255,6 +258,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: What is GitOps?<br><br>Is this something that you should learn?<br><br>Let&#39;s dive into it. <a href="https://t.co/hsMUesvP23">pic.twitter.com/hsMUesvP23</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1288469479693803525?ref_src=twsrc%5Etfw">July 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you do a canary release on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> with <a href="https://twitter.com/hashtag/Istio?src=hash&amp;ref_src=twsrc%5Etfw">#Istio</a> use Flagger (<a href="https://t.co/4s6NFwvaXz">https://t.co/4s6NFwvaXz</a>). It allows e.g.:<br>🔹 run acceptance and load tests<br>🔹 do an automatic rollback<br>🔹 make a progressive traffic shifting</p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1438802863015215108?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If it takes me 5 minutes to rename a method and 1 hour to get a review and PR approval, that means wait to processing time ratio is 60/5=12, and flow efficiency is only 7.7%.<br><br>Do you really think that a system this inefficient is incentivizing refactoring and small steps?<br><br>1/4</p>&mdash; Dragan Stepanović (@d_stepanovic) <a href="https://twitter.com/d_stepanovic/status/1474493154984353793?ref_src=twsrc%5Etfw">December 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

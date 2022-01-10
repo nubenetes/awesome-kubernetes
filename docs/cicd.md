@@ -88,6 +88,9 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [==levelup.gitconnected.com: Basics of CI/CD==](https://levelup.gitconnected.com/basics-of-ci-cd-a98340c60b04)
 * [techrepublic.com: CI/CD platforms: How to choose the right continuous integration and delivery system for your business](https://www.techrepublic.com/article/how-to-choose-the-right-cicd-platform/)
 * [==stackoverflow.blog: Fulfilling the promise of CI/CD==](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/) When people say “CI/CD,” they are only talking about continuous integration. Nobody is talking about (or practicing) continuous deployment. AT ALL. It’s like we have all forgotten it exists. It's time to change that.
+* [==speakerdeck.com: Deployment Scripting != Continuous Delivery==](https://speakerdeck.com/devopslx/cd-and-optimized-cloud-spend?slide=12)
+* [lambdatest.com: Top 10 CI/CD Pipeline Implementation Challenges And Solutions](https://www.lambdatest.com/blog/cicd-pipeline-challenges/)
+* [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)
 
 ## Code Review
 - [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)

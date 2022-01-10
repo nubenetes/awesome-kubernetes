@@ -44,6 +44,7 @@
 - [about.gitlab.com: Soft skills are the key to your DevOps career advancement](https://about.gitlab.com/blog/2021/11/30/soft-skills-are-the-key-to-your-devops-career-advancement)
 - [salesforceben.com: 5 DevOps Concepts You Need to Know](https://www.salesforceben.com/5-devops-concepts-you-need-to-know/)
 - [enterprisersproject.com: DevOps: 3 skills needed to support its future in the enterprise](https://enterprisersproject.com/article/2021/10/devops-future-operating-model-it) If you're aiming for continuous improvement with your DevOps effort, prioritize these skills. They're critical to helping teams conquer cultural and technology challenges
+- [devblogs.microsoft.com: DevOps Dojo – Culture and Mindset](https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset/)
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
@@ -232,6 +233,7 @@
 
 ## DevOps as a Service (DaaS)
 - [DevOps as a Service: Migrating Your Entire DevOps Stack to the Cloud](https://devops.com/devops-as-a-service-migrating-your-entire-devops-stack-to-the-cloud/) The goal of DaaS is to enable organizations to focus on developing and delivering software without having to worry about managing or maintaining tools. It is designed to abstract away the intricacies of tool integration, deployment and maintenance. This enables teams to focus on higher-level tasks, and outsources significant manual effort.
+- [containerjournal.com: Best of 2021 – Kubernetes Enables DevOps-as-a-Service (DaaS)](https://containerjournal.com/editorial-calendar/best-of-2021/kubernetes-enables-devops-as-a-service-daas/)
 
 ## IaC Infrastructure as Code
 - [IaC Infrastructure as Code](iac.md)
@@ -409,6 +411,8 @@ Resolve your software incidents 10x faster
 	[![automation](images/automation.png)](https://dzone.com/articles/automate-to-save-mental-energy-not-time-1)
 
 	[![devops1](images/devops1.png)](http://www.softwaretestingnews.co.uk/a-software-testing-and-devops-tools-directory-for-digital-programmes/)
+
+	![8 devops trends](images/8_devops_trends.png)
 
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>

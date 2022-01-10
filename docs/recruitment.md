@@ -11,6 +11,7 @@
 - [Tweets 2](#tweets-2)
 - [Tweets 3. Cultures](#tweets-3-cultures)
 - [Images](#images)
+- [Videos](#videos)
 ## Introduction
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
@@ -33,6 +34,7 @@
 - [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration/)
 - https://en.wikipedia.org/wiki/Great_Resignation 
 - [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation)
+- [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -99,6 +101,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The interview process is ultra-competitive.<br><br>But with proper preparation, it is possible to stand out.<br><br>THREAD: 20 common interview questions, what they really mean, and how to nail them:</p>&mdash; Sahil Bloom (@SahilBloom) <a href="https://twitter.com/SahilBloom/status/1423971814443819009?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interviewing for technical positions is a broken process.<br><br>I believe this is going to change soon.<br><br>Getting a job in the software industry we’ll look very different within the next 10 years.<br><br>Some thoughts: ↓</p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1468203651759890432?ref_src=twsrc%5Etfw">December 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">People who are fluent on more than one cloud provider - how has this skillset affected your career? <br><br>Does it mostly just expand your job opportunities (ie, you can get hired by a GCP shop or an AWS shop), or do you find yourself working with multiple clouds at your current job?</p>&mdash; Forrest Brazeal (@forrestbrazeal) <a href="https://twitter.com/forrestbrazeal/status/1475841432254656513?ref_src=twsrc%5Etfw">December 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -163,4 +167,9 @@
 	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
 	</center>
 
+## Videos
+??? note "Click to expand!"
 
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>

@@ -66,6 +66,7 @@
 - [Building a high performance JSON parser](https://dave.cheney.net/high-performance-json.html)
 - [json-schema.org: Understanding JSON Schema 🌟](https://json-schema.org/understanding-json-schema/)
 - [dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs. JSONP](https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja) We ran a benchmark test in 2017 and again in 2021 to see how fast four of the most popular JSON libraries for Java parse different sizes of files.
+- [buger/jsonparser](https://github.com/buger/jsonparser) One of the fastest alternative JSON parser for Go that does not require schema
 
 ### JSON in Ansible
 - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) Structured data is friendly for automation, and you can take full advantage of it with Ansible.

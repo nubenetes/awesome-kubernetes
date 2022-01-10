@@ -190,6 +190,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [infoq.com: Data Mesh Principles and Logical Architecture Defined](https://www.infoq.com/news/2020/12/data-mesh-architecture/)
 - [martinfowler.com: How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html)
 - [towardsdatascience.com: Data Domains and Data Products](https://towardsdatascience.com/data-domains-and-data-products-64cc9d28283e) Practical guidance from the field
+- [mrpaulandrew.com: BUILDING A DATA MESH ARCHITECTURE IN AZURE – PART 2](https://mrpaulandrew.com/2021/12/22/building-a-data-mesh-architecture-in-azure-part-2/)
 
 ## Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
@@ -289,6 +290,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Optimizing Kafka Streams Apps on Kubernetes by Splitting Topologies](https://medium.com/bakdata/optimizing-kafka-streams-apps-on-kubernetes-by-splitting-topologies-ac6b4c90516e)
 - [blog.twitter.com: Processing billions of events in real time at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
 - [dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI](https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar) Visualize your Apache Kafka Streams using the Quarkus Dev UI
+- [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
+- [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)

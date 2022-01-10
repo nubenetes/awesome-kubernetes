@@ -402,6 +402,7 @@ done
 - [elastic.co: Using the Elastic APM Java Agent on Kubernetes](https://www.elastic.co/blog/using-elastic-apm-java-agent-on-kubernetes-k8s)
 - [Monitoring Java applications with Elastic: Getting started with the Elastic APM Java Agent](https://www.elastic.co/blog/monitoring-java-applications-and-getting-started-with-the-elastic-apm-java-agent)
 - [Jenkins pipeline shared library for the project Elastic APM 🌟](https://github.com/elastic/apm-pipeline-library)
+- [bqstack.com: Monitoring Application using Elastic APM](https://bqstack.com/b/detail/109)
 
 <center>
 ![Elastic APM](images/elasticapm.png)
@@ -491,6 +492,7 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 - [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls/)
 - [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause 
 Resolve your software incidents 10x faster
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) A fancy self-hosted monitoring tool. Uptime Kuma is an open source monitoring tool that can be used to monitor the service uptime along with few other stats like Ping Status, Avg. Response time, uptime etc.
 
 ## Other Awesome Lists
 - [Awesome APM](https://github.com/antonarhipov/awesome-apm)

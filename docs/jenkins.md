@@ -146,6 +146,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Interview Questions 
 * [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
 * [automationreinvented.blogspot.com: Top 10 Jenkins Interview Question for SDET - DevOps - Automation QA?](https://automationreinvented.blogspot.com/2021/09/top-10-jenkins-interview-question-for.html)
+* [automationreinvented.blogspot.com: Top 20 Jenkins Interview Questions and Answers 2022 for SDET - DevOps - Automation QA? Refer for Getting pro in Jenkins](https://automationreinvented.blogspot.com/2021/12/top-20-jenkins-interview-questions-and.html)
 
 ## Jenkins Is The Way
 * [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) Jenkins Is The Way is a collection of experiences from all around the world showcasing how users are building, deploying, and automating great stuff with Jenkins. 
@@ -413,6 +414,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [jrebel.com: Top 10 Jenkins Plugins and Features (2014)](https://www.jrebel.com/blog/top-10-jenkins-plugins-and-features)
 * [devteam.space: 10 Best Jenkins Plugins For DevOps](https://www.devteam.space/blog/10-best-jenkins-plugins-for-devops/)
 * [devops.com: Top 10 Best Practices for Jenkins Pipeline Plugin 🌟](https://devops.com/top-10-best-practices-for-jenkins-pipeline-plugin/)
+* [jenkins.io: Deprecating non-Java plugins](https://www.jenkins.io/blog/2021/12/22/deprecated-ruby-runtime/)
 
 ### Selection of Jenkins Plugins
 * [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl/)

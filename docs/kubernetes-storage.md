@@ -23,6 +23,7 @@
 - [Kubestr](#kubestr)
 - [VolSync](#volsync)
 - [Images](#images)
+- [Tweets](#tweets)
 
 ## Introduction
 * [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
@@ -169,4 +170,11 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
     <center>
     [![gigaom radar report on storage](images/gigaom_radar_report_on_data_storage_for_k8s.png)](https://gigaom.com/report/gigaom-radar-for-data-storage-for-kubernetes/)
+    </center>
+
+## Tweets
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">General rule of thumb: there is no such thing as persistent storage in Kubernetes.</p>&mdash; Richard North (@whichrich) <a href="https://twitter.com/whichrich/status/1479435059715321856?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

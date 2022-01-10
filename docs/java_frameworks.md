@@ -30,6 +30,7 @@
 - [Java Testing Frameworks](#java-testing-frameworks)
 - [Debugging Java Threads](#debugging-java-threads)
 - [Lombok](#lombok)
+- [Project Helidon](#project-helidon)
 - [Videos](#videos)
 - [Tweets](#tweets)
 ## Java
@@ -55,6 +56,8 @@
 * [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses)
 * [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html)
 * [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java) Java library for restful API, tech stack choices for building REST API in Java.
+* [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers)
+* [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651)
 
 ### How to migrate Java workloads to containers
 * [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors
@@ -140,6 +143,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [dzone: How to Create Microservices Using Spring 🌟](https://dzone.com/articles/how-to-create-microservices-using-spring) Let’s consider the use case of BookMyHotel Web Application, developed by a company known as MyInternetSolutions.
 - [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6)
 - [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/)
+- [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html)
 
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)
@@ -165,6 +169,9 @@ optimizing Enterprise Java for the microservices architecture.
 * [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) In this Spring Boot video tutorial, take a closer look at how to run the Spring Boot application as a stand-alone Java application and RESTful Web Services.
 * [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
 * [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot/)
+* [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/)
+* [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)
+* [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
@@ -248,6 +255,7 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/)
 - [developers.redhat.com: Boost throughput with RESTEasy Reactive in Quarkus 2.2](https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22)
 - [==javaadvent.com: You need more than containers. A short history of the mess we're in==](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html)
+- [==developers.redhat.com: Quarkus for Spring developers: Kubernetes-native design patterns==](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns)
 
 ## Kogito cloud-native business automation framework 
 - [redhat.com: Cloud-native business automation with Kogito](https://www.redhat.com/en/blog/cloud-native-business-automation-kogito)
@@ -281,6 +289,10 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - https://projectlombok.org
 - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/)
 
+## Project Helidon
+- [Helidon.io](https://helidon.io/)
+- [developer.okta.com: Build REST APIs and Native Java Apps with Helidon](https://developer.okta.com/blog/2022/01/06/native-java-helidon)
+
 ## Videos
 <details>
   <summary>Click to expand!</summary>
@@ -304,5 +316,9 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Quarkus Tip 💡<br><br>You can easily build and run a native Quarkus <a href="https://twitter.com/graalvm?ref_src=twsrc%5Etfw">@graalvm</a> image on OpenShift using a single `oc` command and `ubi-quarkus-native-s2i` image builder. Such a build is performed fully on the cluster side. 👇<br><br>🏷️ <a href="https://twitter.com/hashtag/QuarkusTips?src=hash&amp;ref_src=twsrc%5Etfw">#QuarkusTips</a> <a href="https://t.co/98fCXNUWv6">pic.twitter.com/98fCXNUWv6</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1435913459363950594?ref_src=twsrc%5Etfw">September 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java 8 best practices cheat sheet: <a href="https://t.co/jbyzbxJs28">pic.twitter.com/jbyzbxJs28</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1469912399700365319?ref_src=twsrc%5Etfw">December 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">5+ excellent GitHub repositories for every Java developer <a href="https://twitter.com/hashtag/github?src=hash&amp;ref_src=twsrc%5Etfw">#github</a> <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> <br>Thread 👇</p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1479447029986201600?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Java blog websites for Java developers<br>Thread 👇</p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1480035588753420288?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -47,6 +47,7 @@
 - [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
 - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
+- [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
@@ -63,6 +64,7 @@
 - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
 - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github](https://awesomeopensource.com/projects/cidr)
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) A collection of ZSH frameworks, plugins, themes and tutorials.
+- [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco) A curated list of Falco related tools, frameworks and articles
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
@@ -121,6 +123,7 @@
 - [Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)
 - [christopherhein/awesome-eks: Awesome EKS](https://github.com/christopherhein/awesome-eks)
 - [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
+- [globalbao/awesome-azure-policy: AWESOME-Azure-Policy](https://github.com/globalbao/awesome-azure-policy) A curated list of blogs, videos, tutorials, code, tools, scripts, and anything useful to help you learn Azure Policy - by @jesseloudon
 
 ### Docker
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)

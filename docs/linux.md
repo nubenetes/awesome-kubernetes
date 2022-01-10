@@ -208,6 +208,9 @@
 - [opensource.com: 7 handy tricks for using the Linux wget command](https://opensource.com/article/21/10/linux-wget-command) Download files from the internet in your Linux terminal. Get the most out of the wget command with our new cheat sheet.
 - [makeuseof.com: The 6 Best Command Line Tools to Monitor Linux Performance in the Terminal](https://www.makeuseof.com/best-cli-tools-to-monitor-linux-performance-terminal/) Want to track and debug Linux System resources, storage, and network-related problems? Get started with the best Linux performance monitoring tools.
 - [opensource.com: 4 Linux tools to erase your data](https://opensource.com/article/21/10/linux-tools-erase-data) Erase data from your hard disk drive with these open source tools.
+- [==redhat.com: 20 one-line Linux commands to add to your toolbox==](https://www.redhat.com/sysadmin/one-line-linux-commands) Every Linux user has a favorite single-line command. Here are the 20 Linux commands we can't live without.
+- [termshark](https://github.com/gcla/termshark) A terminal UI for tshark, inspired by Wireshark
+- [baeldung.com: Maximum Number of Threads Per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)
 
 ## Guestfish
 - [Guestfish](https://libguestfs.org/guestfish.1.html)

@@ -123,6 +123,9 @@
 Thanos Metrics with prometheus in Kubernetes environments.
 * [==prometheus.io: Comparison to Alternatives== 🌟](https://prometheus.io/docs/introduction/comparison/)
 * [==cloudsavvyit.com: What is Prometheus and Why Is It So Popular==](https://www.cloudsavvyit.com/15124/what-is-prometheus-and-why-is-it-so-popular/)
+* [==infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases==](https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases/)
+    * [==infracloud.io: Prometheus Query Language - Prometheus Definitive Guide Part II==](https://www.infracloud.io/blogs/promql-prometheus-guide/)
+    * [==infracloud.io: Prometheus Definitive Guide Part III - Prometheus Operator==](https://www.infracloud.io/blogs/prometheus-operator-helm-guide/)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
@@ -132,6 +135,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
 - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/)
 - [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/2021/11/16/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent/)
+- [thenewstack.io: CNCF Prometheus Agent Could Be a ‘Game Changer’ for Edge](https://thenewstack.io/cncf-prometheus-agent-could-be-a-game-changer-for-edge/)
 
 ## Promgen
 - [Promgen 🌟](https://github.com/line/promgen) Promgen is a configuration file generator for Prometheus
@@ -188,6 +192,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
     * [Thanos Architecture Overview 🌟](https://github.com/thanos-io/thanos#architecture-overview)
     * [enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose](https://enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose/)
     * [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment. 
+    * [==thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos==](https://github.com/thanos-io/kube-thanos)
 * [**M3**:](https://www.m3db.io/) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 * [VictoriaMetrics](https://victoriametrics.com/)

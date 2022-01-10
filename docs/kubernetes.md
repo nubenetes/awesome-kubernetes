@@ -95,6 +95,7 @@
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Slack Channel](#kubernetes-slack-channel)
+- [Slides](#slides)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Spanish Videos](#spanish-videos)
@@ -171,6 +172,11 @@
 * [thenewstack.io: The New Stack’s Top Kubernetes Stories of 2021](https://thenewstack.io/the-new-stacks-top-kubernetes-stories-of-2021/)
 * [ostechnix.com: Kubernetes Features Explained In Detail](https://ostechnix.com/kubernetes-features/)
 * [==kodekloud.com: Kubernetes Features Every Beginner Must Know==](https://kodekloud.com/kubernetes-features-every-beginner-must-know/)
+* [learnsteps.com: Kubernetes: What to learn from a long term perspective](https://www.learnsteps.com/kubernetes-what-to-learn-from-a-long-term-perspective/) 
+* [==joshgav.github.io: Kubernetes isn't about containers==](https://joshgav.github.io/2021/12/16/kubernetes-isnt-about-containers.html) **Kubernetes offers a standard interface for managing software-defined infrastructure - cloud, in other words. Kubernetes is a standard API framework for cloud services.**
+* [medium: Do I need to learn Kubernetes?](https://medium.com/devops-dudes/do-i-need-to-learn-kubernetes-a3dd9a7f9e9b)
+* [medium.com/@david.alvares.62: Kubernetes Control Plane for newbies](https://medium.com/@david.alvares.62/kubernetes-control-plane-for-newbies-75d77f5c8456) Kubernetes has a reputation for being a very complex system, difficult to master in terms of administration and security. Today I suggest you better understand an essential component of Kubernetes: the control plane.
+* [divya-mohan0209.medium.com: Getting started with K8s in 2022](https://divya-mohan0209.medium.com/getting-started-with-k8s-in-2022-1dfeb4bdc112) And a list of resources structured to help you learn!
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
@@ -345,6 +351,7 @@
     * [cert-manager 🌟](https://cert-manager.io/) to easily retrieve and/or generate new certificates on the fly
         * [github.com/cert-manager](https://github.com/cert-manager)
         * [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/policy-approver) Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.
+        * [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.jetstack.io/blog/cert-manager-gateway-api-traefik-guide/)
     * [external-dns](https://github.com/kubernetes-sigs/external-dns) to manage your DNS entries automatically
 * [redhat.com: Building containers by hand: The PID namespace](https://www.redhat.com/sysadmin/pid-namespace) The PID namespace is an important one when it comes to building isolated environments. Find out why and how to use it.
 * [infoq.com: The Kubernetes Effect](https://www.infoq.com/articles/kubernetes-effect/)
@@ -480,6 +487,8 @@
 * [blog.brujordet.no: Using custom hardware in kubernetes](https://blog.brujordet.no/post/homelab/using_custom_hardware_in_kubernetes/)
 * [==technos.medium.com: Kubernetes Workflow for Absolute Beginners==](https://technos.medium.com/kubernetes-workflow-bad346c54962)
 * [==cloud.google.com: The past, present, and future of Kubernetes with Eric Brewer==](https://cloud.google.com/blog/products/containers-kubernetes/the-rise-and-future-of-kubernetes-and-open-source-at-google)
+* [kmitevski.com: Writing a Kubernetes Validating Webhook using Python](https://kmitevski.com/writing-a-kubernetes-validating-webhook-using-python/)
+* [medium.com/@hinsulak: Multi-node lightweight Kubernetes setup](https://medium.com/@hinsulak/multi-node-lightweight-kubernetes-setup-using-k3s-454e87fdc933)
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -539,6 +548,8 @@
 * [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations/)
 * [==medium: How to Schedule Pods on Nodes in Kubernetes==](https://medium.com/@knoldus/how-to-schedule-pods-on-nodes-in-kubernetes-af321d8ea5d)
 * [==medium: Kubernetes: Evenly Distribution of Pods Across Cluster Nodes== |Puru Tuladhar](https://medium.com/geekculture/kubernetes-distributing-pods-evenly-across-cluster-c6bdc9b49699)
+* [medium: Understanding PodSecurity in Kubernetes](https://medium.com/@orangecola3/understanding-podsecurity-in-kubernetes-e58a65102056)
+* [blog.searce.com: Single Pod Access Mode for Persistent Volumes on Kubernetes](https://blog.searce.com/single-pod-access-mode-for-persistent-volumes-on-kubernetes-4cf79200aa9a) This article will explore a new feature introduced by Kubernetes v1.22, a fourth access mode used for CSI volumes.
 
 #### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -663,6 +674,7 @@
 - [evancordell.com: 16 things you didn't know about Kube APIs and CRDs](https://evancordell.com/posts/kube-apis-crds/)
 - [martinheinz.dev: Could Kubernetes Pods Ever Become Deprecated? 🌟](https://martinheinz.dev/blog/53) **Could a core object or API in Kubernetes, such as Pod, Deployment or Service be removed and if so, how would that go?**
 - [trstringer.com: Discover Kubernetes API Calls from kubectl](https://trstringer.com/kubernetes-api-call-from-kubectl/)
+- [==iximiuz.com: Working with Kubernetes API - Resources, Kinds, and Objects==](https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology)
 
 #### Multi-Cluster Services API
 - [thenewstack.io: Extending Kubernetes Services with Multi-Cluster Services API](https://thenewstack.io/extending-kubernetes-services-with-multi-cluster-services-api/)
@@ -682,6 +694,7 @@
 * [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
 * [returngis.net: Pruebas de vida de nuestros contenedores en Kubernetes](https://www.returngis.net/2020/02/pruebas-de-vida-de-nuestros-contenedores-en-kubernetes/)
 * [blog.newrelic.com: Kubernetes Fundamentals, Part 2: How to Use Health Checks](https://blog.newrelic.com/engineering/kubernetes-health-checks)
+* [komodor.com: Kubernetes Liveness Probes: A Practical Guide](https://komodor.com/learn/kubernetes-liveness-probes-a-practical-guide/)
 
 ### Kubernetes Limits and Requests
 * [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range/)
@@ -952,6 +965,7 @@
     * In this paper, we will explore different options to facilitate debugging by bringing back the shell.
 * [==containiq.com: Kubernetes Events: In-Depth Guide & Examples== 🌟](https://www.containiq.com/post/kubernetes-events) Kubernetes events help you understand how Kubernetes resource decisions are made and they can be helpful for debugging. Learn more about k8s events in this in-depth guide.
 * [==loft.sh: Using Kubernetes Ephemeral Containers for Troubleshooting==](https://loft.sh/blog/using-kubernetes-ephemeral-containers-for-troubleshooting/)
+* [==speakerdeck.com/mhausenblas (redhat): Troubleshooting Kubernetes apps==](https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps)
 
 <center>
 [![learnk8s debug your pods](images/learnk8s_debug_your_pods.png){: style="width:30%"}](https://learnk8s.io/troubleshooting-deployments)
@@ -1039,6 +1053,7 @@
 * [Certified Kubernetes Administrator CKA course notes — diagrams for each subject area and use as reference for future refresher](https://drive.google.com/file/d/1RhPULD1IAVgCo1KD857iCoaNKuJjQKa1/view)
 * [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 * [kodekloud.com](https://kodekloud.com)
+* [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
 
 ### K8s Diagrams
 - [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
@@ -1113,6 +1128,8 @@
 ## Multi-Cluster Federation. Hybrid Cloud Setup Tools
 ### KubeFed
 - [KubeFed: Kubernetes Cluster Federation](https://github.com/kubernetes-sigs/kubefed)
+- [aquasec.com: Kubernetes Federation: The Basics and a 5-Step Tutorial](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-federation/) Learn about Kubernetes Federation use cases, how it works, and see how to create your first Kubernetes Federation in 5 steps.
+- Kubernetes Federation, or KubeFed, is a tool for coordinating the configuration of multiple clusters in Kubernetes. You can determine which clusters KubeFed will manage, and what their configuration looks like, all from a single group of APIs in the hosting cluster. KubeFed offers low-level mechanisms that can be used as a foundation for increasingly complex production Kubernetes use cases across multiple clusters, such as geographic redundancy and disaster recovery. 
 
 ### KubeCarrier
 - [KubeCarrier](https://github.com/kubermatic/kubecarrier)
@@ -1218,6 +1235,12 @@
 - [kubernetes.slack.com](https://kubernetes.slack.com)
 - [slack.kubernetes.io](http://slack.kubernetes.io) is the way to get yourself invited.
 
+## Slides
+??? note "Click to expand!"
+
+    <center>
+    <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e1c397b2aa67470e9204f82f938fec78?slide=1" title="KubeCologne keynote—Troubleshooting Kubernetes apps" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;" data-ratio="1.78343949044586"></iframe>
+    </center>
 ## Bunch of images
 ??? note "Click to expand!"
 
@@ -1303,6 +1326,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How Kubernetes differs from Docker in the way it deals with containers 🔽<br><br>Under the hood, Kubernetes and Docker both rely on the same/similar lower-level components to run containers.<br><br>Often, both use containerd and runc. However, Kubernetes makes the container runtime pluggable <a href="https://t.co/5daIalpmrt">pic.twitter.com/5daIalpmrt</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1454407183383339008?ref_src=twsrc%5Etfw">October 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Does Kubernetes rebalance your Pods?<br><br>If there&#39;s a node that has more space, does Kubernetes recompute and balance the workloads?<br><br>🤔<br><br>Let&#39;s see! <a href="https://t.co/ML7JIGGtrq">pic.twitter.com/ML7JIGGtrq</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1458060468317143041?ref_src=twsrc%5Etfw">November 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">As we close out the year, a few 2022 predictions. 🧵<br><br>1. 2022 will be the year where Kubernetes is finally recognized as technology for platform teams enabling product groups, rather than a technology designed for direct end-usage by developers.</p>&mdash; Gabe Monroy (@gabe_monroy) <a href="https://twitter.com/gabe_monroy/status/1474731108596072449?ref_src=twsrc%5Etfw">December 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

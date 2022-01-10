@@ -49,6 +49,8 @@
     * Circle CI
     * GitLab
 
+* [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/)
+
 ## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
 * [GitLab CI](https://dzone.com/articles/gitlab-ci-with-docker-environment-variable-quirks)
@@ -176,6 +178,7 @@
 * [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
 * [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
 * [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
+* [gspann.com: Significance of Using Spinnaker When Adopting a Kubernetes Environment 🌟](https://www.gspann.com/resources/blogs/significance-of-using-spinnaker-when-adopting-a-kubernetes-environment/) Spinnaker acts as a multi-cloud deployment tool to support continuous workflows in a Kubernetes nvironment. Understand the Spinnaker architecture and learn about the best practices that can help you better deploy applications on Kubernetes clusters.
 
 ### ArgoCD
 * [ArgoCD](argocd.md) Declarative GitOps CD for Kubernetes

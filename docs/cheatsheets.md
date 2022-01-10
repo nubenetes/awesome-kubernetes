@@ -153,6 +153,14 @@
 * [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
 * [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
 * [==komodor.com: The Ultimate Kubectl Cheat Sheet== 🌟](https://komodor.com/learn/the-ultimate-kubectl-cheat-sheet/)
+* [==atomiccommits.io: Everything Useful I Know About kubectl==](https://www.atomiccommits.io/everything-useful-i-know-about-kubectl)
+* Top kubernetes troubleshooting Commands:
+	* `kubectl get pods -o wide`
+	* `kubectl logs <pod>` (--previous)
+	* `kubectl describe pod`
+	* `kubectl describe ingress/service`
+	* `kubectl delete`
+	* `kubectl --help`
 
 ## Kubernetes Kustomize Cheat Sheet
 - [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)
@@ -218,6 +226,7 @@
 * [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)
 * Find the first commit you ever made: ```git log --reverse``` 
 * [==joshnh/Git-Commands== 🌟](https://github.com/joshnh/Git-Commands/blob/master/README.md) A list of commonly used Git commands
+* [dev.to: Git Commands Cheatsheet: Advanced (20+ Git Commands Advanced )](https://dev.to/aashiya123/git-commands-cheatsheet-advanced-20-git-commands-advanced--35i3)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)

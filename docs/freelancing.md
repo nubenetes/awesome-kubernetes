@@ -1,6 +1,7 @@
 # Freelancing
 - [Introduction](#introduction)
 - [Freelancing in Spain](#freelancing-in-spain)
+  - [Advisory. Asesorías](#advisory-asesorías)
 - [Top Freelancing Platforms](#top-freelancing-platforms)
 - [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
   - [Umbrella Companies](#umbrella-companies)
@@ -22,6 +23,12 @@
 - [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/) 
 - [autonomosyemprendedor.es: Los autónomos no sólo deben presentar el IVA en octubre, hay más obligaciones tributarias este mes](https://www.autonomosyemprendedor.es/articulo/tus-finanzas/autonomos-solo-deben-presentar-iva-octubre-mas-obligaciones-tributarias-mes/20210927125637025167.html)
 - [xataka.com: La Seguridad Social crea una app móvil para gestionar la nueva cuota de autónomos: permitirá cambiar de tramo mensualmente](https://www.xataka.com/pro/seguridad-social-crea-app-movil-para-gestionar-nueva-cuota-autonomos-permitira-cambiar-tramo-mensualmente-ingresos)
+- [diariocordoba.com: «Ser autónomo en España sigue siendo una profesión de riesgo»](https://www.diariocordoba.com/cordoba-ciudad/2021/12/26/autonomo-espana-sigue-profesion-riesgo-61023753.html)
+- [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a)
+
+### Advisory. Asesorías
+- [Acento: Cooperativa de freelance](https://acentocoop.es) 
+- [declarando.es](https://declarando.es) Asesoría para autónomos
 
 ## Top Freelancing Platforms
 - [malt 🌟](https://www.malt.com/) 

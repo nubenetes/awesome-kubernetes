@@ -11,6 +11,7 @@
 - [AWS Free Resources](#aws-free-resources)
 - [Introduction](#introduction)
 	- [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
+	- [AWS re:Post](#aws-repost)
 - [AWS Toolkits](#aws-toolkits)
 - [AWS Tools](#aws-tools)
 - [eBooks](#ebooks)
@@ -38,6 +39,7 @@
 - [AWS Migrations](#aws-migrations)
 	- [AWS Database Migration Service DMS](#aws-database-migration-service-dms)
 - [AWS Redshift](#aws-redshift)
+- [AWS Data Mesh and Batch Data Processing](#aws-data-mesh-and-batch-data-processing)
 - [AWS DevOps. AWS CodePipeline](#aws-devops-aws-codepipeline)
 	- [AWS CodeDeploy](#aws-codedeploy)
 - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
@@ -208,11 +210,17 @@ You can filter by topic using the toolbar above.
 - [ben11kehoe.medium.com: Never put AWS temporary credentials in the credentials file (or env vars) — there’s a better way](https://ben11kehoe.medium.com/never-put-aws-temporary-credentials-in-env-vars-or-credentials-files-theres-a-better-way-25ec45b4d73e) **Stop putting AWS temporary credentials in ~/.aws/credentials or environment variables!**
 - [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
 - [intellipaat.com: What is AWS?](https://intellipaat.com/blog/what-is-amazon-web-services-aws/)
+- [tech.twenix.com: Securiza tu infraestructura cloud sin arruinarte](https://tech.twenix.com/securiza-tu-infraestructura-cloud-sin-arruinarte-d9d2e2d5302c)
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 - [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/professional-services/CAF/) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
 - [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available/)
-  
+
+### AWS re:Post
+- [==repost.aws== 🌟](https://repost.aws)
+- [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community/)
+- [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers/)
+
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
 
@@ -322,6 +330,7 @@ You can filter by topic using the toolbar above.
 - [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview/)
 - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
 - [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies/trainline/)
+- [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
 
 ## AWS New Features
 - [AWS Config Rules – Dynamic Compliance Checking for Cloud Resources](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources/)
@@ -381,6 +390,8 @@ You can filter by topic using the toolbar above.
 - [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on/)
 - [New – Amazon VPC Network Access Analyzer](https://aws.amazon.com/blogs/aws/new-amazon-vpc-network-access-analyzer/)
 - [AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
+- [Migrate AWS Landing Zone solution to AWS Control Tower](https://aws.amazon.com/blogs/mt/migrate-aws-landing-zone-solution-to-aws-control-tower/) **AWS Control Tower creates your landing zone using AWS Organizations, thereby bringing together ongoing account management and governance, as well as implementation of best practices based on our experience of working with thousands of customers as they migrate to the cloud.**
+- [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -446,8 +457,12 @@ You can filter by topic using the toolbar above.
 ## AWS Redshift
 - [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) In this tutorial, you will learn how to optimize the design of your tables.
 
+## AWS Data Mesh and Batch Data Processing
+- [dev.to: Introduction to Data Mesh](https://dev.to/aws-builders/introduction-to-data-mesh-3f1b)
+- [dev.to: Introduction to Batch Data Processing](https://dev.to/aws-builders/introduction-to-batch-data-processing-4k56)
+
 ## AWS DevOps. AWS CodePipeline
-* [AWS DevOps](https://aws.amazon.com/devops/)
+- [AWS DevOps](https://aws.amazon.com/devops/)
 - [AWS DevOps Blog](https://blogs.aws.amazon.com/application-management/)
 - [Continuous Delivery for a PHP Application Using AWS CodePipeline, AWS Elastic Beanstalk, and Solano Labs](https://blogs.aws.amazon.com/application-management/post/TxYSRRBH57NP2P/Continuous-Delivery-for-a-PHP-Application-Using-AWS-CodePipeline-AWS-Elastic-Bea)
 - [Building Continuous Deployment on AWS with AWS CodePipeline, Jenkins and AWS Elastic Beanstalk](https://blogs.aws.amazon.com/application-management/post/Tx34AXRMYLXG5OT/Building-Continuous-Deployment-on-AWS-with-AWS-CodePipeline-Jenkins-and-AWS-Elas)
@@ -629,6 +644,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [==Deploying AWS Lambda layers automatically across multiple Regions==](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-layers-automatically-across-multiple-regions/) Many developers import libraries and dependencies into their AWS Lambda functions. These dependencies can be zipped and uploaded as part of the build and deployment process but it’s often easier to use Lambda layers instead.
 - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)
 - [dev.to: Manage webhooks at scale with AWS Serverless](https://dev.to/aws-builders/manage-webhooks-at-scale-with-aws-serverless-fof)
+- [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -707,6 +723,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [netflixtechblog.com: ConsoleMe: A Central Control Plane for AWS Permissions and Access](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8) - [github.com/Netflix/consoleme](https://github.com/Netflix/consoleme)
 - [cloudkatha.com: Difference between Root User and IAM User in AWS You Need to Know](https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know/)
 - [ben11kehoe.medium.com: AWS Authentication: Principals (users and roles) in AWS IAM](https://ben11kehoe.medium.com/principals-in-aws-iam-38c4a3dc322a) this article uses the boto3, the AWS Python SDK, as an example, but other SDKs have analogous features.
+- [infoq.com: Incorrect IAM Policy Raised Questions About AWS Access to S3 Data](https://www.infoq.com/news/2022/01/aws-iam-s3-access/)
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -961,6 +978,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [CDK](https://aws.amazon.com/cdk/)
 - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
 - [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
+- [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
 
 ## AWS Secrets Manager
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)

@@ -63,6 +63,7 @@
 - [Developer Sandbox](#developer-sandbox)
 - [OpenShift Topology View](#openshift-topology-view)
 - [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
+- [Scripts](#scripts)
 - [Slides](#slides)
 - [Tweets](#tweets)
 
@@ -719,6 +720,9 @@ oc login
 ## OpenBuilt Platform for the Construction Industry
 - [OpenBuilt](https://openbuilt.io/) 
 - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt/)
+
+## Scripts
+- [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations)
 
 ## Slides
 <details>

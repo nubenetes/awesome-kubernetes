@@ -1,5 +1,6 @@
 # Golang - Go
 - [Introduction](#introduction)
+- [Design Patterns](#design-patterns)
 - [Tutorials](#tutorials)
 - [Kubernetes Client Go](#kubernetes-client-go)
 - [Building container images](#building-container-images)
@@ -7,7 +8,8 @@
 - [Go Frameworks and libraries](#go-frameworks-and-libraries)
 - [Go packages](#go-packages)
 - [Go Tools](#go-tools)
-- [Go Samples for Google Cloud](#go-samples-for-google-cloud)
+- [Go Books](#go-books)
+- [Go Samples](#go-samples)
 - [Dockerfile for go](#dockerfile-for-go)
 - [Tweets](#tweets)
 ## Introduction
@@ -37,6 +39,14 @@
 - [itnext.io: Go Does Not Need a Java Style GC](https://itnext.io/go-does-not-need-a-java-style-gc-ac99b8d26c60) Why does Go not need a fancy expensive garbage collector like Java and C#? - [erik-engheim.medium.com: Go Does Not Need a Java Style GC](https://erik-engheim.medium.com/go-does-not-need-a-java-style-gc-ac99b8d26c60) 
 - [levelup.gitconnected.com: Generics in Go: Viva La Revolution!](https://levelup.gitconnected.com/generics-in-go-viva-la-revolution-e27898bf5495)
 - [teivah.medium.com: When to Use Generics in Go?](https://teivah.medium.com/when-to-use-generics-in-go-36d49c1aeda)
+- [dev.to: JSON Schema Validation in Golang](https://dev.to/franciscomendes10866/how-to-validate-data-in-golang-1f87)
+- [blog.logrocket.com: How to build a blockchain from scratch with Go](https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/)
+- [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7)
+- [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
+- [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0)
+
+## Design Patterns
+- [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/)
 
 ## Tutorials
 - [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2)
@@ -54,6 +64,7 @@
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
 - [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
+- [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
 ## Go Frameworks and libraries
 - [go-micro](https://github.com/asim/go-micro) Go Micro is a framework for distributed systems development
@@ -61,6 +72,8 @@
 - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/)
 - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) Useful template functions for Go templates. The Go language comes with a built-in template language, but not very many template functions. Sprig is a library that provides more than 100 commonly used template functions.
 - [go-kratos/kratos](https://github.com/go-kratos/kratos) A modular-designed and easy-to-use __microservices framework__ in Go.
+- [gnet](https://github.com/panjf2000/gnet) 🚀 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go./ gnet
+- [dsa0x/sicher](https://github.com/dsa0x/sicher) Sicher is a go module that allows secure storage of encrypted credentials in a version control system.
 
 ## Go packages
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
@@ -71,10 +84,14 @@
 - [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
 - [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
 
-## Go Samples for Google Cloud
+## Go Books
+- https://github.com/dariubs/GoBooks
+
+## Go Samples 
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
 - [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
+- [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) Collection of mini-programs demonstrating Kubernetes client-go usage.
 
 ## Dockerfile for go
 - [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)

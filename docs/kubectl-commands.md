@@ -1,6 +1,7 @@
 # Kubectl commands
 - [Introduction](#introduction)
 - [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
+- [Kubectl aliases](#kubectl-aliases)
 - [Kubectl explain](#kubectl-explain)
 - [Kubectl Autocomplete](#kubectl-autocomplete)
 - [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
@@ -39,9 +40,13 @@
     * `kubectl create job my-job --image=busybox --dry-run=server -v8`
 
 * [cloudsavvyit.com: How to Restart Kubernetes Pods with Kubectl](https://www.cloudsavvyit.com/14587/how-to-restart-kubernetes-pods-with-kubectl/)
+* [technos.medium.com: How kubectl apply command works?](https://technos.medium.com/how-kubectl-apply-command-works-d092121056d3)
 
 ## Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
+
+## Kubectl aliases
+- [ahmetb/kubectl-aliases](https://github.com/ahmetb/kubectl-aliases) Programmatically generated handy kubectl aliases.
 
 ## Kubectl explain
 - [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain/)

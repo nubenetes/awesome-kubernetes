@@ -12,6 +12,7 @@
 - [GKE Google Kubernetes Engine](#gke-google-kubernetes-engine)
 - [IKS IBM Cloud Kubernetes Service](#iks-ibm-cloud-kubernetes-service)
     - [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
+    - [DOKS Digital Ocean Kubernetes](#doks-digital-ocean-kubernetes)
 - [Kubesphere](#kubesphere)
 - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 - [Videos](#videos)
@@ -41,7 +42,7 @@
 ## Other Managed Kubernetes
 - [thenewstack.io: Otomi Container Platform Offers an Integrated Kubernetes Bundle](https://thenewstack.io/otomi-container-platform-offers-an-integrated-kubernetes-bundle/) If you want to enjoy the benefits of Kubernetes, configuring and installing the software itself can be just the first of many deeply technical and oftentimes confusing steps. To simplify this, many major cloud providers offer managed Kubernetes services, but even then you may need to install secondary services to handle tasks such as tracing, logging, monitoring, identity access management, and so on. The Otomi Container Platform looks to address this complexity by bundling together more than 30 different Kubernetes add-ons, as well as providing what it calls an “OSX like interface,” and today the project has open sourced a community edition under the Apache 2.0 license.
     - [otomi.io 🌟](https://otomi.io/)
-    - [github: Otomi](https://github.com/redkubes/otomi-core)
+    - [==github: Otomi==](https://github.com/redkubes/otomi-core) GitOps powered K8s app suite with developer self-service
 
 ## AWS EKS (Hosted/Managed Kubernetes on AWS)
 * [dzone: kops vs EKS](https://dzone.com/articles/kops-vs-eks-a-comparison-guide)
@@ -120,6 +121,7 @@
 * [aws.amazon.com: Kubernetes Ingress with AWS ALB Ingress Controller](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
 * [automateinfra.com: The Ultimate Guide on AWS EKS for Beginners (Easiest Way)](https://automateinfra.com/2021/10/19/the-ultimate-guide-on-aws-eks-for-beginners-easiest-way/)
 * [==aws/aws-node-termination-handler== 🌟](https://github.com/aws/aws-node-termination-handler) Gracefully handle EC2 instance shutdown within Kubernetes
+* [==howtoforge.com: How to Create a Kubernetes Cluster with AWS CLI==](https://www.howtoforge.com/how-to-create-a-kubernetes-cluster-with-the-aws-cli/)
 
 ### AWS EKS Vs ECS Vs Fargate
 * [cloudify.co: AWS EKS Vs. ECS Vs. Fargate: The Breakdown](https://cloudify.co/blog/aws-eks-vs-ecs-vs-fargate/)
@@ -190,6 +192,7 @@
 - [tigera.io: Turbocharging AKS networking with Calico eBPF](https://www.tigera.io/blog/turbocharging-aks-networking-with-calico-ebpf/)
 - [akhilsharma.work: How to list Azure RBAC Roles to Secure AKS Clusters](https://akhilsharma.work/how-to-list-azure-rbac-roles-to-secure-aks-clusters/)
 - [tigera.io: Calico WireGuard support with Azure CNI](https://www.tigera.io/blog/calico-wireguard-support-with-azure-cni/) Last June, Tigera announced a first for Kubernetes: supporting open-source WireGuard for encrypting data in transit within your cluster. We never like to sit still, so we have been working hard on some exciting new features for this technology, the first of which is support for WireGuard on AKS using the Azure CNI.
+- [docs.microsoft.com: Use dual-stack (IPv4 and IPv6) kubenet networking in Azure Kubernetes Service (AKS) (Preview)](https://docs.microsoft.com/en-us/azure/aks/configure-kubenet-dual-stack)
 
 ## GKE Google Kubernetes Engine
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
@@ -229,6 +232,11 @@
 ### Linode Kubernetes Engine LKE
 - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes/)
 - [medium: Create Kubernetes Cluster Using Linode LKE](https://medium.com/codex/create-kubernetes-cluster-using-linode-lke-4f9c71d03a8d)
+
+### DOKS Digital Ocean Kubernetes
+- [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes/)
+- [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech_talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes)
+- [blog.ediri.io: DigitalOcean Kubernetes Challenge](https://blog.ediri.io/digitalocean-kubernetes-challenge) Deploy a GitOps CI/CD implementation
 
 ## Kubesphere
 - [kubesphere.io](https://kubesphere.io/) The Kubernetes platform tailored for hybrid multicloud. KubeSphere is a distributed operating system managing cloud native applications with Kubernetes as its kernel, and provides plug-and-play architecture for the seamless integration of third-party applications to boost its ecosystem.

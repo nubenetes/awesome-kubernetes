@@ -5,6 +5,7 @@
 - [Architecture Decision Records](#architecture-decision-records)
 - [Self service developer platform](#self-service-developer-platform)
 - [Disaster Recovery](#disaster-recovery)
+- [SaaS](#saas)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
   - [Automation Glossary](#automation-glossary)
@@ -173,6 +174,11 @@
 * [==Dzone: 22 Software Development Trends for 2022==](https://dzone.com/articles/22-software-development-trends-for-2022-1) AI, ML, IaC, SRE, DevSecOps, and many others will define how we make software in 2022. Discover what they mean and why they matter in this article.
 * [==redhat.com: 97 Things Every Cloud Engineer Should Know==](https://www.redhat.com/en/resources/oreilly-97things-cloud-engineers-should-know-ebook) If you create, manage, operate, or configure systems running in the cloud, you're a cloud engineer—even if you work as a system administrator, software developer, data scientist, or site reliability engineer. All of these topics are covered in this e-book: fundamentals, architecture, migration, security & compliance, operations & reliability, software development, cloud economics and measuring spend, automation, data, networking, organizational culture, and personal and professional development.
 * [==theregister.com: How Kubernetes lowers costs and automates IT department work==](https://www.theregister.com/2021/12/21/how_kubernetes_lowers_costs/) 75% of global companies will have started using container applications in their production environments by 2022.
+* [==redhat.com: Top 8 resources for microservices architecture of 2021==](https://www.redhat.com/architect/best-microservices-2021) Reining in complexity, doing things consistently, leveraging standards, and modernizing systems are timeless themes in microservices architecture.
+* [infoworld.com: Kubernetes adoption up, serverless down, developer survey says](https://www.infoworld.com/article/3645374/kubernetes-up-serverless-down-report.html) ‘State of Cloud Native Development’ report finds the number of developers using Kubernetes increased 67% in 12 months.
+* [venturebeat.com: 5 ways the world of IT operations will shift in 2022 (and beyond)](https://venturebeat.com/2021/12/22/5-ways-the-world-of-it-operations-will-shift-in-2022-and-beyond/)
+* [thenewstack.io: 5 Cloud Native Trends to Watch out for in 2022](https://thenewstack.io/5-cloud-native-trends-to-watch-out-for-in-2022/)
+* [==blog.devgenius.io: Distributed Monolith==](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f)  
 
 ## Technical Debt
 - [==medium: Technical debt 101==](https://medium.com/@joaomilho/festina-lente-e29070811b84) A primer about technical debt, legacy code, big rewrites and ancient wisdom for non technical managers
@@ -188,6 +194,9 @@
 
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
+
+## SaaS
+- [==blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture==](https://blog.scaleway.com/saas-multi-tenant-vs-multi-instance-architectures/)
 
 ## Multi Cloud
 - [acloudguru.com: Sharing data in the cloud: 4 patterns you should know](https://acloudguru.com/blog/business/sharing-data-in-the-cloud-four-patterns-everyone-should-know)
@@ -213,6 +222,7 @@
 - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/) Your microservices should be more than simple RESTful APIs. They should also be publishing important events, such as a change feed. 
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
+- [medium: Structure your Microservice the right way!](https://medium.com/@ravi.mudgil/structure-your-microservice-the-right-way-7c1e6ad08028)
 
 ## Microservices Anti Patterns
 - [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns/)
@@ -258,6 +268,7 @@
 ## Micro Frontend Architecture
 - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8) Monolithic frontends are difficult to maintain, develop, test, and deploy. The solution is micro frontends. It is a type of architecture that can increase effectiveness and efficiency across teams.
 - [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325)
+- [==dzone: Micro-Frontend Architecture==](https://dzone.com/articles/micro-frontend-architecture) The goal of this architecture is to see web applications as a composition of functionalities where each one is worked by independent teams.
 
 ## Modular Monolith
 - [kamilgrzybek.com: Modular Monolith: A Primer 🌟](https://www.kamilgrzybek.com/design/modular-monolith-primer/)
@@ -287,6 +298,9 @@
 * [redhat.com ebook: Red Hat OpenShift and Kubernetes ... what's the difference? 🌟](https://www.redhat.com/en/resources/openshift-and-kubernetes-whats-the-difference-ebook) 
 * [levelup.gitconnected.com: OpenShift — The Next Level of Kubernetes](https://levelup.gitconnected.com/openshift-the-next-level-of-kubernetes-6d58ad722b26) Things you should need to know about OpenShift
 * [ibm.com: OpenShift vs. Kubernetes: What’s the Difference?](https://www.ibm.com/cloud/blog/openshift-vs-kubernetes)
+* [awstip.com: OpenShift vs Kubernetes: What’s the Difference?](https://awstip.com/openshift-vs-kubernetes-whats-the-difference-428af9db2c7b)
+* [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)
+* [imaginarycloud.com: OPENSHIFT VS KUBERNETES: WHAT ARE THE DIFFERENCES](https://www.imaginarycloud.com/blog/openshift-vs-kubernetes-differences/)
 
 ## Career Path
 - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice/?utm_source=linkedin)
@@ -305,6 +319,7 @@
 ## vFunction. A system to transform monolithic Java applications into microservices
 - [vFunction](https://vfunction.com/) vFunction accelerates your journey to cloud native by automating Java app modernization.
 - [thenewstack.io: vFunction Transforms Monolithic Java to Microservices](https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices/)
+- [devops.com: Best of 2021 – Transform Legacy Java Apps to Microservices](https://devops.com/transform-legacy-java-apps-to-microservices/)
 
 ## Software in Automotive Industry
 - [spectrum.ieee.org: How Software Is Eating the Car](https://spectrum.ieee.org/software-eating-car) The trend toward self-driving and electric vehicles will add hundreds of millions of lines of code to cars. Can the auto industry cope?

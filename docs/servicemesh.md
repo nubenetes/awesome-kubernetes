@@ -41,7 +41,7 @@
 * [cloudops.com: Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC](https://www.cloudops.com/blog/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/)
 * [platform9.com: Kubernetes Service Mesh: A Comparison of Istio, Linkerd and Consul](https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/)
 * [opensource.com: Why you should care about service mesh](https://opensource.com/article/21/3/service-mesh) Service mesh provides benefits for development and operations in microservices environments.
-* [containerjournal.com: When Is Service Mesh Worth It?](https://containerjournal.com/features/when-is-service-mesh-worth-it/)
+* [==containerjournal.com: When Is Service Mesh Worth It?==](https://containerjournal.com/features/when-is-service-mesh-worth-it/)
 * [thenewstack.io: Service Meshes in the Cloud Native World](https://thenewstack.io/service-meshes-in-the-cloud-native-world/)
 * [koyeb.com: Service Mesh and Microservices: Improving Network Management and Observability](https://www.koyeb.com/blog/service-mesh-and-microservices-improving-network-management-and-observability)
 * [thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh](https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh/)

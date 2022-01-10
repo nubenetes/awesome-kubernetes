@@ -66,6 +66,7 @@
 - [AWS Samples](#aws-samples)
 - [Azure Samples](#azure-samples)
     - [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
+    - [Azure Demos](#azure-demos)
 - [GCP Samples](#gcp-samples)
     - [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
@@ -82,6 +83,7 @@
 - [Red Hat Process Automation Manager](#red-hat-process-automation-manager)
 - [API Testing and Postman](#api-testing-and-postman)
 - [Serverless](#serverless)
+- [Labs](#labs)
 
 ## DevOps Screencasts
 - [SysAdmin Casts](https://sysadmincasts.com/) 
@@ -271,6 +273,7 @@
 - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
 - [medium: Verifying container signatures on Kubernetes with Gatekeeper](https://medium.com/@LachlanEvenson/verifying-container-signatures-on-kubernetes-with-gatekeeper-19a4519c3016)
 - [medium: Mutating Kubernetes resources with Gatekeeper](https://medium.com/@LachlanEvenson/mutating-kubernetes-resources-with-gatekeeper-3e5585d49ead)
+- [opensource.com: Implement governance on your Kubernetes cluster](https://opensource.com/article/21/12/kubernetes-gatekeeper) Use OPA Gatekeeper to create and enforce policies and governance for your Kubernetes clusters so the resources you apply comply with that policy.
 
 ## Red Hat Demo Central
 * [gitlab.com/redhatdemocentral 🌟](https://gitlab.com/redhatdemocentral)
@@ -377,6 +380,7 @@
 - [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
 - [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643)
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase/)
+- [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
@@ -570,6 +574,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## GitLab 
 - [piotrminkowski.com: GitLab CI/CD on Kubernetes](https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes/)
 - [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) New to continuous integration? Learn how to build your first CI pipeline with GitLab.
+- [==about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster==](https://about.gitlab.com/blog/2021/11/18/gitops-with-gitlab-connecting-the-cluster/)
 
 ## Spring PetClinic Sample Application
 * [spring-petclinic.github.io](https://spring-petclinic.github.io)
@@ -647,6 +652,12 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [docs.microsoft.com: Deploy Spring microservices to Azure](https://docs.microsoft.com/en-us/learn/modules/azure-spring-cloud-workshop)
 - [davidsr.me: Deploy Azure WAF with Terraform and Azure DevOps](https://davidsr.me/deploy-azure-waf-with-terraform-and-azure-devops/)
 - [mbenko/myYAML 🌟](https://github.com/mbenko/myYAML) This project contains the initial code for a course on [YAML Pipelines](https://www.linkedin.com/learning/azure-devops-continuous-delivery-with-yaml-pipelines).
+- [==thomasthornton.cloud: A DevOps journey using Azure DevOps==](https://thomasthornton.cloud/2021/12/26/a-devops-journey-using-azure-devops/) - [thomast1906/DevOps-Journey-Using-Azure-DevOps 🌟](https://github.com/thomast1906/DevOps-Journey-Using-Azure-DevOps/tree/main/labs)
+- [lambdatest.com: How To Build a CI/CD Pipeline In Azure DevOps ?](https://www.lambdatest.com/blog/build-ci-cd-pipeline-in-azure-devops/)
+
+### Azure Demos
+- [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 1](https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api/) 
+- [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 2](https://blogs.sap.com/2021/12/26/cloud-integration-with-commerce-azure-blob-storage-using-rest-api-part-2/)
 
 ## GCP Samples 
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
@@ -717,6 +728,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [itnext.io: Github: Github Actions overview and ArgoCD deployment example](https://itnext.io/github-github-actions-overview-and-argocd-deployment-example-b6cf0cf6f832)
 - [debianmaster/actions-k3s](https://github.com/debianmaster/actions-k3s) Github action for spinning up local k3s instance and running kubectl commands
 - [==judebantony.github.io: DevSecOps with GitHub Action and SaaS Tools==](https://judebantony.github.io/cicd-github-action-example/) CICD Using GitHub Action and Harness
+- [codeproject.com: Making a Simple Data Pipeline Part 4: CI/CD with GitHub Actions](https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi)
+- [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)
@@ -730,3 +743,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## Serverless
 - [sitepoint.com: A Guide to Serverless Functions and How to Deploy Them](https://www.sitepoint.com/gatsby-mdx-blog/)
+
+## Labs
+- [==learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)==](https://learntocloud.guide/#/projects/README)

@@ -334,6 +334,8 @@ git push origin -f
 * [vadosware.io: Level 1 Automated K8S Deployments With GitLab CI](https://vadosware.io/post/level-one-automated-k8s-deployments-with-gitlab-ci/)
 * [==redpill-solutions.medium.com: Deploying to Kubernetes with GitLab==](https://redpill-solutions.medium.com/deploying-to-kubernetes-with-gitlab-28c2f1a42e57)
 * [==venturebeat.com: GitLab acquires open source observability distribution Opstrace==](https://venturebeat.com/2021/12/14/gitlab-acquires-open-source-observability-distribution-opstrace/)
+* [==medium: Kubernetes & Gitlab-CI — Simplified app deployment automation==](https://medium.com/@david.alvares.62/kubernetes-gitlab-ci-simplified-app-deployment-automation-84ad182a59db) In 5 minutes, I explain how to put in an automated GitLab pipeline to deploy your application to Kubernets with Helm.
+* [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22/)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
@@ -433,6 +435,8 @@ git push origin -f
 - [github.blog: 5 automations every developer should be running](https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/)
 - [==github.blog: Getting started with GitHub Actions just got easier!==](https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/)
 - [github.blog: GitHub Actions: Improvements to GitHub Actions starter experience](https://github.blog/changelog/2021-12-17-github-actions-improvements-to-github-actions-starter-experience/)
+- [==levelup.gitconnected.com: GitHub may replace DockerHub==](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
+- [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://blog.fleetdm.com/4-tips-for-github-actions-usability-2-debugging-4c0c920adfde)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 

@@ -26,6 +26,7 @@
 - [analyticsinsight.net: Top 10 programming languages to learn for better job opportunities in 2022](https://www.analyticsinsight.net/top-10-programming-languages-to-learn-for-better-job-opportunities-in-2022/)
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
+- [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)
@@ -74,5 +75,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is WEB SCRAPING? 🤷‍♂️<br><br>To answer this question, I created a small web scraper for Amazon items.<br><br>This is a thread that explains step by step how it works 🧵👇<br><br>(find the complete code at the end) <a href="https://t.co/DWdkE8EAYh">pic.twitter.com/DWdkE8EAYh</a></p>&mdash; Marc Backes (@themarcba) <a href="https://twitter.com/themarcba/status/1423549087719243778?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 10 Programming Practices to Code Like a Pro😎<br><br>A THREAD 🧵👇</p>&mdash; Ayesha Sahar (@IAyeshaSahar) <a href="https://twitter.com/IAyeshaSahar/status/1451818320081031170?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just learned about the groupBy feature in <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a>. (currently stage 3)<br><br>This sure looks handy! <a href="https://t.co/msVSNistuN">pic.twitter.com/msVSNistuN</a></p>&mdash; Cory House (@housecor) <a href="https://twitter.com/housecor/status/1475867772378828804?ref_src=twsrc%5Etfw">December 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

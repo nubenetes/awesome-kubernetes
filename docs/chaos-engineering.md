@@ -7,6 +7,7 @@
 ## Introduction
 - [thenewstack.io: Chaos Engineering Is Not Just for Ops](https://thenewstack.io/chaos-engineering-is-not-just-for-ops/)
 - [==dzone: How to Pinpoint and Fix Distributed Problems Across Microservices==](https://dzone.com/articles/how-to-pinpoint-and-fix-distributed-problems-acros) While logical separation of APIs fosters parallel development of independent functions, complexity and interdependency becomes harder to manage.
+
 ## Chaos Engineering for kubernetes/Openshift
 * [reddit: Help with Kube Monkey setup](https://www.reddit.com/r/openshift/comments/e1j5qzrbac_for_container_access_to_destroy_other/)
 * [GitHub: kube-monkey](https://github.com/asobti/kube-monkey)
@@ -38,6 +39,7 @@
 * [thenewstack.io: Chaos Engineering Made Simple](https://thenewstack.io/chaos-engineering-made-simple/)
 * [thenewstack.io: Use Chaos Engineering to Strengthen Your Incident Response](https://thenewstack.io/use-chaos-engineering-to-strengthen-your-incident-response/)
 * [thenewstack.io: Operationalizing Chaos Engineering with GitOps](https://thenewstack.io/operationalizing-chaos-engineering-with-gitops/)
+* [medium.com/better-practices: Learn how your Kubernetes clusters respond to failure using Gremlin and Grafana](https://medium.com/better-practices/chaos-d3ef238ec328) Building resilient APIs with chaos engineering
 
 ## Chaos Engineering for serverless computing
 * [thenewstack.io: Breaking Serverless on Purpose with Chaos Engineering](https://thenewstack.io/breaking-serverless-on-purpose-with-chaos-engineering/)
@@ -46,3 +48,4 @@
 - [chaosblade](https://github.com/chaosblade-io/chaosblade) An easy to use and powerful chaos engineering experiment toolkit. ChaosBlade is an Alibaba open source experimental injection tool that follows the principles of chaos engineering and chaos experimental models to help enterprises improve the fault tolerance of distributed systems and ensure business continuity during the process of enterprises going to cloud or moving to cloud native systems.
 - [Azure Chaos Studio](https://azure.microsoft.com/services/chaos-studio/#overview)
     - [techcommunity.microsoft.com: Announcing the Public Preview of Azure Chaos Studio](https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-the-public-preview-of-azure-chaos-studio/ba-p/2893050)
+    - [docs.microsoft.com: What is Azure Chaos Studio?](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-overview)

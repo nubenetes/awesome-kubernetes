@@ -39,6 +39,7 @@
 * Maven 3.8.2 is available now! It contains several fixes and non invasive backports from the Maven 4 branch. 
 * [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 * [rieckpil.de: Maven Setup For Testing Java Applications](https://rieckpil.de/maven-setup-for-testing-java-applications/)
+* [baeldung.com: Remove Duplicate Dependencies with Maven](https://www.baeldung.com/maven-duplicate-dependencies)
 
 ### Scaffolding a project with Maven (maven archetype)
 * [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html)
@@ -108,6 +109,7 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 - [Dzone: simplify your script build with gradle](https://dzone.com/articles/simplify-your-script-build-with-gradle)
 - [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)
 - [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/)
+- [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl)
 
 ### Gradle Cheat Sheets
 - [Gradle Cheat Sheets](cheatsheets.md)

@@ -221,6 +221,7 @@ A simple extension to make indentation more readable
 - [Linux on Chrome OS, sometimes called Crostini 🌟](https://chromeos.dev/en/linux), allows you to run Linux apps for development alongside your usual Chrome OS desktop & apps. 
 - [==Fleet==](https://www.jetbrains.com/fleet/) Next-generation IDE by JetBrains
 	- [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains/)
+- [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering/)
 
 ### Online VSCode
 - [github.dev](https://github.dev)
@@ -230,7 +231,7 @@ A simple extension to make indentation more readable
 - [github1s.com 🌟](https://github1s.com/) One second to read GitHub code with VS Code.
 - [vscode.dev 🌟](https://vscode.dev/) 
 	- [code.visualstudio.com: vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev?WT.mc_id=devcloud-46480-cxa)
-	- [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro)
+	- [genbeta.com: Visual Studio Code ya cuenta con una versión web (que te permite mantener tus proyectos en tu disco duro)](https://www.genbeta.com/desarrollo/visual-studio-code-cuenta-version-web-que-te-permite-mantener-tus-proyectos-tu-disco-duro) 
 	- [css-tricks.com: The Many Faces of VS Code in the Browser](https://css-tricks.com/the-many-faces-of-vs-code-in-the-browser/)
 
 ## Videos

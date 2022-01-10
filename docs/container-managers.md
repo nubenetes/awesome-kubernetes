@@ -92,6 +92,8 @@
 - [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)
 - [redhat.com: Build Kubernetes pods with Podman play kube](https://www.redhat.com/sysadmin/podman-play-kube-updates) Enhancements include building images and tearing down pods with play kube and support for Kubernetes-style init containers.
 - [==iongion.github.io: Podman Desktop Companion== 🌟](https://iongion.github.io/podman-desktop-companion/) Cross-platform desktop integrated application with consistent UI
+- [redhat.com: How to replace Docker with Podman on a Mac, revisited](https://www.redhat.com/sysadmin/replace-docker-podman-mac-revisited) Want to use Podman on macOS? There's a new way with podman machine. Here's what you need to know.
+- [imaginarycloud.com: Podman vs Docker: What are the differences?](https://www.imaginarycloud.com/blog/podman-vs-docker/)
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

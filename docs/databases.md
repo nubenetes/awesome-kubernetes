@@ -39,6 +39,7 @@
             - [Debugging Crunchydata Postgres Operator 4.0.1 Community Edition](#debugging-crunchydata-postgres-operator-401-community-edition)
         - [Certified Crunchydata Postgres Operator (OLM/OperatorHub). Manual Setup](#certified-crunchydata-postgres-operator-olmoperatorhub-manual-setup)
 - [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
+- [Oracle Database Operator for Kubernetes](#oracle-database-operator-for-kubernetes)
 - [SQL Server](#sql-server)
 - [MySQL](#mysql)
 - [MariaDB](#mariadb)
@@ -86,6 +87,7 @@
 * [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report/) Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization's decision to run stateful workloads on Kubernetes. 
 * [cloud.redhat.com: Simplifying Database Cloud Service Access](https://cloud.redhat.com/blog/simplifying-database-cloud-service-access)
 * [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases/)
+* [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication/)
 
 ## How to choose the right database for your service 
 * [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)
@@ -222,6 +224,8 @@
 * [dzone: PostgreSQL HA and Kubernetes](https://dzone.com/articles/postgresql-ha-and-kubernetes) I share my thoughts about how to set up a PostgreSQL Database in Kubernetes with some level of high availability, introducing 3 different architectural styles to do so.
 * [blog.crunchydata.com: Can't Resize your Postgres Kubernetes Volume? No Problem!](https://blog.crunchydata.com/blog/resize-postgres-kubernetes-volume-instance-sets)
 * [blog.crunchydata.com: Your Guide to Connection Management in Postgres 🌟](https://blog.crunchydata.com/blog/your-guide-to-connection-management-in-postgres)
+* [==blog.crunchydata.com: PostgreSQL 14 on Kubernetes (with examples!)==](https://blog.crunchydata.com/blog/postgresql-14-on-kubernetes)
+* [blog.crunchydata.com: Kubernetes + Postgres Cluster From Scratch on Rocky 8](https://blog.crunchydata.com/blog/kube-cluster-from-scratch-on-rocky-8)
 
 ### Crunchy Data Developer Portal
 - [Announcing the Crunchy Data Developer Portal](https://info.crunchydata.com/blog/announcing-the-crunchy-data-developer-portal)
@@ -845,6 +849,10 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [medium: Running Oracle 12c on OpenShift Container Platform](https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057) Oracle is now offering an Oracle 12c image on Docker Hub for dev/test purposes (license still required for Prod).
 - [dockerhub: Oracle Database 12c Enterprise Edition](https://hub.docker.com/_/oracle-database-enterprise-edition) 
 
+## Oracle Database Operator for Kubernetes
+- https://github.com/oracle/oracle-database-operator
+- [pasimoes.dev: Let the Oracle Database Operator for Kubernetes Do the Job](https://pasimoes.dev/p/oracle-db-k8s-oper-intro/)
+
 ## SQL Server
 - [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/)
 - [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/)
@@ -888,6 +896,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [percona.com: PostgreSQL 14 Database Monitoring and Logging Enhancements](https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements/)
 - [theregister.com: MySQL a 'pretty poor database' says departing Oracle engineer](https://www.theregister.com/2021/12/06/mysql_a_pretty_poor_database/) PostgreSQL a better option for open source RDBMS, he claims
 - [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm/)
+- [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) PostgreSQL Statistics Collector
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)

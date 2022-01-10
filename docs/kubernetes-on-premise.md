@@ -99,6 +99,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [Autoscalable Kubernetes cluster at Exoscale, using Packer and Terraform](https://github.com/PhilippeChepy/exoscale-kubernetes-crio)
 * [Kubernetes the Hard Way: Azure Edition](https://github.com/carlosonunez/kubernetes-the-hard-way-on-azure) teaches you how to deploy Kubernetes from scratch on Azure based on the legendary Kubernetes the Hard Way.
 * [Kubernetes The Hard Way: AWS Edition](https://github.com/prabhatsharma/kubernetes-the-hard-way-aws) AWS version of Kelsey's kubernetes-the-hard-way
+* [medium: Kubernetes the hard (illumos) way](https://medium.com/@norlin.t/kubernetes-the-hard-illumos-way-c4b45a080bac)
 
 ## Caravan
 - [linecorp.com: Building Large Kubernetes Clusters with **Caravan**](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/)

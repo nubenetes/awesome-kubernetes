@@ -1,6 +1,7 @@
 # Cloud Architecture Diagram Tools
 - [Introduction](#introduction)
 - [MultiCloud](#multicloud)
+- [Architecture Icons](#architecture-icons)
 - [AWS](#aws)
 ## Introduction
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
@@ -20,13 +21,20 @@
 - [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/architect/diagramming-tools-network-architecture)
 - [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/architect/design-enterprise-architecture-diagrams) Walk step-by-step through creating enterprise architecture diagrams like an expert in this DevConf workshop.
 
+## Architecture Icons
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)
+- [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/)
+- [Google Cloud Architecture Icons](https://cloud.google.com/icons)
+
 ## AWS
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams
 - [cloudcraft.co](https://cloudcraft.co/)
 	- [diagrams.net: Use Cloudcraft to export your AWS architecture to a .drawio diagram](https://www.diagrams.net/blog/drawio-aws-cloudcraft)
 - [hava.io](https://www.hava.io/)
+- [draw.io](https://draw.io)
 - [CloudMapper (OSS)](https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool)
-- [Lucidchart](https://www.lucidchart.com/pages/integrations/aws-architecture-import)
+- [==Lucidchart==](https://www.lucidchart.com/)
+	- [==Lucidscale: Import your architecture==](https://lucidscale.com/) Lucidscale is the cloud visualization solution that helps organizations see and understand their cloud environment.
 - [infviz.io](https://infviz.io/)
 - [AWS Account Cloud9 Visualizer](https://github.com/wongcyrus/aws-account-cloud9-visualizer)
     - [How to visualize your AWS Account with AWS Cloud9?](https://www.linkedin.com/pulse/how-visualize-your-aws-account-cloud9-wong-chun-yin-cyrus-%E9%BB%83%E4%BF%8A%E5%BD%A5-/)

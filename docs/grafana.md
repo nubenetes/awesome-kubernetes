@@ -26,6 +26,7 @@
 * [thenewstack.io: Grafana Is Not Worried About AWS Commercialization](https://thenewstack.io/grafana-is-not-worried-about-aws-commercialization/)
 * [grafana.com: Introducing the AWS CloudWatch integration, Grafana Cloud's first fully managed integration](https://grafana.com/blog/2021/11/17/2021/11/17/grafana-aws-cloudwatch-integration/) Latest integration available in Grafana Cloud: the AWS CloudWatch metrics integration, the first of our fully managed integrations that makes it simple to connect and visualize your data in Grafana.
 * [grafana.com: Testing shift left observability with the Grafana Stack, OpenTelemetry, and k6](https://grafana.com/blog/2021/12/06/testing-shift-left-observability-with-the-grafana-stack-opentelemetry-and-k6/)
+* [thenewstack.io: Will Grafana Become Easier to Use in 2022?](https://thenewstack.io/will-grafana-become-easier-to-use-in-2022)
 
 ## Grafana Agent
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.

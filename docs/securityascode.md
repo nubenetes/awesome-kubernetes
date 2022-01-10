@@ -104,6 +104,7 @@
 - [A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742](https://github.com/kubernetes/ingress-nginx/issues/7837)
 - [==kyverno.io: Restrict Image Registries==](https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/) kyverno
  has a solid set of kubernetes policies and excellent documentation out of the box!
+- [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17)
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

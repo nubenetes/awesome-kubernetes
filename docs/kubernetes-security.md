@@ -104,6 +104,9 @@
 * [infoworld.com: Securing the Kubernetes software supply chain with Microsoft's Ratify](https://www.infoworld.com/article/3644808/securing-the-kubernetes-software-supply-chain.html) Microsoft’s **Ratify** proposal adds a verification workflow to Kubernetes container deployment. The Ratify team has some demo code in their GitHub repository that shows how to use Ratify with Gatekeeper in Kubernetes. [Ratify installs using a Helm chart](https://github.com/deislabs/ratify#quick-start), bringing along some sample configuration templates.
 * [amazicworld.com: Top 5 security threats unique to a Kubernetes and Cloud Native stack](https://amazicworld.com/top-5-security-threats-unique-to-a-kubernetes-and-cloud-native-stack/)
 * [==peoplactive.com: Kubernetes and Container Security Checklist to Build Secure Apps==](https://peoplactive.com/kubernetes-security-best-practices/)
+* [venturebeat.com: Kubernetes security will have a breakout year in 2022](https://venturebeat.com/2021/12/27/kubernetes-security-will-have-a-breakout-year-in-2022/)
+* [==medium: Comparing Kubernetes Security Frameworks and Guidance== 🌟](https://medium.com/@jonathan_37674/comparing-kubernetes-security-frameworks-and-guidance-f1c2821ea733) Comparing popular Kubernetes security and compliance frameworks, how they differ, when to use, common goals, and suggested tools.
+* [aninditabasak.medium.com: A Lap around Kubernetes Security & Vulnerability scanning Tools — checkov, kube-hunter, kube-bench & Starboard](https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1)
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
@@ -118,6 +121,7 @@
 * [github.com/dvob/k8s-s2s-auth: Kubernetes Service Accounts 🌟](https://github.com/dvob/k8s-s2s-auth) Service accounts are well known in Kubernetes to access the Kubernets API from within the cluster. This is often used for infrastructure components like operators and controllers. But we can also use service accounts to implement authentication in our own applications. This README tries to give an overview on how service accounts work and and shows a couple of variants how you can use them for authentication. Further this repository contains an example Go service which shows how to implement the authentication in an application.
 * [sandeepbaldawa.medium.com: Service Accounts in K8s (Kubernetes)](https://sandeepbaldawa.medium.com/service-accounts-in-k8s-kubernetes-2779ee4fb331)
 * [==mjarosie.github.io: IAM roles for Kubernetes service accounts - deep dive==](https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html)
+* [linkerd.io: Using Kubernetes's new Bound Service Account Tokens for secure workload identity](https://linkerd.io/2021/12/28/using-kubernetess-new-bound-service-account-tokens-for-secure-workload-identity/)
 
 ## Kubernetes Secrets
 - [cncf.io: Revealing the secrets of Kubernetes secrets 🌟](https://www.cncf.io/blog/2021/04/22/revealing-the-secrets-of-kubernetes-secrets) In this article you will learn how to protect Secrets in your Kubernetes cluster
@@ -138,6 +142,8 @@
 - [millionvisit.blogspot.com: Kubernetes for Developers #19: Manage app credentials using Kubernetes Secrets 🌟](http://millionvisit.blogspot.com/2021/07/kubernetes-for-developers-19-manage-app-credentials-using-Kubernetes-Secrets.html)
 - [kubermatic.com: Keeping the State of Apps Part 2: Introduction to Secrets](https://www.kubermatic.com/blog/keeping-the-state-of-apps-part-2-introduction-to-secrets/)
 - [medium: Kubernetes Secrets Explained](https://medium.com/codex/kubernetes-secrets-explained-f45baf8cefa7)
+- [medium: Managing your sensitive information during GitOps process with Secret Sealed](https://medium.com/@jerome_tarte/managing-your-sensitive-information-during-gitops-process-with-secret-sealed-27498c77e2b8)
+- [==enlear.academy: Sealed Secrets with Kubernetes==](https://enlear.academy/sealed-secrets-with-kubernetes-a3f4d13dbc17) Usage of the sealed secret to encrypt Kubernetes secrets.
 
 ## Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)

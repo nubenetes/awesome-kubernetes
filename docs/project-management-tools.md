@@ -35,6 +35,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)
 - [opensource.com: 5 open source alternatives to Zoom](https://opensource.com/article/21/9/alternatives-zoom) Try one of these open source video conferencing services.
 - [makeuseof.com: The 8 Best Open-Source Project Management Software](https://www.makeuseof.com/best-open-source-project-management-software)
+- [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools) These articles show the power of open source in business as tools, platforms, or integration points.
 
 ## Productivity Tips with .new TLD to quickly create
 - [Google Docs: doc.new](https://doc.new)
