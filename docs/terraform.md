@@ -8,6 +8,7 @@
 	- [Terraform Cloud](#terraform-cloud)
 	- [HCL](#hcl)
 	- [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
+	- [Python Boto3 and Terraform](#python-boto3-and-terraform)
 	- [Terraform Infracost](#terraform-infracost)
 	- [Awesome Terraform](#awesome-terraform)
 	- [Terraform Cheat Sheets](#terraform-cheat-sheets)
@@ -194,6 +195,9 @@
 * [infoq.com: cdk-terraform - Cloud Development Kit Can Now Generate Terraform Configurations Using TypeScript and Python](https://www.infoq.com/news/2020/07/cdk-terraform/)
 * [hashicorp.com: CDK for Terraform: Enabling Python & TypeScript Support](https://www.hashicorp.com/blog/cdk-for-terraform-enabling-python-and-typescript-support)
 * [hashicorp.com: Announcing CDK for Terraform 0.1](https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-1)
+
+### Python Boto3 and Terraform
+- [medium.com/@dmglascoe: ==Deploying IAM Users and S3 Buckets using Boto3 and Terraform==](https://medium.com/@dmglascoe/deploying-iam-users-and-s3-buckets-using-boto3-and-terraform-71ec04b2e14b)
 
 ### Terraform Infracost
 - [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront. 
