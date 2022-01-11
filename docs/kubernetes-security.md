@@ -107,6 +107,8 @@
 * [venturebeat.com: Kubernetes security will have a breakout year in 2022](https://venturebeat.com/2021/12/27/kubernetes-security-will-have-a-breakout-year-in-2022/)
 * [==medium: Comparing Kubernetes Security Frameworks and Guidance== 🌟](https://medium.com/@jonathan_37674/comparing-kubernetes-security-frameworks-and-guidance-f1c2821ea733) Comparing popular Kubernetes security and compliance frameworks, how they differ, when to use, common goals, and suggested tools.
 * [aninditabasak.medium.com: A Lap around Kubernetes Security & Vulnerability scanning Tools — checkov, kube-hunter, kube-bench & Starboard](https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1)
+* [==blog.gitguardian.com: Hardening Your Kubernetes Cluster - Threat Model (Pt. 1)== 🌟](https://blog.gitguardian.com/hardening-your-k8-pt-1/) The NSA and CISA recently released a guide on Kubernetes hardening. We'll cover this guide in a three part series. First, let's explore the Threat Model and how it maps to K8s components.
+    * [==blog.gitguardian.com: Hardening Your Kubernetes Cluster - Guidelines (Pt. 2)== 🌟](https://blog.gitguardian.com/hardening-your-k8s-pt-2/) In this second episode, we will go through the NSA/CISA security recommendations and explain every piece of the guidelines.
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

@@ -188,6 +188,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
     - Docuum is used by Airbnb on its fleet of 1.5k+ CI workers.
 
 - [cloudsavvyit.com: 10 Tools That Complement Docker](https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker/)
+- [==cybersecsi/RAUDI==](https://github.com/cybersecsi/RAUDI) A repo to automatically generate and keep updated a series of Docker images through GitHub Actions.
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)

@@ -4,6 +4,7 @@
 - [Selenium](#selenium)
 - [Robot Framework](#robot-framework)
 - [Cypress](#cypress)
+- [Tempest Testing Project](#tempest-testing-project)
 - [Mobile Tests](#mobile-tests)
 	- [Appium](#appium)
 	- [Cucumber and Appium. Behavior Driven Development](#cucumber-and-appium-behavior-driven-development)
@@ -67,6 +68,10 @@ based on your test scripts.
 
 ## Cypress
 - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
+
+## Tempest Testing Project
+- [Tempest Testing Project](https://docs.openstack.org/tempest) Complete coverage of the OpenStack API and common scenarios that simulate a working cloud.
+- [opensource.com: Why we built an open source testing framework](https://opensource.com/article/22/1/open-source-testing-framework)
 
 ## Mobile Tests
 ### Appium
