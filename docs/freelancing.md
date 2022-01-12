@@ -1,10 +1,10 @@
 # Freelancing
 - [Introduction](#introduction)
 - [Freelancing in Spain](#freelancing-in-spain)
-  - [Advisory. Asesorías](#advisory-asesorías)
+	- [Advisory. Asesorías](#advisory-asesorías)
 - [Top Freelancing Platforms](#top-freelancing-platforms)
 - [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
-  - [Umbrella Companies](#umbrella-companies)
+	- [Umbrella Companies](#umbrella-companies)
 - [Tweets](#tweets)
 ## Introduction
 - [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere/)
