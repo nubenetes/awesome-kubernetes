@@ -85,6 +85,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [solo.io: Istio’s networking: An in-depth look at traffic and architecture 🌟](https://www.solo.io/blog/istios-networking-in-depth) Istio’s networking in a demo environment
 - [solo.io: Navigating **Istio Config**: a look into Istio’s toolkit](https://www.solo.io/blog/navigating-istio-config-toolkit/)
 - [==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟](https://inder-devops.medium.com/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38) Part 1 of a series of articles about cloud migration. Application workload migration from one kubernetes cluster to another using Istio. This article explains an approach that makes use of service mesh capability to migrate entire platform from onpremise to cloud or cluster to cluster migration.
+- [baeldung.com: Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
 
 ## API Access Control
 - [medium: API Access Control using Istio Ingress Gateway](https://medium.com/@senthilrch/api-access-control-using-istio-ingress-gateway-44be659a087e)

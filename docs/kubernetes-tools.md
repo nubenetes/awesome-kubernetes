@@ -47,6 +47,7 @@
 - [kubewatch](#kubewatch)
 - [Botkube](#botkube)
 - [Robusta](#robusta)
+- [Soup GitOps Operator](#soup-gitops-operator)
 - [Epinio](#epinio)
 - [Tweets](#tweets)
 
@@ -611,6 +612,9 @@
 
 ## Robusta
 - [Robusta](https://docs.robusta.dev/) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
+
+## Soup GitOps Operator
+- [caldito/soup](https://github.com/caldito/soup) Soup is a GitOps operator for Kubernetes. GitOps continuous deployment and management tool for Kubernetes focused on simplicity.
 
 ## Epinio
 - https://epinio.io The Application Development Engine for Kubernetes. Epinio is how you tame the developer workflow in Kubernetes to go from Code to URL in a single step.
