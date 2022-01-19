@@ -53,6 +53,7 @@
 - [KuberLogic](#kuberlogic)
 - [Kusk](#kusk)
 - [Azure AD Workload Identity](#azure-ad-workload-identity)
+- [Kubernate](#kubernate)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -636,6 +637,10 @@
 
 ## Azure AD Workload Identity
 - [==Azure/azure-workload-identity==](https://github.com/Azure/azure-workload-identity) Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods. It simplifies accessing Azure AD protected resources securely from Kubernetes workloads.
+
+## Kubernate
+- https://kubernate.dev 
+- [laurci/kubernate](https://github.com/laurci/kubernate) Kubernetes+Generate = Kubernate. Kubernate is a Kubernetes YAML generator that can be used as an alternative to other popular tools like Helm. Kubernate is distributed as a library and as a CLI, both working together to achieve one goal: Kubernetes as Code.
 
 ## Tweets
 <details>
