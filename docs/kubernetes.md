@@ -184,6 +184,12 @@
     - Kubernetes salary ranges
     - Remote vs office offers
     - Popular cloud providers
+- [==kube.careers: Kubernetes jobs market trends for 2021 (Q4)==](https://kube.careers/report-2021-q4) What's the average salary for a Kubernetes engineer? Do you need a Kubernetes certification to apply for a job? What technologies and cloud providers are often used with Kubernetes? We analyzed 276 Kubernetes jobs from 2021 and found that:
+    - If you know AWS and Python, the world is your oyster.
+    - CKA is the top Kubernetes certification. But only a few employers require one.
+    - Jenkins is more alive than ever.
+    - Prometheus is synonymous with monitoring. No one comes close.
+    - Terraform and Ansible lead IaC.
 
 ### Certified Kubernetes Offerings
 * [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
@@ -492,6 +498,7 @@
 * [medium.com/@hinsulak: Multi-node lightweight Kubernetes setup](https://medium.com/@hinsulak/multi-node-lightweight-kubernetes-setup-using-k3s-454e87fdc933)
 * [kubernetes.io: Kubernetes is Moving on From Dockershim: Commitments and Next Steps](https://kubernetes.io/blog/2022/01/07/kubernetes-is-moving-on-from-dockershim/)
 * [blog.px.dev: Where are my container's files? Inspecting container filesystems](https://blog.px.dev/container-filesystems/)
+* [medium.com/codex: How to Deploy WordPress On Kubernetes — Part 2](https://medium.com/codex/how-to-deploy-wordpress-on-kubernetes-part-2-df1cc9cbaa2e) Learn how to deploy the WordPress on Kubernetes and connect with MySQL Pod.
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
