@@ -108,6 +108,8 @@
 * [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook/)
 * [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB)
 * [==opensource.com: 9 ways to learn Ansible this year== 🌟](https://opensource.com/article/22/1/learn-ansible) Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year's most popular Ansible tutorials and stories.
+* [redhat.com: Top 10 Ansible tutorials of 2021](https://www.redhat.com/sysadmin/top-ansible-articles-2021) Whether you're new to Ansible or looking to level up your automation skills, you'll find something of value in 2021's top Ansible articles.
+* [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent)
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.

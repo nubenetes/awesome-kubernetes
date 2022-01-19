@@ -514,6 +514,7 @@
 - [tanzu.vmware.com: Log4Shell Vulnerability Spotlights the Importance of Adopting Trusted Open Source Software Providers for the Enterprise](https://tanzu.vmware.com/developer/blog/log4shell-vulnerability-spotlights-the-importance-of-adopting-trusted-open-source-software-providers-for-the-enterprise/)
 - [==google/log4jscanner==](https://github.com/google/log4jscanner) A log4j vulnerability filesystem scanner and Go package for analyzing JAR files.
 - [thehackernews.com: Microsoft Warns of Continued Attacks Exploiting Apache Log4j Vulnerabilities](https://thehackernews.com/2022/01/microsoft-warns-of-continued-attacks.html)
+- [zdnet.com: Log4j: Google and IBM call for list of critical open source projects](https://www.zdnet.com/article/log4j-after-white-house-meeting-google-calls-for-list-of-critical-open-source-projects/) After attending a meeting at the White House, Google also proposed creating an organization to serve as a marketplace for open source maintenance.
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.

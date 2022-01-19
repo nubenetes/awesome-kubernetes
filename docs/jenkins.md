@@ -143,6 +143,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [infoworld.com: Continuous integration with Docker and Jenkins](https://www.infoworld.com/article/3637829/continuous-integration-with-docker-and-jenkins.html) How to pull from Git, build a Docker image, and publish the image to Docker Hub.
 * [==lambdatest.com: What Is Jenkins Used For?== 🌟](https://www.lambdatest.com/blog/what-is-jenkins/)
 * [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins/) 
+* [==developers.redhat.com: A developer's guide to CI/CD and GitOps with Jenkins Pipelines==](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines)
 
 ## Interview Questions 
 * [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
@@ -276,6 +277,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     * **Don't use shared libraries (the wrong way).** Wait, what? You just told me to use shared libraries and now you're telling me not to use shared libraries. What gives? Many people will treat shared libraries like a programming project. Here's the thing to keep in mind. Scripted and Declarative syntax are meant to only do CI tasks and not to be a general purpose programming language. Many Jenkins controller performance issues can be traced back to the misuse of scripted syntax and shared libraries written in a way where all the work is being done within the Jenkins controller itself instead of on the agents.
     * **Only use Scripted syntax when it doesn't make sense to use Declarative plus a shared library.**
 * [cuelogic.com: Decoding Pipeline as Code (With Jenkins) 🌟](https://www.cuelogic.com/blog/pipeline-as-code) Pipeline as code technique rests on the paradigm that delivery pipeline configuration which builds, tests, deploys applications, and software infrastructure must be treated as code. 
+* [mishra-praveen.medium.com: Comprehensive Guide To Jenkins Declarative Pipeline [With Examples]](https://mishra-praveen.medium.com/comprehensive-guide-to-jenkins-declarative-pipeline-with-examples-17c0be7a79d)
 
 #### How to share a Declarative Pipeline. Examples of Declarative Pipelines in Shared Libraries:
 * [mtijhof.wordpress.com: Jenkins: Running a declarative pipeline from your Shared Library 🌟](https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/)

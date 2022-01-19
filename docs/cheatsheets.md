@@ -74,6 +74,8 @@
 - [cheat.sh 🌟](https://cheat.sh/)
 - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
 - [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)
+- [Nmap Cheat Sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp)
+- [manz.dev/cheatsheets](https://manz.dev/cheatsheets) 
 
 ## Google Search 
 - [wikipedia: Google Search](https://en.wikipedia.org/wiki/Google_Search)

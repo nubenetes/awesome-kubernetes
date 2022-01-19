@@ -26,3 +26,4 @@
 - [cncf.io: Flux: Server-side reconciliation is coming](https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/) Server-side reconciliation will make Flux more performant, improve overall observability and going forward will allow us to add new capabilities, like being able to preview local changes to manifests without pushing to upstream.
 - [shipa.io: FluxCD and GitOps in the Enterprise](https://shipa.io/2021/10/fluxcd-and-gitops-in-the-enterprise/)
 - [solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways)
+- [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) Manage multi-tenant clusters with Flux

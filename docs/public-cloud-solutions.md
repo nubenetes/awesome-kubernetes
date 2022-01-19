@@ -26,6 +26,7 @@
 * [==acloudguru.com: Cloud security comparison: AWS vs. Azure vs. GCP==](https://acloudguru.com/blog/engineering/cloud-security-comparison-aws-vs-azure-vs-gcp)
 * [acloudguru.com: Cloud developer tooling compared: AWS vs. Azure vs. GCP](https://acloudguru.com/blog/engineering/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp)
 * [acloudguru.com: Blockchain cloud comparison: What is blockchain-as-a-service (BaaS)?](https://acloudguru.com/blog/engineering/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas)
+* [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://acloudguru.com/blog/engineering/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)
 
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)

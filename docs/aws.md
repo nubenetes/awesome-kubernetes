@@ -240,6 +240,7 @@ You can filter by topic using the toolbar above.
 	- [linkedin.com/pulse: So, you think you're an associate level Solutions Architect?](https://www.linkedin.com/pulse/so-you-think-youre-associate-level-solutions-adrian-cantrill/)
 - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing/)
 - [acloudguru.com: 10 fun hands-on projects to learn AWS](https://acloudguru.com/blog/engineering/10-fun-hands-on-projects-to-learn-aws)
+- [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2/)
 
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
@@ -645,6 +646,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)
 - [dev.to: Manage webhooks at scale with AWS Serverless](https://dev.to/aws-builders/manage-webhooks-at-scale-with-aws-serverless-fof)
 - [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda)
+- [medium.com/@andrewjr350: Misunderstanding of Serverless (AWS)](https://medium.com/@andrewjr350/misunderstanding-of-serverless-aws-835c7076ea4c)
 
 ## AWS API Gateway
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
@@ -970,6 +972,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 	- [CopySGFromOneAWSAccountToAnotherScript.py](https://github.com/dineshrathee12/CopySecurityGroupWithRulesFromOneAWSAccountToAnotherAWSAccount/blob/main/CopySGFromOneAWSAccountToAnotherScript.py)
 - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler - Find resources that are not logging, and turn them on](https://github.com/awslabs/assisted-log-enabler-for-aws)
 - https://github.com/dannysteenman/aws-toolbox A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.
+- [saml-to/assume-aws-role-action](https://github.com/saml-to/assume-aws-role-action) Assume AWS IAM Roles using SAML.to in GitHub Actions. This action enables workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
 
 ## Development
 - [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
@@ -1045,5 +1048,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A new checkbox appears in the create subnet dialog of the Amazon VPC console... <a href="https://t.co/RroXl07Fe0">pic.twitter.com/RroXl07Fe0</a></p>&mdash; Matthew S. Wilson (msw) (@_msw_) <a href="https://twitter.com/_msw_/status/1463215340536614912?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Me: using AWS since 2014, using k8s since 2016, AWS Container Hero, and other fancy-sounding stats.<br><br>Also me: takes 2 hours to get AWS CloudWatch Container Insights (expensive logs and metrics) running on an EKS cluster<br><br>Tech is hard for everybody! Be confident! Full-steam ahead!</p>&mdash; Vlad Ionescu (he/him) (@iamvlaaaaaaad) <a href="https://twitter.com/iamvlaaaaaaad/status/1472212200009961474?ref_src=twsrc%5Etfw">December 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📚 AWS 1x1 - 𝗖𝗹𝗼𝘂𝗱𝗪𝗮𝘁𝗰𝗵<br><br>Your fully-managed monitoring &amp; observability solution for your AWS services, resources &amp; applications.<br><br>Almost all you need to know ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1481991504348557313?ref_src=twsrc%5Etfw">January 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝗔𝗪𝗦 𝗔𝗣𝗜 𝗚𝗮𝘁𝗲𝘄𝗮𝘆 is one of AWS&#39; fully-managed flagship services ⚡ <br><br>All of the important facts &amp; key capabilities that you need to know in a single infographic 🌠 ↓ <a href="https://t.co/uzdqdPMmCs">pic.twitter.com/uzdqdPMmCs</a></p>&mdash; Dashbird.io (@thedashbird) <a href="https://twitter.com/thedashbird/status/1483033704205369344?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -13,6 +13,7 @@
     - [OpenID Connect](#openid-connect)
     - [Implementing a custom Kubernetes authentication method](#implementing-a-custom-kubernetes-authentication-method)
 - [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
+- [Security Profiles Operator](#security-profiles-operator)
 - [EKS Security](#eks-security)
 - [CVE](#cve)
 - [Tweets](#tweets)
@@ -235,6 +236,11 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 * [developer.squareup.com: Kubernetes Pod Security Policies (PSP)](https://developer.squareup.com/blog/kubernetes-pod-security-policies/) an example with exception management
 * [itnext.io: Implementing a Secure-First Pod Security Policy Architecture](https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0)
 * [Neon Mirrors: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://kind-brown-cfb734.netlify.app/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
+
+## Security Profiles Operator
+- The Security Profiles Operator (SPO) is an out-of-tree Kubernetes enhancement to make the management of seccomp, SELinux and AppArmor profiles easier and more convenient.
+- [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator)
+- [kubernetes.io: What's new in Security Profiles Operator v0.4.0](https://kubernetes.io/blog/2021/12/17/security-profiles-operator/)
 
 ## EKS Security
 * [Security Group Rules EKS](https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html)

@@ -15,6 +15,7 @@
 * [dev.to: Install Docker on Windows (WSL) without Docker Desktop 🌟](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9)
 * [techrepublic.com: Windows Subsystem for Linux 2: The GUI features developers have been asking for](https://www.techrepublic.com/article/windows-subsystem-for-linux-2-the-gui-features-developers-have-been-asking-for/)
 * [bleepingcomputer.com: Windows 11 can now install WSL from the Microsoft Store 🌟](https://www.bleepingcomputer.com/news/microsoft/windows-11-can-now-install-wsl-from-the-microsoft-store/)
+* [klaushofrichter.medium.com: Using Windows Subsystem for Linux for Kubernetes](https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531) 
 
 ## Windows Terminal
 - [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)

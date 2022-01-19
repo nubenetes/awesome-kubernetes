@@ -119,6 +119,7 @@
 
 ## Tools
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
+- [==cloud.google.com: The gcloud tool cheat sheet==](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
 
 ## Videos
 <details>

@@ -49,6 +49,10 @@
 - [Robusta](#robusta)
 - [Soup GitOps Operator](#soup-gitops-operator)
 - [Epinio](#epinio)
+- [Testkube](#testkube)
+- [KuberLogic](#kuberlogic)
+- [Kusk](#kusk)
+- [Azure AD Workload Identity](#azure-ad-workload-identity)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -619,6 +623,19 @@
 ## Epinio
 - https://epinio.io The Application Development Engine for Kubernetes. Epinio is how you tame the developer workflow in Kubernetes to go from Code to URL in a single step.
 - [epinio/epinio](https://github.com/epinio/epinio) Opinionated platform that runs on Kubernetes, that takes you from App to URL in one step.
+
+## Testkube
+- [kubeshop/testkube](https://github.com/kubeshop/testkube) Kubernetes-native framework for test definition and execution
+- [thenewstack.io: TestKube: A New Approach to Cloud Native Testing](https://thenewstack.io/testkube-a-new-approach-to-cloud-native-testing/)
+
+## KuberLogic
+- [kuberlogic](https://github.com/kuberlogic/kuberlogic) Kuberlogic is an open-source product that deploys and manages software on top of the Kubernetes cluster and turns infrastructure into a managed PaaS. KuberLogic is that allows running managed databases and popular applications deploying on-premises or at any cloud. The solution provides API, monitoring, backups, and integration with SSO right out of the box
+
+## Kusk
+- [kubeshop/kusk: use OpenAPI to configure Kubernetes](https://github.com/kubeshop/kusk) Kusk makes your OpenAPI definition the source of truth for API resources in your cluster. Kusk treats your OpenAPI/Swagger definition as a source of truth for generating supplementary Kubernetes resources for your REST APIs in regard to mappings, security, traffic-control, monitoring, etc.
+
+## Azure AD Workload Identity
+- [==Azure/azure-workload-identity==](https://github.com/Azure/azure-workload-identity) Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods. It simplifies accessing Azure AD protected resources securely from Kubernetes workloads.
 
 ## Tweets
 <details>

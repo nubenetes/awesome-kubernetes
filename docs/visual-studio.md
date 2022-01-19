@@ -132,6 +132,7 @@ A simple extension to make indentation more readable
 * [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 * [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/)
 * [prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly 🌟](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) Prisma helps app developers build faster and make fewer errors with an open source database toolkit for PostgreSQL, MySQL, SQL Server, and SQLite. Central to Prisma is the schema - __a declarative way to define your app's data models and their relations that's human-readable__. And you don't have to painstakingly create it from scratch if you already have a database - prisma introspect takes care of that.
+* [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) IAM policy actions autocomplete, documentation & wildcard resolution. Supports Serverless Framework, AWS SAM, CloudFormation and Terraform.
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)

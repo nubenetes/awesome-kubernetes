@@ -12,6 +12,7 @@
 - [Kubectl Alternatives](#kubectl-alternatives)
     - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
     - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
+- [Tweets](#tweets)
 
 ## Introduction
 * [itnext.io: Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)
@@ -119,3 +120,11 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ### Jenkins Kubernetes Plugins
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
+
+
+## Tweets
+??? note "Click to expand!"
+ 
+    <center> 
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: How to create Kubernetes manifests real quick 🤯<br><br>Use kubectl create --dry-run=client -o yaml<br><br>Example:<br><br>```<br>kubectl create deployment foo \<br> --image=nginx:1.21 \<br> --dry-run=client \<br> -o yaml<br>```</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1483180111579000834?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>

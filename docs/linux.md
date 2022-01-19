@@ -211,6 +211,7 @@
 - [==redhat.com: 20 one-line Linux commands to add to your toolbox==](https://www.redhat.com/sysadmin/one-line-linux-commands) Every Linux user has a favorite single-line command. Here are the 20 Linux commands we can't live without.
 - [termshark](https://github.com/gcla/termshark) A terminal UI for tshark, inspired by Wireshark
 - [baeldung.com: Maximum Number of Threads Per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)
+- [opensource.com: Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema) 
 
 ## Guestfish
 - [Guestfish](https://libguestfs.org/guestfish.1.html)
