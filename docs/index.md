@@ -122,7 +122,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Prometheus](prometheus.md)
 - [Grafana](grafana.md)
 ## Configuration Management
-- [Ansible](ansible.md)
+- [==Ansible==](ansible.md)
 - [Argo CD - Declarative GitOps for Kubernetes](argocd.md)
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
