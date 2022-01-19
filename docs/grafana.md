@@ -28,6 +28,8 @@
 * [grafana.com: Testing shift left observability with the Grafana Stack, OpenTelemetry, and k6](https://grafana.com/blog/2021/12/06/testing-shift-left-observability-with-the-grafana-stack-opentelemetry-and-k6/)
 * [thenewstack.io: Will Grafana Become Easier to Use in 2022?](https://thenewstack.io/will-grafana-become-easier-to-use-in-2022)
 * [grafana.com: Top 5 user-requested synthetic monitoring alerts in Grafana Cloud](https://grafana.com/blog/2022/01/11/top-5-user-requested-synthetic-monitoring-alerts-in-grafana-cloud/)
+* [==grafana.com: A beginner's guide to network monitoring with Grafana and Prometheus==](https://grafana.com/blog/2022/01/19/a-beginners-guide-to-network-monitoring-with-grafana-and-prometheus/)
+    * https://github.com/prometheus/snmp_exporter/tree/main/snmp-mixin
 
 ## Grafana Agent
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
