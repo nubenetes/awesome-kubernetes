@@ -103,6 +103,7 @@
 - [towardsdatascience.com: How to Use SQL Cross Joins](https://towardsdatascience.com/how-to-use-sql-cross-joins-5653fe7d353) The SQL join you never knew existed
 - [vladmihalcea.com: SQL EXISTS and NOT EXISTS](https://vladmihalcea.com/sql-exists/)
 - [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing/)
+- [blog.jooq.org](https://blog.jooq.org) JAVA, SQL AND JOOQ. Best Practices and Lessons Learned from Writing Awesome Java and SQL Code. Get some hands-on insight on what's behind developing jOOQ.
 
 ## Stored Procedures
 - [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)
