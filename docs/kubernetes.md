@@ -240,7 +240,7 @@
 
 #### Kubernetes Podcasts
 - [kubernetespodcast.com](https://kubernetespodcast.com/)
-- [weave.works: Podcast: Kubernetes has won the enterprise](https://www.weave.works/blog/kubernetes-in-the-enterprise)
+- [==weave.works: Podcast: Kubernetes has won the enterprise==](https://www.weave.works/blog/kubernetes-in-the-enterprise)
 
 #### Kubernetes Blogs
 - [nativecloud.dev](https://nativecloud.dev)
