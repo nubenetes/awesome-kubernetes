@@ -50,6 +50,7 @@
     * GitLab
 
 * [devops.com: Best of 2021 – 7 Popular Open Source CI/CD Tools](https://devops.com/7-popular-open-source-ci-cd-tools/)
+* [lambdatest.com: Jenkins vs Travis vs Bamboo vs TeamCity: Clash Of The Titans](https://www.lambdatest.com/blog/jenkins-vs-travis-vs-bamboo-vs-teamcity)
 
 ## Alternatives
 * [Cloudbees Flow](https://www.cloudbees.com/products/flow/overview)
