@@ -18,6 +18,7 @@
 - [developers.redhat.com: .NET 6 now available for RHEL and OpenShift](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift)
 - [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6)
 - [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/)
+- [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java/)
 
 ## ASP.NET Core
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)

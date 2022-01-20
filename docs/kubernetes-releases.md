@@ -38,3 +38,4 @@
 * [blog.aquasec.com: Kubernetes Version 1.23: What’s New for Security?](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
 * [kubernetes.io: Kubernetes 1.23: The Next Frontier](https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement/)
 * [loft.sh: Kubernetes 1.23 Release](https://loft.sh/blog/kubernetes-1.23-release/)
+* [infoq.com: Kubernetes Proceeding with Deprecation of Dockershim in Upcoming 1.24 Release](https://www.infoq.com/news/2022/01/kubernetes-dockershim-removal/)
