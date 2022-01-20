@@ -433,7 +433,7 @@
 	1. Build w/ UI
 	2. Gen w/ **Terraformer** (local state)
 	3. Fix crazy codegen-ed names
-	4. Import TF, verify Cloud == State == #Terraform 
+	4. Import TF, verify Cloud == State == Terraform 
 	5. rm -rf the manual version
 	6. Recreate from TF
 	7. Test and iterate w/ IaC

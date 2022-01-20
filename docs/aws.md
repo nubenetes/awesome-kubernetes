@@ -285,6 +285,8 @@ You can filter by topic using the toolbar above.
 - [==AWS App2Container: Migrate your Applications to Containers at Scale==](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale/)
 - [dev.to: How Well-Architected Enables Junior Engineers](https://dev.to/aws-builders/how-well-architected-enables-junior-engineers-24j)
 - [==This is My Architecture==](https://aws.amazon.com/architecture/this-is-my-architecture) Innovative cloud architectures from AWS partners and customers. **'This is My Architecture' is a video series that showcases innovative architectural solutions on the AWS Cloud by customers and partners.** Each episode examines the most interesting and technically creative elements of each cloud architecture.
+- [==Creating a Multi-Region Application with AWS Services – Part 1, Compute, Networking, and Security==](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-1-compute-and-security/)
+- [==Creating a Multi-Region Application with AWS Services – Part 2, Data and Replication==](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-2-data-and-replication/)
 
 ## AWS Youtube channel and Podcasts
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
