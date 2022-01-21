@@ -1,5 +1,6 @@
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 - [Introduction](#introduction)
+- [Pets vs Cattle Analogy](#pets-vs-cattle-analogy)
 - [Technical Debt](#technical-debt)
 - [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
 - [Architecture Decision Records](#architecture-decision-records)
@@ -181,6 +182,12 @@
 * [==blog.devgenius.io: Distributed Monolith==](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f)
 * [infoq.com: 9 Ways to Fail at Cloud Native](https://www.infoq.com/presentations/fail-cloud-native-migration/)
 * [arnnet.com.au: Kubernetes adoption up and serverless down, according to developer survey](https://www.arnnet.com.au/article/694082/kubernetes-adoption-up-serverless-down-according-developer-survey/) State of Cloud Native Development report finds the number of developers using Kubernetes increased 67 per cent in 12 months.
+
+## Pets vs Cattle Analogy
+* [==cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly==](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
+  * **In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.**
+  * ==Pets==: **Servers or server pairs that are treated as indispensable or unique systems that can never be down. Typically they are manually built, managed, and “hand fed”. Examples include mainframes, solitary servers, HA loadbalancers/firewalls (active/active or active/passive), database systems designed as master/slave (active/passive), and so on.**
+  * ==Cattle==: **Arrays of more than two servers, that are built using automated tools, and are designed for failure, where no one, two, or even three servers are irreplaceable. Typically, during failure events no human intervention is required as the array exhibits attributes of “routing around failures” by restarting failed servers or replicating data through strategies like triple replication or erasure coding. Examples include web server arrays, multi-master datastores such as Cassandra clusters, multiple racks of gear put together in clusters, and just about anything that is load-balanced and multi-master.**
 * [==traefik.io: Pets vs. Cattle: The Future of Kubernetes in 2022== 🌟](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 
 ## Technical Debt
