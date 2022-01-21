@@ -262,6 +262,7 @@
 
 ### Google Kubernetes Engine GKE
 - [cloud.google.com: Troubleshooting services on Google Kubernetes Engine by example 🌟](https://cloud.google.com/blog/products/operations/troubleshooting-services-on-google-kubernetes-engine)
+- [github.com/MatthewCYLau: React App on Google Kubernetes Engine (GKE) with Terraform](https://github.com/MatthewCYLau/gcp-react-gke-terraform)
 
 ### Environments to learn and practice Kubernetes security
 - [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.

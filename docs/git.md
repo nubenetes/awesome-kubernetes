@@ -466,6 +466,7 @@ git push origin -f
 - [towardsdatascience.com: Can Github Copilot Replace Developers?](https://towardsdatascience.com/can-githubs-copilot-replace-developers-b89f28007c05) Since its release, copilot has become the talk of the town among developers. There are many pros and cons to using it.
 - [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989) Using AI to generate Python scripts for simple neural networks, data visualization and more
 - [dev.to: GitHub Copilot blew my mind on a code-along exercise](https://dev.to/colocodes/github-copilot-blew-my-mind-on-a-code-along-exercise-186n)
+- [medium.com/@eriky: Copilot Is Genuinely Scary And Fascinating At The Same Time](https://medium.com/@eriky/copilot-is-genuinely-scary-and-fascinating-at-the-same-time-63ebcbf80899) It knows more than just programming languages
 
 #### GitHub CoPilot VS GPT-3
 - [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b)

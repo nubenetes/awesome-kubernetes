@@ -3,7 +3,8 @@
 - [Google Search](#google-search)
 - [Bash Shell](#bash-shell)
 - [AWS Cheat Sheets](#aws-cheat-sheets)
-- [Google Cloud Cheat Sheet](#google-cloud-cheat-sheet)
+- [Google Cloud Cheat Sheets](#google-cloud-cheat-sheets)
+- [Azure Cheat Sheets](#azure-cheat-sheets)
 - [API Cheatsheets](#api-cheatsheets)
 - [REST API](#rest-api)
 - [eBooks](#ebooks)
@@ -93,8 +94,11 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet/)
 
-## Google Cloud Cheat Sheet
+## Google Cloud Cheat Sheets
 - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words)
+
+## Azure Cheat Sheets
+- [cloud-architect.fr: AZ-CheatSheet: Become an expert in Azure Landing Zones](https://www.cloud-architect.fr/2022/01/19/az-cheatsheet-become-an-expert-in-azure-landing-zones/) Azure landing zones are the output of a multisubscription Azure environment that accounts for scale, security governance, networking, and identity. Azure landing...
 
 ## API Cheatsheets
 - [freecodecamp.org: API Cheatsheet – What is an API, How it Works, and How to Choose the Right API Testing Tools 🌟](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)

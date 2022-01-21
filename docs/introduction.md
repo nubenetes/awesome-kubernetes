@@ -181,6 +181,7 @@
 * [==blog.devgenius.io: Distributed Monolith==](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f)
 * [infoq.com: 9 Ways to Fail at Cloud Native](https://www.infoq.com/presentations/fail-cloud-native-migration/)
 * [arnnet.com.au: Kubernetes adoption up and serverless down, according to developer survey](https://www.arnnet.com.au/article/694082/kubernetes-adoption-up-serverless-down-according-developer-survey/) State of Cloud Native Development report finds the number of developers using Kubernetes increased 67 per cent in 12 months.
+* [==traefik.io: Pets vs. Cattle: The Future of Kubernetes in 2022== 🌟](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 
 ## Technical Debt
 - [==medium: Technical debt 101==](https://medium.com/@joaomilho/festina-lente-e29070811b84) A primer about technical debt, legacy code, big rewrites and ancient wisdom for non technical managers

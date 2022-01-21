@@ -51,6 +51,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes/)
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
 - [==How to Explain Kubernetes to a Business Team== 🌟](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
+- [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

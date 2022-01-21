@@ -241,6 +241,8 @@ You can filter by topic using the toolbar above.
 - [analyticsindiamag.com: Free Online Resources To Get Started On Cloud Computing](https://analyticsindiamag.com/free-online-resources-to-get-started-on-cloud-computing/)
 - [acloudguru.com: 10 fun hands-on projects to learn AWS](https://acloudguru.com/blog/engineering/10-fun-hands-on-projects-to-learn-aws)
 - [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2/)
+- [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws) There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
+- [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://explore.skillbuilder.aws/learn) Your learning center to build in-demand cloud skills
 
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)

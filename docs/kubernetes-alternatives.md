@@ -57,6 +57,7 @@
 
 ## More Comparisons
 - [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes/)
+- [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.itprotoday.com/hybrid-cloud-and-multicloud/4-alternatives-kubernetes-container-orchestrator) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
 
 ---
 <center>

@@ -21,6 +21,7 @@
 
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
+* [==console.cloud.google.com/products==](https://console.cloud.google.com/products)
 * [cloud.google.com: DevOps](https://cloud.google.com/devops)
 * [Cloud Developer Tools](https://cloud.google.com/products/tools)
 * [Google Cloud Code](https://cloud.google.com/code)

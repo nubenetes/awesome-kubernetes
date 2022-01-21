@@ -900,6 +900,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm/)
 - [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) PostgreSQL Statistics Collector
 - [==blog.crunchydata.com: A Postgres Primer for Oracle DBAs==](https://blog.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas)
+- [==blog.crunchydata.com: Postgres Indexes for Newbies==](https://blog.crunchydata.com/blog/postgres-indexes-for-newbies)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)

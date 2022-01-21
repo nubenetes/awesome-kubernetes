@@ -141,6 +141,7 @@
 - [==dzone: Security Matters: Vulnerability Scanning Done Right!== 🌟](https://dzone.com/articles/security-matters-vulnerability-scanning-done-right-1) Security has become the priority in every company these days. Let's see how vulnerability scanning is done the right way.
 - [==redhat.com: Getting DevSecOps to production and beyond==](https://www.redhat.com/architect/devsecops-enterprise-architecture) Building security into DevOps practices helps safeguard the organization across the software development lifecycle.
 - [opensource.com: 5 open source security resources from 2021](https://opensource.com/article/21/12/open-source-security) This countdown is for the security articles for 2021 you need to read right now.
+- [==redhat.com: Red Hat's approach to DevSecOps==](https://www.redhat.com/en/topics/security/devsecops/approach)
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
