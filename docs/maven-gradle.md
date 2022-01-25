@@ -110,6 +110,7 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 - [Dzone: build a java app with gradle](https://dzone.com/articles/build-a-java-app-with-gradle)
 - [Playing with gradle](https://develosapiens.wordpress.com/2015/05/08/playing-with-gradle/)
 - [baeldung.com: Kotlin DSL for Gradle](https://www.baeldung.com/kotlin/gradle-dsl)
+- [baeldung.com: Convert a Maven Build to Gradle](https://www.baeldung.com/maven-convert-to-gradle)
 
 ### Gradle Cheat Sheets
 - [Gradle Cheat Sheets](cheatsheets.md)

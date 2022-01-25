@@ -58,6 +58,7 @@
 * [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java) Java library for restful API, tech stack choices for building REST API in Java.
 * [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers)
 * [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651)
+* [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html)
 
 ### How to migrate Java workloads to containers
 * [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors
@@ -172,6 +173,7 @@ optimizing Enterprise Java for the microservices architecture.
 * [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/)
 * [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)
 * [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
+* [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)

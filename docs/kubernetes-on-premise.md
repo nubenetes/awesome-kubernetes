@@ -66,6 +66,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [mirantis.com: How to install Kubernetes with Kubeadm: A quick and dirty guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm)
 * [kosyfrances.com: Using kubeadm to create a Kubernetes 1.20 cluster on VirtualBox with Ubuntu](https://kosyfrances.com/kubernetes-cluster/)
 * [blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04/)
+* [medium.com/@ZiXianZeroX: Setting Up an On-premise Kubernetes Cluster from Scratch](https://medium.com/@ZiXianZeroX/setting-up-an-on-premise-kubernetes-cluster-from-scratch-8e3a6b415387)
 
 ## Deploying Kubernetes Cluster with Ansible 
 - [Ansible Role - Kubernetes (Jeff Geerling)](https://github.com/geerlingguy/ansible-role-kubernetes)

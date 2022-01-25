@@ -27,6 +27,7 @@
 - [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5)
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
+- https://suckless.org/philosophy software that sucks less
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)

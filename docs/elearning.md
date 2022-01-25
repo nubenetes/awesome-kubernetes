@@ -33,6 +33,10 @@
 * [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
 * [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science) An introduction to the intellectual enterprises of computer science and the art of programming.
 
+## Spanish E-learning
+- [open-bootcamp.com](http://open-bootcamp.com)
+    - [agenda.open-bootcamp.com](https://agenda.open-bootcamp.com)
+
 ## Opinions
 * [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)
 * [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus/)

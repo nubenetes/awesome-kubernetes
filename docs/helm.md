@@ -81,6 +81,7 @@
 * [hashicorp.com: Deploying Helm Apps to Kubernetes with Waypoint and GitOps](https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops)
 * [medium.com/dailymotion: Deploying apps on multiple Kubernetes clusters with Helm](https://medium.com/dailymotion/deploying-apps-on-multiple-kubernetes-clusters-with-helm-19ee2b06179e) 
 * [gennyallcroft.medium.com: Understanding Kubernetes deployments with Helm](https://gennyallcroft.medium.com/understanding-kubernetes-deployments-with-helm-444116a622be) 
+* [medium.com/codex: Helm Charts For Kubernetes Developers](https://medium.com/codex/helm-charts-for-kubernetes-developers-dce5719d4c8c)
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

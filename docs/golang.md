@@ -45,6 +45,7 @@
 - [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
 - [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0)
 - [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) Examples of Golang compared to Node.js for learning
+- [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/)
 
 ## Design Patterns
 - [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/)
@@ -56,6 +57,7 @@
 ## Kubernetes Client Go
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
+- [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
 
 ## Building container images
 - [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/)
@@ -109,5 +111,9 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">✨ Freshly released: go-test-trace. Allows you to generate distributed trace spans from <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> test cases and can participate into an existing distributed trace. Useful to diagnose CI/CD or to run locally. <a href="https://t.co/ypLt3sg5MW">https://t.co/ypLt3sg5MW</a> <a href="https://t.co/hGfNJUxi81">pic.twitter.com/hGfNJUxi81</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1440368144430759949?ref_src=twsrc%5Etfw">September 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How I write HTTP services in <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> has changed over the years... here&#39;s my current style.<br><br>(Please consider sharing this with somebody you know who&#39;s learning Go.)<br><br>It&#39;s a yarn... 🧶<br><br>1/13</p>&mdash; Mat Ryer (@matryer) <a href="https://twitter.com/matryer/status/1445013230858952705?ref_src=twsrc%5Etfw">October 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working with Kubernetes Objects in Go 🔽<br><br>How data structures from our beloved YAML manifests are represented as Go structs and interfaces.<br><br>(a sneak peek from my work-in-progress article on k8s .io/api and k8s .io/apimachinery modules) <a href="https://t.co/yLTP3riQOb">pic.twitter.com/yLTP3riQOb</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1484913470160228354?ref_src=twsrc%5Etfw">January 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is runtime.Scheme in Kubernetes Go code?<br><br>I&#39;d been confused by this concept for quite some time. Turns out - it&#39;s just a fancy object factory.<br><br>Scheme is a registry maintaining a mapping of Kinds (strings) to Types (structs).<br><br>Schemes are dynamic - new types can be appended. <a href="https://t.co/7o3UYO1HH3">pic.twitter.com/7o3UYO1HH3</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1485704726595477515?ref_src=twsrc%5Etfw">January 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

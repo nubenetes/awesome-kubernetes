@@ -42,6 +42,7 @@
 
 * [cloudsavvyit.com: How to Restart Kubernetes Pods with Kubectl](https://www.cloudsavvyit.com/14587/how-to-restart-kubernetes-pods-with-kubectl/)
 * [technos.medium.com: How kubectl apply command works?](https://technos.medium.com/how-kubectl-apply-command-works-d092121056d3)
+* [containiq.com: Using kubectl exec | Shell Commands & Examples](https://www.containiq.com/post/using-kubectl-exec-shell-commands-examples) kubectl exec lets you start a shell session to containers running in your Kubernetes cluster. It’s a bit like SSH for Kubernetes. Here’s what you need to know to use this command as part of your cluster management procedures, including the cases where it makes the most sense.
 
 ## Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)

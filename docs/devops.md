@@ -219,6 +219,7 @@
   * Its a culture, concept, process and approach that merges software requirement gathering, software development, testing, quality assurance, system configurations, product deployment and operations. Organizations building or improving software products are moving towards a DevOps approach where development, testing, security, quality assurance and operations are getting merged within a large team and those technical resources work side by side to achieve higher return on investment
   * DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 * [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
+* [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/technology-and-apps/why-should-you-adopt-devops-to-deliver-business-value-rapidly)
 
 <center>
 

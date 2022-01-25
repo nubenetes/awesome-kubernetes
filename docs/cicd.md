@@ -128,6 +128,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/)
 * [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
 * [thenewstack.io: CI/CD with kubernetes 🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes/)
+* [harness.io: Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/) With all of the benefits that Kubernetes has, having good CI/CD practices is key. Kubernetes did not magically erase the discipline that your CI/CD journey has taken you on before Kubernetes. Leverage Kubernetes’s strengths to further your CI/CD journey. 
 
 ## CI/CD with OpenShift
 * [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/)

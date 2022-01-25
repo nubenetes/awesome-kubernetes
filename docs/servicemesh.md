@@ -58,6 +58,8 @@
 * [learnsteps.com: What is a service mesh? Is it born with Kubernetes?](https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes/)
 * [==medium: Microservices and the World with a Service Mesh== | Adarsh Prabhu](https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5) We will look at how the unruly world of distributed microservices can be tamed by using a Service Mesh. Service Meshes form the backbone of some of the very complex applications out there. They solve critical issues of the microservices architecture and provide better Traffic Management, Security and Observability. In most cases these features are enabled without requiring any code changes.
 * [digitalanarchist.com:  Service Mesh – Mark Chesire, Red Hat (video)](https://digitalanarchist.com/videos/featured-guests/service-mesh-red-hat) When should you look at using a ServiceMesh and/or APIManagement? Mark Chesire, director of product for application services at Red Hat, explains why IT organizations will need a service mesh to manage APIs.
+* [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh)
+* [==devops.com: How Are API Management and Service Mesh Different?==](https://devops.com/how-are-api-management-and-service-mesh-different/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

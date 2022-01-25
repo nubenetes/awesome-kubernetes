@@ -263,6 +263,7 @@
 ### Google Kubernetes Engine GKE
 - [cloud.google.com: Troubleshooting services on Google Kubernetes Engine by example 🌟](https://cloud.google.com/blog/products/operations/troubleshooting-services-on-google-kubernetes-engine)
 - [github.com/MatthewCYLau: React App on Google Kubernetes Engine (GKE) with Terraform](https://github.com/MatthewCYLau/gcp-react-gke-terraform)
+- [github.com/MatthewCYLau: TypeScript Node Express Google Kubernetes Engine (GKE)](https://github.com/MatthewCYLau/node-express-typescript-k8-gke)
 
 ### Environments to learn and practice Kubernetes security
 - [The Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
@@ -630,6 +631,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
 - [github.com/aws-samples](https://github.com/aws-samples)
 - [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
+- [==aws-samples/aws-network-hub-for-terraform: Network Hub Account with Terraform==](https://github.com/aws-samples/aws-network-hub-for-terraform) This repository demonstrates a scalable, segregated, secured AWS network for multi-account organizations. Using Transit Gateway to separate production, non-production and shared services traffic, it deploys an advanced AWS networking pattern using centralized ingress and egress behind Network Firewall, centralizes private VPC endpoints to share across all VPCs, and manages IP address allocation using Amazon VPC IPAM.
 - [cyberciti.biz: How to create MySQL user and grant permissions in AWS RDS](https://www.cyberciti.biz/faq/how-to-create-mysql-user-and-grant-permissions-in-aws-rds/)
 - [stacksimplify.com: DevOps with AWS CodePipeline on AWS EKS](https://www.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline/)
 - [medium: Fetch Application Inventory using Systems Manager](https://medium.com/cloud-techies/application-inventory-using-system-manager-f3eeb75d3279) Get application inventory from each EC2 instance and store it in centralized account S3 bucket. To query the information from s3 bucket, we are integrating Glue, Athena (from another account).

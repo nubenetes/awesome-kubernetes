@@ -52,6 +52,7 @@
 - [Helm Charts Security. Helm Secrets](#helm-charts-security-helm-secrets)
 - [Password Recovery](#password-recovery)
 - [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
+- [Network Intrusion Tools](#network-intrusion-tools)
 - [Books](#books)
 - [CVEs](#cves)
 	- [Log4j Log4Shell](#log4j-log4shell)
@@ -385,6 +386,7 @@
 	- [==medium: Install Hashicorp Vault on Kubernetes using Helm — Part 2== | Marco Franssen](https://medium.com/@marco.franssen/install-hashicorp-vault-on-kubernetes-using-helm-part-2-d612cf6c0c91)
 - [piotrminkowski.com: Vault on Kubernetes with Spring Cloud](https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud/)
 - [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)
+- [==medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S==](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
@@ -484,6 +486,9 @@
 
 ## Attacks on Kubernetes via Misconfigured Argo Workflows
 - [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://www.intezer.com/blog/container-security/new-attacks-on-kubernetes-via-misconfigured-argo-workflows/)
+
+## Network Intrusion Tools
+- [==cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for Network Intrusion==](https://github.com/cybersecsi/HOUDINI) - https://houdini.secsi.io
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)

@@ -8,6 +8,7 @@
     - [Other OPA based solutions](#other-opa-based-solutions)
 - [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
 - [Kyverno](#kyverno)
+    - [Kyverno E-Learning](#kyverno-e-learning)
 - [Cloud Custodian](#cloud-custodian)
 - [Apolicy](#apolicy)
 - [Azure Policy](#azure-policy)
@@ -105,6 +106,9 @@
 - [==kyverno.io: Restrict Image Registries==](https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/) kyverno
  has a solid set of kubernetes policies and excellent documentation out of the box!
 - [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17)
+
+### Kyverno E-Learning
+- [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://appsecengineer.com/courses/kubernetes-policy-management-with-kyverno/)
 
 ## Cloud Custodian
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.

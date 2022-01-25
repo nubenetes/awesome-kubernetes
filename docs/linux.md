@@ -337,6 +337,7 @@
 - [iximiuz.com: Illustrated introduction to Linux iptables](https://iximiuz.com/en/posts/laymans-iptables-101/)
 - [linuxteck.com: 15 basic useful firewall-cmd commands in Linux](https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux/)
 - [tecmint.com: 20 Netstat Commands for Linux Network Management](https://www.tecmint.com/20-netstat-commands-for-linux-network-management/)
+- [redhat.com: 5 Linux network troubleshooting commands](https://www.redhat.com/sysadmin/five-network-commands) Linux provides many command-line tools to help sysadmins manage, configure, and troubleshoot network settings.
 
 ## Networking Protocols
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)

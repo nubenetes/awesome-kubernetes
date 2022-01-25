@@ -46,6 +46,7 @@
     - [Mergify bot](#mergify-bot)
     - [GitHub bots](#github-bots)
         - [Bors GitHub bot](#bors-github-bot)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
@@ -445,6 +446,11 @@ git push origin -f
 - [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://blog.fleetdm.com/4-tips-for-github-actions-usability-2-debugging-4c0c920adfde)
 - [==freecodecamp.org: How to Build Your First JavaScript GitHub Action==](https://www.freecodecamp.org/news/build-your-first-javascript-github-action/)
 - [dev.to: Make your first contribution to a GitHub Action!](https://dev.to/github/how-to-edit-a-github-action-3j14)
+- [blog.ediri.io: Auto Docs, Test And Release A Helm Chart With GitHub Actions](https://blog.ediri.io/auto-docs-test-and-release-a-helm-chart-with-github-actions)
+- [blog.shreyaspatil.dev: Automate library publishing to Maven Central with GitHub Actions Workflow Dispatch](https://blog.shreyaspatil.dev/automate-library-publishing-to-maven-central-with-github-actions-workflow-dispatch)
+- [laravel-news.com: Deploy your PHP Codebase with Ansible and GitHub Actions](https://laravel-news.com/deploy-your-php-app-with-ansible-and-github-actions)
+- [infoq.com: How GitHub Does DevOps for its iOS and Android Apps](https://www.infoq.com/news/2022/01/GitHub-devops-mobile-apps/)
+- [blog.gskinner.com: Flutter: Easily add CI testing with GitHub Actions](https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html)
 
 #### GitHub Actions Marketplace
 - [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 
@@ -588,6 +594,12 @@ Automate them.
 * [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
 
 ---
+
+## Videos
+??? note "Click to expand!"
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HlmZLXMOpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 <details>

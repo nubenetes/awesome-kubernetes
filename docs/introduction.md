@@ -9,7 +9,7 @@
 - [SaaS](#saas)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
-	- [Automation Glossary](#automation-glossary)
+  - [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
 - [Microservices Anti Patterns](#microservices-anti-patterns)
@@ -182,6 +182,7 @@
 * [==blog.devgenius.io: Distributed Monolith==](https://blog.devgenius.io/distributed-monolith-1d2d9f86a68f)
 * [infoq.com: 9 Ways to Fail at Cloud Native](https://www.infoq.com/presentations/fail-cloud-native-migration/)
 * [arnnet.com.au: Kubernetes adoption up and serverless down, according to developer survey](https://www.arnnet.com.au/article/694082/kubernetes-adoption-up-serverless-down-according-developer-survey/) State of Cloud Native Development report finds the number of developers using Kubernetes increased 67 per cent in 12 months.
+* [==levelup.gitconnected.com: How to design a system to scale to your first 100 million users==](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)
 
 ## Pets vs Cattle Analogy
 * [==cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly==](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
@@ -258,6 +259,7 @@
     - What are your logging and monitoring requirements?
     - What is your current backup strategy?
 - [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration/)
+- [==acloudguru.com: 3 ways to practice migrating workloads to the cloud==](https://acloudguru.com/blog/engineering/3-ways-to-practice-migrating-workloads-to-the-cloud) Rehosting, Replatforming & Refactoring. 
 ## Microservices Failures
 - [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
 

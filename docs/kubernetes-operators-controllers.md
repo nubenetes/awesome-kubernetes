@@ -72,6 +72,8 @@
 - [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator) Kubernetes operator for Victoria Metrics
 - [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator)
 - [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)
+- [==dzone.com: What Is a Kubernetes Operator?==](https://dzone.com/articles/what-is-a-kubernetes-operator) A Kubernetes Operator fills in the gaps between the capabilities and automation provided by Kubernetes and how your software uses Kubernetes for task automation.
+- [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html)
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.

@@ -35,6 +35,7 @@
 - https://en.wikipedia.org/wiki/Great_Resignation 
 - [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation)
 - [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)
+- [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)

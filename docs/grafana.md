@@ -30,6 +30,7 @@
 * [grafana.com: Top 5 user-requested synthetic monitoring alerts in Grafana Cloud](https://grafana.com/blog/2022/01/11/top-5-user-requested-synthetic-monitoring-alerts-in-grafana-cloud/)
 * [==grafana.com: A beginner's guide to network monitoring with Grafana and Prometheus==](https://grafana.com/blog/2022/01/19/a-beginners-guide-to-network-monitoring-with-grafana-and-prometheus/)
     * https://github.com/prometheus/snmp_exporter/tree/main/snmp-mixin
+* [==grafana.com: A 3-step guide to troubleshooting and visualizing Kubernetes with Grafana Cloud==](https://grafana.com/blog/2021/11/19/a-3-step-guide-to-troubleshooting-and-visualizing-kubernetes-with-grafana-cloud/)
 
 ## Grafana Agent
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
@@ -63,3 +64,4 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana Loki
 - [Grafana Loki](https://grafana.com/oss/loki/)
 - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. In this article, you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
+- [medium.com/devopsturkiye: Deploy Grafana Loki and Promtail using ArgoCD](https://medium.com/devopsturkiye/deploy-grafana-loki-and-promtail-using-argocd-416b2fd4539f)

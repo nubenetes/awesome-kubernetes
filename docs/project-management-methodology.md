@@ -143,6 +143,8 @@
 	[![burnout](images/burnout.jfif)](https://puppet.com/resources/report/2015-state-devops-report)
 
 	[![promotion driven development](images/promotions_at_big_tech.jfif)](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
+
+	![culturas toxicas](images/culturas_toxicas_lavanguardia.jfif)
 	</center> 
 
 ## Videos

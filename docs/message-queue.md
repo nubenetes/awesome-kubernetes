@@ -292,6 +292,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI](https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar) Visualize your Apache Kafka Streams using the Quarkus Dev UI
 - [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
 - [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
+- [datadoghq.com: Monitoring Kafka performance metrics](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)

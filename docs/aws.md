@@ -30,6 +30,7 @@
 - [AWS New Features](#aws-new-features)
 - [AWS Management Console](#aws-management-console)
 - [AWS Management Tools Blog](#aws-management-tools-blog)
+- [AWS Metrics](#aws-metrics)
 - [AWS Cloudwatch](#aws-cloudwatch)
 - [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
 - [AWS RDS Databases](#aws-rds-databases)
@@ -243,6 +244,7 @@ You can filter by topic using the toolbar above.
 - [portal.tutorialsdojo.com: AWS Digital Courses (free)](https://portal.tutorialsdojo.com/product-category/aws/aws-digital-courses-2/)
 - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws) There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
 - [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://explore.skillbuilder.aws/learn) Your learning center to build in-demand cloud skills
+- [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion/)
 
 ## AWS Certification
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
@@ -405,11 +407,16 @@ You can filter by topic using the toolbar above.
 - [AWS Management Tools Blog](https://aws.amazon.com/blogs/mt/)
 - [Metabadger](https://github.com/salesforce/metabadger) Prevent SSRF attacks on AWS EC2 via automated upgrades to the more secure Instance Metadata Service v2 (IMDSv2).
 
+## AWS Metrics
+- [logz.io: What are AWS EC2 Instances? A Tutorial for EC2 Metrics Shipping with Logz.io](https://logz.io/blog/aws-ec2-metrics/)
+- [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide/)
+
 ## AWS Cloudwatch
 - [threatstack.com: 50 Best AWS CloudWatch Tutorials](https://www.threatstack.com/blog/50-best-aws-cloudwatch-tutorials)
 - [Amazon CloudWatch now monitors Prometheus metrics from Container environments](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments/)
 - [Amazon CloudWatch Dashboards now supports sharing](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-dashboards-supports-sharing/)
 - [How BT uses Amazon CloudWatch to monitor millions of devices](https://aws.amazon.com/blogs/mt/how-bt-uses-amazon-cloudwatch-to-monitor-millions-of-devices/)
+- [Extending and exploring alarm history in Amazon CloudWatch – part 2](https://aws.amazon.com/blogs/mt/extending-and-exploring-alarm-history-in-amazon-cloudwatch-part-2/)
 
 ## AWS Schema Conversion Tool
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)

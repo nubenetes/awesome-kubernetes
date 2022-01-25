@@ -55,6 +55,7 @@
 - [dzone: API Throttling Strategies When Clients Exceed Their Limit](https://dzone.com/articles/api-throttling-strategies) Here's how to handle clients exceeding API rate limits, as well as a few alternate strategies to explore and implement.
 - [abdulrwahab.medium.com: API Architecture — Design Best Practices for REST APIs](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f)
 - [blog.bitsrc.io: API vs Microservices — Are you using 2 terms for the same concept?](https://blog.bitsrc.io/api-vs-microservices-are-you-using-2-terms-for-the-same-concept-b51f13f5974e) No, you’re not, but let me explain
+- [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f)
 
 ## Python FastAPI
 - [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi/)

@@ -110,6 +110,9 @@
 * [aninditabasak.medium.com: A Lap around Kubernetes Security & Vulnerability scanning Tools — checkov, kube-hunter, kube-bench & Starboard](https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1)
 * [==blog.gitguardian.com: Hardening Your Kubernetes Cluster - Threat Model (Pt. 1)== 🌟](https://blog.gitguardian.com/hardening-your-k8-pt-1/) The NSA and CISA recently released a guide on Kubernetes hardening. We'll cover this guide in a three part series. First, let's explore the Threat Model and how it maps to K8s components.
     * [==blog.gitguardian.com: Hardening Your Kubernetes Cluster - Guidelines (Pt. 2)== 🌟](https://blog.gitguardian.com/hardening-your-k8s-pt-2/) In this second episode, we will go through the NSA/CISA security recommendations and explain every piece of the guidelines.
+* [blog.devgenius.io: How is security managed in Kubernetes clusters?](https://blog.devgenius.io/how-is-security-managed-in-kubernetes-clusters-addefffd2b0) Best practices for managing security in Kubernetes at various layers
+* [blog.gitguardian.com: Kubernetes Hardening Tutorial Part 1: Pods](https://blog.gitguardian.com/kubernetes-tutorial-part-1-pods/) Get a deeper understanding of Kubernetes Pods security with this first tutorial.
+    * [blog.gitguardian.com: Kubernetes Hardening Tutorial Part 2: Network](https://blog.gitguardian.com/kubernetes-tutorial-part-2-network/) How to achieve Control Plane security, true resource separation with network policies, and use Kubernetes Secrets more securely.
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
@@ -147,6 +150,7 @@
 - [medium: Kubernetes Secrets Explained](https://medium.com/codex/kubernetes-secrets-explained-f45baf8cefa7)
 - [medium: Managing your sensitive information during GitOps process with Secret Sealed](https://medium.com/@jerome_tarte/managing-your-sensitive-information-during-gitops-process-with-secret-sealed-27498c77e2b8)
 - [==enlear.academy: Sealed Secrets with Kubernetes==](https://enlear.academy/sealed-secrets-with-kubernetes-a3f4d13dbc17) Usage of the sealed secret to encrypt Kubernetes secrets.
+- [medium.com/codex: Sealed Secrets for Kubernetes](https://medium.com/codex/sealed-secrets-for-kubernetes-722d643eb658) How to encrypt Kubernetes Secret component and store it on the Git. And decrypt it using Kubernetes controller.
 
 ## Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
 * [Kubernetes Certs](https://github.com/jetstack/cert-manager/)
@@ -155,6 +159,7 @@
 * [rejupillai.com: Let’s Encrypt the Web (for free)](https://www.rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt/)
 * [betterprogramming.pub: Kubernetes and SSL Certificate Management 🌟](https://betterprogramming.pub/kubernetes-and-ssl-certificate-management-5f6a4b6f5ae9) Manage SSL certificate orders in K8s with Helm and Let’s Encrypt.
 * [getbetterdevops.io: How to Secure K8S Nginx Ingress With Let’s Encrypt and Cert Manager](https://getbetterdevops.io/k8s-ingress-with-letsencrypt/) Automate the provisioning of Let's Encrypt certificates for ingress resources
+* [faun.pub: Automate Certificate Management In Kubernetes Using Cert-Manager](https://faun.pub/automate-certificate-management-in-kubernetes-using-cert-manager-d0745e5c7757)
 
 ## RBAC
 * [Configure RBAC in Kubernetes Like a Boss 🌟](https://medium.com/trendyol-tech/configure-rbac-in-kubernetes-like-a-boss-665e2a8665dd) Learn how to configure RBAC in kubernetes. In this post, you will configure RBAC both with kubectl and yaml definitions.
