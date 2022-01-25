@@ -274,6 +274,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 ### Rocket Chat
 - [Deploying Rocket.Chat on OpenShift](https://rocket.chat/docs/installation/paas-deployments/openshift/)
+- [opensource.com: Why choose Rocket.Chat for your open source chat tool](https://opensource.com/article/22/1/rocketchat-data-privacy)
 
 ## IBM Cloud Paks and OpenShift
 * [cloudpak8s.io](https://cloudpak8s.io/) 
