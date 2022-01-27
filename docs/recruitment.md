@@ -53,6 +53,7 @@
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
+	- [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
 - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com/)
 
 ## Recruitment Portals in Spain
