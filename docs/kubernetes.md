@@ -504,6 +504,7 @@
 * [medium.com/codex: How to Deploy WordPress On Kubernetes — Part 2](https://medium.com/codex/how-to-deploy-wordpress-on-kubernetes-part-2-df1cc9cbaa2e) Learn how to deploy the WordPress on Kubernetes and connect with MySQL Pod.
 * [freecodecamp.org: Learn Kubernetes and Start Containerizing Your Applications](https://www.freecodecamp.org/news/learn-kubernetes-and-start-containerizing-your-applications/)
 * [==komodor.com: Kubernetes Nodes – The Complete Guide==](https://komodor.com/learn/kubernetes-nodes-complete-guide/)
+* [medium.com/techbeatly: Chain of events behind a running Pod](https://medium.com/techbeatly/chain-of-events-behind-a-running-pod-149ebaafbfbc) What exactly happens behind the scenes when you create a pod/deployment?
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
