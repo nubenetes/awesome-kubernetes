@@ -225,6 +225,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC4FHiPgS1KXkUMx3dxBUtPg) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)  
 </center>
 
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
 <!--
 [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
 -->
