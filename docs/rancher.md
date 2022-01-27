@@ -100,6 +100,7 @@
 * [nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud](https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud/) Using Gardener Machine-Controller-Manager and Tailscale to extend a local Raspberry-Pi K3s cluster with cloud instances.
 * [blog.nootch.net: Kubernetes at Home With K3s](https://blog.nootch.net/post/kubernetes-at-home-with-k3s/)
 * Try out the  Kubernetes 1.23 with K3s distro: `curl -sfL https://get.k3s.io |INSTALL_K3S_VERSION="v1.23.1-rc1+k3s1" sh -` You can try on ubuntu katakoda playground in your browser :)
+* [==medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference==](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)
 
 ### K3s Tools
 - [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments 

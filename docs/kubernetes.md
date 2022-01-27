@@ -20,6 +20,7 @@
         - [Kubernetes vs Docker](#kubernetes-vs-docker)
         - [Kubernetes vs Docker Swarm](#kubernetes-vs-docker-swarm)
     - [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
+    - [Kubernetes Mutating Webhooks](#kubernetes-mutating-webhooks)
     - [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
     - [Kubernetes Resources](#kubernetes-resources)
         - [Kubernetes Pods](#kubernetes-pods)
@@ -529,6 +530,16 @@
 * [loft.sh: Kubernetes Admission Controllers: What They Are and Why They Matter](https://loft.sh/blog/kubernetes-admission-controllers-what-they-are-and-why-they-matter)
 * [kubernetes.io: Using Admission Controllers to Detect Container Drift at Runtime](https://kubernetes.io/blog/2021/12/21/admission-controllers-for-container-drift/)
 * [slack.engineering: A Simple Kubernetes Admission Webhook](https://slack.engineering/simple-kubernetes-webhook/)
+
+### Kubernetes Mutating Webhooks
+- [medium.com/@pflooky: Intro to Kubernetes Mutating Webhooks (get more out of Kubernetes)](https://medium.com/@pflooky/intro-to-kubernetes-mutating-webhooks-even-if-you-dont-know-kubernetes-172c30232488) 
+    - In its simplest terms, a **MutatingWebhookConfiguration** defines a webhook application to alter a Kubernetes resource when a particular action is taken on it. For example, if I wanted to add particular labels to all the pods that are created, it could be done by a mutating webhook which watches for all CREATE POD events and adds the labels to that pod before it gets deployed.
+    - **Why:** As the development teams put larger workloads into Kubernetes, managing all of the resources becomes quite difficult as there may be different deployment patterns and life cycles. Mutating webhooks give you the ability to target changes to any Kubernetes resource regardless of their deployment mechanisms and alter them before or after any point within the life cycle.
+    - Some use cases where it could be used include:
+        - Metadata management: include useful metadata about team, environment or type of workload to each Kubernetes resource
+        - Attaching sidecar processes: add a log listener to particular pods
+        - Secret management: apply consistent secret retrieval across all resources
+        - Deployment configuration: could add environment variables or configmaps on the fly to pods
 
 ### Kubernetes Cloud Controller Manager
 * [medium: The Kubernetes Cloud Controller Manager](https://medium.com/@m.json/the-kubernetes-cloud-controller-manager-d440af0d2be5)
@@ -1223,6 +1234,8 @@
         - [Mock Test - 2, CKAD Prep Exam (Solution)](https://www.youtube.com/watch?v=BiY3b7F96wc&ab_channel=TheFrontOpsGuy)
         - https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552
 
+- [kodekloud.com: CKA vs CKAD vs CKS – What is the Difference](https://kodekloud.com/cka-vs-ckad-vs-cks-what-is-the-difference/)
+
 ## Books and eBooks
 - [developers.redhat.com: Kubernetes Operators](https://developers.redhat.com/books/kubernetes-operators)
 - [Kubernetes 101](https://leanpub.com/kubernetes-101)
@@ -1304,6 +1317,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9wvEwPLcLcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NrytqS43dgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7skInj_vqN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

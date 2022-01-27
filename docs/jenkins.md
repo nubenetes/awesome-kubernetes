@@ -53,6 +53,7 @@
 - [Jenkins X (Serverless)](#jenkins-x-serverless)
 - [Jenkins and SAP](#jenkins-and-sap)
 - [Jenkins Free Templates for AWS CloudFormation](#jenkins-free-templates-for-aws-cloudformation)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Jenkins
@@ -144,6 +145,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [==lambdatest.com: What Is Jenkins Used For?== 🌟](https://www.lambdatest.com/blog/what-is-jenkins/)
 * [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins/) 
 * [==developers.redhat.com: A developer's guide to CI/CD and GitOps with Jenkins Pipelines==](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines)
+* [==inder-devops.medium.com: CI/CD setup in just 5 mins with basic yaml configuration==](https://inder-devops.medium.com/ci-cd-setup-in-just-5-mins-with-basic-yaml-configuration-95b8e894a110)
 
 ## Interview Questions 
 * [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
@@ -667,6 +669,12 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 <center>
 [![jenkins hub CD](images/jenkins-hub.png)](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
 </center>
+
+## Videos
+??? note "Click to expand!"
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zI7_8M2KtRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 <details>

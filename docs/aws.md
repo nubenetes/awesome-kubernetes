@@ -399,6 +399,7 @@ You can filter by topic using the toolbar above.
 - [AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
 - [Migrate AWS Landing Zone solution to AWS Control Tower](https://aws.amazon.com/blogs/mt/migrate-aws-landing-zone-solution-to-aws-control-tower/) **AWS Control Tower creates your landing zone using AWS Organizations, thereby bringing together ongoing account management and governance, as well as implementation of best practices based on our experience of working with thousands of customers as they migrate to the cloud.**
 - [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby/)
+- [Announcing Amazon Elastic File System Replication](https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-replication/) Amazon EFS Replication provides you with an easy way to keep an up-to-date copy of your file system in a second AWS Region or within the same Region.
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)

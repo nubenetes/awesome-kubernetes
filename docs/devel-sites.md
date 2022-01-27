@@ -28,6 +28,7 @@
 - [==infoworld.com: Complexity is killing software developers==](https://www.infoworld.com/article/3639050/complexity-is-killing-software-developers.html) The growing complexity of modern software systems is slowly killing software developers. How can you regain control, without losing out on the best these technologies have to offer?
 - [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 - https://suckless.org/philosophy software that sucks less
+- [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)

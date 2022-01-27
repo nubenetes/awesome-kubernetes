@@ -16,6 +16,7 @@
     - [JFrog](#jfrog)
         - [JFrog DevOps Platform](#jfrog-devops-platform)
     - [Semaphore](#semaphore)
+    - [Devtron](#devtron)
 - [Cloud Native CI/CD](#cloud-native-cicd)
     - [Jenkins X](#jenkins-x)
     - [Spinnaker](#spinnaker)
@@ -58,6 +59,7 @@
 * [Prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 * [Agola](https://agola.io/)
 * [harness.io](https://harness.io/)
+    * [harness.io: AutoStopping Rules For Kubernetes Clusters](https://harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
 * [Drone](https://drone.io/)
     * [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 * [Buildbot](https://buildbot.net/)
@@ -158,6 +160,10 @@
 ### Semaphore
 - [Semaphore](https://semaphoreci.com/) Hosted CI/CD for teams that don’t like bottlenecks
 - [semaphoreci.com: Revving up Continuous Integration with Parallel Testing](https://semaphoreci.com/blog/revving-up-continuous-integration-with-parallel-testing) Is your CI/CD pipeline slow? Do wait times make you feel unproductive? Parallel testing is an indispensable technique for reducing wait times. And mastering it is key to getting the most out of CI/CD.
+
+### Devtron
+- https://devtron.ai
+- [devtron-labs/devtron](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go. Web based CI/CD Platform for Kubernetes.
 
 ## Cloud Native CI/CD
 ### Jenkins X

@@ -1,5 +1,6 @@
 # Docker
 - [Introduction and Tutorials](#introduction-and-tutorials)
+- [Docker CLI](#docker-cli)
 - [Docker Swarm](#docker-swarm)
 - [Awesome Lists](#awesome-lists)
 - [Docker VS Kubernetes](#docker-vs-kubernetes)
@@ -123,6 +124,9 @@
 * [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/)
 * [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
 * [iximiuz.com: Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
+
+## Docker CLI
+* [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
 
 ## Docker Swarm
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)

@@ -60,6 +60,8 @@
 * [digitalanarchist.com:  Service Mesh – Mark Chesire, Red Hat (video)](https://digitalanarchist.com/videos/featured-guests/service-mesh-red-hat) When should you look at using a ServiceMesh and/or APIManagement? Mark Chesire, director of product for application services at Red Hat, explains why IT organizations will need a service mesh to manage APIs.
 * [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh)
 * [==devops.com: How Are API Management and Service Mesh Different?==](https://devops.com/how-are-api-management-and-service-mesh-different/)
+* [devops.com: When to Use API Management and Service Mesh Together](https://devops.com/when-to-use-api-management-and-service-mesh-together/)
+* [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

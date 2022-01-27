@@ -2,6 +2,7 @@
 - [Introduction](#introduction)
 - [Newman](#newman)
 - [KIE Server and Drools](#kie-server-and-drools)
+- [Alternatives. Rest Assured](#alternatives-rest-assured)
 
 ## Introduction
 - [getpostman.com](https://www.getpostman.com/)
@@ -33,3 +34,6 @@
 - [Automated API testing for the KIE Server 🌟](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/)
 - [KIE Server](https://registry.hub.docker.com/r/jboss/kie-server/)
 
+## Alternatives. Rest Assured
+- https://rest-assured.io 
+- [automationqahub.com: Latest Rest Assured Interview Questions](https://automationqahub.com/latest-rest-assured-interview-questions/)

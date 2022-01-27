@@ -226,6 +226,7 @@
     * Config Management across clouds
 * [cloud.google.com: Announcing Spot Pods for GKE Autopilot—save on fault tolerant workloads](https://cloud.google.com/blog/products/containers-kubernetes/announcing-spot-pods-for-gke-autopilot)
 * [acloudguru.com: GKE ludicrous speed! GKE Image Streaming speeds up container starts](https://acloudguru.com/blog/engineering/gke-ludicrous-speed-gke-image-streaming-speeds-up-container-starts)
+* [cloud.google.com: How to do multi-cluster Kubernetes in the real world—one GKE shop’s approach](https://cloud.google.com/blog/products/containers-kubernetes/multi-cluster-kubernetes-with-gke-at-geotab)
 
 ## IKS IBM Cloud Kubernetes Service
 - [IKS](https://www.ibm.com/cloud/kubernetes-service)

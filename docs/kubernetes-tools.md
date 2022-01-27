@@ -216,7 +216,7 @@
 * [kubeshell](https://github.com/roubles/kubeshell) is a command line tool to interactively shell in to (and out of) kubernetes pods.
 * [k8s-harness 🌟](https://github.com/carlosonunez/k8s-harness) lets you create a disposable Kubernetes cluster with **vagrant and Ansible to test your app in a prod-like environment**.
 * [Secret backup operator](https://github.com/geritol/secret-backup-operator) is an operator designed to backup secrets on a Kubernetes cluster. Backup happens when secrets are modified.
-* [Devtron 🌟](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go.
+* [Devtron 🌟](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go. Web based CI/CD Platform for Kubernetes.
 * [DevNation: 10 awesome kubernetes tools every user should know](https://bit.ly/kube-tools-1)
     * [developers.redhat.com: 10 awesome Kubernetes tools every user should know | DevNation Tech Talk (video)](https://developers.redhat.com/devnation/tech-talks/10-kubernetes-tools)
 * [HyScale 🌟](https://github.com/hyscale/hyscale) takes a declarative definition of your service config and it generates Dockerfile, Container Image, Kubernetes Manifests (YAMLs) and deploys to any Kubernetes Cluster
@@ -438,6 +438,10 @@
 * [4ARMED/kubeletmein](https://github.com/4ARMED/kubeletmein) Security testing tool for Kubernetes, abusing kubelet credentials on public cloud providers. This is a simple penetration testing tool which takes advantage of public cloud provider approaches to providing kubelet credentials to nodes in a Kubernetes cluster in order to gain privileged access to the k8s API. This access can then potentially be used to further compromise the applications running in the cluster or, in many cases, access secrets that facilitate complete control of Kubernetes.
 * [patrickdappollonio/kubectl-slice](https://github.com/patrickdappollonio/kubectl-slice) Split multiple Kubernetes files into smaller files with ease. Split multi-YAML files into individual files.
 * [appvia/cosign-keyless-admission-webhook](https://github.com/appvia/cosign-keyless-admission-webhook) Kubernetes admission webhook that uses cosign verify to check the subject and issuer of the image matches what you expect
+* [theketchio/ketch 🌟](https://github.com/theketchio/ketch) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
+* [joyrex2001/kubedock](https://github.com/joyrex2001/kubedock) Kubedock is a minimal implementation of the docker api that will orchestrate containers on a Kubernetes cluster, rather than running containers locally.
+* [corneliusweig/konfig](https://github.com/corneliusweig/konfig) konfig helps to merge, split or import kubeconfig files
+* [armosec/regolibrary](https://github.com/armosec/regolibrary) ARMO rego library for detecting miss-configurations in Kubernetes manifests
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -462,6 +466,7 @@
 - [devopscube.com: How To Build Docker Image In Kubernetes Pod 🌟](https://devopscube.com/build-docker-image-kubernetes-pod/)
 - [learnsteps.com: Kaniko and how you can build images on Kubernetes using kaniko?](https://www.learnsteps.com/kaniko-and-how-you-can-build-images-on-kubernetes-using-kaniko/)
 - [kubesandclouds.com: Kaniko: Building images without Docker](https://kubesandclouds.com/index.php/2021/11/04/kaniko/)
+- [blog.rewanthtammana.com: Hardening Kaniko build process with Linux capabilities](https://blog.rewanthtammana.com/hardening-kaniko-build-process-with-linux-capabilities) Build images inside Kubernetes/containers? Wide privileges in default configuration? How to secure Kaniko? Can we take things a notch higher?
 
 ## Shipwright Framework for Building Container Images on Kubernetes
 - [shipwright.io](https://shipwright.io/)

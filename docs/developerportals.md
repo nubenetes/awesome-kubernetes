@@ -59,6 +59,7 @@
 ## API Managers with API Gateways & Developer Portals 
 - [moesif.com: How to choose the right API Gateway for your platform: Comparison of Kong, Tyk, Apigee, and alternatives](https://www.moesif.com/blog/technical/api-gateways/How-to-Choose-The-Right-API-Gateway-For-Your-Platform-Comparison-Of-Kong-Tyk-Apigee-And-Alternatives/)
 - [towardsdatascience.com: Building Small Services, Deploying on Kubernetes, and Integrating with API Gateway](https://towardsdatascience.com/building-small-services-deploying-on-kubernetes-and-integrating-with-api-gateway-4909db4e5282) Abstracting Backend API Authentication with Python & Redis
+- [eng.uber.com: The Architecture of Uber’s API gateway](https://eng.uber.com/architecture-api-gateway/)
 
 ### API Management vs API Gateway vs Developer Portals
 - **An API gateway** refers to the individual proxy server.

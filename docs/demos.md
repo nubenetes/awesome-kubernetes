@@ -50,6 +50,7 @@
     - [Jenkins Configuration as Code on Kubernetes](#jenkins-configuration-as-code-on-kubernetes)
     - [From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs](#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs)
     - [Jenkins and GitHub](#jenkins-and-github)
+    - [Jenkins and AWS Kubernetes](#jenkins-and-aws-kubernetes)
     - [SDKMAN](#sdkman)
     - [Jenkins Scripts](#jenkins-scripts)
     - [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
@@ -523,6 +524,9 @@
 ### Jenkins and GitHub
 - [towardsdatascience.com: Create your first CI/CD pipeline with Jenkins and GitHub](https://towardsdatascience.com/create-your-first-ci-cd-pipeline-with-jenkins-and-github-6aefe21c9240) A guide to create and deploy a freestyle Jenkins project
 
+### Jenkins and AWS Kubernetes
+- [==youtube: How to set up AWS Kubernetes Jenkins pipeline==](https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory) Java Spring boot, terraform, helm chart, pipeline, destroy RDS.
+
 ### SDKMAN 
 * [SdkMan](https://sdkman.io/) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Formerly known as **GVM** the **Groovy enVironment Manager**, it was inspired by the very useful [RVM](https://rvm.io/) and [rbenv](https://github.com/sstephenson/rbenv) tools, used at large by the Ruby community.
 * [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks/)
@@ -640,6 +644,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [itnext.io: Hydrating a Data Lake using Log-based Change Data Capture (CDC) with Debezium, Apicurio, and Kafka Connect on AWS](https://itnext.io/hydrating-a-data-lake-using-log-based-change-data-capture-cdc-with-debezium-apicurio-and-kafka-799671e0012f) Import data from Amazon RDS into Amazon S3 using Amazon MSK, Apache Kafka Connect, Debezium, Apicurio Registry, and Amazon EKS
 - [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service/)
 - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour) Get your microservices where they need to be.
+- [==AdminTurnedDevOps/DevOps-The-Hard-Way-AWS==](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) **This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS**
 
 ## Azure Samples
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
@@ -733,6 +738,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [==judebantony.github.io: DevSecOps with GitHub Action and SaaS Tools==](https://judebantony.github.io/cicd-github-action-example/) CICD Using GitHub Action and Harness
 - [codeproject.com: Making a Simple Data Pipeline Part 4: CI/CD with GitHub Actions](https://www.codeproject.com/Articles/5320647/Making-a-Simple-Data-Pipeline-Part-4-CI-CD-with-Gi)
 - [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
+- [freecodecamp.org: How to Setup a CI/CD Pipeline with GitHub Actions and AWS](https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws/)
 
 ### RedHat GitHub Actions
 - [redhat-actions/spring-petclinic](https://github.com/redhat-actions/spring-petclinic)

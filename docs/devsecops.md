@@ -53,6 +53,8 @@
 - [Password Recovery](#password-recovery)
 - [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
 - [Network Intrusion Tools](#network-intrusion-tools)
+- [Other Security Tools](#other-security-tools)
+	- [Torq. No code Security Automation](#torq-no-code-security-automation)
 - [Books](#books)
 - [CVEs](#cves)
 	- [Log4j Log4Shell](#log4j-log4shell)
@@ -489,6 +491,11 @@
 
 ## Network Intrusion Tools
 - [==cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for Network Intrusion==](https://github.com/cybersecsi/HOUDINI) - https://houdini.secsi.io
+
+## Other Security Tools
+### Torq. No code Security Automation
+- https://torq.io No-code Security Automation
+- [sentinelone.com: Reducing Human Effort in Cybersecurity | Why We Are Investing in Torq’s Automation Platform](https://www.sentinelone.com/blog/reducing-human-effort-in-cybersecurity-why-we-are-investing-in-torqs-automation-platform/)
 
 ## Books
 - [Microservices Security in Action](https://medium.facilelogin.com/microservices-security-in-action-933072043ad7)

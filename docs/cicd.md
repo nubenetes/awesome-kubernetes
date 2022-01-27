@@ -147,6 +147,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 ## Tools
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
 - [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)
+- [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) CI/CD is an integral part of any successful DevOps team. This list includes the finest CI/CD tools currently available in the market.
 
 ## Awesome Lists
 * [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd)

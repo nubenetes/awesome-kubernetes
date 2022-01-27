@@ -101,6 +101,7 @@
 - [medium: MVP vs MDP = Viability vs Delight. What You Really Need?](https://medium.com/swlh/mvp-vs-mdp-viability-vs-delight-what-you-really-need-296b42df005d)
 - [joelcalifa.com: Tiny Wins](https://joelcalifa.com/blog/tiny-wins/) The big benefits of little changes.
 - [gammaux.com: Cómo definir un Minimum Viable Product (MVP)](https://www.gammaux.com/blog/como-definir-un-minimum-viable-product-mvp/)
+- [dev.to: Construyendo un MVP sin base de datos](https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k)
 
 ## Other Development Methodologies. Worst practices in Project Management
 - [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
