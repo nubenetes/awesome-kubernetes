@@ -53,8 +53,7 @@
 </br>
 
 ## Rancher Desktop
-* [==rancherdesktop.io==](https://rancherdesktop.io)
-    * [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) Kubernetes and container management to the desktop. Rancher Desktop is an open-source project to bring Kubernetes and container management to the desktop. Windows and macOS versions of Rancher Desktop are available for download.
+* [==rancherdesktop.io==](https://rancherdesktop.io) Kubernetes and container management to the desktop. Rancher Desktop is an open-source project to bring Kubernetes and container management to the desktop.
 * [suse.com: Rancher Desktop 1.0.0 Has Arrived](https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived/)
 
 ## Rancher Academy (online training)
