@@ -318,6 +318,7 @@
 - [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter)
 - [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75) Bored of traditional CLIs? Develop interactive command lines with PyInquirer
 - [Pydeps 🌟](https://github.com/thebjorn/pydeps) Python Module Dependency graphs
+- [joke2k/faker 🌟](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 
 ### Web Scraping with Python
 - [Scrapy](http://scrapy.org/) An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.

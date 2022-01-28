@@ -717,6 +717,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [acloudguru.com: How to audit and secure an AWS account](https://acloudguru.com/blog/engineering/how-to-audit-and-secure-an-aws-account)
 - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
 - [try.jupiterone.com: The Absolute Minimum Every Developer Must Know about AWS Security](https://try.jupiterone.com/the-absolute-minimum-every-developer-must-know-about-aws-security)
+- [==How to automate AWS account creation with SSO user assignment==](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment/)
 
 ### Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)

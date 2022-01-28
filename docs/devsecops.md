@@ -59,6 +59,7 @@
 - [CVEs](#cves)
 	- [Log4j Log4Shell](#log4j-log4shell)
 - [Powershell](#powershell)
+- [Nmap scripts](#nmap-scripts)
 - [Let's Encrypt SSL certificates](#lets-encrypt-ssl-certificates)
 - [More Security Tools](#more-security-tools)
 
@@ -531,6 +532,10 @@
 
 ## Powershell
 - [it.slashdot.org: And the Top Source of Critical Security Threats Is...PowerShell](https://it.slashdot.org/story/21/05/22/041242/and-the-top-source-of-critical-security-threats-ispowershell) Microsoft's CLI management tool was the source of more than a third of critical security threats detected by Cisco in the second half of 2020, according to eSecurity Planet.
+
+## Nmap scripts
+- [therecord.media: UK government plans to release Nmap scripts for finding vulnerabilities](https://therecord.media/uk-government-plans-to-release-nmap-scripts-for-finding-vulnerabilities/)
+	- [ncsc.gov.uk: Introducing Scanning Made Easy](https://www.ncsc.gov.uk/blog-post/introducing-scanning-made-easy) Trial project makes vulnerability scanning easier.
 
 ## Let's Encrypt SSL certificates
 - [techrepublic.com: How to create Let's Encrypt SSL certificates with acme.sh on Linux](https://www.techrepublic.com/article/how-to-create-lets-encrypt-ssl-certificates-with-acme-sh-on-linux/)

@@ -26,6 +26,7 @@
 - [boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟](https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files/)
 - [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet) YAML looks simple so why is it so hard to write? Learn the two secrets to YAML success.
 - [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
+- [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml/)
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)

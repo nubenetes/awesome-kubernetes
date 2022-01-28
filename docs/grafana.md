@@ -31,6 +31,7 @@
 * [==grafana.com: A beginner's guide to network monitoring with Grafana and Prometheus==](https://grafana.com/blog/2022/01/19/a-beginners-guide-to-network-monitoring-with-grafana-and-prometheus/)
     * https://github.com/prometheus/snmp_exporter/tree/main/snmp-mixin
 * [==grafana.com: A 3-step guide to troubleshooting and visualizing Kubernetes with Grafana Cloud==](https://grafana.com/blog/2021/11/19/a-3-step-guide-to-troubleshooting-and-visualizing-kubernetes-with-grafana-cloud/)
+* [grafana.com: Video: How to build a Prometheus query in Grafana](https://grafana.com/blog/2022/01/27/video-how-to-build-a-prometheus-query-in-grafana/)
 
 ## Grafana Agent
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
