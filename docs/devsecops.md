@@ -146,6 +146,8 @@
 - [==redhat.com: Getting DevSecOps to production and beyond==](https://www.redhat.com/architect/devsecops-enterprise-architecture) Building security into DevOps practices helps safeguard the organization across the software development lifecycle.
 - [opensource.com: 5 open source security resources from 2021](https://opensource.com/article/21/12/open-source-security) This countdown is for the security articles for 2021 you need to read right now.
 - [==redhat.com: Red Hat's approach to DevSecOps==](https://www.redhat.com/en/topics/security/devsecops/approach)
+- [thenewstack.io: Open Source Democratized Software. Now Let’s Democratize Security](https://thenewstack.io/open-source-democratized-software-now-lets-democratize-security/)
+- [==goteleport.com: Why DevSecOps is Going Passwordless==](https://goteleport.com/blog/devsecops-passwordless)
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 

@@ -84,10 +84,11 @@
         - Use log auditing so that administrators can monitor activity and be alerted to potential malicious activity.
         - Periodically review all Kubernetes settings and use vulnerability scans to help ensure risks are appropriately accounted for and security patches are applied.
     * [cloud.redhat.com: OpenShift and the NSA-CISA ‘Kubernetes Hardening Guidance’](https://cloud.redhat.com/blog/openshift-and-the-nsa-cisa-kubernetes-hardening-guidance) Red Hat OpenShift is the quickest path to meeting the NSA’s Kubernetes hardening guidance
-    * [Kubescape 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
+    * [==Kubescape== 🌟](https://github.com/armosec/kubescape) **kubescape is the first tool for testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by to NSA and CISA.** Tests are configured with YAML files, making this tool easy to update as test specifications evolve.
         * [infoq.com: Armo Releases Kubescape K8s Security Testing Tool: Q&A with VP Jonathan Kaftzan](https://www.infoq.com/news/2021/09/kubescape/)
     * [infoq.com](https://www.infoq.com/news/2021/09/kubernetes-hardening-guidance/) NSA and CISA Publish Kubernetes Hardening Guidance
     * [csoonline.com: Kubernetes hardening: Drilling down on the NSA/CISA guidance](https://www.csoonline.com/article/3629049/kubernetes-hardening-drilling-down-on-the-nsa-cisa-guidance.html) The new guidance gives a solid foundation for hardening Kubernetes container environments. These are its key components and why they are important.
+    * [armosec.io: Kubescape - As “left” as it can get – find Kubernetes security issues while coding, not after](https://www.armosec.io/blog/find-kubernetes-security-issues-while-coding/)
 * [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://cloud.redhat.com/blog/top-open-source-kubernetes-security-tools-of-2021)
 * [==cncf.io: How to secure your Kubernetes control plane and node components==](https://www.cncf.io/blog/2021/08/20/how-to-secure-your-kubernetes-control-plane-and-node-components/)
 * [redhat.com: State of Kubernetes Security Report - Spring 2021 (PDF) 🌟](https://www.redhat.com/rhdc/managed-files/cl-state-kubernetes-security-report-ebook-f29117-202106-en.pdf)
@@ -113,6 +114,7 @@
 * [blog.devgenius.io: How is security managed in Kubernetes clusters?](https://blog.devgenius.io/how-is-security-managed-in-kubernetes-clusters-addefffd2b0) Best practices for managing security in Kubernetes at various layers
 * [blog.gitguardian.com: Kubernetes Hardening Tutorial Part 1: Pods](https://blog.gitguardian.com/kubernetes-tutorial-part-1-pods/) Get a deeper understanding of Kubernetes Pods security with this first tutorial.
     * [blog.gitguardian.com: Kubernetes Hardening Tutorial Part 2: Network](https://blog.gitguardian.com/kubernetes-tutorial-part-2-network/) How to achieve Control Plane security, true resource separation with network policies, and use Kubernetes Secrets more securely.
+* [infoworld.com: 10 steps to automating security in Kubernetes pipelines](https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html) DevOps teams don’t need to sacrifice the speed of containerized development if they know what can be automated, why it’s important, and how to do it
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
@@ -170,6 +172,7 @@
     * For recipes, tips and tricks around RBAC see [recipes.rbac.dev 🌟](https://recipes.rbac.dev/)
 * [github.com/clvx/k8s-rbac-model: Kubernetes RBAC Model](https://github.com/clvx/k8s-rbac-model) This is a implementation of a RBAC model for a multi project multi tenant Kubernetes cluster.
 * [loft.sh: Kubernetes RBAC: Basics and Advanced Patterns](https://loft.sh/blog/kubernetes-rbac-basics-and-advanced-patterns/)
+* [==marcusnoble.co.uk: Restricting cluster-admin Permissions==](https://marcusnoble.co.uk/2022-01-20-restricting-cluster-admin-permissions/)
 
 ## Admission Control 
 - [blog.styra.com: Why RBAC is not enough for kubernetes security 🌟🌟](https://blog.styra.com/blog/why-rbac-is-not-enough-for-kubernetes-api-security)

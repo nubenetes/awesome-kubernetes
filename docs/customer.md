@@ -1,9 +1,10 @@
 # Customer Success Stories
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-	- [BMW InnovationLab](#bmw-innovationlab)
-	- [GAIA-X](#gaia-x)
-- [Audi Kubika-O](#audi-kubika-o)
+  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+  - [BMW InnovationLab](#bmw-innovationlab)
+  - [GAIA-X](#gaia-x)
+- [Audi](#audi)
+- [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
 - [Decathlon](#decathlon)
 - [Deutsche Telekom](#deutsche-telekom)
@@ -43,8 +44,11 @@
 ### GAIA-X 
 - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bmwi.de/Redaktion/EN/Dossier/gaia-x.html)
 
-## Audi Kubika-O
+## Audi 
 - [redhat.com: Audi builds developer environment with Red Hat OpenShift](https://www.redhat.com/en/resources/audi-case-study) Audi decided to use Red Hat OpenShift, an enterprise Kubernetes platform, as the foundation of **Kubika-O**, its new self-service developer environment, to speed and scale delivery of innovative projects. 
+
+## Volkswagen 
+- [redhat.com: The Volkswagen Group builds automated testing environment](https://www.redhat.com/en/success-stories/the-volkswagen-group)
 
 ## Carrefour Spain
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
@@ -62,8 +66,13 @@
 <details>
   <summary>Click to expand!</summary>
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?start=5340" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allowfullscreen></iframe>
-</center>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?start=5340" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UWNHjFFykj8" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iMVqsirda_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/shDoeks_crI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/oKnZvNF3FB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/98kIAzye8gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </center>
+
 </details>

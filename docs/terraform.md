@@ -32,8 +32,10 @@
 		- [Terraform in Azure DevOps](#terraform-in-azure-devops)
 		- [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
 	- [Terraform and OCI](#terraform-and-oci)
+	- [Terraform Provider for Elastic Cloud](#terraform-provider-for-elastic-cloud)
 	- [Terraform Vault Provider](#terraform-vault-provider)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
+	- [Terraform and JMeter](#terraform-and-jmeter)
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
 - [Graph Visualization Software](#graph-visualization-software)
@@ -178,6 +180,7 @@
 * [medium: Terraform in Real Life: Lessons Learned 🌟](https://medium.com/version-1/terraform-in-real-life-lessons-learned-2469e3fe74e6)
 * [medium.com/@ranjana-jha: Infrastructure as a code best practices : Terraform](https://medium.com/@ranjana-jha/infrastructure-as-a-code-best-practices-terraform-d7ae4291d621)
 * [serhii.vasylenko.info: Some Techniques to Enhance Your Terraform Proficiency](https://serhii.vasylenko.info/2022/01/16/some-techniques-to-enhance-your-terraform-proficiency/) Learn what cool things Terraform can do with its built-in functionality
+* [thenewstack.io: Better Together: Hyper-Converged Kubernetes with Terraform](https://thenewstack.io/better-together-hyper-converged-kubernetes-with-terraform/)
 
 ### Terraform Cloud
 * [learn.hashicorp.com: Manage Private Environments with Terraform Cloud Agents](https://learn.hashicorp.com/tutorials/terraform/cloud-agents)
@@ -390,11 +393,18 @@
 
 ==}
 
+### Terraform Provider for Elastic Cloud
+- https://github.com/elastic/terraform-provider-ec
+- [infoq.com: Elastic Releases Terraform Providers for the Elastic Stack and Elastic Cloud](https://www.infoq.com/news/2022/01/elastic-terraform/)
+
 ### Terraform Vault Provider
 - [learn.hashicorp.com: Codify Management of Vault Enterprise Using Terraform](https://learn.hashicorp.com/tutorials/vault/codify-mgmt-enterprise)
 
 ### Terraform and Apache Kafka
 - [medium: From AWS CloudFormation to Terraform: Migrating Apache Kafka](https://medium.com/riskified-technology/from-aws-cloudformation-to-terraform-migrating-apache-kafka-32bdabdbaa59)
+
+### Terraform and JMeter
+- [qainsights.com: Deploy JMeter on AWS using Terraform](https://qainsights.com/deploy-jmeter-on-aws-using-terraform/)
 
 ### Terraform Video Tutorials
 - [youtube: Terraform Tutorial for beginners | AWS Infrastructure as Code | Github Actions 🌟](https://www.youtube.com/playlist?list=PLlvAxgO7JdIXAzHx887zl-4no4X-CtiFu)

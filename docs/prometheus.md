@@ -126,6 +126,8 @@ Thanos Metrics with prometheus in Kubernetes environments.
 * [==infracloud.io: Prometheus Definitive Guide Part I - Metrics and Use Cases==](https://www.infracloud.io/blogs/prometheus-architecture-metrics-use-cases/)
     * [==infracloud.io: Prometheus Query Language - Prometheus Definitive Guide Part II==](https://www.infracloud.io/blogs/promql-prometheus-guide/)
     * [==infracloud.io: Prometheus Definitive Guide Part III - Prometheus Operator==](https://www.infracloud.io/blogs/prometheus-operator-helm-guide/)
+* [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc) Starting your journey in observability by gathering metrics with Prometheus
+    * [jonbc.medium.com: Hacking your way to Observability — Part 2 : Alerts](https://jonbc.medium.com/hacking-your-way-to-observability-part-2-c38baaee6b92) Taking advantage of metrics by sending notifications via Slack
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

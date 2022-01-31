@@ -70,6 +70,7 @@
 - [IBM JDK](https://developer.ibm.com/javasdk/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 - [AdoptOpenJDk](https://adoptopenjdk.net/) (based on [Eclipse OpenJ9](https://www.eclipse.org/openj9/))
+- [docs.microsoft.com: Microsoft OpenJDK](https://docs.microsoft.com/en-us/java/openjdk/overview)
 
 #### Which Version of JDK Should I Use?
 - http://whichjdk.com 🌟

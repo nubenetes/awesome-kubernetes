@@ -96,6 +96,7 @@
 - [Dzone: REST API tutorials](https://dzone.com/articles/rest-api-tutorials)
 - [dev.to: Make your own API under 30 lines of code 🌟](https://dev.to/shreyazz/make-your-own-api-under-30-lines-of-code-4doh)
 - [dzone: REST API Versioning Strategies](https://dzone.com/articles/rest-api-versioning-strategies-1) Today microservices are a hot trend for developing cloud-native applications. API versioning helps to iterate faster when the needed changes are identified.
+- [freecodecamp.org: What is REST? Rest API Definition for Beginners](https://www.freecodecamp.org/news/what-is-rest-rest-api-definition-for-beginners/)
 
 #### OpenAPI Specification (originally known as the Swagger Specification)
 - [OpenAPI](https://www.openapis.org/) evolved from the [Swagger](https://swagger.io/) project. Swagger started out as a specification for documenting RESTful APIs. Later on, tools to generate client and server code and generating of test cases were added. While the original Swagger Specification was donated to the Linux Foundation and renamed the OpenAPI, Swagger remains one of the most widely used open-source toolsets for developing OpenAPIs.

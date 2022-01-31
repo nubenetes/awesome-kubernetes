@@ -195,6 +195,8 @@
 	- `55 * * * * docker image prune --all -f --filter "until=4h"`
 	- `59 * * * * docker volume prune -f`
 
+- [linuxhandbook.com: Docker Commands for Managing Container Lifecycle (Definitive Guide)](https://linuxhandbook.com/container-lifecycle-docker-commands/)
+
 ### Docker Swarm Cheat Sheets
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
 	- [docker-swarm-cheatsheet-sematext.pdf](https://cdn2.hubspot.net/hubfs/5111483/docker-swarm-cheatsheet-sematext.pdf)

@@ -106,6 +106,11 @@
 - [==kyverno.io: Restrict Image Registries==](https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries/) kyverno
  has a solid set of kubernetes policies and excellent documentation out of the box!
 - [dev.to: Using Kyverno Policies for Kubernetes Governance](https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17)
+- [kyverno.io: Implementing your best practices is simple with kyverno](https://kyverno.io/policies/best-practices/require_probes/require_probes/) 
+    1. Startup Probe
+    2. Liveness Probe
+    3. Readiness Probe
+    4. Graceful shutdown - be able to handle a sigterm in kubernetes
 
 ### Kyverno E-Learning
 - [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://appsecengineer.com/courses/kubernetes-policy-management-with-kyverno/)

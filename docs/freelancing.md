@@ -26,6 +26,7 @@
 - [diariocordoba.com: «Ser autónomo en España sigue siendo una profesión de riesgo»](https://www.diariocordoba.com/cordoba-ciudad/2021/12/26/autonomo-espana-sigue-profesion-riesgo-61023753.html)
 - [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a)
 - [marinaaisa.com: Trabajar en remoto desde España como 'contractor'](https://marinaaisa.com/es/blog/contractor-eeuu-espana/) Una opción alternativa para impulsarte a una carrera internacional sin tener que mudarte fuera de España pudiendo trabajar en remoto.
+- [billin.net: Cómo ser freelance en España en 2022](https://www.billin.net/blog/como-ser-freelance/)
 
 ### Advisory. Asesorías
 - [Acento: Cooperativa de freelance](https://acentocoop.es) 

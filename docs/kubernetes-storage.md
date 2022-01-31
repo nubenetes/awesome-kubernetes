@@ -18,6 +18,7 @@
     - [Kadalu](#kadalu)
     - [IOMesh](#iomesh)
     - [MinIO](#minio)
+    - [NetApp Data Store](#netapp-data-store)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -141,6 +142,9 @@
 - [min.io](https://min.io) Multi-Cloud Object Storage. MinIO offers high-performance, S3 compatible object storage. Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the
 edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [blog.min.io: Best Practices for Kubernetes Object Storage](https://blog.min.io/best-practices-for-kubernetes-object-storage/)
+
+### NetApp Data Store
+- [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)
 
 ## OpenShift Container Storage Operator (OCS)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)

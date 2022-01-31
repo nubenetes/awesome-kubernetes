@@ -54,6 +54,9 @@
 - [Kusk](#kusk)
 - [Azure AD Workload Identity](#azure-ad-workload-identity)
 - [Kubernate](#kubernate)
+- [Tackle](#tackle)
+- [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
+- [Azure AAD Pod Identity](#azure-aad-pod-identity)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -442,6 +445,7 @@
 * [joyrex2001/kubedock](https://github.com/joyrex2001/kubedock) Kubedock is a minimal implementation of the docker api that will orchestrate containers on a Kubernetes cluster, rather than running containers locally.
 * [corneliusweig/konfig](https://github.com/corneliusweig/konfig) konfig helps to merge, split or import kubeconfig files
 * [armosec/regolibrary](https://github.com/armosec/regolibrary) ARMO rego library for detecting miss-configurations in Kubernetes manifests
+* [groundnuty/k8s-wait-for 🌟](https://github.com/groundnuty/k8s-wait-for) A simple script that allows to wait for a k8s service, job or pods to enter a desired state
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -649,6 +653,16 @@
 ## Kubernate
 - https://kubernate.dev 
 - [laurci/kubernate](https://github.com/laurci/kubernate) Kubernetes+Generate = Kubernate. Kubernate is a Kubernetes YAML generator that can be used as an alternative to other popular tools like Helm. Kubernate is distributed as a library and as a CLI, both working together to achieve one goal: Kubernetes as Code.
+
+## Tackle
+- https://www.konveyor.io/tackle
+- [redhat.com: How to streamline application portfolio modernization with Tackle](https://www.redhat.com/architect/tackle-application-modernization) Tackle is an open source tool that helps organizations migrate and modernize their application portfolio to leverage Kubernetes without risk of vendor lock-in.
+
+## Azure Placement Policy Scheduler Plugins
+- [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) Most of cloud environments today provides cluster admins with ephemeral nodes (VMs). These nodes typically cost significantly less but they offer less reliability than their regular counterpart. Cluster admins are often torn between the choice of cost and reliability because of the innate inability of the default Kubernetes scheduler to place some of a specific workload pods on these nodes. Having the entire workload on ephemeral nodes risks the reliability of the workload when the cloud environment stops these nodes. This scheduler enables cluster admins to offload some configurable percentage of their workloads on these nodes enabling them to decrease the cost of running these pods without affecting its reliability.
+
+## Azure AAD Pod Identity
+- [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) Assign Azure Active Directory Identities to Kubernetes applications.
 
 ## Tweets
 <details>

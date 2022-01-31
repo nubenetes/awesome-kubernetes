@@ -13,6 +13,7 @@
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
 - [Microservices Anti Patterns](#microservices-anti-patterns)
+- [Microservices Interview Questions](#microservices-interview-questions)
 - [Backends for Frontends](#backends-for-frontends)
 - [Cloud Migration Checklist](#cloud-migration-checklist)
 - [Microservices Failures](#microservices-failures)
@@ -183,6 +184,8 @@
 * [infoq.com: 9 Ways to Fail at Cloud Native](https://www.infoq.com/presentations/fail-cloud-native-migration/)
 * [arnnet.com.au: Kubernetes adoption up and serverless down, according to developer survey](https://www.arnnet.com.au/article/694082/kubernetes-adoption-up-serverless-down-according-developer-survey/) State of Cloud Native Development report finds the number of developers using Kubernetes increased 67 per cent in 12 months.
 * [==levelup.gitconnected.com: How to design a system to scale to your first 100 million users==](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)
+* [devops.com: Measuring Technical Debt](https://devops.com/measuring-technical-debt/)
+* [thenewstack.io: App Modernization: 5 Tips When Migrating to Kubernetes](https://thenewstack.io/app-modernization-5-tips-when-migrating-to-kubernetes/)
 
 ## Pets vs Cattle Analogy
 * [==cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly==](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
@@ -239,6 +242,9 @@
 
 ## Microservices Anti Patterns
 - [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns/)
+
+## Microservices Interview Questions
+- [java67.com: Top 15 Microservices Interview Questions with Answers for 3 to 5 Years Experienced](https://www.java67.com/2021/02/microservices-interview-questions-answers-java-spring.html)
 
 ## Backends for Frontends
 - [developers.soundcloud.com: Service Architecture at SoundCloud — Part 1: Backends for Frontends](https://developers.soundcloud.com/blog/service-architecture-1)
