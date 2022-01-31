@@ -62,6 +62,7 @@
 - [Nmap scripts](#nmap-scripts)
 - [Let's Encrypt SSL certificates](#lets-encrypt-ssl-certificates)
 - [More Security Tools](#more-security-tools)
+- [Videos](#videos)
 
 ## Introduction
 - [fiercesw.com: DevOps vs DevSecOps](https://fiercesw.com/devsecops-starter)
@@ -548,3 +549,10 @@
 - [bridgecrew](https://bridgecrew.io) The codified cloud security platform for developers. Complete security and compliance visibility streamlined into developer-friendly workflows.
 	- [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)
 - [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
+
+## Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/nrhxNNH5lt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
