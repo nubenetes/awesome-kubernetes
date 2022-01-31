@@ -1,8 +1,8 @@
 # Customer Success Stories
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-  - [BMW InnovationLab](#bmw-innovationlab)
-  - [GAIA-X](#gaia-x)
+	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+	- [BMW InnovationLab](#bmw-innovationlab)
+	- [GAIA-X](#gaia-x)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
