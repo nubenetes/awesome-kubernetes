@@ -17,6 +17,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [CNCF Reports](https://www.cncf.io/reports/)
         - [CNCF Survey Report 2019](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
         - [CNCF Survey Report 2020](https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf)
+        - [CNCF Survey Report 2021](https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf) - [CNCF Publishes State of Cloud Native Development Report](https://www.infoq.com/news/2022/01/cncf-state-of-cloud-native/) 
 - [State of DevOps Reports](https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&page=1&configure%5BhitsPerPage%5D=18)
     - [2020 State of DevOps Report](https://puppet.com/resources/report/2020-state-of-devops-report)
     - [2020 DevOps Salary Report](https://puppet.com/resources/report/2020-devops-salary-report)
@@ -53,7 +54,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==How to Explain Kubernetes to a Business Team== 🌟](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 - [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 - [dok.community: Data on Kubernetes 2021](https://dok.community/wp-content/uploads/2021/10/DoK_Report_2021.pdf) 
-- [CNCF Publishes State of Cloud Native Development Report](https://www.infoq.com/news/2022/01/cncf-state-of-cloud-native/) - [==The State of Cloud Native Development==](https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
