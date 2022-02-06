@@ -50,6 +50,7 @@
 	- [Kubestack Terraform GitOps Framework](#kubestack-terraform-gitops-framework)
 	- [Gruntwork Terragrunt](#gruntwork-terragrunt)
 	- [Terraspace](#terraspace)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## HashiCorp Learning Resources Reference Guide
@@ -474,6 +475,13 @@
 - [gruntwork-io/terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) A repo used to show examples file/folder structures you can use with Terragrunt and Terraform
 ### Terraspace
 - [Terraspace.cloud](https://terraspace.cloud/) Terraspace is a Terraform Framework that optimizes for infrastructure-as-code happiness. It provides an organized structure, conventions over configurations, keeps your code DRY, and adds convenient tooling. Terraspace makes working with Terraform easier and more fun.
+
+## Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/l5k1ai_GBDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 <details>

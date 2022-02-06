@@ -32,6 +32,7 @@
 - [Oracle Database with Ansible](#oracle-database-with-ansible)
 - [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
 - [Anacron and Ansible](#anacron-and-ansible)
+- [Videos](#videos)
 
 ## Configuration Management with Ansible DevOps Tool
 * [ansible.com](https://www.ansible.com/)
@@ -295,3 +296,9 @@
 - [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation) With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.
 - [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation) Instead of manually performing repetitive tasks, let Linux do them for you.
 
+## Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/lhFvMsy6VX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
