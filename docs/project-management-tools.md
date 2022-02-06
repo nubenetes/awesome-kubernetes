@@ -4,10 +4,6 @@
 - [Productivity Tips with .new TLD to quickly create](#productivity-tips-with-new-tld-to-quickly-create)
 - [Tweets](#tweets)
 
-<center>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604265532&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tlotfy99" title="Abou Seif 🧿" target="_blank" style="color: #cccccc; text-decoration: none;">Abou Seif 🧿</a> · <a href="https://soundcloud.com/tlotfy99/no-man-no-cry-jimmy-sax" title="no man no cry - jimmy sax" target="_blank" style="color: #cccccc; text-decoration: none;">no man no cry - jimmy sax</a></div>
-</center>
-
 ## Products and Tools
 - [Jira](https://www.atlassian.com/software/jira)
     - [Transition Jira issues on merge](https://bitbucket.org/blog/transition-jira-issues-on-merge) Check out the latest 
