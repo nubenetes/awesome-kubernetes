@@ -75,6 +75,7 @@
 - [==dzone.com: What Is a Kubernetes Operator?==](https://dzone.com/articles/what-is-a-kubernetes-operator) A Kubernetes Operator fills in the gaps between the capabilities and automation provided by Kubernetes and how your software uses Kubernetes for task automation.
 - [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html)
 - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) Kubegres is a Kubernetes operator allowing to deploy one or many **clusters of PostgreSql instances and manage databases replication, failover and backup.**
+- [==Capsule Operator==](https://github.com/clastix/capsule) is a Kubernetes multi-tenant Operator. It aggregates multiple namespaces in a Tenant. Within each tenant, users are free to create their namespaces and share all the assigned resources between the namespaces of the tenant.
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.

@@ -149,6 +149,10 @@
 - [==redhat.com: Red Hat's approach to DevSecOps==](https://www.redhat.com/en/topics/security/devsecops/approach)
 - [thenewstack.io: Open Source Democratized Software. Now Let’s Democratize Security](https://thenewstack.io/open-source-democratized-software-now-lets-democratize-security/)
 - [==goteleport.com: Why DevSecOps is Going Passwordless==](https://goteleport.com/blog/devsecops-passwordless)
+- [==infosecwriteups.com: How I Discovered Thousands of Open Databases on AWS==](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32) My journey on finding and reporting databases with sensitive data about Fortune-500 companies, Hospitals, Crypto platforms, Startups during due diligence, and more.
+- [thenewstack.io: Want Real Cybersecurity Progress? Redefine the Security Team](https://thenewstack.io/want-real-cybersecurity-progress-redefine-the-security-team/)
+- [devops.com: Taking a DevSecOps Approach to API Security](https://devops.com/why-traditional-approaches-to-api-security-dont-work/)
+- [devops.com: Continuous Security: The Next Evolution of CI/CD](https://devops.com/continuous-security-the-next-evolution-of-ci-cd/)
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -285,6 +289,7 @@
 - [infracloud.io: How to Secure Containers with Cosign and Distroless Images](https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images/)
 - [appvia.io: Tutorial: Keyless Sign and Verify Your Container Images With Cosign](https://www.appvia.io/blog/tutorial-keyless-sign-and-verify-your-container-images)
 - [==github.blog: Safeguard your containers with new container signing capability in GitHub Actions (cosign)==](https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/)
+- [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) Proof of concept that uses cosign and GitHub's in built OIDC for actions to sign container images, providing a proof that what is in the registry came from your GitHub action.
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
@@ -338,6 +343,8 @@
 - [==thorsten-hans.com: Encrypt your Kubernetes Secrets with Mozilla SOPS==](https://www.thorsten-hans.com/encrypt-your-kubernetes-secrets-with-mozilla-sops) By default, Kubernetes Secrets (secrets) are stored with base64 encoding in YAML files. The lack of encryption for secrets often leads to the question of how to store secrets securely. Obviously, you don’t want to put your sensitive configuration data into a git repository, because it is just encoded. echo <base64_representation> | base64 -d.
 	- **A typical solution is using services like Azure Key Vault, or HashiCorp Vault to persist sensitive data. Those services can be integrated with Kubernetes by using the Secrets Store CIS driver. However, relying on an additional service means that you have to manage and maintain that service in addition to Kubernetes. Additionally, depending on the service you use to store your sensitive data, some sensitive configuration must be stored somewhere to configure the CIS driver.**
 	- As an alternative, you can use Mozilla SOPS (SOPS) to encrypt and decrypt your Kubernetes secret files. **Secrets that are encrypted via SOPS can be stored in source control.** Encrypted secrets will be decrypted locally just before they’ll be deployed to Kubernetes. This article demonstrates how to encrypt and decrypt Kubernetes secrets (YAML files) using SOPS in combination with Azure Key Vault, which allows you to store your secrets along with other Kubernetes manifests directly in git.
+
+- [developers.redhat.com: Protect secrets in Git with the clean/smudge filter](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter)
 
 ### AWS Secret Manager
 - [medium: AWS Secret Manager: Protect sensitive information and functionality 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4) Protect Your Secrets in ApplicationsSecrets are frequently used to protect sensitive information and functionality.

@@ -60,6 +60,7 @@
 * [Agola](https://agola.io/)
 * [harness.io](https://harness.io/)
     * [harness.io: AutoStopping Rules For Kubernetes Clusters](https://harness.io/blog/autostopping-rules-kubernetes/) Harness Intelligent Cloud AutoStopping Rules help manage your resources automatically to make sure that they run only when used, never when idle.
+    * [harness.io: Migrating CD Jenkins Pipelines To Harness Using Helm](https://harness.io/blog/cd-jenkins-pipelines-harness/)
 * [Drone](https://drone.io/)
     * [medium: Goodbye Jenkins: How Drone Simplifies CI/CD for Engineering Teams Everywhere](https://medium.com/@boomimagestudio-techblog/goodbye-jenkins-how-drone-simplifies-ci-cd-for-engineering-teams-everywhere-73a7db435a86)
 * [Buildbot](https://buildbot.net/)

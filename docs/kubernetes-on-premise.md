@@ -162,6 +162,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 * [wecloudpro.com: VMware Tanzu Community Edition 🌟](https://www.wecloudpro.com/2021/11/13/Tanzu-Community-Edition.html)
 * [vmware-tanzu/octant](https://github.com/vmware-tanzu/octant) Highly extensible platform for developers to better understand the complexity of Kubernetes clusters. Octant is a tool for developers to understand how applications run on a Kubernetes cluster. It aims to be part of the developer's toolkit for gaining insight and approaching complexity found in Kubernetes. Octant offers a combination of introspective tooling, cluster navigation, and object management along with a plugin system to further extend its capabilities.
 * [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption/) The platform, introduced in 2019, is designed to help customers quickly build and deploy software on any public cloud or on-premises Kubernetes cluster.
+* [cabai.pro: Instalando Tanzu Community Edition (TCE)](https://cabai.pro/vmware/kubernetes/instalando-tanzu-community-edition/)
 
 #### KubeAcademy Pro (free training)
 * [tanzu.vmware.com: Introducing KubeAcademy Pro: In-Depth Kubernetes Training, Totally Free](https://tanzu.vmware.com/content/blog/introducing-kubeacademy-pro-in-depth-kubernetes-training-totally-free)

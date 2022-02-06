@@ -187,6 +187,7 @@
 - [blog.alluxi.com: 8 habilidades que necesitas para ser un gran programador Python](https://blog.alluxi.com/8-habilidades-que-necesitas-para-ser-un-gran-programador-python/)
 - [javarevisited.blogspot.com: Java vs Python - Which Programming Language beginners should learn in 2022?](https://javarevisited.blogspot.com/2018/06/java-vs-python-which-programming-language-to-learn-first.html#axzz7HHxvcHIY)
 - [freecodecamp.org: Python Dictionary – How to Perform CRUD Operations on dicts in Python](https://www.freecodecamp.org/news/everything-you-need-to-know-about-python-dictionaries/)
+- [==freecodecamp.org: Python Requests – How to Interact with Web Services using Python==](https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

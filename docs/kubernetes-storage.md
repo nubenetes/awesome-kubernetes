@@ -19,6 +19,7 @@
     - [IOMesh](#iomesh)
     - [MinIO](#minio)
     - [NetApp Data Store](#netapp-data-store)
+    - [Stork Storage Operator](#stork-storage-operator)
 - [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -111,6 +112,8 @@
 - [MayaData](https://mayadata.io/) Founder of OpenEBS
 - [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371/)
 - [OpenEBS Features and Benefits](https://docs.openebs.io/docs/next/features.html) OpenEBS is cloudnative storage for stateful applications on K8s where "cloud native" means following a loosely coupled architecture. As such the normal benefits to cloud native, loosely coupled architectures apply. 
+- [openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent Volumes](https://github.com/openebs/dynamic-localpv-provisioner) Dynamic Local Volumes for Kubernetes Stateful workloads.
+- [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using LVM.
 
 ### LightOS
 - [LightOS](https://www.lightbitslabs.com/product/)
@@ -145,6 +148,9 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 ### NetApp Data Store
 - [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)
+
+### Stork Storage Operator
+- [libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes](https://github.com/libopenstorage/stork) Stork - Storage Orchestration Runtime for Kubernetes
 
 ## OpenShift Container Storage Operator (OCS)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)

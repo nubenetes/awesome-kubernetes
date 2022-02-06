@@ -47,8 +47,9 @@
 - [AWS OpsWorks](#aws-opsworks)
 - [AWS Networking](#aws-networking)
 - [AWS Route 53](#aws-route-53)
-- [AWS Elastic Load Balancing](#aws-elastic-load-balancing)
+- [AWS Elastic Load Balancing (ELB)](#aws-elastic-load-balancing-elb)
 - [AWS Application Load Balancer (ALB)](#aws-application-load-balancer-alb)
+- [Gateway Load Balancer (GWLB)](#gateway-load-balancer-gwlb)
 - [NGINX](#nginx)
 - [AWS Latency](#aws-latency)
 - [Amazon ECS optimized AMI](#amazon-ecs-optimized-ami)
@@ -87,7 +88,7 @@
 - [AWS Transfer](#aws-transfer)
 - [AWS Fargate](#aws-fargate)
 	- [Admiralty](#admiralty)
-- [AWS Backup and Recovery. Design for failure](#aws-backup-and-recovery-design-for-failure)
+- [AWS Backup and Recovery. Design for failure. Disaster Recovery](#aws-backup-and-recovery-design-for-failure-disaster-recovery)
 	- [AWS Backup Service](#aws-backup-service)
 - [AWS Config Rules](#aws-config-rules)
 - [AWS Big Data](#aws-big-data)
@@ -212,6 +213,8 @@ You can filter by topic using the toolbar above.
 - [Implementing Microservices on AWS 🌟](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
 - [intellipaat.com: What is AWS?](https://intellipaat.com/blog/what-is-amazon-web-services-aws/)
 - [tech.twenix.com: Securiza tu infraestructura cloud sin arruinarte](https://tech.twenix.com/securiza-tu-infraestructura-cloud-sin-arruinarte-d9d2e2d5302c)
+- [==amazon.qwiklabs.com/catalog==](https://amazon.qwiklabs.com/catalog) **One of the best ways to learn AWS services is to use them. If you want to grow your skills this year check out these AWS quicklabs. Free and paid quests to get you started and gaining experience.**
+- [==freecodecamp.org/news/tag/aws==](https://www.freecodecamp.org/news/tag/aws/) Are you looking to get into cloud? Check out all the amazing free content available on freecodecamp under the AWS tag.
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 - [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/professional-services/CAF/) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
@@ -400,6 +403,7 @@ You can filter by topic using the toolbar above.
 - [Migrate AWS Landing Zone solution to AWS Control Tower](https://aws.amazon.com/blogs/mt/migrate-aws-landing-zone-solution-to-aws-control-tower/) **AWS Control Tower creates your landing zone using AWS Organizations, thereby bringing together ongoing account management and governance, as well as implementation of best practices based on our experience of working with thousands of customers as they migrate to the cloud.**
 - [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby/)
 - [Announcing Amazon Elastic File System Replication](https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-replication/) Amazon EFS Replication provides you with an easy way to keep an up-to-date copy of your file system in a second AWS Region or within the same Region.
+- [infoq.com: Amazon Announces Elastic File System Replication for Multi-Region Deployments](https://www.infoq.com/news/2022/02/aws-efs-replication/)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
@@ -521,11 +525,18 @@ You can filter by topic using the toolbar above.
 ## AWS Route 53
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)
 
-## AWS Elastic Load Balancing
+## AWS Elastic Load Balancing (ELB)
 - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)
 - [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 - [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers)
 - [==luis-sena.medium.com: Automated AWS Load Balancer Warm-Up==](https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc) Automate AWS load balancer to avoid issues with huge traffic spikes
+- [==dashbird.io: AWS Elastic Load Balancing from a Serverless perspective==](https://dashbird.io/blog/aws-application-load-balancer/) Should you switch your AWS API Gateway out for an Application Load Balancer (ALB)? A cheat sheet for all you need to know about ALB:
+	- Pricing 
+	- Regions 
+	- Transformations 
+	- Limits 
+	- Permissions 
+	- Health 
 
 ## AWS Application Load Balancer (ALB)
 - [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/)
@@ -533,6 +544,9 @@ You can filter by topic using the toolbar above.
 - [medium: 10 reasons why you should think about using an AWS Application Load Balancer](https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34)
 - [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)
 - [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
+
+## Gateway Load Balancer (GWLB)
+- [Centralized Traffic Inspection with Gateway Load Balancer on AWS](https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws/)
 
 ## NGINX
 - [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment/)
@@ -718,6 +732,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [yobyot.com: AWS multi-region KMS keys and Data Lifecycle Manager: better together](https://www.yobyot.com/aws/aws-multi-region-keys-and-ec2-data-lifecycle-manager/2021/08/18/)
 - [try.jupiterone.com: The Absolute Minimum Every Developer Must Know about AWS Security](https://try.jupiterone.com/the-absolute-minimum-every-developer-must-know-about-aws-security)
 - [==How to automate AWS account creation with SSO user assignment==](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment/)
+- [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments/) Many good tips, from identity management to tenant isolation.
 
 ### Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
@@ -739,6 +754,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [cloudkatha.com: Difference between Root User and IAM User in AWS You Need to Know](https://cloudkatha.com/difference-between-root-user-and-iam-user-in-aws-you-need-to-know/)
 - [ben11kehoe.medium.com: AWS Authentication: Principals (users and roles) in AWS IAM](https://ben11kehoe.medium.com/principals-in-aws-iam-38c4a3dc322a) this article uses the boto3, the AWS Python SDK, as an example, but other SDKs have analogous features.
 - [infoq.com: Incorrect IAM Policy Raised Questions About AWS Access to S3 Data](https://www.infoq.com/news/2022/01/aws-iam-s3-access/)
+- [==iann0036/iamlive==](https://github.com/iann0036/iamlive) Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy
+- [==awsiam.info: AWS IAM Search==](https://www.awsiam.info)
 
 ### AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -795,7 +812,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty/)
   - [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate/)
 
-## AWS Backup and Recovery. Design for failure
+## AWS Backup and Recovery. Design for failure. Disaster Recovery
 - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)
 - [Linkedin discussion: Need help on Backup and restore methods of EC2 using s3 services](https://www.linkedin.com/groups/49531/49531-6093375473969090562)
 - [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage)
@@ -803,6 +820,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Udemy - AWS: How to Architect with a Design for Failure Approach](https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach/)
 - [How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS](https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs/)
 - [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
+- [Creating Disaster Recovery Mechanisms Using Amazon Route 53](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-disaster-recovery-mechanisms-using-amazon-route-53/)
 
 ### AWS Backup Service
 - [AWS Backup Service](https://aws.amazon.com/backup)
@@ -1024,6 +1042,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 	![aws responsability model](images/s3_storage_classes.jfif)
 
 	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
+	[![Most Popular Cloud Platforms with AWS removed for scale](images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
 	</center>
 
 ## Videos
@@ -1032,8 +1052,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4OLpOZ77crc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_8AHPqzuLkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 
@@ -1065,5 +1085,11 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📚 AWS 1x1 - 𝗖𝗹𝗼𝘂𝗱𝗪𝗮𝘁𝗰𝗵<br><br>Your fully-managed monitoring &amp; observability solution for your AWS services, resources &amp; applications.<br><br>Almost all you need to know ↓</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1481991504348557313?ref_src=twsrc%5Etfw">January 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝗔𝗪𝗦 𝗔𝗣𝗜 𝗚𝗮𝘁𝗲𝘄𝗮𝘆 is one of AWS&#39; fully-managed flagship services ⚡ <br><br>All of the important facts &amp; key capabilities that you need to know in a single infographic 🌠 ↓ <a href="https://t.co/uzdqdPMmCs">pic.twitter.com/uzdqdPMmCs</a></p>&mdash; Dashbird.io (@thedashbird) <a href="https://twitter.com/thedashbird/status/1483033704205369344?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Why do you only focus on <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> instead of other cloud providers? Doesn&#39;t that cut your market to a tiny fraction of the industry?&quot;<br><br>The latest <a href="https://twitter.com/okta?ref_src=twsrc%5Etfw">@okta</a> report has a chart within that tells the story succinctly. <a href="https://t.co/AkNt1jwUMU">pic.twitter.com/AkNt1jwUMU</a></p>&mdash; Corey Quinn (@QuinnyPig) <a href="https://twitter.com/QuinnyPig/status/1488233622934933504?ref_src=twsrc%5Etfw">January 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In my opinion, IAM is the 𝗺𝗼𝘀𝘁 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲 &amp; 𝗰𝗼𝗺𝗽𝗿𝗲𝗵𝗲𝗻𝘀𝗶𝘃𝗲 service by AWS 🔐<br><br>What&#39;s a 𝗳𝗮𝗰𝘁: the concepts are crucial &amp; being confident in them is a necessity! <a href="https://t.co/MtvOyLjRzS">pic.twitter.com/MtvOyLjRzS</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1488871669024399364?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t know who did this...but It made my day 😂 AWS moving workloads out of Exadata <a href="https://twitter.com/hashtag/HappyWednesday?src=hash&amp;ref_src=twsrc%5Etfw">#HappyWednesday</a> <a href="https://twitter.com/hashtag/CloudHumor?src=hash&amp;ref_src=twsrc%5Etfw">#CloudHumor</a> <a href="https://t.co/vq1CSCyr8b">pic.twitter.com/vq1CSCyr8b</a></p>&mdash; Guillermo Ruiz (@IaaSgeek) <a href="https://twitter.com/IaaSgeek/status/1488799161038389252?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

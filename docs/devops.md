@@ -220,6 +220,15 @@
   * DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 * [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
 * [valuecoders.com: Why Should You Adopt DevOps To Deliver Business Value Rapidly?](https://www.valuecoders.com/blog/technology-and-apps/why-should-you-adopt-devops-to-deliver-business-value-rapidly)
+* [itproportal.com: Stop messing up with CI/CD vs. DevOps and learn the difference finally](https://www.itproportal.com/features/stop-messing-up-with-cicd-vs-devops-and-learn-the-difference-finally/) When asking development pros to weigh in on the concept of DevOps, and share their views, we realised one thing.
+* [==blog.udemy.com: Becoming a DevOps Engineer: Understanding the Role and Responsibilities==](https://blog.udemy.com/devops-engineer/) The title “DevOps Engineer” itself is confusing, and no one can agree on what precisely a DevOps Engineer is (or does). So, for now, let’s list some typical activities you might have in this role:
+	* Providing leadership and guidance for reducing the time it takes to deploy a software change.
+	* Managing CI (continuous integration) systems and pipelines.
+	* Creating automated software builds and testing.
+	* Designing and implementing infrastructure.
+	* Automating infrastructure buildout and maintenance.
+	* Managing and enhancing logging and monitoring systems.
+	* Providing developers with self-service tools for provisioning systems, deploying code, and running tests.
 
 <center>
 
@@ -448,6 +457,8 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Automation tools don&#39;t reduce cloud complexity, they embrace it.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1460622599747039232?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Artem Kobrin from <a href="https://twitter.com/NTTDATAServices?ref_src=twsrc%5Etfw">@NTTDATAServices</a> presents their multi-stage blue-green deployments with <a href="https://twitter.com/keptnProject?ref_src=twsrc%5Etfw">@keptnProject</a> and <a href="https://twitter.com/argoproj?ref_src=twsrc%5Etfw">@argoproj</a> in <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a>. Nice pipelines😍 <a href="https://twitter.com/hashtag/keptnUserGroup?src=hash&amp;ref_src=twsrc%5Etfw">#keptnUserGroup</a> <a href="https://t.co/E1eDMoxcDz">pic.twitter.com/E1eDMoxcDz</a></p>&mdash; Oleg Nenashev (@oleg_nenashev) <a href="https://twitter.com/oleg_nenashev/status/1460644013120315397?ref_src=twsrc%5Etfw">November 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I like to architect cloud. What do you love - DevOps or architect?</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1489260596512002050?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

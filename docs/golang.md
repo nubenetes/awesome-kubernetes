@@ -89,12 +89,14 @@
 
 ## Go Books
 - https://github.com/dariubs/GoBooks
+- https://lets-go.alexedwards.net Learn to Build Professional Web Applications with Go
 
 ## Go Samples 
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
 - [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
 - [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) Collection of mini-programs demonstrating Kubernetes client-go usage.
+- [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go) Minimal working examples of Go's unique features.
 
 ## Dockerfile for go
 - [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)

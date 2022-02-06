@@ -57,6 +57,7 @@
 - [Tackle](#tackle)
 - [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
 - [Azure AAD Pod Identity](#azure-aad-pod-identity)
+- [MicroShift](#microshift)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -159,7 +160,6 @@
 * [dynamic-pv-scaler](https://github.com/opstree/dynamic-pv-scaler) is a golang based Kubernetes application which has been created to overcome the scaling issue of Persistent Volume in Kubernetes. This can scale the Persistent Volume on the basis of threshold which you have set.
 * [Sinker](https://github.com/plexsystems/sinker) Imagesync enables the syncing of container images from one container registry to another. This is useful in cases where you need to mirror images that exist in a public container registry, to a private one. 
 * [Cluster Turndown](https://github.com/kubecost/cluster-turndown) is an automated scaledown and scaleup of a Kubernetes cluster's backing nodes based on a custom schedule and turndown criteria.
-* [capsule](https://github.com/clastix/capsule) is a Kubernetes multi-tenant Operator. It aggregates multiple namespaces in a Tenant. Within each tenant, users are free to create their namespaces and share all the assigned resources between the namespaces of the tenant.
 * [Kubernetes Node Label Monitor](https://github.com/adaptant-labs/k8s-node-label-monitor) is a Kubernetes controller for monitoring and notifying about changes to Node label states
 * [kubeinit 🌟](https://github.com/Kubeinit/kubeinit) KubeInit provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.
 * [kubergui: Kubernetes Deployment Builder🌟](https://github.com/BrandonPotter/kubergui) quickly builds out a basic Kubernetes Deployment and Kubernetes Service YAML. Kubernetes GUI YAML generators for simple but typo-prone tasks.
@@ -446,6 +446,8 @@
 * [corneliusweig/konfig](https://github.com/corneliusweig/konfig) konfig helps to merge, split or import kubeconfig files
 * [armosec/regolibrary](https://github.com/armosec/regolibrary) ARMO rego library for detecting miss-configurations in Kubernetes manifests
 * [groundnuty/k8s-wait-for 🌟](https://github.com/groundnuty/k8s-wait-for) A simple script that allows to wait for a k8s service, job or pods to enter a desired state
+* [nabsul/k8s-ecr-login-renew: Renew Kubernetes Docker secrets for AWS ECR](https://github.com/nabsul/k8s-ecr-login-renew) Renews Docker login credentials for an AWS ECR container registry.
+* [particledecay/kconf](https://github.com/particledecay/kconf) Manage multiple kubeconfigs easily
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -663,6 +665,12 @@
 
 ## Azure AAD Pod Identity
 - [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) Assign Azure Active Directory Identities to Kubernetes applications.
+
+## MicroShift
+- [==microshift.io==](https://microshift.io) **MicroShift is a research project that is exploring how OpenShift1 and Kubernetes can be optimized for small form factor and edge computing.**
+- It requires only 2GB to run
+- You can run it as a container with Docker or Podman
+- It is a very trimmed version of OpenShift without many features
 
 ## Tweets
 <details>

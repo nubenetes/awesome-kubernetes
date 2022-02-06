@@ -43,6 +43,8 @@
 - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)
 - [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation/)
 - [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers/) Nearly two years into the pandemic, many Americans are reevaluating their relationship with work.
+- [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)
+- [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -57,7 +59,10 @@
 - [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) Los hay autoritarios, carismáticos, inseguros... EL ESPAÑOL analiza todos estos perfiles con la experta de 'employer branding'.
 - [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021)
 - [xataka.com: La guerra de talento en el sector tecnológico amenaza la viabilidad de muchas pymes españolas: cada vez les resulta más difícil retener a los seniors](https://www.xataka.com/empresas-y-economia/guerra-talento-sector-tecnologico-amenaza-viabilidad-muchas-pymes-espanolas-cada-vez-les-resulta-dificil-retener-a-seniors)
-
+- [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) Si nuestra 'tribu' se encuentra bajo amenaza, el instinto nos llama a cerrar filas en lugar de buscar lo que es mejor para toda la organización.
+- [xataka.com: La Gran Renuncia está ganando terreno en España, pero hay dos barreras: salarios bajos e indemnizaciones](https://www.xataka.com/empresas-y-economia/gran-renuncia-esta-ganando-terreno-espana-hay-dos-barreras-salarios-bajos-ley-laboral)
+- [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/sociedad/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas) Los salarios del teletrabajo podrían disminuir hasta un 15% en función de la ciudad en la que vives.
+ 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
 	- [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
@@ -153,6 +158,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A place I worked long term saw a few “rockstar” devs who complicated toolchains, trusted unestablished tech, said Yes lots/shipped early, but left before really having to deal with tech debt they’d introduced. They’re prolly still hopping every 18mnths thinking they’re awesome.</p>&mdash; Kickstink (@kickstink) <a href="https://twitter.com/kickstink/status/1482867884057673728?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was the one who had to deal with the fallout of things like these and let&#39;s day I hate Ninja/Rockstar devs like hell. Why do things by best practice when you can save 3kb by introducing three new tools in the deployment.... /s</p>&mdash; Nils Hitze (@kojote) <a href="https://twitter.com/kojote/status/1482960234268303361?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">From a CEO: <br><br>“Every time a competitor mentions return to office our recruiters reach out to their people. We’ve hired 15+ of their engineers in the last 2 months.”<br><br>So easy.</p>&mdash; Chris Herd (@chris_herd) <a href="https://twitter.com/chris_herd/status/1444764975445184512?ref_src=twsrc%5Etfw">October 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -172,6 +179,10 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The best software engineer I&#39;ve ever worked with wasn&#39;t the best coder on the team.<br><br>But they were exceptional at:<br>🔹 Unambiguous communication<br>🔹 Simplifying; reducing complexity<br>🔹 Making the right tradeoffs<br>🔹 Building consensus</p>&mdash; Curtis Einsmann (@curtiseinsmann) <a href="https://twitter.com/curtiseinsmann/status/1482956604945227777?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are one bad manager away from hating your job. Don’t let a position at a company define you<br><br>Always invest in yourself<br><br>Keep learning new things<br>Keep meeting new people <br>Keep doing what you believe is right<br>Keep helping others</p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1487896112446853122?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">interviewer: can you explain this gap in your resume<br>me: yeah that&#39;s a carriage return and a series of newline characters, like &quot;\r\n\n&quot; but depending on the language you&#39;re parsing it in you may need to escape that sequence</p>&mdash; milf twink (@SamAllenX) <a href="https://twitter.com/SamAllenX/status/1489461016438005761?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

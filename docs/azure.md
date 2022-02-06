@@ -25,6 +25,7 @@
 - [Azure Container Apps](#azure-container-apps)
 - [Azure Container Instances](#azure-container-instances)
 - [Windows Server Container Host](#windows-server-container-host)
+- [Disaster Recovery](#disaster-recovery)
 - [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
 - [Office 365](#office-365)
 - [Images](#images)
@@ -107,6 +108,7 @@
 - [techcommunity.microsoft.com: Standardize DevOps practices across hybrid and multicloud environments](https://techcommunity.microsoft.com/t5/itops-talk-blog/standardize-devops-practices-across-hybrid-and-multicloud/ba-p/2795010) With Azure Arc-enabled Kubernetes, you can attach and configure Kubernetes clusters located either inside or outside Azure.
 - [youtube: How to run an App Service Web App on Azure Arc-enabled Kubernetes - Part 2 | Azure Tips and Tricks](https://www.youtube.com/watch?v=53-Y_aI0KpE&ab_channel=MicrosoftAzure)
 - [docs.microsoft.com: CI/CD workflow using GitOps (Flux v2) - Azure Arc enabled Kubernetes](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2-ci-cd)
+- [thomasmaurer.ch: Run cloud-native apps on Azure PaaS anywhere](https://www.thomasmaurer.ch/2021/06/run-cloud-native-apps-on-azure-paas-anywhere/)
 
 ## Secure DevOps Kit for Azure
 - [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit)
@@ -206,6 +208,9 @@
 
 ## Windows Server Container Host
 - [thomasmaurer.ch: How to Install a Windows Server Container Host](https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host/)
+
+## Disaster Recovery
+- [docs.microsoft.com: Using Policy with Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery. 
 
 ## Azure Samples (Boilerplates)
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby

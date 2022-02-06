@@ -29,6 +29,7 @@
 - [techrepublic.com: The best programming languages to learn in 2022](https://www.techrepublic.com/article/the-best-programming-languages-to-learn-in-2022/)
 - https://suckless.org/philosophy software that sucks less
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
+- [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)

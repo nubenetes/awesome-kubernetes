@@ -125,6 +125,7 @@
 * [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
 * [iximiuz.com: Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
 * [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived/)
+* [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
@@ -258,6 +259,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [buildkit](https://docs.docker.com/develop/develop-images/build_enhancements/)
 - [podman](https://podman.io/)
 - [==blog.logrocket.com: Top Docker alternatives for 2022==](https://blog.logrocket.com/top-docker-alternatives-2022/)
+- [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19) - [lima-vm/lima](https://github.com/lima-vm/lima)
 
 ## Videos and Podcasts
 <details>
@@ -265,10 +267,10 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 <center>
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273312823&amp;color=ff5500"></iframe>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n-JwAM6XF88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3c-iBn73dDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

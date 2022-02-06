@@ -412,6 +412,8 @@ git push origin -f
 * [freecodecamp.org: How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/)
 * [==about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)==](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp)
 * [alsmola.medium.com: Securing GitHub organizations](https://alsmola.medium.com/securing-github-organizations-9c33c850638)
+* [github.blog: Dependency graph now supports GitHub Actions](https://github.blog/2022-01-31-dependency-graph-now-supports-github-actions/) The dependency graph helps developers and maintainers understand the code they depend on, and now includes GitHub Actions!
+* [==github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps==](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/) A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.

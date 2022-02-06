@@ -1,5 +1,6 @@
 # Project Management Methodology
 - [Project Management Methodology](#project-management-methodology)
+	- [Spanish](#spanish)
 	- [Team Topologies](#team-topologies)
 	- [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
 	- [Waterfall vs Agile](#waterfall-vs-agile)
@@ -23,8 +24,6 @@
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
 - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)
 - [dzone: 7 Project Management Basics](https://dzone.com/articles/7-project-management-basics-for-lifetime) Whether you're just starting out or are a career PM, these rules should never leave your mind.
-- [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
-- [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2/)
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)  
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
@@ -32,7 +31,6 @@
 - [scruminc.com: Better Scrum with Essence](https://www.scruminc.com/better-scrum-with-essence/) Essence is an industry standard for describing practices, which means there is no change to the actual Scrum content but an enhanced way for presenting it to teams. One of the main things you notice with Essence is the use of cards to represent the main concepts of any practice. 
 - [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) Agile methodologies can make all the difference in your digital transformation, but successful adoption requires culture change. Consider this expert advice on scrum and Kanban.
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
-- [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
 - [scrum.org: Minimum Viable Product Considered Harmful 🌟](https://www.scrum.org/resources/blog/minimum-viable-product-considered-harmful)
 - [agilecheetah.com: Why So Many Developers are Fed Up with Agile](https://agilecheetah.com/why-so-many-developers-are-fed-up-with-agile-pt-3/)
 - [age-of-product.com: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://age-of-product.com/scrum-2021/)
@@ -46,15 +44,24 @@
 - [cloudbees.com: How Asynchronous Communication Can Boost Productivity](https://www.cloudbees.com/blog/asynchronous-communication)
 - [cloudbees.com: More Isn’t Always Better: Using Predictive Analytics to Show Adding More People Doesn’t Always Help](https://www.cloudbees.com/blog/using-predictive-analytics-to-show-adding-more-people)
 - [infoq.com: Driving DevOps with Value Stream Management](https://www.infoq.com/articles/DevOps-value-stream/)
-- [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://rockcontent.com/es/blog/tipos-de-consultoria/) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
 - [creately.com: How to Better Manage Your Projects with Kanban Boards](https://creately.com/blog/diagrams/what-is-a-kanban-board/)
 - [hbr.org: As Your Team Gets Bigger, Your Leadership Style Has to Adapt](https://hbr.org/2019/03/as-your-team-gets-bigger-your-leadership-style-has-to-adapt)
 - [carlos-piqueres.medium.com: Product Backlog vs Sprint Backlog](https://carlos-piqueres.medium.com/product-backlog-vs-sprint-backlog-c951f972e979)
-- [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
 - [skamille.medium.com: How New Managers Fail Individual Contributors](https://skamille.medium.com/how-new-managers-fail-individual-contributors-839a13bda1c5)
 - [blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
-- [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
 - [acumen.io: Can Kanban scale for teams of over 50 developers? When should you consider moving to Scrum?](https://www.acumen.io/blog/can-kanban-scale-for-teams-of-over-50-developers-when-should-you-consider-moving-to-scrum)
+- [infoq.com: Better Metrics for Building High Performance Teams](https://www.infoq.com/articles/better-metrics-team-performance/)
+- [==noidea.dog/glue: Being Glue==](https://noidea.dog/glue)
+
+### Spanish
+- [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
+- [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
+- [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
+- [rockcontent.com: Conoce los principales tipos de consultoría en las que tu negocio puede invertir para explotar su potencial](https://rockcontent.com/es/blog/tipos-de-consultoria/) La consultoría es un servicio profesional destinado a resolver un problema de tu empresa, ayudándola a detectar falencias y lograr el aprovechamiento de distintas oportunidades para su crecimiento.
+- [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://www.entrepreneur.com/article/365880)
+- [mamaqueesscrum.com: Mamá… ¿Qué es Scrum?](https://mamaqueesscrum.com/2018/11/12/labores-que-un-product-owner-deberia-hacer-que-no-aparecen-en-la-scrum-guide/) Labores que un Product Owner podría hacer que no aparecen en la Scrum Guide
+- [bbc.com: Por qué en Japón los jefes NO felicitan a sus empleados cuando hacen bien su trabajo](https://www.bbc.com/mundo/vert-cap-37270163)
+- [smoda.elpais.com: Destacar y venderse no implica trabajar bien: así es la nueva batalla por las apariencias del trabajo](https://smoda.elpais.com/trabajo/apariencias-venderse-trabajo/) Muchos trabajadores sufren en silencio la ‘performance’ diaria de quienes ponen más empeño en contar sus supuestos logros que en materializarlos.
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -153,11 +160,8 @@
 
 	<center>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/kJdXjtSnZTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/0fx7yy9-L7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/B0hPpGsslgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/YyXRYgjQXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
@@ -166,7 +170,6 @@
 
 	<center>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ipEwm-fg0rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/TQOzU53xmQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
@@ -199,6 +202,12 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Politeness is not the same as kindness.<br><br>Being polite is saying what makes people feel good today. Being kind is doing what helps people get better tomorrow.<br><br>In polite cultures, people withhold disagreement and criticism. In kind cultures, people speak their minds respectfully.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1459535163273138176?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">La llamada transformación digital no solo se trata del cambio tecnológico sino principalmente del cambio de mentalidad de las personas para implementar nuevos estilos de gestión y liderazgo necesarios para gestionar en la era digital</p>&mdash; RICARDO SORRON (@RSorron) <a href="https://twitter.com/RSorron/status/1460971778533122050?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Voy a tratar de explicar cuál es la mejor (o menos mala) manera de afrontar el acoso moral (Mobbing) en el trabajo. El <a href="https://twitter.com/hashtag/Mobbing?src=hash&amp;ref_src=twsrc%5Etfw">#Mobbing</a> laboral es una lacra habitualmente silenciada y que en épocas de crisis como la actual se desata con mayor virulencia. Trataré de dar unos consejos 👇🧵</p>&mdash; Luis F. Pallarés (@Laboralista_DCT) <a href="https://twitter.com/Laboralista_DCT/status/1487328483168694273?ref_src=twsrc%5Etfw">January 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/Empleo?src=hash&amp;ref_src=twsrc%5Etfw">#Empleo</a> | Si nuestra &#39;tribu&#39; se encuentra bajo amenaza, el instinto nos llama a cerrar filas en lugar de buscar lo que es mejor para toda la organización <a href="https://t.co/x81ashw12O">https://t.co/x81ashw12O</a></p>&mdash; expansioncom (@expansioncom) <a href="https://twitter.com/expansioncom/status/1487788912378585092?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My manager yelled at me today for writing too many docs and I feel every female software engineer needs to hear this every day</p>&mdash; Guinevere Saenger (@guincodes) <a href="https://twitter.com/guincodes/status/1489308647851053057?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
