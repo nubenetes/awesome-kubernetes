@@ -9,6 +9,7 @@
 - [Kibana](#kibana)
 - [AWS App Mesh](#aws-app-mesh)
 - [Istio and AWS EKS](#istio-and-aws-eks)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Docs
@@ -129,6 +130,13 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 
 ## Istio and AWS EKS
 - [itnext.io: Observing gRPC-based Microservices on Amazon EKS running Istio](https://itnext.io/observing-grpc-based-microservices-on-amazon-eks-running-istio-77ba90dd8cc0) Observing a gRPC-based Kubernetes application using Jaeger, Zipkin, Prometheus, Grafana, and Kiali on Amazon EKS running Istio service mesh
+
+## Videos
+??? note "Click to expand!"
+
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/voAyroDb6xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </center>
 
 ## Tweets
 <details>
