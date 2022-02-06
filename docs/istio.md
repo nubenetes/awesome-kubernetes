@@ -134,9 +134,9 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 ## Videos
 ??? note "Click to expand!"
 
-  <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/voAyroDb6xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </center>
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/voAyroDb6xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 <details>
