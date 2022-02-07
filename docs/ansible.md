@@ -133,6 +133,8 @@
 - [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
 
 ## Interview Questions
+- [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions/)
+- [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)
 - [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
 ## Ansible Videos

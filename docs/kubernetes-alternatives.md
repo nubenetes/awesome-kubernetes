@@ -1,5 +1,6 @@
 # Kubernetes Alternatives
 - [Why Not Use Kubernetes](#why-not-use-kubernetes)
+- [Heroku](#heroku)
 - [Amazon ECS](#amazon-ecs)
 - [Nomad](#nomad)
 - [Portainer](#portainer)
@@ -14,6 +15,9 @@
 - [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)
 - [infoworld.com: When Kubernetes is not the solution](https://www.infoworld.com/article/3604652/when-kubernetes-is-not-the-solution.html)
 - [ably.com: No, we don’t use Kubernetes](https://ably.com/blog/no-we-dont-use-kubernetes)
+
+## Heroku
+- [towardsdatascience.com: Heroku + Docker in 10 Minutes](https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f) Deployment for Python applications made easy — and it’s free
 
 ## Amazon ECS
 - [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
