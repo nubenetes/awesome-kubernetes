@@ -11,6 +11,7 @@
     - [Kubernetes JSON Schemas](#kubernetes-json-schemas)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Templating YAML Files
@@ -105,6 +106,13 @@
     - [dzone.com: Use Ketch to Deploy Apps on Kubernetes Without YAML](https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne) An open-source project for deploying and managing applications on Kubernetes with a command-line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
 - [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 ??? note "Click to expand!"
