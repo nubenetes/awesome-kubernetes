@@ -62,6 +62,7 @@ based on your test scripts.
 - [lambdatest.com: How To Read Config Files In Python Using Selenium [With Example]](https://www.lambdatest.com/blog/how-to-read-configuration-files-in-python-using-selenium/)
 - [lambdatest.com: How To Create Automated Web Bot With Selenium In Python](https://www.lambdatest.com/blog/automated-web-bot-with-selenium-python/)
 - [==lambdatest.com: Selenium Python Tutorial== 🌟](https://www.lambdatest.com/learning-hub/python-tutorial)
+- [lambdatest.com: Why You Need Build Automation Tools for Selenium Automation Testing?](https://www.lambdatest.com/blog/why-you-need-build-automation-tools-for-selenium-automation-testing/)
 
 ## Robot Framework
 * [Robot Framework 🌟](https://robotframework.org/) Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).

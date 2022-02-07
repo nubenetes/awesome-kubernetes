@@ -61,6 +61,7 @@
 - [Powershell](#powershell)
 - [Nmap scripts](#nmap-scripts)
 - [Let's Encrypt SSL certificates](#lets-encrypt-ssl-certificates)
+- [WAF Web Application Firewall](#waf-web-application-firewall)
 - [More Security Tools](#more-security-tools)
 - [Videos](#videos)
 
@@ -345,6 +346,7 @@
 	- As an alternative, you can use Mozilla SOPS (SOPS) to encrypt and decrypt your Kubernetes secret files. **Secrets that are encrypted via SOPS can be stored in source control.** Encrypted secrets will be decrypted locally just before they’ll be deployed to Kubernetes. This article demonstrates how to encrypt and decrypt Kubernetes secrets (YAML files) using SOPS in combination with Azure Key Vault, which allows you to store your secrets along with other Kubernetes manifests directly in git.
 
 - [developers.redhat.com: Protect secrets in Git with the clean/smudge filter](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter)
+- [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) Cloud Secret Resolvers is a set of tools to help your applications (on Kubernetes) to retrieve any credentials from cloud managed vaults without the needed to write additional boilerplate code in your applications!.
 
 ### AWS Secret Manager
 - [medium: AWS Secret Manager: Protect sensitive information and functionality 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4) Protect Your Secrets in ApplicationsSecrets are frequently used to protect sensitive information and functionality.
@@ -549,6 +551,10 @@
 
 ## Let's Encrypt SSL certificates
 - [techrepublic.com: How to create Let's Encrypt SSL certificates with acme.sh on Linux](https://www.techrepublic.com/article/how-to-create-lets-encrypt-ssl-certificates-with-acme-sh-on-linux/)
+
+## WAF Web Application Firewall
+- [thenewstack.io: WAF: Securing Applications at the Edge](https://thenewstack.io/waf-securing-applications-at-the-edge/)
+
 ## More Security Tools
 - [zdnet.com: Google releases new open-source security software program: Scorecards](https://www.zdnet.com/article/google-releases-new-open-source-security-software-program-scorecards/) How safe is that open-source software in the Git library, the one with the questionable history? Scorecard 2.0 can quickly tell you just how secure, or not, it really is.
 - [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/)

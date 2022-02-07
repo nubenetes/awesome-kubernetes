@@ -111,6 +111,7 @@
 ## Google Cloud Deploy
 - [cloud.google.com: Introducing Google Cloud Deploy: Managed continuous delivery to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-automates-deploys-to-gke)
 - [cloud.google.com: Google Cloud Deploy, now GA, makes it easier to do continuous delivery to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga)
+- [infoq.com: Google's Managed Continuous Delivery Service for Kubernetes Moves to GA](https://www.infoq.com/news/2022/02/google-cloud-deploy/)
 
 ## Cloud SQL
 - [Testing Cloud SQL failover: Where to begin](https://cloud.google.com/blog/topics/developers-practitioners/testing-cloud-sql-failover-where-begin)

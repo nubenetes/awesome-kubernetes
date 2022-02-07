@@ -1,5 +1,6 @@
 # QA: Software Quality Test Automation
 - [Introduction](#introduction)
+- [Interview Questions](#interview-questions)
 - [Blogs](#blogs)
 - [Testing Frameworks](#testing-frameworks)
 - [Release Testing](#release-testing)
@@ -15,7 +16,6 @@
 * [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality)
 * [softwaretestguideforu.com: What is system testing? How to perform system testing?](https://www.softwaretestguideforu.com/2020/06/what-is-system-testinghow-to-perform.html)
 * [linkedin.com/pulse: Importance of API Automation Testing 🌟](https://www.linkedin.com/pulse/importance-api-automation-testing-manish-saini/)
-* [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
 * [thenewstack.io: Optimizing App Performance in a Multicloud Stack](https://thenewstack.io/optimizing-app-performance-in-a-multicloud-stack/)
 * [botplayautomation.com: Automation Testing Implementation Guide](https://www.botplayautomation.com/post/what-is-automation-testing-the-need-for-automation-testing-automation-testing-implementation-guide)
 * [botplayautomation.com: Types of Software Testing](https://www.botplayautomation.com/post/types-of-software-testing)
@@ -47,6 +47,10 @@ the #1 test automation community.
 * [==lambdatest.com: Top Automation Testing Trends To Look Out In 2021==](https://www.lambdatest.com/blog/top-automation-testing-trends-2021)
 * [==betterprogramming.pub: Why We Quit Unit Testing Classes to Focus On a Behavioral Approach==](https://betterprogramming.pub/quit-unit-testing-classes-and-use-a-behavior-oriented-approach-306a667f9a31) Why you should consider avoiding class-level tests, in favor of a behavior-oriented approach
 * [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047)
+
+## Interview Questions
+* [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
+* [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html)
 
 ## Blogs
 - https://automationqahub.com/

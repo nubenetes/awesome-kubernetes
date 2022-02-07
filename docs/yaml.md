@@ -28,6 +28,7 @@
 - [opensource.com: Make YAML as easy as it looks](https://opensource.com/article/21/9/yaml-cheat-sheet) YAML looks simple so why is it so hard to write? Learn the two secrets to YAML success.
 - [javascript.plainenglish.io: Everything You Need To Know About YAML Files](https://javascript.plainenglish.io/everything-you-need-to-know-about-yaml-files-5423358cc5c9) Learning about YAML gives you an advantage over your peers since it literally makes programming and configuring cloud computing resources easier.
 - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml/)
+- [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)

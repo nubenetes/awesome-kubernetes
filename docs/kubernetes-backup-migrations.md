@@ -38,6 +38,7 @@
 * [dev.to: Kubernetes Backup & Restore made easy! 🌟](https://dev.to/techworld_with_nana/kubernetes-backup-restore-made-easy-2nlg)
 * [blog.kasten.io: 10 Key Takeaways from Kubernetes Backup & Recovery For Dummies](https://blog.kasten.io/10-key-takeaways-from-kubernetes-backup-recovery-for-dummies)
 * [k8up.io](https://k8up.io/) Kubernetes Backup Operator distributed via a Helm chart, compatible with OpenShift and plain Kubernetes. 
+* [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)
 
 ## Kubernetes Volume Snapshot
 * [kubernetes.io: Kubernetes 1.20: Kubernetes Volume Snapshot Moves to GA](https://kubernetes.io/blog/2020/12/10/kubernetes-1.20-volume-snapshot-moves-to-ga/)

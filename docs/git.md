@@ -159,6 +159,7 @@
 * [==dev.to: 10 useful Git tips to improve your workflow== 🌟](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1)
 * [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
 * [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch/)
+* [betterprogramming.pub: How to Filter the Git Logs](https://betterprogramming.pub/how-to-filter-the-git-logs-2dcebf3d12) Practical examples of how you can filter the Git logs
 
 ## Git Aliases
 * [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) Use aliases to create shortcuts for your most-used or complex Git commands.
