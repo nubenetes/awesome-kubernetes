@@ -229,6 +229,7 @@
 	* Automating infrastructure buildout and maintenance.
 	* Managing and enhancing logging and monitoring systems.
 	* Providing developers with self-service tools for provisioning systems, deploying code, and running tests.
+* [==freecodecamp.org: DevOps Engineering Course for Beginners==](https://www.freecodecamp.org/news/devops-engineering-course-for-beginners/)
 
 <center>
 
