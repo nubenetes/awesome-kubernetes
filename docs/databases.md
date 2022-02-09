@@ -108,6 +108,7 @@
 ## Stored Procedures
 - [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)
 - [stackoverflow.com: Is the usage of stored procedures a bad practice?](https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice)
+- [softwareengineering.stackexchange.com: What is the best practice about microservice architecture for consuming many stored procedures in the same database?](https://softwareengineering.stackexchange.com/questions/436567/what-is-the-best-practice-about-microservice-architecture-for-consuming-many-sto)
 
 ## Performance
 - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739) “If everything seems under control, you’re not going fast enough”
