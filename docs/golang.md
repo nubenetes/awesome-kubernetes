@@ -78,6 +78,7 @@
 - [go-kratos/kratos](https://github.com/go-kratos/kratos) A modular-designed and easy-to-use __microservices framework__ in Go.
 - [gnet](https://github.com/panjf2000/gnet) 🚀 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go./ gnet
 - [dsa0x/sicher](https://github.com/dsa0x/sicher) Sicher is a go module that allows secure storage of encrypted credentials in a version control system.
+- [ggicci/httpin: HTTP Input for Go](https://github.com/ggicci/httpin) Decode an HTTP request into a custom struct
 
 ## Go packages
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
@@ -87,6 +88,7 @@
 - [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go/) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
 - [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
 - [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
+- [kkdai/youtube](https://github.com/kkdai/youtube) Download Youtube Video in Golang
 
 ## Go Books
 - https://github.com/dariubs/GoBooks

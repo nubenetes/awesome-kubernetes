@@ -27,6 +27,7 @@
 - [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a)
 - [marinaaisa.com: Trabajar en remoto desde España como 'contractor'](https://marinaaisa.com/es/blog/contractor-eeuu-espana/) Una opción alternativa para impulsarte a una carrera internacional sin tener que mudarte fuera de España pudiendo trabajar en remoto.
 - [billin.net: Cómo ser freelance en España en 2022](https://www.billin.net/blog/como-ser-freelance/)
+- [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html) 
 
 ### Advisory. Asesorías
 - [Acento: Cooperativa de freelance](https://acentocoop.es) 
