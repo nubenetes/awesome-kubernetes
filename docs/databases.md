@@ -3,6 +3,7 @@
 - [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
 - [Database Load Balancer](#database-load-balancer)
 - [SQL](#sql)
+    - [SQL Interview Questions](#sql-interview-questions)
 - [Stored Procedures](#stored-procedures)
 - [Performance](#performance)
 - [Stateful and Stateless Applications](#stateful-and-stateless-applications)
@@ -104,6 +105,9 @@
 - [vladmihalcea.com: SQL EXISTS and NOT EXISTS](https://vladmihalcea.com/sql-exists/)
 - [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing/)
 - [blog.jooq.org](https://blog.jooq.org) JAVA, SQL AND JOOQ. Best Practices and Lessons Learned from Writing Awesome Java and SQL Code. Get some hands-on insight on what's behind developing jOOQ.
+
+### SQL Interview Questions
+- [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html)
 
 ## Stored Procedures
 - [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)
@@ -859,6 +863,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## SQL Server
 - [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift/)
 - [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/)
+- [khalidabuhakmeh.com: Running SQL Server Queries In Docker](https://khalidabuhakmeh.com/running-sql-server-queries-in-docker)
 
 ## MySQL
 - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool/)
@@ -902,6 +907,7 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 - [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) PostgreSQL Statistics Collector
 - [==blog.crunchydata.com: A Postgres Primer for Oracle DBAs==](https://blog.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas)
 - [==blog.crunchydata.com: Postgres Indexes for Newbies==](https://blog.crunchydata.com/blog/postgres-indexes-for-newbies)
+- [dev.to: REST Data Service on YugabyteDB / PostgreSQL](https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h)
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)

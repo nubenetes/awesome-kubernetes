@@ -449,6 +449,7 @@ You can filter by topic using the toolbar above.
 - [percona.com: The Benefits of Amazon RDS for MySQL](https://www.percona.com/blog/2019/12/19/the-benefits-of-amazon-rds-for-mysql/)
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 - [migops.com: Is Aurora PostgreSQL really faster and cheaper than RDS PostgreSQL – Benchmarking](https://www.migops.com/blog/2021/11/26/is-aurora-postgresql-really-faster-and-cheaper-than-rds-postgresql-benchmarking/)
+- [==dashbird.io: [Infographic] AWS RDS from a Serverless perspective==](https://dashbird.io/blog/aws-relational-database-rds/)
 
 ### AWS DMS
 - [Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/)
@@ -1044,6 +1045,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 	[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
 	[![Most Popular Cloud Platforms with AWS removed for scale](images/most_popular_cloud_platforms.jfif)](https://twitter.com/okta)
+
+	[![aws rds dashbird](images/dashbird_rds.png)](https://dashbird.io/blog/aws-relational-database-rds/)
 	</center>
 
 ## Videos

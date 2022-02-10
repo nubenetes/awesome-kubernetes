@@ -407,6 +407,7 @@
 ## Python
 - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet/)
 - https://blog.finxter.com/python-cheat-sheets
+- https://www.pythoncheatsheet.org
 
 ## Go
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)

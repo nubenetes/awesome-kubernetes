@@ -45,6 +45,7 @@
 - [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers/) Nearly two years into the pandemic, many Americans are reevaluating their relationship with work.
 - [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)
 - [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)
+- [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask/)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -185,6 +186,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are one bad manager away from hating your job. Don’t let a position at a company define you<br><br>Always invest in yourself<br><br>Keep learning new things<br>Keep meeting new people <br>Keep doing what you believe is right<br>Keep helping others</p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1487896112446853122?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">interviewer: can you explain this gap in your resume<br>me: yeah that&#39;s a carriage return and a series of newline characters, like &quot;\r\n\n&quot; but depending on the language you&#39;re parsing it in you may need to escape that sequence</p>&mdash; milf twink (@SamAllenX) <a href="https://twitter.com/SamAllenX/status/1489461016438005761?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Los salarios para Developers Junior para las grandes empresas tecnológicas:<br><br>🪟 Microsoft: $154K <br>🍎 Apple: $166K<br>🛒 Amazon: $170K<br>🔵 Facebook: $189K<br>🔎 Google: $195K<br><br>* Incluyen bonus y acciones.</p>&mdash; Miguel Ángel Durán (@midudev) <a href="https://twitter.com/midudev/status/1491478087271395331?ref_src=twsrc%5Etfw">February 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
