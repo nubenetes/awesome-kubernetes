@@ -93,3 +93,5 @@
 * [blog.dream11engineering.com: Finding Order in Chaos: How We Automated Performance Testing with Torque](https://blog.dream11engineering.com/finding-order-in-chaos-how-we-automated-performance-testing-with-torque-6eb63706fcea)
 * [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema/)
 * [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
+* [==Iter8==](https://iter8.tools/) Kubernetes Release Optimizer
+	* [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos/) Iter8’s command-line interface (CLI) makes it simple and easy to set up load tests for HTTP services with SLO specifications, verify that the target service meets the SLOs, and create a visual report of the load test.

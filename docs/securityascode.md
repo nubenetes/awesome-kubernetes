@@ -41,6 +41,7 @@
 - [siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using Notary and Open Policy Agent](https://siegert-maximilian.medium.com/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c) A detailed guide to help you to ensure that only signed images can get deployed on the cluster
 - [blog.styra.com: Policy-based infrastructure guardrails with Terraform and OPA 🌟](https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa)
 - [medium: Automated Manifest File Validation Using Open Policy Agent and GitHub Actions | Ravindu Sandeepa Rathugama](https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0)
+- [thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps (Magalix)](https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps/) - [Magalix](https://www.magalix.com)
 
 ### Open Policy Agent in Kubernetes
 - [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/kubernetes-pod-security-policies-opa/)

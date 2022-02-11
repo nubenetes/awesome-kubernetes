@@ -22,6 +22,7 @@
 * [infoworld.com: 6 reasons to switch to managed Kubernetes](https://www.infoworld.com/article/3614605/6-reasons-to-switch-to-managed-kubernetes.html) Managed Kubernetes services have matured to the point where many enterprises are handing over the keys to their clusters. Here we identify some of the main drivers behind that trend.
 * [Allocatable memory and CPU in Kubernetes Nodes 🌟](https://learnk8s.io/allocatable-resources) Not all CPU and memory in your Kubernetes nodes can be used to run Pods. In this article, you will learn how managed Kubernetes Services such AKS, EKS and GKE reserve resources for workloads, operating systems, daemons and Kubernetes agent.
 * [==armosec.io: Which Managed Kubernetes Is Right for Me?==](https://www.armosec.io/blog/which-managed-kubernetes-is-right-for-me) This blog will compare on-premises, or self-hosted,Kubernetes clusters to managed ones, as well as outline your options for Kubernetes in the cloud
+* [==infoworld.com: CNCF survey: Managed Kubernetes becomes the norm==](https://www.infoworld.com/article/3649710/cncf-survey-managed-kubernetes-becomes-the-norm.html) Cloud Native Computing Foundation’s latest survey shows that container and Kubernetes usage continues to rise, as managed services ease the operational burden on their teams.
 
 {==
 

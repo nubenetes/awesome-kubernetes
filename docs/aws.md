@@ -404,6 +404,7 @@ You can filter by topic using the toolbar above.
 - [infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments](https://www.infoq.com/news/2022/01/aws-rds-readable-standby/)
 - [Announcing Amazon Elastic File System Replication](https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-elastic-file-system-replication/) Amazon EFS Replication provides you with an easy way to keep an up-to-date copy of your file system in a second AWS Region or within the same Region.
 - [infoq.com: Amazon Announces Elastic File System Replication for Multi-Region Deployments](https://www.infoq.com/news/2022/02/aws-efs-replication/)
+- [medium.com/@fabrizio-cafolla: Dockerize Python for AWS Lambda — Deploy with GitHub Workflow](https://medium.com/@fabrizio-cafolla/dockerize-python-for-aws-lambda-deploy-with-github-workflow-9a930c1e86b1)
 
 ## AWS Management Console
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)

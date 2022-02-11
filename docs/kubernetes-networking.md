@@ -18,6 +18,7 @@
 - [DNS Service with CoreDNS](#dns-service-with-coredns)
 - [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
 - [Kubernetes Sidecars](#kubernetes-sidecars)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -236,6 +237,12 @@
 * [banzaicloud.com: Sidecar container lifecycle changes in Kubernetes 1.18 🌟](https://banzaicloud.com/blog/k8s-sidecars/)
 * [medium: Delaying application start until sidecar is ready](https://medium.com/@marko.luksa/delaying-application-start-until-sidecar-is-ready-2ec2d21a7b74) Taking advantage of a peculiar Kubernetes implementation detail to block containers from starting before another container starts.
 
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T4Z7visMM4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 <details>

@@ -27,6 +27,7 @@
 - [VolSync](#volsync)
 - [Images](#images)
 - [Tweets](#tweets)
+- [Videos](#videos)
 
 ## Introduction
 * [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
@@ -195,4 +196,11 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
     <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">General rule of thumb: there is no such thing as persistent storage in Kubernetes.</p>&mdash; Richard North (@whichrich) <a href="https://twitter.com/whichrich/status/1479435059715321856?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0swOh5C3OVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
