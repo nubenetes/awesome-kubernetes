@@ -9,7 +9,7 @@
 - [SaaS](#saas)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
-  - [Automation Glossary](#automation-glossary)
+	- [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
 - [Microservices Anti Patterns](#microservices-anti-patterns)
@@ -365,7 +365,7 @@
 
 	[![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
 
-  [![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
+  	[![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
 	</center>
 
 ## Videos
