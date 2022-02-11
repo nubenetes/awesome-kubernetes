@@ -364,8 +364,6 @@
 	[![Kubernetes on its own is not enough](images/k8s-not-enough.jpg)](https://twitter.com/brendandburns)
 
 	[![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
-
-  	[![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
 	</center>
 
 ## Videos

@@ -1327,6 +1327,8 @@
     [![dockerswarm vs kubernetes](images/dockerswarm_vs_kubernetes.png)](https://www.imaginarycloud.com/blog/docker-vs-kubernetes/)
 
     ![simple k8s cluster meme](images/simple_k8s_cluster_meme.jfif)
+
+    [![Kubernetes not endgame](images/k8s_not_endgame.jpg)](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
     </center>
 
 ## Videos
