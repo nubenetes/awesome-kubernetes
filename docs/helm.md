@@ -11,6 +11,7 @@
 - [Database Migrations](#database-migrations)
 - [Helm Tools](#helm-tools)
 - [Helm Books](#helm-books)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Helm
@@ -156,6 +157,16 @@ Kubernetes packages
 
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9cwjtN3gkD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cZ1S2Gp47ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CmPK93hg5w8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykwb1d0DXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 <details>
