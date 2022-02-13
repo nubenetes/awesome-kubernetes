@@ -126,6 +126,8 @@
 * [iximiuz.com: Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
 * [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived/)
 * [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)
+* [dev.to: Top 5 Docker Best Practices](https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh)
+* [thenewstack.io: How to Share Data Between Docker Containers](https://thenewstack.io/how-to-share-data-between-docker-containers/)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
@@ -197,6 +199,8 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [cloudsavvyit.com: 10 Tools That Complement Docker](https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker/)
 - [==cybersecsi/RAUDI==](https://github.com/cybersecsi/RAUDI) A repo to automatically generate and keep updated a series of Docker images through GitHub Actions.
 - [grosser/preoomkiller](https://github.com/grosser/preoomkiller) Softly kills your process with SIGTERM before it runs out of memory. Made for processes that run inside docker.
+- [==ory/dockertest==](https://github.com/ory/dockertest) Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. Use Docker to run your Golang integration tests against third party services on Microsoft Windows, Mac OSX and Linux!
+
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)
@@ -260,6 +264,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [podman](https://podman.io/)
 - [==blog.logrocket.com: Top Docker alternatives for 2022==](https://blog.logrocket.com/top-docker-alternatives-2022/)
 - [itnext.io: Replace Docker Desktop with lima](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19) - [lima-vm/lima](https://github.com/lima-vm/lima)
+- [dzone: Alternatives to Docker Desktop](https://dzone.com/articles/alternatives-to-docker-desktop) Have $5 to spend monthly? Do you want to avoid the fee? There are a couple of alternatives that can replace Docker Desktop with a free solution.
 
 ## Videos and Podcasts
 <details>

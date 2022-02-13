@@ -83,6 +83,7 @@
     - [RedHat GitHub Actions](#redhat-github-actions)
 - [Red Hat Process Automation Manager](#red-hat-process-automation-manager)
 - [API Testing and Postman](#api-testing-and-postman)
+- [QR Codes](#qr-codes)
 - [Serverless](#serverless)
 - [Labs](#labs)
 
@@ -749,6 +750,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## API Testing and Postman
 - [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/)
 - [github.com/microsoft/azure-digital-twins-postman-samples](https://github.com/microsoft/azure-digital-twins-postman-samples) The repo contains a single postman_collection.json file that contains a postman collection of requests to the Azure Digital Twins APIs. Currently the focus of the collection is on on the data plan and includes Models, Query, and Twins.
+
+## QR Codes
+- [hasura.io: A Simple, Realtime, Event Driven Architecture with QR Codes](https://hasura.io/blog/a-simple-real-time-event-driven-architecture-with-qr-codes/)
 
 ## Serverless
 - [sitepoint.com: A Guide to Serverless Functions and How to Deploy Them](https://www.sitepoint.com/gatsby-mdx-blog/)

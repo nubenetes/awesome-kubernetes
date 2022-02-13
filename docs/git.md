@@ -418,6 +418,8 @@ git push origin -f
 * [==github.blog: How to build a CI/CD pipeline with GitHub Actions in four simple steps==](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/) A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.
 * [cloudsavvyit.com: How to Use Github Actions to Automate Your Repository Builds](https://www.cloudsavvyit.com/15207/how-to-use-github-actions-to-automate-your-repository-builds/)
 * [github.blog: How to start using reusable workflows with GitHub Actions](https://github.blog/2022-02-10-using-reusable-workflows-github-actions/) Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.
+* [github.blog: Getting started with project planning on GitHub](https://github.blog/2022-02-11-getting-started-with-project-planning-on-github/) Stop context switching. Keep your team’s project planning next to your code.
+* [freecodecamp.org: How to Fork a GitHub Repository – A Complete Workflow](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
