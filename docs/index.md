@@ -90,6 +90,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Based Development](kubernetes-based-devel.md)
     - [Kubernetes On Premise](kubernetes-on-premise.md)
     - [==Managed kubernetes in public clouds== 🌟](managed-kubernetes-in-public-cloud.md)
+    - [Kubernetes Troubleshooting](kubernetes-troubleshooting.md)
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
