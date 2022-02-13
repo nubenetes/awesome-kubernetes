@@ -9,6 +9,7 @@
 - [Jenkins & Gatling](#jenkins--gatling)
 - [Azure Load Testing Service](#azure-load-testing-service)
 - [Alternatives](#alternatives)
+- [Videos](#videos)
 
 ## Introduction
 * [Dzone: 14 Best Performance Testing Tools and APM Solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
@@ -95,3 +96,10 @@
 * [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
 * [==Iter8==](https://iter8.tools/) Kubernetes Release Optimizer
 	* [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos/) Iter8’s command-line interface (CLI) makes it simple and easy to set up load tests for HTTP services with SLO specifications, verify that the target service meets the SLOs, and create a visual report of the load test.
+
+## Videos
+??? note "Click to expand!"
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_l8yIqMpWT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
