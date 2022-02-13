@@ -450,6 +450,7 @@
 * [particledecay/kconf](https://github.com/particledecay/kconf) Manage multiple kubeconfigs easily
 * [maruina/aws-auth-manager: K8s controller to manage the aws-auth configmap](https://github.com/maruina/aws-auth-manager) A kuberneres controller to manage the aws-auth configmap in EKS using a new AWSAuthItem CRD.
 * [segmentio/kubectl-curl: Kubectl plugin to run curl commands against kubernetes pods](https://github.com/segmentio/kubectl-curl)
+* [wallarm/sysbindings](https://github.com/wallarm/sysbindings) sysctl/sysfs settings on a fly for Kubernetes Cluster. No restarts are required for clusters and nodes.
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.

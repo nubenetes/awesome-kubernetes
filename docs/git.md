@@ -182,6 +182,7 @@
 ## Git Interview Questions
 - [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
 - [automationreinvented.blogspot.com: Top GIT Interview question Set-03 for SDET/Testers/Developers/DevOps?](https://automationreinvented.blogspot.com/2021/05/top-git-interview-question-set-03-for.html)
+- [automationreinvented.blogspot.com: Top 40 GIT Interview Questions and Answers for SDET - DevOps - Automation QA? Useful GIT commands to refer for daily DevOps Tasks?](https://automationreinvented.blogspot.com/2021/09/top-40-git-interview-questions-and.html)
 
 ## Shields
 - [shields.io 🌟](https://shields.io/)
@@ -606,6 +607,7 @@ Automate them.
 ??? note "Click to expand!"
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlmZLXMOpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R8_veQiYBjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/R8_veQiYBjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 

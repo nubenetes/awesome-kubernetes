@@ -80,6 +80,9 @@
 - [medium.com/@samng1991216: Building Kubernetes Operator Application from Scratch (Part 1)](https://medium.com/@samng1991216/building-kubernetes-operator-application-from-scratch-part-1-211b6b2467df)
 - [redhat-cop/dynamic-rbac-operator: Dynamic RBAC Operator](https://github.com/redhat-cop/dynamic-rbac-operator) Flexible definitions of Kubernetes RBAC rules. Writing Kubernetes RBAC definitions by hand can be a pain. This operator allows you to define "Dynamic" RBAC rules that change based on the state of your cluster, so you can spend your time writing the RBAC patterns that you'd like to deploy, rather than traditional, fully enumerated RBAC rules.
 - [spotify/flink-on-k8s-operator: Kubernetes Operator for Apache Flink](https://github.com/spotify/flink-on-k8s-operator) Kubernetes operator for that acts as control plane to manage the complete deployment lifecycle of Apache Flink applications. This is an open source fork of GoogleCloudPlatform/flink-on-k8s-operator with several new features and bug fixes.
+- [kube-green](https://kube-green.dev) An operator to reduce CO2 footprint of your clusters.
+    - Sleep your pods: Suspend your pods when no-one's using them, scale down your cluster and save energy
+    - Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.

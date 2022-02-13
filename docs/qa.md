@@ -96,6 +96,7 @@ the #1 test automation community.
     * [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana/)
 * [==circleci.com: Unit testing vs integration testing== 🌟](https://circleci.com/blog/unit-testing-vs-integration-testing/)
 * [==reviewdog - A code review dog who keeps your codebase healthy.==](https://github.com/reviewdog/reviewdog) 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
+* [==dzone: Component Tests for Spring Cloud Microservices==](https://dzone.com/articles/component-tests-for-spring-cloud-microservices) In this tutorial, we discussed guidelines and considerations for Spring Cloud microservices component tests and provided a recipe for common use cases.
 
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)

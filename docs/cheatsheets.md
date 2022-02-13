@@ -127,6 +127,7 @@
 - [Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc. 🌟](https://learnk8s.io/research) A research hub to collect all knowledge around Kubernetes. Those are in-depth reports and comparisons designed to drive your decisions. Should you use GKE, AKS, EKS? How many nodes? What instance type?
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
+- [==manifests.io== 🌟](https://manifests.io)
 
 ## Kubernetes and Kubectl Cheat Sheets
 * [developers.redhat.com: Kubernetes Cheat Sheet](https://developers.redhat.com/cheat-sheets/kubernetes/)
@@ -372,6 +373,7 @@
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [freecodecamp.org: Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet/)
 - [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code. 
+- [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
 
 ## Kafka
 - [codingharbour.com: kafkacat cheatsheet](https://codingharbour.com/kafkacat-cheatsheet/) Kafkacat is a versatile tool for producing and consuming messages, as well as exploring the cluster and topic metadata. Download the 1-page cheatsheet to get the most out of this awesome CLI tool.

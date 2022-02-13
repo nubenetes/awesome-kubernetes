@@ -60,6 +60,7 @@
 
 ## Azure Training
 - https://github.com/johnthebrit/CertificationMaterials
+- [==azurecharts.com/learning: Azure Learning Explorer==](https://azurecharts.com/learning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest. 
 
 ## Understand Azure Load Balancing
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
