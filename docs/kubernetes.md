@@ -317,9 +317,11 @@
     * [ithands-on.com: Kubernetes 101 : The externalName service](https://www.ithands-on.com/2021/06/kubernetes-101-externalname-service.html)
 * [dev.to: Kubernetes Crash Course for Absolute Beginners](https://dev.to/techworld_with_nana/kubernetes-crash-course-for-absolute-beginners-35pc)
 * [dev.to: Let's Learn Kubernetes Series' Articles](https://dev.to/pghildiyal/series/14818)
-* [==youtube playlist: Tech World with Nana - Docker and Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb)
+* [==youtube playlist: Tech World with Nana - Docker and Kubernetes Tutorial for Beginners== 🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb)
+* [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
 
 <center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
@@ -1298,7 +1300,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NpT9RraqKdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H1XuI25SMs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FAnQTgr04mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s_o8dwzRlu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7KUdmFyefSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pPQKAR1pA9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
