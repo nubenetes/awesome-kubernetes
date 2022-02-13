@@ -56,6 +56,7 @@
 - [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
 - [Data Lakes](#data-lakes)
 - [Graph Databases](#graph-databases)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -956,6 +957,13 @@ oc adm policy add-scc-to-user anyuid system:serviceaccount:pgophub:default
 ## Graph Databases
 - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) Tiny ORM for graph databases: Neo4j, RedisGraph, AWS Neptune or Gremlin
 - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f) It’s easy to come up with some answers by simply Googling the topic, however, as I found, most answers list benefits mostly superficially
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OqCK95AS-YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 <details>
