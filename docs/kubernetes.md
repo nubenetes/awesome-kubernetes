@@ -1051,6 +1051,10 @@
 * [dev.to: Let's Learn Kubernetes Series' Articles](https://dev.to/pghildiyal/series/14818)
 * [==youtube playlist: Tech World with Nana - Docker and Kubernetes Tutorial for Beginners== 🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb)
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 ### Online Training
 * [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
 * [kubernetesbyexample.com](http://kubernetesbyexample.com/)
