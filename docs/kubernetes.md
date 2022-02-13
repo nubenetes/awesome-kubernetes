@@ -1286,7 +1286,6 @@
   <summary>Click to expand!</summary>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VnvRFRk_51k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/umXEmn3cMWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Krpb44XR0bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
