@@ -67,7 +67,6 @@
         - [Kubernetes SIG's Repos](#kubernetes-sigs-repos)
         - [Kubectl Plugins](#kubectl-plugins)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
-- [Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](#provisioning-cloud-resources-aws-gcp-azure-in-kubernetes)
 - [Kubernetes Tutorials](#kubernetes-tutorials)
     - [Online Training](#online-training)
     - [K8s Diagrams](#k8s-diagrams)
@@ -998,9 +997,6 @@
 * [kconnect - The Kubernetes Connection Manager CLI](https://github.com/fidelity/kconnect) kconnect is a CLI utility that can be used to discover and securely access Kubernetes clusters across multiple operating environments. Based on the authentication mechanism chosen the CLI will discover Kubernetes clusters you are allowed to access in a target hosting environment (i.e. EKS, AKS, Rancher) and generate a kubeconfig for a chosen cluster.
 * [konstraint](https://github.com/plexsystems/konstraint) is a CLI tool to assist with the creation and management of templates and constraints when using [Gatekeeper](https://github.com/open-policy-agent/gatekeeper).
 * [Draino](https://github.com/planetlabs/draino) Draino automatically drains Kubernetes nodes based on labels and node conditions. Nodes that match all of the supplied labels and any of the supplied node conditions will be cordoned immediately and drained after a configurable drain-buffer time.
-
-## Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes
-* [==learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes==](https://learnk8s.io/cloud-resources-kubernetes)
 
 ## Kubernetes Tutorials
 * [kubernetes.io: Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) Official documentation from Kubernetes. One can go through this official documentation and can learn much more about Kubernetes.

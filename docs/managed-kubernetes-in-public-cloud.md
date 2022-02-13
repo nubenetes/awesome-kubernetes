@@ -13,6 +13,7 @@
 - [IKS IBM Cloud Kubernetes Service](#iks-ibm-cloud-kubernetes-service)
     - [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
     - [DOKS Digital Ocean Kubernetes](#doks-digital-ocean-kubernetes)
+- [Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](#provisioning-cloud-resources-aws-gcp-azure-in-kubernetes)
 - [Kubesphere](#kubesphere)
 - [Tools for multi-cloud Kubernetes management](#tools-for-multi-cloud-kubernetes-management)
 - [Videos](#videos)
@@ -245,6 +246,9 @@
 - [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes/)
 - [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech_talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes)
 - [blog.ediri.io: DigitalOcean Kubernetes Challenge](https://blog.ediri.io/digitalocean-kubernetes-challenge) Deploy a GitOps CI/CD implementation
+
+## Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes
+- [==learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes==](https://learnk8s.io/cloud-resources-kubernetes)
 
 ## Kubesphere
 - [kubesphere.io](https://kubesphere.io/) The Kubernetes platform tailored for hybrid multicloud. KubeSphere is a distributed operating system managing cloud native applications with Kubernetes as its kernel, and provides plug-and-play architecture for the seamless integration of third-party applications to boost its ecosystem.
