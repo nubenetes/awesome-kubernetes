@@ -133,6 +133,7 @@ nav:
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
     - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
     - Jenkins & Cloudbees: jenkins.md
+    - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
     - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
     - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
     - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
