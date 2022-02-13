@@ -3,6 +3,7 @@
 - [Secretize plugin](#secretize-plugin)
 - [Comparison between Helm and Kustomize for Kubernetes yaml management](#comparison-between-helm-and-kustomize-for-kubernetes-yaml-management)
 - [Boilerplate](#boilerplate)
+- [Videos](#videos)
 
 ## Introduction
 - [kustomize.io](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into ```kubectl``` as ```apply -k```.
@@ -26,3 +27,10 @@
 
 ## Boilerplate
 - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1fCAwFGX38U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
