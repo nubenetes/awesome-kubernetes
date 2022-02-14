@@ -93,7 +93,6 @@
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Slack Channel](#kubernetes-slack-channel)
-- [Slides](#slides)
 - [Bunch of images](#bunch-of-images)
 - [Videos](#videos)
 - [Spanish Videos](#spanish-videos)
@@ -1180,12 +1179,6 @@
 - [kubernetes.slack.com](https://kubernetes.slack.com)
 - [slack.kubernetes.io](http://slack.kubernetes.io) is the way to get yourself invited.
 
-## Slides
-??? note "Click to expand!"
-
-    <center>
-    <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e1c397b2aa67470e9204f82f938fec78?slide=1" title="KubeCologne keynote—Troubleshooting Kubernetes apps" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;" data-ratio="1.78343949044586"></iframe>
-    </center>
 ## Bunch of images
 ??? note "Click to expand!"
 

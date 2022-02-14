@@ -66,6 +66,7 @@
 
 ## API Testing Interview Questions
 - [automationreinvented.blogspot.com: Top 30 API Testing Interview Questions & Answers for SDET/API Automation-Rest Assured? SET-03](https://automationreinvented.blogspot.com/2020/11/top-30-api-testing-interview-questions.html)
+- [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers-2/)
 
 ## State of the API Report
 ### Postman State of the API Report
