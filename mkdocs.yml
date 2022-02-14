@@ -107,6 +107,7 @@ nav:
   - Docker: docker.md
   - Kubernetes: 
     - Kubernetes: kubernetes.md
+    - Kubernetes Tutorials: kubernetes-tutorials.md
     - Kubernetes Plugins, Tools, Extensions and Projects: kubernetes-tools.md
     - kubectl Commands: kubectl-commands.md
     - Kubernetes Networking: kubernetes-networking.md

@@ -63,9 +63,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Site Reliability Engineering (SRE)](sre.md)
 - [FinOps - Cloud Financial Management](finops.md)
 ## DevOps
-- [DevOps 🌟](devops.md)
+- [==DevOps==](devops.md)
 - [Cheat Sheets 🌟](cheatsheets.md)
-- [==GitOps== 🌟](gitops.md)
+- [==GitOps==](gitops.md)
 - [MLOps](mlops.md)
 - [Chaos Engineering](chaos-engineering.md)
 ## Security and DevSecOps. Container Security
@@ -77,7 +77,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Docker
 - [Docker](docker.md)
 ## Kubernetes
-- [==Kubernetes== 🌟](kubernetes.md)
+- [==Kubernetes==](kubernetes.md)
+    - [==Kubernetes Tutorials==](kubernetes-tutorials.md)
     - [Kubernetes Plugins, Tools, Extensions and Projects 🌟](kubernetes-tools.md)
     - [kubectl Commands](kubectl-commands.md)
     - [Kubernetes Networking](kubernetes-networking.md)
@@ -141,7 +142,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [YAML and JSON 🌟](yaml.md)
 ## Infrastructure Management Tools
 - [IaC Infrastructure as Code](iac.md)
-- [==Terraform & Packer.Kubernetes Boilerplates== 🌟](terraform.md)
+- [==Terraform & Packer.Kubernetes Boilerplates==](terraform.md)
 - [Pulumi](pulumi.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Cloud Asset Inventory](cloud-asset-inventory.md)
@@ -160,9 +161,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Big Data](bigdata.md)
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
-- [==AWS== 🌟](aws.md)
-- [==Google Cloud Platform== 🌟](GoogleCloudPlatform.md)
-- [==Microsoft Azure== 🌟](azure.md)
+- [==AWS==](aws.md)
+- [==Google Cloud Platform==](GoogleCloudPlatform.md)
+- [==Microsoft Azure==](azure.md)
 - [IBM & IBM Cloud](ibm_cloud.md)
 - [Oracle Cloud](oraclecloud.md) 
 - [Digital Ocean](digitalocean.md)

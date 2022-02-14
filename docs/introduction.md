@@ -287,6 +287,7 @@
 
 ## PaaS
 - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
+- [==ramansharma.substack.com: Containers are not just for Kubernetes==](https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd) Why cloud based PaaS and Containers make a solid combination for most developers
 
 ## Micro Frontend Architecture
 - [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8) Monolithic frontends are difficult to maintain, develop, test, and deploy. The solution is micro frontends. It is a type of architecture that can increase effectiveness and efficiency across teams.

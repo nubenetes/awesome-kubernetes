@@ -255,6 +255,7 @@
 * [stacksimplify.com: DevOps with AWS CodePipeline on AWS EKS](https://www.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline/)
 * [medium: AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)
 * [github.com/stacksimplify/aws-eks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/aws-eks-kubernetes-masterclass)
+* [hbollon/k8s-voting-app-aws](https://github.com/hbollon/k8s-voting-app-aws) Example of a distributed voting app running on Kubernetes. Written in Golang with Terraform definitions to deploy to AWS EKS
 
 ### Azure AKS
 * [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)

@@ -39,3 +39,4 @@
 * [kubernetes.io: Kubernetes 1.23: The Next Frontier](https://kubernetes.io/blog/2021/12/07/kubernetes-1-23-release-announcement/)
 * [loft.sh: Kubernetes 1.23 Release](https://loft.sh/blog/kubernetes-1.23-release/)
 * [infoq.com: Kubernetes Proceeding with Deprecation of Dockershim in Upcoming 1.24 Release](https://www.infoq.com/news/2022/01/kubernetes-dockershim-removal/)
+* [==blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application?==](https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7)
