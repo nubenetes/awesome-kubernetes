@@ -5,6 +5,7 @@
 - [ECK Elastic Cloud on Kubernetes](#eck-elastic-cloud-on-kubernetes)
 - [Telegraf Operator](#telegraf-operator)
 - [Monitoring Certificates Expiration](#monitoring-certificates-expiration)
+- [Videos](#videos)
 
 ## Introduction
 * [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
@@ -60,3 +61,10 @@
 
 ## Monitoring Certificates Expiration
 - [itnext.io: Monitoring Certificates Expiration in Kubernetes with X.509 Exporter](https://itnext.io/monitoring-certificates-expiration-in-kubernetes-with-x-509-exporter-8030b69f611d)
+
+## Videos
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5ofsNyHZwWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
