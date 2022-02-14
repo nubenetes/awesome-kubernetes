@@ -8,6 +8,7 @@
 - [Docker Swarm](#docker-swarm)
 - [Simplenetes](#simplenetes)
 - [More Comparisons](#more-comparisons)
+- [Images](#images)
 - [Videos](#videos)
 
 ## Why Not Use Kubernetes
@@ -64,6 +65,15 @@
 - [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes/)
 - [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.itprotoday.com/hybrid-cloud-and-multicloud/4-alternatives-kubernetes-container-orchestrator) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
 
+## Images
+??? note "Click to expand!"
+
+    <center>
+    [![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
+
+    [![when to choose kubernetes](images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
+    </center>
+
 ## Videos
 ??? note "Click to expand!"
 
@@ -71,11 +81,5 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
----
-<center>
-[![Kubernetes vs Docker Swarm](images/kubernetes-vs-dockerswarm.png)](https://www.cuelogic.com/blog/kubernetes-vs-docker-swarm)
-
-[![when to choose kubernetes](images/when_to_choose_kubernetes.jpeg)](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22)
-</center>
 
 
