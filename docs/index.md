@@ -127,6 +127,13 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Monitoring and Performance 🌟](monitoring.md)
 - [Prometheus](prometheus.md)
 - [Grafana](grafana.md)
+## Infrastructure Provisioning. Infra Management Tools
+- [IaC Infrastructure as Code](iac.md)
+- [==Terraform & Packer.Kubernetes Boilerplates==](terraform.md)
+- [Pulumi](pulumi.md)
+- [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
+- [Cloud Asset Inventory](cloud-asset-inventory.md)
+
 ## Configuration Management
 - [==Ansible==](ansible.md)
 - [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
@@ -140,12 +147,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Database Version Control. Liquibase, Flyway and PlanetScale 🌟](liquibase.md)
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [YAML and JSON 🌟](yaml.md)
-## Infrastructure Management Tools
-- [IaC Infrastructure as Code](iac.md)
-- [==Terraform & Packer.Kubernetes Boilerplates==](terraform.md)
-- [Pulumi](pulumi.md)
-- [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
-- [Cloud Asset Inventory](cloud-asset-inventory.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps 🌟](databases.md)
 - [NoSQL Databases](nosql.md)

@@ -154,6 +154,12 @@ nav:
     - Monitoring and Performance: monitoring.md
     - Prometheus: prometheus.md
     - Grafana: grafana.md
+  - Infra Provisioning:
+    - IaC Infrastructure as Code: iac.md
+    - Terraform & Packer.Kubernetes Boilerplates: terraform.md
+    - Pulumi: pulumi.md
+    - Crossplane: crossplane.md
+    - Cloud Asset Inventory: cloud-asset-inventory.md
   - Config Mgmt:
     - Ansible: ansible.md
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
@@ -166,12 +172,6 @@ nav:
     - Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK: kubernetes-client-libraries.md
     - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - YAML and JSON: yaml.md
-  - Infra Mgmt Tools:
-    - IaC Infrastructure as Code: iac.md
-    - Terraform & Packer.Kubernetes Boilerplates: terraform.md
-    - Pulumi: pulumi.md
-    - Crossplane: crossplane.md
-    - Cloud Asset Inventory: cloud-asset-inventory.md
   - Databases: 
     - Relational Databases and Database DevOps: databases.md
     - NoSQL Databases: nosql.md
