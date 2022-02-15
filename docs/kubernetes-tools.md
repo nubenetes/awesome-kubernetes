@@ -58,6 +58,7 @@
 - [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
 - [Azure AAD Pod Identity](#azure-aad-pod-identity)
 - [MicroShift](#microshift)
+- [kubefwd (Kube Forward)](#kubefwd-kube-forward)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -676,6 +677,9 @@
 - It requires only 2GB to run
 - You can run it as a container with Docker or Podman
 - It is a very trimmed version of OpenShift without many features
+
+## kubefwd (Kube Forward)
+- [==txn2/kubefwd==](https://github.com/txn2/kubefwd) Kubernetes port forwarding for local development.
 
 ## Tweets
 <details>
