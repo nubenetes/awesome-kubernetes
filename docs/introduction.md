@@ -271,6 +271,7 @@
 - [==acloudguru.com: 3 ways to practice migrating workloads to the cloud==](https://acloudguru.com/blog/engineering/3-ways-to-practice-migrating-workloads-to-the-cloud) Rehosting, Replatforming & Refactoring. 
 ## Microservices Failures
 - [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
+- [==infoq.com: 7 Ways to Fail at Microservices==](https://www.infoq.com/articles/microservices-seven-fail/)
 
 ## Transform Legacy Java Apps to Microservices with automation tools
 - [devops.com: Transform Legacy Java Apps to Microservices with vFunction](https://devops.com/transform-legacy-java-apps-to-microservices/)

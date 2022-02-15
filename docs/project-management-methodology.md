@@ -218,6 +218,8 @@
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/Empleo?src=hash&amp;ref_src=twsrc%5Etfw">#Empleo</a> | Si nuestra &#39;tribu&#39; se encuentra bajo amenaza, el instinto nos llama a cerrar filas en lugar de buscar lo que es mejor para toda la organización <a href="https://t.co/x81ashw12O">https://t.co/x81ashw12O</a></p>&mdash; expansioncom (@expansioncom) <a href="https://twitter.com/expansioncom/status/1487788912378585092?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My manager yelled at me today for writing too many docs and I feel every female software engineer needs to hear this every day</p>&mdash; Guinevere Saenger (@guincodes) <a href="https://twitter.com/guincodes/status/1489308647851053057?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">After looking at the problem:<br><br>JS developer: <br>&quot;I bet there is a library for that&quot;<br><br>Experienced JS developer: <br>&quot;I bet I can write a library for that&quot;<br><br>Next level JS developer: <br>&quot;I bet I can release a new framework for doing this&quot;</p>&mdash; Dushyant.yaml (@DevDminGod) <a href="https://twitter.com/DevDminGod/status/1493154795586453505?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

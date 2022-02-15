@@ -27,6 +27,9 @@
 - [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)
+- [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code. 
+- [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
+- [github.blog: Include diagrams in your Markdown files with Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.
 
 ## GitHub Pages
 - [pages.github.com](https://pages.github.com/)
