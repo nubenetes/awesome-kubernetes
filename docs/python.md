@@ -26,6 +26,7 @@
 - [Python Libraries](#python-libraries)
 - [Python Snippets](#python-snippets)
 - [Slides](#slides)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Python Blogs and Forums
@@ -351,6 +352,16 @@
 <p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View PEP-8 Cheatsheet (2009) on Scribd" href="https://www.scribd.com/document/207247675/PEP-8-Cheatsheet-2009#from_embed"  style="text-decoration: underline;" >PEP-8 Cheatsheet (2009)</a> by <a title="View Veeraj Shenoy's profile on Scribd" href="https://www.scribd.com/user/247744721/Veeraj-Shenoy#from_embed"  style="text-decoration: underline;" >Veeraj Shenoy</a> on Scribd</p><iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/207247675/content?start_page=1&view_mode=scroll&access_key=key-10eg916shk5wa33gdrtb&show_recommendations=true" data-auto-height="false" data-aspect-ratio="1.2941176470588236" scrolling="no" id="doc_1222" width="100%" height="600" frameborder="0"></iframe>
 </center>
 </details>
+
+## Videos
+??? note "Click to expand!"
+
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/s8XjEuplx_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/74NW-84BqbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/qbLc5a9jdXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/l7F8L-Uwdi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 <details>
