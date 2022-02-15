@@ -180,6 +180,7 @@
 * [pauldally.medium.com: Kubernetes Application High-Availability — Part 1 (The Very-Basic Basics)](https://pauldally.medium.com/kubernetes-application-high-availability-part-1-the-very-basic-basics-660a14fa81c7)
     * [pauldally.medium.com: Kubernetes Application High-Availability — Part 2 (More Basics)](https://pauldally.medium.com/kubernetes-application-high-availability-part-2-more-basics-a1d9f9beea75)
 * [buttondown.email: Two reasons Kubernetes is so complex](https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/)
+* [==opensource.com: A guide to Kubernetes architecture==](https://opensource.com/article/22/2/kubernetes-architecture) Learn how the different components of Kubernetes architecture fit together so you can be better equipped to diagnose problems, maintain a healthy cluster, and optimize your own workflow.
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
