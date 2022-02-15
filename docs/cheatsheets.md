@@ -182,7 +182,7 @@
 - [github.com: Docker cheat Sheet](https://github.com/wsargentdocker-cheat-sheet)
 - [linuxhero.tk: Docker command cheat sheet](https://linuxhero.tkdockercommands/)
 - [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/docker-commands-cheat-sheet)
-- [intellipaat.com: Docker Cheat Sheet (2019, pdf)](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
+- [intellipaat.com: Docker Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/docker-cheat-sheet) - [2019, pdf](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
 - [design.jboss.org/redhatdeveloper: docker CLI & Dockerfile Cheat Sheet 🌟](https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf)
 - [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
 - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
