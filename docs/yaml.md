@@ -2,6 +2,7 @@
 - [Templating YAML Files](#templating-yaml-files)
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
+    - [YAML Validators](#yaml-validators)
     - [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
     - [Kubernetes examples](#kubernetes-examples)
     - [Helm and Kustomize](#helm-and-kustomize)
@@ -46,9 +47,14 @@
     - [dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9)
     - [towardsdatascience.com: yq: Mastering YAML Processing in Command Line 🌟](https://towardsdatascience.com/yq-mastering-yaml-processing-in-command-line-e1ff5ebc0823) Learn to parse and manipulate YAML files more efficiently using yq command-line utility and this simple cheat sheet
 - [Kapitan](https://kapitan.dev/) Generic templated configuration management for Kubernetes, Terraform and other things.
-- [yaml.sh](https://www.yaml.sh/) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec) 
+- [azohra/yaml.sh](https://github.com/azohra/yaml.sh) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec) 
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
+
+### YAML Validators
+- [==yamllint.com: YAML Lint - The YAML Validator==](http://www.yamllint.com)
+- [==codebeautify.org/yaml-validator==](https://codebeautify.org/yaml-validator)
+- [==jsonformatter.org/yaml-validator==](https://jsonformatter.org/yaml-validator)
 
 ### Other YAML Tools. How to create Kubernetes YAML files
 - [==onlineyamltools.com== 🌟](https://onlineyamltools.com) 
