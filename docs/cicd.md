@@ -96,6 +96,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [medium.com/dynatrace-engineering: How to combine and automate infrastructure and application deployment in a microservice environment](https://medium.com/dynatrace-engineering/how-to-combine-and-automate-infrastructure-and-application-deployment-in-a-microservice-environment-a16b664bb8b5) A collection of best practices to improve your confidence in your deployed applications.
 * [thenewstack.io: 4 Best Practices to Drive Successful Adoption of CI/CD ](https://thenewstack.io/four-best-practices-to-drive-successful-adoption-of-ci-cd/)
 * [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/)
+* [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://harness.io/blog/software-delivery-best-practices/)
 
 ## Observability
 - [==betanews.com: Overcoming observability challenges in the CI/CD Pipeline==](https://betanews.com/2022/01/26/overcoming-observability-challenges/)
