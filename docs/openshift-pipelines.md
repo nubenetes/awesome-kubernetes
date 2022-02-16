@@ -124,20 +124,14 @@
 * [openshift.com: OpenShift Pipelines Advanced Triggers Part 1 - Triggering Different Project Builds in the Same Repository](https://www.openshift.com/blog/openshift-pipelines-advanced-triggers-part-1-triggering-different-project-builds-in-the-same-repository)
 
 #### Tekton and Tekton Pipelines
-* [tekton.dev](https://tekton.dev/)
-* [tekton.dev/try: Interactive Tutorials](https://tekton.dev/try/)
-* [Tekton community](https://github.com/tektoncd/community)
-* [github: Tekton Pipelines](https://github.com/tektoncd/pipeline)
-* [Tekton Pipelines Docs](https://tekton.dev/docs/pipelines/pipelines/)
-* [opensource.googleblog.com: The Tekton Pipelines Beta release](https://opensource.googleblog.com/2020/05/the-tekton-pipelines-beta-release.html)
-* [tekline 🌟](https://github.com/joyrex2001/tekline) tekline is a tekton delegated-pipeline to enable a bring-your-own pipeline configuration.
+* [==Tekton and Tekton Pipelines==](tekton.md)
 
 ## Videos
 <details>
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQ8H7XNbQ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 
@@ -146,12 +140,8 @@
   <summary>Click to expand!</summary>
 
 <center>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> von <strong><a href="https://www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/GNg4EksIW8cNFg" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins" title="CI/CD with Openshift and Jenkins" target="_blank">CI/CD with Openshift and Jenkins</a> </strong> from <strong><a href="//www.slideshare.net/arilivigni" target="_blank">Ari LiVigni</a></strong> </div>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/rL59hI2J3e7j6T" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy" title="OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy" target="_blank">OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy</a> </strong> from <strong><a href="https://www.slideshare.net/mozillabros" target="_blank">Natale Vinto</a></strong> </div>
-
-<script async class="speakerdeck-embed" data-id="d3d70ab67e894e74912beb835e927d10" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-<script async class="speakerdeck-embed" data-id="63bd2b3c53d748b0be8e2f91ac3e6870" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/rL59hI2J3e7j6T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mozillabros/openshift-container-platform-cicd-build-deploy" title="OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy" target="_blank">OPENSHIFT CONTAINER PLATFORM CI/CD Build &amp; Deploy</a> </strong> from <strong><a href="//www.slideshare.net/mozillabros" target="_blank">Natale Vinto</a></strong> </div>
 </center>
 </details>

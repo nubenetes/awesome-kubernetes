@@ -164,6 +164,7 @@ nav:
     - Ansible: ansible.md
     - Argo CD - Declarative GitOps for Kubernetes: argocd.md
     - Flux - The GitOps Operator for Kubernetes: flux.md
+    - Tekton: tekton.md
     - Helm Kubernetes Tool: helm.md
     - Kustomize - Template-Free Kubernetes Configuration Customization: kustomize.md
     - StackStorm: stackstorm.md
