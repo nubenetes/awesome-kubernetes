@@ -52,6 +52,7 @@
 - [Helm Charts Security. Helm Secrets](#helm-charts-security-helm-secrets)
 - [Password Recovery](#password-recovery)
 - [Attacks on Kubernetes via Misconfigured Argo Workflows](#attacks-on-kubernetes-via-misconfigured-argo-workflows)
+- [PKI](#pki)
 - [Network Intrusion Tools](#network-intrusion-tools)
 - [Other Security Tools](#other-security-tools)
 	- [Torq. No code Security Automation](#torq-no-code-security-automation)
@@ -502,6 +503,9 @@
 
 ## Attacks on Kubernetes via Misconfigured Argo Workflows
 - [intezer.com: New Attacks on Kubernetes via Misconfigured Argo Workflows](https://www.intezer.com/blog/container-security/new-attacks-on-kubernetes-via-misconfigured-argo-workflows/)
+
+## PKI
+- [==devops.com: How to Automate PKI for DevOps With Open Source Tools==](https://devops.com/how-to-automate-pki-for-devops-with-open-source-tools/) The ultimate goal of PKI for DevOps is to provision PKI credentials for business applications without hard-coded secrets, which is one less risk to concern the security team. The goal of DevOps for PKI is to automatically deploy a completely configured PKI solution, which is one less roadblock for DevOps teams. 
 
 ## Network Intrusion Tools
 - [==cybersecsi/HOUDINI: Hundreds of Offensive and Useful Docker Images for Network Intrusion==](https://github.com/cybersecsi/HOUDINI) - https://houdini.secsi.io

@@ -59,6 +59,7 @@
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
+- [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery. In this post you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
 
 ## Building container images
 - [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/)

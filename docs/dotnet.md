@@ -32,6 +32,7 @@
 - [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b)
 - [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package)
 - [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022.aspx)
+- [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/nuget/introducing-compatible-frameworks-on-nuget-org/)
 
 ## Polly .NET resilience and transient-fault-handling library 
 - [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
