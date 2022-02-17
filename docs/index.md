@@ -189,9 +189,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Microsoft .NET](dotnet.md)
 - [Microsoft Xamarin](xamarin.md)
 ### Java
-- [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
+- [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more](java_frameworks.md)
 - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
-- [Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
+- [Java Parameters Matrix Table](jvm-parameters-matrix-table.md)
 ### Dev Environment 
 - [Visual Studio Code 🌟](visual-studio.md)
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
