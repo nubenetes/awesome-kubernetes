@@ -96,11 +96,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 ## Red Hat OpenShift
-- [OpenShift 🌟](openshift.md)
+- [OpenShift](openshift.md)
 - [OCP 3](ocp3.md)
-- [OCP 4 🌟](ocp4.md)
+- [OCP 4](ocp4.md)
 ## SUSE Rancher
-- [Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
+- [Rancher - Enterprise management for Kubernetes](rancher.md)
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
@@ -108,7 +108,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Jenkins & CloudBees 😀](jenkins.md)
 - [Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc](performance-testing-with-jenkins-and-jmeter.md)
 ### OpenShift Pipelines
-- [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
+- [OpenShift Pipelines with Jenkins, Tekton and more...](openshift-pipelines.md)
 ### Jenkins Alternatives. Cloud Native CI/CD Tools
 - [Jenkins Alternatives for Continuous Integration & Deployment 🌟](jenkins-alternatives.md)
 - [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
