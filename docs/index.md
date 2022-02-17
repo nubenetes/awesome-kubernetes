@@ -112,7 +112,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ### Jenkins Alternatives. Cloud Native CI/CD Tools
 - [Jenkins Alternatives for Continuous Integration & Deployment 🌟](jenkins-alternatives.md)
 - [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
-- [Flux - The GitOps Operator for Kubernetes 🌟](flux.md)
+- [Flux CD - The GitOps Operator for Kubernetes 🌟](flux.md)
 - [Tekton - Cloud Native CI/CD 🌟](tekton.md)
 ### Toolchain
 - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
