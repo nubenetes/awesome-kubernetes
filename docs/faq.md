@@ -28,6 +28,7 @@
 - [blog.risingstack.com: Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
 - [faun.pub: Complete Guide to Monolithic vs. Microservices Architecture](https://faun.pub/complete-guide-to-monolithic-vs-microservices-architecture-fe1858c2cfef?gi=e90ac9ae47ab)
 - [dev.to: When are microservices appropriate?](https://dev.to/tngeene/when-are-microservices-appropriate-g2n)
+- [==devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration==](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) **From Old to New Migrating VM Workloads to Containers. DevOps Meets SecOps: Building Security & Quality Gate Automations. Accelerate the Migration to Kubernetes**
 
 ## History of Microservices
 - [History of Microservices](https://bit.ly/kubeappserver)

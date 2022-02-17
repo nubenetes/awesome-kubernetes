@@ -1,6 +1,7 @@
 # DevOps 
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [Automation Glossary](#automation-glossary)
+- [Blogs](#blogs)
 	- [Automation anxiety](#automation-anxiety)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
@@ -11,7 +12,6 @@
 - [Serverless DevOps](#serverless-devops)
 - [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
 - [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-- [Blogs](#blogs)
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
 	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
@@ -49,6 +49,14 @@
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
+
+## Blogs
+- [devops.com](https://devops.com/)
+- [devopscube.com](https://devopscube.com/)
+- [devopszone.info](https://www.devopszone.info/)
+- [devopsdigest.com](https://www.devopsdigest.com/)
+- [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
+- [devopstips.net](https://devopstips.net/)
 
 ### Automation anxiety
 {==
@@ -249,14 +257,6 @@
 
 ## IaC Infrastructure as Code
 - [IaC Infrastructure as Code](iac.md)
-
-## Blogs
-- [devops.com](https://devops.com/)
-- [devopscube.com](https://devopscube.com/)
-- [devopszone.info](https://www.devopszone.info/)
-- [devopsdigest.com](https://www.devopsdigest.com/)
-- [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
-- [devopstips.net](https://devopstips.net/)
 
 ## Xebia Labs and DevOps
 - [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)
