@@ -28,7 +28,6 @@
 	- [MLOps](#mlops)
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
-- [Base64](#base64)
 - [Tweets](#tweets)
 
 ## Inspired By
@@ -203,9 +202,6 @@
 ## Kubectl Plugins
 - [Available kubectl plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 - [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)
-
-## Base64 
-- [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode
 
 ## Tweets
 <details>

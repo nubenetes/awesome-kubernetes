@@ -12,6 +12,7 @@
     - [Kubernetes JSON Schemas](#kubernetes-json-schemas)
 - [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 - [Alternatives](#alternatives)
+- [Base64](#base64)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -114,6 +115,9 @@
     - [dzone.com: Use Ketch to Deploy Apps on Kubernetes Without YAML](https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne) An open-source project for deploying and managing applications on Kubernetes with a command-line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
 - [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
+
+## Base64 
+- [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode
 
 ## Videos
 ??? note "Click to expand!"
