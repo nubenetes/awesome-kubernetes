@@ -137,7 +137,11 @@ nav:
     - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
     - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
     - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
-    - Jenkins Alternatives for Continuous Integration & Deployment: jenkins-alternatives.md
+    - Jenkins Alternatives. Cloud Native CI/CD Tools:
+      - Jenkins Alternatives for Continuous Integration & Deployment: jenkins-alternatives.md
+      - Argo CD - Declarative GitOps for Kubernetes: argocd.md
+      - Flux - The GitOps Operator for Kubernetes: flux.md
+      - Tekton - Cloud Native CI/CD: tekton.md
     - Toolchain:
       - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
       - Maven, Gradle & SDKMAN: maven-gradle.md
@@ -162,9 +166,6 @@ nav:
     - Cloud Asset Inventory: cloud-asset-inventory.md
   - Config Mgmt:
     - Ansible: ansible.md
-    - Argo CD - Declarative GitOps for Kubernetes: argocd.md
-    - Flux - The GitOps Operator for Kubernetes: flux.md
-    - Tekton - Cloud Native CI/CD: tekton.md
     - Helm Kubernetes Tool: helm.md
     - Kustomize - Template-Free Kubernetes Configuration Customization: kustomize.md
     - StackStorm: stackstorm.md

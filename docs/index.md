@@ -109,8 +109,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc](performance-testing-with-jenkins-and-jmeter.md)
 ### OpenShift Pipelines
 - [OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
-### Jenkins Alternatives
+### Jenkins Alternatives. Cloud Native CI/CD Tools
 - [Jenkins Alternatives for Continuous Integration & Deployment 🌟](jenkins-alternatives.md)
+- [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
+- [Flux - The GitOps Operator for Kubernetes 🌟](flux.md)
+- [Tekton - Cloud Native CI/CD 🌟](tekton.md)
 ### Toolchain
 - [Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
@@ -134,11 +137,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
 - [Cloud Asset Inventory](cloud-asset-inventory.md)
 
-## Configuration Management. Cloud Native CI/CD Tools
+## Configuration Management
 - [==Ansible==](ansible.md)
-- [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
-- [Flux - The GitOps Operator for Kubernetes 🌟](flux.md)
-- [Tekton - Cloud Native CI/CD 🌟](tekton.md)
 - [Helm Kubernetes Tool 🌟](helm.md)
 - [Kustomize - Template-Free Kubernetes Configuration Customization 🌟](kustomize.md)
 - [StackStorm](stackstorm.md)
