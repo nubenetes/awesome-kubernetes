@@ -211,6 +211,7 @@
 
 ## Disaster Recovery
 * [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud/)
+* [bunnyshell.com: DR in DevOps: How to Guarantee an Effective Disaster Recovery Plan with DevOps](https://www.bunnyshell.com/blog/disaster-recovery-devops)
 
 ## SaaS
 - [==blog.scaleway.com: SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture==](https://blog.scaleway.com/saas-multi-tenant-vs-multi-instance-architectures/)

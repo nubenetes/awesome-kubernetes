@@ -67,6 +67,7 @@
 - [ondat.io: Stateful Apps in Kubernetes are a big deal](https://www.ondat.io/blog/stateful-apps-in-kubernetes-are-a-big-deal)
 - [techgenix.com: Data Storage Management for Kubernetes - 5 movers and shakers](https://techgenix.com/data-storage-management-for-kubernetes/)
 - [==thenewstack.io: The Growth of State in Kubernetes==](https://thenewstack.io/the-growth-of-state-in-kubernetes/)
+- [itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution](https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc)
 
 ## DoK Community
 - [==DoK Community== 🌟](https://dok.community) 

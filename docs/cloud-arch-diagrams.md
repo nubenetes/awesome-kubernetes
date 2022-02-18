@@ -3,6 +3,7 @@
 - [MultiCloud](#multicloud)
 - [Architecture Icons](#architecture-icons)
 - [AWS](#aws)
+- [Google Cloud Architecture Diagramming Tool](#google-cloud-architecture-diagramming-tool)
 - [Airflow](#airflow)
 ## Introduction
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
@@ -54,6 +55,9 @@
 	- Perspective displays indicative costing data for the resources in your diagrams and works cross-account and cross-region.
 	- Perspective is open source and has an open road map. Feel free to raise issues and contribute to future development!
 - [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks or draw.io diagrams.
+
+## Google Cloud Architecture Diagramming Tool
+- [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog/topics/developers-practitioners/introducing-google-cloud-architecture-diagramming-tool)
 
 ## Airflow
 - [feluelle/airflow-diagrams](https://github.com/feluelle/airflow-diagrams) Auto-generated Diagrams from Airflow DAGs

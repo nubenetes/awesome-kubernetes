@@ -76,6 +76,7 @@
 ## Service Level Objectives (SLO)
 - [SLOconf](https://www.sloconf.com/) The first SLO Conference for Site Reliability Engineers
 - [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives/) Organizations looking to tighten up their ops with some site reliability engineering (SRE) should take a look at the recently-released OpenSLO specification, a GitOps-friendly template for establishing Service Level Objectives (SLO) to specify and even enforce the range of reliability required (and afforded) for a system.
+- [sre.google: The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/)
 
 ### OpenSLO
 - [OpenSLO specification 🌟](https://github.com/OpenSLO/OpenSLO) The goal of this project is to provide an open specification for defining and interfacing with SLOs to allow for a common approach, giving a set vendor-agnostic solution to defining and tracking SLOs. Platform specific implementation details are purposefully excluded from the scope of this specification.

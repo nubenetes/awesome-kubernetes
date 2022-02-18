@@ -468,6 +468,7 @@ You can filter by topic using the toolbar above.
 ## AWS Migrations
 - [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
 - [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)
+- [==Multi-Region Migration using AWS Application Migration Service==](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service/) I built my infrastructure in Region A, I want to now move it to Region B.
 
 ### AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/)
@@ -1098,5 +1099,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In my opinion, IAM is the 𝗺𝗼𝘀𝘁 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲 &amp; 𝗰𝗼𝗺𝗽𝗿𝗲𝗵𝗲𝗻𝘀𝗶𝘃𝗲 service by AWS 🔐<br><br>What&#39;s a 𝗳𝗮𝗰𝘁: the concepts are crucial &amp; being confident in them is a necessity! <a href="https://t.co/MtvOyLjRzS">pic.twitter.com/MtvOyLjRzS</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1488871669024399364?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t know who did this...but It made my day 😂 AWS moving workloads out of Exadata <a href="https://twitter.com/hashtag/HappyWednesday?src=hash&amp;ref_src=twsrc%5Etfw">#HappyWednesday</a> <a href="https://twitter.com/hashtag/CloudHumor?src=hash&amp;ref_src=twsrc%5Etfw">#CloudHumor</a> <a href="https://t.co/vq1CSCyr8b">pic.twitter.com/vq1CSCyr8b</a></p>&mdash; Guillermo Ruiz (@IaaSgeek) <a href="https://twitter.com/IaaSgeek/status/1488799161038389252?ref_src=twsrc%5Etfw">February 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My personal holy grail of database solutions: 𝗗𝘆𝗻𝗮𝗺𝗼𝗗𝗕 ⚡️ <br><br>Sadly, I couldn&#39;t fit all the features &amp; must-knows into a single infographic.<br>There are just too many 💛 <a href="https://t.co/UkLcvH19Cp">pic.twitter.com/UkLcvH19Cp</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1493958661391233026?ref_src=twsrc%5Etfw">February 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
