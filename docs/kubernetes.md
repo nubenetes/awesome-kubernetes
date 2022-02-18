@@ -98,6 +98,7 @@
 - [Spanish Videos](#spanish-videos)
 - [Tweets](#tweets)
 - [Tweets 2](#tweets-2)
+- [Memes](#memes)
 
 ## Introduction
 * [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
@@ -1277,8 +1278,6 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As more enterprises embrace <a href="https://twitter.com/hashtag/containers?src=hash&amp;ref_src=twsrc%5Etfw">#containers</a>, they’ll find they need <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a>, too. With our open approach, <a href="https://twitter.com/hashtag/K8s?src=hash&amp;ref_src=twsrc%5Etfw">#K8s</a> does more. Here’s how: <a href="https://t.co/y9TciK53F1">https://t.co/y9TciK53F1</a> <a href="https://t.co/CPWHcy5TOZ">pic.twitter.com/CPWHcy5TOZ</a></p>&mdash; Nicholas Gerasimatos - Red Hat (@nicholas_redhat) <a href="https://twitter.com/nicholas_redhat/status/1441064411947360266?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes experts be like: <a href="https://t.co/0z47Q9bdZm">pic.twitter.com/0z47Q9bdZm</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1447668514727280643?ref_src=twsrc%5Etfw">October 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵How do you keep up with Kubernetes?<br><br>If you are looking for curated Kubernetes news, we have you covered on:<br><br>- Core Kubernetes<br>- Security<br>- Architecture &amp; development<br>- Job opportunities<br>- K3s<br><br>Here are the accounts that you should follow: <a href="https://t.co/Hcw9BelCsd">pic.twitter.com/Hcw9BelCsd</a></p>&mdash; Learnk8s (@learnk8s) <a href="https://twitter.com/learnk8s/status/1450802588752830465?ref_src=twsrc%5Etfw">October 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kubernetesio?ref_src=twsrc%5Etfw">@kubernetesio</a> <a href="https://twitter.com/K8sArchitect?ref_src=twsrc%5Etfw">@K8sArchitect</a> K8s Architecture <a href="https://t.co/Kbm11a8oMA">pic.twitter.com/Kbm11a8oMA</a></p>&mdash; Julien (@MapEngArch) <a href="https://twitter.com/MapEngArch/status/1452257392201289731?ref_src=twsrc%5Etfw">October 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -1294,14 +1293,21 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Within a kubernetes cluster, what actually pulls down the image from a remote registry?<br><br>Wrong answers only please.</p>&mdash; Mark Manning (@antitree) <a href="https://twitter.com/antitree/status/1488164603217555458?ref_src=twsrc%5Etfw">January 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">For a long time, kubebuilder for me was just a means to scaffold controller projects. But kubebuilder&#39;s README says:<br><br>&gt; Kubebuilder is a framework for building Kubernetes APIs.<br><br>And finally, I got it! Kubernetes APIs &gt; HTTP APIs.<br>Eg: A custom controller is a form of an async API.</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1488562034828398592?ref_src=twsrc%5Etfw">February 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using kubernetes for single page apps <a href="https://t.co/2gW6ELi2Gi">pic.twitter.com/2gW6ELi2Gi</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1491827787455414274?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deploying your own kubernetes cluster <a href="https://t.co/9kblyVKK1Z">pic.twitter.com/9kblyVKK1Z</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1493269070174695425?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes path to production readiness <a href="https://t.co/OgQd5Vj8Io">pic.twitter.com/OgQd5Vj8Io</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1494355989855940612?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+
+## Memes
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes experts be like: <a href="https://t.co/0z47Q9bdZm">pic.twitter.com/0z47Q9bdZm</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1447668514727280643?ref_src=twsrc%5Etfw">October 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using kubernetes for single page apps <a href="https://t.co/2gW6ELi2Gi">pic.twitter.com/2gW6ELi2Gi</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1491827787455414274?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deploying your own kubernetes cluster <a href="https://t.co/9kblyVKK1Z">pic.twitter.com/9kblyVKK1Z</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1493269070174695425?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes path to production readiness <a href="https://t.co/OgQd5Vj8Io">pic.twitter.com/OgQd5Vj8Io</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1494355989855940612?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168051035-1"></script>
