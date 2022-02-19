@@ -113,6 +113,7 @@
 * [cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible](https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent)
 * [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands)
 * [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution) Here's how to optimize your Ansible playbooks to make them run faster.
+* [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/)
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.

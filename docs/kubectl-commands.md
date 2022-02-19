@@ -12,6 +12,7 @@
 - [Kubectl Alternatives](#kubectl-alternatives)
     - [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
     - [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
+- [Videos](#videos)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -122,6 +123,12 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 * [Jenkins Kubernetes Plugin](https://plugins.jenkins.io/kubernetes/)
 * [Kubernetes Continuous Deploy](https://plugins.jenkins.io/kubernetes-cd/)
 
+## Videos
+??? note "Click to expand!"
+ 
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E2pP1MOfo3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 ??? note "Click to expand!"

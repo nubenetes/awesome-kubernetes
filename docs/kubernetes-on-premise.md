@@ -30,6 +30,7 @@
 
 ## Introduction
 - [containerjournal.com: Deploying Kubernetes on Bare Metal](https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/)
+- [thenewstack.io: Kubernetes on Bare Metal vs. VMs: It’s Not Just Performance](https://thenewstack.io/kubernetes-on-bare-metal-vs-vms-its-not-just-performance/)
 ## Comparative Analysis of Kubernetes Deployment Tools
 * [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
 * [wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes](http://wecloudpro.com/2020/01/13/kube-autp-aws.html)

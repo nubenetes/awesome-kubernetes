@@ -48,6 +48,7 @@
 * [opensource.com: What you need to know about cluster logging in Kubernetes 🌟](https://opensource.com/article/21/11/cluster-logging-kubernetes) Explore how different container logging patterns in Kubernetes work.
 * [==devopscube.com: Kubernetes Logging Tutorial For Beginners== 🌟](https://devopscube.com/kubernetes-logging-tutorial)
 * [aws.plainenglish.io: Kubernetes Deep Dive: Log Management](https://aws.plainenglish.io/kubernetes-deep-dive-log-management-a60b06e2d738) Part 28 of a series of articles about learning k8s!
+* [medium.com/vmacwrites: Kubernetes Audit Logs: Who created or deleted a namespace?](https://medium.com/vmacwrites/kubernetes-audit-logs-who-created-or-deleted-a-namespace-7d55c20d2730) Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.
 
 ## SLOs in Kubernetes
 - [==thenewstack.io: Service Level Objectives in Kubernetes==](https://thenewstack.io/service-level-objectives-in-kubernetes/) an SLO is simply a metric, a goal for that metric, and a time period. For instance: “the success rate for service A must be at least 99.7% percent over the past 30 days.” The metric is known as the “service level indicator” (SLI) and the goal is the “objective.”
