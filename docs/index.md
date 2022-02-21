@@ -94,7 +94,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes Troubleshooting](kubernetes-troubleshooting.md)
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
-- [Kubernetes Big Data](kubernetes-bigdata.md)
+- [Kubernetes Big Data](kubernetes-bigdata.md) 
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 ## Red Hat OpenShift
 - [OpenShift](openshift.md)
