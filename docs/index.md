@@ -154,7 +154,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Crunchy Data PostgreSQL Operator](crunchydata.md)
 - [NoSQL Databases](nosql.md)
 ## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
-- [Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 
+- [Data Pipeline 🌟](message-queue.md) 
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
@@ -236,7 +236,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Forums and Communities](newsfeeds.md)
 - [E-Learning](elearning.md)
 - [Digital Money](digital-money.md)
-## Recruitment and Freelancing 
+## Hiring and Freelancing 
 - [Recruitment](recruitment.md)
 - [Freelancing](freelancing.md)
 - [Remote Tech Jobs](remote-tech-jobs.md)
