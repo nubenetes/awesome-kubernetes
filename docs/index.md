@@ -92,6 +92,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes On Premise](kubernetes-on-premise.md)
     - [==Managed kubernetes in public clouds==](managed-kubernetes-in-public-cloud.md)
     - [Kubernetes Troubleshooting](kubernetes-troubleshooting.md)
+    - [Kubernetes Big Data](bigdata.md)
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
@@ -161,7 +162,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Demos, Boilerplates & Screencasts 🌟](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
 ## Public Cloud
 - [Public Cloud Solutions](public-cloud-solutions.md)
-- [Big Data](bigdata.md)
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
 - [==AWS==](aws.md)
