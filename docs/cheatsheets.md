@@ -163,7 +163,7 @@
 * [==atomiccommits.io: Everything Useful I Know About kubectl==](https://www.atomiccommits.io/everything-useful-i-know-about-kubectl)
 * Top kubernetes troubleshooting Commands:
 	* `kubectl get pods -o wide`
-	* `kubectl logs <pod>` (**--previous**)
+	* `kubectl logs <pod>` ( --previous ) 🌟🌟🌟
 	* `kubectl describe pod`
 	* `kubectl describe ingress/service`
 	* `kubectl delete`
