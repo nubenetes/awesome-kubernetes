@@ -189,7 +189,8 @@ nav:
     - Big Data: bigdata.md
     - Edge Computing: edge-computing.md
     - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
-    - AWS: aws.md
+    - AWS Cloud:
+      - AWS: aws.md
       - AWS Miscellaneous: aws-miscellaneous.md
       - AWS Architecture: aws-architecture.md
       - AWS Best Practices: aws-best-practices.md
