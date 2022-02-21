@@ -51,6 +51,7 @@
 	- [Kubestack Terraform GitOps Framework](#kubestack-terraform-gitops-framework)
 	- [Gruntwork Terragrunt](#gruntwork-terragrunt)
 	- [Terraspace](#terraspace)
+- [Images](#images)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -496,6 +497,13 @@
 - [gruntwork-io/terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) A repo used to show examples file/folder structures you can use with Terragrunt and Terraform
 ### Terraspace
 - [Terraspace.cloud](https://terraspace.cloud/) Terraspace is a Terraform Framework that optimizes for infrastructure-as-code happiness. It provides an organized structure, conventions over configurations, keeps your code DRY, and adds convenient tooling. Terraspace makes working with Terraform easier and more fun.
+
+## Images
+??? note "Click to expand!"
+
+	<center>
+	[![developer responsibility vs opta iac responsibility](images/opta_iac_responsibility_vs_developer_.png)](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails/)
+	</center>
 
 ## Videos
 ??? note "Click to expand!"
