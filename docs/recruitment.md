@@ -194,6 +194,8 @@
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿Por qué está siendo tan difícil conseguir el primer trabajo en <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a>?<br><br>- ¿Mal proceso?<br>- ¿Las empresas no quieren entry-level?<br>- ¿Los candidatos aplican correctamente?<br>- ¿Hay que hacer networking?<br> <br>¿Todas las anteriores?<br><br>Hablemos.</p>&mdash; Freddy Montes (@fmontes) <a href="https://twitter.com/fmontes/status/1491820283442831361?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">🙄 <a href="https://t.co/0HTF0f116H">pic.twitter.com/0HTF0f116H</a></p>&mdash; MΛRC VIDΛL (@marcvidal) <a href="https://twitter.com/marcvidal/status/1493867852490854400?ref_src=twsrc%5Etfw">February 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💁‍♂️ Career tip - Your manager plays a MASSIVE role in how successful you can be. Find a manager that supports your careers goals and values.</p>&mdash; Lachlan Evenson (@LachlanEvenson) <a href="https://twitter.com/LachlanEvenson/status/1495144293748465664?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

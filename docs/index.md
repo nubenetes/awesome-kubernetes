@@ -127,8 +127,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 - [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
-- [Monitoring and Performance 🌟](monitoring.md)
-- [Prometheus](prometheus.md)
+- [Monitoring and Performance](monitoring.md)
+- [Prometheus 🌟](prometheus.md)
 - [Grafana](grafana.md)
 ## Infrastructure Provisioning. Infra Management Tools
 - [IaC Infrastructure as Code](iac.md)
@@ -150,6 +150,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [YAML and JSON 🌟](yaml.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps 🌟](databases.md)
+- [Crunchy Data PostgreSQL Operator](crunchydata.md)
 - [NoSQL Databases](nosql.md)
 ## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
 - [Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 
@@ -164,6 +165,28 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
 - [==AWS==](aws.md)
+    - [AWS Miscellaneous](aws-miscellaneous.md)
+    - [AWS Architecture](aws-architecture.md)
+    - [==AWS Best Practices==](aws-best-practices.md)
+    - [AWS Migrations](aws-migrations.md)
+    - [AWS Networking](aws-networking.md)
+    - [AWS Databases](aws-databases.md)
+    - [AWS Storage](aws-storage.md)
+    - [AWS Security](aws-security.md)
+    - [AWS Monitoring](aws-monitoring.md)
+    - [AWS IaC](aws-iac.md)
+    - [AWS Samples Boilerplates](aws-samples-boilerplates.md)
+    - [AWS Tools Scripts](aws-tools-scripts.md)
+    - [AWS Data](aws-data.md)
+    - [AWS DevOps](aws-devops.md)
+    - [AWS Serverless](aws-serverless.md)
+    - [AWS Pricing](aws-pricing.md)
+    - [AWS Containers](aws-containers.md)
+    - [AWS Backup](aws-backup.md)
+    - [AWS Training](aws-training.md)
+    - [AWS Certification](aws-certification.md)
+    - [AWS New Features](aws-newfeatures.md)
+    - [AWS Spain](aws-spain.md)
 - [==Google Cloud Platform==](GoogleCloudPlatform.md)
 - [==Microsoft Azure==](azure.md)
 - [IBM & IBM Cloud](ibm_cloud.md)
@@ -171,6 +194,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
 - [Scaleway](scaleway.md)
+- [Linode](https://www.linode.com/)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
@@ -180,7 +204,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Websites for web developers](devel-sites.md)
 - [Angular](angular.md)
 - [Document Object Model (DOM)](dom.md)
-- [Go](golang.md)
+- [Golang](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
 - [Low Code and No Code](lowcode-nocode.md)
@@ -230,7 +254,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)<br/>
 [![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
 [![london IAC](images/londonIAC.jpg){: style="width:7%"}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:7%"}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:7%"}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:7%"}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:7%"}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:7%"}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:7%"}](https://www.youtube.com/c/TheNewStack) [![argocd project](images/argoproj.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA) [![fluxcd](images/fluxcd.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA) [![container days](images/containerdays.jpg){: style="width:7%"}](https://www.youtube.com/c/ContainerDays) [![the cloud girl](images/thecloudgirl.jpg){: style="width:7%"}](https://www.youtube.com/c/priyankavergadia)<br/>
-[![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
+[![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com) [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
 </center>
 
 ??? note "Click to expand!"

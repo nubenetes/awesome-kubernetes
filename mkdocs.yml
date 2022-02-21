@@ -176,6 +176,7 @@ nav:
     - YAML and JSON: yaml.md
   - Databases: 
     - Relational Databases and Database DevOps: databases.md
+    - Crunchy Data PostgreSQL Operator: crunchydata.md
     - NoSQL Databases: nosql.md
   - Data Pipeline: message-queue.md
   - Service Mesh: 
@@ -189,6 +190,28 @@ nav:
     - Edge Computing: edge-computing.md
     - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
     - AWS: aws.md
+      - AWS Miscellaneous: aws-miscellaneous.md
+      - AWS Architecture: aws-architecture.md
+      - AWS Best Practices: aws-best-practices.md
+      - AWS Migrations: aws-migrations.md
+      - AWS Networking: aws-networking.md
+      - AWS Databases: aws-databases.md
+      - AWS Storage: aws-storage.md
+      - AWS Security: aws-security.md
+      - AWS Monitoring: aws-monitoring.md
+      - AWS IaC: aws-iac.md
+      - AWS Samples Boilerplates: aws-samples-boilerplates.md
+      - AWS Tools Scripts: aws-tools-scripts.md
+      - AWS Data: aws-data.md
+      - AWS DevOps: aws-devops.md
+      - AWS Serverless: aws-serverless.md
+      - AWS Pricing: aws-pricing.md
+      - AWS Containers: aws-containers.md
+      - AWS Backup: aws-backup.md
+      - AWS Training: aws-training.md
+      - AWS Certification: aws-certification.md
+      - AWS New Features: aws-newfeatures.md
+      - AWS Spain: aws-spain.md
     - Google Cloud Platform: GoogleCloudPlatform.md
     - Microsoft Azure: azure.md
     - IBM & IBM Cloud: ibm_cloud.md
@@ -205,7 +228,7 @@ nav:
     - Websites for web developers: devel-sites.md
     - Angular: angular.md
     - Document Object Model (DOM): dom.md
-    - Go: golang.md
+    - Golang: golang.md
     - JavaScript - node.js & npm: javascript.md
     - Python - Django & Flask: python.md
     - Low Code and No Code: lowcode-nocode.md

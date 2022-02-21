@@ -5,7 +5,7 @@
 - [Awesome Lists](#awesome-lists)
 - [Docker VS Kubernetes](#docker-vs-kubernetes)
 - [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
-- [Security](#security)
+- [Docker Security](#docker-security)
 - [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
 - [Reducing Build Time](#reducing-build-time)
 - [Modify containers without rebuilding](#modify-containers-without-rebuilding)
@@ -153,12 +153,13 @@
     - Confusing images used for deployment with those used for development.
     - Building different images per environment.
 
-## Security
+## Docker Security
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos](https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos)
 - [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan/) Docker included a new command called `docker scan` that scans local images against the Snyk security engine, providing you with security visibility into your local Dockerfiles and images.
 - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices/)
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+- [==augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security==](https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/)
   
 ## How To Build a Smaller Docker Image
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)

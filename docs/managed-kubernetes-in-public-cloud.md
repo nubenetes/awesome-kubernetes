@@ -4,6 +4,7 @@
 - [GKE vs EKS vs AKS](#gke-vs-eks-vs-aks)
 - [Other Managed Kubernetes](#other-managed-kubernetes)
 - [AWS EKS (Hosted/Managed Kubernetes on AWS)](#aws-eks-hostedmanaged-kubernetes-on-aws)
+    - [EKS and IaC with Crossplane](#eks-and-iac-with-crossplane)
     - [AWS EKS Vs ECS Vs Fargate](#aws-eks-vs-ecs-vs-fargate)
     - [EKS Anywhere (on premises)](#eks-anywhere-on-premises)
     - [EKS Distro (EKS-D)](#eks-distro-eks-d)
@@ -126,7 +127,11 @@
 * [==howtoforge.com: How to Create a Kubernetes Cluster with AWS CLI==](https://www.howtoforge.com/how-to-create-a-kubernetes-cluster-with-the-aws-cli/)
 * [blog.searce.com: Optimise cost for AWS EKS cluster using Spotinst 🌟](https://blog.searce.com/optimize-cost-for-aws-eks-cluster-using-spotinst-ffcebe8e3571)
 * [thenewstack.io: How We Built Preview Environments on Kubernetes and AWS](https://thenewstack.io/how-we-built-preview-environments-on-kubernetes-and-aws/)
+
+### EKS and IaC with Crossplane
 * [==aws.amazon.com: GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD==](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-argo-cd/)
+* [nivogt.medium.com: [IaC] Continuous Delivery with Crossplane and ArgoCD : how to automate the creation of AWS EKS clusters](https://nivogt.medium.com/iac-continuous-delivery-with-crossplane-and-argocd-how-to-automate-the-creation-of-aws-eks-1523ef0e0aa)
+
 
 ### AWS EKS Vs ECS Vs Fargate
 * [cloudify.co: AWS EKS Vs. ECS Vs. Fargate: The Breakdown](https://cloudify.co/blog/aws-eks-vs-ecs-vs-fargate/)
@@ -280,6 +285,8 @@
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xM9jpcVGTzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p6xDCz00TxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k-V3_zxRasM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JGtJj_nAA2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>  
 

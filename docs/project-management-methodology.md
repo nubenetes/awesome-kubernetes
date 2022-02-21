@@ -57,6 +57,7 @@
 - [infoq.com: Better Metrics for Building High Performance Teams](https://www.infoq.com/articles/better-metrics-team-performance/)
 - [==noidea.dog/glue: Being Glue==](https://noidea.dog/glue)
 - [hbr.org: The Real Value of Middle Managers](https://hbr.org/2021/06/the-real-value-of-middle-managers)
+- [dev.to: What’s Wrong With Measuring Developer Performance (+ 10 Best Metrics)](https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620)
 
 ### Spanish
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)

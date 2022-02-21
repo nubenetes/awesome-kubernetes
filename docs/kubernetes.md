@@ -511,6 +511,7 @@
 * [thenewstack.io: What Does It Take to Manage Hundreds of Kubernetes Clusters?](https://thenewstack.io/what-does-it-take-to-manage-hundreds-of-kubernetes-clusters/)
 * [medium.com/pareture: Kubernetes Scaling, Capacity and Resource Planning in Complex Clusters](https://medium.com/pareture/kubernetes-scaling-capacity-and-resource-planning-in-complex-clusters-97a6105b43a4)
 * [blog.runx.dev: 3 Things I Hate About Kubernetes](https://blog.runx.dev/3-things-i-hate-about-kubernetes-49f1656baeaa)
+* [devopslearners.com: What is a Kubernetes Ephemeral Container?](https://devopslearners.com/what-is-a-kubernetes-ephemeral-container-aa8ab658755d)
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -759,6 +760,7 @@
 * [blog.newrelic.com: Kubernetes Fundamentals, Part 2: How to Use Health Checks](https://blog.newrelic.com/engineering/kubernetes-health-checks)
 * [komodor.com: Kubernetes Liveness Probes: A Practical Guide](https://komodor.com/learn/kubernetes-liveness-probes-a-practical-guide/)
 * [martinheinz.dev: Improving Application Availability with Pod Readiness Gates](https://martinheinz.dev/blog/63) Making sure your app running in Kubernetes is available and ready to serve traffic can be easy with Pod liveness and readiness probes. However, not all applications are built to use probes. Is there any solution for when Pod probes aren't enough?
+* [==thenewstack.io: Kubernetes Health Checks Using Probes==](https://thenewstack.io/kubernetes-health-checks-using-probes/)
 
 ### Kubernetes Limits and Requests
 * [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range/)

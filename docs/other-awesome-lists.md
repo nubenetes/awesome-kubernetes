@@ -136,7 +136,8 @@
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
 
 ### Security
-- [Awesome Security](https://github.com/sbilly/awesome-security)
+- [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security)
+- [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) A curated list of awesome Docker security resources
 
 ### QA
 - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)

@@ -2,7 +2,8 @@
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [Automation Glossary](#automation-glossary)
 - [Blogs](#blogs)
-	- [Automation anxiety](#automation-anxiety)
+- [Training](#training)
+- [Automation anxiety](#automation-anxiety)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
 - [AIOps](#aiops)
@@ -57,8 +58,13 @@
 - [devopsdigest.com](https://www.devopsdigest.com/)
 - [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
 - [devopstips.net](https://devopstips.net/)
+- [devopslearners.com](https://devopslearners.com)
 
-### Automation anxiety
+## Training
+* [==Techworld with Nana: Learn DevOps topics easily==](https://www.techworld-with-nana.com)
+	* [==techworld-with-nana.com/devops-bootcamp==](https://www.techworld-with-nana.com/devops-bootcamp)
+
+## Automation anxiety
 {==
 
 - Sysadmins and engineers may have personal fears about adopting automation, as much of their typical day revolves around the manual tasks and processes that automation promises to eliminate. Automation anxiety is the fear that if these tasks can be handled by automated tools, there will no longer be any reason to keep a person in that role. Nobody likes being automated out of a job.
@@ -426,6 +432,8 @@ Resolve your software incidents 10x faster
 
 	![8 devops trends](images/8_devops_trends.png)
 
+	[![devops lifecycle](images/devops_lifecycle.jfif)](https://twitter.com/tfortricks_ind)
+	
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 	</div>

@@ -21,6 +21,7 @@
 	- [AWS Kubernetes](#aws-kubernetes)
 	- [Weave Kubernetes Platform](#weave-kubernetes-platform)
 	- [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
+- [Images](#images)
 - [Tweets](#tweets)
 - [Videos](#videos)
 
@@ -126,6 +127,7 @@
 - [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/)
 - [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis/)
 - [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity)
+- [==linkedin.com pulse: WTH is GitOps? | Pavan Belagatti==](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -251,6 +253,15 @@
 ### Ubuntu Charmed Kubernetes
 * [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
 * [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
+
+## Images
+??? note "Click to expand!"
+
+	<center>
+	[![traditional devops vs gitops](images/traditional_ops_vs_gitops.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
+
+	[![devops pipeline vs gitops pipeline](images/devops_pipeline_vs_gitops_pipeline.png)](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
+	</center>
 
 ## Tweets
 <details>

@@ -434,7 +434,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
 - [faun.pub: Scaling an app in Kubernetes with KEDA (no Prometheus is needed)](https://faun.pub/keda-ec9fc7c8dd81)
-- [itnext.io: Event Driven Autoscaling](https://itnext.io/event-driven-autoscaling-503b5cefaa49)
+- [itnext.io: Event Driven Autoscaling](https://itnext.io/event-driven-autoscaling-503b5cefaa49) KEDA expands the capabilities of Kubernetes by managing the integration with external sources allowing you to auto-scale your Kubernetes Deployments based on data from both internal and external metrics.
 
 ## Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data
 - [quandarycg.com: Everything You Need To Know About System Integration (And IPaaS) 🌟](https://quandarycg.com/everything-you-need-to-know-about-integrations/)

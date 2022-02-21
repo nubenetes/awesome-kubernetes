@@ -67,3 +67,4 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 - [Grafana Loki](https://grafana.com/oss/loki/)
 - [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. In this article, you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
 - [medium.com/devopsturkiye: Deploy Grafana Loki and Promtail using ArgoCD](https://medium.com/devopsturkiye/deploy-grafana-loki-and-promtail-using-argocd-416b2fd4539f)
+- [faun.pub: Manage Grafana Loki alerting and recording rules using GitOps](https://faun.pub/manage-grafana-lokis-alerting-and-recording-rules-using-gitops-c26d06d772c6)

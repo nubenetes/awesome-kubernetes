@@ -191,6 +191,8 @@
 - [==freecodecamp.org: Python Requests – How to Interact with Web Services using Python==](https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/)
 - [thenewstack.io: Guido van Rossum’s Ambitious Plans for Improving Python Performance](https://thenewstack.io/guido-van-rossums-ambitious-plans-for-improving-python-performance/) While Python is a simple language to start with and has excellent support for ML/AI, it is still a slow language which consumes more energy. This means the execution/infra costs are higher. The creator of Python, Guido van Rossum, quit his BDFL (Benevolent Dictator For Life) post at Python (in disgust over PIP 572) and later joined Microsoft. He is reported to be working at making Python 5-fold faster in next few releases.
 - [towardsdatascience.com: Memory Management in Python](https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9) How does it work? A list of examples that help.
+- [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64)
+- [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

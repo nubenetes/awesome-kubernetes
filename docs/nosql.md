@@ -27,6 +27,7 @@
 - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)
 - [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/) 
 - [datastax.medium.com: SQL versus NoSQL: The Pros and Cons](https://datastax.medium.com/sql-versus-nosql-the-pros-and-cons-488d4a7ba92f)
+- [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better/) One has been predominantly used by firms for storing structured data in various forms, while another lets the companies store unstructured and semi-structured data also. Which among them is better and more efficient? Let’s analyze in this blog!
 
 ### Couchbase
 * [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)
@@ -66,6 +67,7 @@
 	- [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.datastax.com/blog/apache-cassandra-40-now-delivered-k8ssandra-amazon-eks)
 	- [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes/)
 	- [datastax.medium.com: We Pushed Helm to the Limit—then Built a Kubernetes Operator](https://datastax.medium.com/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator-5136f7c71e91)
+	- [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker/)
 - [HBase.apache.org](http://hbase.apache.org/)
 - [Hive.apache.org](https://hive.apache.org/)
 - [rethinkdb.com](http://rethinkdb.com)

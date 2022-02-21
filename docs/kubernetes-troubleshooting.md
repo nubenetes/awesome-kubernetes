@@ -37,6 +37,9 @@
 * [containiq.com: Troubleshooting Kubernetes FailedAttachVolume and FailedMount](https://www.containiq.com/post/fixing-kubernetes-failedattachvolume-and-failedmount) When working with Persistent Volumes in Kubernetes, you might run into the FailedAttachVolume or FailedMount error. In this tutorial, we’ll show you how to troubleshoot these errors and find the root cause and fix them.
 * [==containiq.com: Kubernetes ImagePullBackOff: Troubleshooting With Examples==](https://www.containiq.com/post/kubernetes-imagepullbackoff) If you’ve worked with Kubernetes for a while, chances are good that you have experienced the **ImagePullBackOff** status. This issue can be frustrating if you are unfamiliar with it, so in this guide, you will walk the reader through how to troubleshoot this issue, what some common causes are, and where to start if they encounter this problem.
 * [medium.com/@andrewachraf: Detect crashes in your Kubernetes cluster using kwatch and Slack 🌟](https://medium.com/@andrewachraf/detect-crashes-in-your-cluster-using-kwatch-an-slack-84b979e93e03) Monitor all changes in your Kubernetes(K8s) cluster & detects crashes in your running apps in real time
+* [==research.nccgroup.com: Detection Engineering for Kubernetes clusters==](https://research.nccgroup.com/2021/11/10/detection-engineering-for-kubernetes-clusters/) In this article you will learn how to detect anomalies in your cluster using Kubernetes Audit logs and Anomalies Detection Engineering.
+* [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 1)](https://pauldally.medium.com/debugging-networkpolicy-part-1-249921cdba37)
+    * [pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)](https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c)
 
 ## Debugging Techniques and Strategies. Debugging with ephemeral containers
 - [kubectl-debug](https://github.com/aylei/kubectl-debug)

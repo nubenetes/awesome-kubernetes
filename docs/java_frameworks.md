@@ -176,6 +176,7 @@ optimizing Enterprise Java for the microservices architecture.
 * [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
 * [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/)
 * [vladmihalcea.com: Spring Boot Application Properties](https://vladmihalcea.com/spring-boot-application-properties/)
+* [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
