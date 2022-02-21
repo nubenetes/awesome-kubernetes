@@ -68,10 +68,10 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==GitOps==](gitops.md)
 - [MLOps](mlops.md)
 - [Chaos Engineering](chaos-engineering.md)
-## Security and DevSecOps. Container Security
-- [Security and DevSecOps. Container Security](devsecops.md)
+## DevSecOps and Security
+- [DevSecOps and Security. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
-## NoOps
+## NoOps aka Serverless
 - [NoOps](noops.md)
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
 ## Docker
