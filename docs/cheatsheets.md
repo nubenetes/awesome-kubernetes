@@ -164,7 +164,7 @@
 * Top kubernetes troubleshooting Commands:
 	* `kubectl get pods -o wide`
 	* `kubectl logs <pod>`
-	* `kubectl logs <pod> --previous` 🌟🌟🌟
+	* `kubectl logs <pod> --previous` 🌟🌟🌟 (debugging a **CrashLoopBackOff pod**)
 	* `kubectl describe pod`
 	* `kubectl describe ingress/service`
 	* `kubectl delete`
