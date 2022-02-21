@@ -407,6 +407,7 @@
 - [developer.mongodb.com: MongoDB Cheat Sheet](https://developer.mongodb.com/quickstart/cheat-sheet)
 
 ## Python
+- [intellipaat.com: Python Cheat Sheet Basics](https://intellipaat.com/blog/tutorial/python-tutorial/python-cheat-sheet-basics) This part of the Python tutorial offers you a cheat sheet on Python basics wherein you will learn about Python data types, operators, flow control method, functions, file operations, class, objects and more.
 - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet/)
 - https://blog.finxter.com/python-cheat-sheets
 - https://www.pythoncheatsheet.org

@@ -54,6 +54,7 @@
 * [dev.to: Let's Learn Kubernetes Series' Articles](https://dev.to/pghildiyal/series/14818)
 * [==youtube playlist: Tech World with Nana - Docker and Kubernetes Tutorial for Beginners== 🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb)
 * [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
+* [medium.com/google-cloud: Running Workloads in Kubernetes](https://medium.com/google-cloud/running-workloads-in-kubernetes-86194d133593)
 
 ## Online Training
 * [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
