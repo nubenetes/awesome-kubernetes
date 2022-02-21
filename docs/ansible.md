@@ -1,4 +1,4 @@
-# Ansible
+# Configuration Management. Ansible
 - [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
 - [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
 - [Writing an Ansible module](#writing-an-ansible-module)

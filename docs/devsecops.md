@@ -1,4 +1,4 @@
-# Security and DevSecOps. Container Security
+# DevSecOps and Security. Container Security
 - [Introduction](#introduction)
 - [Kubernetes Security Compliance Frameworks](#kubernetes-security-compliance-frameworks)
 - [Zero Trust Security](#zero-trust-security)

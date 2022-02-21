@@ -1,4 +1,4 @@
-# QA: Software Quality Test Automation
+# QA/TestOps - Continuous Testing. Software Quality Test Automation
 - [Introduction](#introduction)
 - [Interview Questions](#interview-questions)
 - [Blogs](#blogs)

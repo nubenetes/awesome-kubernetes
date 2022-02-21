@@ -1,4 +1,4 @@
-# CI/CD
+# Software Delivery Pipeline. CI/CD
 - [Introduction](#introduction)
 - [CI/CD Continuous Integration and Continuous Delivery](#cicd-continuous-integration-and-continuous-delivery)
 - [Observability](#observability)

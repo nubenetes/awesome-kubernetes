@@ -1,4 +1,4 @@
-# Relational Databases on Kubernetes. Database DevOps
+# Databases on Kubernetes. Database DevOps
 - [Introduction](#introduction)
 - [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
 - [Database Load Balancer](#database-load-balancer)

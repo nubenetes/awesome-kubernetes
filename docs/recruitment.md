@@ -1,4 +1,4 @@
-# Recruitment
+# Recruitment. Hiring and Freelancing 
 - [Introduction](#introduction)
 - [Articles in Spanish](#articles-in-spanish)
 - [Recruitment Portals](#recruitment-portals)
