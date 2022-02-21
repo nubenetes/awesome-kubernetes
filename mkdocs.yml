@@ -121,9 +121,9 @@ nav:
     - Kubernetes On Premise: kubernetes-on-premise.md
     - Managed kubernetes in public clouds: managed-kubernetes-in-public-cloud.md
     - Kubernetes Troubleshooting: kubernetes-troubleshooting.md
-    - Kubernetes Big Data: kubernetes-bigdata.md
     - Kubernetes Releases: kubernetes-releases.md
     - Kubernetes Matrix Table: matrix-table.md
+    - Kubernetes Big Data: kubernetes-bigdata.md
     - Kubernetes alternatives: kubernetes-alternatives.md
   - OpenShift: 
     - OpenShift docs: openshift.md

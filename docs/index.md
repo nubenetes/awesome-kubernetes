@@ -92,9 +92,9 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Kubernetes On Premise](kubernetes-on-premise.md)
     - [==Managed kubernetes in public clouds==](managed-kubernetes-in-public-cloud.md)
     - [Kubernetes Troubleshooting](kubernetes-troubleshooting.md)
-    - [Kubernetes Big Data](kubernetes-bigdata.md)
     - [Kubernetes Releases](kubernetes-releases.md)
 - [Kubernetes Matrix Table 🌟](matrix-table.md)
+- [Kubernetes Big Data](kubernetes-bigdata.md)
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
 ## Red Hat OpenShift
 - [OpenShift](openshift.md)
