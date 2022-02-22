@@ -9,6 +9,7 @@
 - [Jenkins & Gatling](#jenkins--gatling)
 - [Azure Load Testing Service](#azure-load-testing-service)
 - [Alternatives](#alternatives)
+- [Serverless Load Testing](#serverless-load-testing)
 - [Videos](#videos)
 
 ## Introduction
@@ -96,6 +97,9 @@
 * [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
 * [==Iter8==](https://iter8.tools/) Kubernetes Release Optimizer
 	* [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos/) Iter8’s command-line interface (CLI) makes it simple and easy to set up load tests for HTTP services with SLO specifications, verify that the target service meets the SLOs, and create a visual report of the load test.
+
+## Serverless Load Testing
+- [betterprogramming.pub: The 5-Step Checklist for Serverless Load Testing](https://betterprogramming.pub/the-5-step-checklist-for-serverless-load-testing-346f4a60841d)
 
 ## Videos
 ??? note "Click to expand!"

@@ -47,6 +47,7 @@ the #1 test automation community.
 * [==lambdatest.com: Top Automation Testing Trends To Look Out In 2021==](https://www.lambdatest.com/blog/top-automation-testing-trends-2021)
 * [==betterprogramming.pub: Why We Quit Unit Testing Classes to Focus On a Behavioral Approach==](https://betterprogramming.pub/quit-unit-testing-classes-and-use-a-behavior-oriented-approach-306a667f9a31) Why you should consider avoiding class-level tests, in favor of a behavior-oriented approach
 * [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047)
+* [smashingmagazine.com: Testing Pipeline 101 For Frontend Testing](https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing/)
 
 ## Interview Questions
 * [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)

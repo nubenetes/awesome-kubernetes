@@ -2,6 +2,7 @@
 - [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 - [Automation Glossary](#automation-glossary)
 - [Blogs](#blogs)
+- [Podcasts](#podcasts)
 - [Training](#training)
 - [Automation anxiety](#automation-anxiety)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
@@ -59,6 +60,15 @@
 - [Top 15 DevOps blogs to read and follow](https://searchitoperations.techtarget.com/feature/Top-15-DevOps-blogs-to-read-and-follow)
 - [devopstips.net](https://devopstips.net/)
 - [devopslearners.com](https://devopslearners.com)
+- [orange-quarter.com: Upskill yourself with these 5 DevOps resources](https://orange-quarter.com/upskill-yourself-with-these-5-devops-resources/)
+	- [dzone: DevOps](https://dzone.com/devops-tutorials-tools-news)
+	- [www.arresteddevops.com](https://www.arresteddevops.com)
+	- [devopsdays.org: Devopsdays Amsterdam](https://devopsdays.org/events/2022-amsterdam/welcome/)
+	- [reddit.com/r/devops/](https://www.reddit.com/r/devops/)
+
+## Podcasts
+- [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
+- [bikeshed.fm: The Bike Shed](https://www.bikeshed.fm) 
 
 ## Training
 * [==Techworld with Nana: Learn DevOps topics easily==](https://www.techworld-with-nana.com)
@@ -183,7 +193,6 @@
 * [devops.com: 6 Signs You’re Doing DevOps Correctly](https://devops.com/6-signs-youre-doing-devops-correctly/)
 * [devopscurry.com: DevOps 2021: Market yourself with a smart and highly impressive DevOps](https://devopscurry.com/tips-to-create-a-highly-effective-devops-resume/)
 * [dzone: DevOps is not just automation! 🌟](https://dzone.com/articles/devops-is-not-only-automation) While every day we are talking about different technologies, tools, and methods under the name of DevOps, we should not forget the in-depth meaning of DevOps.
-* [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
 * [containerjournal.com: 9 Pillars of Engineering DevOps With Kubernetes](https://containerjournal.com/uncategorized/9-pillars-of-engineering-devops-with-kubernetes/)
 * [content.techgig.com: 5 Best DevOps practices for beginners](https://content.techgig.com/5-best-devops-practices-for-beginners/articleshow/81368965.cms)
 * [devops.com: 5 Steps to Successful DevOps Culture](https://devops.com/five-steps-to-successful-devops-culture)
@@ -245,6 +254,7 @@
 	* Managing and enhancing logging and monitoring systems.
 	* Providing developers with self-service tools for provisioning systems, deploying code, and running tests.
 * [==freecodecamp.org: DevOps Engineering Course for Beginners==](https://www.freecodecamp.org/news/devops-engineering-course-for-beginners/)
+* [bmc.com: DevOps Metrics for Optimizing CI/CD Pipelines](https://www.bmc.com/blogs/devops-ci-cd-metrics/)
 
 <center>
 

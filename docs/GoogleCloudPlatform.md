@@ -22,6 +22,7 @@
 ## Introduction
 * [cloud.google.com](https://cloud.google.com)
 * [==console.cloud.google.com/products==](https://console.cloud.google.com/products)
+* [==googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet==](https://googlecloudcheatsheet.withgoogle.com)
 * [cloud.google.com: DevOps](https://cloud.google.com/devops)
 * [Cloud Developer Tools](https://cloud.google.com/products/tools)
 * [Google Cloud Code](https://cloud.google.com/code)

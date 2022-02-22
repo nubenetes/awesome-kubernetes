@@ -4,6 +4,7 @@
 - [Public Cloud Services Comparison](#public-cloud-services-comparison)
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
+- [IoT Cloud](#iot-cloud)
 - [Outages](#outages)
 - [Videos](#videos)
 - [Twitter](#twitter)
@@ -45,6 +46,9 @@
 * [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service/)
 * [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)
 * [Rackspace.com: Managed Kubernetes](https://www.rackspace.com/managed-kubernetes)
+
+## IoT Cloud
+- [iot-analytics.com: The IoT cloud: Microsoft Azure vs. AWS vs. Google Cloud](https://iot-analytics.com/iot-cloud/)
 
 ## Outages
 - [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline

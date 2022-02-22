@@ -188,6 +188,7 @@
 * [thenewstack.io: App Modernization: 5 Tips When Migrating to Kubernetes](https://thenewstack.io/app-modernization-5-tips-when-migrating-to-kubernetes/)
 * [thenewstack.io: Kubernetes and the Next Generation of PaaS](https://thenewstack.io/kubernetes-and-the-next-generation-of-paas/)
 * [medium.com/geekculture: A Beginners Guide to Understanding Microservices](https://medium.com/geekculture/a-beginners-guide-to-understanding-microservices-d2a8bae871b7) A high-level overview of the microservices architecture and what it means in plain language understandable by beginners.
+* [nathanpeck.com: Why should I use an orchestrator like Kubernetes, Amazon ECS, or Hashicorp Nomad?](https://nathanpeck.com/why-should-use-container-orchestration/)
 
 ## Pets vs Cattle Analogy
 * [==cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly==](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)

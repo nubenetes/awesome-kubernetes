@@ -1309,6 +1309,8 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deploying your own kubernetes cluster <a href="https://t.co/9kblyVKK1Z">pic.twitter.com/9kblyVKK1Z</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1493269070174695425?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes path to production readiness <a href="https://t.co/OgQd5Vj8Io">pic.twitter.com/OgQd5Vj8Io</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1494355989855940612?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deleting a stuck pod <a href="https://t.co/LxaYt0E0F6">pic.twitter.com/LxaYt0E0F6</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1495805578555310083?ref_src=twsrc%5Etfw">February 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

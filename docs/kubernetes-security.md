@@ -5,7 +5,7 @@
 - [Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager](#encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager)
 - [RBAC and Access Control](#rbac-and-access-control)
 - [Admission Control](#admission-control)
-- [Security Best Practices Across Build, Deploy, and Runtime Phases](#security-best-practices-across-build-deploy-and-runtime-phases)
+- [Kubernetes Security Best Practices](#kubernetes-security-best-practices)
 - [Kubernetes Authentication and Authorization](#kubernetes-authentication-and-authorization)
     - [Kubernetes Authentication Methods](#kubernetes-authentication-methods)
     - [X.509 client certificates](#x509-client-certificates)
@@ -190,8 +190,8 @@
 - [medium: Single Sign-On in Kubernetes 🌟](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed)
 - [trstringer.com: Create a Basic Kubernetes Validating Webhook](https://trstringer.com/kubernetes-validating-webhook/)
 
-## Security Best Practices Across Build, Deploy, and Runtime Phases
-- [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)
+## Kubernetes Security Best Practices
+- [Kubernetes Security 101: Risks and 29 Best Practices 🌟](https://www.stackrox.com/post/2020/05/kubernetes-security-101/) Security Best Practices Across Build, Deploy, and Runtime Phases.
 - Build Phase:
     1. Use minimal base images
     2. Don’t add unnecessary components
@@ -218,6 +218,11 @@
     7. If breached, scale suspicious pods to zero
 - [thenewstack.io: 6 Kubernetes Security Best Practices 🌟](https://thenewstack.io/6-kubernetes-security-best-practices/)
 - [kodekloud.com: Kubernetes Security Best Practices](https://kodekloud.com/kubernetes-security-best-practices/)
+* [==armosec.io: Kubernetes Security Best Practices: Definitive Guide==](https://www.armosec.io/blog/kubernetes-security-best-practices/)
+* [semaphoreci.com: Secure Your Kubernetes Deployments](https://semaphoreci.com/blog/kubernetes-deployments) In this tutorial, we present three tools to validate and secure your Kubernetes deployments:
+    * Kubeval
+    * Kubeconform
+    * Kubescore
 
 <center>
 [![kubernetes security controls landscape](images/kubernetes-security-controls-landscape.jpg)](https://www.stackrox.com/post/2020/05/kubernetes-security-101/)

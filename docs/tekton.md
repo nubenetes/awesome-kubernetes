@@ -29,6 +29,7 @@
 * [itnext.io: Cloud Native CI/CD with Tekton — Building Custom Tasks](https://itnext.io/cloud-native-ci-cd-with-tekton-building-custom-tasks-663e63c1f4fb) Learn how to use, buildand deploy custom Tasks for Cloud-Native CI/CD on Kubernetes with Tekton Pipelines…
 * [==opensource.com: Write your first CI/CD pipeline in Kubernetes with Tekton== 🌟](https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton) Tekton is a Kubernetes-native open source framework for creating continuous integration and continuous delivery (CI/CD) systems.
 * [opensource.com: Dynamic scheduling of Tekton workloads using Triggers](https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton) Upgrade your CI/CD pipeline with this Kubernetes-native application. Tekton Triggers is a Tekton component that allows you to detect and extract information from events from various sources and execute TaskRuns and PipelineRuns based on that information. It also enables passing extracted information to TaskRuns and PipelineRuns from events.
+* [==piotrminkowski.com: Validate Kubernetes Deployment in CI/CD with Tekton and Datree==](https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree)
 
 ## Videos
 <details>

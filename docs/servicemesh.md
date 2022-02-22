@@ -2,6 +2,7 @@
 - [Introduction](#introduction)
 - [Service Mesh and API Gateways](#service-mesh-and-api-gateways)
 - [Tools For Evaluating Service Meshes](#tools-for-evaluating-service-meshes)
+- [Service Mesh Testing](#service-mesh-testing)
 - [Consul Service Mesh](#consul-service-mesh)
 	- [Consul Connect](#consul-connect)
 - [Linkerd Service Mesh](#linkerd-service-mesh)
@@ -69,6 +70,9 @@
 
 ## Tools For Evaluating Service Meshes
 * [Meshery.io:](https://meshery.io/) Open source tool for evaluating and contrasting service meshes
+
+## Service Mesh Testing
+- [itnext.io: Service Mesh Testing — Tools & Frameworks (Open Source)](https://itnext.io/service-mesh-testing-tools-frameworks-open-source-7904ee222298) There are quite a few open-source toolsets to test and measure performance impact of service meshes. In this article you will compare: Fortio, Nighthawk, Wrk2, Httpbin, Meshery, Isotope, Hyperfoil, Service-mesh-benchmark, Locust & more.
 
 ## Consul Service Mesh
 - [consul.io](https://www.consul.io/)

@@ -48,6 +48,7 @@
 - [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask/)
 - [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)
 - [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications/)
+- [thewokesalaryman.com: Why people leave even the most high paying jobs](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs/)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)

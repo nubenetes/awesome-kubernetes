@@ -59,6 +59,8 @@
 - [Azure AAD Pod Identity](#azure-aad-pod-identity)
 - [MicroShift](#microshift)
 - [kubefwd (Kube Forward)](#kubefwd-kube-forward)
+- [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
+- [Auto-portforward (apf)](#auto-portforward-apf)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -680,6 +682,13 @@
 
 ## kubefwd (Kube Forward)
 - [==txn2/kubefwd==](https://github.com/txn2/kubefwd) Kubernetes port forwarding for local development.
+
+## Kpng. Kubernetes Proxy NG
+- [kubernetes-sigs/kpng](https://github.com/kubernetes-sigs/kpng) Reworking kube-proxy's architecture
+- [kubernetes.io: Use KPNG to Write Specialized kube-proxiers](https://kubernetes.io/blog/2021/10/18/use-kpng-to-write-specialized-kube-proxiers/) The post will show you how to create a specialized service kube-proxy style network proxier using Kubernetes Proxy NG kpng without interfering with the existing kube-proxy
+
+## Auto-portforward (apf)
+- [ruoshan/autoportforward](https://github.com/ruoshan/autoportforward) Bidirectional port-forwarding for docker, podman and kubernetes. A handy tool to automatically set up proxies that expose the remote container's listening ports back to the local machine. Just like kubectl portforward or docker run -p LOCAL:REMOTE, but automatically discover and update the ports to be forwarded on the fly. apf can create listening ports in the container and forward them back as well.
 
 ## Tweets
 <details>

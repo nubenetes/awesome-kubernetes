@@ -202,6 +202,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [==cybersecsi/RAUDI==](https://github.com/cybersecsi/RAUDI) A repo to automatically generate and keep updated a series of Docker images through GitHub Actions.
 - [grosser/preoomkiller](https://github.com/grosser/preoomkiller) Softly kills your process with SIGTERM before it runs out of memory. Made for processes that run inside docker.
 - [==ory/dockertest==](https://github.com/ory/dockertest) Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. Use Docker to run your Golang integration tests against third party services on Microsoft Windows, Mac OSX and Linux!
+- [==hadolint/hadolint: Haskell Dockerfile Linter==](https://github.com/hadolint/hadolint) Dockerfile linter, validate inline bash, written in Haskell
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)

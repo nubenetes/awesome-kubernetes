@@ -98,6 +98,8 @@
 - [redhat.com: Create fast, easy, and repeatable containers with Podman and shell scripts](https://www.redhat.com/sysadmin/create-containers-podman-quickly)
 - [redhat.com: How to use Podman to get information about your containers](https://www.redhat.com/sysadmin/container-information-podman) Use the podman ps command to get size, resource consumption, and other information about your containers.
 - [redhat.com: 5 Podman features to try now](https://www.redhat.com/sysadmin/podman-features-1) Improve how you use containers with these new Podman features: --latest, --replace, --all, --ignore, and --tz.
+- Here's how I stop all containers before: 🐳 `docker stop $(docker ps -aq)`
+	- Here's how I stop/remove all containers with podman: `podman stop -a; podman rm  -a`
 
 #### Containers In High Security Environments with Podman
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.

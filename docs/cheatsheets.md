@@ -96,6 +96,7 @@
 
 ## Google Cloud Cheat Sheets
 - [The Google Cloud Developer's Cheat Sheet 🌟](https://github.com/priyankavergadia/google-cloud-4-words)
+- [==googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet==](https://googlecloudcheatsheet.withgoogle.com)
 
 ## Azure Cheat Sheets
 - [cloud-architect.fr: AZ-CheatSheet: Become an expert in Azure Landing Zones](https://www.cloud-architect.fr/2022/01/19/az-cheatsheet-become-an-expert-in-azure-landing-zones/) Azure landing zones are the output of a multisubscription Azure environment that accounts for scale, security governance, networking, and identity. Azure landing...
