@@ -27,6 +27,9 @@
 - [==steampipe== 🌟](https://steampipe.io) Steampipe is an open source tool for querying cloud APIs in a universal way and reasoning about the data in SQL. 
 	- [==Querying AWS at scale across APIs, Regions, and accounts==](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/)
 - [==awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS==](https://github.com/awslabs/aws-cloudsaga) AWS CloudSaga is for customers to test security controls and alerts within their Amazon Web Services (AWS) environment, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
+	- New Open Source tool alert! Introducing AWS CloudSaga, a open source tool for generating events within AWS to be investigated by blue teams & incident responders.
+	- AWS CloudSaga is based on basic scenarios related to security events. Using AWS CloudSaga, you can safely generate events via the AWS API, and then use these events to test your team's investigation capabilities and responses in order to identify gaps and areas of improvement.
+
 
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
