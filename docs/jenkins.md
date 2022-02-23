@@ -539,7 +539,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
@@ -551,7 +550,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
