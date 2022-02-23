@@ -1,14 +1,13 @@
-# Customer Success Stories
+# Customer Success Stories. Cloud Native Projects
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-  - [BMW InnovationLab](#bmw-innovationlab)
-  - [GAIA-X](#gaia-x)
+	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+	- [BMW InnovationLab](#bmw-innovationlab)
+	- [GAIA-X](#gaia-x)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
 - [Decathlon](#decathlon)
 - [Deutsche Telekom](#deutsche-telekom)
-- [Add your Cloud Native Project here](#add-your-cloud-native-project-here)
 - [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
@@ -58,9 +57,6 @@
 
 ## Deutsche Telekom
 - [thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops/)
-
-## Add your Cloud Native Project here
-- Bla bla bla
 
 ## Videos
 <details>
