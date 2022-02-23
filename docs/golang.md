@@ -17,12 +17,11 @@
 - [golang.org](https://golang.org/)
 - [github.com/golang/go](https://github.com/golang/go)
 - [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
 - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)
 - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io/) Host your Go-based applications for free on the JFrog Platform.
 - [dev.to: Deploying Your First Golang Webapp](https://dev.to/heroku/deploying-your-first-golang-webapp-11b3)
-- [Awesome Go 🌟](https://github.com/avelino/awesome-go)
-- [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) A Huge Number of Go Examples, Exercises and Quizzes.
 - [eli.thegreenplace.net: REST Servers in Go: Part 4 - using OpenAPI and Swagger](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/)
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [developers.redhat.com: Using Delve to debug Go programs on Red Hat Enterprise Linux](https://developers.redhat.com/blog/2021/03/03/using-delve-to-debug-go-programs-on-red-hat-enterprise-linux/)
@@ -96,6 +95,7 @@
 - https://lets-go.alexedwards.net Learn to Build Professional Web Applications with Go
 
 ## Go Samples 
+- [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) A Huge Number of Go Examples, Exercises and Quizzes.
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
 - [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
