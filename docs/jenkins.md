@@ -319,9 +319,11 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     - Assist editing Jenkinsfile locally
     - Integration test shared libraries
 
-<center>
-<script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-</center>
+??? note "Jenkinsfile Runner slides. Click to expand!"
+
+    <center>
+    <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+    </center>
 
 ### DSL 3. Jenkins Configuration as Code (JCasC) 
 * [Jenkins Configuration as Code Plugin](https://www.jenkins.io/projects/jcasc/)
@@ -533,21 +535,25 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [Blue Ocean plugin](https://plugins.jenkins.io/blueocean/)
 * [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins/)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+??? note "Jenkins Blue Ocean Videos. Click to expand!"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ### Cloudbees Flow
 * [**Cloudbees Flow** 🌟](https://www.cloudbees.com/products/flow/overview)
 * [CloudBees Flow plugin](https://plugins.jenkins.io/electricflow/)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+??? note "Cloudbees Flow Videos. Click to expand!"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 
 ## Monitoring jenkins
 * [Performance plugin](https://github.com/jenkinsci/performance-plugin)
