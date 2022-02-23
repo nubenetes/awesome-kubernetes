@@ -2,7 +2,6 @@
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
 	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
 	- [BMW InnovationLab](#bmw-innovationlab)
-	- [GAIA-X](#gaia-x)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
@@ -39,9 +38,6 @@
 - Google Cloud Handle’s machine learning capabilities were used to implement use cases — ranging from charging optimisation for our electric vehicles, to wheel classification along our assembly line.
 - Artificial Intelligence is a key technology in our digital transformation, and we want to enable our colleagues across all disciplines to work with the latest technologies. We strive to offer our worldwide network of software developers the opportunity to view, change, and develop their own algorithms. These projects illustrate the range of solutions that AI can provide, from automatic image recognition to natural language processing.
 - We also make selected algorithms available in an open source platform. “We expect the further open source development to lead to a rapid and agile advancement of the software,” says Kai Demtroeder, Head of Artificial Intelligence and Data Platforms at BMW Group IT.
-
-### GAIA-X 
-- [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bmwi.de/Redaktion/EN/Dossier/gaia-x.html)
 
 ## Audi 
 - [redhat.com: Audi builds developer environment with Red Hat OpenShift](https://www.redhat.com/en/resources/audi-case-study) Audi decided to use Red Hat OpenShift, an enterprise Kubernetes platform, as the foundation of **Kubika-O**, its new self-service developer environment, to speed and scale delivery of innovative projects. 

@@ -5,6 +5,7 @@
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
 - [IoT Cloud](#iot-cloud)
+- [GAIA-X](#gaia-x)
 - [Outages](#outages)
 - [Videos](#videos)
 - [Twitter](#twitter)
@@ -49,6 +50,10 @@
 
 ## IoT Cloud
 - [iot-analytics.com: The IoT cloud: Microsoft Azure vs. AWS vs. Google Cloud](https://iot-analytics.com/iot-cloud/)
+
+## GAIA-X 
+- [==Gaia-X.eu==](https://www.gaia-x.eu)
+- [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bmwi.de/Redaktion/EN/Dossier/gaia-x.html)
 
 ## Outages
 - [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline

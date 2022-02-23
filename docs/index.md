@@ -191,6 +191,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Cloudflare](cloudflare.md)
 - [Scaleway](scaleway.md)
 - [Linode](https://www.linode.com/)
+- [Gaia-X.eu](https://www.gaia-x.eu)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
