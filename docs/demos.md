@@ -462,6 +462,7 @@
 * [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline)
 * [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy)
 * [lambdatest.com: How To Create Jenkins Multibranch Pipeline 🌟](https://www.lambdatest.com/blog/how-to-create-jenkins-multibranch-pipeline)
+* [faun.pub: [DevOps] Create your first CI/CD pipeline!!](https://faun.pub/devops-create-your-first-ci-cd-pipeline-ed054ba1404f) A CI/CD pipeline is a series of steps that must be performed in order to deliver a new version of software.A CI/CD pipeline introduces monitoring and automation to improve the process of application development, particularly at the integration and testing phases, as well as during delivery and deployment. Although it is possible to manually execute each of the steps of a CI/CD pipeline, the true value of CI/CD pipelines is realized through automation.
 
 ### Jenkins Declarative Pipelines with OpenShift
 * [github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟](https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)

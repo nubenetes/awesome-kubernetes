@@ -1,6 +1,8 @@
-# AWS Backup and Recovery. Design for failure. Disaster Recovery
+# AWS Backup and Migrations. Design for failure. Disaster Recovery
 - [Introduction](#introduction)
 - [AWS Backup Service](#aws-backup-service)
+- [AWS Migrations](#aws-migrations)
+    - [Migrating On Premise VM to AWS](#migrating-on-premise-vm-to-aws)
 
 ## Introduction
 - [Quantum Taps AWS for Cloud-Powered Disaster Recovery](http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html)
@@ -17,3 +19,11 @@
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 - [Automate and centrally manage data protection for Amazon S3 with AWS Backup](https://aws.amazon.com/blogs/storage/automate-and-centrally-manage-data-protection-for-amazon-s3-with-aws-backup/)
 - [Preview – AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
+
+## AWS Migrations
+- [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/)
+- [Migrate Resources Between AWS Accounts](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts)
+- [==Multi-Region Migration using AWS Application Migration Service==](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service/) I built my infrastructure in Region A, I want to now move it to Region B.
+
+### Migrating On Premise VM to AWS
+- [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://youtu.be/buzusNljpy4)

@@ -53,6 +53,7 @@
 - [Go](#go)
 - [NodeJS](#nodejs)
 - [Selenium](#selenium)
+- [RPA](#rpa)
 - [CIDR subnets](#cidr-subnets)
 - [Scrum Cheat Sheet](#scrum-cheat-sheet)
 - [Images](#images)
@@ -428,6 +429,8 @@
 - [lambdatest.com: The Ultimate Selenium Python Cheat Sheet for Test Automation](https://www.lambdatest.com/blog/selenium-python-cheat-sheet/)
 - [intellipaat.com: Selenium Cheat Sheet](https://intellipaat.com/blog/tutorial/selenium-tutorial/selenium-cheat-sheet/)
 
+## RPA
+- [intellipaat.com: RPA Cheat Sheet](https://intellipaat.com/blog/tutorial/rpa-tutorial/rpa-cheat-sheet/)
 ## CIDR subnets
 - [==cidr.xyz== 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
 - https://en.wikipedia.org/wiki/Classful_network

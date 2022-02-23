@@ -55,6 +55,7 @@
 * **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
 * [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
 * [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal)
+* [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

@@ -7,7 +7,7 @@
 
 - [Introduction](#introduction)
 - [AWS Application Services](#aws-application-services)
-- [AWS SQS. Amazon Simple Queue Service](#aws-sqs-amazon-simple-queue-service)
+- [AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service](#aws-sns-and-sqs-amazon-simple-notification-service-and-amazon-simple-queue-service)
 	- [SNS vs SQS](#sns-vs-sqs)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
@@ -84,9 +84,13 @@
 ## AWS Application Services
 - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)
 
-## AWS SQS. Amazon Simple Queue Service
+## AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service
+- [dev.to: Getting started with SNS and SQS](https://dev.to/aws-builders/getting-started-with-sns-and-sqs-3m4i)
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
 - [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs/)
+- The **Simple Notification Service**, or SNS for short, is one of the central services to build serverless architectures in the AWS cloud. SNS itself is a serverless messaging service that can distribute massive numbers of messages to different recipients. These include mobile end-user devices, like smartphones and tablets, but also other services inside the AWS ecosystem.
+- SNS’ ability to target AWS services makes it the perfect companion for AWS Lambda. If you need custom logic, go for Lambda; if you need to fan out messages to multiple other services in parallel, SNS is the place to be. 
+- [dashbird.io: [Infographic] AWS SNS from a serverless perspective](https://dashbird.io/blog/aws-sns/)
 
 ### SNS vs SQS
 - [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)

@@ -84,6 +84,7 @@
 - [kube-green](https://kube-green.dev) An operator to reduce CO2 footprint of your clusters.
     - Sleep your pods: Suspend your pods when no-one's using them, scale down your cluster and save energy
     - Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)
+- [krestomatio/keydb-operator](https://github.com/krestomatio/keydb-operator) A KeyDB (Drop-In Alternative to Redis) Operator for Kubernetes
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.

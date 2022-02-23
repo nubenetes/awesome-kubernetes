@@ -192,9 +192,7 @@ nav:
     - AWS Cloud:
       - AWS: aws.md
       - AWS Miscellaneous: aws-miscellaneous.md
-      - AWS Architecture: aws-architecture.md
-      - AWS Best Practices: aws-best-practices.md
-      - AWS Migrations: aws-migrations.md
+      - AWS Architecture and Best Practices: aws-architecture.md
       - AWS Networking: aws-networking.md
       - AWS Databases: aws-databases.md
       - AWS Storage: aws-storage.md
@@ -208,9 +206,8 @@ nav:
       - AWS Serverless: aws-serverless.md
       - AWS Pricing: aws-pricing.md
       - AWS Containers: aws-containers.md
-      - AWS Backup: aws-backup.md
-      - AWS Training: aws-training.md
-      - AWS Certification: aws-certification.md
+      - AWS Backup and Migrations: aws-backup.md
+      - AWS Training and Certification: aws-training.md
       - AWS New Features: aws-newfeatures.md
       - AWS Spain: aws-spain.md
     - Google Cloud Platform: GoogleCloudPlatform.md

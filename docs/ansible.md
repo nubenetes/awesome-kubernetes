@@ -114,6 +114,7 @@
 * [cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands](https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands)
 * [redhat.com: 8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution) Here's how to optimize your Ansible playbooks to make them run faster.
 * [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/)
+* [middlewareinventory.com: Ansible Dictionary – How to create and add items to dict](https://www.middlewareinventory.com/blog/ansible-dict/)
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
@@ -149,6 +150,7 @@
 - [github.com/k3s-io/k3s-ansible 🌟](https://github.com/k3s-io/k3s-ansible) Build a Kubernetes cluster using Ansible with k3s.
 - [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) Ansible role for installing k3s as either a standalone server or HA cluster.
 - [developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible](https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible)
+- [==middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction==](https://www.middlewareinventory.com/blog/ansible-playbook-example/)
 
 ## Ansible Collections
 - [Ansible Collections 🌟](https://github.com/ansible-collections)

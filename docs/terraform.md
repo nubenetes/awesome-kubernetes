@@ -4,6 +4,7 @@
 
 - [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 - [Packer](#packer)
+- [HashiCorp Cloud](#hashicorp-cloud)
 - [Terraform](#terraform)
 	- [Interview Questions](#interview-questions)
 	- [Terraform Cloud](#terraform-cloud)
@@ -62,6 +63,10 @@
 * [packer.io docs](https://www.packer.io/docs/index.html)
 * [computingforgeeks.com: Build AWS EC2 Machine Images (AMI) With Packer and Ansible](https://computingforgeeks.com/build-aws-ec2-machine-images-with-packer-and-ansible/)
 * [learn.hashicorp.com: Write Packer template for AWS](https://learn.hashicorp.com/tutorials/packer/aws-get-started-build-image)
+
+## HashiCorp Cloud
+- [cloud.hashicorp.com: HashiCorp Cloud](https://cloud.hashicorp.com/) The fastest way to get up and running with HashiCorp tools. HashiCorp Cloud Platform is a fully managed platform for Terraform, Vault, Consul, and more.
+- [hashicorp.com: Multi-Region Replication Now Available with HCP Vault](https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault) New HCP Vault Plus Clusters adds high availability replication of secrets and policies across cloud regions.
 
 ## Terraform
 * [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))
@@ -187,6 +192,7 @@
 * [==AdminTurnedDevOps/Terraform-The-Hard-Way==](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way) The most efficient way to learn Terraform for beginners and intermediate practitioners
 * [acloudguru.com: 5 things we love about Terraform](https://acloudguru.com/blog/engineering/5-things-we-love-about-terraform)
 * [==devops.com: How to Migrate Existing Infrastructure to Terraform==](https://devops.com/how-to-migrate-existing-infrastructure-to-terraform/)
+* [==middlewareinventory.com: Terraform import All AWS Security Groups – How to==](https://www.middlewareinventory.com/blog/terraform-import-securitygroup-aws/) In this post, we are going to see how to manage existing and already created AWS Security groups with Terraform. The new era of Infrastructure revolution has begun already and we already started provisioning, managing, administrating our Infra as a code with help of Configuration management tools like Ansible, Terraform, SaltStack etc.
 
 ### Interview Questions
 - [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions/)
