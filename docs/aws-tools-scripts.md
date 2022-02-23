@@ -23,8 +23,10 @@
 - [OpenSource at AWS](https://aws.github.io/)
 
 ## AWS Tools
+- [github.com/awslabs](https://github.com/awslabs)
 - [==steampipe== 🌟](https://steampipe.io) Steampipe is an open source tool for querying cloud APIs in a universal way and reasoning about the data in SQL. 
 	- [==Querying AWS at scale across APIs, Regions, and accounts==](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/)
+- [==awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS==](https://github.com/awslabs/aws-cloudsaga) AWS CloudSaga is for customers to test security controls and alerts within their Amazon Web Services (AWS) environment, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
