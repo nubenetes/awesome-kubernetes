@@ -1,5 +1,6 @@
 # AWS Tools and Scripts
 - [AWS Scripts](#aws-scripts)
+- [AWS Samples (Boilerplates)](#aws-samples-boilerplates)
 - [Open Source at AWS](#open-source-at-aws)
 - [AWS Tools](#aws-tools)
 - [AWS Toolkits](#aws-toolkits)
@@ -14,6 +15,9 @@
 - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler - Find resources that are not logging, and turn them on](https://github.com/awslabs/assisted-log-enabler-for-aws)
 - https://github.com/dannysteenman/aws-toolbox A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.
 - [saml-to/assume-aws-role-action](https://github.com/saml-to/assume-aws-role-action) Assume AWS IAM Roles using SAML.to in GitHub Actions. This action enables workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
+
+## AWS Samples (Boilerplates)
+- [AWS Samples (Boilerplates)](demos.md)
 
 ## Open Source at AWS
 - [OpenSource at AWS](https://aws.github.io/)

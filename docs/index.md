@@ -173,7 +173,6 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [AWS Security](aws-security.md)
     - [AWS Monitoring](aws-monitoring.md)
     - [AWS IaC](aws-iac.md)
-    - [AWS Samples Boilerplates](aws-samples-boilerplates.md)
     - [AWS Tools Scripts](aws-tools-scripts.md)
     - [AWS Data](aws-data.md)
     - [AWS DevOps](aws-devops.md)

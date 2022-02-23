@@ -64,7 +64,7 @@
     - [PetClinic on Kubernetes](#petclinic-on-kubernetes)
     - [PetClinic Docker images](#petclinic-docker-images)
     - [OpenShift.io Samples](#openshiftio-samples)
-- [AWS Samples](#aws-samples)
+- [AWS Samples (Boilerplates)](#aws-samples-boilerplates)
 - [Azure Samples](#azure-samples)
     - [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
     - [Azure Demos](#azure-demos)
@@ -634,9 +634,12 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 * [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
 * [github.com/che-samples](https://github.com/che-samples)
 
-## AWS Samples
+## AWS Samples (Boilerplates)
+- [==github.com/aws-samples== 🌟](https://github.com/aws-samples)
+- [github.com/aws-samples/aws-auto-inventory: AWS Automated Inventory 🌟](https://github.com/aws-samples/aws-auto-inventory) A command line tool that allows you to quickly and easily generate inventory reports of your AWS resources.
+- [github.com/aws-samples/aws-waf-ops-dashboards](https://github.com/aws-samples/aws-waf-ops-dashboards) In this repository, we share code for building infrastructure to collect, enrich, and visualize AWS Web Application Firewall logs. Implementing this project in your AWS account will allow you to view and filter the logs through Kibana dashboards below, as well as customize views and dashboards to your needs.
+- [github.com/aws-samples/aws-customer-playbook-framework 🌟](https://github.com/aws-samples/aws-customer-playbook-framework) This repository provides sample templates for security playbooks against various scenarios when using Amazon Web Services.
 - [github.com/miztiik/AWS-Demos](https://github.com/miztiik/AWS-Demos)
-- [github.com/aws-samples](https://github.com/aws-samples)
 - [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
 - [==aws-samples/aws-network-hub-for-terraform: Network Hub Account with Terraform==](https://github.com/aws-samples/aws-network-hub-for-terraform) This repository demonstrates a scalable, segregated, secured AWS network for multi-account organizations. Using Transit Gateway to separate production, non-production and shared services traffic, it deploys an advanced AWS networking pattern using centralized ingress and egress behind Network Firewall, centralizes private VPC endpoints to share across all VPCs, and manages IP address allocation using Amazon VPC IPAM.
 - [cyberciti.biz: How to create MySQL user and grant permissions in AWS RDS](https://www.cyberciti.biz/faq/how-to-create-mysql-user-and-grant-permissions-in-aws-rds/)
