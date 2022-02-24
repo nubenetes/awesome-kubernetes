@@ -33,6 +33,7 @@
 - [DevOps for SAP](#devops-for-sap)
 - [Youtube Playlists](#youtube-playlists)
 - [Bunch of Images](#bunch-of-images)
+- [Slides](#slides)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -443,13 +444,18 @@ Resolve your software incidents 10x faster
 	![8 devops trends](images/8_devops_trends.png)
 
 	[![devops lifecycle](images/devops_lifecycle.jfif)](https://twitter.com/tfortricks_ind)
-	
+
+	[![devops tools declarative imperative](images/devops_tools_declarative_imperative.jfif)](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
+	</center>
+
+## Slides
+??? note "Click to expand!"
+
+	<center>	
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 	</div>
-
 	</center>
-
 
 ## Videos
 <details>
