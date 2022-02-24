@@ -72,6 +72,7 @@
 - [elfinanciero.com.mx: Tu jefe no siempre tiene la razón: ¿de qué manera puedes contradecirlo?](https://www.elfinanciero.com.mx/empresas/2021/07/06/tu-jefe-no-siempre-tiene-la-razon-de-que-manera-puedes-contradecirlo/) Los primeros beneficiados de que exista un pensamiento crítico constructivo en las empresas son los jefes.
 - [elconfidencial.com: La mejor forma de decirle a tu jefe que estás hasta arriba y no puedes más con tanto trabajo](https://www.elconfidencial.com/alma-corazon-vida/2022-02-14/jefe-trabajo-empleo-quemado-no-puedes_3372444/) Cuando sientes que lo das todo y no puedes más, a veces merece la pena echar el freno y hablar claramente con tu superior del agobio que estás sintiendo. ¿Cómo hacerlo bien?
 - [blog.trello.com: Consejos para manejar distintos conflictos en un equipo de trabajo](https://blog.trello.com/es/conflictos-en-el-trabajo)
+- [lavanguardia.com: La delgada línea roja del liderazgo: de la cercanía al compadreo](https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html) 
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)

@@ -1,5 +1,6 @@
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management
 - [Introduction](#introduction)
+- [EKS](#eks)
 - [Books](#books)
 - [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
 	- [Replex](#replex)
@@ -21,6 +22,9 @@
 - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417) Financial Operations (FinOps) is a culture that will help you creating cost awareness in your organisation!
 - [cloud.google.com: 5 key metrics to measure Cloud FinOps impact in your organization in 2022 and beyond](https://cloud.google.com/blog/topics/cloud-first/key-metrics-to-measure-impact-of-cloud-finops)
 - [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops)
+
+## EKS
+- [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)
 
 ## Books
 - [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)

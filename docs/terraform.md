@@ -5,6 +5,7 @@
 - [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 - [Packer](#packer)
 - [HashiCorp Cloud](#hashicorp-cloud)
+- [Blogs and Newsletters](#blogs-and-newsletters)
 - [Terraform](#terraform)
 	- [Interview Questions](#interview-questions)
 	- [Terraform Cloud](#terraform-cloud)
@@ -67,6 +68,9 @@
 ## HashiCorp Cloud
 - [cloud.hashicorp.com: HashiCorp Cloud](https://cloud.hashicorp.com/) The fastest way to get up and running with HashiCorp tools. HashiCorp Cloud Platform is a fully managed platform for Terraform, Vault, Consul, and more.
 - [hashicorp.com: Multi-Region Replication Now Available with HCP Vault](https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault) New HCP Vault Plus Clusters adds high availability replication of secrets and policies across cloud regions.
+
+## Blogs and Newsletters
+- [weekly.tf: Terraform Weekly](https://weekly.tf) 
 
 ## Terraform
 * [Wikipedia.org: Terraform Software](https://en.wikipedia.org/wiki/Terraform_(software))

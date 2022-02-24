@@ -120,7 +120,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Maven, Gradle & SDKMAN](maven-gradle.md)
 - [SonarQube](sonarqube.md)
 - [Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more](registries.md)
-- [Linux & SSH 🌟](linux.md)
+- [Linux & SSH](linux.md)
 - [MkDocs & GitHub Pages](mkdocs.md)
 ### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
 - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
@@ -141,12 +141,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Configuration Management
 - [==Ansible==](ansible.md)
 - [Helm Kubernetes Tool 🌟](helm.md)
-- [Kustomize - Template-Free Kubernetes Configuration Customization 🌟](kustomize.md)
+- [Kustomize - Template-Free Kubernetes Configuration Customization](kustomize.md)
 - [StackStorm](stackstorm.md)
 - [Chef](chef.md)
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
 - [Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube & Java Operator SDK](kubernetes-client-libraries.md)
-- [Database Version Control. Liquibase, Flyway and PlanetScale 🌟](liquibase.md)
+- [Database Version Control. Liquibase, Flyway and PlanetScale](liquibase.md)
 - [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [YAML and JSON 🌟](yaml.md)
 ## Databases on Kubernetes
@@ -191,6 +191,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Cloudflare](cloudflare.md)
 - [Scaleway](scaleway.md)
 - [Linode](https://www.linode.com/)
+- [Alibaba](https://www.alibabacloud.com/)
 - [Gaia-X.eu](https://www.gaia-x.eu)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)

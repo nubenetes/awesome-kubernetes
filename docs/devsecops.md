@@ -156,6 +156,7 @@
 - [thenewstack.io: Want Real Cybersecurity Progress? Redefine the Security Team](https://thenewstack.io/want-real-cybersecurity-progress-redefine-the-security-team/)
 - [devops.com: Taking a DevSecOps Approach to API Security](https://devops.com/why-traditional-approaches-to-api-security-dont-work/)
 - [devops.com: Continuous Security: The Next Evolution of CI/CD](https://devops.com/continuous-security-the-next-evolution-of-ci-cd/)
+- [==about.gitlab.com: Fantastic Infrastructure as Code security attacks and how to find them==](https://about.gitlab.com/blog/2022/02/17/fantastic-infrastructure-as-code-security-attacks-and-how-to-find-them/) **IaC Security Scanning with Kubernetes**
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 

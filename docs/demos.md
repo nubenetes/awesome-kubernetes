@@ -655,6 +655,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [jfrog.com: 5 Steps to Hosting Your Application on Amazon Cloud Container Service](https://jfrog.com/blog/5-steps-to-hosting-your-application-on-amazon-cloud-container-service/)
 - [dzone.com: From Spring Boot Microservices to Lambda Functions 🌟🌟](https://dzone.com/articles/from-java-microservices-to-lambda-functions-a-jour) Get your microservices where they need to be.
 - [==AdminTurnedDevOps/DevOps-The-Hard-Way-AWS==](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) **This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS**
+- [==medium.com/@adrianarba: CI/CD defined through terraform using AWS CodePipeline, AWS CodeCommit, and AWS CodeBuild==](https://medium.com/@adrianarba/ci-cd-defined-through-terraform-using-aws-codepipeline-aws-codecommit-and-aws-codebuild-12ade4d9cfa3)
 
 ## Azure Samples
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
