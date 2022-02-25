@@ -66,7 +66,8 @@
 - [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) Si nuestra 'tribu' se encuentra bajo amenaza, el instinto nos llama a cerrar filas en lugar de buscar lo que es mejor para toda la organización.
 - [xataka.com: La Gran Renuncia está ganando terreno en España, pero hay dos barreras: salarios bajos e indemnizaciones](https://www.xataka.com/empresas-y-economia/gran-renuncia-esta-ganando-terreno-espana-hay-dos-barreras-salarios-bajos-ley-laboral)
 - [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/sociedad/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas) Los salarios del teletrabajo podrían disminuir hasta un 15% en función de la ciudad en la que vives.
- 
+- [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) Muchos profesionales están comenzando a reflexionar sobre lo que realmente les satisface del trabajo y a qué tipo de líderes están dispuestos a seguir, porque algunos jefes no saben valorar el talento de sus empleados.
+
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
 	- [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
