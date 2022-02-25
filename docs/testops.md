@@ -16,6 +16,7 @@
 - [softwarebusinessgrowth.com: Parallel System Validation – The End Of DevOps](https://www.softwarebusinessgrowth.com/doc/parallel-system-validation-the-end-of-devops-0001)
 - [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791)
 - [gcreddy.com: Domain Knowledge for Software Testers](https://www.gcreddy.com/2016/06/domain-knowledge-for-testers.html)
+- [==blog.gurock.com: What Is DevTestOps?==](https://blog.gurock.com/what-is-devtestops/)
 
 ## Continuous Testing in DevOps
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
