@@ -55,6 +55,12 @@
 - [==Gaia-X.eu==](https://www.gaia-x.eu)
 - [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bmwi.de/Redaktion/EN/Dossier/gaia-x.html)
 
+??? note "Video: Gaia-X. Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DrG-EBBFniw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
 ## Outages
 - [investopedia.com: Amazon Web Services (AWS) Outage Causes Chaos (Dec 2021)](https://www.investopedia.com/amazon-web-services-outage-causes-chaos-5212233) AWS disruption leaves parcels undelivered, popular websites and devices offline
 - [==techrepublic.com: AWS outage: Your response to AWS going down shouldn't be multicloud==](https://www.techrepublic.com/article/aws-outage-your-response-to-aws-going-down-shouldnt-be-multicloud/) Commentary: It's convenient to assume multicloud will solve your application resilience woes. Convenient, but wrong. Here's why.

@@ -94,8 +94,8 @@ nav:
     - FinOps. Cloud Financial Management: finops.md
   - DevOps:
     - DevOps: devops.md
-    - Cheat Sheets: cheatsheets.md
     - GitOps: gitops.md
+    - Cheat Sheets: cheatsheets.md
     - MLOps: mlops.md
     - Chaos Engineering: chaos-engineering.md
   - DevSecOps:

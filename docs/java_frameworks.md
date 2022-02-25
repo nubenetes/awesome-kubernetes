@@ -146,6 +146,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [spring.io: A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6)
 - [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/)
 - [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html)
+- [javarevisited.blogspot.com: Role based Access control using Spring Security and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html)
 
 ### SpringBoot
 - [SpringBoot](https://spring.io/projects/spring-boot)

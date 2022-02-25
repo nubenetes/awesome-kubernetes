@@ -161,6 +161,7 @@
 - [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices/)
 - [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
 - [==augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security==](https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/)
+- [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker/)
   
 ## How To Build a Smaller Docker Image
 * [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)

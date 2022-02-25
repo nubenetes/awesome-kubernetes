@@ -84,6 +84,7 @@
 * [gennyallcroft.medium.com: Understanding Kubernetes deployments with Helm](https://gennyallcroft.medium.com/understanding-kubernetes-deployments-with-helm-444116a622be) 
 * [medium.com/codex: Helm Charts For Kubernetes Developers](https://medium.com/codex/helm-charts-for-kubernetes-developers-dce5719d4c8c)
 * [==apiiro.com: Malicious Kubernetes Helm Charts can be used to steal sensitive information from Argo CD deployments==](https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments/)
+* [medium.com/@paolo.gallina: How-to release Helm Charts maintaining your mental health 🌟](https://medium.com/@paolo.gallina/releasing-helm-charts-maintaining-your-mental-health-b382685390c8) Three tips for maintaining and developing Helm charts.
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
