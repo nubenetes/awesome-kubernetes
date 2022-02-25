@@ -62,12 +62,12 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## SRE Site Reliability Engineering 
 - [Site Reliability Engineering (SRE)](sre.md)
 - [FinOps - Cloud Financial Management](finops.md)
+- [Chaos Engineering](chaos-engineering.md)
 ## DevOps
 - [==DevOps==](devops.md)
 - [==GitOps==](gitops.md)
 - [Cheat Sheets 🌟](cheatsheets.md)
 - [MLOps](mlops.md)
-- [Chaos Engineering](chaos-engineering.md)
 ## DevSecOps and Security
 - [DevSecOps and Security. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
