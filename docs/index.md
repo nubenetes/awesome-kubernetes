@@ -37,7 +37,6 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
     - etc
-- [==repost.aws==](https://repost.aws)
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
@@ -53,7 +52,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
 - [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 - [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
-- [dok.community: Data on Kubernetes 2021](https://dok.community/wp-content/uploads/2021/10/DoK_Report_2021.pdf) 
+- [dok.community: Data on Kubernetes 2021 🌟](https://dok.community/wp-content/uploads/2021/10/DoK_Report_2021.pdf) 
 - [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/)
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/) 
 ## Introduction
@@ -165,6 +164,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Edge Computing](edge-computing.md)
 - [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
 - [==AWS==](aws.md)
+    - [==repost.aws==](https://repost.aws)
     - [AWS Miscellaneous](aws-miscellaneous.md)
     - [==AWS Architecture and Best Practices==](aws-architecture.md)
     - [AWS Networking](aws-networking.md)
