@@ -51,6 +51,7 @@
 - [Azure Chaos Studio](https://azure.microsoft.com/services/chaos-studio/#overview)
     - [techcommunity.microsoft.com: Announcing the Public Preview of Azure Chaos Studio](https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-the-public-preview-of-azure-chaos-studio/ba-p/2893050)
     - [docs.microsoft.com: What is Azure Chaos Studio?](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-overview)
+    - [sqlservercentral.com: Chaos Engineering in Azure](https://www.sqlservercentral.com/articles/chaos-engineering-in-azure)
 
 ## Videos
 ??? note "Click to expand!"
