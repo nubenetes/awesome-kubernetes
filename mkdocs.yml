@@ -96,8 +96,8 @@ nav:
   - DevOps:
     - DevOps: devops.md
     - GitOps: gitops.md
-    - Cheat Sheets: cheatsheets.md
     - MLOps: mlops.md
+    - Cheat Sheets: cheatsheets.md    
   - DevSecOps:
     - DevSecOps. Container Security: devsecops.md
     - Security Policy as Code: securityascode.md

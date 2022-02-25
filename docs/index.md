@@ -66,8 +66,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## DevOps
 - [==DevOps==](devops.md)
 - [==GitOps==](gitops.md)
-- [Cheat Sheets 🌟](cheatsheets.md)
 - [MLOps](mlops.md)
+- [Cheat Sheets 🌟](cheatsheets.md)
 ## DevSecOps and Security
 - [DevSecOps and Security. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
