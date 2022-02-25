@@ -164,6 +164,7 @@ nav:
     - Terraform & Packer.Kubernetes Boilerplates: terraform.md
     - Pulumi: pulumi.md
     - Crossplane: crossplane.md
+    - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
     - Cloud Asset Inventory: cloud-asset-inventory.md
   - Config Mgmt:
     - Ansible: ansible.md
@@ -188,7 +189,6 @@ nav:
   - Cloud: 
     - Public Cloud Solutions: public-cloud-solutions.md
     - Edge Computing: edge-computing.md
-    - Cloud Architecture Diagram Tools: cloud-arch-diagrams.md
     - AWS Cloud:
       - AWS: aws.md
       - AWS Miscellaneous: aws-miscellaneous.md

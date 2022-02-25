@@ -135,6 +135,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==Terraform & Packer.Kubernetes Boilerplates==](terraform.md)
 - [Pulumi](pulumi.md)
 - [Crossplane](crossplane.md) A Kubernetes Control Plane to Roll Your Own PaaS
+- [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
 - [Cloud Asset Inventory](cloud-asset-inventory.md)
 
 ## Configuration Management
@@ -162,7 +163,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Public Cloud
 - [Public Cloud Solutions](public-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)
-- [Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
 - [==AWS==](aws.md)
     - [==repost.aws==](https://repost.aws)
     - [AWS Miscellaneous](aws-miscellaneous.md)
