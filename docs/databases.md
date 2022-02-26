@@ -87,6 +87,7 @@
 - [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing/)
 - [blog.jooq.org](https://blog.jooq.org) JAVA, SQL AND JOOQ. Best Practices and Lessons Learned from Writing Awesome Java and SQL Code. Get some hands-on insight on what's behind developing jOOQ.
 - [vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide](https://vladmihalcea.com/sql-left-join/)
+- [vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide](https://vladmihalcea.com/sql-join-using/)
 
 ### SQL Interview Questions
 - [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html)

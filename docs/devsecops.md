@@ -157,6 +157,11 @@
 - [devops.com: Taking a DevSecOps Approach to API Security](https://devops.com/why-traditional-approaches-to-api-security-dont-work/)
 - [devops.com: Continuous Security: The Next Evolution of CI/CD](https://devops.com/continuous-security-the-next-evolution-of-ci-cd/)
 - [==about.gitlab.com: Fantastic Infrastructure as Code security attacks and how to find them==](https://about.gitlab.com/blog/2022/02/17/fantastic-infrastructure-as-code-security-attacks-and-how-to-find-them/) **IaC Security Scanning with Kubernetes**
+- [devops.com: How to Seamlessly Transition to DevSecOps](https://devops.com/how-to-seamlessly-transition-to-devsecops/) **DevSecOps Isn’t Simple**
+	- In the last few months, the cybersecurity world has been taken by storm following the discovery of the Log4Shell vulnerability. The zero-day had the potential to put much of the connected world at risk and left security teams scrambling to quickly apply security patches to software just before Christmas 2021.
+	- As a result of the chaos caused by Log4Shell, many organizations kicked off the new year by carrying out security assessments to identify ways to improve detection and mitigation of future vulnerabilities. One approach that is gaining a lot of attention is DevSecOps.
+	- DevSecOps introduces and automates security in the earlier phases of the software development life cycle rather than bolting it on at the end. The approach saves money, saves time on tedious manual tasks, helps organizations meet regulatory compliance requirements and significantly reduces the risk of critical security bugs being found after an application’s final build.
+	- However, when it comes to kicking off DevSecOps projects, there are a few challenges application security teams need to overcome first to ensure their programs fit seamlessly into CI/CD pipelines.
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 

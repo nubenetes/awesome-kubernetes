@@ -22,6 +22,7 @@
 - [==freecodecamp.org: Infrastructure as Code - Full Course== 🌟](https://www.freecodecamp.org/news/what-is-infrastructure-as-code/)
 - [faun.pub: The best Infrastructure as Code tools for 2021](https://faun.pub/the-best-infrastructure-as-code-tools-for-2021-b37c323e89f0)
 - [==alpacked.io: Infrastructure as Code in DevOps== 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops/) Key driving force of efficient application delivery.
+- [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)
 
 ## Tweets
 <details>

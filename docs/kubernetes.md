@@ -595,7 +595,7 @@
 * [blog.gopaddle.io: Strange things you never knew about Kubernetes ConfigMaps on day one 🌟🌟](https://blog.gopaddle.io/2021/04/01/strange-things-you-never-knew-about-kubernetes-configmaps-on-day-one/)
 * [k21academy.com: Kubernetes ConfigMaps and Secrets: Guide to Create and Update 🌟](https://k21academy.com/docker-kubernetes/configmaps-secrets/)  
 * [kubermatic.com: Keeping the State of Apps Part 3: Introduction to ConfigMaps 🌟](https://www.kubermatic.com/blog/keeping-the-state-of-apps-part-3-introduction-to-configmaps)
-* [medium: Kubernetes ConfigMaps Explained](https://medium.com/codex/kubernetes-configmaps-explained-961cdd23f232)
+* [medium.com/codex: Kubernetes ConfigMaps Explained](https://medium.com/codex/kubernetes-configmaps-explained-961cdd23f232)
 * [linuxadvise.com: Kubernetes Config Maps](https://www.linuxadvise.com/post/kubernetes-config-maps)
 * [aditya-sunjava.medium.com: Externalizing Configurations in Kubernetes Using ConfigMap and Secret](https://aditya-sunjava.medium.com/externalizing-configurations-in-kubernetes-using-configmap-and-secret-bfda0970d8ae)
 #### Kubernetes Secrets
@@ -605,7 +605,7 @@
 #### Kubernetes Volumes
 * [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/)
 * [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/)
-* [medium: Kubernetes Persistent Volume Explained](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393)
+* [medium.com/codex: Kubernetes Persistent Volume Explained](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393)
 * [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)
 * [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.
 #### Kubernetes Namespaces and Multi Tenancy. Self Service Namespaces

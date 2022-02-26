@@ -193,6 +193,7 @@
 - [towardsdatascience.com: Memory Management in Python](https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9) How does it work? A list of examples that help.
 - [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64)
 - [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)
+- [open.sap.com: Python for Beginners](https://open.sap.com/courses/python1)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

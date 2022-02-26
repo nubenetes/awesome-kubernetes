@@ -354,6 +354,7 @@ git push origin -f
 ## GitHub
 * [githubstatus.com 🌟](https://www.githubstatus.com/)
 * [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
+    * [infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance](https://www.infoq.com/news/2022/02/github-codespaces-templates/)
 * [GitHub CLI](https://cli.github.com/)
     * [github.com/cli/cli](https://github.com/cli/cli)
     * [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)

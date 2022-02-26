@@ -59,6 +59,7 @@
 
 ## HashiCorp Learning Resources Reference Guide
 - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
+- [techbeatly.com: 10 Free Courses to Learn Terraform](https://www.techbeatly.com/terraform-free-courses/)
 ## Packer
 * [packer.io](https://packer.io/)
 * [packer.io docs](https://www.packer.io/docs/index.html)

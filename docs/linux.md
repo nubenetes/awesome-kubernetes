@@ -113,6 +113,7 @@
 - [LinuxLinks.com](http://www.linuxlinks.com)
 - [unixmages.com](http://unixmages.com) 
 - [The Geek Stuff](http://www.thegeekstuff.com/)
+- [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) A study notes book for the common knowledge and tasks of a Linux system admin.
 
 ## Spanish Linux Blogs
 - [systemadmin.es](http://systemadmin.es/)
