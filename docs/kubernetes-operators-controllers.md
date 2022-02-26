@@ -4,7 +4,6 @@
 - [Operator Capability Levels](#operator-capability-levels)
 - [Cluster Addons](#cluster-addons)
 - [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
-- [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
 - [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
 - [Writing Kubernetes Operators and Controllers](#writing-kubernetes-operators-and-controllers)
 - [Tweets](#tweets)
@@ -100,13 +99,6 @@
 - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator) Kubernetes multi-tenant operator. Enables multi-tenant capabilities in your Kubernetes Cluster. [We defined some small features to implement](https://github.com/k8spin/k8spin-operator/projects/1). If you know python & Kubernetes and want to contribute to this project, ping us!
 - [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/) 
 - [Discover K8Spin open source software](https://k8spin.cloud/oss-projects/)
-
-## Flux. The GitOps Operator for Kubernetes
-* [Flux 🌟](https://fluxcd.io/) The GitOps operator for Kubernetes
-* [docs.fluxcd.io](https://docs.fluxcd.io/)
-* [github: Flux CD](https://github.com/fluxcd/flux)
-* [dzone: Developing Applications on Multi-tenant Clusters With Flux and Kustomize](https://dzone.com/articles/developing-applications-on-multitenant-clusters-wi) Take a look at how multiple teams can use the resources of a single cluster to develop an application.
-* [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm.html)
 
 ## K8s KPIs with Kuberhealthy Operator
 - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/) transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic [KPIs](https://kpi.org/KPI-Basics).
