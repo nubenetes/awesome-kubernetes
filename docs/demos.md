@@ -73,6 +73,7 @@
     - [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 - [SpringBoot Demos](#springboot-demos)
 - [Quarkus Demos](#quarkus-demos)
+- [Golang Demos](#golang-demos)
 - [Kafka](#kafka)
 - [Apache Camel & ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
 - [Codeless](#codeless)
@@ -704,6 +705,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [aytartana.wordpress.com: Migrating SpringBoot PetClinic REST to Quarkus](https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus/)
 - [aalmiray/q-cli](https://github.com/aalmiray/q-cli) Sample Quarkus CLI application 
 - [piomin/sample-quarkus-serverless-kafka](https://github.com/piomin/sample-quarkus-serverless-kafka) Demo illustrating how to run Quarkus application on Knative Eventing with Kafka and Funqy modules
+
+## Golang Demos
+- [==stefanprodan/podinfo==](https://github.com/stefanprodan/podinfo) **Go microservice template for Kubernetes**. Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes. Podinfo is used by CNCF projects like Flux and Flagger for end-to-end testing and workshops.
 
 ## Kafka
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
