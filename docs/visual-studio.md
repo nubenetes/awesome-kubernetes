@@ -196,6 +196,7 @@ A simple extension to make indentation more readable
 - [How to configure Visual Studio Code for test debugging](https://medium.com/guidesmiths-dev/how-to-configure-visual-studio-code-for-test-debugging-39d0d7f24d79)
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
+- [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.
 
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)

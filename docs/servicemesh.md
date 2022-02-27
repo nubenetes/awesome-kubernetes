@@ -63,6 +63,7 @@
 * [==devops.com: How Are API Management and Service Mesh Different?==](https://devops.com/how-are-api-management-and-service-mesh-different/)
 * [devops.com: When to Use API Management and Service Mesh Together](https://devops.com/when-to-use-api-management-and-service-mesh-together/)
 * [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
+* [infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟](https://www.infoq.com/presentations/5-challenges-mesh/) 
 
 ## Service Mesh and API Gateways
 * [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)

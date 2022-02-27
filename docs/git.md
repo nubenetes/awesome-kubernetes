@@ -25,6 +25,7 @@
     - [GitLab Collective](#gitlab-collective)
 - [GitHub](#github)
     - [GitHub Lab](#github-lab)
+    - [GitHub Code Scanner](#github-code-scanner)
     - [GitHub Actions](#github-actions)
         - [GitHub Actions Marketplace](#github-actions-marketplace)
     - [GitHub Actions and OpenShift](#github-actions-and-openshift)
@@ -424,6 +425,10 @@ git push origin -f
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
+
+### GitHub Code Scanner
+- https://docs.github.com/en/code-security/code-scanning
+- [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities/) The new experimental analysis can have a higher false-positive rate relative to results from standard CodeQL analysis.
 
 ### GitHub Actions
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/2020-10-09-devops-cloud-testing/)

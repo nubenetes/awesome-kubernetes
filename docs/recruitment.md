@@ -200,6 +200,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💁‍♂️ Career tip - Your manager plays a MASSIVE role in how successful you can be. Find a manager that supports your careers goals and values.</p>&mdash; Lachlan Evenson (@LachlanEvenson) <a href="https://twitter.com/LachlanEvenson/status/1495144293748465664?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t owe any more loyalty to an employer than they show to you.<br><br>If they&#39;re willing to fire you without cause, you have every right to leave without guilt.<br><br>If they&#39;re not willing to invest in your well-being and success, you have no obligation to invest in theirs.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1497225500414066713?ref_src=twsrc%5Etfw">February 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">4) The leadership team&#39;s values are INCREDIBLY important<br><br>The less ego at the top, the more everyone wins. Financially, personally and otherwise.<br><br>A business wins by focusing on what the customer wants, not someone&#39;s ego.</p>&mdash; Brian Bourque 🚀 (@bbourque) <a href="https://twitter.com/bbourque/status/1497564012485091329?ref_src=twsrc%5Etfw">February 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

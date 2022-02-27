@@ -4,6 +4,7 @@
 - [Blogs](#blogs)
 - [Podcasts](#podcasts)
 - [Training](#training)
+	- [Spanish](#spanish)
 - [Automation anxiety](#automation-anxiety)
 - [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
 - [Interview Questions](#interview-questions)
@@ -74,6 +75,9 @@
 ## Training
 * [==Techworld with Nana: Learn DevOps topics easily==](https://www.techworld-with-nana.com)
 	* [==techworld-with-nana.com/devops-bootcamp==](https://www.techworld-with-nana.com/devops-bootcamp)
+
+### Spanish
+* [redeszone.net: Qué necesitas saber para ser DevOps y certificaciones recomendables](https://www.redeszone.net/tutoriales/redes-cable/ingeniero-devops-estudios-funciones/)
 
 ## Automation anxiety
 {==

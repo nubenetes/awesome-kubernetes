@@ -35,6 +35,7 @@
 * [==blog.flant.com: Collecting system information from a bunch of Kubernetes clusters==](https://blog.flant.com/collect-system-information-stats-from-kubernetes-clusters/)
 * [medium.com/is-it-observable: How to collect metrics in a Kubernetes cluster](https://medium.com/is-it-observable/how-to-collect-metrics-in-a-kubernetes-cluster-9ad4a69aafb0)
 * [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913)
+* [medium.com/@lucapompei91: Kubernetes observability](https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6) 
 
 ## Kubernetes Logging 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)

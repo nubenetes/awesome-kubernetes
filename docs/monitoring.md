@@ -218,6 +218,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     | __Monitoring__ | __Mediocre__. Kibana monitoring is not available. Cloudwatch is often inadequate for Elasticsearch monitoring. | __Good__. Kibana monitoring available and pre-installed. | __Depends__. It is up to you to implement an adequate monitoring system, but you have access to kibana monitoring. |
     | __Future-proof__ | __Medium__. Oftern lags several minor versions behind the latest Elasticsearch version. Some features are not available at all. | __High__. Same day Elasticsearch version parity. All features are available. | __High__. Up to you to upgrade as needed, but in theory the same Elastic Cloud. |
 
+- [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
+
 #### Elastic Cloud on Kubernetes (ECK)
 - [medium: A detailed guide to deploying Elasticsearch on Elastic Cloud on Kubernetes (ECK)](https://medium.com/99dotco/a-detail-guide-to-deploying-elasticsearch-on-elastic-cloud-on-kubernetes-eck-31808ac60466) Running Elasticsearch on Kubernetes allows developers/admins to utilize container orchestration by Kubernetes and apply best practices on managing Elasticsearch clusters by the Elastic Operator
 

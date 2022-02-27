@@ -52,7 +52,7 @@
     - [medium.com: Getting Started With Kubernetes Operators (Ansible Based) — Part 2](https://medium.com/velotio-perspectives/getting-started-with-kubernetes-operators-ansible-based-part-2-472eb0d453b7)
     - [velotio.com: Getting Started With Kubernetes Operators (Golang Based) - Part 3](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-golang-based-part-3)
 - [IngressMonitorController (Deprecated)](https://github.com/stakater/IngressMonitorController) A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc. 
-- [RBAC Manager 🌟](https://github.com/FairwindsOps/rbac-manager) A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.
+- [==FairwindsOps/rbac-manager: RBAC Manager== 🌟](https://github.com/FairwindsOps/rbac-manager) A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.
 - [KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟](https://github.com/cloud-ark/kubeplus)
 - [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/)
 - [kubermatic.com: Why Implementing Kubernetes Operators Is a Good Idea! 🌟](https://www.kubermatic.com/blog/why-implementing-kubernetes-operators-is-a-good-idea/)
@@ -84,7 +84,9 @@
     - Sleep your pods: Suspend your pods when no-one's using them, scale down your cluster and save energy
     - Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)
 - [krestomatio/keydb-operator](https://github.com/krestomatio/keydb-operator) A KeyDB (Drop-In Alternative to Redis) Operator for Kubernetes
-- [Keel 🌟](https://github.com/keel-hq/keel) Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates.
+- [Keel 🌟](https://github.com/keel-hq/keel) Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates:
+    - You can use policies to define when to update an application
+    - Users can specify how many approvals do they need before a resource is updated.
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.

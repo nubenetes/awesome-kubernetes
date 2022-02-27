@@ -1,4 +1,5 @@
 # Linux and SSH
+- [Introduction](#introduction)
 - [RHEL](#rhel)
 - [Rocky Linux](#rocky-linux)
 - [VIM](#vim)
@@ -33,6 +34,9 @@
 - [Networking Protocols](#networking-protocols)
 - [Images](#images)
 - [Tweets](#tweets)
+
+## Introduction
+- [zdnet.com: Linus Torvalds prepares to move the Linux kernel to modern C](https://www.zdnet.com/google-amp/article/linus-torvalds-prepares-to-move-the-linux-kernel-to-modern-c/) The Linux kernel's foundation is the ancient C89 standard of C. Now, Torvalds has decided to upgrade to 2011's more modern C11 standard.
 
 ## RHEL
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.

@@ -605,7 +605,10 @@
 #### Kubernetes Volumes
 * [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/)
 * [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/)
-* [medium.com/codex: Kubernetes Persistent Volume Explained](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393)
+* [==medium.com/codex: Kubernetes Persistent Volume Explained==](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393)
+    * How to create a persistent volume from a storage class 
+    * How to create a persistent volume claim
+    * How to attach the PVC to a Pod
 * [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)
 * [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.
 #### Kubernetes Namespaces and Multi Tenancy. Self Service Namespaces
