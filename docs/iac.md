@@ -1,15 +1,10 @@
 # Infrastructure Provisioning. Infra Management Tools. IaC Infrastructure as Code
 - [Introduction](#introduction)
+- [Comparing the Tools](#comparing-the-tools)
 - [Tweets](#tweets)
 ## Introduction
 - [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds/) IaC allows developers to supply IT environments with multiple lines of code and can be deployed in a matter of minutes (in contrast to manual infrastructure, which can take hours if not days to be deployed).
 - [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial/)
-- [clickittech.com: Terraform vs CloudFormation: The Final battle 🌟](https://www.clickittech.com/devops/terraform-vs-cloudformation/)
-- [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference) 
-- [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/ansible/terraform-vs-ansible)
-- [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/)
-- [cloudify.co: Ansible Vs Terraform 🌟](https://cloudify.co/blog/ansible-vs-terraform/)
-- [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools/)
 - [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.agileconnection.com/article/infrastructure-code-foundation-effective-devops)
 - [cloudify.co: Infrastructure As Code – Is It REALLY Enough For DevOps? IAC DevOps Best Practices 🌟](https://cloudify.co/blog/infrastructure-as-code-is-it-really-enough-for-devops/)
 - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code/)
@@ -23,6 +18,15 @@
 - [faun.pub: The best Infrastructure as Code tools for 2021](https://faun.pub/the-best-infrastructure-as-code-tools-for-2021-b37c323e89f0)
 - [==alpacked.io: Infrastructure as Code in DevOps== 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops/) Key driving force of efficient application delivery.
 - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)
+
+## Comparing the Tools
+- [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools/)
+- [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference) 
+- [clickittech.com: Terraform vs CloudFormation: The Final battle 🌟](https://www.clickittech.com/devops/terraform-vs-cloudformation/)
+- [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/ansible/terraform-vs-ansible)
+- [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/)
+- [cloudify.co: Ansible Vs Terraform 🌟](https://cloudify.co/blog/ansible-vs-terraform/)
+- [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/t5/itops-talk-blog/infrastructure-as-code-iac-comparing-the-tools/ba-p/3205045)
 
 ## Tweets
 <details>
