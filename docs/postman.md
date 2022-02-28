@@ -37,3 +37,4 @@
 ## Alternatives. Rest Assured
 - https://rest-assured.io 
 - [automationqahub.com: Latest Rest Assured Interview Questions](https://automationqahub.com/latest-rest-assured-interview-questions/)
+- [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io)
