@@ -12,7 +12,7 @@ I'm not a freelancer and most of the time I work as a contractor, which in Spain
 
 Suggesting improvements and best practices or applying quality standard and automated solutions that work well and are easy to verify shouldn't penalize a career, but it's terribly common. I am concerned about working with some colleagues or managers who consider it a threat, generating absurd conflicts, blame games and acting in bad faith or stupidly distorting the purpose of the project.
 
-In a service driven IT sector (with ambiguities and many hidden interests) the product is the hours billed by the consultant, being irrelevant the content of the job and the delivered quality. It is thus difficult not to find technical solutions under the policy of applying "the most difficult, non-standard, slow and obfuscated way possible" (doing weird things) as a competitive element. This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid. 
+In a service driven IT sector (with ambiguities and many hidden interests) the product is the hours billed by the consultant, being irrelevant the content of the job and the delivered quality. It is thus difficult not to find technical solutions under the policy of applying "the most difficult, non-standard, slowest and most obfuscated way possible" (the hard way and doing weird things) as a competitive element. This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid. 
 
 A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported approach.
 
