@@ -302,6 +302,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [==conduktor.io: What is Apache Kafka?==](https://www.conduktor.io/kafka/what-is-apache-kafka) Learn about Apache Kafka and its ecosystem in 20 minutes.
 - [medium.com/airwallex-engineering: Kafka Streams: Iterative Development and Blue-Green Deployment](https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e) Blue-Green Deployment for Kafka Stream Applications. 
 - [==redhat.com: How we use Apache Kafka to improve event-driven architecture performance==](https://www.redhat.com/architect/apache-kafka-EDA-performance) **When designing your event-driven architecture, consider these ways to configure Kafka to improve performance.**
+- [dev.to: Running Kafka on kubernetes for local development](https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54)
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)
