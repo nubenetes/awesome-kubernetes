@@ -64,6 +64,7 @@
 - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github](https://awesomeopensource.com/projects/cidr)
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) A collection of ZSH frameworks, plugins, themes and tutorials.
 - [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco) A curated list of Falco related tools, frameworks and articles
+- [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
