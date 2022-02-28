@@ -1,6 +1,7 @@
 # Public Cloud Solutions
 - [Public Cloud References](#public-cloud-references)
 - [Cloud Agnostic Design](#cloud-agnostic-design)
+- [Multi-Cloud and Multi-Tool Concerns](#multi-cloud-and-multi-tool-concerns)
 - [Public Cloud Services Comparison](#public-cloud-services-comparison)
 - [Openshift as a Service](#openshift-as-a-service)
 - [Kubernetes as a Service](#kubernetes-as-a-service)
@@ -15,6 +16,9 @@
 
 ## Cloud Agnostic Design
 - [==medium: Cloud Agnostic Design== 🌟](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)
+
+## Multi-Cloud and Multi-Tool Concerns
+- [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services/) Only 8% of IT professionals surveyed around the globe believe they are getting the most from the cloud. A staggering 76% said they think their company is hitting a 'wall' as many of the daily tools were not designed to unify a multi-cloud, multi-tool world. 73% of the respondents agreed that they'd reached a point where they are struggling with efficiency scaling cloud efforts. Complexities with cloud adoption have increased, meaning that many business units and engineers within an organization decide to find isolated local solutions. That translates to companies having thousands of 'islands of automation' across teams, business units, subsidiaries, and locations. **Close to 63% of respondents said cyber threats specifically targeting cloud services were the main obstacle to cloud adoption.** Unsurprisingly, 60% said that the lack of security solutions protecting cross-platform environments was the critical hindrance for smoother general cloud adoption.
 
 ## Public Cloud Services Comparison
 * [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)

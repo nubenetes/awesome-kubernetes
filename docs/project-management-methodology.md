@@ -227,6 +227,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After looking at the problem:<br><br>JS developer: <br>&quot;I bet there is a library for that&quot;<br><br>Experienced JS developer: <br>&quot;I bet I can write a library for that&quot;<br><br>Next level JS developer: <br>&quot;I bet I can release a new framework for doing this&quot;</p>&mdash; Dushyant.yaml (@DevDminGod) <a href="https://twitter.com/DevDminGod/status/1493154795586453505?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6 years ago I joined a 20-person startup.<br><br>I wanted to quit after my first week, but didn&#39;t.<br><br>Now our company is worth over $1B and has 200+ employees.<br><br>Here&#39;s what I&#39;ve learned about succeeding at a startup:</p>&mdash; Brian Bourque 🚀 (@bbourque) <a href="https://twitter.com/bbourque/status/1497563992478257153?ref_src=twsrc%5Etfw">February 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Los sabotajes también perjudican y mucho a otros profesionales, que a marchas forzadas tenemos que recuperar los sistemas críticos heredados al retomar un proyecto de gente descontenta que sale. Falta ética profesional y buenas prácticas.</p>&mdash; nubenetes (@nubenetes) <a href="https://twitter.com/nubenetes/status/1491466103150817282?ref_src=twsrc%5Etfw">February 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

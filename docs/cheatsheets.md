@@ -54,6 +54,7 @@
 - [NodeJS](#nodejs)
 - [Selenium](#selenium)
 - [RPA](#rpa)
+- [Data Science](#data-science)
 - [CIDR subnets](#cidr-subnets)
 - [Scrum Cheat Sheet](#scrum-cheat-sheet)
 - [Images](#images)
@@ -432,6 +433,10 @@
 
 ## RPA
 - [intellipaat.com: RPA Cheat Sheet](https://intellipaat.com/blog/tutorial/rpa-tutorial/rpa-cheat-sheet/)
+
+## Data Science 
+- [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 1](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-1.html) A collection of cheat sheets that will help you prepare for a technical interview, assessment tests, class presentation, and help you revise core data science concepts.
+- [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html) A collection of cheat sheets that will help you prepare for a technical interview on Data Structures & Algorithms, Machine learning, Deep Learning, Natural Language Processing, Data Engineering, Web Frameworks.
 ## CIDR subnets
 - [==cidr.xyz== 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
 - https://en.wikipedia.org/wiki/Classful_network

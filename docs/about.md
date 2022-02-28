@@ -1,9 +1,50 @@
 # About Nubenetes
-This web started in 2018, after finishing my first relevant project on cloud computing with a well known consulting firm. It was an international project coordinated from Munich with remote work from other european countries and regular flights. The client was a major car manufacturer with a big investment in OpenShift and Cloudbees/Jenkins infrastructure. Our role was to help the client with their pretty large CI/CD ecosystem while also implementing a new **self-service developer platform**, involving areas of development and operations and within a DevOps model. **Requirements and way of working included continuous improvement, standardization, boilerplates and automation with a GitOps pattern**, a highly recommended approach specially in demanding projects like this with hundreds of real microservices, a large number of IaC pipelines & CI/CD pipelines, developers and final users.
 
-Since then I tried to apply in my country what I learnt from the germans and other european colleagues. I'm not a freelancer and I continue working as a regular contractor or employee. 
+<center>
+==Open Source is most successful when is played as a positive sum game. (Sarah Novotny)==
+</center>
 
-Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation. Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!!
+This web started in 2018, after finishing my first relevant project on cloud computing with a well known consulting firm. It was an international project coordinated from Munich with remote work from other european countries and regular flights. The client was a major car manufacturer with a big investment in OpenShift and Cloudbees/Jenkins infrastructure. Our role was to help the client with their pretty large CI/CD ecosystem while also implementing a new **self-service developer platform**, involving areas of development and operations and within a DevOps model. **Requirements and way of working included continuous improvement, standardization, boilerplates and automation with a GitOps pattern**, a highly recommended approach specially in demanding projects like this with hundreds of real microservices, a large number of IaC & CI/CD pipelines, hundreds of developers and million end users.
+
+Since then I try to apply in my country what I learnt from the germans and other european colleagues. 
+
+I'm not a freelancer and most of the time I work as a contractor, which in Spain means to be hired as an employee by an external company.
+
+Suggesting improvements and best practices or applying quality standard and automated solutions that work well and are easy to verify shouldn't penalize a career, but it's terribly common. I am concerned about working with some colleagues or managers who consider it a threat, generating absurd conflicts, blame games and acting in bad faith or stupidly distorting the purpose of the project.
+
+The ambiguities typical of a service sector with many hidden interests where the product is the hours billed by the consultant and the content of the job and the quality delivered are not relevant. It is thus difficult not to find technical solutions under the policy of applying "the most difficult, non-standard, slow and obfuscated way possible" (doing weird things) as a competitive element. This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid. 
+
+A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported approach.
+
+Not applying supported changes or improvements while most of the competition does not invest in them is short-term. It is worrying because there is considerable resistance to change along with employment discrimination to prevent new proposals from succeeding. The term DevOps first appeared in 2009.
+
+In this service driven IT sector, cloud certifications and technical assesment tests have much more weight in the selection processes that have little to do with real work. They are mostly a wall to justify the hiring of less experienced (younger and cheaper) employees. Fundamental in any profession to learn by doing while building a career and skills with decent opportunities and without too many difficulties and barriers. 
+
+A consequence of these technical assessment tests is the willingness to learn how to pass them while only implementing and practicing this specific knowledge at work. If assessments are about low level concepts then there's no interest in abstractions, frameworks and enterprise standards (real work). Similar scenario when evaluating kubernetes knowledge with manual tasks (CLI) instead of gitops pipelines (real work).
+
+Inbreeding is not a good strategy in IT. Hiring people with different background and skills is a better bet. Cronyism, kiss up kick down and blame games hurt employee retention and economic growth. This is terrible common too. If an employee doesn't trust their manager, the company suffers. Sure, ruling through fear works, but the employee will do the bare minimum amount of work needed to keep their job (manually and without automation).
+
+**Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired. 
+
+We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies.
+
+Everyone sells the same thing: cloud, devops, big data, etc. Speaking is cheap. Throwing an SQL statement doesn't make you an SQL expert. Likewise, you don't need to be an SQL expert on every job. Actually most of the jobs require generalists rather than specialists, above all in countries where most companies are SMEs. 
+
+There are very few unicorns and to a certain extent it depends a lot on the environment created.
+
+**CKA is the top Kubernetes certification but only a few employers require one. Same logic applies to other certifications.**
+
+It is surprising the numerous resources and the strategy of psychological exhaustion of the recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner. 
+
+As professionals we are obliged to a high commitment to our clients, sometimes sacrificing our well-being in order to achieve the objectives. Everyone knows the limits, sometimes being a personal decision to abandon a project without this entailing a penalty in the next job (we have given our CV to third parties without any control). And I'm not talking about an isolated case.
+
+Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternative often seems to be manual work with low salary expectations, promotion to a management position or emigration to countries with a different economic model where technical jobs are better valued. This does not scale either. Freelancing worldwide is not for everyone either. 
+
+Instead of reinventing the wheel by rewriting from scratch a new installer or tool to manage kubernetes, please pay attention to the links shared here and learn how to add value on the so called day 2. You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for reinventing the wheel on day 1, there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.**
+
+**Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation.** 
+
+Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!!
 
 <center>
 <iframe width="200" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/17422127&color=%230a1ef1&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/thespaceman78" title="thespaceman78" target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/thespaceman78/the-seatbelts-tank-ost-cowboy" title="The Seatbelts - Tank!" target="_blank" style="color: #cccccc; text-decoration: none;">The Seatbelts - Tank!</a></div>

@@ -34,6 +34,7 @@
 * [grafana.com: Video: How to build a Prometheus query in Grafana](https://grafana.com/blog/2022/01/27/video-how-to-build-a-prometheus-query-in-grafana/)
 * [grafana.com: An advanced guide to network monitoring with Grafana and Prometheus](https://grafana.com/blog/2022/02/01/an-advanced-guide-to-network-monitoring-with-grafana-and-prometheus/)
 * [==devopscube.com: How To Setup Grafana On Kubernetes==](https://devopscube.com/setup-grafana-kubernetes/)
+* [infoq.com: Grafana Cloud Adds Incident and On-Call Management Solutions](https://www.infoq.com/news/2022/02/grafana-incident-oncall/)
 
 ## Grafana Agent
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.

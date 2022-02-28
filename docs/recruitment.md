@@ -214,6 +214,8 @@
 	[![excelente_propuesta_de_trabajo_meme](images/excelente_propuesta_de_trabajo_meme.png)](https://sinergiasincontrol.blogspot.com/2021/11/643-la-excelente-propuesta-de-trabajo.html9)
 
 	![new job every 3 years](images/new_job_every_3_years.jfif)
+
+	![meme job hunting 2 assessments](images/meme_new_job.jfif)
 	</center>
 
 ## Videos

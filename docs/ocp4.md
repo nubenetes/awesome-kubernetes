@@ -44,6 +44,7 @@
     - [Istio CNI plug-in](#istio-cni-plug-in)
     - [Calico CNI Plug-in](#calico-cni-plug-in)
     - [Third Party Network Operators with OpenShift](#third-party-network-operators-with-openshift)
+    - [Ingress Controllers in OpenShift using IPI](#ingress-controllers-in-openshift-using-ipi)
 - [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
 - [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
 - [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
@@ -593,6 +594,9 @@ oc login
 
 ### Third Party Network Operators with OpenShift
 - [Using Third Party Network Operators with OpenShift](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/using-third-party-network-operators-with-openshift)
+
+### Ingress Controllers in OpenShift using IPI
+- [==cloud.redhat.com: A Guide to Ingress Controllers in OpenShift using IPI==](https://cloud.redhat.com/blog/a-guide-to-ingress-controllers-in-openshift)
 
 ## Storage in OCP 4. OpenShift Container Storage (OCS)
 - [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/) 
