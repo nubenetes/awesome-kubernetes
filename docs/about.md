@@ -1,7 +1,7 @@
 # About Nubenetes
 
 <center>
-==Open Source is most successful when is played as a positive sum game. (Sarah Novotny)==
+=="Open Source is most successful when is played as a positive sum game" (Sarah Novotny)==
 </center>
 
 This web started in 2018, after finishing my first relevant project on cloud computing with a well known consulting firm. It was an international project coordinated from Munich with remote work from other european countries and regular flights. The client was a major car manufacturer with a big investment in OpenShift and Cloudbees/Jenkins infrastructure. Our role was to help the client with their pretty large CI/CD ecosystem while also implementing a new **self-service developer platform**, involving areas of development and operations and within a DevOps model. **Requirements and way of working included continuous improvement, standardization, boilerplates and automation with a GitOps pattern**, a highly recommended approach specially in demanding projects like this with hundreds of real microservices, a large number of IaC & CI/CD pipelines, hundreds of developers and million end users.
