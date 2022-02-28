@@ -416,6 +416,7 @@
 - [websitesetup.org: Python Cheat Sheet](https://websitesetup.org/python-cheat-sheet/)
 - https://blog.finxter.com/python-cheat-sheets
 - https://www.pythoncheatsheet.org
+- [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)
 
 ## Go
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
