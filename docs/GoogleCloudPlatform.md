@@ -68,6 +68,7 @@
 - [cloud.google.com: Cloud IDS for network-based threat detection is now generally available](https://cloud.google.com/blog/products/identity-security/announcing-general-availability-of-google-cloud-ids)
 - [cloud.google.com: DevOps and CI/CD on Google Cloud explained](https://cloud.google.com/blog/topics/developers-practitioners/devops-and-cicd-google-cloud-explained)
 - [cloud.google.com: What is Cloud CDN and how does it work?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-cdn-and-how-does-it-work)
+- [==networkmanagementsoftware.com: Google Cloud Platform (GCP) Networking Fundamentals==](https://www.networkmanagementsoftware.com/google-cloud-platform-gcp-networking-fundamentals/)
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
