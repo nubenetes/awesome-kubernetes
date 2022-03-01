@@ -26,6 +26,7 @@
 - [Packer and Terraform Cheat Sheets](#packer-and-terraform-cheat-sheets)
 - [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
 	- [SSH Cheat Sheets](#ssh-cheat-sheets)
+	- [Nmap Cheat Sheet](#nmap-cheat-sheet)
 - [OpenShift Cheat Sheets](#openshift-cheat-sheets)
 	- [Debezium Cheat Sheets](#debezium-cheat-sheets)
 - [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
@@ -77,7 +78,6 @@
 - [cheat.sh 🌟](https://cheat.sh/)
 - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
 - [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)
-- [Nmap Cheat Sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp)
 - [manz.dev/cheatsheets](https://manz.dev/cheatsheets) 
 
 ## Google Search 
@@ -292,6 +292,9 @@
 - [pentestmonkey.net: ssh cheat sheet](http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)
 - [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-cheatsheet-for-sysadmins/)
 - [opensource.com: Learn advanced SSH commands with this cheat sheet](https://opensource.com/article/18/4/learn-advanced-ssh-commands-new-cheat-sheet)
+
+### Nmap Cheat Sheet
+- [comparitech.com: Nmap Cheat Sheet](https://www.comparitech.com/net-admin/nmap-nessus-cheat-sheet/) Nmap Cheat Sheet plus Nmap + Nessus Cheat Sheet. We include all the commands in an easy to download and reference format. Downloadable JPEG or PDF files.
 
 ## OpenShift Cheat Sheets
 * [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)
