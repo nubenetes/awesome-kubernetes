@@ -78,6 +78,7 @@
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
 - [dzone: Breaking Silos: Enhance Speed and Value Delivery](https://dzone.com/articles/silos-breaking-for-business-to-enhance-speed-to-va) How do we diagnose organizational silos? And how do we slice the large size business teams who are serving many customers or products with poor efficiency?
 - [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/get-started-with-team-topologies-in-8-steps/)
+- [betterprogramming.pub: Team Topologies — A New Way of Thinking About Teams](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) Organize teams around four fundamental types: stream-aligned, enabling, complicated subsystem, and platform.
 
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)

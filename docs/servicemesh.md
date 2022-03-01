@@ -108,6 +108,7 @@
 - [itnext.io: A Practical Guide for Linkerd Authorization Policies](https://itnext.io/a-practical-guide-for-linkerd-authorization-policies-6cfdb50392e9)
 - "Installed Linkerd in staging yesterday using Helm and Terraform. It was incredibly easy to setup and immediately helped me diagnose tricky latency issues between services. I have no idea why I didn’t do this sooner. Can’t wait to get this into production."
 - [linkerd.io: Benchmarking Linkerd and Istio: 2021 Redux](https://linkerd.io/2021/11/29/linkerd-vs-istio-benchmarks-2021/index.html)
+- [buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces](https://buoyant.io/2021/12/14/locking-down-network-traffic-between-kubernetes-namespaces)
 
 ## Maesh Service Mesh
 - [Maesh](https://containo.us/maesh/)

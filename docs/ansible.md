@@ -22,6 +22,7 @@
 - [Books](#books)
 - [Ansible Galaxy Roles](#ansible-galaxy-roles)
 - [More Ansible Roles](#more-ansible-roles)
+- [Ansible scripts](#ansible-scripts)
 - [Awesome Ansible](#awesome-ansible)
 - [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
 - [Ansible Kubernetes Module](#ansible-kubernetes-module)
@@ -260,6 +261,9 @@
 ## More Ansible Roles
 - [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) Use Ansible and some custom scripts to deploy advisories and patches to RHEL servers.
 
+## Ansible scripts
+- [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) Using HashiCorp Vault as a dynamic Ansible inventory and authentication service
+
 ## Awesome Ansible
 * [https://github.com/jdauphant/awesome-ansible](https://github.com/jdauphant/awesome-ansible)
 * [https://github.com/awesome-devops/awesome-ansible](https://github.com/awesome-devops/awesome-ansible)
@@ -308,4 +312,6 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/1id6ERvfozo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/lhFvMsy6VX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/goclfp6a2IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/_TVNCTK808I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/rx4Uh3jv1cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
