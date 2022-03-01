@@ -195,6 +195,7 @@
 - [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)
 - [open.sap.com: Python for Beginners](https://open.sap.com/courses/python1)
 - [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755)
+- [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises](https://codesolid.com/python-lists)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
