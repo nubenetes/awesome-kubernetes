@@ -34,7 +34,7 @@ There are very few unicorns and to a certain extent it depends a lot on the envi
 
 **CKA is the top Kubernetes certification but only a few employers require one. Same logic applies to other certifications.**
 
-It is surprising the numerous resources and the strategy of psychological exhaustion of recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner. 
+It is surprising the numerous resources and the strategy of psychological exhaustion of recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again, only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner. 
 
 As professionals we are obliged to a high commitment to our clients, sometimes sacrificing our well-being in order to achieve the objectives. Everyone knows the limits, sometimes being a personal decision to abandon a project without this entailing a penalty in the next job (we have given our CV to third parties without any control). And I'm not talking about an isolated case.
 
