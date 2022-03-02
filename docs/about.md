@@ -40,6 +40,10 @@ As professionals we are obliged to a high commitment to our clients, sometimes s
 
 Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternative often seems to be manual work with low salary expectations, promotion to a management position or emigration to countries with a different economic model where technical jobs are better valued. This does not scale either. Freelancing worldwide is not for everyone either. 
 
+"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software" (@dmokafa)
+
+"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes" (@rakyll) 
+
 Instead of reinventing the wheel by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called day 2. You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for reinventing the wheel on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.** 
 
 **Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation.** 
