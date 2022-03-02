@@ -222,6 +222,8 @@
 	![you get a new tech job](images/ýou_get_a_tech_job.jfif)
 
 	![work chronicles cultural fit](images/workchronicles_cultural_fit.jfif)
+
+	![you get a tech job](images/you_get_a_tech_job.jfif)
 	</center>
 
 ## Videos
