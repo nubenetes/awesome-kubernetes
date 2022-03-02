@@ -1,7 +1,7 @@
 # Customer Success Stories. Cloud Native Projects
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-	- [BMW InnovationLab](#bmw-innovationlab)
+  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+  - [BMW InnovationLab](#bmw-innovationlab)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
@@ -13,7 +13,7 @@
 * [BMW IT-Zentrum](https://www.facebook.com/pages/BMW-IT-Zentrum/122968844423716)
 * CI/CD at BMW IT-Zentrum (2018): 
     * Jenkins in OpenShift (CloudBees & OSS): Maven, Seed Job, Multibranch Pipelines, Merge BOTs, OpenShift Source-to-Image (S2I), Fabric8 Java Client Library for Kubernetes, JobDSL & Shared Libraries (groovy).
-    * Requirements of each microservice defined in a single json file.
+    * Requirements of each microservice (configurations) defined in a single json file.
     * Java Frameworks: Java EE (Jakarta EE) running on Payara. 
     * HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
     * Docker, Terraform, Packer, Ansible, Flyway, PostgreSQL.
