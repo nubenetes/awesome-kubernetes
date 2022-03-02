@@ -1,7 +1,7 @@
 # Customer Success Stories. Cloud Native Projects
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-  - [BMW InnovationLab](#bmw-innovationlab)
+	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+	- [BMW InnovationLab](#bmw-innovationlab)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
 - [Carrefour Spain](#carrefour-spain)
