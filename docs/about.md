@@ -14,6 +14,8 @@ Suggesting improvements and best practices or applying quality standards and aut
 
 In a service driven IT sector (with ambiguities and many hidden interests) the product is the hours billed by the consultant, being almost irrelevant the content of the job and the delivered quality. It is thus difficult not to find technical solutions under the policy of applying "the most difficult, non-standard, slowest and most obfuscated way possible" as a competitive element (the hard way and doing weird things). This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid. 
 
+**Ambiguities about DevOps term**. Developing new ad-hoc devops tools and ad-hoc monitoring solutions should not be the role of the devops specialist. A DevOps specialist develops IaC and CI/CD pipelines with standard tools and code, among other responsabilities such as application monitoring. The development of devops tools for kubernetes with client-go should be clearly named in a JD as "development of devops tools for kubernetes with client-go" (suitable for a software engineer with client-go skills).
+
 A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported approach. **DevOps principles: People, processes, technology.**
 
 Avoiding standardization, automation and improvements because rivals do not invest in them is shortsighted. It is worrying because there is considerable resistance to change along with employment discrimination to prevent new proposals from succeeding. The term DevOps first appeared in 2009.
@@ -40,9 +42,9 @@ As professionals we are obliged to a high commitment to our clients, sometimes s
 
 Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternative often seems to be manual work with low salary expectations, promotion to a management position or emigration to countries with a different economic model where technical jobs are better valued. This does not scale either. Freelancing worldwide is not for everyone either. 
 
-"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software" ([@dmokafa](https://twitter.com/dmokafa))
+*"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software"* ([@dmokafa](https://twitter.com/dmokafa))
 
-"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes" ([@rakyll](https://twitter.com/rakyll)) 
+*"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes"* ([@rakyll](https://twitter.com/rakyll)) 
 
 Instead of reinventing the wheel by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called day 2. You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for reinventing the wheel on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.** 
 
