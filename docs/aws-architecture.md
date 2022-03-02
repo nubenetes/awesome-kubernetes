@@ -7,6 +7,7 @@
 ## Introduction
 - [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 	- [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
+- [==aws.amazon.com/well-architected-tool: AWS Well-Architected Tool==](https://aws.amazon.com/well-architected-tool) Do couple of WAR (Well-Architect Review) for public cloud. Basically it is to scan the cloud on 5-6 KPI's : Performance, Cost, Operations, Business etc.. 
 - [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)

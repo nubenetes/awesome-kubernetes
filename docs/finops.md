@@ -5,6 +5,7 @@
 - [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
 	- [Replex](#replex)
 - [Cost Optimization Tools](#cost-optimization-tools)
+- [Tweets](#tweets)
 
 ## Introduction
 - [FinOps Foundation: FinOps.org](https://www.finops.org/) Collaborative, Real-Time Cloud Financial Management
@@ -36,4 +37,10 @@
 
 ## Cost Optimization Tools
 - [CAST AI](https://cast.ai/) cuts your cloud bill automatically so engineers can focus on building a better product
-    
+
+## Tweets
+??? note "Click to expand!"
+
+	<center>
+	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What is FinOps Architect job in Cloud?<br>This has got very popular on Public cloud to manage companies - Cloud Financial Management. <br><br>Here&#39;s how you can be a Cloud FinOps Consultant<br>🧵1/?<br>1. Learn architecture well</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1498705725874483205?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</center>

@@ -62,6 +62,7 @@
 - [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
 - [Auto-portforward (apf)](#auto-portforward-apf)
 - [gardener/Terraformer](#gardenerterraformer)
+- [Werf](#werf)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -699,6 +700,9 @@
 
 ## gardener/Terraformer
 - [gardener/terraformer: Terraformer](https://github.com/gardener/terraformer) Executes Terraform configuration as job/pod inside a Kubernetes cluster. Terraformer is a tool that can execute Terraform commands (apply, destroy and validate) and can be run as a Pod inside a Kubernetes cluster. The Terraform configuration and state files (main.tf, variables.tf, terraform.tfvars and terraform.tfstate) are stored as ConfigMaps and Secrets in the Kubernetes cluster and will be retrieved and updated by Terraformer.
+
+## Werf
+- [==werf/werf==](https://github.com/werf/werf) The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism. Werf is an Open Source CLI tool written in Go, designed to simplify and speed up the delivery of applications. To use it, you need to describe the configuration of your application (in other words, how to build and deploy it to Kubernetes) and store it in a Git repo — the latter acts as a single source of truth. In short, that's what we call **GitOps** today.
 
 ## Tweets
 <details>

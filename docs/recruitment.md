@@ -202,6 +202,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You don&#39;t owe any more loyalty to an employer than they show to you.<br><br>If they&#39;re willing to fire you without cause, you have every right to leave without guilt.<br><br>If they&#39;re not willing to invest in your well-being and success, you have no obligation to invest in theirs.</p>&mdash; Adam Grant (@AdamMGrant) <a href="https://twitter.com/AdamMGrant/status/1497225500414066713?ref_src=twsrc%5Etfw">February 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">4) The leadership team&#39;s values are INCREDIBLY important<br><br>The less ego at the top, the more everyone wins. Financially, personally and otherwise.<br><br>A business wins by focusing on what the customer wants, not someone&#39;s ego.</p>&mdash; Brian Bourque 🚀 (@bbourque) <a href="https://twitter.com/bbourque/status/1497564012485091329?ref_src=twsrc%5Etfw">February 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If software engineers are so valuable and in such high demand, then how come we have such obscene interviewing processes? Legitimately curious to know how this happened</p>&mdash; Cain Maddox (@ctrlshifti) <a href="https://twitter.com/ctrlshifti/status/1498766382107824130?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -216,6 +218,10 @@
 	![new job every 3 years](images/new_job_every_3_years.jfif)
 
 	![meme job hunting 2 assessments](images/meme_new_job.jfif)
+
+	![you get a new tech job](images/ýou_get_a_tech_job.jfif)
+
+	![work chronicles cultural fit](images/workchronicles_cultural_fit.jfif)
 	</center>
 
 ## Videos
@@ -226,3 +232,4 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XRcYK94ipmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
+

@@ -31,6 +31,7 @@
 - https://suckless.org/philosophy software that sucks less
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
 - [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
+- [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)

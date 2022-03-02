@@ -196,6 +196,8 @@
 - [open.sap.com: Python for Beginners](https://open.sap.com/courses/python1)
 - [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755)
 - [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises](https://codesolid.com/python-lists)
+- [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) Understanding the purpose of requirements.txt, setup.py and setup.cfg in Python when developing and distributing packages
+- [==realpython.com: Building Lists With Python's .append()==](https://realpython.com/courses/building-lists-with-python-append/)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)

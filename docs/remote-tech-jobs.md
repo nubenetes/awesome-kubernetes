@@ -7,6 +7,7 @@
 ## Introduction
 - [theatlantic.com: Why Managers Fear a Remote-Work Future](https://www.theatlantic.com/ideas/archive/2021/07/work-from-home-benefits/619597/) Like it or not, the way we work has already evolved.
 - [esquire.com: ](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/) ¿Por qué tu empresa no quiere que teletrabajes?
+- [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary/) As remote seeps into our lives and jobs become borderless, a new problem arises: receiving your salary from a remote company abroad.
 
 ## Remote Jobs
 - http://weworkremotely.com
@@ -22,6 +23,7 @@
 - https://4dayweek.io Find a 4 day work week software job.
 - https://remotetechjobs.com 3000 active tech jobs on the site, excellent search-and-subscribe functionality, and 37 tech job categories.
 - https://www.aog.jobs Remote IT Contractors In Time
+- https://landing.jobs
 
 ## Kubernetes 
 - [kube.careers](https://kube.careers/) Hand-picked Kubernetes jobs
