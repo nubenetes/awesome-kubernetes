@@ -18,7 +18,9 @@
 - [Xebia Labs and DevOps](#xebia-labs-and-devops)
 - [DevOps Tools](#devops-tools)
 	- [Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins](#data-driven-devops-automation-with-ketpn-automating-service-level-indicatorsservice-level-objectives-based-build-validation-with-keptn-and-jenkins)
-		- [keptn slides and videos](#keptn-slides-and-videos)
+		- [Keptn Images](#keptn-images)
+		- [Keptn Videos](#keptn-videos)
+		- [Keptn Slides](#keptn-slides)
 	- [Puppet](#puppet)
 	- [Relay](#relay)
 	- [Devtron Labs](#devtron-labs)
@@ -330,21 +332,27 @@
 	- [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
 - [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) Codelab explaining the benefits of automating SLO-based quality gates with keptnProject.
 
-#### keptn slides and videos
+#### Keptn Images
 ??? note "Click to expand!"
 
 	<center>
-
 	[![keptn](images/keptn-jenkins-sli-slo-1.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-
 	[![keptn](images/keptn-jenkins-sli-slo-2.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
-
 	[![keptn](images/keptn-jenkins-sli-slo-3.jpg)](https://www.youtube.com/watch?v=GhEZLvc8B70)
+	</center>
 
+#### Keptn Videos
+??? note "Click to expand!"
+
+	<center>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/3EEZmSwMXp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GhEZLvc8B70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
 
+#### Keptn Slides
+??? note "Click to expand!"
+
+	<center>
 	<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 	</center>
 
