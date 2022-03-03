@@ -36,6 +36,8 @@
     - [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
         - [JMeter Example Test Plans](#jmeter-example-test-plans)
 - [Prometheus and Azure](#prometheus-and-azure)
+- [Managed Prometheus in AWS](#managed-prometheus-in-aws)
+- [Managed Prometheus in GCP](#managed-prometheus-in-gcp)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -701,6 +703,12 @@ JMeter|Artemis Grafana|Artemis Dashboard
 
 ## Prometheus and Azure
 - [Promitor 🌟](https://promitor.io) An Azure Monitor scraper for Prometheus 
+
+## Managed Prometheus in AWS
+- [Managed Prometheus in AWS](prometheus.md#aws-managed-services-for-prometheus-and-grafana)
+
+## Managed Prometheus in GCP
+- [==cloud.google.com: Google Cloud Managed Service for Prometheus==](https://cloud.google.com/stackdriver/docs/managed-prometheus/) A top option in the market. It's a drop-in replacement for what you have now, and offers leading scale, price, and retention, all with a global backplane. 
 
 ## Videos
 <details>

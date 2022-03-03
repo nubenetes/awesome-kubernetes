@@ -54,7 +54,7 @@
 * [thenewstack.io: Secure Your Service Mesh: A 13-Item Checklist](https://thenewstack.io/secure-your-service-mesh-a-13-item-checklist/)
 * [infoq.com: Adoption of Cloud Native Architecture, Part 3: Service Orchestration and Service Mesh](https://www.infoq.com/articles/cloud-native-architecture-adoption-part3/)
 * [infoq.com: Service Mesh Ultimate Guide - Second Edition: Next Generation Microservices Development](https://www.infoq.com/articles/service-mesh-ultimate-guide-2e/)
-* [itnext.io: Stupid Simple Service Mesh — What, When, Why 🌟](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41)
+* [==itnext.io: Stupid Simple Service Mesh — What, When, Why== 🌟](https://itnext.io/stupid-simple-service-mesh-what-when-why-e9be9e5f4d41)
 * [thenewstack.io: The Hidden Costs of Service Meshes](https://thenewstack.io/the-hidden-costs-of-service-meshes/)
 * [learnsteps.com: What is a service mesh? Is it born with Kubernetes?](https://www.learnsteps.com/what-is-a-service-mesh-is-it-born-with-kubernetes/)
 * [==medium: Microservices and the World with a Service Mesh== | Adarsh Prabhu](https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5) We will look at how the unruly world of distributed microservices can be tamed by using a Service Mesh. Service Meshes form the backbone of some of the very complex applications out there. They solve critical issues of the microservices architecture and provide better Traffic Management, Security and Observability. In most cases these features are enabled without requiring any code changes.
