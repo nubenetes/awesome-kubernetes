@@ -219,9 +219,11 @@ It prescribes that software designers should define formal, precise and verifiab
 * [jmfloreszazo.com: Flujos de trabajo de git](https://jmfloreszazo.com/flujos-de-trabajo-de-git/)
 * [towardsdatascience.com: How To Structure Your Git Branching Strategy — By A Data Engineer](https://towardsdatascience.com/how-to-structure-your-git-branching-strategy-by-a-data-engineer-45ff96857bb) Data pipelines require version control too!
 
-<center>
-<script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-</center>
+??? note "Slide: 10 git anti patterns. Click to expand!"
+        
+    <center>
+    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+    </center>
 
 ### Git Workflows
 * ```git help workflows```
