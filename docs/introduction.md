@@ -9,7 +9,7 @@
 - [SaaS](#saas)
 - [Multi Cloud](#multi-cloud)
 - [Cloud Automation](#cloud-automation)
-  - [Automation Glossary](#automation-glossary)
+	- [Automation Glossary](#automation-glossary)
 - [Microservices Best Practices](#microservices-best-practices)
 - [Microservice Patterns](#microservice-patterns)
 - [Microservices Anti Patterns](#microservices-anti-patterns)
