@@ -6,3 +6,4 @@
 - [Serverless Computing: Moving from DevOps to NoOps](https://devops.com/serverless-computing-moving-from-devops-to-noops/)
 - [7 arguments against NoOps](https://techbeacon.com/enterprise-it/7-arguments-against-noops)
 - [What is NoOps? The quest for fully automated IT operations](https://www.cio.com/article/3407714/what-is-noops-the-quest-for-fully-automated-it-operations.html)
+- [devops.com: Up Your DevOps Game: It’s Time for NoOps](https://devops.com/up-your-devops-game-its-time-for-noops/)

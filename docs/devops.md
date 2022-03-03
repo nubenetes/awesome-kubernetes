@@ -303,7 +303,7 @@
 * [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
 
 ## NoOps
-- [devops.com: Up Your DevOps Game: It’s Time for NoOps](https://devops.com/up-your-devops-game-its-time-for-noops/)
+- [NoOps](noops.md)
 
 ## NetOps
 - [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/)
