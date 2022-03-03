@@ -224,6 +224,8 @@
 	![work chronicles cultural fit](images/workchronicles_cultural_fit.jfif)
 
 	![you get a tech job](images/you_get_a_tech_job.jfif)
+
+	![my company gave me](images/my_company_gave_me.jfif)
 	</center>
 
 ## Videos
