@@ -7,6 +7,7 @@
     - [Ansible and Ansible Tower](#ansible-and-ansible-tower)
     - [GitOps](#gitops)
 - [Kubernetes Demos](#kubernetes-demos)
+    - [Django on K8s](#django-on-k8s)
     - [Postgres Operator](#postgres-operator)
     - [CI/CD with SpringBoot for Kubernetes](#cicd-with-springboot-for-kubernetes)
         - [Deploy a Spring Boot Application to Openshift with Spring Cloud Kubernetes and Fabric 8 Maven Plugin](#deploy-a-spring-boot-application-to-openshift-with-spring-cloud-kubernetes-and-fabric-8-maven-plugin)
@@ -178,7 +179,6 @@
 * [medium.com: Attacking Kubernetes clusters using the Kubelet API](https://medium.com/faun/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca) Knock-knockin’ on kubelet’s door. From the doormat to full node access.
 * [nfrankel/jvm-controller](https://github.com/nfrankel/jvm-controller) Example on how to write a kubernetes controller in Java. The demo code for nfrankel's talk on Kubernetes operators in Java.
 * [matthewpalmer.net: Kubernetes Ingress with Nginx Example 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
-* [digitalocean.com: How To Deploy a Scalable and Secure Django Application with Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes)
 * [developers.redhat.com: Deploying Node.js applications to Kubernetes with Nodeshift and Minikube](https://developers.redhat.com/blog/2021/03/09/deploying-node-js-applications-to-kubernetes-with-nodeshift-and-minikube/)
 * [itnext.io: Breaking down and fixing Kubernetes](https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3) In this article you'll break the cluster, delete certificates and rejoin the nodes without causing any downtime.
 * [dev.to: Implementing a simple K8s admission controller in Go](https://dev.to/douglasmakey/implementing-a-simple-k8s-admission-controller-in-go-2dcg)
@@ -193,6 +193,10 @@
 * [todaywasawesome/atomic-cluster: The Atomic Cluster](https://github.com/todaywasawesome/atomic-cluster) Running a k3s Kubernetes cluster homelab on the adorable and affordable Atomic Pi.
 * [youtube: Deploy Docker image to Kubernetes Cluster | CI-CD for Azure Kubernetes Service | Mohamed Radwan - DevOps](https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps)
 * [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster/)
+
+### Django on K8s
+* [digitalocean.com: How To Deploy a Scalable and Secure Django Application with Kubernetes](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-scalable-and-secure-django-application-with-kubernetes)
+* [dev.to: Django on K8s (Part 0: Introduction)](https://dev.to/mkalioby/django-apps-on-kubernetes-2edo)
 
 ### Postgres Operator
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)

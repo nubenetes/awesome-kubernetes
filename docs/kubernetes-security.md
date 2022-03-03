@@ -185,6 +185,7 @@
 * [medium.com/devops-mojo: Kubernetes — Role-Based Access Control (RBAC) Overview](https://medium.com/devops-mojo/kubernetes-role-based-access-control-rbac-overview-introduction-rbac-with-kubernetes-what-is-2004d13195df) RBAC with Kubernetes — Role, ClusterRole, RoleBinding, and ClusterRoleBinding.
 * [loft-sh.medium.com: 10 Essentials for Kubernetes Access Control](https://loft-sh.medium.com/10-essentials-for-kubernetes-access-control-a67ae72977dd)
 * [sumanthkumarc.medium.com: Kubernetes RBAC — Update default ClusterRoles without editing them](https://sumanthkumarc.medium.com/kubernetes-rbac-update-default-clusterroles-without-editing-them-ef206254e0)
+* [faun.pub: Assign permissions to an user in Kubernetes. An overview of RBAC-based AuthZ in k8s 🌟](https://faun.pub/assign-permissions-to-an-user-in-kubernetes-an-overview-of-rbac-based-authz-in-k8s-7d9e5e1099f1)
 
 ## Admission Control 
 - [blog.styra.com: Why RBAC is not enough for kubernetes security 🌟🌟](https://blog.styra.com/blog/why-rbac-is-not-enough-for-kubernetes-api-security)
