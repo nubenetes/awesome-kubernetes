@@ -16,7 +16,7 @@ In a service driven IT sector (with ambiguities and many hidden interests) the p
 
 **Ambiguities about DevOps term**. Developing new ad-hoc devops tools and ad-hoc monitoring solutions should not be the role of the devops specialist. A DevOps specialist develops IaC and CI/CD pipelines with standard tools and code, ideally with GitOps patterns & kubernetes and with other responsabilities such as application monitoring. The development of devops tools for kubernetes with i.e. client-go should be clearly mentioned in a JD as "software development of devops tools for kubernetes with client-go" (suitable for a software engineer with client-go skills, a developer of devops/kubernetes/monitoring tools). Likewise, a DevOps specialist should not be a fullstack developer who occasionally does QA + DevOps + Cloud Design/Ops. 
 
-A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported approach. **DevOps principles: People, processes, technology.**
+A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported or not recommended approach. **DevOps principles: People, processes, technology.**
 
 Avoiding standardization, automation and improvements because rivals do not invest in them is shortsighted. It is worrying because there is considerable resistance to change along with employment discrimination to prevent new proposals from succeeding. The term DevOps first appeared in 2009.
 
