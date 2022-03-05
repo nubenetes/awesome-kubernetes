@@ -18,6 +18,11 @@ In a service driven IT sector (with calculated ambiguities and many hidden inter
 
 A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported or not recommended approach. **DevOps principles: People, processes, technology.**
 
+	| __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
+	| :---: | :---: | :---: | :---: | :---: | :---: | 
+	| __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |  
+	| __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |  
+
 Avoiding standardization, automation and improvements because rivals do not invest in them is shortsighted. It is worrying because there is considerable resistance to change along with employment discrimination to prevent new proposals from succeeding. The term DevOps first appeared in 2009.
 
 In this service driven IT sector, cloud certifications and technical assesment tests have much more weight in the selection processes that have little to do with real work. They are mostly a wall to justify the hiring of less experienced (younger and cheaper) employees. Fundamental in any profession to learn by doing while building a career and skills with decent opportunities and without too many difficulties and barriers. 
@@ -28,7 +33,7 @@ Inbreeding is not a good strategy in IT. Hiring people with different background
 
 **Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired. 
 
-We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies.
+We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies. 
 
 Everyone sells the same thing: cloud, devops, big data, etc. Speaking is cheap. Throwing an SQL statement doesn't make you an SQL expert. Likewise, you don't need to be an SQL expert on every job. Actually most of the jobs require generalists rather than specialists, above all in countries where most companies are SMEs. 
 
@@ -40,15 +45,17 @@ It is surprising the numerous resources and the strategy of psychological exhaus
 
 As professionals we are obliged to a high commitment to our clients, sometimes sacrificing our well-being in order to achieve the objectives. Everyone knows the limits, sometimes being a personal decision to abandon a project without this entailing a penalty in the next job (we have given our CV to third parties without any control). And I'm not talking about an isolated case.
 
-Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternative often seems to be manual work with low salary expectations, promotion to a management position or emigration to countries with a different economic model where technical jobs are better valued. This does not scale either. Freelancing worldwide is not for everyone either. 
+Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternative often seems to be manual work with low salary expectations, lack of opportunities with new cloud jobs (better paid), promotion to a management position or emigration to countries with a different economic model where technical jobs are better valued. This does not scale either. Freelancing worldwide is not for everyone either. 
 
 *"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software"* ([@dmokafa](https://twitter.com/dmokafa))
 
 *"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes"* ([@rakyll](https://twitter.com/rakyll)) 
 
-Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called day 2. You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for reinventing the wheel on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.** 
+Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called day 2. You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for [reinventing the wheel](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/) on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.** 
 
 **Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation.** 
+
+Does saying this publicly imply being blacklisted and losing professional opportunities? In what society do we live? 
 
 Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!!
 
