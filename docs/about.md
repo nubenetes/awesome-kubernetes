@@ -59,7 +59,7 @@ Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting
 
 **Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and silos and promote digital transformation.** 
 
-Does saying this publicly imply being blacklisted and losing professional opportunities? In what society do we live? 
+Does saying this publicly imply being blacklisted and losing professional opportunities? What kind of society do we live in? 
 
 Let's improve the IT sector and the opportunities and give us a star on GitHub if you like this blog!!
 
