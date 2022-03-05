@@ -48,6 +48,7 @@
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
+- [==DZone: Defining Day-2 Operations==](https://dzone.com/articles/defining-day-2-operations) Day-2 operations is where the system generates an outcome for the organization. Thus, continually seek improvements in day-2 operations, to maximize benefits.
 
 ## Blogs
 - [devops.com](https://devops.com/)

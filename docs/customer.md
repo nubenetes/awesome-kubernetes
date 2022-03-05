@@ -16,7 +16,7 @@
     * Requirements of each microservice (configurations) defined in a single json file.
     * Java Frameworks: Java EE (Jakarta EE) running on Payara. 
     * HA-Proxy, SonarQube, Nexus3, JMeter, Selenium, etc.
-    * Docker, Terraform, Packer, Ansible, Flyway, PostgreSQL.
+    * Docker, Terraform, Packer, Ansible, YAML, Flyway, PostgreSQL.
     * Swagger, Postman, Visual Studio Code.
     * Atlassian: Confluence, Bitbucket, Jira, Crowd.
     * Hybrid Clouds: OpenStack on-premise clusters, OpenShift 3.10 on-premise clusters, AWS.
