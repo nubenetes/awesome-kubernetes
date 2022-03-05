@@ -20,7 +20,7 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 
 **DevOps principles: People, processes, technology**
 
-**GitOps principles: Correctness, doing DevOps correctly** 
+**[GitOps](https://opensource.com/article/21/3/gitops) principles: Correctness, doing DevOps correctly** 
 
 | __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
