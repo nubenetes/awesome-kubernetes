@@ -53,6 +53,7 @@
 - [Python](#python)
 - [Go](#go)
 - [NodeJS](#nodejs)
+- [C++](#c)
 - [Selenium](#selenium)
 - [RPA](#rpa)
 - [Data Science](#data-science)
@@ -432,6 +433,9 @@
 
 ## NodeJS
 - [developers.redhat.com: Node.js Cheat Sheet](https://developers.redhat.com/cheat-sheets/nodejs-cheat-sheet)
+
+## C++
+- [hackingcpp.com: C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets.html)
 
 ## Selenium
 - [dev.to: Selenium Cheat Sheet](https://dev.to/razgandeanu/selenium-cheat-sheet-9lc)

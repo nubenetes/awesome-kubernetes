@@ -131,13 +131,13 @@
 * [iximiuz.com: Containers 101: attach vs. exec - what's the difference?](https://iximiuz.com/en/posts/containers-101-attach-vs-exec/)
 * [acloudguru.com: Docker COPY vs ADD: What’s the difference?](https://acloudguru.com/blog/engineering/docker-copy-vs-add-whats-the-difference)
 * [thenewstack.io: How to Run Docker in Rootless Mode](https://thenewstack.io/how-to-run-docker-in-rootless-mode/)
+* [mjovanc.com: Get started with Docker and Docker Compose](https://mjovanc.com/get-started-with-docker-and-docker-compose-cddcb5a3f3b9)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
 
 ## Docker Swarm
-- [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
-- [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
+- [Docker Swarm](kubernetes-alternatives.md#docker-swarm)
 
 ## Awesome Lists
 * [Awesome Docker 🌟](https://github.com/veggiemonk/awesome-docker)

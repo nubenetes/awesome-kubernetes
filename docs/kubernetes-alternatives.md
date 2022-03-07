@@ -57,6 +57,9 @@
 * [freecodecamp.org: Kubernetes VS Docker: What's the Difference? Explained With Example](https://www.freecodecamp.org/news/kubernetes-vs-docker-whats-the-difference-explained-with-examples/)
 * [kpatronas.medium.com: Docker swarm: High Availability](https://kpatronas.medium.com/docker-swarm-high-availability-36ea7ee7f9e8)
 * [semaphoreci.com: Kubernetes vs Docker: Understanding Containers in 2021](https://semaphoreci.com/blog/kubernetes-vs-docker)
+- [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
+- [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
+* [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
 
 ## Simplenetes
 * [Simplenetes](https://github.com/simplenetes-io/simplenetes) Alternative to Kubernetes written in pure Sh
