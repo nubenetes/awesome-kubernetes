@@ -28,6 +28,7 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 | __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |  
 
 [The SRE Experience Is Changing with Cloud Native](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/):
+
 - From Firefighting to Prevention for SREs. 
 - Empower Developers with Self-Service. 
 - Facilitate Developer Autonomy. 
