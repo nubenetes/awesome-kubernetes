@@ -18,7 +18,7 @@ In a service driven IT sector (with calculated ambiguities and many hidden inter
 
 A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported or not recommended[^1] approach. 
 
-[^1]:[For example: OpenShift deployment using the UPI method instead of IPI because of lack of permissions as an excuse](https://keithtenzer.com/openshift/openshift-4-aws-ipi-installation-getting-started-guide/#:~:text=OpenShift%20offers%20two%20possible%20deployment%20methods%3A%20IPI%20(as%20mentioned)%20and%20UPI%20(User%20Provisioned%20Infrastructure).%20The%20difference%20is%20the%20degree%20of%20automation%20and%20customization.%20IPI%20will%20not%20only%20deploy%20OpenShift%20but%20also%20all%20infrastructure%20components%20and%20configurations.)
+[^1]:For example: [OpenShift deployment using the UPI method instead of IPI](https://keithtenzer.com/openshift/openshift-4-aws-ipi-installation-getting-started-guide/#:~:text=OpenShift%20offers%20two%20possible%20deployment%20methods%3A%20IPI%20(as%20mentioned)%20and%20UPI%20(User%20Provisioned%20Infrastructure).%20The%20difference%20is%20the%20degree%20of%20automation%20and%20customization.%20IPI%20will%20not%20only%20deploy%20OpenShift%20but%20also%20all%20infrastructure%20components%20and%20configurations.) because of lack of permissions as an excuse. 
 
 **DevOps principles: People, processes, technology**
 
