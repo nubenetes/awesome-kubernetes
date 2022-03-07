@@ -275,7 +275,7 @@
 * [medium: AWS Configuration with Web Server in EC2 Using Ansible](https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e)
 
 ## Ansible Kubernetes Module
-* [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+* [==docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects==](https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html)
 * [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes/) The Ansible Kubernetes module allows you to access the full range of Kubernetes APIs and create objects such as deployments, services, and so on. Learn how to use it in this step-by-step tutorial.
 
 ## NGINX Core Collection for Ansibe
