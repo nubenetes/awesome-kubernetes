@@ -30,6 +30,11 @@
 * [==opensource.com: Write your first CI/CD pipeline in Kubernetes with Tekton== 🌟](https://opensource.com/article/21/11/cicd-pipeline-kubernetes-tekton) Tekton is a Kubernetes-native open source framework for creating continuous integration and continuous delivery (CI/CD) systems.
 * [opensource.com: Dynamic scheduling of Tekton workloads using Triggers](https://opensource.com/article/21/11/kubernetes-dynamic-scheduling-tekton) Upgrade your CI/CD pipeline with this Kubernetes-native application. Tekton Triggers is a Tekton component that allows you to detect and extract information from events from various sources and execute TaskRuns and PipelineRuns based on that information. It also enables passing extracted information to TaskRuns and PipelineRuns from events.
 * [==piotrminkowski.com: Validate Kubernetes Deployment in CI/CD with Tekton and Datree==](https://piotrminkowski.com/2022/02/21/validate-kubernetes-deployment-in-ci-cd-with-tekton-and-datree)
+* [sm43.medium.com: World of Tekton 😺 (Part 1)](https://sm43.medium.com/world-of-tekton-part-1-999738d63e25) This series will introduce you to the World of Tekton, its concepts and how you can leverage it to build an end to end CI/CD pipeline.
+	* [Tekton: Concepts of Pipelines (Part 2)](https://sm43.medium.com/tekton-concepts-of-pipelines-part-2-cd86ad40bd34)
+	* [sm43.medium.com: Tekton: Concepts of Triggers (Part 3)](https://sm43.medium.com/tekton-concepts-of-triggers-part-3-2ee17764addb)
+	* [sm43.medium.com: Tekton: Building a Pipeline (Part 4)](https://sm43.medium.com/tekton-build-a-pipeline-part-4-baafd530b6fe)
+	* [sm43.medium.com: Tekton: Triggering the Pipeline (Part 5)](https://sm43.medium.com/tekton-triggering-the-pipeline-part-5-dc38d73411fb)
 
 ## Videos
 <details>
