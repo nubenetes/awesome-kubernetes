@@ -27,11 +27,11 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 | __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |  
 | __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |  
 
-[The SRE Experience Is Changing with Cloud Native:](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/)
-- From Firefighting to Prevention for SREs. 
-- Empower Developers with Self-Service. 
-- Facilitate Developer Autonomy. 
-- Adopting a New Code-Ship-Run Paradigm.
+>[The SRE Experience Is Changing with Cloud Native:](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/)
+>- From Firefighting to Prevention for SREs. 
+>- Empower Developers with Self-Service. 
+>- Facilitate Developer Autonomy. 
+>- Adopting a New Code-Ship-Run Paradigm.
 
 | **Site Reliability Engineer (SRE) team**| **Developers**	| **Operations team** |
 |:---|:---|:---|
