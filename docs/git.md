@@ -349,6 +349,7 @@ git push origin -f
 * [==medium: Kubernetes & Gitlab-CI — Simplified app deployment automation==](https://medium.com/@david.alvares.62/kubernetes-gitlab-ci-simplified-app-deployment-automation-84ad182a59db) In 5 minutes, I explain how to put in an automated GitLab pipeline to deploy your application to Kubernets with Helm.
 * [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22/)
 * [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2/)
+* [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course/)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
@@ -621,6 +622,7 @@ Automate them.
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/R8_veQiYBjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlmZLXMOpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PGyhBwLyK2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
 ## Tweets

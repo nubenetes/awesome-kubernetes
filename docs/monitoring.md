@@ -196,6 +196,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 ## Logging & Centralized Log Management
 - [devops.com: How Centralized Log Management Can Save Your Company](https://devops.com/how-centralized-log-management-can-save-your-company/)
+- [acloudguru.com: Getting started with the Elastic Stack](https://acloudguru.com/blog/engineering/getting-started-with-the-elastic-stack)
 
 ### ElasticSearch
 - [pythonsimplified.com: Elasticsearch Core Concepts Explained](https://pythonsimplified.com/elasticsearch-core-concepts-explained/)

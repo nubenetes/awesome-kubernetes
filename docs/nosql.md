@@ -7,6 +7,7 @@
 	- [Apache Drill. Schema free SQL query on everything engines](#apache-drill-schema-free-sql-query-on-everything-engines)
 - [NewSQL](#newsql)
 - [Videos](#videos)
+- [Tweets](#tweets)
 
 ## NoSQL
 - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
@@ -89,3 +90,32 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qI_g07C_Q5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
+
+## Tweets
+??? note "Click to expand!"
+
+	<center>
+	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Very interesting decision matrix for multicloud on data.. <a href="https://twitter.com/hashtag/cloud?src=hash&amp;ref_src=twsrc%5Etfw">#cloud</a> <a href="https://twitter.com/hashtag/sql?src=hash&amp;ref_src=twsrc%5Etfw">#sql</a> <a href="https://t.co/aAWJ9uzK65">pic.twitter.com/aAWJ9uzK65</a></p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1499870941727313922?ref_src=twsrc%5Etfw">March 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

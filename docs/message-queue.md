@@ -95,6 +95,7 @@
 - [swapnil-chougule.medium.com: Rapid Feature Engineering through SQL](https://swapnil-chougule.medium.com/rapid-feature-engineering-through-sql-a92b0926683d)
 - [==blog.twitter.com: Processing billions of events in real time at Twitter==](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
 - [codeopinion.com: Event Sourcing vs Event Driven Architecture](https://codeopinion.com/event-sourcing-vs-event-driven-architecture/)
+- [thenewstack.io: The Path to Getting the Full Data Stack on Kubernetes](https://thenewstack.io/the-path-to-getting-the-full-data-stack-on-kubernetes/)
 ## RPC vs Messaging
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 
@@ -305,6 +306,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [==redhat.com: How we use Apache Kafka to improve event-driven architecture performance==](https://www.redhat.com/architect/apache-kafka-EDA-performance) **When designing your event-driven architecture, consider these ways to configure Kafka to improve performance.**
 - [dev.to: Running Kafka on kubernetes for local development](https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54)
 - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b) An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team
+- [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://www.conduktor.io/kafka) Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
 
 #### Strimzi kubernetes operator for apache kafka
 - [strimzi.io](https://strimzi.io/)
@@ -444,6 +446,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
 - [faun.pub: Scaling an app in Kubernetes with KEDA (no Prometheus is needed)](https://faun.pub/keda-ec9fc7c8dd81)
 - [itnext.io: Event Driven Autoscaling](https://itnext.io/event-driven-autoscaling-503b5cefaa49) KEDA expands the capabilities of Kubernetes by managing the integration with external sources allowing you to auto-scale your Kubernetes Deployments based on data from both internal and external metrics.
+- [medium.com/@casperrubaek: Why KEDA is a game-changer for scaling in Kubernetes](https://medium.com/@casperrubaek/why-keda-is-a-game-changer-for-scaling-in-kubernetes-4ebf34cb4b61) KEDA makes it possible to easily scale based on any metric imaginable from almost any metric provider and is running at a massive scale in production in the cloud at some of the largest corporations in the world.
 
 ## Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data
 - [quandarycg.com: Everything You Need To Know About System Integration (And IPaaS) 🌟](https://quandarycg.com/everything-you-need-to-know-about-integrations/)

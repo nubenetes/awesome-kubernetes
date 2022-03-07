@@ -751,6 +751,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [adamtheautomator.com: How To Build a Database Instance with Terraform and AWS RDS](https://adamtheautomator.com/terraform-aws-rds/)
 - [BishopFox/iam-vulnerable](https://github.com/BishopFox/iam-vulnerable) Use Terraform to create your own vulnerable by design AWS IAM privilege escalation playground. IAM Vulnerable uses the Terraform binary and your AWS credentials to deploy over 250 IAM resources into your selected AWS account. Within minutes, you can start learning how to identify and exploit vulnerable IAM configurations that allow for privilege escalation.
 - [betterprogramming.pub: Automate and Configure Your RDS Database With Terraform 🌟](https://betterprogramming.pub/automate-and-configure-your-rds-database-with-terraform-898fd4b8990d) Execute post-deployment scripts based on your needs
+- [middlewareinventory.com: Terraform Create Multiple EC2 with different Configs – for_each and count together](https://www.middlewareinventory.com/blog/terraform-create-multiple-ec2-different-config/)
 
 ## Prometheus and Grafana
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).

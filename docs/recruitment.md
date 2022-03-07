@@ -49,6 +49,7 @@
 - [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)
 - [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications/)
 - [thewokesalaryman.com: Why people leave even the most high paying jobs 🌟](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs/)
+- [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs/) Amid a wave of resignations across industries, organizational leaders must identify ways to create better, more desirable jobs that will help them hang on to employees.
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)

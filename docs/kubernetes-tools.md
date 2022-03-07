@@ -64,6 +64,7 @@
 - [gardener/Terraformer](#gardenerterraformer)
 - [Werf](#werf)
 - [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
+- [Netshoot](#netshoot)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -707,6 +708,9 @@
 
 ## Starboard kubernetes-native security toolkit
 - [==aquasecurity/starboard==](https://github.com/aquasecurity/starboard) Kubernetes-native security toolkit. Starboard is a completely open source tool that integrates with other security tools to scan your workloads and make security reports accessible through the Kubernetes API - K8s all the way 🚀
+
+## Netshoot
+- [nicolaka/netshoot](https://github.com/nicolaka/netshoot) a Docker + Kubernetes network trouble-shooting swiss-army container. Purpose: Docker and Kubernetes network troubleshooting can become complex. With proper understanding of how Docker and Kubernetes networking works and the right set of tools, you can troubleshoot and resolve these networking issues. The netshoot container has a set of powerful networking tshooting tools that can be used to troubleshoot Docker networking issues. Along with these tools come a set of use-cases that show how this container can be used in real-world scenarios.
 
 ## Tweets
 <details>

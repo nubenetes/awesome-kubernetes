@@ -44,7 +44,7 @@
 - [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io/just-how-challenging-is-state-in-kubernetes/)
 - [theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider](https://www.theregister.com/2020/12/02/gartner_cloud_dbms/)
 - [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age/)
-- [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic/)
+- [==thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic==](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic/)
 - [hackernoon.com: Database Vs Data Warehouse Vs Data Lake: A Simple Explanation](https://hackernoon.com/database-vs-data-warehouse-vs-data-lake-a-simple-explanation-hz2k33rm)
 * [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/2021/02/08/dbaas-on-kubernetes-under-the-hood/)
 * [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://blog.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)

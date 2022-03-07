@@ -24,6 +24,7 @@
 	- [Google Cloud Platform](#google-cloud-platform)
 - [NoOps](#noops)
 - [NetOps](#netops)
+- [PlatformOps](#platformops)
 - [GPT 3 Tools](#gpt-3-tools)
 - [Data as Code](#data-as-code)
 - [DevOps for SAP](#devops-for-sap)
@@ -309,6 +310,9 @@
 
 ## NetOps
 - [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/)
+
+## PlatformOps
+- [blog.postman.com: What Is PlatformOps?](https://blog.postman.com/what-is-platformops/)
 
 ## GPT 3 Tools
 - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.

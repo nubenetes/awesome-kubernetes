@@ -242,6 +242,7 @@
 * [dev.to: Git Commands Cheatsheet: Advanced (20+ Git Commands Advanced )](https://dev.to/aashiya123/git-commands-cheatsheet-advanced-20-git-commands-advanced--35i3)
 * [dev.to: Git Cheat Sheet 📄 (50 commands + Free PDF and poster)](https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn)
 * [enlear.academy: 20 Git Commands Every Developer Should Know](https://enlear.academy/26-git-command-i-use-all-the-time-cheatsheet-6c5682ded2af) 20 Git Command I Use All The Time — Git CheatSheet
+* [freecodecamp.org: Git Cheat Sheet – 50 Git Commands You Should Know](https://www.freecodecamp.org/news/git-cheat-sheet/)
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
@@ -259,6 +260,7 @@
 * [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 * [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 * [Ansible k8s cheat sheet 🌟](https://opensource.com/downloads/ansible-k8s-cheat-sheet) The Ansible k8s module enables you to manage Kubernetes objects with Ansible playbooks.
+* [fosstechnix.com: Ansible ad hoc commands with Examples](https://www.fosstechnix.com/ansible-ad-hoc-commands-with-examples/)
 
 ## Packer and Terraform Cheat Sheets
 * [Packer Cheatsheet](https://adamrushuk.github.io/cheatsheets/packer/)
@@ -285,6 +287,7 @@
 * [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
 * [cyberciti.biz: Linux ip Command Examples](https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/) Deprecated Linux command and their replacement cheat sheet.
 * [linuxhandbook.com: Yum Command Cheat Sheet](https://linuxhandbook.com/yum-cheatsheet/)
+* [stationx.net: Hacking Tools Cheat Sheet](https://www.stationx.net/hacking-tools-cheat-sheet)
 
 ### SSH Cheat Sheets
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)

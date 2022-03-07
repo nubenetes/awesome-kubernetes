@@ -15,6 +15,7 @@
 - [Cloud SQL](#cloud-sql)
 - [Apigee](#apigee)
 - [Tools](#tools)
+  - [gcloud](#gcloud)
 - [Videos](#videos)
 - [Images](#images)
 - [Tweets](#tweets)
@@ -124,6 +125,9 @@
 
 ## Tools
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
+
+### gcloud 
+- [==cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI==](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) **Google Cloud CLI’s preview release of Declarative Export for Terraform. Declarative Export allows you to export the current state of your Google Cloud infrastructure into a descriptive file compatible with Terraform (HCL) or Google’s KRM declarative tooling.**
 - [==cloud.google.com: The gcloud tool cheat sheet==](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
 
 ## Videos

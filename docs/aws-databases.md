@@ -28,6 +28,7 @@
 - [medium: AWS Backup Service for Amazon RDS](https://medium.com/avmconsulting-blog/aws-backup-service-for-amazon-rds-3e6f5827aa66)
 - [migops.com: Is Aurora PostgreSQL really faster and cheaper than RDS PostgreSQL – Benchmarking](https://www.migops.com/blog/2021/11/26/is-aurora-postgresql-really-faster-and-cheaper-than-rds-postgresql-benchmarking/)
 - [==dashbird.io: [Infographic] AWS RDS from a Serverless perspective==](https://dashbird.io/blog/aws-relational-database-rds/)
+- [==Auditing for highly regulated industries using Amazon Aurora PostgreSQL==](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql/)
 
 ## AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/blogs/aws/aws-database-migration-service/)

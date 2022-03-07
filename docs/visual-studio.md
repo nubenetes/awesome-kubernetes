@@ -56,6 +56,7 @@
 * [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
 * [blog.openreplay.com: 8 Cool VS Code tips to make your workspace more personal](https://blog.openreplay.com/8-cool-vs-code-tips-to-make-your-workspace-more-personal)
 * [dev.to: Visual Studio Code - Tips & Tricks - Command Palette and its friends](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-command-palette-and-its-friends-2bhi)
+* [betterprogramming.pub: How To Update Your GitHub Repository in Visual Studio Code](https://betterprogramming.pub/how-to-update-your-github-repository-in-visual-studio-code-7bb9e8549cea) An overview to clone a repository, push changes, and make pull requests in VS code
 
 ### Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

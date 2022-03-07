@@ -1,5 +1,6 @@
 # Infrastructure Provisioning. Infra Management Tools. IaC Infrastructure as Code
 - [Introduction](#introduction)
+- [Local Environment as Code](#local-environment-as-code)
 - [Comparing the Tools](#comparing-the-tools)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -20,6 +21,9 @@
 - [==alpacked.io: Infrastructure as Code in DevOps== 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops/) Key driving force of efficient application delivery.
 - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)
 
+## Local Environment as Code
+- [thenewstack.io: Local Environment-as-Code: Is It Possible Yet?](https://thenewstack.io/local-environment-as-code-is-it-possible-yet/)
+
 ## Comparing the Tools
 - [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools/)
 - [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference) 
@@ -34,6 +38,7 @@
 
 	<center>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/POPP2WTJ8es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/EIOuIwKS0P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

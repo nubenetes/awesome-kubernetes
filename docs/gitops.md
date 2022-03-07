@@ -131,6 +131,8 @@
 - [medium.com/@buraktahtacioglu: GitOps Fundamentals — CNCF Roadmap](https://medium.com/@buraktahtacioglu/gitops-fundamentals-cncf-roadmap-fa686dbced9d) GitOps deployments:
 	- A GitOps agent is deployed on the cluster.
 	- The GitOps agent is monitoring one or more Git repositories that define applications and contain Kubernetes manifests (or Helm charts or Kustomize files).
+- [toolbox.com: Why Are Organizations Adopting GitOps for Continuous Deployment in 2022?](https://www.toolbox.com/tech/devops/articles/more-organizations-adopting-gitops) GitOps extracts best practices of DevOps and utilizes software development methods like version control, code review, and CI/CD pipelines. But is it a sustainable approach? Here’s a look at its pros and cons.
+- [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) GitOps and 5G - a deep dive into Deutsche Telekom’s experience
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)

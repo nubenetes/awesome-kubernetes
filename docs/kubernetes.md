@@ -801,6 +801,7 @@
 * [bsucaciu.com: What is a Sidecar?](https://bsucaciu.com/?p=4645)
 * [medium: Kubernetes — Learn Sidecar Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-sidecar-container-pattern-6d8c21f873d) Understanding Sidecar Container Pattern With an Example Project
 * [ithands-on.com: Kubernetes 101 : Extending the container's functionalities - Sidecar containers](https://www.ithands-on.com/2021/07/kubernetes-101-extending-containers.html)
+* [atul-agrawal.medium.com: Library vs Service vs Sidecar](https://atul-agrawal.medium.com/library-vs-service-vs-sidecar-ff5a20b50cad)
 
 ### Kubernetes Annotations
 * [kubernetes.io: Annotating Kubernetes Services for Humans](https://kubernetes.io/blog/2021/04/20/annotating-k8s-for-humans/) A Convention for annotations in Kubernetes.

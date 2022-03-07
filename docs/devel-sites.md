@@ -40,6 +40,7 @@
 	- [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
 	- etc
 - [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)
+- [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)

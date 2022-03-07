@@ -69,6 +69,7 @@
 * [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 * [kodekloud.com](https://kodekloud.com)
 * [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
+* [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy) Learn Kubernetes with Civo Academy. Learn everything you need to know to get started with Kubernetes. Learn Kubernetes for free. We’ve created over 50 video guides and tutorials that will help you navigate Kubernetes: from understanding the basic need for and function of containers, to launching and scaling your first clusters.
 
 ## K8s Diagrams
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).

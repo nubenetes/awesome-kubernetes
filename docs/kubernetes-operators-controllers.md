@@ -87,6 +87,8 @@
 - [Keel 🌟](https://github.com/keel-hq/keel) Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates:
     - You can use policies to define when to update an application
     - Users can specify how many approvals do they need before a resource is updated.
+- [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)
+- [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa) Build Kubernetes Operator with **Kubebuilder** and declarative pattern
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
@@ -126,6 +128,7 @@
 * [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.
 * [medium: Kubernetes Dummy Operator in Java](https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55) - [youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher](https://www.youtube.com/watch?v=C0E93Uc4h5k&t=761s&ab_channel=xgeeks)
 * [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2) Develop a simple Kubernetes operator from scratch. In this article, you will build a "hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.
+* [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) Repository for sample controller. Complements sample-apiserver
 
 ## Tweets
 <details>

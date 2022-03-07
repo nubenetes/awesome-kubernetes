@@ -17,6 +17,7 @@
 - [golang.org](https://golang.org/)
 - [github.com/golang/go](https://github.com/golang/go)
 - [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [golang-design/history](https://github.com/golang-design/history) Go: A Documentary. This document collects many interesting (publicly observable) issues, discussions, proposals, CLs, and talks from the Go development process, which intents to offer a comprehensive reference of the Go history. 
 - [Awesome Go 🌟](https://github.com/avelino/awesome-go)
 - [Zepto is a lightweight framework for the development of microservices & web services in golang](https://github.com/go-zepto/zepto)
 - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)
@@ -46,6 +47,7 @@
 - [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0)
 - [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) Examples of Golang compared to Node.js for learning
 - [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/)
+- [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 
 ## Design Patterns
 - [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/)

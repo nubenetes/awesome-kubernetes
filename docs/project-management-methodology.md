@@ -58,6 +58,8 @@
 - [==noidea.dog/glue: Being Glue==](https://noidea.dog/glue)
 - [hbr.org: The Real Value of Middle Managers](https://hbr.org/2021/06/the-real-value-of-middle-managers)
 - [dev.to: What’s Wrong With Measuring Developer Performance (+ 10 Best Metrics)](https://dev.to/actitime/whats-wrong-with-measuring-developer-performance-10-best-metrics-5620)
+- [betterprogramming.pub: How to Speed Up Your Progress With Feedback](https://betterprogramming.pub/how-to-speed-up-your-progress-with-feedback-1f41872b290a) Know the key features of an effective feedback loop
+- [betterprogramming.pub: Sprint Planning: Best Practices](https://betterprogramming.pub/sprint-planning-best-practices-1aad4103f6cb)
 
 ### Spanish
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
@@ -75,6 +77,7 @@
 - [lavanguardia.com: La delgada línea roja del liderazgo: de la cercanía al compadreo](https://www.lavanguardia.com/economia/20220223/8075492/liderazgo-empresa-jefes-empleados-cercania-decisiones.html) 
 - [okdiario.com: Telefónica y Santander despiden a 467 empleados en 2021 por denuncias de compañeros](https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690) Fraude interno, acoso laboral..
 - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres/) Con la pandemia, la digitalización acelerada y los rediseños organizacionales, la forma de liderar cambió. Qué errores no pueden permitirse hoy las empresas en materia de liderazgo. Los nuevos roles.
+- [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -87,6 +90,7 @@
 - [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [lucidchart.com: Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum)
+- [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall) 
 
 ### Waterfall vs Agile
 - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall/)

@@ -1,5 +1,6 @@
 # Prometheus
 - [Introduction](#introduction)
+- [AlertManager](#alertmanager)
 - [Prometheus Agent](#prometheus-agent)
 - [Promgen](#promgen)
 - [Promcat Resource Catalog](#promcat-resource-catalog)
@@ -81,7 +82,6 @@
 * [magalix.com: Monitoring of Kubernetes Clusters To Manage Large Scale Projects](https://www.magalix.com/blog/monitor-kuberentes-cluster-to-manage-large-scale-projects)
 * [Cloud Native Monitoring with Prometheus 🌟](https://samirbehara.com/2019/05/30/cloud-native-monitoring-with-prometheus/)
 * [itnext.io - Prometheus: yet-another-cloudwatch-exporter — collecting AWS CloudWatch metrics](https://itnext.io/prometheus-yet-another-cloudwatch-exporter-collecting-aws-cloudwatch-metrics-806bd34818a8)
-* [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d) Live issues are a great opportunity to learn and improve. Here’s what happened to us
 * [Prometheus Monitoring Ecosystem Begins to Mature](https://containerjournal-com.cdn.ampproject.org/c/s/containerjournal.com/topics/container-ecosystems/prometheus-monitoring-ecosystem-begins-to-mature/amp/)
 * [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design/)
 * [ganeshvernekar.com: Prometheus TSDB (Part 1): The Head Block](https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block/)
@@ -113,8 +113,6 @@
 * [logz.io:  Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io 🌟](https://logz.io/blog/aws-lambda-metrics-monitoring-guide/)
 * [aprenderbigdata.com: Prometheus: Introducción a la Monitorización de Métricas](https://aprenderbigdata.com/prometheus/)
 * [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html)
-* [karma 🌟](https://github.com/prymitive/karma) Alert dashboard for Prometheus Alertmanager
-* [Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0)
 * [youtube: Monitoring your k6 load test: how to install Grafana and Prometheus on a Kubernetes cluster](https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6)
 * [blog.couchbase.com: How to Build Observability Dashboards with Prometheus, Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase/)
 * [sysdig.com: How to monitor Redis with Prometheus](https://sysdig.com/blog/redis-prometheus/)
@@ -134,6 +132,12 @@ Thanos Metrics with prometheus in Kubernetes environments.
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
 </center>
+
+## AlertManager 
+* [medium: Kubernetes Lessons in Alerting](https://medium.com/better-programming/kubernetes-lessons-in-alerting-a0b7a455e89d) Live issues are a great opportunity to learn and improve. Here’s what happened to us
+* [karma 🌟](https://github.com/prymitive/karma) Alert dashboard for Prometheus Alertmanager
+* [Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0)
+* [tech.loveholidays.com: Dynamic alert routing with Prometheus and Alertmanager](https://tech.loveholidays.com/dynamic-alert-routing-with-prometheus-and-alertmanager-f6a919edb5f8) TL;DR Dynamically route alerts to relevant Slack team channels by labelling Kubernetes resources with team and extracting team label within alert rules.
 
 ## Prometheus Agent
 - [prometheus.io: Introducing Prometheus Agent Mode, an Efficient and Cloud-Native Way for Metric Forwarding](https://prometheus.io/blog/2021/11/16/agent/)
@@ -709,6 +713,7 @@ JMeter|Artemis Grafana|Artemis Dashboard
 
 ## Managed Prometheus in GCP
 - [==cloud.google.com: Google Cloud Managed Service for Prometheus==](https://cloud.google.com/stackdriver/docs/managed-prometheus/) A top option in the market. It's a drop-in replacement for what you have now, and offers leading scale, price, and retention, all with a global backplane. 
+- [cloud.google.com: Google Cloud Managed Service for Prometheus is now generally available](https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes)
 
 ## Videos
 <details>

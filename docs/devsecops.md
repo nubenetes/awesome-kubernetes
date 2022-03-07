@@ -164,6 +164,7 @@
 	- However, when it comes to kicking off DevSecOps projects, there are a few challenges application security teams need to overcome first to ensure their programs fit seamlessly into CI/CD pipelines.
 - [==bridgecrew.io: 6 key Kubernetes DevSecOps principles: People, processes, technology==](https://bridgecrew.io/blog/kubernetes-devsecops-principles/) 
 - [==research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines==](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
+- [thenewstack.io: SecOps in a Post-COVID World: 3 Security Trends to Watch](https://thenewstack.io/secops-in-a-post-covid-world-3-security-trends-to-watch/)
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -576,6 +577,7 @@
 - [bridgecrew](https://bridgecrew.io) The codified cloud security platform for developers. Complete security and compliance visibility streamlined into developer-friendly workflows.
 	- [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)
 - [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
+- [==socket.dev: Introducing Socket==](https://socket.dev/blog/introducing-socket) Socket's mission is to make open source safer. A platform that protects your most critical apps from software supply chain attacks.
 
 ## Videos
 ??? note "Click to expand!"

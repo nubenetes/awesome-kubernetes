@@ -129,6 +129,8 @@
 * [dev.to: Top 5 Docker Best Practices](https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh)
 * [thenewstack.io: How to Share Data Between Docker Containers](https://thenewstack.io/how-to-share-data-between-docker-containers/)
 * [iximiuz.com: Containers 101: attach vs. exec - what's the difference?](https://iximiuz.com/en/posts/containers-101-attach-vs-exec/)
+* [acloudguru.com: Docker COPY vs ADD: What’s the difference?](https://acloudguru.com/blog/engineering/docker-copy-vs-add-whats-the-difference)
+* [thenewstack.io: How to Run Docker in Rootless Mode](https://thenewstack.io/how-to-run-docker-in-rootless-mode/)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry

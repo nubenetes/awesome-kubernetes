@@ -42,6 +42,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
 - [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 - [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
+- [An emerging Job: Kubernetes engineer 🌟](https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/)
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 

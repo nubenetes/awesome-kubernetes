@@ -124,6 +124,7 @@
 
 * [mattermost.com: The Top 7 Open Source Tools for Securing Your Kubernetes Cluster](https://mattermost.com/blog/the-top-7-open-source-tools-for-securing-your-kubernetes-cluster/)
 * [==infoworld.com: 10 steps to automating security in Kubernetes pipelines==](https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html) DevOps teams don’t need to sacrifice the speed of containerized development if they know what can be automated, why it’s important, and how to do it.
+* [towardsdatascience.com: How to Secure your Kubernetes Deployment 🌟](https://towardsdatascience.com/how-to-secure-your-kubernetes-deployment-5f52c2b67c1) It takes 20 years to build a reputation and few minutes of cyber-incident to ruin it. — Stephane Nappo. Kubernetes deployments are not safe by default and you should go the extra mile and secure the gates. Fortunately, tools like **kube-bench** let us focus our attention on specific areas of the cluster.
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

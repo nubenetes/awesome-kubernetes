@@ -275,6 +275,7 @@
 
 ## Ansible Kubernetes Module
 * [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
+* [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes/) The Ansible Kubernetes module allows you to access the full range of Kubernetes APIs and create objects such as deployments, services, and so on. Learn how to use it in this step-by-step tutorial.
 
 ## NGINX Core Collection for Ansibe
 - [galaxy.ansible.com/nginxinc/nginx_core](https://galaxy.ansible.com/nginxinc/nginx_core)
