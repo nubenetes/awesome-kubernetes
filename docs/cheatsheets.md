@@ -77,6 +77,7 @@
 - [developers.redhat.com: Intermediate Linux Cheat Sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet)
 - [developers.redhat.com: MicroProfile Rest Client Cheat Sheet](https://developers.redhat.com/cheat-sheets/microprofile-rest-client)
 - [cheat.sh 🌟](https://cheat.sh/)
+	- [betterprogramming.pub: Cheat.sh — The Ultimate Multi-Language Cheat Sheet](https://betterprogramming.pub/cheat-sh-the-ultimate-multi-language-cheat-sheet-8e97c16407aa) Introducing cheat.sh, a powerful syntax and code-snippet search engine.
 - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
 - [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)
 - [manz.dev/cheatsheets](https://manz.dev/cheatsheets) 

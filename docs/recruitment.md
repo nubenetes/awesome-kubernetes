@@ -205,6 +205,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">4) The leadership team&#39;s values are INCREDIBLY important<br><br>The less ego at the top, the more everyone wins. Financially, personally and otherwise.<br><br>A business wins by focusing on what the customer wants, not someone&#39;s ego.</p>&mdash; Brian Bourque 🚀 (@bbourque) <a href="https://twitter.com/bbourque/status/1497564012485091329?ref_src=twsrc%5Etfw">February 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If software engineers are so valuable and in such high demand, then how come we have such obscene interviewing processes? Legitimately curious to know how this happened</p>&mdash; Cain Maddox (@ctrlshifti) <a href="https://twitter.com/ctrlshifti/status/1498766382107824130?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Early on in your software engineering career, getting promoted to the next level is mostly based on your work. After a few promos, many assume this will be the case going forward.<br><br>Oh no.<br><br>Getting promoted beyond this level &amp; as a manager depends so much on your peers as well.</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1500918709912801284?ref_src=twsrc%5Etfw">March 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

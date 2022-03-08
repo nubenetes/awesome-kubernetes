@@ -65,6 +65,7 @@
 - [Werf](#werf)
 - [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
 - [Netshoot](#netshoot)
+- [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
 - [Tweets](#tweets)
 
 ## Introduction
@@ -464,6 +465,7 @@
     * Tails multiple pods and containers
     * All containers are tailed by default
     * Recovers from failure
+* https://pinniped.dev 🌟 - [vmware-tanzu/pinniped](https://github.com/vmware-tanzu/pinniped) **Pinniped is the easy, secure way to log in to your Kubernetes clusters.** 
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -711,6 +713,9 @@
 
 ## Netshoot
 - [nicolaka/netshoot](https://github.com/nicolaka/netshoot) a Docker + Kubernetes network trouble-shooting swiss-army container. Purpose: Docker and Kubernetes network troubleshooting can become complex. With proper understanding of how Docker and Kubernetes networking works and the right set of tools, you can troubleshoot and resolve these networking issues. The netshoot container has a set of powerful networking tshooting tools that can be used to troubleshoot Docker networking issues. Along with these tools come a set of use-cases that show how this container can be used in real-world scenarios.
+
+## The Hierarchical Namespace Controller (HNC)
+- [kubernetes-sigs/hierarchical-namespaces: The Hierarchical Namespace Controller (HNC)](https://github.com/kubernetes-sigs/hierarchical-namespaces) Home of the Hierarchical Namespace Controller (HNC). Adds hierarchical policies and delegated creation to Kubernetes namespaces for improved in-cluster multitenancy.
 
 ## Tweets
 <details>

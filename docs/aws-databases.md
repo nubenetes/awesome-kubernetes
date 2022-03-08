@@ -29,6 +29,7 @@
 - [migops.com: Is Aurora PostgreSQL really faster and cheaper than RDS PostgreSQL – Benchmarking](https://www.migops.com/blog/2021/11/26/is-aurora-postgresql-really-faster-and-cheaper-than-rds-postgresql-benchmarking/)
 - [==dashbird.io: [Infographic] AWS RDS from a Serverless perspective==](https://dashbird.io/blog/aws-relational-database-rds/)
 - [==Auditing for highly regulated industries using Amazon Aurora PostgreSQL==](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql/)
+- [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved Write Performance & Faster Failover](https://aws.amazon.com/blogs/aws/amazon-rds-multi-az-db-cluster/)
 
 ## AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/blogs/aws/aws-database-migration-service/)

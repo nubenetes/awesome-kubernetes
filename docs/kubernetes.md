@@ -853,6 +853,7 @@
 * [==vladimir.varank.in: Making sense of requests for CPU resources in Kubernetes== 🌟](https://vladimir.varank.in/notes/2021/09/making-sense-of-requests-for-cpu-resources-in-kubernetes/)
 * [==harness.io: Kubernetes Mistakes: A Beginner’s Guide To Avoiding Common Pitfalls==](https://harness.io/blog/kubernetes-mistakes/)
 * [martinheinz.dev: Keeping Kubernetes Clusters Clean and Tidy 🌟](https://martinheinz.dev/blog/60) As your cluster grows, so does the number of resources, volumes or other API objects and sooner or later you will reach the limits somewhere. In this article, you’ll learn how to keep it clean and tidy.
+* [onurcill.medium.com: Kubernetes Best Practices](https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f)
 
 <center>
 [![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
@@ -876,6 +877,7 @@
 - [learnk8s.io: Kubernetes Instance Calculator 🌟🌟](https://learnk8s.io/kubernetes-instance-calculator)
 - [dev.to: Kubernetes Cost Management and Analysis Guide 🌟](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
 - [hackernoon.com: Reducing Kubernetes Costs](https://hackernoon.com/reducing-kubernetes-costs)
+- [medium.com/streamotion-tech-blog: Visualising the Cost of Kubernetes](https://medium.com/streamotion-tech-blog/visualising-the-cost-of-kubernetes-ca64f642de8c)
 
 #### kubecost
 - [==Kubecost== 🌟](https://www.kubecost.com) 
@@ -1326,6 +1328,8 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes path to production readiness <a href="https://t.co/OgQd5Vj8Io">pic.twitter.com/OgQd5Vj8Io</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1494355989855940612?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deleting a stuck pod <a href="https://t.co/LxaYt0E0F6">pic.twitter.com/LxaYt0E0F6</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1495805578555310083?ref_src=twsrc%5Etfw">February 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">new and shiny, or old and proven? <a href="https://t.co/lPhLi651tu">pic.twitter.com/lPhLi651tu</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1500879028454105095?ref_src=twsrc%5Etfw">March 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
