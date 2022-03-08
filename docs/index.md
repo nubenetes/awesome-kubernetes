@@ -56,6 +56,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [dok.community: Data on Kubernetes 2021 🌟](https://dok.community/wp-content/uploads/2021/10/DoK_Report_2021.pdf) 
 - [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/)
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/) 
+- [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
+
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
