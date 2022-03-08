@@ -202,6 +202,7 @@ A simple extension to make indentation more readable
 ## Python in Visual Studio Code
 - [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release/)
 - [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release/)
+- [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/)
 
 ## Go in Visual Studio Code
 - [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md)
