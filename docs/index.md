@@ -30,7 +30,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/architect/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com/) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
-- [API Landscape](https://www.apidays.co/api-landscape)
+- [API Landscape](https://apilandscape.apiscene.io/)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) - [2021 🌟](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
 - [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
     - [Go Collective](https://stackoverflow.com/collectives/go)
