@@ -441,7 +441,7 @@
 ### CyberArk Conjur
 - [conjur.org](https://www.conjur.org/)
 - [infracloud.io: Securing Kubernetes Secrets with Conjur 🌟](https://www.infracloud.io/blogs/securing-kubernetes-secrets-conjur)
-
+****
 ### SOPS for Kubernetes
 - [dev.to: Manage your secrets in Git with SOPS for Kubernetes 🌟](https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me)
 

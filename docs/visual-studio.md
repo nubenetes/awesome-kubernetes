@@ -1,6 +1,7 @@
 # Visual Studio Code
 - [VSCode](#vscode)
-	- [Updates](#updates)
+- [Updates](#updates)
+- [Keyboard shortcuts](#keyboard-shortcuts)
 - [Visual Studio MarketPlace and Extensions](#visual-studio-marketplace-and-extensions)
 	- [Publishers](#publishers)
 	- [Extensions](#extensions)
@@ -61,9 +62,16 @@
 * [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
 * [pythonsimplified.com: How to SSH into EC2 from VS Code](https://pythonsimplified.com/how-to-ssh-into-ec2-from-vs-code/)
 
-### Updates
+## Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
 * [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_46#_flexible-layout)
+
+## Keyboard shortcuts
+- [code.visualstudio.com: keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+	- [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+	- [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
+- [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Visual Studio MarketPlace and Extensions
 * [marketplace.visualstudio.com](https://marketplace.visualstudio.com/)
