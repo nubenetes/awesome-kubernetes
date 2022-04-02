@@ -36,6 +36,7 @@
 * [acloudguru.com: Blockchain cloud comparison: What is blockchain-as-a-service (BaaS)?](https://acloudguru.com/blog/engineering/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas)
 * [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://acloudguru.com/blog/engineering/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)
 * [thenewstack.io: Is a Multicloud Strategy Right for Your Organization?](https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization/)
+* [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)
 
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)

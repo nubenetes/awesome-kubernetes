@@ -61,8 +61,6 @@
 	- [A beginner's guide to web development with Python 2.7 / Django 1.7](http://www.tangowithdjango.com/)
 	- [I wish I knew these things when I learned Python](http://bugra.github.io/work/notes/2015-01-03/i-wish-i-knew-these-things-when-i-first-learned-python/)
 	- [The Bottom-Line Single Main Difference Between Python 2 and 3](http://migrateup.com/main-difference-python-3/)
-- [15 Essential Python Interview Questions](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
-	- [Python mini-quiz](http://www.mypythonquiz.com/)
 - [How do you handle the ORM problem? When do you say YES or NO to using ORM?](http://www.vertabelo.com/blog/technical-articles/orms-under-the-hood)
 - [Don't Make Us Say We Told You So: virtualenv for New Pythonistas](http://pyvideo.org/video/3460/dont-make-us-say-we-told-you-so-virtualenv-for)
 - [commandlinefu.com: pip install into current directory without virtualenv](http://www.commandlinefu.com/commands/view/17656/pip-install-into-current-directory-without-virtualenv)
@@ -104,7 +102,6 @@
 - [tryolabs.com: Top 10 Python libraries of 2020](https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/)
 - [blog.logrocket.com: Django REST framework alternatives](https://blog.logrocket.com/django-rest-framework-alternatives/)
 - [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f) How much memory does a Python object take on memory?
-- [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions/)
 - [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python)
 - [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) Learn how experienced developers use environment variables in Python, including managing default values and typecasting.
 - [src-r-r.github.io: How To Property Set Up Python Logging With A Command Line Program](https://src-r-r.github.io/articles/how_to_log_with_a_python_cli_program/)
@@ -199,6 +196,17 @@
 - [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) Understanding the purpose of requirements.txt, setup.py and setup.cfg in Python when developing and distributing packages
 - [==realpython.com: Building Lists With Python's .append()==](https://realpython.com/courses/building-lists-with-python-append/)
 - [freecodecamp.org: Python List .remove() - How to Remove an Item from a List in Python](https://www.freecodecamp.org/news/python-list-remove-how-to-remove-an-item-from-a-list-in-python/)
+- [blog.devgenius.io: Introduction to python dictionaries](https://blog.devgenius.io/introduction-to-python-dictionaries-89045c9bf315)
+- [levelup.gitconnected.com: Fully Explained Array Data Structure in Python](https://levelup.gitconnected.com/fully-explained-array-data-structure-in-python-67dd9a12b695) Handy concepts in data structures for data science and machine learning
+- [freecodecamp.org: Else-If in Python – Python If Statement Example Syntax](https://www.freecodecamp.org/news/else-if-in-python-python-if-statement-example-syntax/)
+- [towardsdatascience.com: Work with SQL in Python Using SQLAlchemy and Pandas](https://towardsdatascience.com/work-with-sql-in-python-using-sqlalchemy-and-pandas-cd7693def708) Extract SQL tables, insert, update, and delete rows in SQL databases through SQLAlchemy
+- [freecodecamp.org: Create a List in Python – Lists in Python Syntax](https://www.freecodecamp.org/news/create-a-list-in-python-lists-in-python-syntax/)
+- [freecodecamp.org: How to SSH into a Docker Container – Secure Shell vs Docker Attach](https://www.freecodecamp.org/news/how-to-ssh-into-a-docker-container-secure-shell-vs-docker-attach/)
+- [freecodecamp.org: Int Object is Not Iterable – Python Error [Solved]](https://www.freecodecamp.org/news/int-object-is-not-iterable-python-error-solved/)
+- [freecodecamp.org: How to Use *args and **kwargs in Python](https://www.freecodecamp.org/news/args-and-kwargs-in-python/)
+- [superfastpython.com: How to Identify a Deadlock in Python](https://superfastpython.com/thread-deadlock-in-python/)
+- [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) A Python developer’s guide to the optimal setup for collaboration, production readiness and time saving
+- [==towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker==](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9) An extendable Python library that generates fake data to “fill” your project
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -258,6 +266,7 @@
 ## FastAPI
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)
 - [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) A step by step guide creating high performance APIs in Python
+- [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/)
 
 ## Python pip and pip's wheel
 - [wheel replaces Python's eggs](https://wheel.readthedocs.org)
@@ -333,6 +342,7 @@
 - [Pydeps 🌟](https://github.com/thebjorn/pydeps) Python Module Dependency graphs
 - [joke2k/faker 🌟](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 - [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools/) Whether you need Python tools for data science, machine learning, web development, or anything in between, this list has you covered.
+- [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a)
 
 ### Web Scraping with Python
 - [Scrapy](http://scrapy.org/) An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.

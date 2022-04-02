@@ -21,6 +21,7 @@
 	- [AWS Kubernetes](#aws-kubernetes)
 	- [Weave Kubernetes Platform](#weave-kubernetes-platform)
 	- [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
+- [APIOps](#apiops)
 - [Images](#images)
 - [Tweets](#tweets)
 - [Videos](#videos)
@@ -124,6 +125,8 @@
 - [thenewstack.io: Trusted Delivery: Policy-Based Compliance the GitOps Way](https://thenewstack.io/trusted-delivery-policy-based-compliance-the-gitops-way/)
 - [thenewstack.io: Getting Started with GitOps ](https://thenewstack.io/getting-started-with-gitops/)
 - [==medium: Stop Using Branches for Deploying to Different GitOps Environments | ostis Kapelonis==](https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402)
+	- [codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments](https://codefresh.io/about-gitops/branches-gitops-environments)
+	- **The question of "How do I promote a release to the next environment?" is becoming increasingly popular among organizations that want to adopt GitOps. You should NOT use Git branches for modelling different environments.**
 - [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/)
 - [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis/)
 - [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity)
@@ -134,6 +137,8 @@
 - [toolbox.com: Why Are Organizations Adopting GitOps for Continuous Deployment in 2022?](https://www.toolbox.com/tech/devops/articles/more-organizations-adopting-gitops) GitOps extracts best practices of DevOps and utilizes software development methods like version control, code review, and CI/CD pipelines. But is it a sustainable approach? Here’s a look at its pros and cons.
 - [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) GitOps and 5G - a deep dive into Deutsche Telekom’s experience
 - [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
+- [harness.io: GitOps: The New Kid On The DevOps Block!](https://harness.io/blog/devops/gitops-new-kid-devops-block) GitOps: the single source of truth, the evangelizer of as-code, and the bringer of CI/CD automation. Get an intro view into GitOps here!
+- [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) **In this post, explore how GitOps best serves organizations that develop cloud-native solutions based on containerization and microservices.**
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -260,6 +265,9 @@
 ### Ubuntu Charmed Kubernetes
 * [Charmed Kubernetes](https://ubuntu.com/kubernetes/features)
 * [Kubernetes GitOps with Azure Arc and Charmed Kubernetes](https://ubuntu.com/blog/gitops-with-azure-arc-and-charmed-kubernetes)
+
+## APIOps
+- [betterprogramming.pub: Applying DevOps to API Development for APIOps](https://betterprogramming.pub/applying-devops-to-api-development-for-apiops-21e2e605333e) **DevOps + GitOps = APIOps**
 
 ## Images
 ??? note "Click to expand!"

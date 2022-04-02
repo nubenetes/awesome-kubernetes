@@ -8,3 +8,4 @@
 - [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge/)
 - [cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟](https://www.cncf.io/blog/2021/12/08/hosted-edge-vs-cloud-the-battle-for-latency-and-security)
 - [==developers.redhat.com: Bring your Kubernetes workloads to the edge==](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge)
+- [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture/)

@@ -75,3 +75,4 @@
 - [infoq.com: Amazon Introduces Cloudwatch Cross Account Alarms to Consolidate Management](https://www.infoq.com/news/2021/08/aws-cloudwatch-alarms/)
 - [Monitor, Evaluate, and Demonstrate Backup Compliance with AWS Backup Audit Manager](https://aws.amazon.com/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/)
 - [Amazon Managed Grafana Is Now Generally Available with Many New Features](https://aws.amazon.com/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features)
+- [AWS Lambda Now Supports Up to 10 GB Ephemeral Storage](https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/)

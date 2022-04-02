@@ -8,6 +8,7 @@
 	- [Gatling and Maven](#gatling-and-maven)
 - [Jenkins & Gatling](#jenkins--gatling)
 - [Azure Load Testing Service](#azure-load-testing-service)
+- [Load Testing with GitHub Actions](#load-testing-with-github-actions)
 - [Alternatives](#alternatives)
 - [Serverless Load Testing](#serverless-load-testing)
 - [Videos](#videos)
@@ -85,6 +86,9 @@
 - [azure.microsoft.com: Introducing Azure Load Testing: Optimize app performance at scale](https://azure.microsoft.com/en-us/blog/introducing-azure-load-testing-optimize-app-performance-at-scale/)
 - [venturebeat.com: Microsoft launches fully managed Azure Load Testing service](https://venturebeat.com/2021/11/30/microsoft-launches-fully-managed-azure-load-testing-service/)
 - [infoq.com: Microsoft Introduces a Fully-Managed Azure Load Testing Service in Preview](https://www.infoq.com/news/2021/12/azure-load-testing-preview/)
+
+## Load Testing with GitHub Actions
+- [thenewstack.io: Simple Load Testing with GitHub Actions](https://thenewstack.io/simple-load-testing-with-github-actions/)
 
 ## Alternatives
 * [webpagetest.org](https://webpagetest.org/)

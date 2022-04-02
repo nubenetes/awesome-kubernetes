@@ -17,6 +17,8 @@
 - [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation/)
 - [cloudkatha.com: How to use CloudFormation to Create SNS Topic and Subscription](https://cloudkatha.com/how-to-use-cloudformation-to-create-sns-topic-and-subscription/)
 - [cloudkatha.com: How to Create IAM Role using CloudFormation](https://cloudkatha.com/how-to-create-iam-role-using-cloudformation/)
+- [luminousmen.com: A very quick introduction to the pain of AWS CloudFormation](https://luminousmen.com/post/a-very-quick-introduction-to-the-pain-of-aws-cloudformation)
+- [medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs on AWS App Runner With CloudFormation](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-and-run-python-apis-on-aws-app-runner-with-cloudformation-cf9c6fd14cf6) A step by step guide with an example project With GitHub
 
 ## Infrastructure Code Template Generators
 - [aws.amazon.com: Amazon EC2 announces Spot Blueprints, an infrastructure code template generator to get started with EC2 Spot Instances](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ec2-announces-spot-blueprints-an-infrastructure-code-template-generator-to-get-started-with-ec2-spot-instances/)

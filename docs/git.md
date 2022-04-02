@@ -4,7 +4,6 @@
 - [Git and GitHub Backup](#git-and-github-backup)
 - [Cherry-picking](#cherry-picking)
 - [Git Submodules](#git-submodules)
-- [Git Interview Questions](#git-interview-questions)
 - [Shields](#shields)
 - [Design By Contract](#design-by-contract)
 - [Git Cheat Sheets](#git-cheat-sheets)
@@ -161,10 +160,16 @@
 * [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
 * [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch/)
 * [betterprogramming.pub: How to Filter the Git Logs](https://betterprogramming.pub/how-to-filter-the-git-logs-2dcebf3d12) Practical examples of how you can filter the Git logs
+* [betterprogramming.pub: Leave Aside Git Checkout. Consider Git Switch for a Change](https://betterprogramming.pub/leave-aside-git-checkout-consider-git-switch-for-a-change-7849df8714b0) Switch between branches without checking out
+* [thenewstack.io: Development: Introduction to Git Logging](https://thenewstack.io/development-introduction-to-git-logging/)
+* [freecodecamp.org: git config – How to Configure Git Settings to Improve Your Development Workflow](https://www.freecodecamp.org/news/git-config-how-to-configure-git-settings/)
+* [freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/)
+* [devconnected.com: How To Delete File on Git](https://devconnected.com/how-to-delete-file-on-git/)
 
 ## Git Aliases
 * [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) Use aliases to create shortcuts for your most-used or complex Git commands.
 * [davidwalsh.name: More Awesome Git Aliases](https://davidwalsh.name/more-awesome-git-aliases)
+* [blog.mimacom.com: The Git Commands You Wish You Always Had](https://blog.mimacom.com/git-aliases-you-wished-you-had/)
 
 ## Git and GitHub Backup
 - [backhub.co](https://www.backhub.co/) Reliable GitHub repository backup, set up in minutes
@@ -179,11 +184,6 @@
 ## Git Submodules
 - [git-scm.com: Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) It often happens that while working on one project, you need to use another project from within it. Perhaps it’s a library that a third party developed or that you’re developing separately and using in multiple parent projects. A common issue arises in these scenarios: you want to be able to treat the two projects as separate yet still be able to use one from within the other.
 - [sitepoint.com: Understanding and Working with Submodules in Git](https://www.sitepoint.com/git-submodules-introduction/)
-
-## Git Interview Questions
-- [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers/)
-- [automationreinvented.blogspot.com: Top GIT Interview question Set-03 for SDET/Testers/Developers/DevOps?](https://automationreinvented.blogspot.com/2021/05/top-git-interview-question-set-03-for.html)
-- [automationreinvented.blogspot.com: Top 40 GIT Interview Questions and Answers for SDET - DevOps - Automation QA? Useful GIT commands to refer for daily DevOps Tasks?](https://automationreinvented.blogspot.com/2021/09/top-40-git-interview-questions-and.html)
 
 ## Shields
 - [shields.io 🌟](https://shields.io/)
@@ -350,6 +350,7 @@ git push origin -f
 * [about.gitlab.com: GitLab Chart works towards Kubernetes 1.22](https://about.gitlab.com/blog/2021/12/17/gitlab-chart-works-towards-kubernetes-1-22/)
 * [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2/)
 * [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course/)
+* [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows

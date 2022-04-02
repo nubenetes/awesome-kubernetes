@@ -4,7 +4,6 @@
 - [Writing an Ansible module](#writing-an-ansible-module)
 - [Interacting with REST API](#interacting-with-rest-api)
 	- [Writing an Ansible module for a REST API](#writing-an-ansible-module-for-a-rest-api)
-- [Interview Questions](#interview-questions)
 - [Ansible Videos](#ansible-videos)
 - [Ansible Playbooks](#ansible-playbooks)
 - [Ansible Collections](#ansible-collections)
@@ -117,6 +116,7 @@
 * [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/)
 * [middlewareinventory.com: Ansible Dictionary – How to create and add items to dict](https://www.middlewareinventory.com/blog/ansible-dict/)
 * [middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction](https://www.middlewareinventory.com/blog/ansible-aws_s3-example/)
+* [techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube](https://www.techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series/)
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
@@ -135,11 +135,6 @@
 ### Writing an Ansible module for a REST API
 - [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that. 
 - [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
-
-## Interview Questions
-- [interviewbit.com: Ansible Interview Questions](https://www.interviewbit.com/ansible-interview-questions/)
-- [guru99.com: Top 19 Ansible Interview Questions and Answers for 2022](https://www.guru99.com/ansible-interview-questions.html)
-- [devsecops.co.in: 100+ Ansible Interview Questions and Answers](https://devsecops.co.in/2021/05/18/ansible-interview-questions/)
 
 ## Ansible Videos
 * [youtube playlist: Ansible Tutorial - by Thetips4you 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)

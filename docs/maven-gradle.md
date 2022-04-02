@@ -19,6 +19,7 @@
 ## Apache Maven
 * [Wikipedia.org: Apache Maven](https://en.wikipedia.org/wiki/Apache_Maven)
 * [maven.apache.org](https://maven.apache.org/)
+	* [apache/maven-mvnd](https://github.com/apache/maven-mvnd) Apache Maven Daemon. Easy way to speed up local build especially in multi-module Maven project - use Maven Daemon (mvnd)! mvnd builds Spring Cloud AWS 28% faster than traditional mvn command 
 * [twitter.com/ASFMavenProject: The official twitter feed of the Apache Maven Project](https://twitter.com/ASFMavenProject)
 * [twitter.com/ASFMavenRelease: Maven Plugin Release](https://twitter.com/ASFMavenRelease) Tweets of plugin releases
 * [Dzone.com: Starting with Apache Maven](https://dzone.com/articles/starting-with-apache-maven)

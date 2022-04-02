@@ -25,7 +25,6 @@
 	- [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
 - [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
 - [AWS re:Post](#aws-repost)
-- [AWS Interview Questions](#aws-interview-questions)
 - [Bunch of Images](#bunch-of-images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -175,14 +174,6 @@ You can filter by topic using the toolbar above.
 - [==repost.aws== 🌟](https://repost.aws)
 - [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community/)
 - [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers/)
-
-## AWS Interview Questions
-- [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
-- [Frequently Asked AWS Interview Questions](https://www.interviewbit.com/aws-interview-questions/)
-- [TGB - AWS Interview Questions and Answers - Frequently asked](https://www.techgeekbuzz.com/top-aws-interview-questions-and-answers/)
-
-
-
 
 ---
 ## Bunch of Images

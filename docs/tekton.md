@@ -35,6 +35,8 @@
 	* [sm43.medium.com: Tekton: Concepts of Triggers (Part 3)](https://sm43.medium.com/tekton-concepts-of-triggers-part-3-2ee17764addb)
 	* [sm43.medium.com: Tekton: Building a Pipeline (Part 4)](https://sm43.medium.com/tekton-build-a-pipeline-part-4-baafd530b6fe)
 	* [sm43.medium.com: Tekton: Triggering the Pipeline (Part 5)](https://sm43.medium.com/tekton-triggering-the-pipeline-part-5-dc38d73411fb)
+* [==piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton==](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton/)
+* [anadimisra.com: On Demand CI/CD with Serverless Tekton](https://www.anadimisra.com/post/on-demand-ci-cd-with-serverless-tekton) In this article, you will learn how to run Tekton with Terraform and EKS Fargate to build a serverless CI/CD platform
 
 ## Videos
 <details>

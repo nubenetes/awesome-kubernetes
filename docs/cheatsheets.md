@@ -38,6 +38,7 @@
 - [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [Eclipse MicroProfile](#eclipse-microprofile)
 - [Jenkins Cheat Sheets](#jenkins-cheat-sheets)
+- [Bitbucket Pipelines](#bitbucket-pipelines)
 - [JMeter Cheat Sheets](#jmeter-cheat-sheets)
 - [Quarkus Cheat Sheets](#quarkus-cheat-sheets)
 - [Markdown Cheat Sheets](#markdown-cheat-sheets)
@@ -174,22 +175,22 @@
 	* `kubectl describe ingress/service`
 	* `kubectl delete`
 	* `kubectl --help`
+* [betterprogramming.pub: Kubectl Commands All Beginners Must Know](https://betterprogramming.pub/kubectl-commands-all-beginners-must-know-e504349fcec9) Control Kubernetes Cluster like a Pro
 
 ## Kubernetes Kustomize Cheat Sheet
 - [itnext.io: Kubernetes Kustomize Cheat Sheet](https://itnext.io/kubernetes-kustomize-cheat-sheet-8e2d31b74d8f)
 
 ## Docker Cheat Sheets
-- [docker.com: Docker Cheat Sheet 🌟](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
-- [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
-- [dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet/)
-- [dockerlux.github.io: Docker Cheat Sheet](http://dockerlux.github.io/pdfcheat-sheet-v2.pdf)
+- [docker.com: Docker Cheat Sheet](https://www.docker.com/wp-content/uploads/2022/03/docker-cheat-sheet.pdf)
+- [dockerlux.github.io: Docker Cheat Sheet 🌟](https://dockerlux.github.io/pdf/cheat-sheet-v2.pdf)
+- [==cheatsheetseries.owasp.org: Docker Security Cheat Sheet== 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+- [==dockerlabs.collabnix.com: The Ultimate Docker Cheat Sheet== 🌟](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 - [Dzone: Docker Command Cheatsheet](https://dzone.com/articles/docker-command-cheatsheet) If you're new to Docker or just want to have a list of handy commands, this cheatsheet will help you install, monitor, maintain, and clean up your images and processes.
-- [developers.redhat.com: Containers Cheat Sheet](https://developers.redhatcom/cheat-sheets/containers/)
-- [github.com: Docker cheat Sheet](https://github.com/wsargentdocker-cheat-sheet)
-- [linuxhero.tk: Docker command cheat sheet](https://linuxhero.tkdockercommands/)
-- [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/docker-commands-cheat-sheet)
+- [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/cheat-sheets/containers/)
+- [github.com: Docker cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
+- [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/blog/docker/docker-commands-cheat-sheet)
 - [intellipaat.com: Docker Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/docker-cheat-sheet) - [2019, pdf](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
-- [design.jboss.org/redhatdeveloper: docker CLI & Dockerfile Cheat Sheet 🌟](https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf)
+- [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/promotions/docker-cheatsheet)
 - [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
 - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
 - [dev.to: Docker Cheatsheet](https://dev.to/ibmdeveloper/docker-command-cheatsheet-1pe8)
@@ -366,6 +367,9 @@
 * [medium: Jenkins Cheat Sheet](https://medium.com/edureka/jenkins-cheat-sheet-e0f7e25558a3)
 * [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins/)
 
+## Bitbucket Pipelines
+- [balajisblog.com: Cheatsheet for Bitbucket Pipelines](https://balajisblog.com/cheatsheet-for-bitbucket-pipelines/)
+
 ## JMeter Cheat Sheets
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
@@ -388,6 +392,7 @@
 
 ## Kafka
 - [codingharbour.com: kafkacat cheatsheet](https://codingharbour.com/kafkacat-cheatsheet/) Kafkacat is a versatile tool for producing and consuming messages, as well as exploring the cluster and topic metadata. Download the 1-page cheatsheet to get the most out of this awesome CLI tool.
+- [betterprogramming.pub: 15 Kafka CLI Commands For Everyday Programming](https://betterprogramming.pub/kafka-cli-commands-1a135a4ae1bd) Demonstrating the use of the most commonly used Kafka Command Line Interface Commands
 
 ## Machine Learning
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
@@ -398,6 +403,7 @@
 ## TypeScript
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
 - [docs.microsoft.com: Build JavaScript applications using TypeScript](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/)
+- [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
 
 ## Jupyter
 - [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet)
@@ -409,6 +415,7 @@
 - [github.com/ABZ-Aaron: SQL Cheat Sheet 🌟](https://github.com/ABZ-Aaron/CheatSheets/blob/main/SQL.pdf)
 - [github.com/enochtangg/quick-SQL-cheatsheet: Quick SQL Cheatsheet 🌟](https://github.com/enochtangg/quick-SQL-cheatsheet) A quick reminder of all SQL queries and examples on how to use them.
 - [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands)
+- [==github.com/swapnakpanda: SQL_CheatSheet.png==](https://github.com/swapnakpanda/Infographics/blob/main/Cheat%20Sheet/Database/SQL_CheatSheet.png)
 
 ## Postgres
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
@@ -425,6 +432,7 @@
 - https://blog.finxter.com/python-cheat-sheets
 - https://www.pythoncheatsheet.org
 - [python.plainenglish.io: The Ultimate Python Cheat Sheet | Muhammad Umair](https://python.plainenglish.io/ultimate-python-cheat-sheet-f2930e08669c)
+- [github.com/ekramasif: Basic Machine Learning - Python Cheatsheet](https://github.com/ekramasif/Basic-Machine-Learning/blob/main/Extraa/PythonCheatSheet.ipynb)
 
 ## Go
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)

@@ -30,6 +30,7 @@
 ## Spain
 - https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 - https://bcneng.net
+- [sincrogo.com: Teletrabajo desde España para el extranjero: ¿dónde hay que tributar?](https://sincrogo.com/blog/actualidad-fiscal-contable/teletrabajo-desde-espana-para-el-extranjero-donde-hay-que-tributar/)
 
 ## Tweets
 <details>

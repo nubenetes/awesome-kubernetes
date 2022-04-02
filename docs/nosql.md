@@ -55,6 +55,7 @@
 - [DZone: Maximizing MongoDB on AWS](https://dzone.com/articles/maximizing-mongodb-on-aws) This lengthy post will tell you everything you need to know about getting MongoDB Atlas working as best as it can on Amazon Web Services.
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/kubernetes)
 - [polarsparc.com: Hands-on MongoDB :: Part-5 🌟](https://www.polarsparc.com/xhtml/MongoDB-5.html)
+- [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 
 ### Redis
 - [Redis](http://redis.io/)
@@ -69,6 +70,7 @@
 	- [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes/)
 	- [datastax.medium.com: We Pushed Helm to the Limit—then Built a Kubernetes Operator](https://datastax.medium.com/we-pushed-helm-to-the-limit-then-built-a-kubernetes-operator-5136f7c71e91)
 	- [thenewstack.io: How to Run a Cassandra Operation in Docker](https://thenewstack.io/how-to-run-a-cassandra-operation-in-docker/)
+	- [medium.com/building-the-open-data-stack: How to Migrate Your Cassandra Database to Kubernetes with Zero Downtime](https://medium.com/building-the-open-data-stack/how-to-migrate-your-cassandra-database-to-kubernetes-with-zero-downtime-f824f5bbf50b) In this post, you'll learn how to migrate existing Cassandra clusters to the K8ssandra operator without downtime by leveraging flat networking. This allows Cassandra nodes running in VMs to connect to Cassandra pods running in Kubernetes directly
 - [HBase.apache.org](http://hbase.apache.org/)
 - [Hive.apache.org](https://hive.apache.org/)
 - [rethinkdb.com](http://rethinkdb.com)

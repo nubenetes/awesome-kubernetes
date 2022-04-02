@@ -189,6 +189,7 @@ nav:
     - Demos, Boilerplates & Screencasts: demos.md
   - Cloud: 
     - Public Cloud Solutions: public-cloud-solutions.md
+    - Private Cloud Solutions: private-cloud-solutions.md
     - Edge Computing: edge-computing.md
     - AWS Cloud:
       - AWS: aws.md
@@ -254,6 +255,7 @@ nav:
     - Work From Home: workfromhome.md
   - Refs+:
     - Other Awesome Lists: other-awesome-lists.md
+    - Interview Questions: interview-questions.md
     - Subreddits: newsfeeds.md
     - E-Learning: elearning.md
     - Digital Money: digital-money.md

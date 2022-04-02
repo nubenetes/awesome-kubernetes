@@ -24,6 +24,7 @@
     - [Tekton](#tekton)
     - [Jenkins X and Tekton on OpenShift](#jenkins-x-and-tekton-on-openshift)
     - [HAT is the acronym for Helm, ArgoCD and Tekton](#hat-is-the-acronym-for-helm-argocd-and-tekton)
+    - [Dagger](#dagger)
 - [Integration with other CI/CD engines](#integration-with-other-cicd-engines)
 - [Images](#images)
 - [Slides](#slides)
@@ -163,6 +164,7 @@
 
 ## Cloud Native CI/CD
 - [tynybay.com: ArgoCD vs FluxCD vs Jenkins X: Which GitOps implementation tool suits you the best?](https://www.tynybay.com/insights-our-thinking/argocd-vs-fluxcd-vs-jenkins-x-which-gitops-implementation-tool-suits-you-the-best)
+- [csweichel/werft](https://github.com/csweichel/werft) Werft is a Kubernetes-native CI system. It knows no pipelines, just jobs and each job is a Kubernetes pod. What you do in that pod is up to you. We do not impose a "declarative pipeline syntax" or some groovy scripting language. Instead, Werft jobs have run Node, Golang or bash scripts in production environments.
 ### Jenkins X
 * [jenkins-x.io](https://jenkins-x.io/)
 * [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/jenkins-x/what-is-jenkins-x)
@@ -199,6 +201,10 @@
 
 ### HAT is the acronym for Helm, ArgoCD and Tekton
 * [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 
+
+### Dagger
+- [==dagger.io==](https://dagger.io) 
+- [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) Using Dagger, software teams can develop powerful CICD pipelines with minimal effort, then run them anywhere.
 
 ## Integration with other CI/CD engines
 * [CloudBees Integrates Software Delivery Management Platform With Google Cloud Build and Tekton to Break Down Development Silos](https://www.previous.cloudbees.com/press/cloudbees-integrates-software-delivery-management-platform-google-cloud-build-and-tekton-break)

@@ -6,7 +6,7 @@
     - [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
     - [Kubernetes examples](#kubernetes-examples)
     - [Helm and Kustomize](#helm-and-kustomize)
-- [Templating JSON Files](#templating-json-files)
+- [JSON. Templating JSON Files](#json-templating-json-files)
     - [JSON in Ansible](#json-in-ansible)
     - [JSON formatting with jq](#json-formatting-with-jq)
     - [Kubernetes JSON Schemas](#kubernetes-json-schemas)
@@ -73,7 +73,7 @@
 ### Helm and Kustomize
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 
-## Templating JSON Files
+## JSON. Templating JSON Files
 - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
 - [json.org: Introducing JSON](https://www.json.org/json-en.html)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
@@ -83,6 +83,10 @@
 - [buger/jsonparser](https://github.com/buger/jsonparser) One of the fastest alternative JSON parser for Go that does not require schema
 - [dev.to: The JSON trick 25% of Python devs don't know about](https://dev.to/codereviewdoctor/the-json-trick-25-of-python-devs-dont-know-about-including-devs-at-microsoft-sentry-unicef-and-more-4h10) Reading and writing JSON files in Python.
 - [dev.to: Convert nested JSON to simple JSON in Javascript](https://dev.to/urstrulyvishwak/convert-nested-json-to-simple-json-in-javascript-4a34)
+- [pythonspeed.com: Processing large JSON files in Python without running out of memory](https://pythonspeed.com/articles/json-memory-streaming/)
+- [thenewstack.io: Why (and How) You Should Manage JSON with SQL](https://thenewstack.io/why-and-how-you-should-manage-json-with-sql/)
+- [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d) Processing and creating JSON data in Python
+- [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532) An in-depth guide on JavaScript Object Notation (JSON)
 
 ### JSON in Ansible
 - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) Structured data is friendly for automation, and you can take full advantage of it with Ansible.

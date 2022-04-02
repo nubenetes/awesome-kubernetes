@@ -57,6 +57,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/)
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/) 
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
+- [dzone.com/trendreports](https://dzone.com/trendreports)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
@@ -164,8 +165,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Istio](istio.md)
 ## Demos and Boilerplates
 - [==Demos, Boilerplates & Screencasts==](demos.md) OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
-## Public Cloud
+## Cloud
 - [Public Cloud Solutions](public-cloud-solutions.md)
+- [Private Cloud Solutions](private-cloud-solutions.md)
 - [Edge Computing](edge-computing.md)
 - [==AWS==](aws.md)
     - [==repost.aws==](https://repost.aws)
@@ -235,6 +237,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Work From Home](workfromhome.md)
 ## More References
 - [Other Awesome Lists 🌟](other-awesome-lists.md)
+- [Interview Questions](interview-questions.md)
 - [Forums and Communities](newsfeeds.md)
 - [E-Learning](elearning.md)
 - [Digital Money](digital-money.md)

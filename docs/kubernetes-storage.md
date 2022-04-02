@@ -69,6 +69,7 @@
 - [==thenewstack.io: The Growth of State in Kubernetes==](https://thenewstack.io/the-growth-of-state-in-kubernetes/)
 - [itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution](https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc)
 - [armosec.io: Data Storage in Kubernetes](https://www.armosec.io/blog/kubernetes-data-storage/) Kubernetes in cooperation with cloud vendor infrastructure provides flexible mechanisms for data storage and management. It is up to the users to decide which mechanism best fits their application needs. However, the security side of the data storage falls completely under the user’s responsibility. Most of the default settings are wide open and require significant security expertise to protect your applications from data leakage.
+- [==infoq.com: Best Practices for Running Stateful Applications on Kubernetes==](https://www.infoq.com/articles/kubernetes-stateful-applications/)
 
 ## DoK Community
 - [==DoK Community== 🌟](https://dok.community) 

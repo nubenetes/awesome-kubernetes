@@ -431,6 +431,7 @@
 - [wkrzywiec.medium.com: How to deploy application on Kubernetes with Helm](https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8) In this blog post I present step-by-step how to deploy multiple applications on Kubernetes cluster using Helm.
 - [dzone.com: Deploy a Java application with JBoss EAP using Helm, Part 1](https://dzone.com/articles/deploy-a-java-application-using-helm-part-1)
     - [dzone.com: Deploy a Java application with JBoss EAP using Helm, Part 2](https://dzone.com/articles/deploy-a-java-application-using-helm-part-2)
+- [josephrodriguezg.medium.com: Deploying a Spring Boot microservice in Kubernetes using Helm charts](https://josephrodriguezg.medium.com/deploying-a-spring-boot-application-in-kubernetes-using-helm-charts-5c04c2d46e16)
 
 ### Writing Kubernetes Operators
 - [developers.redhat.com: ‘Hello, World’ tutorial with Kubernetes Operators](https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators/)

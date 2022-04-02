@@ -58,4 +58,5 @@ hide:
 | [K8e](https://github.com/xiaods/k8e) |  |  |  |  |  |  |  |  |  |  | Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices | 
 | [Typhoon](https://github.com/poseidon/typhoon) |  |  |  |  |  |  |  |  |  |  | Minimal and free Kubernetes distribution with Terraform | 
 | [LKE](https://www.linode.com/products/kubernetes/) |  |  |  |  |  |  |  |  |  |  | Linode Kubernetes Engine | 
+| [Giant Swarm](https://www.giantswarm.io/) |  |  |  |  |  |  |  |  |  |  | Giant Swarm | 
 |====================================|==================|======================|==========================|  |  |  |  |  |  |  |=============================================|==============================================================================|

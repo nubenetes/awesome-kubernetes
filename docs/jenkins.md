@@ -1,6 +1,5 @@
 # Jenkins & CloudBees
 - [Jenkins](#jenkins)
-- [Interview Questions](#interview-questions)
 - [Jenkins Is The Way](#jenkins-is-the-way)
 - [Evolution of open source CI/CD Tools](#evolution-of-open-source-cicd-tools)
 - [eBooks](#ebooks)
@@ -149,11 +148,6 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 * [youtube: Cloud Learn Hub - How to Integrate Jenkins with Ansible Tower?](https://www.youtube.com/watch?v=E3Xyu29LIwY&ab_channel=CLOUDLEARNHUB)
 * [==youtube: Tech World with Nana - Jenkins Tutorial for Beginners==](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC)
 * [==camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines==](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines/)
-
-## Interview Questions 
-* [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
-* [automationreinvented.blogspot.com: Top 10 Jenkins Interview Question for SDET - DevOps - Automation QA?](https://automationreinvented.blogspot.com/2021/09/top-10-jenkins-interview-question-for.html)
-* [automationreinvented.blogspot.com: Top 20 Jenkins Interview Questions and Answers 2022 for SDET - DevOps - Automation QA? Refer for Getting pro in Jenkins](https://automationreinvented.blogspot.com/2021/12/top-20-jenkins-interview-questions-and.html)
 
 ## Jenkins Is The Way
 * [jenkinsistheway.io: Jenkins Is The Way 🌟](https://jenkinsistheway.io/) Jenkins Is The Way is a collection of experiences from all around the world showcasing how users are building, deploying, and automating great stuff with Jenkins. 
@@ -684,6 +678,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zI7_8M2KtRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/08Wwof68cxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/7KCS70sCoK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SwQE5hM4trg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
 ## Tweets

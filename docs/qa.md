@@ -1,6 +1,5 @@
 # QA/TestOps - Continuous Testing. Software Quality Test Automation
 - [Introduction](#introduction)
-- [Interview Questions](#interview-questions)
 - [Blogs](#blogs)
 - [Testing Frameworks](#testing-frameworks)
 - [Release Testing](#release-testing)
@@ -48,10 +47,7 @@ the #1 test automation community.
 * [==betterprogramming.pub: Why We Quit Unit Testing Classes to Focus On a Behavioral Approach==](https://betterprogramming.pub/quit-unit-testing-classes-and-use-a-behavior-oriented-approach-306a667f9a31) Why you should consider avoiding class-level tests, in favor of a behavior-oriented approach
 * [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047)
 * [smashingmagazine.com: Testing Pipeline 101 For Frontend Testing](https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing/)
-
-## Interview Questions
-* [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
-* [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html)
+* [infoq.com: Maintaining Software Quality with Microservices](https://www.infoq.com/presentations/microservices-software-quality/)
 
 ## Blogs
 - https://automationqahub.com/
@@ -99,6 +95,7 @@ the #1 test automation community.
 * [==reviewdog - A code review dog who keeps your codebase healthy.==](https://github.com/reviewdog/reviewdog) 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
 * [==dzone: Component Tests for Spring Cloud Microservices==](https://dzone.com/articles/component-tests-for-spring-cloud-microservices) In this tutorial, we discussed guidelines and considerations for Spring Cloud microservices component tests and provided a recipe for common use cases.
 * [CoolerVoid/codecat: CodeCat - Tool to help in static code analysis](https://github.com/CoolerVoid/codecat) CodeCat is an open-source tool to help you find/track user input sinks and security bugs using static code analysis. These points follow regex rules.
+* [==beellz.hashnode.dev: Continuous Profiling in Kubernetes Using Pyroscope==](https://beellz.hashnode.dev/continuous-profiling-in-kubernetes-using-pyroscope) In this blog post, you will learn about continuous profiling, and then instrument a few microservices running on Kubernetes using an open-source tool called Pyroscope to find performance issues and bottlenecks in your code.
 
 ## Performance Testing
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)

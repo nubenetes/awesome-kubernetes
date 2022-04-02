@@ -11,6 +11,7 @@
 * [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci/)
 * [reddit.com/r/maven](https://www.reddit.com/r/maven)
 * [reddit.com/r/gradle](https://www.reddit.com/r/gradle/)
+* [reddit.com/r/azuredevops](https://www.reddit.com/r/azuredevops)
 * [reddit.com/r/QualityAssurance](https://www.reddit.com/r/QualityAssurance/)
 * [reddit.com/r/jmeter](https://www.reddit.com/r/jmeter/)
 * [reddit.com/r/aws](https://www.reddit.com/r/aws/) AWS Support now officially on Reddit (Account & Billing questions)

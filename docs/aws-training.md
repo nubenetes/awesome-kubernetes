@@ -16,6 +16,7 @@
 - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws) There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
 - [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://explore.skillbuilder.aws/learn) Your learning center to build in-demand cloud skills
 - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion/)
+- [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)
 
 ## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)

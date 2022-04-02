@@ -7,7 +7,6 @@
 	- [Use Java 11](#use-java-11)
 	- [Java 17](#java-17)
 	- [Java 18](#java-18)
-	- [Java Collections Interview Questions](#java-collections-interview-questions)
 - [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 - [Jakarta EE](#jakarta-ee)
 - [Eclipse MicroProfile](#eclipse-microprofile)
@@ -27,6 +26,7 @@
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
 - [Quarkus vs Spring Boot](#quarkus-vs-spring-boot)
 - [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
+- [Java Logger Implementations](#java-logger-implementations)
 - [Java Testing Frameworks](#java-testing-frameworks)
 - [Debugging Java Threads](#debugging-java-threads)
 - [Lombok](#lombok)
@@ -90,9 +90,6 @@
 - [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) JVM with <5ms GC pauses (ZGC). JDK17 is a huge leap forward in benchmark after benchmark. Upgrade as fast as you can. Amazon’s Corretto builds are available for a huge number of platforms and distribution channels. The JRE disappeared with jdk9: use jlink to assemble exactly the JRE you need.
 ### Java 18
 - [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.java.net/jeps/413)
-
-### Java Collections Interview Questions
-* [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
 
 ## Java Programming Models (Frameworks)
 - [Best Java Frameworks Solutions](https://www.itcentralstation.com/categories/java-frameworks) The best Java Frameworks vendors are **Apache Spark**, **Spring Boot**, **Oracle Application Development Framework (Oracle ADF)**, **Jakarta EE**, and **Open Liberty**. Apache is the top solution according to IT Central Station reviews and rankings. One reviewer writes: "Fast performance and has an easy initial setup", and another reviewer writes: "Easy to use and is capable of processing large amounts of data". The 2nd best product is Spring Boot. A user writes: "Very smooth implementation; excellent features for monitoring and tracking network calls ", and another reviewer writes: "Makes it difficult to support a specific functionality in a user-friendly manner, but simplifies application deployment".
@@ -178,6 +175,7 @@ optimizing Enterprise Java for the microservices architecture.
 * [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/)
 * [vladmihalcea.com: Spring Boot Application Properties](https://vladmihalcea.com/spring-boot-application-properties/)
 * [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
+* [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/)
 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
@@ -283,6 +281,9 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 ## More Java Frameworks or Libraries
 - [JPA streamer 🌟](https://jpastreamer.org/) JPAstreamer is a library for expressing JPA/Hibernate queries as Java streams. It can be also integrated with Spring. 
 - [logbook](https://github.com/zalando/logbook) An extensible Java library for HTTP request and response logging
+
+## Java Logger Implementations
+- [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) JMH Benchmark for different Java Logger implementations.
 
 ## Java Testing Frameworks
 - [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021) Java Testing Frameworks provide standardized, extendable ways for programmers and developers to build any software application or web apps.

@@ -7,7 +7,6 @@
 - [HashiCorp Cloud](#hashicorp-cloud)
 - [Blogs and Newsletters](#blogs-and-newsletters)
 - [Terraform](#terraform)
-	- [Interview Questions](#interview-questions)
 	- [Terraform Cloud](#terraform-cloud)
 	- [HCL](#hcl)
 	- [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
@@ -36,16 +35,18 @@
 		- [Terraform in Azure DevOps](#terraform-in-azure-devops)
 		- [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
 	- [Terraform and OCI](#terraform-and-oci)
-	- [Terraform Provider for Elastic Cloud](#terraform-provider-for-elastic-cloud)
-	- [Terraform Vault Provider](#terraform-vault-provider)
 	- [Terraform and Apache Kafka](#terraform-and-apache-kafka)
 	- [Terraform and JMeter](#terraform-and-jmeter)
 	- [Terraform Video Tutorials](#terraform-video-tutorials)
 - [CDK for Terraform](#cdk-for-terraform)
 - [Graph Visualization Software](#graph-visualization-software)
 - [Terraform Modules](#terraform-modules)
+	- [Terraform AWS Modules](#terraform-aws-modules)
 	- [Segment AWS Stack Terraform Modules](#segment-aws-stack-terraform-modules)
 - [Terraform Providers](#terraform-providers)
+	- [Terraform Provider for Elastic Cloud](#terraform-provider-for-elastic-cloud)
+	- [Terraform Vault Provider](#terraform-vault-provider)
+	- [Terraform AzureRM](#terraform-azurerm)
 - [Terraform Code Quality. Terraform Quality Checks](#terraform-code-quality-terraform-quality-checks)
 - [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 - [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
@@ -199,11 +200,7 @@
 * [==middlewareinventory.com: Terraform import All AWS Security Groups – How to==](https://www.middlewareinventory.com/blog/terraform-import-securitygroup-aws/) In this post, we are going to see how to manage existing and already created AWS Security groups with Terraform. The new era of Infrastructure revolution has begun already and we already started provisioning, managing, administrating our Infra as a code with help of Configuration management tools like Ansible, Terraform, SaltStack etc.
 * [==middlewareinventory.com: Terraform For Each Examples – How to use for_each | Devops Junction==](https://www.middlewareinventory.com/blog/terraform-for-each-examples)
 * [==acloudguru.com: How to troubleshoot 5 common Terraform errors==](https://acloudguru.com/blog/engineering/how-to-troubleshoot-5-common-terraform-errors)
-
-### Interview Questions
-- [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions/)
-- [simplilearn.com: Top 40 Terraform Interview Questions and Answers for 2022](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
-- [k21academy.com: Top Terraform Interview Questions & Answers [ Revised – 2022]](https://k21academy.com/terraform-iac/terraform-interview-questions/)
+* [==medium.com/nerd-for-tech: Terraforming the GitOps Way !!!==](https://medium.com/nerd-for-tech/terraforming-the-gitops-way-9417cf4abf58)
 
 ### Terraform Cloud
 * [learn.hashicorp.com: Manage Private Environments with Terraform Cloud Agents](https://learn.hashicorp.com/tutorials/terraform/cloud-agents)
@@ -228,7 +225,7 @@
 
 ### Helm Charts in Terraform
 * [opensource.com: How I use Terraform and Helm to deploy the Kubernetes Dashboard 🌟](https://opensource.com/article/21/8/terraform-deploy-helm) Terraform can deploy Helm Charts. Is it right for you?
-* [dev.to: Working with helm charts in Terraform](https://dev.to/crayon/working-with-helm-charts-in-terraform-49h1)
+* [dev.to: Working with helm charts in Terraform](https://dev.to/crayon/working-with-helm-charts-in-terraform-49h1) In this tutorial, you will learn how to set up the Helm Terraform provider and deploy Helm charts with Terraform
 
 ### Terraform Infracost
 - [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront. 
@@ -348,6 +345,11 @@
 * [medium.com/devgurus: Building production grade EKS clusters using Terraform](https://medium.com/devgurus/building-production-grade-eks-clusters-using-terraform-df016d239a54)
 * [medium.com/devops-mojo: Terraform — Provision Amazon EKS Cluster using Terraform](https://medium.com/devops-mojo/terraform-provision-amazon-eks-cluster-using-terraform-deploy-create-aws-eks-kubernetes-cluster-tf-4134ab22c594)
 * [calvineotieno010.medium.com: Automate Provisioning of Kubernetes Clusters on AWS with Terraform](https://calvineotieno010.medium.com/automate-provisioning-of-kubernetes-clusters-on-aws-with-terraform-f69c0572c2c7)
+* [dev.to: Creating an EKS Cluster and Node Group with Terraform](https://dev.to/aws-builders/creating-an-eks-cluster-and-node-group-with-terraform-1lf6)
+	* [dev.to: Install & Manage Amazon EKS Add-ons with Terraform](https://dev.to/aws-builders/install-manage-amazon-eks-add-ons-with-terraform-2dea)
+		* Amazon VPC CNI
+		* CoreDNS
+		* Amazon EBS CSI
 
 ==}
 
@@ -377,6 +379,7 @@
 
 #### Terraform in Azure DevOps
 - [==adamtheautomator.com: How to Build Infrastructure with Terraform in Azure DevOps== 🌟](https://adamtheautomator.com/terraform-azure-devops/)
+- [faun.pub: Azure DevOps: Deploying Azure Resources using Terraform](https://faun.pub/azure-devops-deploying-azure-resources-using-terraform-1f2fe46c6aa0) Infrastructure as Code | Terraform | Azure | Azure DevOps
 
 {==
 
@@ -388,40 +391,53 @@
 - [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
 - [hashicorp.com: Build a Quick AKS Cluster the Easy Way with Terraform Cloud 🌟](https://www.hashicorp.com/blog/build-a-quick-aks-cluster-the-easy-way-with-terraform-cloud)
 - [github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
+	- [==stacksimplify.com/azure-aks: Kubernetes On Cloud Roadmap==](https://stacksimplify.com/azure-aks/)
 	- [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
 	- [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
 
-	``` tf
-	# 01-main.tf
-	resource "azurerm_virtual_network" "example" {  # (1) 
-	name                = "${var.environment}-network"
-	location            = azurerm_resource_group.aks_rg.location
-	resource_group_name = azurerm_resource_group.aks_rg.name
-	address_space       = ["10.x.x.0/22"]
-	}
-	resource "azurerm_subnet" "internal" {  # (2) 
-	name                 = "internal"
-	virtual_network_name = azurerm_virtual_network.example.name
-	resource_group_name  = azurerm_resource_group.aks_rg.name
-	address_prefixes     = ["10.x.x.0/24"]
-	}
-	```
-
-	1.  :man_raising_hand: VNet
-	2.  :man_raising_hand: Subnet nodes (and pods with Azure CNI network plugin)
-
 	``` tf 
 	# 07-aks-cluster.tf
-	network_profile {  # (3)
+
+	# Network Profile
+	# Kubenet is a kubernetes network configuration plugin for your AKS cluster. Nodes get an IP address from
+	# the AKS subnet, and pods receive an IP address from a separate address space entirely. The source IP address
+	# of the traffic is NAT'd to the node's IP address.
+
+	# With kubenet there's NO Pod-to-Pod communication because they don't have their own public IPs.
+	# User Defined Routing (UDR) and IP forwarding is used for communication between pods across nodes.
+
+	# Kubenet is the preferred method since you get more pods per node and the AKS Cluster scales to a bigger number.
+	# With kubenet Max Number of Pods per Node: 110
+	# With Kubenet and CIDR =/24 : 251 nodes * 110 pods per node = 27.610 pods
+    # With Azure CNI (instead of kubenet) and CIDR =/24 : 8 nodes * 30 pods per node = 240 pods
+
+	# If we have limited IP addresses to work with, we can fit more pods in the limited IP address space because we can
+	# fit more pods per node.
+
+	# The Service CIDR, Pod CIDR, and Docker Bridge Access can be any address range.
+	# The DNS Service IP must be any IP address that's within the Service CIDR address range.
+
+	# Network settings (service_cidr, pod_cidr, docker_bridge_cidr, dns_service_ip) are commented. The below values
+	# correspond to the applied default values when these settings are note set up.
+	
+	# Default network settings with kubenet when they are not configured:
+    # Azure AKS VNet      = "10.0.0.0/8"
+	# Azure AKS Subnet    = "10.240.0.0/16"
+    # service_cidr        = "10.0.0.0/16"
+	# pod_cidr            = "10.244.0.0/16"
+	# docker_bridge_cidr  = "172.17.0.1/16" # Default. You can reuse this range across different AKS Clusters
+	# dns_service_ip      = "10.0.0.10"
+
+	network_profile {  # (1)
 	load_balancer_sku = "Standard"
-	network_plugin = "azure"  # Azure CNI because windows node pools are not supported by kubenet (unfortunately)
+	network_plugin = "azure"  # windows node pools are not supported by kubenet, instead use Azure CNI network plugin
 	service_cidr = "10.x.x.0/24"
 	dns_service_ip = "10.x.x.10"
 	docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.  
 	}
 	```
 
-	3.  :man_raising_hand: Network Profile
+	1.  :man_raising_hand: Network Profile
 
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
@@ -432,13 +448,6 @@
 - [oracle-quickstart/oci-arch-db-migration](https://github.com/oracle-quickstart/oci-arch-db-migration/tree/master/oci-arch-ee-exa-db-mig) This code will help you deploy a compute instance and Exadata Cloud Service (Quarter Rack) database system in Oracle Cloud Infrastructure.
 
 ==}
-
-### Terraform Provider for Elastic Cloud
-- https://github.com/elastic/terraform-provider-ec
-- [infoq.com: Elastic Releases Terraform Providers for the Elastic Stack and Elastic Cloud](https://www.infoq.com/news/2022/01/elastic-terraform/)
-
-### Terraform Vault Provider
-- [learn.hashicorp.com: Codify Management of Vault Enterprise Using Terraform](https://learn.hashicorp.com/tutorials/vault/codify-mgmt-enterprise)
 
 ### Terraform and Apache Kafka
 - [medium: From AWS CloudFormation to Terraform: Migrating Apache Kafka](https://medium.com/riskified-technology/from-aws-cloudformation-to-terraform-migrating-apache-kafka-32bdabdbaa59)
@@ -464,6 +473,9 @@
 - [offensive-terraform.github.io: Offensive Terraform Modules 🌟](https://offensive-terraform.github.io/offensive-terraform.github.io/) Automated multi step offensive attack modules with Infrastructure as Code(IAC)
 - [digitalocean.com: How To Build a Custom Terraform Module](https://www.digitalocean.com/community/tutorials/how-to-build-a-custom-terraform-module)
 
+### Terraform AWS Modules
+- [==github.com/terraform-aws-modules==](https://github.com/terraform-aws-modules) **Collection of Terraform AWS modules supported by the community**
+
 ### Segment AWS Stack Terraform Modules
 - [The Segment AWS Stack](https://segment.com/blog/the-segment-aws-stack/)
 - [segmentio/stack](https://github.com/segmentio/stack) A set of Terraform modules for configuring production infrastructure with AWS
@@ -472,6 +484,16 @@
 - [Junos-terraform: JUNOS Terraform Automation Framework (JTAF)](https://github.com/Juniper/Junos-terraform) 
 - [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) Terraform Provider for cascading runs across multiple workspaces.
 - [kyma-incubator/terraform-provider-kind: Terraform Provider for kind (Kubernetes IN Docker)](https://github.com/kyma-incubator/terraform-provider-kind) The Terraform Provider for kind enables Terraform to provision local Kubernetes clusters on base of Kubernetes IN Docker (kind).
+
+### Terraform Provider for Elastic Cloud
+- https://github.com/elastic/terraform-provider-ec
+- [infoq.com: Elastic Releases Terraform Providers for the Elastic Stack and Elastic Cloud](https://www.infoq.com/news/2022/01/elastic-terraform/)
+
+### Terraform Vault Provider
+- [learn.hashicorp.com: Codify Management of Vault Enterprise Using Terraform](https://learn.hashicorp.com/tutorials/vault/codify-mgmt-enterprise)
+
+### Terraform AzureRM
+- [hashicorp.com: Terraform AzureRM 3.0 Brings Enhanced Azure Function Support](https://www.hashicorp.com/blog/terraform-azurerm-3-0-brings-enhanced-azure-function-support)
 
 ## Terraform Code Quality. Terraform Quality Checks
 - [adinermie.com: Publishing GitHub Super-Linter Terraform Quality Checks to Azure DevOps Pipelines](https://adinermie.com/publishing-github-super-linter-terraform-quality-checks-to-azure-devops-pipelines/)
@@ -517,6 +539,7 @@
 - [medium: Terragrunt cheat sheet](https://medium.com/geekculture/terragrunt-cheat-sheet-bedafbf9d61f) **What is Terragrunt?** Terragrunt is a framework on top of Terraform with some new tools out-of-the-box. Thanks to some new files *.hcl and new keywords, you can share variables across terraform modules very easily.
 - [pie-r/terragrunt-vs-terraspace](https://github.com/pie-r/terragrunt-vs-terraspace)
 - [gruntwork-io/terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) A repo used to show examples file/folder structures you can use with Terragrunt and Terraform
+- [==medium.com/predictivehire: Why we should use Terraform and Terragrunt to manage Kubernetes (with example code)==](https://medium.com/predictivehire/why-we-should-use-terraform-and-terragrunt-to-manage-kubernetes-with-example-code-d96aac2ff25a)
 ### Terraspace
 - [Terraspace.cloud](https://terraspace.cloud/) Terraspace is a Terraform Framework that optimizes for infrastructure-as-code happiness. It provides an organized structure, conventions over configurations, keeps your code DRY, and adds convenient tooling. Terraspace makes working with Terraform easier and more fun.
 
@@ -555,5 +578,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using Terraform with Co-pilot. <a href="https://t.co/0hhbqmMGW1">pic.twitter.com/0hhbqmMGW1</a></p>&mdash; Alex Jones 🚀 (@AlexJonesax) <a href="https://twitter.com/AlexJonesax/status/1457648604768780290?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yes. If it’s anything reasonably complex, my process is:<br>1.) Build w/ UI<br>2.) Gen w/ <a href="https://twitter.com/hashtag/Terraformer?src=hash&amp;ref_src=twsrc%5Etfw">#Terraformer</a> (local state)<br>3.) Fix crazy codegen-ed names<br>4.) Import TF, verify Cloud == State == <a href="https://twitter.com/hashtag/Terraform?src=hash&amp;ref_src=twsrc%5Etfw">#Terraform</a> <br>5.) rm -rf the manual version<br>6.) Recreate from TF<br>7.) Test and iterate w/ IaC</p>&mdash; Ryan Hochstetler (@ryanhos) <a href="https://twitter.com/ryanhos/status/1483831027709657096?ref_src=twsrc%5Etfw">January 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s continue to Terraform🚀<br> <br>The value of a Terraform variable can be set multiple ways, including setting a default value, interactively passing a value when executing a terraform plan and apply, using an environment variable, or setting the value in a .tfvars file. <br><br>(1/2)</p>&mdash; Vrukshali 🦥 (@vrukshali26) <a href="https://twitter.com/vrukshali26/status/1505766330984771588?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -1,6 +1,7 @@
 # Kubernetes Operators and Controllers
 - [Introduction](#introduction)
 - [operatorhub.io](#operatorhubio)
+- [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
 - [Operator Capability Levels](#operator-capability-levels)
 - [Cluster Addons](#cluster-addons)
 - [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
@@ -84,14 +85,22 @@
     - Sleep your pods: Suspend your pods when no-one's using them, scale down your cluster and save energy
     - Reduce CO2 emissions: See how much you save in the Green Dashboard (coming soon)
 - [krestomatio/keydb-operator](https://github.com/krestomatio/keydb-operator) A KeyDB (Drop-In Alternative to Redis) Operator for Kubernetes
-- [Keel 🌟](https://github.com/keel-hq/keel) Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates:
+- [==Keel== 🌟](https://github.com/keel-hq/keel) **Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates:**
     - You can use policies to define when to update an application
     - Users can specify how many approvals do they need before a resource is updated.
+    - https://keel.sh
 - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)
 - [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa) Build Kubernetes Operator with **Kubebuilder** and declarative pattern
+- [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332) A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable. 
+- [openshift/machine-api-operator](https://github.com/openshift/machine-api-operator) The Machine API Operator manages the lifecycle of specific purpose CRDs, controllers and RBAC objects that extend the Kubernetes API. This allows to convey desired state of machines in a cluster in a declarative fashion
+- [rancher/system-upgrade-controller: System Upgrade Controller](https://github.com/rancher/system-upgrade-controller) This project aims to provide a general-purpose, Kubernetes-native upgrade controller (for nodes). It introduces a new CRD, the Plan, for defining any and all of your upgrade policies/requirements. A Plan is an outstanding intent to mutate nodes in your cluster.
+- [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792) There's a lot of hidden knowledge in core controllers and api conventions doc that is not followed by many controllers in the wild. One of these patterns is observedGeneration. In this article, you will learn what problems it can help solve.
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
+
+## Red Hat Container Community of Practice Operators
+- [==cloud.redhat.com: Red Hat Container Community of Practice Operators==](https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators)
 
 ## Operator Capability Levels
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.

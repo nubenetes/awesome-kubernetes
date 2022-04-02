@@ -25,7 +25,7 @@
 		- [Powershell](#powershell)
 	- [Data Processing](#data-processing)
 	- [Big Data](#big-data)
-	- [MLOps](#mlops)
+	- [Machine Learning and MLOps](#machine-learning-and-mlops)
 - [Open Source Alternatives](#open-source-alternatives)
 - [Kubectl Plugins](#kubectl-plugins)
 - [Tweets](#tweets)
@@ -48,6 +48,8 @@
 - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
 - [k8s-at-home/awesome-home-kubernetes: Awesome Home Kubernetes 🌟](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
+- [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
+	- https://clusterpedia.io
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
@@ -71,6 +73,7 @@
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
 - [Awesome Agile](https://github.com/lorabv/awesome-agile)
+- [rayfrankenstein/AITOW: #AgileKillsKittens (or Agile In Their Own Words: The Problem With Agile & Scrum)](https://github.com/rayfrankenstein/AITOW) A curated list of negative developer comments about Agile and Scrum on social media
 
 ### SysAdmin
 - [Awesome SysAdmin](https://github.com/kahun/awesome-sysadmin)
@@ -142,6 +145,7 @@
 ### Security
 - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security)
 - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) A curated list of awesome Docker security resources
+- [anderseknert/awesome-opa 🌟](https://github.com/anderseknert/awesome-opa) A curated list of awesome Open Policy Agent (OPA) related tools, frameworks and articles.
 
 ### QA
 - [Awesome Test Automation](https://github.com/atinfo/awesome-test-automation)
@@ -197,8 +201,9 @@
 ### Big Data
 - [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
 
-### MLOps
+### Machine Learning and MLOps
 - [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops)
+- [ekramasif/Basic-Machine-Learning](https://github.com/ekramasif/Basic-Machine-Learning) **This is a repo of basic Machine Learning!** This repository contains a topic-wise curated list of Machine Learning and Deep Learning tutorials, articles and other resources.
 
 ## Open Source Alternatives
 - [opensource.builders](https://opensource.builders/)

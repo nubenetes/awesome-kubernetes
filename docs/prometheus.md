@@ -240,7 +240,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 #### Certificates Expiration
 * [muxinc/certificate-expiry-monitor](https://github.com/muxinc/certificate-expiry-monitor) Utility that exposes the expiry of TLS certificates as Prometheus metrics
-* [enix/x509-certificate-exporter](https://github.com/enix/x509-certificate-exporter) A Prometheus exporter to monitor x509 certificates expiration in Kubernetes clusters or standalone
+* [enix/x509-certificate-exporter](https://github.com/enix/x509-certificate-exporter) A Prometheus exporter to monitor x509 certificates expiration in Kubernetes clusters or standalone, written in Go. Designed to monitor Kubernetes clusters from inside, it can also be used as a standalone exporter.
 
 ### Prometheus Exporters Development. Node Exporter
 * Node exporter puede ser utilizado para exportar las métricas de nuestra aplicación ya que permite exportar un "text-file". Nuestra aplicación puede escribir datos en un fichero de texto con el formato de datos de Prometheus. Este fichero de texto con datos agregados sería exportado a Prometheus con Node Exporter. 
@@ -325,6 +325,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 ## Prometheus Operator 
 ### kube Prometheus
 * [kube-prometheus](https://github.com/coreos/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes.
+* [arthursens.medium.com: Risk analysis and security compliance in Kube-prometheus](https://arthursens.medium.com/risk-analysis-and-security-compliance-in-kube-prometheus-10c8cfb180b8)
 
 #### Prometheus Operator with Helm3
 * [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry/)

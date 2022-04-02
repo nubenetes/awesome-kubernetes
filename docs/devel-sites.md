@@ -2,6 +2,9 @@
 - [Introduction](#introduction)
 - [Design Patterns](#design-patterns)
 - [Developer Tools](#developer-tools)
+	- [Firebase](#firebase)
+	- [Supabase Studio. An alternative to Firebase](#supabase-studio-an-alternative-to-firebase)
+	- [Ballerina](#ballerina)
 	- [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
 - [AI Programming](#ai-programming)
 - [No code tools](#no-code-tools)
@@ -32,6 +35,9 @@
 - [baeldung.com: Concurrency vs Parallelism](https://www.baeldung.com/cs/concurrency-vs-parallelism)
 - [readwrite.com: Tech for Programmers in 2022: The Good, The Bad, and The Ugly](https://readwrite.com/tech-for-programmers-in-2022-the-good-the-bad-and-the-ugly/)
 - [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
+- [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/)
+- [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)
+- [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/)
 
 ## Design Patterns
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)
@@ -41,9 +47,21 @@
 	- etc
 - [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)
 - [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)
+- [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d)
+- [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
+
+### Firebase
+- [==firebase.google.com==](https://firebase.google.com)
+
+### Supabase Studio. An alternative to Firebase
+- [==supabase.com==](https://supabase.com/) The Open Source Firebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.
+- [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio/)
+
+### Ballerina
+- [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/)
 
 ### Red Hat Software Collections and Red Hat Developer Toolset
 - [==softwarecollections.org==](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use multiple versions of software on the same system, without affecting system-wide installed packages.
@@ -85,5 +103,9 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just learned about the groupBy feature in <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a>. (currently stage 3)<br><br>This sure looks handy! <a href="https://t.co/msVSNistuN">pic.twitter.com/msVSNistuN</a></p>&mdash; Cory House (@housecor) <a href="https://twitter.com/housecor/status/1475867772378828804?ref_src=twsrc%5Etfw">December 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> project needs some contribution <a href="https://t.co/TJZ0KqBSBK">pic.twitter.com/TJZ0KqBSBK</a></p>&mdash; Amelia Warner (@facetimeJS) <a href="https://twitter.com/facetimeJS/status/1493081314915926018?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are never too senior to write code. I only laugh at people who believe they are too good to write any code as a software engineer.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1507092403043254274?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵 The Ultimate TypeScript Thread 🧵<br><br>Here&#39;s everything I&#39;ve learned from leading TS dev teams and working on XState&#39;s core team.<br><br>My goal is to turn you into a TypeScript wizard.<br><br>And yes, this thread is EVERGREEN - I&#39;ll add at least 3 more tips a week 🚀<br><br>Let&#39;s get started.</p>&mdash; Matt Pocock (@mpocock1) <a href="https://twitter.com/mpocock1/status/1509964736275927042?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

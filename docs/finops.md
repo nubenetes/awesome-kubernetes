@@ -1,5 +1,6 @@
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management
 - [Introduction](#introduction)
+- [Licence Managers](#licence-managers)
 - [EKS](#eks)
 - [Books](#books)
 - [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
@@ -23,6 +24,11 @@
 - [faun.pub: FinOps – introduction, origins and next steps](https://faun.pub/finops-introduction-origins-and-next-steps-bcdaa8b82417) Financial Operations (FinOps) is a culture that will help you creating cost awareness in your organisation!
 - [cloud.google.com: 5 key metrics to measure Cloud FinOps impact in your organization in 2022 and beyond](https://cloud.google.com/blog/topics/cloud-first/key-metrics-to-measure-impact-of-cloud-finops)
 - [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops)
+- [zdnet.com: As cloud costs spiral upward, enterprises turn to a thing called FinOps](https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a-thing-called-finops/) Organizations waste 32% of cloud spend, up from 30% a year ago. 'More and more users are swimming in the FinOps side of the pool, even if they may not know it - or call it FinOps yet.'
+- [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization)
+
+## Licence Managers
+- [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses) Unified view of software usage, SaaS, cloud resources, domains, SSL certificates info across the enterprise from one place in Jira.
 
 ## EKS
 - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)

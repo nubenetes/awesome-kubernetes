@@ -2,8 +2,8 @@
 - [SRE](#sre)
 - [SRE Tools](#sre-tools)
 - [Service Level Objectives (SLO)](#service-level-objectives-slo)
-	- [OpenSLO](#openslo)
-	- [Validate Service-Level Objectives of REST APIs Using Iter8](#validate-service-level-objectives-of-rest-apis-using-iter8)
+  - [OpenSLO](#openslo)
+  - [Validate Service-Level Objectives of REST APIs Using Iter8](#validate-service-level-objectives-of-rest-apis-using-iter8)
 - [Images](#images)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -70,6 +70,7 @@
 - [devops.com: Top Nine Skills for SREs to Master 🌟](https://devops.com/top-nine-skills-for-sres-to-master/)
 - [devops.com: How SREs Benefit From Feature Flags](https://devops.com/how-sres-benefit-from-feature-flags/)
 - [toolbox.com: Site Reliability Engineering: What Is It and How Can It Help Scale Operations? 🌟](https://www.toolbox.com/tech/devops/articles/automating-sre-to-scale-operations/) Site Reliability Engineering (SRE) is an essential task that bridges the gap between developers and operations. Here’s how organizations can refine it further by leveraging automation.
+- [==devops.com: SRE Vs. Platform Engineering: What’s the Difference?==](https://devops.com/sre-vs-platform-engineering-whats-the-difference/)
 
 ## SRE Tools
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)
