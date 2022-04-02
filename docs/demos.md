@@ -686,6 +686,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [==thomasthornton.cloud: A DevOps journey using Azure DevOps==](https://thomasthornton.cloud/2021/12/26/a-devops-journey-using-azure-devops/) - [thomast1906/DevOps-Journey-Using-Azure-DevOps 🌟](https://github.com/thomast1906/DevOps-Journey-Using-Azure-DevOps/tree/main/labs)
 - [lambdatest.com: How To Build a CI/CD Pipeline In Azure DevOps ?](https://www.lambdatest.com/blog/build-ci-cd-pipeline-in-azure-devops/)
 - [medium.com/tea-networks: Kubernetes & CI/CD Pipeline](https://medium.com/tea-networks/kubernetes-ci-cd-pipeline-c028aea17535)
+- [==docs.microsoft.com: Create a build pipeline with Azure Pipelines==](https://docs.microsoft.com/en-gb/learn/modules/create-a-build-pipeline/)
 
 ### Azure Demos
 - [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 1](https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api/) 
