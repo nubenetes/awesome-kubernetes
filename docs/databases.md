@@ -92,6 +92,10 @@
 - [vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide](https://vladmihalcea.com/sql-left-join/)
 - [vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide](https://vladmihalcea.com/sql-join-using/)
 - [gcreddy.com: SQL Step by Step Videos](https://www.gcreddy.com/2021/05/sql-step-by-step-videos.html)
+- [freecodecamp.org: SQL Joins Tutorial: Cross Join, Full Outer Join, Inner Join, Left Join, and Right Join](https://www.freecodecamp.org/news/sql-joins-tutorial/)
+- [freecodecamp.org: SQL Join Types – Inner Join VS Outer Join Example](https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/)
+- [freecodecamp.org: The SQL Inner Join Command: Example Syntax](https://www.freecodecamp.org/news/the-sql-inner-join-command-example-syntax/)
+- [freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL](https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql/)
 
 ### Alternatives to SQL
 - [infoworld.com: Beyond SQL: 8 new languages for data querying](https://www.infoworld.com/article/3654909/beyond-sql-8-new-languages-for-data-querying.html) SQL has dominated data querying for decades. Newer query languages offer more elegance, simplicity, and flexibility for modern use cases.
