@@ -1,6 +1,7 @@
 # Kubernetes Security
 - [Introduction](#introduction)
 - [NSA National Security Agent Kubernetes Hardening Guidance](#nsa-national-security-agent-kubernetes-hardening-guidance)
+- [CIS Benchmarks and CIS Operator](#cis-benchmarks-and-cis-operator)
 - [Service Accounts](#service-accounts)
 - [Kubernetes Secrets](#kubernetes-secrets)
 - [Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager](#encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager)
@@ -140,6 +141,11 @@
 * [armosec.io: Kubescape - As “left” as it can get – find Kubernetes security issues while coding, not after](https://www.armosec.io/blogfind-kubernetes-security-issues-while-coding/)
 * [theregister.com: Hardening Kubernetes the NSA way. NSA spies ample opportunities to harden Kubernetes](https://www.theregister.com/2022/03/16hardening_kubernetes_the_nsa_way/) 
 * [thenewstack.io: NSA on How to Harden Kubernetes](https://thenewstack.io/nsa-on-how-to-harden-kubernetes/)
+
+## CIS Benchmarks and CIS Operator
+- [ibm.com: CIS Benchmarks](https://www.ibm.com/cloud/learn/cis-benchmarks) Developed by a global community of cybersecurity professionals, CIS Benchmarks are a collection of best practices for securely configuring IT systems, software, networks, and cloud infrastructure.
+- [aymen-abdelwahed.medium.com: K8s Operators — CIS Kubernetes Benchmarks](https://aymen-abdelwahed.medium.com/k8s-operators-cis-benchmarks-8d7915d5cb2d) How can I run my workloads securely on top of Kubernetes? In this post, we'll be taking a look at the CIS-Benchmark, breaking the concept down to simple terms, and in the end, deploying the CIS-Operator using Helm charts and custom values
+    - [rancher/cis-operator](https://github.com/rancher/cis-operator) This is an operator that can run on a given Kubernetes cluster and provide ability to run security scans as per the CIS benchmarks, on the cluster.
 
 ## Service Accounts
 * Service account is an important concept in terms of Kubernetes security. You can relate it to AWS instance roles and google cloud instance service account if you have a cloud background. By default, every pod gets assigned a default service account if you don't specify a custom service account. Service account allows pods to make calls to the API server to manage the cluster resources using ClusterRoles or resources scoped to a namespace using Roles. Also, you can use the Service account token from external applications to make API calls to the kubernetes API server. 

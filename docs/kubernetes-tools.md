@@ -670,6 +670,7 @@
 
 ## Robusta
 - [Robusta](https://docs.robusta.dev/) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
+- [home.robusta.dev: Why everyone should track Kubernetes changes and top four ways to do so](https://home.robusta.dev/blog/why-everyone-should-track-and-audit-kubernetes-changes-and-top-ways/) Robusta is an event-triggered automations engine. Using Robusta you can subscribe to changes in a cluster (or multiple clusters) and publish that information to useful locations.
 
 ## Soup GitOps Operator
 - [caldito/soup](https://github.com/caldito/soup) Soup is a GitOps operator for Kubernetes. GitOps continuous deployment and management tool for Kubernetes focused on simplicity.

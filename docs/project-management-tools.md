@@ -54,5 +54,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The daily standup is NOT a status meeting!<br><br>It is a planning meeting and our most important task is to talk about impediments.<br><br>It should never be used to report to anyone. It is for the team, by the team, and not for the managers.</p>&mdash; Daniel Moka⚡ (@dmokafa) <a href="https://twitter.com/dmokafa/status/1371842534801039361?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ I&#39;ve been managing people remotely for 8 years. Here&#39;s how to be a better manager in a remote (distributed) team:</p>&mdash; Job (@Jobvo) <a href="https://twitter.com/Jobvo/status/1375085060425138179?ref_src=twsrc%5Etfw">March 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stop wasting hours choosing platforms to use.<br><br>Here are 10 free tools for your next startup:</p>&mdash; Easlo (@heyeaslo) <a href="https://twitter.com/heyeaslo/status/1510074550008000516?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

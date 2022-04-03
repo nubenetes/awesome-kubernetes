@@ -61,6 +61,7 @@
 - [betterprogramming.pub: Sprint Planning: Best Practices](https://betterprogramming.pub/sprint-planning-best-practices-1aad4103f6cb)
 - [betterhumans.pub: 3 Productivity Tips I Learned Working at Google That You Should Already Be Using](https://betterhumans.pub/3-productivity-tips-i-learned-working-at-google-that-you-should-already-be-using-1bfb62356463)
 - [medium.com/@victor.ronin: The dark side of a cross-functional team](https://medium.com/@victor.ronin/the-dark-side-of-a-cross-functional-team-e0d379e37c70)
+- [alexander-goida.medium.com: Thoughts about breaking silos of software engineering teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)
 
 ### Spanish
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
@@ -84,6 +85,7 @@
 - [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://business.vogue.es/carrera/articulos/adios-jefes-toxicos-la-salud-organizacional-rentabilidad-residen-liderazgo-gentil/533) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://magnet.xataka.com/en-diez-minutos/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
 - [genbeta.com: Las reuniones laborales por videollamada nos agotan: esto es lo que pasa si se eliminan y cambian por chats](https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats)
+- [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa)
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
