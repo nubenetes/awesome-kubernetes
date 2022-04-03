@@ -71,6 +71,7 @@
 - [code.visualstudio.com: keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 	- [support.apple.com: Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 	- [9to5mac.com: How-To: Remap Windows keyboards to match the Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
+	- [addictivetips.com: How to remap a Windows keyboard for a Mac](https://www.addictivetips.com/mac-os/remap-a-windows-keyboard-for-a-mac/)
 - [code.visualstudio.com: keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Visual Studio MarketPlace and Extensions

@@ -207,6 +207,7 @@
 - [superfastpython.com: How to Identify a Deadlock in Python](https://superfastpython.com/thread-deadlock-in-python/)
 - [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) A Python developer’s guide to the optimal setup for collaboration, production readiness and time saving
 - [==towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker==](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9) An extendable Python library that generates fake data to “fill” your project
+- [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
