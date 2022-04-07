@@ -29,6 +29,7 @@
 - [==faun.pub: Manage Prometheus alerting and recording rules using GitOps==](https://faun.pub/manage-prometheus-alerting-and-recording-rules-using-gitops-6c19bd1fd50)
 - [medium.com/containers-101: Using GitOps, Multiple Argo Instances, and Environments with Argo CD at Scale](https://medium.com/containers-101/using-gitops-multiple-argo-instances-and-environments-with-argo-cd-at-scale-e6b19c86be36)
 - [blog.argoproj.io: Architecting Workflows For Reliability](https://blog.argoproj.io/architecting-workflows-for-reliability-d33bd720c6cc) Kubernetes is designed for stateless scalable web applications, apps where if one process dies, then another process can be dropped in its place. Kubernetes makes one promise — it will kill your pods. Kubernetes expects applications built on it to be tolerant of both any disruption— so apps must be designed with that in mind. 
+- [datree.io: ArgoCD Best Practices](https://datree.io/resources/argocd-best-practices-you-should-know)
     
     ```
     Dear user,
