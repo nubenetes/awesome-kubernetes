@@ -189,8 +189,6 @@
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Esta infografía que publicaba <a href="https://twitter.com/AurelioMedel?ref_src=twsrc%5Etfw">@AurelioMedel</a> en <a href="https://twitter.com/CincoDiascom?ref_src=twsrc%5Etfw">@CincoDiascom</a> es para reflexionar<br>-16 millones de nóminas en sector público<br>-16,5 millones de nóminas en sector privado<br>Este es nuestro retrato laboral en España👇 <a href="https://t.co/0jfPiC8Y8W">pic.twitter.com/0jfPiC8Y8W</a></p>&mdash; Lorenzo Amor (@lorenzoamor_ata) <a href="https://twitter.com/lorenzoamor_ata/status/1457107168356864009?ref_src=twsrc%5Etfw">November 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The best software engineer I&#39;ve ever worked with wasn&#39;t the best coder on the team.<br><br>But they were exceptional at:<br>🔹 Unambiguous communication<br>🔹 Simplifying; reducing complexity<br>🔹 Making the right tradeoffs<br>🔹 Building consensus</p>&mdash; Curtis Einsmann (@curtiseinsmann) <a href="https://twitter.com/curtiseinsmann/status/1482956604945227777?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are one bad manager away from hating your job. Don’t let a position at a company define you<br><br>Always invest in yourself<br><br>Keep learning new things<br>Keep meeting new people <br>Keep doing what you believe is right<br>Keep helping others</p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1487896112446853122?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -255,5 +253,6 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/bx3--22D4E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XRcYK94ipmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 
