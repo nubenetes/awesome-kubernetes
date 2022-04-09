@@ -58,6 +58,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/) 
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
 - [dzone.com/trendreports](https://dzone.com/trendreports)
+- [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

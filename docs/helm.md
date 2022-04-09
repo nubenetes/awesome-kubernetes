@@ -87,6 +87,9 @@
 * [medium.com/@paolo.gallina: How-to release Helm Charts maintaining your mental health 🌟](https://medium.com/@paolo.gallina/releasing-helm-charts-maintaining-your-mental-health-b382685390c8) Three tips for maintaining and developing Helm charts.
 * [devopslearners.com: How to Convert Helm Chart to Kubernetes YAML](https://devopslearners.com/how-to-convert-helm-chart-to-kubernetes-yaml-fbe6d6722f6)
 * [mlepeshkin.medium.com: Automated Kubernetes deployment with Helm and additional templating](https://mlepeshkin.medium.com/automated-kubernetes-deployment-with-helm-and-additional-templating-dc960689609f)
+* [==dev.to/francoislp: Post-mortem: 1h30 downtime on a Saturday morning==](https://dev.to/francoislp/post-mortem-1h30-downtime-on-a-saturday-morning-5af0) Read how 4 YAML lines brought down 3 APIs for 1h30 on a Saturday morning. In the end, the issue was a Helm chart misconfiguration where 2 settings were conflicting with each other.
+* [==blog.ediri.io: How To Unit Test Your Helm Charts==](https://blog.ediri.io/how-to-unit-test-your-helm-charts) With the help of helm-unittest and the AAA pattern
+* [==itnext.io: Reference Other Values in Helm Chart Values File==](https://itnext.io/reference-other-values-in-helm-chart-values-file-19d44d9276c7) Helm offers a template engine that allows you to merge configuration values into templates. This article introduces the **"tpl" function to evaluate strings as templates to have even more flexibility in your values.yaml**
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

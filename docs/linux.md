@@ -67,6 +67,7 @@
 
 ## Neovim
 - [neovim](https://neovim.io/) hyperextensible Vim-based text editor
+- [blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux](https://blog.ashwinchat.com/9-months-of-full-time-vim/)
 
 ## SSH 
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)

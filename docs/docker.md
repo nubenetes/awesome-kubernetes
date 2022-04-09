@@ -230,6 +230,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)
 * [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
 * [==geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners==](https://geshan.com.np/blog/2021/12/docker-postgres/)
+* [==codesolid.com: How To Use Docker and Docker Compose With Python==](https://codesolid.com/how-to-use-docker-with-python/)
 
 ## Moving Linux Services Into Containers
 * [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers/)

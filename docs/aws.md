@@ -79,6 +79,7 @@
 - [tech.twenix.com: Securiza tu infraestructura cloud sin arruinarte](https://tech.twenix.com/securiza-tu-infraestructura-cloud-sin-arruinarte-d9d2e2d5302c)
 - [==amazon.qwiklabs.com/catalog==](https://amazon.qwiklabs.com/catalog) **One of the best ways to learn AWS services is to use them. If you want to grow your skills this year check out these AWS quicklabs. Free and paid quests to get you started and gaining experience.**
 - [==freecodecamp.org/news/tag/aws==](https://www.freecodecamp.org/news/tag/aws/) Are you looking to get into cloud? Check out all the amazing free content available on freecodecamp under the AWS tag.
+- [==paigeshin1991.medium.com: Drop Nuclear Bomb on your AWS account. How to clear your entire AWS services in 3 seconds==](https://paigeshin1991.medium.com/drop-nuclear-bomb-on-your-aws-services-how-to-clear-your-entire-aws-account-in-3-seconds-53f28928e09c)
 
 ## AWS Application Services
 - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)

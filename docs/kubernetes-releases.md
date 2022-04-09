@@ -42,3 +42,4 @@
 * [==blog.runx.dev: Will That Kubernetes v1.22 Upgrade Break My Application?==](https://blog.runx.dev/will-that-kubernetes-v1-22-upgrade-break-my-application-cc339dc2e2c7)
 * Concerned about the Dockershim removal in the upcoming Kubernetes 1.24 release? We've updated the faq with additional info, migration guide links and more: http://k8s.io/dockershim
 * [kubernetes.io: Updated: Dockershim Removal FAQ](https://kubernetes.io/blog/2022/02/17/dockershim-faq/)
+* [==kubernetes.io: Kubernetes Release Cadence Change: Here’s What You Need To Know==](https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence/)

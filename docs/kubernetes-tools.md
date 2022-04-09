@@ -478,6 +478,10 @@
 * [keisku/kubectl-explore](https://github.com/keisku/kubectl-explore) A better kubectl explain with the fuzzy finder. This plugin fuzzy-find the field explanation from supported API resources. It implements different explanations for particular API version. kubectl-explore is a kubectl plugin to fuzzy-find and explain the field supported API resources like "pod.spec", "cronJob.spec.jobTemplate", etc.
 * [box/kube-exec-controller](https://github.com/box/kube-exec-controller) An admission controller service and kubectl plugin to handle container drift in K8s clusters. kube-exec-controller is an admission controller for handling container drift (caused by kubectl exec, attach, cp, or other interactive requests) inside a Kubernetes cluster. This project also includes a kubectl plugin for checking such Pods.
 * [==abahmed/kwatch==](https://github.com/abahmed/kwatch) 👀 monitor & detect crashes in your Kubernetes(K8s) cluster instantly. kwatch helps you monitor all changes in your Kubernetes cluster, detects crashes in your running apps in real-time, and publishes notifications to your channels (Slack, Discord, etc.) instantly.
+* [cuber-cloud/cuber-gem: CUBER](https://github.com/cuber-cloud/cuber-gem) An automation tool that simplify the deployment of your apps on Kubernetes.
+    * https://cuber.cloud/ 🌟
+* [==kubeops/config-syncer: Config Syncer (previously Kubed)==](https://github.com/kubeops/config-syncer) Kubernetes Config Syncer (previously kubed). **Config Syncer keeps ConfigMaps and Secrets synchronized across namespaces and/or clusters**
+* [eldadru/ksniff 🌟](https://github.com/eldadru/ksniff) Kubectl plugin to ease sniffing on kubernetes pods using tcpdump and wireshark
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -509,6 +513,7 @@
 - [learnsteps.com: Kaniko and how you can build images on Kubernetes using kaniko?](https://www.learnsteps.com/kaniko-and-how-you-can-build-images-on-kubernetes-using-kaniko/)
 - [kubesandclouds.com: Kaniko: Building images without Docker](https://kubesandclouds.com/index.php/2021/11/04/kaniko/)
 - [blog.rewanthtammana.com: Hardening Kaniko build process with Linux capabilities](https://blog.rewanthtammana.com/hardening-kaniko-build-process-with-linux-capabilities) Build images inside Kubernetes/containers? Wide privileges in default configuration? How to secure Kaniko? Can we take things a notch higher?
+- [medium.com/@Mohamed-ElEmam: Build Docker Images in Kubernetes POD Without Docker -Kaniko](https://medium.com/@Mohamed-ElEmam/build-docker-images-in-kubernetes-pod-without-docker-kaniko-46e1a5b76c9)
 
 ## Shipwright Framework for Building Container Images on Kubernetes
 - [shipwright.io](https://shipwright.io/)
@@ -701,7 +706,8 @@
 - [redhat.com: How to streamline application portfolio modernization with Tackle](https://www.redhat.com/architect/tackle-application-modernization) Tackle is an open source tool that helps organizations migrate and modernize their application portfolio to leverage Kubernetes without risk of vendor lock-in.
 
 ## Azure Placement Policy Scheduler Plugins
-- [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) Most of cloud environments today provides cluster admins with ephemeral nodes (VMs). These nodes typically cost significantly less but they offer less reliability than their regular counterpart. Cluster admins are often torn between the choice of cost and reliability because of the innate inability of the default Kubernetes scheduler to place some of a specific workload pods on these nodes. Having the entire workload on ephemeral nodes risks the reliability of the workload when the cloud environment stops these nodes. This scheduler enables cluster admins to offload some configurable percentage of their workloads on these nodes enabling them to decrease the cost of running these pods without affecting its reliability.
+- [Azure/placement-policy-scheduler-plugins](https://github.com/Azure/placement-policy-scheduler-plugins) This scheduler enables cluster admins to **offload some configurable percentage of their workloads to spot nodes** enabling them to decrease the cost of running these pods without affecting their reliability. 
+- Most of cloud environments today provides cluster admins with ephemeral nodes (VMs). These nodes typically cost significantly less but they offer less reliability than their regular counterpart. Cluster admins are often torn between the choice of cost and reliability because of the innate inability of the default Kubernetes scheduler to place some of a specific workload pods on these nodes. Having the entire workload on ephemeral nodes risks the reliability of the workload when the cloud environment stops these nodes. This scheduler enables cluster admins to offload some configurable percentage of their workloads on these nodes enabling them to decrease the cost of running these pods without affecting its reliability.
 
 ## Azure AAD Pod Identity
 - [Azure/aad-pod-identity)](https://github.com/Azure/aad-pod-identity) Assign Azure Active Directory Identities to Kubernetes applications.

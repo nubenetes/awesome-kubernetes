@@ -13,6 +13,7 @@
 - [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://codefresh.io/about-gitops/gitops-for-infrastructure-and-applications/)
 - [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452)
 - [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) And how can Crossplane Kubernetes Provider help
+- [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)
 
 ## Demo. YAML Your Cloud. Managing Cloud-Hosted Resources from Kubernetes
 - Very cool talk from @askmeegs and @shabirmean with an insightful look into the tools for managing cloud resources from Kubernetes. Great demonstration of @crossplane_io spanning your control plane across multiple clouds.

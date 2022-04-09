@@ -139,6 +139,9 @@
 - [==thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea==](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
 - [harness.io: GitOps: The New Kid On The DevOps Block!](https://harness.io/blog/devops/gitops-new-kid-devops-block) GitOps: the single source of truth, the evangelizer of as-code, and the bringer of CI/CD automation. Get an intro view into GitOps here!
 - [==Dzone: 3 Steps to Developing a Successful GitOps Model==](https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model) **In this post, explore how GitOps best serves organizations that develop cloud-native solutions based on containerization and microservices.**
+- [linkedin pulse: GitOps vs. DevOps! | Pavan Belagatti](https://www.linkedin.com/pulse/gitops-vs-devops-pavan-belagatti/)
+- [==containerjournal.com: GitOps Workflows and Principles for Kubernetes==](https://containerjournal.com/features/gitops-workflows-and-principles-for-kubernetes/)
+- [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://harness.io/blog/devops/6-gitops-best-practices/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)

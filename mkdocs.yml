@@ -301,6 +301,8 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/nubenetes
     - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA
+    - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars

@@ -362,9 +362,6 @@
     * [MetalLB](https://metallb.universe.tf/) in case you need a load balancer when running Kubernetes on-prem and not in a cloud
     * [external-secrets](https://github.com/external-secrets/kubernetes-external-secrets) to easily sync the secrets of your external secret manager with your Kubernetes cluster
     * [cert-manager 🌟](https://cert-manager.io/) to easily retrieve and/or generate new certificates on the fly
-        * [github.com/cert-manager](https://github.com/cert-manager)
-        * [github.com/cert-manager: Policy Approver](https://github.com/cert-manager/policy-approver) Policy Approver is a cert-manager approver that is responsible for Approving or Denying CertificateRequests.
-        * [jetstack.io: Getting started using cert-manager with the sig-network Gateway API](https://www.jetstack.io/blog/cert-manager-gateway-api-traefik-guide/)
     * [external-dns](https://github.com/kubernetes-sigs/external-dns) to manage your DNS entries automatically
 * [redhat.com: Building containers by hand: The PID namespace](https://www.redhat.com/sysadmin/pid-namespace) The PID namespace is an important one when it comes to building isolated environments. Find out why and how to use it.
 * [infoq.com: The Kubernetes Effect](https://www.infoq.com/articles/kubernetes-effect/)
@@ -590,6 +587,7 @@
 * [medium: Understanding PodSecurity in Kubernetes](https://medium.com/@orangecola3/understanding-podsecurity-in-kubernetes-e58a65102056)
 * [blog.searce.com: Single Pod Access Mode for Persistent Volumes on Kubernetes](https://blog.searce.com/single-pod-access-mode-for-persistent-volumes-on-kubernetes-4cf79200aa9a) This article will explore a new feature introduced by Kubernetes v1.22, a fourth access mode used for CSI volumes.
 * [thecloudblog.net: Kubernetes Container Lifecycle Events and Hooks](https://thecloudblog.net/lab/kubernetes-container-lifecycle-events-and-hooks/)
+* [shramikawale.medium.com: PodsDisruptionBudget: Why you will need in Kubernetes?](https://shramikawale.medium.com/podsdisruptionbudget-why-you-will-need-in-kubernetes-c939904d590d) **PodDisruptionBudget** is quite important if your team has an Service Level Agreement (SLA). Granted, it is not absolutely mandatory as we discussed before - if the cluster you manage has enough spare capacity in CPU/memory, the rollout can uneventfully finish without impacting the workload more often than not. Nevertheless, it is still a recommended approach to have control in the event of a voluntary disruption.
 
 #### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -1342,6 +1340,8 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also how I prepare for a major cluster upgrade <a href="https://t.co/ANY2cHH0CN">pic.twitter.com/ANY2cHH0CN</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1507039723709161490?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Container orchestration competition <a href="https://t.co/JPDu4BWhgZ">pic.twitter.com/JPDu4BWhgZ</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1508474276235599875?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Watching devs using Kubernetes <a href="https://t.co/uxGr2bP98c">pic.twitter.com/uxGr2bP98c</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1511011120517165064?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

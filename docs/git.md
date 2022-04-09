@@ -32,6 +32,7 @@
         - [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
 - [Gitea](#gitea)
 - [Git Tools](#git-tools)
+    - [Git Credential Manager](#git-credential-manager)
     - [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [Pre Commit Hooks](#pre-commit-hooks)
@@ -165,6 +166,11 @@
 * [freecodecamp.org: git config – How to Configure Git Settings to Improve Your Development Workflow](https://www.freecodecamp.org/news/git-config-how-to-configure-git-settings/)
 * [freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/)
 * [devconnected.com: How To Delete File on Git](https://devconnected.com/how-to-delete-file-on-git/)
+* [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names/)
+* [infoworld.com: What is Git? Version control for collaborative programming](https://www.infoworld.com/article/3654955/what-is-git-version-control-for-collaborative-programming.html)
+* [==dev.to: How Do I Resolve Merge Conflicts?==](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438)
+    * [==dev.to: How to Undo Pushed Commits with Git==](https://dev.to/github/how-to-undo-pushed-commits-with-git-2pe6)
+* [==opensource.com: My guide to understanding Git rebase -i==](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) The git rebase command is one of the most powerful in Git. It can rewrite your repository's commit history by rearranging, modifying, and even deleting commits.
 
 ## Git Aliases
 * [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) Use aliases to create shortcuts for your most-used or complex Git commands.
@@ -514,6 +520,11 @@ git push origin -f
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 * [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) Git extension for versioning large files
+
+### Git Credential Manager
+- [==Git Credential Manager==](https://github.com/GitCredentialManager/git-credential-manager) **Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.**
+- Git Credential Manager (GCM) is a secure Git credential helper built on .NET that runs on Windows, macOS, and Linux.
+- [github.blog: Git Credential Manager: authentication for everyone](https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/) Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.
 
 ### Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)
 * [semantic-release.gitbook.io 🌟](https://semantic-release.gitbook.io/semantic-release/) Semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.

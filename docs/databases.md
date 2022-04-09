@@ -96,6 +96,7 @@
 - [freecodecamp.org: SQL Join Types – Inner Join VS Outer Join Example](https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/)
 - [freecodecamp.org: The SQL Inner Join Command: Example Syntax](https://www.freecodecamp.org/news/the-sql-inner-join-command-example-syntax/)
 - [freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL](https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql/)
+- [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
 
 ### Alternatives to SQL
 - [infoworld.com: Beyond SQL: 8 new languages for data querying](https://www.infoworld.com/article/3654909/beyond-sql-8-new-languages-for-data-querying.html) SQL has dominated data querying for decades. Newer query languages offer more elegance, simplicity, and flexibility for modern use cases.

@@ -72,6 +72,7 @@
 - [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) Muchos profesionales están comenzando a reflexionar sobre lo que realmente les satisface del trabajo y a qué tipo de líderes están dispuestos a seguir, porque algunos jefes no saben valorar el talento de sus empleados.
 - [xataka.com: Me hice funcionario siendo ingeniero: qué me da la administración pública que no consigue la empresa privada](https://www.xataka.com/especiales/me-hice-funcionario-siendo-ingeniero-que-me-da-administracion-publica-que-no-consigue-empresa-privada)
 - [genbeta.com: Menos de la mitad de los programadores tienen títulos universitarios. Cada vez más desarrolladores aprenden por su cuenta](https://www.genbeta.com/desarrollo/mitad-programadores-tienen-titulos-universitarios-cada-vez-desarrolladores-aprenden-su-cuenta)
+- [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
@@ -219,6 +220,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation is happening.<br><br>What is your best advice to increase employee retention?</p>&mdash; Michael Girdley (@girdley) <a href="https://twitter.com/girdley/status/1506966301423464451?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation in tech is about three things: Fixing the comp by getting a new grant, finding a place that will actually utilize your potential, and an urgency to elevate off-work conditions.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1507383846471307265?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fron a software engineer:<br><br>&quot;Here&#39;s the real reason I started looking for a new job.<br><br>Build times.<br><br>I would spend 40-50 minutes waiting for XCode to complete a build, unable to do anything that time. Everyone told me it&#39;s just how it is. It was driving me crazy.&quot;<br><br>DevEx matters...</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1511579458909712385?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

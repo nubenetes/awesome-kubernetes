@@ -134,7 +134,7 @@
 * [medium: Container Fundamentals — Part 1](https://medium.com/techbeatly/container-fundamentals-part-i-445881a81b7)
 * [thenewstack.io: The Future of Microservices? More Abstractions](https://thenewstack.io/the-future-of-microservices-more-abstractions/)
 * [thenewstack.io: Transform and Future-Proof Your Architecture with MACH](https://thenewstack.io/transform-and-future-proof-your-architecture-with-mach/) Why Do So Many Companies Remain in These ‘Bad Marriages’ with Monolithic Vendors? Enter MACH (Microservices, API-first, Cloud native, Headless)
-* [yellow.systems: How to Make a Scalable Web Application: Architecture, Technologies, Cost](https://yellow.systems/blog/how-to-build-a-scalable-web-application)
+* [==yellow.systems: How to Make a Scalable Web Application: Architecture, Technologies, Cost== 🌟](https://yellow.systems/blog/how-to-build-a-scalable-web-application)
 * [opensource.com: What do we call post-modern system administrators?](https://opensource.com/article/21/7/system-administrators) Our community discusses the responsibilities, possible titles, and potential skills of today's sysadmins.
 * [thenewstack.io: Cloud Engineers Try Policy-as-Code to Cure Misconfiguration Woes](https://thenewstack.io/cloud-engineers-try-policy-as-code-to-cure-misconfiguration-woes/)
 * [dzone: The Origins of Technical Debt](https://dzone.com/articles/the-origins-of-technical-debt) According to research in the topic, 59% of business leaders in Norway said technical debt was their primary obstacle preventing them from innovating.
@@ -172,7 +172,6 @@
 * [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021/)
 * [zesty.co: 10 Cloud Deficiencies You Should Know](https://zesty.co/blog/10-cloud-deficiencies/)
 * [weave.works: What is a Kubernetes Cluster? 🌟](https://www.weave.works/blog/kubernetes-cluster)
-* [yellow.systems: How to Make a Scalable Web Application: Architecture, Technologies, Cost](https://yellow.systems/blog/how-to-build-a-scalable-web-application)
 * [==techrepublic.com: Enterprises get closer to the app store experience with Kubernetes and GitOps==](https://www.techrepublic.com/article/enterprises-get-closer-to-the-app-store-experience-with-kubernetes-and-gitops/)
 * [==Dzone: 22 Software Development Trends for 2022==](https://dzone.com/articles/22-software-development-trends-for-2022-1) AI, ML, IaC, SRE, DevSecOps, and many others will define how we make software in 2022. Discover what they mean and why they matter in this article.
 * [==redhat.com: 97 Things Every Cloud Engineer Should Know==](https://www.redhat.com/en/resources/oreilly-97things-cloud-engineers-should-know-ebook) If you create, manage, operate, or configure systems running in the cloud, you're a cloud engineer—even if you work as a system administrator, software developer, data scientist, or site reliability engineer. All of these topics are covered in this e-book: fundamentals, architecture, migration, security & compliance, operations & reliability, software development, cloud economics and measuring spend, automation, data, networking, organizational culture, and personal and professional development.
