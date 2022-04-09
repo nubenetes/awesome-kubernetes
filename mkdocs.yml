@@ -298,8 +298,8 @@ extra:
       link: https://twitter.com/nubenetes
     - icon: fontawesome/brands/github-alt
       link: https://github.com/nubenetes
-    - icon: fontawesome/brands/speaker-deck
-      link: https://speakerdeck.com/nubenetes/stars
+#    - icon: fontawesome/brands/speaker-deck
+#      link: https://speakerdeck.com/nubenetes/stars
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/redhatspain
     - icon: fontawesome/brands/linkedin
