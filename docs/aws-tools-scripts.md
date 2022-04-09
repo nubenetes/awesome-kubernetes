@@ -29,7 +29,7 @@
 - [==awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS==](https://github.com/awslabs/aws-cloudsaga) AWS CloudSaga is for customers to test security controls and alerts within their Amazon Web Services (AWS) environment, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 	- New Open Source tool alert! Introducing AWS CloudSaga, a open source tool for generating events within AWS to be investigated by blue teams & incident responders.
 	- AWS CloudSaga is based on basic scenarios related to security events. Using AWS CloudSaga, you can safely generate events via the AWS API, and then use these events to test your team's investigation capabilities and responses in order to identify gaps and areas of improvement.
-
+- [willdady/aws-resource-based-policy-collector: AWS resource-based policy collector](https://github.com/willdady/aws-resource-based-policy-collector) Utility for collecting resource-based policies from an AWS account
 
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)
@@ -58,6 +58,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
 - [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/)
 - [medium: AWS CLI with jq and Bash](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1) The CLI is utilitarian, but a little jq sauce makes it beautiful
+- [aws.plainenglish.io: Lessons Learned From Switching to AWS SDK v3](https://aws.plainenglish.io/lessons-learned-from-switching-to-aws-sdk-v3-6babe1530a59) Dive into some lessons learned before you switch your Node.js lambda functions over to the latest and greatest
 
 ## Third Party Tools
 - [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  

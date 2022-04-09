@@ -95,6 +95,7 @@
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [==bregman-arie/devops-resources== 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [andredesousa/devops-best-practices](https://github.com/andredesousa/devops-best-practices)
+- [MichaelCade/90DaysOfDevOps 🌟](https://github.com/MichaelCade/90DaysOfDevOps) This repository is my documenting repository for learning the world of DevOps. 
 
 ### DevSecOps
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)

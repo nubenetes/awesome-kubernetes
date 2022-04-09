@@ -44,6 +44,7 @@
 * [medium.com/geekculture: Common Pod Errors in Kubernetes to Watch Out For](https://medium.com/geekculture/common-pod-errors-in-kubernetes-to-watch-out-for-d808737f4ade)
 * [==faun.pub: Kubernetes — Debugging NetworkPolicy (Part 1)==](https://faun.pub/debugging-networkpolicy-part-1-249921cdba37) For something as important as NetworkPolicy, debugging is surprisingly painful. In this article you will learn a few practical tips on how to debug your network policies
     * [==pauldally.medium.com: Kubernetes — Debugging NetworkPolicy (Part 2)==](https://pauldally.medium.com/debugging-networkpolicy-part-2-2d5c42d8465c)
+* [tratnayake.dev: Oncall Adventures - When your Prometheus-Server mounted to GCE Persistent Disk on K8s is Full](https://tratnayake.dev/oncall-adventures-prometheus-filled-disk) In this article, you will follow Thilina's journey on debugging a failing Prometheus server on Kubernetes. The story starts with a wake-up call at 3.30 am 😅
 
 ## Debugging Techniques and Strategies. Debugging with ephemeral containers
 - [kubectl-debug](https://github.com/aylei/kubectl-debug)

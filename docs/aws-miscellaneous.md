@@ -111,6 +111,7 @@
 - [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
 - [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
+- [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
 
 ## AWS Cloud Endure
 - [AWS Cloud Endure Migration](https://aws.amazon.com/cloudendure-migration/)

@@ -513,6 +513,7 @@
 * [devopslearners.com: Different Container Runtimes and Configurations in the same Kubernetes Cluster](https://devopslearners.com/different-container-runtimes-and-configurations-in-the-same-kubernetes-cluster-fed228e1853e)
 * [itnext.io: Measuring Patching Cadence on Kubernetes with GitOps](https://itnext.io/measuring-patching-cadence-on-kubernetes-with-gitops-353bc4a1d25)
 * [thenewstack.io: The Rush to Fix the Kubernetes Failover Problem](https://thenewstack.io/the-rush-to-fix-the-kubernetes-failover-problem/)
+* [vidhitakher.medium.com: Understanding the Kubernetes cluster components](https://vidhitakher.medium.com/understanding-the-kubernetes-cluster-components-c57cd4af8570) Component-wise deep-dive into Kubernetes cluster architecture
 
 ### kubeconfig
 * [medium: Mastering the KUBECONFIG file](https://medium.com/@ahmetb/mastering-kubeconfig-4e447aa32c75)
@@ -858,6 +859,7 @@
 * [pionative.com: 6 Important things you need to run Kubernetes in production](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
 * [youtube: Common Kubernetes Mistakes - CPU and Memory Requests (part 1) | Robusta](https://www.youtube.com/watch?v=_nknHwTKlh8)
 * [medium.com/mycloudseries: Must-haves for your Kubernetes Cluster to be Production Ready](https://medium.com/mycloudseries/must-haves-for-your-kubernetes-cluster-to-be-production-ready-dc7d1d18c4a2)
+* [cloudogu.com: Kubernetes least privilege implementation using the Google Cloud as an axample](https://cloudogu.com/en/blog/kubernetes-least-privilege-gcp-example) How are you avoiding accidental changes to #kubernetes? This post describes what cloudogu do featuring "kubectl sudo", " helm sudo" and "sudo context".
 
 <center>
 [![k8s experts be like](images/k8sexpertsbelike.jfif){: style="width:50%"}](https://twitter.com/memenetes)
