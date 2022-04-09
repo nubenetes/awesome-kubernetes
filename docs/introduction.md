@@ -249,6 +249,7 @@
 - [==developers.redhat.com: 5 design principles for microservices==](https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices)
 - [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes==](https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes/) In this article, you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
 - [medium.com/@learncsdesign: Microservices Design Patterns](https://medium.com/@learncsdesign/microservices-design-patterns-91fe56a33a47)
+- [simform.com: Microservices Design Principles: Do We Really Know It Well Enough? 🌟](https://www.simform.com/blog/microservices-design-principles/) We are all well aware of microservices architecture, but do we know about its basic design principles and tenants that determine its implementation success? Read to find out more!
 
 ## Microservices Anti Patterns
 - [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns/)

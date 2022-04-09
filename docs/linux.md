@@ -219,6 +219,7 @@
 - [baeldung.com: Maximum Number of Threads Per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)
 - [opensource.com: Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema) 
 - [redhat.com: 5 scripts for getting started with the Nmap Scripting Engine](https://www.redhat.com/sysadmin/nmap-scripting-engine) The NSE boosts Nmap's power by adding scripting capabilities (custom or community-created) to the network scanning tool.
+- [redhat.com: Linux troubleshooting commands: 4 tools for DNS name resolution problems](https://www.redhat.com/sysadmin/DNS-name-resolution-troubleshooting-tools) Find out what's stopping you from accessing a server, printer, or another network resource with these four Linux troubleshooting commands.
 
 ## Guestfish
 - [Guestfish](https://libguestfs.org/guestfish.1.html)
