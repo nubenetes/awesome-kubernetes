@@ -1,5 +1,5 @@
 # Java and Java Programming Models. Open Source Microservices Frameworks
-- [Java](#java)
+- [Introduction](#introduction)
 	- [How to migrate Java workloads to containers](#how-to-migrate-java-workloads-to-containers)
 	- [Existing Java Implementations](#existing-java-implementations)
 		- [Which Version of JDK Should I Use?](#which-version-of-jdk-should-i-use)
@@ -33,7 +33,7 @@
 - [Project Helidon](#project-helidon)
 - [Videos](#videos)
 - [Tweets](#tweets)
-## Java
+## Introduction
 * [reddit.com/r/java](https://www.reddit.com/r/java)
 * [medium.com/@javachampions : Java is still free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)
 * [Oracle Java 11 and OpenJDK](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html)
