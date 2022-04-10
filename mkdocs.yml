@@ -308,5 +308,5 @@ extra:
       link: https://speakerdeck.com/redhatspain/stars
     - icon: fontawesome/brands/slideshare
       link: https://es.slideshare.net/RedHatSpain/favorites
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
+#    - icon: fontawesome/brands/youtube
+#      link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
