@@ -37,12 +37,13 @@
 * [dzone: Serverless Guide for Everyone](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 * [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 * [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
+* [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
 
 ### Microservices vs. Serverless. Kubernetes vs Serverless
 * [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless/)
 * [cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟](https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose/)
 * [economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless vs. Kubernetes when deploying microservices](https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms)
-* [acloudguru.com: Containers vs serverless: Which is right for you?](https://acloudguru.com/blog/engineering/containers-vs-serverless-which-is-right-for-you)
+* [acloudguru.com: Containers vs serverless: Which is right for you?](https://acloudguru.com/blog/engineering/containers-vs-serverless-which-is-right-for-you) Serverless is one of the hottest new cloud trends. However, I have found it leads to more harm than good in the long run. While I understand some of the problems listed above are not unique to serverless, they are much more prolific; leading engineers to spend most of their time with YAML configuration or troubleshooting function execution rather than crafting business logic. What I find odd is the lack of complaints from the community. If I’m alone in my assessment, I’d love to hear from you in the comments below. I’ve spent a significant amount of time over the last few years working to undo my own serverless mistakes as well as those made by other developers. Maybe I’m the one who has been brainwashed? Time will tell.
 
 ### Case Studies
 * [dashbird.io: Serverless Case Study – Coca-Cola](https://dashbird.io/blog/serverless-case-study-coca-cola/)

@@ -61,6 +61,7 @@
 * [dev.to/this-is-learning: Visual Studio Code - Tips & Tricks - Snippets](https://dev.to/this-is-learning/visual-studio-code-tips-tricks-snippets-5041)
 * [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
 * [pythonsimplified.com: How to SSH into EC2 from VS Code](https://pythonsimplified.com/how-to-ssh-into-ec2-from-vs-code/)
+* [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
 
 ## Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -289,5 +290,7 @@ A simple extension to make indentation more readable
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The brand new Visual Studio Code for the Web looks fantastic, and it&#39;s blazingly fast!<br><br>They say it is &quot;a zero-install experience running entirely in your browser.&quot; <br><br>Your local environment has its days counted.<a href="https://t.co/4XIKBANfxL">https://t.co/4XIKBANfxL</a> <a href="https://t.co/NElvgQq20F">pic.twitter.com/NElvgQq20F</a></p>&mdash; Santiago (@svpino) <a href="https://twitter.com/svpino/status/1458920285164425224?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sometimes I do a bit of coding on my laptop where I don&#39;t have GitHub Copilot installed - and it becomes VERY clear how super productive that tool is making me.<br><br>Without comparison the best addition to VSCode I&#39;ve tried!</p>&mdash; Simon Høiberg (@SimonHoiberg) <a href="https://twitter.com/SimonHoiberg/status/1462031896477634567?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;I joined a company which brands itself as a tech-first company. I was super excited.<br><br>As I was setting up my laptop, I noticed I have no admin rights. Turned out I needed to request permission to install anything. And my request for Visual Studio Code was rejected.&quot;<br><br>🤯</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1510851664399548417?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -208,6 +208,8 @@
 - [towardsdatascience.com: Fall in Love with Your Environment Setup](https://towardsdatascience.com/fall-in-love-with-your-environment-setup-779dfbf047ba) A Python developer’s guide to the optimal setup for collaboration, production readiness and time saving
 - [==towardsdatascience.com: You Don’t Need Sample Data, You Need Python Faker==](https://towardsdatascience.com/you-dont-need-sample-data-you-need-python-faker-fa87c2a119a9) An extendable Python library that generates fake data to “fill” your project
 - [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/)
+- [pub.towardsai.net: Python: Zero to Hero with Examples](https://pub.towardsai.net/python-zero-to-hero-with-examples-c7a5dedb968b) A handbook guide for python beginners
+- [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea) A quick setup for creating your first virtual machine. **Pyvcloud is a Python library for VCloud Director administration and all tasks which you can perform on vCloud Director can be done with this easy-to-use Pyvcloud!**
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -263,11 +265,12 @@
 - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)
 - [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)
 - [freecodecamp.org: How to Dockerize a Flask Application](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/)
+- [rajansahu713.medium.com: Hands-On Guide to Restful API using Flask Python](https://rajansahu713.medium.com/hands-on-guide-to-restful-api-using-flask-python-16270f866ffe)
 
 ## FastAPI
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)
 - [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) A step by step guide creating high performance APIs in Python
-- [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/)
+- [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/) This article aims to elevate one’s understanding of Flask Restful Framework from the initial concepts to advanced use-cases.
 
 ## Python pip and pip's wheel
 - [wheel replaces Python's eggs](https://wheel.readthedocs.org)

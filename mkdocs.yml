@@ -292,20 +292,21 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.  
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/redhatspain
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nubenetes
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/groups/1937212/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/nubenetes
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists
+#    - icon: fontawesome/brands/speaker-deck
+#      link: https://speakerdeck.com/nubenetes/stars
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/redhatspain
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/1937212/
     - icon: fontawesome/brands/speaker-deck
       link: https://speakerdeck.com/redhatspain/stars
-    - icon: fontawesome/brands/speaker-deck
-      link: https://speakerdeck.com/nubenetes/stars
     - icon: fontawesome/brands/slideshare
       link: https://es.slideshare.net/RedHatSpain/favorites
-
+#    - icon: fontawesome/brands/youtube
+#      link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists

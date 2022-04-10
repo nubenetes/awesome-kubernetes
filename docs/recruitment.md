@@ -52,6 +52,7 @@
 - [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs/) Amid a wave of resignations across industries, organizational leaders must identify ways to create better, more desirable jobs that will help them hang on to employees.
 - [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)
 - [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how/)
+- [4dayweek.medium.com: What does the work-life balance of a Software Engineer look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0) We compare the work-life balance of FAANG employees at Amazon, Google, Apple, Facebook and Microsoft comparing their vacation, remote work policy as well as openness to side projects.
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -72,6 +73,8 @@
 - [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) Muchos profesionales están comenzando a reflexionar sobre lo que realmente les satisface del trabajo y a qué tipo de líderes están dispuestos a seguir, porque algunos jefes no saben valorar el talento de sus empleados.
 - [xataka.com: Me hice funcionario siendo ingeniero: qué me da la administración pública que no consigue la empresa privada](https://www.xataka.com/especiales/me-hice-funcionario-siendo-ingeniero-que-me-da-administracion-publica-que-no-consigue-empresa-privada)
 - [genbeta.com: Menos de la mitad de los programadores tienen títulos universitarios. Cada vez más desarrolladores aprenden por su cuenta](https://www.genbeta.com/desarrollo/mitad-programadores-tienen-titulos-universitarios-cada-vez-desarrolladores-aprenden-su-cuenta)
+- [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar)
+- [xataka.com: Si no asciendo ni aprendo, me largo de la empresa: el crecimiento profesional como estrategia para retener talento](https://www.xataka.com/empresas-y-economia/no-asciendo-aprendo-me-largo-empresa-crecimiento-profesional-como-estrategia-para-retener-talento)
 
 ## Recruitment Portals
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
@@ -188,8 +191,6 @@
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Esta infografía que publicaba <a href="https://twitter.com/AurelioMedel?ref_src=twsrc%5Etfw">@AurelioMedel</a> en <a href="https://twitter.com/CincoDiascom?ref_src=twsrc%5Etfw">@CincoDiascom</a> es para reflexionar<br>-16 millones de nóminas en sector público<br>-16,5 millones de nóminas en sector privado<br>Este es nuestro retrato laboral en España👇 <a href="https://t.co/0jfPiC8Y8W">pic.twitter.com/0jfPiC8Y8W</a></p>&mdash; Lorenzo Amor (@lorenzoamor_ata) <a href="https://twitter.com/lorenzoamor_ata/status/1457107168356864009?ref_src=twsrc%5Etfw">November 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The best software engineer I&#39;ve ever worked with wasn&#39;t the best coder on the team.<br><br>But they were exceptional at:<br>🔹 Unambiguous communication<br>🔹 Simplifying; reducing complexity<br>🔹 Making the right tradeoffs<br>🔹 Building consensus</p>&mdash; Curtis Einsmann (@curtiseinsmann) <a href="https://twitter.com/curtiseinsmann/status/1482956604945227777?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are one bad manager away from hating your job. Don’t let a position at a company define you<br><br>Always invest in yourself<br><br>Keep learning new things<br>Keep meeting new people <br>Keep doing what you believe is right<br>Keep helping others</p>&mdash; Justin Garrison (@rothgar) <a href="https://twitter.com/rothgar/status/1487896112446853122?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -219,6 +220,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation is happening.<br><br>What is your best advice to increase employee retention?</p>&mdash; Michael Girdley (@girdley) <a href="https://twitter.com/girdley/status/1506966301423464451?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation in tech is about three things: Fixing the comp by getting a new grant, finding a place that will actually utilize your potential, and an urgency to elevate off-work conditions.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1507383846471307265?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fron a software engineer:<br><br>&quot;Here&#39;s the real reason I started looking for a new job.<br><br>Build times.<br><br>I would spend 40-50 minutes waiting for XCode to complete a build, unable to do anything that time. Everyone told me it&#39;s just how it is. It was driving me crazy.&quot;<br><br>DevEx matters...</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1511579458909712385?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -252,5 +255,6 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/bx3--22D4E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XRcYK94ipmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
 

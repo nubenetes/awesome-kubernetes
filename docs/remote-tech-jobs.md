@@ -6,8 +6,8 @@
 - [Tweets](#tweets)
 ## Introduction
 - [theatlantic.com: Why Managers Fear a Remote-Work Future](https://www.theatlantic.com/ideas/archive/2021/07/work-from-home-benefits/619597/) Like it or not, the way we work has already evolved.
-- [esquire.com: ](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/) ¿Por qué tu empresa no quiere que teletrabajes?
 - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary/) As remote seeps into our lives and jobs become borderless, a new problem arises: receiving your salary from a remote company abroad.
+- [ireviews.com: The Top 60 Remote Work Websites for New Opportunities in 2022](https://www.ireviews.com/the-top-60-remote-work-websites-for-new-opportunities-in-2022/)
 
 ## Remote Jobs
 - http://weworkremotely.com
@@ -28,9 +28,10 @@
 ## Kubernetes 
 - [kube.careers](https://kube.careers/) Hand-picked Kubernetes jobs
 ## Spain
+- [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/) 
+- [sincrogo.com: Teletrabajo desde España para el extranjero: ¿dónde hay que tributar?](https://sincrogo.com/blog/actualidad-fiscal-contable/teletrabajo-desde-espana-para-el-extranjero-donde-hay-que-tributar/)
 - https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 - https://bcneng.net
-- [sincrogo.com: Teletrabajo desde España para el extranjero: ¿dónde hay que tributar?](https://sincrogo.com/blog/actualidad-fiscal-contable/teletrabajo-desde-espana-para-el-extranjero-donde-hay-que-tributar/)
 
 ## Tweets
 <details>

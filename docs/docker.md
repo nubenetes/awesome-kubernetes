@@ -136,6 +136,7 @@
 * [nishnit007.medium.com: A Journey from Dockerfile to Application Deployment on Kubernetes For Beginners](https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581) 
 * [==stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images==](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/)
 * [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial/)
+* [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
@@ -230,6 +231,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)
 * [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
 * [==geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners==](https://geshan.com.np/blog/2021/12/docker-postgres/)
+* [==codesolid.com: How To Use Docker and Docker Compose With Python==](https://codesolid.com/how-to-use-docker-with-python/)
 
 ## Moving Linux Services Into Containers
 * [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers/)

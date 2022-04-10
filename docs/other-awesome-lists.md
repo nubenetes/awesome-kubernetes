@@ -69,6 +69,7 @@
 - [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco) A curated list of Falco related tools, frameworks and articles
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
 - [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles. 
+- [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
 
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
@@ -94,6 +95,7 @@
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [==bregman-arie/devops-resources== 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [andredesousa/devops-best-practices](https://github.com/andredesousa/devops-best-practices)
+- [MichaelCade/90DaysOfDevOps 🌟](https://github.com/MichaelCade/90DaysOfDevOps) This repository is my documenting repository for learning the world of DevOps. 
 
 ### DevSecOps
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)

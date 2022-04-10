@@ -32,6 +32,7 @@
 - [ASDF 🌟](https://asdf-vm.com/) Manage multiple runtime versions with a single CLI tool
 - [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools/)
 - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)
+- [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3)
 
 ## Keptn
 - [Keptn](keptn.md)

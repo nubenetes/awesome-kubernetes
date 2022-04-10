@@ -167,6 +167,11 @@
 - [==research.nccgroup.com: 10 real-world stories of how we’ve compromised CI/CD pipelines==](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
 - [thenewstack.io: SecOps in a Post-COVID World: 3 Security Trends to Watch](https://thenewstack.io/secops-in-a-post-covid-world-3-security-trends-to-watch/)
 - [==medium.com/microservices-learning: How to implement security for microservices==](https://medium.com/microservices-learning/how-to-implement-security-for-microservices-89b140d3e555)
+- [==kubernetes.io: Overview of Cloud Native Security==](https://kubernetes.io/docs/concepts/security/overview/) This overview defines a model for thinking about Kubernetes security in the context of Cloud Native security. **The 4C's of Cloud Native security:**
+	- Cloud
+	- Clusters
+	- Containers
+	- Code 
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -304,6 +309,7 @@
 - [appvia.io: Tutorial: Keyless Sign and Verify Your Container Images With Cosign](https://www.appvia.io/blog/tutorial-keyless-sign-and-verify-your-container-images)
 - [==github.blog: Safeguard your containers with new container signing capability in GitHub Actions (cosign)==](https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/)
 - [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) Proof of concept that uses cosign and GitHub's in built OIDC for actions to sign container images, providing a proof that what is in the registry came from your GitHub action.
+- [blog.chainguard.dev: How To Verify Cosigned Container Images In Amazon ECS](https://blog.chainguard.dev/cosign-verify-ecs/)
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
@@ -335,6 +341,7 @@
 - [openshift.com: Geographically Distributed Stateful Workloads - Part 3: Keycloak](https://www.openshift.com/blog/geographically-distributed-stateful-workloads-part-3-keycloak)
 - [blog.flant.com: Running fault-tolerant Keycloak with Infinispan in Kubernetes](https://blog.flant.com/ha-keycloak-infinispan-kubernetes/)
 - [baeldung.com: A Quick Guide to Using Keycloak with Spring Boot](https://www.baeldung.com/spring-boot-keycloak)
+- [==medium.com/@charled.breteche: Securing Grafana with Keycloak SSO==](https://medium.com/@charled.breteche/securing-grafana-with-keycloak-sso-d01fec05d984) In this article you will learn how to deploy and configure Keycloak in a local Kubernetes cluster, then deploy Grafana and use the Keycloak instance for authentication and authorization
 
 ### Git Credential Manager Core
 - [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) GCM Core is a free, open-source, cross-platform credential manager for Git.
@@ -418,6 +425,7 @@
 - [hashicorp.com: Integrating Azure AD Identity with HashiCorp Vault — Part 1: Azure Application Auth via OIDC](https://www.hashicorp.com/blog/integrating-azure-ad-identity-hashicorp-vault-part-1-application-auth-oidc)
 - [==medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S==](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)
 - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) In this post, you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
+- [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)

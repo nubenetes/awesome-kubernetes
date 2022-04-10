@@ -1,5 +1,6 @@
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 - [Git Distributed Version-Control System](#git-distributed-version-control-system)
+- [Git Branches](#git-branches)
 - [Git Aliases](#git-aliases)
 - [Git and GitHub Backup](#git-and-github-backup)
 - [Cherry-picking](#cherry-picking)
@@ -32,6 +33,7 @@
         - [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
 - [Gitea](#gitea)
 - [Git Tools](#git-tools)
+    - [Git Credential Manager](#git-credential-manager)
     - [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
 - [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
 - [Pre Commit Hooks](#pre-commit-hooks)
@@ -80,7 +82,6 @@
 * [github.blog: Highlights from Git 2.28](https://github.blog/2020-07-27-highlights-from-git-2-28/)
 * [codeburst.io: A Resource for all Things Git](https://codeburst.io/a-resource-for-all-things-git-b63d6626beca)
 * [Things You Want to Do in Git and How to Do Them](https://stu2b50.dev/posts/things-you-wante9665)
-* [learngitbranching.js.org: Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
 * [livecodestream.dev: Git Concepts and Workflow for Beginners](https://livecodestream.dev/post/2020-08-21-git-concepts-and-workflow-for-beginners/)
 * [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/syndication/2020/09/02/a-beginners-guide-to-the-most-popular-git-commands/)
 * [devroom.io: Git Squash your latests commits into one ](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
@@ -91,11 +92,8 @@
 * [github.blog: Commits are snapshots, not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/)
 * [github.blog: Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
 * [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/) 
-* [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch)
 * [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial/)
-* [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial/)
 * [freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
-* [freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟](https://www.freecodecamp.org/news/how-to-use-branches-in-git/)
 * [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6)
 * [blog.gitguardian.com: Rewriting your git history, removing files permanently - cheatsheet & guide](https://blog.gitguardian.com/rewriting-git-history-cheatsheet/)
 * [smashingmagazine.com: Getting The Most Out Of Git](https://www.smashingmagazine.com/2021/02/getting-the-most-out-of-git/)
@@ -107,11 +105,8 @@
 * [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) Git offers several ways you can quickly see which files changed in a commit.
 * [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
 * [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) Learn how to use the git stash command and when you should use it.
-* [stackoverflow.blog: A look under the hood: how branches work in Git](https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git/) Git branches allow you to keep different versions of your code cleanly separated. Here's a look at how they work and why you should know about them.
 * [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review/)
-* [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) Compare the pros and cons of four options to switch branches while working in Git.
 * [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
-* [freecodecamp.org: Git Push to Remote Branch – How to Push a Local Branch to Origin](https://www.freecodecamp.org/news/git-push-to-remote-branch-how-to-push-a-local-branch-to-origin/)
 * [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/) 
 * [blog.balasundar.com: Automate Git Operations Using Python](https://blog.balasundar.com/automate-git-operations-using-python) Automate your git operations using GitPython.
 * [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/13-git-commands-to-know-in-order)
@@ -121,7 +116,6 @@
 * [integratn.io: My Git Worktree Workflow](https://integratn.io/posts/my-git-worktree-workflow/)
 * [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://livecodestream.dev/post/five-advanced-git-concepts-that-make-you-look-like-a-pro/) Learn how to master GIT with these 5 advanced concepts
 * [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
-* [freecodecamp.org: How Git Branches Work](https://www.freecodecamp.org/news/how-git-branches-work/)
 * [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/)
 * [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
 * [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
@@ -134,9 +128,7 @@
 * [blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321)
 * [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356)
 * [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://blog.testproject.io/2021/09/23/git-101-from-scratch-the-ultimate-guide-for-qas)
-* [cloudsavvyit.com: How to Delete Git Branches on Local and Remote Repositories](https://www.cloudsavvyit.com/14289/how-to-delete-git-branches-on-local-and-remote-repositories/)
 * [freecodecamp.org: Git for Professionals – Free Version Control Course](https://www.freecodecamp.org/news/git-for-professionals/)
-* [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)
 * [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) Ever accidentally deleted files or necessary code? Or do you wish to look back at an older version of your code?
 * [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main/)
 * [css-tricks.com: Advanced Git series. 1 Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
@@ -151,20 +143,38 @@
 * [dev.to: How to become a Git expert! 🌟](https://dev.to/sagarbarapatre/how-to-become-a-git-expert-1jl2)
 * [c-sharpcorner.com: Top 15 Git Commands With Examples For Every Developers💪](https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-every-developers/)
 * [==cloudsavvyit.com: Should You Use HTTPS or SSH For Git?== 🌟](https://www.cloudsavvyit.com/14822/should-you-use-https-or-ssh-for-git/)
-* [cloudsavvyit.com: How to Move Changes to Another Branch in Git](https://www.cloudsavvyit.com/14710/how-to-move-changes-to-another-branch-in-git/)
 * [==marklodato.github.io: A Visual Git Reference== 🌟](https://marklodato.github.io/visual-git-guide/index-en.html)
 * [dev.to: Get lazy with lazygit](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37)
 * [levelup.gitconnected.com: Top 30 Git Commands You Should Know To Master Git CLI](https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc) Learn the most essential Git commands to boost your productivity, and become a master in managing the GitHub repositories.
 * [medium: Forking GitHub Repository with Git and VIM | Swain Dennis](https://medium.com/@swain.dennis1/forking-github-repository-with-git-and-vim-54288dff3801)
 * [==dev.to: 10 useful Git tips to improve your workflow== 🌟](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1)
 * [dev.to: Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
-* [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch/)
 * [betterprogramming.pub: How to Filter the Git Logs](https://betterprogramming.pub/how-to-filter-the-git-logs-2dcebf3d12) Practical examples of how you can filter the Git logs
-* [betterprogramming.pub: Leave Aside Git Checkout. Consider Git Switch for a Change](https://betterprogramming.pub/leave-aside-git-checkout-consider-git-switch-for-a-change-7849df8714b0) Switch between branches without checking out
 * [thenewstack.io: Development: Introduction to Git Logging](https://thenewstack.io/development-introduction-to-git-logging/)
 * [freecodecamp.org: git config – How to Configure Git Settings to Improve Your Development Workflow](https://www.freecodecamp.org/news/git-config-how-to-configure-git-settings/)
 * [freecodecamp.org: Git Undo Merge – How to Revert the Last Merge Commit in Git](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/)
 * [devconnected.com: How To Delete File on Git](https://devconnected.com/how-to-delete-file-on-git/)
+* [infoworld.com: What is Git? Version control for collaborative programming](https://www.infoworld.com/article/3654955/what-is-git-version-control-for-collaborative-programming.html)
+* [==dev.to: How Do I Resolve Merge Conflicts?==](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438)
+    * [==dev.to: How to Undo Pushed Commits with Git==](https://dev.to/github/how-to-undo-pushed-commits-with-git-2pe6)
+* [==opensource.com: My guide to understanding Git rebase -i==](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) The git rebase command is one of the most powerful in Git. It can rewrite your repository's commit history by rearranging, modifying, and even deleting commits.
+ 
+## Git Branches
+* [learngitbranching.js.org: Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
+* [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch)
+* [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial/)
+* [freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟](https://www.freecodecamp.org/news/how-to-use-branches-in-git/)
+* [stackoverflow.blog: A look under the hood: how branches work in Git](https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git/) Git branches allow you to keep different versions of your code cleanly separated. Here's a look at how they work and why you should know about them.
+* [opensource.com: 4 tips for context switching in Git](https://opensource.com/article/21/4/context-switching-git) Compare the pros and cons of four options to switch branches while working in Git.
+* [freecodecamp.org: Git Push to Remote Branch – How to Push a Local Branch to Origin](https://www.freecodecamp.org/news/git-push-to-remote-branch-how-to-push-a-local-branch-to-origin/)
+* [freecodecamp.org: How Git Branches Work](https://www.freecodecamp.org/news/how-git-branches-work/)
+* [cloudsavvyit.com: How to Delete Git Branches on Local and Remote Repositories](https://www.cloudsavvyit.com/14289/how-to-delete-git-branches-on-local-and-remote-repositories/)
+* [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)
+* [cloudsavvyit.com: How to Move Changes to Another Branch in Git](https://www.cloudsavvyit.com/14710/how-to-move-changes-to-another-branch-in-git/)
+* [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch/)
+* [betterprogramming.pub: Leave Aside Git Checkout. Consider Git Switch for a Change](https://betterprogramming.pub/leave-aside-git-checkout-consider-git-switch-for-a-change-7849df8714b0) Switch between branches without checking out
+* [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names/)
+* [opensource.com: Explaining Git branches with a LEGO analogy](https://opensource.com/article/22/4/git-branches)
 
 ## Git Aliases
 * [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) Use aliases to create shortcuts for your most-used or complex Git commands.
@@ -514,6 +524,11 @@ git push origin -f
 * [Visual Studio Code (Git Extensions)](visual-studio.md)
 * [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 * [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) Git extension for versioning large files
+
+### Git Credential Manager
+- [==Git Credential Manager==](https://github.com/GitCredentialManager/git-credential-manager) **Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.**
+- Git Credential Manager (GCM) is a secure Git credential helper built on .NET that runs on Windows, macOS, and Linux.
+- [github.blog: Git Credential Manager: authentication for everyone](https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/) Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.
 
 ### Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)
 * [semantic-release.gitbook.io 🌟](https://semantic-release.gitbook.io/semantic-release/) Semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.

@@ -251,6 +251,7 @@
 * [==simform.com: How to Implement DevOps for Enterprise?==](https://www.simform.com/blog/devops-for-enterprise/) This blog focuses on how to implement DevOps for enterprise-level organizations.
 * [calcalistech.com: “DevOps is a culture, it's not a job description”](https://www.calcalistech.com/ctechnews/article/s1mlpunf9)
 * [reviewnprep.com: DevOps Basics](https://reviewnprep.com/blog/devops-basics/)
+* [==dev.to: How I learn new technologies as a DevOps Engineer (without being overwhelmed 👏) | TechWorld with Nana==](https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e)
 
 <center>
 
@@ -396,6 +397,7 @@ Resolve your software incidents 10x faster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CyvqXqGyq_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uTEL8Ff1Zvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R74bm8IGu2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cthla7KqU04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

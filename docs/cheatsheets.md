@@ -246,6 +246,7 @@
 * [dev.to: Git Cheat Sheet 📄 (50 commands + Free PDF and poster)](https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn)
 * [enlear.academy: 20 Git Commands Every Developer Should Know](https://enlear.academy/26-git-command-i-use-all-the-time-cheatsheet-6c5682ded2af) 20 Git Command I Use All The Time — Git CheatSheet
 * [freecodecamp.org: Git Cheat Sheet – 50 Git Commands You Should Know](https://www.freecodecamp.org/news/git-cheat-sheet/)
+* [==opensource.com: 10 Git tips we can't live without==](https://opensource.com/article/22/4/git-tips) Opensource.com community members share their favorite Git tips for saving time or preventing mistakes.
 
 ### Git Flow Cheat Sheets
 * [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)

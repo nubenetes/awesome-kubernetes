@@ -110,6 +110,8 @@
 * [==devopslearners.com: Kubernetes Ingress Tutorial For Beginners==](https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc) - https://devopscube.com/kubernetes-ingress-tutorial
 * [devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes](https://devopscube.com/configure-ingress-tls-kubernetes/)
 * [armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg](https://www.armosec.io/blog/kubernetes-ingress-beginners-guide/)
+* [==itnext.io: Kubernetes Service Type LB for On Prem Deployments==](https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c)
+* [==medium.com/techbeatly: Kubernetes Networking Fundamentals==](https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8)
 
 ## NetworkPolicy
 - [opensource.com: What you need to know about Kubernetes NetworkPolicy](https://opensource.com/article/21/10/kubernetes-networkpolicy) Understanding Kubernetes NetworkPolicy is one of the fundamental requirements to learn before deploying an application to Kubernetes.

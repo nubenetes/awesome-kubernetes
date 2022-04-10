@@ -246,6 +246,8 @@
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Los sabotajes también perjudican y mucho a otros profesionales, que a marchas forzadas tenemos que recuperar los sistemas críticos heredados al retomar un proyecto de gente descontenta que sale. Falta ética profesional y buenas prácticas.</p>&mdash; nubenetes (@nubenetes) <a href="https://twitter.com/nubenetes/status/1491466103150817282?ref_src=twsrc%5Etfw">February 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> we glorify hustle culture and working long hours far too much. Tell me a story of the laziest thing thing you&#39;ve ever done to advance your career.</p>&mdash; Jem Young (@JemYoung) <a href="https://twitter.com/JemYoung/status/1501310036341100548?ref_src=twsrc%5Etfw">March 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nothing wrong with being a solo-founder because 65% of startups fail due to cofounder conflicts.</p>&mdash; Andrew Gazdecki (@agazdecki) <a href="https://twitter.com/agazdecki/status/1510799737187811330?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
