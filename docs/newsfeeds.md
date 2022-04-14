@@ -40,6 +40,7 @@
 * [paper.li: The kubernetes daily](https://paper.li/skippbox/1446802542#/)
 * [feedly.com](https://feedly.com)
 * [==nativecloud.dev== 🌟](https://nativecloud.dev)
+* [Kube Events](https://kube.events)
 
 ## Stack Overflow Collectives
 - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives) Communities for your favorite technologies
