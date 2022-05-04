@@ -62,6 +62,8 @@
 * [dev.to/jcofman: Make VS Code better by editing and updating some settings](https://dev.to/jcofman/make-vs-code-better-by-editing-and-updating-some-settings-4m9a)
 * [pythonsimplified.com: How to SSH into EC2 from VS Code](https://pythonsimplified.com/how-to-ssh-into-ec2-from-vs-code/)
 * [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
+* [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) Use PlantUML directly in the Visual Studio Code
+* [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/)
 
 ## Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

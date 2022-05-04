@@ -53,6 +53,7 @@
 - [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)
 - [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how/)
 - [4dayweek.medium.com: What does the work-life balance of a Software Engineer look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0) We compare the work-life balance of FAANG employees at Amazon, Google, Apple, Facebook and Microsoft comparing their vacation, remote work policy as well as openness to side projects.
+- [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd)
 
 ## Articles in Spanish
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
@@ -222,6 +223,10 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Great Resignation in tech is about three things: Fixing the comp by getting a new grant, finding a place that will actually utilize your potential, and an urgency to elevate off-work conditions.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1507383846471307265?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fron a software engineer:<br><br>&quot;Here&#39;s the real reason I started looking for a new job.<br><br>Build times.<br><br>I would spend 40-50 minutes waiting for XCode to complete a build, unable to do anything that time. Everyone told me it&#39;s just how it is. It was driving me crazy.&quot;<br><br>DevEx matters...</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1511579458909712385?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What many sw engineers don&#39;t realize:<br><br>The majority of jobs do not hire you to write the highest quality code or produce the cleanest architecture.<br><br>They hire you to solve their business problems very efficiently. Sometimes this means high-quality code. Sometimes not at all.</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1513162635520495623?ref_src=twsrc%5Etfw">April 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Big company tip, before you change roles, ask when the last re-org was.</p>&mdash; David Fowler 🇧🇧🇺🇸 (@davidfowl) <a href="https://twitter.com/davidfowl/status/1514311073247105029?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

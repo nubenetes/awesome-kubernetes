@@ -11,7 +11,6 @@
 - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)
 - [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) ==Use crossplane and provision new EKS/AKS/GKE clusters declaratively and have them continuously managed for you.==
 - [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://codefresh.io/about-gitops/gitops-for-infrastructure-and-applications/)
-- [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452)
 - [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) And how can Crossplane Kubernetes Provider help
 - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)
 - [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) In this article, we are going to learn how to automate the provisioning of cloud resources via Crossplane and combine it with GitOps practices.

@@ -20,6 +20,7 @@
     - [Powershell repos](#powershell-repos)
     - [Crescendo powershell module](#crescendo-powershell-module)
     - [Secrets Management with Powershell](#secrets-management-with-powershell)
+- [Azure CLI. AZ CLI](#azure-cli-az-cli)
 - [Azure Run Command](#azure-run-command)
 - [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
 - [Azure Bicep](#azure-bicep)
@@ -237,6 +238,9 @@
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore
 - [networkadm.in: Video Intro to Secret Management with Powershell](https://www.networkadm.in/video-intro-to-secret-management-with-powershell/)
 
+## Azure CLI. AZ CLI
+- [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli/)
+
 ## Azure Run Command
 - [mandiant.com: Azure Run Command for Dummies](https://www.mandiant.com/resources/azure-run-command-dummies)
 - [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/run-command)
@@ -258,6 +262,7 @@
 
 ## Azure Security
 - [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-implement-security-best-practices/ba-p/2269914)
+- [==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook==](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) **This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.**
 
 ## WinGet Windows Package Manager CLI
 - [WinGet: Welcome to the Windows Package Manager Client (aka winget.exe) repository](https://github.com/microsoft/winget-cli/) Windows Package Manager CLI (aka winget)

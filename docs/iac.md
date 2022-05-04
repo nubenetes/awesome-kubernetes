@@ -21,6 +21,7 @@
 - [==alpacked.io: Infrastructure as Code in DevOps== 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops/) Key driving force of efficient application delivery.
 - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)
 - [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/)
+- [thenewstack.io: Infrastructure-as-Code: Increase Security, Scale Development](https://thenewstack.io/infrastructure-as-code-increase-security-scale-development/)
 
 ## Local Environment as Code
 - [thenewstack.io: Local Environment-as-Code: Is It Possible Yet?](https://thenewstack.io/local-environment-as-code-is-it-possible-yet/)

@@ -30,6 +30,7 @@
 - [==dashbird.io: [Infographic] AWS RDS from a Serverless perspective==](https://dashbird.io/blog/aws-relational-database-rds/)
 - [==Auditing for highly regulated industries using Amazon Aurora PostgreSQL==](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql/)
 - [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved Write Performance & Faster Failover](https://aws.amazon.com/blogs/aws/amazon-rds-multi-az-db-cluster/)
+- [Amazon Aurora PostgreSQL blue/green deployment using fast database cloning](https://aws.amazon.com/blogs/database/amazon-aurora-postgresql-blue-green-deployment-using-fast-database-cloning/)
 
 ## AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/blogs/aws/aws-database-migration-service/)

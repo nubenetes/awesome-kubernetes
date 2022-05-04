@@ -89,7 +89,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [==inder-devops.medium.com: On-premise to cloud migration mock drills using Istio== 🌟](https://inder-devops.medium.com/on-premise-to-cloud-migration-mock-drills-using-istio-ea89aee5ea38) Part 1 of a series of articles about cloud migration. Application workload migration from one kubernetes cluster to another using Istio. This article explains an approach that makes use of service mesh capability to migrate entire platform from onpremise to cloud or cluster to cluster migration.
 - [baeldung.com: Service Mesh Architecture with Istio](https://www.baeldung.com/ops/istio-service-mesh)
 - [chrishaessig.medium.com: Multi cluster setup with istio](https://chrishaessig.medium.com/multi-cluster-setup-with-istio-c1c6437f4e8c)
-- [elastisys.com: Istio and OAuth2-Proxy in Kubernetes for microservice authentication](https://elastisys.com/istio-and-oauth2-proxy-in-kubernetes-for-microservice-authentication/)
+- [==elastisys.com: Istio and OAuth2-Proxy in Kubernetes for microservice authentication==](https://elastisys.com/istio-and-oauth2-proxy-in-kubernetes-for-microservice-authentication/)
 - [medium.com/@sumudu_liyan: How To Install Istio On Kubernetes Cluster](https://medium.com/@sumudu_liyan/how-to-install-istio-on-kubernetes-cluster-e831c12381b)
 - [engineering.mercari.com: Dynamic Service Routing using Istio](https://engineering.mercari.com/en/blog/entry/20220218-dynamic-service-routing-using-istio/) With Dynamic Service Routing you can route traffic between different versions of each microservice dynamically. Learn how you can do so with Kubernetes and Istio in this article
 

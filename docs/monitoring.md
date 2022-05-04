@@ -107,6 +107,7 @@
 * [==cncf.io: How to add observability to your application pipeline==](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline/)
 * [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f) 
 * [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check/)
+* [medium.com/buildpiper: Observability for Monitoring Microservices — Top 5 Ways!](https://medium.com/buildpiper/observability-for-monitoring-microservices-top-5-ways-587871e726d0) Knowing what’s running inside the container, how the application and code are performing is critical for tackling important issues. Discussed here are some important Microservices monitoring tools and approaches. Take a look!
 
 ### Key Performance Indicator (KPI)
 * [KPIs](https://kpi.org/KPI-Basics)

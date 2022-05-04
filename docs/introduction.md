@@ -30,6 +30,7 @@
 - [Career Path](#career-path)
 - [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
 - [Software Development Models](#software-development-models)
+- [Domain Driven Design DDD](#domain-driven-design-ddd)
 - [Software Development Tools](#software-development-tools)
 - [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
 - [Software in Automotive Industry](#software-in-automotive-industry)
@@ -348,6 +349,15 @@
 ## Software Development Models
 - [dzone: 7 Software Development Models You Should Know](https://dzone.com/articles/7-software-development-models-you-should-know) Software Development Models are integral to the success (or failure) of a project. Here are 7 models you should know, from Waterfall to the V-Model to Scrum.
 
+## Domain Driven Design DDD
+- [==dzone: The Concept of Domain-Driven Design Explained==](https://dzone.com/articles/the-concept-of-domain-driven-design-explained) In this article, we define the core concepts around domain-driven design, explain them, and highlight the advantages and downsides of the approach. 
+  - Using microservices means creating applications from loosely coupling services. The application consists of several small services, each representing a separate business goal. They can be developed and easily maintained individually, after what they are joint in a complex application. 
+  - **Microservices is an architecture design model with a specific bounded context, configuration, and dependencies. These result from the architectural principles of the domain-driven design and DevOps. Domain-driven design is the idea of solving problems of the organization through code.**
+  - **The business goal is important to the business users, with a clear interface and functions. This way, the microservice can run independently from other microservices. Moreover, the team can also work on it independently, which is, in fact, the point of the microservice architecture.**
+  - Many developers claim microservices have made them more efficient. This is due to the ability to work in small teams. This allows them to develop different small parts that will later be merged as a large app.
+  - They spend less time coordinating with other developers and more time on developing the actual code. Eventually, this creates more value for the end-user.
+- [medium.com/codex: DDD — Events Are Complex](https://medium.com/codex/ddd-events-are-complex-db4b1fb57817) **Why do Events matter so much in Domain-Driven Design?**
+
 ## Software Development Tools
 - [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive/)
 - [sloboda-studio.com: Python Tools for Machine Learning](https://sloboda-studio.com/blog/python-tools-for-machine-learning/)
@@ -420,5 +430,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💫 Cloud Knowledge 101<br><br>☁️ Public vs. Private vs. Hybrid Cloud ☁️<br><br>A quick comparison of these concepts 🧵👇</p>&mdash; Simon ☁️ (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1442170013226438660?ref_src=twsrc%5Etfw">September 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are the differences between Virtualization (VMware) and Containerization (Docker)?<br><br>The diagram below illustrates the layered architecture of virtualization and containerization. <a href="https://t.co/3zgsUNnfXe">pic.twitter.com/3zgsUNnfXe</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1512453102380908546?ref_src=twsrc%5Etfw">April 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do microservices collaborate and interact with each other?<br><br>There are two ways: 𝐨𝐫𝐜𝐡𝐞𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 and 𝐜𝐡𝐨𝐫𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲.<br><br>The diagram below illustrates the collaboration of microservices. <a href="https://t.co/Qp94Zi5Mrq">pic.twitter.com/Qp94Zi5Mrq</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1513907291237494788?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

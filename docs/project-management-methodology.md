@@ -217,6 +217,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enterprise SaaS MVP trap .. <a href="https://t.co/CNXkHzFOnn">pic.twitter.com/CNXkHzFOnn</a></p>&mdash; John Cutler (@johncutlefish) <a href="https://twitter.com/johncutlefish/status/1452048722917871620?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"> <a href="https://t.co/r5qyaOWFXP">pic.twitter.com/r5qyaOWFXP</a></p>&mdash; Pukar (@PukarDesign) <a href="https://twitter.com/PukarDesign/status/1452141978167267332?ref_src=twsrc%5Etfw">October 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The hardest part of any project is finishing the last 10%.<br><br>The solution to this is quitting when the project is 90% complete and finding a new job.</p>&mdash; JackForge.x (@TheJackForge) <a href="https://twitter.com/TheJackForge/status/1514353370089197571?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

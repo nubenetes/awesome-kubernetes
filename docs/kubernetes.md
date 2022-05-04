@@ -183,6 +183,11 @@
 * [==opensource.com: A guide to Kubernetes architecture==](https://opensource.com/article/22/2/kubernetes-architecture) Learn how the different components of Kubernetes architecture fit together so you can be better equipped to diagnose problems, maintain a healthy cluster, and optimize your own workflow.
 * [medium.com/@olivier.gaumond: Why am I able to bind a privileged port in my container without the NET_BIND_SERVICE capability?](https://medium.com/@olivier.gaumond/why-am-i-able-to-bind-a-privileged-port-in-my-container-without-the-net-bind-service-capability-60972a4d5496)
 * [==kubesphere.io: Kubernetes High Availability Essential Practices Simply Explained==](https://kubesphere.io/blogs/k8s-ha-practices/)
+* [ecem.dev: Kubernetes Basics, Core Components & Yaml Files](https://ecem.dev/kubernetes-basics-core-components-yaml-files-2a11841eb72a)
+* [medium.com/netcracker: Version Control of Configuration Files Using Kubernetes](https://medium.com/netcracker/version-control-of-configuration-files-using-kubernetes-21673766203)
+    * If your applications have configuration files, following situation must be familiar to you: you develop an application, and then you create a configuration file and document it. After a while, you need to add some settings as the old ones do not meet all the requirements and, in general, it is better to change the structure.
+    * What to do? If you do not change the configuration format, over time, it will turn into a bunch of things that “we need to deal with for historical reasons”. And if you change it… In this case, you always need to check if the configuration files are compatible with the product version you are installing for the customer. The operation team, customers, and many others will not really like this. 
+    * These problems can be solved by multi-version configurations. Borrowing them from the Kubernetes, we have developed and applied them. Now let’s discuss how it works.
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
@@ -589,6 +594,7 @@
 * [blog.searce.com: Single Pod Access Mode for Persistent Volumes on Kubernetes](https://blog.searce.com/single-pod-access-mode-for-persistent-volumes-on-kubernetes-4cf79200aa9a) This article will explore a new feature introduced by Kubernetes v1.22, a fourth access mode used for CSI volumes.
 * [thecloudblog.net: Kubernetes Container Lifecycle Events and Hooks](https://thecloudblog.net/lab/kubernetes-container-lifecycle-events-and-hooks/)
 * [shramikawale.medium.com: PodsDisruptionBudget: Why you will need in Kubernetes?](https://shramikawale.medium.com/podsdisruptionbudget-why-you-will-need-in-kubernetes-c939904d590d) **PodDisruptionBudget** is quite important if your team has an Service Level Agreement (SLA). Granted, it is not absolutely mandatory as we discussed before - if the cluster you manage has enough spare capacity in CPU/memory, the rollout can uneventfully finish without impacting the workload more often than not. Nevertheless, it is still a recommended approach to have control in the event of a voluntary disruption.
+* [==bytes.devopscube.com: Kubernetes Pod Priority & Preemption==](https://bytes.devopscube.com/p/pod-priority-preemption-explained?s=r) **Pod priority is a Kubernetes scheduling feature that allows Kubernetes to make scheduling decisions comparing other pods based on priority number. To assign a pod a certain priority, you need a priority class.**
 
 #### Kubernetes ConfigMaps
 * [medium: ConfigMaps in Kubernetes: how they work and what you should remember 🌟](https://medium.com/flant-com/configmaps-in-kubernetes-f9f6d0081dcb)
@@ -749,7 +755,7 @@
     - CRUD operations on resources with cURL
     - And more!
 
-- [iximiuz.com: Working with Kubernetes API](https://iximiuz.com/en/series/working-with-kubernetes-api/)
+- [==iximiuz.com: Working with Kubernetes API==](https://iximiuz.com/en/series/working-with-kubernetes-api/) If you are working in Go with the Kubernetes API, these articles are pure gold. Get the full difference between resources and kinds.
 
 #### Multi-Cluster Services API
 - [thenewstack.io: Extending Kubernetes Services with Multi-Cluster Services API](https://thenewstack.io/extending-kubernetes-services-with-multi-cluster-services-api/)
@@ -1131,11 +1137,12 @@
 - [itnext.io: Embracing failures and cutting infrastructure costs: Spot instances in Kubernetes](https://itnext.io/embracing-failures-and-cutting-infrastructure-costs-spot-instances-in-kubernetes-6976781beacc)
 
 ## Kubernetes on Windows
-- [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://loft.sh/blog/kubernetes-on-windows-6-life-saving-tools-and-tips/)
+- [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://loft.sh/blog/kubernetes-on-windows-6-life-saving-tools-and-tips/) Kubernetes is primarily a Linux technology, so it's fairly straightforward to run it on different Linux distros. But what about the developers working on Windows who need to run Kubernetes locally?
 
 ## Kubernetes Incident Report Plan IRP
 - [cynet.com: Incident Report Plan (IRP)](https://www.cynet.com/incident-response/incident-response-plan/)
 - [kubermatic.com: A Framework for Kubernetes Incident Response](https://www.kubermatic.com/blog/a-framework-for-kubernetes-incident-response/)
+- [medium.com/@cloud_tips: Kubernetes Incident Response](https://medium.com/@cloud_tips/kubernetes-incident-response-94daac6d7a2b) Incident response is one of the most important aspects of running a Kubernetes deployment. A well-defined incident response plan can help you quickly identify and mitigate issues with your Kubernetes deployment.
 
 ## Kubernetes Certifications. CKA, CKAD and CKS
 - [cncf.io: Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/)

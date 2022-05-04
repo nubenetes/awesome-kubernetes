@@ -181,6 +181,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [AWS Monitoring](aws-monitoring.md)
     - [AWS IaC](aws-iac.md)
     - [AWS Tools Scripts](aws-tools-scripts.md)
+    - [AWS Messaging](aws-messaging.md)
     - [AWS Data](aws-data.md)
     - [AWS DevOps](aws-devops.md)
     - [AWS Serverless](aws-serverless.md)
@@ -203,7 +204,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
 - [Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
-- [API Test Automation with Postman](postman.md)
+- [API Test Automation with Postman and REST Assured](postman.md)
 - [API Marketplaces. API Management with API Gateways & Developer Portals 🌟](developerportals.md)
 ## Development & Frameworks
 - [Websites for web developers](devel-sites.md)
@@ -212,6 +213,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Golang](golang.md)
 - [JavaScript - node.js & npm](javascript.md)
 - [Python - Django & Flask](python.md)
+- [React](react.md)
 - [Low Code and No Code](lowcode-nocode.md)
 - [Web3](web3.md)
 ### Microsoft

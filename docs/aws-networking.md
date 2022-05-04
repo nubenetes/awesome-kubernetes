@@ -7,8 +7,8 @@
 - [NGINX](#nginx)
 - [AWS Latency](#aws-latency)
 - [AWS VPC](#aws-vpc)
-    - [AWS Client VPN](#aws-client-vpn)
-    - [Tailscale](#tailscale)
+	- [AWS Client VPN](#aws-client-vpn)
+	- [Tailscale](#tailscale)
 - [AWS CloudFront](#aws-cloudfront)
 - [AWS API Gateway](#aws-api-gateway)
 
@@ -69,6 +69,7 @@
 - [Reduce Cost and Increase Security with Amazon VPC Endpoints](https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints/)
 - [ealtili.medium.com: Deepdive to VPCs and Connections to VPC](https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c)
 - [Centralize access using VPC interface endpoints to access AWS services across multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+- [==betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group Using T2.micro Instances==](https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b) **Maintain a self-healing architecture**
 
 ### AWS Client VPN
 - [cloudonaut.io: AWS Client VPN: Connected with the Cloud](https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud/)

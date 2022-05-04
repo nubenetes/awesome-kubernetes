@@ -37,6 +37,7 @@
 	* [sm43.medium.com: Tekton: Triggering the Pipeline (Part 5)](https://sm43.medium.com/tekton-triggering-the-pipeline-part-5-dc38d73411fb)
 * [==piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton==](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton/)
 * [anadimisra.com: On Demand CI/CD with Serverless Tekton](https://www.anadimisra.com/post/on-demand-ci-cd-with-serverless-tekton) In this article, you will learn how to run Tekton with Terraform and EKS Fargate to build a serverless CI/CD platform
+* [==hashnode.com: Tekton CI simplified==](https://hashnode.com/post/tekton-ci-simplified-ckzleauyw0n6beks1diq6ejvv) Complete guide to getting started with Tekton. In this blog, you will learn how to get started with Tekton and build a real-world pipeline for a containerized NodeJS application.
 
 ## Videos
 <details>

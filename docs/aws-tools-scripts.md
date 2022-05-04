@@ -32,6 +32,7 @@
 - [willdady/aws-resource-based-policy-collector: AWS resource-based policy collector](https://github.com/willdady/aws-resource-based-policy-collector) Utility for collecting resource-based policies from an AWS account
 - [ermetic/access-undenied-aws 🌟](https://github.com/ermetic/access-undenied-aws) Ermetic is launching a new open-source tool: Access Undenied on AWS. The tool parses AWS AccessDenied CloudTrail events, explains the reasons for them and offers actionable fixes.
 	- [ermetic.com: Access Undenied on AWS](https://ermetic.com/blog/aws/access-undenied-on-aws/) 
+- [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site) A tool to help handle AWS Session connections on terminals, using your configured AWS Shared Config and Credentials files. It manages Roles to Assume, MFA Token requests, AWS SSO Sign-in, AWS SSO Tokens and the expiration of opened sessions.
 
 ## AWS Toolkits  
 - [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code/)

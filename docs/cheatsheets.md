@@ -204,6 +204,7 @@
 	- `59 * * * * docker volume prune -f`
 
 - [linuxhandbook.com: Docker Commands for Managing Container Lifecycle (Definitive Guide)](https://linuxhandbook.com/container-lifecycle-docker-commands/)
+- [betterprogramming.pub: A Beginners’ Cheat Sheet for Docker | Arjav Dave](https://betterprogramming.pub/a-beginners-cheat-sheet-for-docker-f5024fd6c17f) Get to know what is docker and how to use it
 
 ### Docker Swarm Cheat Sheets
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
@@ -338,6 +339,7 @@
 
 ## Helm Cheat Sheets
 * [Helm Cheat Sheet](https://gist.github.com/tuannvm/4e1bcc993f683ee275ed36e67c30ac49)
+* [faun.pub: Helm Command Cheat Sheet | By M. Sharma](https://faun.pub/helm-command-cheat-sheet-by-m-sharma-488706ecf131) This cheat sheet covers all important Helm operations and provides examples to help you understand its syntax and features
 
 ## Maven Cheat Sheets
 * [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)

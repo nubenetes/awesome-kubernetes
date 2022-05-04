@@ -89,6 +89,8 @@
 - [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://loft.sh/blog/kubernetes-on-windows-6-life-saving-tools-and-tips) Kubernetes is primarily a Linux technology, so it's fairly straightforward to run it on different Linux distros. But what about the developers working on Windows who need to run Kubernetes locally?
 - [infoworld.com: 15 tools that make Kubernetes easier](https://www.infoworld.com/article/3488817/15-tools-that-make-kubernetes-easier.html) Take advantage of these Kubernetes companions to improve monitoring, command-line ops, multi-cluster management, and more.
 - [youtube: 10 Must-Have Kubernetes Tools | DevOps Toolkit](https://www.youtube.com/watch?v=CB79eTFbR0w&feature=youtu.be&ab_channel=DevOpsToolkit)
+- [medium.com/container-talks: 7 Tools To Make Kubernetes Management Easy](https://medium.com/container-talks/7-tools-to-make-kubernetes-management-easy-ba8238e6ce8d)
+- [opensource.com: 5 open source tools for developing on the cloud](https://opensource.com/article/22/4/open-source-tools-developing-cloud) Here are a few IDEs that can improve your programming experience while using multiple cloud service providers.
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -687,6 +689,7 @@
 ## Testkube
 - [kubeshop/testkube](https://github.com/kubeshop/testkube) Kubernetes-native framework for test definition and execution
 - [thenewstack.io: TestKube: A New Approach to Cloud Native Testing](https://thenewstack.io/testkube-a-new-approach-to-cloud-native-testing/)
+- [thenewstack.io: Testkube: A Cloud Native Testing Framework for Kubernetes](https://thenewstack.io/testkube-cloud-native-testing-framework-for-kubernetes/)
 
 ## KuberLogic
 - [kuberlogic](https://github.com/kuberlogic/kuberlogic) Kuberlogic is an open-source product that deploys and manages software on top of the Kubernetes cluster and turns infrastructure into a managed PaaS. KuberLogic is that allows running managed databases and popular applications deploying on-premises or at any cloud. The solution provides API, monitoring, backups, and integration with SSO right out of the box

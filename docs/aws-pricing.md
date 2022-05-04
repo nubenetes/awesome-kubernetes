@@ -18,6 +18,7 @@
 - [blog.cloud-mercato.com: AWS m6i: The why you should abandon your m5](https://blog.cloud-mercato.com/aws-m6i-the-why-you-should-abandon-your-m5/)
 - [aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases)
 - [==cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check==](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check/)
+- [AWS Announces Data Transfer Price Reduction for AWS PrivateLink, AWS Transit Gateway, and AWS Client VPN services](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-data-transfer-price-reduction-privatelink-transit-gateway-client-vpn-services/?nc1=h_ls)
 
 ## AWS Calculator
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws/)

@@ -12,6 +12,8 @@
 	- [RPC API Protocol (Remote Procedure Call)](#rpc-api-protocol-remote-procedure-call)
 		- [gRPC](#grpc)
 	- [Asynchronous APIs](#asynchronous-apis)
+		- [WebSockets](#websockets)
+		- [Socket.io](#socketio)
 		- [AsyncAPI](#asyncapi)
 - [Comparisons](#comparisons)
 	- [SOAP vs REST](#soap-vs-rest)
@@ -50,7 +52,6 @@
 - [rapidapi.com: API vs Microservices [What’s the Difference?]](https://rapidapi.com/blog/api-vs-microservices-whats-the-differences/)
 - [snipcart.com: API vs. Microservices: A Beginners Guide to Understand Them 🌟](https://snipcart.com/blog/api-vs-microservices-architecture)
 - [youtube: Local CRUD API Express App with Docker in 5 min](https://www.youtube.com/watch?v=UxZiDZsQoZI&ab_channel=TinyStacks)
-- [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a)
 - [freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
 - [dzone: API Throttling Strategies When Clients Exceed Their Limit](https://dzone.com/articles/api-throttling-strategies) Here's how to handle clients exceeding API rate limits, as well as a few alternate strategies to explore and implement.
 - [abdulrwahab.medium.com: API Architecture — Design Best Practices for REST APIs](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f)
@@ -59,6 +60,7 @@
 - [troyhunt.com: Your API versioning is wrong, which is why I decided to do it 3 different wrong ways](https://www.troyhunt.com/your-api-versioning-is-wrong-which-is/)
 - [infoq.com: A Standardized, Specification-Driven API Lifecycle](https://www.infoq.com/articles/Standardized-Specification-Driven-API-Lifecycle/)
 - [levelup.gitconnected.com: What’s Wrong With Your CRUD APIs— Besides Everything?](https://levelup.gitconnected.com/whats-wrong-with-your-crudy-interfaces-besides-everything-bde4f4c8cb8a) So… I heard you worship CRUDy REST interfaces.
+- [==dzone: Exploring the API-First Design Pattern==](https://dzone.com/articles/exploring-the-api-first-design-pattern) Learn how the API-first design pattern is a carbon copy of the successful writing approach that John Vester has leveraged for several years.
 
 ## Python FastAPI
 - [writersbyte.com: Introduction to APIs with Python FastAPI](https://writersbyte.com/introduction-to-apis-with-python-fastapi/)
@@ -118,6 +120,20 @@
 - [==gendocu.com: RPC API Developer Portal==](https://gendocu.com/)
 
 ### Asynchronous APIs 
+#### WebSockets
+- [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+- [The State of Real-Time Web in 2016](https://banksco.de/p/state-of-realtime-web-2016.html)
+- [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html)
+- [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets) Welcome to another installment of You May Not Need Another Library For That (YMNNALFT)! 
+- [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) Understand the important attributes of WebSockets that every developer should know
+- [==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and Performance==](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab) With the big push to use Step Functions over Lambda, you might be wondering “which is more cost-effective”? The answer might surprise you.
+    - There are use cases for both, but the consensus for production development lives with a hybrid approach: performing a base set of actions synchronously, like validations and id creation **and kicking off the rest of the processing asynchronously**. You’d then [use a WebSocket](https://betterprogramming.pub/introduction-to-aws-websockets-8b336a92c379) to inform the user when the workflow is complete.
+- [==grafana.com: How to use WebSockets to visualize real-time IoT data in Grafana==](https://grafana.com/blog/2022/04/05/how-to-use-websockets-to-visualize-real-time-iot-data-in-grafana/)
+
+#### Socket.io
+- [Socket.io](https://socket.io)
+- [itnext.io: Differences between WebSockets and Socket.IO](https://itnext.io/differences-between-websockets-and-socket-io-a9e5fa29d3dc)
+
 #### AsyncAPI
 - [AsyncAPI](https://www.asyncapi.com/) Building the future of event-driven architecture. Open source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
 - [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/)
@@ -126,6 +142,7 @@
 - [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907)
 - [levelup.gitconnected.com: Truth About { SOAP vs REST vs GRPC vs GraphQL } Checklist](https://levelup.gitconnected.com/truth-about-soap-vs-rest-vs-grpc-vs-graphql-checklist-f50bcb475adf)
 - [medium: REST, RPC, GraphQL… What to choose?](https://medium.com/geekculture/rest-rpc-graphql-what-to-choose-c57c78c0593d) API protocols comparison from the practical straightpoint
+- [blog.logrocket.com: GraphQL vs. gRPC vs. REST: Choosing the right API](https://blog.logrocket.com/graphql-vs-grpc-vs-rest-choosing-right-api/)
 ### SOAP vs REST
 - [geeksforgeeks.org: Difference between REST API and SOAP API](https://www.geeksforgeeks.org/difference-between-rest-api-and-soap-api/)
 - [dzone: A Comprehensive Guide to REST vs. SOAP](https://dzone.com/articles/comprehensive-guide-rest-vs-soap) Learn the primary differences between REST and SOAP APIs, each one's benefits, and when it's appropriate to use the two.
@@ -166,6 +183,7 @@
 - [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb)
 - [world.hey.com: Another REST vs GraphQL comparison](https://world.hey.com/sammy.henningsson/another-rest-vs-graphql-comparison-8e8357bb)
 - [dzone: A Schema Architecture for Microservices](https://dzone.com/articles/a-schema-architecture-for-microservices)
+- [medium.datadriveninvestor.com: Everything You Wanted to Know About GraphQL (But Were Afraid to Ask)](https://medium.datadriveninvestor.com/everything-you-wanted-to-know-about-graphql-but-were-afraid-to-ask-ad66980116cb) API’s are Everywhere now. So, modern developers need an efficient Query Language, GraphQL. Learn everything about this query language used by Twitter, Facebook, Github, Shopify, Pinterest and thousands more. 
 
 #### Hasura
 - [Hasura 🌟](https://hasura.io/) Instant realtime GraphQL APIs for all your data
@@ -195,7 +213,6 @@
 
 ## API Ops
 - [thenewstack.io: How Platform Ops Teams Should Think About API Strategy](https://thenewstack.io/how-platform-ops-teams-should-think-about-api-strategy/) **Platform Ops Is API Ops**
-
 ## Related
 - [medium: Do I Need an API Gateway if I Use a Service Mesh? 🌟](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
 * [Dzone: How to Create a REST API With Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)

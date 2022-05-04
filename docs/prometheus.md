@@ -128,6 +128,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
     * [==infracloud.io: Prometheus Definitive Guide Part III - Prometheus Operator==](https://www.infracloud.io/blogs/prometheus-operator-helm-guide/)
 * [jonbc.medium.com: Hacking your way to Observability — Part 1 : Metrics](https://jonbc.medium.com/hacking-your-way-to-observability-part-1-cf4cd42fb4dc) Starting your journey in observability by gathering metrics with Prometheus
     * [jonbc.medium.com: Hacking your way to Observability — Part 2 : Alerts](https://jonbc.medium.com/hacking-your-way-to-observability-part-2-c38baaee6b92) Taking advantage of metrics by sending notifications via Slack
+* [==medium.com/gumgum-tech: How to reduce your Prometheus cost | Daniel Fernandez==](https://medium.com/gumgum-tech/how-to-reduce-your-prometheus-cost-6c7cc685e347) Prometheus is an excellent service to monitor your containerized applications. Still, it can get expensive quickly if you ingest all of the Kube-state-metrics metrics, and you are probably not even using them all. This is especially true when using a service like Amazon Managed Service for Prometheus (AMP) because you get billed by metrics ingested and stored.
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
@@ -267,6 +268,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 * https://github.com/cyrille-leclerc/opentelemetry-maven-extension Maven extension to observe Maven builds as distributed traces using OpenTelemetry
 * https://github.com/equinix-labs/otel-cli OpenTelemetry command-line tool for sending events from shell scripts & similar environments
 * https://github.com/ansible-collections/community.general/pull/3091 Send distributed traces for the ansible runs with OpenTelemetry
+* [medium.com/@tathagatapaul7: OpenTelemetry in Kubernetes: Deploying your Collector and Metrics Backend](https://medium.com/@tathagatapaul7/opentelemetry-in-kubernetes-deploying-your-collector-and-metrics-backend-b8ec86ac4a43) OpenTelemetry is a great way to instrument your applications to provide metrics in a vendor-agnostic way to any observability backend. But lots of people face issues while deploying it on Kubernetes. For me, I had the knowledge of how Kubernetes works, but I had trouble deploying the collector or at times instrumenting my application. The resources on the internet are a bit scattered and it requires a lot of time to go through them. There is a lack of resources that can show you a concrete implementation of OpenTelemetry in Kubernetes from start to finish (or some of them are very cleverly hidden). So I decided to write this blog to demonstrate a very simple implementation of how to deploy a collector to collect metrics and then export the data to various backends for observability. In another blog, I will show how an application in GoLang can be instrumented to expose metrics.
 
 #### Telegraf Collector
 * [Telegraf Collector](https://www.influxdata.com/time-series-platform/telegraf/)

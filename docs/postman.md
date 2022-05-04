@@ -37,3 +37,4 @@
 ## Alternatives. Rest Assured
 - https://rest-assured.io 
 - [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io)
+- [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide/) REST Assured is a Java library that makes it easy to test RESTful web services. It provides a simple DSL (domain-specific language) for describing the desired behavior of RESTful web service and automatically verifies the results. REST Assured can be used for both automated and manual testing. It has been designed to work with popular open-source automation frameworks such as Selenium, Cucumber, and Spock. REST Assured is particularly well suited for API testing, but it can also be used for testing other types of web services. REST Assured is open source, released under the Apache License 2.0.

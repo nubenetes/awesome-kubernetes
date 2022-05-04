@@ -241,6 +241,7 @@
 	- Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications in any environment. With a single management console that lets you operate clusters running anywhere, in the public cloud, on the edge or in any hybrid scenario. Strong multi-tenancy can accelerate app delivery by providing developers with self-serve isolated workload namespaces across environments.
 	- With Weave GitOps Enterprise, every change is recorded in Git – whether it's a change to application code or platform config and whoever was responsible. So you have a self-generating audit trail available at all times, and far fewer...
 - [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes ](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes/)
+- [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity/)
 
 ## GitOps Frameworks
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.

@@ -67,6 +67,8 @@
     * [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
 * [23andMe/Yamale](https://github.com/23andMe/Yamale) A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.
 * [==instrumenta/kubeval==](https://github.com/instrumenta/kubeval) Validate your Kubernetes configuration files, supports multiple Kubernetes versions. 
+* [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)
+* [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k)
 
 ### Kubernetes examples
 - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.

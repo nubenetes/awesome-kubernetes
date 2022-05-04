@@ -37,6 +37,7 @@
 * [itnext.io: How to tackle Kubernetes observability challenges with Pixie](https://itnext.io/how-to-tackle-kubernetes-observability-challenges-with-pixie-4c6414ca913)
 * [medium.com/@lucapompei91: Kubernetes observability](https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6) 
 * [==dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana, Prometheus and Loki==](https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc)
+* [hitesh-pattanayak.medium.com: Observability in Kubernetes](https://hitesh-pattanayak.medium.com/observability-in-kubernetes-b53d6ea1b37d)
 
 ## Kubernetes Logging 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)

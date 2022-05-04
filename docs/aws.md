@@ -7,10 +7,9 @@
 
 - [Introduction](#introduction)
 - [AWS Application Services](#aws-application-services)
-- [AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service](#aws-sns-and-sqs-amazon-simple-notification-service-and-amazon-simple-queue-service)
-	- [SNS vs SQS](#sns-vs-sqs)
 - [Blogs](#blogs)
 - [AWS Free Resources](#aws-free-resources)
+- [Containers on AWS](#containers-on-aws)
 - [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
 - [AWS on Twitter](#aws-on-twitter)
 - [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
@@ -84,17 +83,6 @@
 ## AWS Application Services
 - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)
 
-## AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service
-- [dev.to: Getting started with SNS and SQS](https://dev.to/aws-builders/getting-started-with-sns-and-sqs-3m4i)
-- [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
-- [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs/)
-- The **Simple Notification Service**, or SNS for short, is one of the central services to build serverless architectures in the AWS cloud. SNS itself is a serverless messaging service that can distribute massive numbers of messages to different recipients. These include mobile end-user devices, like smartphones and tablets, but also other services inside the AWS ecosystem.
-- SNS’ ability to target AWS services makes it the perfect companion for AWS Lambda. If you need custom logic, go for Lambda; if you need to fan out messages to multiple other services in parallel, SNS is the place to be. 
-- [dashbird.io: [Infographic] AWS SNS from a serverless perspective](https://dashbird.io/blog/aws-sns/)
-
-### SNS vs SQS
-- [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)
-
 ## Blogs
 - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com/)
 - [aws.plainenglish.io](https://aws.plainenglish.io/)
@@ -116,6 +104,9 @@
 You can filter by topic using the toolbar above.
 - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
 - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
+
+## Containers on AWS
+- [==vladionescu.me: Scaling containers on AWS in 2022 (comparison)==](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022/)
 
 ## AWS Startup Collection. For startups building on AWS
 - [bitmovin: Improving Video Quality on the Web](https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334)
@@ -237,5 +228,7 @@ You can filter by topic using the toolbar above.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My personal holy grail of database solutions: 𝗗𝘆𝗻𝗮𝗺𝗼𝗗𝗕 ⚡️ <br><br>Sadly, I couldn&#39;t fit all the features &amp; must-knows into a single infographic.<br>There are just too many 💛 <a href="https://t.co/UkLcvH19Cp">pic.twitter.com/UkLcvH19Cp</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1493958661391233026?ref_src=twsrc%5Etfw">February 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today we announced the completion of 16 <a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> Local Zones in the US and plans for 32 more to be built globally. Local Zones offer ultra-low latency at the edge of the cloud—awesome for gaming, streaming, ML, more!<a href="https://t.co/CFHmBI8zrK">https://t.co/CFHmBI8zrK</a></p>&mdash; Adam Selipsky (@aselipsky) <a href="https://twitter.com/aselipsky/status/1494144808083886082?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What&#39;s the fastest way to scale containers on AWS in 2022? <br><br>Is EKS faster than ECS? What&#39;s faster: serverless workers (Fargate) or to serverful workers (EC2)?<br>What about App Runner and Lambda?<br><br>Now we know: <a href="https://t.co/R82caY9nmn">https://t.co/R82caY9nmn</a></p>&mdash; Vlad Ionescu (he/him) (@iamvlaaaaaaad) <a href="https://twitter.com/iamvlaaaaaaad/status/1514234438527643656?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

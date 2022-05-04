@@ -43,3 +43,6 @@
 * Concerned about the Dockershim removal in the upcoming Kubernetes 1.24 release? We've updated the faq with additional info, migration guide links and more: http://k8s.io/dockershim
 * [kubernetes.io: Updated: Dockershim Removal FAQ](https://kubernetes.io/blog/2022/02/17/dockershim-faq/)
 * [==kubernetes.io: Kubernetes Release Cadence Change: Here’s What You Need To Know==](https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence/)
+* [aws.amazon.com: Amazon EKS now supports Kubernetes 1.22](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22/)
+* [blog.aquasec.com: Kubernetes Version 1.23: What's New for Security? ](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
+* [sysdig.com: Kubernetes 1.24 – What’s new?](https://sysdig.com/blog/kubernetes-1-24-whats-new/)

@@ -305,6 +305,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b) An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team
 - [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://www.conduktor.io/kafka) Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
 - [developers.redhat.com: Which is better: A single Kafka cluster to rule them all, or many?](https://developers.redhat.com/articles/2022/03/10/which-better-single-kafka-cluster-rule-them-all-or-many#)
+- [medium.com/dna-technology: Why we dropped event sourcing with Kafka Streams when given a second chance](https://medium.com/dna-technology/why-we-dropped-event-sourcing-with-kafka-streams-when-given-a-second-chance-b904a80bc4be)
 
 #### Kafka Tools
 - [Kafdrop – Kafka Web UI 🌟](https://github.com/obsidiandynamics/kafdrop)

@@ -1,5 +1,6 @@
 # Serverless Architectures and Frameworks
 - [Serverless Architectures](#serverless-architectures)
+	- [Governance](#governance)
 	- [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
 	- [Case Studies](#case-studies)
 	- [FaaS: Function as a Service](#faas-function-as-a-service)
@@ -38,6 +39,9 @@
 * [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 * [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
 * [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
+
+### Governance
+- [betterprogramming.pub: Going Serverless? Governance Is Everything](https://betterprogramming.pub/going-serverless-governance-is-everything-c70589c9cee9) When deciding to go serverless, you need to put up some guardrails to protect yourself. If you don’t, you might find yourself in a hole you can’t get out of
 
 ### Microservices vs. Serverless. Kubernetes vs Serverless
 * [fathomtech.io: Microservices vs. Serverless](https://fathomtech.io/blog/microservices-vs-serverless/)

@@ -202,6 +202,7 @@ nav:
       - AWS Monitoring: aws-monitoring.md
       - AWS IaC: aws-iac.md
       - AWS Tools Scripts: aws-tools-scripts.md
+      - AWS Messaging: aws-messaging.md
       - AWS Data: aws-data.md
       - AWS DevOps: aws-devops.md
       - AWS Serverless: aws-serverless.md
@@ -221,7 +222,7 @@ nav:
   - APIs:
     - APIs with SOAP, REST and gRPC: api.md
     - Swagger code generator for REST APIs: swagger-code-generator-for-rest-apis.md
-    - API Test Automation with Postman: postman.md
+    - API Test Automation with Postman and REST Assured: postman.md
     - API Marketplaces. API Management with API Gateways & Developer Portals : developerportals.md
   - Dev:
     - Websites for web developers: devel-sites.md
@@ -230,6 +231,7 @@ nav:
     - Golang: golang.md
     - JavaScript - node.js & npm: javascript.md
     - Python - Django & Flask: python.md
+    - React: react.md
     - Low Code and No Code: lowcode-nocode.md
     - Web 3: web3.md
     - Microsoft:
@@ -293,7 +295,7 @@ extra:
       make our documentation better.  
   social:
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists
+      link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nubenetes
     - icon: fontawesome/brands/github-alt
@@ -306,9 +308,3 @@ extra:
       link: https://twitter.com/redhatspain
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/groups/1937212/
-#    - icon: fontawesome/brands/speaker-deck
-#      link: https://speakerdeck.com/redhatspain/stars
-#    - icon: fontawesome/brands/slideshare
-#      link: https://es.slideshare.net/RedHatSpain/favorites
-#    - icon: fontawesome/brands/youtube
-#      link: https://www.youtube.com/channel/UCCGQ2G2rGAkHzVFhhed-xVw/playlists

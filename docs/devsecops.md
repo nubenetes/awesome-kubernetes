@@ -30,6 +30,7 @@
 	- [keycloak](#keycloak)
 	- [Git Credential Manager Core](#git-credential-manager-core)
 - [Secrets Management](#secrets-management)
+	- [Anti Patterns. Wrong Secrets](#anti-patterns-wrong-secrets)
 	- [AWS Secret Manager](#aws-secret-manager)
 	- [Password Hashing](#password-hashing)
 	- [Store private data in git repo](#store-private-data-in-git-repo)
@@ -369,6 +370,9 @@
 - [developers.redhat.com: Protect secrets in Git with the clean/smudge filter](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter)
 - [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) Cloud Secret Resolvers is a set of tools to help your applications (on Kubernetes) to retrieve any credentials from cloud managed vaults without the needed to write additional boilerplate code in your applications!.
 
+### Anti Patterns. Wrong Secrets
+- [==commjoen/wrongsecrets: OWASP WrongSecrets==](https://github.com/commjoen/wrongsecrets) Examples with how to not use secrets. Welcome to the OWASP WrongSecrets p0wnable app. With this app, we have packed various ways of how to not store your secrets. These can help you to realize whether your secret management is ok. The challenge is to find all the different secrets by means of various tools and techniques.
+
 ### AWS Secret Manager
 - [medium: AWS Secret Manager: Protect sensitive information and functionality 🌟](https://medium.com/avmconsulting-blog/aws-secret-manager-protect-sensitive-information-and-functionality-f520e15293f4) Protect Your Secrets in ApplicationsSecrets are frequently used to protect sensitive information and functionality.
 - [blog.opstree.com: AWS Secret Manager](https://blog.opstree.com/2021/11/16/aws-secret-manager/)
@@ -426,6 +430,7 @@
 - [==medium.com/@pratyush.mathur: Secrets Management Using Vault in K8S==](https://medium.com/@pratyush.mathur/secrets-management-using-vault-in-k8s-272462c37fd8)
 - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) In this post, you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
 - [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
+- [==hashicorp.com: How to Integrate Your Application with Vault: Static Secrets==](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets) Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)

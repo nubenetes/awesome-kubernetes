@@ -21,6 +21,7 @@
 - [towardsdatascience.com: Schemafull streaming data processing in ML pipelines](https://towardsdatascience.com/using-kafka-with-avro-in-python-da85b3e0f966) Making containerized Python streaming data pipelines leverage schemas for data validation using Kafka with AVRO and Schema Registry
 - [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines/) 
 - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb) A fast and simple approach to serve your model as an API
+- [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)
 
 ## Kubeflow
 - [kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes

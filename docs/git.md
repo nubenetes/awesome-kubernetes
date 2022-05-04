@@ -158,6 +158,9 @@
 * [==dev.to: How Do I Resolve Merge Conflicts?==](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438)
     * [==dev.to: How to Undo Pushed Commits with Git==](https://dev.to/github/how-to-undo-pushed-commits-with-git-2pe6)
 * [==opensource.com: My guide to understanding Git rebase -i==](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) The git rebase command is one of the most powerful in Git. It can rewrite your repository's commit history by rearranging, modifying, and even deleting commits.
+* [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) Understand the usage and impact of this popular Git command on your project, learn new safer alternatives, and grasp the skills of restoring a broken branch.
+* [opensource.com: Make your own Git subcommands](https://opensource.com/article/22/4/customize-git-subcommands) Creating your own Git subcommand makes your custom scripts feel like natural components of Git.
+* [betterprogramming.pub: 2 Use Cases of Python Pre-commit Hooks to Tidy Up Your Git Repositories](https://betterprogramming.pub/2-use-cases-of-python-pre-commit-hooks-to-tidy-up-your-git-repositories-8d86c9c4f06b) Strategies to have a better-organized codebase
  
 ## Git Branches
 * [learngitbranching.js.org: Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!

@@ -1,0 +1,29 @@
+# AWS Messaging Services
+- [AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service](#aws-sns-and-sqs-amazon-simple-notification-service-and-amazon-simple-queue-service)
+    - [SNS vs SQS](#sns-vs-sqs)
+- [AWS EventBridge](#aws-eventbridge)
+- [Tweets](#tweets)
+
+## AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service
+- [dev.to: Getting started with SNS and SQS](https://dev.to/aws-builders/getting-started-with-sns-and-sqs-3m4i)
+- [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
+- [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs/)
+- The **Simple Notification Service**, or SNS for short, is one of the central services to build serverless architectures in the AWS cloud. SNS itself is a serverless messaging service that can distribute massive numbers of messages to different recipients. These include mobile end-user devices, like smartphones and tablets, but also other services inside the AWS ecosystem.
+- SNS’ ability to target AWS services makes it the perfect companion for AWS Lambda. If you need custom logic, go for Lambda; if you need to fan out messages to multiple other services in parallel, SNS is the place to be. 
+- [dashbird.io: [Infographic] AWS SNS from a serverless perspective](https://dashbird.io/blog/aws-sns/)
+
+### SNS vs SQS
+- [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)
+
+## AWS EventBridge
+- https://aws.amazon.com/eventbridge
+- [==Building an event-driven application with Amazon EventBridge==](https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge/) **“In event-driven architecture, each component of the application raises an event whenever anything changes. Other components listen and decide what to do with it and how they would like to react.”** – by @talia_nassi
+
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A handy Decision Tree for choosing the right messaging service on AWS.<br><br>As per my calculations, following it gives you a 90% chance of making the right choice.<br><br>Read more in the thread 🧵👇 <a href="https://t.co/s7Q5uoENop">pic.twitter.com/s7Q5uoENop</a></p>&mdash; Maciej Radzikowski (@radzikowski_m) <a href="https://twitter.com/radzikowski_m/status/1513941279175942155?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>

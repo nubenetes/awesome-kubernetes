@@ -70,6 +70,7 @@
 - [cloud.google.com: DevOps and CI/CD on Google Cloud explained](https://cloud.google.com/blog/topics/developers-practitioners/devops-and-cicd-google-cloud-explained)
 - [cloud.google.com: What is Cloud CDN and how does it work?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-cdn-and-how-does-it-work)
 - [==networkmanagementsoftware.com: Google Cloud Platform (GCP) Networking Fundamentals==](https://www.networkmanagementsoftware.com/google-cloud-platform-gcp-networking-fundamentals/)
+- [==cloud.google.com: Service Directory cheat sheet==](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet) Fact: Most enterprises have a large number of heterogeneous services deployed across different clouds and on-premises environments. Fact: It is complex to look up, publish, and connect these services. Fact: Service Directory can help. 
 
 ## Dev Library
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.

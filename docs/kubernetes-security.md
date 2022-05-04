@@ -116,6 +116,7 @@
 * [==infoworld.com: 10 steps to automating security in Kubernetes pipelines==](https://www.infoworld.com/article/3545337/10-steps-to-automating-security-in-kubernetes-pipelines.html) DevOps teams don’t need to sacrifice the speed of containerized development if they know what can be automated, why it’s important, and how to do it.
 * [towardsdatascience.com: How to Secure your Kubernetes Deployment 🌟](https://towardsdatascience.com/how-to-secure-your-kubernetes-deployment-5f52c2b67c1) It takes 20 years to build a reputation and few minutes of cyber-incident to ruin it. — Stephane Nappo. Kubernetes deployments are not safe by default and you should go the extra mile and secure the gates. Fortunately, tools like **kube-bench** let us focus our attention on specific areas of the cluster.
 * [==blog.flant.com: Kubernetes cluster security assessment with kube-bench and kube-hunter==](https://blog.flant.com/kubernetes-security-with-kube-bench-and-kube-hunter/)
+* [developers.redhat.com: Secure your Kubernetes deployments with eBPF](https://developers.redhat.com/articles/2021/12/16/secure-your-kubernetes-deployments-ebpf) Learn how to use eBPF and the Security Profiles Operator to automatically generate seccomp profiles, a Linux kernel security feature for Kubernetes
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

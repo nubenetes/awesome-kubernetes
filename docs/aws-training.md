@@ -17,6 +17,8 @@
 - [==explore.skillbuilder.aws/learn: AWS Skill Builder== 🌟](https://explore.skillbuilder.aws/learn) Your learning center to build in-demand cloud skills
 - [aws.amazon.com: Exámenes prácticos gratuitos y 100% en español para que obtenga su certificación](https://aws.amazon.com/es/blogs/aws-spanish/examenes-practicos-gratuitos-y-100-en-espanol-para-que-obtenga-su-certificacion/)
 - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)
+- [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/48/aws-security-fundamentals-second-edition) In this self-paced course, you will learn fundamental AWS cloud security concepts, including AWS access control, data encryption methods, and how network access to your AWS infrastructure can be secured. We will address and your security responsibility in the AWS cloud and the different security-oriented services available.
+- [==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources==](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 
 ## eBooks
 - [gocloudarchitects.com: AWS Certified Solutions Architect Associate Exam Guide](https://www.gocloudarchitects.com/free-csa-a-ebook/)

@@ -31,6 +31,7 @@
 - [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
 - [github.blog: Include diagrams in your Markdown files with Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.
 - [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)
+- [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google/) Google has expanded support for Markdown in Google Docs, Slides, and Drawings, and if you don’t understand what that means, that’s ok. If you do, you probably have had one of two reactions: “Cool, but that’s not enough” or “I’ll never use that.” You might be right in either case, but you should give Markdown a chance. You might just have the perfect use for it. 
 
 ## GitHub Pages
 - [pages.github.com](https://pages.github.com/)

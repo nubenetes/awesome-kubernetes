@@ -90,6 +90,11 @@
 * [==dev.to/francoislp: Post-mortem: 1h30 downtime on a Saturday morning==](https://dev.to/francoislp/post-mortem-1h30-downtime-on-a-saturday-morning-5af0) Read how 4 YAML lines brought down 3 APIs for 1h30 on a Saturday morning. In the end, the issue was a Helm chart misconfiguration where 2 settings were conflicting with each other.
 * [==blog.ediri.io: How To Unit Test Your Helm Charts==](https://blog.ediri.io/how-to-unit-test-your-helm-charts) With the help of helm-unittest and the AAA pattern
 * [==itnext.io: Reference Other Values in Helm Chart Values File==](https://itnext.io/reference-other-values-in-helm-chart-values-file-19d44d9276c7) Helm offers a template engine that allows you to merge configuration values into templates. This article introduces the **"tpl" function to evaluate strings as templates to have even more flexibility in your values.yaml**
+* [medium.com/linkbynet: Helm chart releaser with GitLab CI, Generated and Parent-Child Pipelines](https://medium.com/linkbynet/helm-chart-releaser-with-gitlab-ci-generated-and-parent-child-pipelines-b57b50e6c442)
+* [==medium.com/@percenuage: My adventure with Helm as GitOps in a distributed architecture==](https://medium.com/@percenuage/my-adventure-with-helm-as-gitops-in-a-distributed-architecture-6a6fdc6f11bd) In this article, you will learn some practical tips on how to manage your Helm charts and **GitOps** workflows:
+    * Common vs multiple Helm charts
+    * Values YAML hierarchy
+    * Git repository management
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

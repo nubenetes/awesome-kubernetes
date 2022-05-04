@@ -217,6 +217,8 @@
 - [techcommunity.microsoft.com: Azure Kubernetes Service and Azure Container Registry Service on Azure Stack Hub](https://techcommunity.microsoft.com/t5/azure-stack-blog/azure-kubernetes-service-and-azure-container-registry-service-on/ba-p/3075932)
 - [dev.to: Getting started with Windows Containers on Azure Kubernetes Service](https://dev.to/rdvansloten/getting-started-with-windows-containers-on-azure-kubernetes-service-46ce) Windows support has finally arrived in Kubernetes and AKS. Learn how to migrate your workloads and what pitfalls to avoid in this short and sweet introduction to Windows Containers.
 - [==mehighlow.medium.com: Hardened-AKS/Secrets==](https://mehighlow.medium.com/hardened-aks-secrets-82351c43eac4) Commonly, an application requires access to data and, usually, such access must be restricted. So, you need to provide your pod/deployment/replicaSet/DaemonSet with secrets. Learn how you can do so in AKS
+- [returngis.net: Desescalar nodos de AKS apagando las máquinas en lugar de eliminarlas](https://www.returngis.net/2022/04/desescalar-nodos-de-aks-apagando-las-maquinas-en-lugar-de-eliminarlas/)
+- [dev.to/javiermarasco: HTTPs with Ingress controller, cert-manager and DuckDNS (in AKS/Kubernetes)](https://dev.to/javiermarasco/https-with-ingress-controller-cert-manager-and-duckdns-in-akskubernetes-2jd1)
 
 ## GKE Google Kubernetes Engine
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)

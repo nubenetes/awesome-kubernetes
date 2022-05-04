@@ -7,7 +7,6 @@
 	- [HTTP/2](#http2)
 	- [HTTP/3](#http3)
 	- [HTTP Structured Fields](#http-structured-fields)
-- [WebSockets](#websockets)
 - [Tweets](#tweets)
 
 ## ChromeDevTools
@@ -67,13 +66,6 @@
 ### HTTP Structured Fields
 - [Improving HTTP with structured header fields 🌟](https://www.fastly.com/blog/improve-http-structured-headers)
 - [http-sfv: HTTP Structured Field Values in Python](https://pypi.org/project/http-sfv/)
-
-## WebSockets
-- [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
-- [The State of Real-Time Web in 2016](https://banksco.de/p/state-of-realtime-web-2016.html)
-- [SPDY and WebSocket Support at Akamai](https://blogs.akamai.com/2012/07/spdy-and-websocket-support-at-akamai.html)
-- [spring.io: YMNNALFT: Websockets](https://spring.io/blog/2021/01/25/ymnnalft-websockets) Welcome to another installment of You May Not Need Another Library For That (YMNNALFT)! 
-- [blog.bitsrc.io: Deep Dive into WebSockets](https://blog.bitsrc.io/deep-dive-into-websockets-e6c4c7622423) Understand the important attributes of WebSockets that every developer should know
 
 ## Tweets
 <details>
