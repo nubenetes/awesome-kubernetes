@@ -59,6 +59,8 @@
 * [developers.redhat.com: Modernizing Enterprise Java: A cloud native guide for developers](https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers)
 * [medium.com/javarevisited: Top 5 Frameworks Java developers can learn for Microservices Development in 2022](https://medium.com/javarevisited/top-5-frameworks-java-developers-can-learn-for-microservices-development-in-2022-848da66d6651)
 * [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html)
+* [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features/)
+* [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/)
 
 ### How to migrate Java workloads to containers
 * [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors

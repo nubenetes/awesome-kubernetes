@@ -789,6 +789,7 @@
 * [blog.newrelic.com: Kubernetes Fundamentals, Part 1: How to Manage Cluster Capacity with Requests and Limits](https://blog.newrelic.com/engineering/kubernetes-request-and-limits)
 * [john-tucker.medium.com: Kubernetes CPU Resource Requests at Runtime](https://john-tucker.medium.com/kubernetes-cpu-resource-requests-at-runtime-c4df668d1c5c) While it is well documented how CPU resource request impact the scheduling of Pods to Nodes, it is less clear of the impact once Pods (and their Containers) are running on a Node.
 * [faun.pub: Practical example of how to set requests and limits on Kubernetes](https://faun.pub/practical-example-of-how-to-set-requests-and-limits-on-kubernetes-87521b599983)
+* [==home.robusta.dev: For the love of god, stop using CPU limits on Kubernetes==](https://home.robusta.dev/blog/stop-using-cpu-limits/)
 
 ### Kubernetes Scheduler. Kube Scheduler
 - [opensource.com: How the Kubernetes scheduler works](https://opensource.com/article/20/11/kubernetes-scheduler) Understand how the Kubernetes scheduler discovers new pods and assigns them to nodes.

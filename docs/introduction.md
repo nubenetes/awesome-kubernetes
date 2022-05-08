@@ -192,6 +192,7 @@
 * [nathanpeck.com: Why should I use an orchestrator like Kubernetes, Amazon ECS, or Hashicorp Nomad?](https://nathanpeck.com/why-should-use-container-orchestration/)
 * [christophermeiklejohn.com: Understanding why Resilience Faults in Microservice Applications Occur](https://christophermeiklejohn.com/filibuster/2022/03/19/understanding-faults.html)
 * [websiteplanet.com: What’s Open Source Software + How It Makes Money 2022](https://www.websiteplanet.com/blog/what-is-open-source-software/)
+* [==eficode.com: The future of Kubernetes – and why developers should look beyond Kubernetes in 2022==](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
 
 ## Pets vs Cattle Analogy
 * [==cloudscaling.com: The History of Pets vs Cattle and How to Use the Analogy Properly==](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
@@ -238,6 +239,7 @@
 - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
 - [zdnet.com: Why microservices need event-driven architecture](https://www.zdnet.com/article/when-microservices-need-event-driven-architecture/) A call for greater microservice stability and alignment in legacy environments
 - [learncsdesign.medium.com: Microservices Design Patterns](https://learncsdesign.medium.com/microservices-design-patterns-91fe56a33a47)
+- [==simform.com: 10 Microservice Best Practices: The 80/20 Way==](https://www.simform.com/blog/microservice-best-practices/) **Microservice architecture brings higher flexibility and ease of development through decoupled services. However, microservice architecture has specific challenges like efficiency, consistency, security, etc. So, here are some of the microservice best practices, along with real-life usage accounts from leading companies.**
 
 ## Microservice Patterns
 - [capstonec.com: You Will Love These Cloud-native App Architecture Patterns 🌟](https://capstonec.com/2020/10/08/cloud-native-app-architecture-patterns)

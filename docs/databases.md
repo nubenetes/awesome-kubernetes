@@ -28,6 +28,7 @@
 - [Percona PostgreSQL Operator](#percona-postgresql-operator)
 - [Redis](#redis)
 - [Rockset](#rockset)
+- [PysonDB](#pysondb)
 - [Clickhouse](#clickhouse)
 - [Apache Ignite](#apache-ignite)
 - [Tools](#tools)
@@ -244,6 +245,10 @@
 
 ## Rockset
 - [rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset](https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset/)
+
+## PysonDB
+- https://pysondb.github.io/pysonDB/
+- [freecodecamp.org: How to Get Started with PysonDB](https://www.freecodecamp.org/news/how-to-get-started-with-pysondb/) PysonDB is yet another document-oriented database written in pure Python. Developed by Fredy Somy, it is simple, lightweight, and efficient.
 
 ## Clickhouse
 - [clickhouse.com](https://clickhouse.com) ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).

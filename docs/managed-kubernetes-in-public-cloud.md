@@ -12,8 +12,9 @@
 - [AKS Azure Kubernetes Service](#aks-azure-kubernetes-service)
 - [GKE Google Kubernetes Engine](#gke-google-kubernetes-engine)
 - [IKS IBM Cloud Kubernetes Service](#iks-ibm-cloud-kubernetes-service)
-    - [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
-    - [DOKS Digital Ocean Kubernetes](#doks-digital-ocean-kubernetes)
+- [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
+- [DOKS Digital Ocean Kubernetes](#doks-digital-ocean-kubernetes)
+- [Oracle Cloud Kubernetes](#oracle-cloud-kubernetes)
 - [Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](#provisioning-cloud-resources-aws-gcp-azure-in-kubernetes)
 - [Kubesphere](#kubesphere)
 - [Giant Swarm](#giant-swarm)
@@ -219,6 +220,7 @@
 - [==mehighlow.medium.com: Hardened-AKS/Secrets==](https://mehighlow.medium.com/hardened-aks-secrets-82351c43eac4) Commonly, an application requires access to data and, usually, such access must be restricted. So, you need to provide your pod/deployment/replicaSet/DaemonSet with secrets. Learn how you can do so in AKS
 - [returngis.net: Desescalar nodos de AKS apagando las máquinas en lugar de eliminarlas](https://www.returngis.net/2022/04/desescalar-nodos-de-aks-apagando-las-maquinas-en-lugar-de-eliminarlas/)
 - [dev.to/javiermarasco: HTTPs with Ingress controller, cert-manager and DuckDNS (in AKS/Kubernetes)](https://dev.to/javiermarasco/https-with-ingress-controller-cert-manager-and-duckdns-in-akskubernetes-2jd1)
+- [==dev.to: Implement Azure AD Workload Identity on AKS with terraform==](https://dev.to/maxx_don/implement-azure-ad-workload-identity-on-aks-with-terraform-3oho) **Azure AD workload identity is designed to associate a pod with an identity in Azure Active Directory so that you can grant permissions to access another resource (i.e. a storage account or an Azure SQL Database)**
 
 ## GKE Google Kubernetes Engine
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
@@ -259,15 +261,18 @@
 - [IKS](https://www.ibm.com/cloud/kubernetes-service)
 - [medium: Multizone Kubernetes and VPC Load Balancer Setup with terraform](https://medium.com/vmacwrites/multizone-kubernetes-and-vpc-load-balancer-setup-9664b3c9ea5d)
 
-### Linode Kubernetes Engine LKE
+## Linode Kubernetes Engine LKE
 - [Linode Kubernetes Engine (LKE)](https://www.linode.com/products/kubernetes/)
 - [medium: Create Kubernetes Cluster Using Linode LKE](https://medium.com/codex/create-kubernetes-cluster-using-linode-lke-4f9c71d03a8d)
 
-### DOKS Digital Ocean Kubernetes
+## DOKS Digital Ocean Kubernetes
 - [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes/)
 - [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech_talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes)
 - [blog.ediri.io: DigitalOcean Kubernetes Challenge](https://blog.ediri.io/digitalocean-kubernetes-challenge) Deploy a GitOps CI/CD implementation
 - [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt  ](https://www.digitalocean.com/blog/kubernetes-for-startups-why-when-and-how-to-adopt)
+
+## Oracle Cloud Kubernetes
+- [arnoldgalovics.com: GitHub Actions CI/CD For Oracle Cloud Kubernetes](https://arnoldgalovics.com/github-actions-oracle-cloud-kubernetes/) Learn how to create a private container registry with Terraform and deploy a 4 node Kubernetes cluster for free on Oracle Cloud. Then, use GitHub Actions to build ARM Docker containers for your nodes.
 
 ## Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes
 - [==learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes==](https://learnk8s.io/cloud-resources-kubernetes)

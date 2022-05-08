@@ -210,6 +210,8 @@
 - [thenewstack.io: Python for Beginners: When and How to Use Tuples](https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/)
 - [pub.towardsai.net: Python: Zero to Hero with Examples](https://pub.towardsai.net/python-zero-to-hero-with-examples-c7a5dedb968b) A handbook guide for python beginners
 - [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea) A quick setup for creating your first virtual machine. **Pyvcloud is a Python library for VCloud Director administration and all tasks which you can perform on vCloud Director can be done with this easy-to-use Pyvcloud!**
+- [freecodecamp.org: How to Set Up a Virtual Environment in Python – And Why It's Useful](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+- [==freecodecamp.org: Python Attributes – Class and Instance Attribute Examples==](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/)
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -251,6 +253,7 @@
 - [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework. 
 - [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m)
 - [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/faruqt/how-to-connect-django-to-reactjs-part-2-2oje)
+- [==betterprogramming.pub: Dockerize Your Django Apps==](https://betterprogramming.pub/dockerize-your-django-apps-428189407c69) From local development to production
 
 ## Python Flask Lightweight Framework (microframework)
 - Flask is a Python lightweight web application development framework with simplicity and extensibility. Flask is called **“microframework”** because of using a simple core and extensions are used to add other functions.
@@ -307,6 +310,7 @@
 - [analyticsvidhya.com: Tutorial – Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/)
 - [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python)
 - [==pandastutor.com== 🌟](https://pandastutor.com) Pandas Tutor visualizes how your Python code transforms dataframes
+- [==betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data Analysis==](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480) An introduction to data analysis with Pandas
 
 ### PandasDatabase
 - [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/)

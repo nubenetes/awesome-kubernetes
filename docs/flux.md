@@ -29,5 +29,6 @@
 - [shipa.io: FluxCD and GitOps in the Enterprise](https://shipa.io/2021/10/fluxcd-and-gitops-in-the-enterprise/)
 - [solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways)
 - [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) Manage multi-tenant clusters with Flux
+- [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) This is a tutorial to show how could we use Flux Subsystem for Argo (FSA) to bring the Terraform management feature from the Flux world to your Argo CD UI. In order to do so, we need Weave GitOps Terraform Controller to help us reconcile our Terraform resources.
 
 

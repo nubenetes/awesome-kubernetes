@@ -57,6 +57,7 @@
 * [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)
 * [redhat.com: What is Function-as-a-Service (FaaS)?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas)
 * [stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!](https://stackify.com/function-as-a-service-serverless-architecture/)
+* [==dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway==](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) In this post, you will learn how to build and deploy a REST API powered by serverless functions running on Kubernetes. You will learn how to use Knative, Kong API Gateway, and the kazi CLI
 
 ### Serverless Ecosystems Comparison
 * [fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless Function (FaaS) Providers](https://fauna.com/blog/comparison-faas-providers)

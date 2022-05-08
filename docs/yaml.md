@@ -1,5 +1,5 @@
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
-- [Templating YAML Files](#templating-yaml-files)
+- [Introduction. Templating YAML Files](#introduction-templating-yaml-files)
     - [YAML anchors and aliases](#yaml-anchors-and-aliases)
     - [YAML Processors](#yaml-processors)
     - [YAML Validators](#yaml-validators)
@@ -16,7 +16,7 @@
 - [Videos](#videos)
 - [Tweets](#tweets)
 
-## Templating YAML Files
+## Introduction. Templating YAML Files
 - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
 - [redhat.com: YAML for beginners](https://www.redhat.com/sysadmin/yaml-beginners) YAML is an easy, expressive, data-oriented language that distinguishes itself from document markup languages.
 - [thoughtworks.com: Templating in YAML](https://www.thoughtworks.com/radar/techniques/templating-in-yaml) As infrastructures grow in complexity, so do the configuration files that define them. Tools such as [AWS CloudFormation](https://aws.amazon.com/cloudformation/), [Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes) and [Helm](https://www.thoughtworks.com/radar/tools/helm) expect configuration files in JSON or YAML syntax, presumably in an attempt to make them easy to write and process. However, in most cases, teams quickly reach the point where they have some parts that are similar but not quite the same, for example, when the same service must be deployed in different regions with a slightly different setup. For such cases tools offer templating in YAML (or JSON), which has caused a huge amount of [frustration with practitioners](https://leebriggs.co.uk/blog/2019/02/07/why-are-we-templating-yaml.html). The problem is that the syntax of JSON and YAML requires all sorts of awkward compromises to graft templating features such as conditionals and loops into the files. **We recommend using an API from a programming language instead or, when this is not an option, a templating system in a programming language, either a general-purpose language such as Python or something specialized such as [Jsonnet](https://jsonnet.org/).**
@@ -33,6 +33,7 @@
 - [w3schools.io: YAML - yaml vs yml file](https://www.w3schools.io/file/yaml-vs-yml/)
 - [==blog.devgenius.io: YAML with Python==](https://blog.devgenius.io/yaml-with-python-d6787a9bd8ab) This article aims to outline the basics of YAML and write a simple python script that reads configuration details from a YAML file.
 - [==realpython.com: YAML: The Missing Battery in Python==](https://realpython.com/python-yaml/) Python lacks built-in support for the YAML data format, commonly used for configuration and serialization, despite clear similarities between the two languages. In this tutorial, you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on PyYAML. 
+- [==kubesimplify.com: A Simplified Guide To YAML==](https://kubesimplify.com/a-simplified-guide-to-yaml)
 
 ### YAML anchors and aliases
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
@@ -115,6 +116,8 @@
     - [Conftest](https://www.conftest.dev/)
     - [Polaris](https://github.com/FairwindsOps/polaris)
 - [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools/)
+- [KubeLinter](https://github.com/stackrox/kube-linter) KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
+    - [==thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline==](https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline/)
 
 ## Alternatives
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
@@ -123,6 +126,17 @@
     - [dzone.com: Use Ketch to Deploy Apps on Kubernetes Without YAML](https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne) An open-source project for deploying and managing applications on Kubernetes with a command-line interface.
 - [shipa.io: DevOps Challenge – Kubernetes Deployment: Ketch vs YAML](https://www.shipa.io/ketch/devops-challenge-kubernetes-deployment-ketch-vs-yaml/)
 - [naml: Not another markup language](https://github.com/kris-nova/naml) Framework for replacing Kubernetes YAML with Go.
+- [jvns.ca: A list of new(ish) command line tools](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
+    - [jq](https://stedolan.github.io/jq/) (a great JSON-wrangling tool)
+    - [jc](https://github.com/kellyjonbrazil/jc) (convert various tools’ output into JSON)
+    - [jo](https://github.com/jpmens/jo) (create JSON objects)
+    - [yq](https://github.com/mikefarah/yq) (like jq, but for YAML). there’s also another yq
+    - [fx](https://github.com/antonmedv/fx) (interactive json tool)
+    - [jless](https://github.com/PaulJuliusMartinez/jless) (json pager)
+    - [xsv](https://github.com/BurntSushi/xsv) (a command line tool for csv files, from burntsushi)
+    - [visidata](https://www.visidata.org/) (“an interactive multitool for tabular data”)
+    - [miller](https://github.com/johnkerl/miller) (“like awk/sed/cut/join/sort for CSV/TSV/JSON/JSON lines”)
+- [kislyuk/yq](https://github.com/kislyuk/yq) Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents. Worth noting that there are two implementations of yq, the other one being https://github.com/kislyuk/yq. It's a simple(r) wrapper around jq in Python, so it does support everything jq does, as opposed to the Go implementation, which reimplements jq but probably not fully.
 
 ## Base64 
 - [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode

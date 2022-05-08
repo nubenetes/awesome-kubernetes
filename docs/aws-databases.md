@@ -31,6 +31,7 @@
 - [==Auditing for highly regulated industries using Amazon Aurora PostgreSQL==](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql/)
 - [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved Write Performance & Faster Failover](https://aws.amazon.com/blogs/aws/amazon-rds-multi-az-db-cluster/)
 - [Amazon Aurora PostgreSQL blue/green deployment using fast database cloning](https://aws.amazon.com/blogs/database/amazon-aurora-postgresql-blue-green-deployment-using-fast-database-cloning/)
+- [Securely connect to an Amazon RDS or Amazon EC2 database instance remotely with your preferred GUI](https://aws.amazon.com/blogs/database/securely-connect-to-an-amazon-rds-or-amazon-ec2-database-instance-remotely-with-your-preferred-gui/)
 
 ## AWS Database Migration Service DMS
 - [AWS Database Migration Service](https://aws.amazon.com/blogs/aws/aws-database-migration-service/)

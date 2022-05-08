@@ -47,6 +47,8 @@
 - [devops.com: The DevOps Journey: Continuous Mindset Starts With Cultural Change](https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change/)
 - [==dzone.com/trendreports/devops-3: DevOps==](https://dzone.com/trendreports/devops-3) CI/CD and Application Release Orchestration. With the need for companies to deliver capabilities faster, it has become increasingly clear that DevOps is a practice that many enterprises must adopt (if they haven’t already). A strong CI/CD pipeline leads to a smoother release process, and a smoother release process decreases time to market. In DZone’s "DevOps: CI/CD and Application Release Orchestration" Trend Report, we provide insight into how CI/CD has revolutionized automated testing, offer advice on why an SRE is important to CI/CD, explore the differences between managed and self-hosted CI/CD, and much more. The goal of this Trend Report is to offer guidance to our global audience of DevOps Engineers, Automation Architects, and all those in between on how to best adopt DevOps practices to help scale the productivity of their teams.
 - [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success/) 
+- [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer/)
+- [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams/)
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 

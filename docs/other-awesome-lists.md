@@ -70,6 +70,7 @@
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
 - [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles. 
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
+- [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
 
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)

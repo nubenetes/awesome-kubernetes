@@ -98,6 +98,7 @@ Here are some important things to consider while building a CI/CD pipeline:
 * [about.gitlab.com: How to keep up with CI/CD best practices](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/)
 * [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://harness.io/blog/software-delivery-best-practices/)
 * [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti/)
+* [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast/)
 
 ## Observability
 - [==betanews.com: Overcoming observability challenges in the CI/CD Pipeline==](https://betanews.com/2022/01/26/overcoming-observability-challenges/)

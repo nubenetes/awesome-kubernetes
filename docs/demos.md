@@ -368,6 +368,12 @@
 - [openshift.com: GitOps Using Red Hat OpenShift Pipelines (Tekton) and Red Hat Advanced Cluster Management to Deploy on Multiple Clusters 🌟](https://www.openshift.com/blog/gitops-using-red-hat-openshift-pipelines-tekton-and-red-hat-advanced-cluster-management-to-deploy-on-multiple-clusters)
 - [developers.redhat.com: Getting started with Tekton and Pipelines](https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines/)
 - [developers.redhat.com: Bootstrap GitOps with Red Hat OpenShift Pipelines and kam CLI](https://developers.redhat.com/articles/2021/07/21/bootstrap-gitops-red-hat-openshift-pipelines-and-kam-cli) Generate a #GitOps repository using the kam CLI for simple GitOps adoption by bootstrapping Git repositories with opinionated layouts for continuous delivery.
+- [==dev.to: What is Knative Serving? A Friendly Guide==](https://dev.to/wiggitywhitney/9-waa-w-what-is-knative-serving-a-friendly-guide-28f6) In this article you will explore several benefits of Knative Serving:
+    - Ease of deployment
+    - Scale to zero
+    - Traffic splitting
+    - Rollbacks
+    - Routes and access
 
 ### OpenShift GitOps (ArgoCD)
 - [docs.openshift.com: OpenShift GitOps](https://docs.openshift.com/container-platform/4.8/cicd/gitops/understanding-openshift-gitops.html)

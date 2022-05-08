@@ -1,6 +1,7 @@
 # Development & Frameworks. Websites for web developers
 - [Introduction](#introduction)
 - [Design Patterns](#design-patterns)
+- [Documentation Driven Development (DDD)](#documentation-driven-development-ddd)
 - [Developer Tools](#developer-tools)
 	- [Firebase](#firebase)
 	- [Supabase Studio. An alternative to Firebase](#supabase-studio-an-alternative-to-firebase)
@@ -49,6 +50,9 @@
 - [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)
 - [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d)
 - [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b)
+
+## Documentation Driven Development (DDD)
+- [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem)
 
 ## Developer Tools
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)

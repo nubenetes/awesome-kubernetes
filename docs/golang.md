@@ -63,6 +63,7 @@
 - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
 - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery. In this post you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
 - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) Invoke the Kubernetes resources without overloading the cluster. Many popular Kubernetes tools such as K9s are based on client-go. They use the informer pattern to continuously refresh data without posing additional pressure to the API Server. Learn how the informer pattern works in this article.
+- [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 
 ## Building container images
 - [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/)

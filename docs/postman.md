@@ -25,6 +25,7 @@
 - [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/)
 - [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)
 - [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/)
+- [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/)
 ## Newman
 - [Newman](https://github.com/postmanlabs/newman) is a command-line collection runner for Postman
 - [blog.balasundar.com: Run Postman collections using Newman and Python](https://blog.balasundar.com/run-postman-collections-using-newman-and-python)

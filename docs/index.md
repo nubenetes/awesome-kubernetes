@@ -59,6 +59,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
 - [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
+- [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

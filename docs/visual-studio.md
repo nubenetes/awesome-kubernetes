@@ -64,6 +64,8 @@
 * [levelup.gitconnected.com: 12 Visual Studio Code Shortcuts That Every Developer Must Know](https://levelup.gitconnected.com/12-visual-studio-code-shortcuts-that-every-developer-must-know-8d6ce5fc3631) These shortcuts make the lives of developers easier.
 * [betterprogramming.pub: Generating Class Diagrams for .Net Core](https://betterprogramming.pub/generating-class-diagrams-for-net-core-c4913db9398b) Use PlantUML directly in the Visual Studio Code
 * [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/)
+* [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
+* [towardsdatascience.com: VS Code for data science](https://towardsdatascience.com/vs-code-for-data-science-aee82fe08bac) How a good Visual Studio Code setup can make you a more productive data scientist
 
 ## Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)

@@ -23,6 +23,7 @@
 	- [API Testing](#api-testing)
 	- [GraphQL](#graphql)
 		- [Hasura](#hasura)
+- [Browser APIs](#browser-apis)
 - [API Security](#api-security)
 - [Free Web Services (Public APIs)](#free-web-services-public-apis)
 - [Open Banking](#open-banking)
@@ -40,7 +41,7 @@
 - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
 - [Youtube Playlist: Introduction to APIs](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw)
-- [Devdocs.io API Documentation 🌟](https://devdocs.io/)
+- [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
 - [Dzone: 5 Tips for Better REST API Design](https://dzone.com/articles/my-5-tips-for-better-restapi-design) Good API design is difficult. Maintaining backwards compatibility, effectively testing, handling upgrades, etc. is hard to manage. Check out this guide for help!
 - [thenewstack.io: 5 Ways to Succeed with an API Gateway](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway/)
 - [redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) There are many strategies for data exchange. Here's a primer on four essentials.
@@ -134,9 +135,18 @@
 - [Socket.io](https://socket.io)
 - [itnext.io: Differences between WebSockets and Socket.IO](https://itnext.io/differences-between-websockets-and-socket-io-a9e5fa29d3dc)
 
-#### AsyncAPI
+#### AsyncAPI 
 - [AsyncAPI](https://www.asyncapi.com/) Building the future of event-driven architecture. Open source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
 - [thenewstack.io: AsyncAPI Could Be the Default API Format for Event-Driven Architectures](https://thenewstack.io/asyncapi-could-be-the-default-api-format-for-event-driven-architectures/)
+- [microcks.io: Simulating CloudEvents with AsyncAPI and Microcks](https://microcks.io/blog/simulating-cloudevents-with-asyncapi/) 
+	- The rise of Event Driven Architecture (EDA) is a necessary evolution step towards cloud-native applications. Events are the ultimate weapon to decouple your microservices within your architecture. They are bringing great benefits like space and time decoupling, better resiliency and elasticity.
+	- But events come also with challenges! One of the first you are facing when starting up as a development team - aside the technology choice - is how to describe these events structure? Another challenge that comes very quickly after being: How can we efficiently work as a team without having to wait for someone else’s events?
+	- We’ll explore those particular two challenges and see how to simulate events using CloudEvents, AsyncAPI and Microcks.
+	- AsyncAPI is an industry standard for defining asynchronous APIs. Our long-term goal is to make working with EDAs as easy as it is to work with REST APIs.
+	- Microcks is an Open source Kubernetes-native tool for mocking/simulating and testing APIs. One purpose of Microcks is to turn your API contract (OpenAPI, AsyncAPI, Postman Collection) into live mocks in seconds. It means that once it has imported your AsyncAPI contract, Microcks start producing mock events on a message broker at a defined frequency. Using Microcks you can then simulate CloudEvents in seconds, without writing a single line of code. Microcks will allow the team relying on input events to start working without waiting for the team coding the event publication.
+- [asyncapi.com: AsyncAPI and CloudEvents](https://www.asyncapi.com/blog/asyncapi-cloud-events) I've been receiving the same question for a long time now: Should I use CloudEvents or AsyncAPI? — And my response has always been the same: it depends!
+	- CloudEvents: a specification for describing event data in a common way. CloudEvents seeks to ease event declaration and delivery across services, platforms and beyond!
+	- AsyncAPI: Create machine-readable definitions of your event-driven APIs.
 
 ## Comparisons
 - [blog.bitsrc.io: Not All Microservices Need to Be REST — 3 Alternatives to the Classic](https://blog.bitsrc.io/not-all-microservices-need-to-be-rest-3-alternatives-to-the-classic-41cedbf1a907)
@@ -191,6 +201,9 @@
 	- TickInstant GraphQL & REST APIs
 	- TickBuilt in authorization for secure data access
 	- TickOpen source
+
+## Browser APIs
+- [betterprogramming.pub: 4 Awesome Browser APIs You Might Not Be Using Yet](https://betterprogramming.pub/4-awesome-browser-apis-you-might-not-be-using-yet-726d3e3237d2) Keep them handy. They can be super useful!
 
 ## API Security
 - [devops.com: Web Application Security is not API Security 🌟](https://devops.com/web-application-security-is-not-api-security/)
