@@ -46,3 +46,4 @@
 * [aws.amazon.com: Amazon EKS now supports Kubernetes 1.22](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22/)
 * [blog.aquasec.com: Kubernetes Version 1.23: What's New for Security? ](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
 * [sysdig.com: Kubernetes 1.24 – What’s new?](https://sysdig.com/blog/kubernetes-1-24-whats-new/)
+* [datree.io: EKS 1.22 Upgrade Tutorial](https://datree.io/resources/eks-1-22-upgrade-tutorial)
