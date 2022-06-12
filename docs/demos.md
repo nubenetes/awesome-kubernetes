@@ -37,7 +37,7 @@
     - [OpenShift GitOps (ArgoCD)](#openshift-gitops-argocd)
     - [ArgoCD](#argocd)
     - [GitLab Pipelines on OpenShift](#gitlab-pipelines-on-openshift)
-    - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8)
+    - [Deploying Web Applications with Eclipse JKube (formerly known as fabric8)](#deploying-web-applications-with-eclipse-jkube-formerly-known-as-fabric8-maven-plugin)
     - [Monitoring Services with OpenShift ServiceMesh](#monitoring-services-with-openshift-servicemesh)
     - [Red Hat Migration Toolkit for Applications](#red-hat-migration-toolkit-for-applications)
     - [Red Hat Advanced Cluster Management RHACM. Red Hat’s Hybrid And Multi-Cloud Platform](#red-hat-advanced-cluster-management-rhacm-red-hats-hybrid-and-multi-cloud-platform)
@@ -406,7 +406,7 @@
 ### GitLab Pipelines on OpenShift
 - [openshift.com: Building GitLab Pipelines on OpenShift](https://www.openshift.com/blog/building-openshift-pipelines-with-gitlab)
 
-### Deploying Web Applications with Eclipse JKube (formerly known as fabric8)
+### Deploying Web Applications with Eclipse JKube (formerly known as Fabric8 Maven Plugin)
 - [Building and Deploying a Weather Web Application onto Kubernetes/Red Hat OpenShift using Eclipse JKube](https://itnext.io/building-and-deploying-a-weather-web-application-onto-kubernetes-red-hat-openshift-using-eclipse-62bf7c924be4)
 - [Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
   - [medium: Deploy Quarkus Todo List App to Kubernetes Using Eclipse JKube](https://medium.com/swlh/deploy-quarkus-todo-list-app-to-kubernetes-using-eclipse-jkube-c774ef6b68f0)

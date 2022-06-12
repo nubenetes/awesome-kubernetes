@@ -10,7 +10,8 @@
 	- [Maven Cheat Sheets](#maven-cheat-sheets)
 	- [Other Commands](#other-commands)
 	- [Docker Maven Plugin (fabric8)](#docker-maven-plugin-fabric8)
-	- [Fabric8 Maven Plugin](#fabric8-maven-plugin)
+	- [Fabric8 Maven Plugin](#fabric8-maven-plugin-deprecated)
+	- [Eclipse JKube (formerly known as Fabric8 Maven Plugin) - Kubernetes & OpenShift Maven and Gradle Plugins](#eclipse-jkube-formerly-known-as-fabric8-maven-plugin---kubernetes--openshift-maven-and-gradle-plugins)
 - [Gradle](#gradle)
 	- [Gradle Cheat Sheets](#gradle-cheat-sheets)
 - [SDKMAN](#sdkman)
@@ -100,8 +101,19 @@ jar tf target/example-1.0.0-SNAPSHOT.jar
 ### Docker Maven Plugin (fabric8)
 - [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) This is a Maven plugin for building Docker images and managing containers for integration tests. It works with Maven 3.0.5 and Docker 1.6.0 or later.
 
-### Fabric8 Maven Plugin
+### Fabric8 Maven Plugin (deprecated)
 - [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/)
+
+## Eclipse JKube (formerly known as Fabric8 Maven Plugin) - Kubernetes & OpenShift Maven and Gradle Plugins
+- [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
+- [GitHub: Eclipse JKube](https://github.com/eclipse/jkube)
+- [developers.redhat.com: Migrating from Fabric8 Maven Plugin to Eclipse JKube 1.0.0](https://developers.redhat.com/blog/2020/09/21/migrating-from-fabric8-maven-plugin-to-eclipse-jkube-1-0-0/)
+- [developers.redhat.com: Cloud-native Java applications made easy: Eclipse JKube 1.0.0 now available](https://developers.redhat.com/blog/2020/09/09/cloud-native-java-applications-made-easy-eclipse-jkube-1-0-0-now-available/)
+- [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
+- [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
+- [YouTube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
+- [blog.marcnuri.com: Eclipse JKube introduction: Java tools and plugins for Kubernetes and OpenShift](https://blog.marcnuri.com/eclipse-jkube-introduction-kubernetes-openshift)
+- [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
 
 ## Gradle
 - [gradle.org](https://gradle.org/)
