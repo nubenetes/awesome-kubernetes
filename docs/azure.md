@@ -77,7 +77,7 @@
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
 - [thomasthornton.cloud: Thomas Thornton](https://thomasthornton.cloud)
 - [thomasmaurer.ch](https://www.thomasmaurer.ch)
-- [networkadm.in: Network Admin](https://www.networkadm.in) PowerShell, Active Directory, GPO & Azure Automation. Tips and Tricks for Sysadmins!
+- [CommandLine Ninja](https://www.commandline.ninja) PowerShell, Active Directory, GPO & Azure Automation. Learn how to automate using PowerShell!
 - [dotnetcurry.com](https://www.dotnetcurry.com/)
 - [azurebrains.com: Azurebrains](https://www.azurebrains.com) Blog sobre Tecnologias Cloud, Azure, Inteligencia Artificial, etc.
 
