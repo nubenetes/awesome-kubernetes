@@ -200,7 +200,7 @@
 - [jdhitsolutions.com: Profile PowerShell Functions](https://jdhitsolutions.com/blog/powershell-7/8793/profile-powershell-functions/)
 - [devblogs.microsoft.com: When PowerShellGet v1 fails to install the NuGet Provider](https://devblogs.microsoft.com/powershell/when-powershellget-v1-fails-to-install-the-nuget-provider/)
 - [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/t5/windows-powershell/an-example-why-powershell-is-so-important/m-p/3041748) Create 500 training (test) accounts
-- [networkadm.in: Use Powershell to find windows services configured to run as another user](https://www.networkadm.in/use-powershell-to-find-windows-svcs-configured-to-run-as-another-user/)
+- [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://www.commandline.ninjan/use-powershell-to-find-windows-svcs-configured-to-run-as-another-user/)
 - [techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!](https://techcommunity.microsoft.com/t5/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and/m-p/3217498)
 - [softzone.es: Por qué me interesa más usar PowerShell en lugar de CMD](https://www.softzone.es/noticias/windows/por-que-interesa-usar-powershell-lugar-cmd/)
 - [==mssqltips.com: PowerShell for the DBA - If Else and Switch statements==](https://www.mssqltips.com/sqlservertip/7188/powershell-if-if-else-switch-examples/)
@@ -236,7 +236,7 @@
 ### Secrets Management with Powershell
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore
-- [networkadm.in: Video Intro to Secret Management with Powershell](https://www.networkadm.in/video-intro-to-secret-management-with-powershell/)
+- [commandline.ninja: Video Intro to Secret Management with Powershell](https://www.commandline.ninja/video-intro-to-secret-management-with-powershell/)
 
 ## Azure CLI. AZ CLI
 - [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli/)
