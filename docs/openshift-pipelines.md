@@ -14,7 +14,7 @@
 - [All about OpenShift Pipelines](#all-about-openshift-pipelines)
 	- [Jenkins CICD Getting started with Groovy and Docker Containers](#jenkins-cicd-getting-started-with-groovy-and-docker-containers)
 	- [Fabric8 Pipeline Library (deprecated)](#fabric8-pipeline-library-deprecated)
-	- [Eclipse Jkube Pipeline Library (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-pipeline-library-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
+	- [Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins](#eclipse-jkube-pipeline-library-formerly-known-as-fabric8-kubernetes-plugin-kubernetes--openshift-plugins)
 	- [Jenkins Pipelines with OpenShift 3](#jenkins-pipelines-with-openshift-3)
 	- [OpenShift Jenkins Pipeline (DSL) Plugin. Scripted Syntax (Groovy DSL syntax) VS Declarative Syntax](#openshift-jenkins-pipeline-dsl-plugin-scripted-syntax-groovy-dsl-syntax-vs-declarative-syntax)
 		- [Red Hat Communities of Practice](#red-hat-communities-of-practice)
@@ -89,9 +89,9 @@
 * [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
 * [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
-### Eclipse Jkube Pipeline Library (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
-* [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
-* [Github: Eclipse Jkube](https://github.com/eclipse/jkube)
+### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins
+* [Eclipse JKube 🌟](https://www.eclipse.org/jkube/) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of Maven and Gradle plugins, and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
+* [GitHub: Eclipse JKube](https://github.com/eclipse/jkube)
 
 ### Jenkins Pipelines with OpenShift 3
 * [slideshare.net: CI/CD with Openshift and Jenkins 🌟](https://www.slideshare.net/arilivigni/cicd-with-openshift-and-jenkins)

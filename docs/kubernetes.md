@@ -225,6 +225,7 @@
 
 * [==myhistoryfeed.medium.com: Kubernetes Terminologies You Should Know!== 🌟🌟🌟](https://myhistoryfeed.medium.com/kubernetes-terminologies-you-should-know-d5372718006b)
 * [medium.com/@litombeg: Kubernetes High-Level Architecture](https://medium.com/@litombeg/kubernetes-high-level-architecture-8a39456c2023)
+* [Top 5 kubernetes challenges and their solutions](https://middleware.io/blog/kubernetes-challenges-and-solutions/)
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
@@ -717,9 +718,13 @@
 - [loft.sh: Multi-Tenant Kubernetes Clusters: Challenges and Useful Tooling](https://loft.sh/blog/multi-tenant-kubernetes-clusters-challenges-and-useful-tooling)
 - [infracloud.io: Introduction to Multi-Tenancy in Kubernetes](https://www.infracloud.io/blogs/multi-tenancy-kubernetes/)
 - [redhat.com: Kubernetes architecture: How to use hierarchical namespaces for multiple tenants](https://www.redhat.com/architect/kubernetes-hierarchical-namespaces) Hierarchical namespaces make it easier to manage individual tenants' permissions and capabilities in a multi-tenant Kuberentes architecture.
+<<<<<<< HEAD
 - [==kubernetes.io: Multi-tenancy== 🌟🌟🌟](https://kubernetes.io/docs/concepts/security/multi-tenancy/)
 - [thinksys.com: Understanding Multi-Tenancy in Kubernetes 🌟](https://www.thinksys.com/devops/kubernetes-multi-tenancy/)
 - [containiq.com: Kubernetes Multi-Tenancy | Best Practices in 2022](https://www.containiq.com/post/kubernetes-multi-tenancy) In Kubernetes, multi-tenancy is when multiple users share a single cluster. In this article, you’ll learn when to consider multi-tenancy, its benefits, and how to get the most out of it.
+=======
+- [doordash.engineering: Fast Feedback Loop for Kubernetes Product Development in a Production Environment](https://doordash.engineering/2022/06/23/fast-feedback-loop-for-kubernetes-product-development-in-a-production-environment/)
+>>>>>>> 317add8ca8077b2b4f094649035dc72813251b7b
 
 ##### Kiosk Multi-Tenancy Extension for Kubernetes
 - [==loft-sh/kiosk==](https://github.com/loft-sh/kiosk) kiosk Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning. 

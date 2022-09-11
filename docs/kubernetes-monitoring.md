@@ -49,6 +49,7 @@
 * [==betterprogramming.pub: 6 Metrics To Watch for on Your K8s Cluster== 🌟](https://betterprogramming.pub/6-metrics-to-watch-for-on-your-k8s-cluster-76d58f08397f) The most critical Kubernetes metrics to monitor. In this article, you will cover the 6 most critical metrics based on Kubernetes's metadata that form a good baseline for monitoring your workloads and ensuring they're in a healthy state.
 * [figments.medium.com: Observable Kubernetes Cluster Using Grafana-Loki-Prometheus](https://figments.medium.com/observable-kubernetes-cluster-using-grafana-loki-prometheus-a661a31d7ad8)
 * [medium.com/@isalapiyarisi: Getting Started on Kubernetes observability with eBPF](https://medium.com/@isalapiyarisi/getting-started-on-kubernetes-observability-with-ebpf-88139eb13fb2)
+* [8 Best Kubernetes monitoring tools; Paid & open-source](https://middleware.io/blog/kubernetes-monitoring-tools/)
 
 ## Kubernetes Logging 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)
