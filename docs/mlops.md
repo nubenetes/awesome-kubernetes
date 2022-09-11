@@ -62,22 +62,22 @@
 - [Union Cloud](https://www.union.ai) ML and Data Orchestration powered by Flyte
 - [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering/)
 - [==Machine Learning in Production. What does an end-to-end ML workflow look like in production? (transcript)== 🌟🌟🌟](https://www.union.ai/blog-post/machine-learning-in-production) - [Play Recording](https://twitter.com/i/spaces/1ZkKzbXLekWKv)
-  - Kelsey Hightower joined the @flyteorg team to discuss what ML looks like in the real world, from ingesting data to consuming ML models via an API.
-  - @kelseyhightower You can't go swimming in a #data_lake if you actually can't swim, right? You're going to drown. 🏊‍♂️
-  - @ketanumare Machine Learning products deteriorate in time. If you have the best model today it's not guaranteed to be the best model tomorrow. 
-  - @thegautam It's hard to verify models before you put them in production. We need our systems to be fully reproducible, which is why an #orchestration_tool is important, running multiple models in parallel.
-  - @ketanumare We at @union_ai unify the extremely fragmented world of ML and give the choice to users when to use proprietary technology versus when to use open source. (1/2)
-  - @ketanumare #Flyte makes it seamless to work on #kubernetes with spark jobs, and that's a big use case, but you can also use @databricks. Similarly, we are working on Ray and you can also use @anyscalecompute. (2/2)
-  - @Ketanumare Most machine learning engineers are not distributed systems engineers. This becomes a challenge when you’re deploying models to production. Infrastructure abstraction is key to unlock your team’s potential.
-  - @ketanumare on #Machine_Learning workflows: Creating Machine Learning workflows is a team sport. 🤝
-  - @arnoxmp: A Machine Learning model is often a blackbox. If you encounter new data, do a test run first.
-  - @fabio_graetz In classical software engineering the only thing that changes is the code, in a ML system the data can change. You need to version and test data changes.
-  - @Forcebananza This is actually one of the reasons I really like using #Flyte. You can map a cell in a notebook to its own task, and they're really easy to compose and reuse and copy and paste around. (1/2)
-  - @Forcebananza Jupyter notebooks are great for iterating, but moving more towards a standard software engineering workflow and making that easy enough for data scientists is really really important.(2/2)
-  - @jganoff Taking snapshots of petabytes of data is expensive, there are tools that version a dataset without having to copy it. Having metadata separate from the data itself allows you to treat a version of a dataset as if it were code.
-  - @SMT_Solvers In F500s it is mostly document OCR. Usually batch jobs - an API wouldn’t work - you need the binaries on the server even if it is a sidecar Docker container. One org (not mine) blows $$ doing network transfer from AWS to GCP when GCP could license their OCR in a container.
-  - @Forcebananza Flyte creates a way for all these teams to work together partially because writing workflows, writing reusable components… is actually simple enough for data scientists and data engineers to work with.
-  - @kelseyhightower We're now at a stage where we can start to leverage systems like https://flyte.org to give us more of an opinionated end-to-end workflow. What we call #ML can become a real discipline where practitioners can use a common set of terms and practices.
+    - Kelsey Hightower joined the @flyteorg team to discuss what ML looks like in the real world, from ingesting data to consuming ML models via an API.
+    - @kelseyhightower You can't go swimming in a #data_lake if you actually can't swim, right? You're going to drown. 🏊‍♂️
+    - @ketanumare Machine Learning products deteriorate in time. If you have the best model today it's not guaranteed to be the best model tomorrow. 
+    - @thegautam It's hard to verify models before you put them in production. We need our systems to be fully reproducible, which is why an #orchestration_tool is important, running multiple models in parallel.
+    - @ketanumare We at @union_ai unify the extremely fragmented world of ML and give the choice to users when to use proprietary technology versus when to use open source. (1/2)
+    - @ketanumare #Flyte makes it seamless to work on #kubernetes with spark jobs, and that's a big use case, but you can also use @databricks. Similarly, we are working on Ray and you can also use @anyscalecompute. (2/2)
+    - @Ketanumare Most machine learning engineers are not distributed systems engineers. This becomes a challenge when you’re deploying models to production. Infrastructure abstraction is key to unlock your team’s potential.
+    - @ketanumare on #Machine_Learning workflows: Creating Machine Learning workflows is a team sport. 🤝
+    - @arnoxmp: A Machine Learning model is often a blackbox. If you encounter new data, do a test run first.
+    - @fabio_graetz In classical software engineering the only thing that changes is the code, in a ML system the data can change. You need to version and test data changes.
+    - @Forcebananza This is actually one of the reasons I really like using #Flyte. You can map a cell in a notebook to its own task, and they're really easy to compose and reuse and copy and paste around. (1/2)
+    - @Forcebananza Jupyter notebooks are great for iterating, but moving more towards a standard software engineering workflow and making that easy enough for data scientists is really really important.(2/2)
+    - @jganoff Taking snapshots of petabytes of data is expensive, there are tools that version a dataset without having to copy it. Having metadata separate from the data itself allows you to treat a version of a dataset as if it were code.
+    - @SMT_Solvers In F500s it is mostly document OCR. Usually batch jobs - an API wouldn’t work - you need the binaries on the server even if it is a sidecar Docker container. One org (not mine) blows $$ doing network transfer from AWS to GCP when GCP could license their OCR in a container.
+    - @Forcebananza Flyte creates a way for all these teams to work together partially because writing workflows, writing reusable components… is actually simple enough for data scientists and data engineers to work with.
+    - @kelseyhightower We're now at a stage where we can start to leverage systems like https://flyte.org to give us more of an opinionated end-to-end workflow. What we call #ML can become a real discipline where practitioners can use a common set of terms and practices.
 
 - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)
 
