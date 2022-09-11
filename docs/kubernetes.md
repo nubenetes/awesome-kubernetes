@@ -188,6 +188,7 @@
     * If your applications have configuration files, following situation must be familiar to you: you develop an application, and then you create a configuration file and document it. After a while, you need to add some settings as the old ones do not meet all the requirements and, in general, it is better to change the structure.
     * What to do? If you do not change the configuration format, over time, it will turn into a bunch of things that “we need to deal with for historical reasons”. And if you change it… In this case, you always need to check if the configuration files are compatible with the product version you are installing for the customer. The operation team, customers, and many others will not really like this. 
     * These problems can be solved by multi-version configurations. Borrowing them from the Kubernetes, we have developed and applied them. Now let’s discuss how it works.
+* [Top 5 kubernetes challenges and their solutions](https://middleware.io/blog/kubernetes-challenges-and-solutions/)
 
 ### Kubernetes Jobs Market
 * [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2) We analyzed all the 113 Kubernetes jobs posted in the past 3 months (Apr-May-Jun 2021) and extracted metrics for:
