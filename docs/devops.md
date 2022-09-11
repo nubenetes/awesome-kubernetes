@@ -49,6 +49,9 @@
 - [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success/) 
 - [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer/)
 - [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams/)
+- [umbrellainfocare.com: Cloud and DevOps are Made for Each Other](https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other)
+- [guru99.com: DevOps Lifecycle: Different Phases Explained with Examples 🌟](https://www.guru99.com/devops-lifecycle.html)
+- [linkedin.com/pulse: Is DevOps just system administration repackaged?](https://www.linkedin.com/pulse/devops-just-system-administration-repackaged-gianluca-mascolo/)
 
 ## Automation Glossary
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
@@ -108,6 +111,7 @@
 
 ### Drift Detection Tools
 - [env0.com: Automated Drift Detection 🌟](https://www.env0.com/blog/automated-drift-detection-with-env0) env0 is enabling the ability to automatically detect drift and make sure your real-world resources in the cloud provider are aligned with your Infrastructure as Code files. env0 will alert you once a drift has been detected and gives you the ability to view and fix the drift, which can help mitigate one of the main challenges when using Infrastructure as Code!
+- [thenewstack.io: How Drift Detection and IaC Help Maintain a Secure Infrastructure ](https://thenewstack.io/how-drift-detection-and-iac-help-maintain-a-secure-infrastructure)
 
 ## DevOps Docs
 {==
@@ -254,6 +258,8 @@
 * [calcalistech.com: “DevOps is a culture, it's not a job description”](https://www.calcalistech.com/ctechnews/article/s1mlpunf9)
 * [reviewnprep.com: DevOps Basics](https://reviewnprep.com/blog/devops-basics/)
 * [==dev.to: How I learn new technologies as a DevOps Engineer (without being overwhelmed 👏) | TechWorld with Nana==](https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e)
+* [medium.com/@hunkarbozkurt: What is DevOps? How Was DevOps Derived?](https://medium.com/@hunkarbozkurt/what-is-devops-how-was-devops-derived-660ef47d42d6)
+* [blog.devops.dev: Devops Best Practices for Continuous Delivery 🌟](https://blog.devops.dev/devops-best-practices-for-continuous-delivery-2f0ebbae65c6)
 
 <center>
 

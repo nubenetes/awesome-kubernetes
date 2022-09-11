@@ -8,6 +8,7 @@
 ## Introduction
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
 - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)
+- [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)
 ## MultiCloud
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
 - [diagrams.net](https://www.diagrams.net/) Diagram with anyone, anywhere. Open source, online, desktop and container deployable diagramming software.
@@ -22,11 +23,15 @@
 - [autodraw.com](https://www.autodraw.com/) Fast drawing for everyone. AutoDraw pairs machine learning with drawings from talented artists to help you draw stuff fast.
 - [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/architect/diagramming-tools-network-architecture)
 - [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/architect/design-enterprise-architecture-diagrams) Walk step-by-step through creating enterprise architecture diagrams like an expert in this DevConf workshop.
+- [kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟](https://kubernetes.io/docs/contribute/style/diagram-guide/)
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 🎨 Diagram as Code for prototyping cloud system architectures
+	- [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams/)
 
 ## Architecture Icons
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)
 - [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now/) 
 - [Google Cloud Architecture Icons](https://cloud.google.com/icons)
+- [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) A collection of cloud security icons ☁️🔒
 
 ## AWS
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) The official AWS icon set for building architecture diagrams

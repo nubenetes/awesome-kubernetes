@@ -1,4 +1,5 @@
 # Kubernetes Releases
+* [==relnotes.k8s.io: Kubernetes Release Notes==](https://relnotes.k8s.io) **Tip: Click on "deprecation" and select "releaseVersions: 1.x**
 * [sysdig.com: What’s new in Kubernetes 1.20?](https://sysdig.com/blog/whats-new-kubernetes-1-20/)
 * [magalix: What You Should Know about Kubernetes 1.20](https://www.magalix.com/blog/what-you-should-know-about-kubernetes-1.20)
 * [towardsdatascience.com: Kubernetes is deprecating Docker in the upcoming release](https://towardsdatascience.com/kubernetes-is-deprecating-docker-in-the-upcoming-release-2a03d607934a) Kubernetes and Docker will part ways; what does that mean to you?
@@ -46,3 +47,9 @@
 * [aws.amazon.com: Amazon EKS now supports Kubernetes 1.22](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22/)
 * [blog.aquasec.com: Kubernetes Version 1.23: What's New for Security? ](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
 * [sysdig.com: Kubernetes 1.24 – What’s new?](https://sysdig.com/blog/kubernetes-1-24-whats-new/)
+* [inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes 1.24 is coming](https://inder-devops.medium.com/its-time-to-migrate-your-container-runtime-kubernetes-1-24-is-coming-f0c0b6b9bb90) In this post, you'll learn the terminology and tooling around container runtimes. By the end, you'll have a better idea of what a container runtime is, how the container landscape has evolved over time, and how we got to where we are today.
+* [kubernetes.io: Kubernetes Removals and Major Changes In 1.25](https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25/)
+* [sysdig.com: Kubernetes 1.25 – What’s new?](https://sysdig.com/blog/kubernetes-1-25-whats-new/)
+* [kubernetes.io: Kubernetes v1.25: Combiner](https://kubernetes.io/blog/2022/08/23/kubernetes-v1-25-release/) Announcing the release of Kubernetes v1.25! 🚀 This release includes a total of 40 enhancements. 15 of those are entering Alpha, 10 are graduating to Beta, and 13 are graduating to Stable. We also have two features being deprecated or removed.
+* [kubernetes.io: PodSecurityPolicy: The Historical Context 🌟](https://kubernetes.io/blog/2022/08/23/podsecuritypolicy-the-historical-context/) PodSecurityPolicy (PSP) admission controller has been removed as of Kubernetes v1.25. This blog shares some historical context and why it has been replaced by Pod Security admission control. 
+* [macchaffee.com: The Fumbled Deprecation of PodSecurityPolicies](https://www.macchaffee.com/blog/2022/psp-deprecation/) In this article, you will learn why PodSecurityPolicies never made it as a GA feature, why they had to be replaced and what you should consider going forward.

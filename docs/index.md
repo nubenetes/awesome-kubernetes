@@ -31,7 +31,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [openpracticelibrary.com](https://openpracticelibrary.com/) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
 - [API Landscape](https://apilandscape.apiscene.io/)
-- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) - [2021 🌟](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
+- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) 
+    - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted) 
+    - [2022 🌟](https://survey.stackoverflow.co/2022/) - [betterprogramming.pub]((https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3))
 - [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
     - [Go Collective](https://stackoverflow.com/collectives/go)
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
@@ -60,12 +62,22 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
 - [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
+- [cloudtechtwitter.com: Introduction to Kubernetes 🌟](https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html)
+- [GitHub Guides](https://github.com/readme/guides/)
+- [learnk8s.io/news](https://learnk8s.io/news) How do you keep up with Kubernetes? If you are looking for curated Kubernetes news, we have you covered on:
+    - Core Kubernetes
+    - Security
+    - Architecture & development
+    - Job opportunities
+    - K3s
+    - Events
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
 ## SRE Site Reliability Engineering 
 - [Site Reliability Engineering (SRE)](sre.md)
+- [Networking](networking.md)
 - [FinOps - Cloud Financial Management](finops.md)
 - [Chaos Engineering](chaos-engineering.md)
 ## DevOps
@@ -118,7 +130,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ### DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
 - [DevOps Tools](devops-tools.md)
 - [Jenkins Alternatives for Continuous Integration & Deployment 🌟](jenkins-alternatives.md)
-- [Argo CD - Declarative GitOps for Kubernetes 🌟](argocd.md)
+- [Argo - Declarative GitOps for Kubernetes 🌟](argo.md)
 - [Flux CD - The GitOps Operator for Kubernetes 🌟](flux.md)
 - [Tekton - Cloud Native CI/CD](tekton.md)
 - [Keptn](keptn.md)
@@ -271,6 +283,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
 <!--

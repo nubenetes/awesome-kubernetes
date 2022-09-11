@@ -7,6 +7,7 @@
 	- [Supabase Studio. An alternative to Firebase](#supabase-studio-an-alternative-to-firebase)
 	- [Ballerina](#ballerina)
 	- [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
+	- [Dhall Configuration Language](#dhall-configuration-language)
 - [AI Programming](#ai-programming)
 - [No code tools](#no-code-tools)
 - [Images](#images)
@@ -73,9 +74,14 @@
 - [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview)
 - [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally)
 
+### Dhall Configuration Language
+- [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) - Dhall is a programmable configuration language that you can think of as: JSON + functions + types + imports
+- https://github.com/dhall-lang/dhall-kubernetes Typecheck, template and modularize your Kubernetes definitions with Dhall
+
 ## AI Programming
 - [GitHub Copilot](https://copilot.github.com/)
 - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 
 ## No code tools
 - [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
@@ -111,5 +117,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You are never too senior to write code. I only laugh at people who believe they are too good to write any code as a software engineer.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1507092403043254274?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵 The Ultimate TypeScript Thread 🧵<br><br>Here&#39;s everything I&#39;ve learned from leading TS dev teams and working on XState&#39;s core team.<br><br>My goal is to turn you into a TypeScript wizard.<br><br>And yes, this thread is EVERGREEN - I&#39;ll add at least 3 more tips a week 🚀<br><br>Let&#39;s get started.</p>&mdash; Matt Pocock (@mpocock1) <a href="https://twitter.com/mpocock1/status/1509964736275927042?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">100+ data structure algorithms problems<br>1. Array - <a href="https://t.co/tXqrvpJO3S">https://t.co/tXqrvpJO3S</a><br>2. String - <a href="https://t.co/tXqrvpJO3S">https://t.co/tXqrvpJO3S</a><br>3. Binary tree - <a href="https://t.co/fsi40ENQRL">https://t.co/fsi40ENQRL</a><br>4. Linked List - <a href="https://t.co/iuItMZrvTA">https://t.co/iuItMZrvTA</a><br>5. Dynamic Programming - <a href="https://t.co/qYKjmZseXr">https://t.co/qYKjmZseXr</a><br>6. Recursion - <a href="https://t.co/4R3eODO4iL">https://t.co/4R3eODO4iL</a> <a href="https://t.co/G8QLbYF2Y0">pic.twitter.com/G8QLbYF2Y0</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1556177883764142080?ref_src=twsrc%5Etfw">August 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

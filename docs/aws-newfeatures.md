@@ -79,3 +79,6 @@
 - [Introducing Amazon CloudWatch Metrics Insights (General Availability)](https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-cloudwatch-metrics-insights/)
 - [AWS Shield Advanced now supports Application Load Balancer for automatic application layer DDoS mitigation](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-shield-application-balancer-automatic-ddos-mitigation/)
 - [==AWS Single Sign-On launches configurable synchronization for Microsoft Active Directory==](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-single-sign-on-configurable-synchronization-microsoft-active-directory/)
+- [Integration of AWS Well-Architected Tool with AWS Organizations](https://aws.amazon.com/about-aws/whats-new/2022/06/aws-well-architected-tool-organizations-integration/)
+- [AWS Single Sign-On (AWS SSO) adds support for AWS Identity and Access Management (IAM) customer managed policies (CMPs)](https://aws.amazon.com/about-aws/whats-new/2022/07/aws-single-sign-on-aws-sso-aws-identity-access-management-iam-customer-managed-policies-cmps/)
+- [Announcing new AWS IAM Identity Center APIs to manage users and groups at scale](https://aws.amazon.com/blogs/security/announcing-new-aws-iam-identity-center-apis-to-manage-users-and-groups-at-scale/)

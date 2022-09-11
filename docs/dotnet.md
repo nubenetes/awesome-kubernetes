@@ -2,6 +2,7 @@
 - [Introduction](#introduction)
 - [ASP.NET Core](#aspnet-core)
 - [NuGet Packages and nuspec file](#nuget-packages-and-nuspec-file)
+- [.NET MAUI](#net-maui)
 - [Polly .NET resilience and transient-fault-handling library](#polly-net-resilience-and-transient-fault-handling-library)
 - [Paradigm framework](#paradigm-framework)
 - [More dotnet frameworks and tools](#more-dotnet-frameworks-and-tools)
@@ -19,6 +20,7 @@
 - [telerik.com: Your First Microservice in .NET 6](https://www.telerik.com/blogs/your-first-microservice-dotnet-6)
 - [docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/)
 - [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java/)
+- [devblogs.microsoft.com: Announcing Rate Limiting for .NET](https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/)
 
 ## ASP.NET Core
 - [blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc/)
@@ -33,6 +35,9 @@
 - [khalidabuhakmeh.com: A .NET 5.0 Guide: From Idea To NuGet Package](https://khalidabuhakmeh.com/a-dotnet-five-guide-from-idea-to-nuget-package)
 - [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022.aspx)
 - [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/nuget/introducing-compatible-frameworks-on-nuget-org/)
+
+## .NET MAUI
+- [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/) .NET Multi-platform App UI (.NET MAUI) unifies Android, iOS, macOS, and Windows UI frameworks into a single framework so you can write one app that runs natively on many platforms. In this post, we will look at how easy it is to implement basic DevOps pipelines for .NET MAUI apps using GitHub Actions and Azure DevOps.
 
 ## Polly .NET resilience and transient-fault-handling library 
 - [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.

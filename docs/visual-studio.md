@@ -20,6 +20,7 @@
 - [AWS Toolkits](#aws-toolkits)
 - [Cloud Code](#cloud-code)
 - [Alternatives](#alternatives)
+	- [Intellij IDEA](#intellij-idea)
 	- [Online VSCode](#online-vscode)
 - [Videos](#videos)
 - [Tweets](#tweets)
@@ -66,6 +67,7 @@
 * [freecodecamp.org: Best Colorful VSCode Extensions – How to Personalize Your Editor](https://www.freecodecamp.org/news/best-colorful-vscode-extensions-for-productivity/)
 * [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
 * [towardsdatascience.com: VS Code for data science](https://towardsdatascience.com/vs-code-for-data-science-aee82fe08bac) How a good Visual Studio Code setup can make you a more productive data scientist
+* [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)
 
 ## Updates
 * [VSCode Updates](https://code.visualstudio.com/updates)
@@ -155,6 +157,7 @@ A simple extension to make indentation more readable
 * [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) IAM policy actions autocomplete, documentation & wildcard resolution. Supports Serverless Framework, AWS SAM, CloudFormation and Terraform.
 * [GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub) Extend VS Code with real-time collaborative superpowers
 	* [dev.to/gitlive: GitLive now works with any Git repository in VS Code!](https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o)
+* [marketplace.visualstudio.com: autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 #### More Extensions (Blogs)
 * [Become a VS Code Ninja with these Extensions and Tools [2020]](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
@@ -248,6 +251,10 @@ A simple extension to make indentation more readable
 - [==Fleet==](https://www.jetbrains.com/fleet/) Next-generation IDE by JetBrains
 	- [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains/)
 - [thenewstack.io: Are Cloud-Based IDEs the Future of Software Engineering?](https://thenewstack.io/are-cloud-based-ides-the-future-of-software-engineering/)
+
+### Intellij IDEA
+- [evaizik.medium.com: Setting up a remote debugging for Java microservices running inside Kubernetes pods](https://evaizik.medium.com/setting-up-a-remote-debugging-for-java-microservices-running-inside-kubernetes-pods-d4aab1ff4efa) In this article, you'll learn in detail how to set up remote debugging between IntelliJ IDE and a Java application running inside a Kubernetes pod — without using any additional third-party software
+- [betterprogramming.pub: My Top 7 Most Underrated IntelliJ IDEA Features](https://betterprogramming.pub/my-top-7-most-underrated-intellij-idea-features-572b0b706bd6)
 
 ### Online VSCode
 - [github.dev](https://github.dev)

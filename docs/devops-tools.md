@@ -2,7 +2,7 @@
 - [Introduction](#introduction)
 - [Keptn](#keptn)
 - [Relay](#relay)
-- [Devtron Labs](#devtron-labs)
+- [Devtron. Tool integration platform for kubernetes](#devtron-tool-integration-platform-for-kubernetes)
 
 ## Introduction
 - These tools help you manage servers and deploy happier and more often with more confidence.
@@ -33,6 +33,7 @@
 - [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools/)
 - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)
 - [faun.pub: Top 10 uncommon DevOps tools you should know](https://faun.pub/top-10-uncommon-devops-tools-you-should-know-f4f4464ec7f3)
+- [medium.com/leapp-cloud: Top 10 uncommon DevOps tools you should know](https://medium.com/leapp-cloud/top-10-uncommon-devops-tools-you-should-know-91dadde9777e)
 
 ## Keptn
 - [Keptn](keptn.md)
@@ -42,7 +43,8 @@
 - Automation tools can learn a lot from the CI/CD and Serverless ecosystems. Relay by **PuppetLabs** leverages **Tekton** and **Knative** in an attempt to do just that.
 - [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) The open-source wants to expand DevOps to cover cloud and containers with its newest program.
 
-## Devtron Labs
+## Devtron. Tool integration platform for kubernetes
 - [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
 - Integrations happen with existing Open-source systems like argocd, Argo workflow, Clair, hibernator, grafana, Prometheus, envoy, and many others and add capabilities on top of them to enable self serve for developers and DevOps.
+- [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)

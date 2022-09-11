@@ -38,6 +38,17 @@
 * [medium.com/@lucapompei91: Kubernetes observability](https://medium.com/@lucapompei91/kubernetes-observability-17a7875a38f6) 
 * [==dev.to: Monitoring Kubernetes cluster logs and metrics using Grafana, Prometheus and Loki==](https://dev.to/leroykayanda/kubernetes-monitoring-using-grafana-3dhc)
 * [hitesh-pattanayak.medium.com: Observability in Kubernetes](https://hitesh-pattanayak.medium.com/observability-in-kubernetes-b53d6ea1b37d)
+* [middlewareinventory.com: Get CPU and Memory Usage of NODES and PODS – Kubectl 🌟](https://www.middlewareinventory.com/blog/cpu-memory-usage-nodes-k8s)
+* [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools/)
+* [medium.com/@kylekhunter: Kubernetes Monitoring with Prometheus](https://medium.com/@kylekhunter/kubernetes-monitoring-with-prometheus-a149c35694c4)
+* [adamtheautomator.com: Utilizing Grafana & Prometheus Kubernetes Cluster Monitoring 🌟](https://adamtheautomator.com/prometheus-kubernetes/) In this guide, you'll learn how to monitor your Kubernetes cluster, viewing internal state metrics with a Prometheus and Grafana dashboard.
+* [grafana.com: Introducing Kubernetes Monitoring in Grafana Cloud](https://grafana.com/blog/2022/07/13/introducing-kubernetes-monitoring-in-grafana-cloud/) Kubernetes Monitoring is available to all Grafana Cloud users, including on free tier. Container orchestration to deploy at scale, iterate quickly, and manage a large number of apps and services.
+* [medium.com/@clymeneallen: Best Practices, Monitoring System for Multi-K8s Cluster Environments Using Open Source](https://medium.com/@clymeneallen/best-practices-monitoring-system-for-multi-k8s-cluster-environments-using-open-source-d85544052f37)
+* [medium.com/@bareckidarek: TCP packets traffic visualization for kubernetes by k8spacket and Grafana](https://medium.com/@bareckidarek/tcp-packets-traffic-visualization-for-kubernetes-by-k8spacket-and-grafana-bb87cb106f30)
+* [medium.com/@magstherdev: OpenTelemetry on Kubernetes 🌟](https://medium.com/@magstherdev/opentelemetry-on-kubernetes-c167f024b35f)
+* [==betterprogramming.pub: 6 Metrics To Watch for on Your K8s Cluster== 🌟](https://betterprogramming.pub/6-metrics-to-watch-for-on-your-k8s-cluster-76d58f08397f) The most critical Kubernetes metrics to monitor. In this article, you will cover the 6 most critical metrics based on Kubernetes's metadata that form a good baseline for monitoring your workloads and ensuring they're in a healthy state.
+* [figments.medium.com: Observable Kubernetes Cluster Using Grafana-Loki-Prometheus](https://figments.medium.com/observable-kubernetes-cluster-using-grafana-loki-prometheus-a661a31d7ad8)
+* [medium.com/@isalapiyarisi: Getting Started on Kubernetes observability with eBPF](https://medium.com/@isalapiyarisi/getting-started-on-kubernetes-observability-with-ebpf-88139eb13fb2)
 
 ## Kubernetes Logging 
 - [cncf.io: Logging in Kubernetes: EFK vs PLG Stack](https://www.cncf.io/blog/2020/07/27/logging-in-kubernetes-efk-vs-plg-stack/)
@@ -57,6 +68,9 @@
     * In Kubernetes 1.19, we are adding support for structured logs, which natively support (key, value) pairs and object references. We have also updated many logging calls such that over 99% of logging volume in a typical deployment are now migrated to the structured format.
     * To maintain backwards compatibility, structured logs will still be outputted as a string where the string contains representations of those “key”=”value” pairs. Starting in alpha in 1.19, logs can also be outputted in JSON format using the --logging-format=json flag.
 * [tealfeed.com: Kubernetes Audit Logs: Who created or deleted a namespace?](https://tealfeed.com/kubernetes-audit-logs-created-deleted-namespace-ho5o3) Learn how to set up log forwarding and collect audit logs that are passed through the Kubernetes API server to IBM Log Analysis to check who initiated a request and when they did so.
+* [==containiq.com: Kubernetes Audit Logs | Use Cases & Best Practices==](https://www.containiq.com/post/kubernetes-audit-logs) Kubernetes audit logs are powerful, but only if enabled and correctly configured. This article will help you get started using audit logs, and show you how to get the most out of them.
+* [blog.devops.dev: Importance of Logging In Kubernetes, Intro to Grafana Loki & deploying with helm-charts](https://blog.devops.dev/importance-of-logging-in-kubernetes-and-intro-to-grafana-loki-f8dc6f736e6)
+* [faun.pub: Kubernetes Practice — Logging with Logstash and FluentD by Sidecar Container](https://faun.pub/kubernetes-practice-logging-with-logstash-and-fluentd-by-sidecar-container-86076da0812f) We are going to learn how to use the Sidecar Container pattern to install Logstash and FluentD on Kubernetes for log aggregation.
 
 ## SLOs in Kubernetes
 - [==thenewstack.io: Service Level Objectives in Kubernetes==](https://thenewstack.io/service-level-objectives-in-kubernetes/) an SLO is simply a metric, a goal for that metric, and a time period. For instance: “the success rate for service A must be at least 99.7% percent over the past 30 days.” The metric is known as the “service level indicator” (SLI) and the goal is the “objective.”

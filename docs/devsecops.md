@@ -3,6 +3,7 @@
 - [Kubernetes Security Compliance Frameworks](#kubernetes-security-compliance-frameworks)
 - [Zero Trust Security](#zero-trust-security)
 - [Authentication and Authorization](#authentication-and-authorization)
+	- [OpenID Connect and OAuth 2.0](#openid-connect-and-oauth-20)
 - [Quality Gates](#quality-gates)
 - [16 Gates](#16-gates)
 - [Kubernetes Threat Modelling](#kubernetes-threat-modelling)
@@ -173,6 +174,18 @@
 	- Clusters
 	- Containers
 	- Code 
+- [sysdig.com: Triaging a Malicious Docker Container](https://sysdig.com/blog/triaging-malicious-docker-container/) Malicious Docker containers are a relatively new form of attack, taking advantage of an exposed Docker API or vulnerable host to do their evil plotting.​​ 
+- [blog.sonatype.com: Python Packages Upload Your AWS Keys, env vars, Secrets to the Web](https://blog.sonatype.com/python-packages-upload-your-aws-keys-env-vars-secrets-to-web) Last week, Sonatype discovered multiple Python packages that not only exfiltrate your secrets—AWS credentials and environment variables but rather upload these to a publicly exposed endpoint. These packages were discovered by Sonatype's automated malware detection system, offered as a part of Nexus platform products, including Nexus Firewall. 
+- [medium.com/@anshuman2121: DevSecOps: Implement security on CICD Pipeline](https://medium.com/@anshuman2121/devsecops-implement-security-on-cicd-pipeline-19eb7aa22626)
+- [medium.com/@jonathan_37674: What have we learned from scanning over 10K Kubernetes Clusters? 🌟](https://medium.com/@jonathan_37674/what-have-we-learned-from-scanning-over-10k-kubernetes-clusters-b0ac6b250427) Plan ahead and fight for  fight misconfiguration and vulnerabilities across the SDLC with **KubeScape**, OS security platform providing a multi-cloud K8s single pane of glass.
+- [bleepingcomputer.com: Over 900,000 Kubernetes instances found exposed online](https://www.bleepingcomputer.com/news/security/over-900-000-kubernetes-instances-found-exposed-online/) 
+	- Over 900,000 misconfigured Kubernetes clusters were found exposed on the internet to potentially malicious scans, some even vulnerable to data-exposing cyberattacks.
+	- Kubernetes is a highly versatile open-source container orchestration system for hosting online services and managing containerized workloads via a uniform API interface.
+	- It enjoys massive adoption and growth rates thanks to its scalability, flexibility in multi-cloud environments, portability, cost, app development, and system deployment time reductions.
+	- If Kubernetes isn’t configured properly, remote actors might be able to access internal resources and private assets that weren’t meant to be made public.
+	- Additionally, depending on the configuration, intruders could sometimes escalate their privileges from containers to break isolation and pivot to host processes, granting them intial access to internal corporate networks for futher attacks.
+- [sysdig.com: How to apply security at the source using GitOps | Eduardo Mínguez 🌟](https://sysdig.com/blog/gitops-iac-security-source/)
+- [==medium.com/technology-hits: Incomplete Guide for Securing Containerized Environment== 🌟](https://medium.com/technology-hits/incomplete-guide-for-securing-containerized-environment-78b57fc3238) And Understanding How Containers Present Unique Security Challenges. This article contains a collection of best practices and tips regarding securing containerized environments.
 
 ## Kubernetes Security Compliance Frameworks
 - [==armosec.io: Kubernetes Security Compliance Frameworks== 🌟](https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/) 
@@ -192,11 +205,17 @@
 		- Secrets management and protection
 
 ## Zero Trust Security
-- [dzone.com: What Is Zero Trust Security?](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
+- [dzone.com: What Is Zero Trust Security? 🌟](https://dzone.com/articles/what-is-zero-trust-security) Zero Trust security is an IT security framework that treats everyone and everything to be hostile (in a good way!).
+- [thenewstack.io: Secured Access to Kubernetes from Anywhere with Zero Trust | Tenry Fu 🌟](https://thenewstack.io/secured-access-to-kubernetes-from-anywhere-with-zero-trust/)
+- [rafay.co: Securing Access to Kubernetes Environments with Zero Trust | Kyle Hunter 🌟](https://rafay.co/the-kubernetes-current/securing-access-to-kubernetes-environments-with-zero-trust/)
 
 ## Authentication and Authorization
 - [thenewstack.io: How Do Authentication and Authorization Differ?](https://thenewstack.io/how-do-authentication-and-authorization-differ/)
 - [==osohq.com: Patterns for Authorization in Microservices==](https://www.osohq.com/post/microservices-authorization-patterns)
+
+### OpenID Connect and OAuth 2.0
+- [medium.com/getindata-blog: OAuth2-based authentication on Istio-powered Kubernetes clusters 🌟](https://medium.com/getindata-blog/oauth2-based-authentication-on-istio-powered-kubernetes-clusters-2bd0999b7332) Starting with Envoy 1.17, authentication and authorization to Istio clusters don't require setting up external services if you decide to use OAuth2 Learn how it works in this hands-on tutorial.
+- [==oauth2-proxy/oauth2-proxy: OAuth2 Proxy== 🌟](https://github.com/oauth2-proxy/oauth2-proxy) A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
 
 ## Quality Gates
 - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword) In theory, quality gates seem like a no-brainer, but it does come with a catch.
@@ -246,6 +265,7 @@
 ## The Falco Project
 - [Falco.org](https://falco.org) Cloud-Native runtime security
 - [==sysdig.com: Getting started with runtime security and Falco==](https://sysdig.com/blog/intro-runtime-security-falco/)
+- [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d) Comprehensive runtime security for your containers with a hands-on demo.
 
 ## Security Patterns for Microservice Architectures
 - [Security Patterns for Microservice Architectures](https://developer.okta.com/blog/2020/03/23/microservice-security-patterns)
@@ -280,6 +300,7 @@
 	10. Insufficient Logging and Monitoring
 
 - [cequence.ai: The OWASP API Security Top 10 From a Real-World Perspective](https://www.cequence.ai/blog/owasp-api-security-top-10-from-a-real-world-perspective/)
+- [securityonline.info: VAmPI: Vulnerable REST API with OWASP top 10 vulnerabilities](https://securityonline.info/vampi-vulnerable-rest-api-with-owasp-top-10-vulnerabilities/)
 
 ## Source Code Audit
 - [==securecoding.com: Code Audit: How to Ensure Compliance for an Application==](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application/) A source code audit is a process of analyzing the source code of an application with the objective of discovering security vulnerabilities, security design problems, and places of potential improvement in programming practices. After the analysis, a report is generated that is used to implement a range of measures that guarantee the security and reliability of the code. Code audits can be carried out in parallel with penetration tests. They can test the exploitability of code vulnerabilities to better estimate the risk they pose. Ideally, code audits are performed throughout the application lifecycle. The faster a vulnerability is discovered, the easier it is to fix!
@@ -296,6 +317,7 @@
 - [iximiuz.com: The need for slimmer containers. Scanning official Python images with Snyk](https://iximiuz.com/en/posts/thick-container-vulnerabilities/)
 - [gkovan.medium.com: A Zero Trust Approach for Securing the Supply Chain of Microservices Packaged as Container Images (sigstore, kyverno, openshift tekton, quarkus) 🌟](https://gkovan.medium.com/a-zero-trust-approach-for-securing-the-supply-chain-of-microservices-packaged-as-container-images-89d2f5b7293b)
 - [thenewstack.io: Find Vulnerabilities in Container Images with Docker Scan](https://thenewstack.io/find-vulnerabilities-in-container-images-with-docker-scan/)
+- [medium.com/@nanditasahu031: DevSecOps — Implementing Secure CI/CD Pipelines 🌟](https://medium.com/@nanditasahu031/devsecops-implementing-secure-ci-cd-pipelines-9653726b4916)
 
 ### Securing Kubernetes With Anchore
 - [Securing Kubernetes With Anchore](https://anchore.com/kubernetes/)
@@ -311,6 +333,7 @@
 - [==github.blog: Safeguard your containers with new container signing capability in GitHub Actions (cosign)==](https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/)
 - [chrisns/cosign-keyless-demo: Cosign Keyless GitHub Action Demo](https://github.com/chrisns/cosign-keyless-demo) Proof of concept that uses cosign and GitHub's in built OIDC for actions to sign container images, providing a proof that what is in the registry came from your GitHub action.
 - [blog.chainguard.dev: How To Verify Cosigned Container Images In Amazon ECS](https://blog.chainguard.dev/cosign-verify-ecs/)
+- [justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)](https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper/) Learn how combining Gatekeeper + Cosign for image signature validation with the new external_data feature lets you stop untrusted docker images from being deployed on your Kubernetes cluster.
 
 ## GitHub security
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security/)
@@ -369,6 +392,7 @@
 
 - [developers.redhat.com: Protect secrets in Git with the clean/smudge filter](https://developers.redhat.com/articles/2022/02/02/protect-secrets-git-cleansmudge-filter)
 - [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) Cloud Secret Resolvers is a set of tools to help your applications (on Kubernetes) to retrieve any credentials from cloud managed vaults without the needed to write additional boilerplate code in your applications!.
+- [thenewstack.io: Managing Secrets in Your DevOps Pipeline ](https://thenewstack.io/managing-secrets-in-your-devops-pipeline/)
 
 ### Anti Patterns. Wrong Secrets
 - [==commjoen/wrongsecrets: OWASP WrongSecrets==](https://github.com/commjoen/wrongsecrets) Examples with how to not use secrets. Welcome to the OWASP WrongSecrets p0wnable app. With this app, we have packed various ways of how to not store your secrets. These can help you to realize whether your secret management is ok. The challenge is to find all the different secrets by means of various tools and techniques.
@@ -432,12 +456,21 @@
 - [hashicorp.com: Kubernetes Vault Integration via Sidecar Agent Injector vs. CSI Provider](https://www.hashicorp.com/blog/kubernetes-vault-integration-via-sidecar-agent-injector-vs-csi-provider) In this post, you will explore the different methods of integrating HashiCorp Vault with Kubernetes and learn how to choose the best solution for your use case.
 - [hashicorp.com: Manage Kubernetes Secrets for Flux with HashiCorp Vault](https://www.hashicorp.com/blog/manage-kubernetes-secrets-for-flux-with-hashicorp-vault) Configure the Secrets Store CSI driver with HashiCorp Vault to securely inject secrets into **Flux** or other GitOps tools on Kubernetes.
 - [==hashicorp.com: How to Integrate Your Application with Vault: Static Secrets==](https://www.hashicorp.com/blog/how-to-integrate-your-application-with-vault-static-secrets) Learn how to retrieve static secrets from HashiCorp Vault in a real-world setting using a new sample application.
+- [blog.devops.dev: Using Vault in Kubernetes Production for Security Engineers](https://blog.devops.dev/using-vault-in-kubernetes-production-for-security-engineers-54d2f0aca4d1)
+- [hashicorp.com: HashiCorp Vault 1.11 Adds Kubernetes Secrets Engine, PKI Updates, and More 🌟](https://www.hashicorp.com/blog/vault-1-11)
+	- Favorite OSS feature is the K8S secrets engine that can generate K8S service accounts as dynamic secrets. 
+	- Favorite Ent feature is that Autopilot can now perform safe, automated upgrades. 
+	- Plus a dozen other improvements...
+
+- [medium.com/@nikhil.purva: Securing Kubernetes Secrets with HashiCorp Vault](https://medium.com/@nikhil.purva/securing-kubernetes-secrets-with-hashicorp-vault-a9555728e095)
 
 #### HashiCorp Vault Agent 
 - [Vault Agent 🌟](https://www.vaultproject.io/docs/agent)
 - [harness.io: Tutorial: How to Use the New Vault Agent Integration Method With Harness](https://harness.io/blog/devops/vault-agent-secrets-management)
 - [harness.io: Tutorial: Vault Agent Advanced Use Case With Kubernetes Delegates and Shared Volumes 🌟](https://harness.io/blog/devops/vault-agent-kubernetes-delegates)
 - [hashicorp.com: Why Use the Vault Agent for Secrets Management?](https://www.hashicorp.com/blog/why-use-the-vault-agent-for-secrets-management)
+- [medium.com/nerd-for-tech: PKI Certs Injection to K8s Pods with Vault Agent Injector](https://medium.com/nerd-for-tech/pki-certs-injection-to-k8s-pods-with-vault-agent-injector-d97482b48f3d) In this article, you'll learn how to use the Vault Agent Injector to dynamically generate and Inject PKI Certs to Pods by rendering secrets to a shared volume, containers within the pod will consume Vault secrets without being Vault aware.
+- [hashicorp.com: Refresh Secrets for Kubernetes Applications with Vault Agent](https://www.hashicorp.com/blog/refresh-secrets-for-kubernetes-applications-with-vault-agent) Learn the system signal and live reload methods for updating Kubernetes applications when secrets change. See an example via a Spring Boot application.
 
 ### Azure Key Vault 
 - [docs.microsoft.com: Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
@@ -602,6 +635,7 @@
 - [curiefense/curiefense](https://github.com/curiefense/curiefense) Curiefense extends Envoy proxy to defend against a variety of threats, including SQL and command injection, cross site scripting (XSS), account takeovers (ATOs) and more
 - [==socket.dev: Introducing Socket==](https://socket.dev/blog/introducing-socket) Socket's mission is to make open source safer. A platform that protects your most critical apps from software supply chain attacks.
 - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad/)
+- [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper/) 🔥 🔥 Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more. 🔥 🔥 ThreatMapper hunts for vulnerabilities in your production platforms and ranks these vulnerabilities based on their risk of exploitation. You can then prioritize the issues that present the greatest risk to the security of your applications.
 
 ## Videos
 ??? note "Click to expand!"

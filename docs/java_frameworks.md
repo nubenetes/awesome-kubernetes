@@ -26,6 +26,7 @@
 - [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
 - [Quarkus vs Spring Boot](#quarkus-vs-spring-boot)
 - [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
+- [Logging in Java](#logging-in-java)
 - [Java Logger Implementations](#java-logger-implementations)
 - [Java Testing Frameworks](#java-testing-frameworks)
 - [Debugging Java Threads](#debugging-java-threads)
@@ -61,6 +62,7 @@
 * [java67.com: How to Create and Start Multiple Threads in Java? - Example Tutorial](https://www.java67.com/2016/05/how-to-use-multiple-threads-in-java.html)
 * [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features/)
 * [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/)
+* [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753) This article will implement the basic concepts of Hexagonal Architecture in Java.
 
 ### How to migrate Java workloads to containers
 * [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors
@@ -178,7 +180,11 @@ optimizing Enterprise Java for the microservices architecture.
 * [vladmihalcea.com: Spring Boot Application Properties](https://vladmihalcea.com/spring-boot-application-properties/)
 * [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
 * [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/)
-
+* [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking/)
+* [medium.com/shoutloudz: Microservice: Developing an Authentication Service using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712)
+* [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html)
+* [==medium.com/@hubian: 16 Best Practices in Spring Boot Production== 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c)
+ 
 #### SpringBoot with Docker
 * [spring.io: spring boot with docker](https://spring.io/guides/gs/spring-boot-docker/)
 * [spring.io: Creating Docker images with Spring Boot 2.3.0.M1](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1) 
@@ -285,6 +291,9 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 - [JPA streamer 🌟](https://jpastreamer.org/) JPAstreamer is a library for expressing JPA/Hibernate queries as Java streams. It can be also integrated with Spring. 
 - [logbook](https://github.com/zalando/logbook) An extensible Java library for HTTP request and response logging
 
+##  Logging in Java
+- [==medium.com/javarevisited: Logging in Java — Log4j vs Logback vs SLF4J== 🌟](https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a)
+
 ## Java Logger Implementations
 - [GoodforGod/java-logger-benchmark](https://github.com/GoodforGod/java-logger-benchmark) JMH Benchmark for different Java Logger implementations.
 
@@ -299,6 +308,7 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 ## Lombok
 - https://projectlombok.org
 - [adictosaltrabajo.com: Cómo reducir el código repetitivo con Lombok](https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/)
+- [reflectoring.io: When Should I Use Project Lombok?](https://reflectoring.io/when-to-use-lombok/) Lombok is a loved and hated library in the Java world. It removes the need for boilerplate code but it may also introduce some subtle issues. This article shows some pros and cons so you can decide for yourself whether to use it.
 
 ## Project Helidon
 - [Helidon.io](https://helidon.io/)
@@ -331,5 +341,7 @@ High-level abstractions/tools to run SpringBoot application on kubernetes withou
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">5+ excellent GitHub repositories for every Java developer <a href="https://twitter.com/hashtag/github?src=hash&amp;ref_src=twsrc%5Etfw">#github</a> <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> <br>Thread 👇</p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1479447029986201600?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Java blog websites for Java developers<br>Thread 👇</p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1480035588753420288?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java programmer roadmap <a href="https://t.co/KKdK0hdBB2">pic.twitter.com/KKdK0hdBB2</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1542741721020125184?ref_src=twsrc%5Etfw">July 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -38,6 +38,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [opensource.com: Open source tools for running a small business in 2022](https://opensource.com/article/21/12/open-source-business-tools) These articles show the power of open source in business as tools, platforms, or integration points.
 - [itsfoss.com: Gitter: A Cross-Platform Open Source Community Platform for Developers](https://itsfoss.com/gitter/)
 - [towardsdatascience.com: Personal Knowledge Graphs](https://towardsdatascience.com/personal-knowledge-graphs-9a23a0b099af) **A new generation of note-taking tools helps us quickly organize thoughts as knowledge graphs**
+- [ifuckinghatejira.com](https://ifuckinghatejira.com)
 
 ## Productivity Tips with .new TLD to quickly create
 - [Google Docs: doc.new](https://doc.new)

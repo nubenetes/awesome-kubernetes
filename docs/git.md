@@ -161,6 +161,9 @@
 * [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) Understand the usage and impact of this popular Git command on your project, learn new safer alternatives, and grasp the skills of restoring a broken branch.
 * [opensource.com: Make your own Git subcommands](https://opensource.com/article/22/4/customize-git-subcommands) Creating your own Git subcommand makes your custom scripts feel like natural components of Git.
 * [betterprogramming.pub: 2 Use Cases of Python Pre-commit Hooks to Tidy Up Your Git Repositories](https://betterprogramming.pub/2-use-cases-of-python-pre-commit-hooks-to-tidy-up-your-git-repositories-8d86c9c4f06b) Strategies to have a better-organized codebase
+* [==betterprogramming.pub: Recovering From Common Git Errors==](https://betterprogramming.pub/recovering-from-common-git-errors-eccda7ec6180)
+* [github.blog: Improve Git monorepo performance with a file system monitor 🌟](https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/) **Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.**
+* [java67.com: Top 10 Free Git Courses and Tutorials for Beginners in 2022 - Best of Lot](https://www.java67.com/2022/07/10-best-free-git-courses-and-tutorials.html)
  
 ## Git Branches
 * [learngitbranching.js.org: Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
@@ -364,6 +367,7 @@ git push origin -f
 * [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2/)
 * [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course/)
 * [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation)
+* [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol)
 
 ### GitLab Collective
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
@@ -401,7 +405,6 @@ git push origin -f
 * [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
 * [github.blog: Security keys are now supported for SSH Git operations 🌟](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/)
 * [education.github.com](https://education.github.com/) Real-world tools, engaged students. GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
-* [GitHub Copilot 🌟](https://copilot.github.com/) Your AI pair programmer With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
 * [github.blog: GitHub brings supply chain security features to the Go community](https://github.blog/2021-07-22-github-supply-chain-security-features-go-community/) 
 * [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) We're deprecating password support for Git operations to keep you more secure. You can authenticate Git actions using:
     * SSH keys
@@ -440,6 +443,9 @@ git push origin -f
 * [github.blog: Getting started with project planning on GitHub](https://github.blog/2022-02-11-getting-started-with-project-planning-on-github/) Stop context switching. Keep your team’s project planning next to your code.
 * [freecodecamp.org: How to Fork a GitHub Repository – A Complete Workflow](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
 * [==levelup.gitconnected.com: GitHub may replace DockerHub==](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
+* [==github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers== 🌟](https://github.com/Lightning-AI/engineering-class) **This repository contains additional materials and show notes for the Lightning Bits: Engineering for Researchers video series.**
+    * [github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request on GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-ShowNotes.md)
+    * [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md#syncing-forks-with-upstream)
 
 ### GitHub Lab
 - [==lab.github.com== 🌟](https://lab.github.com) With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot.
@@ -508,6 +514,9 @@ git push origin -f
 - [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989) Using AI to generate Python scripts for simple neural networks, data visualization and more
 - [dev.to: GitHub Copilot blew my mind on a code-along exercise](https://dev.to/colocodes/github-copilot-blew-my-mind-on-a-code-along-exercise-186n)
 - [medium.com/@eriky: Copilot Is Genuinely Scary And Fascinating At The Same Time](https://medium.com/@eriky/copilot-is-genuinely-scary-and-fascinating-at-the-same-time-63ebcbf80899) It knows more than just programming languages
+- [GitHub Copilot is generally available to all developers](https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/) **We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.**
+- [xataka.com: GitHub Copilot, el asistente para programar basado en IA, ya está disponible para todos: cuánto cuesta y quienes lo pueden usar gratis](https://www.xataka.com/aplicaciones/github-copilot-asistente-para-escribir-codigo-basado-ia-esta-disponible-para-todos-esto-que-costara)
+- [genbeta.com: Ya hay organizaciones pro-software libre abandonando GitHub por su uso comercial de proyectos open source en Copilot](https://www.genbeta.com/desarrollo/hay-organizaciones-pro-software-libre-abandonando-github-su-uso-comercial-proyectos-open-source-copilot)
 
 #### GitHub CoPilot VS GPT-3
 - [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b)
@@ -633,8 +642,6 @@ Automate them.
 * [Bors-ng: A merge bot for GitHub Pull Requests](https://github.com/bors-ng/bors-ng)
 * [Example: CockroachDB's Bors Merge Bot](https://wiki.crdb.io/wiki/spaces/CRDB/pages/73204099/Bors+Merge+Bot)
 
----
-
 ## Videos
 ??? note "Click to expand!"
 
@@ -662,5 +669,11 @@ Automate them.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here are _some_ of the most essential git operations you will need when working as a developer.<br><br>🧵🔽 <a href="https://t.co/ZTUUObuj70">pic.twitter.com/ZTUUObuj70</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1374323799991054339?ref_src=twsrc%5Etfw">March 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Git is by far the most used source control management tool out there.<br><br>It is basially an essential to know. And this justifies knowing a few of the most important git commands you need in your daily work.<br><br>Here are 19 that any developer should know.<br><br>A thread. ↓ <a href="https://t.co/nLglrUWp6o">pic.twitter.com/nLglrUWp6o</a></p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1425461523426725891?ref_src=twsrc%5Etfw">August 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really cool and cute way to explain git commands.<br><br>By <a href="https://twitter.com/girlie_mac?ref_src=twsrc%5Etfw">@girlie_mac</a> <br><br>If you like this kind of tech doodles, check out her Github repo: <a href="https://t.co/2J3vEt6Eb9">https://t.co/2J3vEt6Eb9</a> <a href="https://t.co/wkBqlg9584">pic.twitter.com/wkBqlg9584</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1537825597413478401?ref_src=twsrc%5Etfw">June 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Free Git Courses for beginners<br>1. Git Started With GitHub -<a href="https://t.co/ajJlJUz34i">https://t.co/ajJlJUz34i</a><br>2. Introduction to Git - <a href="https://t.co/T0mIUkIBbB">https://t.co/T0mIUkIBbB</a><br>2. GIT 5-day Challenge - <a href="https://t.co/bj687fKJ8Y">https://t.co/bj687fKJ8Y</a><br>4. Command Line Essentials: - <a href="https://t.co/us18hMcw9P">https://t.co/us18hMcw9P</a><br>5. Git expert - <a href="https://t.co/AmRMZznQzu">https://t.co/AmRMZznQzu</a> <a href="https://t.co/FM6Oh2KGMD">pic.twitter.com/FM6Oh2KGMD</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1545716033302003713?ref_src=twsrc%5Etfw">July 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re a programmer, these 10 git commands will save you hours of research🧵👇</p>&mdash; Ujjwal Chadha (@ujjwalscript) <a href="https://twitter.com/ujjwalscript/status/1560115594640310272?ref_src=twsrc%5Etfw">August 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

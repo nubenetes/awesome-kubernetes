@@ -9,3 +9,4 @@
 - [cncf.io: Hosted Edge vs Cloud: the battle for latency and security 🌟](https://www.cncf.io/blog/2021/12/08/hosted-edge-vs-cloud-the-battle-for-latency-and-security)
 - [==developers.redhat.com: Bring your Kubernetes workloads to the edge==](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge)
 - [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture/)
+- [betterprogramming.pub: I Worked at Microsoft Cloud and Google Mobile for 3 Years — Here Are the Differences in Ecosystems](https://betterprogramming.pub/why-working-on-cloud-vs-mobile-edge-is-so-different-e32930f1c801) Why working on cloud vs. mobile (Edge) is so different?

@@ -28,6 +28,7 @@
 
 ## Introduction
 - [gitops.tech 🌟](https://www.gitops.tech/)
+- [OpenGitOps 🌟](https://opengitops.dev) OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.
 - [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops/)
 - [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really)
 - [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops)
@@ -142,6 +143,17 @@
 - [linkedin pulse: GitOps vs. DevOps! | Pavan Belagatti](https://www.linkedin.com/pulse/gitops-vs-devops-pavan-belagatti/)
 - [==containerjournal.com: GitOps Workflows and Principles for Kubernetes==](https://containerjournal.com/features/gitops-workflows-and-principles-for-kubernetes/)
 - [harness.io: 6 Actionable GitOps Best Practices To Help You Get Started](https://harness.io/blog/devops/6-gitops-best-practices/)
+- [==codefresh.io: How to Model Your Gitops Environments and Promote Releases between Them== 🌟](https://codefresh.io/blog/how-to-model-your-gitops-environments-and-promote-releases-between-them/) In this article, you'll learn how to use different folders on the same Git branch. Two questions after adopting GitOps are:
+	- How should I represent different environments on Git?
+	- How should I handle promoting releases between them?
+- [==piotrminkowski.com: Continuous Development on Kubernetes with GitOps Approach== 🌟](https://piotrminkowski.com/2022/06/06/continuous-development-on-kubernetes-with-gitops-approach/)
+- [==harness.io: Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos== 🌟](https://harness.io/blog/gitops-repo-structure) Declarative, immutable, and continuously reconciled infrastructure brings many benefits when managed through GitOps best practices. Here are four approaches to managing code used in those pipelines.
+	- Application and Infrastructure Code in One Repository
+	- Separate Infrastructure Repository, Multiple Branches
+	- Separate Infrastructure Repository, Directory-Based
+	- Multiple Infrastructure Repositories, One per Environment
+
+- [medium.com/codex: Points to Consider for Structuring Infrastructure as Code Repositories](https://medium.com/codex/points-to-consider-for-structuring-infrastructure-as-code-repositories-886ff58404b8) 
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -163,6 +175,11 @@
 ## Git Repositories Structures
 - [==dzone: GitOps: How to Ops Your Git the Right Way== 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 - [==codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments==](https://codefresh.io/about-gitops/branches-gitops-environments/) How do I promote a release to the next environment? **You should NOT use Git branches for modeling different environments. If the Git repository holding your configuration (manifests/templates in the case of Kubernetes) has branches named “staging”, “QA”, “Production” and so on, then you have fallen into a trap.** Using branches for different environments should only be applied to legacy applications.
+- [==developers.redhat.com: Git best practices: Workflows for GitOps deployments== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)
+	- Separate your repositories
+	- Separate development in directories, not branches
+	- Trunk-based development
+	- Pay attention to policies and security
 
 ## GitOps Tools
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
@@ -193,8 +210,15 @@
 - [Flux. The GitOps operator for Kubernetes](flux.md) 
 
 ### Kustomize. Kubernetes native configuration management
-- [kustomize.io 🌟](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+- [kustomize.io 🌟](https://kustomize.io/) 
+	- Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
+	- Kustomize traverses a Kubernetes manifest to add, remove or update configuration options without forking. 
+	- **It is available both as a standalone binary and as a native feature of kubectl.**
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627)
+- [pauldally.medium.com: Kustomize Best Practices (Part 1)](https://pauldally.medium.com/kustomize-best-practices-part-1-86f9f22d2f20) Kubectl includes a very useful command called kustomize that allows a template-free way to customize Kubernetes application configuration.
+	- [pauldally.medium.com: Kustomize Best Practices (Part 2)](https://pauldally.medium.com/kustomize-best-practices-part-2-c560f1fa1409)
+- [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3)
+- [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
 
 ### Flagger
 - [Flagger](https://flagger.app/) Progressive Delivery Operator for Kubernetes. Release new versions of your application/services to Kubernetes like a pro with Weaveworks's Flagger.

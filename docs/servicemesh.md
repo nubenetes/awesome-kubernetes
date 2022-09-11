@@ -111,6 +111,7 @@
 - [buoyant.io: Go directly to namespace jail: Locking down network traffic between Kubernetes namespaces](https://buoyant.io/2021/12/14/locking-down-network-traffic-between-kubernetes-namespaces)
 - [linkerd.io: Announcing automated multi-cluster failover for Kubernetes](https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/)
 - [thenewstack.io: Is Linkerd Winning the Service Mesh Race?](https://thenewstack.io/is-linkerd-winning-the-service-mesh-race/)
+- [medium.com/attest-product-and-technology: Debugging mislabelled route metrics from Linkerd](https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a)
 
 ## Maesh Service Mesh
 - [Maesh](https://containo.us/maesh/)

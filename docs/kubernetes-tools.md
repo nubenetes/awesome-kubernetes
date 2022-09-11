@@ -25,7 +25,6 @@
     - [Kubermatic Kubeone](#kubermatic-kubeone)
 - [Usernetes](#usernetes)
 - [k8syaml.com](#k8syamlcom)
-- [Komodor Workflows](#komodor-workflows)
 - [Popeye](#popeye)
 - [kbrew](#kbrew)
 - [KubExplorer](#kubexplorer)
@@ -72,6 +71,16 @@
 - [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
 - [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
 - [vcluster](#vcluster)
+- [Kateyes](#kateyes)
+- [Keepass Secret](#keepass-secret)
+- [Workflow Schedulers](#workflow-schedulers)
+    - [Komodor Workflows](#komodor-workflows)
+- [Azure Eraser](#azure-eraser)
+- [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
+- [ConfigMap Reloader](#configmap-reloader)
+- [Infra](#infra)
+- [Kluctl](#kluctl)
+- [Kubernetes Security Tools](#kubernetes-security-tools)
 - [Tweets](#tweets)
 - [Videos](#videos)
 
@@ -91,6 +100,8 @@
 - [youtube: 10 Must-Have Kubernetes Tools | DevOps Toolkit](https://www.youtube.com/watch?v=CB79eTFbR0w&feature=youtu.be&ab_channel=DevOpsToolkit)
 - [medium.com/container-talks: 7 Tools To Make Kubernetes Management Easy](https://medium.com/container-talks/7-tools-to-make-kubernetes-management-easy-ba8238e6ce8d)
 - [opensource.com: 5 open source tools for developing on the cloud](https://opensource.com/article/22/4/open-source-tools-developing-cloud) Here are a few IDEs that can improve your programming experience while using multiple cloud service providers.
+- [devtron.ai: 7 Tools To Make Kubernetes Management Easy](https://devtron.ai/blog/7-tools-to-make-kubernetes-management-easy/)
+- [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools#)
 
 ## K8s Tools
 * [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com/) An easier way to get the binaries you need 
@@ -102,7 +113,7 @@
 * [The Golden Kubernetes Tooling and Helpers list](https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w)
 * [kubech (kubectl change)](https://github.com/aabouzaid/kubech) Set kubectl contexts/namespaces per shell/terminal to manage multi Kubernetes cluster at the same time.
 * [Kubecle](https://github.com/rydogs/kubecle) is a web ui running locally that provides useful information about your kubernetes clusters. It is an alternative to Kubernetes Dashboard. Because it runs locally, you can access any kubernetes clusters you have access to
-* [Permission Manager](https://github.com/sighupio/permission-manager) is a project that brings sanity to Kubernetes RBAC and Users management, Web UI FTW
+* [==Permission Manager== 🌟](https://github.com/sighupio/permission-manager) **is a project that brings sanity to Kubernetes RBAC and Users management, Web UI FTW. Permission Manager is an application that enables a super-easy and user-friendly RBAC management for Kubernetes. With Permission Manager, you can create users, assign namespaces/permissions, and distribute Kubeconfig YAML files via a nice & easy web UI.**
 * [cloudnatively.com: Kubernetes client tools overview](https://www.cloudnatively.com/kubernetes-client-tools-overview/)
 * [==kubectx + kubens: : Power tools for kubectl==🌟🌟](https://github.com/ahmetb/kubectx) Faster way to switch between clusters and namespaces in kubectl 
 * [go-kubectx](https://github.com/aca/go-kubectx) 5x-10x faster alternative to kubectx. Uses client-go.
@@ -243,7 +254,6 @@
 * [kubeshell](https://github.com/roubles/kubeshell) is a command line tool to interactively shell in to (and out of) kubernetes pods.
 * [k8s-harness 🌟](https://github.com/carlosonunez/k8s-harness) lets you create a disposable Kubernetes cluster with **vagrant and Ansible to test your app in a prod-like environment**.
 * [Secret backup operator](https://github.com/geritol/secret-backup-operator) is an operator designed to backup secrets on a Kubernetes cluster. Backup happens when secrets are modified.
-* [Devtron 🌟](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go. Web based CI/CD Platform for Kubernetes.
 * [DevNation: 10 awesome kubernetes tools every user should know](https://bit.ly/kube-tools-1)
     * [developers.redhat.com: 10 awesome Kubernetes tools every user should know | DevNation Tech Talk (video)](https://developers.redhat.com/devnation/tech-talks/10-kubernetes-tools)
 * [HyScale 🌟](https://github.com/hyscale/hyscale) takes a declarative definition of your service config and it generates Dockerfile, Container Image, Kubernetes Manifests (YAMLs) and deploys to any Kubernetes Cluster
@@ -274,7 +284,6 @@
 * [kubectl-view-webhook 🌟](https://github.com/Trendyol/kubectl-view-webhook) Visualize your webhook configurations in Kubernetes.
 * [ContainerSSH: Launch containers on demand 🌟🌟](https://containerssh.io) ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users required.
 * [reconshell.com: Kubei – Kubernetes Runtime Vulnerabilities Scanner 🌟](https://reconshell.com/kubei-kubernetes-runtime-vulnerabilities-scanner/)
-* [Alcide Advisor: an agentless service for Kubernetes audit and compliance that's built to ensure a frictionless and secured DevSecOps workflow](https://github.com/alcideio/advisor)
 * [Lockbox: Offline encryption of Kubernetes Secrets](https://github.com/cloudflare/lockbox) Lockbox is a secure way to store Kubernetes Secrets offline. Secrets are asymmetrically encrypted, and can only be decrypted by the Lockbox Kubernetes controller. A companion CLI tool, locket, makes encrypting secrets a one-step process.
 * [openshift: Introducing kube-burner, A tool to Burn Down Kubernetes and OpenShift 🌟](https://www.openshift.com/blog/introducing-kube-burner-a-tool-to-burn-down-kubernetes-and-openshift) Kube-burner is a tool designed to stress different OpenShift components basically by coordinating the creation and deletion of k8s resources. Along this blog series we’ll talk about how to use it in OpenShift 4.
     * [github.com/cloud-bulldozer/kube-burner](https://github.com/cloud-bulldozer/kube-burner) Kube-burner is a tool aimed at stressing Kubernetes clusters by creating or deleting a high quantity of objects
@@ -292,7 +301,7 @@
 * [Armada](https://github.com/G-Research/armada) A multi-cluster batch queuing system for high-throughput workloads on Kubernetes. Armada is an application to achieve high throughput of run-to-completion jobs on multiple Kubernetes clusters. It stores queues for users/projects with pod specifications and creates these pods once there is available resource in one of the connected Kubernetes clusters.
 * [Ko: Easy Go Containers 🌟](https://github.com/google/ko) Build and deploy Go applications on Kubernetes
 * [Kubetail 🌟](https://github.com/johanhaleby/kubetail) Bash script to tail Kubernetes logs from multiple pods at the same time
-    * [Stern 🌟](https://github.com/wercker/stern) Multi pod and container log tailing for Kubernetes
+    * [Stern 🌟](https://github.com/stern/stern) Multi pod and container log tailing for Kubernetes. Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging -- Friendly fork of https://github.com/wercker/stern
 * [kubestr 🌟](https://kubestr.io/) Explore your Kubernetes storage options. Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
 * [KubeEye: An Automatic Diagnostic Tool that Provides a Holistic View of Your Kubernetes Cluster 🌟](https://kubesphere.io/blogs/kubeeye-automatic-cluster-diagnostic-tool/)
 * [k8gb 🌟](https://github.com/k8gb-io/k8gb) A cloud native Kubernetes Global Balancer [k8gb.io](https://www.k8gb.io/)
@@ -313,7 +322,7 @@
 * [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
 * [ingressbuilder.jetstack.io 🌟🌟](https://ingressbuilder.jetstack.io) Ingress Builder allows users to select any annotation from the list of available controllers, to add to the ingress manifest.
 * [Jetstack Secure Agent 🌟🌟](https://github.com/jetstack/preflight) **Automatically perform Kubernetes cluster configuration checks using Open Policy Agent (OPA)**
-* [Replicated Troubleshoot](https://github.com/replicatedhq/troubleshoot) Preflight Checks and Support Bundles Framework for Kubernetes Applications. Replicated Troubleshoot is a framework for collecting, redacting, and analyzing highly customizable diagnostic information about a Kubernetes cluster. Troubleshoot specs are created by 3rd-party application developers/maintainers and run by cluster operators in the initial and ongoing operation of those applications.
+* [Replicated Troubleshoot 🌟](https://github.com/replicatedhq/troubleshoot) Troubleshoot is a framework for collecting, redacting, and analyzing highly customizable diagnostic information about a Kubernetes cluster. 
 * [outdated.sh 🌟](https://outdated.sh/) A kubectl plugin to show out-of-date images running in a cluster.
 * [kubestriker 🌟](https://github.com/vchinnipilli/kubestriker) A Blazing fast Security Auditing tool for Kubernetes. Kubestriker is a platform-agnostic tool designed to tackle Kuberenetes cluster security issues due to misconfigurations and will help strengthen the overall IT infrastructure of any organisation.
 * [KubeEye 🌟](https://github.com/kubesphere/kubeeye) KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems.
@@ -355,6 +364,7 @@
 * [nerdctl 🌟](https://github.com/containerd/nerdctl) Docker-compatible CLI for containerd
 * [El Carro: The Oracle Operator for Kubernetes 🌟](https://github.com/GoogleCloudPlatform/elcarro-oracle-operator) El Carro is a new project that offers a way to run Oracle databases in Kubernetes as a portable, open source, community driven, no vendor lock-in container orchestration system. El Carro provides a powerful declarative API for comprehensive and consistent configuration and deployment as well as for real-time operations and monitoring.
 * [jspolicy](https://github.com/loft-sh/jspolicy) jsPolicy is an operator that helps you define Kubernetes Policies using JavaScript or TypeScript. Easier & Faster Kubernetes Policies using JavaScript or TypeScript.
+    * [blog.ediri.io: Writing Kubernetes policies with jsPolicy and deploy them via FluxCD](https://blog.ediri.io/writing-kubernetes-policies-with-jspolicy) In this tutorial, you will learn how to write Kubernetes policies using JavaScript/Typescript with the help of jsPolicy and deploy them via GitOps using Flux
 * [k8scr 🌟](https://github.com/hasheddan/k8scr) A kubectl plugin for pushing OCI images through the Kubernetes API server.
 * [jsonnet-controller](https://github.com/pelotech/jsonnet-controller) A fluxcd controller for managing manifests declared in jsonnet.
 * [rback: RBAC in Kubernetes visualizer 🌟🌟](https://github.com/team-soteria/rback) A simple "RBAC in Kubernetes" visualizer. No matter how complex the setup, rback queries all RBAC related information of an Kubernetes cluster in constant time and generates a graph representation of service accounts, (cluster) roles, and the respective access rules in dot format.
@@ -484,6 +494,38 @@
     * https://cuber.cloud/ 🌟
 * [==kubeops/config-syncer: Config Syncer (previously Kubed)==](https://github.com/kubeops/config-syncer) Kubernetes Config Syncer (previously kubed). **Config Syncer keeps ConfigMaps and Secrets synchronized across namespaces and/or clusters**
 * [eldadru/ksniff 🌟](https://github.com/eldadru/ksniff) Kubectl plugin to ease sniffing on kubernetes pods using tcpdump and wireshark
+* [openclarity/kubeclarity](https://github.com/openclarity/kubeclarity) KubeClarity is a tool for detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
+    * [medium.com/@ryan.dardis: KubeClarity — Cloud-Native Security Scanning for your Kubernetes Cluster and more](https://medium.com/@ryan.dardis/kubeclarity-cloud-native-security-scanning-for-your-kubernetes-cluster-and-more-7c3ee6a16556)
+* [==NimbleArchitect/kubectl-ice== 🌟](https://github.com/NimbleArchitect/kubectl-ice) Cleanly list all containers in kubernetes pods including init containers and view running kubernetes information about those multi-container pods to assist in troubleshooting and information gathering. kubectl-ice is a kubectl plugin that lets you see the configuration of all pod's containers. You can inspect volumes, images, ports and executable configurations, along with current CPU and memory metrics at the container level.
+* [==vmware-tanzu/k-bench== 🌟](https://github.com/vmware-tanzu/k-bench) Workload Benchmark for Kubernetes. K-Bench is a framework to benchmark the control and data plane aspects of a Kubernetes infrastructure. It provides a configurable way to prescriptively create and manipulate Kubernetes resources at scale and collect the metrics.
+* [k8tz/k8tz: Kubernetes Timezone Controller](https://github.com/k8tz/k8tz) Kubernetes admission controller and a CLI tool to inject timezones into Pods and CronJobs
+* [patrickdappollonio/tabloid: tabloid -- your tabulated data's best friend](https://github.com/patrickdappollonio/tabloid) tabloid is a simple command line tool to parse and filter column-based CLI outputs from commands like kubectl or docker
+* [ReallyLiri/kubescout: Kube-Scout](https://github.com/ReallyLiri/kubescout) Scout for alarming issues across your Kubernetes clusters. kubescout is a command-line tool designed to issue alerts in real-time for:
+    * Pod evictions
+    * Pod stuck in terminating/initializing
+    * Excessive disk usage, process & inode allocation
+    * Warning/errors in native logs
+    * Helm failures
+    * etc
+
+* [govirtuo/kube-ns-suspender 🌟](https://github.com/govirtuo/kube-ns-suspender) A k8s controller that scales up and down namespaces on-demand with an embedded friendly UI and a Prometheus exporter. Inspired by [kube-downscaler](https://codeberg.org/hjacobs/kube-downscaler).**Kube-ns-suspender watches namespaces and "suspends" them by scaling to 0 some of the resources. Once a namespace is suspended, it will not be restarted automatically. This allows to "reactivate" namespaces only when required and reduces costs**
+* [codeberg.org/hjacobs/kube-downscaler: Kubernetes Downscaler 🌟](https://codeberg.org/hjacobs/kube-downscaler) **Scale down / "pause" Kubernetes workload (Deployments, StatefulSets, and/or HorizontalPodAutoscalers and CronJobs too !) during non-work hours.**
+* [deepfence/PacketStreamer](https://github.com/deepfence/PacketStreamer) ⭐⭐ Distributed tcpdump for cloud native environments ⭐⭐ PacketStreamer is a high-performance remote packet capture and collection tool. It is used by Deepfence's ThreatStryker security observability platform to gather network traffic on demand from cloud workloads for forensic analysis.
+* [kris-nova/kaar](https://github.com/kris-nova/kaar) kaar is the Kubernetes Application Archive. kaar will:
+    * Recursively iterate through every file in the path and search for valid Kubernetes YAML
+    * Identify all container images referenced from the YAML
+    * Archive the container images
+
+* [mohatb/kubectl-exec](https://github.com/mohatb/kubectl-exec) kubectl-exec is a kubectl plugin that allows you to access a node. It works by creating a pod (with a privileged container) in the node you specified and using nsenter for getting a shell into your Kubernetes nodes. Works on both Linux and Windows.
+* [kudobuilder/kuttl](https://github.com/kudobuilder/kuttl) KUbernetes Test TooL (KUTTL) provides a declarative approach to test Kubernetes Operators. It is designed for testing operators, however it can declaratively test any kubernetes objects.
+* [==steveteuber/kubectl-graph== ⭐](https://github.com/steveteuber/kubectl-graph) **A kubectl plugin to visualize Kubernetes resources and relationships.**
+* [crazy-max/diun](https://github.com/crazy-max/diun) Diun is a CLI application written in Go and delivered as a single executable (and a Docker image) to receive notifications when a Docker image is updated on a Docker registry.
+* [==omrikiei/ktunnel== ⭐](https://github.com/omrikiei/ktunnel) **A cli that exposes your local resources to kubernetes. A CLI tool that establishes a reverse tunnel between a kubernetes cluster and your local machine.**
+* [dev.to: Pixie: an X-ray Machine for Kubernetes Traffic](https://dev.to/otomato_io/pixie-an-x-ray-machine-for-kubernetes-traffic-23pd) Pixie is one of a handful of observability tools that offer eBPF or kernel-level observability. In this tutorial, you will learn how to see all of your applications' metrics, events, logs, and traces using Pixie with Kubernetes.
+* [plural.sh: Deploy open-source software on Kubernetes in record time ⭐](https://www.plural.sh/) An open-source platform to build, maintain, and scale infrastructure on Kubernetes. Batteries included.
+    * [medium.com/@michaeljguarino: How we Created an in-Browser Kubernetes Experience](https://medium.com/@michaeljguarino/how-we-created-an-in-browser-kubernetes-experience-58c065cda803)
+* [pan-net-security/kcount](https://github.com/pan-net-security/kcount) kcount counts Kubernetes objects across namespaces and clusters. It can be used as a CLI tool or as a daemon (service) exposing Prometheus metrics.
+* [cloudtty/cloudtty: A Kubernetes Cloud Shell (Web Terminal) Operator](https://github.com/cloudtty/cloudtty) A Friendly Kubernetes CloudShell (Web Terminal) !
 
 ## Penetration Testing Tools
 * [intellipaat.com: What is Penetration Testing?](https://intellipaat.com/blog/what-is-penetration-testing) Penetration testing is otherwise referred to as pen testing. This blog on ‘What is Penetration Testing? - Types, Phases, Tools Explained’ discusses in detail what pen testing is and how it works, the numerous tools involved in this field, and so on. This blog aims to give you an insight into pen testing and how Ethical Hackers use it for the purpose of Cyber Security. Let’s dive right in.
@@ -539,7 +581,9 @@
 - [open source PxL scripts](https://github.com/pixie-labs/pixie/tree/main/pxl_scripts)
 
 ## Dekorate. Generate k8s manifests for java apps
-* [dekorate.io](http://dekorate.io/)
+* [==dekorate.io== 🌟🌟🌟](http://dekorate.io/) - https://github.com/dekorateio/dekorate
+* Dekorate is a collection of Java compile-time generators and decorators for Kubernetes manifests. You can generate a manifest by adding a dependency to the classpath of your project. You can also customize it with an annotation or application property
+* One-stop jar to Kubernetes manifest generation that works for all jvm languages regardless of the build tool. It makes generating Kubernetes manifests as easy as adding a dependency to the classpath!
 * [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications/)
 
 ## Kubesploit
@@ -572,6 +616,7 @@
 ## MetalLB
 - [MetalLB](https://github.com/metallb/metallb) A network load-balancer implementation for Kubernetes using standard routing protocols
 - [medium.com/@charled.breteche: Kind, Cilium, MetalLB, and still no kube-proxy](https://medium.com/@charled.breteche/kind-cilium-metallb-and-no-kube-proxy-a9fe66ddfad6) In this article I will show you how to add MetalLB into the mix to enable services of type LoadBalancer to work in your local cluster.
+- [patrick.easte.rs: Forging an optimal MetalLB configuration](https://patrick.easte.rs/post/2022/forging-optimal-metallb-config/) MetalLB discovers services needing load balancers, allocates IP addresses, and advertises them. There are 2 primary modes for announcing load balancers: Layer 2 and 3 (BGP). Each mode has its pros and cons and this article compares them.
 
 ## Kubermatic Kubernetes Platform
 - [Kubermatic Kubernetes Platform 🌟](https://github.com/Kubermatic/Kubermatic) is an open source project to centrally manage the global automation of thousands of Kubernetes clusters across multicloud, on-prem and edge with unparalleled density and resilience.
@@ -586,13 +631,6 @@
 
 ## k8syaml.com
 - [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
-
-## Komodor Workflows
-- [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
-
-<center>
-[![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
-</center>
 
 ## Popeye
 - [Popeye - A Kubernetes Cluster Sanitizer 🌟🌟](https://github.com/derailed/popeye) Popeye is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. By scanning your cluster, it detects misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches. It aims at reducing the cognitive overload one faces when operating a Kubernetes cluster in the wild. Furthermore, if your cluster employs a metric-server, it reports potential resources over/under allocations and attempts to warn you should your cluster run out of capacity.
@@ -648,6 +686,7 @@
 - [itnext.io: Karpenter: Open-Source, High-Performance Kubernetes Cluster Autoscaler](https://itnext.io/karpenter-open-source-high-performance-kubernetes-cluster-autoscaler-d56e3ab06aae)
 - [blog.kloia.com: Karpenter Cluster Autoscaler](https://blog.kloia.com/karpenter-cluster-autoscaler-76d7f7ec0d0e)
 - [infoq.com: AWS Releases Multi-Cloud Kubernetes Autoscaler Karpenter](https://www.infoq.com/news/2022/01/karpenter-kubernetes-autoscaler/)
+- [aws.amazon.com: Using Amazon EC2 Spot Instances with Karpenter](https://aws.amazon.com/blogs/containers/using-amazon-ec2-spot-instances-with-karpenter/) Karpenter is a dynamic, high-performance cluster auto-scaling solution for the Kubernetes platform. In this blog post, we will look at how to use Karpenter with EC2 Spot Instances and handle Spot Instance interruptions.
 
 ## Kuby (easy deployments of Ruby Rails App)
 - [Kuby](https://getkuby.io/) Deploy Your Rails App the Easy Way. Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt.
@@ -694,8 +733,9 @@
 ## KuberLogic
 - [kuberlogic](https://github.com/kuberlogic/kuberlogic) Kuberlogic is an open-source product that deploys and manages software on top of the Kubernetes cluster and turns infrastructure into a managed PaaS. KuberLogic is that allows running managed databases and popular applications deploying on-premises or at any cloud. The solution provides API, monitoring, backups, and integration with SSO right out of the box
 
-## Kusk
+## Kusk 
 - [kubeshop/kusk: use OpenAPI to configure Kubernetes](https://github.com/kubeshop/kusk) Kusk makes your OpenAPI definition the source of truth for API resources in your cluster. Kusk treats your OpenAPI/Swagger definition as a source of truth for generating supplementary Kubernetes resources for your REST APIs in regard to mappings, security, traffic-control, monitoring, etc.
+- [medium.com/kubeshop-i: Rapidly prototype your APIs on Kubernetes with Kusk Gateway — Kubeshop 🌟](https://medium.com/kubeshop-i/rapidly-prototype-your-apis-on-kubernetes-with-kusk-gateway-kubeshop-4006f030e8e4)
 
 ## Azure AD Workload Identity
 - [==Azure/azure-workload-identity==](https://github.com/Azure/azure-workload-identity) Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods. It simplifies accessing Azure AD protected resources securely from Kubernetes workloads.
@@ -737,7 +777,10 @@
 - [gardener/terraformer: Terraformer](https://github.com/gardener/terraformer) Executes Terraform configuration as job/pod inside a Kubernetes cluster. Terraformer is a tool that can execute Terraform commands (apply, destroy and validate) and can be run as a Pod inside a Kubernetes cluster. The Terraform configuration and state files (main.tf, variables.tf, terraform.tfvars and terraform.tfstate) are stored as ConfigMaps and Secrets in the Kubernetes cluster and will be retrieved and updated by Terraformer.
 
 ## Werf
-- [==werf/werf==](https://github.com/werf/werf) The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism. Werf is an Open Source CLI tool written in Go, designed to simplify and speed up the delivery of applications. To use it, you need to describe the configuration of your application (in other words, how to build and deploy it to Kubernetes) and store it in a Git repo — the latter acts as a single source of truth. In short, that's what we call **GitOps** today.
+- [==werf/werf==](https://github.com/werf/werf) 
+- The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism. Werf is an Open Source CLI tool written in Go, designed to simplify and speed up the delivery of applications. To use it, you need to describe the configuration of your application (in other words, how to build and deploy it to Kubernetes) and store it in a Git repo — the latter acts as a single source of truth. In short, that's what we call **GitOps** today.
+- A solution for implementing efficient/consistent software delivery to Kubernetes. It covers the entire life cycle of CI/CD and related artifacts, gluing commonly used tools (Git, Docker, Helm, K8s, gitops).
+- [werf/kubedog](https://github.com/werf/kubedog) Kubedog is a library to watch and follow Kubernetes resources in CI/CD deploy pipelines. This library is used in the werf CI/CD tool to track resources during deploy process.
 
 ## Starboard kubernetes-native security toolkit
 - [==aquasecurity/starboard==](https://github.com/aquasecurity/starboard) Kubernetes-native security toolkit. Starboard is a completely open source tool that integrates with other security tools to scan your workloads and make security reports accessible through the Kubernetes API - K8s all the way 🚀
@@ -767,6 +810,46 @@
 ## vcluster
 * [vcluster.com](https://www.vcluster.com) Virtual Kubernetes Clusters that run inside regular namespaces. Create fully functional virtual Kubernetes clusters - Each vcluster runs inside a namespace of the underlying k8s cluster. It's cheaper than creating separate full-blown clusters and it offers better multi-tenancy and isolation than regular namespaces.
 * [thenewstack.io: Locking Down Kubernetes Containers with vcluster](https://thenewstack.io/locking-down-kubernetes-containers-with-vcluster/)
+
+## Kateyes
+- [kateyes.co.uk](https://www.kateyes.co.uk/) Explore Kubernetes, visually! Kateyes is an application that provides a visual representation of the relationships between Kubernetes objects, from an application perspective.
+- [blog.devops.dev: Kateyes — Visual Kubernetes Explorer](https://blog.devops.dev/kateyes-visual-kubernetes-explorer-c40510874969) Kubernetes is hard and so is exploring a Kubernetes cluster!
+
+## Keepass Secret
+- [rene6502/keepass-secret ](https://github.com/rene6502/keepass-secret) keepass-secret is a command-line tool that converts entries from a KeePass 2.3 file into Kubernetes secrets. This tool was created to automatically create Kubernetes Secret in CI/CD pipelines to deploy workloads to Kubernetes clusters.
+
+## Workflow Schedulers
+- [Devtron 🌟](https://github.com/devtron-labs/devtron) is an open source software delivery workflow for kubernetes written in go. Web based CI/CD Platform for Kubernetes.
+- [Alcide Advisor: an agentless service for Kubernetes audit and compliance that's built to ensure a frictionless and secured DevSecOps workflow](https://github.com/alcideio/advisor)
+
+### Komodor Workflows
+- [komodor.com: Komodor Workflows: Automated Troubleshooting at the Speed of WHOOSH!](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+
+## Azure Eraser
+- [github.com/Azure/eraser 🌟](https://github.com/Azure/eraser) 🧹 Cleaning up images from Kubernetes nodes. **Eraser is a tool that helps Kubernetes admins remove a list of non-running images from all Kubernetes nodes in a cluster**
+
+<center>
+[![komodor workflow](images/komodor_workflow.png)](https://komodor.com/blog/using-workflows-to-troubleshoot-like-a-pro/)
+</center>
+
+## Data Pipeline Workflow Schedulers
+- [apache/dolphinscheduler: Apache DolphinScheduler 🌟](https://github.com/apache/dolphinscheduler) - [dolphinscheduler.apache.org](https://dolphinscheduler.apache.org) is a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.
+
+## ConfigMap Reloader
+- https://github.com/stakater/Reloader 🌟
+- [medium.com/linux-shots: ConfigMap Reloader — Automatically reload new data from ConfigMap/Secret to deployments](https://medium.com/linux-shots/configmap-secret-reloader-automatically-add-reload-data-from-configmap-secret-to-deployments-dc245e06b92c)
+    - ConfigMaps and Secrets are way to inject environment variables and application configurations to a Pod in Kubernetes. Sometimes and sometime many times, we need to change the value of environment variables or configurations. For that we need to update ConfigMap/Secret.
+    - In Kubernetes, When we make some changes to a ConfigMap or Secret, new data is not automatically propagated to the pods from that configmap/secret. We often need to restart the pods to load new data.
+    - This can be achieved using a tool ‘Reloader’. It is a Kubernetes controller which watch the changes made to secrets and ConfigMaps and perform rolling upgrades on pods with their associated Deployments, StatefulSets or DaemonSets. It is an Opensource tool provided by Stakater who also provide various other enterprise K8s solutions.
+
+## Infra
+- [infrahq/infra 🌟](https://github.com/infrahq/infra) Infra enables you to discover and access infrastructure (e.g. Kubernetes, databases). It helps you connect an identity provider such as Okta or Azure active directory, and map users/groups with the permissions you set to your infrastructure.
+
+## Kluctl
+- [kluctl.io 🌟](https://kluctl.io) Kluctl is the missing glue to put together large Kubernetes deployments. It allows you to declare and manage multi-environment and multi-cluster deployments. Kluctl does not have cluster-side dependencies and works out of the box.
+
+## Kubernetes Security Tools
+- [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) RBAC-police is a CLI tool that lets you evaluate the RBAC permissions of service accounts, pods and nodes in Kubernetes clusters through policies written in Rego
 
 ## Tweets
 <details>

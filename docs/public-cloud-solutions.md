@@ -8,6 +8,7 @@
 - [IoT Cloud](#iot-cloud)
 - [GAIA-X](#gaia-x)
 - [Outages](#outages)
+- [Podcasts](#podcasts)
 - [Videos](#videos)
 - [Twitter](#twitter)
 ## Public Cloud References
@@ -19,6 +20,7 @@
 
 ## Multi-Cloud and Multi-Tool Concerns
 - [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services/) Only 8% of IT professionals surveyed around the globe believe they are getting the most from the cloud. A staggering 76% said they think their company is hitting a 'wall' as many of the daily tools were not designed to unify a multi-cloud, multi-tool world. 73% of the respondents agreed that they'd reached a point where they are struggling with efficiency scaling cloud efforts. Complexities with cloud adoption have increased, meaning that many business units and engineers within an organization decide to find isolated local solutions. That translates to companies having thousands of 'islands of automation' across teams, business units, subsidiaries, and locations. **Close to 63% of respondents said cyber threats specifically targeting cloud services were the main obstacle to cloud adoption.** Unsurprisingly, 60% said that the lack of security solutions protecting cross-platform environments was the critical hindrance for smoother general cloud adoption.
+- [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)
 
 ## Public Cloud Services Comparison
 * [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
@@ -37,6 +39,8 @@
 * [acloudguru.com: Storage services compared: AWS vs Azure vs GCP](https://acloudguru.com/blog/engineering/storage-showdown-aws-vs-azure-vs-gcp-cloud-comparison)
 * [thenewstack.io: Is a Multicloud Strategy Right for Your Organization?](https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization/)
 * [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)
+* [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)
+* [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
 
 ## Openshift as a Service
 * [Openshift.com pricing](https://www.openshift.com/products/pricing/)
@@ -77,6 +81,9 @@
 - [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834/)
 - [faun.pub: Multi-Cloud is NOT the solution to the next AWS outage](https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573)
 
+## Podcasts
+- [hablemosdenube.com](https://www.hablemosdenube.com) 
+
 ## Videos
 ??? note "Click to expand!"
 
@@ -92,4 +99,6 @@
 
     <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloud Computing Cheat-sheet<a href="https://twitter.com/hashtag/infosec?src=hash&amp;ref_src=twsrc%5Etfw">#infosec</a> <a href="https://twitter.com/hashtag/cybersecurity?src=hash&amp;ref_src=twsrc%5Etfw">#cybersecurity</a> <a href="https://twitter.com/hashtag/pentesting?src=hash&amp;ref_src=twsrc%5Etfw">#pentesting</a> <a href="https://twitter.com/hashtag/oscp?src=hash&amp;ref_src=twsrc%5Etfw">#oscp</a> <a href="https://twitter.com/hashtag/informationsecurity?src=hash&amp;ref_src=twsrc%5Etfw">#informationsecurity</a> <a href="https://twitter.com/hashtag/hacking?src=hash&amp;ref_src=twsrc%5Etfw">#hacking</a> <a href="https://twitter.com/hashtag/cissp?src=hash&amp;ref_src=twsrc%5Etfw">#cissp</a> <a href="https://twitter.com/hashtag/redteam?src=hash&amp;ref_src=twsrc%5Etfw">#redteam</a> <a href="https://twitter.com/hashtag/technology?src=hash&amp;ref_src=twsrc%5Etfw">#technology</a> <a href="https://twitter.com/hashtag/DataSecurity?src=hash&amp;ref_src=twsrc%5Etfw">#DataSecurity</a> <a href="https://twitter.com/hashtag/CyberSec?src=hash&amp;ref_src=twsrc%5Etfw">#CyberSec</a> <a href="https://twitter.com/hashtag/Hackers?src=hash&amp;ref_src=twsrc%5Etfw">#Hackers</a> <a href="https://twitter.com/hashtag/tools?src=hash&amp;ref_src=twsrc%5Etfw">#tools</a> <a href="https://twitter.com/hashtag/bugbountytips?src=hash&amp;ref_src=twsrc%5Etfw">#bugbountytips</a> <a href="https://twitter.com/hashtag/Linux?src=hash&amp;ref_src=twsrc%5Etfw">#Linux</a> <a href="https://twitter.com/hashtag/infosec?src=hash&amp;ref_src=twsrc%5Etfw">#infosec</a> <a href="https://twitter.com/hashtag/itsecurity?src=hash&amp;ref_src=twsrc%5Etfw">#itsecurity</a> <a href="https://twitter.com/hashtag/cybersecuritytips?src=hash&amp;ref_src=twsrc%5Etfw">#cybersecuritytips</a> <a href="https://twitter.com/hashtag/securitybreach?src=hash&amp;ref_src=twsrc%5Etfw">#securitybreach</a> <a href="https://twitter.com/hashtag/cloud?src=hash&amp;ref_src=twsrc%5Etfw">#cloud</a> <a href="https://twitter.com/hashtag/CloudComputing?src=hash&amp;ref_src=twsrc%5Etfw">#CloudComputing</a> <a href="https://t.co/882eGe5C8A">pic.twitter.com/882eGe5C8A</a></p>&mdash; Shubham Sharma (@Shubham_pen) <a href="https://twitter.com/Shubham_pen/status/1492721443527819265?ref_src=twsrc%5Etfw">February 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">“How to Learn Kubernetes, AWS, Azure, and Google Cloud using Whizlabs Hands-on Labs ?” <a href="https://t.co/zzeN0rHcSB">https://t.co/zzeN0rHcSB</a> <a href="https://twitter.com/hashtag/Whizlabs?src=hash&amp;ref_src=twsrc%5Etfw">#Whizlabs</a> <a href="https://twitter.com/hashtag/CloudComputing?src=hash&amp;ref_src=twsrc%5Etfw">#CloudComputing</a> <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://t.co/45nlPAxQuR">pic.twitter.com/45nlPAxQuR</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1556279055103713280?ref_src=twsrc%5Etfw">August 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

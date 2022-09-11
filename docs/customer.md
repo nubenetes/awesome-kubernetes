@@ -1,12 +1,15 @@
 # Customer Success Stories. Cloud Native Projects
 - [BMW IT-Zentrum (Munich)](#bmw-it-zentrum-munich)
-	- [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
-	- [BMW InnovationLab](#bmw-innovationlab)
+  - [BMW ConnectedDrive and OpenShift](#bmw-connecteddrive-and-openshift)
+  - [BMW InnovationLab](#bmw-innovationlab)
 - [Audi](#audi)
 - [Volkswagen](#volkswagen)
+- [Mercedes Benz](#mercedes-benz)
 - [Carrefour Spain](#carrefour-spain)
 - [Decathlon](#decathlon)
 - [Deutsche Telekom](#deutsche-telekom)
+- [AstraZeneca](#astrazeneca)
+- [AI for Medical Imaging](#ai-for-medical-imaging)
 - [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
@@ -45,6 +48,12 @@
 ## Volkswagen 
 - [redhat.com: The Volkswagen Group builds automated testing environment](https://www.redhat.com/en/success-stories/the-volkswagen-group)
 
+## Mercedes Benz 
+- [infoworld.com: Why Mercedes-Benz runs on 900 Kubernetes clusters](https://www.infoworld.com/article/3664052/why-mercedes-benz-runs-on-900-kubernetes-clusters.html) The German automaker runs a massive fleet of Kubernetes clusters to support a wide range of project teams around the world. ‘For us, managing Kubernetes is not that hard.’
+- [github.com/mercedes-benz](https://github.com/mercedes-benz)
+- [genbeta.com: El software de los coches de Mercedes contiene código abierto y en vez de distribuirlo en GitHub usan un CD](https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd)
+- [youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens Erat, Peter Mueller, Sabine Wolz](https://www.youtube.com/watch?v=UmbjwSK9b3I)
+
 ## Carrefour Spain
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
 
@@ -53,6 +62,12 @@
 
 ## Deutsche Telekom
 - [thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops/)
+
+## AstraZeneca
+- [aws.amazon.com: AstraZeneca’s Drug Design Program Built using AWS wins Innovation Award](https://aws.amazon.com/blogs/industries/astrazenecas-drug-design-program-built-using-aws-wins-innovation-award/)
+
+## AI for Medical Imaging
+- [healthitanalytics.com: AI for Medical Imaging Boosts Cancer Screenings with Provider Aid](https://healthitanalytics.com/news/ai-for-medical-imaging-boosts-cancer-screenings-with-provider-aid)
 
 ## Videos
 <details>
@@ -70,6 +85,8 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/aGQF5RvByNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlguwy9JMSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7-4yOx1CnXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?start=2024" frameborder="0" allowfullscreen></iframe>
   </center>
 
 </details>

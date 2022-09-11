@@ -3,6 +3,7 @@
 - [eBooks](#ebooks)
 - [AWS Certification](#aws-certification)
 - [Closed groups for AWS certified professionals](#closed-groups-for-aws-certified-professionals)
+- [Tweets](#tweets)
 ## Introduction
 - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer/)
 - [acloudguru.com](https://acloudguru.com/)
@@ -35,3 +36,12 @@
 - [AWS Certified Solutions Architect Professional – Study Guide](https://blue-clouds.com/category/study-guide/)
 - [aws.amazon.com: First AWS Certification Study Guide Now Available](https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available/)
 - [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/pulse/passed-aws-certified-solutions-architect-level-harshit-agarwal)
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝐃𝐨 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐬𝐨𝐦𝐞 𝐦𝐨𝐫𝐞 𝐡𝐚𝐧𝐝𝐬-𝐨𝐧 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐨𝐧 𝐀𝐖𝐒?<br><br>AWS offers amazing workshops for free!<br><br>Let&#39;s take a look at some interesting ones 🧵 <a href="https://t.co/wbcJJFVsuR">pic.twitter.com/wbcJJFVsuR</a></p>&mdash; Sandro Volpicella (@sandro_vol) <a href="https://twitter.com/sandro_vol/status/1556900884860264449?ref_src=twsrc%5Etfw">August 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

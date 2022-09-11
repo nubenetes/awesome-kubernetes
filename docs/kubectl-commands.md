@@ -44,16 +44,22 @@
 * [cloudsavvyit.com: How to Restart Kubernetes Pods with Kubectl](https://www.cloudsavvyit.com/14587/how-to-restart-kubernetes-pods-with-kubectl/)
 * [technos.medium.com: How kubectl apply command works?](https://technos.medium.com/how-kubectl-apply-command-works-d092121056d3)
 * [containiq.com: Using kubectl exec | Shell Commands & Examples](https://www.containiq.com/post/using-kubectl-exec-shell-commands-examples) kubectl exec lets you start a shell session to containers running in your Kubernetes cluster. It’s a bit like SSH for Kubernetes. Here’s what you need to know to use this command as part of your cluster management procedures, including the cases where it makes the most sense.
+* [blogs.nakam.org: What Happens When? K8s Edition 🌟](https://blogs.nakam.org/what-happens-when-k8s-edition) What happens when you do kubectl create deploy nginx --image=nginx --replicas=3
+* [inlets.dev: Fixing the Developer Experience of Kubernetes Port Forwarding](https://inlets.dev/blog/2022/06/24/fixing-kubectl-port-forward.html) This article shows you some of the frustrations of using kubectl for port-forwarding and how to fix the developer experience.
+* [==medium.com/swlh: Break Down Kubernetes Server-Side Apply (Advanced kubectl)== 🌟](https://medium.com/swlh/break-down-kubernetes-server-side-apply-5d59f6a14e26) Are you already using the SSA? Do you know the difference between CSA and SSA?
+* [containiq.com: Kubectl Config Set-Context | Tutorial and Best Practices](https://www.containiq.com/post/kubectl-config-set-context-tutorial-and-best-practices) Kubernetes comes with many tools to help you manage your clusters, including kubectl set-context. In this guide, you'll learn how to use this command to manipulate contexts in your kubeconfig file, as well as best practices for doing so.
+
 
 ## Kubectl Cheat Sheets
 * [Kubectl Cheat Sheets](cheatsheets.md)
 
 ## Kubectl aliases
-- [ahmetb/kubectl-aliases](https://github.com/ahmetb/kubectl-aliases) Programmatically generated handy kubectl aliases.
+- [ahmetb/kubectl-aliases](https://github.com/ahmetb/kubectl-aliases) Programmatically generated handy kubectl aliases. This repository contains a script to generate hundreds of convenient shell aliases for kubectl, so you no longer need to spell out every single command and --flag over and over again
+- [blog.devgenius.io: Daily useful Kubernetes aliases](https://blog.devgenius.io/daily-useful-kubernetes-aliases-c35f7f411f39)
 
 ## Kubectl explain
 - [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain/)
-- [itnext.io: Using ‘kubectl explain’ for Custom Resources](https://itnext.io/understanding-kubectl-explain-9d703396cc8) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
+- [==itnext.io: Using ‘kubectl explain’ for Custom Resources==](https://itnext.io/understanding-kubectl-explain-9d703396cc8) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
 
 ```for r in $(kubectl api-resources|grep -v ^N|awk '{print $1}');do kubectl explain $r --recursive;done```
 

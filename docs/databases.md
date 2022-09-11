@@ -75,6 +75,9 @@
 * [==betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase, and PostgreSQL==](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639) A step-by-step guide on how to implement multi-tenancy.
 * [==thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution==](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution/)
 * [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases/)
+* [==architecturenotes.co: Things You Should Know About Databases==](https://architecturenotes.co/things-you-should-know-about-databases/) This is the first post in a series called Things You Should Know. Think of it as a primer to level set from base principles on various topics. Today we are discussing databases!
+* [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy/)
+* [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959) 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.
 
 ## How to choose the right database for your service 
 * [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)
@@ -226,6 +229,9 @@
 - [dev.to: REST Data Service on YugabyteDB / PostgreSQL](https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h)
 - [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) pg_back dumps databases from PostgreSQL
 - [sqlrevisited.blogspot.com: MySQL vs PostgreSQL? Pros and Cons](https://sqlrevisited.blogspot.com/2022/03/mysql-vs-postgresql-pros-and-cons.html)
+- [==adamtheautomator.com: How to Deploy Postgres to Kubernetes== 🌟](https://adamtheautomator.com/postgres-to-kubernetes/) In this step-by-step tutorial, you will learn how to securely deploy Postgres to Kubernetes using two methods:
+    - Helm charts
+    - YAML configurations
 
 ## Percona MySQL
 - [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://www.percona.com/doc/kubernetes-operator-for-pxc/index.html)
@@ -262,6 +268,8 @@
 ## Tools
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) Sql mock driver for golang to test database interactions
+- [datafold/data-diff](https://github.com/datafold/data-diff/) Efficiently diff rows across two different databases.
+- [medium.com/@nomulex: How to create an ssh tunnel to a remote database in Kubernetes 🌟](https://medium.com/@nomulex/how-to-create-an-ssh-tunnel-to-a-remote-database-in-kubernetes-8e702e927328)
 
 ## Time-Series Database
 - [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database/)

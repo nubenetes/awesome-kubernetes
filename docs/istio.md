@@ -92,6 +92,10 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [==elastisys.com: Istio and OAuth2-Proxy in Kubernetes for microservice authentication==](https://elastisys.com/istio-and-oauth2-proxy-in-kubernetes-for-microservice-authentication/)
 - [medium.com/@sumudu_liyan: How To Install Istio On Kubernetes Cluster](https://medium.com/@sumudu_liyan/how-to-install-istio-on-kubernetes-cluster-e831c12381b)
 - [engineering.mercari.com: Dynamic Service Routing using Istio](https://engineering.mercari.com/en/blog/entry/20220218-dynamic-service-routing-using-istio/) With Dynamic Service Routing you can route traffic between different versions of each microservice dynamically. Learn how you can do so with Kubernetes and Istio in this article
+- [medium.com/@nanditasahu031: Istio Service Mesh 🌟](https://medium.com/@nanditasahu031/istio-service-mesh-a11654f90ed9)
+- [istio.io: Merbridge - Accelerate your mesh with eBPF](https://istio.io/latest/blog/2022/merbridge/) Replacing iptables rules with eBPF allows transporting data directly from inbound sockets to outbound sockets, shortening the datapath between sidecars and services.
+- [==freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices== 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)
+- [useanvil.com: Load balancing gRPC in Kubernetes with Istio](https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio/)
 
 
 ## API Access Control
@@ -118,6 +122,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [jaegertracing.io](https://www.jaegertracing.io/)
 - [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)
 - [hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM](https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi)
+- [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4) Welcome to A beginner’s guide to Jaeger (5 Part Series)
 
 ## Envoy micro proxy
 - [envoyproxy.io](https://www.envoyproxy.io/)

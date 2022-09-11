@@ -130,6 +130,7 @@
 ### gcloud 
 - [==cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI==](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) **Google Cloud CLI’s preview release of Declarative Export for Terraform. Declarative Export allows you to export the current state of your Google Cloud infrastructure into a descriptive file compatible with Terraform (HCL) or Google’s KRM declarative tooling.**
 - [==cloud.google.com: The gcloud tool cheat sheet==](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
+- [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) Config Connector is a Kubernetes add-on that allows you to manage GCP resources, such as Cloud Spanner or Cloud Storage, through your Kubernetes cluster's API
 
 ## Videos
 <details>

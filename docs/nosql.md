@@ -29,6 +29,7 @@
 - [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/) 
 - [datastax.medium.com: SQL versus NoSQL: The Pros and Cons](https://datastax.medium.com/sql-versus-nosql-the-pros-and-cons-488d4a7ba92f)
 - [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better/) One has been predominantly used by firms for storing structured data in various forms, while another lets the companies store unstructured and semi-structured data also. Which among them is better and more efficient? Let’s analyze in this blog!
+- [medium.com/@suvankar.dey80: Time Series SQL vs No SQL](https://medium.com/@suvankar.dey80/time-series-sql-vs-no-sql-a8c7f40d80a8)
 
 ### Couchbase
 * [wikipedia: Couchbase Server](https://en.wikipedia.org/wiki/Couchbase_Server)
@@ -56,6 +57,7 @@
 - [MongoDB and Kubernetes 🌟](https://www.mongodb.com/kubernetes)
 - [polarsparc.com: Hands-on MongoDB :: Part-5 🌟](https://www.polarsparc.com/xhtml/MongoDB-5.html)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
+- [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport/)
 
 ### Redis
 - [Redis](http://redis.io/)

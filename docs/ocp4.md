@@ -1,5 +1,6 @@
 # OCP 4
 - [OpenShift Container Platform 4 (OCP 4)](#openshift-container-platform-4-ocp-4)
+    - [OpenShift Guide](#openshift-guide)
     - [Single Node OpenShift](#single-node-openshift)
     - [OpenShift sizing and subscription guide](#openshift-sizing-and-subscription-guide)
     - [OpenShift Platform Plus](#openshift-platform-plus)
@@ -143,6 +144,12 @@
 * [cloud.redhat.com: Red Hat OpenShift 4.9 Is Now Generally Available](https://cloud.redhat.com/blog/red-hat-openshift-4.9-is-now-generally-available)
 * [redhat.com: Meet single node OpenShift: Our newest small OpenShift footprint for edge architectures](https://www.redhat.com/en/blog/meet-single-node-openshift-our-smallest-openshift-footprint-edge-architectures)
 * [cloud.redhat.com: How to Build a Disconnected OpenShift Cluster With Mirror Registries on RHEL CoreOS Using Podman and Systemd](https://cloud.redhat.com/blog/how-to-build-a-disconnected-openshift-cluster-with-mirror-registries-on-rhel-coreos-using-podman-and-systemd)
+* [github.com/openshift/hypershift: HyperShift](https://github.com/openshift/hypershift) Hyperscale OpenShift - clusters with hosted control planes. HyperShift is a middleware for hosting OpenShift control planes at scale that solves for cost and time to provision, as well as portability cross cloud with strong separation of concerns between management and workloads. Clusters are fully compliant OpenShift Container Platform (OCP) clusters and are compatible with standard OCP and Kubernetes toolchains.
+* [michaelkotelnikov.medium.com: Managing Network Security Lifecycles in Multi Cluster OpenShift Environments with OpenShift Platform Plus](https://michaelkotelnikov.medium.com/maintaining-network-traffic-compliance-in-multi-cluster-openshift-environments-with-openshift-54fe369aa346) In this article, you will learn how the tools in the OpenShift Platform Plus bundle help an organization maintain and secure network traffic flows in multi cluster OpenShift environments.
+* [medium.com/@shrishs: Application Backup and Restore using Openshift API for Data Protection(OADP)](https://medium.com/@shrishs/application-backup-and-restore-using-openshift-api-for-data-protection-oadp-790d39ad96d4)
+
+### OpenShift Guide
+* [==mikeroyal/OpenShift-Guide: OpenShift Guide== 🌟🌟](https://github.com/mikeroyal/OpenShift-Guide) **A guide for getting started with OpenShift including the Tools and Applications that will make you a better and more efficient engineer with OpenShift.**
 
 ### Single Node OpenShift
 - [redhat.com: Meet single node OpenShift: Our newest small OpenShift footprint for edge architectures](https://www.redhat.com/en/blog/meet-single-node-openshift-our-smallest-openshift-footprint-edge-architectures)
@@ -566,6 +573,7 @@ oc login
 * [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 * [containerjournal.com: Red Hat Integrates KubeVirt With Kubernetes Management Platform From SAP](https://containerjournal.com/topics/container-management/red-hat-integrates-kubevirt-with-kubernetes-management-platform-from-sap/)
 * [kubermatic.com: Bringing Your VMs to Kubernetes With KubeVirt](https://www.kubermatic.com/blog/bringing-your-vms-to-kubernetes-with-kubevirt/)
+* [medium.com/adessoturkey: Create a Windows VM in Kubernetes using KubeVirt](https://medium.com/adessoturkey/create-a-windows-vm-in-kubernetes-using-kubevirt-b5f54fb10ffd) Windows VM in a Kubernetes Cluster. In this tutorial, you will learn how to run a Windows VM inside a KinD Cluster that is running on an Ubuntu machine
 
 ## Networking and Network Policy in OCP4. SDN/CNI plug-ins
 - [Networking in OCP4](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)

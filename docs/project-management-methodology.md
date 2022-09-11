@@ -62,6 +62,12 @@
 - [betterhumans.pub: 3 Productivity Tips I Learned Working at Google That You Should Already Be Using](https://betterhumans.pub/3-productivity-tips-i-learned-working-at-google-that-you-should-already-be-using-1bfb62356463)
 - [medium.com/@victor.ronin: The dark side of a cross-functional team](https://medium.com/@victor.ronin/the-dark-side-of-a-cross-functional-team-e0d379e37c70)
 - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)
+- [hbr.org: How to Deal with High Pressure Situations at Work](https://hbr.org/2022/05/how-to-deal-with-high-pressure-situations-at-work)
+- [medium.com/@TonyBologni: 4 reasons why 4 is the perfect team size for (agile) software development 🌟](https://medium.com/@TonyBologni/4-reasons-why-4-is-the-perfect-team-size-for-agile-software-development-8597d33f3cfe) There is no one-size-fits-all, but what I found in my career in (agile) software development is that teams are often too big rather than too small.
+- [medium.com/dkatalis: Component Team vs Feature Team in a Nutshell 🌟](https://medium.com/dkatalis/component-team-vs-feature-team-in-a-nutshell-60c58671496f)
+- [medium.com/the-ascent: Quiet People in Meetings Are Incredible](https://medium.com/the-ascent/quiet-people-in-meetings-are-incredible-7bb05ef9acd1) Knowing when not to talk is an art.
+- [autoblog.com: VW CEO lost his job over buggy software that delayed new models](https://www.autoblog.com/2022/07/25/vw-ceo-herbert-diess-fired-over-cariad-buggy-software/)
+- [techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code](https://techcrunch.com/2022/07/27/protestware-code-sabotage/)
 
 ### Spanish
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
@@ -86,6 +92,8 @@
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://magnet.xataka.com/en-diez-minutos/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
 - [genbeta.com: Las reuniones laborales por videollamada nos agotan: esto es lo que pasa si se eliminan y cambian por chats](https://www.genbeta.com/actualidad/reuniones-trabajo-nos-agotan-videollamada-se-sabe-que-pasa-se-eliminan-usamos-chats)
 - [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa)
+- [estrategiadeproducto.com: La espiral de mierda](https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda) ¿Por qué todo parece ir más lento si cada vez somos más? Analizamos las causas que llevan a que muchas startups fracasen durante su proceso de escala y cómo evitarlo.
+- [estrategiadeproducto.com: La segunda mayor mentira sobre Product Management](https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management) No. Un Product Manager no es la intersección de Diseño, Tecnología y Negocio.
 
 ### Team Topologies
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
@@ -250,6 +258,12 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> we glorify hustle culture and working long hours far too much. Tell me a story of the laziest thing thing you&#39;ve ever done to advance your career.</p>&mdash; Jem Young (@JemYoung) <a href="https://twitter.com/JemYoung/status/1501310036341100548?ref_src=twsrc%5Etfw">March 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nothing wrong with being a solo-founder because 65% of startups fail due to cofounder conflicts.</p>&mdash; Andrew Gazdecki (@agazdecki) <a href="https://twitter.com/agazdecki/status/1510799737187811330?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The history of software development <a href="https://t.co/JeLU0A2hzF">pic.twitter.com/JeLU0A2hzF</a></p>&mdash; Dare Obasanjo (@Carnage4Life) <a href="https://twitter.com/Carnage4Life/status/1541608744630358017?ref_src=twsrc%5Etfw">June 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re afraid of being a micromanager<br><br>I can guarantee you are one.<br><br>It&#39;s the Micromanagement Spiral. 🌀<br><br>Let me explain:</p>&mdash; Laura Tacho 🌮 (@rhein_wein) <a href="https://twitter.com/rhein_wein/status/1547211754333036544?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I wished management had a good understanding how costly it is to build something wrong in comparison to not building anything.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1550227569550577664?ref_src=twsrc%5Etfw">July 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

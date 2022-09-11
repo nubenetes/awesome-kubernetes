@@ -146,7 +146,7 @@
 - [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend)
 - [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know)
 - [geeksforgeeks.org: Top 10 Advance Python Concepts That You Must Know](https://www.geeksforgeeks.org/top-10-advance-python-concepts-that-you-must-know/)
-- [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/)
+- [freecodecamp.org: Dictionary Comprehension in Python – Explained with Examples 🌟](https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/)
 - [developers.redhat.com: Learn Python: Tutorials and updates from Red Hat experts](https://developers.redhat.com/topics/python) Python is a popular programming language for data science, machine learning, and web development.
 - [python.plainenglish.io: Special Methods Will Change How You Write Classes in Python](https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6) An introduction to the most useful special methods
 - [towardsdatascience.com: 12 Of My Favorite Python Practices For Better Functions](https://towardsdatascience.com/12-of-my-favorite-python-practices-for-better-functions-7a21d18cfb38)
@@ -192,7 +192,7 @@
 - [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)
 - [open.sap.com: Python for Beginners](https://open.sap.com/courses/python1)
 - [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755)
-- [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises](https://codesolid.com/python-lists)
+- [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises 🌟](https://codesolid.com/python-lists)
 - [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) Understanding the purpose of requirements.txt, setup.py and setup.cfg in Python when developing and distributing packages
 - [==realpython.com: Building Lists With Python's .append()==](https://realpython.com/courses/building-lists-with-python-append/)
 - [freecodecamp.org: Python List .remove() - How to Remove an Item from a List in Python](https://www.freecodecamp.org/news/python-list-remove-how-to-remove-an-item-from-a-list-in-python/)
@@ -212,6 +212,23 @@
 - [betterprogramming.pub: Getting Started With Pyvcloud — A Python Library](https://betterprogramming.pub/getting-started-with-pyvcloud-a-python-library-2e77092ed3ea) A quick setup for creating your first virtual machine. **Pyvcloud is a Python library for VCloud Director administration and all tasks which you can perform on vCloud Director can be done with this easy-to-use Pyvcloud!**
 - [freecodecamp.org: How to Set Up a Virtual Environment in Python – And Why It's Useful](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 - [==freecodecamp.org: Python Attributes – Class and Instance Attribute Examples==](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/)
+- [betterprogramming.pub: This Is Why You Should Use Tortoise-ORM in Your Python Projects](https://betterprogramming.pub/this-is-why-you-should-use-tortoise-orm-in-your-python-projects-a3897dc5309e) Manage your databases like a boss!
+- [docker.com: How to Train and Deploy a Linear Regression Model Using PyTorch – Part 1 (Machine Learning)](https://www.docker.com/blog/how-to-train-and-deploy-a-linear-regression-model-using-pytorch-part-1/)
+- [betterprogramming.pub: Learning Python With Program Templates: The Input One, Process One Template](https://betterprogramming.pub/learning-python-with-program-templates-the-input-one-process-one-template-d7ed5156d3fc) **A fun way to implement loops in your programs**
+- [betterprogramming.pub: Automate Filling Templates With Python 🌟](https://betterprogramming.pub/automate-filling-templates-with-python-1ff6c6fd595e) **Do important work instead of repetitive tasks**
+- [pub.towardsai.net: Why Map(), Filter() And Reduce() Functions are so Famous?](https://pub.towardsai.net/why-map-filter-and-reduce-functions-are-so-famous-4c8e42fd0755) Functional programming to avoid loop and branching in python.
+- [amitprius.medium.com: Python Dictionary: Zero to Hero with Examples](https://amitprius.medium.com/python-dictionary-zero-to-hero-with-examples-a7497a672dd4) Learning dictionary for data science and machine learning applications
+- [python.plainenglish.io: It’s Time to Say Goodbye to These Obsolete Python Libraries 🌟](https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a) **Forget about os.path, random, pytz, namedtuple and more and start using the latest and greatest Python libraries.**
+- [guru99.com: Mutable & Immutable Objects in Python {EXAMPLES} 🌟](https://www.guru99.com/mutable-and-immutable-in-python.html)
+- [notia.ai: Building an authenticated Python CLI](https://www.notia.ai/articles/building-an-authenticated-python-cli)
+- [superfastpython.com: How to Choose the Right Python Concurrency API](https://superfastpython.com/python-concurrency-choose-api/)
+- [realpython.com/pdf-python](https://realpython.com/pdf-python/) How to Work With a PDF in Python
+- [dev.to: How to change an image with Python](https://dev.to/deotyma/how-to-change-an-image-with-python-518d)
+- [towardsdatascience.com: Iterables vs Iterators in Python](https://towardsdatascience.com/python-iterables-vs-iterators-688907fd755f) Understanding the difference between Iterables and Iterators in Python
+- [towardsdatascience.com: How to Implement a Linked List in Python](https://towardsdatascience.com/python-linked-lists-c3622205da81) Exploring how to write Linked List and Node objects from scratch using Python
+- [==realpython.com/learning-paths: Python Learning Paths== 🌟🌟🌟](https://realpython.com/learning-paths/) Take your coding skills to the next level with Real Python’s accelerated study plans for beginner, intermediate, and advanced Python developers.
+- [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python/)
+- [betterprogramming.pub: Python List Comprehensions Are More Powerful Than You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0) Write better list comprehensions with the help of these unknown features and tricks
 
 ## PHP vs Python
 - [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
@@ -311,6 +328,7 @@
 - [analyticsvidhya.com: Cheat Sheet for Exploratory Data Analysis in Python 🌟](https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python)
 - [==pandastutor.com== 🌟](https://pandastutor.com) Pandas Tutor visualizes how your Python code transforms dataframes
 - [==betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data Analysis==](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480) An introduction to data analysis with Pandas
+- [iaviral.medium.com: Most used functions in Pandas](https://iaviral.medium.com/most-used-functions-in-pandas-7c12ae238185) Useful functions in Pandas for Data Science and Machine Learning
 
 ### PandasDatabase
 - [PandasDatabase is a RESTful database engine application built on top of Pandas](https://pypi.python.org/pypi/pddb/)

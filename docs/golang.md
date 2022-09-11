@@ -84,6 +84,8 @@
 - [gnet](https://github.com/panjf2000/gnet) 🚀 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go./ gnet
 - [dsa0x/sicher](https://github.com/dsa0x/sicher) Sicher is a go module that allows secure storage of encrypted credentials in a version control system.
 - [ggicci/httpin: HTTP Input for Go](https://github.com/ggicci/httpin) Decode an HTTP request into a custom struct
+- [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) A Go framework for end-to-end testing of components running in Kubernetes clusters.
+- [forbearing/k8s](https://github.com/forbearing/k8s) This Go library implements various handlers to more easily manipulate kubernetes resources such as pods, deployments, etc, inside or outside a Kubernetes cluster
 
 ## Go packages
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
@@ -94,6 +96,7 @@
 - [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
 - [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
 - [kkdai/youtube](https://github.com/kkdai/youtube) Download Youtube Video in Golang
+- [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 👾 **Fast and simple video download library and CLI tool written in Go**
 
 ## Go Books
 - https://github.com/dariubs/GoBooks
@@ -104,7 +107,7 @@
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
 - [ebosas/microservices](https://github.com/ebosas/microservices) A microservices example in Go
-- [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) Collection of mini-programs demonstrating Kubernetes client-go usage.
+- [iximiuz/client-go-examples](https://github.com/iximiuz/client-go-examples) Collection of mini-programs demonstrating Kubernetes client-go usage. If you're writing controllers or any other form of automation on top of Kubernetes, this repository with Go examples might come in handy.
 - [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go) Minimal working examples of Go's unique features.
 
 ## Dockerfile for go

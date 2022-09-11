@@ -123,7 +123,7 @@
 * [==clavinjune.dev: Working With Remote Docker Using Docker Context==](https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context/) This is a cheatsheet for working with docker context to connect remote docker locally. Might help you to work with remote docker without manually SSH to the remote server.
 * [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/)
 * [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
-* [iximiuz.com: Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
+* [==iximiuz.com: Learning Containers From The Bottom Up== | Ivan Velichko 🌟](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
 * [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived/)
 * [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)
 * [dev.to: Top 5 Docker Best Practices](https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh)
@@ -137,6 +137,13 @@
 * [==stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images==](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/)
 * [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial/)
 * [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
+* [betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟](https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a) Smoke out annoying container problems with minimal insanity
+* [blog.devgenius.io: K8s — Advanced Container Knowledge](https://blog.devgenius.io/k8s-advanced-container-knowledge-fcc45a2f6db8)
+* [medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques You Need](https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650)
+* [kubesimplify.com: The secret gems behind building container images, Enter: BuildKit & Docker Buildx](https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx)
+* [medium.com/geekculture: Docker — Limit Container CPU Usage 🌟](https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a)
+* [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
+* [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
@@ -179,7 +186,10 @@
 * [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments/)
 * [itnext.io: Building Docker Images The Proper Way 🌟](https://itnext.io/building-docker-images-the-proper-way-3c9807524582) Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…
 * [returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage](https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage/)
-* [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
+* [==slim.ai==](https://www.slim.ai/) Build secure containers, faster. Secure your software supply chain.
+    * [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
+    * [youtube: The need for Slim Docker Container Images with @DockerSlim & Slim.AI ](https://www.youtube.com/watch?v=1o14tIEhZL0)
+    * [==slim.ai: Slim Docker Extension== 🌟](https://www.slim.ai/docs/docker-desktop-extension.html) 
 * [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnk8s.io/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
 * [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
 * [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
@@ -213,6 +223,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [grosser/preoomkiller](https://github.com/grosser/preoomkiller) Softly kills your process with SIGTERM before it runs out of memory. Made for processes that run inside docker.
 - [==ory/dockertest==](https://github.com/ory/dockertest) Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. Use Docker to run your Golang integration tests against third party services on Microsoft Windows, Mac OSX and Linux!
 - [==hadolint/hadolint: Haskell Dockerfile Linter==](https://github.com/hadolint/hadolint) Dockerfile linter, validate inline bash, written in Haskell
+- [==ttl.sh: Anonymous & ephemeral Docker image registry 🌟==](https://ttl.sh/) Free to use. No need to sign-up. Open source.
 
 ## Docker and WSL2
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
@@ -232,6 +243,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 * [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
 * [==geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners==](https://geshan.com.np/blog/2021/12/docker-postgres/)
 * [==codesolid.com: How To Use Docker and Docker Compose With Python==](https://codesolid.com/how-to-use-docker-with-python/)
+* [releasehub.com: 6 Docker Compose Best Practices for Dev and Prod](https://releasehub.com/blog/6-docker-compose-best-practices-for-dev-and-prod)
 
 ## Moving Linux Services Into Containers
 * [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers/)
@@ -310,5 +322,9 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Okay <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> Lambda folks: when should I use Docker containers as the packaging format for functions vs. using native runtimes? Looking for general guidance here.</p>&mdash; Corey Quinn (@QuinnyPig) <a href="https://twitter.com/QuinnyPig/status/1508532216984313859?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mostly bc of the package size limit.<br>Standard code zip: max 250 MB<br>Docker image: max 10 GB<br><br>If you do anything in Python with ML libs, you will need Docker...<br><br>Why use native runtimes otherwise? Cold start.<br>Docker: 750-1000 ms<br>Node/Python: 250-300 ms</p>&mdash; Maciej Radzikowski (@radzikowski_m) <a href="https://twitter.com/radzikowski_m/status/1508535101512204292?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Docker Compose + DockerSlim = ❤️<a href="https://twitter.com/DockerSlim?ref_src=twsrc%5Etfw">@DockerSlim</a> can make your images much smaller (hence, faster and securer), but it requires launching containers for runtime analysis.<br><br>Real apps, though, rarely run in isolation... Docker knew that and built Compose.<br><br>Now, behold the synergy! 🔽 <a href="https://t.co/n6NlJokC95">pic.twitter.com/n6NlJokC95</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1547233568610566144?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Debunking Container Myths 🧵<br><br>A (never-ending) series of articles that I started writing a couple of years ago to fix my own misconceptions about containers 🔽 <a href="https://t.co/bD7Iw48ere">pic.twitter.com/bD7Iw48ere</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1563851156417298434?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

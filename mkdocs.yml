@@ -91,6 +91,7 @@ nav:
     - Microservices FAQ & Kubernetes Native: faq.md
   - SRE: 
     - SRE Site Reliability Engineering: sre.md
+    - Networking: networking.md
     - FinOps. Cloud Financial Management: finops.md
     - Chaos Engineering: chaos-engineering.md
   - DevOps:
@@ -141,7 +142,7 @@ nav:
     - DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools:
       - DevOps Tools: devops-tools.md
       - Jenkins Alternatives for Continuous Integration & Deployment: jenkins-alternatives.md
-      - Argo CD - Declarative GitOps for Kubernetes: argocd.md
+      - Argo - Declarative GitOps for Kubernetes: argo.md
       - Flux CD - The GitOps Operator for Kubernetes: flux.md
       - Tekton - Cloud Native CI/CD: tekton.md
       - Keptn: keptn.md

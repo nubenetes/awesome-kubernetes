@@ -2,6 +2,8 @@
 - [Introduction](#introduction)
 - [Online Training](#online-training)
 - [K8s Diagrams](#k8s-diagrams)
+- [Learning Tools](#learning-tools)
+    - [Neptune](#neptune)
 - [Videos](#videos)
 - [Tweets](#tweets)
 
@@ -55,7 +57,17 @@
 * [dev.to: Let's Learn Kubernetes Series' Articles](https://dev.to/pghildiyal/series/14818)
 * [==youtube playlist: Tech World with Nana - Docker and Kubernetes Tutorial for Beginners== 🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb)
 * [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
-* [medium.com/google-cloud: Running Workloads in Kubernetes](https://medium.com/google-cloud/running-workloads-in-kubernetes-86194d133593)
+* [medium.com/google-cloud: Running Workloads in Kubernetes 🌟](https://medium.com/google-cloud/running-workloads-in-kubernetes-86194d133593)
+* [omerbsezer/Fast-Kubernetes](https://github.com/omerbsezer/Fast-Kubernetes) **This repo covers Kubernetes objects' and components' details (Kubectl, Pod, Deployment, Service, ConfigMap, Volume, PV, PVC, Daemonset, Secret, Affinity, Taint-Toleration, Helm, etc.), and possible example usage scenarios (how-to, hands-on labs, etc.)**
+* [containiq.com: 10 Awesome Kubernetes Projects for Beginners](https://www.containiq.com/post/kubernetes-projects-for-beginners) Kubernetes is powerful, but it’s a lot to learn! In this roundup, explore 10 of the best beginner Kubernetes projects and tutorials to learn from as a new user.
+* [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
+* [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.** 
+* [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/the-kubernetes-course) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
+    * [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/the-kubernetes-course/RMmq5M6Gp8R) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes: 
+        * Pods & containers
+        * Pod anatomy
+        * Pods as unit of scaling
+        * Pod lifecycle
 
 ## Online Training
 * [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
@@ -74,6 +86,13 @@
 ## K8s Diagrams
 - [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
+## Learning Tools
+### Neptune
+- [==exploreneptune.io== 🌟](https://exploreneptune.io) - [oslabs-beta/neptune]](https://github.com/oslabs-beta/neptune) Neptune is a light-weight, open-source dev tool which introduces developers to Kubernetes and get started with interacting with Kubernetes clusters.
+    - Get to know your Kubernetes cluster better with an easy-to-use monitoring tool
+    - Render the metrics of your nodes, pods, and namespaces all in one easy to visualize UI. Focus on what matters, with built in alerts and cluster health monitoring.
+- [medium.com/@lawyeh: Introducing Neptune](https://medium.com/@lawyeh/introducing-neptune-fecb0299cfa1) Neptune is a light-weight, open-source dev tool which introduces developers to Kubernetes and get started with interacting with Kubernetes clusters.
+
 ## Videos
 ??? note "Click to expand!"
 
@@ -82,6 +101,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/X48VuDVv0do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/s_o8dwzRlu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
 ## Tweets
@@ -89,4 +109,10 @@
 
     <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A Kubernetes cluster is made of control plane nodes and worker nodes. And the nodes are made up of a number of components with specific functionalities 🌊<br><br>Thread 🧵👇🏻<a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/docker?src=hash&amp;ref_src=twsrc%5Etfw">#docker</a> <a href="https://t.co/hN9LptCU71">pic.twitter.com/hN9LptCU71</a></p>&mdash; SigNoz (@SignozHQ) <a href="https://twitter.com/SignozHQ/status/1498296938814480387?ref_src=twsrc%5Etfw">February 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Free Kubernetes courses for Beginners<br>1. Just enough kubernetes - <a href="https://t.co/9lSIfEKqSf">https://t.co/9lSIfEKqSf</a><br>2. Learn Kubernetes deployment - <a href="https://t.co/VmfaJWoGad">https://t.co/VmfaJWoGad</a><br>3. Introduction to Kubernetes - <a href="https://t.co/tw4z7J5n21">https://t.co/tw4z7J5n21</a><br>4. Containers 101 - <a href="https://t.co/r2YJNxpLWH">https://t.co/r2YJNxpLWH</a><br>more - <a href="https://t.co/9BKvlIxif8">https://t.co/9BKvlIxif8</a> <a href="https://t.co/zzlvrxYgL6">pic.twitter.com/zzlvrxYgL6</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1548537534493339648?ref_src=twsrc%5Etfw">July 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Containers vs Pods 🧵<br><br>A &quot;container&quot; is an isolated and restricted execution environment, typically optimized to run just one service.<br><br>Being fully isolated from neighbors may feel good, but only at first. What if you need a few _supporting_ services around?<br><br>Pods to the rescue! <a href="https://t.co/QEVdvqB01h">pic.twitter.com/QEVdvqB01h</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1551964110295912448?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What problem is Kubernetes trying to solve?<br><br>Is it simply container orchestration?<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1557304846730002435?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

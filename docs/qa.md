@@ -129,5 +129,7 @@ the #1 test automation community.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Code review does not work (and asynchronous code review is particularly bad). As Deming said: &quot;You can not inspect quality into a product.&quot; NO form of code _review_ yields quality. Collaborative programming that assures that the defects don’t exist to begin with does.</p>&mdash; Allen Holub (@allenholub) <a href="https://twitter.com/allenholub/status/1482564778149175298?ref_src=twsrc%5Etfw">January 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why refactor your code and keep up with dependency deprecations when you can get a new job every 3 years to avoid your own technical debt?</p>&mdash; Carla Notarobot 🤖👩🏻‍💻 (@CarlaNotarobot) <a href="https://twitter.com/CarlaNotarobot/status/1482715184028397571?ref_src=twsrc%5Etfw">January 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software engineering, a haiku:<br><br>fuck fuck fuck fuck fuck<br>fuck fuck fu-oh hey it works<br>wait, no - fuck fuck fuck</p>&mdash; Kelly Vaughn (@kvlly) <a href="https://twitter.com/kvlly/status/1538310552451264512?ref_src=twsrc%5Etfw">June 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -9,10 +9,11 @@
 - [Kubernetes Clients and Dashboards](#kubernetes-clients-and-dashboards)
     - [Octant](#octant)
     - [Okteto local kubernetes development](#okteto-local-kubernetes-development)
-    - [Lens Kubernetes IDE](#lens-kubernetes-ide)
+    - [Lens and OpenLens Kubernetes IDE](#lens-and-openlens-kubernetes-ide)
     - [Kubenav](#kubenav)
     - [Cloud Manager](#cloud-manager)
 - [Images](#images)
+- [Tweets](#tweets)
 - [Videos](#videos)
 
 ## Non-production Kubernetes Local Installers. Kubernetes distributions for local environments. Desktop K8s
@@ -22,9 +23,13 @@
     * [nfrankel.medium.com: Goodbye minikube](https://nfrankel.medium.com/goodbye-minikube-340070edc5af) I’ve been using minikube as my local cluster since I started to learn Kubernetes. But I’ve decided to let it go in favor of kind. Here’s the story.
     * [linux.com: Getting Started With Kubernetes Is Easy With Minikube](https://www.linux.com/audience/devops/getting-started-kubernetes-easy-minikube/)
     * [==faun.pub: Accessing a remote minikube from a local computer==](https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd) Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine. In this article, you will learn how to connect to a remote computer with minikube installed.
+    * [==adamtheautomator.com: Jumpstart Kubernetes Locally with this MiniKube Tutorial==](https://adamtheautomator.com/minikube-tutorial/) You'll usually find Kubernetes where it makes sense — i.e. in cloud environments. But how do you speed up development for Kubernetes? Could you test deployments locally?
+    * [blog.flant.com: Local development in Kubernetes with werf 1.2 and minikube](https://blog.flant.com/local-development-in-kubernetes-with-werf/) This article discusses preparing and deploying a Kubernetes-based infrastructure for local development with werf & minikube. Make commits to your app's Git and see how your app running in minikube is automatically updated.
 * [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes. Kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
     * [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) This project is geared toward running multiple isolated KinD cluster on a single instance. This project produces an AMI image that can run an instance that has Docker and multiple isolated Kubernetes clusters running in it using KinD. The main use case is to setup one node that can run multiple fully isolated Kubernetes cluster on it for development purposes.
     * [faun.pub: Creating a Kubernetes Cluster for Development with Kind](https://faun.pub/creating-a-kubernetes-cluster-for-development-with-kind-189df2cb0792)
+    * [faun.pub: Finally, (successfully…) setup docker registry inside kind Kubernetes cluster](https://faun.pub/finally-successfully-setup-docker-registry-inside-kind-kubernetes-cluster-5b0381dbb2ec)
+    * [==blog.kubesimplify.com: Yours Kindly Drone==](https://blog.kubesimplify.com/yours-kindly-drone) **Kubernetes Native Continuous Integration (CI) on your laptops. A hands-on tutorial on how to use KinD and Drone to set up CI with Kubernetes on your local machine. At the end of these steps, you will have a completely functional Kubernetes & CI to build and deploy cloud-native apps on K8s**
 * [store.docker.com: Docker Community Edition EDGE with kubernetes. Installing Kubernetes using the Docker Client](https://store.docker.com/editions/community/docker-ce-desktop-windows) Currently only available in **Edge** edition.
 * [medium.com: Local Kubernetes for Linux — MiniKube vs MicroK8s](https://medium.com/containers-101/local-kubernetes-for-linux-minikube-vs-microk8s-1b2acad068d3)
 * [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2) Several options to start playing with K8s in no time
@@ -70,6 +75,10 @@
 - [==Skaffold== 🌟](https://skaffold.dev/)
 - [infracloud.io: Build and deploy Kubernetes apps with Skaffold](https://www.infracloud.io/blogs/skaffold-usecases/)
 - [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold/)
+- [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k) Skaffold is a tool that does everything with one single command:
+    - Builds Docker images
+    - Pushes them
+    - Deploys your Kubernetes resources with the docker images it just built
 
 ### DevSpace
 - [==devspace.sh==](https://devspace.sh/)
@@ -102,11 +111,16 @@
 - [medium: YAKD: Yet Another Kubernetes Dashboard](https://medium.com/geekculture/yakd-yet-another-kubernetes-dashboard-7766bd) A list of most popular opensource kubernetes dashboard both for local development & in production as well
 - [adamtheautomator.com: How to Install and Set Up Kubernetes Dashboard [Step by Step]](https://adamtheautomator.com/kubernetes-dashboard/)
 - [thenewstack.io: Who Needs a Dashboard? Why the Kubernetes Command Line Is Not Enough](https://thenewstack.io/who-needs-a-dashboard-why-the-kubernetes-command-line-is-not-enough/)
-- [kui.tools](https://kui.tools) Kui: CLI-driven Graphics for Kubernetes. Tired of working with Kubernetes in cli mode only? Try kui - a hybrid tool that allows you to interact with any Kubernetes cluster easily with more advanced features available only in GUI.
+- [kui.tools 🌟](https://kui.tools) Kui: CLI-driven Graphics for Kubernetes. Tired of working with Kubernetes in cli mode only? Try kui - a hybrid tool that allows you to interact with any Kubernetes cluster easily with more advanced features available only in GUI.
+    - [blog.flant.com: Kui — a “hybrid” CLI/GUI application for working with Kubernetes](https://blog.flant.com/kui-hybrid-cli-gui-for-kubernetes/) Kui is a GUI-enhanced CLI interface for managing Kubernetes clusters
+Kui enriches the good old terminal experience with GUI features, giving you a different perspective of your Kubernetes cluster
 - [blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon](https://blog.aquasec.com/kubernetes-ui-tools-security-threat)
 - [medium.com/@satyakommula: Deploy Kubernetes dashboard with NodePort](https://medium.com/@satyakommula/deploy-kubernetes-dashboard-with-nodeport-382f447d2ff8)
 - [rigorousthemes.com: 10 Best Kubernetes Dashboard Alternatives 2022](https://rigorousthemes.com/blog/best-kubernetes-dashboard-alternatives/)
 - [blog.flant.com: kubenav as a tool for managing Kubernetes clusters from your smartphone](https://blog.flant.com/kubenav-managing-kubernetes-from-smartphone/)
+- [==kubeapps.dev== 🌟](https://kubeapps.dev) Kubeapps is an in-cluster web-based application that enables users with a one-time installation to deploy, manage, and upgrade applications on a Kubernetes cluster
+- [==github.com/openshift/console== 🌟](https://github.com/openshift/console) 
+    - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubernetes)
 
 ### Octant
 - [==octant.dev==](https://octant.dev) Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
@@ -118,12 +132,14 @@
 - [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
 - [github.com/marketplace: Automating your Kubernetes dev environments with the open source oktetohq Cloud got easier with GitHub Actions](https://github.com/marketplace?query=publisher%3Aokteto&type=actions)
 
-### Lens Kubernetes IDE
+### Lens and OpenLens Kubernetes IDE
 - [Lens Kubernetes IDE 🌟](https://k8slens.dev/) Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters. It's open source and free. Download it today!
 - [medium: Lens 5 Released](https://medium.com/k8slens/lens-5-released-f7e58e8842cf)
 - [medium: How To Give Developers Secure Access to Kubernetes Clusters](https://medium.com/k8slens/how-to-give-developers-secure-access-to-kubernetes-clusters-c6025f0dd288)
 - [Lens Resource Map extension](https://github.com/nevalla/lens-resource-map-extension) Lens - The Kubernetes IDE extension that displays Kubernetes resources and their relations as a force graph.
 - [thedevopslife.com: Kubernetes IDE and UI – Lens IDE](https://thedevopslife.com/kubernetes-gui-lens-ide/)
+- [medium.com/k8slens: Lens 6 Released, Vision for the Future, New Subscription Model and Features Available](https://medium.com/k8slens/lens-6-released-vision-for-the-future-new-subscription-model-and-features-available-628ff21fe14a) Over 650,000 people and tens-of-thousands of businesses develop and operate their Kubernetes on k8slens. Lens for Web Browsers — Enable new use cases for people preferring the Lens experience via web browsers. Even tablets and mobile phones!
+- [blog.devgenius.io: Is it time to migrate from Lens to OpenLens to manage your Kubernetes clusters?](https://blog.devgenius.io/is-it-time-to-migrate-from-lens-to-openlens-75496e5758d8)
 
 ### Kubenav
 - [kubenav](https://github.com/kubenav/kubenav) is the navigator for your Kubernetes clusters right in your pocket. kubenav is a mobile, desktop and web app to manage Kubernetes clusters and to get an overview of the status of your resources.
@@ -137,6 +153,14 @@
 
     <center>
     [![lens ide](images/header-lens.png)](https://k8slens.dev/)
+    </center>
+
+
+## Tweets
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I made a thing: Web UI for Learning &amp; Exploring Kubernetes 🧙‍♂️<br><br>It&#39;s hell-interactive - (multi-)cluster updates shown in real-time.<br><br>Tailored for:<br>- Experiments<br>- Education<br>- Postman REST client but for K8s<br><br>Demo use case: learn what happens to Pods when Deployment is updated 🔽 <a href="https://t.co/0373JRh3P7">pic.twitter.com/0373JRh3P7</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1542236802207072256?ref_src=twsrc%5Etfw">June 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 ## Videos

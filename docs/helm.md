@@ -95,6 +95,14 @@
     * Common vs multiple Helm charts
     * Values YAML hierarchy
     * Git repository management
+* [medium.com/avmconsulting-blog: How to Deploy Applications using Helm in Kubernetes |AWS|](https://medium.com/avmconsulting-blog/deploying-applications-using-helm-in-kubernetes-b5c8b609e4b5)
+* [medium.com/tech-chronicles: Helm tests](https://medium.com/tech-chronicles/helm-test-tested-my-patience-732eeab0e935) Helm tests are helpful to test your charts in your CI/CD pipeline, but when they fail due to network issues (e.g. pod takes time to serve the response) they are difficult to debug.
+* [xbery.medium.com: Deploy helm charts using Terraform module 🌟](https://xbery.medium.com/deploy-helm-charts-using-terraform-module-63684efbd221)
+* [community.ops.io: [K8s] Fix Helm release failing with an upgrade still in progress](https://community.ops.io/the_cozma/k8s-fix-helm-release-failing-with-an-upgrade-still-in-progress-4660) This article applies to: Helm v3.8.0. If you use Helm to manage your releases, you might end up in a case where the release is stuck in a pending state and all subsequent releases keep failing. This article explains how to fix it with two options:
+    * Helm rollback
+    * Deleting the state
+* [dev.to: HULL Tutorial 01: Introducing HULL, the Helm Universal Layer Library](https://dev.to/gre9ory/hull-tutorial-01-introducing-hull-the-helm-universal-layer-library-4njb)
+* [medium.com/@lasithih927: Helm on Kubernetes - Zero to Hero in 5 Minutes 🌟](https://medium.com/@lasithih927/helm-zero-to-hero-4cab17fac38e) A Helm cheat sheet for getting your desired application installed on a Kubernetes cluster with the config you need in no time. Even if you haven’t heard of Helm before! This will take you from zero to hero.
 
 ## Helm Plugins
 * [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
@@ -153,7 +161,11 @@ Kubernetes packages
 * [shalm: Scriptable helm charts](https://github.com/wonderix/shalm) This project brings the starlark scripting language to helm charts.
 
 ## Helmfile
-- [helmfile](https://github.com/linuxadvise/helmfile)
+- https://helmfile.readthedocs.io Helmfile is a declarative spec for deploying Helm charts. It lets you:
+    - Keep a directory of chart value files and maintain changes in version control
+    - Apply CI/CD to configuration changes
+    - Periodically sync to avoid skew in environments
+- [github.com/helmfile/helmfile](https://github.com/helmfile/helmfile) Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases in one shot
 - [linuxadvise.com: Helmfile - Next Level to manage your helm Charts](https://www.linuxadvise.com/amp/helmfile-next-level-to-manage-your-helm-charts)
 - [kubesandclouds.com: Helmfile: turbocharging Helm](https://kubesandclouds.com/index.php/2020/12/16/helmfile/)
 
@@ -167,6 +179,7 @@ Kubernetes packages
 - [helm-diff: Helm Diff Plugin](https://github.com/databus23/helm-diff)
 - [Helmsman: Helm Charts as Code](https://github.com/Praqma/helmsman) Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code.
     - [medium: Gitops using Helmsman to apply Helm Charts to k8s](https://medium.com/@marco.franssen/gitops-using-helmsman-to-apply-helm-charts-to-k8s-1a7217ced411)
+- [tellerops/helm-teller](https://github.com/tellerops/helm-teller) Helm Teller allows you to inject configuration and secrets from multiple providers into your chart while masking the secrets at the deployment
 
 ## Helm Books
 - [Learn Helm](https://www.packtpub.com/cloud-networking/learn-helm)

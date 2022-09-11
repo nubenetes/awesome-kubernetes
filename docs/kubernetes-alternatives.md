@@ -1,5 +1,6 @@
 # Kubernetes Alternatives
-- [Why Not Use Kubernetes](#why-not-use-kubernetes)
+- [Introduction](#introduction)
+    - [Why Not Use Kubernetes](#why-not-use-kubernetes)
 - [Heroku](#heroku)
 - [Amazon ECS](#amazon-ecs)
 - [Nomad](#nomad)
@@ -11,7 +12,10 @@
 - [Images](#images)
 - [Videos](#videos)
 
-## Why Not Use Kubernetes
+## Introduction
+- [simform.com: Top Alternatives to Kubernetes to Overcome Business Challenges](https://www.simform.com/blog/alternatives-to-kubernetes/) Looking for alternatives to Kubernetes to overcome orchestration challenges? Here are eight alternatives for optimized containerization!
+
+### Why Not Use Kubernetes
 - [medium: Why Not Use Kubernetes?](https://medium.com/better-programming/why-not-use-kubernetes-52a89ada5e22) Is Kubernetes really right for your stack?
 - [medium: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)
 - [thenewstack.io: Do I Really Need Kubernetes?](https://thenewstack.io/do-i-really-need-kubernetes/)

@@ -1,14 +1,17 @@
 # AWS Security
 - [Introduction](#introduction)
+- [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
 - [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
 - [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
 - [AWS IAM](#aws-iam)
+    - [AWS IAM Anywhere](#aws-iam-anywhere)
 - [AWS Organizations](#aws-organizations)
 - [AWS Control Tower](#aws-control-tower)
 - [AWS Firewalls](#aws-firewalls)
 - [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
 - [AWS Secrets Manager](#aws-secrets-manager)
 - [AWS Vault](#aws-vault)
+- [Tweets](#tweets)
 
 ## Introduction
 - [AWS Security Blog](http://blogs.aws.amazon.com/security)
@@ -37,6 +40,12 @@
 - [==How to automate AWS account creation with SSO user assignment==](https://aws.amazon.com/blogs/security/how-to-automate-aws-account-creation-with-sso-user-assignment/)
 - [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments/) Many good tips, from identity management to tenant isolation.
 - [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem/)
+- [faun.pub: Handling Exposed AWS Access Key](https://faun.pub/handling-exposed-aws-access-key-b053362abd73)
+- [github.com/aws-samples: How to set up continuous replication from your third-party secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault)
+
+## AWS Security Reference Architecture AWS SRA
+- [==docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA)== 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html)
+- [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available/) A set of guidelines for deploying the full complement of AWS security services in a multi-account environment.
 
 ## Policy as Code with AWS CDK and Open Policy Agent
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
@@ -66,6 +75,14 @@
     - You can constrain access to sensitive data
     - You'll promote innovation & agility
     - You can more easily manage costs
+- [aws.amazon.com: When and where to use IAM permissions boundaries](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/) A permissions boundary is an IAM feature that helps your centralized cloud IAM teams to safely empower your application developers to create new IAM roles and policies in Amazon Web Services (AWS). 
+- [Extend AWS IAM roles to workloads outside of AWS with IAM Roles Anywhere 🌟](https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere/) **A secure way for on-premises servers, containers, or apps to obtain temporary AWS credentials and remove the need for creating and managing long-term AWS credentials**
+- [binx.io: Working with AWS Permission Policies 🌟](https://binx.io/2022/07/13/working-with-aws-permission-policies/)
+
+### AWS IAM Anywhere
+- [==jimmydqv.com: AWS IAM Anywhere== 🌟](https://jimmydqv.com/iam-anywhere/)
+    - Most of us that have worked with cloud long enough has encountered hybrid cloud solutions in one way or another. I often see clients with some parts, or applications, running on-premises that need to call AWS services. I'm working with an client with an application running on-premises. The application gather data from different sources, and then upload the data files to an Amazon S3 Bucket. The data is imported and analyzed in the cloud. Up till now I needed to create an IAM User and generate long lived credentials that the on-premises part could use. That is until the recent release of IAM Anywhere. 
+    - IAM Anywhere rely on Public key Infrastructure (PKI) and exchange x.509 certificates for temporary AWS IAM credentials. You establish a trust between you AWS account and a Certificate Authority (CA), a trust anchor. Certificates issued by that CA can then be used to get credentials. Fields, like the Common Name (CN), in the certificate can be used as conditions in policies to limit what IAM Roles that can be assumed.
 
 ## AWS Organizations
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
@@ -88,6 +105,7 @@
 - [AWS WAF sample rules](https://github.com/awslabs/aws-waf-sample)
 - [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)
 - [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)
+- [faun.pub: Set up global rate limiting with AWS WAF in 5 minutes](https://faun.pub/set-up-global-rate-limiting-with-aws-waf-in-5-minutes-bd43a9309683)
 
 ## AWS Secrets Manager
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
@@ -97,4 +115,13 @@
 ## AWS Vault
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
 - [AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault](https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/)
+
+## Tweets
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you secure your <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> access?<br><br>11 secrets hackers don&#39;t want you to know 📈. <br><br>Number 7 will blow your mind 🤯<br><br>A thread 🔽🔽🔽<a href="https://twitter.com/hashtag/AWSCommunity?src=hash&amp;ref_src=twsrc%5Etfw">#AWSCommunity</a></p>&mdash; Andrea Cavagna (@a_cava94) <a href="https://twitter.com/a_cava94/status/1567168785437659137?ref_src=twsrc%5Etfw">September 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
 

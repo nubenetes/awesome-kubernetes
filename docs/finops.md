@@ -1,5 +1,8 @@
 # Cloud FinOps. Collaborative, Real-Time Cloud Financial Management
 - [Introduction](#introduction)
+- [Compute Cost Calculator](#compute-cost-calculator)
+- [AWS Cost Optimizations](#aws-cost-optimizations)
+- [Kubernetes Cost Optimization](#kubernetes-cost-optimization)
 - [Licence Managers](#licence-managers)
 - [EKS](#eks)
 - [Books](#books)
@@ -26,6 +29,25 @@
 - [thenewstack.io: Cloud Cost Management for DevOps](https://thenewstack.io/cloud-cost-management-for-devops)
 - [zdnet.com: As cloud costs spiral upward, enterprises turn to a thing called FinOps](https://www.zdnet.com/article/as-cloud-costs-spiral-upward-enterprises-turn-to-a-thing-called-finops/) Organizations waste 32% of cloud spend, up from 30% a year ago. 'More and more users are swimming in the FinOps side of the pool, even if they may not know it - or call it FinOps yet.'
 - [thenewstack.io: Tricks for Cloud Cost Optimization | Pavan Belagatti](https://thenewstack.io/tricks-for-cloud-cost-optimization)
+- [venturebeat.com: Cloud costs are unmanageable: It’s time we standardize billing](https://venturebeat.com/datadecisionmakers/cloud-costs-are-unmanageable-its-time-we-standardize-billing/)
+- [medium.com/@pratzy99: Adoption of FinOps for Kubernetes Cost Optimization 🌟](https://medium.com/@pratzy99/adoption-of-finops-for-kubernetes-cost-optimization-6263bc7b3f57)
+- AWS Tip 💛 Avoid billing surprises:
+	- Avoid billing surprises 💸
+	- 𝗿𝗲𝘃𝗶𝗲𝘄 𝗰𝗼𝘀𝘁𝘀 (bi-)weekly
+	- get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿
+	- set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀
+	- understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?
+
+## Compute Cost Calculator
+- https://compute-cost.com 🌟
+- This tool finds the lowest price of compute resources from different services (currently just in AWS). To balance simplicity and utility, only the most common features are available as filters.
+- "As an AWS user, I often want to know the cheapest options for compute resources given some project-specific criteria. So, I made a tool to show me that data in a way that is useful to me. Maybe it will be useful to you" @ericwastl
+
+## AWS Cost Optimizations
+- [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)
+
+## Kubernetes Cost Optimization
+- [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)
 
 ## Licence Managers
 - [marketplace.atlassian.com:  License Manager - Easily track your software licenses](https://marketplace.atlassian.com/apps/1227641/license-manager-easily-track-your-software-licenses) Unified view of software usage, SaaS, cloud resources, domains, SSL certificates info across the enterprise from one place in Jira.
@@ -43,10 +65,15 @@
 
 ## Cost Optimization Tools
 - [CAST AI](https://cast.ai/) cuts your cloud bill automatically so engineers can focus on building a better product
+- [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) The serverless cost optimization bot. Bill enables AWS customers to proactively monitor their infrastructure costs and identify unforeseen expenses in a timely manner. Bill wants to prevent AWS customers from receiving bad surprises in their monthly bill. Therefore he addresses two primary problem areas:
+	- Cost history is not monitored on a regular basis
+	- Basic cost optimization best practices are not setup
 
 ## Tweets
 ??? note "Click to expand!"
 
 	<center>
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What is FinOps Architect job in Cloud?<br>This has got very popular on Public cloud to manage companies - Cloud Financial Management. <br><br>Here&#39;s how you can be a Cloud FinOps Consultant<br>🧵1/?<br>1. Learn architecture well</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1498705725874483205?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🏗 AWS Tip 💛<br><br>Avoid billing surprises 💸<br><br>• 𝗿𝗲𝘃𝗶𝗲𝘄 𝗰𝗼𝘀𝘁𝘀 (bi-)weekly<br>• get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿<br>• set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀<br>• understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1551934589945450501?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</center>

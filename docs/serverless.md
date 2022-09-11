@@ -8,6 +8,7 @@
 - [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
 - [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
 	- [OpenFaaS](#openfaas)
+	- [OpenFunction](#openfunction)
 	- [Knative](#knative)
 		- [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
 	- [Kubeless](#kubeless)
@@ -39,6 +40,7 @@
 * [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 * [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
 * [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
+* [readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟](https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount/) **When designing serverless apps, you must consider the right level of scale. Your architecture choices will vary greatly depending on the expected load. "Just because serverless services can scale doesn't mean they will scale".**
 
 ### Governance
 - [betterprogramming.pub: Going Serverless? Governance Is Everything](https://betterprogramming.pub/going-serverless-governance-is-everything-c70589c9cee9) When deciding to go serverless, you need to put up some guardrails to protect yourself. If you don’t, you might find yourself in a hole you can’t get out of
@@ -48,6 +50,7 @@
 * [cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟](https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose/)
 * [economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless vs. Kubernetes when deploying microservices](https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms)
 * [acloudguru.com: Containers vs serverless: Which is right for you?](https://acloudguru.com/blog/engineering/containers-vs-serverless-which-is-right-for-you) Serverless is one of the hottest new cloud trends. However, I have found it leads to more harm than good in the long run. While I understand some of the problems listed above are not unique to serverless, they are much more prolific; leading engineers to spend most of their time with YAML configuration or troubleshooting function execution rather than crafting business logic. What I find odd is the lack of complaints from the community. If I’m alone in my assessment, I’d love to hear from you in the comments below. I’ve spent a significant amount of time over the last few years working to undo my own serverless mistakes as well as those made by other developers. Maybe I’m the one who has been brainwashed? Time will tell.
+* [oliverjumpertz.medium.com: Serverless vs. Kubernetes](https://oliverjumpertz.medium.com/serverless-vs-kubernetes-58b0b387dc98)
 
 ### Case Studies
 * [dashbird.io: Serverless Case Study – Coca-Cola](https://dashbird.io/blog/serverless-case-study-coca-cola/)
@@ -81,6 +84,9 @@
 * [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-openfaas-java/)
 * [dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟](https://dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera)
 * [openfaas.com: Learn how to build functions faster using Rancher's kim and K3s](https://www.openfaas.com/blog/kim/) Learn how the kim tool from Rancher can be used to build functions directly into a K3s cluster.
+
+### OpenFunction
+* [OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox Project)](https://github.com/OpenFunction/OpenFunction) OpenFunction is a cloud-native open-source FaaS (Function as a Service) platform aiming to let you focus on your business logic without having to maintain the underlying runtime environment and infrastructure.
 
 ### Knative
 * [knative.dev](https://knative.dev/)

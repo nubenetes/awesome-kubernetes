@@ -8,6 +8,8 @@
 - [Backup with Portworx PX-Backup](#backup-with-portworx-px-backup)
 - [Backup for GKE](#backup-for-gke)
 - [Konveyor Open Source Migration Tool for Kubernetes](#konveyor-open-source-migration-tool-for-kubernetes)
+- [Other Tools](#other-tools)
+- [Books](#books)
 - [Slides](#slides)
 - [Videos](#videos)
 
@@ -69,6 +71,7 @@
 * [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc?utm_sq=gi0vbpxxa3)
 * [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://cloud.redhat.com/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 * [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
+* [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc) Maintaining backup is always rewarding. Learn how to backup and restore an entire K8s cluster in this detailed article
 
 ## Backup with Portworx PX-Backup
 * [PX-Backup](https://portworx.com/products/px-backup/)
@@ -93,6 +96,15 @@
         - What are the benefits of moving workloads to Kubernetes?
     - In this meetup, Philip Hayes, Runtimes Practice Lead at Red Hat, will provide answers to these questions and also include a step-by-step guide to migrating an EAP 7 application to Kubernetes.
     - [youtube: Migrating JBoss EAP Applications to Kubernetes with Source-to-Image (S2I)](https://www.youtube.com/watch?v=9hDdg_Beui4&ab_channel=Konveyor)
+
+## Other Tools
+- [k8up.io](https://k8up.io) K8up is a Kubernetes Operator that helps you:
+  - Backup all PVCs marked as ReadWriteMany or with a specific label
+  - Perform individual, on-demand backups
+  - Schedule backups to be executed on a regular basis
+  - And more
+## Books
+- [kasten.io: Kubernetes Backup & Recovery For Dummies (Free e-book)](https://www.kasten.io/kubernetes/resources/books/kubernetes-backup-and-dr-for-dummies)
 
 ## Slides
 <details>

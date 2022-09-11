@@ -120,6 +120,9 @@
 * [==redhat.com: How to create dynamic inventory files in Ansible==](https://www.redhat.com/sysadmin/ansible-dynamic-inventories) Learn how to use the host_list and Nmap plugins to build inventory files for your Ansible playbooks.
 	* [==redhat.com: How to write a Python script to create dynamic Ansible inventories==](https://www.redhat.com/sysadmin/ansible-dynamic-inventory-python) Write a script in Python that fetches hosts using Nmap to generate dynamic inventories.
 	* [==redhat.com: How to write an Ansible plugin to create inventory files==](https://www.redhat.com/sysadmin/ansible-plugin-inventory-files)
+* [dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟](https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10/) Ansible is an administrative tool that aims to make server management easier by using declarative and idempotent configuration files.
+* [learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks](https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html)
+
 ## Deploying custom files with Jinja2 templates
 - [infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟](https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/) - [video](https://www.youtube.com/watch?app=desktop&v=jokfVGdhBow&feature=youtu.be&ab_channel=InfraXpertzz)
 - [jinja 🌟](https://github.com/pallets/jinja/) Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.

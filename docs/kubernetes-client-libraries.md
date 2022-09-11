@@ -2,7 +2,9 @@
 - [Kubernetes Client Libraries](#kubernetes-client-libraries)
 - [Go Clients for Kubernetes](#go-clients-for-kubernetes)
 - [Python Client for Kubernetes](#python-client-for-kubernetes)
-- [Fabric8 Java Client for Kubernetes (deprecated)](#fabric8-java-client-for-kubernetes-deprecated)
+- [Java Clients for Kubernetes](#java-clients-for-kubernetes)
+    - [Official Java client library for kubernetes](#official-java-client-library-for-kubernetes)
+    - [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
 - [CDK8s Python](#cdk8s-python)
 - [Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-java-client-for-kubernetes-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
 - [Java Operator SDK](#java-operator-sdk)
@@ -21,12 +23,20 @@
 - [kubernetes-client/go: OpenAPI based Generated Go client for Kubernetes](https://github.com/kubernetes-client/go)
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
 * [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
+* [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481) Learn to programmatically talk to the Kubernetes cluster using the Official Client Go Library. In this tutorial, you'll learn how to build a simple CLI that connects to the Kubernetes cluster and displays the server version. In the process, you will learn Go and the client-go package.
 ## Python Client for Kubernetes
 - [github.com/kubernetes-client/python](https://github.com/kubernetes-client/python)
 - [github.com/kubernetes-client/python-base](https://github.com/kubernetes-client/python-base)
 - [==medium.com/@dimitrijevskiv: Monitor Kubernetes pod status from a Jenkins pipeline==](https://medium.com/@dimitrijevskiv/monitor-kubernetes-pod-status-from-a-jenkins-pipeline-e25c744d944d)
+- [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7) The Kubernetes Python module is a very powerful client that allows you to easily automate interactions with a Kubernetes cluster.
 
-## Fabric8 Java Client for Kubernetes (deprecated)
+## Java Clients for Kubernetes
+- [==itnext.io: Difference between Fabric8 and Official Kubernetes Java Client== 🌟](https://itnext.io/difference-between-fabric8-and-official-kubernetes-java-client-3e0a994fd4af)
+
+### Official Java client library for kubernetes
+- [github.com/kubernetes-client/java: Kubernetes Java Client](https://github.com/kubernetes-client/java) Official Java client library for kubernetes
+
+### Fabric8 Java Client for Kubernetes
 - [Fabric8](https://fabric8.io/) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
 - [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client/)
 - [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/05/28/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift/)
@@ -46,7 +56,8 @@
 - [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube/)
 - [eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟](https://www.eclipse.org/jkube/docs/migration-guide/)
 - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
-- [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
+- [blog.marcnuri.com](https://blog.marcnuri.com/)
+    - [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
 
 ## Java Operator SDK
 - [javaoperatorsdk.io: Build Kubernetes Operators in Java without hassle](https://javaoperatorsdk.io/) Whether you want to build applications that operate themselves or provision infrastructure from Java code, Kubernetes Operators are the way to go. This SDK will make it easy for Java developers to embrace this new way of automation. The java-operator-sdk is based on the fabric8 Kubernetes client.

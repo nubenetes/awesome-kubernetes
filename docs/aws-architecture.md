@@ -17,6 +17,7 @@
 - [==Creating a Multi-Region Application with AWS Services – Part 1, Compute, Networking, and Security==](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-1-compute-and-security/)
 - [==Creating a Multi-Region Application with AWS Services – Part 2, Data and Replication==](https://aws.amazon.com/blogs/architecture/creating-a-multi-region-application-with-aws-services-part-2-data-and-replication/)
 - [==Let’s Architect! Architecting microservices with containers==](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers/) Microservices structure an application as a set of independently deployable services. They speed up software development and allow architects to quickly update systems to adhere to changing business requirements. According to best practices, the different services should be loosely coupled, organized around business capabilities, independently deployable, and owned by a single team. If applied correctly, there are multiple advantages to using microservices. However, working with microservices can also bring challenges. In this edition of Let’s Architect!, we explore the advantages, mental models, and challenges deriving from microservices with containers.
+- [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments/)
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
 - [AWS Architecture Blog](https://www.awsarchitectureblog.com)
@@ -42,3 +43,5 @@
 - [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time/)
 - [zarantech.com: Top 5 Pillars of AWS Well-Architected Structure](https://www.zarantech.com/blog/top-5-pillars-of-aws-well-architected-structure/)
 - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way/)
+- [AWS Architecture Blog: Use templated answers to perform Well-Architected reviews at scale](https://aws.amazon.com/blogs/architecture/use-templated-answers-to-perform-well-architected-reviews-at-scale/)
+- [medium.com/@buraktahtacioglu: AWS Well-Architected Framework — AWS Roadmap](https://medium.com/@buraktahtacioglu/aws-well-architected-framework-aws-roadmap-80aaa6ca7f53)

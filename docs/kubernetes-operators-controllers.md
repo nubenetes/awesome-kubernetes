@@ -1,5 +1,6 @@
 # Kubernetes Operators and Controllers
 - [Introduction](#introduction)
+- [Creating Kubernetes operator using Kubebuilder](#creating-kubernetes-operator-using-kubebuilder)
 - [operatorhub.io](#operatorhubio)
 - [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
 - [Operator Capability Levels](#operator-capability-levels)
@@ -72,7 +73,6 @@
 - [==developer.redis.com: Kubernetes Operator: What It Is and Why You Should Really Care About It==](https://developer.redis.com/create/kubernetes/kubernetes-operator/)
 - [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator) Kubernetes operator for Victoria Metrics
 - [blog.px.dev/k8s-operator: 3 Reasons to Use Kubernetes Operators (and 2 Reasons Not To)](https://blog.px.dev/k8s-operator)
-- [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)
 - [==dzone.com: What Is a Kubernetes Operator?==](https://dzone.com/articles/what-is-a-kubernetes-operator) A Kubernetes Operator fills in the gaps between the capabilities and automation provided by Kubernetes and how your software uses Kubernetes for task automation.
 - [practicalkubernetes.blogspot.com: Making the case for Kubernetes Operators](https://practicalkubernetes.blogspot.com/2022/01/making-case-for-kubernetes-operators.html)
 - [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) Kubegres is a Kubernetes operator allowing to deploy one or many **clusters of PostgreSql instances and manage databases replication, failover and backup.**
@@ -90,19 +90,52 @@
     - Users can specify how many approvals do they need before a resource is updated.
     - https://keel.sh
 - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)
-- [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa) Build Kubernetes Operator with **Kubebuilder** and declarative pattern. kubebuilder-declarative-pattern provides a set of tools for building cluster operators with kubebuilder. Declarative operators provide a fast path to orchestrating deployments instead of reinventing the wheel i.e. "how do I get/update this YAML?"
 - [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332) A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable. 
 - [openshift/machine-api-operator](https://github.com/openshift/machine-api-operator) The Machine API Operator manages the lifecycle of specific purpose CRDs, controllers and RBAC objects that extend the Kubernetes API. This allows to convey desired state of machines in a cluster in a declarative fashion
 - [rancher/system-upgrade-controller: System Upgrade Controller](https://github.com/rancher/system-upgrade-controller) This project aims to provide a general-purpose, Kubernetes-native upgrade controller (for nodes). It introduces a new CRD, the Plan, for defining any and all of your upgrade policies/requirements. A Plan is an outstanding intent to mutate nodes in your cluster.
 - [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792) There's a lot of hidden knowledge in core controllers and api conventions doc that is not followed by many controllers in the wild. One of these patterns is observedGeneration. In this article, you will learn what problems it can help solve.
 - [ckotzbauer/vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) Scans SBOMs for vulnerabilities. This operator scans all SBOMs from a git-repository for vulnerabilities using Grype. The result-list can be emitted as JSON-file served via an endpoint and/or as Prometheus metrics. There may be more targets in the future. The scans are done periodically.
 - [Michaelpalacce/SimpleSecrets](https://github.com/Michaelpalacce/SimpleSecrets) K8S Secrets Manager Operator. SimpleSecrets is a secure operator that allows you to create secrets on demand. You can commit the SimpleSecrets, which are references to a database secret, and the operator will create Kubernetes Secrets automatically for you.
+- [learnsteps.com: Advance Kubernetes: What exactly are Kubernetes Operators?](https://www.learnsteps.com/advanced-kubernetes-what-exactly-are-kubernetes-operators/) Kubernetes has gained a lot of traction recently and is one of the standards followed across organizations when it comes to running and managing their containerized workloads. In this article, we are going to talk about Kubernetes operators.
+- [betterprogramming.pub: Build a Kubernetes Operator in 10 Minutes 🌟](https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30)
+- [alain-airom.medium.com: Kubernetes Operators Patterns and Best Practices 🌟](https://alain-airom.medium.com/kubernetes-operators-patterns-and-best-practices-b7fbaa4cbd1) Using operators to manage the lifecycle of multi-cloud, Kubernetes-based applications.
+- [theregister.com: IBM launches Db2 operator for Kubenetes on AWS](https://www.theregister.com/AMP/2022/07/20/ibm_db2_operator/) Azure soon to follow as Big Blue accomodates a world with many clouds
+- [OT-CONTAINER-KIT/mongodb-operator: MongoDB Operator](https://github.com/OT-CONTAINER-KIT/mongodb-operator) MongoDB Operator is an operator created in Golang to create, update, and manage MongoDB standalone, replicated, and arbiter replicated setup on Kubernetes and Openshift clusters.
+- [prosimcorp/reforma](https://github.com/prosimcorp/reforma) Reforma is a Kubernetes operator to patch resources with information from other resources. It is intended to use with GitOps and lets you do things such as creating annotation on a Service Account from metadata stored in a ConfigMap.
+- [weaveworks/tf-controller: Weave GitOps Terraform Controller](https://github.com/weaveworks/tf-controller) A GitOps Terraform controller for Kubernetes. Weave TF-controller is a controller for Flux to reconcile Terraform resources in the GitOps way.
+- [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb) The AWS team released the ACK project, which allows users to create AWS services from within a Kubernetes cluster. In this tutorial, you will learn how to create an S3 bucket with a "Bucket" CRD.
+- [vitobotta/velero-notifications](https://github.com/vitobotta/velero-notifications) Velero-notifications is a simple Kubernetes controller written in Ruby that sends email/Slack/webhook notifications when backups or restores are performed by Velero in a Kubernetes cluster.
+- [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes. The NVIDIA GPU is a Kubernetes operator that automates the management of all NVIDIA software components needed to provision GPUs. These components include drivers, the Kubernetes device plugin, the NVIDIA Container Runtime, etc.
+    - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically: 
+        - Expose the number of GPUs on each node of your cluster
+        - Keep track of the health of your GPUs
+        - Run GPU enabled containers in your Kubernetes cluster
+ 
+- [medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and Operators Explained](https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)
+- [glebiller/dynamic-configuration-operator: Dynamic Configuration Operator](https://github.com/glebiller/dynamic-configuration-operator) Dynamic Configuration Operator is an operator that updates a deployment when a ConfigMap or Secret is updated. Useful for apps that: 
+    - Don't have a live-reload feature
+    - Use `subPath` while mounting a ConfigMap or Secret
+    - Use Projected Volumes
+
+## Creating Kubernetes operator using Kubebuilder
+- [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) Kubebuilder - SDK for building Kubernetes APIs using CRDs
+    - https://book.kubebuilder.io
+- [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)
+- [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa) Build Kubernetes Operator with **Kubebuilder** and declarative pattern. kubebuilder-declarative-pattern provides a set of tools for building cluster operators with kubebuilder. Declarative operators provide a fast path to orchestrating deployments instead of reinventing the wheel i.e. "how do I get/update this YAML?"
+- [qdnqn.com: Creating Kubernetes operator using Kubebuilder](https://qdnqn.com/creating-kubernetes-operator-using-kubebuilder/)
+    - Kubernetes is the current de facto standard for the deployment and running of applications that are suitable for modern cloud platforms. A declarative way of defining infrastructure state using YAML allows a super easy definition of the scheme for the deployment of the application. Deploying stateless applications is not a big deal. On the other hand — deploying distributed stateful applications, configuring, and operating them is a challenging task.
+
+    - Kubernetes addressed this issue by allowing developers to extend it, using the Kubernetes operator. The operator reacts to the custom resource and reconciliate the state in the cluster with the state defined in the custom resource, by implementing logic embedded in the operator itself.
+
+    - When designing/writing an application, intended to run on the Kubernetes, one should take into account capabilities provided by Kubernetes and take that information when designing software architecture. It can speed up implementation, make an application more reliable and the code can focus more on business logic itself.
+
+    - There are multiple ways to create an operator. You could write one from scratch using Kubernetes  client-go. It’s a tedious task and the learning curve is steep. As an alternative, multiple tools provide boilerplate code and speed up the writing of operators. Popular ones are Operatorsdk and Kubebuilder. The focus of the article will be on creating an operator using Kubebuilder. Let’s create an operator which will create a pod running a simple HTTP API and bind some data to the HTTP API.
 
 ## operatorhub.io
 * [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 
 ## Red Hat Container Community of Practice Operators
-- [==cloud.redhat.com: Red Hat Container Community of Practice Operators==](https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators)
+- [==cloud.redhat.com: Red Hat Container Community of Practice Operators==](https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators) In this post, you will find a summary of the operators maintained by Red Hat and how they can be used to facilitate the adoption of OpenShift.
 
 ## Operator Capability Levels
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.
@@ -141,6 +174,7 @@
 * [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2) Develop a simple Kubernetes operator from scratch. In this article, you will build a "hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.
 * [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) Repository for sample controller. Complements sample-apiserver
 * [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9) Create a Kubernetes API, controller, validate webhooks, and test.
+* [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)
 
 ## Tweets
 <details>

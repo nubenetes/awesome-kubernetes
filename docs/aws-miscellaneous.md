@@ -20,6 +20,7 @@
 - [AWS App Runner](#aws-app-runner)
 - [Development](#development)
 - [Cloud Development Kit CDK](#cloud-development-kit-cdk)
+- [AWS Session Manager](#aws-session-manager)
 - [AWS Cloud Endure](#aws-cloud-endure)
 - [ECommerce](#ecommerce)
 - [AWS Clients](#aws-clients)
@@ -100,8 +101,9 @@
 - [dev.to: 10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291)
 
 ## AWS App Runner
-- https://aws.amazon.com/apprunner/
+- [AWS App Runner 🌟](https://aws.amazon.com/apprunner/) AWS App Runner is one of the simplest ways to run your containerized web applications and APIs on AWS. App Runner abstracts away the cloud resources needed for running your web application or API, including load balancers, TLS certificates, auto-scaling, logs, metrics, tracing (such as observability), as well as the underlying compute resources. With App Runner, you can start with source code or a container image.
 - [dev.to: AWS App Runner : How to deploy containerized applications using App Runner](https://dev.to/aws-builders/aws-app-runner-how-to-deploy-containerized-applications-using-app-runner-1f7c) AWS App Runner is an AWS service that provides a fast, simple and cost-effective way to deploy from source code or a container image directly to a scalable and secure web application in the AWS Cloud. You don’t need to learn new technologies, decide which compute service to use, or know how to provision and configure AWS resources.
+- [Architecting for resiliency on AWS App Runner](https://aws.amazon.com/blogs/containers/architecting-for-resiliency-on-aws-app-runner/) Using two regions in an active-active configuration
 
 ## Development
 - [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
@@ -112,6 +114,10 @@
 - [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
+
+## AWS Session Manager
+- [aws.amazon.com: AWS Systems Manager announces support for port forwarding to remote hosts using Session Manager](https://aws.amazon.com/about-aws/whats-new/2022/05/aws-systems-manager-support-port-forwarding-remote-hosts-using-session-manager/)
+- [faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts](https://faun.pub/using-aws-session-manager-for-port-forwarding-to-remote-hosts-8168589ba579)
 
 ## AWS Cloud Endure
 - [AWS Cloud Endure Migration](https://aws.amazon.com/cloudendure-migration/)

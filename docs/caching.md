@@ -23,6 +23,7 @@
 - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b) In this article, we are going to talk about Microservices Distributed Caching for Microservices Architectures. As you know that we learned practices and patterns and add them into our design toolbox. And we will use these pattern and practices when designing e-commerce microservice architecture.
 - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)
+- [learncsdesign.medium.com: An Overview of Distributed Caching 🌟](https://learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
 
 ## Java Caching
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) Strategies and the JCache API. Explores the building blocks of JCache and other caching APIs, as well as multiple strategies for implementing temporary data storage in your application.
@@ -65,6 +66,8 @@
 - [Hitch - scalable TLS proxy. Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software](https://hitch-tls.org/)
 - [slideshare: Varnish - Tips & Tricks - 4Developers 2015](http://www.slideshare.net/piotrpasich/varnish-47199139)
 - [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04)
+- [github.com/IBM/varnish-operator](https://github.com/IBM/varnish-operator) Run and manage Varnish clusters on Kubernetes. Varnish operator manages Varnish clusters using a CustomResourceDefinition that defines a new Kind called VarnishCluster. The operator manages the whole lifecycle of the cluster: creating, deleting and keeping the cluster configuration up to date
+- [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) Varnish Reverse Proxy on Kubernetes
 
 ## Memcached
 - [memcached.org](http://memcached.org)
@@ -75,6 +78,7 @@
 - [redis.io](http://redis.io)
 - [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
+- [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/redis/) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
 
 ## Nginx High-performance caching
 - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)

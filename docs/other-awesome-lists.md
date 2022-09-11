@@ -50,6 +50,9 @@
 - [k8s-at-home/awesome-home-kubernetes: Awesome Home Kubernetes 🌟](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
 	- https://clusterpedia.io
+- [==mikeroyal/Kubernetes-Guide: Kubernetes Guide== 🌟](https://github.com/mikeroyal/Kubernetes-Guide) A guide covering Kubernetes including the applications and tools that will make you a better and more efficient Kubernetes developer.
+- [fairwinds.com: Top 12 Kubernetes Resources: Learn and Stay Up-to-Date](https://www.fairwinds.com/blog/top-12-kubernetes-resources)
+- [github.com/joseadanof: Awesome Cloud Native Trainings](https://github.com/joseadanof/awesome-cloudnative-trainings) In this repository, you will find all the free training with and without certificates that were released for different companies supporting Cloud Native Computing Foundations Projects and Kubernetes.
 
 ## Other Awesome Lists
 - [free-for.dev 🌟](https://free-for.dev) This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
@@ -71,6 +74,7 @@
 - [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles. 
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
+- [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com/) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
 
 ### Project Management
 - [Awesome Project Management](https://github.com/shahedbd/awesome-project-management)
@@ -89,7 +93,7 @@
 - [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
 - [Awesome Jenkins](https://github.com/sahilsk/awesome-jenkins)
 - [Hacking Jenkins](https://github.com/orangetw/awesome-jenkins-rce-2019)
-- [Awesome GitHub Actions](https://github.com/sdras/awesome-actions)
+- [Awesome GitHub Actions](https://github.com/sdras/awesome-actions) A curated list of awesome actions to use on GitHub
 - [Awesome Spinnaker](https://github.com/robzienert/awesome-spinnaker)
 
 ### DevOps
@@ -138,6 +142,7 @@
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Awesome Compose](https://github.com/docker/awesome-compose)
     - [Awesome-Compose: Application samples](https://www.docker.com/blog/awesome-compose-app-samples-for-project-dev-kickoff/) for project development kickoff
+- [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions/) A Curated List of Docker Extensions
 
 ### Configuration Management
 - [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)

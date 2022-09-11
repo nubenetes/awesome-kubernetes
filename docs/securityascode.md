@@ -43,6 +43,7 @@
 - [medium: Automated Manifest File Validation Using Open Policy Agent and GitHub Actions | Ravindu Sandeepa Rathugama](https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0)
 - [thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps (Magalix)](https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps/) - [Magalix](https://www.magalix.com)
 - [fugue.co: Securing a Kubernetes pod with Regula and Open Policy Agent](https://www.fugue.co/blog/securing-a-kubernetes-pod-with-regula-and-open-policy-agent)
+- [dev.to: Load external data into OPA: The Good, The Bad, and The Ugly](https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc) There are several ways to create a data fetching mechanism for the Open Policy Agent - each of them has its pros and cons. In this guide, you will compare and decide which one is the best for you.
 
 ### Open Policy Agent in Kubernetes
 - [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/kubernetes-pod-security-policies-opa/)
@@ -113,6 +114,8 @@
     2. Liveness Probe
     3. Readiness Probe
     4. Graceful shutdown - be able to handle a sigterm in kubernetes
+
+- [medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno](https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad)
 
 ### Kyverno E-Learning
 - [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://appsecengineer.com/courses/kubernetes-policy-management-with-kyverno/)
