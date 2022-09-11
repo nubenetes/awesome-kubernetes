@@ -75,7 +75,7 @@
 - [==DoK Community== 🌟](https://dok.community) 
 - Kubernetes was originally designed to run stateless workloads. Today, it is increasingly used to run databases and other stateful workloads. Yet despite the success of these early adopters, there remain few known good practices for running data on Kubernetes.
 - After discussions with thousands of companies and individuals running data workloads on Kubernetes we’ve come to see that there is a need for a sharing of patterns and concerns about how to build and operate data-centric applications on Kubernetes. As a result, the **Data on Kubernetes Community (DoKC)** was born.
-- [==dok.community: Data on Kubernetes 2021== 🌟](https://dok.community/wp-content/uploads/2021/10/DoK_Report_2021.pdf) Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption
+- [==dok.community: Data on Kubernetes 2021== 🌟](https://dok.community/dokc-2021-report/) Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption
 
 ## Kubernetes Volumes Guide
 - [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) This is a guide that covers:
