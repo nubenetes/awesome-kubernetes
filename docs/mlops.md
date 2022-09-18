@@ -11,6 +11,7 @@
 - [Samples](#samples)
 - [ML Courses](#ml-courses)
 - [ML Competitions and Challenges](#ml-competitions-and-challenges)
+- [Polls](#polls)
 - [Tweets](#tweets)
 ## Introduction. MLOps
 - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
@@ -84,8 +85,8 @@
 ## Azure ML
 - [docs.microsoft.com: MLflow and Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-mlflow) One of the open-source projects that has made #ML better is MLFlow. Microsoft is expanding support for APIs, no-code deployment for MLflow models in real-time/batch managed inference, curated MLflow settings, and CLI v2 integrations.
 - [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint/)
-  - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
-  - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
+    - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
+    - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
 
 ## KServe Cloud Native Model Server
 - [kserve.github.io](https://kserve.github.io/website/0.8/) Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI
@@ -115,6 +116,13 @@
 ## ML Competitions and Challenges 
 - [Kaggle Competitions](https://www.kaggle.com/competitions)
 - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
+
+## Polls
+??? note "Click to expand!"
+
+	<center>
+	[![MLOps Workflow Scheduler Poll](images/mlops_workflow_scheduler_poll.png)](https://www.linkedin.com/feed/update/urn:li:activity:6923979009311559680)
+	</center>
 
 ## Tweets
 <details>

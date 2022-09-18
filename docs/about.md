@@ -104,6 +104,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 	USA (4 Million).
 	India (2.2 Million).
 	</center>
+
 ## Stats
 <details>
   <summary>Stats 1. Click to expand!</summary>

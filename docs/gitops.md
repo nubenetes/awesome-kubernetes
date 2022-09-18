@@ -175,11 +175,13 @@
 ## Git Repositories Structures
 - [==dzone: GitOps: How to Ops Your Git the Right Way== 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 - [==codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments==](https://codefresh.io/about-gitops/branches-gitops-environments/) How do I promote a release to the next environment? **You should NOT use Git branches for modeling different environments. If the Git repository holding your configuration (manifests/templates in the case of Kubernetes) has branches named “staging”, “QA”, “Production” and so on, then you have fallen into a trap.** Using branches for different environments should only be applied to legacy applications.
-- [==developers.redhat.com: Git best practices: Workflows for GitOps deployments== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)
+- [==developers.redhat.com: Git best practices: Workflows for GitOps deployments | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)
 	- Separate your repositories
 	- Separate development in directories, not branches
 	- Trunk-based development
 	- Pay attention to policies and security
+
+- [==developers.redhat.com: How to set up your GitOps directory structure | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/09/07/how-set-your-gitops-directory-structure)
 
 ## GitOps Tools
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
