@@ -278,7 +278,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![azure devops](images/azure_devops_youtube.jpg){: style="width:7%"}](https://www.youtube.com/c/AzureDevOps) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![alibaba cloud](images/alibaba_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/AlibabaCloud) [![linode cloud](images/linode_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/linode) [![gaia-x](images/gaia_x.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw) [![gps](images/gps.jpg){: style="width:7%"}](https://www.youtube.com/c/MadeByGPS) [![keptn](images/keptn_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/keptn) [![anais urlichs](images/anais_urlichs.jpg){: style="width:7%"}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:7%"}](https://www.youtube.com/c/TheDigitalLifeTech)
 </center>
 
-??? note "Kubernetes: The Documentary - Click to expand!"
+??? note "Top Videos & Clips - Click to expand!"
 
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
