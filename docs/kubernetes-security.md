@@ -131,6 +131,7 @@
 - [==medium.com/@dotdc: Is your Kubernetes API Server exposed? Learn how to check and fix!== 🌟](https://medium.com/@dotdc/is-your-kubernetes-api-server-exposed-learn-how-to-check-and-fix-609ab9638fae)
 - [elastisys.com: Why and how should you reboot Kubernetes Nodes? 🌟](https://elastisys.com/why-and-how-should-you-reboot-kubernetes-nodes/) Regularly rebooting Kubernetes Nodes is necessary for a healthy security posture. In this article, you will learn how you can reboot your Nodes securely, when and how to avoid common mistakes that could cause downtime (i.e. PodDisruptionBugdets)
 - [levelup.gitconnected.com: The Core of Kubernetes Security: Clusters](https://levelup.gitconnected.com/the-core-of-kubernetes-security-clusters-5d9a69f1dba4)
+- [sysdig.com: How attackers use exposed Prometheus server to exploit Kubernetes clusters | Miguel Hernández](https://sysdig.com/blog/exposed-prometheus-exploit-kubernetes-kubeconeu/) What happens if an attacker accesses your Prometheus server? How much information can they get for fingerprinting the cluster? In this article, you will learn how attackers use this information and how to secure your cluster.
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

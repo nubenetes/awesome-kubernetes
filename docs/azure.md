@@ -30,7 +30,7 @@
 - [Azure Traffic Manager](#azure-traffic-manager)
 - [Azure OpenVPN](#azure-openvpn)
 - [Azure Security](#azure-security)
-- [Azure Data Factory](#azure-data-factory)
+- [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
 - [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
 - [Windows 11](#windows-11)
 - [Azure API Management](#azure-api-management)
@@ -291,7 +291,24 @@
 - [==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook==](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) **This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.**
 - [==devops.com: DevSecOps in Azure==](https://devops.com/devsecops-in-azure/)
 
-## Azure Data Factory
+## Data Ingestion. Azure Data Factory
+- [==medium.com/codex: 7 Best Practices for Data Ingestion==](https://medium.com/codex/7-best-practices-for-data-ingestion-f336c6b5128c)
+    - Data engineering is the practice of designing and building systems for collecting, storing, and analyzing data at scale.
+    - Data Ingestion is defined as the process of absorbing data from a vast multitude of sources, and then transferring it to a target site where it can be analyzed and deposited.
+    - A Data Engineer spends more than 50% of his time writing different pipelines that move data from one place to another. There are two basic frameworks to achieve the same:
+        - ETL: Extract — Transform — Load
+        - ELT: Extract — Load — Transform
+    - However, in both the frameworks the common element is to be able to extract the data and load it into another destination. This is Data Ingestion.
+    - On a broad categorization, there are mainly 3 types of Data Ingestion:
+        - Batch-based Data Ingestion: Batch-based ingestion happens at a regularly scheduled time. The data is ingested in batches. This is important when a business needs to monitor daily reports, ex: sales reports for different stores. This is the most commonly used data ingestion use case.
+        - Real-time/Streaming Data Ingestion:
+            - The process of gathering and transmitting data from source systems in real-time solutions such as Change Data Capture (CDC) is known as Real-Time Data Ingestion.
+            - CDC or Streaming Data captures any changes, new transactions, or rollback in real time and moves changed data to the destination, without impacting the database workload.
+            - Real-Time Ingestion is critical in areas like power grid monitoring, operational analytics, stock market analytics, dynamic pricing in airlines, and recommendation engines.
+        -  Lambda-based Data Ingestion Architecture: Lambda architecture in Data ingestion tries to use the best practices of both batch and real-time ingestion.
+            -  Batch Layer: Computes the data based on the whole picture. This is more accurate however is slower to compute.
+            -  Speed Layer: Is used for real-time ingestion, the computed data might not be completely accurate, however, gives a real-time picture of the data.
+            -  Serving layer: The outputs from the batch layer in the form of batch views and those coming from the speed layer in the form of near real-time views get forwarded to the serving. This layer indexes the batch views so that they can be queried in low latency on an ad-hoc basis.
 - [mssqltips.com: Choosing Between SQL Server Integration Services and Azure Data Factory](https://www.mssqltips.com/sqlservertip/7094/azure-data-factory-vs-ssis-similarities-differences/)
 
 ## WinGet Windows Package Manager CLI

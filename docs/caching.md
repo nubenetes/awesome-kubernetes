@@ -79,6 +79,7 @@
 - [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 - [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/redis/) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
+- [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) In this tutorial, you will learn how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
 
 ## Nginx High-performance caching
 - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)

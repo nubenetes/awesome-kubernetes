@@ -3,6 +3,7 @@
 - [ImagePullBackOff](#imagepullbackoff)
 - [CrashLoopBackOff](#crashloopbackoff)
 - [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
+- [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
 - [OOM Kills](#oom-kills)
 - [Stuck Namespace](#stuck-namespace)
 - [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
@@ -69,6 +70,9 @@
 
 ## Failed to Create Pod Sandbox
 - [containiq.com: Troubleshooting the “Failed to Create Pod Sandbox” Error](https://www.containiq.com/post/troubleshooting-failed-to-create-pod-sandbox-error) The “failed to create pod sandbox” error is a common problem when you’re trying to create a pod in Kubernetes. This article will explain the possible causes of the problem as well as how to fix it.
+
+## Terminated with exit code 1 error
+- [containiq.com: Troubleshooting ‘terminated with exit code 1’ error](https://www.containiq.com/post/terminated-with-exit-code-1) Sometimes Kubernetes pods die, leaving behind only cryptic messages such as “terminated with exit code 1”. In this guide, you’ll learn what this error indicates and how to troubleshoot it.
 
 ## OOM Kills
 - [medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes](https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60) An “Invisible” OOM Kill happens when a child process in a container is killed, not the init process. It is “invisible” to Kubernetes and not detected. What is OOM? well.. not a good thing.

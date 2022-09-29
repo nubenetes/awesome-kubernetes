@@ -144,6 +144,7 @@
 * [medium.com/geekculture: Docker — Limit Container CPU Usage 🌟](https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a)
 * [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 * [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)
+* [cloudnativeislamabad.hashnode.dev: Introduction to Docker | part 1 🌟](https://cloudnativeislamabad.hashnode.dev/introduction-to-docker-part-1)
 
 ## Docker CLI
 * [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
@@ -326,5 +327,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Docker Compose + DockerSlim = ❤️<a href="https://twitter.com/DockerSlim?ref_src=twsrc%5Etfw">@DockerSlim</a> can make your images much smaller (hence, faster and securer), but it requires launching containers for runtime analysis.<br><br>Real apps, though, rarely run in isolation... Docker knew that and built Compose.<br><br>Now, behold the synergy! 🔽 <a href="https://t.co/n6NlJokC95">pic.twitter.com/n6NlJokC95</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1547233568610566144?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Debunking Container Myths 🧵<br><br>A (never-ending) series of articles that I started writing a couple of years ago to fix my own misconceptions about containers 🔽 <a href="https://t.co/bD7Iw48ere">pic.twitter.com/bD7Iw48ere</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1563851156417298434?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What Is a Distroless Container Image? 🧵<br><br>Go (programming language) is famous for its statically linked binaries. You can take a Go executable, drop it into a &quot;FROM scratch&quot; container, and call it a day.<br><br>But there might be a problem (keep reading) 👇 <a href="https://t.co/kskCI3rqCC">pic.twitter.com/kskCI3rqCC</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1566827552781524995?ref_src=twsrc%5Etfw">September 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

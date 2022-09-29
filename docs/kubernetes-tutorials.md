@@ -69,6 +69,8 @@
         * Pods as unit of scaling
         * Pod lifecycle
 
+* [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185)
+
 ## Online Training
 * [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
 * [kubernetesbyexample.com](http://kubernetesbyexample.com/)

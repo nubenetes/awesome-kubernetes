@@ -207,6 +207,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
     * [enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose](https://enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose/)
     * [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment. 
     * [==thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos==](https://github.com/thanos-io/kube-thanos)
+    * [medium.com/nerd-for-tech: Deep Dive into Thanos-Part I | Pavan Kumar](https://medium.com/nerd-for-tech/deep-dive-into-thanos-part-i-f72ecba39f76) Monitoring Kubernetes Workloads with Thanos and Prometheus Operator.
 * [**M3**:](https://www.m3db.io/) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 * [VictoriaMetrics](https://victoriametrics.com/)

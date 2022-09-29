@@ -21,7 +21,7 @@
 - [StackRox](#stackrox)
 - [Secure Container Based CI/CD Workflows. Vulnerability Scanner for Container Images](#secure-container-based-cicd-workflows-vulnerability-scanner-for-container-images)
 	- [Securing Kubernetes With Anchore](#securing-kubernetes-with-anchore)
-	- [Secure Containers with Notary or Cosign](#secure-containers-with-notary-or-cosign)
+	- [Container Signing. Secure Containers with Notary or Cosign](#container-signing-secure-containers-with-notary-or-cosign)
 - [GitHub security](#github-security)
 - [Databases in DMZ and Intranet](#databases-in-dmz-and-intranet)
 - [Removing Credentials From Git Repo](#removing-credentials-from-git-repo)
@@ -324,8 +324,14 @@
 - [Anchore: Secure Container Based CI/CD Workflows](https://anchore.com/cicd/)
 - [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner/)
 
-### Secure Containers with Notary or Cosign
+### Container Signing. Secure Containers with Notary or Cosign
 - [Notary](https://github.com/notaryproject/notary) Notary is a project that allows anyone to have trust over arbitrary collections of data
+- [Cosign: Container Signing](https://github.com/sigstore/cosign) Container Signing, Verification and Storage in an OCI registry. Cosign supports:
+	- Hardware and KMS signing
+	- Bring-your-own PKI
+	- Our free OIDC PKI (Fulcio)
+	- Built-in binary transparency and timestamping service (Rekor)
+
 - [infracloud.io: Enforcing Image Trust on Docker Containers using Notary](https://www.infracloud.io/blogs/enforcing-image-trust-docker-containers-notary/)
 - [medium: Verify Container Image Signatures in Kubernetes using Notary or Cosign or both](https://medium.com/sse-blog/verify-container-image-signatures-in-kubernetes-using-notary-or-cosign-or-both-c25d9e79ec45) Connaisseur v2.0 adds support for multiple keys and signature solutions.
 - [infracloud.io: How to Secure Containers with Cosign and Distroless Images](https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images/)
