@@ -20,7 +20,6 @@ My VSCode's settings.json :
         "MD033": false,
         "MD007": { "indent": 4 },
         "no-hard-tabs": false
-    },
-    "markdownlint.run": "onSave"
+    }
 }
 ```
