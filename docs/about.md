@@ -6,17 +6,17 @@
 
 This web started in 2018, after finishing my first relevant project on cloud computing with a well known consulting firm. It was an international project coordinated from Munich with remote work from other european countries and regular flights. The client was a major multinational car manufacturer with a big investment in OpenShift and Cloudbees/Jenkins infrastructure. Our role was to help the client with their pretty large CI/CD ecosystem while also implementing a new **self-service developer platform**, involving areas of development and operations and within a DevOps model. **Requirements and way of working included continuous improvement, standardization, boilerplates and automation with a GitOps pattern**, a highly recommended approach specially in demanding projects like this with hundreds of real microservices, a large number of IaC & CI/CD pipelines, hundreds (thousands?) of developers and millions of end users.
 
-Since then I try to apply in my country what I learnt from the germans and other european colleagues. 
+Since then I try to apply in my country what I learnt from the germans and other european colleagues.
 
 I'm not a freelancer and most of the time I work as a contractor, which in Spain means to be hired as an employee by an external company.
 
 Suggesting improvements and best practices or applying quality standards and automated solutions that work well and are easy to verify shouldn't penalize a career, but it's terribly common. I am concerned about working with some colleagues or managers who consider it a threat, generating absurd conflicts, blame games and acting in bad faith or stupidly distorting the purpose of the project.
 
-In a service driven IT sector (with calculated ambiguities and many hidden interests) the product is the hours billed by the consultant, being almost irrelevant the **content of the job and the delivered quality**. It is thus too common to find technical solutions under the policy of applying "the most difficult, non-standard, slowest and most obfuscated way possible" as a competitive element ([the hard way](https://www.fairwinds.com/blog/never-should-you-ever-in-kubernetes-1-do-k8s-the-hard-way) and doing weird things). This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid. 
+In a service driven IT sector (with calculated ambiguities and many hidden interests) the product is the hours billed by the consultant, being almost irrelevant the **content of the job and the delivered quality**. It is thus too common to find technical solutions under the policy of applying "the most difficult, non-standard, slowest and most obfuscated way possible" as a competitive element ([the hard way](https://www.fairwinds.com/blog/never-should-you-ever-in-kubernetes-1-do-k8s-the-hard-way) and doing weird things). This does not scale. Being ambiguous in JDs (not to say dishonest) without clarifying the real content of the job is easy and very well paid.
 
 **Ambiguities about DevOps term**. Development of new ad-hoc devops tools and ad-hoc monitoring solutions should not be the role of devops specialists. DevOps professionals develop IaC and CI/CD pipelines with standard tools and code, ideally with a [cattle service model](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/), GitOps patterns & [kubernetes](https://www.nextplatform.com/2021/08/02/kubernetes-expands-from-containers-to-infrastructure-management/#:~:text=More%20and%20more%20in%20the%20middleware%20layer%2C%20not%20in%20the%20hardware.) among other responsabilities such as application monitoring. The development of devops tools for kubernetes with i.e. client-go should be clearly mentioned in a JD as "software development of devops tools for kubernetes with client-go" (suitable for a software engineer with [client-go skills](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887), a developer of devops/kubernetes/monitoring tools). In addition, a DevOps specialist should not be a fullstack developer who occasionally does QA + DevOps + Cloud Design/Ops. Moreover, avoid confusing terms to justify these different backgrounds by creating two roles like DevOps Software Developer and DevOps SysAdmin. Maybe DevOps should be renamed as OpsDev to avoid misunderstandings.
 
-A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported or not recommended[^1] approach. 
+A tech stack is not relevant compared to the way technology is managed. You could have the best tool and run into trouble by taking the risk of applying an unsupported or not recommended[^1] approach.
 
 [^1]:For example: [OpenShift deployment using the UPI method instead of IPI](https://keithtenzer.com/openshift/openshift-4-aws-ipi-installation-getting-started-guide/#:~:text=OpenShift%20offers%20two%20possible%20deployment%20methods%3A%20IPI%20(as%20mentioned)%20and%20UPI%20(User%20Provisioned%20Infrastructure).%20The%20difference%20is%20the%20degree%20of%20automation%20and%20customization.%20IPI%20will%20not%20only%20deploy%20OpenShift%20but%20also%20all%20infrastructure%20components%20and%20configurations.) because of lack of permissions as an excuse.
 
@@ -31,19 +31,19 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 
 >[The SRE Experience Is Changing with Cloud Native:](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/)
 >
->- From Firefighting to Prevention for SREs. 
->- Empower Developers with Self-Service. 
->- Facilitate Developer Autonomy. 
+>- From Firefighting to Prevention for SREs.
+>- Empower Developers with Self-Service.
+>- Facilitate Developer Autonomy.
 >- Adopting a New Code-Ship-Run Paradigm.
 
-| **Site Reliability Engineer (SRE) team**| **Developers**	| **Operations team** |
+| **Site Reliability Engineer (SRE) team**| **Developers**| **Operations team** |
 |:---|:---|:---|
 | Provide and teach effective use of platform tooling to empower developers to be self-sufficient | Treat SREs as application operation partners, not only as first responders to incidents | Provide self-service platform deployment and observability, and enable visibility into ramifications of actions |
 |Document clear escalation paths for developers struggling in production | Turn to ops teams for the “paved path” or centralized developer control plane | Provide opinionated “paved path” platform or developer control plane (DCP), but allow developers to swap platform components if they also want to be accountable |
 
 Avoiding standardization, automation and improvements because rivals do not invest in them is shortsighted. It is worrying because there is considerable resistance to change along with employment discrimination to prevent new proposals from succeeding. The term DevOps first appeared in 2009.
 
-In this service driven IT sector, cloud certifications and technical assesment tests have much more weight in the selection processes that have little to do with real work. They are mostly a wall to justify the hiring of less experienced (younger and cheaper) employees. Fundamental in any profession to learn by doing while building a career and skills with decent opportunities and without too many difficulties and barriers. 
+In this service driven IT sector, cloud certifications and technical assesment tests have much more weight in the selection processes that have little to do with real work. They are mostly a wall to justify the hiring of less experienced (younger and cheaper) employees. Fundamental in any profession to learn by doing while building a career and skills with decent opportunities and without too many difficulties and barriers.
 
 A consequence of these technical assessment tests is the willingness to learn how to pass them while only implementing and practicing this specific knowledge at work. If assessments are about low level concepts then there's no interest in [abstractions](https://opensource.com/article/21/9/ansible-rest-apis), frameworks and enterprise standards (real work). Similar scenario when evaluating kubernetes knowledge with manual tasks (CLI) instead of gitops pipelines (real work[^2]).
 
@@ -51,7 +51,7 @@ A consequence of these technical assessment tests is the willingness to learn ho
 
 Inbreeding is not a good strategy in IT. Hiring people with different background and skills is a better bet. Cronyism, [kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down) and blame games hurt employee retention and economic growth. This is terrible common too. If an employee doesn't trust their manager, the company suffers. Sure, ruling through fear works, but the employee will do the bare minimum amount of work needed to keep their job (manually and without automation).
 
-**Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired. 
+**Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired.
 
 We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies. 
 
