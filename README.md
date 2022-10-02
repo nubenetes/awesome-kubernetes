@@ -17,6 +17,9 @@ My VSCode's settings.json :
 {
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "markdown.extension.toc.slugifyMode": "github",
+    "markdown.extension.toc.orderedList": true,
+    "markdown.extension.list.indentationSize": "adaptive",
     "files.autoSave": "afterDelay",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
@@ -27,6 +30,11 @@ My VSCode's settings.json :
         "MD033": false,
         "MD007": { "indent": 4 },
         "no-hard-tabs": false
-    }
+    },
+    "editor.defaultFormatter": "vscode.github",
+    "[markdown]": {
+        "editor.defaultFormatter": "vscode.github"
+    },
+    "markdownlint.focusMode": false
 }
 ```
