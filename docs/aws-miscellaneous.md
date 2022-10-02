@@ -5,7 +5,7 @@
 - [AWS OpsWorks](#aws-opsworks)
 - [AWS Cloud Control API](#aws-cloud-control-api)
 - [VMware Cloud on AWS](#vmware-cloud-on-aws)
-	- [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
+    - [AWS Application Discovery Service Update. Agentless Discovery for VMware](#aws-application-discovery-service-update-agentless-discovery-for-vmware)
 - [AWS for Windows](#aws-for-windows)
 - [AWS IoT](#aws-iot)
 - [AWS Elastic Transcoder. Video streaming](#aws-elastic-transcoder-video-streaming)
@@ -13,7 +13,7 @@
 - [AWS Partner Network (APN)](#aws-partner-network-apn)
 - [AWS App Mesh](#aws-app-mesh)
 - [Local Testing](#local-testing)
-	- [Localstack](#localstack)
+    - [Localstack](#localstack)
 - [AWS Service Quota Requests](#aws-service-quota-requests)
 - [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 - [Superwerker](#superwerker)
@@ -82,11 +82,11 @@
 ## AWS Partner Network (APN)
 
 - [AWS Partner Network](https://aws.amazon.com/partners/)
-  - [APN Technology Partners](https://aws.amazon.com/partners/technology/)
-  - [APN Consulting Partners](https://aws.amazon.com/partners/consulting/)
+    - [APN Technology Partners](https://aws.amazon.com/partners/technology/)
+    - [APN Consulting Partners](https://aws.amazon.com/partners/consulting/)
 - [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn/)
-  - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
-  - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst/)
+    - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
+    - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst/)
 
 ## AWS App Mesh
 
