@@ -3,96 +3,96 @@
 {==_"Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability" (Kelsey Hightower)_==}
 
 - [Introduction](#introduction)
-	- [Kubernetes Jobs Market](#kubernetes-jobs-market)
-	- [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
-	- [The State of Cloud-Native Development](#the-state-of-cloud-native-development)
-	- [Kubernetes Failure Stories](#kubernetes-failure-stories)
-	- [Kubernetes Maturity Model](#kubernetes-maturity-model)
-	- [Cloud Native Learn by doing platforms](#cloud-native-learn-by-doing-platforms)
-	- [Kubernetes Installation Methods](#kubernetes-installation-methods)
-	- [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
-		- [Kubernetes Podcasts](#kubernetes-podcasts)
-		- [Kubernetes Blogs](#kubernetes-blogs)
-		- [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
+  - [Kubernetes Jobs Market](#kubernetes-jobs-market)
+  - [Certified Kubernetes Offerings](#certified-kubernetes-offerings)
+  - [The State of Cloud-Native Development](#the-state-of-cloud-native-development)
+  - [Kubernetes Failure Stories](#kubernetes-failure-stories)
+  - [Kubernetes Maturity Model](#kubernetes-maturity-model)
+  - [Cloud Native Learn by doing platforms](#cloud-native-learn-by-doing-platforms)
+  - [Kubernetes Installation Methods](#kubernetes-installation-methods)
+  - [Kubernetes Knowledge Hubs](#kubernetes-knowledge-hubs)
+    - [Kubernetes Podcasts](#kubernetes-podcasts)
+    - [Kubernetes Blogs](#kubernetes-blogs)
+    - [Spanish Kubernetes Blogs](#spanish-kubernetes-blogs)
 - [Kubernetes Open Source Container Orchestation](#kubernetes-open-source-container-orchestation)
-	- [kubeconfig](#kubeconfig)
-	- [Kubernetes Manifests](#kubernetes-manifests)
-	- [Kubernetes Quality of Service QOS](#kubernetes-quality-of-service-qos)
-	- [Docker and Kubernetes](#docker-and-kubernetes)
-		- [Kubernetes vs Docker](#kubernetes-vs-docker)
-		- [Kubernetes vs Docker Swarm](#kubernetes-vs-docker-swarm)
-	- [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
-	- [Kubernetes Mutating Webhooks](#kubernetes-mutating-webhooks)
-	- [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
-	- [Kubernetes Resources](#kubernetes-resources)
-		- [Kubernetes Pods](#kubernetes-pods)
-		- [Kubernetes ConfigMaps](#kubernetes-configmaps)
-		- [Kubernetes Secrets](#kubernetes-secrets)
-		- [Kubernetes Volumes](#kubernetes-volumes)
-		- [Kubernetes Namespaces and Multi Tenancy. Self Service Namespaces](#kubernetes-namespaces-and-multi-tenancy-self-service-namespaces)
-			- [Kiosk Multi-Tenancy Extension for Kubernetes](#kiosk-multi-tenancy-extension-for-kubernetes)
-			- [Creating Users](#creating-users)
-		- [Kubernetes Labels and Selectors](#kubernetes-labels-and-selectors)
-		- [Kubernetes Taints and Tolerations](#kubernetes-taints-and-tolerations)
-		- [Kubernetes Deployment, Rollling Updates and Rollbacks](#kubernetes-deployment-rollling-updates-and-rollbacks)
-		- [Kubernetes StatefulSet](#kubernetes-statefulset)
-		- [Kubernetes DaemonSets](#kubernetes-daemonsets)
-		- [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
-		- [Kubernetes Services](#kubernetes-services)
-	- [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
-	- [Kubernetes API](#kubernetes-api)
-		- [Multi-Cluster Services API](#multi-cluster-services-api)
-	- [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
-	- [Kubernetes Limits and Requests](#kubernetes-limits-and-requests)
-	- [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
-	- [Kubernetes etcd](#kubernetes-etcd)
-	- [Kubernetes Sidecars](#kubernetes-sidecars)
-	- [Kubernetes Annotations](#kubernetes-annotations)
-	- [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
-	- [Disruptions](#disruptions)
-	- [Cost Estimation Strategies](#cost-estimation-strategies)
-		- [kubecost](#kubecost)
-	- [Kubernetes Resource and Capacity Management. Capacity Planning](#kubernetes-resource-and-capacity-management-capacity-planning)
-	- [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
-		- [Wide Cluster instead of Multi-Cluster](#wide-cluster-instead-of-multi-cluster)
+  - [kubeconfig](#kubeconfig)
+  - [Kubernetes Manifests](#kubernetes-manifests)
+  - [Kubernetes Quality of Service QOS](#kubernetes-quality-of-service-qos)
+  - [Docker and Kubernetes](#docker-and-kubernetes)
+    - [Kubernetes vs Docker](#kubernetes-vs-docker)
+    - [Kubernetes vs Docker Swarm](#kubernetes-vs-docker-swarm)
+  - [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
+  - [Kubernetes Mutating Webhooks](#kubernetes-mutating-webhooks)
+  - [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
+  - [Kubernetes Resources](#kubernetes-resources)
+    - [Kubernetes Pods](#kubernetes-pods)
+    - [Kubernetes ConfigMaps](#kubernetes-configmaps)
+    - [Kubernetes Secrets](#kubernetes-secrets)
+    - [Kubernetes Volumes](#kubernetes-volumes)
+    - [Kubernetes Namespaces and Multi Tenancy. Self Service Namespaces](#kubernetes-namespaces-and-multi-tenancy-self-service-namespaces)
+      - [Kiosk Multi-Tenancy Extension for Kubernetes](#kiosk-multi-tenancy-extension-for-kubernetes)
+      - [Creating Users](#creating-users)
+    - [Kubernetes Labels and Selectors](#kubernetes-labels-and-selectors)
+    - [Kubernetes Taints and Tolerations](#kubernetes-taints-and-tolerations)
+    - [Kubernetes Deployment, Rollling Updates and Rollbacks](#kubernetes-deployment-rollling-updates-and-rollbacks)
+    - [Kubernetes StatefulSet](#kubernetes-statefulset)
+    - [Kubernetes DaemonSets](#kubernetes-daemonsets)
+    - [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
+    - [Kubernetes Services](#kubernetes-services)
+  - [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
+  - [Kubernetes API](#kubernetes-api)
+    - [Multi-Cluster Services API](#multi-cluster-services-api)
+  - [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
+  - [Kubernetes Limits and Requests](#kubernetes-limits-and-requests)
+  - [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
+  - [Kubernetes etcd](#kubernetes-etcd)
+  - [Kubernetes Sidecars](#kubernetes-sidecars)
+  - [Kubernetes Annotations](#kubernetes-annotations)
+  - [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
+  - [Disruptions](#disruptions)
+  - [Cost Estimation Strategies](#cost-estimation-strategies)
+    - [kubecost](#kubecost)
+  - [Kubernetes Resource and Capacity Management. Capacity Planning](#kubernetes-resource-and-capacity-management-capacity-planning)
+  - [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
+    - [Wide Cluster instead of Multi-Cluster](#wide-cluster-instead-of-multi-cluster)
 - [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 - [Helm Kubernetes Tool](#helm-kubernetes-tool)
 - [Templating YAML in Kubernetes with real code. YQ YAML processor](#templating-yaml-in-kubernetes-with-real-code-yq-yaml-processor)
 - [Extending Kubernetes](#extending-kubernetes)
-	- [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
-	- [Krew, a plugin manager for kubectl plugins](#krew-a-plugin-manager-for-kubectl-plugins)
-	- [OpenKruise/Kruise](#openkruisekruise)
-	- [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
+  - [Adding Custom Resources. Extending Kubernetes API with Kubernetes Resource Definitions. CRD vs Aggregated API](#adding-custom-resources-extending-kubernetes-api-with-kubernetes-resource-definitions-crd-vs-aggregated-api)
+  - [Krew, a plugin manager for kubectl plugins](#krew-a-plugin-manager-for-kubectl-plugins)
+  - [OpenKruise/Kruise](#openkruisekruise)
+  - [Crossplane, a Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions](#crossplane-a-universal-control-plane-api-for-cloud-computing-crossplane-workloads-definitions)
 - [Kubernetes Community](#kubernetes-community)
-	- [Community Forums](#community-forums)
-	- [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
-		- [Kubernetes SIG's Repos](#kubernetes-sigs-repos)
-		- [Kubectl Plugins](#kubectl-plugins)
+  - [Community Forums](#community-forums)
+  - [Kubernetes Special Interest Groups (SIGs)](#kubernetes-special-interest-groups-sigs)
+    - [Kubernetes SIG's Repos](#kubernetes-sigs-repos)
+    - [Kubectl Plugins](#kubectl-plugins)
 - [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 - [Kubernetes Patterns and Antipatterns. Service Discovery](#kubernetes-patterns-and-antipatterns-service-discovery)
 - [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
-	- [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
-	- [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
+  - [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
+  - [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 - [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
-	- [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
+  - [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
 - [Serverless with OpenFaas and Knative](#serverless-with-openfaas-and-knative)
 - [Virtual Kubernetes Clusters](#virtual-kubernetes-clusters)
 - [Multi-Cluster Federation. Hybrid Cloud Setup Tools](#multi-cluster-federation-hybrid-cloud-setup-tools)
-	- [KubeFed](#kubefed)
-	- [KubeCarrier](#kubecarrier)
-	- [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
-	- [Istio Service Mesh](#istio-service-mesh)
+  - [KubeFed](#kubefed)
+  - [KubeCarrier](#kubecarrier)
+  - [Red Hat Operator Lifecycle Manager (OLM)](#red-hat-operator-lifecycle-manager-olm)
+  - [Istio Service Mesh](#istio-service-mesh)
 - [Multi-Regional Architecture](#multi-regional-architecture)
 - [Kubernetes in Kubernetes](#kubernetes-in-kubernetes)
 - [Kubernetes Scripts](#kubernetes-scripts)
-	- [Kubernetes and Ansible](#kubernetes-and-ansible)
+  - [Kubernetes and Ansible](#kubernetes-and-ansible)
 - [Spot instances in Kubernetes](#spot-instances-in-kubernetes)
 - [Kubernetes on Windows](#kubernetes-on-windows)
 - [Kubernetes Incident Report Plan IRP](#kubernetes-incident-report-plan-irp)
 - [Kubernetes Certifications. CKA, CKAD and CKS](#kubernetes-certifications-cka-ckad-and-cks)
 - [Books and eBooks](#books-and-ebooks)
-	- [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
-	- [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
+  - [Kubernetes Patterns eBooks](#kubernetes-patterns-ebooks)
+  - [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
 - [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 - [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
 - [Kubernetes Slack Channel](#kubernetes-slack-channel)
@@ -238,13 +238,13 @@
   - Remote vs office offers
   - Popular cloud providers
 
-* [kube.careers: Kubernetes jobs market trends for 2021 (Q4)](https://kube.careers/report-2021-q4) What's the average salary for a Kubernetes engineer? Do you need a Kubernetes certification to apply for a job? What technologies and cloud providers are often used with Kubernetes? We analyzed 276 Kubernetes jobs from 2021 and found that:
+- [kube.careers: Kubernetes jobs market trends for 2021 (Q4)](https://kube.careers/report-2021-q4) What's the average salary for a Kubernetes engineer? Do you need a Kubernetes certification to apply for a job? What technologies and cloud providers are often used with Kubernetes? We analyzed 276 Kubernetes jobs from 2021 and found that:
   - If you know AWS and Python, the world is your oyster.
   - CKA is the top Kubernetes certification. But only a few employers require one.
   - Jenkins is more alive than ever.
   - Prometheus is synonymous with monitoring. No one comes close.
   - Terraform and Ansible lead IaC.
-* [==kube.careers: Kubernetes jobs market trends for 2022 Q2==](https://kube.careers/kubernetes-trend-report-2022-q2)
+- [==kube.careers: Kubernetes jobs market trends for 2022 Q2==](https://kube.careers/kubernetes-trend-report-2022-q2)
   - What's the average salary for a Kubernetes engineer?
   - What are the skill sets required for a Kubernetes job?
   - How much technical experience do you need in the current job market?
@@ -342,26 +342,26 @@
 - [platform9.com: Kubernetes CI/CD Pipelines at Scale](https://platform9.com/blog/kubernetes-ci-cd-pipelines-at-scale/)
 - [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)
 - [5 open source projects that make Kubernetes even better: Prometheus, Operator framework, Knative, Tekton, Kubeflow 🌟](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve) Open source projects bring many additional capabilities to Kubernetes, such as performance monitoring, developer tools, serverless capabilities, and CI/CD workflows. Check out these five widely used options
-- [4 trends for Kubernetes cloud-native teams to watch in 2020 ](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020) Today's software architectural landscape seems to change like the weather. Stay ahead of the curve with these cloud-related trends, including GitOps and service meshes.
-- [Creating a Kubernetes cloud provider, doesn't required boiling the ocean ](https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/)
+- [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020) Today's software architectural landscape seems to change like the weather. Stay ahead of the curve with these cloud-related trends, including GitOps and service meshes.
+- [Creating a Kubernetes cloud provider, doesn't required boiling the ocean](https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/)
 - [opensource.com: 5 ways to boost your Kubernetes knowledge](https://opensource.com/article/20/6/kubernetes-anniversary)
-- [blog.container-solutions.com: 7 Cloud Native Trends to Watch in 2020 ](https://blog.container-solutions.com/7-cloud-native-trends-to-watch-in-2020)
+- [blog.container-solutions.com: 7 Cloud Native Trends to Watch in 2020](https://blog.container-solutions.com/7-cloud-native-trends-to-watch-in-2020)
 - [snyk.io: Shipping Kubernetes-native applications with confidence](https://snyk.io/blog/shipping-kubernetes-native-applications-with-confidence/)
 - [medium: Delivering value on Kubernetes](https://medium.com/@dius_au/delivering-value-on-kubernetes-8d5c5655c1b4)
 - [blocksandfiles.com: Kubernetes is in a bit of state about state](https://blocksandfiles.com/2020/07/21/kubernetes-stateful-status/) Kubernetes is “four to five years away” from being a stable distribution capable of running stateful apps, according to Redis Labs chief product officer Alvin Richards.
 - [medium: Then he asked me “Is Kubernetes right for us?”](https://medium.com/@alexellisuk/then-he-asked-me-is-kubernetes-right-for-us-78695ee35289)
 - [loft.sh: Kubernetes: Virtual Clusters For CI/CD & Testing](https://loft.sh/blog/kubernetes-virtual-clusters-for-ci-cd-testing/)
 - [jfrog.com: Kubernetes in Production with Jessica Deen at swampUP 2020](https://jfrog.com/blog/kubernetes-in-production-with-jessica-deen-at-swampup-2020/)
-- [lambda.grofers.com: Learnings From Two Years of Kubernetes in Production ](https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-production-b0ec21aa2814)
+- [lambda.grofers.com: Learnings From Two Years of Kubernetes in Production](https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-production-b0ec21aa2814)
 - [medium: 3 Years of Kubernetes in Production–Here’s What We Learned](https://medium.com/better-programming/3-years-of-kubernetes-in-production-heres-what-we-learned-44e77e1749c8)
 - [revistacloudcomputing.com: Los mejores proveedores de Kubernetes](https://www.revistacloudcomputing.com/2020/09/los-mejores-proveedores-de-kubernetes/)
 - [containerjournal.com: Overcoming Kubernetes Infrastructure Challenges](https://containerjournal.com/topics/container-management/overcoming-kubernetes-infrastructure-challenges/)
 - [medium: Installing cf-for-k8s on a Kubernetes Cluster Running on Digital Ocean](https://medium.com/cloud-foundry-foundation/installing-cf-for-k8s-on-a-kubernetes-cluster-running-on-digitalocean-acffdc652dcf) If you want to install Cloud Foundry on Kubernetes on Digital Ocean, you might find this article relevant.
-- [itnext.io: Lessons learned from managing a Kubernetes cluster for side projects (GKE) ](https://itnext.io/lessons-learned-from-managing-a-kubernetes-cluster-for-side-projects-780fbbacf36c)
-- [projectcalico.org: Using Kubernetes to orchestrate VMs ](https://www.projectcalico.org/using-kubernetes-to-orchestrate-vms/)
+- [itnext.io: Lessons learned from managing a Kubernetes cluster for side projects (GKE)](https://itnext.io/lessons-learned-from-managing-a-kubernetes-cluster-for-side-projects-780fbbacf36c)
+- [projectcalico.org: Using Kubernetes to orchestrate VMs](https://www.projectcalico.org/using-kubernetes-to-orchestrate-vms/)
 - [lastweekinaws.com: Is ECS deprecated? Has Kubernetes won?](https://www.lastweekinaws.com/blog/reader-mailbag-is-ecs-deprecated/)
-- [opensource.com: 8 Kubernetes insights for 2021 ](https://opensource.com/article/21/1/kubernetes) Review the top five Kubernetes articles of 2020, then preview three tools you should learn about in 2021.
-- [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster ](https://srcco.de/posts/many-kubernetes-clusters.html) Running 80+ Kubernetes clusters in production? Yes, Zalando runs 100+ Kubernetes clusters on AWS.
+- [opensource.com: 8 Kubernetes insights for 2021](https://opensource.com/article/21/1/kubernetes) Review the top five Kubernetes articles of 2020, then preview three tools you should learn about in 2021.
+- [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster](https://srcco.de/posts/many-kubernetes-clusters.html) Running 80+ Kubernetes clusters in production? Yes, Zalando runs 100+ Kubernetes clusters on AWS.
   - Each cluster runs in its own AWS account.
   - They always create a pair of prod/non-prod clusters per "product community", i.e. only half of their clusters (50+) are marked as "production" and have full 24x7 on-call support.
   - They decided to go with "many" (that's relative) clusters for various reasons:
@@ -370,7 +370,7 @@
     - The blast radius is limited --- anything going wrong in one cluster (outage, security incident, ..) does not necessarily affect the whole organization
     - Cost attribution is easier (every cluster belongs to a cost center)
     - The cluster (and its AWS account) serves as a natural trust boundary for access control (you can either deploy via CI/CD to a cluster or not)
-- [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise ](https://platform9.com/lp/ultimate-guide-enterprise-kubernetes/) Discover key capabilities for Kubernetes at scale.
+- [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/lp/ultimate-guide-enterprise-kubernetes/) Discover key capabilities for Kubernetes at scale.
   - A complete Enterprise Kubernetes infrastructure needs proper DNS, load balancing, Ingress, stateful services, K8’s role-based access control (RBAC), integration with LDAP and authentication systems, and more. Once Kubernetes is deployed, day-2 operational challenges and life-cycle management comes into play: monitoring, alerting, troubleshooting, upgrades, security patching, compliance checking and much more.
   - The Gorilla guide to Kubernetes in the Enterprise is your resource to ensure the success of your Enterprise Kubernetes projects by thinking through critical decisions around deployment options, day-2 operational considerations, use cases, and choosing your Kubernetes implementation solutions.
 - [magalix.com: Influencing Kubernetes Scheduler Decisions](https://www.magalix.com/blog/influencing-kubernetes-scheduler-decisions) To ensure maximum possible performance and availability given the infrastructure at hand, the scheduler uses complex algorithms to ensure the most efficient Pod placement. In this article, we discuss how the scheduler selects the best node to host the Pod and how we can influence its decision.
@@ -378,10 +378,10 @@
 - [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup/)
 - [blog.pixielabs.ai: Building Kubernetes Native SaaS applications: iterating quickly by deploying in-cluster data planes](https://blog.pixielabs.ai/hybrid-architecture/hybrid-architecture/)
 - [itnext.io: CKS Exam Series #9 RBAC v2](https://itnext.io/cks-exam-series-9-rbac-v2-23ee24dd77cd) Kubernetes CKS Example Exam Question Series
-- [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative ](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
+- [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
 - [infoq.com: Experts Discuss Top Kubernetes Trends and Production Challenges](https://www.infoq.com/articles/kubernetes-trends-and-challenges/)
 - [blog.appstack.one: How to run Ghost blog inside Kubernetes](https://blog.appstack.one/how-to-run-ghost-blog-inside-kubernetes/)
-- [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes ](https://learnk8s.io/scaling-celery-rabbitmq-kubernetes) In this article, you will explore how to use Kubernetes and KEDA to scale Celery workers based on the number of messages in a RabbitMQ queue.
+- [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes](https://learnk8s.io/scaling-celery-rabbitmq-kubernetes) In this article, you will explore how to use Kubernetes and KEDA to scale Celery workers based on the number of messages in a RabbitMQ queue.
   1. Learn how to set up a metrics pipeline
   2. How you can drive autoscaling based on metrics from RabbitMQ.
   3. Why KEDA might be an alternative to prometheus+adapters
@@ -443,7 +443,7 @@
 - [medium.com: Connect services across Kubernetes clusters using Teleproxy](https://medium.com/flare-systems/connect-services-across-kubernetes-clusters-using-teleproxy-3f317cfd8da) [Teleproxy](https://github.com/flared/teleproxy) is a shell script that lets you quickly replace a Kubernetes deployment by a single pod that forwards incoming traffic to another pod running in a destination Kubernetes cluster.
 - [medium: Kubernetes DNS for Services and Pods](https://medium.com/kubernetes-tutorials/kubernetes-dns-for-services-and-pods-664804211501)
 - [edgehog.blog: Getting Started with K8s: Core Concepts](https://edgehog.blog/getting-started-with-k8s-core-concepts-135fb570462e)
-- [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?]()
+- [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?](https://www.siderolabs.com/blog/is-vanilla-kubernetes-really-too-heavy-for-the-raspberry-pi/)
 - [infoq.com: Kubernetes Workloads in the Serverless Era: Architecture, Platforms, and Trends](https://www.infoq.com/articles/kubernetes-workloads-serverless-era/)
 - [blog.kintone.io: Tolerating failures in container image registries](https://blog.kintone.io/entry/neco-registry) This article will show you several ways to ensure your Kubernetes clusters can always pull images even while an upstream registry is failing.
 - [blog.px.dev: How etcd works and 6 tips to keep in mind](https://blog.px.dev/etcd-6-tips/)
