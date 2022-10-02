@@ -25,6 +25,7 @@
 - [AWS Cloud Endure](#aws-cloud-endure)
 - [ECommerce](#ecommerce)
 - [AWS Clients](#aws-clients)
+- [AWS LightSail](#aws-lightsail)
 
 ## AWS Application Discovery Service
 
@@ -85,7 +86,7 @@
   - [APN Consulting Partners](https://aws.amazon.com/partners/consulting/)
 - [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn/)
   - [Active Directory Single Sign-On (SSO) on AWS with Bitium](https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium)
-    - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst/)
+  - [How to Deploy a High Availability Web Service on AWS Using Spotinst](https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst/)
 
 ## AWS App Mesh
 
