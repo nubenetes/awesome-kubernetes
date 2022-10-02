@@ -4,7 +4,7 @@ A curated list of awesome references collected since 2018.
 
 My VSCode's plugins:
 
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) Tables of Contents are automatically generated with this extension.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
