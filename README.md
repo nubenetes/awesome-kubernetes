@@ -6,6 +6,7 @@ Apparently [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) r
 
 My VSCode's settings.json :
 
+```json
 {
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.tableFormatter.normalizeIndentation": true,
@@ -22,3 +23,4 @@ My VSCode's settings.json :
     },
     "markdownlint.run": "onSave"
 }
+```
