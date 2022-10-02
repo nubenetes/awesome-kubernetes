@@ -1,4 +1,5 @@
 # Appointment Scheduling Software
+
 - [Calendly](https://calendly.com/)
 - [youcanbook.me](https://youcanbook.me/)
 - [Acuity Scheduling](https://acuityscheduling.com/)
@@ -16,6 +17,7 @@
     - [arstechnica.com: New Google Calendar feature takes the back-and-forth out of scheduling](https://arstechnica.com/gadgets/2022/03/google-calendar-now-lets-paid-users-create-a-booking-page-website/) Calendar can now generate a webpage of available time slots for a user to pick from. The creator of the booking page will need to be using at least the "Business Standard" version of Google Workspace. The lower-level "Business Starter" level is still paid, but it doesn't get access to these sorts of fancy new features. The feature should roll out to everyone by April 9. Once you have it, just load up the web version of Google Calendar, click on the "Create" button, and pick "Appointment Schedule."
 
 ## Comparisons
+
 - [wpamelia.com: Calendly vs YouCanBook.Me](https://wpamelia.com/calendly-vs-youcanbook-me/)
 - [wpamelia.com: Calendly vs Acuity](https://wpamelia.com/calendly-vs-acuity/)
 - [wpamelia.com: Calendly vs Doodle](https://wpamelia.com/calendly-vs-doodle/)

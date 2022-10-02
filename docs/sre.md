@@ -1,14 +1,16 @@
-# Site Reliability Engineering (SRE) 
-- [SRE](#sre)
-- [SRE Tools](#sre-tools)
-- [Service Level Objectives (SLO)](#service-level-objectives-slo)
-  - [OpenSLO](#openslo)
-  - [Validate Service-Level Objectives of REST APIs Using Iter8](#validate-service-level-objectives-of-rest-apis-using-iter8)
-- [Google SRE Prodcast](#google-sre-prodcast)
-- [Images](#images)
-- [Videos](#videos)
-- [Tweets](#tweets)
+# Site Reliability Engineering (SRE)
+
+1. [SRE](#sre)
+2. [SRE Tools](#sre-tools)
+3. [Service Level Objectives (SLO)](#service-level-objectives-slo)
+    1. [OpenSLO](#openslo)
+    2. [Validate Service-Level Objectives of REST APIs Using Iter8](#validate-service-level-objectives-of-rest-apis-using-iter8)
+4. [Google SRE Prodcast](#google-sre-prodcast)
+5. [Images](#images)
+6. [Videos](#videos)
+7. [Tweets](#tweets)
 ## SRE
+
 - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 - [==sre.google: What is Site Reliability Engineering (SRE)?== 🌟](https://sre.google/)
 - [cloud.google.com: SRE vs. DevOps: competing standards or close friends?](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends)
@@ -46,11 +48,11 @@
 - [youtube: Viktor Farcic - What is the difference between SRE and DevOps?](https://www.youtube.com/watch?v=jgW4r9FxItI&ab_channel=DevOpsToolkitbyViktorFarcic)
 - [dzone: Remote server management - Common architectural elements](https://dzone.com/articles/remote-server-management-common-architectural-elem)
 - [dzone: Upcoming Trends in DevOps and SRE in 2021 🌟](https://dzone.com/articles/upcoming-trends-in-devops-and-sre) DevOps and SRE are domains with rapid growth and frequent innovations. With this blog you can explore the latest trends in DevOps, SRE and stay ahead of the curve. **The following trends are most likely to have a lasting impact in the field of DevOps and SRE:**
-	- **AIOps and Self-Healing Platforms**
-	- **Service Meshes**
-	- **Low-code DevOps**
-	- **GitOps**
-	- **DevSecOps**
+    - **AIOps and Self-Healing Platforms**
+    - **Service Meshes**
+    - **Low-code DevOps**
+    - **GitOps**
+    - **DevSecOps**
 - [dzone: SRE vs. DevOps: What are the Differences?](https://dzone.com/articles/sre-vs-devops-what-are-the-differences) SRE and DevOps are closely related concepts with some important distinctions between both, and many businesses can benefit from embracing both of them.
 - [dev.to: DevOps vs SRE: What's The Difference?](https://dev.to/thenjdevopsguy/devops-vs-sre-what-s-the-difference-560d)
 - [thenewstack.io: How the SRE Experience Is Changing with Cloud Native 🌟](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/) **From Firefighting to Prevention for SREs. Empower Developers with Self-Service. Facilitate Developer Autonomy**
@@ -75,26 +77,32 @@
 - [==cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller than you think==](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think/)
 
 ## SRE Tools
+
 - [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack/)
 - [getcortexapp.com: A guide to the best SRE tools](https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools)
 - [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021/)
 
 ## Service Level Objectives (SLO)
+
 - [SLOconf](https://www.sloconf.com/) The first SLO Conference for Site Reliability Engineers
 - [thenewstack.io: Automate User Satisfaction with This GitOps-Friendly Spec for Service Level Objectives](https://thenewstack.io/automate-user-satisfaction-with-this-gitops-friendly-spec-for-service-level-objectives/) Organizations looking to tighten up their ops with some site reliability engineering (SRE) should take a look at the recently-released OpenSLO specification, a GitOps-friendly template for establishing Service Level Objectives (SLO) to specify and even enforce the range of reliability required (and afforded) for a system.
 - [sre.google: The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/)
 
 ### OpenSLO
+
 - [OpenSLO specification 🌟](https://github.com/OpenSLO/OpenSLO) The goal of this project is to provide an open specification for defining and interfacing with SLOs to allow for a common approach, giving a set vendor-agnostic solution to defining and tracking SLOs. Platform specific implementation details are purposefully excluded from the scope of this specification.
 
 ### Validate Service-Level Objectives of REST APIs Using Iter8
+
 - [Iter8](https://iter8.tools)
 - [thenewstack.io: Validate Service-Level Objectives of REST APIs Using Iter8](https://thenewstack.io/validate-service-level-objectives-of-rest-apis-using-iter8/)
 
 ## Google SRE Prodcast
+
 - [==sre.google/prodcast==](https://sre.google/prodcast/) **The SRE Prodcast is Google's podcast about Site Reliability Engineering and production software.** In Season 1, we discuss concepts from the [SRE Book](https://sre.google/sre-book/table-of-contents/) with experts at Google.
 
 ## Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -106,6 +114,7 @@
 	</center>
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 

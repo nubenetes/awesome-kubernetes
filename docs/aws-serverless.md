@@ -1,8 +1,10 @@
 # AWS Serverless
-- [Introduction](#introduction)
-- [AWS Fargate](#aws-fargate)
+
+1. [Introduction](#introduction)
+2. [AWS Fargate](#aws-fargate)
 
 ## Introduction
+
 - [you can use Python with AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
 - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)
 - [AWS Lambda, Echo, and the Future of Cloud Automation](http://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation/) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
@@ -47,6 +49,7 @@
 - [aws.amazon.com: Understanding AWS Lambda scaling and throughput](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/)
 
 ## AWS Fargate
+
 - [Amazon EFS with Amazon ECS and AWS Fargate – Part 1](https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/)
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
 - [deloitte.com: Fargate con EKS](https://www2.deloitte.com/es/es/blog/todo-tecnologia/2021/fargate-con-eks.html) ¿Es Fargate la solución de AWS con la que siempre soñamos para evitar manejar infraestructura con Kubernetes? Sí, pero…

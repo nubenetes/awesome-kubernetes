@@ -1,10 +1,12 @@
 # Project Management Tools
-- [Products and Tools](#products-and-tools)
-- [Alternatives](#alternatives)
-- [Productivity Tips with .new TLD to quickly create](#productivity-tips-with-new-tld-to-quickly-create)
-- [Tweets](#tweets)
+
+1. [Products and Tools](#products-and-tools)
+2. [Alternatives](#alternatives)
+3. [Productivity Tips with .new TLD to quickly create](#productivity-tips-with-new-tld-to-quickly-create)
+4. [Tweets](#tweets)
 
 ## Products and Tools
+
 - [Jira](https://www.atlassian.com/software/jira)
     - [Transition Jira issues on merge](https://bitbucket.org/blog/transition-jira-issues-on-merge) Check out the latest 
 Jira and Bitbucket integration. Now you can transition issues right from your merge window. Less back and forth with Jira.
@@ -21,6 +23,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html) Download free over 300, customizable project plan templates for Microsoft Word to track, manage, and prioritize your projects.
 
 ## Alternatives
+
 - [32 Best Jira Alternatives For Agile Project Management Teams In 2020 [Free and Paid]](https://dzone.com/articles/32-best-jira-alternatives-for-agile-project-manage) 
 - [Best Project Management Software of 2020](https://neilpatel.com/blog/best-project-management-software/)
 - [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence) BlueSpice, XWiki, and DokuWiki give you all the features of more popular knowledge-management software without the proprietary limitations.
@@ -41,6 +44,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [ifuckinghatejira.com](https://ifuckinghatejira.com)
 
 ## Productivity Tips with .new TLD to quickly create
+
 - [Google Docs: doc.new](https://doc.new)
 - [Google meet: meet.new](https://meet.new)
 - [Spreadsheets: sheet.new](https://sheet.new)
@@ -49,6 +53,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [Zoom: zoom.new](https://zoom.new)
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

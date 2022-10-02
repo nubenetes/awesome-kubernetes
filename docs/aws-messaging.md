@@ -1,10 +1,12 @@
 # AWS Messaging Services
-- [AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service](#aws-sns-and-sqs-amazon-simple-notification-service-and-amazon-simple-queue-service)
-  - [SNS vs SQS](#sns-vs-sqs)
-- [AWS EventBridge](#aws-eventbridge)
-- [Tweets](#tweets)
+
+1. [AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service](#aws-sns-and-sqs-amazon-simple-notification-service-and-amazon-simple-queue-service)
+    1. [SNS vs SQS](#sns-vs-sqs)
+2. [AWS EventBridge](#aws-eventbridge)
+3. [Tweets](#tweets)
 
 ## AWS SNS and SQS. Amazon Simple Notification Service and Amazon Simple Queue Service
+
 - [dev.to: Getting started with SNS and SQS](https://dev.to/aws-builders/getting-started-with-sns-and-sqs-3m4i)
 - [Limits in Amazon SQS](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html)
 - [Amazon SQS FAQs](https://aws.amazon.com/sqs/faqs/)
@@ -14,14 +16,16 @@
 - [enlear.academy: How To Build a Scalable Email Notification Service Using AWS](https://enlear.academy/how-to-build-a-scalable-email-service-using-aws-d404b347a7fb) Using AWS Lambda, DynamoDB, Amazon SQS, Amazon SES, and Amazon API Gateway to build a scalable email notification service.
 
 ### SNS vs SQS
+
 - [==dev.to: When to SNS or SQS==](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji)
 
 ## AWS EventBridge
+
 - https://aws.amazon.com/eventbridge
 - [==Building an event-driven application with Amazon EventBridge==](https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge/) **“In event-driven architecture, each component of the application raises an event whenever anything changes. Other components listen and decide what to do with it and how they would like to react.”** – by @talia_nassi
 
-
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

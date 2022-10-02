@@ -1,20 +1,23 @@
 # Freelancing
-- [Introduction](#introduction)
-- [Freelancing in Spain](#freelancing-in-spain)
-	- [Advisory. Asesorías](#advisory-asesorías)
-- [Top Freelancing Platforms](#top-freelancing-platforms)
-- [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
-	- [Umbrella Companies](#umbrella-companies)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Freelancing in Spain](#freelancing-in-spain)
+    1. [Advisory. Asesorías](#advisory-asesorías)
+3. [Top Freelancing Platforms](#top-freelancing-platforms)
+4. [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
+    1. [Umbrella Companies](#umbrella-companies)
+5. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/873312214&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/yardensaxophone" title="Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Yarden Saxophone</a> · <a href="https://soundcloud.com/yardensaxophone/esperanza-yarden-saxophone" title="Esperanza - Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Esperanza - Yarden Saxophone</a></div>
 </center>
 
 ## Introduction
+
 - [linkedin/pulse: Is France the European El Dorado for Freelancing?](https://www.linkedin.com/pulse/france-european-el-dorado-freelancing-quentin-debavelaere/)
 
 ## Freelancing in Spain
+
 - [¿Informático explotado en una consultora? Las webs para ‘freelances’ te salvarán la vida](https://www.elconfidencial.com/tecnologia/2018-05-12/informatico-freelance-carnica-freelancer-yeeply_1562518/) Los desarrolladores españoles tienen en plataformas como **Malt**, **Freelancer** y **Yeeply** la oportunidad de trabajar por cuenta propia más allá de nuestras fronteras y huir de las infames ‘cárnicas’.
 - [genbeta.com: Siete webs (explicadas a fondo) donde encontrar trabajo freelance o autónomo por si te niegas a volver a la oficina](https://www.genbeta.com/web/siete-webs-explicadas-a-fondo-donde-encontrar-trabajo-freelance-autonomo-te-niegas-a-volver-a-oficina)
 - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)
@@ -35,10 +38,12 @@
 - [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html) 
 
 ### Advisory. Asesorías
+
 - [Acento: Cooperativa de freelance](https://acentocoop.es) 
 - [declarando.es](https://declarando.es) Asesoría para autónomos
 
 ## Top Freelancing Platforms
+
 - [malt 🌟](https://www.malt.com/) 
 - [upper 🌟](https://upper.co) Europe’s top product & tech professionals, on demand
 - [upwork 🌟](https://www.upwork.com/)
@@ -64,6 +69,7 @@
 - [remoteone](https://remote.one/)
 
 ## Alternatives. Contractor Management / Umbrella Company solutions
+
 - If you are not earning substantial amounts of money, Umbrella Companies are a cheaper option than being self-employed in Spain. They generate invoices for you, pay social security, deduct tax and file your tax return at the end of the year. 
 - They offer solutions across Europe, the Middle East and Africa.
 - Most of the time the umbrella company will want you to work as a freelancer. Otherwise it's a B2B contract between the umbrella company and the client, raising the invoices to the client (they will probably reject it). 
@@ -73,12 +79,14 @@
 - [contractortaxation.com/contracting-in-spain](https://contractortaxation.com/contracting-in-spain)
 
 ### Umbrella Companies
+
 - https://6catsint.com
 - https://accessfinancial.com
 - https://groupchesterfield.com/umbrella-services/ 
 - https://pixie-services.com 
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

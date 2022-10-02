@@ -1,38 +1,40 @@
 # Kubernetes Storage. Cloud Native Storage
-- [Introduction](#introduction)
-- [DoK Community](#dok-community)
-- [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
-- [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
-- [Ebooks](#ebooks)
-- [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
-    - [Rook](#rook)
-    - [Robin](#robin)
-    - [Reduxio](#reduxio)
-    - [Portworx](#portworx)
-    - [StorageOS](#storageos)
-    - [OpenEBS](#openebs)
-    - [LightOS](#lightos)
-    - [Longhorn](#longhorn)
-    - [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
-    - [Linbit](#linbit)
-    - [Kadalu](#kadalu)
-    - [IOMesh](#iomesh)
-    - [MinIO](#minio)
-    - [NetApp Data Store](#netapp-data-store)
-    - [Stork Storage Operator](#stork-storage-operator)
-- [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
-    - [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
-    - [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
-- [Kubestr](#kubestr)
-- [VolSync](#volsync)
-- [Images](#images)
-- [Tweets](#tweets)
-- [Videos](#videos)
+
+1. [Introduction](#introduction)
+2. [DoK Community](#dok-community)
+3. [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
+4. [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
+5. [Ebooks](#ebooks)
+6. [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
+    1. [Rook](#rook)
+    2. [Robin](#robin)
+    3. [Reduxio](#reduxio)
+    4. [Portworx](#portworx)
+    5. [StorageOS](#storageos)
+    6. [OpenEBS](#openebs)
+    7. [LightOS](#lightos)
+    8. [Longhorn](#longhorn)
+    9. [IBM Spectrum Storage Suite](#ibm-spectrum-storage-suite)
+    10. [Linbit](#linbit)
+    11. [Kadalu](#kadalu)
+    12. [IOMesh](#iomesh)
+    13. [MinIO](#minio)
+    14. [NetApp Data Store](#netapp-data-store)
+    15. [Stork Storage Operator](#stork-storage-operator)
+7. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
+    1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
+    2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
+8. [Kubestr](#kubestr)
+9. [VolSync](#volsync)
+10. [Images](#images)
+11. [Tweets](#tweets)
+12. [Videos](#videos)
 
 ## Introduction
-* [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
-* [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/)
-* [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c) kubernetes/volumes/claims
+
+- [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
+- [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/)
+- [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c) kubernetes/volumes/claims
 - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/)
 - [forbes.com: 5 Cloud Native Storage Startups To Watch Out For In 2019](https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019/)
 - [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
@@ -78,46 +80,57 @@
 - [discoblocks.io 🌟](https://discoblocks.io) - [ondat/discoblocks](https://github.com/ondat/discoblocks) **Open Source declarative disk configuration system for Kubernetes.** Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.
 
 ## DoK Community
+
 - [==DoK Community== 🌟](https://dok.community) 
 - Kubernetes was originally designed to run stateless workloads. Today, it is increasingly used to run databases and other stateful workloads. Yet despite the success of these early adopters, there remain few known good practices for running data on Kubernetes.
 - After discussions with thousands of companies and individuals running data workloads on Kubernetes we’ve come to see that there is a need for a sharing of patterns and concerns about how to build and operate data-centric applications on Kubernetes. As a result, the **Data on Kubernetes Community (DoKC)** was born.
 - [==dok.community: Data on Kubernetes 2021== 🌟](https://dok.community/dokc-2021-report/) Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption
 
 ## Kubernetes Volumes Guide
+
 - [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) This is a guide that covers:
     - How to set up and use volumes in Kubernetes
     - What are persistent volumes, and how to use them
     - How to use an NFS volume
     - Shared data and volumes between pods
 
-## ReadWriteMany PersistentVolumeClaims 
+## ReadWriteMany PersistentVolumeClaims
+
 - [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3) Kubernetes allows us to provision our PersistentVolumes dynamically using PersistentVolumeClaims. Pods treat these claims as volumes. The access mode of the PVC determines how many nodes can establish a connection to it. We can refer to the resource provider’s docs for their supported access modes.
 - [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative)
 
 ## Ebooks
+
 - [redhat.com: Storage Patterns for Kubernetes for dummies](https://www.redhat.com/en/engage/kubernetes-containers-storage-s-201911201051)
 
 ## Cloud Native Storage Solutions
+
 - [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)
 
 ### Rook
+
 - [Rook](https://rook.io/)
 - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)
 - [documentation.suse.com: Rook Best Practices for running Ceph on Kubernetes (PDF)](https://documentation.suse.com/sbp/all/pdf/SBP-rook-ceph-kubernetes_color_en.pdf)
 
 ### Robin
+
 - [Robin](https://robin.io/)
 
 ### Reduxio
+
 - [Reduxio](https://www.reduxio.com/)
 
 ### Portworx
+
 - [Portworx](https://portworx.com/)
 
 ### StorageOS
+
 - [StorageOS](https://storageos.com/)
 
 ### OpenEBS
+
 - [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
 - [MayaData](https://mayadata.io/) Founder of OpenEBS
 - [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371/)
@@ -126,51 +139,63 @@
 - [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using LVM.
 
 ### LightOS
+
 - [LightOS](https://www.lightbitslabs.com/product/)
 - [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://blocksandfiles.com/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/)
 
 ### Longhorn
+
 - [Longhorn](https://longhorn.io/)
 - [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf/). Gluster and Ceph were “designed to be run by some storage admin. In the Kubernetes world, a lot of these things tend to be deployed by DevOps teams, so (the storage layer) needs to be a lot more lightweight and a lot simpler.” — Rancher Labs CEO Sheng Liang.
 - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://rancher.com/blog/2020/longhorn-container-storage)
 - [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://containerjournal.com/topics/container-management/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters/)
 
 ### IBM Spectrum Storage Suite
+
 - [IBM Spectrum](https://www.ibm.com/it-infrastructure/storage/spectrum) IBM Spectrum Storage software for data-driven architecture. A complete storage software family with AI-infused capability that changes the economics of storage on-prem and in the hybrid multicloud.
 - [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html)
 - [searchstorage.techtarget.com: IBM Spectrum](https://searchstorage.techtarget.com/definition/IBM-Spectrum)
 
 ### Linbit
+
 - [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes/) 
 
 ### Kadalu
+
 - [Kadalu](https://github.com/kadalu/kadalu) A lightweight Persistent storage solution for Kubernetes / OpenShift using GlusterFS in background. **Kadalu is a project to provide Persistent Storage in Kubernetes. The Kadalu operator deploys CSI pods, and gluster storage pods**
 
 ### IOMesh
+
 - [iomesh.com](https://www.iomesh.com/)
 - [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://blocksandfiles.com/2021/08/05/kubernetes-storage-chinese-vendor-smartxs-iomesh-beats-portworx-longhorn-and-openebs/)
 - [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)
 
 ### MinIO
+
 - [min.io](https://min.io) Multi-Cloud Object Storage. MinIO offers high-performance, S3 compatible object storage. Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the
 edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [blog.min.io: Best Practices for Kubernetes Object Storage](https://blog.min.io/best-practices-for-kubernetes-object-storage/)
 - [blog.min.io: Cloud-Native Object Storage Architectures: Single-Tenant vs Multi-Tenant](https://blog.min.io/single-vs-multi-tenant)
 
 ### NetApp Data Store
+
 - [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)
 
 ### Stork Storage Operator
+
 - [libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes](https://github.com/libopenstorage/stork) Stork - Storage Orchestration Runtime for Kubernetes
 
 ## OpenShift Container Storage Operator (OCS)
+
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
 
 ### OCS 3 (OpenShift 3)
+
 - OpenShift Container Storage based on [GlusterFS](https://www.gluster.org/) technology.
 - Not OpenShift 4 compliant: Migration tooling will be available to facilitate the move to OCS 4.x (OpenShift Gluster APP Mitration Tool).
 
 ### OCS 4 (OpenShift 4)
+
 - **OCS Operator** based on Rook.io with Operator LifeCycle Manager (OLM).
 - Tech Stack:
     - [Rook](https://rook.io) (don't confuse this with non-redhat ["Rook Ceph"](https://operatorhub.io/operator/rook-ceph) -> [RH ref](https://www.redhat.com/en/blog/rook-ceph-storage-operator-now-operatorhubio)).
@@ -187,14 +212,17 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - OCS Dashboard in OCS Operator
 
 ## Kubestr
+
 - [kubestr.io](https://kubestr.io/) Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
 - [blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with Kubestr](https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr)
 
 ## VolSync
+
 - [VolSync 🌟](https://github.com/backube/volsync) Asynchronous data replication for Kubernetes volumes. VolSync asynchronously replicates Kubernetes persistent volumes between clusters using either rsync or rclone. It also supports creating backups of persistent volumes via restic.
 - [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/) VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters! 
 
 ## Images
+
 ??? note "Click to expand!"
 
     <center>
@@ -202,6 +230,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
     </center>
 
 ## Tweets
+
 ??? note "Click to expand!"
 
     <center>
@@ -209,6 +238,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
     </center>
 
 ## Videos
+
 ??? note "Click to expand!"
 
     <center>

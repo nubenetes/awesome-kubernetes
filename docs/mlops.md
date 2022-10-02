@@ -1,19 +1,21 @@
 # Machine Learning Ops (MLOps) and Data Science
-- [Introduction. MLOps](#introduction-mlops)
-- [Object Detection Libraries](#object-detection-libraries)
-- [MLFlow](#mlflow)
-- [Kubeflow](#kubeflow)
-- [Flyte](#flyte)
-- [Azure ML](#azure-ml)
-- [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-- [Data Science](#data-science)
-- [Other Tools](#other-tools)
-- [Samples](#samples)
-- [ML Courses](#ml-courses)
-- [ML Competitions and Challenges](#ml-competitions-and-challenges)
-- [Polls](#polls)
-- [Tweets](#tweets)
+
+1. [Introduction. MLOps](#introduction-mlops)
+2. [Object Detection Libraries](#object-detection-libraries)
+3. [MLFlow](#mlflow)
+4. [Kubeflow](#kubeflow)
+5. [Flyte](#flyte)
+6. [Azure ML](#azure-ml)
+7. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+8. [Data Science](#data-science)
+9. [Other Tools](#other-tools)
+10. [Samples](#samples)
+11. [ML Courses](#ml-courses)
+12. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+13. [Polls](#polls)
+14. [Tweets](#tweets)
 ## Introduction. MLOps
+
 - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
 - [dafriedman97.github.io: Machine Learning from Scratch](https://dafriedman97.github.io/mlbook/content/introduction.html) Derivations in Concept and Code.
 - [cortex.dev: How to build a pipeline to retrain and deploy models](https://www.cortex.dev/post/how-to-build-a-pipeline-to-retrain-and-deploy-models)
@@ -35,8 +37,8 @@
 - [medium.com/workday-engineering: Implementing a Fully Automated Sharding Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)
 - [==medium.com/globant: Advantages of Deploying Machine Learning models with Kubernetes== 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)
 - [==technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission== 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business) An AI pioneer reflects on how companies can use machine learning to transform their operations and solve critical problems. 
-  - [==technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más"== 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) El pionero de la inteligencia artificial Andrew Ng asegura que es más importante tener buenos datos, aunque sean escasos, que muchos, pero mal etiquetados. Cree que todas las empresas deben empezar a pensar en la tecnología con proyectos rápidos, pero pequeños, y escalarlos si resulta que funcionan.
-  - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
+    - [==technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más"== 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) El pionero de la inteligencia artificial Andrew Ng asegura que es más importante tener buenos datos, aunque sean escasos, que muchos, pero mal etiquetados. Cree que todas las empresas deben empezar a pensar en la tecnología con proyectos rápidos, pero pequeños, y escalarlos si resulta que funcionan.
+    - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
 - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc) Tools and technologies in machine learning lifecycle
 - [medium.com/formaloo: How no-code platforms are democratizing data science and software development 🌟](https://medium.com/formaloo/making-databases-as-easy-as-playing-with-legos-no-code-no-problem-ed41d4fde269)
 - [towardsdatascience.com: From Jupyter Notebooks to Real-life: MLOps 🌟](https://towardsdatascience.com/from-jupyter-notebooks-to-real-life-mlops-9f590a7b5faa) Why is it a must-have?
@@ -44,14 +46,17 @@
 - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow) Choosing a task orchestration tool
 
 ## Object Detection Libraries
+
 - [medium.com/mlearning-ai: The Best Object Detection Libraries That I Work With](https://medium.com/mlearning-ai/the-best-object-detection-libraries-that-i-work-with-835428a1e01e)
 
 ## MLFlow
+
 - https://mlflow.org
 - [towardsdatascience.com: A Beginner-Friendly Introduction to Kubernetes 🌟](https://towardsdatascience.com/a-beginner-friendly-introduction-to-kubernetes-540b5d63b3d7) With a hands-on MLFlow deployment example
 - [towardsdatascience.com: Empowering Spark with MLflow](https://towardsdatascience.com/empowering-spark-with-mlflow-58e6eb5d85e8)
 
 ## Kubeflow
+
 - [kubeflow](https://www.kubeflow.org/) The Machine Learning Toolkit for Kubernetes
 - [medium.com: Machine Learning using Kubeflow](https://medium.com/cloud-techies/machine-learning-using-kubeflow-ad7c9f767df0)
 - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow/)
@@ -59,6 +64,7 @@
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
 
 ## Flyte
+
 - https://flyte.org
 - [Union Cloud](https://www.union.ai) ML and Data Orchestration powered by Flyte
 - [mlops.community: MLOps with Flyte: The Convergence of Workflows Between Machine Learning and Engineering](https://mlops.community/mlops-with-flyte-the-convergence-of-workflows-between-machine-learning-and-engineering/)
@@ -79,21 +85,23 @@
     - @SMT_Solvers In F500s it is mostly document OCR. Usually batch jobs - an API wouldn’t work - you need the binaries on the server even if it is a sidecar Docker container. One org (not mine) blows $$ doing network transfer from AWS to GCP when GCP could license their OCR in a container.
     - @Forcebananza Flyte creates a way for all these teams to work together partially because writing workflows, writing reusable components… is actually simple enough for data scientists and data engineers to work with.
     - @kelseyhightower We're now at a stage where we can start to leverage systems like https://flyte.org to give us more of an opinionated end-to-end workflow. What we call #ML can become a real discipline where practitioners can use a common set of terms and practices.
-
 - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)
 
 ## Azure ML
+
 - [docs.microsoft.com: MLflow and Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-mlflow) One of the open-source projects that has made #ML better is MLFlow. Microsoft is expanding support for APIs, no-code deployment for MLflow models in real-time/batch managed inference, curated MLflow settings, and CLI v2 integrations.
 - [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint/)
     - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
 
 ## KServe Cloud Native Model Server
+
 - [kserve.github.io](https://kserve.github.io/website/0.8/) Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI
 - [thenewstack.io: KServe: A Robust and Extensible Cloud Native Model Server](https://thenewstack.io/kserve-a-robust-and-extensible-cloud-native-model-server/)
 - [medium.com/bakdata: Scalable Machine Learning with Kafka Streams and KServe](https://medium.com/bakdata/scalable-machine-learning-with-kafka-streams-and-kserve-85308858d867) In this blog post, you'll learn how to use Apache Kafka and Kafka Streams in combination with the KServe inference platform for an easy integration of ML models with data streams
 
 ## Data Science
+
 - [analyticsvidhya.com: Bring DevOps To Data Science With MLOps](https://www.analyticsvidhya.com/blog/2021/04/bring-devops-to-data-science-with-continuous-mlops/)
 - [analyticsindiamag.com: Is coding necessary to work as a data scientist?](https://analyticsindiamag.com/is-coding-necessary-to-work-as-a-data-scientist/) Non-programmers with a no-coding background can have a glorious career in data science and programming, and coding knowledge is more like a skill and not a criterion.
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
@@ -101,6 +109,7 @@
 - [towardsdatascience.com: How to Structure a Data Science Project for Readability and Transparency](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) And How to Create One in One Line of Code
 
 ## Other Tools
+
 - [bodywork-ml/bodywork-core: Bodywork](https://github.com/bodywork-ml/bodywork-core) is a command line tool that deploys machine learning pipelines to Kubernetes. It takes care of everything to do with containers and orchestration, so that you don't have to. **It is a more lightweight and simpler alternative when compared to tools like KubeFlow**
 - [learn.iterative.ai: Iterative Tools for Data Scientists & Analysts](https://learn.iterative.ai/) All the things you need to know to take you from your notebook to production with Iterative tools!
 - VSCode DVC:
@@ -108,16 +117,20 @@
     - [docs.microsoft.com: Machine Learning Experimentation in VS Code with DVC Extension](https://docs.microsoft.com/en-us/shows/vs-code-livestreams/machine-learning-experimentation-in-vs-code-with-dvc-extension)
 
 ## Samples
+
 - [fepegar/vesseg](https://github.com/fepegar/vesseg) Brain vessel segmentation using 3D convolutional neural networks
 
 ## ML Courses
+
 - [==dair-ai/ML-Course-Notes: ML Course Notes== 🌟](https://github.com/dair-ai/ML-Course-Notes) 🎓 Sharing course notes on all topics related to machine learning, NLP, and AI.
 
-## ML Competitions and Challenges 
+## ML Competitions and Challenges
+
 - [Kaggle Competitions](https://www.kaggle.com/competitions)
 - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
 
 ## Polls
+
 ??? note "Click to expand!"
 
 	<center>
@@ -125,6 +138,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

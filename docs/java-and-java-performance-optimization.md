@@ -1,27 +1,29 @@
 # Java and Memory Management
-- [Introduction](#introduction)
-- [Java Performance Optimization](#java-performance-optimization)
-	- [Java on Kubernetes. Java Memory Arguments for Containers](#java-on-kubernetes-java-memory-arguments-for-containers)
-	- [Benchmarking modern Java Virtual Machines and the next-generation garbage collectors](#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors)
-	- [Relevant JVM Metrics](#relevant-jvm-metrics)
-	- [Common JVM Errors](#common-jvm-errors)
-	- [Tuning Jenkins GC](#tuning-jenkins-gc)
-	- [Tuning Java Containers](#tuning-java-containers)
-	- [Debugging java applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
-- [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
-	- [Threadumps, Heapdumps and GC Analysis Tools](#threadumps-heapdumps-and-gc-analysis-tools)
-- [Garbage Collection and Heap Offloading](#garbage-collection-and-heap-offloading)
-- [Java Tracing Tools. JDK Flight Recorder](#java-tracing-tools-jdk-flight-recorder)
-- [Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)](#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014)
-- [Slides](#slides)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Java Performance Optimization](#java-performance-optimization)
+    1. [Java on Kubernetes. Java Memory Arguments for Containers](#java-on-kubernetes-java-memory-arguments-for-containers)
+    2. [Benchmarking modern Java Virtual Machines and the next-generation garbage collectors](#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors)
+    3. [Relevant JVM Metrics](#relevant-jvm-metrics)
+    4. [Common JVM Errors](#common-jvm-errors)
+    5. [Tuning Jenkins GC](#tuning-jenkins-gc)
+    6. [Tuning Java Containers](#tuning-java-containers)
+    7. [Debugging java applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
+3. [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
+    1. [Threadumps, Heapdumps and GC Analysis Tools](#threadumps-heapdumps-and-gc-analysis-tools)
+4. [Garbage Collection and Heap Offloading](#garbage-collection-and-heap-offloading)
+5. [Java Tracing Tools. JDK Flight Recorder](#java-tracing-tools-jdk-flight-recorder)
+6. [Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)](#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014)
+7. [Slides](#slides)
+8. [Tweets](#tweets)
 
 ## Introduction
 - [javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022](https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html)
 
 ## Java Performance Optimization
-* [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps
-- [DZone: String Concatenation's Effect on Performance](https://dzone.com/articles/string-concatentions-effect-on-performance) Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use StringBuilder’s append method instead. 
+
+- [DZone refcard: java performance optimization 🌟](https://dzone.com/refcardz/java-performance-optimization) Tools and Techniques for Turbocharged Apps
+- [DZone: String Concatenation's Effect on Performance](https://dzone.com/articles/string-concatentions-effect-on-performance) Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use StringBuilder’s append method instead.
 - [DZone: Performance Improvement in Java Applications: ORM/JPA 🌟](https://dzone.com/articles/performance-improvement-in-java-applications-orm-j)
 - [DZone: The JVM Architecture Explained 🌟](https://dzone.com/articles/jvm-architecture-explained) An overview of the different components of the JVM, along with a very useful diagram
 - [DZone: How to Troubleshoot Sudden CPU Spikes](https://dzone.com/articles/troubleshoot-sudden-cpu-spikes) Your Java application has been running fine, but all of a sudden CPU consumption starts to go higher and higher... sound familiar?
@@ -39,20 +41,24 @@
 - [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) - [original article - javarevisited.blogspot.com](https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html#axzz7e91Wjl6y)
 
 ### Java on Kubernetes. Java Memory Arguments for Containers
+
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)
 - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.
 - [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) In this article, we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.
 
 ### Benchmarking modern Java Virtual Machines and the next-generation garbage collectors
-* [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1) The Java runtime has been evolving more rapidly in recent years and, after 15 years, we finally got a **new default garbage collector: the G1**. Two more GCs are on their way to production and are available as experimental features: **Oracle's ZGC** and **OpenJDK's Shenandoah**. We at Hazelcast thought it was time to put all these new options to the test and find which choices work well with workloads typical for our distributed stream processing engine, [Hazelcast Jet](https://jet-start.sh/).
+
+- [jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟](https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1) The Java runtime has been evolving more rapidly in recent years and, after 15 years, we finally got a **new default garbage collector: the G1**. Two more GCs are on their way to production and are available as experimental features: **Oracle's ZGC** and **OpenJDK's Shenandoah**. We at Hazelcast thought it was time to put all these new options to the test and find which choices work well with workloads typical for our distributed stream processing engine, [Hazelcast Jet](https://jet-start.sh/).
 
 ### Relevant JVM Metrics
+
 Metric|Details / Reference
 :---|:---
 GC Throughput|**Repeated Full GC happens way before OutOfMemoryError**<br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
 etc|
 
 ### Common JVM Errors
+
 JVM Error|Details / Reference
 :----|:----
 OutOfMemoryError|**Repeated Full GC happens way before OutOfMemoryError** <br/> [ref1](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)<br/>[ref2](https://blog.gceasy.io/2019/03/13/micrometrics-to-forecast-application-performance)
@@ -60,39 +66,45 @@ StackOverflowError|[ref](https://blog.fastthread.io/2018/09/24/stackoverflowerro
 etc|
 
 ### Tuning Jenkins GC
-* [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
-* [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)
+
+- [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://jenkins.io/blog/2016/11/21/gc-tuning/)
+- [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)
 
 ### Tuning Java Containers
-* [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/)
-* [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
-* [dzone.com: Java RAM Usage in Containers: Top 5 Tips for Not Losing Your Memory](https://dzone.com/articles/java-ram-usage-in-containers-top-5-tips-not-to-los)
-* [dzone.com: Running a JVM in a Container Without Getting Killed:](https://dzone.com/articles/running-a-jvm-in-a-container-without-getting-kille) Starting in JDK 9, and earlier if you use JDK 8u131, your JVM can detect how much memory is available when running inside a Docker container.
-* [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
-* [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d)
-* [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
+
+- [blog.openshift.com: Scaling Java Containers 🌟](https://blog.openshift.com/scaling-java-containers/)
+- [blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift](https://blog.openshift.com/performance-metrics-apm-spring-boot-microservices-openshift/)
+- [dzone.com: Java RAM Usage in Containers: Top 5 Tips for Not Losing Your Memory](https://dzone.com/articles/java-ram-usage-in-containers-top-5-tips-not-to-los)
+- [dzone.com: Running a JVM in a Container Without Getting Killed:](https://dzone.com/articles/running-a-jvm-in-a-container-without-getting-kille) Starting in JDK 9, and earlier if you use JDK 8u131, your JVM can detect how much memory is available when running inside a Docker container.
+- [dzone.com: Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail) If you've tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here's how to fix it.
+- [itnext.io: How to cold start fast a java service on k8s (EKS)](https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d)
+- [blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
 
 ### Debugging java applications on OpenShift and Kubernetes
-* [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
+
+- [blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes](https://blog.openshift.com/debugging-java-applications-on-openshift-kubernetes/)
 
 ## List of Performance Analysis Tools
-* [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
-* [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
-* [VisualVM](https://en.wikipedia.org/wiki/VisualVM)
-* [OverOps](https://en.wikipedia.org/wiki/OverOps)
-* [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
-* etc
+
+- [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
+- [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
+- [VisualVM](https://en.wikipedia.org/wiki/VisualVM)
+- [OverOps](https://en.wikipedia.org/wiki/OverOps)
+- [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
+- etc
 
 ### Threadumps, Heapdumps and GC Analysis Tools
-* [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/)
-* [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps)
-* [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
-* [tier1app.com](https://tier1app.com/)
-* [fastthread.io](https://fastthread.io/)
-* [gceasy.io](https://gceasy.io/)
-* [heaphero.io](https://heaphero.io/)
+
+- [geekflare.com: What is Thread Dump and How to Analyze them? 🌟](https://geekflare.com/generate-analyze-thread-dumps/)
+- [baeldung.com: How to Analyze Java Thread Dumps 🌟](https://www.baeldung.com/java-analyze-thread-dumps)
+- [baeldung.com: Capturing a Java Thread Dump](https://www.baeldung.com/java-thread-dump)
+- [tier1app.com](https://tier1app.com/)
+- [fastthread.io](https://fastthread.io/)
+- [gceasy.io](https://gceasy.io/)
+- [heaphero.io](https://heaphero.io/)
 
 ## Garbage Collection and Heap Offloading
+
 - [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org/)
 - [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal)
 - [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)
@@ -107,6 +119,7 @@ etc|
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)
 
 ## Java Tracing Tools. JDK Flight Recorder
+
 - [Byteman](https://byteman.jboss.org/)
 - [developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟](https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent/)
 - [developers.redhat.com: Checkpointing Java from outside of Java](https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java/)
@@ -142,6 +155,7 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 2. caché de resultados computacionales como queries, páginas html, etc (donde el coste computacional es mayor a la deserialización)
 
 ## Slides
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -153,6 +167,7 @@ En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en
 </details>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

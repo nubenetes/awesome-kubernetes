@@ -1,28 +1,30 @@
 # Project Management Methodology
-- [Project Management Methodology](#project-management-methodology)
-	- [Spanish](#spanish)
-	- [Team Topologies](#team-topologies)
-	- [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
-	- [Waterfall vs Agile](#waterfall-vs-agile)
-	- [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
-- [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
-- [KPIs and Employee Performance](#kpis-and-employee-performance)
-- [MVP Minimum Viable Product](#mvp-minimum-viable-product)
-- [Other Development Methodologies. Worst practices in Project Management](#other-development-methodologies-worst-practices-in-project-management)
-	- [DevDriven.By](#devdrivenby)
-	- [Promotion Driven Development](#promotion-driven-development)
-- [Culture and Leadership](#culture-and-leadership)
-- [Bunch of images](#bunch-of-images)
-- [Videos](#videos)
-- [Spanish Videos](#spanish-videos)
-- [Tweets](#tweets)
-- [Tweets 2. Cultures](#tweets-2-cultures)
+
+1. [Project Management Methodology](#project-management-methodology)
+    1. [Spanish](#spanish)
+    2. [Team Topologies](#team-topologies)
+    3. [Agile vs Scrum vs Waterfall vs Kanban vs Lean](#agile-vs-scrum-vs-waterfall-vs-kanban-vs-lean)
+    4. [Waterfall vs Agile](#waterfall-vs-agile)
+    5. [Agile vs Scrum vs Kanban](#agile-vs-scrum-vs-kanban)
+2. [Responsibility Assignment Matrix (RACI)](#responsibility-assignment-matrix-raci)
+3. [KPIs and Employee Performance](#kpis-and-employee-performance)
+4. [MVP Minimum Viable Product](#mvp-minimum-viable-product)
+5. [Other Development Methodologies. Worst practices in Project Management](#other-development-methodologies-worst-practices-in-project-management)
+    1. [DevDriven.By](#devdrivenby)
+    2. [Promotion Driven Development](#promotion-driven-development)
+6. [Culture and Leadership](#culture-and-leadership)
+7. [Bunch of images](#bunch-of-images)
+8. [Videos](#videos)
+9. [Spanish Videos](#spanish-videos)
+10. [Tweets](#tweets)
+11. [Tweets 2. Cultures](#tweets-2-cultures)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604265532&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tlotfy99" title="Abou Seif 🧿" target="_blank" style="color: #cccccc; text-decoration: none;">Abou Seif 🧿</a> · <a href="https://soundcloud.com/tlotfy99/no-man-no-cry-jimmy-sax" title="no man no cry - jimmy sax" target="_blank" style="color: #cccccc; text-decoration: none;">no man no cry - jimmy sax</a></div>
 </center>
 
 ## Project Management Methodology
+
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
 - [dzone: Agile Project Management Explained – A Beginner’s Guide](https://dzone.com/articles/agile-project-management-explained-a-beginners-gui) For all who are looking into the good Agile project management can do, here's an explanation and some benefits.
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
@@ -71,6 +73,7 @@
 - [hbr.org: How to Debate Ideas Productively at Work](https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work)
 
 ### Spanish
+
 - [scrum.org: Scrum no es una metodología, es un marco de trabajo](https://www.scrum.org/resources/blog/scrum-no-es-una-metodologia-es-un-marco-de-trabajo)
 - [scrum.org: Posturas del Product Owner](https://www.scrum.org/resources/blog/posturas-del-product-owner)
 - [itnove.com: La Guía Scrum 2020 en Español​](https://itnove.com/scrum-la-guia-scrum-2020-en-espanol/)
@@ -97,12 +100,14 @@
 - [estrategiadeproducto.com: La segunda mayor mentira sobre Product Management](https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management) No. Un Product Manager no es la intersección de Diseño, Tecnología y Negocio.
 
 ### Team Topologies
+
 - [itrevolution.com: The Problem With Org Charts](https://itrevolution.com/the-problem-with-org-charts/)
 - [dzone: Breaking Silos: Enhance Speed and Value Delivery](https://dzone.com/articles/silos-breaking-for-business-to-enhance-speed-to-va) How do we diagnose organizational silos? And how do we slice the large size business teams who are serving many customers or products with poor efficiency?
 - [itrevolution.com: Get Started With Team Topologies In 8 Steps](https://itrevolution.com/get-started-with-team-topologies-in-8-steps/)
 - [betterprogramming.pub: Team Topologies — A New Way of Thinking About Teams](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) Organize teams around four fundamental types: stream-aligned, enabling, complicated subsystem, and platform.
 
 ### Agile vs Scrum vs Waterfall vs Kanban vs Lean
+
 - [visual-paradigm.com: Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
 - [greycampus.com: What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.greycampus.com/blog/agile-and-scrum/agile-vs-scrum-vs-waterfall-vs-kanban)
 - [What's the Difference? Agile vs Scrum vs Waterfall vs Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)
@@ -110,11 +115,13 @@
 - [rethinkagile.org: 5 reasons why Agile is better than Waterfall](https://www.rethinkagile.org/post/5-reasons-why-agile-is-better-than-waterfall) 
 
 ### Waterfall vs Agile
+
 - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall/)
 - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www2.deloitte.com/us/en/insights/industry/public-sector/agile-in-government-waterfall-software-approach.html)
 - [deloitte.com: ¿Cuál es la metodología más adecuada para tu proyecto? Metodología Waterfall vs Agile](https://www2.deloitte.com/es/es/pages/technology/articles/waterfall-vs-agile.html)
 
 ### Agile vs Scrum vs Kanban
+
 - [guru99.com: Agile Vs Scrum: Know the Difference](https://www.guru99.com/agile-vs-scrum.html)
 - [dzone: Agile vs. Scrum: Differences Between Scrum and Agile Development](https://dzone.com/articles/agile-vs-scrum-differences-between-scrum-and-agile) 
 - [softwaretestinghelp.com: Kanban Vs Scrum Vs Agile: A Detailed Comparison To Find Differences](https://www.softwaretestinghelp.com/kanban-vs-scrum-vs-agile/)
@@ -123,9 +130,10 @@
 - [k21academy.com: Scrum vs Kanban](https://k21academy.com/scrum-master/scrum-vs-kanban/)
 
 ## Responsibility Assignment Matrix (RACI)
+
 - [wikipedia: Responsibility assignment matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
 - [thedigitalprojectmanager.com: Create A Responsibility Assignment Matrix (RACI Chart) That Works](https://thedigitalprojectmanager.com/raci-chart-made-simple/)
-	- [thedigitalprojectmanager.com: Matriz RACI Simplificado: Cómo Crear Una Matriz De Responsabilidades Que Realmente Funcione](https://thedigitalprojectmanager.com/es/grafico-raci-manera-mas-simple/)
+    - [thedigitalprojectmanager.com: Matriz RACI Simplificado: Cómo Crear Una Matriz De Responsabilidades Que Realmente Funcione](https://thedigitalprojectmanager.com/es/grafico-raci-manera-mas-simple/)
 - [Understanding Responsibility Assignment Matrix (RACI Matrix)](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix/)
 - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
@@ -133,9 +141,11 @@
 - [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 
 ## KPIs and Employee Performance
+
 - [creately.com: A Step By Step Guide to Set KPIs for Team Members](https://creately.com/blog/business/how-to-set-kpis-for-team-members/)
 
 ## MVP Minimum Viable Product
+
 - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)
 - [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 - [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable)
@@ -147,17 +157,22 @@
 - [dev.to: Construyendo un MVP sin base de datos](https://dev.to/sergomz/construyendo-un-mvp-sin-base-de-datos-1i4k)
 
 ## Other Development Methodologies. Worst practices in Project Management
+
 - [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
-### DevDriven.By 
+
+### DevDriven.By
+
 - [devdriven.by](https://devdriven.by/)
 
 ### Promotion Driven Development
+
 - [devdriven.by: Promotion Driven Development](https://devdriven.by/promotion/) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
 - [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/)
 
 ## Culture and Leadership
+
 - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)
 - [lavanguardia.com: Los estilos de liderazgo más apreciados por los empleados](https://www.lavanguardia.com/vivo/20211113/7856878/cualidades-mas-valoran-empleados-jefe-pmv.html)
 - [businessinsider.es: "Estoy atrapado en unos hábitos poco saludables y me siento abrumado por todo lo que tengo que hacer, ¿cómo puedo aprender a decir no?"](https://www.businessinsider.es/tan-dificil-decir-no-jefe-965459)
@@ -166,6 +181,7 @@
 - [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/16-estilos-liderazgo-cual-es-mas-efectivo/)
 
 ## Bunch of images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -192,6 +208,7 @@
 	</center> 
 
 ## Videos
+
 ??? note "Click to expand!"
 
 	<center>

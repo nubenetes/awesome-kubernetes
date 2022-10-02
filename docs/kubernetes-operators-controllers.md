@@ -1,17 +1,19 @@
 # Kubernetes Operators and Controllers
-- [Introduction](#introduction)
-- [Creating Kubernetes operator using Kubebuilder](#creating-kubernetes-operator-using-kubebuilder)
-- [operatorhub.io](#operatorhubio)
-- [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
-- [Operator Capability Levels](#operator-capability-levels)
-- [Cluster Addons](#cluster-addons)
-- [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
-- [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
-- [Writing Kubernetes Operators and Controllers](#writing-kubernetes-operators-and-controllers)
-- [Tweets](#tweets)
-- [Videos](#videos)
+
+1. [Introduction](#introduction)
+2. [Creating Kubernetes operator using Kubebuilder](#creating-kubernetes-operator-using-kubebuilder)
+3. [operatorhub.io](#operatorhubio)
+4. [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
+5. [Operator Capability Levels](#operator-capability-levels)
+6. [Cluster Addons](#cluster-addons)
+7. [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
+8. [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
+9. [Writing Kubernetes Operators and Controllers](#writing-kubernetes-operators-and-controllers)
+10. [Tweets](#tweets)
+11. [Videos](#videos)
 
 ## Introduction
+
 - [kruschecompany.com: What is a Kubernetes Operator and Where it Can be Used?](https://kruschecompany.com/kubernetes-operator/)
 - [kruschecompany.com: Prometheus Operator – Installing Prometheus Monitoring Within The Kubernetes Environment](https://kruschecompany.com/kubernetes-prometheus-operator/)
 - [redhat.com: Kubernetes operators - Embedding operational expertise side by side with containerized applications](https://www.redhat.com/sysadmin/kubernetes-operators)
@@ -110,14 +112,14 @@
         - Expose the number of GPUs on each node of your cluster
         - Keep track of the health of your GPUs
         - Run GPU enabled containers in your Kubernetes cluster
- 
 - [medium.com/@marom.itamar: Kubernetes Controllers, Custom Resources, and Operators Explained](https://medium.com/@marom.itamar/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)
-- [glebiller/dynamic-configuration-operator: Dynamic Configuration Operator](https://github.com/glebiller/dynamic-configuration-operator) Dynamic Configuration Operator is an operator that updates a deployment when a ConfigMap or Secret is updated. Useful for apps that: 
+- [glebiller/dynamic-configuration-operator: Dynamic Configuration Operator](https://github.com/glebiller/dynamic-configuration-operator) Dynamic Configuration Operator is an operator that updates a deployment when a ConfigMap or Secret is updated. Useful for apps that:
     - Don't have a live-reload feature
     - Use `subPath` while mounting a ConfigMap or Secret
     - Use Projected Volumes
 
 ## Creating Kubernetes operator using Kubebuilder
+
 - [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) Kubebuilder - SDK for building Kubernetes APIs using CRDs
     - https://book.kubebuilder.io
 - [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)
@@ -132,51 +134,59 @@
     - There are multiple ways to create an operator. You could write one from scratch using Kubernetes  client-go. It’s a tedious task and the learning curve is steep. As an alternative, multiple tools provide boilerplate code and speed up the writing of operators. Popular ones are Operatorsdk and Kubebuilder. The focus of the article will be on creating an operator using Kubebuilder. Let’s create an operator which will create a pod running a simple HTTP API and bind some data to the HTTP API.
 
 ## operatorhub.io
-* [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
+
+- [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
 
 ## Red Hat Container Community of Practice Operators
+
 - [==cloud.redhat.com: Red Hat Container Community of Practice Operators==](https://cloud.redhat.com/blog/red-hat-container-community-of-practice-operators) In this post, you will find a summary of the operators maintained by Red Hat and how they can be used to facilitate the adoption of OpenShift.
 
 ## Operator Capability Levels
+
 - [Operator Capability Levels](https://operatorframework.io/operator-capabilities/) Operators come in different maturity levels in regards to their lifecycle management capabilities for the application or workload they deliver. The capability models aims to provide guidance in terminology to express what features users can expect from an Operator.
 
 ## Cluster Addons
+
 - [Cluster Addons 🌟](https://github.com/kubernetes-sigs/cluster-addons) With cluster addon operators, we are exploring a kubernetes-native way of managing addons using CRDs(Custom Resource Definitions) and controllers where the controllers encode how best to manage the addon. Installing and managing an addon could be as simple as creating a custom resource.
 
 ## K8Spin Operator. Kubernetes multi-tenant operator
+
 - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator) Kubernetes multi-tenant operator. Enables multi-tenant capabilities in your Kubernetes Cluster. [We defined some small features to implement](https://github.com/k8spin/k8spin-operator/projects/1). If you know python & Kubernetes and want to contribute to this project, ping us!
 - [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/) 
 - [Discover K8Spin open source software](https://k8spin.cloud/oss-projects/)
 
 ## K8s KPIs with Kuberhealthy Operator
+
 - [K8s KPIs with Kuberhealthy 🌟](https://kubernetes.io/blog/2020/05/29/k8s-kpis-with-kuberhealthy/) transforming Kuberhealthy into a Kubernetes operator for synthetic monitoring. This new ability granted developers the means to create their own Kuberhealthy check containers to synthetically monitor their applications and clusters. Additionally, we created a guide on how to easily install and use Kuberhealthy in order to capture some helpful synthetic [KPIs](https://kpi.org/KPI-Basics).
 
 ## Writing Kubernetes Operators and Controllers
-* [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
-* [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)
-* [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)
-* [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)
-* [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)
-* [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator/)
-* [Writing a Kubernetes Operator in Java Cheat Sheet](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
-* [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework/)
-* [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)
-* [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89) In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.
-* [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool) **Go-based operators are by far the most popular. That is why Go is probably the first option to consider.** The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don't need any complex [capability levels](https://operatorframework.io/operator-capabilities/). I'd leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.
-* [codilime.com: How to create a custom resource with Kubernetes Operator](https://codilime.com/how-to-create-a-custom-resource-with-kubernetes-operator/) Implementing DaemonJob from scratch learn how to create a custom resource with the Kubernetes Operator Framework.
-* [rookout.com: Lessons Learned When Building A Kubernetes Operator](https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator)
-* [pavel.cool: Oxidizing the Kubernetes operator](https://www.pavel.cool/rust/rust-kubernetes-operators/)
-* [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html)
-* [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)
-* [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)
-* [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.
-* [medium: Kubernetes Dummy Operator in Java](https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55) - [youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher](https://www.youtube.com/watch?v=C0E93Uc4h5k&t=761s&ab_channel=xgeeks)
-* [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2) Develop a simple Kubernetes operator from scratch. In this article, you will build a "hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.
-* [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) Repository for sample controller. Complements sample-apiserver
-* [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9) Create a Kubernetes API, controller, validate webhooks, and test.
-* [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)
+
+- [Kubernetes.io: Operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
+- [opensource.com: Build a Kubernetes Operator in 10 minutes with Operator SDK](https://opensource.com/article/20/3/kubernetes-operator-sdk)
+- [itnext.io: Testing the Operator SDK and making a prefetch mechanism for Kubernetes](https://itnext.io/testing-the-operator-sdk-and-making-a-prefetch-mechanism-for-kubernetes-7508577efdd7)
+- [magalix.com: Creating Custom Kubernetes Operators](https://www.magalix.com/blog/creating-custom-kubernetes-operators)
+- [medium.com: Writing Your First Kubernetes Operator](https://medium.com/faun/writing-your-first-kubernetes-operator-8f3df4453234)
+- [bmc.com: What Is a Kubernetes Operator?](https://www.bmc.com/blogs/kubernetes-operator/)
+- [Writing a Kubernetes Operator in Java Cheat Sheet](https://developers.redhat.com/cheat-sheets/writing-kubernetes-operator-java/)
+- [linuxera.org: Writing Operators using the Operator Framework SDK](https://linuxera.org/writing-operators-using-operator-framework/)
+- [openshift.com: 7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)
+- [medium: From Zero to Kubernetes Operator](https://medium.com/@victorpaulo/from-zero-to-kubernetes-operator-dd06436b9d89) In this post you will learn how to build a simple Kubernetes Operator. The article starts with the main concepts and then continues with hands-on labs where you will create a Kubernetes Operator from the ground up.
+- [openshift.com: Build Your Kubernetes Operator With the Right Tool 🌟](https://www.openshift.com/blog/build-your-kubernetes-operator-with-the-right-tool) **Go-based operators are by far the most popular. That is why Go is probably the first option to consider.** The other good choice is Helm, especially if you already have a Helm chart for your software or you want to build your operator quickly and you don't need any complex [capability levels](https://operatorframework.io/operator-capabilities/). I'd leave Operator Frameworks or Bare Programming Language implementations only for the cases when keeping a single programming language in your organization is a priority.
+- [codilime.com: How to create a custom resource with Kubernetes Operator](https://codilime.com/how-to-create-a-custom-resource-with-kubernetes-operator/) Implementing DaemonJob from scratch learn how to create a custom resource with the Kubernetes Operator Framework.
+- [rookout.com: Lessons Learned When Building A Kubernetes Operator](https://www.rookout.com/blog/lessons-learned-when-building-a-kubernetes-operator)
+- [pavel.cool: Oxidizing the Kubernetes operator](https://www.pavel.cool/rust/rust-kubernetes-operators/)
+- [brennerm.github.io: Kubernetes operators with Python #1: Creating CRDs](https://brennerm.github.io/posts/k8s-operators-with-python-part-1.html)
+- [vivilearns2code.github.io: Writing Controllers For Kubernetes Resources](https://vivilearns2code.github.io/k8s/2021/03/11/writing-controllers-for-kubernetes-custom-resources.html)
+- [cloudark.medium.com: Writing Kubernetes Custom Controllers](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)
+- [developers.redhat.com: Managing stateful applications with Kubernetes Operators in Golang 🌟](https://developers.redhat.com/articles/2021/08/04/managing-stateful-applications-kubernetes-operators-golang) Explore this pattern by creating a Kubernetes Operator in Golang to keep a WordPress site up to date.
+- [medium: Kubernetes Dummy Operator in Java](https://medium.com/xgeeks/kubernetes-dummy-operator-in-java-6b2f26198a55) - [youtube: Creating a Kubernetes Operator in Java by Rudy De Busscher](https://www.youtube.com/watch?v=C0E93Uc4h5k&t=761s&ab_channel=xgeeks)
+- [betterprogramming.pub: Build a Highly Available Kubernetes Operator Using Golang](https://betterprogramming.pub/building-a-highly-available-kubernetes-operator-using-golang-fe4a44c395c2) Develop a simple Kubernetes operator from scratch. In this article, you will build a "hello world” operator using the client-go library, make adaptations to it to achieve high availability, and deploy it to a Kubernetes cluster using Helm.
+- [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) Repository for sample controller. Complements sample-apiserver
+- [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9) Create a Kubernetes API, controller, validate webhooks, and test.
+- [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -186,6 +196,7 @@
 </details>
 
 ## Videos
+
 ??? note "Click to expand!"
 
     <center>

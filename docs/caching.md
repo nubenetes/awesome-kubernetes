@@ -1,18 +1,20 @@
-# Caching Solutions 
-- [Introduction to Caching](#introduction-to-caching)
-- [Java Caching](#java-caching)
-- [Infinispan](#infinispan)
-- [Red Hat Data Grid (commercial version of Infinispan)](#red-hat-data-grid-commercial-version-of-infinispan)
-- [CDN Content Delivery Network](#cdn-content-delivery-network)
-- [HAProxy](#haproxy)
-- [Varnish](#varnish)
-- [Memcached](#memcached)
-- [Redis](#redis)
-- [Nginx High-performance caching](#nginx-high-performance-caching)
-- [Videos](#videos)
-- [Slides](#slides)
+# Caching Solutions
+
+1. [Introduction to Caching](#introduction-to-caching)
+2. [Java Caching](#java-caching)
+3. [Infinispan](#infinispan)
+4. [Red Hat Data Grid (commercial version of Infinispan)](#red-hat-data-grid-commercial-version-of-infinispan)
+5. [CDN Content Delivery Network](#cdn-content-delivery-network)
+6. [HAProxy](#haproxy)
+7. [Varnish](#varnish)
+8. [Memcached](#memcached)
+9. [Redis](#redis)
+10. [Nginx High-performance caching](#nginx-high-performance-caching)
+11. [Videos](#videos)
+12. [Slides](#slides)
 
 ## Introduction to Caching
+
 - [Wikipedia: Web cache](https://en.wikipedia.org/wiki/Web_cache)
 - [Wikipedia: Dynamic site acceleration](https://en.wikipedia.org/wiki/Dynamic_site_acceleration)
 - [Slideshare: Caching](http://www.slideshare.net/NasceniaIT/brown-bag-caching-rafi-faisal-48694442)
@@ -26,13 +28,16 @@
 - [learncsdesign.medium.com: An Overview of Distributed Caching 🌟](https://learncsdesign.medium.com/an-overview-of-distributed-caching-e426781d1ff0)
 
 ## Java Caching
+
 - [DZone refcard: Java Caching](https://dzone.com/refcardz/java-caching) Strategies and the JCache API. Explores the building blocks of JCache and other caching APIs, as well as multiple strategies for implementing temporary data storage in your application.
 
 ## Infinispan
+
 - [Introduction to Infinispan](https://infinispan.org/about/) Distributed in-memory key/value data grid and cache
 - [Dzone: Getting Started with Infinispan](https://dzone.com/refcardz/getting-started-infinispan) Enhance Performance With Scalable, Highly Available Data Stores. Infinispan is an open-source, ASL 2.0-licensed, in-memory data grid platform based on Java 8. This newly updated Refcard offers tips for implementing Infinispan, gives a practical example for using it in embedded mode, and lists key APIs and cache features. Learn more about running Infinispan in containers and how to integrate the platform with Hibernate ORM, Apache Hadoop, Apache Spark, and Apache Camel.
 
 ## Red Hat Data Grid (commercial version of Infinispan)
+
 - In 2011, Red Hat began producing a commercial version of Infinispan, dubbed JBoss Enterprise Data Grid. 
 - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)
 - [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid)
@@ -40,13 +45,15 @@
 - [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more/)
 
 ## CDN Content Delivery Network
+
 - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)
-	- [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
+    - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
 - [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
 - [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching/)
 - [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
 
 ## HAProxy
+
 - [HAProxy](http://www.haproxy.org)
 - [slideshare: Haproxy web performance](http://www.slideshare.net/haproxytech/haproxy-web-performance-55536394)
 - [slideshare: Load Balancing MySQL with HAProxy](http://www.slideshare.net/Severalnines/load-balancing-mysql-with-haproxy-webinar-replay-english-44071270)
@@ -56,9 +63,10 @@
 - [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf/)
 
 ## Varnish
+
 - [Varnish Cache](https://www.varnish-cache.org/)
 - [varnish-software.com](https://www.varnish-software.com) Varnish Software is the company behind Varnish Cache, the open source HTTP accelerator.
-	- [The Varnish Book](http://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
+    - [The Varnish Book](http://info.varnish-software.com/the-varnish-book) Download the Varnish Book to learn how you can optimize your Varnish instance.
 - [fedoramagazine.org: Varnish: Your site faster and more stable](https://fedoramagazine.org/varnish-site-faster-stable/)
 - [Red Hat Developer Blog. Tag: Varnish](https://developerblog.redhat.com/tag/varnish/)
 - [Red Hat Enterprise Linux Blog. Tag: Varnish](http://rhelblog.redhat.com/tag/varnish/)
@@ -70,11 +78,13 @@
 - [github.com/mittwald/kube-httpcache](https://github.com/mittwald/kube-httpcache) Varnish Reverse Proxy on Kubernetes
 
 ## Memcached
+
 - [memcached.org](http://memcached.org)
 - [Slideshare: Introduction to memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
 - [DZone - The Power of the Proxy: Request Routing Memcached](https://dzone.com/articles/the-power-of-the-proxy-request-routing-memcached)
 
 ## Redis
+
 - [redis.io](http://redis.io)
 - [Slideshare: Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
@@ -82,6 +92,7 @@
 - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) In this tutorial, you will learn how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
 
 ## Nginx High-performance caching
+
 - [Nginxconf 2014. When Dynamic Becomes Static:The Next Step in Web Caching Techniques: Wim Godden](https://www.youtube.com/watch?v=OssIuHbgzJY)
 - [dzone: The Benefits of Microcaching with NGINX](https://dzone.com/articles/the-benefits-of-microcaching-with-nginx)
 - [dzone: Scaling Web Applications with NGINX – Part II: Caching and Monitoring](https://dzone.com/articles/scaling-web-applications-with-nginx-part-ii-cachin)
@@ -89,6 +100,7 @@
 - [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -99,6 +111,7 @@
 </details>
 
 ## Slides
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -120,5 +133,3 @@
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/hkcICcrntApXsr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/haproxytech/haproxy-best-practice" title="Haproxy best practice" target="_blank">Haproxy best practice</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/haproxytech">haproxytech</a></strong> </div>
 </center>
 </details>
-
-

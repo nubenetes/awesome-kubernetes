@@ -1,23 +1,25 @@
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
-- [Introduction. Templating YAML Files](#introduction-templating-yaml-files)
-    - [YAML anchors and aliases](#yaml-anchors-and-aliases)
-    - [YAML Processors](#yaml-processors)
-    - [YAML Validators](#yaml-validators)
-    - [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
-    - [Kubernetes examples](#kubernetes-examples)
-    - [Helm and Kustomize](#helm-and-kustomize)
-- [JSON. Templating JSON Files](#json-templating-json-files)
-    - [JSON in Ansible](#json-in-ansible)
-    - [JSON formatting with jq](#json-formatting-with-jq)
-    - [JSON Tools](#json-tools)
-    - [Kubernetes JSON Schemas](#kubernetes-json-schemas)
-- [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
-- [Alternatives](#alternatives)
-- [Base64](#base64)
-- [Videos](#videos)
-- [Tweets](#tweets)
+
+1. [Introduction. Templating YAML Files](#introduction-templating-yaml-files)
+    1. [YAML anchors and aliases](#yaml-anchors-and-aliases)
+    2. [YAML Processors](#yaml-processors)
+    3. [YAML Validators](#yaml-validators)
+    4. [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
+    5. [Kubernetes examples](#kubernetes-examples)
+    6. [Helm and Kustomize](#helm-and-kustomize)
+2. [JSON. Templating JSON Files](#json-templating-json-files)
+    1. [JSON in Ansible](#json-in-ansible)
+    2. [JSON formatting with jq](#json-formatting-with-jq)
+    3. [JSON Tools](#json-tools)
+    4. [Kubernetes JSON Schemas](#kubernetes-json-schemas)
+3. [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
+4. [Alternatives](#alternatives)
+5. [Base64](#base64)
+6. [Videos](#videos)
+7. [Tweets](#tweets)
 
 ## Introduction. Templating YAML Files
+
 - [wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
 - [redhat.com: YAML for beginners](https://www.redhat.com/sysadmin/yaml-beginners) YAML is an easy, expressive, data-oriented language that distinguishes itself from document markup languages.
 - [thoughtworks.com: Templating in YAML](https://www.thoughtworks.com/radar/techniques/templating-in-yaml) As infrastructures grow in complexity, so do the configuration files that define them. Tools such as [AWS CloudFormation](https://aws.amazon.com/cloudformation/), [Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes) and [Helm](https://www.thoughtworks.com/radar/tools/helm) expect configuration files in JSON or YAML syntax, presumably in an attempt to make them easy to write and process. However, in most cases, teams quickly reach the point where they have some parts that are similar but not quite the same, for example, when the same service must be deployed in different regions with a slightly different setup. For such cases tools offer templating in YAML (or JSON), which has caused a huge amount of [frustration with practitioners](https://leebriggs.co.uk/blog/2019/02/07/why-are-we-templating-yaml.html). The problem is that the syntax of JSON and YAML requires all sorts of awkward compromises to graft templating features such as conditionals and loops into the files. **We recommend using an API from a programming language instead or, when this is not an option, a templating system in a programming language, either a general-purpose language such as Python or something specialized such as [Jsonnet](https://jsonnet.org/).**
@@ -38,12 +40,14 @@
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 
 ### YAML anchors and aliases
+
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
 - [support.atlassian.com: YAML anchors and aliases](https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/)
 - [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
 - [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values)
 
 ### YAML Processors
+
 - [github.com/topics/yaml-processor](https://github.com/topics/yaml-processor)
 - [ytt](https://get-ytt.io/) is a templating tool that understands YAML structure allowing you to focus on your data instead of how to properly escape it.
 - You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
@@ -58,30 +62,35 @@
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
 
 ### YAML Validators
+
 - [==yamllint.com: YAML Lint - The YAML Validator==](http://www.yamllint.com)
 - [==codebeautify.org/yaml-validator==](https://codebeautify.org/yaml-validator)
 - [==jsonformatter.org/yaml-validator==](https://jsonformatter.org/yaml-validator)
 
 ### Other YAML Tools. How to create Kubernetes YAML files
+
 - [==onlineyamltools.com== 🌟](https://onlineyamltools.com) 
 - [avencera/yamine](https://github.com/avencera/yamine) A simple CLI for combining json and yaml files
 - [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
 - [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) - [ref2 at hackernoon.com](https://hackernoon.com/how-to-create-kubernetes-yaml-files)
-* [datree.io](https://www.datree.io) Prevent Kubernetes Misconfigurations From Reaching Production
-    * [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
-* [23andMe/Yamale](https://github.com/23andMe/Yamale) A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.
-* [==instrumenta/kubeval==](https://github.com/instrumenta/kubeval) Validate your Kubernetes configuration files, supports multiple Kubernetes versions. kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.
-* [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)
-* [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k)
-* [dotnet-helpers.com: How to Convert YAML to JSON / JSON to YAML using PowerShell](https://dotnet-helpers.com/powershell/convert-yaml-to-json-or-json-to-yaml-using-powershell/)
+- [datree.io](https://www.datree.io) Prevent Kubernetes Misconfigurations From Reaching Production
+    - [dev.to: Automating quality checks for Kubernetes YAMLs](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398)
+- [23andMe/Yamale](https://github.com/23andMe/Yamale) A schema and validator for YAML. Ensure that your schema definitions come from internal or trusted sources. Yamale does not protect against intentionally malicious schemas.
+- [==instrumenta/kubeval==](https://github.com/instrumenta/kubeval) Validate your Kubernetes configuration files, supports multiple Kubernetes versions. kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.
+- [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)
+- [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k)
+- [dotnet-helpers.com: How to Convert YAML to JSON / JSON to YAML using PowerShell](https://dotnet-helpers.com/powershell/convert-yaml-to-json-or-json-to-yaml-using-powershell/)
 
 ### Kubernetes examples
+
 - [Kubernetes examples 🌟](https://k8s-examples.container-solutions.com/) A series of YAML references with canonical and as-simple-as-possible demonstrations of kubernetes functionality and features.
 
 ### Helm and Kustomize
+
 - [dex.dev: YAML Templating Solutions: Helm & Kustomize](https://www.dex.dev/dex-videos/templating-solutions) Writing config files by hand is like coding with Notepad instead of an IDE. Let's find a better way, and take an overview of the popular solutions Helm & Kustomize.
 
 ## JSON. Templating JSON Files
+
 - [wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
 - [json.org: Introducing JSON](https://www.json.org/json-en.html)
 - [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers
@@ -97,20 +106,25 @@
 - [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532) An in-depth guide on JavaScript Object Notation (JSON)
 
 ### JSON in Ansible
+
 - [opensource.com: 5 ways to process JSON data in Ansible 🌟](https://opensource.com/article/21/4/process-json-data-ansible) Structured data is friendly for automation, and you can take full advantage of it with Ansible.
 
 ### JSON formatting with jq
+
 - [about.gitlab.com: Tips for productive DevOps workflows: JSON formatting with jq and CI/CD linting automation](https://about.gitlab.com/blog/2021/04/21/devops-workflows-json-format-jq-ci-cd-lint/)
 - ```jq -C '.' data.json | less -R``` Use jq to pretty print some JSON data with ANSI color coded syntax and use -R in less to process the color.
 - [github.com/ilyash/show-struct](https://github.com/ilyash/show-struct) Shows possible jq paths in a JSON file
 
 ### JSON Tools
+
 - [==jsoncrack.com: JSON Crack 🌟🌟==](https://jsoncrack.com) **Seamlessly visualize your JSON data instantly into graphs**
 
 ### Kubernetes JSON Schemas
+
 - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
 
 ## Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools
+
 - The ecosystem of static checking of Kubernetes YAML files can be grouped in the following categories:
     - **API validators**: Tools in this category validate a given YAML manifest against the Kubernetes API server.
     - **Built-in checkers**: Tools in this category bundle opinionated checks for security, best practices, etc.
@@ -127,6 +141,7 @@
     - [==thomasthornton.cloud: Analyze your Kubernetes YAML files and Helm Charts to ensure best practices using KubeLinter in Azure DevOps Pipeline==](https://thomasthornton.cloud/2022/04/13/analyze-your-kubernetes-yaml-files-and-helm-charts-to-ensure-best-practices-using-kuberlinter-in-azure-devops-pipeline/)
 
 ## Alternatives
+
 - [ketch](https://theketch.io) - [civo.com: Deployments without YAML using Ketch](https://www.civo.com/learn/deployments-without-yaml-using-ketch)
     - [ketch: Getting Started](https://learn.theketch.io/docs/getting-started)
     - [github.com/shipa-corp/ketch](https://github.com/shipa-corp/ketch/) Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface.
@@ -145,10 +160,12 @@
     - [miller](https://github.com/johnkerl/miller) (“like awk/sed/cut/join/sort for CSV/TSV/JSON/JSON lines”)
 - [kislyuk/yq](https://github.com/kislyuk/yq) Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents. Worth noting that there are two implementations of yq, the other one being https://github.com/kislyuk/yq. It's a simple(r) wrapper around jq in Python, so it does support everything jq does, as opposed to the Go implementation, which reimplements jq but probably not fully.
 
-## Base64 
+## Base64
+
 - [base64encode.org](https://www.base64encode.org/) Base64 Decode and Encode
 
 ## Videos
+
 ??? note "Click to expand!"
 
     <center>
@@ -158,6 +175,7 @@
     </center>
 
 ## Tweets
+
 ??? note "Click to expand!"
 
     <center>

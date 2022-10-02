@@ -1,16 +1,19 @@
 # Digital Money
-- [Introduction](#introduction)
-- [Tweets](#tweets)
-- [Spanish Videos](#spanish-videos)
-- [English Videos](#english-videos)
+
+1. [Introduction](#introduction)
+2. [Tweets](#tweets)
+3. [Spanish Videos](#spanish-videos)
+4. [English Videos](#english-videos)
 
 ## Introduction
+
 - [en.wikipedia.org: Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)
 - [en.wikipedia.org: Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 - [Tether (USDt)](https://tether.to/)
 - [wikipedia: Tether (cryptocurrency)](https://en.wikipedia.org/wiki/Tether_(cryptocurrency))
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -30,7 +33,8 @@
 </center>
 </details>
 
-## Spanish Videos 
+## Spanish Videos
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -50,6 +54,7 @@
 </details>
 
 ## English Videos
+
 <details>
   <summary>Click to expand!</summary>
 

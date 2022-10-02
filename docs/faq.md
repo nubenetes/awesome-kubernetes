@@ -1,13 +1,15 @@
 # Microservices FAQ
-- [FAQ](#faq)
-- [History of Microservices](#history-of-microservices)
-- [Kubernetes Native](#kubernetes-native)
-- [Adoption of Cloud-Native Architecture](#adoption-of-cloud-native-architecture)
-- [Migration Styles. Lift and Shift Cloud Migration Strategy](#migration-styles-lift-and-shift-cloud-migration-strategy)
-- [Architectural Patterns for Caching Microservices](#architectural-patterns-for-caching-microservices)
-- [Bunch of Images](#bunch-of-images)
+
+1. [FAQ](#faq)
+2. [History of Microservices](#history-of-microservices)
+3. [Kubernetes Native](#kubernetes-native)
+4. [Adoption of Cloud-Native Architecture](#adoption-of-cloud-native-architecture)
+5. [Migration Styles. Lift and Shift Cloud Migration Strategy](#migration-styles-lift-and-shift-cloud-migration-strategy)
+6. [Architectural Patterns for Caching Microservices](#architectural-patterns-for-caching-microservices)
+7. [Bunch of Images](#bunch-of-images)
   
 ## FAQ
+
 - [Should I Use A Microservices Architecture? What about the UI? 🌟](https://www.jamesmichaelhickey.com/microservices-architecture/)
 - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)
 - [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
@@ -31,15 +33,19 @@
 - [==devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration==](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration) **From Old to New Migrating VM Workloads to Containers. DevOps Meets SecOps: Building Security & Quality Gate Automations. Accelerate the Migration to Kubernetes**
 
 ## History of Microservices
+
 - [History of Microservices](https://bit.ly/kubeappserver)
 
 ## Kubernetes Native
+
 - [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native/)
 
 ## Adoption of Cloud-Native Architecture
+
 - [Adoption of Cloud-Native Architecture, Part 1: Architecture Evolution and Maturity](https://www.infoq.com/articles/cloud-native-architecture-adoption-part1/)
 
 ## Migration Styles. Lift and Shift Cloud Migration Strategy
+
 - [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU):
     - Lift and shift is a cloud migration strategy that refers to removing workloads and tasks from one storage location and placing them in another, usually cloud-based, location.
     - Moving applications to the cloud can be challenging if you are unprepared. In fact, many businesses experience some level of migration failure because of poor planning.
@@ -51,9 +57,11 @@
 - [acloudguru.com: What is lift and shift cloud migration?](https://acloudguru.com/blog/business/what-is-lift-and-shift-cloud-migration)
 
 ## Architectural Patterns for Caching Microservices
+
 - [==hazelcast.com: Where Is My Cache? Architectural Patterns for Caching Microservices== 🌟](https://hazelcast.com/blog/architectural-patterns-for-caching-microservices/)
 
 ## Bunch of Images
+
 ??? note "Click to expand!"
 
 	<center>

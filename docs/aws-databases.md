@@ -1,13 +1,15 @@
 # AWS RDS Databases
-- [Introduction](#introduction)
-- [AWS Database Migration Service DMS](#aws-database-migration-service-dms)
-- [AWS RDS Proxy](#aws-rds-proxy)
-- [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
-- [AWS Redshift](#aws-redshift)
-- [AWS Data Mesh and Batch Data Processing](#aws-data-mesh-and-batch-data-processing)
-- [AWS NoSQL DynamoDB](#aws-nosql-dynamodb)
+
+1. [Introduction](#introduction)
+2. [AWS Database Migration Service DMS](#aws-database-migration-service-dms)
+3. [AWS RDS Proxy](#aws-rds-proxy)
+4. [AWS Schema Conversion Tool](#aws-schema-conversion-tool)
+5. [AWS Redshift](#aws-redshift)
+6. [AWS Data Mesh and Batch Data Processing](#aws-data-mesh-and-batch-data-processing)
+7. [AWS NoSQL DynamoDB](#aws-nosql-dynamodb)
 
 ## Introduction
+
 - [Tutorial: Restoring a DB Instance from a DB Snapshot](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html)
 - [Partitioning MySQL on RDS: "How We Partitioned Airbnb’s Main Database in Two Weeks"](https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21)
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/)
@@ -35,6 +37,7 @@
 - [Modernize database stored procedures to use Amazon Aurora PostgreSQL federated queries, pg_cron, and AWS Lambda](https://aws.amazon.com/blogs/database/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda/)
 
 ## AWS Database Migration Service DMS
+
 - [AWS Database Migration Service](https://aws.amazon.com/blogs/aws/aws-database-migration-service/)
 - [Whitepaper: Migrating Your Databases to AWS](https://aws.amazon.com/dms/learn-more/)
 - [Replicate and transform data in Amazon Aurora PostgreSQL across multiple Regions using AWS DMS](https://aws.amazon.com/blogs/database/replicate-and-transform-data-in-amazon-aurora-postgresql-across-multiple-regions-using-aws-dms)
@@ -44,21 +47,26 @@
 - [revenuecat.com: Replicating a postgresql cluster to redshift](https://www.revenuecat.com/blog/replicating-a-postgresql-cluster-to-redshift)
 
 ## AWS RDS Proxy
+
 - [Amazon RDS Proxy – Now Generally Available](https://aws.amazon.com/es/blogs/aws/amazon-rds-proxy-now-generally-available/) A fully managed, highly available database proxy for Amazon Relational Database Service (RDS) that makes applications more scalable, more resilient to database failures, and more secure.
 
 ## AWS Schema Conversion Tool
+
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
 - [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support/)
 - [Creating an AWS Schema Conversion Tool Project](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool. 
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
 ## AWS Redshift
+
 - [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) In this tutorial, you will learn how to optimize the design of your tables.
 
 ## AWS Data Mesh and Batch Data Processing
+
 - [dev.to: Introduction to Data Mesh](https://dev.to/aws-builders/introduction-to-data-mesh-3f1b)
 - [dev.to: Introduction to Batch Data Processing](https://dev.to/aws-builders/introduction-to-batch-data-processing-4k56)
 
 ## AWS NoSQL DynamoDB
+
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/)
 - [medium: An Ultimate Guide to AWS Serverless database — DynamoDB](https://medium.com/javascript-in-plain-english/an-ultimate-guide-to-aws-serverless-database-dynamodb-aa048a62f2da) AWS DynamoDb is a fully managed, NoSQL, Single digit latency, a serverless database that can handle any kind of online workloads.

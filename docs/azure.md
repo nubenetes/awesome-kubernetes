@@ -1,50 +1,52 @@
 # Microsoft Azure
-- [Azure](#azure)
-- [New Features](#new-features)
-- [Blogs](#blogs)
-- [Azure Training](#azure-training)
-- [Azure Naming Convention](#azure-naming-convention)
-- [Understand Azure Load Balancing](#understand-azure-load-balancing)
-- [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
-- [Azure Patterns](#azure-patterns)
-- [ARM Templates](#arm-templates)
-- [Azure DevOps](#azure-devops)
-    - [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
-    - [Azure Pipeline Tasks](#azure-pipeline-tasks)
-- [Azure AD and RBAC. Service Principal SPN](#azure-ad-and-rbac-service-principal-spn)
-    - [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
-- [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
-- [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
-- [Azure Application Gateway](#azure-application-gateway)
-- [Mobile Apps](#mobile-apps)
-- [Powershell](#powershell)
-    - [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
-    - [Powershell repos](#powershell-repos)
-    - [Crescendo powershell module](#crescendo-powershell-module)
-    - [Secrets Management with Powershell](#secrets-management-with-powershell)
-- [Azure CLI. AZ CLI](#azure-cli-az-cli)
-- [Azure Run Command](#azure-run-command)
-- [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
-- [Azure Bicep](#azure-bicep)
-- [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
-- [Azure Traffic Manager](#azure-traffic-manager)
-- [Azure OpenVPN](#azure-openvpn)
-- [Azure Security](#azure-security)
-- [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-- [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-- [Windows 11](#windows-11)
-- [Azure API Management](#azure-api-management)
-- [Azure Container Apps](#azure-container-apps)
-- [Azure Container Instances](#azure-container-instances)
-- [Windows Server Container Host](#windows-server-container-host)
-- [Disaster Recovery](#disaster-recovery)
-- [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-- [Office 365](#office-365)
-- [Images](#images)
-- [Videos](#videos)
-- [Tweets](#tweets)
+
+1. [Azure](#azure)
+2. [New Features](#new-features)
+3. [Blogs](#blogs)
+4. [Azure Training](#azure-training)
+5. [Azure Naming Convention](#azure-naming-convention)
+6. [Understand Azure Load Balancing](#understand-azure-load-balancing)
+7. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
+8. [Azure Patterns](#azure-patterns)
+9. [ARM Templates](#arm-templates)
+10. [Azure DevOps](#azure-devops)
+    1. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
+    2. [Azure Pipeline Tasks](#azure-pipeline-tasks)
+11. [Azure AD and RBAC. Service Principal SPN](#azure-ad-and-rbac-service-principal-spn)
+    1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
+12. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
+13. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
+14. [Azure Application Gateway](#azure-application-gateway)
+15. [Mobile Apps](#mobile-apps)
+16. [Powershell](#powershell)
+    1. [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
+    2. [Powershell repos](#powershell-repos)
+    3. [Crescendo powershell module](#crescendo-powershell-module)
+    4. [Secrets Management with Powershell](#secrets-management-with-powershell)
+17. [Azure CLI. AZ CLI](#azure-cli-az-cli)
+18. [Azure Run Command](#azure-run-command)
+19. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
+20. [Azure Bicep](#azure-bicep)
+21. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
+22. [Azure Traffic Manager](#azure-traffic-manager)
+23. [Azure OpenVPN](#azure-openvpn)
+24. [Azure Security](#azure-security)
+25. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+26. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+27. [Windows 11](#windows-11)
+28. [Azure API Management](#azure-api-management)
+29. [Azure Container Apps](#azure-container-apps)
+30. [Azure Container Instances](#azure-container-instances)
+31. [Windows Server Container Host](#windows-server-container-host)
+32. [Disaster Recovery](#disaster-recovery)
+33. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+34. [Office 365](#office-365)
+35. [Images](#images)
+36. [Videos](#videos)
+37. [Tweets](#tweets)
 
 ## Azure
+
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Microsoft Docs](https://docs.microsoft.com/)
 - [Azure Docs](https://docs.microsoft.com/azure)
@@ -77,9 +79,11 @@
 - [==satyenkumar.medium.com: Demystifying The Cloud: An Overview of the Microsoft Azure== 🌟🌟🌟](https://satyenkumar.medium.com/demystifying-the-cloud-computing-an-overview-of-the-microsoft-azure-6a5c1fb1799d) Learn how to make the most of the Azure cloud platform in this comprehensive story (Cloud Demystified Series)
 
 ## New Features
+
 - [==azure.microsoft.com: General availability: Azure Bastion native client support==](https://azure.microsoft.com/en-gb/updates/general-availability-azure-bastion-native-client-support/)
 
 ## Blogs
+
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
 - [thomasthornton.cloud: Thomas Thornton](https://thomasthornton.cloud)
 - [thomasmaurer.ch](https://www.thomasmaurer.ch)
@@ -88,35 +92,42 @@
 - [azurebrains.com: Azurebrains](https://www.azurebrains.com) Blog sobre Tecnologias Cloud, Azure, Inteligencia Artificial, etc.
 
 ## Azure Training
+
 - [johnthebrit/CertificationMaterials](https://github.com/johnthebrit/CertificationMaterials) A collection of materials related to my certification videos
 - [==azurecharts.com/learning: Azure Learning Explorer==](https://azurecharts.com/learning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest. 
 - [thomasmaurer.ch: How To Learn Microsoft Azure in 2022](https://www.thomasmaurer.ch/2022/01/how-to-learn-microsoft-azure-in-2022/)
 
 ## Azure Naming Convention
+
 - [docs.microsoft.com: Define your naming convention](https://docs.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
-- [github.com/microsoft/CloudAdoptionFramework: Azure Naming Tool ](https://github.com/microsoft/CloudAdoptionFramework/tree/master/ready/AzNamingTool)
+- [github.com/microsoft/CloudAdoptionFramework: Azure Naming Tool](https://github.com/microsoft/CloudAdoptionFramework/tree/master/ready/AzNamingTool)
     - [seifbassem.com: Azure Naming Tool](https://www.seifbassem.com/blogs/posts/azure-naming-tool/)
 - [justinoconnor.codes: Azure Periodic Table of Resource Naming Convention Shorthands](https://justinoconnor.codes/2022/08/19/azure-periodic-table-of-resource-naming-convention-shorthands/)
 
 ## Understand Azure Load Balancing
+
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
 - [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html) 
 
 ## Microsoft Linux Distribution CBL Mariner
+
 - [thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy](https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy/)
 - [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner) Linux OS for Azure 1P services and edge appliances
 
 ## Azure Patterns
+
 - [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns)
 - [==docs.microsoft.com: Cloud Design Patterns== 🌟](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 ## ARM Templates
+
 - [==azure.microsoft.com: Azure Quickstart Templates==](https://azure.microsoft.com/en-us/resources/templates/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
 - [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates/)
 - [techcommunity.microsoft.com: ARM Template Specs now GA!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-template-specs-now-ga/ba-p/2402618)
 - [docs.microsoft.com: Azure Resource Manager template specs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs)
 
 ## Azure DevOps
+
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 - [Azure DevOps Labs 🌟](https://www.azuredevopslabs.com/)
 - [==docs.microsoft.com: Build applications with Azure DevOps (Learning Path)==](https://docs.microsoft.com/en-gb/learn/paths/build-applications-with-azure-devops/)
@@ -146,18 +157,22 @@
 - [techcommunity.microsoft.com: CICD in Synapse SQL: How to deliver your database objects across multiple environments](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/cicd-in-synapse-sql-how-to-deliver-your-database-objects-across/ba-p/3267507)
 
 ### YAML Schema in DevOps Azure Pipelines
+
 - [==DevOps Azure Pipelines: YAML Schema==](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pipeline)
 
 ### Azure Pipeline Tasks
+
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
 
 ## Azure AD and RBAC. Service Principal SPN
+
 - [itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities](https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda) Getting rid of passwords (or connection strings) while accessing Azure services and instead making use of Managed Identities is a way to increase the security of your workloads. Learn how to use Managed Identities in this article.
 - [youtube.com: Azure Service Principal - SPN | Houssem Dellai](https://www.youtube.com/watch?v=-F9yzj4Kjeo&ab_channel=HoussemDellai)
 - [youtube.com: How to create Service Principals in Azure Portal | Raaviblog](https://www.youtube.com/watch?v=Hg-YsUITnck)
 - [==techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset!== 🌟](https://techcommunity.microsoft.com/t5/azure/dynamic-user-membership-rules-azure-active-directory/m-p/3281164)
 
 ### Register applications in Azure AD. Authenticate apps and services
+
 - [==agrenpoint.com: Azure AD & Microsoft Graph permission scopes, with Azure CLI==](https://www.agrenpoint.com/azcli-adscope/) In this small post, we will look at a scenario where we want to register an Azure AD Application using specific scopes. When adding scopes for service principals using the Azure CLI we need to use the internal Ids. And one way would be to manually create one registration, get that app and then print out the scopes and then copy and paste.
 - [==medium.com/medialesson: Create Azure Active Directory App Registration with Azure CLI==](https://medium.com/medialesson/create-azure-active-directory-app-registration-with-azure-cli-3241aa3824c5)
 - [inkoop.io: How to get Azure API Credentials](https://www.inkoop.io/blog/how-to-get-azure-api-credentials/) How to create an application in Azure active directory and get subscription id, tenant id, client id, client secret and generate management certificates. You will need these keys to access Azure API.
@@ -170,6 +185,7 @@
     - [==nathannellans.com: Application Registrations and Enterprise Apps - Part 2== 🌟](https://www.nathannellans.com/post/app-registration-enterprise-apps-part-2)
 
 ## Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc 
+
 - [Azure Arc overview](https://docs.microsoft.com/en-us/azure/azure-arc/overview) Alternative to Google Anthos or RHACM
 - [azurearcjumpstart.io](https://azurearcjumpstart.io/) - [microsoft/azure_arc](https://github.com/microsoft/azure_arc)
     - [architecture diagrams and slides](https://github.com/microsoft/azure_arc/tree/main/docs/ppt)
@@ -180,14 +196,17 @@
 - [seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere](https://www.seifbassem.com/blogs/posts/azure-arc-ssh/)
 
 ## Secure DevOps Kit for Azure
+
 - [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit)
 - [DevOpsKit-docs](https://github.com/azsk/DevOpsKit-docs)
 - [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://www.ismiletechnologies.com/devsecops/secure-devops-kit-azureazsk/)
 
 ## Azure Application Gateway
+
 - [==nathannellans.com: Azure Application Gateway - Part 1== 🌟](https://www.nathannellans.com/post/azure-application-gateway-part-1)
 
 ## Mobile Apps
+
 - [Visual Studio App Center VS Azure Pipelines](https://docs.microsoft.com/en-us/appcenter/build/choose-between-services)
 - [itnext.io: How to setup CI CD pipelines for Android with Azure DevOps](https://itnext.io/how-to-setup-ci-cd-pipelines-for-android-with-azure-devops-2a4ded0de0e7) At Royale Cheese initially we had setup CI/CD for Android via Microsoft’s Visual Studio App Center (an upgrade of Hockey App), but last year they declared the retirement of MBaas which got us worried about the overall future of VS App Center. That was one of the reasons we wanted to switch away from it. Secondly, the free tier provided around 400 minutes of build time per month per account which would had been sufficient for other technologies, but Android takes around 15 minutes to create a single build and deploy. We all know what gradle is capable of 😉. So having multiple apps (both iOS and Android) in the same account didn’t fare well.
 - [arjavdave.com: Continuous Integration: CI/CD for iOS (Part 1)](https://arjavdave.com/2021/03/11/continuous-integration-for-ios-on-azure-devops-part-1/)
@@ -197,6 +216,7 @@
 - [youtube: Signing & Versioning iOS & Android Apps | DevOps for Mobile](https://www.youtube.com/watch?v=s1grtSSIRVA&ab_channel=dotNET)
 
 ## Powershell
+
 - [PowerShell](https://docs.microsoft.com/powershell/)
 - [PowerShell Gallery 🌟](https://www.powershellgallery.com/) The central repository for sharing and acquiring PowerShell code including PowerShell modules, scripts, and DSC resources.
 - [PowerShell Community](https://devblogs.microsoft.com/powershell-community/)
@@ -228,7 +248,8 @@
 - [techcommunity.microsoft.com: Use PowerShell to search for accounts in Active Directory that have gone stale!](https://techcommunity.microsoft.com/t5/windows-server-for-it-pro/use-powershell-to-search-for-accounts-in-active-directory-that/m-p/3585934)
 - [techcommunity.microsoft.com: Azure Storage Blob Count & Capacity usage Calculator](https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-storage-blob-count-amp-capacity-usage-calculator/ba-p/3516855) This PowerShell script allow you to count and calculate Azure Storage blob usage for Soft Deleted / non-Soft Deleted objects, by Container, by Tier, with Prefix, and considering Last Modified Date. Azure Storage blob objects is defined as Base Blobs, Blob Snapshots or Blob Versions.
 
-### Microsoft Graph PowerShell SDK 
+### Microsoft Graph PowerShell SDK
+
 - [==microsoftgraph/msgraph-sdk-powershell==](https://github.com/microsoftgraph/msgraph-sdk-powershell) The Microsoft Graph PowerShell SDK is a collection of PowerShell modules that contain commands for calling Microsoft Graph service.
 - [==docs.microsoft.com: Get started witth the Microsoft Graph Powershell SDK==](https://docs.microsoft.com/en-us/graph/powershell/get-started) Microsoft Graph Powershell replaces old powershell modules. It is also cross platform.
 - [==microsoftgraph/msgraph-sdk-powershell: samples==](https://github.com/microsoftgraph/msgraph-sdk-powershell/tree/dev/samples)
@@ -242,6 +263,7 @@
 - [practical365.com: Using Certificate-based Authentication with the Microsoft Graph PowerShell SDK](https://practical365.com/use-certificate-authentication-microsoft-graph-sdk/)
 
 ### Powershell repos
+
 - [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinhacoder/collection-of-useful-scripts)
 - [jrussellfreelance/powershell-scripts](https://github.com/jrussellfreelance/powershell-scripts)
 - [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)
@@ -250,48 +272,59 @@
     - [docs.microsoft.com: Introduction to Collections in Configuration Manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-r2/gg682177(v=technet.10))
 
 ### Crescendo powershell module
+
 - [Crescendo](https://devblogs.microsoft.com/powershell/announcing-powershell-crescendo-preview-1/) is an experimental module developed by Jim Truher, one of the main developers of PowerShell. Crescendo provides a framework to rapidly develop PowerShell cmdlets that wrap native commands, regardless of platform. The goal of a Crescendo-based module is to create PowerShell cmdlets that use a native command-line tool, but unlike the tool, return PowerShell objects instead of plain text.
 - [devblogs.microsoft.com: My Crescendo journey](https://devblogs.microsoft.com/powershell-community/my-crescendo-journey/)
 - [powershellgallery.com: Microsoft.PowerShell.Crescendo](https://www.powershellgallery.com/packages/Microsoft.PowerShell.Crescendo) Module that improves user experience with native commands
 - [visualstudiomagazine.com: PowerShell Crescendo Now Generally Available](https://visualstudiomagazine.com/articles/2022/03/10/powershell-crescendo-ga.aspx?m=1)
 
 ### Secrets Management with Powershell
+
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore
 - [commandline.ninja: Video Intro to Secret Management with Powershell](https://www.commandline.ninja/video-intro-to-secret-management-with-powershell/)
 
 ## Azure CLI. AZ CLI
+
 - [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli/)
 - [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks#resize-without-downtime-preview)
 
 ## Azure Run Command
+
 - [mandiant.com: Azure Run Command for Dummies](https://www.mandiant.com/resources/azure-run-command-dummies)
 - [docs.microsoft.com: Run scripts in your Linux VM by using action Run Commands](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/run-command)
 - [docs.microsoft.com: Run scripts in your Windows VM by using action Run Commands](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/run-command)
 
 ## IaC with PowerShell DSC Desired State Configuration
+
 - [docs.microsoft.com: Desired State Configuration overview for decision makers 🌟](https://docs.microsoft.com/en-us/powershell/scripting/dsc/)
 - [docs.microsoft.com: Using configuration data in DSC](https://docs.microsoft.com/en-us/powershell/scripting/dsc/configurations/configData)
 - [octopus.com: Getting started with PowerShell Desired State Configuration (DSC)](https://octopus.com/blog/getting-started-with-powershell-dsc) PowerShell DSC is an Infrastructure as Code (IaC) technology that uses PowerShell to create Managed Object Format (MOF) files, which Windows Management Instrumentation (WMI) can use to configure a machine. In other words, PowerShell DSC uses PowerShell to programmatically configure your Windows-based computers. Additionally, DSC can monitor the state of the configured resources to make sure your machines stay consistent. Along with monitoring, DSC can also automatically correct the configuration of your system, so it’s always in the desired state. **PowerShell != PowerShell DSC**
 
 ## Azure Bicep
+
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively. 
 
 ## Azure Cross region Load Balancer
+
 - [==azure.microsoft.com: How Microsoft Azure Cross-region Load Balancer helps create region redundancy and low latency== 🌟](https://azure.microsoft.com/en-in/blog/how-microsoft-azure-crossregion-load-balancer-helps-create-region-redundancy-and-low-latency/)
 
 ## Azure Traffic Manager
+
 - [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)
 
 ## Azure OpenVPN
+
 - [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)
 
 ## Azure Security
+
 - [techcommunity.microsoft.com: Security Control: Implement security best practices](https://techcommunity.microsoft.com/t5/azure-security-center/security-control-implement-security-best-practices/ba-p/2269914)
 - [==github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook==](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) **This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.**
 - [==devops.com: DevSecOps in Azure==](https://devops.com/devsecops-in-azure/)
 
 ## Data Ingestion. Azure Data Factory
+
 - [==medium.com/codex: 7 Best Practices for Data Ingestion==](https://medium.com/codex/7-best-practices-for-data-ingestion-f336c6b5128c)
     - Data engineering is the practice of designing and building systems for collecting, storing, and analyzing data at scale.
     - Data Ingestion is defined as the process of absorbing data from a vast multitude of sources, and then transferring it to a target site where it can be analyzed and deposited.
@@ -305,39 +338,47 @@
             - The process of gathering and transmitting data from source systems in real-time solutions such as Change Data Capture (CDC) is known as Real-Time Data Ingestion.
             - CDC or Streaming Data captures any changes, new transactions, or rollback in real time and moves changed data to the destination, without impacting the database workload.
             - Real-Time Ingestion is critical in areas like power grid monitoring, operational analytics, stock market analytics, dynamic pricing in airlines, and recommendation engines.
-        -  Lambda-based Data Ingestion Architecture: Lambda architecture in Data ingestion tries to use the best practices of both batch and real-time ingestion.
-            -  Batch Layer: Computes the data based on the whole picture. This is more accurate however is slower to compute.
-            -  Speed Layer: Is used for real-time ingestion, the computed data might not be completely accurate, however, gives a real-time picture of the data.
-            -  Serving layer: The outputs from the batch layer in the form of batch views and those coming from the speed layer in the form of near real-time views get forwarded to the serving. This layer indexes the batch views so that they can be queried in low latency on an ad-hoc basis.
+        - Lambda-based Data Ingestion Architecture: Lambda architecture in Data ingestion tries to use the best practices of both batch and real-time ingestion.
+            - Batch Layer: Computes the data based on the whole picture. This is more accurate however is slower to compute.
+            - Speed Layer: Is used for real-time ingestion, the computed data might not be completely accurate, however, gives a real-time picture of the data.
+            - Serving layer: The outputs from the batch layer in the form of batch views and those coming from the speed layer in the form of near real-time views get forwarded to the serving. This layer indexes the batch views so that they can be queried in low latency on an ad-hoc basis.
 - [mssqltips.com: Choosing Between SQL Server Integration Services and Azure Data Factory](https://www.mssqltips.com/sqlservertip/7094/azure-data-factory-vs-ssis-similarities-differences/)
 
 ## WinGet Windows Package Manager CLI
+
 - [WinGet: Welcome to the Windows Package Manager Client (aka winget.exe) repository](https://github.com/microsoft/winget-cli/) Windows Package Manager CLI (aka winget)
 - [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10/)
 - [thomasmaurer.ch: Getting started with Windows Package Manager WinGet](https://www.thomasmaurer.ch/2021/07/getting-started-with-windows-package-manager-winget/)
 
 ## Windows 11
+
 - [thenewstack.io: This Week in Programming: Windows Opens Up to Android Developers](https://thenewstack.io/this-week-in-programming-windows-opens-up-to-android-developers/)
 
 ## Azure API Management
+
 - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/services/api-management)
 - [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management/)
 
 ## Azure Container Apps
+
 - [Azure Container Apps](https://azure.microsoft.com/services/container-apps/) Build and deploy modern apps and microservices using serverless containers
 - [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/t5/apps-on-azure/introducing-azure-container-apps-a-serverless-container-service/ba-p/2867265)
 
 ## Azure Container Instances
+
 - [azure.microsoft.com: Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/) Launch containers with hypervisor isolation
 - [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances/)
 
 ## Windows Server Container Host
+
 - [thomasmaurer.ch: How to Install a Windows Server Container Host](https://www.thomasmaurer.ch/2020/06/how-to-install-a-windows-server-container-host/)
 
 ## Disaster Recovery
+
 - [docs.microsoft.com: Using Policy with Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery. 
 
 ## Azure Samples (Boilerplates)
+
 - [github.com/Azure-Samples 🌟](https://github.com/Azure-Samples) Microsoft Azure code samples and examples in .NET, Java, Python, Node.js, PHP and Ruby
     - [Azure-Samples/azure-pipelines-variable-templates](https://github.com/Azure-Samples/azure-pipelines-variable-templates) This sample Python Web app demonstrates the use of variable template files in Azure Pipelines.
     - [Azure-Samples/jmeter-aci-terraform](https://github.com/Azure-Samples/jmeter-aci-terraform) Scalable cloud load/stress testing pipeline solution with Apache JMeter and Terraform to dynamically provision and destroy the required infrastructure on Azure.
@@ -351,9 +392,11 @@
     - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml)
 
 ## Office 365
+
 - [o365reports.com: Office 365 Reports](https://o365reports.com)
 
 ## Images
+
 ??? note "Click to expand!"
 
     <center>
@@ -361,6 +404,7 @@
     </center>
 
 ## Videos
+
 ??? note "Click to expand!"
 
     <center>
@@ -369,6 +413,7 @@
     </center>
 
 ## Tweets
+
 ??? note "Click to expand!"
 
     <center>

@@ -1,11 +1,13 @@
 # Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management)
-- [Introduction](#introduction)
-- [Secretize plugin](#secretize-plugin)
-- [Comparison between Helm and Kustomize for Kubernetes yaml management](#comparison-between-helm-and-kustomize-for-kubernetes-yaml-management)
-- [Boilerplate](#boilerplate)
-- [Videos](#videos)
+
+1. [Introduction](#introduction)
+2. [Secretize plugin](#secretize-plugin)
+3. [Comparison between Helm and Kustomize for Kubernetes yaml management](#comparison-between-helm-and-kustomize-for-kubernetes-yaml-management)
+4. [Boilerplate](#boilerplate)
+5. [Videos](#videos)
 
 ## Introduction
+
 - [kustomize.io](https://kustomize.io/) Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into ```kubectl``` as ```apply -k```.
 - [kubernetes.io: Introducing kustomize; Template-free Configuration Customization for Kubernetes](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) If you run a Kubernetes environment, chances are you’ve customized a Kubernetes configuration — you've copied some API object YAML files and edited them to suit your needs. But there are drawbacks to this approach — it can be hard to go back to the source material and incorporate any improvements that were made to it. Today Google is announcing kustomize, a command-line tool contributed as a subproject of SIG-CLI. The tool provides a new, purely declarative approach to configuration customization that adheres to and leverages the familiar and carefully designed Kubernetes API.
 - [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/)
@@ -20,6 +22,7 @@
 - [codefresh.io: Applied GitOps with Kustomize](https://codefresh.io/about-gitops/applied-gitops-with-kustomize) In this article, you will learn Kustomize and how it can help deploy Kubernetes manifest with GitOps. This will allow you to leverage the power of Kustomize to define YAML files without using a templating engine
 
 ## Secretize plugin
+
 - [Secretize 🌟](https://github.com/bbl/secretize) Secretize is a kustomize plugin that helps generating kubernetes secrets from various sources such as AWS Secret Manager & Azure Vault. It's like a swiss army knife, but for kubernetes secrets.
 ## Comparison between Helm and Kustomize for Kubernetes yaml management
 - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators. 
@@ -27,9 +30,11 @@
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627) Helm and Kustomize are often compared with each other in the context of managing Kubernetes manifest file. Although those two tools have similar features, they are fundamentally different. In this post, I’ll compare them from several points of view with a sample application.
 
 ## Boilerplate
+
 - [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) Boilerplate example of managing OPA with kustomize
 
 ## Videos
+
 ??? note "Click to expand!"
 
     <center>

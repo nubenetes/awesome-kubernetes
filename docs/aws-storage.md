@@ -1,9 +1,11 @@
 # AWS Storage. S3 & EBS. AWS Storage Gateway
-- [Introduction](#introduction)
-- [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
-- [AWS Transfer](#aws-transfer)
+
+1. [Introduction](#introduction)
+2. [Amazon EFS Elastic File System](#amazon-efs-elastic-file-system)
+3. [AWS Transfer](#aws-transfer)
 
 ## Introduction
+
 - [S3 FAQ](https://aws.amazon.com/s3/faqs/)
 - [Making Requests to Amazon S3 over IPv6](http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html) Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.
 - [How to Build Sparse EBS Volumes for Fun and Easy Snapshotting](https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting/)
@@ -22,8 +24,10 @@
 - [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions/)
 
 ## Amazon EFS Elastic File System
+
 - [EFS Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions)
 - [Amazon Elastic File System triples read throughput](https://aws.amazon.com/about-aws/whats-new/2021/01/amazon-elastic-file-system-triples-read-throughput/)
 
 ## AWS Transfer
+
 - [infoq.com: AWS Transfer Family Introduces Support for EFS](https://www.infoq.com/news/2021/01/aws-transfer-ftp-efs/)

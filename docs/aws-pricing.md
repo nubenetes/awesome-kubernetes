@@ -1,7 +1,7 @@
 # AWS Pricing and Cost Optimization
 
-- [Introduction](#introduction)
-- [AWS Calculator](#aws-calculator)
+1. [Introduction](#introduction)
+2. [AWS Calculator](#aws-calculator)
 
 ## Introduction
 

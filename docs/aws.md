@@ -1,34 +1,36 @@
 # Public Cloud Provider. Amazon Web Services
+
 <br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png">
 </p>
 <br/>
 
-- [Introduction](#introduction)
-- [AWS Application Services](#aws-application-services)
-- [Blogs](#blogs)
-- [AWS Free Resources](#aws-free-resources)
-- [Containers on AWS](#containers-on-aws)
-- [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
-- [AWS on Twitter](#aws-on-twitter)
-- [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
-- [AWS Developer Blog](#aws-developer-blog)
-- [AWS Patterns](#aws-patterns)
-- [AWS configuration files](#aws-configuration-files)
-- [AWS Config Rules](#aws-config-rules)
-- [AWS Management Console](#aws-management-console)
-- [Resource Hierarchies](#resource-hierarchies)
-- [AWS Tags](#aws-tags)
-- [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
-	- [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
-- [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
-- [AWS re:Post](#aws-repost)
-- [Bunch of Images](#bunch-of-images)
-- [Videos](#videos)
-- [Tweets](#tweets)
+1. [Introduction](#introduction)
+2. [AWS Application Services](#aws-application-services)
+3. [Blogs](#blogs)
+4. [AWS Free Resources](#aws-free-resources)
+5. [Containers on AWS](#containers-on-aws)
+6. [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
+7. [AWS on Twitter](#aws-on-twitter)
+8. [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
+9. [AWS Developer Blog](#aws-developer-blog)
+10. [AWS Patterns](#aws-patterns)
+11. [AWS configuration files](#aws-configuration-files)
+12. [AWS Config Rules](#aws-config-rules)
+13. [AWS Management Console](#aws-management-console)
+14. [Resource Hierarchies](#resource-hierarchies)
+15. [AWS Tags](#aws-tags)
+16. [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
+    1. [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
+17. [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
+18. [AWS re:Post](#aws-repost)
+19. [Bunch of Images](#bunch-of-images)
+20. [Videos](#videos)
+21. [Tweets](#tweets)
 
 ## Introduction
+
 - [AWS Cloud Products](https://aws.amazon.com/products/)
 - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/)
 - [status.aws.amazon.com: Service Health Dashboard](https://status.aws.amazon.com) 
@@ -48,8 +50,8 @@
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides/) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
 - [serverlessland.com](https://serverlessland.com/) This site brings together all the latest blogs, videos, and training for AWS Serverless. Learn to use and build apps that scale automatically on low-cost, fully-managed serverless architecture.
-	- [serverlessland.com/patterns: Serverless Patterns Collection](https://serverlessland.com/patterns) Use serverless patterns to quickly build integrations using AWS SAM and CDK templates. Filter by pattern and copy the template directly into your application.
-	- [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines) Video tutorials: Learn how to generate CI/CD pipelines and deployment templates for serverless applications with AWS’ best practices for CloudBees, JenkinsCI, GitLab, GitHub using AWS SAM Pipelines.
+    - [serverlessland.com/patterns: Serverless Patterns Collection](https://serverlessland.com/patterns) Use serverless patterns to quickly build integrations using AWS SAM and CDK templates. Filter by pattern and copy the template directly into your application.
+    - [AWS SAM Pipelines](https://serverlessland.com/explore/sam-pipelines) Video tutorials: Learn how to generate CI/CD pipelines and deployment templates for serverless applications with AWS’ best practices for CloudBees, JenkinsCI, GitLab, GitHub using AWS SAM Pipelines.
 - [AWS Activate](https://aws.amazon.com/activate) AWS Activate offers startups free tools, resources, and more to quickly get started on AWS. Build and scale with up to $100,000 in AWS Activate credits
 - [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).
 - [dashbird.io: Get started and keep using AWS for free](https://dashbird.io/blog/use-aws-free/)
@@ -84,14 +86,17 @@
 - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)
 
 ## AWS Application Services
+
 - [k21academy.com: AWS Application Services: Lambda, SES, SNS, SQS, SWF](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-application-services/)
 
 ## Blogs
+
 - [Jayendra's Blog 🌟🌟](https://jayendrapatil.com/)
 - [aws.plainenglish.io](https://aws.plainenglish.io/)
 - [AWStip.com](https://awstip.com) Community of passionate AWS builders.
 
 ## AWS Free Resources
+
 - https://aws.amazon.com/architecture
 - https://aws.amazon.com/whitepapers
 - https://docs.aws.amazon.com
@@ -109,9 +114,11 @@ You can filter by topic using the toolbar above.
 - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
 
 ## Containers on AWS
+
 - [==vladionescu.me: Scaling containers on AWS in 2022 (comparison)==](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022/)
 
 ## AWS Startup Collection. For startups building on AWS
+
 - [bitmovin: Improving Video Quality on the Web](https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334)
 - [What Startups Should Know about Amazon VPC — Part 1](https://medium.com/aws-activate-startup-blog/what-startups-should-know-about-amazon-vpc-part-1-bebe94b7f228)
 - [Scaling on AWS (Part 3): >500K Users](https://medium.com/aws-activate-startup-blog/scaling-on-aws-part-3-500k-users-3750b227b761)
@@ -119,6 +126,7 @@ You can filter by topic using the toolbar above.
 - [medium.com: The Top 10 AWS Startup Blog Posts of 2015](https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb)
 
 ## AWS on Twitter
+
 - [twitter.com/awscloud](https://twitter.com/awscloud)
 - [twitter.com/AWSreInvent](https://twitter.com/AWSreInvent)
 - [twitter.com/jeffbarr](https://twitter.com/jeffbarr)
@@ -126,6 +134,7 @@ You can filter by topic using the toolbar above.
 - [twitter.com/AWS_Partners](https://twitter.com/AWS_Partners)
 
 ## AWS Youtube channel and Podcasts
+
 - [Amazon Web Services Youtube](https://www.youtube.com/user/AmazonWebServices)
 - [AWS Tutorial Series](https://www.youtube.com/user/awstutorialseries)
 - [AWS Webinar Channel](https://www.youtube.com/user/AWSwebinars)
@@ -134,44 +143,55 @@ You can filter by topic using the toolbar above.
 - [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## AWS Developer Blog
+
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer/)
 - [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Patterns
+
 - [medium: Top 4 AWS Patterns of Highly Available API](https://medium.com/greenm/top-4-aws-patterns-of-highly-available-api-d34599bfbb96) We want to tell you about a few common patterns that can be used to build highly available APIs on top of AWS infrastructure. We will highlight each of them and briefly describe the pros and cons.
 
 ## AWS configuration files
+
 - [medium: AWS configuration files, explained](https://medium.com/@ben11kehoe/aws-configuration-files-explained-9a7ea7a5b42e)
 
 ## AWS Config Rules
+
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
 
 ## AWS Management Console
+
 - [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
 ## Resource Hierarchies
+
 - [AWS, Azure, GCP: Resource Hierarchies](https://levelup.gitconnected.com/aws-azure-gcp-resource-hierarchies-25b829127511)
 
 ## AWS Tags
+
 - [bridgecrew.io: Best practices for AWS tagging with Yor](https://bridgecrew.io/blog/best-practices-for-aws-tagging-with-yor/)
 
 ## AWS Systems Manager Explorer
+
 - [Multi-account AWS Trusted Advisor summaries now available in AWS Systems Manager Explorer](https://aws.amazon.com/blogs/mt/multi-account-aws-trusted-advisor-summaries-now-available-aws-systems-manager-explorer/)
 
 ### AWS Systems Manager Incident Manager
+
 - [How to automate incident response to security events with AWS Systems Manager Incident Manager](https://aws.amazon.com/blogs/security/how-to-automate-incident-response-to-security-events-with-aws-systems-manager-incident-manager/)
 
 ## AWS Cloud Adoption Framework (AWS CAF)
+
 - [==AWS Cloud Adoption Framework (AWS CAF)==](https://aws.amazon.com/professional-services/CAF/) The AWS Cloud Adoption Framework (AWS CAF) leverages AWS experience and best practices to help you digitally transform and accelerate your business outcomes through innovative use of AWS. AWS CAF identifies specific organizational capabilities that underpin successful cloud transformations. These capabilities provide best practice guidance that helps you improve your cloud readiness. AWS CAF groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. Each perspective comprises a set of capabilities that functionally related stakeholders own or manage in the cloud transformation journey. Use the AWS CAF to identify and prioritize transformation opportunities, evaluate and improve your cloud readiness, and iteratively evolve your transformation roadmap.
 - [AWS Cloud Adoption Framework (CAF) 3.0 is Now Available](https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available/)
 
 ## AWS re:Post
+
 - [==repost.aws== 🌟](https://repost.aws)
 - [AWS re:Post – A Reimagined Q&A Experience for the AWS Community](https://aws.amazon.com/blogs/aws/aws-repost-a-reimagined-qa-experience-for-the-aws-community/)
 - [infoq.com: Amazon Introduces re:Post, a "Stack Overflow" for AWS](https://www.infoq.com/news/2021/12/amazon-repost-questions-answers/)
 
----
 ## Bunch of Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -185,6 +205,7 @@ You can filter by topic using the toolbar above.
 	</center>
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -194,6 +215,7 @@ You can filter by topic using the toolbar above.
 </details>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

@@ -1,4 +1,5 @@
 # Spain
+
 - [AWS en España](https://aws.amazon.com/es/local/spain/)
 - [xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España](https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana)
 - [RESOURCE HUB: Eventos y webinars de AWS](https://emea-resources.awscloud.com/spain-events-webinars)
@@ -6,6 +7,7 @@
 - [techunwrapped.com: Spain becomes a Cloud Region in 2022](https://techunwrapped.com/spain-becomes-a-cloud-region-in-2022/)
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 

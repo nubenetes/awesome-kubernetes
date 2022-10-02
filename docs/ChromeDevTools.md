@@ -1,10 +1,11 @@
 # Chrome & Firefox DevTools. HTTP Protocols & WebSockets
-- [ChromeDevTools](#chromedevtools)
-- [Firefox DevTools](#firefox-devtools)
-- [Other Tools](#other-tools)
-- [Tweets](#tweets)
+1. [ChromeDevTools](#chromedevtools)
+2. [Firefox DevTools](#firefox-devtools)
+3. [Other Tools](#other-tools)
+4. [Tweets](#tweets)
 
 ## ChromeDevTools
+
 - [devtools.chrome.com](https://devtools.chrome.com)
 - [Port of Firefox's JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb)
 - [twitter.com/ChromeDevTools](https://twitter.com/ChromeDevTools)
@@ -18,6 +19,7 @@
 </center>
 
 ## Firefox DevTools
+
 - [Firefox DevTools](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox)
 - Tip: Firefox has a really nice JSON viewer built in. Transforms JSON files (and API responses) into an easy to browse & search tree.
 
@@ -26,9 +28,11 @@
 </center>
 
 ## Other Tools
+
 - [jsontoolbox.com](https://jsontoolbox.com/)
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

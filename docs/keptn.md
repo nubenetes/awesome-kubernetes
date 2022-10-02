@@ -1,15 +1,16 @@
 # Keptn. Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
-- [Introduction](#introduction)
-- [Keptn Videos](#keptn-videos)
-- [Keptn Images](#keptn-images)
-- [Keptn Slides](#keptn-slides)
+1. [Introduction](#introduction)
+2. [Keptn Videos](#keptn-videos)
+3. [Keptn Images](#keptn-images)
+4. [Keptn Slides](#keptn-slides)
 
 ## Introduction
+
 - [Keptn](https://www.keptn.sh) **Keptn not only orchestrates Continuous Deployment, but it also orchestrates Continuous or Automated Operations.**
 - Keptn provides **automated SLI/SLO-based quality gates** Introduction to Data Driven DevOps Automation. Keptn is a CNCF sandbox project and aims to automate delivery and operational processes using a data-driven approach. Keptn’s architecture solves a key problem with traditional automation tools where process and tool integrations are often hard coded or hard to maintain. Keptn uses an event-driven orchestrator with declarative process and tooling definitions that eliminate the need for any custom tool integration and make changing processes or tools a matter of changing a config file entry! At the core Keptn integrates with your observability platforms to automate SRE best practices such as SLO validation as part of your DevOps delivery and operations automation. Start automating your DevOps processes with Keptn to cover SLO-based Quality Gates, Performance & Chaos Test Automation, Event Driven Delivery as well as SRE-driven Auto-Remediation.
 - [Quick Start](https://keptn.sh/docs/quickstart/)
 - [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh/)
-	- [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
+    - [tutorials.keptn.sh: Azure DevOps Pipelines with Keptn Quality Gates](https://tutorials.keptn.sh/tutorials/keptn-azure-devops/index.html)
 - [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blogwhat-is-keptn-how-it-works-and-how-to-get-started/) 
 - [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)
 - [altoros.com: Automating Event-Based Continuous Delivery on Kubernetes with keptn](https://www.altoros.com/blogautomating-event-based-continuous-delivery-on-kubernetes-with-keptn/)
@@ -25,6 +26,7 @@
 - [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) Codelab explaining the benefits of automating SLO-based quality gates with keptnProject.
 
 ## Keptn Videos
+
 ??? note "Click to expand!"
 
 	<center>
@@ -34,6 +36,7 @@
 	</center>
 
 ## Keptn Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -43,6 +46,7 @@
 	</center>
 
 ## Keptn Slides
+
 ??? note "Click to expand!"
 
 	<center>

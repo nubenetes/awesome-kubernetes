@@ -1,16 +1,20 @@
 # Remote Tech Jobs
-- [Introduction](#introduction)
-- [Remote Jobs](#remote-jobs)
-- [Kubernetes](#kubernetes)
-- [Spain](#spain)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Remote Jobs](#remote-jobs)
+3. [Kubernetes](#kubernetes)
+4. [Spain](#spain)
+5. [Tweets](#tweets)
+
 ## Introduction
+
 - [theatlantic.com: Why Managers Fear a Remote-Work Future](https://www.theatlantic.com/ideas/archive/2021/07/work-from-home-benefits/619597/) Like it or not, the way we work has already evolved.
 - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary/) As remote seeps into our lives and jobs become borderless, a new problem arises: receiving your salary from a remote company abroad.
 - [ireviews.com: The Top 60 Remote Work Websites for New Opportunities in 2022](https://www.ireviews.com/the-top-60-remote-work-websites-for-new-opportunities-in-2022/)
 - [starkephillip.com: The effects of remote work on company culture](https://starkephillip.com/the-effects-of-remote-work-on-company-culture/)
 
 ## Remote Jobs
+
 - http://weworkremotely.com
 - http://remoteok.io/remote-dev-jobs
 - http://remote.co/remote-jobs/developer
@@ -26,15 +30,19 @@
 - https://www.aog.jobs Remote IT Contractors In Time
 - https://landing.jobs
 
-## Kubernetes 
+## Kubernetes
+
 - [kube.careers](https://kube.careers/) Hand-picked Kubernetes jobs
+
 ## Spain
+
 - [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/) 
 - [sincrogo.com: Teletrabajo desde España para el extranjero: ¿dónde hay que tributar?](https://sincrogo.com/blog/actualidad-fiscal-contable/teletrabajo-desde-espana-para-el-extranjero-donde-hay-que-tributar/)
 - https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 - https://bcneng.net
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

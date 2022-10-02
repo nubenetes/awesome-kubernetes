@@ -1,10 +1,12 @@
-# DevOps Tools aka Toolchain 
-- [Introduction](#introduction)
-- [Keptn](#keptn)
-- [Relay](#relay)
-- [Devtron. Tool integration platform for kubernetes](#devtron-tool-integration-platform-for-kubernetes)
+# DevOps Tools aka Toolchain
+
+1. [Introduction](#introduction)
+2. [Keptn](#keptn)
+3. [Relay](#relay)
+4. [Devtron. Tool integration platform for kubernetes](#devtron-tool-integration-platform-for-kubernetes)
 
 ## Introduction
+
 - These tools help you manage servers and deploy happier and more often with more confidence.
 - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
 - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
@@ -36,14 +38,17 @@
 - [medium.com/leapp-cloud: Top 10 uncommon DevOps tools you should know](https://medium.com/leapp-cloud/top-10-uncommon-devops-tools-you-should-know-91dadde9777e)
 
 ## Keptn
+
 - [Keptn](keptn.md)
 
 ## Relay
+
 - [Relay](https://relay.sh/) Event-driven automation that connects the cloud providers, DevOps tools, and other APIs you already use.
 - Automation tools can learn a lot from the CI/CD and Serverless ecosystems. Relay by **PuppetLabs** leverages **Tekton** and **Knative** in an attempt to do just that.
 - [zdnet.com: Puppet introduces beta of cloud-native, event-driven DevOps program: Relay](https://www.zdnet.com/article/puppet-introduces-beta-of-cloud-native-event-driven-devops-program-relay/#ftag=RSSbaffb68) The open-source wants to expand DevOps to cover cloud and containers with its newest program.
 
 ## Devtron. Tool integration platform for kubernetes
+
 - [Devtron](https://github.com/devtron-labs/devtron) is an Open Source End-to-End Software Delivery workflow for Kubernetes.
 - It leverages popular DevOps tools to provide a No-Code, ***Unified Heroku-like*** Experience for Kubernetes.
 - Integrations happen with existing Open-source systems like argocd, Argo workflow, Clair, hibernator, grafana, Prometheus, envoy, and many others and add capabilities on top of them to enable self serve for developers and DevOps.

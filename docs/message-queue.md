@@ -1,54 +1,56 @@
 # Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline). Open Data Hub
-- [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
-- [RPC vs Messaging](#rpc-vs-messaging)
-- [Message Brokers](#message-brokers)
-	- [ActiveMQ message broker](#activemq-message-broker)
-	- [RabbitMQ message broker](#rabbitmq-message-broker)
-	- [Redis message broker](#redis-message-broker)
-	- [Apache Camel message broker](#apache-camel-message-broker)
-		- [Apache Camel K](#apache-camel-k)
-	- [KubeMQ message broker](#kubemq-message-broker)
-	- [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
-	- [JMS Message Queue vs. Apache Kafka](#jms-message-queue-vs-apache-kafka)
-- [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
-	- [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
-	- [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
-- [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
-- [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
-- [Data Mesh](#data-mesh)
-- [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
-	- [Apache Kafka](#apache-kafka)
-		- [Kafka Tools](#kafka-tools)
-		- [Strimzi kubernetes operator for apache kafka](#strimzi-kubernetes-operator-for-apache-kafka)
-		- [Apache Kafka Desktop Clients](#apache-kafka-desktop-clients)
-	- [AWS Kinesis](#aws-kinesis)
-	- [MQTT](#mqtt)
-	- [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
-	- [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
-	- [Redpanda (kafka alternative). A modern streaming platform for mission critical workloads](#redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads)
-		- [KsqlDB](#ksqldb)
-	- [Apache Pulsar](#apache-pulsar)
-	- [Apache Flink](#apache-flink)
-	- [Hazelcast JET](#hazelcast-jet)
-- [Workflow Engines](#workflow-engines)
-- [Zeebe](#zeebe)
-	- [Apache Airflow](#apache-airflow)
-	- [Couler](#couler)
-- [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
-	- [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
-	- [Red Hat AMQ Streams](#red-hat-amq-streams)
-	- [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
-- [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
-- [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
-- [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
-	- [IpaaS Vendors](#ipaas-vendors)
-- [eBooks](#ebooks)
-- [Related](#related)
-- [Questions and Answers](#questions-and-answers)
-- [Videos](#videos)
-- [Tweets](#tweets)
+
+1. [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
+2. [RPC vs Messaging](#rpc-vs-messaging)
+3. [Message Brokers](#message-brokers)
+    1. [ActiveMQ message broker](#activemq-message-broker)
+    2. [RabbitMQ message broker](#rabbitmq-message-broker)
+    3. [Redis message broker](#redis-message-broker)
+    4. [Apache Camel message broker](#apache-camel-message-broker)
+        1. [Apache Camel K](#apache-camel-k)
+    5. [KubeMQ message broker](#kubemq-message-broker)
+    6. [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
+    7. [JMS Message Queue vs. Apache Kafka](#jms-message-queue-vs-apache-kafka)
+4. [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
+    1. [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
+    2. [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
+5. [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
+6. [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
+7. [Data Mesh](#data-mesh)
+8. [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
+    1. [Apache Kafka](#apache-kafka)
+        1. [Kafka Tools](#kafka-tools)
+        2. [Strimzi kubernetes operator for apache kafka](#strimzi-kubernetes-operator-for-apache-kafka)
+        3. [Apache Kafka Desktop Clients](#apache-kafka-desktop-clients)
+    2. [AWS Kinesis](#aws-kinesis)
+    3. [MQTT](#mqtt)
+    4. [Banzai Cloud Supertubes (Cloud Native Kafka implementation)](#banzai-cloud-supertubes-cloud-native-kafka-implementation)
+    5. [Confluent Cloud (Apache Kafka Re-engineered for the Cloud)](#confluent-cloud-apache-kafka-re-engineered-for-the-cloud)
+    6. [Redpanda (kafka alternative). A modern streaming platform for mission critical workloads](#redpanda-kafka-alternative-a-modern-streaming-platform-for-mission-critical-workloads)
+        1. [KsqlDB](#ksqldb)
+    7. [Apache Pulsar](#apache-pulsar)
+    8. [Apache Flink](#apache-flink)
+    9. [Hazelcast JET](#hazelcast-jet)
+9. [Workflow Engines](#workflow-engines)
+10. [Zeebe](#zeebe)
+    1. [Apache Airflow](#apache-airflow)
+    2. [Couler](#couler)
+11. [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
+    1. [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
+    2. [Red Hat AMQ Streams](#red-hat-amq-streams)
+    3. [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
+12. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
+13. [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
+14. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
+    1. [IpaaS Vendors](#ipaas-vendors)
+15. [eBooks](#ebooks)
+16. [Related](#related)
+17. [Questions and Answers](#questions-and-answers)
+18. [Videos](#videos)
+19. [Tweets](#tweets)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
+
 - [Wikipedia: Message Broker](https://en.wikipedia.org/wiki/Message_broker)
 - [Wikipedia: Event-driven messaging](https://en.wikipedia.org/wiki/Event-driven_messaging)
 - [Wikipedia: Streaming Data](https://en.wikipedia.org/wiki/Streaming_data)
@@ -75,7 +77,7 @@
 - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.
 - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture) Hybrid architecture with both RESTful and event-driven services.
 - [developers.redhat.com: Distributed transaction patterns for microservices compared](https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared)
-- [thenewstack.io: The Rise of Event-Driven Architecture ](https://thenewstack.io/the-rise-of-event-driven-architecture/)
+- [thenewstack.io: The Rise of Event-Driven Architecture](https://thenewstack.io/the-rise-of-event-driven-architecture/)
 - [jinwookim928.medium.com: Why Not Event Driven Architecture?](https://jinwookim928.medium.com/intro-to-event-driven-architecture-79914e5969d7)
 - [thenewstack.io: Streaming Data and the Modern Real-Time Data Stack](https://thenewstack.io/streaming-data-and-the-modern-real-time-data-stack/)
 
@@ -106,9 +108,11 @@
 - [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch/) **An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns**
 
 ## RPC vs Messaging
+
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 
 ## Message Brokers
+
 - [Apache ActiveMQ](https://activemq.apache.org/)
 - [Dzone: Introduction to Message Brokers. Part 1: Apache Kafka vs. RabbitMQ](https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk)
 - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
@@ -116,12 +120,14 @@
 - [medium.com/@codeeverywhere: Redis vs Kafka vs RabbitMQ](https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb)
 
 ### ActiveMQ message broker
+
 - [ActiveMQ 5.x "classic"](https://activemq.apache.org/components/classic/)
 - [ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) Apache ActiveMQ is a subproject of Apache ActiveMQ. It has been donated to the Apache Software Foundation in 2015. There were lots of changes in project names in the past. The Artemis project first started as JBoss Messaging and got renamed to HornetQ in August 2009.
 - [Apache Artemis JMeter](https://github.com/apache/activemq-artemis/tree/master/examples/perf/jmeter) Running the ActiveMQ Artemis JMeter Performance Testing Examples.
 - [developers.redhat.com: Implementing Apache ActiveMQ-style broker meshes with Apache Artemis](https://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis)
 
 ### RabbitMQ message broker
+
 - [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) How to prevent a Kubernetes (like RabbitMQ) queue worker Pod from being killed during deployment while handling a message?
 - [medium.com: **RabbitMQ vs. Kafka**](https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793) An architect’s dilemma
 - [blog.rabbitmq.com: First Application With RabbitMQ Streams](https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-first-application/)
@@ -129,17 +135,20 @@
 - [salaboy.com: Event-Driven applications with CloudEvents on Kubernetes](https://salaboy.com/2022/01/29/event-driven-applications-with-cloudevents-on-kubernetes/)
 
 ### Redis message broker
+
 - [Redis](https://redis.io/)
 - [Redis Pub/sub](https://redis.io/topics/pubsub)
 - [betterprogramming.pub: The Perfect Message Queue Solution Based on the Redis Stream Type](https://betterprogramming.pub/the-perfect-message-queue-solution-based-on-the-redis-stream-type-ccf273554178)
 
 ### Apache Camel message broker
+
 - [Apache Camel](https://camel.apache.org/) Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data. In version 3 we use <5MB memory, including the JVM. Also reflection free, low GC, super modular, native compilation friendly.
 - [Quora.com: What's the difference between Apache Camel and Kafka?](https://www.quora.com/Whats-the-difference-between-Apache-Camel-and-Kafka)
 - [dzone: Hybrid multi-cloud event mesh architectural design](https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with) Building the event mesh with Camel
 - [developers.redhat.com: Integrating systems with Apache Camel and Quarkus on Red Hat OpenShift](https://developers.redhat.com/articles/2021/05/17/integrating-systems-apache-camel-and-quarkus-red-hat-openshift)
 
 #### Apache Camel K
+
 - [Apache Camel K](https://camel.apache.org/camel-k/latest/) is a lightweight cloud-integration platform that runs natively on Kubernetes. Based on the famous Apache Camel, Camel K is designed and optimized for serverless and microservices architectures.
 - [developers.redhat.com: Six reasons to love Camel K](https://developers.redhat.com/blog/2020/05/12/six-reasons-to-love-camel-k/)
 - [developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors](https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors/)
@@ -147,6 +156,7 @@
 - [thenewstack.io: Camel K Brings Apache Camel to Kubernetes for Event-Driven Architectures](https://thenewstack.io/camel-k-brings-apache-camel-to-kubernetes-for-event-driven-architectures/)
 
 ### KubeMQ message broker
+
 - [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io/)
 - [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes/)
 - [kubemq.io: Kafka VS KubeMQ 🌟](https://kubemq.io/kafka-vs-kubemq/)
@@ -154,13 +164,16 @@
 - [dzone: KubeMQ: A Modern Alternative to Kafka](https://dzone.com/articles/seamless-migration-from-kafka-to-kubemq) This article introduces a modern, Kubernetes-native message queue called KubeMQ, to show how organizations trying to implement Kafka on Kubernetes can benefit from it.
 
 ### Google Cloud Platform Pub/Sub
+
 - [Google Cloud Platform Pub/Sub](https://cloud.google.com/pubsub/docs/overview)
 - [A generic framework of concurrent consumers for Google Cloud Platform Pub/Sub 🌟](https://towardsdatascience.com/a-python-implementation-of-concurrent-consumers-for-google-cloud-platform-pub-sub-991ae8b9841d) An example shows how to publish messages to Pub/Sub and build a service to consume the messages concurrently using the Python multiprocessing module
 
 ### JMS Message Queue vs. Apache Kafka
+
 - [==kai-waehner.de: Comparison: JMS Message Queue vs. Apache Kafka==](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)
 
-## Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions 
+## Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions
+
 - [Wikipedia: Cloud Based Integration (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)
 - Integration Platform as a Service (iPaaS) is a suite of cloud services enabling development, execution and governance of integration flows connecting any combination of on premises and cloud-based processes, services, applications and data within individual or across multiple organizations.
 - Integration platform as a service (iPaaS) is a set of automated tools for connecting software applications that are deployed in different environments. iPaaS is often used by large business-to-business (B2B) enterprises that need to integrate on-premises applications and data with cloud applications and data.
@@ -168,14 +181,17 @@
 - [ibm.com: iPaaS (Integration-Platform-as-a-Service)](https://www.ibm.com/cloud/learn/ipaas): iPaaS is a cloud-based solution that simplifies application integration across on-premises and cloud environments, to help you accelerate innovation and lower your integration and operations costs.
 
 ### Red Hat Fuse and Red Hat Fuse Online
+
 - [**Red Hat Fuse**](https://www.redhat.com/en/technologies/jboss-middleware/fuse)
 - [**Red Hat Fuse Online**](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
-    
+
 ### Syndesis open source integration platform 
+
 - [**Syndesis** open source integration platform](https://syndesis.io/) (OpenSource Project for **Red Hat Fuse Online**)
 - [developers.redhat.com: Low-code microservices orchestration with Syndesis](https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/)
 
 ## Debezium open source distributed platform for Change Data Capture (CDC) software design pattern
+
 - **Change Data Capture**, or **CDC**, is a well-established **software design pattern** for a system that monitors and captures the changes in data so that other software can respond to those changes. CDC captures row-level changes to database tables and passes corresponding change events to a data streaming bus. Applications can read these change event streams and access these change events in the order in which they occurred.
 - [**Debezium**:](https://debezium.io/) Stream changes from your database
 - [developers.redhat.com: Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/)
@@ -199,12 +215,14 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [conduktor.io: Capturing MySQL database changes using Debezium, Kafka, and Conduktor](https://www.conduktor.io/capturing-mysql-database-changes-using-debezium-kafka-and-conduktor) Using Kafka Connect in Conduktor and specifically how to use Debezium to monitor the changes in a MySQL database.
 
 ## Red Hat Integration service registry and Apicurio
+
 - [Red Hat Integration service registry](https://developers.redhat.com/blog/2019/12/16/getting-started-with-red-hat-integration-service-registry/)
 - [**Apicurio** Registry](https://github.com/apicurio/apicurio-registry) An API/Schema registry - stores APIs and Schemas.
 - [Event streaming and data federation: A citizen integrator’s story](https://developers.redhat.com/blog/2020/06/12/event-streaming-and-data-federation-a-citizen-integrators-story/)
 - [redhat.com: Using a schema registry to ensure data consistency between microservices](https://www.redhat.com/architect/schema-registry) Make interservice communication easier by using a schema registry.
 
 ## Data Mesh
+
 - [martinfowler.com: Data Mesh Principles and Logical Architecture](https://martinfowler.com/articles/data-mesh-principles.html)
 - [infoq.com: Data Mesh Principles and Logical Architecture Defined](https://www.infoq.com/news/2020/12/data-mesh-architecture/)
 - [martinfowler.com: How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html)
@@ -212,6 +230,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [mrpaulandrew.com: BUILDING A DATA MESH ARCHITECTURE IN AZURE – PART 2](https://mrpaulandrew.com/2021/12/22/building-a-data-mesh-architecture-in-azure-part-2/)
 
 ## Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)
+
 - [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) A curated list of awesome [streaming (stream processing)](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/) frameworks, applications, readings and other resources.
 - [cloudblog.withgoogle.com: Turn any Dataflow pipeline into a reusable template](https://cloudblog.withgoogle.com/products/data-analytics/create-templates-from-any-dataflow-pipeline/amp/)
 - [thenewstack.io: Part 1: The Evolution of Data Pipeline Architecture](https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture/)
@@ -220,6 +239,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [openshift.com: How to Orchestrate Data Pipelines with Applications Deployed on OpenShift](https://www.openshift.com/blog/how-to-orchestrate-data-pipelines-with-applications-deployed-on-openshift)
 
 ### Apache Kafka
+
 - [Apache Kafka](https://kafka.apache.org/)
 - [developers.redhat.com: Using secrets in Kafka Connect configuration](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 - [developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors](https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/)
@@ -258,7 +278,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [kai-waehner.de: Apache Kafka and MQTT (Part 1 of 5) – Overview and Comparison](https://www.kai-waehner.de/blog/2021/03/15/apache-kafka-mqtt-sparkplug-iot-blog-series-part-1-of-5-overview-comparison/)
 - [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
 - [kafka-tutorials.confluent.io 🌟](https://kafka-tutorials.confluent.io/)
-	- [kafka-tutorials.confluent.io: How to join a stream and a lookup table 🌟](https://kafka-tutorials.confluent.io/join-a-stream-to-a-table/kstreams.html) If I have events in a Kafka topic and a table of reference data (aka a lookup table), how can I join each event in the stream to a piece of data in the table based on a common key?
+    - [kafka-tutorials.confluent.io: How to join a stream and a lookup table 🌟](https://kafka-tutorials.confluent.io/join-a-stream-to-a-table/kstreams.html) If I have events in a Kafka topic and a table of reference data (aka a lookup table), how can I join each event in the stream to a piece of data in the table based on a common key?
 - [confluent.io: DevOps for Apache Kafka with Kubernetes and GitOps 🌟](https://www.confluent.io/blog/devops-for-apache-kafka-with-kubernetes-and-gitops)
 - [dzone.com: Microservices, Event-Driven Architecture and Kafka 🌟](https://dzone.com/articles/microservices-event-driven-architecture-and-kafka) 
 - [medium: Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8) Everything in Kafka is modeled around partitions. They rule Kafka’s storage, scalability, replication, and message movement.
@@ -326,6 +346,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5) In this article, you will learn how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.
 
 #### Kafka Tools
+
 - [Kafdrop – Kafka Web UI 🌟](https://github.com/obsidiandynamics/kafdrop)
 - [redpanda-data/kowl](https://github.com/redpanda-data/kowl) Kowl is a Web UI for Apache Kafka that allows exploring messages, consumers, configurations and more with a focus on a good UI & UX.
 - [KLoadGen - Kafka + (Avro/Json Schema) Load Generator 🌟](https://github.com/corunet/kloadgen) KLoadGen is kafka load generator plugin for jmeter designed to work with AVRO and JSON schema. It allows sending kafka messages with a structure defined as an AVRO Schema or a Json Schema. It connects to the Scheme Registry Server, retrieve the subject to send and generate a random message every time.
@@ -335,6 +356,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
 
 #### Strimzi kubernetes operator for apache kafka
+
 - [strimzi.io](https://strimzi.io/)
 - [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 - [developers.redhat.com: Introduction to Strimzi: Apache Kafka on Kubernetes (KubeCon Europe 2020) 🌟](https://developers.redhat.com/blog/2020/08/14/introduction-to-strimzi-apache-kafka-on-kubernetes-kubecon-europe-2020/)
@@ -355,23 +377,28 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 </center>
 
 #### Apache Kafka Desktop Clients
+
 - [conduktor.io 🌟](https://www.conduktor.io/) Apache Kafka Desktop Client. We created Conduktor, the all-in-one friendly interface to work with the Kafka ecosystem. Develop and manage Apache Kafka with confidence.
 
 ### AWS Kinesis
+
 - [AWS Kinesis](https://docs.aws.amazon.com/kinesis/index.html)
 - [softkraft.co: WS Kinesis vs Kafka comparison: Which is right for you? 🌟](https://www.softkraft.co/aws-kinesis-vs-kafka-comparison/)
 
 ### MQTT
+
 - [mqtt.org](https://mqtt.org/) MQTT: The Standard for IoT Messaging
 - [developers.redhat.com: Deploying the Mosquitto MQTT message broker on Red Hat OpenShift, Part 1](https://developers.redhat.com/blog/2021/04/16/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-1/)
-	- [developers.redhat.com: Deploying the Mosquitto MQTT message broker on Red Hat OpenShift, Part 2](https://developers.redhat.com/blog/2021/04/26/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-2)
+    - [developers.redhat.com: Deploying the Mosquitto MQTT message broker on Red Hat OpenShift, Part 2](https://developers.redhat.com/blog/2021/04/26/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-2)
 
 ### Banzai Cloud Supertubes (Cloud Native Kafka implementation)
+
 - [Banzai Cloud](https://banzaicloud.com/)
 - [Banzai Kafka Operator](https://github.com/banzaicloud/kafka-operator)
 - [The benefits of integrating Apache Kafka with Istio](https://banzaicloud.com/blog/kafka-on-istio-benefits/)
 
 ### Confluent Cloud (Apache Kafka Re-engineered for the Cloud)
+
 - [confluent.io](https://www.confluent.io/) The Complete Event Streaming Platform for Apache Kafka. 
 - Focus on building apps and not managing clusters with a scalable, resilient and secure event streaming platform. Event streaming with Kafka made simple on AWS, Azure and GCP clouds.
 - [mongodb.com: DaaS with MongoDB and Confluent](https://www.mongodb.com/blog/post/daa-s-with-mongo-db-and-confluent)
@@ -379,6 +406,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [confluent.io: Monitoring Your Event Streams: Integrating Confluent with Prometheus and Grafana](https://www.confluent.io/blog/monitor-kafka-clusters-with-prometheus-grafana-and-confluent)
 
 ### Redpanda (kafka alternative). A modern streaming platform for mission critical workloads
+
 - [Redpanda 🌟](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
 - [hub.docker.com/r/vectorized/redpanda](https://hub.docker.com/r/vectorized/redpanda) Easy Docker experience to use VectorizedIO Redpanda in a container. Streaming platform for mission critical workloads, Kafka compatible, no Zookeeper, no JVM, no code changes required - 10x faster.
 - [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/) 
@@ -386,31 +414,38 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 
 #### KsqlDB
+
 - [ksqlDB](https://ksqldb.io/) The event streaming database purpose-built for stream processing applications.
 - [Kafka Streams and ksqlDB Compared – How to Choose](https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/)
 
 ### Apache Pulsar
+
 - [Apache Pulsar](https://pulsar.apache.org/) is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation
 - [Pulsar vs Kafka – Comparison and Myths Explored](https://www.kai-waehner.de/blog/2020/06/09/apache-kafka-versus-apache-pulsar-event-streaming-comparison-features-myths-explored/)
 
 ### Apache Flink
+
 - [Apache Flink](https://flink.apache.org/) Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
 - [How to set up Apache Flink on Kubernetes for real time data processing](https://ci.apache.org/projects/flink/flink-docs-stable/ops/deployment/kubernetes.html)
 - [flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)](https://flink.apache.org/2021/02/10/native-k8s-with-ha.html)
 
 ### Hazelcast JET
+
 - [Hazelcast JET](https://jet-start.sh/) Open-Source Distributed Stream Processing
 - [devops.com: Hazelcast Simplifies Streaming for Extremely Fast Event Processing in IoT, Edge and Cloud Environments](https://devops.com/hazelcast-simplifies-streaming-for-extremely-fast-event-processing-in-iot-edge-and-cloud-environments/)
 
 ## Workflow Engines
+
 - [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)
 
 ## Zeebe
+
 - [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows)
 - [Zeebe workflow engine](https://zeebe.io/)
 - [Orchestration Made Easy with Zeebe and Kafka](https://www.softobiz.com/orchestration-made-easy-with-zeebe-and-kafka/)
 
 ### Apache Airflow
+
 - [towardsdatascience.com: A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
 - [dzone: Apache Airflow Architecture on OpenShift](https://dzone.com/articles/apache-airflow-architecture-on-openshift)
 - [redhat.com: Monitoring Apache Airflow using Prometheus](https://www.redhat.com/en/blog/monitoring-apache-airflow-using-prometheus)
@@ -423,18 +458,22 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [towardsdatascience.com: Apache Airflow Architecture 🌟](https://towardsdatascience.com/apache-airflow-architecture-496b9cb28288) A deep dive into Apache Airflow architecture and how it orchestrates workflows
 
 ### Couler
+
 - [Couler](https://github.com/couler-proj/couler) Couler aims to provide a unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.
 
 ## Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)
+
 - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)
 - [Red Hat AMQ](https://www.redhat.com/en/technologies/jboss-middleware/amq) = AMQ Broker (Apache ActiveMQ Artemis) + AMQ Streams (Apache Kafka)
 
 ### Red Hat AMQ Broker (ActiveMQ Artemis)
+
 - [Apache ActiveMQ Artemis broker](https://activemq.apache.org/components/artemis/)
 - [developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database](https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database)
 - [developers.redhat.com: Connecting external clients to Red Hat AMQ Broker on Red Hat OpenShift](https://developers.redhat.com/blog/2020/08/26/connecting-external-clients-to-red-hat-amq-broker-on-red-hat-openshift)
 
 ### Red Hat AMQ Streams
+
 - [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1/)
 - [Red Hat **AMQ streams** (kafka): Simplify Apache Kafka on Red Hat OpenShift](https://www.redhat.com/en/resources/amq-streams-datasheet)
 - [Set up **Red Hat AMQ Streams** custom certificates on OpenShift](https://developers.redhat.com/blog/2020/04/01/set-up-red-hat-amq-streams-custom-certificates-on-openshift-update/)
@@ -457,7 +496,8 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 </center>
 
-### Slides of Red Hat AMQ Streams 
+### Slides of Red Hat AMQ Streams
+
 ??? note "Click to expand!"
 
 	<center>
@@ -465,11 +505,13 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 	</center>
 
 ## Open Data Hub AI-as-a-Service (AIaaS) platform
+
 - [Open Data Hub](https://opendatahub.io/)
 - [Open Data Hub 0.6 brings component updates and Kubeflow architecture](https://developers.redhat.com/blog/2020/05/07/open-data-hub-0-6-brings-component-updates-and-kubeflow-architecture/)
 - [A development roadmap for Open Data Hub](https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub/)
 
 ## KEDA. Kubernetes Event Driven Autoscaling
+
 - [KEDA](https://keda.sh/) Kubernetes Event-driven Autoscaling. Application autoscaling made simple. https://github.com/kedacore/keda 
 - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
@@ -479,24 +521,30 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [levelup.gitconnected.com: Scale your Apps using KEDA in Kubernetes](https://levelup.gitconnected.com/scale-your-apps-using-keda-in-kubernetes-a1f2142ecc20)
 
 ## Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data
+
 - [quandarycg.com: Everything You Need To Know About System Integration (And IPaaS) 🌟](https://quandarycg.com/everything-you-need-to-know-about-integrations/)
 - [blog.hubspot.com: The 22 Best iPaaS Vendors for Any Budget](https://blog.hubspot.com/marketing/ipaas-vendors)
 
 ### IpaaS Vendors
+
 - [rudderstack.com iPaaS](https://rudderstack.com/) - [opensource.com: Stream event data with rudderstack](https://opensource.com/article/21/4/event-streaming-rudderstack)
 - [Mulesoft](https://www.mulesoft.com/)
 - etc
 
 ## eBooks
+
 - [O'Really: Streaming data](http://streamingsystems.net/)
 
 ## Related
+
 - [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟](https://learnk8s.io/kubernetes-long-lived-connections) Kubernetes doesn't load balance long-lived connections, some Pods might receive more requests than others, In case you are using HTTP/2, gRPC, RSockets, AMQP. Any work around?
 
 ## Questions and Answers
+
 - [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) "Kafka vs. JAX-RS / RPC, thoughts about APIs, JSON-B vs. GSON, Path.of over Paths.get, Java Records, MicroProfile JWT, beginners vs. expert content, best Java fullstack, code coverage, NetBeans in 2020, Visual Studio Setup for Java, screencast configuration, ReactJS / Angular over JSF?, JSON-P vs. JSON-B, security code scanning"
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -506,6 +554,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 </details>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

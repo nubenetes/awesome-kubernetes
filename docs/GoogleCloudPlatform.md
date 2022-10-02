@@ -1,43 +1,46 @@
 # Google Cloud Platform
-- [Introduction](#introduction)
-- [Google Cloud](#google-cloud)
-- [Dev Library](#dev-library)
-- [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
-- [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
-- [Google Cloud AppSheet](#google-cloud-appsheet)
-- [Cloud Spanner](#cloud-spanner)
-- [Serverless](#serverless)
-- [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
-- [Python](#python)
-- [Cloud Code](#cloud-code)
-- [Google Cloud Buildpacks](#google-cloud-buildpacks)
-- [Google Cloud Deploy](#google-cloud-deploy)
-- [Cloud SQL](#cloud-sql)
-- [Apigee](#apigee)
-- [Tools](#tools)
-  - [gcloud](#gcloud)
-- [Videos](#videos)
-- [Images](#images)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Google Cloud](#google-cloud)
+3. [Dev Library](#dev-library)
+4. [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
+5. [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
+6. [Google Cloud AppSheet](#google-cloud-appsheet)
+7. [Cloud Spanner](#cloud-spanner)
+8. [Serverless](#serverless)
+9. [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
+10. [Python](#python)
+11. [Cloud Code](#cloud-code)
+12. [Google Cloud Buildpacks](#google-cloud-buildpacks)
+13. [Google Cloud Deploy](#google-cloud-deploy)
+14. [Cloud SQL](#cloud-sql)
+15. [Apigee](#apigee)
+16. [Tools](#tools)
+    1. [gcloud](#gcloud)
+17. [Videos](#videos)
+18. [Images](#images)
+19. [Tweets](#tweets)
 
 ## Introduction
-* [cloud.google.com](https://cloud.google.com)
-* [==console.cloud.google.com/products==](https://console.cloud.google.com/products)
-* [==googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet==](https://googlecloudcheatsheet.withgoogle.com)
-* [cloud.google.com: DevOps](https://cloud.google.com/devops)
-* [Cloud Developer Tools](https://cloud.google.com/products/tools)
-* [Google Cloud Code](https://cloud.google.com/code)
-* [Google Cloud Build](https://cloud.google.com/cloud-build)
-* [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
-* [Platform comparisons](https://cloud.google.com/docs/compare)
-    * [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
-    * [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
-* [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
-* [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
-  * [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
-* [==cloud.google.com: Microservices architecture on Google Cloud==](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)
+
+- [cloud.google.com](https://cloud.google.com)
+- [==console.cloud.google.com/products==](https://console.cloud.google.com/products)
+- [==googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet==](https://googlecloudcheatsheet.withgoogle.com)
+- [cloud.google.com: DevOps](https://cloud.google.com/devops)
+- [Cloud Developer Tools](https://cloud.google.com/products/tools)
+- [Google Cloud Code](https://cloud.google.com/code)
+- [Google Cloud Build](https://cloud.google.com/cloud-build)
+- [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
+- [Platform comparisons](https://cloud.google.com/docs/compare)
+    - [AWS and GCP comparison](https://cloud.google.com/docs/compare/aws)
+    - [Mapping of AWS services to Google Cloud](https://gregsramblings.com/blog/compare-google-cloud-to-aws/)
+- [whizlabs.com: Introduction To Google Cloud Platform](https://www.whizlabs.com/blog/google-cloud-platform/)
+- [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
+    - [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
+- [==cloud.google.com: Microservices architecture on Google Cloud==](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)
 
 ## Google Cloud
+
 - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)
 - [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code) Google Cloud wants to make building secure applications simpler
 - [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)
@@ -73,29 +76,36 @@
 - [==cloud.google.com: Service Directory cheat sheet==](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet) Fact: Most enterprises have a large number of heterogeneous services deployed across different clouds and on-premises environments. Fact: It is complex to look up, publish, and connect these services. Fact: Service Directory can help. 
 
 ## Dev Library
+
 - [devlibrary.withgoogle.com 🌟](https://devlibrary.withgoogle.com/) New open source content library from Google, a showcase of what developers like you have built with Google technologies.
 
 ## GCP Samples (Boilerplates)
+
 - [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
 - [github.com/GoogleCloudPlatform/cloud-code-samples 🌟](https://github.com/GoogleCloudPlatform/cloud-code-samples)
 - [kelseyhightower/cmd-tutorial](https://github.com/kelseyhightower/cmd-tutorial) This tutorial will walk you through provisioning some VMs on GCP so you can kick the tires on Cmd -- Track and Control Users in Production.
 
 ## Managing Cluster Level Configuration
+
 - [Config Sync Overview](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) One of the most challenging day two concerns for Kubernetes users is managing cluster level configuration, think namespaces, CRDs, and RBAC rules, across multiple clusters. For GKE customers Config Sync is a game changer.
 
 ## Google Cloud AppSheet
+
 - [Google Cloud AppSheet](https://cloud.google.com/appsheet) 
 - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/3640975/google-cloud-appsheet-review-no-code-with-extras.html) Google’s easy no-code app builder lets you add functionality with spreadsheet formulas and expressions, and even apply machine learning models.
 
 ## Cloud Spanner
+
 - https://cloud.google.com/spanner
 - https://github.com/cloudspannerecosystem/autoscaler
 - [engineering.mercari.com: Kubernetes based autoscaler for Cloud Spanner](https://engineering.mercari.com/en/blog/entry/20211222-kubernetes-based-spanner-autoscaler/)
 
 ## Serverless
+
 - [Cloud Functions, meet VPC functionality](https://cloud.google.com/blog/products/serverless/learn-how-to-use-advanced-vpc-functionality-with-your-cloud-functions)
 
 ## Anthos. Google's Hybrid And Multi-Cloud Platform
+
 - [Anthos 🌟](https://cloud.google.com/anthos/)
 - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform/)
 - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
@@ -105,34 +115,43 @@
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
 
 ## Python
+
 - [anderfernandez.com: Cómo automatizar un script de Python en Google Cloud](https://anderfernandez.com/blog/automatizar-script-python-google-cloud/)
 
 ## Cloud Code
+
 - [Cloud Code 🌟](https://cloud.google.com/code) Everything you need to write, debug, and deploy your cloud-native applications.
 
 ## Google Cloud Buildpacks
+
 - [Google Cloud Buildpacks](https://github.com/GoogleCloudPlatform/buildpacks)
 
 ## Google Cloud Deploy
+
 - [cloud.google.com: Introducing Google Cloud Deploy: Managed continuous delivery to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-automates-deploys-to-gke)
 - [cloud.google.com: Google Cloud Deploy, now GA, makes it easier to do continuous delivery to GKE](https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga)
 - [infoq.com: Google's Managed Continuous Delivery Service for Kubernetes Moves to GA](https://www.infoq.com/news/2022/02/google-cloud-deploy/)
 
 ## Cloud SQL
+
 - [Testing Cloud SQL failover: Where to begin](https://cloud.google.com/blog/topics/developers-practitioners/testing-cloud-sql-failover-where-begin)
 
 ## Apigee
+
 - [Announcing Apigee Integration: An API-first approach for connecting data and applications](https://cloud.google.com/blog/products/api-management/google-cloud-announces-apigee-integration)
 
 ## Tools
+
 - [db-auth-gateway](https://github.com/kloeckner-i/db-auth-gateway) An authentication proxy for Google Cloud managed databases
 
-### gcloud 
+### gcloud
+
 - [==cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI==](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) **Google Cloud CLI’s preview release of Declarative Export for Terraform. Declarative Export allows you to export the current state of your Google Cloud infrastructure into a descriptive file compatible with Terraform (HCL) or Google’s KRM declarative tooling.**
 - [==cloud.google.com: The gcloud tool cheat sheet==](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
 - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) Config Connector is a Kubernetes add-on that allows you to manage GCP resources, such as Cloud Spanner or Cloud Storage, through your Kubernetes cluster's API
 
 ## Videos
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -142,6 +161,7 @@
 </details>
 
 ## Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -150,6 +170,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -161,6 +182,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Creating a GCP service account for each running k8s deployment is ugly. Thankfully, good folks working on Workload Identity <a href="https://twitter.com/googlecloud?ref_src=twsrc%5Etfw">@googlecloud</a> have conjured up some dark magic that allows you to bind RBAC directly to Kubernetes service accounts!<br><br>Checkout a short demo 🧵 showing how…</p>&mdash; Nick Eberts (@nicholas_eberts) <a href="https://twitter.com/nicholas_eberts/status/1504860417201520643?ref_src=twsrc%5Etfw">March 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-
-
-

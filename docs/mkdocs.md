@@ -1,13 +1,15 @@
 # MkDocs, Mardkown & GitHub Pages
-- [Introduction](#introduction)
-- [Material for MkDocs](#material-for-mkdocs)
-- [Markdown and Markdown Cheat Sheet](#markdown-and-markdown-cheat-sheet)
-- [GitHub Pages](#github-pages)
-- [GitBook](#gitbook)
-- [Alternatives. Jekyll open source static site generator](#alternatives-jekyll-open-source-static-site-generator)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Material for MkDocs](#material-for-mkdocs)
+3. [Markdown and Markdown Cheat Sheet](#markdown-and-markdown-cheat-sheet)
+4. [GitHub Pages](#github-pages)
+5. [GitBook](#gitbook)
+6. [Alternatives. Jekyll open source static site generator](#alternatives-jekyll-open-source-static-site-generator)
+7. [Tweets](#tweets)
 
 ## Introduction
+
 - [MkDocs](https://www.mkdocs.org/)
 - [websites that use MkDocs](https://www.wappalyzer.com/technologies/documentation-tools/mkdocs):
     - [docs.traefik.io](https://docs.traefik.io/)
@@ -17,9 +19,11 @@
 - [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)
 
 ## Material for MkDocs
+
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 ## Markdown and Markdown Cheat Sheet
+
 - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 - [markdownguide.org](https://www.markdownguide.org/)
     - [Markdown Cheat Sheet 1](https://www.markdownguide.org/cheat-sheet/)
@@ -34,19 +38,23 @@
 - [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google/) Google has expanded support for Markdown in Google Docs, Slides, and Drawings, and if you don’t understand what that means, that’s ok. If you do, you probably have had one of two reactions: “Cool, but that’s not enough” or “I’ll never use that.” You might be right in either case, but you should give Markdown a chance. You might just have the perfect use for it. 
 
 ## GitHub Pages
+
 - [pages.github.com](https://pages.github.com/)
 - [opensource.com: How to create a documentation site with Docsify and GitHub Pages](https://opensource.com/article/20/7/docsify-github-pages)
 - [Access control for GitHub Pages](https://github.blog/changelog/2021-01-21-access-control-for-github-pages/)
 - [dev.to: How to View Build Logs for GitHub Pages](https://dev.to/github/visualize-github-pages-build-logs-1mc1)
 
 ## GitBook
+
 - [gitbook.com](https://www.gitbook.com/)
     - [Example](https://redhat-connect.gitbook.io/certified-operator-guide/)
 
 ## Alternatives. Jekyll open source static site generator
+
 - [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) Jekyll is an open source static site generator. You can write your content in Markdown, use HTML/CSS for structure and presentation, and Jekyll compiles it all into static HTML.
 
 ## Tweets
+
 ??? note "Click to expand!"
 
     <center>

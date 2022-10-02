@@ -1,19 +1,21 @@
 # AWS Security
-- [Introduction](#introduction)
-- [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
-- [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
-- [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
-- [AWS IAM](#aws-iam)
-    - [AWS IAM Anywhere](#aws-iam-anywhere)
-- [AWS Organizations](#aws-organizations)
-- [AWS Control Tower](#aws-control-tower)
-- [AWS Firewalls](#aws-firewalls)
-- [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
-- [AWS Secrets Manager](#aws-secrets-manager)
-- [AWS Vault](#aws-vault)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
+3. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
+4. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
+5. [AWS IAM](#aws-iam)
+    1. [AWS IAM Anywhere](#aws-iam-anywhere)
+6. [AWS Organizations](#aws-organizations)
+7. [AWS Control Tower](#aws-control-tower)
+8. [AWS Firewalls](#aws-firewalls)
+9. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+10. [AWS Secrets Manager](#aws-secrets-manager)
+11. [AWS Vault](#aws-vault)
+12. [Tweets](#tweets)
 
 ## Introduction
+
 - [AWS Security Blog](http://blogs.aws.amazon.com/security)
 - [AWS Security](https://aws.amazon.com/security/)
 - [AWS Security docs](https://docs.aws.amazon.com/security/)
@@ -44,16 +46,20 @@
 - [github.com/aws-samples: How to set up continuous replication from your third-party secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault)
 
 ## AWS Security Reference Architecture AWS SRA
+
 - [==docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA)== 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html)
 - [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available/) A set of guidelines for deploying the full complement of AWS security services in a multi-account environment.
 
 ## Policy as Code with AWS CDK and Open Policy Agent
+
 - [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/)
 
 ## Payment Card Industry Data Security Standard compliance
+
 - [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment/)
 
 ## AWS IAM
+
 - [AWS Identity and Access Management - Getting Started](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
 - [AWS Identity and Access Management (IAM) best practices in 2016](http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016)
 - [How to Record and Govern Your IAM Resource Configurations Using AWS Config](http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config)
@@ -71,7 +77,7 @@
 - [==awsiam.info: AWS IAM Search==](https://www.awsiam.info)
 - [daan.fyi: AWS IAM Demystified](https://www.daan.fyi/writings/iam)
 - [willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) AWS CDK construct for rotating IAM user credentials and sending to a third party. 
-- [==Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)==](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) Reasons you should be using multiple accounts in AWS: 
+- [==Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)==](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) Reasons you should be using multiple accounts in AWS:
     - You can constrain access to sensitive data
     - You'll promote innovation & agility
     - You can more easily manage costs
@@ -80,24 +86,29 @@
 - [binx.io: Working with AWS Permission Policies 🌟](https://binx.io/2022/07/13/working-with-aws-permission-policies/)
 
 ### AWS IAM Anywhere
+
 - [==jimmydqv.com: AWS IAM Anywhere== 🌟](https://jimmydqv.com/iam-anywhere/)
     - Most of us that have worked with cloud long enough has encountered hybrid cloud solutions in one way or another. I often see clients with some parts, or applications, running on-premises that need to call AWS services. I'm working with an client with an application running on-premises. The application gather data from different sources, and then upload the data files to an Amazon S3 Bucket. The data is imported and analyzed in the cloud. Up till now I needed to create an IAM User and generate long lived credentials that the on-premises part could use. That is until the recent release of IAM Anywhere. 
     - IAM Anywhere rely on Public key Infrastructure (PKI) and exchange x.509 certificates for temporary AWS IAM credentials. You establish a trust between you AWS account and a Certificate Authority (CA), a trust anchor. Certificates issued by that CA can then be used to get credentials. Fields, like the Common Name (CN), in the certificate can be used as conditions in policies to limit what IAM Roles that can be assumed.
 
 ## AWS Organizations
+
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
 - [Standardize compliance in AWS using DevOps and a Cloud Center of Excellence (CCOE) approach](https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach/)
 
 ## AWS Control Tower
+
 - [==AWS Control Tower==](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
 - [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
 - [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
 
 ## AWS Firewalls
+
 - [doit-intl.com: AWS Firewalls 101: How and when to use each one](https://blog.doit-intl.com/aws-firewalls-101-how-and-when-to-use-each-one-d4ad8087a6b3)
 - [Automatically block suspicious traffic with AWS Network Firewall and Amazon GuardDuty](https://aws.amazon.com/es/blogs/security/automatically-block-suspicious-traffic-with-aws-network-firewall-and-amazon-guardduty)
 
 ## AWS WAF Web Application Firewall
+
 - [AWS WAF - Web Application Firewall](https://aws.amazon.com/waf/)
 - [How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)](http://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W)
 - [How to Use AWS WAF to Block IP Addresses That Generate Bad Requests](http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests)
@@ -108,15 +119,18 @@
 - [faun.pub: Set up global rate limiting with AWS WAF in 5 minutes](https://faun.pub/set-up-global-rate-limiting-with-aws-waf-in-5-minutes-bd43a9309683)
 
 ## AWS Secrets Manager
+
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
 - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets/)
 - [k21academy.com: AWS Secrets Manager](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-secrets-manager/)
 
 ## AWS Vault
+
 - [AWS Vault](https://github.com/99designs/aws-vault) is a tool to securely store and access AWS credentials in a development environment.
 - [AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault](https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/)
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -124,4 +138,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you secure your <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> access?<br><br>11 secrets hackers don&#39;t want you to know 📈. <br><br>Number 7 will blow your mind 🤯<br><br>A thread 🔽🔽🔽<a href="https://twitter.com/hashtag/AWSCommunity?src=hash&amp;ref_src=twsrc%5Etfw">#AWSCommunity</a></p>&mdash; Andrea Cavagna (@a_cava94) <a href="https://twitter.com/a_cava94/status/1567168785437659137?ref_src=twsrc%5Etfw">September 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-

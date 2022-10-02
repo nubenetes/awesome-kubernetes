@@ -1,4 +1,5 @@
 # Low Code and No Code
+
 - [dzone: Low-Code, the Silent Revolution](https://dzone.com/articles/low-code-the-silent-revolution) For years I have made bold statements about Software Automation. Today we've got research more or less proving that most of what I claimed was true.
 - [dzone: Top 10 Low-Code Articles](https://dzone.com/articles/top-10-low-code-articles) See the 10 most popular articles on Low-Code with topics covering Low-Code introduction, building an application with Low-Code, comparison with Microservices, a smack-down with pro-code, and more!
 - [dzone: No-Code and Low-Code Development: The Ultimate Dev Time-Saver](https://dzone.com/articles/no-code-low-code-development-ultimate-time-saver) By applying low code, save 90% or more of your time

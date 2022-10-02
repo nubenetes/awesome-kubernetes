@@ -1,45 +1,47 @@
 # Linux and SSH
-- [Introduction](#introduction)
-- [RHEL](#rhel)
-- [Rocky Linux](#rocky-linux)
-- [VIM](#vim)
-- [Neovim](#neovim)
-- [SSH](#ssh)
-- [OpenSSL](#openssl)
-- [Linux Blogs](#linux-blogs)
-- [Spanish Linux Blogs](#spanish-linux-blogs)
-- [Youtube](#youtube)
-- [Reddit](#reddit)
-- [Linux Commands and Tools](#linux-commands-and-tools)
-- [Makefiles](#makefiles)
-- [Guestfish](#guestfish)
-- [BusyBox](#busybox)
-- [Bash](#bash)
-- [Questions and Answers](#questions-and-answers)
-- [Automation. Bash VS Python VS JavaScript](#automation-bash-vs-python-vs-javascript)
-- [Zsh](#zsh)
-- [ZX](#zx)
-- [bpftrace](#bpftrace)
-- [Linux processes](#linux-processes)
-- [Linux Memory](#linux-memory)
-- [Linux and Kubernetes](#linux-and-kubernetes)
-	- [Systemd](#systemd)
-	- [Blogs](#blogs)
-	- [CommandLineFu](#commandlinefu)
-	- [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
-	- [Copr Build System](#copr-build-system)
-	- [Pulp](#pulp)
-	- [Hashicorp](#hashicorp)
-- [Linux Libraries](#linux-libraries)
-- [Linux Networking](#linux-networking)
-- [Networking Protocols](#networking-protocols)
-- [Images](#images)
-- [Tweets](#tweets)
+1. [Introduction](#introduction)
+2. [RHEL](#rhel)
+3. [Rocky Linux](#rocky-linux)
+4. [VIM](#vim)
+5. [Neovim](#neovim)
+6. [SSH](#ssh)
+7. [OpenSSL](#openssl)
+8. [Linux Blogs](#linux-blogs)
+9. [Spanish Linux Blogs](#spanish-linux-blogs)
+10. [Youtube](#youtube)
+11. [Reddit](#reddit)
+12. [Linux Commands and Tools](#linux-commands-and-tools)
+13. [Makefiles](#makefiles)
+14. [Guestfish](#guestfish)
+15. [BusyBox](#busybox)
+16. [Bash](#bash)
+17. [Questions and Answers](#questions-and-answers)
+18. [Automation. Bash VS Python VS JavaScript](#automation-bash-vs-python-vs-javascript)
+19. [Zsh](#zsh)
+20. [ZX](#zx)
+21. [bpftrace](#bpftrace)
+22. [Linux processes](#linux-processes)
+23. [Linux Memory](#linux-memory)
+24. [Linux and Kubernetes](#linux-and-kubernetes)
+    1. [Systemd](#systemd)
+    2. [Blogs](#blogs)
+    3. [CommandLineFu](#commandlinefu)
+    4. [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
+    5. [Copr Build System](#copr-build-system)
+    6. [Pulp](#pulp)
+    7. [Hashicorp](#hashicorp)
+25. [Linux Libraries](#linux-libraries)
+26. [Linux Networking](#linux-networking)
+27. [Networking Protocols](#networking-protocols)
+28. [Images](#images)
+29. [Tweets](#tweets)
 
 ## Introduction
+
 - [zdnet.com: Linus Torvalds prepares to move the Linux kernel to modern C](https://www.zdnet.com/google-amp/article/linus-torvalds-prepares-to-move-the-linux-kernel-to-modern-c/) The Linux kernel's foundation is the ancient C89 standard of C. Now, Torvalds has decided to upgrade to 2011's more modern C11 standard.
 
 ## RHEL
+
 - [infoworld.com: Red Hat’s crime against CentOS](https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html) In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.
 - [arstechnica.com: CentOS is gone—but RHEL is now free for up to 16 production servers](https://arstechnica.com/gadgets/2021/01/centos-is-gone-but-rhel-is-now-free-for-up-to-16-production-servers/) RHEL is now free for dev teams, and it's even free in production for up to 16 systems.
 - [cyberciti.biz: Red Hat introduces new no-cost RHEL option](https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option/)
@@ -53,11 +55,13 @@
 - [makeuseof.com: The 7 Best Red Hat-Based Linux Distributions](https://www.makeuseof.com/best-red-hat-based-linux-distros/) Unlike other Linux distros, RHEL isn't free to download. But you can still enjoy its benefits by installing these free RHEL-based Linux distributions.
 
 ## Rocky Linux
+
 - https://rockylinux.org
 - [cloudsavvyit.com: Is Rocky Linux the new CentOS?](https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos/)
 - [9to5linux.com: CentOS Alternative Rocky Linux 8.5 Is Out Now with Secure Boot Support, Updated Components](https://9to5linux.com/centos-alternative-rocky-linux-8-5-is-out-now-with-secure-boot-support-updated-components) Derived from Red Hat Enterprise Linux 8.5, Rocky Linux 8.5 is here to introduce an important feature for the mass adoption of this CentOS Linux alternative, namely Secure Boot support.
 
 ## VIM
+
 - [VimWiki](https://github.com/vimwiki/vimwiki)
 - [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands) 
 - [dev.to: Another one short Vim cheat sheet](https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc)
@@ -67,10 +71,12 @@
 - [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff) Key Techniques with Vim for Faster Programming
 
 ## Neovim
+
 - [neovim](https://neovim.io/) hyperextensible Vim-based text editor
 - [blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux](https://blog.ashwinchat.com/9-months-of-full-time-vim/)
 
 ## SSH 
+
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
 - [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
 - [commandlinefu.com/commands/matching/ssh](https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes)
@@ -91,10 +97,12 @@
 - [cyberciti.biz: How to audit SSH server and client config on Linux/Unix](https://www.cyberciti.biz/tips/how-to-audit-ssh-server-and-client-config-on-linux-unix.html) OpenSSH is critical for Linux & Unix servers. However, misconfig can create issues. But fear not, you can audit the SSH server & client config easily. You don't have to be a security guru. New developers and sysadmins can look for security & other issues.
 
 ## OpenSSL
+
 - [redhat.com: 6 OpenSSL command options that every sysadmin should know](https://www.redhat.com/sysadmin/6-openssl-commands) Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.
 - [tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port](https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline/)
 
 ## Linux Blogs
+
 - [The Linux Foundation](http://www.linuxfoundation.org/)
 - [tecmint.com 🌟](https://www.tecmint.com/)
 - [nixCraft 🌟](https://www.cyberciti.biz/)
@@ -122,18 +130,22 @@
 - [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) A study notes book for the common knowledge and tasks of a Linux system admin.
 
 ## Spanish Linux Blogs
+
 - [systemadmin.es](http://systemadmin.es/)
 - [muylinux.com](http://www.muylinux.com/)
 - [linuxadictos.com](http://www.linuxadictos.com)
 
 ## Youtube
+
 - [Linux Skills](https://www.youtube.com/channel/UCu2eNnWy-zc1xt_shCXQQfA)
 - [CLImagic](https://www.youtube.com/user/climagic)
 
 ## Reddit
+
 - [reddit.com/r/linuxadmin](https://www.reddit.com/r/linuxadmin/) Expanding Linux SysAdmin knowledge
 
 ## Linux Commands and Tools
+
 - [**watchman command**: A File and Directory Watching Tool for Changes](https://www.tecmint.com/watchman-monitor-file-changes-in-linux/)
 - [**ip command**: How to use IP Command in Linux with Examples](https://linoxide.com/linux-command/use-ip-command-linux/)
 - [**curl command**: Understanding the Hidden Powers of curl](https://nordicapis.com/understanding-the-hidden-powers-of-curl/)
@@ -224,17 +236,21 @@
 - [==jvns.ca: A list of new(ish) command line tools | Julia Evans==](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
 
 ## Makefiles
+
 - [makefiletutorial.com 🌟](https://makefiletutorial.com/) Learn Makefiles With the tastiest examples 
 
 ## Guestfish
+
 - [Guestfish](https://libguestfs.org/guestfish.1.html)
 - [redhat.com: How to customize VM and cloud images with guestfish](https://www.redhat.com/sysadmin/customize-vm-cloud-images-guestfish) Need to tweak your cloud and virtual machine images to comply with company policies or other requirements? Give guestfish a try.
 
 ## BusyBox
+
 - [busybox.net](https://www.busybox.net/) BusyBox: The Swiss Army Knife of Embedded Linux
 - [genbeta.com: BusyBox, el ejecutable que agrupa casi 200 utilidades Unix de línea de comandos (y que puedes usar también en Windows o Android)](https://www.genbeta.com/herramientas/busybox-ejecutable-que-agrupa-casi-200-utilidades-gnu-linea-comandos-que-puedes-usar-tambien-windows-android)
 
 ## Bash
+
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
 - [Introduction to Bash Scripting Interactive training](https://ebook.bobby.sh/training.html)
 	- [dev.to: Introduction to Bash Scripting - A DO Hackathon Submission](https://dev.to/bobbyiliev/introduction-to-bash-scripting-5571)
@@ -268,69 +284,86 @@
 - [linuxshelltips.com: What’s the Difference Between ${} and $() in Bash](https://www.linuxshelltips.com/difference-between-and-in-bash/)
 
 ## Questions and Answers
+
 - [redhat.com: 5 questions to ask during your next sysadmin interview](https://www.redhat.com/sysadmin/5-questions-interview)
 - [==trimstray/test-your-sysadmin-skills==](https://github.com/trimstray/test-your-sysadmin-skills) A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.
 
 ## Automation. Bash VS Python VS JavaScript
+
 - [betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for Automation? 🌟](https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e) Comparing the pros and cons of Bash, Python, and JavaScript-based Shell scripts
 
 ## Zsh
+
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 - [zshdb.readthedocs.io](https://zshdb.readthedocs.io) zshdb - a gdb-like debugger for zsh
 
 ## ZX
+
 - [zx](https://github.com/google/zx) A tool for writing better scripts
 
 ## bpftrace
+
 - [bpftrace](https://github.com/iovisor/bpftrace) High-level tracing language for Linux eBPF. bpftrace is pretty impressive in terms of conciseness and practicality of their docs.
 - https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md
 
 ## Linux processes
+
 - [percona.com: How Much Memory Does the Process Really Take on Linux? 🌟](https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/)
 
 ## Linux Memory
+
 - [learnsteps.com: Difference between minor page faults vs major page faults](https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/) 
 
 ## Linux and Kubernetes
+
 - [tldp.org: The Linux System Administrator's Guide 🌟](https://tldp.org/LDP/sag/html/index.html)
 - [How Linux PID namespaces work with containers 🌟](https://www.redhat.com/sysadmin/linux-pid-namespaces)
 
 ### Systemd
+
 - [Start using systemd as a troubleshooting tool](https://opensource.com/article/20/5/systemd-troubleshooting-tool) While systemd is not really a troubleshooting tool, the information in its output points the way toward solving problems.
 
 ### Blogs
+
 - [climagic.org](http://www.climagic.org)
 - [Linux 101 Hacks](http://linux.101hacks.com/)
 - [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ### CommandLineFu
+
 - [CommandLineFu 🌟](https://www.commandlinefu.com)
 - [twitter.com/commandlinefu](https://twitter.com/commandlinefu) Command line diamonds, created and voted on by our members
 - [twitter.com/commandlinefu3](https://twitter.com/commandlinefu3) 3-star commands, a Linux afficionado's wet dream
 - [twitter.com/commandlinefu10](https://twitter.com/commandlinefu10) 10 star command line gems - known to make experienced sysadmins weep with joy.
 
 ### Wait until Your Dockerized Database Is Ready before Continuing
+
 - [Wait until Your Dockerized Database Is Ready before Continuing](https://nickjanetakis.com/blog/wait-until-your-dockerized-database-is-ready-before-continuing) A zero dependency Bash script that waits until a command of your choosing has run successfully
     - [github.com/nickjj/wait-until](https://github.com/nickjj/wait-until)
 
 ### Copr Build System
+
 - Building a repo with RPM packages from PyPI is super easy using Copr.
 - [copr.fedorainfracloud.org](https://copr.fedorainfracloud.org/) Copr is an easy-to-use automatic build system providing a package repository as its output.
 - [Copr](https://pagure.io/copr/copr)
 
 ### Pulp
+
 - [pulpproject.org](https://pulpproject.org/) Fetch, Upload, Organize, and Distribute Software Packages.
 
 ### Hashicorp
+
 - [Announcing the HashiCorp Linux Repository](https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository)
 
 ## Linux Libraries
+
 - [How to handle dynamic and static libraries in Linux](https://opensource.com/article/20/6/linux-libraries)
 
 ## Linux Networking
+
 - [ntop](http://www.ntop.org/)
 - [ngrep](http://ngrep.sourceforge.net/)
 - [Angry IP Scanner (or simply ipscan)](http://angryip.org/) to Nmap and cross-platform
@@ -354,10 +387,12 @@
 - [redhat.com: 5 Linux network troubleshooting commands](https://www.redhat.com/sysadmin/five-network-commands) Linux provides many command-line tools to help sysadmins manage, configure, and troubleshoot network settings.
 
 ## Networking Protocols
+
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
 - [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
 
 ## Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -365,6 +400,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -378,5 +414,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">4000 Linux commands every programmer should know<br><br>A thread 🧵</p>&mdash; The Best Linux Blog In the Unixverse 🪔 (@nixcraft) <a href="https://twitter.com/nixcraft/status/1455835061182291981?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-
-

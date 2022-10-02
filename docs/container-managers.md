@@ -1,50 +1,60 @@
 # Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah & Skopeo
-- [Introduction](#introduction)
-- [OCI Project](#oci-project)
-	- [OCI Runtimes](#oci-runtimes)
-		- [runc](#runc)
-		- [crun](#crun)
-	- [OCI Monitors](#oci-monitors)
-- [Container Managers / Container Runtimes (CRI runtimes)](#container-managers--container-runtimes-cri-runtimes)
-	- [CRI-O](#cri-o)
-	- [Podman. Pod Manager tool](#podman-pod-manager-tool)
-		- [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
-- [Container Images](#container-images)
-	- [Red Hat Universal Base Image](#red-hat-universal-base-image)
-- [Container Tools](#container-tools)
-	- [Buildah](#buildah)
-	- [Skopeo](#skopeo)
-- [Images](#images)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [OCI Project](#oci-project)
+    1. [OCI Runtimes](#oci-runtimes)
+        1. [runc](#runc)
+        2. [crun](#crun)
+    2. [OCI Monitors](#oci-monitors)
+3. [Container Managers / Container Runtimes (CRI runtimes)](#container-managers--container-runtimes-cri-runtimes)
+    1. [CRI-O](#cri-o)
+    2. [Podman. Pod Manager tool](#podman-pod-manager-tool)
+        1. [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
+4. [Container Images](#container-images)
+    1. [Red Hat Universal Base Image](#red-hat-universal-base-image)
+5. [Container Tools](#container-tools)
+    1. [Buildah](#buildah)
+    2. [Skopeo](#skopeo)
+6. [Images](#images)
+7. [Tweets](#tweets)
 
 ## Introduction
+
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 - [inovex.de: Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more! 🌟](https://www.inovex.de/blog/containers-docker-containerd-nabla-kata-firecracker/)
 - [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker/)
 - [thenewstack.io: Container Best Practices: What They Are and Why You Should Care](https://thenewstack.io/container-best-practices-what-they-are-and-why-you-should-care/)
 
 ## OCI Project
+
 - [OCI: Open Container Initiative](https://www.opencontainers.org/)
 ### OCI Runtimes
+
 #### runc
+
 - [runc](https://github.com/opencontainers/runc) CLI tool for spawning and running containers according to the OCI specification 
 #### crun
+
 - [crun](https://github.com/containers/crun) A fast and lightweight fully featured OCI runtime and C library for running containers
 
 ### OCI Monitors
+
 - [Conmon](https://github.com/containers/conmon) An OCI container runtime monitor.
 
 ## Container Managers / Container Runtimes (CRI runtimes)
+
 - [Kubernetes.io: Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 - [Docker](https://www.docker.com/products/container-runtime)
 - [containerd.io](https://containerd.io/)
 - [Frakti](https://github.com/kubernetes/frakti)
 
 ### CRI-O
+
 - [cri-o.io](https://cri-o.io/) Lightweight Container Runtime for Kubernetes
 - [Why Red Hat is investing in CRI-O and Podman](https://redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)
 
 ### Podman. Pod Manager tool
+
 - [Podman.io](https://podman.io/)
 - [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/libpod) 
     - Libpod is a library used to create container pods. Home of Podman.
@@ -83,8 +93,8 @@
 - [devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟](https://devopscube.com/podman-tutorial-beginners/)
 - [kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude](https://kubernetespodcast.com/episode/164-podman/)
 - [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/sysadmin/podman-auto-updates-rollbacks) 
-	- New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
-	- Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
+    - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
+    - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
 - [opensource.com: Get podman up and running on Windows using Linux](https://opensource.com/article/21/10/podman-windows-wsl) Enable WSL 2 guests to run the podman, skopeo, or buildah commands from within Windows using the Linux distribution of your choice.
 - [dzone.com: Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman](https://dzone.com/articles/beginners-guide-to-installing-decision-management) Recently the open source community project called Podman announced that there was solid support for using its container tooling to replace docker on your local development machine. 
 - [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman/)
@@ -99,17 +109,21 @@
 - [redhat.com: How to use Podman to get information about your containers](https://www.redhat.com/sysadmin/container-information-podman) Use the podman ps command to get size, resource consumption, and other information about your containers.
 - [redhat.com: 5 Podman features to try now](https://www.redhat.com/sysadmin/podman-features-1) Improve how you use containers with these new Podman features: --latest, --replace, --all, --ignore, and --tz.
 - Here's how I stop all containers before: 🐳 `docker stop $(docker ps -aq)`
-	- Here's how I stop/remove all containers with podman: `podman stop -a; podman rm  -a`
+    - Here's how I stop/remove all containers with podman: `podman stop -a; podman rm  -a`
 - [medium.com/@raghavendraguttur: Podman Containers — Beginner’s Guide](https://medium.com/@raghavendraguttur/podman-containers-beginners-guide-830b931e66f4) In this article, you will learn about Podman — an open-source tool for managing containers, images, volumes, and pods (group of containers). You will also compare it to buildah and skopeo.
 - [nilesh93.medium.com: Replacing Docker Desktop with Podman and Kind in MacOS](https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda)
 
 #### Containers In High Security Environments with Podman
+
 - [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) Container technology makes develoment easier/cheaper & much more secure. SELinux,SECCOMP,Namespaces,Dropped Capabilities.
 
 ## Container Images
+
 - [sherifabdlnaby/kubephp](https://github.com/sherifabdlnaby/kubephp) 🐳 Production Grade, Rootless, and Optimized PHP Container Image Template for Cloud-Native Deployments and Kubernetes.
 - [iximiuz.com: In Pursuit of Better Container Images: Alpine, Distroless, Apko, Chisel, DockerSlim, oh my!](https://iximiuz.com/en/posts/containers-making-images-better/)
+
 ### Red Hat Universal Base Image
+
 - [Introducing the Red Hat Universal Base Image 🌟](https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image)
 - [What is Red Hat Universal Base Image?](https://developers.redhat.com/blog/2019/10/09/what-is-red-hat-universal-base-image/)
 - [RH Universal Base Image FAQ](https://developers.redhat.com/articles/ubi-faq/#resources)
@@ -118,23 +132,26 @@
 - [developers.redhat.com: How to pick the right container base image](https://developers.redhat.com/blog/2021/04/13/how-to-pick-the-right-container-base-image/)
 
 ## Container Tools
+
 - [Say “Hello” to Buildah, Podman, and Skopeo. New Generation of Container Management Tools](https://servicesblog.redhat.com/2019/10/09/say-hello-to-buildah-podman-and-skopeo/)
 - [How to use the --privileged flag with container engines](https://www.redhat.com/sysadmin/privileged-flag-container-engines) Let's take a deep dive into what the --privileged flag does for container engines such as Podman, Docker, and Buildah.
 - [itnext.io: Docker, Kaniko, Buildah](https://itnext.io/docker-kaniko-buildah-209abdde5f94) Different ways to build container images
 - [blog.kubesimplify.com: Getting started with ko: A fast container image builder for your Go applications](https://blog.kubesimplify.com/getting-started-with-ko-a-fast-container-image-builder-for-your-go-applications)
 
 ### Buildah
+
 - [Buildah.io](https://buildah.io/) A tool that facilitates building [Open Container Initiative (OCI)](https://www.opencontainers.org/) container images
     - [github.com/containers/buildah](https://github.com/containers/buildah)
 - [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah/)
 - [youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov)
 
 ### Skopeo
+
 - [Skopeo](https://github.com/containers/skopeo) is a command line utility that performs various operations on container images and image repositories.
 - [Promoting container images between registries with skopeo](https://www.openshift.com/blog/promoting-container-images-between-registries-with-skopeo)
 
-
 ## Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -142,6 +159,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 

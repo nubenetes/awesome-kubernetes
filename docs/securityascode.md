@@ -1,25 +1,28 @@
-# Security Policy as Code 
-- [Introduction](#introduction)
-- [Open Policy Agent (OPA)](#open-policy-agent-opa)
-    - [Open Policy Agent in Kubernetes](#open-policy-agent-in-kubernetes)
-    - [Open Policy Agent in OpenShift](#open-policy-agent-in-openshift)
-    - [Open Policy Agent in Cloudflare Workers](#open-policy-agent-in-cloudflare-workers)
-    - [Policy as Code in Terraform Cloud](#policy-as-code-in-terraform-cloud)
-    - [Other OPA based solutions](#other-opa-based-solutions)
-- [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
-- [Kyverno](#kyverno)
-    - [Kyverno E-Learning](#kyverno-e-learning)
-- [Cloud Custodian](#cloud-custodian)
-- [Apolicy](#apolicy)
-- [Azure Policy](#azure-policy)
+# Security Policy as Code
+
+1. [Introduction](#introduction)
+2. [Open Policy Agent (OPA)](#open-policy-agent-opa)
+    1. [Open Policy Agent in Kubernetes](#open-policy-agent-in-kubernetes)
+    2. [Open Policy Agent in OpenShift](#open-policy-agent-in-openshift)
+    3. [Open Policy Agent in Cloudflare Workers](#open-policy-agent-in-cloudflare-workers)
+    4. [Policy as Code in Terraform Cloud](#policy-as-code-in-terraform-cloud)
+    5. [Other OPA based solutions](#other-opa-based-solutions)
+3. [Other Policy as Code Scanning Tools](#other-policy-as-code-scanning-tools)
+4. [Kyverno](#kyverno)
+    1. [Kyverno E-Learning](#kyverno-e-learning)
+5. [Cloud Custodian](#cloud-custodian)
+6. [Apolicy](#apolicy)
+7. [Azure Policy](#azure-policy)
 
 ## Introduction
+
 - [Dzone: DevOps Security at Scale - Security Policy as Code](https://dzone.com/articles/devops-security-at-scale)
 - [searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm](https://searchitoperations.techtarget.com/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm) A Kubernetes-friendly compliance as code project hosted by the CNCF has caught on among large enterprises in the first half of 2019, largely through word of mouth.
 - [amazon.com: Policy-based countermeasures for Kubernetes – Part 1](https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1/)
 - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)
 
 ## Open Policy Agent (OPA)
+
 - [OPA Open Policy Agent 🌟](https://www.openpolicyagent.org/) 
 - OPA is most often used as an admission controller in Kubernetes. An admission controller is where all the semantic validation of Kubernetes resources occur before resources are persisted to etcd and controllers go off and start doing work.
 - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)
@@ -46,6 +49,7 @@
 - [dev.to: Load external data into OPA: The Good, The Bad, and The Ugly](https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc) There are several ways to create a data fetching mechanism for the Open Policy Agent - each of them has its pros and cons. In this guide, you will compare and decide which one is the best for you.
 
 ### Open Policy Agent in Kubernetes
+
 - [infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent](https://www.infracloud.io/kubernetes-pod-security-policies-opa/)
 - [banzaicloud.com: Istio and Kubernetes ft. OPA policies](https://banzaicloud.com/blog/istio-opa/)
 - [fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)](https://www.fugue.co/blog/5-tips-for-using-the-rego-language-for-open-policy-agent-opa)
@@ -57,18 +61,23 @@
 - [blog.styra.com: Using OPA with GitOps to speed Cloud-Native development](https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development)
 
 ### Open Policy Agent in OpenShift
+
 - [blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟](https://blog.openshift.com/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent/)
 
 ### Open Policy Agent in Cloudflare Workers
-* [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
+
+- [compile OpenPolicyAgent policies into WebAssembly and run them on the edge](https://github.com/open-policy-agent/contrib/tree/master/wasm/cloudflare-worker)
 
 ### Policy as Code in Terraform Cloud
+
 - [hashicorp.com: Securing Infrastructure In Application Pipelines](https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines/) Learn how to use policy as code in Terraform Cloud to securely deliver applications.
 
 ### Other OPA based solutions
+
 - [Fugue: Container and Kubernetes. Runtime infrastructure security](https://www.fugue.co/container-kubernetes) - [darkreading.com: Fugue Adds Kubernetes Security Checks to Secure Infrastructure-as-Code](https://www.darkreading.com/dr-tech/fugue-adds-kubernetes-security-checks-to-secure-infrastructure-as-code) Developers can apply proper security controls as they programmatically deploy Kubernetes clusters.
 
 ## Other Policy as Code Scanning Tools
+
 - [thenewstack.io: Yor Automates Tagging for Infrastructure as Code](https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code/)
 - [yor.io](https://yor.io/) Automated IaC tag and trace. Yor is an open-source tool that automatically tags infrastructure as code (IaC) templates with attribution and ownership details, unique IDs that get carried across to cloud resources, and any other need-to-know information. Run Yor as a pre-commit hook or in your CI/CD pipeline for code to cloud traceability and auditability.
 - [checkov.io](https://www.checkov.io/) policy as code scanning tool
@@ -80,6 +89,7 @@
     - [MagTape](https://github.com/tmobile/magtape) Policy as code for kubernetes
 
 ## Kyverno
+
 - [Kyverno 🌟](https://kyverno.io/) Kubernetes Native Policy Management. Open Policy Agent? That’s old school. Securely manage workloads on your kubernetesio clusters with this handy new tool, Kyverno.Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. This allows using familiar tools such as kubectl, git, and kustomize to manage policies. Kyverno policies can validate, mutate, and generate Kubernetes resources. The Kyverno CLI can be used to test policies and validate resources as part of a CI/CD pipeline. [youtube: The Way of the Future | Kubernetes Policy Management with Kyverno](https://www.youtube.com/watch?v=8fgrjBnxqi0&t=270s&ab_channel=AppSecEngineer)
 - [venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with open source Kyverno](https://venturebeat.com/2021/08/10/how-nirmata-plans-to-conquer-kubernetes-complexity-with-open-source-kyverno/)
 - [neonmirrors.net: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno 🌟](https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
@@ -118,14 +128,18 @@
 - [medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno](https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad)
 
 ### Kyverno E-Learning
+
 - [appsecengineer.com: Kubernetes Policy Management with Kyverno](https://appsecengineer.com/courses/kubernetes-policy-management-with-kyverno/)
 
 ## Cloud Custodian
+
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized.
 
 ## Apolicy
+
 - [Apolicy](https://apolicy.io/)
 - [sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation](https://sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code/)
 
 ## Azure Policy
+
 - [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-for-kubernetes-releases-support-for-custom-policy/ba-p/2699466) **A tutorial on how to set up Azure Policy for Kubernetes with custom policies.** 

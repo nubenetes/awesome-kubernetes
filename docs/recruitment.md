@@ -1,23 +1,25 @@
-# Recruitment. Hiring and Freelancing 
-- [Introduction](#introduction)
-- [Articles in Spanish](#articles-in-spanish)
-- [Recruitment Portals](#recruitment-portals)
-- [Recruitment Portals in Spain](#recruitment-portals-in-spain)
-- [Recruitment Software](#recruitment-software)
-- [Soft Skills](#soft-skills)
-- [Fair Job Offer](#fair-job-offer)
-- [Writing a CV](#writing-a-cv)
-- [Tweets](#tweets)
-- [Tweets 2](#tweets-2)
-- [Tweets 3. Cultures](#tweets-3-cultures)
-- [Images](#images)
-- [Videos](#videos)
+# Recruitment. Hiring and Freelancing
+
+1. [Introduction](#introduction)
+2. [Articles in Spanish](#articles-in-spanish)
+3. [Recruitment Portals](#recruitment-portals)
+4. [Recruitment Portals in Spain](#recruitment-portals-in-spain)
+5. [Recruitment Software](#recruitment-software)
+6. [Soft Skills](#soft-skills)
+7. [Fair Job Offer](#fair-job-offer)
+8. [Writing a CV](#writing-a-cv)
+9. [Tweets](#tweets)
+10. [Tweets 2](#tweets-2)
+11. [Tweets 3. Cultures](#tweets-3-cultures)
+12. [Images](#images)
+13. [Videos](#videos)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162899288&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arielmezzapesa-1" title="Ariel Mezzapesa" target="_blank" style="color: #cccccc; text-decoration: none;">Ariel Mezzapesa</a> · <a href="https://soundcloud.com/arielmezzapesa-1/lily-was-here-candy-dulfer" title="Lily Was Here (Candy Dulfer)" target="_blank" style="color: #cccccc; text-decoration: none;">Lily Was Here (Candy Dulfer)</a></div>
 </center>
 
 ## Introduction
+
 - [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
 - [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40/)
@@ -60,6 +62,7 @@
 - [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://blogs.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693/)
 
 ## Articles in Spanish
+
 - [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://blogs.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087/)
 - [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona/)
 - [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://www.entrepreneur.com/article/267642) Descubre si la gente que trabaja contigo te tiene confianza o si debes cambiar ciertas actitudes para obtener mejores resultados.
@@ -84,26 +87,33 @@
 - [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757)
 
 ## Recruitment Portals
+
 - [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
-	- [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
+    - [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
 - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com/)
 
 ## Recruitment Portals in Spain
+
 - [trycircular.com (Spain)](https://trycircular.com) The hiring community for tech recruiters and developers with good Candidate Experience guaranteed.
 
 ## Recruitment Software
+
 - [recruit crm](https://recruitcrm.io)
 
 ## Soft Skills
+
 - [skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) For varying levels of seniority, from senior, to staff, and beyond.
 
 ## Fair Job Offer
--  [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) Looking for a job? this is what you should know first. This is a MUST read project when looking for a job and expand this properly to any country, turn yourself into an expert to easily & securely find a job globally, Understand your rights in a market populated by AI, Data Lakes. Use templates legally approved to handle your data less possible.
 
-## Writing a CV 
+- [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) Looking for a job? this is what you should know first. This is a MUST read project when looking for a job and expand this properly to any country, turn yourself into an expert to easily & securely find a job globally, Understand your rights in a market populated by AI, Data Lakes. Use templates legally approved to handle your data less possible.
+
+## Writing a CV
+
 - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -143,6 +153,7 @@
 </details>
 
 ## Tweets 2
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -186,6 +197,7 @@
 </details>
 
 ## Tweets 3. Cultures
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -243,6 +255,7 @@
 </details>
 
 ## Images
+
 ??? note "Click to expand!"
 
 	<center>
@@ -266,6 +279,7 @@
 	</center>
 
 ## Videos
+
 ??? note "Click to expand!"
 
 	<center>

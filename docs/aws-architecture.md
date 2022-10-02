@@ -1,12 +1,14 @@
 # AWS Architecture and Best Practices
-- [Introduction](#introduction)
-- [AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start](#aws-architecture-blog-official-blog-aws-labs-aws-quick-start)
-- [AWS Case Studies](#aws-case-studies)
-- [AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages](#aws-best-practices-and-tips-aws-performance-handling-aws-failures-and-outages)
+
+1. [Introduction](#introduction)
+2. [AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start](#aws-architecture-blog-official-blog-aws-labs-aws-quick-start)
+3. [AWS Case Studies](#aws-case-studies)
+4. [AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages](#aws-best-practices-and-tips-aws-performance-handling-aws-failures-and-outages)
 
 ## Introduction
+
 - [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
-	- [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
+    - [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
 - [==aws.amazon.com/well-architected-tool: AWS Well-Architected Tool==](https://aws.amazon.com/well-architected-tool) Do couple of WAR (Well-Architect Review) for public cloud. Basically it is to scan the cloud on 5-6 KPI's : Performance, Cost, Operations, Business etc.. 
 - [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
@@ -20,18 +22,21 @@
 - [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments/)
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
+
 - [AWS Architecture Blog](https://www.awsarchitectureblog.com)
 - [AWS Official Blog](http://blogs.aws.amazon.com/)
 - [AWS Labs GitHub](https://github.com/awslabs)
 - [AWS Quick Start Reference Deployments](http://aws.amazon.com/es/quickstart/)
-	- [AWS Quick Start - GitHub](https://github.com/awslabs/aws-quickstart)
+    - [AWS Quick Start - GitHub](https://github.com/awslabs/aws-quickstart)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql/)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data/)
 
 ## AWS Case Studies
-- [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies/thomas-publishing/)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.   
+
+- [Thomas Publishing Case Study](https://aws.amazon.com/solutions/case-studies/thomas-publishing/)  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.
 
 ## AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages
+
 - [AWS Tips I Wish I'd Known Before I Started (Feb 2014)](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/) A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS.
 - [DZone: 5 Tips for Better AWS Performance](https://dzone.com/articles/5-tips-for-better-aws-performance) The Ngnix team has a nice list of tips for better performance when using the AWS services. Some of them are related to Ngnix, but others are completely usable for anyone.
 - [DZone: Dude, Where's My Performance?](https://dzone.com/articles/dude-wheres-my-performance)

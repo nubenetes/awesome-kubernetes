@@ -1,19 +1,21 @@
 # Golang - Go
-- [Introduction](#introduction)
-- [Design Patterns](#design-patterns)
-- [Tutorials](#tutorials)
-- [Kubernetes Client Go](#kubernetes-client-go)
-- [Building container images](#building-container-images)
-- [Go cheatsheets](#go-cheatsheets)
-- [Go Frameworks and libraries](#go-frameworks-and-libraries)
-- [Go packages](#go-packages)
-- [Go Tools](#go-tools)
-- [Go Books](#go-books)
-- [Go Samples](#go-samples)
-- [Dockerfile for go](#dockerfile-for-go)
-- [Videos](#videos)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Design Patterns](#design-patterns)
+3. [Tutorials](#tutorials)
+4. [Kubernetes Client Go](#kubernetes-client-go)
+5. [Building container images](#building-container-images)
+6. [Go cheatsheets](#go-cheatsheets)
+7. [Go Frameworks and libraries](#go-frameworks-and-libraries)
+8. [Go packages](#go-packages)
+9. [Go Tools](#go-tools)
+10. [Go Books](#go-books)
+11. [Go Samples](#go-samples)
+12. [Dockerfile for go](#dockerfile-for-go)
+13. [Videos](#videos)
+14. [Tweets](#tweets)
 ## Introduction
+
 - [golang.org](https://golang.org/)
 - [github.com/golang/go](https://github.com/golang/go)
 - [wikipedia: Go](https://en.wikipedia.org/wiki/Go_(programming_language))
@@ -50,14 +52,17 @@
 - [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 
 ## Design Patterns
+
 - [aly.arriqaaq.com: Golang Design Patterns in Kubernetes](https://aly.arriqaaq.com/golang-design-patterns/)
 - [==github.com/paliimx: Data Structures and Algorithms implementation in Go==](https://github.com/paliimx/Data-Structures-and-Algorithms) **Clean and simple implementation in Go**
 
 ## Tutorials
+
 - [==dev.to: Create a Restful API with Golang from scratch== 🌟](https://dev.to/pacheco/create-a-restful-api-with-golang-from-scratch-42g2)
 - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery
 
 ## Kubernetes Client Go
+
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
@@ -66,9 +71,11 @@
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 
 ## Building container images
+
 - [ahmet.im: Building container images in Go](https://ahmet.im/blog/building-container-images-in-go/)
 
 ## Go cheatsheets
+
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
 - [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
@@ -76,6 +83,7 @@
 - [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
 ## Go Frameworks and libraries
+
 - [go-micro](https://github.com/asim/go-micro) Go Micro is a framework for distributed systems development
 - [dapr.io](https://dapr.io)
 - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go/)
@@ -88,10 +96,12 @@
 - [forbearing/k8s](https://github.com/forbearing/k8s) This Go library implements various handlers to more easily manipulate kubernetes resources such as pods, deployments, etc, inside or outside a Kubernetes cluster
 
 ## Go packages
+
 - [cap](https://github.com/hashicorp/cap) A collection of authentication Go packages related to OIDC, JWKs and Distributed Claims.
 - [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) Generate a Go ORM tailored to your database schema.
 
 ## Go Tools
+
 - [jcchavezs/porto](https://github.com/jcchavezs/porto) Tool for adding [vanity imports](https://sagikazarmark.hu/blog/vanity-import-paths-in-go/) URI to Go files. If you want to enforce vanity import paths, it automates the addition of the import directive.
 - [mholt/json-to-go](https://github.com/mholt/json-to-go) Translates JSON into a Go type in your browser instantly (original)
 - [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
@@ -99,10 +109,12 @@
 - [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 👾 **Fast and simple video download library and CLI tool written in Go**
 
 ## Go Books
+
 - https://github.com/dariubs/GoBooks
 - https://lets-go.alexedwards.net Learn to Build Professional Web Applications with Go
 
-## Go Samples 
+## Go Samples
+
 - [inancgumus/learngo 🌟](https://github.com/inancgumus/learngo) A Huge Number of Go Examples, Exercises and Quizzes.
 - [==GoogleCloudPlatform/golang-samples: Sample apps and code written for Google Cloud in the Go programming language.==](https://github.com/GoogleCloudPlatform/golang-samples)
 - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) A very basic REST service for JSON data - enough for prototyping and MVPs!
@@ -111,9 +123,11 @@
 - [Mathieu-Desrochers/Learning-Go](https://github.com/Mathieu-Desrochers/Learning-Go) Minimal working examples of Go's unique features.
 
 ## Dockerfile for go
+
 - [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)
 
 ## Videos
+
 ??? note "Click to expand!"
 
 	<center>
@@ -121,6 +135,7 @@
 	</center>
 
 ## Tweets
+
 - [twitter.com/GolangRepos](https://twitter.com/GolangRepos)
 
 <details>

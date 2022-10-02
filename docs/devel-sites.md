@@ -1,19 +1,21 @@
 # Development & Frameworks. Websites for web developers
-- [Introduction](#introduction)
-- [Design Patterns](#design-patterns)
-- [Documentation Driven Development (DDD)](#documentation-driven-development-ddd)
-- [Developer Tools](#developer-tools)
-	- [Firebase](#firebase)
-	- [Supabase Studio. An alternative to Firebase](#supabase-studio-an-alternative-to-firebase)
-	- [Ballerina](#ballerina)
-	- [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
-	- [Dhall Configuration Language](#dhall-configuration-language)
-- [AI Programming](#ai-programming)
-- [No code tools](#no-code-tools)
-- [Images](#images)
-- [Tweets](#tweets)
+
+1. [Introduction](#introduction)
+2. [Design Patterns](#design-patterns)
+3. [Documentation Driven Development (DDD)](#documentation-driven-development-ddd)
+4. [Developer Tools](#developer-tools)
+    1. [Firebase](#firebase)
+    2. [Supabase Studio. An alternative to Firebase](#supabase-studio-an-alternative-to-firebase)
+    3. [Ballerina](#ballerina)
+    4. [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
+    5. [Dhall Configuration Language](#dhall-configuration-language)
+5. [AI Programming](#ai-programming)
+6. [No code tools](#no-code-tools)
+7. [Images](#images)
+8. [Tweets](#tweets)
 
 ## Introduction
+
 - https://public-apis.io  A list of free Apis for developers.
 - https://drawkit.io  Hand drawn illustrations.
 - https://happyhues.com  Superb colors palettes.
@@ -42,51 +44,62 @@
 - [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/)
 
 ## Design Patterns
+
 - [==refactoring.guru: Design Patterns==](https://refactoring.guru/design-patterns/)
-	- [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
-	- [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
-	- [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
-	- etc
+    - [refactoring.guru: Design Patterns Java](https://refactoring.guru/design-patterns/java)
+    - [refactoring.guru: Design Patterns Python](https://refactoring.guru/design-patterns/python)
+    - [refactoring.guru: Design Patterns Go](https://refactoring.guru/design-patterns/go)
+    - etc
 - [medium: 7 Best Java Design Pattern Books for Beginners and Experienced Programmers](https://medium.com/javarevisited/7-best-books-to-learn-design-patterns-for-java-programmers-5627b93eefdb)
 - [shadman-jamil.medium.com: Most Useful Software Architecture Patterns](https://shadman-jamil.medium.com/most-useful-software-architecture-patterns-68e171405292)
 - [medium.com/@victor.ronin: Design your code for readability vs. writability](https://medium.com/@victor.ronin/design-your-code-for-readability-vs-writability-d42f04cc6f4d)
 - [betterprogramming.pub: How SOLID Remains Solid — Software Principles vs. Patterns](https://betterprogramming.pub/how-solid-remains-solid-software-principles-vs-patterns-c77c623a628b)
 
 ## Documentation Driven Development (DDD)
+
 - [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/this-is-learning/a-better-way-to-code-documentation-driven-development-1kem)
 
 ## Developer Tools
+
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
 
 ### Firebase
+
 - [==firebase.google.com==](https://firebase.google.com)
 
 ### Supabase Studio. An alternative to Firebase
+
 - [==supabase.com==](https://supabase.com/) The Open Source Firebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.
 - [blog.logrocket.com: Working with Supabase Studio](https://blog.logrocket.com/working-supabase-studio/)
 
 ### Ballerina
+
 - [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api/)
 
 ### Red Hat Software Collections and Red Hat Developer Toolset
+
 - [==softwarecollections.org==](https://www.softwarecollections.org) Software Collections give you the power to build, install, and use multiple versions of software on the same system, without affecting system-wide installed packages.
 - [developers.redhat.com: ==Red Hat Software Collections==](https://developers.redhat.com/products/softwarecollections/overview)
 - [developers.redhat.com: ==Red Hat Developer Toolset==](https://developers.redhat.com/products/developertoolset/overview)
 - [developers.redhat.com: Red Hat Software Collections 3.8 and Red Hat Developer Toolset 11 now generally available](https://developers.redhat.com/articles/2021/11/15/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-generally)
 
 ### Dhall Configuration Language
+
 - [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) - Dhall is a programmable configuration language that you can think of as: JSON + functions + types + imports
 - https://github.com/dhall-lang/dhall-kubernetes Typecheck, template and modularize your Kubernetes definitions with Dhall
 
 ## AI Programming
+
 - [GitHub Copilot](https://copilot.github.com/)
 - [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)
 - [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 
 ## No code tools
+
 - [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
 ## Images
+
 ??? note "Click to expand!"
   
 	<center>
@@ -94,6 +107,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
