@@ -22,7 +22,7 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 
 **DevOps principles: People, processes, technology**
 
-**[GitOps](https://opensource.com/article/21/3/gitops) principles: Correctness, doing DevOps correctly** 
+**[GitOps](https://opensource.com/article/21/3/gitops) principles: Correctness, doing DevOps correctly**
 
 | __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
@@ -53,35 +53,37 @@ Inbreeding is not a good strategy in IT. Hiring people with different background
 
 **Culture of mutual trust** is key to beating competition and increasing employee retention. When something isn't right the employee should be able to bring it up without being afraid of being fired.
 
-We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies. 
+We are in business to make money, perhaps not only creating value on financial markets with jargon like margin and cost effective, common in financially driven companies.
 
-Everyone sells the same thing: cloud, devops, big data, etc. Speaking is cheap. Throwing an SQL statement doesn't make you an SQL expert. Likewise, you don't need to be an SQL expert on every job. Actually most of the jobs require generalists rather than specialists, above all in countries where most companies are SMEs. 
+Everyone sells the same thing: cloud, devops, big data, etc. Speaking is cheap. Throwing an SQL statement doesn't make you an SQL expert. Likewise, you don't need to be an SQL expert on every job. Actually most of the jobs require generalists rather than specialists, above all in countries where most companies are SMEs.
 
 There are very few unicorns and to a certain extent it depends a lot on the environment created.
 
 **CKA is the top Kubernetes certification but [only a few employers require one](https://kube.careers/report-2021-q4#:~:text=How%20essential%20are,quarters%20for%202021.). Same logic applies to other certifications.**
 
-It is surprising the numerous resources and the strategy of psychological exhaustion of recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again, only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner. 
+It is surprising the numerous resources and the strategy of psychological exhaustion of recruitment companies that continuously bombard us with interviews. They also force us to transfer our data to third parties without any control of where our CV ends. It is also very common to gather information from detailed CVs and interviews to afterwards publish similar JDs that can be sold as services to potential clients. Again, only the service name is what matters, not how this is implemented and whether the client have the capacity to implement it in a proper manner.
 
-As professionals we are obliged to a high commitment to our clients, sometimes sacrificing our well-being in order to achieve the objectives. Everyone has limits, sometimes being a personal decision to abandon a project without this entailing a penalty in the next job (we have given our CV to third parties without any control). An unfair bad reference (blame games) and calculated ambiguities can ruin our careers. And I'm not talking about an isolated case. 
+As professionals we are obliged to a high commitment to our clients, sometimes sacrificing our well-being in order to achieve the objectives. Everyone has limits, sometimes being a personal decision to abandon a project without this entailing a penalty in the next job (we have given our CV to third parties without any control). An unfair bad reference (blame games) and calculated ambiguities can ruin our careers. And I'm not talking about an isolated case.
 
-Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternatives often seem to be manual work with low salary expectations, lack of opportunities with new cloud jobs (better paid), promotion to a management position or emigration to countries with a different economic model (where technical jobs are better valued). This does not scale either. Freelancing worldwide is not for everyone either. 
+Losing employment and significantly penalizing employability and economic bargaining power for defending the value of automation, continuous improvement and standardization in computer engineering is a high price to pay. The alternatives often seem to be manual work with low salary expectations, lack of opportunities with new cloud jobs (better paid), promotion to a management position or emigration to countries with a different economic model (where technical jobs are better valued). This does not scale either. Freelancing worldwide is not for everyone either.
 
 > *"One of the biggest problems in IT is that we keep reinventing the wheel. We are running the same circles, producing similar technologies to solve the same problems. Reinventing the wheel is a great way to learn how the wheel works, but not an efficient way to build software"* ([@dmokafa](https://twitter.com/dmokafa))
 
-> *"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes"* ([@rakyll](https://twitter.com/rakyll)) 
+> *"Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes"* ([@rakyll](https://twitter.com/rakyll))
 
-Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called [day 2](https://dzone.com/articles/defining-day-2-operations). You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for [reinventing the wheel](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/) on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.** 
+Instead of [reinventing the wheel](https://devdriven.by/promotion/) by rewriting from scratch a new installer or ad-hoc devops tool to manage/monitor kubernetes, please pay attention to the links shared here and learn how to add value on the so called [day 2](https://dzone.com/articles/defining-day-2-operations). You will find solutions and knowledge in a practical and efficient way without being totally essential to obtain a certification to successfully complete the task. For example, if there's money for [reinventing the wheel](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development/) on day 1, then there's money for investing in these high value added solutions on day 2 where automation can significantly improve our lives and the quality of the delivered service. **Automation is also a key element when evaluating the delivery of a service.**
 
-**Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and [silos](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68) and promote digital transformation.** 
+**Nubenetes shares relevant information that helps spread the new technological and cultural standards, in order to eliminate bottlenecks and [silos](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68) and promote digital transformation.**
 
-Does saying this publicly imply being blacklisted and losing professional opportunities? What kind of society do we live in? 
+Does saying this publicly imply being blacklisted and losing professional opportunities? What kind of society do we live in?
 
 Tips: ask the hiring manager what experience they have with Cloud Automation, Cloud Managed Services and K8s in Production, if they deploy OpenShift via IPI[^1] or UPI, whether they are familiar with [Gitops](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/) as the correct way of doing DevOps, if they work with modern, easy-to-use automation tools ([terraform](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs), [ansible modules](https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html) with YAML/[Jinja templates](https://github.com/pallets/jinja/), argocd, helm, an automation server[^3] to run pipelines, declarative code in Jenkins[^4] Pipelines or in DevOps Azure Pipelines, [IaC boilerplates](https://nubenetes.com/terraform/) instead of [k8s vanilla](https://www.digitalocean.com/blog/vanilla-kubernetes-vs-managed-kubernetes), etc) or they are not practical and prefer to develop their own ad-hoc tools with millions of lines of code that need maintenance (by who?). If any doubt, ask them to show you their pipelines and custom solutions, how long it takes them to deploy and setup their k8s infra on day 1 & day 2 (pets vs cattle service model), how long it takes them to deploy a single app and if the process is fully automated or not, what monitoring solutions they have, if security and Role-based Access Control (RBAC) are implemented in their k8s clusters, whether changes and PoCs are tested first in ephemeral and isolated K8s/Cloud infra test environments with IaC & CI/CD pipelines, if solutions can be discussed within the team, etc.
 
 [^3]: Jenkins/CloudBees, Ansible Tower/AWX, Foreman, Rundeck, Azure DevOps, GitLab CI, etc.
 
 [^4]: Automation with [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc/) replaces what was previously done via [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/) and [jenkins remote REST API](https://www.jenkins.io/doc/book/using/remote-access-api/) calls (requiring backend development with tools like [swagger](https://swagger.io/) and API Testing tools like [postman](https://www.postman.com/)). Similar scenario applies to other technologies.
+
+> [*"The absolutely difficult thing is reaching volume production without going bankrupt, that is the actual hard thing"*](https://www.youtube.com/watch?v=cdZZpaB2kDM&t=2025s) Elon Musk
 
 Let's improve both the private & public IT sector and the opportunities in large, medium and small companies, and give us a star on GitHub if you like this blog!!
 
@@ -91,6 +93,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 ----
 
 ## Cloud Computing job market in 2016
+
 ??? note "Click to expand!"
 
 	<center>
@@ -106,9 +109,10 @@ Let's improve both the private & public IT sector and the opportunities in large
 	</center>
 
 ## Stats
+
 <details>
   <summary>Stats 1. Click to expand!</summary>
- 
+
 <center>  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a3bnNi2R8Vo" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/45Dt1Hdm39U" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
