@@ -81,9 +81,10 @@
 77. [ConfigMap Reloader](#configmap-reloader)
 78. [Infra](#infra)
 79. [Kluctl](#kluctl)
-80. [Kubernetes Security Tools](#kubernetes-security-tools)
-81. [Tweets](#tweets)
-82. [Videos](#videos)
+80. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
+81. [Kubernetes Security Tools](#kubernetes-security-tools)
+82. [Tweets](#tweets)
+83. [Videos](#videos)
 
 ## Introduction
 
@@ -929,6 +930,10 @@
 ## Kluctl
 
 - [kluctl.io 🌟](https://kluctl.io) Kluctl is the missing glue to put together large Kubernetes deployments. It allows you to declare and manage multi-environment and multi-cluster deployments. Kluctl does not have cluster-side dependencies and works out of the box.
+
+## k2tf Kubernetes YAML to Terraform HCL converter
+
+- [==github.com/sl1pm4t/k2tf: Kubernetes YAML to Terraform HCL converter==](https://github.com/sl1pm4t/k2tf)
 
 ## Kubernetes Security Tools
 
