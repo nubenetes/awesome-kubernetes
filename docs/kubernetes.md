@@ -103,6 +103,10 @@
 30. [Tweets 2](#tweets-2)
 31. [Memes](#memes)
 
+<center>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/410107842&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugoboomin" title="Hugo Boomin ⚡️ 🔥 💥" target="_blank" style="color: #cccccc; text-decoration: none;">Hugo Boomin ⚡️ 🔥 💥</a> · <a href="https://soundcloud.com/hugoboomin/jimmy-sax-live-at-nikki-beach-st-tropez-opus-eric-prydz" title="Jimmy Sax - Live At Nikki Beach St Tropez (Opus - Eric Prydz)" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax - Live At Nikki Beach St Tropez (Opus - Eric Prydz)</a></div>
+</center>
+
 ## Introduction
 
 - [Wikipedia.org: Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
@@ -224,6 +228,8 @@
 - [==myhistoryfeed.medium.com: Kubernetes Terminologies You Should Know!== 🌟🌟🌟](https://myhistoryfeed.medium.com/kubernetes-terminologies-you-should-know-d5372718006b)
 - [medium.com/@litombeg: Kubernetes High-Level Architecture](https://medium.com/@litombeg/kubernetes-high-level-architecture-8a39456c2023)
 - [Top 5 kubernetes challenges and their solutions](https://middleware.io/blog/kubernetes-challenges-and-solutions/)
+- [==jaffarshaik.medium.com: Kubernetes Architecture and components== 🌟](https://jaffarshaik.medium.com/kubernetes-architecture-and-components-bf637dbd0526)
+- [syedasadrazadevops.medium.com: Deep Dive Into Kubernetes: Who to run pod, node container in Kubernetes (K8s)](https://syedasadrazadevops.medium.com/deep-dive-into-kubernetes-way-to-know-about-kubernetes-6a423c262b61)
 
 ### Kubernetes Jobs Market
 
@@ -371,7 +377,6 @@
 - [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup/)
 - [blog.pixielabs.ai: Building Kubernetes Native SaaS applications: iterating quickly by deploying in-cluster data planes](https://blog.pixielabs.ai/hybrid-architecture/hybrid-architecture/)
 - [itnext.io: CKS Exam Series #9 RBAC v2](https://itnext.io/cks-exam-series-9-rbac-v2-23ee24dd77cd) Kubernetes CKS Example Exam Question Series
-- [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
 - [infoq.com: Experts Discuss Top Kubernetes Trends and Production Challenges](https://www.infoq.com/articles/kubernetes-trends-and-challenges/)
 - [blog.appstack.one: How to run Ghost blog inside Kubernetes](https://blog.appstack.one/how-to-run-ghost-blog-inside-kubernetes/)
 - [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes](https://learnk8s.io/scaling-celery-rabbitmq-kubernetes) In this article, you will explore how to use Kubernetes and KEDA to scale Celery workers based on the number of messages in a RabbitMQ queue.
@@ -686,6 +691,7 @@
     - [blog.devgenius.io: K8s — Pod Life Cycle (Part 2)](https://blog.devgenius.io/k8s-pod-life-cycle-part-2-eb7de7fb507f) In this article you'll learn Pod status, restart strategy, container initialization, Hooks for Pod, Pod Health check and resource configuration.
 - [betterprogramming.pub: Understanding Kubernetes Multi-Container Pod Patterns](https://betterprogramming.pub/understanding-kubernetes-multi-container-pod-patterns-577f74690aee) A guide to Sidecar, Ambassador, and Adapter patterns with hands-on examples.
 - [medium.com/@danielaaronw: K8s Pod Anti-affinity](https://medium.com/@danielaaronw/k8s-pod-anti-affinity-dd2667a20c5f) How to ensure high availability when scheduling pods on a kubernetes cluster.
+- [mouliveera.medium.com: How to update configmap on POD without restart](https://mouliveera.medium.com/how-to-update-configmap-on-pod-without-restart-be3c0b4433af)
 
 #### Kubernetes ConfigMaps
 
@@ -857,6 +863,7 @@
 - [blog.devgenius.io: Kubernetes Blue-Green Deployment](https://blog.devgenius.io/kubernetes-blue-green-deployment-a69ed17cd4cd)
 - [prakashkumar0301.medium.com: Blue-Green Deployment with Kubernetes](https://prakashkumar0301.medium.com/blue-green-deployment-with-kubernetes-a37a534a2ef4)
 - [emirayhan.medium.com: Kubernetes (k8s) Deployment Strategies](https://emirayhan.medium.com/kubernetes-k8s-deployment-strategies-eb3a0f5cbc49)
+- [faun.pub: Kubernetes Deployment Strategies](https://faun.pub/kubernetes-deployment-strategies-f36e7e4d2be) In this post, we will delve into Kubernetes (K8s) deployment concepts and some common strategies, looking at the advantages and disadvantages of each. A suitable deployment strategy enables you to minimize downtime, enhance your customer experience, and increase reliability when releasing your application.
 
 ### Kubernetes API
 
@@ -1553,6 +1560,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When it comes to YAML manifests for Kubernetes, is it Best Practice to create individual YAML files for each object (namespace, secret, configmap, deployment, statefulset...) or do people put everything in the one YAML?</p>&mdash; Michael Cade (@MichaelCade1) <a href="https://twitter.com/MichaelCade1/status/1557632373939965953?ref_src=twsrc%5Etfw">August 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s funny: everyone thinks CPU requests are only used for scheduling (WRONG) and memory requests determine who gets OOMKilled (WRONG) but it&#39;s actually the opposite! <br><br>At runtime, memory requests do nothing, but CPU requests DO.<a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> is funny like that</p>&mdash; Natan Yellin (@aantn) <a href="https://twitter.com/aantn/status/1563451637523677186?ref_src=twsrc%5Etfw">August 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reducing infrastructure costs boils down to turning apps off when you don&#39;t use them<br><br>That&#39;s easy to do manually, but how to turn them on automatically when you need them?<br><br>You can do so with a scale-to-zero strategy<br><br>Let me show you how to implement it in Kubernetes <a href="https://t.co/YDqbAQlWUK">pic.twitter.com/YDqbAQlWUK</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1569299702738309121?ref_src=twsrc%5Etfw">September 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -1582,6 +1591,8 @@
     <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Container orchestration competition <a href="https://t.co/JPDu4BWhgZ">pic.twitter.com/JPDu4BWhgZ</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1508474276235599875?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Watching devs using Kubernetes <a href="https://t.co/uxGr2bP98c">pic.twitter.com/uxGr2bP98c</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1511011120517165064?ref_src=twsrc%5Etfw">April 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you are the only one that knows Kubernetes and are asked to help <a href="https://t.co/VIomvubkkj">pic.twitter.com/VIomvubkkj</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1569355541876559872?ref_src=twsrc%5Etfw">September 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -65,7 +65,8 @@
 - [==devops.com: How Are API Management and Service Mesh Different?==](https://devops.com/how-are-api-management-and-service-mesh-different/)
 - [devops.com: When to Use API Management and Service Mesh Together](https://devops.com/when-to-use-api-management-and-service-mesh-together/)
 - [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
-- [infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟](https://www.infoq.com/presentations/5-challenges-mesh/) 
+- [infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟](https://www.infoq.com/presentations/5-challenges-mesh/)
+- [medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul](https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630)
 
 ## Service Mesh and API Gateways
 
@@ -120,6 +121,7 @@
 - [linkerd.io: Announcing automated multi-cluster failover for Kubernetes](https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/)
 - [thenewstack.io: Is Linkerd Winning the Service Mesh Race?](https://thenewstack.io/is-linkerd-winning-the-service-mesh-race/)
 - [medium.com/attest-product-and-technology: Debugging mislabelled route metrics from Linkerd](https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a)
+- [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12) In this webinar, you'll hear all about the Linkerd 2.12 release and what you need to know to upgrade. This massive release introduces route-based policy to Linkerd, allowing users to define and enforce authorization policies based on HTTP paths or gRPC methods in a fully zero-trust way. It also introduces support for iptables-nft and Apache-style access logging, authorizes all probes by default (even in default-deny clusters), and includes a host of other improvements and performance enhancements.
 
 ## Maesh Service Mesh
 
@@ -137,12 +139,13 @@
 
 - [L7 Internal HTTP(S) Load Balancing overview](https://cloud.google.com/load-balancing/docs/l7-internal/)
 
-## Envoy Proxy Service Mesh 
+## Envoy Proxy Service Mesh
 
 - [Envoy](https://www.envoyproxy.io/)
 - [Examining Load Balancing Algorithms with Envoy](https://blog.envoyproxy.io/examining-load-balancing-algorithms-with-envoy-1be643ea121c)
 - [solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟](https://www.solo.io/blog/why-the-control-plane-matters/)
 - [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) Glue the Kubernetes API to Envoy's xDS APIs
+- [amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy](https://amalaruja.medium.com/basic-http-routing-strategies-with-envoy-376be42559eb)
 
 ### xDS protocol (Envoy's Discovery Service Protocol)
 

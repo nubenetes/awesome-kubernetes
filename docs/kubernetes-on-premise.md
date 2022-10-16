@@ -14,9 +14,10 @@
 12. [ClusterAPI](#clusterapi)
 13. [Microk8s](#microk8s)
 14. [k8s-tew](#k8s-tew)
-15. [Zarf. DevSecOps for Air Gap Systems](#zarf-devsecops-for-air-gap-systems)
-16. [Kubernetes Operating Systems](#kubernetes-operating-systems)
-17. [Kubernetes Distributions](#kubernetes-distributions)
+15. [Project Neco](#project-neco)
+16. [Zarf. DevSecOps for Air Gap Systems](#zarf-devsecops-for-air-gap-systems)
+17. [Kubernetes Operating Systems](#kubernetes-operating-systems)
+18. [Kubernetes Distributions](#kubernetes-distributions)
     1. [Red Hat OpenShift](#red-hat-openshift)
     2. [Rancher](#rancher)
     3. [Weave Kubernetes Platform](#weave-kubernetes-platform)
@@ -151,16 +152,21 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [MicroK8s & Kubernetes security benchmark from CIS](https://github.com/didier-durand/microk8s-kube-bench)
 - [cloudsavvyit.com: How to run your own kubernetes cluster with Microk8s](https://www.cloudsavvyit.com/13024/how-to-run-your-own-kubernetes-cluster-with-microk8s)
 - [thenewstack.io: Deploy Microk8s and the Kubernetes Dashboard for K8s Development](https://thenewstack.io/deploy-microk8s-and-the-kubernetes-dashboard-for-k8s-development/)
+- [thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/)
 
 ## k8s-tew
 
 - [**k8s-tew**](https://github.com/darxkies/k8s-tew) Kubernetes is a fairly complex project. For a newbie it is hard to understand and also to use. While [Kelsey Hightower’s Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way), on which this project is based, helps a lot to understand Kubernetes, it is optimized for the use with Google Cloud Platform.
 
+## Project Neco
+
+- [cybozu-go/neco](https://github.com/cybozu-go/neco) Neco is a project to build and maintain highly automated on-premise data centers using Kubernetes. A Neco data center consists of a few (from 3 to 5) management servers called boot servers and thousands of servers for Kubernetes clusters.
+
 ## Zarf. DevSecOps for Air Gap Systems
 
 - [defenseunicorns/zarf](https://github.com/defenseunicorns/zarf) DevSecOps for Air Gap & Limited-Connection Systems. Zarf massively simplifies the setup & administration of kubernetes clusters, cyber systems & workloads that support DevSecOps "across the air gap".
 
-## Kubernetes Operating Systems 
+## Kubernetes Operating Systems
 
 - [kubedex.com: Kubernetes Operating Systems 🌟](https://kubedex.com/kubernetes-operating-systems/)
 
@@ -168,7 +174,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 - [acloudguru.com: Which Kubernetes distribution is right for you?](https://acloudguru.com/blog/engineering/which-kubernetes-distribution-is-right-for-you)
 
-### Red Hat OpenShift 
+### Red Hat OpenShift
 
 - [Openshift Container Platform](openshift.md)
 - [OKD](https://www.okd.io/) The Community Distribution of Kubernetes that powers Red Hat OpenShift

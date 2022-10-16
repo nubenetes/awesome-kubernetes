@@ -232,6 +232,7 @@
 - [==realpython.com/learning-paths: Python Learning Paths== 🌟🌟🌟](https://realpython.com/learning-paths/) Take your coding skills to the next level with Real Python’s accelerated study plans for beginner, intermediate, and advanced Python developers.
 - [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python/)
 - [betterprogramming.pub: Python List Comprehensions Are More Powerful Than You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0) Write better list comprehensions with the help of these unknown features and tricks
+- [medium.com/@yonatanzunger: Advanced Python: Achieving High Performance with Code Generation 🌟🌟](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
 
 ## PHP vs Python
 

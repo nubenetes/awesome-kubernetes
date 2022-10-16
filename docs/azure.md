@@ -29,21 +29,23 @@
 20. [Azure Bicep](#azure-bicep)
 21. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
 22. [Azure Traffic Manager](#azure-traffic-manager)
-23. [Azure OpenVPN](#azure-openvpn)
-24. [Azure Security](#azure-security)
-25. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-26. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-27. [Windows 11](#windows-11)
-28. [Azure API Management](#azure-api-management)
-29. [Azure Container Apps](#azure-container-apps)
-30. [Azure Container Instances](#azure-container-instances)
-31. [Windows Server Container Host](#windows-server-container-host)
-32. [Disaster Recovery](#disaster-recovery)
-33. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-34. [Office 365](#office-365)
-35. [Images](#images)
-36. [Videos](#videos)
-37. [Tweets](#tweets)
+23. [Azure DNS](#azure-dns)
+24. [Azure OpenVPN](#azure-openvpn)
+25. [Azure Security](#azure-security)
+26. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+27. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+28. [Windows 11](#windows-11)
+29. [Azure API Management](#azure-api-management)
+30. [Azure Container Apps](#azure-container-apps)
+31. [Azure Container Instances](#azure-container-instances)
+32. [Windows Server Container Host](#windows-server-container-host)
+33. [Disaster Recovery](#disaster-recovery)
+34. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+35. [Azure Healthcare Data Services](#azure-healthcare-data-services)
+36. [Office 365](#office-365)
+37. [Images](#images)
+38. [Videos](#videos)
+39. [Tweets](#tweets)
 
 ## Azure
 
@@ -313,6 +315,10 @@
 
 - [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)
 
+## Azure DNS
+
+- [learn.microsoft.com: What is Azure DNS Private Resolver?](https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview) Azure DNS Private Resolver is a new service that enables you to query Azure DNS private zones from an on-premises environment and vice versa without deploying VM based DNS servers. Customers will no longer need to provision IaaS based solutions on their Virtual Networks to resolve names registered on Azure Private DNS Zones and will be able to do conditional forwarding of domains back to on-prem, multi-cloud and public DNS servers.
+
 ## Azure OpenVPN
 
 - [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)
@@ -390,6 +396,14 @@
     - https://github.com/Azure/azure-quickstart-templates
 - [microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟](https://github.com/microsoft/azure-pipelines-yaml/) YAML templates, samples, and community interaction for designing Azure Pipelines.
     - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml)
+
+## Azure Healthcare Data Services
+
+- [Microsoft - DICOM Service](https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/)
+    - [github.com/microsoft/dicom-server](https://github.com/microsoft/dicom-server) OSS Implementation of DICOMweb standard
+    - [github.com/microsoft/fhir-server](https://github.com/microsoft/fhir-server) A service that implements the FHIR standard
+- [Project InnerEye – Democratizing Medical Imaging AI](https://www.microsoft.com/en-us/research/project/medical-image-analysis/)
+    - [github.com/microsoft/InnerEye-Gateway](https://github.com/microsoft/InnerEye-Gateway) The InnerEye-Gateway is a Windows service that acts as a DICOM end point to run inference on https://github.com/microsoft/InnerEye-DeepLearning models.
 
 ## Office 365
 

@@ -12,6 +12,7 @@
 - [betterprogramming.pub: Solutions Architect Tips — The 5 Types of Architecture Diagrams](https://betterprogramming.pub/solutions-architect-tips-the-5-types-of-architecture-diagrams-eb0c11996f9e) The flow, service, persona, infrastructure, and developer diagram
 - [alibabacloud.com: How to Create an Effective Technical Architectural Diagram?](https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100)
 - [learningdaily.dev: Software architecture diagramming and patterns](https://learningdaily.dev/software-architecture-diagramming-and-patterns-7d38999e7a12)
+
 ## MultiCloud
 
 - [CloudSkew](https://www.cloudskew.com/) Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool
@@ -66,6 +67,7 @@
     - Perspective displays indicative costing data for the resources in your diagrams and works cross-account and cross-region.
     - Perspective is open source and has an open road map. Feel free to raise issues and contribute to future development!
 - [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks or draw.io diagrams.
+- [==alanblackmore.medium.com: AWS Diagram Architecture==](https://alanblackmore.medium.com/aws-diagram-architecture-afb50ea569a4)
 
 ## Google Cloud Architecture Diagramming Tool
 

@@ -24,6 +24,7 @@
 16. [Security Profiles Operator](#security-profiles-operator)
 17. [EKS Security](#eks-security)
 18. [CVE](#cve)
+    1. [Official Kubernetes CVE Feed](#official-kubernetes-cve-feed)
 19. [Videos](#videos)
 20. [Tweets](#tweets)
 
@@ -227,6 +228,11 @@
 - [==cloud.redhat.com: A Guide to Secrets Management with GitOps and Kubernetes== 🌟](https://cloud.redhat.com/blog/a-guide-to-secrets-management-with-gitops-and-kubernetes) **This article will discuss two architectural approaches to managing secrets with GitOps: encrypted secrets stored in Git and storing a reference to secrets in Git**
 - [itnext.io: Vault cluster with auto unseal on Kubernetes](https://itnext.io/vault-cluster-with-auto-unseal-on-kubernetes-8e469f9cdcfd)
 - [pjame-fb.medium.com: Kubernetes Secrets from Secrets Manager using External Secrets Operators](https://pjame-fb.medium.com/kubernetes-secrets-from-secrets-manager-using-external-secrets-operators-4819562c3b02) In this article, you will learn how to store your credentials in the Secrets Manager and automatically retrieve them for creating Kubernetes Secrets using External Secrets.
+- [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) In this article, you will compare the External Secrets Operator with Secret Storage CSI for using external secrets in a Kubernetes cluster. You will compare:
+    - Architecture
+    - Authorization management
+    - Resource usage
+    - GitOps friendliness
 
 ## Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
 
@@ -272,6 +278,7 @@
 - [==learnk8s.io/rbac-kubernetes: Limiting access to Kubernetes resources with RBAC== 🌟](https://learnk8s.io/rbac-kubernetes)
     - [==medium.com/@danielepolencic: How does RBAC work in kubernetes== 🌟](https://medium.com/@danielepolencic/how-does-rbac-work-in-kubernetes-d50dd34771ca) A short and visual thread on how Kubernetes RBAC works in Kubernetes
 - [==dominik-tornow.medium.com: Inside Kubernetes RBAC==](https://dominik-tornow.medium.com/inside-kubernetes-rbac-9988b08a738a)
+- [==medium.com/@jtdv01: Kubernetes Authorization and Role Based Access Controls== 🌟](https://medium.com/@jtdv01/kubernetes-authorization-and-role-based-access-controls-ca0b7acc17a4) 
 
 ### Tools
 
@@ -389,6 +396,11 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 
 - [hackerone.com: Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces](https://hackerone.com/reports/1249583)
 - [blog.lightspin.io: NGINX Custom Snippets CVE-2021-25742](https://blog.lightspin.io/nginx-custom-snippets-cve-2021-25742)
+
+### Official Kubernetes CVE Feed
+
+- [==kubernetes.io: Official CVE Feed== 🌟](https://kubernetes.io/docs/reference/issues-security/official-cve-feed/)
+- [kubernetes.io: Announcing the Auto-refreshing Official Kubernetes CVE Feed](https://kubernetes.io/blog/2022/09/12/k8s-cve-feed-alpha/)
 
 ## Videos
 

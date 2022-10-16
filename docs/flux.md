@@ -1,5 +1,10 @@
 # Flux. The GitOps operator for Kubernetes
 
+1. [Introduction](#introduction)
+2. [Templates](#templates)
+
+## Introduction
+
 - [Flux](https://fluxcd.io/) The GitOps operator for Kubernetes
 - [docs.fluxcd.io](https://docs.fluxcd.io/)
 - [github: Flux](https://github.com/fluxcd/flux)
@@ -33,3 +38,7 @@
 - [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) This is a tutorial to show how could we use Flux Subsystem for Argo (FSA) to bring the Terraform management feature from the Flux world to your Argo CD UI. In order to do so, we need Weave GitOps Terraform Controller to help us reconcile our Terraform resources.
 - [blog.ediri.io: Flux With Buckets: Is This Still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) How to use the Flux Bucket component with AWS S3 with Civo and Pulumi. Flux Bucket is a simple way to deploy your kubernetes manifests to a S3 bucket and then use Flux to deploy them
     - [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket)
+
+## Templates
+
+- [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/flux-cluster-template) Highly opinionated template for deploying a single Kubernetes (k3s) cluster with Ansible and Terraform backed by Flux, SOPS, GitHub Actions, Renovate and more!

@@ -36,6 +36,12 @@
 - [github.com/kubernetes-client/python-base](https://github.com/kubernetes-client/python-base)
 - [==medium.com/@dimitrijevskiv: Monitor Kubernetes pod status from a Jenkins pipeline==](https://medium.com/@dimitrijevskiv/monitor-kubernetes-pod-status-from-a-jenkins-pipeline-e25c744d944d)
 - [blog.devgenius.io: Automate Kubernetes With Python 🌟](https://blog.devgenius.io/automate-kubernetes-with-python-2150c290afe7) The Kubernetes Python module is a very powerful client that allows you to easily automate interactions with a Kubernetes cluster.
+- [martinheinz.dev/blog/73: Automate All the Boring Kubernetes Operations with Python 🌟](https://martinheinz.dev/blog/73) In this article, you will look at how you can leverage the Kubernetes Python Client library to automate any tasks. Examples:
+    - Triggering a rollout
+    - Scaling a deployment
+    - Applying taints
+    - Retrieving metrics
+    - Backing up all resources in a namespace
 
 ## Java Clients for Kubernetes
 

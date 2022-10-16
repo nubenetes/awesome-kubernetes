@@ -527,6 +527,7 @@
     - [medium.com/@michaeljguarino: How we Created an in-Browser Kubernetes Experience](https://medium.com/@michaeljguarino/how-we-created-an-in-browser-kubernetes-experience-58c065cda803)
 - [pan-net-security/kcount](https://github.com/pan-net-security/kcount) kcount counts Kubernetes objects across namespaces and clusters. It can be used as a CLI tool or as a daemon (service) exposing Prometheus metrics.
 - [cloudtty/cloudtty: A Kubernetes Cloud Shell (Web Terminal) Operator](https://github.com/cloudtty/cloudtty) A Friendly Kubernetes CloudShell (Web Terminal) !
+- [jthomperoo/k8shorizmetrics](https://github.com/jthomperoo/k8shorizmetrics) k8shorizmetrics is a library that provides the internal workings of the Kubernetes Horizontal Pod Autoscaler (HPA) wrapped up in a simple API. The project allows querying metrics just as the HPA does, and also running the calculations.
 
 ## Penetration Testing Tools
 

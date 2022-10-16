@@ -117,6 +117,7 @@
     - Don't have a live-reload feature
     - Use `subPath` while mounting a ConfigMap or Secret
     - Use Projected Volumes
+- [==faun.pub: A Definitive guide to Kubernetes Operator — The crawl!==](https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b)
 
 ## Creating Kubernetes operator using Kubebuilder
 

@@ -126,6 +126,13 @@
     4. Graceful shutdown - be able to handle a sigterm in kubernetes
 
 - [medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno](https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad)
+- [medium.com/@haseebshaukat2: Kyverno — Policy Engine for Kubernetes | Muhammad Haseeb Shaukat](https://medium.com/@haseebshaukat2/kyverno-policy-engine-for-kubernetes-b49f3fac43b9)
+- [youtube: The Rise of Kubernetes Policy Engine | Ep 57](https://www.youtube.com/watch?v=0TvhTXddRGE&t=12s) Learn how to prepare for Pod Security Policies removal in Kubernetes V1.25 with Kyverno 1.8:
+    - YAML signing and verification
+    - Pod security admission integrations
+    - Clone multiple resources
+    - OpenTelemetry
+    - Multi-tenancy
 
 ### Kyverno E-Learning
 

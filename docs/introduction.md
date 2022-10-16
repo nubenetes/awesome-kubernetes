@@ -46,6 +46,10 @@
 43. [Videos](#videos)
 44. [Tweets](#tweets)
 
+<center>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468480528&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/raymond-mnt" title="RAYMOND MNT" target="_blank" style="color: #cccccc; text-decoration: none;">RAYMOND MNT</a> · <a href="https://soundcloud.com/raymond-mnt/jimmy-sax-parga-oriental-sax" title="Jimmy Sax - Parga (Oriental sax ).mp3" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax - Parga (Oriental sax ).mp3</a></div>
+</center>
+
 ## Introduction
 
 - [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
@@ -219,6 +223,8 @@
 - [medium.com/@nadinCodeHat: HTTP based Microservices is a bad idea 🌟](https://medium.com/@nadinCodeHat/http-based-microservices-is-a-bad-idea-670d3db29ca6)
 - [medium.com/qe-unit: Microservices — Do You Need Them? Are You Ready? 🌟](https://medium.com/qe-unit/the-microservices-adoption-roadmap-e37f3f32877)
 - [alibabacloud.com: Getting Started with Kubernetes | Deep Dive into Kubernetes Core Concepts](https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896)
+- [micahlerner.com: Automatic Reliability Testing For Cluster Management Controllers](https://www.micahlerner.com/2022/07/24/automatic-reliability-testing-for-cluster-management-controllers.html)
+- [cloudnativeislamabad.hashnode.dev: Virtualization vs Containerization](https://cloudnativeislamabad.hashnode.dev/virtualization-vs-containerization) Virtual Machines vs Docker
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -238,7 +244,7 @@
 
 ## Service-Oriented Arhitecture vs Event-Driven Architecture
 
-- [==eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture== 🌟](https://www.eventstore.com/blog/service-oriented-architecture-vs-event-driven-architecture) **SOA vs EDA: which should you use? Best article about EventSourcing CQRS related patterns and usages. A close-to-a-must-read for those who wants to clarify and understand better.**
+- [==eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture== 🌟](https://www.eventstore.com/blog/service-oriented-architecture-vs-event-driven-architecture) __SOA vs EDA: which should you use? Best article about EventSourcing CQRS related patterns and usages. A close-to-a-must-read for those who wants to clarify and understand better.__
 
 ## Cloud Native
 
@@ -268,6 +274,8 @@
 - [maheshwari-bittu.medium.com: Why Event-Driven Architecture (EDA) is needed? 🌟](https://maheshwari-bittu.medium.com/why-event-driven-architecture-eda-is-needed-fac2f00f25a8)
 - [medium.com/rocco-scaramuzzi-tech: Event-Driven Microservice Architecture, don’t use only events but use commands too!](https://medium.com/rocco-scaramuzzi-tech/event-driven-microservice-architecture-dont-use-only-events-but-use-commands-too-b8694d370436)
 - [deeptimittalblogger.medium.com: Event driven architecture](https://deeptimittalblogger.medium.com/event-driven-architecture-111f504a8cbc)
+- [medium.com/mcdonalds-technical-blog: Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86) We explore our journey of developing a unified platform enabling real-time, event-driven architectures.
+    - [medium.com/mcdonalds-technical-blog: McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
 
 ## Multi-Tenancy Architecture
 

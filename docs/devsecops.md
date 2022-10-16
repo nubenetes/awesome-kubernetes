@@ -1,4 +1,5 @@
-# DevSecOps and Security. Container Security
+# DevSecOps and Security. Container
+
 1. [Introduction](#introduction)
 2. [Kubernetes Security Compliance Frameworks](#kubernetes-security-compliance-frameworks)
 3. [Zero Trust Security](#zero-trust-security)
@@ -8,6 +9,7 @@
 6. [16 Gates](#16-gates)
 7. [Kubernetes Threat Modelling](#kubernetes-threat-modelling)
 8. [Kubernetes Config Security Threats](#kubernetes-config-security-threats)
+    1. [Kubernetes Ingress Security](#kubernetes-ingress-security)
 9. [Security Linting on Kubernetes](#security-linting-on-kubernetes)
 10. [IaC and Security](#iac-and-security)
 11. [Multi-Level Security (MLS) vs Multi-Category Security (MCS). Make Secure Pipelines with Podman and Containers](#multi-level-security-mls-vs-multi-category-security-mcs-make-secure-pipelines-with-podman-and-containers)
@@ -254,8 +256,12 @@
 ## Kubernetes Config Security Threats
 
 - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root/)
-- [mirantis.com: Introduction to Istio Ingress: The easy way to manage incoming Kubernetes app traffic](https://www.mirantis.com/blog/introduction-to-istio-ingress-the-easy-way-to-manage-incoming-kubernetes-app-traffic/) Leaving your cluster exposed can be risky. That's why you need Istio Ingress, which only exposes the part that handles incoming traffic & allows routing rules based on routes, headers, IP addresses and more.
 - [thenewstack.io: How Kubernetes vulnerabilities have shifted since the first attacks](https://thenewstack.io/how-kubernetes-vulnerabilities-have-shifted-since-the-first-api-attacks/)
+
+### Kubernetes Ingress Security
+
+- [mirantis.com: Introduction to Istio Ingress: The easy way to manage incoming Kubernetes app traffic](https://www.mirantis.com/blog/introduction-to-istio-ingress-the-easy-way-to-manage-incoming-kubernetes-app-traffic/) Leaving your cluster exposed can be risky. That's why you need Istio Ingress, which only exposes the part that handles incoming traffic & allows routing rules based on routes, headers, IP addresses and more.
+- [==armosec.io: How to secure Kubernetes Ingress?==](https://www.armosec.io/blog/kubernetes-ingress-security/) This article will look into how you can secure Ingress resources via adding TLS to Ingress and then procuring TLS/SSL certificates.
 
 ## Security Linting on Kubernetes
 

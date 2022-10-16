@@ -2,8 +2,9 @@
 
 1. [Introduction](#introduction)
 2. [GitOps Working Group](#gitops-working-group)
-3. [Git Repositories Structures](#git-repositories-structures)
-4. [GitOps Tools](#gitops-tools)
+3. [OpenGitOps Project](#opengitops-project)
+4. [Git Repositories Structures](#git-repositories-structures)
+5. [GitOps Tools](#gitops-tools)
     1. [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
     2. [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
     3. [Flagger](#flagger)
@@ -16,16 +17,20 @@
     10. [OpenShift Applier](#openshift-applier)
     11. [HashiCorp Waypoint](#hashicorp-waypoint)
     12. [Weave GitOps](#weave-gitops)
-5. [GitOps Frameworks](#gitops-frameworks)
-6. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
+6. [GitOps Frameworks](#gitops-frameworks)
+7. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     1. [OpenShift GitOps](#openshift-gitops)
     2. [AWS Kubernetes](#aws-kubernetes)
     3. [Weave Kubernetes Platform](#weave-kubernetes-platform)
     4. [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
-7. [APIOps](#apiops)
-8. [Images](#images)
-9. [Tweets](#tweets)
-10. [Videos](#videos)
+8. [APIOps](#apiops)
+9. [Images](#images)
+10. [Tweets](#tweets)
+11. [Videos](#videos)
+
+<center>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/636487902&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/alessandro-donofrio-5" title="Alemix Donofrio" target="_blank" style="color: #cccccc; text-decoration: none;">Alemix Donofrio</a> · <a href="https://soundcloud.com/alessandro-donofrio-5/jimmy-sax-time" title="Jimmy Sax -  Time" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax -  Time</a></div>
+</center>
 
 ## Introduction
 
@@ -174,6 +179,10 @@
     - Automated delivery (provision and manage the resource from the definition using automation)
     - Software Agents (implement automated configuration management for the resource)
     - Closed loop (build the delivery pipeline for integration testing for resource changes)
+
+## OpenGitOps Project
+
+- [github.com/open-gitops/project 🌟](https://github.com/open-gitops/project) OpenGitOps is a CNCF Sandbox project to define a vendor-neutral, principle-led meaning of GitOps. This will establish a foundation for interoperability between tools, conformance, and certification through lasting programs, documents, and code.
 
 ## Git Repositories Structures
 

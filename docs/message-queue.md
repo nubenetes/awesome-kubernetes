@@ -344,6 +344,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium.com/altitudehq: Kafka retries and maintaining the order of retry events 🌟](https://medium.com/altitudehq/kafka-retries-and-maintain-order-of-retry-events-313482044351)
 - [medium.com/cloudnesil: Kafka Streams State Store at Scale](https://medium.com/cloudnesil/kafka-streams-state-store-at-scale-390d9717b42a) Managing Interactive Queries on multiple application instances Alternative solutions and their comparisons.
 - [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5) In this article, you will learn how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.
+- [==medium.com/@hardiktaneja_99752: Lessons after running Kafka in production== 🌟](https://medium.com/@hardiktaneja_99752/lessons-after-running-kafka-in-production-626974ffd700) TLDR: Have atleast as many paritions (P) as max number of consumers(C), but number of partitions should always be multiple of number of consumers. P = n * C, n =1,2,3…
+- [==betterprogramming.pub: Monitoring Kafka Applications — Implementing Healthchecks and Tracking Lag==](https://betterprogramming.pub/monitoring-kafkaapplications-implementing-healthchecks-and-tracking-lag-3976cc6f00d5) For KafkaConsumer, Streams, Spring-Kafka, Kafka-Connect
 
 #### Kafka Tools
 

@@ -242,6 +242,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/)
 - [andrewlock.net: Installing Docker Desktop for Windows and WSL 2](https://andrewlock.net/installing-docker-desktop-for-windows/)
+- [medium.com/@adeelsubhan25: How to setup and build Docker Images on Windows](https://medium.com/@adeelsubhan25/how-to-setup-and-build-docker-images-on-windows-baf252152aca)
 
 ## Docker and Docker Swarm Cheat sheets
 

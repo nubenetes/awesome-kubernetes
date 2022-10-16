@@ -6,12 +6,13 @@
 2. [Audi](#audi)
 3. [Volkswagen](#volkswagen)
 4. [Mercedes Benz](#mercedes-benz)
-5. [Carrefour Spain](#carrefour-spain)
-6. [Decathlon](#decathlon)
-7. [Deutsche Telekom](#deutsche-telekom)
-8. [AstraZeneca](#astrazeneca)
-9. [AI for Medical Imaging](#ai-for-medical-imaging)
-10. [Videos](#videos)
+5. [IDRA Group](#idra-group)
+6. [Carrefour Spain](#carrefour-spain)
+7. [Decathlon](#decathlon)
+8. [Deutsche Telekom](#deutsche-telekom)
+9. [AstraZeneca](#astrazeneca)
+10. [AI for Medical Imaging](#ai-for-medical-imaging)
+11. [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
 
@@ -61,6 +62,10 @@
 - [genbeta.com: El software de los coches de Mercedes contiene código abierto y en vez de distribuirlo en GitHub usan un CD](https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd)
 - [youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens Erat, Peter Mueller, Sabine Wolz](https://www.youtube.com/watch?v=UmbjwSK9b3I)
 
+## IDRA Group
+
+- [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any day now](https://www.teslarati.com/idra-9000-ton-giga-press/)
+
 ## Carrefour Spain
 
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
@@ -97,6 +102,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/98kIAzye8gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/aGQF5RvByNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/T36Gr1OtdJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlguwy9JMSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7-4yOx1CnXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?start=2024" frameborder="0" allowfullscreen></iframe>

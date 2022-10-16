@@ -368,7 +368,8 @@ done
     - [==logz.io: Beginner’s Guide to OpenTelemetry== 🌟](https://logz.io/learn/opentelemetry-guide/)
     - [timescale.com: Kubernetes Observability in One Command: How to Generate and Store OpenTelemetry Traces Automatically](https://www.timescale.com/blog/generate-and-store-opentelemetry-traces-automatically/) If your microservices are written in languages currently supported by the OpenTelemetry Operator, you can start collecting and storing traces with minimal manual work. Learn how to do so with the tobs stack in Kubernetes.
     - [trstringer.com: Observability with OpenTelemetry Part 1 - Introduction](https://trstringer.com/otel-part1-intro/)
-- A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**. 
+    - [medium.com/apache-apisix: End-to-end tracing with OpenTelemetry](https://medium.com/apache-apisix/end-to-end-tracing-opentelemetry-a50fceafed74)
+- A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**.
 - **Tracing** is about analyzing, recording, and describing transactions.
 - **Distributed Tracing:** Troubleshooting requests between interconnected cloud-based microservices can’t always be done with logs and metrics alone. This is where distributed tracing comes into play: It provides developers with a  detailed view of individual requests as they “hop” through a system of microservices. With **distributed tracing** you can:
     - Trace the path of a request as it travels across a complex system.

@@ -21,14 +21,16 @@
     13. [MinIO](#minio)
     14. [NetApp Data Store](#netapp-data-store)
     15. [Stork Storage Operator](#stork-storage-operator)
+    16. [Curve - OpenCurve](#curve---opencurve)
 7. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
 8. [Kubestr](#kubestr)
 9. [VolSync](#volsync)
-10. [Images](#images)
-11. [Tweets](#tweets)
-12. [Videos](#videos)
+10. [Discoblocks](#discoblocks)
+11. [Images](#images)
+12. [Tweets](#tweets)
+13. [Videos](#videos)
 
 ## Introduction
 
@@ -185,6 +187,10 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 - [libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes](https://github.com/libopenstorage/stork) Stork - Storage Orchestration Runtime for Kubernetes
 
+### Curve - OpenCurve
+
+- [Curve: opencurve.io](https://opencurve.io) Curve is a high-performance, lightweight-operation, cloud-native open source distributed storage system for Kubernetes/OpenStack. Curve can also be used as a cloud storage middleware using S3-compatible object storage as a data storage engine.
+
 ## OpenShift Container Storage Operator (OCS)
 
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
@@ -219,7 +225,11 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 ## VolSync
 
 - [VolSync 🌟](https://github.com/backube/volsync) Asynchronous data replication for Kubernetes volumes. VolSync asynchronously replicates Kubernetes persistent volumes between clusters using either rsync or rclone. It also supports creating backups of persistent volumes via restic.
-- [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/) VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters! 
+- [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere/) VolSync, a new storage-agnostic utility for exporting and importing objects from one Kubernetes namespace to another, even across clusters!
+
+## Discoblocks
+
+- [Discoblocks: ondat.io/discoblocks](https://www.ondat.io/discoblocks) - [github.com/ondat/discoblocks](https://github.com/ondat/discoblocks) Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.
 
 ## Images
 

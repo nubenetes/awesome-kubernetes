@@ -131,6 +131,7 @@
     - Intra pod networking & pause container
     - Kubernetes networking model
 - [==dev.to: Tune up your Kubernetes Application Performance with a small DNS Configuration==](https://dev.to/imjoseangel/tune-up-your-kubernetes-application-performance-with-a-small-dns-configuration-1o46)
+- [medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding ClusterIp and nodePort with hands on study](https://medium.com/@mehmetodabashi/kubernetes-networking-and-service-object-understanding-clusterip-and-nodeport-with-hands-on-study-90cfeaf66e8c)
 
 ## NetworkPolicy
 

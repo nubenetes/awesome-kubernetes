@@ -3,6 +3,7 @@
 1. [Introduction](#introduction)
 2. [Cluster Autoscaler Kubernetes Tool](#cluster-autoscaler-kubernetes-tool)
 3. [HPA and VPA](#hpa-and-vpa)
+    1. [Kubernetes Scale to Zero](#kubernetes-scale-to-zero)
 4. [Cluster Autoscaler and Helm](#cluster-autoscaler-and-helm)
 5. [KEDA Kubernetes-based Event-Driven Autoscaler](#keda-kubernetes-based-event-driven-autoscaler)
 6. [Cluster Autoscaler and DockerHub](#cluster-autoscaler-and-dockerhub)
@@ -85,6 +86,12 @@
 - [medium.com/@kewynakshlley: Performance evaluation of the autoscaling strategies vertical and horizontal using Kubernetes](https://medium.com/@kewynakshlley/performance-evaluation-of-the-autoscaling-strategies-vertical-and-horizontal-using-kubernetes-42d9a1663e6b) Scalable applications may adopt horizontal or vertical autoscaling to dynamically provision resources in the cloud. To help to choose the best strategy, this work aims to compare the performance of horizontal and vertical autoscaling in Kubernetes. Through measurement experiments using synthetic load to a web application, the horizontal was shown more efficient, reacting faster to the load variation and resulting in a lower impact on the application response time.
 - [itnext.io: Stupid Simple Scalability](https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6)
 - [faun.pub: Scaling Your Application Using Kubernetes - Harness | Pavan Belagatti](https://faun.pub/scaling-your-application-using-kubernetes-9ad0d6bcf0d6)
+- [dnastacio.medium.com: Infinite scaling with containers and Kubernetes](https://dnastacio.medium.com/kubernetes-resources-1a1fa1e72dcf) The article starts with a recap of Kubernetes resource management and its core concepts of requests and limits. Then it discusses those static limits in the realm of pod autoscalers, such as HPA, VPA, and KPA.
+
+### Kubernetes Scale to Zero
+
+- [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
+- [==dev.to/danielepolencic: Request-based autoscaling in Kubernetes: scaling to zero==](https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73)
 
 ## Cluster Autoscaler and Helm
 

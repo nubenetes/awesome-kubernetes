@@ -104,6 +104,7 @@
     - Deleting the state
 - [dev.to: HULL Tutorial 01: Introducing HULL, the Helm Universal Layer Library](https://dev.to/gre9ory/hull-tutorial-01-introducing-hull-the-helm-universal-layer-library-4njb)
 - [medium.com/@lasithih927: Helm on Kubernetes - Zero to Hero in 5 Minutes 🌟](https://medium.com/@lasithih927/helm-zero-to-hero-4cab17fac38e) A Helm cheat sheet for getting your desired application installed on a Kubernetes cluster with the config you need in no time. Even if you haven’t heard of Helm before! This will take you from zero to hero.
+- [==medium.com/codex: Simplifying Kubernetes Deployments With Helm Package Manager== 🌟](https://medium.com/codex/simplifying-kubernetes-deployments-with-helm-package-manager-bf834c51818d)
 
 ## Helm Plugins
 

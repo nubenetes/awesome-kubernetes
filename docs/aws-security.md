@@ -5,7 +5,8 @@
 3. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
 4. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
 5. [AWS IAM](#aws-iam)
-    1. [AWS IAM Anywhere](#aws-iam-anywhere)
+    1. [Terraform IAM Policy Validator](#terraform-iam-policy-validator)
+    2. [AWS IAM Anywhere](#aws-iam-anywhere)
 6. [AWS Organizations](#aws-organizations)
 7. [AWS Control Tower](#aws-control-tower)
 8. [AWS Firewalls](#aws-firewalls)
@@ -84,6 +85,10 @@
 - [aws.amazon.com: When and where to use IAM permissions boundaries](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/) A permissions boundary is an IAM feature that helps your centralized cloud IAM teams to safely empower your application developers to create new IAM roles and policies in Amazon Web Services (AWS). 
 - [Extend AWS IAM roles to workloads outside of AWS with IAM Roles Anywhere 🌟](https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere/) **A secure way for on-premises servers, containers, or apps to obtain temporary AWS credentials and remove the need for creating and managing long-term AWS credentials**
 - [binx.io: Working with AWS Permission Policies 🌟](https://binx.io/2022/07/13/working-with-aws-permission-policies/)
+
+### Terraform IAM Policy Validator
+
+- [awslabs/terraform-iam-policy-validator](https://github.com/awslabs/terraform-iam-policy-validator) A command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practices.
 
 ### AWS IAM Anywhere
 

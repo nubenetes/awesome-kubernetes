@@ -8,12 +8,14 @@
 6. [Azure ML](#azure-ml)
 7. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
 8. [Data Science](#data-science)
-9. [Other Tools](#other-tools)
-10. [Samples](#samples)
-11. [ML Courses](#ml-courses)
-12. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-13. [Polls](#polls)
-14. [Tweets](#tweets)
+9. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
+10. [Other Tools](#other-tools)
+11. [Samples](#samples)
+12. [ML Courses](#ml-courses)
+13. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+14. [Polls](#polls)
+15. [Tweets](#tweets)
+
 ## Introduction. MLOps
 
 - [cd.foundation: Announcing the CD Foundation MLOps SIG](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
@@ -107,6 +109,12 @@
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
 - [towardsdatascience.com: How to Structure a Data Science Project for Readability and Transparency](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) And How to Create One in One Line of Code
+
+## Machine Learning workloads in kubernetes using Nix and NVIDIA
+
+- [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://canvatechblog.com/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix-7c1da8e42f61) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
+    - [Nix](https://nixos.org/manual/nix/stable/)
+    - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
 
 ## Other Tools
 

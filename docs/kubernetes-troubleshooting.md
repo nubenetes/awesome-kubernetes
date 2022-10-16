@@ -8,9 +8,11 @@
 6. [OOM Kills](#oom-kills)
 7. [Stuck Namespace](#stuck-namespace)
 8. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
-9. [Slides](#slides)
-10. [Images](#images)
-11. [Tweets](#tweets)
+9. [Troubleshooting Tools](#troubleshooting-tools)
+    1. [Komodor](#komodor)
+10. [Slides](#slides)
+11. [Images](#images)
+12. [Tweets](#tweets)
 
 ## Introduction
 
@@ -25,7 +27,6 @@
 - [levelup.gitconnected.com: 5 tips for troubleshooting apps on Kubernetes](https://levelup.gitconnected.com/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
 - [medium: Common Kubernetes Errors Made by Beginners [2021] 🌟](https://medium.com/nerd-for-tech/common-kubernetes-errors-made-by-beginners-274b50e18a01)
 - [cloud.redhat.com: Troubleshooting Sandboxed Containers Operator](https://cloud.redhat.com/blog/sandboxed-containers-operator-from-zero-to-hero-the-hard-way-part-2)
-- [komodor.com: Kubernetes Troubleshooting: The Complete Guide](https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide/)
 - [andydote.co.uk: The Problem with CPUs and Kubernetes](https://andydote.co.uk/2021/06/02/os-cpus-and-kubernetes/)
 - [kinvolk.io: Investigating Kubernetes performance issues with BPF](https://kinvolk.io/blog/2020/04/inside-kinvolk-labs-investigating-kubernetes-performance-issues-with-bpf/)
 - [medium: Better Debugging Environment for your Micro-Services](https://medium.com/@moshe.beladev.mb/better-debugging-environment-for-your-micro-services-9420a71b8a37)
@@ -117,6 +118,13 @@
 - [zendesk.engineering: Debugging containerd](https://zendesk.engineering/debugging-containerd-a20f28a2a8bf)
 - [==heka-ai.medium.com: Introduction to Debugging: locally and live on Kubernetes with VSCode== 🌟](https://heka-ai.medium.com/introduction-to-debugging-locally-and-live-on-kubernetes-8c8ecd3acbaa) In this article, you'll learn how to debug your code in real-time on a Pod running on Kubernetes using VS Code
 - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers/) Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command
+
+## Troubleshooting Tools
+
+### Komodor
+
+- [==komodor.com==](https://komodor.com) Turn troubleshooting chaos into clarity. Komodor is an observability tool that gives you insight into what’s happening with your clusters and workloads. It integrates tools that we all use, like Datadog, Okta, LaunchDarkly, and PagerDuty.
+- [==komodor.com: Kubernetes Troubleshooting: The Complete Guide== 🌟](https://komodor.com/learn/kubernetes-troubleshooting-the-complete-guide/)
 
 ## Slides
 

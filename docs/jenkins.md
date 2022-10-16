@@ -151,6 +151,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [==youtube: Tech World with Nana - Jenkins Tutorial for Beginners==](https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC)
 - [==camunda.com: How We Overcame Long-Running Job Limitations in Jenkins Declarative Pipelines==](https://camunda.com/blog/2022/02/how-we-overcame-long-running-job-limitations-in-jenkins-declarative-pipelines/)
 - [==aws.amazon.com: Jenkins high availability and disaster recovery on AWS== 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws/)
+- [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) In this article, you'll learn how to build a distributed Jenkins cluster on GKE and autoscale the Jenkins agents to process more jobs.
 
 ## Jenkins Is The Way
 
@@ -158,7 +159,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [jenkinsistheway.io: Financial Transactions Simplified With Faster Build Cycles 🌟](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-fintech-excellence/) After integrating Jenkins, this FinTech’s financial transaction product quality is improved and 3X simpler.
 - [jenkinsistheway.io: Advanced Declarative Pipelines for Workflow and Decision Automation Platform 🌟](https://jenkinsistheway.io/user-story/to-build-ci-cd-that-fits-advanced-and-unique-use-cases/)
 - [jenkinsistheway.io: Alert Management](https://jenkinsistheway.io/user-story/jenkins-is-the-way-to-improve-solution-development/) A Jenkins-based tool receives pipeline alerts and, in turn, determines who to notify.
-- [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops/) A cumbersome legacy process for building, testing and releasing software is a huge challenge for a global cybersecurity company that has to stay ahead of hackers, fraudsters and trends in cybercrime. 
+- [jenkinsistheway.io: Jenkins is the way to DevSecOps. Cybersecurity CI/CD](https://jenkinsistheway.io/user-story/to-devsecops/) A cumbersome legacy process for building, testing and releasing software is a huge challenge for a global cybersecurity company that has to stay ahead of hackers, fraudsters and trends in cybercrime.
 
 <center>
 [![Jenkins Is The Way](images/Jenkins-is-the-Way.png)](https://jenkinsistheway.io)

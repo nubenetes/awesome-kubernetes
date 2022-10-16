@@ -4,15 +4,16 @@
 2. [API Access Control](#api-access-control)
 3. [Maistra Istio](#maistra-istio)
 4. [Admiral](#admiral)
-5. [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
-6. [Jaeger tracing. Open source, end-to-end distributed tracing](#jaeger-tracing-open-source-end-to-end-distributed-tracing)
-7. [Envoy micro proxy](#envoy-micro-proxy)
-8. [Kibana](#kibana)
-9. [AWS App Mesh](#aws-app-mesh)
-10. [Istio and AWS EKS](#istio-and-aws-eks)
-11. [Istio Tools](#istio-tools)
-12. [Videos](#videos)
-13. [Tweets](#tweets)
+5. [Ambient Mesh - Istio Data Plane](#ambient-mesh---istio-data-plane)
+6. [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
+7. [Jaeger tracing. Open source, end-to-end distributed tracing](#jaeger-tracing-open-source-end-to-end-distributed-tracing)
+8. [Envoy micro proxy](#envoy-micro-proxy)
+9. [Kibana](#kibana)
+10. [AWS App Mesh](#aws-app-mesh)
+11. [Istio and AWS EKS](#istio-and-aws-eks)
+12. [Istio Tools](#istio-tools)
+13. [Videos](#videos)
+14. [Tweets](#tweets)
 
 ## Docs
 
@@ -113,6 +114,10 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 ## Admiral
 
 - [istio-ecosystem/admiral](https://github.com/istio-ecosystem/admiral) Admiral provides automatic configuration and service discovery for multicluster Istio service mesh. Istio has a very robust set of multi-cluster capabilities. Managing this configuration across multiple clusters at scale is challenging. Admiral takes an opinionated view on this configuration and provides automatic provisioning and syncing across clusters. This removes the complexity for developers and mesh operators.
+
+## Ambient Mesh - Istio Data Plane
+
+- [istio.io: Introducing Ambient Mesh](https://istio.io/latest/blog/2022/introducing-ambient-mesh/) A new dataplane mode for Istio without sidecars.
 
 ## Kiali project, observability for the Istio service mesh
 

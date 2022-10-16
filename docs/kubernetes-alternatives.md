@@ -74,6 +74,7 @@
 - [linkedin.com: Docker Series : Docker Swarm - Lionel GURRET](https://www.linkedin.com/pulse/docker-series-swarm-lionel-gurret/)
 - [cloudsavvyit.com: What is Docker Swarm Mode and When Should You Use It?](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
 - [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
+- [thinksys.com: Docker Swarm vs. Kubernetes: Comparison 2022](https://www.thinksys.com/devops/docker-swarm-vs-kubernetes-comparison/)
 
 ## Simplenetes
 
@@ -83,6 +84,7 @@
 
 - [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes/)
 - [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.itprotoday.com/hybrid-cloud-and-multicloud/4-alternatives-kubernetes-container-orchestrator) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
+- [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/orchestrator-wars-continue)
 
 ## Images
 

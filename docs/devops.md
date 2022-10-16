@@ -1,4 +1,5 @@
-# DevOps 
+# DevOps
+
 1. [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 2. [Automation Glossary](#automation-glossary)
 3. [Blogs](#blogs)
@@ -32,6 +33,10 @@
 26. [Slides](#slides)
 27. [Videos](#videos)
 28. [Tweets](#tweets)
+
+<center>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
+</center>
 
 ## Introduction to Digital Business Transformation
 
