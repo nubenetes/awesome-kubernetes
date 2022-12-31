@@ -1,4 +1,4 @@
-# Kubernetes Releases
+# Kubernetes Newsletters
 
 * [KubeWeekly](https://www.cncf.io/kubeweekly/)
 * [Last Week in Kubernetes Development](http://lwkd.info/)

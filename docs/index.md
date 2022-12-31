@@ -119,6 +119,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [==Managed kubernetes in public clouds==](managed-kubernetes-in-public-cloud.md)
     - [Kubernetes Troubleshooting](kubernetes-troubleshooting.md)
     - [Kubernetes Releases](kubernetes-releases.md)
+    - [Kubernetes Newsletters](kubernetes-newsletters.com)
 - [Kubernetes Distributions & Installers](matrix-table.md)
 - [Kubernetes Big Data](kubernetes-bigdata.md) 
 - [Kubernetes Alternatives](kubernetes-alternatives.md)
