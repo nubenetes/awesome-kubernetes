@@ -9,7 +9,7 @@
 6. [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
 7. [Docker Swarm](#docker-swarm)
 8. [Simplenetes](#simplenetes)
-9. [More Comparisons](#more-comparisons)
+9. [More comparisons and alternatives](#more-comparisons-and-alternatives)
 10. [Images](#images)
 11. [Videos](#videos)
 
@@ -80,11 +80,12 @@
 
 - [Simplenetes](https://github.com/simplenetes-io/simplenetes) Alternative to Kubernetes written in pure Sh
 
-## More Comparisons
+## More comparisons and alternatives
 
 - [blog.opstree.com: A Comparison Between Various Container Orchestration Services! (ECS vs Kubernetes)](https://blog.opstree.com/2021/06/21/a-comparison-between-various-container-orchestration-services-ecs-vs-kubernetes/)
 - [itprotoday.com: 4 Alternatives to Kubernetes Container Orchestrator](https://www.itprotoday.com/hybrid-cloud-and-multicloud/4-alternatives-kubernetes-container-orchestrator) While nearly nine out of 10 organizations use Kubernetes, there are alternatives to consider if looking for a container orchestrator in 2022.
 - [portainer.io: Kubernetes vs Docker Swarm vs Nomad - the orchestrator wars continue?](https://www.portainer.io/blog/orchestrator-wars-continue)
+- [coolify.io](https://coolify.io) Made self-hosting simple. An open-source & self-hostable Heroku / Netlify alternative (and even more).
 
 ## Images
 

@@ -15,21 +15,22 @@
 13. [SaaS](#saas)
 14. [Multi Cloud](#multi-cloud)
 15. [Cloud Automation](#cloud-automation)
-    1. [Automation Glossary](#automation-glossary)
+     1. [Automation Glossary](#automation-glossary)
 16. [Microservices Best Practices](#microservices-best-practices)
 17. [Microservice Patterns](#microservice-patterns)
+     1. [CQRS Pattern](#cqrs-pattern)
 18. [Microservices Anti Patterns](#microservices-anti-patterns)
-19. [Backends for Frontends](#backends-for-frontends)
-20. [Data Engineering](#data-engineering)
-21. [Cloud Migration Checklist](#cloud-migration-checklist)
-22. [Microservices Failures](#microservices-failures)
-23. [Top Microservices Frameworks](#top-microservices-frameworks)
-24. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
-25. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
-26. [From SysAdmin to Architect](#from-sysadmin-to-architect)
-27. [Raft Consensus Algorithm](#raft-consensus-algorithm)
-28. [PaaS](#paas)
-29. [Micro Frontend Architecture](#micro-frontend-architecture)
+19. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
+20. [Backends for Frontends](#backends-for-frontends)
+21. [Data Engineering](#data-engineering)
+22. [Cloud Migration Checklist](#cloud-migration-checklist)
+23. [Microservices Failures](#microservices-failures)
+24. [Top Microservices Frameworks](#top-microservices-frameworks)
+25. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
+26. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
+27. [From SysAdmin to Architect](#from-sysadmin-to-architect)
+28. [Raft Consensus Algorithm](#raft-consensus-algorithm)
+29. [PaaS](#paas)
 30. [Modular Monolith](#modular-monolith)
 31. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
 32. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
@@ -221,6 +222,13 @@
 - [alibabacloud.com: Getting Started with Kubernetes | Deep Dive into Kubernetes Core Concepts](https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896)
 - [micahlerner.com: Automatic Reliability Testing For Cluster Management Controllers](https://www.micahlerner.com/2022/07/24/automatic-reliability-testing-for-cluster-management-controllers.html)
 - [cloudnativeislamabad.hashnode.dev: Virtualization vs Containerization](https://cloudnativeislamabad.hashnode.dev/virtualization-vs-containerization) Virtual Machines vs Docker
+- [medium.com/javarevisited: Distributed Transaction Management in Microservices — Part 1 🌟](https://medium.com/javarevisited/distributed-transaction-management-in-microservices-part-1-bb7dc1fbee9f)
+- [==betterprogramming.pub: How to Transform a Monolith Application Into a Microservices Architecture==](https://betterprogramming.pub/how-to-transform-a-monolith-application-into-a-microservices-architecture-1e00363a03ba) A step-by-step guide to migrating your monolith application to a microservices architecture
+- [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
+- [medium.com/codex: MicroServices Architecture to Solve Distributed Transaction Management Problem](https://medium.com/codex/solving-distributed-transaction-management-problem-in-microservices-architecture-586ab3087efe)
+- [==betterprogramming.pub: How I Split a Monolith Into Microservices Without Refactoring== 🌟🌟🌟](https://betterprogramming.pub/how-i-split-a-monolith-into-microservices-without-refactoring-5d76924c34c2) My journey to becoming more agile with a just-in-time architectural style
+- [towardsdatascience.com: 3 High Availability Cloud Concepts You Should Know](https://towardsdatascience.com/3-high-availability-cloud-concepts-you-should-know-93f3bab2cb4a) From scaling to VM placement strategies
+- [ust.com: Do we really need Kubernetes and containers?](https://www.ust.com/en/insights/do-we-really-need-kubernetes-and-containers)
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -272,6 +280,14 @@
 - [deeptimittalblogger.medium.com: Event driven architecture](https://deeptimittalblogger.medium.com/event-driven-architecture-111f504a8cbc)
 - [medium.com/mcdonalds-technical-blog: Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86) We explore our journey of developing a unified platform enabling real-time, event-driven architectures.
     - [medium.com/mcdonalds-technical-blog: McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
+- [==nordicapis.com: 5 Protocols For Event-Driven API Architectures== 🌟🌟🌟](https://nordicapis.com/5-protocols-for-event-driven-api-architectures/) 
+    - What is an Event-Driven Architecture? Event-driven architectures establish an event that can be consumed and reacted to. But what is an event? An event is essentially any significant change from one state to another, such as the change from having no messages in your inbox to have a new message in your inbox. This state can be reacted to internally (such as when the email program in question realizes a new message has been received), externally (when a user sees a notification for a new message), or used to generate another event (for instance, the message tally increases by one). Event-driven architectures are appealing to API developers because they function very well in asynchronous environments. By crafting APIs that trigger certain functions on new event delivery, API systems don’t have to inherently wait for synchronous delivery or real time communication. This is hugely beneficial, as eliminating the need to constantly poll endpoints frees resources from otherwise wasteful purposes, reducing both general hardware requirements and call-specific overhead. For this reason, event-driven architectures are very, very popular, and lead to improved power, bandwidth, and co-processing than other solutions and architectures such as polling and other poll-centric derivatives.
+    - 5 Types of Event-Driven Protocols for APIs:
+        - WebSockets
+        - WebHooks
+        - REST Hooks
+        - Pub-Sub
+        - Server Sent Events
 
 ## Multi-Tenancy Architecture
 
@@ -285,6 +301,7 @@
 ## Self service developer platform
 
 - [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)
+- [==thenewstack.io: What We Learned from Enabling Developer Self-Service==](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/) Let’s simplify the developer experience and scale DevOps workflows without compromising the security of multi-Kubernetes environments.
 
 ## Disaster Recovery
 
@@ -302,6 +319,7 @@
 - [softwebsolutions.com: Why enterprises need to adopt a multi-cloud strategy](https://www.softwebsolutions.com/resources/multi-cloud-adoption-strategy.html)
 - [medium: Multi Cloud Enterprise Deployment Pattern](https://medium.com/solutions-architecture-patterns/multi-cloud-enterprise-deployment-pattern-19571604e64b)
 - [redhat.com: 5 essential tools for managing hybrid cloud infrastructure](https://www.redhat.com/architect/hybrid-cloud-management-tools) It's not just a matter of having the right tools; you must also use them correctly.
+- [devops.com: Infrastructure Abstraction Will Be Key to Managing Multi-Cloud](https://devops.com/infrastructure-abstraction-will-be-key-to-managing-multi-cloud/)
 
 ## Cloud Automation
 
@@ -347,9 +365,26 @@
     9. Externalized Configuration
     10. Consumer-Driven Contract Tracing
 
+- [medium.com/@sandeepsharmaster: Design your Cloud Microservices Apps the DDD way (Hexagonal Architecture)](https://medium.com/@sandeepsharmaster/modernize-your-cloud-microservices-apps-hexagonal-architecture-769696494c0)
+- [medium.com/@denhox: Sharing Data Between Microservices](https://medium.com/@denhox/sharing-data-between-microservices-fe7fb9471208)
+- [medium.com/@maneesha649nirman: Design Patterns For Microservices](https://medium.com/@maneesha649nirman/design-patterns-for-microservices-30bed0d215f5) Design patterns are very important to any development architecture. In this article, I am going to discuss a few design patterns which are most important for microservices.
+
+### CQRS Pattern
+
+- [medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture Part III](https://medium.com/@mbarkin.narin/problem-solving-strategies-for-microservice-architecture-part-iii-c15830151890) Distributed Complex Query in Multiple Services
+
 ## Microservices Anti Patterns
 
 - [developer.com: Overcoming the Common Microservices Anti-Patterns](https://www.developer.com/design/solving-microservices-anti-patterns/)
+
+## Micro Frontend Architecture. Microservices for the Frontend
+
+- [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8) Monolithic frontends are difficult to maintain, develop, test, and deploy. The solution is micro frontends. It is a type of architecture that can increase effectiveness and efficiency across teams.
+- [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325)
+- [==dzone: Micro-Frontend Architecture==](https://dzone.com/articles/micro-frontend-architecture) The goal of this architecture is to see web applications as a composition of functionalities where each one is worked by independent teams.
+- [semaphoreci.com: Microfrontends: Microservices for the Frontend](https://semaphoreci.com/blog/microfrontends)
+    - Microservices are a popular way to build small, autonomous teams that can work independently. Unfortunately, by their very nature, microservices only work in the backend. Even with the best microservice architecture, frontend development still requires a high degree of interdependence, and this introduces coupling and communication overhead that can slow down everyone.
+    - Can we take microservice architecture patterns and apply them to the frontend? It turns out we can. Companies such as Netflix, Zalando, and Capital One have pushed the pattern to the front, laying the groundwork for microfrontends. This article will explore microfrontends, their benefits and disadvantages, and how they differ from traditional microservices.
 
 ## Backends for Frontends
 
@@ -378,6 +413,7 @@
 - [forbes.com: 3 Approaches To A Better Cloud Migration](https://www.forbes.com/sites/googlecloud/2021/10/27/3-approaches-to-a-better-cloud-migration/)
 - [==acloudguru.com: 3 ways to practice migrating workloads to the cloud==](https://acloudguru.com/blog/engineering/3-ways-to-practice-migrating-workloads-to-the-cloud) Rehosting, Replatforming & Refactoring. 
 - [==blog.pragmaticengineer.com: Migrations Done Well: Typical Migration Approaches==](https://blog.pragmaticengineer.com/typical-migration-approaches/)
+
 ## Microservices Failures
 
 - [world.hey.com: Disasters I've seen in a microservices world 🌟🌟](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
@@ -410,12 +446,6 @@
 
 - [What is Platform as a Service Software?](https://www.trustradius.com/platform-as-a-service-paas)
 - [==ramansharma.substack.com: Containers are not just for Kubernetes==](https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd) Why cloud based PaaS and Containers make a solid combination for most developers
-
-## Micro Frontend Architecture
-
-- [dzone: Micro Frontends With Example 🌟](https://dzone.com/articles/micro-frontends-by-example-8) Monolithic frontends are difficult to maintain, develop, test, and deploy. The solution is micro frontends. It is a type of architecture that can increase effectiveness and efficiency across teams.
-- [levelup.gitconnected.com: Micro Frontend Architecture](https://levelup.gitconnected.com/micro-frontend-architecture-794442e9b325)
-- [==dzone: Micro-Frontend Architecture==](https://dzone.com/articles/micro-frontend-architecture) The goal of this architecture is to see web applications as a composition of functionalities where each one is worked by independent teams.
 
 ## Modular Monolith
 
@@ -452,6 +482,7 @@
 - [awstip.com: OpenShift vs Kubernetes: What’s the Difference?](https://awstip.com/openshift-vs-kubernetes-whats-the-difference-428af9db2c7b)
 - [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)
 - [imaginarycloud.com: OPENSHIFT VS KUBERNETES: WHAT ARE THE DIFFERENCES](https://www.imaginarycloud.com/blog/openshift-vs-kubernetes-differences/)
+- [thenewstack.io: What’s the Difference Between Kubernetes and OpenShift?](https://thenewstack.io/kubernetes/whats-the-difference-between-kubernetes-and-openshift/) It’s almost a trick question, but Red Hat’s managed Kubernetes platform does things a little differently.
 
 ## Career Path
 
@@ -514,6 +545,8 @@
 	[![Kubernetes on its own is not enough](images/k8s-not-enough.jpg)](https://twitter.com/brendandburns)
 
 	[![how mature is your microservices architecture](images/MicroservicesMaturityMatrix.jpg)](https://blog.container-solutions.com/how-mature-is-your-microservices-architecture)
+
+    [![bytebytego microservice tech stack](images/bytebytego_microservice_techstack.png)](https://bytebytego.com/)
 	</center>
 
 ## Videos
@@ -527,6 +560,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JZjAZIFopWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MoIdU0J0f0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j6ow-UemzBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lL_j7ilk7rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 
@@ -557,5 +591,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are the differences between Virtualization (VMware) and Containerization (Docker)?<br><br>The diagram below illustrates the layered architecture of virtualization and containerization. <a href="https://t.co/3zgsUNnfXe">pic.twitter.com/3zgsUNnfXe</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1512453102380908546?ref_src=twsrc%5Etfw">April 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do microservices collaborate and interact with each other?<br><br>There are two ways: 𝐨𝐫𝐜𝐡𝐞𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 and 𝐜𝐡𝐨𝐫𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲.<br><br>The diagram below illustrates the collaboration of microservices. <a href="https://t.co/Qp94Zi5Mrq">pic.twitter.com/Qp94Zi5Mrq</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1513907291237494788?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Let&#39;s introduce Microservices, they will make our delivery faster.&quot; A sentence which I hear over and over again and which I consider to be an oversimplification of a complex challenge. A thread 🧵with ten points: 👇</p>&mdash; Michael Plöd (@bitboss) <a href="https://twitter.com/bitboss/status/1591699329462730753?ref_src=twsrc%5Etfw">November 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

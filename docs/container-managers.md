@@ -9,7 +9,8 @@
 3. [Container Managers / Container Runtimes (CRI runtimes)](#container-managers--container-runtimes-cri-runtimes)
     1. [CRI-O](#cri-o)
     2. [Podman. Pod Manager tool](#podman-pod-manager-tool)
-        1. [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
+        1. [Podman Desktop](#podman-desktop)
+        2. [Containers In High Security Environments with Podman](#containers-in-high-security-environments-with-podman)
 4. [Container Images](#container-images)
     1. [Red Hat Universal Base Image](#red-hat-universal-base-image)
 5. [Container Tools](#container-tools)
@@ -28,11 +29,13 @@
 ## OCI Project
 
 - [OCI: Open Container Initiative](https://www.opencontainers.org/)
+
 ### OCI Runtimes
 
 #### runc
 
 - [runc](https://github.com/opencontainers/runc) CLI tool for spawning and running containers according to the OCI specification 
+
 #### crun
 
 - [crun](https://github.com/containers/crun) A fast and lightweight fully featured OCI runtime and C library for running containers
@@ -112,6 +115,12 @@
     - Here's how I stop/remove all containers with podman: `podman stop -a; podman rm  -a`
 - [medium.com/@raghavendraguttur: Podman Containers — Beginner’s Guide](https://medium.com/@raghavendraguttur/podman-containers-beginners-guide-830b931e66f4) In this article, you will learn about Podman — an open-source tool for managing containers, images, volumes, and pods (group of containers). You will also compare it to buildah and skopeo.
 - [nilesh93.medium.com: Replacing Docker Desktop with Podman and Kind in MacOS](https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda)
+- [==dev.to: Containers without Docker (podman, buildah, and skopeo)==](https://dev.to/cedricclyburn/containers-without-docker-podman-buildah-and-skopeo-1eal) In this article, you will learn how you can use Podman, Buildah, and Skopeo as replacements for the traditional Docker workflow, without the use of a daemon or root privileges
+
+#### Podman Desktop
+
+- [==Podman Desktop==](https://podman-desktop.io/)
+- [developers.redhat.com: Podman expands to the Desktop](https://developers.redhat.com/articles/2022/10/24/podman-expands-desktop)
 
 #### Containers In High Security Environments with Podman
 

@@ -34,8 +34,9 @@
 15. [Related](#related)
 16. [Video APIs](#video-apis)
 17. [API Business Models](#api-business-models)
-18. [Images](#images)
-19. [Tweets](#tweets)
+18. [Videos](#videos)
+19. [Images](#images)
+20. [Tweets](#tweets)
 
 ## APIs
 
@@ -72,6 +73,8 @@
     - No importa qué tecnología utilicéis: HTTP, Corba, Pubsub, protocolos personalizados? da igual.
     - Todas las interfaces de servicio, sin excepción, deberán diseñarse desde cero para que sean externalizables. Es decir, el equipo debe planificar y diseñar para poder exponer la interfaz a los desarrolladores en el mundo exterior. Sin excepciones.
     - Cualquiera que no haga esto será despedido.
+- [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance/) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
+- [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
 
 ## Python FastAPI
 
@@ -124,6 +127,7 @@
 - [freecodecamp.org: What is REST? Rest API Definition for Beginners](https://www.freecodecamp.org/news/what-is-rest-rest-api-definition-for-beginners/)
 - [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f)
 - [==javarevisited.blogspot.com: How to send POST Request with JSON Payload using Curl Command in Linux to Test RESTful Web Services?==](https://javarevisited.blogspot.com/2022/08/how-to-post-json-data-with-curl-command.html)
+- [medium.com/@shubhadeepchat: Best Practices for good REST API Design](https://medium.com/@shubhadeepchat/best-practices-for-good-rest-api-design-b5fae9a62c86)
 
 #### OpenAPI Specification (originally known as the Swagger Specification)
 
@@ -136,7 +140,7 @@
 ### RPC API Protocol (Remote Procedure Call)
 
 - [wikipedia: RPC Remote Procedure Call](https://en.wikipedia.org/wiki/Remote_procedure_call)
-- [open-rpc.org lightweight RPC framework 🌟](https://open-rpc.org/) It layers an interface description on top of JSON-RPC 2.0 and ships with a few tools to help you design, document, and test your APIs. 
+- [open-rpc.org lightweight RPC framework 🌟](https://open-rpc.org/) It layers an interface description on top of JSON-RPC 2.0 and ships with a few tools to help you design, document, and test your APIs.
 
 #### gRPC
 
@@ -147,6 +151,8 @@
 - [cncf.io: Think gRPC, when you are architecting modern microservices!](https://www.cncf.io/blog/2021/07/19/think-grpc-when-you-are-architecting-modern-microservices/)
 - [itnext.io: A minimalist guide to gRPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422) REST API is good but is it really the best option that we have?
 - [==gendocu.com: RPC API Developer Portal==](https://gendocu.com/)
+- [==medium.com/javarevisited: Microservices communication using gRPC Protocol==](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
+- [blog.getambassador.io: Implementing gRPC-Web with Emissary-ingress](https://blog.getambassador.io/implementing-grpc-web-with-emissary-ingress-22aa0d86aac) In this article, you'll learn how to implement gRPC-Web (a JavaScript implementation of gRPC for browser clients) with Emissary-ingress — an Envoy-based API gateway and Ingress controller
 
 ### Asynchronous APIs
 
@@ -301,6 +307,14 @@
 
 - [API Business Models. 20 Models in 20 Minutes](https://www.infoq.com/presentations/API-Business-Models/)
 
+## Videos
+
+??? note "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yWzKJPw_VzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+
 ## Images
 
 ??? note "Click to expand!"
@@ -313,6 +327,8 @@
 	![gRPC vs REST vs GraphQL comparison](images/grpc_vs_rest_vs_graphql.png)
 
 	![REST API Design](images/REST_API_Design.jfif)
+
+    [![REST vs GrapQL](images/rest_vs_graphql.jfif)](https://t.co/AF9GfbgBWZ)
 	</center>
 
 ## Tweets
@@ -324,5 +340,45 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">People complain about tooling fatigue but web dev in 2021 is 10x simpler than in 2011. You just gotta pick the right tools.<br><br>Infra: <a href="https://twitter.com/PulumiCorp?ref_src=twsrc%5Etfw">@PulumiCorp</a> <br>Data: <a href="https://twitter.com/PostgreSQL?ref_src=twsrc%5Etfw">@PostgreSQL</a> <br>API: <a href="https://twitter.com/HasuraHQ?ref_src=twsrc%5Etfw">@HasuraHQ</a> <br>Frontend: <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a>&#39;s NextJS<br><br>And no proprietary bullshit—100% open source!</p>&mdash; gunar.uk (@gunar) <a href="https://twitter.com/gunar/status/1395744592071323651?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 REST is the most common communication standard between computers over the internet. What is it? Why is it so popular? Let&#39;s take a look at this thread. <a href="https://t.co/GBdBcC56aF">pic.twitter.com/GBdBcC56aF</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1562840039142281216?ref_src=twsrc%5Etfw">August 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Optimize API performance with these 5 tips.<br><br>Thread🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1583599981369303040?ref_src=twsrc%5Etfw">October 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API Testing. What is it?<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1584530377686646784?ref_src=twsrc%5Etfw">October 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Authentication vs. Authorization – What&#39;s the difference?<br><br>A thread 🧵</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1585617284562812928?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s discuss how we can handle CORS in Express.<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1585680710945439744?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HTTP headers that developers should be aware of.<br><br>Thread🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1590690709299929090?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">OAuth2, features, and advantages.<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1591229825393491968?ref_src=twsrc%5Etfw">November 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to increase API performance?<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1591167663165898754?ref_src=twsrc%5Etfw">November 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Different Architectural Styles of APIs<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1595938033559375874?ref_src=twsrc%5Etfw">November 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is GraphQL? When should we use it?<br><br>How is GraphQL the same as REST? How are they different? Let’s dive deeper.<br><br>Watch here: <a href="https://t.co/AF9GfbgBWZ">https://t.co/AF9GfbgBWZ</a> <a href="https://t.co/EUgGe82rNu">pic.twitter.com/EUgGe82rNu</a></p>&mdash; Bytebytego (@bytebytego) <a href="https://twitter.com/bytebytego/status/1597376508821405696?ref_src=twsrc%5Etfw">November 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Local Storage. What is it?<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1597364461681131520?ref_src=twsrc%5Etfw">November 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Practices for Securing API Keys<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1602364128382914582?ref_src=twsrc%5Etfw">December 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API Authentication methods<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1607357310875193350?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here, we&#39;ll discuss the three most commonly used API authentication techniques:<br><br>- HTTP Authentication<br>- API Keys (Bearer token, JSON Web Token)<br>- OAuth</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1607357314989694977?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HTTP Status codes worth knowing about<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1607542503623860224?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What exactly is CORS, and how does it work?<br><br>Thread 🧵</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1607718404038840320?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is an API? <a href="https://t.co/FBQfcGDsdh">pic.twitter.com/FBQfcGDsdh</a></p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1607913741215207424?ref_src=twsrc%5Etfw">December 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Difference between API Authentication and API Authorization.<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1608077094952607746?ref_src=twsrc%5Etfw">December 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How does JSON web token (JWT) authentication work?<br><br>Thread 🧵👇🏻</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1608267311022211074?ref_src=twsrc%5Etfw">December 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is the difference between an API and a Microservice?<br><br>Thread 🧵👇</p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1608443951840632835?ref_src=twsrc%5Etfw">December 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API security best practices 👇<br><br>{ 1 / 6 } <a href="https://t.co/0IjjK7zhWv">pic.twitter.com/0IjjK7zhWv</a></p>&mdash; RapidAPI (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1608825046750855169?ref_src=twsrc%5Etfw">December 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -13,6 +13,7 @@
 - [github: ElectricEye](https://github.com/jonrau1/ElectricEye/blob/master/README.md) is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.
 - [medium: AWS Account Security Monitoring](https://medium.com/swlh/aws-account-security-monitoring-d7ca129d52ac)
 - [==elastic.co: Elastic and AWS: Accelerating the cloud migration journey==](https://www.elastic.co/blog/elastic-and-aws-accelerate-your-cloud-migration-journey)
+- [How to use AWS Config and CloudTrail to find who made changes to a resource](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-and-cloudtrail-to-find-who-made-changes-to-a-resource/)
 
 ## Metrics
 

@@ -14,14 +14,14 @@
 12. [Python testing](#python-testing)
 13. [Python Cyber Security](#python-cyber-security)
 14. [Data Science](#data-science)
-    1. [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
-    2. [PandasDatabase](#pandasdatabase)
-    3. [NumPy](#numpy)
-    4. [Orchest. Data Pipelines with Python and R code. No frameworks. No YAML](#orchest-data-pipelines-with-python-and-r-code-no-frameworks-no-yaml)
+     1. [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
+     2. [PandasDatabase](#pandasdatabase)
+     3. [NumPy](#numpy)
+     4. [Orchest. Data Pipelines with Python and R code. No frameworks. No YAML](#orchest-data-pipelines-with-python-and-r-code-no-frameworks-no-yaml)
 15. [Python standard library Modules and Code](#python-standard-library-modules-and-code)
 16. [Python and AWS](#python-and-aws)
 17. [Python Tools](#python-tools)
-    1. [Web Scraping with Python](#web-scraping-with-python)
+     1. [Web Scraping with Python](#web-scraping-with-python)
 18. [Jython](#jython)
 19. [Eclipse IDE](#eclipse-ide)
 20. [Python Libraries](#python-libraries)
@@ -233,6 +233,9 @@
 - [superfastpython.com: Threading vs Multiprocessing in Python](https://superfastpython.com/threading-vs-multiprocessing-in-python/)
 - [betterprogramming.pub: Python List Comprehensions Are More Powerful Than You Might Think](https://betterprogramming.pub/python-list-comprehensions-are-more-powerful-than-you-might-think-3363a90e5bb0) Write better list comprehensions with the help of these unknown features and tricks
 - [medium.com/@yonatanzunger: Advanced Python: Achieving High Performance with Code Generation 🌟🌟](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+- [mishrapartha.blogspot.com: A Beginner’s Guide to Python for Data Science - Part 5 Adding Comments in Python](https://mishrapartha.blogspot.com/2022/11/a-beginners-guide-to-python-for-data_19.html)
+- [morioh.com: How to create Google Map in Python using Gmaps](https://morioh.com/p/a9bdee14b0d2)
+- [pydantic/pydantic](https://github.com/pydantic/pydantic) Data parsing and validation using Python type hints
 
 ## PHP vs Python
 
@@ -392,6 +395,7 @@
 - [joke2k/faker 🌟](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 - [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools/) Whether you need Python tools for data science, machine learning, web development, or anything in between, this list has you covered.
 - [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a)
+- [==google/python-fire== 🌟](https://github.com/google/python-fire) Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 
 ### Web Scraping with Python
 
@@ -440,6 +444,7 @@
 	</center>
 
 ## Tweets
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -456,5 +461,9 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Have you checked out <a href="https://twitter.com/jakevdp?ref_src=twsrc%5Etfw">@jakevdp</a>&#39;s <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> Data Science Handbook yet? 📕 You can follow along right in the comfort of your browser with <a href="https://t.co/UMiyEY5CgZ">https://t.co/UMiyEY5CgZ</a> 😎<br><br>👉 <a href="https://t.co/g9gCznaoqz">https://t.co/g9gCznaoqz</a> <a href="https://t.co/g1fluMB6eH">pic.twitter.com/g1fluMB6eH</a></p>&mdash; Visual Studio Code (@code) <a href="https://twitter.com/code/status/1457428301266370563?ref_src=twsrc%5Etfw">November 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> Cheat Sheet! <a href="https://twitter.com/hashtag/BigData?src=hash&amp;ref_src=twsrc%5Etfw">#BigData</a> <a href="https://twitter.com/hashtag/Analytics?src=hash&amp;ref_src=twsrc%5Etfw">#Analytics</a> <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/CES2022?src=hash&amp;ref_src=twsrc%5Etfw">#CES2022</a>   <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> <a href="https://twitter.com/hashtag/IoT?src=hash&amp;ref_src=twsrc%5Etfw">#IoT</a> <a href="https://twitter.com/hashtag/IIoT?src=hash&amp;ref_src=twsrc%5Etfw">#IIoT</a> <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a> <a href="https://twitter.com/hashtag/CloudComputing?src=hash&amp;ref_src=twsrc%5Etfw">#CloudComputing</a> <a href="https://twitter.com/hashtag/Serverless?src=hash&amp;ref_src=twsrc%5Etfw">#Serverless</a> <a href="https://twitter.com/hashtag/DataScientist?src=hash&amp;ref_src=twsrc%5Etfw">#DataScientist</a> <a href="https://twitter.com/hashtag/Linux?src=hash&amp;ref_src=twsrc%5Etfw">#Linux</a> <a href="https://twitter.com/hashtag/Programming?src=hash&amp;ref_src=twsrc%5Etfw">#Programming</a> <a href="https://twitter.com/hashtag/Coding?src=hash&amp;ref_src=twsrc%5Etfw">#Coding</a> <a href="https://twitter.com/hashtag/100DaysofCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofCode</a> <a href="https://twitter.com/hashtag/5G?src=hash&amp;ref_src=twsrc%5Etfw">#5G</a> <a href="https://twitter.com/hashtag/Metaverse?src=hash&amp;ref_src=twsrc%5Etfw">#Metaverse</a> <a href="https://twitter.com/hashtag/DigitalTransformation?src=hash&amp;ref_src=twsrc%5Etfw">#DigitalTransformation</a><br><br>Many thanks <a href="https://twitter.com/TheAdityaPatro?ref_src=twsrc%5Etfw">@TheAdityaPatro</a> <a href="https://t.co/sTQsr99EfS">pic.twitter.com/sTQsr99EfS</a></p>&mdash; Dr. Marcell Vollmer #StaySafe #CES2022 Carpe Diem (@mvollmer1) <a href="https://twitter.com/mvollmer1/status/1479835137802186753?ref_src=twsrc%5Etfw">January 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master Python, watch these YouTube videos:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1586297242901684225?ref_src=twsrc%5Etfw">October 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python is one of the most versatile programming languages used in almost any industry🔥<br><br>Add these incredible Python projects to your resume to land a high-paying job:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1608746701115760643?ref_src=twsrc%5Etfw">December 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

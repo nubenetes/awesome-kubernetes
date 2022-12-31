@@ -17,6 +17,7 @@
     10. [OpenShift Applier](#openshift-applier)
     11. [HashiCorp Waypoint](#hashicorp-waypoint)
     12. [Weave GitOps](#weave-gitops)
+    13. [Octopilot](#octopilot)
 6. [GitOps Frameworks](#gitops-frameworks)
 7. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     1. [OpenShift GitOps](#openshift-gitops)
@@ -34,8 +35,8 @@
 
 ## Introduction
 
-- [gitops.tech 🌟](https://www.gitops.tech/)
-- [OpenGitOps 🌟](https://opengitops.dev) OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.
+- [==gitops.tech== 🌟](https://www.gitops.tech/)
+- [==OpenGitOps.dev== 🌟](https://opengitops.dev) OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.
 - [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops/)
 - [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really)
 - [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops)
@@ -160,7 +161,13 @@
     - Separate Infrastructure Repository, Directory-Based
     - Multiple Infrastructure Repositories, One per Environment
 
-- [medium.com/codex: Points to Consider for Structuring Infrastructure as Code Repositories](https://medium.com/codex/points-to-consider-for-structuring-infrastructure-as-code-repositories-886ff58404b8) 
+- [medium.com/codex: Points to Consider for Structuring Infrastructure as Code Repositories](https://medium.com/codex/points-to-consider-for-structuring-infrastructure-as-code-repositories-886ff58404b8)
+- [medium.com/jumia-tech: Immutable Infrastructure & GitOps 🌟](https://medium.com/jumia-tech/immutable-infrastructure-gitops-18d644f9c7cb)
+- [medium.com/@alamdar.hussain0007: GitOps with Kubernetes](https://medium.com/@alamdar.hussain0007/gitops-with-kubernetes-f0912b644925)
+- [thenewstack.io: KubeCon: 14,000 More Engineers Have Their GitOps Basics Down](https://thenewstack.io/kubecon-14000-more-engineers-have-their-gitops-basics-down/) As GitOps grows in its ability to leverage DevOps practices via Infrastructure as Code, thousands get up to speed with GitOps Fundamentals.
+- [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://containerjournal.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters/) GitOps is an opinionated instance of a DevOps workflow that unifies both software deployment and the provisioning of infrastructure using code to create reusable templates.
+- [==developers.redhat.com: GitOps Cookbook: Kubernetes automation in practice==](https://developers.redhat.com/articles/2022/12/20/gitops-cookbook-kubernetes-automation-practice)
+- [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://containerjournal.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -236,6 +243,7 @@
     - [pauldally.medium.com: Kustomize Best Practices (Part 2)](https://pauldally.medium.com/kustomize-best-practices-part-2-c560f1fa1409)
 - [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3)
 - [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
+- [harness.io: Comparing Helm vs Kustomize](https://harness.io/blog/helm-vs-kustomize)
 
 ### Flagger
 
@@ -294,6 +302,10 @@
 - [thenewstack.io: Weave GitOps Core Integrates Git with Kubernetes](https://thenewstack.io/weave-gitops-core-integrates-git-with-kubernetes/)
 - [thenewstack.io: Weave GitOps Trusted Delivery: A Road to Kubernetes Sanity?](https://thenewstack.io/weave-gitops-trusted-delivery-a-road-to-kubernetes-sanity/)
 
+### Octopilot
+
+- [dailymotion-oss.github.io/octopilot: Octopilot](https://dailymotion-oss.github.io/octopilot/) Automate your Gitops workflow, by automatically creating/merging GitHub PRs. 
+
 ## GitOps Frameworks
 
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.
@@ -312,6 +324,7 @@
 - [medium: GitOps with Istio, Tekton and Argo CD — on OpenShift 4](https://medium.com/@joelkaplan1/gitops-with-istio-tekton-and-argo-cd-on-openshift-4-5e42d22994e3)
 - [thenewstack.io: Red Hat Delivers Full GitOps CI/CD Built on Tekton and Argo](https://thenewstack.io/red-hat-delivers-full-gitops-ci-cd-built-on-tekton-and-argo/)
 - [redhat.com: Red Hat Makes DevOps a Reality with OpenShift GitOps and OpenShift Pipelines 🌟](https://www.redhat.com/en/about/press-releases/red-hat-makes-devops-reality-openshift-gitops-and-openshift-pipelines) New Red Hat OpenShift features provide fully-integrated CI/CD pipeline for organizations to deliver applications more consistently and with greater predictability across the open hybrid cloud.
+- [==piotrminkowski.com: GitOps with Advanced Cluster Management for Kubernetes== 🌟](https://piotrminkowski.com/2022/10/24/gitops-with-advanced-cluster-management-for-kubernetes/) In this article, you will learn how to manage multiple clusters with Argo CD and Advanced Cluster Management for Kubernetes. Advanced Cluster Management (ACM) for Kubernetes is a tool provided by Red Hat based on a community-driven project [Open Cluster Management](https://open-cluster-management.io/). I’ll show you how to use it with OpenShift to implement gitops approach for running apps across multiple clusters. However, you can as well deploy a community-driven version on Kubernetes.
 
 ### AWS Kubernetes
 

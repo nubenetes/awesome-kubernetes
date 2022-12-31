@@ -1,29 +1,31 @@
 # Docker
 
 1. [Introduction and Tutorials](#introduction-and-tutorials)
-2. [Docker CLI](#docker-cli)
-3. [Docker Swarm](#docker-swarm)
-4. [Awesome Lists](#awesome-lists)
-5. [Docker VS Kubernetes](#docker-vs-kubernetes)
-6. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
-7. [Docker Security](#docker-security)
-8. [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
-9. [Reducing Build Time](#reducing-build-time)
-10. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
-11. [Docker Tools](#docker-tools)
-12. [Docker and WSL2](#docker-and-wsl2)
-13. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
-14. [Docker Compose](#docker-compose)
-15. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
-16. [Windows Containers](#windows-containers)
-17. [Portainer](#portainer)
-18. [DockStation](#dockstation)
-19. [Linux Container Base Images](#linux-container-base-images)
-20. [Blogs](#blogs)
-21. [Cloud Native Buildpacks](#cloud-native-buildpacks)
-22. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
-23. [Videos and Podcasts](#videos-and-podcasts)
-24. [Tweets](#tweets)
+2. [Debugging](#debugging)
+3. [Docker CLI](#docker-cli)
+4. [Docker Extensions](#docker-extensions)
+5. [Docker Swarm](#docker-swarm)
+6. [Awesome Lists](#awesome-lists)
+7. [Docker VS Kubernetes](#docker-vs-kubernetes)
+8. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
+9. [Docker Security](#docker-security)
+10. [How To Build a Smaller Docker Image](#how-to-build-a-smaller-docker-image)
+11. [Reducing Build Time](#reducing-build-time)
+12. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
+13. [Docker Tools](#docker-tools)
+14. [Docker and WSL2](#docker-and-wsl2)
+15. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
+16. [Docker Compose](#docker-compose)
+17. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
+18. [Windows Containers](#windows-containers)
+19. [Portainer](#portainer)
+20. [DockStation](#dockstation)
+21. [Linux Container Base Images](#linux-container-base-images)
+22. [Blogs](#blogs)
+23. [Cloud Native Buildpacks](#cloud-native-buildpacks)
+24. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
+25. [Videos and Podcasts](#videos-and-podcasts)
+26. [Tweets](#tweets)
 
 ## Introduction and Tutorials
 
@@ -81,6 +83,7 @@
 - [pythonspeed.com: Docker can slow down your code and distort your benchmarks](https://pythonspeed.com/articles/docker-performance-overhead/)
 - [turbofuture.com: A Beginners Guide to Containers and Docker](https://turbofuture.com/computers/introductiontodocker)
 - [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://releasehub.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
+- [medium.com/nttlabs: Kubernetes driver for Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64) In this article, you will learn how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!
 - [linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores](https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html)
 - [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/reference/integrations/integration-docker/) Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
@@ -125,7 +128,7 @@
 - [==clavinjune.dev: Working With Remote Docker Using Docker Context==](https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context/) This is a cheatsheet for working with docker context to connect remote docker locally. Might help you to work with remote docker without manually SSH to the remote server.
 - [cloudsavvyit.com: How to Add a Volume to an Existing Docker Container](https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/)
 - [cloudsavvyit.com: How to Manage Docker Engine Plugins](https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins)
-- [==iximiuz.com: Learning Containers From The Bottom Up== | Ivan Velichko 🌟](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
+- [==iximiuz.com: Learning Containers From The Bottom Up== | Ivan Velichko 🌟🌟🌟](https://iximiuz.com/en/posts/container-learning-path/) Efficient Learning Path to Grasp Containers Fundamentals
 - [thenewstack.io: The Time to Decide on Docker Desktop Has Arrived](https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived/)
 - [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)
 - [dev.to: Top 5 Docker Best Practices](https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh)
@@ -139,7 +142,6 @@
 - [==stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images==](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/)
 - [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial/)
 - [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
-- [betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟](https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a) Smoke out annoying container problems with minimal insanity
 - [blog.devgenius.io: K8s — Advanced Container Knowledge](https://blog.devgenius.io/k8s-advanced-container-knowledge-fcc45a2f6db8)
 - [medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques You Need](https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650)
 - [kubesimplify.com: The secret gems behind building container images, Enter: BuildKit & Docker Buildx](https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx)
@@ -147,10 +149,38 @@
 - [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 - [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)
 - [cloudnativeislamabad.hashnode.dev: Introduction to Docker | part 1 🌟](https://cloudnativeislamabad.hashnode.dev/introduction-to-docker-part-1)
+- [faun.pub: Dockerfile Best Practices for Developers | Pavan Belagatti](https://faun.pub/dockerfile-best-practices-for-developers-87a2c19b4abe)
+- [==docker-curriculum.com: A Docker Tutorial for Beginners 🌟==](https://docker-curriculum.com/)
+- [hostinger.in: What Is Docker and How Does It Work? – Docker Explained](https://www.hostinger.in/tutorials/what-is-docker)
+- [blog.devgenius.io: Container — Namespace Introduction](https://blog.devgenius.io/container-namespace-introduction-6a1e26f8707a) Introduction to common container namespaces
+- [viblo.asia: How to prevent out-of-disk space when using Docker?](https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv)
+- [iximiuz.com: What Actually Happens When You Publish a Container Port 🌟](https://iximiuz.com/en/posts/docker-publish-container-ports/) "Port publishing" seems to be a term coined by Docker. But "port forwarding" aka "port mapping - as a form of socket redirection - was a well-known trick well before the invention of containers. How are the two different?
+- [iximiuz.com: How To Publish a Port of a Running Container 🌟](https://iximiuz.com/en/posts/docker-publish-port-of-running-container/)
+- [medium.com/@BeNitinAgarwal: Lifecycle of Docker Container](https://medium.com/@BeNitinAgarwal/lifecycle-of-docker-container-d2da9f85959)
+
+## Debugging
+
+- [betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟](https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a) Smoke out annoying container problems with minimal insanity
+- [iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟](https://iximiuz.com/en/posts/docker-debug-slim-containers/) A handy way to troubleshoot containers lacking a shell and/or debugging tools (e.g, scratch, slim, or distroless)
 
 ## Docker CLI
 
 - [docs.docker.com: docker buildx imagetools](https://docs.docker.com/engine/reference/commandline/buildx_imagetools/) Commands to work on images in registry
+- Who is still copying images between registries with:
+    - docker cli:
+        - docker pull <src>
+        - docker tag <src> <dst>
+        - docker push <dst>
+    - Use:
+        - crane cp <src> <dst>
+    - Or even:
+        - cosign cp <src> <dst>
+
+    - It's faster, and supports multi-arch (and cosign copies signatures/sboms/attestations)
+
+## Docker Extensions
+
+- [==dev.to: 9 Docker Extensions Every Developer Must Try==](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2)
 
 ## Docker Swarm
 
@@ -199,11 +229,12 @@
 - [==slim.ai==](https://www.slim.ai/) Build secure containers, faster. Secure your software supply chain.
     - [slim.ai: Automatically reduce Docker container size using DockerSlim](https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html)
     - [youtube: The need for Slim Docker Container Images with @DockerSlim & Slim.AI](https://www.youtube.com/watch?v=1o14tIEhZL0)
-    - [==slim.ai: Slim Docker Extension== 🌟](https://www.slim.ai/docs/docker-desktop-extension.html) 
+    - [==slim.ai: Slim Docker Extension== 🌟](https://www.slim.ai/docs/docker-desktop-extension.html)
 - [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnk8s.io/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
 - [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
 - [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 - [developers.redhat.com: Reduce the size of container images with DockerSlim](https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim)
+- [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension/)
 
 ## Reducing Build Time
 
@@ -237,6 +268,10 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [==ory/dockertest==](https://github.com/ory/dockertest) Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. Use Docker to run your Golang integration tests against third party services on Microsoft Windows, Mac OSX and Linux!
 - [==hadolint/hadolint: Haskell Dockerfile Linter==](https://github.com/hadolint/hadolint) Dockerfile linter, validate inline bash, written in Haskell
 - [==ttl.sh: Anonymous & ephemeral Docker image registry 🌟==](https://ttl.sh/) Free to use. No need to sign-up. Open source.
+- [==buildg: Interactive debugger for Dockerfile== 🌟](https://github.com/ktock/buildg) Interactive debugger for Dockerfile, with support for IDEs (VS Code, Emacs, Neovim, etc.)
+    - [infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg](https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg/)
+- [==github.com/google/go-containerregistry== 🌟](https://github.com/google/go-containerregistry) Go library and CLIs for working with container registries
+- [==jesseduffield/lazydocker==](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker
 
 ## Docker and WSL2
 
@@ -355,5 +390,9 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Debunking Container Myths 🧵<br><br>A (never-ending) series of articles that I started writing a couple of years ago to fix my own misconceptions about containers 🔽 <a href="https://t.co/bD7Iw48ere">pic.twitter.com/bD7Iw48ere</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1563851156417298434?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What Is a Distroless Container Image? 🧵<br><br>Go (programming language) is famous for its statically linked binaries. You can take a Go executable, drop it into a &quot;FROM scratch&quot; container, and call it a day.<br><br>But there might be a problem (keep reading) 👇 <a href="https://t.co/kskCI3rqCC">pic.twitter.com/kskCI3rqCC</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1566827552781524995?ref_src=twsrc%5Etfw">September 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who is still copying images between registries with: <br> docker pull &lt;src&gt;<br> docker tag &lt;src&gt; &lt;dst&gt;<br> docker push &lt;dst&gt;<br><br>Use:<br> crane cp &lt;src&gt; &lt;dst&gt;<br><br>Or even:<br> cosign cp &lt;src&gt; &lt;dst&gt;<br><br>It&#39;s faster, and supports multi-arch (and cosign copies signatures/sboms/attestations)</p>&mdash; Matt Moore ⛓🚀 (@mattomata) <a href="https://twitter.com/mattomata/status/1580369338879836160?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Docker and become a container expert<br>...but don&#39;t know how to even start? 🔽<br><br>Here is the learning order that helped me:<br><br>1. Containers: how Linux does them<br>2. Images: why they are needed<br>3. Managers: many containers, one host<br>4. Orchestrators: many hosts, one app <a href="https://t.co/HaXaGnSMkU">pic.twitter.com/HaXaGnSMkU</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1601166357826981888?ref_src=twsrc%5Etfw">December 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

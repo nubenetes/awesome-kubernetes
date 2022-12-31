@@ -32,6 +32,7 @@
 - [datastax.medium.com: SQL versus NoSQL: The Pros and Cons](https://datastax.medium.com/sql-versus-nosql-the-pros-and-cons-488d4a7ba92f)
 - [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better/) One has been predominantly used by firms for storing structured data in various forms, while another lets the companies store unstructured and semi-structured data also. Which among them is better and more efficient? Let’s analyze in this blog!
 - [medium.com/@suvankar.dey80: Time Series SQL vs No SQL](https://medium.com/@suvankar.dey80/time-series-sql-vs-no-sql-a8c7f40d80a8)
+- [thenewstack.io: Why Choose a NoSQL Database? There Are Many Great Reasons](https://thenewstack.io/why-choose-a-nosql-database-there-are-many-great-reasons/) With JSON data models and multimodel access, a NoSQL database can meet massive performance demands and still evolve rapidly.
 
 ### Couchbase
 
@@ -62,6 +63,8 @@
 - [polarsparc.com: Hands-on MongoDB :: Part-5 🌟](https://www.polarsparc.com/xhtml/MongoDB-5.html)
 - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b) How to apply schema validation rules in a collection.
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport/)
+- [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes/) In this tutorial, you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
+- [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)
 
 ### Redis
 

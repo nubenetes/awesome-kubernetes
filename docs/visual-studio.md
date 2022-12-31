@@ -21,8 +21,8 @@
 10. [AWS Toolkits](#aws-toolkits)
 11. [Cloud Code](#cloud-code)
 12. [Alternatives](#alternatives)
-    1. [Intellij IDEA](#intellij-idea)
-    2. [Online VSCode](#online-vscode)
+     1. [Intellij IDEA](#intellij-idea)
+     2. [Online VSCode](#online-vscode)
 13. [Videos](#videos)
 14. [Tweets](#tweets)
 
@@ -70,6 +70,7 @@
 - [dev.to: VSCode Extensions I'm in LOVE with | Tina Huynh](https://dev.to/tmchuynh/vscode-extensions-im-in-love-with-oab)
 - [towardsdatascience.com: VS Code for data science](https://towardsdatascience.com/vs-code-for-data-science-aee82fe08bac) How a good Visual Studio Code setup can make you a more productive data scientist
 - [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)
+- [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/)
 
 ## Updates
 
@@ -125,6 +126,7 @@ A simple extension to make indentation more readable
 - [dev.to: Superb VSCode extensions changing your coding life](https://dev.to/duckinm/superb-vscode-extensions-changing-your-coding-life-2cmb)
 - [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working/)
 - [freecodecamp.org: VS Code Extensions to Increase Developer Productivity](https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity/)
+- [dev.to: My Top 5 Visual Studio Code extensions for Azure Developers](https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo)
 
 #### More Extensions
 
@@ -166,6 +168,8 @@ A simple extension to make indentation more readable
 - [GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub) Extend VS Code with real-time collaborative superpowers
     - [dev.to/gitlive: GitLive now works with any Git repository in VS Code!](https://dev.to/gitlive/gitlive-now-works-with-any-git-repository-in-vs-code-304o)
 - [marketplace.visualstudio.com: autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+- [marketplace.visualstudio.com: Azure App Service for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+- [marketplace.visualstudio.com: CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) Take beautiful screenshots of your code
 
 #### More Extensions (Blogs)
 
@@ -227,7 +231,7 @@ A simple extension to make indentation more readable
 - [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - This is an example of Visual Studio Code settings when adding Git Bash on Windows:
 
-```
+```pwsh
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 ```
 
@@ -237,6 +241,7 @@ A simple extension to make indentation more readable
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
 - [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.
+- [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)
 
 ## Python in Visual Studio Code
 
@@ -305,6 +310,14 @@ A simple extension to make indentation more readable
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9O1PZoo0IAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGsMy75ffPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7FltByLPnrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/ydj23WqFAjU" title="Stop using find and replace to rename your symbols!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/RRn6vwbZca0" title="Use Multi Cursors Like a Boss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/PnAgS0nDTKY" title="VS Code October 2022 Release Highlights (v1.73)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/N6uEF6I4svc" title="What is 'git STASH'?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/017XXz2hcoY" title="Start using emoji syntax in Markdown files! :smile:" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/PrI1m7qOsag" title="Stop searching for the same code over and over again!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/PGvV-r8IzoI" title="Remote Tunnels #vscode #programming #software #coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="469" height="834" src="https://www.youtube.com/embed/0WOx1aoHH1o" title="Favorite VS Code features of 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
 

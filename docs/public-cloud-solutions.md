@@ -10,12 +10,15 @@
 8. [GAIA-X](#gaia-x)
 9. [Outages](#outages)
 10. [Podcasts](#podcasts)
-11. [Videos](#videos)
-12. [Twitter](#twitter)
+11. [Images](#images)
+12. [Videos](#videos)
+13. [Twitter](#twitter)
+
 ## Public Cloud References
 
 - [cloud-mercato.com: Public Cloud Reference 🌟](https://pcr.cloud-mercato.com/) A unique website gathering all catalogs
     - [cloud-mercato.com: State of the art of Public Object Storage Europe 🌟](https://projector.cloud-mercato.com/projects/state-of-the-art-of-public-object-storage-europe)
+- [learntocloud.guide](https://learntocloud.guide)
 
 ## Cloud Agnostic Design
 
@@ -25,6 +28,7 @@
 
 - [cybernews.com: Trouble in paradise: IT professionals unhappy with cloud services](https://cybernews.com/cloud/trouble-in-paradise-it-professionals-unhappy-with-cloud-services/) Only 8% of IT professionals surveyed around the globe believe they are getting the most from the cloud. A staggering 76% said they think their company is hitting a 'wall' as many of the daily tools were not designed to unify a multi-cloud, multi-tool world. 73% of the respondents agreed that they'd reached a point where they are struggling with efficiency scaling cloud efforts. Complexities with cloud adoption have increased, meaning that many business units and engineers within an organization decide to find isolated local solutions. That translates to companies having thousands of 'islands of automation' across teams, business units, subsidiaries, and locations. **Close to 63% of respondents said cyber threats specifically targeting cloud services were the main obstacle to cloud adoption.** Unsurprisingly, 60% said that the lack of security solutions protecting cross-platform environments was the critical hindrance for smoother general cloud adoption.
 - [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)
+- [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://acloudguru.com/blog/engineering/why-learn-multiple-cloud-platforms)
 
 ## Public Cloud Services Comparison
 
@@ -46,6 +50,7 @@
 - [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)
 - [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)
 - [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
+- [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison/)
 
 ## Openshift as a Service
 
@@ -94,6 +99,14 @@
 ## Podcasts
 
 - [hablemosdenube.com](https://www.hablemosdenube.com) 
+
+## Images
+
+??? note "Click to expand!"
+
+    <center>
+    ![cloud_advantages](images/cloud_advantages.png)
+    </center>
 
 ## Videos
 

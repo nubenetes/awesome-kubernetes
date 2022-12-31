@@ -5,6 +5,7 @@
 3. [AWS Certification](#aws-certification)
 4. [Closed groups for AWS certified professionals](#closed-groups-for-aws-certified-professionals)
 5. [Tweets](#tweets)
+
 ## Introduction
 
 - [New digital course and lab: AWS Cloud Development Kit (CDK) Primer](https://aws.amazon.com/about-aws/whats-new/2021/01/new-digital-course-and-lab-aws-cloud-development-kit-cdk-primer/)

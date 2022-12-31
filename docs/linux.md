@@ -1,4 +1,5 @@
 # Linux and SSH
+
 1. [Introduction](#introduction)
 2. [RHEL](#rhel)
 3. [Rocky Linux](#rocky-linux)
@@ -23,18 +24,19 @@
 22. [Linux processes](#linux-processes)
 23. [Linux Memory](#linux-memory)
 24. [Linux and Kubernetes](#linux-and-kubernetes)
-    1. [Systemd](#systemd)
-    2. [Blogs](#blogs)
-    3. [CommandLineFu](#commandlinefu)
-    4. [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
-    5. [Copr Build System](#copr-build-system)
-    6. [Pulp](#pulp)
-    7. [Hashicorp](#hashicorp)
+     1. [Systemd](#systemd)
+     2. [Blogs](#blogs)
+     3. [CommandLineFu](#commandlinefu)
+     4. [Wait until Your Dockerized Database Is Ready before Continuing](#wait-until-your-dockerized-database-is-ready-before-continuing)
+     5. [Copr Build System](#copr-build-system)
+     6. [Pulp](#pulp)
+     7. [Hashicorp](#hashicorp)
 25. [Linux Libraries](#linux-libraries)
 26. [Linux Networking](#linux-networking)
 27. [Networking Protocols](#networking-protocols)
-28. [Images](#images)
-29. [Tweets](#tweets)
+28. [Linux Hardening Security](#linux-hardening-security)
+29. [Images](#images)
+30. [Tweets](#tweets)
 
 ## Introduction
 
@@ -75,7 +77,7 @@
 - [neovim](https://neovim.io/) hyperextensible Vim-based text editor
 - [blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux](https://blog.ashwinchat.com/9-months-of-full-time-vim/)
 
-## SSH 
+## SSH
 
 - [gravitational.com: How to SSH Properly 🌟](https://gravitational.com/blog/how-to-ssh-properly/)
 - [19 Common SSH Commands In Linux With Examples](https://phoenixnap.com/kb/linux-ssh-commands)
@@ -95,6 +97,7 @@
 - [thenewstack.io: SSH Made Easy with SSH Agent and SSH Config](https://thenewstack.io/ssh-made-easy-with-ssh-agent-and-ssh-config/)
 - [linuxteck.com: 10 basic and most useful 'ssh' client commands in Linux](https://www.linuxteck.com/basic-ssh-client-commands-in-linux/)
 - [cyberciti.biz: How to audit SSH server and client config on Linux/Unix](https://www.cyberciti.biz/tips/how-to-audit-ssh-server-and-client-config-on-linux-unix.html) OpenSSH is critical for Linux & Unix servers. However, misconfig can create issues. But fear not, you can audit the SSH server & client config easily. You don't have to be a security guru. New developers and sysadmins can look for security & other issues.
+- [==iximiuz.com: A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding== 🌟](https://iximiuz.com/en/posts/ssh-tunnels/)
 
 ## OpenSSL
 
@@ -230,14 +233,16 @@
 - [==redhat.com: 20 one-line Linux commands to add to your toolbox==](https://www.redhat.com/sysadmin/one-line-linux-commands) Every Linux user has a favorite single-line command. Here are the 20 Linux commands we can't live without.
 - [termshark](https://github.com/gcla/termshark) A terminal UI for tshark, inspired by Wireshark
 - [baeldung.com: Maximum Number of Threads Per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)
-- [opensource.com: Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema) 
+- [opensource.com: Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema)
 - [redhat.com: 5 scripts for getting started with the Nmap Scripting Engine](https://www.redhat.com/sysadmin/nmap-scripting-engine) The NSE boosts Nmap's power by adding scripting capabilities (custom or community-created) to the network scanning tool.
 - [redhat.com: Linux troubleshooting commands: 4 tools for DNS name resolution problems](https://www.redhat.com/sysadmin/DNS-name-resolution-troubleshooting-tools) Find out what's stopping you from accessing a server, printer, or another network resource with these four Linux troubleshooting commands.
 - [==jvns.ca: A list of new(ish) command line tools | Julia Evans==](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
+- [itsfoss.com: 5 htop Alternatives to Enhance Your Linux System Monitoring Experience](https://itsfoss.com/htop-alternatives/)
+- [dev.to: 50 Linux Commands every developer NEED to know with example](https://dev.to/kanani_nirav/50-linux-commands-every-developer-need-to-know-with-example-mc)
 
 ## Makefiles
 
-- [makefiletutorial.com 🌟](https://makefiletutorial.com/) Learn Makefiles With the tastiest examples 
+- [makefiletutorial.com 🌟](https://makefiletutorial.com/) Learn Makefiles With the tastiest examples
 
 ## Guestfish
 
@@ -253,7 +258,7 @@
 
 - [igoroseledko.com: Checking Multiple Variables in Bash](https://www.igoroseledko.com/checking-multiple-variables-in-bash/)
 - [Introduction to Bash Scripting Interactive training](https://ebook.bobby.sh/training.html)
-	- [dev.to: Introduction to Bash Scripting - A DO Hackathon Submission](https://dev.to/bobbyiliev/introduction-to-bash-scripting-5571)
+    - [dev.to: Introduction to Bash Scripting - A DO Hackathon Submission](https://dev.to/bobbyiliev/introduction-to-bash-scripting-5571)
 - [datafix.com.au: BASHing data - Data ops on the Linux command line 🌟](https://datafix.com.au/BASHing/)
 - [medium: How to trigger an action at the end of the Shell/Bash script](https://medium.com/bash-tips-and-tricks/how-to-trigger-an-action-at-the-end-of-the-shell-bash-script-52b0ba9c157e) Using Bash/Shell trap, a built-in command to define any action to be executed before exiting the Bash or Shell script. You can define multiple actions and per signal.
 - [redhat.com: Bash scripting: How to read data from text files](https://www.redhat.com/sysadmin/data-text-files) Here's how to extract data from a text file such as reading in a list of servers to test connectivity to them.
@@ -282,6 +287,8 @@
 - [opensource.com: An introduction to programming with Bash (eBook)](https://opensource.com/downloads/bash-programming-guide)
 - [pythonspeed.com: Please stop writing shell scripts](https://pythonspeed.com/articles/shell-scripts/)
 - [linuxshelltips.com: What’s the Difference Between ${} and $() in Bash](https://www.linuxshelltips.com/difference-between-and-in-bash/)
+- [medium.com/kubehub: A Series on Bash Scripting](https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5)
+- [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7) Everything You Need to Know to Write Bash Scripts
 
 ## Questions and Answers
 
@@ -384,12 +391,16 @@
 - [iximiuz.com: Illustrated introduction to Linux iptables](https://iximiuz.com/en/posts/laymans-iptables-101/)
 - [linuxteck.com: 15 basic useful firewall-cmd commands in Linux](https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux/)
 - [tecmint.com: 20 Netstat Commands for Linux Network Management](https://www.tecmint.com/20-netstat-commands-for-linux-network-management/)
-- [redhat.com: 5 Linux network troubleshooting commands](https://www.redhat.com/sysadmin/five-network-commands) Linux provides many command-line tools to help sysadmins manage, configure, and troubleshoot network settings.
+- [redhat.com: 5 Linux network troubleshooting commands 🌟](https://www.redhat.com/sysadmin/five-network-commands) Linux provides many command-line tools to help sysadmins manage, configure, and troubleshoot network settings.
 
 ## Networking Protocols
 
 - [freecodecamp.org: TCP vs. UDP — What's the Difference and Which Protocol is Faster?](https://www.freecodecamp.org/news/tcp-vs-udp/)
 - [howdns.works](https://howdns.works/) A fun and colorful explanation of how DNS works.
+
+## Linux Hardening Security
+
+- [cyberciti.biz: 40 Linux Server Hardening Security Tips [2022 edition]](https://www.cyberciti.biz/tips/linux-security.html)
 
 ## Images
 
@@ -412,5 +423,11 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linux has so many built-in password managers:<br> syslog<br>.bash_history<br>.zsh_history<br>.mysql_history<br>…</p>&mdash; 🇫🇷 Jean-Ph˙ ͜ʟ˙ppe 🇪🇺 (@Jipe_) <a href="https://twitter.com/Jipe_/status/1450181992260177923?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">4000 Linux commands every programmer should know<br><br>A thread 🧵</p>&mdash; The Best Linux Blog In the Unixverse 🪔 (@nixcraft) <a href="https://twitter.com/nixcraft/status/1455835061182291981?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SSH Port Forwarding: Why and How 🧵<br><br>If these problems sound familiar:<br><br>- A db server listens on a remote localhost, but you want to use a local GUI client<br>- A dev service runs on your laptop, but you want to expose it to the Internet<br><br>...and you don&#39;t know the solution, read on! <a href="https://t.co/V4snfb1r3z">pic.twitter.com/V4snfb1r3z</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1587451857143828481?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In vim, you can type :e **/foo, then press tab and it&#39;ll find you a file with &quot;foo&quot; in its name.<br><br>You can press tab many times, and vim will iterate over the matching files.<br><br>Works in vanilla vim (no plugins), so you can use this trick on any Linux server you happen to log in to.</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1588948188399947776?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Linux? Open this: 🧵</p>&mdash; Rohit Ghumare | That #DevOps Guy✍️ (@ghumare64) <a href="https://twitter.com/ghumare64/status/1590550565142290432?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -3,8 +3,9 @@
 1. [Introduction](#introduction)
 2. [Local Environment as Code](#local-environment-as-code)
 3. [Comparing the Tools](#comparing-the-tools)
-4. [Videos](#videos)
-5. [Tweets](#tweets)
+4. [Tools](#tools)
+5. [Videos](#videos)
+6. [Tweets](#tweets)
 
 ## Introduction
 
@@ -25,6 +26,9 @@
 - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)
 - [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/)
 - [thenewstack.io: Infrastructure-as-Code: Increase Security, Scale Development](https://thenewstack.io/infrastructure-as-code-increase-security-scale-development/)
+- [==thenewstack.io: Struggling with IT Staff Leaving? Try Infrastructure as Code== 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/) With IaC, the organization retains critical knowledge of deployment and updates in code repositories, lessening the impact of any one expert leaving
+- [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure/)
+- [medium.com/@bunnyshell: How to Overcome Infrastructure as Code (IaC) Challenges](https://medium.com/@bunnyshell/how-to-overcome-infrastructure-as-code-iac-challenges-f4947be7cde2)
 
 ## Local Environment as Code
 
@@ -39,6 +43,11 @@
 - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/)
 - [cloudify.co: Ansible Vs Terraform 🌟](https://cloudify.co/blog/ansible-vs-terraform/)
 - [techcommunity.microsoft.com: Infrastructure as Code (IaC): Comparing the Tools](https://techcommunity.microsoft.com/t5/itops-talk-blog/infrastructure-as-code-iac-comparing-the-tools/ba-p/3205045)
+
+## Tools
+
+- [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
+- [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
 
 ## Videos
 

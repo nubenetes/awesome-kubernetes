@@ -1,4 +1,4 @@
-# Other Awesome Lists
+# Awesome Lists
 
 1. [Inspired By](#inspired-by)
 2. [Other Awesome Kubernetes Lists](#other-awesome-kubernetes-lists)
@@ -22,8 +22,8 @@
     17. [QA](#qa)
     18. [API](#api)
     19. [Development](#development)
-        1. [Bash](#bash)
-        2. [Powershell](#powershell)
+         1. [Bash](#bash)
+         2. [Powershell](#powershell)
     20. [Data Processing](#data-processing)
     21. [Big Data](#big-data)
     22. [Machine Learning and MLOps](#machine-learning-and-mlops)
@@ -56,6 +56,7 @@
 - [==mikeroyal/Kubernetes-Guide: Kubernetes Guide== 🌟](https://github.com/mikeroyal/Kubernetes-Guide) A guide covering Kubernetes including the applications and tools that will make you a better and more efficient Kubernetes developer.
 - [fairwinds.com: Top 12 Kubernetes Resources: Learn and Stay Up-to-Date](https://www.fairwinds.com/blog/top-12-kubernetes-resources)
 - [github.com/joseadanof: Awesome Cloud Native Trainings](https://github.com/joseadanof/awesome-cloudnative-trainings) In this repository, you will find all the free training with and without certificates that were released for different companies supporting Cloud Native Computing Foundations Projects and Kubernetes.
+- [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7) A curated (but not exhaustive) list of FOSS projects addressing multi-tenancy challenges in K8s.
 
 ## Other Awesome Lists
 
@@ -79,6 +80,10 @@
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
 - [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com/) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
+- [github.com/iximiuz: Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering) List of awesome tools to tinker with containers.
+- [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) This repository provides a working, deployable, open source based, AWS Lambda handler and CDK Python code. This handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
+- [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
+- [steveazz/awesome-slo: Awesome SLOs](https://github.com/steveazz/awesome-slo) A curated list of useful resources for SLIs/SLOs
 
 ### Project Management
 
@@ -109,11 +114,12 @@
 - [Awesome DevOps](https://github.com/awesome-soft/awesome-devops)
 - [==bregman-arie/devops-resources== 🌟](https://github.com/bregman-arie/devops-resources) DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
 - [andredesousa/devops-best-practices](https://github.com/andredesousa/devops-best-practices)
-- [MichaelCade/90DaysOfDevOps 🌟](https://github.com/MichaelCade/90DaysOfDevOps) This repository is my documenting repository for learning the world of DevOps. 
+- [MichaelCade/90DaysOfDevOps 🌟](https://github.com/MichaelCade/90DaysOfDevOps) This repository is my documenting repository for learning the world of DevOps.
 
 ### DevSecOps
 
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
+    - [==sottlmarek/DevSecOps - kubernetes==](https://github.com/sottlmarek/DevSecOps#kubernetes)
 - [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) Collection and Roadmap for everyone who wants DevSecOps
 
 ### GitOps
@@ -165,10 +171,12 @@
 
 ### Configuration Management
 
-- [Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
+- [jdauphant/Awesome Ansible](https://github.com/jdauphant/awesome-ansible)
     - [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
-- [Awesome Packer](https://github.com/dawitnida/awesome-packer)
-- [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+- [==ansible-community/awesome-ansible: Awesome Ansible== 🌟🌟🌟](https://github.com/ansible-community/awesome-ansible)
+- [dawitnida/Awesome Packer](https://github.com/dawitnida/awesome-packer)
+- [shuaibiyy/Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+- [ElYusubov/AWESOME-Azure-Bicep: AWESOME Azure Bicep](https://github.com/ElYusubov/AWESOME-Azure-Bicep)
 
 ### Security
 
@@ -241,6 +249,7 @@
 
 - [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops)
 - [ekramasif/Basic-Machine-Learning](https://github.com/ekramasif/Basic-Machine-Learning) **This is a repo of basic Machine Learning!** This repository contains a topic-wise curated list of Machine Learning and Deep Learning tutorials, articles and other resources.
+- [abhishek-ch/around-dataengineering: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)
 
 ## Open Source Alternatives
 

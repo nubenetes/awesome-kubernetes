@@ -1,4 +1,5 @@
 # DevOps Demos. Boilerplates/Samples, Tutorials & Screencasts
+
 1. [DevOps Screencasts](#devops-screencasts)
 2. [DevOps Blogs](#devops-blogs)
 3. [Kubernetes Blogs](#kubernetes-blogs)
@@ -56,40 +57,41 @@
     6. [Jenkins and AWS Kubernetes](#jenkins-and-aws-kubernetes)
     7. [SDKMAN](#sdkman)
     8. [Jenkins Scripts](#jenkins-scripts)
-    9. [Postman & Newman API Automated Tests](#postman--newman-api-automated-tests)
+    9. [Postman \& Newman API Automated Tests](#postman--newman-api-automated-tests)
     10. [Monitoring Jenkins with Grafana](#monitoring-jenkins-with-grafana)
 9. [Jenkins X](#jenkins-x)
 10. [Spinnaker](#spinnaker)
 11. [Nexus3 on Kubernetes](#nexus3-on-kubernetes)
 12. [GitLab](#gitlab)
 13. [Spring PetClinic Sample Application](#spring-petclinic-sample-application)
-    1. [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
-    2. [PetClinic on Kubernetes](#petclinic-on-kubernetes)
-    3. [PetClinic Docker images](#petclinic-docker-images)
-    4. [OpenShift.io Samples](#openshiftio-samples)
+     1. [Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL](#modular-pipeline-library-mpl-petclinic-pipeline-example-with-mpl)
+     2. [PetClinic on Kubernetes](#petclinic-on-kubernetes)
+     3. [PetClinic Docker images](#petclinic-docker-images)
+     4. [OpenShift.io Samples](#openshiftio-samples)
 14. [AWS Samples (Boilerplates)](#aws-samples-boilerplates)
 15. [Azure Samples](#azure-samples)
-    1. [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
-    2. [Azure Demos](#azure-demos)
+     1. [Azure DevOps Demos. Azure DevOps Pipelines](#azure-devops-demos-azure-devops-pipelines)
+     2. [Azure Demos](#azure-demos)
 16. [GCP Samples](#gcp-samples)
-    1. [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
-    2. [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
+     1. [Google DevOps Demos. Custom Samples and Cloud Code](#google-devops-demos-custom-samples-and-cloud-code)
+     2. [GitOps with Anthos Config Management](#gitops-with-anthos-config-management)
 17. [SpringBoot Demos](#springboot-demos)
 18. [Quarkus Demos](#quarkus-demos)
 19. [Golang Demos](#golang-demos)
 20. [Kafka](#kafka)
-21. [Apache Camel & ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
+21. [Apache Camel \& ActiveMQ. Event driven integration](#apache-camel--activemq-event-driven-integration)
 22. [Codeless](#codeless)
 23. [JBoss EAP](#jboss-eap)
 24. [Terraform](#terraform)
 25. [Prometheus and Grafana](#prometheus-and-grafana)
 26. [GitHub Actions](#github-actions)
-    1. [RedHat GitHub Actions](#redhat-github-actions)
+     1. [RedHat GitHub Actions](#redhat-github-actions)
 27. [Red Hat Process Automation Manager](#red-hat-process-automation-manager)
 28. [API Testing and Postman](#api-testing-and-postman)
-29. [QR Codes](#qr-codes)
-30. [Serverless](#serverless)
-31. [Labs](#labs)
+29. [OpenTelemetry](#opentelemetry)
+30. [QR Codes](#qr-codes)
+31. [Serverless](#serverless)
+32. [Labs](#labs)
 
 ## DevOps Screencasts
 
@@ -143,6 +145,7 @@
 - [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos)
 - [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS, Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)
 - [redhat.com: Build a lab in 36 seconds with Ansible](https://www.redhat.com/sysadmin/build-VM-fast-ansible) Using Ansible makes provisioning virtual machines automated, flexible, repeatable, and fast.
+- [betterprogramming.pub: Clean Up Your Kubernetes Deployments Using Ansible](https://betterprogramming.pub/clean-up-your-kubernetes-deployments-using-ansible-10a000db313b) Playbooks and templates make rolling out K8s objects a breeze
 
 ### GitOps
 
@@ -150,6 +153,7 @@
 - [kubesandclouds.com: Werf: Fully customizable GitOps 🌟](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/) Werf builds and publishes images, deploys applications to Kubernetes clusters, and removes unused images based on policies and rules defined in the Git repository.
 - [mytechramblings.com: A practical example of GitOps using Azure DevOps, Azure Container Registry, Helm, Flux and Kubernetes](https://www.mytechramblings.com/posts/gitops-with-azure-devops-helm-acr-flux-and-k8s/)
 - [youtube.com: Cloud Native GitOps with Anthos and JFrog Artifactory](https://www.youtube.com/watch?v=HSjm6-ACmWQ&ab_channel=JFrog)
+- [todaywasawesome/oss-apps: OSS Applications](https://github.com/todaywasawesome/oss-apps) Example repo to show GitOps lifecycle from staging to production with canary and blue/green deployments. This is a GitOps repo that acts as the source of truth for the open source team at Codefresh demoing GitOps apps.
 
 ## Kubernetes Demos
 
@@ -202,6 +206,8 @@
 - [todaywasawesome/atomic-cluster: The Atomic Cluster](https://github.com/todaywasawesome/atomic-cluster) Running a k3s Kubernetes cluster homelab on the adorable and affordable Atomic Pi.
 - [youtube: Deploy Docker image to Kubernetes Cluster | CI-CD for Azure Kubernetes Service | Mohamed Radwan - DevOps](https://www.youtube.com/watch?v=4DUhc0MjdUc&feature=youtu.be&ab_channel=MohamedRadwan-DevOps)
 - [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster/)
+- [==github.com/AdminTurnedDevOps/kubernetes-examples==](https://github.com/AdminTurnedDevOps/kubernetes-examples) This repo contains a bunch of Kubernetes examples
+- [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
 
 ### Webhooks app
 
@@ -218,7 +224,7 @@
 
 - [blog.flant.com: Our experience with Postgres Operator for Kubernetes by Zalando](https://blog.flant.com/our-experience-with-postgres-operator-for-kubernetes-by-zalando/)
 
-### CI/CD with SpringBoot for Kubernetes 
+### CI/CD with SpringBoot for Kubernetes
 
 - [CI/CD for Kubernetes through a Spring Boot example (Banzai Cloud CI/CD)](https://teletype.in/@sravancynixit/CcwqFANxY)
 - [onlineitguru.com: How to utilize Spring Boot Microservices on Kubernetes?](https://onlineitguru.com/blogger/how-to-utilize-spring-boot-microservices-on-kubernetes)
@@ -297,6 +303,10 @@
 - [channel9.msdn.com: Troubleshoot AKS cluster issues with AKS Diagnostics and AKS Periscope](https://channel9.msdn.com/Shows/Azure-Friday/Troubleshoot-AKS-cluster-issues-with-AKS-Diagnostics-and-AKS-Periscope)
 - [trstringer.com: Deploy to AKS from GitHub Actions 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/)
 - [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions-self-hosted/)
+- [medium.com/bb-tutorials-and-thoughts: How to Build and Deploy MERN Stack on Azure AKS](https://medium.com/bb-tutorials-and-thoughts/how-to-build-and-deploy-mern-stack-on-azure-aks-c25eaf27b9d0) MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. Express and Node make up the middle (application) tier.
+    - You will dockerize the app and push that image to the Azure container registry
+    - You will pull the image and deploy it to AKS
+    - You will learn how to expose the app
 
 ### Google Kubernetes Engine GKE
 
@@ -330,7 +340,7 @@
 - [redhatdemocentral.gitlab.io](https://redhatdemocentral.gitlab.io)
 - [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo)
 - [youtube: CodeReady Containers - Easy OpenShift Container Platform 4.5 Installation](https://www.youtube.com/watch?v=CJMdSQVFVik)
-- [gitlab.com/redhatdemocentral: Healthcare](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc) Have you wondered what an edge medical diagnosis architecture might look like when you want to create a scaleable #opensource solutions? Here's a peak at the logical view, but you can explore all the diagrams. 
+- [gitlab.com/redhatdemocentral: Healthcare](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/healthcare.adoc) Have you wondered what an edge medical diagnosis architecture might look like when you want to create a scaleable #opensource solutions? Here's a peak at the logical view, but you can explore all the diagrams.
 
 ### Cloud Native Development Architectural Diagrams Demos
 
@@ -447,6 +457,7 @@
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase/)
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279) Argo CD one of the most popular continues deployment tools used in Kubernetes. It is very simple to use and quite powerful. Personally, it is the first tool in my mind when I think of Kubernetes GitOps.
+- [==codefresh.io: Using Argo CD and Kustomize for ConfigMap Rollouts== 🌟🌟](https://codefresh.io/blog/using-argo-cd-and-kustomize-for-configmap-rollouts/) In this article, you will learn how to automatically rollout ConfigMap changes in your GitOps workflows using Argo CD and Kustomize.
 
 ### GitLab Pipelines on OpenShift
 
@@ -691,9 +702,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [cloudogu.com: CD with Jenkins, Nexus and cloudogu](https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces)
 - [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration)
 - [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic)
-* https://github.com/Azure-Samples/spring-petclinic-microservices
-* https://github.com/Azure-Samples/spring-petclinic-microservices-config
-* https://github.com/Azure-Samples/java-spring-petclinic
+- https://github.com/Azure-Samples/spring-petclinic-microservices
+- https://github.com/Azure-Samples/spring-petclinic-microservices-config
+- https://github.com/Azure-Samples/java-spring-petclinic
 
 ### Modular Pipeline Library (MPL). Petclinic Pipeline example with MPL
 
@@ -821,7 +832,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 - [medium: Setting up KafkaSource to send data and displayed with Knative event-display](https://medium.com/@jweng1/setting-up-kafkasource-to-send-data-and-displayed-with-knative-event-display-33891b253442)
 - [towardsdatascience.com: Kafka, for your data pipeline? Why not?](https://towardsdatascience.com/kafka-for-your-data-pipeline-why-not-5a14b50efe7f)
-- [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing ](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
+- [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
 - [ably.com: Building a realtime ticket booking solution with Kafka, FastAPI, and Ably](https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably)
 - [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7)
 
@@ -857,11 +868,14 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [the-tech-guy.in: Automating LAMP deployment using Terraform and Ansible](https://the-tech-guy.in/2022/03/08/automating-lamp-config-using-terraform-and-ansible/)
 - [betterprogramming.pub: All Hail the Monolith — Celebrating the Verbosity of the Unified Architecture in Terraform](https://betterprogramming.pub/all-hail-the-monolith-celebrating-the-verbosity-of-the-unified-architecture-in-terraform-81b53e3a03ae)
 - [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea)
+- [medium.com/@cyber-security: [DevOps] 01 - Example project with Terraform](https://medium.com/@cyber-security/devops-01-example-project-with-terraform-ade540824db1)
+- [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2)
 
 ## Prometheus and Grafana
 
 - [docker-compose-tpg: Telegraf + Prometheus + Grafana Local Testing Environments](https://github.com/xiaopeng163/docker-compose-tpg) Setup learning environment for Telegraf, Prometheus and Grafana with docker-compose. (include SNMP simulators).
 - [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices/)
+- [medium.com/geekculture: Monitoring your system with Docker + Grafana + Prometheus + Node](https://medium.com/geekculture/monitoring-your-system-with-docker-grafana-prometheus-node-d7fae11416f3)
 
 ## GitHub Actions
 
@@ -888,6 +902,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 - [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server/)
 - [github.com/microsoft/azure-digital-twins-postman-samples](https://github.com/microsoft/azure-digital-twins-postman-samples) The repo contains a single postman_collection.json file that contains a postman collection of requests to the Azure Digital Twins APIs. Currently the focus of the collection is on on the data plan and includes Models, Query, and Twins.
+
+## OpenTelemetry
+
+- [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b)
 
 ## QR Codes
 

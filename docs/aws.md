@@ -22,7 +22,7 @@
 14. [Resource Hierarchies](#resource-hierarchies)
 15. [AWS Tags](#aws-tags)
 16. [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
-    1. [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
+     1. [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
 17. [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
 18. [AWS re:Post](#aws-repost)
 19. [Bunch of Images](#bunch-of-images)
@@ -84,6 +84,7 @@
 - [medium.com/gargee-bhatnagar: How to Create a Custom AMI with Image Pipeline and Automate its Creation Using EC2 Image Builder](https://medium.com/gargee-bhatnagar/how-to-create-a-custom-ami-with-image-pipeline-and-automate-its-creation-using-ec2-image-builder-7e194e39c8e9)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
 - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)
+- [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b)
 
 ## AWS Application Services
 
@@ -112,6 +113,7 @@
 You can filter by topic using the toolbar above.
 - [AWS Courses created by AWS experts](https://www.amazon.com/b/?node=14297978011)
 - [dev.to: Many free and useful AWS official Dev and User guides!](https://dev.to/aws-builders/many-free-and-useful-aws-official-dev-and-user-guides-54ci)
+- [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 
 ## Containers on AWS
 

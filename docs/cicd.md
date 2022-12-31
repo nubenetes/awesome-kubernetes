@@ -2,19 +2,21 @@
 
 1. [Introduction](#introduction)
 2. [CI/CD Continuous Integration and Continuous Delivery](#cicd-continuous-integration-and-continuous-delivery)
-3. [Observability](#observability)
-4. [Code Review](#code-review)
-5. [Security in CI/CD](#security-in-cicd)
-6. [Progressive Delivery](#progressive-delivery)
-7. [Deployment Strategies](#deployment-strategies)
-8. [Pipeline Patterns](#pipeline-patterns)
-9. [CI/CD with Kubernetes](#cicd-with-kubernetes)
-10. [CI/CD with OpenShift](#cicd-with-openshift)
-11. [CI/CD with AWS](#cicd-with-aws)
-12. [Reports on the Enterprise CI/CD Market](#reports-on-the-enterprise-cicd-market)
-13. [Tools](#tools)
-14. [Awesome Lists](#awesome-lists)
-15. [Videos](#videos)
+3. [CI/CD Pipelines With Kubernetes](#cicd-pipelines-with-kubernetes)
+4. [Observability](#observability)
+5. [Code Review](#code-review)
+6. [Security in CI/CD](#security-in-cicd)
+7. [Progressive Delivery](#progressive-delivery)
+8. [Deployment Strategies](#deployment-strategies)
+9. [Pipeline Patterns](#pipeline-patterns)
+10. [CI/CD with Kubernetes](#cicd-with-kubernetes)
+11. [CI/CD with OpenShift](#cicd-with-openshift)
+12. [CI/CD with AWS](#cicd-with-aws)
+13. [Reports on the Enterprise CI/CD Market](#reports-on-the-enterprise-cicd-market)
+14. [Tools](#tools)
+15. [Awesome Lists](#awesome-lists)
+16. [Images](#images)
+17. [Videos](#videos)
 
 ## Introduction
 
@@ -100,6 +102,13 @@
 - [harness.io: Modern Software Delivery Best Practices & Software Delivery Management](https://harness.io/blog/software-delivery-best-practices/)
 - [linkedin pulse: Enabling CI/CD to Boost DevOps | Pavan Belagatti](https://www.linkedin.com/pulse/enabling-cicd-boost-devops-pavan-belagatti/)
 - [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast/)
+- [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software/) This creates complex challenges for developers trying to push commits with confidence and DevOps teams responsible for fine-tuning their pipelines.
+- [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices/)
+
+## CI/CD Pipelines With Kubernetes
+
+- [==dzone.com: An Overview of CI/CD Pipelines With Kubernetes==](https://dzone.com/articles/an-overview-of-cicd-pipelines-with-kubernetes) Take a look at CI/CD approaches in a Kubernetes ecosystem, best practices for implementing an efficient CI/CD framework, and popular open-source CI/CD tools.
+- [==thenewstack.io: Kubernetes CI/CD Pipelines Explained==](https://thenewstack.io/kubernetes-ci-cd-pipelines-explained/) Building an effective CI/CD pipeline requires diligent technical analysis, a generous amount of planning and choosing the right set of tools.
 
 ## Observability
 
@@ -108,6 +117,7 @@
 ## Code Review
 
 - [developers.redhat.com: 10 tips for reviewing code you don't like](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like)
+
 ## Security in CI/CD
 
 - [CI Checks Are Not Enough: Combat Configuration Drift in Kubernetes Resources](https://thenewstack.io/ci-checks-are-not-enough-combat-configuration-drift-in-kubernetes-resources/)
@@ -147,7 +157,7 @@
 - [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai/)
 - [thenewstack.io: 7 features that make kubernetes ideal for CI/CD](https://thenewstack.io/7-features-that-make-kubernetes-ideal-for-ci-cd/)
 - [thenewstack.io: CI/CD with kubernetes 🌟](https://thenewstack.io/ebooks/kubernetes/ci-cd-with-kubernetes/)
-- [harness.io: Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/) With all of the benefits that Kubernetes has, having good CI/CD practices is key. Kubernetes did not magically erase the discipline that your CI/CD journey has taken you on before Kubernetes. Leverage Kubernetes’s strengths to further your CI/CD journey. 
+- [harness.io: Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/) With all of the benefits that Kubernetes has, having good CI/CD practices is key. Kubernetes did not magically erase the discipline that your CI/CD journey has taken you on before Kubernetes. Leverage Kubernetes’s strengths to further your CI/CD journey.
 
 ## CI/CD with OpenShift
 
@@ -176,6 +186,16 @@
 
 - [Awesome CI/CD 🌟](https://github.com/cicdops/awesome-ciandcd)
 
+## Images
+
+??? note "Click to expand!"
+
+    <center>
+    ![cicd cheatsheet](images/cicd-cheatsheet.jfif)
+
+    ![blue green deployment strategy](images/blue-green-deployment.jfif)
+    </center>
+
 ## Videos
 
 <details>
@@ -187,6 +207,3 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/65BnTLcDAJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 </details>
-
-
-

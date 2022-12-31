@@ -31,6 +31,7 @@
 - [kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟](https://kubernetes.io/docs/contribute/style/diagram-guide/)
 - [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 🎨 Diagram as Code for prototyping cloud system architectures
     - [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams/)
+- [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) Kubernetes diagrams using VS Code. Kubernetes-PlantUML contains the PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components. This work is based on the official Kubernetes Icons Set.
 
 ## Architecture Icons
 

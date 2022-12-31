@@ -50,6 +50,12 @@ the #1 test automation community.
 - [dev.to: Test-Driven-Development with Django: Unit Testing & Integration testing with Docker, Flask & Github Actions](https://dev.to/koladev/test-driven-development-with-django-unit-testing-integration-testing-with-docker-flask-github-actions-2047)
 - [smashingmagazine.com: Testing Pipeline 101 For Frontend Testing](https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing/)
 - [infoq.com: Maintaining Software Quality with Microservices](https://www.infoq.com/presentations/microservices-software-quality/)
+- [speakerdeck.com/thockin: Code Review in Kubernetes](https://speakerdeck.com/thockin/code-review-in-kubernetes)
+- [adequatica.medium.com: Principles of Writing Automated Tests](https://adequatica.medium.com/principles-of-writing-automated-tests-a2b72218264c) While working on test automation in different projects, I’ve learned that there are not enough static analyzers and code formatters for writing good tests. The team had to have an agreement on how the tests should be written.
+- [getxray.app: The top 5 software testing trends of 2022](https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022)
+- [linkedin.com: Microservices are testable in isolation 🌟](https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson/)
+- [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns) The productive path to establishing and maintaining effective test automation is not easy. In this post, explore well-intentioned yet harmful anti-patterns.
+- [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing/)
 
 ## Blogs
 
@@ -86,6 +92,7 @@ the #1 test automation community.
     - [spinscale.de: Using Testcontainers To Test Elasticsearch Plugins](https://spinscale.de/posts/2021-08-25-using-testcontainers-to-test-elasticsearch-plugins.html)
     - [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
     - [atomicjar.com: Announcing Testcontainers Cloud: Integration Testing has never been easier](https://www.atomicjar.com/2021/11/announcing-testcontainers-cloud/) Ever wished for integration tests to be faster, easier, and more efficient? Wish no more! We're happy to announce Testcontainers Cloud - a lightweight, fast, and secure integration testing platform for everyone.
+    - [vladmihalcea.com: Testcontainers Database Integration Testing](https://vladmihalcea.com/testcontainers-database-integration-testing/)
 - [Metabob](https://www.metabob.com/) Metabob is an AI Static Analysis Tool that enables developers to quickly identify the causes behind errors and performance sinks. An AI-assisted tool to visualize and debug Python code.
 - [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)
 - [SystemTap](https://sourceware.org/systemtap/)
@@ -106,6 +113,7 @@ the #1 test automation community.
 ## Performance Testing
 
 - [devops.com: Best Practices for Application Performance Testing](https://devops.com/best-practices-for-application-performance-testing/)
+- [softwarequickguide.com: What is performance testing and performance testing tools](https://softwarequickguide.com/what-is-performance-testing-and-performance-testing-tools)
 
 ## Kubernetes conformance testing tools
 

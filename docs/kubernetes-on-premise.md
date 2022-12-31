@@ -18,23 +18,26 @@
 16. [Zarf. DevSecOps for Air Gap Systems](#zarf-devsecops-for-air-gap-systems)
 17. [Kubernetes Operating Systems](#kubernetes-operating-systems)
 18. [Kubernetes Distributions](#kubernetes-distributions)
-    1. [Red Hat OpenShift](#red-hat-openshift)
-    2. [Rancher](#rancher)
-    3. [Weave Kubernetes Platform](#weave-kubernetes-platform)
-    4. [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
-    5. [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
-        1. [KubeAcademy Pro (free training)](#kubeacademy-pro-free-training)
-    6. [Kontena Pharos](#kontena-pharos)
-    7. [Mirantis Docker Enterprise with Kubernetes and Docker Swarm](#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm)
-    8. [Mirantis k0s](#mirantis-k0s)
-    9. [K0s](#k0s)
-    10. [K8e](#k8e)
-    11. [Typhoon](#typhoon)
+     1. [Red Hat OpenShift](#red-hat-openshift)
+     2. [Rancher](#rancher)
+     3. [Weave Kubernetes Platform](#weave-kubernetes-platform)
+     4. [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
+     5. [VMware Kubernetes Tanzu and Project Pacific](#vmware-kubernetes-tanzu-and-project-pacific)
+         1. [KubeAcademy Pro (free training)](#kubeacademy-pro-free-training)
+     6. [Kontena Pharos](#kontena-pharos)
+     7. [Mirantis Docker Enterprise with Kubernetes and Docker Swarm](#mirantis-docker-enterprise-with-kubernetes-and-docker-swarm)
+     8. [Mirantis k0s](#mirantis-k0s)
+     9. [K0s](#k0s)
+     10. [K8e](#k8e)
+     11. [Typhoon](#typhoon)
+     12. [kurl](#kurl)
 
 ## Introduction
 
 - [containerjournal.com: Deploying Kubernetes on Bare Metal](https://containerjournal.com/features/deploying-kubernetes-on-bare-metal/)
 - [thenewstack.io: Kubernetes on Bare Metal vs. VMs: It’s Not Just Performance](https://thenewstack.io/kubernetes-on-bare-metal-vs-vms-its-not-just-performance/)
+- [containerjournal.com: When Kubernetes-as-a-Service Doesn’t Cut It](https://containerjournal.com/features/when-kubernetes-as-a-service-doesnt-cut-it/)
+
 ## Comparative Analysis of Kubernetes Deployment Tools
 
 - [A Comparative Analysis of Kubernetes Deployment Tools: Kubespray, kops, and conjure-up](https://www.altoros.com/research-papers/a-comparative-analysis-of-kubernetes-deployment-tools-kubespray-kops-and-conjure-up-2/)
@@ -81,6 +84,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [thenewstack.io: How to Deploy Kubernetes with Kubeadm and containerd](https://thenewstack.io/how-to-deploy-kubernetes-with-kubeadm-and-containerd/)
 - [faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm. 1/3](https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b) In this article, you'll create a HA Kubernetes cluster with multi masters topology, with an external Etcd cluster as a base layer and a MetalLB load balancer. On all worker nodes, you'll deploy a GlusterFS for storage.
 - [blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux](https://blog.learncodeonline.in/kubernetes-cluster-deployment-on-centos-linux)
+- [github.com/kubernetes/kubeadm: High Availability Considerations](https://github.com/kubernetes/kubeadm/blob/main/docs/ha-considerations.md)
 
 ## Deploying Kubernetes Cluster with Ansible
 
@@ -101,6 +105,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [adamtheautomator.com/kubespray: Conquer Kubernetes Clusters with Ansible Kubespray](https://adamtheautomator.com/kubespray/)
     - Manually deploying Kubernetes can be challenging for administrators, especially on bare-metal infrastructure deployment. Luckily, there is an automation tool for deploying production-ready Kubernetes called Kubespray.
     - Kubespray is an Ansible Playbook for deploying Kubernetes Cluster and provides a High Availability cluster, composable attributes, components, and supports multiple Linux distributions. Kubespray also supports cloud services like AWS, GCE, and Azure.
+- [github.com/bluxmit: Kubespray Workspace](https://github.com/bluxmit/alnoda-workspaces/tree/main/workspaces/kubespray-workspace) Containerized development, execution and admin environment for Kubernetes, Ansible and Terraform.
 
 ## Conjure up
 
@@ -173,6 +178,13 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ## Kubernetes Distributions
 
 - [acloudguru.com: Which Kubernetes distribution is right for you?](https://acloudguru.com/blog/engineering/which-kubernetes-distribution-is-right-for-you)
+- [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/3265059/6-kubernetes-distributions-leading-the-container-revolution.html)
+    - OpenShift
+    - VMware Tanzu Grid
+    - Rancher Kubernetes Engine
+    - Mirantis Kubernetes Engine
+    - Docker
+    - Canonical Kubernetes
 
 ### Red Hat OpenShift
 
@@ -251,3 +263,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ### Typhoon
 
 - [poseidon/typhoon](https://github.com/poseidon/typhoon) **Typhoon is a minimal and free Kubernetes distribution with Terraform.*- [typhoon.psdn.io](https://typhoon.psdn.io/)
+
+### kurl
+
+- [kurl.sh](https://kurl.sh/) kURL is a Kubernetes installer for air-gapped and online clusters. kURL relies on kubeadm but automates tasks such as installing the container runtime, configuring pod networking, etc., so any user can deploy a Kubernetes cluster with a single script.

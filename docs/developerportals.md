@@ -1,11 +1,12 @@
-# API Marketplaces. API Management with API Gateways & Developer Portals 
+# API Marketplaces. API Management with API Gateways & Developer Portals
+
 1. [Introduction](#introduction)
 2. [HTTPs for Developers](#https-for-developers)
 3. [API Landscape and API Marketplaces](#api-landscape-and-api-marketplaces)
     1. [API Marketplaces](#api-marketplaces)
-    2. [Rapid API Marketplace. Free Public & Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
+    2. [Rapid API Marketplace. Free Public \& Open REST APIs](#rapid-api-marketplace-free-public--open-rest-apis)
     3. [Apis.guru Large Archive of Sample OpenAPI Descriptions](#apisguru-large-archive-of-sample-openapi-descriptions)
-4. [API Managers with API Gateways & Developer Portals](#api-managers-with-api-gateways--developer-portals)
+4. [API Managers with API Gateways \& Developer Portals](#api-managers-with-api-gateways--developer-portals)
     1. [API Management vs API Gateway vs Developer Portals](#api-management-vs-api-gateway-vs-developer-portals)
     2. [3scale API Manager](#3scale-api-manager)
     3. [Google Apigee API Manager](#google-apigee-api-manager)
@@ -37,7 +38,9 @@
 - [ajay-yadav109458.medium.com: Concepts of API Gateway](https://ajay-yadav109458.medium.com/concepts-of-api-gateway-ac4993a0af44)
 - [blog.oliverjumpertz.dev: The 10 Most Valuable Lessons I Learned As A Developer](https://blog.oliverjumpertz.dev/the-10-most-valuable-lessons-i-learned-as-a-developer)
 - [genbeta.com: 32.000 desarrolladores responden sobre plataformas y lenguajes de programación: JavaScript, AWS, GitHub y Windows, los más usados](https://www.genbeta.com/desarrollo/32-000-desarrolladores-responden-plataformas-lenguajes-programacion-javascript-aws-github-windows-usados)
-- [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics) 
+- [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics)
+- [==medium.com/apache-apisix: 10 most common use cases of an API Gateway==](https://medium.com/apache-apisix/10-most-use-cases-of-an-api-gateway-in-api-led-architecture-f4d7fa160dcf)
+- [siliconrepublic.com: 10 dev tools recommended by start-up founders](https://www.siliconrepublic.com/advice/dev-tools-recommended-by-irish-start-up-founders)
 
 ## HTTPs for Developers
 
@@ -104,6 +107,10 @@
 
 - [WSO2 API Manager](https://wso2.com/api-management/)
 - [WSO2 @Youtube](https://www.youtube.com/user/WSO2TechFlicks)
+- [chakray.com: Why API Lifecycle Management is a MUST for Your Organisation APIs](https://www.chakray.com/why-api-lifecycle-management-is-must-organisation-apis/)
+- [chakray.com: 11 Steps to achieving a successful API Management Strategy](https://www.chakray.com/11-steps-achieving-successful-api-management-strategy/)
+- [chakray.com: Por qué API LIFECYCLE MANAGEMENT es imprescindible para la organización de APIs](https://www.chakray.com/es/por-que-api-lifecycle-management-imprescindible-api-organizacion/)
+- [chakray.com: 11 Pasos para lograr una estrategia API Management exitosa](https://www.chakray.com/es/11-pasos-lograr-estrategia-api-management-exitosa/)
 
 ### Kong API Manager
 
@@ -114,6 +121,7 @@
 - [medium: KONG — The Microservice API Gateway](https://medium.com/@far3ns/kong-the-microservice-api-gateway-526c4ca0cfa6)
 - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
 - [==dzone: Breaking Up a Monolithic Database with Kong==](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong) If your microservice design results in a very large API or multiple services accessing a single database, check out why Kong Gateway should be part of your project.
+- [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/kong-and-red-hat-collaboration)
 
 ### Tyk API Manager
 
@@ -126,7 +134,7 @@
 - [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ)
 - [axway.com/digitize](https://axway.com/digitize)
 
-### MuleSoft API Manager 
+### MuleSoft API Manager
 
 - [MuleSoft API Manager](https://www.mulesoft.com/platform/api/manager)
 - [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids)
@@ -136,7 +144,7 @@
 - [Introducing Gloo Federation for Multi-Cluster API Gateway Management](https://www.solo.io/blog/introducing-gloo-federation-for-multi-cluster-management/)
 - [solo.io: [Tutorial] Securing APIs with OIDC Using Keycloak](https://www.solo.io/blog/tutorial-gloo-integration-with-keycloak/) In this tutorial, you will learn how to integrate the Gloo API gateway with Keycloack in Kubernetes
 
-### Backstage Developer Portal 
+### Backstage Developer Portal
 
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
 - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
@@ -160,6 +168,8 @@
 
 - [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
 - [dzone: Custom Rate Limiting for Microservices 🌟](https://dzone.com/articles/rate-limiting-for-microservices) Enforcing rate limits on microservices is a common requirement in the API economy. In this article, we are going to build a custom rate limiting solution.
+- [cloudtechtwitter.com: Pattern: API Gateway / Backends for Frontends](https://www.cloudtechtwitter.com/2022/05/pattern-api-gateway-backends-for.html) Spring Cloud Gateway provides a library to build an API Gateway. This is the preferred gateway implementation provided by Spring Cloud. It's built with Spring 5, Spring Boot 2, and Project Reactor. To understand the offerings of Spring Cloud Gateway we must understand the API Gateway pattern in detail.
+- [medium.com/@jeevansathisocial: High-performance API gateway](https://medium.com/@jeevansathisocial/high-performance-api-gateway-3661d5a2fee0s-3661d5a2fee0)
 
 ## Mobile Developer Portals
 
@@ -236,5 +246,11 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 8 Things I Learned as a Software Engineer (Developer)...<br><br>A Thread... <a href="https://t.co/P4AMGlzYA9">pic.twitter.com/P4AMGlzYA9</a></p>&mdash; Ankur💻🎧💪 (@TheAnkurTyagi) <a href="https://twitter.com/TheAnkurTyagi/status/1396444989085782016?ref_src=twsrc%5Etfw">May 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be fullstack doesn&#39;t mean you know every part of the modern technology landscape. It means that you&#39;ve made a decision to be open to picking up the parts you need as you need them.</p>&mdash; Chris Ford (@ctford) <a href="https://twitter.com/ctford/status/1406559406804852740?ref_src=twsrc%5Etfw">June 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to be successful in programming, open this:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1587391313594531840?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Computer Networking For Developers 🧵<br><br>Need to get into networking but all materials you find feel like they are written for bearded networking gurus?<br><br>I&#39;ve got a bunch of &quot;different&quot; articles for you! Written by a developer for fellow developers 👇 <a href="https://t.co/HdgrG7yNys">pic.twitter.com/HdgrG7yNys</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1588183033303207936?ref_src=twsrc%5Etfw">November 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do we need &quot;software architecture?&quot; Some thoughts that might help you in our busy software development world 🧵</p>&mdash; Markus Harrer (@feststelltaste) <a href="https://twitter.com/feststelltaste/status/1592891290643226625?ref_src=twsrc%5Etfw">November 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

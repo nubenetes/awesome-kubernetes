@@ -10,7 +10,7 @@
     7. [ROSA Red Hat OpenShift Service on AWS](#rosa-red-hat-openshift-service-on-aws)
     8. [CI/CD in OpenShift](#cicd-in-openshift)
 2. [Downloads](#downloads)
-3. [OpenShift End-to-End. Day 0, Day 1 & Day 2](#openshift-end-to-end-day-0-day-1--day-2)
+3. [OpenShift End-to-End. Day 0, Day 1 \& Day 2](#openshift-end-to-end-day-0-day-1--day-2)
 4. [OCP 4 Overview](#ocp-4-overview)
     1. [Three New Functionalities](#three-new-functionalities)
     2. [New Technical Components](#new-technical-components)
@@ -25,7 +25,7 @@
         5. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
             1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
             2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
-        6. [Cluster Network Operator (CNO) & Routers](#cluster-network-operator-cno--routers)
+        6. [Cluster Network Operator (CNO) \& Routers](#cluster-network-operator-cno--routers)
         7. [ServiceMesh Operator](#servicemesh-operator)
         8. [Serverless Operator (Knative)](#serverless-operator-knative)
     6. [Monitoring and Observability](#monitoring-and-observability)
@@ -36,39 +36,40 @@
     7. [Build Images. Next-Generation Container Image Building Tools](#build-images-next-generation-container-image-building-tools)
     8. [OpenShift Registry and Quay Registry](#openshift-registry-and-quay-registry)
     9. [Local Development Environment](#local-development-environment)
-5. [OpenShift on Azure](#openshift-on-azure)
-6. [OpenShift Youtube](#openshift-youtube)
-7. [OpenShift 4 Training](#openshift-4-training)
-8. [OpenShift 4 Roadmap](#openshift-4-roadmap)
-9. [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
-10. [Networking and Network Policy in OCP4. SDN/CNI plug-ins](#networking-and-network-policy-in-ocp4-sdncni-plug-ins)
-    1. [Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network](#multiple-networks-with-sdncni-plug-ins-usage-scenarios-for-an-additional-network)
-    2. [Istio CNI plug-in](#istio-cni-plug-in)
-    3. [Calico CNI Plug-in](#calico-cni-plug-in)
-    4. [Third Party Network Operators with OpenShift](#third-party-network-operators-with-openshift)
-    5. [Ingress Controllers in OpenShift using IPI](#ingress-controllers-in-openshift-using-ipi)
-11. [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
-12. [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
-13. [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
-14. [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
-15. [OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers](#openshift-hive-cluster-as-a-service-easily-provision-new-paas-environments-for-developers)
-16. [OpenShift 4 Master API Protection in Public Cloud](#openshift-4-master-api-protection-in-public-cloud)
-17. [Backup and Migrate to OpenShift 4](#backup-and-migrate-to-openshift-4)
-18. [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
-19. [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
-20. [Helm Charts and OpenShift 4](#helm-charts-and-openshift-4)
-21. [Red Hat Marketplace](#red-hat-marketplace)
-22. [Kubestone. Benchmarking Operator for K8s and OpenShift](#kubestone-benchmarking-operator-for-k8s-and-openshift)
-23. [OpenShift Cost Management](#openshift-cost-management)
-24. [Operators in OCP 4](#operators-in-ocp-4)
-25. [Quay Container Registry](#quay-container-registry)
-26. [Application Migration Toolkit](#application-migration-toolkit)
-27. [Developer Sandbox](#developer-sandbox)
-28. [OpenShift Topology View](#openshift-topology-view)
-29. [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
-30. [Scripts](#scripts)
-31. [Slides](#slides)
-32. [Tweets](#tweets)
+5. [GitOps Catalog](#gitops-catalog)
+6. [OpenShift on Azure](#openshift-on-azure)
+7. [OpenShift Youtube](#openshift-youtube)
+8. [OpenShift 4 Training](#openshift-4-training)
+9. [OpenShift 4 Roadmap](#openshift-4-roadmap)
+10. [Kubevirt Virtual Machine Management on Kubernetes](#kubevirt-virtual-machine-management-on-kubernetes)
+11. [Networking and Network Policy in OCP4. SDN/CNI plug-ins](#networking-and-network-policy-in-ocp4-sdncni-plug-ins)
+     1. [Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network](#multiple-networks-with-sdncni-plug-ins-usage-scenarios-for-an-additional-network)
+     2. [Istio CNI plug-in](#istio-cni-plug-in)
+     3. [Calico CNI Plug-in](#calico-cni-plug-in)
+     4. [Third Party Network Operators with OpenShift](#third-party-network-operators-with-openshift)
+     5. [Ingress Controllers in OpenShift using IPI](#ingress-controllers-in-openshift-using-ipi)
+12. [Storage in OCP 4. OpenShift Container Storage (OCS)](#storage-in-ocp-4-openshift-container-storage-ocs)
+13. [Red Hat Advanced Cluster Management for Kubernetes](#red-hat-advanced-cluster-management-for-kubernetes)
+14. [OpenShift Kubernetes Engine (OKE)](#openshift-kubernetes-engine-oke)
+15. [Red Hat CodeReady Containers. OpenShift 4 on your laptop](#red-hat-codeready-containers-openshift-4-on-your-laptop)
+16. [OpenShift Hive: Cluster-as-a-Service. Easily provision new PaaS environments for developers](#openshift-hive-cluster-as-a-service-easily-provision-new-paas-environments-for-developers)
+17. [OpenShift 4 Master API Protection in Public Cloud](#openshift-4-master-api-protection-in-public-cloud)
+18. [Backup and Migrate to OpenShift 4](#backup-and-migrate-to-openshift-4)
+19. [OKD4. OpenShift 4 without enterprise-level support](#okd4-openshift-4-without-enterprise-level-support)
+20. [OpenShift Serverless with Knative](#openshift-serverless-with-knative)
+21. [Helm Charts and OpenShift 4](#helm-charts-and-openshift-4)
+22. [Red Hat Marketplace](#red-hat-marketplace)
+23. [Kubestone. Benchmarking Operator for K8s and OpenShift](#kubestone-benchmarking-operator-for-k8s-and-openshift)
+24. [OpenShift Cost Management](#openshift-cost-management)
+25. [Operators in OCP 4](#operators-in-ocp-4)
+26. [Quay Container Registry](#quay-container-registry)
+27. [Application Migration Toolkit](#application-migration-toolkit)
+28. [Developer Sandbox](#developer-sandbox)
+29. [OpenShift Topology View](#openshift-topology-view)
+30. [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
+31. [Scripts](#scripts)
+32. [Slides](#slides)
+33. [Tweets](#tweets)
 
 ## OpenShift Container Platform 4 (OCP 4)
 
@@ -149,6 +150,7 @@
 - [github.com/openshift/hypershift: HyperShift](https://github.com/openshift/hypershift) Hyperscale OpenShift - clusters with hosted control planes. HyperShift is a middleware for hosting OpenShift control planes at scale that solves for cost and time to provision, as well as portability cross cloud with strong separation of concerns between management and workloads. Clusters are fully compliant OpenShift Container Platform (OCP) clusters and are compatible with standard OCP and Kubernetes toolchains.
 - [michaelkotelnikov.medium.com: Managing Network Security Lifecycles in Multi Cluster OpenShift Environments with OpenShift Platform Plus](https://michaelkotelnikov.medium.com/maintaining-network-traffic-compliance-in-multi-cluster-openshift-environments-with-openshift-54fe369aa346) In this article, you will learn how the tools in the OpenShift Platform Plus bundle help an organization maintain and secure network traffic flows in multi cluster OpenShift environments.
 - [medium.com/@shrishs: Application Backup and Restore using Openshift API for Data Protection(OADP)](https://medium.com/@shrishs/application-backup-and-restore-using-openshift-api-for-data-protection-oadp-790d39ad96d4)
+- [==dev.to: Deep Dive into AWS OIDC identity provider when installing OpenShift using manual authentication mode with STS==](https://dev.to/mtulio/deep-dive-into-aws-oidc-identity-provider-when-installing-openshift-with-iam-sts-manual-sts-support-1bo7)
 
 ### OpenShift Guide
 
@@ -286,11 +288,11 @@
     - [CRI-O](https://cri-o.io/) as a container runtime
     - [SELinux](https://www.slideshare.net/openshift/openshift-18812162) enabled by default
 - [Machine API](https://github.com/openshift/machine-api-operator/tree/master): Provisioning of nodes. Abstraction mechanism added (API objects to declaratively manage the cluster):
-    - Based on [Kubernetes Cluster API project](https://github.com/kubernetes-sigs/cluster-api)
-    - Provides a new set of machine resources: 
+    - Based on [Kubernetes Cluster API project](https://github.com/kubernetes-sigs/cluster-api) Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.
+    - Provides a new set of machine resources:
         - Machine
         - Machine Deployment
-        - MachineSet: 
+        - MachineSet:
             - distributes easily your nodes among different Availability Zones
             - manages multiple node pools (e.g. pool for testing, pool for machine learning with GPU attached, etc)
 - **Everything “just another pod”**
@@ -579,9 +581,14 @@ oc login
 - [Red Hat OpenShift 4.2 on your laptop: Introducing Red Hat CodeReady Containers](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 <br/>
 
+## GitOps Catalog
+
+- [==github.com/redhat-cop/gitops-catalog==](https://github.com/redhat-cop/gitops-catalog) Tools and technologies that are hosted on an OpenShift cluster. The GitOps Catalog includes kustomize bases and overlays for a number of OpenShift operators and applications.
+
 ## OpenShift on Azure
 
 - [Introducing Azure Red Hat OpenShift on OpenShift 4 🌟](https://www.openshift.com/blog/introducing-azure-red-hat-openshift-on-openshift-4)
+- [dkrallis.wordpress.com: How to create an OpenShift Cluster in Azure and how you can interact with Azure DevOps environment – Part A](https://dkrallis.wordpress.com/2022/11/25/how-to-create-an-openshift-cluster-in-azure-and-how-you-can-interact-with-azure-devops-environment-part-a/)
 
 ## OpenShift Youtube
 

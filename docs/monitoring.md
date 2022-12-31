@@ -15,7 +15,7 @@
 5. [Grafana](#grafana)
 6. [Kibana](#kibana)
 7. [Prometheus and Grafana Interactive Learning](#prometheus-and-grafana-interactive-learning)
-8. [Logging & Centralized Log Management](#logging--centralized-log-management)
+8. [Logging \& Centralized Log Management](#logging--centralized-log-management)
     1. [ElasticSearch](#elasticsearch)
         1. [Elastic Cloud on Kubernetes (ECK)](#elastic-cloud-on-kubernetes-eck)
     2. [OpenSearch](#opensearch)
@@ -23,18 +23,18 @@
     4. [Logstash Grok for Log Parsing](#logstash-grok-for-log-parsing)
 9. [Performance](#performance)
 10. [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
-    1. [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
+     1. [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
 11. [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
 12. [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
-    1. [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
-    2. [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
-    3. [Jaeger vs Zipkin](#jaeger-vs-zipkin)
-    4. [Grafana Tempo distributed tracing system](#grafana-tempo-distributed-tracing-system)
+     1. [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
+     2. [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
+     3. [Jaeger vs Zipkin](#jaeger-vs-zipkin)
+     4. [Grafana Tempo distributed tracing system](#grafana-tempo-distributed-tracing-system)
 13. [Application Performance Management (APM)](#application-performance-management-apm)
-    1. [Elastic APM](#elastic-apm)
-    2. [Dynatrace APM](#dynatrace-apm)
+     1. [Elastic APM](#elastic-apm)
+     2. [Dynatrace APM](#dynatrace-apm)
 14. [Message Queue Monitoring](#message-queue-monitoring)
-    1. [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
+     1. [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
 15. [Serverless Monitoring](#serverless-monitoring)
 16. [Distributed Tracing in Apache Beam](#distributed-tracing-in-apache-beam)
 17. [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
@@ -71,6 +71,7 @@
 - [matiasmct.medium.com: Observability at Scale](https://matiasmct.medium.com/observability-at-scale-52d0d9a5fb9b)
 - [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog/how-to-solve-the-challenges-of-multicloud-aws-azure-and-gcp-observability/)
 - [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes/)
+    - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360/) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
 - [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture/)
 - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://opsdis.com/custom-monitoring-solution-with-grafana-prometheus-and-loki/)
 - [harness.io: Metrics to Improve Continuous Integration Performance](https://harness.io/blog/continuous-integration/continuous-integration-performance-metrics/)
@@ -103,10 +104,15 @@
 - [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/3638693/the-red-method-a-new-strategy-for-monitoring-microservices.html) By using the RED metrics—rate, error, and duration—you can get a solid understanding of how your services are performing for end-users.
 - [intellipaat.com: Top 10 DevOps Monitoring Tools](https://intellipaat.com/blog/devops-monitoring-tools) Are you a DevOps engineer? Are you confused about which DevOps monitoring tools to use for monitoring? If so, go through this comprehensive blog to know more about different types of DevOps monitoring tools, their purpose, and their importance.
 - [==cncf.io: How to add observability to your application pipeline==](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline/)
-- [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f) 
+- [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f)
 - [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check/)
 - [medium.com/buildpiper: Observability for Monitoring Microservices — Top 5 Ways!](https://medium.com/buildpiper/observability-for-monitoring-microservices-top-5-ways-587871e726d0) Knowing what’s running inside the container, how the application and code are performing is critical for tackling important issues. Discussed here are some important Microservices monitoring tools and approaches. Take a look!
 - [medium.com/@cbkwgl: Continuous Monitoring in DevOps 🌟](https://medium.com/@cbkwgl/continuous-monitoring-in-devops-8d4db48a0e24)
+- [logz.io: The Open Source Observability Adoption and Migration Curve](https://logz.io/blog/open-source-observability-adoption-migration-curve/)
+- [==devopscube.com: What Is Observability? Comprehensive Beginners Guide==](https://devopscube.com/what-is-observability/)
+- [tiagodiasgeneroso.medium.com: Observability Concepts you should know](https://tiagodiasgeneroso.medium.com/observability-concepts-you-should-know-943fc057b208)
+- [faun.pub: Getting started with Observability](https://faun.pub/getting-started-with-observability-657d57aab1c7) How to implement Observability
+- [medium.com/@badawekoo: Monitoring in DevOps lifecycle](https://medium.com/@badawekoo/monitoring-in-devops-lifecycle-4d9a2f277eb0)
 
 ### Key Performance Indicator (KPI)
 
@@ -192,6 +198,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 ## Prometheus
 
 - [Prometheus](prometheus.md)
+
 ## Grafana
 
 - [Grafana](grafana.md)
@@ -217,6 +224,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [devops.com: How Centralized Log Management Can Save Your Company](https://devops.com/how-centralized-log-management-can-save-your-company/)
 - [acloudguru.com: Getting started with the Elastic Stack](https://acloudguru.com/blog/engineering/getting-started-with-the-elastic-stack)
+- [betterprogramming.pub: The Art of Logging](https://betterprogramming.pub/creating-a-human-and-machine-freindly-logging-format-bb6d4bb01dca) Creating a human- and machine-friendly logging format
 
 ### ElasticSearch
 
@@ -242,6 +250,8 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
 - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
+- [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) In this tutorial, you will learn how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
+- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch/) In this article, we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
 
 #### Elastic Cloud on Kubernetes (ECK)
 
@@ -439,8 +449,10 @@ done
         - [thenewstack.io: End-User Tracing in a SkyWalking-Observed Browser](https://thenewstack.io/end-user-tracing-in-a-skywalking-observed-browser/)
     - [AppDynamics 🌟](https://www.appdynamics.com/)
     - [New Relic 🌟](https://newrelic.com/)
+        - [newrelic.com: Creating dashboards with Terraform and JSON templates](https://newrelic.com/blog/how-to-relic/create-nr-dashboards-with-terraform-part-1) Learn how to quickly update New Relic dashboards with Terraform by using JSON templates—no HCL required.
     - [Dynatrace 🌟](https://www.dynatrace.com/)
-    - [==SigNoz: Open source Application Performance Monitoring (APM) & Observability tool== 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
+    - [==SigNoz: Open source Application Performance Monitoring (APM) & Observability tool== 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.
+        - [golang.ch: A Golang-based open-source alternative to DataDog, New Relic, etc](https://golang.ch/a-golang-based-open-source-alternative-to-datadog-new-relic-etc/)
     - [savecost/datav 🌟](https://github.com/savecost/datav) A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
 
 ### Elastic APM

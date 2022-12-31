@@ -72,6 +72,7 @@
         - Pod lifecycle
 
 - [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185)
+- [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap/)
 
 ## Online Training
 
@@ -87,6 +88,11 @@
 - [kodekloud.com](https://kodekloud.com)
 - [training.linuxfoundation.org: Introduction to Kubernetes (LFS158x)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Want to learn Kubernetes? Get an in-depth primer on this powerful system for managing containerized applications in this free course.
 - [civo.com/academy 🌟🌟🌟](https://www.civo.com/academy) Learn Kubernetes with Civo Academy. Learn everything you need to know to get started with Kubernetes. Learn Kubernetes for free. We’ve created over 50 video guides and tutorials that will help you navigate Kubernetes: from understanding the basic need for and function of containers, to launching and scaling your first clusters.
+- [medium.com/javarevisited: 8 Best Free Kubernetes Courses for Beginners in 2022](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc) Learn Kubernetes using these free online training courses and add an in-demand skill to your colorful resume.
+    - [udemy.com: Just enough kubernetes to be dangerous (free)](https://www.udemy.com/course/just-enough-kubernetes/)
+    - [udemy.com: Learn Devops Kubernetes deployment by kops and terraform (free)](https://www.udemy.com/course/learn-devops-kubernetes-deployment-by-kops-and-terraform/) Comprehensive Nginx deployment to Kubernetes on AWS by using kops and terraform
+    - [edx.org: Introduction to Kubernetes (free)](https://www.edx.org/course/introduction-to-kubernetes)
+    - [udemy.com: Containers 101 (free)](https://www.udemy.com/course/containers-101/) Building and deploying containerize applications with Kubernetes, Docker and Helm
 
 ## K8s Diagrams
 

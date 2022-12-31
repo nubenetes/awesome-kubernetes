@@ -47,6 +47,8 @@
 - [thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps (Magalix)](https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps/) - [Magalix](https://www.magalix.com)
 - [fugue.co: Securing a Kubernetes pod with Regula and Open Policy Agent](https://www.fugue.co/blog/securing-a-kubernetes-pod-with-regula-and-open-policy-agent)
 - [dev.to: Load external data into OPA: The Good, The Bad, and The Ugly](https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc) There are several ways to create a data fetching mechanism for the Open Policy Agent - each of them has its pros and cons. In this guide, you will compare and decide which one is the best for you.
+- [inspektor.cloud: Evaluating open policy agent in rust using wasm](https://inspektor.cloud/blog/evaluating-open-policy-agent-in-rust-using-wasm/)
+- [medium.com/4th-coffee: What is Policy-as-Code? An Introduction to Open Policy Agent](https://medium.com/4th-coffee/what-is-policy-as-code-an-introduction-to-open-policy-agent-6098463f8461)
 
 ### Open Policy Agent in Kubernetes
 
@@ -133,6 +135,10 @@
     - Clone multiple resources
     - OpenTelemetry
     - Multi-tenancy
+- [medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno](https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad) With Kyverno:
+    - Invalid resources can be blocked with helpful errors
+    - Misconfigured resources can be corrected on the fly
+    - New resources can be dynamically generated
 
 ### Kyverno E-Learning
 

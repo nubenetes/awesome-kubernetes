@@ -13,6 +13,7 @@
 - [thenewstack.io: Why Chaos Engineering Isn’t Just for Operations](https://thenewstack.io/why-chaos-engineering-isnt-just-for-operations/)
 - [medium.com/adidoescode: Chaos Engineering: How simulating adversity can help build eCommerce Resilience](https://medium.com/adidoescode/chaos-engineering-how-simulating-adversity-can-help-build-ecommerce-resilience-4a799c8912dc)
 - [opsmx.com: What is Chaos Engineering?](https://www.opsmx.com/blog/what-is-chaos-engineering/)
+- [aws.amazon.com: Verify the resilience of your workloads using Chaos Engineering](https://aws.amazon.com/blogs/architecture/verify-the-resilience-of-your-workloads-using-chaos-engineering/)
 
 ## Chaos Engineering for kubernetes/Openshift
 
@@ -50,6 +51,10 @@
 - [Chaos engineering on Amazon EKS using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/devops/chaos-engineering-on-amazon-eks-using-aws-fault-injection-simulator/)
 - [aws.amazon.com: Chaos Engineering with LitmusChaos on Amazon EKS](https://aws.amazon.com/blogs/containers/chaos-engineering-with-litmuschaos-on-amazon-eks/) In this tutorial, you will create an Amazon EKS cluster, install LitmusChaos and deploy a demo application. Then, you will define chaos experiments to be run on it and observe the behaviour
 - [blog.container-solutions.com: Comparing Chaos Engineering Tools for Kubernetes Workloads](https://blog.container-solutions.com/comparing-chaos-engineering-tools) How do Chaos Toolkit, Pumba, Litmus, and Chaos Mesh stack up against each other as chaos engineering tools for Kubernetes workloads? In this article, you will compare strengths and weaknesses.
+- [blog.palark.com: Attaining harmony of chaos in Kubernetes with Chaos Mesh](https://blog.palark.com/chaos-mesh-in-kubernetes/) This article discusses chaos engineering solutions for Kubernetes using the Chaos Mesh operator. It covers tests on:
+    - Failing nodes
+    - Failing infrastructure dependencies
+    - Network problems
 
 ## Chaos Engineering for serverless computing
 
@@ -62,6 +67,7 @@
     - [techcommunity.microsoft.com: Announcing the Public Preview of Azure Chaos Studio](https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-the-public-preview-of-azure-chaos-studio/ba-p/2893050)
     - [docs.microsoft.com: What is Azure Chaos Studio?](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-overview)
     - [sqlservercentral.com: Chaos Engineering in Azure](https://www.sqlservercentral.com/articles/chaos-engineering-in-azure)
+- [aws.amazon.com: Automating and Scaling Chaos Engineering using AWS Fault Injection Simulator](https://aws.amazon.com/blogs/industries/automating-and-scaling-chaos-engineering-using-aws-fault-injection-simulator/)
 
 ## Videos
 

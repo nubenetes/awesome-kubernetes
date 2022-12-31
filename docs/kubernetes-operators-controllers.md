@@ -118,6 +118,21 @@
     - Use `subPath` while mounting a ConfigMap or Secret
     - Use Projected Volumes
 - [==faun.pub: A Definitive guide to Kubernetes Operator — The crawl!==](https://faun.pub/a-definitive-guide-to-kubernetes-operator-the-crawl-7647b278c28b)
+- [github.com/furiko-io/furiko](https://github.com/furiko-io/furiko) Cloud-native, enterprise-level cron job platform for Kubernetes. Furiko is a Kubernetes-native operator for managing, scheduling and executing scheduled and ad-hoc jobs and workflows. It aims to be a general-purpose job platform that supports various use cases, including cron jobs, batch processing, etc.
+- [paul-the-kelly.medium.com: Extending the Kubernetes API using Operators](https://paul-the-kelly.medium.com/extending-the-kubernetes-api-using-operators-9ffc8364ae5c) This article is aimed at developers already familiar with Kubernetes, and who are interested in extending the capabilities of a Kubernetes cluster.
+- [github.com/DevOps-Nirvana: Kubernetes Volume / Disk Autoscaler (via Prometheus)](https://github.com/DevOps-Nirvana/Kubernetes-Volume-Autoscaler)
+    - This repository contains a Kubernetes controller that automatically increases the size of a Persistent Volume Claim in Kubernetes when it is nearing full. Initially engineered based on AWS EKS, this should support any Kubernetes cluster or cloud provider which supports dynamically hot-resizing storage volumes in Kubernetes.
+    - Keeping your volumes at a minimal size can help reduce cost, but having to manually scale them up can be painful and a waste of time for an DevOps / Systems Administrator. This is often used on storage volumes against things in Kubernetes such as Prometheus, MySQL, Redis, RabbitMQ, or any other stateful service.
+- [borchero/switchboard: Switchboard](https://github.com/borchero/switchboard) Kubernetes Operator for Automatically Issuing DNS Records and TLS Certificates for Traefik Ingress Routes.
+- [scylladb/scylla-operator](https://github.com/scylladb/scylla-operator) Scylla Operator is a Kubernetes Operator for managing and automating tasks related to managing Scylla clusters
+- [==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained==](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6) 
+    - This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators.
+    - This 4-part series covers:
+        - Kubernetes controllers, Custom Resources, and operators
+        - Building Kubernetes operators
+        - Testing Kubebuilder operators
+        - Deploying Kubebuilder operators to Kubernetes
+- [coderanger/migrations-operator: Migrations-Operator](https://github.com/coderanger/migrations-operator) A Kubernetes operator to manage database migrations or similar application setup tasks.
 
 ## Creating Kubernetes operator using Kubebuilder
 

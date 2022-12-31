@@ -1,4 +1,4 @@
-# Project Management Methodology
+# Project Management
 
 1. [Project Management Methodology](#project-management-methodology)
     1. [Spanish](#spanish)
@@ -71,6 +71,20 @@
 - [autoblog.com: VW CEO lost his job over buggy software that delayed new models](https://www.autoblog.com/2022/07/25/vw-ceo-herbert-diess-fired-over-cariad-buggy-software/)
 - [techcrunch.com: Protestware on the rise: Why developers are sabotaging their own code](https://techcrunch.com/2022/07/27/protestware-code-sabotage/)
 - [hbr.org: How to Debate Ideas Productively at Work](https://hbr.org/2019/01/how-to-debate-ideas-productively-at-work)
+- [betterprogramming.pub: Techniques for Managing Your Time and Cognitive Load as a Senior Leader](https://betterprogramming.pub/techniques-for-managing-your-time-and-cognitive-load-as-a-senior-leader-2b9eadb0daa4)
+- [medium.com/awesome-agile: 10 Ways Managers are Wasting Their Developers' Potential](https://medium.com/awesome-agile/10-ways-managers-are-wasting-their-developers-potential-5c0d78d8f8ba)
+- [betterprogramming.pub: Stop Hiring Software Engineers](https://betterprogramming.pub/stop-hiring-software-engineers-8545520437ac) Consider product engineers.
+- [hbr.org: The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)
+- [medium.com/developer-purpose: Think before you code. Engineering’s most underrated advice](https://medium.com/developer-purpose/think-before-you-code-engineerings-most-underrated-advice-40b47e08a3fc)
+- [betterprogramming.pub: How to Grow as a (Software) Engineering Manager](https://betterprogramming.pub/how-do-you-grow-as-a-software-engineering-manager-33a05873693) Tips to thrive outside of the corporate ladder
+- [betterprogramming.pub: Good Leadership Is About Growth, Not Brilliance](https://betterprogramming.pub/good-leadership-is-about-growth-not-brilliance-af8ca30f1a3a) Leadership isn’t about personal greatness and entitlement; it’s the humility to lead with courage and passion
+- [betterhumans.pub: 8 Communication Hacks I Use To Appear More Senior As a Young Employee](https://betterhumans.pub/8-communication-hacks-i-use-to-appear-more-senior-as-a-young-employee-9106468bf5aa) Become more influential by learning the language of these subtle cues
+- [jproco.medium.com: Deliver a Product Roadmap That Survives Startup Velocity](https://jproco.medium.com/deliver-a-product-roadmap-that-survives-startup-velocity-f9be4fb9893e) This is how you build the car while it’s speeding down the highway
+- [medium.com/career-of-you: A Ten-Step Process for Team Leaders to Reduce Meeting Overload and Take Back Their Time](https://medium.com/career-of-you/a-ten-step-process-for-team-leaders-to-reduce-meeting-overload-and-take-back-their-time-407cf1f8f09b)
+- [betterprogramming.pub: The Importance of Code Ownership 🌟](https://betterprogramming.pub/the-underestimated-importance-of-clear-code-ownership-baed758e47b8) Well-owned code is well-maintained code
+- [infoworld.com: What to do when your devops team is downsized](https://www.infoworld.com/article/3682654/what-to-do-when-your-devops-team-is-downsized.html) Five tips to help you manage the emotional and practical repercussions when colleagues are let go.
+- [bootcamp.uxdesign.cc: A quick win to prepare for every meeting using templates](https://bootcamp.uxdesign.cc/a-quick-win-to-prepare-for-every-meeting-using-templates-d2359c849433)
+- [huryn.substack.com: 3 Ways to Create 10X Better Product Roadmaps](https://huryn.substack.com/p/3-ways-to-create-10x-better-product)
 
 ### Spanish
 
@@ -98,6 +112,7 @@
 - [pymesyautonomos.com: ¿Está trabajando el empleado realmente desde su casa?](https://www.pymesyautonomos.com/management/esta-trabajando-empleado-realmente-su-casa)
 - [estrategiadeproducto.com: La espiral de mierda](https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda) ¿Por qué todo parece ir más lento si cada vez somos más? Analizamos las causas que llevan a que muchas startups fracasen durante su proceso de escala y cómo evitarlo.
 - [estrategiadeproducto.com: La segunda mayor mentira sobre Product Management](https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management) No. Un Product Manager no es la intersección de Diseño, Tecnología y Negocio.
+- [mariocortes.net: La crisis de seniority](https://www.mariocortes.net/la-crisis-de-seniority/) El “seniority” no está relacionado exclusivamente con la experiencia profesional, sino a la capacidad de un profesional para enfrentarse a un problema o reto y la aptitud con la que se enfrenta a él.
 
 ### Team Topologies
 

@@ -1,6 +1,7 @@
 # Flux. The GitOps operator for Kubernetes
 
 1. [Introduction](#introduction)
+    1. [Flux Terraform Controller](#flux-terraform-controller)
 2. [Templates](#templates)
 
 ## Introduction
@@ -38,6 +39,15 @@
 - [==flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo==](https://flux-subsystem-argo.github.io/website/tutorials/terraform/) This is a tutorial to show how could we use Flux Subsystem for Argo (FSA) to bring the Terraform management feature from the Flux world to your Argo CD UI. In order to do so, we need Weave GitOps Terraform Controller to help us reconcile our Terraform resources.
 - [blog.ediri.io: Flux With Buckets: Is This Still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) How to use the Flux Bucket component with AWS S3 with Civo and Pulumi. Flux Bucket is a simple way to deploy your kubernetes manifests to a S3 bucket and then use Flux to deploy them
     - [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket)
+- [fluxcd.io: GitOps Without Leaving your IDE](https://fluxcd.io/blog/2022/09/gitops-without-leaving-your-ide/)
+- [fluxcd.io: How to GitOps Your Terraform](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform/)
+- [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd/) GitOps provides a single source of truth for Kubernetes manifests, preventing configuration drift, allowing easy rollbacks and changes to production safely.
+- [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) In this step-by-step tutorial, you will learn how to convert a Helm chart into declarative Custom Resources for Flux and gradually migrate your workloads to be GitOps-friendly.
+
+### Flux Terraform Controller
+
+- [weaveworks.github.io: Weave GitOps Terraform Controller](https://weaveworks.github.io/tf-controller/)
+- [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform/)
 
 ## Templates
 

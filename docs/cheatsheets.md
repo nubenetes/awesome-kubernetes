@@ -11,26 +11,26 @@
 9. [REST API](#rest-api)
 10. [eBooks](#ebooks)
 11. [Documentation Browser for Software Developers](#documentation-browser-for-software-developers)
-    1. [Dash for MacOS (paid)](#dash-for-macos-paid)
-    2. [Velocity (Windows, paid)](#velocity-windows-paid)
-    3. [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
+     1. [Dash for MacOS (paid)](#dash-for-macos-paid)
+     2. [Velocity (Windows, paid)](#velocity-windows-paid)
+     3. [Zeal (Windows, Linux, Free)](#zeal-windows-linux-free)
 12. [Kubernetes Knowledge Hubs and Glossary](#kubernetes-knowledge-hubs-and-glossary)
 13. [Kubernetes and Kubectl Cheat Sheets](#kubernetes-and-kubectl-cheat-sheets)
 14. [Kubernetes Kustomize Cheat Sheet](#kubernetes-kustomize-cheat-sheet)
 15. [Docker Cheat Sheets](#docker-cheat-sheets)
-    1. [Docker Swarm Cheat Sheets](#docker-swarm-cheat-sheets)
+     1. [Docker Swarm Cheat Sheets](#docker-swarm-cheat-sheets)
 16. [Security Cheat Sheets](#security-cheat-sheets)
 17. [Git and GitHub Cheat Sheets](#git-and-github-cheat-sheets)
-    1. [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
-    2. [Sourcetree Cheat Sheet](#sourcetree-cheat-sheet)
-    3. [GitKraken Git Cheat](#gitkraken-git-cheat)
+     1. [Git Flow Cheat Sheets](#git-flow-cheat-sheets)
+     2. [Sourcetree Cheat Sheet](#sourcetree-cheat-sheet)
+     3. [GitKraken Git Cheat](#gitkraken-git-cheat)
 18. [Ansible Cheat Sheets](#ansible-cheat-sheets)
 19. [Packer and Terraform Cheat Sheets](#packer-and-terraform-cheat-sheets)
 20. [Linux Command Cheat Sheets](#linux-command-cheat-sheets)
-    1. [SSH Cheat Sheets](#ssh-cheat-sheets)
-    2. [Nmap Cheat Sheet](#nmap-cheat-sheet)
+     1. [SSH Cheat Sheets](#ssh-cheat-sheets)
+     2. [Nmap Cheat Sheet](#nmap-cheat-sheet)
 21. [OpenShift Cheat Sheets](#openshift-cheat-sheets)
-    1. [Debezium Cheat Sheets](#debezium-cheat-sheets)
+     1. [Debezium Cheat Sheets](#debezium-cheat-sheets)
 22. [Kubernetes Operator Cheat Sheets](#kubernetes-operator-cheat-sheets)
 23. [Kubernetes POD Cheat Sheets](#kubernetes-pod-cheat-sheets)
 24. [Buildah Cheat Sheets](#buildah-cheat-sheets)
@@ -111,6 +111,7 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/links-to-all-aws-cheat-sheets/)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet/)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
+- [==awsgeek.com/Amazon-S3==](https://www.awsgeek.com/Amazon-S3/)
 
 ## Google Cloud Cheat Sheets
 
@@ -201,9 +202,10 @@
     - `kubectl --help`
 - [betterprogramming.pub: Kubectl Commands All Beginners Must Know](https://betterprogramming.pub/kubectl-commands-all-beginners-must-know-e504349fcec9) Control Kubernetes Cluster like a Pro
 - [medium.com/@devopsfolks8546: Kubectl Commands Cheat Sheet. List Of Kubernetes Most Useful Commands](https://medium.com/@devopsfolks8546/1-pods-c3d1a9349ba0)
-- [faun.pub: Kubernetes Commands for Deployment and Management](https://faun.pub/kubernetes-commands-for-deployment-and-management-e10a74c95015) 
+- [faun.pub: Kubernetes Commands for Deployment and Management](https://faun.pub/kubernetes-commands-for-deployment-and-management-e10a74c95015)
 - [learncloudnative.com: Kubernetes CLI (kubectl) tips you didn't know about](https://learncloudnative.com/blog/2022-05-10-kubectl-tips)
 - [cloudtechtwitter.com: kubernetes common commands](https://www.cloudtechtwitter.com/2022/05/kubernetes-common-commands.html)
+- [==thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet== 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet/) A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.
 
 ## Kubernetes Kustomize Cheat Sheet
 
@@ -282,6 +284,7 @@
 - [==opensource.com: 10 Git tips we can't live without==](https://opensource.com/article/22/4/git-tips) Opensource.com community members share their favorite Git tips for saving time or preventing mistakes.
 - Terminal tip: Always use `less -R` to display colored terminal output properly: `git diff --color=always | less -R` 
 - [betterprogramming.pub: 8 Advanced Git Commands Universities Won’t Teach You](https://betterprogramming.pub/8-advanced-git-commands-university-wont-teach-you-fe63b483d34b) Advanced tips and tricks that will save you time and headaches.
+- [==intellipaat.com: GIT Cheat Sheet== 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/)
 
 ### Git Flow Cheat Sheets
 
@@ -384,6 +387,7 @@
 ## Prometheus Cheat Sheets
 
 - [iximiuz.com: Prometheus Cheat Sheet - How to Join Multiple Metrics (Vector Matching) 🌟](https://iximiuz.com/en/posts/prometheus-vector-matching/)
+- [iximiuz.com: Prometheus Cheat Sheet - Moving Average, Max, Min, etc (Aggregation Over Time)](https://iximiuz.com/en/posts/prometheus-functions-agg-over-time/) Building anomaly detection with Prometheus requires the use of *_over_time function. But what do these functions do concretely?
 
 ## Helm Cheat Sheets
 
@@ -422,6 +426,7 @@
     - [Jenkins Cheat Sheet](https://miro.medium.com/max/1400/1*5tZVl-tqZwSoxH97v4u45w.png)
 - [medium: Jenkins Cheat Sheet](https://medium.com/edureka/jenkins-cheat-sheet-e0f7e25558a3)
 - [cheatography.com: Jenkins Cheat Sheet](https://cheatography.com/funthomas424242/cheat-sheets/jenkins/)
+- [intellipaat.com: Jenkins Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/jenkins-cheat-sheet/)
 
 ## Bitbucket Pipelines
 
@@ -547,6 +552,8 @@
 	![googling stuff](images/googling_stuff.jpg)
 
 	[![url cheatsheet](images/url_cheatsheet.jfif)](https://twitter.com/_georgemoller)
+
+    ![junit cheat sheet](images/junit_cheatsheet.jfif)
 	</center>
 
 ## Tweets

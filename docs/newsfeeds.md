@@ -7,6 +7,7 @@
 ## Subreddits
 
 - [reddit.com/r/devops](https://www.reddit.com/r/devops/)
+    - [Internal Developer Platforms - what toolchain would you use for Maven + NPM + K8 projects?](https://www.reddit.com/r/devops/comments/xj1jxg/internal_developer_platforms_what_toolchain_would/)
 - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)
 - [reddit.com/r/openshift](https://www.reddit.com/r/openshift/)
 - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes/)

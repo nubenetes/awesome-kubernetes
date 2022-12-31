@@ -19,7 +19,9 @@
 17. [Rest Assured Interview Questions](#rest-assured-interview-questions)
 18. [QA Interview Questions](#qa-interview-questions)
 19. [Python Interview Questions](#python-interview-questions)
- 
+20. [System Design Interview](#system-design-interview)
+21. [JSON Interview Questions](#json-interview-questions)
+
 ## Introduction
 
 - [grow.google: interview warmup](https://grow.google/certificates/interview-warmup/) A quick way to prepare for your next interview. Practice key questions, get insights about your answers, and get more comfortable interviewing.
@@ -88,7 +90,7 @@
 - [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
 - [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
 
-## Jenkins Interview Questions 
+## Jenkins Interview Questions
 
 - [intellipaat.com: Top Jenkins Interview Questions and Answers](https://intellipaat.com/blog/interview-question/jenkins-interview-questions-answers/)
 - [automationreinvented.blogspot.com: Top 10 Jenkins Interview Question for SDET - DevOps - Automation QA?](https://automationreinvented.blogspot.com/2021/09/top-10-jenkins-interview-question-for.html)
@@ -128,3 +130,11 @@
 - [15 Essential Python Interview Questions](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
 - [Python mini-quiz](http://www.mypythonquiz.com/)
 - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions/)
+
+## System Design Interview
+
+- [vahid.blog: System Design Interview Cheat Sheet](https://vahid.blog/post/2022-05-05-system-design-interview-cheat-sheet/) Helpful overview to nail the system design interview
+
+## JSON Interview Questions
+
+- [javarevisited.blogspot.com: Top 20 JSON Interview Questions with Answers for Beginners and Experienced Developers](https://javarevisited.blogspot.com/2022/08/json-interview-questions-with-answers.html)

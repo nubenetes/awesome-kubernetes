@@ -21,6 +21,9 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [opensource.com: A guide to simplifying invoicing with this open source tool](https://opensource.com/article/21/7/open-source-invoicing-po) [project-open](https://www.project-open.com/) simplifies one of the most challenging activities in IT: writing customer invoices.
 - [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management/)
 - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html) Download free over 300, customizable project plan templates for Microsoft Word to track, manage, and prioritize your projects.
+- Microsoft Excel:
+    - [mundodeportivo.com: 31 plantillas de Excel gratis agrupadas por usos](https://www.mundodeportivo.com/urbantecno/office/plantillas-de-excel-gratis-agrupadas-por-usos)
+- [namelix.com](https://namelix.com) Struggling to come up with a business name? Namelix can help you out.
 
 ## Alternatives
 
@@ -63,5 +66,7 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ I&#39;ve been managing people remotely for 8 years. Here&#39;s how to be a better manager in a remote (distributed) team:</p>&mdash; Job (@Jobvo) <a href="https://twitter.com/Jobvo/status/1375085060425138179?ref_src=twsrc%5Etfw">March 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stop wasting hours choosing platforms to use.<br><br>Here are 10 free tools for your next startup:</p>&mdash; Easlo (@heyeaslo) <a href="https://twitter.com/heyeaslo/status/1510074550008000516?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Si te dedicas a escribir y quieres hacerlo mejor, más centrado, y más rápido, aquí van 6 alternativas a Word o Google Docs. <br><br>Muchas de ellas son además completamente gratis. <br><br>Empiezo con estas:👇</p>&mdash; Víctor Millán (@victorcmn) <a href="https://twitter.com/victorcmn/status/1589905406624571393?ref_src=twsrc%5Etfw">November 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

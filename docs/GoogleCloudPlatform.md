@@ -16,7 +16,7 @@
 14. [Cloud SQL](#cloud-sql)
 15. [Apigee](#apigee)
 16. [Tools](#tools)
-    1. [gcloud](#gcloud)
+     1. [gcloud](#gcloud)
 17. [Videos](#videos)
 18. [Images](#images)
 19. [Tweets](#tweets)
@@ -113,6 +113,7 @@
 - [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/solutions/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud. 
 - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
+- [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) In this article, you will learn the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself
 
 ## Python
 
@@ -167,6 +168,8 @@
 	<center>
 
 	[![gcp persistent disk](images/gcp_disks.jfif)](https://twitter.com/pvergadia)
+
+    [![google cloud devops flow](images/google_cloud_devops_flow.jfif)](https://cloud.google.com/deploy/docs/deploy-app-run)
 	</center>
 
 ## Tweets

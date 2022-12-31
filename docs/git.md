@@ -1,56 +1,60 @@
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 
 1. [Git Distributed Version-Control System](#git-distributed-version-control-system)
-2. [Git Branches](#git-branches)
-3. [Git Aliases](#git-aliases)
-4. [Git and GitHub Backup](#git-and-github-backup)
-5. [Cherry-picking](#cherry-picking)
-6. [Git Submodules](#git-submodules)
-7. [Shields](#shields)
-8. [Design By Contract](#design-by-contract)
-9. [Git Cheat Sheets](#git-cheat-sheets)
-10. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
-11. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
-    1. [Git Workflows](#git-workflows)
-    2. [Trunk Based Development](#trunk-based-development)
-    3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
-        1. [Git Flow](#git-flow)
-        2. [Git Flow is a bad idea](#git-flow-is-a-bad-idea)
-    4. [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
-    5. [Alternative Branching Models](#alternative-branching-models)
-        1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
-            1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
-12. [Git Commands](#git-commands)
-13. [BitBucket](#bitbucket)
-14. [GitLab](#gitlab)
-    1. [GitLab Collective](#gitlab-collective)
-15. [GitHub](#github)
-    1. [GitHub Lab](#github-lab)
-    2. [GitHub Code Scanner](#github-code-scanner)
-    3. [GitHub Actions](#github-actions)
-        1. [GitHub Actions Marketplace](#github-actions-marketplace)
-    4. [GitHub Actions and OpenShift](#github-actions-and-openshift)
-    5. [GitHub Copilot](#github-copilot)
-        1. [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
-16. [Gitea](#gitea)
-17. [Git Tools](#git-tools)
-    1. [Git Credential Manager](#git-credential-manager)
-    2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
-18. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-19. [Pre Commit Hooks](#pre-commit-hooks)
-20. [Merge BOTs](#merge-bots)
-    1. [Tips](#tips)
-    2. [Jenkins for git merges](#jenkins-for-git-merges)
-    3. [Bitbucket for git merges](#bitbucket-for-git-merges)
-    4. [GitLab for git merges](#gitlab-for-git-merges)
-        1. [Marge GitLab bot](#marge-gitlab-bot)
-    5. [Jenkins-X bots](#jenkins-x-bots)
-    6. [Plastic SCM bot](#plastic-scm-bot)
-    7. [Mergify bot](#mergify-bot)
-    8. [GitHub bots](#github-bots)
-        1. [Bors GitHub bot](#bors-github-bot)
-21. [Videos](#videos)
-22. [Tweets](#tweets)
+2. [Git stash](#git-stash)
+3. [Git Branches](#git-branches)
+4. [Git Aliases](#git-aliases)
+5. [Git and GitHub Backup](#git-and-github-backup)
+6. [Cherry-picking](#cherry-picking)
+7. [Git Submodules](#git-submodules)
+8. [Shields](#shields)
+9. [Design By Contract](#design-by-contract)
+10. [Git Cheat Sheets](#git-cheat-sheets)
+11. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
+12. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+     1. [Git Workflows](#git-workflows)
+     2. [Trunk Based Development](#trunk-based-development)
+     3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
+         1. [Git Flow](#git-flow)
+         2. [Git Flow is a bad idea](#git-flow-is-a-bad-idea)
+     4. [Trunk-based Development vs. Git Flow](#trunk-based-development-vs-git-flow)
+     5. [Alternative Branching Models](#alternative-branching-models)
+         1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
+             1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
+13. [Git Commands](#git-commands)
+14. [BitBucket](#bitbucket)
+15. [GitLab](#gitlab)
+     1. [GitLab Collective](#gitlab-collective)
+16. [GitHub](#github)
+     1. [GitHub Lab](#github-lab)
+     2. [GitHub Code Scanner](#github-code-scanner)
+     3. [GitHub Actions](#github-actions)
+         1. [GitHub Actions Marketplace](#github-actions-marketplace)
+     4. [GitHub Actions and OpenShift](#github-actions-and-openshift)
+     5. [GitHub Copilot](#github-copilot)
+         1. [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
+         2. [Alternatives](#alternatives)
+17. [Gitea](#gitea)
+18. [Sapling](#sapling)
+19. [Git Tools](#git-tools)
+     1. [Git Credential Manager](#git-credential-manager)
+     2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
+20. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
+21. [Pre Commit Hooks](#pre-commit-hooks)
+22. [Merge BOTs](#merge-bots)
+     1. [Tips](#tips)
+     2. [Jenkins for git merges](#jenkins-for-git-merges)
+     3. [Bitbucket for git merges](#bitbucket-for-git-merges)
+     4. [GitLab for git merges](#gitlab-for-git-merges)
+         1. [Marge GitLab bot](#marge-gitlab-bot)
+     5. [Jenkins-X bots](#jenkins-x-bots)
+     6. [Plastic SCM bot](#plastic-scm-bot)
+     7. [Mergify bot](#mergify-bot)
+     8. [GitHub bots](#github-bots)
+         1. [Bors GitHub bot](#bors-github-bot)
+23. [Videos](#videos)
+24. [Slides](#slides)
+25. [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
 
@@ -106,7 +110,6 @@
 - [c-sharpcorner.com: 0 Git Commands You Should Know](https://www.c-sharpcorner.com/article/20-git-commands-you-should-know/)
 - [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) Git offers several ways you can quickly see which files changed in a commit.
 - [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
-- [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) Learn how to use the git stash command and when you should use it.
 - [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review/)
 - [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 - [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/) 
@@ -130,7 +133,7 @@
 - [blog.argoproj.io: 5 new Git commands and 1 tip you’ll use every day](https://blog.argoproj.io/5-new-git-commands-and-1-tip-youll-use-every-day-3c28e97c9321)
 - [dev.to: Open Source: My first Pull Request](https://dev.to/okimotomizuho/open-source-my-first-pull-request-1356)
 - [blog.testproject.io: Git 101 From Scratch: The Ultimate Guide for QAs 🌟](https://blog.testproject.io/2021/09/23/git-101-from-scratch-the-ultimate-guide-for-qas)
-- [freecodecamp.org: Git for Professionals – Free Version Control Course](https://www.freecodecamp.org/news/git-for-professionals/)
+- [==freecodecamp.org: Git for Professionals – Free Version Control Course== 🌟](https://www.freecodecamp.org/news/git-for-professionals/)
 - [towardsdatascience.com: A Git cheatsheet that all coders need](https://towardsdatascience.com/a-git-cheatsheet-that-all-coders-need-bf8ad4d91576) Ever accidentally deleted files or necessary code? Or do you wish to look back at an older version of your code?
 - [r-bloggers.com: Git: Moving from Master to Main](https://www.r-bloggers.com/2021/10/git-moving-from-master-to-main/)
 - [css-tricks.com: Advanced Git series. 1 Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
@@ -166,10 +169,18 @@
 - [==betterprogramming.pub: Recovering From Common Git Errors==](https://betterprogramming.pub/recovering-from-common-git-errors-eccda7ec6180)
 - [github.blog: Improve Git monorepo performance with a file system monitor 🌟](https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/) **Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.**
 - [java67.com: Top 10 Free Git Courses and Tutorials for Beginners in 2022 - Best of Lot](https://www.java67.com/2022/07/10-best-free-git-courses-and-tutorials.html)
+- [==medium.com/@ladoui.bilal: 10 Git commands every DevOps should know== 🌟](https://medium.com/@ladoui.bilal/10-git-commands-should-every-devops-should-know-6ae07f5e1989)
+- [polarsquad.com: Stop doing pull requests](https://polarsquad.com/blog/stop-doing-pull-requests)
+
+## Git stash
+
+- [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) Learn how to use the git stash command and when you should use it.
+- [medium.com/featurepreneur: Don’t trash your changes but stash ‘em!](https://medium.com/featurepreneur/dont-trash-your-changes-but-stash-em-2091a191f7db)
+- [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk)
 
 ## Git Branches
 
-- [learngitbranching.js.org: Learn Git Branching 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
+- [==learngitbranching.js.org: Learn Git Branching== 🌟](https://learngitbranching.js.org/) An interactive Git visualization tool to educate and challenge!
 - [gitkraken.com: How do you rename a Git branch?](https://www.gitkraken.com/learn/git/problems/rename-git-branch)
 - [freecodecamp.org: Git Checkout Remote Branch Tutorial](https://www.freecodecamp.org/news/git-checkout-remote-branch-tutorial/)
 - [freecodecamp.org: How to Use Branches in Git – the Ultimate Cheatsheet 🌟](https://www.freecodecamp.org/news/how-to-use-branches-in-git/)
@@ -184,6 +195,7 @@
 - [betterprogramming.pub: Leave Aside Git Checkout. Consider Git Switch for a Change](https://betterprogramming.pub/leave-aside-git-checkout-consider-git-switch-for-a-change-7849df8714b0) Switch between branches without checking out
 - [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names/)
 - [opensource.com: Explaining Git branches with a LEGO analogy](https://opensource.com/article/22/4/git-branches)
+- [blog.devops.dev: Stop messing up with Git. Follow this simple and effective strategy to maintain Git branches](https://blog.devops.dev/stop-messing-up-with-git-follow-this-simple-and-effective-strategy-to-maintain-git-branches-cc378468cde6)
 
 ## Git Aliases
 
@@ -352,6 +364,41 @@ git reset --hard HEAD^
 git push origin -f
 ```
 
+- Undoing commits. In case you pushed a wrong change and you want to remove it totally the following commands explain how to do it in soft, mixed and hard mode:
+
+```bash
+git reset --soft HEAD^ # Removes the last commit, keeps changed staged
+git reset --mixed HEAD^ # Unstages the changes as well
+git reset --hard HEAD^ # Discards local changes
+```
+
+- Reverting commits:
+
+```bash
+git revert 72856ea # Reverts the given commit
+git revert HEAD~3.. # Reverts the last three commits
+git revert --no-commit HEAD~3..
+```
+
+- Recovering lost commits. We can list all last changes and recover back any commit we would like to get again:
+
+```bash
+git reflog # Shows the history of HEAD
+git reflog show bugfix # Shows the history of bugfix pointer
+```
+
+- Amending the last commit. Let’s suppose that you commit a wrong log message and you would like to fix it without changing the commit. — amend flag will allow us to do it:
+
+```bash
+git commit --amend
+```
+
+- Interactive rebasing. Interactive rebasing can be used for changing commits in many ways such as editing, deleting, and squashing:
+
+```bash
+git rebase -i HEAD~5
+```
+
 ## BitBucket
 
 - [bitbucket.org](https://bitbucket.org/)
@@ -392,17 +439,19 @@ git push origin -f
 - [freecodecamp.org: DevOps with GitLab CI Course 🌟](https://www.freecodecamp.org/news/devops-with-gitlab-ci-course/)
 - [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation)
 - [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol)
+- [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab/)
 
 ### GitLab Collective
 
 - [GitLab Collective 🌟](https://stackoverflow.com/collectives/gitlab) Discover and share knowledge about version control, CI/CD, DevSecOps, and all-remote workflows
-- [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/) 
+- [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow/)
 
 ## GitHub
 
 - [githubstatus.com 🌟](https://www.githubstatus.com/)
 - [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
     - [infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance](https://www.infoq.com/news/2022/02/github-codespaces-templates/)
+    - [infoworld.com: GitHub Codespaces freely available to all GitHub users](https://www.infoworld.com/article/3679948/github-codespaces-freely-available-to-all-github-users.html) All GitHub users can use the GitHub-hosted development environments free for up to 60 hours per month. Codespaces also added JetBrains IDE, JupyterLab, and GPU support.
 - [GitHub CLI](https://cli.github.com/)
     - [github.com/cli/cli](https://github.com/cli/cli)
     - [github.blog: GitHub CLI allows you to close, reopen, and add metadata to issues and pull requests](https://github.blog/changelog/2020-05-11-github-cli-allows-you-to-close-reopen-and-add-metadata-to-issues-and-pull-requests/)
@@ -472,6 +521,9 @@ git push origin -f
 - [==github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers== 🌟](https://github.com/Lightning-AI/engineering-class) **This repository contains additional materials and show notes for the Lightning Bits: Engineering for Researchers video series.**
     - [github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request on GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-ShowNotes.md)
     - [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md#syncing-forks-with-upstream)
+- [github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟](https://github.com/marketplace/actions/aws-secrets-manager-github-action)
+- [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option/)
+- [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
 
 ### GitHub Lab
 
@@ -549,15 +601,28 @@ git push origin -f
 - [GitHub Copilot is generally available to all developers](https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/) **We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.**
 - [xataka.com: GitHub Copilot, el asistente para programar basado en IA, ya está disponible para todos: cuánto cuesta y quienes lo pueden usar gratis](https://www.xataka.com/aplicaciones/github-copilot-asistente-para-escribir-codigo-basado-ia-esta-disponible-para-todos-esto-que-costara)
 - [genbeta.com: Ya hay organizaciones pro-software libre abandonando GitHub por su uso comercial de proyectos open source en Copilot](https://www.genbeta.com/desarrollo/hay-organizaciones-pro-software-libre-abandonando-github-su-uso-comercial-proyectos-open-source-copilot)
+- [xataka.com: Copilot ya escribe el 40% del código de lenguajes como Java o Python que llega a GitHub. En cinco años llegará al 80%](https://www.xataka.com/aplicaciones/copilot-escribe-40-codigo-lenguajes-como-java-python-que-llega-a-github-cinco-anos-llegara-al-80)
+- [xataka.com: Copilot es una revolución para programadores (pero también un potencial problema legal para Microsoft)](https://www.xataka.com/robotica-e-ia/copilot-revolucion-para-programadores-tambien-potencial-problema-legal-para-microsoft)
 
 #### GitHub CoPilot VS GPT-3
 
 - [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b)
 
+#### Alternatives
+
+- [medium.com/geekculture: Hey ChatGPT, Automate These Tasks Using Python](https://medium.com/geekculture/hey-chatgpt-solve-these-coding-tasks-using-python-b2e7482f2c18) Using AI to plot graphs, send emails/messages, and do web scraping in a few seconds.
+- [xataka.com: Los programadores ya alucinaban con CoPilot y ChatGPT, pero ahora DeepMind va más allá con AplhaCode](https://www.xataka.com/robotica-e-ia/programadores-alucinaban-copilot-chatgpt-ahora-deepmind-va-alla-aplhacode)
+- [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) The first open source equivalent of ChatGPT. Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
 ## Gitea
 
 - [Gitea](https://gitea.com/)
 - [itnext.io: Setup a Private Git-Repository in Kubernetes with Gitea](https://itnext.io/setup-a-private-git-repository-in-kubernetes-with-gitea-64f5ea1e5070)
+
+## Sapling
+
+- [sapling-scm.com](https://sapling-scm.com/docs/introduction/)
+- [betterprogramming.pub: My First Impressions of Sapling — Meta’s New Git Client](https://betterprogramming.pub/four-ways-you-can-experiment-with-sapling-709eec0ffcb1)
 
 ## Git Tools
 
@@ -700,6 +765,15 @@ Automate them.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/R8_veQiYBjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlmZLXMOpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PGyhBwLyK2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="469" height="834" src="https://www.youtube.com/embed/o3qURBllpGM" title="GitHub CoPilot is like a second brain" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+## Slides
+
+??? note "Click to expand!"
+
+    <center>
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/ju2kFOuS5w1jk4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692" title="Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović" target="_blank">Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović</a> </strong> from <strong><a href="//www.slideshare.net/kobac" target="_blank">Dragan Stepanović</a></strong> </div>
     </center>
 
 ## Tweets
@@ -727,5 +801,11 @@ Automate them.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Free Git Courses for beginners<br>1. Git Started With GitHub -<a href="https://t.co/ajJlJUz34i">https://t.co/ajJlJUz34i</a><br>2. Introduction to Git - <a href="https://t.co/T0mIUkIBbB">https://t.co/T0mIUkIBbB</a><br>2. GIT 5-day Challenge - <a href="https://t.co/bj687fKJ8Y">https://t.co/bj687fKJ8Y</a><br>4. Command Line Essentials: - <a href="https://t.co/us18hMcw9P">https://t.co/us18hMcw9P</a><br>5. Git expert - <a href="https://t.co/AmRMZznQzu">https://t.co/AmRMZznQzu</a> <a href="https://t.co/FM6Oh2KGMD">pic.twitter.com/FM6Oh2KGMD</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1545716033302003713?ref_src=twsrc%5Etfw">July 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re a programmer, these 10 git commands will save you hours of research🧵👇</p>&mdash; Ujjwal Chadha (@ujjwalscript) <a href="https://twitter.com/ujjwalscript/status/1560115594640310272?ref_src=twsrc%5Etfw">August 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">As a Developer, how much do you use Github?</p>&mdash; • nanou • (@NanouuSymeon) <a href="https://twitter.com/NanouuSymeon/status/1586245047850237955?ref_src=twsrc%5Etfw">October 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">99% of the programmers only know the basic git commands (push, pull and commit)<br><br>These 10 git commands will save you hours of research time when you&#39;re stuck:</p>&mdash; Ujjwal Chadha (@ujjwalscript) <a href="https://twitter.com/ujjwalscript/status/1593143603001708548?ref_src=twsrc%5Etfw">November 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master Git, watch these YouTube videos:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1597836278543880193?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

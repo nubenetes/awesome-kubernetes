@@ -20,3 +20,5 @@
 - [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks/)
 - [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate/) Learn to build and publish a Docker container to a private ECR and spin up a load-balanced AWS ECS Fargate service in just a few lines up code in this tutorial.
 - [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/tf2pulumi/)
+- [garden.io: Pulumi vs. Terraform: A comparison of Infrastructure as Code tools](https://garden.io/blog/pulumi-vs-terraform)
+- [==pulumi/kube2pulumi==](https://github.com/pulumi/kube2pulumi) Upgrade your Kubernetes YAML to a modern language

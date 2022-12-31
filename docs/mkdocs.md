@@ -6,7 +6,8 @@
 4. [GitHub Pages](#github-pages)
 5. [GitBook](#gitbook)
 6. [Alternatives. Jekyll open source static site generator](#alternatives-jekyll-open-source-static-site-generator)
-7. [Tweets](#tweets)
+7. [Videos](#videos)
+8. [Tweets](#tweets)
 
 ## Introduction
 
@@ -52,6 +53,14 @@
 ## Alternatives. Jekyll open source static site generator
 
 - [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) Jekyll is an open source static site generator. You can write your content in Markdown, use HTML/CSS for structure and presentation, and Jekyll compiles it all into static HTML.
+
+## Videos
+
+??? note "Click to expand!"
+
+	<center>
+    <iframe width="469" height="834" src="https://www.youtube.com/embed/4z0l5Kl2Q6E" title="You can literally learn Markdown in 60 seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 

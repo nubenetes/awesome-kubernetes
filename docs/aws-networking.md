@@ -12,6 +12,7 @@
     2. [Tailscale](#tailscale)
 9. [AWS CloudFront](#aws-cloudfront)
 10. [AWS API Gateway](#aws-api-gateway)
+11. [Tweets](#tweets)
 
 ## Introduction
 
@@ -25,6 +26,8 @@
 - [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) AWS adds an extra 5.5M IPv4 addresses. Tracking the history and size of AWS's ip-ranges.json file. AWS provides a data file showing the current IP ranges their services use, called ip-ranges.json. This repository tracks changes to that file, and based off a trigger on the SNS topic automatically produces this chart showing how what percentage of the Internet's IPv4 address space AWS is in control of.
 - [medium: Building a Global Network with AWS Transit Gateway](https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12) Connecting branch and corporate offices into the AWS cloud to build a global network is necessary to provide ubiquitous accessibility for users. This solution uses AWS Transit Gateway, AWS Direct Connect, and AWS Accelerated Site-to-Site VPN to build a modern, secure, scalable, and cost-efficient WAN on top of the AWS global network.
 - [aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect/)
+- [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4)
+- [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products/networking/network-operations/) Efficiently manage and monitor your AWS network
 
 ## AWS Route 53
 
@@ -99,3 +102,16 @@
 ## AWS API Gateway
 
 - [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements/)
+- [towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway](https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4) In this post, we’ll see how we can access a Private REST API From Another Private REST API In AWS API Gateway. We will create 2 EC2 Instances(EC2A and EC2B) and 2 API Gateways(APIA and APIB). EC2A will be accessing EC2B with following workflow.
+- [faun.pub: Using AWS API Gateway As Proxy To Our Internal Application](https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70)
+- [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account/) Architecture patterns for consuming private APIs cross-account over AWS PrivateLink
+
+## Tweets
+
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝗔𝗺𝗮𝘇𝗼𝗻 𝗩irtual 𝗣rivate 𝗖loud ☁️ 🔐<br>Your 𝗹𝗼𝗴𝗶𝗰𝗮𝗹𝗹𝘆 𝗶𝘀𝗼𝗹𝗮𝘁𝗲𝗱 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸 in the cloud 🛠<br><br>From Security Groups, over Route Tables to VPC Peering ↓ <a href="https://t.co/OWhIWVbJwu">pic.twitter.com/OWhIWVbJwu</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1582330939442536448?ref_src=twsrc%5Etfw">October 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

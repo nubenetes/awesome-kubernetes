@@ -2,6 +2,7 @@
 
 1. [Introduction](#introduction)
 2. [AWS Calculator](#aws-calculator)
+3. [S3 Intelligent Tiering](#s3-intelligent-tiering)
 
 ## Introduction
 
@@ -28,3 +29,6 @@
 - [calculator.aws: AWS Total Cost of Ownership (TCO) Calculators](https://calculator.aws/)
 - [Understanding your AWS Cost Datasets: A Cheat Sheet](https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/)
 - [Announcing General Availability of AWS Cost Anomaly Detection](https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/)
+
+## S3 Intelligent Tiering
+- [Manage Amazon S3 storage costs granularly and at scale using S3 Intelligent-Tiering](https://aws.amazon.com/blogs/storage/manage-amazon-s3-storage-costs-granularly-and-at-scale-using-s3-intelligent-tiering/) Cost-effective data storage is critical when building and scaling data lakes that manage and hold growing datasets. By choosing the right storage architecture, customers are empowered to quickly experiment and migrate to AWS. Amazon S3 Intelligent-Tiering is a storage class that allows customers to optimize storage costs automatically when data access patterns change without performance impact or operational overhead, for all stages of data lake workflows.

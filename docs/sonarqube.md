@@ -24,6 +24,7 @@
 - [Dzone.com: Code Analysis Part 2 - Analyzing Code with SonarQube](https://dzone.com/articles/code-analysis-part-2-analyzing-code-with-sonarqube)
 - [navsinghoberoi.medium.com: Configure Sonarqube to analyse health of a project](https://navsinghoberoi.medium.com/configure-sonarqube-to-analyse-health-of-a-project-5cb80ff6616b)
 - [thenewstack.io: How to Analyze Code and Find Vulnerabilities with SonarQube](https://thenewstack.io/how-to-analyze-code-and-find-vulnerabilities-with-sonarqube/)
+- [itnext.io: SonarQube: running tests from Jenkins Pipeline in Docker](https://itnext.io/sonarqube-running-tests-from-jenkins-pipeline-from-docker-7740702b6f42)
 
 ## Integrations
 

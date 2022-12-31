@@ -1,11 +1,13 @@
 # Kubernetes Storage. Cloud Native Storage
 
 1. [Introduction](#introduction)
-2. [DoK Community](#dok-community)
-3. [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
-4. [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
-5. [Ebooks](#ebooks)
-6. [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
+2. [Kubernetes Storage Classes](#kubernetes-storage-classes)
+3. [Kubernetes Volumes](#kubernetes-volumes)
+    1. [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
+4. [DoK Community](#dok-community)
+5. [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
+6. [Ebooks](#ebooks)
+7. [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
     1. [Rook](#rook)
     2. [Robin](#robin)
     3. [Reduxio](#reduxio)
@@ -22,31 +24,29 @@
     14. [NetApp Data Store](#netapp-data-store)
     15. [Stork Storage Operator](#stork-storage-operator)
     16. [Curve - OpenCurve](#curve---opencurve)
-7. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
+8. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
-8. [Kubestr](#kubestr)
-9. [VolSync](#volsync)
-10. [Discoblocks](#discoblocks)
-11. [Images](#images)
-12. [Tweets](#tweets)
-13. [Videos](#videos)
+9. [Kubernetes CSI](#kubernetes-csi)
+10. [Kubestr](#kubestr)
+11. [VolSync](#volsync)
+12. [Discoblocks](#discoblocks)
+13. [Images](#images)
+14. [Tweets](#tweets)
+15. [Videos](#videos)
 
 ## Introduction
 
-- [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) 
 - [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/)
 - [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c) kubernetes/volumes/claims
 - [thenewstack.io: A Guide to Running Stateful Applications in Kubernetes](https://thenewstack.io/a-guide-to-running-stateful-applications-in-kubernetes/)
 - [forbes.com: 5 Cloud Native Storage Startups To Watch Out For In 2019](https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019/)
-- [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
 - [medium: Solution architect’s guide to Kubernetes persistent storage](https://medium.com/weareservian/solution-architects-guide-to-kubernetes-persistant-storage-3c9660187e8f)
 - [howtoforge.com: Storage in Kubernetes 🌟](https://www.howtoforge.com/storage-in-kubernetes/)
 - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas/)
 - [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/)
 - [medium: Kubernetes Storage Performance Comparison v2 (2020 Updated) 🌟](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)
 - [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://blocksandfiles.com/2020/12/22/the-storageless-storage-paradox/)
-- [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
 - [rancher.com: What is Cloud-Native Storage?](https://rancher.com/blog/2020/what-is-cloud-native-storage)
 - [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/)
 - [devopscurry.com: Top 7 Object Storage tools to consider in 2021](https://devopscurry.com/top-7-object-storage-tools-to-consider-in-2021/)
@@ -62,8 +62,6 @@
 - [medium: Provisioning storage in Kubernetes](https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d)
 - [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes/) In this post I’ll briefly explain how persistent storage works in Kubernetes.
 - [blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined Storage - Which One to Choose?](https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose)
-- [==kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes==](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
-- [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
 - [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage/)
 - [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction)
 - [blog.mayadata.io: Kubernetes storage basics: PV, PVC and StorageClass 🌟](https://blog.mayadata.io/kubernetes-storage-basics-pv-pvc-and-storageclass)
@@ -74,12 +72,51 @@
 - [itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution](https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc)
 - [armosec.io: Data Storage in Kubernetes](https://www.armosec.io/blog/kubernetes-data-storage/) Kubernetes in cooperation with cloud vendor infrastructure provides flexible mechanisms for data storage and management. It is up to the users to decide which mechanism best fits their application needs. However, the security side of the data storage falls completely under the user’s responsibility. Most of the default settings are wide open and require significant security expertise to protect your applications from data leakage.
 - [==infoq.com: Best Practices for Running Stateful Applications on Kubernetes==](https://www.infoq.com/articles/kubernetes-stateful-applications/)
-- [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) **The local volume static provisioner manages PersistentVolume lifecycle for pre-allocated disks by detecting and creating PVs for each local disk on the host and cleaning up the disks when released. It does not support dynamic provisioning**
-- [shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce) In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects 'desiredStateOfWorld' and 'actualStateOfWorld' and 'reconcile' the volumes on the node to the desired state. 
 - [blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes](https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/) Are you looking for an easy-to-use, reliable block-type storage for your cluster?
-- [blog.cloudnloud.com: Kubernetes Volume](https://blog.cloudnloud.com/kubernetes-volume)
 - [medium.com/@amir.ilw: Kubernetes Storage Migration 🌟](https://medium.com/@amir.ilw/kubernetes-storage-migration-ac48f6f9f5a5) Storage migrations, storage path changes or even moving to a newer faster CSI can be overwhelming. In this article, you'll learn the required steps, how to avoid the pitfalls of immutable volumes and how to plan your next migration.
 - [discoblocks.io 🌟](https://discoblocks.io) - [ondat/discoblocks](https://github.com/ondat/discoblocks) **Open Source declarative disk configuration system for Kubernetes.** Discoblocks is an open-source declarative disk configuration system for Kubernetes helping to automate CRUD (Create, Read, Update, Delete) operations for cloud disk device resources attached to Kubernetes cluster nodes.
+- [medium.com/geekculture: Storage | Kubernetes](https://medium.com/geekculture/storage-kubernetes-92eb3d027282) A Deep Dive into Kubernetes Storage
+- [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container's local storage.
+- [==container-object-storage-interface.github.io: Kubernetes COSI==](https://container-object-storage-interface.github.io/) Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.
+
+## Kubernetes Storage Classes
+
+- [==kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes==](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes/)
+- [==containiq.com: Kubernetes Storage Classes | In-Depth Tutorial==](https://www.containiq.com/post/kubernetes-storage-classes) Storage Classes are an essential part of Kubernetes, and can provide a great deal of flexibility and control over how your data is stored. In this guide, we provide an in-depth tutorial on using storage classes effectively.
+
+## Kubernetes Volumes
+
+- [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99)
+- [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage/)
+- [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
+- [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
+- [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) **The local volume static provisioner manages PersistentVolume lifecycle for pre-allocated disks by detecting and creating PVs for each local disk on the host and cleaning up the disks when released. It does not support dynamic provisioning**
+- [shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce) In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects 'desiredStateOfWorld' and 'actualStateOfWorld' and 'reconcile' the volumes on the node to the desired state. 
+- [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/)
+- [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/)
+- [==medium.com/codex: Kubernetes Persistent Volume Explained==](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393) Learn what a Persistent Volume is and how to create a persistent volume from a storage class. Then, learn how to create a persistent volume claim and how to attach the PVC to a Pod:
+    - How to create a persistent volume from a storage class
+    - How to create a persistent volume claim
+    - How to attach the PVC to a Pod
+- [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)
+- [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) In this blog post, you will get a hands-on practice and learn how to provide persistent storage in the form of different volumes to the Pods.
+- [blog.cloudnloud.com: Kubernetes Volume](https://blog.cloudnloud.com/kubernetes-volume)
+- [==adamtheautomator.com: Effortless Storage Management With Kubernetes PVC== 🌟](https://adamtheautomator.com/kubernetes-pvc/) In this tutorial, you'll learn about Kubernetes PVC and set up a persistent volume for a MySQL database. You'll also confirm that the data persists even after deleting and recreating the pods.
+- [==faun.pub: Dynamic Volume Provisioning | Kubernetes== 🌟](https://faun.pub/dynamic-volume-provisioning-kubernetes-632b43b1ee79) Dynamically provision persistent volume on Kubernetes
+- [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes/)
+    - What is K8s PV?
+    - How do they differ from k8s volumes?
+    - Why would you use persistent volumes?
+    - How to get started using persistent volumes?
+- [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using ZFS.
+
+### Kubernetes Volumes Guide
+
+- [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) This is a guide that covers:
+    - How to set up and use volumes in Kubernetes
+    - What are persistent volumes, and how to use them
+    - How to use an NFS volume
+    - Shared data and volumes between pods
 
 ## DoK Community
 
@@ -87,14 +124,6 @@
 - Kubernetes was originally designed to run stateless workloads. Today, it is increasingly used to run databases and other stateful workloads. Yet despite the success of these early adopters, there remain few known good practices for running data on Kubernetes.
 - After discussions with thousands of companies and individuals running data workloads on Kubernetes we’ve come to see that there is a need for a sharing of patterns and concerns about how to build and operate data-centric applications on Kubernetes. As a result, the **Data on Kubernetes Community (DoKC)** was born.
 - [==dok.community: Data on Kubernetes 2021== 🌟](https://dok.community/dokc-2021-report/) Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption
-
-## Kubernetes Volumes Guide
-
-- [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) This is a guide that covers:
-    - How to set up and use volumes in Kubernetes
-    - What are persistent volumes, and how to use them
-    - How to use an NFS volume
-    - Shared data and volumes between pods
 
 ## ReadWriteMany PersistentVolumeClaims
 
@@ -151,6 +180,7 @@
 - [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf/). Gluster and Ceph were “designed to be run by some storage admin. In the Kubernetes world, a lot of these things tend to be deployed by DevOps teams, so (the storage layer) needs to be a lot more lightweight and a lot simpler.” — Rancher Labs CEO Sheng Liang.
 - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://rancher.com/blog/2020/longhorn-container-storage)
 - [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://containerjournal.com/topics/container-management/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters/)
+- [aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed storage)](https://aesher9o1.medium.com/autoscale-large-images-faster-using-longhorn-distributed-storage-618d0cf01ba2)
 
 ### IBM Spectrum Storage Suite
 
@@ -216,6 +246,12 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
         - Encryption
 - Backups available in OpenShift 4.2+ (Snapshots + Restore of Volumes)
 - OCS Dashboard in OCS Operator
+
+## Kubernetes CSI
+
+- [kubernetes-csi.github.io](https://kubernetes-csi.github.io) Kubernetes-CSI is a community repository containing projects to enable CSI support in Kubernetes.
+- [github.com/kubernetes-csi](https://github.com/kubernetes-csi) Kubernetes specific Container-Storage-Interface (CSI) components
+- [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) This driver allows Kubernetes to access SMB Server on both Linux and Windows nodes.
 
 ## Kubestr
 

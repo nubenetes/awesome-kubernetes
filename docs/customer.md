@@ -54,6 +54,7 @@
 ## Volkswagen
 
 - [redhat.com: The Volkswagen Group builds automated testing environment](https://www.redhat.com/en/success-stories/the-volkswagen-group)
+- [xataka.com: El auge del coche eléctrico y autónomo se ha topado con otra barrera: el software. Volkswagen lo sabe bien](https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien)
 
 ## Mercedes Benz
 
@@ -85,6 +86,8 @@
 ## AI for Medical Imaging
 
 - [healthitanalytics.com: AI for Medical Imaging Boosts Cancer Screenings with Provider Aid](https://healthitanalytics.com/news/ai-for-medical-imaging-boosts-cancer-screenings-with-provider-aid)
+- [valenciaplaza.com: El IIS La Fe liderará la dirección científica del Nodo Central del Atlas de Imágenes en Cáncer](https://valenciaplaza.com/hospital-general-castello-instala-primer-equipo-cirugia-robotica-da-vinci) Se trata de una plataforma diseñada para generar "conjuntos masivos de datos de calidad" centrados en la imagen médica y su información clínica, molecular y genética relacionada, obtenidos en el ámbito asistencial y de investigación. Estos datos enlazados permiten construir estudios clínicos observacionales controlados, como si fueran ensayos clínicos. Esta gran plataforma de imágenes y datos será también "clave" para el desarrollo y validación de modelos de inteligencia artificial que permitan un diagnóstico temprano, predecir la evolución de la enfermedad y estimar la respuesta a un tratamiento oncológico específico en un paciente concreto. Los datos clínicos y las imágenes que se obtienen en el ámbito asistencial se adquieren con el foco en un paciente individual, su aprovechamiento posterior necesita procesos que garanticen su seguridad (desidentificación) y normalización (armonización) para minimizar las diferencias en calidad de imagen entre diferentes equipamientos y fabricantes.
+- [aws.amazon.com: Accelerating radiology imaging workflows with relevant clinical context on AWS](https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws/)
 
 ## Videos
 

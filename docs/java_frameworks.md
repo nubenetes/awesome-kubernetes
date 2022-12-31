@@ -8,11 +8,13 @@
     3. [Use Java 11](#use-java-11)
     4. [Java 17](#java-17)
     5. [Java 18](#java-18)
+    6. [Java 19](#java-19)
 2. [Java Programming Models (Frameworks)](#java-programming-models-frameworks)
 3. [Jakarta EE](#jakarta-ee)
 4. [Eclipse MicroProfile](#eclipse-microprofile)
     1. [Server Vendors providing MicroProfile runtimes](#server-vendors-providing-microprofile-runtimes)
-5. [Spring](#spring)
+5. [Hibernate](#hibernate)
+6. [Spring](#spring)
     1. [SpringBoot](#springboot)
         1. [SpringBoot with Docker](#springboot-with-docker)
         2. [SpringBoot Tools](#springboot-tools)
@@ -21,20 +23,22 @@
             1. [Spring Cloud Kubernetes](#spring-cloud-kubernetes)
             2. [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
             3. [Secure Secrets with Spring Cloud Vault and alternatives](#secure-secrets-with-spring-cloud-vault-and-alternatives)
-6. [Quarkus](#quarkus)
-7. [Kogito cloud-native business automation framework](#kogito-cloud-native-business-automation-framework)
-8. [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
-9. [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
-10. [Quarkus vs Spring Boot](#quarkus-vs-spring-boot)
-11. [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
-12. [Logging in Java](#logging-in-java)
-13. [Java Logger Implementations](#java-logger-implementations)
-14. [Java Testing Frameworks](#java-testing-frameworks)
-15. [Debugging Java Threads](#debugging-java-threads)
-16. [Lombok](#lombok)
-17. [Project Helidon](#project-helidon)
-18. [Videos](#videos)
-19. [Tweets](#tweets)
+7. [Quarkus](#quarkus)
+8. [Kogito cloud-native business automation framework](#kogito-cloud-native-business-automation-framework)
+9. [Thorntail (aka WildFly Swarm)](#thorntail-aka-wildfly-swarm)
+10. [Spring Boot VS MicroProfile](#spring-boot-vs-microprofile)
+11. [Quarkus vs Spring Boot](#quarkus-vs-spring-boot)
+12. [More Java Frameworks or Libraries](#more-java-frameworks-or-libraries)
+13. [Logging in Java](#logging-in-java)
+14. [Java Logger Implementations](#java-logger-implementations)
+15. [Java Testing Frameworks](#java-testing-frameworks)
+16. [Debugging Java Threads](#debugging-java-threads)
+17. [Lombok](#lombok)
+18. [Project Helidon](#project-helidon)
+19. [Videos](#videos)
+20. [Images](#images)
+21. [Tweets](#tweets)
+
 ## Introduction
 
 - [reddit.com/r/java](https://www.reddit.com/r/java)
@@ -65,6 +69,8 @@
 - [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features/)
 - [==geeksforgeeks.org: 5 Best Java Frameworks For Microservices==](https://www.geeksforgeeks.org/5-best-java-frameworks-for-microservices/)
 - [medium.com/@aritra.chatterjee_: Hexagonal architecture in java](https://medium.com/@aritra.chatterjee_/hexagonal-architecture-in-java-7ac8f4bea753) This article will implement the basic concepts of Hexagonal Architecture in Java.
+- [betterprogramming.pub: Learn SOLID Design Principles in Java by Coding It](https://betterprogramming.pub/learn-solid-design-principles-in-java-by-coding-it-dcbf64a17b53) An in-depth explanation of all SOLID Design Principles with real-world use cases and code examples
+- [analyticsinsight.net: Why is Java the Most Unsuitable Programming Language for Startups?](https://www.analyticsinsight.net/why-is-java-the-most-unsuitable-programming-language-for-startups/)
 
 ### How to migrate Java workloads to containers
 
@@ -104,6 +110,10 @@
 ### Java 18
 
 - [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.java.net/jeps/413)
+
+### Java 19
+
+- [infoq.com: Virtual Threads: New Foundations for High-Scale Java Applications](https://www.infoq.com/articles/java-virtual-threads/)
 
 ## Java Programming Models (Frameworks)
 
@@ -151,7 +161,15 @@ optimizing Enterprise Java for the microservices architecture.
 - [RedHat’s WildFly Swarm](http://wildfly-swarm.io/)
 - [KumuluzEE](https://ee.kumuluz.com/)
 
-## Spring 
+ ## Hibernate
+
+- [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
+- [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)
+- [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/)
+- [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking/)
+- [==stackoverflow.com: What are the differences between the different saving methods in Hibernate?==](https://stackoverflow.com/questions/161224/what-are-the-differences-between-the-different-saving-methods-in-hibernate/54907032?stw=2#54907032)
+
+## Spring
 
 - [Spring](https://spring.io/)
 - [Spring Framework Architecture 🌟](https://www.javacodegeeks.com/2019/02/spring-framework-architecture.html)
@@ -163,6 +181,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [blog.frankel.ch: Annotation-free Spring](https://blog.frankel.ch/annotation-free-spring/)
 - [java67.com: 10 Spring Framework Annotations Java Developer should learn - Example Tutorial](https://www.java67.com/2018/11/top-10-spring-framework-annotations-for-java-developers.html)
 - [javarevisited.blogspot.com: Role based Access control using Spring Security and MVC, Mapping LDAP Groups to Authorities for Authorization](https://javarevisited.blogspot.com/2013/07/role-based-access-control-using-spring-security-ldap-authorities-mapping-mvc.html)
+- [==odedia.org: Production Considerations for Spring on Kubernetes== 🌟🌟🌟](https://odedia.org/production-considerations-for-spring-on-kubernetes)
 
 ### SpringBoot
 
@@ -187,19 +206,16 @@ optimizing Enterprise Java for the microservices architecture.
 - [piotrminkowski.com: Spring Boot Tips, Tricks and Techniques](https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/)
 - [==javatechonline.com: How To Work With Apache Kafka In Spring Boot?==](https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/)
 - [dzone: How To Run the Spring Boot Application as a Stand-Alone Java Application](https://dzone.com/articles/how-to-run-the-spring-boot-application-as-a-stand) In this Spring Boot video tutorial, take a closer look at how to run the Spring Boot application as a stand-alone Java application and RESTful Web Services.
-- [==medium: Multi-Tenancy Implementation using Spring Boot + Hibernate== 🌟](https://medium.com/swlh/multi-tenancy-implementation-using-spring-boot-hibernate-6a8e3ecb251a)
 - [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot/)
-- [vladmihalcea.com: How to encrypt and decrypt data with Hibernate](https://vladmihalcea.com/how-to-encrypt-and-decrypt-data-with-hibernate/)
-- [stackoverflow.com: How to map a MySQL JSON column to a Java entity property using JPA and Hibernate](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)
 - [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
 - [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/)
-- [vladmihalcea.com: Spring Boot Application Properties](https://vladmihalcea.com/spring-boot-application-properties/)
+- [==vladmihalcea.com: Spring Boot Application Properties==](https://vladmihalcea.com/spring-boot-application-properties/)
 - [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
 - [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/)
-- [vladmihalcea.com: Optimistic vs. Pessimistic Locking (hibernate)](https://vladmihalcea.com/optimistic-vs-pessimistic-locking/)
 - [medium.com/shoutloudz: Microservice: Developing an Authentication Service using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712)
 - [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html)
 - [==medium.com/@hubian: 16 Best Practices in Spring Boot Production== 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c)
+- [==javaguides.net: Event-Driven Microservices using Spring Boot and Kafka==](https://www.javaguides.net/2022/07/event-driven-microservices-using-spring-boot-and-apache-kafka.html?spref=tw)
 
 #### SpringBoot with Docker
 
@@ -360,6 +376,14 @@ optimizing Enterprise Java for the microservices architecture.
 </center>
 </details>  
 
+## Images
+
+??? note "Click to expand!"
+
+    <center>
+    ![spring annotations cheat sheet](images/spring_annotations_cheat_sheet.jfif)
+    </center>
+
 ## Tweets
 
 <details>
@@ -381,5 +405,13 @@ optimizing Enterprise Java for the microservices architecture.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Best Java blog websites for Java developers<br>Thread 👇</p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1480035588753420288?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java programmer roadmap <a href="https://t.co/KKdK0hdBB2">pic.twitter.com/KKdK0hdBB2</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1542741721020125184?ref_src=twsrc%5Etfw">July 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring and spring boot annotations: <a href="https://t.co/CwPxJabliI">pic.twitter.com/CwPxJabliI</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1581318845129584640?ref_src=twsrc%5Etfw">October 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The best ways to waste time in discussions in the Java world:<br><br>- Lombok VS. non-Lombok<br>- ORMs VS. JDBC<br>- Spring VS. JakartaEE<br><br>PSA: All of them are pointless. Save your time. Go ahead and work on stuff you consider important instead.</p>&mdash; Oliver Drotbohm 🥁 &amp; 👨‍💻 (@odrotbohm) <a href="https://twitter.com/odrotbohm/status/1595421237483741185?ref_src=twsrc%5Etfw">November 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java Collections cheat sheet: <a href="https://t.co/X06xq0pCbL">pic.twitter.com/X06xq0pCbL</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1604182950030954496?ref_src=twsrc%5Etfw">December 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Annotations cheat sheet:<br>Reference: linkedin <a href="https://t.co/GoEKSuyVrZ">pic.twitter.com/GoEKSuyVrZ</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607735247650852865?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

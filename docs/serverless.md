@@ -43,6 +43,15 @@
 - [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
 - [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
 - [readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟](https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount/) **When designing serverless apps, you must consider the right level of scale. Your architecture choices will vary greatly depending on the expected load. "Just because serverless services can scale doesn't mean they will scale".**
+- [==jeromevdl.medium.com: When to use a Lambda function, and when not?== 🌟](https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd)
+- [==c-sharpcorner.com: Why and When to use Azure Functions==](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions/)
+- [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions) Here we take a look at two of the programs in Azure's toolbox, Logic Apps and Azure Functions, and compare them with each other.
+- [dvtsoftware.com: When is it a good choice to use Azure serverless functions?](https://www.dvtsoftware.com/en/news-insights/insights/item/389-when-is-it-a-good-choice-to-use-azure-serverless-functions)
+- [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.serverlessguru.com/blog/enterprise-serverless-adoption) Adopting a new architecture may be intimidating. Having to migrate all of your workloads over to your cloud provider can be time-consuming and stressful. I’m sure you’re wondering, “How can I benefit from serverless?” In this article, I’m going to detail how some of the biggest companies in the world are maximizing efficiencies within their organization using serverless technology! Let’s dive in.
+- [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://aws.amazon.com/architecture/serverless/serverless-or-kubernetes/)
+- [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture== 🌟](https://serverlessland.com/event-driven-architecture) What are Event Driven Architectures ?
+- [medium.com/@marinradjenovic: Why do you still need to think of scalability when architecting Serverless apps?](https://medium.com/@marinradjenovic/why-do-you-still-need-to-think-of-scalability-when-architecting-serverless-apps-a2e1f14e3eca)
+- [architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!](https://architectelevator.com/cloud/serverless-design-patterns/) Design patterns have helped us improve software design for decades. In the cloud, they can also reduce our switching cost. That’s magic!
 
 ### Governance
 
@@ -55,6 +64,7 @@
 - [economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless vs. Kubernetes when deploying microservices](https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms)
 - [acloudguru.com: Containers vs serverless: Which is right for you?](https://acloudguru.com/blog/engineering/containers-vs-serverless-which-is-right-for-you) Serverless is one of the hottest new cloud trends. However, I have found it leads to more harm than good in the long run. While I understand some of the problems listed above are not unique to serverless, they are much more prolific; leading engineers to spend most of their time with YAML configuration or troubleshooting function execution rather than crafting business logic. What I find odd is the lack of complaints from the community. If I’m alone in my assessment, I’d love to hear from you in the comments below. I’ve spent a significant amount of time over the last few years working to undo my own serverless mistakes as well as those made by other developers. Maybe I’m the one who has been brainwashed? Time will tell.
 - [oliverjumpertz.medium.com: Serverless vs. Kubernetes](https://oliverjumpertz.medium.com/serverless-vs-kubernetes-58b0b387dc98)
+- [==thenewstack.io: Serverless vs. Kubernetes: The People’s Vote==](https://thenewstack.io/serverless-vs-kubernetes-the-peoples-vote/) A breakout session at AWS' recent Re:Invent conference provided a six point comparison of serverless  and Kubernetes to finally determine which architecture was better. The audience voted on which would be the winner.
 
 ### Case Studies
 
@@ -66,7 +76,7 @@
 - [wikipedia: FaaS Function as a Service](https://en.wikipedia.org/wiki/Function_as_a_service)
 - [redhat.com: What is Function-as-a-Service (FaaS)?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas)
 - [stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!](https://stackify.com/function-as-a-service-serverless-architecture/)
-- [==dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway==](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) In this post, you will learn how to build and deploy a REST API powered by serverless functions running on Kubernetes. You will learn how to use Knative, Kong API Gateway, and the kazi CLI
+- [==dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway==](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) In this post, you will learn how to build and deploy a REST API powered by serverless functions running on Kubernetes. You will learn how to use Knative, Kong API Gateway, and the kazi CLI - [pmbanugo.me: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway](https://pmbanugo.me/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway)
 
 ### Serverless Ecosystems Comparison
 

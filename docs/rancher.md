@@ -1,26 +1,27 @@
 # SUSE Rancher
 
 1. [Rancher: Enterprise management for Kubernetes](#rancher-enterprise-management-for-kubernetes)
-2. [Rancher Desktop](#rancher-desktop)
-3. [Rancher Academy (online training)](#rancher-academy-online-training)
-4. [Rancher 2](#rancher-2)
+2. [Rancher and Terraform](#rancher-and-terraform)
+3. [Rancher Desktop](#rancher-desktop)
+4. [Rancher Academy (online training)](#rancher-academy-online-training)
+5. [Rancher 2](#rancher-2)
     1. [Rancher Networking and CNI Providers](#rancher-networking-and-cni-providers)
     2. [Rancher 2 RKE](#rancher-2-rke)
-5. [K3S](#k3s)
+6. [K3S](#k3s)
     1. [K3s Tools](#k3s-tools)
     2. [K3S Use Cases](#k3s-use-cases)
     3. [K3S in Public Clouds](#k3s-in-public-clouds)
     4. [K3D](#k3d)
     5. [K3OS](#k3os)
-6. [K3C](#k3c)
-7. [Hosted Rancher](#hosted-rancher)
-8. [Rancher on Microsoft Azure](#rancher-on-microsoft-azure)
-9. [Rancher RKE on vSphere](#rancher-rke-on-vsphere)
-10. [Rancher Kubernetes on Oracle Cloud](#rancher-kubernetes-on-oracle-cloud)
-11. [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
-12. [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
-13. [Kubernautic](#kubernautic)
-14. [Harvester Hyperconverged Infrastructure Software](#harvester-hyperconverged-infrastructure-software)
+7. [K3C](#k3c)
+8. [Hosted Rancher](#hosted-rancher)
+9. [Rancher on Microsoft Azure](#rancher-on-microsoft-azure)
+10. [Rancher RKE on vSphere](#rancher-rke-on-vsphere)
+11. [Rancher Kubernetes on Oracle Cloud](#rancher-kubernetes-on-oracle-cloud)
+12. [Rancher Software Defined Storage with Longhorn](#rancher-software-defined-storage-with-longhorn)
+13. [Rancher Fleet to manage multiple kubernetes clusters](#rancher-fleet-to-manage-multiple-kubernetes-clusters)
+14. [Kubernautic](#kubernautic)
+15. [Harvester Hyperconverged Infrastructure Software](#harvester-hyperconverged-infrastructure-software)
 
 ## Rancher: Enterprise management for Kubernetes
 
@@ -28,7 +29,6 @@
 - [rancher.com: Custom alerts using Prometheus queries](https://rancher.com/blog/2020/custom-monitoring)
 - [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere/) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
 - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)
-- [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
 - [Faster Kubernetes Development with Rancher, DevSpace and Loft](https://rancher.com/blog/2020/faster-kubernetes-development-rancher-devspace-loft)
 - [Multi-Cluster Vulnerability Scanning with Alcide and Rancher](https://rancher.com/blog/2020/multi-cluster-vulnerability-scanning-alcide-rancher)
 - [Monitor Etcd with Prometheus and Grafana using Rancher](https://rancher.com/blog/2020/monitor-etcd-prometheus-grafana-rancher)
@@ -50,9 +50,14 @@
 - [suse.com: My First Impressions with SUSE Rancher Kubernetes Projects](https://www.suse.com/c/rancher_blog/my-first-impressions-with-suse-rancher-kubernetes-projects/)
 
 <center>
-[![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE) 
+[![rancher architecture](images/rancher.png)](https://www.youtube.com/watch?v=2LNxGVS81mE)
 </center>
 </br>
+
+## Rancher and Terraform
+
+- [Deploy a Rancher Cluster with GitLab CI and Terraform](https://rancher.com/blog/2020/deploy-with-gitlab-ci)
+- [==akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher, Terraform and Ansible==](https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319) Automate the provisioning of on-premises Rancher RKE Clusters and the registration of their nodes via Terraform and Ansible
 
 ## Rancher Desktop
 
@@ -66,7 +71,7 @@
 
 ## Rancher 2
 
-- [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/) 
+- [**Rancher 2**](https://rancher.com/docs/rancher/v2.x/en/)
 
 ### Rancher Networking and CNI Providers
 
@@ -77,6 +82,7 @@
 - [**Rancher 2 RKE**](https://rancher.com/products/rke/) Rancher 2 that runs in docker containers. RKE is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It solves the common frustration of installation complexity with Kubernetes by removing most host dependencies and presenting a stable path for deployment, upgrades, and rollbacks.
     - [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 - [Bootstrap RKE Kubernetes Cluster in AWS Environment](https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws)
+- [github.com/gruberdev/local-gitops: Local Gitops 🌟](https://github.com/gruberdev/local-gitops) An automated local cluster setup w/ tls, monitoring, ingress and DNS configuration. The goal of this project is to provide a simplified approach to creating your own local cluster, as well as all the utilities you'll need to run a functional cluster using GitOps
 
 ## K3S
 
@@ -110,11 +116,14 @@
 - [blog.nootch.net: Kubernetes at Home With K3s](https://blog.nootch.net/post/kubernetes-at-home-with-k3s/)
 - Try out the  Kubernetes 1.23 with K3s distro: `curl -sfL https://get.k3s.io |INSTALL_K3S_VERSION="v1.23.1-rc1+k3s1" sh -` You can try on ubuntu katakoda playground in your browser :)
 - [==medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference==](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)
+- [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth/) In this article, you'll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration
+- [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005)
 
 ### K3s Tools
 
 - [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments 
 - [alexellis/k3sup](https://github.com/alexellis/k3sup) bootstrap Kubernetes with k3s over SSH < 1 min 🚀. k3sup is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
+- [clanktron/k3s-ansible](https://github.com/clanktron/k3s-ansible) Automated build of HA k3s Cluster with kube-vip, Cilium, and MetalLB
 
 ### K3S Use Cases
 
@@ -133,6 +142,8 @@
 - [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
 - [cncf.io: Introduction to k3d: Run K3s in Docker](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker/)
 - [itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min](https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376)
+- [dev.to/iamunnip: Building a local Kubernetes cluster using k3d](https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d)
+- [akyriako.medium.com: Provision a Highly Available K3S Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
 
 ### K3OS
 

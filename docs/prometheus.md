@@ -22,21 +22,21 @@
 10. [Prometheus Alarms and Event Tracking](#prometheus-alarms-and-event-tracking)
 11. [Prometheus and Cloud Monitoring](#prometheus-and-cloud-monitoring)
 12. [Prometheus Installers](#prometheus-installers)
-    1. [Binaries, source code or Docker](#binaries-source-code-or-docker)
-    2. [Ansible Roles](#ansible-roles)
+     1. [Binaries, source code or Docker](#binaries-source-code-or-docker)
+     2. [Ansible Roles](#ansible-roles)
 13. [Prometheus Operator](#prometheus-operator)
-    1. [kube Prometheus](#kube-prometheus)
-        1. [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
-        2. [Kube-prometheus-stack (best choice)](#kube-prometheus-stack-best-choice)
-        3. [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
+     1. [kube Prometheus](#kube-prometheus)
+         1. [Prometheus Operator with Helm3](#prometheus-operator-with-helm3)
+         2. [Kube-prometheus-stack (best choice)](#kube-prometheus-stack-best-choice)
+         3. [Kubernetes Cluster Monitoring Stack based on Prometheus Operator](#kubernetes-cluster-monitoring-stack-based-on-prometheus-operator)
 14. [Prometheus SaaS Solutions](#prometheus-saas-solutions)
 15. [Proof of Concept: ActiveMQ Monitoring with Prometheus](#proof-of-concept-activemq-monitoring-with-prometheus)
-    1. [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
-        1. [Deployment and Configuration](#deployment-and-configuration)
-    2. [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
-        1. [Deployment and Configuration](#deployment-and-configuration-1)
-    3. [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
-        1. [JMeter Example Test Plans](#jmeter-example-test-plans)
+     1. [PoC: ActiveMQ 5.x Monitoring with Telegraf Collector, Prometheus and Grafana Dashboard 10702](#poc-activemq-5x-monitoring-with-telegraf-collector-prometheus-and-grafana-dashboard-10702)
+         1. [Deployment and Configuration](#deployment-and-configuration)
+     2. [PoC: ActiveMQ Artemis Monitoring with Prometheus Metrics Plugin (Micrometer Collector) and Prometheus. Grafana Dashboard not available](#poc-activemq-artemis-monitoring-with-prometheus-metrics-plugin-micrometer-collector-and-prometheus-grafana-dashboard-not-available)
+         1. [Deployment and Configuration](#deployment-and-configuration-1)
+     3. [Validation of Artemis Broker Monitoring with JMeter](#validation-of-artemis-broker-monitoring-with-jmeter)
+         1. [JMeter Example Test Plans](#jmeter-example-test-plans)
 16. [Prometheus and Azure](#prometheus-and-azure)
 17. [Managed Prometheus in AWS](#managed-prometheus-in-aws)
 18. [Managed Prometheus in GCP](#managed-prometheus-in-gcp)
@@ -134,6 +134,9 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [medium.com/kubecost: Prometheus Grafana: configuration & query examples 🌟](https://medium.com/kubecost/prometheus-grafana-configuration-query-examples-885b91b6ca6)
 - [sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟](https://sysdig.com/blog/prometheus-2-37-lts/)
 - [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) In this article, you'll learn how to monitor nginx in Kubernetes with Prometheus and troubleshoot issues related to latency, saturation, etc
+- [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)
+- [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915) In this article, I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.
+- [blog.devops.dev: Deploying Prometheus and Grafana in a Multi-Node Kubernetes Cluster and Auto-Scaling with KEDA](https://blog.devops.dev/deploying-prometheus-and-grafana-in-a-multi-node-kubernetes-cluster-and-auto-scaling-with-keda-eccecfbd8950)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
@@ -200,7 +203,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
     -	¿Cuál es la cardinalidad de las métricas? La cardinalidad es el número de etiquetas que cada métrica puede tener. Es una cuestión muy frecuente en las métricas pertenecientes a entornos dinámicos donde a los contenedores se les asignan un ID ó nombre diferente cada vez que son lanzados, reiniciados o movidos entre nodos (caso de kubernetes).
     -	¿Es necesaria la Alta Disponibilidad (HA)?
     -	¿Durante cuánto tiempo es necesario mantener las métricas y con qué resolución? 
-- La implementación de HA es laboriosa porque la funcionalidad de cluster requiere añadir plugins de terceros al servidor Prometheus. Es necesario tratar con "backups" y "restores", y el almacenamiento de métricas por un periodo de tiempo extendido hará que la base de datos crezca exponencialmente. Los servidores Prometheus proporcionan almacenamiento persistente, pero Prometheus no fue creado para el almacenamiento distribuido de métricas a lo largo de múltiples nodos de un cluster con replicación y capacidad curativa (como es el caso de Kubernetes).  Esto es conocido como **"almacenamiento a largo-plazo" (Long-Term)** y actualmente es un requisito en unos pocos casos de uso, por ejemplo en la planificación de la capacidad para monitorizar cómo la infraestructura necesita evolucionar, contracargos para facturar diferentes equipos ó departamentos para un caso específico que han hecho de la infraestructura, análisis de tendencias de uso, o adherirse a regulaciones para verticales específicos como banca, seguros, etc. 
+- La implementación de HA es laboriosa porque la funcionalidad de cluster requiere añadir plugins de terceros al servidor Prometheus. Es necesario tratar con "backups" y "restores", y el almacenamiento de métricas por un periodo de tiempo extendido hará que la base de datos crezca exponencialmente. Los servidores Prometheus proporcionan almacenamiento persistente, pero Prometheus no fue creado para el almacenamiento distribuido de métricas a lo largo de múltiples nodos de un cluster con replicación y capacidad curativa (como es el caso de Kubernetes).  Esto es conocido como **"almacenamiento a largo-plazo" (Long-Term)** y actualmente es un requisito en unos pocos casos de uso, por ejemplo en la planificación de la capacidad para monitorizar cómo la infraestructura necesita evolucionar, contracargos para facturar diferentes equipos ó departamentos para un caso específico que han hecho de la infraestructura, análisis de tendencias de uso, o adherirse a regulaciones para verticales específicos como banca, seguros, etc.
 
 ### Storage Solutions for Prometheus
 
@@ -218,9 +221,10 @@ Thanos Metrics with prometheus in Kubernetes environments.
     - [prometheus-operator.dev: Thanos and the Prometheus Operator 🌟](https://prometheus-operator.dev/docs/operator/thanos/)
     - [Thanos Architecture Overview 🌟](https://github.com/thanos-io/thanos#architecture-overview)
     - [enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose](https://enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose/)
-    - [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment. 
+    - [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment.
     - [==thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos==](https://github.com/thanos-io/kube-thanos)
     - [medium.com/nerd-for-tech: Deep Dive into Thanos-Part I | Pavan Kumar](https://medium.com/nerd-for-tech/deep-dive-into-thanos-part-i-f72ecba39f76) Monitoring Kubernetes Workloads with Thanos and Prometheus Operator.
+    - [particule.io: Multi-Cluster Monitoring with Thanos 🌟](https://particule.io/en/blog/thanos-monitoring/) In this article, you'll learn the limitations of a Prometheus-only monitoring stack and why moving to a Thanos-based stack can improve metrics retention and reduce overall costs for your clusters
 - [**M3**:](https://www.m3db.io/) An open source, large-scale metrics platform developed by Uber. It has its own time series database, M3DB. Like Thanos, M3 also uses a side-car container to push the metrics to the DB. In addition, it supports metric deduplication and merging, and provides distributed query support.
 Although it's exciting to see attempts to address the challenges of running Prometheus at scale, these are very young projects that are not widely used yet.
 - [VictoriaMetrics](https://victoriametrics.com/)
@@ -262,6 +266,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [prometheus-community/elasticsearch_exporter](https://github.com/prometheus-community/elasticsearch_exporter) Prometheus exporter for various metrics about ElasticSearch, written in Go.
 - [medium.com/@akashjoffical08: Monitor Uptime of Endpoints in K8s using Blackbox Exporter 🌟](https://medium.com/@akashjoffical08/monitor-uptime-of-endpoints-in-k8s-using-blackbox-exporter-f80166a328e9)
 - [sstarcher/helm-exporter](https://github.com/sstarcher/helm-exporter) Helm-exporter exports Helm releases, charts, and version statistics in the Prometheus format
+- [blog.devops.dev: Monitoring MySQL using Prometheus, Grafana and mysqld_exporter in Kubernetes](https://blog.devops.dev/monitoring-mysql-using-prometheus-and-grafana-in-kubernetes-16e7ae3de5dd)
 
 #### Certificates Expiration
 

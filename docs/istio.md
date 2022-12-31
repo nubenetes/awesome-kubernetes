@@ -8,6 +8,7 @@
 6. [Kiali project, observability for the Istio service mesh](#kiali-project-observability-for-the-istio-service-mesh)
 7. [Jaeger tracing. Open source, end-to-end distributed tracing](#jaeger-tracing-open-source-end-to-end-distributed-tracing)
 8. [Envoy micro proxy](#envoy-micro-proxy)
+    1. [Envoy Gateway](#envoy-gateway)
 9. [Kibana](#kibana)
 10. [AWS App Mesh](#aws-app-mesh)
 11. [Istio and AWS EKS](#istio-and-aws-eks)
@@ -99,6 +100,18 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [istio.io: Merbridge - Accelerate your mesh with eBPF](https://istio.io/latest/blog/2022/merbridge/) Replacing iptables rules with eBPF allows transporting data directly from inbound sockets to outbound sockets, shortening the datapath between sidecars and services.
 - [==freecodecamp.org: Learn Istio – How to Manage, Monitor, and Secure Microservices== 🌟](https://www.freecodecamp.org/news/learn-istio-manage-microservices)
 - [useanvil.com: Load balancing gRPC in Kubernetes with Istio](https://www.useanvil.com/blog/engineering/load-balancing-grpc-in-kubernetes-with-istio/)
+- [jimmysong.io: Understanding the Sidecar Injection, Traffic Intercepting & Routing Process in Istio](https://jimmysong.io/en/blog/sidecar-injection-iptables-and-traffic-routing/) This article will cover Istio and:
+    - What is the sidecar pattern and what advantages does it have?
+    - How are the sidecar injections done in Istio?
+    - How does the sidecar proxy do transparent traffic hijacking?
+    - How is the traffic routed upstream?
+- [blog.getambassador.io: Kubernetes Canary Testing and Release with Istio](https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914?gi=816ffb457b0d) In this article, you'll learn about Canary testing in Kubernetes and how Istio can help perform seamless Canary upgrades
+- [medium.com/globant: Istio JWT Authentication & Authorization at the edge](https://medium.com/globant/istio-jwt-authentication-authorization-at-the-edge-b35b612acd97) This article covers:
+    - What is a JWT, and why should you care?
+    - Dissecting Istio's JWT edge authentication & authorization
+    - How to build an external authz service for Istio
+- [medium.com/codex: Egress Traffic Control for Nginx Ingress Controller with Istio Proxy Sidecar](https://medium.com/codex/egress-traffic-control-for-nginx-ingress-controller-with-istio-proxy-sidecar-ef8f19902b43)
+- [medium.com/marionete: How to expose Kubernetes services to external traffic using Istio Gateway](https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805) In this article, you'll walk through the necessary configurations to expose services inside a Service Mesh to external traffic. The first scenario covers an HTTP endpoint, while the second examines the HTTPS configurations.
 
 ## API Access Control
 
@@ -141,6 +154,10 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [getenvoy.io](https://www.getenvoy.io/)
 - [Controlling outbound traffic from Kubernetes](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes)
 - [medium: Troubleshooting Envoy with Kiali](https://medium.com/kialiproject/troubleshooting-envoy-with-kiali-7f78a57b16ad) Inspect and debug your Envoy configuration
+
+### Envoy Gateway
+
+- [Envoy Gateway](https://github.com/envoyproxy/gateway) Envoy Gateway is an open source project for managing Envoy Proxy as a standalone or Kubernetes-based application gateway.
 
 ## Kibana
 

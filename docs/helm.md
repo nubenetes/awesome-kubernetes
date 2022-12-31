@@ -1,18 +1,20 @@
 # Helm Kubernetes Tool
+
 1. [Helm](#helm)
 2. [Helm Plugins](#helm-plugins)
 3. [Helm Chart Documentation](#helm-chart-documentation)
-4. [Kubecrt](#kubecrt)
-5. [Datree](#datree)
-6. [Helm Charts repositories](#helm-charts-repositories)
-7. [Helm Charts](#helm-charts)
-8. [Shalm. Scriptable helm charts](#shalm-scriptable-helm-charts)
-9. [Helmfile](#helmfile)
-10. [Database Migrations](#database-migrations)
-11. [Helm Tools](#helm-tools)
-12. [Helm Books](#helm-books)
-13. [Videos](#videos)
-14. [Tweets](#tweets)
+4. [Helm Dashboard](#helm-dashboard)
+5. [Kubecrt](#kubecrt)
+6. [Datree](#datree)
+7. [Helm Charts repositories](#helm-charts-repositories)
+8. [Helm Charts](#helm-charts)
+9. [Shalm. Scriptable helm charts](#shalm-scriptable-helm-charts)
+10. [Helmfile](#helmfile)
+11. [Database Migrations](#database-migrations)
+12. [Helm Tools](#helm-tools)
+13. [Helm Books](#helm-books)
+14. [Videos](#videos)
+15. [Tweets](#tweets)
 
 ## Helm
 
@@ -105,12 +107,21 @@
 - [dev.to: HULL Tutorial 01: Introducing HULL, the Helm Universal Layer Library](https://dev.to/gre9ory/hull-tutorial-01-introducing-hull-the-helm-universal-layer-library-4njb)
 - [medium.com/@lasithih927: Helm on Kubernetes - Zero to Hero in 5 Minutes 🌟](https://medium.com/@lasithih927/helm-zero-to-hero-4cab17fac38e) A Helm cheat sheet for getting your desired application installed on a Kubernetes cluster with the config you need in no time. Even if you haven’t heard of Helm before! This will take you from zero to hero.
 - [==medium.com/codex: Simplifying Kubernetes Deployments With Helm Package Manager== 🌟](https://medium.com/codex/simplifying-kubernetes-deployments-with-helm-package-manager-bf834c51818d)
+- [==medium.com/geekculture: Helm — Advanced Commands== 🌟](https://medium.com/geekculture/helm-advanced-commands-9365097475b)
+- [levelup.gitconnected.com: Helm—Named Templates](https://levelup.gitconnected.com/helm-named-templates-de2efc3875d0) A deep dive into partial or subtemplates
+- [faun.pub: Helm — Template Actions, Functions, and Pipelines 🌟](https://faun.pub/helm-template-actions-functions-and-pipelines-16ed23ed336f) Overview of helm template actions, functions, and pipelines
+- [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values) Every now and then you’ll need to use the `--reset-values` and `--reuse-values` flags when running a Helm upgrade. Let's dive into how they actually work and also look at a gotcha when the values of a chart have changed in-between upgrades
+- [==blog.devops.dev: Stop cloning helm charts! Enough!== 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)
+- [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)
+- [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
+- [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) In this tutorial, you will learn the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
 
 ## Helm Plugins
 
 - [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
 - [Helm mapkubeapis Plugin](https://github.com/helm/helm-mapkubeapis) This is a Helm plugin which map deprecated or removed Kubernetes APIs in a release to supported APIs. __With kubernetes 1.22 dropping support for more beta APIs, you might be in need of a helmpack plugin to help you with that..__
 - [medium.com/@marc.khouzam: Shell completion for plugins with Helm 3.8](https://medium.com/@marc.khouzam/shell-completion-for-plugins-with-helm-3-8-7cb001012a54) (This post is mostly targeted towards helm plugin developers)
+- [JovianX/helm-release-plugin](https://github.com/JovianX/helm-release-plugin) Helm3 plugin that pulls(re-creates) helm Charts from deployed releases, and updates values of deployed releases without the chart.
 
 ## Helm Chart Documentation
 
@@ -122,6 +133,10 @@
 - [thenewstack.io: Applying Kubernetes Security Best Practices to Helm Charts 🌟](https://thenewstack.io/applying-kubernetes-security-best-practices-to-helm-charts/)
 - [medium: Highway to Helm: How to efficiently manage chart sources](https://medium.com/adevinta-tech-blog/highway-to-helm-how-to-efficiently-manage-chart-sources-f5749ba8031e) In this post, we’ll go through two ways to manage the source files of Helm charts, we’ll discuss the different factors that make one more suitable than the other, depending on your organisational structure, and we’ll provide guidance on choosing the right way to go by sharing what conditions are in favour of each of the two methods.
 
+## Helm Dashboard
+
+- [medium.com/geekculture: K8s — Helm Dashboard](https://medium.com/geekculture/k8s-helm-dashboard-d7509c5fee88) The missing UI of Helm
+
 ## Kubecrt
 
 - [Kubecrt](https://github.com/blendle/kubecrt)
@@ -132,6 +147,7 @@
 - https://github.com/datreeio/datree Prevent Kubernetes misconfigurations from reaching production (again 😤 )! __Datree__ is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies. See our docs: https://hub.datree.io/
 - [datree.io: How to build a Helm plugin in minutes](https://www.datree.io/resources/how-to-build-a-helm-plugin-in-minutes)
 - [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) Why policy management was the key to understanding Kubernetes and the DevOps pipeline.
+- [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree/)
 
 ## Helm Charts repositories
 
@@ -189,9 +205,13 @@ Kubernetes packages
 - [helm-changelog: Create changelogs for Helm Charts, based on git history](https://github.com/mogensen/helm-changelog)
 - [helm-scanner](https://github.com/bridgecrewio/helm-scanner/) Open source IaC security scanner for public Helm charts. Helm-scanner is a tool designed to automate discovering, templating, security scanning, then recording and providing easy access to the results for publicly available Helm charts
 - [helm-diff: Helm Diff Plugin](https://github.com/databus23/helm-diff)
-- [Helmsman: Helm Charts as Code](https://github.com/Praqma/helmsman) Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code.
+- [Helmsman: Helm Charts as Code 🌟](https://github.com/Praqma/helmsman) Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code.
     - [medium: Gitops using Helmsman to apply Helm Charts to k8s](https://medium.com/@marco.franssen/gitops-using-helmsman-to-apply-helm-charts-to-k8s-1a7217ced411)
 - [tellerops/helm-teller](https://github.com/tellerops/helm-teller) Helm Teller allows you to inject configuration and secrets from multiple providers into your chart while masking the secrets at the deployment
+- [sstarcher/helm-exporter](https://github.com/sstarcher/helm-exporter) Exports helm release, chart, and version statistics in the prometheus format.
+- [github.com/mumoshu/helm-x: Helm X Plugin](https://github.com/mumoshu/helm-x) Treat any Kustomization or K8s manifests directory as a Helm chart. No more "Kustomize vs Helm". Helm-x is a helm plugin that makes Helm better integrate with vanilla Kubernetes manifests, kustomize, and manual sidecar injections. With helm-x, you can install and sidecar-inject helm charts, manifests, kustomize apps in the same way.
+- [maorfr/helm-backup: Helm Backup Plugin](https://github.com/maorfr/helm-backup) Helm plugin which performs backup/restore of releases in a namespace to/from a file
+- [helmwave/helmwave](https://github.com/helmwave/helmwave) Helmwave is helm3-native tool for deploy your Helm Charts. HelmWave is like docker-compose for helm.
 
 ## Helm Books
 

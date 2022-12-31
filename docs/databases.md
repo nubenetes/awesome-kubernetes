@@ -1,4 +1,5 @@
 # Databases on Kubernetes. Database DevOps
+
 1. [Introduction](#introduction)
 2. [How to choose the right database for your service](#how-to-choose-the-right-database-for-your-service)
 3. [Database Load Balancer](#database-load-balancer)
@@ -12,32 +13,33 @@
 10. [Database Continuous Integration](#database-continuous-integration)
 11. [Databases on Kubernetes](#databases-on-kubernetes)
 12. [Database DevOps](#database-devops)
-13. [KubeDB Cloud Native Postgress Database](#kubedb-cloud-native-postgress-database)
-14. [Cockroach Cloud Native Database](#cockroach-cloud-native-database)
-15. [Operator Lifecycle Manager (OLM)](#operator-lifecycle-manager-olm)
-16. [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
-17. [Zalando PostgreSQL Operator](#zalando-postgresql-operator)
-18. [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
-19. [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
-20. [Oracle Database Operator for Kubernetes](#oracle-database-operator-for-kubernetes)
-21. [SQL Server](#sql-server)
-22. [MySQL](#mysql)
-23. [MariaDB](#mariadb)
-24. [PostgreSQL](#postgresql)
-25. [Percona MySQL](#percona-mysql)
-26. [Percona PostgreSQL Operator](#percona-postgresql-operator)
-27. [Redis](#redis)
-28. [Rockset](#rockset)
-29. [PysonDB](#pysondb)
-30. [Clickhouse](#clickhouse)
-31. [Apache Ignite](#apache-ignite)
-32. [Tools](#tools)
-33. [Time-Series Database](#time-series-database)
-34. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
-35. [Data Lakes](#data-lakes)
-36. [Graph Databases](#graph-databases)
-37. [Videos](#videos)
-38. [Tweets](#tweets)
+13. [Database Mesh](#database-mesh)
+14. [KubeDB Cloud Native Postgress Database](#kubedb-cloud-native-postgress-database)
+15. [Cockroach Cloud Native Database](#cockroach-cloud-native-database)
+16. [Operator Lifecycle Manager (OLM)](#operator-lifecycle-manager-olm)
+17. [Spilo PostgreSQL Operator](#spilo-postgresql-operator)
+18. [Zalando PostgreSQL Operator](#zalando-postgresql-operator)
+19. [Crunchy Data PostgreSQL Operator](#crunchy-data-postgresql-operator)
+20. [Oracle 12c on OpenShift Container Platform](#oracle-12c-on-openshift-container-platform)
+21. [Oracle Database Operator for Kubernetes](#oracle-database-operator-for-kubernetes)
+22. [SQL Server](#sql-server)
+23. [MySQL](#mysql)
+24. [MariaDB](#mariadb)
+25. [PostgreSQL](#postgresql)
+26. [Percona MySQL](#percona-mysql)
+27. [Percona PostgreSQL Operator](#percona-postgresql-operator)
+28. [Redis](#redis)
+29. [Rockset](#rockset)
+30. [PysonDB](#pysondb)
+31. [Clickhouse](#clickhouse)
+32. [Apache Ignite](#apache-ignite)
+33. [Tools](#tools)
+34. [Time-Series Database](#time-series-database)
+35. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
+36. [Data Lakes](#data-lakes)
+37. [Graph Databases](#graph-databases)
+38. [Videos](#videos)
+39. [Tweets](#tweets)
 
 ## Introduction
 
@@ -79,6 +81,12 @@
 - [==architecturenotes.co: Things You Should Know About Databases==](https://architecturenotes.co/things-you-should-know-about-databases/) This is the first post in a series called Things You Should Know. Think of it as a primer to level set from base principles on various topics. Today we are discussing databases!
 - [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy/)
 - [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959) 90% of the customers believe it is ready for stateful workloads, and a large majority (70%) are running them in production with databases topping the list. Companies report significant benefits to standardization, consistency, and management as key drivers.
+- [thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022](https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022/) More than three in four participants in the new Data on Kubernetes survey now acknowledge the use of databases on Kubernetes, up from 50% in 2021.
+- [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)
+- [==medium.com/javarevisited: Top Performance issues every developer/architect must know — part 1-Database==](https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b)
+- [infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases](https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere/)
+- [==dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every programmer must know==](https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af) In this article, we looked at what is Database connection and its life cycle. Then we saw the drawbacks of creating connections on the fly and then saw the need to use a Database Connection Pool. We also looked at the design patterns on where to place the connection pool. We have then looked at the performance issues that can arise from the Database connection pool and concluded the article by looking at the common connection pool frameworks used in Java.
+- [==medium.com/fintechexplained: What Is Database Sharding?==](https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97) Learn How Splitting Database Across Multiple Machines Improves Performance By Processing Requests In Parallel For High Volume Applications
 
 ## How to choose the right database for your service
 
@@ -162,6 +170,10 @@
 - [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/devops/can-enterprises-benefit-from-adopting-database-devops/a/d-id/1337238)
 - [medium: DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)
 
+## Database Mesh
+
+- [medium.com/@database-mesh: Database Mesh 2.0: Database Governance in a Cloud Native Environment](https://medium.com/@database-mesh/database-mesh-2-0-database-governance-in-a-cloud-native-environment-3e41f0f2722c) This article reviews the background of Database Mesh, reexamines the value of Database Mesh 1.0, and introduces the new concepts, ideas, and features of Database Mesh 2.0. It also attempts to explore the future of Database Mesh
+
 ## KubeDB Cloud Native Postgress Database
 
 - [kubedb.com](https://kubedb.com/) Run production-grade databases easily on Kubernetes
@@ -170,6 +182,7 @@
 
 - [Wikipedia: CockroachDB](https://en.wikipedia.org/wiki/Cockroach_Labs) is a project that is designed to store copies of data in multiple locations in order to deliver speedy access. It is described as a scalable, consistently-replicated, transactional datastore.
 - [==Cockroach==](https://www.cockroachlabs.com/docs/stable/orchestration.html)
+- [cockroachlabs.com: Automated database operations with Terraform](https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform/)
 
 ## Operator Lifecycle Manager (OLM)
 
@@ -258,6 +271,7 @@
 - [==adamtheautomator.com: How to Deploy Postgres to Kubernetes== 🌟](https://adamtheautomator.com/postgres-to-kubernetes/) In this step-by-step tutorial, you will learn how to securely deploy Postgres to Kubernetes using two methods:
     - Helm charts
     - YAML configurations
+- [purnapoudel.blogspot.com: How to Configure PostgreSQL with SSL/TLS support on Kubernetes](https://purnapoudel.blogspot.com/2018/09/how-to-configure-postgresql-with-ssl-tls-on-kubernetes.html) This tutorial describes detailed steps to deploy PostgreSQL on Kubernetes with SSL/TLS support using PersistentVolume, configMap, and secrets along with possible issues, troubleshooting steps and work-around.
 
 ## Percona MySQL
 
@@ -362,5 +376,9 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes Database Operator is useful for building scalable database servers as a database cluster. But migrating existing databases to k8s requires a lot of manual work due to having to create new artifacts.<br><br>At our next meetup, we&#39;ll demo an open-source tool to solve this. <a href="https://t.co/o55vnyITV2">pic.twitter.com/o55vnyITV2</a></p>&mdash; konveyor.io (@Konveyor_io) <a href="https://twitter.com/Konveyor_io/status/1489597744213897218?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Surprising number of devs today don&#39;t seem to know how to write their own database schemas. Is SQL really that out of fashion?</p>&mdash; Joyce Park (@troutgirl) <a href="https://twitter.com/troutgirl/status/1510050777015889923?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It is often surprising how little is known about how databases operate at a surface level, considering they store almost all of the states in our applications. Things You Should Know About Databases. <a href="https://t.co/SAX5wHaS3m">pic.twitter.com/SAX5wHaS3m</a></p>&mdash; Architecture Notes (@arcnotes) <a href="https://twitter.com/arcnotes/status/1585651294487728128?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Partitioning is the process of storing a large database across multiple machines.<br><br>Here are the popular partitioning architectures with their benefits and costs: {1/8} ↓ <a href="https://t.co/85JdhcISJq">pic.twitter.com/85JdhcISJq</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1604131437430689796?ref_src=twsrc%5Etfw">December 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

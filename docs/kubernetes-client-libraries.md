@@ -6,8 +6,8 @@
 4. [Java Clients for Kubernetes](#java-clients-for-kubernetes)
     1. [Official Java client library for kubernetes](#official-java-client-library-for-kubernetes)
     2. [Fabric8 Java Client for Kubernetes](#fabric8-java-client-for-kubernetes)
-5. [CDK8s Python](#cdk8s-python)
-6. [Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins](#eclipse-jkube-java-client-for-kubernetes-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
+5. [CDK8s](#cdk8s)
+6. [Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes \& OpenShift Maven Plugins](#eclipse-jkube-java-client-for-kubernetes-formerly-known-as-fabric8-kubernetes--openshift-maven-plugins)
 7. [Java Operator SDK](#java-operator-sdk)
 
 ## Kubernetes Client Libraries
@@ -29,6 +29,7 @@
 - [kyaml2go (Pronounced as camel2go 🐫) 🌟](https://github.com/PrasadG193/kyaml2go) K8s Go client code generator from Kubernetes resource yamls.
 - [itnext.io: Writing a Kubernetes CLI in Go](https://itnext.io/writing-a-kubernetes-cli-in-go-a3970ad58299)
 - [blog.devgenius.io: Learn Kubernetes Programming — Part 1](https://blog.devgenius.io/learn-kubernetes-programming-part-1-7384e5f3c481) Learn to programmatically talk to the Kubernetes cluster using the Official Client Go Library. In this tutorial, you'll learn how to build a simple CLI that connects to the Kubernetes cluster and displays the server version. In the process, you will learn Go and the client-go package.
+- [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli/) Build You Own kubectl The Simple Way. Learn how to use the http://k8s.io/cli-runtime library to develop Kubernetes CLI tools that behave like and are as potent as the mighty kubectl.
 
 ## Python Client for Kubernetes
 
@@ -61,10 +62,11 @@
 - [blog.marcnuri.com: Fabric8 Kubernetes Client for Java introduction](https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction) 
 - [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm) 
 
-## CDK8s Python
+## CDK8s
 
 - [cdk8s](https://github.com/cdk8s-team/cdk8s) Define Kubernetes native apps and abstractions using object-oriented programming
 - [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python) CDK8S is an alpha level library that allows you to write high level abstractions of Kubernetes objects like deployments, services, and more all in your favorite language ( TypeScript, Python, and others).
+- [qdnqn.com: Kubernetes objects from Go to YAML using Cdk8s](https://qdnqn.com/create-kubernetes-yaml-definitions-using-go-and-cdk8s/) Cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
 
 ## Eclipse Jkube Java Client for Kubernetes (formerly known as Fabric8). Kubernetes & OpenShift Maven Plugins
 

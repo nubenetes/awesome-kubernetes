@@ -9,6 +9,7 @@
     3. [Ballerina](#ballerina)
     4. [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
     5. [Dhall Configuration Language](#dhall-configuration-language)
+    6. [DDEV](#ddev)
 5. [AI Programming](#ai-programming)
 6. [No code tools](#no-code-tools)
 7. [Images](#images)
@@ -88,6 +89,11 @@
 - [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org/) - Dhall is a programmable configuration language that you can think of as: JSON + functions + types + imports
 - https://github.com/dhall-lang/dhall-kubernetes Typecheck, template and modularize your Kubernetes definitions with Dhall
 
+### DDEV
+
+- [==ddev.com==](https://ddev.com/) Meet your new local development environment. DDEV simplifies integrating the power and consistency of containerization into your workflows. Set up environments in minutes; switch contexts and projects quickly and easily; speed your time to deployment. We handle the complexity. You get on with the valuable part of your job.
+- [==opensource.com: 16 reasons DDEV will be your new favorite web development environment==](https://opensource.com/article/22/12/ddev) What's so different about DDEV? It's a container-based local web development environment. An open source tool for launching local PHP, Node.js, and HTML/JS development environments in minutes.
+
 ## AI Programming
 
 - [GitHub Copilot](https://copilot.github.com/)
@@ -133,5 +139,9 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵 The Ultimate TypeScript Thread 🧵<br><br>Here&#39;s everything I&#39;ve learned from leading TS dev teams and working on XState&#39;s core team.<br><br>My goal is to turn you into a TypeScript wizard.<br><br>And yes, this thread is EVERGREEN - I&#39;ll add at least 3 more tips a week 🚀<br><br>Let&#39;s get started.</p>&mdash; Matt Pocock (@mpocock1) <a href="https://twitter.com/mpocock1/status/1509964736275927042?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">100+ data structure algorithms problems<br>1. Array - <a href="https://t.co/tXqrvpJO3S">https://t.co/tXqrvpJO3S</a><br>2. String - <a href="https://t.co/tXqrvpJO3S">https://t.co/tXqrvpJO3S</a><br>3. Binary tree - <a href="https://t.co/fsi40ENQRL">https://t.co/fsi40ENQRL</a><br>4. Linked List - <a href="https://t.co/iuItMZrvTA">https://t.co/iuItMZrvTA</a><br>5. Dynamic Programming - <a href="https://t.co/qYKjmZseXr">https://t.co/qYKjmZseXr</a><br>6. Recursion - <a href="https://t.co/4R3eODO4iL">https://t.co/4R3eODO4iL</a> <a href="https://t.co/G8QLbYF2Y0">pic.twitter.com/G8QLbYF2Y0</a></p>&mdash; javinpaul (@javinpaul) <a href="https://twitter.com/javinpaul/status/1556177883764142080?ref_src=twsrc%5Etfw">August 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">5 GitHub repositories will make you feel like an expert developer:</p>&mdash; Pratham (@Prathkum) <a href="https://twitter.com/Prathkum/status/1583817955061956610?ref_src=twsrc%5Etfw">October 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Data structures and algorithms are important for any software developer.<br><br>Sometimes loved, more often dreaded, but at the core of our craft.<br><br>Here is an introduction to the most important data structures, including learning resources:</p>&mdash; Oliver Jumpertz (@oliverjumpertz) <a href="https://twitter.com/oliverjumpertz/status/1603790282910228481?ref_src=twsrc%5Etfw">December 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

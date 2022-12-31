@@ -75,6 +75,7 @@
 - [toolbox.com: Site Reliability Engineering: What Is It and How Can It Help Scale Operations? 🌟](https://www.toolbox.com/tech/devops/articles/automating-sre-to-scale-operations/) Site Reliability Engineering (SRE) is an essential task that bridges the gap between developers and operations. Here’s how organizations can refine it further by leveraging automation.
 - [==devops.com: SRE Vs. Platform Engineering: What’s the Difference?==](https://devops.com/sre-vs-platform-engineering-whats-the-difference/)
 - [==cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller than you think==](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think/)
+- [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer; Substance or Semantics?](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
 
 ## SRE Tools
 

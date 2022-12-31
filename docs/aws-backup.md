@@ -16,6 +16,7 @@
 - [Backup and archive to AWS Storage Gateway VTL with Veeam Backup & Replication v9](https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/)
 - [Creating Disaster Recovery Mechanisms Using Amazon Route 53 🌟](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-disaster-recovery-mechanisms-using-amazon-route-53/)
     - [Disaster recovery with AWS managed services, Part 2: Multi-Region/backup and restore 🌟](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-ii-multi-region-backup-and-restore/)
+- [dev.to: Best way to Automate AWS EBS Snapshots (without scripts)](https://dev.to/aws-builders/how-to-automate-aws-ebs-snapshots-54og)
 
 ## AWS Backup Service
 

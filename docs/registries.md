@@ -145,3 +145,5 @@
 ## Other Alternatives
 
 - [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
+- [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) In this tutorial, you'll deploy a TLS-enabled Private Docker Registry as a Pod. This will help you to push your custom-built images to the registry, which later can be pulled by any of the worker nodes.
+

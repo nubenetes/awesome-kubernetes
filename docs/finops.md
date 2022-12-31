@@ -39,6 +39,9 @@
     - get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿
     - set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀
     - understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?
+- [hystax.com: The difference between cloud cost management and FinOps](https://hystax.com/the-difference-between-cloud-cost-management-and-finops/)
+- [infoworld.com: Are we experiencing cloudflation?](https://www.infoworld.com/article/3674048/are-we-experiencing-cloudflation.html) The sticker shock of cloud computing bills has many in the C-suite looking for answers. A solid finops program can close the budget holes and pay for itself.
+- [edgebricks.com: Why Public Clouds Get So Expensive Over Time 🌟](https://edgebricks.com/why-public-clouds-get-so-expensive-over-time/)
 
 ## Compute Cost Calculator
 
@@ -53,6 +56,9 @@
 ## Kubernetes Cost Optimization
 
 - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)
+- [==learnk8s/xlskubectl==](https://github.com/learnk8s/xlskubectl) A spreadsheet to control your Kubernetes cluster. xlskubectl integrates Google Spreadsheet with Kubernetes. You can finally administer your cluster from the same spreadsheet that you use to track your expenses.
+- [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) In this article, you will learn how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
+- [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 
 ## Licence Managers
 
@@ -67,6 +73,8 @@
 - [Cloud FinOps O’Reilly Book](https://www.finops.org/cloud-finops-oreilly-book/)
 
 ## Kubernetes Governance and Cost Management for the Cloud-Native Enterprise
+
+- [medium.com/compass-true-north: Halving Kubernetes Compute Costs With Vertical Pod Autoscaler](https://medium.com/compass-true-north/halving-kubernetes-compute-costs-with-vertical-pod-autoscaler-df658c043301) In this article, you'll learn how the team at Compass managed to reduce the need for over 50 per cent of the total nodes in each cluster (halving their compute costs) by using the vertical pod autoscaler
 
 ### Replex
 
@@ -88,4 +96,6 @@
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What is FinOps Architect job in Cloud?<br>This has got very popular on Public cloud to manage companies - Cloud Financial Management. <br><br>Here&#39;s how you can be a Cloud FinOps Consultant<br>🧵1/?<br>1. Learn architecture well</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1498705725874483205?ref_src=twsrc%5Etfw">March 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🏗 AWS Tip 💛<br><br>Avoid billing surprises 💸<br><br>• 𝗿𝗲𝘃𝗶𝗲𝘄 𝗰𝗼𝘀𝘁𝘀 (bi-)weekly<br>• get familiar with 𝗔𝗪𝗦 𝗖𝗼𝘀𝘁 𝗲𝘅𝗽𝗹𝗼𝗿𝗲𝗿<br>• set up 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗮𝗹𝗲𝗿𝘁𝘀<br>• understand your cost 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲: which services contribute significantly to your costs?</p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1551934589945450501?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</center>
+	
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Kubernetes, are there hidden costs to running many cluster nodes?<br><br>Let me explain… (spoiler: yes) <a href="https://t.co/ErYdu8JR5E">pic.twitter.com/ErYdu8JR5E</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1584893971544915968?ref_src=twsrc%5Etfw">October 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>

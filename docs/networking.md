@@ -9,6 +9,9 @@
     4. [HTTP Structured Fields](#http-structured-fields)
 4. [Container Networking](#container-networking)
 5. [Load Balancing](#load-balancing)
+6. [DNS](#dns)
+7. [Images](#images)
+8. [Tweets](#tweets)
 
 ## Introduction
 
@@ -41,7 +44,7 @@
 
 - [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)
-- [http.cat 🌟](https://http.cat) 
+- [http.cat 🌟](https://http.cat)
 
 ### HTTP/2
 
@@ -81,3 +84,23 @@
 ## Load Balancing
 
 - [harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7](https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c)
+
+## DNS
+
+- [==media.pearsoncmg.com: Recursive/Iterative Queries in DNS==](https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/recursive-iterative-queries-in-dns/index.html) In Chapter 2 of the text the authors give examples of recursive and iterative DNS queries. This DNS interactive animation animates additional combinations of iterative and recursive queries among four name servers.
+
+## Images
+
+??? note "Click to expand!"
+
+	<center>
+    ![how does https work](images/how_does_https_work.png)
+	</center>
+
+## Tweets
+
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">List of HTTP Status Codes Cheat Sheet: <a href="https://t.co/1m8gci63Vs">pic.twitter.com/1m8gci63Vs</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607231830662733826?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>

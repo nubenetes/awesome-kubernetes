@@ -12,27 +12,30 @@
 9. [Configuration Drift](#configuration-drift)
     1. [Drift Detection Tools](#drift-detection-tools)
 10. [DevOps Docs](#devops-docs)
-11. [Serverless DevOps](#serverless-devops)
-12. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
-13. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-14. [Xebia Labs and DevOps](#xebia-labs-and-devops)
-15. [DevOps Tools](#devops-tools)
-16. [Netflix and DevOps](#netflix-and-devops)
-17. [Public Cloud DevOps](#public-cloud-devops)
-    1. [AWS DevOps](#aws-devops)
-    2. [Azure DevOps](#azure-devops)
-    3. [Google Cloud Platform](#google-cloud-platform)
-18. [NoOps](#noops)
-19. [NetOps](#netops)
-20. [PlatformOps](#platformops)
-21. [GPT 3 Tools](#gpt-3-tools)
-22. [Data as Code](#data-as-code)
-23. [DevOps for SAP](#devops-for-sap)
-24. [Youtube Playlists](#youtube-playlists)
-25. [Bunch of Images](#bunch-of-images)
-26. [Slides](#slides)
-27. [Videos](#videos)
-28. [Tweets](#tweets)
+11. [DORA metrics](#dora-metrics)
+12. [DevOps Roadmap](#devops-roadmap)
+13. [Serverless DevOps](#serverless-devops)
+14. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+15. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
+16. [Xebia Labs and DevOps](#xebia-labs-and-devops)
+17. [DevOps Tools](#devops-tools)
+18. [Netflix and DevOps](#netflix-and-devops)
+19. [Public Cloud DevOps](#public-cloud-devops)
+     1. [AWS DevOps](#aws-devops)
+     2. [Azure DevOps](#azure-devops)
+     3. [Google Cloud Platform](#google-cloud-platform)
+20. [NoOps](#noops)
+21. [NetOps](#netops)
+22. [PlatformOps](#platformops)
+23. [GPT 3 Tools](#gpt-3-tools)
+24. [Data as Code](#data-as-code)
+25. [DevOps for SAP](#devops-for-sap)
+26. [Youtube Playlists](#youtube-playlists)
+27. [Platform Engineering](#platform-engineering)
+28. [Bunch of Images](#bunch-of-images)
+29. [Slides](#slides)
+30. [Videos](#videos)
+31. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
@@ -52,12 +55,15 @@
 - [devblogs.microsoft.com: DevOps Dojo – Culture and Mindset](https://devblogs.microsoft.com/devops/devops-dojo-culture-and-mindset/)
 - [devops.com: The DevOps Journey: Continuous Mindset Starts With Cultural Change](https://devops.com/the-evolving-devops-journey-continuous-mindset-starts-with-cultural-change/)
 - [==dzone.com/trendreports/devops-3: DevOps==](https://dzone.com/trendreports/devops-3) CI/CD and Application Release Orchestration. With the need for companies to deliver capabilities faster, it has become increasingly clear that DevOps is a practice that many enterprises must adopt (if they haven’t already). A strong CI/CD pipeline leads to a smoother release process, and a smoother release process decreases time to market. In DZone’s "DevOps: CI/CD and Application Release Orchestration" Trend Report, we provide insight into how CI/CD has revolutionized automated testing, offer advice on why an SRE is important to CI/CD, explore the differences between managed and self-hosted CI/CD, and much more. The goal of this Trend Report is to offer guidance to our global audience of DevOps Engineers, Automation Architects, and all those in between on how to best adopt DevOps practices to help scale the productivity of their teams.
-- [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success/) 
+- [thenewstack.io: Automation Is No Silver Bullet: 3 Keys for Scaling Success](https://thenewstack.io/automation-is-no-silver-bullet-3-keys-for-scaling-success/)
 - [yourdevopsmentor.com: How to become a DevOps engineer – 5 easy steps](https://yourdevopsmentor.com/blog/how-to-become-a-devops-engineer/)
 - [devops.com: Why MTTR is a Vital Metric for DevOps Teams](https://devops.com/why-mttr-is-a-vital-metric-for-devops-teams/)
 - [umbrellainfocare.com: Cloud and DevOps are Made for Each Other](https://www.umbrellainfocare.com/blogs/cloud-and-devops-are-made-for-each-other)
 - [guru99.com: DevOps Lifecycle: Different Phases Explained with Examples 🌟](https://www.guru99.com/devops-lifecycle.html)
 - [linkedin.com/pulse: Is DevOps just system administration repackaged?](https://www.linkedin.com/pulse/devops-just-system-administration-repackaged-gianluca-mascolo/)
+- [devops.com: Home » Blogs » A DevOps Reset for a Multi-Cloud World](https://devops.com/a-devops-reset-for-a-multi-cloud-world/)
+- [medium.com/@polatatc: Terraform; the most demanded DevOps skill!](https://medium.com/@polatatc/terraform-the-most-demanded-devops-skill-88c461641e7b)
+- [dev.to: DevOps Trends for Developers in 2023 | Pavan Belagatti](https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b)
 
 ## Automation Glossary
 
@@ -116,6 +122,7 @@
     - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
 - [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
 - [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops/)
+- [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/3673891/5-best-practices-for-securing-cicd-pipelines.html) Build in security from the beginning with continuous testing, automation, zero trust, and AIops.
 
 ## Configuration Drift
 
@@ -175,7 +182,6 @@
 - [cloudsavvyit.com: A Beginner’s Introduction To DevOps Principles](https://www.cloudsavvyit.com/3233/a-beginners-introduction-to-devops-principles/)
 - [learnsteps.com: DevOps Interview Question: How will you set up a CI/CD pipeline? 🌟](https://www.learnsteps.com/devops-interview-question-how-will-you-set-up-a-ci-cd-pipeline/)
 - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
-- [medium: The Complete DevOps RoadMap 🌟](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb) An illustrated guide to becoming a DevOps Engineer with links to relevant courses
 - [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) CEO Sacha Labourey: 'DevOps is a pretty good proxy for what needs to happen in any organisation'
 - [devopscurry.com: DevOps vs Agile – understanding the difference 🌟](https://devopscurry.com/devops-vs-agile-understanding-the-difference/)
 - [acloudguru.com: 5 Reasons to NOT Move to DevOps 🌟](https://acloudguru.com/blog/engineering/5-reasons-to-not-move-to-devops)
@@ -221,7 +227,6 @@
 - [thenewstack.io: Maximizing the Value of Containerization for DevOps](https://thenewstack.io/maximizing-the-value-of-containerization-for-devops/)
 - [opensource.com: A DevOps guide to documentation](https://opensource.com/article/21/3/devops-documentation) Bring your documentation writing into the DevOps lifecycle.
 - [infoq.com: DevOps is Not Enough for Scaling and Evolving Tech-Driven Organizations: a Q&A with Eduardo da Silva](https://www.infoq.com/articles/devops-not-enough-scaling-tech-driven-organizations/)
-- [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
 - [infoworld.com: 5 devops practices to improve application reliability](https://www.infoworld.com/article/3613155/5-devops-practices-to-improve-application-reliability.html)
 - [devops.com: Languages and DevOps: Recommendations](https://devops.com/languages-and-devops-recommendations/)
 - [devops.com: Survey Shows Mounting DevOps Frustration and Costs](https://devops.com/survey-shows-mounting-devops-frustration-and-costs/)
@@ -277,6 +282,11 @@
 - [==dev.to: How I learn new technologies as a DevOps Engineer (without being overwhelmed 👏) | TechWorld with Nana==](https://dev.to/techworld_with_nana/how-i-learn-new-technologies-as-a-devops-engineer-without-being-overwhelmed--495e)
 - [medium.com/@hunkarbozkurt: What is DevOps? How Was DevOps Derived?](https://medium.com/@hunkarbozkurt/what-is-devops-how-was-devops-derived-660ef47d42d6)
 - [blog.devops.dev: Devops Best Practices for Continuous Delivery 🌟](https://blog.devops.dev/devops-best-practices-for-continuous-delivery-2f0ebbae65c6)
+- [devops.com: he Real Pipeline](https://devops.com/the-real-pipeline/) Your toolchains need to include stability and security tools.
+- [information-age.com: DevOps vs Agile: distinguishing and combining the two](https://www.information-age.com/devops-vs-agile-distinguishing-and-combining-the-two-20117/)
+- [medium.com/@devfire: How To Become a DevOps Engineer In Six Months or Less, Part 6: Observe](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-part-7-monitor-47c61aea0bf7)
+- [rcls.medium.com: Stop calling yourselves DevOps engineers](https://rcls.medium.com/stop-calling-yourselves-devops-engineers-f9dfec382d0d)
+- [enterprisersproject.com: DevOps: Why shift left goes wrong](https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong) The shift-left approach helps development teams make software better and faster. So why hasn't it caught on - and how can you beat the barriers to success?
 
 <center>
 
@@ -284,6 +294,21 @@
 
 [![devops tools dzone](images/devops_tools_dzone.png)](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 </center>
+
+## DORA metrics
+
+- [dynatrace.com: 9 key DevOps metrics for success - What are the four main DevOps metrics? DORA’s Four Keys](https://www.dynatrace.com/news/blog/devops-metrics-for-success/)
+    1. Deployment frequency
+    2. Lead time for changes
+    3. Change failure rate
+    4. Mean time to restore service
+- [medium.com/keptn: DORA metrics: automatically, for all your Kubernetes workloads](https://medium.com/keptn/dora-metrics-automatically-for-all-your-kubernetes-workloads-42225f4b8515) DORA’s Four Key DevOps metrics have gained much attention as they provide critical insights into an organization’s maturity in automating the delivery of high-quality software. And rightfully so: According to the previous State of DevOps reports, organizations with higher successful deployment frequency have more business success in their market and tend to retain technical talent longer. But getting those insights can sometimes be tricky and cause even more manual work. How can you extract DORA metrics more efficiently?
+
+## DevOps Roadmap
+
+- [medium: The Complete DevOps RoadMap 🌟](https://medium.com/hackernoon/the-2018-devops-roadmap-31588d8670cb) An illustrated guide to becoming a DevOps Engineer with links to relevant courses
+- [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
+- [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap) A step by step guide outlining the most efficient path to become a DevOps engineer
 
 ## Serverless DevOps
 
@@ -325,7 +350,7 @@
 
 - [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
 
-###  Google Cloud Platform
+### Google Cloud Platform
 
 - [cloud.google.com: DevOps](https://cloud.google.com/devops)
 - [Cloud Developer Tools](https://cloud.google.com/products/tools)
@@ -368,7 +393,16 @@ Resolve your software incidents 10x faster
 - [youtube playlist: DevOps - SonarQube, Artifactory, JFrog, Jenkins, Maven, etc 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akoYTAboxT1AbHlPmrvRYYZ)
 - [youtube playlist: Docker 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc)
 - [youtube playlist: Ansible 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)
-- [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h) 
+- [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)
+
+## Platform Engineering
+
+- [==honeycomb.io: The Future of Ops Is Platform Engineering== 🌟](https://www.honeycomb.io/blog/future-ops-platform-engineering) Platform engineers vs. DevOps engineers
+- [thenewstack.io: DevOps Burnout? Try Platform Engineering](https://thenewstack.io/devops-burnout-try-platform-engineering/) Internal developer platforms might be part of the solution by reducing repetitive and manual work and cognitive load.
+- [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering/)
+- [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre/) Platform engineering is the next stage of evolution. Like DevOps, it enables developer self-service. Like SRE, it reduces errors and increases reliability.
+- [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4/) TLTR: We have reached a point where the adoption and understanding of Kubernetes and Kubernetes tools are mature enough to start hiding them away from the teams consuming them. This blog post explores some of the approaches different development tools take to provide a better and simplified experience for developers while allowing platform teams to curate the resources these tools use and how they behave.
+- [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/) Developer platforms won't eliminate DevOps but will prioritize developer experience.
 
 ## Bunch of Images
 
@@ -469,6 +503,8 @@ Resolve your software incidents 10x faster
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Few things you must absolutely know about DevOps<br>1⃣ DevOps is a software development lifecycle (SDLC) approach which involves<br>🧩Continuous integration<br>🧪Continuous testing<br>🚚Continuous Delivery<br>🛫Continuous deployment<br>🔎Continuous monitoring <br>throughout its development phase. <br>🧵 <a href="https://t.co/I38Ntqryeq">pic.twitter.com/I38Ntqryeq</a></p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1496433970183090182?ref_src=twsrc%5Etfw">February 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interview on Austrian TV 😊 Talked about how we started our YouTube channel, as a temporary side project, which turned into this amazing and fulfilling job of educating people in DevOps engineering 💙<br>.<br>Full interview on <a href="https://twitter.com/4Gamechanger?ref_src=twsrc%5Etfw">@4Gamechanger</a>: <a href="https://t.co/3jViGROFTP">https://t.co/3jViGROFTP</a>😊<a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/youtube?src=hash&amp;ref_src=twsrc%5Etfw">#youtube</a> <a href="https://t.co/FIb8DubPup">pic.twitter.com/FIb8DubPup</a></p>&mdash; TechWorld with Nana | DevOps 🚀 (@Njuchi_) <a href="https://twitter.com/Njuchi_/status/1505151354607656961?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master DevOps, watch these YouTube videos:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1590615976558485508?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

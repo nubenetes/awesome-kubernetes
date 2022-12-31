@@ -18,6 +18,7 @@
 - [Amazon DevOps Guru](https://aws.amazon.com/devops-guru/) ML-powered cloud operations service to improve application availability
     - [infoq.com: AWS Launches Amazon DevOps Guru](https://www.infoq.com/news/2021/01/aws-devops-guru/)
 - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91) In this tutorial, I would like to explain to you how to create an AWS CodePipeline for ECS with a Blue/green deployment type.
+- [aws.amazon.com: Multi-branch pipeline management and infrastructure deployment using AWS CDK Pipelines](https://aws.amazon.com/blogs/devops/multi-branch-pipeline-management-and-infrastructure-deployment-using-aws-cdk-pipelines/)
 
 ## Continuous Deployment with AWS
 

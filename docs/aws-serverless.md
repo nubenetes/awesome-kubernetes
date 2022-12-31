@@ -47,6 +47,17 @@
 - [medium.com/awesome-cloud: AWS — Difference between Serverless (Lambda) and Containers (Kubernetes)](https://medium.com/awesome-cloud/aws-difference-between-serverless-lambda-and-containers-kubernetes-serverless-vs-containers-lambda-vs-k8s-a166931870a2)
 - [aws.amazon.com: Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC)](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac/)
 - [aws.amazon.com: Understanding AWS Lambda scaling and throughput](https://aws.amazon.com/blogs/compute/understanding-aws-lambda-scaling-and-throughput/)
+- [How to enforce user quota on AWS AppSync with Lambda Authorizer](https://aws.amazon.com/blogs/mobile/how-to-enforce-user-quota-on-aws-appsync-with-lambda-authorizer/) API Quotas define the valid amount of calls available for a consumer during a specific amount of time. Enforcing quotas protects your API from unintentional abuse, minimizes data exfiltration and protects your resources from excessive usage. Beyond the mentioned security benefits, it can also unlock your capabilities to monetize the digital assets sitting behind the API.
+- [aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services](https://aws.plainenglish.io/lets-design-a-serverless-etl-pipeline-with-aws-services-9ab88c95afd4)
+- [theserverlessmindset.com: Choosing the Best Database for Your Serverless Project](https://www.theserverlessmindset.com/p/best-serverless-database) It comes down to a few options, and one of them is the best (but your prior experience may change that)
+- [aidansteele/secretsctx](https://github.com/aidansteele/secretsctx) secretsctx is a Lambda extension (packaged as a Lambda layer) that injects secret values from AWS Parameter Store and AWS Secrets Manager into your Lambda function's invocation "context".
+- [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12)
+- [aws.amazon.com: New – Accelerate Your Lambda Functions with Lambda SnapStart](https://aws.amazon.com/blogs/aws/new-accelerate-your-lambda-functions-with-lambda-snapstart/)
+- [infoworld.com: AWS Lambda kickstarts Java functions](https://www.infoworld.com/article/3681549/aws-lambda-kickstarts-java-functions.html) AWS Lambda SnapStart cuts Java startup times by initializing Java functions ahead of time and caching a snapshot of the initialized execution environment.
+- [medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con serverless-offline](https://medium.com/@dan.avila7/prueba-tus-proyectos-serverless-de-forma-local-con-serverless-offline-2e555f2b5e9b) En este artículo veremos como instalar y configurar el plugin serverless-offline con sls framework para realizar pruebas locales de las funciones lambda antes de realizar el deploy en AWS.
+- [tutorialsdojo.com: Real-time Monitoring of 5XX Errors using AWS Lambda, CloudWatch Logs and Slack](https://tutorialsdojo.com/real-time-monitoring-of-5xx-errors-using-aws-lambda-cloudwatch-logs-slack/)
+- [dev.to: Go fast and reduce risk: using CDK to deploy your serverless applications on AWS](https://dev.to/aws-builders/go-fast-and-reduce-risk-using-cdk-to-deploy-your-serverless-applications-on-aws-2i3k)
+- [awstip.com: Tips for keeping your Lambda functions secure](https://awstip.com/tips-for-keeping-your-lambda-functions-secure-25349dd5d9df)
 
 ## AWS Fargate
 

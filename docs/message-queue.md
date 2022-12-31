@@ -31,23 +31,24 @@
     7. [Apache Pulsar](#apache-pulsar)
     8. [Apache Flink](#apache-flink)
     9. [Hazelcast JET](#hazelcast-jet)
+    10. [Postgress as message queue](#postgress-as-message-queue)
 9. [Workflow Engines](#workflow-engines)
-10. [Zeebe](#zeebe)
-    1. [Apache Airflow](#apache-airflow)
-    2. [Couler](#couler)
-11. [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
-    1. [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
-    2. [Red Hat AMQ Streams](#red-hat-amq-streams)
-    3. [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
-12. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
-13. [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
-14. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
-    1. [IpaaS Vendors](#ipaas-vendors)
-15. [eBooks](#ebooks)
-16. [Related](#related)
-17. [Questions and Answers](#questions-and-answers)
-18. [Videos](#videos)
-19. [Tweets](#tweets)
+    1. [Zeebe](#zeebe)
+    2. [Apache Airflow](#apache-airflow)
+    3. [Couler](#couler)
+10. [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
+     1. [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
+     2. [Red Hat AMQ Streams](#red-hat-amq-streams)
+     3. [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
+11. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
+12. [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
+13. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
+     1. [IpaaS Vendors](#ipaas-vendors)
+14. [eBooks](#ebooks)
+15. [Related](#related)
+16. [Questions and Answers](#questions-and-answers)
+17. [Videos](#videos)
+18. [Tweets](#tweets)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
 
@@ -72,7 +73,7 @@
 - [dzone: Why Pub/Sub Isn’t Enough for Modern Apps](https://dzone.com/articles/why-pubsub-isnt-enough-for-modern-apps) Pub/Sub is the most appropriate way of architecting the delivery side of an event-driven architecture (especially for the web).
 - [baeldung.com: Pub-Sub vs. Message Queues 🌟](https://www.baeldung.com/pub-sub-vs-message-queues)
 - [engineering.atspotify.com: Spotify’s Event Delivery – The Road to the Cloud (Part I)](https://engineering.atspotify.com/2016/02/25/spotifys-event-delivery-the-road-to-the-cloud-part-i/)
-- [medium: Monolithic to Microservices Architecture with Patterns & Best Practices 🌟](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)
+- [==medium: Monolithic to Microservices Architecture with Patterns & Best Practices== 🌟](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)
 - [infoq.com: Turning Microservices Inside-Out](https://www.infoq.com/articles/microservices-inside-out/)
 - [towardsdatascience.com: Architecture for High-Throughput Low-Latency Big Data Pipeline on Cloud 🌟](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5) Scalable and efficient data pipelines are as important for the success of analytics, data science, and machine learning as reliable supply lines are for winning a war.
 - [dzone: RESTful Applications in An Event-Driven Architecture](https://dzone.com/articles/restful-applications-in-an-event-driven-architecture) Hybrid architecture with both RESTful and event-driven services.
@@ -106,6 +107,7 @@
 - [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4) 6 Reasons where you need to use Event Sourcing in Micro-services
 - [==emirayhan.medium.com: What is the difference Message Queue and Message Bus?== 🌟](https://emirayhan.medium.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6)
 - [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch/) **An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns**
+- [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb) How do these two technologies work? how do they differ, and when is the right time to use them?
 
 ## RPC vs Messaging
 
@@ -133,6 +135,7 @@
 - [blog.rabbitmq.com: First Application With RabbitMQ Streams](https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-first-application/)
 - [geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose](https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs/)
 - [salaboy.com: Event-Driven applications with CloudEvents on Kubernetes](https://salaboy.com/2022/01/29/event-driven-applications-with-cloudevents-on-kubernetes/)
+- [medium.com/@paolo.gazzola: How to deploy a high available and fault tolerant RabbitMQ service in an on-premise Kubernetes multi-node cluster environment](https://medium.com/@paolo.gazzola/deploy-a-rabbitmq-cluster-in-an-on-premise-kubernetes-multi-node-cluster-enviroment-5dd71d84dafc)
 
 ### Redis message broker
 
@@ -346,6 +349,12 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [towardsdev.com: Performance Testing Your Kubernetes Kafka Cluster](https://towardsdev.com/performance-testing-your-kubernetes-kafka-cluster-95f6e7d8dfc5) In this article, you will learn how to benchmark Apache Kafka instances running on Kubernetes against parallel loads.
 - [==medium.com/@hardiktaneja_99752: Lessons after running Kafka in production== 🌟](https://medium.com/@hardiktaneja_99752/lessons-after-running-kafka-in-production-626974ffd700) TLDR: Have atleast as many paritions (P) as max number of consumers(C), but number of partitions should always be multiple of number of consumers. P = n * C, n =1,2,3…
 - [==betterprogramming.pub: Monitoring Kafka Applications — Implementing Healthchecks and Tracking Lag==](https://betterprogramming.pub/monitoring-kafkaapplications-implementing-healthchecks-and-tracking-lag-3976cc6f00d5) For KafkaConsumer, Streams, Spring-Kafka, Kafka-Connect
+- [thenewstack.io: LinkedIn Layered Architecture Minimizes Kafka Scaling Issues](https://thenewstack.io/linkedin-layered-architecture-minimizes-kafka-scaling-issues/) With Kafka, too many data producers can cause issues, as can having too many data consumers. Here's how LinkedIn separated the resources to alleviate exhaustion.
+- [developers.redhat.com: End-to-end field-level encryption for Apache Kafka Connect](https://developers.redhat.com/articles/2022/09/27/end-end-field-level-encryption-apache-kafka-connect)
+- [blog.datumo.io: Setting up Kafka on Kubernetes - an easy way](https://blog.datumo.io/setting-up-kafka-on-kubernetes-an-easy-way-26ae150b9ca8) In this article, you will learn how to create a basic deployment for Kafka (with Zookeeper) on Kubernetes
+- [==linkedin.com: Kafka Cluster Setup on Kubernetes==](https://www.linkedin.com/pulse/kaka-cluster-setup-kubernetes-avinash-kumar-chandran/)
+- [medium.com/wix-engineering: Troubleshooting Kafka for 2000 Microservices at Wix](https://medium.com/wix-engineering/troubleshooting-kafka-for-2000-microservices-at-wix-986ee382fd1e) Debugging microservices’ event driven communication is not trivial, especially when it’s based on event streaming platforms like Apache Kafka. While scale grows more easily and the distributed system becomes more decoupled and resilient, the operational aspects become much harder.
+- [engineering.grab.com: Zero trust with Kafka](https://engineering.grab.com/zero-trust-with-kafka)
 
 #### Kafka Tools
 
@@ -436,14 +445,18 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [Hazelcast JET](https://jet-start.sh/) Open-Source Distributed Stream Processing
 - [devops.com: Hazelcast Simplifies Streaming for Extremely Fast Event Processing in IoT, Edge and Cloud Environments](https://devops.com/hazelcast-simplifies-streaming-for-extremely-fast-event-processing-in-iot-edge-and-cloud-environments/)
 
+### Postgress as message queue
+
+- [dagster.io: Postgres: a better message queue than Kafka?](https://dagster.io/blog/skip-kafka-use-postgres-message-queue)
+
 ## Workflow Engines
 
 - [wikipedia: Workflow Engine](https://en.wikipedia.org/wiki/Workflow_engine)
 
-## Zeebe
+### Zeebe
 
-- [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows)
 - [Zeebe workflow engine](https://zeebe.io/)
+- [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows)
 - [Orchestration Made Easy with Zeebe and Kafka](https://www.softobiz.com/orchestration-made-easy-with-zeebe-and-kafka/)
 
 ### Apache Airflow
@@ -458,6 +471,14 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dev.to: Get started with Apache Airflow](https://dev.to/arunkc/get-started-with-apache-airflow-1218)
 - [betterprogramming.pub: Running Airflow Using Kubernetes Executor and Kubernetes Pod Operator with Istio](https://betterprogramming.pub/running-airflow-using-kubernetes-executor-and-kubernetes-pod-operator-with-istio-d5aa7af16ef5) There are many obstacles when you deploy Airflow with the Kubernetes executor, Pod Operator and Istio since the Istio proxy sidecar makes the worker pod hang and run forever. In this article, you will learn how to overcome that.
 - [towardsdatascience.com: Apache Airflow Architecture 🌟](https://towardsdatascience.com/apache-airflow-architecture-496b9cb28288) A deep dive into Apache Airflow architecture and how it orchestrates workflows
+- [==airflow.apache.org: KubernetesPodOperator== 🌟🌟🌟](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html)
+    - The KubernetesPodOperator allows you to create and run Pods on a Kubernetes cluster.
+    - The KubernetesPodOperator uses the Kubernetes API to launch a pod in a Kubernetes cluster. By supplying an image URL and a command with optional arguments, the operator uses the Kube Python Client to generate a Kubernetes API request that dynamically launches those individual pods.
+    - The KubernetesPodOperator enables task-level resource configuration and is optimal for custom Python dependencies that are not available through the public PyPI repository. It also allows users to supply a template YAML file using the pod_template_file parameter. Ultimately, it allows Airflow to act a job orchestrator - no matter the language those jobs are written in.
+- [dataengineeringcentral.substack.com: Why is everyone trying to kill Airflow? 🌟](https://dataengineeringcentral.substack.com/p/why-is-everyone-trying-to-kill-airflow?sd=pf) Apache Airflow has been the ruler of Data Engineering orchestration for years, is the end in sight?
+- [airflow.apache.org: Add Owner Links to DAG](https://airflow.apache.org/docs/apache-airflow/stable/howto/add-owner-links.html) You can set the owner_links argument on your DAG object, which will make the owner a clickable link in the main DAGs view page instead of a search filter.
+- [docs.astronomer.io: Dynamically generating DAGs in Airflow](https://docs.astronomer.io/learn/dynamically-generating-dags) How to load DAGs from YAML files in Airflow dynamically?
+- [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81)
 
 ### Couler
 
@@ -539,7 +560,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 ## Related
 
-- [Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes 🌟](https://learnk8s.io/kubernetes-long-lived-connections) Kubernetes doesn't load balance long-lived connections, some Pods might receive more requests than others, In case you are using HTTP/2, gRPC, RSockets, AMQP. Any work around?
+- [==Service meshes to the rescue: Load balancing and scaling long-lived connections in Kubernetes== 🌟](https://learnk8s.io/kubernetes-long-lived-connections) Kubernetes doesn't load balance long-lived connections, some Pods might receive more requests than others, In case you are using HTTP/2, gRPC, RSockets, AMQP. Any work around?
 
 ## Questions and Answers
 
@@ -566,5 +587,9 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are excited to announce that KubeMQ community version is now available as an open-source project!<br><br>The community version supports all messaging patterns, connectors, bridges, and run in production. Give us a star on Github if you like our project!<a href="https://t.co/0ufRQ5bhCE">https://t.co/0ufRQ5bhCE</a></p>&mdash; KubeMQ (@KubeMq) <a href="https://twitter.com/KubeMq/status/1436284885132529707?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do we design a system using the 𝐞𝐯𝐞𝐧𝐭 𝐬𝐨𝐮𝐫𝐜𝐢𝐧𝐠 paradigm? How is it different from normal system design? What are the benefits? We will talk about it in this post. <a href="https://t.co/PhKNDDCmMv">pic.twitter.com/PhKNDDCmMv</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1539999422485913600?ref_src=twsrc%5Etfw">June 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Push notifications are a very popular feature for many applications. <br><br>This is how to design a scalable push notification service: ↓ {1/13} <a href="https://t.co/BWsaCKSrnr">pic.twitter.com/BWsaCKSrnr</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1576212315703222272?ref_src=twsrc%5Etfw">October 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Redis is commonly known as a key-value server, but actually is also a messaging server.<br><br>This is how Redis Pub/Sub works and when it&#39;s a good choice: {1/10} ↓ <a href="https://t.co/Mj9o7HQCOi">pic.twitter.com/Mj9o7HQCOi</a></p>&mdash; Fernando 🇮🇹🇨🇭 (@Franc0Fernand0) <a href="https://twitter.com/Franc0Fernand0/status/1586359194495905794?ref_src=twsrc%5Etfw">October 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

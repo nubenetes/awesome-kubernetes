@@ -8,7 +8,7 @@
 ## AWS CloudFormation. Free Templates
 
 - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)
-- [All the AWS Resource Types Reference for AWS CloudFormation ](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
+- [All the AWS Resource Types Reference for AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 - [Introducing Cloud Formation Guard - a new opensource CLI for infrastructure compliance](https://aws.amazon.com/about-aws/whats-new/2020/06/introducing-aws-cloudformation-guard-preview/)
     - [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules.
 - [cloudonaut.io: Getting Started with Free Templates for AWS CloudFormation](https://cloudonaut.io/getting-started-with-aws-cf-templates/) - [Free Templates for AWS CloudFormation](https://github.com/widdix/aws-cf-templates/) - [templates.cloudonaut.io](https://templates.cloudonaut.io/)

@@ -38,6 +38,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     - [Go Collective](https://stackoverflow.com/collectives/go)
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
+    - [AWS Collective](https://stackoverflow.com/collectives/aws)
     - etc
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
@@ -71,6 +72,14 @@ A curated list of awesome references collected since 2018. Microservices archite
     - Job opportunities
     - K3s
     - Events
+- [thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/)
+- [dzone: Kubernetes in the Enterprise - Trend Report](https://dzone.com/trendreports/kubernetes-in-the-enterprise-1)
+- [Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/)
+- [learnk8s.io/learn-kubernetes-weekly 🌟](https://learnk8s.io/learn-kubernetes-weekly)
+- [infoworld.com: Cloud architects are afraid of automation](https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html) Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What's so scary?
+- [infoworld.com: The biggest obstacle to cloud is people](https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html) People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.
+- [Droogans/How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code) Ensure a job for life ;-)
+- [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

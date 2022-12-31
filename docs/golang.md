@@ -52,6 +52,9 @@
 - [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/)
 - [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 - [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d)
+- [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha)
+- [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)
+- [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) Practical concurrency guide in Go, communication by channels, patterns
 
 ## Design Patterns
 
@@ -109,6 +112,10 @@
 - [curl-to-go](https://mholt.github.io/curl-to-go/) Instantly convert curl commands to Go code
 - [kkdai/youtube](https://github.com/kkdai/youtube) Download Youtube Video in Golang
 - [==github.com/iawia002/lux== 🌟](https://github.com/iawia002/lux) 👾 **Fast and simple video download library and CLI tool written in Go**
+- [github.com/Email-Dashboard:](https://github.com/Email-Dashboard/Email-Dashboard) An interactive emailing management service with scheduling, templating, tracking and A/B testing.
+- [==gobrew== 🌟](https://github.com/kevincobain2000/gobrew) Go version manager. Super simple tool to install and manage Go versions. Install go without root. Gobrew doesn't require shell rehash.
+- [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)
+- [create-go-app/cli](https://github.com/create-go-app/cli) Create a new production-ready project with backend, frontend and deploy automation by running one CLI command!
 
 ## Go Books
 
@@ -127,6 +134,7 @@
 ## Dockerfile for go
 
 - [==dev.to: Dockerfile for Go==](https://dev.to/youngyoshie/dockerfile-for-go-4jjp)
+- [dev.to: Dockerize a GoLang HTTP server and deploy it on Kubernetes](https://dev.to/aksrao1998/dockerize-a-golang-http-server-and-deploy-it-on-kubernetes-592j)
 
 ## Videos
 

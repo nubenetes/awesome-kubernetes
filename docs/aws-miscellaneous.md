@@ -13,7 +13,7 @@
 10. [AWS Partner Network (APN)](#aws-partner-network-apn)
 11. [AWS App Mesh](#aws-app-mesh)
 12. [Local Testing](#local-testing)
-    1. [Localstack](#localstack)
+     1. [Localstack](#localstack)
 13. [AWS Service Quota Requests](#aws-service-quota-requests)
 14. [AWS Chaos Engineeering. AWS Fault Injection Simulator](#aws-chaos-engineeering-aws-fault-injection-simulator)
 15. [Superwerker](#superwerker)
@@ -26,6 +26,7 @@
 22. [ECommerce](#ecommerce)
 23. [AWS Clients](#aws-clients)
 24. [AWS LightSail](#aws-lightsail)
+25. [AWS Data Lake](#aws-data-lake)
 
 ## AWS Application Discovery Service
 
@@ -101,6 +102,7 @@
 
 - [localstack.cloud](https://localstack.cloud/) Develop and test your cloud apps offline. A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
 - [github.com/localstack/localstack](https://github.com/localstack/localstack)
+- [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template)
 
 ## AWS Service Quota Requests
 
@@ -162,3 +164,7 @@
 ## AWS LightSail
 
 - [AWS LightSail](https://aws.amazon.com/lightsail/) Build applications and websites fast with low-cost, pre-configured cloud resources
+
+## AWS Data Lake
+
+- [aws.amazon.com: Optimize your modern data architecture for sustainability: Part 1 – data ingestion and data lake](https://aws.amazon.com/blogs/architecture/optimize-your-modern-data-architecture-for-sustainability-part-1-data-ingestion-and-data-lake/)

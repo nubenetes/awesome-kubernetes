@@ -4,6 +4,7 @@
 2. [AWS Samples (Boilerplates)](#aws-samples-boilerplates)
 3. [Open Source at AWS](#open-source-at-aws)
 4. [AWS Tools](#aws-tools)
+    1. [AWS CI/CD Tools](#aws-cicd-tools)
 5. [AWS Toolkits](#aws-toolkits)
 6. [AWS Management Tools Blog](#aws-management-tools-blog)
 7. [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
@@ -39,6 +40,10 @@
 - [ermetic/access-undenied-aws 🌟](https://github.com/ermetic/access-undenied-aws) Ermetic is launching a new open-source tool: Access Undenied on AWS. The tool parses AWS AccessDenied CloudTrail events, explains the reasons for them and offers actionable fixes.
     - [ermetic.com: Access Undenied on AWS](https://ermetic.com/blog/aws/access-undenied-on-aws/) 
 - [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site) A tool to help handle AWS Session connections on terminals, using your configured AWS Shared Config and Credentials files. It manages Roles to Assume, MFA Token requests, AWS SSO Sign-in, AWS SSO Tokens and the expiration of opened sessions.
+
+### AWS CI/CD Tools
+
+- [==dev.to: Continuous Integration and Deployment on AWS - and a wishlist for CI/CD Tools on AWS==](https://dev.to/aws-builders/continuous-integration-and-deployment-on-aws-and-a-wishlist-for-cicd-tools-on-aws-5a13)
 
 ## AWS Toolkits
 

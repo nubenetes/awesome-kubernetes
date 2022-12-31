@@ -2,9 +2,11 @@
 
 1. [Introduction](#introduction)
 2. [Grafana Agent](#grafana-agent)
-3. [Grafana Dashboards](#grafana-dashboards)
-4. [Grafana Releases](#grafana-releases)
-5. [Grafana Loki](#grafana-loki)
+3. [Grafana Faro](#grafana-faro)
+4. [Grafana Dashboards](#grafana-dashboards)
+5. [Grafana Releases](#grafana-releases)
+6. [Grafana Loki](#grafana-loki)
+7. [Grafana as Code](#grafana-as-code)
 
 ## Introduction
 
@@ -42,6 +44,11 @@
 
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
 
+## Grafana Faro
+
+- [Grafana Faro 🌟](https://grafana.com/oss/faro/) A project for frontend application observability, Grafana Faro includes a highly configurable web SDK for real user monitoring (RUM) that instruments browser frontend applications to capture observability signals. The frontend telemetry can then be correlated with backend and infrastructure data for seamless, full-stack observability.
+- [grafana.com: Introducing Grafana Faro, an open source project for frontend application observability](https://grafana.com/blog/2022/11/02/introducing-grafana-faro-oss-application-observability/)
+
 ## Grafana Dashboards
 
 - [Grafana Dashboards](https://grafana.com/grafana/dashboards)
@@ -57,6 +64,8 @@
 - [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring) KubeVirt monitoring dashboards. This repository collects Grafana dashboards for KubeVirt and Prometheus runbooks for alerts shipped with the KubeVirt stack.
 - [medium.com/@dotdc: A set of modern Grafana dashboards for Kubernetes 🌟](https://medium.com/@dotdc/a-set-of-modern-grafana-dashboards-for-kubernetes-4b989c72a4b2) In this article, I will present a set of modern Grafana dashboards I made for Kubernetes, explain why I decided to create them and how they work.
 - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/2022/06/06/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build/)
+- [blog.bespinian.io: Creating Grafana Dashboards for Node.js Apps on Kubernetes](https://blog.bespinian.io/posts/creating-grafana-dashboards-for-nodejs-on-kubernetes/) While Grafana and Prometheus are relatively easy to understand, creating useful dashboards requires familiarity with PromQL and Prometheus’ data model. In this article, you'll learn how to create a dashboard for a Node.js app deployed on Kubernetes.
+- [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------
@@ -71,6 +80,7 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 - [grafana.com: Grafana 8.1 released: New Geomap and Annotations panels, updated plugin management, and more](https://grafana.com/blog/2021/08/05/grafana-8.1-released-new-geomap-and-annotations-panels-updated-plugin-management-and-more/)
 - [thenewstack.io: Grafana 8.2 Wants to ‘Democratize’ Cloud Native Metrics](https://thenewstack.io/grafana-wants-to-democratize-cloud-native-metrics/)
 - [grafana.com: Grafana Labs and Microsoft partner to deliver new first party Microsoft Azure service](https://grafana.com/about/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service) Today we announced a partnership with Microsoft that lets customers run Grafana natively within their Azure cloud platform.
+- [grafana.com: Grafana 9.3 feature: Grafana OAuth token improvements](https://grafana.com/blog/2022/12/08/grafana-9.3-feature-grafana-oauth-token-improvements/?mdm=social)
 
 ## Grafana Loki
 
@@ -79,3 +89,8 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 - [medium.com/devopsturkiye: Deploy Grafana Loki and Promtail using ArgoCD](https://medium.com/devopsturkiye/deploy-grafana-loki-and-promtail-using-argocd-416b2fd4539f)
 - [faun.pub: Manage Grafana Loki alerting and recording rules using GitOps](https://faun.pub/manage-grafana-lokis-alerting-and-recording-rules-using-gitops-c26d06d772c6)
 - [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes/) In this blog post, you will learn how to handle multiline logs such as Java stack traces with Loki and Fluent Bit on Kubernetes.
+- [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)
+
+## Grafana as Code
+
+- [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/2022/12/06/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks/)
