@@ -6,13 +6,14 @@
 2. [Audi](#audi)
 3. [Volkswagen](#volkswagen)
 4. [Mercedes Benz](#mercedes-benz)
-5. [IDRA Group](#idra-group)
-6. [Carrefour Spain](#carrefour-spain)
-7. [Decathlon](#decathlon)
-8. [Deutsche Telekom](#deutsche-telekom)
-9. [AstraZeneca](#astrazeneca)
-10. [AI for Medical Imaging](#ai-for-medical-imaging)
-11. [Videos](#videos)
+5. [Tesla](#tesla)
+6. [IDRA Group](#idra-group)
+7. [Carrefour Spain](#carrefour-spain)
+8. [Decathlon](#decathlon)
+9. [Deutsche Telekom](#deutsche-telekom)
+10. [AstraZeneca](#astrazeneca)
+11. [AI for Medical Imaging](#ai-for-medical-imaging)
+12. [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
 
@@ -62,6 +63,13 @@
 - [github.com/mercedes-benz](https://github.com/mercedes-benz)
 - [genbeta.com: El software de los coches de Mercedes contiene código abierto y en vez de distribuirlo en GitHub usan un CD](https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd)
 - [youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens Erat, Peter Mueller, Sabine Wolz](https://www.youtube.com/watch?v=UmbjwSK9b3I)
+
+## Tesla
+
+- [hibridosyelectricos.com: Tesla recurre a China para aumentar la calidad de fabricación de sus coches eléctricos](https://www.hibridosyelectricos.com/articulo/actualidad/tesla-recurre-china-calidad-fabricacion-coches-electricos/20221222124048066230.html)
+    - La Gigafactoría de Tesla en Shanghái es todo un ejemplo de eficiencia, innovación tecnológica y calidad de fabricación. El responsable de este logro es Tom Zhu, su jefe de Operaciones, que recientemente visitó las dos plantas estadounidenses.
+    - W. Edward Deming fue un ingeniero y consultor estadounidense reconocido como el padre de la gestión de la calidad total en la fabricación de automóviles. Se le considera uno de los responsables del progreso de la industria, gracias al desarrollo de una serie de teorías funcionales y económicas que, desde hace años, supervisan la producción de los vehículos que se fabrican en casi todo el mundo.
+    - Las teorías de Deming estaban muy por delante de su tiempo. Afirman que las organizaciones que se centran en reducir únicamente los costes de producción, automáticamente disminuyen la calidad de sus productos. Por el contrario, aquellas que se concentran en mejorar la calidad, automáticamente rebajan los costes.
 
 ## IDRA Group
 
