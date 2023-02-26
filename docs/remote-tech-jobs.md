@@ -12,6 +12,7 @@
 - [landing.jobs: How does remote work affect your salary?](https://landing.jobs/blog/how-does-remote-work-affect-your-salary/) As remote seeps into our lives and jobs become borderless, a new problem arises: receiving your salary from a remote company abroad.
 - [ireviews.com: The Top 60 Remote Work Websites for New Opportunities in 2022](https://www.ireviews.com/the-top-60-remote-work-websites-for-new-opportunities-in-2022/)
 - [starkephillip.com: The effects of remote work on company culture](https://starkephillip.com/the-effects-of-remote-work-on-company-culture/)
+- [The remote job guide: job search & productivity working from home](https://resume.io/blog/remote-job-guide)
 
 ## Remote Jobs
 
