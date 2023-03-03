@@ -63,6 +63,7 @@
 - [sysdig.com: Kubernetes Monitoring with Prometheus, the ultimate guide 🌟](https://sysdig.com/blog/kubernetes-monitoring-prometheus/)
 - [sysdig.com: How to monitor kube-proxy 🌟](https://sysdig.com/blog/monitor-kube-proxy/) In this article, you will learn how to monitor kube-proxy to ensure the correct health of your cluster network.
 - [thenewstack.io: Monitoring vs. Observability: What’s the Difference?](https://thenewstack.io/monitoring-vs-observability-whats-the-difference/)
+- [Observability vs. Monitoring: The Ultimate Differential guide] (https://middleware.io/blog/observability-vs-monitoring/)
 - [getenroute.io: TSDB, Prometheus, Grafana In Kubernetes: Tracing A Variable Across The OSS Monitoring Stack](https://getenroute.io/blog/leverage-open-source-oss-derive-insights-grafana-prometheus-tsdb-kubernetes-standalone-api-gateway/)
 - [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability/)
 - [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it/)
