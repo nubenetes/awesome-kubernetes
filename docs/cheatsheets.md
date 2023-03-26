@@ -84,7 +84,7 @@
     - [betterprogramming.pub: Cheat.sh — The Ultimate Multi-Language Cheat Sheet](https://betterprogramming.pub/cheat-sh-the-ultimate-multi-language-cheat-sheet-8e97c16407aa) Introducing cheat.sh, a powerful syntax and code-snippet search engine.
 - [bash.cyberciti.biz: Man command](https://bash.cyberciti.biz/guide/Man_command)
 - [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet)
-- [manz.dev/cheatsheets](https://manz.dev/cheatsheets) 
+- [manz.dev/cheatsheets](https://manz.dev/cheatsheets)
 - [crontab.guru 🌟](https://crontab.guru) The quick and simple editor for cron schedule
 
 ## Networking
@@ -185,9 +185,9 @@
 - [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 - [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy/)
-- `--tail=-1` lets you output all logs when you use a label selector: 
-    - `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1` 
-    - `kubectl logs -l app=my.app --tail=-1` 
+- `--tail=-1` lets you output all logs when you use a label selector:
+    - `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1`
+    - `kubectl logs -l app=my.app --tail=-1`
 - [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
 - [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
 - [==komodor.com: The Ultimate Kubectl Cheat Sheet== 🌟](https://komodor.com/learn/the-ultimate-kubectl-cheat-sheet/)
@@ -226,7 +226,7 @@
 - [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
 - [myfuturehub.com: Useful commands of Docker](https://myfuturehub.com/useful-commands-of-docker/)
 - [dev.to: Docker Cheatsheet](https://dev.to/ibmdeveloper/docker-command-cheatsheet-1pe8)
-- `docker system prune --all` 
+- `docker system prune --all`
 - `docker image prune -a -f --filter "until=720h"`
 - `docker container prune -f --filter "until=48h"`
 - `sudo docker image prune --all --filter until=1h`
@@ -275,20 +275,22 @@
 - [dev.to: A Git Cheat Sheet](https://dev.to/baransel/a-git-cheat-sheet-4mab)
 - [==geeksforgeeks.org: Essential Git Commands== 🌟](https://www.geeksforgeeks.org/essential-git-commands/)
 - [dev.to: Git Cheat Sheet- 20 commands I Use Everyday | Tabassum Khanum](https://dev.to/codewithtee/git-cheat-sheet-20-commands-i-use-everyday-47h9)
-- Find the first commit you ever made: ```git log --reverse``` 
+- Find the first commit you ever made: ```git log --reverse```
 - [==joshnh/Git-Commands== 🌟](https://github.com/joshnh/Git-Commands/blob/master/README.md) A list of commonly used Git commands
 - [dev.to: Git Commands Cheatsheet: Advanced (20+ Git Commands Advanced )](https://dev.to/aashiya123/git-commands-cheatsheet-advanced-20-git-commands-advanced--35i3)
 - [dev.to: Git Cheat Sheet 📄 (50 commands + Free PDF and poster)](https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn)
 - [enlear.academy: 20 Git Commands Every Developer Should Know](https://enlear.academy/26-git-command-i-use-all-the-time-cheatsheet-6c5682ded2af) 20 Git Command I Use All The Time — Git CheatSheet
 - [freecodecamp.org: Git Cheat Sheet – 50 Git Commands You Should Know](https://www.freecodecamp.org/news/git-cheat-sheet/)
 - [==opensource.com: 10 Git tips we can't live without==](https://opensource.com/article/22/4/git-tips) Opensource.com community members share their favorite Git tips for saving time or preventing mistakes.
-- Terminal tip: Always use `less -R` to display colored terminal output properly: `git diff --color=always | less -R` 
+- Terminal tip: Always use `less -R` to display colored terminal output properly: `git diff --color=always | less -R`
 - [betterprogramming.pub: 8 Advanced Git Commands Universities Won’t Teach You](https://betterprogramming.pub/8-advanced-git-commands-university-wont-teach-you-fe63b483d34b) Advanced tips and tricks that will save you time and headaches.
 - [==intellipaat.com: GIT Cheat Sheet== 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/)
+- [dev.to: 20 Git Commands That Will Make You a Version Control Pro](https://dev.to/devland/20-git-commands-that-will-make-you-a-version-control-pro-149p)
 
 ### Git Flow Cheat Sheets
 
 - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+- [arslanbilal/git-cheat-sheet 🌟🌟🌟](https://github.com/arslanbilal/git-cheat-sheet) Git and Git Flow Cheat Sheet
 
 ### Sourcetree Cheat Sheet
 
@@ -364,7 +366,7 @@
 
 ### Debezium Cheat Sheets
 
-- [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) Debezium is a distributed open-source platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong. This cheat sheet covers how to deploy/create/run/update a Debezium Connector on OpenShift. 
+- [developers.redhat.com: Debezium on OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/debezium-openshift-cheat-sheet) Debezium is a distributed open-source platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong. This cheat sheet covers how to deploy/create/run/update a Debezium Connector on OpenShift.
 
 ## Kubernetes Operator Cheat Sheets
 
@@ -491,6 +493,7 @@
 ## Postgres
 
 - [postgrescheatsheet.com](https://postgrescheatsheet.com/)
+- [datadoghq.com: PostgreSQL Cheatsheet](https://www.datadoghq.com/resources/datadog-postgresql-cheatsheet/) Keep track of important resource and activity metrics from your PostgreSQL databases.
 
 ## MariaDB and mySQL
 
@@ -534,7 +537,7 @@
 
 - [intellipaat.com: RPA Cheat Sheet](https://intellipaat.com/blog/tutorial/rpa-tutorial/rpa-cheat-sheet/)
 
-## Data Science 
+## Data Science
 
 - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 1](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-1.html) A collection of cheat sheets that will help you prepare for a technical interview, assessment tests, class presentation, and help you revise core data science concepts.
 - [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html) A collection of cheat sheets that will help you prepare for a technical interview on Data Structures & Algorithms, Machine learning, Deep Learning, Natural Language Processing, Data Engineering, Web Frameworks.

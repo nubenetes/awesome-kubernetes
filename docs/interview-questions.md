@@ -83,6 +83,7 @@
 ## Microservices Interview Questions
 
 - [java67.com: Top 15 Microservices Interview Questions with Answers for 3 to 5 Years Experienced](https://www.java67.com/2021/02/microservices-interview-questions-answers-java-spring.html)
+- [towardsdev.com: Microservice Interview questions for Backend Developers series-1](https://towardsdev.com/microservice-interview-questions-for-backend-developers-series-1-112d623a7c2a)
 
 ## Java and Java Collections Interview Questions
 
@@ -104,7 +105,7 @@
 - [devsecops.co.in: Kubernetes Interview Questions and Answers](https://devsecops.co.in/2021/05/22/kubernetes-interview/)
 - [ymmt2005.hatenablog.com: 47 things that you should know to be a Kubernetes experts (questions + answers)](https://ymmt2005.hatenablog.com/entry/k8s-things)
 - [automationreinvented.blogspot.com: kubernetes posts](https://automationreinvented.blogspot.com/search/label/Kubernetes?m=1)
-- [jakubstransky.com: 4 devs by devs: Kubernetes interview question made easy](https://jakubstransky.com/2021/11/05/4-devs-kubernetes-interview-question-made-easy/) Distilled introduction for developers. Things I believe that every developer should be aware of. 
+- [jakubstransky.com: 4 devs by devs: Kubernetes interview question made easy](https://jakubstransky.com/2021/11/05/4-devs-kubernetes-interview-question-made-easy/) Distilled introduction for developers. Things I believe that every developer should be aware of.
 - [automationreinvented.blogspot.com: Top Interview Question on Kubernetes for SDET/Devops Set-03? ReplicaSet in K8S](https://automationreinvented.blogspot.com/2020/11/top-interview-question-on-kubernetes.html)
 
 ## Apache Kafka Interview Questions

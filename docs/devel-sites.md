@@ -10,6 +10,7 @@
     4. [Red Hat Software Collections and Red Hat Developer Toolset](#red-hat-software-collections-and-red-hat-developer-toolset)
     5. [Dhall Configuration Language](#dhall-configuration-language)
     6. [DDEV](#ddev)
+    7. [OCLIF](#oclif)
 5. [AI Programming](#ai-programming)
 6. [No code tools](#no-code-tools)
 7. [Images](#images)
@@ -43,6 +44,7 @@
 - [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/)
 - [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)
 - [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/)
+- [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 
 ## Design Patterns
 
@@ -94,6 +96,11 @@
 - [==ddev.com==](https://ddev.com/) Meet your new local development environment. DDEV simplifies integrating the power and consistency of containerization into your workflows. Set up environments in minutes; switch contexts and projects quickly and easily; speed your time to deployment. We handle the complexity. You get on with the valuable part of your job.
 - [==opensource.com: 16 reasons DDEV will be your new favorite web development environment==](https://opensource.com/article/22/12/ddev) What's so different about DDEV? It's a container-based local web development environment. An open source tool for launching local PHP, Node.js, and HTML/JS development environments in minutes.
 
+### OCLIF
+
+- [oclif.io 🌟](https://oclif.io) Build simple to advanced CLIs in minutes. oclif is an open source framework for building a command line interface (CLI) in Node.js. Create CLIs with a few flags or advanced CLIs that have subcommands. oclif makes it easy for you to build CLIs for your company, service, or your own development needs.
+- [medium.com/@jdxcode: 12 Factor CLI Apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
+
 ## AI Programming
 
 - [GitHub Copilot](https://copilot.github.com/)
@@ -107,7 +114,7 @@
 ## Images
 
 ??? note "Click to expand!"
-  
+
 	<center>
 	[![best practices temp solution](images/devel_temp_solution.png)](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)
 	</center>

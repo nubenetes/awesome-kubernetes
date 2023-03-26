@@ -30,7 +30,7 @@
 - [magalix.com: The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 - [35 Advanced Tutorials to Learn Kubernetes](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
 - [geekflare.com: 14 Kubernetes Tutorials for Beginner to Master](https://geekflare.com/learn-kubernetes/)
-- [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/) 
+- [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
 - [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND)
 - [medium: DraftKings Kubernetes Workshop: Hands-on Learning in K8s (with Video Walkthrough)](https://medium.com/draftkings-engineering/draftkings-workshop-demystifying-kubernetes-4ce86c187408)
 - [100 Days Of Kubernetes: 100daysofkubernetes.io](https://100daysofkubernetes.io/) 100 Days of Kubernetes is the challenge in which we aim to learn something new related to Kubernetes each day across 100 Days!!!
@@ -49,7 +49,7 @@
     - [millionvisit.blogspot.com: Kubernetes for Developers #9: Kubernetes Pod Lifecycle](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-9-Kubernetes-Pod-Lifecycle.html)
     - [millionvisit.blogspot.com: Kubernetes for Developers #10: Kubernetes Pod YAML manifest in-detail](http://millionvisit.blogspot.com/2021/03/kubernetes-for-developers-10-kubernetes-Pod-YAML-manifest.html)
     - [millionvisit.blogspot.com: Kubernetes for Developers #14: Kubernetes Deployment YAML manifest in-detail](http://millionvisit.blogspot.com/2021/05/kubernetes-for-developers-14-Kubernetes-Deployment-YAML-manifest.html)
-- ithands-on.com: 
+- ithands-on.com:
     - [ithands-on.com: Kubernetes 101 : Deployments, replicaSets, services, pods and endpoints](https://www.ithands-on.com/2021/05/kubernetes-101-deployment-replicasets.html)
     - [ithands-on.com: Kubernetes 101 : An overview of StatefulSets and Deployments](https://www.ithands-on.com/2021/05/kubernetes-101-overview-of-statefulsets.html)
     - [ithands-on.com: Kubernetes 101 : Resource Quotas (ResourceQuota) and Limit Ranges (LimitRange)](https://www.ithands-on.com/2021/05/kubernetes-101-resource-quotas.html)
@@ -63,26 +63,27 @@
 - [omerbsezer/Fast-Kubernetes](https://github.com/omerbsezer/Fast-Kubernetes) **This repo covers Kubernetes objects' and components' details (Kubectl, Pod, Deployment, Service, ConfigMap, Volume, PV, PVC, Daemonset, Secret, Affinity, Taint-Toleration, Helm, etc.), and possible example usage scenarios (how-to, hands-on labs, etc.)**
 - [containiq.com: 10 Awesome Kubernetes Projects for Beginners](https://www.containiq.com/post/kubernetes-projects-for-beginners) Kubernetes is powerful, but it’s a lot to learn! In this roundup, explore 10 of the best beginner Kubernetes projects and tutorials to learn from as a new user.
 - [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
-- [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.** 
+- [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.**
 - [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/the-kubernetes-course) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**
-    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/the-kubernetes-course/RMmq5M6Gp8R) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes: 
+    - [educative.io/courses/the-kubernetes-course: Pods](https://www.educative.io/courses/the-kubernetes-course/RMmq5M6Gp8R) Its true that K8s runs containerized apps. But, you can:t run container directly on K8s cluster – containers always run inside of Pods. Pods: Intro to Pods in Kubernetes:
         - Pods & containers
         - Pod anatomy
         - Pods as unit of scaling
         - Pod lifecycle
 
 - [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185)
-- [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap/)
+- [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap/) A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)
+    - [github.com/techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
 
 ## Online Training
 
-- [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers 
+- [katacoda.com](https://www.katacoda.com/) Interactive Learning and Training Platform for Software Engineers
 - [kubernetesbyexample.com](http://kubernetesbyexample.com/)
 - [Play with Kubernetes](https://labs.play-with-k8s.com/) A simple, interactive and fun playground to learn Kubernetes
 - [udemy.com: Learn DevOps: The Complete Kubernetes Course](https://www.udemy.com/learn-devops-the-complete-kubernetes-course)
-    - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course) 
+    - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [udemy.com: Learn DevOps: Advanced Kubernetes Usage](https://www.udemy.com/learn-devops-advanced-kubernetes-usage)
-    - [wardviaene/advanced-kubernetes-course](https://github.com/wardviaene/advanced-kubernetes-course) 
+    - [wardviaene/advanced-kubernetes-course](https://github.com/wardviaene/advanced-kubernetes-course)
 - [Certified Kubernetes Administrator CKA course notes — diagrams for each subject area and use as reference for future refresher](https://drive.google.com/file/d/1RhPULD1IAVgCo1KD857iCoaNKuJjQKa1/view)
 - [javarevisited.blogspot.com: Top 5 Free Courses to Learn Kubernetes for Developers and DevOps Engineers](https://javarevisited.blogspot.com/2019/01/top-5-free-kubernetes-courses-for-DevOps-Engineer.html)
 - [kodekloud.com](https://kodekloud.com)

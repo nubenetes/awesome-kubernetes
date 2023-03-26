@@ -14,6 +14,7 @@
     4. [Kubenav](#kubenav)
     5. [Aptakube](#aptakube)
     6. [Cloud Manager](#cloud-manager)
+    7. [Yaki](#yaki)
 4. [Images](#images)
 5. [Tweets](#tweets)
 6. [Videos](#videos)
@@ -28,6 +29,7 @@
     - [==faun.pub: Accessing a remote minikube from a local computer==](https://faun.pub/accessing-a-remote-minikube-from-a-local-computer-fd6180dd66dd) Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine. In this article, you will learn how to connect to a remote computer with minikube installed.
     - [==adamtheautomator.com: Jumpstart Kubernetes Locally with this MiniKube Tutorial==](https://adamtheautomator.com/minikube-tutorial/) You'll usually find Kubernetes where it makes sense — i.e. in cloud environments. But how do you speed up development for Kubernetes? Could you test deployments locally?
     - [blog.flant.com: Local development in Kubernetes with werf 1.2 and minikube](https://blog.flant.com/local-development-in-kubernetes-with-werf/) This article discusses preparing and deploying a Kubernetes-based infrastructure for local development with werf & minikube. Make commits to your app's Git and see how your app running in minikube is automatically updated.
+    - [devopscube.com: Kubernetes Minikube Tutorial for Beginners](https://devopscube.com/kubernetes-minikube-tutorial/)
 - [**kind**](https://github.com/kubernetes-sigs/kind) Kubernetes IN Docker - local clusters for testing Kubernetes. Kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
     - [kubernetes-development-environment-in-a-box](https://github.com/ManagedKube/kubernetes-development-environment-in-a-box) This project is geared toward running multiple isolated KinD cluster on a single instance. This project produces an AMI image that can run an instance that has Docker and multiple isolated Kubernetes clusters running in it using KinD. The main use case is to setup one node that can run multiple fully isolated Kubernetes cluster on it for development purposes.
     - [faun.pub: Creating a Kubernetes Cluster for Development with Kind](https://faun.pub/creating-a-kubernetes-cluster-for-development-with-kind-189df2cb0792)
@@ -55,13 +57,13 @@
 - [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535) A guide to developing containerized software
 - [==kubevious== 🌟🌟](https://github.com/kubevious/kubevious) Kubevious is a read-only dashboard and config validator. Kubevious gives deep insights on app config and structure.
 - [==tilt.dev==](https://tilt.dev) You can use Tilt to easily build and run your application on Kubernetes. In comparison with similar tools, it provides [UI for managing the process and cloud platform](https://cloud.tilt.dev) to share data with your team.
-    - [medium: Happy trip to Kubernetes in our company](https://medium.com/condorlabs-engineering/happy-trip-to-kubernetes-in-our-company-85ecfde573fd) Kubernetes Local Development Made Easy! Not Minikube, neither Skaffold, but Tilt to the rescue. 
+    - [medium: Happy trip to Kubernetes in our company](https://medium.com/condorlabs-engineering/happy-trip-to-kubernetes-in-our-company-85ecfde573fd) Kubernetes Local Development Made Easy! Not Minikube, neither Skaffold, but Tilt to the rescue.
         - Minikube: Initially, they found Minikube as the first solution to manipulate K8s and test everything in our local environment. To manually deploy a service in Minikube they had to build the image in docker every time they made a change. If you are only managing one service this would be easy to handle, but if we work with many services in a repository that needs to be running to work as expected, we should have a way to run those builds automatically and restart the pods to take the new image.
         - Skaffold: They researched how to automatize this and found Skaffold, a tool to create a complete dev environment fully integrated with Kubernetes and Minikube. Skaffold takes over to build all the images that you need, restart the pods and listen for more changes. With this, you can achieve a hot-building feature sending everything to minikube, the devs won’t have to take care of this task. It was a win for them to find this tool.
         - Challenge: Something that caused friction for the developers was the way they had to run all the code locally. They had to make changes using docker-compose and then, test using Skaffold. This may generate little delays in the development workflow.
         - Tilt to the rescue: Finally, they found Tilt - An open-source tool that is focused on generating a comfortable and customizable rebuild for Docker and Kubernetes. Tilt makes really easy to manage development in a local environment of many services that need to communicate among them. Also, it’s focused on the Developer Experience. Once they implemented Tilt, they were able to use their services in the dev phase by running: tilt up. With a well-written configuration and settings, you can get reloads in a few milliseconds using the sync feature. Also, it has easy integration with Helm which is the most used package manager for K8s.
 - [==garden.io==](https://garden.io/)
-- [microcks.io](https://microcks.io) K8s-based API mock/test tool. 
+- [microcks.io](https://microcks.io) K8s-based API mock/test tool.
     - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)
 - [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://loft.sh/blog/checklist-for-kubernetes-based-development)
 - [loft.sh: Kubernetes Development Environments – A Comparison](https://loft.sh/blog/kubernetes-development-environments-comparison/)
@@ -79,7 +81,7 @@
 - [docker.com: Kubernetes in Production Environments](https://www.docker.com/blog/dear-moby-2-kubernetes-in-production/) What is the best way to develop if my prod environment runs Kubernetes? Using Docker Compose does come with conditions:
     - It’s another tool in your arsenal. This means another set of manifests to maintain and update. If you need to define a new environment variable, you’ll need to add it to both your Compose file and Kubernetes manifests.
     - You’ll have to vet changes against either prod or a staging environment since you’re not running Kubernetes locally.
-- [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681) This article will be helpful for anyone interested in setting up a local Kubernetes dev/test environment in a reproducible and easy way. 
+- [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681) This article will be helpful for anyone interested in setting up a local Kubernetes dev/test environment in a reproducible and easy way.
 
 ### Skaffold. Local Kubernetes Development
 
@@ -177,6 +179,10 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 - [thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes/)
 - [medium: Do It All Kubernetes Dashboard](https://medium.com/faun/do-it-all-kubernetes-dashboard-81375833e01c)
+
+### Yaki
+
+- [nirops/yakiapp](https://github.com/nirops/yakiapp) Open Source, Cross platform, Native Kubernetes IDE. Yaki is a desktop application that allows DevOps, Developers, SREs and anyone who wish the manage the applications deployed in their Kubernetes Cluster
 
 ## Images
 

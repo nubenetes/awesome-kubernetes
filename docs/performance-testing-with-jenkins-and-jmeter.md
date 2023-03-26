@@ -4,11 +4,11 @@
 2. [Performance testing of microservices running on Kubernetes](#performance-testing-of-microservices-running-on-kubernetes)
 3. [JMeter](#jmeter)
 4. [JMeter based Cloud solutions](#jmeter-based-cloud-solutions)
-5. [Jenkins & JMeter](#jenkins--jmeter)
+5. [Jenkins \& JMeter](#jenkins--jmeter)
 6. [Gatling](#gatling)
     1. [API Load Testing](#api-load-testing)
     2. [Gatling and Maven](#gatling-and-maven)
-7. [Jenkins & Gatling](#jenkins--gatling)
+7. [Jenkins \& Gatling](#jenkins--gatling)
 8. [Azure Load Testing Service](#azure-load-testing-service)
 9. [Load Testing with GitHub Actions](#load-testing-with-github-actions)
 10. [Alternatives](#alternatives)
@@ -57,7 +57,7 @@
 
 - [jenkinsci/performance-plugin](https://github.com/jenkinsci/performance-plugin)
     - [plugins.jenkins.io: performance](https://plugins.jenkins.io/performance/)
-- [Blazemeter.com: Continuous Integration 101 - How to run Jmeter with jenkins 🌟](https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins) 
+- [Blazemeter.com: Continuous Integration 101 - How to run Jmeter with jenkins 🌟](https://www.blazemeter.com/blog/continuous-integration-101-how-run-jmeter-jenkins)
 - [baeldung.com: Configure Jenkins to Run and Show JMeter Tests](https://www.baeldung.com/jenkins-and-jmeter)
 - [DZone.com: 2 ways to integrate jmeter tests into jenkins](https://dzone.com/articles/2-ways-to-integrate-jmeter-tests-into-jenkins)
 - [Guru99.com: Jmeter and BlazeMeter Integration with Jenkins](https://www.guru99.com/jenkins-jmeter-blazemeter.html)
@@ -66,8 +66,8 @@
 
 - [gatling.io](https://gatling.io/)
 - [Gatling Cloud Marketplaces](https://gatling.io/gatling-frontline/cloud-marketplaces/)
-- [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling) 
-- [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool) 
+- [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)
+- [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)
 - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)
 - [8 Reasons You Should Use Gatling for Your Load Testing](https://dzone.com/articles/8-reasons-you-should-use-gatling-for-your-load-tes)
 - [Measuring Performance With Gatling](https://dzone.com/articles/let-measure-performance-with-gatling)
@@ -118,6 +118,7 @@
 - [tech.loveholidays.com: Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
 - [==Iter8==](https://iter8.tools/) Kubernetes Release Optimizer
     - [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos/) Iter8’s command-line interface (CLI) makes it simple and easy to set up load tests for HTTP services with SLO specifications, verify that the target service meets the SLOs, and create a visual report of the load test.
+- [tsenart/vegeta 🌟](https://github.com/tsenart/vegeta) HTTP load testing tool and library. It's over 9000! Vegeta is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
 
 ## Serverless Load Testing
 

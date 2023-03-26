@@ -3,11 +3,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 [Nubenetes](https://nubenetes.com) is also available at [this other site](https://awesome-kubernetes.readthedocs.io/).
 
-"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson)) 
+"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center>
 [![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
 </center>
---- 
+---
 
 ## Motivation
 - [microservices.io](https://microservices.io/)
@@ -31,24 +31,24 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [openpracticelibrary.com](https://openpracticelibrary.com/) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
 - [API Landscape](https://apilandscape.apiscene.io/)
-- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey) 
-    - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted) 
+- [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
+    - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
     - [2022 🌟](https://survey.stackoverflow.co/2022/) - [betterprogramming.pub]((https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3))
 - [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
     - [Go Collective](https://stackoverflow.com/collectives/go)
-    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab) 
+    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
     - [AWS Collective](https://stackoverflow.com/collectives/aws)
     - etc
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
-- [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved) 
+- [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)
 - [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
-- [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)  
+- [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)
 - [An emerging Job: Kubernetes engineer 🌟](https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/)
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
-- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
+- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 - [The rise of the automation architect](https://www.redhat.com/sysadmin/automation-architects)
 - [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
 - [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
@@ -56,9 +56,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
 - [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 - [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
-- [dok.community: DoKC Data on Kubernetes](https://dok.community) 
+- [dok.community: DoKC Data on Kubernetes](https://dok.community)
 - [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/)
-- [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/) 
+- [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
 - [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
@@ -84,7 +84,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
 - [Microservices FAQ & Kubernetes Native](faq.md)
-## SRE Site Reliability Engineering 
+## SRE Site Reliability Engineering
 - [Site Reliability Engineering (SRE)](sre.md)
 - [Networking](networking.md)
 - [FinOps - Cloud Financial Management](finops.md)
@@ -132,7 +132,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## Software Delivery Pipeline
 - [CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
 - [Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
-### Jenkins & CloudBees 
+### Jenkins & CloudBees
 - [Jenkins & CloudBees 😀](jenkins.md)
 - [Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc](performance-testing-with-jenkins-and-jmeter.md)
 ### OpenShift Pipelines
@@ -152,7 +152,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [MkDocs & GitHub Pages](mkdocs.md)
 ### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
 - [Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
-- [Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more](java_app_servers.md) 
+- [Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more](java_app_servers.md)
 - [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 - [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
@@ -183,7 +183,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Crunchy Data PostgreSQL Operator](crunchydata.md)
 - [NoSQL Databases](nosql.md)
 ## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
-- [Data Pipeline 🌟](message-queue.md) 
+- [Data Pipeline 🌟](message-queue.md)
 ## Service Mesh
 - [Service Mesh](servicemesh.md)
 - [Istio](istio.md)
@@ -217,7 +217,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [==Microsoft Azure==](azure.md)
 - [==Google Cloud Platform==](GoogleCloudPlatform.md)
 - [IBM & IBM Cloud](ibm_cloud.md)
-- [Oracle Cloud](oraclecloud.md) 
+- [Oracle Cloud](oraclecloud.md)
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
 - [Scaleway](scaleway.md)
@@ -246,7 +246,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more](java_frameworks.md)
 - [Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
 - [Java Parameters Matrix Table](jvm-parameters-matrix-table.md)
-### Dev Environment 
+### Dev Environment
 - [Visual Studio Code 🌟](visual-studio.md)
 - [WSL: Linux Dev Environment on Windows](linux-dev-env.md)
 - [Scaffolding Tools](scaffolding.md)
@@ -267,7 +267,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Forums and Communities](newsfeeds.md)
 - [E-Learning](elearning.md)
 - [Digital Money](digital-money.md)
-## Hiring and Freelancing 
+## Hiring and Freelancing
 - [Recruitment](recruitment.md)
 - [Freelancing](freelancing.md)
 - [Remote Tech Jobs](remote-tech-jobs.md)
@@ -276,11 +276,11 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 ---
 <center>
-[![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/> 
-[![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/> 
+[![docker videos](images/docker_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/DockerIo) [![cncf videos](images/cncf_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cloudnativefdn) [![kubernetes logo](images/kubernetes_logo.jpg){: style="width:7%"}](https://www.youtube.com/kubernetescommunity) [![redhat videos](images/redhat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/redhat) [![openshift videos](images/openshift_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenShift) [![rancher logo](images/rancher-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Rancher) [![cloudbees videos](images/cloudbees_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CloudBeesTV) [![jenkins videos](images/jenkins-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/jenkinscicd) [![jenkins-x videos](images/jenkins_x_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCN2kblPjXKMcjjVYmwvquvg) [![spinnaker videos](images/spinnaker_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCcxQbw8kT1-FRhFhO2QCetg) [![vmware tanzu logo](images/vmware_tanzu_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/VMwareTanzu)<br/>
+[![ibm cloud videos](images/ibm_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/IBMTechnology) [![aws videos](images/aws_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/amazonwebservices) [![gcp videos](images/gcp_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/googlecloudplatform/) [![azure videos](images/azure_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MicrosoftAzure) [![oraclecloud videos](images/oracle_cloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OracleCloudInfrastructure) [![digitalocean videos](images/digital_ocean_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Digitalocean) [![cloudflare](images/cloudflare_logo.jpg){: style="width:7%"}](https://www.youtube.com/cloudflare) [![scaleway cloud](images/scaleway_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/Scaleway-Cloud) [![openstack](images/openstack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenStackFoundation) [![harhicorp videos](images/hashicorp_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/HashiCorp) [![pulumi videos](images/pulumi_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PulumiTV) <br/>
 [![dzone videos](images/dzone_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dzone/) [![prometheus videos](images/prometheus_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/PrometheusIo) [![grafana videos](images/grafana_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Grafana) [![istio videos](images/istio_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Istio) [![elastic videos](images/elasticsearch_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Elastic) [![dynatrace videos](images/dynatrace_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/dynatrace) [![appdynamics videos](images/appdynamics_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/appdynamics) [![newrelic videos](images/newrelic_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/NewRelicInc) [![tigera calico](images/tigera_calico_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC8uN3yhpeBeerGNwDiQbcgw) [![weavecloud](images/weavecloud_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/WeaveWorksInc) [![lambdatest](images/lambdatest.jpg){: style="width:7%"}](https://www.youtube.com/c/LambdaTest)<br/>
-[![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Atlassian) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Code) [![github videos](images/github_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GitHub) [![gitlab video](images/gitlab_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitlab) [![gitkraken](images/gitkraken_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitkraken) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RocketChatApp) [![slack videos](images/slack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Slackhq) [![mattermost videos](images/mattermost_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MattermostHQ) [![microsoft365](images/microsoft_365_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/microsoft365) [![openproject](images/openproject_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenProjectCommunity) [![tetrate](images/tetrate_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Tetrate)<br/> 
-[![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RedHatDevelopers) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Quarkusio) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Lightbend-TV) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/postman) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Smartbear) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/JFrogInc) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Sonatypeinc) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GoogleChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MozillaDeveloper)<br/> 
+[![atlassian videos](images/atlassian_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Atlassian) [![vscode videos](images/vscode_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Code) [![github videos](images/github_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GitHub) [![gitlab video](images/gitlab_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitlab) [![gitkraken](images/gitkraken_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Gitkraken) [![rocketchat videos](images/rocket_chat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RocketChatApp) [![slack videos](images/slack_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Slackhq) [![mattermost videos](images/mattermost_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MattermostHQ) [![microsoft365](images/microsoft_365_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/microsoft365) [![openproject](images/openproject_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/OpenProjectCommunity) [![tetrate](images/tetrate_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Tetrate)<br/>
+[![rh devel](images/rh_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/RedHatDevelopers) [![spring logo](images/spring-logo.jpg){: style="width:7%"}](https://www.youtube.com/user/SpringSourceDev) [![quarkus logo](images/quarkus-logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Quarkusio) [![lightbend videos](images/lightbend_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Lightbend-TV) [![postman videos](images/postman_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/postman) [![swagger videos](images/smartbear_swagger_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Smartbear) [![jfrog](images/jfrog_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/JFrogInc) [![sonatype](images/sonatype_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Sonatypeinc) [![sonarsource sonarqube](images/sonarsource_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCS5-gTYteN9rnFd98YxYtrA) [![chrome developers videos](images/chromedevtools_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/GoogleChromeDevelopers) [![mozilla developer](images/mozilla_developer_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MozillaDeveloper)<br/>
 [![crunchydata](images/crunchydata_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/CrunchyDataPostgres) [![liquibase video](images/liquibase_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w) [![cockroachdb](images/cockroachdb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/cockroachdb) [![mongodb](images/mongodb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/MongoDBofficial) [![redis](images/redis_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Redisinc) [![confluent video](images/confluent_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Confluent) [![kubemq video](images/kubemq_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCud7fErZAyMC6lHT_cWZNfA) [![openebs](images/openebs_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g) [![storageos](images/storageos_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCm63IQg81KP9vXRWSHQpu1w) [![robin](images/robin_logo.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCt7N400Z8gB_3yKq1qrjP2w) [![portworx](images/portworx_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Portworx)<br/>
 [![cloud academy](images/cloud_academy_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:7%"}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:7%"}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)<br/>
 [![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
@@ -294,6 +294,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BE77h7dmoQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/318elIq37PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rT4fJNbfe14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

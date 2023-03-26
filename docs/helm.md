@@ -20,7 +20,7 @@
 
 - [thoughtworks.com: Helm](https://www.thoughtworks.com/radar/tools/helm)
 - [helm.sh](https://helm.sh/)
-    - [helm.sh/docs](https://helm.sh/docs) 
+    - [helm.sh/docs](https://helm.sh/docs)
     - [helm.sh: Getting Started 🌟](https://helm.sh/docs/chart_template_guide/getting_started/)
 - [GitHub: Helm, the Kubernetes Package Manager](https://github.com/helm/helm) Installing and managing Kubernetes applications
 - [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)
@@ -83,8 +83,8 @@
 - [==medium: Test Helm Release in Production Environment with Zero Downtime== 🌟](https://medium.com/@deejiw/test-helm-release-in-production-environment-with-zero-downtime-400c5d41ecdf) Helm has been very popular for Kubernetes production. However, to ensure consistency across releases, today we are going to learn how to test deployment on production environment without any interruption with production pods.
 - [==learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps==](https://learn.hashicorp.com/tutorials/waypoint/gitops-helm-deployment)
 - [hashicorp.com: Deploying Helm Apps to Kubernetes with Waypoint and GitOps](https://www.hashicorp.com/blog/deploying-helm-apps-to-kubernetes-with-waypoint-and-gitops)
-- [medium.com/dailymotion: Deploying apps on multiple Kubernetes clusters with Helm](https://medium.com/dailymotion/deploying-apps-on-multiple-kubernetes-clusters-with-helm-19ee2b06179e) 
-- [gennyallcroft.medium.com: Understanding Kubernetes deployments with Helm](https://gennyallcroft.medium.com/understanding-kubernetes-deployments-with-helm-444116a622be) 
+- [medium.com/dailymotion: Deploying apps on multiple Kubernetes clusters with Helm](https://medium.com/dailymotion/deploying-apps-on-multiple-kubernetes-clusters-with-helm-19ee2b06179e)
+- [gennyallcroft.medium.com: Understanding Kubernetes deployments with Helm](https://gennyallcroft.medium.com/understanding-kubernetes-deployments-with-helm-444116a622be)
 - [medium.com/codex: Helm Charts For Kubernetes Developers](https://medium.com/codex/helm-charts-for-kubernetes-developers-dce5719d4c8c)
 - [==apiiro.com: Malicious Kubernetes Helm Charts can be used to steal sensitive information from Argo CD deployments==](https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments/)
 - [medium.com/@paolo.gallina: How-to release Helm Charts maintaining your mental health 🌟](https://medium.com/@paolo.gallina/releasing-helm-charts-maintaining-your-mental-health-b382685390c8) Three tips for maintaining and developing Helm charts.
@@ -115,6 +115,7 @@
 - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)
 - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
 - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) In this tutorial, you will learn the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
+- [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)
 
 ## Helm Plugins
 
@@ -136,6 +137,7 @@
 ## Helm Dashboard
 
 - [medium.com/geekculture: K8s — Helm Dashboard](https://medium.com/geekculture/k8s-helm-dashboard-d7509c5fee88) The missing UI of Helm
+- [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2)
 
 ## Kubecrt
 
@@ -159,16 +161,16 @@ Kubernetes packages
     - [charts.helm.sh/incubator 🌟](https://charts.helm.sh/incubator/)
 - [Bitnami Helm Charts](https://bitnami.com/stacks/helm)
 - [JFrog ChartCenter](https://chartcenter.io/)
-    - [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications 
+    - [Navigating Kubernetes With Helm 3 Charts and ChartCenter 🌟](https://dzone.com/articles/navigating-kubernetes-with-helm-3-charts-and-chart) ChartCenter is a free central repository for discovering Helm Charts, created to help manage your Kubernetes applications
 - [Artifact Hub 🌟](https://artifacthub.io/) Find, install and publish Kubernetes packages
 - [KubeApps Hub](https://hub.kubeapps.com/)
 - [github: Nova 🌟](https://github.com/fairwindsops/nova) Find outdated or deprecated Helm charts running in your cluster.
 - [github: Kubernetes Deployment Orchestrator](https://github.com/SAP/kubernetes-deployment-orchestrator) This project brings the starlark scripting language to helm charts.
 - [harness.io: Tutorial: Turning a GitHub Repo Into a Helm Chart Repo](https://harness.io/blog/devops/helm-chart-repo/)
-  
+
 ## Helm Charts
 
-- [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins) 
+- [Jenkins](https://github.com/helm/charts/tree/master/stable/jenkins)
 - [Codecentric Jenkins 🌟](https://github.com/codecentric/helm-charts/tree/master/charts/jenkins) Helm 3 compliant (Simpler and more secure than helm 2)
 - [Nexus3](https://github.com/helm/charts/tree/master/stable/sonatype-nexus)
 - [Choerodon Nexus3 🌟](https://hub.helm.sh/charts/choerodon/nexus3) Helm 3 compliant (Simpler and more secure than helm 2)

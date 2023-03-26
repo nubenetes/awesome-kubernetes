@@ -39,7 +39,7 @@
 - [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy)
 - [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend) Employees often assume human resources is there to help. But given HR really works for the company, is it ever really on our side?
 - [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration/)
-- https://en.wikipedia.org/wiki/Great_Resignation 
+- https://en.wikipedia.org/wiki/Great_Resignation
 - [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/2021/12/16/how-to-navigate-the-great-resignation)
 - [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)
 - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)
@@ -85,10 +85,11 @@
 - [xataka.com: Si no asciendo ni aprendo, me largo de la empresa: el crecimiento profesional como estrategia para retener talento](https://www.xataka.com/empresas-y-economia/no-asciendo-aprendo-me-largo-empresa-crecimiento-profesional-como-estrategia-para-retener-talento)
 - [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/9-factores-repercuten-felicidad-trabajador-352445)
 - [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757)
+- [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior)
 
 ## Recruitment Portals
 
-- [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages 
+- [relocate.me](https://relocate.me/) Job relocation made easy. Find tech jobs w/ relocation packages
     - [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) All-in-one guide to getting a tech job abroad 🌎
 - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com/)
 

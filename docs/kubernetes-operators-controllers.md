@@ -55,7 +55,7 @@
 - [medium.com: Getting Started With Kubernetes Operators (Helm Based) - Part 1](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-helm-based-part-1)
     - [medium.com: Getting Started With Kubernetes Operators (Ansible Based) — Part 2](https://medium.com/velotio-perspectives/getting-started-with-kubernetes-operators-ansible-based-part-2-472eb0d453b7)
     - [velotio.com: Getting Started With Kubernetes Operators (Golang Based) - Part 3](https://www.velotio.com/engineering-blog/getting-started-with-kubernetes-operators-golang-based-part-3)
-- [IngressMonitorController (Deprecated)](https://github.com/stakater/IngressMonitorController) A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc. 
+- [IngressMonitorController (Deprecated)](https://github.com/stakater/IngressMonitorController) A Kubernetes controller to watch ingresses and create liveness alerts for your apps/microservices in UptimeRobot, StatusCake, Pingdom, etc.
 - [==FairwindsOps/rbac-manager: RBAC Manager== 🌟](https://github.com/FairwindsOps/rbac-manager) A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. RBAC Manager is designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.
 - [KubePlus - Kubernetes Operator to deliver Helm charts as-a-service 🌟](https://github.com/cloud-ark/kubeplus)
 - [kubernetes.io: Writing a Controller for Pod Labels](https://kubernetes.io/blog/2021/06/21/writing-a-controller-for-pod-labels/)
@@ -92,7 +92,7 @@
     - Users can specify how many approvals do they need before a resource is updated.
     - https://keel.sh
 - [medium.com/@mjkool: Kubernetes Operator — Simplified!](https://medium.com/@mjkool/kubernetes-operator-simplified-96b8c8f7e627)
-- [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332) A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable. 
+- [medium.com/@timebertt: Kubernetes Controllers at Scale: Clients, Caches, Conflicts, Patches Explained](https://medium.com/@timebertt/kubernetes-controllers-at-scale-clients-caches-conflicts-patches-explained-aa0f7a8b4332) A developer guideline to Kubernetes clients in go. As most development in the Kubernetes space is done in Go, available client libraries for interacting with the Kubernetes API have evolved over time to make controllers more scalable.
 - [openshift/machine-api-operator](https://github.com/openshift/machine-api-operator) The Machine API Operator manages the lifecycle of specific purpose CRDs, controllers and RBAC objects that extend the Kubernetes API. This allows to convey desired state of machines in a cluster in a declarative fashion
 - [rancher/system-upgrade-controller: System Upgrade Controller](https://github.com/rancher/system-upgrade-controller) This project aims to provide a general-purpose, Kubernetes-native upgrade controller (for nodes). It introduces a new CRD, the Plan, for defining any and all of your upgrade policies/requirements. A Plan is an outstanding intent to mutate nodes in your cluster.
 - [alenkacz.medium.com: Kubernetes operator best practices: Implementing observedGeneration](https://alenkacz.medium.com/kubernetes-operator-best-practices-implementing-observedgeneration-250728868792) There's a lot of hidden knowledge in core controllers and api conventions doc that is not followed by many controllers in the wild. One of these patterns is observedGeneration. In this article, you will learn what problems it can help solve.
@@ -108,7 +108,7 @@
 - [awstip.com: Manage AWS services directly from Kubernetes - AWS Controllers for Kubernetes (ACK)](https://awstip.com/manage-aws-services-directly-from-kubernetes-%EF%B8%8F-6c94e376febb) The AWS team released the ACK project, which allows users to create AWS services from within a Kubernetes cluster. In this tutorial, you will learn how to create an S3 bucket with a "Bucket" CRD.
 - [vitobotta/velero-notifications](https://github.com/vitobotta/velero-notifications) Velero-notifications is a simple Kubernetes controller written in Ruby that sends email/Slack/webhook notifications when backups or restores are performed by Velero in a Kubernetes cluster.
 - [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes. The NVIDIA GPU is a Kubernetes operator that automates the management of all NVIDIA software components needed to provision GPUs. These components include drivers, the Kubernetes device plugin, the NVIDIA Container Runtime, etc.
-    - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically: 
+    - [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) The NVIDIA device plugin for Kubernetes is a Daemonset that allows you to automatically:
         - Expose the number of GPUs on each node of your cluster
         - Keep track of the health of your GPUs
         - Run GPU enabled containers in your Kubernetes cluster
@@ -125,7 +125,7 @@
     - Keeping your volumes at a minimal size can help reduce cost, but having to manually scale them up can be painful and a waste of time for an DevOps / Systems Administrator. This is often used on storage volumes against things in Kubernetes such as Prometheus, MySQL, Redis, RabbitMQ, or any other stateful service.
 - [borchero/switchboard: Switchboard](https://github.com/borchero/switchboard) Kubernetes Operator for Automatically Issuing DNS Records and TLS Certificates for Traefik Ingress Routes.
 - [scylladb/scylla-operator](https://github.com/scylladb/scylla-operator) Scylla Operator is a Kubernetes Operator for managing and automating tasks related to managing Scylla clusters
-- [==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained==](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6) 
+- [==faun.pub: Kubernetes Controllers, Custom Resources, and Operators Explained==](https://faun.pub/kubernetes-controllers-custom-resources-and-operators-explained-8e92f46829f6)
     - This article will dive deep into one of Kubernetes’ core concepts — Controllers, Kubernetes API, CRDs, and Operators.
     - This 4-part series covers:
         - Kubernetes controllers, Custom Resources, and operators
@@ -133,10 +133,14 @@
         - Testing Kubebuilder operators
         - Deploying Kubebuilder operators to Kubernetes
 - [coderanger/migrations-operator: Migrations-Operator](https://github.com/coderanger/migrations-operator) A Kubernetes operator to manage database migrations or similar application setup tasks.
+- [omerxx.com: 10 Things I wish I’d known before building a Kubernetes CRD controller](https://omerxx.com/k8s-controllers/) Controllers, operators, informers and other K8s mysteries. This article discusses a few of the gotchas of developing Kubernetes controllers:
+    - CRDs don't create metadata by default
+    - Interacting with CRDs outside the controller's context is not straightforward
+    - "The DefaultUnstructuredConverter"
 
 ## Creating Kubernetes operator using Kubebuilder
 
-- [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) Kubebuilder - SDK for building Kubernetes APIs using CRDs
+- [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) Kubebuilder - SDK for building Kubernetes APIs using CRDs. Kubebuilder is a framework for building Kubernetes APIs using custom resource definitions (CRDs). Kubebuilder increases velocity and reduces the complexity managed by developers for rapidly building and publishing Kubernetes APIs in Go.
     - https://book.kubebuilder.io
 - [medium.com/@adnn.selimovic: Creating Kubernetes operator using **Kubebuilder**](https://medium.com/@adnn.selimovic/creating-kubernetes-operator-using-kubebuilder-15db5f29ee50)
 - [medium.com/geekculture: A New Pattern that Simplifies Operator Building](https://medium.com/geekculture/a-new-pattern-that-simplifies-operator-building-39df5d021cfa) Build Kubernetes Operator with **Kubebuilder** and declarative pattern. kubebuilder-declarative-pattern provides a set of tools for building cluster operators with kubebuilder. Declarative operators provide a fast path to orchestrating deployments instead of reinventing the wheel i.e. "how do I get/update this YAML?"
@@ -168,7 +172,7 @@
 ## K8Spin Operator. Kubernetes multi-tenant operator
 
 - [K8Spin Operator 🌟](https://github.com/k8spin/k8spin-operator) Kubernetes multi-tenant operator. Enables multi-tenant capabilities in your Kubernetes Cluster. [We defined some small features to implement](https://github.com/k8spin/k8spin-operator/projects/1). If you know python & Kubernetes and want to contribute to this project, ping us!
-- [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/) 
+- [thenewstack.io: K8Spin Provides Multitenant Isolation for Kubernetes](https://thenewstack.io/k8spin-provides-multitenant-isolation-for-kubernetes/)
 - [Discover K8Spin open source software](https://k8spin.cloud/oss-projects/)
 
 ## K8s KPIs with Kuberhealthy Operator

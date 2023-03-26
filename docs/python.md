@@ -174,7 +174,7 @@
 - [pythonsimplified.com: Understanding namespaces and scope in Python](https://pythonsimplified.com/understanding-namespaces-and-scope-in-python)
 - [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners)
 - [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf)
-- [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer) 
+- [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer)
 - [makeuseof.com: 11 Useful Python One-Liners You Must Know](https://www.makeuseof.com/useful-python-one-liners-you-must-know/) Python One-Liners can help you perform complex tasks with just one line of Python code. Here are some of the most useful ones to know!
 - [dev.to: Installing Python in Ubuntu 20.04](https://dev.to/jkariukidev/installing-python-in-ubuntu-2004-4nf8)
 - [redhat.com: Packaging applications to install on other machines with Python](https://www.redhat.com/sysadmin/packaging-applications-python) Use a virtual environment, pip, and setuptools to package applications with their dependencies for smooth installation on other computers.
@@ -236,6 +236,13 @@
 - [mishrapartha.blogspot.com: A Beginner’s Guide to Python for Data Science - Part 5 Adding Comments in Python](https://mishrapartha.blogspot.com/2022/11/a-beginners-guide-to-python-for-data_19.html)
 - [morioh.com: How to create Google Map in Python using Gmaps](https://morioh.com/p/a9bdee14b0d2)
 - [pydantic/pydantic](https://github.com/pydantic/pydantic) Data parsing and validation using Python type hints
+- [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit) is a Python library with various helpful features. It's easy-to-use and does not require you to do any additional setup. Currently, it is one of the most popular library for WhatsApp and YouTube automation.
+- [medium.com/@connect.hashblock: Learn how you can create a chatbot in Python](https://medium.com/@connect.hashblock/learn-how-you-can-create-a-chatbot-in-python-da136467309b)
+- [freecodecamp.org: Learn Data Structures and Algorithms – Introduction and Learning Resources](https://www.freecodecamp.org/news/learn-data-structures-and-algorithms/)
+- [adicode.ml: Take your web development to next level with these python libraries](https://adicode.ml/python-libraries-for-webdevelopment)
+- [freecodecamp.org: How to Use PyScript – A Python Frontend Framework 🌟](https://www.freecodecamp.org/news/pyscript-python-front-end-framework/) Python is popular for web development, often used on the backend w/ frameworks like Django & Flask. But there's a newer framework called PyScript that lets you use Python on the web with regular HTML.
+- [realpython.com: How to Get a List of All Files in a Directory With Python](https://realpython.com/get-all-files-in-directory-python/)
+- [freecodecamp.org: Python For Loop - For i in Range Example](https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example/)
 
 ## PHP vs Python
 
@@ -249,11 +256,11 @@
 ## Thoth
 
 - [Project Thoth](https://thoth-station.ninja/) Using Artificial Intelligence to analyse and recommend software stacks for Python applications.
-- [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) One of Thoth's major offerings is a cloud-based resolver, which examines the packages and libraries requested by an application and determines the best way to resolve them so that they work together in the target environment. 
+- [developers.redhat.com: Thoth prescriptions for resolving Python dependencies](https://developers.redhat.com/articles/2021/09/22/thoth-prescriptions-resolving-python-dependencies) One of Thoth's major offerings is a cloud-based resolver, which examines the packages and libraries requested by an application and determines the best way to resolve them so that they work together in the target environment.
 
 ## Python Books
 
-- [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks. 
+- [Python Data Science Handbook 🌟](https://jakevdp.github.io/PythonDataScienceHandbook/) This website contains the full text of the Python Data Science Handbook by Jake VanderPlas; the content is available on GitHub in the form of Jupyter notebooks.
     - [github.dev: Python Data Science Handbook](https://github.dev/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 - [automatetheboringstuff.com: Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
@@ -279,7 +286,7 @@
 - [webcodegeeks.com: Python Django Tutorial](http://www.webcodegeeks.com/python/python-django-tutorial/)
 - [digitalocean.com: Building a REST API With Django REST Framework](https://www.digitalocean.com/community/tech_talks/building-a-rest-api-with-django-rest-framework)
 - [github.com: Django Blog Site](https://github.com/AmineAsli/django-blog-site) A simple blog application based on Django
-- [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework. 
+- [github.com: Django Sage Painless](https://github.com/sageteam-org/django-sage-painless) A handy tool for generating Django-based backend projects without coding. On the other hand, it is a code generator of the Django framework.
 - [dev.to: Data Migration from Monolith to Microservice in Django](https://dev.to/balwanishivam/data-migration-from-monolith-to-microservice-in-django-5b9m)
 - [dev.to: Building a REST API with Django REST Framework 🌟](https://dev.to/faruqt/how-to-connect-django-to-reactjs-part-2-2oje)
 - [==betterprogramming.pub: Dockerize Your Django Apps==](https://betterprogramming.pub/dockerize-your-django-apps-428189407c69) From local development to production
@@ -321,7 +328,7 @@
 - [reddit: Real examples of unit testing](https://www.reddit.com/r/learnpython/comments/3zl0p6/real_examples_of_unit_testing/)
 - [Testing Python](http://it-ebooks.info/book/3778/)
 - [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/blog/2015/guide-to-python-profiling-cprofile-concrete-case-carbonara)
-- [nylas.com: Profiling Python in Production](https://nylas.com/blog/performance) How We Reduced CPU Usage by 80% through Python Profiling 
+- [nylas.com: Profiling Python in Production](https://nylas.com/blog/performance) How We Reduced CPU Usage by 80% through Python Profiling
 - [gabbi - Declarative HTTP testing library pypi](http://pypi.python.org/pypi/gabbi/)
 - [tracker: A time machine for debugging pesky stateful errors](https://github.com/madisonmay/tracker)
 
@@ -360,7 +367,7 @@
 
 ### Orchest. Data Pipelines with Python and R code. No frameworks. No YAML
 
-- [orchest.io](https://www.orchest.io/) - [orchest/orchest](https://github.com/orchest/orchest) Build data pipelines, the easy way 🛠️. No frameworks. No YAML. Just write Python and R code in Notebooks. 
+- [orchest.io](https://www.orchest.io/) - [orchest/orchest](https://github.com/orchest/orchest) Build data pipelines, the easy way 🛠️. No frameworks. No YAML. Just write Python and R code in Notebooks.
 
 ## Python standard library Modules and Code
 
@@ -388,7 +395,7 @@
 - [ZipPy: Python3 on top of the JVM (faster than PyPy!)](https://bitbucket.org/ssllab/zippy)
 - [DictMySQL: A MySQL class for more convenient database manipulation with Python dictionary](https://github.com/ligyxy/DictMySQL)
 - [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython/)
-- [Kite 🌟](https://www.kite.com/) Kite is the best autocompletions engine available for Python, powered by AI. Check it out — It's free! 
+- [Kite 🌟](https://www.kite.com/) Kite is the best autocompletions engine available for Python, powered by AI. Check it out — It's free!
 - [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter)
 - [medium: Build Interactive CLI Tools in Python](https://medium.com/codestory/build-interactive-cli-tools-in-python-47303c50d75) Bored of traditional CLIs? Develop interactive command lines with PyInquirer
 - [Pydeps 🌟](https://github.com/thebjorn/pydeps) Python Module Dependency graphs
@@ -396,6 +403,7 @@
 - [makeuseof.com: 10 Useful Tools for Python Developers](https://www.makeuseof.com/python-developer-tools/) Whether you need Python tools for data science, machine learning, web development, or anything in between, this list has you covered.
 - [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a)
 - [==google/python-fire== 🌟](https://github.com/google/python-fire) Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+- [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) Memray is a memory profiler for Python
 
 ### Web Scraping with Python
 

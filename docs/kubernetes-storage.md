@@ -78,6 +78,7 @@
 - [medium.com/geekculture: Storage | Kubernetes](https://medium.com/geekculture/storage-kubernetes-92eb3d027282) A Deep Dive into Kubernetes Storage
 - [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container's local storage.
 - [==container-object-storage-interface.github.io: Kubernetes COSI==](https://container-object-storage-interface.github.io/) Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.
+- [containiq.com: Kubernetes Ephemeral Volumes & Storage | Tutorial](https://www.containiq.com/post/kubernetes-ephemeral-storage) In this article, we’ll discuss how Kubernetes handles ephemeral storage and learn how these volumes are provisioned in operating clusters.
 
 ## Kubernetes Storage Classes
 
@@ -91,7 +92,7 @@
 - [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework/)
 - [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4)
 - [github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner 🌟](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) **The local volume static provisioner manages PersistentVolume lifecycle for pre-allocated disks by detecting and creating PVs for each local disk on the host and cleaning up the disks when released. It does not support dynamic provisioning**
-- [shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce) In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects 'desiredStateOfWorld' and 'actualStateOfWorld' and 'reconcile' the volumes on the node to the desired state. 
+- [shuanglu1993.medium.com: What happens when volumeManager in the kubelet starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce) In this deep-dive, you will learn how the volumeManager sync loop is initialized and starts 3 async calls to maintain the objects 'desiredStateOfWorld' and 'actualStateOfWorld' and 'reconcile' the volumes on the node to the desired state.
 - [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f/)
 - [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://blog.newrelic.com/engineering/how-to-use-kubernetes-volumes/)
 - [==medium.com/codex: Kubernetes Persistent Volume Explained==](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393) Learn what a Persistent Volume is and how to create a persistent volume from a storage class. Then, learn how to create a persistent volume claim and how to attach the PVC to a Pod:
@@ -120,7 +121,7 @@
 
 ## DoK Community
 
-- [==DoK Community== 🌟](https://dok.community) 
+- [==DoK Community== 🌟](https://dok.community)
 - Kubernetes was originally designed to run stateless workloads. Today, it is increasingly used to run databases and other stateful workloads. Yet despite the success of these early adopters, there remain few known good practices for running data on Kubernetes.
 - After discussions with thousands of companies and individuals running data workloads on Kubernetes we’ve come to see that there is a need for a sharing of patterns and concerns about how to build and operate data-centric applications on Kubernetes. As a result, the **Data on Kubernetes Community (DoKC)** was born.
 - [==dok.community: Data on Kubernetes 2021== 🌟](https://dok.community/dokc-2021-report/) Insights from over 500 executives and technology leaders on how Kubernetes is being used for data and the factors driving further adoption
@@ -162,10 +163,10 @@
 
 ### OpenEBS
 
-- [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach. 
+- [OpenEBS](https://openebs.io/) extends the benefits of software-defined storage to cloud native through the container attached approach.
 - [MayaData](https://mayadata.io/) Founder of OpenEBS
 - [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371/)
-- [OpenEBS Features and Benefits](https://docs.openebs.io/docs/next/features.html) OpenEBS is cloudnative storage for stateful applications on K8s where "cloud native" means following a loosely coupled architecture. As such the normal benefits to cloud native, loosely coupled architectures apply. 
+- [OpenEBS Features and Benefits](https://docs.openebs.io/docs/next/features.html) OpenEBS is cloudnative storage for stateful applications on K8s where "cloud native" means following a loosely coupled architecture. As such the normal benefits to cloud native, loosely coupled architectures apply.
 - [openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent Volumes](https://github.com/openebs/dynamic-localpv-provisioner) Dynamic Local Volumes for Kubernetes Stateful workloads.
 - [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using LVM.
 
@@ -190,7 +191,7 @@
 
 ### Linbit
 
-- [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes/) 
+- [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes/)
 
 ### Kadalu
 

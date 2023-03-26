@@ -8,58 +8,60 @@
 6. [Azure Naming Convention](#azure-naming-convention)
 7. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
 8. [Understand Azure Load Balancing](#understand-azure-load-balancing)
-9. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
-10. [Azure Patterns](#azure-patterns)
-11. [ARM Templates](#arm-templates)
-12. [Azure DevOps](#azure-devops)
+9. [Azure Load Testing](#azure-load-testing)
+10. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
+11. [Azure Patterns](#azure-patterns)
+12. [ARM Templates](#arm-templates)
+13. [Azure DevOps](#azure-devops)
      1. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      2. [Azure Pipeline Tasks](#azure-pipeline-tasks)
-13. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
+14. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
-14. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
-15. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
-16. [Azure App Service](#azure-app-service)
-17. [Azure Application Gateway](#azure-application-gateway)
-18. [Azure Functions](#azure-functions)
-19. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
-20. [Mobile Apps](#mobile-apps)
-21. [Powershell](#powershell)
+15. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
+16. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
+17. [Azure App Service](#azure-app-service)
+18. [Azure Application Gateway](#azure-application-gateway)
+19. [Azure Functions](#azure-functions)
+20. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
+21. [Mobile Apps](#mobile-apps)
+22. [Powershell](#powershell)
      1. [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
      2. [Powershell repos](#powershell-repos)
      3. [Crescendo powershell module](#crescendo-powershell-module)
      4. [Secrets Management with Powershell](#secrets-management-with-powershell)
-22. [Azure CLI. AZ CLI](#azure-cli-az-cli)
-23. [Azure Run Command](#azure-run-command)
-24. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
-25. [Azure Bicep](#azure-bicep)
-26. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
-27. [Azure Traffic Manager](#azure-traffic-manager)
-28. [Azure DNS](#azure-dns)
-29. [Azure OpenVPN](#azure-openvpn)
-30. [Azure Security](#azure-security)
-31. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-32. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-33. [Windows 11](#windows-11)
-34. [Azure API Management](#azure-api-management)
-35. [Azure Container Apps](#azure-container-apps)
-36. [Azure Container Instances](#azure-container-instances)
-37. [Windows Server Container Host](#windows-server-container-host)
-38. [Disaster Recovery](#disaster-recovery)
-39. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-40. [Azure Healthcare Data Services](#azure-healthcare-data-services)
-41. [Office 365](#office-365)
-42. [Azure Books](#azure-books)
-43. [Images](#images)
-44. [Videos](#videos)
-45. [Tweets](#tweets)
+23. [Azure CLI. AZ CLI](#azure-cli-az-cli)
+24. [Azure Run Command](#azure-run-command)
+25. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
+26. [Azure Bicep](#azure-bicep)
+27. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
+28. [Azure Traffic Manager](#azure-traffic-manager)
+29. [Azure DNS](#azure-dns)
+30. [Azure OpenVPN](#azure-openvpn)
+31. [Azure Security](#azure-security)
+32. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+33. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+34. [Windows 11](#windows-11)
+35. [Azure API Management](#azure-api-management)
+36. [Azure Container Apps](#azure-container-apps)
+37. [Azure Container Instances](#azure-container-instances)
+38. [Windows Server Container Host](#windows-server-container-host)
+39. [Disaster Recovery](#disaster-recovery)
+40. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+41. [Azure Healthcare Data Services](#azure-healthcare-data-services)
+42. [Office 365](#office-365)
+43. [Azure Books](#azure-books)
+44. [Azure OpenAI](#azure-openai)
+45. [Images](#images)
+46. [Videos](#videos)
+47. [Tweets](#tweets)
 
 ## Azure
 
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Microsoft Docs](https://docs.microsoft.com/)
 - [Azure Docs](https://docs.microsoft.com/azure)
-- [Introducing the third of three Microsoft Clouds: Azure](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/). 4 major sections of the Cloud Models are: 
+- [Introducing the third of three Microsoft Clouds: Azure](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/). 4 major sections of the Cloud Models are:
     - On-Premises: As you start on the left in the traditional on-prem configuration you are responsible for all layers of IT from the networking stack all the way up to the applications which are being provided. You may also be responsible for the data center, power, Internet service, and other underlying aspects.
     - Infrastructure as a Service: In IaaS (Take & Bake) the cloud vendor is responsible for the stack from networking through virtualization and your IT team is responsible for the Operating System (OS) through the applications. Common uses of IaaS are testing environments, development environments or hosting of a website.
     - Platform as a Service: In PaaS (Pizza Delivered) the cloud vendor is responsible for the networking layers through the runtime layer and your IT team is responsible for the data and the applications. PaaS is commonly used to test, build and deploy applications for an organization.
@@ -76,13 +78,13 @@
 - [k21academy.com: Azure Data Lake Overview For Beginners](https://k21academy.com/microsoft-azure/data-engineer/azure-data-lake/)
 - [theregister.com: Microsoft Azure deprecations: API changes will break applications and PowerShell scripts](https://www.theregister.com/2021/09/03/microsoft_azure_deprecations_api_changes/)
 - [k21academy.com: Azure RBAC Vs Azure Policies Vs Azure Blueprints](https://k21academy.com/microsoft-azure/azure-rbac-vs-azure-policies-vs-azure-blueprints/)
-- [==blog.identitydigest.com: Azure AD workload identity federation with Kubernetes==](https://blog.identitydigest.com/azuread-federate-k8s/) Any k8s cluster, running on any platform, can now securely access Azure resources without keys or secrets through Azure AD Workload Identity Federation. 
+- [==blog.identitydigest.com: Azure AD workload identity federation with Kubernetes==](https://blog.identitydigest.com/azuread-federate-k8s/) Any k8s cluster, running on any platform, can now securely access Azure resources without keys or secrets through Azure AD Workload Identity Federation.
 - [thomasmaurer.ch: How to check the available VM Sizes (SKUs) by Azure Region](https://www.thomasmaurer.ch/2021/02/how-to-check-the-available-vm-sizes-skus-by-azure-region/)
 - [docs.microsoft.com: Multi-tenant user management scenarios](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/multi-tenant-user-management-scenarios)
-- [docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/cross-tenant-access-overview) Azure AD organizations can use External Identities cross-tenant access settings to manage how they collaborate with other Azure AD organizations through B2B collaboration. Cross-tenant access settings give you granular control over how external Azure AD organizations collaborate with you (inbound access) and how your users collaborate with external Azure AD organizations (outbound access). 
+- [docs.microsoft.com: Overview: Cross-tenant access with Azure AD External Identities (Preview)](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/cross-tenant-access-overview) Azure AD organizations can use External Identities cross-tenant access settings to manage how they collaborate with other Azure AD organizations through B2B collaboration. Cross-tenant access settings give you granular control over how external Azure AD organizations collaborate with you (inbound access) and how your users collaborate with external Azure AD organizations (outbound access).
 - [==nubesgen.com==](https://nubesgen.com) - [microsoft/NubesGen](https://github.com/microsoft/NubesGen) Going to production on Azure is only one `git push` away. **Kickstart your project on Azure in minutes! Easily generate Terraform and Bicep templates for your project. Automate your infrastructure using GitOps best practices with GitHub Actions. NubesGen is an Open Source project and we are always looking for feedbacks and contributions.**
     - [infoq.com: NubesGen Brings Git Push to Azure Infrastructure](https://www.infoq.com/news/2022/03/nubesgen-azure-infrastructure/)
-- [charbelnemnom.com: Move Files Between Azure File Share Tiers and optimize storage costs](https://charbelnemnom.com/move-files-between-azure-file-share-tiers/) 
+- [charbelnemnom.com: Move Files Between Azure File Share Tiers and optimize storage costs](https://charbelnemnom.com/move-files-between-azure-file-share-tiers/)
 - [==techrepublic.com: What can you do with Azure Files?==](https://www.techrepublic.com/article/what-can-you-do-azure-files/)
 - [==satyenkumar.medium.com: Demystifying The Cloud: An Overview of the Microsoft Azure== 🌟🌟🌟](https://satyenkumar.medium.com/demystifying-the-cloud-computing-an-overview-of-the-microsoft-azure-6a5c1fb1799d) Learn how to make the most of the Azure cloud platform in this comprehensive story (Cloud Demystified Series). Go through 80% of Azure in 30 minutes
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
@@ -110,7 +112,7 @@
 ## Azure Training and Certifications
 
 - [johnthebrit/CertificationMaterials](https://github.com/johnthebrit/CertificationMaterials) A collection of materials related to my certification videos
-- [==azurecharts.com/learning: Azure Learning Explorer==](https://azurecharts.com/learning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest. 
+- [==azurecharts.com/learning: Azure Learning Explorer==](https://azurecharts.com/learning) Discover published Azure learning modules, paths, videos, certifications, exams for services of your interest.
 - [thomasmaurer.ch: How To Learn Microsoft Azure in 2022](https://www.thomasmaurer.ch/2022/01/how-to-learn-microsoft-azure-in-2022/)
 - [charbelnemnom.com: Exam AZ-305: Microsoft Certified: Azure Solutions Architect Expert](https://charbelnemnom.com/az-305-exam-study-guide-azure-solutions-architect/)
 
@@ -128,7 +130,12 @@
 ## Understand Azure Load Balancing
 
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
-- [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html) 
+- [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
+
+## Azure Load Testing
+
+- [Azure Load Testing](https://azure.microsoft.com/en-gb/products/load-testing)
+- [azure.microsoft.com: Microsoft Azure Load Testing is now generally available](https://azure.microsoft.com/en-gb/blog/microsoft-azure-load-testing-is-now-generally-available/)
 
 ## Microsoft Linux Distribution CBL Mariner
 
@@ -166,7 +173,7 @@
 - [dev.to: Setting up a CI-CD Pipeline Using Azure DevOps 🌟](https://dev.to/gbengelebs/setting-up-a-ci-cd-pipeline-using-azure-devops-4gb)
 - [zartis.com: Simplify Your SDLC with Azure DevOps 🌟](https://www.zartis.com/simplify-your-sdlc-with-azure-devops/)
 - [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/2021/04/29/scout-suite-reports-using-azure-devops-pipeline/) Interesting article on how to fecth az DevOps pipelines reports as a static website
-- [Azure DevOps Dashboard](https://github.com/cschotte/Azure-DevOps-Dashboard) 
+- [Azure DevOps Dashboard](https://github.com/cschotte/Azure-DevOps-Dashboard)
 - [cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine](https://cloud.google.com/architecture/creating-cicd-pipeline-vsts-compute-engine)
 - [letsdevops.net: Introduction to Azure DevOps for Beginners - Create CI/CD Pipelines, Setup Repository 🌟](https://www.letsdevops.net/post/letsdevops-introduction-to-azure-devops-for-beginners)
 - [kevinrchant.com: Increase in demand for Data Platform automation](https://www.kevinrchant.com/2021/09/16/increase-in-demand-for-data-platform-automation/)
@@ -209,7 +216,7 @@
 - [==medium.com/medialesson: Create Azure Active Directory App Registration with Azure CLI==](https://medium.com/medialesson/create-azure-active-directory-app-registration-with-azure-cli-3241aa3824c5)
 - [inkoop.io: How to get Azure API Credentials](https://www.inkoop.io/blog/how-to-get-azure-api-credentials/) How to create an application in Azure active directory and get subscription id, tenant id, client id, client secret and generate management certificates. You will need these keys to access Azure API.
 - [docs.microsoft.com: Use the portal to create an Azure AD application and service principal that can access resource](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
-- [medium.com/medialesson: Assigning Azure built-in roles vs Azure AD built-in roles with Azure CLI](https://medium.com/medialesson/assigning-azure-built-in-roles-vs-azure-ad-built-in-roles-with-azure-cli-d1cbf56fcdbe) Depending on what action you are trying to perform in Azure you might require either to be member of a certain Azure role or a certain Azure AD role. For example **if we want an identity to create an app registration in Azure AD we need the role Application Administrator which is part of the Azure AD roles.** When we want to create a resource in a certain resource group we need the Contributor role which is part of the Azure AD and typically scoped to a either a subscription, a resource group or a distinct resource. 
+- [medium.com/medialesson: Assigning Azure built-in roles vs Azure AD built-in roles with Azure CLI](https://medium.com/medialesson/assigning-azure-built-in-roles-vs-azure-ad-built-in-roles-with-azure-cli-d1cbf56fcdbe) Depending on what action you are trying to perform in Azure you might require either to be member of a certain Azure role or a certain Azure AD role. For example **if we want an identity to create an app registration in Azure AD we need the role Application Administrator which is part of the Azure AD roles.** When we want to create a resource in a certain resource group we need the Contributor role which is part of the Azure AD and typically scoped to a either a subscription, a resource group or a distinct resource.
 - [microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1](https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/dev/samples/9-Applications.ps1)
 - [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure)
 - [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli)
@@ -241,7 +248,7 @@
 - [learn.microsoft.com: Environment variables and app settings in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings)
 - [learn.microsoft.com: Configure a Java app for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java)
 - [learn.microsoft.com: Configure a custom container for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-custom-container)
-- [returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet](https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet/) 
+- [returngis.net: Acceder a un App Service con Private Endpoint desde otra Vnet](https://www.returngis.net/2021/08/acceder-a-un-app-service-con-private-endpoint-desde-otra-vnet/)
 - [youtube: How to run an App Service Web App on Azure Arc-enabled Kubernetes - Part 2 | Azure Tips and Tricks](https://www.youtube.com/watch?v=53-Y_aI0KpE&ab_channel=MicrosoftAzure)
 
 ## Azure Application Gateway
@@ -436,7 +443,7 @@
 
 ## Disaster Recovery
 
-- [docs.microsoft.com: Using Policy with Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery. 
+- [docs.microsoft.com: Using Policy with Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-policy) Disaster Recovery with Azure Policy. Learn how to enable Policy Support to protect your VMs using Azure Site Recovery.
 
 ## Azure Samples (Boilerplates)
 
@@ -467,6 +474,10 @@
 ## Azure Books
 
 - [==azure.microsoft.com: Azure for Architects, Third Edition==](https://azure.microsoft.com/en-us/resources/azure-for-architects/)
+
+## Azure OpenAI
+
+- [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/3686694/getting-started-with-azure-openai.html) Microsoft’s Azure-hosted OpenAI language models are now generally available, and it’s surprisingly simple to use them in your code.
 
 ## Images
 

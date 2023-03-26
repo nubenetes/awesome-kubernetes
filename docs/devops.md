@@ -14,28 +14,29 @@
 10. [DevOps Docs](#devops-docs)
 11. [DORA metrics](#dora-metrics)
 12. [DevOps Roadmap](#devops-roadmap)
-13. [Serverless DevOps](#serverless-devops)
-14. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
-15. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-16. [Xebia Labs and DevOps](#xebia-labs-and-devops)
-17. [DevOps Tools](#devops-tools)
-18. [Netflix and DevOps](#netflix-and-devops)
-19. [Public Cloud DevOps](#public-cloud-devops)
+13. [Multicloud](#multicloud)
+14. [Serverless DevOps](#serverless-devops)
+15. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+16. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
+17. [Xebia Labs and DevOps](#xebia-labs-and-devops)
+18. [DevOps Tools](#devops-tools)
+19. [Netflix and DevOps](#netflix-and-devops)
+20. [Public Cloud DevOps](#public-cloud-devops)
      1. [AWS DevOps](#aws-devops)
      2. [Azure DevOps](#azure-devops)
      3. [Google Cloud Platform](#google-cloud-platform)
-20. [NoOps](#noops)
-21. [NetOps](#netops)
-22. [PlatformOps](#platformops)
-23. [GPT 3 Tools](#gpt-3-tools)
-24. [Data as Code](#data-as-code)
-25. [DevOps for SAP](#devops-for-sap)
-26. [Youtube Playlists](#youtube-playlists)
-27. [Platform Engineering](#platform-engineering)
-28. [Bunch of Images](#bunch-of-images)
-29. [Slides](#slides)
-30. [Videos](#videos)
-31. [Tweets](#tweets)
+21. [NoOps](#noops)
+22. [NetOps](#netops)
+23. [PlatformOps](#platformops)
+24. [GPT 3 Tools](#gpt-3-tools)
+25. [Data as Code](#data-as-code)
+26. [DevOps for SAP](#devops-for-sap)
+27. [Youtube Playlists](#youtube-playlists)
+28. [Platform Engineering](#platform-engineering)
+29. [Bunch of Images](#bunch-of-images)
+30. [Slides](#slides)
+31. [Videos](#videos)
+32. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
@@ -67,7 +68,7 @@
 
 ## Automation Glossary
 
-- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary) 
+- [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 - [==DZone: Defining Day-2 Operations==](https://dzone.com/articles/defining-day-2-operations) Day-2 operations is where the system generates an outcome for the organization. Thus, continually seek improvements in day-2 operations, to maximize benefits.
 
 ## Blogs
@@ -88,7 +89,7 @@
 ## Podcasts
 
 - [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
-- [bikeshed.fm: The Bike Shed](https://www.bikeshed.fm) 
+- [bikeshed.fm: The Bike Shed](https://www.bikeshed.fm)
 
 ## Training
 
@@ -159,13 +160,13 @@
 - [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
 - [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
 - [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
-- [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
+- [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system.
 - [opensource.com: 10 tips for maintaining a DevOps mindset for distributed teams](https://opensource.com/article/20/6/devops-mindset) You can do DevOps while working from home; it's all about the right approach.
 - [dzone: The 10-Minute Read to Understanding DevOps Tools 🌟](https://dzone.com/articles/the-10-minute-read-to-understanding-devops-tools)
 - [stackoverflow.blog: The rise of the DevOps mindset 🌟](https://stackoverflow.blog/2020/06/10/the-rise-of-the-devops-mindset/)
 - [DevOps engineers: Common misconceptions about the role](https://enterprisersproject.com/article/2020/6/devops-engineer-role-common-misconceptions) What qualities and skills define a future-ready DevOps engineer? Hint: It's about people, not code deployment.
 - [DevOps for beginners: Where to start learning and focusing](https://enterprisersproject.com/article/2020/6/devops-beginners-where-start) Where to start with DevOps? Let's explore how to get going with this cross-functional way of working that breaks down walls, improves speed of delivery, and increases experimentation.
-- [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) 
+- [contino.io: How to Make Enterprise Container Strategies That Last (Part One) 🌟](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one)
 - [scaledagileframework.com: DevOps 🌟🌟](https://www.scaledagileframework.com/devops/)
 - [dzone: Why Now Is the Time for the Spring Boot of Infrastructure Automation 🌟](https://dzone.com/articles/why-now-is-the-time-for-the-spring-boot-of-infrast) Application teams move fast using frameworks built to boost developer productivity. Learn how a productivity framework can help your DevOps initiative succeed.
 - [containerjournal.com: How the Rise of Containers Will Drive DevOps](https://containerjournal.com/topics/container-ecosystems/how-the-rise-of-containers-will-drive-devops/)
@@ -191,7 +192,7 @@
 - [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers/)
 - [cloudtweaks.com: DevOps - Secure & scalable CI/CD pipeline with AWS 🌟](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/) Devops is a union of software development and operations. It is a culture that the company imbibes in the agile development process.
 - [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
-- [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps/) 
+- [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps/)
 - [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration/)
 - [devopscurry.com: Key DevOps Principles to focus in 2021](https://devopscurry.com/key-devops-principles-to-focus-in-2021/)
 - [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
@@ -260,7 +261,7 @@
 - [thenewstack.io: DevOps at the Crossroads: The Future of Software Delivery](https://thenewstack.io/devops-at-the-crossroads-the-future-of-software-delivery/)
 - [thenewstack.io: 3 Habits of Highly Successful DevOps Teams](https://thenewstack.io/3-habits-of-highly-successful-devops-teams/)
 - [devops.com: 5 Tips for a Successful DevOps Implementation](https://devops.com/5-tips-for-a-successful-devops-implementation)
-- [dev.to: DEV-OPS](https://dev.to/attaullahshafiq10/dev-ops-59dm) 
+- [dev.to: DEV-OPS](https://dev.to/attaullahshafiq10/dev-ops-59dm)
     - Its a culture, concept, process and approach that merges software requirement gathering, software development, testing, quality assurance, system configurations, product deployment and operations. Organizations building or improving software products are moving towards a DevOps approach where development, testing, security, quality assurance and operations are getting merged within a large team and those technical resources work side by side to achieve higher return on investment
     - DevOps is one of the most broad topics within software dev because it lacks boundaries and limitations. Many technologies, tools, concepts, processes and ideas converge to give a good DevOps pipeline and DevOps process resulting in agile planning, continuous integration, continuous delivery, and high level monitoring of your enterprise level software systems. Hence, devops is not a single role or even a team's work that deals with all the technologies and processes. It a mixture of culture, traditions and process.
 - [==github.blog: 5 DevOps tips to speed up your developer workflow== 🌟](https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/) From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.
@@ -310,6 +311,10 @@
 - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
 - [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap) A step by step guide outlining the most efficient path to become a DevOps engineer
 
+## Multicloud
+
+- [infoworld.com: How multicloud changes devops](https://www.infoworld.com/article/3686695/how-multicloud-changes-devops.html) More clouds, more complexity, more challenges. Now’s the time to prepare for the impact multicloud will have on your devops teams.
+
 ## Serverless DevOps
 
 - [dzone: The Serverless Path to DevOps](https://dzone.com/articles/the-serverless-path-to-devops) Serverless and DevOps combine in this article the uses AWS services as examples of how serverless technologies benefit DevOps processes.
@@ -337,7 +342,7 @@
 
 ## Netflix and DevOps
 
-- [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
+- [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)
 - [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
 
 ## Public Cloud DevOps
@@ -374,7 +379,7 @@
 ## GPT 3 Tools
 
 - [dzone: 3 GPT-3 Tools for Developers, Software and DevOps Engineers, and SREs](https://dzone.com/articles/3-gpt-3-tools-for-developers-software-engineers-de) This article will explore GPT-3 applications in the developer space to discuss how GPT-3 can help DevOps Engineers, SREs, technical customer support, and developers.
-    - [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause 
+    - [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause
 Resolve your software incidents 10x faster
     - [Debuild](https://debuild.co/) Debuild is a tool that lets you generate functional web apps from a simple English description.
     - [seekwell](https://www.seekwell.io/) SeekWell helps write SQL requests and synchronizes the results to the apps your team operates in.
@@ -431,13 +436,13 @@ Resolve your software incidents 10x faster
 	[![DevOps dilbert](images/dilbert_devops.jpg)](https://dilbert.com/)
 
 	[![DevOps vs Agile](images/devops_vs_agile.jpg)](https://www.cognizant.com/InsightsWhitepapers/Jumpstarting-DevOps-with-Continuous-Testing-codex1719.pdf)
-			
+
 	[![DevOps capgemini](images/why_devops_capgemini.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-			
+
 	[![DevOps practices](images/key_devops_practices.png)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-			
+
 	[![DevOps qbp](images/devopsqbp.jpg)](https://www.capgemini.com/2016/05/assessing-state-of-your-devops-adoption-use-of-a-quality-blueprint-qbp/)
-				
+
 	[![DevOps patterns](images/devopspatternsandpractices.png)](https://blogs.gartner.com/cameron_haight/2014/10/13/getting-your-arms-around-devops-devops-patterns-and-practices/)
 
 	[![What-is-DevOps](images/What-is-DevOps.jpg)](https://dzone.com/articles/what-is-devops-2)
@@ -457,7 +462,7 @@ Resolve your software incidents 10x faster
 
 ??? note "Click to expand!"
 
-	<center>	
+	<center>
 	<div class="container">
 	<iframe src="//www.slideshare.net/slideshow/embed_code/key/ch64DsNKnrQRC1" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/IQGroup/how-will-devops-benefit-enterprise" title="How will DevOps benefit enterprise? " target="_blank">How will DevOps benefit enterprise? </a> </strong> from <strong><a href="//www.slideshare.net/IQGroup" target="_blank">InterQuest Group</a></strong> </div>
 	</div>

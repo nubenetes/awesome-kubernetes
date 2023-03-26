@@ -23,6 +23,7 @@
 - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)
 - [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/48/aws-security-fundamentals-second-edition) In this self-paced course, you will learn fundamental AWS cloud security concepts, including AWS access control, data encryption methods, and how network access to your AWS infrastructure can be secured. We will address and your security responsibility in the AWS cloud and the different security-oriented services available.
 - [==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources==](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
+- [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)
 
 ## eBooks
 

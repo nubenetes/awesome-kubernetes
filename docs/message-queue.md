@@ -82,8 +82,8 @@
 - [jinwookim928.medium.com: Why Not Event Driven Architecture?](https://jinwookim928.medium.com/intro-to-event-driven-architecture-79914e5969d7)
 - [thenewstack.io: Streaming Data and the Modern Real-Time Data Stack](https://thenewstack.io/streaming-data-and-the-modern-real-time-data-stack/)
 
-	|  | **Modern Data Stack** | **Modern Real-Time Data Stack** | 
-	| :--- | :--- | :--- | 
+	|  | **Modern Data Stack** | **Modern Real-Time Data Stack** |
+	| :--- | :--- | :--- |
 	| Language | SQL | SQL |
 	| Deployment | Cloud-native | Cloud-native |
 	| Data Ops | Complex batch transformations every 15 minutes, hourly or daily | Simple incremental transformations every second |
@@ -188,7 +188,7 @@
 - [**Red Hat Fuse**](https://www.redhat.com/en/technologies/jboss-middleware/fuse)
 - [**Red Hat Fuse Online**](https://www.redhat.com/en/technologies/jboss-middleware/fuse-online)
 
-### Syndesis open source integration platform 
+### Syndesis open source integration platform
 
 - [**Syndesis** open source integration platform](https://syndesis.io/) (OpenSource Project for **Red Hat Fuse Online**)
 - [developers.redhat.com: Low-code microservices orchestration with Syndesis](https://developers.redhat.com/blog/2020/03/25/low-code-microservices-orchestration-with-syndesis/)
@@ -203,7 +203,7 @@
 - [developers.redhat.com: Change data capture for microservices without writing any code](https://developers.redhat.com/blog/2020/05/15/change-data-capture-for-microservices-without-writing-any-code/)
 - [debezium.io: Lessons Learned from Running Debezium with PostgreSQL on Amazon RDS](https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds/)
 - [info.crunchydata.com: PostgreSQL Change Data Capture With Debezium](https://info.crunchydata.com/blog/postgresql-change-data-capture-with-debezium)
-- [medium.com: Stream Your Database into Kafka with Debezium](https://medium.com/comsystoreply/stream-your-database-into-kafka-with-debezium-a94b2f649664) An Introduction and Experience Report. Insightful post by David Hettler of 
+- [medium.com: Stream Your Database into Kafka with Debezium](https://medium.com/comsystoreply/stream-your-database-into-kafka-with-debezium-a94b2f649664) An Introduction and Experience Report. Insightful post by David Hettler of
 comsysto about their usage of Debezium, touching on many details like outbox pattern, Avro schemas, Postgres on RDS etc.
 - [noti.st: Change Data Capture with Flink SQL and Debezium 🌟](https://noti.st/morsapaes/liQzgs/change-data-capture-with-flink-sql-and-debezium)
 - [vladmihalcea.com: A beginner’s guide to CDC (Change Data Capture)](https://vladmihalcea.com/a-beginners-guide-to-cdc-change-data-capture/)
@@ -248,7 +248,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors](https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/)
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
 - [Single Message Transformations - The Swiss Army Knife of Kafka Connect](https://www.morling.dev/blog/single-message-transforms-swiss-army-knife-of-kafka-connect/)
-- [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776) Replacing Apache Airflow with Debezium. 
+- [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776) Replacing Apache Airflow with Debezium.
 - [medium: Apache Kafka Startup Guide: System Design Architectures: Notification System, Web Activity Tracker, ELT Pipeline, Storage System 🌟](https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7)
 - [medium: Getting Started With Kafka on OpenShift](https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384)
 - [containerjournal.com: Red Hat Platform Brings Kafka Closer to Kubernetes](https://containerjournal.com/topics/container-management/red-hat-platform-brings-kafka-closer-to-kubernetes/)
@@ -283,7 +283,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [kafka-tutorials.confluent.io 🌟](https://kafka-tutorials.confluent.io/)
     - [kafka-tutorials.confluent.io: How to join a stream and a lookup table 🌟](https://kafka-tutorials.confluent.io/join-a-stream-to-a-table/kstreams.html) If I have events in a Kafka topic and a table of reference data (aka a lookup table), how can I join each event in the stream to a piece of data in the table based on a common key?
 - [confluent.io: DevOps for Apache Kafka with Kubernetes and GitOps 🌟](https://www.confluent.io/blog/devops-for-apache-kafka-with-kubernetes-and-gitops)
-- [dzone.com: Microservices, Event-Driven Architecture and Kafka 🌟](https://dzone.com/articles/microservices-event-driven-architecture-and-kafka) 
+- [dzone.com: Microservices, Event-Driven Architecture and Kafka 🌟](https://dzone.com/articles/microservices-event-driven-architecture-and-kafka)
 - [medium: Understanding Kafka Topic Partitions](https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8) Everything in Kafka is modeled around partitions. They rule Kafka’s storage, scalability, replication, and message movement.
 - [kafka-tutorials.confluent.io: How to count messages in a Kafka topic](https://kafka-tutorials.confluent.io/how-to-count-messages-on-a-kafka-topic/ksql.html)
 - [confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper 🌟](https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/)
@@ -330,10 +330,10 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
 - [datadoghq.com: Monitoring Kafka performance metrics](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
 - [blog.workwell.io: How to manage your Kafka consumers from the producer](https://blog.workwell.io/how-to-manage-your-kafka-consumers-from-the-producer-9933b88085dd)
-- [slack.engineering: Building Self-driving Kafka clusters using open source components](https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/) 
+- [slack.engineering: Building Self-driving Kafka clusters using open source components](https://slack.engineering/building-self-driving-kafka-clusters-using-open-source-components/)
 - [adam-kotwasinski.medium.com: Kafka mesh filter in Envoy](https://adam-kotwasinski.medium.com/kafka-mesh-filter-in-envoy-a70b3aefcdef)
 - [==conduktor.io: What is Apache Kafka?==](https://www.conduktor.io/kafka/what-is-apache-kafka) Learn about Apache Kafka and its ecosystem in 20 minutes.
-- [medium.com/airwallex-engineering: Kafka Streams: Iterative Development and Blue-Green Deployment](https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e) Blue-Green Deployment for Kafka Stream Applications. 
+- [medium.com/airwallex-engineering: Kafka Streams: Iterative Development and Blue-Green Deployment](https://medium.com/airwallex-engineering/kafka-streams-iterative-development-and-blue-green-deployment-fae88b26e75e) Blue-Green Deployment for Kafka Stream Applications.
 - [==redhat.com: How we use Apache Kafka to improve event-driven architecture performance==](https://www.redhat.com/architect/apache-kafka-EDA-performance) **When designing your event-driven architecture, consider these ways to configure Kafka to improve performance.**
 - [dev.to: Running Kafka on kubernetes for local development](https://dev.to/thegroo/running-kafka-on-kubernetes-for-local-development-2a54)
 - [medium.com/udemy-engineering: Introducing Hot and Cold Retries on Apache Kafka](https://medium.com/udemy-engineering/introducing-hot-and-cold-retries-on-apache-kafka-f2f23595627b) An overview of how to build a fault-tolerant event delivery system by using non-blocking retries of Apache Kafka® in Udemy Payments Team
@@ -355,6 +355,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [==linkedin.com: Kafka Cluster Setup on Kubernetes==](https://www.linkedin.com/pulse/kaka-cluster-setup-kubernetes-avinash-kumar-chandran/)
 - [medium.com/wix-engineering: Troubleshooting Kafka for 2000 Microservices at Wix](https://medium.com/wix-engineering/troubleshooting-kafka-for-2000-microservices-at-wix-986ee382fd1e) Debugging microservices’ event driven communication is not trivial, especially when it’s based on event streaming platforms like Apache Kafka. While scale grows more easily and the distributed system becomes more decoupled and resilient, the operational aspects become much harder.
 - [engineering.grab.com: Zero trust with Kafka](https://engineering.grab.com/zero-trust-with-kafka)
+- [freecodecamp.org: The Apache Kafka Handbook – How to Get Started Using Kafka 🌟](https://www.freecodecamp.org/news/apache-kafka-handbook/) Apache Kafka is an open source event streaming tool that transports tons of data w/ low latency. This link covers its core concepts, how to use its CLI, & how to install + build a project with it.
 
 #### Kafka Tools
 
@@ -410,7 +411,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 ### Confluent Cloud (Apache Kafka Re-engineered for the Cloud)
 
-- [confluent.io](https://www.confluent.io/) The Complete Event Streaming Platform for Apache Kafka. 
+- [confluent.io](https://www.confluent.io/) The Complete Event Streaming Platform for Apache Kafka.
 - Focus on building apps and not managing clusters with a scalable, resilient and secure event streaming platform. Event streaming with Kafka made simple on AWS, Azure and GCP clouds.
 - [mongodb.com: DaaS with MongoDB and Confluent](https://www.mongodb.com/blog/post/daa-s-with-mongo-db-and-confluent)
 - [confluent.io: Confluent and Microsoft Announce Strategic Alliance](https://www.confluent.io/blog/confluent-microsoft-announce-strategic-alliance/)
@@ -420,7 +421,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 - [Redpanda 🌟](https://vectorized.io/) is a Kafka® compatible event streaming platform. No Zookeeper, no JVM, and no code changes required. Use all your favorite open source tooling - 10x faster.
 - [hub.docker.com/r/vectorized/redpanda](https://hub.docker.com/r/vectorized/redpanda) Easy Docker experience to use VectorizedIO Redpanda in a container. Streaming platform for mission critical workloads, Kafka compatible, no Zookeeper, no JVM, no code changes required - 10x faster.
-- [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/) 
+- [Redpanda is now Free & Source Available](https://vectorized.io/blog/open-source/)
 - [softwareengineeringdaily.com: Redpanda: Kafka Alternative with Alexander Gallego 🌟](https://softwareengineeringdaily.com/2021/01/22/redpanda-kafka-alternative-with-alexander-gallego/)
 
 
@@ -535,7 +536,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 ## KEDA. Kubernetes Event Driven Autoscaling
 
-- [KEDA](https://keda.sh/) Kubernetes Event-driven Autoscaling. Application autoscaling made simple. https://github.com/kedacore/keda 
+- [KEDA](https://keda.sh/) Kubernetes Event-driven Autoscaling. Application autoscaling made simple. https://github.com/kedacore/keda
 - [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
 - [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
 - [faun.pub: Scaling an app in Kubernetes with KEDA (no Prometheus is needed)](https://faun.pub/keda-ec9fc7c8dd81)

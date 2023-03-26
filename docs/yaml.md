@@ -1,12 +1,13 @@
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 
 1. [Introduction. Templating YAML Files](#introduction-templating-yaml-files)
-    1. [YAML anchors and aliases](#yaml-anchors-and-aliases)
-    2. [YAML Processors](#yaml-processors)
-    3. [YAML Validators](#yaml-validators)
-    4. [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
-    5. [Kubernetes examples](#kubernetes-examples)
-    6. [Helm and Kustomize](#helm-and-kustomize)
+    1. [K8s YAML tips](#k8s-yaml-tips)
+    2. [YAML anchors and aliases](#yaml-anchors-and-aliases)
+    3. [YAML Processors](#yaml-processors)
+    4. [YAML Validators](#yaml-validators)
+    5. [Other YAML Tools. How to create Kubernetes YAML files](#other-yaml-tools-how-to-create-kubernetes-yaml-files)
+    6. [Kubernetes examples](#kubernetes-examples)
+    7. [Helm and Kustomize](#helm-and-kustomize)
 2. [JSON. Templating JSON Files](#json-templating-json-files)
     1. [JSON in Ansible](#json-in-ansible)
     2. [JSON formatting with jq](#json-formatting-with-jq)
@@ -25,7 +26,7 @@
 - [thoughtworks.com: Templating in YAML](https://www.thoughtworks.com/radar/techniques/templating-in-yaml) As infrastructures grow in complexity, so do the configuration files that define them. Tools such as [AWS CloudFormation](https://aws.amazon.com/cloudformation/), [Kubernetes](https://www.thoughtworks.com/radar/platforms/kubernetes) and [Helm](https://www.thoughtworks.com/radar/tools/helm) expect configuration files in JSON or YAML syntax, presumably in an attempt to make them easy to write and process. However, in most cases, teams quickly reach the point where they have some parts that are similar but not quite the same, for example, when the same service must be deployed in different regions with a slightly different setup. For such cases tools offer templating in YAML (or JSON), which has caused a huge amount of [frustration with practitioners](https://leebriggs.co.uk/blog/2019/02/07/why-are-we-templating-yaml.html). The problem is that the syntax of JSON and YAML requires all sorts of awkward compromises to graft templating features such as conditionals and loops into the files. **We recommend using an API from a programming language instead or, when this is not an option, a templating system in a programming language, either a general-purpose language such as Python or something specialized such as [Jsonnet](https://jsonnet.org/).**
 - [Steve Horsfield: DevOps tricks - Templating YAML files](https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files/) Basic text tools fall foul of YAML’s indentation sensitivity. On the other hand, **YAML tools like [ytt](https://get-ytt.io/) are pretty difficult to interpret.** In my case, I opted for a small [jq](https://stedolan.github.io/jq/) program executed via [yq](https://mikefarah.gitbook.io/yq/).
 - [redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟](https://www.redhat.com/sysadmin/understanding-yaml-ansible) Ansible playbooks are written in YAML, YAML Ain't Markup Language. Understanding YAML syntax is a key to success with Ansible.
-- [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics/) 
+- [linuxhandbook.com: YAML Basics Every DevOps Engineer Must Know 🌟](https://linuxhandbook.com/yaml-basics/)
 - [developers.redhat.com: How to configure YAML schema to make editing files easier](https://developers.redhat.com/blog/2020/11/25/how-to-configure-yaml-schema-to-make-editing-files-easier/)
 - [kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟](https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml/)
 - [betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8) Syntax, salient features, and advanced features.
@@ -40,6 +41,10 @@
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
 
+### K8s YAML tips
+
+- [itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)
+
 ### YAML anchors and aliases
 
 - [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
@@ -51,14 +56,14 @@
 
 - [github.com/topics/yaml-processor](https://github.com/topics/yaml-processor)
 - [ytt](https://get-ytt.io/) is a templating tool that understands YAML structure allowing you to focus on your data instead of how to properly escape it.
-- You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/). 
-- [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files. `yq` allows to query the yaml tree and highlights it: 
+- You should use tools such as [yq](https://mikefarah.gitbook.io/yq/) and kustomize to template YAML resources instead of relying on tools that interpolate strings such as [Helm](https://helm.sh/).
+- [yq 🌟](https://mikefarah.gitbook.io/yq/) is a lightweight and portable command-line YAML processor. The aim of the project is to be the [jq](https://github.com/stedolan/jq) or sed of yaml files. `yq` allows to query the yaml tree and highlights it:
     - ```k get svc a -o yaml | yq r -```
     - [dev.to: yq : A command line tool that will help you handle your YAML resources better 🌟](https://dev.to/vikcodes/yq-a-command-line-tool-that-will-help-you-handle-your-yaml-resources-better-8j9)
     - [towardsdatascience.com: yq: Mastering YAML Processing in Command Line 🌟](https://towardsdatascience.com/yq-mastering-yaml-processing-in-command-line-e1ff5ebc0823) Learn to parse and manipulate YAML files more efficiently using yq command-line utility and this simple cheat sheet
     - [betterprogramming.pub: My Cheatsheet for the “yq” Tool](https://betterprogramming.pub/my-yq-cheatsheet-34f2b672ee58) Parsing Kubernetes YAML with yq. `yq` is a convenient tool for creating, updating and mangling Kubernetes YAML files. In this tutorial, you will learn how to use it as well as some practical tips and tricks.
 - [Kapitan](https://kapitan.dev/) Generic templated configuration management for Kubernetes, Terraform and other things.
-- [azohra/yaml.sh](https://github.com/azohra/yaml.sh) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec) 
+- [azohra/yaml.sh](https://github.com/azohra/yaml.sh) A YAML parser completely in bash. [Yaml.sh — YAML Sans Helm](https://medium.com/@KarlKFI/yaml-sh-yaml-sans-helm-e983a3dfdaec)
 - [yh - YAML Highlighter](https://github.com/andreazorzetto/yh) is YAML syntax highlighter that works nicely with kubectl output
 - [Kubectl output options 🌟](https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba)
 
@@ -70,7 +75,7 @@
 
 ### Other YAML Tools. How to create Kubernetes YAML files
 
-- [==onlineyamltools.com== 🌟](https://onlineyamltools.com) 
+- [==onlineyamltools.com== 🌟](https://onlineyamltools.com)
 - [avencera/yamine](https://github.com/avencera/yamine) A simple CLI for combining json and yaml files
 - [k8syaml.com 🌟](https://k8syaml.com) Kubernetes YAML Generator - Powered by Octopus
 - [itnext.io: How to create Kubernetes YAML files 🌟](https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45) - [ref2 at hackernoon.com](https://hackernoon.com/how-to-create-kubernetes-yaml-files)
@@ -184,4 +189,6 @@
 
     <center>
     <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿A quién se le ocurrió que sería buena idea el no tener comentarios en ficheros JSON?</p>&mdash; Coding Potions ⚗️ (@CodingPotions) <a href="https://twitter.com/CodingPotions/status/1489608445003280391?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you know all the YAML tricks and gotchas?<br><br>Are there any YAML tips for Kubernetes?<br><br>Read along! <a href="https://t.co/BXszAVR4sd">pic.twitter.com/BXszAVR4sd</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1620055199053406208?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
