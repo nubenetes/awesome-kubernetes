@@ -1006,6 +1006,7 @@
 ## Kubernetes Security Tools
 
 - [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) RBAC-police is a CLI tool that lets you evaluate the RBAC permissions of service accounts, pods and nodes in Kubernetes clusters through policies written in Rego
+- [m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper) m9sweeper is a complete kubernetes security platform that wraps trivy, project falco, kube-bench, kube-hunter, kubesec, and OPA Gatekeeper into one easy to manage user interface. 
 
 ## PureLB
 
