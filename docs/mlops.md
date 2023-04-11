@@ -1,21 +1,20 @@
 # Machine Learning Ops (MLOps) and Data Science
 
 1. [Introduction. MLOps](#introduction-mlops)
-2. [The MAD (ML/AI/Data) Landscape](#the-mad-mlaidata-landscape)
-3. [Object Detection Libraries](#object-detection-libraries)
-4. [MLFlow](#mlflow)
-5. [Kubeflow](#kubeflow)
-6. [Flyte](#flyte)
-7. [Azure ML](#azure-ml)
-8. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-9. [Data Science](#data-science)
-10. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
-11. [Other Tools](#other-tools)
-12. [Samples](#samples)
-13. [ML Courses](#ml-courses)
-14. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-15. [Polls](#polls)
-16. [Tweets](#tweets)
+2. [Object Detection Libraries](#object-detection-libraries)
+3. [MLFlow](#mlflow)
+4. [Kubeflow](#kubeflow)
+5. [Flyte](#flyte)
+6. [Azure ML](#azure-ml)
+7. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+8. [Data Science](#data-science)
+9. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
+10. [Other Tools](#other-tools)
+11. [Samples](#samples)
+12. [ML Courses](#ml-courses)
+13. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+14. [Polls](#polls)
+15. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -39,13 +38,9 @@
 - [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)
 - [medium.com/workday-engineering: Implementing a Fully Automated Sharding Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)
 - [==medium.com/globant: Advantages of Deploying Machine Learning models with Kubernetes== 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)
-- [==technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission== 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business) An AI pioneer reflects on how companies can use machine learning to transform their operations and solve critical problems.
-    - [==technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más"== 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) El pionero de la inteligencia artificial Andrew Ng asegura que es más importante tener buenos datos, aunque sean escasos, que muchos, pero mal etiquetados. Cree que todas las empresas deben empezar a pensar en la tecnología con proyectos rápidos, pero pequeños, y escalarlos si resulta que funcionan.
-    - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
 - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc) Tools and technologies in machine learning lifecycle
 - [medium.com/formaloo: How no-code platforms are democratizing data science and software development 🌟](https://medium.com/formaloo/making-databases-as-easy-as-playing-with-legos-no-code-no-problem-ed41d4fde269)
 - [towardsdatascience.com: From Jupyter Notebooks to Real-life: MLOps 🌟](https://towardsdatascience.com/from-jupyter-notebooks-to-real-life-mlops-9f590a7b5faa) Why is it a must-have?
-- [==guru99.com: Artificial Intelligence Tutorial for Beginners: Learn Basics of AI== 🌟🌟🌟](https://www.guru99.com/ai-tutorial.html)
 - [datarevenue.com: Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow) Choosing a task orchestration tool
 - [infoworld.com: 13 open source projects transforming AI and machine learning](https://www.infoworld.com/article/3673976/13-open-source-projects-transforming-ai-and-machine-learning.html) From deepfakes to natural language processing and more, the open source world is ripe with projects to support software development on the frontiers of artificial intelligence and machine learning.
 - [towardsdatascience.com: From Dev to Deployment: An End to End Sentiment Classifier App with MLflow, SageMaker, and Streamlit](https://towardsdatascience.com/from-dev-to-deployment-an-end-to-end-sentiment-classifier-app-with-mlflow-sagemaker-and-119043ea4203) In this tutorial, we’ll build an NLP app starting from DagsHub-MLflow, then diving into deployment in SageMaker and EC2 with the front end in Streamlit.
@@ -53,10 +48,6 @@
 - [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865/) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
 - [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops/)
-
-## The MAD (ML/AI/Data) Landscape
-
-- [mad.firstmark.com: The MAD (ML/AI/Data) Landscape](https://mad.firstmark.com/)
 
 ## Object Detection Libraries
 
