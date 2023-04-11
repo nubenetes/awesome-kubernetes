@@ -262,7 +262,10 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [QA](qa.md)
 - [TestOps and Continuous Testing](testops.md)
 - [Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more](test-automation-frameworks.md)
-
+## AI
+- [AI](ai.md)
+- [MLOps](mlops.md)
+- [ChatGPT](chatgpt.md)
 ## Project Management Methodology
 - [Project Management Methodology](project-management-methodology.md)
 - [Project Management Tools](project-management-tools.md)

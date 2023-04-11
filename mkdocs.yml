@@ -7,8 +7,8 @@ docs_dir: docs/
 repo_name: nubenetes/awesome-kubernetes
 repo_url: https://github.com/nubenetes/awesome-kubernetes
 edit_uri: ""
-theme: 
-  name: material 
+theme:
+  name: material
   prev_next_buttons_location: both
   icon:
     logo: logo
@@ -89,7 +89,7 @@ nav:
   - Intro:
     - Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
     - Microservices FAQ & Kubernetes Native: faq.md
-  - SRE: 
+  - SRE:
     - SRE Site Reliability Engineering: sre.md
     - Networking: networking.md
     - FinOps. Cloud Financial Management: finops.md
@@ -98,15 +98,15 @@ nav:
     - DevOps: devops.md
     - GitOps: gitops.md
     - MLOps: mlops.md
-    - Cheat Sheets: cheatsheets.md    
+    - Cheat Sheets: cheatsheets.md
   - DevSecOps:
     - DevSecOps. Container Security: devsecops.md
     - Security Policy as Code: securityascode.md
-  - NoOps: 
+  - NoOps:
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
   - Docker: docker.md
-  - K8s: 
+  - K8s:
     - Kubernetes: kubernetes.md
     - Kubernetes Tutorials: kubernetes-tutorials.md
     - Kubernetes Plugins, Tools, Extensions and Projects: kubernetes-tools.md
@@ -127,15 +127,15 @@ nav:
     - Kubernetes Distributions & Installers: matrix-table.md
     - Kubernetes Big Data: kubernetes-bigdata.md
     - Kubernetes alternatives: kubernetes-alternatives.md
-  - OpenShift: 
+  - OpenShift:
     - OpenShift docs: openshift.md
     - OCP 3: ocp3.md
     - OCP 4: ocp4.md
-  - Rancher:     
+  - Rancher:
     - Rancher - Enterprise management for Kubernetes: rancher.md
-  - CI/CD: 
+  - CI/CD:
     - CI/CD - Continuous Integration & Continuous Delivery: cicd.md
-    - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md 
+    - Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs: git.md
     - Jenkins & Cloudbees: jenkins.md
     - Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc: performance-testing-with-jenkins-and-jmeter.md
     - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
@@ -153,7 +153,7 @@ nav:
       - Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more: registries.md
       - Linux & SSH: linux.md
       - MkDocs & GitHub Pages: mkdocs.md
-    - Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions: 
+    - Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions:
       - Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more: web-servers.md
       - Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more: java_app_servers.md
       - Embedded Servlet Containers in SpringBoot: embedded-servlet-containers.md
@@ -179,17 +179,17 @@ nav:
     - Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK: kubernetes-client-libraries.md
     - Database Version Control. Liquibase, Flyway and PlanetScale: liquibase.md
     - YAML and JSON: yaml.md
-  - DB: 
+  - DB:
     - Relational Databases and Database DevOps: databases.md
     - Crunchy Data PostgreSQL Operator: crunchydata.md
     - NoSQL Databases: nosql.md
   - Data Pipeline: message-queue.md
-  - Service Mesh: 
+  - Service Mesh:
     - Service Mesh: servicemesh.md
     - Istio: istio.md
   - Demos:
     - Demos, Boilerplates & Screencasts: demos.md
-  - Cloud: 
+  - Cloud:
     - Public Cloud Solutions: public-cloud-solutions.md
     - Private Cloud Solutions: private-cloud-solutions.md
     - Edge Computing: edge-computing.md
@@ -252,6 +252,10 @@ nav:
     - QA: qa.md
     - TestOps and Continuous Testing: testops.md
     - Test Automation Frameworks and BDD: test-automation-frameworks.md
+  - AI:
+    - AI: ai.md
+    - MLOps: mlops.md
+    - ChatGPT: chatgpt.md
   - Project Mgmt:
     - Project Management Methodology: project-management-methodology.md
     - Project Management Tools: project-management-tools.md
@@ -285,16 +289,16 @@ extra:
         - icon: material/emoticon-sad-outline
           name: This page could be improved
           data: 0
-          note: >-  
+          note: >-
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target=_blank>feedback form</a>.
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
-      make our documentation better.  
+      make our documentation better.
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1
