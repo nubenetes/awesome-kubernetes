@@ -65,6 +65,7 @@
 - [devops.com: Home » Blogs » A DevOps Reset for a Multi-Cloud World](https://devops.com/a-devops-reset-for-a-multi-cloud-world/)
 - [medium.com/@polatatc: Terraform; the most demanded DevOps skill!](https://medium.com/@polatatc/terraform-the-most-demanded-devops-skill-88c461641e7b)
 - [dev.to: DevOps Trends for Developers in 2023 | Pavan Belagatti](https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b)
+- [==abc.es: Ingenieros DevOps, la pieza clave del engranaje digital de las empresas== 🌟](https://www.abc.es/economia/ingenieros-devops-pieza-clave-engranaje-digital-empresas-20230212000148-nt.html) **Estos profesionales, que activan una sinergia eficaz entre las áreas tecnológicas y de producción, son un cotizado factor de competitividad**
 
 ## Automation Glossary
 
@@ -402,12 +403,18 @@ Resolve your software incidents 10x faster
 
 ## Platform Engineering
 
+- [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering) Platform engineering is the discipline of building workflows, toolchains, platforms & docs to support app teams in their delivery of business value. Benefits Include:
+    - Increased velocity
+    - Enable developer satisfaction
+    - Speed up onboarding
 - [==honeycomb.io: The Future of Ops Is Platform Engineering== 🌟](https://www.honeycomb.io/blog/future-ops-platform-engineering) Platform engineers vs. DevOps engineers
 - [thenewstack.io: DevOps Burnout? Try Platform Engineering](https://thenewstack.io/devops-burnout-try-platform-engineering/) Internal developer platforms might be part of the solution by reducing repetitive and manual work and cognitive load.
 - [softwareengineeringdaily.com: The Rise of Platform Engineering 🌟](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering/)
 - [thenewstack.io: How Is Platform Engineering Different from DevOps and SRE?](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre/) Platform engineering is the next stage of evolution. Like DevOps, it enables developer self-service. Like SRE, it reduces errors and increases reliability.
 - [salaboy.com: The Challenges of Platform Building on Top of Kubernetes 4/4](https://salaboy.com/2022/11/28/the-challenges-of-platform-building-on-top-of-kubernetes-4-4/) TLTR: We have reached a point where the adoption and understanding of Kubernetes and Kubernetes tools are mature enough to start hiding them away from the teams consuming them. This blog post explores some of the approaches different development tools take to provide a better and simplified experience for developers while allowing platform teams to curate the resources these tools use and how they behave.
 - [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/) Developer platforms won't eliminate DevOps but will prioritize developer experience.
+- [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/sites/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/)
+- [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering/architecture-and-design-considerations-for-platform-engineering-teams/) What exactly is a platform? Is it an internal developer platform, a developer self-service portal or simply a developer onboarding tool?
 
 ## Bunch of Images
 
@@ -482,6 +489,7 @@ Resolve your software incidents 10x faster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uTEL8Ff1Zvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R74bm8IGu2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cthla7KqU04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lTZJUVgQeO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </details>
 

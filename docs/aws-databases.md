@@ -17,7 +17,7 @@
 - [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/)
 - [Migrating from MySQL (RDS) to Aurora with no downtime](http://cantrill.io/howto/aws/2016/06/06/migrating-from-mysql-to-aurora-with-almost-no-downtime.html)
 - [Replicating Amazon Aurora DB Clusters Across AWS Regions](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html)
-- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers. 
+- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers.
 - [Working with an Amazon RDS DB Instance in a VPC](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
 - [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/)
@@ -36,6 +36,7 @@
 - [Securely connect to an Amazon RDS or Amazon EC2 database instance remotely with your preferred GUI](https://aws.amazon.com/blogs/database/securely-connect-to-an-amazon-rds-or-amazon-ec2-database-instance-remotely-with-your-preferred-gui/)
 - [Modernize database stored procedures to use Amazon Aurora PostgreSQL federated queries, pg_cron, and AWS Lambda](https://aws.amazon.com/blogs/database/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda/)
 - [Let’s Architect! Architecting with Amazon DynamoDB](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-with-amazon-dynamodb/)
+- [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889)
 
 ## AWS Database Migration Service DMS
 
@@ -55,7 +56,7 @@
 
 - [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws/)
 - [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support/)
-- [Creating an AWS Schema Conversion Tool Project](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool. 
+- [Creating an AWS Schema Conversion Tool Project](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool.
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
 ## AWS Redshift

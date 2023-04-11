@@ -62,6 +62,7 @@
 - [blog.marcnuri.com: Fabric8 Kubernetes Client for Java introduction](https://blog.marcnuri.com/kubernetes-client-java-fabric8-introduction)
 - [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm)
 - [developers.redhat.com: How to generate code using Fabric8 Kubernetes Client](https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client)
+- [==levelup.gitconnected.com: First Try on Java Operator SDK==](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de) Demo on java-operator-sdk and compare it with Kubebuilder
 
 ## CDK8s
 

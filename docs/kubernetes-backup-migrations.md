@@ -16,7 +16,7 @@
 
 ## Introduction
 
-- [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup)  
+- [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup)
 - [Stash](https://github.com/stashed/stash) If you are running production workloads in Kubernetes, you might want to take backup of your disks, databases etc. Stash is a cloud native data backup and recovery solution for Kubernetes workloads
 - [thenewstack.io: Cloud Native Backups, Disaster Recovery and Migrations on Kubernetes](https://thenewstack.io/cloud-native-backups-disaster-recovery-and-migrations-on-kubernetes/)
 - [rancher.com: The No. 1 Rule of Disaster Recovery](https://rancher.com/blog/2020/number-one-rule-disaster-recovery)
@@ -26,12 +26,12 @@
     - [kanister.io 🌟](https://kanister.io/) An extensible open-source framework for application-level data management on Kubernetes. KANISTER allows domain experts to capture application specific data management tasks in blueprints which can be easily shared and extended. The framework takes care of the tedious details around execution on Kubernetes and presents a homogeneous operational experience across applications at scale.
     - [blog.kasten.io: Move Fast and Test in Kubernetes without Breaking Things with kanister and CI/CD 🌟](https://blog.kasten.io/move-fast-and-test-in-kubernetes-without-breaking-things)
         - When using data mobility to improve your CI/CD pipeline, it’s important to consider the data at different layers in your application stack. In many instances, you must perform operations on multiple layers of your application at once, as well as interact with Kubernetes itself. Kasten by Veeam developed Kanister to address these data mobility challenges and enable organizations to test safely with real data.
-        - Kanister, an open source project, provides a Kubernetes-native framework for application-level data management that supports complex data management workflows. Domain experts can capture application-specific data management tasks in blueprints, which can be easily shared and extended, eliminating many of the tedious details around execution on Kubernetes. 
+        - Kanister, an open source project, provides a Kubernetes-native framework for application-level data management that supports complex data management workflows. Domain experts can capture application-specific data management tasks in blueprints, which can be easily shared and extended, eliminating many of the tedious details around execution on Kubernetes.
         - Kanister is easy to integrate with your CI/CD pipeline, because it uses Kubernetes API extensions called custom resources. You can easily extend Kanister to work with custom applications as well as several common cloud native databases, simplifying and streamlining testing operations while reducing risk.
 - [thenewstack.io: DevSecOps Teams Need Application-Consistent Backups for Kubernetes Workloads](https://thenewstack.io/devsecops-teams-need-application-consistent-backups-for-kubernetes-workloads/)
 - [percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)](https://www.percona.com/blog/2020/10/22/using-volume-snapshot-clone-in-kubernetes/)
 - [kasten.io: Kubernetes Application Mobility](https://www.kasten.io/kubernetes/application-mobility/) Reliable and Powerful Migration of Complete Applications Across Kubernetes Clusters.
-- [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292) 
+- [longhorn issue: Move replica to a different server](https://github.com/longhorn/longhorn/issues/292)
 - [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift/)
 - [cloudify.co: Migrating Pods With Containerized Applications Between Nodes In The Same Kubernetes Cluster Using Cloudify 🌟](https://cloudify.co/blog/migrating-pods-containerized-applications-nodes-kubernetes-cluster-using-cloudify/)
 - [thenewstack.io: Red Hat Brings Backup, Snapshots to OpenShift Container Storage](https://thenewstack.io/red-hat-brings-backup-snapshots-to-openshift-container-storage/)
@@ -46,6 +46,8 @@
 - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever/) Here are some considerations of a successful Kubernetes data protection strategy.
 - [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://blog.palark.com/kubernetes-snaphots-usage/)
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
+- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. In this article, you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
+- [blog.palark.com: Kubernetes snapshots: What are they and how to use them?](https://blog.palark.com/kubernetes-snaphots-usage/) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
 
 ## ETCD Backup
 
@@ -56,7 +58,7 @@
 
 - [kubernetes.io: Kubernetes 1.20: Kubernetes Volume Snapshot Moves to GA](https://kubernetes.io/blog/2020/12/10/kubernetes-1.20-volume-snapshot-moves-to-ga/)
 - [itnext.io: Backup and Restore of Kubernetes Stateful Application Data with CSI Volume Snapshots](https://itnext.io/backup-and-restore-of-kubernetes-stateful-application-data-with-csi-volume-snapshots-14ce9e6f3778)
-- [blocksandfiles.com: Red Hat OpenShift now does container storage backup 🌟](https://blocksandfiles.com/2021/01/27/red-hat-openshift-container-storage-backup/) Red Hat has teamed up with three container backup suppliers to integrate their services with the company’s OpenShift Kubernetes distribution. The Red Hat-certified backup products for OpenShift container storage are parent company IBM’s [Spectrum Protect Plus](https://blocksandfiles.com/2020/06/05/ibm-spectrum-protect-plus/); [TrilioVault](https://blocksandfiles.com/2020/12/10/trilio-funding/) for Kubernetes; and Veeam-owned Kasten’s [K10](https://blocksandfiles.com/2020/01/30/kasten-k10-kubernetes-container-protection/). 
+- [blocksandfiles.com: Red Hat OpenShift now does container storage backup 🌟](https://blocksandfiles.com/2021/01/27/red-hat-openshift-container-storage-backup/) Red Hat has teamed up with three container backup suppliers to integrate their services with the company’s OpenShift Kubernetes distribution. The Red Hat-certified backup products for OpenShift container storage are parent company IBM’s [Spectrum Protect Plus](https://blocksandfiles.com/2020/06/05/ibm-spectrum-protect-plus/); [TrilioVault](https://blocksandfiles.com/2020/12/10/trilio-funding/) for Kubernetes; and Veeam-owned Kasten’s [K10](https://blocksandfiles.com/2020/01/30/kasten-k10-kubernetes-container-protection/).
 - [medium: Leveraging operator pattern and VolumeSnapshots to backup databases in Kubernetes](https://medium.com/blablacar/leveraging-operator-pattern-and-volumesnapshots-to-backup-databases-in-kubernetes-3a28aa425100)
 
 ## Backup with Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
@@ -75,6 +77,7 @@
 
 ## Backup with Velero
 
+- [github.com/vmware-tanzu/velero](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes
 - [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)
 - [wecloudpro.com: Kubernetes Disaster Recovery with Velero 🌟](https://www.wecloudpro.com/2020/08/22/kubernetes-disaster-recovery-with-velero.html)
 - [medium: Backup,Restore & Migrate Kubernetes cluster with Velero](https://medium.com/@maheshd7878/restore-backup-migrate-kubernetes-cluster-with-velero-434fa151f1e8)
@@ -82,16 +85,18 @@
 - [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://cloud.redhat.com/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
 - [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc) Maintaining backup is always rewarding. Learn how to backup and restore an entire K8s cluster in this detailed article
+- [blog.devgenius.io: Backup, Restore and Migrate Kubernetes Cluster resources using Velero](https://blog.devgenius.io/backup-restore-and-migrate-kubernetes-cluster-resources-using-velero-a9b6997e4b54) In this tutorial, you'll learn how to take a backup of resources running in a Kubernetes cluster and migrate them to another cluster using Velero
 
 ## Backup with Portworx PX-Backup
 
 - [PX-Backup](https://portworx.com/products/px-backup/)
 - [PX-Backup: docs](https://backup.docs.portworx.com/)
-* With PX-Backup, backups of OpenShift applications can also be provided in a secure, self-service environment.
+- With PX-Backup, backups of OpenShift applications can also be provided in a secure, self-service environment.
 
 ## Backup for GKE
 
 - [cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke)
+
 ## Konveyor Open Source Migration Tool for Kubernetes
 
 - [github.com/konveyor 🌟](https://github.com/konveyor) - [konveyor.io](https://www.konveyor.io/) A community to build tools and document best practices to modernize workloads and bring them to Kubernetes.
@@ -100,7 +105,7 @@
 - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/konveyor/crane) Crane 2, a tool for rehosting cloud workloads for Kubernetes.
     - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) Migrating workloads across clusters, from one k8s distro to another, will be the focus of open-source tool Crane 2.0. (A tool that's part of the Konveyor community.)
 - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/en/community/blog/migrating-to-kubernetes-with-open-source-tools) **KubeByExample's newest learning path applies open source tools to help you rehost, replatform, and refractor your applications to Kubernetes.**
-- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 
+- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
     - Despite the incredible pace of adoption of container orchestration platforms, the vast majority of EAP workloads are still running on VMs or bare metal. In a lot of cases enterprise operation teams are mandated to modernize and move these workloads to the cloud, and containerization and migration to Kubernetes is the natural destination. When talking about this migration path, we're often asked questions like:
         - What's involved?
         - How easy is it to move these workloads?

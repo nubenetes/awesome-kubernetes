@@ -1,11 +1,12 @@
 # Serverless Architectures and Frameworks
 
 1. [Serverless Architectures](#serverless-architectures)
-    1. [Governance](#governance)
-    2. [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
-    3. [Case Studies](#case-studies)
-    4. [FaaS: Function as a Service](#faas-function-as-a-service)
-    5. [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
+    1. [Terraform and Serverless](#terraform-and-serverless)
+    2. [Governance](#governance)
+    3. [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
+    4. [Case Studies](#case-studies)
+    5. [FaaS: Function as a Service](#faas-function-as-a-service)
+    6. [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
 2. [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
 3. [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
     1. [OpenFaaS](#openfaas)
@@ -52,6 +53,13 @@
 - [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture== 🌟](https://serverlessland.com/event-driven-architecture) What are Event Driven Architectures ?
 - [medium.com/@marinradjenovic: Why do you still need to think of scalability when architecting Serverless apps?](https://medium.com/@marinradjenovic/why-do-you-still-need-to-think-of-scalability-when-architecting-serverless-apps-a2e1f14e3eca)
 - [architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!](https://architectelevator.com/cloud/serverless-design-patterns/) Design patterns have helped us improve software design for decades. In the cloud, they can also reduce our switching cost. That’s magic!
+- [==serverlessland.com: EDA VISUALS== 🌟🌟🌟](https://serverlessland.com/event-driven-architecture/visuals) **Small bite sized visuals about event-driven architectures**
+    - [==serverlessland.com: BATCH PROCESSING VS EVENT STREAMING==](https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams) What's the difference between batching and event streams? When should you use one over the other? Events are super important in our event-driven architectures, so understanding these fundamentals can help.
+    - [serverlessland.com: Splitter pattern](https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern) When building message/event based solutions you may want to take a message or event and split it into many different ones. We can use this to split large messages/events into smaller ones for downstream consumers.
+
+### Terraform and Serverless
+
+- [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together)
 
 ### Governance
 
@@ -88,7 +96,7 @@
 ## Serverless Framework (the most popular serverless ecosystem)
 
 - [serverless.com: Serverless Framework](https://www.serverless.com/)
- 
+
 ## Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)
 
 - [epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more/)
@@ -121,8 +129,9 @@
 - [OpenShift Serverless](https://www.openshift.com/learn/topics/serverless)
 - [developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview](https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview/)
 - [openshift.com: Why and When you need to consider OpenShift Serverless](https://www.openshift.com/blog/why-and-when-you-need-to-consider-openshift-serverless)
+- [redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial](https://redhat-scholars.github.io/serverless-workflow/osl/index.html)
 
-### Kubeless  
+### Kubeless
 
 - [kubeless.io](https://kubeless.io/)
 - [medium.com: Serverless - Build a Serverless Simple Flask Application with Kubeless on top of Kubernetes](https://medium.com/@peiruwang/serverless-build-a-serverless-simple-flask-application-with-kubeless-on-top-of-kubernetes-95c6682c3750)
@@ -150,7 +159,7 @@
 
 	<center>
 
-	[![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/) 
+	[![Serverless](images/from-monolith-to-serverless.jpg)](https://www.xenonstack.com/blog/serverless-openfaas-java/)
 	</center>
 
 ## Tweets
@@ -160,5 +169,7 @@
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hi aspiring cloud professional, my name is Adam and I need you to listen to me.<br><br>First, I make a zillion-ish dollars per year freelancing and I stand to gain nothing from your attention.<br><br>I’m writing to you because it occurs to me that things I think are obvious probably aren’t.</p>&mdash; Adam Elmore (@aeduhm) <a href="https://twitter.com/aeduhm/status/1443308075079938055?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When building message/event based solutions you may want to take a message or event and split it into many different ones.<br><br>We can use this to split large messages/events into smaller ones for downstream consumers.<br><br>Visual, resources and example 👇<a href="https://t.co/kqbYoNMxkA">https://t.co/kqbYoNMxkA</a> <a href="https://t.co/5qyhbVcSZJ">pic.twitter.com/5qyhbVcSZJ</a></p>&mdash; David Boyne 🚀 (@boyney123) <a href="https://twitter.com/boyney123/status/1630233252702171138?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

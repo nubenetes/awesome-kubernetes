@@ -37,7 +37,7 @@
 - [thenewstack.io: How a Service Mesh Can Help DevOps Achieve Business Goals](https://thenewstack.io/how-service-mesh-can-help-devops-achieve-business-goals/)
 - [thenewstack.io: Mutual TLS: Securing Microservices in Service Mesh](https://thenewstack.io/mutual-tls-microservices-encryption-for-service-mesh/)
 - [medium: Service Mesh with Istio](https://medium.com/cloud-techies/service-mesh-with-istio-a0d045a28165)
-- [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments. Get Hands-On with Rancher, Kong and Kong Mesh 🌟](https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments) 
+- [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments. Get Hands-On with Rancher, Kong and Kong Mesh 🌟](https://rancher.com/blog/2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments)
     - Service Mesh is an emerging architecture pattern gaining traction today. Along with Kubernetes, Service Mesh can form a powerful platform which addresses the technical requirements that arise in a highly distributed environment typically found on a microservices cluster and/or service infrastructure. A Service Mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices.
     - Service Mesh addresses the communication requirements typical in a microservices-based application, including encrypted tunnels, health checks, circuit breakers, load balancing and traffic permission. Leaving the microservices to address these requirements leads to an expensive and time consuming development process.
     - Kong provides an enterprise-class and comprehensive service connectivity platform that includes an API gateway, a Kubernetes ingress controller and a Service Mesh implementation. The platform allows customers to deploy on multiple environments such as on premises, hybrid, multi-­­­­­­region and multi-cloud.
@@ -67,6 +67,7 @@
 - [infoq.com: Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
 - [infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟](https://www.infoq.com/presentations/5-challenges-mesh/)
 - [medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul](https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630)
+- [medium.com/@pauldotyu: Service Mesh Considerations](https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295)
 
 ## Service Mesh and API Gateways
 
@@ -108,7 +109,7 @@
 - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd/)
 - [thenewstack.io: Linkerd 2.0: The Service Mesh for Service Owners, Platform Architects, SREs](https://thenewstack.io/linkerd-2-0-the-service-mesh-for-service-owners-platform-architects-sres/)
 - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy/)
-- [linkerd.io: Multi-cluster communication](https://linkerd.io/2.10/tasks/multicluster/index.html) This guide will walk you through installing and configuring Linkerd so that two clusters can talk to services hosted on both. 
+- [linkerd.io: Multi-cluster communication](https://linkerd.io/2.10/tasks/multicluster/index.html) This guide will walk you through installing and configuring Linkerd so that two clusters can talk to services hosted on both.
 - [linkerd.io: Benchmarking Linkerd and Istio](https://linkerd.io/2021/05/27/linkerd-vs-istio-benchmarks/index.html)
 - [nais.io: Changing Service Mesh](https://nais.io/blog/posts/2021/05/changing-service-mesh.html) How we swapped Istio with Linkerd with hardly any downtime
 - [linkerd.io: Announcing Linkerd's Graduation](https://linkerd.io/2021/07/28/announcing-cncf-graduation/)
@@ -133,7 +134,7 @@
 
 - [Traffic Director overview](https://cloud.google.com/traffic-director)
 - [Google Cloud’s Traffic Director — What is it and how is it related to the Istio service-mesh?](https://medium.com/cloudzone/google-clouds-traffic-director-what-is-it-and-how-is-it-related-to-the-istio-service-mesh-c199acc64a6d)
-- [**Google Traffic Director** and the **L7 Internal Load Balancer** Intermingles **Cloud Native** and **Legacy Workloads**](https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads/) 
+- [**Google Traffic Director** and the **L7 Internal Load Balancer** Intermingles **Cloud Native** and **Legacy Workloads**](https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads/)
 - [infoq.com: Introducing Traffic Director: Google's Service Mesh Control Plane](https://www.infoq.com/news/2019/04/google-traffic-director/)
 - [Traffic Director and gRPC—proxyless services for your service mesh](https://cloudblog.withgoogle.com/products/networking/traffic-director-supports-proxyless-grpc/amp/)
 

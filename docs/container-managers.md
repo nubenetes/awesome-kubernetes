@@ -34,7 +34,7 @@
 
 #### runc
 
-- [runc](https://github.com/opencontainers/runc) CLI tool for spawning and running containers according to the OCI specification 
+- [runc](https://github.com/opencontainers/runc) CLI tool for spawning and running containers according to the OCI specification
 
 #### crun
 
@@ -59,7 +59,7 @@
 ### Podman. Pod Manager tool
 
 - [Podman.io](https://podman.io/)
-- [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/libpod) 
+- [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/libpod)
     - Libpod is a library used to create container pods. Home of Podman.
     - Libpod provides a library for applications looking to use the Container Pod concept, popularized by Kubernetes. Libpod also contains the Pod Manager tool (Podman). Podman manages pods, containers, container images, and container volumes.
 - [Intro to Podman](https://developers.redhat.com/blog/2018/08/29/intro-to-podman/)
@@ -95,11 +95,11 @@
 - [pythonspeed.com: Using Podman with BuildKit, the better Docker image builder 🌟](https://pythonspeed.com/articles/podman-buildkit/)
 - [devopscube.com: Podman Tutorial For Beginners: Step by Step Guides 🌟](https://devopscube.com/podman-tutorial-beginners/)
 - [kubernetespodcast.com: Podman, with Daniel Walsh and Brent Baude](https://kubernetespodcast.com/episode/164-podman/)
-- [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/sysadmin/podman-auto-updates-rollbacks) 
+- [redhat.com: How to use auto-updates and rollbacks in Podman](https://www.redhat.com/sysadmin/podman-auto-updates-rollbacks)
     - New auto-update capabilities enable you to use Podman in edge use cases, update workloads once they are connected to the network, and roll back failures to a known-good state.
     - Podman: the best tool for running containers on the edge servers. On the edge you want no human intervention. Podman+systemd support auto-update of container image & rollback, when update fails.
 - [opensource.com: Get podman up and running on Windows using Linux](https://opensource.com/article/21/10/podman-windows-wsl) Enable WSL 2 guests to run the podman, skopeo, or buildah commands from within Windows using the Linux distribution of your choice.
-- [dzone.com: Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman](https://dzone.com/articles/beginners-guide-to-installing-decision-management) Recently the open source community project called Podman announced that there was solid support for using its container tooling to replace docker on your local development machine. 
+- [dzone.com: Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman](https://dzone.com/articles/beginners-guide-to-installing-decision-management) Recently the open source community project called Podman announced that there was solid support for using its container tooling to replace docker on your local development machine.
 - [crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?](http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman/)
 - [medium.com: Exploring Docker alternative — Podman](https://medium.com/techbeatly/exploring-docker-alternative-podman-14674c990311)
 - [darumatic.com: Podman - Introduction 🌟](https://darumatic.com/blog/podman_introduction)
@@ -116,6 +116,7 @@
 - [medium.com/@raghavendraguttur: Podman Containers — Beginner’s Guide](https://medium.com/@raghavendraguttur/podman-containers-beginners-guide-830b931e66f4) In this article, you will learn about Podman — an open-source tool for managing containers, images, volumes, and pods (group of containers). You will also compare it to buildah and skopeo.
 - [nilesh93.medium.com: Replacing Docker Desktop with Podman and Kind in MacOS](https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda)
 - [==dev.to: Containers without Docker (podman, buildah, and skopeo)==](https://dev.to/cedricclyburn/containers-without-docker-podman-buildah-and-skopeo-1eal) In this article, you will learn how you can use Podman, Buildah, and Skopeo as replacements for the traditional Docker workflow, without the use of a daemon or root privileges
+- [redhat.com/sysadmin/quadlet-podman](https://www.redhat.com/sysadmin/quadlet-podman) Make systemd better for Podman with Quadlet. Quadlet, a tool merged into Podman 4.4, hides the complexity of running containers under systemd to make it easier to maintain unit files written from scratch.
 
 #### Podman Desktop
 

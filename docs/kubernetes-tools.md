@@ -90,8 +90,14 @@
 86. [k9s](#k9s)
 87. [Pluto](#pluto)
 88. [Konf Lightweight Kubeconfig Manager](#konf-lightweight-kubeconfig-manager)
-89. [Tweets](#tweets)
-90. [Videos](#videos)
+89. [K8spacket](#k8spacket)
+90. [Infrastructure as Code using Kubernetes. Config Connector](#infrastructure-as-code-using-kubernetes-config-connector)
+91. [Claudie Cloud-agnostic managed Kubernetes](#claudie-cloud-agnostic-managed-kubernetes)
+92. [Observability Monitoring Tools](#observability-monitoring-tools)
+     1. [Debugging and Troubleshooting Tools](#debugging-and-troubleshooting-tools)
+93. [Security](#security)
+94. [Tweets](#tweets)
+95. [Videos](#videos)
 
 ## Introduction
 
@@ -571,6 +577,18 @@
 - [github.com/squat/kilo](https://github.com/squat/kilo) Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg)
 - [github.com/krateoplatformops/krateo](https://github.com/krateoplatformops/krateo) Krateo Platformops is an open-source tool that allows users to create any desired resource on various infrastructures. It acts as a centralized control plane, allowing users to monitor and control resources.
 - [github.com/jwcesign/kubespider](https://github.com/jwcesign/kubespider) A global resource download orchestration system, build your home download center.
+- [faun.pub: A browser based remote desktop solution on kubernetes](https://faun.pub/a-browser-based-remote-desktop-solution-on-kubernetes-d6b3d33e73b6) Building a cost effective and simple remote desktop solution on kubernetes using open source apache guacamole
+- [kvaps/kubectl-node-shell](https://github.com/kvaps/kubectl-node-shell) kubectl node-shell is a krew plugin that lets start a root shell in the node's host
+- [github.com/distribution/distribution](https://github.com/distribution/distribution) In this repository, you'll find the code for storing and distributing container images using the OCI Distribution Specification. The goal of this project is to provide a simple, secure, and scalable base for building a large-scale registry solution.
+- [github.com/flomesh-io/pipy](https://github.com/flomesh-io/pipy) Pipy is a programmable proxy for the cloud, edge and IoT.
+    - [blog.flomesh.io: sing Pipy as a Kubernetes policy engine](https://blog.flomesh.io/using-pipy-as-a-kubernetes-policy-engine-e70a23c8d54c)
+- [github.com/KWasm/podman-wasm](https://github.com/KWasm/podman-wasm) This repository contains a Podman machine image that can run native WebAssembly container images, which only contain wasm files and no runtime
+- [github.com/ibuildthecloud/wtfk8s](https://github.com/ibuildthecloud/wtfk8s) Watch and print changes in k8s. This tool watches kubernetes resources and prints the delta in changes.
+- [==github.com/ContainerSSH/ContainerSSH==](https://github.com/ContainerSSH/ContainerSSH) ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects.
+- [github.com/Netcracker/KubeMarine](https://github.com/Netcracker/KubeMarine) Management tool for Kubernetes cluster deployment and maintenance. Kubemarine is an open-source, lightweight and powerful management tool built for end-to-end Kubernetes cluster deployment and maintenance
+- [github.com/Skarlso/crd-to-sample-yaml](https://github.com/Skarlso/crd-to-sample-yaml) card-to-sample-YAML lets you generate a sample YAML file from a Custom Resource Definition
+- [==github.com/alexellis/run-job==](https://github.com/alexellis/run-job) Run a Kubernetes Job and get the logs when it's done 🏃‍♂️
+- [github.com/JovianX/Service-Hub](https://github.com/JovianX/Service-Hub) Service Hub is a tool to create and manage a Self-Service portal for your applications using Kubernetes and Helm
 
 ## Clusternet
 
@@ -670,6 +688,9 @@
 - [==kubeshop/monokle==](https://github.com/kubeshop/monokle) Monokle - your friendly desktop UI for managing k8s manifests!
 - [medium.com/kubeshop-i: Monokle 1.5.0 Release](https://medium.com/kubeshop-i/monokle-1-5-0-release-kubeshop-95f574563c79) Monokle by @thekubeshop  is your K8s best friend for creating, validating, debugging and managing manifests! Monokle now provides templates to help you get started with creating resources.
 - [kunalkushwaha.com: Manage and debug Kubernetes manifests with Monokle by Kubeshop](https://kunalkushwaha.com/manage-and-debug-kubernetes-manifests-with-monokle-by-kubeshop) **Improve your workflows**
+- [youtube: From Code to Cloud: Quality Kubernetes Deployments with Monokle | Cloud Native Islamabad](https://www.youtube.com/watch?v=7IFAg782pf8)
+    - Create, debug, and implement OPA validation of the necessary YAML resource manifests for proper
+    - See how the application behaves in Prod
 
 ## KubeLibrary
 
@@ -694,6 +715,7 @@
 - [MetalLB](https://github.com/metallb/metallb) A network load-balancer implementation for Kubernetes using standard routing protocols
 - [medium.com/@charled.breteche: Kind, Cilium, MetalLB, and still no kube-proxy](https://medium.com/@charled.breteche/kind-cilium-metallb-and-no-kube-proxy-a9fe66ddfad6) In this article I will show you how to add MetalLB into the mix to enable services of type LoadBalancer to work in your local cluster.
 - [patrick.easte.rs: Forging an optimal MetalLB configuration](https://patrick.easte.rs/post/2022/forging-optimal-metallb-config/) MetalLB discovers services needing load balancers, allocates IP addresses, and advertises them. There are 2 primary modes for announcing load balancers: Layer 2 and 3 (BGP). Each mode has its pros and cons and this article compares them.
+- [adaltas.com: Ingresses and Load Balancers in Kubernetes with MetalLB and nginx-ingress](https://www.adaltas.com/en/2022/09/08/kubernetes-metallb-nginx/) This tutorial will teach you how to use MetalLB and nginx-ingress to  load-balance requests in a bare-metal Kubernetes cluster
 
 ## Kubermatic Kubernetes Platform
 
@@ -792,6 +814,7 @@
     - Introduction and Karpenter vs Kubernetes Cluster Autoscaler
     - Karpenter deployment guide
     - End-to-end working code to implement a fully functional EKS Cluster
+- [dev.to: Karpenter: The Better Autoscaling Solution for Kubernetes- Part 1](https://dev.to/aws-builders/karpenter-the-better-autoscaling-solution-for-kubernetes-part-1-4pd5)
 
 ## Kuby (easy deployments of Ruby Rails App)
 
@@ -1006,7 +1029,7 @@
 ## Kubernetes Security Tools
 
 - [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) RBAC-police is a CLI tool that lets you evaluate the RBAC permissions of service accounts, pods and nodes in Kubernetes clusters through policies written in Rego
-- [m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper) m9sweeper is a complete kubernetes security platform that wraps trivy, project falco, kube-bench, kube-hunter, kubesec, and OPA Gatekeeper into one easy to manage user interface. 
+- [m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper) m9sweeper is a complete kubernetes security platform that wraps trivy, project falco, kube-bench, kube-hunter, kubesec, and OPA Gatekeeper into one easy to manage user interface.
 
 ## PureLB
 
@@ -1022,6 +1045,7 @@
 - [==k9scli.io==](https://k9scli.io) The most essential tool after kubectl. It provides a top like interface to a k8s namespace making it easy to inspect, kill, view logs, or exec and get a shell into your containers.
 - [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) K9s provides a terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
 - [medium.com/@fwiles: k9s EKS Context Error](https://medium.com/@fwiles/k9s-eks-context-error-7ff18df7547f)
+- [tonylixu.medium.com: K8s Tools — K9s, Terminal Based UI to Manage Your Cluster](https://tonylixu.medium.com/devops-in-k8s-k9s-terminal-based-ui-to-manage-your-cluster-85b4f147e209) Introduction to K9s CLI, a K8s management tool
 
 ## Pluto
 
@@ -1031,6 +1055,39 @@
 ## Konf Lightweight Kubeconfig Manager
 
 - [github.com/SimonTheLeg/konf-go](https://github.com/SimonTheLeg/konf-go) konf is a lightweight kubeconfig manager. With konf you can use different kubeconfigs at the same time. And because it does not need subshells, konf is blazing fast!
+
+## K8spacket
+
+- [github.com/k8spacket/k8spacket](https://github.com/k8spacket/k8spacket) k8spacket - packets traffic visualization for kubernetes. k8spacket helps to understand TCP packets traffic in your kubernetes cluster:
+    - Shows traffic between workloads in the cluster
+    - Informs where the traffic is routed outside the cluster
+    - Displays information about closing sockets by connections
+
+## Infrastructure as Code using Kubernetes. Config Connector
+
+- [==cloud.google.com/config-connector==](https://cloud.google.com/config-connector/docs/overview) Config Connector is an open source Kubernetes addon that allows you to manage Google Cloud resources through Kubernetes.
+- [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)
+    - Config Connector (KCC) is a solution to maintain Cloud Resources as Infrastructure as Code. It is built as an Open Source initiative and runs on Kubernetes clusters. As such, it leverages YAML files to maintain and operate such resources.
+    - Config Connector has two versions: an Add-On for Google Kubernetes Engine (GKE) clusters and a manual installation for other Kubernetes distributions.
+
+## Claudie Cloud-agnostic managed Kubernetes
+
+- [==github.com/Berops/claudie==](https://github.com/Berops/claudie) Claudie is a platform for managing multi-cloud Kubernetes clusters with each node pools in a different cloud provider
+
+## Observability Monitoring Tools
+
+- [github.com/oslabs-beta/oslabs](https://github.com/oslabs-beta/oslabs) KubernOcular is a free, open-source tool which harnesses the power of Prometheus and the Kubernetes-Client Node API to give developers an insightful and holistic view of Kubernetes clusters.
+- [github.com/M3DZIK/go-pingbot](https://github.com/M3DZIK/go-pingbot) This application "pings" websites every few minutes. It can be used to keep the application alive on e.g. glitch.me or repl.it.
+
+### Debugging and Troubleshooting Tools
+
+- [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) kubectl-debug is a tool that lets you debug a target container in a Kubernetes cluster by automatically creating a new, non-invasive, 'debug' container in the same PID, network, user, and IPC namespace as the target container without any disruption
+- [github.com/AdamRussak/k8f](https://github.com/AdamRussak/k8f) A simple go tool to check that your cluster is in supported version written in GO. k8f is a command line tool to find, list, connect and check versions for kubernetes clusters. With k8f you can connect at once to all clusters tagged as "AWS" or find a specific cluster in your kubeconfig.
+- [==github.com/komodorio/validkube==](https://github.com/komodorio/validkube) Validkube combines the best open-source tools to help ensure Kubernetes YAML best practices, hygiene & security
+
+## Security
+
+- [github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) Badrobot is a Kubernetes Operator audit tool. It statically analyses manifests for high-risk configurations such as lack of security restrictions on the deployed controller and the permissions of an associated clusterole.
 
 ## Tweets
 
@@ -1065,5 +1122,3 @@
 
   gtag('config', 'UA-168051035-1');
 </script>
-
-

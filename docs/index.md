@@ -29,16 +29,19 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [agilemanifesto.org](http://agilemanifesto.org/)
 - [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/architect/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com/) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
-- [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops)
+- [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops) - [Kubernetes Roadmap](https://roadmap.sh/kubernetes)
 - [API Landscape](https://apilandscape.apiscene.io/)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
     - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
-    - [2022 🌟](https://survey.stackoverflow.co/2022/) - [betterprogramming.pub]((https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3))
+    - [2022 🌟](https://survey.stackoverflow.co/2022/) - [betterprogramming.pub](https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3)
 - [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
     - [Go Collective](https://stackoverflow.com/collectives/go)
     - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)
     - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
     - [AWS Collective](https://stackoverflow.com/collectives/aws)
+    - [Azure Collective](https://stackoverflow.com/collectives/azure)
+    - [CI/CD Collective](https://stackoverflow.com/collectives/ci-cd)
+    - [WSO2 Collective](https://stackoverflow.com/collectives/wso2)
     - etc
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
@@ -80,6 +83,10 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [infoworld.com: The biggest obstacle to cloud is people](https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html) People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.
 - [Droogans/How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code) Ensure a job for life ;-)
 - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
+- [github.com/metaleapca: metaleap-devops-in-k8s.pdf](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)
+- [github.com/metaleapca: metaleap-k8s-troubleshooting.pdf](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
+- [devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/)
+- [serverlessland.com: EDA VISUALS](https://serverlessland.com/event-driven-architecture/visuals) Small bite sized visuals about event-driven architectures
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

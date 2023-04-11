@@ -97,7 +97,7 @@
 - [github.blog: Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 - [github.blog: Commits are snapshots, not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/)
 - [github.blog: Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
-- [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/) 
+- [about.gitlab.com: How Git Partial Clone lets you fetch only the large file you need](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/)
 - [intellipaat.com: Git Tutorial - Learn Git 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial/)
 - [freecodecamp.org: How to Use Multiple Git Configs on One Computer 🌟](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
 - [dev.to: Git for beginners](https://dev.to/purveshshende2/git-for-beginners-3il6)
@@ -112,12 +112,12 @@
 - [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
 - [about.gitlab.com: Why small merge requests are key to a great review 🌟](https://about.gitlab.com/blog/2021/03/18/iteration-and-code-review/)
 - [dzone: GitOps: How to Ops Your Git the Right Way 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
-- [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/) 
+- [honeybadger.io: Top Ten Git Tips & Tricks](https://www.honeybadger.io/blog/git-tricks/)
 - [blog.balasundar.com: Automate Git Operations Using Python](https://blog.balasundar.com/automate-git-operations-using-python) Automate your git operations using GitPython.
 - [cloudbees.com: Git Commands: The 13 You Must Know, In Order 🌟](https://www.cloudbees.com/blog/13-git-commands-to-know-in-order)
 - [levelup.gitconnected.com: 5 Git Commands to Know Before Your First Tech Job or Internship](https://levelup.gitconnected.com/5-git-commands-to-know-before-your-first-tech-job-or-internship-1b5856313338)
 - [dev.to: Master Git in 7 minutes 🌟](https://dev.to/valeriavg/master-git-in-7-minutes-gai)
-- [blog.greenroots.info: How NOT to use Git in Practice. Ten Git usages, you should know to avoid](https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid) 
+- [blog.greenroots.info: How NOT to use Git in Practice. Ten Git usages, you should know to avoid](https://blog.greenroots.info/how-not-to-use-git-in-practice-ten-git-usages-you-should-know-to-avoid)
 - [integratn.io: My Git Worktree Workflow](https://integratn.io/posts/my-git-worktree-workflow/)
 - [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://livecodestream.dev/post/five-advanced-git-concepts-that-make-you-look-like-a-pro/) Learn how to master GIT with these 5 advanced concepts
 - [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
@@ -171,6 +171,8 @@
 - [java67.com: Top 10 Free Git Courses and Tutorials for Beginners in 2022 - Best of Lot](https://www.java67.com/2022/07/10-best-free-git-courses-and-tutorials.html)
 - [==medium.com/@ladoui.bilal: 10 Git commands every DevOps should know== 🌟](https://medium.com/@ladoui.bilal/10-git-commands-should-every-devops-should-know-6ae07f5e1989)
 - [polarsquad.com: Stop doing pull requests](https://polarsquad.com/blog/stop-doing-pull-requests)
+- [medium.com/@datosh18: Gitsign in remote environments](https://medium.com/@datosh18/gitsign-in-remote-environments-6f40f47d289f)
+- [medium.com/qe-unit: How Google Does Monorepo (Revisited)](https://medium.com/qe-unit/how-google-does-monorepo-revisited-8c793be20344)
 
 ## Git stash
 
@@ -226,7 +228,7 @@
 
 ## Design By Contract
 
-[Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. 
+[Wikipedia: Design by contract (DbC)](https://en.wikipedia.org/wiki/Design_by_contract), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software.
 
 It prescribes that software designers should define formal, precise and verifiable interface specifications for software components, which extend the ordinary definition of abstract data types with preconditions, postconditions and invariants. These specifications are referred to as "contracts", in accordance with a conceptual metaphor with the conditions and obligations of business contracts.
 
@@ -291,7 +293,7 @@ It prescribes that software designers should define formal, precise and verifiab
 
 #### Git Flow
 
-- One of the main concepts of **GitFlow** is **feature branches**. The idea is that each feature should be developed in its own branch. When the feature is done, it gets merged into develop branch. 
+- One of the main concepts of **GitFlow** is **feature branches**. The idea is that each feature should be developed in its own branch. When the feature is done, it gets merged into develop branch.
 - [devopszone.info: An Introduction To Git-flow Workflow](https://www.devopszone.info/post/an-introduction-to-git-flow-workflow)
 - [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [gitkraken.com: GitFlow](https://support.gitkraken.com/git-workflows-and-extensions/git-flow/) is a list of rules to keep a repo’s history organized, and is used to make the release process, bug fixes, and feature creation easier.
@@ -471,7 +473,7 @@ git rebase -i HEAD~5
 - [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
 - [theregister.com: Passwords begone: GitHub will ban them next year for authenticating Git operations](https://www.theregister.com/2020/12/17/github_bans_passwords/)
 - [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/)
-- [github.blog: Improving how we deploy GitHub](https://github.blog/2021-01-25-improving-how-we-deploy-github/) 
+- [github.blog: Improving how we deploy GitHub](https://github.blog/2021-01-25-improving-how-we-deploy-github/)
 - [github.blog: Deployment reliability at GitHub](https://github.blog/2021-02-03-deployment-reliability-at-github/)
 - [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/2021-02-04-extending-gitops-to-reliability-as-code-with-github-and-stackpulse/)
 - [GitHub public roadmap 🌟](https://github.com/github/roadmap)
@@ -480,7 +482,7 @@ git rebase -i HEAD~5
 - [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
 - [github.blog: Security keys are now supported for SSH Git operations 🌟](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/)
 - [education.github.com](https://education.github.com/) Real-world tools, engaged students. GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
-- [github.blog: GitHub brings supply chain security features to the Go community](https://github.blog/2021-07-22-github-supply-chain-security-features-go-community/) 
+- [github.blog: GitHub brings supply chain security features to the Go community](https://github.blog/2021-07-22-github-supply-chain-security-features-go-community/)
 - [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) We're deprecating password support for Git operations to keep you more secure. You can authenticate Git actions using:
     - SSH keys
     - Personal Access Tokens
@@ -549,7 +551,7 @@ git rebase -i HEAD~5
 - [github.blog: How we use GitHub Actions to manage GitHub Docs](https://github.blog/2021-04-28-use-github-actions-manage-docs/)
 - [vimeo.com: How to Create a CI/CD Pipeline with GitHub Actions and K8s Like a Boss](https://vimeo.com/552276182)
 - [medium: Create CI/CD with Github Actions + AWS EC2, CodeDeploy and S3](https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0)
-- [actions-runner-controller 🌟](https://github.com/actions-runner-controller/actions-runner-controller) Kubernetes controller for GitHub Actions self-hosted runnners 
+- [actions-runner-controller 🌟](https://github.com/actions-runner-controller/actions-runner-controller) Kubernetes controller for GitHub Actions self-hosted runnners
 - [itnext.io: GitHub Actions for Android Developers](https://itnext.io/github-actions-for-android-developers-9ae606df2bfa)
 - [github.com: Branch Cleanup Action 🌟](https://github.com/jessfraz/branch-cleanup-action) A GitHub action to automatically delete the branch after a pull request has been merged.
 - [blog.thundra.io: How to Set Up a CI Pipeline in GitHub Actions](https://blog.thundra.io/how-to-set-up-a-ci-pipeline-in-github-actions)
@@ -576,8 +578,8 @@ git rebase -i HEAD~5
 
 #### GitHub Actions Marketplace
 
-- [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data. 
-  
+- [flat-data](https://github.com/marketplace/actions/flat-data) Flat Data is a GitHub action which makes it easy to fetch data and commit it to your repository as flatfiles. The action is intended to be run on a schedule, retrieving data from any supported target and creating a commit if there is any change to the fetched data.
+
 ### GitHub Actions and OpenShift
 
 - [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions) Industry’s leading enterprise Kubernetes platform now integrates with GitHub, bringing DevOps automation tools from the world’s largest developer platform into the OpenShift ecosystem
@@ -648,7 +650,7 @@ git rebase -i HEAD~5
 - [semantic-release.gitbook.io 🌟](https://semantic-release.gitbook.io/semantic-release/) Semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 - [css-tricks.com: How to Automate Project Versioning and Releases with Continuous Deployment 🌟](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/)
 
-## Azure DevOps (formerly known as VSTS) 
+## Azure DevOps (formerly known as VSTS)
 
 - [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)
     - [wikipedia: Azure DevOps Server](https://en.wikipedia.org/wiki/Azure_DevOps_Server) Collaboration software for software development formerly known as Team Foundation Server and Visual Studio Team System
@@ -704,7 +706,7 @@ Automate them.
 - [lab.texthtml.net: Gitlab Merge Bot](https://lab.texthtml.net/gitlab/merge-bot)
     - [DockerHub: Gitlab Merge Bot](https://hub.docker.com/r/texthtml/gitlab-merge-bot/) Bot assistant for code review and merge requests approval for Gitlab
 - [Mergecrush](https://www.mergecrush.com/) A email & slack reminder bot for Gitlab merge requests.
-- [stackoverflow.com: How can we programmatically approve merge requests in GitLab?](https://stackoverflow.com/questions/58019605/how-can-we-programmatically-approve-merge-requests-in-gitlab) 
+- [stackoverflow.com: How can we programmatically approve merge requests in GitLab?](https://stackoverflow.com/questions/58019605/how-can-we-programmatically-approve-merge-requests-in-gitlab)
     - Our group has a bot that creates merge requests for certain mechanical changes to our code base. We'd like these MRs to get merged in automatically if/when the CI pipeline succeeds, but our projects require an approval from a member of our group. This means that right now a human has to manually click on "approve" and "merge" for each bot-created MR. Apparently GitLab doesn't have a way to set different approval rules for some users, so I haven't found a way to make the bot's user immune to this requirement.
     - My current idea is to have a separate process that approves each of the merge requests created by the bot. Is there an easy way to do this programmatically? That is, is there an API (or better yet, a command line tool) that, when given the name of the branch for a merge request, approves the merge request associated with that branch?
     - I'm also open to other ways of getting these changes in with minimal human intervention. I do want them to pass the CI pipeline, though (which is currently accomplished by having them use MRs) and the MRs also help in the rare cases where the pipeline fails, so we can debug what went wrong.
@@ -730,13 +732,13 @@ Automate them.
 
 ### Mergify bot
 
-- [mergify.io](https://mergify.io/)  
+- [mergify.io](https://mergify.io/)
 - [medium: Merging Bots’ Pull Requests Automatically](https://medium.com/mergify/merging-bots-pull-requests-automatically-548ed0b4a424)
 
 ### GitHub bots
 
 - [github-rebase-bot](https://github.com/nicolai86/github-rebase-bot) A github bot that monitors repository PRs, rebases them and merges them as they pass tests.
-- [Bulldozer: GitHub Pull Request Auto-Merge Bot](https://github.com/palantir/bulldozer) 
+- [Bulldozer: GitHub Pull Request Auto-Merge Bot](https://github.com/palantir/bulldozer)
 - [github-merge-bot](https://github.com/depop/github-merge-bot) Automates the process of merging pull requests and keeping them up-to-date.
 - [github.com/squalrus/merge-bot: PR Merge Bot](https://github.com/squalrus/merge-bot) A GitHub action that manages pull request integrations
 - [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
@@ -747,7 +749,7 @@ Automate them.
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
     - [help.github.com: Configuring protected branches](https://help.github.com/en/github/administering-a-repository/configuring-protected-branches)
     - [help.github.com: Enabling required status checks:](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks)
-        - Select Require status checks to pass before merging 
+        - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
 
 #### Bors GitHub bot

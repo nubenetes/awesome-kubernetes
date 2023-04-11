@@ -1,13 +1,15 @@
 # APIs with SOAP, REST and gRPC
 
 1. [APIs](#apis)
-2. [Python FastAPI](#python-fastapi)
-3. [Python REST APIs with flask](#python-rest-apis-with-flask)
-4. [Motivation](#motivation)
-5. [State of the API Report](#state-of-the-api-report)
+2. [From RESTful to Event-Driven APIs](#from-restful-to-event-driven-apis)
+3. [API Gateway vs. Load Balancer: What's The Difference?](#api-gateway-vs-load-balancer-whats-the-difference)
+4. [Python FastAPI](#python-fastapi)
+5. [Python REST APIs with flask](#python-rest-apis-with-flask)
+6. [Motivation](#motivation)
+7. [State of the API Report](#state-of-the-api-report)
     1. [Postman State of the API Report](#postman-state-of-the-api-report)
     2. [Smartbear State of the API Report](#smartbear-state-of-the-api-report)
-6. [Types of API Protocols. Interprocess Communication in Microservices](#types-of-api-protocols-interprocess-communication-in-microservices)
+8. [Types of API Protocols. Interprocess Communication in Microservices](#types-of-api-protocols-interprocess-communication-in-microservices)
     1. [SOAP API Protocol (Simple Object Access Protocol)](#soap-api-protocol-simple-object-access-protocol)
     2. [REST API Protocol (Representational State Transfer)](#rest-api-protocol-representational-state-transfer)
         1. [OpenAPI Specification (originally known as the Swagger Specification)](#openapi-specification-originally-known-as-the-swagger-specification)
@@ -17,26 +19,26 @@
         1. [WebSockets](#websockets)
         2. [Socket.io](#socketio)
         3. [AsyncAPI](#asyncapi)
-7. [Comparisons](#comparisons)
+9. [Comparisons](#comparisons)
     1. [SOAP vs REST](#soap-vs-rest)
     2. [REST vs OpenAPI vs gRPC](#rest-vs-openapi-vs-grpc)
     3. [REST vs GraphQL vs gRPC](#rest-vs-graphql-vs-grpc)
-8. [Tools](#tools)
-    1. [API Testing](#api-testing)
-    2. [GraphQL](#graphql)
-        1. [Hasura](#hasura)
-9. [Browser APIs](#browser-apis)
-10. [API Security](#api-security)
-11. [Free Web Services (Public APIs)](#free-web-services-public-apis)
-12. [Open Banking](#open-banking)
-13. [RPA](#rpa)
-14. [API Ops](#api-ops)
-15. [Related](#related)
-16. [Video APIs](#video-apis)
-17. [API Business Models](#api-business-models)
-18. [Videos](#videos)
-19. [Images](#images)
-20. [Tweets](#tweets)
+10. [Tools](#tools)
+     1. [API Testing](#api-testing)
+     2. [GraphQL](#graphql)
+         1. [Hasura](#hasura)
+11. [Browser APIs](#browser-apis)
+12. [API Security](#api-security)
+13. [Free Web Services (Public APIs)](#free-web-services-public-apis)
+14. [Open Banking](#open-banking)
+15. [RPA](#rpa)
+16. [API Ops](#api-ops)
+17. [Related](#related)
+18. [Video APIs](#video-apis)
+19. [API Business Models](#api-business-models)
+20. [Videos](#videos)
+21. [Images](#images)
+22. [Tweets](#tweets)
 
 ## APIs
 
@@ -76,6 +78,15 @@
 - [thenewstack.io: How to Achieve API Governance](https://thenewstack.io/how-to-achieve-api-governance/) With APIs popping up everywhere, API strategy demands common design patterns, central discoverability, and putting users first.
 - [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
 - [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself. In this guide Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
+- [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document/)
+
+## From RESTful to Event-Driven APIs
+
+- [foojay.io: The Evolution of APIs: From RESTful to Event-Driven](https://foojay.io/today/the-evolution-of-apis-from-restful-to-event-driven/)
+
+## API Gateway vs. Load Balancer: What's The Difference?
+
+- [blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?](https://blog.hubspot.com/website/api-gateway-vs-load-balancer#:~:text=An%20API%20gateway%20vs.,network%20traffic%20across%20multiple%20servers) An API gateway vs. load balancer comparison can be boiled down to the fact that they both manage traffic entering your website or application but have different roles. An API gateway handles authentication and security policies, while a load balancer API distributes network traffic across multiple servers.
 
 ## Python FastAPI
 
@@ -385,5 +396,37 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What is a REST API?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1620059239069716484?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10 API related terms that every developer should be aware of<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1622595951369093120?ref_src=twsrc%5Etfw">February 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are CRUD operations?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1622708700212350976?ref_src=twsrc%5Etfw">February 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do Webhooks work?👇 <a href="https://t.co/9CQ76uhY4l">pic.twitter.com/9CQ76uhY4l</a></p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1622958145281597441?ref_src=twsrc%5Etfw">February 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to use Axios to make API requests.<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1622737929436114945?ref_src=twsrc%5Etfw">February 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five GPT-3 based APIs for your next side project.<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1623027032710955008?ref_src=twsrc%5Etfw">February 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API Design best practices<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1623754827611209730?ref_src=twsrc%5Etfw">February 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HTTP 2xx Status Codes worth knowing about<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1623802395703533568?ref_src=twsrc%5Etfw">February 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What&#39;s the difference between the HTTP methods PUT and PATCH?<br> <br>A thread 👇<br><br>{ 1 / 5 } <a href="https://t.co/lTCpIGU9l3">pic.twitter.com/lTCpIGU9l3</a></p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1624045287172984832?ref_src=twsrc%5Etfw">February 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What&#39;s the difference between API and microservice?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1625606823561535496?ref_src=twsrc%5Etfw">February 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top location APIs that you can use in your next project<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1625986027604045825?ref_src=twsrc%5Etfw">February 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloud and APIs. How does it work?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1626944612550975489?ref_src=twsrc%5Etfw">February 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">8 APIs that you can use in your next side project<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1627739094418616320?ref_src=twsrc%5Etfw">February 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How does JSON web token (JWT) authentication work?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1628393919124852738?ref_src=twsrc%5Etfw">February 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">REST API development tips 👇<br><br>{ 1 / 6 } <a href="https://t.co/9L2QKReuRp">pic.twitter.com/9L2QKReuRp</a></p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1629104010916503554?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Benefits of API caching 👇🧵</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1629269919610044416?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Difference between API and Webhook<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1630273097994575873?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 What are the API architectural styles?<br><br>The diagram below shows the common API architectural styles in one picture:<br><br>1. REST<br>2. GraphQL<br>3. Web socket<br>4. Webhook<br>5. gRPC<br>6. SOAP <a href="https://t.co/ojmpp12A09">pic.twitter.com/ojmpp12A09</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1630247687114330120?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

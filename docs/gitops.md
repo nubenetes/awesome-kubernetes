@@ -168,6 +168,13 @@
 - [containerjournal.com: GitOps Workflows Expanding Beyond Kubernetes Clusters](https://containerjournal.com/features/gitops-workflows-expanding-beyond-kubernetes-clusters/) GitOps is an opinionated instance of a DevOps workflow that unifies both software deployment and the provisioning of infrastructure using code to create reusable templates.
 - [==developers.redhat.com: GitOps Cookbook: Kubernetes automation in practice==](https://developers.redhat.com/articles/2022/12/20/gitops-cookbook-kubernetes-automation-practice)
 - [containerjournal.com: Best of 2022: GitOps: The Missing Link for CI/CD for Kubernetes](https://containerjournal.com/features/gitops-the-missing-link-for-ci-cd-for-kubernetes/)
+- [==devops.com: Declarative Compliance With Policy-as-Code and GitOps== 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/) Declarative Compliance provides several benefits:
+    - Increased efficiency
+    - Better managed compliance
+    - Minimized risk of human errors
+    - Enhanced security
+    - Faster deployment
+    - Better collaboration
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -244,6 +251,7 @@
 - [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3)
 - [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
 - [harness.io: Comparing Helm vs Kustomize](https://harness.io/blog/helm-vs-kustomize)
+- [nicolasbarlatier.hashnode.dev: Introduction Kubernetes and Kustomize: How to easily customize any resource configuration with Kustomize?](https://nicolasbarlatier.hashnode.dev/introduction-kubernetes-and-kustomize-how-to-easily-customize-any-resource-configuration-with-kustomize) In this tutorial, you will learn how to use Kustomize to template the number of replicas in a workload based on the environment (e.g. 1 pod in dev, 10 pods in prod)
 
 ### Flagger
 

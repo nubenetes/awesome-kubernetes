@@ -24,7 +24,7 @@
 - http://remotive.io/remote-jobs/software-dev
 - http://stackoverflow.com/jobs?r=true
 - http://github.com/remoteintech/remote-jobs
-- https://shieldgeo.com Shield GEO makes international employment simple. 
+- https://shieldgeo.com Shield GEO makes international employment simple.
 - https://www.deskhiker.com
 - https://4dayweek.io Find a 4 day work week software job.
 - https://remotetechjobs.com 3000 active tech jobs on the site, excellent search-and-subscribe functionality, and 37 tech job categories.
@@ -37,10 +37,11 @@
 
 ## Spain
 
-- [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/) 
+- [esquire.com: ¿Por qué tu empresa no quiere que teletrabajes?](https://www.esquire.com/es/trabajo/a37314227/teletrabajo-volver-oficina/)
 - [sincrogo.com: Teletrabajo desde España para el extranjero: ¿dónde hay que tributar?](https://sincrogo.com/blog/actualidad-fiscal-contable/teletrabajo-desde-espana-para-el-extranjero-donde-hay-que-tributar/)
 - https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 - https://bcneng.net
+- [genbeta.com: El teletrabajo lleva a la gente a pasar más tiempo conectada y trabajando. Un experto da claves para evitar el agotamiento](https://www.genbeta.com/a-fondo/dar-flexibilidad-obligar-a-desconexion-teletrabajo-claves-para-mejorar-productividad-tu-equipo-trabajo)
 
 ## Tweets
 

@@ -14,7 +14,7 @@
     9. [OpenShift](#openshift)
     10. [Microservices](#microservices)
     11. [Argo](#argo)
-    12. [Monitoring](#monitoring)
+    12. [Monitoring Observability](#monitoring-observability)
     13. [Cloud](#cloud)
     14. [Docker](#docker)
     15. [Configuration Management](#configuration-management)
@@ -57,6 +57,7 @@
 - [fairwinds.com: Top 12 Kubernetes Resources: Learn and Stay Up-to-Date](https://www.fairwinds.com/blog/top-12-kubernetes-resources)
 - [github.com/joseadanof: Awesome Cloud Native Trainings](https://github.com/joseadanof/awesome-cloudnative-trainings) In this repository, you will find all the free training with and without certificates that were released for different companies supporting Cloud Native Computing Foundations Projects and Kubernetes.
 - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7) A curated (but not exhaustive) list of FOSS projects addressing multi-tenancy challenges in K8s.
+- [github.com/calvin-puram: Awesome Kubernetes Operator Resources](https://github.com/calvin-puram/awesome-kubernetes-operator-resources) Awesome Kubernetes Operator Resources is a curated list of awesome resources: articles, books and videos about Kubernetes Operators
 
 ## Other Awesome Lists
 
@@ -76,7 +77,7 @@
 - [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) A collection of ZSH frameworks, plugins, themes and tutorials.
 - [developer-guy/awesome-falco](https://github.com/developer-guy/awesome-falco) A curated list of Falco related tools, frameworks and articles
 - [runacapital/awesome-oss-alternatives: Awesome open-source alternatives to SaaS 🌟](https://github.com/runacapital/awesome-oss-alternatives)
-- [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles. 
+- [==awesome-architecture.com: 🎨 Awesome Software Architecture 🌟==](https://awesome-architecture.com) - [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) A curated list of awesome articles, videos, and other resources to learn and practice about software architecture, patterns, and principles.
 - [lorien/awesome-web-scraping: Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping) List of libraries, tools and APIs for web scraping and data processing.
 - [==Devdocs.io API Documentation== 🌟](https://devdocs.io/)
 - [==developer.hashicorp.com== 🌟](https://developer.hashicorp.com/) **Learn at your own pace in one place with reference docs, step by step tutorials, videos, and real hands-on lab workstations to automate your infrastructure, networking, and security workflows.**
@@ -148,19 +149,22 @@
 
 - [terrytangyuan/awesome-argo 🌟](https://github.com/terrytangyuan/awesome-argo) A curated list of awesome projects and resources related to Argo (a CNCF hosted project)
 
-### Monitoring
+### Monitoring Observability
 
-- [Awesome APM](https://github.com/antonarhipov/awesome-apm)
+- [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability)
+- [github.com/antonarhipov/awesome-apm: Awesome APM](https://github.com/antonarhipov/awesome-apm)
 
 ### Cloud
 
-- [Awesome AWS](https://github.com/donnemartin/awesome-aws)
-- [Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
-- [Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)
-- [Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)
+- [github.com/donnemartin/awesome-aws: Awesome AWS](https://github.com/donnemartin/awesome-aws)
+- [github.com/GoogleCloudPlatform/awesome-google-cloud: Awesome GCP](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
+- [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure)
+- [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure)
+- [github.com/jonleibowitz/awesome-digitalocean: Awesome Digital Ocean](https://github.com/jonleibowitz/awesome-digitalocean)
 - [christopherhein/awesome-eks: Awesome EKS](https://github.com/christopherhein/awesome-eks)
 - [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
 - [globalbao/awesome-azure-policy: AWESOME-Azure-Policy](https://github.com/globalbao/awesome-azure-policy) A curated list of blogs, videos, tutorials, code, tools, scripts, and anything useful to help you learn Azure Policy - by @jesseloudon
+- [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
 
 ### Docker
 

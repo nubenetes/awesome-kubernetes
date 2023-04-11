@@ -65,11 +65,11 @@
 ## VIM
 
 - [VimWiki](https://github.com/vimwiki/vimwiki)
-- [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands) 
+- [redhat.com: Vim: Basic and intermediate commands](https://www.redhat.com/sysadmin/vim-commands)
 - [dev.to: Another one short Vim cheat sheet](https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc)
 - [thevaluable.dev: A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
 - [redhat.com: Recursive Vim macros: One step further into automating repetitive tasks](https://www.redhat.com/sysadmin/recursive-vim-macros) Take Vim to the limit with recursive macros.
-- [openvim.com](https://openvim.com/) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users. 
+- [openvim.com](https://openvim.com/) Interactive Vim tutorial for developers, sysadmins and Linux or Unix users.
 - [levelup.gitconnected.com: Vim: A How-To Guide](https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff) Key Techniques with Vim for Faster Programming
 
 ## Neovim
@@ -119,7 +119,7 @@
 - [tecadmin.net](https://tecadmin.net/)
 - [systemcodegeeks.com](https://www.systemcodegeeks.com/)
 - [linuxnix.com](https://www.linuxnix.com/)
-- [learnitguide.net](https://www.learnitguide.net/)
+- [learnitguide.net 🌟](https://www.learnitguide.net/)
 - [FOSS Force](http://fossforce.com/)
 - [linuxhomenetworking.com](http://www.linuxhomenetworking.com/)
 - [linuxtoday.com](http://www.linuxtoday.com/)
@@ -128,7 +128,7 @@
 - [Linux-tutorial.info](http://www.linux-tutorial.info/)
 - [The Lone Sysadmin](https://lonesysadmin.net/)
 - [LinuxLinks.com](http://www.linuxlinks.com)
-- [unixmages.com](http://unixmages.com) 
+- [unixmages.com](http://unixmages.com)
 - [The Geek Stuff](http://www.thegeekstuff.com/)
 - [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) A study notes book for the common knowledge and tasks of a Linux system admin.
 
@@ -175,7 +175,7 @@
 - [oilshell: Alternative shells](https://github.com/oilshell/oil/wiki/Alternative-Shells)
 - [Timezone Bullshit](https://blog.wesleyac.com/posts/timezone-bullshit)
 - [cyberciti.biz: How to check memory utilization in Linux](https://www.cyberciti.biz/faq/how-to-check-memory-utilization-in-linux/)
-- [tecmint.com: Different Ways to Use Column Command in Linux](https://www.tecmint.com/linux-column-command/) 
+- [tecmint.com: Different Ways to Use Column Command in Linux](https://www.tecmint.com/linux-column-command/)
 - [opensource.com: How to use the Linux grep command](https://opensource.com/article/21/3/grep-cheat-sheet)
 - [dnschecker.org 🌟](https://dnschecker.org/)
 - [tecmint.com: 10 Useful Commands to Collect System and Hardware Information in Linux](https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux)
@@ -321,7 +321,7 @@
 
 ## Linux Memory
 
-- [learnsteps.com: Difference between minor page faults vs major page faults](https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/) 
+- [learnsteps.com: Difference between minor page faults vs major page faults](https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/)
 
 ## Linux and Kubernetes
 

@@ -113,6 +113,8 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [medium.com/codex: Egress Traffic Control for Nginx Ingress Controller with Istio Proxy Sidecar](https://medium.com/codex/egress-traffic-control-for-nginx-ingress-controller-with-istio-proxy-sidecar-ef8f19902b43)
 - [medium.com/marionete: How to expose Kubernetes services to external traffic using Istio Gateway](https://medium.com/marionete/how-to-expose-kubernetes-services-to-external-traffic-using-istio-gateway-1a1e6ebd8805) In this article, you'll walk through the necessary configurations to expose services inside a Service Mesh to external traffic. The first scenario covers an HTTP endpoint, while the second examines the HTTPS configurations.
 - [medium.com/@eoneoff: Installing Istio multicluster deployment with Terraform](https://medium.com/@eoneoff/installing-istio-multicluster-deployment-with-terraform-59db2f9b2177)
+- [natarajsundar.medium.com: Istio service mesh, a start to finish tutorial with Side Car architecture and an analysis + comparison of the Ambient mesh architecture](https://natarajsundar.medium.com/istio-service-mesh-a-start-to-finish-tutorial-with-side-car-architecture-and-an-analysis-d70a255ea41d)
+- [alexandrev.medium.com: How To Enable Sticky Session on Your Kubernetes Workloads using Istio? 🌟](https://alexandrev.medium.com/how-to-enable-sticky-session-on-your-kubernetes-workloads-using-istio-e789014a6acd)
 
 ## API Access Control
 
@@ -148,6 +150,7 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)
 - [hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM](https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi)
 - [faun.pub: A beginner’s guide to Jaeger](https://faun.pub/a-beginners-guide-to-jaeger-ed75ce5ed8f4) Welcome to A beginner’s guide to Jaeger (5 Part Series)
+- [infracloud.io: Linking Traces with Continuous Profiling using Pyroscope](https://www.infracloud.io/blogs/linking-traces-continuous-profiling-pyroscope/) The future of observability lies in distributed tracing with continuous profiling. In this article, you will learn how you can link traces with continuous profiling using Pyroscope and Jaeger.
 
 ## Envoy micro proxy
 

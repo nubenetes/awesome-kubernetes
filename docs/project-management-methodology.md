@@ -87,6 +87,7 @@
 - [huryn.substack.com: 3 Ways to Create 10X Better Product Roadmaps](https://huryn.substack.com/p/3-ways-to-create-10x-better-product)
 - [jchyip.medium.com: My critique of “the Spotify Model”: Part 1](https://jchyip.medium.com/my-critique-of-the-spotify-model-part-1-197d335ef7af)
 - [hbr.org: How to Give Tough Feedback That Helps People Grow](https://hbr.org/2015/08/how-to-give-tough-feedback-that-helps-people-grow)
+- [medium.com/@tom-neal: CTO Checklist](https://medium.com/@tom-neal/cto-checklist-1a2ef3d6502)
 
 ### Spanish
 

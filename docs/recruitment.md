@@ -60,6 +60,7 @@
 - [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/3663674/how-to-get-a-job-in-healthcare-it.html) Sky-high demand for tech workers means more open doors for IT pros who don’t have prior experience in the healthcare industry.
 - [theengineeringmanager.substack.com: How do I progress to the next level in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level) Let's look at motivation, craft, opportunity and taking ownership.
 - [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://blogs.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693/)
+- [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers/) Career paths for software engineers
 
 ## Articles in Spanish
 

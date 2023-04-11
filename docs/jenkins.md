@@ -153,6 +153,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [==aws.amazon.com: Jenkins high availability and disaster recovery on AWS== 🌟](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws/)
 - [blog.searce.com: Jenkins Distributed Cluster Using Dynamic Build Agents On GKE](https://blog.searce.com/jenkins-distributed-cluster-using-dynamic-build-agents-on-gke-e2262a59dcb3) In this article, you'll learn how to build a distributed Jenkins cluster on GKE and autoscale the Jenkins agents to process more jobs.
 - [fosstechnix.com: How to Validate Jenkinsfile using Visual Studio Code](https://www.fosstechnix.com/validate-jenkinsfile-using-visual-studio-code/)
+- [freecodecamp.org: Learn Jenkins by Building a CI/CD Pipeline 🌟](https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/)
+- [medium.com/ni-tech-talk: Creating Customized Kubernetes Pod Templates using Groovy in Jenkins Pipeline 🌟](https://medium.com/ni-tech-talk/creating-customized-kubernetes-pod-templates-using-groovy-in-jenkins-pipeline-7007f023a585)
 
 ## Jenkins Is The Way
 
@@ -283,7 +285,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [dzone: learn how to setup a cicd pipeline from scratch 🌟](https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
 - [dzone: how to use basic jenkins pipelines](https://dzone.com/articles/how-to-use-basic-jenkins-pipelines)
 - [opensource.com - building cicd pipelines with jenkins 🌟](https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins)
-- [opensource.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/)
+- [devopscube.com: Jenkins Pipeline as Code Tutorial For Beginners 🌟](https://devopscube.com/jenkins-pipeline-as-code/)
 - [loves.cloud: CI/CD Pipeline Using Docker and Jenkins](https://loves.cloud/ci-cd-pipeline-using-docker-and-jenkins/)
     - [github.com/LovesCloud/java-groovy-docker](https://github.com/LovesCloud/java-groovy-docker/)
 - [medium: jenkins cicd getting started with groovy and docker](https://medium.com/@fvtool/jenkins-cicd-getting-started-with-groovy-and-docker-containers-part-2-b03a1b934a49)

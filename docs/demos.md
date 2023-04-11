@@ -3,7 +3,7 @@
 1. [DevOps Screencasts](#devops-screencasts)
 2. [DevOps Blogs](#devops-blogs)
 3. [Kubernetes Blogs](#kubernetes-blogs)
-4. [DevOps Demos](#devops-demos)
+4. [DevOps Docker Demos](#devops-docker-demos)
     1. [Container Tools](#container-tools)
     2. [Ansible and Ansible Tower](#ansible-and-ansible-tower)
     3. [GitOps](#gitops)
@@ -95,7 +95,7 @@
 
 ## DevOps Screencasts
 
-- [SysAdmin Casts](https://sysadmincasts.com/) 
+- [SysAdmin Casts](https://sysadmincasts.com/)
 - [DEVOPS Library](https://devopslibrary.com/)
 - [youtube: Cloud Quick POCs](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ)
 
@@ -107,7 +107,7 @@
 
 - [kubernetes-advocate.medium.com 🌟](https://kubernetes-advocate.medium.com/)
 
-## DevOps Demos
+## DevOps Docker Demos
 
 - [RedHatGov.io](http://redhatgov.io) is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 - [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene)
@@ -115,16 +115,17 @@
     - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines)
     - [github.com/sirech/example-concourse-pipeline](https://github.com/sirech/example-concourse-pipeline)
-- [yankils/Simple-DevOps-Project](https://github.com/yankils/Simple-DevOps-Project) 
+- [yankils/Simple-DevOps-Project](https://github.com/yankils/Simple-DevOps-Project)
 - [Spring PetClinic Sample Application](#spring-petclinic-sample-application) By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker & Kubernetes
-- [swissarmydevops.com](https://swissarmydevops.com/) 
+- [swissarmydevops.com](https://swissarmydevops.com/)
 - [dev.to: Build a highly available Node.js application using Docker, NGINX and AWS ELB](https://dev.to/sowmenappd/build-a-highly-available-node-js-application-using-docker-nginx-and-aws-elb-3cjp)
 - [towardsdatascience.com: Developing and Deploying a COMPLETE Project Using FastAPI, Jinja2, SQLAlchemy, Docker, and AWS](https://towardsdatascience.com/developing-and-deploying-a-complete-project-using-fastapi-jinja2-sqlalchemy-docker-and-aws-1b504a1a2be4)
 - [dzone: Docker Image Tutorial](https://dzone.com/articles/docker-image-tutorial) In this tutorial, see how to build and run a Docker image using Python code examples.
 - [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example/)
 - [bregman-arie/devops-exercises 🌟](https://github.com/bregman-arie/devops-exercises) This repo contains questions and exercises on various technical topics related to DevOps and SRE. Linux, Jenkins, AWS, Cloud, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, OpenShift, Big Data, Databases, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization, DevOps Interview Questions.
-- [jose-r-lopez/SSI_Materials](https://github.com/jose-r-lopez/SSI_Materials) A bunch of infrastructure automation scripts we use in our course, in case you find them useful! 
+- [jose-r-lopez/SSI_Materials](https://github.com/jose-r-lopez/SSI_Materials) A bunch of infrastructure automation scripts we use in our course, in case you find them useful!
 - [dzone: DIY DevOps, CI, and CD with GitHub, Docker and a VPS](https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps) Azure and AWS is insanely cool until you look at your invoice and realise that what you're paying for can easily be replicated for 2% of your current cloud costs.
+- [==github.com/learning-cloud-native-go/myapp: Learning Cloud Native Go - myapp== 🌟](https://github.com/learning-cloud-native-go/myapp) How to build a Dockerized RESTful API application using Go.
 
 ### Container Tools
 
@@ -208,6 +209,7 @@
 - [howtoforge.com: How to deploy your first pod on a Kubernetes Cluster](https://www.howtoforge.com/how-to-deploy-your-first-pod-on-a-kubernetes-cluster/)
 - [==github.com/AdminTurnedDevOps/kubernetes-examples==](https://github.com/AdminTurnedDevOps/kubernetes-examples) This repo contains a bunch of Kubernetes examples
 - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
+- [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) In this tutorial, you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
 
 ### Webhooks app
 
@@ -281,7 +283,7 @@
 
 - [managedkube.com: A Complete Step by Step Guide to Implementing a GitOps Workflow with Flux](https://managedkube.com/gitops/flux/weaveworks/guide/tutorial/2020/05/01/a-complete-step-by-step-guide-to-implementing-a-gitops-workflow-with-flux.html)
 - [youtube: GitOps Guide to the Galaxy (Ep 12): Flux On OpenShift](https://www.youtube.com/watch?v=W_rcYPZkhFg&ab_channel=RedHat)
-- [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm. 
+- [flux2-kustomize-helm-example 🌟](https://github.com/fluxcd/flux2-kustomize-helm-example) A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm.
 
 ### Amazon EKS. Deploy example microservices on EKS
 
@@ -367,7 +369,7 @@
 - [Running Thorntail apps on Openshift](http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift)
 - [Running Spring Boot applications on Openshift](http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift)
 - [github.com/openshiftdemos 🌟](https://github.com/openshiftdemos)
-- [github.com/openshift-labs 🌟](https://github.com/openshift-labs) 
+- [github.com/openshift-labs 🌟](https://github.com/openshift-labs)
 - [MapIt](https://github.com/siamaksade/mapit-spring) MapIt is a geo-spatial Spring Boot app which shows the location of AirPorts on the Map using Leaflet.
 - [openshift.com: Simple Canary Deployments using Kubernetes StatefulSets on OpenShift](https://www.openshift.com/blog/simple-canary-deployments-using-kubernetes-statefulsets-on-openshift)
 - [github.com/jbossdemocentral: Red Hat Process Automation Manager Mortgage Demo](https://github.com/jbossdemocentral/rhpam7-mortgage-demo)
@@ -378,7 +380,7 @@
 - [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) Install, configure, and use Minishift to create your first pipeline.
 - [dzone: CodeReady Containers - Exploring a home loan mortgage process](https://dzone.com/articles/codeready-containers-exploring-a-home-loan-mortgag) As a cloud-native developer you've installed an OpenShift Container Platform development environment on your local machine, but what's next...
 - [Rcarrata's blog](https://rcarrata.com/)
-- [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift 
+- [JBoss Web Server Operator 🌟](https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.4/html-single/red_hat_jboss_web_server_for_openshift/index#jws_operator) Did you know that you can run Tomcat in Containers on Kubernetes in a easy supported manner? Take a look at the JBoss Web Server (a.k.a. @RedHat 's build of Tomcat) Operator for OpenShift
 - [developers.redhat.com: Containerize and deploy Strapi CMS applications on Kubernetes and Red Hat OpenShift](https://developers.redhat.com/blog/2021/04/09/containerize-and-deploy-strapi-applications-on-kubernetes-and-red-hat-openshift/)
 - [developers.redhat.com: Build lean Java containers with the new Red Hat Universal Base Images OpenJDK runtime images 🌟](https://developers.redhat.com/articles/2021/05/24/build-lean-java-containers-new-red-hat-universal-base-images-openjdk-runtime)
 - [youtube: No YAML! Kubernetes done the easy way | DevNation Tech Talk](https://www.youtube.com/watch?v=jBDmX85IjLM&ab_channel=RedHatDeveloper)
@@ -389,7 +391,7 @@
 ### Developer Sandbox
 
 - [Developer Sandbox for Red Hat OpenShift 🌟](https://developers.redhat.com/developer-sandbox) Get free access to the Developer Sandbox for Red Hat OpenShift and deploy your application code as a container on this self-service, cloud-hosted experience. Skip installations and deployment and jump directly into OpenShift.
-- [developers.redhat.com: How to deploy a Java application on Kubernetes in minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes) Move your legacy Java application into a container and deploy it to Kubernetes. The Developer Sandbox for Red Hat OpenShift is a free OpenShift cluster that gives you access to the cutting-edge technologies built on Kubernetes. A quick sign-up gets you a cluster and access to a set of developer tools and services. Move this Spring Pet Clinic example application into a container using the Source-to-Image (s2i) feature. 
+- [developers.redhat.com: How to deploy a Java application on Kubernetes in minutes](https://developers.redhat.com/developer-sandbox/how-to-deploy-java-application-in-kubernetes) Move your legacy Java application into a container and deploy it to Kubernetes. The Developer Sandbox for Red Hat OpenShift is a free OpenShift cluster that gives you access to the cutting-edge technologies built on Kubernetes. A quick sign-up gets you a cluster and access to a set of developer tools and services. Move this Spring Pet Clinic example application into a container using the Source-to-Image (s2i) feature.
 - [developers.redhat.com: Welcome to the Developer Sandbox for Red Hat OpenShift. Part 1: Deploying full-stack JavaScript applications to the Developer Sandbox for Red Hat OpenShift](https://developers.redhat.com/developer-sandbox/activities/deploying-full-stack-javascript-applications-to-the-sandbox/part1)
 
 ### OpenShift VS Kubernetes
@@ -434,7 +436,7 @@
 
 ### ArgoCD
 
-- [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices. 
+- [rromannissen/rhoar-microservices-demo: GitOps for Microservices with Red Hat Runtimes demo](https://github.com/rromannissen/rhoar-microservices-demo) A GitOps pipeline example using ArgoCD, tektoncd and HelmPack for springboot and QuarkusIO microservices.
 - [developers.redhat.com: From code to production with OpenShift Pipelines and Argo CD](https://developers.redhat.com/blog/2020/09/10/from-code-to-production-with-openshift-pipelines-and-argo-cd/)
 - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 1](https://developers.redhat.com/blog/2020/10/01/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-1/)
     - [developers.redhat.com: Building modern CI/CD workflows for serverless applications with Red Hat OpenShift Pipelines and Argo CD, Part 2](https://developers.redhat.com/blog/2020/10/14/building-modern-ci-cd-workflows-for-serverless-applications-with-red-hat-openshift-pipelines-and-argo-cd-part-2/)
@@ -623,13 +625,13 @@
 
 - [==youtube: How to set up AWS Kubernetes Jenkins pipeline==](https://www.youtube.com/watch?v=zI7_8M2KtRI&t=7s&ab_channel=MicroserviceFactory) Java Spring boot, terraform, helm chart, pipeline, destroy RDS.
 
-### SDKMAN 
+### SDKMAN
 
 - [SdkMan](https://sdkman.io/) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Formerly known as **GVM** the **Groovy enVironment Manager**, it was inspired by the very useful [RVM](https://rvm.io/) and [rbenv](https://github.com/sstephenson/rbenv) tools, used at large by the Ruby community.
 - [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks/)
 - **Demo:** A single Jenkinsfile, a Java Maven project, a single Dockerfile, multiple Java versions build and tested in parallel thanks to SDKMAN:
     - [Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide/)
-    - [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN 🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) In this video, I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job. 
+    - [Multiple Java versions in a single Jenkins Pipeline using Docker and SDKMAN 🌟](https://www.youtube.com/watch?v=j1lH3vOhucw) In this video, I show you how you can use Jenkins Declarative Pipeline to create a build pipeline that compiles the Maven Java project using three different Java versions (8, 11, and 15.) You will learn how to use a matrix section of the Jenkins Pipeline to define parallel stages, as well as how to create a Docker image that provides both Java and Maven using the powerful SDKMAN command-line tool. After watching this video you should feel comfortable with setting up multiple parallel stages to build your Java project using different versions of the compiler. And what is most important - it does not require creating Dockerfiles for each Java version. I will show you how to build the pipeline using just a single Dockerfile that does the job.
     - [Jenkins Pipeline Maven build demo](https://github.com/wololock/jenkine-pipeline-maven-demo/tree/sdkman)
 
 ??? note "Video: Jenkins Pipeline with multiple Java versions. Click to expand!"
@@ -641,8 +643,8 @@
 ### Jenkins Scripts
 
 - **cleanup.Jenkinsfile**: Jenkinsfile with Declarative Pipeline Multiline sh that cleanups old builds. All the Stages are now visually monitored. It is triggered every saturday night and ends with jenkins restart. These Multi-line bash commands make easier to read Jenkins Projects.
-- **daily_restart.Jenkinsfile**: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered). 
-- **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. 
+- **daily_restart.Jenkinsfile**: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered).
+- **confluence6-docker-build.Jenkinsfile**: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile.
 
 Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/awesome-kubernetes/tree/master/scripts)
 
@@ -717,8 +719,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/spring-petclinic/spring-petclinic-kubernetes 🌟](https://github.com/spring-petclinic/spring-petclinic-kubernetes)
     - While waiting for a working version, you could check [this fork](https://github.com/odedia/spring-petclinic-microservices)
 - [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices)
-    - [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices). 
-- spring-petclinic-microservices renamed to spring-petclinic-cloud 🌟: https://github.com/spring-petclinic/spring-petclinic-cloud 
+    - [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices).
+- spring-petclinic-microservices renamed to spring-petclinic-cloud 🌟: https://github.com/spring-petclinic/spring-petclinic-cloud
 - [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
 - [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
 - [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
@@ -737,7 +739,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [ref 8](https://github.com/spring-projects/spring-petclinic/issues/339)
 - [ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point](https://github.com/trisberg/spring-petclinic/tree/kubernetes)
 
-### OpenShift.io Samples 
+### OpenShift.io Samples
 
 - [OpenShift.io Samples 🌟🌟](https://che.openshift.io/dashboard/#/getstarted)
 - [github.com/che-samples](https://github.com/che-samples)
@@ -765,6 +767,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [faun.pub: Using AWS Session Manager With Ansible To Execute Playbook On EC2](https://faun.pub/using-aws-session-manager-with-ansible-to-execute-playbook-on-ec2-ac97fa17b187) In this post, we’ll see how we can use AWS Session Manager instead of SSH to connect to an EC2 instance and execute a playboook.
 - [betterprogramming.pub: Build a Cloud-Native Multiprocessing Framework](https://betterprogramming.pub/build-a-cloud-native-multiprocessing-framework-b33cfc2c02b9) How to convert a local multiprocessing framework to the cloud
 - [github.com/aws-samples: Guide to Resource Tagging Automation](https://github.com/aws-samples/resource-tagging-automation) A Lambda function for Resource Tagging Automation
+- [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
+- [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527)
 
 ## Azure Samples
 
@@ -789,7 +793,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ### Azure Demos
 
-- [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 1](https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api/) 
+- [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 1](https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api/)
 - [blogs.sap.com: Cloud Integration with Commerce Azure Blob Storage using REST API – Part 2](https://blogs.sap.com/2021/12/26/cloud-integration-with-commerce-azure-blob-storage-using-rest-api-part-2/)
 
 ## GCP Samples
@@ -814,14 +818,14 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://tanzu.vmware.com/developer/guides/kubernetes/app-enhancements-spring-k8s/)
 - [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) Workshop-style guide for rearchitecting a Java Monolith application to a Cloud Native architecture running in Kubernetes
 - [dyser/kubernetes-intro](https://github.com/dsyer/kubernetes-intro)
-- [piomin/sample-spring-microservices-kubernetes: Microservices with Spring Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) sample spring boot application that uses some features provided by spring cloud kubernetes, spring cloud ribbon and zuul proxy deployed on Kubernetes 
+- [piomin/sample-spring-microservices-kubernetes: Microservices with Spring Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) sample spring boot application that uses some features provided by spring cloud kubernetes, spring cloud ribbon and zuul proxy deployed on Kubernetes
 - [==piomin/sample-spring-microservices-new: Microservices with Spring Cloud Advanced Demo Project==](https://github.com/piomin/sample-spring-microservices-new) I have just updated my sample microservices repository to the latest versions of SpringBoot (2.6.1), SpringCloud, and Java (17). The previously used versions were Java 8 and Spring Boot 2.0.6. Demo for Spring Boot 2 and Spring Cloud microservices with distributed configuration (Spring Cloud Config), service discovery (Eureka), API gateway (Spring Cloud Gateway, Zuul), Swagger2 API documentation, logs correlation using Spring Cloud Sleuth and many more.
 
 ## Quarkus Demos
 
 - [Develop and test a Quarkus client on Red Hat CodeReady Containers with Red Hat Data Grid 8.0](https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/)
 - [aytartana.wordpress.com: Migrating SpringBoot PetClinic REST to Quarkus](https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus/)
-- [aalmiray/q-cli](https://github.com/aalmiray/q-cli) Sample Quarkus CLI application 
+- [aalmiray/q-cli](https://github.com/aalmiray/q-cli) Sample Quarkus CLI application
 - [piomin/sample-quarkus-serverless-kafka](https://github.com/piomin/sample-quarkus-serverless-kafka) Demo illustrating how to run Quarkus application on Knative Eventing with Kafka and Funqy modules
 
 ## Golang Demos
@@ -847,7 +851,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 ## JBoss EAP
 
-- [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8. 
+- [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack (JBoss EAP XP) 1.0 released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/) This version enables JBoss EAP developers to build [Java](https://developers.redhat.com/topics/enterprise-java/) microservices using Eclipse MicroProfile 3.3 APIs while continuing to also support Jakarta EE 8.
 - [redhat.com: Getting started with JBoss](https://www.redhat.com/sysadmin/getting-started-jboss) Learn how to set up JBoss EAP and start using it to build, run, deploy, and manage enterprise Java applications.
 
 ## Terraform
@@ -870,6 +874,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [faun.pub: AWS ECS Blue/Green Deployment Setup Using Terraform](https://faun.pub/aws-ecs-blue-green-deployment-setup-using-terraform-b56bb4f656ea)
 - [medium.com/@cyber-security: [DevOps] 01 - Example project with Terraform](https://medium.com/@cyber-security/devops-01-example-project-with-terraform-ade540824db1)
 - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2)
+- [medium.com/@zeloygabri: Deploying 2-Tier AWS Architecture using Terraform](https://medium.com/@zeloygabri/deploying-2-tier-aws-architecture-using-terraform-b4167b035751)
+- [christopher-lawshe.medium.com: Building infrastructure with Terraform: EC2, Jenkins, S3 and more](https://christopher-lawshe.medium.com/building-infrastructure-with-terraform-ec2-jenkins-s3-and-more-4ec30f53a44a)
 
 ## Prometheus and Grafana
 

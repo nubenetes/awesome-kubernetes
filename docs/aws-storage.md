@@ -22,6 +22,7 @@
 - [==acloudguru.com: S3 Glacier Instant Retrieval deep dive: Which S3 Storage Class is right for me?==](https://acloudguru.com/blog/engineering/s3-glacier-instant-retrieval-deep-dive-which-s3-storage-class-is-right-for-me)
 - [Monitor Amazon S3 activity using S3 server access logs and Pandas in Python](https://aws.amazon.com/blogs/storage/monitor-amazon-s3-activity-using-s3-server-access-logs-and-pandas-in-python/)
 - [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions/)
+- [dev.to: Adding an EBS volume to a running AWS EC2 Instance](https://dev.to/aws-builders/adding-an-ebs-volume-to-a-running-aws-ec2-instance-311l)
 
 ## Amazon EFS Elastic File System
 

@@ -5,20 +5,23 @@
 3. [CrashLoopBackOff](#crashloopbackoff)
 4. [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
 5. [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
-6. [OOM Kills](#oom-kills)
-7. [Pause Container](#pause-container)
-8. [Preempted Pod](#preempted-pod)
-9. [Stuck Namespace](#stuck-namespace)
-10. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
-11. [CoreDNS issues](#coredns-issues)
-12. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
-13. [Troubleshooting Tools](#troubleshooting-tools)
+6. [Pod in Terminating or Unknown Status](#pod-in-terminating-or-unknown-status)
+7. [OOM Kills](#oom-kills)
+8. [Pause Container](#pause-container)
+9. [Preempted Pod](#preempted-pod)
+10. [Evited Pods](#evited-pods)
+11. [Stuck Namespace](#stuck-namespace)
+12. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
+13. [CoreDNS issues](#coredns-issues)
+14. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
+15. [Troubleshooting Tools](#troubleshooting-tools)
      1. [Komodor](#komodor)
      2. [Palaemon](#palaemon)
      3. [cdebug and debug-ctr](#cdebug-and-debug-ctr)
-14. [Slides](#slides)
-15. [Images](#images)
-16. [Tweets](#tweets)
+     4. [kubectl-debug](#kubectl-debug)
+16. [Slides](#slides)
+17. [Images](#images)
+18. [Tweets](#tweets)
 
 ## Introduction
 
@@ -66,14 +69,17 @@
     - It starts, but doesn't work
     - There are too many pods!
     - But can you `curl` it?
-- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug.
+- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. In this article, you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more.
 - [saiteja313.medium.com: Tracing DNS issues in Kubernetes](https://saiteja313.medium.com/tracing-dns-issues-in-kubernetes-28b38f782103)
-- [medium.com/@jasonmfehr: Kubernetes Informers: Opening the Mystery Box](https://medium.com/@jasonmfehr/kubernetes-informers-opening-the-mystery-box-4cd690a43a4)
+- [medium.com/@jasonmfehr: Kubernetes Informers: Opening the Mystery Box](https://medium.com/@jasonmfehr/kubernetes-informers-opening-the-mystery-box-4cd690a43a4) In this article, you will learn how the team at Cloudera found a performance issue with Kubernetes informers and how they managed to rectify the issue
 - [maxilect-company.medium.com: Graceful shutdown in a cloud environment (the example of Kubernetes + Spring Boot) 🌟](https://maxilect-company.medium.com/graceful-shutdown-in-a-cloud-environment-the-example-of-kubernetes-spring-boot-f922b41adaa0) In this article, you'll learn why it is crucial to think about graceful shutdown in Kubernetes and how you can approach this task. Many people think about starting an application in the cloud but rarely pay attention to how it ends. Once, we caught quite a few errors explicitly related to pods stopping. For example, we saw that Kubernetes occasionally kills our application before it releases resources, although it seems that this should not happen. It was impossible to reproduce the problem immediately, and we wondered what was happening under the hood?
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
 - [groundcover.com: Failure Is an Option: How to Stay on Top of K8s Container Events](https://www.groundcover.com/blog/k8s-container-events) Gain a deep understanding of how Kubernetes tracks container and Pod status, how it reports error information and how you can collect all of the above in an efficient way
 - [madeeshafernando.medium.com: Capturing Heap Dumps of stateless Kubernetes pods before container termination and export to AWS S3](https://madeeshafernando.medium.com/capturing-heap-dumps-of-stateless-kubernetes-pods-before-container-termination-and-export-to-aws-s3-9602378ee60b)
 - [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3) In this article, you will follow Stephen's journey to identifying the root cause for cluster nodes running out of space on the Aliyun cloud
+- [thenewstack.io: What David Flanagan Learned Fixing Kubernetes Clusters](https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters/) David Flanagan has fixed 50+ Kubernetes clusters as part of his YouTube series, 'Klustered.' He shared what he learned at Civo Navigate.
+- [==github.com/metaleapca: metaleap-k8s-troubleshooting.pdf== 🌟🌟🌟](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
+- [nicolasbarlatier.hashnode.dev: .NET Core Tip 2: How to troubleshoot Memory Leaks within a .NET Console application running in a Linux Docker Container in Kubernetes](https://nicolasbarlatier.hashnode.dev/net-core-tip-2-how-to-troubleshoot-memory-leaks-within-a-net-console-application-running-in-a-linux-docker-container-in-kubernetes) In this step-by-step guide, you will learn how to troubleshoot a memory leak in a .Net Core application running within a Kubernetes cluster.
 
 ## ImagePullBackOff
 
@@ -86,6 +92,7 @@
 - [devtron.ai: Troubleshoot: Pod Crashloopbackoff](https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod/)
 - [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods/) Why are Pod not fully restartable in Kubernetes? Why is Kubernetes not restarting the Pod in **CrashLoopBackOff**?
 - [pauldally.medium.com: Why Leaving Pods in CrashLoopBackOff Can Have a Bigger Impact Than You Might Think](https://pauldally.medium.com/why-leaving-pods-in-crashloopbackoff-can-have-a-bigger-impact-than-you-might-think-c0d3dbd067a)
+- [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it](https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/) CrashLoopBackOff is a Kubernetes state representing a restart loop that is happening in a Pod: a container in the Pod is started but crashes and is then restarted over and over again. Learn what it is and how to fix it in this article
 
 ## Failed to Create Pod Sandbox
 
@@ -95,10 +102,15 @@
 
 - [containiq.com: Troubleshooting ‘terminated with exit code 1’ error](https://www.containiq.com/post/terminated-with-exit-code-1) Sometimes Kubernetes pods die, leaving behind only cryptic messages such as “terminated with exit code 1”. In this guide, you’ll learn what this error indicates and how to troubleshoot it.
 
+## Pod in Terminating or Unknown Status
+
+- [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://tonylixu.medium.com/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8) K8s Troubleshooting handbook
+
 ## OOM Kills
 
 - [medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes](https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60) An “Invisible” OOM Kill happens when a child process in a container is killed, not the init process. It is “invisible” to Kubernetes and not detected. What is OOM? well.. not a good thing.
 - [baykara.medium.com: A Gentle Inspection of OOMKilled in Kubernetes](https://baykara.medium.com/a-gentle-inspection-of-oomkilled-in-kubernetes-4b4124cd23a8) Quality of Service in Kubernetes
+- [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/hands_on_lab/k8s-qos-oomkilled) This article discusses how to handle OOMKilled errors and how to configure Pod QoS to avoid them
 
 ## Pause Container
 
@@ -108,9 +120,14 @@
 
 - [blog.kumomind.com: What You Need To Know To Debug A Preempted Pod On Kubernetes](https://blog.kumomind.com/what-you-need-to-know-to-debug-a-preempted-pod-on-kubernetes) The purpose of this post is to share some thoughts on the management of a Kubernetes platform in production. The idea is to focus on a major problem that many beginners encounter: the management of preempted pods.
 
+## Evited Pods
+
+- [sysdig.com: Understanding Kubernetes Evicted Pods](https://sysdig.com/blog/kubernetes-pod-evicted/) What does it mean that Kubernetes Pods are evicted? They are terminated, usually due to a lack of resources. But why does this happen?
+
 ## Stuck Namespace
 
 - [blog.ediri.io: How to remove a stuck namespace](https://blog.ediri.io/how-to-remove-a-stuck-namespace) With the help of the Kubernetes API
+- [medium.com/@it-craftsman: How to fix Kubernetes namespaces stuck in terminating state](https://medium.com/@it-craftsman/how-to-fix-kubernetes-namespaces-stuck-in-terminating-state-ea46c5fff045)
 
 ## Access PVC Data without the POD
 
@@ -127,7 +144,7 @@
 - [kubesandclouds.com: Debugging with ephemeral containers in K8s (v1.18+)](https://kubesandclouds.com/index.php/2020/05/30/ephemeral-containers-in-k8s/)
 - [How to quarantine pods](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
 - [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.
-- [inspektor-gadget](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF 
+- [inspektor-gadget](https://github.com/kinvolk/inspektor-gadget) Collection of gadgets for debugging and introspecting Kubernetes applications using BPF
     - [kinvolk.io](https://kinvolk.io)
 - [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
 - [StatusBay](https://github.com/similarweb/statusbay) is a tool that provides the missing visibility into the K8S deployment process. The main goal is to ease the experience of troubleshooting and debugging services in K8S and provide confidence while making changes.
@@ -149,8 +166,11 @@
 - [zendesk.engineering: Debugging containerd](https://zendesk.engineering/debugging-containerd-a20f28a2a8bf)
 - [==heka-ai.medium.com: Introduction to Debugging: locally and live on Kubernetes with VSCode== 🌟](https://heka-ai.medium.com/introduction-to-debugging-locally-and-live-on-kubernetes-8c8ecd3acbaa) In this article, you'll learn how to debug your code in real-time on a Pod running on Kubernetes using VS Code
 - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers/) Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command
+- [eminaktas.medium.com: Debug Containerd in Production](https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2) In this article, you will learn how you can debug containerd with VSCode in a remote production environment.
 
 ## Troubleshooting Tools
+
+- [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) Troubleshoot is a framework for collecting and analyzing diagnostic information about a Kubernetes cluster. The framework is customizable and allows third-party application developers to create troubleshoot specs that can be run by cluster operators.
 
 ### Komodor
 
@@ -166,6 +186,10 @@
 
 - [==iximiuz/cdebug==](https://github.com/iximiuz/cdebug) a swiss army knife of container debugging. It's like "docker exec", but it works even for containers without a shell (scratch, distroless, slim, etc). The "cdebug exec" command allows you to bring your own toolkit and start a shell inside of a running container.
 - [==felipecruz91/debug-ctr==](https://github.com/felipecruz91/debug-ctr) A commandline tool for interactive troubleshooting when a container has crashed or a container image doesn't include debugging utilities, such as distroless images. Heavily inspired by kubectl debug, but for containers instead of Pods.
+
+### kubectl-debug
+
+- [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) kubectl-debug is a tool that lets you debug a target container in a Kubernetes cluster by automatically creating a new, non-invasive, 'debug' container in the same PID, network, user, and IPC namespace as the target container without any disruption
 
 ## Slides
 

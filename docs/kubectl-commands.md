@@ -41,7 +41,7 @@
 - [medium: One CKA/CKAD/CKS requirement: Mastering Kubectl](https://medium.com/nerd-for-tech/one-cka-ckad-cks-requirement-mastering-kubectl-85486bc0a3aa)
 - [medium: Replication Controller Vs ReplicaSets in Kubernetes](https://medium.com/geekculture/replication-controller-vs-replicasets-in-kubernetes-7b780e4d09d5) Learn why we need replication and how replication works in Kubernetes. Scale the application using the kubectl scale command.
 - [dev.to: Open a command prompt in a Kubernetes cluster](https://dev.to/eldadak/open-a-command-prompt-in-a-kubernetes-cluster-206g) This starts up a pod (in the default namespace by default) and opens a command line in the given container. As I'm running as root, I can install anything I need for debugging and testing right in my cluster.
-- [akhilsharma.work: Checking Kubernetes API Calls using kubectl](https://akhilsharma.work/checking-kubernetes-api-calls-using-kubectl/) In order to interact, we can simply use `kubectl`. Just add verbose logging level of 8+ and you will get the API calls! 
+- [akhilsharma.work: Checking Kubernetes API Calls using kubectl](https://akhilsharma.work/checking-kubernetes-api-calls-using-kubectl/) In order to interact, we can simply use `kubectl`. Just add verbose logging level of 8+ and you will get the API calls!
     - `kubectl get pods -v=8`
     - `kubectl create job my-job --image=busybox --dry-run=server -v8`
 - [cloudsavvyit.com: How to Restart Kubernetes Pods with Kubectl](https://www.cloudsavvyit.com/14587/how-to-restart-kubernetes-pods-with-kubectl/)
@@ -56,6 +56,7 @@
 - [superbrothers/zsh-kubectl-prompt 🌟](https://github.com/superbrothers/zsh-kubectl-prompt) Display information about the kubectl current context and namespace in zsh prompt.
 - [medium.com/@emmaliaocode: kubectl create vs kubectl apply. What’s the difference?](https://medium.com/@emmaliaocode/kubectl-create-vs-kubectl-apply-whats-the-differences-f6472f4c6c86)
 - [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) colorizes kubectl output
+- [medium.com/codex: Kubectl Output 101](https://medium.com/codex/kubectl-output-101-851f8e61fd51) Cheatsheet & examples of using kubectl get -o
 
 ## Kubectl Cheat Sheets
 
@@ -125,7 +126,7 @@ kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | 
 ```
 
 - Reference: [Copy a configMap in kubernetes between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces)
-  
+
 ## Copy secrets in kubernetes between namespaces
 
 - [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces):
@@ -161,7 +162,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ## Videos
 
 ??? note "Click to expand!"
- 
+
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/E2pP1MOfo3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
@@ -169,7 +170,7 @@ kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/names
 ## Tweets
 
 ??? note "Click to expand!"
- 
-    <center> 
+
+    <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: How to create Kubernetes manifests real quick 🤯<br><br>Use kubectl create --dry-run=client -o yaml<br><br>Example:<br><br>```<br>kubectl create deployment foo \<br> --image=nginx:1.21 \<br> --dry-run=client \<br> -o yaml<br>```</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1483180111579000834?ref_src=twsrc%5Etfw">January 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

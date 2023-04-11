@@ -45,12 +45,12 @@
 
 ## Deploying Kubernetes Cluster with Kops
 
-- [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops) 
+- [GitHub: Kubernetes Cluster with Kops](https://github.com/kubernetes/kops)
 - [Kubernetes.io: Installing Kubernetes with kops](https://kubernetes.io/docs/setup/production-environment/tools/kops/)
-- Minikube and docker client are great for local setups, but not for real clusters. **Kops** and **kubeadm** are tools to spin up a production cluster. You don't need both tools, just one of them. 
+- Minikube and docker client are great for local setups, but not for real clusters. **Kops** and **kubeadm** are tools to spin up a production cluster. You don't need both tools, just one of them.
 - On AWS, the best tool is **kops**. Since [AWS EKS (hosted kubernetes)](https://aws.amazon.com/eks) is currently available, this is the preferred option **(you don't need to maintain the masters)**.
 - For other installs, or if you can't get kops to work, you can use **kubeadm**.
-- Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer: 
+- Setup **kops** in your windows with **virtualbox.org** and **vagrantup.com** . Once downloaded, to type a new linux VM, just spin up ubuntu via vagrant in cmd/powershell and run kops installer:
 - [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates/)
 - [blog.kubecost.com: Kubernetes kOps: Step-By-Step Example & Alternatives](https://blog.kubecost.com/blog/kubernetes-kops/)
 
@@ -85,6 +85,8 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 - [faun.pub: Configuring HA Kubernetes cluster on bare metal servers with kubeadm. 1/3](https://faun.pub/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b) In this article, you'll create a HA Kubernetes cluster with multi masters topology, with an external Etcd cluster as a base layer and a MetalLB load balancer. On all worker nodes, you'll deploy a GlusterFS for storage.
 - [blog.learncodeonline.in: Kubernetes Cluster Deployment on CentOS Linux](https://blog.learncodeonline.in/kubernetes-cluster-deployment-on-centos-linux)
 - [github.com/kubernetes/kubeadm: High Availability Considerations](https://github.com/kubernetes/kubeadm/blob/main/docs/ha-considerations.md)
+- [medium.com/@brunosquassoni: Creating a Kubernetes Cluster [STEP BY STEP]](https://medium.com/@brunosquassoni/creating-a-kubernetes-cluster-step-by-step-bd9ae3c85275)
+- [medium.com/@benjaminacar.private: A Comprehensive Guide to Setup a New K8s Cluster](https://medium.com/@benjaminacar.private/a-comprehensive-guide-to-setup-a-new-k8s-cluster-4b88e6f021bc)
 
 ## Deploying Kubernetes Cluster with Ansible
 
@@ -258,7 +260,7 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ### K8e
 
-- [xiaods/k8e](https://github.com/xiaods/k8e) K8e 🚀 (said 'kuber easy') - Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices. 
+- [xiaods/k8e](https://github.com/xiaods/k8e) K8e 🚀 (said 'kuber easy') - Simple Kubernetes Distribution. Builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices.
 
 ### Typhoon
 

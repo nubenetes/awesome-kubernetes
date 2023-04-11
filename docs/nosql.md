@@ -28,7 +28,7 @@
 - [stackoverflow.blog: Have the tables turned on NoSQL?](https://stackoverflow.blog/2021/01/14/have-the-tables-turned-on-nosql/) NoSQL was the next big thing in system architecture in 2011, but overall interest in it has plateaued recently. What is NoSQL, what does it have to do with modern development, and is it worth implementing in your project?
 - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases) Evaluate which type of NoSQL database best fits your use case
 - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)
-- [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/) 
+- [sysadminxpert.com: Demystifying NoSQL Databases 🌟](https://sysadminxpert.com/demystifying-nosql-databases/)
 - [datastax.medium.com: SQL versus NoSQL: The Pros and Cons](https://datastax.medium.com/sql-versus-nosql-the-pros-and-cons-488d4a7ba92f)
 - [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better/) One has been predominantly used by firms for storing structured data in various forms, while another lets the companies store unstructured and semi-structured data also. Which among them is better and more efficient? Let’s analyze in this blog!
 - [medium.com/@suvankar.dey80: Time Series SQL vs No SQL](https://medium.com/@suvankar.dey80/time-series-sql-vs-no-sql-a8c7f40d80a8)
@@ -65,6 +65,7 @@
 - [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport/)
 - [==adamtheautomator.com: How To Perform a MongoDB Kubernetes Installation== 🌟](https://adamtheautomator.com/mongodb-kubernetes/) In this tutorial, you'll learn how to deploy MongoDB to Kubernetes using the MongoDB Operator.
 - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)
+- [thenewstack.io: Deploy MongoDB in a Container, Access It Outside the Cluster](https://thenewstack.io/deploy-mongodb-in-a-container-access-it-outside-the-cluster/) How to a deploy a containerized version of MongoDB and connect to it from a machine or service outside of the hosting server.
 
 ### Redis
 
@@ -75,7 +76,7 @@
 
 - [Couchdb.apache.org](http://couchdb.apache.org)
 - [Cassandra.apache.org](http://cassandra.apache.org/)
-    - [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing/) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. 
+    - [solo.io: Step by Step: Datastax Cassandra with Istio and SNI routing](https://www.solo.io/blog/step-by-step-datastax-cassandra-with-istio-and-sni-routing/) Connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster.
     - [engineeringblog.yelp.com: Orchestrating Cassandra on Kubernetes with Operators](https://engineeringblog.yelp.com/2020/11/orchestrating-cassandra-on-kubernetes-with-operators.html)
     - [datastax.com: Apache Cassandra 4.0 is Now Delivered Via K8ssandra on Amazon EKS](https://www.datastax.com/blog/apache-cassandra-40-now-delivered-k8ssandra-amazon-eks)
     - [foojay.io: K8ssandra Performance Benchmarks on Cloud Managed Kubernetes](https://foojay.io/today/k8ssandra-performance-benchmarks-on-cloud-managed-kubernetes/)

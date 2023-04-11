@@ -44,6 +44,7 @@
 - [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd/) GitOps provides a single source of truth for Kubernetes manifests, preventing configuration drift, allowing easy rollbacks and changes to production safely.
 - [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) In this step-by-step tutorial, you will learn how to convert a Helm chart into declarative Custom Resources for Flux and gradually migrate your workloads to be GitOps-friendly.
 - [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f) This concise tutorial will show you to bootstrap Flux CD on your local cluster and deploy your applications from your GitHub repository.
+- [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)
 
 ### Flux Terraform Controller
 

@@ -138,6 +138,9 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [itnext.io: Hardening Monitoring: a step-by-step guide](https://itnext.io/hardening-monitoring-a-step-by-step-guide-7a18007c915) In this article, I walk through how to serve metrics-server, prometheus-server and prometheus-adapter securely.
 - [blog.devops.dev: Deploying Prometheus and Grafana in a Multi-Node Kubernetes Cluster and Auto-Scaling with KEDA](https://blog.devops.dev/deploying-prometheus-and-grafana-in-a-multi-node-kubernetes-cluster-and-auto-scaling-with-keda-eccecfbd8950)
 - [blog.devops.dev: Observability: Better CI for your prometheus alerts with pint instead of promtool 🌟](https://blog.devops.dev/observability-better-ci-for-your-prometheus-alerts-32aaea3b3d77)
+- [blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter with Grafana](https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131)
+- [==blog.devops.dev: Monitoring a Spring Boot application in Kubernetes with Prometheus== 🌟](https://blog.devops.dev/monitoring-a-spring-boot-application-in-kubernetes-with-prometheus-a2d4ec7f9922)
+- [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus/)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

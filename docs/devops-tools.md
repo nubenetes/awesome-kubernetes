@@ -10,13 +10,13 @@
 - These tools help you manage servers and deploy happier and more often with more confidence.
 - [medium: Technologies & Tools to Watch in 2021 🌟](https://medium.com/dev-genius/technologies-tools-to-watch-in-2021-a216dfc30f25)
 - [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
-- [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide](https://devopscube.com/vagrant-tutorial-beginners/)
+- [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners/)
 - [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021/)
 - [youtube: Thetips4you 🌟](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists)
 - [thenewstack.io: DevOps Is Fed by a Tools Culture Loop](https://thenewstack.io/devops-is-fed-by-a-tools-culture-loop/)
 - [dzone.com: DevOps Toolchain for Beginners 🌟](https://dzone.com/articles/devops-toolchain-for-beginners) DevOps toolchain plays a crucial role in automating and orchestrating DevOps capabilities to deliver software at the desired speed and quality.
 - [gitkraken.com: DevOps Tools Report 2020 🌟](https://www.gitkraken.com/resources/devops-report-2020)
-- [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation) 
+- [dzone: Top 12 DevOps Tools for Your DevOps Implementation Plan 🌟](https://dzone.com/articles/top-12-devops-tools-for-your-devops-implementation)
 - [dzone: Most Popular DevOps Tools You Must Learn In 2019](https://dzone.com/articles/most-popular-devops-tools-you-must-learn-in-2019)
 - [dzone: 5 DevOps Tools You Should Know In 2019](https://dzone.com/articles/5-devops-tools-you-should-know-in-2019) From containers and automation to CI/CD, this list has five basic tools you need to get started with DevOps.
 - [guru99.com: 30 Best DevOps Tools & Technologies](https://www.guru99.com/devops-tools.html)

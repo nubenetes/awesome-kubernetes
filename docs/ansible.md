@@ -24,17 +24,19 @@
 15. [Ansible Galaxy Roles](#ansible-galaxy-roles)
 16. [More Ansible Roles](#more-ansible-roles)
 17. [Ansible scripts](#ansible-scripts)
-18. [Awesome Ansible](#awesome-ansible)
-19. [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
-20. [Ansible Kubernetes Module](#ansible-kubernetes-module)
-21. [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
-22. [Dynatrace with Ansible](#dynatrace-with-ansible)
-23. [SQL Server with Ansible](#sql-server-with-ansible)
-24. [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
-25. [Oracle Database with Ansible](#oracle-database-with-ansible)
-26. [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
-27. [Anacron and Ansible](#anacron-and-ansible)
-28. [Videos](#videos)
+18. [Ansible with Helm](#ansible-with-helm)
+19. [Awesome Ansible](#awesome-ansible)
+20. [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
+21. [Ansible Kubernetes Module](#ansible-kubernetes-module)
+22. [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
+23. [Dynatrace with Ansible](#dynatrace-with-ansible)
+24. [SQL Server with Ansible](#sql-server-with-ansible)
+25. [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
+26. [Oracle Database with Ansible](#oracle-database-with-ansible)
+27. [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
+28. [Anacron and Ansible](#anacron-and-ansible)
+29. [Tweets](#tweets)
+30. [Videos](#videos)
 
 ## Configuration Management with Ansible DevOps Tool
 
@@ -61,10 +63,10 @@
 - [thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟](https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes/)
 - [openshift.com: Ansible and OpenShift: Connecting for Success 🌟](https://www.openshift.com/blog/ansible-and-openshift-connecting-for-success)
 - [zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟](https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs/) And, on top of more plug-and-play Ansible programs, you can now run Ansible hand-in-glove with Red Hat OpenShift.
-- [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/) 
+- [theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management](https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/)
 - [redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview)
 - [opensource.com: 10 Ansible modules for Linux system automation c](https://opensource.com/article/20/10/ansible-modules-linux) These handy modules save time and hassle by automating many of your daily tasks, and they're easy to implement with a few commands.
-- [redhat.com: Renewing my thrill at work with Ansible](https://www.redhat.com/sysadmin/renewed-thrill-ansible) 
+- [redhat.com: Renewing my thrill at work with Ansible](https://www.redhat.com/sysadmin/renewed-thrill-ansible)
 - [opensource.com: Set up an Ansible lab in 20 minutes](https://opensource.com/article/20/12/ansible-lab) Build an environment to support learning and experimenting with new software.
 - [opensource.com: 4 lines of code to improve your Ansible play](https://opensource.com/article/21/1/improve-ansible-play)
 - [redhat.com: Demystifying Ansible for Linux sysadmins 🌟](https://www.redhat.com/sysadmin/demystifying-ansible-sysadmins) Taking the labor out of labor-intensive tasks is what Ansible is all about. Learn the basics here.
@@ -72,7 +74,7 @@
 - [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible) Expand your knowledge and skills with the top 10 Ansible articles plus five news summaries from 2020
 - [ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values](https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values)
 - [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert/)
-- [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/sysadmin/automate-reboot-ansible) 
+- [redhat.com: How to automate system reboots using the Ansible reboot module](https://www.redhat.com/sysadmin/automate-reboot-ansible)
 - [developer.okta.com: Tutorial: Ansible and Account Automation with Okta](https://developer.okta.com/blog/2021/02/05/okta-ansible)
 - [redhat.com: Got automation? Here's a quick guide to get you up to speed on Ansible 🌟](https://www.redhat.com/sysadmin/how-start-ansible) This article gives you a quick, high-level guide on how to start with Ansible
 - [opensource.com: How Ansible got started and grew](https://opensource.com/article/21/2/ansible-origin-story)
@@ -90,7 +92,7 @@
 - [acloudguru.com: Ansible vs Puppet: Which is right for you?](https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you)
 - [redhat.com: Add a repo and install a package the Ansible way](https://www.redhat.com/sysadmin/install-ansible-way) How to add package repositories and install packages on many hosts by using Ansible.
 - [automateinfra.com: Everything about Ansible 🌟](https://automateinfra.com/everything-about-ansible/)
-- [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux 
+- [redhat.com: Introduction to RHEL System Roles 🌟](https://www.redhat.com/en/blog/introduction-rhel-system-roles) How to use Ansible Roles with RedHat Enterprise Linux
 - [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands/)
 - [k21academy.com: Ansible for Beginners | Overview | Architecture & Use Cases 🌟](https://k21academy.com/ansible/ansible-for-beginners)
     - [k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟](https://k21academy.com/ansible/day2-live-session-review-and-q-a/)
@@ -131,6 +133,8 @@
 - [devopscube.com: How to Setup Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory/)
 - [ansible.com: Creating Custom Rules for Ansible Lint](https://www.ansible.com/blog/creating-custom-rules-for-ansible-lint) What's “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.
 - [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.ansible.com/blog/top-10-ansible-blogs-2022)
+- [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops/)
+- [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code/)
 
 ## Ansible AI
 
@@ -156,7 +160,7 @@
 
 ### Writing an Ansible module for a REST API
 
-- [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that. 
+- [ansible.com: Automating your business application's REST API with Ansible](https://www.ansible.com/automating-business-applications-rest-api) You will learn how you can use Ansible to talk to your business application's REST API - and to develop your own Ansible modules doing just that.
 - [liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
 
 ## Ansible Videos
@@ -179,6 +183,7 @@
 - [Ansible Collections 🌟](https://github.com/ansible-collections)
 - [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws)
 - [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible)
+- [ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection](https://www.ansible.com/blog/based-validated-network-content) Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here's how to use the network.base Collection.
 
 ## Red Hat Ansible Automation Platform
 
@@ -234,7 +239,7 @@
 - [Ansible Tower](https://www.ansible.com/products/tower)
 - [Ansible Tower Docs](https://docs.ansible.com/ansible-tower/index.html)
 - [Ansible AWX](https://github.com/ansible/awx)
-- [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible. 
+- [AWX Operator](https://github.com/ansible/awx-operator) An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.
 - [ansible.com/blog/topic/ansible-tower](https://www.ansible.com/blog/topic/ansible-tower)
 - [Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana](https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana)
 - [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/)
@@ -286,7 +291,7 @@
 - [ansiblefordevops.com](https://www.ansiblefordevops.com/)
 - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com/)
 - [redhat.com: The Automated Enterprise](https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107) Transform your business with an automation platform that unifies your people and processes.
-  
+
 ## Ansible Galaxy Roles
 
 - [galaxy.ansible.com](https://galaxy.ansible.com/)
@@ -301,6 +306,12 @@
 ## Ansible scripts
 
 - [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) Using HashiCorp Vault as a dynamic Ansible inventory and authentication service
+
+## Ansible with Helm
+
+- [medium.com/opstree-technology: Understanding Ansible: Helm diff plugin 🌟](https://medium.com/opstree-technology/ansible-helm-diff-plugin-63e1cda299a3) Here in this blog, we’ll discuss how we can leverage the validate & dry-run option in Ansible with Ansible: Helm diff plugin.
+- [docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager](https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_module.html)
+- [docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins](https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_plugin_module.html)
 
 ## Awesome Ansible
 
@@ -329,7 +340,7 @@
 
 ## SQL Server with Ansible
 
-- [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/sysadmin/mssql-linux-easy)   
+- [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/sysadmin/mssql-linux-easy)
 
 ## OCI Oracle Cloud Infrastructure with Ansible
 
@@ -347,13 +358,21 @@
 
 ## Ansistrano. Deploying applications with Ansible in Capistrano style
 
-- [Ansistrano](https://github.com/ansistrano) 
+- [Ansistrano](https://github.com/ansistrano)
 - [Capistrano](https://capistranorb.com/) A remote server automation and deployment tool written in Ruby.
 
 ## Anacron and Ansible
 
 - [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation) With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.
 - [opensource.com: Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation) Instead of manually performing repetitive tasks, let Linux do them for you.
+
+## Tweets
+
+??? note "Click to expand!"
+
+    <center>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to manage Windows hosts with Ansible!<br><br>A Short Thread 👇 <a href="https://t.co/NGRqym4c91">pic.twitter.com/NGRqym4c91</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1629453865308536832?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </center>
 
 ## Videos
 

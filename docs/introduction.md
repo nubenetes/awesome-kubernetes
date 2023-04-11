@@ -8,44 +8,46 @@
 6. [Technical Debt](#technical-debt)
 7. [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
 8. [Event Driven Architecture EDA](#event-driven-architecture-eda)
-9. [Multi-Tenancy Architecture](#multi-tenancy-architecture)
-10. [Architecture Decision Records](#architecture-decision-records)
-11. [Self service developer platform](#self-service-developer-platform)
-12. [Disaster Recovery](#disaster-recovery)
-13. [SaaS](#saas)
-14. [Multi Cloud](#multi-cloud)
-15. [Cloud Automation](#cloud-automation)
+9. [Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures](#understanding-the-differences-between-event-driven-message-driven-and-microservices-architectures)
+10. [Multi-Tenancy Architecture](#multi-tenancy-architecture)
+11. [Architecture Decision Records](#architecture-decision-records)
+12. [Self service developer platform](#self-service-developer-platform)
+13. [Shift-Left](#shift-left)
+14. [Disaster Recovery](#disaster-recovery)
+15. [SaaS](#saas)
+16. [Multi Cloud](#multi-cloud)
+17. [Cloud Automation](#cloud-automation)
      1. [Automation Glossary](#automation-glossary)
-16. [Microservices Best Practices](#microservices-best-practices)
-17. [Microservice Patterns](#microservice-patterns)
+18. [Microservices Best Practices and Design Patterns](#microservices-best-practices-and-design-patterns)
+19. [Microservice Patterns](#microservice-patterns)
      1. [CQRS Pattern](#cqrs-pattern)
-18. [Microservices Anti Patterns](#microservices-anti-patterns)
-19. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
-20. [Backends for Frontends](#backends-for-frontends)
-21. [Data Engineering](#data-engineering)
-22. [Cloud Migration Checklist](#cloud-migration-checklist)
-23. [Microservices Failures](#microservices-failures)
-24. [Top Microservices Frameworks](#top-microservices-frameworks)
-25. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
-26. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
-27. [From SysAdmin to Architect](#from-sysadmin-to-architect)
-28. [Raft Consensus Algorithm](#raft-consensus-algorithm)
-29. [PaaS](#paas)
-30. [Modular Monolith](#modular-monolith)
-31. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
-32. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
-33. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
-34. [Career Path](#career-path)
-35. [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
-36. [Software Development Models](#software-development-models)
-37. [Domain Driven Design DDD](#domain-driven-design-ddd)
-38. [Software Development Tools](#software-development-tools)
-39. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
-40. [Software in Automotive Industry](#software-in-automotive-industry)
-41. [Data Centers in Spain](#data-centers-in-spain)
-42. [Bunch of Images](#bunch-of-images)
-43. [Videos](#videos)
-44. [Tweets](#tweets)
+20. [Microservices Anti Patterns](#microservices-anti-patterns)
+21. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
+22. [Backends for Frontends](#backends-for-frontends)
+23. [Data Engineering](#data-engineering)
+24. [Cloud Migration Checklist](#cloud-migration-checklist)
+25. [Microservices Failures](#microservices-failures)
+26. [Top Microservices Frameworks](#top-microservices-frameworks)
+27. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
+28. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
+29. [From SysAdmin to Architect](#from-sysadmin-to-architect)
+30. [Raft Consensus Algorithm](#raft-consensus-algorithm)
+31. [PaaS](#paas)
+32. [Modular Monolith](#modular-monolith)
+33. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
+34. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
+35. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
+36. [Career Path](#career-path)
+37. [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
+38. [Software Development Models](#software-development-models)
+39. [Domain Driven Design DDD](#domain-driven-design-ddd)
+40. [Software Development Tools](#software-development-tools)
+41. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
+42. [Software in Automotive Industry](#software-in-automotive-industry)
+43. [Data Centers in Spain](#data-centers-in-spain)
+44. [Bunch of Images](#bunch-of-images)
+45. [Videos](#videos)
+46. [Tweets](#tweets)
 
 ## Introduction
 
@@ -229,6 +231,17 @@
 - [==betterprogramming.pub: How I Split a Monolith Into Microservices Without Refactoring== 🌟🌟🌟](https://betterprogramming.pub/how-i-split-a-monolith-into-microservices-without-refactoring-5d76924c34c2) My journey to becoming more agile with a just-in-time architectural style
 - [towardsdatascience.com: 3 High Availability Cloud Concepts You Should Know](https://towardsdatascience.com/3-high-availability-cloud-concepts-you-should-know-93f3bab2cb4a) From scaling to VM placement strategies
 - [ust.com: Do we really need Kubernetes and containers?](https://www.ust.com/en/insights/do-we-really-need-kubernetes-and-containers)
+- [optisolbusiness.com: 8 Core Components are Microservices Architecture](https://www.optisolbusiness.com/insight/8-core-components-of-microservice-architecture)
+    - Service Discovery
+    - Load Balancer
+    - API Gateway
+    - Service Registry
+    - Circuit Breaker
+    - Service Monitoring
+    - Service Orchestration
+    - Configuration Server
+- [thenewstack.io: What Is Microservices Architecture?](https://thenewstack.io/microservices/what-is-microservices-architecture/) Microservices architecture is game changing, allowing development teams to work independently and at cloud native scale.
+- [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac)
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -289,6 +302,10 @@
         - Pub-Sub
         - Server Sent Events
 
+## Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures
+
+- [faun.pub: Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures with AWS Services](https://faun.pub/what-is-difference-of-event-driven-architecture-message-driven-architecture-and-microservices-f5623e51f868)
+
 ## Multi-Tenancy Architecture
 
 - [levelup.gitconnected.com: 5 Tips To Design For Multi-Tenancy Architecture](https://levelup.gitconnected.com/5-tips-to-design-for-multi-tenancy-architecture-5f7d55657d77)
@@ -302,6 +319,10 @@
 
 - [weave.works: What is a self-service developer platform and why does it matter?](https://www.weave.works/blog/what-is-a-self-service-developer-platform)
 - [==thenewstack.io: What We Learned from Enabling Developer Self-Service==](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/) Let’s simplify the developer experience and scale DevOps workflows without compromising the security of multi-Kubernetes environments.
+
+## Shift-Left
+
+- [==dzone.com: Shift-Left: A Developer's Pipe(line) Dream?==](https://dzone.com/articles/shift-left-a-developers-pipeline-dream) **The traditional SDLC is broken and long overdue for a "shift" in direction. Find out more details in this post. How Shift Left Is a Game Changer.**
 
 ## Disaster Recovery
 
@@ -331,13 +352,14 @@
 
 - [redhat.com: Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 
-## Microservices Best Practices
+## Microservices Best Practices and Design Patterns
 
 - [dzone: 7 Microservices Best Practices for Developers 🌟](https://dzone.com/articles/7-microservices-best-practices-for-developers) In this article, we’ll look at some microservices best practices and suggest a few ways to help you design, orchestrate, and secure your microservices architecture.
 - [zdnet.com: Why microservices need event-driven architecture](https://www.zdnet.com/article/when-microservices-need-event-driven-architecture/) A call for greater microservice stability and alignment in legacy environments
 - [learncsdesign.medium.com: Microservices Design Patterns](https://learncsdesign.medium.com/microservices-design-patterns-91fe56a33a47)
 - [==simform.com: 10 Microservice Best Practices: The 80/20 Way==](https://www.simform.com/blog/microservice-best-practices/) __Microservice architecture brings higher flexibility and ease of development through decoupled services. However, microservice architecture has specific challenges like efficiency, consistency, security, etc. So, here are some of the microservice best practices, along with real-life usage accounts from leading companies.__
 - [thenewstack.io: Monoliths to Microservices: 4 Modernization Best Practices](https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2/) When it comes to refactoring monolithic apps into Microservices, most engineering teams have no idea where to start.
+- [==itnext.io: 4 Design Patterns for Containers in Kubernetes | Daniele Polencic== 🌟](https://itnext.io/4-container-design-patterns-for-kubernetes-a8593028b4cd)
 
 ## Microservice Patterns
 
@@ -368,7 +390,8 @@
 - [medium.com/@sandeepsharmaster: Design your Cloud Microservices Apps the DDD way (Hexagonal Architecture)](https://medium.com/@sandeepsharmaster/modernize-your-cloud-microservices-apps-hexagonal-architecture-769696494c0)
 - [medium.com/@denhox: Sharing Data Between Microservices](https://medium.com/@denhox/sharing-data-between-microservices-fe7fb9471208)
 - [medium.com/@maneesha649nirman: Design Patterns For Microservices](https://medium.com/@maneesha649nirman/design-patterns-for-microservices-30bed0d215f5) Design patterns are very important to any development architecture. In this article, I am going to discuss a few design patterns which are most important for microservices.
-- [medium.com/@vinciabhinav7: Microservices Communication Architecture Patterns 🌟](https://medium.com/@vinciabhinav7/microservices-communication-architecture-patterns-a8e77e614c2c)
+- [==medium.com/@vinciabhinav7: Microservices Communication Architecture Patterns== 🌟](https://medium.com/@vinciabhinav7/microservices-communication-architecture-patterns-a8e77e614c2c)
+- [==medium.com/javarevisited: Top 10 Microservices Design Principles and Best Practices for Experienced Developers== 🌟](https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f) Designing Microservices for your organization? Follow these design principle to create a robust and scalable Microservices
 
 ### CQRS Pattern
 

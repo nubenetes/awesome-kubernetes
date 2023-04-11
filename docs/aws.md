@@ -7,33 +7,34 @@
 <br/>
 
 1. [Introduction](#introduction)
-2. [AWS Application Services](#aws-application-services)
-3. [Blogs](#blogs)
-4. [AWS Free Resources](#aws-free-resources)
-5. [Containers on AWS](#containers-on-aws)
-6. [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
-7. [AWS on Twitter](#aws-on-twitter)
-8. [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
-9. [AWS Developer Blog](#aws-developer-blog)
-10. [AWS Patterns](#aws-patterns)
-11. [AWS configuration files](#aws-configuration-files)
-12. [AWS Config Rules](#aws-config-rules)
-13. [AWS Management Console](#aws-management-console)
-14. [Resource Hierarchies](#resource-hierarchies)
-15. [AWS Tags](#aws-tags)
-16. [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
+2. [AWS Reference Archigtecture](#aws-reference-archigtecture)
+3. [AWS Application Services](#aws-application-services)
+4. [Blogs](#blogs)
+5. [AWS Free Resources](#aws-free-resources)
+6. [Containers on AWS](#containers-on-aws)
+7. [AWS Startup Collection. For startups building on AWS](#aws-startup-collection-for-startups-building-on-aws)
+8. [AWS on Twitter](#aws-on-twitter)
+9. [AWS Youtube channel and Podcasts](#aws-youtube-channel-and-podcasts)
+10. [AWS Developer Blog](#aws-developer-blog)
+11. [AWS Patterns](#aws-patterns)
+12. [AWS configuration files](#aws-configuration-files)
+13. [AWS Config Rules](#aws-config-rules)
+14. [AWS Management Console](#aws-management-console)
+15. [Resource Hierarchies](#resource-hierarchies)
+16. [AWS Tags](#aws-tags)
+17. [AWS Systems Manager Explorer](#aws-systems-manager-explorer)
      1. [AWS Systems Manager Incident Manager](#aws-systems-manager-incident-manager)
-17. [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
-18. [AWS re:Post](#aws-repost)
-19. [Bunch of Images](#bunch-of-images)
-20. [Videos](#videos)
-21. [Tweets](#tweets)
+18. [AWS Cloud Adoption Framework (AWS CAF)](#aws-cloud-adoption-framework-aws-caf)
+19. [AWS re:Post](#aws-repost)
+20. [Bunch of Images](#bunch-of-images)
+21. [Videos](#videos)
+22. [Tweets](#tweets)
 
 ## Introduction
 
 - [AWS Cloud Products](https://aws.amazon.com/products/)
 - [AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/)
-- [status.aws.amazon.com: Service Health Dashboard](https://status.aws.amazon.com) 
+- [status.aws.amazon.com: Service Health Dashboard](https://status.aws.amazon.com)
 - [aws.amazon.com/new: What's New with AWS?](https://aws.amazon.com/new)
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/releasenotes)
 - [AWS Forums](https://forums.aws.amazon.com)
@@ -85,6 +86,13 @@
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
 - [medium.com/@imaze.enabulele: Autoscaling EC2 Instances for High Availability and Stress Testing 🌟](https://medium.com/@imaze.enabulele/autoscaling-ec2-instances-for-high-availability-and-stress-testing-946b41f229e2)
 - [awstip.com: How to list all resources in your AWS account](https://awstip.com/how-to-list-all-resources-in-your-aws-account-c3f18061f71b)
+- [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones/) AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
+- [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62)
+- [terminalsandcoffee.com: Setting Up the AWS CLI & IAM User API Keys 🌟](https://terminalsandcoffee.com/setting-up-the-aws-cli-iam-user-api-keys-b83554e314e4)
+
+## AWS Reference Archigtecture
+
+- [infoq.com: AWS Publishes Reference Architecture and Implementations for Deployment Pipelines](https://www.infoq.com/news/2023/02/aws-deployment-pipelines/) - [New - Deployment Pipelines Reference Architecture and Reference Implementations](https://aws.amazon.com/blogs/aws/new_deployment_pipelines_reference_architecture_and_-reference_implementations/)
 
 ## AWS Application Services
 
@@ -106,7 +114,7 @@
 - https://www.youtube.com/user/amazonWebServices
 - https://forums.aws.amazon.com
 - https://aws.amazon.com/blogs
-- https://www.slideshare.net/AmazonWebServices 
+- https://www.slideshare.net/AmazonWebServices
 - https://www.twitch.tv/aws
 - [Everything AWS | Search and discover 6K+ quality AWS repositories](https://app.polymersearch.com/discover/aws)
 - [workshops.aws: AWS Workshops](https://workshops.aws/) This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.

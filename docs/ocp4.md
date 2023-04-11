@@ -79,7 +79,7 @@
 - [Dzone: What’s in OpenShift 4?](https://dzone.com/articles/whats-in-openshift-4)
 - [blog.openshift.com: OpenShift 4 Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
 - [operatorhub.io](https://operatorhub.io/) OperatorHub.io is a new home for the Kubernetes community to share Operators. Find an existing Operator or list your own today.
-- [cloudowski.com: Honest review of OpenShift 4 🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)  
+- [cloudowski.com: Honest review of OpenShift 4 🌟](https://cloudowski.com/articles/honest-review-of-openshift-4/)
 - [Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://blog.openshift.com/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms/)
 - [blog.openshift.com: Simplifying OpenShift Case Information Gathering Workflow: **Must-Gather Operator** (In the context of Red Hat OpenShift 4.x and Kubernetes, **it is considered a bad practice to ssh into a node and perform debugging actions**) 🌟](https://blog.openshift.com/simplifying-openshift-case-information-gathering-workflow-must-gather-operator/)
 - [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://blog.openshift.com/configure-the-openshift-image-registry-backed-by-openshift-container-storage/)
@@ -116,7 +116,7 @@
 - [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.openshift.com/blog/openshift-security-best-practices-for-kubernetes-cluster-design)
 - [fiercetelecom.com: Red Hat bundles security, management into OpenShift Plus](https://www.fiercetelecom.com/platforms/red-hat-bundles-security-management-into-openshift-plus) IBM subsidiary Red Hat put its recently acquired StackRox assets to work, rolling out a new version of its OpenShift cloud platform that incorporates security, cluster management and registry capabilities in a single package.
 - [openshift.com: Descheduler GA in OpenShift 4.7 🌟](https://www.openshift.com/blog/descheduler-ga-in-openshift-4.7) The [Descheduler](https://github.com/kubernetes-sigs/descheduler) is an upstream Kubernetes subproject owned by SIG-Scheduling. Its purpose is to serve as a complement to the stock kube-scheduler, which assigns new pods to nodes based on the myriad criteria and algorithms it provides.
-- [opensourcerers.org: Automated Application Packaging and Distribution with OpenShift – Part 1/2](https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-12/ 🌟) Learn how to automate application deployment and packaging with openshift and tools like source-to-image, templates, kustomize. 
+- [opensourcerers.org: Automated Application Packaging and Distribution with OpenShift – Part 1/2](https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-12/ 🌟) Learn how to automate application deployment and packaging with openshift and tools like source-to-image, templates, kustomize.
 - [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.openshift.com/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
 - [schabell.org: How to setup the OpenShift Container Platform 4.7 on your local machine](https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html)
 - [developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container)
@@ -131,7 +131,7 @@
 - [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 1: Requirements](https://developers.redhat.com/articles/2021/07/08/troubleshooting-application-performance-red-hat-openshift-metrics-part-1)
 - [openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟](https://www.openshift.com/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)
 - [openshift.com: OpenShift on ARM Developer Preview Now Available for AWS](https://www.openshift.com/blog/openshift-on-arm-developer-preview-now-available-for-aws)
-- [cloud.redhat.com: Changes coming for OpenShift.com and Cloud.Redhat.com](https://cloud.redhat.com/blog/check-out-our-new-look) We are moving! On July 29th, we will move OpenShift.com content into the RedHat.com domain. The console applications currently at Cloud.RedHat.com will move to a new URL at console.redhat.com. All current URLs and bookmarks will redirect to their new destinations. This change will make RedHat.com a one-stop destination for all our hybrid cloud and simplify your experience. 
+- [cloud.redhat.com: Changes coming for OpenShift.com and Cloud.Redhat.com](https://cloud.redhat.com/blog/check-out-our-new-look) We are moving! On July 29th, we will move OpenShift.com content into the RedHat.com domain. The console applications currently at Cloud.RedHat.com will move to a new URL at console.redhat.com. All current URLs and bookmarks will redirect to their new destinations. This change will make RedHat.com a one-stop destination for all our hybrid cloud and simplify your experience.
 - [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 4: Gathering performance metrics](https://developers.redhat.com/articles/2021/07/29/troubleshooting-application-performance-red-hat-openshift-metrics-part-4)
 - [cloud.redhat.com: Red Hat OpenShift 4.8 Is Now Generally Available](https://cloud.redhat.com/blog/red-hat-openshift-4.8-is-now-generally-available)
 - [zdnet.com: Qualys partners with Red Hat to improve Linux and Kubernetes security](https://www.zdnet.com/article/qualys-partners-with-red-hat-to-improve-linux-and-kubernetes-security/) Security company Qualys is partnering with Red Hat to bring built-in Cloud Agent security to Red Hat Enterprise Linux CoreOS and Red Hat OpenShift.
@@ -151,6 +151,8 @@
 - [michaelkotelnikov.medium.com: Managing Network Security Lifecycles in Multi Cluster OpenShift Environments with OpenShift Platform Plus](https://michaelkotelnikov.medium.com/maintaining-network-traffic-compliance-in-multi-cluster-openshift-environments-with-openshift-54fe369aa346) In this article, you will learn how the tools in the OpenShift Platform Plus bundle help an organization maintain and secure network traffic flows in multi cluster OpenShift environments.
 - [medium.com/@shrishs: Application Backup and Restore using Openshift API for Data Protection(OADP)](https://medium.com/@shrishs/application-backup-and-restore-using-openshift-api-for-data-protection-oadp-790d39ad96d4)
 - [==dev.to: Deep Dive into AWS OIDC identity provider when installing OpenShift using manual authentication mode with STS==](https://dev.to/mtulio/deep-dive-into-aws-oidc-identity-provider-when-installing-openshift-with-iam-sts-manual-sts-support-1bo7)
+- [venturebeat.com: Red Hat gives an ARM up to OpenShift Kubernetes operations](https://venturebeat.com/data-infrastructure/red-hat-gives-an-arm-up-to-openshift-kubernetes-operations/)
+- [==redhat.com: Planning your migration from Red Hat OpenShift 3 to 4==](https://www.redhat.com/architect/openshift-4-migration) With OpenShift 3 nearing its end of life, now is the time to start planning your migration to OpenShift 4. These three steps will ease the journey.
 
 ### OpenShift Guide
 
@@ -183,7 +185,7 @@
 - [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.openshift.com/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
 - [==cloud.redhat.com: OpenShift Virtualization on Amazon Web Services==](https://cloud.redhat.com/blog/openshift-virtualization-on-amazon-web-services) Of the many selling points for OpenShift, one of the biggest is its ability to provide a common platform for workloads whether they are on premise or at one of the major cloud providers. With the availability of AWS bare metal instance types, Red Hat has announced that OpenShift 4.9 supports OpenShift Virtualization on AWS as a tech preview. Now virtual machines can be managed in much the same way in the cloud as on-premise.
 
-### ROSA Red Hat OpenShift Service on AWS 
+### ROSA Red Hat OpenShift Service on AWS
 
 - [redhat.com: Amazon and Red Hat Announce the General Availability of Red Hat OpenShift Service on AWS (ROSA)](https://www.redhat.com/en/about/press-releases/amazon-and-red-hat-announce-general-availability-red-hat-openshift-service-aws-rosa)
 - [amazon.com: Red Hat OpenShift Service on AWS Now GA](https://aws.amazon.com/es/blogs/aws/red-hat-openshift-service-on-aws-now-generally-availably/)
@@ -268,7 +270,7 @@
         - [Robin Storage Operator](https://operatorhub.io/operator/robin-operator): [get.robin.io](https://get.robin.io/)
 - **Operators End-To-End!:** responsible for reconciling the system to the desired state
     - Cluster configuration kept as API objects that ease its maintenance (“everything-as-code” approach):
-        - Every component is configured with [Custom Resources (CR)](https://docs.openshift.com/container-platform/4.4/operators/crds/crd-managing-resources-from-crds.html) that are processed by operators. 
+        - Every component is configured with [Custom Resources (CR)](https://docs.openshift.com/container-platform/4.4/operators/crds/crd-managing-resources-from-crds.html) that are processed by operators.
         - No more painful upgrades and synchronization among multiple nodes and no more configuration drift.
     - List of operators that configure cluster components (API objects):
         - API server
@@ -299,7 +301,7 @@
 
 ### Installation and Cluster Autoscaler
 
-- New installer openshift-install tool, replacement for the old Ansible scripts.  
+- New installer openshift-install tool, replacement for the old Ansible scripts.
 - 40 min (AWS). Terraform.
 - 2 installation patterns:
     1. **Installer Provisioned Infrastructure (IPI)**
@@ -352,13 +354,13 @@
 - View the list of Operators available to the cluster from the OperatorHub:
 
 ```bash
-$ oc get packagemanifests -n openshift-marketplace 
-NAME AGE 
-amq-streams 14h 
-packageserver 15h 
-couchbase-enterprise 14h 
-mongodb-enterprise 14h 
-etcd 14h myoperator 14h 
+$ oc get packagemanifests -n openshift-marketplace
+NAME AGE
+amq-streams 14h
+packageserver 15h
+couchbase-enterprise 14h
+mongodb-enterprise 14h
+etcd 14h myoperator 14h
 ...
 ```
 
@@ -373,7 +375,7 @@ etcd 14h myoperator 14h
 - Installed Operators
 - OperatorHub (OLM)
 - Operator Management:
-    - **Operator Catalogs** are groups of Operators you can make available on the cluster. They can be added via **CatalogSource** (i.e. “catalogsource.yaml”). Subscribe and grant a namespace access to use the installed Operators. 
+    - **Operator Catalogs** are groups of Operators you can make available on the cluster. They can be added via **CatalogSource** (i.e. “catalogsource.yaml”). Subscribe and grant a namespace access to use the installed Operators.
     - **Operator Subscriptions** keep your services up to date by tracking a channel in a package. The approval strategy determines either manual or automatic updates.
 
 <center>
@@ -384,14 +386,14 @@ etcd 14h myoperator 14h
 #### Certified Opeators, OLM Operators and Red Hat Operators
 
 - **Certified Operators** packaged by Certified:
-    - Not provided by Red Hat 
+    - Not provided by Red Hat
     - Supported by Red Hat
     - Deployed via “Package Server” OLM Operator
 - **OLM Operators**:
-    - Packaged by Red Hat  
+    - Packaged by Red Hat
     - **“Package Server”** OLM Operator includes a CatalogSource provided by Red Hat
 - **Red Hat Operators**:
-    - Packaged by Red Hat  
+    - Packaged by Red Hat
     - Deployed via “Package Server” OLM Operator
 - **Community Edition Operators**:
     - Deployed by any means
@@ -439,21 +441,21 @@ etcd 14h myoperator 14h
 
 - Cluster Network Operator (CNO): The cluster network is now configured and managed by an Operator. The Operator upgrades and monitors the cluster network.
 - [Router plug-ins in OCP3:](https://docs.openshift.com/container-platform/3.11/install_config/router/index.html)
-    - A « route » is the external entrypoint to a [Kubernetes Service](https://kubernetes.io/docs/concepts/services-networking/service/). This is one of the biggest differences between [Kubernetes](https://kubernetes.io/) and [OpenShift Enterprise (= OCP)](https://www.openshift.com/) and [origin](https://www.okd.io/). 
+    - A « route » is the external entrypoint to a [Kubernetes Service](https://kubernetes.io/docs/concepts/services-networking/service/). This is one of the biggest differences between [Kubernetes](https://kubernetes.io/) and [OpenShift Enterprise (= OCP)](https://www.openshift.com/) and [origin](https://www.okd.io/).
     - OpenShift router has the endpoints as targets and therefore the pod of the application.
     - [Shared/Stikcy sessions are enabled by default](https://dzone.com/articles/session-stickiness-in-openshift)
     - [HAProxy template router](https://docs.openshift.com/container-platform/3.11/architecture/networking/assembly_available_router_plugins.html#architecture-haproxy-router) (default router): HTTP(s) & TLS-enabled traffic via SIN.
         - [dzone.com/articles/updating-haproxy-configurations-openshift](https://dzone.com/articles/updating-haproxy-configurations-openshift)
-        - [dzone.com/articles/openshift-egress-options](https://dzone.com/articles/openshift-egress-options) 
+        - [dzone.com/articles/openshift-egress-options](https://dzone.com/articles/openshift-egress-options)
     - F5 BIG-IP Router plug-in integrates with an existing F5 BIG-IP system in your environment
     - Since the 9th May 2018, [NGINX](https://www.openshift.com/blog/introducing-nginx-and-nginx-plus-routers-for-openshift) is also available as « router ».
-- Routers in OCP4: 
+- Routers in OCP4:
     - [Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) is the most common way to allow external access to an OpenShift Container Platform cluster
     - [Configuring Ingress Operator in OCP4](https://docs.openshift.com/container-platform/4.4/networking/ingress-operator.html)
     - Limited to HTTP, HTTPS using SNI, and TLS using SNI (sufficient for web applications and services)
     - Has two replicas by default, which means it should be running on two worker nodes.
     - Can be scaled up to have more replicas on more nodes.
-    - The Ingress Operator implements the ingresscontroller API and is the component responsible for enabling external access to OpenShift Container Platform cluster services. 
+    - The Ingress Operator implements the ingresscontroller API and is the component responsible for enabling external access to OpenShift Container Platform cluster services.
     - The operator makes this possible by deploying and managing one or more HAProxy-based [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) to handle routing.
 - [Network Security Zones in Openshift (DMZ)](https://blog.openshift.com/openshift-and-network-security-zones-coexistence-approaches/)
 - [openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach](https://www.openshift.com/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)
@@ -463,7 +465,7 @@ oc describe clusteroperators/ingress
 oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 ```
 
-#### ServiceMesh Operator 
+#### ServiceMesh Operator
 
 - ServiceMesh: [Istio](https://istio.io/) + [kiali](https://kiali.io/) + [Jaeger](https://www.jaegertracing.io/)
 - ServiceMesh Community Edition: [github.com/maistra/istio](https://github.com/maistra/istio)
@@ -471,7 +473,7 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
     - Outcome: publicly known errors in 2 or 3 components.
 - **Certified ServiceMesh Operator**
     - [ServiceMesh](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html-single/service_mesh/index) GA in September 2019 (available in OperatorHub):
-        - [blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/](https://blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/) 
+        - [blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/](https://blog.openshift.com/red-hat-openshift-service-mesh-is-now-available-what-you-should-know/)
     - Certified & Packaged by Red Hat
     - [“One-click” deployment](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_install/installing-ossm.html)
     - [Preparing to install Red Hat OpenShift Service Mesh](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_install/preparing-ossm-installation.html). To install the Red Hat OpenShift Service Mesh Operator, you must first install these Operators:
@@ -487,35 +489,35 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 </center>
 <br/>
 
-#### Serverless Operator (Knative) 
+#### Serverless Operator (Knative)
 
 - Operator install on OperatorHub.io
 - Knative Eventing (Camel-K, Kafka, Cron, etc)
 - Integration with Openshift ServiceMesh, Logging, Monitoring.
 - [openshift.com/learn/topics/serverless](https://www.openshift.com/learn/topics/serverless)
-- [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)  
+- [redhat-developer-demos.github.io/knative-tutorial](https://redhat-developer-demos.github.io/knative-tutorial)
 
 ### Monitoring and Observability
 
 #### Grafana
 
-- Integrated Grafana v5.4.3 (deployed by default): 
+- Integrated Grafana v5.4.3 (deployed by default):
 - Monitoring -> Dashboards
 - Project “openshift-monitoring”
-- [grafana.com/docs/v5.4/](https://grafana.com/docs/v5.4/) 
+- [grafana.com/docs/v5.4/](https://grafana.com/docs/v5.4/)
 
 #### Prometheus
 
-- Integrated Prometheus v2.7.2 (deployed by default): 
+- Integrated Prometheus v2.7.2 (deployed by default):
 - Monitoring -> metrics
 - Project “openshift-monitoring”
-- [prometheus.io/docs/prometheus/2.7/getting_started/](https://prometheus.io/docs/prometheus/2.7/getting_started/) 
+- [prometheus.io/docs/prometheus/2.7/getting_started/](https://prometheus.io/docs/prometheus/2.7/getting_started/)
 
 #### Alerts and Silences
 
 - Integrated Alertmanager 0.16.2 (deployed by default):
     - Monitoring -> Alerts
-    - Monitoring -> Silences 
+    - Monitoring -> Silences
     - Silences temporarily mute alerts based on a set of conditions that you define. Notifications are not sent for alerts that meet the given conditions.
 - Project “openshift-monitoring”
 - [prometheus.io/docs/alerting/alertmanager/](https://prometheus.io/docs/alerting/alertmanager/)
@@ -527,8 +529,8 @@ oc logs --namespace=openshift-ingress-operator deployments/ingress-operator
 - Cluster Logging EFK **not deployed by default**
 - As an OpenShift Container Platform cluster administrator, you can deploy cluster logging to aggregate logs for a range of OpenShift Container Platform services.
 - The OpenShift Container Platform cluster logging solution requires that you **install both the Cluster Logging Operator and Elasticsearch Operator**. There is no use case in OpenShift Container Platform for installing the operators individually. You must **install the Elasticsearch Operator using the CLI** following the directions below. You can **install the Cluster Logging Operator using the web console or CLI.**
-Deployment procedure based on CLI + web console: 
-    - [docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html](https://docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html) 
+Deployment procedure based on CLI + web console:
+    - [docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html](https://docs.openshift.com/container-platform/4.4/logging/cluster-logging-deploying.html)
     - **Elasticsearch Operator** must be installed in Project **“openshift-operators-redhat”**
     - **Cluster Logging Operator** must be deployed in Project **“openshift-logging”**
     - **CatalogSourceConfig** added to enable Elasticsearch Operator on the cluster
@@ -597,7 +599,7 @@ oc login
 - [youtube: OpenShift 4 OAuth Identity Providers](https://www.youtube.com/watch?v=eFxFtUpAT9s)
 - [youtube: OpenShift on Google Cloud, AWS, Azure and localhost](https://www.youtube.com/watch?v=G-baPg3XhBo)
 - [youtube: Getting Started with OpenShift 4 Security 🌟](https://www.redhat.com/en/about/videos/getting-started-openshift-4-security)
-- [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem. 
+- [youtube playlist: London 2020 | OpenShift Commons Gathering 🌟](https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-) OCP4 Updates & Roadmaps, Customer Stories, OpenShift Hive (case study), Operator Ecosystem.
 
 ## OpenShift 4 Training
 
@@ -613,11 +615,11 @@ oc login
 - [blog.openshift.com: OpenShift Container Storage (OCS 3 & 4 slides)](https://blog.openshift.com/wp-content/uploads/OPENSHIFT-CONTAINER-STORAGE.pdf)
     - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
 - [blog.openshift.com: OpenShift 4 Roadmap Update (slides)](https://blog.openshift.com/wp-content/uploads/OpenShift-4-Roadmap-Update-William-Markito-and-Chris-Blum.pdf)
-    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf) 
+    - This link is now broken. [Grab a copy from here](https://github.com/redhatspain/awesome-kubernetes/tree/master/pdf)
 
 ## Kubevirt Virtual Machine Management on Kubernetes
 
-- [kubevirt.io 🌟](https://kubevirt.io/) 
+- [kubevirt.io 🌟](https://kubevirt.io/)
 - [Getting Started with KubeVirt Containers and Virtual Machines Together](https://blog.openshift.com/getting-started-with-kubevirt/)
 - [containerjournal.com: Red Hat Integrates KubeVirt With Kubernetes Management Platform From SAP](https://containerjournal.com/topics/container-management/red-hat-integrates-kubevirt-with-kubernetes-management-platform-from-sap/)
 - [kubermatic.com: Bringing Your VMs to Kubernetes With KubeVirt](https://www.kubermatic.com/blog/bringing-your-vms-to-kubernetes-with-kubevirt/)
@@ -635,7 +637,7 @@ oc login
 
 ### Multiple Networks with SDN/CNI plug-ins. Usage scenarios for an additional network
 
-- [Understanding multiple networks](https://docs.openshift.com/container-platform/4.4/networking/multiple_networks/understanding-multiple-networks.html) In Kubernetes, container networking is delegated to networking plug-ins that implement the Container Network Interface (CNI). OpenShift Container Platform uses the [Multus CNI plug-in](https://github.com/openshift/multus-cni) to allow chaining of CNI plug-ins. During cluster installation, you configure your default Pod network. The default network handles all ordinary network traffic for the cluster. You can define an additional network based on the available CNI plug-ins and attach one or more of these networks to your Pods. You can define more than one additional network for your cluster, depending on your needs. This gives you flexibility when you configure Pods that deliver network functionality, such as switching or routing. 
+- [Understanding multiple networks](https://docs.openshift.com/container-platform/4.4/networking/multiple_networks/understanding-multiple-networks.html) In Kubernetes, container networking is delegated to networking plug-ins that implement the Container Network Interface (CNI). OpenShift Container Platform uses the [Multus CNI plug-in](https://github.com/openshift/multus-cni) to allow chaining of CNI plug-ins. During cluster installation, you configure your default Pod network. The default network handles all ordinary network traffic for the cluster. You can define an additional network based on the available CNI plug-ins and attach one or more of these networks to your Pods. You can define more than one additional network for your cluster, depending on your needs. This gives you flexibility when you configure Pods that deliver network functionality, such as switching or routing.
 - You can use an additional network in situations where network isolation is needed, including data plane and control plane separation. Isolating network traffic is useful for the following performance and security reasons:
     - **Performance:** You can send traffic on two different planes in order to manage how much traffic is along each plane.
     - **Security:** You can send sensitive traffic onto a network plane that is managed specifically for security considerations, and you can separate private data that must not be shared between tenants or customers.
@@ -662,9 +664,9 @@ oc login
 
 ## Storage in OCP 4. OpenShift Container Storage (OCS)
 
-- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/) 
+- [Red Hat OpenShift Container Storage 4](https://www.openshift.com/products/container-storage/)
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
-  
+
 ## Red Hat Advanced Cluster Management for Kubernetes
 
 - [Red Hat Advanced Cluster Management for Kubernetes 🌟](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
@@ -682,7 +684,7 @@ oc login
 
 - [Homepage](https://crc.dev)
 - [developers.redhat.com: Developing applications on Kubernetes 🌟](https://developers.redhat.com/topics/kubernetes/)
-- [crc-org/crc: Getting Started Guide 🌟](https://crc-org.github.io/crc/) 
+- [crc-org/crc: Getting Started Guide 🌟](https://crc-org.github.io/crc/)
 - [Red Hat OpenShift 4.2 on your laptop: Introducing **Red Hat CodeReady Containers**](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 - [dzone: Code Ready Containers - Decision Management Developer Tools Update](https://dzone.com/articles/code-ready-containers-decision-management-develope)
 - [Overview: running crc on a remote server](https://gist.github.com/tmckayus/8e843f90c44ac841d0673434c7de0c6a)
@@ -706,10 +708,10 @@ oc login
 - [cloud.ibm.com: openshift-security](https://cloud.ibm.com/docs/openshift?topic=openshift-security)
 - [docs.aporeto.com: OpenShift Master API Protection](https://docs.aporeto.com/docs/main/guides/okd-master-api-protection/)
 
-## Backup and Migrate to OpenShift 4 
+## Backup and Migrate to OpenShift 4
 
 - [blog.openshift.com: Migrating your applications to OpenShift 4 🌟](https://blog.openshift.com/migrating-your-applications-to-openshift-4/)
-    - [**Velero**](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes 
+    - [**Velero**](https://github.com/vmware-tanzu/velero) Backup and migrate Kubernetes applications and their persistent volumes
     - [**Restic**](https://restic.net/) Backups done right!
 
 ## OKD4. OpenShift 4 without enterprise-level support
@@ -745,7 +747,7 @@ oc login
 
 ## Red Hat Marketplace
 
-- [marketplace.redhat.com 🌟](https://marketplace.redhat.com/) A simpler way to buy and manage enterprise software, with automated deployment to any cloud. 
+- [marketplace.redhat.com 🌟](https://marketplace.redhat.com/) A simpler way to buy and manage enterprise software, with automated deployment to any cloud.
 - [developers.redhat.com: Building Kubernetes applications on OpenShift with Red Hat Marketplace](https://developers.redhat.com/blog/2020/04/27/building-kubernetes-applications-on-openshift-with-red-hat-marketplace/)
 
 ## Kubestone. Benchmarking Operator for K8s and OpenShift
@@ -753,7 +755,7 @@ oc login
 - [kubestone.io](https://kubestone.io)
 - [operatorhub.io: kubestone](https://operatorhub.io/operator/kubestone)
 
-## OpenShift Cost Management 
+## OpenShift Cost Management
 
 - [blog.openshift.com: Tech Preview: Get visibility into your OpenShift costs across your hybrid infrastructure 🌟](https://blog.openshift.com/tech-preview-get-visibility-into-your-openshift-costs-across-your-hybrid-infrastructure/)
 - [Cost Management and OpenShift - Sergio Ocón-Cárdenas (Red Hat) 🌟](https://www.openshift.com/blog/cost-management-and-openshift-sergio-oc%C3%B3n-c%C3%A1rdenas-red-hat)
@@ -766,7 +768,7 @@ oc login
     - [developers.redhat.com: OpenShift Commons Briefing: Operator Lifecycle Management (video)](https://developers.redhat.com/openshift-commons/Operator-Lifecycle-Management)
 - [Top Kubernetes Operators](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/)
 - [operatorhub.io](https://operatorhub.io/)
-- [learn.crunchydata.com](https://learn.crunchydata.com/) 
+- [learn.crunchydata.com](https://learn.crunchydata.com/)
 - [developers.redhat.com: Operator pattern: REST API for Kubernetes and Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/01/22/operator-pattern-rest-api-for-kubernetes-and-red-hat-openshift/)
 - [developers.redhat.com: 5 tips for developing Kubernetes Operators with the new Operator SDK](https://developers.redhat.com/blog/2020/09/11/5-tips-for-developing-kubernetes-operators-with-the-new-operator-sdk/)
 - [medium: Using Kubernetes Operators to Manage the Lifecycle of AI Applications](https://medium.com/@bherta/using-kubernetes-operators-to-manage-the-lifecycle-of-ai-applications-5682c3b372b3)
@@ -780,9 +782,9 @@ oc login
 - [GitHub Quay (OSS)](https://github.com/quay/quay)
 - [blog.openshift.com: Introducing Red Hat Quay](https://blog.openshift.com/introducing-red-hat-quay/)
 - [operatorhub.io/operator/quay](https://operatorhub.io/operator/quay)
-- [openshift.com: Keep Your Applications Secure With Automatic Rebuilds 🌟](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds) 
-    - OpenShift Container Platform historically has addressed this challenge by using Image Streams. An image stream is an abstraction for referencing container images from within OpenShift while the referenced images are an image registry such as OpenShift internal registry, Quay, or other external registries. Image streams are capable of defining triggers which allow your builds and deployments to be automatically invoked when a new version of an image is available in the backing image registry. This in effect enables rebuilding all images that are based on a particular base image as soon as a new version of the base image is available in the Red Hat container catalog and therefore updates all images with the latest bug, CVE, and vulnerability fixes delivered in the latest base image. The challenge, however, is that this capability is limited to BuildConfigs in OpenShift and does not allow more complex workflows to be triggered when images are updated in the Red Hat container catalog. Furthermore, it is also limited to the scope of a single cluster and its internal OpenShift registry. 
-    - Fortunately, though, using Red Hat Quay as a central registry in combination with OpenShift Pipelines enables infinite possibilities in designing sophisticated workflows for ensuring a secure software supply chain and automatically performing any set of actions whenever images are pushed, updated, or security vulnerabilities are discovered in the Red Hat container catalog. 
+- [openshift.com: Keep Your Applications Secure With Automatic Rebuilds 🌟](https://www.openshift.com/blog/keep-your-applications-secure-with-automatic-rebuilds)
+    - OpenShift Container Platform historically has addressed this challenge by using Image Streams. An image stream is an abstraction for referencing container images from within OpenShift while the referenced images are an image registry such as OpenShift internal registry, Quay, or other external registries. Image streams are capable of defining triggers which allow your builds and deployments to be automatically invoked when a new version of an image is available in the backing image registry. This in effect enables rebuilding all images that are based on a particular base image as soon as a new version of the base image is available in the Red Hat container catalog and therefore updates all images with the latest bug, CVE, and vulnerability fixes delivered in the latest base image. The challenge, however, is that this capability is limited to BuildConfigs in OpenShift and does not allow more complex workflows to be triggered when images are updated in the Red Hat container catalog. Furthermore, it is also limited to the scope of a single cluster and its internal OpenShift registry.
+    - Fortunately, though, using Red Hat Quay as a central registry in combination with OpenShift Pipelines enables infinite possibilities in designing sophisticated workflows for ensuring a secure software supply chain and automatically performing any set of actions whenever images are pushed, updated, or security vulnerabilities are discovered in the Red Hat container catalog.
     - In this blog post, we will highlight how Red Hat Quay can be integrated with Tekton pipelines to trigger application rebuilds when images are updated in the Red Hat container catalog. At a high level, the flow will look like this:
 - [medium: Securing Containers with Red Hat Quay and Clair — Part I](https://medium.com/opstalk/securing-containers-with-red-hat-quay-and-clair-part-i-bcec8d170536)
 
@@ -792,7 +794,7 @@ oc login
 - [windup](https://github.com/windup/) upstream project for Red Hat Application Migration Toolkit
 - [RHAMT in Github Actions](https://carlosthe19916.wordpress.com/2020/04/12/rhamt-in-github-actions/) You can embed the Migration Toolkit for Application MTA (now still RHAMT) in your GitHub  to ensure your app is JEE / Tomcat compliant (and more ...)
 - [Migrate your Java apps to containers with Migration Toolkit for Applications 5.0](https://developers.redhat.com/blog/2020/09/04/migrate-your-java-apps-to-containers-with-migration-toolkit-for-applications-5-0/#more-768337)
-- [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0/) 
+- [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0/)
 
 ## Developer Sandbox
 
@@ -805,7 +807,7 @@ oc login
 
 ## OpenBuilt Platform for the Construction Industry
 
-- [OpenBuilt](https://openbuilt.io/) 
+- [OpenBuilt](https://openbuilt.io/)
 - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt/)
 
 ## Scripts

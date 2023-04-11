@@ -4,6 +4,7 @@
 2. [Best Microservice Architecture Courses](#best-microservice-architecture-courses)
 3. [Spanish E-learning](#spanish-e-learning)
 4. [Opinions](#opinions)
+5. [Tweets](#tweets)
 
 ## List
 
@@ -41,6 +42,7 @@
 - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide) Read this curated list of HashiCorp learning resources to help practitioners and organizations better understand the cloud operating model.
 - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science) An introduction to the intellectual enterprises of computer science and the art of programming.
 - [==Techworld with Nana: Learn DevOps topics easily==](https://www.techworld-with-nana.com)
+- [==learnitguide.net== 🌟](https://www.learnitguide.net)
 
 ## Best Microservice Architecture Courses
 
@@ -59,3 +61,13 @@
 
 - [I'm AWS certified? Should you trust me?](https://code.joejag.com/2021/i-am-aws-certified-should-you-trust-me.html)
 - [homebusinessmag.com: Certificates Alone Won’t Get You Hired, You Need Certifications “Plus”!](https://homebusinessmag.com/businesses/success-tips/certificates-alone-wont-get-hired-need-certifications-plus/)
+
+## Tweets
+
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A cloud certificate is no job guarantee but comes with very cool perks:<br><br>- more job opportunities <br>- potential salary increase <br>- stand out from others<br>- prove knowledge<br>- demonstrate expertise<br>- stay relevant<br>- invest in yourself<br><br>And it’s actually fun to get certified! ⭐</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1630090874376843264?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>

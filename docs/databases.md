@@ -33,13 +33,14 @@
 30. [PysonDB](#pysondb)
 31. [Clickhouse](#clickhouse)
 32. [Apache Ignite](#apache-ignite)
-33. [Tools](#tools)
-34. [Time-Series Database](#time-series-database)
-35. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
-36. [Data Lakes](#data-lakes)
-37. [Graph Databases](#graph-databases)
-38. [Videos](#videos)
-39. [Tweets](#tweets)
+33. [Apache Druid](#apache-druid)
+34. [Tools](#tools)
+35. [Time-Series Database](#time-series-database)
+36. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
+37. [Data Lakes](#data-lakes)
+38. [Graph Databases](#graph-databases)
+39. [Videos](#videos)
+40. [Tweets](#tweets)
 
 ## Introduction
 
@@ -69,7 +70,7 @@
 - [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization/)
 - [medium: How to Put a Database in Kubernetes](https://medium.com/building-the-open-data-stack/how-to-put-a-database-in-kubernetes-ab7c21540ec2) For example, a deployment of Apache Cassandra will typically use a StatefulSet to launch pods across available Kubernetes worker nodes, with each Cassandra pod having its own PersistentVolumeClaim that can be preserved and reused if the pod needs to be replaced.
 - [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management/)
-- [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report/) Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization's decision to run stateful workloads on Kubernetes. 
+- [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report/) Standardization, consistency and the ability for developers to self-manage - are among the top 3 important factors in the organization's decision to run stateful workloads on Kubernetes.
 - [cloud.redhat.com: Simplifying Database Cloud Service Access](https://cloud.redhat.com/blog/simplifying-database-cloud-service-access)
 - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases/)
 - [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication/)
@@ -136,7 +137,7 @@
 - [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier/) “The interesting opportunity I see in the Kubernetes ecosystem,” Evenson continued, “is that, with the advent of custom resources and Kubernetes, you can build bespoke APIs for your application really easily. We’re in the world of operator explosion. In essence, it makes Kubernetes applications aware.”
 - [dzone: Kubernetes and Running Stateful Workloads 🌟](https://dzone.com/articles/kubernetes-and-running-stateful-workloads)
 - [towardsdatascience.com: Understanding the Relational Model of Database Management Systems 🌟](https://towardsdatascience.com/understanding-the-relational-model-of-database-management-systems-56f17db99f56)
-- [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.openshift.com/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift) 
+- [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.openshift.com/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift)
 - [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)
 - [stackexchange.com/performance 🌟](https://stackexchange.com/performance)
 
@@ -183,6 +184,7 @@
 - [Wikipedia: CockroachDB](https://en.wikipedia.org/wiki/Cockroach_Labs) is a project that is designed to store copies of data in multiple locations in order to deliver speedy access. It is described as a scalable, consistently-replicated, transactional datastore.
 - [==Cockroach==](https://www.cockroachlabs.com/docs/stable/orchestration.html)
 - [cockroachlabs.com: Automated database operations with Terraform](https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform/)
+- [blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE](https://blog.cloudneutral.se/running-cockroachdb-tpc-c-benchmark-on-gke) This article demonstrates how to run a TPC-C 2.5K benchmark on a self-hosted, 3-node, single-region CockroachDB cluster on Google Kubernetes Engine (GKE)
 
 ## Operator Lifecycle Manager (OLM)
 
@@ -190,7 +192,7 @@
 
 ## Spilo PostgreSQL Operator
 
-- [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA. 
+- [Spilo: HA PostgreSQL Clusters with Docker](https://github.com/zalando/spilo) Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. Patroni is a template for PostgreSQL HA.
 - [Patroni](https://github.com/zalando/patroni)
 - [How I've Set Up HA PostgreSQL on Kubernetes (powered by Patroni, a template for PostgreSQL HA)](https://disaev.me/p/how-i-have-set-up-ha-postgresql-on-kubernetes/)
 
@@ -206,7 +208,7 @@
 ## Oracle 12c on OpenShift Container Platform
 
 - [medium: Running Oracle 12c on OpenShift Container Platform](https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057) Oracle is now offering an Oracle 12c image on Docker Hub for dev/test purposes (license still required for Prod).
-- [dockerhub: Oracle Database 12c Enterprise Edition](https://hub.docker.com/_/oracle-database-enterprise-edition) 
+- [dockerhub: Oracle Database 12c Enterprise Edition](https://hub.docker.com/_/oracle-database-enterprise-edition)
 
 ## Oracle Database Operator for Kubernetes
 
@@ -251,7 +253,7 @@
 - [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/)
 - [blog.crunchydata.com: Cut Out the Middle Tier: Generating JSON Directly from Postgres](https://blog.crunchydata.com/blog/generating-json-directly-from-postgres)
 - [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
-- [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac 
+- [Postgres.app](https://postgresapp.com/) The easiest way to get started with PostgreSQL on the Mac
 - [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset/)
 - [blog.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://blog.crunchydata.com/blog/d-meta)
 - **Why Postgres?**
@@ -312,6 +314,11 @@
 
 - [Apache Ignite](https://ignite.apache.org/) Distributed Database For High-Performance Computing With In-Memory Speed
 - [dzone: Stateful Microservices With Apache Ignite](https://dzone.com/articles/stateful-microservices-with-apache-ignite) This article explains how to implement stateful microservices architecture for Spring Boot applications with distributed database Apache Ignite.
+
+## Apache Druid
+
+- [Apache Druid](https://druid.apache.org/) Druid is a high performance, real-time analytics database that delivers sub-second queries on streaming and batch data at scale and under load.
+- [==dev.to: Apache Druid: overview, running in Kubernetes and monitoring with Prometheus==](https://dev.to/setevoy/apache-druid-overview-running-in-kubernetes-and-monitoring-with-prometheus-g5j) In this detailed tutorial, you will learn how to install, run and monitor Apache Druid on Kubernetes — a columnar database designed to work with large amounts of data
 
 ## Tools
 

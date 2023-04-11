@@ -65,7 +65,7 @@
 - [faun.pub: Continuous Deployments of Kubernetes Applications using Argo CD GitOps & Helm Charts](https://faun.pub/continuous-deployments-of-kubernetes-applications-using-argo-cd-gitops-helm-charts-9df917caa2e4)
 - [jamalshahverdiev.medium.com: ArgoCD ApplicationSet with Applications, Image Updater and Notification controller with SSO](https://jamalshahverdiev.medium.com/argocd-applicationset-with-applications-image-updater-and-notification-controller-with-sso-bba3182dad8a)
 - [kubebyexample.com: Argo CD Overview 🌟](https://kubebyexample.com/learning-paths/argo-cd/argo-cd-overview)
-- [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510)
+- [faun.pub: Hygiene of an ArgoCD-built automation at a scale](https://faun.pub/hygiene-of-argocd-built-automation-at-a-scale-cf63ee459510) In this article, you will find a list of best practices and tips for using ArgoCD automation at scale
 - [blog.devgenius.io: Argo CD Introduction](https://blog.devgenius.io/argo-cd-introduction-4b16f50b0d56) What is ArgoCD and why use it
 - [==dev.to: Argo CD and Sealed Secrets is a perfect match==](https://dev.to/timtsoitt/argo-cd-and-sealed-secrets-is-a-perfect-match-1dbf) In this article, you will learn how to configure Sealed Secrets with ArgoCD
 - [figments.medium.com: ArgoCD: The first step towards GitOps](https://figments.medium.com/argocd-the-first-step-towards-gitops-899732fbc33e) A core component of GitOps is enforcing the deployment of apps using Git. This means defining the app version and configuration you want in a Git repo, and using a tool like ArgoCD to sync the Git configuration to the deployment. In this article, we’ll look at how we can use ArgoCD to manage automatic Git based deployments of apps.
@@ -74,6 +74,15 @@
 - [piotrminkowski.com: Manage Multiple Kubernetes Clusters with ArgoCD 🌟](https://piotrminkowski.com/2022/12/09/manage-multiple-kubernetes-clusters-with-argocd/)
 - [medium.com/containers-101: How to Install and Upgrade Argo CD](https://medium.com/containers-101/how-to-install-and-upgrade-argo-cd-a64f4635f97b)
 - [medium.com/containers-101: Argo CD Best Practices](https://medium.com/containers-101/best-practices-for-argo-cd-8253bcd31897) In this blog post, you'll learn some best practices tied to Argo CD that allow you to leverage GitOps easily within your deployment workflow.
+- [github.com/crumbhole/argocd-lovely-plugin: argocd-lovely-plugin](https://github.com/crumbhole/argocd-lovely-plugin) This plugin extends ArgoCD with:
+    - Composing multiple things together to form a single app from multiple directories
+    - Helm + Kustomize just work
+    - You can chain several plugins together
+    - When used with application sets, you can apply Kustomizations
+- [gokhan-karadas1992.medium.com: ArgoCD + Kubevela Integration](https://gokhan-karadas1992.medium.com/argocd-kubevela-integration-eb88dc0484e0)
+- [==blog.tanmaysarkar.tech: Beginners Guide to Argo CD==](https://blog.tanmaysarkar.tech/beginners-guide-to-argo-cd) In this guide, you will learn how to use ArgoCD by practising on a local minikube cluster
+- [medium.com/devops-techable: GitOps with ArgoCD running in Kubernetes for deployment processing](https://medium.com/devops-techable/gitops-with-argocd-running-in-kubernetes-for-deployment-processing-c5d21770ca97)
+- [seraf.dev: ArgoCD Tutorial — (with Terraform)](https://seraf.dev/argocd-tutorial-with-terraform-af77ddea2e6e) Here we’ll be deploying ArgoCD resources with Terraform on a local Kubernetes Cluster (KIND) for a true IaC infrastructure
 
 ## Argo CD Vulnerabilities
 
@@ -104,6 +113,7 @@
 - [infracloud.io: Progressive Delivery with Argo Rollouts : Blue-Green Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-blue-green-deployment/) In this post, you'll learn how to perform a blue-green deployment using the Argo Rollouts controller and CRD.
 - [infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment/)
 - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)
+- [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) In this article, we will learn how to automate Blue/Green Deployment with Argo Rollouts.
 
 ## Argo Workflows
 

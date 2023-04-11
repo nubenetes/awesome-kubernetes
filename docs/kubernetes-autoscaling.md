@@ -46,6 +46,10 @@
     - Vertical Pod Autoscaler (VPA)
     - Cluster Autoscaler
 - [medium.com/mindboard: What is Autoscaling in Kubernetes?](https://medium.com/mindboard/what-is-autoscaling-in-kubernetes-109c7b5d321) Autoscaling is useful feature in Kubernetes that helps you to automatically adjust the number & resource consumption of pods in your deployment to meet the changing needs of your app.
+- [clickittech.com: Kubernetes Autoscaling: How to use the Kubernetes Autoscaler](https://www.clickittech.com/devops/kubernetes-autoscaling/) In this tutorial, you'll install and test three different autoscaler on EKS:
+    - Horizontal Pod Autoscaler
+    - Vertical Pod Autoscaler
+    - Cluster Autoscaler
 
 ## Cluster Autoscaler Kubernetes Tool
 
@@ -65,6 +69,7 @@
 - [itnext.io: Kubernetes Resources and Autoscaling — From Basics to Greatness 🌟](https://itnext.io/kubernetes-resources-and-autoscaling-from-basics-to-greatness-7cae17fbf27b)
 - [kubedex.com: autoscaling 🌟](https://kubedex.com/autoscaling)
 - [==chrisedrego.medium.com: Kubernetes AutoScaling Series: Cluster AutoScaler== 🌟](https://chrisedrego.medium.com/kubernetes-autoscaling-series-cluster-autoscaler-5d60c10c3dc1)
+- [==hashnode.com: Proactive cluster autoscaling in Kubernetes | Daniele Polencic== 🌟🌟](https://hashnode.com/post/proactive-cluster-autoscaling-in-kubernetes-cl88pz1ua01obu5nv24520hv6) **Scaling nodes in a Kubernetes cluster could take several minutes with the default settings. Learn how to size your cluster nodes and proactively create nodes for quicker scaling.**
 
 ## HPA and VPA
 
@@ -100,11 +105,12 @@
 - [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) Horizontal Pod Autoscaler built with predictive abilities using statistical models. Predictive Horizontal Pod Autoscalers (PHPAs) are Horizontal Pod Autoscalers (HPAs) with extra predictive capabilities baked in, allowing you to apply statistical models to the results of HPA calculations to make proactive scaling decisions.
 - [==thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet== 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet/) A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.
 - [waswani.medium.com: Autoscaling Pods in Kubernetes](https://waswani.medium.com/autoscaling-pods-in-kubernetes-37d05000c41) If you are hosting your workload in a cloud environment, and your traffic pattern is fluctuating in nature (think unpredictable), you need a mechanism to automatically scale out (and off-course scale in) your workload to ensure the service is able to perform as per defined Service Level Objective (SLO), without impacting the User Experience. This semantic is referred to as Autoscaling, to be very precise Horizontal Scaling.
+- [mckornfield.medium.com: Working with HPAs in Kubernetes](https://mckornfield.medium.com/working-with-hpas-in-kubernetes-ced39263b596) How to make your Kubernetes workloads scale with a few simple steps
 
 ### Kubernetes Scale to Zero
 
 - [dzone: Scale to Zero With Kubernetes with KEDA and/or Knative](https://dzone.com/articles/scale-to-zero-with-kubernetes) This article reviews how Kubernetes provides the platform capabilities for dynamic deployment, scaling, and management in Cloud-native applications.
-- [==dev.to/danielepolencic: Request-based autoscaling in Kubernetes: scaling to zero==](https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73) - [linode.com: Scaling Kubernetes to Zero (And Back)](https://www.linode.com/blog/kubernetes/scaling-kubernetes-to-zero-and-back/)
+- [==dev.to/danielepolencic: Request-based autoscaling in Kubernetes: scaling to zero==](https://dev.to/danielepolencic/request-based-autoscaling-in-kubernetes-scaling-to-zero-2i73) - [linode.com: Scaling Kubernetes to Zero (And Back)](https://www.linode.com/blog/kubernetes/scaling-kubernetes-to-zero-and-back/) **In this article, you will learn how to monitor the HTTP requests to your apps in Kubernetes and define autoscaling rules to increase and decrease replicas for your workloads.**
 
 ## Cluster Autoscaler and Helm
 

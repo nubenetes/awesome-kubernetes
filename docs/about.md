@@ -25,9 +25,9 @@ A tech stack is not relevant compared to the way technology is managed. You coul
 **[GitOps](https://opensource.com/article/21/3/gitops) principles: Correctness, doing DevOps correctly**
 
 | __Principle__ | __Focus__ | __Main Tool__ | __Other Tools__ | __Flexibility__ | __Correctness__ |
-| :---: | :---: | :---: | :---: | :---: | :---: | 
-| __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |  
-| __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |  
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| __DevOps__ | Automation and frequent deployments | CI/CD pipeline | Supply chain management, Cloud Configuration as Code, etc. | Less strict and more open | Less focus on correctness |
+| __GitOps__ | ==Correctness; doing DevOps correctly== | Git | Kubernetes, Controller (e.g., Operator), separate CI/CD pipelines, Infrastructure as a Code, etc. | ==Stricter and less open== | ==Designed with correctness== |
 
 >[The SRE Experience Is Changing with Cloud Native:](https://thenewstack.io/how-the-sre-experience-is-changing-with-cloud-native/)
 >
@@ -85,6 +85,8 @@ Tips: ask the hiring manager what experience they have with Cloud Automation, Cl
 
 > [*"The absolutely difficult thing is reaching volume production without going bankrupt, that is the actual hard thing"*](https://www.youtube.com/watch?v=cdZZpaB2kDM&t=2025s) Elon Musk
 
+> *"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective, the engineer builds bridges from an evidence-based perspective and over time bridge construction has improved. On the other hand, a politician does things from a right or left perspective, and over time politics has gotten worse. When I work with politicians and two of them are in a room together, one always thinks of the other, "will they get in my way? Will they damage my reputation? Is there a conflict of interest?" On the other hand, when two engineers meet, they say, "hello! I have a problem, can you help me?" Engineers rely on evidence. If you want to save the world, think like an engineer."* Mark Stevenson, writer and businessman.
+
 Let's improve both the private & public IT sector and the opportunities in large, medium and small companies, and give us a star on GitHub if you like this blog!!
 
 <center>
@@ -113,7 +115,7 @@ Let's improve both the private & public IT sector and the opportunities in large
 <details>
   <summary>Stats 1. Click to expand!</summary>
 
-<center>  
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a3bnNi2R8Vo" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/45Dt1Hdm39U" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YeiFMirdToA" title="YouTube video player" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -131,7 +133,7 @@ Let's improve both the private & public IT sector and the opportunities in large
   </center>
   </details>
 
-  <details> 
+  <details>
     <summary>Stats 3. Inflation and Unemployment. Click to expand!</summary>
 
   <center>

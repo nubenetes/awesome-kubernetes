@@ -45,6 +45,7 @@
 - [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem/)
 - [faun.pub: Handling Exposed AWS Access Key](https://faun.pub/handling-exposed-aws-access-key-b053362abd73)
 - [github.com/aws-samples: How to set up continuous replication from your third-party secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault)
+- [medium.com/@neonforge: Why You Shouldn’t Use AWS managed KMS Keys](https://medium.com/@neonforge/why-you-shouldnt-use-aws-managed-kms-keys-83d9eb9d5090)
 
 ## AWS Security Reference Architecture AWS SRA
 
@@ -77,18 +78,20 @@
 - [==iann0036/iamlive==](https://github.com/iann0036/iamlive) Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy
 - [==awsiam.info: AWS IAM Search==](https://www.awsiam.info)
 - [daan.fyi: AWS IAM Demystified](https://www.daan.fyi/writings/iam)
-- [willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) AWS CDK construct for rotating IAM user credentials and sending to a third party. 
+- [willdady/cdk-iam-credentials-rotator: IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) AWS CDK construct for rotating IAM user credentials and sending to a third party.
 - [==Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)==](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) Reasons you should be using multiple accounts in AWS:
     - You can constrain access to sensitive data
     - You'll promote innovation & agility
     - You can more easily manage costs
-- [aws.amazon.com: When and where to use IAM permissions boundaries](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/) A permissions boundary is an IAM feature that helps your centralized cloud IAM teams to safely empower your application developers to create new IAM roles and policies in Amazon Web Services (AWS). 
+- [aws.amazon.com: When and where to use IAM permissions boundaries](https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries/) A permissions boundary is an IAM feature that helps your centralized cloud IAM teams to safely empower your application developers to create new IAM roles and policies in Amazon Web Services (AWS).
 - [Extend AWS IAM roles to workloads outside of AWS with IAM Roles Anywhere 🌟](https://aws.amazon.com/blogs/security/extend-aws-iam-roles-to-workloads-outside-of-aws-with-iam-roles-anywhere/) **A secure way for on-premises servers, containers, or apps to obtain temporary AWS credentials and remove the need for creating and managing long-term AWS credentials**
 - [binx.io: Working with AWS Permission Policies 🌟](https://binx.io/2022/07/13/working-with-aws-permission-policies/)
 - [Use IAM Access Analyzer policy generation to grant fine-grained permissions for your AWS CloudFormation service roles](https://aws.amazon.com/blogs/security/use-iam-access-analyzer-policy-generation-to-grant-fine-grained-permissions-for-your-aws-cloudformation-service-roles/)
 - [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://ermetic.com/blog/aws/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-session-iam433/)
 - [globaldatanet.com: .AWS IAM Identity Center Permission Management at Scale Part 2](https://globaldatanet.com/tech-blog/aws-iam-identity-center-permission-management-at-scale-part-2)
 - [awstip.com: AWS Permissions Set deep dive](https://awstip.com/aws-permissions-set-deep-dive-228d0ed35249)
+- [How to monitor and query IAM resources at scale – Part 1](https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1/) Useful details on how AWS IAM works so that you can use it more effectively.
+- [github.com/aws-samples: Visualize AWS IAM Access Analyzer Policy Validation Findings](https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings)
 
 ### Terraform IAM Policy Validator
 
@@ -97,7 +100,7 @@
 ### AWS IAM Anywhere
 
 - [==jimmydqv.com: AWS IAM Anywhere== 🌟](https://jimmydqv.com/iam-anywhere/)
-    - Most of us that have worked with cloud long enough has encountered hybrid cloud solutions in one way or another. I often see clients with some parts, or applications, running on-premises that need to call AWS services. I'm working with an client with an application running on-premises. The application gather data from different sources, and then upload the data files to an Amazon S3 Bucket. The data is imported and analyzed in the cloud. Up till now I needed to create an IAM User and generate long lived credentials that the on-premises part could use. That is until the recent release of IAM Anywhere. 
+    - Most of us that have worked with cloud long enough has encountered hybrid cloud solutions in one way or another. I often see clients with some parts, or applications, running on-premises that need to call AWS services. I'm working with an client with an application running on-premises. The application gather data from different sources, and then upload the data files to an Amazon S3 Bucket. The data is imported and analyzed in the cloud. Up till now I needed to create an IAM User and generate long lived credentials that the on-premises part could use. That is until the recent release of IAM Anywhere.
     - IAM Anywhere rely on Public key Infrastructure (PKI) and exchange x.509 certificates for temporary AWS IAM credentials. You establish a trust between you AWS account and a Certificate Authority (CA), a trust anchor. Certificates issued by that CA can then be used to get credentials. Fields, like the Common Name (CN), in the certificate can be used as conditions in policies to limit what IAM Roles that can be assumed.
 
 ## AWS Organizations

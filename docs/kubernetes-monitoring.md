@@ -67,7 +67,10 @@
 - [newrelic.com: Pixie](https://newrelic.com/platform/kubernetes-pixie)
     - [xgrid.medium.com: Tackling Kubernetes Observability Challenges with Pixie](https://xgrid.medium.com/tackling-kubernetes-observability-challenges-with-pixie-a03cbad93148)
     - [newrelic.com: What Is eBPF and Why Does It Matter for Observability?](https://newrelic.com/blog/best-practices/what-is-ebpf)
-- [awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm ](https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620)
+- [awstip.com: Monitoring Your EKS Cluster with the Power of Prometheus and Grafana through Helm](https://awstip.com/monitoring-your-eks-cluster-with-the-power-of-prometheus-and-grafana-through-helm-%EF%B8%8F-1e8dc1ad5620)
+- [grafana.com: A beginner's guide to Kubernetes application monitoring](https://grafana.com/blog/2023/01/31/a-beginners-guide-to-kubernetes-application-monitoring)
+- [medium.com/@poseidon.os: Poseidon: A Kubernetes Cluster Visualization & Cost Analysis Tool](https://medium.com/@poseidon.os/poseidon-a-kubernetes-cluster-visualization-cost-analysis-tool-d0fb55c2858c)
+- [==aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits== 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits/) **In this article, you'll discuss how CPU throttling can affect Kubernetes' node performance, and how to avoid this by setting the right values for limits. The author also suggests using Prometheus as a tool to help set reasonable limits**
 
 ## Kubernetes Logging
 
@@ -95,6 +98,7 @@
 - [signoz.io: Kubernetes Audit Logs - Best Practices And Configuration](https://signoz.io/blog/kubernetes-audit-logs)
 - [blog.amhaish.com: Observing the K8 cluster using ELK stack](https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3)
 - [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) The Logging operator automates the deployment and configuration of a Kubernetes logging pipeline. The operator deploys and configures a Fluent Bit daemonset on every node to collect container and application logs from the node file system.
+- [akyriako.medium.com: Kubernetes Logging with Grafana Loki & Promtail in under 10 minutes 🌟](https://akyriako.medium.com/kubernetes-logging-with-grafana-loki-promtail-in-under-10-minutes-d2847d526f9e) Consolidate all your Kubernetes logs in a intuitive Grafana dashboard.
 
 ## SLOs in Kubernetes
 

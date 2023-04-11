@@ -32,7 +32,7 @@
 - [acloudguru.com: What’s new with Kubernetes 1.22?](https://acloudguru.com/blog/engineering/whats-new-with-kubernetes-1-22)
 - [kubernetes.io: Graceful Node Shutdown Goes Beta](https://kubernetes.io/blog/2021/04/21/graceful-node-shutdown-beta/)
 - [kubernetes.io: Kubernetes Memory Manager moves to beta](https://kubernetes.io/blog/2021/08/11/kubernetes-1-22-feature-memory-manager-moves-to-beta/)
-- [kubernetes.io: Dockershim removal is coming. Are you ready?](https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal) 
+- [kubernetes.io: Dockershim removal is coming. Are you ready?](https://kubernetes.io/blog/2021/11/12/are-you-ready-for-dockershim-removal)
 - [medium: Kubernetes v1.22 ends Cloud Provider LoadBalancer lock-in](https://medium.com/thermokline/kubernetes-v1-22-ends-cloud-provider-loadbalancer-lock-in-80ed7907695e) Users of Cloud Provider provisioned Kubernetes have been locked into using the Cloud providers LoadBalancers for external access to their applications. This changed in v1.22, a new feature called LoadBalancer class allows 3rd party solutions to selected as an alternative to the default Cloud LoadBalancer.
 - [sysdig.com: Kubernetes 1.23 – What’s new?](https://sysdig.com/blog/kubernetes-1-23-whats-new/)
 - [armosec.io: Kubernetes version 1.23 is out – everything you should know](https://www.armosec.io/blog/kubernetes-version-1-23-is-out-everything-you-should-know)
@@ -64,3 +64,4 @@
 - [kubernetes.io: Kubernetes v1.26: CPUManager goes GA](https://kubernetes.io/blog/2022/12/27/cpumanager-ga/)
 - [itnext.io: Unleashing the Power of Kubernetes 1.26: Exploring the New ValidatingAdmissionPolicy Feature with CEL](https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd)
 - [kubernetes.io: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available](https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga/)
+- [alexandrev.medium.com: Kubernetes Autoscaling 1.26: A Game-Changer for KEDA Users?](https://alexandrev.medium.com/kubernetes-autoscaling-1-26-a-game-changer-for-keda-users-c718a81fb155)

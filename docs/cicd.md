@@ -105,6 +105,10 @@
 - [about.gitlab.com: How to learn CI/CD fast](https://about.gitlab.com/blog/2022/04/13/how-to-learn-ci-cd-fast/)
 - [thenewstack.io: Are Monolith CI/CD Pipelines Killing Quality in Your Software?](https://thenewstack.io/are-monolith-ci-cd-pipelines-killing-quality-in-your-software/) This creates complex challenges for developers trying to push commits with confidence and DevOps teams responsible for fine-tuning their pipelines.
 - [clickittech.com: CI/CD Best Practices: Top 10 Practices for Financial Services](https://www.clickittech.com/devops/ci-cd-best-practices/)
+- [medium.com/@rifkikarimr: Continuous Integration and Continuous Deployment: Best Practices for DevOps 🌟](https://medium.com/@rifkikarimr/continuous-integration-and-continuous-deployment-best-practices-for-devops-b99eac071a5c) Explore the basics of CICD. What they're, why they’re important, how to set up CI/CD pipeline, the best practices for CI/CD, and how to overcome common challenges
+- [==guru99.com: CI/CD Pipeline: Learn with Example== 🌟🌟🌟](https://www.guru99.com/ci-cd-pipeline.html) CICD automates the process of app delivery. It builds code, runs tests, helps to safely deploy new version of the app. It reduces manual errors, provides feedback, and allows fast product iterations.
+- [==dzone.com: How To Build an Effective CI/CD Pipeline==](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline) This article leads you through an exploration of practical steps for creating pipelines that accelerate deployments.
+- [groundcover.com: Cloud-native CI/CD? Yeah, that’s a thing 🌟](https://www.groundcover.com/blog/ci-cd-kubernetes) Discover how leveraging CI/CD pipelines based on Kubernetes gives organizations improved control and more efficient management, allowing for faster recovery and replication of runtime environments.
 
 ## CI/CD Pipelines With Kubernetes
 
@@ -182,6 +186,7 @@
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
 - [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/cicd-tools-to-know-2021)
 - [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) CI/CD is an integral part of any successful DevOps team. This list includes the finest CI/CD tools currently available in the market.
+- [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6) How to decide whether you should self-host, go with a SaaS option, or bundle your choice of CI tool through a vendor
 
 ## Awesome Lists
 
@@ -195,6 +200,8 @@
     ![cicd cheatsheet](images/cicd-cheatsheet.jfif)
 
     ![blue green deployment strategy](images/blue-green-deployment.jfif)
+
+    [![cicd a basic release process](images/cicd-a-basic-release-process.jpg)](https://dzone.com/articles/how-to-build-an-effective-cicd-pipeline)
     </center>
 
 ## Videos

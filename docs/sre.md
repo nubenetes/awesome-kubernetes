@@ -9,6 +9,7 @@
 5. [Images](#images)
 6. [Videos](#videos)
 7. [Tweets](#tweets)
+
 ## SRE
 
 - [wikipedia: Site Reliability Engineering](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
@@ -76,6 +77,7 @@
 - [==devops.com: SRE Vs. Platform Engineering: What’s the Difference?==](https://devops.com/sre-vs-platform-engineering-whats-the-difference/)
 - [==cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller than you think==](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think/)
 - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer; Substance or Semantics?](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
+- [==phoenixnap.com: SRE Vs. DevOps: Differences Explained== 🌟](https://phoenixnap.com/blog/sre-vs-devops) Take an in-depth look at the similarities & differences between SRE & DevOps, their benefits, usual tasks, and go-to tools to explain their distinct roles in the software development lifecycle (SDLC)
 
 ## SRE Tools
 
@@ -137,4 +139,4 @@
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re delighted to introduce Prodcast, Google SRE&#39;s podcast about Site Reliability Engineering and production software. In Season 1, we discuss concepts from the <a href="https://twitter.com/hashtag/SRE?src=hash&amp;ref_src=twsrc%5Etfw">#SRE</a> Book with experts at Google.<a href="https://twitter.com/hashtag/SREBook?src=hash&amp;ref_src=twsrc%5Etfw">#SREBook</a> <a href="https://twitter.com/hashtag/reliability?src=hash&amp;ref_src=twsrc%5Etfw">#reliability</a> <a href="https://t.co/sOytXhXFyz">https://t.co/sOytXhXFyz</a></p>&mdash; Google Site Reliability Engineering (@googlesre) <a href="https://twitter.com/googlesre/status/1514506379117092867?ref_src=twsrc%5Etfw">April 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
-</details>  
+</details>

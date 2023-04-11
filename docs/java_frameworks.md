@@ -18,8 +18,9 @@
     1. [SpringBoot](#springboot)
         1. [SpringBoot with Docker](#springboot-with-docker)
         2. [SpringBoot Tools](#springboot-tools)
+        3. [Endpoints for k8s probes exposed by SpringBoot](#endpoints-for-k8s-probes-exposed-by-springboot)
             1. [Demos](#demos)
-        3. [Spring Cloud](#spring-cloud)
+        4. [Spring Cloud](#spring-cloud)
             1. [Spring Cloud Kubernetes](#spring-cloud-kubernetes)
             2. [Spring Cloud Config and Spring Cloud Config Server](#spring-cloud-config-and-spring-cloud-config-server)
             3. [Secure Secrets with Spring Cloud Vault and alternatives](#secure-secrets-with-spring-cloud-vault-and-alternatives)
@@ -76,6 +77,7 @@
 ### How to migrate Java workloads to containers
 
 - [enterprisersproject.com: How to migrate Java workloads to containers: 3 considerations](https://enterprisersproject.com/article/2021/6/how-migrate-java-workloads-containers-3-considerations) As IT teams weigh what to containerize and migrate to a cloud environment, they need to evaluate many Java workloads. Experts explain three key factors
+- [==piotrminkowski.com: Best Practices for Java Apps on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/13/best-practices-for-java-apps-on-kubernetes/)
 
 ### Existing Java Implementations
 
@@ -90,6 +92,7 @@
 #### Which Version of JDK Should I Use?
 
 - http://whichjdk.com 🌟
+- [==piotrminkowski.com: Which JDK to Choose on Kubernetes== 🌟](https://piotrminkowski.com/2023/02/17/which-jdk-to-choose-on-kubernetes/)
 
 #### Amazon Corretto OpenJDK distribution
 
@@ -210,7 +213,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [==vladmihalcea.com: The best way to log SQL statements with Spring Boot==](https://vladmihalcea.com/log-sql-spring-boot/)
 - [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html#axzz7HV4HFjED)
 - [piotrminkowski.com: Distributed Transactions in Microservices with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/01/24/distributed-transactions-in-microservices-with-kafka-streams-and-spring-boot/)
-- [==vladmihalcea.com: Spring Boot Application Properties==](https://vladmihalcea.com/spring-boot-application-properties/)
+- [==vladmihalcea.com: Spring Boot Application Properties== 🌟](https://vladmihalcea.com/spring-boot-application-properties/)
 - [javarevisited.blogspot.com: How to log SQL statements in Spring Boot? Example Tutorial](https://javarevisited.blogspot.com/2022/02/how-to-log-sql-statements-in-spring.html)
 - [geeksforgeeks.org: Best way to master spring boot , a complete roadmap](https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/)
 - [medium.com/shoutloudz: Microservice: Developing an Authentication Service using Spring Boot](https://medium.com/shoutloudz/microservice-developing-an-authentication-service-using-spring-boot-d421b8802712)
@@ -236,6 +239,18 @@ optimizing Enterprise Java for the microservices architecture.
 - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)
 - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud-kubernetes)
 - [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot Hoja balanceándose en el viento you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
+
+#### Endpoints for k8s probes exposed by SpringBoot
+
+- Spring Boot provides the built-in Actuator feature to generate and expose endpoints for Kubernetes liveness/readiness probes:
+    - We need to enable it in config
+    - We can select components to analyze
+    - We can expose a probe on the app main port even if mgmt port is configured
+- [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spring-boot-actuator-autoconfigure/src/main/java/org/springframework/boot/actuate/autoconfigure/availability/AvailabilityProbesAutoConfiguration.java#L73)
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Boot🍃 provides the built-in Actuator feature to generate and expose endpoints for Kubernetes liveness/readiness probes.<br><br>1⃣ We need to enable it in config <br>2⃣ We can select components to analyze<br>3⃣ We can expose a probe on the app main port even if mgmt port is configured <a href="https://t.co/h7mA5W0zUH">pic.twitter.com/h7mA5W0zUH</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1629043458768764928?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 ##### Demos
 
@@ -414,5 +429,9 @@ optimizing Enterprise Java for the microservices architecture.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Java Collections cheat sheet: <a href="https://t.co/X06xq0pCbL">pic.twitter.com/X06xq0pCbL</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1604182950030954496?ref_src=twsrc%5Etfw">December 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Annotations cheat sheet:<br>Reference: linkedin <a href="https://t.co/GoEKSuyVrZ">pic.twitter.com/GoEKSuyVrZ</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607735247650852865?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Boot Tip🍃💡<br><br>Make your app logs more colorful 😉<br>Config in the `application.yml` file👇<br><br>logging:<br> pattern:<br> console: &quot;%clr(%d{HH:mm:ss.SSS}){blue} %clr(---){cyan} %clr([%15.15t]){yellow} %clr(:){red} %clr(%m){magenta}%n&quot; <a href="https://t.co/y5wQcDyN4K">pic.twitter.com/y5wQcDyN4K</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1629121171730857984?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Boot🍃 provides the built-in Actuator feature to generate and expose endpoints for Kubernetes liveness/readiness probes.<br><br>1⃣ We need to enable it in config <br>2⃣ We can select components to analyze<br>3⃣ We can expose a probe on the app main port even if mgmt port is configured <a href="https://t.co/h7mA5W0zUH">pic.twitter.com/h7mA5W0zUH</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1629043458768764928?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -116,6 +116,11 @@
 - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
 - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) In this tutorial, you will learn the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
 - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)
+- [dev.to: Helm Release Time-To-Live(TTL)⏳💀 for Temporary Environments](https://dev.to/rtpro/helm-release-time-to-livettl-for-temporary-environments-1239) When working with Kubernetes, it’s often the case that you’ll need to create temporary environments/namespaces. You might need this as a way to limit the resources use, handle dev/staging environments, or just as a way to contain your tests while working on them. If you have used Helm before, you know that installing applications via Helm charts is simple by using the helm install command. The problem is that after installing a package, you or the user still needs to manually delete the package. With this in mind, we are going to explore how we set Time-To-Live Expiration for helm releases via the Helm release plugin, and create temporary Environments with Time-To-Live to make our lives easier with Helm.
+- [sysdig.com: Helm security and best practices](https://sysdig.com/blog/how-to-secure-helm/)
+- [medium.com: Helm Your Kubernetes Application](https://medium.com/zeals-tech-blog/helm-your-kubernetes-application-7af6293bcfcf)
+- [medium.com/linux-shots: Use PostgreSQL database as backend storage for helm](https://medium.com/linux-shots/use-postgresql-as-backend-storage-for-helm-de407cd9c43) By default, Helm 3 stores all release information in Kubernetes cluster itself using K8s secret in release namespace.
+- [tratnayake.dev: Using Helm To Include All Files From A Directory In-line](https://tratnayake.dev/helm-include-all-files-from-directory-in-line) In this article, you will learn how to use Helm to fetch all files and their contents from a directory and include them in-line
 
 ## Helm Plugins
 
@@ -214,6 +219,7 @@ Kubernetes packages
 - [github.com/mumoshu/helm-x: Helm X Plugin](https://github.com/mumoshu/helm-x) Treat any Kustomization or K8s manifests directory as a Helm chart. No more "Kustomize vs Helm". Helm-x is a helm plugin that makes Helm better integrate with vanilla Kubernetes manifests, kustomize, and manual sidecar injections. With helm-x, you can install and sidecar-inject helm charts, manifests, kustomize apps in the same way.
 - [maorfr/helm-backup: Helm Backup Plugin](https://github.com/maorfr/helm-backup) Helm plugin which performs backup/restore of releases in a namespace to/from a file
 - [helmwave/helmwave](https://github.com/helmwave/helmwave) Helmwave is helm3-native tool for deploy your Helm Charts. HelmWave is like docker-compose for helm.
+- [github.com/jkosik: helm-decomposer](https://github.com/jkosik/helm-decomposer) Decomposes Helm package and visualizes hierarchy of subcharts and images
 
 ## Helm Books
 

@@ -25,7 +25,7 @@
 
 ## Rancher: Enterprise management for Kubernetes
 
-- [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes. 
+- [rancher.com](https://rancher.com/) Rancher is enterprise management for Kubernetes, an amazing GUI for managing and installing Kubernetes clusters. They have released a number of pieces of software that are part of this ecosystem, for example [Longhorn](https://github.com/longhorn/longhorn) which is a lightweight and reliable distributed block storage system for Kubernetes.
 - [rancher.com: Custom alerts using Prometheus queries](https://rancher.com/blog/2020/custom-monitoring)
 - [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere/) The six year-old startup is going after new markets that want to run Kubernetes clusters at the edge.
 - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)
@@ -66,7 +66,7 @@
 
 ## Rancher Academy (online training)
 
-- [Rancher Academy 🌟](https://academy.rancher.com/) Rancher Academy is a professional, no-cost, zero obligation certification program centered on empowering commercial customers and the open source community to be successful with Kubernetes and Rancher. 
+- [Rancher Academy 🌟](https://academy.rancher.com/) Rancher Academy is a professional, no-cost, zero obligation certification program centered on empowering commercial customers and the open source community to be successful with Kubernetes and Rancher.
 - [Rancher Labs launches free training course to meet surging demand for Kubernetes skills](https://www.computing.co.uk/news/4015423/rancher-labs-launches-free-training-course-meet-surging-demand-kubernetes) Five-week course covers how to deploy Rancher and manage Kubernetes
 
 ## Rancher 2
@@ -83,6 +83,7 @@
     - [Rancher.com: Setup a basic Kubernetes cluster with ease using RKE](https://rancher.com/blog/2018/2018-09-26-setup-basic-kubernetes-cluster-with-ease-using-rke/)
 - [Bootstrap RKE Kubernetes Cluster in AWS Environment](https://github.com/LukeMwila/bootstrap-rke-cluster-in-aws)
 - [github.com/gruberdev/local-gitops: Local Gitops 🌟](https://github.com/gruberdev/local-gitops) An automated local cluster setup w/ tls, monitoring, ingress and DNS configuration. The goal of this project is to provide a simplified approach to creating your own local cluster, as well as all the utilities you'll need to run a functional cluster using GitOps
+- [github.com/rancherfederal/rke2-aws-tf](https://github.com/rancherfederal/rke2-aws-tf) This repository is intended to clearly demonstrate one method of deploying rke2 in a highly available, resilient, scalable, and simple method on AWS
 
 ## K3S
 
@@ -109,7 +110,7 @@
     - Create a multi-server and multi-agent with k3s
     - How to replace the default CNI plugin of k3s
 - [edgelab 🌟 (with k3s)](https://github.com/digitalrebar/edgelab) Materials to build and deploy a simple Edge Lab for demonstration, training and development
-- [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020. 
+- [github.com/erebe/personal-server: Personal server configuration with k3s 🌟](https://github.com/erebe/personal-server) This document is going to describe how I manage my personal server in 2020.
 - [dev.to: All about k3s - Lightweight Kubernetes 🌟](https://dev.to/abhinavd26/all-about-k3s-lightweight-kubernetes-3ell)
 - [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) In this article, you will set up your own high availability K3S cluster and create a basic Kubernetes deployment. The tutorial will show how to set up all the resources manually and you will learn how to automate it with the official Ansible script.
 - [nativecloud.dev: Scale out your Raspberry-Pi Kubernetes cluster to the cloud](https://nativecloud.dev/scale-out-your-raspberry-pi-k3s-cluster-to-the-cloud/) Using Gardener Machine-Controller-Manager and Tailscale to extend a local Raspberry-Pi K3s cluster with cloud instances.
@@ -118,10 +119,12 @@
 - [==medium.com/@ostridelabs: k8s vs k3s: The Comprehensive Difference==](https://medium.com/@ostridelabs/k8s-vs-k3s-the-comprehensive-difference-f7667d141c0)
 - [justinpolidori.it: LDAP authentication with Dex on Kubernetes with Vcluster (K3S)](https://www.justinpolidori.it/posts/20220611_vcluster_auth/) In this article, you'll learn how to grant access to users of a vcluster using DEX as a federated OpenID provider and kubelogin as a plugin for OIDC integration
 - [itnext.io: Running K3S workload in a restricted environment](https://itnext.io/running-k3s-workload-in-a-restricted-environment-c2f593d19005)
+- [dev.to/dashaun: K3s on Raspberry Pi and ClusterHat](https://dev.to/dashaun/k3s-on-raspberry-pi-and-clusterhat-m6k)
+- [blog.getambassador.io: Best Tools for Kubernetes Local Development: A Comprehensive Guide](https://blog.getambassador.io/best-tools-for-kubernetes-local-development-a-comprehensive-guide-3577d351d31e)
 
 ### K3s Tools
 
-- [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments 
+- [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments
 - [alexellis/k3sup](https://github.com/alexellis/k3sup) bootstrap Kubernetes with k3s over SSH < 1 min 🚀. k3sup is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
 - [clanktron/k3s-ansible](https://github.com/clanktron/k3s-ansible) Automated build of HA k3s Cluster with kube-vip, Cilium, and MetalLB
 
@@ -139,7 +142,7 @@
 
 ### K3D
 
-- [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.	
+- [**k3d**](https://github.com/rancher/k3d) k3s that runs in docker containers.
 - [cncf.io: Introduction to k3d: Run K3s in Docker](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker/)
 - [itnext.io: Kubernetes + Rancher Cluster Manager 2.6 on your macOS laptop with k3d/k3s in 5 min](https://itnext.io/kubernetes-rancher-cluster-manager-2-6-on-your-macos-laptop-with-k3d-k3s-in-5-min-8acdb94f3376)
 - [dev.to/iamunnip: Building a local Kubernetes cluster using k3d](https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d)

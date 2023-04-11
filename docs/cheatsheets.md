@@ -236,6 +236,7 @@
     - `59 * * * * docker volume prune -f`
 - [linuxhandbook.com: Docker Commands for Managing Container Lifecycle (Definitive Guide)](https://linuxhandbook.com/container-lifecycle-docker-commands/)
 - [betterprogramming.pub: A Beginners’ Cheat Sheet for Docker | Arjav Dave](https://betterprogramming.pub/a-beginners-cheat-sheet-for-docker-f5024fd6c17f) Get to know what is docker and how to use it
+- [dev.to: Docker Commands Cheat Sheet | Pragyan Tripathi](https://dev.to/pragyanatvade/docker-commands-cheat-sheet-47n4) The 15 Commands You Need To Know
 
 ### Docker Swarm Cheat Sheets
 

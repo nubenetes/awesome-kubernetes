@@ -15,6 +15,7 @@
 13. [Azure DevOps](#azure-devops)
      1. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      2. [Azure Pipeline Tasks](#azure-pipeline-tasks)
+     3. [Azure DevOps Snippets](#azure-devops-snippets)
 14. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
@@ -30,6 +31,7 @@
      2. [Powershell repos](#powershell-repos)
      3. [Crescendo powershell module](#crescendo-powershell-module)
      4. [Secrets Management with Powershell](#secrets-management-with-powershell)
+     5. [Azure Resource Inventory](#azure-resource-inventory)
 23. [Azure CLI. AZ CLI](#azure-cli-az-cli)
 24. [Azure Run Command](#azure-run-command)
 25. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
@@ -90,6 +92,7 @@
 - [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [==learn.microsoft.com: Migrate Java applications to Azure== 🌟🌟🌟](https://learn.microsoft.com/en-us/azure/developer/java/migration/migration-overview)
 - [blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM & ARS)](https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars/)
+- [blog.cloudtrooper.net: Virtual Network Gateways routing in Azure](https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure/)
 
 ## Microsoft REST API Guidelines
 
@@ -186,6 +189,9 @@
     - [==medium.com/geekculture: Provision resources on AWS with Azure DevOps and Terraform — Part II==](https://medium.com/geekculture/provision-resources-on-aws-with-azure-devops-and-terraform-part-ii-45ee450139)
 - [==medium.com/@sdevsecops: How to implement DevSecOps in a Kubernetes cluster environment-Github Actions and Azure DevOps==](https://medium.com/@sdevsecops/how-to-implement-devsecops-in-a-kubernetes-cluster-environment-github-actions-and-azure-devops-522bdd121e34)
 - [==learn.microsoft.com: Azure DevOps Templates - Template types & usage== 🌟🌟](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates)
+- [medium.com/geekculture: Continuous Deployment with Azure DevOps Pipelines and Kubernetes](https://medium.com/geekculture/continuous-deployment-with-azure-devops-pipelines-and-kubernetes-12fe1c70b343) Create a Continuous Deployment workflow for your application
+- [techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/azure-devops-pipelines-if-expressions-and-conditions/ba-p/3737159)
+- [linkedin.com: Complete CI/CD Solution for mS on AKS using Azure DevOps, ArgoCD and External Kubernetes Secretes 🌟](https://www.linkedin.com/pulse/complete-cicd-solution-ms-aks-using-azure-devops-argocd-singh/)
 
 ### YAML Schema in DevOps Azure Pipelines
 
@@ -194,6 +200,34 @@
 ### Azure Pipeline Tasks
 
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
+
+### Azure DevOps Snippets
+
+- [gist.github.com: This snippet contains the steps to generate a terraform plan and post it as a comment of a pull request in Azure DevOps](https://gist.github.com/GTRekter/51f8be3fbfb13b3696f92e117d956597)
+
+    ```yaml
+    - script: |
+        terraform plan -out tf.tfplan
+    displayName: Generate Terraform plan
+
+    - script: |
+        terraform show -no-color tf.tfplan > $(Agent.TempDirectory)/tf.txt
+    displayName: Convert Terraform plan to text
+
+    - bash: |
+        cd $(Agent.TempDirectory)
+        ENCODED_URL=$(echo "$(System.CollectionUri)$(System.TeamProject)/_apis/git/repositories/${{ variables.SourceRepositoryName }}/pullRequests/$(System.PullRequest.PullRequestId)/threads?api-version=7.0" | sed 's/ /%20/g')
+        jq --rawfile comment tf.txt '.comments[0].content=$comment' <<< '{"comments": [{"parentCommentId": 0,"content": "","commentType": 1}],"status": 1}' |
+        curl --request POST "$ENCODED_URL" \
+        --header "Content-Type: application/json" \
+        --header "Accept: application/json" \
+        --header "Authorization: Bearer $SYSTEM_ACCESSTOKEN" \
+        --data @- \
+        --verbose
+    env:
+        SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+    displayName: 'Post comment with Terraform Plan'
+    ```
 
 ## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN
 
@@ -346,6 +380,10 @@
 - https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore
 - [commandline.ninja: Video Intro to Secret Management with Powershell](https://www.commandline.ninja/video-intro-to-secret-management-with-powershell/)
 
+### Azure Resource Inventory
+
+- [==github.com/microsoft/ARI: Azure Resource Inventory== 🌟🌟🌟](https://github.com/microsoft/ARI) Azure Resource Inventory - It's a Powerful tool to create EXCEL inventory from Azure Resources with low effort
+
 ## Azure CLI. AZ CLI
 
 - [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli/)
@@ -366,6 +404,7 @@
 ## Azure Bicep
 
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
+- [faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax](https://faun.pub/from-terraform-to-azure-bicep-what-you-need-to-know-bb1c404b7603)
 
 ## Azure Cross region Load Balancer
 
@@ -466,6 +505,7 @@
     - [github.com/microsoft/fhir-server](https://github.com/microsoft/fhir-server) A service that implements the FHIR standard
 - [Project InnerEye – Democratizing Medical Imaging AI](https://www.microsoft.com/en-us/research/project/medical-image-analysis/)
     - [github.com/microsoft/InnerEye-Gateway](https://github.com/microsoft/InnerEye-Gateway) The InnerEye-Gateway is a Windows service that acts as a DICOM end point to run inference on https://github.com/microsoft/InnerEye-DeepLearning models.
+- [microsoft.com: Biomedical Research Platform Terra Now Available on Microsoft Azure](https://www.microsoft.com/en-us/research/blog/biomedical-research-platform-terra-now-available-on-microsoft-azure/)
 
 ## Office 365
 
@@ -504,4 +544,6 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloud Networking concepts you need to know before getting into being a good architect<br><br>⏬Here are the useful link 🧰<br><br>Thread🧵👇</p>&mdash; Satyen Kumar (@SatyenKumar) <a href="https://twitter.com/SatyenKumar/status/1502358421865177088?ref_src=twsrc%5Etfw">March 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">PowerShell cheatsheet<a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/devsecops?src=hash&amp;ref_src=twsrc%5Etfw">#devsecops</a> <a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/cicd?src=hash&amp;ref_src=twsrc%5Etfw">#cicd</a> <a href="https://twitter.com/hashtag/k8s?src=hash&amp;ref_src=twsrc%5Etfw">#k8s</a> <a href="https://twitter.com/hashtag/linux?src=hash&amp;ref_src=twsrc%5Etfw">#linux</a> <a href="https://twitter.com/hashtag/docker?src=hash&amp;ref_src=twsrc%5Etfw">#docker</a> <a href="https://twitter.com/hashtag/sysadmin?src=hash&amp;ref_src=twsrc%5Etfw">#sysadmin</a> <a href="https://twitter.com/hashtag/automation?src=hash&amp;ref_src=twsrc%5Etfw">#automation</a> <a href="https://twitter.com/hashtag/technology?src=hash&amp;ref_src=twsrc%5Etfw">#technology</a> <a href="https://twitter.com/hashtag/cloudcomputing?src=hash&amp;ref_src=twsrc%5Etfw">#cloudcomputing</a> <a href="https://twitter.com/hashtag/serverless?src=hash&amp;ref_src=twsrc%5Etfw">#serverless</a> <a href="https://twitter.com/hashtag/windows?src=hash&amp;ref_src=twsrc%5Etfw">#windows</a> <a href="https://twitter.com/hashtag/powershell?src=hash&amp;ref_src=twsrc%5Etfw">#powershell</a> <a href="https://t.co/zljv4ikFp3">pic.twitter.com/zljv4ikFp3</a></p>&mdash; Valdemar (@heyValdemar) <a href="https://twitter.com/heyValdemar/status/1541461515802480641?ref_src=twsrc%5Etfw">June 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you looking to start a career in AI using Microsoft Azure? <br><br>Here are some of the best Azure services to learn:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1626147296630001667?ref_src=twsrc%5Etfw">February 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

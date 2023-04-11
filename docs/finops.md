@@ -59,7 +59,7 @@
 - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)
 - [==learnk8s/xlskubectl==](https://github.com/learnk8s/xlskubectl) A spreadsheet to control your Kubernetes cluster. xlskubectl integrates Google Spreadsheet with Kubernetes. You can finally administer your cluster from the same spreadsheet that you use to track your expenses.
 - [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) In this article, you will learn how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
-- [medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
+- [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 
 ## Licence Managers
 
@@ -68,6 +68,7 @@
 ## EKS
 
 - [dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe)
+- [aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs/) This post describes different EKS log types and ways to optimize costs. Understanding the levers available for consuming logs not only helps you in optimizing costs but also allows you to focus on the root causes analysis and attribution.
 
 ## Books
 

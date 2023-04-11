@@ -110,6 +110,7 @@
     - Why would you use persistent volumes?
     - How to get started using persistent volumes?
 - [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using ZFS.
+- [devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial](https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02)
 
 ### Kubernetes Volumes Guide
 

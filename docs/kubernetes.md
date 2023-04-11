@@ -35,7 +35,7 @@
             2. [Creating Users](#creating-users)
         6. [Kubernetes Labels and Selectors](#kubernetes-labels-and-selectors)
         7. [Kubernetes Taints and Tolerations](#kubernetes-taints-and-tolerations)
-        8. [Kubernetes Deployment, Rollling Updates and Rollbacks](#kubernetes-deployment-rollling-updates-and-rollbacks)
+        8. [Kubernetes Deployment, ReplicaSet, Rollling Updates and Rollbacks](#kubernetes-deployment-replicaset-rollling-updates-and-rollbacks)
         9. [Kubernetes StatefulSet](#kubernetes-statefulset)
         10. [Kubernetes DaemonSets](#kubernetes-daemonsets)
         11. [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
@@ -44,17 +44,19 @@
     10. [Kubernetes API](#kubernetes-api)
          1. [Multi-Cluster Services API](#multi-cluster-services-api)
     11. [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
-    12. [Kubernetes Limits and Requests](#kubernetes-limits-and-requests)
-    13. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
-    14. [Kubernetes etcd](#kubernetes-etcd)
-    15. [Kubernetes Sidecars](#kubernetes-sidecars)
-    16. [Kubernetes Annotations](#kubernetes-annotations)
-    17. [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
-    18. [Disruptions](#disruptions)
-    19. [Cost Estimation Strategies](#cost-estimation-strategies)
+    12. [Reserved CPU and memory in Kubernetes nodes](#reserved-cpu-and-memory-in-kubernetes-nodes)
+    13. [Kubernetes Capacity and Resource Management. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-capacity-and-resource-management-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
+    14. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
+         1. [Pod rebalancing and allocations](#pod-rebalancing-and-allocations)
+    15. [Kubernetes etcd](#kubernetes-etcd)
+    16. [Kubernetes Sidecars](#kubernetes-sidecars)
+    17. [Kubernetes Annotations](#kubernetes-annotations)
+    18. [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
+    19. [Disruptions](#disruptions)
+    20. [Cost Estimation Strategies](#cost-estimation-strategies)
          1. [kubecost](#kubecost)
-    20. [Kubernetes Resource and Capacity Management. Capacity Planning](#kubernetes-resource-and-capacity-management-capacity-planning)
-    21. [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
+    21. [Kubernetes Resource and Capacity Management. Capacity Planning](#kubernetes-resource-and-capacity-management-capacity-planning)
+    22. [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
          1. [Wide Cluster instead of Multi-Cluster](#wide-cluster-instead-of-multi-cluster)
 4. [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 5. [Helm Kubernetes Tool](#helm-kubernetes-tool)
@@ -72,7 +74,7 @@
 9. [Enforcing Policies and governance for kubernetes workloads with Conftest](#enforcing-policies-and-governance-for-kubernetes-workloads-with-conftest)
 10. [Kubernetes Patterns and Antipatterns. Service Discovery](#kubernetes-patterns-and-antipatterns-service-discovery)
 11. [Kubernetes Scheduling and Scheduling Profiles](#kubernetes-scheduling-and-scheduling-profiles)
-     1. [Assigning Pods to Nodes. Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-pod-affinity-and-anti-affinity)
+     1. [Assigning Pods to Nodes. NodeSelector, Pod Affinity and Anti-Affinity](#assigning-pods-to-nodes-nodeselector-pod-affinity-and-anti-affinity)
      2. [Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin](#pod-topology-spread-constraints-and-podtopologyspread-scheduling-plugin)
 12. [Cloud Development Kit (CDK) for Kubernetes](#cloud-development-kit-cdk-for-kubernetes)
      1. [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
@@ -96,13 +98,15 @@
      2. [Famous Kubernetes ebooks of 2019](#famous-kubernetes-ebooks-of-2019)
 24. [Famous Kubernetes resources of 2019](#famous-kubernetes-resources-of-2019)
 25. [Famous Kubernetes resources of 2020](#famous-kubernetes-resources-of-2020)
-26. [Kubernetes Slack Channel](#kubernetes-slack-channel)
-27. [Bunch of images](#bunch-of-images)
-28. [Videos](#videos)
-29. [Spanish Videos](#spanish-videos)
-30. [Tweets](#tweets)
-31. [Tweets 2](#tweets-2)
-32. [Memes](#memes)
+26. [Compliant Kubernetes](#compliant-kubernetes)
+27. [PCI SSC (Payment Card Industry Security Standards Council)](#pci-ssc-payment-card-industry-security-standards-council)
+28. [Kubernetes Slack Channel](#kubernetes-slack-channel)
+29. [Bunch of images](#bunch-of-images)
+30. [Videos](#videos)
+31. [Spanish Videos](#spanish-videos)
+32. [Tweets](#tweets)
+33. [Tweets 2](#tweets-2)
+34. [Memes](#memes)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/410107842&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugoboomin" title="Hugo Boomin ⚡️ 🔥 💥" target="_blank" style="color: #cccccc; text-decoration: none;">Hugo Boomin ⚡️ 🔥 💥</a> · <a href="https://soundcloud.com/hugoboomin/jimmy-sax-live-at-nikki-beach-st-tropez-opus-eric-prydz" title="Jimmy Sax - Live At Nikki Beach St Tropez (Opus - Eric Prydz)" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax - Live At Nikki Beach St Tropez (Opus - Eric Prydz)</a></div>
@@ -268,6 +272,16 @@
 - [techtarget.com: How many Kubernetes nodes should be in a cluster? 🌟🌟🌟](https://www.techtarget.com/searchitoperations/answer/How-many-Kubernetes-nodes-should-be-in-a-cluster) There's no one-size-fits-all answer in terms of how many nodes should make up a Kubernetes cluster. Instead, that number varies based on specific workload requirements.
 - [blog.acethecloud.com: The Kubernetes Handbook: A Comprehensive guide of 100 Q&A 🌟](https://blog.acethecloud.com/the-kubernetes-handbook-a-comprehensive-guide-of-100-q-a-e680199e6e22)
 - [medium.com/@madhankannan7: Kubernetes in Production: Key Considerations](https://medium.com/@madhankannan7/kubernetes-in-production-key-considerations-b2ead677fd78)
+- [==medium.com/@harsh.manvar111: Don’t confuse the difference between stateless and stateful== 🌟](https://medium.com/@harsh.manvar111/dont-confuse-the-difference-between-stateless-and-stateful-9f253efe3ebd) Why not use Kubernetes Statefulset for stateless applications?
+- [geeksforgeeks.org: Kubernetes – Concept of Containers](https://www.geeksforgeeks.org/kubernetes-concept-of-containers/)
+- [==dev.to: Why Developers Should Learn Docker and Kubernetes in 2023== 🌟](https://dev.to/javinpaul/why-developers-should-learn-docker-and-kubernetes-in-2023-4hof)
+- [dev.to: Build my own Kubernetes journey (10 Part Series) | Jonatan Ezron](https://dev.to/jonatan5524/build-my-own-kubernetes-journey-1a3j)
+- [thenewstack.io: Why Kubernetes Has Emerged as the ‘OS’ of the Cloud](https://thenewstack.io/why-kubernetes-has-emerged-as-the-os-of-the-cloud/) Increased usage of Kubernetes, the Google-created open source system orchestrator isn't seen in all sectors of IT infrastructure, but it sure is taking charge of cloud native app deployments.
+- [==aws.amazon.com: Kubernetes as a platform vs. Kubernetes as an API== 🌟🌟](https://aws.amazon.com/blogs/containers/kubernetes-as-a-platform-vs-kubernetes-as-an-api-2/)
+- [==symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers==](https://symbiosis.host/blog/comparing-cluster-creation-times) **You might find this report interesting if you care about Kubernetes cluster creation time. This benchmark compares 8 providers of managed Kubernetes to determine how long they take to initialize.** Are you planning to run CI tests in a production-like environment? Perhaps you are running short-lived workloads in separate clusters? If so, you might care about cluster boot times. We ran a benchmark across 8 different providers of managed Kubernetes to determine how long they take to initialize. We compared the providers by creating a cluster with a single node and measuring the time from creation until the node was in a ready state.
+- [==medium.com/@deepeshjaiswal6734: An Introduction to Kubernetes Architecture && Kubernetes Object deep dive-1== 🌟](https://medium.com/@deepeshjaiswal6734/an-introduction-to-kubernetes-architecture-kubernetes-object-deep-dive-1-77205e56db5)
+- [dev.to: Kubernetes 101, part I, the fundamentals | Leandro Proença](https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1)
+    - [dormoshe.io: Kubernetes 101, part I, the fundamentals | Leandro Proença](https://dormoshe.io/trending-news/kubernetes-101-part-i-the-fundamentals-23a1-60035)
 
 ### Kubernetes Jobs Market
 
@@ -287,6 +301,7 @@
     - How much technical experience do you need in the current job market?
 - [kube.careers: Kubernetes jobs market trends for 2022 Q3](https://kube.careers/kubernetes-trend-report-2022-q3)
 - [kube.careers: Kubernetes jobs market trends for 2022 Q4](https://kube.careers/kubernetes-trend-report-2022-q4) What's the average salary for a Kubernetes engineer? It's €82,554 in Europe & $133,918 in North America. How necessary are certifications? Not as much as you think. A lot more questions answered in our yearly report for 2022
+- [infoworld.com: How to beat the Kubernetes skills shortage](https://www.infoworld.com/article/3679749/how-to-beat-the-kubernetes-skills-shortage.html) While Kubernetes container management is key to digital transformation, Kubernetes talent is in short supply. Follow these 4 strategies of successful companies to fill the gap.
 
 ### Certified Kubernetes Offerings
 
@@ -439,7 +454,6 @@
 - [medium: Graceful shutdown of fpm and nginx in Kubernetes](https://medium.com/inside-personio/graceful-shutdown-of-fpm-and-nginx-in-kubernetes-f362369dff22)
 - [fairwinds.com: Over-Provisioned and Over-Permissioned Containers & Kubernetes](https://www.fairwinds.com/blog/over-provisioned-and-over-permissioned-containers-kubernetes)
 - [betterprogramming.pub: How to Implement Your Distributed Filesystem With GlusterFS And Kubernetes](https://betterprogramming.pub/how-to-implement-your-distributed-filesystem-with-glusterfs-and-kubernetes-83ee7f5f834f) Learn the advantages of using GlusterFS and how can it help in achieving a highly-scalable, distributed filesystem.
-- [compliantkubernetes.io: Compliant Kubernetes is a Certified Kubernetes distribution, that complies with: HIPAA, GDPR, PCI DSS, FFFS 2014:7, ISO 27001, etc. 🌟](https://compliantkubernetes.io)
 - [medium: Scaling Kubernetes with Assurance at Pinterest](https://medium.com/pinterest-engineering/scaling-kubernetes-with-assurance-at-pinterest-a23f821168da)
 - [blog.deckhouse.io: How we enjoyed upgrading a bunch of Kubernetes clusters from v1.16 to v1.19](https://blog.deckhouse.io/how-we-enjoyed-upgrading-a-bunch-of-kubernetes-clusters-from-v1-16-to-v1-19-7d664624b2c1)
 - [openshift.com: Topology Aware Scheduling in Kubernetes Part 1: The High Level Business Case](https://www.openshift.com/blog/topology-aware-scheduling-in-kubernetes-part-1-the-high-level-business-case)
@@ -495,7 +509,6 @@
 - [usepine.com: Improving cert-manager HTTP01 self-check speed](https://www.usepine.com/blog/en/improving-cert-manager-self-check-speed-when-issuing-certificates/) This post describes how to improve cert-manager self-check speed, by pointing the cluster to Google nameservers, and disabling DNS caching
 - [datree.io: A Deep Dive Into Kubernetes Schema Validation 🌟](https://www.datree.io/resources/kubernetes-schema-validation) Great overview of different schema validation tools, incl. server-side ,dry-run“. But I think with tools like kind in CI it’s actually less of a burden to spin up K8s and do proper server-side validation (which catches all issues as mentioned in the post).
 - [community.suse.com: Stupid Simple Kubernetes — Deployments, Services and Ingresses Explained](https://community.suse.com/posts/stupid-simple-kubernetes-deployments-services-and-ingresses-explained)
-- [elastisys.com: PCI DSS compliance in Kubernetes-based platforms](https://elastisys.com/pci-dss-compliance-in-kubernetes-based-platforms/)
 - [infracloud.io: Avoiding Kubernetes Cluster Outages with Synthetic Monitoring](https://www.infracloud.io/blogs/avoiding-kubernetes-cluster-outages-synthetic-monitoring/) Synthetic monitoring consists of pre-defined checks to proactively monitor the critical elements in your infrastructure. These checks simulate the functionality of the elements. We can also simulate the communication between the elements to ensure end-to-end connectivity. Continuous monitoring of these checks also helps to measure overall performance in terms of availability and response times.
 - [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?](https://www.talos-systems.com/blog/is-vanilla-kubernetes-really-too-heavy-for-the-raspberry-pi/)
 - [towardsdatascience.com: Kubernetes 101: Cluster Architecture](https://towardsdatascience.com/kubernetes-101-cluster-architecture-d79995785563) They say a picture is worth a thousand (or a million) words
@@ -650,6 +663,13 @@
 - [faun.pub: Optimize Kubernetes Resource Management with Time-To-Live (TTL) for Cleaner Cluster](https://faun.pub/optimize-kubernetes-resource-management-with-time-to-live-ttl-for-cleaner-cluster-ea1c6e0c1e73) Streamline Kubernetes Resource Management: Learn How to Use Time-To-Live (TTL) to Keep Your Cluster Clean and Optimized.
 - [github.com/genuinetools: contained.af](https://github.com/genuinetools/contained.af) A stupid game for learning about containers, capabilities, and syscalls.
 - [abhii85.hashnode.dev: How to get started with K8s contributions](https://abhii85.hashnode.dev/how-to-get-started-with-k8s-contributions) In this article, you'll explore how to contribute to the Kubernetes project, discuss the skills you need to get started and learn the best ways to get your first Pull Request accepted
+- [itnext.io: Kubernetes Sandbox Environments with Virtual Clusters](https://itnext.io/kubernetes-sandbox-environments-with-virtual-clusters-fb465b296777) Achieving strong isolation without sacrificing resource utilization with Virtual Clusters.
+- [medium.com/@alexmogfr: ZEvent Place: How we handled 100k+ CCU on a real-time collective canvas](https://medium.com/@alexmogfr/zevent-place-how-we-handled-100k-ccu-on-a-real-time-collective-canvas-71d3d346e0ab) In this case study, you will learn how Alexandre & William designed and scaled a Kubernetes cluster to 250k concurrent users for a charity event
+- [blog.devgenius.io: DevOps in K8s — Pod Cgroups](https://blog.devgenius.io/devops-in-k8s-pod-cgroups-ed05181865f9) DevOps in K8s bootcamp series
+    - [==github.com/metaleapca: metaleap-devops-in-k8s.pdf== 🌟🌟](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)
+- [engineering.prezi.com: How to avoid global outage — Seamlessly migrating DaemonSet labels](https://engineering.prezi.com/intro-4727024fc2c1) In this case study, you'll learn how the team at Prezi managed to update the CSI driver installed as DaemonSet. This required working around the immutable `spec.selector.matchLabel` and `spec.template.metadata.labels` fields.
+- [medium.com/trendyol-tech: Kubernetes IO Problem Investigation](https://medium.com/trendyol-tech/kubernetes-io-problem-investigation-1e8aa0cf4909) During one of the load tests, the team at Trendyol ran into a latency issue between two APIs deployed in Kubernetes. In this case study, you will learn how the team narrowed down the issue to cAdvisor and IO operations.
+- [github.com/kairos-io/kairos: Kairos - Kubernetes-focused, Cloud Native Linux meta-distribution](https://github.com/kairos-io/kairos) The immutable Linux meta-distribution for edge Kubernetes. With Kairos, you can build immutable, bootable Kubernetes and OS images for your edge devices as easily as writing a Dockerfile. Optional P2P mesh with distributed ledger automates node bootstrapping and coordination.
 
 ### kubeconfig
 
@@ -765,6 +785,8 @@
 - [mouliveera.medium.com: How to update configmap on POD without restart](https://mouliveera.medium.com/how-to-update-configmap-on-pod-without-restart-be3c0b4433af)
 - [devopscube.com: Kubernetes Pod Priority, PriorityClass, and Preemption Explained 🌟](https://devopscube.com/pod-priorityclass-preemption/)
 - [medium.com/@meng.yan: What Happens When Deleting a Pod](https://medium.com/@meng.yan/what-happens-when-deleting-a-pod-d1219c7e1b53)
+- [==itnext.io: Kubernetes Graceful Shutdown | Daniele Polencic== 🌟](https://itnext.io/how-do-you-gracefully-shut-down-pods-in-kubernetes-fb19f617cd67) - [community.ops.io: How do you gracefully shut down Pods in Kubernetes?](https://community.ops.io/danielepolencic/how-do-you-gracefully-shut-down-pods-in-kubernetes-30fa) Get tips on smoothly decommissioning your k8s pods.
+- [==itnext.io: Kubernetes Graceful Shutdown== | Daniele Polencic 🌟](https://itnext.io/how-do-you-gracefully-shut-down-pods-in-kubernetes-fb19f617cd67) How do you gracefully shut down Pods in Kubernetes?
 
 #### Kubernetes ConfigMaps
 
@@ -795,6 +817,7 @@
 - [medium.com/4th-coffee: State of Kubernetes Secrets Management in 2022](https://medium.com/4th-coffee/state-of-kubernetes-secrets-management-in-2022-6148af91e7b5)
 - [auth0.com: Shhhh... Kubernetes Secrets Are Not Really Secret!](https://auth0.com/blog/kubernetes-secrets-management/) Learn how to setup secure secrets on Kubernetes using Sealed Secrets, External Secrets Operator, and Secrets Store CSI driver.
 - [faun.pub: Encrypting Kubernetes Secrets at Rest](https://faun.pub/encrypting-kubernetes-secrets-at-rest-1b835e228c6a) A guideline to encrypt kubernetes secrets data.
+- [vinothecloudone.medium.com: Kubernetes Configuration Patterns 101](https://vinothecloudone.medium.com/kubernetes-configuration-patterns-101-68cfb7af1084)
 
 #### Kubernetes Volumes
 
@@ -853,6 +876,7 @@
 - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7) A curated (but not exhaustive) list of FOSS projects addressing multi-tenancy challenges in K8s.
 - [cast.ai: Kubernetes Namespace: How To Use It To Organize And Optimize Costs](https://cast.ai/blog/kubernetes-namespace-how-to-use-it-to-organize-and-optimize-costs/)
 - [medium.com/adeo-tech: A walkthrough guide for Multi-Tenancy with GKE](https://medium.com/adeo-tech/a-walkthrough-guide-for-multi-tenancy-with-gke-b9e6f1aed2a2)
+- [==itnext.io: Multi-Tenancy in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/multi-tenancy-in-kubernetes-332ff88d55d8)
 
 ##### Kiosk Multi-Tenancy Extension for Kubernetes
 
@@ -882,7 +906,7 @@
 - [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations)
 - [kamsjec.medium.com: Kubernetes Taints and Tolerations](https://kamsjec.medium.com/kubernetes-taints-and-tolerations-18727f618d01)
 
-#### Kubernetes Deployment, Rollling Updates and Rollbacks
+#### Kubernetes Deployment, ReplicaSet, Rollling Updates and Rollbacks
 
 - [medium: How to Deploy a Web Application with Kubernetes](https://medium.com/swlh/how-to-deploy-an-asp-net-application-with-kubernetes-3c00c5fa1c6e) Learn how to create a Kubernetes cluster from scratch and deploy a web application (SPA+API) in two hours.
 - [itnext.io: Kubernetes rolling updates, rollbacks and multi-environments](https://itnext.io/kubernetes-rolling-updates-rollbacks-and-multi-environments-4ff9912df5)
@@ -917,6 +941,8 @@
 - [medium.com/@chamakenjefi: Kubernetes deployments using a ConfigMap with a custom index.html page](https://medium.com/@chamakenjefi/kubernetes-deployments-using-a-configmap-with-a-custom-index-html-page-5b4de0a7aa1b)
 - [medium.com/@vrnvav97: Canary Deployment in Kubernetes](https://medium.com/@vrnvav97/canary-deployment-in-kubernetes-a18c81cb9b) Canary deployment is pattern used to rollout changes to apps in controlled & safe manner. It involves releasing new version of app to a subset of users/nodes, allowing new version to be tested in prod-like environment.
 - [lovethepenguin.com: Kubernetes: How to Create a deployment](https://lovethepenguin.com/kubernetes-how-to-create-a-deployment-820e07e47806)
+- [medium.com/@the.nick.miller: Custom Deployments with Kubernetes](https://medium.com/@the.nick.miller/multi-container-deployments-with-kubernetes-33c824d8d9a4)
+- [==amolmote.hashnode.dev: ReplicaSet & Deployment In Kubernetes== 🌟](https://amolmote.hashnode.dev/replicaset-deployment-in-kubernetes#heading-what-is-deployment) In this article, you'll learn the basic concepts of the ReplicaSet and Deployment, how they are different and when you should use one or the other
 
 #### Kubernetes StatefulSet
 
@@ -951,6 +977,9 @@
 - [medium.com/kudos-engineering: Migrating our cron jobs to Kubernetes](https://medium.com/kudos-engineering/migrating-our-cron-jobs-to-kubernetes-8597032d7622) In this case study, you will learn how the Engineering team at Kudos migrated all of their scheduled tasks to Kubernetes CronJobs
 - [kubernetes-sigs/kueue: Kubernetes-native Job Queueing](https://github.com/kubernetes-sigs/kueue) Kueue is a set of APIs and controller for job queueing. It is a job-level manager that decides when a job should be admitted to start (as in pods can be created) and when it should stop (as in active pods should be deleted).
 - [spacelift.io: CronJob in Kubernetes – Automating Tasks on a Schedule](https://spacelift.io/blog/kubernetes-cronjob)
+- [medium.com/@abhinav.ittekot: Running Kubernetes jobs with sidecar containers](https://medium.com/@abhinav.ittekot/running-kubernetes-jobs-with-sidecar-containers-8c034b020993)
+- [==github.com/alexellis/run-job==](https://github.com/alexellis/run-job) Run a Kubernetes Job and get the logs when it's done 🏃‍♂️
+- [blog.devops.dev: Understanding Jobs and CronJobs in Kubernetes](https://blog.devops.dev/understanding-jobs-and-cronjobs-in-kubernetes-9db379562da)
 
 #### Kubernetes Services
 
@@ -986,6 +1015,8 @@
 - [emirayhan.medium.com: Kubernetes (k8s) Deployment Strategies](https://emirayhan.medium.com/kubernetes-k8s-deployment-strategies-eb3a0f5cbc49)
 - [faun.pub: Kubernetes Deployment Strategies](https://faun.pub/kubernetes-deployment-strategies-f36e7e4d2be) In this post, we will delve into Kubernetes (K8s) deployment concepts and some common strategies, looking at the advantages and disadvantages of each. A suitable deployment strategy enables you to minimize downtime, enhance your customer experience, and increase reliability when releasing your application.
 - [blog.devgenius.io: Kubernetes Deployment Strategy Explained 🌟](https://blog.devgenius.io/kubernetes-deployment-strategy-explained-bf27fea088e1)
+- [==developers.redhat.com: Run the Canary Deployment pattern on Kubernetes== 🌟](https://developers.redhat.com/developer-sandbox/activities/run-the-canary-deployment-pattern-on-kubernetes) In this activity, you will use basic Kubernetes skills to understand and implement the Canary Deployment.
+- [blog.werf.io: Canary releases in Kubernetes based on Ingress-NGINX Controller](https://blog.werf.io/canary-releases-in-kubernetes-based-on-ingress-nginx-controller-96193efe34f9)
 
 ### Kubernetes API
 
@@ -1013,6 +1044,7 @@
     - Kubernetes Custom Controllers
     - Kubernetes Admission Webhooks
 - [==dev.to: The Kubernetes API architecture | Daniele Polencic== 🌟](https://dev.to/danielepolencic/the-kubernetes-api-architecture-1pi9)
+- [medium.com/cp-massive-programming: Kubernetes API Server Discovery](https://medium.com/cp-massive-programming/kubernetes-api-server-discovery-ac3b358e878e) A little excursion into the Kubernetes API server
 
 #### Multi-Cluster Services API
 
@@ -1048,8 +1080,15 @@
 - [doordash.engineering: How to Handle Kubernetes Health Checks](https://doordash.engineering/2022/08/09/how-to-handle-kubernetes-health-checks/) In this article, the team at DoorDash shares the lessons learned from not paying enough attention to the Kubernetes probes and how those contributed to an outage during Black Friday
 - [datree.io: 6 Best Practices for Effective Readiness and Liveness Probes](https://datree.io/resources/kubernetes-readiness-and-liveness-probes-best-practices)
 - [containiq.com: Kubernetes Liveness Probe | Practical Guide](https://www.containiq.com/post/kubernetes-liveness-probe) It’s often helpful to check if your Kubernetes application responds to requests in a healthy manner. In this post, you’ll learn about liveness probes, including when and how to use them.
+- [thenewstack.io: Kubernetes Probes (and Why They Matter for Autoscaling) 🌟](https://thenewstack.io/kubernetes-probes-and-why-they-matter-for-autoscaling/) In addition to validating our workloads’ health, we can use them to monitor and gather information about other events affecting containers.
+- [faun.pub: Kubernetes Liveness Probes](https://faun.pub/kubernetes-liveness-probes-1a053f53690c) In this article, we will take a look at Liveness Probes in Kubernetes (K8S), with some useful examples. Defining probes correctly can improve pod resilience and availability.
+- [dev.to: Configure Kubernetes Readiness and Liveness Probes - Tutorial | Pavan Belagatti 🌟](https://dev.to/pavanbelagatti/configure-kubernetes-readiness-and-liveness-probes-tutorial-478p)
 
-### Kubernetes Limits and Requests
+### Reserved CPU and memory in Kubernetes nodes
+
+- [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
+
+### Kubernetes Capacity and Resource Management. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD
 
 - [kubernetes.io Policy Limit Ranges](https://kubernetes.io/docs/concepts/policy/limit-range/)
 - [sysdig.com: Understanding Kubernetes limits and requests by example](https://sysdig.com/blog/kubernetes-limits-requests/)
@@ -1071,6 +1110,13 @@
     - TL;DR: We would highly recommend removing CPU Limits in Kubernetes (or Disable CFS quota in Kublet) if you are using a kernel version with CFS quota bug unpatched. There is a serious, known CFS bug in the kernel that causes un-necessary throttling and stalls.
 - [hackernoon.com: Kubernetes Resource Quotas](https://hackernoon.com/kubernetes-resource-quotas)
 - [containiq.com: Kubernetes CPU Limits and Throttling](https://www.containiq.com/post/kubernetes-cpu-limits-and-throttling) In this post, you’ll learn how Kubernetes CPU limits and throttling work, including the core concepts, uses, how to assign resources to containers and pods, and how to troubleshoot issues.
+- [==home.robusta.dev: You can't have both high utilization and high reliability== 🌟](https://home.robusta.dev/blog/kubernetes-utilization-vs-reliability) Everyone wants high utilization and high reliability. The hard truth about Kubernetes is that you need to pick one or the other. A Kubernetes pod uses 2 CPUs on average and occasionally spikes to 3 CPUs. What should its resource allocation look like? This article explores the answers with a few strategies (and some tradeoffs)
+- [==dev.to: Kubernetes Capacity and Resource Management: It's Not What You Think It Is== 🌟](https://dev.to/mkdev/kubernetes-capacity-and-resource-management-its-not-what-you-think-it-is-1oik) In this article, you'll learn how to manage resources and capacity in Kubernetes. Takeaways:
+    - Set Resource Quotas for each namespace;
+    - Set LimitRanges for each namespace;
+    - Enforce rations between requests and limits
+- [faun.pub: Optimize Kubernetes Resource Management with Time-To-Live (TTL) for Cleaner Cluster](https://faun.pub/optimize-kubernetes-resource-management-with-time-to-live-ttl-for-cleaner-cluster-ea1c6e0c1e73) Streamline Kubernetes Resource Management: Learn How to Use Time-To-Live (TTL) to Keep Your Cluster Clean and Optimized
+- [==itnext.io: Memory Request + Limit in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/memory-requests-and-limits-in-kubernetes-1c9cd573b3ab)
 
 ### Kubernetes Scheduler. Kube Scheduler
 
@@ -1079,6 +1125,10 @@
 - [All you need to know to get started with the Kube Scheduler](https://gist.github.com/luisalfonsopreciado/40a0fc2319241d517832affdce2bc1ff)
 - [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1) The k8s scheduler assigns Pods to Nodes. Then, the attempt to schedule a pod is split into two phases: the Scheduling and the Binding cycle. Learn how you can build a Kube-scheduler plugin from scratch!
 - [faun.pub: Multiple Schedulers in Kubernetes](https://faun.pub/multiple-schedulers-in-kubernetes-a78a7b4fa4b2)
+
+#### Pod rebalancing and allocations
+
+- [==community.ops.io: Pod rebalancing and allocations in Kubernetes== 🌟](https://community.ops.io/danielepolencic/pod-rebalancing-and-allocations-in-kubernetes-4kim) **Does Kubernetes rebalance your Pods? If there's a node that has more space, does Kubernetes recompute and balance the workloads?**
 
 ### Kubernetes etcd
 
@@ -1155,7 +1205,7 @@
 - [==harness.io: Kubernetes Mistakes: A Beginner’s Guide To Avoiding Common Pitfalls==](https://harness.io/blog/kubernetes-mistakes/)
 - [martinheinz.dev: Keeping Kubernetes Clusters Clean and Tidy 🌟](https://martinheinz.dev/blog/60) As your cluster grows, so does the number of resources, volumes or other API objects and sooner or later you will reach the limits somewhere. In this article, you’ll learn how to keep it clean and tidy.
 - [onurcill.medium.com: Kubernetes Best Practices](https://onurcill.medium.com/kubernetes-best-practices-5c156a0ff40f)
-- [pionative.com: 6 Important things you need to run Kubernetes in production](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
+- [==pionative.com: 6 Important things you need to run Kubernetes in production==](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
 - [youtube: Common Kubernetes Mistakes - CPU and Memory Requests (part 1) | Robusta](https://www.youtube.com/watch?v=_nknHwTKlh8)
 - [medium.com/mycloudseries: Must-haves for your Kubernetes Cluster to be Production Ready](https://medium.com/mycloudseries/must-haves-for-your-kubernetes-cluster-to-be-production-ready-dc7d1d18c4a2)
 - [cloudogu.com: Kubernetes least privilege implementation using the Google Cloud as an axample](https://cloudogu.com/en/blog/kubernetes-least-privilege-gcp-example) How are you avoiding accidental changes to #kubernetes? This post describes what cloudogu do featuring "kubectl sudo", " helm sudo" and "sudo context".
@@ -1216,6 +1266,10 @@
 - [kubectl-cost](https://github.com/kubecost/kubectl-cost) is a kubectl plugin that provides easy CLI access to Kubernetes cost allocation metrics via the kubecost APIs. It allows developers, devops, and others to quickly determine the cost & efficiency for any Kubernetes workload
 - [blog.kubecost.com: AKS Cost Monitoring and Governance With Kubecost](https://blog.kubecost.com/blog/aks-cost/)
 - [thenewstack.io: KubeCost: Monitor Kubernetes Costs with kubectl](https://thenewstack.io/kubecost-monitor-kubernetes-costs-with-kubectl/)
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36dtdhhhjpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 ### Kubernetes Resource and Capacity Management. Capacity Planning
 
@@ -1294,6 +1348,7 @@
 - Aggregated APIs are subordinate API servers that sit behind the primary API server, which acts as a proxy. This arrangement is called API Aggregation (AA). To users, it simply appears that the Kubernetes API is extended.
 - CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
 - Regardless of how they are installed, the new resources are referred to as Custom Resources to distinguish them from built-in Kubernetes resources (like pods).
+- [==github.com/datreeio/CRDs-catalog: CRDs Catalog==](https://github.com/datreeio/CRDs-catalog) Over 300 popular Kubernetes CRDs (CustomResourceDefinition) in JSON schema format.
 
 ### Krew, a plugin manager for kubectl plugins
 
@@ -1376,6 +1431,7 @@
     - Outdated
 - [==davidB/kubectl-view-allocations==](https://github.com/davidB/kubectl-view-allocations/) kubectl plugin lists allocations for resources (cpu, memory, gpu,...) as defined into the manifest of nodes and running pods.
 - [Ramilito/kubesess](https://github.com/Ramilito/kubesess) kubesess(ion) is a kubectl plugin for managing sessions. With this plugin, it is possible to have one context per active shell session.
+- [==tonylixu.medium.com: Kubectl — Plugins Operation==](https://tonylixu.medium.com/kubectl-plugins-operation-f93274622447) **K8s kubectl Deep Dive**
 
 ??? note "Video: Kubectl plugins. Click to expand!"
 
@@ -1434,11 +1490,22 @@
 - [granulate.io: A Deep Dive into Kubernetes Scheduling](https://granulate.io/a-deep-dive-into-kubernetes-scheduling/)
 - [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1)
 
-### Assigning Pods to Nodes. Pod Affinity and Anti-Affinity
+### Assigning Pods to Nodes. NodeSelector, Pod Affinity and Anti-Affinity
 
 - [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity)
 - [blog.kubecost.com: Kubernetes node affinity: examples & instructions](https://blog.kubecost.com/blog/kubernetes-node-affinity/) Pod scheduling is one of the most important aspects of Kubernetes cluster management. How pods are distributed across nodes directly impacts performance and resource utilization. Kubernetes node affinity is an advanced scheduling feature that helps administrators optimize the distribution of pods across a cluster. This article will review scheduling basics, Kubernetes node affinity and anti-affinity, pod affinity and anti-affinity, and provide practical examples to help you get comfortable using this cluster scheduling feature.
 - [medium.com/dlt-labs-publication: Kubernetes: Understanding Pod Affinity, Taint & Toleration](https://medium.com/dlt-labs-publication/kubernetes-understanding-pod-affinity-taint-toleration-2f9b9b218dd5)
+- [==medium.com/@pbijjala: reCap: Elasticity in Kubernetes/GKE== 🌟🌟](https://medium.com/@pbijjala/recap-elasticity-in-kubernetes-gke-543d8523d3c)
+    - **Node affinity**, nodeSelector is the simplest way to constrain Pods to nodes with specified labels.
+    - **Pod Affinity**, ensures two pods to be co-located in a single node. Whenever higher availability is desired, anti-affinity settings can be used to place pods
+    - Using **taints and tolerations**, Taints are the opposite — they allow a node to repel a set of pods. Tolerations are applied to pods. Tolerations allow the scheduler to schedule pods with matching taints.
+    - In this article you will cover GKE and:
+        - Vertical Pod Autoscaler
+        - Horizontal Pod Autoscaler
+        - Cluster Autoscaler
+        - Node auto-provisioning
+        - Metric server
+        - Tips and tricks for application developers and cluster operators
 
 ### Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin
 
@@ -1604,6 +1671,16 @@
 - [medium.com: 7 Free Online Courses to Learn Kubernetes in 2020](https://medium.com/javarevisited/7-free-online-courses-to-learn-kubernetes-in-2020-3b8a68ec7abc)
 - [skillslane.com: 10 Best Kubernetes Courses [2020]: Beginner to Advanced Courses](https://skillslane.com/learn-kubernetes-from-these-best-online-courses/)
 
+## Compliant Kubernetes
+
+- [==compliantkubernetes.io: Compliant Kubernetes is a Certified Kubernetes distribution, that complies with: HIPAA, GDPR, PCI DSS, FFFS 2014:7, ISO 27001, etc.== 🌟](https://compliantkubernetes.io)
+
+## PCI SSC (Payment Card Industry Security Standards Council)
+
+- [en.wikipedia.org: Payment Card Industry Data Security Standard](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
+- [elastisys.com: PCI DSS compliance in Kubernetes-based platforms](https://elastisys.com/pci-dss-compliance-in-kubernetes-based-platforms/)
+- [==container-security.site: PCI Container Orchestration Guidance for Kubernetes==](https://www.container-security.site/defenders/PCI_Container_Orchestration_Guidance.html) The PCI council released (generic) guidance for organizations using tools like Docker and Kubernetes in payment systems. This series of articles is meant to discuss the details and how to apply it specifically to Kubernetes.
+
 ## Kubernetes Slack Channel
 
 - [kubernetes.slack.com](https://kubernetes.slack.com)
@@ -1636,6 +1713,8 @@
     ![k8s namespaces](images/k8s_namespaces.jfif)
 
     [![K8s arch mindmap](images/k8s_arch_mindmap.png)](https://medium.com/@raymon_dut/whats-the-relationship-between-pod-deployment-replicaset-and-service-in-kubernetes-57bf3be22abb)
+
+    [![k8s stack pionative](images/k8s_stack_pionative.webp)](https://www.pionative.com/post/6-important-things-you-need-to-run-kubernetes-in-production)
     </center>
 
 ## Videos
@@ -1745,6 +1824,10 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kind reminder: If you want to master Containers and Kubernetes, I&#39;ve got a blog and newsletter for you! 👋<br><br>Blog: <a href="https://t.co/9J6Aj8Jn3U">https://t.co/9J6Aj8Jn3U</a><br>Newsletter: <a href="https://t.co/DQyv14T0Nw">https://t.co/DQyv14T0Nw</a><br><br>The focus is on:<br>- Clarity<br>- Fundamentals<br>- Visual explanations <br><br>Here are some recent content samples 👇 <a href="https://t.co/f3B7dGhGr1">pic.twitter.com/f3B7dGhGr1</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1576158082601996289?ref_src=twsrc%5Etfw">October 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes has two types of resources. Compressible and non-compressible.<br><br>CPU is a compressible resource. K8s can give and take CPUs whenever it likes. Pod that need CPU and don&#39;t get it will wait.<br><br>Memory is non-compressible. K8s can&#39;t take it away without killing the pod. <a href="https://t.co/OLfpvjDk17">pic.twitter.com/OLfpvjDk17</a></p>&mdash; Natan Yellin (@aantn) <a href="https://twitter.com/aantn/status/1590658190211186689?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What happens when you create a Pod in Kubernetes?<br><br>A surprisingly simple task reveals a complicated workflow that touches several components in the cluster.<br><br>Let&#39;s dive into it. <a href="https://t.co/T1VGR18rRu">pic.twitter.com/T1VGR18rRu</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1622563351749623809?ref_src=twsrc%5Etfw">February 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Should you have more than one team using the same Kubernetes cluster?<br><br>Can you run untrusted workloads safely from untrusted users?<br><br>Does Kubernetes do multi-tenancy?<br><br>Let&#39;s see! <a href="https://t.co/3H2BfAkuIG">pic.twitter.com/3H2BfAkuIG</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1645398015736414210?ref_src=twsrc%5Etfw">April 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
@@ -1792,6 +1875,10 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When there&#39;s a new Kubernetes release, but you are the one upgrading all clusters <a href="https://t.co/nuII6vKfYP">pic.twitter.com/nuII6vKfYP</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1602347937459326979?ref_src=twsrc%5Etfw">December 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you say not everything has to run on Kubernetes <a href="https://t.co/QNuan5nw90">pic.twitter.com/QNuan5nw90</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1605971773878591491?ref_src=twsrc%5Etfw">December 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;It&#39;s Kubernetes! I know this!&quot; <a href="https://t.co/djD4Ns3iEY">pic.twitter.com/djD4Ns3iEY</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1625178301802201103?ref_src=twsrc%5Etfw">February 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;But think about the cost reduction&quot; <a href="https://t.co/8qWJpNgnu1">pic.twitter.com/8qWJpNgnu1</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1628802088422588417?ref_src=twsrc%5Etfw">February 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

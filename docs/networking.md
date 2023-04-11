@@ -29,11 +29,12 @@
 - [aelius.com: subnet sheet](https://www.aelius.com/njh/subnet_sheet.html)
 - [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet/)
 - [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)
-- [dzone: What Is CIDR (Classless Inter-Domain Routing) ](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
+- [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
 - [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/)
 - [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)
 - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
 - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)
+- [matt-rickard.com: How to Calculate a CIDR](https://matt-rickard.com/how-to-calculate-a-cidr)
 
 ## HTTP Protocols
 
@@ -80,7 +81,7 @@
 - [iximiuz.com: Container Networking Is Simple! 🌟](https://iximiuz.com/en/posts/container-networking-is-simple/)
     - How to virtualize network resources to make containers think each of them has a dedicated network stack?
     - How to reach the outside world (e.g. the Internet) from inside the container?
-  
+
 ## Load Balancing
 
 - [harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7](https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c)
@@ -103,4 +104,6 @@
 
     <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">List of HTTP Status Codes Cheat Sheet: <a href="https://t.co/1m8gci63Vs">pic.twitter.com/1m8gci63Vs</a></p>&mdash; Java Guides (@GuidesJava) <a href="https://twitter.com/GuidesJava/status/1607231830662733826?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="nl" dir="ltr">IPv4 vs IPv6 <a href="https://t.co/mZnHL3E8Zu">pic.twitter.com/mZnHL3E8Zu</a></p>&mdash; LetsDefend (@LetsDefendIO) <a href="https://twitter.com/LetsDefendIO/status/1629141685383966722?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

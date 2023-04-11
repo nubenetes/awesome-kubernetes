@@ -4,8 +4,10 @@
 2. [Local Environment as Code](#local-environment-as-code)
 3. [Comparing the Tools](#comparing-the-tools)
 4. [Tools](#tools)
-5. [Videos](#videos)
-6. [Tweets](#tweets)
+5. [Infrastructure as Code using Kubernetes](#infrastructure-as-code-using-kubernetes)
+    1. [Config Connector](#config-connector)
+6. [Videos](#videos)
+7. [Tweets](#tweets)
 
 ## Introduction
 
@@ -29,6 +31,7 @@
 - [==thenewstack.io: Struggling with IT Staff Leaving? Try Infrastructure as Code== 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/) With IaC, the organization retains critical knowledge of deployment and updates in code repositories, lessening the impact of any one expert leaving
 - [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure/)
 - [medium.com/@bunnyshell: How to Overcome Infrastructure as Code (IaC) Challenges](https://medium.com/@bunnyshell/how-to-overcome-infrastructure-as-code-iac-challenges-f4947be7cde2)
+- [dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟](https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code) In this article, take an in-depth look at how Infrastructure as Code (IaC) works, its benefits, and common challenges.
 
 ## Local Environment as Code
 
@@ -37,7 +40,7 @@
 ## Comparing the Tools
 
 - [clickittech.com: Infrastructure as Code Tools, what are the best IaC tools? 🌟](https://www.clickittech.com/devops/infrastructure-as-code-tools/)
-- [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference) 
+- [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference)
 - [clickittech.com: Terraform vs CloudFormation: The Final battle 🌟](https://www.clickittech.com/devops/terraform-vs-cloudformation/)
 - [k21academy.com: Terraform vs Ansible: Working, Difference, Provisioning 🌟](https://k21academy.com/ansible/terraform-vs-ansible)
 - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better/)
@@ -48,6 +51,15 @@
 
 - [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
+
+## Infrastructure as Code using Kubernetes
+
+### Config Connector
+
+- [==cloud.google.com/config-connector==](https://cloud.google.com/config-connector/docs/overview) Config Connector is an open source Kubernetes addon that allows you to manage Google Cloud resources through Kubernetes.
+- [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)
+    - Config Connector (KCC) is a solution to maintain Cloud Resources as Infrastructure as Code. It is built as an Open Source initiative and runs on Kubernetes clusters. As such, it leverages YAML files to maintain and operate such resources.
+    - Config Connector has two versions: an Add-On for Google Kubernetes Engine (GKE) clusters and a manual installation for other Kubernetes distributions.
 
 ## Videos
 

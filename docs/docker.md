@@ -66,7 +66,7 @@
 - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 2 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2/)
 - [adictosaltrabajo.com: Cómo crear y desplegar microservicios con Spring Boot, Spring Cloud Netflix y Docker](https://www.adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker/)
 - [cloudsavvyit.com: How to Use Cron With Your Docker Containers](https://www.cloudsavvyit.com/9033/how-to-use-cron-with-your-docker-containers/)
-- [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership/) 
+- [infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for Artifactory Users](https://www.infoq.com/news/2021/01/docker-jfrog-partnership/)
 - [technology.doximity.com: Buildpacks vs Dockerfiles 🌟](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) Exploring the tradeoffs of building container images at scale
 - [docker.com: Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
     - [docker.com: Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/)
@@ -92,7 +92,7 @@
 - [katacoda.com: Learn Docker & Containers using Interactive Browser-Based Scenarios 🌟](https://www.katacoda.com/courses/docker)
 - [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad) Create Docker hub account and push Docker image.
 - [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker)
-- [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/) 
+- [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/)
 - [dev.to: Docker 101!](https://dev.to/kubona_my/docker-101-124e)
 - [pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies](https://pawelurbanek.com/asdf-docker-development)
 - [tecmint.com: How to Install Docker on Rocky Linux and AlmaLinux](https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux/)
@@ -101,7 +101,7 @@
 - [cloudsavvyit.com: How to use docker cp to copy files between host and containers](https://www.cloudsavvyit.com/13987/how-to-use-docker-cp-to-copy-files-between-host-and-containers/)
 - [baeldung.com: Deploying a Java War in a Docker Container](https://www.baeldung.com/docker-deploy-java-war)
 - [returngis.net: Explorar gráficamente el contenido de un volumen de Docker](https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker/)
-- [opensource.com: What is a container image?](https://opensource.com/article/21/8/container-image) A container image contains a packaged application, along with its dependencies, and information on what processes it runs when launched. 
+- [opensource.com: What is a container image?](https://opensource.com/article/21/8/container-image) A container image contains a packaged application, along with its dependencies, and information on what processes it runs when launched.
 - [zdnet.com: Docker changes its subscription plans, usage rules, and product line](https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line/)
 - [servethehome.com: Docker Abruptly Starts Charging Many Users for Docker Desktop](https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop/)
 - [matt-rickard.com: An Overview of Docker Desktop Alternatives](https://matt-rickard.com/docker-desktop-alternatives/)
@@ -138,7 +138,7 @@
 - [thenewstack.io: How to Run Docker in Rootless Mode](https://thenewstack.io/how-to-run-docker-in-rootless-mode/)
 - [mjovanc.com: Get started with Docker and Docker Compose](https://mjovanc.com/get-started-with-docker-and-docker-compose-cddcb5a3f3b9)
 - [dev.to: Docker: Explained to a 5 year old. 👶🏻](https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg)
-- [nishnit007.medium.com: A Journey from Dockerfile to Application Deployment on Kubernetes For Beginners](https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581) 
+- [nishnit007.medium.com: A Journey from Dockerfile to Application Deployment on Kubernetes For Beginners](https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581)
 - [==stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images==](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/)
 - [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial/)
 - [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
@@ -157,6 +157,10 @@
 - [iximiuz.com: What Actually Happens When You Publish a Container Port 🌟](https://iximiuz.com/en/posts/docker-publish-container-ports/) "Port publishing" seems to be a term coined by Docker. But "port forwarding" aka "port mapping - as a form of socket redirection - was a well-known trick well before the invention of containers. How are the two different?
 - [iximiuz.com: How To Publish a Port of a Running Container 🌟](https://iximiuz.com/en/posts/docker-publish-port-of-running-container/)
 - [medium.com/@BeNitinAgarwal: Lifecycle of Docker Container](https://medium.com/@BeNitinAgarwal/lifecycle-of-docker-container-d2da9f85959)
+- [docker.com: Docker Compose: What’s New, What’s Changing, What’s Next](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation/)
+- [medium.com/@i180826: Using Docker to build React App](https://medium.com/@i180826/using-docker-to-build-react-app-49862615e6f8)
+- [dev.to: Simplify Your Dockerfile wiyth Rust programming language| Kamesh Sampath](https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k)
+- [itprotoday.com: Is Docker Still Worth Learning for IT Operations Teams? Probably Not](https://www.itprotoday.com/it-operations/docker-still-worth-learning-it-operations-teams-probably-not) While Docker isn't dead, Docker tooling may be. Here's why learning Docker tools isn't as important as it once was, especially for ITOps teams.
 
 ## Debugging
 
@@ -216,7 +220,9 @@
 - [==augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security==](https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/)
 - [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker/)
 - [clickittech.com: The Ultimate Docker Security Best Practices for Your Node.js Application](https://www.clickittech.com/devops/docker-security-best-practices/) Top 12 Docker Security Best Practices
-  
+- [infosecwriteups.com: Attacking and securing Docker containers](https://infosecwriteups.com/attacking-and-securing-docker-containers-cc8c80f05b5b)
+- [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1/)
+
 ## How To Build a Smaller Docker Image
 
 - [developers.redhat.com: Keep it small: a closer look at Docker image sizing](https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/)
@@ -309,6 +315,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 - [Portainer 🌟](https://www.portainer.io/) Making Docker management easy
 - [Portainer Community Edition](https://www.portainer.io/products/community-edition)
+- [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer/) Here's how to make sure all the contents of your container stay intact even after you delete the container itself.
 
 ## DockStation
 
@@ -321,7 +328,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/)
     - [developers.redhat.com: book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)
 - [dev.to: The best Docker base image for your Python application](https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83)
-- [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat) 
+- [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat)
 - [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care)
 - [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) Verified content from the world’s leading enterprise Linux platform aimed at helping developers and operators build more secure and scalable containerized solutions from the industry’s leading container registry
 

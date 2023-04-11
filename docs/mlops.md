@@ -1,20 +1,21 @@
 # Machine Learning Ops (MLOps) and Data Science
 
 1. [Introduction. MLOps](#introduction-mlops)
-2. [Object Detection Libraries](#object-detection-libraries)
-3. [MLFlow](#mlflow)
-4. [Kubeflow](#kubeflow)
-5. [Flyte](#flyte)
-6. [Azure ML](#azure-ml)
-7. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-8. [Data Science](#data-science)
-9. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
-10. [Other Tools](#other-tools)
-11. [Samples](#samples)
-12. [ML Courses](#ml-courses)
-13. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-14. [Polls](#polls)
-15. [Tweets](#tweets)
+2. [The MAD (ML/AI/Data) Landscape](#the-mad-mlaidata-landscape)
+3. [Object Detection Libraries](#object-detection-libraries)
+4. [MLFlow](#mlflow)
+5. [Kubeflow](#kubeflow)
+6. [Flyte](#flyte)
+7. [Azure ML](#azure-ml)
+8. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+9. [Data Science](#data-science)
+10. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
+11. [Other Tools](#other-tools)
+12. [Samples](#samples)
+13. [ML Courses](#ml-courses)
+14. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+15. [Polls](#polls)
+16. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -32,13 +33,13 @@
 - [rubrix](https://github.com/recognai/rubrix) A free and open-source tool to explore, label, and monitor data for NLP projects.
 - [towardsdatascience.com: Automatically Generate Machine Learning Code with Just a Few Clicks](https://towardsdatascience.com/automatically-generate-machine-learning-code-with-just-a-few-clicks-7901b2334f97) Using Traingenerator to easily create PyTorch and scikit-learn template codes for machine learning model training
 - [towardsdatascience.com: Schemafull streaming data processing in ML pipelines](https://towardsdatascience.com/using-kafka-with-avro-in-python-da85b3e0f966) Making containerized Python streaming data pipelines leverage schemas for data validation using Kafka with AVRO and Schema Registry
-- [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines/) 
+- [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines/)
 - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb) A fast and simple approach to serve your model as an API
 - [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)
 - [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)
 - [medium.com/workday-engineering: Implementing a Fully Automated Sharding Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)
 - [==medium.com/globant: Advantages of Deploying Machine Learning models with Kubernetes== 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)
-- [==technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission== 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business) An AI pioneer reflects on how companies can use machine learning to transform their operations and solve critical problems. 
+- [==technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission== 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business) An AI pioneer reflects on how companies can use machine learning to transform their operations and solve critical problems.
     - [==technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más"== 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) El pionero de la inteligencia artificial Andrew Ng asegura que es más importante tener buenos datos, aunque sean escasos, que muchos, pero mal etiquetados. Cree que todas las empresas deben empezar a pensar en la tecnología con proyectos rápidos, pero pequeños, y escalarlos si resulta que funcionan.
     - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
 - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc) Tools and technologies in machine learning lifecycle
@@ -53,6 +54,10 @@
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
 - [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops/)
 
+## The MAD (ML/AI/Data) Landscape
+
+- [mad.firstmark.com: The MAD (ML/AI/Data) Landscape](https://mad.firstmark.com/)
+
 ## Object Detection Libraries
 
 - [medium.com/mlearning-ai: The Best Object Detection Libraries That I Work With](https://medium.com/mlearning-ai/the-best-object-detection-libraries-that-i-work-with-835428a1e01e)
@@ -63,6 +68,7 @@
 - [towardsdatascience.com: A Beginner-Friendly Introduction to Kubernetes 🌟](https://towardsdatascience.com/a-beginner-friendly-introduction-to-kubernetes-540b5d63b3d7) With a hands-on MLFlow deployment example
 - [towardsdatascience.com: Empowering Spark with MLflow](https://towardsdatascience.com/empowering-spark-with-mlflow-58e6eb5d85e8)
 - [artifacthub.io: mlflow-server](https://artifacthub.io/packages/helm/mlflowserver/mlflow-server) A Helm chart for MLFlow On Kubernetes
+- [pypi.org/project/airflow-provider-mlflow](https://pypi.org/project/airflow-provider-mlflow/) An Apache Airflow provider to interact with MLflow using Operators and Hooks
 
 ## Kubeflow
 
@@ -71,6 +77,7 @@
 - [infracloud.io: Machine Learning Orchestration on Kubernetes using Kubeflow](https://www.infracloud.io/blogs/machine-learning-orchestration-kubernetes-kubeflow/)
 - [blog.devgenius.io: Kubeflow Cloud Deployment (AWS)](https://blog.devgenius.io/kubeflow-cloud-deployment-aws-46f739ccbb32) How do you deploy Kubeflow on AWS? Kubeflow is resource-intensive and deploying it locally means that you might not have enough resources to run your end-to-end machine learning pipeline. In this article you will learn how to deploy Kubeflow in AWS.
 - [joseprsm.medium.com: How to build Machine Learning models that train themselves](https://joseprsm.medium.com/how-to-build-machine-learning-models-that-train-themselves-bbc87499ca5)
+- [medium.com/dkatalis: Creating a Mutating Webhook for Great Good! Or: how to automatically provision Pods on a specific node pool](https://medium.com/dkatalis/creating-a-mutating-webhook-for-great-good-b21acb941207) In this tutorial, you will learn how to automatically schedule Kubeflow pipeline Pods from any number of namespaces on dedicated GKE node pools
 
 ## Flyte
 
@@ -136,6 +143,9 @@
 - [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) envd (ɪnˈvdɪ) is a command-line tool that helps you create the container-based development environment for AI/ML. https://envd.tensorchord.ai/
 - [postgresml/postgresml 🌟](https://github.com/postgresml/postgresml) PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database.
 - [blog.devgenius.io: Training model with Jenkins using docker: MLOPS](https://blog.devgenius.io/training-model-with-jenkins-using-docker-mlops-b18579ddb677)
+- [vaex.io](https://vaex.io) An ML Ready Fast DataFrame for Python
+    - https://pypi.org/project/vaex/
+- [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists/) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
 
 ## Samples
 
@@ -179,5 +189,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/kelseyhightower?ref_src=twsrc%5Etfw">@kelseyhightower</a> We&#39;re now at a stage where we can start to leverage systems like <a href="https://twitter.com/hashtag/Flyte?src=hash&amp;ref_src=twsrc%5Etfw">#Flyte</a> to give us more of an opinionated end-to-end workflow. What we call <a href="https://twitter.com/hashtag/ML?src=hash&amp;ref_src=twsrc%5Etfw">#ML</a> can become a real discipline where practitioners can use a common set of terms and practices.<a href="https://twitter.com/hashtag/KelseyTakesFlyte?src=hash&amp;ref_src=twsrc%5Etfw">#KelseyTakesFlyte</a> <a href="https://twitter.com/hashtag/MLOps?src=hash&amp;ref_src=twsrc%5Etfw">#MLOps</a></p>&mdash; Flyte (@flyteorg) <a href="https://twitter.com/flyteorg/status/1550543758764044288?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re not utilizing AI, you&#39;re falling behind. <br><br>Here are 7 free AI tools that&#39;ll save you hours of work:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1584477023346470912?ref_src=twsrc%5Etfw">October 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Machine Learning will be one of the most sought-after professions this decade.<br><br>Learn &amp; practice ML for free with these outstanding resources and earn certificates for your resume:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1629377400273338369?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

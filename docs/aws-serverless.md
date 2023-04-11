@@ -59,9 +59,13 @@
 - [dev.to: Go fast and reduce risk: using CDK to deploy your serverless applications on AWS](https://dev.to/aws-builders/go-fast-and-reduce-risk-using-cdk-to-deploy-your-serverless-applications-on-aws-2i3k)
 - [awstip.com: Tips for keeping your Lambda functions secure](https://awstip.com/tips-for-keeping-your-lambda-functions-secure-25349dd5d9df)
 - [dev.to: Event driven architectures using AWS with example](https://dev.to/aws-builders/event-driven-architectures-using-aws-with-example-3d2d)
+- [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)
 
 ## AWS Fargate
 
 - [Amazon EFS with Amazon ECS and AWS Fargate – Part 1](https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/)
 - [Deploy Machine Learning Pipeline on AWS Fargate](https://www.kdnuggets.com/2020/07/deploy-machine-learning-pipeline-aws-fargate.html)
 - [deloitte.com: Fargate con EKS](https://www2.deloitte.com/es/es/blog/todo-tecnologia/2021/fargate-con-eks.html) ¿Es Fargate la solución de AWS con la que siempre soñamos para evitar manejar infraestructura con Kubernetes? Sí, pero…
+- [element7.io: A Hidden Gem: Two Ways to Improve AWS Fargate Container Launch Times](https://www.element7.io/2022/10/a-hidden-gem-two-ways-to-improve-aws-fargate-container-launch-times/) In this post you will learn two strategies to speed up the pod creation time:
+    - zstd compressed container images
+    - Seekable OCI for lazy loading container images

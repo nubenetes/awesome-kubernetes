@@ -356,6 +356,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium.com/wix-engineering: Troubleshooting Kafka for 2000 Microservices at Wix](https://medium.com/wix-engineering/troubleshooting-kafka-for-2000-microservices-at-wix-986ee382fd1e) Debugging microservices’ event driven communication is not trivial, especially when it’s based on event streaming platforms like Apache Kafka. While scale grows more easily and the distributed system becomes more decoupled and resilient, the operational aspects become much harder.
 - [engineering.grab.com: Zero trust with Kafka](https://engineering.grab.com/zero-trust-with-kafka)
 - [freecodecamp.org: The Apache Kafka Handbook – How to Get Started Using Kafka 🌟](https://www.freecodecamp.org/news/apache-kafka-handbook/) Apache Kafka is an open source event streaming tool that transports tons of data w/ low latency. This link covers its core concepts, how to use its CLI, & how to install + build a project with it.
+- [medium.com/@rramiz.rraza: Kafka metrics monitoring with Prometheus and Grafana 🌟](https://medium.com/@rramiz.rraza/kafka-metrics-integration-with-prometheus-and-grafana-14fe318fbb8b)
+- [rogulski.it: Consume Kafka events with Knative service and FastAPI on kubernetes 🌟](https://rogulski.it/blog/kafka-consumer-knative-fastapi/) In this article, you will learn how to build a fully scalable, event-driven and easy-to-maintain system using Python (FastAPI), Kafka, and Knative
 
 #### Kafka Tools
 

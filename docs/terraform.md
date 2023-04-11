@@ -4,7 +4,7 @@
 
 1. [HashiCorp Learning Resources Reference Guide](#hashicorp-learning-resources-reference-guide)
 2. [Packer](#packer)
-3. [HashiCorp Cloud](#hashicorp-cloud)
+3. [HashiCorp Cloud Terraform Cloud](#hashicorp-cloud-terraform-cloud)
 4. [Blogs and Newsletters](#blogs-and-newsletters)
 5. [Terraform](#terraform)
     1. [Alternatives to Terraform](#alternatives-to-terraform)
@@ -31,9 +31,10 @@
     17. [Terraform and GCP](#terraform-and-gcp)
          1. [Terraform GKE Boilerplates](#terraform-gke-boilerplates)
     18. [Terraform and AWS](#terraform-and-aws)
-         1. [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
-         2. [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
-         3. [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
+         1. [AWS Observability Accelerator for Terraform](#aws-observability-accelerator-for-terraform)
+         2. [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
+         3. [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
+         4. [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
     19. [Terraform with Azure](#terraform-with-azure)
          1. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
          2. [Terraform in Azure DevOps](#terraform-in-azure-devops)
@@ -58,14 +59,15 @@
 11. [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
 12. [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
 13. [Terraform Tools](#terraform-tools)
-14. [Terraform Frameworks](#terraform-frameworks)
+14. [Writing Terraform for unsupported resources with TerraCurl](#writing-terraform-for-unsupported-resources-with-terracurl)
+15. [Terraform Frameworks](#terraform-frameworks)
      1. [Kubestack Terraform GitOps Framework](#kubestack-terraform-gitops-framework)
      2. [Gruntwork Terragrunt](#gruntwork-terragrunt)
      3. [Terraspace](#terraspace)
-15. [Terraform Associate Certification](#terraform-associate-certification)
-16. [Images](#images)
-17. [Videos](#videos)
-18. [Tweets](#tweets)
+16. [Terraform Associate Certification](#terraform-associate-certification)
+17. [Images](#images)
+18. [Videos](#videos)
+19. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468480528&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/raymond-mnt" title="RAYMOND MNT" target="_blank" style="color: #cccccc; text-decoration: none;">RAYMOND MNT</a> · <a href="https://soundcloud.com/raymond-mnt/jimmy-sax-parga-oriental-sax" title="Jimmy Sax - Parga (Oriental sax ).mp3" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax - Parga (Oriental sax ).mp3</a></div>
@@ -84,10 +86,11 @@
 - [computingforgeeks.com: Build AWS EC2 Machine Images (AMI) With Packer and Ansible](https://computingforgeeks.com/build-aws-ec2-machine-images-with-packer-and-ansible/)
 - [learn.hashicorp.com: Write Packer template for AWS](https://learn.hashicorp.com/tutorials/packer/aws-get-started-build-image)
 
-## HashiCorp Cloud
+## HashiCorp Cloud Terraform Cloud
 
 - [cloud.hashicorp.com: HashiCorp Cloud](https://cloud.hashicorp.com/) The fastest way to get up and running with HashiCorp tools. HashiCorp Cloud Platform is a fully managed platform for Terraform, Vault, Consul, and more.
 - [hashicorp.com: Multi-Region Replication Now Available with HCP Vault](https://www.hashicorp.com/blog/multi-region-replication-now-available-with-hcp-vault) New HCP Vault Plus Clusters adds high availability replication of secrets and policies across cloud regions.
+- [levelup.gitconnected.com: Continuous Integration and Continuous Deployment with Terraform Cloud](https://levelup.gitconnected.com/continuous-integration-continuous-deployment-with-terraform-cloud-ad384f29d7a0)
 
 ## Blogs and Newsletters
 
@@ -245,6 +248,8 @@
 - [hashicorp.com: Terraform Abstraction Tips: Just Because You Can Doesn't Mean You Should](https://www.hashicorp.com/resources/terraform-abstraction-tips-just-because-you-can-doesnt-mean-you-should) Learn how to think about balancing automation and abstraction against maintainability when building your Terraform setup.
 - [hashicorp.com: Best Practices for Terraform AWS Tags](https://www.hashicorp.com/resources/best-practices-for-terraform-aws-tags) Learn general AWS tags best practices and using the default_tags method, along with some specific tagging configuration for ASG and EC2 volumes.
 - [medium.com/codex: How to Use the If / Else Statement in Terraform — Examples 🌟](https://medium.com/codex/how-to-use-the-if-else-statement-in-terraform-examples-76283b593828)
+- [==tekanaid.com: Terraform for Beginners – A Beginner’s Guide to Automating Cloud Infrastructure== 🌟](https://tekanaid.com/posts/terraform-for-beginners-course-and-training)
+- [==terrahaxs.com: Choosing the Right Terraform Loop: count vs for_each== 🌟](https://www.terrahaxs.com/blog/count-vs-for-each/)
 
 ### Alternatives to Terraform
 
@@ -416,6 +421,7 @@
     - [circleci.com: Infrastructure as Code, part 2: build Docker images and deploy to Kubernetes with Terraform](https://circleci.com/blog/learn-iac-part02/)
     - [circleci.com: Infrastructure as Code, part 3: automate Kubernetes deployments with CI/CD and Terraform](https://circleci.com/blog/learn-iac-part3/)
 - [hashicorp.com: Terraform Adds Support for GKE Autopilot](https://www.hashicorp.com/blog/terraform-adds-support-for-gke-autopilot)
+- [hackernoon.com: Exporting Your GKE Cluster to Terraform Cloud: A Guide with Challenges and Solutions](https://hackernoon.com/exporting-your-gke-cluster-to-terraform-cloud-a-guide-with-challenges-and-solutions)
 
 ==}
 
@@ -434,8 +440,15 @@
 - [infoq.com: HashiCorp Terraform AWS Provider Introduces Significant Changes to Amazon S3 Bucket Resource](https://www.infoq.com/news/2022/02/terraform-aws-provider-s3/)
 - [dev.to/arpanadhikari: Reusable AWS iam role for service-accounts (IRSA for k8s ) terraform module](https://dev.to/arpanadhikari/reusable-aws-iam-role-for-service-accounts-irsa-for-k8s-terraform-module-2og2) AWS supports authenticating your pods using an identity provider that your account is configured to trust. This tutorial will guide you through the process of creating an IAM role that your kubernetes pods will be able to assume.
 - [betterprogramming.pub: Terraform Setup for Using AWS Lambda With S3](https://betterprogramming.pub/terraform-setup-for-using-aws-lambda-with-s3-2b8ba286b6d7) Build your buckets
+- [aws.amazon.com: Save time with automated security checks of your Terraform scripts](https://aws.amazon.com/blogs/infrastructure-and-automation/save-time-with-automated-security-checks-of-terraform-scripts/) Looking for a way to automate security checks of your Terraform scripts directly into your continuous integration and continuous delivery (CI/CD) pipeline? How about a way to view the results of those security checks and address issues before deployment, all with built-in notifications? Then check out our solution using Checkov, a static code analysis tool for flagging security and compliance problems.
+- [haque-zubair.medium.com: AWS API Gateway & Lambda with Terraform](https://haque-zubair.medium.com/aws-lambda-api-gateway-with-terraform-bd143b1c56bb)
 
 {==
+
+#### AWS Observability Accelerator for Terraform
+
+- [github.com/aws-observability](https://github.com/aws-observability)
+- [==aws-observability.github.io: AWS Observability Accelerator for Terraform== 🌟](https://aws-observability.github.io/terraform-aws-observability-accelerator/) The AWS Observability Accelerator for Terraform is a set of opinionated modules to help you set up observability for your AWS environments with AWS-managed observability services such as Amazon Managed Service for Prometheus, Amazon Managed Grafana, AWS Distro for OpenTelemetry (ADOT) and Amazon CloudWatch. We provide curated metrics, logs, traces collection, alerting rules and Grafana dashboards for your EKS infrastructure, Java/JMX, NGINX based workloads and your custom applications. [github.com/aws-observability/terraform-aws-observability-accelerator](https://github.com/aws-observability/terraform-aws-observability-accelerator)
 
 #### Terraform EKS Boilerplates
 
@@ -574,6 +587,7 @@
 - [Azure-Samples/private-aks-cluster-terraform-devops 🌟](https://github.com/Azure-Samples/private-aks-cluster-terraform-devops) **This sample shows how to create a private AKS cluster using Terraform and Azure DevOps.**
 - [build5nines.com: Terraform: Create an AKS Cluster 🌟](https://build5nines.com/terraform-create-an-aks-cluster/)
 - [thomasthornton.cloud: Building and deploying to an AKS cluster using Terraform and Azure DevOps with Kubernetes and Helm providers](https://thomasthornton.cloud/2022/11/09/building-and-deploying-to-an-aks-cluster-using-terraform-and-azure-devops-with-kubernetes-and-helm-providers/)
+- [medium.com/@piyush.sachdeva055: Deploy AKS Cluster in Azure With Terraform](https://medium.com/@piyush.sachdeva055/deploy-aks-cluster-in-azure-with-terraform-2028f6c71ada)
 
 ### Terraform and OCI
 
@@ -638,6 +652,7 @@
 - [Junos-terraform: JUNOS Terraform Automation Framework (JTAF)](https://github.com/Juniper/Junos-terraform)
 - [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) Terraform Provider for cascading runs across multiple workspaces.
 - [kyma-incubator/terraform-provider-kind: Terraform Provider for kind (Kubernetes IN Docker)](https://github.com/kyma-incubator/terraform-provider-kind) The Terraform Provider for kind enables Terraform to provision local Kubernetes clusters on base of Kubernetes IN Docker (kind).
+- [github.com/circa10a/terraform-provider-mailform](https://github.com/circa10a/terraform-provider-mailform) A terraform provider to send physical mail via https://mailform.io
 
 ### Terraform AWS Cloud Control Provider
 
@@ -701,6 +716,10 @@
 - [bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) AirIAM is an AWS IAM to least privilege Terraform execution framework. It compiles AWS IAM usage and leverages that data to create a least-privilege IAM Terraform that replaces the exiting IAM management method. AirIAM was created to promote immutable and version-controlled IAM management to replace today's manual and error prone methods.
 - [badarsebard/terraforge](https://github.com/badarsebard/terraforge) Graphical Terraform configuration generator. Terraforge is an application for generating Terraform code visually. Users select providers and then add resources as nodes to a graph that can be edited and arranged. Links between nodes appear automatically as the configuration of a node makes references to other nodes. When finished the design can be exported as Terraform HCL. The configuration will include all settings and configurations entered for the nodes.
 - [infracloud.io: 5 Tools to Auto-Generate Terraform Configuration Files 🌟](https://www.infracloud.io/blogs/auto-generate-terraform-configuration-files/)
+
+## Writing Terraform for unsupported resources with TerraCurl
+
+- [==hashicorp.com: Writing Terraform for unsupported resources== 🌟](https://www.hashicorp.com/blog/writing-terraform-for-unsupported-resources) **TerraCurl is a utility Terraform provider that allows engineers to make managed and unmanaged API calls in their Terraform code.**
 
 ## Terraform Frameworks
 

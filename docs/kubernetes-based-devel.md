@@ -10,11 +10,12 @@
 3. [Kubernetes Clients and Dashboards](#kubernetes-clients-and-dashboards)
     1. [Octant](#octant)
     2. [Okteto local kubernetes development](#okteto-local-kubernetes-development)
-    3. [Lens and OpenLens Kubernetes IDE](#lens-and-openlens-kubernetes-ide)
-    4. [Kubenav](#kubenav)
-    5. [Aptakube](#aptakube)
-    6. [Cloud Manager](#cloud-manager)
-    7. [Yaki](#yaki)
+    3. [Monokle](#monokle)
+    4. [Lens and OpenLens Kubernetes IDE](#lens-and-openlens-kubernetes-ide)
+    5. [Kubenav](#kubenav)
+    6. [Aptakube](#aptakube)
+    7. [Cloud Manager](#cloud-manager)
+    8. [Yaki](#yaki)
 4. [Images](#images)
 5. [Tweets](#tweets)
 6. [Videos](#videos)
@@ -151,9 +152,13 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 - [okteto.com: How to Develop and Debug Java Applications on Kubernetes](https://okteto.com/blog/how-to-develop-java-apps-in-kubernetes/)
 - [codefresh.io: Tutorial - Local Kubernetes Development with Okteto 🌟](https://codefresh.io/kubernetes-tutorial/okteto/)
-- [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
 - [github.com/marketplace: Automating your Kubernetes dev environments with the open source oktetohq Cloud got easier with GitHub Actions](https://github.com/marketplace?query=publisher%3Aokteto&type=actions)
 - [blog.palark.com: Okteto Cloud as another way for local development in Kubernetes](https://blog.palark.com/okteto-cloud-for-local-development-in-kubernetes/) This article explores an approach featuring application development performed right inside the Kubernetes without needing separate build and deploy steps using Okteto
+
+### Monokle
+
+- [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
+- [medium.com/kubeshop-i: Monokle vs. Lens vs. K9s 🌟](https://medium.com/kubeshop-i/monokle-vs-lens-vs-k9s-1d5d94d84b5c) Finding the right tools to optimize Kubernetes deployment workflows is challenging. Here’s a look at what these key players offer to handle everything from configuration tasks to cluster management.
 
 ### Lens and OpenLens Kubernetes IDE
 
