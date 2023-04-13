@@ -85,7 +85,20 @@ Tips: ask the hiring manager what experience they have with Cloud Automation, Cl
 
 > [*"The absolutely difficult thing is reaching volume production without going bankrupt, that is the actual hard thing"*](https://www.youtube.com/watch?v=cdZZpaB2kDM&t=2025s) Elon Musk
 
-> *"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective, the engineer builds bridges from an evidence-based perspective and over time bridge construction has improved. On the other hand, a politician does things from a right or left perspective, and over time politics has gotten worse. When I work with politicians and two of them are in a room together, one always thinks of the other, "will they get in my way? Will they damage my reputation? Is there a conflict of interest?" On the other hand, when two engineers meet, they say, "hello! I have a problem, can you help me?" Engineers rely on evidence. If you want to save the world, think like an engineer."* Mark Stevenson, writer and businessman.
+??? The absolutely difficult thing is reaching volume production without going bankrupt "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+
+> *"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective, the engineer builds bridges from an evidence-based perspective and over time bridge construction has improved. On the other hand, a politician does things from a right or left perspective, and over time politics has gotten worse. When I work with politicians and two of them are in a room together, one always thinks of the other, "will they get in my way? Will they damage my reputation? Is there a conflict of interest?" On the other hand, when two engineers meet, they say, "hello! I have a problem, can you help me?" Engineers rely on evidence. If you want to save the world, think like an engineer."* [ref 1 (Youtube Clip in Spanish)](https://youtube.com/clip/Ugkx5e13a72WjgowgmAtFieyNFuiKarXWXDp), [ref 2 (English)](https://www.rtve.es/play/videos/redes/redes-claves-para-enfrentarse-mundo-hoy-vo/1714674/), [ref 3 (Spanish)](https://www.rtve.es/play/videos/redes/redes-claves-para-enfrentarse-mundo-hoy/1714673/), [ref 4 (Spanish)](https://www.youtube.com/watch?v=7ruXlR08JZ0) - [Mark Stevenson](https://markstevenson.org), writer and businessman.
+
+??? Think like an engineer and not like a politician "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XzpJvvsNj0E?clip=Ugkx5e13a72WjgowgmAtFieyNFuiKarXWXDp&amp;clipt=EJ-RHRja1iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruXlR08JZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</center>
 
 Let's improve both the private & public IT sector and the opportunities in large, medium and small companies, and give us a star on GitHub if you like this blog!!
 
