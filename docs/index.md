@@ -230,6 +230,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Scaleway](scaleway.md)
 - [Linode](https://www.linode.com/)
 - [Alibaba](https://www.alibabacloud.com/)
+- [Symbiosis](https://symbiosis.host/)
 - [Gaia-X.eu](https://www.gaia-x.eu)
 ## APIs with SOAP, REST and gRPC
 - [APIs with SOAP, REST and gRPC 🌟](api.md)
