@@ -87,6 +87,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [github.com/metaleapca: metaleap-k8s-troubleshooting.pdf](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
 - [devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/)
 - [serverlessland.com: EDA VISUALS](https://serverlessland.com/event-driven-architecture/visuals) Small bite sized visuals about event-driven architectures
+- [dzone: The Essentials of GitOps 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

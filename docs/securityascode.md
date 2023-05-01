@@ -90,6 +90,7 @@
     - Kyverno
     - k-rail
     - [MagTape](https://github.com/tmobile/magtape) Policy as code for kubernetes
+- [Selefra: Selefra is an open-source policy-as-code software that provides analytics for multi-cloud and SaaS.](https://github.com/selefra/selefra) Selefra means "select * from infrastructure". It is an open-source infrastructure-as-code software that provides analysis for multi-cloud and SaaS environments, including over 30 services such as AWS, GCP, Azure, Alibaba Cloud, Kubernetes, Github, Cloudflare, and Slack.
 
 ## Kyverno
 

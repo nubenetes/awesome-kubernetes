@@ -13,6 +13,7 @@
     6. [Testing Kubernetes Canary deployment on EKS](#testing-kubernetes-canary-deployment-on-eks)
 6. [AKS Azure Kubernetes Service](#aks-azure-kubernetes-service)
     1. [AKS Lite](#aks-lite)
+    2. [Draft 2 on AKS](#draft-2-on-aks)
 7. [GKE Google Kubernetes Engine](#gke-google-kubernetes-engine)
 8. [IKS IBM Cloud Kubernetes Service](#iks-ibm-cloud-kubernetes-service)
 9. [Linode Kubernetes Engine LKE](#linode-kubernetes-engine-lke)
@@ -345,6 +346,11 @@
 ### AKS Lite
 
 - [thenewstack.io: Microsoft Takes Kubernetes to the Edge with AKS Lite](https://thenewstack.io/microsoft-takes-kubernetes-to-the-edge-with-aks-lite/) At it Ignite conference, Microsoft announced that a public preview of Azure Kubernetes Service (AKS) on Windows IoT and Windows devices, known as AKS lite, will be available next month.
+
+### Draft 2 on AKS
+
+- [==Azure/Draft== 🌟](https://github.com/Azure/draft)
+- [blog.baeke.info: Trying out Draft 2 on AKS](https://blog.baeke.info/2022/06/02/trying-out-draft-2-on-aks/)
 
 ## GKE Google Kubernetes Engine
 

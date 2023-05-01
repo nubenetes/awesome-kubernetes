@@ -175,6 +175,7 @@
     - Enhanced security
     - Faster deployment
     - Better collaboration
+- [==dzone: The Essentials of GitOps== 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
