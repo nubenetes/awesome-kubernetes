@@ -52,7 +52,7 @@
 ## API and API Testing Interview Questions
 
 - [automationreinvented.blogspot.com: Top 30 API Testing Interview Questions & Answers for SDET/API Automation-Rest Assured? SET-03](https://automationreinvented.blogspot.com/2020/11/top-30-api-testing-interview-questions.html)
-- [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers-2/)
+- [automationqahub.com: Latest API Testing Interview Questions And Answers](https://automationqahub.com/latest-api-testing-interview-questions-and-answers/)
 - [grokkinginterview.com: 13 REST API interview questions you need to know](https://grokkinginterview.com/13-rest-api-interview-questions-you-need-to-know-f0e7ec857550)
 
 ## DevOps Interview Questions
@@ -69,6 +69,7 @@
 ## Selenium Interview Questions
 
 - [automationreinvented.blogspot.com: Top 30 Interview Questions on Automation Testing - Selenium for SDET/Automation QA?](https://automationreinvented.blogspot.com/2020/06/top-30-interview-questions-on.html)
+- [automationqahub.com: The Ultimate List of Selenium Interview Questions](https://automationqahub.com/latest-selenium-interview-questions-and-answers/)
 
 ## MySQL Interview Questions
 
@@ -125,6 +126,8 @@
 - [automationreinvented.blogspot.com: Top 40 API Automation testing interview question for SDET and Automation QA ?](https://automationreinvented.blogspot.com/2021/03/top-40-api-testing-interview-question.html)
 - [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html)
 - [automationreinvented.blogspot.com: Top 80 API Testing Interview Questions for QA and SDET ? API Interview Questions 2022](https://automationreinvented.blogspot.com/2022/03/top-80-api-testing-interview-questions.html)
+- [automationqahub.com: Top Software Testing Interview Questions](https://automationqahub.com/popular-software-testing-interview-questions/)
+
 
 ## Python Interview Questions
 
@@ -139,3 +142,7 @@
 ## JSON Interview Questions
 
 - [javarevisited.blogspot.com: Top 20 JSON Interview Questions with Answers for Beginners and Experienced Developers](https://javarevisited.blogspot.com/2022/08/json-interview-questions-with-answers.html)
+
+## Cypress Interview Questions
+
+- [automationqahub.com: The Ultimate List of Cypress Interview Questions](https://automationqahub.com/common-cypress-interview-questions/)
