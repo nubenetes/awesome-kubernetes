@@ -69,3 +69,4 @@
 - [element7.io: A Hidden Gem: Two Ways to Improve AWS Fargate Container Launch Times](https://www.element7.io/2022/10/a-hidden-gem-two-ways-to-improve-aws-fargate-container-launch-times/) In this post you will learn two strategies to speed up the pod creation time:
     - zstd compressed container images
     - Seekable OCI for lazy loading container images
+- [medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE or AWS LAMBDA or Both?](https://medium.com/@HirenDhaduk1/best-choice-to-run-your-containers-aws-fargate-or-aws-lambda-or-both-d9e14685a363)

@@ -28,6 +28,7 @@
 12. [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
 13. [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
      1. [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
+         1. [OpenTelemetry Operator](#opentelemetry-operator)
      2. [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
      3. [Jaeger vs Zipkin](#jaeger-vs-zipkin)
      4. [Grafana Tempo distributed tracing system](#grafana-tempo-distributed-tracing-system)
@@ -116,6 +117,11 @@
 - [medium.com/@badawekoo: Monitoring in DevOps lifecycle](https://medium.com/@badawekoo/monitoring-in-devops-lifecycle-4d9a2f277eb0)
 - [laduram.medium.com: The Future of Observability](https://laduram.medium.com/the-future-of-observability-c33cd7ff644a)
 - [devops.com: Where Does Observability Stand Today, and Where is it Going Next?](https://devops.com/where-does-observability-stand-today-and-where-is-it-going-next/)
+- [medium.com/kubeshop-i: Top 8 Open-Source Observability & Testing Tools](https://medium.com/kubeshop-i/top-8-open-source-observability-testing-tools-9341a361a634)
+- [==dzone: 11 Observability Tools You Should Know== 🌟](https://dzone.com/articles/11-observability-tools-you-should-know-in-2023) This article looks at the features, limitations, and important selling points of eleven popular observability tools to help you select the best one for your project.
+- [medium.com/devops-techable: Setup monitoring with Prometheus and Grafana in Kubernetes — Start monitoring your Kubernetes cluster resources](https://medium.com/devops-techable/setup-monitoring-with-prometheus-and-grafana-in-kubernetes-start-monitoring-your-kubernetes-a3071f083fa6)
+- [thenewstack.io: What Is Container Monitoring?](https://thenewstack.io/what-is-container-monitoring/) Cloud native architectures don’t rely on dedicated hardware like virtualized infrastructure, which changes monitoring requirements and processes.
+- [==devops.com: Why Monitoring-as-Code Will be a Must for DevOps Teams==](https://devops.com/why-monitoring-as-code-will-be-a-must-for-devops-teams/)
 
 ### Key Performance Indicator (KPI)
 
@@ -258,6 +264,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
 - [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) In this tutorial, you will learn how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
 - [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch/) In this article, we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
+- [==udemy.com: Elasticsearch 7 and the Elastic Stack: In Depth and Hands On==](https://www.udemy.com/course/elasticseach-7/?referralCode=83E57F5BF9B3557E51F8) **Complete Elastic search tutorial - search, analyze, and visualize big data with Elasticsearch, Kibana, Logstash, & Beats**
 
 #### Elastic Cloud on Kubernetes (ECK)
 
@@ -407,6 +414,11 @@ done
 - [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://blog.newrelic.com/engineering/opentelemetry-opentracing-opencensus/)
 - There’s no OpenTelemetry UI, instead Jaeger UI (or any APM like Dynatrace or New Relic) can be used as “Tracing backend + Visualization frontend + Data mining platform” of OpenTelemetry API/SDK.
 - [thenewstack.io: Tracing: Why Logs Aren’t Enough to Debug Your Microservices 🌟](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices/)
+
+#### OpenTelemetry Operator
+
+- [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
+- [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
 
 <center>
 [![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)

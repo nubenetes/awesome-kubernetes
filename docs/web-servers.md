@@ -38,6 +38,7 @@
 - [How To Use the Official NGINX Docker Image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
 - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1) Optimizing Nginx on Kubernetes Without a Adding a Cloud CDN.
 - [==freecodecamp.org: The NGINX Handbook== 🌟](https://www.freecodecamp.org/news/the-nginx-handbook/)
+- [==nginx.com: The Complete NGINX Cookbook== 🌟](https://www.nginx.com/resources/library/complete-nginx-cookbook/) **Get sample NGINX configurations for load balancing, cloud deployment, automation, containers and microservices, service mesh, security, and more.**
 
 ### Nginx Unit
 
@@ -61,7 +62,7 @@
 ## Traefik (HTTP router and reverse proxy)
 
 - [Traefik](http://traefik.io/)
-- [Dzone: How to Use the Open Source Tool Traefik to Direct Kubernetes Traffic](https://dzone.com/articles/how-to-use-the-open-source-tool-traefik-to-direct) 
+- [Dzone: How to Use the Open Source Tool Traefik to Direct Kubernetes Traffic](https://dzone.com/articles/how-to-use-the-open-source-tool-traefik-to-direct)
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
 - [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
 - [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh/)

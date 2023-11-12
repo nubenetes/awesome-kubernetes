@@ -55,7 +55,7 @@
 - [softzone.es: Mejora y añade más funciones a Visual Studio Code con plugins](https://www.softzone.es/programas/lenguajes/mejores-plugins-anadir-visual-code/)
 - [dzone: VS Code Extensions for Frontend Developers](https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers)
 - In code 1.61.0, you can get a colorized bracket pair guide, just enable it by setting:
-	- `"editor.guides.bracketPairs": true`
+    - `"editor.guides.bracketPairs": true`
 - [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl)
 - **Zen Mode:** Per user requests, we have added Zen Mode to VS Code. Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Sidebar and Panel) and going to full screen. Zen mode can be toggled using the View menu, Command Palette or by the shortcut Ctrl+K Z.
 - [realpython.com: Advanced Visual Studio Code for Python Developers](https://realpython.com/advanced-visual-studio-code-python/)
@@ -160,7 +160,7 @@ A simple extension to make indentation more readable
 - [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) Save files into local history
 - [Remote Repositories 🌟](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) You can now browse or even make edits to any GitHub repo straight from code, instantly WITHOUT having to pull the source down first.
 - [marketplace.visualstudio.com: Bridge to Kubernetes (VSCode)](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro) With Bridge to Kubernetes, the only thing you need to run and debug on your development machine is the microservice you're working on and your preferred dev tools. - [thorsten-hans.com: Debugging apps in Kubernetes with Bridge 🌟](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/) Bridge to Kubernetes simplifies and streamlines the process of debugging applications running in Kubernetes. Debug any language using the tools you prefer and love.
-- [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes)
+- [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes) Learn how to create a Kubernetes cluster, write a K8s manifest file (YAML), which tells K8s everything it needs to know about app, and finally deploy the app to the K8s cluster.
 - [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon.
 - [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
 - [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
@@ -173,6 +173,7 @@ A simple extension to make indentation more readable
 - [marketplace.visualstudio.com: Azure App Service for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
 - [marketplace.visualstudio.com: CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) Take beautiful screenshots of your code
 - [marketplace.visualstudio.com: GitOps Tools for Flux 🌟](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) This is a VS Code extension for GitOps automation tool for continuous delivery of Kubernetes and cloud native applications
+- [marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) Kubernetes reference highlighter is a plugin for VS Code that highlights references in your Kubernetes YAML files
 
 #### More Extensions (Blogs)
 
@@ -313,6 +314,10 @@ A simple extension to make indentation more readable
 - [STOP Creating New Files This! But Do THIS in VS Code!!!](https://www.youtube.com/shorts/VqOVb76IyI4)
 - [Take your extensions with you](https://www.youtube.com/shorts/HyhSDvaaRwM)
 - [Java, Gradle, and VS Code](https://www.youtube.com/shorts/0xq_ZYfl6Vk)
+- [VS Code February 2023 Release Highlights (v1.76)](https://www.youtube.com/shorts/hdmaP4ibJ4I)
+- [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8)
+- [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4)
+- [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI)
 
 ## Videos
 

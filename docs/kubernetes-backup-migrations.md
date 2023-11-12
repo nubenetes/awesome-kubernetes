@@ -44,15 +44,15 @@
 - [k8up.io](https://k8up.io/) Kubernetes Backup Operator distributed via a Helm chart, compatible with OpenShift and plain Kubernetes.
 - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)
 - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever/) Here are some considerations of a successful Kubernetes data protection strategy.
-- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://blog.palark.com/kubernetes-snaphots-usage/)
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. In this article, you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
-- [blog.palark.com: Kubernetes snapshots: What are they and how to use them?](https://blog.palark.com/kubernetes-snaphots-usage/) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
+- [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://blog.palark.com/kubernetes-snaphots-usage/) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
 
 ## ETCD Backup
 
 - [youtube: Kubernetes.. ETCD Backup and Restore... Very Easy Steps... CKA Exam Tips..](https://www.youtube.com/watch?app=desktop&v=mODkt1OJDew&ab_channel=AlokKumar)
 - [gsanjeewa1111.medium.com: How to backup and restore the ETCD in the Rancher cluster](https://gsanjeewa1111.medium.com/how-to-backup-and-restore-the-etcd-in-the-rancher-cluster-f4f075f528c2)
+- [github.com/gardener/etcd-backup-restore](https://github.com/gardener/etcd-backup-restore) Collection of components to backup and restore the Etcd of a Kubernetes cluster. It also provides the ability to validate the data directory, so that we could know the data directory is in good shape to bootstrap etcd successfully.
 
 ## Kubernetes Volume Snapshot
 

@@ -36,9 +36,10 @@
 ## Architecture Icons
 
 - [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)
-- [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now/) 
+- [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) - [thomasmaurer.ch: Download New Azure Architecture Icons now!](https://www.thomasmaurer.ch/2020/07/download-new-azure-architecture-icons-now/)
 - [Google Cloud Architecture Icons](https://cloud.google.com/icons)
 - [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) A collection of cloud security icons ☁️🔒
+- [==github.com/kubernetes: Kubernetes Icons Set==](https://github.com/kubernetes/community/tree/master/icons) These icons are a way to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandability
 
 ## AWS
 

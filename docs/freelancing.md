@@ -28,23 +28,23 @@
 - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)
 - [eleconomista.es: Estos son los gastos de los autónomos que no se pueden deducir en el IVA](https://www.eleconomista.es/economia/noticias/11390425/09/21/Estos-son-los-gastos-de-los-autonomos-que-no-se-pueden-deducir-en-el-IVA.html)
 - [eleconomista.es: La ayuda del SEPE a los autónomos: así pueden cobrar el paro a la vez que trabajan](https://www.eleconomista.es/economia/noticias/11391909/09/21/La-ayuda-del-SEPE-a-los-autonomos-asi-pueden-cobrar-el-paro-a-la-vez-que-trabajan.html)
-- [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/) 
+- [noticiastrabajo.es: Así pueden los autónomos retrasar el pago de los intereses de los créditos ICO](https://www.noticiastrabajo.es/como-deben-autonomos-retrasar-pago-intereses-creditos-ico/)
 - [autonomosyemprendedor.es: Los autónomos no sólo deben presentar el IVA en octubre, hay más obligaciones tributarias este mes](https://www.autonomosyemprendedor.es/articulo/tus-finanzas/autonomos-solo-deben-presentar-iva-octubre-mas-obligaciones-tributarias-mes/20210927125637025167.html)
 - [xataka.com: La Seguridad Social crea una app móvil para gestionar la nueva cuota de autónomos: permitirá cambiar de tramo mensualmente](https://www.xataka.com/pro/seguridad-social-crea-app-movil-para-gestionar-nueva-cuota-autonomos-permitira-cambiar-tramo-mensualmente-ingresos)
 - [diariocordoba.com: «Ser autónomo en España sigue siendo una profesión de riesgo»](https://www.diariocordoba.com/cordoba-ciudad/2021/12/26/autonomo-espana-sigue-profesion-riesgo-61023753.html)
 - [blog.xolo.io: ¿Es rentable ser autónomo en España?](https://blog.xolo.io/es/es-rentable-ser-aut%C3%B3nomo-en-espa%C3%B1a)
 - [marinaaisa.com: Trabajar en remoto desde España como 'contractor'](https://marinaaisa.com/es/blog/contractor-eeuu-espana/) Una opción alternativa para impulsarte a una carrera internacional sin tener que mudarte fuera de España pudiendo trabajar en remoto.
 - [billin.net: Cómo ser freelance en España en 2022](https://www.billin.net/blog/como-ser-freelance/)
-- [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html) 
+- [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html)
 
 ### Advisory. Asesorías
 
-- [Acento: Cooperativa de freelance](https://acentocoop.es) 
+- [Acento: Cooperativa de freelance](https://acentocoop.es)
 - [declarando.es](https://declarando.es) Asesoría para autónomos
 
 ## Top Freelancing Platforms
 
-- [malt 🌟](https://www.malt.com/) 
+- [malt 🌟](https://www.malt.com/)
 - [upper 🌟](https://upper.co) Europe’s top product & tech professionals, on demand
 - [upwork 🌟](https://www.upwork.com/)
 - [freelancer 🌟](https://www.freelancer.com/)
@@ -67,12 +67,13 @@
 - [certace](https://www.certace.com/)
 - [hellobonsai](https://www.hellobonsai.com/)
 - [remoteone](https://remote.one/)
+- [BairesDev](https://www.bairesdev.com/join-us/) We are a nearshore software outsourcing company, 100% remote, and we are always looking for the best tech talent.
 
 ## Alternatives. Contractor Management / Umbrella Company solutions
 
-- If you are not earning substantial amounts of money, Umbrella Companies are a cheaper option than being self-employed in Spain. They generate invoices for you, pay social security, deduct tax and file your tax return at the end of the year. 
+- If you are not earning substantial amounts of money, Umbrella Companies are a cheaper option than being self-employed in Spain. They generate invoices for you, pay social security, deduct tax and file your tax return at the end of the year.
 - They offer solutions across Europe, the Middle East and Africa.
-- Most of the time the umbrella company will want you to work as a freelancer. Otherwise it's a B2B contract between the umbrella company and the client, raising the invoices to the client (they will probably reject it). 
+- Most of the time the umbrella company will want you to work as a freelancer. Otherwise it's a B2B contract between the umbrella company and the client, raising the invoices to the client (they will probably reject it).
 - [paystream.co.uk: What is an umbrella company?](https://www.paystream.co.uk/umbrella/what-is-an-umbrella-company/)
 - [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain)
 - [freelance.es](https://freelance.es/) Work like an umbrella company
@@ -82,8 +83,8 @@
 
 - https://6catsint.com
 - https://accessfinancial.com
-- https://groupchesterfield.com/umbrella-services/ 
-- https://pixie-services.com 
+- https://groupchesterfield.com/umbrella-services/
+- https://pixie-services.com
 
 ## Tweets
 

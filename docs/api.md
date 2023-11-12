@@ -79,6 +79,8 @@
 - [jkebertz.medium.com: The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
 - [freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/) When you're working with APIs, there are some basic best practices you should follow. And if you really want to learn how they work, build one yourself. In this guide Jean-Marc goes over each best practice as you build a REST API w/ JS, Node, & Express.
 - [infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars](https://www.infoq.com/presentations/api-design-implement-document/)
+- [betterprogramming.pub: How To Deprecate APIs the Right Way](https://betterprogramming.pub/how-to-deprecate-apis-the-right-way-371c1cbf1723) Deprecate your old APIs with the consciousness of your users
+- [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) Discover how to choose the right communication style for your microservices in this exploration of two common protocols.
 
 ## From RESTful to Event-Driven APIs
 
@@ -231,6 +233,7 @@
 ## Tools
 
 - [OpenAPI Generator 🌟](https://openapi-generator.tech/) Generate clients, servers, and documentation from OpenAPI 2.0/3.x documents
+- [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)
 
 ### API Testing
 
@@ -428,5 +431,25 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Difference between API and Webhook<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1630273097994575873?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 What are the API architectural styles?<br><br>The diagram below shows the common API architectural styles in one picture:<br><br>1. REST<br>2. GraphQL<br>3. Web socket<br>4. Webhook<br>5. gRPC<br>6. SOAP <a href="https://t.co/ojmpp12A09">pic.twitter.com/ojmpp12A09</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1630247687114330120?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introduction to GraphQL queries.<br><br>A thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1633900716703006738?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let’s talk about different API testing methods.<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1635264412574535682?ref_src=twsrc%5Etfw">March 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API Integration. What is it?<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1635688708098732055?ref_src=twsrc%5Etfw">March 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to avoid API rate limits?<br><br>A thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1635989229879676930?ref_src=twsrc%5Etfw">March 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Difference between JSON and XML<br><br>- Structure<br>- Performance<br>- Compatibility<br>- Usage<br>- Supported types<br>- Readability<br>- Flexibility<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1636854650748928000?ref_src=twsrc%5Etfw">March 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s talk about APIs<br><br>- What is an API<br>- Usage of APIs<br>- Types of APIs<br>- Benefits of APIs<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1638604947162841090?ref_src=twsrc%5Etfw">March 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let’s learn about OAuth<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1640700244454170625?ref_src=twsrc%5Etfw">March 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Different API Authentication Methods<br><br>1️⃣ Basic Auth<br>2️⃣ API Keys<br>3️⃣ OAuth 2.0<br>4️⃣ JSON Web Tokens<br>5️⃣ Header API Authentication<br><br>Thread 🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1644036496863936513?ref_src=twsrc%5Etfw">April 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API Design Principles and Best Practices.<br><br>❯ Focus on User Experience<br>❯ Embrace RESTful Principles<br>❯ Use Consistent Naming Conventions<br>❯ Versioning &amp; Backward Compatibility<br>❯ Error Handling and Messaging<br>❯ Pagination and Filtering<br>❯ Security and Authentication<br><br>Thread🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1646215102360858624?ref_src=twsrc%5Etfw">April 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">API documentation.<br><br>Tools, Techniques, and Importance:<br><br>Thread🧵👇</p>&mdash; Rapid (@Rapid_API) <a href="https://twitter.com/Rapid_API/status/1646279275304345600?ref_src=twsrc%5Etfw">April 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

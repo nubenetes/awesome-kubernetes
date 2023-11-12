@@ -48,6 +48,8 @@
 - [medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟](https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298)
 - [tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟](https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58) Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.
 - [dzone: Best Practices: Java Memory Arguments for Containers 🌟](https://dzone.com/articles/best-practices-java-memory-arguments-for-container) In this article, we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.
+- [medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment](https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43) In this article, you'll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You'll then learn how to work around them.
+- [danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟](https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6) Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. In this article, you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.
 
 ### Benchmarking modern Java Virtual Machines and the next-generation garbage collectors
 
@@ -157,7 +159,7 @@ En el 2016 saldrá Java 9 con la funcionalidad de auto-tuning y soporte de tama�
 
 En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en Java tiene un coste y las pausas/latencias causadas por los Full GC son proporcionales al tamaño del heap. Estas pausas son notables en tamaños de heap > 1Gb, con un considerable impacto en aplicaciones de tiempo real donde un proceso que no responde rápido puede ser descartado del cluster. Aún así, los servidores actuales hacen uso de frameworks muy pesados y fácilmente requieren heaps > 4Gb. Una solución a este problema es alojar fuera del heap los objetos poco utilizados mediante técnicas de serialización/deserialización (caché). El heap de memoria se mantiene pequeño y el Full GC se completa en milisegundos. Ejemplos:
 
-1. caché de sesión de usuarios, donde un fichero mapeado en memoria almacena gigabytes de sesiones de usuarios inactivos. Una vez que el usuario hace log-in, la aplicación dispone de todos sus datos sin ser necesaria una consulta a la BBDD. 
+1. caché de sesión de usuarios, donde un fichero mapeado en memoria almacena gigabytes de sesiones de usuarios inactivos. Una vez que el usuario hace log-in, la aplicación dispone de todos sus datos sin ser necesaria una consulta a la BBDD.
 2. caché de resultados computacionales como queries, páginas html, etc (donde el coste computacional es mayor a la deserialización)
 
 ## Slides

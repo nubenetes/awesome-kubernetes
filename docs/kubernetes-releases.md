@@ -65,3 +65,4 @@
 - [itnext.io: Unleashing the Power of Kubernetes 1.26: Exploring the New ValidatingAdmissionPolicy Feature with CEL](https://itnext.io/unleashing-the-power-of-kubernetes-1-26-56979ee667fd)
 - [kubernetes.io: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available](https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga/)
 - [alexandrev.medium.com: Kubernetes Autoscaling 1.26: A Game-Changer for KEDA Users?](https://alexandrev.medium.com/kubernetes-autoscaling-1-26-a-game-changer-for-keda-users-c718a81fb155)
+- [sysdig.com: Kubernetes 1.27 – What’s new?](https://sysdig.com/blog/kubernetes-1-27-whats-new/)

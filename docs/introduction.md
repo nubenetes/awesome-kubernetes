@@ -242,6 +242,12 @@
     - Configuration Server
 - [thenewstack.io: What Is Microservices Architecture?](https://thenewstack.io/microservices/what-is-microservices-architecture/) Microservices architecture is game changing, allowing development teams to work independently and at cloud native scale.
 - [levelup.gitconnected.com: Do you know Distributed Job Scheduling in Microservices Architecture? 🌟](https://levelup.gitconnected.com/do-you-know-distributed-job-scheduling-in-microservices-architecture-44082adad8ac)
+- [==nginx.com: Best Practices for Configuring Microservices Apps== 🌟](https://www.nginx.com/blog/best-practices-for-configuring-microservices-apps/) **The guidelines known as the 12‑factor app were first published more than 10 years ago. Since then become the de facto standard way to write and deploy web apps.**
+- [==medium.com/javarevisited: Microservices Communication part 1-every programmer must know== 🌟](https://medium.com/javarevisited/microservices-communication-part-1-every-programmer-must-know-7c6607d2d563) Microservices communication is the heartbeat of any Microservice Architecture and designing them could make or break the system.
+    - [medium.com/javarevisited: Microservices Communication — part 2— Sync vs Async vs Hybrid?](https://medium.com/javarevisited/microservices-communication-part-2-sync-vs-async-vs-hybrid-23d057e137d8)
+- [deloitte.com/de: EMEA Center of Excellence for Application Modernization and Migration](https://www2.deloitte.com/de/de/pages/technology/articles/center-of-excellence-application-modernization.html) Accelerate the transformation of your legacy systems
+- [==redis.com: Microservice Architecture Key Concepts==](https://redis.com/blog/microservice-architecture-key-concepts/) What role do microservices play in creating applications? We offer a foundational understanding of what microservices are, how they differ from monolithic structures, and what to consider when you evaluate microservices for your own adoption.
+- [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b/)
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -409,6 +415,7 @@
 - [semaphoreci.com: Microfrontends: Microservices for the Frontend](https://semaphoreci.com/blog/microfrontends)
     - Microservices are a popular way to build small, autonomous teams that can work independently. Unfortunately, by their very nature, microservices only work in the backend. Even with the best microservice architecture, frontend development still requires a high degree of interdependence, and this introduces coupling and communication overhead that can slow down everyone.
     - Can we take microservice architecture patterns and apply them to the frontend? It turns out we can. Companies such as Netflix, Zalando, and Capital One have pushed the pattern to the front, laying the groundwork for microfrontends. This article will explore microfrontends, their benefits and disadvantages, and how they differ from traditional microservices.
+- [aws.amazon.com: Server-side rendering micro-frontends – UI composer and service discovery](https://aws.amazon.com/blogs/compute/server-side-rendering-micro-frontends-ui-composer-and-service-discovery/)
 
 ## Backends for Frontends
 

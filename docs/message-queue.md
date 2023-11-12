@@ -41,14 +41,13 @@
      2. [Red Hat AMQ Streams](#red-hat-amq-streams)
      3. [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
 11. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
-12. [KEDA. Kubernetes Event Driven Autoscaling](#keda-kubernetes-event-driven-autoscaling)
-13. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
+12. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
      1. [IpaaS Vendors](#ipaas-vendors)
-14. [eBooks](#ebooks)
-15. [Related](#related)
-16. [Questions and Answers](#questions-and-answers)
-17. [Videos](#videos)
-18. [Tweets](#tweets)
+13. [eBooks](#ebooks)
+14. [Related](#related)
+15. [Questions and Answers](#questions-and-answers)
+16. [Videos](#videos)
+17. [Tweets](#tweets)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
 
@@ -385,6 +384,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [strimzi/strimzi-canary](https://github.com/strimzi/strimzi-canary) This repository contains the Strimzi canary tool implementation. It acts as an indicator of whether Kafka clusters are operating correctly. This is achieved by creating a canary topic and periodically producing and consuming events on the topic and getting metrics out of these exchanges.
 - [medium: Mastering Apache Kafka on Kubernetes — Strimzi K8s operator](https://medium.com/hacking-talent/mastering-apache-kafka-on-kubernetes-strimzi-k8s-operator-2c1d21d7b89a)
 - [medium.com/@ahmed.farhan: Kafka Setup in Kubernetes Using Strimzi K8s operator — Part 2](https://medium.com/@ahmed.farhan/kafka-setup-in-kubernetes-using-strimzi-k8s-operator-part-2-1f67dbe5f14d)
+- [medium.com/adaltas: Operating Kafka in Kubernetes with Strimzi](https://medium.com/adaltas/operating-kafka-in-kubernetes-with-strimzi-84a281c6d964)
 
 <center>
 [![airflow vs kafka debezium](images/airflow_vs_debezium.jpg)](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
@@ -482,6 +482,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [airflow.apache.org: Add Owner Links to DAG](https://airflow.apache.org/docs/apache-airflow/stable/howto/add-owner-links.html) You can set the owner_links argument on your DAG object, which will make the owner a clickable link in the main DAGs view page instead of a search filter.
 - [docs.astronomer.io: Dynamically generating DAGs in Airflow](https://docs.astronomer.io/learn/dynamically-generating-dags) How to load DAGs from YAML files in Airflow dynamically?
 - [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81)
+- [==medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator in Apache Airflow== 🌟](https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c) TL;DR: Use the @task.kubernetes decorator!
+- [medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak under the hood](https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b)
 
 ### Couler
 
@@ -535,16 +537,6 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 - [Open Data Hub](https://opendatahub.io/)
 - [Open Data Hub 0.6 brings component updates and Kubeflow architecture](https://developers.redhat.com/blog/2020/05/07/open-data-hub-0-6-brings-component-updates-and-kubeflow-architecture/)
 - [A development roadmap for Open Data Hub](https://developers.redhat.com/blog/2020/06/22/a-development-roadmap-for-open-data-hub/)
-
-## KEDA. Kubernetes Event Driven Autoscaling
-
-- [KEDA](https://keda.sh/) Kubernetes Event-driven Autoscaling. Application autoscaling made simple. https://github.com/kedacore/keda
-- [Dzone: Autoscaling Your Kubernetes Microservice with KEDA](https://dzone.com/articles/autoscaling-your-kubernetes-microservice-with-keda) Introduction to KEDA—event-driven autoscaler for Kubernetes, Apache Camel, and ActiveMQ Artemis—and how to use it to scale a Java microservice on Kubernetes.
-- [tomd.xyz: Event-driven integration on Kubernetes with Camel & KEDA 🌟](https://tomd.xyz/kubernetes-event-driven-keda/) Can we develop apps in Kubernetes that autoscale based on events? Perhaps, with this example using KEDA, ActiveMQ and Apache Camel.
-- [faun.pub: Scaling an app in Kubernetes with KEDA (no Prometheus is needed)](https://faun.pub/keda-ec9fc7c8dd81)
-- [itnext.io: Event Driven Autoscaling](https://itnext.io/event-driven-autoscaling-503b5cefaa49) KEDA expands the capabilities of Kubernetes by managing the integration with external sources allowing you to auto-scale your Kubernetes Deployments based on data from both internal and external metrics.
-- [medium.com/@casperrubaek: Why KEDA is a game-changer for scaling in Kubernetes](https://medium.com/@casperrubaek/why-keda-is-a-game-changer-for-scaling-in-kubernetes-4ebf34cb4b61) KEDA makes it possible to easily scale based on any metric imaginable from almost any metric provider and is running at a massive scale in production in the cloud at some of the largest corporations in the world.
-- [levelup.gitconnected.com: Scale your Apps using KEDA in Kubernetes](https://levelup.gitconnected.com/scale-your-apps-using-keda-in-kubernetes-a1f2142ecc20)
 
 ## Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data
 

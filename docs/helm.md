@@ -121,6 +121,14 @@
 - [medium.com: Helm Your Kubernetes Application](https://medium.com/zeals-tech-blog/helm-your-kubernetes-application-7af6293bcfcf)
 - [medium.com/linux-shots: Use PostgreSQL database as backend storage for helm](https://medium.com/linux-shots/use-postgresql-as-backend-storage-for-helm-de407cd9c43) By default, Helm 3 stores all release information in Kubernetes cluster itself using K8s secret in release namespace.
 - [tratnayake.dev: Using Helm To Include All Files From A Directory In-line](https://tratnayake.dev/helm-include-all-files-from-directory-in-line) In this article, you will learn how to use Helm to fetch all files and their contents from a directory and include them in-line
+- [fenyuk.medium.com: Helm for Kubernetes. Datree for keeping cluster secure and healthy 🌟](https://fenyuk.medium.com/helm-for-kubernetes-datree-for-keeping-cluster-secure-and-healthy-6fbd10f0d958)
+- [fenyuk.medium.com: Helm for Kubernetes. GitOps with Argo CD 🌟](https://fenyuk.medium.com/helm-for-kubernetes-gitops-with-argo-cd-c8f80330596)
+- [medium.com/geekculture: HELM — How Release Information is Stored](https://medium.com/geekculture/helm-how-release-information-is-stored-778d7f0b7498) Advanced Helm usage
+- [levelup.gitconnected.com: Helm — Data Sharing Between Parent and Child Chart](https://levelup.gitconnected.com/helm-data-sharing-between-parent-and-child-chart-c4487a452d4e) Data exchange between parent and child chart in helm. In this article, you will explore a few strategies to share data between Helm charts:
+    - Overriding values from a parent chart
+    - Making child chart data available to the parent chart
+    - Global chart values
+    - Sharing templates with subcharts
 
 ## Helm Plugins
 
@@ -220,6 +228,8 @@ Kubernetes packages
 - [maorfr/helm-backup: Helm Backup Plugin](https://github.com/maorfr/helm-backup) Helm plugin which performs backup/restore of releases in a namespace to/from a file
 - [helmwave/helmwave](https://github.com/helmwave/helmwave) Helmwave is helm3-native tool for deploy your Helm Charts. HelmWave is like docker-compose for helm.
 - [github.com/jkosik: helm-decomposer](https://github.com/jkosik/helm-decomposer) Decomposes Helm package and visualizes hierarchy of subcharts and images
+- [github.com/projectsveltos: sveltosctl](https://github.com/projectsveltos/sveltosctl#display-outcome-of-clusterprofiles-in-dryrun-mode) A CLI to nicely display resources/helm charts deployed in CAPI Cluster by Sveltos. Collect tech-support from managed Kubernetes clusters sveltosctl nicely displays resources and Helm charts info in CAPI Kubernetes Clusters deployed using ClusterProfile. It also provides the ability to generate configuration snapshots and roll backs to a previously taken configuration snapshot.
+- [abhaypore.medium.com: Migrate your manifest yaml files into Helm Chart](https://abhaypore.medium.com/migrate-your-manifest-yaml-files-into-helm-chart-32a44230f3b5)
 
 ## Helm Books
 

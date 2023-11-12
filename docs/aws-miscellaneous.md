@@ -28,6 +28,7 @@
 24. [AWS LightSail](#aws-lightsail)
 25. [AWS Data Lake](#aws-data-lake)
 26. [AWS Managed Grafana](#aws-managed-grafana)
+27. [AWS Landing Zone](#aws-landing-zone)
 
 ## AWS Application Discovery Service
 
@@ -173,3 +174,7 @@
 ## AWS Managed Grafana
 
 - [dev.to: Automatic API Key rotation for Amazon Managed Grafana](https://dev.to/aws-heroes/automatic-api-key-rotation-for-amazon-managed-grafana-2h68)
+
+## AWS Landing Zone
+
+- [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)

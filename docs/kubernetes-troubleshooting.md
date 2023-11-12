@@ -1,27 +1,29 @@
 # Kubernetes Troubleshooting
 
 1. [Introduction](#introduction)
-2. [ImagePullBackOff](#imagepullbackoff)
-3. [CrashLoopBackOff](#crashloopbackoff)
-4. [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
-5. [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
-6. [Pod in Terminating or Unknown Status](#pod-in-terminating-or-unknown-status)
-7. [OOM Kills](#oom-kills)
-8. [Pause Container](#pause-container)
-9. [Preempted Pod](#preempted-pod)
-10. [Evited Pods](#evited-pods)
-11. [Stuck Namespace](#stuck-namespace)
-12. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
-13. [CoreDNS issues](#coredns-issues)
-14. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
-15. [Troubleshooting Tools](#troubleshooting-tools)
+2. [Kubernetes Network Troubleshooting](#kubernetes-network-troubleshooting)
+3. [Exit Codes in Containers and Kubernetes](#exit-codes-in-containers-and-kubernetes)
+4. [ImagePullBackOff](#imagepullbackoff)
+5. [CrashLoopBackOff](#crashloopbackoff)
+6. [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
+7. [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
+8. [Pod in Terminating or Unknown Status](#pod-in-terminating-or-unknown-status)
+9. [OOM Kills](#oom-kills)
+10. [Pause Container](#pause-container)
+11. [Preempted Pod](#preempted-pod)
+12. [Evited Pods](#evited-pods)
+13. [Stuck Namespace](#stuck-namespace)
+14. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
+15. [CoreDNS issues](#coredns-issues)
+16. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
+17. [Troubleshooting Tools](#troubleshooting-tools)
      1. [Komodor](#komodor)
      2. [Palaemon](#palaemon)
      3. [cdebug and debug-ctr](#cdebug-and-debug-ctr)
      4. [kubectl-debug](#kubectl-debug)
-16. [Slides](#slides)
-17. [Images](#images)
-18. [Tweets](#tweets)
+18. [Slides](#slides)
+19. [Images](#images)
+20. [Tweets](#tweets)
 
 ## Introduction
 
@@ -80,6 +82,17 @@
 - [thenewstack.io: What David Flanagan Learned Fixing Kubernetes Clusters](https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters/) David Flanagan has fixed 50+ Kubernetes clusters as part of his YouTube series, 'Klustered.' He shared what he learned at Civo Navigate.
 - [==github.com/metaleapca: metaleap-k8s-troubleshooting.pdf== 🌟🌟🌟](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
 - [nicolasbarlatier.hashnode.dev: .NET Core Tip 2: How to troubleshoot Memory Leaks within a .NET Console application running in a Linux Docker Container in Kubernetes](https://nicolasbarlatier.hashnode.dev/net-core-tip-2-how-to-troubleshoot-memory-leaks-within-a-net-console-application-running-in-a-linux-docker-container-in-kubernetes) In this step-by-step guide, you will learn how to troubleshoot a memory leak in a .Net Core application running within a Kubernetes cluster.
+- [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. In this article, you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more
+- [==dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges==](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges) Bugs are inevitable and typically occur as a result of an error or oversight. Learn five Kubernetes debugging challenges and how to tackle them.
+- [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba) **The `/proc` directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. In this article, you will learn how to explore the directory in a Kubernetes cluster**
+
+## Kubernetes Network Troubleshooting
+
+- [==hwchiu.medium.com: Kubernetes Network Troubleshooting Approach== 🌟](https://hwchiu.medium.com/kubernetes-network-troubleshooting-approach-701de9463493)
+
+## Exit Codes in Containers and Kubernetes
+
+- [==komodor.com: Exit Codes In Containers & Kubernetes – The Complete Guide==  🌟](https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide/) In this article, you will learn everything there is to know about exit codes used by container engines to indicate reasons for container termination.
 
 ## ImagePullBackOff
 
@@ -92,7 +105,7 @@
 - [devtron.ai: Troubleshoot: Pod Crashloopbackoff](https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod/)
 - [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods/) Why are Pod not fully restartable in Kubernetes? Why is Kubernetes not restarting the Pod in **CrashLoopBackOff**?
 - [pauldally.medium.com: Why Leaving Pods in CrashLoopBackOff Can Have a Bigger Impact Than You Might Think](https://pauldally.medium.com/why-leaving-pods-in-crashloopbackoff-can-have-a-bigger-impact-than-you-might-think-c0d3dbd067a)
-- [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it](https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/) CrashLoopBackOff is a Kubernetes state representing a restart loop that is happening in a Pod: a container in the Pod is started but crashes and is then restarted over and over again. Learn what it is and how to fix it in this article
+- [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it 🌟](https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/) CrashLoopBackOff is a Kubernetes state representing a restart loop that is happening in a Pod: a container in the Pod is started but crashes and is then restarted over and over again. Learn what it is and how to fix it in this article
 
 ## Failed to Create Pod Sandbox
 
@@ -167,10 +180,12 @@
 - [==heka-ai.medium.com: Introduction to Debugging: locally and live on Kubernetes with VSCode== 🌟](https://heka-ai.medium.com/introduction-to-debugging-locally-and-live-on-kubernetes-8c8ecd3acbaa) In this article, you'll learn how to debug your code in real-time on a Pod running on Kubernetes using VS Code
 - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers/) Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command
 - [eminaktas.medium.com: Debug Containerd in Production](https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2) In this article, you will learn how you can debug containerd with VSCode in a remote production environment.
+- [medium.com/@alex.ivenin: Exploring ephemeral containers in kubernetes 🌟](https://medium.com/@alex.ivenin/exploring-ephemeral-containers-in-kubernetes-bcceaf21101c) Ephemeral containers, a feature that was introduced in Kubernetes 1.16 as an alpha release, advanced to beta status in version 1.23, and has finally graduated to stable status in Kubernetes 1.25. This capability provides an easy and safe way to debug running containers in a pod, without requiring full access to the underlying node.
 
 ## Troubleshooting Tools
 
 - [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) Troubleshoot is a framework for collecting and analyzing diagnostic information about a Kubernetes cluster. The framework is customizable and allows third-party application developers to create troubleshoot specs that can be run by cluster operators.
+- [github.com/airwallex: k8s-pod-restart-info-collector](https://github.com/airwallex/k8s-pod-restart-info-collector) k8s-pod-restart-info-collector is a simple Kubernetes customer controller that watches for Pods changes and collects K8s Pod restart reasons, logs, and events to Slack channels when a Pod restarts
 
 ### Komodor
 

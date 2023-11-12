@@ -8,7 +8,8 @@
 6. [Monitoring Certificates Expiration](#monitoring-certificates-expiration)
 7. [kubeshark](#kubeshark)
 8. [k8spacket](#k8spacket)
-9. [Videos](#videos)
+9. [Kubelog](#kubelog)
+10. [Videos](#videos)
 
 ## Introduction
 
@@ -71,6 +72,11 @@
 - [grafana.com: A beginner's guide to Kubernetes application monitoring](https://grafana.com/blog/2023/01/31/a-beginners-guide-to-kubernetes-application-monitoring)
 - [medium.com/@poseidon.os: Poseidon: A Kubernetes Cluster Visualization & Cost Analysis Tool](https://medium.com/@poseidon.os/poseidon-a-kubernetes-cluster-visualization-cost-analysis-tool-d0fb55c2858c)
 - [==aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits== 🌟](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits/) **In this article, you'll discuss how CPU throttling can affect Kubernetes' node performance, and how to avoid this by setting the right values for limits. The author also suggests using Prometheus as a tool to help set reasonable limits**
+- [umeey.medium.com: Four Golden Signals Of Monitoring: Site Reliability Engineering (SRE) Metrics](https://umeey.medium.com/four-golden-signals-of-monitoring-site-reliability-engineering-sre-metrics-64031dbe268) Golden Signal Monitoring using FastAPI on k8s
+- [grafana.com: How to optimize resource utilization with Kubernetes Monitoring for Grafana Cloud 🌟](https://grafana.com/blog/2023/03/03/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud/) **Overprovisioning or underprovisioning your Kubernetes resources can have significant consequences on both your budget and your app performance.**
+- [medium.com/@lambdaEranga: Monitor Kubernets Services/Endpoints with Prometheus Blackbox Exporter 🌟](https://medium.com/@lambdaEranga/monitor-kubernets-services-endpoints-with-prometheus-blackbox-exporter-a64e062c05d5) In this article, you will discuss monitoring different endpoints/services in a Kubernetes cluster using Prometheus Blackbox Exporter
+- [samiislam0306.medium.com: Insightful Monitoring of Kubernetes Clusters with Traces](https://samiislam0306.medium.com/insightful-monitoring-of-kubernetes-clusters-with-traces-c7c3b33ed07e) Gain valuable insights into the performance of your Kubernetes cluster with trace monitoring. A guide that helps you optimize your operations for maximum efficiency and productivity.
+- [medium.com/@walissonscd: Monitoring Kubernetes Cluster Resources: Using Top Metrics Commands](https://medium.com/@walissonscd/monitoring-kubernetes-cluster-resources-using-top-metrics-commands-a60408765321)
 
 ## Kubernetes Logging
 
@@ -99,6 +105,7 @@
 - [blog.amhaish.com: Observing the K8 cluster using ELK stack](https://blog.amhaish.com/observing-the-k8-cluster-using-elk-stack-7d4264fdb0e3)
 - [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) The Logging operator automates the deployment and configuration of a Kubernetes logging pipeline. The operator deploys and configures a Fluent Bit daemonset on every node to collect container and application logs from the node file system.
 - [akyriako.medium.com: Kubernetes Logging with Grafana Loki & Promtail in under 10 minutes 🌟](https://akyriako.medium.com/kubernetes-logging-with-grafana-loki-promtail-in-under-10-minutes-d2847d526f9e) Consolidate all your Kubernetes logs in a intuitive Grafana dashboard.
+- [yuminlee2.medium.com: Kubernetes: Container and Pod Logging](https://yuminlee2.medium.com/kubernetes-container-and-pod-logging-82ec5c057cb2)
 
 ## SLOs in Kubernetes
 
@@ -121,12 +128,17 @@
 
 - [==kubeshark.co==](https://kubeshark.co) The API Traffic Viewer for  kubernetes. Deep visibility and monitoring of all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.
 - [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster. Think TCPDump and Wireshark re-invented for Kubernetes
+- [medium.com/kernel-space: KubeShark: Wireshark for Kubernetes](https://medium.com/kernel-space/kubeshark-wireshark-for-kubernetes-4069a5f5aa3d)
 
 ## k8spacket
 
 - [medium.com/@bareckidarek: TCP packets traffic visualization for kubernetes by k8spacket and Grafana](https://medium.com/@bareckidarek/tcp-packets-traffic-visualization-for-kubernetes-by-k8spacket-and-grafana-bb87cb106f30)
 - [medium.com/geekculture: K8s Networking — k8spacket](https://medium.com/geekculture/k8s-networking-k8spacket-eb85f167d1d5) Use k8spacket and Grafana to visualize K8s cluster Traffic
 - [pakdailytimes.com: TCP packets traffic visualization for kubernetes by k8spacket and Grafana](https://www.pakdailytimes.com/2022/12/tcp-packets-traffic-visualization-for.html)
+
+## Kubelog
+
+- [kubelog.de](https://kubelog.de) kubelog is a graphical log viewer for Kubernetes, which works with your existing Kubernetes logging infrastructure. Kubelog is a log viewer for kubernetes. Tail multiple pods in one view and use searches to highlight and show results in context.
 
 ## Videos
 

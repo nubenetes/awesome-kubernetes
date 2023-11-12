@@ -1,17 +1,19 @@
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 
 1. [Git Distributed Version-Control System](#git-distributed-version-control-system)
-2. [Git stash](#git-stash)
-3. [Git Branches](#git-branches)
-4. [Git Aliases](#git-aliases)
-5. [Git and GitHub Backup](#git-and-github-backup)
-6. [Cherry-picking](#cherry-picking)
-7. [Git Submodules](#git-submodules)
-8. [Shields](#shields)
-9. [Design By Contract](#design-by-contract)
-10. [Git Cheat Sheets](#git-cheat-sheets)
-11. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
-12. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+2. [Git Releases](#git-releases)
+3. [Git stash](#git-stash)
+4. [Git Squash](#git-squash)
+5. [Git Branches](#git-branches)
+6. [Git Aliases](#git-aliases)
+7. [Git and GitHub Backup](#git-and-github-backup)
+8. [Cherry-picking](#cherry-picking)
+9. [Git Submodules](#git-submodules)
+10. [Shields](#shields)
+11. [Design By Contract](#design-by-contract)
+12. [Git Cheat Sheets](#git-cheat-sheets)
+13. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
+14. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
      1. [Git Workflows](#git-workflows)
      2. [Trunk Based Development](#trunk-based-development)
      3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
@@ -21,11 +23,11 @@
      5. [Alternative Branching Models](#alternative-branching-models)
          1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
              1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
-13. [Git Commands](#git-commands)
-14. [BitBucket](#bitbucket)
-15. [GitLab](#gitlab)
+15. [Git Commands](#git-commands)
+16. [BitBucket](#bitbucket)
+17. [GitLab](#gitlab)
      1. [GitLab Collective](#gitlab-collective)
-16. [GitHub](#github)
+18. [GitHub](#github)
      1. [GitHub Lab](#github-lab)
      2. [GitHub Code Scanner](#github-code-scanner)
      3. [GitHub Actions](#github-actions)
@@ -33,15 +35,17 @@
      4. [GitHub Actions and OpenShift](#github-actions-and-openshift)
      5. [GitHub Copilot](#github-copilot)
          1. [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
-         2. [Alternatives](#alternatives)
-17. [Gitea](#gitea)
-18. [Sapling](#sapling)
-19. [Git Tools](#git-tools)
+         2. [GitHub Copilot X](#github-copilot-x)
+         3. [Alternatives](#alternatives)
+             1. [CodiumAI](#codiumai)
+19. [Gitea](#gitea)
+20. [Sapling](#sapling)
+21. [Git Tools](#git-tools)
      1. [Git Credential Manager](#git-credential-manager)
      2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
-20. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-21. [Pre Commit Hooks](#pre-commit-hooks)
-22. [Merge BOTs](#merge-bots)
+22. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
+23. [Pre Commit Hooks](#pre-commit-hooks)
+24. [Merge BOTs](#merge-bots)
      1. [Tips](#tips)
      2. [Jenkins for git merges](#jenkins-for-git-merges)
      3. [Bitbucket for git merges](#bitbucket-for-git-merges)
@@ -52,9 +56,9 @@
      7. [Mergify bot](#mergify-bot)
      8. [GitHub bots](#github-bots)
          1. [Bors GitHub bot](#bors-github-bot)
-23. [Videos](#videos)
-24. [Slides](#slides)
-25. [Tweets](#tweets)
+25. [Videos](#videos)
+26. [Slides](#slides)
+27. [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
 
@@ -90,7 +94,6 @@
 - [Things You Want to Do in Git and How to Do Them](https://stu2b50.dev/posts/things-you-wante9665)
 - [livecodestream.dev: Git Concepts and Workflow for Beginners](https://livecodestream.dev/post/2020-08-21-git-concepts-and-workflow-for-beginners/)
 - [thenextweb.com: A beginner’s guide to the most popular Git commands](https://thenextweb.com/syndication/2020/09/02/a-beginners-guide-to-the-most-popular-git-commands/)
-- [devroom.io: Git Squash your latests commits into one](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
 - [julien.danjou.info: Stop merging your pull requests manually 🌟](https://julien.danjou.info/stop-merging-your-pull-request-manually/) -> [mergify 🌟](https://mergify.io/)
 - [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/2020/11/23/keep-git-history-clean-with-interactive-rebase/) Interactive rebase is one of Git’s most versatile tools. Here's how to use it to correct commit messages, fix mistakes, and more.
 - [gitkraken.com: Git Tutorials: Instructional Training Videos 🌟](https://www.gitkraken.com/learn/git/tutorials)
@@ -122,7 +125,6 @@
 - [livecodestream.dev: Five Advanced Git Concepts that Make You Look Like a Pro](https://livecodestream.dev/post/five-advanced-git-concepts-that-make-you-look-like-a-pro/) Learn how to master GIT with these 5 advanced concepts
 - [cloudbees.com: Git Pull: How It Works With Detailed Examples](https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples)
 - [midu.dev: Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/)
-- [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
 - [cloudbees.com: Git Push: An In-Depth Tutorial With Examples](https://www.cloudbees.com/blog/git-push-an-in-depth-tutorial-with-examples)
 - [blog.annamcdougall.com: Git Workflow Tutorial: Start Using Git TODAY with Basic Git Commands](https://blog.annamcdougall.com/git-workflow-tutorial-start-using-git-today-with-basic-git-commands-ckdc1nvfs02zp66s1d4zydz47)
 - [thenewstack.io: Git for Managing Small Projects 🌟](https://thenewstack.io/git-for-managing-small-projects/)
@@ -173,12 +175,25 @@
 - [polarsquad.com: Stop doing pull requests](https://polarsquad.com/blog/stop-doing-pull-requests)
 - [medium.com/@datosh18: Gitsign in remote environments](https://medium.com/@datosh18/gitsign-in-remote-environments-6f40f47d289f)
 - [medium.com/qe-unit: How Google Does Monorepo (Revisited)](https://medium.com/qe-unit/how-google-does-monorepo-revisited-8c793be20344)
+- [dev.to: How atomic Git commits dramatically increased my productivity - and will increase yours too 🌟](https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84)
+- [==dev.to: Git fundamentals, a complete guide | Leandro Proença== 🌟🌟](https://dev.to/leandronsp/git-fundamentals-a-complete-guide-do7)
+- [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git/)
+
+## Git Releases
+
+- [github.blog: Highlights from Git 2.40](https://github.blog/2023-03-13-highlights-from-git-2-40/) The first Git release of the year is here! Take a look at some of our highlights on what's new in Git 2.40.
 
 ## Git stash
 
 - [opensource.com: A practical guide to using the git stash command](https://opensource.com/article/21/4/git-stash) Learn how to use the git stash command and when you should use it.
 - [medium.com/featurepreneur: Don’t trash your changes but stash ‘em!](https://medium.com/featurepreneur/dont-trash-your-changes-but-stash-em-2091a191f7db)
 - [dev.to: How to Use Git Stash Command](https://dev.to/mwafrika/how-to-use-git-stash-command-22bk)
+
+## Git Squash
+
+- [cloudbees.com: Git Squash: How to Condense Your Commit History](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
+- [devroom.io: Git Squash your latests commits into one](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
+- [freecodecamp.org: Git Squash Commits – Squashing the Last N Commits into One Commit](https://www.freecodecamp.org/news/git-squash-commits/)
 
 ## Git Branches
 
@@ -605,16 +620,25 @@ git rebase -i HEAD~5
 - [genbeta.com: Ya hay organizaciones pro-software libre abandonando GitHub por su uso comercial de proyectos open source en Copilot](https://www.genbeta.com/desarrollo/hay-organizaciones-pro-software-libre-abandonando-github-su-uso-comercial-proyectos-open-source-copilot)
 - [xataka.com: Copilot ya escribe el 40% del código de lenguajes como Java o Python que llega a GitHub. En cinco años llegará al 80%](https://www.xataka.com/aplicaciones/copilot-escribe-40-codigo-lenguajes-como-java-python-que-llega-a-github-cinco-anos-llegara-al-80)
 - [xataka.com: Copilot es una revolución para programadores (pero también un potencial problema legal para Microsoft)](https://www.xataka.com/robotica-e-ia/copilot-revolucion-para-programadores-tambien-potencial-problema-legal-para-microsoft)
+- [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) GitHub Copilot is evolving to bring chat and voice interfaces, support pull requests, answer questions on docs, and adopt OpenAI’s GPT-4 for a more personalized developer experience.
 
 #### GitHub CoPilot VS GPT-3
 
 - [python.plainenglish.io: Who Writes Better Code: GitHub CoPilot or GPT-3?](https://python.plainenglish.io/who-writes-better-code-github-copilot-or-gpt-3-9e7441650c9b)
+
+#### GitHub Copilot X
+
+- [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.com/software/github-copilot-x-nueva-ia-parecida-chatgpt-destinada-ayudar-programadores-1219266)
 
 #### Alternatives
 
 - [medium.com/geekculture: Hey ChatGPT, Automate These Tasks Using Python](https://medium.com/geekculture/hey-chatgpt-solve-these-coding-tasks-using-python-b2e7482f2c18) Using AI to plot graphs, send emails/messages, and do web scraping in a few seconds.
 - [xataka.com: Los programadores ya alucinaban con CoPilot y ChatGPT, pero ahora DeepMind va más allá con AplhaCode](https://www.xataka.com/robotica-e-ia/programadores-alucinaban-copilot-chatgpt-ahora-deepmind-va-alla-aplhacode)
 - [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) The first open source equivalent of ChatGPT. Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
+##### CodiumAI
+
+- [codium.ai: We’ve launched CodiumAI powered by TestGPT and raised $11M. Here’s why](https://www.codium.ai/blog/codiumai-powered-by-testgpt-accounces-beta-and-raised-11m/)
 
 ## Gitea
 
@@ -638,6 +662,7 @@ git rebase -i HEAD~5
 - [Visual Studio Code (Git Extensions)](visual-studio.md)
 - [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 - [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) Git extension for versioning large files
+- [==github.com/MichaelMure/git-bug==](https://github.com/MichaelMure/git-bug) **Distributed, offline-first bug tracker embedded in git, with bridges**
 
 ### Git Credential Manager
 
@@ -768,6 +793,7 @@ Automate them.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HlmZLXMOpEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PGyhBwLyK2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="469" height="834" src="https://www.youtube.com/embed/o3qURBllpGM" title="GitHub CoPilot is like a second brain" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e2IbNHi4uCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </center>
 
 ## Slides

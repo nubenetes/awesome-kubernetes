@@ -88,6 +88,8 @@
 - [jchyip.medium.com: My critique of “the Spotify Model”: Part 1](https://jchyip.medium.com/my-critique-of-the-spotify-model-part-1-197d335ef7af)
 - [hbr.org: How to Give Tough Feedback That Helps People Grow](https://hbr.org/2015/08/how-to-give-tough-feedback-that-helps-people-grow)
 - [medium.com/@tom-neal: CTO Checklist](https://medium.com/@tom-neal/cto-checklist-1a2ef3d6502)
+- [martinfowler.com: Retrospectives Antipatterns 🌟](https://martinfowler.com/articles/retrospective-antipatterns.html) If you use retrospectives, or any kind of meeting where people are supposed to discuss and learn from their discussions, you will have experienced less efficient sessions from time to time. There is no wonder in that, and it happens to most people. This article describes and offers solutions for three of these unfortunate situations: skipping generating insights, getting lost in things you can't change, and being dominated by a loudmouth.
+- [==dzone.com: Productivity: Noise Is the Problem== 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem) How to improve the productivity of our engineering team by providing more focus time
 
 ### Spanish
 

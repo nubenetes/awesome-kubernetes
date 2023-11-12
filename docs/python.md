@@ -243,6 +243,12 @@
 - [freecodecamp.org: How to Use PyScript – A Python Frontend Framework 🌟](https://www.freecodecamp.org/news/pyscript-python-front-end-framework/) Python is popular for web development, often used on the backend w/ frameworks like Django & Flask. But there's a newer framework called PyScript that lets you use Python on the web with regular HTML.
 - [realpython.com: How to Get a List of All Files in a Directory With Python](https://realpython.com/get-all-files-in-directory-python/)
 - [freecodecamp.org: Python For Loop - For i in Range Example](https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example/)
+- [github.blog: Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/) A deep dive into why more people are using Python than ever, its key use cases, and why it’s still so popular 30-plus years after it was first released.
+- [realpython.com: Evaluate Expressions Dynamically With Python eval() (Overview)](https://realpython.com/lessons/python-eval-overview/)
+- [realpython.com: Splitting, Concatenating, and Joining Strings in Python Quiz](https://realpython.com/quizzes/python-split-strings/)
+- [medium.com/@terminalsandcoffee: Mastering Python: How to Generate a List of Dictionaries for Files in Your Working Directory with One Script](https://medium.com/@terminalsandcoffee/mastering-python-how-to-generate-a-list-of-dictionaries-for-files-in-your-working-directory-with-7cab8b485e69)
+- [realpython.com: How to Write Pythonic Loops](https://realpython.com/courses/how-to-write-pythonic-loops/)
+- [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/) When you're learning Python, there are some important algorithms and data structures you'll need to know. They'll come up in job interviews, & you'll use them on a daily basis, too. You'll learn how to use them in this comprehensive Python DSA course.
 
 ## PHP vs Python
 
@@ -341,6 +347,7 @@
 - [towardsdatascience.com: Unlimited scientific libraries and applications in Kubernetes, instantly!](https://towardsdatascience.com/unlimited-scientific-libraries-and-applications-in-kubernetes-instantly-b69b192ec5e5) Set up a shared library of packages and applications that you can dynamically load into your Kubernetes Data Science environments.
 - [==huyenchip.com: Why data scientists shouldn’t need to know Kubernetes==](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)
 - [==towardsdatascience.com: How to Land a Data Science Job in 2022==](https://towardsdatascience.com/how-to-land-a-data-science-job-in-2022-ebfbc506516b) 7 skills to improve employability for a data science position
+- [==realpython.com: Machine Learning With Python== 🌟🌟🌟](https://realpython.com/learning-paths/machine-learning-python/)
 
 ### Python Pandas and pivot tables
 
@@ -404,6 +411,7 @@
 - [dev.to: Code Quality Tools in Python](https://dev.to/dollardhingra/code-quality-tools-in-python-4k2a)
 - [==google/python-fire== 🌟](https://github.com/google/python-fire) Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 - [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) Memray is a memory profiler for Python
+- [github.com/microsoft/pyright](https://github.com/microsoft/pyright) Static Type Checker for Python
 
 ### Web Scraping with Python
 

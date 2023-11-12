@@ -2,28 +2,30 @@
 
 1. [Introduction](#introduction)
 2. [TCP Keep Alive Requests](#tcp-keep-alive-requests)
-3. [NetworkPolicy](#networkpolicy)
-4. [Nginx Ingress Controller](#nginx-ingress-controller)
-5. [Contour Ingress Controller](#contour-ingress-controller)
-6. [Kubernetes Gateway API](#kubernetes-gateway-api)
-7. [Kube-proxy](#kube-proxy)
-8. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
-9. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
-10. [Kubernetes Network Policy](#kubernetes-network-policy)
+3. [Headless Kubernetes Service](#headless-kubernetes-service)
+4. [NetworkPolicy](#networkpolicy)
+5. [Nginx Ingress Controller](#nginx-ingress-controller)
+6. [Contour Ingress Controller](#contour-ingress-controller)
+7. [Kubernetes Gateway API](#kubernetes-gateway-api)
+8. [Kube-proxy](#kube-proxy)
+9. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
+10. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
+11. [Kubernetes Network Policy](#kubernetes-network-policy)
      1. [Cilium](#cilium)
      2. [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
-11. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
-12. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
-13. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
-14. [CNI Container Networking Interface](#cni-container-networking-interface)
+12. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
+13. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
+14. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
+15. [CNI Container Networking Interface](#cni-container-networking-interface)
      1. [List of existing CNI Plugins (IPAM)](#list-of-existing-cni-plugins-ipam)
      2. [Project Calico](#project-calico)
-15. [DNS Service with CoreDNS](#dns-service-with-coredns)
-16. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
-17. [k8gb](#k8gb)
-18. [Images](#images)
-19. [Videos](#videos)
-20. [Tweets](#tweets)
+16. [DNS Service with CoreDNS](#dns-service-with-coredns)
+17. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
+18. [k8gb](#k8gb)
+19. [VPC Lattice](#vpc-lattice)
+20. [Images](#images)
+21. [Videos](#videos)
+22. [Tweets](#tweets)
 
 ## Introduction
 
@@ -157,10 +159,26 @@
 - [blog.devops.dev: Networking in Kubernetes](https://blog.devops.dev/networking-in-kubernetes-55dcf794b9cd) In this blog post, we’re going to delve into the world of Kubernetes networking and explore the many components that make it such a powerful and reliable platform for modern containerized applications. lets discover the essential networking components that make Kubernetes the go-to choice for cloud-native deployments!
 - [medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link to each other](https://medium.com/@mustafaaltunok/how-ingress-service-deployment-and-pod-link-to-eachother-d3a6ae2c0e06) In Kubernetes domain, deployment of an app consists of mainly three components. From outer to inner.
 - [inlets.dev: How to Get Ingress for Private Kubernetes Clusters](https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html) By design, local Kubernetes clusters are inaccessible from the internet. So how can we fix that if we want to use Ingress? What are the options for getting a public IP or LoadBalancer for local Kubernetes clusters? I cover use-cases and compare port-forwarding, Ngrok, Wireguard and inletsdev
+- [blog.devops.dev: Demystifying Kubernetes:Understanding Ingress, Configuration, and Best Practices](https://blog.devops.dev/demystifying-kubernetes-understanding-ingress-configuration-and-best-practices-fb34e33e5f5f) A comprehensive overview of Kubernetes, the basics of ingress and how to configure it to expose services within K8s cluster.
+- [==dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster== 🌟](https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41) **This article discusses the various ways in which microservices in Kubernetes can communicate with each other. It provides an example of two pods, one acting as an HTTP web server and the other as a curl client that makes a request to the web server.**
+- [==medium.com/google-cloud: Kubernetes Ingress Vs Gateway API== 🌟](https://medium.com/google-cloud/kubernetes-ingress-vs-gateway-api-647ee233693d) Understanding the Differences between Kubernetes Ingress and Gateway API for Effective Traffic Management
+- [medium.com/nerd-for-tech: Kubernetes: Deploying NGINX with a ConfigMap | Chanel Jemmott](https://medium.com/nerd-for-tech/kubernetes-deploying-nginx-with-a-configmap-e8a2fe59bcb1)
+- [medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part I. Service | Brandon Kang](https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-1-service-abe1c5b03fc)
+    - [medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part II. Ingress | Brandon Kang](https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-2-ingress-18f44a712690)
+- [==shahneil.medium.com: What Are Kubernetes Endpoints?==](https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4)
+- [==fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide==](https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d) **Kubernetes Ingress plays a crucial role in managing external access to services within a cluster.**
 
 ## TCP Keep Alive Requests
 
 - [kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟](https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6) In this article, you will learn how TCP keep-alive requests could hurt horizontal scaling for your pods. You will also discuss the workarounds you can apply to your apps or web servers.
+
+## Headless Kubernetes Service
+
+- [medium.com: Headless Kubernetes Service](https://medium.com/@bubu.tripathy/headless-k8s-service-924c689607a7) A headless service in Kubernetes can be a useful tool for creating distributed applications. It allows you to directly access the individual pods in a service. This is useful in scenarios where you need to perform complex load-balancing. A headless service does not have a cluster IP assigned to it. Instead of providing a single virtual IP address for the service, a headless service creates a DNS record for each pod associated with the service. These DNS records can then be used to directly address each pod. Here’s a high-level overview of how a headless service works:
+    - A headless service is created in Kubernetes
+    - Pods are associated with the service through labels
+    - DNS records are created for each pod associated with the service
+    - Clients can use the DNS records to directly access each pod
 
 ## NetworkPolicy
 
@@ -179,6 +197,9 @@
 - [devopscube.com: How to Setup Nginx Ingress Controller On Kubernetes – Detailed Guide 🌟](https://devopscube.com/setup-ingress-kubernetes-nginx-controller/)
 - [medium.com/@jonathan_37674: How to secure Kubernetes ingress? | By ARMO](https://medium.com/@jonathan_37674/how-to-secure-kubernetes-ingress-by-armo-cb86086ec540)
 - [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.nginx.com/blog/automating-multi-cluster-dns-with-nginx-ingress-controller)
+- [==engineering.backmarket.com: How we improved third-party availability and latency with Nginx in Kubernetes== 🌟](https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4) Introducing a gateway to cache your third-party API can significantly improve its performance and stability. In this case study, you will discover how the team at Back Market configured NGINX in Kubernetes to improve third-party API availability and latency.
+- [towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps & Shared Services with Minikube](https://towardsdev.com/kubernetes-deploying-nginx-servers-with-configmaps-shared-services-with-minikube-618aee9a8ff6)
+- [faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes](https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399)
 
 ## Contour Ingress Controller
 
@@ -337,6 +358,10 @@ Cilium allows users to specify an egress NAT policy
 
 - [k8gb.io](https://www.k8gb.io) A cloud native Kubernetes Global Balancer
 - [blog.abaganon.com: Why you probably won’t use K8gb.io](https://blog.abaganon.com/going-global-with-kubernetes-490cf51e2bf8) This article covers the 2 kinds of Global Server Load Balancers and goes into some hands-on specifics of K8gb — the first open-source DNS-based Global Server Load balancer for Kubernetes.
+
+## VPC Lattice
+
+- [dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks](https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8) An exciting new service that simplifies the networking layer for developers and cloud administrators.
 
 ## Images
 

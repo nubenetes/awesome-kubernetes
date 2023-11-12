@@ -190,7 +190,7 @@
     - Creating the Role
     - Installing the ALB Ingress controller
 - [==medium.com/@ankit.wal: Understanding IAM roles for service accounts, IRSA, on AWS EKS==](https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942) A simple visual explanation of how IRSA works to help you understand and remember. IRSA is the AWS EKS native way to allow applications running in EKS pods to access AWS API, using permissions configured in AWS IAM roles. It’s an improvement over the previous architecture of applications running in pods to use the IAM roles of the underlying EKS nodes. Being able to configure access to AWS API per service account tends towards the principle of least privilege, and more secure architecture.
-- [blog.realvarez.com: Reduce Amazon EKS cost by scaling node groups to zero 🌟](https://blog.realvarez.com/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero/) - [blog.devops.dev: Reduce Amazon EKS cost by scaling node groups to zero](https://blog.devops.dev/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero-41dce9db50ef)
+- [blog.realvarez.com: Reduce Amazon EKS cost by scaling node groups to zero 🌟](https://blog.realvarez.com/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero/) - [blog.devops.dev: Reduce Amazon EKS cost by scaling node groups to zero](https://blog.devops.dev/reduce-amazon-eks-cost-by-scaling-node-groups-to-zero-41dce9db50ef) Scaling down to zero can result in significant cost savings when you have workloads that don't run 24x7. In this tutorial, you'll learn how to do that with labels, taints, and the Cluster Autoscaler.
 - [dev.to: Autoprovisioning NFS volumes in EKS with CDK](https://dev.to/memark/autoprovisioning-nfs-volumes-in-eks-with-cdk-4fn9)
 - [levelup.gitconnected.com: Running Workflows on windows with Jenkins pipeline and Kubernetes](https://levelup.gitconnected.com/running-workflows-on-windows-with-jenkins-pipeline-and-kubernetes-52752a89a0e7)
 - [nivogt.medium.com: Boost your Kubernetes cluster’s Autoscaler on AWS EKS with Karpenter](https://nivogt.medium.com/boost-your-kubernetes-clusters-autoscaler-on-aws-eks-with-karpenter-4d23955944f2)
@@ -213,6 +213,10 @@
     - IP addresses exhaustion
     - Packets drop
     - Control plane performance issues
+- [Scaling Amazon EKS and Cassandra Beyond 1,000 Nodes](https://aws.amazon.com/blogs/containers/scaling-amazon-eks-and-cassandra-beyond-1000-nodes/) This post described a concrete experiment to prove k8ssandra scalability on Amazon EKS. You will also find general performance and scaling configurations of Amazon EKS that enable customers to scale workloads while maintaining linear performance.
+- [sitepoint.com: Getting Started With Kubernetes on AWS Tutorial (2023 Update)](https://www.sitepoint.com/kubernetes-aws-tutorial/)
+- [medium.com: Saving costs in Google Kubernetes Engine using Spot VMs](https://medium.com/@vaibhav176/saving-costs-in-google-kubernetes-engine-using-spot-vms-2e6d0157815e)
+- [medium.com/@benjamin.christmann_12432: Setting up your first EKS cluster on AWS: some practical tips](https://medium.com/@benjamin.christmann_12432/setting-up-your-first-eks-cluster-on-aws-some-practical-tips-60400963c588)
 
 ### EKS Upgrades
 
@@ -256,6 +260,7 @@
 
 ## AKS Azure Kubernetes Service
 
+- [==the-aks-checklist.com: The Azure Kubernetes Service Checklist== 🌟🌟🌟](https://www.the-aks-checklist.com/) This checklist contains a large set of best practices and some of them may not be relevant to your context and thus the rating may be incorrect in your case. Please choose and apply them wisely.
 - [docs.microsoft.com: Baseline architecture for an Azure Kubernetes Service (AKS) cluster 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks) In this reference architecture, you'll build a baseline infrastructure that deploys an AKS cluster. The article includes recommendations for networking, security, identity, management, and monitoring.
 - [docs.microsoft.com: Microservices architecture on Azure Kubernetes Service (AKS) 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices) This reference architecture shows a microservices application deployed to Azure Kubernetes Service (AKS). It describes a basic AKS configuration that can be the starting point for most deployments. The architecture consists of the following components:
     - Azure Kubernetes Service (AKS)
@@ -342,6 +347,18 @@
 - [==medium.com/credera-engineering: How to blue-green deploy an AKS cluster==](https://medium.com/credera-engineering/how-to-blue-green-deploy-an-aks-cluster-ab8f6a2cea9a)
 - [community.ops.io: Configuring AKS to read secrets and certificates from Azure KeyVaults](https://community.ops.io/javi_labs/configuring-aks-to-read-secrets-and-certificates-from-azure-keyvaults-17o1) This article will teach you how to configure an AKS cluster to consume secrets, keys and certificates from an Azure KeyVault
 - [==medium.com/@danieljimgarcia: The Application Gateway Ingress Controller is broken== 🌟](https://medium.com/@danieljimgarcia/the-application-gateway-ingress-controller-is-broken-6aa9eb229881) The Application Gateway Ingress Controller exposes applications hosted in Kubernetes to the outside world via Azure’s native Application Gateway. However, it has important design flaws, which can cause minutes of downtime when updating your workloads.
+- [==kristhecodingunicorn.com: Setting Up OAuth 2.0 Authentication for Applications in AKS With NGINX and OAuth2 Proxy== 🌟🌟](https://kristhecodingunicorn.com/post/k8s_nginx_oauth/)
+- [medium.com/@ershivamgupta: Disaster Recovery Solution for Azure Kubernetes Service (AKS) Persistent Volume Storage 🌟](https://medium.com/@ershivamgupta/disaster-recovery-solution-for-azure-kubernetes-service-aks-persistent-volume-storage-f2b3d2aafcf4) This article demonstrates a disaster recovery solution for AKS:
+    - Installing Longhorn
+    - Setting up an External Backup target
+    - Deploying a stateful application
+    - Backing up the Persistent Volume
+    - Restoring it in a secondary region
+- [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) Network traffic capture in AKS Windows Nodes
+- [infoq.com: Microsoft Brings Kubernetes to the Edge with AKS Edge Essentials](https://www.infoq.com/news/2023/03/aks-edge-essentials-ga/)
+- [==azuredevopslabs.com: Deploying a multi-container application to Azure Kubernetes Services==](https://azuredevopslabs.com/labs/vstsextend/kubernetes/)
+- [danielstechblog.io: Mitigating slow container image pulls on Azure Kubernetes Service](https://www.danielstechblog.io/mitigating-slow-container-image-pulls-on-azure-kubernetes-service/) It is not easy identifying the root cause for slow container image pulls on your AKS. In this article, you'll follow Daniel's journey in debugging the OS disk queue depth and how it affects image pulls.
+- [==grafana.com: Scrape Azure metrics and monitor AKS using Grafana Agent== 🌟](https://grafana.com/blog/2023/04/07/scrape-azure-metrics-and-monitor-aks-using-grafana-agent/) In this blog post, we will demonstrate how to configure Grafana Agent to scrape metrics from Microsoft Azure, specifically from AKS, using the newly released [azure_exporter](https://grafana.com/docs/agent/v0.32/configuration/integrations/azure-exporter-config/).
 
 ### AKS Lite
 

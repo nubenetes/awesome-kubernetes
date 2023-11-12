@@ -110,3 +110,5 @@
 - [New – Visualize Your VPC Resources from Amazon VPC Creation Experience](https://aws.amazon.com/blogs/aws/new-visualize-your-vpc-resources-from-amazon-vpc-creation-experience/)
 - [AWS Network Firewall now supports tag-based resource groups](https://aws.amazon.com/about-aws/whats-new/2023/02/aws-network-firewall-tag-based-resource-groups)
 - [Amazon EKS now supports Kubernetes version 1.25](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-25/)
+- [Amazon Detective adds graph visualization for interactive security investigations](https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-detective-graph-visualization-interactive-security-investigations/)
+- [Announcing the ability to enable AWS Systems Manager by default across all EC2 instances in an account](https://aws.amazon.com/about-aws/whats-new/2023/02/enable-aws-systems-manager-default-all-ec2-instances-account/)

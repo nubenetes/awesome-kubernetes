@@ -68,6 +68,7 @@
 - [infoq.com: The Top-Five Challenges of Running a Service Mesh in an Enterprise 🌟](https://www.infoq.com/presentations/5-challenges-mesh/)
 - [medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul](https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630)
 - [medium.com/@pauldotyu: Service Mesh Considerations](https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295)
+- [medium.com/4th-coffee: A Comprehensive Tutorial on Service Mesh, Istio, Envoy, Access Log, and Log Filtering](https://medium.com/4th-coffee/a-comprehensive-tutorial-on-service-mesh-istio-envoy-access-log-and-log-filtering-8f3d939c081d)
 
 ## Service Mesh and API Gateways
 

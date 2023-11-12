@@ -239,6 +239,7 @@
 - [==jvns.ca: A list of new(ish) command line tools | Julia Evans==](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
 - [itsfoss.com: 5 htop Alternatives to Enhance Your Linux System Monitoring Experience](https://itsfoss.com/htop-alternatives/)
 - [dev.to: 50 Linux Commands every developer NEED to know with example](https://dev.to/kanani_nirav/50-linux-commands-every-developer-need-to-know-with-example-mc)
+- [blog.devgenius.io: DevOps in Linux — Systemd Introduction](https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b)
 
 ## Makefiles
 
@@ -289,6 +290,7 @@
 - [linuxshelltips.com: What’s the Difference Between ${} and $() in Bash](https://www.linuxshelltips.com/difference-between-and-in-bash/)
 - [medium.com/kubehub: A Series on Bash Scripting](https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5)
 - [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7) Everything You Need to Know to Write Bash Scripts
+- [medium.com: Shell Scripting for DevOps with Examples](https://medium.com/@saurabhdahibhate50/devops-day-04-task-e51d64ffbf16)
 
 ## Questions and Answers
 
@@ -429,5 +431,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In vim, you can type :e **/foo, then press tab and it&#39;ll find you a file with &quot;foo&quot; in its name.<br><br>You can press tab many times, and vim will iterate over the matching files.<br><br>Works in vanilla vim (no plugins), so you can use this trick on any Linux server you happen to log in to.</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1588948188399947776?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Linux? Open this: 🧵</p>&mdash; Rohit Ghumare | That #DevOps Guy✍️ (@ghumare64) <a href="https://twitter.com/ghumare64/status/1590550565142290432?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to make rsync faster? <a href="https://t.co/bIdizhoNoS">pic.twitter.com/bIdizhoNoS</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1633732722329001985?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

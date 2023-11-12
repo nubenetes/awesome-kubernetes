@@ -20,12 +20,13 @@
 - [dev.to: Introduction to Kustomize - How to customize Kubernetes objects kubernetes](https://dev.to/katiatalhi/introduction-to-kustomize-how-to-customize-kubernetes-objects-3e08)
 - [mirantis.com: Kustomize Tutorial: Creating a Kubernetes app out of multiple pieces](https://www.mirantis.com/blog/introduction-to-kustomize-part-1-creating-a-kubernetes-app-out-of-multiple-pieces/)
 - [codefresh.io: Applied GitOps with Kustomize](https://codefresh.io/about-gitops/applied-gitops-with-kustomize) In this article, you will learn Kustomize and how it can help deploy Kubernetes manifest with GitOps. This will allow you to leverage the power of Kustomize to define YAML files without using a templating engine
+- [tech.aabouzaid.com: Set OpenAPI patch strategy for Kubernetes Custom Resources - Kustomize](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) Kustomize supports 2 main client-side patching methods for Kubernetes manifests: JSON Patching and Strategic Merge Patch. This article discusses the pros and cons and shows how to add a merging strategy extension for Custom Resources.
 
 ## Secretize plugin
 
 - [Secretize 🌟](https://github.com/bbl/secretize) Secretize is a kustomize plugin that helps generating kubernetes secrets from various sources such as AWS Secret Manager & Azure Vault. It's like a swiss army knife, but for kubernetes secrets.
 ## Comparison between Helm and Kustomize for Kubernetes yaml management
-- [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators. 
+- [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators.
 - [harness.io: Comparing Helm vs Kustomize 🌟](https://harness.io/blog/devops/helm-vs-kustomize/)
 - [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627) Helm and Kustomize are often compared with each other in the context of managing Kubernetes manifest file. Although those two tools have similar features, they are fundamentally different. In this post, I’ll compare them from several points of view with a sample application.
 

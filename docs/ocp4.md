@@ -591,6 +591,8 @@ oc login
 
 - [Introducing Azure Red Hat OpenShift on OpenShift 4 🌟](https://www.openshift.com/blog/introducing-azure-red-hat-openshift-on-openshift-4)
 - [dkrallis.wordpress.com: How to create an OpenShift Cluster in Azure and how you can interact with Azure DevOps environment – Part A](https://dkrallis.wordpress.com/2022/11/25/how-to-create-an-openshift-cluster-in-azure-and-how-you-can-interact-with-azure-devops-environment-part-a/)
+- [developers.redhat.com: How to easily deploy OpenShift on Azure using a GUI, Part 1](https://developers.redhat.com/articles/2023/03/16/how-deploy-openshift-azure-gui-part-1)
+    - [developers.redhat.com: How to easily deploy OpenShift on Azure via GitOps, Part 2](https://developers.redhat.com/articles/2023/03/17/deploy-openshift-azure-gitops-part-2)
 
 ## OpenShift Youtube
 

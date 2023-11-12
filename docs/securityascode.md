@@ -62,6 +62,7 @@
 - [medium: Deploying Open Policy Agent (OPA) on a GKE cluster — Step by Step](https://medium.com/linkbynet/deploying-opa-on-a-gke-cluster-da4d3d77812c)
 - [github.com/instrumenta/policies: A set of shared policies for use with Conftest and other Open Policy Agent tools 🌟](https://github.com/instrumenta/policies)
 - [blog.styra.com: Using OPA with GitOps to speed Cloud-Native development](https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development)
+- [medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open Policy Agent](https://medium.com/gitguardian/what-is-policy-as-code-an-introduction-to-open-policy-agent-dba1400bb030)
 
 ### Open Policy Agent in OpenShift
 
@@ -141,6 +142,7 @@
     - Invalid resources can be blocked with helpful errors
     - Misconfigured resources can be corrected on the fly
     - New resources can be dynamically generated
+- [blog.sigstore.dev: How to verify container images with Kyverno using KMS, Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061/)
 
 ### Kyverno E-Learning
 

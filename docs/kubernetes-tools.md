@@ -2,86 +2,86 @@
 
 1. [Introduction](#introduction)
 2. [K8s Tools](#k8s-tools)
-3. [Clusternet](#clusternet)
-4. [Open Cluster Management](#open-cluster-management)
-5. [Penetration Testing Tools](#penetration-testing-tools)
-6. [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
-7. [KubeIP (GKE)](#kubeip-gke)
-8. [Porter](#porter)
-9. [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
-10. [Kaniko Build Images in Kubernetes without docker](#kaniko-build-images-in-kubernetes-without-docker)
-11. [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
-12. [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
-13. [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
-14. [Kubevela](#kubevela)
-15. [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
-16. [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
-17. [Kubesploit](#kubesploit)
-18. [Kubeshop](#kubeshop)
-19. [Monokle](#monokle)
-20. [KubeLibrary](#kubelibrary)
-21. [kube-vip](#kube-vip)
-22. [Kubermetrics](#kubermetrics)
-23. [Kustomizer](#kustomizer)
-24. [MetalLB](#metallb)
-25. [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
+3. [kcp](#kcp)
+4. [Clusternet](#clusternet)
+5. [Open Cluster Management](#open-cluster-management)
+6. [Penetration Testing Tools](#penetration-testing-tools)
+7. [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
+8. [KubeIP (GKE)](#kubeip-gke)
+9. [Porter](#porter)
+10. [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
+11. [Kaniko Build Images in Kubernetes without docker](#kaniko-build-images-in-kubernetes-without-docker)
+12. [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
+13. [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
+14. [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
+15. [Kubevela](#kubevela)
+16. [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
+17. [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
+18. [Kubesploit](#kubesploit)
+19. [Kubeshop](#kubeshop)
+20. [Monokle](#monokle)
+21. [KubeLibrary](#kubelibrary)
+22. [kube-vip](#kube-vip)
+23. [Kubermetrics](#kubermetrics)
+24. [Kustomizer](#kustomizer)
+25. [MetalLB](#metallb)
+26. [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
      1. [Kubermatic Kubeone](#kubermatic-kubeone)
-26. [Usernetes](#usernetes)
-27. [k8syaml.com](#k8syamlcom)
-28. [Popeye](#popeye)
-29. [kbrew](#kbrew)
-30. [KubExplorer](#kubexplorer)
-31. [Kubescape](#kubescape)
-32. [Kubectl Connections](#kubectl-connections)
-33. [Benchmark Operator](#benchmark-operator)
-34. [Source-To-Image (S2I)](#source-to-image-s2i)
-35. [VMware Tanzu Octant](#vmware-tanzu-octant)
-36. [Qovery Engine](#qovery-engine)
-37. [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
-38. [Shipwright framework](#shipwright-framework)
-39. [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
-40. [NetMaker](#netmaker)
-41. [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
-42. [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
-43. [Direktiv](#direktiv)
-44. [Jabos](#jabos)
-45. [Pleco](#pleco)
-46. [Mesh-kridik](#mesh-kridik)
-47. [kubewatch](#kubewatch)
-48. [Botkube](#botkube)
-49. [Robusta](#robusta)
-50. [Soup GitOps Operator](#soup-gitops-operator)
-51. [Epinio](#epinio)
-52. [Testkube](#testkube)
-53. [KuberLogic](#kuberlogic)
-54. [Kusk](#kusk)
-55. [Azure AD Workload Identity](#azure-ad-workload-identity)
-56. [Kubernate](#kubernate)
-57. [Tackle](#tackle)
-58. [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
-59. [Azure AAD Pod Identity](#azure-aad-pod-identity)
-60. [MicroShift](#microshift)
-61. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
-62. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
-63. [Auto-portforward (apf)](#auto-portforward-apf)
-64. [gardener/Terraformer](#gardenerterraformer)
-65. [Werf](#werf)
-66. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
-67. [Netshoot](#netshoot)
-68. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
-69. [Kratix](#kratix)
-70. [gRPC-Gateway](#grpc-gateway)
-71. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
-72. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
-73. [vcluster](#vcluster)
-74. [Kateyes](#kateyes)
-75. [Keepass Secret](#keepass-secret)
-76. [Workflow Schedulers](#workflow-schedulers)
+27. [Usernetes](#usernetes)
+28. [k8syaml.com](#k8syamlcom)
+29. [Popeye](#popeye)
+30. [kbrew](#kbrew)
+31. [KubExplorer](#kubexplorer)
+32. [Kubescape](#kubescape)
+33. [Kubectl Connections](#kubectl-connections)
+34. [Benchmark Operator](#benchmark-operator)
+35. [Source-To-Image (S2I)](#source-to-image-s2i)
+36. [VMware Tanzu Octant](#vmware-tanzu-octant)
+37. [Qovery Engine](#qovery-engine)
+38. [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
+39. [Shipwright framework](#shipwright-framework)
+40. [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
+41. [NetMaker](#netmaker)
+42. [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
+43. [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
+44. [Direktiv](#direktiv)
+45. [Jabos](#jabos)
+46. [Pleco](#pleco)
+47. [Mesh-kridik](#mesh-kridik)
+48. [kubewatch](#kubewatch)
+49. [Botkube](#botkube)
+50. [Robusta](#robusta)
+51. [Soup GitOps Operator](#soup-gitops-operator)
+52. [Epinio](#epinio)
+53. [Testkube](#testkube)
+54. [KuberLogic](#kuberlogic)
+55. [Kusk](#kusk)
+56. [Azure AD Workload Identity](#azure-ad-workload-identity)
+57. [Kubernate](#kubernate)
+58. [Tackle](#tackle)
+59. [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
+60. [Azure AAD Pod Identity](#azure-aad-pod-identity)
+61. [MicroShift](#microshift)
+62. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
+63. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
+64. [Auto-portforward (apf)](#auto-portforward-apf)
+65. [gardener/Terraformer](#gardenerterraformer)
+66. [Werf](#werf)
+67. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
+68. [Netshoot](#netshoot)
+69. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
+70. [Kratix](#kratix)
+71. [gRPC-Gateway](#grpc-gateway)
+72. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
+73. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
+74. [vcluster](#vcluster)
+75. [Kateyes](#kateyes)
+76. [Keepass Secret](#keepass-secret)
+77. [Workflow Schedulers](#workflow-schedulers)
      1. [Komodor Workflows](#komodor-workflows)
-77. [Azure Eraser](#azure-eraser)
-78. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
-79. [ConfigMap Reloader](#configmap-reloader)
-80. [Infra](#infra)
+78. [Azure Eraser](#azure-eraser)
+79. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
+80. [ConfigMap Reloader](#configmap-reloader)
 81. [Kluctl](#kluctl)
 82. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
 83. [Kubernetes Security Tools](#kubernetes-security-tools)
@@ -96,8 +96,10 @@
 92. [Observability Monitoring Tools](#observability-monitoring-tools)
      1. [Debugging and Troubleshooting Tools](#debugging-and-troubleshooting-tools)
 93. [Security](#security)
-94. [Tweets](#tweets)
-95. [Videos](#videos)
+94. [Develop microservices locally while being connected to your Kubernetes environment](#develop-microservices-locally-while-being-connected-to-your-kubernetes-environment)
+95. [AI Tools](#ai-tools)
+96. [Tweets](#tweets)
+97. [Videos](#videos)
 
 ## Introduction
 
@@ -279,6 +281,7 @@
 - [helm-ecr 🌟](https://github.com/vetyy/helm-ecr) is a Helm plugin that supports installing Charts from AWS ECR.
 - [PipeCD](https://github.com/pipe-cd/pipe) is a continuous delivery system for declarative Kubernetes, Serverless, and Infrastructure applications.
 - [kubecolor 🌟](https://github.com/dty1er/kubecolor) colorises your kubectl output
+    - [blog.devgenius.io: K8s — Kubecolor Introduction](https://blog.devgenius.io/k8s-kubecolor-introduction-3d650effc36f)
 - [kubectl-sudo](https://github.com/postfinance/kubectl-sudo) This plugin allows users to run kubernetes commands with the security privileges of another user.
 - [kfilt](https://github.com/ryane/kfilt) is a tool that lets you filter specific resources from a stream of Kubernetes YAML manifests. It can read manifests from a file, URL, or from stdin.
 - [k8s-mirror: Creates a local mirror of a kubernetes cluster in a docker container to support offline reviewing 🌟](https://github.com/darkbitio/k8s-mirror)
@@ -391,7 +394,6 @@
 - [jsonnet-controller](https://github.com/pelotech/jsonnet-controller) A fluxcd controller for managing manifests declared in jsonnet.
 - [rback: RBAC in Kubernetes visualizer 🌟🌟](https://github.com/team-soteria/rback) A simple "RBAC in Kubernetes" visualizer. No matter how complex the setup, rback queries all RBAC related information of an Kubernetes cluster in constant time and generates a graph representation of service accounts, (cluster) roles, and the respective access rules in dot format.
 - [github: Kubernetes JSON Schemas 🌟](https://github.com/instrumenta/kubernetes-json-schema) Schemas for every version of every object in every version of Kubernetes
-- [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) Kubernetes is mainly known as a container orchestration platform today, but we believe it can be even more. With the power of CustomResourceDefinitions, Kubernetes provides a flexible platform for declarative APIs of all types, and the reconciliation pattern common to Kubernetes controllers is a powerful tool in building robust, expressive systems. At the same time, a diverse and creative community of tools and services has sprung up around Kubernetes APIs. Imagine a declarative Kubernetes-style API for anything, supported by an ecosystem of Kubernetes-aware tooling, separate from Kubernetes-the-container-orchestrator. That's kcp.
 - [Metacontroller](https://github.com/metacontroller/metacontroller) Metacontroller is an add-on for Kubernetes that makes it easy to write and deploy custom controllers in the form of simple scripts.
 - [KubeCarrier - Service Management at Scale](https://github.com/kubermatic/kubecarrier) KubeCarrier is an open source system for managing applications and services across multiple Kubernetes Clusters; providing a framework to centralize the management of services and provide these services with external users in a self service hub.
 - [github.com: NFS Ganesha server and external provisioner](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner) NFS Ganesha Server and Volume Provisioner. nfs-ganesha-server-and-external-provisioner is an out-of-tree dynamic provisioner for Kubernetes 1.14+. You can use it to quickly & easily deploy shared storage that works almost anywhere.
@@ -501,7 +503,7 @@
 - [groundnuty/k8s-wait-for 🌟](https://github.com/groundnuty/k8s-wait-for) A simple script that allows to wait for a k8s service, job or pods to enter a desired state
 - [nabsul/k8s-ecr-login-renew: Renew Kubernetes Docker secrets for AWS ECR](https://github.com/nabsul/k8s-ecr-login-renew) Renews Docker login credentials for an AWS ECR container registry.
 - [particledecay/kconf](https://github.com/particledecay/kconf) Manage multiple kubeconfigs easily
-- [maruina/aws-auth-manager: K8s controller to manage the aws-auth configmap](https://github.com/maruina/aws-auth-manager) A kuberneres controller to manage the aws-auth configmap in EKS using a new AWSAuthItem CRD.
+- [maruina/aws-auth-manager: K8s controller to manage the aws-auth configmap](https://github.com/maruina/aws-auth-manager) aws-auth-manager is a Kubernetes controller designed to manage the aws-auth ConfigMap in EKS using a new AWSAuthItem CRD
 - [segmentio/kubectl-curl: Kubectl plugin to run curl commands against kubernetes pods](https://github.com/segmentio/kubectl-curl)
 - [wallarm/sysbindings](https://github.com/wallarm/sysbindings) sysctl/sysfs settings on a fly for Kubernetes Cluster. No restarts are required for clusters and nodes.
 - [==atombender/ktail== 🌟](https://github.com/atombender/ktail) ktail is a tool to easily tail Kubernetes logs. It's like kubectl logs, but with a bunch of features to make it more convenient:
@@ -589,6 +591,24 @@
 - [github.com/Skarlso/crd-to-sample-yaml](https://github.com/Skarlso/crd-to-sample-yaml) card-to-sample-YAML lets you generate a sample YAML file from a Custom Resource Definition
 - [==github.com/alexellis/run-job==](https://github.com/alexellis/run-job) Run a Kubernetes Job and get the logs when it's done 🏃‍♂️
 - [github.com/JovianX/Service-Hub](https://github.com/JovianX/Service-Hub) Service Hub is a tool to create and manage a Self-Service portal for your applications using Kubernetes and Helm
+- [medium.com/@markcallen_devops: Setup Kubernetes Admin on Linux with Brew](https://medium.com/@markcallen_devops/setup-kubernetes-admin-on-linux-with-brew-da143cef1c90)
+- [github.com/ahmetb/kubectl-foreach: kubectl foreach ⭐](https://github.com/ahmetb/kubectl-foreach) kubectl-foreach is a kubectl plugin that runs a kubectl command in one or more contexts (clusters) in parallel (similar to GNU parallel/xargs)
+- [github.com/kubernetes-sigs/etcdadm ⭐](https://github.com/kubernetes-sigs/etcdadm) etcdadm is a command-line tool for operating an etcd cluster. It makes it easy to create a new cluster, add a member to, or remove a member from an existing cluster. Its user experience is inspired by kubeadm.
+- [infoq.com: Kwok, a Tool to Spin up Kubernetes Nodes in a Second](https://www.infoq.com/news/2023/03/kwok-kubernetes/)
+- [==github.com/jetpack-io/launchpad== ⭐](https://github.com/jetpack-io/launchpad) Launchpad is a command-line tool that lets you easily create applications on Kubernetes. In practice, Launchpad works similar to Heroku or Vercel, except everything is on Kubernetes.
+- [github.com/OvidiuBorlean/kubectl-sockperf](https://github.com/OvidiuBorlean/kubectl-sockperf) Kubectl Sockperf plugin - Latency Measurement in Kubernetes
+- [github.com/oslabs-beta/Ekkremis](https://github.com/oslabs-beta/Ekkremis) This repository contains the code for Ekkremis: a Prometheus-based alert manager to resolve kubernetes pods pending issues
+- [==github.com/jonmosco/kube-ps1== ⭐](https://github.com/jonmosco/kube-ps1) Kubernetes prompt for bash and zsh. **kube-ps1 is a script that lets you add the current Kubernetes context and namespace configured on kubectl to your Bash/Zsh prompt strings (i.e. the `$PS1`)**
+- [==github.com/cloudnativelabs/kube-shell== ⭐](https://github.com/cloudnativelabs/kube-shell) **Kube-shell is an integrated shell for working with the Kubernetes CLI. Under the hood, Kube-shell still calls kubectl. Kube-shell aims to provide ease-of-use of kubectl and increase productivity.**
+- [github.com/DataCater/datacater (real-time, cloud-native data pipeline platform)](https://github.com/DataCater/datacater) The developer-friendly ETL platform for transforming data in real-time. Based on Apache Kafka® and Kubernetes®. DataCater helps you to build modern, real-time data pipelines with Apache Kafka and Kubernetes. You can choose from an extensive repository of filter functions, apply transformations, or code your own transforms in Python.
+
+## kcp
+
+- https://github.com/kcp-dev/
+- [kcp: a prototype of a Kubernetes API server that is not a Kubernetes cluster - a place to create, update, and maintain Kube-like APIs with controllers above or without clusters](https://github.com/kcp-dev/kcp) Kubernetes is mainly known as a container orchestration platform today, but we believe it can be even more. With the power of CustomResourceDefinitions, Kubernetes provides a flexible platform for declarative APIs of all types, and the reconciliation pattern common to Kubernetes controllers is a powerful tool in building robust, expressive systems. At the same time, a diverse and creative community of tools and services has sprung up around Kubernetes APIs. Imagine a declarative Kubernetes-style API for anything, supported by an ecosystem of Kubernetes-aware tooling, separate from Kubernetes-the-container-orchestrator. That's kcp.
+- [cloudnativesimplified.substack.com: kcp: Kubernetes-like control plane](https://cloudnativesimplified.substack.com/p/tool-series-1-kcp) kcp is a control plane for workloads on many clusters. In this article, you will explore how to use it to manage multiple tenants:
+    - In a single cluster with workspaces (isolated namespaces)
+    - In multiple clusters with SyncTarget and Placements
 
 ## Clusternet
 
@@ -934,6 +954,7 @@
 - A solution for implementing efficient/consistent software delivery to Kubernetes. It covers the entire life cycle of CI/CD and related artifacts, gluing commonly used tools (Git, Docker, Helm, K8s, gitops).
 - [werf/kubedog](https://github.com/werf/kubedog) Kubedog is a library to watch and follow Kubernetes resources in CI/CD deploy pipelines. This library is used in the werf CI/CD tool to track resources during deploy process.
 - [blog.werf.io: Running one-time tasks and debugging images in the Kubernetes cluster using werf](https://blog.werf.io/running-one-time-tasks-and-debugging-images-in-the-kubernetes-cluster-using-werf-936d6dc483e2)
+- [blog.werf.io: werf v1.2 is now stable! Here’s what it is all about](https://blog.werf.io/werf-v1-2-is-now-stable-heres-what-it-is-all-about-832ed647810f) werf is an Open Source CLI tool for building applications and deploying them to Kubernetes clusters. Version 1.2 features many new changes and improvements.
 
 ## Starboard kubernetes-native security toolkit
 
@@ -1014,10 +1035,6 @@
     - In Kubernetes, When we make some changes to a ConfigMap or Secret, new data is not automatically propagated to the pods from that configmap/secret. We often need to restart the pods to load new data.
     - This can be achieved using a tool ‘Reloader’. It is a Kubernetes controller which watch the changes made to secrets and ConfigMaps and perform rolling upgrades on pods with their associated Deployments, StatefulSets or DaemonSets. It is an Opensource tool provided by Stakater who also provide various other enterprise K8s solutions.
 
-## Infra
-
-- [infrahq/infra 🌟](https://github.com/infrahq/infra) Infra enables you to discover and access infrastructure (e.g. Kubernetes, databases). It helps you connect an identity provider such as Okta or Azure active directory, and map users/groups with the permissions you set to your infrastructure.
-
 ## Kluctl
 
 - [kluctl.io 🌟](https://kluctl.io) Kluctl is the missing glue to put together large Kubernetes deployments. It allows you to declare and manage multi-environment and multi-cluster deployments. Kluctl does not have cluster-side dependencies and works out of the box.
@@ -1030,6 +1047,7 @@
 
 - [PaloAltoNetworks/rbac-police](https://github.com/PaloAltoNetworks/rbac-police) RBAC-police is a CLI tool that lets you evaluate the RBAC permissions of service accounts, pods and nodes in Kubernetes clusters through policies written in Rego
 - [m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper) m9sweeper is a complete kubernetes security platform that wraps trivy, project falco, kube-bench, kube-hunter, kubesec, and OPA Gatekeeper into one easy to manage user interface.
+- [github.com/reddec/keycloak-ext-operator](https://github.com/reddec/keycloak-ext-operator) Creates OAuth clients in Keycloak and creates corresponding secrets in kubernetes
 
 ## PureLB
 
@@ -1046,6 +1064,7 @@
 - [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) K9s provides a terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
 - [medium.com/@fwiles: k9s EKS Context Error](https://medium.com/@fwiles/k9s-eks-context-error-7ff18df7547f)
 - [tonylixu.medium.com: K8s Tools — K9s, Terminal Based UI to Manage Your Cluster](https://tonylixu.medium.com/devops-in-k8s-k9s-terminal-based-ui-to-manage-your-cluster-85b4f147e209) Introduction to K9s CLI, a K8s management tool
+- [kubetools.io: Why K9s Should Be Your Go-To Tool for Kubernetes Management](https://www.kubetools.io/kubernetes/why-k9s-should-be-your-go-to-tool-for-kubernetes-management/)
 
 ## Pluto
 
@@ -1084,10 +1103,21 @@
 - [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) kubectl-debug is a tool that lets you debug a target container in a Kubernetes cluster by automatically creating a new, non-invasive, 'debug' container in the same PID, network, user, and IPC namespace as the target container without any disruption
 - [github.com/AdamRussak/k8f](https://github.com/AdamRussak/k8f) A simple go tool to check that your cluster is in supported version written in GO. k8f is a command line tool to find, list, connect and check versions for kubernetes clusters. With k8f you can connect at once to all clusters tagged as "AWS" or find a specific cluster in your kubeconfig.
 - [==github.com/komodorio/validkube==](https://github.com/komodorio/validkube) Validkube combines the best open-source tools to help ensure Kubernetes YAML best practices, hygiene & security
+- [github.com/box/kube-iptables-tailer](https://github.com/box/kube-iptables-tailer) A service for better network visibility for your Kubernetes clusters. kube-iptables-tailer is a service that gives you better visibility on networking issues in your Kubernetes cluster by detecting the traffic denied by iptables and surfacing corresponding information to the affected Pods via Kubernetes events.
+- [github.com/OvidiuBorlean/kubectl-windumps](https://github.com/OvidiuBorlean/kubectl-windumps) Network traffic capture in AKS Windows Nodes
 
 ## Security
 
 - [github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) Badrobot is a Kubernetes Operator audit tool. It statically analyses manifests for high-risk configurations such as lack of security restrictions on the deployed controller and the permissions of an associated clusterole.
+- [==infrahq/infra== 🌟](https://github.com/infrahq/infra) Infra enables you to discover and access infrastructure (e.g. Kubernetes, databases). It helps you connect an identity provider such as Okta or Azure active directory, and map users/groups with the permissions you set to your infrastructure. **Infra provides authentication and access management to servers, clusters, and databases**
+
+## Develop microservices locally while being connected to your Kubernetes environment
+
+- [github.com/we-dcode/kubetunnel](https://github.com/we-dcode/kubetunnel)
+
+## AI Tools
+
+- [kubetools.io: KoPylot: An AI-Powered Kubernetes Assistant for DevOps & Developers](https://www.kubetools.io/kubernetes/kopylot-an-ai-powered-kubernetes-assistant-for-devops-developers/)
 
 ## Tweets
 

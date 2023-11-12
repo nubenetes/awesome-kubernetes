@@ -1,16 +1,17 @@
 # Kubernetes Operators and Controllers
 
 1. [Introduction](#introduction)
-2. [Creating Kubernetes operator using Kubebuilder](#creating-kubernetes-operator-using-kubebuilder)
-3. [operatorhub.io](#operatorhubio)
-4. [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
-5. [Operator Capability Levels](#operator-capability-levels)
-6. [Cluster Addons](#cluster-addons)
-7. [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
-8. [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
-9. [Writing Kubernetes Operators and Controllers](#writing-kubernetes-operators-and-controllers)
-10. [Tweets](#tweets)
-11. [Videos](#videos)
+2. [OpenTelemetry Operator](#opentelemetry-operator)
+3. [Creating Kubernetes operator using Kubebuilder](#creating-kubernetes-operator-using-kubebuilder)
+4. [operatorhub.io](#operatorhubio)
+5. [Red Hat Container Community of Practice Operators](#red-hat-container-community-of-practice-operators)
+6. [Operator Capability Levels](#operator-capability-levels)
+7. [Cluster Addons](#cluster-addons)
+8. [K8Spin Operator. Kubernetes multi-tenant operator](#k8spin-operator-kubernetes-multi-tenant-operator)
+9. [K8s KPIs with Kuberhealthy Operator](#k8s-kpis-with-kuberhealthy-operator)
+10. [Writing Kubernetes Operators and Controllers](#writing-kubernetes-operators-and-controllers)
+11. [Tweets](#tweets)
+12. [Videos](#videos)
 
 ## Introduction
 
@@ -146,7 +147,14 @@
 - [==blog.frankel.ch: Introduction to Kubernetes extensibility== 🌟](https://blog.frankel.ch/kubernetes-extensibility/) In this article, you'll learn several extension points in Kubernetes: the data model, admission controllers, and client-side.
     - At its most basic level, Kubernetes is just a platform able to run container images. It stores its configuration in a distributed storage engine, etcd. The most significant part of this configuration is dedicated to the desired state for objects. For example, you only update this state when you schedule a pod using the kubectl command line.
     - Other components, called controllers, watch configuration changes and read the desired state. Then, they try to reconcile the desired state with the actual state. It’s nothing revolutionary: Puppet is based on the same control-loop approach, and AFAIK, Chef. Generally, a controller manages a single type of object, e.g., the DeploymentController manages deployments.
-- [superorbital.io: Testing Production Kubernetes Controllers](https://superorbital.io/blog/testing-production-controllers/) Invasion of Kubernetes controllers, the word “cloud native” can be read as “implemented as a K8s controller”. If your controller relies heavily on interaction with the Kubernetes API across a set of resources, investing in tests makes more sense.
+- [superorbital.io: Testing Production Kubernetes Controllers](https://superorbital.io/blog/testing-production-controllers/) In this article, you will learn how to test Kubernetes controllers using a mix of unit tests, local integration tests, and more fully featured runtime integration tests.
+- [github.com/lukaszraczylo/jobs-manager-operator 🌟](https://github.com/lukaszraczylo/jobs-manager-operator)
+    - [itnext.io: Simplify Advanced Workflows in Kubernetes with Jobs Manager Operator](https://itnext.io/kubernetes-operator-to-manage-jobs-7ee96744c74a) A problem and idea led to the latest invention, which saved me hours of confusion and frustration and finally untangled the web of dependencies.
+
+## OpenTelemetry Operator
+
+- [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
+- [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
 
 ## Creating Kubernetes operator using Kubebuilder
 
@@ -214,6 +222,7 @@
 - [==kubernetes/sample-controller==](https://github.com/kubernetes/sample-controller) Repository for sample controller. Complements sample-apiserver
 - [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9) Create a Kubernetes API, controller, validate webhooks, and test.
 - [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)
+- [metalbear.co: Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
 
 ## Tweets
 

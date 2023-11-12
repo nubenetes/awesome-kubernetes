@@ -55,6 +55,7 @@
 - [dev.to/mavensingh: Advantages and Disadvantages of Go](https://dev.to/mavensingh/advantages-and-disadvantages-of-go-5gha)
 - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)
 - [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) Practical concurrency guide in Go, communication by channels, patterns
+- [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) In this article, you will learn why setting GOMAXPROCS for your Go apps is crucial in Kubernetes. And you'll discover why it's better to assign a full-core CPU to your Go containers.
 
 ## Design Patterns
 
@@ -117,6 +118,8 @@
 - [==gobrew== 🌟](https://github.com/kevincobain2000/gobrew) Go version manager. Super simple tool to install and manage Go versions. Install go without root. Gobrew doesn't require shell rehash.
 - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)
 - [create-go-app/cli](https://github.com/create-go-app/cli) Create a new production-ready project with backend, frontend and deploy automation by running one CLI command!
+- [Delve: a debugger for the Go Programming Language](https://github.com/derekparker/delve)
+    - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
 
 ## Go Books
 

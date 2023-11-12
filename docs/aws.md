@@ -89,6 +89,7 @@
 - [Building highly resilient applications with on-premises interdependencies using AWS Local Zones](https://aws.amazon.com/blogs/compute/building-highly-resilient-applications-with-on-premises-interdependencies-using-aws-local-zones/) AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
 - [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62)
 - [terminalsandcoffee.com: Setting Up the AWS CLI & IAM User API Keys 🌟](https://terminalsandcoffee.com/setting-up-the-aws-cli-iam-user-api-keys-b83554e314e4)
+- [dev.to: Best Practices When Designing AWS Architecture 🌟🌟](https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d) AWSArchitecture is the way you design & implement your cloud apps using AWS services & resources. A well-designed architecture help to achieve business goals 👉 scalability, reliability, etc.
 
 ## AWS Reference Archigtecture
 

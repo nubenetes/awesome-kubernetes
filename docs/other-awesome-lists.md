@@ -1,8 +1,9 @@
 # Awesome Lists
 
 1. [Inspired By](#inspired-by)
-2. [Other Awesome Kubernetes Lists](#other-awesome-kubernetes-lists)
-3. [Other Awesome Lists](#other-awesome-lists)
+2. [Introduction](#introduction)
+3. [Other Awesome Kubernetes Lists](#other-awesome-kubernetes-lists)
+4. [Other Awesome Lists](#other-awesome-lists)
     1. [Project Management](#project-management)
     2. [SysAdmin](#sysadmin)
     3. [Cloud Native](#cloud-native)
@@ -27,13 +28,19 @@
     20. [Data Processing](#data-processing)
     21. [Big Data](#big-data)
     22. [Machine Learning and MLOps](#machine-learning-and-mlops)
-4. [Open Source Alternatives](#open-source-alternatives)
-5. [Kubectl Plugins](#kubectl-plugins)
-6. [Tweets](#tweets)
+5. [Open Source Alternatives](#open-source-alternatives)
+6. [Kubectl Plugins](#kubectl-plugins)
+7. [GitHub Repositories that developers love](#github-repositories-that-developers-love)
+8. [LLMOps](#llmops)
+9. [Tweets](#tweets)
 
 ## Inspired By
 
 - [@sindresorhus' Awesome](https://github.com/sindresorhus/awesome)
+
+## Introduction
+
+- [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/this-is-learning/the-awesome-side-of-github-awesome-lists-2a5h)
 
 ## Other Awesome Kubernetes Lists
 
@@ -264,6 +271,14 @@
 
 - [Available kubectl plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 - [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)
+
+## GitHub Repositories that developers love
+
+- [dev.to: Great GitHub repositories that developers love](https://dev.to/swordheath/great-github-repositories-that-developers-love-1g97)
+
+## LLMOps
+
+- [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 
 ## Tweets
 

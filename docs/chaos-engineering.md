@@ -14,6 +14,7 @@
 - [medium.com/adidoescode: Chaos Engineering: How simulating adversity can help build eCommerce Resilience](https://medium.com/adidoescode/chaos-engineering-how-simulating-adversity-can-help-build-ecommerce-resilience-4a799c8912dc)
 - [opsmx.com: What is Chaos Engineering?](https://www.opsmx.com/blog/what-is-chaos-engineering/)
 - [aws.amazon.com: Verify the resilience of your workloads using Chaos Engineering](https://aws.amazon.com/blogs/architecture/verify-the-resilience-of-your-workloads-using-chaos-engineering/)
+- [faun.pub: What is Chaos Engineering?](https://faun.pub/what-is-chaos-engineering-a89b64db9af0) Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
 
 ## Chaos Engineering for kubernetes/Openshift
 

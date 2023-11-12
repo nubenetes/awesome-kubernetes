@@ -6,13 +6,13 @@
     2. [GitOps vs ClickOps 1](#gitops-vs-clickops-1)
     3. [GitOps vs ClickOps 2](#gitops-vs-clickops-2)
 
-
 ## Introduction
 
 - [medium.com/@andretost_75145: Using ChatGPT to learn Kubernetes and OpenShift](https://medium.com/@andretost_75145/using-chatgpt-to-learn-kubernetes-and-openshift-15051bc95535)
 - [ansible.com: Ansible and ChatGPT: Putting it to the test](https://www.ansible.com/blog/ansible-wisdom-and-chatgpt-putting-it-to-the-test) You know we had to road test the hottest trend in #generativeAI! In this blog, we put ChatGPT to the test of developing Ansible Playbooks. We also explore Project Wisdom, an Ansible AI capability that is currently in development.
 - [betterprogramming.pub: ChatGPT and Software Architecture](https://betterprogramming.pub/chatgpt-and-software-architecture-308b6e0cc25a) Let’s generate diagrams
 - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google)
+- [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data) Lets generate SQL using chatGPT and simplify our work
 
 ## Explained by ChatGPT
 
@@ -47,3 +47,4 @@
 > *The problem between GitOps and ClickOps lies in how infrastructure management and application deployment are approached. GitOps is more automated and focused on IaC, which can result in greater efficiency and a reduction of human errors. ClickOps is more manual and visual, which can be easier to use and understand for teams who do not have programming and automation experience.*
 >
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
+

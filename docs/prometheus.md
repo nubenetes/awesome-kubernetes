@@ -141,6 +141,9 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [blog.zelarsoft.com: Website Monitoring By Using Prometheus Blackbox Exporter with Grafana](https://blog.zelarsoft.com/website-monitoring-by-using-prometheus-blackbox-exporter-with-grafana-c4004bb03131)
 - [==blog.devops.dev: Monitoring a Spring Boot application in Kubernetes with Prometheus== 🌟](https://blog.devops.dev/monitoring-a-spring-boot-application-in-kubernetes-with-prometheus-a2d4ec7f9922)
 - [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus/)
+- [==blog.devops.dev: How to Monitor your Application using Prometheus== 🌟](https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f) In this Blog, we will be able to deploy our application in an EKS cluster and monitor it with Prometheus
+- [==dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including Dashboards==](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u) Goodbye to the headaches of manual infrastructure management, and hello to a more efficient and scalable approach with ArgoCD.
+- [medium.com: How to find unused Prometheus metrics using mimirtool 🌟](https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

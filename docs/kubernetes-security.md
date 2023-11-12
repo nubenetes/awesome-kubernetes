@@ -1,38 +1,40 @@
 # Kubernetes Security
 
 1. [Introduction](#introduction)
-2. [Securing a Kubernetes cluster using TLS certificates](#securing-a-kubernetes-cluster-using-tls-certificates)
-3. [Kubernetes Security Scanners](#kubernetes-security-scanners)
-4. [Security Checklist Kubernetes OWASP](#security-checklist-kubernetes-owasp)
-5. [Exposed Kubernetes Clusters](#exposed-kubernetes-clusters)
-6. [NSA National Security Agent Kubernetes Hardening Guidance](#nsa-national-security-agent-kubernetes-hardening-guidance)
-7. [CIS Benchmarks and CIS Operator](#cis-benchmarks-and-cis-operator)
-8. [User and Workload identities in Kubernetes](#user-and-workload-identities-in-kubernetes)
-9. [Service Accounts](#service-accounts)
-10. [Kubernetes Secrets](#kubernetes-secrets)
-11. [Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager](#kubernetes-cert-manager-encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager)
-12. [Kubernetes OpenID Connect OIDC](#kubernetes-openid-connect-oidc)
+2. [IAM Identity And Access Management in Kubernetes](#iam-identity-and-access-management-in-kubernetes)
+3. [Securing Kubernetes Deployments](#securing-kubernetes-deployments)
+4. [Securing a Kubernetes cluster using TLS certificates](#securing-a-kubernetes-cluster-using-tls-certificates)
+5. [Kubernetes Security Scanners](#kubernetes-security-scanners)
+6. [Security Checklist Kubernetes OWASP](#security-checklist-kubernetes-owasp)
+7. [Exposed Kubernetes Clusters](#exposed-kubernetes-clusters)
+8. [NSA National Security Agent Kubernetes Hardening Guidance](#nsa-national-security-agent-kubernetes-hardening-guidance)
+9. [CIS Benchmarks and CIS Operator](#cis-benchmarks-and-cis-operator)
+10. [User and Workload identities in Kubernetes](#user-and-workload-identities-in-kubernetes)
+11. [Service Accounts](#service-accounts)
+12. [Kubernetes Secrets](#kubernetes-secrets)
+13. [Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager](#kubernetes-cert-manager-encrypting-the-certificate-for-kubernetes-ssl-certificates-with-lets-encrypt-in-kubernetes-ingress-via-cert-manager)
+14. [Kubernetes OpenID Connect OIDC](#kubernetes-openid-connect-oidc)
      1. [OAuth2 Proxy](#oauth2-proxy)
      2. [Alternatives](#alternatives)
-13. [RBAC and Access Control](#rbac-and-access-control)
+15. [RBAC and Access Control](#rbac-and-access-control)
      1. [Tools](#tools)
-14. [Kubernetes and LDAP](#kubernetes-and-ldap)
-15. [Admission Control](#admission-control)
-16. [Kubernetes Security Best Practices](#kubernetes-security-best-practices)
-17. [Kubernetes Authentication and Authorization](#kubernetes-authentication-and-authorization)
+16. [Kubernetes and LDAP](#kubernetes-and-ldap)
+17. [Admission Control](#admission-control)
+18. [Kubernetes Security Best Practices](#kubernetes-security-best-practices)
+19. [Kubernetes Authentication and Authorization](#kubernetes-authentication-and-authorization)
      1. [Kubernetes Authentication Methods](#kubernetes-authentication-methods)
      2. [X.509 client certificates](#x509-client-certificates)
      3. [Static HTTP Bearer Tokens](#static-http-bearer-tokens)
      4. [OpenID Connect](#openid-connect)
      5. [Implementing a custom Kubernetes authentication method](#implementing-a-custom-kubernetes-authentication-method)
-18. [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
-19. [Security Profiles Operator](#security-profiles-operator)
-20. [EKS Security](#eks-security)
-21. [External Secrets Operator](#external-secrets-operator)
-22. [CVE](#cve)
+20. [Pod Security Policies (SCCs - Security Context Constraints in OpenShift)](#pod-security-policies-sccs---security-context-constraints-in-openshift)
+21. [Security Profiles Operator](#security-profiles-operator)
+22. [EKS Security](#eks-security)
+23. [External Secrets Operator](#external-secrets-operator)
+24. [CVE](#cve)
      1. [Official Kubernetes CVE Feed](#official-kubernetes-cve-feed)
-23. [Videos](#videos)
-24. [Tweets](#tweets)
+25. [Videos](#videos)
+26. [Tweets](#tweets)
 
 ## Introduction
 
@@ -138,15 +140,30 @@
 - [==medium.com/@badawekoo: Limit number of processes running in a Kubernetes pod==](https://medium.com/@badawekoo/limit-number-of-processes-running-in-a-kubernetes-pod-50ccf156ec18) When it comes to Kubernetes security, It is very important to harden the core components of the cluster which are pods, and limit the risks that can be originated from inside the pods. That’s why limiting number of processes that can run inside a pod will limit any vulnerabilities in your cluster.
 - [copado.com: Applying a Zero Trust Infrastructure in Kubernetes](https://www.copado.com/devops-hub/blog/applying-a-zero-trust-infrastructure-in-kubernetes)
 - [dev.to/pavanbelagatti: Kubernetes Security Best Practices For Developers](https://dev.to/pavanbelagatti/kubernetes-security-best-practices-for-developers-2b92)
+- [==itnext.io: Journey Of A Microservice Application In The Kubernetes World== 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) Security considerations: security related tools. In this article, you will discuss some security considerations and see how you can ensure (at least to some extent) that the application's specifications follow some of the best security practices.
+- [tutorialboy24.blogspot.com: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 2) 🌟](https://tutorialboy24.blogspot.com/2022/09/a-detailed-talk-about-k8s-cluster.html) In this 2-part series, you will address 12 common attack points in Kubernetes clusters and discuss various risks in cloud-native scenarios based on practical experience
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
 </center>
 
+## IAM Identity And Access Management in Kubernetes
+
+- [thenewstack.io: Cloud Native Identity and Access Management in Kubernetes](https://thenewstack.io/cloud-native-identity-and-access-management-in-kubernetes/)
+- [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview/)
+- [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview/)
+- [curity.io: Client Security](https://curity.io/resources/client-security/) Client security primarily covers web and mobile, to ensure best security in the browser and on devices
+
+## Securing Kubernetes Deployments
+
+- [==dev.to/aws-builders: Best Practices for Securing Kubernetes Deployments== 🌟](https://dev.to/aws-builders/best-practices-for-securing-kubernetes-deployments-1jg6) **Although Kubernetes is a powerful container orchestration platform, its complexity and its adoption makes it a prime target for security attacks. We'll go over some of the best practices for securing the Kubernetes deployments and keeping applications and data safe in this article. This article is only about pods or deployments.**
+
 ## Securing a Kubernetes cluster using TLS certificates
 
 - [thenewstack.io: Jetstack Secure Promises to Ease Kubernetes TLS Security](https://thenewstack.io/jetstack-secure-promises-to-ease-kubernetes-tls-security/)
 - [==xgrid.medium.com: Securing a Kubernetes cluster using TLS certificates== 🌟](https://xgrid.medium.com/securing-a-kubernetes-cluster-using-tls-certificates-5e64a6bb26de)
+- [ahmedy.hashnode.dev: Creating TLS Certificates for K8s components with OpenSSL](https://ahmedy.hashnode.dev/creating-tls-certificates-for-k8s-components-with-openssl) In this guide, you will discuss how to create key/certificate pairs using OpenSSL to facilitate secure communication between Kubernetes Cluster components
+- [==erkanzileli.medium.com: How TLS Certificates Work==](https://erkanzileli.medium.com/how-tls-certificates-work-422d95f1df5e)
 
 ## Kubernetes Security Scanners
 
@@ -242,6 +259,7 @@
 - [==mjarosie.github.io: IAM roles for Kubernetes service accounts - deep dive==](https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html)
 - [linkerd.io: Using Kubernetes's new Bound Service Account Tokens for secure workload identity](https://linkerd.io/2021/12/28/using-kubernetess-new-bound-service-account-tokens-for-secure-workload-identity/)
 - [medium.com/pareture: Kubernetes Bound Projected Service Account Token Volumes Might Surprise You](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483) There is an important difference to understand and remember between default Service Account Projection and Bound Service Account Token Volumes.
+- [medium.com/geekculture: K8s — ServiceAccount Token](https://medium.com/geekculture/k8s-serviceaccount-token-313d62aee119) K8s ServiceAccount token deep dive
 
 ## Kubernetes Secrets
 
@@ -421,7 +439,11 @@ Each of these alternatives provides different features and may be more suitable 
     - Kubeconform
     - Kubescore
 - [engineering.dynatrace.com: Kubernetes Security Best Practices -Part 1: Role Based Access Control (RBAC)](https://engineering.dynatrace.com/blog/kubernetes-security-part-1-role-based-access-control-rbac/)
-- [medium.com/dynatrace-engineering: Kubernetes Security Best Practices Part 2: Network Policies](https://medium.com/dynatrace-engineering/kubernetes-security-best-practices-part-2-network-policies-405b36ed9d94)
+- [medium.com/dynatrace-engineering: Kubernetes Security Best Practices Part 2: Network Policies](https://medium.com/dynatrace-engineering/kubernetes-security-best-practices-part-2-network-policies-405b36ed9d94) In this blog post, you'll cover the following topics:
+    - What a NetworkPolicy is, and why do you need it
+    - How NetworkPolicies are structured
+    - Best practices for defining NetworkPolicies
+    - An example of defining NetworkPolicies
 - [blog.frankel.ch: Learning by auditing Kubernetes manifests](https://blog.frankel.ch/learning-auditing-kubernetes-manifests/) In this article, you will learn about Kubernetes security and architecture by reviewing reports from Chekov — a tool designed to find misconfigurations before they’re deployed.
 - [spectrocloud.com: Kubernetes security best practices: 5 easy ways to cut risk](https://www.spectrocloud.com/blog/kubernetes-security-best-practices-5-easy-ways-to-cut-risk/)
 - [medium.com/@cloud_tips: Kubernetes Security Best Practices](https://medium.com/@cloud_tips/kubernetes-security-best-practices-ea1e3913c001)

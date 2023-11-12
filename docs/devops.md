@@ -14,29 +14,30 @@
 10. [DevOps Docs](#devops-docs)
 11. [DORA metrics](#dora-metrics)
 12. [DevOps Roadmap](#devops-roadmap)
-13. [Multicloud](#multicloud)
-14. [Serverless DevOps](#serverless-devops)
-15. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
-16. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-17. [Xebia Labs and DevOps](#xebia-labs-and-devops)
-18. [DevOps Tools](#devops-tools)
-19. [Netflix and DevOps](#netflix-and-devops)
-20. [Public Cloud DevOps](#public-cloud-devops)
+13. [APIOps](#apiops)
+14. [Multicloud](#multicloud)
+15. [Serverless DevOps](#serverless-devops)
+16. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+17. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
+18. [Xebia Labs and DevOps](#xebia-labs-and-devops)
+19. [DevOps Tools](#devops-tools)
+20. [Netflix and DevOps](#netflix-and-devops)
+21. [Public Cloud DevOps](#public-cloud-devops)
      1. [AWS DevOps](#aws-devops)
      2. [Azure DevOps](#azure-devops)
      3. [Google Cloud Platform](#google-cloud-platform)
-21. [NoOps](#noops)
-22. [NetOps](#netops)
-23. [PlatformOps](#platformops)
-24. [GPT 3 Tools](#gpt-3-tools)
-25. [Data as Code](#data-as-code)
-26. [DevOps for SAP](#devops-for-sap)
-27. [Youtube Playlists](#youtube-playlists)
-28. [Platform Engineering](#platform-engineering)
-29. [Bunch of Images](#bunch-of-images)
-30. [Slides](#slides)
-31. [Videos](#videos)
-32. [Tweets](#tweets)
+22. [NoOps](#noops)
+23. [NetOps](#netops)
+24. [PlatformOps](#platformops)
+25. [GPT 3 Tools](#gpt-3-tools)
+26. [Data as Code](#data-as-code)
+27. [DevOps for SAP](#devops-for-sap)
+28. [Youtube Playlists](#youtube-playlists)
+29. [Platform Engineering](#platform-engineering)
+30. [Bunch of Images](#bunch-of-images)
+31. [Slides](#slides)
+32. [Videos](#videos)
+33. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
@@ -312,6 +313,10 @@
 - [dev.to: Your Roadmap to Become a DevOps Engineer in 2021](https://dev.to/kodekloud/your-roadmap-to-become-a-devops-engineer-in-2020-i1n)
 - [techworld-with-nana.com: DevOps Roadmap 🌟](https://www.techworld-with-nana.com/devops-roadmap) A step by step guide outlining the most efficient path to become a DevOps engineer
 
+## APIOps
+
+- [dzone.com: What Is APIOps? How to Be Successful at It](https://dzone.com/articles/what-is-apiops-and-how-to-be-successful-at-apiops) This article compares APIOps to other X-Ops and what you can do in order to make your APIOps journey successful.
+
 ## Multicloud
 
 - [infoworld.com: How multicloud changes devops](https://www.infoworld.com/article/3686695/how-multicloud-changes-devops.html) More clouds, more complexity, more challenges. Now’s the time to prepare for the impact multicloud will have on your devops teams.
@@ -490,6 +495,7 @@ Resolve your software incidents 10x faster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R74bm8IGu2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cthla7KqU04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lTZJUVgQeO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </details>
 

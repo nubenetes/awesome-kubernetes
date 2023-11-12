@@ -48,6 +48,9 @@
 - [elconfidencial.com: La batalla entre Google y Meta que nadie esperaba: revolucionar la biología 🌟](https://www.elconfidencial.com/tecnologia/ciencia/2022-11-18/carrera-google-meta-revolucionar-biologia_3520865/) El sistema AlphaFold de Google revela la estructura en 3D de las proteínas y ya es utilizado por miles de biólogos, pero Meta contraataca con otro algoritmo. ¿Cuál es mejor?
 - [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment)
 - [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/2022/11/16/how-is-ai-ml-changing-devops/)
+- [youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
+- [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes) **We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.**
+- [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 
 ## Object Detection Libraries
 
@@ -95,6 +98,7 @@
 - [stackoverflow.com: How is Flyte tailored to "Data and Machine Learning"?](https://stackoverflow.com/questions/72657318/how-is-flyte-tailored-to-data-and-machine-learning)
 - [union.ai: Production-Grade ML Pipelines: Flyte™ vs. Kubeflow](https://www.union.ai/blog-post/production-grade-ml-pipelines-flyte-vs-kubeflow) Kubeflow and Flyte are both production-grade, Kubernetes-native orchestrators for machine learning. Which is best for ML engineers? Check out this head-to-head comparison.
 - [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/flyte-mlops-simplified/)
+- [medium.com/@timleonardDS: Who Let the DAGs out? Register an External DAG with Flyte (Chapter 3)](https://medium.com/@timleonardDS/who-lets-the-dags-out-register-an-external-dag-with-flyte-chapter-3-bad0ea781119)
 
 ## Azure ML
 
@@ -182,5 +186,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re not utilizing AI, you&#39;re falling behind. <br><br>Here are 7 free AI tools that&#39;ll save you hours of work:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1584477023346470912?ref_src=twsrc%5Etfw">October 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Machine Learning will be one of the most sought-after professions this decade.<br><br>Learn &amp; practice ML for free with these outstanding resources and earn certificates for your resume:</p>&mdash; Simon (@simonholdorf) <a href="https://twitter.com/simonholdorf/status/1629377400273338369?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Building robust <a href="https://twitter.com/hashtag/data?src=hash&amp;ref_src=twsrc%5Etfw">#data</a> and <a href="https://twitter.com/hashtag/ML?src=hash&amp;ref_src=twsrc%5Etfw">#ML</a> pipelines by tapping into the power of multiple tools and integrating them should not be a challenging task.<br><br>With Flyte, you can simplify the entire process of developing data and ML pipelines through access to more than 30 integrations. ✨ <a href="https://t.co/UBege732tQ">pic.twitter.com/UBege732tQ</a></p>&mdash; Flyte (@flyteorg) <a href="https://twitter.com/flyteorg/status/1633771669566238723?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
+

@@ -43,7 +43,7 @@
 - [dev.to: 19 Valuable GitHub Repositories for Beginner Developers 📚✨](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
 - [freecodecamp.org: Frontend VS Backend – What's the Difference?](https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/)
 - [betterprogramming.pub: How to Refactor a Codebase?](https://betterprogramming.pub/how-to-refactor-a-codebase-982772695078)
-- [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/)
+- [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
 - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 
 ## Design Patterns
@@ -65,6 +65,7 @@
 ## Developer Tools
 
 - [dev.to: 15 Developer Tools to Make You Super Productive](https://dev.to/sourcegraph/15-developer-tools-to-make-you-super-productive-2g0a)
+- [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67)
 
 ### Firebase
 

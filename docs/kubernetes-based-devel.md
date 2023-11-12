@@ -83,6 +83,7 @@
     - It’s another tool in your arsenal. This means another set of manifests to maintain and update. If you need to define a new environment variable, you’ll need to add it to both your Compose file and Kubernetes manifests.
     - You’ll have to vet changes against either prod or a staging environment since you’re not running Kubernetes locally.
 - [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681) This article will be helpful for anyone interested in setting up a local Kubernetes dev/test environment in a reproducible and easy way.
+- [yash-kukreja-98.medium.com: Develop on Kubernetes Series — Demystifying the For vs Owns vs Watches controller-builders in controller-runtime](https://yash-kukreja-98.medium.com/develop-on-kubernetes-series-demystifying-the-for-vs-owns-vs-watches-controller-builders-in-c11ab32a046e)
 
 ### Skaffold. Local Kubernetes Development
 
@@ -187,7 +188,7 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### Yaki
 
-- [nirops/yakiapp](https://github.com/nirops/yakiapp) Open Source, Cross platform, Native Kubernetes IDE. Yaki is a desktop application that allows DevOps, Developers, SREs and anyone who wish the manage the applications deployed in their Kubernetes Cluster
+- [nirops/yakiapp](https://github.com/nirops/yakiapp) Yaki stands for "Yet Another Kubernetes IDE". Open Source, Cross platform, Native Kubernetes IDE. Yaki is a desktop application that allows DevOps, Developers, SREs and anyone who wish the manage the applications deployed in their Kubernetes Cluster
 
 ## Images
 

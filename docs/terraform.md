@@ -13,38 +13,40 @@
         1. [Alternatives to Terraform Cloud](#alternatives-to-terraform-cloud)
     4. [HCL](#hcl)
     5. [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
-    6. [Python Boto3 and Terraform](#python-boto3-and-terraform)
-    7. [Terraform Infracost](#terraform-infracost)
-    8. [Awesome Terraform](#awesome-terraform)
-    9. [Terraform Cheat Sheets](#terraform-cheat-sheets)
-    10. [Best Practices](#best-practices)
-    11. [Terraform and CI/CD. Terraform Workspace](#terraform-and-cicd-terraform-workspace)
-    12. [Terraform Boilerplates](#terraform-boilerplates)
-    13. [Terraform and Kubernetes](#terraform-and-kubernetes)
-    14. [Terraform Kubernetes Boilerplates](#terraform-kubernetes-boilerplates)
+    6. [Providing Terraform with Ansible](#providing-terraform-with-ansible)
+    7. [Python Boto3 and Terraform](#python-boto3-and-terraform)
+    8. [Terraform Infracost](#terraform-infracost)
+    9. [Awesome Terraform](#awesome-terraform)
+    10. [Terraform Cheat Sheets](#terraform-cheat-sheets)
+    11. [Best Practices](#best-practices)
+    12. [Terraform and CI/CD. Terraform Workspace](#terraform-and-cicd-terraform-workspace)
+    13. [Terraform Boilerplates](#terraform-boilerplates)
+    14. [Terraform and Kubernetes](#terraform-and-kubernetes)
+    15. [Terraform Kubernetes Boilerplates](#terraform-kubernetes-boilerplates)
          1. [Hashicorp Terraform Kubernetes Collection](#hashicorp-terraform-kubernetes-collection)
          2. [Learnk8s Terraform and Managed Kubernetes](#learnk8s-terraform-and-managed-kubernetes)
          3. [OpenShift and Terraform](#openshift-and-terraform)
          4. [Other Boilerplates](#other-boilerplates)
-    15. [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
-    16. [Terraform K3s Boilerplates](#terraform-k3s-boilerplates)
-    17. [Terraform and GCP](#terraform-and-gcp)
+    16. [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
+    17. [Terraform K3s Boilerplates](#terraform-k3s-boilerplates)
+    18. [Terraform and GCP](#terraform-and-gcp)
          1. [Terraform GKE Boilerplates](#terraform-gke-boilerplates)
-    18. [Terraform and AWS](#terraform-and-aws)
-         1. [AWS Observability Accelerator for Terraform](#aws-observability-accelerator-for-terraform)
-         2. [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
-         3. [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
-         4. [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
-    19. [Terraform with Azure](#terraform-with-azure)
+    19. [Terraform and AWS](#terraform-and-aws)
+         1. [AWS Service Catalog](#aws-service-catalog)
+         2. [AWS Observability Accelerator for Terraform](#aws-observability-accelerator-for-terraform)
+         3. [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
+         4. [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
+         5. [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
+    20. [Terraform with Azure](#terraform-with-azure)
          1. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
          2. [Terraform in Azure DevOps](#terraform-in-azure-devops)
          3. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
          4. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
-    20. [Terraform and OCI](#terraform-and-oci)
-    21. [Terraform and Minikube](#terraform-and-minikube)
-    22. [Terraform and Apache Kafka](#terraform-and-apache-kafka)
-    23. [Terraform and JMeter](#terraform-and-jmeter)
-    24. [Terraform Video Tutorials](#terraform-video-tutorials)
+    21. [Terraform and OCI](#terraform-and-oci)
+    22. [Terraform and Minikube](#terraform-and-minikube)
+    23. [Terraform and Apache Kafka](#terraform-and-apache-kafka)
+    24. [Terraform and JMeter](#terraform-and-jmeter)
+    25. [Terraform Video Tutorials](#terraform-video-tutorials)
 6. [CDK for Terraform](#cdk-for-terraform)
 7. [Graph Visualization Software](#graph-visualization-software)
 8. [Terraform Modules](#terraform-modules)
@@ -250,6 +252,10 @@
 - [medium.com/codex: How to Use the If / Else Statement in Terraform — Examples 🌟](https://medium.com/codex/how-to-use-the-if-else-statement-in-terraform-examples-76283b593828)
 - [==tekanaid.com: Terraform for Beginners – A Beginner’s Guide to Automating Cloud Infrastructure== 🌟](https://tekanaid.com/posts/terraform-for-beginners-course-and-training)
 - [==terrahaxs.com: Choosing the Right Terraform Loop: count vs for_each== 🌟](https://www.terrahaxs.com/blog/count-vs-for-each/)
+- [==digitalocean.com: How To Structure a Terraform Project== 🌟](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project) **Learn about structuring Terraform projects according to their general purpose and complexity. Then, you’ll create a project with a simple structure using the more common features of Terraform: variables, locals, data sources, and provisioners.**
+- [==getbetterdevops.io: How To Deploy Helm Charts With Terraform== 🌟](https://getbetterdevops.io/terraform-with-helm/) Do you know you can deploy HelmCharts as any other Terraform resources? It's possible with the official Helm provider.
+- [==medium.com/@dsdatsme: Terraform GitOps CI/CD with Approval & Notifications==](https://medium.com/@dsdatsme/terraform-gitops-ci-cd-with-approval-notifications-6f0807299fc4)
+- [github.com/DhruvinSoni30/Terraform_multiple_modules](https://github.com/DhruvinSoni30/Terraform_multiple_modules) **How to work with multiple terraform modules?**
 
 ### Alternatives to Terraform
 
@@ -273,6 +279,7 @@
 #### Alternatives to Terraform Cloud
 
 - [medium.com/@elliotgraebert: Four Great Alternatives to HashiCorp’s Terraform Cloud](https://medium.com/@elliotgraebert/four-great-alternatives-to-hashicorps-terraform-cloud-6e0a3a0a5482) Picking the Best IaC CI Platform
+- [digger.dev](https://digger.dev) Open-source Terraform Cloud alternative. Run Terraform plan / apply jobs in your CI
 
 ### HCL
 
@@ -285,6 +292,10 @@
 - [infoq.com: cdk-terraform - Cloud Development Kit Can Now Generate Terraform Configurations Using TypeScript and Python](https://www.infoq.com/news/2020/07/cdk-terraform/)
 - [hashicorp.com: CDK for Terraform: Enabling Python & TypeScript Support](https://www.hashicorp.com/blog/cdk-for-terraform-enabling-python-and-typescript-support)
 - [hashicorp.com: Announcing CDK for Terraform 0.1](https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-1)
+
+### Providing Terraform with Ansible
+
+- [==ansible.com: Providing Terraform with that Ansible Magic== 🌟🌟](https://www.ansible.com/blog/providing-terraform-with-that-ansible-magic)
 
 ### Python Boto3 and Terraform
 
@@ -321,6 +332,7 @@
 - [developer.hashicorp.com: Part 3: How to Evolve Your Provisioning Practices](https://developer.hashicorp.com/terraform/cloud-docs/recommended-practices/part3) This section describes the steps necessary to move an organization from manual provisioning processes to a collaborative infrastructure as code workflow. For each stage of operational maturity, we give instructions for moving your organization to the next stage, eventually arriving at our recommended workflow.
 - [thenewstack.io: Terraform’s Best Practices and Pitfalls](https://thenewstack.io/terraforms-best-practices-and-pitfalls/) If you want to scale your infrastructure, you need to use Terraform in a way that will allow you to do that.
 - [hashicorp.com: Opinionated Terraform Best Practices and Anti-Patterns](https://www.hashicorp.com/resources/opinionated-terraform-best-practices-and-anti-patterns) Get tips for making the most of Terraform when scaling your infrastructure as your organization grows.
+- [spacelift.io: 20 Terraform Best Practices to Improve your TF workflow 🌟](https://spacelift.io/blog/terraform-best-practices)
 
 ### Terraform and CI/CD. Terraform Workspace
 
@@ -442,8 +454,17 @@
 - [betterprogramming.pub: Terraform Setup for Using AWS Lambda With S3](https://betterprogramming.pub/terraform-setup-for-using-aws-lambda-with-s3-2b8ba286b6d7) Build your buckets
 - [aws.amazon.com: Save time with automated security checks of your Terraform scripts](https://aws.amazon.com/blogs/infrastructure-and-automation/save-time-with-automated-security-checks-of-terraform-scripts/) Looking for a way to automate security checks of your Terraform scripts directly into your continuous integration and continuous delivery (CI/CD) pipeline? How about a way to view the results of those security checks and address issues before deployment, all with built-in notifications? Then check out our solution using Checkov, a static code analysis tool for flagging security and compliance problems.
 - [haque-zubair.medium.com: AWS API Gateway & Lambda with Terraform](https://haque-zubair.medium.com/aws-lambda-api-gateway-with-terraform-bd143b1c56bb)
+- [medium.com/@abhimanyubajaj98: Deploying Kubernetes from Scratch with Terraform: A Step-by-Step Guide](https://medium.com/@abhimanyubajaj98/deploying-kubernetes-from-scratch-with-terraform-a-step-by-step-guide-7d628910efd0)
+- [aws.plainenglish.io: Building AWS Infrastructure with Terraform Modules](https://aws.plainenglish.io/building-aws-infrastructure-with-terraform-modules-2cee480be24d) Also learn how to create an S3 backend for easy state file versioning
+- [khainas.dev: Create SSH tunnel in AWS with Terraform](https://khainas.dev/create-ssh-tunnel-in-aws-with-terraform-62d1f6968e5d) Or the adventures of the JUMP Instance
+- [faun.pub: Configuring a Highly Available Infrastructure in AWS using Terraform](https://faun.pub/configuring-a-highly-available-infrastructure-in-aws-using-terraform-2fc9dbb519b6)
+- [towardsaws.com: Terraform Basics: Creating Custom AWS VPC, Subnets, and Route Tables](https://towardsaws.com/terraform-basics-creating-custom-aws-vpc-subnets-and-route-tables-4e7075135e99)
 
 {==
+
+#### AWS Service Catalog
+
+- [==New – Self-Service Provisioning of Terraform Open-Source Configurations with AWS Service Catalog== 🌟🌟🌟](https://aws.amazon.com/blogs/aws/new-self-service-provisioning-of-terraform-open-source-configurations-with-aws-service-catalog/) With AWS Service Catalog, you can create, govern, and manage a catalog of infrastructure as code (IaC) templates that are approved for use on AWS. These IaC templates can include everything from virtual machine images, servers, software, and databases to complete multi-tier application architectures. You can control which IaC templates and versions are available, what is configured by each version, and who can access each template based on individual, group, department, or cost center. End users such as engineers, database administrators, and data scientists can then quickly discover and self-service provision approved AWS resources that they need to use to perform their daily job functions.
 
 #### AWS Observability Accelerator for Terraform
 
@@ -716,6 +737,7 @@
 - [bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) AirIAM is an AWS IAM to least privilege Terraform execution framework. It compiles AWS IAM usage and leverages that data to create a least-privilege IAM Terraform that replaces the exiting IAM management method. AirIAM was created to promote immutable and version-controlled IAM management to replace today's manual and error prone methods.
 - [badarsebard/terraforge](https://github.com/badarsebard/terraforge) Graphical Terraform configuration generator. Terraforge is an application for generating Terraform code visually. Users select providers and then add resources as nodes to a graph that can be edited and arranged. Links between nodes appear automatically as the configuration of a node makes references to other nodes. When finished the design can be exported as Terraform HCL. The configuration will include all settings and configurations entered for the nodes.
 - [infracloud.io: 5 Tools to Auto-Generate Terraform Configuration Files 🌟](https://www.infracloud.io/blogs/auto-generate-terraform-configuration-files/)
+- [spacelift.io: 18 Most Useful Terraform Tools to Use in 2023](https://spacelift.io/blog/terraform-tools)
 
 ## Writing Terraform for unsupported resources with TerraCurl
 

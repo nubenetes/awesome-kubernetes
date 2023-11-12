@@ -3,14 +3,15 @@
 1. [Introduction](#introduction)
 2. [Compute Cost Calculator](#compute-cost-calculator)
 3. [AWS Cost Optimizations](#aws-cost-optimizations)
-4. [Kubernetes Cost Optimization](#kubernetes-cost-optimization)
-5. [Licence Managers](#licence-managers)
-6. [EKS](#eks)
-7. [Books](#books)
-8. [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
+4. [Azure Cost Governance](#azure-cost-governance)
+5. [Kubernetes Cost Optimization](#kubernetes-cost-optimization)
+6. [Licence Managers](#licence-managers)
+7. [EKS](#eks)
+8. [Books](#books)
+9. [Kubernetes Governance and Cost Management for the Cloud-Native Enterprise](#kubernetes-governance-and-cost-management-for-the-cloud-native-enterprise)
     1. [Replex](#replex)
-9. [Cost Optimization Tools](#cost-optimization-tools)
-10. [Tweets](#tweets)
+10. [Cost Optimization Tools](#cost-optimization-tools)
+11. [Tweets](#tweets)
 
 ## Introduction
 
@@ -43,6 +44,8 @@
 - [infoworld.com: Are we experiencing cloudflation?](https://www.infoworld.com/article/3674048/are-we-experiencing-cloudflation.html) The sticker shock of cloud computing bills has many in the C-suite looking for answers. A solid finops program can close the budget holes and pay for itself.
 - [edgebricks.com: Why Public Clouds Get So Expensive Over Time 🌟](https://edgebricks.com/why-public-clouds-get-so-expensive-over-time/)
 - [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know/)
+- [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost/)
+- [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) In this article, you will learn how to reduce your cloud bill and some tips on cloud infrastructure optimization
 
 ## Compute Cost Calculator
 
@@ -54,12 +57,17 @@
 
 - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)
 
+## Azure Cost Governance
+
+- [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) Learn how to gain full control of your Azure costs by creating a continuous cost governance and optimization process. This comprehensive Packt e-book covers essential topics like cloud cost management and sustainable modeling of cloud expenses.
+
 ## Kubernetes Cost Optimization
 
 - [medium.com/armory: Continuous Cost Optimization for Kubernetes](https://medium.com/armory/continuous-cost-optimization-for-kubernetes-4361045f0215)
 - [==learnk8s/xlskubectl==](https://github.com/learnk8s/xlskubectl) A spreadsheet to control your Kubernetes cluster. xlskubectl integrates Google Spreadsheet with Kubernetes. You can finally administer your cluster from the same spreadsheet that you use to track your expenses.
 - [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) In this article, you will learn how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
 - [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
+- [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)
 
 ## Licence Managers
 

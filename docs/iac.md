@@ -32,6 +32,7 @@
 - [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure/)
 - [medium.com/@bunnyshell: How to Overcome Infrastructure as Code (IaC) Challenges](https://medium.com/@bunnyshell/how-to-overcome-infrastructure-as-code-iac-challenges-f4947be7cde2)
 - [dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟](https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code) In this article, take an in-depth look at how Infrastructure as Code (IaC) works, its benefits, and common challenges.
+- [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html?amp=1)
 
 ## Local Environment as Code
 
@@ -53,6 +54,8 @@
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
 
 ## Infrastructure as Code using Kubernetes
+
+- [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6) “Declaring the Kubes”
 
 ### Config Connector
 

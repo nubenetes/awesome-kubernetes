@@ -9,7 +9,8 @@
 6. [AWS Management Tools Blog](#aws-management-tools-blog)
 7. [AWS CLI and AWS SDK](#aws-cli-and-aws-sdk)
 8. [Amazon CodeWhisperer](#amazon-codewhisperer)
-9. [Third Party Tools](#third-party-tools)
+9. [AWS S3 Sync](#aws-s3-sync)
+10. [Third Party Tools](#third-party-tools)
 
 ## AWS Scripts
 
@@ -31,15 +32,16 @@
 ## AWS Tools
 
 - [github.com/awslabs](https://github.com/awslabs)
-- [==steampipe== 🌟](https://steampipe.io) Steampipe is an open source tool for querying cloud APIs in a universal way and reasoning about the data in SQL. 
+- [==steampipe== 🌟](https://steampipe.io) Steampipe is an open source tool for querying cloud APIs in a universal way and reasoning about the data in SQL.
     - [==Querying AWS at scale across APIs, Regions, and accounts==](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/)
 - [==awslabs/aws-cloudsaga: AWS CloudSaga - Simulate security events in AWS==](https://github.com/awslabs/aws-cloudsaga) AWS CloudSaga is for customers to test security controls and alerts within their Amazon Web Services (AWS) environment, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
     - New Open Source tool alert! Introducing AWS CloudSaga, a open source tool for generating events within AWS to be investigated by blue teams & incident responders.
     - AWS CloudSaga is based on basic scenarios related to security events. Using AWS CloudSaga, you can safely generate events via the AWS API, and then use these events to test your team's investigation capabilities and responses in order to identify gaps and areas of improvement.
 - [willdady/aws-resource-based-policy-collector: AWS resource-based policy collector](https://github.com/willdady/aws-resource-based-policy-collector) Utility for collecting resource-based policies from an AWS account
 - [ermetic/access-undenied-aws 🌟](https://github.com/ermetic/access-undenied-aws) Ermetic is launching a new open-source tool: Access Undenied on AWS. The tool parses AWS AccessDenied CloudTrail events, explains the reasons for them and offers actionable fixes.
-    - [ermetic.com: Access Undenied on AWS](https://ermetic.com/blog/aws/access-undenied-on-aws/) 
+    - [ermetic.com: Access Undenied on AWS](https://ermetic.com/blog/aws/access-undenied-on-aws/)
 - [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site) A tool to help handle AWS Session connections on terminals, using your configured AWS Shared Config and Credentials files. It manages Roles to Assume, MFA Token requests, AWS SSO Sign-in, AWS SSO Tokens and the expiration of opened sessions.
+- [github.com/awslabs/amazon-s3-tar-tool: Amazon S3 Tar Tool](https://github.com/awslabs/amazon-s3-tar-tool) A utility tool to create a tarball of existing objects in Amazon S3
 
 ### AWS CI/CD Tools
 
@@ -61,7 +63,7 @@
 - [New usage examples have been added to the CLI for CodePipeline API Reference](http://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)
 - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.python.org/pypi/ec2-ssh-yplan/)
 - List running instances using 'awscli':
-  
+
 ```bash
 aws ec2 describe-instances --filters Name=instance-state-name,Values=running --query 'Reservations[].Instances[].[InstanceID]'
 ```
@@ -82,8 +84,13 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [genbeta.com: Amazon lanza CodeWhisperer, su propia alternativa a GitHub Copilot… que no insertará código ya licenciado sin avisar](https://www.genbeta.com/desarrollo/amazon-lanza-codewhisperer-su-propia-alternativa-a-github-copilot-que-no-insertara-codigo-licenciado-avisar)
 
+## AWS S3 Sync
+
+- [==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==](https://blog.awsfundamentals.com/aws-s3-sync) Learn all about AWS S3 sync - covering download, upload, synchronize buckets, file selection patterns, dry-run, and more - examples included. The CLI is a daily tool for every DevOps engineer working with AWS. A deep-dive for the 𝗮𝘄𝘀 𝘀𝟯 𝘀𝘆𝗻𝗰 command & its powerful options.
+
 ## Third Party Tools
 
-- [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.  
+- [ec2-spot-converter](https://github.com/jcjorel/ec2-spot-converter) This tool converts existing EC2 instances back and forth from on-demand and 'persistent' Spot billing models while preserving instance attributes (Launch configuration, Tags..), network attributes (existing Private IP addresses, Elastic IP), storage (Volumes), Elastic Inference accelerators and Elastic GPUs. It also allows replacement of existing Spot instances with new "identical" ones to update the instance type and cpu options.
 - [techcrunch.com: Vantage makes managing AWS easier](https://techcrunch.com/2021/01/12/vantage-makes-managing-aws-easier/)
 - [vantage.sh](https://www.vantage.sh/)
+- [github.com/one2nc/cloudlens 🌟](https://github.com/one2nc/cloudlens) k9s like CLI for AWS

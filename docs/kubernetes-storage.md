@@ -79,6 +79,9 @@
 - [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) Or emptyDir vs. container File System. Kubernetes applications might need some temporary storage that could be discarded after a container is stopped/removed. In this article, you will compare emptyDir and the container's local storage.
 - [==container-object-storage-interface.github.io: Kubernetes COSI==](https://container-object-storage-interface.github.io/) Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes. COSI is meant to be a departure from the CSI since the latter does not work well with object storage.
 - [containiq.com: Kubernetes Ephemeral Volumes & Storage | Tutorial](https://www.containiq.com/post/kubernetes-ephemeral-storage) In this article, we’ll discuss how Kubernetes handles ephemeral storage and learn how these volumes are provisioned in operating clusters.
+- [medium.com/nerd-for-tech: Persistence with Kubernetes](https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad)
+- [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better/)
+- [==yuminlee2.medium.com: Kubernetes: Storage==](https://yuminlee2.medium.com/kubernetes-storage-fe5363d88d42) **In Kubernetes, pods are temporary and any data stored within them is lost when they’re deleted or restarted. To avoid this, use persistent storage options such as PVs(Persistent Volumes)and PVCs(Persistent Volume Claims). PVs are storage resources with an independent lifecycle, while PVCs are requests for storage. Use them for simplified storage management and scaling. Provisioning persistent volumes can be static or dynamic. StorageClass defines the provisioner, parameters, and reclaim policy for dynamically provisioned PVs.**
 
 ## Kubernetes Storage Classes
 
@@ -111,6 +114,8 @@
     - How to get started using persistent volumes?
 - [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) CSI Driver for dynamic provisioning of Persistent Local Volumes for Kubernetes using ZFS.
 - [devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial](https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02)
+- [airplane.dev: How to use Kubernetes ephemeral volumes & storage 🌟](https://www.airplane.dev/blog/kubernetes-ephemeral-storage) This tutorial will discuss how Kubernetes handles ephemeral storage and how these volumes are provisioned in operating clusters.
+- [blog.devgenius.io: When K8s pods are stuck mounting large volumes](https://blog.devgenius.io/when-k8s-pods-are-stuck-mounting-large-volumes-2915e6656cb8)
 
 ### Kubernetes Volumes Guide
 
@@ -254,6 +259,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [kubernetes-csi.github.io](https://kubernetes-csi.github.io) Kubernetes-CSI is a community repository containing projects to enable CSI support in Kubernetes.
 - [github.com/kubernetes-csi](https://github.com/kubernetes-csi) Kubernetes specific Container-Storage-Interface (CSI) components
 - [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) This driver allows Kubernetes to access SMB Server on both Linux and Windows nodes.
+- [github.com/yandex-cloud: CSI for S3](https://github.com/yandex-cloud/k8s-csi-s3) This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.
 
 ## Kubestr
 

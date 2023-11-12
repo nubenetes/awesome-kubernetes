@@ -17,8 +17,9 @@
     5. [OpenWhisk](#openwhisk)
     6. [Dapr Microservices Frameworks](#dapr-microservices-frameworks)
 4. [Popular Deployment Frameworks for AWS Lambda](#popular-deployment-frameworks-for-aws-lambda)
-5. [Images](#images)
-6. [Tweets](#tweets)
+5. [TriggerMesh serverless event router](#triggermesh-serverless-event-router)
+6. [Images](#images)
+7. [Tweets](#tweets)
 
 ## Serverless Architectures
 
@@ -56,6 +57,7 @@
 - [==serverlessland.com: EDA VISUALS== 🌟🌟🌟](https://serverlessland.com/event-driven-architecture/visuals) **Small bite sized visuals about event-driven architectures**
     - [==serverlessland.com: BATCH PROCESSING VS EVENT STREAMING==](https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams) What's the difference between batching and event streams? When should you use one over the other? Events are super important in our event-driven architectures, so understanding these fundamentals can help.
     - [serverlessland.com: Splitter pattern](https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern) When building message/event based solutions you may want to take a message or event and split it into many different ones. We can use this to split large messages/events into smaller ones for downstream consumers.
+- [dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟](https://dev.to/aws-heroes/serverless-beyond-the-basics-kom)
 
 ### Terraform and Serverless
 
@@ -152,6 +154,15 @@
 
 - [lumigo.io: AWS Lambda Deployment Frameworks Compared](https://lumigo.io/blog/comparison-of-lambda-deployment-frameworks/)
 - [thenewstack.io: Build a Serverless API with AWS Gateway and Lambda](https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda/)
+
+## TriggerMesh serverless event router
+
+- [TriggerMesh](https://www.triggermesh.com) Easily build event-driven applications
+    - Open-source AWS EventBridge alternative
+    - Unified eventing experience
+    - Developer-friendly CLI
+    - Runs on Docker or natively on Kubernetes
+- [thenewstack.io: TriggerMesh: Open Sourcing Event-Driven Applications](https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications/) The open source, cloud-agnostic, serverless event router allows users to produce and consume between multiple clouds and on-prem data centers. Check out these real-life case studies.
 
 ## Images
 

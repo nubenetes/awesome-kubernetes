@@ -26,6 +26,7 @@
 ## Performance testing of microservices running on Kubernetes
 
 - [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) In this article, you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
+- [garden.io: Performance testing on a microservice architecture](https://garden.io/blog/performance-testing)
 
 ## JMeter
 

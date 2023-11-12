@@ -220,6 +220,9 @@ optimizing Enterprise Java for the microservices architecture.
 - [java67.com: How to set the logging level with application.properties in Spring Boot - Example Tutorial](https://www.java67.com/2021/10/how-to-set-logging-level-in-spring-boot-.html)
 - [==medium.com/@hubian: 16 Best Practices in Spring Boot Production== 🌟](https://medium.com/@hubian/16-best-practices-in-spring-boot-production-62c065a6145c)
 - [==javaguides.net: Event-Driven Microservices using Spring Boot and Kafka==](https://www.javaguides.net/2022/07/event-driven-microservices-using-spring-boot-and-apache-kafka.html?spref=tw)
+- [==piotrminkowski.com: Microservices with Spring Boot 3 and Spring Cloud== 🌟](https://piotrminkowski.com/2023/03/13/microservices-with-spring-boot-3-and-spring-cloud/)
+- [==javaguides.net: Spring Boot 3 REST API Documentation using SpringDoc OpenAPI==](https://www.javaguides.net/2023/03/spring-boot-3-rest-api-documentation.html)
+- [javaguides.net: Spring Boot Microservices - Spring Cloud API Gateway](https://www.javaguides.net/2022/10/spring-boot-microservices-spring-cloud-api-gateway.html)
 
 #### SpringBoot with Docker
 
@@ -229,6 +232,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [youtube: Creating Docker Images With Spring Boot](https://www.youtube.com/watch?v=1w1Jv9qssqg)
 - [dev.to: The Simple Guide To Dockerizing Spring Boot](https://dev.to/jarjanazy/the-simple-guide-to-dockerizing-spring-boot-og4)
 - [infoq.com: Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL](https://www.infoq.com/news/2021/12/spring-boot-2-6/)
+- [==dev.to/francescoxx: Java CRUD Rest API using Spring Boot, Hibernate, Postgres, Docker and Docker Compose==](https://dev.to/francescoxx/java-crud-rest-api-using-spring-boot-hibernate-postgres-docker-and-docker-compose-5cln)
 
 #### SpringBoot Tools
 

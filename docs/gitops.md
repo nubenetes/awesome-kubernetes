@@ -176,6 +176,9 @@
     - Faster deployment
     - Better collaboration
 - [==dzone: The Essentials of GitOps== 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
+- [blog.devops.dev: GitOps — Fundamentals Part 0](https://blog.devops.dev/gitops-fundamentals-part-0-a8e63f8f9ce8)
+- [==thenewstack.io: The Next Kubernetes Management Frontier: Automation. Automation Is No Longer a “Nice to Have”== 🌟🌟](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) **Investing in a GitOps-ready, central control plane will point organizations in the right direction of the next Kubernetes management frontier.**
+- [loft.sh: GitOps + Kubernetes Explained](https://loft.sh/blog/gitops-kubernetes-explained/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -253,6 +256,7 @@
 - [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
 - [harness.io: Comparing Helm vs Kustomize](https://harness.io/blog/helm-vs-kustomize)
 - [nicolasbarlatier.hashnode.dev: Introduction Kubernetes and Kustomize: How to easily customize any resource configuration with Kustomize?](https://nicolasbarlatier.hashnode.dev/introduction-kubernetes-and-kustomize-how-to-easily-customize-any-resource-configuration-with-kustomize) In this tutorial, you will learn how to use Kustomize to template the number of replicas in a workload based on the environment (e.g. 1 pod in dev, 10 pods in prod)
+- [==github.com/kostis-codefresh: How to Model Your Gitops Environments with kustomize== 🌟](https://github.com/kostis-codefresh/gitops-environment-promotion) In this repository, you'll find an example of how to model Kustomize folders for a GitOps application and promote releases between environments
 
 ### Flagger
 

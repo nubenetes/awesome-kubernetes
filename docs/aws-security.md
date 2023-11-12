@@ -46,6 +46,7 @@
 - [faun.pub: Handling Exposed AWS Access Key](https://faun.pub/handling-exposed-aws-access-key-b053362abd73)
 - [github.com/aws-samples: How to set up continuous replication from your third-party secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault)
 - [medium.com/@neonforge: Why You Shouldn’t Use AWS managed KMS Keys](https://medium.com/@neonforge/why-you-shouldnt-use-aws-managed-kms-keys-83d9eb9d5090)
+- [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar/) Do you feel AWS security groups are hard to implement? Are you tired of reconfiguring IP addresses in security groups whenever workloads get restarted or redeployed?
 
 ## AWS Security Reference Architecture AWS SRA
 
@@ -92,6 +93,7 @@
 - [awstip.com: AWS Permissions Set deep dive](https://awstip.com/aws-permissions-set-deep-dive-228d0ed35249)
 - [How to monitor and query IAM resources at scale – Part 1](https://aws.amazon.com/blogs/security/how-to-monitor-and-query-iam-resources-at-scale-part-1/) Useful details on how AWS IAM works so that you can use it more effectively.
 - [github.com/aws-samples: Visualize AWS IAM Access Analyzer Policy Validation Findings](https://github.com/aws-samples/visualize-iam-access-analyzer-policy-validation-findings)
+- [thenewstack.io: A Deep Dive into the Security of IAM in AWS](https://thenewstack.io/a-deep-dive-into-the-security-of-iam-in-aws/) How do you tighten up identity access management when you're using Amazon's cloud? Here are some best practices and useful tools for keeping everything safe.
 
 ### Terraform IAM Policy Validator
 

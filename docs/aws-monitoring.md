@@ -35,6 +35,7 @@
 ## AWS Managed Services for Prometheus and Grafana
 
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) Highly available, secure, and managed monitoring for your containers
+    - [medium.com: Up and running with Amazon Managed Service for Prometheus](https://medium.com/devops-techable/up-and-running-with-amazon-managed-service-for-prometheus-6fd12e56bff6)
 - [Amazon Managed Service for Grafana](https://aws.amazon.com/grafana/) Powerful, interactive data visualizations for builders, operators, and business leaders
 - [infoq.com: AWS Introduces Amazon Managed Service for Grafana and Amazon Managed Service for Prometheus](https://www.infoq.com/news/2021/01/aws-grafana-prometheus/)
 

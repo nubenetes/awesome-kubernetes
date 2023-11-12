@@ -88,6 +88,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/)
 - [serverlessland.com: EDA VISUALS](https://serverlessland.com/event-driven-architecture/visuals) Small bite sized visuals about event-driven architectures
 - [dzone: The Essentials of GitOps 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
+- [dzone.com: REST vs. Messaging for Microservices](https://dzone.com/articles/rest-vs-messaging-for-microservices)
+- [The Next Kubernetes Management Frontier: Automation](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) Automation Is No Longer a “Nice to Have”
+- [redis.com: Microservice Architecture Key Concepts](https://redis.com/blog/microservice-architecture-key-concepts/)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
@@ -281,6 +284,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Digital Money](digital-money.md)
 ## Hiring and Freelancing
 - [Recruitment](recruitment.md)
+- [Human Resources](hr.md)
 - [Freelancing](freelancing.md)
 - [Remote Tech Jobs](remote-tech-jobs.md)
 ## Customer Success Stories
@@ -310,14 +314,11 @@ A curated list of awesome references collected since 2018. Microservices archite
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8pDqJVdNa44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 
 <!--
 [![white square](images/empty_logo.jpg){: style="width:7%"}](https://www.youtube.com)
 -->
-
-
-
-
-

@@ -135,6 +135,11 @@
 - [ansible.com: The Top 10 Ansible Blogs of 2022](https://www.ansible.com/blog/top-10-ansible-blogs-2022)
 - [tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps](https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops/)
 - [tomsitcafe.com: Conditional statements – making decisions in Ansible code](https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code/)
+- [tomsitcafe.com: How to implement and use handlers in Ansible code?](https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code/)
+- [tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code](https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code/)
+- [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files/)
+- [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible)
+- [==sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible== 🌟](https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible)
 
 ## Ansible AI
 

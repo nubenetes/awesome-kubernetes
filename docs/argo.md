@@ -3,7 +3,7 @@
 1. [Introduction](#introduction)
 2. [Argo CD](#argo-cd)
 3. [Argo CD Vulnerabilities](#argo-cd-vulnerabilities)
-4. [Argo CD Tools](#argo-cd-tools)
+4. [Argo CD Tools and Plugins](#argo-cd-tools-and-plugins)
 5. [Argo Rollouts](#argo-rollouts)
 6. [Argo Workflows](#argo-workflows)
 7. [Videos](#videos)
@@ -84,6 +84,9 @@
 - [==blog.tanmaysarkar.tech: Beginners Guide to Argo CD==](https://blog.tanmaysarkar.tech/beginners-guide-to-argo-cd) In this guide, you will learn how to use ArgoCD by practising on a local minikube cluster
 - [medium.com/devops-techable: GitOps with ArgoCD running in Kubernetes for deployment processing](https://medium.com/devops-techable/gitops-with-argocd-running-in-kubernetes-for-deployment-processing-c5d21770ca97)
 - [seraf.dev: ArgoCD Tutorial — (with Terraform)](https://seraf.dev/argocd-tutorial-with-terraform-af77ddea2e6e) Here we’ll be deploying ArgoCD resources with Terraform on a local Kubernetes Cluster (KIND) for a true IaC infrastructure
+- [medium.com/@eduard.mihai.lemnaru: Auto-update helm chart version using ArgoCD](https://medium.com/@eduard.mihai.lemnaru/auto-update-helm-chart-version-using-argocd-4936933a2bac)
+- [53jk1.medium.com: ArgoCD: The Continuous Delivery Solution for Kubernetes](https://53jk1.medium.com/argocd-the-continuous-delivery-solution-for-kubernetes-ae5b008e76d1)
+- [github.com/myspotontheweb/gitops-workloads-demo](https://github.com/myspotontheweb/gitops-workloads-demo) This repository demonstrates how Helm based work loads can be managed by ArgoCD.
 
 ## Argo CD Vulnerabilities
 
@@ -98,12 +101,13 @@
     - ...
     - Have a CVE response plan ready
 
-## Argo CD Tools
+## Argo CD Tools and Plugins
 
 - [argoproj-labs/argocd-autopilot: Argo-CD Autopilot](https://github.com/argoproj-labs/argocd-autopilot)  The Argo-CD Autopilot is a tool which offers an opinionated way of installing Argo-CD and managing GitOps epositories. New users to GitOps and Argo CD are not often sure how they should structure their repos, add applications, promote apps across environments, and manage the Argo CD installation itself using GitOps. Argo Autopilot is a project that solves that
 - [argoproj-labs/applicationset: Argo CD ApplicationSet Controller](https://github.com/argoproj-labs/applicationset) The ApplicationSet controller is a Kubernetes controller that adds support for a new custom ApplicationSet CustomResourceDefinition (CRD). The ApplicationSet controller manages multiple Argo CD Applications as a single ApplicationSet unit, supporting deployments to large numbers of clusters, deployments of large monorepos, and enabling secure Application self-service.
 - [IBM/argocd-vault-plugin](https://github.com/IBM/argocd-vault-plugin) An ArgoCD plugin to retrieve secrets from Hashicorp Vault and inject them into Kubernetes secrets.
 - [==argoproj-labs/argocd-vault-plugin==](https://github.com/argoproj-labs/argocd-vault-plugin) ArgoCD-Vault-plugin is an Argo CD plugin to retrieve secrets from various Secret Management tools (HashiCorp Vault, IBM Cloud Secrets Manager, AWS Secrets Manager, etc.) and inject them into Kubernetes resources - https://argocd-vault-plugin.readthedocs.io
+- [github.com/crumbhole/argocd-vault-replacer](https://github.com/crumbhole/argocd-vault-replacer) An Argo CD plugin to replace placeholders in Kubernetes manifests with secrets stored in Hashicorp Vault. Scans the current directory recursively for any YAML files and attempts to replace strings following a pattern.
 
 ## Argo Rollouts
 
@@ -115,6 +119,7 @@
 - [infracloud.io: Progressive Delivery with Argo Rollouts: Canary Deployment](https://www.infracloud.io/blogs/progressive-delivery-argo-rollouts-canary-deployment/)
 - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)
 - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) In this article, we will learn how to automate Blue/Green Deployment with Argo Rollouts.
+- [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing/) This blog post will teach you how to set up blue-green deployments using Argo Rollouts with DNS routing using **Azure Traffic Manager**
 
 ## Argo Workflows
 

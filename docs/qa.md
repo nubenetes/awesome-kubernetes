@@ -25,7 +25,7 @@
 - [blog.thundra.io: 4 Software Testing Roles](https://blog.thundra.io/4-software-testing-roles)
 - [lambdatest.com: TestNG vs JUnit : Which testing framework should you choose?](https://www.lambdatest.com/blog/testng-vs-junit-which-testing-framework-should-you-choose/)
 - [botplayautomation.com: Common mistakes test teams make in automation testing and how to fix them](https://www.botplayautomation.com/post/common-mistakes-test-teams-make-in-automation-testing-and-how-to-fix-them)
-- [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://blog.testproject.io/2021/06/17/a-complete-guide-to-test-automation-framework/) 
+- [blog.testproject.io: A Complete Guide to Test Automation Framework 🌟](https://blog.testproject.io/2021/06/17/a-complete-guide-to-test-automation-framework/)
     - [Test Automation Framework: TestProject](https://testproject.io/) TestProject is a free end-to-end test automation platform for web, mobile, and API testing that’s supported by
 the #1 test automation community.
 - [botplayautomation.com: Automation Test Plan](https://www.botplayautomation.com/post/automation-test-plan)
@@ -67,7 +67,7 @@ the #1 test automation community.
 ## Testing Frameworks
 
 - [JUnit](https://junit.org)
-    - [lambdatest.com](https://www.lambdatest.com/blog/junit5-extensions/) A Comprehensive Guide On JUnit 5 Extensions 
+    - [lambdatest.com](https://www.lambdatest.com/blog/junit5-extensions/) A Comprehensive Guide On JUnit 5 Extensions
 - [TestNG](https://testng.org)
 - [Spock Framework](https://spockframework.org)
 - [testsvision.com: 6 Popular Automation Testing Frameworks & Tools](https://testsvision.com/6-popular-automation-testing-frameworks-tools/)
@@ -93,6 +93,7 @@ the #1 test automation community.
     - [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
     - [atomicjar.com: Announcing Testcontainers Cloud: Integration Testing has never been easier](https://www.atomicjar.com/2021/11/announcing-testcontainers-cloud/) Ever wished for integration tests to be faster, easier, and more efficient? Wish no more! We're happy to announce Testcontainers Cloud - a lightweight, fast, and secure integration testing platform for everyone.
     - [vladmihalcea.com: Testcontainers Database Integration Testing](https://vladmihalcea.com/testcontainers-database-integration-testing/)
+    - [thenewstack.io: How Testcontainers Is Demonstrating Value as a Key CI Tool](https://thenewstack.io/how-testcontainers-is-demonstrating-value-as-a-key-ci-tool/) Testcontainers is a library originally written in Java that helps developers run module-specific Docker containers while the app is being built in order to simplify integration testing.
 - [Metabob](https://www.metabob.com/) Metabob is an AI Static Analysis Tool that enables developers to quickly identify the causes behind errors and performance sinks. An AI-assisted tool to visualize and debug Python code.
 - [dzone: Top Microservices Testing Tools Testers Should Know About](https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno)
 - [SystemTap](https://sourceware.org/systemtap/)

@@ -6,7 +6,9 @@
 4. [Node.js](#nodejs)
 5. [Npm](#npm)
 6. [More Frontend JavaScript Frameworks](#more-frontend-javascript-frameworks)
-7. [Tweets](#tweets)
+7. [Videos](#videos)
+8. [Tweets](#tweets)
+
 ## Introduction
 
 - [wikipedia: JavaScript](https://en.wikipedia.org/wiki/JavaScript)
@@ -16,6 +18,7 @@
 - [dev.to: 25 Métodos de Arrays en JavaScript que todo desarrollador debe conocer](https://dev.to/gdcodev/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
 - [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)
 - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
+- [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/)
 
 ## Useful websites for web developers
 
@@ -50,14 +53,22 @@
 
 ## Npm
 
-- [wikipedia: Npm](https://en.wikipedia.org/wiki/Npm_(software)) (originally short for Node Package Manager) is a package manager for the JavaScript programming language. 
+- [wikipedia: Npm](https://en.wikipedia.org/wiki/Npm_(software)) (originally short for Node Package Manager) is a package manager for the JavaScript programming language.
 - [Npm](https://www.npmjs.com/)
 - [npm has joined GitHub](https://github.blog/2020-04-15-npm-has-joined-github/)
 
 ## More Frontend JavaScript Frameworks
 
 - [cult.honeypot.io: Best Frontend JavaScript Frameworks To Learn 2021](https://cult.honeypot.io/reads/best-frontend-javascript-frameworks-learn-2021/)
-- [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies)  Things I think about when I write React code 
+- [react js: mithi/react-philosophies](https://github.com/mithi/react-philosophies)  Things I think about when I write React code
+
+## Videos
+
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2JYT5f2isg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 
