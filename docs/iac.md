@@ -22,7 +22,7 @@
 - [dzone.com: How to Start an Infrastructure as Code Project 🌟](https://dzone.com/articles/how-to-start-an-infrastructure-as-code-project) Learn the best practices to properly start an infrastructure as code project, from the source code to collaboration exercises and tools.
 - [daffodilsw.medium.com: What is Infrastructure Automation in DevOps?](https://daffodilsw.medium.com/what-is-infrastructure-automation-in-devops-d9681870b07d)
 - [thenewstack.io: IaC Cloud Misconfiguration Tools too Noisy without Context](https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context/)
-- [==freecodecamp.org: Infrastructure as Code - Full Course== 🌟](https://www.freecodecamp.org/news/what-is-infrastructure-as-code/)
+- [==freecodecamp.org: Infrastructure as Code - Full Course== 🌟🌟](https://www.freecodecamp.org/news/what-is-infrastructure-as-code/)
 - [faun.pub: The best Infrastructure as Code tools for 2021](https://faun.pub/the-best-infrastructure-as-code-tools-for-2021-b37c323e89f0)
 - [==alpacked.io: Infrastructure as Code in DevOps== 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops/) Key driving force of efficient application delivery.
 - [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac/)

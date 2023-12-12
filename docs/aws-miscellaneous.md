@@ -123,6 +123,7 @@
 
 - [blog.logrocket.com: AWS Amplify and React Native: A tutorial](https://blog.logrocket.com/aws-amplify-and-react-native-a-tutorial/)
 - [dev.to: 10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291)
+- [docs.amplify.aws: Set up Amplify Auth](https://docs.amplify.aws/javascript/build-a-backend/auth/set-up-auth/)
 
 ## AWS App Runner
 

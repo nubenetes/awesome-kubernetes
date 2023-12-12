@@ -217,6 +217,7 @@
 - [sitepoint.com: Getting Started With Kubernetes on AWS Tutorial (2023 Update)](https://www.sitepoint.com/kubernetes-aws-tutorial/)
 - [medium.com: Saving costs in Google Kubernetes Engine using Spot VMs](https://medium.com/@vaibhav176/saving-costs-in-google-kubernetes-engine-using-spot-vms-2e6d0157815e)
 - [medium.com/@benjamin.christmann_12432: Setting up your first EKS cluster on AWS: some practical tips](https://medium.com/@benjamin.christmann_12432/setting-up-your-first-eks-cluster-on-aws-some-practical-tips-60400963c588)
+- [blog.ratnopamc.com: Reduce cross-AZ traffic costs on EKS using topology aware hints](https://blog.ratnopamc.com/reduce-cross-az-traffic-costs-on-eks-using-topology-aware-hints) Topology Aware Hints is a new feature in EKS that reduces data transfer costs by keeping traffic within the same availability zone. It uses Pod Topology Spread Constraints to spread Pods evenly onto multiple node topologies
 
 ### EKS Upgrades
 
@@ -359,6 +360,19 @@
 - [==azuredevopslabs.com: Deploying a multi-container application to Azure Kubernetes Services==](https://azuredevopslabs.com/labs/vstsextend/kubernetes/)
 - [danielstechblog.io: Mitigating slow container image pulls on Azure Kubernetes Service](https://www.danielstechblog.io/mitigating-slow-container-image-pulls-on-azure-kubernetes-service/) It is not easy identifying the root cause for slow container image pulls on your AKS. In this article, you'll follow Daniel's journey in debugging the OS disk queue depth and how it affects image pulls.
 - [==grafana.com: Scrape Azure metrics and monitor AKS using Grafana Agent== 🌟](https://grafana.com/blog/2023/04/07/scrape-azure-metrics-and-monitor-aks-using-grafana-agent/) In this blog post, we will demonstrate how to configure Grafana Agent to scrape metrics from Microsoft Azure, specifically from AKS, using the newly released [azure_exporter](https://grafana.com/docs/agent/v0.32/configuration/integrations/azure-exporter-config/).
+- [medium.com/microsoftazure: Automating Managed Prometheus and Grafana with Terraform for scalable observability on Azure Kubernetes Service and Istio 🌟](https://medium.com/microsoftazure/automating-managed-prometheus-and-grafana-with-terraform-for-scalable-observability-on-azure-4e5c5409a6b1)
+- [kristhecodingunicorn.com: Setting Up OAuth 2.0 Authentication for Applications in AKS With NGINX and OAuth2 Proxy](https://www.kristhecodingunicorn.com/post/aks-oauth2-proxy-with-nginx-ingress-controller/)
+- [azure.microsoft.com: Announcing the general availability of Azure CNI Overlay in Azure Kubernetes Service](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-azure-cni-overlay-in-azure-kubernetes-service/)
+- [medium.com/@GiantSwarm: Deep Dive Into Kubernetes Networking in Azure](https://medium.com/@GiantSwarm/deep-dive-into-kubernetes-networking-in-azure-9f0e85e2ee34) Deep Dive Into Kubernetes Networking in Azure
+    - Calico with BGP
+    - Azure Container Network
+    - Calico Policy-Only + Flannel
+    - Best Option
+- [returngis.net: Configurar más de un Application Gateway con AGIC para AKS](https://www.returngis.net/2022/05/configurar-mas-de-un-application-gateway-con-agic-para-aks/)
+- [returngis.net: Azure Application Gateway con WAF y wildcard + Nginx Controller para AKS](https://www.returngis.net/2021/11/azure-application-gateway-con-waf-y-wildcard-nginx-controller-para-aks/)
+- [medium.com/@lfoster49203: Kubernetes on Azure: Setting up a cluster on Microsoft Azure (with Azure AKS)](https://medium.com/@lfoster49203/kubernetes-on-azure-setting-up-a-cluster-on-microsoft-azure-with-azure-aks-d6bee3eaa65)
+- [medium.com/@pauldotyu: Effortlessly Deploy to AKS with Open Source Tools Draft and Acorn](https://medium.com/@pauldotyu/app-to-aks-with-draft-and-acorn-2d25f19649b7)
+- [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on/ba-p/3802069)
 
 ### AKS Lite
 
@@ -415,6 +429,7 @@
 - [blog.devgenius.io: Explore API Priority and Fairness to Ease the Load of the APIServer](https://blog.devgenius.io/explore-api-priority-and-fairness-to-ease-the-load-of-the-apiserver-a4fe9c4e7174) Walk through incident remediation using APF
 - [faun.pub: Make Your Kubernetes Cluster Highly Available and Fault Tolerant 🌟](https://faun.pub/deploy-active-active-multi-region-kubernetes-cluster-with-terraform-f2652e43f47e) End to End setup of Multi Region Autopilot Kubernetes Cluster with Application Deployment Example
 - [medium.com/@pbijjala: reCap: Kube vrs Cloud DNS in GKE](https://medium.com/@pbijjala/recap-kube-vrs-cloud-dns-in-gke-b8d1d407e00d) When deciding on how to use DNS with GKE, what are the available native Kubernetes options, which options exist on Google Cloud for GKE, and how do these two things play together?
+- [medium.com/google-cloud: Ingress in Google Kubernetes Products](https://medium.com/google-cloud/ingress-in-google-kubernetes-products-f22ded21f4ed) In this article, you will discuss, enumerate and compare all the options you have to route traffic into a Kubernetes cluster running in Google Cloud (GKE) or on-premise (Anthos on Bare Metal, Anthos on VMware)
 
 ## IKS IBM Cloud Kubernetes Service
 

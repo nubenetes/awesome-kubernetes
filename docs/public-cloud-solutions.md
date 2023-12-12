@@ -51,6 +51,7 @@
 - [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)
 - [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
 - [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison/)
+- [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers/) Companies turn to cloud providers for benefits like scalability, security and high availability, but the offerings are not identical. How can you ensure a good fit?
 
 ## Openshift as a Service
 
@@ -62,7 +63,7 @@
 
 - [Dzone: 5 Hosted Kubernetes Platforms](https://dzone.com/articles/5-hosted-kubernetes-platforms) With the number of services for Kubernetes increasing at a fast pace, we take a look at five such services and compare them.
 - [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) Enterprise-Grade Kubernetes
-- [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes/) 
+- [Digital Ocean Kubernetes](https://www.digitalocean.com/products/kubernetes/)
     - [Digital Ocean pricing](https://www.digitalocean.com/pricing/)
 - [AWS Kubernetes pricing](https://aws.amazon.com/es/eks/pricing/)
 - [Azure Kubernetes pricing](https://azure.microsoft.com/es-es/pricing/details/kubernetes-service/)
@@ -98,7 +99,7 @@
 
 ## Podcasts
 
-- [hablemosdenube.com](https://www.hablemosdenube.com) 
+- [hablemosdenube.com](https://www.hablemosdenube.com)
 
 ## Images
 

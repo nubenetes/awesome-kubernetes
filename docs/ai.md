@@ -6,6 +6,7 @@
 4. [OpenAI](#openai)
 5. [Kubernetes and AI](#kubernetes-and-ai)
 6. [Programming](#programming)
+7. [Medical Imaging](#medical-imaging)
 
 ## Introduction
 
@@ -35,3 +36,7 @@
 ## Programming
 
 - [xataka.com: https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos](https://www.xataka.com/servicios/copilot-chatgpt-gpt-4-han-cambiado-para-siempre-mundo-programacion-esto-que-opinan-expertos)
+
+## Medical Imaging
+
+- [blog.redbrickai.com: F.A.S.T. ⚡️ Meta AI’s Segment Anything for Medical Imaging](https://blog.redbrickai.com/blog-posts/fast-meta-sam-for-medical-imaging)

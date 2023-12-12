@@ -87,6 +87,8 @@
 - [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/9-factores-repercuten-felicidad-trabajador-352445)
 - [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757)
 - [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior)
+- [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162)
+- [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html)
 
 ## Recruitment Portals
 

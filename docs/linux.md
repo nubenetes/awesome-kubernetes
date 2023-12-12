@@ -291,6 +291,8 @@
 - [medium.com/kubehub: A Series on Bash Scripting](https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5)
 - [levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1](https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7) Everything You Need to Know to Write Bash Scripts
 - [medium.com: Shell Scripting for DevOps with Examples](https://medium.com/@saurabhdahibhate50/devops-day-04-task-e51d64ffbf16)
+- [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593) Process strings productively in your automation scripts with these syntaxes
+- [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)
 
 ## Questions and Answers
 

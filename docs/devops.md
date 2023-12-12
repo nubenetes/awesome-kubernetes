@@ -67,6 +67,10 @@
 - [medium.com/@polatatc: Terraform; the most demanded DevOps skill!](https://medium.com/@polatatc/terraform-the-most-demanded-devops-skill-88c461641e7b)
 - [dev.to: DevOps Trends for Developers in 2023 | Pavan Belagatti](https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b)
 - [==abc.es: Ingenieros DevOps, la pieza clave del engranaje digital de las empresas== 🌟](https://www.abc.es/economia/ingenieros-devops-pieza-clave-engranaje-digital-empresas-20230212000148-nt.html) **Estos profesionales, que activan una sinergia eficaz entre las áreas tecnológicas y de producción, son un cotizado factor de competitividad**
+- [microsoft.com: DevOps threat matrix](https://www.microsoft.com/en-us/security/blog/2023/04/06/devops-threat-matrix/)
+- [devops.com: 11 Steps to a Successful DevOps Career](https://devops.com/11-steps-to-a-successful-devops-career/)
+- [dev.to/aws-builders: How to get started with DevOps? What skills should we start with?](https://dev.to/aws-builders/how-to-get-started-with-devops-what-skills-should-we-start-with-5efp)
+- [==infoq.com: Dark Side of DevOps - the Price of Shifting Left and Ways to Make it Affordable==](https://www.infoq.com/articles/devops-shifting-left/)
 
 ## Automation Glossary
 
@@ -420,6 +424,9 @@ Resolve your software incidents 10x faster
 - [thenewstack.io: Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/) Developer platforms won't eliminate DevOps but will prioritize developer experience.
 - [frobes.com: How To Empower Modern Kubernetes Management With A Platform Team Model](https://www.forbes.com/sites/forbestechcouncil/2023/02/23/how-to-empower-modern-kubernetes-management-with-a-platform-team-model/)
 - [thenewstack.io: Architecture and Design Considerations for Platform Engineering Teams](https://thenewstack.io/platform-engineering/architecture-and-design-considerations-for-platform-engineering-teams/) What exactly is a platform? Is it an internal developer platform, a developer self-service portal or simply a developer onboarding tool?
+- [dev.to/thenjdevopsguy: Platform Engineering On Kubernetes Part 4: Internal Developer Platforms](https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh)
+- [medium.com/agorapulse-stories: Platform Engineering, Part 3: WHEN & HOW to Build an Internal Developer Platform](https://medium.com/agorapulse-stories/platform-engineering-part-3-when-how-to-build-an-internal-developer-platform-cfb22efcca34)
+- [dev.to/thenjdevopsguy: Create and Understand Your Platform Engineering Environment](https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa)
 
 ## Bunch of Images
 

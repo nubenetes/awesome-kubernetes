@@ -130,6 +130,8 @@
     - Global chart values
     - Sharing templates with subcharts
 
+- [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423)
+
 ## Helm Plugins
 
 - [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change

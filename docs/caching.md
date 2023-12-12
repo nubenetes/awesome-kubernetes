@@ -39,7 +39,7 @@
 
 ## Red Hat Data Grid (commercial version of Infinispan)
 
-- In 2011, Red Hat began producing a commercial version of Infinispan, dubbed JBoss Enterprise Data Grid. 
+- In 2011, Red Hat began producing a commercial version of Infinispan, dubbed JBoss Enterprise Data Grid.
 - [Red Hat Data Grid Overview](https://developers.redhat.com/products/datagrid/overview)
 - [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid)
 - [Red Hat JBoss Data Grid is Not Just for Caching Java Objects Anymore 🌟](https://thenewstack.io/red-hat-jboss-data-grid-not-just-storing-java-objects-anymore/)
@@ -91,6 +91,7 @@
 - [medium: Scaling Millions of Geospatial Queries per minute using Redis](https://medium.com/groupon-eng/scaling-millions-of-geospatial-queries-per-minute-using-redis-7c05bcf6b4db)
 - [==architecturenotes.co: Redis Explained== 🌟🌟](https://architecturenotes.co/redis/) A deep technical dive into all things Redis. Covering various Redis topologies, data persistence and process forking.
 - [faun.pub: Redis High availability with Sentinel on Kubernetes(K8s)](https://faun.pub/redis-high-availability-with-sentinel-on-kubernetes-k8s-a1d67842e0ce) In this tutorial, you will learn how to deploy Redis with Sentinel in Kubernetes. You will also test the availability of the setup by simulating a master failure.
+- [medium.com/lightricks-tech-blog: Step by Step Guide: How to create a Dynamic Service Endpoint via K8S API](https://medium.com/lightricks-tech-blog/step-by-step-guide-how-to-create-a-dynamic-service-endpoint-via-k8s-api-1024309cb226) This article explains how to deploy Redis HA in Kubernetes and create a Service that always points to the master Redis. It also demonstrates how to interact with Kubernetes API from inside a pod using a script to update the endpoint dynamically.
 
 ## Nginx High-performance caching
 

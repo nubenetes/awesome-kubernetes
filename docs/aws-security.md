@@ -2,18 +2,19 @@
 
 1. [Introduction](#introduction)
 2. [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
-3. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
-4. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
-5. [AWS IAM](#aws-iam)
+3. [Application Security](#application-security)
+4. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
+5. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
+6. [AWS IAM](#aws-iam)
     1. [Terraform IAM Policy Validator](#terraform-iam-policy-validator)
     2. [AWS IAM Anywhere](#aws-iam-anywhere)
-6. [AWS Organizations](#aws-organizations)
-7. [AWS Control Tower](#aws-control-tower)
-8. [AWS Firewalls](#aws-firewalls)
-9. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
-10. [AWS Secrets Manager](#aws-secrets-manager)
-11. [AWS Vault](#aws-vault)
-12. [Tweets](#tweets)
+7. [AWS Organizations](#aws-organizations)
+8. [AWS Control Tower](#aws-control-tower)
+9. [AWS Firewalls](#aws-firewalls)
+10. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+11. [AWS Secrets Manager](#aws-secrets-manager)
+12. [AWS Vault](#aws-vault)
+13. [Tweets](#tweets)
 
 ## Introduction
 
@@ -47,11 +48,17 @@
 - [github.com/aws-samples: How to set up continuous replication from your third-party secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault)
 - [medium.com/@neonforge: Why You Shouldn’t Use AWS managed KMS Keys](https://medium.com/@neonforge/why-you-shouldnt-use-aws-managed-kms-keys-83d9eb9d5090)
 - [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar/) Do you feel AWS security groups are hard to implement? Are you tired of reconfiguring IP addresses in security groups whenever workloads get restarted or redeployed?
+- [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) Serverless authentication solution to protect your website or Amplify application
+- [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) Example AWS Service control policies to get started or mature your usage of AWS SCPs.
 
 ## AWS Security Reference Architecture AWS SRA
 
 - [==docs.aws.amazon.com: AWS Security Reference Architecture (AWS SRA)== 🌟](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html)
 - [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available/) A set of guidelines for deploying the full complement of AWS security services in a multi-account environment.
+
+## Application Security
+
+- [docs.aws.amazon.com: Application security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html) Application security (AppSec) describes the overall process of how you design, build, and test the security properties of the workloads you develop. You should have appropriately trained people in your organization, understand the security properties of your build and release infrastructure, and use automation to identify security issues.
 
 ## Policy as Code with AWS CDK and Open Policy Agent
 

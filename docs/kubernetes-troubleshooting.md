@@ -21,6 +21,7 @@
      2. [Palaemon](#palaemon)
      3. [cdebug and debug-ctr](#cdebug-and-debug-ctr)
      4. [kubectl-debug](#kubectl-debug)
+     5. [Kubeshark](#kubeshark)
 18. [Slides](#slides)
 19. [Images](#images)
 20. [Tweets](#tweets)
@@ -85,6 +86,8 @@
 - [blog.devgenius.io: All You Need to Know about Debugging Kubernetes Cronjob](https://blog.devgenius.io/all-you-need-to-know-about-debugging-kubernetes-cronjob-61989a998513) Walkthrough tools & configs & knowledge used in Kubernetes cronjob/deployment debug. In this article, you will create and deploy a (broken) CronJob. Then you will debug it and in the process learn about environment variables, RBAC, pod resource configuration, logging, and more
 - [==dzone.com: Tackling the Top 5 Kubernetes Debugging Challenges==](https://dzone.com/articles/tackling-the-top-5-kubernetes-debugging-challenges) Bugs are inevitable and typically occur as a result of an error or oversight. Learn five Kubernetes debugging challenges and how to tackle them.
 - [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba) **The `/proc` directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. In this article, you will learn how to explore the directory in a Kubernetes cluster**
+- [learnitguide.net: How To Troubleshoot Kubernetes Pods](https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html)
+- [learnitguide.net: How to Check Memory Usage of a Pod in Kubernetes?](https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html)
 
 ## Kubernetes Network Troubleshooting
 
@@ -205,6 +208,10 @@
 ### kubectl-debug
 
 - [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) kubectl-debug is a tool that lets you debug a target container in a Kubernetes cluster by automatically creating a new, non-invasive, 'debug' container in the same PID, network, user, and IPC namespace as the target container without any disruption
+
+### Kubeshark
+
+- [kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes](https://www.kubetools.io/kubernetes/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations/)
 
 ## Slides
 

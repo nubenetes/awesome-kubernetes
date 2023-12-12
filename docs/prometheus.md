@@ -144,6 +144,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [==blog.devops.dev: How to Monitor your Application using Prometheus== 🌟](https://blog.devops.dev/deploying-and-monitoring-an-application-using-prometheus-on-kubernetes-cluster-483773f789f) In this Blog, we will be able to deploy our application in an EKS cluster and monitor it with Prometheus
 - [==dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including Dashboards==](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u) Goodbye to the headaches of manual infrastructure management, and hello to a more efficient and scalable approach with ArgoCD.
 - [medium.com: How to find unused Prometheus metrics using mimirtool 🌟](https://medium.com/@dotdc/how-to-find-unused-prometheus-metrics-using-mimirtool-a44560173543)
+- [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter/) In this tutorial, you will learn how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

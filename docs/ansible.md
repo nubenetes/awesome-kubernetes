@@ -144,6 +144,7 @@
 ## Ansible AI
 
 - [==ansible.ai==](https://ansible.ai)
+- [redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/technologies/management/ansible/ansible-lightspeed) Red Hat® Ansible® Lightspeed with IBM watsonx Code Assistant helps automation teams learn, create, and maintain Red Hat Ansible Automation Platform content more efficiently.
 
 ## Deploying custom files with Jinja2 templates
 

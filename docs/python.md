@@ -249,6 +249,8 @@
 - [medium.com/@terminalsandcoffee: Mastering Python: How to Generate a List of Dictionaries for Files in Your Working Directory with One Script](https://medium.com/@terminalsandcoffee/mastering-python-how-to-generate-a-list-of-dictionaries-for-files-in-your-working-directory-with-7cab8b485e69)
 - [realpython.com: How to Write Pythonic Loops](https://realpython.com/courses/how-to-write-pythonic-loops/)
 - [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/) When you're learning Python, there are some important algorithms and data structures you'll need to know. They'll come up in job interviews, & you'll use them on a daily basis, too. You'll learn how to use them in this comprehensive Python DSA course.
+- [realpython.com: Python Machine Learning Tutorials 🌟🌟](https://realpython.com/tutorials/machine-learning/)
+- [devopscube.com: Python For DevOps: Guide for DevOps Engineers](https://devopscube.com/python-for-devops/)
 
 ## PHP vs Python
 
@@ -318,6 +320,7 @@
 - [FastAPI 🌟](https://fastapi.tiangolo.com/)
 - [blog.adnansiddiqi.me: Create your first REST API in FastAPI 🌟](http://blog.adnansiddiqi.me/create-your-first-rest-api-in-fastapi/) A step by step guide creating high performance APIs in Python
 - [freecodecamp.org: How to Create Microservices with FastAPI](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/) This article aims to elevate one’s understanding of Flask Restful Framework from the initial concepts to advanced use-cases.
+- [freecodecamp.org: FastAPI Course – Code APIs Quickly](https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly/) FastAPI is an open source Python web dev framework that makes building APIs fast and easy. Even though it's still relatively new, big companies like Netflix are using it. This crash course teaches you the basics so you can code robust APIs quickly.
 
 ## Python pip and pip's wheel
 
@@ -394,6 +397,7 @@
 - [dashbird.io: Explaining boto3: how to use any AWS service with python](https://dashbird.io/blog/boto3-aws-python/)
 - [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks/)
 - [hands-on.cloud: Quick Intro To Python 3 for AWS Automation Engineers 🌟](https://hands-on.cloud/quick-introduction-to-python-for-aws-automation-engineers/)
+- [medium.com/@d.deloatch: How to Stop all Instances Using AWS SDK for Python (Boto3)](https://medium.com/@d.deloatch/how-to-stop-all-instances-using-aws-sdk-for-python-boto3-2e02af03177)
 
 ## Python Tools
 
@@ -412,6 +416,7 @@
 - [==google/python-fire== 🌟](https://github.com/google/python-fire) Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 - [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) Memray is a memory profiler for Python
 - [github.com/microsoft/pyright](https://github.com/microsoft/pyright) Static Type Checker for Python
+- [github.com/kodemore/chili](https://github.com/kodemore/chili) Object serialization/deserialization tools for python.
 
 ### Web Scraping with Python
 

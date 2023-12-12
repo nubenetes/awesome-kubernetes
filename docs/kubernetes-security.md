@@ -187,6 +187,7 @@
     - Use a read-only root filesystem
     - Drop scary capabilities, don't add new ones
     - Don't run privileged
+- [towardsdev.com: 12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes](https://towardsdev.com/12-scanners-to-find-security-vulnerabilities-and-misconfigurations-in-kubernetes-332a738d076d)
 
 ## Security Checklist Kubernetes OWASP
 

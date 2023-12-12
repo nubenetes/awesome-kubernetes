@@ -5,6 +5,7 @@
     1. [DevOps Compliance](#devops-compliance)
     2. [GitOps vs ClickOps 1](#gitops-vs-clickops-1)
     3. [GitOps vs ClickOps 2](#gitops-vs-clickops-2)
+3. [Tools](#tools)
 
 ## Introduction
 
@@ -13,6 +14,9 @@
 - [betterprogramming.pub: ChatGPT and Software Architecture](https://betterprogramming.pub/chatgpt-and-software-architecture-308b6e0cc25a) Let’s generate diagrams
 - [genbeta.com: En la era de la inteligencia artificial, Microsoft es el nuevo Google](https://www.genbeta.com/a-fondo/era-inteligencia-artificial-microsoft-nuevo-google)
 - [abcabhishek.substack.com: ChatGPT for generating SQL as a Data Engineer's assistant](https://abcabhishek.substack.com/p/chatgpt-for-generating-sql-as-a-data) Lets generate SQL using chatGPT and simplify our work
+- [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162)
+- [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data/) ChatGPT is a powerful language model that can be used for a variety of tasks. But did you know you can use custom data to improve its accuracy and speed?
+- [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet/)
 
 ## Explained by ChatGPT
 
@@ -48,3 +52,6 @@
 >
 > *In summary, both approaches have their advantages and disadvantages and are suited to different situations and needs. It depends on the preferences and skills of the development and IT operations team to choose the appropriate approach for their organization.*
 
+## Tools
+
+- [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.

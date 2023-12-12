@@ -59,6 +59,7 @@
 - [medium.com/codex: Kubectl Output 101](https://medium.com/codex/kubectl-output-101-851f8e61fd51) Cheatsheet & examples of using kubectl get -o
 - [lovethepenguin.com: Kubernetes: common pod operations](https://lovethepenguin.com/kubernetes-common-pod-operations-ee23a402b9f4)
 - [medium.com/geekculture: kubectl — Best Practices](https://medium.com/geekculture/kubectl-best-practices-c4ff809167dd)
+- [==learnitguide.net: How to Create ConfigMap from Properties File Using K8s Client==](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)
 
 ## Kubectl Cheat Sheets
 

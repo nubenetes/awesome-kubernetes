@@ -121,6 +121,7 @@
 - [devtron.ai: 7 Tools To Make Kubernetes Management Easy](https://devtron.ai/blog/7-tools-to-make-kubernetes-management-easy/)
 - [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools#)
 - [blog.devops.dev: Tools to manage Kubernetes](https://blog.devops.dev/tools-to-manage-kubernetes-15b675f407d4) Kubernetes Command Line Tools
+- [medium.com/@onai.rotich: 4 Tools that Make it Easy to manage your Kubernetes Cluster](https://medium.com/@onai.rotich/4-tools-that-make-it-easy-to-manage-your-kubernetes-cluster-be252847cd85)
 
 ## K8s Tools
 
@@ -601,6 +602,9 @@
 - [==github.com/jonmosco/kube-ps1== ⭐](https://github.com/jonmosco/kube-ps1) Kubernetes prompt for bash and zsh. **kube-ps1 is a script that lets you add the current Kubernetes context and namespace configured on kubectl to your Bash/Zsh prompt strings (i.e. the `$PS1`)**
 - [==github.com/cloudnativelabs/kube-shell== ⭐](https://github.com/cloudnativelabs/kube-shell) **Kube-shell is an integrated shell for working with the Kubernetes CLI. Under the hood, Kube-shell still calls kubectl. Kube-shell aims to provide ease-of-use of kubectl and increase productivity.**
 - [github.com/DataCater/datacater (real-time, cloud-native data pipeline platform)](https://github.com/DataCater/datacater) The developer-friendly ETL platform for transforming data in real-time. Based on Apache Kafka® and Kubernetes®. DataCater helps you to build modern, real-time data pipelines with Apache Kafka and Kubernetes. You can choose from an extensive repository of filter functions, apply transformations, or code your own transforms in Python.
+- [==github.com/alcideio/rbac-tool==](https://github.com/alcideio/rbac-tool) **RBAC Tool for Kubernetes.** Rapid7 | insightCloudSec | Kubernetes RBAC Power Toys - Visualize, Analyze, Generate & Query
+- [oslabs-beta/Palaemon](https://github.com/oslabs-beta/Palaemon) Palaemon is an open-source developer tool for monitoring health and resource metrics of Kubernetes clusters and analyzing Out of Memory (OOMKill) errors
+- [openobserve/debug-container](https://github.com/openobserve/debug-container) A container with common utilities for debugging your cluster
 
 ## kcp
 
@@ -718,7 +722,7 @@
 
 ## kube-vip
 
-- [kube-vip](https://github.com/kube-vip/kube-vip) is a Load-Balancer for both inside and outside a Kubernetes cluster.
+- [kube-vip](https://github.com/kube-vip/kube-vip) is a Load-Balancer for both inside and outside a Kubernetes cluster. kube-vip provides Kubernetes clusters with a virtual IP and load balancer for both the control plane (for building a highly-available cluster) and Kubernetes Services of type LoadBalancer without relying on any external hardware or software.
 - **What's one of the biggest pain in implementing Kubernetes for on-prem? Lack of support for LoadBalancer Service.** Now there's a second project (the first is [MetalLB](https://github.com/metallb/metallb)) that provides this functionality for on-prem: kube-vip.
 
 ## Kubermetrics
@@ -736,6 +740,7 @@
 - [medium.com/@charled.breteche: Kind, Cilium, MetalLB, and still no kube-proxy](https://medium.com/@charled.breteche/kind-cilium-metallb-and-no-kube-proxy-a9fe66ddfad6) In this article I will show you how to add MetalLB into the mix to enable services of type LoadBalancer to work in your local cluster.
 - [patrick.easte.rs: Forging an optimal MetalLB configuration](https://patrick.easte.rs/post/2022/forging-optimal-metallb-config/) MetalLB discovers services needing load balancers, allocates IP addresses, and advertises them. There are 2 primary modes for announcing load balancers: Layer 2 and 3 (BGP). Each mode has its pros and cons and this article compares them.
 - [adaltas.com: Ingresses and Load Balancers in Kubernetes with MetalLB and nginx-ingress](https://www.adaltas.com/en/2022/09/08/kubernetes-metallb-nginx/) This tutorial will teach you how to use MetalLB and nginx-ingress to  load-balance requests in a bare-metal Kubernetes cluster
+- [itnext.io: Configuring routing for MetalLB in L2 mode](https://itnext.io/configuring-routing-for-metallb-in-l2-mode-7ea26e19219e) In this article, you will discover how to configure source-based and policy-based routing for the external network on your cluster using MetalLB
 
 ## Kubermatic Kubernetes Platform
 
@@ -873,6 +878,7 @@
 
 - [Robusta](https://docs.robusta.dev/) Robusta is an open source platform for webhooks and automations. It contains a library of 50+ builtin actions.
 - [home.robusta.dev: Why everyone should track Kubernetes changes and top four ways to do so](https://home.robusta.dev/blog/why-everyone-should-track-and-audit-kubernetes-changes-and-top-ways/) Robusta is an event-triggered automations engine. Using Robusta you can subscribe to changes in a cluster (or multiple clusters) and publish that information to useful locations.
+- [==robusta-dev/krr==](https://github.com/robusta-dev/krr) Prometheus-based Kubernetes Resource Recommendations. Robusta KRR (Kubernetes Resource Recommender) is a CLI tool for optimizing resource allocation in Kubernetes clusters. It gathers pod usage data from Prometheus and recommends requests and limits for CPU and memory. This reduces costs and improves performance.
 
 ## Soup GitOps Operator
 
@@ -1097,6 +1103,7 @@
 
 - [github.com/oslabs-beta/oslabs](https://github.com/oslabs-beta/oslabs) KubernOcular is a free, open-source tool which harnesses the power of Prometheus and the Kubernetes-Client Node API to give developers an insightful and holistic view of Kubernetes clusters.
 - [github.com/M3DZIK/go-pingbot](https://github.com/M3DZIK/go-pingbot) This application "pings" websites every few minutes. It can be used to keep the application alive on e.g. glitch.me or repl.it.
+- [vladimirvivien/ktop](https://github.com/vladimirvivien/ktop) A top-like tool for your Kubernetes clusters
 
 ### Debugging and Troubleshooting Tools
 
@@ -1118,6 +1125,7 @@
 ## AI Tools
 
 - [kubetools.io: KoPylot: An AI-Powered Kubernetes Assistant for DevOps & Developers](https://www.kubetools.io/kubernetes/kopylot-an-ai-powered-kubernetes-assistant-for-devops-developers/)
+- [chat.openai.com: Kube Debugger: A Kubernetes error debugger offering diagnostic and resolution guidance.](https://chat.openai.com/g/g-TCE8R7bcL-kube-debugger) You can copy and paste your Kubernetes error into the prompt, and the Kube debugger will give you step-by-step instructions to troubleshoot. This GPT will reduce the amount of time you spend troubleshooting Kubernetes errors. It requires the ChatGPT plus subscription.
 
 ## Tweets
 

@@ -155,6 +155,8 @@
 - [itprotoday.com: Is Docker Still Worth Learning for IT Operations Teams? Probably Not](https://www.itprotoday.com/it-operations/docker-still-worth-learning-it-operations-teams-probably-not) While Docker isn't dead, Docker tooling may be. Here's why learning Docker tools isn't as important as it once was, especially for ITOps teams.
 - [kennybrast.medium.com: How I Used Docker to Create a Python Dev Environment](https://kennybrast.medium.com/how-i-used-docker-to-create-a-python-dev-environment-48a5d31ae277)
 - [==youtube: Docker 101 (Workshop) how an application can be run using Docker containers. First, you'll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more== 🌟](https://www.youtube.com/watch?v=0mxhS7H6bxM)
+- [codementor.io: Docker: What's Under the Hood?](https://www.codementor.io/blog/docker-technology-5x1kilcbow) How does Docker work? Get a better understanding of the skeleton of Docker, Virtualization, and future development
+- [dev.to/javinpaul: My Favorite Free Courses to Learn Docker and Containers in 2023](https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo)
 
 ## Docker Best Practices
 
@@ -296,6 +298,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [==docker.com: Docker and Ambassador Labs Announce Telepresence for Docker, Improving the Kubernetes Development Experience== 🌟](https://www.docker.com/blog/telepresence-for-docker/) - [==telepresence for docker==](https://www.docker.com/products/telepresence-for-docker/)
     - Telepresence for Docker simplifies how teams develop and test on Kubernetes. This Kubernetes development tool seamlessly creates a remote-to-local dev environment, so your teams can enjoy the ease and flexibility of local development with the collaboration and integration of a cloud development cluster.
     - You don’t need to be a Kubernetes expert, deal with K8s configuration or maintenance, or turn to expensive cloud virtual machines for your developers to quickly and efficiently develop on K8s. Telepresence for Docker is Kubernetes development simplified.
+- [github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) A process for automating Docker container base image updates. With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your image registry. Watchtower will pull down the new image, gracefully shut down the existing container and restart it.
 
 ## Docker and WSL2
 

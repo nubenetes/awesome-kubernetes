@@ -318,6 +318,7 @@ A simple extension to make indentation more readable
 - [Extension of the week: Thunder Client](https://www.youtube.com/shorts/X3wgBid4gO8)
 - [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4)
 - [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI)
+- [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)
 
 ## Videos
 

@@ -66,3 +66,5 @@
 - [kubernetes.io: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available](https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga/)
 - [alexandrev.medium.com: Kubernetes Autoscaling 1.26: A Game-Changer for KEDA Users?](https://alexandrev.medium.com/kubernetes-autoscaling-1-26-a-game-changer-for-keda-users-c718a81fb155)
 - [sysdig.com: Kubernetes 1.27 – What’s new?](https://sysdig.com/blog/kubernetes-1-27-whats-new/)
+- [kubernetes.io: Kubernetes v1.27: Chill Vibes](https://kubernetes.io/blog/2023/04/11/kubernetes-v1-27-release/) v1.27 is the first release that anyone can remember where we didn't receive a single exception request after the enhancements freeze. Even as the release progressed, things remained much calmer than any of us are used to. This release consist of 60 enhancements. 18 of those enhancements are entering Alpha, 29 are graduating to Beta, and 13 are graduating to Stable.
+- [medium.com/@jonathan_37674: Kubernetes 1.27: Everything You Should Know | ARMO](https://medium.com/@jonathan_37674/kubernetes-1-27-everything-you-should-know-armo-236de6d77272)

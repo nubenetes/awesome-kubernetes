@@ -60,6 +60,7 @@
 ## Azure Cost Governance
 
 - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) Learn how to gain full control of your Azure costs by creating a continuous cost governance and optimization process. This comprehensive Packt e-book covers essential topics like cloud cost management and sustainable modeling of cloud expenses.
+- [==github.com/mivano/azure-cost-cli==](https://github.com/mivano/azure-cost-cli) CLI tool to perform cost analysis on your Azure subscription
 
 ## Kubernetes Cost Optimization
 
@@ -68,6 +69,8 @@
 - [==medium.com/empathyco: Cloud FinOps — Part 4: Kubernetes Cost Report==](https://medium.com/empathyco/cloud-finops-part-4-kubernetes-cost-report-b4964be02dc3) In this article, you will learn how to build your own Kubernetes cost explorer dashboard using Prometheus and Grafana.
 - [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 - [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)
+- [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)
+- [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/3693050/5-steps-to-bringing-kubernetes-costs-in-line.html)
 
 ## Licence Managers
 
@@ -97,6 +100,7 @@
 - [cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot](https://github.com/cremich/cdk-bill-bot) The serverless cost optimization bot. Bill enables AWS customers to proactively monitor their infrastructure costs and identify unforeseen expenses in a timely manner. Bill wants to prevent AWS customers from receiving bad surprises in their monthly bill. Therefore he addresses two primary problem areas:
     - Cost history is not monitored on a regular basis
     - Basic cost optimization best practices are not setup
+- [thenewstack.io: Finout Gets a Handle on Kubernetes Costs](https://thenewstack.io/finout-gets-a-handle-on-kubernetes-costs/) Finout has expanded its cost analysis platform for enterprise software to Kubernetes, providing a way to understand the costs of running the open source orchestration tool.
 
 ## Tweets
 

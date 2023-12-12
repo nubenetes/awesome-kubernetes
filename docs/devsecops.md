@@ -46,6 +46,7 @@
      10. [AKS Secrets](#aks-secrets)
      11. [Kapitan](#kapitan)
      12. [Alternatives with Kubernetes External Secrets](#alternatives-with-kubernetes-external-secrets)
+     13. [Bitwarden](#bitwarden)
 28. [Serverless Security Best Practices](#serverless-security-best-practices)
 29. [Docker Images \& Container Security](#docker-images--container-security)
      1. [Sigstore](#sigstore)
@@ -198,6 +199,7 @@
 - [containerjournal.com: Kubernetes Security in Your CI/CD Pipeline](https://containerjournal.com/features/kubernetes-security-in-your-ci-cd-pipeline/)
 - [acloudguru.com: Cloud security risks: Why you should make apps Secure by Design](https://acloudguru.com/blog/engineering/cloud-apps-secure-by-design)
 - [medium.com/google-cloud: Shifting (even further) Left on Kubernetes Resource Compliance](https://medium.com/google-cloud/shifting-even-further-left-on-kubernetes-resource-compliance-8f96fb8c72eb) Shifting left can help organizations optimize their use of fully-managed cloud environments and managed services, and tools like Open Policy Agent and Gatekeeper can help organizations ensure compliance in these environments
+- [hmaslowski.com: macOS Security hardening with Microsoft Intune](https://hmaslowski.com/home/f/macos-security-hardening-with-microsoft-intune)
 
 ## Kubernetes Security Compliance Frameworks
 
@@ -455,6 +457,7 @@
 - [kubeopsskills/cloud-secret-resolvers: Cloud Secret Resolvers (CSR)](https://github.com/kubeopsskills/cloud-secret-resolvers) Cloud Secret Resolvers is a set of tools to help your applications (on Kubernetes) to retrieve any credentials from cloud managed vaults without the needed to write additional boilerplate code in your applications!.
 - [thenewstack.io: Managing Secrets in Your DevOps Pipeline](https://thenewstack.io/managing-secrets-in-your-devops-pipeline/)
 - [==thenewstack.io: Kubernetes Secrets Management: 3 Approaches, 9 Best Practices==](https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/) Developers must make early design choices about where to store secrets, how to retrieve them and how to make them available in an application.
+- [siddhivinayak-sk.medium.com: Kubeseal & SealedSecret: Make your ‘secrets’ secure in SCM by using ‘sealed secret’](https://siddhivinayak-sk.medium.com/kubeseal-sealedsecret-make-your-secrets-secure-in-scm-by-using-sealed-secret-4631bcb39bf8) In this article, you will learn the theory and practice behind encrypting your secrets with SealedSecret & Kubeseal
 
 ### Anti Patterns. Wrong Secrets
 
@@ -588,6 +591,10 @@
 - [thenewstack.io: Managing Kubernetes Secrets with AWS Secrets Manager 🌟](https://thenewstack.io/managing-kubernetes-secrets-with-aws-secrets-manager/)
 - [K8s Vault Webhook 🌟](https://ot-container-kit.github.io/k8s-vault-webhook/) - [github: k8s-vault-webhook](https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook) A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
 - [portworx.com: Implementing Data Security on Red Hat OpenShift 🌟](https://portworx.com/implementing-data-security-on-red-hat-openshift/)
+
+### Bitwarden
+
+- [thenewstack.io: Walkthrough: Bitwarden’s New Secrets Manager](https://thenewstack.io/walkthrough-bitwardens-new-secrets-manager/)
 
 ## Serverless Security Best Practices
 

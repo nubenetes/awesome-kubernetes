@@ -127,6 +127,13 @@
 - [tinyzimmer/k3p](https://github.com/tinyzimmer/k3p) A k3s packager and installer, primarily intended for airgapped deployments
 - [alexellis/k3sup](https://github.com/alexellis/k3sup) bootstrap Kubernetes with k3s over SSH < 1 min 🚀. k3sup is a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM. All you need is ssh access and the k3sup binary to get kubectl access immediately.
 - [clanktron/k3s-ansible](https://github.com/clanktron/k3s-ansible) Automated build of HA k3s Cluster with kube-vip, Cilium, and MetalLB
+- [techno-tim/k3s-ansible](https://github.com/techno-tim/k3s-ansible) Automated build of HA k3s Cluster with kube-vip and MetalLB. The easiest way to bootstrap a self-hosted High Availability Kubernetes cluster. A fully automated HA k3s etcd install with kube-vip, MetalLB, and more
+- [cnrancher/autok3s](https://github.com/cnrancher/autok3s) Run K3s Everywhere. AutoK3s is a lightweight tool for simplifying the cluster management of K3s. Key features:
+    - Shorter provisioning time
+    - Cloud provider integration
+    - Flexible installation options
+    - Low cost
+    - Airgap K3s package management and installation
 
 ### K3S Use Cases
 

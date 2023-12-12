@@ -248,6 +248,10 @@
 - [deloitte.com/de: EMEA Center of Excellence for Application Modernization and Migration](https://www2.deloitte.com/de/de/pages/technology/articles/center-of-excellence-application-modernization.html) Accelerate the transformation of your legacy systems
 - [==redis.com: Microservice Architecture Key Concepts==](https://redis.com/blog/microservice-architecture-key-concepts/) What role do microservices play in creating applications? We offer a foundational understanding of what microservices are, how they differ from monolithic structures, and what to consider when you evaluate microservices for your own adoption.
 - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b/)
+- [thenewstack.io: Learn 12 Factor Apps Before Kubernetes](https://thenewstack.io/learn-12-factor-apps-before-kubernetes/) These best practices provide a framework for building scalable, portable, maintainable and resilient containerized applications.
+- [==designgurus.io: Monolithic vs. Service-Oriented vs. Microservice Architecture: Top Architectural Design Patterns==](https://www.designgurus.io/blog/Monolithic-Service-Oriented-Microservice-Architecture) System Design Interview Preparation: Mastering the Art of System Design.
+- [==thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse== 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/) In its early days, Kubernetes was primarily focused on building features for microservice-based workloads. In recent years, the Kubernetes community has stretched out into batch processing support for High Performance Computing Workloads.
+- [elespanol.com: Mainframe: repaso de pasado y futuro a una tecnología de 1944 que se resiste a morir](https://www.elespanol.com/invertia/disruptores-innovadores/innovadores/tecnologicas/20230416/mainframe-repaso-pasado-futuro-tecnologia-resiste-morir/756174490_0.html)
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -307,6 +311,7 @@
         - REST Hooks
         - Pub-Sub
         - Server Sent Events
+- [dev.to/aws-builders: Un Modelo de EDA: Event Driven Architectures](https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f)
 
 ## Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures
 

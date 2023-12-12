@@ -155,6 +155,7 @@
 ### Argo
 
 - [terrytangyuan/awesome-argo 🌟](https://github.com/terrytangyuan/awesome-argo) A curated list of awesome projects and resources related to Argo (a CNCF hosted project)
+- [akuity/awesome-argo 🌟](https://github.com/akuity/awesome-argo)
 
 ### Monitoring Observability
 

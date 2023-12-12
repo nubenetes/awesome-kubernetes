@@ -2,61 +2,62 @@
 
 1. [Azure](#azure)
 2. [Microsoft REST API Guidelines](#microsoft-rest-api-guidelines)
-3. [New Features](#new-features)
-4. [Blogs](#blogs)
-5. [Azure Training and Certifications](#azure-training-and-certifications)
-6. [Azure Naming Convention](#azure-naming-convention)
-7. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
-8. [Understand Azure Load Balancing](#understand-azure-load-balancing)
-9. [Azure Load Testing](#azure-load-testing)
-10. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
-11. [Azure Patterns](#azure-patterns)
-12. [ARM Templates](#arm-templates)
-13. [Azure DevOps](#azure-devops)
+3. [Azure Quick Review](#azure-quick-review)
+4. [New Features](#new-features)
+5. [Blogs](#blogs)
+6. [Azure Training and Certifications](#azure-training-and-certifications)
+7. [Azure Naming Convention](#azure-naming-convention)
+8. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
+9. [Understand Azure Load Balancing](#understand-azure-load-balancing)
+10. [Azure Load Testing](#azure-load-testing)
+11. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
+12. [Azure Patterns](#azure-patterns)
+13. [ARM Templates](#arm-templates)
+14. [Azure DevOps](#azure-devops)
      1. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      2. [Azure Pipeline Tasks](#azure-pipeline-tasks)
      3. [Azure DevOps Snippets](#azure-devops-snippets)
-14. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
+15. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
-15. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
-16. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
-17. [Azure App Service](#azure-app-service)
-18. [Azure Application Gateway](#azure-application-gateway)
-19. [Azure Functions](#azure-functions)
-20. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
-21. [Mobile Apps](#mobile-apps)
-22. [Powershell](#powershell)
+16. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
+17. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
+18. [Azure App Service](#azure-app-service)
+19. [Azure Application Gateway](#azure-application-gateway)
+20. [Azure Functions](#azure-functions)
+21. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
+22. [Mobile Apps](#mobile-apps)
+23. [Powershell](#powershell)
      1. [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
      2. [Powershell repos](#powershell-repos)
      3. [Crescendo powershell module](#crescendo-powershell-module)
      4. [Secrets Management with Powershell](#secrets-management-with-powershell)
      5. [Azure Resource Inventory](#azure-resource-inventory)
-23. [Azure CLI. AZ CLI](#azure-cli-az-cli)
-24. [Azure Run Command](#azure-run-command)
-25. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
-26. [Azure Bicep](#azure-bicep)
-27. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
-28. [Azure Traffic Manager](#azure-traffic-manager)
-29. [Azure DNS](#azure-dns)
-30. [Azure OpenVPN](#azure-openvpn)
-31. [Azure Security](#azure-security)
-32. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-33. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-34. [Windows 11](#windows-11)
-35. [Azure API Management](#azure-api-management)
-36. [Azure Container Apps](#azure-container-apps)
-37. [Azure Container Instances](#azure-container-instances)
-38. [Windows Server Container Host](#windows-server-container-host)
-39. [Disaster Recovery](#disaster-recovery)
-40. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-41. [Azure Healthcare Data Services](#azure-healthcare-data-services)
-42. [Office 365](#office-365)
-43. [Azure Books](#azure-books)
-44. [Azure OpenAI](#azure-openai)
-45. [Images](#images)
-46. [Videos](#videos)
-47. [Tweets](#tweets)
+24. [Azure CLI. AZ CLI](#azure-cli-az-cli)
+25. [Azure Run Command](#azure-run-command)
+26. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
+27. [Azure Bicep](#azure-bicep)
+28. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
+29. [Azure Traffic Manager](#azure-traffic-manager)
+30. [Azure DNS](#azure-dns)
+31. [Azure OpenVPN](#azure-openvpn)
+32. [Azure Security](#azure-security)
+33. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+34. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+35. [Windows 11](#windows-11)
+36. [Azure API Management](#azure-api-management)
+37. [Azure Container Apps](#azure-container-apps)
+38. [Azure Container Instances](#azure-container-instances)
+39. [Windows Server Container Host](#windows-server-container-host)
+40. [Disaster Recovery](#disaster-recovery)
+41. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+42. [Azure Healthcare Data Services](#azure-healthcare-data-services)
+43. [Office 365](#office-365)
+44. [Azure Books](#azure-books)
+45. [Azure OpenAI](#azure-openai)
+46. [Images](#images)
+47. [Videos](#videos)
+48. [Tweets](#tweets)
 
 ## Azure
 
@@ -94,10 +95,16 @@
 - [blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM & ARS)](https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars/)
 - [blog.cloudtrooper.net: Virtual Network Gateways routing in Azure](https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure/)
 - [returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights](https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights/)
+- [medium.com/awesome-azure: Azure — Most Useful Azure Services Every Developer Must Know](https://medium.com/awesome-azure/azure-most-useful-azure-services-every-developer-must-know-top-azure-paas-serverless-services-developer-c55b829ac6d7)
+- [returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI](https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli)
 
 ## Microsoft REST API Guidelines
 
 - [==Microsoft REST API Guidelines== 🌟🌟🌟](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
+
+## Azure Quick Review
+
+- [==github.com/Azure/azqr==](https://github.com/Azure/azqr) Azure Quick Review (azqr) is a command-line interface (CLI) tool specifically designed to analyze Azure resources and identify whether they comply with Azure's best practices and recommendations. Its primary purpose is to provide users with a detailed overview of their Azure resources, enabling them to easily identify any non-compliant configurations or potential areas for improvement.
 
 ## New Features
 
@@ -408,6 +415,7 @@
 
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
 - [faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax](https://faun.pub/from-terraform-to-azure-bicep-what-you-need-to-know-bb1c404b7603)
+- [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on/ba-p/3802069)
 
 ## Azure Cross region Load Balancer
 
@@ -474,6 +482,7 @@
 - [Azure Container Apps](https://azure.microsoft.com/services/container-apps/) Build and deploy modern apps and microservices using serverless containers
 - [techcommunity.microsoft.com: Introducing Azure Container Apps: a serverless container service for running modern apps at scale](https://techcommunity.microsoft.com/t5/apps-on-azure/introducing-azure-container-apps-a-serverless-container-service/ba-p/2867265)
 - [techcommunity.microsoft.com: Azure Policy for Azure Container Apps? Yes, please](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-policy-for-azure-container-apps-yes-please/ba-p/3775200)
+- [denniszielke.medium.com: Using Azure Container Apps at scale instead of your building your own NaaS on top of K8s?](https://denniszielke.medium.com/using-azure-container-apps-at-scale-instead-of-your-building-your-own-naas-on-top-of-k8s-7c4760c2511f)
 
 ## Azure Container Instances
 
@@ -518,10 +527,12 @@
 ## Azure Books
 
 - [==azure.microsoft.com: Azure for Architects, Third Edition==](https://azure.microsoft.com/en-us/resources/azure-for-architects/)
+- [dev.to/javinpaul: 7 Free Courses to Learn Microsoft Azure Cloud Platform](https://dev.to/javinpaul/7-free-courses-to-learn-microsoft-azure-cloud-platform-bg4)
 
 ## Azure OpenAI
 
 - [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/3686694/getting-started-with-azure-openai.html) Microsoft’s Azure-hosted OpenAI language models are now generally available, and it’s surprisingly simple to use them in your code.
+- [jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How](https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how/)
 
 ## Images
 

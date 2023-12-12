@@ -1,20 +1,21 @@
 # Machine Learning Ops (MLOps) and Data Science
 
 1. [Introduction. MLOps](#introduction-mlops)
-2. [Object Detection Libraries](#object-detection-libraries)
-3. [MLFlow](#mlflow)
-4. [Kubeflow](#kubeflow)
-5. [Flyte](#flyte)
-6. [Azure ML](#azure-ml)
-7. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-8. [Data Science](#data-science)
-9. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
-10. [Other Tools](#other-tools)
-11. [Samples](#samples)
-12. [ML Courses](#ml-courses)
-13. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-14. [Polls](#polls)
-15. [Tweets](#tweets)
+2. [ML Infra](#ml-infra)
+3. [Object Detection Libraries](#object-detection-libraries)
+4. [MLFlow](#mlflow)
+5. [Kubeflow](#kubeflow)
+6. [Flyte](#flyte)
+7. [Azure ML](#azure-ml)
+8. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+9. [Data Science](#data-science)
+10. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
+11. [Other Tools](#other-tools)
+12. [Samples](#samples)
+13. [ML Courses](#ml-courses)
+14. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+15. [Polls](#polls)
+16. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -51,6 +52,12 @@
 - [youtube: Making Friends with Machine Learning | Cassie Kozyrkov | playlist 🌟](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG)
 - [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes) **We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.**
 - [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
+- [medium.com/@study.uttam: Main Challenges of Machine Learning](https://medium.com/@study.uttam/main-challenges-of-machine-learning-eb06dffac3da)
+
+## ML Infra
+
+- [==youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform==](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)
+- [==Ray==](https://docs.ray.io/en/latest/) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
 
 ## Object Detection Libraries
 

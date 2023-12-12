@@ -13,7 +13,8 @@
 9. [Deutsche Telekom](#deutsche-telekom)
 10. [AstraZeneca](#astrazeneca)
 11. [AI for Medical Imaging](#ai-for-medical-imaging)
-12. [Videos](#videos)
+12. [AXA Group](#axa-group)
+13. [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
 
@@ -63,6 +64,7 @@
 - [github.com/mercedes-benz](https://github.com/mercedes-benz)
 - [genbeta.com: El software de los coches de Mercedes contiene código abierto y en vez de distribuirlo en GitHub usan un CD](https://www.genbeta.com/desarrollo/software-coches-mercedes-contiene-codigo-abierto-vez-distribuirlo-github-usan-cd)
 - [youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens Erat, Peter Mueller, Sabine Wolz](https://www.youtube.com/watch?v=UmbjwSK9b3I)
+- [thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects/)
 
 ## Tesla
 
@@ -95,9 +97,14 @@
 
 - [chaimeleon.eu](https://chaimeleon.eu) Accelerating the lab to market transition of AI tools for cancer management. CHAIMELEON will set up an EU-wide structured repository for health imaging data as an open source for artificial intelligence (AI) experimentation in cancer management.
 - [healthitanalytics.com: AI for Medical Imaging Boosts Cancer Screenings with Provider Aid](https://healthitanalytics.com/news/ai-for-medical-imaging-boosts-cancer-screenings-with-provider-aid)
-- [valenciaplaza.com: El IIS La Fe liderará la dirección científica del Nodo Central del Atlas de Imágenes en Cáncer](https://valenciaplaza.com/hospital-general-castello-instala-primer-equipo-cirugia-robotica-da-vinci) Se trata de una plataforma diseñada para generar "conjuntos masivos de datos de calidad" centrados en la imagen médica y su información clínica, molecular y genética relacionada, obtenidos en el ámbito asistencial y de investigación. Estos datos enlazados permiten construir estudios clínicos observacionales controlados, como si fueran ensayos clínicos. Esta gran plataforma de imágenes y datos será también "clave" para el desarrollo y validación de modelos de inteligencia artificial que permitan un diagnóstico temprano, predecir la evolución de la enfermedad y estimar la respuesta a un tratamiento oncológico específico en un paciente concreto. Los datos clínicos y las imágenes que se obtienen en el ámbito asistencial se adquieren con el foco en un paciente individual, su aprovechamiento posterior necesita procesos que garanticen su seguridad (desidentificación) y normalización (armonización) para minimizar las diferencias en calidad de imagen entre diferentes equipamientos y fabricantes.
+- [valenciaplaza.com: El IIS La Fe liderará la dirección científica del Nodo Central del Atlas de Imágenes en Cáncer](https://valenciaplaza.com/iis-fe-liderara-direccion-cientifica-nodo-central-atlas-imagenes-cancer) Se trata de una plataforma diseñada para generar "conjuntos masivos de datos de calidad" centrados en la imagen médica y su información clínica, molecular y genética relacionada, obtenidos en el ámbito asistencial y de investigación. Estos datos enlazados permiten construir estudios clínicos observacionales controlados, como si fueran ensayos clínicos. Esta gran plataforma de imágenes y datos será también "clave" para el desarrollo y validación de modelos de inteligencia artificial que permitan un diagnóstico temprano, predecir la evolución de la enfermedad y estimar la respuesta a un tratamiento oncológico específico en un paciente concreto. Los datos clínicos y las imágenes que se obtienen en el ámbito asistencial se adquieren con el foco en un paciente individual, su aprovechamiento posterior necesita procesos que garanticen su seguridad (desidentificación) y normalización (armonización) para minimizar las diferencias en calidad de imagen entre diferentes equipamientos y fabricantes.
 - [aws.amazon.com: Accelerating radiology imaging workflows with relevant clinical context on AWS](https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws/)
 - [biobanking.com: Europe’s Leading Cancer Image Biobank (EUCAIM) Launched by Quibim and European Commission](https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission/)
+- [health.google: AI-enabled imaging and diagnostics previously thought impossible](https://health.google/intl/ALL_en/health-research/imaging-and-diagnostics/)
+
+## AXA Group
+
+- [hashicorp.com: Standardizing infrastructure automation with Terraform Enterprise](https://www.hashicorp.com/resources/building-a-migration-factory-with-terraform-enterprise-at-axa-group)
 
 ## Videos
 

@@ -107,6 +107,7 @@
 - [==emirayhan.medium.com: What is the difference Message Queue and Message Bus?== 🌟](https://emirayhan.medium.com/what-is-the-difference-message-queue-and-message-bus-7f2e2867eff6)
 - [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch/) **An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns**
 - [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb) How do these two technologies work? how do they differ, and when is the right time to use them?
+- [thenewstack.io: How to Get Started with Data Streaming](https://thenewstack.io/how-to-get-started-with-data-streaming/) With Kafka and associated tools, developers can create stream-processing pipelines that transform data for real-time applications.
 
 ## RPC vs Messaging
 

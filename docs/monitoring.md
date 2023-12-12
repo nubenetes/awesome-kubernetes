@@ -22,31 +22,32 @@
     2. [OpenSearch](#opensearch)
     3. [EFK ElasticSearch Fluentd Kibana](#efk-elasticsearch-fluentd-kibana)
     4. [Logstash Grok for Log Parsing](#logstash-grok-for-log-parsing)
-10. [Performance](#performance)
-11. [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
+10. [Internet Performance Monitoring (IPM)](#internet-performance-monitoring-ipm)
+11. [Performance](#performance)
+12. [List of Performance Analysis Tools](#list-of-performance-analysis-tools)
      1. [Thread Dumps. Debugging Java Applications](#thread-dumps-debugging-java-applications)
-12. [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
-13. [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
+13. [Debugging Java Applications on OpenShift and Kubernetes](#debugging-java-applications-on-openshift-and-kubernetes)
+14. [Distributed Tracing. OpenTelemetry and Jaeger](#distributed-tracing-opentelemetry-and-jaeger)
      1. [Microservice Observability with Distributed Tracing. OpenTelemetry.io](#microservice-observability-with-distributed-tracing-opentelemetryio)
          1. [OpenTelemetry Operator](#opentelemetry-operator)
      2. [Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry](#jaeger-vs-opentelemetry-how-jaeger-works-with-opentelemetry)
      3. [Jaeger vs Zipkin](#jaeger-vs-zipkin)
      4. [Grafana Tempo distributed tracing system](#grafana-tempo-distributed-tracing-system)
-14. [Application Performance Management (APM)](#application-performance-management-apm)
+15. [Application Performance Management (APM)](#application-performance-management-apm)
      1. [Elastic APM](#elastic-apm)
      2. [Dynatrace APM](#dynatrace-apm)
-15. [Message Queue Monitoring](#message-queue-monitoring)
+16. [Message Queue Monitoring](#message-queue-monitoring)
      1. [Red Hat AMQ 7 Broker Monitoring solutions based on Prometheus and Grafana](#red-hat-amq-7-broker-monitoring-solutions-based-on-prometheus-and-grafana)
-16. [Serverless Monitoring](#serverless-monitoring)
-17. [Distributed Tracing in Apache Beam](#distributed-tracing-in-apache-beam)
-18. [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
-19. [Instana APM](#instana-apm)
-20. [Monitoring Etcd](#monitoring-etcd)
-21. [Zabbix](#zabbix)
-22. [Other Tools](#other-tools)
-23. [Other Awesome Lists](#other-awesome-lists)
-24. [Slides](#slides)
-25. [Tweets](#tweets)
+17. [Serverless Monitoring](#serverless-monitoring)
+18. [Distributed Tracing in Apache Beam](#distributed-tracing-in-apache-beam)
+19. [Krossboard Converged Kubernetes usage analytics](#krossboard-converged-kubernetes-usage-analytics)
+20. [Instana APM](#instana-apm)
+21. [Monitoring Etcd](#monitoring-etcd)
+22. [Zabbix](#zabbix)
+23. [Other Tools](#other-tools)
+24. [Other Awesome Lists](#other-awesome-lists)
+25. [Slides](#slides)
+26. [Tweets](#tweets)
 
 ## Monitoring and Observability
 
@@ -292,6 +293,10 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 - [logz.io: A Beginner’s Guide to Logstash Grok](https://logz.io/blog/logstash-grok/)
 - [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing/)
 
+## Internet Performance Monitoring (IPM)
+
+- [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing/) Whether your organization embraces CI/CD/CT already or is rethinking its approach to DevOps, this article should give you pause. Your job–perhaps as part of a larger team–is to catch performance issues and potential disruptions with your application before client impact is realized. Without IPM, only part of that job is being done.
+
 ## Performance
 
 - [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
@@ -419,6 +424,7 @@ done
 
 - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
 - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
+- [thenewstack.io: OpenTelemetry Gaining Traction from Companies and Vendors](https://thenewstack.io/opentelemetry-gaining-traction-from-companies-and-vendors/) Elastic and OpenTelemetry will merge standards as more companies embrace OpenTelemetry to improve user experience and cut costs.
 
 <center>
 [![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)

@@ -43,6 +43,7 @@
 - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science) An introduction to the intellectual enterprises of computer science and the art of programming.
 - [==Techworld with Nana: Learn DevOps topics easily==](https://www.techworld-with-nana.com)
 - [==learnitguide.net== 🌟](https://www.learnitguide.net)
+- [==techiescamp/devops-projects==:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) DevOps Real World Projects for Aspiring DevOps Engineers [Beginner to Advanced]
 
 ## Best Microservice Architecture Courses
 

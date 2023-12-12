@@ -178,6 +178,7 @@
 - [dev.to: How atomic Git commits dramatically increased my productivity - and will increase yours too 🌟](https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84)
 - [==dev.to: Git fundamentals, a complete guide | Leandro Proença== 🌟🌟](https://dev.to/leandronsp/git-fundamentals-a-complete-guide-do7)
 - [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git/)
+- [==realpython.com: Advanced Git Tips for Python Developers== 🌟](https://realpython.com/advanced-git-for-pythonistas/)
 
 ## Git Releases
 
@@ -213,6 +214,8 @@
 - [freecodecamp.org: Git List Branches – How to Show All Remote and Local Branch Names](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names/)
 - [opensource.com: Explaining Git branches with a LEGO analogy](https://opensource.com/article/22/4/git-branches)
 - [blog.devops.dev: Stop messing up with Git. Follow this simple and effective strategy to maintain Git branches](https://blog.devops.dev/stop-messing-up-with-git-follow-this-simple-and-effective-strategy-to-maintain-git-branches-cc378468cde6)
+- [medium.com/@selvamraju007: GIT Branching Strategies](https://medium.com/@selvamraju007/git-branching-strategies-a6eafe4541ae)
+- [dev.to/varbsan: A Simplified Convention for Naming Branches and Commits in Git](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
 
 ## Git Aliases
 
@@ -541,6 +544,7 @@ git rebase -i HEAD~5
 - [github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟](https://github.com/marketplace/actions/aws-secrets-manager-github-action)
 - [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option/)
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
+- [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l)
 
 ### GitHub Lab
 
@@ -590,6 +594,7 @@ git rebase -i HEAD~5
 - [infoq.com: How GitHub Does DevOps for its iOS and Android Apps](https://www.infoq.com/news/2022/01/GitHub-devops-mobile-apps/)
 - [blog.gskinner.com: Flutter: Easily add CI testing with GitHub Actions](https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html)
 - [==devblogs.microsoft.com: .NET 💜 GitHub Actions==](https://devblogs.microsoft.com/dotnet/dotnet-loves-github-actions/)
+- [==tonylixu.medium.com: GitOps — Github Actions Docker Build Workflow==](https://tonylixu.medium.com/gitops-github-actions-docker-build-workflow-157cc53e9a0d) GitOps using Github Actions
 
 #### GitHub Actions Marketplace
 

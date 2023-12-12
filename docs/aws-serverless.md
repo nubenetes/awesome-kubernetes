@@ -60,6 +60,7 @@
 - [awstip.com: Tips for keeping your Lambda functions secure](https://awstip.com/tips-for-keeping-your-lambda-functions-secure-25349dd5d9df)
 - [dev.to: Event driven architectures using AWS with example](https://dev.to/aws-builders/event-driven-architectures-using-aws-with-example-3d2d)
 - [terrateam.io: AWS Lambda Function with Terraform](https://terrateam.io/blog/aws-lambda-function-with-terraform)
+- [medium.com/lego-engineering: A Journey into Serverless and Handling Step Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99) Have you ever wondered how you would handle failures in your AWS Step Functions? And what benefits would a robust failure-handling system have?
 
 ## AWS Fargate
 

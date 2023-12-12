@@ -58,6 +58,7 @@
     - Network problems
 
 - [awstip.com: Kubernetes Chaos Monkey: A Scheduled Random Pod Deletion Python Script for Testing Cluster Resilience](https://awstip.com/kubernetes-chaos-monkey-a-scheduled-random-pod-deletion-python-script-for-testing-cluster-6eac429554b2)
+- [medium.com/@alex.ivenin: Chaos engineering in kubernetes](https://medium.com/@alex.ivenin/chaos-engineering-in-kubernetes-4de425132ba1)
 
 ## Chaos Engineering for serverless computing
 

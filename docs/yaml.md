@@ -40,6 +40,7 @@
 - [==kubesimplify.com: A Simplified Guide To YAML==](https://kubesimplify.com/a-simplified-guide-to-yaml)
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
+- [ruudvanasseldonk.com: The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell)
 
 ### K8s YAML tips
 

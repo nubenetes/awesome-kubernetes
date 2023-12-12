@@ -210,6 +210,7 @@
 - [==github.com/AdminTurnedDevOps/kubernetes-examples==](https://github.com/AdminTurnedDevOps/kubernetes-examples) This repo contains a bunch of Kubernetes examples
 - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
 - [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) In this tutorial, you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
+- [devxblog.hashnode.dev: Deploying Microservices with Persistent Volumes in Kubernetes - Kubernetes Microservice Flask Application](https://devxblog.hashnode.dev/kubernetes-microservice-flask-application-1)
 
 ### Webhooks app
 
@@ -770,6 +771,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/aws-samples: Guide to Resource Tagging Automation](https://github.com/aws-samples/resource-tagging-automation) A Lambda function for Resource Tagging Automation
 - [aws.plainenglish.io: Trigger, Function, Message | Brandi McCall](https://aws.plainenglish.io/trigger-function-message-12f117b7f067) Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
 - [towardsaws.com: Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services | Brandi McCall](https://towardsaws.com/integrating-python-amazon-api-gateway-lambda-sqs-and-sns-services-6015631d5527)
+- [github.com/unitypark/aws-serverless-demos](https://github.com/unitypark/aws-serverless-demos)
+    - [github.com/unitypark: AWS Serverless Demos - cloudfront-http-api-cognito](https://github.com/unitypark/aws-serverless-demos/tree/main/serverless-web-hosting/cloudfront-http-api-cognito)
 
 ## Azure Samples
 

@@ -89,6 +89,8 @@
 - [==dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every programmer must know==](https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af) In this article, we looked at what is Database connection and its life cycle. Then we saw the drawbacks of creating connections on the fly and then saw the need to use a Database Connection Pool. We also looked at the design patterns on where to place the connection pool. We have then looked at the performance issues that can arise from the Database connection pool and concluded the article by looking at the common connection pool frameworks used in Java.
 - [==medium.com/fintechexplained: What Is Database Sharding?==](https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97) Learn How Splitting Database Across Multiple Machines Improves Performance By Processing Requests In Parallel For High Volume Applications
 - [==blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment== 🌟](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates.
+- [blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates
+- [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it/)
 
 ## How to choose the right database for your service
 
@@ -116,6 +118,7 @@
 - [freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL](https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql/)
 - [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
 - [towardsdatascience.com: You Should Use This to Visualize SQL Joins Instead of Venn Diagrams](https://towardsdatascience.com/you-should-use-this-to-visualize-sql-joins-instead-of-venn-diagrams-ede15f9583fc)
+- [vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table](https://vladmihalcea.com/mysql-json-table/)
 
 ### Alternatives to SQL
 

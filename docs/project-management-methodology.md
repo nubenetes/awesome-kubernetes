@@ -90,6 +90,7 @@
 - [medium.com/@tom-neal: CTO Checklist](https://medium.com/@tom-neal/cto-checklist-1a2ef3d6502)
 - [martinfowler.com: Retrospectives Antipatterns 🌟](https://martinfowler.com/articles/retrospective-antipatterns.html) If you use retrospectives, or any kind of meeting where people are supposed to discuss and learn from their discussions, you will have experienced less efficient sessions from time to time. There is no wonder in that, and it happens to most people. This article describes and offers solutions for three of these unfortunate situations: skipping generating insights, getting lost in things you can't change, and being dominated by a loudmouth.
 - [==dzone.com: Productivity: Noise Is the Problem== 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem) How to improve the productivity of our engineering team by providing more focus time
+- [rebelscrum.site: Characteristics of a Great Product Owner](https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner)
 
 ### Spanish
 
@@ -267,6 +268,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The hardest part of any project is finishing the last 10%.<br><br>The solution to this is quitting when the project is 90% complete and finding a new job.</p>&mdash; JackForge.x (@TheJackForge) <a href="https://twitter.com/TheJackForge/status/1514353370089197571?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are ways you stay hands on, as an engineering manager? Especially if you don’t code day to day (at work).</p>&mdash; Gergely Orosz (@GergelyOrosz) <a href="https://twitter.com/GergelyOrosz/status/1619797019547271168?ref_src=twsrc%5Etfw">January 29, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Amazon expects a lot out of their engineer managers.<br><br>They expect them to run projects, mentor employees, design systems, architect platforms, manage operations, communicate with customers, and evolve products.<br><br>But they don&#39;t expect them to code.<br><br>🧵</p>&mdash; Dave Anderson (@scarletinked) <a href="https://twitter.com/scarletinked/status/1646899226960429057?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

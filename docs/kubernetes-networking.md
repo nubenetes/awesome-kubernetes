@@ -167,6 +167,7 @@
     - [medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part II. Ingress | Brandon Kang](https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-2-ingress-18f44a712690)
 - [==shahneil.medium.com: What Are Kubernetes Endpoints?==](https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4)
 - [==fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide==](https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d) **Kubernetes Ingress plays a crucial role in managing external access to services within a cluster.**
+- [thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud](https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud/) Otterize offers intent-based access control and secure connectivity management within clusters and across the cloud.
 
 ## TCP Keep Alive Requests
 
@@ -186,6 +187,7 @@
 - [itnext.io: CKAD Scenarios about Ingress and NetworkPolicy](https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce) In-Browser CKAD Scenarios about Ingress and NetworkPolicies.
     - [==editor.cilium.io== 🌟🌟🌟](https://editor.cilium.io) **For learning, you can use the amazing NetworkPolicy Editor at cilium.**
 - [whyk8s.substack.com: Why NetworkPolicies?](https://whyk8s.substack.com/p/why-networkpolicies) Is Kubernetes networking insecure by default? Why was it built that way?
+- [yuminlee2.medium.com: Kubernetes Network Policies](https://yuminlee2.medium.com/kubernetes-network-policies-a93c2f588e31)
 
 ## Nginx Ingress Controller
 
@@ -275,6 +277,7 @@ Cilium allows users to specify an egress NAT policy
 
 - [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18/)
 - [medium: Ingress service types in Kubernetes 🌟](https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307)
+- [==itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)==](https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485)
 
 ## Xposer Kubernetes Controller To Manage Ingresses
 
@@ -399,5 +402,7 @@ Cilium allows users to specify an egress NAT policy
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Should you use a single Kubernetes Ingress controller or multiple?<br><br>On Monday 8PT/5CET Andrea will make a convincing case on why multiple controllers are good for<br><br>✅ security<br>✅ segregating team &amp; resources<br>✅ isolation<br><br>Register here (it&#39;s free) <a href="https://t.co/62oKodt7tQ">https://t.co/62oKodt7tQ</a> <a href="https://t.co/DWNy0iTYq6">pic.twitter.com/DWNy0iTYq6</a></p>&mdash; Learnk8s (@learnk8s) <a href="https://twitter.com/learnk8s/status/1502986561901965319?ref_src=twsrc%5Etfw">March 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Networking in Kubernetes is arguably the most important piece.<br><br>Why?<br><br>Because there’s not much you can do in a Kubernetes cluster without proper networking.<br><br>A thread 🧵</p>&mdash; Michael Levan 👨🏻‍💻☕️ (@TheNJDevOpsGuy) <a href="https://twitter.com/TheNJDevOpsGuy/status/1607747382711664640?ref_src=twsrc%5Etfw">December 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you deal with peaks of traffic in Kubernetes?<br><br>You can use an autoscaler, but how should you configure and test it?<br><br>Let&#39;s dive into it. <a href="https://t.co/AxfEgqyEFW">pic.twitter.com/AxfEgqyEFW</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1647935320288284673?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

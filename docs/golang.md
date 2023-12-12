@@ -101,6 +101,7 @@
 - [ggicci/httpin: HTTP Input for Go](https://github.com/ggicci/httpin) Decode an HTTP request into a custom struct
 - [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) A Go framework for end-to-end testing of components running in Kubernetes clusters.
 - [forbearing/k8s](https://github.com/forbearing/k8s) This Go library implements various handlers to more easily manipulate kubernetes resources such as pods, deployments, etc, inside or outside a Kubernetes cluster
+- [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6) Go has been designed to be a modern language — there are scenarios where you don’t need a package or framework as you can leverage standard packages (such as net/http).
 
 ## Go packages
 

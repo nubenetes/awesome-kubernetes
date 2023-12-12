@@ -87,6 +87,14 @@
 - [medium.com/@eduard.mihai.lemnaru: Auto-update helm chart version using ArgoCD](https://medium.com/@eduard.mihai.lemnaru/auto-update-helm-chart-version-using-argocd-4936933a2bac)
 - [53jk1.medium.com: ArgoCD: The Continuous Delivery Solution for Kubernetes](https://53jk1.medium.com/argocd-the-continuous-delivery-solution-for-kubernetes-ae5b008e76d1)
 - [github.com/myspotontheweb/gitops-workloads-demo](https://github.com/myspotontheweb/gitops-workloads-demo) This repository demonstrates how Helm based work loads can be managed by ArgoCD.
+- [medium.com/@jon.mclean: ArgoCD: The GitOps Way](https://medium.com/@jon.mclean/argocd-the-gitops-way-90f7eb0d2606)
+- [medium.com/@devopsrockers: Blue-Green Deployment on EKS using Argocd with Kubecost, Istio, External DNS, Grafana-Prometheus and More: “Build, Deploy a Resilient and Observability-Driven Application”](https://medium.com/@devopsrockers/blue-green-deployment-on-eks-using-argocd-with-kubecost-istio-external-dns-grafana-prometheus-d5d5508f0748)
+- [medium.com/@samuelbagattin: Partial Helm values encryption using AWS KMS with ArgoCD](https://medium.com/@samuelbagattin/partial-helm-values-encryption-using-aws-kms-with-argocd-aca1c0d36323) In this blog post, you'll learn how to encrypt only specific yaml fields in `values.yaml`, and how to configure ArgoCD to decrypt these secrets on the fly before installing a Helm release
+- [blog.devops.dev: GitOps at Scale](https://blog.devops.dev/gitops-at-scale-69639c9a3dd7) Scale your Projects like a Fleet with Argo CD
+- [medium.com/@jerome.decoster: Create temporary environment from Pull Request with ArgoCD ApplicationSet](https://medium.com/@jerome.decoster/create-temporary-environment-from-pull-request-with-argocd-applicationset-1cef9803223a) In this post, you'll learn how to create a new environment for each pull request with ArgoCD:
+    - Creating a Pull Request creates a new environment
+    - Each git push builds an image and updates the app
+    - Closing the pull request terminates the environment
 
 ## Argo CD Vulnerabilities
 
