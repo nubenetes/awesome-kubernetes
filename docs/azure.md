@@ -66,6 +66,10 @@
 54. [Videos](#videos)
 55. [Tweets](#tweets)
 
+<center>
+[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer)
+</center>
+
 ## Azure
 
 - [Microsoft Azure](https://azure.microsoft.com/)
