@@ -21,6 +21,8 @@
 - [medium: Running Apache Spark on Kubernetes](https://medium.com/empathyco/running-apache-spark-on-kubernetes-2e64c73d0bb2) Using Spark on K8s to overcome dependency on cloud providers
 - [hevodata.com: Building Apache Spark Data Pipeline? Made Easy 101 🌟](https://hevodata.com/learn/spark-data-pipeline/)
 - [coderstan.com: Apache Spark on Kubernetes—Lessons Learned from Launching Millions of Spark Executors (Databricks Data+AI Summit 2022)](https://coderstan.com/2022/07/15/spark-on-kubernetes-launching-millions-of-spark-executors/) In this case study, you will learn how Apple uses Spark and Kubernetes to process 380K+ jobs per day
+- [spot.io: Setting up, Managing & Monitoring Spark on Kubernetes](https://spot.io/blog/setting-up-managing-monitoring-spark-on-kubernetes/)
+- [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce) Unleash the power of SparkML with our hands-on tutorial. Discover machine learning made easy and efficient.
 
 ## Databricks
 

@@ -28,6 +28,7 @@
 - [aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect](https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect/)
 - [towardsaws.com: Networking Basics in AWS](https://towardsaws.com/networking-basics-in-aws-ab72882855c4)
 - [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products/networking/network-operations/) Efficiently manage and monitor your AWS network
+- [Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint](https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023/)
 
 ## AWS Route 53
 

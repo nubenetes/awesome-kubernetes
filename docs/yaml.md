@@ -41,6 +41,7 @@
 - [betterprogramming.pub: 10 Things You Might Not Know About YAML](https://betterprogramming.pub/10-things-you-might-not-know-about-yaml-b0589da547c) Harness the true power of YAML
 - [==spacelift.io/blog/yaml==](https://spacelift.io/blog/yaml) YAML Tutorial : A Complete Language Guide with Examples
 - [ruudvanasseldonk.com: The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell)
+- [itnext.io: Python, YAML, and Kubernetes — The Art of Mastering Configuration](https://itnext.io/python-yaml-and-kubernetes-the-art-of-mastering-configuration-cd60029b3f62) A practical guide to simplifying Kubernetes configuration management with Python and YAML
 
 ### K8s YAML tips
 
@@ -127,6 +128,7 @@
 ### JSON Tools
 
 - [==jsoncrack.com: JSON Crack 🌟🌟==](https://jsoncrack.com) **Seamlessly visualize your JSON data instantly into graphs**
+- [github.com/tomnomnom/gron 🌟](https://github.com/tomnomnom/gron) Make JSON greppable!
 
 ### Kubernetes JSON Schemas
 

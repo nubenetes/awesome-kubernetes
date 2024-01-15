@@ -5,15 +5,16 @@
 3. [Git stash](#git-stash)
 4. [Git Squash](#git-squash)
 5. [Git Branches](#git-branches)
-6. [Git Aliases](#git-aliases)
-7. [Git and GitHub Backup](#git-and-github-backup)
-8. [Cherry-picking](#cherry-picking)
-9. [Git Submodules](#git-submodules)
-10. [Shields](#shields)
-11. [Design By Contract](#design-by-contract)
-12. [Git Cheat Sheets](#git-cheat-sheets)
-13. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
-14. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+6. [Git Merge](#git-merge)
+7. [Git Aliases](#git-aliases)
+8. [Git and GitHub Backup](#git-and-github-backup)
+9. [Cherry-picking](#cherry-picking)
+10. [Git Submodules](#git-submodules)
+11. [Shields](#shields)
+12. [Design By Contract](#design-by-contract)
+13. [Git Cheat Sheets](#git-cheat-sheets)
+14. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
+15. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
      1. [Git Workflows](#git-workflows)
      2. [Trunk Based Development](#trunk-based-development)
      3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
@@ -23,11 +24,11 @@
      5. [Alternative Branching Models](#alternative-branching-models)
          1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
              1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
-15. [Git Commands](#git-commands)
-16. [BitBucket](#bitbucket)
-17. [GitLab](#gitlab)
+16. [Git Commands](#git-commands)
+17. [BitBucket](#bitbucket)
+18. [GitLab](#gitlab)
      1. [GitLab Collective](#gitlab-collective)
-18. [GitHub](#github)
+19. [GitHub](#github)
      1. [GitHub Lab](#github-lab)
      2. [GitHub Code Scanner](#github-code-scanner)
      3. [GitHub Actions](#github-actions)
@@ -38,14 +39,14 @@
          2. [GitHub Copilot X](#github-copilot-x)
          3. [Alternatives](#alternatives)
              1. [CodiumAI](#codiumai)
-19. [Gitea](#gitea)
-20. [Sapling](#sapling)
-21. [Git Tools](#git-tools)
+20. [Gitea](#gitea)
+21. [Sapling](#sapling)
+22. [Git Tools](#git-tools)
      1. [Git Credential Manager](#git-credential-manager)
      2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
-22. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-23. [Pre Commit Hooks](#pre-commit-hooks)
-24. [Merge BOTs](#merge-bots)
+23. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
+24. [Pre Commit Hooks](#pre-commit-hooks)
+25. [Merge BOTs](#merge-bots)
      1. [Tips](#tips)
      2. [Jenkins for git merges](#jenkins-for-git-merges)
      3. [Bitbucket for git merges](#bitbucket-for-git-merges)
@@ -56,9 +57,9 @@
      7. [Mergify bot](#mergify-bot)
      8. [GitHub bots](#github-bots)
          1. [Bors GitHub bot](#bors-github-bot)
-25. [Videos](#videos)
-26. [Slides](#slides)
-27. [Tweets](#tweets)
+26. [Videos](#videos)
+27. [Slides](#slides)
+28. [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
 
@@ -216,6 +217,10 @@
 - [blog.devops.dev: Stop messing up with Git. Follow this simple and effective strategy to maintain Git branches](https://blog.devops.dev/stop-messing-up-with-git-follow-this-simple-and-effective-strategy-to-maintain-git-branches-cc378468cde6)
 - [medium.com/@selvamraju007: GIT Branching Strategies](https://medium.com/@selvamraju007/git-branching-strategies-a6eafe4541ae)
 - [dev.to/varbsan: A Simplified Convention for Naming Branches and Commits in Git](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
+
+## Git Merge
+
+- [freecodecamp.org: The Git Merge Handbook – Definitive Guide to Merging in Git](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/)
 
 ## Git Aliases
 
@@ -545,6 +550,7 @@ git rebase -i HEAD~5
 - [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option/)
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
 - [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l)
+- [==youtube: GitHub Masterclass (Spanish)== 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M)
 
 ### GitHub Lab
 
@@ -626,6 +632,7 @@ git rebase -i HEAD~5
 - [xataka.com: Copilot ya escribe el 40% del código de lenguajes como Java o Python que llega a GitHub. En cinco años llegará al 80%](https://www.xataka.com/aplicaciones/copilot-escribe-40-codigo-lenguajes-como-java-python-que-llega-a-github-cinco-anos-llegara-al-80)
 - [xataka.com: Copilot es una revolución para programadores (pero también un potencial problema legal para Microsoft)](https://www.xataka.com/robotica-e-ia/copilot-revolucion-para-programadores-tambien-potencial-problema-legal-para-microsoft)
 - [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) GitHub Copilot is evolving to bring chat and voice interfaces, support pull requests, answer questions on docs, and adopt OpenAI’s GPT-4 for a more personalized developer experience.
+- [techcommunity.microsoft.com: Coding Frameworks and languages are no longer the point, prompting is](https://techcommunity.microsoft.com/t5/educator-developer-blog/coding-frameworks-and-languages-are-no-longer-the-point/ba-p/3820265)
 
 #### GitHub CoPilot VS GPT-3
 
@@ -799,6 +806,7 @@ Automate them.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PGyhBwLyK2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="469" height="834" src="https://www.youtube.com/embed/o3qURBllpGM" title="GitHub CoPilot is like a second brain" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/e2IbNHi4uCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </center>
 
 ## Slides
@@ -840,5 +848,7 @@ Automate them.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">99% of the programmers only know the basic git commands (push, pull and commit)<br><br>These 10 git commands will save you hours of research time when you&#39;re stuck:</p>&mdash; Ujjwal Chadha (@ujjwalscript) <a href="https://twitter.com/ujjwalscript/status/1593143603001708548?ref_src=twsrc%5Etfw">November 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you want to master Git, watch these YouTube videos:</p>&mdash; Nikki Siapno (@NikkiSiapno) <a href="https://twitter.com/NikkiSiapno/status/1597836278543880193?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to organizing GitHub repositories for your project?<br><br>A thread 👇 <a href="https://t.co/QSnnyDyupe">pic.twitter.com/QSnnyDyupe</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1655208517903740928?ref_src=twsrc%5Etfw">May 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

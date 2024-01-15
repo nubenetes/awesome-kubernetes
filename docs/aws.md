@@ -90,6 +90,8 @@
 - [dev.to: Disaster Recovery Cheat-sheet/Write-up 🌟](https://dev.to/aws-builders/disaster-recovery-cheat-sheetwrite-up-o62)
 - [terminalsandcoffee.com: Setting Up the AWS CLI & IAM User API Keys 🌟](https://terminalsandcoffee.com/setting-up-the-aws-cli-iam-user-api-keys-b83554e314e4)
 - [dev.to: Best Practices When Designing AWS Architecture 🌟🌟](https://dev.to/aws-builders/best-practices-when-designing-aws-architecture-4c8d) AWSArchitecture is the way you design & implement your cloud apps using AWS services & resources. A well-designed architecture help to achieve business goals 👉 scalability, reliability, etc.
+- [infoworld.com: Amazon’s quiet open source revolution](https://www.infoworld.com/article/3694090/amazon-s-quiet-open-source-revolution.html) After years of getting a free ride from open source projects, the company is developing its own obsession with contributing.
+- [==mrdevops.hashnode.dev: How to Create EC2 Instance in AWS: Step by Step Tutorial==](https://mrdevops.hashnode.dev/how-to-create-ec2-instance-in-aws-step-by-step-tutorial)
 
 ## AWS Reference Archigtecture
 

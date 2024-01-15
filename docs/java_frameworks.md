@@ -243,6 +243,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [Skaffold --generate-manifests](https://skaffold.dev/docs/pipeline-stages/init/#--generate-manifests-flag)
 - [Spring Cloud Kubernetes](https://spring.io/projects/spring-cloud-kubernetes)
 - [testcontainers-spring-boot 🌟](https://github.com/Playtika/testcontainers-spring-boot) Container auto-configurations for spring-boot based integration tests. If you use Testcontainers with Spring Boot Hoja balanceándose en el viento you may be interested in the Playtika_Ltd Testcontainers library that provides auto-configurations for springboot based integration tests. It contains modules e.g. for kafka rabbitmq mongodb
+- [github.com/piomin/spring-boot-logging](https://github.com/piomin/spring-boot-logging) A library for logging HTTP request/response for Spring Boot application and integration with Elastic Stack
 
 #### Endpoints for k8s probes exposed by SpringBoot
 
@@ -437,5 +438,7 @@ optimizing Enterprise Java for the microservices architecture.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Boot Tip🍃💡<br><br>Make your app logs more colorful 😉<br>Config in the `application.yml` file👇<br><br>logging:<br> pattern:<br> console: &quot;%clr(%d{HH:mm:ss.SSS}){blue} %clr(---){cyan} %clr([%15.15t]){yellow} %clr(:){red} %clr(%m){magenta}%n&quot; <a href="https://t.co/y5wQcDyN4K">pic.twitter.com/y5wQcDyN4K</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1629121171730857984?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spring Boot🍃 provides the built-in Actuator feature to generate and expose endpoints for Kubernetes liveness/readiness probes.<br><br>1⃣ We need to enable it in config <br>2⃣ We can select components to analyze<br>3⃣ We can expose a probe on the app main port even if mgmt port is configured <a href="https://t.co/h7mA5W0zUH">pic.twitter.com/h7mA5W0zUH</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1629043458768764928?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2k followers on GitHub :) If you are looking for examples related to Java, Kubernetes, Spring Boot etc. for sure you will find smth for yourself amongst my repos: <a href="https://t.co/8ORKKxSYAW">https://t.co/8ORKKxSYAW</a> <a href="https://t.co/r6VyDorq5g">pic.twitter.com/r6VyDorq5g</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1654487230050627589?ref_src=twsrc%5Etfw">May 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>

@@ -45,6 +45,7 @@
 
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
 - [sid-infinity-yadav.medium.com: Grafana Agent Kubernetes Operator](https://sid-infinity-yadav.medium.com/grafana-agent-kubernetes-operator-f89b744487f5)
+- [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614)
 
 ## Grafana Faro
 
@@ -54,6 +55,7 @@
 ## Grafana Dashboards
 
 - [Grafana Dashboards](https://grafana.com/grafana/dashboards)
+- [github.com/DevOps-Nirvana/Grafana-Dashboards](https://github.com/DevOps-Nirvana/Grafana-Dashboards) In this repository, you will find a variety of open-source Grafana dashboards, typically for AWS and Kubernetes
 - [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
 - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 - [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
@@ -68,6 +70,7 @@
 - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/2022/06/06/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build/)
 - [blog.bespinian.io: Creating Grafana Dashboards for Node.js Apps on Kubernetes](https://blog.bespinian.io/posts/creating-grafana-dashboards-for-nodejs-on-kubernetes/) While Grafana and Prometheus are relatively easy to understand, creating useful dashboards requires familiarity with PromQL and Prometheus’ data model. In this article, you'll learn how to create a dashboard for a Node.js app deployed on Kubernetes.
 - [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
+- [github.com/onzack/grafana-dashboards](https://github.com/onzack/grafana-dashboards) Grafana Dashboards for Kubernetes, OpenShift and other systems
 
 Monitored Component|Collector|Dashboard Number|URL
 :------------------|:-------|:---------------|------------

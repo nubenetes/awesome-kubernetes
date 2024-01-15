@@ -131,6 +131,8 @@
     - Sharing templates with subcharts
 
 - [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423)
+- [medium.com/geekculture: Helm Chart Wait for All Dependencies Before Starting Kubernetes Pods](https://medium.com/geekculture/helm-chart-wait-for-all-dependencies-before-starting-kubernetes-pods-cc0a3ddbf02b) Improve the quality of your helm charts by supporting wait for dependencies feature
+- [blog.knell.it: Making your Helm Chart observable for Prometheus](https://blog.knell.it/making-your-helm-chart-observable-for-prometheus/) In this blog post, I walk you through the various steps required to make an existing Helm chart observable by Prometheus.
 
 ## Helm Plugins
 
@@ -153,6 +155,7 @@
 
 - [medium.com/geekculture: K8s — Helm Dashboard](https://medium.com/geekculture/k8s-helm-dashboard-d7509c5fee88) The missing UI of Helm
 - [levelup.gitconnected.com: Introduction to Helm Dashboard](https://levelup.gitconnected.com/introduction-to-helm-dashboard-dddf43e38cc2)
+- [github.com/komodorio/helm-dashboard 🌟](https://github.com/komodorio/helm-dashboard) The Helm Dashboard plugin offers a UI-driven way to view the installed Helm charts, and see their revision history and corresponding Kubernetes resources. Also, you can perform simple actions like roll back to a revision or upgrade to a newer version
 
 ## Kubecrt
 

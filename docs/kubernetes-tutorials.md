@@ -73,7 +73,8 @@
 
 - [blog.getambassador.io: How to Learn Kubernetes: Prerequisites, Paths, and Resources 🌟](https://blog.getambassador.io/how-to-learn-kubernetes-prerequisites-paths-and-resources-9e044daee185)
 - [==devopscube.com: How to Learn Kubernetes (Complete Roadmap)== 🌟🌟🌟](https://devopscube.com/learn-kubernetes-complete-roadmap/) A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)
-    - [github.com/techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
+    - [==github.com/techiescamp/kubernetes-learning-path== 🌟🌟](https://github.com/techiescamp/kubernetes-learning-path)
+- [dev.to: Understanding Kubernetes: part 48 – Kubernetes 1.27 Changelog](https://dev.to/aurelievache/understanding-kubernetes-part-48-kubernetes-127-changelog-1alk)
 
 ## Online Training
 

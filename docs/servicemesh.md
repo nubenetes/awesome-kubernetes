@@ -69,6 +69,7 @@
 - [medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd, Kuma and Consul](https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630)
 - [medium.com/@pauldotyu: Service Mesh Considerations](https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295)
 - [medium.com/4th-coffee: A Comprehensive Tutorial on Service Mesh, Istio, Envoy, Access Log, and Log Filtering](https://medium.com/4th-coffee/a-comprehensive-tutorial-on-service-mesh-istio-envoy-access-log-and-log-filtering-8f3d939c081d)
+- [infoq.com: Sidecars, eBPF and the Future of Service Mesh](https://www.infoq.com/presentations/service-mesh-ebpf/)
 
 ## Service Mesh and API Gateways
 
@@ -126,6 +127,7 @@
 - [buoyant.io: Upgrading to Linkerd 2.12: Zero-trust-ready route-based policy, Gateway API, access logging](https://buoyant.io/service-mesh-academy/upgrading-to-linkerd-2-12) In this webinar, you'll hear all about the Linkerd 2.12 release and what you need to know to upgrade. This massive release introduces route-based policy to Linkerd, allowing users to define and enforce authorization policies based on HTTP paths or gRPC methods in a fully zero-trust way. It also introduces support for iptables-nft and Apache-style access logging, authorizes all probes by default (even in default-deny clusters), and includes a host of other improvements and performance enhancements.
 - [medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd](https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f) In this article, you'll learn the meaning of Mutual TLS, why it is needed in Kubernetes and also implement it with Emissary-ingress
 - [weeraman.com: Getting started with Linkerd](https://weeraman.com/getting-started-with-linkerd-415d6485227f)
+- [dev.to: Linkerd and GitOps](https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a)
 
 ## Maesh Service Mesh
 

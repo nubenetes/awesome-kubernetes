@@ -160,6 +160,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [==faun.pub: Set up Jenkins on a Kubernetes Cluster==](https://faun.pub/set-up-jenkins-on-a-kubernetes-cluster-2b982c840ebe)
 - [blog.devops.dev: Blue-Green Deployment (CI/CD) Pipelines with Docker, GitHub, Jenkins and SonarQube](https://blog.devops.dev/blue-green-deployment-ci-cd-pipelines-with-docker-github-and-jenkins-6a262b2994c6)
 - [itnext.io: Accelerate Development with Jenkins Pipelines and Continuous Integration](https://itnext.io/accelerate-development-with-jenkins-pipelines-and-continuous-integration-9a6c7857ccd2)
+- [dzone.com: Continuous Integration in AWS Using Jenkins Pipelines: Best Practices and Strategies](https://dzone.com/articles/continuous-integration-in-aws-using-jenkins) Learn about implementing CI using Jenkins, a popular automation tool, and how this approach can optimize and streamline your software development process.
 
 ## Jenkins and Terraform
 

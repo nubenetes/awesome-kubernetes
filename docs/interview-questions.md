@@ -37,6 +37,7 @@
 - [interviewbit.com: Terraform Interview Questions](https://www.interviewbit.com/terraform-interview-questions/)
 - [simplilearn.com: Top 40 Terraform Interview Questions and Answers for 2022](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
 - [k21academy.com: Top Terraform Interview Questions & Answers [ Revised – 2022]](https://k21academy.com/terraform-iac/terraform-interview-questions/)
+- [mrdevops.hashnode.dev: Top 40 Terraform Interview Questions and Answers for 2023](https://mrdevops.hashnode.dev/top-40-terraform-interview-questions-and-answers-for-2023)
 
 ## AWS Interview Questions
 
@@ -90,6 +91,7 @@
 - [java-success.com: 01: 9 Java low latency interview questions & answers](https://www.java-success.com/writing-low-latency-applications-in-java/)
 - [java-success.com: 9 Java Garbage Collection interview questions & answers](https://www.java-success.com/java-garbage-collection-interview-questions-and-answers/)
 - [50+ Java Collections Interview Questions for Beginners and Experienced Programmers](https://medium.com/javarevisited/50-java-collections-interview-questions-for-beginners-and-experienced-programmers-4d2c224cc5ab)
+- [javaguides.net: Java main() Method Interview Questions with Answers](https://www.javaguides.net/2018/10/java-main-method-interview-questions-with-answers.html)
 
 ## Jenkins Interview Questions
 

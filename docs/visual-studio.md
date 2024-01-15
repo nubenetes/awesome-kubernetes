@@ -319,6 +319,17 @@ A simple extension to make indentation more readable
 - [Pin VS Code Tabs?](https://www.youtube.com/shorts/6NFR5MsHM_4)
 - [Rainbox CSV](https://www.youtube.com/shorts/y55a7NAiHiI)
 - [Extensión de Visual Studio Code que genera tests y mejora tu código](https://youtube.com/shorts/hmq195GRYCI?si=8knOM1y50V6JcRlk)
+- [Create diagrams in vscode](https://www.youtube.com/shorts/0N-NFIfy5lI)
+- [Copilot writing Markdown](https://www.youtube.com/shorts/70voiUcMk_I)
+- [Change your Java versions in VS Code!](https://www.youtube.com/shorts/p-H7Q9PtSc8)
+- [April 2023 Release Highlights - Profile Templates](https://www.youtube.com/shorts/ToGRhGvo62k)
+- [How VS Code Makes Branches](https://www.youtube.com/shorts/-hvEdSI8ziE)
+- [Write slides in VS Code](https://www.youtube.com/shorts/cLokEWqTuds)
+- [Create guided walkthroughs of your code](https://www.youtube.com/shorts/KQB8FRoJaH4)
+- [Minimap Makeover](https://www.youtube.com/shorts/t5vXCNIBVYw)
+- [Navigate your code's history](https://www.youtube.com/shorts/6IwjxcDbVW0)
+- [Vertical rulers](https://www.youtube.com/shorts/cTE0ec3IurE)
+- [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU)
 
 ## Videos
 
@@ -342,6 +353,7 @@ A simple extension to make indentation more readable
 <iframe width="469" height="834" src="https://www.youtube.com/embed/PrI1m7qOsag" title="Stop searching for the same code over and over again!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="469" height="834" src="https://www.youtube.com/embed/PGvV-r8IzoI" title="Remote Tunnels #vscode #programming #software #coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="469" height="834" src="https://www.youtube.com/embed/0WOx1aoHH1o" title="Favorite VS Code features of 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QS_bh-3qKdw?si=vWQbX5blfaYnWYKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </details>
 

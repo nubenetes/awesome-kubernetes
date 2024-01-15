@@ -101,6 +101,8 @@
 - [aws.amazon.com: Accelerating radiology imaging workflows with relevant clinical context on AWS](https://aws.amazon.com/blogs/industries/accelerating-radiology-imaging-workflows-with-relevant-clinical-context-on-aws/)
 - [biobanking.com: Europe’s Leading Cancer Image Biobank (EUCAIM) Launched by Quibim and European Commission](https://www.biobanking.com/europes-leading-cancer-image-biobank-eucaim-launched-by-quibim-and-european-commission/)
 - [health.google: AI-enabled imaging and diagnostics previously thought impossible](https://health.google/intl/ALL_en/health-research/imaging-and-diagnostics/)
+- [nature.com: Quibim: empowering biopharma to turn images into actionable predictions using artificial intelligence](https://www.nature.com/articles/d43747-023-00028-w) Taking an innovative approach to applying artificial intelligence (AI) to medical imaging, Quibim is designing predictive panels to enable healthcare providers to improve patient outcomes.
+- [imperialbiosciencereview.wordpress.com: Redefining diagnostics: the integration of machine learning in medical imaging](https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2/)
 
 ## AXA Group
 

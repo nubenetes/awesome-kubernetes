@@ -2,33 +2,35 @@
 
 1. [Python Blogs and Forums](#python-blogs-and-forums)
 2. [Python docs](#python-docs)
-3. [PHP vs Python](#php-vs-python)
-4. [APIs in Python](#apis-in-python)
-5. [Thoth](#thoth)
-6. [Python Books](#python-books)
-7. [Python Django Framework](#python-django-framework)
-8. [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
-9. [FastAPI](#fastapi)
-10. [Python pip and pip's wheel](#python-pip-and-pips-wheel)
-11. [Python Feature Flags](#python-feature-flags)
-12. [Python testing](#python-testing)
-13. [Python Cyber Security](#python-cyber-security)
-14. [Data Science](#data-science)
+3. [ReactPy](#reactpy)
+4. [PHP vs Python](#php-vs-python)
+5. [APIs in Python](#apis-in-python)
+6. [Thoth](#thoth)
+7. [Python Books](#python-books)
+8. [Python Django Framework](#python-django-framework)
+9. [Python Flask Lightweight Framework (microframework)](#python-flask-lightweight-framework-microframework)
+10. [FastAPI](#fastapi)
+11. [Python pip and pip's wheel](#python-pip-and-pips-wheel)
+12. [Python Feature Flags](#python-feature-flags)
+13. [Python testing](#python-testing)
+14. [Python Cyber Security](#python-cyber-security)
+15. [Data Science](#data-science)
      1. [Python Pandas and pivot tables](#python-pandas-and-pivot-tables)
-     2. [PandasDatabase](#pandasdatabase)
-     3. [NumPy](#numpy)
-     4. [Orchest. Data Pipelines with Python and R code. No frameworks. No YAML](#orchest-data-pipelines-with-python-and-r-code-no-frameworks-no-yaml)
-15. [Python standard library Modules and Code](#python-standard-library-modules-and-code)
-16. [Python and AWS](#python-and-aws)
-17. [Python Tools](#python-tools)
+     2. [PandasAI](#pandasai)
+     3. [PandasDatabase](#pandasdatabase)
+     4. [NumPy](#numpy)
+     5. [Orchest. Data Pipelines with Python and R code. No frameworks. No YAML](#orchest-data-pipelines-with-python-and-r-code-no-frameworks-no-yaml)
+16. [Python standard library Modules and Code](#python-standard-library-modules-and-code)
+17. [Python and AWS](#python-and-aws)
+18. [Python Tools](#python-tools)
      1. [Web Scraping with Python](#web-scraping-with-python)
-18. [Jython](#jython)
-19. [Eclipse IDE](#eclipse-ide)
-20. [Python Libraries](#python-libraries)
-21. [Python Snippets](#python-snippets)
-22. [Slides](#slides)
-23. [Videos](#videos)
-24. [Tweets](#tweets)
+19. [Jython](#jython)
+20. [Eclipse IDE](#eclipse-ide)
+21. [Python Libraries](#python-libraries)
+22. [Python Snippets](#python-snippets)
+23. [Slides](#slides)
+24. [Videos](#videos)
+25. [Tweets](#tweets)
 
 ## Python Blogs and Forums
 
@@ -54,6 +56,7 @@
 
 ## Python docs
 
+- [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace.
 - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)
 - [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python/)
 - [Python Anti-Patterns. The Little Book of Python Anti-Patterns and Worst Practice](http://docs.quantifiedcode.com/python-code-patterns/)
@@ -251,6 +254,18 @@
 - [freecodecamp.org: Learn Algorithms and Data Structures in Python 🌟🌟](https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/) When you're learning Python, there are some important algorithms and data structures you'll need to know. They'll come up in job interviews, & you'll use them on a daily basis, too. You'll learn how to use them in this comprehensive Python DSA course.
 - [realpython.com: Python Machine Learning Tutorials 🌟🌟](https://realpython.com/tutorials/machine-learning/)
 - [devopscube.com: Python For DevOps: Guide for DevOps Engineers](https://devopscube.com/python-for-devops/)
+- [==realpython.com: An Intro to Threading in Python==](https://realpython.com/intro-to-python-threading/)
+- [==realpython.com: Functional Programming in Python==](https://realpython.com/courses/functional-programming-python/)
+- [rogerperkin.co.uk: pyATS Tutorial for Beginners](https://www.rogerperkin.co.uk/network-automation/pyats/pyats-genie-tutorial/) pyATS was (and still is) an in-house Cisco Python testing framework that was developed for internal Cisco engineering use and has now been made open source and is available for you to perform your network testing. It is primarily a foundation-layer test framework. Cisco currently run over 2 million test runs per month using the pyATS framework.
+    - [packetcoders.io: Network Testing with Cisco pyATS. An Introduction to pyATS](https://www.packetcoders.io/pyats-written-course-intro-pyats/)
+- [genbeta.com: Ocho canales de YouTube para aprender Python desde cero hasta nivel experto](https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-nivel-experto)
+- [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911)
+- [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) Learn how to use Grafana Phlare and continuous profiling to discover bottlenecks in your code and boost the performance of your Python apps running in Kubernetes
+- [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7) Using Hashable DataFrames and Message Digests to Optimize Repeated Calculations
+
+## ReactPy
+
+- [github.com/reactive-python/reactpy](https://github.com/reactive-python/reactpy) It's React, but in Python
 
 ## PHP vs Python
 
@@ -366,6 +381,12 @@
 - [==pandastutor.com== 🌟](https://pandastutor.com) Pandas Tutor visualizes how your Python code transforms dataframes
 - [==betterprogramming.pub: How to Use Pandas to Consume Data and Perform Data Analysis==](https://betterprogramming.pub/how-to-use-pandas-to-consume-data-and-perform-data-analysis-76e000ad5480) An introduction to data analysis with Pandas
 - [iaviral.medium.com: Most used functions in Pandas](https://iaviral.medium.com/most-used-functions-in-pandas-7c12ae238185) Useful functions in Pandas for Data Science and Machine Learning
+- [betterprogramming.pub: Pandas Illustrated: The Definitive Visual Guide to Pandas](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43) Is it a copy or a view? Should I merge or join? And what the heck is MultiIndex?
+
+### PandasAI
+
+- [==github.com/gventuri/pandas-ai==](https://github.com/gventuri/pandas-ai) Chat with your data (CSV, pandas, polars, etc). PandasAI makes data analysis conversational
+- [levelup.gitconnected.com: Introducing PandasAI: The Generative AI Python Library](https://levelup.gitconnected.com/introducing-pandasai-the-generative-ai-python-library-568a971af014) Pandas AI is an additional Python library that enhances Pandas, the widely-used data analysis and manipulation tool, by incorporating generative artificial intelligence capabilities.
 
 ### PandasDatabase
 

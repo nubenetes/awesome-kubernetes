@@ -843,6 +843,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [dev.to: Go, Kafka and gRPC clean architecture CQRS microservices with Jaeger tracing](https://dev.to/aleksk1ng/go-kafka-and-grpc-clean-architecture-cqrs-microservices-with-jaeger-tracing-45bj)
 - [ably.com: Building a realtime ticket booking solution with Kafka, FastAPI, and Ably](https://ably.com/blog/realtime-ticket-booking-solution-kafka-fastapi-ably)
 - [itnext.io: Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://itnext.io/event-driven-architectures-with-kafka-and-java-spring-boot-revision-1-c0d43d103ee7)
+- [codeopinion.com: Troubleshooting Kafka with 2000 Microservices](https://codeopinion.com/troubleshooting-kafka-with-2000-microservices/)
 
 ## Apache Camel & ActiveMQ. Event driven integration
 
@@ -880,6 +881,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [aws.plainenglish.io: Creating a custom EC2 module using Terraform](https://aws.plainenglish.io/creating-a-custom-ec2-module-using-terraform-59c9896c2df2)
 - [medium.com/@zeloygabri: Deploying 2-Tier AWS Architecture using Terraform](https://medium.com/@zeloygabri/deploying-2-tier-aws-architecture-using-terraform-b4167b035751)
 - [christopher-lawshe.medium.com: Building infrastructure with Terraform: EC2, Jenkins, S3 and more](https://christopher-lawshe.medium.com/building-infrastructure-with-terraform-ec2-jenkins-s3-and-more-4ec30f53a44a)
+- [dev.to: Creating a Rest API with Infrastructure as Code (Terraform) & Serverless (Lambda + Python) - Part 2 CI/CD](https://dev.to/aws-builders/creating-a-rest-api-with-infrastructure-as-code-terraform-serverless-lambda-python-part-2-cicd-g8h)
+- [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47)
+- [blog.awsfundamentals.com: Using S3 with Terraform](https://blog.awsfundamentals.com/using-s3-with-terraform)
 
 ## Prometheus and Grafana
 
@@ -899,6 +903,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [levelup.gitconnected.com: GitOps: CI/CD using GitHub Actions and ArgoCD on Kubernetes](https://levelup.gitconnected.com/gitops-ci-cd-using-github-actions-and-argocd-on-kubernetes-909d85d37746) Deploying Helm Charts on AWS EKS Cluster using ArgoCD and GitOps.
 - [freecodecamp.org: How to Setup a CI/CD Pipeline with GitHub Actions and AWS](https://www.freecodecamp.org/news/how-to-setup-a-ci-cd-pipeline-with-github-actions-and-aws/)
 - [nicwortel.nl: Continuous deployment to Kubernetes with GitHub Actions](https://nicwortel.nl/blog/2022/05/27/continuous-deployment-to-kubernetes-with-github-actions) In this article, you will learn how to use GitHub Actions to automatically test, build and deploy your Docker images to Kubernetes on every commit to the main branch
+- [medium.com/geekculture: GitOps — Github Actions K8s Deploy Workflow](https://medium.com/geekculture/gitops-github-actions-k8s-deploy-workflow-54f0d9a1d11b)
+- [eggboy.medium.com: CI/CD Java apps securely to Azure Kubernetes Service with GitHub Action — Part 1](https://eggboy.medium.com/ci-cd-java-apps-securely-to-azure-kubernetes-service-with-github-action-part-1-16393af4d097)
 
 ### RedHat GitHub Actions
 
@@ -916,6 +922,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## OpenTelemetry
 
 - [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b)
+- [itnext.io: OpenTelemetry — Understanding SLI and SLO with OpenTelemetry Demo](https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0)
 
 ## QR Codes
 

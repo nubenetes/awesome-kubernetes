@@ -76,6 +76,7 @@
 - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) Invoke the Kubernetes resources without overloading the cluster. Many popular Kubernetes tools such as K9s are based on client-go. They use the informer pattern to continuously refresh data without posing additional pressure to the API Server. Learn how the informer pattern works in this article.
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
+- [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/)
 
 ## Building container images
 

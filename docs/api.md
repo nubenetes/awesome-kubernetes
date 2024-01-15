@@ -43,6 +43,7 @@
 ## APIs
 
 - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)
+- [postman.com: What is an API?](https://www.postman.com/what-is-an-api)
 - [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api/)
 - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
@@ -83,6 +84,7 @@
 - [dzone.com: REST vs. Messaging for Microservices 🌟](https://dzone.com/articles/rest-vs-messaging-for-microservices) Discover how to choose the right communication style for your microservices in this exploration of two common protocols.
 - [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89)
 - [==freecodecamp.org: Public APIs Developers Can Use in Their Projects==](https://www.freecodecamp.org/news/public-apis-for-developers/)
+- [==blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs. SOAP==](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/)
 
 ## From RESTful to Event-Driven APIs
 

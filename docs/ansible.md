@@ -2,41 +2,42 @@
 
 1. [Configuration Management with Ansible DevOps Tool](#configuration-management-with-ansible-devops-tool)
 2. [Ansible AI](#ansible-ai)
-3. [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
-4. [Writing an Ansible module](#writing-an-ansible-module)
-5. [Interacting with REST API](#interacting-with-rest-api)
+3. [Ansible UI](#ansible-ui)
+4. [Deploying custom files with Jinja2 templates](#deploying-custom-files-with-jinja2-templates)
+5. [Writing an Ansible module](#writing-an-ansible-module)
+6. [Interacting with REST API](#interacting-with-rest-api)
     1. [Writing an Ansible module for a REST API](#writing-an-ansible-module-for-a-rest-api)
-6. [Ansible Videos](#ansible-videos)
-7. [Ansible Playbooks](#ansible-playbooks)
-8. [Ansible Collections](#ansible-collections)
-9. [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
-    1. [Automation services catalog](#automation-services-catalog)
-    2. [Red Hat Certified Ansible Content Collections](#red-hat-certified-ansible-content-collections)
-10. [Ansible Cheat Sheets](#ansible-cheat-sheets)
-11. [Running Ansible Playbooks](#running-ansible-playbooks)
+7. [Ansible Videos](#ansible-videos)
+8. [Ansible Playbooks](#ansible-playbooks)
+9. [Ansible Collections](#ansible-collections)
+10. [Red Hat Ansible Automation Platform](#red-hat-ansible-automation-platform)
+     1. [Automation services catalog](#automation-services-catalog)
+     2. [Red Hat Certified Ansible Content Collections](#red-hat-certified-ansible-content-collections)
+11. [Ansible Cheat Sheets](#ansible-cheat-sheets)
+12. [Running Ansible Playbooks](#running-ansible-playbooks)
      1. [Running Ansible Playbooks From Jenkins](#running-ansible-playbooks-from-jenkins)
      2. [Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower](#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower)
          1. [Tower and AWX Installers](#tower-and-awx-installers)
      3. [Alternatives to Ansible Tower](#alternatives-to-ansible-tower)
-12. [Ansible Kubernetes Operators](#ansible-kubernetes-operators)
-13. [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
-14. [Books](#books)
-15. [Ansible Galaxy Roles](#ansible-galaxy-roles)
-16. [More Ansible Roles](#more-ansible-roles)
-17. [Ansible scripts](#ansible-scripts)
-18. [Ansible with Helm](#ansible-with-helm)
-19. [Awesome Ansible](#awesome-ansible)
-20. [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
-21. [Ansible Kubernetes Module](#ansible-kubernetes-module)
-22. [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
-23. [Dynatrace with Ansible](#dynatrace-with-ansible)
-24. [SQL Server with Ansible](#sql-server-with-ansible)
-25. [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
-26. [Oracle Database with Ansible](#oracle-database-with-ansible)
-27. [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
-28. [Anacron and Ansible](#anacron-and-ansible)
-29. [Tweets](#tweets)
-30. [Videos](#videos)
+13. [Ansible Kubernetes Operators](#ansible-kubernetes-operators)
+14. [Ansible Molecule. Development and Testing of Ansible Roles](#ansible-molecule-development-and-testing-of-ansible-roles)
+15. [Books](#books)
+16. [Ansible Galaxy Roles](#ansible-galaxy-roles)
+17. [More Ansible Roles](#more-ansible-roles)
+18. [Ansible scripts](#ansible-scripts)
+19. [Ansible with Helm](#ansible-with-helm)
+20. [Awesome Ansible](#awesome-ansible)
+21. [Ansible and Public Cloud Guides](#ansible-and-public-cloud-guides)
+22. [Ansible Kubernetes Module](#ansible-kubernetes-module)
+23. [NGINX Core Collection for Ansibe](#nginx-core-collection-for-ansibe)
+24. [Dynatrace with Ansible](#dynatrace-with-ansible)
+25. [SQL Server with Ansible](#sql-server-with-ansible)
+26. [OCI Oracle Cloud Infrastructure with Ansible](#oci-oracle-cloud-infrastructure-with-ansible)
+27. [Oracle Database with Ansible](#oracle-database-with-ansible)
+28. [Ansistrano. Deploying applications with Ansible in Capistrano style](#ansistrano-deploying-applications-with-ansible-in-capistrano-style)
+29. [Anacron and Ansible](#anacron-and-ansible)
+30. [Tweets](#tweets)
+31. [Videos](#videos)
 
 ## Configuration Management with Ansible DevOps Tool
 
@@ -140,11 +141,20 @@
 - [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files/)
 - [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible)
 - [==sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible== 🌟](https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible)
+- [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project/)
+- [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/)
+- [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/)
+- [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/)
 
 ## Ansible AI
 
 - [==ansible.ai==](https://ansible.ai)
 - [redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/technologies/management/ansible/ansible-lightspeed) Red Hat® Ansible® Lightspeed with IBM watsonx Code Assistant helps automation teams learn, create, and maintain Red Hat Ansible Automation Platform content more efficiently.
+
+## Ansible UI
+
+- [==Semaphore UI== 🌟](https://www.semui.co/)
+- [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore/) Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here's how to install the Semaphore graphical user interface.
 
 ## Deploying custom files with Jinja2 templates
 
@@ -291,6 +301,7 @@
 - [PDF: Practical Ansible Testing with Molecule](https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf)
 - [opensource.com: Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule) Learn how to automate your verifications using Python.
 - [medium.com: Test driven Development with Ansible using Molecule](https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac)
+- [tomsitcafe.com: How to test Ansible code with Molecule](https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule/)
 
 ## Books
 
@@ -378,6 +389,8 @@
 
     <center>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to manage Windows hosts with Ansible!<br><br>A Short Thread 👇 <a href="https://t.co/NGRqym4c91">pic.twitter.com/NGRqym4c91</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1629453865308536832?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ansible vs Terraform<br><br>Explaining the differences and the better choice for you!<br><br>A Thread 👇 <a href="https://t.co/maKVIdHXki">pic.twitter.com/maKVIdHXki</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1672637966743896066?ref_src=twsrc%5Etfw">June 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
 
 ## Videos

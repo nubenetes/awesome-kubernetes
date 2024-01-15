@@ -18,6 +18,7 @@
 - [networkwalks.com: TCP/IP Model](https://networkwalks.com/tcp-ip-model/)
 - [devopscube.com: IP Address Tutorial For Beginners [IPV4 and IPV6 Protocols]](https://devopscube.com/ip-address-tutorial/)
 - [medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners in 2022](https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3) These are the best online courses to learn about HTTPS, SSL, and TLS for programmers and developers in 2022
+- [blog.coderco.io: TCP Fundamentals for Software & DevOps Engineers: Building a Strong Foundation in Networking](https://blog.coderco.io/p/tcp-fundamentals-for-software-and)
 
 ## CIDR subnets
 

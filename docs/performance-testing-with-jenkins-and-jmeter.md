@@ -47,6 +47,7 @@
 - [linkedin.com: Tuning Grafana - Jmeter Dashboards](https://www.linkedin.com/pulse/tuning-grafana-jmeter-dashboards-ezhil-arasu/) This article is for performance testers who configured JMeter - influx - Grafana setup or Jmeter - Prometheus - Grafana setup.
 - [gslab.com: How to Optimize Performance Testing with Apache JMeter and Resources Monitoring Using DStat](https://www.gslab.com/blogs/performance-testing-with-Apache-JMeter)
 - [rollno748.medium.com: Load testing GCP Pub/Sub using JMeter](https://rollno748.medium.com/load-testing-gcp-pub-sub-using-jmeter-9eff79440beb)
+- [softwaretestingmagazine.com: Learning JMeter : Documentation, Tutorials, Videos](https://www.softwaretestingmagazine.com/tools/learning-jmeter-documentation-tutorials-videos/)
 
 ## JMeter based Cloud solutions
 

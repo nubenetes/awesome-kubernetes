@@ -123,6 +123,8 @@
 - [medium.com/devops-techable: Setup monitoring with Prometheus and Grafana in Kubernetes — Start monitoring your Kubernetes cluster resources](https://medium.com/devops-techable/setup-monitoring-with-prometheus-and-grafana-in-kubernetes-start-monitoring-your-kubernetes-a3071f083fa6)
 - [thenewstack.io: What Is Container Monitoring?](https://thenewstack.io/what-is-container-monitoring/) Cloud native architectures don’t rely on dedicated hardware like virtualized infrastructure, which changes monitoring requirements and processes.
 - [==devops.com: Why Monitoring-as-Code Will be a Must for DevOps Teams==](https://devops.com/why-monitoring-as-code-will-be-a-must-for-devops-teams/)
+- [medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry for Observability](https://medium.com/cloud-native-daily/why-you-shouldnt-fear-to-adopt-opentelemetry-for-observability-fcb6371ea8fe) An introduction to OpenTelemetry, an open-source project that’s taking observability to a new level.
+- [medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing System Reliability](https://medium.com/@bijit211987/observability-driven-development-2bc2cdde8661)
 
 ### Key Performance Indicator (KPI)
 
@@ -379,6 +381,7 @@ done
     - [faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to Jaeger (5 Part Series)](https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182)
 - [**zipkin.io**](https://zipkin.io/)
     - [javatechonline.com: How To Implement Distributed Logging Tracing Using Sleuth Zipkin](https://javatechonline.com/how-to-implement-distributed-logging-tracing-using-sleuth-zipkin)
+    - [thenewstack.io: Perform Distributed Tracing with Zipkin](https://thenewstack.io/perform-distributed-tracing-with-zipkin/) Open source Zipkin offers a robust set of features that make it easier for developers to understand and optimize complex distributed systems.
 - [**OpenTracing.io**](https://opentracing.io/)
     - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
 - [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/2021/01/25/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance/)
@@ -391,6 +394,7 @@ done
 - [OpenTelemetry.io](https://opentelemetry.io/):
     - **Unified standard** (open, vendor-neutral API), **merge of [OpenCensus.io](https://opencensus.io/) and [OpenTracing.io](https://opentracing.io/)**.
     - “A single set of system components and language-specific telemetry libraries” to standardize how the industry uses metrics, traces, and eventually logs to enable observability.
+    - [signadot.com: Sandboxes in Kubernetes using OpenTelemetry](https://www.signadot.com/blog/sandboxes-in-kubernetes-using-opentelemetry)
     - [dynatrace.com: What is  OpenTelemetry? An open-source standard for logs, metrics, and traces](https://www.dynatrace.com/news/blog/what-is-opentelemetry-2/)
     - [betterprogramming.pub: Distributed Tracing With OpenTelemetry, Spring Cloud Sleuth, Kafka, and Jaeger](https://betterprogramming.pub/distributed-tracing-with-opentelemetry-spring-cloud-sleuth-kafka-and-jaeger-939e35f45821) A step-by-step guide for Distributed Tracing Implementation in Microservices
     - [==logz.io: Beginner’s Guide to OpenTelemetry== 🌟](https://logz.io/learn/opentelemetry-guide/)
@@ -425,6 +429,8 @@ done
 - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
 - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
 - [thenewstack.io: OpenTelemetry Gaining Traction from Companies and Vendors](https://thenewstack.io/opentelemetry-gaining-traction-from-companies-and-vendors/) Elastic and OpenTelemetry will merge standards as more companies embrace OpenTelemetry to improve user experience and cut costs.
+- [thenewstack.io: How OpenTelemetry Works with Kubernetes](https://thenewstack.io/how-opentelemetry-works-with-kubernetes/)
+- [medium.com/@bijit211987: Grafana with OpenTelemetry, Vendor-neutral and open-source approach](https://medium.com/@bijit211987/grafana-with-opentelemetry-vendor-neutral-and-open-source-approach-ab4bc08f67e9)
 
 <center>
 [![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)
@@ -466,6 +472,7 @@ done
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com/)
         - [blog.porter.run: Datadog on Kubernetes: Avoiding Common Pitfalls](https://blog.porter.run/datadog-and-kubernetes/) Install Datadog on Kubernetes and configure additional features like DogStatsD and APM while avoiding common pitfalls.
+        - [dev.to/thenjdevopsguy: Implementing Datadog For Kubernetes](https://dev.to/thenjdevopsguy/implementing-datadog-for-kubernetes-586e)
     - [honeycomb.io](https://www.honeycomb.io)
     - [lightstep.com](https://lightstep.com)
     - [skywalking.apache.org 🌟](https://skywalking.apache.org/)

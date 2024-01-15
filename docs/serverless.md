@@ -149,6 +149,7 @@
 - [versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟](https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications)
 - [developers.redhat.com: Build and deploy microservices with Kubernetes and Dapr](https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr)
 - [dev.to: Running Dapr on Kubernetes](https://dev.to/cvitaa11/running-dapr-on-kubernetes-89g) The distributed application runtime, Dapr, is a portable, event-driven runtime that can run on the cloud or any edge infrastructure. It puts together the best practices for building microservice applications into components called building blocks.
+- [github.com/diagrid-labs/dapr-workflow-demos](https://github.com/diagrid-labs/dapr-workflow-demos)
 
 ## Popular Deployment Frameworks for AWS Lambda
 

@@ -71,3 +71,4 @@
     - zstd compressed container images
     - Seekable OCI for lazy loading container images
 - [medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE or AWS LAMBDA or Both?](https://medium.com/@HirenDhaduk1/best-choice-to-run-your-containers-aws-fargate-or-aws-lambda-or-both-d9e14685a363)
+- [github.com/awslabs/specctl](https://github.com/awslabs/specctl) CLI to convert Kubernetes specifications to ECS Fargate and vice-versa

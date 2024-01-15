@@ -53,6 +53,8 @@
 - [openai.com: Scaling Kubernetes to 7,500 nodes 🌟](https://openai.com/research/scaling-kubernetes-to-7500-nodes) **We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.**
 - [huyenchip.com: Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 - [medium.com/@study.uttam: Main Challenges of Machine Learning](https://medium.com/@study.uttam/main-challenges-of-machine-learning-eb06dffac3da)
+- [learn.microsoft.com: Machine Learning operations maturity model 🌟](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model)
+- [medium.com/ai-hero: Streamlining Machine Learning Operations (MLOps) with Kubernetes and Terraform](https://medium.com/ai-hero/streamlining-machine-learning-operations-with-kubernetes-and-terraform-41baad37998e) Leveraging Terraform to Simplify AWS EKS Cluster Setup for Exploring Declarative ML Tools
 
 ## ML Infra
 
@@ -113,6 +115,7 @@
 - [bea.stollnitz.com: Creating batch endpoints in Azure ML](https://bea.stollnitz.com/blog/aml-batch-endpoint/)
     - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
+- [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c) Accelerate Model Development, Deployment, and Monitoring at Scale
 
 ## KServe Cloud Native Model Server
 
@@ -148,6 +151,7 @@
 - [vaex.io](https://vaex.io) An ML Ready Fast DataFrame for Python
     - https://pypi.org/project/vaex/
 - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists/) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
+- [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
 
 ## Samples
 
@@ -160,6 +164,8 @@
 ## ML Competitions and Challenges
 
 - [Kaggle Competitions](https://www.kaggle.com/competitions)
+- [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)
+    - [Sport Car Price Prediction.ipynb](https://colab.research.google.com/drive/1m6ZjIJBxU20kxI9zTZqeMEVSq1FL0pNa?usp=sharing)
 - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
 
 ## Polls

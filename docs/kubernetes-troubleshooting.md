@@ -88,10 +88,14 @@
 - [levelup.gitconnected.com: Access Kubernetes Objects Data From /Proc Directory 🌟](https://levelup.gitconnected.com/access-kubernetes-objects-data-from-proc-directory-8d2ec6a0faba) **The `/proc` directory is a special directory that holds all the details about our Linux system, such as — kernel, processes, and configuration parameters. In this article, you will learn how to explore the directory in a Kubernetes cluster**
 - [learnitguide.net: How To Troubleshoot Kubernetes Pods](https://www.learnitguide.net/2023/04/how-to-troubleshoot-kubernetes-pods.html)
 - [learnitguide.net: How to Check Memory Usage of a Pod in Kubernetes?](https://www.learnitguide.net/2023/04/how-to-check-memory-usage-of-pod-in.html)
+- [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
+- [thenewstack.io: Kubernetes Troubleshooting Primer](https://thenewstack.io/kubernetes-troubleshooting-primer/) A quick methodology for overcoming common error messages with examples of commands to help — useful for both the administrator and developer alike.
+- [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-debugging-tips)
 
 ## Kubernetes Network Troubleshooting
 
 - [==hwchiu.medium.com: Kubernetes Network Troubleshooting Approach== 🌟](https://hwchiu.medium.com/kubernetes-network-troubleshooting-approach-701de9463493)
+- [itnext.io: Tracing Pod2Pod Network Traffic in Kubernetes | Daniele Polencic](https://itnext.io/tracing-pod-to-pod-network-traffic-in-kubernetes-112523a325b2)
 
 ## Exit Codes in Containers and Kubernetes
 
@@ -121,12 +125,15 @@
 ## Pod in Terminating or Unknown Status
 
 - [tonylixu.medium.com: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://tonylixu.medium.com/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8) K8s Troubleshooting handbook
+- [blog.devgenius.io: K8s Troubleshooting — Pod in Terminating or Unknown Status](https://blog.devgenius.io/k8s-troubleshooting-pod-in-terminating-or-unknown-status-2878f6ec66b8)
 
 ## OOM Kills
 
 - [medium.com/@reefland: Tracking Down “Invisible” OOM Kills in Kubernetes](https://medium.com/@reefland/tracking-down-invisible-oom-kills-in-kubernetes-192a3de33a60) An “Invisible” OOM Kill happens when a child process in a container is killed, not the init process. It is “invisible” to Kubernetes and not detected. What is OOM? well.. not a good thing.
 - [baykara.medium.com: A Gentle Inspection of OOMKilled in Kubernetes](https://baykara.medium.com/a-gentle-inspection-of-oomkilled-in-kubernetes-4b4124cd23a8) Quality of Service in Kubernetes
 - [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/hands_on_lab/k8s-qos-oomkilled) This article discusses how to handle OOMKilled errors and how to configure Pod QoS to avoid them
+- [sysdig.com: Kubernetes OOM and CPU Throttling](https://sysdig.com/blog/troubleshoot-kubernetes-oom/) Troubleshooting Memory and CPU problems. Do you know how memory and CPU usage can affect your cloud applications? In this article, you will discuss Out of Memory (OOM) and Throttling in Kubernetes.
+- [medium.com/@bm54cloud: Stressing a Kubernetes Pod to Induce an OOMKilled Error](https://medium.com/@bm54cloud/stressing-a-kubernetes-pod-to-induce-an-oomkilled-error-96f3be9c931d) Learn about memory requests and limits, and what happens when those limits are exceeded
 
 ## Pause Container
 
@@ -184,6 +191,9 @@
 - [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers/) Learn how to use Ephemeral Containers to debug Kubernetes workloads with and without the kubectl debug command
 - [eminaktas.medium.com: Debug Containerd in Production](https://eminaktas.medium.com/debug-containerd-in-production-fe93ef4e3ce2) In this article, you will learn how you can debug containerd with VSCode in a remote production environment.
 - [medium.com/@alex.ivenin: Exploring ephemeral containers in kubernetes 🌟](https://medium.com/@alex.ivenin/exploring-ephemeral-containers-in-kubernetes-bcceaf21101c) Ephemeral containers, a feature that was introduced in Kubernetes 1.16 as an alpha release, advanced to beta status in version 1.23, and has finally graduated to stable status in Kubernetes 1.25. This capability provides an easy and safe way to debug running containers in a pod, without requiring full access to the underlying node.
+- [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) ctr is a command-line client shipped as part of the containerd project. If you have containerd running on a machine, chances are the ctr binary is also present there.
+- [medium.com/@danielepolencic: Isolating kubernetes pods for debugging](https://medium.com/@danielepolencic/isolating-kubernetes-pods-for-debugging-5fe41e630e9) This article introduces a technique that helps you with debugging running Pods in production by changing labels, you can detach Pods from the Service (no traffic), and you troubleshoot them live
+- [medium.com/adaltas: Kubernetes: debugging with ephemeral containers](https://medium.com/adaltas/kubernetes-debugging-with-ephemeral-containers-e4be659d9ef6) In this article, you will learn how to debug pods using kubectl debug and ephemeral containers
 
 ## Troubleshooting Tools
 
@@ -240,4 +250,6 @@
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I made a tool... to debug containers 🧙‍♂️<br><br>It&#39;s like &quot;docker exec&quot;, but it works even for containers without a shell (scratch, distroless, slim, etc).<br><br>The &quot;cdebug exec&quot; command allows you to bring your own toolkit and start a shell inside of a running container.<br><br>A short demo 👇 <a href="https://t.co/82m4vzPYJr">pic.twitter.com/82m4vzPYJr</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1584244173347074049?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">There is a Kubernetes deployment which processes items from a queue. Most items are very small and completed immediately. Occasionally a whopping big item comes along and causes an OOMKill. Retries don&#39;t help for obvious reasons.<br><br>How would you solve it?</p>&mdash; Natan Yellin (@aantn) <a href="https://twitter.com/aantn/status/1597653772255346691?ref_src=twsrc%5Etfw">November 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How does Pod to Pod communication work in Kubernetes?<br><br>How does the traffic reach the pod?<br><br>Let&#39;s dive into how low-level networking works in Kubernetes. <a href="https://t.co/K8bBT8YiOf">pic.twitter.com/K8bBT8YiOf</a></p>&mdash; Daniele Polencic — @danielepolencic@hachyderm.io (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1655540892365889538?ref_src=twsrc%5Etfw">May 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>

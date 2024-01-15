@@ -42,6 +42,7 @@
 - [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) - [original article - javarevisited.blogspot.com](https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html#axzz7e91Wjl6y)
 - [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices/)
 - [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips/)
+- [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)
 
 ### Java on Kubernetes. Java Memory Arguments for Containers
 

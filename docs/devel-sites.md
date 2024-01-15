@@ -46,6 +46,7 @@
 - [==freecodecamp.org: What is a Full Stack Developer? 2022 Full Stack Engineer Guide==](https://www.freecodecamp.org/news/what-is-a-full-stack-developer-full-stack-engineer-guide/) Full stack developers are in high demand in today's job market. But what does "full stack" actually mean, and what skills do you need to have? In this detailed guide, Dionysia explains what a full stack dev is, and what you should learn to become one.
 - [dev.to: 10 best GitHub repos for developers](https://dev.to/mariamarsh/10-best-github-repos-for-developers-5gmp)
 - [dev.to: 5 Books and Courses to Learn Object Oriented Programming in Depth](https://dev.to/javinpaul/5-books-and-courses-to-learn-object-oriented-programming-in-depth-4kff)
+- [trio.dev: Angular vs React: Is Angular Dead?](https://www.trio.dev/react/resources/angular-vs-react)
 
 ## Design Patterns
 

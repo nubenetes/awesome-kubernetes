@@ -78,3 +78,4 @@
 ## Airflow
 
 - [feluelle/airflow-diagrams](https://github.com/feluelle/airflow-diagrams) Auto-generated Diagrams from Airflow DAGs
+- [medium.com/contino-engineering: Data Pipeline Orchestration - Using Amazon Managed Workflows for Apache Airflow (MWAA)](https://medium.com/contino-engineering/data-pipeline-orchestration-using-amazon-managed-workflows-for-apache-airflow-mwaa-60e5b213a0a7)

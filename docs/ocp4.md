@@ -70,6 +70,7 @@
 31. [Scripts](#scripts)
 32. [Slides](#slides)
 33. [Tweets](#tweets)
+34. [Videos](#videos)
 
 ## OpenShift Container Platform 4 (OCP 4)
 
@@ -153,6 +154,8 @@
 - [==dev.to: Deep Dive into AWS OIDC identity provider when installing OpenShift using manual authentication mode with STS==](https://dev.to/mtulio/deep-dive-into-aws-oidc-identity-provider-when-installing-openshift-with-iam-sts-manual-sts-support-1bo7)
 - [venturebeat.com: Red Hat gives an ARM up to OpenShift Kubernetes operations](https://venturebeat.com/data-infrastructure/red-hat-gives-an-arm-up-to-openshift-kubernetes-operations/)
 - [==redhat.com: Planning your migration from Red Hat OpenShift 3 to 4==](https://www.redhat.com/architect/openshift-4-migration) With OpenShift 3 nearing its end of life, now is the time to start planning your migration to OpenShift 4. These three steps will ease the journey.
+- [redhat.com: Red Hat OpenShift Platform Plus](https://www.redhat.com/en/technologies/cloud-computing/openshift/platform-plus)
+- [==blog.knell.it: Commands Kubernetes should adopt from Red Hat OpenShift==](https://blog.knell.it/commands-kubernetes-should-adopt-from-red-hat-openshift/) Working with Kubernetes would become easier and more efficient with support for these handy OpenShift commands.
 
 ### OpenShift Guide
 
@@ -836,5 +839,15 @@ oc login
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The GUI with <a href="https://twitter.com/openshift?ref_src=twsrc%5Etfw">@openshift</a> that shows services, and connections between pods, is so cool. Such a great tool to help understand whats happening instead of a bazillion <a href="https://twitter.com/hashtag/CuddleKube?src=hash&amp;ref_src=twsrc%5Etfw">#CuddleKube</a> commands! <a href="https://twitter.com/hashtag/CFD12?src=hash&amp;ref_src=twsrc%5Etfw">#CFD12</a> <a href="https://t.co/3XQjScS6TM">pic.twitter.com/3XQjScS6TM</a></p>&mdash; Nathan Bennett (@vNathanBennett) <a href="https://twitter.com/vNathanBennett/status/1456342084873441280?ref_src=twsrc%5Etfw">November 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+
+## Videos
+
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=lcNpoHI7TaORLgPV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </details>

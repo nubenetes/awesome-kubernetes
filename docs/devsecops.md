@@ -200,6 +200,8 @@
 - [acloudguru.com: Cloud security risks: Why you should make apps Secure by Design](https://acloudguru.com/blog/engineering/cloud-apps-secure-by-design)
 - [medium.com/google-cloud: Shifting (even further) Left on Kubernetes Resource Compliance](https://medium.com/google-cloud/shifting-even-further-left-on-kubernetes-resource-compliance-8f96fb8c72eb) Shifting left can help organizations optimize their use of fully-managed cloud environments and managed services, and tools like Open Policy Agent and Gatekeeper can help organizations ensure compliance in these environments
 - [hmaslowski.com: macOS Security hardening with Microsoft Intune](https://hmaslowski.com/home/f/macos-security-hardening-with-microsoft-intune)
+- [kubewarden.io: Scanning secrets in environment variables](https://www.kubewarden.io/blog/2022/10/env-var-secrets/) This tutorial will teach you how to scan secrets in environment variables using Kubewarden and the  env-variable-secrets-scanner-policy
+- [dzone.com: How To Manage Vulnerabilities in Modern Cloud-Native Applications](https://dzone.com/articles/how-to-manage-vulnerabilities-in-modern-cloud-nati) The article describes how to secure cloud-native applications to identify, manage, and remediate vulnerabilities across the tech stack and ways of integrating security.
 
 ## Kubernetes Security Compliance Frameworks
 
@@ -228,6 +230,7 @@
 - [cncf.io: Seven zero trust rules for Kubernetes](https://www.cncf.io/blog/2022/11/04/seven-zero-trust-rules-for-kubernetes/)
 - [rtinsights.com: Implementing Zero Trust for Kubernetes](https://www.rtinsights.com/implementing-zero-trust-for-kubernetes/)
 - [cisecurity.org: Where Does Zero Trust Begin and Why is it Important?](https://www.cisecurity.org/insights/blog/where-does-zero-trust-begin-and-why-is-it-important)
+- [devops.com: DevOps Security: Your Complete Checklist](https://devops.com/devops-security-your-complete-checklist)
 
 ## Authentication and Authorization
 
@@ -238,6 +241,7 @@
 
 - [medium.com/getindata-blog: OAuth2-based authentication on Istio-powered Kubernetes clusters 🌟](https://medium.com/getindata-blog/oauth2-based-authentication-on-istio-powered-kubernetes-clusters-2bd0999b7332) Starting with Envoy 1.17, authentication and authorization to Istio clusters don't require setting up external services if you decide to use OAuth2 Learn how it works in this hands-on tutorial.
 - [==oauth2-proxy/oauth2-proxy: OAuth2 Proxy== 🌟](https://github.com/oauth2-proxy/oauth2-proxy) A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
+- [manfredmlange.medium.com: Containerized Keycloak in Development](https://manfredmlange.medium.com/containerized-keycloak-in-development-2f9d079ec4a3) How to set up an OpenID Connect compliant development environment with Docker?
 
 ## Quality Gates
 
@@ -627,6 +631,7 @@
 ### Container security best practices
 
 - [sysdig.com: Container security best practices: Ultimate guide 🌟](https://sysdig.com/blog/container-security-best-practices)
+- [dzone: A Practical Guide for Container Security](https://dzone.com/articles/a-practical-guide-for-container-security) Explore container security's fundamental principles and strategies, learn 2 specific methods, and examine tools and techniques for securing keys, tokens, and passwords.
 
 ## Pod Security Policies
 
@@ -680,6 +685,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 ## Other Security Tools
 
 - [itnext.io: Top 6 Threat Detection Tools for Containers](https://itnext.io/top-6-threat-detection-tools-for-containers-3dd80b77777e) Essentials to Securing Threats for Containerized Cloud-Native Applications
+- [thenewstack.io: AWS Open Sources Security Tools](https://thenewstack.io/aws-open-sources-security-tools/) AWS is open sourcing its Cedar policy language and authorization engine and Snapchange, an open source snapshot-based fuzzing tool.
 
 ### Torq. No code Security Automation
 
@@ -754,6 +760,9 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 - [==socket.dev: Introducing Socket==](https://socket.dev/blog/introducing-socket) Socket's mission is to make open source safer. A platform that protects your most critical apps from software supply chain attacks.
 - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad/)
 - [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper/) 🔥 🔥 Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more. 🔥 🔥 ThreatMapper hunts for vulnerabilities in your production platforms and ranks these vulnerabilities based on their risk of exploitation. You can then prioritize the issues that present the greatest risk to the security of your applications.
+- [github.com/goauthentik/authentik](https://github.com/goauthentik/authentik) authentik is an open-source Identity Provider focused on flexibility and versatility
+- [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec) open-appsec provides preemptive web app & API threat protection against OWASP-Top-10 and zero-day attacks. It can be deployed as an add-on to Kubernetes Ingress, NGINX, Envoy and API Gateways.
+- [==Microsoft Security Copilot==](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot)
 
 ## Videos
 

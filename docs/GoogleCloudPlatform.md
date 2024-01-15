@@ -38,13 +38,14 @@
 - [cloud.google.com: Training more than 40 million new people on Google Cloud skills](https://cloud.google.com/blog/topics/training-certifications/google-cloud-to-train-more-than-40-million-with-cloud-skills)
     - [Google Cloud Skills Boost](https://inthecloud.withgoogle.com/free-training-21/register.html)
 - [==cloud.google.com: Microservices architecture on Google Cloud==](https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud)
+- [cloud.google.com: How to get started with Google Cloud: Introducing our new learning hub and learning benefits for Innovators](https://cloud.google.com/blog/topics/training-certifications/new-learning-hub-and-benefits-for-google-cloud-innovators)
 
 ## Google Cloud
 
 - [New Cloud Shell Editor: Get your first cloud-native app running in minutes](https://cloud.google.com/blog/products/application-development/introducing-cloud-shell-editor)
 - [techradar.com: Google Cloud is making it easier for developers to smuggle ‘secrets’ in their code](https://www.techradar.com/news/google-cloud-is-making-it-easier-for-developers-to-smuggle-secrets-in-their-code) Google Cloud wants to make building secure applications simpler
 - [venturebeat.com: Google Cloud announces Network Connectivity Center to simplify hybrid cloud management](https://venturebeat.com/2021/03/23/google-cloud-announces-network-connectivity-center-to-simplify-hybrid-cloud-management)
-- [cloud.google.com: Demystifying Cloud Spanner multi-region configurations](https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations) Cloud Spanner remains unique as a managed relational database that scales across regions while maintaining strong consistency. How does the regional and multi-regional setup differ? 
+- [cloud.google.com: Demystifying Cloud Spanner multi-region configurations](https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations) Cloud Spanner remains unique as a managed relational database that scales across regions while maintaining strong consistency. How does the regional and multi-regional setup differ?
 - [cloud.google.com: Compare AWS and Azure services to Google Cloud](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
 - [thecloudgirl.dev: What is Google Cloud Load Balancing?](https://thecloudgirl.dev/CLB.html)
 - [cloud.google.com: Secret Manager Best Practices](https://cloud.google.com/secret-manager/docs/best-practices)
@@ -73,7 +74,7 @@
 - [cloud.google.com: DevOps and CI/CD on Google Cloud explained](https://cloud.google.com/blog/topics/developers-practitioners/devops-and-cicd-google-cloud-explained)
 - [cloud.google.com: What is Cloud CDN and how does it work?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-cdn-and-how-does-it-work)
 - [==networkmanagementsoftware.com: Google Cloud Platform (GCP) Networking Fundamentals==](https://www.networkmanagementsoftware.com/google-cloud-platform-gcp-networking-fundamentals/)
-- [==cloud.google.com: Service Directory cheat sheet==](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet) Fact: Most enterprises have a large number of heterogeneous services deployed across different clouds and on-premises environments. Fact: It is complex to look up, publish, and connect these services. Fact: Service Directory can help. 
+- [==cloud.google.com: Service Directory cheat sheet==](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet) Fact: Most enterprises have a large number of heterogeneous services deployed across different clouds and on-premises environments. Fact: It is complex to look up, publish, and connect these services. Fact: Service Directory can help.
 
 ## Dev Library
 
@@ -91,7 +92,7 @@
 
 ## Google Cloud AppSheet
 
-- [Google Cloud AppSheet](https://cloud.google.com/appsheet) 
+- [Google Cloud AppSheet](https://cloud.google.com/appsheet)
 - [infoworld.com: Google Cloud AppSheet review: No-code with extras](https://www.infoworld.com/article/3640975/google-cloud-appsheet-review-no-code-with-extras.html) Google’s easy no-code app builder lets you add functionality with spreadsheet formulas and expressions, and even apply machine learning models.
 
 ## Cloud Spanner
@@ -110,7 +111,7 @@
 - [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform/)
 - [itnext.io: Anthos — Multi-cluster Management](https://itnext.io/anthos-multi-cluster-management-aa6f2c03120d)
 - [itnext.io: Ingress for Anthos — Multi-cluster Ingress and Global Service Load Balancing](https://itnext.io/ingress-for-anthos-multi-cluster-ingress-and-global-service-load-balancing-c56c57b97e82)
-- [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/solutions/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud. 
+- [A hybrid cloud-native DevSecOps pipeline with JFrog Artifactory and GKE on-prem 🌟](https://cloud.google.com/solutions/partners/a-hybrid-cloud-native-devsecops-pipeline-with-jfrog-artifactory-and-gke-on-prem) Running in a hybrid environment means that some of your processing happens on Google Cloud and other processing remains on-premises. Anthos helps you manage both an on-premises Kubernetes cluster and a cluster running on Google Cloud.
 - [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) Windows container support to GKE on-premises through Anthos.
 - [cloud.google.com: Anthos makes multi-cloud easier with new API, support for Azure](https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-anthos-multicloud-api-and-gke-on-azure-ga)
 - [medium.com/google-cloud: Anthos-at-Home: Spinning Up a Bare-Metal Anthos Cluster on Dumpster Servers](https://medium.com/google-cloud/anthos-at-home-spinning-up-a-bare-metal-anthos-cluster-on-dumpster-servers-5bcef301cfa5) In this article, you will learn the capabilities of Anthos on bare metal and find a detailed guide and explanation on how to do it yourself

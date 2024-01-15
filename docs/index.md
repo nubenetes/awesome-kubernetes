@@ -92,6 +92,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [The Next Kubernetes Management Frontier: Automation](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) Automation Is No Longer a “Nice to Have”
 - [redis.com: Microservice Architecture Key Concepts](https://redis.com/blog/microservice-architecture-key-concepts/)
 - [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/)
+- [Software Deployment Best Practices in 2023](https://dzone.com/articles/software-deployment-best-practices) Explore the best software development practices that are the proven catalysts for innovation and growth.
+- [==DevOps-Books== 🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
@@ -315,12 +317,17 @@ A curated list of awesome references collected since 2018. Microservices archite
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxLbUzIJtyeKPi66qAvxxRlGbofYp_Gr8B&amp;clipt=EIDy0gIY4MbWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8pDqJVdNa44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HDKUEXBF3B4?si=PZ1gcK9yEyR4_tmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PxyyY7TsCqs?si=kzCRojDteESqork1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dV3wAe8HV7Q?si=DIgTu2lCXZDN9JSu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </center>
 

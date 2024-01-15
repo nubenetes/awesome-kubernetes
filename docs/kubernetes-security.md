@@ -142,6 +142,7 @@
 - [dev.to/pavanbelagatti: Kubernetes Security Best Practices For Developers](https://dev.to/pavanbelagatti/kubernetes-security-best-practices-for-developers-2b92)
 - [==itnext.io: Journey Of A Microservice Application In The Kubernetes World== 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) Security considerations: security related tools. In this article, you will discuss some security considerations and see how you can ensure (at least to some extent) that the application's specifications follow some of the best security practices.
 - [tutorialboy24.blogspot.com: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 2) 🌟](https://tutorialboy24.blogspot.com/2022/09/a-detailed-talk-about-k8s-cluster.html) In this 2-part series, you will address 12 common attack points in Kubernetes clusters and discuss various risks in cloud-native scenarios based on practical experience
+- [medium.com/cloudyrion: Kubernetes end-to-end chain exploit](https://medium.com/cloudyrion/kubernetes-end-to-end-chain-exploit-c2be32688fd0) This article details the security flaws discovered in Kubernetes and GitOps tools due to improper configurations. It also demonstrates how an attacker could perform post-exploitation attacks, increasing their privileges and the attack surface.
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
@@ -153,6 +154,7 @@
 - [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview/)
 - [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview/)
 - [curity.io: Client Security](https://curity.io/resources/client-security/) Client security primarily covers web and mobile, to ensure best security in the browser and on devices
+- [dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container](https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752) In this tutorial, you will learn how to use oauth2-proxy as a sidecar container to authorize requests to your Identity Provider of choice
 
 ## Securing Kubernetes Deployments
 
@@ -300,6 +302,9 @@
 - [medium.com/@knoldus: Using sealed secrets in Kubernetes](https://medium.com/@knoldus/using-sealed-secrets-in-kubernetes-7f7518d4c984)
     - [medium.com/@knoldus: Introduction to sealed secrets in Kubernetes](https://medium.com/@knoldus/introduction-to-sealed-secrets-in-kubernetes-7857b361a845)
 - [eminalemdar.medium.com: Cloud Native Secret Management with External Secrets Operator](https://eminalemdar.medium.com/cloud-native-secret-management-with-external-secrets-operator-2912f41f9c49)
+- [piotrminkowski.com: Sealed Secrets on Kubernetes with ArgoCD and Terraform](https://piotrminkowski.com/2022/12/14/sealed-secrets-on-kubernetes-with-argocd-and-terraform/) In this article, you will learn how to manage secrets securely on Kubernetes in the GitOps approach using Sealed Secrets, ArgoCD, and Terraform
+- [medium.com/google-cloud: Handle Kubernetes Secrets the GitOps Way — Part 1](https://medium.com/google-cloud/handle-kubernetes-secrets-the-gitops-way-part-1-7079bd8221f3)
+- [dev.to: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 1)](https://dev.to/tutorialboy/a-detailed-talk-about-k8s-cluster-security-from-the-perspective-of-attackers-part-1-3mm5) This 2-part series summarizes the methods and experience of attacking Kubernetes components, external services of nodes, business pods, and container escaping, including lateral attacks, as well as attacks on the Kubernetes management platform
 
 ## Kubernetes Cert-Manager. Encrypting the certificate for Kubernetes. SSL certificates with Let's Encrypt in Kubernetes Ingress via cert-manager
 
@@ -319,11 +324,13 @@
 - [itnext.io: Upgrade Cert-Manager for Your Production Deployment Without Downtime](https://itnext.io/upgrade-cert-manager-for-your-production-deployment-without-downtime-ee5d32fabec8) When upgrading Cert-Manager, it's often required to update the CRDs. Unfortunately, it's not a straightforward process. In this article, you'll learn a few options that ensure a smooth Cert-Manager upgrade to avoid downtime of production deployment.
 - [==faun.pub: Let’s encrypt and CertManager==](https://faun.pub/lets-encrypt-and-certmanager-aa88775730b8) How to use CertManager and Let’s encrypt in Kubernetes
 - [armin.su: SSL certificates from Let’s Encrypt for Kubernetes Private Ingress via Terraform](https://armin.su/ssl-certificates-from-lets-encrypt-for-kubernetes-private-ingress-via-terraform-c9f595ee65fa)
+- [==dev.to: Kubernetes TLS, Demystified== 🌟](https://dev.to/otomato_io/possible-paths-2hfc)
 
 ## Kubernetes OpenID Connect OIDC
 
 - [gini/dexter](https://github.com/gini/dexter) dexter is an OIDC (OpenId Connect) helper designed to create a hassle-free Kubernetes login experience powered by Google or Azure as Identity Provider. All you need is a properly configured Google or Azure client ID & secret
 - [betterprogramming.pub: Kubernetes Authentication Sidecars: A Revelation in Microservice Architecture](https://betterprogramming.pub/kubernetes-authentication-sidecars-a-revelation-in-microservice-architecture-12c4608189ab) A history of authentication and how to solve authentication in a reusable way using sidecar containers in Kubernetes
+- [blog.devgenius.io: SSO Authentication for Applications in Kubernetes](https://blog.devgenius.io/sso-authentication-for-applications-in-kubernetes-aedc3c189d89) This post discusses using SSO authentication and authorization to secure apps in Kubernetes. The tutorial uses Dex and Traefik Forward Auth (or Oauth2-Proxy) to add additional security to ingresses or apps that do not support built-in OIDC
 
 ### OAuth2 Proxy
 
@@ -388,6 +395,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [dev.to: Configure RBAC in Kubernetes Like a Boss](https://dev.to/mstryoda/configure-rbac-in-kubernetes-like-a-boss-h67) You will configure RBAC both with kubectl and yaml definitions.
 - [raesene.github.io: Auditing RBAC - Redux](https://raesene.github.io/blog/2022/08/14/auditing-rbac-redux/) The challenges of auditing Kubernetes authorization. Auditing Kubernetes authorization can be a bit of a tricky task. In this article, you will learn what techniques and tools you can use to identify, reassign and manage RBAC rules in your cluster.
 - [goteleport.com: A Simple Overview of Authentication Methods for Kubernetes Clusters](https://goteleport.com/blog/kube-authn-methods/)
+- [medium.com/@mehmetodabashi: Authentication and Authorization in Kubernetes: Client Certificates and Role Based Access Control (RBAC)](https://medium.com/@mehmetodabashi/authentication-and-authorization-in-kubernetes-client-certificates-and-role-based-access-control-d4e98a3c1098) In this tutorial, you'll learn how to authenticate and authorize a user to access Kubernetes Clusters with client certificates
 
 ### Tools
 

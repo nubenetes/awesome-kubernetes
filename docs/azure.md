@@ -1,63 +1,70 @@
 # Microsoft Azure
 
 1. [Azure](#azure)
-2. [Microsoft REST API Guidelines](#microsoft-rest-api-guidelines)
-3. [Azure Quick Review](#azure-quick-review)
-4. [New Features](#new-features)
-5. [Blogs](#blogs)
-6. [Azure Training and Certifications](#azure-training-and-certifications)
-7. [Azure Naming Convention](#azure-naming-convention)
-8. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
-9. [Understand Azure Load Balancing](#understand-azure-load-balancing)
-10. [Azure Load Testing](#azure-load-testing)
-11. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
-12. [Azure Patterns](#azure-patterns)
-13. [ARM Templates](#arm-templates)
-14. [Azure DevOps](#azure-devops)
+2. [Azure Mindmap](#azure-mindmap)
+3. [Azure Policy Best Practices](#azure-policy-best-practices)
+4. [Azure Sandbox](#azure-sandbox)
+5. [Microsoft REST API Guidelines](#microsoft-rest-api-guidelines)
+6. [Azure Quick Review](#azure-quick-review)
+7. [New Features](#new-features)
+8. [Blogs](#blogs)
+9. [Azure Training and Certifications](#azure-training-and-certifications)
+10. [Azure Naming Convention](#azure-naming-convention)
+11. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
+12. [Understand Azure Load Balancing](#understand-azure-load-balancing)
+13. [Azure Load Testing](#azure-load-testing)
+14. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
+15. [Azure Patterns](#azure-patterns)
+16. [ARM Templates](#arm-templates)
+17. [DevTest](#devtest)
+18. [Azure DevOps](#azure-devops)
      1. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      2. [Azure Pipeline Tasks](#azure-pipeline-tasks)
      3. [Azure DevOps Snippets](#azure-devops-snippets)
-15. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn)
+19. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn-microsoft-entra)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
-16. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
-17. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
-18. [Azure App Service](#azure-app-service)
-19. [Azure Application Gateway](#azure-application-gateway)
-20. [Azure Functions](#azure-functions)
-21. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
-22. [Mobile Apps](#mobile-apps)
-23. [Powershell](#powershell)
+20. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
+21. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
+22. [Azure App Service](#azure-app-service)
+23. [Azure Application Gateway](#azure-application-gateway)
+24. [Azure Functions](#azure-functions)
+25. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
+26. [Mobile Apps](#mobile-apps)
+27. [Powershell](#powershell)
      1. [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
      2. [Powershell repos](#powershell-repos)
      3. [Crescendo powershell module](#crescendo-powershell-module)
      4. [Secrets Management with Powershell](#secrets-management-with-powershell)
      5. [Azure Resource Inventory](#azure-resource-inventory)
-24. [Azure CLI. AZ CLI](#azure-cli-az-cli)
-25. [Azure Run Command](#azure-run-command)
-26. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
-27. [Azure Bicep](#azure-bicep)
-28. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
-29. [Azure Traffic Manager](#azure-traffic-manager)
-30. [Azure DNS](#azure-dns)
-31. [Azure OpenVPN](#azure-openvpn)
-32. [Azure Security](#azure-security)
-33. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-34. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-35. [Windows 11](#windows-11)
-36. [Azure API Management](#azure-api-management)
-37. [Azure Container Apps](#azure-container-apps)
-38. [Azure Container Instances](#azure-container-instances)
-39. [Windows Server Container Host](#windows-server-container-host)
-40. [Disaster Recovery](#disaster-recovery)
-41. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-42. [Azure Healthcare Data Services](#azure-healthcare-data-services)
-43. [Office 365](#office-365)
-44. [Azure Books](#azure-books)
-45. [Azure OpenAI](#azure-openai)
-46. [Images](#images)
-47. [Videos](#videos)
-48. [Tweets](#tweets)
+28. [Azure CLI. AZ CLI](#azure-cli-az-cli)
+29. [Azure Run Command](#azure-run-command)
+30. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
+31. [Azure Bicep](#azure-bicep)
+32. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
+33. [Azure Traffic Manager](#azure-traffic-manager)
+34. [Azure DNS](#azure-dns)
+35. [Azure OpenVPN](#azure-openvpn)
+36. [Azure Security](#azure-security)
+37. [Azure Virtual WAN. vWAN](#azure-virtual-wan-vwan)
+38. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+39. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+40. [Windows 11](#windows-11)
+41. [Azure API Management](#azure-api-management)
+42. [Azure Container Apps](#azure-container-apps)
+43. [Azure Container Instances](#azure-container-instances)
+44. [Azure Container Storage](#azure-container-storage)
+45. [Windows Server Container Host](#windows-server-container-host)
+46. [Disaster Recovery](#disaster-recovery)
+47. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+48. [Azure Healthcare Data Services](#azure-healthcare-data-services)
+49. [Office 365](#office-365)
+50. [Azure Books](#azure-books)
+51. [Azure OpenAI](#azure-openai)
+52. [Windows Tools](#windows-tools)
+53. [Images](#images)
+54. [Videos](#videos)
+55. [Tweets](#tweets)
 
 ## Azure
 
@@ -97,6 +104,22 @@
 - [returngis.net: Monitorizar aplicación Java con Spring Boot con Azure Application Insights](https://www.returngis.net/2023/04/monitorizar-aplicacion-java-con-spring-boot-con-azure-application-insights/)
 - [medium.com/awesome-azure: Azure — Most Useful Azure Services Every Developer Must Know](https://medium.com/awesome-azure/azure-most-useful-azure-services-every-developer-must-know-top-azure-paas-serverless-services-developer-c55b829ac6d7)
 - [returngis.net: Invitar a usuarios externos a un tenant de Azure AD a través de Microsoft Graph y Azure CLI](https://www.returngis.net/2023/04/invitar-a-usuarios-externos-a-un-tenant-de-azure-ad-a-traves-de-microsoft-graph-y-azure-cli)
+- [==learn.microsoft.com: Choose an Azure compute service== 🌟🌟](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+- [nwktimes.blogspot.com: NVA Part IV: NVA Redundancy with Azure Internal Load Balancer](https://nwktimes.blogspot.com/2023/06/azure-ilb-for-nva-ha.html)
+- [==azure.microsoft.com: Choose the best global distribution solution for your applications with Azure==](https://azure.microsoft.com/en-us/blog/choose-the-best-global-distribution-solution-for-your-applications-with-azure/)
+
+## Azure Mindmap
+
+- [github.com/sajeetharan/azure-mindmap](https://github.com/sajeetharan/azure-mindmap) Solution Architecture Patterns and Checklists Mind Map for beginners on Azure
+    - [Azure Fundamentals: AZ-900.pdf](https://github.com/sajeetharan/azure-mindmap/blob/master/azure-fundamentals/AZ-900.pdf)
+
+## Azure Policy Best Practices
+
+- [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)
+
+## Azure Sandbox
+
+- [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
 
 ## Microsoft REST API Guidelines
 
@@ -111,6 +134,8 @@
 - [==azure.microsoft.com: General availability: Azure Bastion native client support==](https://azure.microsoft.com/en-gb/updates/general-availability-azure-bastion-native-client-support/)
 - [azure.microsoft.com: Generally available: SFTP support for Azure Blob Storage](https://azure.microsoft.com/en-us/updates/sftp-support-for-azure-blob-storage-now-generally-available/)
 - [azure.microsoft.com: Generally Available: Durable Functions support of managed identity for Azure Storage](https://azure.microsoft.com/en-gb/updates/generally-available-durable-functions-support-of-managed-identity-for-azure-storage/) Azure Durable Functions support of managed identity for Azure Storage is now generally available! Instead of embedding secrets in connection strings, you can use an identity-based connection to access Azure Storage. The identity is managed by the Azure platform and does not require you to provision or rotate any secrets. See [quickstart](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-configure-durable-functions-with-credentials) on how to configure managed identity for Azure Storage in your Durable Functions app.
+- [Generally available: Azure Bastion now support shareable links](https://azure.microsoft.com/en-us/updates/generally-available-azure-bastion-shareable-links/)
+- [theregister.com: Microsoft has made Azure Linux generally available. Repeat, Azure Linux](https://www.theregister.com/2023/05/26/microsoft_azure_linux_container/) Come for the Kubernetes, stay for the containers
 
 ## Blogs
 
@@ -165,6 +190,10 @@
 - [thomasmaurer.ch: Learn how to deploy and manage Azure resources with ARM templates](https://www.thomasmaurer.ch/2020/12/learn-how-to-deploy-and-manage-azure-resources-with-arm-templates/)
 - [techcommunity.microsoft.com: ARM Template Specs now GA!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-template-specs-now-ga/ba-p/2402618)
 - [docs.microsoft.com: Azure Resource Manager template specs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs)
+
+## DevTest
+
+- [learn.microsoft.com: DevTest and DevOps for microservice solutions](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/dev-test-microservice)
 
 ## Azure DevOps
 
@@ -238,7 +267,7 @@
     displayName: 'Post comment with Terraform Plan'
     ```
 
-## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN
+## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra
 
 - [==stackoverflow.com: What is the difference between an Azure tenant and Azure subscription?==](https://stackoverflow.com/questions/47307368/what-is-the-difference-between-an-azure-tenant-and-azure-subscription)
 - [==marckean.com: Azure Vs Azure AD – Accounts / Tenants / Subscriptions==](https://marckean.com/2016/06/01/azure-vs-azure-ad-accounts-tenants-subscriptions/)
@@ -253,6 +282,7 @@
 - [==techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset!== 🌟](https://techcommunity.microsoft.com/t5/azure/dynamic-user-membership-rules-azure-active-directory/m-p/3281164)
 - [learn.microsoft.com: Application registration permissions for custom roles in Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/roles/custom-available-permissions)
 - [==learn.microsoft.com: What are Azure Active Directory recommendations?== 🌟🌟](https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/overview-recommendations)
+- [==learn.microsoft.com: Multi-tenant user management introduction==](https://learn.microsoft.com/en-us/entra/architecture/multi-tenant-user-management-introduction)
 
 ### Register applications in Azure AD. Authenticate apps and services
 
@@ -376,6 +406,8 @@
     - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/PowerShell-Scripts/tree/master/OperationalCollections) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
     - [docs.microsoft.com: Introduction to Collections in Configuration Manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-r2/gg682177(v=technet.10))
 - [==github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts==](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) Microsoft Signed PowerShell scripts
+- [shudnow.io](https://www.shudnow.io) - [github.com/ElanShudnow/AzureCode](https://github.com/ElanShudnow/AzureCode) A place to share all the Azure Code I am writing. This includes PowerShell, Terraform, ARM, Bicep, Ansible, etc...
+    - [github.com/ElanShudnow/AzureCode: AzVNETOverlap.ps1](https://github.com/ElanShudnow/AzureCode/blob/main/PowerShell/AzVNETOverlap/README.md) This script creates will output any VNET that overlaps with another VNET.
 
 ### Crescendo powershell module
 
@@ -416,6 +448,8 @@
 - [Bicep](https://github.com/Azure/bicep) Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
 - [faun.pub: From Terraform to Azure Bicep: What You Need to Know about syntax](https://faun.pub/from-terraform-to-azure-bicep-what-you-need-to-know-bb1c404b7603)
 - [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on/ba-p/3802069)
+- [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas/ba-p/3804348)
+- [blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ](https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ/)
 
 ## Azure Cross region Load Balancer
 
@@ -440,6 +474,11 @@
 - [==devops.com: DevSecOps in Azure==](https://devops.com/devsecops-in-azure/)
 - [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture](https://learn.microsoft.com/en-us/training/paths/sc-100-design-zero-trust-strategy-architecture/)
     - https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect
+- [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview)
+
+## Azure Virtual WAN. vWAN
+
+- [Azure Virtual WAN introduces its first SaaS offering](https://azure.microsoft.com/en-us/blog/azure-virtual-wan-introduces-its-first-saas-offering/)
 
 ## Data Ingestion. Azure Data Factory
 
@@ -476,6 +515,7 @@
 
 - [azure.microsoft.com: Azure API Management](https://azure.microsoft.com/en-us/services/api-management)
 - [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management/)
+- [github.com/Azure-Samples/api-management-workspaces-migration: Azure API Management workspaces migration tool](https://github.com/Azure-Samples/api-management-workspaces-migration) Tooling to ease migration of Azure API Management service-level resources to workspaces.
 
 ## Azure Container Apps
 
@@ -488,6 +528,10 @@
 
 - [azure.microsoft.com: Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/) Launch containers with hypervisor isolation
 - [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances/)
+
+## Azure Container Storage
+
+- [techcommunity.microsoft.com: Azure Container Storage in Public Preview](https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-container-storage-in-public-preview/ba-p/3819246)
 
 ## Windows Server Container Host
 
@@ -528,11 +572,16 @@
 
 - [==azure.microsoft.com: Azure for Architects, Third Edition==](https://azure.microsoft.com/en-us/resources/azure-for-architects/)
 - [dev.to/javinpaul: 7 Free Courses to Learn Microsoft Azure Cloud Platform](https://dev.to/javinpaul/7-free-courses-to-learn-microsoft-azure-cloud-platform-bg4)
+- [github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook](https://github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook)
 
 ## Azure OpenAI
 
 - [infoworld.com: Getting started with Azure OpenAI](https://www.infoworld.com/article/3686694/getting-started-with-azure-openai.html) Microsoft’s Azure-hosted OpenAI language models are now generally available, and it’s surprisingly simple to use them in your code.
 - [jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How](https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how/)
+
+## Windows Tools
+
+- [Scoop: A command-line installer for windows](https://scoop.sh)
 
 ## Images
 

@@ -108,6 +108,7 @@
 - [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch/) **An overview of my different series on patterns in distributed systems. A good collection of Messaging Patterns**
 - [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb) How do these two technologies work? how do they differ, and when is the right time to use them?
 - [thenewstack.io: How to Get Started with Data Streaming](https://thenewstack.io/how-to-get-started-with-data-streaming/) With Kafka and associated tools, developers can create stream-processing pipelines that transform data for real-time applications.
+- [linkedin.com: How to Move From a “Wait for it...” Batch-Processing Culture to a “Get It Now” Real-Time Data Culture](https://www.linkedin.com/pulse/how-move-from-wait-batch-processing-culture-get-now-tomsen-bukovec/)
 
 ## RPC vs Messaging
 
@@ -157,6 +158,7 @@
 - [developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors](https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors/)
 - [developers.redhat.com: Design event-driven integrations with Kamelets and Camel K](https://developers.redhat.com/blog/2021/04/02/design-event-driven-integrations-with-kamelets-and-camel-k)
 - [thenewstack.io: Camel K Brings Apache Camel to Kubernetes for Event-Driven Architectures](https://thenewstack.io/camel-k-brings-apache-camel-to-kubernetes-for-event-driven-architectures/)
+- [github.com/osa-ora/camel-k-samples](https://github.com/osa-ora/camel-k-samples)
 
 ### KubeMQ message broker
 
@@ -358,6 +360,8 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [freecodecamp.org: The Apache Kafka Handbook – How to Get Started Using Kafka 🌟](https://www.freecodecamp.org/news/apache-kafka-handbook/) Apache Kafka is an open source event streaming tool that transports tons of data w/ low latency. This link covers its core concepts, how to use its CLI, & how to install + build a project with it.
 - [medium.com/@rramiz.rraza: Kafka metrics monitoring with Prometheus and Grafana 🌟](https://medium.com/@rramiz.rraza/kafka-metrics-integration-with-prometheus-and-grafana-14fe318fbb8b)
 - [rogulski.it: Consume Kafka events with Knative service and FastAPI on kubernetes 🌟](https://rogulski.it/blog/kafka-consumer-knative-fastapi/) In this article, you will learn how to build a fully scalable, event-driven and easy-to-maintain system using Python (FastAPI), Kafka, and Knative
+- [piotrminkowski.com: Concurrency with Kafka and Spring Boot](https://piotrminkowski.com/2023/04/30/concurrency-with-kafka-and-spring-boot/)
+- [==thenewstack.io: Kafka on Kubernetes: Should You Adopt a Managed Solution?==](https://thenewstack.io/kafka-on-kubernetes-should-you-adopt-a-managed-solution/) A look at the various factors to consider when deciding whether to deploy Kafka yourself or to purchase a managed solution
 
 #### Kafka Tools
 

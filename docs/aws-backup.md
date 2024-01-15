@@ -26,6 +26,7 @@
 - [Automate and centrally manage data protection for Amazon S3 with AWS Backup](https://aws.amazon.com/blogs/storage/automate-and-centrally-manage-data-protection-for-amazon-s3-with-aws-backup/)
 - [Preview – AWS Backup Adds Support for Amazon S3](https://aws.amazon.com/blogs/aws/preview-aws-backup-adds-support-for-amazon-s3/)
 - [Disaster Recovery with AWS Managed Services, Part I: Single Region](https://aws.amazon.com/blogs/architecture/disaster-recovery-with-aws-managed-services-part-i-single-region/)
+- [AWS Backup supports cross-Region backups in four new Regions](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-backup-cross-region-backups-four-regions/)
 
 ## AWS Migrations
 

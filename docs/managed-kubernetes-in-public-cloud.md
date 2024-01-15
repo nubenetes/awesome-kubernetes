@@ -218,6 +218,10 @@
 - [medium.com: Saving costs in Google Kubernetes Engine using Spot VMs](https://medium.com/@vaibhav176/saving-costs-in-google-kubernetes-engine-using-spot-vms-2e6d0157815e)
 - [medium.com/@benjamin.christmann_12432: Setting up your first EKS cluster on AWS: some practical tips](https://medium.com/@benjamin.christmann_12432/setting-up-your-first-eks-cluster-on-aws-some-practical-tips-60400963c588)
 - [blog.ratnopamc.com: Reduce cross-AZ traffic costs on EKS using topology aware hints](https://blog.ratnopamc.com/reduce-cross-az-traffic-costs-on-eks-using-topology-aware-hints) Topology Aware Hints is a new feature in EKS that reduces data transfer costs by keeping traffic within the same availability zone. It uses Pod Topology Spread Constraints to spread Pods evenly onto multiple node topologies
+- [itnext.io: Running resilient workloads in EKS using Spot instances](https://itnext.io/running-production-workloads-in-eks-using-spot-instances-fc6808a7b462) In this article, you will learn how giffgaff run all of their applications in an EKS cluster using 100% spot instances and what additional safeguards they put in place to improve reliability
+- [Simplifying Amazon EBS volume migration and modification on Kubernetes using the EBS CSI Driver](https://aws.amazon.com/de/blogs/storage/simplifying-amazon-ebs-volume-migration-and-modification-using-the-ebs-csi-driver/)
+- [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/) In this post, you'll learn how to over-provision the cluster worker nodes using dummy pods for quicker scaling. The dummy pods contain a pause container that is scheduled by the scheduler according to pod specifications' placements and CPU/memory.
+- [==itnext.io: Efficient Kubernetes Cluster Deployment: Accelerating Setup with EKS Blueprints==](https://itnext.io/efficient-kubernetes-cluster-deployment-accelerating-setup-with-eks-blueprints-68324b582ec9)
 
 ### EKS Upgrades
 
@@ -373,6 +377,18 @@
 - [medium.com/@lfoster49203: Kubernetes on Azure: Setting up a cluster on Microsoft Azure (with Azure AKS)](https://medium.com/@lfoster49203/kubernetes-on-azure-setting-up-a-cluster-on-microsoft-azure-with-azure-aks-d6bee3eaa65)
 - [medium.com/@pauldotyu: Effortlessly Deploy to AKS with Open Source Tools Draft and Acorn](https://medium.com/@pauldotyu/app-to-aks-with-draft-and-acorn-2d25f19649b7)
 - [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on/ba-p/3802069)
+- [adamtheautomator.com: Getting Started with the Azure Kubernetes Service (AKS)](https://adamtheautomator.com/azure-kubernetes-service) In this tutorial, you'll learn how to get started with Microsoft Azure Kubernetes Service (AKS) using the Azure Portal and the Azure CLI
+- [techcommunity.microsoft.com: Kubernetes External DNS for Azure DNS & AKS](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/kubernetes-external-dns-for-azure-dns-amp-aks/ba-p/3809393)
+- [medium.com/adessoturkey: Azure DevOps Agents on AKS with the kaniko Option](https://medium.com/adessoturkey/azure-devops-agents-on-aks-with-kaniko-option-f672f900a177) In this article, you will learn how to build container images in your Azure DevOps agents using kaniko. kaniko doesn't depend on a Docker daemon and executes each command within a Dockerfile completely in userspace.
+- [techcommunity.microsoft.com: Securing Windows workloads on Azure Kubernetes Service with Calico](https://techcommunity.microsoft.com/t5/containers/securing-windows-workloads-on-azure-kubernetes-service-with/ba-p/3815429)
+- [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/3695569/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
+- [==inder-devops.medium.com: AKS Networking Deep Dive: Kubenet vs Azure-CNI vs Azure-CNI (overlay)==](https://inder-devops.medium.com/aks-networking-deep-dive-kubenet-vs-azure-cni-vs-azure-cni-overlay-a51709171ce9) When deploying an AKS cluster, there are three networking models you can choose from:
+    - Kubenet
+    - Azure CNI
+    - Azure CNI Overlay networking
+- [returngis.net: Desplegar AGIC en AKS utilizando workload identity](https://www.returngis.net/2023/05/desplegar-agic-en-aks-utilizando-workload-identity/)
+- [learn.microsoft.com: Use Application Gateway Ingress Controller (AGIC) with a multitenant Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-agic/aks-agic)
+- [returngis.net: Exponer APIs en AKS a través de Azure API Management](https://www.returngis.net/2023/05/exponer-apis-en-aks-a-traves-de-azure-api-management/)
 
 ### AKS Lite
 
@@ -430,6 +446,12 @@
 - [faun.pub: Make Your Kubernetes Cluster Highly Available and Fault Tolerant 🌟](https://faun.pub/deploy-active-active-multi-region-kubernetes-cluster-with-terraform-f2652e43f47e) End to End setup of Multi Region Autopilot Kubernetes Cluster with Application Deployment Example
 - [medium.com/@pbijjala: reCap: Kube vrs Cloud DNS in GKE](https://medium.com/@pbijjala/recap-kube-vrs-cloud-dns-in-gke-b8d1d407e00d) When deciding on how to use DNS with GKE, what are the available native Kubernetes options, which options exist on Google Cloud for GKE, and how do these two things play together?
 - [medium.com/google-cloud: Ingress in Google Kubernetes Products](https://medium.com/google-cloud/ingress-in-google-kubernetes-products-f22ded21f4ed) In this article, you will discuss, enumerate and compare all the options you have to route traffic into a Kubernetes cluster running in Google Cloud (GKE) or on-premise (Anthos on Bare Metal, Anthos on VMware)
+- [medium.com/@pbijjala: Considerations for Hardening your GKE, a workload perceptive](https://medium.com/@pbijjala/considerations-for-hardening-your-gke-a-workload-perceptive-943be26949d2) This article has a few tips for hardening your GKE setup:
+    - Network policies
+    - Custom service accounts
+    - Workload identities
+    - Pod Security admissions and admission controllers
+    - GKE sandbox
 
 ## IKS IBM Cloud Kubernetes Service
 

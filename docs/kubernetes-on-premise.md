@@ -187,6 +187,12 @@ $ sudo mv kops-linux-amd64 /usr/local/bin/kops
     - Mirantis Kubernetes Engine
     - Docker
     - Canonical Kubernetes
+- [baeldung.com: Lightweight Kubernetes Distributions](https://www.baeldung.com/ops/kubernetes-lightweight-distributions)
+    - MiniKube
+    - MicroK8S
+    - Kind
+    - K3s
+    - K3d
 
 ### Red Hat OpenShift
 

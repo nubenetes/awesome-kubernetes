@@ -3,41 +3,42 @@
 1. [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
 2. [Automation Glossary](#automation-glossary)
 3. [Blogs](#blogs)
-4. [Podcasts](#podcasts)
-5. [Training](#training)
+4. [DevOps Books](#devops-books)
+5. [Podcasts](#podcasts)
+6. [Training](#training)
     1. [Spanish](#spanish)
-6. [Automation anxiety](#automation-anxiety)
-7. [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
-8. [AIOps](#aiops)
-9. [Configuration Drift](#configuration-drift)
-    1. [Drift Detection Tools](#drift-detection-tools)
-10. [DevOps Docs](#devops-docs)
-11. [DORA metrics](#dora-metrics)
-12. [DevOps Roadmap](#devops-roadmap)
-13. [APIOps](#apiops)
-14. [Multicloud](#multicloud)
-15. [Serverless DevOps](#serverless-devops)
-16. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
-17. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-18. [Xebia Labs and DevOps](#xebia-labs-and-devops)
-19. [DevOps Tools](#devops-tools)
-20. [Netflix and DevOps](#netflix-and-devops)
-21. [Public Cloud DevOps](#public-cloud-devops)
+7. [Automation anxiety](#automation-anxiety)
+8. [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
+9. [AIOps](#aiops)
+10. [Configuration Drift](#configuration-drift)
+     1. [Drift Detection Tools](#drift-detection-tools)
+11. [DevOps Docs](#devops-docs)
+12. [DORA metrics](#dora-metrics)
+13. [DevOps Roadmap](#devops-roadmap)
+14. [APIOps](#apiops)
+15. [Multicloud](#multicloud)
+16. [Serverless DevOps](#serverless-devops)
+17. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+18. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
+19. [Xebia Labs and DevOps](#xebia-labs-and-devops)
+20. [DevOps Tools](#devops-tools)
+21. [Netflix and DevOps](#netflix-and-devops)
+22. [Public Cloud DevOps](#public-cloud-devops)
      1. [AWS DevOps](#aws-devops)
      2. [Azure DevOps](#azure-devops)
      3. [Google Cloud Platform](#google-cloud-platform)
-22. [NoOps](#noops)
-23. [NetOps](#netops)
-24. [PlatformOps](#platformops)
-25. [GPT 3 Tools](#gpt-3-tools)
-26. [Data as Code](#data-as-code)
-27. [DevOps for SAP](#devops-for-sap)
-28. [Youtube Playlists](#youtube-playlists)
-29. [Platform Engineering](#platform-engineering)
-30. [Bunch of Images](#bunch-of-images)
-31. [Slides](#slides)
-32. [Videos](#videos)
-33. [Tweets](#tweets)
+23. [NoOps](#noops)
+24. [NetOps](#netops)
+25. [PlatformOps](#platformops)
+26. [GPT 3 Tools](#gpt-3-tools)
+27. [Data as Code](#data-as-code)
+28. [DevOps for SAP](#devops-for-sap)
+29. [Youtube Playlists](#youtube-playlists)
+30. [Platform Engineering](#platform-engineering)
+31. [Bunch of Images](#bunch-of-images)
+32. [Slides](#slides)
+33. [Videos](#videos)
+34. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
@@ -92,6 +93,10 @@
     - [devopsdays.org: Devopsdays Amsterdam](https://devopsdays.org/events/2022-amsterdam/welcome/)
     - [reddit.com/r/devops/](https://www.reddit.com/r/devops/)
 
+## DevOps Books
+
+- [==github.com/DevOps-Projects-Ideas/DevOps-Books== 🌟🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
+
 ## Podcasts
 
 - [deloitte.com: Culture change, not tech, is the secret to DevOps success (podcast) 🌟](https://www2.deloitte.com/us/en/pages/consulting/articles/secret-to-devops-isnt-about-tools-its-about-culture-value-and-outcomes-architecting-the-cloud-podcast-sre-site-reliability-engineering-resiliency-cloud-adoption-cloud-value-outcomes-culture-change.html) Doing DevOps right involves more than technology. It requires changing the organizational culture to build a joint-responsibility model based on outcomes and value. How companies implement that culture change will be critical in determining DevOps success.
@@ -129,7 +134,9 @@
     - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
 - [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
 - [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops/)
-- [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/3673891/5-best-practices-for-securing-cicd-pipelines.html) Build in security from the beginning with continuous testing, automation, zero trust, and AIops.
+- [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/3673891/5-best-practices-for-securing-cicd-pipelines.html) Build in
+security from the beginning with continuous testing, automation, zero trust, and AIops.
+- [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering/)
 
 ## Configuration Drift
 
@@ -294,6 +301,7 @@
 - [medium.com/@devfire: How To Become a DevOps Engineer In Six Months or Less, Part 6: Observe](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-part-7-monitor-47c61aea0bf7)
 - [rcls.medium.com: Stop calling yourselves DevOps engineers](https://rcls.medium.com/stop-calling-yourselves-devops-engineers-f9dfec382d0d)
 - [enterprisersproject.com: DevOps: Why shift left goes wrong](https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong) The shift-left approach helps development teams make software better and faster. So why hasn't it caught on - and how can you beat the barriers to success?
+- [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)
 
 <center>
 
@@ -381,6 +389,7 @@
 ## NetOps
 
 - [datacenterdynamics.com: Why NetOps needs a digital sandbox to benefit from DevOps](https://www.datacenterdynamics.com/en/opinions/why-netops-needs-a-digital-sandbox-to-benefit-from-devops/)
+- [devops.com: The Rise of NetDevOps and CI/CD Pipeline Solutions](https://devops.com/the-rise-of-netdevops-and-ci-cd-pipeline-solutions/)
 
 ## PlatformOps
 
@@ -427,6 +436,11 @@ Resolve your software incidents 10x faster
 - [dev.to/thenjdevopsguy: Platform Engineering On Kubernetes Part 4: Internal Developer Platforms](https://dev.to/thenjdevopsguy/platform-engineering-on-kubernetes-part-4-internal-developer-platforms-1kmh)
 - [medium.com/agorapulse-stories: Platform Engineering, Part 3: WHEN & HOW to Build an Internal Developer Platform](https://medium.com/agorapulse-stories/platform-engineering-part-3-when-how-to-build-an-internal-developer-platform-cfb22efcca34)
 - [dev.to/thenjdevopsguy: Create and Understand Your Platform Engineering Environment](https://dev.to/thenjdevopsguy/creating-your-platform-engineering-environment-4hpa)
+- [siliconangle.com: The rise of platform engineering in the Kubernetes era](https://siliconangle.com/2023/04/20/rise-platform-engineering-kubernetes-era-kubecon/)
+- [loft.sh: Platform Engineering: The Definitive Guide](https://loft.sh/blog/platform-engineering-the-definitive-guide/) Platform engineering is the practice of designing, building, operating, and maintaining tools and infrastructure to help software developers build and ship software quickly
+- [infoworld.com: Why platform engineering?](https://www.infoworld.com/article/3694869/why-platform-engineering.html) The shift from devops to platform engineering could be transformational. Here's why and what's involved in making the leap.
+- [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)
+- [devops.com: What’s the Difference Between DevOps and Platform Engineering?](https://devops.com/whats-the-difference-between-devops-and-platform-engineering)
 
 ## Bunch of Images
 

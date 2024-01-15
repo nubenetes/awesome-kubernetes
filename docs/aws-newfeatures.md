@@ -112,3 +112,8 @@
 - [Amazon EKS now supports Kubernetes version 1.25](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-25/)
 - [Amazon Detective adds graph visualization for interactive security investigations](https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-detective-graph-visualization-interactive-security-investigations/)
 - [Announcing the ability to enable AWS Systems Manager by default across all EC2 instances in an account](https://aws.amazon.com/about-aws/whats-new/2023/02/enable-aws-systems-manager-default-all-ec2-instances-account/)
+- [Amazon CloudFront announces one-click security protections](https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-cloudfront-one-click-security-protections/)
+- [AWS WAF enhances rate-based rules to support request headers and composite keys](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-waf-rate-based-rules-request-headers-composite-keys/)
+- [New – AWS DMS Serverless: Automatically Provisions and Scales Capacity for Migration and Data Replication](https://aws.amazon.com/blogs/aws/new-aws-dms-serverless-automatically-provisions-and-scales-capacity-for-migration-and-data-replication/)
+- [Temporary elevated access management with IAM Identity Center](https://aws.amazon.com/blogs/security/temporary-elevated-access-management-with-iam-identity-center/)
+- [AWS Config supports recording exclusions by resource type](https://aws.amazon.com/about-aws/whats-new/2023/06/aws-config-recording-exclusions-resource-type/)

@@ -181,6 +181,9 @@
 - [loft.sh: GitOps + Kubernetes Explained](https://loft.sh/blog/gitops-kubernetes-explained/)
 - [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://msrishty.medium.com/traditional-ci-cd-vs-gitops-e835728642fb)
 - [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727)
+- [blog.brainboard.co: Streamlining Cloud Deployments with Git: Best Practices and Strategies](https://blog.brainboard.co/streamlining-cloud-deployments-with-git-best-practices-and-strategies-3ddf5cad3861)
+- [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes/)
+- [github.blog: Applying GitOps principles to your operations](https://github.blog/2023-06-02-applying-gitops-principles-to-your-operations/) Could we use our Git repository as the source of truth for operational tasks, and somehow reconcile changes with our real-world view?
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -214,6 +217,7 @@
     - Trunk-based development
     - Pay attention to policies and security
 - [==developers.redhat.com: How to set up your GitOps directory structure | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/09/07/how-set-your-gitops-directory-structure)
+- [devopsera.com: How to Structure Directories in a GitOps Repository for the Best User-Friendliness and Flexibility](https://devopsera.com/2023/06/how-to-structure-directories-in-a-gitops-repository-for-the-best-user-friendliness-and-flexibility/)
 
 ## GitOps Tools
 
@@ -259,6 +263,9 @@
 - [harness.io: Comparing Helm vs Kustomize](https://harness.io/blog/helm-vs-kustomize)
 - [nicolasbarlatier.hashnode.dev: Introduction Kubernetes and Kustomize: How to easily customize any resource configuration with Kustomize?](https://nicolasbarlatier.hashnode.dev/introduction-kubernetes-and-kustomize-how-to-easily-customize-any-resource-configuration-with-kustomize) In this tutorial, you will learn how to use Kustomize to template the number of replicas in a workload based on the environment (e.g. 1 pod in dev, 10 pods in prod)
 - [==github.com/kostis-codefresh: How to Model Your Gitops Environments with kustomize== 🌟](https://github.com/kostis-codefresh/gitops-environment-promotion) In this repository, you'll find an example of how to model Kustomize folders for a GitOps application and promote releases between environments
+- [dev.to: Kubernetes Kustomize Tutorial: A Beginner-Friendly Developer Guide!](https://dev.to/pavanbelagatti/kubernetes-kustomize-tutorial-a-beginner-friendly-developer-guide-322n)
+- [pauldally.medium.com: Kustomize Best Practices (part 3)](https://pauldally.medium.com/kustomize-best-practices-part-3-1dbaa15fd16a)
+- [levelup.gitconnected.com: Helm vs. Kustomize: Navigating Kubernetes Configuration Complexity](https://levelup.gitconnected.com/helm-vs-kustomize-navigating-kubernetes-configuration-complexity-ae86596c3cf2)
 
 ### Flagger
 

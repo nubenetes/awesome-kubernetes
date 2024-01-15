@@ -157,6 +157,11 @@
 - [==youtube: Docker 101 (Workshop) how an application can be run using Docker containers. First, you'll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more== 🌟](https://www.youtube.com/watch?v=0mxhS7H6bxM)
 - [codementor.io: Docker: What's Under the Hood?](https://www.codementor.io/blog/docker-technology-5x1kilcbow) How does Docker work? Get a better understanding of the skeleton of Docker, Virtualization, and future development
 - [dev.to/javinpaul: My Favorite Free Courses to Learn Docker and Containers in 2023](https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo)
+- [tonylixu.medium.com: Docker RUN vs CMD vs ENTRYPOINT](https://tonylixu.medium.com/docker-run-vs-cmd-vs-entrypoint-57f248b95889) Differences between three Docker build instructions
+- [==dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide==](https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b) By adopting CI/CD, you can ensure your code is consistently tested & validated, reducing the likelihood of introducing errors and increasing overall software quality.
+- [==dev.to: Docker : From Zero to Hero 🛸 ( part 1) | Prasenjeet Kumar==](https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45) Docker is a tool that allows you to package, distribute and run apps as containers. It provides an efficient & consistent way to deploy apps across different environments, from dev to prod.
+- [dzone: Components of Container Management](https://dzone.com/articles/components-of-container-management) Strategizing beyond build and run: Explore the benefits of containers that are widely evident around the cloud-native world and its modernization journey.
+- [devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide](https://devopscube.com/build-docker-image/)
 
 ## Docker Best Practices
 

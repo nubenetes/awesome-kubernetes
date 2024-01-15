@@ -33,6 +33,7 @@
 - [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better/) One has been predominantly used by firms for storing structured data in various forms, while another lets the companies store unstructured and semi-structured data also. Which among them is better and more efficient? Let’s analyze in this blog!
 - [medium.com/@suvankar.dey80: Time Series SQL vs No SQL](https://medium.com/@suvankar.dey80/time-series-sql-vs-no-sql-a8c7f40d80a8)
 - [thenewstack.io: Why Choose a NoSQL Database? There Are Many Great Reasons](https://thenewstack.io/why-choose-a-nosql-database-there-are-many-great-reasons/) With JSON data models and multimodel access, a NoSQL database can meet massive performance demands and still evolve rapidly.
+- [thenewstack.io: How to Choose and Model Time Series Databases](https://thenewstack.io/how-to-choose-and-model-time-series-databases/)
 
 ### Couchbase
 

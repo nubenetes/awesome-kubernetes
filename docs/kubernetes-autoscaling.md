@@ -116,6 +116,9 @@
 - [==thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet== 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet/) A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.
 - [waswani.medium.com: Autoscaling Pods in Kubernetes](https://waswani.medium.com/autoscaling-pods-in-kubernetes-37d05000c41) If you are hosting your workload in a cloud environment, and your traffic pattern is fluctuating in nature (think unpredictable), you need a mechanism to automatically scale out (and off-course scale in) your workload to ensure the service is able to perform as per defined Service Level Objective (SLO), without impacting the User Experience. This semantic is referred to as Autoscaling, to be very precise Horizontal Scaling.
 - [mckornfield.medium.com: Working with HPAs in Kubernetes](https://mckornfield.medium.com/working-with-hpas-in-kubernetes-ced39263b596) How to make your Kubernetes workloads scale with a few simple steps
+- [code.egym.de: Vertical Pod Autoscaler in Kubernetes](https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f) Learn how to use Vertical Pod Autoscaler (VPA) to vertically scale services in Kubernetes automatically based on resource metrics.
+- [faun.pub: Intelligently estimating your Kubernetes resource needs!](https://faun.pub/intelligently-estimating-your-kubernetes-resource-needs-c12a75ea3138) In this tutorial, you will learn how to use the Vertical Pod Autoscaler and Goldilocks to guess the correct requests and limits for your Pods
+- [itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler](https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9)
 
 ### Kubernetes Scale to Zero
 
@@ -142,6 +145,8 @@
 - [levelup.gitconnected.com: Scale your Apps using KEDA in Kubernetes](https://levelup.gitconnected.com/scale-your-apps-using-keda-in-kubernetes-a1f2142ecc20)
 - [blog.devops.dev: KEDA: Autoscaling Kubernetes apps using Prometheus](https://blog.devops.dev/keda-autoscaling-kubernetes-apps-using-prometheus-da037fe572cf)
 - [purushothamkdr453.medium.com: Event driven autoscaling in kubernetes using KEDA](https://purushothamkdr453.medium.com/event-driven-autoscaling-in-kubernetes-using-keda-a0c16a383619)
+- [medium.com/@rtaplamaci: Horizontal Scaling on Kubernetes Clusters Based on AWS CloudWatch Metrics with KEDA](https://medium.com/@rtaplamaci/horizontal-scaling-on-kubernetes-clusters-based-on-aws-cloudwatch-metrics-with-keda-7c9e0e3ba5f) In this article, you will learn how to use KEDA to horizontally scale the workloads running in a Kubernetes cluster based on the custom metrics exposed via AWS CloudWatch
+- [medium.com/@hirushanonline: Dynamic Scaling with Kubernetes Event-driven Autoscaling (KEDA)](https://medium.com/@hirushanonline/dynamic-scaling-with-kubernetes-event-driven-autoscaling-keda-caaa15096e1c)
 
 ## Cluster Autoscaler and DockerHub
 

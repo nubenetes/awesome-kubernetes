@@ -1,11 +1,14 @@
 # ChatGPT
 
 1. [Introduction](#introduction)
-2. [Explained by ChatGPT](#explained-by-chatgpt)
+2. [TableauGPT](#tableaugpt)
+3. [k8sgpt](#k8sgpt)
+4. [ChatGPT YAML generator](#chatgpt-yaml-generator)
+5. [Explained by ChatGPT](#explained-by-chatgpt)
     1. [DevOps Compliance](#devops-compliance)
     2. [GitOps vs ClickOps 1](#gitops-vs-clickops-1)
     3. [GitOps vs ClickOps 2](#gitops-vs-clickops-2)
-3. [Tools](#tools)
+6. [Tools](#tools)
 
 ## Introduction
 
@@ -17,6 +20,21 @@
 - [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162)
 - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data/) ChatGPT is a powerful language model that can be used for a variety of tasks. But did you know you can use custom data to improve its accuracy and speed?
 - [techrepublic.com: ChatGPT Cheat Sheet: Complete Guide for 2023](https://www.techrepublic.com/article/chatgpt-cheat-sheet/)
+- [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional/)
+- [christianmartinezfinancialfox.medium.com: How to use ChatGPT to improve your Microsft Excel skills?](https://christianmartinezfinancialfox.medium.com/how-to-use-chatgpt-to-improve-your-microsft-excel-skills-41817b6465df)
+- [thenewstack.io: Developers Put AI Bots to the Test of Writing Code](https://thenewstack.io/developers-put-ai-bots-to-the-test-of-writing-code/) With so many AI-powered assistants waiting to be explored, we've now entered the phase where excited coders are trying their own homegrown experiments — and sharing the results online.
+
+## TableauGPT
+
+- [TableauGPT — The Ultimate Guide on how to utilize its full potential in Finance](https://christianmartinezfinancialfox.medium.com/tableaugpt-the-ultimate-guide-on-how-to-utilize-its-full-potential-445939e3833d)
+
+## k8sgpt
+
+- [k8sgpt.ai](https://k8sgpt.ai)
+
+## ChatGPT YAML generator
+
+- [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator)
 
 ## Explained by ChatGPT
 
@@ -55,3 +73,4 @@
 ## Tools
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
+- [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)

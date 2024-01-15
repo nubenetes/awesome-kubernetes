@@ -95,6 +95,7 @@
     - Creating a Pull Request creates a new environment
     - Each git push builds an image and updates the app
     - Closing the pull request terminates the environment
+- [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd/)
 
 ## Argo CD Vulnerabilities
 

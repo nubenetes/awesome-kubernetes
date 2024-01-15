@@ -91,6 +91,11 @@
 - [martinfowler.com: Retrospectives Antipatterns 🌟](https://martinfowler.com/articles/retrospective-antipatterns.html) If you use retrospectives, or any kind of meeting where people are supposed to discuss and learn from their discussions, you will have experienced less efficient sessions from time to time. There is no wonder in that, and it happens to most people. This article describes and offers solutions for three of these unfortunate situations: skipping generating insights, getting lost in things you can't change, and being dominated by a loudmouth.
 - [==dzone.com: Productivity: Noise Is the Problem== 🌟🌟](https://dzone.com/articles/effectiveness-noise-is-the-problem) How to improve the productivity of our engineering team by providing more focus time
 - [rebelscrum.site: Characteristics of a Great Product Owner](https://www.rebelscrum.site/post/characteristics-of-a-great-product-owner)
+- [devops.com: Breaking Down Silos: Applying Open Source Practices in the Workplace](https://devops.com/breaking-down-silos-applying-open-source-practices-in-the-workplace/)
+- [devops.com: How Good Developers Become Good Engineering Managers](https://devops.com/how-good-developers-become-good-engineering-managers/)
+- [levelup.gitconnected.com: How to manage your technical backlog](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9)
+- [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development/)
+- [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
 
 ### Spanish
 
@@ -119,6 +124,8 @@
 - [estrategiadeproducto.com: La espiral de mierda](https://www.estrategiadeproducto.com/p/evitar-caer-espiral-de-mierda) ¿Por qué todo parece ir más lento si cada vez somos más? Analizamos las causas que llevan a que muchas startups fracasen durante su proceso de escala y cómo evitarlo.
 - [estrategiadeproducto.com: La segunda mayor mentira sobre Product Management](https://www.estrategiadeproducto.com/p/segunda-mayor-mentira-product-management) No. Un Product Manager no es la intersección de Diseño, Tecnología y Negocio.
 - [mariocortes.net: La crisis de seniority](https://www.mariocortes.net/la-crisis-de-seniority/) El “seniority” no está relacionado exclusivamente con la experiencia profesional, sino a la capacidad de un profesional para enfrentarse a un problema o reto y la aptitud con la que se enfrenta a él.
+- [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782)
+- [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/a-fondo/este-ex-ceo-explica-que-hay-demasiados-empleados-empresas-contratas-a-alguien-primero-que-quiere-contratar)
 
 ### Team Topologies
 

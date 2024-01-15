@@ -66,6 +66,7 @@
 - [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik)
 - [blog.tomarrell.com - Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes)
 - [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh/)
+- [medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than Traefik v2?](https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e)
 
 ## Skipper (HTTP router and reverse proxy)
 

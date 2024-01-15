@@ -78,6 +78,7 @@
 - [==cncf.io: DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller than you think==](https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think/)
 - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer; Substance or Semantics?](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
 - [==phoenixnap.com: SRE Vs. DevOps: Differences Explained== 🌟](https://phoenixnap.com/blog/sre-vs-devops) Take an in-depth look at the similarities & differences between SRE & DevOps, their benefits, usual tasks, and go-to tools to explain their distinct roles in the software development lifecycle (SDLC)
+- [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both/) A look at the differences, what they do, how they benefit the business and why organizations need all three to succeed.
 
 ## SRE Tools
 

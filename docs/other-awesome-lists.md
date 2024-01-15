@@ -4,6 +4,7 @@
 2. [Introduction](#introduction)
 3. [Other Awesome Kubernetes Lists](#other-awesome-kubernetes-lists)
 4. [Other Awesome Lists](#other-awesome-lists)
+5. [AI and ML](#ai-and-ml)
     1. [Project Management](#project-management)
     2. [SysAdmin](#sysadmin)
     3. [Cloud Native](#cloud-native)
@@ -28,11 +29,12 @@
     20. [Data Processing](#data-processing)
     21. [Big Data](#big-data)
     22. [Machine Learning and MLOps](#machine-learning-and-mlops)
-5. [Open Source Alternatives](#open-source-alternatives)
-6. [Kubectl Plugins](#kubectl-plugins)
-7. [GitHub Repositories that developers love](#github-repositories-that-developers-love)
-8. [LLMOps](#llmops)
-9. [Tweets](#tweets)
+6. [Open Source Alternatives](#open-source-alternatives)
+7. [Kubectl Plugins](#kubectl-plugins)
+8. [GitHub Repositories that developers love](#github-repositories-that-developers-love)
+9. [LLMOps](#llmops)
+10. [Books](#books)
+11. [Tweets](#tweets)
 
 ## Inspired By
 
@@ -92,6 +94,11 @@
 - [github.com/ran-isenberg: AWS Lambda Handler Cookbook (Python) 🌟](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) This repository provides a working, deployable, open source based, AWS Lambda handler and CDK Python code. This handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
 - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
 - [steveazz/awesome-slo: Awesome SLOs](https://github.com/steveazz/awesome-slo) A curated list of useful resources for SLIs/SLOs
+- [github.com/Noovolari/awesome-cloudops: Awesome CloudOps](https://github.com/Noovolari/awesome-cloudops) A curated list of tools and best practices for CloudOps
+
+## AI and ML
+
+- [github.com/terrytangyuan/awesome-kubeflow: Awesome Kubeflow 🌟](https://github.com/terrytangyuan/awesome-kubeflow) In this repository, you will find a curated list of awesome projects and resources related to Kubeflow
 
 ### Project Management
 
@@ -280,6 +287,10 @@
 ## LLMOps
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
+
+## Books
+
+- [==DevOps-Books== 🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
 
 ## Tweets
 

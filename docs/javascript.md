@@ -19,6 +19,7 @@
 - [dev.to: Getting Started with JavaScript Modules](https://dev.to/thecoollearner/getting-started-with-javascript-modules-2mkg)
 - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
 - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/)
+- [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n)
 
 ## Useful websites for web developers
 

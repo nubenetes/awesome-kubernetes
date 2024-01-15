@@ -63,6 +63,7 @@
 - [blog.marcnuri.com: Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://blog.marcnuri.com/fabric8-kubernetes-java-client-and-quarkus-and-graalvm)
 - [developers.redhat.com: How to generate code using Fabric8 Kubernetes Client](https://developers.redhat.com/articles/2023/01/24/how-generate-code-using-fabric8-kubernetes-client)
 - [==levelup.gitconnected.com: First Try on Java Operator SDK==](https://levelup.gitconnected.com/first-try-on-java-operator-sdk-5a07f30771de) Demo on java-operator-sdk and compare it with Kubebuilder
+- [developers.redhat.com: How to use Fabric8 Java Client with Kubernetes](https://developers.redhat.com/articles/2023/01/04/how-use-fabric8-java-client-kubernetes) In this 5-part series, you'll learn how to use Fabric8 Kubernetes Client to interact with Kubernetes custom resources using its REST API
 
 ## CDK8s
 
@@ -81,6 +82,7 @@
 - [youtube: Deploying a Quarkus application into Kubernetes using JKube | Cloud Tool Time | Marc Nuri 🌟](https://www.youtube.com/watch?v=HDDfdZqwM1E&ab_channel=EclipseFoundation)
 - [blog.marcnuri.com](https://blog.marcnuri.com/)
     - [blog.marcnuri.com: Eclipse JKube 1.4.0 is now available!](https://blog.marcnuri.com/eclipse-jkube-1-4-0)
+- [developers.redhat.com: How to manage microservices using OpenShift Dev Spaces and JKube](https://developers.redhat.com/developer-sandbox/activities/how-to-manage-microservices-using-openshift-dev-spaces-and-jkube)
 
 ## Java Operator SDK
 

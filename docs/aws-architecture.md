@@ -1,15 +1,13 @@
 # AWS Architecture and Best Practices
 
 1. [Introduction](#introduction)
-2. [AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start](#aws-architecture-blog-official-blog-aws-labs-aws-quick-start)
-3. [AWS Case Studies](#aws-case-studies)
-4. [AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages](#aws-best-practices-and-tips-aws-performance-handling-aws-failures-and-outages)
+2. [AWS Well Architected Framework](#aws-well-architected-framework)
+3. [AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start](#aws-architecture-blog-official-blog-aws-labs-aws-quick-start)
+4. [AWS Case Studies](#aws-case-studies)
+5. [AWS Best Practices and Tips. AWS Performance. Handling AWS Failures and Outages](#aws-best-practices-and-tips-aws-performance-handling-aws-failures-and-outages)
 
 ## Introduction
 
-- [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
-    - [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
-- [==aws.amazon.com/well-architected-tool: AWS Well-Architected Tool==](https://aws.amazon.com/well-architected-tool) Do couple of WAR (Well-Architect Review) for public cloud. Basically it is to scan the cloud on 5-6 KPI's : Performance, Cost, Operations, Business etc..
 - [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage/)
@@ -22,6 +20,14 @@
 - [Strategies for consolidating AWS environments](https://aws.amazon.com/de/blogs/mt/strategies-for-consolidating-aws-environments/)
 - [Maintain visibility over the use of cloud architecture patterns](https://aws.amazon.com/blogs/architecture/maintain-visibility-over-the-use-of-cloud-architecture-patterns/) Cloud platform and enterprise architecture teams use architecture patterns to provide guidance for different use cases. Cloud architecture patterns are typically aggregates of multiple Amazon Web Services (AWS) resources, such as Elastic Load Balancing with Amazon Elastic Compute Cloud, or Amazon Relational Database Service with Amazon ElastiCache. In a large organization, cloud platform teams often have limited governance over cloud deployments, and, therefore, lack control or visibility over the actual cloud pattern adoption in their organization.
 - [Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/pt/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account/)
+- [==awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture==](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a)
+
+## AWS Well Architected Framework
+
+- [AWS Well Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+    - [nops.io: Discover How to Compare Cloud Workloads for Risk Management on AWS](https://www.nops.io/workload-rule-violations-aws-well-architected/) The AWS Well-Architected Framework provides best practices guidance to optimize workloads based on the Framework’s five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization.
+- [==aws.amazon.com/well-architected-tool: AWS Well-Architected Tool==](https://aws.amazon.com/well-architected-tool) Do couple of WAR (Well-Architect Review) for public cloud. Basically it is to scan the cloud on 5-6 KPI's : Performance, Cost, Operations, Business etc..
+- [infoq.com: AWS Updates the Well-Architected Framework](https://www.infoq.com/news/2023/04/aws-well-architected-framework/)
 
 ## AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
 

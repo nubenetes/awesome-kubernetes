@@ -138,6 +138,7 @@
 - [medium: Blocking bots using AWS WAF](https://medium.com/cloud-techies/blocking-bots-using-aws-waf-d449e6d159ca)
 - [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)
 - [faun.pub: Set up global rate limiting with AWS WAF in 5 minutes](https://faun.pub/set-up-global-rate-limiting-with-aws-waf-in-5-minutes-bd43a9309683)
+- [dev.to: AWS WAF (Web Application Firewall): Deep Dive](https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd)
 
 ## AWS Secrets Manager
 

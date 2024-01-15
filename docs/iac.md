@@ -32,7 +32,9 @@
 - [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure/)
 - [medium.com/@bunnyshell: How to Overcome Infrastructure as Code (IaC) Challenges](https://medium.com/@bunnyshell/how-to-overcome-infrastructure-as-code-iac-challenges-f4947be7cde2)
 - [dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟](https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code) In this article, take an in-depth look at how Infrastructure as Code (IaC) works, its benefits, and common challenges.
-- [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html?amp=1)
+- [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html)
+- [thenewstack.io: Infrastructure as Code or Cloud Platforms — You Decide!](https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide/)
+- [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/3692296/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html) With infrastructure as code, virtual desktop infrastructure, and a proactive approach to incident management, you can help keep cloud costs reasonable.
 
 ## Local Environment as Code
 

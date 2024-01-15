@@ -46,6 +46,9 @@
 - [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know/)
 - [logz.io: FinOps Observability: Monitoring Kubernetes Cost](https://logz.io/blog/finops-observability-monitoring-kubernetes-cost/)
 - [medium.com/adeo-tech: How to save money fast with Kubernetes — Do FinOps](https://medium.com/adeo-tech/how-to-save-money-fast-with-kubernetes-do-finops-3a9cafc9beba) In this article, you will learn how to reduce your cloud bill and some tips on cloud infrastructure optimization
+- [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/3695569/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
+- [infoworld.com: When finops costs you more in the end](https://www.infoworld.com/article/3688332/when-finops-costs-you-more-in-the-end.html) Cloud finops can save you tons of money on cloud spending and return more value to the business. Unfortunately, mistakes are costing companies big time.
+- [infoworld.com: Kubernetes costs less, but less than what?](https://www.infoworld.com/article/3696277/kubernetes-costs-less-but-less-than-what.html) Sure, compared to traditional IT, Kubernetes is great, but not much will beat public cloud in the long run.
 
 ## Compute Cost Calculator
 
@@ -61,6 +64,7 @@
 
 - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) Learn how to gain full control of your Azure costs by creating a continuous cost governance and optimization process. This comprehensive Packt e-book covers essential topics like cloud cost management and sustainable modeling of cloud expenses.
 - [==github.com/mivano/azure-cost-cli==](https://github.com/mivano/azure-cost-cli) CLI tool to perform cost analysis on your Azure subscription
+- [==techcommunity.microsoft.com: Azure Savings Dashboard== 🌟](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-savings-dashboard/ba-p/3816131)
 
 ## Kubernetes Cost Optimization
 
@@ -71,6 +75,8 @@
 - [medium.com/develeap: Cutting down Kubernetes Costs: Cast.ai vs. Karpenter](https://medium.com/develeap/cutting-down-kubernetes-costs-cast-ai-vs-karpenter-20f6788b4c67)
 - [engineering.razorpay.com: The Culture of Cost Optimization — Reducing Kubernetes cost by $300,000](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9)
 - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/3693050/5-steps-to-bringing-kubernetes-costs-in-line.html)
+- [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) In this article, you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
+- [itnext.io: Kubernetes Cost Optimization Made Easy: Efficient Tools for Streamlining FinOps](https://itnext.io/kubernetes-cost-optimization-made-easy-efficient-tools-for-streamlining-finops-be0b6a54d2bb)
 
 ## Licence Managers
 

@@ -4,19 +4,20 @@
 2. [Kubectl Cheat Sheets](#kubectl-cheat-sheets)
 3. [Kubectl aliases](#kubectl-aliases)
 4. [Kubectl explain](#kubectl-explain)
-5. [Kubectl Autocomplete](#kubectl-autocomplete)
-6. [kubectl exec](#kubectl-exec)
-7. [kubectl scale](#kubectl-scale)
-8. [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
-9. [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
-10. [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
-11. [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
-12. [Buildkit CLI for kubectl a drop in replacement for docker build](#buildkit-cli-for-kubectl-a-drop-in-replacement-for-docker-build)
-13. [Kubectl Alternatives](#kubectl-alternatives)
+5. [Kubectl example](#kubectl-example)
+6. [Kubectl Autocomplete](#kubectl-autocomplete)
+7. [kubectl exec](#kubectl-exec)
+8. [kubectl scale](#kubectl-scale)
+9. [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
+10. [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
+11. [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
+12. [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
+13. [Buildkit CLI for kubectl a drop in replacement for docker build](#buildkit-cli-for-kubectl-a-drop-in-replacement-for-docker-build)
+14. [Kubectl Alternatives](#kubectl-alternatives)
      1. [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
      2. [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
-14. [Videos](#videos)
-15. [Tweets](#tweets)
+15. [Videos](#videos)
+16. [Tweets](#tweets)
 
 ## Introduction
 
@@ -60,6 +61,14 @@
 - [lovethepenguin.com: Kubernetes: common pod operations](https://lovethepenguin.com/kubernetes-common-pod-operations-ee23a402b9f4)
 - [medium.com/geekculture: kubectl — Best Practices](https://medium.com/geekculture/kubectl-best-practices-c4ff809167dd)
 - [==learnitguide.net: How to Create ConfigMap from Properties File Using K8s Client==](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html)
+- [shardul.dev: Most Useful kubectl Plugins](https://shardul.dev/most-useful-kubectl-plugins/) In this article, you will have a look at the following kubectl plugins:
+    - neat
+    - view-secret
+    - access-matrix
+    - blame
+    - df-pv
+    - gke-outdated
+- [howtogeek.com: Getting Started With Kubectl to Manage Kubernetes Clusters](https://www.howtogeek.com/devops/getting-started-with-kubectl-to-manage-kubernetes-clusters/) Kubernetes is a container orchestration engine that lets you deploy containerised workloads in a scalable way.
 
 ## Kubectl Cheat Sheets
 
@@ -76,6 +85,10 @@
 - [==itnext.io: Using ‘kubectl explain’ for Custom Resources==](https://itnext.io/understanding-kubectl-explain-9d703396cc8) Goal: Explore if ‘kubectl explain’ can be used to discover static information about Custom Resources
 
 ```for r in $(kubectl api-resources|grep -v ^N|awk '{print $1}');do kubectl explain $r --recursive;done```
+
+## Kubectl example
+
+- [github.com/trstringer/kubectl-example](https://github.com/trstringer/kubectl-example) kubectl plugin to dump example helper resource templates
 
 ## Kubectl Autocomplete
 

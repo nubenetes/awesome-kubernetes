@@ -37,6 +37,7 @@
 - [Modernize database stored procedures to use Amazon Aurora PostgreSQL federated queries, pg_cron, and AWS Lambda](https://aws.amazon.com/blogs/database/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda/)
 - [Let’s Architect! Architecting with Amazon DynamoDB](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-with-amazon-dynamodb/)
 - [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889)
+- [thenewstack.io: Diving into AWS Databases: Amazon RDS and DynamoDB Explained](https://thenewstack.io/diving-into-aws-databases-amazon-rds-and-dynamodb-explained/) A look at the differences between these popular options, and between relational and nonrelational databases.
 
 ## AWS Database Migration Service DMS
 

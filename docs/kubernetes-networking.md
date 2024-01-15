@@ -1,31 +1,32 @@
 # Kubernetes Networking
 
 1. [Introduction](#introduction)
-2. [TCP Keep Alive Requests](#tcp-keep-alive-requests)
-3. [Headless Kubernetes Service](#headless-kubernetes-service)
-4. [NetworkPolicy](#networkpolicy)
-5. [Nginx Ingress Controller](#nginx-ingress-controller)
-6. [Contour Ingress Controller](#contour-ingress-controller)
-7. [Kubernetes Gateway API](#kubernetes-gateway-api)
-8. [Kube-proxy](#kube-proxy)
-9. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
-10. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
-11. [Kubernetes Network Policy](#kubernetes-network-policy)
+2. [Kubernetes DNS](#kubernetes-dns)
+3. [TCP Keep Alive Requests](#tcp-keep-alive-requests)
+4. [Headless Kubernetes Service](#headless-kubernetes-service)
+5. [NetworkPolicy](#networkpolicy)
+6. [Nginx Ingress Controller](#nginx-ingress-controller)
+7. [Contour Ingress Controller](#contour-ingress-controller)
+8. [Kubernetes Gateway API](#kubernetes-gateway-api)
+9. [Kube-proxy](#kube-proxy)
+10. [Multicloud communication for Kubernetes](#multicloud-communication-for-kubernetes)
+11. [Multi-Cluster Kubernetes Networking](#multi-cluster-kubernetes-networking)
+12. [Kubernetes Network Policy](#kubernetes-network-policy)
      1. [Cilium](#cilium)
      2. [Kubernetes Network Policy Samples](#kubernetes-network-policy-samples)
-12. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
-13. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
-14. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
-15. [CNI Container Networking Interface](#cni-container-networking-interface)
+13. [Kubernetes Ingress Specification](#kubernetes-ingress-specification)
+14. [Xposer Kubernetes Controller To Manage Ingresses](#xposer-kubernetes-controller-to-manage-ingresses)
+15. [Software-Defined IP Address Management (IPAM)](#software-defined-ip-address-management-ipam)
+16. [CNI Container Networking Interface](#cni-container-networking-interface)
      1. [List of existing CNI Plugins (IPAM)](#list-of-existing-cni-plugins-ipam)
      2. [Project Calico](#project-calico)
-16. [DNS Service with CoreDNS](#dns-service-with-coredns)
-17. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
-18. [k8gb](#k8gb)
-19. [VPC Lattice](#vpc-lattice)
-20. [Images](#images)
-21. [Videos](#videos)
-22. [Tweets](#tweets)
+17. [DNS Service with CoreDNS](#dns-service-with-coredns)
+18. [Kubernetes Node Local DNS Cache](#kubernetes-node-local-dns-cache)
+19. [k8gb](#k8gb)
+20. [VPC Lattice](#vpc-lattice)
+21. [Images](#images)
+22. [Videos](#videos)
+23. [Tweets](#tweets)
 
 ## Introduction
 
@@ -168,6 +169,17 @@
 - [==shahneil.medium.com: What Are Kubernetes Endpoints?==](https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4)
 - [==fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide==](https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d) **Kubernetes Ingress plays a crucial role in managing external access to services within a cluster.**
 - [thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud](https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud/) Otterize offers intent-based access control and secure connectivity management within clusters and across the cloud.
+- [blog.palark.com: Comparing Ingress controllers for Kubernetes](https://blog.palark.com/comparing-ingress-controllers-for-kubernetes/)
+- [==community.ops.io: Kubernetes Ingress Controller. How does it work?===](https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni) Learning how an ingress controller works by building one in bash.
+- [medium.com/@rasikzilte711: Kubernetes Networking — A Guide to Services, Ingress, Network Policies, DNS, and CNI Plugins](https://medium.com/@rasikzilte711/kubernetes-networking-a-guide-to-services-ingress-network-policies-dns-and-cni-plugins-fc1ad7d22ab4)
+- [sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer](https://sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer/) Your Kubernetes Pods have internal IPs, but can since Pods are created and destroyed, can you rely on those? Discover services and their types: ClusterIP, NodePort and LoadBalancer
+- [itnext.io: Saying Goodbye to Ingress: Embracing the Future of Kubernetes Traffic Management with Gateway API and Cilium](https://itnext.io/saying-goodbye-to-ingress-embracing-the-future-of-kubernetes-traffic-management-with-gateway-api-6584b7b8f913) Saying Goodbye to Ingress: Embracing the Future of Kubernetes Traffic Management with Gateway API and Cilium
+- [medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes](https://medium.com/codex/capture-tcpdump-with-ksniff-and-wireshark-from-kubernetes-c212b93ff9f9) In Kubernetes, there are many ways to deploy and run apps, such as pods, services, and more. Tcpdump can be used to capture network traffic between these components, helping to identify network issues and diagnose problems.
+- [cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences](https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html)
+
+## Kubernetes DNS
+
+- [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide/) Kubernetes DNS service allows you to contact services with consistent DNS names instead of IP addresses.
 
 ## TCP Keep Alive Requests
 
@@ -202,6 +214,8 @@
 - [==engineering.backmarket.com: How we improved third-party availability and latency with Nginx in Kubernetes== 🌟](https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4) Introducing a gateway to cache your third-party API can significantly improve its performance and stability. In this case study, you will discover how the team at Back Market configured NGINX in Kubernetes to improve third-party API availability and latency.
 - [towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps & Shared Services with Minikube](https://towardsdev.com/kubernetes-deploying-nginx-servers-with-configmaps-shared-services-with-minikube-618aee9a8ff6)
 - [faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes](https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399)
+- [sumanprasad.hashnode.dev: A Beginner's Guide to Ingress and Ingress Controllers in Kubernetes](https://sumanprasad.hashnode.dev/a-beginners-guide-to-ingress-and-ingress-controllers-in-kubernetes)
+- [akyriako.medium.com: Configure path-based routing with Nginx Ingress Controller](https://akyriako.medium.com/configure-path-based-routing-with-nginx-ingress-controller-64a63cd4d6bd)
 
 ## Contour Ingress Controller
 
@@ -247,6 +261,7 @@
 - [loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟](https://loft.sh/blog/kubernetes-network-policies-for-isolating-namespaces)
 - [arthurchiao.art: Cracking Kubernetes Network Policy](https://arthurchiao.art/blog/cracking-k8s-network-policy/) This post digs into the Kubernetes NetworkPolicy model, then designs a policy enforcer based on the technical requirements and further implements it with less than 100 lines of eBPF code. Hope that after reading through this post, readers will get a deeper understanding on how network policies are enforced in the underlying.
 - [engineering.mercari.com: Managing Network Policies for namespaces isolation on a multi-tenant Kubernetes cluster](https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies/) This post outlines how to implement an abstraction over network policies in a multi-tenant Kubernetes cluster instead of directly exposing raw YAML-based manifests for better usability and verifiability
+- [blog.devgenius.io: Simplify Kubernetes Network Policy Generation](https://blog.devgenius.io/kubernetes-namespace-wide-network-policy-1126fafdf221)
 
 ### Cilium
 
@@ -350,7 +365,8 @@ Cilium allows users to specify an egress NAT policy
 - [sysdig.com: How to monitor coreDNS 🌟](https://sysdig.com/blog/how-to-monitor-coredns/) The most common problems and outages in a Kubernetes cluster come from coreDNS, so learning how to monitor coreDNS is crucial.
 - [ungleich.ch: Making kubernetes kube-dns/CoreDNS publicly reachable](https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable/)
 - [iamitcohen.medium.com: DNS in Kubernetes, how does it work?](https://iamitcohen.medium.com/dns-in-kubernetes-how-does-it-work-7c4690fd813e)
-- [nslookup.io: The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/)
+- [nslookup.io: The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/) In Kubernetes, DNS queries follow a specific path to resolve the IP address of a hostname. In this blog post, you will learn the life of a DNS query in Kubernetes step-by-step.
+- [levelup.gitconnected.com: Kubernetes with CoreDNS](https://levelup.gitconnected.com/kubernetes-with-coredns-e40772c5e6ee)
 
 ## Kubernetes Node Local DNS Cache
 
@@ -382,6 +398,7 @@ Cilium allows users to specify an egress NAT policy
     <iframe width="560" height="315" src="https://www.youtube.com/embed/T4Z7visMM4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5cNrTU6o3Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/80Ew_fsV4rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VSn6DPKIhM8?si=pNaN7q9t3UKWaEhK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </center>
 
 ## Tweets

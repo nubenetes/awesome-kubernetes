@@ -1,60 +1,64 @@
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 
 1. [Introduction](#introduction)
-2. [Solution Architect. IT Architecture Frameworks](#solution-architect-it-architecture-frameworks)
-3. [Pets vs Cattle Analogy](#pets-vs-cattle-analogy)
-4. [Service-Oriented Arhitecture vs Event-Driven Architecture](#service-oriented-arhitecture-vs-event-driven-architecture)
-5. [Cloud Native](#cloud-native)
-6. [Technical Debt](#technical-debt)
-7. [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
-8. [Event Driven Architecture EDA](#event-driven-architecture-eda)
-9. [Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures](#understanding-the-differences-between-event-driven-message-driven-and-microservices-architectures)
-10. [Multi-Tenancy Architecture](#multi-tenancy-architecture)
-11. [Architecture Decision Records](#architecture-decision-records)
-12. [Self service developer platform](#self-service-developer-platform)
-13. [Shift-Left](#shift-left)
-14. [Disaster Recovery](#disaster-recovery)
-15. [SaaS](#saas)
-16. [Multi Cloud](#multi-cloud)
-17. [Cloud Automation](#cloud-automation)
+2. [Platform Reference Architecture](#platform-reference-architecture)
+3. [Solution Architect. IT Architecture Frameworks](#solution-architect-it-architecture-frameworks)
+4. [Pets vs Cattle Analogy](#pets-vs-cattle-analogy)
+5. [Service-Oriented Arhitecture vs Event-Driven Architecture](#service-oriented-arhitecture-vs-event-driven-architecture)
+6. [Cloud Native](#cloud-native)
+7. [Technical Debt](#technical-debt)
+8. [Twelve-Factor Apps in Kubernetes](#twelve-factor-apps-in-kubernetes)
+9. [Event Driven Architecture EDA](#event-driven-architecture-eda)
+10. [Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures](#understanding-the-differences-between-event-driven-message-driven-and-microservices-architectures)
+11. [Multi-Tenancy Architecture](#multi-tenancy-architecture)
+12. [Architecture Decision Records](#architecture-decision-records)
+13. [Self service developer platform](#self-service-developer-platform)
+14. [Shift-Left](#shift-left)
+15. [Disaster Recovery](#disaster-recovery)
+16. [SaaS](#saas)
+17. [Multi Cloud](#multi-cloud)
+18. [Cloud Automation](#cloud-automation)
      1. [Automation Glossary](#automation-glossary)
-18. [Microservices Best Practices and Design Patterns](#microservices-best-practices-and-design-patterns)
-19. [Microservice Patterns](#microservice-patterns)
+19. [Microservices Best Practices and Design Patterns](#microservices-best-practices-and-design-patterns)
+20. [Microservice Patterns](#microservice-patterns)
      1. [CQRS Pattern](#cqrs-pattern)
-20. [Microservices Anti Patterns](#microservices-anti-patterns)
-21. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
-22. [Backends for Frontends](#backends-for-frontends)
-23. [Data Engineering](#data-engineering)
-24. [Cloud Migration Checklist](#cloud-migration-checklist)
-25. [Microservices Failures](#microservices-failures)
-26. [Top Microservices Frameworks](#top-microservices-frameworks)
-27. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
-28. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
-29. [From SysAdmin to Architect](#from-sysadmin-to-architect)
-30. [Raft Consensus Algorithm](#raft-consensus-algorithm)
-31. [PaaS](#paas)
-32. [Modular Monolith](#modular-monolith)
-33. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
-34. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
-35. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
-36. [Career Path](#career-path)
-37. [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
-38. [Software Development Models](#software-development-models)
-39. [Domain Driven Design DDD](#domain-driven-design-ddd)
-40. [Software Development Tools](#software-development-tools)
-41. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
-42. [Software in Automotive Industry](#software-in-automotive-industry)
-43. [Data Centers in Spain](#data-centers-in-spain)
-44. [Bunch of Images](#bunch-of-images)
-45. [Videos](#videos)
-46. [Tweets](#tweets)
+21. [Microservices Anti Patterns](#microservices-anti-patterns)
+22. [Micro Frontend Architecture. Microservices for the Frontend](#micro-frontend-architecture-microservices-for-the-frontend)
+23. [Backends for Frontends](#backends-for-frontends)
+24. [Data Engineering](#data-engineering)
+25. [Cloud Migration Checklist](#cloud-migration-checklist)
+26. [Microservices Failures](#microservices-failures)
+27. [Top Microservices Frameworks](#top-microservices-frameworks)
+28. [Transform Legacy Java Apps to Microservices with automation tools](#transform-legacy-java-apps-to-microservices-with-automation-tools)
+29. [Namespaces for Data Structuring](#namespaces-for-data-structuring)
+30. [From SysAdmin to Architect](#from-sysadmin-to-architect)
+31. [Raft Consensus Algorithm](#raft-consensus-algorithm)
+32. [PaaS](#paas)
+33. [Modular Monolith](#modular-monolith)
+34. [From Java EE To Cloud Native](#from-java-ee-to-cloud-native)
+35. [Monolith to Microservices Using the Strangler Pattern](#monolith-to-microservices-using-the-strangler-pattern)
+36. [Microservices to Monolith](#microservices-to-monolith)
+37. [Openshift VS Kubernetes](#openshift-vs-kubernetes)
+38. [Career Path](#career-path)
+39. [Full Stack Developer's Roadmap](#full-stack-developers-roadmap)
+40. [Software Development Models](#software-development-models)
+41. [Domain Driven Design DDD](#domain-driven-design-ddd)
+42. [Software Development Tools](#software-development-tools)
+43. [vFunction. A system to transform monolithic Java applications into microservices](#vfunction-a-system-to-transform-monolithic-java-applications-into-microservices)
+44. [Software in Automotive Industry](#software-in-automotive-industry)
+45. [Data Centers in Spain](#data-centers-in-spain)
+46. [Bunch of Images](#bunch-of-images)
+47. [Videos](#videos)
+48. [Devel Videos](#devel-videos)
+49. [Tweets](#tweets)
 
 ## Introduction
 
 - [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 - [Dzone.com: Kubernetes in 10 minutes: A Complete Guide](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 - [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
-- [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
+- [==Monoliths are the future | Kelsey Hightower==](https://changelog.com/posts/monoliths-are-the-future)
+- [==allthingsdistributed.com: Monoliths are not dinosaurs==](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)
 - [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know/)
 - [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery/)
 - [Dzone: What Is Kubernetes?](https://dzone.com/articles/what-is-kubernetes-in-devops)
@@ -248,10 +252,18 @@
 - [deloitte.com/de: EMEA Center of Excellence for Application Modernization and Migration](https://www2.deloitte.com/de/de/pages/technology/articles/center-of-excellence-application-modernization.html) Accelerate the transformation of your legacy systems
 - [==redis.com: Microservice Architecture Key Concepts==](https://redis.com/blog/microservice-architecture-key-concepts/) What role do microservices play in creating applications? We offer a foundational understanding of what microservices are, how they differ from monolithic structures, and what to consider when you evaluate microservices for your own adoption.
 - [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b/)
-- [thenewstack.io: Learn 12 Factor Apps Before Kubernetes](https://thenewstack.io/learn-12-factor-apps-before-kubernetes/) These best practices provide a framework for building scalable, portable, maintainable and resilient containerized applications.
 - [==designgurus.io: Monolithic vs. Service-Oriented vs. Microservice Architecture: Top Architectural Design Patterns==](https://www.designgurus.io/blog/Monolithic-Service-Oriented-Microservice-Architecture) System Design Interview Preparation: Mastering the Art of System Design.
 - [==thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse== 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/) In its early days, Kubernetes was primarily focused on building features for microservice-based workloads. In recent years, the Kubernetes community has stretched out into batch processing support for High Performance Computing Workloads.
 - [elespanol.com: Mainframe: repaso de pasado y futuro a una tecnología de 1944 que se resiste a morir](https://www.elespanol.com/invertia/disruptores-innovadores/innovadores/tecnologicas/20230416/mainframe-repaso-pasado-futuro-tecnologia-resiste-morir/756174490_0.html)
+- [medium.com/javarevisited: Why Microservices are not silver bullet? 10 Reasons for NOT using Microservices](https://medium.com/javarevisited/why-microservices-are-not-silver-bullet-10-reasons-for-not-using-microservices-74f7c0fa98c) Don’t blindly use Microservices for every single application you build
+- [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance/)
+- [rahulh123.medium.com: Choosing the Right Architecture: Monolithic vs. Microservices — Analyzing Requirements for Success](https://rahulh123.medium.com/choosing-the-right-architecture-monolithic-vs-microservices-analyzing-requirements-for-success-70d681f6a1d0)
+
+## Platform Reference Architecture
+
+- [humanitec.com: Platform reference architecture on Azure](https://humanitec.com/reference-architectures/azure) We looked at the Internal Developer Platforms built and run by some of the world’s best platform engineering teams. We condensed our key learnings for Azure setups into this reference architecture whitepaper.
+- [humanitec.com: Platform reference architecture on GCP](https://humanitec.com/reference-architectures) We looked at the Internal Developer Platforms built and run by some of the world’s best platform engineering teams. We condensed our key learnings for GCP setups into this reference architecture whitepaper.
+- [humanitec.com: Platform reference architecture on AWS](https://humanitec.com/reference-architectures/aws) We looked at the Internal Developer Platforms built and run by some of the world’s best platform engineering teams. We condensed our key learnings for AWS setups into this reference architecture whitepaper.
 
 ## Solution Architect. IT Architecture Frameworks
 
@@ -293,6 +305,9 @@
 
 - [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://acloudguru.com/blog/engineering/twelve-factor-apps-in-kubernetes)
 - [==opensource.com: An open source developer's guide to 12-Factor App methodology==](https://opensource.com/article/21/11/open-source-12-factor-app-methodology) How 12 basic principles can help teams build highly scalable apps quickly and efficiently.
+- [thenewstack.io: Learn 12 Factor Apps Before Kubernetes](https://thenewstack.io/learn-12-factor-apps-before-kubernetes/) These best practices provide a framework for building scalable, portable, maintainable and resilient containerized applications.
+- [itnext.io: 12 factor Microservice applications — on Kubernetes](https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018)
+- [itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes](https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d)
 
 ## Event Driven Architecture EDA
 
@@ -312,6 +327,7 @@
         - Pub-Sub
         - Server Sent Events
 - [dev.to/aws-builders: Un Modelo de EDA: Event Driven Architectures](https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f)
+- [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7)
 
 ## Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures
 
@@ -371,6 +387,7 @@
 - [==simform.com: 10 Microservice Best Practices: The 80/20 Way==](https://www.simform.com/blog/microservice-best-practices/) __Microservice architecture brings higher flexibility and ease of development through decoupled services. However, microservice architecture has specific challenges like efficiency, consistency, security, etc. So, here are some of the microservice best practices, along with real-life usage accounts from leading companies.__
 - [thenewstack.io: Monoliths to Microservices: 4 Modernization Best Practices](https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2/) When it comes to refactoring monolithic apps into Microservices, most engineering teams have no idea where to start.
 - [==itnext.io: 4 Design Patterns for Containers in Kubernetes | Daniele Polencic== 🌟](https://itnext.io/4-container-design-patterns-for-kubernetes-a8593028b4cd)
+- [blog.getambassador.io: Microservice Orchestration Best Practices](https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12)
 
 ## Microservice Patterns
 
@@ -497,6 +514,10 @@
 - [dzone: Monolith to Microservices Using the Strangler Pattern 🌟](https://dzone.com/articles/monolith-to-microservices-using-the-strangler-patt) The Strangler Pattern is a popular design pattern to incrementally transform your monolithic application into microservices by replacing a particular functionality with a new service. Once the new functionality is ready, the old component is strangled, the new service is put into use, and the old component is decommissioned altogether.
 - [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.overops.com/blog/strangler-pattern-how-to-keep-sane-with-legacy-monolith-applications/)
 
+## Microservices to Monolith
+
+- [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90) The move from a distributed microservices architecture to a monolith application helped achieve higher scale, resilience, and reduce costs.
+
 ## Openshift VS Kubernetes
 
 - [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
@@ -597,8 +618,19 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MoIdU0J0f0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j6ow-UemzBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lL_j7ilk7rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dV3wAe8HV7Q?si=DIgTu2lCXZDN9JSu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 </details>
+
+## Devel Videos
+
+??? note "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8pDqJVdNa44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HDKUEXBF3B4?si=PZ1gcK9yEyR4_tmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 
@@ -629,5 +661,11 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do microservices collaborate and interact with each other?<br><br>There are two ways: 𝐨𝐫𝐜𝐡𝐞𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 and 𝐜𝐡𝐨𝐫𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲.<br><br>The diagram below illustrates the collaboration of microservices. <a href="https://t.co/Qp94Zi5Mrq">pic.twitter.com/Qp94Zi5Mrq</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1513907291237494788?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Let&#39;s introduce Microservices, they will make our delivery faster.&quot; A sentence which I hear over and over again and which I consider to be an oversimplification of a complex challenge. A thread 🧵with ten points: 👇</p>&mdash; Michael Plöd (@bitboss) <a href="https://twitter.com/bitboss/status/1591699329462730753?ref_src=twsrc%5Etfw">November 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Amazon Prime Video Replaces Microservices with a Simplified Monolith in their Live Stream Monitoring Service, Resulting in a 90% Architecture Cost Reduction.<br><br>The team accomplished this by:<br><br>- Pinpointing Overhead in the Distributed System<br>- Combining Tightly-Coupled… <a href="https://t.co/Vc2EQY2rSf">pic.twitter.com/Vc2EQY2rSf</a></p>&mdash; Hussein Nasser (@hnasr) <a href="https://twitter.com/hnasr/status/1654705515736494080?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">/1 Why did Amazon Prime Video monitoring move 𝐟𝐫𝐨𝐦 𝐬𝐞𝐫𝐯𝐞𝐫𝐥𝐞𝐬𝐬 𝐭𝐨 𝐦𝐨𝐧𝐨𝐥𝐢𝐭𝐡𝐢𝐜? How can it save 90% cost?<br><br>The diagram below shows the architecture comparison before and after the migration. <a href="https://t.co/FVaLwzQWQc">pic.twitter.com/FVaLwzQWQc</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1655601921322012673?ref_src=twsrc%5Etfw">May 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top 7 Most-Used Distributed System Patterns<br><br>- Ambassador<br>- Circuit Breaker<br>- CQRS<br>- Event Sourcing<br>- Leader Election<br>- Publisher/Subscriber<br>- Sharding<br><br>Which additional patterns have we overlooked?<br><br>Watch and subscribe here (YouTube video): <a href="https://t.co/8GAt27x5Zj">https://t.co/8GAt27x5Zj</a> <a href="https://t.co/oIDyMtjCfW">pic.twitter.com/oIDyMtjCfW</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1655958815593095173?ref_src=twsrc%5Etfw">May 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
