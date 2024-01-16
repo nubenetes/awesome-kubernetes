@@ -200,6 +200,7 @@ Kubernetes packages
 - [artifacthub.io: Official Helm charts for HAProxy and the HAProxy Kubernetes Ingress Controller on Artifact Hub 🌟](https://artifacthub.io/packages/search?repo=haproxytech)
 - [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts/)
 - [boxunix.com: Developer’s Guide to Writing a Good Helm Chart](https://boxunix.com/2022/02/05/developers-guide-to-writing-a-good-helm-chart/)
+- [HULL](https://github.com/vidispine/hull) The incredible HULL - Helm Uniform Layer Library - is a Helm library chart to improve Helm chart based workflows
 
 ## Shalm. Scriptable helm charts
 
