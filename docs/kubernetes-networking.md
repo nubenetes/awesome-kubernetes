@@ -192,6 +192,7 @@
     - Pods are associated with the service through labels
     - DNS records are created for each pod associated with the service
     - Clients can use the DNS records to directly access each pod
+- [goglides.dev: Headless services in Kubernetes Vs Regular Service: What, Why, and How?](https://www.goglides.dev/bkpandey/headless-services-in-kubernetes-what-why-and-how-39fl)
 
 ## NetworkPolicy
 

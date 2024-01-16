@@ -91,6 +91,7 @@
 - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316) In this tutorial, you will learn how to debug an application deployed in Kubernetes remotely using VS Code and Delve
 - [thenewstack.io: Kubernetes Troubleshooting Primer](https://thenewstack.io/kubernetes-troubleshooting-primer/) A quick methodology for overcoming common error messages with examples of commands to help — useful for both the administrator and developer alike.
 - [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-debugging-tips)
+- [vik-y.medium.com: An easier way to auto-remediate memory leaks on Kubernetes!](https://vik-y.medium.com/an-easier-way-to-auto-remediate-memory-leaks-on-kubernetes-a922457674f4)
 
 ## Kubernetes Network Troubleshooting
 
@@ -113,6 +114,7 @@
 - [erkanerol.github.io: I wish pods were fully restartable](https://erkanerol.github.io/post/restartable-pods/) Why are Pod not fully restartable in Kubernetes? Why is Kubernetes not restarting the Pod in **CrashLoopBackOff**?
 - [pauldally.medium.com: Why Leaving Pods in CrashLoopBackOff Can Have a Bigger Impact Than You Might Think](https://pauldally.medium.com/why-leaving-pods-in-crashloopbackoff-can-have-a-bigger-impact-than-you-might-think-c0d3dbd067a)
 - [sysdig.com: What is Kubernetes CrashLoopBackOff? And how to fix it 🌟](https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/) CrashLoopBackOff is a Kubernetes state representing a restart loop that is happening in a Pod: a container in the Pod is started but crashes and is then restarted over and over again. Learn what it is and how to fix it in this article
+- [komodor.com: Kubernetes CrashLoopBackOff Error: What It Is and How to Fix It](https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error)
 
 ## Failed to Create Pod Sandbox
 

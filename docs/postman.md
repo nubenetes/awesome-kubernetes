@@ -30,6 +30,7 @@
 - [==blog.postman.com: Introducing the Secret Variable Type in Postman==](https://blog.postman.com/introducing-secret-variable-type-in-postman/)
 - [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/)
 - [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try/)
+- [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/)
 
 ## Newman
 
@@ -48,6 +49,6 @@
 
 ## Alternatives. Rest Assured
 
-- https://rest-assured.io 
+- https://rest-assured.io
 - [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io)
 - [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide/) REST Assured is a Java library that makes it easy to test RESTful web services. It provides a simple DSL (domain-specific language) for describing the desired behavior of RESTful web service and automatically verifies the results. REST Assured can be used for both automated and manual testing. It has been designed to work with popular open-source automation frameworks such as Selenium, Cucumber, and Spock. REST Assured is particularly well suited for API testing, but it can also be used for testing other types of web services. REST Assured is open source, released under the Apache License 2.0.

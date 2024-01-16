@@ -171,6 +171,7 @@ You can filter by topic using the toolbar above.
 ## AWS Config Rules
 
 - [AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)](https://aws.amazon.com/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/)
+- [medium.com/swlh: AWS Config — Compliance as Code](https://medium.com/swlh/aws-config-compliance-as-code-9621eb3b7ac7)
 
 ## AWS Management Console
 

@@ -145,6 +145,7 @@
 - [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/)
 - [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/)
 - [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/)
+- [medium.com/@Techie1: Networking tasks in production using Ansible](https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7)
 
 ## Ansible AI
 

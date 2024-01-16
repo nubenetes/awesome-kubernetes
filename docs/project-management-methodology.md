@@ -126,6 +126,7 @@
 - [mariocortes.net: La crisis de seniority](https://www.mariocortes.net/la-crisis-de-seniority/) El “seniority” no está relacionado exclusivamente con la experiencia profesional, sino a la capacidad de un profesional para enfrentarse a un problema o reto y la aptitud con la que se enfrenta a él.
 - [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782)
 - [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/a-fondo/este-ex-ceo-explica-que-hay-demasiados-empleados-empresas-contratas-a-alguien-primero-que-quiere-contratar)
+- [businessinsider.es: La brillante explicación de Steve Jobs sobre por qué los buenos empleados renuncian al trabajo](https://www.businessinsider.es/explicacion-steve-jobs-buenos-empleados-renuncian-1137601)
 
 ### Team Topologies
 

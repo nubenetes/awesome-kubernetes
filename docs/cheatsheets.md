@@ -325,6 +325,7 @@
 - [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
 - [searchitoperations.techtarget.com: Terraform cheat sheet: Notable commands, HCL and more](https://searchitoperations.techtarget.com/tip/Terraform-cheat-sheet-Notable-commands-HCL-and-more) Terraform has a lot going on. This cheat sheet rounds up the essentials, from configuration settings to the key commands for managing the Terraform directory.
 - [techbeatly.com: Terraform Cheat Sheet](https://www.techbeatly.com/terraform-cheat-sheet/)
+- [praveendandu24.medium.com: Mastering Terraform: Top 20 Essential Commands with Examples for Beginners](https://praveendandu24.medium.com/mastering-terraform-top-20-essential-commands-with-examples-for-beginners-1029852b419)
 
 ## Linux Command Cheat Sheets
 

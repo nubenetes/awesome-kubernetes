@@ -948,7 +948,7 @@
 - [ithands-on.com: Kubernetes 101 : Changing a Pod's label on the fly](https://www.ithands-on.com/2021/04/kubernetes-101-changing-pods-label-on.html)
 - [blog.newrelic.com: Kubernetes Fundamentals, Part 4: How to Organize Clusters](https://blog.newrelic.com/engineering/how-to-organize-kubernetes-clusters/)
 - [cast.ai: Kubernetes Labels: Expert Guide with 10 Best Practices](https://cast.ai/blog/kubernetes-labels-expert-guide-with-10-best-practices/) With Kubernetes labels, DevOps teams can troubleshoot issues faster, apply configuration changes en masse, and respond quickly to issues. Labels also give crucial insights into your costs, boosting your monitoring, allocation, and management capabilities. Following best practices when using labels helps you realize tremendous benefits from infrastructure visibility and efficient operations.
-- [==itnext.io: Labels & Annotations in Kubernetes==](https://itnext.io/labels-and-annotations-in-kubernetes-234944b0f7ab) In Kubernetes, you can use labels to assign key-value pairs to any resources. Labels are ubiquitous and necessary to everyday operations such as creating services. However, how should you name and use those labels?
+- [==itnext.io: Labels & Annotations in Kubernetes== | Daniele Polencic](https://itnext.io/labels-and-annotations-in-kubernetes-234944b0f7ab) In Kubernetes, you can use labels to assign key-value pairs to any resources. Labels are ubiquitous and necessary to everyday operations such as creating services. However, how should you name and use those labels? - [dev.to: Labels and annotations in Kubernetes](https://dev.to/danielepolencic/labels-and-annotations-in-kubernetes-j4i)
 
 #### Kubernetes Taints and Tolerations
 
@@ -1189,7 +1189,10 @@
     - Set LimitRanges for each namespace;
     - Enforce rations between requests and limits
 - [faun.pub: Optimize Kubernetes Resource Management with Time-To-Live (TTL) for Cleaner Cluster](https://faun.pub/optimize-kubernetes-resource-management-with-time-to-live-ttl-for-cleaner-cluster-ea1c6e0c1e73) Streamline Kubernetes Resource Management: Learn How to Use Time-To-Live (TTL) to Keep Your Cluster Clean and Optimized
-- [==itnext.io: Memory Request + Limit in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/memory-requests-and-limits-in-kubernetes-1c9cd573b3ab)
+- [==itnext.io: Memory Request + Limit in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/memory-requests-and-limits-in-kubernetes-1c9cd573b3ab) - - [community.ops.io: Memory requests and limits in Kubernetes | Daniele Polencic](https://community.ops.io/danielepolencic/memory-requests-and-limits-in-kubernetes-217g)
+    - In Kubernetes, you have 2 ways to specify how much memory a pod can use:
+        - Requests — usually set to the process consumption
+        - Limits set the max number of resources allowe
 - [==itnext.io: CPU Request + Limit in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/cpu-limits-and-requests-in-kubernetes-fa9d55948b7c) In Kubernetes, what should I use as CPU requests and limits?
 - [dev.to/pavanbelagatti: Learn How to Set Kubernetes Resource Requests and Limits](https://dev.to/pavanbelagatti/learn-how-to-set-kubernetes-resource-requests-and-limits-23n2)
 - [iceburn.medium.com: Kubernetes Resource Requests and Resource Limits](https://iceburn.medium.com/kubernetes-resource-requests-and-resource-limits-99c549c5a439)
@@ -1198,6 +1201,7 @@
 - [medium.com/@mark.andreev: How to configure Kubernetes memory limits for Java application](https://medium.com/@mark.andreev/how-to-configure-kubernetes-memory-limits-for-java-application-ec0cc5a68c24) This article explores the JVM memory structure and flags that can be used to limit memory usage and how those map back to Kubernetes and cgroups v2.
 - [sosiv.io: A Deep Dive into Kubernetes Resource Requests and Limits](https://sosiv.io/post/a-deep-dive-into-kubernetes-resource-requests-and-limits)
 - [medium.com/pipedrive-engineering: How we choked our Kubernetes NodeJS services](https://medium.com/pipedrive-engineering/how-we-choked-our-kubernetes-nodejs-services-932acc8cc2be) Learn from the Pipedrive engineering team experience how to manage memory and CPU resources properly in NodeJS and Kubernetes without slowing down your services
+- [medium.com/@eliran89c: For the love of god, learn when to use CPU limits on Kubernetes](https://medium.com/@eliran89c/for-the-love-of-god-learn-when-to-use-cpu-limits-on-kubernetes-2225341e9dbd) In this article, you'll explore how CPU requests and limits work, why they were introduced, and how to monitor CPU usage
 
 ### Kubernetes Scheduler. Kube Scheduler
 

@@ -11,11 +11,12 @@
 9. [Data Science](#data-science)
 10. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
 11. [Other Tools](#other-tools)
-12. [Samples](#samples)
-13. [ML Courses](#ml-courses)
-14. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-15. [Polls](#polls)
-16. [Tweets](#tweets)
+12. [Debugging ML Jobs](#debugging-ml-jobs)
+13. [Samples](#samples)
+14. [ML Courses](#ml-courses)
+15. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+16. [Polls](#polls)
+17. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -152,6 +153,13 @@
     - https://pypi.org/project/vaex/
 - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists/) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
 - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
+- [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything
+
+## Debugging ML Jobs
+
+- [betterprogramming.pub: Attach a Visual Debugger to ML-training Jobs on Kubernetes](https://betterprogramming.pub/attach-a-visual-debugger-to-ml-training-jobs-on-kubernetes-eb9678389f1f)
+    - As machine learning models grow in size and complexity, cloud resources are more and more often required for training. However, debugging training jobs running in the cloud can be time-consuming and challenging. In this blog post, we’ll explore how to attach a visual debugger in VSCode to a remote deep learning training environment, making debugging simpler and more efficient.
+    - In this tutorial, you'll deploy a local Kubernetes cluster with k3d, install the MLOps workflow orchestration engine Flyte, create a simple training workflow, and finally visually debug it using VSCode and debugpy
 
 ## Samples
 

@@ -251,21 +251,7 @@
 
 ### Kustomize. Kubernetes native configuration management
 
-- [kustomize.io 🌟](https://kustomize.io/)
-    - Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as apply -k.
-    - Kustomize traverses a Kubernetes manifest to add, remove or update configuration options without forking.
-    - __It is available both as a standalone binary and as a native feature of kubectl.__
-- [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627)
-- [pauldally.medium.com: Kustomize Best Practices (Part 1)](https://pauldally.medium.com/kustomize-best-practices-part-1-86f9f22d2f20) Kubectl includes a very useful command called kustomize that allows a template-free way to customize Kubernetes application configuration.
-    - [pauldally.medium.com: Kustomize Best Practices (Part 2)](https://pauldally.medium.com/kustomize-best-practices-part-2-c560f1fa1409)
-- [notmattlucas.com: Kubernetes Configuration with Kustomize](https://notmattlucas.com/kubernetes-configuration-with-kustomize-f4dbba250f3)
-- [medium.com/@nanditasahu031: How to Start with Kustomize — it’s Features](https://medium.com/@nanditasahu031/how-to-start-with-kustomize-its-features-dd541c3d2fa8)
-- [harness.io: Comparing Helm vs Kustomize](https://harness.io/blog/helm-vs-kustomize)
-- [nicolasbarlatier.hashnode.dev: Introduction Kubernetes and Kustomize: How to easily customize any resource configuration with Kustomize?](https://nicolasbarlatier.hashnode.dev/introduction-kubernetes-and-kustomize-how-to-easily-customize-any-resource-configuration-with-kustomize) In this tutorial, you will learn how to use Kustomize to template the number of replicas in a workload based on the environment (e.g. 1 pod in dev, 10 pods in prod)
-- [==github.com/kostis-codefresh: How to Model Your Gitops Environments with kustomize== 🌟](https://github.com/kostis-codefresh/gitops-environment-promotion) In this repository, you'll find an example of how to model Kustomize folders for a GitOps application and promote releases between environments
-- [dev.to: Kubernetes Kustomize Tutorial: A Beginner-Friendly Developer Guide!](https://dev.to/pavanbelagatti/kubernetes-kustomize-tutorial-a-beginner-friendly-developer-guide-322n)
-- [pauldally.medium.com: Kustomize Best Practices (part 3)](https://pauldally.medium.com/kustomize-best-practices-part-3-1dbaa15fd16a)
-- [levelup.gitconnected.com: Helm vs. Kustomize: Navigating Kubernetes Configuration Complexity](https://levelup.gitconnected.com/helm-vs-kustomize-navigating-kubernetes-configuration-complexity-ae86596c3cf2)
+- [Kustomize - Template-Free Kubernetes Configuration Customization](kustomize.md)
 
 ### Flagger
 

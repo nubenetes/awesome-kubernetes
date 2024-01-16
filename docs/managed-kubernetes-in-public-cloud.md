@@ -222,6 +222,7 @@
 - [Simplifying Amazon EBS volume migration and modification on Kubernetes using the EBS CSI Driver](https://aws.amazon.com/de/blogs/storage/simplifying-amazon-ebs-volume-migration-and-modification-using-the-ebs-csi-driver/)
 - [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/) In this post, you'll learn how to over-provision the cluster worker nodes using dummy pods for quicker scaling. The dummy pods contain a pause container that is scheduled by the scheduler according to pod specifications' placements and CPU/memory.
 - [==itnext.io: Efficient Kubernetes Cluster Deployment: Accelerating Setup with EKS Blueprints==](https://itnext.io/efficient-kubernetes-cluster-deployment-accelerating-setup-with-eks-blueprints-68324b582ec9)
+- [medium.com/@danielresponda: Testing Spot Reclamation Mechanisms with AWS Node Termination Handler and Kubernetes Autoscaler](https://medium.com/@danielresponda/testing-spot-reclamation-mechanisms-with-aws-node-termination-handler-and-kubernetes-autoscaler-43194d05dae0) What happens if a spot instance is reclaimed, but no more capacity is available in the cluster? In this article, you will learn how to use the AWS Node Termination Handler with Kubernetes Autoscaler to handle spot reclamations seamlessly
 
 ### EKS Upgrades
 
@@ -452,6 +453,7 @@
     - Workload identities
     - Pod Security admissions and admission controllers
     - GKE sandbox
+- [medium.com/@jjlakis: GCP Secret Manager with self-hosted Kubernetes](https://medium.com/@jjlakis/gcp-secret-manager-with-self-hosted-kubernetes-db35d01d65f0) In this article, you will learn how to use the GCP secret manager to store secrets for an on-prem k3s cluster
 
 ## IKS IBM Cloud Kubernetes Service
 

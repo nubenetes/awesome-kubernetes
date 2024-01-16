@@ -780,6 +780,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 1](https://doylestowncoder.com/2021/11/29/building-ci-cd-pipelines-with-azure-data-factory-part-1/)
     - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 2](https://doylestowncoder.com/2021/12/02/building-ci-cd-pipelines-with-azure-data-factory-part-2/)
     - [doylestowncoder.com: Building CI/CD Pipelines with Azure Data Factory: Part 3](https://doylestowncoder.com/2021/12/05/building-ci-cd-pipelines-with-azure-data-factory-part-3/)
+- [github.com/microsoft: Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting#contoso-traders---cloud-testing-tools-demo-app) The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio.
 
 ### Azure DevOps Demos. Azure DevOps Pipelines
 
@@ -884,6 +885,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [dev.to: Creating a Rest API with Infrastructure as Code (Terraform) & Serverless (Lambda + Python) - Part 2 CI/CD](https://dev.to/aws-builders/creating-a-rest-api-with-infrastructure-as-code-terraform-serverless-lambda-python-part-2-cicd-g8h)
 - [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47)
 - [blog.awsfundamentals.com: Using S3 with Terraform](https://blog.awsfundamentals.com/using-s3-with-terraform)
+- [devopscube.com/terraform-aws-rds](https://devopscube.com/terraform-aws-rds) Terraform AWS RDS Provisioning Tutorial
 
 ## Prometheus and Grafana
 

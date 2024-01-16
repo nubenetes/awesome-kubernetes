@@ -7,14 +7,15 @@
 5. [Git Branches](#git-branches)
 6. [Git Merge](#git-merge)
 7. [Git Aliases](#git-aliases)
-8. [Git and GitHub Backup](#git-and-github-backup)
-9. [Cherry-picking](#cherry-picking)
-10. [Git Submodules](#git-submodules)
-11. [Shields](#shields)
-12. [Design By Contract](#design-by-contract)
-13. [Git Cheat Sheets](#git-cheat-sheets)
-14. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
-15. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+8. [Git Rebase](#git-rebase)
+9. [Git and GitHub Backup](#git-and-github-backup)
+10. [Cherry-picking](#cherry-picking)
+11. [Git Submodules](#git-submodules)
+12. [Shields](#shields)
+13. [Design By Contract](#design-by-contract)
+14. [Git Cheat Sheets](#git-cheat-sheets)
+15. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
+16. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
      1. [Git Workflows](#git-workflows)
      2. [Trunk Based Development](#trunk-based-development)
      3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
@@ -24,11 +25,11 @@
      5. [Alternative Branching Models](#alternative-branching-models)
          1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
              1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
-16. [Git Commands](#git-commands)
-17. [BitBucket](#bitbucket)
-18. [GitLab](#gitlab)
+17. [Git Commands](#git-commands)
+18. [BitBucket](#bitbucket)
+19. [GitLab](#gitlab)
      1. [GitLab Collective](#gitlab-collective)
-19. [GitHub](#github)
+20. [GitHub](#github)
      1. [GitHub Lab](#github-lab)
      2. [GitHub Code Scanner](#github-code-scanner)
      3. [GitHub Actions](#github-actions)
@@ -39,14 +40,14 @@
          2. [GitHub Copilot X](#github-copilot-x)
          3. [Alternatives](#alternatives)
              1. [CodiumAI](#codiumai)
-20. [Gitea](#gitea)
-21. [Sapling](#sapling)
-22. [Git Tools](#git-tools)
+21. [Gitea](#gitea)
+22. [Sapling](#sapling)
+23. [Git Tools](#git-tools)
      1. [Git Credential Manager](#git-credential-manager)
      2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
-23. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-24. [Pre Commit Hooks](#pre-commit-hooks)
-25. [Merge BOTs](#merge-bots)
+24. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
+25. [Pre Commit Hooks](#pre-commit-hooks)
+26. [Merge BOTs](#merge-bots)
      1. [Tips](#tips)
      2. [Jenkins for git merges](#jenkins-for-git-merges)
      3. [Bitbucket for git merges](#bitbucket-for-git-merges)
@@ -57,9 +58,9 @@
      7. [Mergify bot](#mergify-bot)
      8. [GitHub bots](#github-bots)
          1. [Bors GitHub bot](#bors-github-bot)
-26. [Videos](#videos)
-27. [Slides](#slides)
-28. [Tweets](#tweets)
+27. [Videos](#videos)
+28. [Slides](#slides)
+29. [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
 
@@ -110,7 +111,6 @@
 - [thenewstack.io: Why Open Source Project Maintainers are Reluctant to use Digital Signatures, Two-Factor Authentication](https://thenewstack.io/why-open-source-project-maintainers-are-reluctant-to-use-digital-signatures-two-factor-authentication/)
 - [geeksforgeeks.org: How to Write Good Commit Messages in GitHub?](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
 - [freecodecamp.org: What is Git? A Beginner's Guide to Git Version Control](https://www.freecodecamp.org/news/what-is-git-learn-git-version-control)
-- [dev.to: ELI5: Git Rebase vs. Merge 🌟](https://dev.to/karaluton/explain-like-i-m-five-git-rebase-vs-merging-1k69)
 - [c-sharpcorner.com: 0 Git Commands You Should Know](https://www.c-sharpcorner.com/article/20-git-commands-you-should-know/)
 - [opensource.com: Find what changed in a Git commit](https://opensource.com/article/21/4/git-whatchanged) Git offers several ways you can quickly see which files changed in a commit.
 - [freecodecamp.org: How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
@@ -165,7 +165,6 @@
 - [infoworld.com: What is Git? Version control for collaborative programming](https://www.infoworld.com/article/3654955/what-is-git-version-control-for-collaborative-programming.html)
 - [==dev.to: How Do I Resolve Merge Conflicts?==](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438)
     - [==dev.to: How to Undo Pushed Commits with Git==](https://dev.to/github/how-to-undo-pushed-commits-with-git-2pe6)
-- [==opensource.com: My guide to understanding Git rebase -i==](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) The git rebase command is one of the most powerful in Git. It can rewrite your repository's commit history by rearranging, modifying, and even deleting commits.
 - [opensource.com: My guide to using the Git push command safely](https://opensource.com/article/22/4/git-push) Understand the usage and impact of this popular Git command on your project, learn new safer alternatives, and grasp the skills of restoring a broken branch.
 - [opensource.com: Make your own Git subcommands](https://opensource.com/article/22/4/customize-git-subcommands) Creating your own Git subcommand makes your custom scripts feel like natural components of Git.
 - [betterprogramming.pub: 2 Use Cases of Python Pre-commit Hooks to Tidy Up Your Git Repositories](https://betterprogramming.pub/2-use-cases-of-python-pre-commit-hooks-to-tidy-up-your-git-repositories-8d86c9c4f06b) Strategies to have a better-organized codebase
@@ -217,6 +216,7 @@
 - [blog.devops.dev: Stop messing up with Git. Follow this simple and effective strategy to maintain Git branches](https://blog.devops.dev/stop-messing-up-with-git-follow-this-simple-and-effective-strategy-to-maintain-git-branches-cc378468cde6)
 - [medium.com/@selvamraju007: GIT Branching Strategies](https://medium.com/@selvamraju007/git-branching-strategies-a6eafe4541ae)
 - [dev.to/varbsan: A Simplified Convention for Naming Branches and Commits in Git](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
+- [medium.com/@amid.ukr: Agile Git branching strategies in 2023](https://medium.com/@amid.ukr/agile-git-branching-strategies-in-2023-caeead79ddd)
 
 ## Git Merge
 
@@ -227,6 +227,12 @@
 - [opensource.com: 8 Git aliases that make me more efficient](https://opensource.com/article/20/11/git-aliases) Use aliases to create shortcuts for your most-used or complex Git commands.
 - [davidwalsh.name: More Awesome Git Aliases](https://davidwalsh.name/more-awesome-git-aliases)
 - [blog.mimacom.com: The Git Commands You Wish You Always Had](https://blog.mimacom.com/git-aliases-you-wished-you-had/)
+
+## Git Rebase
+
+- [dev.to: ELI5: Git Rebase vs. Merge 🌟](https://dev.to/karaluton/explain-like-i-m-five-git-rebase-vs-merging-1k69)
+- [==opensource.com: My guide to understanding Git rebase -i==](https://opensource.com/article/22/4/manage-git-commits-rebase-i-command) The git rebase command is one of the most powerful in Git. It can rewrite your repository's commit history by rearranging, modifying, and even deleting commits.
+- [freecodecamp.org/news/git-rebase-handbook](https://www.freecodecamp.org/news/git-rebase-handbook/)
 
 ## Git and GitHub Backup
 

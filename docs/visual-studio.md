@@ -330,6 +330,7 @@ A simple extension to make indentation more readable
 - [Navigate your code's history](https://www.youtube.com/shorts/6IwjxcDbVW0)
 - [Vertical rulers](https://www.youtube.com/shorts/cTE0ec3IurE)
 - [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU)
+- [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk)
 
 ## Videos
 

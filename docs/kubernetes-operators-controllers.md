@@ -159,6 +159,9 @@
 - [medium.com/lonto-digital-services-integrator: Why We Developed Own Kubernetes Controller to Copy Secrets](https://medium.com/lonto-digital-services-integrator/why-we-developed-own-kubernetes-controller-to-copy-secrets-e46368ae6db9) In this article, you will learn the thought process, design decision and code that led to writing a custom controller to copy secrets from Hashicorp Vault to Kubernetes
 - [thenewstack.io: HashiCorp Vault Operator Manages Kubernetes Secrets](https://thenewstack.io/hashicorp-vault-operator-manages-kubernetes-secrets/) HashiCorp's new open source project, released alongside Vault 1.13 and now available in beta, makes it easier to use Vault with Kubernetes Secrets, automating tasks that were previously manual.
 - [medium.com/@senjutide2000: Designing a Controller for Custom Resources from scratch for absolute beginners](https://medium.com/@senjutide2000/designing-a-controller-for-custom-resources-from-scratch-for-absolute-beginners-9cb84b7f906f) In this tutorial (and related repository and follow-up article), you will learn how to create your first Custom Resource Definition, Custom Resource and get a basic idea of the workflow of a controller
+- [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard-kubernetes-operator) Kubernetes Operator to handle cross-site, cross-distribution & multi-Kubernetes usage tracking, analytics and accounting (vanilla Kubernetes, OpenShift, EKS, AKS, GKE and other distros).
+    - Krossboard is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software
+    - Each instance of Krossboard enables tracking the usage of a set of Kubernetes clusters listed in a kubeconfig secret
 
 ## OpenTelemetry Operator
 
@@ -179,6 +182,7 @@
     - When designing/writing an application, intended to run on the Kubernetes, one should take into account capabilities provided by Kubernetes and take that information when designing software architecture. It can speed up implementation, make an application more reliable and the code can focus more on business logic itself.
 
     - There are multiple ways to create an operator. You could write one from scratch using Kubernetes  client-go. It’s a tedious task and the learning curve is steep. As an alternative, multiple tools provide boilerplate code and speed up the writing of operators. Popular ones are Operatorsdk and Kubebuilder. The focus of the article will be on creating an operator using Kubebuilder. Let’s create an operator which will create a pod running a simple HTTP API and bind some data to the HTTP API.
+- [dev.to/thenjdevopsguy: What Is A Kubernetes Operator?](https://dev.to/thenjdevopsguy/what-is-a-kubernetes-operator-53kb)
 
 ## operatorhub.io
 

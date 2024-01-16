@@ -143,6 +143,7 @@
 - [==itnext.io: Journey Of A Microservice Application In The Kubernetes World== 🌟](https://itnext.io/journey-of-a-microservice-application-in-the-kubernetes-world-6abd625c60fe) Security considerations: security related tools. In this article, you will discuss some security considerations and see how you can ensure (at least to some extent) that the application's specifications follow some of the best security practices.
 - [tutorialboy24.blogspot.com: A Detailed Talk about K8S Cluster Security from the Perspective of Attackers (Part 2) 🌟](https://tutorialboy24.blogspot.com/2022/09/a-detailed-talk-about-k8s-cluster.html) In this 2-part series, you will address 12 common attack points in Kubernetes clusters and discuss various risks in cloud-native scenarios based on practical experience
 - [medium.com/cloudyrion: Kubernetes end-to-end chain exploit](https://medium.com/cloudyrion/kubernetes-end-to-end-chain-exploit-c2be32688fd0) This article details the security flaws discovered in Kubernetes and GitOps tools due to improper configurations. It also demonstrates how an attacker could perform post-exploitation attacks, increasing their privileges and the attack surface.
+- [==itnext.io: Performing Security Checks for Deployed Kubernetes Manifests==](https://itnext.io/performing-security-checks-for-deployed-kubernetes-manifests-fa9d442b7951) An effective tool for checking security rule violations in Kubernetes deployments using **Polaris**
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

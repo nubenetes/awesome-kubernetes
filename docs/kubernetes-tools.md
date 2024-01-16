@@ -616,6 +616,9 @@ elastic quotas - Effortless optimization at its finest!
 - [github.com/lsdopen/ahoy](https://github.com/lsdopen/ahoy) Ahoy helps teams release and manage applications and services across multiple k8s clusters without needing to write any yaml.
 - [github.com/opencontrolplane](https://github.com/opencontrolplane) OpenCP (Open Control Plane) is an open source project designed to provide a single interface to manage infrastructure across providers using a single tool: kubectl
 - [github.com/yonahd/orphaned-configmaps: Orphaned ConfigMaps](https://github.com/yonahd/orphaned-configmaps) A script for finding orphaned configmaps
+- [github.com/updatecli/updatecli](https://github.com/updatecli/updatecli) A Declarative Dependency Management tool
+    - Automatically open a PR on your GitOps repository when a third party service publishes an update
+    - Updatecli is a tool used to apply file update strategies. Designed to be used from everywhere, each application "run" detects if a value needs to be updated using a custom strategy then apply changes according to the strategy.
 
 ## kubecfg
 
