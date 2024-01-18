@@ -46,6 +46,7 @@
 34. [Azure DNS](#azure-dns)
 35. [Azure OpenVPN](#azure-openvpn)
 36. [Azure Security](#azure-security)
+     1. [Azure Microsoft Defender for Cloud](#azure-microsoft-defender-for-cloud)
 37. [Azure Virtual WAN. vWAN](#azure-virtual-wan-vwan)
 38. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
 39. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
@@ -167,6 +168,7 @@
 ## Mission-critical Architecture on Azure
 
 - [==learn.microsoft.com: Mission-critical baseline architecture on Azure==](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro)
+- [learn.microsoft.com: Mission-critical workloads](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview)
 
 ## Understand Azure Load Balancing
 
@@ -454,6 +456,7 @@
 - [techcommunity.microsoft.com: How to install an AKS cluster with the Istio service mesh add-on via Bicep](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/how-to-install-an-aks-cluster-with-the-istio-service-mesh-add-on/ba-p/3802069)
 - [techcommunity.microsoft.com: (Part-1) Leverage Bicep: Standard model to Automate Azure IaaS deployment](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/part-1-leverage-bicep-standard-model-to-automate-azure-iaas/ba-p/3804348)
 - [blog.cloudtrooper.net: Deploy (Azure) Network-as-Code as a champ](https://blog.cloudtrooper.net/2023/06/08/deploy-azure-network-as-code-as-a-champ/)
+- [learn.microsoft.com: Discover misconfigurations in Infrastructure as Code (IaC)](https://learn.microsoft.com/en-us/azure/defender-for-cloud/iac-vulnerabilities)
 
 ## Azure Cross region Load Balancer
 
@@ -479,6 +482,10 @@
 - [learn.microsoft.com: SC-100: Design a Zero Trust strategy and architecture](https://learn.microsoft.com/en-us/training/paths/sc-100-design-zero-trust-strategy-architecture/)
     - https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect
 - [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview)
+
+### Azure Microsoft Defender for Cloud
+
+- [github.com/Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard) Network Security Dashboard for Microsoft Defender for Cloud
 
 ## Azure Virtual WAN. vWAN
 

@@ -54,6 +54,7 @@
 
 - [==Checkmarx/kics==](https://github.com/Checkmarx/kics) Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx. KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
 - [==gofireflyio/aiac== 🌟](https://github.com/gofireflyio/aiac) **Artificial Intelligence Infrastructure-as-Code Generator.**
+- [==github.com/gofireflyio/aiac: AIaC==](https://github.com/gofireflyio/aiac) Artificial Intelligence Infrastructure-as-Code Generator.
 
 ## Infrastructure as Code using Kubernetes
 

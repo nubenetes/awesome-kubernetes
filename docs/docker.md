@@ -2,32 +2,33 @@
 
 1. [Introduction and Tutorials](#introduction-and-tutorials)
 2. [Docker Best Practices](#docker-best-practices)
-3. [Docker Volumes](#docker-volumes)
-4. [Debugging](#debugging)
-5. [Docker CLI](#docker-cli)
-6. [Docker Extensions](#docker-extensions)
-7. [Docker Swarm](#docker-swarm)
-8. [Awesome Lists](#awesome-lists)
-9. [Docker VS Kubernetes](#docker-vs-kubernetes)
-10. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
-11. [Docker Security](#docker-security)
-12. [How To Build a Smaller Docker Image and write dockerfiles efficiently](#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently)
-13. [Reducing Build Time](#reducing-build-time)
-14. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
-15. [Docker Tools](#docker-tools)
-16. [Docker and WSL2](#docker-and-wsl2)
-17. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
-18. [Docker Compose](#docker-compose)
-19. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
-20. [Windows Containers](#windows-containers)
-21. [Portainer](#portainer)
-22. [DockStation](#dockstation)
-23. [Linux Container Base Images](#linux-container-base-images)
-24. [Blogs](#blogs)
-25. [Cloud Native Buildpacks](#cloud-native-buildpacks)
-26. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
-27. [Videos and Podcasts](#videos-and-podcasts)
-28. [Tweets](#tweets)
+3. [Docker Networking](#docker-networking)
+4. [Docker Volumes](#docker-volumes)
+5. [Debugging](#debugging)
+6. [Docker CLI](#docker-cli)
+7. [Docker Extensions](#docker-extensions)
+8. [Docker Swarm](#docker-swarm)
+9. [Awesome Lists](#awesome-lists)
+10. [Docker VS Kubernetes](#docker-vs-kubernetes)
+11. [Docker Patterns and Antipatterns](#docker-patterns-and-antipatterns)
+12. [Docker Security](#docker-security)
+13. [How To Build a Smaller Docker Image and write dockerfiles efficiently](#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently)
+14. [Reducing Build Time](#reducing-build-time)
+15. [Modify containers without rebuilding](#modify-containers-without-rebuilding)
+16. [Docker Tools](#docker-tools)
+17. [Docker and WSL2](#docker-and-wsl2)
+18. [Docker and Docker Swarm Cheat sheets](#docker-and-docker-swarm-cheat-sheets)
+19. [Docker Compose](#docker-compose)
+20. [Moving Linux Services Into Containers](#moving-linux-services-into-containers)
+21. [Windows Containers](#windows-containers)
+22. [Portainer](#portainer)
+23. [DockStation](#dockstation)
+24. [Linux Container Base Images](#linux-container-base-images)
+25. [Blogs](#blogs)
+26. [Cloud Native Buildpacks](#cloud-native-buildpacks)
+27. [Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building](#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building)
+28. [Videos and Podcasts](#videos-and-podcasts)
+29. [Tweets](#tweets)
 
 ## Introduction and Tutorials
 
@@ -175,6 +176,14 @@
 - [==stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images==](https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/)
 - [faun.pub: Dockerfile Best Practices for Developers | Pavan Belagatti](https://faun.pub/dockerfile-best-practices-for-developers-87a2c19b4abe)
 - [azeynalli1990.medium.com: 15 Best Practices when working with Docker](https://azeynalli1990.medium.com/15-best-practices-when-working-with-docker-720d2d8de202)
+
+## Docker Networking
+
+- [hwchiu.medium.com: Docker Networking Model — Introduction](https://hwchiu.medium.com/docker-networking-model-introduction-194a2a2c9b68) This article provides an overview of several basic network models for Docker Containers:
+    - None
+    - Host
+    - Bridge
+    - Container:$ID
 
 ## Docker Volumes
 

@@ -147,6 +147,7 @@
 - [ankush-chavan.medium.com: Creating Multi-Cloud Kubernetes Cluster on AWS, Azure, and GCP cloud](https://ankush-chavan.medium.com/creating-multi-cloud-kubernetes-cluster-on-aws-azure-and-gcp-cloud-92d64633bdfc)
 - [redhat.com: Build a lab in 36 seconds with Ansible](https://www.redhat.com/sysadmin/build-VM-fast-ansible) Using Ansible makes provisioning virtual machines automated, flexible, repeatable, and fast.
 - [betterprogramming.pub: Clean Up Your Kubernetes Deployments Using Ansible](https://betterprogramming.pub/clean-up-your-kubernetes-deployments-using-ansible-10a000db313b) Playbooks and templates make rolling out K8s objects a breeze
+- [praveendandu24.medium.com: Ensuring AWS Infrastructure Consistency with Ansible Playbooks](https://praveendandu24.medium.com/ansible-infrastructure-testing-to-test-aws-resources-bd8bdba9ab7c)
 
 ### GitOps
 
@@ -886,6 +887,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [==towardsaws.com: How to Deploy Two-Tier AWS Architecture with Terraform?==](https://towardsaws.com/how-to-deploy-two-tier-aws-architecture-with-terraform-59db7b11dd47)
 - [blog.awsfundamentals.com: Using S3 with Terraform](https://blog.awsfundamentals.com/using-s3-with-terraform)
 - [devopscube.com/terraform-aws-rds](https://devopscube.com/terraform-aws-rds) Terraform AWS RDS Provisioning Tutorial
+- [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit Chat App in Container Apps using Terraform | Paolo Salvatori](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app/ba-p/3885602)
 
 ## Prometheus and Grafana
 

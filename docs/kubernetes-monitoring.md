@@ -85,6 +85,7 @@
 - [betterprogramming.pub: Kubernetes Observability Part 1: Events, Logs, and Integration With Slack, OpenAI, and Grafana](https://betterprogramming.pub/kubernetes-observability-part-1-events-logs-integration-with-slack-openai-and-grafana-62068cf43ec) Build a Kubernetes custom controller to watch Kubernetes Events and forward them to Grafana Loki using Promtail
 - [itnext.io: Kubernetes: monitoring with Prometheus — exporters, a Service Discovery, and its roles](https://itnext.io/kubernetes-monitoring-with-prometheus-exporters-a-service-discovery-and-its-roles-ce63752e5a1)
 - [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability/)
+- [medium.com/@onai.rotich: Understand container metrics and why they matter](https://medium.com/@onai.rotich/understand-container-metrics-and-why-they-matter-9e88434ca62a) In this 2-part article, you will explore the key metrics to scrape in your cluster
 
 ## Kubernetes Logging
 

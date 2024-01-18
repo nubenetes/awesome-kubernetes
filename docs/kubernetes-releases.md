@@ -75,3 +75,4 @@
 - [kubernetes.io: Kubernetes 1.27: In-place Resource Resize for Kubernetes Pods (alpha)](https://kubernetes.io/blog/2023/05/12/in-place-pod-resize-alpha/)
     - If you have deployed Kubernetes pods with CPU and/or memory resources specified, you may have noticed that changing the resource values involves restarting the pod. This has been a disruptive operation for running workloads... until now.
     - In Kubernetes v1.27, we have added a new alpha feature that allows users to resize CPU/memory resources allocated to pods without restarting the containers.
+- [thenewstack.io: Kubernetes 1.28 Accommodates the Service Mesh, Sudden Outages](https://thenewstack.io/kubernetes-1-28-accommodates-the-service-mesh-sudden-outages/) This "Planternetes" release can keep service mesh containers running when the pod goes offline. Also in the box: Better support for DNS and more allowable time between necessary upgrades.

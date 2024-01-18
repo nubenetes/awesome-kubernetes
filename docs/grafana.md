@@ -3,10 +3,11 @@
 1. [Introduction](#introduction)
 2. [Grafana Agent](#grafana-agent)
 3. [Grafana Faro](#grafana-faro)
-4. [Grafana Dashboards](#grafana-dashboards)
-5. [Grafana Releases](#grafana-releases)
-6. [Grafana Loki](#grafana-loki)
-7. [Grafana as Code](#grafana-as-code)
+4. [Grafana Mimir](#grafana-mimir)
+5. [Grafana Dashboards](#grafana-dashboards)
+6. [Grafana Releases](#grafana-releases)
+7. [Grafana Loki](#grafana-loki)
+8. [Grafana as Code](#grafana-as-code)
 
 ## Introduction
 
@@ -51,6 +52,10 @@
 
 - [Grafana Faro 🌟](https://grafana.com/oss/faro/) A project for frontend application observability, Grafana Faro includes a highly configurable web SDK for real user monitoring (RUM) that instruments browser frontend applications to capture observability signals. The frontend telemetry can then be correlated with backend and infrastructure data for seamless, full-stack observability.
 - [grafana.com: Introducing Grafana Faro, an open source project for frontend application observability](https://grafana.com/blog/2022/11/02/introducing-grafana-faro-oss-application-observability/)
+
+## Grafana Mimir
+
+- [github.com/grafana/mimir](https://github.com/grafana/mimir) Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.
 
 ## Grafana Dashboards
 

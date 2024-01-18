@@ -207,6 +207,7 @@
 - [cloudtechtwitter.com: kubernetes common commands](https://www.cloudtechtwitter.com/2022/05/kubernetes-common-commands.html)
 - [==thenewstack.io: K8s Resource Management: An Autoscaling Cheat Sheet== 🌟](https://thenewstack.io/k8s-resource-management-an-autoscaling-cheat-sheet/) A concise but comprehensive guide to using and managing horizontal and vertical autoscaling in the Kubernetes environment.
 - [abhirajdevops.hashnode.dev: A Cheat Sheet of Essential Commands for Managing and Debugging Your Kubernetes Cluster's Networking](https://abhirajdevops.hashnode.dev/a-cheat-sheet-of-essential-commands-for-managing-and-debugging-your-kubernetes-clusters-networking)
+- [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/kubectl-cheatsheet) This repository contains a kubectl cheatsheet to use as a quick reference guide. It contains the most common commands used when working with Kubernetes.
 
 ## Kubernetes Kustomize Cheat Sheet
 

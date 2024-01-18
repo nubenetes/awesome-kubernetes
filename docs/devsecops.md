@@ -48,7 +48,7 @@
      12. [Alternatives with Kubernetes External Secrets](#alternatives-with-kubernetes-external-secrets)
      13. [Bitwarden](#bitwarden)
 28. [Serverless Security Best Practices](#serverless-security-best-practices)
-29. [Docker Images \& Container Security](#docker-images--container-security)
+29. [Docker Images and Container Security](#docker-images-and-container-security)
      1. [Sigstore](#sigstore)
      2. [Container security best practices](#container-security-best-practices)
 30. [Pod Security Policies](#pod-security-policies)
@@ -605,7 +605,7 @@
 
 - [10 Serverless security best practices](https://snyk.io/blog/10-serverless-security-best-practices/)
 
-## Docker Images & Container Security
+## Docker Images and Container Security
 
 - [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html)
 - [sysdig.com: 12 Container image scanning best practices to adopt in production](https://sysdig.com/blog/image-scanning-best-practices/)

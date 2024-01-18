@@ -1,13 +1,14 @@
 # Kubernetes Storage. Cloud Native Storage
 
 1. [Introduction](#introduction)
-2. [Kubernetes Storage Classes](#kubernetes-storage-classes)
-3. [Kubernetes Volumes](#kubernetes-volumes)
+2. [Kubernetes Storage API Interface](#kubernetes-storage-api-interface)
+3. [Kubernetes Storage Classes](#kubernetes-storage-classes)
+4. [Kubernetes Volumes](#kubernetes-volumes)
     1. [Kubernetes Volumes Guide](#kubernetes-volumes-guide)
-4. [DoK Community](#dok-community)
-5. [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
-6. [Ebooks](#ebooks)
-7. [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
+5. [DoK Community](#dok-community)
+6. [ReadWriteMany PersistentVolumeClaims](#readwritemany-persistentvolumeclaims)
+7. [Ebooks](#ebooks)
+8. [Cloud Native Storage Solutions](#cloud-native-storage-solutions)
     1. [Rook](#rook)
     2. [Robin](#robin)
     3. [Reduxio](#reduxio)
@@ -24,16 +25,16 @@
     14. [NetApp Data Store](#netapp-data-store)
     15. [Stork Storage Operator](#stork-storage-operator)
     16. [Curve - OpenCurve](#curve---opencurve)
-8. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
+9. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
-9. [Kubernetes CSI](#kubernetes-csi)
-10. [Kubestr](#kubestr)
-11. [VolSync](#volsync)
-12. [Discoblocks](#discoblocks)
-13. [Images](#images)
-14. [Tweets](#tweets)
-15. [Videos](#videos)
+10. [Kubernetes CSI](#kubernetes-csi)
+11. [Kubestr](#kubestr)
+12. [VolSync](#volsync)
+13. [Discoblocks](#discoblocks)
+14. [Images](#images)
+15. [Tweets](#tweets)
+16. [Videos](#videos)
 
 ## Introduction
 
@@ -82,6 +83,11 @@
 - [medium.com/nerd-for-tech: Persistence with Kubernetes](https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad)
 - [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better/)
 - [==yuminlee2.medium.com: Kubernetes: Storage==](https://yuminlee2.medium.com/kubernetes-storage-fe5363d88d42) **In Kubernetes, pods are temporary and any data stored within them is lost when they’re deleted or restarted. To avoid this, use persistent storage options such as PVs(Persistent Volumes)and PVCs(Persistent Volume Claims). PVs are storage resources with an independent lifecycle, while PVCs are requests for storage. Use them for simplified storage management and scaling. Provisioning persistent volumes can be static or dynamic. StorageClass defines the provisioner, parameters, and reclaim policy for dynamically provisioned PVs.**
+- [medium.com/kubernetes-deveops: Kubernetes — Deploying Application with Persistent Storage](https://medium.com/kubernetes-deveops/kubernetes-deploying-application-with-persistent-storage-5068767e25f3) Implementing Storage Controller for Auto-Provisioning
+
+## Kubernetes Storage API Interface
+
+- [danielmangum.com: K8s ASA: The Storage Interface](https://danielmangum.com/posts/k8s-asa-the-storage-interface/) The primary function of the Kubernetes API Server is to ingest data, store it, and then return it when requested. In this article, you will learn how the API Server stores data.
 
 ## Kubernetes Storage Classes
 

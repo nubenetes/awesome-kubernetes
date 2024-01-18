@@ -147,6 +147,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter/) In this tutorial, you will learn how to deploy the blackbox-exporter and configure monitoring of endpoints with the Kubernetes ServiceMonitors. And finally, you will discuss Blackbox probes which are used to poll endpoints.
 - [medium.com/criteo-engineering: How we reduced our Prometheus infrastructure footprint by a third](https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1)
 - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495) In This blog, we will talk more about other components of Prometheus that are useful in understanding and in the field of DevOps and SRE. These terms are common in Prometheus also the topics are discussed in PCA certification
+- [==horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics==](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

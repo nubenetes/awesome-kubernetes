@@ -258,6 +258,7 @@
 - [medium.com/javarevisited: Why Microservices are not silver bullet? 10 Reasons for NOT using Microservices](https://medium.com/javarevisited/why-microservices-are-not-silver-bullet-10-reasons-for-not-using-microservices-74f7c0fa98c) Don’t blindly use Microservices for every single application you build
 - [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance/)
 - [rahulh123.medium.com: Choosing the Right Architecture: Monolithic vs. Microservices — Analyzing Requirements for Success](https://rahulh123.medium.com/choosing-the-right-architecture-monolithic-vs-microservices-analyzing-requirements-for-success-70d681f6a1d0)
+- [waswani.medium.com: Microservices Communication: Data Sharing using Database, an AntiPattern !!!](https://waswani.medium.com/microservices-data-sharing-using-database-an-antipattern-35e0196ee2ad)
 
 ## Platform Reference Architecture
 
@@ -309,6 +310,7 @@
 - [itnext.io: 12 factor Microservice applications — on Kubernetes](https://itnext.io/12-factor-microservice-applications-on-kubernetes-db913008b018)
 - [itnext.io: Isolating and Managing Dependencies in 12-factor Microservice Applications — with Kubernetes](https://itnext.io/isolating-and-managing-dependencies-in-12-factor-microservice-applications-with-kubernetes-988638f8bc6d)
 - [itnext.io: Processes — for 12-factor Microservice Applications](https://itnext.io/processes-for-12-factor-microservice-applications-70551a9021b)
+- [architecturenotes.co: 12 Factor App Revisited](https://architecturenotes.co/12-factor-app-revisited/) The Twelve-Factor App methodology is a methodology for building software-as-a-service applications by Adam Wiggins. We cover how they have since evolved, and what we can learn from them today and how they changed the status quo of yesteryear.
 
 ## Event Driven Architecture EDA
 
@@ -329,6 +331,7 @@
         - Server Sent Events
 - [dev.to/aws-builders: Un Modelo de EDA: Event Driven Architectures](https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f)
 - [levelup.gitconnected.com: Error Handling in Event-Driven Systems](https://levelup.gitconnected.com/error-handling-in-event-driven-systems-1f0a7ef2cfb7)
+- [==aws.amazon.com: Best practices for implementing event-driven architectures in your organization==](https://aws.amazon.com/blogs/architecture/best-practices-for-implementing-event-driven-architectures-in-your-organization/)
 
 ## Understanding the Differences Between Event-Driven, Message-Driven, and Microservices Architectures
 

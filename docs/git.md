@@ -30,6 +30,7 @@
 19. [GitLab](#gitlab)
      1. [GitLab Collective](#gitlab-collective)
 20. [GitHub](#github)
+21. [Fake it til you make it](#fake-it-til-you-make-it)
      1. [GitHub Lab](#github-lab)
      2. [GitHub Code Scanner](#github-code-scanner)
      3. [GitHub Actions](#github-actions)
@@ -40,14 +41,14 @@
          2. [GitHub Copilot X](#github-copilot-x)
          3. [Alternatives](#alternatives)
              1. [CodiumAI](#codiumai)
-21. [Gitea](#gitea)
-22. [Sapling](#sapling)
-23. [Git Tools](#git-tools)
+22. [Gitea](#gitea)
+23. [Sapling](#sapling)
+24. [Git Tools](#git-tools)
      1. [Git Credential Manager](#git-credential-manager)
      2. [Semantic-release. CI/CD semantic release workflow (semantic Versioning, commit format and releases)](#semantic-release-cicd-semantic-release-workflow-semantic-versioning-commit-format-and-releases)
-24. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
-25. [Pre Commit Hooks](#pre-commit-hooks)
-26. [Merge BOTs](#merge-bots)
+25. [Azure DevOps (formerly known as VSTS)](#azure-devops-formerly-known-as-vsts)
+26. [Pre Commit Hooks](#pre-commit-hooks)
+27. [Merge BOTs](#merge-bots)
      1. [Tips](#tips)
      2. [Jenkins for git merges](#jenkins-for-git-merges)
      3. [Bitbucket for git merges](#bitbucket-for-git-merges)
@@ -58,9 +59,9 @@
      7. [Mergify bot](#mergify-bot)
      8. [GitHub bots](#github-bots)
          1. [Bors GitHub bot](#bors-github-bot)
-27. [Videos](#videos)
-28. [Slides](#slides)
-29. [Tweets](#tweets)
+28. [Videos](#videos)
+29. [Slides](#slides)
+30. [Tweets](#tweets)
 
 ## Git Distributed Version-Control System
 
@@ -471,6 +472,7 @@ git rebase -i HEAD~5
 - [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation)
 - [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol)
 - [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab/)
+- [itnext.io: Managing multiple Kubernetes clusters using Git 🌟](https://itnext.io/managing-multiple-kubernetes-clusters-using-git-cd068bbd85ac) Managing multi-cloud Kubernetes clusters in a central location using GitLab
 
 ### GitLab Collective
 
@@ -557,6 +559,10 @@ git rebase -i HEAD~5
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
 - [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l)
 - [==youtube: GitHub Masterclass (Spanish)== 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M)
+
+## Fake it til you make it
+
+- [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
 ### GitHub Lab
 
@@ -681,6 +687,7 @@ git rebase -i HEAD~5
 - [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-codespaces/)
 - [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) Git extension for versioning large files
 - [==github.com/MichaelMure/git-bug==](https://github.com/MichaelMure/git-bug) **Distributed, offline-first bug tracker embedded in git, with bridges**
+- [blog.kubesimplify.com: Moving code between GIT repositories with Copybara | Daniele Polencic](https://blog.kubesimplify.com/moving-code-between-git-repositories-with-copybara)
 
 ### Git Credential Manager
 

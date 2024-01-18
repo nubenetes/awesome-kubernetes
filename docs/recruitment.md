@@ -8,11 +8,12 @@
 6. [Soft Skills](#soft-skills)
 7. [Fair Job Offer](#fair-job-offer)
 8. [Writing a CV](#writing-a-cv)
-9. [Tweets](#tweets)
-10. [Tweets 2](#tweets-2)
-11. [Tweets 3. Cultures](#tweets-3-cultures)
-12. [Images](#images)
-13. [Videos](#videos)
+9. [Fake it til you make it](#fake-it-til-you-make-it)
+10. [Tweets](#tweets)
+11. [Tweets 2](#tweets-2)
+12. [Tweets 3. Cultures](#tweets-3-cultures)
+13. [Images](#images)
+14. [Videos](#videos)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162899288&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arielmezzapesa-1" title="Ariel Mezzapesa" target="_blank" style="color: #cccccc; text-decoration: none;">Ariel Mezzapesa</a> · <a href="https://soundcloud.com/arielmezzapesa-1/lily-was-here-candy-dulfer" title="Lily Was Here (Candy Dulfer)" target="_blank" style="color: #cccccc; text-decoration: none;">Lily Was Here (Candy Dulfer)</a></div>
@@ -61,6 +62,7 @@
 - [theengineeringmanager.substack.com: How do I progress to the next level in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level) Let's look at motivation, craft, opportunity and taking ownership.
 - [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://blogs.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693/)
 - [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers/) Career paths for software engineers
+- [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do/)
 
 ## Articles in Spanish
 
@@ -115,6 +117,10 @@
 ## Writing a CV
 
 - [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv/)
+
+## Fake it til you make it
+
+- [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
 ## Tweets
 
@@ -255,6 +261,8 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">No one will remember:<br><br>- how many commits you made<br>- your thoughtful code reviews<br>- the number of tickets closed<br><br>They will remember:<br><br>- that *one* time you lost all customer prod data and the company had to shut down<br><br>You can’t win ¯\_(ツ)_/¯</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/1544595220926537729?ref_src=twsrc%5Etfw">July 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lack of career advancement and development is now the top reason why people leave their job according to a new McKinsey study. <a href="https://t.co/duMKhwtD1n">pic.twitter.com/duMKhwtD1n</a></p>&mdash; Julia Stiglitz (@juliastiglitz) <a href="https://twitter.com/juliastiglitz/status/1550896144212848641?ref_src=twsrc%5Etfw">July 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn&#39;t use GitHub, use fake-it-til-you-make-it to generate two years of contributions. <a href="https://t.co/n8Ij8JtG83">https://t.co/n8Ij8JtG83</a> <a href="https://t.co/6GSt45dJQG">https://t.co/6GSt45dJQG</a> <a href="https://t.co/qLXlwz9yVa">pic.twitter.com/qLXlwz9yVa</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1688417566384152577?ref_src=twsrc%5Etfw">August 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

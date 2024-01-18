@@ -146,6 +146,10 @@
 - [tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes](https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/)
 - [tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide](https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/)
 - [medium.com/@Techie1: Networking tasks in production using Ansible](https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7)
+- [medium.com/cloud-native-daily: Getting Started with Ansible: A Comprehensive Guide for DevOps Beginners](https://medium.com/cloud-native-daily/getting-started-with-ansible-a-comprehensive-guide-for-devops-beginners-fd2fb3fd7a40) Automate complex tasks, manage your Docker containers effortlessly, and even enhance collaboration using Ansible
+- [devopsinside.com: Is Kubernetes killing tools like Ansible?](https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible/)
+    - Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.
+    - Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.
 
 ## Ansible AI
 

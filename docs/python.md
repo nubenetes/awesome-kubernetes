@@ -262,6 +262,7 @@
 - [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911)
 - [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) Learn how to use Grafana Phlare and continuous profiling to discover bottlenecks in your code and boost the performance of your Python apps running in Kubernetes
 - [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7) Using Hashable DataFrames and Message Digests to Optimize Repeated Calculations
+- [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel)
 
 ## ReactPy
 

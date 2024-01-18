@@ -56,6 +56,7 @@
 - [medium.com/@study.uttam: Main Challenges of Machine Learning](https://medium.com/@study.uttam/main-challenges-of-machine-learning-eb06dffac3da)
 - [learn.microsoft.com: Machine Learning operations maturity model 🌟](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model)
 - [medium.com/ai-hero: Streamlining Machine Learning Operations (MLOps) with Kubernetes and Terraform](https://medium.com/ai-hero/streamlining-machine-learning-operations-with-kubernetes-and-terraform-41baad37998e) Leveraging Terraform to Simplify AWS EKS Cluster Setup for Exploring Declarative ML Tools
+- [medium.com/@karanshingde: Machine Learning in Production— Your Comprehensive 101 Practical Guide](https://medium.com/@karanshingde/machine-learning-in-production-your-comprehensive-101-practical-guide-c7de0b5ad011)
 
 ## ML Infra
 

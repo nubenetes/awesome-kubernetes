@@ -7,51 +7,54 @@
 3. [HashiCorp Cloud Terraform Cloud](#hashicorp-cloud-terraform-cloud)
 4. [Blogs and Newsletters](#blogs-and-newsletters)
 5. [Terraform](#terraform)
-    1. [Terraform and Jenkins](#terraform-and-jenkins)
-    2. [Alternatives to Terraform](#alternatives-to-terraform)
-    3. [Managing secrets in your Terraform code](#managing-secrets-in-your-terraform-code)
-    4. [Terraform Cloud](#terraform-cloud)
+    1. [Terraform License](#terraform-license)
+    2. [Terraform docs](#terraform-docs)
+    3. [Private Terraform Registries](#private-terraform-registries)
+    4. [Terraform and Jenkins](#terraform-and-jenkins)
+    5. [Alternatives to Terraform](#alternatives-to-terraform)
+    6. [Managing secrets in your Terraform code](#managing-secrets-in-your-terraform-code)
+    7. [Terraform Cloud](#terraform-cloud)
         1. [Alternatives to Terraform Cloud](#alternatives-to-terraform-cloud)
-    5. [HCL](#hcl)
-    6. [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
-    7. [Providing Terraform with Ansible](#providing-terraform-with-ansible)
-    8. [Python Boto3 and Terraform](#python-boto3-and-terraform)
-    9. [Terraform Infracost](#terraform-infracost)
-    10. [Awesome Terraform](#awesome-terraform)
-    11. [Terraform Cheat Sheets](#terraform-cheat-sheets)
-    12. [Best Practices](#best-practices)
-    13. [Terraform and CI/CD. Terraform Workspace](#terraform-and-cicd-terraform-workspace)
-    14. [Terraform Boilerplates](#terraform-boilerplates)
-    15. [Terraform and Kubernetes](#terraform-and-kubernetes)
-    16. [Terraform Kubernetes Boilerplates](#terraform-kubernetes-boilerplates)
+    8. [HCL](#hcl)
+    9. [CDK Cloud Development Kit Terraform](#cdk-cloud-development-kit-terraform)
+    10. [Providing Terraform with Ansible](#providing-terraform-with-ansible)
+    11. [Python Boto3 and Terraform](#python-boto3-and-terraform)
+    12. [Terraform Infracost](#terraform-infracost)
+    13. [Awesome Terraform](#awesome-terraform)
+    14. [Terraform Cheat Sheets](#terraform-cheat-sheets)
+    15. [Best Practices](#best-practices)
+    16. [Terraform and CI/CD. Terraform Workspace](#terraform-and-cicd-terraform-workspace)
+    17. [Terraform Boilerplates](#terraform-boilerplates)
+    18. [Terraform and Kubernetes](#terraform-and-kubernetes)
+    19. [Terraform Kubernetes Boilerplates](#terraform-kubernetes-boilerplates)
          1. [Hashicorp Terraform Kubernetes Collection](#hashicorp-terraform-kubernetes-collection)
          2. [Learnk8s Terraform and Managed Kubernetes](#learnk8s-terraform-and-managed-kubernetes)
          3. [OpenShift and Terraform](#openshift-and-terraform)
          4. [Other Boilerplates](#other-boilerplates)
-    17. [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
-    18. [Terraform K3s Boilerplates](#terraform-k3s-boilerplates)
-    19. [Terraform and GCP](#terraform-and-gcp)
+    20. [Terraform Kubernetes Operator](#terraform-kubernetes-operator)
+    21. [Terraform K3s Boilerplates](#terraform-k3s-boilerplates)
+    22. [Terraform and GCP](#terraform-and-gcp)
          1. [Terraform GKE Boilerplates](#terraform-gke-boilerplates)
-    20. [Terraform and AWS](#terraform-and-aws)
+    23. [Terraform and AWS](#terraform-and-aws)
          1. [AWS Service Catalog](#aws-service-catalog)
          2. [AWS Observability Accelerator for Terraform](#aws-observability-accelerator-for-terraform)
          3. [Terraform EKS Boilerplates](#terraform-eks-boilerplates)
          4. [AWSCC. Terraform AWS Cloud Control Provider](#awscc-terraform-aws-cloud-control-provider)
          5. [AWS Control Tower Account Factory for Terraform (AFT)](#aws-control-tower-account-factory-for-terraform-aft)
          6. [Porsche Official](#porsche-official)
-    21. [Terraform with Azure](#terraform-with-azure)
+    24. [Terraform with Azure](#terraform-with-azure)
          1. [Azure Landing Zones with Terraform](#azure-landing-zones-with-terraform)
          2. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
          3. [Terraform in Azure DevOps](#terraform-in-azure-devops)
          4. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
          5. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
-    22. [Terraform and OCI](#terraform-and-oci)
-    23. [Terraform and Linode](#terraform-and-linode)
-    24. [Istio with Terraform](#istio-with-terraform)
-    25. [Terraform and Minikube](#terraform-and-minikube)
-    26. [Terraform and Apache Kafka](#terraform-and-apache-kafka)
-    27. [Terraform and JMeter](#terraform-and-jmeter)
-    28. [Terraform Video Tutorials](#terraform-video-tutorials)
+    25. [Terraform and OCI](#terraform-and-oci)
+    26. [Terraform and Linode](#terraform-and-linode)
+    27. [Istio with Terraform](#istio-with-terraform)
+    28. [Terraform and Minikube](#terraform-and-minikube)
+    29. [Terraform and Apache Kafka](#terraform-and-apache-kafka)
+    30. [Terraform and JMeter](#terraform-and-jmeter)
+    31. [Terraform Video Tutorials](#terraform-video-tutorials)
 6. [CDK for Terraform](#cdk-for-terraform)
 7. [Graph Visualization Software](#graph-visualization-software)
 8. [Terraform Modules](#terraform-modules)
@@ -282,6 +285,26 @@
     - ❓❓ So, how can I ensure that what is committed using Git is really applied. How to be notified if there is a change compared to the desired state and how to automatically apply what is in my code (GitOps)?
     - This is the promise of tf-controller, an Open Source Kubernetes operator from Weaveworks, tightly related to Flux (a GitOps engine from the same company). Flux is one of the solutions I really appreciate, that's why I invite you to have a look on my previous article
 - [praveendandu24.medium.com: Mastering Terraform: From Essential Commands to Effortless EC2 Instance Provisioning](https://praveendandu24.medium.com/mastering-terraform-from-essential-commands-to-effortless-ec2-instance-provisioning-d2d25659450c)
+- [faun.pub: Import your existing cloud infra into Terraform](https://faun.pub/import-your-existing-cloud-infra-into-terraform-ca70da146152) Import manually created cloud resources into Terraform and also generate configuration for the imported resources
+- [gravitydevops.com: Terraform: A Step-by-Step Guide from Basics to Advanced Techniques](https://gravitydevops.com/terraform-tutorials-basic-to-advanced/)
+- [blog.brainboard.co: Exploring Modern IaC: Introduction to Terraform 2.0](https://blog.brainboard.co/exploring-modern-iac-introduction-to-terraform-2-0-a9af5094a80e)
+- [==ikunalsingh.hashnode.dev: Dynamic Operations in Terraform with Functions - Use templatefile to dynamically generate a script==](https://ikunalsingh.hashnode.dev/dynamic-operations-in-terraform-with-functions#heading-use-templatefile-to-dynamically-generate-a-script) Streamline Your Infrastructure Management: Learn How to Perform Dynamic Operations in Terraform with Functions
+- [blog.gruntwork.io: How to use Terraform as a team](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973) Collaboration, coding guidelines, and workflow for Terraform projects
+- [kkamalesh117.medium.com: Terraform Variables & Providers (Part-1)](https://kkamalesh117.medium.com/terraform-variables-providers-c66f68747050)
+    - [kkamalesh117.medium.com: Terraform Variables (Part-2)](https://kkamalesh117.medium.com/terraform-variables-part-2-75ef8543fb2f)
+- [overmind.tech: Is Observability relevant for Terraform?](https://overmind.tech/blog/is-observability-relevant-for-terraform)
+
+### Terraform License
+
+- [opencoreventures.com: HashiCorp switching to BSL shows a need for open charter companies](https://opencoreventures.com/blog/2023-08-23-hashicorp-switching-bsl-shows-need-for-open-charter-companies/)
+
+### Terraform docs
+
+- [terraform-docs.io](https://terraform-docs.io/user-guide/introduction/) terraform-docs is a utility to generate documentation from Terraform modules in various output formats.
+
+### Private Terraform Registries
+
+- [github.com/PacoVK/tapir](https://github.com/PacoVK/tapir) A Private Terraform Registry
 
 ### Terraform and Jenkins
 
@@ -308,11 +331,13 @@
 - [hashicorp.com: Terraform Cloud Adds Drift Detection for Infrastructure Management](https://www.hashicorp.com/blog/terraform-cloud-adds-drift-detection-for-infrastructure-management) Drift Detection for Terraform Cloud continuously checks infrastructure state to detect and notify operators of any changes, minimizing risk, downtime, and costs.
 - [==blog.gruntwork.io: How to manage multiple environments with Terraform== 🌟](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-32c7bc5d692) **A comparison of using workspaces, branches, and Terragrunt**
 - [medium.com/@avyanab: Deploy A Two-Tier Architecture with AWS and Terraform Cloud](https://medium.com/@avyanab/deploy-a-two-tier-architecture-with-aws-and-terraform-cloud-c6087f118ba7)
+- [spacelift.io: Terraform Cloud – Overview, Key Features & Tutorial](https://spacelift.io/blog/what-is-terraform-cloud)
 
 #### Alternatives to Terraform Cloud
 
 - [medium.com/@elliotgraebert: Four Great Alternatives to HashiCorp’s Terraform Cloud](https://medium.com/@elliotgraebert/four-great-alternatives-to-hashicorps-terraform-cloud-6e0a3a0a5482) Picking the Best IaC CI Platform
 - [digger.dev](https://digger.dev) Open-source Terraform Cloud alternative. Run Terraform plan / apply jobs in your CI
+- [spacelift.io](https://spacelift.io) Spacelift is a sophisticated CI/CD platform for OpenTofu, Terraform, Terragrunt, CloudFormation, Pulumi, Kubernetes, and Ansible
 
 ### HCL
 
@@ -503,6 +528,9 @@
 - [medium.com/aws-infrastructure: Create AWS VPC Infrastructure with Terraform](https://medium.com/aws-infrastructure/create-aws-vpc-infrastructure-with-terraform-308afed9fe31)
 - [numericaideas.com: Auto Scaling Group on AWS with Terraform](https://numericaideas.com/blog/auto-scaling-group-on-aws-with-terraform/)
 - [aws.plainenglish.io: Terraform Hands-on Project](https://aws.plainenglish.io/terraform-hands-on-project-d2105bbc0c62) Day-66 Build Your Own AWS Infrastructure
+- [devopscube.com: AWS Terraform Autoscaling Group With ALB Deployment Tutorial](https://devopscube.com/terraform-autoscaling-group/)
+- [medium.com/cloud-native-daily: How to Securely Manage Terraform State File in AWS Using Terraform](https://medium.com/cloud-native-daily/how-to-securely-manage-terraform-state-file-in-aws-using-terraform-7c20b211c9cb) A step-by-step guide on how to securely manage, as well as share state files in AWS by using Terraform.
+- [dev.to/monarene: Dynamic Volume Provisioning in Kubernetes with AWS and Terraform](https://dev.to/monarene/dynamic-volume-provisioning-in-kubernetes-with-aws-and-terraform-3m6h) In this article, you'll learn about Persistent Volumes and how they are provisioned, managed, and configured in AWS. You'll compare Static and Dynamic volume provisioning, how they overlap, and which provisioning mechanism you should employ
 
 {==
 
@@ -514,6 +542,7 @@
 
 - [github.com/aws-observability](https://github.com/aws-observability)
 - [==aws-observability.github.io: AWS Observability Accelerator for Terraform== 🌟](https://aws-observability.github.io/terraform-aws-observability-accelerator/) The AWS Observability Accelerator for Terraform is a set of opinionated modules to help you set up observability for your AWS environments with AWS-managed observability services such as Amazon Managed Service for Prometheus, Amazon Managed Grafana, AWS Distro for OpenTelemetry (ADOT) and Amazon CloudWatch. We provide curated metrics, logs, traces collection, alerting rules and Grafana dashboards for your EKS infrastructure, Java/JMX, NGINX based workloads and your custom applications. [github.com/aws-observability/terraform-aws-observability-accelerator](https://github.com/aws-observability/terraform-aws-observability-accelerator)
+- [aws-observability.github.io: Tracing on Amazon EKS](https://aws-observability.github.io/terraform-aws-observability-accelerator/eks/tracing/)
 
 #### Terraform EKS Boilerplates
 
@@ -546,6 +575,8 @@
     - AWS Load Balancer controller
 - [faun.pub: Amazon EKS with Terraform and GitOps in minutes](https://faun.pub/aws-eks-with-terraform-and-gitops-in-minutes-b3ca33171209)
 - [awstip.com: Streamlining AWS EKS Cluster Volume Management with Helm and Terraform: EBS CSI Driver + Self-Managed AddOn Option](https://awstip.com/streamlining-aws-eks-cluster-volume-management-with-helm-and-terraform-ebs-csi-driver-78e1d51532ee) In this tutorial, you will learn how to configure OIDC Provider as Identity Provider in AWS IAM Service and install the EKS EBS CSI Driver as a self-managed add-On using Terraform and Helm
+- [hewi.blog: Deploying an EKS cluster using Terraform](https://hewi.blog/deploying-an-eks-cluster-using-terraform) In this tutorial, you will learn how to provision an EKS cluster using Terraform and deploy a demo application to test it
+- [platformwale.blog: Create Amazon EKS Cluster within its VPC using Terraform](https://platformwale.blog/2023/07/15/create-amazon-eks-cluster-within-its-vpc-using-terraform/)
 
 ==}
 
@@ -582,6 +613,7 @@
 - [hashicorp.com: Configuring Azure Application Gateway with Consul-Terraform-Sync](https://www.hashicorp.com/blog/configuring-azure-application-gateway-with-consul-terraform-sync) Synchronize HCP Consul services as backend address pools for Microsoft Azure Application Gateway using Consul-Terraform-Sync (CTS).
 - [azureviking.com: Terraform module: Azure DNS Private Resolver](https://www.azureviking.com/post/terraform-module-azure-dns-private-resolver) - [haflidif/terraform-azurerm-dns-private-resolver](https://github.com/haflidif/terraform-azurerm-dns-private-resolver)
 - [==github.com/thomast1906/terraform-on-azure==](https://github.com/thomast1906/terraform-on-azure) A repo self-lead to give you an understanding on deploying Terraform on Azure
+- [blog.cloudtrooper.net: DRY Terraform code for Private Link and DNS](https://blog.cloudtrooper.net/2023/08/19/dry-terraform-code-for-private-link-and-dns/)
 
 #### Azure Landing Zones with Terraform
 
@@ -810,6 +842,7 @@
 - [badarsebard/terraforge](https://github.com/badarsebard/terraforge) Graphical Terraform configuration generator. Terraforge is an application for generating Terraform code visually. Users select providers and then add resources as nodes to a graph that can be edited and arranged. Links between nodes appear automatically as the configuration of a node makes references to other nodes. When finished the design can be exported as Terraform HCL. The configuration will include all settings and configurations entered for the nodes.
 - [infracloud.io: 5 Tools to Auto-Generate Terraform Configuration Files 🌟](https://www.infracloud.io/blogs/auto-generate-terraform-configuration-files/)
 - [spacelift.io: 18 Most Useful Terraform Tools to Use in 2023](https://spacelift.io/blog/terraform-tools)
+- [github.com/idoavrah/terraform-tui: TFTUI - The Terraform textual UI](https://github.com/idoavrah/terraform-tui) TFTUI is a powerful textual UI that empowers users to effortlessly view and interact with their Terraform state. With its latest version you can easily visualize the complete state tree, gaining deeper insights into your infrastructure's current configuration. Additionally, the ability to search the tree and inspect individual resource states allows you to focus on specific details for better analysis and management. It's also possible to select specific resources and perform actions such as tainting, untainting and deleting them. Finally, you are now able to create and apply plans directly from the UI.
 
 ## Writing Terraform for unsupported resources with TerraCurl
 

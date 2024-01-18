@@ -9,10 +9,11 @@
     6. [Kubernetes examples](#kubernetes-examples)
     7. [Helm and Kustomize](#helm-and-kustomize)
 2. [JSON. Templating JSON Files](#json-templating-json-files)
-    1. [JSON in Ansible](#json-in-ansible)
-    2. [JSON formatting with jq](#json-formatting-with-jq)
-    3. [JSON Tools](#json-tools)
-    4. [Kubernetes JSON Schemas](#kubernetes-json-schemas)
+    1. [JSONPath query language](#jsonpath-query-language)
+    2. [JSON in Ansible](#json-in-ansible)
+    3. [JSON formatting with jq](#json-formatting-with-jq)
+    4. [JSON Tools](#json-tools)
+    5. [Kubernetes JSON Schemas](#kubernetes-json-schemas)
 3. [Static Checking of Kubernetes YAML Files. Kubernetes YAML Validation Tools](#static-checking-of-kubernetes-yaml-files-kubernetes-yaml-validation-tools)
 4. [Alternatives](#alternatives)
 5. [Base64](#base64)
@@ -114,6 +115,10 @@
 - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d) Processing and creating JSON data in Python
 - [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532) An in-depth guide on JavaScript Object Notation (JSON)
 - [automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)
+
+### JSONPath query language
+
+- [blog.mariano.cloud: Do you even JSONPath?](https://blog.mariano.cloud/do-you-even-jsonpath) JSONPath as in a JSON query language that enables you to interact with a JSON structured data set. In this article, you will learn how to use JSONPath expressions to parse and format responses from the Kubernetes API.
 
 ### JSON in Ansible
 
