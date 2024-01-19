@@ -122,6 +122,7 @@
 - [devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial](https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02)
 - [airplane.dev: How to use Kubernetes ephemeral volumes & storage 🌟](https://www.airplane.dev/blog/kubernetes-ephemeral-storage) This tutorial will discuss how Kubernetes handles ephemeral storage and how these volumes are provisioned in operating clusters.
 - [blog.devgenius.io: When K8s pods are stuck mounting large volumes](https://blog.devgenius.io/when-k8s-pods-are-stuck-mounting-large-volumes-2915e6656cb8)
+- [spacelift.io: Kubernetes Persistent Volumes – Tutorial and Examples](https://spacelift.io/blog/kubernetes-persistent-volumes)
 
 ### Kubernetes Volumes Guide
 

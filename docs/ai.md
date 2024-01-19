@@ -10,6 +10,7 @@
 8. [Programming](#programming)
 9. [Medical Imaging](#medical-imaging)
 10. [Computer Vision](#computer-vision)
+11. [AIOps](#aiops)
 
 ## Introduction
 
@@ -62,3 +63,18 @@
 ## Computer Vision
 
 - [github.com/SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) This repository is a curated collection of the most exciting and influential CVPR 2023 papers.
+
+## AIOps
+
+- [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 3](https://www.apmdigest.com/aiops-itops-3)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
+    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
+- [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
+- [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops/)
+- [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/3673891/5-best-practices-for-securing-cicd-pipelines.html) Build in
+security from the beginning with continuous testing, automation, zero trust, and AIops.
+- [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering/)
+- [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)
+- [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management) Accelerate your IT operations and support AIOps implementation with HashiCorp.

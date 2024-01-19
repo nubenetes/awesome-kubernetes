@@ -9,36 +9,35 @@
     1. [Spanish](#spanish)
 7. [Automation anxiety](#automation-anxiety)
 8. [State of DevOps. Google's DevOps Research and Assessment (DORA)](#state-of-devops-googles-devops-research-and-assessment-dora)
-9. [AIOps](#aiops)
-10. [Configuration Drift](#configuration-drift)
-     1. [Drift Detection Tools](#drift-detection-tools)
-11. [DevOps Docs](#devops-docs)
-12. [DORA metrics](#dora-metrics)
-13. [DevOps Roadmap](#devops-roadmap)
-14. [APIOps](#apiops)
-15. [Multicloud](#multicloud)
-16. [Serverless DevOps](#serverless-devops)
-17. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
-18. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
-19. [Xebia Labs and DevOps](#xebia-labs-and-devops)
-20. [DevOps Tools](#devops-tools)
-21. [Netflix and DevOps](#netflix-and-devops)
-22. [Public Cloud DevOps](#public-cloud-devops)
+9. [Configuration Drift](#configuration-drift)
+    1. [Drift Detection Tools](#drift-detection-tools)
+10. [DevOps Docs](#devops-docs)
+11. [DORA metrics](#dora-metrics)
+12. [DevOps Roadmap](#devops-roadmap)
+13. [APIOps](#apiops)
+14. [Multicloud](#multicloud)
+15. [Serverless DevOps](#serverless-devops)
+16. [DevOps as a Service (DaaS)](#devops-as-a-service-daas)
+17. [IaC Infrastructure as Code](#iac-infrastructure-as-code)
+18. [Xebia Labs and DevOps](#xebia-labs-and-devops)
+19. [DevOps Tools](#devops-tools)
+20. [Netflix and DevOps](#netflix-and-devops)
+21. [Public Cloud DevOps](#public-cloud-devops)
      1. [AWS DevOps](#aws-devops)
      2. [Azure DevOps](#azure-devops)
      3. [Google Cloud Platform](#google-cloud-platform)
-23. [NoOps](#noops)
-24. [NetOps](#netops)
-25. [PlatformOps](#platformops)
-26. [GPT 3 Tools](#gpt-3-tools)
-27. [Data as Code](#data-as-code)
-28. [DevOps for SAP](#devops-for-sap)
-29. [Youtube Playlists](#youtube-playlists)
-30. [Platform Engineering](#platform-engineering)
-31. [Bunch of Images](#bunch-of-images)
-32. [Slides](#slides)
-33. [Videos](#videos)
-34. [Tweets](#tweets)
+22. [NoOps](#noops)
+23. [NetOps](#netops)
+24. [PlatformOps](#platformops)
+25. [GPT 3 Tools](#gpt-3-tools)
+26. [Data as Code](#data-as-code)
+27. [DevOps for SAP](#devops-for-sap)
+28. [Youtube Playlists](#youtube-playlists)
+29. [Platform Engineering](#platform-engineering)
+30. [Bunch of Images](#bunch-of-images)
+31. [Slides](#slides)
+32. [Videos](#videos)
+33. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294589005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jimmy-sax" title="Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax</a> · <a href="https://soundcloud.com/jimmy-sax/una-matina-jimmy-sax" title="Una Matina Jimmy Sax" target="_blank" style="color: #cccccc; text-decoration: none;">Una Matina Jimmy Sax</a></div>
@@ -126,19 +125,6 @@
 
 - [cloud.google.com: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) 2021 Accelerate State of DevOps report addresses burnout, team performance
 - [itprotoday.com: Google DORA Report Details Best Practices to Speed DevOps](https://www.itprotoday.com/devops/google-dora-report-details-best-practices-speed-devops) The 2021 Accelerate State of DevOps report from Google Cloud’s DORA group provides insight into the best practices of elite development teams. [devops.com: summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [dzone: summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
-
-## AIOps
-
-- [apmdigest.com: What Can AIOps Do For IT Ops? - Part 1](https://www.apmdigest.com/aiops-itops-1)
-    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 2](https://www.apmdigest.com/aiops-itops-2)
-    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 3](https://www.apmdigest.com/aiops-itops-3)
-    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 4](https://www.apmdigest.com/aiops-itops-4)
-    - [apmdigest.com: What Can AIOps Do For IT Ops? - Part 5](https://www.apmdigest.com/aiops-itops-5)
-- [thenewstack.io: The Urgency Driving AIOps into Your Enterprise](https://thenewstack.io/the-urgency-driving-aiops-into-your-enterprise/)
-- [thenewstack.io: Intelligent Automation: What’s the Missing Piece of AIOps?](https://thenewstack.io/intelligent-automation-whats-the-missing-piece-of-aiops/)
-- [infoworld.com: 5 best practices for securing CI/CD pipelines](https://www.infoworld.com/article/3673891/5-best-practices-for-securing-cicd-pipelines.html) Build in
-security from the beginning with continuous testing, automation, zero trust, and AIops.
-- [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering/)
 
 ## Configuration Drift
 
@@ -444,6 +430,7 @@ Resolve your software incidents 10x faster
 - [dev.to: Platform Engineering and Internal Developer Platform (IDP)](https://dev.to/aws-builders/platform-engineering-and-internal-developer-platform-3deb)
 - [devops.com: What’s the Difference Between DevOps and Platform Engineering?](https://devops.com/whats-the-difference-between-devops-and-platform-engineering)
 - [==dev.to/thenjdevopsguy: What Is Platform Engineering (And What Is It Not?)==](https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8)
+- [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/) Platform team workflows and checklists for building security, pipelines, provisioning, connectivity, orchestration, and observability into their platform.
 
 ## Bunch of Images
 

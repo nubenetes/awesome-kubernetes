@@ -36,6 +36,7 @@
 - [pauldally.medium.com: Kustomize Best Practices (part 3)](https://pauldally.medium.com/kustomize-best-practices-part-3-1dbaa15fd16a)
 - [levelup.gitconnected.com: Helm vs. Kustomize: Navigating Kubernetes Configuration Complexity](https://levelup.gitconnected.com/helm-vs-kustomize-navigating-kubernetes-configuration-complexity-ae86596c3cf2)
 - [==devopscube.com/kustomize-tutorial: Kustomize Tutorial: Comprehensive Guide For Beginners== 🌟](https://devopscube.com/kustomize-tutorial)
+- [blog.devgenius.io: Kustomize — K8 manifest patching](https://blog.devgenius.io/kustomize-simple-manifest-manipulation-9330f7f40d5d) In this tutorial, you will learn how to manipulate YAML files using Kustomize
 
 ## Secretize plugin
 

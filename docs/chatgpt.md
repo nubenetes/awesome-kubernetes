@@ -74,3 +74,4 @@
 
 - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot/) A ChatGPT bot for Kubernetes issues. Ask the AI how to solve your Prometheus alerts, get pithy responses.
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
+- [numerous.ai](https://numerous.ai/) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.

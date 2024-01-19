@@ -1206,6 +1206,8 @@
 - [medium.com/pipedrive-engineering: How we choked our Kubernetes NodeJS services](https://medium.com/pipedrive-engineering/how-we-choked-our-kubernetes-nodejs-services-932acc8cc2be) Learn from the Pipedrive engineering team experience how to manage memory and CPU resources properly in NodeJS and Kubernetes without slowing down your services
 - [medium.com/@eliran89c: For the love of god, learn when to use CPU limits on Kubernetes](https://medium.com/@eliran89c/for-the-love-of-god-learn-when-to-use-cpu-limits-on-kubernetes-2225341e9dbd) In this article, you'll explore how CPU requests and limits work, why they were introduced, and how to monitor CPU usage
 - [wbhegedus.me: Demystifying Kubernetes CPU Limits (and Throttling)](https://wbhegedus.me/understanding-kubernetes-cpu-limits/) In this article, you will discuss a clear example of CPU throttling on Kubernetes and how you could monitor and fix it
+- [medium.com/@jettycloud: Making Sense of Kubernetes CPU Requests And Limits](https://medium.com/@jettycloud/making-sense-of-kubernetes-cpu-requests-and-limits-390bbb5b7c92)
+- [loft.sh: How to Set Up Kubernetes Requests and Limits](https://loft.sh/blog/how-to-set-up-kubernetes-requests-and-limits/)
 
 ### Kubernetes Scheduler. Kube Scheduler
 

@@ -126,6 +126,11 @@
 - [blog.devops.dev: Tools to manage Kubernetes](https://blog.devops.dev/tools-to-manage-kubernetes-15b675f407d4) Kubernetes Command Line Tools
 - [medium.com/@onai.rotich: 4 Tools that Make it Easy to manage your Kubernetes Cluster](https://medium.com/@onai.rotich/4-tools-that-make-it-easy-to-manage-your-kubernetes-cluster-be252847cd85)
 - [virtualizationhowto.com: Kubernetes Best Kubernetes Management Tools in 2023](https://www.virtualizationhowto.com/2023/08/best-kubernetes-management-tools-in-2023)
+- Favourite CLI tools for containers and Kubernetes:
+    - dive - to explore Docker image layers
+    - kubectx - to easily switch between k8s contexts
+    - skaffold - to easily build, deploy, and dev apps on k8s
+    - mirrord - to intercept traffic from k8s to the local app instance
 
 ## K8s Tools
 
@@ -621,7 +626,14 @@ elastic quotas - Effortless optimization at its finest!
 - [github.com/updatecli/updatecli](https://github.com/updatecli/updatecli) A Declarative Dependency Management tool
     - Automatically open a PR on your GitOps repository when a third party service publishes an update
     - Updatecli is a tool used to apply file update strategies. Designed to be used from everywhere, each application "run" detects if a value needs to be updated using a custom strategy then apply changes according to the strategy.
-- [github.com/yonahd/kor](https://github.com/yonahd/kor) A Golang Tool to discover unused Kubernetes Resources
+- [==github.com/yonahd/kor==](https://github.com/yonahd/kor) A Golang Tool to discover unused Kubernetes Resources. Currently, Kor can identify and list unused:
+    - ConfigMaps
+    - Secrets
+    - Services
+    - ServiceAccounts
+    - Deployments
+    - Statefulsets
+    - Roles
 - [granted.dev](https://www.granted.dev) A CLI application which provides the world’s best developer UX for finding and accessing cloud roles to multiple cloud accounts, fast!
 - [devtron.ai](https://devtron.ai/) Adopt Kubernetes in Weeks With Our K8s Acceleration Platform. Old software delivery platforms are holding you back and slowing you down. Rapidly adopt K8s without creating cognitive overload for your developers.
 

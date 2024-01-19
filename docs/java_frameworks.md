@@ -332,6 +332,7 @@ optimizing Enterprise Java for the microservices architecture.
 - [==javaadvent.com: You need more than containers. A short history of the mess we're in==](https://www.javaadvent.com/2021/12/you-need-more-than-containers-a-short-history-of-the-mess-were-in.html)
 - [==developers.redhat.com: Quarkus for Spring developers: Kubernetes-native design patterns==](https://developers.redhat.com/articles/2021/10/11/quarkus-spring-developers-kubernetes-native-design-patterns)
 - [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus/)
+- [auth0.com: Java Microservices with Spring Boot and Spring Cloud](https://auth0.com/blog/java-spring-boot-microservices/) This tutorial shows you how to build a microservices architecture with Spring Boot and Spring Cloud.
 
 ## Kogito cloud-native business automation framework
 

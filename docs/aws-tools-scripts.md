@@ -21,6 +21,7 @@
 - https://github.com/dannysteenman/aws-toolbox A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.
 - [saml-to/assume-aws-role-action](https://github.com/saml-to/assume-aws-role-action) Assume AWS IAM Roles using SAML.to in GitHub Actions. This action enables workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
 - [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management)
+- [github.com/cavaliercoder/vpc-free](https://github.com/cavaliercoder/vpc-free) Find free IP address blocks in AWS EC2.
 
 ## AWS Samples (Boilerplates)
 

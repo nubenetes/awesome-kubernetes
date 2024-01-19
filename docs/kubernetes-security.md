@@ -206,6 +206,12 @@
 - [owasp.org: OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten/) OWASP Kubernetes Top Ten is aimed at helping security practitioners, system administrators, and developers prioritize risks around the Kubernetes ecosystem. This is a prioritized list of these risks backed by data.
 - [darkreading.com: Top 10 Kubernetes Security Risks Every DevSecOps Pro Should Know](https://www.darkreading.com/dr-tech/top-10-kubernetes-security-risks-every-devsecops-needs-to-know) The mission to run any containerized application on any infrastructure makes security a challenge on Kubernetes.
 - [==sysdig.com: OWASP Kubernetes Top 10== 🌟](https://sysdig.com/blog/top-owasp-kubernetes/) One of the biggest concerns when using Kubernetes is whether we are complying with the security posture and taking into account all possible threats.
+- [itnext.io: Kubernetes OWASP Top 10: Secrets Management](https://itnext.io/kubernetes-owasp-top-10-secrets-management-c996faa87b47) In this article, you will discuss secrets management in Kubernetes:
+    - Secrets objects
+    - Managing Kubernetes Secrets
+    - Manual Secret Creation
+    - Secrets in CI/CD pipelines
+    - Kubernetes Secrets Store Container Storage Interface
 
 ## Exposed Kubernetes Clusters
 
@@ -265,6 +271,7 @@
 - [linkerd.io: Using Kubernetes's new Bound Service Account Tokens for secure workload identity](https://linkerd.io/2021/12/28/using-kubernetess-new-bound-service-account-tokens-for-secure-workload-identity/)
 - [medium.com/pareture: Kubernetes Bound Projected Service Account Token Volumes Might Surprise You](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483) There is an important difference to understand and remember between default Service Account Projection and Bound Service Account Token Volumes.
 - [medium.com/geekculture: K8s — ServiceAccount Token](https://medium.com/geekculture/k8s-serviceaccount-token-313d62aee119) K8s ServiceAccount token deep dive
+- [motilayo.hashnode.dev: Exploring Kubernetes Service Account Tokens and Secure Workload Identity Federation](https://motilayo.hashnode.dev/exploring-kubernetes-service-account-tokens-and-secure-workload-identity-federation) Ever wonder how AWS IRSA, GCP workload identity or Azure AD workload identity work in Kubernetes? This article explores how OIDC works in a Kubernetes cluster to trust external workloads
 
 ## Kubernetes Secrets
 

@@ -1,20 +1,21 @@
 # AWS Security
 
 1. [Introduction](#introduction)
-2. [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
-3. [Application Security](#application-security)
-4. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
-5. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
-6. [AWS IAM](#aws-iam)
+2. [AWS Security Scanners](#aws-security-scanners)
+3. [AWS Security Reference Architecture AWS SRA](#aws-security-reference-architecture-aws-sra)
+4. [Application Security](#application-security)
+5. [Policy as Code with AWS CDK and Open Policy Agent](#policy-as-code-with-aws-cdk-and-open-policy-agent)
+6. [Payment Card Industry Data Security Standard compliance](#payment-card-industry-data-security-standard-compliance)
+7. [AWS IAM](#aws-iam)
     1. [Terraform IAM Policy Validator](#terraform-iam-policy-validator)
     2. [AWS IAM Anywhere](#aws-iam-anywhere)
-7. [AWS Organizations](#aws-organizations)
-8. [AWS Control Tower](#aws-control-tower)
-9. [AWS Firewalls](#aws-firewalls)
-10. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
-11. [AWS Secrets Manager](#aws-secrets-manager)
-12. [AWS Vault](#aws-vault)
-13. [Tweets](#tweets)
+8. [AWS Organizations](#aws-organizations)
+9. [AWS Control Tower](#aws-control-tower)
+10. [AWS Firewalls](#aws-firewalls)
+11. [AWS WAF Web Application Firewall](#aws-waf-web-application-firewall)
+12. [AWS Secrets Manager](#aws-secrets-manager)
+13. [AWS Vault](#aws-vault)
+14. [Tweets](#tweets)
 
 ## Introduction
 
@@ -50,6 +51,10 @@
 - [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar/) Do you feel AWS security groups are hard to implement? Are you tired of reconfiguring IP addresses in security groups whenever workloads get restarted or redeployed?
 - [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) Serverless authentication solution to protect your website or Amplify application
 - [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) Example AWS Service control policies to get started or mature your usage of AWS SCPs.
+
+## AWS Security Scanners
+
+- [github.com/awslabs/sustainability-scanner: Sustainability Scanner (SusScanner)](https://github.com/awslabs/sustainability-scanner) Validate AWS CloudFormation templates against AWS Well-Architected Sustainability Pillar best practices.
 
 ## AWS Security Reference Architecture AWS SRA
 

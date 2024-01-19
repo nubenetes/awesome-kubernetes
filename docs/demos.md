@@ -833,6 +833,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [aytartana.wordpress.com: Migrating SpringBoot PetClinic REST to Quarkus](https://aytartana.wordpress.com/2020/08/26/migrating-springboot-petclinic-rest-to-quarkus/)
 - [aalmiray/q-cli](https://github.com/aalmiray/q-cli) Sample Quarkus CLI application
 - [piomin/sample-quarkus-serverless-kafka](https://github.com/piomin/sample-quarkus-serverless-kafka) Demo illustrating how to run Quarkus application on Knative Eventing with Kafka and Funqy modules
+- [piotrminkowski.com: Introduction to gRPC with Quarkus](https://piotrminkowski.com/2023/09/15/introduction-to-grpc-with-quarkus/)
 
 ## Golang Demos
 
@@ -888,6 +889,10 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [blog.awsfundamentals.com: Using S3 with Terraform](https://blog.awsfundamentals.com/using-s3-with-terraform)
 - [devopscube.com/terraform-aws-rds](https://devopscube.com/terraform-aws-rds) Terraform AWS RDS Provisioning Tutorial
 - [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit Chat App in Container Apps using Terraform | Paolo Salvatori](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app/ba-p/3885602)
+- [itnext.io: Automate Kubernetes Monitoring with Terraform and Datadog](https://itnext.io/automate-kubernetes-monitoring-with-terraform-and-datadog-13857f55c568)
+- [mahira-technology.medium.com: Automating AWS CodePipeline Setup with Terraform: Streamline Your CI/CD Workflow](https://mahira-technology.medium.com/deploying-aws-codepipeline-with-terraform-d6613979d0b6)
+- [patrickkoch.dev: Terraform on Azure with GitHub Copilot - Creating a Kubernetes Cluster and a Container Registry](https://www.patrickkoch.dev/posts/post_31/)
+- [medium.com/@Tyler.Gallimore: Deploying Apache Web Server on AWS EC2 with Terraform and Docker](https://medium.com/@Tyler.Gallimore/deploying-apache-web-server-on-aws-ec2-with-terraform-and-docker-6c315c81c024)
 
 ## Prometheus and Grafana
 

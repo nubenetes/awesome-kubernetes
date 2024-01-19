@@ -76,6 +76,7 @@
 ## IDRA Group
 
 - [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any day now](https://www.teslarati.com/idra-9000-ton-giga-press/)
+- [eleconomista.es: Giga Press, la colosal máquina de Tesla que ha revolucionado la fabricación de coches eléctricos](https://www.eleconomista.es/motor/noticias/12630740/01/24/giga-press-la-colosal-maquina-de-tesla-que-ha-revolucionado-la-fabricacion-de-coches-electricos.html)
 
 ## Carrefour Spain
 

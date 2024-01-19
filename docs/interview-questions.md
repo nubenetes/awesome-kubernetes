@@ -21,10 +21,12 @@
 19. [Python Interview Questions](#python-interview-questions)
 20. [System Design Interview](#system-design-interview)
 21. [JSON Interview Questions](#json-interview-questions)
+22. [Cypress Interview Questions](#cypress-interview-questions)
 
 ## Introduction
 
 - [grow.google: interview warmup](https://grow.google/certificates/interview-warmup/) A quick way to prepare for your next interview. Practice key questions, get insights about your answers, and get more comfortable interviewing.
+- [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault) A list of many interview questions & real-world challenges in Tech! (Site below is WIP)
 
 ## Ansible Interview Questions
 

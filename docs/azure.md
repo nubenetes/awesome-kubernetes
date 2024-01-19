@@ -76,6 +76,8 @@
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Microsoft Docs](https://docs.microsoft.com/)
 - [Azure Docs](https://docs.microsoft.com/azure)
+- [github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical Online Reference Implementation](https://github.com/azure/mission-critical-online) This repository is part of the Azure Mission-Critical open source project that provides a prescriptive architectural approach to building highly-reliable cloud-native applications on Microsoft Azure for mission-critical workloads.
+- [techcommunity.microsoft.com: Microsoft Learn - Learning Rooms Directory](https://techcommunity.microsoft.com/t5/custom/page/page-id/learn?product=All)
 - [Introducing the third of three Microsoft Clouds: Azure](https://www.catapultsystems.com/blogs/introducing-the-third-of-three-microsoft-clouds-azure/). 4 major sections of the Cloud Models are:
     - On-Premises: As you start on the left in the traditional on-prem configuration you are responsible for all layers of IT from the networking stack all the way up to the applications which are being provided. You may also be responsible for the data center, power, Internet service, and other underlying aspects.
     - Infrastructure as a Service: In IaaS (Take & Bake) the cloud vendor is responsible for the stack from networking through virtualization and your IT team is responsible for the Operating System (OS) through the applications. Common uses of IaaS are testing environments, development environments or hosting of a website.
@@ -150,6 +152,7 @@
 - [CommandLine Ninja](https://www.commandline.ninja) PowerShell, Active Directory, GPO & Azure Automation. Learn how to automate using PowerShell!
 - [dotnetcurry.com](https://www.dotnetcurry.com/)
 - [azurebrains.com: Azurebrains](https://www.azurebrains.com) Blog sobre Tecnologias Cloud, Azure, Inteligencia Artificial, etc.
+- [rutlandblog.com](https://rutlandblog.com/) All Things Azure
 
 ## Azure Training and Certifications
 
@@ -236,6 +239,8 @@
 - [medium.com/geekculture: Continuous Deployment with Azure DevOps Pipelines and Kubernetes](https://medium.com/geekculture/continuous-deployment-with-azure-devops-pipelines-and-kubernetes-12fe1c70b343) Create a Continuous Deployment workflow for your application
 - [techcommunity.microsoft.com: Azure DevOps Pipelines: If Expressions and Conditions 🌟](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/azure-devops-pipelines-if-expressions-and-conditions/ba-p/3737159)
 - [linkedin.com: Complete CI/CD Solution for mS on AKS using Azure DevOps, ArgoCD and External Kubernetes Secretes 🌟](https://www.linkedin.com/pulse/complete-cicd-solution-ms-aks-using-azure-devops-argocd-singh/)
+- [techcommunity.microsoft.com: Introduction to Azure DevOps Workload identity federation (OIDC) with Terraform](https://techcommunity.microsoft.com/t5/azure-devops-blog/introduction-to-azure-devops-workload-identity-federation-oidc/ba-p/3908687)
+- [datascientest.com: Azure DevOps Pipeline YAML: why configure CI/CD pipelines with YAML?](https://datascientest.com/en/azure-devops-pipeline-yaml-why-configure-ci-cd-pipelines-with-yaml)
 
 ### YAML Schema in DevOps Azure Pipelines
 
@@ -436,6 +441,7 @@
 
 - [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli/)
 - [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks#resize-without-downtime-preview)
+- [techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments](https://techcommunity.microsoft.com/t5/azure-tools-blog/announcing-template-based-previews-of-azure-cli-and-azure/ba-p/3933802)
 
 ## Azure Run Command
 

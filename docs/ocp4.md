@@ -839,6 +839,8 @@ oc login
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The GUI with <a href="https://twitter.com/openshift?ref_src=twsrc%5Etfw">@openshift</a> that shows services, and connections between pods, is so cool. Such a great tool to help understand whats happening instead of a bazillion <a href="https://twitter.com/hashtag/CuddleKube?src=hash&amp;ref_src=twsrc%5Etfw">#CuddleKube</a> commands! <a href="https://twitter.com/hashtag/CFD12?src=hash&amp;ref_src=twsrc%5Etfw">#CFD12</a> <a href="https://t.co/3XQjScS6TM">pic.twitter.com/3XQjScS6TM</a></p>&mdash; Nathan Bennett (@vNathanBennett) <a href="https://twitter.com/vNathanBennett/status/1456342084873441280?ref_src=twsrc%5Etfw">November 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why OpenShift? Helm Repositories - OpenShift is focused on operators, but we can also easily add any Helm repo and then install a chart using the UI console🎥👇<a href="https://twitter.com/hashtag/openshift?src=hash&amp;ref_src=twsrc%5Etfw">#openshift</a> <a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/helm?src=hash&amp;ref_src=twsrc%5Etfw">#helm</a> <a href="https://t.co/uxK43h8U7l">pic.twitter.com/uxK43h8U7l</a></p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1704517809315741797?ref_src=twsrc%5Etfw">September 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 

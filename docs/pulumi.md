@@ -1,6 +1,6 @@
 # Pulumi - Modern Infrastructure as Code
 
-- [Pulumi](https://www.pulumi.com/) 
+- [Pulumi](https://www.pulumi.com/)
 - [Pulumi VS Terraform](https://www.pulumi.com/docs/intro/vs/terraform/)
 - [Pulumi Cloud Providers](https://www.pulumi.com/docs/intro/cloud-providers/)
 - [DRY (Don’t Repeat Yourself) on the cloud with Pulumi](https://blog.thundra.io/dry-dont-repeat-yourself-on-the-cloud-with-pulumi)
@@ -22,3 +22,4 @@
 - [pulumi.com: Convert Your Terraform to Pulumi](https://www.pulumi.com/tf2pulumi/)
 - [garden.io: Pulumi vs. Terraform: A comparison of Infrastructure as Code tools](https://garden.io/blog/pulumi-vs-terraform)
 - [==pulumi/kube2pulumi==](https://github.com/pulumi/kube2pulumi) Upgrade your Kubernetes YAML to a modern language
+- [packetswitch.co.uk: Terraform is Good, but I Like Pulumi](https://www.packetswitch.co.uk/terraform-is-good-but-i-like-pulumi/)

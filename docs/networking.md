@@ -23,6 +23,7 @@
 ## CIDR subnets
 
 - [==cidr.xyz== 🌟](https://cidr.xyz) An interactive IP address and CIDR range visualizer
+- [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html) Convert CIDR notation to a range of IP addresses
 - https://en.wikipedia.org/wiki/Classful_network
 - [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74)
 - [==opensource.com: A Linux networking guide to CIDR notation and configuration - sipcalc== 🌟](https://opensource.com/article/16/12/cidr-network-notation-configuration-linux)

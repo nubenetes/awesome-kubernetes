@@ -33,6 +33,7 @@
 - [==armosec.io: Which Managed Kubernetes Is Right for Me?==](https://www.armosec.io/blog/which-managed-kubernetes-is-right-for-me) This blog will compare on-premises, or self-hosted,Kubernetes clusters to managed ones, as well as outline your options for Kubernetes in the cloud
 - [==infoworld.com: CNCF survey: Managed Kubernetes becomes the norm==](https://www.infoworld.com/article/3649710/cncf-survey-managed-kubernetes-becomes-the-norm.html) Cloud Native Computing Foundation’s latest survey shows that container and Kubernetes usage continues to rise, as managed services ease the operational burden on their teams.
 - [redhat.com: What architects need to know about managed Kubernetes](https://www.redhat.com/architect/managed-kubernetes) Should you assemble your own Kubernetes stack or adopt a managed platform such as Red Hat OpenShift? Evaluate the differences.
+- [dev.to/thenjdevopsguy: AKS vs EKS vs GKE](https://dev.to/thenjdevopsguy/aks-vs-eks-vs-gke-2459)
 
 {==
 
@@ -269,6 +270,7 @@
 ## AKS Azure Kubernetes Service
 
 - [learn.microsoft.com: Introduction to Kubernetes on Azure](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure)
+- [==azure.github.io/AKS-Construction== 🌟](https://azure.github.io/AKS-Construction/) **AKS Construction Helper**
 - [==the-aks-checklist.com: The Azure Kubernetes Service Checklist== 🌟🌟🌟](https://www.the-aks-checklist.com/) This checklist contains a large set of best practices and some of them may not be relevant to your context and thus the rating may be incorrect in your case. Please choose and apply them wisely.
 - [docs.microsoft.com: Baseline architecture for an Azure Kubernetes Service (AKS) cluster 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks) In this reference architecture, you'll build a baseline infrastructure that deploys an AKS cluster. The article includes recommendations for networking, security, identity, management, and monitoring.
 - [docs.microsoft.com: Microservices architecture on Azure Kubernetes Service (AKS) 🌟](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices) This reference architecture shows a microservices application deployed to Azure Kubernetes Service (AKS). It describes a basic AKS configuration that can be the starting point for most deployments. The architecture consists of the following components:

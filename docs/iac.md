@@ -35,6 +35,7 @@
 - [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html)
 - [thenewstack.io: Infrastructure as Code or Cloud Platforms — You Decide!](https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide/)
 - [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/3692296/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html) With infrastructure as code, virtual desktop infrastructure, and a proactive approach to incident management, you can help keep cloud costs reasonable.
+- [spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC](https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd)
 
 ## Local Environment as Code
 
