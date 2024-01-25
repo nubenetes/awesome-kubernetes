@@ -40,6 +40,7 @@
 - [simplilearn.com: Top 40 Terraform Interview Questions and Answers for 2022](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
 - [k21academy.com: Top Terraform Interview Questions & Answers [ Revised – 2022]](https://k21academy.com/terraform-iac/terraform-interview-questions/)
 - [mrdevops.hashnode.dev: Top 40 Terraform Interview Questions and Answers for 2023](https://mrdevops.hashnode.dev/top-40-terraform-interview-questions-and-answers-for-2023)
+- [fosstechnix.com: Top 50 Terraform Cloud Interview Questions and Answers](https://www.fosstechnix.com/terraform-cloud-interview-questions-and-answer/)
 
 ## AWS Interview Questions
 

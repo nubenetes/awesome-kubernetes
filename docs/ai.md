@@ -7,10 +7,13 @@
 5. [The MAD (ML/AI/Data) Landscape](#the-mad-mlaidata-landscape)
 6. [OpenAI](#openai)
 7. [Kubernetes and AI](#kubernetes-and-ai)
-8. [Programming](#programming)
-9. [Medical Imaging](#medical-imaging)
-10. [Computer Vision](#computer-vision)
-11. [AIOps](#aiops)
+8. [IaC Terraform and AI](#iac-terraform-and-ai)
+9. [IaC CloudFormation and AI](#iac-cloudformation-and-ai)
+10. [Programming](#programming)
+11. [Medical Imaging](#medical-imaging)
+12. [Computer Vision](#computer-vision)
+13. [AIOps](#aiops)
+14. [Other Tools](#other-tools)
 
 ## Introduction
 
@@ -38,6 +41,7 @@
 
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops/) LLMOps: MLOps for Large Language Models
+- [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course) Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
 ## The MAD (ML/AI/Data) Landscape
 
@@ -51,6 +55,14 @@
 
 - [k8sgpt.ai](https://k8sgpt.ai) k8sgpt is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
 - [collabnix.com: The Rise of Kubernetes and AI – Kubectl OpenAI plugin](https://collabnix.com/the-rise-of-kubernetes-and-ai-kubectl-openai-plugin/)
+
+## IaC Terraform and AI
+
+- [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)
+
+## IaC CloudFormation and AI
+
+- [IDE extension for AWS Application Composer enhances visual modern applications development with AI-generated IaC](https://aws.amazon.com/blogs/aws/ide-extension-for-aws-application-composer-enhances-visual-modern-applications-development-with-ai-generated-iac/)
 
 ## Programming
 
@@ -78,3 +90,7 @@ security from the beginning with continuous testing, automation, zero trust, and
 - [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering/)
 - [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)
 - [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management) Accelerate your IT operations and support AIOps implementation with HashiCorp.
+
+## Other Tools
+
+- [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab

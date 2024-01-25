@@ -300,6 +300,7 @@
 - [medium: AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)
 - [github.com/stacksimplify/aws-eks-kubernetes-masterclass 🌟](https://github.com/stacksimplify/aws-eks-kubernetes-masterclass)
 - [hbollon/k8s-voting-app-aws](https://github.com/hbollon/k8s-voting-app-aws) Example of a distributed voting app running on Kubernetes. Written in Golang with Terraform definitions to deploy to AWS EKS
+- [aws.plainenglish.io: Deploying Application on Amazon EKS](https://aws.plainenglish.io/deploying-application-on-amazon-eks-211eb46c069c)
 
 ### Azure AKS
 
@@ -692,6 +693,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [piotrminkowski.com: GitLab CI/CD on Kubernetes](https://piotrminkowski.com/2020/10/19/gitlab-ci-cd-on-kubernetes/)
 - [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) New to continuous integration? Learn how to build your first CI pipeline with GitLab.
 - [==about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster==](https://about.gitlab.com/blog/2021/11/18/gitops-with-gitlab-connecting-the-cluster/)
+- [medium.com/@kachidude007: Setting up an Access Token in GitLab for a Jenkins Pipeline](https://medium.com/@kachidude007/setting-up-an-access-token-in-gitlab-for-a-jenkins-pipeline-a688dd6c994a) Navigate to your GitLab Personal Token Page
 
 ## Spring PetClinic Sample Application
 
@@ -914,6 +916,9 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [nicwortel.nl: Continuous deployment to Kubernetes with GitHub Actions](https://nicwortel.nl/blog/2022/05/27/continuous-deployment-to-kubernetes-with-github-actions) In this article, you will learn how to use GitHub Actions to automatically test, build and deploy your Docker images to Kubernetes on every commit to the main branch
 - [medium.com/geekculture: GitOps — Github Actions K8s Deploy Workflow](https://medium.com/geekculture/gitops-github-actions-k8s-deploy-workflow-54f0d9a1d11b)
 - [eggboy.medium.com: CI/CD Java apps securely to Azure Kubernetes Service with GitHub Action — Part 1](https://eggboy.medium.com/ci-cd-java-apps-securely-to-azure-kubernetes-service-with-github-action-part-1-16393af4d097)
+- [github.com/GitHubSecurityLab/actions-permissions: GitHub token permissions Monitor and Advisor actions](https://github.com/GitHubSecurityLab/actions-permissions) **GitHub token permissions Monitor and Advisor actions**
+- [thomasthornton.cloud: If, elseif or else in GitHub Actions](https://thomasthornton.cloud/2023/08/11/if-elseif-or-else-in-github-actions/)
+- [kaleshreya907.medium.com: GitHub Actions: Netflix Deployment](https://kaleshreya907.medium.com/step2a-install-docker-and-run-sonarqube-container-faa42d01f5fe)
 
 ### RedHat GitHub Actions
 

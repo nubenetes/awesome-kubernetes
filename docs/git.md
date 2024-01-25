@@ -180,6 +180,9 @@
 - [==dev.to: Git fundamentals, a complete guide | Leandro Proença== 🌟🌟](https://dev.to/leandronsp/git-fundamentals-a-complete-guide-do7)
 - [freecodecamp.org: Undo Git Add – How to Remove Added Files in Git 🌟](https://www.freecodecamp.org/news/undo-git-add-how-to-remove-added-files-in-git/)
 - [==realpython.com: Advanced Git Tips for Python Developers== 🌟](https://realpython.com/advanced-git-for-pythonistas/)
+- [cloud-and-devops.hashnode.dev: Git 007 : Learn Advanced GIT topics like a Pro](https://cloud-and-devops.hashnode.dev/git-007-learn-advanced-git-topics-like-a-pro)
+- [build5nines.com: Git: Reset / Undo Most Recent Local Commit](https://build5nines.com/git-reset-undo-most-recent-local-commit/)
+- [freecodecamp.org: How to Write Commit Messages that Project Maintainers Will Appreciate](https://www.freecodecamp.org/news/how-to-write-commit-messages-maintainers-will-like/)
 
 ## Git Releases
 
@@ -559,6 +562,8 @@ git rebase -i HEAD~5
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
 - [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l)
 - [==youtube: GitHub Masterclass (Spanish)== 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M)
+- [freecodecamp.org: How to Build a GitHub Template Repository for Scaffolding with React, Vite, and TailwindCSS](https://www.freecodecamp.org/news/create-a-github-template-repository-with-react-vite-and-tailwindcss/)
+- [alemsbaja.hashnode.dev: Git and GitHub Demystified : A Comprehensive Guide for Version Control System](https://alemsbaja.hashnode.dev/git-and-github-demystified-a-comprehensive-guide-for-version-control-system) A Comprehensive Guide to Mastering Git Version Control System and GitHub with example
 
 ## Fake it til you make it
 

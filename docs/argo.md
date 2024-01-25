@@ -96,6 +96,9 @@
     - Each git push builds an image and updates the app
     - Closing the pull request terminates the environment
 - [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd/)
+- [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578)
+- [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) Don’t Underestimate Labels with Kubernetes: Simplify, Don’t Overcomplicate
+- [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff)
 
 ## Argo CD Vulnerabilities
 
@@ -129,6 +132,7 @@
 - [medium.com/everything-full-stack: Deployment Strategies: Argo Rollouts](https://medium.com/everything-full-stack/deployment-strategies-argo-rollouts-1980fc0685e6)
 - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) In this article, we will learn how to automate Blue/Green Deployment with Argo Rollouts.
 - [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing/) This blog post will teach you how to set up blue-green deployments using Argo Rollouts with DNS routing using **Azure Traffic Manager**
+- [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts/) In this tutorial, you will learn how to use Argo Rollouts for settings/ConfigMaps using the Kustomize configmap generators. This is useful during blue/green deployments where you need a (templated) copy of the ConfigMap.
 
 ## Argo Workflows
 

@@ -636,6 +636,8 @@ elastic quotas - Effortless optimization at its finest!
     - Roles
 - [granted.dev](https://www.granted.dev) A CLI application which provides the world’s best developer UX for finding and accessing cloud roles to multiple cloud accounts, fast!
 - [devtron.ai](https://devtron.ai/) Adopt Kubernetes in Weeks With Our K8s Acceleration Platform. Old software delivery platforms are holding you back and slowing you down. Rapidly adopt K8s without creating cognitive overload for your developers.
+- [==github.com/kubefirst/kubefirst==](https://github.com/kubefirst/kubefirst) The Kubefirst CLI creates instant GitOps platforms that integrate some of the best tools in cloud native from scratch in minutes.
+- [github.com/Trolley-MGMT/trolleymgmt](https://github.com/Trolley-MGMT/trolleymgmt) Trolley is a multi cloud Kubernetes management system. A simplified UI which allows the user to Deploy, Edit and Delete clusters and deployments within them on AWS, Azure and GCP.
 
 ## Portainer
 
@@ -884,6 +886,7 @@ elastic quotas - Effortless optimization at its finest!
     - End-to-end working code to implement a fully functional EKS Cluster
 - [dev.to: Karpenter: The Better Autoscaling Solution for Kubernetes- Part 1](https://dev.to/aws-builders/karpenter-the-better-autoscaling-solution-for-kubernetes-part-1-4pd5)
 - [medium.com/summit-technology-group: Karpenter — AutoScaling and Right-Sizing EKS Nodes](https://medium.com/summit-technology-group/karpenter-autoscaling-and-right-sizing-eks-nodes-bc6d2b83d48e) Karpenter simplifies node autoscaling and right-sizing for Kubernetes workloads on AWS, resulting in cost savings and easier use of spot instances
+- [medium.com/israeli-tech-radar: Karpenter, and the future of Kubernetes](https://medium.com/israeli-tech-radar/karpenter-and-the-future-of-kubernetes-4ab7428b7f87)
 
 ## Kuby (easy deployments of Ruby Rails App)
 

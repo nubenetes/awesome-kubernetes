@@ -162,6 +162,7 @@
 - [github.com/2-alchemists/krossboard-kubernetes-operator](https://github.com/2-alchemists/krossboard-kubernetes-operator) Kubernetes Operator to handle cross-site, cross-distribution & multi-Kubernetes usage tracking, analytics and accounting (vanilla Kubernetes, OpenShift, EKS, AKS, GKE and other distros).
     - Krossboard is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software
     - Each instance of Krossboard enables tracking the usage of a set of Kubernetes clusters listed in a kubeconfig secret
+- [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8) Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.
 
 ## OpenTelemetry Operator
 

@@ -3,8 +3,9 @@
 1. [Introduction](#introduction)
 2. [GitOps Working Group](#gitops-working-group)
 3. [OpenGitOps Project](#opengitops-project)
-4. [Git Repositories Structures](#git-repositories-structures)
-5. [GitOps Tools](#gitops-tools)
+4. [GitOps Patterns](#gitops-patterns)
+5. [Git Repositories Structures](#git-repositories-structures)
+6. [GitOps Tools](#gitops-tools)
     1. [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
     2. [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
     3. [Flagger](#flagger)
@@ -18,16 +19,16 @@
     11. [HashiCorp Waypoint](#hashicorp-waypoint)
     12. [Weave GitOps](#weave-gitops)
     13. [Octopilot](#octopilot)
-6. [GitOps Frameworks](#gitops-frameworks)
-7. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
+7. [GitOps Frameworks](#gitops-frameworks)
+8. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     1. [OpenShift GitOps](#openshift-gitops)
     2. [AWS Kubernetes](#aws-kubernetes)
     3. [Weave Kubernetes Platform](#weave-kubernetes-platform)
     4. [Ubuntu Charmed Kubernetes](#ubuntu-charmed-kubernetes)
-8. [APIOps](#apiops)
-9. [Images](#images)
-10. [Tweets](#tweets)
-11. [Videos](#videos)
+9. [APIOps](#apiops)
+10. [Images](#images)
+11. [Tweets](#tweets)
+12. [Videos](#videos)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/636487902&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/alessandro-donofrio-5" title="Alemix Donofrio" target="_blank" style="color: #cccccc; text-decoration: none;">Alemix Donofrio</a> · <a href="https://soundcloud.com/alessandro-donofrio-5/jimmy-sax-time" title="Jimmy Sax -  Time" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax -  Time</a></div>
@@ -184,6 +185,11 @@
 - [blog.brainboard.co: Streamlining Cloud Deployments with Git: Best Practices and Strategies](https://blog.brainboard.co/streamlining-cloud-deployments-with-git-best-practices-and-strategies-3ddf5cad3861)
 - [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes/)
 - [github.blog: Applying GitOps principles to your operations](https://github.blog/2023-06-02-applying-gitops-principles-to-your-operations/) Could we use our Git repository as the source of truth for operational tasks, and somehow reconcile changes with our real-world view?
+- [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 1](https://hackernoon.com/what-is-gitops-and-why-it-is-almost-useless-part-1)
+    - [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 2](https://hackernoon.com/what-is-gitops-and-why-is-it-almost-useless-part-2) In this controversial article, the author argues that GitOps is a (mostly) unnecessary abstraction that introduces more complexity than it's worth. The article tackles several GitOps principles and gives practical code counterexamples.
+- [==devoriales.com: Exploring GitOps: Software and Infrastructure Management Intro Video==](https://devoriales.com/video/897990746/intro-to-gitops)
+- [medium.com/containers-101: Using GitOps for Databases](https://medium.com/containers-101/using-gitops-for-databases-f09a027184bb)
+- [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops/)
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -206,6 +212,11 @@
 ## OpenGitOps Project
 
 - [github.com/open-gitops/project 🌟](https://github.com/open-gitops/project) OpenGitOps is a CNCF Sandbox project to define a vendor-neutral, principle-led meaning of GitOps. This will establish a foundation for interoperability between tools, conformance, and certification through lasting programs, documents, and code.
+
+## GitOps Patterns
+
+- [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) Collection of patterns, examples and resources for GitOps process design, GitOps repository structures, etc.
+- [github.com/cloudogu/gitops-playground#example-applications](https://github.com/cloudogu/gitops-playground#example-applications) Creates a complete GitOps-based operational stack on your Kubernetes clusters
 
 ## Git Repositories Structures
 

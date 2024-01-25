@@ -20,6 +20,7 @@
 - [dev.to: Username Validator](https://dev.to/lizardkinglk/username-validator-1n8g) Usernames should be formatted and they should conform to follow some validation constraints.
 - [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course/)
 - [dev.to: How to add In-App notifications to any web app!](https://dev.to/novu/how-to-add-in-app-notifications-to-any-web-app-1b4n)
+- [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser/)
 
 ## Useful websites for web developers
 

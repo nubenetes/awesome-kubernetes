@@ -150,6 +150,7 @@
 - [devopsinside.com: Is Kubernetes killing tools like Ansible?](https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible/)
     - Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.
     - Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.
+- [community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone)
 
 ## Ansible AI
 

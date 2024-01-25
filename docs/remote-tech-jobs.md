@@ -13,6 +13,7 @@
 - [ireviews.com: The Top 60 Remote Work Websites for New Opportunities in 2022](https://www.ireviews.com/the-top-60-remote-work-websites-for-new-opportunities-in-2022/)
 - [starkephillip.com: The effects of remote work on company culture](https://starkephillip.com/the-effects-of-remote-work-on-company-culture/)
 - [The remote job guide: job search & productivity working from home](https://resume.io/blog/remote-job-guide)
+- [forbes.com: 4 Ways To Combat The Social Isolation Of Remote Working](https://www.forbes.com/sites/drsamanthamadhosingh/2023/12/18/4-ways-to-combat-the-social-isolation-of-remote-working)
 
 ## Remote Jobs
 

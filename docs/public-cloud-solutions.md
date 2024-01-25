@@ -30,6 +30,7 @@
 - [medium.com/adeo-tech: Multi-Cloud Kubernetes Survival Guide 🌟](https://medium.com/adeo-tech/multi-cloud-kubernetes-survival-guide-49eee9aa58e2)
 - [acloudguru.com: Multicloud Fluency: 6 reasons you should learn multiple clouds](https://acloudguru.com/blog/engineering/why-learn-multiple-cloud-platforms)
 - [digitalisationworld.com: Multicloud: Two truths and a lie](https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie)
+- [nextgov.com: Why smart multicloud policies are a golden ticket to modernizing IT infrastructure](https://www.nextgov.com/ideas/2023/11/why-smart-multicloud-policies-are-golden-ticket-modernizing-it-infrastructure/392232/)
 
 ## Public Cloud Services Comparison
 
@@ -53,6 +54,7 @@
 - [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
 - [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison/)
 - [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers/) Companies turn to cloud providers for benefits like scalability, security and high availability, but the offerings are not identical. How can you ensure a good fit?
+- [==cloud.google.com: Compare AWS and Azure services to Google Cloud==](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
 
 ## Openshift as a Service
 

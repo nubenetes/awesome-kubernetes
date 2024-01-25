@@ -142,6 +142,7 @@
 - [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
+- [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
 
 ## AWS Session Manager
 
@@ -179,3 +180,4 @@
 ## AWS Landing Zone
 
 - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)
+- [blog.brainboard.co: AWS Landing Zone Architecture: Comprehensive Guide to Best Practices and Design Secrets](https://blog.brainboard.co/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962) Key Components and Best Practices

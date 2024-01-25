@@ -49,6 +49,7 @@
 - [infoworld.com: Kubernetes cost management for the real world](https://www.infoworld.com/article/3695569/kubernetes-cost-management-for-the-real-world.html) How much will Kubernetes cost to run? That question has become much easier to answer for Azure Kubernetes Service, thanks to OpenCost integration.
 - [infoworld.com: When finops costs you more in the end](https://www.infoworld.com/article/3688332/when-finops-costs-you-more-in-the-end.html) Cloud finops can save you tons of money on cloud spending and return more value to the business. Unfortunately, mistakes are costing companies big time.
 - [infoworld.com: Kubernetes costs less, but less than what?](https://www.infoworld.com/article/3696277/kubernetes-costs-less-but-less-than-what.html) Sure, compared to traditional IT, Kubernetes is great, but not much will beat public cloud in the long run.
+- [bitsand.cloud: Slashing Data Transfer Costs in AWS by 99%](https://www.bitsand.cloud/posts/slashing-data-transfer-costs/)
 
 ## Compute Cost Calculator
 

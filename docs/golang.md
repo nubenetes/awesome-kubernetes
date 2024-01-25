@@ -56,6 +56,7 @@
 - [levelup.gitconnected.com: Concurrency in Go: shared memory](https://levelup.gitconnected.com/concurrency-in-go-shared-memory-a2ef201b396b)
 - [luk4z7/go-concurrency-guide: Go Concurrency Guide 🌟](https://github.com/luk4z7/go-concurrency-guide) Practical concurrency guide in Go, communication by channels, patterns
 - [medium.com/datascale: Know GOMAXPROCS before deploying your GO app to Kubernetes](https://medium.com/datascale/know-gomaxprocs-before-deploying-your-go-app-to-kubernetes-7a458fb63af1) In this article, you will learn why setting GOMAXPROCS for your Go apps is crucial in Kubernetes. And you'll discover why it's better to assign a full-core CPU to your Go containers.
+- [dev.to: Getting Started With Go (golang) | Michael Levan](https://dev.to/thenjdevopsguy/getting-started-with-go-golang-5eh8)
 
 ## Design Patterns
 

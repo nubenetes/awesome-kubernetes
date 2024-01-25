@@ -1,22 +1,25 @@
 # Machine Learning Ops (MLOps) and Data Science
 
 1. [Introduction. MLOps](#introduction-mlops)
-2. [ML Infra](#ml-infra)
-3. [Object Detection Libraries](#object-detection-libraries)
-4. [MLFlow](#mlflow)
-5. [Kubeflow](#kubeflow)
-6. [Flyte](#flyte)
-7. [Azure ML](#azure-ml)
-8. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-9. [Data Science](#data-science)
-10. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
-11. [Other Tools](#other-tools)
-12. [Debugging ML Jobs](#debugging-ml-jobs)
-13. [Samples](#samples)
-14. [ML Courses](#ml-courses)
-15. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-16. [Polls](#polls)
-17. [Tweets](#tweets)
+2. [MLOps Roadmap](#mlops-roadmap)
+3. [Blogs](#blogs)
+4. [ML Infra](#ml-infra)
+5. [Object Detection Libraries](#object-detection-libraries)
+6. [MLFlow](#mlflow)
+7. [Kubeflow](#kubeflow)
+8. [Flyte](#flyte)
+9. [AWS ML](#aws-ml)
+10. [Azure ML](#azure-ml)
+11. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+12. [Data Science](#data-science)
+13. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
+14. [Other Tools](#other-tools)
+15. [Debugging ML Jobs](#debugging-ml-jobs)
+16. [Samples](#samples)
+17. [ML Courses](#ml-courses)
+18. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+19. [Polls](#polls)
+20. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -57,6 +60,27 @@
 - [learn.microsoft.com: Machine Learning operations maturity model 🌟](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model)
 - [medium.com/ai-hero: Streamlining Machine Learning Operations (MLOps) with Kubernetes and Terraform](https://medium.com/ai-hero/streamlining-machine-learning-operations-with-kubernetes-and-terraform-41baad37998e) Leveraging Terraform to Simplify AWS EKS Cluster Setup for Exploring Declarative ML Tools
 - [medium.com/@karanshingde: Machine Learning in Production— Your Comprehensive 101 Practical Guide](https://medium.com/@karanshingde/machine-learning-in-production-your-comprehensive-101-practical-guide-c7de0b5ad011)
+- [marvelousmlops.substack.com: CI/CD for MLOps on GitLab (part 1)](https://marvelousmlops.substack.com/p/cicd-for-mlops-on-gitlab-part-1) Code your way to your first CI pipeline
+- [medium.com/aiguys: MLOps: Serving AI apps to million users](https://medium.com/aiguys/mlops-serving-ai-to-million-users-c77ed718b7ed)
+- [marvelousmlops.substack.com: How to sell MLOps in large Organizations](https://marvelousmlops.substack.com/p/how-to-sell-mlops-in-large-organizations)
+- [marvelousmlops.substack.com: MLOps roadmap 2024](https://marvelousmlops.substack.com/p/mlops-roadmap-2024)
+- [towardsdatascience.com: Deploying LLM Apps to AWS, the Open-Source Self-Service Way](https://towardsdatascience.com/deploying-llm-apps-to-aws-the-open-source-self-service-way-c54b8667d829) A step-by-step guide on deploying LlamaIndex RAGs to AWS ECS fargate
+- [axelmendoza.com: The Ultimate Guide To ML Model Deployment In 2024](https://www.axelmendoza.com/posts/ml-model-deployment/) Explore the top ML model deployment tools of 2024 with this comprehensive guide. Uncover insights on Vertex AI, AWS Sagemaker, Seldon, KServe for successful ML projects.
+- [towardsdatascience.com: Build Machine Learning Pipelines with Airflow and Mlflow: Reservation Cancellation Forecasting](https://towardsdatascience.com/build-machine-learning-pipelines-with-airflow-and-mlflow-reservation-cancellation-forecasting-da675d409842) Learn how to create reproducible and ready-for-production Machine Learning pipelines through a Senior Machine Learning assignment
+- [marvelousmlops.substack.com: Technical roles in Data Science: Who is doing what?](https://marvelousmlops.substack.com/p/technical-roles-in-data-science-who)
+- [marvelousmlops.substack.com: Traceability & Reproducibility](https://marvelousmlops.substack.com/p/traceability-and-reproducibility)
+- [marvelousmlops.substack.com: Learn Machine Learning and Neural Networks without Frameworks](https://www.freecodecamp.org/news/learn-machine-learning-and-neural-networks-without-frameworks/)
+- [==seattledataguy.substack.com: Data Engineering Vs Machine Learning Pipelines==](https://seattledataguy.substack.com/p/data-engineering-vs-machine-learning)
+- [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphoreci.com/blog/devops-ml-data)
+- [nannyml.com: Automating post-deployment Data Collection for ML Monitoring](https://www.nannyml.com/blog/sdk-nannyml-data-collection-ml-monitoring)
+
+## MLOps Roadmap
+
+- [==roadmap.sh: MLOps roadmap==](https://roadmap.sh/r?id=65a112f2b8633950ffcf38b6) Roadmap to learn about MLOps
+
+## Blogs
+
+- [Marvelous MLOps Substack](https://marvelousmlops.substack.com)
 
 ## ML Infra
 
@@ -111,6 +135,10 @@
 - [mlops.community: MLOps Simplified: orchestrating ML pipelines with infrastructure abstraction. Enabled by Flyte](https://mlops.community/flyte-mlops-simplified/)
 - [medium.com/@timleonardDS: Who Let the DAGs out? Register an External DAG with Flyte (Chapter 3)](https://medium.com/@timleonardDS/who-lets-the-dags-out-register-an-external-dag-with-flyte-chapter-3-bad0ea781119)
 
+## AWS ML
+
+- [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker/)
+
 ## Azure ML
 
 - [docs.microsoft.com: MLflow and Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-mlflow) One of the open-source projects that has made #ML better is MLFlow. Microsoft is expanding support for APIs, no-code deployment for MLflow models in real-time/batch managed inference, curated MLflow settings, and CLI v2 integrations.
@@ -155,6 +183,7 @@
 - [thenewstack.io: 7 Must-Have Python Tools for ML Devs and Data Scientists 🌟](https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-scientists/) Python has an easy learning curve, however there are a range of development tools to consider if you're to use Python to its full potential.
 - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
 - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything
+- [github.com/VikParuchuri/surya](https://github.com/VikParuchuri/surya) Accurate line-level text detection and recognition (OCR) in any language
 
 ## Debugging ML Jobs
 
@@ -165,6 +194,7 @@
 ## Samples
 
 - [fepegar/vesseg](https://github.com/fepegar/vesseg) Brain vessel segmentation using 3D convolutional neural networks
+- [github.com/10tanmay100: MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS](https://github.com/10tanmay100/MEDICAL-DATA-PROJECT-END2END-WITH-FEW-MLOPS) We are on a mission to transform medical data into actionable insights using the power of machine learning. Whether you are a data scientist, healthcare professional, or an enthusiast in the field, your contributions and ideas are invaluable to us. Join us in making a difference!
 
 ## ML Courses
 

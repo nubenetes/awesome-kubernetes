@@ -263,6 +263,9 @@
 - [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) Learn how to use Grafana Phlare and continuous profiling to discover bottlenecks in your code and boost the performance of your Python apps running in Kubernetes
 - [towardsdatascience.com: Memoizing DataFrame Functions](https://towardsdatascience.com/memoizing-dataframe-functions-7a27dff532f7) Using Hashable DataFrames and Message Digests to Optimize Repeated Calculations
 - [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel)
+- [testdriven.io: Clean Code in Python](https://testdriven.io/blog/clean-code-python/)
+- [python.plainenglish.io: These 25 Python Commands Are All You Need for Programming Mastery in 2024](https://python.plainenglish.io/these-25-python-commands-are-all-you-need-for-programming-mastery-in-2024-322ebc29c4e1)
+- [python.plainenglish.io: REST: A Quick Guide to Building Scalable and Flexible Systems Using HTTP](https://python.plainenglish.io/rest-a-quick-guide-to-building-scalable-and-flexible-systems-using-http-62154841eefd) The characteristics of a RESTful systems, HTTP methods used to interact with resources, and HTTP status codes.
 
 ## ReactPy
 

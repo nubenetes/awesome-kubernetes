@@ -51,6 +51,7 @@
 - [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar/) Do you feel AWS security groups are hard to implement? Are you tired of reconfiguring IP addresses in security groups whenever workloads get restarted or redeployed?
 - [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) Serverless authentication solution to protect your website or Amplify application
 - [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) Example AWS Service control policies to get started or mature your usage of AWS SCPs.
+- [medium.parttimepolymath.net: No more AWS Access Keys?](https://medium.parttimepolymath.net/no-more-aws-access-keys-13a3c3f2337a)
 
 ## AWS Security Scanners
 
@@ -127,6 +128,7 @@
 - [==AWS Control Tower==](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
 - [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
 - [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
+- [aws.amazon.com: Automate AWS Control Tower landing zone operations using APIs](https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis/)
 
 ## AWS Firewalls
 

@@ -174,6 +174,7 @@ A simple extension to make indentation more readable
 - [marketplace.visualstudio.com: CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) Take beautiful screenshots of your code
 - [marketplace.visualstudio.com: GitOps Tools for Flux 🌟](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) This is a VS Code extension for GitOps automation tool for continuous delivery of Kubernetes and cloud native applications
 - [marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) Kubernetes reference highlighter is a plugin for VS Code that highlights references in your Kubernetes YAML files
+- [freecodecamp.org: Increase Your VS Code Productivity](https://www.freecodecamp.org/news/increase-your-vs-code-productivity/)
 
 #### More Extensions (Blogs)
 
@@ -331,6 +332,7 @@ A simple extension to make indentation more readable
 - [Vertical rulers](https://www.youtube.com/shorts/cTE0ec3IurE)
 - [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU)
 - [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk)
+- [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s)
 
 ## Videos
 

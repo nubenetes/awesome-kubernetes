@@ -202,6 +202,10 @@
 - [hmaslowski.com: macOS Security hardening with Microsoft Intune](https://hmaslowski.com/home/f/macos-security-hardening-with-microsoft-intune)
 - [kubewarden.io: Scanning secrets in environment variables](https://www.kubewarden.io/blog/2022/10/env-var-secrets/) This tutorial will teach you how to scan secrets in environment variables using Kubewarden and the  env-variable-secrets-scanner-policy
 - [dzone.com: How To Manage Vulnerabilities in Modern Cloud-Native Applications](https://dzone.com/articles/how-to-manage-vulnerabilities-in-modern-cloud-nati) The article describes how to secure cloud-native applications to identify, manage, and remediate vulnerabilities across the tech stack and ways of integrating security.
+- [auth0.com: A Passwordless Future! Passkeys for Java Developers](https://auth0.com/blog/webauthn-and-passkeys-for-java-developers/) Passkeys and WebAuthn for Java developers. Learn how to get started with passkeys for your Java and Spring Boot applications.
+- [infracloud.io: How to Prevent Secret Leaks in Your Repositories](https://www.infracloud.io/blogs/prevent-secret-leaks-in-repositories/)
+- [blog.devops.dev: End-to-End DevSecOps Kubernetes Project](https://blog.devops.dev/end-to-end-devsecops-kubernetes-project-4259f90722ef) In today’s rapidly evolving tech landscape, deploying applications using Kubernetes has become a crucial aspect of modern software development. This guide provides a detailed walkthrough for setting up an end-to-end Kubernetes project, covering everything from infrastructure provisioning to application deployment and monitoring.
+- [blog.stackademic.com: Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](https://blog.stackademic.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a)
 
 ## Kubernetes Security Compliance Frameworks
 
@@ -243,6 +247,7 @@
 - [==oauth2-proxy/oauth2-proxy: OAuth2 Proxy== 🌟](https://github.com/oauth2-proxy/oauth2-proxy) A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
 - [manfredmlange.medium.com: Containerized Keycloak in Development](https://manfredmlange.medium.com/containerized-keycloak-in-development-2f9d079ec4a3) How to set up an OpenID Connect compliant development environment with Docker?
 - [redis.com: JSON Web Tokens (JWTs) are Not Safe (ebook)](https://redis.com/docs/json-web-tokens-jwts-are-not-safe)
+- [dev.to/fidalmathew: Session-Based vs. Token-Based Authentication: Which is better?](https://dev.to/fidalmathew/session-based-vs-token-based-authentication-which-is-better-227o)
 
 ## Quality Gates
 
@@ -540,6 +545,7 @@
 - [medium.com/@nikhil.purva: Securing Kubernetes Secrets with HashiCorp Vault](https://medium.com/@nikhil.purva/securing-kubernetes-secrets-with-hashicorp-vault-a9555728e095)
 - [hashicorp.com: The State of Vault and Kubernetes, and Future Plans](https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans) Get an overview of the most common ways to use HashiCorp Vault and Kubernetes together, and get a preview of a new method we're considering.
 - [alexandre-vazquez.com: How To Inject Secrets in Pods To Improve Security with Hashicorp Vault in 5 Minutes 🌟](https://alexandre-vazquez.com/inject-secrets-in-pods-using-hashicorp-vault/)
+- [adfinis.com: Secret zero with ACME](https://adfinis.com/en/blog/secret-zero-with-acme/) As of Vault 1.14, the HashiCorp Vault PKI engine can issue certificates using the standard ACME protocol. The Automatic Certificate Management Environment (ACME) was made popular by Let’s Encrypt, which has been the default mechanism to request valid certificates from a public CA for over 10 years.
 
 #### HashiCorp Vault Agent
 
@@ -658,7 +664,7 @@
     - [falco.org: Detect Malicious Behaviour on Kubernetes API Server through gathering Audit Logs by using FluentBit - Part 2](https://falco.org/blog/detect-malicious-behaviour-on-kubernetes-api-server-through-gathering-audit-logs-by-using-fluentbit-part-2/)
 - [kubearmor.io](https://kubearmor.io/) Runtime protection for Kubernetes & other cloud Workloads. KubeArmor uses eBPF and Linux Security Modules (LSM) to provide policy based system
 to restrict any unwanted, malicious behavior of cloud-native workloads at runtime.
-    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b)
+    - [itnext.io: Protecting Your Kubernetes Environment With KubeArmor](https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b) In this article, you will learn how to use KubeArmor to define policies and protect your containerized workloads. You will test the setup against the ShellShock vulnerability and compare it to AppArmor.
 
 ## Helm Charts Security. Helm Secrets
 
@@ -764,6 +770,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 - [github.com/goauthentik/authentik](https://github.com/goauthentik/authentik) authentik is an open-source Identity Provider focused on flexibility and versatility
 - [github.com/openappsec/openappsec](https://github.com/openappsec/openappsec) open-appsec provides preemptive web app & API threat protection against OWASP-Top-10 and zero-day attacks. It can be deployed as an add-on to Kubernetes Ingress, NGINX, Envoy and API Gateways.
 - [==Microsoft Security Copilot==](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot)
+- [==github.com/prowler-cloud/prowler== 🌟🌟](https://github.com/prowler-cloud/prowler) **Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more.**
 
 ## Videos
 

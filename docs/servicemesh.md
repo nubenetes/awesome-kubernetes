@@ -128,6 +128,7 @@
 - [medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd](https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f) In this article, you'll learn the meaning of Mutual TLS, why it is needed in Kubernetes and also implement it with Emissary-ingress
 - [weeraman.com: Getting started with Linkerd](https://weeraman.com/getting-started-with-linkerd-415d6485227f)
 - [dev.to: Linkerd and GitOps](https://dev.to/thenjdevopsguy/linkerd-and-gitops-115a)
+- [buoyant.io: Multi-Cluster, Multi-Region Setup using Linkerd Service Mesh](https://buoyant.io/blog/multi-cluster-multi-region-setup-using-linkerd-service-mesh) This article teaches how to enhance Kubernetes with multi-cluster architecture for improved availability, fault tolerance, and performance with a Service Mesh such as Linkerd
 
 ## Maesh Service Mesh
 

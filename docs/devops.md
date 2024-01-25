@@ -33,7 +33,8 @@
 26. [Data as Code](#data-as-code)
 27. [DevOps for SAP](#devops-for-sap)
 28. [Youtube Playlists](#youtube-playlists)
-29. [Platform Engineering](#platform-engineering)
+29. [Platform Engineering and Internal Developer Platform](#platform-engineering-and-internal-developer-platform)
+     1. [IDP Tools](#idp-tools)
 30. [Bunch of Images](#bunch-of-images)
 31. [Slides](#slides)
 32. [Videos](#videos)
@@ -290,6 +291,8 @@
 - [rcls.medium.com: Stop calling yourselves DevOps engineers](https://rcls.medium.com/stop-calling-yourselves-devops-engineers-f9dfec382d0d)
 - [enterprisersproject.com: DevOps: Why shift left goes wrong](https://enterprisersproject.com/article/2020/5/devops-shift-left-why-goes-wrong) The shift-left approach helps development teams make software better and faster. So why hasn't it caught on - and how can you beat the barriers to success?
 - [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)
+- [medium.com/agileinsider: DevOps Principles and Practices Explained in Ten Minutes](https://medium.com/agileinsider/devops-principles-and-practices-explained-in-ten-minutes-6cec7e1dae6d)
+- [medium.com/@perspectivementor: 6 Essential Skills for Landing a DevOps Job in 2024](https://medium.com/@perspectivementor/6-essential-skills-for-landing-a-devops-job-in-2024-88f6c19341d7)
 
 <center>
 
@@ -407,8 +410,9 @@ Resolve your software incidents 10x faster
 - [youtube playlist: Ansible 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p)
 - [youtube playlist: Kubernetes 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-akr_3XqQQgpqRyQw4GYuS4h)
 
-## Platform Engineering
+## Platform Engineering and Internal Developer Platform
 
+- [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [thenewstack.io/platform-engineering](https://thenewstack.io/platform-engineering) Platform engineering is the discipline of building workflows, toolchains, platforms & docs to support app teams in their delivery of business value. Benefits Include:
     - Increased velocity
     - Enable developer satisfaction
@@ -431,6 +435,18 @@ Resolve your software incidents 10x faster
 - [devops.com: What’s the Difference Between DevOps and Platform Engineering?](https://devops.com/whats-the-difference-between-devops-and-platform-engineering)
 - [==dev.to/thenjdevopsguy: What Is Platform Engineering (And What Is It Not?)==](https://dev.to/thenjdevopsguy/what-is-platform-engineering-and-what-is-it-not-2jb8)
 - [thenewstack.io: The 6 Pillars of Platform Engineering: Part 1 — Security](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/) Platform team workflows and checklists for building security, pipelines, provisioning, connectivity, orchestration, and observability into their platform.
+- [humanitec.com: How to design your repository structures to nail platform engineering](https://humanitec.com/blog/how-to-design-your-repository-structures-to-nail-platform-engineering) Unlock the full power of platform engineering with repo structures designed to nail high-impact IDPs. Optimize operations, security, and agility for enterprise-ready solutions.
+- [medium.com/@rphilogene: What’s an Internal Developer Platform?](https://medium.com/@rphilogene/whats-an-internal-developer-platform-8f52fb367552)
+- [medium.com/devoptimism: DevOps+Platform Engineering: A Necessary Love Story of Efficiency](https://medium.com/devoptimism/devops-platform-engineering-a-necessary-love-story-of-efficiency-783dff78fd81)
+- [medium.com/@rphilogene: Platform Engineering #7: Internal Developer Platform vs. Internal Developer Portal](https://medium.com/@rphilogene/platform-engineering-7-internal-developer-platform-vs-internal-developer-portal-05c33658891b)
+- [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops)
+- [fernandovillalba.substack.com: DevOps: Don't destroy silos, transform them](https://fernandovillalba.substack.com/p/devops-dont-destroy-silos-transform) "Destroying silos" is a clumsy solution to team isolation
+
+### IDP Tools
+
+- [==medium.com/@rphilogene: Top 10 Platform Engineering Tools You Should Consider in 2024==](https://medium.com/@rphilogene/top-10-platform-engineering-tools-you-should-consider-in-2024-892e6e211b85)
+- [github.com/Qovery/Torii](https://github.com/Qovery/Torii) Torii ⛩️ is a simple, powerful and extensible open-source Internal Developer Portal
+- [github.com/backstage/backstage](https://github.com/backstage/backstage) Backstage is an open platform for building developer portals
 
 ## Bunch of Images
 

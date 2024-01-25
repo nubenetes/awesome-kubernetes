@@ -36,6 +36,8 @@
 - [thenewstack.io: Infrastructure as Code or Cloud Platforms — You Decide!](https://thenewstack.io/infrastructure-as-code-or-cloud-platforms-you-decide/)
 - [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/3692296/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html) With infrastructure as code, virtual desktop infrastructure, and a proactive approach to incident management, you can help keep cloud costs reasonable.
 - [spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC](https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd)
+- [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://matt-rickard.com/infrastructure-as-code-will-be-written-by-ai)
+- [thenewstack.io: Achieve GitOps on Day One with IaC Automation](https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation/) GitOps helps redefine how we manage infrastructure and application deployments in environments where precision, automation and transparency are vital.
 
 ## Local Environment as Code
 

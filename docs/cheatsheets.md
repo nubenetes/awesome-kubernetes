@@ -495,6 +495,7 @@
 - [hackr.io: SQL Commands Tutorial: DDL, DML, TCL and DQL Commands](https://hackr.io/blog/sql-commands)
 - [==github.com/swapnakpanda: SQL_CheatSheet.png==](https://github.com/swapnakpanda/Infographics/blob/main/Cheat%20Sheet/Database/SQL_CheatSheet.png)
 - [TSQL and SQL Queries Cheat Sheet](https://helpercodes.com/sql-query-cheatsheet-tutorial/)
+- [dev.to: Optimizing SQL Queries by 23x!!!](https://dev.to/navneet7716/optimizing-sql-queries-h9j)
 
 ## Postgres
 

@@ -109,6 +109,8 @@
 - [medium.com/event-driven-utopia: Comparing Stateful Stream Processing and Streaming Databases](https://medium.com/event-driven-utopia/comparing-stateful-stream-processing-and-streaming-databases-c8c670f3f4bb) How do these two technologies work? how do they differ, and when is the right time to use them?
 - [thenewstack.io: How to Get Started with Data Streaming](https://thenewstack.io/how-to-get-started-with-data-streaming/) With Kafka and associated tools, developers can create stream-processing pipelines that transform data for real-time applications.
 - [linkedin.com: How to Move From a “Wait for it...” Batch-Processing Culture to a “Get It Now” Real-Time Data Culture](https://www.linkedin.com/pulse/how-move-from-wait-batch-processing-culture-get-now-tomsen-bukovec/)
+- [dzone: Resilient MultiCloud Messaging](https://dzone.com/articles/messaging-for-multicloud-resilience) Messaging becomes an important technical option when operating solutions span clouds, hybrid deployments, and even inter-application and inter-process communication.
+- [juhache.substack.com: From Data Engineer to YAML Engineer](https://juhache.substack.com/p/from-data-engineer-to-yaml-engineer-ed2)
 
 ## RPC vs Messaging
 
@@ -489,6 +491,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [blog.devgenius.io: Send information from Databricks to Airflow](https://blog.devgenius.io/send-information-from-databricks-to-airflow-810a7d49ff81)
 - [==medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator in Apache Airflow== 🌟](https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c) TL;DR: Use the @task.kubernetes decorator!
 - [medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak under the hood](https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b)
+- [medium.com/@alfahreiza: Building an ELT Pipeline: From CSV to BigQuery using dbt](https://medium.com/@alfahreiza/building-an-elt-pipeline-from-csv-to-bigquery-using-dbt-f6e3f30bfc9c)
 
 ### Couler
 

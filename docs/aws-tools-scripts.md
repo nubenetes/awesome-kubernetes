@@ -44,6 +44,9 @@
     - [ermetic.com: Access Undenied on AWS](https://ermetic.com/blog/aws/access-undenied-on-aws/)
 - [github.com/ualter: AwsBe](https://github.com/ualter/awsbe-site) A tool to help handle AWS Session connections on terminals, using your configured AWS Shared Config and Credentials files. It manages Roles to Assume, MFA Token requests, AWS SSO Sign-in, AWS SSO Tokens and the expiration of opened sessions.
 - [github.com/awslabs/amazon-s3-tar-tool: Amazon S3 Tar Tool](https://github.com/awslabs/amazon-s3-tar-tool) A utility tool to create a tarball of existing objects in Amazon S3
+- [==github.com/aws-samples/aws-cdk-stack-builder-tool==](https://github.com/aws-samples/aws-cdk-stack-builder-tool) AWS CDK Builder is a browser-based tool designed to streamline bootstrapping of Infrastructure as Code (IaC) projects using the AWS Cloud Development Kit (CDK).
+- [github.com/containerscrew/aws-sso-auth](https://github.com/containerscrew/aws-sso-auth) Fetch your local ~/.aws/credentials using AWS SSO
+- [==cloudcatalog.dev==](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
 
 ### AWS CI/CD Tools
 
@@ -86,6 +89,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [genbeta.com: Amazon lanza CodeWhisperer, su propia alternativa a GitHub Copilot… que no insertará código ya licenciado sin avisar](https://www.genbeta.com/desarrollo/amazon-lanza-codewhisperer-su-propia-alternativa-a-github-copilot-que-no-insertara-codigo-licenciado-avisar)
+- [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)
 
 ## AWS S3 Sync
 
@@ -98,3 +102,5 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 - [vantage.sh](https://www.vantage.sh/)
 - [github.com/one2nc/cloudlens 🌟](https://github.com/one2nc/cloudlens) k9s like CLI for AWS
 - [Amazon CodeCatalyst](https://codecatalyst.aws/explore) Quickly build and deliver apps at scale on AWS.
+- [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project/) Simple bash scripts that uploads a local file to an Amazon S3 bucket
+- [github.com/welldone-cloud/aws-list-resources](https://github.com/welldone-cloud/aws-list-resources) Uses the AWS Cloud Control API to list resources that are present in a given AWS account and region(s). Discovered resources are written to a JSON output file.

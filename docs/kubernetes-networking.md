@@ -180,6 +180,7 @@
 ## Kubernetes DNS
 
 - [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide/) Kubernetes DNS service allows you to contact services with consistent DNS names instead of IP addresses.
+- [medium.com/@seifeddinerajhi: Kubernetes & DNS: A Guide to CoreDNS and ExternalDNS](https://medium.com/@seifeddinerajhi/kubernetes-dns-a-guide-to-coredns-and-externaldns-d8e9347bdddc)
 
 ## TCP Keep Alive Requests
 

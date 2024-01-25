@@ -259,6 +259,13 @@
 - [devops.com: 8 Hot Takes: Will We See a Monolithic Renaissance?](https://devops.com/8-hot-takes-will-we-see-a-monolithic-renaissance/)
 - [rahulh123.medium.com: Choosing the Right Architecture: Monolithic vs. Microservices — Analyzing Requirements for Success](https://rahulh123.medium.com/choosing-the-right-architecture-monolithic-vs-microservices-analyzing-requirements-for-success-70d681f6a1d0)
 - [waswani.medium.com: Microservices Communication: Data Sharing using Database, an AntiPattern !!!](https://waswani.medium.com/microservices-data-sharing-using-database-an-antipattern-35e0196ee2ad)
+- [infoworld.com: Why we need both cloud architects and cloud engineers](https://www.infoworld.com/article/3707989/why-we-need-both-cloud-architects-and-cloud-engineers.html) AI-based design and development is exciting but it doesn't replace sound, solid architecture and engineering in building and deploying cloud-based solutions.
+- [enriquedans.com: El desastre del software y la automoción](https://www.enriquedans.com/2023/12/el-desastre-del-software-y-la-automocion.html)
+- [freecodecamp.org: How to Write Clean Code – Tips and Best Practices (Full Handbook)](https://www.freecodecamp.org/news/how-to-write-clean-code/)
+- [theregister.com: Basecamp details 'obscene' $3.2 million bill that caused it to quit the cloud](https://www.theregister.com/2023/01/16/basecamp_37signals_cloud_bill/)
+- [==medium.com/@bill.salvaggio: The AWS Cloud Resume Challenge Project==](https://medium.com/@bill.salvaggio/the-aws-cloud-resume-challenge-project-c5c0c6fe9593) - [==The AWS Cloud Resume Challenge Project, Part II==](https://medium.com/@bill.salvaggio/the-aws-cloud-resume-challenge-project-part-ii-5c36029dbc59) CI/CD Automation — GitHub Actions and a Test environment
+- [thestack.technology: VMware is killing off 56 products amid "tectonic" infrastructure shift](https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx/) Goodbye vSphere Hypervisor. Goodbye Aria Operations. Goodbye NCX. Goodbye HCX. Goodbye more acronyms than we know what to do with; though Broadcom does.
+- [blog.lealdasilva.com: Why You Should Switch from VMware to Proxmox in 2024](https://blog.lealdasilva.com/vmware2proxmox/)
 
 ## Platform Reference Architecture
 
@@ -301,6 +308,7 @@
 - [thenewstack.io: Stop Technical Debt Before It Damages Your Company](https://thenewstack.io/stop-technical-debt-before-it-damages-your-company/)
 - [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt/)
 - [medium.com/promyze: Avoid accidental complexity and technical debt](https://medium.com/promyze/avoid-accidental-complexity-and-technical-debt-2dc2cdf4dd4b)
+- [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/3704233/you-cant-run-away-from-technical-debt.html) Like student loans and credit card balances, technical debt is holding you back or even killing your business. Unfortunately, the cloud can't always save you.
 
 ## Twelve-Factor Apps in Kubernetes
 
@@ -428,6 +436,7 @@
 ### CQRS Pattern
 
 - [medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture Part III](https://medium.com/@mbarkin.narin/problem-solving-strategies-for-microservice-architecture-part-iii-c15830151890) Distributed Complex Query in Multiple Services
+- [linkedin.com/pulse: Command and Query Responsibility Segregation (CQRS): Optimizing Hybrid Cloud Strategies](https://www.linkedin.com/pulse/command-query-responsibility-segregation-cqrs-hybrid-cloud-mark-ubhfc/)
 
 ## Microservices Anti Patterns
 
@@ -450,6 +459,8 @@
 ## Data Engineering
 
 - [==medium.com/whispering-data: The State of Data Engineering 2022==](https://medium.com/whispering-data/the-state-of-data-engineering-2022-d6ef0f7cf607) All the latest tools and trends in data engineering.
+- [==cookbook.learndataengineering.com: The Data Engineering Cookbook==](https://cookbook.learndataengineering.com/docs/05-CaseStudies/#data-science-at-CERN)
+- [joereis.substack.com: Data Engineering in 2024. What I'm Seeing](https://joereis.substack.com/p/data-engineering-in-2024-what-im)
 
 ## Cloud Migration Checklist
 
@@ -634,7 +645,9 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/8pDqJVdNa44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HDKUEXBF3B4?si=PZ1gcK9yEyR4_tmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</center>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
 
 ## Tweets
 

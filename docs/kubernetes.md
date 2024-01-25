@@ -49,7 +49,7 @@
     13. [Reserved CPU and memory in Kubernetes nodes](#reserved-cpu-and-memory-in-kubernetes-nodes)
     14. [Kubernetes Capacity and Resource Management. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-capacity-and-resource-management-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
     15. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
-         1. [Pod rebalancing and allocations](#pod-rebalancing-and-allocations)
+         1. [Pod rebalancing and allocations. Pod Priorities](#pod-rebalancing-and-allocations-pod-priorities)
     16. [Kubernetes etcd](#kubernetes-etcd)
     17. [Kubernetes Sidecars](#kubernetes-sidecars)
     18. [Kubernetes Annotations](#kubernetes-annotations)
@@ -309,6 +309,7 @@
 - [medium.com/@extio: Understanding Kubernetes Annotations: Enhancing Flexibility and Extensibility](https://medium.com/@extio/understanding-kubernetes-annotations-enhancing-flexibility-and-extensibility-8f9046591aa1)
 - [aws.plainenglish.io: $ kubectl get kubernetes -o architecture](https://aws.plainenglish.io/kubectl-get-kubernetes-o-architecture-6d4bd97dcaaf)
 - [freecodecamp.org: How to Deploy an Application to a Kubernetes Cluster](https://www.freecodecamp.org/news/deploy-docker-image-to-kubernetes/)
+- [medium.com/@kylelzk: Kubernetes Theory - Understanding Kubernetes Components: A Deep Dive](https://medium.com/@kylelzk/kubernetes-theory-understanding-kubernetes-components-a-deep-dive-ac31b7463df2)
 
 ### Kubernetes Jobs Market
 
@@ -708,6 +709,7 @@
 - [medium.com/@GranulateIntel: The Fundamental Principles of Kubernetes Capacity Management](https://medium.com/@GranulateIntel/the-fundamental-principles-of-kubernetes-capacity-management-e23f388b4f3)
 - [thenewstack.io: Optimizing Kubernetes for Peak Traffic and Avoiding Setbacks](https://thenewstack.io/optimizing-kubernetes-for-peak-traffic-and-avoiding-setbacks/) Machine learning and automation can help platform teams tame complexity and meet user demand with confidence.
 - [tech.bigbasket.com: Atlas: Streamlining BigBasket’s 40+ lines of testing across 80+ Microservices in Non-Production Environments](https://tech.bigbasket.com/atlas-streamlining-bigbaskets-40-lines-of-testing-across-80-microservices-in-non-production-459040947519) BigBasket's non-prod setup is complex due to multiple environments and service versions (each service can run multiple versions of itself). Learn how the team solved this with a custom proxy, header-based routing, and automated Nginx config generation.
+- [hervekhg.medium.com: 3 years managing Kubernetes clusters, my 10 lessons](https://hervekhg.medium.com/3-years-managing-kubernetes-clusters-my-10-lessons-b565a5509f0e)
 
 ### KubeCon
 
@@ -1117,7 +1119,6 @@
 - [medium.com/linux-shots: Find Deprecated API Resources used in a Kubernetes Cluster](https://medium.com/linux-shots/find-deprecated-api-resources-used-in-a-kubernetes-cluster-44756c1126c8) In this article, you will discuss the challenges of how to upgrade clusters with breaking changes and use kube-no-trouble to test the upgrade path.
 - [blog.jimmyray.io: Discover K8s Through Its APIs](https://blog.jimmyray.io/discover-k8s-through-its-apis-e2f90937a19f) In this article, you will learn how to use the Kubernetes APIs through the Swagger UI. You will learn how to retrieve the full config for the kubelet, as well as how to use gron for easier JSON processing.
 
-
 #### Multi-Cluster Services API
 
 - [thenewstack.io: Extending Kubernetes Services with Multi-Cluster Services API](https://thenewstack.io/extending-kubernetes-services-with-multi-cluster-services-api/)
@@ -1208,6 +1209,8 @@
 - [wbhegedus.me: Demystifying Kubernetes CPU Limits (and Throttling)](https://wbhegedus.me/understanding-kubernetes-cpu-limits/) In this article, you will discuss a clear example of CPU throttling on Kubernetes and how you could monitor and fix it
 - [medium.com/@jettycloud: Making Sense of Kubernetes CPU Requests And Limits](https://medium.com/@jettycloud/making-sense-of-kubernetes-cpu-requests-and-limits-390bbb5b7c92)
 - [loft.sh: How to Set Up Kubernetes Requests and Limits](https://loft.sh/blog/how-to-set-up-kubernetes-requests-and-limits/)
+- [dev.to: Impacts Of Not Setting Requests, Limits, and Quotas | Michael Levan](https://dev.to/thenjdevopsguy/impacts-of-not-setting-requests-limits-and-quotas-5f4b)
+- [faun.pub: Kubernetes Chronicles:(K8s#04)|K8s Series | POD Resource Request & Limits](https://faun.pub/kubernetes-chronicles-k8s-04-k8s-series-pod-resource-request-limits-49ac0cf67ae6)
 
 ### Kubernetes Scheduler. Kube Scheduler
 
@@ -1217,9 +1220,10 @@
 - [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1) The k8s scheduler assigns Pods to Nodes. Then, the attempt to schedule a pod is split into two phases: the Scheduling and the Binding cycle. Learn how you can build a Kube-scheduler plugin from scratch!
 - [faun.pub: Multiple Schedulers in Kubernetes](https://faun.pub/multiple-schedulers-in-kubernetes-a78a7b4fa4b2)
 
-#### Pod rebalancing and allocations
+#### Pod rebalancing and allocations. Pod Priorities
 
 - [==community.ops.io: Pod rebalancing and allocations in Kubernetes== 🌟](https://community.ops.io/danielepolencic/pod-rebalancing-and-allocations-in-kubernetes-4kim) **Does Kubernetes rebalance your Pods? If there's a node that has more space, does Kubernetes recompute and balance the workloads?**
+- [faun.pub: How to utilize priorities in Kubernetes?](https://faun.pub/how-to-use-priorities-in-kubernetes-e1bb1b722b6a) A powerful feature to save the work-life balance of on-call engineers. Priorities is a fundamental concept in Kubernetes and one reason it is powerful. For instance, in your production environment, you don’t want critical services to be evicted because of less important ones. Using priorities, you can tackle this problem. In this blog, we will learn more about priorities and how we can utilize them the most.
 
 ### Kubernetes etcd
 

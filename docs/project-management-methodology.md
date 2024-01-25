@@ -97,6 +97,8 @@
 - [techrepublic.com: What is Lean Software Development?](https://www.techrepublic.com/article/lean-development/)
 - [medium.com/@ElizAyer: Meetings *are* the work](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
 - [newsletter.pragmaticengineer.com: Engineering Leadership Skill Set Overlaps](https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps) How Staff Engineer, Engineering Manager (EM), Product Manager (PM), Tech Lead Manager (TLM) and Technical Program Manager (TPM) positions overlap in Big Tech and at high-growth startups. **If you are an individual contributor engineer, you really need to print this out and hang it somewhere**
+- [hbr.org: What It Takes to Give a Great Presentation](https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation)
+- [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content, Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html) According to the Apple co-founder, the best employees are also a pain in the butt to manage.
 
 ### Spanish
 
@@ -128,6 +130,7 @@
 - [businessinsider.es: Avanzar en la carrera profesional y conseguir ascensos dentro de la empresa será mucho más difícil para las personas que teletrabajan, según el CEO de IBM](https://www.businessinsider.es/teletrabajar-perjudica-carrera-profesional-posibles-ascensos-1240782)
 - [genbeta.com: Un ex-CEO, sobre el origen de tener gente que ni hace falta en las empresas: “Contratas a alguien, y lo primero que hace es contratar"](https://www.genbeta.com/a-fondo/este-ex-ceo-explica-que-hay-demasiados-empleados-empresas-contratas-a-alguien-primero-que-quiere-contratar)
 - [businessinsider.es: La brillante explicación de Steve Jobs sobre por qué los buenos empleados renuncian al trabajo](https://www.businessinsider.es/explicacion-steve-jobs-buenos-empleados-renuncian-1137601)
+- [openwebinars.net: 13 Errores que cometes como Manager](https://openwebinars.net/blog/13-errores-que-cometes-como-manager) ¿Tu equipo no está funcionando al nivel esperado? Quizás el problema no sea su desempeño, sino ciertas prácticas de gestión. Este artículo identifica 13 errores críticos que muchos managers cometen, para que aprendas a evitarlos y a construir un ambiente de trabajo más productivo y motivador.
 
 ### Team Topologies
 

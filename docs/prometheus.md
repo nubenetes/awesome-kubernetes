@@ -148,6 +148,7 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [medium.com/criteo-engineering: How we reduced our Prometheus infrastructure footprint by a third](https://medium.com/criteo-engineering/how-we-reduced-our-prometheus-infrastructure-footprint-by-a-third-8bf8171e46b1)
 - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495) In This blog, we will talk more about other components of Prometheus that are useful in understanding and in the field of DevOps and SRE. These terms are common in Prometheus also the topics are discussed in PCA certification
 - [==horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics==](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)
+- [==thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half==](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half/) Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)

@@ -8,7 +8,10 @@
 4. [Blogs and Newsletters](#blogs-and-newsletters)
 5. [Terraform](#terraform)
     1. [Terraform License](#terraform-license)
-    2. [Terraform and GitHub Actions](#terraform-and-github-actions)
+6. [OpenTOFU vs Terraform](#opentofu-vs-terraform)
+7. [terraform taint](#terraform-taint)
+    1. [Terraform and GitHub Actions](#terraform-and-github-actions)
+    2. [Terraform and GitLab Pipelines](#terraform-and-gitlab-pipelines)
     3. [Terraform Testing](#terraform-testing)
     4. [Terraform docs](#terraform-docs)
     5. [Private Terraform Registries](#private-terraform-registries)
@@ -57,30 +60,30 @@
     31. [Terraform and Apache Kafka](#terraform-and-apache-kafka)
     32. [Terraform and JMeter](#terraform-and-jmeter)
     33. [Terraform Video Tutorials](#terraform-video-tutorials)
-6. [CDK for Terraform](#cdk-for-terraform)
-7. [Graph Visualization Software](#graph-visualization-software)
-8. [Terraform Modules](#terraform-modules)
-    1. [Terraform AWS Modules](#terraform-aws-modules)
-    2. [Segment AWS Stack Terraform Modules](#segment-aws-stack-terraform-modules)
-9. [Terraform Providers](#terraform-providers)
-    1. [Terraform AWS Cloud Control Provider](#terraform-aws-cloud-control-provider)
-    2. [Terraform Provider for Elastic Cloud](#terraform-provider-for-elastic-cloud)
-    3. [Terraform Vault Provider](#terraform-vault-provider)
-    4. [Terraform AzureRM](#terraform-azurerm)
-10. [Terraform Code Quality. Terraform Quality Checks](#terraform-code-quality-terraform-quality-checks)
-11. [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
-12. [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
-13. [Terraform Tools](#terraform-tools)
-14. [Writing Terraform for unsupported resources with TerraCurl](#writing-terraform-for-unsupported-resources-with-terracurl)
-15. [Terraform Frameworks](#terraform-frameworks)
+8. [CDK for Terraform](#cdk-for-terraform)
+9. [Graph Visualization Software](#graph-visualization-software)
+10. [Terraform Modules](#terraform-modules)
+     1. [Terraform AWS Modules](#terraform-aws-modules)
+     2. [Segment AWS Stack Terraform Modules](#segment-aws-stack-terraform-modules)
+11. [Terraform Providers](#terraform-providers)
+     1. [Terraform AWS Cloud Control Provider](#terraform-aws-cloud-control-provider)
+     2. [Terraform Provider for Elastic Cloud](#terraform-provider-for-elastic-cloud)
+     3. [Terraform Vault Provider](#terraform-vault-provider)
+     4. [Terraform AzureRM](#terraform-azurerm)
+12. [Terraform Code Quality. Terraform Quality Checks](#terraform-code-quality-terraform-quality-checks)
+13. [Enforce Policy with Sentinel](#enforce-policy-with-sentinel)
+14. [Reverse terraform with Terraformer](#reverse-terraform-with-terraformer)
+15. [Terraform Tools](#terraform-tools)
+16. [Writing Terraform for unsupported resources with TerraCurl](#writing-terraform-for-unsupported-resources-with-terracurl)
+17. [Terraform Frameworks](#terraform-frameworks)
      1. [Kubestack Terraform GitOps Framework](#kubestack-terraform-gitops-framework)
      2. [Gruntwork Terragrunt](#gruntwork-terragrunt)
      3. [Terraspace](#terraspace)
-16. [Terraform Associate Certification](#terraform-associate-certification)
-17. [ChatGPT](#chatgpt)
-18. [Images](#images)
-19. [Videos](#videos)
-20. [Tweets](#tweets)
+18. [Terraform Associate Certification](#terraform-associate-certification)
+19. [ChatGPT](#chatgpt)
+20. [Images](#images)
+21. [Videos](#videos)
+22. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468480528&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/raymond-mnt" title="RAYMOND MNT" target="_blank" style="color: #cccccc; text-decoration: none;">RAYMOND MNT</a> · <a href="https://soundcloud.com/raymond-mnt/jimmy-sax-parga-oriental-sax" title="Jimmy Sax - Parga (Oriental sax ).mp3" target="_blank" style="color: #cccccc; text-decoration: none;">Jimmy Sax - Parga (Oriental sax ).mp3</a></div>
@@ -108,6 +111,8 @@
 ## Blogs and Newsletters
 
 - [weekly.tf: Terraform Weekly](https://weekly.tf)
+- [build5nines.com](https://build5nines.com)
+- [nedinthecloud.com](https://nedinthecloud.com)
 
 ## Terraform
 
@@ -157,7 +162,6 @@
 - [automateinfra.com: How to Launch multiple EC2 instances on AWS using Terraform count and for_each](https://automateinfra.com/2021/03/22/how-to-launch-multiple-ec2-instances-on-aws-using-terraform/)
 - [morethancertified.com: More Consistent Terraform Runs With Docker](https://morethancertified.com/terraform-in-docker)
 - [deloitte.com: Infrastructure as Code (IaC) con Terraform](https://www2.deloitte.com/es/es/blog/todo-tecnologia/2021/infrastructure-as-code-iac-con-terraform.html) Automatización, escalado, optimización y ahorro en tu factura cloud
-- [docs.gitlab.com: GitLab managed Terraform State 🌟](https://docs.gitlab.com/ee/user/infrastructure/terraform_state.html) Gitlab Terraform now share tfstate directly on gitlab.
 - [flowfactor.be: What do you know about Terraform modules?](https://www.flowfactor.be/2021/03/18/what-do-you-know-about-terraform-modules/)
 - [medium: How to manage infrastructure as code (IaC) with Terraform on AWS? 🌟](https://medium.com/workfall/how-to-manage-infrastructure-as-code-iac-with-terraform-on-aws-1fa6cd6bccfe)
 - [accurics.com: Terraform Security: Improving IaC Scans with Terraform Plan Output](https://www.accurics.com/blog/terrascan-blog/terraform-security-improving-iac-scans-with-terraform-plan-output)
@@ -200,7 +204,6 @@
 - [learn.hashicorp.com: Configure Default Tags for AWS Resources 🌟](https://learn.hashicorp.com/tutorials/terraform/aws-default-tags)
 - [terraform-hcloud-dualstack-k8s: Hetzner Dual-Stack Kubernetes Cluster](https://github.com/tibordp/terraform-hcloud-dualstack-k8s) (Unofficial) Terraform module for a dual-stack Kubernetes cluster on Hetzner Cloud
 - [hashicorp.com: Beta Support for CRDs in the Terraform Provider for Kubernetes](https://www.hashicorp.com/blog/beta-support-for-crds-in-the-terraform-provider-for-kubernetes)
-- [about.gitlab.com: How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/)
 - [opensource.com: My top 5 tips for setting up Terraform 🌟](https://opensource.com/article/21/8/terraform-tips) These are the lessons I've learned after five years with Terraform.
 - [rpadovani.com: How to make Terraform waiting for cloud-init to finish on EC2 without SSH](https://rpadovani.com/terraform-cloudinit) Terraform is a powerful tool. However, it has some limitations: since it uses AWS APIs, it doesn’t have a native way to check if an EC2 instance has completed to run cloud-init before marking it as ready. A possible workaround is asking Terraform to SSH on the instance, and wait until it is able to perform a connection before marking the instance as ready.
 - [hashicorp.com: Cisco, Citrix, and Fortinet Among New Verified Terraform Providers](https://www.hashicorp.com/blog/cisco-citrix-fortinet-among-new-verified-terraform-providers)
@@ -293,11 +296,26 @@
 - [medium.com/platform-engineer: 26 Terraform Hacks for Effective Infrastructure Automation (With Examples)](https://medium.com/platform-engineer/26-terraform-hacks-for-effective-infrastructure-automation-with-examples-d6d721c3d5e0) A checklist for Cloud Engineers to live by
 - [thenewstack.io: Automating Retry for Failed Terraform Launches](https://thenewstack.io/automating-retry-for-failed-terraform-launches) Quali Torque orchestrates YAML files — which can be thought of as blueprints — for application environments directly from the IaC modules defined in Git.
 - [theburningmonk.com: Making Terraform and Serverless framework work together](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together/)
+- [build5nines.com: Terraform Workflow Process Explained](https://build5nines.com/terraform-workflow-process-explained)
+- [build5nines.com: Terraform: How to Join and Split Strings](https://build5nines.com/terraform-how-to-join-and-split-strings)
+- [build5nines.com: Terraform Best Practices for Writing Clean, Readable, and Maintainable Code](https://build5nines.com/terraform-best-practices-for-writing-clean-readable-and-maintainable-code/)
+- [build5nines.com: Terraform: Deploy Azure ExpressRoute Circuit with VNet Gateway](https://build5nines.com/terraform-deploy-azure-expressroute-circuit-with-vnet-gateway/)
+- [nedinthecloud.com: Replacing The Template Cloudinit Config Data Source](https://nedinthecloud.com/2022/01/18/replacing-the-template_cloudinit_config-data-source/)
+- [==hashicorp.com: Testing HashiCorp Terraform==](https://www.hashicorp.com/blog/testing-hashicorp-terraform)
+- [==youtube: Stop using shared secrets! CI/CD authentication the proper way==](https://www.youtube.com/watch?v=sd2wuAVush4)
 
 ### Terraform License
 
 - [opencoreventures.com: HashiCorp switching to BSL shows a need for open charter companies](https://opencoreventures.com/blog/2023-08-23-hashicorp-switching-bsl-shows-need-for-open-charter-companies/)
 - [medium.com/@hello_9187: Why We Are Not Supporting OpenTF](https://medium.com/@hello_9187/why-we-are-not-supporting-opentf-a46855f52dc4)
+
+## OpenTOFU vs Terraform
+
+- [nedinthecloud.com: Comparing Open TOFU And Terraform](https://nedinthecloud.com/2024/01/22/comparing-opentofu-and-terraform/)
+
+## terraform taint
+
+- ["Have you used the taint command in Terraform yet?"](https://www.youtube.com/watch?v=v_T1fuYGjV0&ab_channel=NedintheCloud) "It marks a resource in the Terraform state data as tainted, meaning the next time you run terraform apply, that resource will be destroyed and recreated. The configuration for the resource will not change, but the resource will be replaced. HashiCorp is trying to move away from imperative commands and towards a declarative model for all operations that affect state. Terraform taint makes direct alterations to state data in an imperative fashion with no way to preview the changes. If you run a terraform taint command, you are altering the state data without making a change to the configuration. In a collaborative environment, this can cause problems."
 
 ### Terraform and GitHub Actions
 
@@ -308,6 +326,13 @@
 - [medium.com/google-cloud: Terraform on Google Cloud V1.1 — Deploying VM with Github actions](https://medium.com/google-cloud/terraform-on-google-cloud-v1-1-deploying-vm-with-github-actions-446bc1061420) Creating GCP compute engine VM in terraform with Github Actions
 - [build5nines.com: Terraform: GitHub Actions Automated Deployment](https://build5nines.com/terraform-github-actions-automated-deployment/)
 - [medium.com/@bijit211987: DevSecOps Approach with Terraform and CI/CD Pipelines](https://medium.com/@bijit211987/devsecops-approach-with-terraform-and-ci-cd-pipelines-f556c2d5b40d)
+- [thomasthornton.cloud: Displaying Terraform Plans in GitHub PRs with GitHub Actions](https://thomasthornton.cloud/2024/01/11/displaying-terraform-plans-in-github-prs-with-github-actions/)
+
+### Terraform and GitLab Pipelines
+
+- [docs.gitlab.com: GitLab managed Terraform State 🌟](https://docs.gitlab.com/ee/user/infrastructure/terraform_state.html) Gitlab Terraform now share tfstate directly on gitlab.
+- [about.gitlab.com: How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/)
+- [squareops.com: Terraform CI/CD Pipelines with Gitlab](https://squareops.com/terraform-pipeline-with-gitlab/)
 
 ### Terraform Testing
 
@@ -384,6 +409,7 @@
 
 - [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront.
 - [A Guide to Cloud Cost Optimization with HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/a-guide-to-cloud-cost-optimization-with-hashicorp-terraform) The Terraform AWS provider now supports Code Signing for AWS Lambda, which involves digitally signing code artifacts and verifying at deployment.
+- [pratapreddypilaka.blogspot.com: Azure FinOps using Terraform and Infracost - Finding the hourly or monthly cost before Azure DevOps Deployments](https://pratapreddypilaka.blogspot.com/2023/11/azure-finops-using-terraform-and.html)
 
 ### Awesome Terraform
 
@@ -555,6 +581,11 @@
 - [devopscube.com: AWS Terraform Autoscaling Group With ALB Deployment Tutorial](https://devopscube.com/terraform-autoscaling-group/)
 - [medium.com/cloud-native-daily: How to Securely Manage Terraform State File in AWS Using Terraform](https://medium.com/cloud-native-daily/how-to-securely-manage-terraform-state-file-in-aws-using-terraform-7c20b211c9cb) A step-by-step guide on how to securely manage, as well as share state files in AWS by using Terraform.
 - [dev.to/monarene: Dynamic Volume Provisioning in Kubernetes with AWS and Terraform](https://dev.to/monarene/dynamic-volume-provisioning-in-kubernetes-with-aws-and-terraform-3m6h) In this article, you'll learn about Persistent Volumes and how they are provisioned, managed, and configured in AWS. You'll compare Static and Dynamic volume provisioning, how they overlap, and which provisioning mechanism you should employ
+- [blog.awsfundamentals.com: Mastering AWS Lambda with Terraform: A Comprehensive Guide](https://blog.awsfundamentals.com/aws-lambda-with-terraform)
+- [medium.com/@rizkiprass: Beginner Terraform Tutorial: Launching EC2 in AWS using Terraform](https://medium.com/@rizkiprass/beginner-terraform-tutorial-launching-ec2-in-aws-using-terraform-73f6d99e6233)
+- [github.com/squareops/terraform-aws-vpc](https://github.com/squareops/terraform-aws-vpc) Terraform Module to create an AWS VPC network with VPN and configure Peering b/w multiple VPCs
+- [devxblog.hashnode.dev: Terraform with AWS](https://devxblog.hashnode.dev/terraform-with-aws)
+- [dev.to/aws-builders: Deploying a Containerized App to ECS Fargate Using a Private ECR Repo & Terragrunt](https://dev.to/aws-builders/deploying-a-containerized-app-to-ecs-fargate-using-a-private-ecr-repo-terragrunt-5b8a)
 
 {==
 
@@ -601,6 +632,7 @@
 - [awstip.com: Streamlining AWS EKS Cluster Volume Management with Helm and Terraform: EBS CSI Driver + Self-Managed AddOn Option](https://awstip.com/streamlining-aws-eks-cluster-volume-management-with-helm-and-terraform-ebs-csi-driver-78e1d51532ee) In this tutorial, you will learn how to configure OIDC Provider as Identity Provider in AWS IAM Service and install the EKS EBS CSI Driver as a self-managed add-On using Terraform and Helm
 - [hewi.blog: Deploying an EKS cluster using Terraform](https://hewi.blog/deploying-an-eks-cluster-using-terraform) In this tutorial, you will learn how to provision an EKS cluster using Terraform and deploy a demo application to test it
 - [platformwale.blog: Create Amazon EKS Cluster within its VPC using Terraform](https://platformwale.blog/2023/07/15/create-amazon-eks-cluster-within-its-vpc-using-terraform/)
+- [medium.com/@ernestkwashie3: Provisioning Amazon Elastic Kubernetes Service (EKS) Cluster using Terraform](https://medium.com/@ernestkwashie3/provisioning-amazon-elastic-kubernetes-service-eks-cluster-using-terraform-5e07f1f0dc32)
 
 ==}
 
@@ -615,6 +647,7 @@
 - [==aws.amazon.com: New – AWS Control Tower Account Factory for Terraform==](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform/)
 - [hashicorp.com: HashiCorp Teams with AWS on New Control Tower Account Factory for Terraform](https://www.hashicorp.com/blog/hashicorp-teams-with-aws-on-new-control-tower-account-factory-for-terraform) AWS Control Tower Account Factory for HashiCorp Terraform (AFT), the evolution of Terraform Landing Zones, offers an easy way to set up and govern a secure, multi-account AWS environment.
 - [==aws.amazon.com: AWS Control Tower==](https://aws.amazon.com/controltower/) The easiest way to set up and govern a secure multi-account AWS environment
+- [trek10.com: Control Tower: Then vs Now](https://www.trek10.com/blog/control-tower-then-vs-now) Control Tower today is not the same Control Tower that you may have been introduced to in the past.
 
 #### Porsche Official
 
@@ -622,6 +655,7 @@
 
 ### Terraform with Azure
 
+- [build5nines.com: Get Started with Terraform on Azure](https://build5nines.com/get-started-with-terraform-on-microsoft-azure/)
 - [medium: Using Terraform with Azure — the right way](https://medium.com/01001101/using-terraform-with-azure-the-right-way-35af3b51a6b0)
 - [github.com/kuhlman-labs/terraform-azurerm-landing-zone](https://github.com/kuhlman-labs/terraform-azurerm-landing-zone) A curated collection of Terraform azurerm modules
 - [cloudbuild.co.uk: Part 1: Terraform with Azure - How to install Terraform](https://cloudbuild.co.uk/how-to-install-terraform/)
@@ -641,6 +675,10 @@
     - [azureway.cloud: Azure Container Apps – traffic splitting [part 4]](https://azureway.cloud/azure-container-apps-traffic-splitting-part-4/)
 - [build5nines.com: Terraform: Deploy Azure Function App with Consumption Plan](https://build5nines.com/terraform-deploy-azure-function-app-with-consumption-plan/)
 - [hashicorp.com: Building a secure Azure reference architecture with Terraform](https://www.hashicorp.com/blog/building-a-secure-azure-reference-architecture-with-terraform) Learn how to use HashiCorp Terraform to deploy Azure resources using security best practices and policy as code.
+- [medium.com/@noelgass: Azure Common Monitoring With Terraform](https://medium.com/@noelgass/azure-common-monitoring-with-terraform-543aee6dd1f1) This article offers a comprehensive guide on creating a universal monitoring baseline for Azure resources within a subscription. The approach involves leveraging the Azure Provider azurerm in Terraform, coupled with metric alert rules tailored for Azure resources.
+- [techcommunity.microsoft.com: Simplifying Onboarding to Microsoft Defender for Cloud with Terraform](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/simplifying-onboarding-to-microsoft-defender-for-cloud-with/ba-p/3974789)
+- [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit chat app in AKS using Terraform](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app/ba-p/4024070)
+- [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration)
 
 #### Azure Landing Zones with Terraform
 
@@ -730,6 +768,7 @@
     - Managing costs
     - Databases and migrations
     - Handling static files
+- [thomasthornton.cloud: Deploying Azure AKS GitOps Flux extension with Terraform](https://thomasthornton.cloud/2023/12/03/deploying-azure-aks-gitops-flux-extension-with-terraform/)
 
 ### Terraform and OCI
 
@@ -803,6 +842,7 @@
 - [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) Terraform Provider for cascading runs across multiple workspaces.
 - [kyma-incubator/terraform-provider-kind: Terraform Provider for kind (Kubernetes IN Docker)](https://github.com/kyma-incubator/terraform-provider-kind) The Terraform Provider for kind enables Terraform to provision local Kubernetes clusters on base of Kubernetes IN Docker (kind).
 - [github.com/circa10a/terraform-provider-mailform](https://github.com/circa10a/terraform-provider-mailform) A terraform provider to send physical mail via https://mailform.io
+- [env0.com: How to Use Terraform Providers](https://www.env0.com/blog/how-to-use-terraform-providers)
 
 ### Terraform AWS Cloud Control Provider
 
@@ -869,6 +909,8 @@
 - [infracloud.io: 5 Tools to Auto-Generate Terraform Configuration Files 🌟](https://www.infracloud.io/blogs/auto-generate-terraform-configuration-files/)
 - [spacelift.io: 18 Most Useful Terraform Tools to Use in 2023](https://spacelift.io/blog/terraform-tools)
 - [github.com/idoavrah/terraform-tui: TFTUI - The Terraform textual UI](https://github.com/idoavrah/terraform-tui) TFTUI is a powerful textual UI that empowers users to effortlessly view and interact with their Terraform state. With its latest version you can easily visualize the complete state tree, gaining deeper insights into your infrastructure's current configuration. Additionally, the ability to search the tree and inspect individual resource states allows you to focus on specific details for better analysis and management. It's also possible to select specific resources and perform actions such as tainting, untainting and deleting them. Finally, you are now able to create and apply plans directly from the UI.
+- [github.com/jamesw4/confirm-tfvars](https://github.com/jamesw4/confirm-tfvars) Cross platform PowerShell module to validate tfvars files.
+- [umeshtyagi829.medium.com: Secure Terrafrom IaC code using Checkov](https://umeshtyagi829.medium.com/secure-terrafrom-iac-code-using-checkov-4a3e1f097f92)
 
 ## Writing Terraform for unsupported resources with TerraCurl
 
@@ -930,6 +972,8 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fl25dR01pw?si=Nr_cPtotnts5jO2B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/V53AHWun17s?si=2A3e3qkC7DEbDUnr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iRaai1IBlB0?si=_yvEAIc2qvZusFKj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/v_T1fuYGjV0?si=W6dxmoEzTxZ1Mxq2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sd2wuAVush4?si=vWkSEsB2-B9TJmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

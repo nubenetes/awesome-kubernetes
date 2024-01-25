@@ -87,6 +87,10 @@
 - [opentelemetry.io: Creating a Kubernetes Cluster with Runtime Observability](https://opentelemetry.io/blog/2023/k8s-runtime-observability/)
 - [medium.com/@onai.rotich: Understand container metrics and why they matter](https://medium.com/@onai.rotich/understand-container-metrics-and-why-they-matter-9e88434ca62a) In this 2-part article, you will explore the key metrics to scrape in your cluster
 - [kkamalesh117.medium.com: Setting up Prometheus and Grafana Integration on Kubernetes with Helm](https://kkamalesh117.medium.com/setting-up-prometheus-and-grafana-integration-on-kubernetes-with-helm-dfc63823608c)
+- [medium.com/@MetricFire: Monitoring Kubernetes tutorial: Using Grafana and Prometheus](https://medium.com/@MetricFire/monitoring-kubernetes-tutorial-using-grafana-and-prometheus-3239079b138f)
+- [medium.com/globant: Monitoring a multi-cluster Kubernetes Deployment](https://medium.com/globant/monitoring-a-multi-cluster-kubernetes-deployment-9e7a418a06b7) Deploying a high resilience monitoring and observation platform for Kubernetes multi-cluster solutions
+- [medium.com/@martin.hodges: Adding observability to a Kubernetes cluster using Prometheus](https://medium.com/@martin.hodges/adding-observability-to-a-kubernetes-cluster-using-prometheus-c2cba6c0fdaa) Monitoring your services is vital and should be considered as part of your underlying infrastructure for your services. You should put this in place ahead of creating and deploying your services. In this article I look at how to deploy Prometheus provide the observability you need to run your services.
+- [addozhang.medium.com: Non-intrusive Inject OpenTelemetry Auto-Instrumentation in Kubernetes](https://addozhang.medium.com/non-intrusive-inject-opentelemetry-auto-instrumentation-in-kubernetes-a9dfd49fc714)
 
 ## Kubernetes Logging
 
