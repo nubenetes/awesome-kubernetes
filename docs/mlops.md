@@ -73,6 +73,7 @@
 - [==seattledataguy.substack.com: Data Engineering Vs Machine Learning Pipelines==](https://seattledataguy.substack.com/p/data-engineering-vs-machine-learning)
 - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphoreci.com/blog/devops-ml-data)
 - [nannyml.com: Automating post-deployment Data Collection for ML Monitoring](https://www.nannyml.com/blog/sdk-nannyml-data-collection-ml-monitoring)
+- [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium/)
 
 ## MLOps Roadmap
 
@@ -138,6 +139,7 @@
 ## AWS ML
 
 - [aws.amazon.com: MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker/)
+- [aws.amazon.com: Promote pipelines in a multi-environment setup using Amazon SageMaker Model Registry, HashiCorp Terraform, GitHub, and Jenkins CI/CD](https://aws.amazon.com/blogs/machine-learning/promote-pipelines-in-a-multi-environment-setup-using-amazon-sagemaker-model-registry-hashicorp-terraform-github-and-jenkins-ci-cd/)
 
 ## Azure ML
 

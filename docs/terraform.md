@@ -528,6 +528,7 @@
 
 ### Terraform and GCP
 
+- [==cloud.google.com: Terraform blueprints and modules for Google Cloud== 🌟](https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints)
 - [medium.com/@nanditasahu031: Terraform with GCP Cloud](https://medium.com/@nanditasahu031/terraform-with-gcp-cloud-d25d60a6e740)
 - [medium.com/google-cloud: Setting up Config Connector with Terraform & Helm](https://medium.com/google-cloud/setting-up-config-connector-with-terraform-helm-8ce2f45f48a4) What if you could create the necessary service account, assign permissions and annotate it for seamless work with GCP Workload Identity, and deploy it as one Helm release? Well — say hello to Config Connector for GKE
 
@@ -860,6 +861,7 @@
 ### Terraform AzureRM
 
 - [hashicorp.com: Terraform AzureRM 3.0 Brings Enhanced Azure Function Support](https://www.hashicorp.com/blog/terraform-azurerm-3-0-brings-enhanced-azure-function-support)
+- [registry.terraform.io: Data Source: azurerm_ip_groups (new)](https://registry.terraform.io/providers/hashicorp/Azurerm/latest/docs/data-sources/ip_groups)
 
 ## Terraform Code Quality. Terraform Quality Checks
 

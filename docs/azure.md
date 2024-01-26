@@ -124,6 +124,7 @@
 - [allazureblog.wordpress.com: Azure Bastion vs UDR](https://allazureblog.wordpress.com/2024/01/18/azure-bastion-and-udrs/)
 - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8) Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.
 - [blog.cloudtrooper.net: Azure network monitoring with synthetic traffic](https://blog.cloudtrooper.net/2024/01/23/azure-network-monitoring-with-synthetic-traffic/)
+- [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/t5/educator-developer-blog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for/ba-p/4028701)
 
 ## Azure Mindmap
 

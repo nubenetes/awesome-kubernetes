@@ -1583,6 +1583,7 @@ will dive into the details of how they work
 - [dzone: Multi-Container Pod Design Patterns in Kubernetes](https://dzone.com/articles/multi-container-pod-design-patterns-in-kubernetes) In Kubernetes, Pods are the single deployable units. If an application is to be deployed, it must be so in a Pod as a container. Learn how to use multi-container pods.
 - [linkedin.com/pulse: Avoid These Kubernetes Anti-Patterns | Pavan Belagatti](https://www.linkedin.com/pulse/avoid-kubernetes-anti-patterns-pavan-belagatti/)
 - [medium.com/@ehsan-khodadadi: Patterns and anti-patterns for a reliable Kubernetes infra deployment](https://medium.com/@ehsan-khodadadi/patterns-and-anti-patterns-for-a-reliable-kubernetes-infra-deployment-5724f6749b7a)
+- [medium.com/@seifeddinerajhi: Most common mistakes to avoid when using Kubernetes: Anti-Patterns](https://medium.com/@seifeddinerajhi/most-common-mistakes-to-avoid-when-using-kubernetes-anti-patterns-%EF%B8%8F-f4d37586528d)
 
 [![Top 10 Kubernetes patterns](images/top_10_kubernetes_patterns.png)](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
 
