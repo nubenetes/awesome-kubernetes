@@ -684,6 +684,7 @@
 #### Azure Landing Zones with Terraform
 
 - [==github.com/Azure/terraform-azurerm-caf-enterprise-scale==](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale)
+- [registry.terraform.io/modules/Azure/lz-vending](https://registry.terraform.io/modules/Azure/lz-vending) Terraform module to deploy landing zone subscriptions (and much more) in Azure
 
 #### Azure Terrafy and AzAPI Terraform Provider
 
@@ -976,6 +977,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iRaai1IBlB0?si=_yvEAIc2qvZusFKj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/v_T1fuYGjV0?si=W6dxmoEzTxZ1Mxq2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sd2wuAVush4?si=vWkSEsB2-B9TJmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/t9flUkifAsE?si=ONNtQzJOKsadtjMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

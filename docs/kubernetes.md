@@ -1732,6 +1732,7 @@ will dive into the details of how they work
 - [blog.jcprz.com: My tips to pass the CKA exam and what’s next](https://blog.jcprz.com/my-tips-to-pass-the-cka-exam-and-whats-next-8df2c3d38a7e)
 - [medium.com/@vamshisuram: How to crack CKAD exam (part — 2)](https://medium.com/@vamshisuram/how-to-crack-ckad-exam-part-2-26330c32a4e)
 - [blog.devgenius.io: Passing the 2023 Certified Kubernetes Administrator (CKA) Exam](https://blog.devgenius.io/passing-the-2023-certified-kubernetes-administrator-cka-exam-693d8f9bc711) My experience and strategy for preparing, studying, and taking the exam
+- [==packetpushers.net: KU046: Do Kubernetes Certs Prepare You For Real-World Production?==](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/)
 
 ## Books and eBooks
 

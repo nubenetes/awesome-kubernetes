@@ -100,6 +100,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool)
 - [Redefining Virtualization in the VMware Acquisition Era](https://chaoslever.com/cl-20240118/)
+- [Do Kubernetes Certs Prepare You For Real-World Production?](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
