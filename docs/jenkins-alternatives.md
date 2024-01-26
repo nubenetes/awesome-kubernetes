@@ -15,7 +15,7 @@
     11. [TeamCity](#teamcity)
     12. [Octopus Deploy](#octopus-deploy)
     13. [JFrog](#jfrog)
-        1. [JFrog DevOps Platform](#jfrog-devops-platform)
+         1. [JFrog DevOps Platform](#jfrog-devops-platform)
     14. [Semaphore](#semaphore)
     15. [Devtron](#devtron)
 3. [Cloud Native CI/CD](#cloud-native-cicd)
@@ -122,7 +122,7 @@
 
 - [Keptn](keptn.md)
 
-### Azure DevOps 
+### Azure DevOps
 
 - [Azure DevOps](https://azure.microsoft.com/services/devops/)
 - [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/microsoft-azure/az-400/azure-pipelines-vs-jenkins/)
@@ -132,7 +132,7 @@
 - [shuttleOps](https://www.shuttleops.io/)
 - [thenewstack.io: ShuttleOps: No-Code Docker and Kubernetes](https://thenewstack.io/shuttleops-no-code-docker-and-kubernetes/)
 
-### HashiCorp Waypoint 
+### HashiCorp Waypoint
 
 - [HashiCorp Waypoint](https://www.waypointproject.io/)
 - [hashicorp.com: Announcing HashiCorp Waypoint](https://www.hashicorp.com/blog/announcing-waypoint)
@@ -157,7 +157,7 @@
 - [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs)
 - [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for OctopusDeploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://githubcom/OctopusDeploy/terraform-provider-octopusdeploy).
 
-### JFrog 
+### JFrog
 
 - [JFrog Pipelines](https://jfrog.com/pipelines/)
 - [Shippable (now part of JFrog Pipelines)](https://www.shippable.com/)
@@ -200,7 +200,7 @@
 - [speakerdeck.com: Introduction to Spinnaker Managed Pipeline Templates](https://speakerdeck.com/keisukeyamashita/introduction-to-spinnaker-managed-pipeline-templates)
 - [speakerdeck.com: Spinnaker Application management by Terraform Plugins](https://speakerdeck.com/keisukeyamashita/spinnaker-application-management-by-terraform-plugins)
 - [medium: Spinnaker The Hard Way](https://medium.com/searce/spinnaker-the-hard-way-278913f3f1d8)
-- [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made,and highly-collaborative continuous delivery pipelines. 
+- [opensource.com: Why Spinnaker matters to CI/CD](https://opensource.com/article/19/8/why-spinnaker-matters-cicd) Spinnaker provides unique building blocks to create tailor-made,and highly-collaborative continuous delivery pipelines.
 - [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-bloghow-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
 - [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
@@ -225,11 +225,11 @@
 
 ### HAT is the acronym for Helm, ArgoCD and Tekton
 
-- [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/) 
+- [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://www.empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications/)
 
 ### Dagger
 
-- [==dagger.io==](https://dagger.io) 
+- [==dagger.io==](https://dagger.io) CI/CD as Code that Runs Anywhere
 - [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) Using Dagger, software teams can develop powerful CICD pipelines with minimal effort, then run them anywhere.
 
 ## Integration with other CI/CD engines
