@@ -117,6 +117,11 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [medium.com/@wessel__: Istio with Authentik: securing your cluster and providing authentication and authorization](https://medium.com/@wessel__/istio-with-authentik-securing-your-cluster-and-providing-authentication-and-authorization-b5e48b331920) In this article, you will learn how to manage user access to individual apps deployed in your cluster using Istio and Authentik
 - [medium.com/@hammadsaif061: Simplifying Microservices Management with Kubernetes and Service Mesh](https://medium.com/@hammadsaif061/simplifying-microservices-management-with-kubernetes-and-service-mesh-de458ce566f1)
 - [==itnext.io: Taffic Shaping - Kubernetes & Istio== | Daniele Polencic](https://itnext.io/traffic-shaping-with-kubernetes-and-istio-7e44fbfca200) How can you roll out an app only to a subset of your users in Kubernetes? Let's explore Canary Releases with Istio, Kiali and the Gateway API!
+- [medium.com/@lupass93: Zero Trust Architecture on Kubernetes with Istio Service Mesh](https://medium.com/@lupass93/zero-trust-architecture-on-kubernetes-with-istio-service-mesh-eade6c5a3c53) This article will show how to implement a Zero Trust Architecture on Kubernetes with Istio:
+    - What is Zero Trust Architecture
+    - Istio Architecture
+    - How to enable mTLS
+    - How to enable access control and authorization between your microservices
 
 ## API Access Control
 

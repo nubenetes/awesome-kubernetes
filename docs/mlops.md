@@ -148,6 +148,7 @@
     - Suppose you’ve trained a machine learning model to accomplish some task, and you’d now like to provide that model’s inference capabilities as a service. Maybe you’re writing an application of your own that will rely on this service, or perhaps you want to make the service available to others. This is the purpose of endpoints — they provide a simple web-based API for feeding data to your model and getting back inference results.
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
 - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c) Accelerate Model Development, Deployment, and Monitoring at Scale
+- [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w)
 
 ## KServe Cloud Native Model Server
 

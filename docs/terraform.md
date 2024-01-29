@@ -304,6 +304,7 @@
 - [nedinthecloud.com: Replacing The Template Cloudinit Config Data Source](https://nedinthecloud.com/2022/01/18/replacing-the-template_cloudinit_config-data-source/)
 - [==hashicorp.com: Testing HashiCorp Terraform==](https://www.hashicorp.com/blog/testing-hashicorp-terraform)
 - [==youtube: Stop using shared secrets! CI/CD authentication the proper way==](https://www.youtube.com/watch?v=sd2wuAVush4)
+- [blog.devgenius.io: Kubernetes on Proxmox with Terraform](https://blog.devgenius.io/kubernetes-on-proxmox-with-terraform-6880921af6e4)
 
 ### Terraform License
 
@@ -375,6 +376,7 @@
 - [==blog.gruntwork.io: How to manage multiple environments with Terraform== 🌟](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-32c7bc5d692) **A comparison of using workspaces, branches, and Terragrunt**
 - [medium.com/@avyanab: Deploy A Two-Tier Architecture with AWS and Terraform Cloud](https://medium.com/@avyanab/deploy-a-two-tier-architecture-with-aws-and-terraform-cloud-c6087f118ba7)
 - [spacelift.io: Terraform Cloud – Overview, Key Features & Tutorial](https://spacelift.io/blog/what-is-terraform-cloud)
+- [hashicorp.com: Terraform Cloud adds aggregated VCS reviews](https://www.hashicorp.com/blog/terraform-cloud-adds-aggregated-vcs-reviews)
 
 #### Alternatives to Terraform Cloud
 
@@ -684,11 +686,13 @@
 - [techcommunity.microsoft.com: Simplifying Onboarding to Microsoft Defender for Cloud with Terraform](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/simplifying-onboarding-to-microsoft-defender-for-cloud-with/ba-p/3974789)
 - [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit chat app in AKS using Terraform](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app/ba-p/4024070)
 - [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration)
+- [youtube: Using Azure Storage for Terraform State - Best Practices | Ned in the cloud](https://www.youtube.com/watch?v=iVyKvopGnrQ&t=737s)
 
 #### Azure Landing Zones with Terraform
 
 - [==github.com/Azure/terraform-azurerm-caf-enterprise-scale==](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale)
 - [registry.terraform.io/modules/Azure/lz-vending](https://registry.terraform.io/modules/Azure/lz-vending) Terraform module to deploy landing zone subscriptions (and much more) in Azure
+- [==techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!==](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-landing-zones-accelerators-for-bicep-and-terraform/ba-p/4029866)
 
 #### Azure Terrafy and AzAPI Terraform Provider
 
@@ -775,6 +779,7 @@
     - Databases and migrations
     - Handling static files
 - [thomasthornton.cloud: Deploying Azure AKS GitOps Flux extension with Terraform](https://thomasthornton.cloud/2023/12/03/deploying-azure-aks-gitops-flux-extension-with-terraform/)
+- [github.com/amitmavgupta/azure-terraform](https://github.com/amitmavgupta/azure-terraform) Create AKS clusters with Cilium and Isovalent
 
 ### Terraform and OCI
 
@@ -982,6 +987,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/v_T1fuYGjV0?si=W6dxmoEzTxZ1Mxq2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sd2wuAVush4?si=vWkSEsB2-B9TJmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/t9flUkifAsE?si=ONNtQzJOKsadtjMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iVyKvopGnrQ?si=myjkeOO96PvEwNI2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

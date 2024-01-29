@@ -229,6 +229,7 @@
 - [medium.com/@danielresponda: Testing Spot Reclamation Mechanisms with AWS Node Termination Handler and Kubernetes Autoscaler](https://medium.com/@danielresponda/testing-spot-reclamation-mechanisms-with-aws-node-termination-handler-and-kubernetes-autoscaler-43194d05dae0) What happens if a spot instance is reclaimed, but no more capacity is available in the cluster? In this article, you will learn how to use the AWS Node Termination Handler with Kubernetes Autoscaler to handle spot reclamations seamlessly
 - [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity)
 - [itnext.io: AWS Elastic Kubernetes Service: RBAC Authorization via AWS IAM and RBAC Groups](https://itnext.io/aws-elastic-kubernetes-service-rbac-authorization-via-aws-iam-and-rbac-groups-7b70ded144b5)
+- [medium.com/@leocherian: Simple CDK app to create EKS Cluster](https://medium.com/@leocherian/simple-cdk-app-to-create-eks-cluster-06f651a12ccd)
 
 ### EKS Upgrades
 

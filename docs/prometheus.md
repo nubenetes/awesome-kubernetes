@@ -149,6 +149,8 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [blog.devops.dev: Observability Concept in Prometheus](https://blog.devops.dev/observability-concept-in-prometheus-9f0093fa7495) In This blog, we will talk more about other components of Prometheus that are useful in understanding and in the field of DevOps and SRE. These terms are common in Prometheus also the topics are discussed in PCA certification
 - [==horovits.medium.com: Prometheus Now Supports OpenTelemetry Metrics==](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a)
 - [==thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half==](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half/) Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.
+- [devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game](https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game)
+- [devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and Node Exporter](https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
