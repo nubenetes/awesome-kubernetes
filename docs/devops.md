@@ -441,6 +441,7 @@ Resolve your software incidents 10x faster
 - [medium.com/@rphilogene: Platform Engineering #7: Internal Developer Platform vs. Internal Developer Portal](https://medium.com/@rphilogene/platform-engineering-7-internal-developer-platform-vs-internal-developer-portal-05c33658891b)
 - [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops)
 - [fernandovillalba.substack.com: DevOps: Don't destroy silos, transform them](https://fernandovillalba.substack.com/p/devops-dont-destroy-silos-transform) "Destroying silos" is a clumsy solution to team isolation
+- [humanitec.com: Escape VMware lock-in with a modular Internal Developer Platform](https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform)
 
 ### IDP Tools
 

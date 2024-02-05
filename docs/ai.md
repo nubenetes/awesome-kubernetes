@@ -25,6 +25,7 @@
 - [businessinsider.es: Los ingenieros de software están aterrorizados ante la posibilidad de ser sustituidos por la IA](https://www.businessinsider.es/ingenieros-software-estan-aterrorizados-posibilidad-ser-sustituidos-ia-1238112)
 - [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.com/tecnologia/deep-learning-considera-revolucion-ia-1241180)
 - [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer/)
+- [freecodecamp.org: Ace Your Deep Learning Job Interview](https://www.freecodecamp.org/news/ace-your-deep-learning-job-interview/)
 
 ## Machine Learning
 

@@ -919,6 +919,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/GitHubSecurityLab/actions-permissions: GitHub token permissions Monitor and Advisor actions](https://github.com/GitHubSecurityLab/actions-permissions) **GitHub token permissions Monitor and Advisor actions**
 - [thomasthornton.cloud: If, elseif or else in GitHub Actions](https://thomasthornton.cloud/2023/08/11/if-elseif-or-else-in-github-actions/)
 - [kaleshreya907.medium.com: GitHub Actions: Netflix Deployment](https://kaleshreya907.medium.com/step2a-install-docker-and-run-sonarqube-container-faa42d01f5fe)
+- [medium.com/@ebonyymonae: Github Actions and Automation](https://medium.com/@ebonyymonae/github-actions-and-automation-9637aa06af64)
+- [levelup.gitconnected.com: GitHub Actions, self-hosted runners on Amazon EKS & spot instances](https://levelup.gitconnected.com/github-actions-self-hosted-runners-on-amazon-eks-spot-instances-bc3abcd5d38f) How to spin up ephemeral runners in Kubernetes.
 
 ### RedHat GitHub Actions
 

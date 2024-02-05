@@ -53,7 +53,8 @@
          2. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
          3. [Terraform in Azure DevOps](#terraform-in-azure-devops)
          4. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
-         5. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
+         5. [Terraform for a Data Engineer](#terraform-for-a-data-engineer)
+         6. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
     28. [Terraform and OCI](#terraform-and-oci)
     29. [Terraform and Linode](#terraform-and-linode)
     30. [Istio with Terraform](#istio-with-terraform)
@@ -354,6 +355,7 @@
 
 - [dzone: Immutable Infrastructure CI/CD Using Hashicorp Terraform and Jenkins](https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr) This extensive article should leave few questions unanswered about creating your infrastructure.
 - [dev.to: Provisioning AWS Infrastructure using Terraform and Jenkins CI/CD](https://dev.to/aws-builders/provisioning-aws-infrastructure-using-terraform-and-jenkins-cicd-pgj)
+- [github.com/vijaykedar/jenkins-setup-using-terraform](https://github.com/vijaykedar/jenkins-setup-using-terraform) This Terraform configuration automates the setup of a Jenkins server on an AWS EC2 instance. It provisions the necessary infrastructure and installs Jenkins along with its dependencies.
 
 ### Alternatives to Terraform
 
@@ -442,6 +444,23 @@
 - [spacelift.io: 20 Terraform Best Practices to Improve your TF workflow 🌟](https://spacelift.io/blog/terraform-best-practices)
 - [blog.coderco.io: Terraform Best Practices Series - Lessons from the Battlefield: Part 1](https://blog.coderco.io/p/terraform-best-practices-series-lessons)
     - [blog.coderco.io: Terraform Best Practices Series - Lessons from the Battlefield: Part 2](https://blog.coderco.io/p/terraform-best-practices-series-lessons-0cd)
+- [reddit.com/r/Terraform: Terraform Experts! Anyone experienced in designing enterprise grade reusable terraform code?](https://www.reddit.com/r/Terraform/comments/19arrun/comment/kinusdl)
+    - They should be as simple as possible.
+    - Root modules should manage very few resources and not depend heavily on many other modules or remote states.
+    - Don't ever design with the intention of overriding tf variables with environment variables, using -target, etc. Hard code as many values as you can into tfvars files.
+    - Use the lock files and pin versions everywhere. Module versions, Git tag versions, provider versions, Terraform versions.
+    - Use asdf to install and run the pinned version of Terraform for each root module deployed.
+    - Try to keep modules cohesive and loosely coupled. If updating one module or tfvars file creates plan changes in 20 different root modules, that's not great. Sometimes unavoidable, but creates a large operational burden.
+    - Reuse public modules. There's a shit ton of weird subtle magic knowledge you need to use a resource that isn't documented and you won't find out until something breaks.
+    - Test creating, changing, and then destroying, every resource. You will probably find a few need hacks to work as you expect.
+    - Use semver and version/release all your modules and repos. Keep Changelogs of changes.
+    - Keep a file in the root dir of repos that documents the owner or SME of the module and how to contact them.
+    - For commonly referenced variables, store them in JSON, export them with `output`s, publish the module in its own repo somewhere, version it. Modules can reference that module to get the values, pin to versions of it so unexpected changes don't blow things up.
+    - Use the CloudPosse Terraform modules / architecture / framework. Take the time to figure out how they work, use them. I swear you will end up reinventing it over time if you don't start now. In particular, you should apply a standard AWS tagging scheme with all your resources, which the CloudPosse modules support inherently. They also let you enable/disable functionality by variables, which is nice, cuz otherwise you have to comment out code.
+    - Run your Terraform from CI/CD. Really you will be doing it from both your desktop and CI/CD, but assume you'll be running in CI/CD. Once you have 3 people working on the same TF code at once, you'll need the CI/CD to not bump into each other all the time. The rule of thumb is, if it's brand new code, you can run it locally, but if it's already in production and other things depend on it, run it from ci/cd. `apply`s anyway.
+    - Separate modules by separation of concern; networking in network modules, clusters in cluster modules, apps in app modules, iam in security modules, etc. Also try to separate modules by AWS architectural paradigms, like "global" resources in their own modules. You'll want different teams to maintain and run their own modules independently, even though it all applies to the same AWS account/product stack.
+    - Don't force authentication options into the provider configs. Allow whatever's running terraform to authenticate first, and the module will just detect the auth method automatically through the provider's sdk.
+    - Don't make a module for a module's sake. Whereas with regular app code you might make a bunch of abstractions to try to make the code more manageable, that just makes Terraform suck more. Use the least number of abstractions possible to achieve what you want.
 
 ### Terraform and CI/CD. Terraform Workspace
 
@@ -687,6 +706,7 @@
 - [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit chat app in AKS using Terraform](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app/ba-p/4024070)
 - [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration)
 - [youtube: Using Azure Storage for Terraform State - Best Practices | Ned in the cloud](https://www.youtube.com/watch?v=iVyKvopGnrQ&t=737s)
+- [hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform and Vault](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)
 
 #### Azure Landing Zones with Terraform
 
@@ -708,6 +728,10 @@
 #### Terraform Azure Stack Provider
 
 - [hashicorp.com: Announcing Azure Stack Hub Provider 1.0](https://www.hashicorp.com/blog/announcing-azure-stack-hub-provider-1-0)
+
+#### Terraform for a Data Engineer
+
+- [medium.com/@mariusz_kujawski: Terraform for a Data Engineer](https://medium.com/@mariusz_kujawski/terraform-for-a-data-engineer-553f7538fec8)
 
 {==
 
@@ -988,6 +1012,8 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sd2wuAVush4?si=vWkSEsB2-B9TJmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/t9flUkifAsE?si=ONNtQzJOKsadtjMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iVyKvopGnrQ?si=myjkeOO96PvEwNI2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hBmcwtVQkPM?si=ujDH50fqShdYz9LT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3pjEcflsSL8?si=xHj3WCDI1C3p4GLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

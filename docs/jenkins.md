@@ -168,6 +168,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins and Helm Charts
 
 - [blog.devops.dev: Deploying Helm Charts with Jenkins and Groovy: A Comprehensive Guide](https://blog.devops.dev/deploying-helm-charts-with-jenkins-and-groovy-a-comprehensive-guide-c2aa0f2bd424)
+- [==github.com/jenkinsci/helm-charts==](https://github.com/jenkinsci/helm-charts)
 
 ## Jenkins and Terraform
 

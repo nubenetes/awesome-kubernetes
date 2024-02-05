@@ -333,6 +333,7 @@ A simple extension to make indentation more readable
 - [Time Travel!](https://www.youtube.com/shorts/0h1xNFsEZBU)
 - [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk)
 - [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s)
+- [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4)
 
 ## Videos
 

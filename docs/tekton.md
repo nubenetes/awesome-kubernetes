@@ -18,7 +18,7 @@
 - [Tekton PetClinic Demo Youtube](https://www.youtube.com/watch?v=igwFpZOUTnw)
 - [OpenShift Tekton pipelines](https://www.openshift.com/learn/topics/pipelines)
 - [developers.redhat.com: An introduction to cloud native CI/CD with Red Hat OpenShift pipelines](https://developers.redhat.com/blog/2019/07/18an-introduction-to-cloud-native-ci-cd-with-red-hat-openshift-pipelines/)
-- [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/) 
+- [blog.openshift.com: cloud native CI/CD with openshift pipelines](https://blog.openshift.com/cloud-native-ci-cd-with-openshift-pipelines/)
 - [learn.openshift.com/middleware/pipelines](https://learn.openshift.com/middleware/pipelines/)
 - [Easily reuse Tekton and Jenkins X from Jenkins](https://www.jenkins.io/blog/2021/04/21/tekton-plugin/)
 - [lambda.grofers.com: Evolving Continuous Delivery in a Cloud-Native Environment 🌟](https://lambda.grofers.com/evolving-cd-in-a-cloud-native-environment-bb64a38145ae) In thispost, we’ll discuss the stages through which continuous delivery infrastructure has evolved at Grofers. We’ll start with how we began with Kubernetes and Jenkins and managed itsgrowing adoption. We’ll then discuss why we decided to move from Jenkins to Tekton, how we plan to scale it beyond a few teams, and what kind of challenges we have faced and arecurrently facing.
@@ -40,6 +40,7 @@
 - [==piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton==](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton/)
 - [anadimisra.com: On Demand CI/CD with Serverless Tekton](https://www.anadimisra.com/post/on-demand-ci-cd-with-serverless-tekton) In this article, you will learn how to run Tekton with Terraform and EKS Fargate to build a serverless CI/CD platform
 - [==hashnode.com: Tekton CI simplified==](https://hashnode.com/post/tekton-ci-simplified-ckzleauyw0n6beks1diq6ejvv) Complete guide to getting started with Tekton. In this blog, you will learn how to get started with Tekton and build a real-world pipeline for a containerized NodeJS application.
+- [==devops.com: Using LLMs to Automate Pipeline Conversions From Legacy to Tekton==](https://devops.com/using-llms-to-automate-pipeline-conversions-from-legacy-to-tekton)
 
 ## Videos
 

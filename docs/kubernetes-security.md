@@ -147,6 +147,7 @@
 - [==securitycafe.ro: A COMPLETE KUBERNETES CONFIG REVIEW METHODOLOGY==](https://securitycafe.ro/2023/02/27/a-complete-kubernetes-config-review-methodology/)
 - [==itnext.io: Introduction to Kubernetes Security for Security Professionals==](https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a) Presenting the architecture of Kubernetes and its associated security threats, for security professionals, including penetration testers and DevSecOps practitioners.
 - [dev.to/mattiasfjellstrom: Kubernetes-101: Security concepts](https://dev.to/mattiasfjellstrom/kubernetes-101-security-concepts-2f4f) The article provides an overview of Kubernetes security concepts, focusing on NetworkPolicies, ServiceAccounts, and Security Contexts
+- [blog.alexellis.io: What if your Pods need to trust self-signed certificates?](https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates/) Self-signed certificates are common within enterprise companies. But how do you distribute them and enable their use in Kubernetes as a user and a vendor?
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)

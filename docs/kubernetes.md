@@ -1610,6 +1610,7 @@ will dive into the details of how they work
         - Node auto-provisioning
         - Metric server
         - Tips and tricks for application developers and cluster operators
+- [4sysops.com: Node selector and node affinity in Kubernetes](https://4sysops.com/archives/kubernetes-guide-node-selector-and-node-affinity-in-kubernetes/)
 
 ### Pod Topology Spread Constraints and PodTopologySpread Scheduling Plugin
 

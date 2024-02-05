@@ -143,6 +143,7 @@
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
 - [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
+- [==Announcing CDK Migrate: A single command to migrate to the AWS CDK==](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk/)
 
 ## AWS Session Manager
 

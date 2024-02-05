@@ -64,6 +64,7 @@
 - [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers/) Career paths for software engineers
 - [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do/)
 - [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/g5y37j/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse)
+- [madokai.medium.com: Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)
 
 ## Articles in Spanish
 
@@ -92,6 +93,7 @@
 - [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior)
 - [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162)
 - [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html)
+- [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/empleados-ya-no-sienten-lealtad-jefes-empleadores-1358974)
 
 ## Recruitment Portals
 
@@ -300,5 +302,6 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/XRcYK94ipmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/GC2VylxygvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
 

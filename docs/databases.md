@@ -91,6 +91,7 @@
 - [==blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment== 🌟](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates.
 - [blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates
 - [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it/)
+- [medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why it won’t work for you if you’re implementing a big data solution)](https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644)
 
 ## How to choose the right database for your service
 

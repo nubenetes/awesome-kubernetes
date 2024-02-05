@@ -266,6 +266,7 @@
 - [==medium.com/@bill.salvaggio: The AWS Cloud Resume Challenge Project==](https://medium.com/@bill.salvaggio/the-aws-cloud-resume-challenge-project-c5c0c6fe9593) - [==The AWS Cloud Resume Challenge Project, Part II==](https://medium.com/@bill.salvaggio/the-aws-cloud-resume-challenge-project-part-ii-5c36029dbc59) CI/CD Automation — GitHub Actions and a Test environment
 - [thestack.technology: VMware is killing off 56 products amid "tectonic" infrastructure shift](https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx/) Goodbye vSphere Hypervisor. Goodbye Aria Operations. Goodbye NCX. Goodbye HCX. Goodbye more acronyms than we know what to do with; though Broadcom does.
 - [blog.lealdasilva.com: Why You Should Switch from VMware to Proxmox in 2024](https://blog.lealdasilva.com/vmware2proxmox/)
+- [==welivesecurity.com: La ofuscación de código: un arte que reina en la ciberseguridad==](https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad/) Conoce esta táctica que dificulta la comprensión de código fuente a personas no autorizadas, o malintencionadas, y fortalece la protección de sistemas sensibles.
 
 ## Platform Reference Architecture
 

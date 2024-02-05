@@ -6,71 +6,73 @@
 4. [Azure Cloud Adoption Framework CAF](#azure-cloud-adoption-framework-caf)
 5. [Azure Well-Architected Framework WAF](#azure-well-architected-framework-waf)
 6. [CAF vs WAF](#caf-vs-waf)
-7. [Azure Sandbox](#azure-sandbox)
-8. [Microsoft REST API Guidelines](#microsoft-rest-api-guidelines)
-9. [Azure Quick Review](#azure-quick-review)
-10. [New Features](#new-features)
-11. [Blogs](#blogs)
-12. [Azure Training and Certifications](#azure-training-and-certifications)
-13. [Azure Naming Convention](#azure-naming-convention)
-14. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
-15. [Understand Azure Load Balancing](#understand-azure-load-balancing)
-16. [Azure Load Testing](#azure-load-testing)
-17. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
-18. [Azure Patterns](#azure-patterns)
-19. [ARM Templates](#arm-templates)
-20. [DevTest](#devtest)
-21. [Azure DevOps](#azure-devops)
+7. [Azure Landing Zones](#azure-landing-zones)
+8. [Azure Sandbox](#azure-sandbox)
+9. [Azure Marketplace](#azure-marketplace)
+10. [Microsoft REST API Guidelines](#microsoft-rest-api-guidelines)
+11. [Azure Quick Review](#azure-quick-review)
+12. [New Features](#new-features)
+13. [Blogs](#blogs)
+14. [Azure Training and Certifications](#azure-training-and-certifications)
+15. [Azure Naming Convention](#azure-naming-convention)
+16. [Mission-critical Architecture on Azure](#mission-critical-architecture-on-azure)
+17. [Understand Azure Load Balancing](#understand-azure-load-balancing)
+18. [Azure Load Testing](#azure-load-testing)
+19. [Microsoft Linux Distribution CBL Mariner](#microsoft-linux-distribution-cbl-mariner)
+20. [Azure Patterns](#azure-patterns)
+21. [ARM Templates](#arm-templates)
+22. [DevTest](#devtest)
+23. [Azure DevOps](#azure-devops)
      1. [Azure DevOps vs GitHub Actions](#azure-devops-vs-github-actions)
      2. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      3. [Azure Pipeline Tasks](#azure-pipeline-tasks)
      4. [Azure DevOps Snippets](#azure-devops-snippets)
-22. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn-microsoft-entra)
+24. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn-microsoft-entra)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
-23. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
-24. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
-25. [Azure App Service](#azure-app-service)
-26. [Azure Application Gateway](#azure-application-gateway)
-27. [Azure Functions](#azure-functions)
-28. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
-29. [Mobile Apps](#mobile-apps)
-30. [Powershell](#powershell)
+25. [Azure Arc. Azure’s Hybrid And Multi-Cloud Platform. GitOps with Azure Arc](#azure-arc-azures-hybrid-and-multi-cloud-platform-gitops-with-azure-arc)
+26. [Secure DevOps Kit for Azure](#secure-devops-kit-for-azure)
+27. [Azure App Service](#azure-app-service)
+28. [Azure Application Gateway](#azure-application-gateway)
+29. [Azure Functions](#azure-functions)
+30. [Azure Monitor managed service for Prometheus](#azure-monitor-managed-service-for-prometheus)
+31. [Mobile Apps](#mobile-apps)
+32. [Powershell](#powershell)
      1. [Microsoft Graph PowerShell SDK](#microsoft-graph-powershell-sdk)
      2. [Powershell repos](#powershell-repos)
      3. [Crescendo powershell module](#crescendo-powershell-module)
      4. [Secrets Management with Powershell](#secrets-management-with-powershell)
      5. [Azure Resource Inventory](#azure-resource-inventory)
-31. [Azure CLI. AZ CLI](#azure-cli-az-cli)
-32. [Azure Run Command](#azure-run-command)
-33. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
-34. [Azure Bicep](#azure-bicep)
-35. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
-36. [Azure Traffic Manager](#azure-traffic-manager)
-37. [Azure DNS](#azure-dns)
-38. [Azure OpenVPN](#azure-openvpn)
-39. [Azure Security](#azure-security)
+33. [Azure CLI. AZ CLI](#azure-cli-az-cli)
+34. [Azure Run Command](#azure-run-command)
+35. [IaC with PowerShell DSC Desired State Configuration](#iac-with-powershell-dsc-desired-state-configuration)
+36. [Azure Bicep](#azure-bicep)
+37. [Azure Cross region Load Balancer](#azure-cross-region-load-balancer)
+38. [Azure Traffic Manager](#azure-traffic-manager)
+39. [Azure DNS](#azure-dns)
+40. [Azure OpenVPN](#azure-openvpn)
+41. [Azure Security](#azure-security)
      1. [Azure Microsoft Defender for Cloud](#azure-microsoft-defender-for-cloud)
-40. [Azure Virtual WAN. vWAN](#azure-virtual-wan-vwan)
-41. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
-42. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
-43. [Windows 11](#windows-11)
-44. [Azure API Management](#azure-api-management)
-45. [Azure Container Apps](#azure-container-apps)
-46. [Azure Container Instances](#azure-container-instances)
-47. [Azure Container Storage](#azure-container-storage)
-48. [Windows Server Container Host](#windows-server-container-host)
-49. [Disaster Recovery](#disaster-recovery)
-50. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
-51. [Azure Healthcare Data Services](#azure-healthcare-data-services)
-52. [Office 365](#office-365)
-53. [Azure Books](#azure-books)
-54. [Azure OpenAI](#azure-openai)
-55. [Windows Tools](#windows-tools)
-56. [Azure Tools](#azure-tools)
-57. [Images](#images)
-58. [Videos](#videos)
-59. [Tweets](#tweets)
+42. [Azure Virtual WAN. vWAN](#azure-virtual-wan-vwan)
+43. [Data Ingestion. Azure Data Factory](#data-ingestion-azure-data-factory)
+44. [WinGet Windows Package Manager CLI](#winget-windows-package-manager-cli)
+45. [Windows 11](#windows-11)
+46. [Azure API Management](#azure-api-management)
+47. [Azure Container Apps](#azure-container-apps)
+48. [Azure Container Instances](#azure-container-instances)
+49. [Azure Container Storage](#azure-container-storage)
+50. [Windows Server Container Host](#windows-server-container-host)
+51. [Disaster Recovery](#disaster-recovery)
+52. [Azure Samples (Boilerplates)](#azure-samples-boilerplates)
+53. [Azure Healthcare Data Services](#azure-healthcare-data-services)
+54. [Office 365](#office-365)
+55. [Azure Books](#azure-books)
+56. [Azure OpenAI](#azure-openai)
+57. [Windows Tools](#windows-tools)
+58. [Azure Tools](#azure-tools)
+59. [Images](#images)
+60. [Videos](#videos)
+61. [Tweets](#tweets)
 
 <center>
 [![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer)
@@ -109,7 +111,6 @@
 - [charbelnemnom.com: Move Files Between Azure File Share Tiers and optimize storage costs](https://charbelnemnom.com/move-files-between-azure-file-share-tiers/)
 - [==techrepublic.com: What can you do with Azure Files?==](https://www.techrepublic.com/article/what-can-you-do-azure-files/)
 - [==satyenkumar.medium.com: Demystifying The Cloud: An Overview of the Microsoft Azure== 🌟🌟🌟](https://satyenkumar.medium.com/demystifying-the-cloud-computing-an-overview-of-the-microsoft-azure-6a5c1fb1799d) Learn how to make the most of the Azure cloud platform in this comprehensive story (Cloud Demystified Series). Go through 80% of Azure in 30 minutes
-- [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
 - [==learn.microsoft.com: Migrate Java applications to Azure== 🌟🌟🌟](https://learn.microsoft.com/en-us/azure/developer/java/migration/migration-overview)
 - [blog.cloudtrooper.net: Overlapping IP addresses in a hub-and-spoke network (feat. AVNM & ARS)](https://blog.cloudtrooper.net/2022/11/14/overlapping-ip-addresses-in-a-hub-and-spoke-network-feat-avnm-ars/)
 - [blog.cloudtrooper.net: Virtual Network Gateways routing in Azure](https://blog.cloudtrooper.net/2023/02/06/virtual-network-gateways-routing-in-azure/)
@@ -125,11 +126,14 @@
 - [medium.com/@mikakrief: Using Azure Service Operator v2](https://medium.com/@mikakrief/using-azure-service-operator-v2-4a1fa1f5e3b8) Azure Service Operator v2 is a Kubernetes operator that enables you to manage Azure resources directly through Kubernetes tooling. It’s designed to simplify the deployment and management of Azure services, allowing developers to use familiar Kubernetes commands (like kubectl apply) to handle Azure resources.
 - [blog.cloudtrooper.net: Azure network monitoring with synthetic traffic](https://blog.cloudtrooper.net/2024/01/23/azure-network-monitoring-with-synthetic-traffic/)
 - [techcommunity.microsoft.com: Leveraging Azure Event Hub, Microsoft Fabric, and Power BI for Real-Time Data Analytics](https://techcommunity.microsoft.com/t5/educator-developer-blog/leveraging-azure-event-hub-microsoft-fabric-and-power-bi-for/ba-p/4028701)
+- [techcommunity.microsoft.com: Azure SQL Managed Instance pools: new features](https://techcommunity.microsoft.com/t5/azure-sql-blog/azure-sql-managed-instance-pools-new-features/ba-p/4044688)
+- [github.com/Azure/Enterprise-Scale: ALZ AMA Update](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update) The Log Analytics agent, also known as the Microsoft Monitoring Agent (MMA), is on a deprecation path and won't be supported after August 31, 2024. Any new data centers brought online after January 1 2024 will not support the Log Analytics agent. If you use the Log Analytics agent to ingest data to Azure Monitor, migrate to the new Azure Monitor agent prior to that date.
 
 ## Azure Mindmap
 
 - [github.com/sajeetharan/azure-mindmap](https://github.com/sajeetharan/azure-mindmap) Solution Architecture Patterns and Checklists Mind Map for beginners on Azure
     - [Azure Fundamentals: AZ-900.pdf](https://github.com/sajeetharan/azure-mindmap/blob/master/azure-fundamentals/AZ-900.pdf)
+- [techcommunity.microsoft.com: Azure Architecture - Course Blueprint](https://techcommunity.microsoft.com/t5/azure-architecture/course-blueprint/m-p/4012399) This blueprint offers a comprehensive guide to the Azure ecosystem, specifically designed to align with the content of a specific course. It encompasses all resources, tools, structures, and connections discussed throughout the course. The layer filtering feature allows for focused study on specific sections of the course, facilitating a more digestible understanding of the information.
 
 ## Azure Policy Best Practices
 
@@ -153,9 +157,18 @@
 - [linkedin.com: CAF vs WAF: Which Framework to Use for Your Cloud Migration?](https://www.linkedin.com/pulse/caf-vs-waf-which-framework-use-your-cloud-migration-gregor-wohlfarter-hko0f/)
 - [techcommunity.microsoft.com: Infra in Azure for Developers - The What](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/infra-in-azure-for-developers-the-what/ba-p/4026102)
 
+## Azure Landing Zones
+
+- [medium.com/microsoftazure: Ultimate guide for Enterprise-scale landing zone for Azure](https://medium.com/microsoftazure/ultimate-guide-for-azure-cloud-adoption-framework-for-enterprise-scale-landing-zone-bba2a385134d)
+- [techcommunity.microsoft.com: Azure Landing Zones Accelerators for Bicep and Terraform. Announcing General Availability!](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-landing-zones-accelerators-for-bicep-and-terraform/ba-p/4029866)
+
 ## Azure Sandbox
 
 - [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) Azure Sandbox is a collection of interdependent cloud computing configurations for implementing common Azure services on a single subscription. This collection provides a flexible and cost effective sandbox environment for experimenting with Azure services and capabilities.
+
+## Azure Marketplace
+
+- [azuremarketplace.microsoft.com: Firefly](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/gofireflyltd1705083203658.firefly) Firefly's Cloud Asset Management solution enables Cloud teams to rediscover their entire cloud footprint and manage it more efficiently and consistently as a single inventory across multi-cloud, multi-accounts, and Kubernetes deployments. At the same time, it empowers DevOps to quickly ramp Infrastructure-as-code, and to create and deploy cloud infrastructure safely and consistently within organizational policies.
 
 ## Microsoft REST API Guidelines
 
@@ -387,6 +400,7 @@
 ## Azure Monitor managed service for Prometheus
 
 - [==techcommunity.microsoft.com: Introducing Azure Monitor managed service for Prometheus== 🌟](https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-monitor-managed-service-for-prometheus/ba-p/3600185)
+- [techcommunity.microsoft.com: How To Monitor Your Multi-Tenant Solution on Azure With Azure Monitor](https://techcommunity.microsoft.com/t5/azure-observability-blog/how-to-monitor-your-multi-tenant-solution-on-azure-with-azure/ba-p/4042140)
 
 ## Mobile Apps
 
@@ -508,6 +522,8 @@
 - [linkedin.com/pulse: Exporting and importing variables between Bicep files: compileTimeImports | Freek Berson](https://www.linkedin.com/pulse/exporting-importing-variables-between-bicep-files-freek-berson-n0ske/)
 - [luke.geek.nz: Using the Azure Naming Tool API to name your Bicep resources](https://luke.geek.nz/azure/azure-naming-tool-api-bicep-resources/)
 - [microsoft.com: Revolutionizing our ARM template deployment at Microsoft with shift from JSON to BICEP](https://www.microsoft.com/insidetrack/blog/revolutionizing-our-arm-template-deployment-at-microsoft-with-shift-from-json-to-bicep/)
+- [techcommunity.microsoft.com: Infra in Azure for Developers - The How (Part 2)](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/infra-in-azure-for-developers-the-how-part-2/ba-p/4046385)
+- [johnlokerse.dev: Lint Azure Bicep templates in Azure DevOps](https://johnlokerse.dev/2024/02/05/lint-azure-bicep-templates-in-azure-devops/)
 
 ## Azure Cross region Load Balancer
 
@@ -534,6 +550,7 @@
     - https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect
 - [learn.microsoft.com: Azure network security overview](https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview)
 - [learn.microsoft.com: Conditional Access templates](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policy-common)
+- [learn.microsoft.com: Conditional Access architecture and personas](https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture)
 
 ### Azure Microsoft Defender for Cloud
 
@@ -564,6 +581,7 @@
             - Speed Layer: Is used for real-time ingestion, the computed data might not be completely accurate, however, gives a real-time picture of the data.
             - Serving layer: The outputs from the batch layer in the form of batch views and those coming from the speed layer in the form of near real-time views get forwarded to the serving. This layer indexes the batch views so that they can be queried in low latency on an ad-hoc basis.
 - [mssqltips.com: Choosing Between SQL Server Integration Services and Azure Data Factory](https://www.mssqltips.com/sqlservertip/7094/azure-data-factory-vs-ssis-similarities-differences/)
+- [techcommunity.microsoft.com: Azure Data Factory: How to split a file into multiple output files with Bicep](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/azure-data-factory-how-to-split-a-file-into-multiple-output/ba-p/4039825)
 
 ## WinGet Windows Package Manager CLI
 

@@ -99,6 +99,7 @@
 - [newsletter.pragmaticengineer.com: Engineering Leadership Skill Set Overlaps](https://newsletter.pragmaticengineer.com/p/engineering-leadership-skillset-overlaps) How Staff Engineer, Engineering Manager (EM), Product Manager (PM), Tech Lead Manager (TLM) and Technical Program Manager (TPM) positions overlap in Big Tech and at high-growth startups. **If you are an individual contributor engineer, you really need to print this out and hang it somewhere**
 - [hbr.org: What It Takes to Give a Great Presentation](https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation)
 - [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content, Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html) According to the Apple co-founder, the best employees are also a pain in the butt to manage.
+- [==Bus factor==](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
 
 ### Spanish
 
