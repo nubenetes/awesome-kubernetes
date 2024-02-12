@@ -4,14 +4,15 @@
     1. [Why Not Use Kubernetes](#why-not-use-kubernetes)
 2. [Heroku](#heroku)
 3. [Amazon ECS](#amazon-ecs)
-4. [Nomad](#nomad)
-5. [Portainer](#portainer)
-6. [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
-7. [Docker Swarm](#docker-swarm)
-8. [Simplenetes](#simplenetes)
-9. [More comparisons and alternatives](#more-comparisons-and-alternatives)
-10. [Images](#images)
-11. [Videos](#videos)
+4. [Cycle.io](#cycle-io)
+5. [Nomad](#nomad)
+6. [Portainer](#portainer)
+7. [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
+8. [Docker Swarm](#docker-swarm)
+9. [Simplenetes](#simplenetes)
+10. [More comparisons and alternatives](#more-comparisons-and-alternatives)
+11. [Images](#images)
+12. [Videos](#videos)
 
 ## Introduction
 
@@ -33,6 +34,12 @@
 
 - [techtarget.com: Amazon ECS vs. Kubernetes: Which should you use on AWS?](https://searchcloudcomputing.techtarget.com/answer/Amazon-ECS-vs-Kubernetes-Which-should-you-use-on-AWS) How can you approach container orchestration on AWS? Learn the basics about ECS, EKS, DIY Kubernetes and Fargate before you choose an application architecture for your workloads.
 - [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere/) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
+
+## Cycle.io
+- [Cycle.io](https://cycle.io)
+- [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes/)
+- [bretfisher.com: Cycle.io LowOps container platform](https://www.bretfisher.com/podcast-136-cycle-io-lowops-container-platform/)
+- [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers/) "Kubernetes has not been able to deliver this level of multicloud portability and ease of use with containers. Cycle promises to fill this gap."
 
 ## Nomad
 
