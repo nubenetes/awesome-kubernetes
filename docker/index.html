@@ -1,0 +1,5327 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+      
+      
+        <meta name="author" content="nubenetes@gmail.com">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/docker/">
+      
+      
+        <link rel="prev" href="../serverless/">
+      
+      
+        <link rel="next" href="../kubernetes/">
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Docker - Nubenetes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-2H8F93KE5B"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-2H8F93KE5B",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2H8F93KE5B",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#docker" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Docker
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../introduction/" class="md-tabs__link">
+        Intro
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sre/" class="md-tabs__link">
+        SRE
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../devops/" class="md-tabs__link">
+        DevOps
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../devsecops/" class="md-tabs__link">
+        DevSecOps
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../noops/" class="md-tabs__link">
+        NoOps
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Docker
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../kubernetes/" class="md-tabs__link">
+        K8s
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../openshift/" class="md-tabs__link">
+        OpenShift
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../rancher/" class="md-tabs__link">
+        Rancher
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cicd/" class="md-tabs__link">
+        CI/CD
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../monitoring/" class="md-tabs__link">
+        Montrg
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../iac/" class="md-tabs__link">
+        Infra Prov
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ansible/" class="md-tabs__link">
+        Config Mgmt
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../databases/" class="md-tabs__link">
+        DB
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../message-queue/" class="md-tabs__link">
+      Data Pipeline
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../servicemesh/" class="md-tabs__link">
+        Service Mesh
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../demos/" class="md-tabs__link">
+        Demos
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../public-cloud-solutions/" class="md-tabs__link">
+        Cloud
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../api/" class="md-tabs__link">
+        APIs
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../devel-sites/" class="md-tabs__link">
+        Dev
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../qa/" class="md-tabs__link">
+        QA
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ai/" class="md-tabs__link">
+        AI
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../project-management-methodology/" class="md-tabs__link">
+        Project Mgmt
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../other-awesome-lists/" class="md-tabs__link">
+        Refs+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../recruitment/" class="md-tabs__link">
+        Hiring
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../customer/" class="md-tabs__link">
+      Clients
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../about/" class="md-tabs__link">
+      About
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Nubenetes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="false">
+          Intro
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Intro" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Intro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        Microservices FAQ & Kubernetes Native
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          SRE
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SRE" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          SRE
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sre/" class="md-nav__link">
+        SRE Site Reliability Engineering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finops/" class="md-nav__link">
+        FinOps. Cloud Financial Management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chaos-engineering/" class="md-nav__link">
+        Chaos Engineering
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          DevOps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DevOps" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          DevOps
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/" class="md-nav__link">
+        DevOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitops/" class="md-nav__link">
+        GitOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        MLOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheatsheets/" class="md-nav__link">
+        Cheat Sheets
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="false">
+          DevSecOps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DevSecOps" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          DevSecOps
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        DevSecOps. Container Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../securityascode/" class="md-nav__link">
+        Security Policy as Code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6" tabindex="0" aria-expanded="false">
+          NoOps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NoOps" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          NoOps
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../noops/" class="md-nav__link">
+        NoOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../serverless/" class="md-nav__link">
+        Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Docker
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Docker
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-and-tutorials" class="md-nav__link">
+    Introduction and Tutorials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-best-practices" class="md-nav__link">
+    Docker Best Practices
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-networking" class="md-nav__link">
+    Docker Networking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-volumes" class="md-nav__link">
+    Docker Volumes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    Debugging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-cli" class="md-nav__link">
+    Docker CLI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-extensions" class="md-nav__link">
+    Docker Extensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-swarm" class="md-nav__link">
+    Docker Swarm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#awesome-lists" class="md-nav__link">
+    Awesome Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-vs-kubernetes" class="md-nav__link">
+    Docker VS Kubernetes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-patterns-and-antipatterns" class="md-nav__link">
+    Docker Patterns and Antipatterns
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-security" class="md-nav__link">
+    Docker Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently" class="md-nav__link">
+    How To Build a Smaller Docker Image and write dockerfiles efficiently
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reducing-build-time" class="md-nav__link">
+    Reducing Build Time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modify-containers-without-rebuilding" class="md-nav__link">
+    Modify containers without rebuilding
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-tools" class="md-nav__link">
+    Docker Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-and-wsl2" class="md-nav__link">
+    Docker and WSL2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-and-docker-swarm-cheat-sheets" class="md-nav__link">
+    Docker and Docker Swarm Cheat sheets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    Docker Compose
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moving-linux-services-into-containers" class="md-nav__link">
+    Moving Linux Services Into Containers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-containers" class="md-nav__link">
+    Windows Containers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portainer" class="md-nav__link">
+    Portainer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dockstation" class="md-nav__link">
+    DockStation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-container-base-images" class="md-nav__link">
+    Linux Container Base Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    Blogs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-buildpacks" class="md-nav__link">
+    Cloud Native Buildpacks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building" class="md-nav__link">
+    Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos-and-podcasts" class="md-nav__link">
+    Videos and Podcasts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    Tweets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_8" tabindex="0" aria-expanded="false">
+          K8s
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="K8s" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          K8s
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tutorials/" class="md-nav__link">
+        Kubernetes Tutorials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tools/" class="md-nav__link">
+        Kubernetes Plugins, Tools, Extensions and Projects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubectl-commands/" class="md-nav__link">
+        kubectl Commands
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-networking/" class="md-nav__link">
+        Kubernetes Networking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-monitoring/" class="md-nav__link">
+        Kubernetes Monitoring and Logging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-security/" class="md-nav__link">
+        Kubernetes Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-storage/" class="md-nav__link">
+        Kubernetes Storage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-backup-migrations/" class="md-nav__link">
+        Kubernetes Backup and Migrations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-autoscaling/" class="md-nav__link">
+        Kubernetes Autoscaling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-operators-controllers/" class="md-nav__link">
+        Kubernetes Operators and Controllers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-based-devel/" class="md-nav__link">
+        Kubernetes Based Development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-on-premise/" class="md-nav__link">
+        Kubernetes On Premise
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../managed-kubernetes-in-public-cloud/" class="md-nav__link">
+        Managed kubernetes in public clouds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-troubleshooting/" class="md-nav__link">
+        Kubernetes Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-releases/" class="md-nav__link">
+        Kubernetes Releases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-newsletters/" class="md-nav__link">
+        Kubernetes Newsletters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matrix-table/" class="md-nav__link">
+        Kubernetes Distributions & Installers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-bigdata/" class="md-nav__link">
+        Kubernetes Big Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-alternatives/" class="md-nav__link">
+        Kubernetes alternatives
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9" tabindex="0" aria-expanded="false">
+          OpenShift
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="OpenShift" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          OpenShift
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift/" class="md-nav__link">
+        OpenShift docs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp3/" class="md-nav__link">
+        OCP 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp4/" class="md-nav__link">
+        OCP 4
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_10" tabindex="0" aria-expanded="false">
+          Rancher
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Rancher" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Rancher
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rancher/" class="md-nav__link">
+        Rancher - Enterprise management for Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11" tabindex="0" aria-expanded="false">
+          CI/CD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="CI/CD" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          CI/CD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd/" class="md-nav__link">
+        CI/CD - Continuous Integration & Continuous Delivery
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git/" class="md-nav__link">
+        Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins/" class="md-nav__link">
+        Jenkins & Cloudbees
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift-pipelines/" class="md-nav__link">
+        OpenShift Pipelines with Jenkins, Tekton and more...
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_11_7" type="checkbox" id="__nav_11_7" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11_7" tabindex="0" aria-expanded="false">
+          DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_7">
+          <span class="md-nav__icon md-icon"></span>
+          DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops-tools/" class="md-nav__link">
+        DevOps Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins-alternatives/" class="md-nav__link">
+        Jenkins Alternatives for Continuous Integration & Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../argo/" class="md-nav__link">
+        Argo - Declarative GitOps for Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flux/" class="md-nav__link">
+        Flux CD - The GitOps Operator for Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tekton/" class="md-nav__link">
+        Tekton - Cloud Native CI/CD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keptn/" class="md-nav__link">
+        Keptn
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container-managers/" class="md-nav__link">
+        Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maven-gradle/" class="md-nav__link">
+        Maven, Gradle & SDKMAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sonarqube/" class="md-nav__link">
+        SonarQube
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../registries/" class="md-nav__link">
+        Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux/" class="md-nav__link">
+        Linux & SSH
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        MkDocs & GitHub Pages
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_11_8" type="checkbox" id="__nav_11_8" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11_8" tabindex="0" aria-expanded="false">
+          Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_8">
+          <span class="md-nav__icon md-icon"></span>
+          Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web-servers/" class="md-nav__link">
+        Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_app_servers/" class="md-nav__link">
+        Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embedded-servlet-containers/" class="md-nav__link">
+        Embedded Servlet Containers in SpringBoot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caching/" class="md-nav__link">
+        Caching Solutions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_12" tabindex="0" aria-expanded="false">
+          Montrg
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Montrg" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Montrg
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/" class="md-nav__link">
+        Monitoring and Performance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prometheus/" class="md-nav__link">
+        Prometheus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grafana/" class="md-nav__link">
+        Grafana
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_13" tabindex="0" aria-expanded="false">
+          Infra Prov
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Infra Prov" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          Infra Prov
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iac/" class="md-nav__link">
+        IaC Infrastructure as Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terraform/" class="md-nav__link">
+        Terraform & Packer.Kubernetes Boilerplates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pulumi/" class="md-nav__link">
+        Pulumi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crossplane/" class="md-nav__link">
+        Crossplane
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-arch-diagrams/" class="md-nav__link">
+        Cloud Architecture Diagram Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-asset-inventory/" class="md-nav__link">
+        Cloud Asset Inventory
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_14" tabindex="0" aria-expanded="false">
+          Config Mgmt
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Config Mgmt" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          Config Mgmt
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ansible/" class="md-nav__link">
+        Ansible
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helm/" class="md-nav__link">
+        Helm Kubernetes Tool
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kustomize/" class="md-nav__link">
+        Kustomize - Template-Free Kubernetes Configuration Customization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stackstorm/" class="md-nav__link">
+        StackStorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chef/" class="md-nav__link">
+        Chef
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd-kubernetes-plugins/" class="md-nav__link">
+        CI/CD Kubernetes Plugins
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-client-libraries/" class="md-nav__link">
+        Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liquibase/" class="md-nav__link">
+        Database Version Control. Liquibase, Flyway and PlanetScale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yaml/" class="md-nav__link">
+        YAML and JSON
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_15" tabindex="0" aria-expanded="false">
+          DB
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DB" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          DB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../databases/" class="md-nav__link">
+        Relational Databases and Database DevOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crunchydata/" class="md-nav__link">
+        Crunchy Data PostgreSQL Operator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nosql/" class="md-nav__link">
+        NoSQL Databases
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../message-queue/" class="md-nav__link">
+        Data Pipeline
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_17" type="checkbox" id="__nav_17" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_17" tabindex="0" aria-expanded="false">
+          Service Mesh
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Service Mesh" data-md-level="1">
+        <label class="md-nav__title" for="__nav_17">
+          <span class="md-nav__icon md-icon"></span>
+          Service Mesh
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicemesh/" class="md-nav__link">
+        Service Mesh
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../istio/" class="md-nav__link">
+        Istio
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_18" type="checkbox" id="__nav_18" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_18" tabindex="0" aria-expanded="false">
+          Demos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Demos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_18">
+          <span class="md-nav__icon md-icon"></span>
+          Demos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demos/" class="md-nav__link">
+        Demos, Boilerplates & Screencasts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_19" type="checkbox" id="__nav_19" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_19" tabindex="0" aria-expanded="false">
+          Cloud
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cloud" data-md-level="1">
+        <label class="md-nav__title" for="__nav_19">
+          <span class="md-nav__icon md-icon"></span>
+          Cloud
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../public-cloud-solutions/" class="md-nav__link">
+        Public Cloud Solutions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../private-cloud-solutions/" class="md-nav__link">
+        Private Cloud Solutions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edge-computing/" class="md-nav__link">
+        Edge Computing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_19_4" type="checkbox" id="__nav_19_4" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_19_4" tabindex="0" aria-expanded="false">
+          AWS Cloud
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="AWS Cloud" data-md-level="2">
+        <label class="md-nav__title" for="__nav_19_4">
+          <span class="md-nav__icon md-icon"></span>
+          AWS Cloud
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws/" class="md-nav__link">
+        AWS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-miscellaneous/" class="md-nav__link">
+        AWS Miscellaneous
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-architecture/" class="md-nav__link">
+        AWS Architecture and Best Practices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-networking/" class="md-nav__link">
+        AWS Networking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-databases/" class="md-nav__link">
+        AWS Databases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-storage/" class="md-nav__link">
+        AWS Storage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-security/" class="md-nav__link">
+        AWS Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-monitoring/" class="md-nav__link">
+        AWS Monitoring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-iac/" class="md-nav__link">
+        AWS IaC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-tools-scripts/" class="md-nav__link">
+        AWS Tools Scripts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-messaging/" class="md-nav__link">
+        AWS Messaging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-data/" class="md-nav__link">
+        AWS Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-devops/" class="md-nav__link">
+        AWS DevOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-serverless/" class="md-nav__link">
+        AWS Serverless
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-pricing/" class="md-nav__link">
+        AWS Pricing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-containers/" class="md-nav__link">
+        AWS Containers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-backup/" class="md-nav__link">
+        AWS Backup and Migrations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-training/" class="md-nav__link">
+        AWS Training and Certification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-newfeatures/" class="md-nav__link">
+        AWS New Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-spain/" class="md-nav__link">
+        AWS Spain
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../azure/" class="md-nav__link">
+        Microsoft Azure
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GoogleCloudPlatform/" class="md-nav__link">
+        Google Cloud Platform
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ibm_cloud/" class="md-nav__link">
+        IBM & IBM Cloud
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oraclecloud/" class="md-nav__link">
+        Oracle Cloud
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digitalocean/" class="md-nav__link">
+        Digital Ocean
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloudflare/" class="md-nav__link">
+        Cloudflare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaleway/" class="md-nav__link">
+        Scaleway
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_20" type="checkbox" id="__nav_20" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_20" tabindex="0" aria-expanded="false">
+          APIs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="APIs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_20">
+          <span class="md-nav__icon md-icon"></span>
+          APIs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        APIs with SOAP, REST and gRPC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../swagger-code-generator-for-rest-apis/" class="md-nav__link">
+        Swagger code generator for REST APIs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../postman/" class="md-nav__link">
+        API Test Automation with Postman and REST Assured
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developerportals/" class="md-nav__link">
+        API Marketplaces. API Management with API Gateways & Developer Portals
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_21" type="checkbox" id="__nav_21" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_21" tabindex="0" aria-expanded="false">
+          Dev
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dev" data-md-level="1">
+        <label class="md-nav__title" for="__nav_21">
+          <span class="md-nav__icon md-icon"></span>
+          Dev
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devel-sites/" class="md-nav__link">
+        Websites for web developers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../angular/" class="md-nav__link">
+        Angular
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dom/" class="md-nav__link">
+        Document Object Model (DOM)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golang/" class="md-nav__link">
+        Golang
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript/" class="md-nav__link">
+        JavaScript - node.js & npm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/" class="md-nav__link">
+        Python - Django & Flask
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../react/" class="md-nav__link">
+        React
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lowcode-nocode/" class="md-nav__link">
+        Low Code and No Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web3/" class="md-nav__link">
+        Web 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_21_10" type="checkbox" id="__nav_21_10" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_21_10" tabindex="0" aria-expanded="false">
+          Microsoft
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Microsoft" data-md-level="2">
+        <label class="md-nav__title" for="__nav_21_10">
+          <span class="md-nav__icon md-icon"></span>
+          Microsoft
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dotnet/" class="md-nav__link">
+        Microsoft .NET
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xamarin/" class="md-nav__link">
+        Microsoft Xamarin
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_21_11" type="checkbox" id="__nav_21_11" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_21_11" tabindex="0" aria-expanded="false">
+          Java
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Java" data-md-level="2">
+        <label class="md-nav__title" for="__nav_21_11">
+          <span class="md-nav__icon md-icon"></span>
+          Java
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_frameworks/" class="md-nav__link">
+        Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java-and-java-performance-optimization/" class="md-nav__link">
+        Java Memory Management & Java Performance Optimization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jvm-parameters-matrix-table/" class="md-nav__link">
+        Java Parameters Matrix Table
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_21_12" type="checkbox" id="__nav_21_12" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_21_12" tabindex="0" aria-expanded="false">
+          Dev Environment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dev Environment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_21_12">
+          <span class="md-nav__icon md-icon"></span>
+          Dev Environment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-studio/" class="md-nav__link">
+        Visual Studio Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-dev-env/" class="md-nav__link">
+        WSL - Linux Dev Environment on Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaffolding/" class="md-nav__link">
+        Scaffolding Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ChromeDevTools/" class="md-nav__link">
+        Chrome & Firefox DevTools. HTTP Protocols & WebSockets
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_22" type="checkbox" id="__nav_22" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_22" tabindex="0" aria-expanded="false">
+          QA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="QA" data-md-level="1">
+        <label class="md-nav__title" for="__nav_22">
+          <span class="md-nav__icon md-icon"></span>
+          QA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qa/" class="md-nav__link">
+        QA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testops/" class="md-nav__link">
+        TestOps and Continuous Testing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test-automation-frameworks/" class="md-nav__link">
+        Test Automation Frameworks and BDD
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_23" type="checkbox" id="__nav_23" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_23" tabindex="0" aria-expanded="false">
+          AI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="AI" data-md-level="1">
+        <label class="md-nav__title" for="__nav_23">
+          <span class="md-nav__icon md-icon"></span>
+          AI
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        AI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        MLOps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chatgpt/" class="md-nav__link">
+        ChatGPT
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_24" type="checkbox" id="__nav_24" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_24" tabindex="0" aria-expanded="false">
+          Project Mgmt
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Project Mgmt" data-md-level="1">
+        <label class="md-nav__title" for="__nav_24">
+          <span class="md-nav__icon md-icon"></span>
+          Project Mgmt
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-methodology/" class="md-nav__link">
+        Project Management Methodology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-tools/" class="md-nav__link">
+        Project Management Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appointment-scheduling/" class="md-nav__link">
+        Appointment Scheduling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workfromhome/" class="md-nav__link">
+        Work From Home
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_25" type="checkbox" id="__nav_25" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_25" tabindex="0" aria-expanded="false">
+          Refs+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Refs+" data-md-level="1">
+        <label class="md-nav__title" for="__nav_25">
+          <span class="md-nav__icon md-icon"></span>
+          Refs+
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-awesome-lists/" class="md-nav__link">
+        Other Awesome Lists
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interview-questions/" class="md-nav__link">
+        Interview Questions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../newsfeeds/" class="md-nav__link">
+        Subreddits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elearning/" class="md-nav__link">
+        E-Learning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-money/" class="md-nav__link">
+        Digital Money
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_26" type="checkbox" id="__nav_26" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_26" tabindex="0" aria-expanded="false">
+          Hiring
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hiring" data-md-level="1">
+        <label class="md-nav__title" for="__nav_26">
+          <span class="md-nav__icon md-icon"></span>
+          Hiring
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recruitment/" class="md-nav__link">
+        Recruitment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hr/" class="md-nav__link">
+        Human Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freelancing/" class="md-nav__link">
+        Freelancing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remote-tech-jobs/" class="md-nav__link">
+        Remote Tech Jobs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customer/" class="md-nav__link">
+        Clients
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="docker">Docker</h1>
+<ol>
+<li><a href="#introduction-and-tutorials">Introduction and Tutorials</a></li>
+<li><a href="#docker-best-practices">Docker Best Practices</a></li>
+<li><a href="#docker-networking">Docker Networking</a></li>
+<li><a href="#docker-volumes">Docker Volumes</a></li>
+<li><a href="#debugging">Debugging</a></li>
+<li><a href="#docker-cli">Docker CLI</a></li>
+<li><a href="#docker-extensions">Docker Extensions</a></li>
+<li><a href="#docker-swarm">Docker Swarm</a></li>
+<li><a href="#awesome-lists">Awesome Lists</a></li>
+<li><a href="#docker-vs-kubernetes">Docker VS Kubernetes</a></li>
+<li><a href="#docker-patterns-and-antipatterns">Docker Patterns and Antipatterns</a></li>
+<li><a href="#docker-security">Docker Security</a></li>
+<li><a href="#how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently">How To Build a Smaller Docker Image and write dockerfiles efficiently</a></li>
+<li><a href="#reducing-build-time">Reducing Build Time</a></li>
+<li><a href="#modify-containers-without-rebuilding">Modify containers without rebuilding</a></li>
+<li><a href="#docker-tools">Docker Tools</a></li>
+<li><a href="#docker-and-wsl2">Docker and WSL2</a></li>
+<li><a href="#docker-and-docker-swarm-cheat-sheets">Docker and Docker Swarm Cheat sheets</a></li>
+<li><a href="#docker-compose">Docker Compose</a></li>
+<li><a href="#moving-linux-services-into-containers">Moving Linux Services Into Containers</a></li>
+<li><a href="#windows-containers">Windows Containers</a></li>
+<li><a href="#portainer">Portainer</a></li>
+<li><a href="#dockstation">DockStation</a></li>
+<li><a href="#linux-container-base-images">Linux Container Base Images</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#cloud-native-buildpacks">Cloud Native Buildpacks</a></li>
+<li><a href="#alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building">Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building</a></li>
+<li><a href="#videos-and-podcasts">Videos and Podcasts</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction-and-tutorials">Introduction and Tutorials</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Docker_(software)">Wikipedia.org: Docker</a></li>
+<li><a href="https://dzone.com/refcardz/getting-started-with-docker-1">Dzone refcard: Getting Started with Docker</a></li>
+<li><a href="https://dzone.com/refcardz/java-containerization">Dzone refcard: Java Containerization 🌟</a></li>
+<li><a href="https://americanexpress.io/do-not-run-dockerized-applications-as-root/">americanexpress.io: <strong>Do Not Run Dockerized Applications as Root</strong> 🌟</a></li>
+<li><a href="https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec">medium.com: Removing Docker Images, Containers, and Volumes with Ease</a></li>
+<li><a href="https://medium.freecodecamp.com/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b">medium.freecodecamp.com: A Beginner-Friendly Introduction to Containers, VMs and Docker</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.LearningSolution.LearnDocker&amp;hl=en">Google Play: Learning Solution - Learn Docker 🌟</a></li>
+<li><a href="https://labs.play-with-docker.com/">Play with docker 🌟</a> A simple, interactive and fun playground to learn Docker</li>
+<li><a href="https://medium.com/sciforce/strategies-of-docker-images-optimization-2ca9cc5719b6">medium: Strategies of docker images optimization</a></li>
+<li><a href="https://dzone.com/articles/docker-explained-an-introductory-guide-to-docker">Dzone: Docker explained, an introductory guide to docker</a></li>
+<li><a href="https://dzone.com/articles/everything-you-need-to-know-about-docker">Dzone: everything you need to know about docker</a></li>
+<li><a href="https://dzone.com/articles/a-start-to-finish-guide-to-docker-with-java">Dzone: a start to finish guide to docker with java</a></li>
+<li><a href="https://github.com/docker/build-push-action"><strong>GitHub build-push-action</strong></a> Build+push official Docker GitHub action</li>
+<li><a href="https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598">itnext.io: Getting Started with Docker: Facts You Should Know 🌟</a></li>
+<li><a href="https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/">jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟</a></li>
+<li><a href="https://pythonspeed.com/articles/dockerizing-python-is-hard/">Broken by default: why you should avoid most Dockerfile example 🌟</a></li>
+<li><a href="https://geekflare.com/docker-tutorials/">geekflare.com: docker tutorials</a></li>
+<li><a href="https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db">medium: What is Docker, Why should you use it in simple words</a></li>
+<li><a href="https://www.docker.com/blog/top-questions-for-getting-started-with-docker/">docker.com: Top Questions for Getting Started with Docker 🌟</a></li>
+<li><a href="https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c">medium: How to Start Working With Docker Containers</a></li>
+<li><a href="https://dzone.com/articles/mitigating-devops-repository-risks">dzone: Mitigating DevOps Repository Risks</a> Docker is in the news for two reasons: Image retention limits and download throttling. Let&rsquo;s discuss both and see the better alternatives.</li>
+<li><a href="https://automationreinvented.blogspot.com/2020/02/top-18-docker-commands-for-aytomation.html">Top 18 Docker commands for Automation Tester/Devops/SDET/Test Lead? 🌟</a></li>
+<li><a href="https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/">A Gentle Introduction to Using a Docker Container as a Dev Environment 🌟</a></li>
+<li><a href="https://docs.docker.com/engine/context/ecs-integration/">docs.docker.com: Deploying Docker containers on ECS</a><ul>
+<li><a href="https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience/">AWS and Docker collaborate to simplify the developer experience</a></li>
+<li><a href="https://www.docker.com/blog/from-docker-straight-to-aws/">From Docker Straight to AWS</a></li>
+</ul>
+</li>
+<li><a href="https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/">A Gentle Introduction to Using a Docker Container as a Dev Environment</a></li>
+<li><a href="https://martinheinz.dev/blog/35">martinheinz.dev: It&rsquo;s Time to Forget About Docker 🌟</a></li>
+<li><a href="https://www.docker.com/blog/docker-hub-experimental-cli-tool/">docker.com: Docker Hub Experimental CLI tool</a></li>
+<li><a href="https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-1/">docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 1 🌟</a></li>
+<li><a href="https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2/">docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 2 🌟</a></li>
+<li><a href="https://www.adictosaltrabajo.com/2020/12/22/como-crear-y-desplegar-microservicios-con-spring-boot-spring-cloud-netflix-y-docker/">adictosaltrabajo.com: Cómo crear y desplegar microservicios con Spring Boot, Spring Cloud Netflix y Docker</a></li>
+<li><a href="https://www.cloudsavvyit.com/9033/how-to-use-cron-with-your-docker-containers/">cloudsavvyit.com: How to Use Cron With Your Docker Containers</a></li>
+<li><a href="https://www.infoq.com/news/2021/01/docker-jfrog-partnership/">infoq.com: Docker Hub and JFrog Partnership Removes Image Pull Limits for Artifactory Users</a></li>
+<li><a href="https://technology.doximity.com/articles/buildpacks-vs-dockerfiles">technology.doximity.com: Buildpacks vs Dockerfiles 🌟</a> Exploring the tradeoffs of building container images at scale</li>
+<li><a href="https://www.docker.com/blog/containerized-python-development-part-1/">docker.com: Containerized Python Development – Part 1</a><ul>
+<li><a href="https://www.docker.com/blog/containerized-python-development-part-2/">docker.com: Containerized Python Development – Part 2</a></li>
+<li><a href="https://www.docker.com/blog/containerized-python-development-part-3/">docker.com: Containerized Python Development – Part 3</a></li>
+</ul>
+</li>
+<li><a href="https://pythonspeed.com/articles/security-updates-in-docker/">pythonspeed.com: The worst so-called “best practice” for Docker</a></li>
+<li><a href="https://developers.redhat.com/blog/2021/03/04/making-environment-variables-accessible-in-front-end-containers/">developers.redhat.com: Making environment variables accessible in front-end containers</a></li>
+<li><a href="https://towardsdatascience.com/docker-101-ee3d2b8ace11">towardsdatascience.com: Have you heard about our lord and savior Docker?</a> Introduction to working with Docker and creating your own development environment</li>
+<li><a href="https://medium.com/analytics-vidhya/dockerizing-a-rest-api-in-python-less-than-9-mb-and-based-on-scratch-image-ef0ee3ad3f0a">medium: Dockerizing a REST API in Python Less Than 9 MB and Based on scratch Image</a></li>
+<li><a href="https://www.datamechanics.co/blog-post/optimized-spark-docker-images-now-available">datamechanics.co: Optimized Apache Spark Docker Images</a></li>
+<li><a href="https://www.theskillpedia.com/managing-docker-images-openshift-tutorial/">theskillpedia.com: Managing docker images - openshift tutorial</a></li>
+<li><a href="https://iximiuz.com/en/posts/container-networking-is-simple/">iximiuz.com: Container Networking Is Simple!</a></li>
+<li><a href="https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications/">r-bloggers.com: Dockerizing Shiny Applications</a></li>
+<li><a href="https://pythonspeed.com/articles/docker-performance-overhead/">pythonspeed.com: Docker can slow down your code and distort your benchmarks</a></li>
+<li><a href="https://turbofuture.com/computers/introductiontodocker">turbofuture.com: A Beginners Guide to Containers and Docker</a></li>
+<li><a href="https://releasehub.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes">releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver</a></li>
+<li><a href="https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64">medium.com/nttlabs: Kubernetes driver for Docker BuildX</a> In this article, you will learn how Docker BuildX supports building images using BuildKit pods on a Kubernetes cluster. Docker BuildX, the extended version of docker build CLI, now supports distributed image building using Kubernetes!</li>
+<li><a href="https://www.linuxadictos.com/docker-presenta-nuevas-capacidades-para-desarrolladores.html">linuxadictos.com: Docker presenta nuevas capacidades para desarrolladores</a></li>
+<li><a href="https://grafana.com/docs/grafana-cloud/reference/integrations/integration-docker/">grafana.com: Docker Integration for Grafana Cloud</a> Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.</li>
+<li><a href="https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7">dev.to: Docker CMD vs ENTRYPOINT: explaining the difference</a></li>
+<li><a href="https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/">blog.gougousis.net: File Permissions: the painful side of Docker 🌟</a><ul>
+<li><a href="https://twitter.com/agarcia">&ldquo;Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)&rdquo;</a></li>
+</ul>
+</li>
+<li><a href="https://www.katacoda.com/courses/docker">katacoda.com: Learn Docker &amp; Containers using Interactive Browser-Based Scenarios 🌟</a></li>
+<li><a href="https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad">medium: Push Docker Image To Docker Hub</a> Create Docker hub account and push Docker image.</li>
+<li><a href="https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker">blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟</a></li>
+<li><a href="https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/">returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure</a></li>
+<li><a href="https://dev.to/kubona_my/docker-101-124e">dev.to: Docker 101!</a></li>
+<li><a href="https://pawelurbanek.com/asdf-docker-development">pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies</a></li>
+<li><a href="https://www.tecmint.com/install-docker-in-rocky-linux-and-almalinux/">tecmint.com: How to Install Docker on Rocky Linux and AlmaLinux</a></li>
+<li><a href="https://blog.adoptium.net/2021/08/using-jlink-in-dockerfiles/">blog.adoptium.net: Using Jlink in Dockerfiles instead of a JRE</a></li>
+<li><a href="https://www.cloudsavvyit.com/13937/how-to-ssh-into-a-docker-container/">cloudsavvyit.com: How to SSH into a Docker container</a></li>
+<li><a href="https://www.cloudsavvyit.com/13987/how-to-use-docker-cp-to-copy-files-between-host-and-containers/">cloudsavvyit.com: How to use docker cp to copy files between host and containers</a></li>
+<li><a href="https://www.baeldung.com/docker-deploy-java-war">baeldung.com: Deploying a Java War in a Docker Container</a></li>
+<li><a href="https://www.returngis.net/2021/08/explorar-graficamente-el-contenido-de-un-volumen-de-docker/">returngis.net: Explorar gráficamente el contenido de un volumen de Docker</a></li>
+<li><a href="https://opensource.com/article/21/8/container-image">opensource.com: What is a container image?</a> A container image contains a packaged application, along with its dependencies, and information on what processes it runs when launched.</li>
+<li><a href="https://www.zdnet.com/article/docker-changes-its-subscription-plans-usage-rules-and-product-line/">zdnet.com: Docker changes its subscription plans, usage rules, and product line</a></li>
+<li><a href="https://www.servethehome.com/docker-abruptly-starts-charging-many-users-for-docker-desktop/">servethehome.com: Docker Abruptly Starts Charging Many Users for Docker Desktop</a></li>
+<li><a href="https://matt-rickard.com/docker-desktop-alternatives/">matt-rickard.com: An Overview of Docker Desktop Alternatives</a></li>
+<li><a href="https://blog.aquasec.com/container-isolation-techniques">blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques</a></li>
+<li><a href="https://www.infoworld.com/article/3632142/how-docker-broke-in-half.html">infoworld.com: How Docker broke in half</a> The game changing container company is a shell of its former self. What happened to one of the hottest enterprise technology businesses of the cloud era?</li>
+<li><a href="https://www.cloudsavvyit.com/14081/how-to-pass-environment-variables-to-docker-containers/">cloudsavvyit.com: How to Pass Environment Variables to Docker Containers</a></li>
+<li><a href="https://dev.to/tylerlwsmith/one-does-not-just-containerize-an-app-5eae">dev.to: One does not &ldquo;just containerize&rdquo; an app</a><ul>
+<li>The Docker ecosystem is filled with leaky abstractions. The utopian vision of Docker containers is a world where a developer can grab a base container for a language, copy in their code with a minimal Dockerfile, and be ready to develop and deploy instantly.</li>
+<li>Unfortunately, this landscape is filled with per-language gotchas that make this world a far cry from reality. Here are some of the wonky things I&rsquo;ve run into when working with containers.</li>
+</ul>
+</li>
+<li><a href="https://www.cloudsavvyit.com/14191/how-to-clean-up-and-delete-docker-images/">cloudsavvyit.com: How To Clean Up and Delete Docker Images</a></li>
+<li><a href="https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535"><mark>itnext.io: Software development in containers — a cookbook</mark> 🌟🌟🌟</a> A guide to developing containerized software</li>
+<li><a href="https://dev.to/abdorah/how-to-create-production-docker-image-ready-for-deployment-4bbe">dev.to: How to create a production Docker image</a></li>
+<li><a href="https://dev.to/_nicolas_louis_/how-to-run-docker-on-windows-without-docker-desktop-hik">dev.to: How to run docker on Windows without Docker Desktop</a></li>
+<li><a href="https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75">dev.to: Beginner&rsquo;s guide to Docker and Docker CLI commands</a></li>
+<li><a href="https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud/">freecodecamp.org: Learn How to Deploy 12 Apps to AWS, Azure, &amp; Google Cloud</a></li>
+<li><a href="https://www.cloudsavvyit.com/14508/how-to-assign-a-static-ip-to-a-docker-container/">cloudsavvyit.com: How to Assign a Static IP to a Docker Container</a></li>
+<li><a href="https://www.cloudsavvyit.com/14663/how-to-inspect-a-docker-images-content-without-starting-a-container/">cloudsavvyit.com: How to Inspect a Docker Image’s Content Without Starting a Container</a></li>
+<li><a href="https://www.freecodecamp.org/news/why-you-should-start-using-docker-now/">freecodecamp.org: Why You Should Start Using Docker Right Now</a></li>
+<li><a href="https://www.infoworld.com/article/3639596/docker-really-did-change-the-world.html">infoworld.com: Docker really did change the world</a> Developers quickly understood the value of containers for building cloud-native applications, and that the Docker command-line tool was better than all of the bells and whistles they got with PaaS.</li>
+<li><a href="https://www.cloudsavvyit.com/14890/how-and-why-to-run-docker-inside-docker/">cloudsavvyit.com: How (and Why) to Run Docker Inside Docker</a></li>
+<li><a href="https://www.cloudsavvyit.com/14880/whats-the-difference-between-exposing-and-publishing-a-docker-port/">cloudsavvyit.com: What’s the Difference Between Exposing and Publishing a Docker Port?</a></li>
+<li><a href="https://clavinjune.dev/en/blogs/working-with-remote-docker-using-docker-context/"><mark>clavinjune.dev: Working With Remote Docker Using Docker Context</mark></a> This is a cheatsheet for working with docker context to connect remote docker locally. Might help you to work with remote docker without manually SSH to the remote server.</li>
+<li><a href="https://www.cloudsavvyit.com/14973/how-to-add-a-volume-to-an-existing-docker-container/">cloudsavvyit.com: How to Add a Volume to an Existing Docker Container</a></li>
+<li><a href="https://www.cloudsavvyit.com/15066/how-to-manage-docker-engine-plugins">cloudsavvyit.com: How to Manage Docker Engine Plugins</a></li>
+<li><a href="https://iximiuz.com/en/posts/container-learning-path/"><mark>iximiuz.com: Learning Containers From The Bottom Up</mark> | Ivan Velichko 🌟🌟🌟</a> Efficient Learning Path to Grasp Containers Fundamentals</li>
+<li><a href="https://thenewstack.io/the-time-to-decide-on-docker-desktop-has-arrived/">thenewstack.io: The Time to Decide on Docker Desktop Has Arrived</a></li>
+<li><a href="https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python">codeproject.com: How to Create an Image in Docker using Python</a></li>
+<li><a href="https://thenewstack.io/how-to-share-data-between-docker-containers/">thenewstack.io: How to Share Data Between Docker Containers</a></li>
+<li><a href="https://iximiuz.com/en/posts/containers-101-attach-vs-exec/">iximiuz.com: Containers 101: attach vs. exec - what&rsquo;s the difference?</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/docker-copy-vs-add-whats-the-difference">acloudguru.com: Docker COPY vs ADD: What’s the difference?</a></li>
+<li><a href="https://thenewstack.io/how-to-run-docker-in-rootless-mode/">thenewstack.io: How to Run Docker in Rootless Mode</a></li>
+<li><a href="https://mjovanc.com/get-started-with-docker-and-docker-compose-cddcb5a3f3b9">mjovanc.com: Get started with Docker and Docker Compose</a></li>
+<li><a href="https://dev.to/dhravya/docker-explained-to-a-5-year-old-2cbg">dev.to: Docker: Explained to a 5 year old. 👶🏻</a></li>
+<li><a href="https://nishnit007.medium.com/a-journey-from-dockerfile-to-application-deployment-on-kubernetes-for-beginners-fea1eb0f3581">nishnit007.medium.com: A Journey from Dockerfile to Application Deployment on Kubernetes For Beginners</a></li>
+<li><a href="https://www.freecodecamp.org/news/docker-cache-tutorial/">freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker&rsquo;s Cache</a></li>
+<li><a href="https://dev.to/signoz/docker-101-introduction-to-docker-1kbm"><mark>dev.to: Docker 101: Introduction to Docker</mark></a></li>
+<li><a href="https://blog.devgenius.io/k8s-advanced-container-knowledge-fcc45a2f6db8">blog.devgenius.io: K8s — Advanced Container Knowledge</a></li>
+<li><a href="https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650">medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques You Need</a></li>
+<li><a href="https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx">kubesimplify.com: The secret gems behind building container images, Enter: BuildKit &amp; Docker Buildx</a></li>
+<li><a href="https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a">medium.com/geekculture: Docker — Limit Container CPU Usage 🌟</a></li>
+<li><a href="https://devtron.ai/blog/cmd-and-entrypoint-differences/">devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker</a></li>
+<li><a href="https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372">fatehmuhammad.medium.com: Introduction to Docker | part 1</a></li>
+<li><a href="https://cloudnativeislamabad.hashnode.dev/introduction-to-docker-part-1">cloudnativeislamabad.hashnode.dev: Introduction to Docker | part 1 🌟</a></li>
+<li><a href="https://docker-curriculum.com/"><mark>docker-curriculum.com: A Docker Tutorial for Beginners 🌟</mark></a></li>
+<li><a href="https://www.hostinger.in/tutorials/what-is-docker">hostinger.in: What Is Docker and How Does It Work? – Docker Explained</a></li>
+<li><a href="https://blog.devgenius.io/container-namespace-introduction-6a1e26f8707a">blog.devgenius.io: Container — Namespace Introduction</a> Introduction to common container namespaces</li>
+<li><a href="https://viblo.asia/p/how-to-prevent-out-of-disk-space-when-using-docker-english-WR5JRDBrVGv">viblo.asia: How to prevent out-of-disk space when using Docker?</a></li>
+<li><a href="https://iximiuz.com/en/posts/docker-publish-container-ports/">iximiuz.com: What Actually Happens When You Publish a Container Port 🌟</a> &ldquo;Port publishing&rdquo; seems to be a term coined by Docker. But &ldquo;port forwarding&rdquo; aka &ldquo;port mapping - as a form of socket redirection - was a well-known trick well before the invention of containers. How are the two different?</li>
+<li><a href="https://iximiuz.com/en/posts/docker-publish-port-of-running-container/">iximiuz.com: How To Publish a Port of a Running Container 🌟</a></li>
+<li><a href="https://medium.com/@BeNitinAgarwal/lifecycle-of-docker-container-d2da9f85959">medium.com/@BeNitinAgarwal: Lifecycle of Docker Container</a></li>
+<li><a href="https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation/">docker.com: Docker Compose: What’s New, What’s Changing, What’s Next</a></li>
+<li><a href="https://medium.com/@i180826/using-docker-to-build-react-app-49862615e6f8">medium.com/@i180826: Using Docker to build React App</a></li>
+<li><a href="https://dev.to/kameshsampath/simplify-your-dockerfile-1j5k">dev.to: Simplify Your Dockerfile wiyth Rust programming language| Kamesh Sampath</a></li>
+<li><a href="https://www.itprotoday.com/it-operations/docker-still-worth-learning-it-operations-teams-probably-not">itprotoday.com: Is Docker Still Worth Learning for IT Operations Teams? Probably Not</a> While Docker isn&rsquo;t dead, Docker tooling may be. Here&rsquo;s why learning Docker tools isn&rsquo;t as important as it once was, especially for ITOps teams.</li>
+<li><a href="https://kennybrast.medium.com/how-i-used-docker-to-create-a-python-dev-environment-48a5d31ae277">kennybrast.medium.com: How I Used Docker to Create a Python Dev Environment</a></li>
+<li><a href="https://www.youtube.com/watch?v=0mxhS7H6bxM"><mark>youtube: Docker 101 (Workshop) how an application can be run using Docker containers. First, you&rsquo;ll learn how to take an application all the way from source code to a running container. Docker-compose, networking, multi-stage and more</mark> 🌟</a></li>
+<li><a href="https://www.codementor.io/blog/docker-technology-5x1kilcbow">codementor.io: Docker: What&rsquo;s Under the Hood?</a> How does Docker work? Get a better understanding of the skeleton of Docker, Virtualization, and future development</li>
+<li><a href="https://dev.to/javinpaul/my-favorite-free-courses-to-learn-docker-and-containers-in-2023-1ldo">dev.to/javinpaul: My Favorite Free Courses to Learn Docker and Containers in 2023</a></li>
+<li><a href="https://tonylixu.medium.com/docker-run-vs-cmd-vs-entrypoint-57f248b95889">tonylixu.medium.com: Docker RUN vs CMD vs ENTRYPOINT</a> Differences between three Docker build instructions</li>
+<li><a href="https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b"><mark>dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide</mark></a> By adopting CI/CD, you can ensure your code is consistently tested &amp; validated, reducing the likelihood of introducing errors and increasing overall software quality.</li>
+<li><a href="https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45"><mark>dev.to: Docker : From Zero to Hero 🛸 ( part 1) | Prasenjeet Kumar</mark></a> Docker is a tool that allows you to package, distribute and run apps as containers. It provides an efficient &amp; consistent way to deploy apps across different environments, from dev to prod.</li>
+<li><a href="https://dzone.com/articles/components-of-container-management">dzone: Components of Container Management</a> Strategizing beyond build and run: Explore the benefits of containers that are widely evident around the cloud-native world and its modernization journey.</li>
+<li><a href="https://devopscube.com/build-docker-image/">devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide</a></li>
+</ul>
+<h2 id="docker-best-practices">Docker Best Practices</h2>
+<ul>
+<li><a href="https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/">blog.docker.com: Intro Guide to Dockerfile Best Practices 🌟</a></li>
+<li><a href="https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/">docker.com: Intro Guide to Dockerfile Best Practices</a></li>
+<li><a href="https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/">docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices</a></li>
+<li><a href="https://sysdig.com/blog/dockerfile-best-practices/">sysdig.com: Top 20 Dockerfile best practices 🌟</a></li>
+<li><a href="https://testdriven.io/blog/docker-best-practices/">testdriven.io: Docker Best Practices for Python Developers</a></li>
+<li><a href="https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39"><mark>dev.to: Top 8 Docker Best Practices for using Docker in Production</mark> 🌟</a></li>
+<li><a href="https://dev.to/karanpratapsingh/top-5-docker-best-practices-57oh">dev.to: Top 5 Docker Best Practices</a></li>
+<li><a href="https://stevelasker.blog/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/"><mark>stevelasker.blog: Docker Tagging: Best practices for tagging and versioning docker images</mark></a></li>
+<li><a href="https://faun.pub/dockerfile-best-practices-for-developers-87a2c19b4abe">faun.pub: Dockerfile Best Practices for Developers | Pavan Belagatti</a></li>
+<li><a href="https://azeynalli1990.medium.com/15-best-practices-when-working-with-docker-720d2d8de202">azeynalli1990.medium.com: 15 Best Practices when working with Docker</a></li>
+</ul>
+<h2 id="docker-networking">Docker Networking</h2>
+<ul>
+<li><a href="https://hwchiu.medium.com/docker-networking-model-introduction-194a2a2c9b68">hwchiu.medium.com: Docker Networking Model — Introduction</a> This article provides an overview of several basic network models for Docker Containers:<ul>
+<li>None</li>
+<li>Host</li>
+<li>Bridge</li>
+<li>Container:$ID</li>
+</ul>
+</li>
+</ul>
+<h2 id="docker-volumes">Docker Volumes</h2>
+<ul>
+<li><a href="https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493">medium: Understanding Docker Volumes, Mounts and Layers and How to Manage Data in Containers</a></li>
+<li><a href="https://spacelift.io/blog/docker-volumes">spacelift.io: Docker Volumes – Guide with Examples</a> Volumes are a mechanism for storing data outside containers. All volumes are managed by Docker &amp; stored in dedicated directory on your host, usually /var/lib/docker/volumes for Linux systems</li>
+</ul>
+<h2 id="debugging">Debugging</h2>
+<ul>
+<li><a href="https://betterprogramming.pub/5-simple-tips-for-debugging-docker-containers-271cb3dee77a">betterprogramming.pub: 5 Simple Tips For Debugging Docker Containers 🌟</a> Smoke out annoying container problems with minimal insanity</li>
+<li><a href="https://iximiuz.com/en/posts/docker-debug-slim-containers/">iximiuz.com: Docker: How To Debug Distroless And Slim Containers 🌟</a> A handy way to troubleshoot containers lacking a shell and/or debugging tools (e.g, scratch, slim, or distroless)</li>
+</ul>
+<h2 id="docker-cli">Docker CLI</h2>
+<ul>
+<li><a href="https://docs.docker.com/engine/reference/commandline/buildx_imagetools/">docs.docker.com: docker buildx imagetools</a> Commands to work on images in registry</li>
+<li>
+<p>Who is still copying images between registries with:</p>
+<ul>
+<li>docker cli:<ul>
+<li>docker pull <src></li>
+<li>docker tag <src> <dst></li>
+<li>docker push <dst></li>
+</ul>
+</li>
+<li>Use:<ul>
+<li>crane cp <src> <dst></li>
+</ul>
+</li>
+<li>
+<p>Or even:</p>
+<ul>
+<li>cosign cp <src> <dst></li>
+</ul>
+</li>
+<li>
+<p>It&rsquo;s faster, and supports multi-arch (and cosign copies signatures/sboms/attestations)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="docker-extensions">Docker Extensions</h2>
+<ul>
+<li><a href="https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2"><mark>dev.to: 9 Docker Extensions Every Developer Must Try</mark></a></li>
+<li><a href="https://github.com/Saniewski/mongo-express-docker-extension">github.com/Saniewski/mongo-express-docker-extension</a> Docker Extension for creating and running an embedded instance of Mongo Express connected to any accessible MongoDB server.</li>
+</ul>
+<h2 id="docker-swarm">Docker Swarm</h2>
+<ul>
+<li><a href="../kubernetes-alternatives/#docker-swarm">Docker Swarm</a></li>
+</ul>
+<h2 id="awesome-lists">Awesome Lists</h2>
+<ul>
+<li><a href="https://github.com/veggiemonk/awesome-docker">Awesome Docker 🌟</a></li>
+<li><a href="https://github.com/docker/awesome-compose">Awesome Compose 🌟</a></li>
+<li><a href="https://github.com/pabpereza/curated-dockerfiles-examples">github.com/pabpereza/curated-dockerfiles-examples: Curated Dockerfiles examples</a> Public repository dedicated to guide the use of multi-stage and distroless dockerfile examples in docker, or other containers technologies, with the objetive to create secured templates for new developments</li>
+</ul>
+<h2 id="docker-vs-kubernetes">Docker VS Kubernetes</h2>
+<ul>
+<li><a href="https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/">blog.testproject.io: A Comparison of Kubernetes and Docker</a></li>
+<li><a href="https://containerjournal.com/features/whats-the-difference-between-docker-and-kubernetes/"><mark>containerjournal.com: What’s the Difference Between Docker and Kubernetes?</mark></a></li>
+<li><a href="https://peoplactive.com/kubernetes-vs-docker-swarm-difference">peoplactive.com: Kubernetes Vs Docker – Which to Adopt?</a></li>
+</ul>
+<h2 id="docker-patterns-and-antipatterns">Docker Patterns and Antipatterns</h2>
+<ul>
+<li><a href="https://codefresh.io/containers/docker-anti-patterns/">codefresh.io: Docker anti-patterns 🌟</a></li>
+<li><a href="https://medium.com/containers-101/docker-anti-patterns-ad2a1fcd5ce1">medium: Docker anti-patterns | Codefresh</a><ul>
+<li>Creating Docker files that are not transparent.</li>
+<li>Creating Dockerfiles that have side effects.</li>
+<li>Confusing images used for deployment with those used for development.</li>
+<li>Building different images per environment.</li>
+</ul>
+</li>
+</ul>
+<h2 id="docker-security">Docker Security</h2>
+<ul>
+<li><a href="https://thehackernews.com/2020/06/cryptocurrency-docker-image.html">thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/10-docker-security-best-practices-to-cut-container-chaos">acloudguru.com: 10 Docker Security Best Practices to Cut Container Chaos</a></li>
+<li><a href="https://brianchristner.io/how-to-use-docker-scan/">brianchristner.io: How to use Docker Security Scan Locally</a> Docker included a new command called <code>docker scan</code> that scans local images against the Snyk security engine, providing you with security visibility into your local Dockerfiles and images.</li>
+<li><a href="https://snyk.io/blog/10-docker-image-security-best-practices/">snyk.io: 10 Docker Security Best Practices 🌟</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html">cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟</a></li>
+<li><a href="https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/"><mark>augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security</mark></a></li>
+<li><a href="https://www.infoq.com/articles/securing-docker/">infoq.com: Is Docker Secure Enough?</a></li>
+<li><a href="https://www.clickittech.com/devops/docker-security-best-practices/">clickittech.com: The Ultimate Docker Security Best Practices for Your Node.js Application</a> Top 12 Docker Security Best Practices</li>
+<li><a href="https://infosecwriteups.com/attacking-and-securing-docker-containers-cc8c80f05b5b">infosecwriteups.com: Attacking and securing Docker containers</a></li>
+<li><a href="https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1/">securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes</a></li>
+</ul>
+<h2 id="how-to-build-a-smaller-docker-image-and-write-dockerfiles-efficiently">How To Build a Smaller Docker Image and write dockerfiles efficiently</h2>
+<ul>
+<li><a href="https://developers.redhat.com/blog/2016/03/09/more-about-docker-images-size/">developers.redhat.com: Keep it small: a closer look at Docker image sizing</a></li>
+<li><a href="https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a">medium: How to build a smaller Docker image</a> When you’re building a Docker image it’s important to keep the size under control. Having small images means ensuring faster deployment and transfers.</li>
+<li><a href="https://itsopensource.com/how-to-reduce-node-docker-image-size-by-ten-times/">itsopensource.com: How to Reduce Node Docker Image Size by 10X</a></li>
+<li><a href="https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3">blog.bitsrc.io: Best Practices for Writing a Dockerfile</a> Optimize your Docker Image by following these best practices from day one.</li>
+<li><a href="https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments/">sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟</a></li>
+<li><a href="https://itnext.io/building-docker-images-the-proper-way-3c9807524582">itnext.io: Building Docker Images The Proper Way 🌟</a> Let’s optimize Docker builds to create much smaller and more secure Docker images in a fraction of the usual build time…</li>
+<li><a href="https://www.returngis.net/2021/08/reduce-el-tamano-de-tus-imagenes-con-dockerfiles-multi-stage/">returngis.net: Reduce el tamaño de tus imágenes con Dockerfiles multi-stage</a></li>
+<li><a href="https://www.slim.ai/"><mark>slim.ai</mark></a> Build secure containers, faster. Secure your software supply chain.<ul>
+<li><a href="https://www.slim.ai/blog/automatically-reduce-docker-container-size-using-dockerslim.html">slim.ai: Automatically reduce Docker container size using DockerSlim</a></li>
+<li><a href="https://www.youtube.com/watch?v=1o14tIEhZL0">youtube: The need for Slim Docker Container Images with @DockerSlim &amp; Slim.AI</a></li>
+<li><a href="https://www.slim.ai/docs/docker-desktop-extension.html"><mark>slim.ai: Slim Docker Extension</mark> 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://learnk8s.io/blog/smaller-docker-images">learnk8s.io: 3 simple tricks for smaller Docker images 🌟</a> When it comes to building Docker containers, you should always strive for smaller images. <strong>Images that share layers and are smaller in size are quicker to transfer and deploy.</strong></li>
+<li><a href="https://contains.dev/blog/optimizing-docker-image-size">contains.dev: Optimizing Docker image size and why it matters</a></li>
+<li><a href="http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/"><mark>jpetazzo.github.io: Anti-Patterns When Building Container Images</mark></a></li>
+<li><a href="https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim">developers.redhat.com: Reduce the size of container images with DockerSlim</a></li>
+<li><a href="https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension/">docker.com: Reduce Your Image Size with the Dive-In Docker Extension</a></li>
+<li><a href="https://medium.com/vantageai/how-to-make-your-python-docker-images-secure-fast-small-b3a6870373a0"><mark>medium.com/vantageai: How to make your Python Docker images secure, fast &amp; small</mark> 🌟</a> Exploring Image Layers and Implementing Multistage Builds</li>
+<li><a href="https://blog.devgenius.io/devops-in-k8s-write-dockerfile-efficiently-37eaedf87163">blog.devgenius.io: DevOps in K8s — Write Dockerfile Efficiently 🌟</a></li>
+</ul>
+<h2 id="reducing-build-time">Reducing Build Time</h2>
+<ul>
+<li><a href="https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s">nrmitchi.com: One Simple Trick for Building Images Faster 🌟</a><ul>
+<li><code>BUILDKIT_INLINE_CACHE=1 build-arg</code> is a neat flag that you could add to your docker build to reduce the build time upto 89%</li>
+</ul>
+</li>
+<li><a href="https://pythonspeed.com/articles/docker-buildkit/">pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s stable</a> Building Docker images can be slow, and Docker’s build system is also missing some critical security features, in particular the ability to use build secrets without leaking them. So over the past few years the Docker developers have been working on a new backend for building images, BuildKit.</li>
+<li><a href="https://pauldally.medium.com/structuring-dockerfiles-for-productivity-2681de4815a4">pauldally.medium.com: Structuring Dockerfiles For Productivity</a></li>
+</ul>
+<h2 id="modify-containers-without-rebuilding">Modify containers without rebuilding</h2>
+<ul>
+<li><a href="https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/">cloudowski.com: How to modify containers without rebuilding their image</a></li>
+</ul>
+<h2 id="docker-tools">Docker Tools</h2>
+<ul>
+<li><a href="https://blog.inedo.com/top-50-docker-tools">Top 50 Docker Tools</a></li>
+<li><a href="https://www.infoq.com/news/2020/07/docker-ecs-plugin/">docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate</a></li>
+<li><a href="https://github.com/wagoodman/dive">dive 🌟</a> A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image. Use the dive tool to analyze a Docker image of your application. What did I learn? While Jib creates 3 layers for Spring Boot app (dependencies, resources and classes), Paketo Buildpacks places resources and classes in the same layer.</li>
+<li><a href="https://github.com/bcicen/ctop">ctop 🌟</a> Top-like interface for container metrics</li>
+<li><a href="https://github.com/sherifabdlnaby/phpdocker">phpdocker</a> Production Grade, Rootless, Pre-configured, Extendable, and Multistage
+PHP Docker Image for Cloud Native Deployments (and Kubernetes)</li>
+<li><a href="https://dev.to/kooldev/use-kool-to-dockerize-your-local-development-environment-the-right-way-18gl">dev.to: Use Kool to Dockerize Your Local Development Environment the Right Way</a></li>
+<li><a href="https://sematext.com/docker/">sematext: Monitor Docker Metrics &amp; Logs 🌟</a> Full Docker observability: Docker metrics, logs, and events. Yes, Kubernetes &amp; Swarm, too!</li>
+<li>
+<p><a href="https://github.com/stepchowfun/docuum">stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟</a> Docuum performs least recently used (LRU) eviction of Docker images.</p>
+<ul>
+<li>Docker&rsquo;s built-in docker image prune &ndash;all &ndash;filter until=… command serves a similar purpose. However, the built-in solution isn&rsquo;t ideal since it uses the image creation time, rather than the last usage time, to determine which images to remove. That means it can delete frequently used images, which may be expensive to rebuild.</li>
+<li><strong>Docuum is ideal for use cases such as continuous integration (CI) workers, developer workstations, or any other environment in which Docker images accumulate on disk over time.</strong> Docuum works well with tools like Toast and Docker Compose.</li>
+<li>Docuum is used by Airbnb on its fleet of 1.5k+ CI workers.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker/">cloudsavvyit.com: 10 Tools That Complement Docker</a></p>
+</li>
+<li><a href="https://github.com/cybersecsi/RAUDI"><mark>cybersecsi/RAUDI</mark></a> A repo to automatically generate and keep updated a series of Docker images through GitHub Actions.</li>
+<li><a href="https://github.com/grosser/preoomkiller">grosser/preoomkiller</a> Softly kills your process with SIGTERM before it runs out of memory. Made for processes that run inside docker.</li>
+<li><a href="https://github.com/ory/dockertest"><mark>ory/dockertest</mark></a> Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. Use Docker to run your Golang integration tests against third party services on Microsoft Windows, Mac OSX and Linux!</li>
+<li><a href="https://github.com/hadolint/hadolint"><mark>hadolint/hadolint: Haskell Dockerfile Linter</mark></a> Dockerfile linter, validate inline bash, written in Haskell</li>
+<li><a href="https://ttl.sh/"><mark>ttl.sh: Anonymous &amp; ephemeral Docker image registry 🌟</mark></a> Free to use. No need to sign-up. Open source.</li>
+<li><a href="https://github.com/ktock/buildg"><mark>buildg: Interactive debugger for Dockerfile</mark> 🌟</a> Interactive debugger for Dockerfile, with support for IDEs (VS Code, Emacs, Neovim, etc.)<ul>
+<li><a href="https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg/">infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/google/go-containerregistry"><mark>github.com/google/go-containerregistry</mark> 🌟</a> Go library and CLIs for working with container registries</li>
+<li><a href="https://github.com/jesseduffield/lazydocker"><mark>jesseduffield/lazydocker</mark></a> The lazier way to manage everything docker</li>
+<li><a href="https://www.docker.com/blog/telepresence-for-docker/"><mark>docker.com: Docker and Ambassador Labs Announce Telepresence for Docker, Improving the Kubernetes Development Experience</mark> 🌟</a> - <a href="https://www.docker.com/products/telepresence-for-docker/"><mark>telepresence for docker</mark></a><ul>
+<li>Telepresence for Docker simplifies how teams develop and test on Kubernetes. This Kubernetes development tool seamlessly creates a remote-to-local dev environment, so your teams can enjoy the ease and flexibility of local development with the collaboration and integration of a cloud development cluster.</li>
+<li>You don’t need to be a Kubernetes expert, deal with K8s configuration or maintenance, or turn to expensive cloud virtual machines for your developers to quickly and efficiently develop on K8s. Telepresence for Docker is Kubernetes development simplified.</li>
+</ul>
+</li>
+<li><a href="https://github.com/containrrr/watchtower">github.com/containrrr/watchtower</a> A process for automating Docker container base image updates. With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your image registry. Watchtower will pull down the new image, gracefully shut down the existing container and restart it.</li>
+</ul>
+<h2 id="docker-and-wsl2">Docker and WSL2</h2>
+<ul>
+<li><a href="https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2/">Creating the best Linux Development experience on Windows &amp; WSL 2</a></li>
+<li><a href="https://andrewlock.net/installing-docker-desktop-for-windows/">andrewlock.net: Installing Docker Desktop for Windows and WSL 2</a></li>
+<li><a href="https://medium.com/@adeelsubhan25/how-to-setup-and-build-docker-images-on-windows-baf252152aca">medium.com/@adeelsubhan25: How to setup and build Docker Images on Windows</a></li>
+</ul>
+<h2 id="docker-and-docker-swarm-cheat-sheets">Docker and Docker Swarm Cheat sheets</h2>
+<ul>
+<li><a href="../cheatsheets/">Docker and Docker Swarm Cheat Sheets</a></li>
+</ul>
+<h2 id="docker-compose">Docker Compose</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa/">freecodecamp.org: a beginners guide to docker - how to create a client server side with docker compose</a></li>
+<li><a href="https://www.docker.com/blog/announcing-the-compose-specification/">docker.com: Announcing the Compose Specification 🌟</a></li>
+<li><a href="https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html">infoworld.com: Docker&rsquo;s Compose specification is now an open standard</a> Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.</li>
+<li><a href="https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/">theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it</a> Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.</li>
+<li><a href="https://github.com/docker/awesome-compose">Awesome Compose</a></li>
+<li><a href="https://nuxx.io/">Visual docker-compose.yml file generator 🌟</a></li>
+<li><a href="https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046">medium: How can we easily and visually explain the Docker Compose 🌟</a></li>
+<li><a href="https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/">docker.com: Docker Compose for Amazon ECS Now Available</a></li>
+<li><a href="https://geshan.com.np/blog/2021/12/docker-postgres/"><mark>geshan.com.np: Postgres with Docker and Docker compose a step-by-step guide for beginners</mark></a></li>
+<li><a href="https://codesolid.com/how-to-use-docker-with-python/"><mark>codesolid.com: How To Use Docker and Docker Compose With Python</mark></a></li>
+<li><a href="https://releasehub.com/blog/6-docker-compose-best-practices-for-dev-and-prod">releasehub.com: 6 Docker Compose Best Practices for Dev and Prod</a></li>
+</ul>
+<h2 id="moving-linux-services-into-containers">Moving Linux Services Into Containers</h2>
+<ul>
+<li><a href="http://crunchtools.com/moving-linux-services-to-containers/">crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers</a></li>
+</ul>
+<h2 id="windows-containers">Windows Containers</h2>
+<ul>
+<li><a href="https://medium.com/@sebagomez/windows-containers-personal-cheat-sheet-95c1c4d6bdf5">medium: Windows Containers (personal) cheat sheet</a></li>
+</ul>
+<h2 id="portainer">Portainer</h2>
+<ul>
+<li><a href="https://www.portainer.io/">Portainer 🌟</a> Making Docker management easy</li>
+<li><a href="https://www.portainer.io/products/community-edition">Portainer Community Edition</a></li>
+<li><a href="https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer/">thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer</a> Here&rsquo;s how to make sure all the contents of your container stay intact even after you delete the container itself.</li>
+</ul>
+<h2 id="dockstation">DockStation</h2>
+<ul>
+<li><a href="https://dockstation.io/">dockstation.io</a></li>
+</ul>
+<h2 id="linux-container-base-images">Linux Container Base Images</h2>
+<ul>
+<li><a href="http://crunchtools.com/comparison-linux-container-images/">crunchtools.com: A Comparison of Linux Container Images</a></li>
+<li><a href="https://kubedex.com/base-images/">kubedex.com: Base images comparison</a></li>
+<li><a href="https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users/">developers.redhat.com: Red Hat Universal Base Images for Docker users</a><ul>
+<li><a href="https://developers.redhat.com/books/red-hat-universal-base-images-ubi">developers.redhat.com: book: Red Hat Universal Base Images (UBI)</a></li>
+</ul>
+</li>
+<li><a href="https://dev.to/pmutua/the-best-docker-base-image-for-your-python-application-3o83">dev.to: The best Docker base image for your Python application</a></li>
+<li><a href="https://hub.docker.com/u/redhat">Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care">developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?</a></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub">redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub</a> Verified content from the world’s leading enterprise Linux platform aimed at helping developers and operators build more secure and scalable containerized solutions from the industry’s leading container registry</li>
+</ul>
+<h2 id="blogs">Blogs</h2>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tags/docker">Digital Ocean: Docker Tutorials</a></li>
+</ul>
+<h2 id="cloud-native-buildpacks">Cloud Native Buildpacks</h2>
+<ul>
+<li><a href="https://buildpacks.io/">buildpacks.io: Cloud Native Buildpacks 🌟</a> transform your application source code into images that can run on any cloud.</li>
+<li><a href="https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks/">altoros.com: Streamlining the Creation of Docker Images with Cloud Native Buildpacks</a> The new Cloud Native Buildpacks framework changes the obnoxious development chore of Dockerfile writing into a simple, automated operations pipeline. When deploying apps to Kubernetes or other container-as-a-service platforms, the proliferation of nonstandard, unauditable containers built manually via Dockerfiles is a real problem. A few products have emerged to solve this problem, among them Cloud Native Buildpacks (СNB). In this blog post, we explore the capabilities of these buildpacks and explain how to use them in build pipelines to deliver standardized, auditable images as artifacts suitable for deployment.</li>
+<li><a href="https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks/">thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks</a></li>
+<li><a href="https://dev.to/pmbanugo/goodbye-dockerfiles-build-secure-optimised-nodejs-container-images-with-cloud-native-buildpacks-489p">dev.to/pmbanugo: Goodbye Dockerfiles: Build Secure &amp; Optimised Node.js Container Images with Cloud Native Buildpacks</a></li>
+</ul>
+<h2 id="alternatives-to-docker-available-alternatives-to-docker-for-oci-compliant-container-image-building">Alternatives to Docker. Available alternatives to Docker for OCI compliant container image building</h2>
+<ul>
+<li><a href="https://blog.alexellis.io/building-containers-without-docker/">blog.alexellis.io: Building containers without Docker 🌟</a></li>
+<li><a href="https://medium.com/nttlabs/nerdctl-359311b32d0e">medium: nerdctl: Docker-compatible CLI for contaiNERD</a></li>
+<li><a href="https://jfrog.com/knowledge-base/the-basics-7-alternatives-to-docker-all-in-one-solutions-and-standalone-container-tools/">jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟</a></li>
+<li><a href="https://github.com/containerd/nerdctl">nerdctl 🌟</a> Docker-compatible CLI for containerd</li>
+<li><a href="https://github.com/genuinetools/img">img</a></li>
+<li><a href="https://github.com/GoogleContainerTools/jib">jib</a></li>
+<li><a href="https://github.com/GoogleContainerTools/kaniko">kaniko</a></li>
+<li><a href="https://buildah.io/">buildah</a></li>
+<li><a href="https://docs.docker.com/develop/develop-images/build_enhancements/">buildkit</a></li>
+<li><a href="https://podman.io/">podman</a></li>
+<li><a href="https://blog.logrocket.com/top-docker-alternatives-2022/"><mark>blog.logrocket.com: Top Docker alternatives for 2022</mark></a></li>
+<li><a href="https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19">itnext.io: Replace Docker Desktop with lima</a> - <a href="https://github.com/lima-vm/lima">lima-vm/lima</a></li>
+<li><a href="https://dzone.com/articles/alternatives-to-docker-desktop">dzone: Alternatives to Docker Desktop</a> Have $5 to spend monthly? Do you want to avoid the fee? There are a couple of alternatives that can replace Docker Desktop with a free solution.</li>
+<li><a href="https://dzone.com/articles/docker-alternatives-10-alternatives-to-docker-for">dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application</a></li>
+</ul>
+<h2 id="videos-and-podcasts">Videos and Podcasts</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_s3h_GVzZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3c-iBn73dDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p2PH_YPCsis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vWSRWpOPHws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZowjOhpAcIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n-JwAM6XF88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0mxhS7H6bxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+</details>
+
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Environment variables in Docker:<br><br>Environment variables are dynamic-named values that affect how our app will behave when running.<br><br>We can define them with Docker:<br>- at runtime<br>- in the Dockerfile<br>- in the Compose file (2 ways)<br><br>Let&#39;s see in detail in 1 minute:<br><br>1/5</p>&mdash; Francesco Ciulla (@FrancescoCiull4) <a href="https://twitter.com/FrancescoCiull4/status/1393448190729465856?ref_src=twsrc%5Etfw">May 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introduction to Docker🐳<a href="https://twitter.com/Docker?ref_src=twsrc%5Etfw">@Docker</a> is an open-source platform for deploying and managing containerized applications. It allows developers to easily package their applications into containers that can be deployed on every machine with a valid Docker installation.<br><br>Thread 🧵👇</p>&mdash; Gabriel Tanner (@GabrielTanner14) <a href="https://twitter.com/GabrielTanner14/status/1470411963884707844?ref_src=twsrc%5Etfw">December 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to grasp Containers and Docker (Mega Thread)<br><br>When I started using containers back in 2015, I thought they were tiny virtual machines with a subsecond startup time.<br><br>It was easy to follow tutorials from the Internet on how to put your Python or Node.js app into a container...</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1423984739514454033?ref_src=twsrc%5Etfw">August 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Okay <a href="https://twitter.com/awscloud?ref_src=twsrc%5Etfw">@awscloud</a> Lambda folks: when should I use Docker containers as the packaging format for functions vs. using native runtimes? Looking for general guidance here.</p>&mdash; Corey Quinn (@QuinnyPig) <a href="https://twitter.com/QuinnyPig/status/1508532216984313859?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mostly bc of the package size limit.<br>Standard code zip: max 250 MB<br>Docker image: max 10 GB<br><br>If you do anything in Python with ML libs, you will need Docker...<br><br>Why use native runtimes otherwise? Cold start.<br>Docker: 750-1000 ms<br>Node/Python: 250-300 ms</p>&mdash; Maciej Radzikowski (@radzikowski_m) <a href="https://twitter.com/radzikowski_m/status/1508535101512204292?ref_src=twsrc%5Etfw">March 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Docker Compose + DockerSlim = ❤️<a href="https://twitter.com/DockerSlim?ref_src=twsrc%5Etfw">@DockerSlim</a> can make your images much smaller (hence, faster and securer), but it requires launching containers for runtime analysis.<br><br>Real apps, though, rarely run in isolation... Docker knew that and built Compose.<br><br>Now, behold the synergy! 🔽 <a href="https://t.co/n6NlJokC95">pic.twitter.com/n6NlJokC95</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1547233568610566144?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Debunking Container Myths 🧵<br><br>A (never-ending) series of articles that I started writing a couple of years ago to fix my own misconceptions about containers 🔽 <a href="https://t.co/bD7Iw48ere">pic.twitter.com/bD7Iw48ere</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1563851156417298434?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What Is a Distroless Container Image? 🧵<br><br>Go (programming language) is famous for its statically linked binaries. You can take a Go executable, drop it into a &quot;FROM scratch&quot; container, and call it a day.<br><br>But there might be a problem (keep reading) 👇 <a href="https://t.co/kskCI3rqCC">pic.twitter.com/kskCI3rqCC</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1566827552781524995?ref_src=twsrc%5Etfw">September 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who is still copying images between registries with: <br> docker pull &lt;src&gt;<br> docker tag &lt;src&gt; &lt;dst&gt;<br> docker push &lt;dst&gt;<br><br>Use:<br> crane cp &lt;src&gt; &lt;dst&gt;<br><br>Or even:<br> cosign cp &lt;src&gt; &lt;dst&gt;<br><br>It&#39;s faster, and supports multi-arch (and cosign copies signatures/sboms/attestations)</p>&mdash; Matt Moore ⛓🚀 (@mattomata) <a href="https://twitter.com/mattomata/status/1580369338879836160?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Docker and become a container expert<br>...but don&#39;t know how to even start? 🔽<br><br>Here is the learning order that helped me:<br><br>1. Containers: how Linux does them<br>2. Images: why they are needed<br>3. Managers: many containers, one host<br>4. Orchestrators: many hosts, one app <a href="https://t.co/HaXaGnSMkU">pic.twitter.com/HaXaGnSMkU</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1601166357826981888?ref_src=twsrc%5Etfw">December 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2024 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M213.86 296H100a100 100 0 0 1 0-200h132.84a40 40 0 0 1 0 80H98c-26.47 0-26.45 40 0 40h113.82a100 100 0 0 1 0 200H40a40 40 0 0 1 0-80h173.86c26.48 0 26.46-40 0-40zM298 416a120.21 120.21 0 0 0 51.11-80h64.55a19.83 19.83 0 0 0 19.66-20V196a19.83 19.83 0 0 0-19.66-20H296.42a60.77 60.77 0 0 0 0-80h136.93c43.44 0 78.65 35.82 78.65 80v160c0 44.18-35.21 80-78.65 80z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7zm156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        <label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        <label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+        <script src="../javascript/extra.js"></script>
+      
+    
+  </body>
+</html>
