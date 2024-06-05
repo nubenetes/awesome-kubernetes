@@ -25,6 +25,7 @@
     14. [NetApp Data Store](#netapp-data-store)
     15. [Stork Storage Operator](#stork-storage-operator)
     16. [Curve - OpenCurve](#curve---opencurve)
+    17. [simplyblock](#simplyblock)
 9. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -234,6 +235,10 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 ### Curve - OpenCurve
 
 - [Curve: opencurve.io](https://opencurve.io) Curve is a high-performance, lightweight-operation, cloud-native open source distributed storage system for Kubernetes/OpenStack. Curve can also be used as a cloud storage middleware using S3-compatible object storage as a data storage engine.
+
+### simplyblock
+
+- [simplyblock: simplyblock.io](https://simplyblock.io) Simplyblock is a NVMe over TCP (NVMe/TCP) based disaggregated and cloud-native storage solution with high-performance and predictable low latency block storage for Kubernetes.
 
 ## OpenShift Container Storage Operator (OCS)
 
