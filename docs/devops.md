@@ -442,12 +442,21 @@ Resolve your software incidents 10x faster
 - [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops)
 - [fernandovillalba.substack.com: DevOps: Don't destroy silos, transform them](https://fernandovillalba.substack.com/p/devops-dont-destroy-silos-transform) "Destroying silos" is a clumsy solution to team isolation
 - [humanitec.com: Escape VMware lock-in with a modular Internal Developer Platform](https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform)
+- [InfoQ platform engineering homepage](https://www.infoq.com/platformengineering/)
+- [Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering/)
+- [Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better/)
+- [Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)
+- [5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product/)
+- [15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c)
 
 ### IDP Tools
 
 - [==medium.com/@rphilogene: Top 10 Platform Engineering Tools You Should Consider in 2024==](https://medium.com/@rphilogene/top-10-platform-engineering-tools-you-should-consider-in-2024-892e6e211b85)
 - [github.com/Qovery/Torii](https://github.com/Qovery/Torii) Torii ⛩️ is a simple, powerful and extensible open-source Internal Developer Portal
 - [github.com/backstage/backstage](https://github.com/backstage/backstage) Backstage is an open platform for building developer portals
+- [Port](https://www.getport.io/)
+- [Cortex](https://www.cortex.io/)
+- [Atlassian Compass](https://www.atlassian.com/software/compass)
 
 ## Bunch of Images
 
