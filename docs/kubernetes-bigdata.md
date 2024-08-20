@@ -30,3 +30,4 @@
     - Databricks es el nombre de la plataforma analítica de datos basada en Apache Spark desarrollada por la compañía con el mismo nombre. La empresa se fundó en 2013 con los creadores y los desarrolladores principales de Spark. Permite hacer analítica Big Data e inteligencia artificial con Spark de una forma sencilla y colaborativa.
     - Esta plataforma está disponible como servicio cloud en Microsoft Azure y Amazon Web Services (AWS).
 - [docs.databricks.com: Use scheduler pools for multiple streaming workloads](https://docs.databricks.com/structured-streaming/scheduler-pools.html)
+- [github.com/databrickslabs/ucx: Databricks Labs UCX](https://github.com/databrickslabs/ucx) Automated migrations to Unity Catalog

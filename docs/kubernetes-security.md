@@ -3,7 +3,7 @@
 1. [Introduction](#introduction)
 2. [IAM Identity And Access Management in Kubernetes](#iam-identity-and-access-management-in-kubernetes)
 3. [Securing Kubernetes Deployments](#securing-kubernetes-deployments)
-4. [Securing a Kubernetes cluster using TLS certificates](#securing-a-kubernetes-cluster-using-tls-certificates)
+4. [Securing a Kubernetes cluster using TLS certificates. Wildcard certificates](#securing-a-kubernetes-cluster-using-tls-certificates-wildcard-certificates)
 5. [Kubernetes Security Scanners](#kubernetes-security-scanners)
 6. [Security Checklist Kubernetes OWASP](#security-checklist-kubernetes-owasp)
 7. [Exposed Kubernetes Clusters](#exposed-kubernetes-clusters)
@@ -148,6 +148,10 @@
 - [==itnext.io: Introduction to Kubernetes Security for Security Professionals==](https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a) Presenting the architecture of Kubernetes and its associated security threats, for security professionals, including penetration testers and DevSecOps practitioners.
 - [dev.to/mattiasfjellstrom: Kubernetes-101: Security concepts](https://dev.to/mattiasfjellstrom/kubernetes-101-security-concepts-2f4f) The article provides an overview of Kubernetes security concepts, focusing on NetworkPolicies, ServiceAccounts, and Security Contexts
 - [blog.alexellis.io: What if your Pods need to trust self-signed certificates?](https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates/) Self-signed certificates are common within enterprise companies. But how do you distribute them and enable their use in Kubernetes as a user and a vendor?
+- [thenewstack.io: Securing Kubernetes in a Cloud Native World](https://thenewstack.io/securing-kubernetes-in-a-cloud-native-world/) As cloud native technologies continue to advance, staying informed and adaptable is key to maintaining a secure Kubernetes ecosystem.
+- [collabnix.com: Applying DevSecOps Practices to Kubernetes](https://collabnix.com/applying-devsecops-practices-to-kubernetes/)
+- [==dev.to/thenjdevopsguy: Securing Kubernetes Pods For Production Workloads==](https://dev.to/thenjdevopsguy/securing-kubernetes-pods-for-production-workloads-51oh)
+- [dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e)
 
 <center>
 [![kubernetes security mindmap](images/k8s_securitymindmap.jpg)](https://www.blackhat.com/)
@@ -165,12 +169,13 @@
 
 - [==dev.to/aws-builders: Best Practices for Securing Kubernetes Deployments== 🌟](https://dev.to/aws-builders/best-practices-for-securing-kubernetes-deployments-1jg6) **Although Kubernetes is a powerful container orchestration platform, its complexity and its adoption makes it a prime target for security attacks. We'll go over some of the best practices for securing the Kubernetes deployments and keeping applications and data safe in this article. This article is only about pods or deployments.**
 
-## Securing a Kubernetes cluster using TLS certificates
+## Securing a Kubernetes cluster using TLS certificates. Wildcard certificates
 
 - [thenewstack.io: Jetstack Secure Promises to Ease Kubernetes TLS Security](https://thenewstack.io/jetstack-secure-promises-to-ease-kubernetes-tls-security/)
 - [==xgrid.medium.com: Securing a Kubernetes cluster using TLS certificates== 🌟](https://xgrid.medium.com/securing-a-kubernetes-cluster-using-tls-certificates-5e64a6bb26de)
 - [ahmedy.hashnode.dev: Creating TLS Certificates for K8s components with OpenSSL](https://ahmedy.hashnode.dev/creating-tls-certificates-for-k8s-components-with-openssl) In this guide, you will discuss how to create key/certificate pairs using OpenSSL to facilitate secure communication between Kubernetes Cluster components
 - [==erkanzileli.medium.com: How TLS Certificates Work==](https://erkanzileli.medium.com/how-tls-certificates-work-422d95f1df5e)
+- [medium.com/@martin.hodges: Using a wildcard certificate within your Kubernetes cluster](https://medium.com/@martin.hodges/using-a-wildcard-certificate-within-your-kubernetes-cluster-87c014e8dafe)
 
 ## Kubernetes Security Scanners
 
@@ -275,6 +280,7 @@
 - [medium.com/pareture: Kubernetes Bound Projected Service Account Token Volumes Might Surprise You](https://medium.com/pareture/kubernetes-bound-projected-service-account-token-volumes-might-surprise-you-434ff2cd1483) There is an important difference to understand and remember between default Service Account Projection and Bound Service Account Token Volumes.
 - [medium.com/geekculture: K8s — ServiceAccount Token](https://medium.com/geekculture/k8s-serviceaccount-token-313d62aee119) K8s ServiceAccount token deep dive
 - [motilayo.hashnode.dev: Exploring Kubernetes Service Account Tokens and Secure Workload Identity Federation](https://motilayo.hashnode.dev/exploring-kubernetes-service-account-tokens-and-secure-workload-identity-federation) Ever wonder how AWS IRSA, GCP workload identity or Azure AD workload identity work in Kubernetes? This article explores how OIDC works in a Kubernetes cluster to trust external workloads
+- [overcast.blog: Kubernetes Service Accounts: A Practical Guide](https://overcast.blog/kubernetes-service-accounts-a-practical-guide-f99c1ed65483)
 
 ## Kubernetes Secrets
 
@@ -359,6 +365,9 @@ Fine-grained access control through the use of role-based access control (RBAC)
 Support for custom headers and footers to customize the user interface
 Overall, OAuth2 Proxy is a powerful tool for securing web applications using OAuth2 providers. It simplifies the authentication and authorization process and makes it easy to manage access to your applications in a Kubernetes environment.
 
+- [geek-cookbook.funkypenguin.co.nz: Using OAuth2 proxy for Kubernetes Dashboard](https://geek-cookbook.funkypenguin.co.nz/recipes/kubernetes/oauth2-proxy/) In this tutorial, you will learn how to set up OAuth2 Proxy to pass authentication headers to Kubernetes Dashboard, which doesn't provide its authentication but instead relies on Kubernetes' own RBAC auth
+- [imanishchaudhary.medium.com: Securing Kubernetes Dashboards: SSO Authentication and RBAC Implementation with Okta and OAuth2 Proxy](https://imanishchaudhary.medium.com/secure-kubernetes-dashboards-with-sso-authentication-using-okta-oauth2-proxy-9e52189e9749)
+
 ### Alternatives
 
 There are several alternatives to OAuth2 Proxy in Kubernetes, depending on your specific use case and requirements. Some popular options include:
@@ -409,6 +418,7 @@ Each of these alternatives provides different features and may be more suitable 
 - [goteleport.com: A Simple Overview of Authentication Methods for Kubernetes Clusters](https://goteleport.com/blog/kube-authn-methods/)
 - [medium.com/@mehmetodabashi: Authentication and Authorization in Kubernetes: Client Certificates and Role Based Access Control (RBAC)](https://medium.com/@mehmetodabashi/authentication-and-authorization-in-kubernetes-client-certificates-and-role-based-access-control-d4e98a3c1098) In this tutorial, you'll learn how to authenticate and authorize a user to access Kubernetes Clusters with client certificates
 - [medium.com/@brunoolimpio: Kubernetes DeepDive — Parte 2 - Kubernetes RBAC and more... | Bruno Olimpio](https://medium.com/@brunoolimpio/kubernetes-deepdive-parte-2-a65ffdce596d)
+- [==youtube: Kubernetes RBAC Explained== | Anton Putra 🌟](https://www.youtube.com/watch?v=iE9Qb8dHqWI)
 
 ### Tools
 
@@ -515,6 +525,7 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 - [developer.squareup.com: Kubernetes Pod Security Policies (PSP)](https://developer.squareup.com/blog/kubernetes-pod-security-policies/) an example with exception management
 - [itnext.io: Implementing a Secure-First Pod Security Policy Architecture](https://itnext.io/implementing-a-restricted-first-pod-security-policyarchitecture-af4e906593b0)
 - [Neon Mirrors: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://kind-brown-cfb734.netlify.app/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
+- [ibrahims.medium.com: Security Context — Kubernetes](https://ibrahims.medium.com/security-context-kubernetes-9672ae2380f9)
 
 ## Security Profiles Operator
 
@@ -534,6 +545,8 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
 ## External Secrets Operator
 
 - [external-secrets.io 🌟](https://external-secrets.io) External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, and many more. The operator reads information from external APIs and automatically injects the values into a Kubernetes Secret.
+- [mahira-technology.medium.com: Kubernetes Secrets Management: Level Up with External Secrets Operator](https://mahira-technology.medium.com/kubernetes-secrets-management-level-up-with-external-secrets-operator-ed7d32df2189) Kubernetes has become a popular platform for deploying and managing containerized applications. As applications grow in complexity, managing secrets such as API keys, passwords, and certificates becomes increasingly important. While Kubernetes provides a built-in Secrets resource, it has limitations when it comes to managing secrets across multiple clusters or integrating with external secret management systems. This is where the External Secrets Operator (ESO) comes into play. ESO is an open-source Kubernetes operator that allows you to manage secrets from external secret management systems and synchronize them as Kubernetes Secrets.
+- [faun.pub: External Secret Operator on AKS (with Terraform) for Azure Key Vault Integration (with Workload Identity)](https://faun.pub/external-secret-operator-on-aks-with-terraform-for-azure-key-vault-integration-with-workload-1d0c31082373)
 
 ## CVE
 
@@ -553,6 +566,8 @@ Kubernetes supports several authentication methods out-of-the-box, such as X.509
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QgctrpTpJec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/SyRZe5YVCVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iE9Qb8dHqWI?si=ORjg86ZDWRu77lsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
 
 ## Tweets

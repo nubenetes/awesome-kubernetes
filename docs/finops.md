@@ -60,6 +60,7 @@
 ## AWS Cost Optimizations
 
 - [medium.com/@tarunbehal02: AWS Cost Optimizations : My Learnings](https://medium.com/@tarunbehal02/aws-cost-optimizations-my-learnings-fcdc14da1f58)
+- [aws.amazon.com/blogs/architecture: Overview of Data Transfer Costs for Common Architectures](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/)
 
 ## Azure Cost Governance
 
@@ -68,6 +69,10 @@
 - [==github.com/mivano/azure-cost-cli==](https://github.com/mivano/azure-cost-cli) CLI tool to perform cost analysis on your Azure subscription
     - [github.com/mivano/azure-cost-cli: Cost by tag](https://github.com/mivano/azure-cost-cli#cost-by-tag)
 - [==techcommunity.microsoft.com: Azure Savings Dashboard== 🌟](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-savings-dashboard/ba-p/3816131)
+- [https://learn.microsoft.com: View Kubernetes costs (AKS)](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/view-kubernetes-costs)
+- [techcommunity.microsoft.com: Azure Pricing: How to navigate Azure pricing options and resources 🌟](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-pricing-how-to-navigate-azure-pricing-options-and/ba-p/4166276)
+- [techcommunity.microsoft.com: Azure Pricing: How to estimate Azure project costs 🌟](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-pricing-how-to-estimate-azure-project-costs/ba-p/4166297)
+- [techcommunity.microsoft.com: Identify your savings potential in Azure 🌟](https://techcommunity.microsoft.com/t5/finops-blog/identify-your-savings-potential-in-azure/ba-p/4131194)
 
 ## Kubernetes Cost Optimization
 
@@ -80,6 +85,7 @@
 - [infoworld.com: 5 steps to bringing Kubernetes costs in line](https://www.infoworld.com/article/3693050/5-steps-to-bringing-kubernetes-costs-in-line.html)
 - [medium.com/@suleimanabualrob: Kubernetes cost optimisation](https://medium.com/@suleimanabualrob/kubernetes-cost-optimisation-9e81b76814f6) In this article, you'll discuss resource over-provisioning in Kubernetes and learn some tips to improve utilisation to save money and have a well-architected workload
 - [itnext.io: Kubernetes Cost Optimization Made Easy: Efficient Tools for Streamlining FinOps](https://itnext.io/kubernetes-cost-optimization-made-easy-efficient-tools-for-streamlining-finops-be0b6a54d2bb)
+- [thenewstack.io: Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs](https://thenewstack.io/grafana-wants-to-help-you-avoid-getting-dinged-by-kubernetes-costs/) Grafana introduces new infrastructure and cost monitoring capabilities in Grafana Cloud.
 
 ## Licence Managers
 

@@ -44,6 +44,7 @@
 
 - [wikipedia: API Application Programming Interface](https://simple.wikipedia.org/wiki/Application_programming_interface)
 - [postman.com: What is an API?](https://www.postman.com/what-is-an-api)
+- [==github.com/public-apis/public-apis: Try Public APIs for free== 🌟](https://github.com/public-apis/public-apis) **A collective list of free APIs. Explore popular APIs and see them work in Postman.**
 - [apifriends.com: What is an API?](https://apifriends.com/api-management/what-is-an-api/)
 - [axway.com: What is API Management?](https://www.axway.com/en/products/api-management/what-is-api-management)
 - [mulesoft.com: APIs versus web services](https://blogs.mulesoft.com/dev/api-dev/apis-versus-web-services/)
@@ -85,6 +86,7 @@
 - [medium.com/@ezinneanne: Best API documentation tools you need](https://medium.com/@ezinneanne/best-api-documentation-tools-you-need-cf3ef2c47e89)
 - [==freecodecamp.org: Public APIs Developers Can Use in Their Projects==](https://www.freecodecamp.org/news/public-apis-for-developers/)
 - [==blog.postman.com: How to choose between REST vs. GraphQL vs. gRPC vs. SOAP==](https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/)
+- [postman.com: API versioning](https://www.postman.com/api-platform/api-versioning/) Learn how API versioning enables teams to make changes to their API without creating problems for consumers.
 
 ## From RESTful to Event-Driven APIs
 
@@ -147,6 +149,7 @@
 - [==javarevisited.blogspot.com: How to send POST Request with JSON Payload using Curl Command in Linux to Test RESTful Web Services?==](https://javarevisited.blogspot.com/2022/08/how-to-post-json-data-with-curl-command.html)
 - [medium.com/@shubhadeepchat: Best Practices for good REST API Design](https://medium.com/@shubhadeepchat/best-practices-for-good-rest-api-design-b5fae9a62c86)
 - [blog.bytebytego.com: EP94: REST API Cheatsheet](https://blog.bytebytego.com/p/ep94-rest-api-cheatsheet)
+- [==freecodecamp.org: The REST API Handbook – How to Build, Test, Consume, and Document REST APIs==](https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/)
 
 #### OpenAPI Specification (originally known as the Swagger Specification)
 

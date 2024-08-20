@@ -1,35 +1,35 @@
 # Kubernetes Troubleshooting
 
 1. [Introduction](#introduction)
-2. [Kubernetes Network Troubleshooting](#kubernetes-network-troubleshooting)
-3. [Exit Codes in Containers and Kubernetes](#exit-codes-in-containers-and-kubernetes)
-4. [ImagePullBackOff](#imagepullbackoff)
-5. [CrashLoopBackOff](#crashloopbackoff)
-6. [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
-7. [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
-8. [Pod in Terminating or Unknown Status](#pod-in-terminating-or-unknown-status)
-9. [OOM Kills](#oom-kills)
-10. [Pause Container](#pause-container)
-11. [Preempted Pod](#preempted-pod)
-12. [Evited Pods](#evited-pods)
-13. [Stuck Namespace](#stuck-namespace)
-14. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
-15. [CoreDNS issues](#coredns-issues)
-16. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
-17. [Troubleshooting Tools](#troubleshooting-tools)
+2. [Kubernetes Events](#kubernetes-events)
+3. [Kubernetes Network Troubleshooting](#kubernetes-network-troubleshooting)
+4. [Exit Codes in Containers and Kubernetes](#exit-codes-in-containers-and-kubernetes)
+5. [ImagePullBackOff](#imagepullbackoff)
+6. [CrashLoopBackOff](#crashloopbackoff)
+7. [Failed to Create Pod Sandbox](#failed-to-create-pod-sandbox)
+8. [Terminated with exit code 1 error](#terminated-with-exit-code-1-error)
+9. [Pod in Terminating or Unknown Status](#pod-in-terminating-or-unknown-status)
+10. [OOM Kills](#oom-kills)
+11. [Pause Container](#pause-container)
+12. [Preempted Pod](#preempted-pod)
+13. [Evited Pods](#evited-pods)
+14. [Stuck Namespace](#stuck-namespace)
+15. [Access PVC Data without the POD](#access-pvc-data-without-the-pod)
+16. [CoreDNS issues](#coredns-issues)
+17. [Debugging Techniques and Strategies. Debugging with ephemeral containers](#debugging-techniques-and-strategies-debugging-with-ephemeral-containers)
+18. [Troubleshooting Tools](#troubleshooting-tools)
      1. [Komodor](#komodor)
      2. [Palaemon](#palaemon)
      3. [cdebug and debug-ctr](#cdebug-and-debug-ctr)
      4. [kubectl-debug](#kubectl-debug)
      5. [Kubeshark](#kubeshark)
-18. [Slides](#slides)
-19. [Images](#images)
-20. [Tweets](#tweets)
+19. [Slides](#slides)
+20. [Images](#images)
+21. [Tweets](#tweets)
 
 ## Introduction
 
 - [==learnk8s.io: A visual guide on troubleshooting Kubernetes deployments== 🌟](https://learnk8s.io/troubleshooting-deployments)
-- [Understanding Kubernetes cluster events](https://banzaicloud.com/blog/k8s-cluster-logging/)
 - [nigelpoulton.com: Troubleshooting kubernetes service discovery - Part 1](https://nigelpoulton.com/blog/f/troubleshooting-kubernetes-service-discovery---part-1)
 - [medium: 5 tips for troubleshooting apps on Kubernetes](https://medium.com/@alexellisuk/5-tips-for-troubleshooting-apps-on-kubernetes-835b6b539c24)
 - [managedkube.com: Troubleshooting a Kubernetes ingress](https://managedkube.com/kubernetes/trace/ingress/service/port/not/matching/pod/k8sbot/2019/02/13/trace-ingress.html)
@@ -51,7 +51,6 @@
     - When people focusing more on the security of containers, distroless based images are frequently used to reduce the attack surface. In these images, the package manager, the non-dependent modules or libraries, even the shells are stripped off, only the app and its required dependencies are kept. For the statically linked executable, produced by golang for example, we can even use “scratch” as the base.
     - The potential exploit of vulnerability is therefore greatly reduced. But, on the other hand, it is difficult to troubleshoot the application if even the shell is not available, leaving only the logs from the app.
     - In this paper, we will explore different options to facilitate debugging by bringing back the shell.
-- [==containiq.com: Kubernetes Events: In-Depth Guide & Examples== 🌟](https://www.containiq.com/post/kubernetes-events) Kubernetes events help you understand how Kubernetes resource decisions are made and they can be helpful for debugging. Learn more about k8s events in this in-depth guide.
 - [==speakerdeck.com/mhausenblas (redhat): Troubleshooting Kubernetes apps==](https://speakerdeck.com/mhausenblas/kubecologne-keynote-troubleshooting-kubernetes-apps)
 - [containiq.com: Debugging Your Kubernetes Nodes in the ‘Not Ready’ State | nodenotready](https://www.containiq.com/post/debugging-kubernetes-nodes-in-not-ready-state) Kubernetes clusters typically run on multiple “nodes” each having its own state. In this article, you’ll learn a few possible reasons a node might enter the **NotReady** state and how you can debug it.
 - [containiq.com: Troubleshooting Kubernetes FailedAttachVolume and FailedMount](https://www.containiq.com/post/fixing-kubernetes-failedattachvolume-and-failedmount) When working with Persistent Volumes in Kubernetes, you might run into the FailedAttachVolume or FailedMount error. In this tutorial, we’ll show you how to troubleshoot these errors and find the root cause and fix them.
@@ -77,7 +76,6 @@
 - [medium.com/@jasonmfehr: Kubernetes Informers: Opening the Mystery Box](https://medium.com/@jasonmfehr/kubernetes-informers-opening-the-mystery-box-4cd690a43a4) In this article, you will learn how the team at Cloudera found a performance issue with Kubernetes informers and how they managed to rectify the issue
 - [maxilect-company.medium.com: Graceful shutdown in a cloud environment (the example of Kubernetes + Spring Boot) 🌟](https://maxilect-company.medium.com/graceful-shutdown-in-a-cloud-environment-the-example-of-kubernetes-spring-boot-f922b41adaa0) In this article, you'll learn why it is crucial to think about graceful shutdown in Kubernetes and how you can approach this task. Many people think about starting an application in the cloud but rarely pay attention to how it ends. Once, we caught quite a few errors explicitly related to pods stopping. For example, we saw that Kubernetes occasionally kills our application before it releases resources, although it seems that this should not happen. It was impossible to reproduce the problem immediately, and we wondered what was happening under the hood?
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
-- [groundcover.com: Failure Is an Option: How to Stay on Top of K8s Container Events](https://www.groundcover.com/blog/k8s-container-events) Gain a deep understanding of how Kubernetes tracks container and Pod status, how it reports error information and how you can collect all of the above in an efficient way
 - [madeeshafernando.medium.com: Capturing Heap Dumps of stateless Kubernetes pods before container termination and export to AWS S3](https://madeeshafernando.medium.com/capturing-heap-dumps-of-stateless-kubernetes-pods-before-container-termination-and-export-to-aws-s3-9602378ee60b)
 - [faun.pub: Troubleshooting Kubernetes nodes storage space shortage on Aliyun (Alibaba Cloud)](https://faun.pub/troubleshooting-kubernetes-nodes-storage-space-shortage-on-aliyun-alibaba-cloud-ac28230fe3d3) In this article, you will follow Stephen's journey to identifying the root cause for cluster nodes running out of space on the Aliyun cloud
 - [thenewstack.io: What David Flanagan Learned Fixing Kubernetes Clusters](https://thenewstack.io/what-david-flanagan-learned-fixing-kubernetes-clusters/) David Flanagan has fixed 50+ Kubernetes clusters as part of his YouTube series, 'Klustered.' He shared what he learned at Civo Navigate.
@@ -92,6 +90,14 @@
 - [thenewstack.io: Kubernetes Troubleshooting Primer](https://thenewstack.io/kubernetes-troubleshooting-primer/) A quick methodology for overcoming common error messages with examples of commands to help — useful for both the administrator and developer alike.
 - [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-debugging-tips)
 - [vik-y.medium.com: An easier way to auto-remediate memory leaks on Kubernetes!](https://vik-y.medium.com/an-easier-way-to-auto-remediate-memory-leaks-on-kubernetes-a922457674f4)
+- [medium.com/@yusufkaratoprak: Advanced Troubleshooting Techniques in Kubernetes Pods](https://medium.com/@yusufkaratoprak/advanced-troubleshooting-techniques-in-kubernetes-pods-24ee0cebfa6f)
+
+## Kubernetes Events
+
+- [Understanding Kubernetes cluster events](https://banzaicloud.com/blog/k8s-cluster-logging/)
+- [==containiq.com: Kubernetes Events: In-Depth Guide & Examples== 🌟](https://www.containiq.com/post/kubernetes-events) Kubernetes events help you understand how Kubernetes resource decisions are made and they can be helpful for debugging. Learn more about k8s events in this in-depth guide.
+- [groundcover.com: Failure Is an Option: How to Stay on Top of K8s Container Events](https://www.groundcover.com/blog/k8s-container-events) Gain a deep understanding of how Kubernetes tracks container and Pod status, how it reports error information and how you can collect all of the above in an efficient way
+- [decisivedevops.com: Kubernetes Events — News feed of your cluster](https://decisivedevops.com/kubernetes-events-news-feed-of-your-kubernetes-cluster-826e08892d7a/) Understand Kubernetes Events and learn to use kubectl events to monitor and troubleshoot your cluster’s issues effectively.
 
 ## Kubernetes Network Troubleshooting
 
@@ -136,6 +142,10 @@
 - [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/hands_on_lab/k8s-qos-oomkilled) This article discusses how to handle OOMKilled errors and how to configure Pod QoS to avoid them
 - [sysdig.com: Kubernetes OOM and CPU Throttling](https://sysdig.com/blog/troubleshoot-kubernetes-oom/) Troubleshooting Memory and CPU problems. Do you know how memory and CPU usage can affect your cloud applications? In this article, you will discuss Out of Memory (OOM) and Throttling in Kubernetes.
 - [medium.com/@bm54cloud: Stressing a Kubernetes Pod to Induce an OOMKilled Error](https://medium.com/@bm54cloud/stressing-a-kubernetes-pod-to-induce-an-oomkilled-error-96f3be9c931d) Learn about memory requests and limits, and what happens when those limits are exceeded
+- [itnext.io: Kubernetes Silent Pod Killer](https://itnext.io/kubernetes-silent-pod-killer-104e7c8054d9) Tracking down invisible OOM Kills in Kubernetes
+    - This article delves into the issue of "Invisible OOM Kills" in Kubernetes, where child processes getting OOM Killed go unnoticed.
+    - An “Invisible” OOM Kill occurs when a child process in a container ( any process which is not the main process, PID 1 ) gets OOM Killed. In that scenario, the OOM Kill that occurred is “invisible” to Kubernetes, and as users we wouldn’t be aware of it.
+    - The Solution: The entire scenario changes with Kubernetes version 1.28. Starting from that version, Kubernetes enables, by default, a cgroup v2 feature known as “cgroup grouping.”
 
 ## Pause Container
 

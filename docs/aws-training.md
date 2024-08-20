@@ -25,6 +25,7 @@
 - [explore.skillbuilder.aws: AWS Security Fundamentals (free)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/48/aws-security-fundamentals-second-edition) In this self-paced course, you will learn fundamental AWS cloud security concepts, including AWS access control, data encryption methods, and how network access to your AWS infrastructure can be secured. We will address and your security responsibility in the AWS cloud and the different security-oriented services available.
 - [==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops resources==](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 - [devopsmonk.hashnode.dev: Learn AWS if you want to save your career..!!](https://devopsmonk.hashnode.dev/learn-aws-if-you-want-to-save-your-career)
+- [==youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟==](https://www.youtube.com/watch?v=zA8guDqfv40)
 
 ## eBooks
 
@@ -35,6 +36,7 @@
 - [linkedin: Sharing My Top 10 resources to use while preparing for AWS Certification Exams](https://www.linkedin.com/pulse/sharing-my-top-10-resources-use-while-preparing-aws-exams-semaan/)
 - [Schedule an Exam](https://aws.amazon.com/certification/certification-prep/testing) Find the testing option that works best for you
 - [dev.to: How to become a Certified AWS Solution Architect in 2022](https://dev.to/javinpaul/how-to-become-a-certified-aws-solution-architect-in-2022-35ad)
+- [community.aws/training: Training and Certification](https://community.aws/training) Advance your cloud skills and elevate your career with Training and Certification
 
 ## Closed groups for AWS certified professionals
 

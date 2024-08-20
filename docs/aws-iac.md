@@ -22,6 +22,8 @@
 - [luminousmen.com: A very quick introduction to the pain of AWS CloudFormation](https://luminousmen.com/post/a-very-quick-introduction-to-the-pain-of-aws-cloudformation)
 - [medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs on AWS App Runner With CloudFormation](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-and-run-python-apis-on-aws-app-runner-with-cloudformation-cf9c6fd14cf6) A step by step guide with an example project With GitHub
 - [AWS CloudFormation introduces Git management of stacks](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-cloudformation-git-management-stacks/)
+- [==aws.amazon.com: Generate AWS CloudFormation templates and AWS CDK apps for existing AWS resources in minutes==](https://aws.amazon.com/about-aws/whats-new/2024/02/aws-cloudformation-templates-cdk-apps-minutes/)
+- [==youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟==](https://www.youtube.com/watch?v=zA8guDqfv40)
 
 ## Infrastructure Code Template Generators
 

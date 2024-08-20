@@ -9,7 +9,8 @@
 7. [kubeshark](#kubeshark)
 8. [k8spacket](#k8spacket)
 9. [Kubelog](#kubelog)
-10. [Videos](#videos)
+10. [Microsoft Retina eBPF](#microsoft-retina-ebpf)
+11. [Videos](#videos)
 
 ## Introduction
 
@@ -91,6 +92,10 @@
 - [medium.com/globant: Monitoring a multi-cluster Kubernetes Deployment](https://medium.com/globant/monitoring-a-multi-cluster-kubernetes-deployment-9e7a418a06b7) Deploying a high resilience monitoring and observation platform for Kubernetes multi-cluster solutions
 - [medium.com/@martin.hodges: Adding observability to a Kubernetes cluster using Prometheus](https://medium.com/@martin.hodges/adding-observability-to-a-kubernetes-cluster-using-prometheus-c2cba6c0fdaa) Monitoring your services is vital and should be considered as part of your underlying infrastructure for your services. You should put this in place ahead of creating and deploying your services. In this article I look at how to deploy Prometheus provide the observability you need to run your services.
 - [addozhang.medium.com: Non-intrusive Inject OpenTelemetry Auto-Instrumentation in Kubernetes](https://addozhang.medium.com/non-intrusive-inject-opentelemetry-auto-instrumentation-in-kubernetes-a9dfd49fc714)
+- [medium.com/@abhisman.sarkar: Kubernetes Monitoring: Effective Cluster Tracking with Prometheus](https://medium.com/@abhisman.sarkar/kubernetes-monitoring-effective-cluster-tracking-with-prometheus-b0ed5b3efb32)
+- [==aws.plainenglish.io: Mastering Monitoring: The Complete Guide to Using Prometheus and Grafana with Kubernetes==](https://aws.plainenglish.io/mastering-monitoring-the-complete-guide-to-using-prometheus-and-grafana-with-kubernetes-e53d8306123d)
+- [medium.com/@muppedaanvesh: A Hands-On Guide to Kubernetes Monitoring Using Prometheus & Grafana](https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039) Understanding Prometheus & Grafana Setup in Kubernetes: A Comprehensive Guide
+- [==signoz.io: Kubernetes Cluster Monitoring with OpenTelemetry | Complete Tutorial== 🌟](https://signoz.io/blog/opentelemetry-kubernetes-cluster-metrics-monitoring/)
 
 ## Kubernetes Logging
 
@@ -155,6 +160,13 @@
 ## Kubelog
 
 - [kubelog.de](https://kubelog.de) kubelog is a graphical log viewer for Kubernetes, which works with your existing Kubernetes logging infrastructure. Kubelog is a log viewer for kubernetes. Tail multiple pods in one view and use searches to highlight and show results in context.
+
+## Microsoft Retina eBPF
+
+- [==github.com/microsoft/retina==](https://github.com/microsoft/retina) - [retina.sh](https://retina.sh) **eBPF distributed networking observability tool for Kubernetes**
+    - Retina is a cloud-agnostic, open-source Kubernetes network observability platform that provides a centralized hub for monitoring application health, network health, and security. It provides actionable insights to cluster network administrators, cluster security administrators, and DevOps engineers navigating DevOps, SecOps, and compliance use cases.
+    - Retina collects customizable telemetry, which can be exported to multiple storage options (such as Prometheus, Azure Monitor, and other vendors) and visualized in a variety of ways (like Grafana, Azure Log Analytics, and other vendors).
+- [blog.teknews.cloud/aks: A look at Retina on AKS](https://blog.teknews.cloud/aks/network/2024/06/29/A_look_at_Retina_on_AKS.html)
 
 ## Videos
 

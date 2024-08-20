@@ -30,6 +30,8 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [12factor.net](https://12factor.net/) - [Are You 12-Factor Application Ready?](https://dzone.com/articles/are-you-12-factor-application-ready) - [12-factor app infographic](https://dzone.com/whitepapers/the-12-factor-app-infographic) - [An illustrated guide to 12 Factor Apps 🌟](https://www.redhat.com/architect/12-factor-app)
 - [openpracticelibrary.com](https://openpracticelibrary.com/) - [Top 10 most visited pages](https://www.redhat.com/en/blog/top-10-most-used-open-practice-library-concepts)
 - [roadmap.sh](https://roadmap.sh/) - [DevOps Roadmap](https://roadmap.sh/devops) - [Kubernetes Roadmap](https://roadmap.sh/kubernetes)
+    - [roadmap.sh/ai: Generate roadmaps with AI](https://roadmap.sh/ai)
+    - [roadmap.sh/terraform](https://roadmap.sh/terraform)
 - [API Landscape](https://apilandscape.apiscene.io/)
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
     - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
@@ -104,6 +106,24 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)
 - [dagger.io](https://dagger.io) CI/CD as Code that Runs Anywhere.
 - [Bus factor](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
+- [seal.io: Open Source Platform Engineering for Dev & Ops](https://www.seal.io/)
+- [==k8sgpt.ai==](https://k8sgpt.ai/) K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
+- [github.com/topics/gitops](https://github.com/topics/gitops)
+- [Dolt: Git for Data](https://github.com/dolthub/dolt)
+- [serverlesshorrors.com](https://serverlesshorrors.com/)
+- [glasskube.dev package manager for k8s 🌟](https://glasskube.dev/)
+- [github.com/infrahouse/infrahouse-toolkit](https://github.com/infrahouse/infrahouse-toolkit) A collection of tools for building infrastructure
+- [github.com/taubyte/tau](https://github.com/taubyte/tau) Open Source Git-Native CDN PaaS
+- [==mattias.engineer/courses== 🌟](https://mattias.engineer/courses/) HashiCorp Terraform, HashiCorp Vault, Kubernetes CKAD
+- [The hater’s guide to Kubernetes](https://paulbutler.org/2024/the-haters-guide-to-kubernetes/)
+- [github.com/cyclops-ui/cyclops](https://github.com/cyclops-ui/cyclops) Developer Friendly Kubernetes
+- [k8z.dev](https://k8z.dev/) A lightweight, modern mobile and desktop application for manage kubernetes
+- [Kube-score](https://github.com/zegl/kube-score)
+- [testkube.io 🌟](https://testkube.io)
+- [wcurl](https://github.com/curl/wcurl) A simple wrapper around curl to easily download files
+- [NetBox IPAM](https://github.com/netbox-community/netbox)
+- [youtube: GitOps Guide to the Galaxy](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)
+- [devopswithkubernetes.com](https://devopswithkubernetes.com/) Introductory course to Kubernetes with K3s and GKE
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
@@ -121,6 +141,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 ## DevSecOps and Security
 - [DevSecOps and Security. Container Security](devsecops.md)
 - [Security Policy as Code](securityascode.md)
+- [OAuth2](oauth.md)
 ## NoOps aka Serverless
 - [NoOps](noops.md)
 - [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
@@ -315,7 +336,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 [![thetips4you](images/thethips4you.jpg){: style="width:7%"}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:7%"}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:7%"}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:7%"}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:7%"}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:7%"}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:7%"}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:7%"}](https://www.youtube.com/c/JavierGarz%C3%A1s/)<br/>
 [![london IAC](images/londonIAC.jpg){: style="width:7%"}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:7%"}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:7%"}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:7%"}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:7%"}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:7%"}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:7%"}](https://www.youtube.com/c/TheNewStack) [![argocd project](images/argoproj.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA) [![fluxcd](images/fluxcd.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA) [![container days](images/containerdays.jpg){: style="width:7%"}](https://www.youtube.com/c/ContainerDays) [![the cloud girl](images/thecloudgirl.jpg){: style="width:7%"}](https://www.youtube.com/c/priyankavergadia)<br/>
 [![ContinuousDeliveryFoundation](images/ContinuousDeliveryFoundation.jpg){: style="width:7%"}](https://www.youtube.com/c/ContinuousDeliveryFoundation) [![tina huang](images/tinahuang.jpg){: style="width:7%"}](https://www.youtube.com/c/TinaHuang1) [![azure devops](images/azure_devops_youtube.jpg){: style="width:7%"}](https://www.youtube.com/c/AzureDevOps) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:7%"}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![alibaba cloud](images/alibaba_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/AlibabaCloud) [![linode cloud](images/linode_cloud.jpg){: style="width:7%"}](https://www.youtube.com/c/linode) [![gaia-x](images/gaia_x.jpg){: style="width:7%"}](https://www.youtube.com/channel/UCB5WMc2FfrxKzfd7XIODoMw) [![gps](images/gps.jpg){: style="width:7%"}](https://www.youtube.com/c/MadeByGPS) [![keptn](images/keptn_logo.jpg){: style="width:7%"}](https://www.youtube.com/c/keptn) [![anais urlichs](images/anais_urlichs.jpg){: style="width:7%"}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:7%"}](https://www.youtube.com/c/TheDigitalLifeTech)<br/>
-[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer)
+[![Azure Terraformer](images/azure-terraformer.jpg){: style="width:7%"}](https://www.youtube.com/@azure-terraformer) [![Ned in the Cloud](images/nedinthecloud.jpg){: style="width:7%"}](https://www.youtube.com/@NedintheCloud) [![Tech with Helen](images/techwithhelen.jpg){: style="width:7%"}](https://www.youtube.com/@techwithhelen)
 </center>
 
 ??? note "Top Videos & Clips - Click to expand!"
@@ -344,6 +365,7 @@ A curated list of awesome references collected since 2018. Microservices archite
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5EsdnpLMI?si=ESsNnVwE8IdWSiWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/uQz0TpyJbE8?si=Ys-bXCWcoG-nDU1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
 
 <!--

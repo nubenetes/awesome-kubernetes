@@ -23,7 +23,8 @@
 21. [bpftrace](#bpftrace)
 22. [Linux processes](#linux-processes)
 23. [Linux Memory](#linux-memory)
-24. [Linux and Kubernetes](#linux-and-kubernetes)
+24. [KVM](#kvm)
+25. [Linux and Kubernetes](#linux-and-kubernetes)
      1. [Systemd](#systemd)
      2. [Blogs](#blogs)
      3. [CommandLineFu](#commandlinefu)
@@ -31,12 +32,13 @@
      5. [Copr Build System](#copr-build-system)
      6. [Pulp](#pulp)
      7. [Hashicorp](#hashicorp)
-25. [Linux Libraries](#linux-libraries)
-26. [Linux Networking](#linux-networking)
-27. [Networking Protocols](#networking-protocols)
-28. [Linux Hardening Security](#linux-hardening-security)
-29. [Images](#images)
-30. [Tweets](#tweets)
+26. [Linux Libraries](#linux-libraries)
+27. [Linux Networking](#linux-networking)
+28. [Networking Protocols](#networking-protocols)
+29. [Linux Hardening Security](#linux-hardening-security)
+30. [Images](#images)
+31. [Videos](#videos)
+32. [Tweets](#tweets)
 
 ## Introduction
 
@@ -241,6 +243,9 @@
 - [dev.to: 50 Linux Commands every developer NEED to know with example](https://dev.to/kanani_nirav/50-linux-commands-every-developer-need-to-know-with-example-mc)
 - [blog.devgenius.io: DevOps in Linux — Systemd Introduction](https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b)
 - [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) Difftastic is a CLI diff tool that compares files based on their syntax, not line-by-line. Difftastic produces accurate diffs that are easier for humans to read.
+- [digitalocean.com: How To Use Journalctl to View and Manipulate Systemd Logs 🌟](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
+- [github.com/curl/wcurl 🌟](https://github.com/curl/wcurl) a simple wrapper around curl to easily download files
+    - [blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files](https://blog.techiescamp.com/docs/wcurl/)
 
 ## Makefiles
 
@@ -295,6 +300,7 @@
 - [levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every Developer](https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593) Process strings productively in your automation scripts with these syntaxes
 - [piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers](https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers)
 - [gnu.org/software/parallel](https://www.gnu.org/software/parallel/) GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input. The typical input is a list of files, a list of hosts, a list of users, a list of URLs, or a list of tables. A job can also be a command that reads from a pipe. GNU parallel can then split the input and pipe it into commands in parallel.
+- [==youtube: Bash for Beginners==](https://www.youtube.com/playlist?list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l) Bash is considered a universal language when it comes to cloud computing and programming. Many languages support Bash commands to pass data and information and when it comes to the Cloud, all platforms support using it to interact with your environment.
 
 ## Questions and Answers
 
@@ -309,6 +315,7 @@
 
 - [Oh My Zsh](https://ohmyz.sh/) Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 - [zshdb.readthedocs.io](https://zshdb.readthedocs.io) zshdb - a gdb-like debugger for zsh
+- [github.com/zsh-users/zsh-autosuggestions 🌟](https://github.com/zsh-users/zsh-autosuggestions) Fish-like autosuggestions for zsh
 
 ## ZX
 
@@ -320,6 +327,7 @@
 - https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
 - https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md
+- [blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization](https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff)
 
 ## Linux processes
 
@@ -328,6 +336,10 @@
 ## Linux Memory
 
 - [learnsteps.com: Difference between minor page faults vs major page faults](https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/)
+
+## KVM
+
+- [github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟](https://github.com/cyberus-technology/virtualbox-kvm) This repository contains a KVM backend for the open source virtualization tool VirtualBox. With this backend, Linux KVM is used as the underlying hypervisor.
 
 ## Linux and Kubernetes
 
@@ -414,6 +426,14 @@
 
 	<center>
 	[![the art of command line](images/cli_tips.jpg)](https://github.com/jlevy/the-art-of-command-line)
+	</center>
+
+## Videos
+
+??? note "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=wIr50Eu2-ZPwdI6N&amp;list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	</center>
 
 ## Tweets

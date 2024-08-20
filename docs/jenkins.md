@@ -249,6 +249,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 ## Online Learning
 
+- [==blog.techiescamp.com/jenkins-course== 🌟🌟🌟](https://blog.techiescamp.com/jenkins-course/)
+    - [Lesson 5.1: Introduction to Jenkins Multibranch Pipeline](https://blog.techiescamp.com/docs/jenkins-multibranch-pipeline/)
 - [udemy.com: Master Jenkins CI For DevOps and Developers](https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops/)
 - [udemy.com: Learn DevOps: CI/CD with Jenkins using Pipelines and Docker](https://www.udemy.com/learn-devops-ci-cd-with-jenkins-using-pipelines-and-docker/) Use Jenkins the DevOps way. Automate your Jenkins jobs by using Jenkins Pipelines, Docker, and the Jenkins Job DSL
 - [wardviaene/jenkins-course 🌟](https://github.com/wardviaene/jenkins-course)

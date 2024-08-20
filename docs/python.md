@@ -266,6 +266,10 @@
 - [testdriven.io: Clean Code in Python](https://testdriven.io/blog/clean-code-python/)
 - [python.plainenglish.io: These 25 Python Commands Are All You Need for Programming Mastery in 2024](https://python.plainenglish.io/these-25-python-commands-are-all-you-need-for-programming-mastery-in-2024-322ebc29c4e1)
 - [python.plainenglish.io: REST: A Quick Guide to Building Scalable and Flexible Systems Using HTTP](https://python.plainenglish.io/rest-a-quick-guide-to-building-scalable-and-flexible-systems-using-http-62154841eefd) The characteristics of a RESTful systems, HTTP methods used to interact with resources, and HTTP status codes.
+- [hub.tinztwins.de: 7 Hidden Python Tips for 2024](https://hub.tinztwins.de/7-hidden-python-tips-for-2024) Boost your work pace and advance your Python expertise
+- [medium.com/bitgrit-data-science-publication: latexify: Writing LaTeX with Python](https://medium.com/bitgrit-data-science-publication/latexify-writing-latex-with-python-6c0fa4b2e9d5) Generate LaTeX expression from Python code.
+    - [pypi.org/project/latexify-py](https://pypi.org/project/latexify-py/)
+- [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial/)
 
 ## ReactPy
 
@@ -442,6 +446,7 @@
 - [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) Memray is a memory profiler for Python
 - [github.com/microsoft/pyright](https://github.com/microsoft/pyright) Static Type Checker for Python
 - [github.com/kodemore/chili](https://github.com/kodemore/chili) Object serialization/deserialization tools for python.
+- [==Ruff==](https://github.com/astral-sh/ruff) **An extremely fast Python linter and code formatter, written in Rust.**
 
 ### Web Scraping with Python
 

@@ -6,16 +6,17 @@
 4. [Git Squash](#git-squash)
 5. [Git Branches](#git-branches)
 6. [Git Merge](#git-merge)
-7. [Git Aliases](#git-aliases)
-8. [Git Rebase](#git-rebase)
-9. [Git and GitHub Backup](#git-and-github-backup)
-10. [Cherry-picking](#cherry-picking)
-11. [Git Submodules](#git-submodules)
-12. [Shields](#shields)
-13. [Design By Contract](#design-by-contract)
-14. [Git Cheat Sheets](#git-cheat-sheets)
-15. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
-16. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
+7. [Merge Repositories](#merge-repositories)
+8. [Git Aliases](#git-aliases)
+9. [Git Rebase](#git-rebase)
+10. [Git and GitHub Backup](#git-and-github-backup)
+11. [Cherry-picking](#cherry-picking)
+12. [Git Submodules](#git-submodules)
+13. [Shields](#shields)
+14. [Design By Contract](#design-by-contract)
+15. [Git Cheat Sheets](#git-cheat-sheets)
+16. [Monorepo VS Polyrepo](#monorepo-vs-polyrepo)
+17. [Patterns for Managing Source Code Branches (Branching Models/Workflows)](#patterns-for-managing-source-code-branches-branching-modelsworkflows)
      1. [Git Workflows](#git-workflows)
      2. [Trunk Based Development](#trunk-based-development)
      3. [Feature Branch Development (aka GitFlow)](#feature-branch-development-aka-gitflow)
@@ -25,18 +26,19 @@
      5. [Alternative Branching Models](#alternative-branching-models)
          1. [Feature Flags (Feature Toggles)](#feature-flags-feature-toggles)
              1. [Keystone Interface and Keystone Flags](#keystone-interface-and-keystone-flags)
-17. [Git Commands](#git-commands)
-18. [BitBucket](#bitbucket)
-19. [GitLab](#gitlab)
+18. [Git Commands](#git-commands)
+19. [BitBucket](#bitbucket)
+20. [GitLab](#gitlab)
      1. [GitLab Collective](#gitlab-collective)
-20. [GitHub](#github)
-21. [Fake it til you make it](#fake-it-til-you-make-it)
-     1. [GitHub Lab](#github-lab)
-     2. [GitHub Code Scanner](#github-code-scanner)
-     3. [GitHub Actions](#github-actions)
+21. [GitHub](#github)
+     1. [Fake it til you make it](#fake-it-til-you-make-it)
+     2. [GitHub Lab](#github-lab)
+     3. [GitHub Code Scanner](#github-code-scanner)
+     4. [GitHub Discussions](#github-discussions)
+     5. [GitHub Actions](#github-actions)
          1. [GitHub Actions Marketplace](#github-actions-marketplace)
-     4. [GitHub Actions and OpenShift](#github-actions-and-openshift)
-     5. [GitHub Copilot](#github-copilot)
+     6. [GitHub Actions and OpenShift](#github-actions-and-openshift)
+     7. [GitHub Copilot](#github-copilot)
          1. [GitHub CoPilot VS GPT-3](#github-copilot-vs-gpt-3)
          2. [GitHub Copilot X](#github-copilot-x)
          3. [Alternatives](#alternatives)
@@ -82,6 +84,7 @@
 - [dzone.com: Git Commands Tutorial - Part 2](https://dzone.com/articles/git-commands-tutorial-part-2)
 - [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
 - [Oh shit, git!](https://ohshitgit.com/)
+- [freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟](https://www.freecodecamp.org/news/learn-git-basics/)
 - [How to Get More Out of Your Git Commit Message](https://datree.io/blog/git-commit-message-conventions-for-readable-git-log/)
 - [10 useful Git commands you wish existed – and their alternatives](https://datree.io/blog/useful-git-commands-list/)
 - [github.blog: How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
@@ -183,6 +186,8 @@
 - [cloud-and-devops.hashnode.dev: Git 007 : Learn Advanced GIT topics like a Pro](https://cloud-and-devops.hashnode.dev/git-007-learn-advanced-git-topics-like-a-pro)
 - [build5nines.com: Git: Reset / Undo Most Recent Local Commit](https://build5nines.com/git-reset-undo-most-recent-local-commit/)
 - [freecodecamp.org: How to Write Commit Messages that Project Maintainers Will Appreciate](https://www.freecodecamp.org/news/how-to-write-commit-messages-maintainers-will-like/)
+- [==learn.gitkraken.com/courses/git-foundations: Foundations of Git - Certification Course | Enroll for free==](https://learn.gitkraken.com/courses/git-foundations)
+- [build5nines.com: How to Determine URL a Local Git Repository was Originally Cloned From](https://build5nines.com/how-to-determine-url-a-local-git-repository-was-originally-cloned-from/)
 
 ## Git Releases
 
@@ -225,6 +230,11 @@
 ## Git Merge
 
 - [freecodecamp.org: The Git Merge Handbook – Definitive Guide to Merging in Git](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/)
+- [freecodecamp.org: How to Fix Merge Conflicts in Git](https://www.freecodecamp.org/news/how-to-fix-merge-conflicts-in-git/)
+
+## Merge Repositories
+
+- [build5nines.com: Git: Merge Repositories with History](https://build5nines.com/git-merge-repositories-with-history/)
 
 ## Git Aliases
 
@@ -476,6 +486,7 @@ git rebase -i HEAD~5
 - [community.ops.io: CI CD 101 with GitLab](https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol)
 - [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/2022/11/15/simple-kubernetes-management-with-gitlab/)
 - [itnext.io: Managing multiple Kubernetes clusters using Git 🌟](https://itnext.io/managing-multiple-kubernetes-clusters-using-git-cd068bbd85ac) Managing multi-cloud Kubernetes clusters in a central location using GitLab
+- [renjithvr11.medium.com: Running GitLab Runners on Kubernetes](https://renjithvr11.medium.com/running-gitlab-runners-on-kubernetes-8e7fc9bf75ce)
 
 ### GitLab Collective
 
@@ -485,6 +496,7 @@ git rebase -i HEAD~5
 ## GitHub
 
 - [githubstatus.com 🌟](https://www.githubstatus.com/)
+- [buttons.github.io: GitHub Buttons](https://buttons.github.io/)
 - [GitHub Codespaces](https://github.com/features/codespaces) Get the full Visual Studio Code experience without leaving GitHub.
     - [infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance](https://www.infoq.com/news/2022/02/github-codespaces-templates/)
     - [infoworld.com: GitHub Codespaces freely available to all GitHub users](https://www.infoworld.com/article/3679948/github-codespaces-freely-available-to-all-github-users.html) All GitHub users can use the GitHub-hosted development environments free for up to 60 hours per month. Codespaces also added JetBrains IDE, JupyterLab, and GPU support.
@@ -564,8 +576,12 @@ git rebase -i HEAD~5
 - [==youtube: GitHub Masterclass (Spanish)== 🌟](https://www.youtube.com/playlist?list=PL0pgb_7nDofA1hJpkpPf4qHQTYZbPVT5M)
 - [freecodecamp.org: How to Build a GitHub Template Repository for Scaffolding with React, Vite, and TailwindCSS](https://www.freecodecamp.org/news/create-a-github-template-repository-with-react-vite-and-tailwindcss/)
 - [alemsbaja.hashnode.dev: Git and GitHub Demystified : A Comprehensive Guide for Version Control System](https://alemsbaja.hashnode.dev/git-and-github-demystified-a-comprehensive-guide-for-version-control-system) A Comprehensive Guide to Mastering Git Version Control System and GitHub with example
+- [docs.github.com: Using SSH over the HTTPS port 🌟](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port) Sometimes, firewalls refuse to allow SSH connections entirely. If using HTTPS cloning with credential caching is not an option, you can attempt to clone using an SSH connection made over the HTTPS port. Most firewall rules should allow this, but proxy servers may interfere.
+- [freecodecamp.org: How to Contribute to Open-Source Projects – Git & GitHub Workflow for Beginners](https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source/)
+- [==mattias.engineer: Azure Federated Identity Credentials for GitHub==](https://mattias.engineer/blog/2024/azure-federated-credentials-github/)
+- [freecodecamp.org: How to Create and Sync Git and GitHub Repositories](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/)
 
-## Fake it til you make it
+### Fake it til you make it
 
 - [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) Have you come across to someone that thinks you don't deserve a job because you don't have GitHub contributions? Never worked for a company who hired based on GitHub contributions alone. If anyone is bugging you because you are not an open source developer or your company doesn't use GitHub, use fake-it-til-you-make-it to generate two years of contributions.
 
@@ -577,6 +593,10 @@ git rebase -i HEAD~5
 
 - https://docs.github.com/en/code-security/code-scanning
 - [analyticsindiamag.com: GitHub launches code scanner to flag security vulnerabilities](https://analyticsindiamag.com/github-launches-code-scanner-to-flag-security-vulnerabilities/) The new experimental analysis can have a higher false-positive rate relative to results from standard CodeQL analysis.
+
+### GitHub Discussions
+
+- [github.com/giscus/giscus](https://github.com/giscus/giscus) A comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances](https://github.com/utterance/utterances).
 
 ### GitHub Actions
 
@@ -618,6 +638,11 @@ git rebase -i HEAD~5
 - [blog.gskinner.com: Flutter: Easily add CI testing with GitHub Actions](https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html)
 - [==devblogs.microsoft.com: .NET 💜 GitHub Actions==](https://devblogs.microsoft.com/dotnet/dotnet-loves-github-actions/)
 - [==tonylixu.medium.com: GitOps — Github Actions Docker Build Workflow==](https://tonylixu.medium.com/gitops-github-actions-docker-build-workflow-157cc53e9a0d) GitOps using Github Actions
+- [registry.terraform.io/modules/markti/github-runner](https://registry.terraform.io/modules/markti/github-runner/azurerm) Provision a Custom Runner for GitHub Actions
+- [build5nines.com: Configuring Manual Triggers in GitHub Actions with `workflow_dispatch`](https://build5nines.com/configuring-manual-triggers-in-github-actions-with-workflow_dispatch/)
+- [medium.com/@george_bakas: Mastering GitHub Actions: Environment Variables and Secrets Management](https://medium.com/@george_bakas/mastering-github-actions-environment-variables-and-secrets-management-3daac384477b)
+- [build5nines.com: Configuring GitHub Actions to Run Jobs on Specific Branches](https://build5nines.com/configuring-github-actions-to-run-jobs-on-specific-branches/)
+- [build5nines.com: GitHub Actions: Get Current Branch Name for Git Repo](https://build5nines.com/github-actions-get-current-branch-name-for-git-repo/)
 
 #### GitHub Actions Marketplace
 
@@ -650,6 +675,7 @@ git rebase -i HEAD~5
 - [xataka.com: Copilot es una revolución para programadores (pero también un potencial problema legal para Microsoft)](https://www.xataka.com/robotica-e-ia/copilot-revolucion-para-programadores-tambien-potencial-problema-legal-para-microsoft)
 - [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) GitHub Copilot is evolving to bring chat and voice interfaces, support pull requests, answer questions on docs, and adopt OpenAI’s GPT-4 for a more personalized developer experience.
 - [techcommunity.microsoft.com: Coding Frameworks and languages are no longer the point, prompting is](https://techcommunity.microsoft.com/t5/educator-developer-blog/coding-frameworks-and-languages-are-no-longer-the-point/ba-p/3820265)
+- [github.blog/developer-skills: 10 unexpected ways to use GitHub Copilot](https://github.blog/developer-skills/programming-languages-and-frameworks/10-unexpected-ways-to-use-github-copilot/) GitHub Copilot is widely known for its code generation feature. Learn how the AI assistant’s abilities can extend beyond just code generation.
 
 #### GitHub CoPilot VS GPT-3
 

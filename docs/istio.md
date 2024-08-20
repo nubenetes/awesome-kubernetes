@@ -122,6 +122,8 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
     - Istio Architecture
     - How to enable mTLS
     - How to enable access control and authorization between your microservices
+- [medium.com/hamburger-berater-team: Varnish Sharding with Istio in Kubernetes](https://medium.com/hamburger-berater-team/varnish-sharding-with-istio-in-kubernetes-402f313919aa) How to use Istio to transparently implement consistent Hash-based Load Balancing across multiple Varnish instances — sharding based on the HTTP request URI.
+- [medium.com/@marc.guerrini: DIY — Istio — validate JWT](https://medium.com/@marc.guerrini/diy-istio-validate-jwt-1ffbd488b1f3) his tutorial demonstrates how to protect an application using Istio, from initial setup to adding security features to the ingress gateway
 
 ## API Access Control
 

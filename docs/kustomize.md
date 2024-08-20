@@ -39,6 +39,7 @@
 - [blog.devgenius.io: Kustomize — K8 manifest patching](https://blog.devgenius.io/kustomize-simple-manifest-manipulation-9330f7f40d5d) In this tutorial, you will learn how to manipulate YAML files using Kustomize
 - [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295) Gain speed and clarity by adopting GitOps for your deployments
 - [==techiescamp.com: Kubernetes Kustomize Crash Course==](https://techiescamp.com/courses/kubernetes-kustomize/) In this Kustomize crash course, you will learn all the Kustomize concepts and deploy an application using Kustomize on a Kubernetes cluster.
+- [==devopscube.com/kuztomize-configmap-generators: Kuztomize Secret & Configmap Generators [Practical Examples]==](https://devopscube.com/kuztomize-configmap-generators/)
 
 ## Secretize plugin
 

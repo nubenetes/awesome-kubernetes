@@ -8,13 +8,14 @@
 4. [Mercedes Benz](#mercedes-benz)
 5. [Tesla](#tesla)
 6. [IDRA Group](#idra-group)
-7. [Carrefour Spain](#carrefour-spain)
-8. [Decathlon](#decathlon)
-9. [Deutsche Telekom](#deutsche-telekom)
-10. [AstraZeneca](#astrazeneca)
-11. [AI for Medical Imaging](#ai-for-medical-imaging)
-12. [AXA Group](#axa-group)
-13. [Videos](#videos)
+7. [Williams F1](#williams-f1)
+8. [Carrefour Spain](#carrefour-spain)
+9. [Decathlon](#decathlon)
+10. [Deutsche Telekom](#deutsche-telekom)
+11. [AstraZeneca](#astrazeneca)
+12. [AI for Medical Imaging](#ai-for-medical-imaging)
+13. [AXA Group](#axa-group)
+14. [Videos](#videos)
 
 ## BMW IT-Zentrum (Munich)
 
@@ -49,6 +50,7 @@
 - Google Cloud Handle’s machine learning capabilities were used to implement use cases — ranging from charging optimisation for our electric vehicles, to wheel classification along our assembly line.
 - Artificial Intelligence is a key technology in our digital transformation, and we want to enable our colleagues across all disciplines to work with the latest technologies. We strive to offer our worldwide network of software developers the opportunity to view, change, and develop their own algorithms. These projects illustrate the range of solutions that AI can provide, from automatic image recognition to natural language processing.
 - We also make selected algorithms available in an open source platform. “We expect the further open source development to lead to a rapid and agile advancement of the software,” says Kai Demtroeder, Head of Artificial Intelligence and Data Platforms at BMW Group IT.
+- [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws/)
 
 ## Audi
 
@@ -79,6 +81,10 @@
 - [teslarati.com: IDRA finishes 9,000-ton Giga Press; Tesla expecting it any day now](https://www.teslarati.com/idra-9000-ton-giga-press/)
 - [eleconomista.es: Giga Press, la colosal máquina de Tesla que ha revolucionado la fabricación de coches eléctricos](https://www.eleconomista.es/motor/noticias/12630740/01/24/giga-press-la-colosal-maquina-de-tesla-que-ha-revolucionado-la-fabricacion-de-coches-electricos.html)
 
+## Williams F1
+
+- [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) James Vowles, nuevo jefe de Williams, encontró uno de los motivos por los que el histórico equipo de la Fórmula 1 estaba tan atrasado
+
 ## Carrefour Spain
 
 - [Efficient Java in the cloud with Quarkus. Carrefour Spain’s test: Quarkus vs. Spring Boot](https://horizons.carrefour.com/efficient-java-in-the-cloud-with-quarkus) "This move will help our applications to become scalable, real time, resilient and, all in all, provide a better experience to our customers"
@@ -105,6 +111,9 @@
 - [health.google: AI-enabled imaging and diagnostics previously thought impossible](https://health.google/intl/ALL_en/health-research/imaging-and-diagnostics/)
 - [nature.com: Quibim: empowering biopharma to turn images into actionable predictions using artificial intelligence](https://www.nature.com/articles/d43747-023-00028-w) Taking an innovative approach to applying artificial intelligence (AI) to medical imaging, Quibim is designing predictive panels to enable healthcare providers to improve patient outcomes.
 - [imperialbiosciencereview.wordpress.com: Redefining diagnostics: the integration of machine learning in medical imaging](https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2/)
+- [falco.org/about/case-studies/incepto-medical: Protect shared clusters for medical imaging](https://falco.org/about/case-studies/incepto-medical/) [Incepto Medical](https://incepto-medical.com/en) provides on-demand medical imaging analysis to healthcare facilities. This analysis is based on AI technology manufactured or distributed by Incepto for mammography, X-ray, emergency, CT, MR and PET scanners. Incepto’s partners can also use shared clusters to host their own medical devices and AI models.
+- [hms.harvard.edu: Does AI Help or Hurt Human Radiologists’ Performance? It Depends on the Doctor](https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor) New research shows radiologists and AI don’t always work well together
+- [cronicaglobal.elespanol.com: Roberto Ardon (Incepto): "A la IA no se le pueden pedir imposibles"](https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html) Incepto es una empresa dedicada al desarrollo de inteligencia artificial para diagnóstico de imagen médica en hospitales; su director de Data Science responde sobre los retos que supone diseñar y entrenar programas de este tipo
 
 ## AXA Group
 

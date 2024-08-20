@@ -1,7 +1,8 @@
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 
 1. [Monitoring and Observability](#monitoring-and-observability)
-    1. [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
+    1. [Profiling](#profiling)
+    2. [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
 2. [OpenShift Cluster Monitoring Built-in solutions](#openshift-cluster-monitoring-built-in-solutions)
     1. [OpenShift 3.11 Metrics and Logging](#openshift-311-metrics-and-logging)
         1. [Prometheus and Grafana](#prometheus-and-grafana)
@@ -44,10 +45,11 @@
 20. [Instana APM](#instana-apm)
 21. [Monitoring Etcd](#monitoring-etcd)
 22. [Zabbix](#zabbix)
-23. [Other Tools](#other-tools)
-24. [Other Awesome Lists](#other-awesome-lists)
-25. [Slides](#slides)
-26. [Tweets](#tweets)
+23. [VictoriaMetrics and VictoriaLogs](#victoriametrics-and-victorialogs)
+24. [Other Tools](#other-tools)
+25. [Other Awesome Lists](#other-awesome-lists)
+26. [Slides](#slides)
+27. [Tweets](#tweets)
 
 ## Monitoring and Observability
 
@@ -125,6 +127,13 @@
 - [==devops.com: Why Monitoring-as-Code Will be a Must for DevOps Teams==](https://devops.com/why-monitoring-as-code-will-be-a-must-for-devops-teams/)
 - [medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry for Observability](https://medium.com/cloud-native-daily/why-you-shouldnt-fear-to-adopt-opentelemetry-for-observability-fcb6371ea8fe) An introduction to OpenTelemetry, an open-source project that’s taking observability to a new level.
 - [medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing System Reliability](https://medium.com/@bijit211987/observability-driven-development-2bc2cdde8661)
+- [==forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy==](https://www.forbes.com/sites/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy)
+    - The observability space is a multi-billion-dollar market and for good reason—there are a lot of benefits when you implement a robust observability strategy. But extracting value is not as simple as adopting a tool, throwing your data into a black box and expecting it to spit out business-relevant, contextualized insights and helpful visualizations.
+    - As they say, “Nothing good comes easy”—but when done right, a mature observability strategy will pay for itself over and over again.
+
+### Profiling
+
+- [==medium.com/performance-engineering-for-the-ordinary-barbie: Why profiling should be part of regular software development workflow== 🌟](https://medium.com/performance-engineering-for-the-ordinary-barbie/why-profiling-should-be-part-of-regular-software-development-workflow-8b19b7f52b38)
 
 ### Key Performance Indicator (KPI)
 
@@ -289,6 +298,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [medium: Logging with EFK - Pratyush Mathur](https://medium.com/@pratyush.mathur/logging-with-efk-1c2e131496d)
 - [medium.com/@CuriousLearner: Deploying EFK stack on Kubernetes](https://medium.com/@CuriousLearner/deploying-efk-stack-on-kubernetes-c25ba2682c99)
+- [medium.com/@tech_18484: Simplifying Kubernetes Logging with EFK Stack](https://medium.com/@tech_18484/simplifying-kubernetes-logging-with-efk-stack-158da47ce982)
 
 ### Logstash Grok for Log Parsing
 
@@ -582,6 +592,11 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 - [openshift.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://www.openshift.com/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)
 - [openshift.com: How to Monitor Openshift 4.x with Zabbix using Prometheus - Part 2](https://www.openshift.com/blog/how-to-monitoring-openshift-4.x-with-zabbix-using-prometheus-part-2)
 - [cloud.redhat.com: Monitoring Infrastructure Openshift 4.x Using Zabbix Operator](https://cloud.redhat.com/blog/monitoring-infrastructure-openshift-4.x-using-zabbix-operator)
+
+## VictoriaMetrics and VictoriaLogs
+
+- [victoriametrics.com](https://victoriametrics.com)
+- [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/) VictoriaLogs is an open source database for logs that uses up to 30x less RAM and up to 15x disk space than Elasticsearch has just relased several new features to celebrate their one year anniversary
 
 ## Other Tools
 

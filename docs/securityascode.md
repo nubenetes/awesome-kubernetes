@@ -143,6 +143,7 @@
     - Misconfigured resources can be corrected on the fly
     - New resources can be dynamically generated
 - [blog.sigstore.dev: How to verify container images with Kyverno using KMS, Cosign, and Workload Identity](https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061/)
+- [medium.com/@glen.yu: Why I prefer Kyverno over Gatekeeper for native Kubernetes policy management](https://medium.com/@glen.yu/why-i-prefer-kyverno-over-gatekeeper-for-native-kubernetes-policy-management-35a05bb94964) I used to use Open Policy Agent Gatekeeper for Kubernetes policies but personally found writing new policies to be quite difficult with a steep learning curve. I then decided to give Kyverno a try and was really impressed with how easy it was to use.
 
 ### Kyverno E-Learning
 
@@ -159,4 +160,4 @@
 
 ## Azure Policy
 
-- [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-for-kubernetes-releases-support-for-custom-policy/ba-p/2699466) **A tutorial on how to set up Azure Policy for Kubernetes with custom policies.**
+- [Azure Policy](azure.md)

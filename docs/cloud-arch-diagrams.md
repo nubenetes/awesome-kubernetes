@@ -2,10 +2,11 @@
 
 1. [Introduction](#introduction)
 2. [MultiCloud](#multicloud)
-3. [Architecture Icons](#architecture-icons)
-4. [AWS](#aws)
-5. [Google Cloud Architecture Diagramming Tool](#google-cloud-architecture-diagramming-tool)
-6. [Airflow](#airflow)
+3. [K8s Diagrams](#k8s-diagrams)
+4. [Architecture Icons](#architecture-icons)
+5. [AWS](#aws)
+6. [Google Cloud Architecture Diagramming Tool](#google-cloud-architecture-diagramming-tool)
+7. [Airflow](#airflow)
 
 ## Introduction
 
@@ -22,6 +23,7 @@
 - [PlantUML](https://plantuml.com/)
 - [draw.io](https://drawio-app.com/)
     - [opensource.com: Open source mind mapping with Draw.io](https://opensource.com/article/21/12/open-source-mind-mapping-drawio) Next time you need to brainstorm, organize ideas, or plan a project, start with Draw.io.
+    - [chcommunity.microsoft.com: Draw.io Azure infrastructure diagrams through code like an artist](https://techcommunity.microsoft.com/t5/microsoft-developer-community/draw-io-azure-infrastructure-diagrams-through-code-like-an/ba-p/4071316)
 - [Isoflow](https://isoflow.io) Infrastructure Diagrams
 - [acloudguru.com: The top cloud diagramming tools, ranked](https://acloudguru.com/blog/engineering/the-top-cloud-diagramming-tools-ranked)
 - [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/architect/diagramming-tools-cloud-infrastructure) Communicating a vision for cloud computing requires meaningful diagrams of logical, physical, and every layer in between. Here are tools that will help make them.
@@ -33,6 +35,11 @@
     - [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams/)
 - [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) Kubernetes diagrams using VS Code. Kubernetes-PlantUML contains the PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components. This work is based on the official Kubernetes Icons Set.
 - [excalidraw.com](https://excalidraw.com)
+- [diagrams.mingrammer.com: Diagram as Code](https://diagrams.mingrammer.com/) Diagrams lets you draw the cloud system architecture in Python code.
+
+## K8s Diagrams
+
+- [==cloudogu/k8s-diagrams==](https://github.com/cloudogu/k8s-diagrams) A collection of diagrams explaining kubernetes by cloudogu, written in [PlantUML](https://twitter.com/PlantUML).
 
 ## Architecture Icons
 
@@ -71,6 +78,7 @@
     - Perspective is open source and has an open road map. Feel free to raise issues and contribute to future development!
 - [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks or draw.io diagrams.
 - [==alanblackmore.medium.com: AWS Diagram Architecture==](https://alanblackmore.medium.com/aws-diagram-architecture-afb50ea569a4)
+- [github.com/awslabs/diagram-as-code 🌟](https://github.com/awslabs/diagram-as-code)
 
 ## Google Cloud Architecture Diagramming Tool
 

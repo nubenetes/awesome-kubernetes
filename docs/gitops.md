@@ -8,17 +8,18 @@
 6. [GitOps Tools](#gitops-tools)
     1. [Flux. The GitOps Operator for Kubernetes](#flux-the-gitops-operator-for-kubernetes)
     2. [Kustomize. Kubernetes native configuration management](#kustomize-kubernetes-native-configuration-management)
-    3. [Flagger](#flagger)
-    4. [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
-    5. [Helm](#helm)
-    6. [Jenkins](#jenkins)
-    7. [Terraform](#terraform)
-    8. [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
-    9. [Portworx AutoPilot](#portworx-autopilot)
-    10. [OpenShift Applier](#openshift-applier)
-    11. [HashiCorp Waypoint](#hashicorp-waypoint)
-    12. [Weave GitOps](#weave-gitops)
-    13. [Octopilot](#octopilot)
+    3. [Helm](#helm)
+    4. [GlassKube Package Manager for Kubernetes](#glasskube-package-manager-for-kubernetes)
+    5. [Flagger](#flagger)
+    6. [WKSctl. Weave Kubernetes System Control](#wksctl-weave-kubernetes-system-control)
+    7. [Jenkins](#jenkins)
+    8. [Terraform](#terraform)
+    9. [Config Sync and Anthos Config Management](#config-sync-and-anthos-config-management)
+    10. [Portworx AutoPilot](#portworx-autopilot)
+    11. [OpenShift Applier](#openshift-applier)
+    12. [HashiCorp Waypoint](#hashicorp-waypoint)
+    13. [Weave GitOps](#weave-gitops)
+    14. [Octopilot](#octopilot)
 7. [GitOps Frameworks](#gitops-frameworks)
 8. [Kubernetes Platforms and GitOps](#kubernetes-platforms-and-gitops)
     1. [OpenShift GitOps](#openshift-gitops)
@@ -38,6 +39,7 @@
 
 - [==gitops.tech== 🌟](https://www.gitops.tech/)
 - [==OpenGitOps.dev== 🌟](https://opengitops.dev) OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.
+- [==github.com/topics/gitops== 🌟](https://github.com/topics/gitops)
 - [weave.works: Guide to GitOps](https://www.weave.works/technologies/gitops/)
 - [weave.works: What Is GitOps?](https://www.weave.works/blog/what-is-gitops-really)
 - [atlassian.com: Is GitOps the next big thing in DevOps?](https://www.atlassian.com/git/tutorials/gitops)
@@ -190,6 +192,8 @@
 - [==devoriales.com: Exploring GitOps: Software and Infrastructure Management Intro Video==](https://devoriales.com/video/897990746/intro-to-gitops)
 - [medium.com/containers-101: Using GitOps for Databases](https://medium.com/containers-101/using-gitops-for-databases-f09a027184bb)
 - [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops/)
+- [medium.com/@ahmed.fathy.elayaat: What is GitOps?](https://medium.com/@ahmed.fathy.elayaat/gitops-fc27ef5a7836)
+- [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) Don’t underestimate the Role of Culture in Successful GitOps Implementation. This article argues that GitOps requires a mindset shift. **Challenges like security enforcement and platform upgrades demand cross-team collaboration, and overcoming GitOps cultural barriers requires fostering teamwork and delineating responsibilities.**
 
 <center>
 [![gitops in a nutshell](images/GitOps-in-a-nutshell.png)](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
@@ -264,6 +268,15 @@
 
 - [Kustomize - Template-Free Kubernetes Configuration Customization](kustomize.md)
 
+### Helm
+
+- [Helm](helm.md)
+
+### GlassKube Package Manager for Kubernetes
+
+- [==glasskube.dev== 🌟](https://glasskube.dev/)
+- [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) **The next generation Package Manager for Kubernetes. Featuring a GUI and a CLI. Glasskube packages are dependency aware, GitOps ready and can get automatic updates via a central public package repository.**
+
 ### Flagger
 
 - [Flagger](https://flagger.app/) Progressive Delivery Operator for Kubernetes. Release new versions of your application/services to Kubernetes like a pro with Weaveworks's Flagger.
@@ -274,10 +287,6 @@
 - [Weave Kubernetes System Control - wksctl](https://github.com/weaveworks/wksctl) Open Source Weaveworks Kubernetes System
 - [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)
 - [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops/)
-
-### Helm
-
-- [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
 
 ### Jenkins
 
@@ -392,6 +401,8 @@
 </details>
 
 ## Videos
+
+- [youtube.com: GitOps Guide to the Galaxy 🌟🌟🌟](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd) Want to implement GitOps across your organization? Every other Thursday at 3pm ET hosts Hilliary Lipsig & Jonathan Rickard dive into everything in the GitOps universe, from solutions to common problems in end-to-end CICD pipelines, to creating Git workflows. Learn how GitOps enhances modern application delivery and join us to discuss the latest news around best practices and Cloud Native architecture. Keep calm and GitOps on!
 
 <details>
   <summary>Click to expand!</summary>

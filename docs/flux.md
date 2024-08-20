@@ -1,8 +1,9 @@
 # Flux. The GitOps operator for Kubernetes
 
 1. [Introduction](#introduction)
-    1. [Flux Terraform Controller](#flux-terraform-controller)
-2. [Templates](#templates)
+2. [ArgoCD vs FluxCD](#argocd-vs-fluxcd)
+3. [Flux Terraform Controller](#flux-terraform-controller)
+4. [Templates](#templates)
 
 ## Introduction
 
@@ -44,13 +45,18 @@
 - [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd/) GitOps provides a single source of truth for Kubernetes manifests, preventing configuration drift, allowing easy rollbacks and changes to production safely.
 - [==gist.github.com: GitOps for Helm Users== 🌟](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) In this step-by-step tutorial, you will learn how to convert a Helm chart into declarative Custom Resources for Flux and gradually migrate your workloads to be GitOps-friendly.
 - [levelup.gitconnected.com: Flux CD: Getting Started](https://levelup.gitconnected.com/flux-cd-getting-started-1a06671d718f) This concise tutorial will show you to bootstrap Flux CD on your local cluster and deploy your applications from your GitHub repository.
-- [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)
 - [weave.works: Flamingo: Expand Argo CD with Flux](https://www.weave.works/blog/flamingo-expand-argo-cd-with-flux)
 
-### Flux Terraform Controller
+## ArgoCD vs FluxCD
+
+- [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)
+- [blog.aenix.io: Argo CD vs Flux CD](https://blog.aenix.io/argo-cd-vs-flux-cd-7b1d67a246ca) In this article, Andrei shares his professional experience and compares two popular GitOps tools: Argo CD and Flux CD. He explores their features, use cases, and the specific problems they solve.
+
+## Flux Terraform Controller
 
 - [weaveworks.github.io: Weave GitOps Terraform Controller](https://weaveworks.github.io/tf-controller/)
 - [cncf.io: How to GitOps your Terraform](https://www.cncf.io/blog/2022/09/30/how-to-gitops-your-terraform/)
+- [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) Tofu Controller: An IAC Controller for Flux. A GitOps OpenTofu and Terraform controller for Flux. GitOps Terraform Controller is a controller for Flux to reconcile Terraform resources in the GitOps way
 
 ## Templates
 

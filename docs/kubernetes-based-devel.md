@@ -145,6 +145,16 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
     - [engineering.cloudflight.io: Running the OpenShift console in plain Kubernetes 🌟](https://engineering.cloudflight.io/running-the-openshift-console-in-plain-kubernetes)
 - [containiq.com: Kubernetes Dashboard | Installation, Tips, and Examples](https://www.containiq.com/post/intro-to-kubernetes-dashboards) Keeping track of your Kuberetes resources can be a challenge, especially as you scale. The k8s web-based dashboard is a great way to visualize what’s going on in your cluster.
 - [levelup.gitconnected.com: Step by Step Slow Guide: Kubernetes Dashboard on Raspberry Pi Cluster (Part 2)](https://levelup.gitconnected.com/step-by-step-slow-guide-kubernetes-dashboard-on-raspberry-pi-cluster-part-2-acdc8f9b5b99) How to setup self-signed certificate for Kubernetes Dashboard and expose it via load-balancer
+- [getseabird.github.io 🌟](https://getseabird.github.io/) - [github.com/getseabird/seabird](https://github.com/getseabird/seabird) Seabird is a native cross-platform Kubernetes desktop client that makes it super easy to explore your cluster's resources. We aim to visualize all common resource types in a simple, bloat-free user interface.
+- [==github.com/cyclops-ui/cyclops== 🌟](https://github.com/cyclops-ui/cyclops)
+    - Cyclops is a powerful user interface for managing and interacting with Kubernetes clusters
+    - It's designed to simplify the management of containerized apps, providing an intuitive experience for developers, system administrators, and DevOps
+- [k8z.dev: A lightweight, modern mobile and desktop application for manage kubernetes. Easily for use fast, secure](https://k8z.dev/) - [github.com/k8zdev/k8z](https://github.com/k8zdev/k8z)
+- [github.com/unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) JET Pilot is an open-source Kubernetes IDE that focuses on less clutter, speed and good looks. Features:
+    - Real-time Logs
+    - Kubernetes Object Management
+    - Container Shell
+    - Command Palette
 
 ### Octant
 

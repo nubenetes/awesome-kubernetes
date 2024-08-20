@@ -1,12 +1,13 @@
 # Serverless Architectures and Frameworks
 
 1. [Serverless Architectures](#serverless-architectures)
-    1. [Terraform and Serverless](#terraform-and-serverless)
-    2. [Governance](#governance)
-    3. [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
-    4. [Case Studies](#case-studies)
-    5. [FaaS: Function as a Service](#faas-function-as-a-service)
-    6. [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
+    1. [Serverless Bad Practices](#serverless-bad-practices)
+    2. [Terraform and Serverless](#terraform-and-serverless)
+    3. [Governance](#governance)
+    4. [Microservices vs. Serverless. Kubernetes vs Serverless](#microservices-vs-serverless-kubernetes-vs-serverless)
+    5. [Case Studies](#case-studies)
+    6. [FaaS: Function as a Service](#faas-function-as-a-service)
+    7. [Serverless Ecosystems Comparison](#serverless-ecosystems-comparison)
 2. [Serverless Framework (the most popular serverless ecosystem)](#serverless-framework-the-most-popular-serverless-ecosystem)
 3. [Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)](#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers)
     1. [OpenFaaS](#openfaas)
@@ -58,6 +59,11 @@
     - [==serverlessland.com: BATCH PROCESSING VS EVENT STREAMING==](https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams) What's the difference between batching and event streams? When should you use one over the other? Events are super important in our event-driven architectures, so understanding these fundamentals can help.
     - [serverlessland.com: Splitter pattern](https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern) When building message/event based solutions you may want to take a message or event and split it into many different ones. We can use this to split large messages/events into smaller ones for downstream consumers.
 - [dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟](https://dev.to/aws-heroes/serverless-beyond-the-basics-kom)
+- [theburningmonk.com: Why you should use ephemeral environments when you do serverless](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless/)
+
+### Serverless Bad Practices
+
+- [==serverlesshorrors.com== 🌟](https://serverlesshorrors.com/)
 
 ### Terraform and Serverless
 

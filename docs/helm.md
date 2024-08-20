@@ -18,6 +18,7 @@
 
 ## Helm
 
+- [dzone: managing helm releases the gitops way](https://dzone.com/articles/managing-helm-releases-the-gitops-way)
 - [thoughtworks.com: Helm](https://www.thoughtworks.com/radar/tools/helm)
 - [helm.sh](https://helm.sh/)
     - [helm.sh/docs](https://helm.sh/docs)
@@ -133,6 +134,7 @@
 - [blog.searce.com: Transform Kubernetes Manifests into Helm Chart](https://blog.searce.com/transform-kubernetes-manifests-into-helm-chart-f3d100688423)
 - [medium.com/geekculture: Helm Chart Wait for All Dependencies Before Starting Kubernetes Pods](https://medium.com/geekculture/helm-chart-wait-for-all-dependencies-before-starting-kubernetes-pods-cc0a3ddbf02b) Improve the quality of your helm charts by supporting wait for dependencies feature
 - [blog.knell.it: Making your Helm Chart observable for Prometheus](https://blog.knell.it/making-your-helm-chart-observable-for-prometheus/) In this blog post, I walk you through the various steps required to make an existing Helm chart observable by Prometheus.
+- [==mattias.engineer/courses/kubernetes/helm: Kubernetes-101: Helm== 🌟](https://mattias.engineer/courses/kubernetes/helm/)
 
 ## Helm Plugins
 

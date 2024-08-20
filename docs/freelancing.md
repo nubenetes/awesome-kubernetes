@@ -6,7 +6,8 @@
 3. [Top Freelancing Platforms](#top-freelancing-platforms)
 4. [Alternatives. Contractor Management / Umbrella Company solutions](#alternatives-contractor-management--umbrella-company-solutions)
     1. [Umbrella Companies](#umbrella-companies)
-5. [Tweets](#tweets)
+5. [Videos](#videos)
+6. [Tweets](#tweets)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/873312214&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/yardensaxophone" title="Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Yarden Saxophone</a> · <a href="https://soundcloud.com/yardensaxophone/esperanza-yarden-saxophone" title="Esperanza - Yarden Saxophone" target="_blank" style="color: #cccccc; text-decoration: none;">Esperanza - Yarden Saxophone</a></div>
@@ -36,6 +37,7 @@
 - [marinaaisa.com: Trabajar en remoto desde España como 'contractor'](https://marinaaisa.com/es/blog/contractor-eeuu-espana/) Una opción alternativa para impulsarte a una carrera internacional sin tener que mudarte fuera de España pudiendo trabajar en remoto.
 - [billin.net: Cómo ser freelance en España en 2022](https://www.billin.net/blog/como-ser-freelance/)
 - [cincodias.elpais.com: El teletrabajo impulsa la oferta de ‘freelance’](https://cincodias.elpais.com/cincodias/2022/02/08/fortunas/1644336556_587972.html)
+- [youtube: Freelance vs Empleo como Programador | midulive](https://www.youtube.com/watch?v=81VnO4puNkg)
 
 ### Advisory. Asesorías
 
@@ -85,6 +87,14 @@
 - https://accessfinancial.com
 - https://groupchesterfield.com/umbrella-services/
 - https://pixie-services.com
+
+## Videos
+
+??? note "Click to expand!"
+
+	<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/81VnO4puNkg?si=hlZozE8-fociyet4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</center>
 
 ## Tweets
 

@@ -122,6 +122,7 @@
 - [medium: Running services with Knative & Kong](https://medium.com/nerd-for-tech/running-services-with-knative-kong-3135c0d94dfa)
 - [==dzone: Breaking Up a Monolithic Database with Kong==](https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong) If your microservice design results in a very large API or multiple services accessing a single database, check out why Kong Gateway should be part of your project.
 - [konghq.com: Kong and Red Hat: Delivering Seamless Customer Experience](https://konghq.com/blog/kong-and-red-hat-collaboration)
+- [medium.com/@martin.hodges: Why do I need an API Gateway on a Kubernetes cluster](https://medium.com/@martin.hodges/why-do-i-need-an-api-gateway-on-a-kubernetes-cluster-c70f15da836c) In this article I introduce the concepts of an API Gateway and explain why you would need one in your Kubernetes cluster. In my next article I will show how to set one up using Kong.
 
 ### Tyk API Manager
 
@@ -149,6 +150,8 @@
 - [Backstage Developer Portal:](https://backstage.io/) Spotify has now open-sourced Backstage (under Apache-2.0), the platform of platforms to create a great developer experience across hundreds of squads at Spotify
 - [Backstage @Youtube](https://www.youtube.com/channel/UCHBvqSwbfAf5Vx1jrwkG43Q)
 - [medium.com/@_gdantas: Backstage and Terraform — A Powerful Combination for Ops, Wonderful for Devs](https://medium.com/@_gdantas/backstage-and-terraform-a-powerful-combination-for-ops-wonderful-for-devs-c04ebce849f0)
+- [piotrminkowski.com: Getting Started with Backstage](https://piotrminkowski.com/2024/06/13/getting-started-with-backstage/)
+- [piotrminkowski.com: Backstage on Kubernetes](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes/)
 
 ### APISIX
 

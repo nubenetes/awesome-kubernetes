@@ -151,6 +151,8 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [==thenewstack.io: 30 Pull Requests Later, Prometheus Memory Use Is Cut in Half==](https://thenewstack.io/30-pull-requests-later-prometheus-memory-use-is-cut-in-half/) Grafana Labs Distinguished Engineer Bryan Boreham detailed at KubeCon how he reduced the memory usage of Prometheus.
 - [devxblog.hashnode.dev: Prometheus: Elevate Your Monitoring Game](https://devxblog.hashnode.dev/prometheus-elevate-your-monitoring-game)
 - [devxblog.hashnode.dev: Simplified Setup: Prometheus, cAdvisor, redis and Node Exporter](https://devxblog.hashnode.dev/simplified-setup-prometheus-cadvisor-redis-and-node-exporter)
+- [==grafana.com: Get started with Prometheus with these three easy projects==](https://grafana.com/blog/2021/01/08/get-started-with-prometheus-with-these-three-easy-projects/)
+- [fosstechnix.com: Install Prometheus and Grafana on Ubuntu 24.04 LTS 🌟](https://www.fosstechnix.com/install-prometheus-and-grafana-on-ubuntu-24-04/)
 
 <center>
 [![prometheus architecture](images/prometheus-architecture.png)](https://github.com/prometheus/prometheus)
@@ -295,6 +297,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [devconnected.com: Complete Node Exporter Mastery with Prometheus](https://devconnected.com/complete-node-exporter-mastery-with-prometheus)
 - [scalyr.com: Prometheus metrics by example: 5 things you can learn](https://www.scalyr.com/blog/prometheus-metrics-by-example/)
 - [aws.amazon.com: Building a Prometheus remote write exporter for the OpenTelemetry Go SDK](https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-go-sdk/)
+- [medium.com/@dast04: Writing Custom Prometheus Exporters (in Python) — Kubernetes](https://medium.com/@dast04/writing-custom-prometheus-exporters-in-python-kubernetes-73626b66d78c)
 
 ### Prometheus Third-party Collectors/Exporters
 
@@ -393,6 +396,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 #### Kube-prometheus-stack (best choice)
 
 - [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) **kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.**
+- [medium.com/israeli-tech-radar: How to create a Monitoring Stack using Kube-Prometheus-stack (Part 1)](https://medium.com/israeli-tech-radar/how-to-create-a-monitoring-stack-using-kube-prometheus-stack-part-1-eff8bf7ba9a9)
 
 #### Kubernetes Cluster Monitoring Stack based on Prometheus Operator
 

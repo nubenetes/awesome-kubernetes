@@ -163,6 +163,7 @@
 - [==dev.to: Docker : From Zero to Hero 🛸 ( part 1) | Prasenjeet Kumar==](https://dev.to/prasenjeetsymon/docker-from-zero-to-hero-part-1-3a45) Docker is a tool that allows you to package, distribute and run apps as containers. It provides an efficient & consistent way to deploy apps across different environments, from dev to prod.
 - [dzone: Components of Container Management](https://dzone.com/articles/components-of-container-management) Strategizing beyond build and run: Explore the benefits of containers that are widely evident around the cloud-native world and its modernization journey.
 - [devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide](https://devopscube.com/build-docker-image/)
+- [pointbase.hashnode.dev: Understand Docker layers by example : RUN instructions Impact](https://pointbase.hashnode.dev/understand-docker-layers-by-example-run-instructions-impact)
 
 ## Docker Best Practices
 
@@ -273,6 +274,11 @@
 - [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension/)
 - [==medium.com/vantageai: How to make your Python Docker images secure, fast & small== 🌟](https://medium.com/vantageai/how-to-make-your-python-docker-images-secure-fast-small-b3a6870373a0) Exploring Image Layers and Implementing Multistage Builds
 - [blog.devgenius.io: DevOps in K8s — Write Dockerfile Efficiently 🌟](https://blog.devgenius.io/devops-in-k8s-write-dockerfile-efficiently-37eaedf87163)
+- [piotrminkowski.com: Slim Docker Images for Java](https://piotrminkowski.com/2023/11/07/slim-docker-images-for-java/)
+- [bhupesh.me: How I reduced the size of my very first published docker image by 40% - A lesson in dockerizing shell scripts 🌟](https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/)
+    - The author details their journey of reducing the size of their Docker image by 40%, from 31.4 MB to 17.6 MB
+    - They discuss optimization attempts, multi-stage builds, removing unnecessary binaries and dependencies, and using `scratch` as the base image
+- [medium.com/@RoussiAbel: Optimizing java base docker images size from 674Mb to 58Mb](https://medium.com/@RoussiAbel/optimizing-java-base-docker-images-size-from-674mb-to-58mb-c1b7c911f622)
 
 ## Reducing Build Time
 
@@ -346,6 +352,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 ## Windows Containers
 
 - [medium: Windows Containers (personal) cheat sheet](https://medium.com/@sebagomez/windows-containers-personal-cheat-sheet-95c1c4d6bdf5)
+- [techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers](https://techcommunity.microsoft.com/t5/itops-talk-blog/iis-central-certificate-store-and-windows-containers/ba-p/4181509)
 
 ## Portainer
 

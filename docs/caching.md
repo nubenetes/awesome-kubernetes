@@ -10,8 +10,9 @@
 8. [Memcached](#memcached)
 9. [Redis](#redis)
 10. [Nginx High-performance caching](#nginx-high-performance-caching)
-11. [Videos](#videos)
-12. [Slides](#slides)
+11. [Tau Git-Native CDN PaaS](#tau-git-native-cdn-paas)
+12. [Videos](#videos)
+13. [Slides](#slides)
 
 ## Introduction to Caching
 
@@ -100,6 +101,10 @@
 - [dzone: Scaling Web Applications with NGINX – Part II: Caching and Monitoring](https://dzone.com/articles/scaling-web-applications-with-nginx-part-ii-cachin)
 - [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/)
 - [highscalability.com: Building nginx and Tarantool based services 🌟](http://highscalability.com/blog/2016/2/17/building-nginx-and-tarantool-based-services.html)
+
+## Tau Git-Native CDN PaaS
+
+- [github.com/taubyte/tau: Tau](https://github.com/taubyte/tau) **Open Source Git-Native CDN PaaS.** An alternative to: Vercel, Netlify, Cloudflare, Amazon Lambda with CloudFront, S3, ElastiCache & SQS, Etc...
 
 ## Videos
 

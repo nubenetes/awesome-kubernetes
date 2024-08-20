@@ -28,7 +28,7 @@
          2. [Powershell](#powershell)
     20. [Data Processing](#data-processing)
     21. [Big Data](#big-data)
-    22. [Machine Learning and MLOps](#machine-learning-and-mlops)
+    22. [Machine Learning and MLOps. Data Engineering](#machine-learning-and-mlops-data-engineering)
 6. [Open Source Alternatives](#open-source-alternatives)
 7. [Kubectl Plugins](#kubectl-plugins)
 8. [GitHub Repositories that developers love](#github-repositories-that-developers-love)
@@ -95,6 +95,8 @@
 - [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) A collection of tools to improve your containerized apps security posture
 - [steveazz/awesome-slo: Awesome SLOs](https://github.com/steveazz/awesome-slo) A curated list of useful resources for SLIs/SLOs
 - [github.com/Noovolari/awesome-cloudops: Awesome CloudOps](https://github.com/Noovolari/awesome-cloudops) A curated list of tools and best practices for CloudOps
+- [github.com/collections/learn-to-code 🌟](https://github.com/collections/learn-to-code)
+- [github.com/palark/awesome-devops-telegram: Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram) A curated list of public Telegram channels and groups (chats) dedicated to DevOps, SRE, and Platform Engineering. English language only.
 
 ## AI and ML
 
@@ -180,6 +182,8 @@
 - [realvz/awesome-eks: A curated list of awesome tools for Amazon EKS 🌟](https://github.com/realvz/awesome-eks)
 - [globalbao/awesome-azure-policy: AWESOME-Azure-Policy](https://github.com/globalbao/awesome-azure-policy) A curated list of blogs, videos, tutorials, code, tools, scripts, and anything useful to help you learn Azure Policy - by @jesseloudon
 - [github.com/toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
+- [github.com/lukemurraynz/awesome-azure-architecture 🌟](https://github.com/lukemurraynz/awesome-azure-architecture)
+- [github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course](https://github.com/iam-veeramalla/Azure-zero-to-hero)
 
 ### Docker
 
@@ -202,6 +206,7 @@
 - [sbilly/awesome-security: Awesome Security](https://github.com/sbilly/awesome-security)
 - [myugan/awesome-docker-security: Awesome Docker Security](https://github.com/myugan/awesome-docker-security) A curated list of awesome Docker security resources
 - [anderseknert/awesome-opa 🌟](https://github.com/anderseknert/awesome-opa) A curated list of awesome Open Policy Agent (OPA) related tools, frameworks and articles.
+- [github.com/tldrsec/awesome-secure-defaults](https://github.com/tldrsec/awesome-secure-defaults) Awesome secure by default libraries to help you eliminate bug classes!
 
 ### QA
 
@@ -264,11 +269,12 @@
 
 - [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
 
-### Machine Learning and MLOps
+### Machine Learning and MLOps. Data Engineering
 
 - [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops)
 - [ekramasif/Basic-Machine-Learning](https://github.com/ekramasif/Basic-Machine-Learning) **This is a repo of basic Machine Learning!** This repository contains a topic-wise curated list of Machine Learning and Deep Learning tutorials, articles and other resources.
 - [abhishek-ch/around-dataengineering: A very Long never ending Learning around Data Engineering & Machine Learning](https://github.com/abhishek-ch/around-dataengineering)
+- [==github.com/DataExpert-io/data-engineer-handbook== 🌟](https://github.com/DataExpert-io/data-engineer-handbook) This is a repo with links to everything you'd ever want to learn about data engineering
 
 ## Open Source Alternatives
 

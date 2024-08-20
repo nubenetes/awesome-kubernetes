@@ -267,6 +267,12 @@
 - [thestack.technology: VMware is killing off 56 products amid "tectonic" infrastructure shift](https://www.thestack.technology/vmware-is-killing-off-56-products-including-vsphere-hypervisor-and-nsx/) Goodbye vSphere Hypervisor. Goodbye Aria Operations. Goodbye NCX. Goodbye HCX. Goodbye more acronyms than we know what to do with; though Broadcom does.
 - [blog.lealdasilva.com: Why You Should Switch from VMware to Proxmox in 2024](https://blog.lealdasilva.com/vmware2proxmox/)
 - [==welivesecurity.com: La ofuscación de código: un arte que reina en la ciberseguridad==](https://www.welivesecurity.com/es/recursos-herramientas/ofuscacion-de-codigo-arte-ciberseguridad/) Conoce esta táctica que dificulta la comprensión de código fuente a personas no autorizadas, o malintencionadas, y fortalece la protección de sistemas sensibles.
+- [==virtualizationhowto.com: VMware by Broadcom Lesson: Don’t base your career on a product==](https://www.virtualizationhowto.com/2024/02/vmware-by-broadcom-lesson-dont-base-your-career-on-a-product/) Gain insight into the challenges faced by VMware admins. Understand the implications of the acquisition and VMware by Broadcom lesson.
+- [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) El divulgador tecnológico Mario Yáñez aclara en La Linterna cómo funcionaría el nuevo modelo de ordenadores que cambiarán tanto el clima como el cáncer
+- [==paulbutler.org: The hater’s guide to Kubernetes==](https://paulbutler.org/2024/the-haters-guide-to-kubernetes/)
+    - This article provides a practical guide to using Kubernetes effectively, particularly for startups
+    - It addresses common criticisms of Kubernetes, such as its overly complicated nature, and provides advice on using it in a way suitable for small teams
+- [genbeta.com/a-fondo: Cinco repositorios de GitHub tan buenos que son imprescindibles si estás aprendiendo o te dedicas a programar](https://www.genbeta.com/a-fondo/cinco-repositorios-github-buenos-que-imprescindibles-estas-aprendiendo-te-dedicas-a-programar) ¿Quieres subir de nivel como dev? Esta es la cuidada lista de Brais Moure para mejorar tus habilidades
 
 ## Platform Reference Architecture
 
@@ -438,6 +444,7 @@
 
 - [medium.com/@mbarkin.narin: Problem Solving Strategies for Microservice Architecture Part III](https://medium.com/@mbarkin.narin/problem-solving-strategies-for-microservice-architecture-part-iii-c15830151890) Distributed Complex Query in Multiple Services
 - [linkedin.com/pulse: Command and Query Responsibility Segregation (CQRS): Optimizing Hybrid Cloud Strategies](https://www.linkedin.com/pulse/command-query-responsibility-segregation-cqrs-hybrid-cloud-mark-ubhfc/)
+- [blog.bitsrc.io: Implementing a Microservices Application with CQRS (Command Query Responsibiltiy Segregation)](https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66) Building scalable microservices using Java and CQRS
 
 ## Microservices Anti Patterns
 

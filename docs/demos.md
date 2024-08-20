@@ -160,6 +160,7 @@
 ## Kubernetes Demos
 
 - [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
+- [==Free Kubernetes== 🌟🌟](https://github.com/learnk8s/free-kubernetes/) **List of free Trials/Credit for Managed Kubernetes Services.**
 - [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
 - [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
@@ -180,7 +181,6 @@
 - [itnext.io: Kubernetes Journey — Up and running out of the cloud — How to setup the Masters using kubeadm bootstrap](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-masters-using-kubeadm-9a496a14fbc1)
 - [medium: Build a Federation of Multiple Kubernetes Clusters With Kubefed V2](https://medium.com/better-programming/build-a-federation-of-multiple-kubernetes-clusters-with-kubefed-v2-8d2f7d9e198a)
 - [medium: Single Sign-On in Kubernetes](https://medium.com/@andriisumko/single-sign-on-in-kubernetes-1ad9528350ed) This article walks you through creating a service, exposing it with an Ingress, and adding Single Sign On. The article uses Okta (but of course you’re free to use any other OIDC SSO provider you prefer)
-- [Free Kubernetes 🌟🌟](https://github.com/learnk8s/free-kubernetes/) List of free Trials/Credit for Managed Kubernetes Services.
 - [medium: Kubernetes in a nutshell — tutorial for beginners 🌟🌟](https://medium.com/swlh/kubernetes-in-a-nutshell-tutorial-for-beginners-caa442dfd6c0) Deploy a complete application stack just in a few steps!
 - [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://www.shipa.io/development/deploying-applications-on-kubernetes/)
 - [shipa.io: Deploying a real-world application on Kubernetes](https://www.shipa.io/development/a-real-world-application-deployment-on-kubernetes/)
@@ -212,6 +212,8 @@
 - [levelup.gitconnected.com: Deploying a Simple Golang Web App to Kubernetes](https://levelup.gitconnected.com/deploying-simple-golang-webapp-to-kubernetes-25dc1736dcc4) Part II: Deployment Using YAML Configuration
 - [==medium.com/groupon-eng: LoadBalancer Services using Kubernetes in Docker (kind)==](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) In this tutorial, you'll learn how to build a multi-node kind cluster with `extraPortMappings` to forward requests from your host to an NGINX ingress controller
 - [devxblog.hashnode.dev: Deploying Microservices with Persistent Volumes in Kubernetes - Kubernetes Microservice Flask Application](https://devxblog.hashnode.dev/kubernetes-microservice-flask-application-1)
+- [medium.com/@hmquan08011996: Setup Microservices on Kubernetes — Write a Configuration File](https://medium.com/@hmquan08011996/set-up-microservice-on-kubernetes-write-config-file-8df7c2b07a4c) Deployed the microservice to Kubernetes
+- [==github.com/AdminTurnedDevOps/kubernetes-in-production-examples==](https://github.com/AdminTurnedDevOps/kubernetes-in-production-examples) This repo contains examples of a few tools and services you may use in production.
 
 ### Webhooks app
 
@@ -464,6 +466,9 @@
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
 - [gokuldevops.medium.com: Argo CD-Sample app deployment](https://gokuldevops.medium.com/argo-cdsample-app-deployment-56b36601f279) Argo CD one of the most popular continues deployment tools used in Kubernetes. It is very simple to use and quite powerful. Personally, it is the first tool in my mind when I think of Kubernetes GitOps.
 - [==codefresh.io: Using Argo CD and Kustomize for ConfigMap Rollouts== 🌟🌟](https://codefresh.io/blog/using-argo-cd-and-kustomize-for-configmap-rollouts/) In this article, you will learn how to automatically rollout ConfigMap changes in your GitOps workflows using Argo CD and Kustomize.
+- [medium.com/@martin.hodges: Spring Boot CI/CD on Kubernetes using Terraform, Ansible and GitHub: Part 12](https://medium.com/@martin.hodges/use-terraform-ansible-and-github-actions-to-automate-running-your-spring-boot-application-on-e82424da828e)
+- [mrcloudbook.com: Automating Tetris Deployments: DevSecOps with ArgoCD, Terraform, and Jenkins for Two Game Versions](https://mrcloudbook.com/automating-tetris-deployments-devsecops-with-argocd-terraform-and-jenkins-for-two-game-versions/)
+- [mrcloudbook.com: GitOps: Deploying Tetris on EKS Using ArgoCD](https://mrcloudbook.com/gitops-deploying-tetris-on-eks-using-argocd/)
 
 ### GitLab Pipelines on OpenShift
 
@@ -554,6 +559,7 @@
 - [lambdatest.com: How To Create Jenkins Multibranch Pipeline 🌟](https://www.lambdatest.com/blog/how-to-create-jenkins-multibranch-pipeline)
 - [faun.pub: [DevOps] Create your first CI/CD pipeline!!](https://faun.pub/devops-create-your-first-ci-cd-pipeline-ed054ba1404f) A CI/CD pipeline is a series of steps that must be performed in order to deliver a new version of software.A CI/CD pipeline introduces monitoring and automation to improve the process of application development, particularly at the integration and testing phases, as well as during delivery and deployment. Although it is possible to manually execute each of the steps of a CI/CD pipeline, the true value of CI/CD pipelines is realized through automation.
 - [lakshaws.medium.com: CI/CD Pipeline for Dockerized Applications](https://lakshaws.medium.com/ci-cd-pipeline-for-dockerized-applications-f1003e821812) Kubernetes is becoming de-facto standard for containerized applications and it is important to be aware and get yourself familiarized with of CI/CD Pipeline for Dockerized Applications. I have created the CI/CD Pipeline Using AWS, Jenkins and EKS as major components.
+- [github.com/arun-gupta/docker-jenkins-pipeline: Docker + Java + Jenkins Pipeline](https://github.com/arun-gupta/docker-jenkins-pipeline) Devops for Java EE
 
 ### Jenkins Declarative Pipelines with OpenShift
 
@@ -656,6 +662,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 - [LerryAlexander: Postman + Newman API Automated Tests running on a Jenkins Pipeline 🌟](https://github.com/LerryAlexander/postman_jenkins_api_tests)
 - [praveendavidmathew.medium.com: Data driven testing per request without using data file](https://praveendavidmathew.medium.com/data-driven-testing-per-request-without-using-data-file-aeb573b4f63a)
+- [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/)
 
 ### Monitoring Jenkins with Grafana
 
@@ -895,6 +902,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [mahira-technology.medium.com: Automating AWS CodePipeline Setup with Terraform: Streamline Your CI/CD Workflow](https://mahira-technology.medium.com/deploying-aws-codepipeline-with-terraform-d6613979d0b6)
 - [patrickkoch.dev: Terraform on Azure with GitHub Copilot - Creating a Kubernetes Cluster and a Container Registry](https://www.patrickkoch.dev/posts/post_31/)
 - [medium.com/@Tyler.Gallimore: Deploying Apache Web Server on AWS EC2 with Terraform and Docker](https://medium.com/@Tyler.Gallimore/deploying-apache-web-server-on-aws-ec2-with-terraform-and-docker-6c315c81c024)
+- [==github.com/venkateshk111/terraform-beginners-guide== 🌟](https://github.com/venkateshk111/terraform-beginners-guide)
+- [==https://github.com/chenjd/terraform-101== 🌟](https://github.com/chenjd/terraform-101) This repository contains a series of examples and exercises designed to help you get started with Terraform. Whether you are a beginner or looking to refresh your skills, you will find valuable resources here to understand the basics of Terraform and its application in real-world scenarios.
 
 ## Prometheus and Grafana
 
@@ -921,6 +930,8 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [kaleshreya907.medium.com: GitHub Actions: Netflix Deployment](https://kaleshreya907.medium.com/step2a-install-docker-and-run-sonarqube-container-faa42d01f5fe)
 - [medium.com/@ebonyymonae: Github Actions and Automation](https://medium.com/@ebonyymonae/github-actions-and-automation-9637aa06af64)
 - [levelup.gitconnected.com: GitHub Actions, self-hosted runners on Amazon EKS & spot instances](https://levelup.gitconnected.com/github-actions-self-hosted-runners-on-amazon-eks-spot-instances-bc3abcd5d38f) How to spin up ephemeral runners in Kubernetes.
+- [medium.com/@eduardo854: Building Your GitOps Pipeline with GitHub Actions, DockerHub, and Helm Repository](https://medium.com/@eduardo854/building-your-gitops-pipeline-with-github-actions-dockerhub-and-helm-repository-553c4873116e)
+- [dev.to/aws-builders: From Scratch: OIDC Providers](https://dev.to/aws-builders/from-scratch-oidc-providers-252d)
 
 ### RedHat GitHub Actions
 
@@ -939,6 +950,7 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 
 - [blog.devgenius.io: Running the OpenTelemetry Demo App in Kubernetes](https://blog.devgenius.io/running-opentelemetry-demo-app-in-kubernetes-95dccd613e0b)
 - [itnext.io: OpenTelemetry — Understanding SLI and SLO with OpenTelemetry Demo](https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0)
+- [devops.com: Measuring the Progress of the OpenTelemetry Project](https://devops.com/measuring-the-progress-of-the-opentelemetry-project/)
 
 ## QR Codes
 
