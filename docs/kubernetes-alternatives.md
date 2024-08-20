@@ -4,7 +4,7 @@
     1. [Why Not Use Kubernetes](#why-not-use-kubernetes)
 2. [Heroku](#heroku)
 3. [Amazon ECS](#amazon-ecs)
-4. [Cycle.io](#cycle-io)
+4. [Cycle.io](#cycleio)
 5. [Nomad](#nomad)
 6. [Portainer](#portainer)
 7. [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
@@ -36,6 +36,7 @@
 - [thenewstack.io: No Kubernetes Needed: Amazon ECS Anywhere](https://thenewstack.io/no-kubernetes-needed-amazon-ecs-anywhere/) The idea of ECS Anywhere is simple — run the same ECS agent designed for EC2 instances in external hosts such as bare metal servers, VMs, and even instances running in other public cloud environments.
 
 ## Cycle.io
+
 - [Cycle.io](https://cycle.io)
 - [thenewstack.io: Cycle.io: Meet the Team on a Mission to Replace Kubernetes](https://thenewstack.io/cycle-io-meet-the-team-on-a-mission-to-replace-kubernetes/)
 - [bretfisher.com: Cycle.io LowOps container platform](https://www.bretfisher.com/podcast-136-cycle-io-lowops-container-platform/)
@@ -52,7 +53,7 @@
 - [sysadmincasts.com: Nomad 🌟](https://sysadmincasts.com/episodes/74-nomad)
 - [blog.cloudflare.com: How we use HashiCorp Nomad (Cloudflare using Nomad and Consul)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/)
 - [atodorov.me: Why you should take a look at Nomad before jumping on Kubernetes](https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes)
-- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad/) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay." 
+- [thenewstack.io: Conductor: Why We Migrated from Kubernetes to Nomad](https://thenewstack.io/conductor-why-we-migrated-from-kubernetes-to-nomad/) "After examining the Kubernetes source code, we realized that the default Kubernetes autoscaler is not designed for batch jobs, which typically have a low tolerance for delay."
 - [imaginarycloud.com: Nomad VS. Kubernetes: Container Orchestration Tools Compared](https://www.imaginarycloud.com/blog/nomad-vs-kubernetes/)
 - [nomadproject.io: An alternative to Kubernetes](https://www.nomadproject.io/docs/nomad-vs-kubernetes/alternative)
 - [chaordic.io: Is Nomad a better Kubernetes?](https://chaordic.io/blog/is-nomad-a-better-kubernetes/)
