@@ -33,6 +33,7 @@
      3. [YAML Schema in DevOps Azure Pipelines](#yaml-schema-in-devops-azure-pipelines)
      4. [Azure Pipeline Tasks](#azure-pipeline-tasks)
      5. [Azure DevOps Templates or Snippets](#azure-devops-templates-or-snippets)
+     6. [Databricks CI/CD with Azure DevOps](#databricks-cicd-with-azure-devops)
 27. [Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra](#azure-ad-and-rbac-azure-tenant-and-azure-subscription-service-principal-spn-microsoft-entra)
      1. [Register applications in Azure AD. Authenticate apps and services](#register-applications-in-azure-ad-authenticate-apps-and-services)
      2. [Azure AD Pen Testing](#azure-ad-pen-testing)
@@ -375,6 +376,7 @@
 ### Azure Pipeline Tasks
 
 - [==Microsoft/azure-pipelines-tasks==](https://github.com/Microsoft/azure-pipelines-tasks) This repo contains the tasks that are provided out-of-the-box with Azure Pipelines and Team Foundation Server. This provides open examples on how we write tasks which will help you write other tasks which can be uploaded to your account or server.
+    - [github.com/datakickstart](https://github.com/datakickstart)
 
 ### Azure DevOps Templates or Snippets
 
@@ -404,6 +406,10 @@
         SYSTEM_ACCESSTOKEN: $(System.AccessToken)
     displayName: 'Post comment with Terraform Plan'
     ```
+
+### Databricks CI/CD with Azure DevOps
+
+- [youtube: Databricks CI/CD: Azure DevOps Pipeline + DABs](https://www.youtube.com/watch?v=SZM49lGovTg) Many organizations choose Azure DevOps for automated deployments on Azure. When deploying to Databricks you can take similar deploy pipeline code that you use for other projects but use it with Databricks Asset Bundles. This video shows most of the steps involved in setting this up by following along with a blog post that shares example code and steps.
 
 ## Azure AD and RBAC. Azure Tenant and Azure Subscription. Service Principal SPN. Microsoft Entra
 

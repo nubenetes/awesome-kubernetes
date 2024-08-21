@@ -13,11 +13,12 @@
     1. [DevDriven.By](#devdrivenby)
     2. [Promotion Driven Development](#promotion-driven-development)
 6. [Culture and Leadership](#culture-and-leadership)
-7. [Bunch of images](#bunch-of-images)
-8. [Videos](#videos)
-9. [Spanish Videos](#spanish-videos)
-10. [Tweets](#tweets)
-11. [Tweets 2. Cultures](#tweets-2-cultures)
+7. [Books](#books)
+8. [Bunch of images](#bunch-of-images)
+9. [Videos](#videos)
+10. [Spanish Videos](#spanish-videos)
+11. [Tweets](#tweets)
+12. [Tweets 2. Cultures](#tweets-2-cultures)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604265532&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tlotfy99" title="Abou Seif 🧿" target="_blank" style="color: #cccccc; text-decoration: none;">Abou Seif 🧿</a> · <a href="https://soundcloud.com/tlotfy99/no-man-no-cry-jimmy-sax" title="no man no cry - jimmy sax" target="_blank" style="color: #cccccc; text-decoration: none;">no man no cry - jimmy sax</a></div>
@@ -215,6 +216,13 @@
 - [businessinsider.es: Así es como tu educación te ha moldeado sutilmente para que nunca consigas ascender en el trabajo](https://www.businessinsider.es/razon-nunca-consigues-ascender-trabajo-conseguir-mejor-sueldo-970737)
 - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)
 - [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/16-estilos-liderazgo-cual-es-mas-efectivo/)
+
+## Books
+
+- [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build/) By Rebecca Murphey and Otto Hilska
+    - Building software is hard. Running an effective software engineering organization is harder. Build: Elements of an Effective Software Organization is a guide to help good software teams get better and remain effective as the organization grows and evolves.
+    - Build is a blueprint for continuous improvement. It zeroes in on three key ingredients: a relentless focus on business outcomes, actionable insights to boost the productivity of your software teams, and a thoughtful approach to improving the experience of building software at your company.
+    - Whether you’re a leader, a manager, or anyone invested in seeing your team or organization improve, Build provides the roadmap you need to drive meaningful, impactful progress.
 
 ## Bunch of images
 

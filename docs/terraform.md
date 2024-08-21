@@ -345,6 +345,7 @@
 - [build5nines.com: Terraform: Conditional If Variable Does Not Exist (try function)](https://build5nines.com/terraform-conditional-if-variable-does-not-exist-try-function/)
 - [build5nines.com: Terraform: Output URL to Azure Portal for Azure Resources](https://build5nines.com/output-link-to-azure-resources-from-terraform-project/)
 - [build5nines.com: Terraform State Management Explained](https://build5nines.com/terraform-state-management-explained/)
+- [build5nines.com: Working with YAML in Terraform using the `yamldecode` and `yamlencode` Functions](https://build5nines.com/working-with-yaml-in-terraform-using-the-yamldecode-and-yamlencode-functions/)
 - [mattias.engineer: Terraform Variable Cross Validation](https://mattias.engineer/blog/2024/terraform-variable-cross-validation/)
 - [nilebits.com: Understanding Terraform Drift Detection and Remediation 🌟](https://www.nilebits.com/blog/2024/07/terraform-drift-detection/)
 - [spacelift.io/blog/terraform-backends](https://spacelift.io/blog/terraform-backends) Terraform Backends – Local and Remote Explained
@@ -706,6 +707,7 @@
 - [dev.to/aws-builders: My Service Mesh journey with Terraform on AWS Cloud - Part 1](https://dev.to/aws-builders/my-service-mesh-journey-with-terraform-on-aws-cloud-part-1-3hee)
 - [dev.to/aws-builders: My Service Mesh journey with Terraform on AWS Cloud - Part 2](https://dev.to/aws-builders/my-service-mesh-journey-with-terraform-on-aws-cloud-part-2-58fd)
 - [github.com/infrahouse/terraform-aws-ecs](https://github.com/infrahouse/terraform-aws-ecs) Module that runs service in ECS
+- [dev.to/bennyfmo_237: Deploying Basic Infrastructure on AWS with Terraform](https://dev.to/bennyfmo_237/deploying-basic-infrastructure-on-aws-with-terraform-1k68)
 
 {==
 

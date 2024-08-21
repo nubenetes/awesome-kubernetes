@@ -716,6 +716,7 @@
 - [trstringer.com: What Determines if a Kubernetes Node is Ready?](https://trstringer.com/kubernetes-node-ready/)
 - [medium.com/@bgrant0607: Advantages of storing configuration in container registries rather than git 🌟](https://medium.com/@bgrant0607/advantages-of-storing-configuration-in-container-registries-rather-than-git-b4266dc0c79f)
 - [medium.com/@jainal: Mastering Graceful Shutdown in Distributed Systems and Microservices](https://medium.com/@jainal/mastering-graceful-shutdown-in-distributed-systems-and-microservices-29c311e49660) This article discusses the importance of mastering graceful shutdown in distributed systems and microservices. It provides strategies for implementing graceful shutdown and explains its context in Kubernetes integration.
+- [rpadovani.com: How Kubernetes picks which pods to delete during scale-in](https://rpadovani.com/k8s-algorithm-pick-pod-scale-in) Have you ever wondered how K8s choose which pods to delete when a deployment is scaled down? Given it is not documented, I dived in the source code to learn.
 
 ### KubeCon
 
