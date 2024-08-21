@@ -10,9 +10,10 @@
 7. [Docker Enterprise and Docker Universal Control Plane (UCP)](#docker-enterprise-and-docker-universal-control-plane-ucp)
 8. [Docker Swarm](#docker-swarm)
 9. [Simplenetes](#simplenetes)
-10. [More comparisons and alternatives](#more-comparisons-and-alternatives)
-11. [Images](#images)
-12. [Videos](#videos)
+10. [Taubyte](#taubyte)
+11. [More comparisons and alternatives](#more-comparisons-and-alternatives)
+12. [Images](#images)
+13. [Videos](#videos)
 
 ## Introduction
 
@@ -87,6 +88,15 @@
 ## Simplenetes
 
 - [Simplenetes](https://github.com/simplenetes-io/simplenetes) Alternative to Kubernetes written in pure Sh
+
+## Taubyte
+
+- [Taubyte](https://taubyte.com) Alternative to Kubernetes that aims to eliminate as much ops as possible (NoOps)
+- [tau](https://github.com/taubyte/tau) Implementation of Taubyte. Build a Cloud Computing Platform running few commands.
+- [dreamland](https://github.com/taubyte/dreamland) Implementation of Taubyte for local development and E2E testing automation.
+- [Introduction to Taubyte](https://taubyte.com/blog/introduction-to-taubyte/)
+- [Create your own Cloud: How to deploy tau](https://taubyte.com/blog/be-competitive-in-few-minutes/)
+- [llama.cpp plugin](https://github.com/samyfodil/taubyte-llama-satellite) llama.cpp integration for WebAssembly
 
 ## More comparisons and alternatives
 
