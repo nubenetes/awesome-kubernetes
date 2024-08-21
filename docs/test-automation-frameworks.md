@@ -75,6 +75,11 @@ based on your test scripts.
 
 - [lambdatest.com: Selenium vs Cypress – Which Is Better in 2021?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
 
+## Microsoft Playwright
+- [automationqahub.com: How to Configure Playwright](https://automationqahub.com/how-to-install-playwright-tool/)
+- [automationqahub.com: How to build a Playwright Page Object Model](https://automationqahub.com/how-to-build-playwright-page-object-model/)
+- [automationqahub.com: How to Configure multiple environments in Playwright](https://automationqahub.com/how-to-configure-multiple-environments-in-playwright/)
+
 ## Tempest Testing Project
 
 - [Tempest Testing Project](https://docs.openstack.org/tempest) Complete coverage of the OpenStack API and common scenarios that simulate a working cloud.
@@ -87,6 +92,7 @@ based on your test scripts.
 - [appium.io](http://appium.io/)
 - [Dzone: appium tutorial for complete beginners](https://dzone.com/articles/appium-tutorial-for-complete-beginners)
 - [Dzone: best practices in appium](https://dzone.com/articles/best-practices-in-appium)
+- [automationqahub.com: How to get started with Appium 2.0](https://automationqahub.com/how-to-do-mobile-automation-using-appium-2-0/)
 
 ### Cucumber and Appium. Behavior Driven Development
 
