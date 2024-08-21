@@ -7,12 +7,13 @@
     1. [Publishers](#publishers)
     2. [Extensions](#extensions)
         1. [More Extensions](#more-extensions)
-        2. [More Extensions (Blogs)](#more-extensions-blogs)
-        3. [Themes](#themes)
-        4. [DevOps Extensions](#devops-extensions)
-        5. [Azure DevOps Extensions](#azure-devops-extensions)
-        6. [Git Flow Extensions](#git-flow-extensions)
-        7. [Jenkins Extensions](#jenkins-extensions)
+        2. [GitHub Copilot](#github-copilot)
+        3. [More Extensions (Blogs)](#more-extensions-blogs)
+        4. [Themes](#themes)
+        5. [DevOps Extensions](#devops-extensions)
+        6. [Azure DevOps Extensions](#azure-devops-extensions)
+        7. [Git Flow Extensions](#git-flow-extensions)
+        8. [Jenkins Extensions](#jenkins-extensions)
 5. [Integrated Terminal on Visual Studio Code](#integrated-terminal-on-visual-studio-code)
 6. [Debugging in VScode](#debugging-in-vscode)
 7. [Python in Visual Studio Code](#python-in-visual-studio-code)
@@ -73,6 +74,9 @@
 - [betterprogramming.pub: Learn to Code Remotely With VS Code And SSH](https://betterprogramming.pub/learn-to-code-remotely-with-vs-code-and-ssh-68c630759279)
 - [austingil.com: VS Code Timeline Restores Lost Work That Git Can’t 🌟](https://austingil.com/vs-code-timeline-restores-work-git-cant/)
 - [==developers.redhat.com: Remote container development with VS Code and Podman== 🌟](https://developers.redhat.com/articles/2023/02/14/remote-container-development-vs-code-and-podman)
+- [==visualstudio.microsoft.com/services/live-share: Visual Studio Live Share== 🌟](https://visualstudio.microsoft.com/services/live-share/) Real-time collaborative development
+- [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/)
+- [gijsreijn.medium.com: Optimizing Your DSC V3 Authoring Experience in VSCode](https://gijsreijn.medium.com/optimizing-your-dsc-v3-authoring-experience-in-vscode-bd8e90c52312)
 
 ## Updates
 
@@ -129,6 +133,7 @@ A simple extension to make indentation more readable
 - [c-sharpcorner.com: The Best VS Code Extensions For Remote Working](https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-for-remote-working/)
 - [freecodecamp.org: VS Code Extensions to Increase Developer Productivity](https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity/)
 - [dev.to: My Top 5 Visual Studio Code extensions for Azure Developers](https://dev.to/azure/my-top-5-visual-studio-code-extensions-for-azure-developers-1odo)
+- [==hashicorp.com: Terraform extension for VS Code speeds up loading of large workspaces==](https://www.hashicorp.com/blog/terraform-extension-for-vs-code-speeds-up-loading-of-large-workspaces) New releases of the HashiCorp Terraform extension for Visual Studio Code and Terraform language server significantly reduce memory usage and start up time for large workspaces.
 
 #### More Extensions
 
@@ -163,7 +168,6 @@ A simple extension to make indentation more readable
 - [Working with Kubernetes in VS Code](https://code.visualstudio.com/docs/azure/kubernetes) Learn how to create a Kubernetes cluster, write a K8s manifest file (YAML), which tells K8s everything it needs to know about app, and finally deploy the app to the K8s cluster.
 - [marketplace.visualstudio.com: GitHub Repositories 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) Browse and edit code from Github without cloning. You can even review PRs!. The GitHub Repositories extension lets you quickly browse, search, edit, and commit to any remote GitHub repository directly from within Visual Studio Code, with support for Azure repos coming soon.
 - [Azure/vscode-kubernetes-tools 🌟](https://github.com/Azure/vscode-kubernetes-tools) Visual Studio Code Kubernetes Tools
-- [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [==snyk.io: Securing your open source dependencies with the Snyk Visual Studio Code extension==](https://snyk.io/blog/securing-open-source-dependencies-snyk-visual-studio-code-extension/)
 - [prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly 🌟](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) Prisma helps app developers build faster and make fewer errors with an open source database toolkit for PostgreSQL, MySQL, SQL Server, and SQLite. Central to Prisma is the schema - __a declarative way to define your app's data models and their relations that's human-readable__. And you don't have to painstakingly create it from scratch if you already have a database - prisma introspect takes care of that.
 - [==IAM Legend==](https://marketplace.visualstudio.com/items?itemName=SebastianBille.iam-legend) IAM policy actions autocomplete, documentation & wildcard resolution. Supports Serverless Framework, AWS SAM, CloudFormation and Terraform.
@@ -175,6 +179,15 @@ A simple extension to make indentation more readable
 - [marketplace.visualstudio.com: GitOps Tools for Flux 🌟](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) This is a VS Code extension for GitOps automation tool for continuous delivery of Kubernetes and cloud native applications
 - [marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) Kubernetes reference highlighter is a plugin for VS Code that highlights references in your Kubernetes YAML files
 - [freecodecamp.org: Increase Your VS Code Productivity](https://www.freecodecamp.org/news/increase-your-vs-code-productivity/)
+- [marketplace.visualstudio.com: Ruff extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) A Visual Studio Code extension for [Ruff](https://github.com/astral-sh/ruff), an extremely fast Python linter and code formatter, written in Rust.
+- [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) Guiding first-time cloud users to deploy to Azure PaaS
+- [==marketplace.visualstudio.com: Kubernetes YAML Formatter== 🌟](https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter) **A better YAML formatter for DevOps like Kubernetes, Ansible, CI/CD, etc.**
+
+#### GitHub Copilot
+
+- [==GitHub Copilot== 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- [code.visualstudio.com: GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
+- [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/unleashing-github-copilot-for-infrastructure-as-code/ba-p/4124031)
 
 #### More Extensions (Blogs)
 
@@ -246,6 +259,7 @@ A simple extension to make indentation more readable
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
 - [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
 - [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.
+    - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544) On some occasions, you might want to be able to debug code running in pods in a Kubernetes cluster. This article will teach you how to use mirrord to develop your local code against a remote Kubernetes cluster
 - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)
 
 ## Python in Visual Studio Code
@@ -334,6 +348,12 @@ A simple extension to make indentation more readable
 - [Master Git with Git Graph](https://www.youtube.com/shorts/OfsixF-splk)
 - [New VS Code features](https://www.youtube.com/shorts/8iVaeLjzY6s)
 - [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4)
+- [New VS Code Release Highlights v1.86](https://youtube.com/shorts/bVlIo4H0IDU)
+- [File Icon Theme](https://youtube.com/shorts/i0V1bHybv5w?si=y42F3QjNFVouu3s8)
+- [Learn with Copilot](https://youtube.com/shorts/rjmXBs5l_7M?si=UlQ4q1-B-JOiYwrn)
+- [Visualize your git repo in vscode with Git Graph extensions](https://youtube.com/shorts/vpFF1XSqWjw?si=Zr2eW_C3_3hQoXAa)
+- [How to be a professional (un)wrapper #vscode #programmingtools #coding](https://youtube.com/shorts/yuzKp_KsGIk?si=ooaqRJzW2cmf6Z2M)
+- [Screencast mode](https://www.youtube.com/shorts/KZHI5RMmFk0)
 
 ## Videos
 

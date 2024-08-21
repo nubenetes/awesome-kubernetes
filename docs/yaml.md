@@ -115,6 +115,7 @@
 - [betterprogramming.pub: How to Make JSON and Python Talk to Each Other](https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d) Processing and creating JSON data in Python
 - [betterprogramming.pub: Exploring JSON, JSON5, and Circular References](https://betterprogramming.pub/exploring-json-json5-and-circular-references-2b5b0c5de532) An in-depth guide on JavaScript Object Notation (JSON)
 - [automationreinvented.blogspot.com: What is Json Schema and how to perform schema validation using Rest Assured?](https://automationreinvented.blogspot.com/2022/03/what-is-json-schema-and-how-to-perform.html)
+- [==schemastore.org/json: JSON Schema Store== 🌟](https://www.schemastore.org/json/)
 
 ### JSONPath query language
 
@@ -135,6 +136,8 @@
 
 - [==jsoncrack.com: JSON Crack 🌟🌟==](https://jsoncrack.com) **Seamlessly visualize your JSON data instantly into graphs**
 - [github.com/tomnomnom/gron 🌟](https://github.com/tomnomnom/gron) Make JSON greppable!
+- [github.com/ynqa/jnv 🌟](https://github.com/ynqa/jnv) Interactive JSON filter using jq
+- [github.com/JFryy/qq](https://github.com/JFryy/qq) jq inspired (and gojq dependent) interoperable config format transcoder with interactive querying.
 
 ### Kubernetes JSON Schemas
 
@@ -148,7 +151,7 @@
     - **Custom validators**: Tools in this category allow writing custom checks in several languages such as Rego and Javascript.
 - [Validating Kubernetes YAML for best practice and policies 🌟](https://learnk8s.io/validating-kubernetes-yaml) In this article, you will learn and compare six different tools:
     - [Kubeval](https://www.kubeval.com/)
-    - [Kube-score](https://github.com/zegl/kube-score) Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a #opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.
+    - [Kube-score 🌟](https://github.com/zegl/kube-score) **Kubernetes object analysis with recommendations for improved reliability and security. kube-score is a opensource tool that performs static code analysis of Kubernetes object definitions. The output is a list of recommendations where one can improve to make application more secure and resilient.**
     - [Config-lint](https://stelligent.github.io/config-lint)
     - [Copper](https://github.com/cloud66-oss/copper)
     - [Conftest](https://www.conftest.dev/)
@@ -190,6 +193,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qmDzcu5uY1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iiADhChRriM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1uFVr15xDGg?si=I-cySo1Uui5z-LUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
 
 ## Tweets

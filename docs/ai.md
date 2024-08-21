@@ -14,6 +14,7 @@
 12. [Computer Vision](#computer-vision)
 13. [AIOps](#aiops)
 14. [Other Tools](#other-tools)
+15. [Videos](#videos)
 
 ## Introduction
 
@@ -26,10 +27,17 @@
 - [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.com/tecnologia/deep-learning-considera-revolucion-ia-1241180)
 - [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer/)
 - [freecodecamp.org: Ace Your Deep Learning Job Interview](https://www.freecodecamp.org/news/ace-your-deep-learning-job-interview/)
+- [freecodecamp.org: Deep Learning Fundamentals Handbook – What You Need to Know to Start Your Career in AI](https://www.freecodecamp.org/news/deep-learning-fundamentals-handbook-start-a-career-in-ai/)
+- [==aman.ai/primers/ai: Distilled AI==](https://aman.ai/primers/ai/) Here’s a hand-picked selection of articles on AI fundamentals/concepts that cover the entire process of building neural nets to training them to evaluating results.
+    - [==aman.ai/primers/ai/LLM: Primers - Overview of Large Language Models==](https://aman.ai/primers/ai/LLM/)
+- [forbesargentina.com: Por qué Nvidia, Google y Microsoft apuestan miles de millones en modelos LLM de IA Generativa para biotecnología](https://www.forbesargentina.com/innovacion/por-nvidia-google-microsoft-apuestan-miles-millones-modelos-llm-ia-generativa-biotecnologia-n49278)
+- [youtube: AWS re:Invent 2023 - From hype to impact: Building a generative AI architecture (ARC217)](https://www.youtube.com/watch?v=1Lat8dP7Eq0) Generative AI represents a paradigm shift for how companies operate today. Generative AI is empowering developers to reimagine customer experiences and applications while transforming virtually every industry. Organizations are rapidly innovating to create the right architecture for scaling generative AI securely, economically, and responsibly to deliver business value. In this talk, learn how leaders are modernizing their data foundation, selecting industry-leading foundation models, and deploying purpose-built accelerators to unlock the possibilities of generative AI.
 
 ## Machine Learning
 
 - [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners)
+- [==amazon.science/base-tts-samples==](https://www.amazon.science/base-tts-samples/) BASE TTS: Audio samples. Audio samples for the paper [BASE TTS: Lessons from building a billion-parameter text-to-speech model on 100K hours of data](https://www.amazon.science/publications/base-tts-lessons-from-building-a-billion-parameter-text-to-speech-model-on-100k-hours-of-data).
+    - [mundodeportivo.com: Amazon causa sensación en los entusiastas de la tecnología: ha creado el modelo de voz más grande del mundo](https://www.mundodeportivo.com/urbantecno/tecnologia/amazon-causa-sensacion-en-los-entusiastas-de-la-tecnologia-ha-creado-el-modelo-de-voz-mas-grande-del-mundo)
 
 ## Transformers Library
 
@@ -43,6 +51,7 @@
 - [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) An awesome & curated list of best LLMOps tools for developers
 - [valohai.com/blog/llmops/](https://valohai.com/blog/llmops/) LLMOps: MLOps for Large Language Models
 - [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course) Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+- [itnext.io: Deploy Flexible and Custom Setups with Anything LLM on Kubernetes](https://itnext.io/deploy-flexible-and-custom-setups-with-anything-llm-on-kubernetes-a2b5687f2bcc) Step-by-Step Guide to Deploy Anything LLM with OpenAI, Azure AI, and Ollama
 
 ## The MAD (ML/AI/Data) Landscape
 
@@ -51,6 +60,9 @@
 ## OpenAI
 
 - [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) Examples and guides for using the OpenAI API
+- [xataka.com: Microsoft no quiere poner todos los huevos en la misma cesta: anuncia una asociación con Mistral AI, la OpenAI de Europa](https://www.xataka.com/robotica-e-ia/microsoft-no-quiere-poner-todos-huevos-cesta-anuncia-asociacion-mistral-ai-openai-europa)
+    - Mistral AI accederá a la infraestructura en la nube de Azure AI para desarrollar sus modelos y ofrecerlos comercialmente
+    - La startup, con sede en París, acaba de lanzar su modelo de lenguaje Mistral Large y su chatbot conversacional Le Chat
 
 ## Kubernetes and AI
 
@@ -91,7 +103,19 @@ security from the beginning with continuous testing, automation, zero trust, and
 - [infoq.com: AIOps: Site Reliability Engineering at Scale](https://www.infoq.com/articles/aiops-reliability-engineering/)
 - [hashicorp.com: Accelerating AI adoption on Azure with Terraform](https://www.hashicorp.com/blog/accelerating-ai-adoption-on-azure-with-terraform)
 - [hashicorp.com: AI for infrastructure management](https://www.hashicorp.com/solutions/ai-infrastructure-management) Accelerate your IT operations and support AIOps implementation with HashiCorp.
+- [platformengineering.org: AI is changing the future of platform engineering. Are you ready?](https://platformengineering.org/blog/ai-is-changing-the-future-of-platform-engineering-are-you-ready) AI is changing the future of platform engineering. And the future is much closer than you might think.
+- [aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws/)
 
 ## Other Tools
 
 - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab
+- [==k8sgpt.ai==](https://k8sgpt.ai/) K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
+- [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
+
+## Videos
+
+??? note "Click to expand!"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oypdocrbTOE?si=MGkt9GFgQqGvE7Na" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>

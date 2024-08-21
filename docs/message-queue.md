@@ -2,7 +2,8 @@
 
 1. [Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming](#message-queue-in-kubernetes-event-driven-messaging-real-time-data-streaming)
 2. [RPC vs Messaging](#rpc-vs-messaging)
-3. [Message Brokers](#message-brokers)
+3. [Tibco Business Works BWCE](#tibco-business-works-bwce)
+4. [Message Brokers](#message-brokers)
     1. [ActiveMQ message broker](#activemq-message-broker)
     2. [RabbitMQ message broker](#rabbitmq-message-broker)
     3. [Redis message broker](#redis-message-broker)
@@ -11,13 +12,13 @@
     5. [KubeMQ message broker](#kubemq-message-broker)
     6. [Google Cloud Platform Pub/Sub](#google-cloud-platform-pubsub)
     7. [JMS Message Queue vs. Apache Kafka](#jms-message-queue-vs-apache-kafka)
-4. [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
+5. [Cloud Based Integration. Integration Platform-as-a-Service (iPaaS) solutions](#cloud-based-integration-integration-platform-as-a-service-ipaas-solutions)
     1. [Red Hat Fuse and Red Hat Fuse Online](#red-hat-fuse-and-red-hat-fuse-online)
     2. [Syndesis open source integration platform](#syndesis-open-source-integration-platform)
-5. [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
-6. [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
-7. [Data Mesh](#data-mesh)
-8. [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
+6. [Debezium open source distributed platform for Change Data Capture (CDC) software design pattern](#debezium-open-source-distributed-platform-for-change-data-capture-cdc-software-design-pattern)
+7. [Red Hat Integration service registry and Apicurio](#red-hat-integration-service-registry-and-apicurio)
+8. [Data Mesh](#data-mesh)
+9. [Data Processing (aka Streaming Data, Data Pipeline or Big Data Pipeline)](#data-processing-aka-streaming-data-data-pipeline-or-big-data-pipeline)
     1. [Apache Kafka](#apache-kafka)
         1. [Kafka Tools](#kafka-tools)
         2. [Strimzi kubernetes operator for apache kafka](#strimzi-kubernetes-operator-for-apache-kafka)
@@ -32,22 +33,22 @@
     8. [Apache Flink](#apache-flink)
     9. [Hazelcast JET](#hazelcast-jet)
     10. [Postgress as message queue](#postgress-as-message-queue)
-9. [Workflow Engines](#workflow-engines)
-    1. [Zeebe](#zeebe)
-    2. [Apache Airflow](#apache-airflow)
-    3. [Couler](#couler)
-10. [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
+10. [Workflow Engines](#workflow-engines)
+     1. [Zeebe](#zeebe)
+     2. [Apache Airflow](#apache-airflow)
+     3. [Couler](#couler)
+11. [Red Hat AMQ (ActiveMQ Artemis broker and Apache Kafka)](#red-hat-amq-activemq-artemis-broker-and-apache-kafka)
      1. [Red Hat AMQ Broker (ActiveMQ Artemis)](#red-hat-amq-broker-activemq-artemis)
      2. [Red Hat AMQ Streams](#red-hat-amq-streams)
      3. [Slides of Red Hat AMQ Streams](#slides-of-red-hat-amq-streams)
-11. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
-12. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
+12. [Open Data Hub AI-as-a-Service (AIaaS) platform](#open-data-hub-ai-as-a-service-aiaas-platform)
+13. [Integration Platform as a Solution (iPaaS). Platforms for collecting, storing and routing customer event data](#integration-platform-as-a-solution-ipaas-platforms-for-collecting-storing-and-routing-customer-event-data)
      1. [IpaaS Vendors](#ipaas-vendors)
-13. [eBooks](#ebooks)
-14. [Related](#related)
-15. [Questions and Answers](#questions-and-answers)
-16. [Videos](#videos)
-17. [Tweets](#tweets)
+14. [eBooks](#ebooks)
+15. [Related](#related)
+16. [Questions and Answers](#questions-and-answers)
+17. [Videos](#videos)
+18. [Tweets](#tweets)
 
 ## Message Queue in Kubernetes. Event-driven Messaging. Real-Time Data Streaming
 
@@ -116,6 +117,12 @@
 
 - [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster)
 
+## Tibco Business Works BWCE
+
+- [medium.com/dev-jam: TIBCO Business Works vs. Apache Camel — A short Comparison 🌟](https://medium.com/dev-jam/tibco-bw-vs-apache-camel-9552a5f4e6be)
+    - ESB stands for Enterprise Service Bus. It is an architecture pattern that enables disparate applications to connect seamlessly with each other. Under the hood, ESB uses an integration tool, more commonly known as middleware. Integration or Middleware tools have capabilities such as data transformation (such as XML to JSON), protocol transformation (like FTP to HTTP), content-based message routing and service orchestration. Many vendors converted this concept into an ESB product with standard connectors
+    - In this blog, I will compare two such integration tools, one which I have worked extensively i.e TIBCO BW and the de facto open source integration framework Apache Camel. I choose open source as it has a bright future and becoming very popular among many enterprises. I did not choose Mule ESB because it is not completely open-source as its most vital components come under a licensed enterprise version.
+
 ## Message Brokers
 
 - [Apache ActiveMQ](https://activemq.apache.org/)
@@ -123,6 +130,7 @@
 - [Dzone: Introduction to Message Brokers. Part 2: ActiveMQ vs. Redis Pub/Sub](https://dzone.com/articles/introduction-to-message-brokers-part-2-activemq-vs)
 - [developers.redhat.com: Choosing the right asynchronous-messaging infrastructure for the job](https://developers.redhat.com/blog/2020/07/31/choosing-the-right-asynchronous-messaging-infrastructure-for-the-job/)
 - [medium.com/@codeeverywhere: Redis vs Kafka vs RabbitMQ](https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb)
+- [==kai-waehner.de: When to use Apache Camel vs. Apache Kafka?== 🌟](https://www.kai-waehner.de/blog/2022/01/28/when-to-use-apache-camel-vs-apache-kafka-for-etl-application-integration-event-streaming/) Should I use Apache Camel or Apache Kafka for my next integration project? The question is very valid and comes up regularly. This blog post explores both open-source frameworks and explains the difference between application integration and event streaming. The comparison discusses when to use Kafka or Camel, when to combine them, when not to use them at all. A decision tree shows how you can quickly qualify out one for the other.
 
 ### ActiveMQ message broker
 
@@ -364,6 +372,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [rogulski.it: Consume Kafka events with Knative service and FastAPI on kubernetes 🌟](https://rogulski.it/blog/kafka-consumer-knative-fastapi/) In this article, you will learn how to build a fully scalable, event-driven and easy-to-maintain system using Python (FastAPI), Kafka, and Knative
 - [piotrminkowski.com: Concurrency with Kafka and Spring Boot](https://piotrminkowski.com/2023/04/30/concurrency-with-kafka-and-spring-boot/)
 - [==thenewstack.io: Kafka on Kubernetes: Should You Adopt a Managed Solution?==](https://thenewstack.io/kafka-on-kubernetes-should-you-adopt-a-managed-solution/) A look at the various factors to consider when deciding whether to deploy Kafka yourself or to purchase a managed solution
+- [thelinuxnotes.com: How to deploy Kafka in Kubernetes with Helm chart + kafdrop](https://thelinuxnotes.com/index.php/how-to-deploy-kafka-in-kubernetes-with-helm-chart-kafdrop-commander/)
 
 #### Kafka Tools
 
@@ -374,6 +383,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [github.com/lensesio/fast-data-dev (Lenses Box)](https://github.com/lensesio/fast-data-dev) Kafka Docker for development. Kafka, Zookeeper, Schema Registry, Kafka-Connect, Landoop Tools, 20+ connectors. A apachekafka docker image that actually works without zookeeper. If you don't want do deal with docker-compose this one is for you.
 - [dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI](https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar) Visualize your Apache Kafka Streams using the Quarkus Dev UI
 - [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
+- [==github.com/sauljabin/kaskade==](https://github.com/sauljabin/kaskade) **kaskade is a text user interface for kafka, which allows you to interact and consume topics from your terminal in style!**
 
 #### Strimzi kubernetes operator for apache kafka
 
@@ -492,6 +502,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [==medium.com/apache-airflow: Passing Data Between Tasks with the KubernetesPodOperator in Apache Airflow== 🌟](https://medium.com/apache-airflow/passing-data-between-tasks-with-the-kubernetespodoperator-in-apache-airflow-7ae9e3e6675c) TL;DR: Use the @task.kubernetes decorator!
 - [medium.com/@piyush_74867: Apache Airflow on Kubernetes at scale — a peak under the hood](https://medium.com/@piyush_74867/apache-airflow-on-kubernetes-at-scale-a-peak-under-the-hood-1eebb9b4769b)
 - [medium.com/@alfahreiza: Building an ELT Pipeline: From CSV to BigQuery using dbt](https://medium.com/@alfahreiza/building-an-elt-pipeline-from-csv-to-bigquery-using-dbt-f6e3f30bfc9c)
+- [medium.com/apache-airflow: What we learned after running Airflow on Kubernetes for 2 years](https://medium.com/apache-airflow/what-we-learned-after-running-airflow-on-kubernetes-for-2-years-0537b157acfd) In this case study, you will learn how the team at Teya scaled Airflow on Kubernetes to 5000 daily tasks
 
 ### Couler
 

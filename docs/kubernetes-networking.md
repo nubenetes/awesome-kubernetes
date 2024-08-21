@@ -177,6 +177,12 @@
 - [medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes](https://medium.com/codex/capture-tcpdump-with-ksniff-and-wireshark-from-kubernetes-c212b93ff9f9) In Kubernetes, there are many ways to deploy and run apps, such as pods, services, and more. Tcpdump can be used to capture network traffic between these components, helping to identify network issues and diagnose problems.
 - [cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences](https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html)
 - [matthewpalmer.net: Kubernetes Networking Guide for Beginners](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
+- [itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond](https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572)
+- [adil.medium.com: Network Traffic Shaping in Kubernetes: Topology Aware Routing](https://adil.medium.com/network-traffic-shaping-in-kubernetes-topology-aware-routing-e4ea4a03dd20)
+    - One challenge in cloud-distributed systems is keeping network traffic within the same availability zone
+    - Kubernetes introduced Topology Aware Routing to address this issue
+    - This ensures requests between apps remain in the same zone
+- [otterize.com: Mastering Kubernetes networking: A journey in cloud-native packet management](https://otterize.com/blog/mastering-kubernetes-networking-otterize-s-journey-in-cloud-native-packet-management) Master Kubernetes networking with a comprehensive packet walk, and learn how Otterize helps build adaptive Network Policies.
 
 ## Kubernetes DNS
 
@@ -203,6 +209,7 @@
     - [==editor.cilium.io== 🌟🌟🌟](https://editor.cilium.io) **For learning, you can use the amazing NetworkPolicy Editor at cilium.**
 - [whyk8s.substack.com: Why NetworkPolicies?](https://whyk8s.substack.com/p/why-networkpolicies) Is Kubernetes networking insecure by default? Why was it built that way?
 - [yuminlee2.medium.com: Kubernetes Network Policies](https://yuminlee2.medium.com/kubernetes-network-policies-a93c2f588e31)
+- [==bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm==](https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a)
 
 ## Nginx Ingress Controller
 

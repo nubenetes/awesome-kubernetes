@@ -31,6 +31,7 @@
 - [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices/)
 - [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try/)
 - [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman/)
+- [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/) You can use the Postman desktop app to test the performance of your APIs. Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load. It can also help you identify any issues or bottlenecks that affect performance.
 
 ## Newman
 

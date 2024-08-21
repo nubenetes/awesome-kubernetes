@@ -158,6 +158,7 @@
 - [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)
 - [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 - [==manifests.io== 🌟](https://manifests.io)
+    - [manifests.io/kubernetes/1.28](https://www.manifests.io/kubernetes/1.28)
 
 ## Kubernetes and Kubectl Cheat Sheets
 
@@ -480,6 +481,7 @@
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)
 - [docs.microsoft.com: Build JavaScript applications using TypeScript](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/)
 - [levelup.gitconnected.com: NestJS: Microservices with gRPC, API Gateway, and Authentication — Part 1/2](https://levelup.gitconnected.com/nestjs-microservices-with-grpc-api-gateway-and-authentication-part-1-2-650009c03686) Step-by-Step Guide: NestJS Applications with TypeScript, gRPC, API Gateway, Authentication, and Validation.
+- [freecodecamp.org: How TypeScript Interfaces Work – Explained with Examples](https://www.freecodecamp.org/news/how-typescript-interfaces-work/)
 
 ## Jupyter
 

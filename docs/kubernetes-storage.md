@@ -25,6 +25,7 @@
     14. [NetApp Data Store](#netapp-data-store)
     15. [Stork Storage Operator](#stork-storage-operator)
     16. [Curve - OpenCurve](#curve---opencurve)
+    17. [simplyblock](#simplyblock)
 9. [OpenShift Container Storage Operator (OCS)](#openshift-container-storage-operator-ocs)
     1. [OCS 3 (OpenShift 3)](#ocs-3-openshift-3)
     2. [OCS 4 (OpenShift 4)](#ocs-4-openshift-4)
@@ -157,6 +158,7 @@
 - [Rook](https://rook.io/)
 - [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)
 - [documentation.suse.com: Rook Best Practices for running Ceph on Kubernetes (PDF)](https://documentation.suse.com/sbp/all/pdf/SBP-rook-ceph-kubernetes_color_en.pdf)
+- [medium.com/@abdulfayis: storage Orchestration for Kubernetes](https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23)
 
 ### Robin
 
@@ -195,6 +197,7 @@
 - [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://rancher.com/blog/2020/longhorn-container-storage)
 - [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://containerjournal.com/topics/container-management/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters/)
 - [aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed storage)](https://aesher9o1.medium.com/autoscale-large-images-faster-using-longhorn-distributed-storage-618d0cf01ba2)
+- [medium.com/@abdelrhmanahmed131: Longhorn — Distributed Block Storage for K8s](https://medium.com/@abdelrhmanahmed131/longhorn-distributed-block-storage-for-k8s-2ea11df400d1)
 
 ### IBM Spectrum Storage Suite
 
@@ -235,6 +238,10 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
 - [Curve: opencurve.io](https://opencurve.io) Curve is a high-performance, lightweight-operation, cloud-native open source distributed storage system for Kubernetes/OpenStack. Curve can also be used as a cloud storage middleware using S3-compatible object storage as a data storage engine.
 
+### simplyblock
+
+- [simplyblock: simplyblock.io](https://simplyblock.io) Simplyblock is a NVMe over TCP (NVMe/TCP) based disaggregated and cloud-native storage solution with high-performance and predictable low latency block storage for Kubernetes.
+
 ## OpenShift Container Storage Operator (OCS)
 
 - [State of OpenShift Container Storage](https://www.openshift.com/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)
@@ -267,6 +274,7 @@ edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 - [github.com/kubernetes-csi](https://github.com/kubernetes-csi) Kubernetes specific Container-Storage-Interface (CSI) components
 - [SMB CSI Driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-smb) This driver allows Kubernetes to access SMB Server on both Linux and Windows nodes.
 - [github.com/yandex-cloud: CSI for S3](https://github.com/yandex-cloud/k8s-csi-s3) This is a Container Storage Interface (CSI) for S3 (or S3 compatible) storage. This can dynamically allocate buckets and mount them via a fuse mount into any container.
+- [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works/)
 
 ## Kubestr
 

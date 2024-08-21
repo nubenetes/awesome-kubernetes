@@ -33,6 +33,7 @@
 ## AWS Route 53
 
 - [How do I transfer a domain to AWS from another registrar?](https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/)
+- [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html)
 
 ## AWS Elastic Load Balancing (ELB)
 
@@ -56,6 +57,7 @@
 - [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)
 - [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
 - [faun.pub: End To End SSL Encryption With AWS Application Load Balancer](https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e)
+- [aws.amazon.com/about-aws: Application Load Balancer enables configuring HTTP client keepalive duration](https://aws.amazon.com/about-aws/whats-new/2024/03/application-load-balancer-http-keepalive-duration/)
 
 ## Gateway Load Balancer (GWLB)
 
@@ -87,6 +89,7 @@
 - [==betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group Using T2.micro Instances==](https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b) **Maintain a self-healing architecture**
 - [alanblackmore.medium.com: What is AWS VPC Peering? 🌟](https://alanblackmore.medium.com/what-is-aws-vpc-peering-af85c1e29fb2)
 - [awstip.com: Setting Up AWS VPC Endpoint Connection](https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204)
+- [towardsaws.com: How to centralize VPC endpoints in AWS](https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50)
 
 ### AWS Client VPN
 

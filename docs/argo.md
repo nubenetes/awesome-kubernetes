@@ -97,8 +97,15 @@
     - Closing the pull request terminates the environment
 - [piotrminkowski.com: Manage Kubernetes Operators with ArgoCD](https://piotrminkowski.com/2023/05/05/manage-kubernetes-operators-with-argocd/)
 - [medium.com/@geoffrey.muselli: ArgoCD: Multi-cluster Helm charts management in mono-repo](https://medium.com/@geoffrey.muselli/argocd-multi-cluster-helm-charts-installation-in-mono-repo-0a406ff7c578)
-- [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) Don’t Underestimate Labels with Kubernetes: Simplify, Don’t Overcomplicate
+- [itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) Don’t Underestimate Labels with Kubernetes: Simplify, Don’t Overcomplicate. This article demonstrates how to create a lightweight Internal Developer Platform utilizing GitOps with Argo CD and leveraging Kubernetes labels to offer a streamlined and efficient solution for managing and deploying your infrastructure
 - [medium.com/otomi-platform: Helmfile and ArgoCD are better together](https://medium.com/otomi-platform/helmfile-and-argocd-better-together-f8d4587263ff)
+- [overcast.blog: GitOps with ArgoCD for Kubernetes](https://overcast.blog/gitops-with-argocd-for-kubernetes-tips-and-tricks-4b926ba75f88)
+- [medium.com/globant: Using multiple sources for a Helm Chart deployment in ArgoCD](https://medium.com/globant/using-multiple-sources-for-a-helm-chart-deployment-in-argocd-cf3cd2d598fc)
+- [faun.pub: ArgoCD Finalizer Shield: Protecting Your Production Clusters from Unintended Deletion](https://faun.pub/argocd-finalizer-shield-protecting-your-clusters-from-unintended-deletion-c7929a82d983) This article teaches how to protect your ArgoCD clusters from accidental deletion using finalizers, a simple yet powerful mechanism that ensures the integrity of your cloud-native infrastructure
+- [overcast.blog: Kubernetes — ArgoCD — Gitlab Webhook Configuration](https://overcast.blog/kubernetes-argocd-gitlab-webhook-configuration-30bc5a75139e)
+- [developers.redhat.com: Enhance Kubernetes deployment efficiency with Argo CD and ApplicationSet](https://developers.redhat.com/articles/2024/06/06/enhance-kubernetes-deployment-efficiency-argo-cd-and-applicationset)
+- [==dev.to: Extending GitOps: Effortless continuous integration and deployment on Kubernetes==](https://dev.to/amplication/extending-gitops-effortless-continuous-integration-and-deployment-on-kubernetes-1oem) This article discusses using GitOps and Argo CD Image Updater for effortless continuous integration and deployment on Kubernetes
+- [dev.to/devsatasurion: Deploying Applications with GitHub Actions and ArgoCD to EKS: Best Practices and Techniques](https://dev.to/devsatasurion/deploying-applications-with-github-actions-and-argocd-to-eks-best-practices-and-techniques-4epc)
 
 ## Argo CD Vulnerabilities
 
@@ -133,6 +140,7 @@
 - [faun.pub: Kubernetes Practice — Automating Blue/Green Deployment with Argo Rollouts](https://faun.pub/kubernetes-practice-automating-blue-green-deployment-with-argo-rollouts-2279aa890c53) In this article, we will learn how to automate Blue/Green Deployment with Argo Rollouts.
 - [infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing/) This blog post will teach you how to set up blue-green deployments using Argo Rollouts with DNS routing using **Azure Traffic Manager**
 - [codefresh.io: Progressive delivery for Kubernetes Config Maps using Argo Rollouts](https://codefresh.io/blog/progressive-delivery-for-kubernetes-config-maps-using-argo-rollouts/) In this tutorial, you will learn how to use Argo Rollouts for settings/ConfigMaps using the Kustomize configmap generators. This is useful during blue/green deployments where you need a (templated) copy of the ConfigMap.
+- [faun.pub: How Helm Subcharts Make the Transition to Argo Rollouts a Breeze](https://faun.pub/how-helm-subcharts-make-the-transition-to-argo-rollouts-a-breeze-aaf160924dbf)
 
 ## Argo Workflows
 

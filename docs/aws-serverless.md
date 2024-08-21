@@ -63,6 +63,7 @@
 - [medium.com/lego-engineering: A Journey into Serverless and Handling Step Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99) Have you ever wondered how you would handle failures in your AWS Step Functions? And what benefits would a robust failure-handling system have?
 - [dev.to/aws-builders: Introduction to AWS SAM (Serverless Application Model)](https://dev.to/aws-builders/introduction-to-aws-sam-serverless-application-model-12oc)
 - [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236)
+- [medium.com/@sassenthusiast: Serverless Simplified: Integrating Docker Containers into AWS Lambda via serverless.yml](https://medium.com/@sassenthusiast/serverless-simplified-integrating-docker-containers-into-aws-lambda-via-serverless-yml-cdef9be1681e)
 
 ## AWS Fargate
 

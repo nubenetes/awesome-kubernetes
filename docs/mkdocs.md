@@ -18,6 +18,8 @@
     - [www.electron.build](https://www.electron.build/)
     - etc
 - [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)
+- [build5nines.com: GitHub Actions: Run Pandoc to convert Markdown to Word Document](https://build5nines.com/github-actions-run-pandoc-to-convert-markdown-to-word-document/)
+- [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/2024/05/01/deploying-mkdocs-to-github-pages-with-github-actions/)
 
 ## Material for MkDocs
 
@@ -32,11 +34,13 @@
 - [Markdown Cheat Sheet 3](https://3os.org/markdownCheatSheet/welcome/)
 - [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [dev.to: How we made the __markdown toolbar__](https://dev.to/devteam/how-we-made-the-markdown-toolbar-4f09)
-- [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code. 
+- [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one/) R Markdown is a dynamic file format that allows you to make documents containing normal text alongside chunks of embedded R code.
 - [opensource.com: An introduction to Markdown](https://opensource.com/article/19/9/introduction-markdown)
 - [github.blog: Include diagrams in your Markdown files with Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.
 - [theverge.com: Google Docs is getting more Markdown support](https://www.theverge.com/2022/3/29/23002138/google-docs-markdown-support-formatting-update)
-- [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google/) Google has expanded support for Markdown in Google Docs, Slides, and Drawings, and if you don’t understand what that means, that’s ok. If you do, you probably have had one of two reactions: “Cool, but that’s not enough” or “I’ll never use that.” You might be right in either case, but you should give Markdown a chance. You might just have the perfect use for it. 
+- [popsci.com: Google’s expanded Markdown feature could change how you work](https://www.popsci.com/diy/use-markdown-google/) Google has expanded support for Markdown in Google Docs, Slides, and Drawings, and if you don’t understand what that means, that’s ok. If you do, you probably have had one of two reactions: “Cool, but that’s not enough” or “I’ll never use that.” You might be right in either case, but you should give Markdown a chance. You might just have the perfect use for it.
+- [==readme.so==](https://readme.so) The easiest way to create a README
+- [github.com/Ileriayo/markdown-badges: Markdown Badges](https://github.com/Ileriayo/markdown-badges) Badges for your personal developer branding, profile, and projects.
 
 ## GitHub Pages
 
@@ -53,6 +57,7 @@
 ## Alternatives. Jekyll open source static site generator
 
 - [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) Jekyll is an open source static site generator. You can write your content in Markdown, use HTML/CSS for structure and presentation, and Jekyll compiles it all into static HTML.
+- [freecodecamp.org: Documentation Libraries to Help You Write Good Docs](https://www.freecodecamp.org/news/documentation-libraries-to-help-you-write-good-docs/) **Good project documentation is key to success for every company, startup, or individual project. Without documentation, it's much harder for new developers or others to use your project.**
 
 ## Videos
 

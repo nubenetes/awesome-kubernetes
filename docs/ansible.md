@@ -151,6 +151,9 @@
     - Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.
     - Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.
 - [community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone)
+- [intellipaat.com: Ansible vs Kubernetes vs Docker](https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker/)
+- [redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟](https://www.redhat.com/sysadmin/ansible-lists-dictionaries-yaml)
+- [github.com/naveensilver/Ansible](https://github.com/naveensilver/Ansible) My Ansible Notes (Beginner to Advanced) : Repository to learn Ansible from Zero. This repository covers the complete Ansible fundamentals along with examples required for a DevOps Engineer.
 
 ## Ansible AI
 
@@ -314,6 +317,7 @@
 - [ansiblefordevops.com](https://www.ansiblefordevops.com/)
 - [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com/)
 - [redhat.com: The Automated Enterprise](https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107) Transform your business with an automation platform that unifies your people and processes.
+- [github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network)
 
 ## Ansible Galaxy Roles
 

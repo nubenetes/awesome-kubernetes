@@ -52,6 +52,7 @@
 - [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) Serverless authentication solution to protect your website or Amplify application
 - [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) Example AWS Service control policies to get started or mature your usage of AWS SCPs.
 - [medium.parttimepolymath.net: No more AWS Access Keys?](https://medium.parttimepolymath.net/no-more-aws-access-keys-13a3c3f2337a)
+- [darryl-ruggles.cloud: AWS SSO Credentials With Multiple Accounts](https://darryl-ruggles.cloud/aws-sso-credentials-with-multiple-accounts)
 
 ## AWS Security Scanners
 
@@ -122,6 +123,7 @@
 
 - [Simplifying permissions management at scale using tags in AWS Organizations](https://aws.amazon.com/blogs/mt/simplifying-permissions-management-at-scale-using-tags-in-aws-organizations/)
 - [Standardize compliance in AWS using DevOps and a Cloud Center of Excellence (CCOE) approach](https://aws.amazon.com/blogs/mt/standardize-compliance-in-aws-using-devops-and-a-cloud-center-of-excellence-ccoe-approach/)
+- [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://blog.wut.dev/2024/07/05/moving-aws-accounts-within-organization.html)
 
 ## AWS Control Tower
 
@@ -152,6 +154,7 @@
 - [How to replicate secrets in AWS Secrets Manager to multiple Regions](https://aws.amazon.com/blogs/security/how-to-replicate-secrets-aws-secrets-manager-multiple-regions/)
 - [AWS Secrets Manager controller POC: an EKS operator for automatic rotation of secrets](https://aws.amazon.com/blogs/containers/aws-secrets-manager-controller-poc-an-eks-operator-for-automatic-rotation-of-secrets/)
 - [k21academy.com: AWS Secrets Manager](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-secrets-manager/)
+- [blog.devops.dev: Debugging Kubernetes Secrets, Why My Pod Wouldn’t Start](https://blog.devops.dev/manage-secrets-on-aws-and-helm-as-environment-variables-f7ec998c58fc)
 
 ## AWS Vault
 

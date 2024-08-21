@@ -2,6 +2,7 @@
 
 1. [Introduction](#introduction)
 2. [CIDR subnets](#cidr-subnets)
+    1. [IPAM Tools. NetBox IPAM](#ipam-tools-netbox-ipam)
 3. [HTTP Protocols](#http-protocols)
     1. [HTTP Status Codes](#http-status-codes)
     2. [HTTP/2](#http2)
@@ -37,6 +38,14 @@
 - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
 - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)
 - [matt-rickard.com: How to Calculate a CIDR](https://matt-rickard.com/how-to-calculate-a-cidr)
+- [build5nines.com: IPv4 Address CIDR Range Reference and Calculator](https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator/)
+
+### IPAM Tools. NetBox IPAM
+
+- [==github.com/netbox-community/netbox== 🌟](https://github.com/netbox-community/netbox)
+- [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam/)
+- [youtube: NetBox Zero To Hero](https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7)
+- https://hub.docker.com/r/netboxcommunity/netbox
 
 ## HTTP Protocols
 
@@ -76,6 +85,7 @@
 
 - [Wikipedia: HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)
 - [==http3-explained.haxx.se: HTTP/3 explained== 🌟](https://http3-explained.haxx.se/)
+- [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/)
 
 ### HTTP Structured Fields
 

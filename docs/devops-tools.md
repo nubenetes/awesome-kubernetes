@@ -4,6 +4,8 @@
 2. [Keptn](#keptn)
 3. [Relay](#relay)
 4. [Devtron. Tool integration platform for kubernetes](#devtron-tool-integration-platform-for-kubernetes)
+5. [Codegiant](#codegiant)
+6. [CapabilityPE (capipe)](#capabilitype-capipe)
 
 ## Introduction
 
@@ -56,3 +58,13 @@
 - Integrations happen with existing Open-source systems like argocd, Argo workflow, Clair, hibernator, grafana, Prometheus, envoy, and many others and add capabilities on top of them to enable self serve for developers and DevOps.
 - [blog.searce.com: Devtron: One-stop shop for all Kubernetes deployments](https://blog.searce.com/devtron-one-stop-shop-for-all-kubernetes-deployments-6f1c111a7ba1)
 - [medium.com/cp-massive-programming: Deploying Devtron in a Local K8s Kind Cluster using Terraform](https://medium.com/cp-massive-programming/deploying-devtron-in-a-local-k8s-kind-cluster-using-terraform-cea9d4d9636) Short Hands-On guide on how to deploy Devtron in a local Kubernetes cluster created with kind and Terraform
+
+## Codegiant
+
+- [codegiant.io: Build software faster](https://codegiant.io/home) Codegiant is a DevSecOps platform with built-in best practices that enables your team to deliver faster.
+
+## CapabilityPE (capipe)
+
+- [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
+- You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
+

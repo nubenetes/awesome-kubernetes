@@ -10,16 +10,18 @@
 8. [Flyte](#flyte)
 9. [AWS ML](#aws-ml)
 10. [Azure ML](#azure-ml)
-11. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
-12. [Data Science](#data-science)
-13. [Machine Learning workloads in kubernetes using Nix and NVIDIA](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia)
-14. [Other Tools](#other-tools)
-15. [Debugging ML Jobs](#debugging-ml-jobs)
-16. [Samples](#samples)
-17. [ML Courses](#ml-courses)
-18. [ML Competitions and Challenges](#ml-competitions-and-challenges)
-19. [Polls](#polls)
-20. [Tweets](#tweets)
+11. [Databricks](#databricks)
+12. [KServe Cloud Native Model Server](#kserve-cloud-native-model-server)
+13. [Data Science](#data-science)
+14. [Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes](#machine-learning-workloads-in-kubernetes-using-nix-and-nvidia-running-nvidia-gpus-on-kubernetes)
+15. [Meta LLama](#meta-llama)
+16. [Other Tools](#other-tools)
+17. [Debugging ML Jobs](#debugging-ml-jobs)
+18. [Samples](#samples)
+19. [ML Courses](#ml-courses)
+20. [ML Competitions and Challenges](#ml-competitions-and-challenges)
+21. [Polls](#polls)
+22. [Tweets](#tweets)
 
 ## Introduction. MLOps
 
@@ -74,6 +76,12 @@
 - [semaphoreci.com: Why Do We Need DevOps for ML Data?](https://semaphoreci.com/blog/devops-ml-data)
 - [nannyml.com: Automating post-deployment Data Collection for ML Monitoring](https://www.nannyml.com/blog/sdk-nannyml-data-collection-ml-monitoring)
 - [aiml.com: Large Language Models Quiz (Medium)](https://aiml.com/quizzes/deep-learning-large-language-models-quiz-medium/)
+- [==medium.com/@samiullah6799: Different Roles in MLOps==](https://medium.com/@samiullah6799/different-roles-in-mlops-0918de5321a4)
+- [==dev.to/pavanbelagatti: Deploy Any AI/ML Application On Kubernetes: A Step-by-Step Guide!==](https://dev.to/pavanbelagatti/deploy-any-aiml-application-on-kubernetes-a-step-by-step-guide-2i37)
+- [marvelousmlops.substack.com: Sharpen your cookiecutter: speed up repo creation with workflows](https://marvelousmlops.substack.com/p/sharpen-your-cookiecutter-speed-up)
+- [decodingml.substack.com: How to ensure your models are fail-safe in production?](https://decodingml.substack.com/p/how-to-ensure-your-models-are-fail) Effectively monitor model serving stacks at scale, extracting key insights from their behaviour under large loads.
+- [==freecodecamp.org: MLOps Course – Learn to Build Machine Learning Production Grade Projects==](https://www.freecodecamp.org/news/mlops-course-learn-to-build-machine-learning-production-grade-projects/)
+- [medium.com/@kevin30101999: Machine Learning Pipeline using Argo workflow 🌟](https://medium.com/@kevin30101999/machine-learning-pipeline-using-argo-workflow-be91feb07c41)
 
 ## MLOps Roadmap
 
@@ -82,6 +90,7 @@
 ## Blogs
 
 - [Marvelous MLOps Substack](https://marvelousmlops.substack.com)
+- [decodingml.substack.com: Decoding ML Newsletter](https://decodingml.substack.com/) Join for battle-tested content on designing, coding, and deploying production-grade ML & MLOps systems. Every week. For FREE.
 
 ## ML Infra
 
@@ -149,6 +158,12 @@
     - Azure ML currently supports three types of endpoints: batch endpoints, Kubernetes online endpoints, and managed online endpoints. I’m going to focus on batch endpoints in this post, but let me start by explaining how the three types differ.
 - [blog.devops.dev: Mastering Machine Learning at Scale with Azure Machine Learning](https://blog.devops.dev/mastering-machine-learning-at-scale-with-azure-machine-learning-dfaa4bf4353c) Accelerate Model Development, Deployment, and Monitoring at Scale
 - [youtube: Deploy Convolutional Neural Network (CNN) on Azure with Python | Deep Learning Deployment | MLOPS](https://www.youtube.com/watch?v=6sqGxVI3X1w)
+- [==learn.microsoft.com: Azure Well-Architected Framework perspective on Azure Machine Learning==](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-machine-learning)
+
+## Databricks
+
+- [marvelousmlops.substack.com: Model serving architectures on Databricks](https://marvelousmlops.substack.com/p/model-serving-architectures-on-databricks)
+- [medium.com/sync-computing: Top 9 Lessons Learned about Databricks Jobs Serverless](https://medium.com/sync-computing/top-9-lessons-learned-about-databricks-jobs-serverless-41a43e99ded5) We test the latest Databricks Jobs serverless feature and present our pros and cons to help you make the best decision
 
 ## KServe Cloud Native Model Server
 
@@ -164,12 +179,19 @@
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
 - [towardsdatascience.com: How to Structure a Data Science Project for Readability and Transparency](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800) And How to Create One in One Line of Code
 
-## Machine Learning workloads in kubernetes using Nix and NVIDIA
+## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
 - [canvatechblog.com: Supporting GPU-accelerated Machine Learning with Kubernetes and Nix](https://canvatechblog.com/supporting-gpu-accelerated-machine-learning-with-kubernetes-and-nix-7c1da8e42f61) In this article, you'll learn how to package and run machine learning workloads in Kubernetes using Nix and NVIDIA
     - [Nix](https://nixos.org/manual/nix/stable/)
     - [github.com/NVIDIA/nvidia-docker: NVIDIA/nvidia-docker/volumes.go](https://github.com/NVIDIA/nvidia-docker/blob/8c0eeba474cace48fdb8216f518063db2bd2d4d1/tools/src/nvidia/volumes.go#L103) NVIDIA’s documentation is disappointingly evasive on what the “driver” is, but we find a good answer in their official source code.
 - [==catalog.ngc.nvidia.com: NVIDIA GPU Operator - Helm chart== 🌟🌟🌟](https://catalog.ngc.nvidia.com/orgs/nvidia/helm-charts/gpu-operator)
+- [jimangel.io: A Practical Guide to Running NVIDIA GPUs on Kubernetes](https://www.jimangel.io/posts/nvidia-rtx-gpu-kubernetes-setup) Setup an NVIDIA RTX GPU on bare-metal Kubernetes, covering driver installation on Ubuntu 22.04, configuration, and troubleshooting.
+- [huggingface.co: Implementing Fractional GPUs in Kubernetes with Aliyun Scheduler](https://huggingface.co/blog/NileshInfer/implementing-fractional-gpus-in-kubernetes)
+
+## Meta LLama
+
+- [medium.com/@bchenjh: Distributed full fine-tuning of Llama2 on Kubernetes](https://medium.com/@bchenjh/full-fine-tuning-of-llama2-on-kubernetes-a983e1eb2259)
+- [==github.com/meta-llama/llama-recipes==](https://github.com/meta-llama/llama-recipes)
 
 ## Other Tools
 
@@ -187,6 +209,13 @@
 - [github.com/SymbioticLab/Oobleck: Oobleck - Resilient Distributed Training Framework](https://github.com/SymbioticLab/Oobleck) - [techxplore.com: Open-source training framework increases the speed of large language model pre-training when failures arise](https://techxplore.com/news/2023-12-open-source-framework-large-language-pre-training.html)
 - [github.com/CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything
 - [github.com/VikParuchuri/surya](https://github.com/VikParuchuri/surya) Accurate line-level text detection and recognition (OCR) in any language
+- [github.com/aimhubio/aim](https://github.com/aimhubio/aim) An easy-to-use & supercharged open-source experiment tracker. Aim logs your training runs and any AI Metadata, enables a beautiful UI to compare, observe them and an API to query them programmatically.
+- [==github.com/XuehaiPan/nvitop== 🌟](https://github.com/XuehaiPan/nvitop) **An interactive NVIDIA-GPU process viewer and beyond, the one-stop solution for GPU process management**
+- [==github.com/Netflix/metaflow== 🌟](https://github.com/Netflix/metaflow) **Build and manage real-life ML, AI, and data science projects with ease!**
+- [github.com/decodingml: Real-time news search engine using Upstash Kafka and Vector DB](https://github.com/decodingml/articles-code/tree/main/articles/ml_system_design/real_time_news_search_with_upstash_kafka_and_vector_db)
+- [zenml.io: ZenML](https://www.zenml.io/)
+    - [zenml.io/integrations: Explore the MLOps Landscape with ZenML](https://www.zenml.io/integrations) ZenML integrates with many different third-party tools. Once code is organized into a ZenML pipeline, you can supercharge your ML workflows with the best-in-class solutions from various MLOps areas.
+    - [registry.terraform.io/modules/zenml-io/zenml-stack](https://registry.terraform.io/modules/zenml-io/zenml-stack)
 
 ## Debugging ML Jobs
 
@@ -209,6 +238,7 @@
 - [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)
     - [Sport Car Price Prediction.ipynb](https://colab.research.google.com/drive/1m6ZjIJBxU20kxI9zTZqeMEVSq1FL0pNa?usp=sharing)
 - [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
+- [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab/)
 
 ## Polls
 

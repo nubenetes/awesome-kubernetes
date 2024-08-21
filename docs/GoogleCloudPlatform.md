@@ -2,24 +2,26 @@
 
 1. [Introduction](#introduction)
 2. [Google Cloud](#google-cloud)
-3. [Dev Library](#dev-library)
-4. [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
-5. [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
-6. [Google Cloud AppSheet](#google-cloud-appsheet)
-7. [Cloud Spanner](#cloud-spanner)
-8. [Serverless](#serverless)
-9. [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
-10. [Python](#python)
-11. [Cloud Code](#cloud-code)
-12. [Google Cloud Buildpacks](#google-cloud-buildpacks)
-13. [Google Cloud Deploy](#google-cloud-deploy)
-14. [Cloud SQL](#cloud-sql)
-15. [Apigee](#apigee)
-16. [Tools](#tools)
+3. [Google Landing Zone](#google-landing-zone)
+4. [Dev Library](#dev-library)
+5. [GCP Samples (Boilerplates)](#gcp-samples-boilerplates)
+6. [Managing Cluster Level Configuration](#managing-cluster-level-configuration)
+7. [Google Cloud AppSheet](#google-cloud-appsheet)
+8. [Cloud Spanner](#cloud-spanner)
+9. [Serverless](#serverless)
+10. [Anthos. Google's Hybrid And Multi-Cloud Platform](#anthos-googles-hybrid-and-multi-cloud-platform)
+11. [Python](#python)
+12. [Cloud Code](#cloud-code)
+13. [Google Cloud Buildpacks](#google-cloud-buildpacks)
+14. [Google Cloud Deploy](#google-cloud-deploy)
+15. [Cloud SQL](#cloud-sql)
+16. [Apigee](#apigee)
+17. [Tools](#tools)
      1. [gcloud](#gcloud)
-17. [Videos](#videos)
-18. [Images](#images)
-19. [Tweets](#tweets)
+     2. [Google Sheets](#google-sheets)
+18. [Videos](#videos)
+19. [Images](#images)
+20. [Tweets](#tweets)
 
 ## Introduction
 
@@ -75,6 +77,10 @@
 - [cloud.google.com: What is Cloud CDN and how does it work?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-cdn-and-how-does-it-work)
 - [==networkmanagementsoftware.com: Google Cloud Platform (GCP) Networking Fundamentals==](https://www.networkmanagementsoftware.com/google-cloud-platform-gcp-networking-fundamentals/)
 - [==cloud.google.com: Service Directory cheat sheet==](https://cloud.google.com/blog/topics/developers-practitioners/service-directory-cheat-sheet) Fact: Most enterprises have a large number of heterogeneous services deployed across different clouds and on-premises environments. Fact: It is complex to look up, publish, and connect these services. Fact: Service Directory can help.
+
+## Google Landing Zone
+
+- [medium.com/google-cloud: Design your Landing Zone — Design Considerations Part 4— IaC, GitOps and CI/CD (Google Cloud Adoption Series)](https://medium.com/google-cloud/design-your-landing-zone-design-considerations-part-4-iac-gitops-and-ci-cd-google-cloud-ae3f533c6dbd)
 
 ## Dev Library
 
@@ -151,6 +157,10 @@
 - [==cloud.google.com: Declarative Export. Build your perfect Google Cloud infrastructure using Terraform and the gcloud CLI==](https://cloud.google.com/blog/products/application-development/google-cloud-cli-declarative-export-preview) **Google Cloud CLI’s preview release of Declarative Export for Terraform. Declarative Export allows you to export the current state of your Google Cloud infrastructure into a descriptive file compatible with Terraform (HCL) or Google’s KRM declarative tooling.**
 - [==cloud.google.com: The gcloud tool cheat sheet==](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
 - [github.com/GoogleCloudPlatform/k8s-config-connector: GCP Config Connector](https://github.com/GoogleCloudPlatform/k8s-config-connector) Config Connector is a Kubernetes add-on that allows you to manage GCP resources, such as Cloud Spanner or Cloud Storage, through your Kubernetes cluster's API
+
+### Google Sheets
+
+- [freecodecamp.org: Web Scraping with Google Sheets – How to Scrape Web Pages with Built-in Functions](https://www.freecodecamp.org/news/web-scraping-google-sheets/)
 
 ## Videos
 

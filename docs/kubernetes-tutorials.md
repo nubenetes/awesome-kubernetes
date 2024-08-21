@@ -95,6 +95,7 @@
     - [udemy.com: Learn Devops Kubernetes deployment by kops and terraform (free)](https://www.udemy.com/course/learn-devops-kubernetes-deployment-by-kops-and-terraform/) Comprehensive Nginx deployment to Kubernetes on AWS by using kops and terraform
     - [edx.org: Introduction to Kubernetes (free)](https://www.edx.org/course/introduction-to-kubernetes)
     - [udemy.com: Containers 101 (free)](https://www.udemy.com/course/containers-101/) Building and deploying containerize applications with Kubernetes, Docker and Helm
+- [devopswithkubernetes.com](https://devopswithkubernetes.com/) Introductory course to Kubernetes with K3s and GKE
 
 ## K8s Diagrams
 

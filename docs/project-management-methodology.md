@@ -13,11 +13,12 @@
     1. [DevDriven.By](#devdrivenby)
     2. [Promotion Driven Development](#promotion-driven-development)
 6. [Culture and Leadership](#culture-and-leadership)
-7. [Bunch of images](#bunch-of-images)
-8. [Videos](#videos)
-9. [Spanish Videos](#spanish-videos)
-10. [Tweets](#tweets)
-11. [Tweets 2. Cultures](#tweets-2-cultures)
+7. [Books](#books)
+8. [Bunch of images](#bunch-of-images)
+9. [Videos](#videos)
+10. [Spanish Videos](#spanish-videos)
+11. [Tweets](#tweets)
+12. [Tweets 2. Cultures](#tweets-2-cultures)
 
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604265532&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tlotfy99" title="Abou Seif 🧿" target="_blank" style="color: #cccccc; text-decoration: none;">Abou Seif 🧿</a> · <a href="https://soundcloud.com/tlotfy99/no-man-no-cry-jimmy-sax" title="no man no cry - jimmy sax" target="_blank" style="color: #cccccc; text-decoration: none;">no man no cry - jimmy sax</a></div>
@@ -100,6 +101,8 @@
 - [hbr.org: What It Takes to Give a Great Presentation](https://hbr.org/2020/01/what-it-takes-to-give-a-great-presentation)
 - [inc.com: 27 Years Ago, Steve Jobs Said the Best Employees Focus on Content, Not Process. Research Shows He Was Right](https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html) According to the Apple co-founder, the best employees are also a pain in the butt to manage.
 - [==Bus factor==](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
+- [businessinsider.com: I'm an ex-Amazon senior leader. Here's why layoffs keep happening and why ambitious managers are fueling them](https://www.businessinsider.com/amazon-reason-for-layoffs-former-senior-tech-leader-2023-5)
+- [medium.com/codex: The Only True Agency A Software Engineer Requires](https://medium.com/codex/the-only-true-agency-a-software-engineer-requires-2c0816b263bc)
 
 ### Spanish
 
@@ -214,6 +217,13 @@
 - [euroresidentes.com: La intimidación verbal en la empresa](https://www.euroresidentes.com/empresa/exito-empresarial/la-intimidacin-verbal-en-la-empresa)
 - [isprox.com: 16 Estilos de liderazgo: ¿cuál es más efectivo?](https://isprox.com/16-estilos-liderazgo-cual-es-mas-efectivo/)
 
+## Books
+
+- [swarmia.com/build: Build Elements of an Effective Software Organization](https://www.swarmia.com/build/) By Rebecca Murphey and Otto Hilska
+    - Building software is hard. Running an effective software engineering organization is harder. Build: Elements of an Effective Software Organization is a guide to help good software teams get better and remain effective as the organization grows and evolves.
+    - Build is a blueprint for continuous improvement. It zeroes in on three key ingredients: a relentless focus on business outcomes, actionable insights to boost the productivity of your software teams, and a thoughtful approach to improving the experience of building software at your company.
+    - Whether you’re a leader, a manager, or anyone invested in seeing your team or organization improve, Build provides the roadmap you need to drive meaningful, impactful progress.
+
 ## Bunch of images
 
 ??? note "Click to expand!"
@@ -320,6 +330,7 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re afraid of being a micromanager<br><br>I can guarantee you are one.<br><br>It&#39;s the Micromanagement Spiral. 🌀<br><br>Let me explain:</p>&mdash; Laura Tacho 🌮 (@rhein_wein) <a href="https://twitter.com/rhein_wein/status/1547211754333036544?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I wished management had a good understanding how costly it is to build something wrong in comparison to not building anything.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1550227569550577664?ref_src=twsrc%5Etfw">July 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A lot of senior engineers are going to find themselves coerced into becoming team leads with management responsibilities, just to provide relief for managers with too many direct reports.<br><br>My suggestion is to be open to trying it. But confirm with your manager that you can go… <a href="https://t.co/Iayep0lHxj">https://t.co/Iayep0lHxj</a></p>&mdash; Karthik Hariharan (@hkarthik) <a href="https://twitter.com/hkarthik/status/1756363374651400575?ref_src=twsrc%5Etfw">February 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-

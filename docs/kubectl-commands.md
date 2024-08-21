@@ -8,16 +8,17 @@
 6. [Kubectl Autocomplete](#kubectl-autocomplete)
 7. [kubectl exec](#kubectl-exec)
 8. [kubectl scale](#kubectl-scale)
-9. [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
-10. [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
-11. [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
-12. [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
-13. [Buildkit CLI for kubectl a drop in replacement for docker build](#buildkit-cli-for-kubectl-a-drop-in-replacement-for-docker-build)
-14. [Kubectl Alternatives](#kubectl-alternatives)
+9. [kubectl debug](#kubectl-debug)
+10. [List all resources and sub resources that you can constrain with RBAC](#list-all-resources-and-sub-resources-that-you-can-constrain-with-rbac)
+11. [Copy a configMap in kubernetes between namespaces](#copy-a-configmap-in-kubernetes-between-namespaces)
+12. [Copy secrets in kubernetes between namespaces](#copy-secrets-in-kubernetes-between-namespaces)
+13. [Export resources with kubectl and python](#export-resources-with-kubectl-and-python)
+14. [Buildkit CLI for kubectl a drop in replacement for docker build](#buildkit-cli-for-kubectl-a-drop-in-replacement-for-docker-build)
+15. [Kubectl Alternatives](#kubectl-alternatives)
      1. [Manage Kubernetes (K8s) objects with Ansible Kubernetes Module](#manage-kubernetes-k8s-objects-with-ansible-kubernetes-module)
      2. [Jenkins Kubernetes Plugins](#jenkins-kubernetes-plugins)
-15. [Videos](#videos)
-16. [Tweets](#tweets)
+16. [Videos](#videos)
+17. [Tweets](#tweets)
 
 ## Introduction
 
@@ -69,6 +70,8 @@
     - df-pv
     - gke-outdated
 - [howtogeek.com: Getting Started With Kubectl to Manage Kubernetes Clusters](https://www.howtogeek.com/devops/getting-started-with-kubectl-to-manage-kubernetes-clusters/) Kubernetes is a container orchestration engine that lets you deploy containerised workloads in a scalable way.
+- [medium.com/@jake.page91: The guide to kubectl I never had](https://medium.com/@jake.page91/the-guide-to-kubectl-i-never-had-3874cc6074ff)
+- [itnext.io: Kubernetes Contexts: Complete Guide for Developers](https://itnext.io/kubernetes-contexts-complete-guide-for-developers-7ea5b2fc75c7) An introduction to Kubeconfig and Contexts. It’s finally time to understand how kubectl connects to Kubernetes.
 
 ## Kubectl Cheat Sheets
 
@@ -118,6 +121,10 @@ complete -F __start_kubectl k
 ## kubectl scale
 
 - [==containiq.com: Using Kubectl Scale | Tutorial and Best Practices==](https://www.containiq.com/post/kubectl-scale) kubectl scale is one of the many tools that helps you manage your Kubernetes deployments. In this article, you'll learn how this tool can be used, as well as best practices for use.
+
+## kubectl debug
+
+- [hackernoon.com: How to Work With the Kubectl Debug Command](https://hackernoon.com/how-to-work-with-the-kubectl-debug-command)
 
 ## List all resources and sub resources that you can constrain with RBAC
 

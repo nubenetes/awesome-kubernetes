@@ -67,10 +67,11 @@
 28. [Developer Sandbox](#developer-sandbox)
 29. [OpenShift Topology View](#openshift-topology-view)
 30. [OpenBuilt Platform for the Construction Industry](#openbuilt-platform-for-the-construction-industry)
-31. [Scripts](#scripts)
-32. [Slides](#slides)
-33. [Tweets](#tweets)
-34. [Videos](#videos)
+31. [OpenShift AI](#openshift-ai)
+32. [Scripts](#scripts)
+33. [Slides](#slides)
+34. [Tweets](#tweets)
+35. [Videos](#videos)
 
 ## OpenShift Container Platform 4 (OCP 4)
 
@@ -156,6 +157,7 @@
 - [==redhat.com: Planning your migration from Red Hat OpenShift 3 to 4==](https://www.redhat.com/architect/openshift-4-migration) With OpenShift 3 nearing its end of life, now is the time to start planning your migration to OpenShift 4. These three steps will ease the journey.
 - [redhat.com: Red Hat OpenShift Platform Plus](https://www.redhat.com/en/technologies/cloud-computing/openshift/platform-plus)
 - [==blog.knell.it: Commands Kubernetes should adopt from Red Hat OpenShift==](https://blog.knell.it/commands-kubernetes-should-adopt-from-red-hat-openshift/) Working with Kubernetes would become easier and more efficient with support for these handy OpenShift commands.
+- [==mkdev.me: How to upgrade Openshift 4.x== 🌟](https://mkdev.me/posts/how-to-upgrade-openshift-4-x)
 
 ### OpenShift Guide
 
@@ -816,6 +818,10 @@ oc login
 - [OpenBuilt](https://openbuilt.io/)
 - [infoq.com: IBM, Red Hat and Cobuilder Develop OpenBuilt, a Platform for the Construction Industry](https://www.infoq.com/news/2021/04/ibm-redhat-openbuilt/)
 
+## OpenShift AI
+
+- [youtube: Red Hat OpenShift AI overview](https://www.youtube.com/watch?v=Hc8emNr2igU)
+
 ## Scripts
 
 - [tommeramber/ocp-automations](https://github.com/tommeramber/ocp-automations)
@@ -852,5 +858,6 @@ oc login
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=lcNpoHI7TaORLgPV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hc8emNr2igU?si=kehLRUpOAvyK_Bku" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </details>

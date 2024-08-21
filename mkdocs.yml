@@ -102,6 +102,7 @@ nav:
   - DevSecOps:
     - DevSecOps. Container Security: devsecops.md
     - Security Policy as Code: securityascode.md
+    - OAuth2: oauth.md
   - NoOps:
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md

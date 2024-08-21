@@ -129,6 +129,7 @@
     - [Clair](https://github.com/quay/clair)
     - [Sigstore](https://www.sigstore.dev/)
     - [KubeLinter](https://github.com/stackrox/kube-linter)
+        - [thomasthornton.cloud: Enforcing Kubernetes best practices and simplifying Kubernetes Configuration Validation with Kube-Linter and GitHub Actions](https://thomasthornton.cloud/2024/01/31/enforcing-kubernetes-best-practices-and-simplifying-kubernetes-configuration-validation-with-kube-linter-and-github-actions/)
     - [Open Policy Agent and Gatekeeper](https://github.com/open-policy-agent/gatekeeper)
     - [Falco](https://falco.org/)
 - [thenewstack.io: 10 Steps to Simplify Your DevSecOps](https://thenewstack.io/10-steps-to-simplify-your-devsecops/)
@@ -293,6 +294,7 @@
 
 - [kubeLinter 🌟](https://github.com/stackrox/kube-linter) KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
 - [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes/)
+- [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) **A FAST Kubernetes manifests validator, with support for Custom Resources!**
 
 ## IaC and Security
 
@@ -399,6 +401,7 @@
 - [justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)](https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper/) Learn how combining Gatekeeper + Cosign for image signature validation with the new external_data feature lets you stop untrusted docker images from being deployed on your Kubernetes cluster.
 - [sysdig.com: How to secure Kubernetes deployment with signature verification](https://sysdig.com/blog/secure-kubernetes-deployment-signature-verification/) Cosign and Connaisseur allow us to secure the Kubernetes deployment with signature verification, ensuring that our images do not change
 - [medium.com/@slimm609: Secure image signing with Cosign and AWS KMS](https://medium.com/@slimm609/secure-image-signing-with-cosign-and-aws-kms-82bc25d7fdae)
+- [itnext.io: Securing Kubernetes Workloads: A Practical Approach to Signed and Encrypted Container Images](https://itnext.io/securing-kubernetes-workloads-a-practical-approach-to-signed-and-encrypted-container-images-ff6e98b65bcd) Podman — one tool to rule them all
 
 ## GitHub security
 
@@ -439,6 +442,8 @@
 - [baeldung.com: A Quick Guide to Using Keycloak with Spring Boot](https://www.baeldung.com/spring-boot-keycloak)
 - [==medium.com/@charled.breteche: Securing Grafana with Keycloak SSO==](https://medium.com/@charled.breteche/securing-grafana-with-keycloak-sso-d01fec05d984) In this article you will learn how to deploy and configure Keycloak in a local Kubernetes cluster, then deploy Grafana and use the Keycloak instance for authentication and authorization
 - [dev.to: KeyCloak with Nginx Ingress](https://dev.to/aws-builders/keycloak-with-nginx-ingress-6fo)
+- [medium.com/@amirhosseineidy: Kubernetes authentication with keycloak oidc](https://medium.com/@amirhosseineidy/kubernetes-authentication-with-keycloak-oidc-63571eaeed61)
+- [medium.com/@martin.hodges: How to install Keycloak IAM on your Kubernetes cluster, backed by Postgres](https://medium.com/@martin.hodges/how-to-install-keycloak-iam-on-your-kubernetes-cluster-backed-by-postgres-1228eae4faeb) In this article I look at installing Keycloak and integrating with a Kong API Gateway inside a Kubernetes cluster to provide an OAuth and OIDC solution for your services.
 
 ### Git Credential Manager Core
 
@@ -547,6 +552,10 @@
 - [hashicorp.com: The State of Vault and Kubernetes, and Future Plans](https://www.hashicorp.com/blog/the-state-of-vault-and-kubernetes-and-future-plans) Get an overview of the most common ways to use HashiCorp Vault and Kubernetes together, and get a preview of a new method we're considering.
 - [alexandre-vazquez.com: How To Inject Secrets in Pods To Improve Security with Hashicorp Vault in 5 Minutes 🌟](https://alexandre-vazquez.com/inject-secrets-in-pods-using-hashicorp-vault/)
 - [adfinis.com: Secret zero with ACME](https://adfinis.com/en/blog/secret-zero-with-acme/) As of Vault 1.14, the HashiCorp Vault PKI engine can issue certificates using the standard ACME protocol. The Automatic Certificate Management Environment (ACME) was made popular by Let’s Encrypt, which has been the default mechanism to request valid certificates from a public CA for over 10 years.
+- [medium.com/@martin.hodges: Introduction to Vault to provide secret management in your Kubernetes cluster](https://medium.com/@martin.hodges/introduction-to-vault-to-provide-secret-management-in-your-kubernetes-cluster-658b58372569) One of the core Kubernetes resources is a Secret. However, these Secrets are not actually secure, as anyone with access to the cluster may be able to read and update the secret. This article introduces Vault into the cluster to securely manage secrets.
+    - [medium.com/@martin.hodges: Enabling TLS on your Vault cluster on Kubernetes](https://medium.com/@martin.hodges/enabling-tls-on-your-vault-cluster-on-kubernetes-0d20439b13d0) In this article I look at adding TLS secured connections to our unprotected Vault cluster. We will do this to ensure our secrets remain, well, secret.
+- [medium.com/@calvineotieno010: Managing Application Secrets with Hashicorp Vault](https://medium.com/@calvineotieno010/managing-application-secrets-with-hashicorp-vault-8efb5e1d87fd)
+- [medium.com/@muppedaanvesh: A Hands-On Guide to Vault in Kubernetes](https://medium.com/@muppedaanvesh/a-hand-on-guide-to-vault-in-kubernetes-%EF%B8%8F-1daf73f331bd) Manage k8s Secrets Using HashiCorp Vault: With Practical Examples
 
 #### HashiCorp Vault Agent
 
@@ -607,6 +616,7 @@
 ### Bitwarden
 
 - [thenewstack.io: Walkthrough: Bitwarden’s New Secrets Manager](https://thenewstack.io/walkthrough-bitwardens-new-secrets-manager/)
+- [morey.tech: Bitwarden and External Secrets](https://morey.tech/technical%20blog/Bitwarden-And-External-Secrets/)
 
 ## Serverless Security Best Practices
 

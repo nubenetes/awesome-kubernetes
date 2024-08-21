@@ -144,6 +144,7 @@
 - [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
 - [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
 - [==Announcing CDK Migrate: A single command to migrate to the AWS CDK==](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk/)
+- [==sst.dev: Moving away from CDK: CDK doesn’t create the infrastructure you define==](https://sst.dev/blog/moving-away-from-cdk.html) On the CDK side, we write TypeScript code that defines our infrastructure. But CDK doesn’t create the infrastructure you define. It generates a CloudFormation template (JSON) that CloudFormation will use to create your infrastructure.
 
 ## AWS Session Manager
 

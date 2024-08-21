@@ -34,13 +34,16 @@
 31. [Clickhouse](#clickhouse)
 32. [Apache Ignite](#apache-ignite)
 33. [Apache Druid](#apache-druid)
-34. [Tools](#tools)
-35. [Time-Series Database](#time-series-database)
-36. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
-37. [Data Lakes](#data-lakes)
-38. [Graph Databases](#graph-databases)
-39. [Videos](#videos)
-40. [Tweets](#tweets)
+34. [Dolt is Git for Data](#dolt-is-git-for-data)
+35. [VictoriaMetrics and VictoriaLogs](#victoriametrics-and-victorialogs)
+36. [Tools](#tools)
+37. [Time-Series Database](#time-series-database)
+38. [Data Analytics and Visualization Tools](#data-analytics-and-visualization-tools)
+39. [Data Lakes](#data-lakes)
+40. [Graph Databases](#graph-databases)
+41. [Excel](#excel)
+42. [Videos](#videos)
+43. [Tweets](#tweets)
 
 ## Introduction
 
@@ -92,6 +95,7 @@
 - [blog.equationlabs.io: Managing database migrations safely in high replicated k8s deployment](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment) In this article, you will learn how to run database migrations in Kubernetes using the Job resource, init containers and rolling updates
 - [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it/)
 - [medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why it won’t work for you if you’re implementing a big data solution)](https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644)
+- [medium.com/@fengruohang: Database in Kubernetes: Is that a good idea?](https://medium.com/@fengruohang/database-in-kubernetes-is-that-a-good-idea-daf5775b5c1f) Perhaps one day, when the reliability and performance of distributed network storage surpass local storage and mainstream databases have some native support for storage-computation separation, things might change again — K8S might become suitable for databases. But for now, I believe putting serious production OLTP databases into K8S is immature and inappropriate. I hope readers will make wise choices on this matter.
 
 ## How to choose the right database for your service
 
@@ -325,6 +329,15 @@
 - [Apache Druid](https://druid.apache.org/) Druid is a high performance, real-time analytics database that delivers sub-second queries on streaming and batch data at scale and under load.
 - [==dev.to: Apache Druid: overview, running in Kubernetes and monitoring with Prometheus==](https://dev.to/setevoy/apache-druid-overview-running-in-kubernetes-and-monitoring-with-prometheus-g5j) In this detailed tutorial, you will learn how to install, run and monitor Apache Druid on Kubernetes — a columnar database designed to work with large amounts of data
 
+## Dolt is Git for Data
+
+- [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) Git for Data
+
+## VictoriaMetrics and VictoriaLogs
+
+- [victoriametrics.com](https://victoriametrics.com)
+- [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/) VictoriaLogs is an open source database for logs that uses up to 30x less RAM and up to 15x disk space than Elasticsearch has just relased several new features to celebrate their one year anniversary
+
 ## Tools
 
 - [SHMIG](https://github.com/mbucc/shmig) A database migration tool written in BASH consisting of just one file - shmig.
@@ -351,6 +364,10 @@
 
 - [SQErzo: Tiny ORM for Graph databases](https://github.com/BBVA/sqerzo) Tiny ORM for graph databases: Neo4j, RedisGraph, AWS Neptune or Gremlin
 - [towardsdatascience.com: At Its Core: How Is a Graph Database Different from a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f) It’s easy to come up with some answers by simply Googling the topic, however, as I found, most answers list benefits mostly superficially
+
+## Excel
+
+- [xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) James Vowles, nuevo jefe de Williams, encontró uno de los motivos por los que el histórico equipo de la Fórmula 1 estaba tan atrasado
 
 ## Videos
 

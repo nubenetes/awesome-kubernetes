@@ -92,6 +92,7 @@
     - [www.arresteddevops.com](https://www.arresteddevops.com)
     - [devopsdays.org: Devopsdays Amsterdam](https://devopsdays.org/events/2022-amsterdam/welcome/)
     - [reddit.com/r/devops/](https://www.reddit.com/r/devops/)
+- [mrcloudbook.com: Mr Cloud Book](https://mrcloudbook.com/)
 
 ## DevOps Books
 
@@ -293,6 +294,7 @@
 - [==itnext.io: DevOps Big Picture (On-Premises)==](https://itnext.io/devops-big-picture-on-premises-d07f61d6c34c)
 - [medium.com/agileinsider: DevOps Principles and Practices Explained in Ten Minutes](https://medium.com/agileinsider/devops-principles-and-practices-explained-in-ten-minutes-6cec7e1dae6d)
 - [medium.com/@perspectivementor: 6 Essential Skills for Landing a DevOps Job in 2024](https://medium.com/@perspectivementor/6-essential-skills-for-landing-a-devops-job-in-2024-88f6c19341d7)
+- [net.connect4techs.com: What are the top DevOps trends in 2024](https://net.connect4techs.com/what-are-the-top-devops-trends-in-2024/)
 
 <center>
 
@@ -442,12 +444,16 @@ Resolve your software incidents 10x faster
 - [muycomputerpro.com: Ingeniería de plataformas de DevOps: la nueva generación de DevOps](https://www.muycomputerpro.com/2024/01/12/ingenieria-de-plataformas-de-devops-la-nueva-generacion-de-devops)
 - [fernandovillalba.substack.com: DevOps: Don't destroy silos, transform them](https://fernandovillalba.substack.com/p/devops-dont-destroy-silos-transform) "Destroying silos" is a clumsy solution to team isolation
 - [humanitec.com: Escape VMware lock-in with a modular Internal Developer Platform](https://humanitec.com/blog/escape-vmware-lock-in-with-a-modular-internal-developer-platform)
-- [InfoQ platform engineering homepage](https://www.infoq.com/platformengineering/)
-- [Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering/)
-- [Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better/)
-- [Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)
-- [5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product/)
-- [15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c)
+- [infoq.com: InfoQ platform engineering homepage](https://www.infoq.com/platformengineering/)
+- [infoq.com: Platform as a Runtime - the Next Step in Platform Engineering](https://www.infoq.com/articles/platform-runtime-engineering/)
+- [infoq.com: Platform Engineering – Making Other Teams 10x Better](https://www.infoq.com/podcasts/platform-engineering-teams-10x-better/)
+- [syntasso.io: Platform Engineering: Orchestrating Applications, Platforms, and Infrastructure](https://www.syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure)
+- [thenewstack.io: 5 Lessons For Building a Platform as a Product](https://thenewstack.io/5-lessons-for-building-a-platform-as-a-product/)
+- [overcast.blog: 15 Cloud-Native DevOps Tools You Should Know](https://overcast.blog/15-cloud-native-devops-tools-you-should-know-36129057a15c)
+- [==seal.io: Open Source Platform Engineering for Dev & Ops==](https://www.seal.io/)
+- [humanitec.com: Why every Internal Developer Platform needs a backend](https://humanitec.com/blog/why-every-internal-developer-platform-needs-a-backend) It’s not enough to just have an Internal Developer Platform. To get results, it needs to be done right, and that means building an effective platform backend, a Platform Orchestrator.
+- [piotrminkowski.com: IDP on OpenShift with Red Hat Developer Hub](https://piotrminkowski.com/2024/07/04/idp-on-openshift-with-red-hat-developer-hub/)
+- [medium.com/spacelift: Platform Engineering vs. DevOps](https://medium.com/spacelift/platform-engineering-vs-devops-ade389ce819e)
 
 ### IDP Tools
 
@@ -457,6 +463,7 @@ Resolve your software incidents 10x faster
 - [Port](https://www.getport.io/)
 - [Cortex](https://www.cortex.io/)
 - [Atlassian Compass](https://www.atlassian.com/software/compass)
+- [github.com/KusionStack/kusion](https://github.com/KusionStack/kusion) Intent-Driven Platform Orchestrator. Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP). Kusion is a modern application delivery and management toolchain that enables developers to specify desired intent in a declarative way and then use consistent workflow to drive continuous deployment through the application lifecycle
 
 ## Bunch of Images
 

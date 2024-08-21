@@ -2,107 +2,108 @@
 
 1. [Introduction](#introduction)
 2. [K8s Tools](#k8s-tools)
-3. [Portainer](#portainer)
-4. [kubecfg](#kubecfg)
-5. [Curl](#curl)
-6. [kcp](#kcp)
-7. [Clusternet](#clusternet)
-8. [Open Cluster Management](#open-cluster-management)
-9. [Penetration Testing Tools](#penetration-testing-tools)
-10. [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
-11. [KubeIP (GKE)](#kubeip-gke)
-12. [Porter](#porter)
-13. [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
-14. [Kaniko Build Images in Kubernetes without docker](#kaniko-build-images-in-kubernetes-without-docker)
-15. [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
-16. [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
-17. [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
-18. [Kubevela](#kubevela)
-19. [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
-20. [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
-21. [Kubesploit](#kubesploit)
-22. [Kubeshop](#kubeshop)
-23. [Monokle](#monokle)
-24. [KubeLibrary](#kubelibrary)
-25. [kube-vip](#kube-vip)
-26. [Kubermetrics](#kubermetrics)
-27. [Kustomizer](#kustomizer)
-28. [MetalLB](#metallb)
-29. [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
+3. [kubetail](#kubetail)
+4. [Portainer](#portainer)
+5. [kubecfg](#kubecfg)
+6. [Curl](#curl)
+7. [kcp](#kcp)
+8. [Clusternet](#clusternet)
+9. [Open Cluster Management](#open-cluster-management)
+10. [Penetration Testing Tools](#penetration-testing-tools)
+11. [Deckhouse Kubernetes Platform](#deckhouse-kubernetes-platform)
+12. [KubeIP (GKE)](#kubeip-gke)
+13. [Porter](#porter)
+14. [Datree. Quality Checks for Kubernetes YAMLs](#datree-quality-checks-for-kubernetes-yamls)
+15. [Kaniko Build Images in Kubernetes without docker](#kaniko-build-images-in-kubernetes-without-docker)
+16. [Shipwright Framework for Building Container Images on Kubernetes](#shipwright-framework-for-building-container-images-on-kubernetes)
+17. [BuildKit CLI for kubectl](#buildkit-cli-for-kubectl)
+18. [Buildpacks vs Dockerfiles](#buildpacks-vs-dockerfiles)
+19. [Kubevela](#kubevela)
+20. [Pixie. Instantly troubleshoot applications on Kubernetes](#pixie-instantly-troubleshoot-applications-on-kubernetes)
+21. [Dekorate. Generate k8s manifests for java apps](#dekorate-generate-k8s-manifests-for-java-apps)
+22. [Kubesploit](#kubesploit)
+23. [Kubeshop](#kubeshop)
+24. [Monokle](#monokle)
+25. [KubeLibrary](#kubelibrary)
+26. [kube-vip](#kube-vip)
+27. [Kubermetrics](#kubermetrics)
+28. [Kustomizer](#kustomizer)
+29. [MetalLB](#metallb)
+30. [Kubermatic Kubernetes Platform](#kubermatic-kubernetes-platform)
      1. [Kubermatic Kubeone](#kubermatic-kubeone)
-30. [Usernetes](#usernetes)
-31. [k8syaml.com](#k8syamlcom)
-32. [Popeye](#popeye)
-33. [kbrew](#kbrew)
-34. [KubExplorer](#kubexplorer)
-35. [Kubescape](#kubescape)
-36. [Kubectl Connections](#kubectl-connections)
-37. [Benchmark Operator](#benchmark-operator)
-38. [Source-To-Image (S2I)](#source-to-image-s2i)
-39. [VMware Tanzu Octant](#vmware-tanzu-octant)
-40. [Qovery Engine](#qovery-engine)
-41. [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
-42. [Shipwright framework](#shipwright-framework)
-43. [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
-44. [NetMaker](#netmaker)
-45. [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
-46. [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
-47. [Direktiv](#direktiv)
-48. [Jabos](#jabos)
-49. [Pleco](#pleco)
-50. [Mesh-kridik](#mesh-kridik)
-51. [kubewatch](#kubewatch)
-52. [Botkube](#botkube)
-53. [Robusta](#robusta)
-54. [Soup GitOps Operator](#soup-gitops-operator)
-55. [Epinio](#epinio)
-56. [Testkube](#testkube)
-57. [KuberLogic](#kuberlogic)
-58. [Kusk](#kusk)
-59. [Azure AD Workload Identity](#azure-ad-workload-identity)
-60. [Kubernate](#kubernate)
-61. [Tackle](#tackle)
-62. [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
-63. [Azure AAD Pod Identity](#azure-aad-pod-identity)
-64. [MicroShift](#microshift)
-65. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
-66. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
-67. [Auto-portforward (apf)](#auto-portforward-apf)
-68. [gardener/Terraformer](#gardenerterraformer)
-69. [Werf](#werf)
-70. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
-71. [Netshoot](#netshoot)
-72. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
-73. [Kratix](#kratix)
-74. [gRPC-Gateway](#grpc-gateway)
-75. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
-76. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
-77. [vcluster](#vcluster)
-78. [Kateyes](#kateyes)
-79. [Keepass Secret](#keepass-secret)
-80. [Workflow Schedulers](#workflow-schedulers)
+31. [Usernetes](#usernetes)
+32. [k8syaml.com](#k8syamlcom)
+33. [Popeye](#popeye)
+34. [kbrew](#kbrew)
+35. [KubExplorer](#kubexplorer)
+36. [Kubescape](#kubescape)
+37. [Kubectl Connections](#kubectl-connections)
+38. [Benchmark Operator](#benchmark-operator)
+39. [Source-To-Image (S2I)](#source-to-image-s2i)
+40. [VMware Tanzu Octant](#vmware-tanzu-octant)
+41. [Qovery Engine](#qovery-engine)
+42. [mck8s Container orchestrator for multi-cluster Kubernetes](#mck8s-container-orchestrator-for-multi-cluster-kubernetes)
+43. [Shipwright framework](#shipwright-framework)
+44. [Schiff (Deutsche Telekom)](#schiff-deutsche-telekom)
+45. [NetMaker](#netmaker)
+46. [AWS Karpenter kubernetes Autoscaler](#aws-karpenter-kubernetes-autoscaler)
+47. [Kuby (easy deployments of Ruby Rails App)](#kuby-easy-deployments-of-ruby-rails-app)
+48. [Direktiv](#direktiv)
+49. [Jabos](#jabos)
+50. [Pleco](#pleco)
+51. [Mesh-kridik](#mesh-kridik)
+52. [kubewatch](#kubewatch)
+53. [Botkube](#botkube)
+54. [Robusta](#robusta)
+55. [Soup GitOps Operator](#soup-gitops-operator)
+56. [Epinio](#epinio)
+57. [Testkube](#testkube)
+58. [KuberLogic](#kuberlogic)
+59. [Kusk](#kusk)
+60. [Azure AD Workload Identity](#azure-ad-workload-identity)
+61. [Kubernate](#kubernate)
+62. [Tackle](#tackle)
+63. [Azure Placement Policy Scheduler Plugins](#azure-placement-policy-scheduler-plugins)
+64. [Azure AAD Pod Identity](#azure-aad-pod-identity)
+65. [MicroShift](#microshift)
+66. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
+67. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
+68. [Auto-portforward (apf)](#auto-portforward-apf)
+69. [gardener/Terraformer](#gardenerterraformer)
+70. [Werf](#werf)
+71. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
+72. [Netshoot](#netshoot)
+73. [The Hierarchical Namespace Controller (HNC)](#the-hierarchical-namespace-controller-hnc)
+74. [Kratix](#kratix)
+75. [gRPC-Gateway](#grpc-gateway)
+76. [KubeOrbit. Test your app on kubernetes](#kubeorbit-test-your-app-on-kubernetes)
+77. [Mizu API Traffic Viewer for Kubernetes](#mizu-api-traffic-viewer-for-kubernetes)
+78. [vcluster](#vcluster)
+79. [Kateyes](#kateyes)
+80. [Keepass Secret](#keepass-secret)
+81. [Workflow Schedulers](#workflow-schedulers)
      1. [Komodor Workflows](#komodor-workflows)
-81. [Azure Eraser](#azure-eraser)
-82. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
-83. [ConfigMap Reloader](#configmap-reloader)
-84. [Kluctl](#kluctl)
-85. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
-86. [Kubernetes Security Tools](#kubernetes-security-tools)
-87. [PureLB](#purelb)
-88. [Murre](#murre)
-89. [k9s](#k9s)
-90. [Pluto](#pluto)
-91. [Konf Lightweight Kubeconfig Manager](#konf-lightweight-kubeconfig-manager)
-92. [K8spacket](#k8spacket)
-93. [Infrastructure as Code using Kubernetes. Config Connector](#infrastructure-as-code-using-kubernetes-config-connector)
-94. [Claudie Cloud-agnostic managed Kubernetes](#claudie-cloud-agnostic-managed-kubernetes)
-95. [Observability Monitoring Tools](#observability-monitoring-tools)
+82. [Azure Eraser](#azure-eraser)
+83. [Data Pipeline Workflow Schedulers](#data-pipeline-workflow-schedulers)
+84. [ConfigMap Reloader](#configmap-reloader)
+85. [Kluctl](#kluctl)
+86. [k2tf Kubernetes YAML to Terraform HCL converter](#k2tf-kubernetes-yaml-to-terraform-hcl-converter)
+87. [Kubernetes Security Tools](#kubernetes-security-tools)
+88. [PureLB](#purelb)
+89. [Murre](#murre)
+90. [k9s](#k9s)
+91. [Pluto](#pluto)
+92. [Konf Lightweight Kubeconfig Manager](#konf-lightweight-kubeconfig-manager)
+93. [K8spacket](#k8spacket)
+94. [Infrastructure as Code using Kubernetes. Config Connector](#infrastructure-as-code-using-kubernetes-config-connector)
+95. [Claudie Cloud-agnostic managed Kubernetes](#claudie-cloud-agnostic-managed-kubernetes)
+96. [Observability Monitoring Tools](#observability-monitoring-tools)
      1. [Debugging and Troubleshooting Tools](#debugging-and-troubleshooting-tools)
-96. [Security](#security)
-97. [Develop microservices locally while being connected to your Kubernetes environment](#develop-microservices-locally-while-being-connected-to-your-kubernetes-environment)
-98. [AI Tools](#ai-tools)
-99. [Tweets](#tweets)
-100. [Videos](#videos)
+97. [Security](#security)
+98. [Develop microservices locally while being connected to your Kubernetes environment](#develop-microservices-locally-while-being-connected-to-your-kubernetes-environment)
+99. [AI Tools](#ai-tools)
+100. [Tweets](#tweets)
+101. [Videos](#videos)
 
 ## Introduction
 
@@ -131,6 +132,7 @@
     - kubectx - to easily switch between k8s contexts
     - skaffold - to easily build, deploy, and dev apps on k8s
     - mirrord - to intercept traffic from k8s to the local app instance
+- [coruzant.com/appdev: Kubernetes Management: Tools and Best Practices](https://coruzant.com/appdev/kubernetes-management-tools-and-best-practices/)
 
 ## K8s Tools
 
@@ -242,7 +244,8 @@
 - [Kubevol 🌟](https://github.com/bmaynard/kubevol) allows you to audit all your Kubernetes pods for an attached volume or see all the volumes attached to each pod by a specific type (eg: ConfigMap, Secret).
 - [kubectl-fuzzy 🌟](https://github.com/d-kuro/kubectl-fuzzy) uses fzf(1)-like fuzzy-finder to do partial or fuzzy search of Kubernetes resources. Instead of specifying full resource names to kubectl commands, you can choose them from an interactive list that you can filter by typing a few characters.
 - [Setec 🌟](https://github.com/anthonysterling/setec) Setec (pronounced see-tek) is a utility tool that encrypts and decrypts secrets that are managed by Bitnami's Sealed Secrets.
-- [Kompose (Kubernetes + Compose) 🌟](https://github.com/kubernetes/kompose) kompose is a tool to help users who are familiar with docker-compose move to Kubernetes. kompose takes a Docker Compose file and translates it into Kubernetes resources. kompose is a convenience tool to go from local Docker development to managing your application with Kubernetes. Transformation of the Docker Compose format to Kubernetes resources manifest may not be exact, but it helps tremendously when first deploying an application on Kubernetes.
+- [==Kompose (Kubernetes + Compose)== 🌟](https://github.com/kubernetes/kompose) kompose is a tool to help users who are familiar with docker-compose move to Kubernetes. kompose takes a Docker Compose file and translates it into Kubernetes resources. kompose is a convenience tool to go from local Docker development to managing your application with Kubernetes. Transformation of the Docker Compose format to Kubernetes resources manifest may not be exact, but it helps tremendously when first deploying an application on Kubernetes.
+    - [hackernoon.com: How to Generate Kubernetes Manifests With a Single Command (kompose)](https://hackernoon.com/how-to-generate-kubernetes-manifests-with-a-single-command)
 - [kalm.dev 🌟](https://kalm.dev/) Easily deploy and manage applications on Kubernetes. Get what you want out of Kubernetes without having to write and maintain a ton of custom tooling. Deploy apps, handle requests, and hook up CI/CD, all through an intuitive web interface.
 - [Kev](https://github.com/appvia/kev) Develop Kubernetes apps iteratively with Docker-Compose. Kev helps developers port and iterate Docker Compose apps onto Kubernetes. It understands the Docker Compose application topology and prepares it for deployment in (multiple) target environments, with minimal user input. We leverage the Docker Compose specification and allow for target-specific configurations to be applied to each component of the application stack, simply.
 - [Synator Kubernetes Secret and ConfigMap synchronizer 🌟](https://github.com/TheYkk/synator) Synator synchronize your Secrets and ConfigMaps with your desired namespaces
@@ -335,8 +338,6 @@
 - [Suspicious pods 🌟](https://github.com/edrevo/suspicious-pods) Prints a list of k8s pods that might not be working correctly
 - [Armada](https://github.com/G-Research/armada) A multi-cluster batch queuing system for high-throughput workloads on Kubernetes. Armada is an application to achieve high throughput of run-to-completion jobs on multiple Kubernetes clusters. It stores queues for users/projects with pod specifications and creates these pods once there is available resource in one of the connected Kubernetes clusters.
 - [Ko: Easy Go Containers 🌟](https://github.com/google/ko) Build and deploy Go applications on Kubernetes
-- [Kubetail 🌟](https://github.com/johanhaleby/kubetail) Bash script to tail Kubernetes logs from multiple pods at the same time
-    - [Stern 🌟](https://github.com/stern/stern) Multi pod and container log tailing for Kubernetes. Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging -- Friendly fork of https://github.com/wercker/stern
 - [kubestr 🌟](https://kubestr.io/) Explore your Kubernetes storage options. Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
 - [KubeEye: An Automatic Diagnostic Tool that Provides a Holistic View of Your Kubernetes Cluster 🌟](https://kubesphere.io/blogs/kubeeye-automatic-cluster-diagnostic-tool/)
 - [k8gb 🌟](https://github.com/k8gb-io/k8gb) A cloud native Kubernetes Global Balancer [k8gb.io](https://www.k8gb.io/)
@@ -580,8 +581,8 @@
 - [Ramilito/kubediff ⭐](https://github.com/Ramilito/kubediff) Source VS Deployed. kubediff compares the local YAML resource definitions with the ones currently deployed in the cluster.
 - [FairwindsOps/gonogo](https://github.com/FairwindsOps/gonogo) GoNoGo is a utility to help users determine upgrade confidence around Kubernetes cluster addons
 - [==pulumi/kube2pulumi==](https://github.com/pulumi/kube2pulumi) Upgrade your Kubernetes YAML to a modern language
-- [==doitintl/kube-no-trouble: kubent== ⭐⭐⭐](https://github.com/doitintl/kube-no-trouble) **Easily check your clusters for use of deprecated APIs**
-- [resmoio/kubernetes-event-exporter](https://github.com/resmoio/kubernetes-event-exporter) Export Kubernetes events to multiple destinations with routing and filtering
+- [==doitintl/kube-no-trouble: kubent== ⭐⭐⭐](https://github.com/doitintl/kube-no-trouble) **Easily check your clusters for use of deprecated APIs.** Kube No Trouble (kubent) is a tool to check whether you're using any deprecated APIs in your cluster and, therefore, should upgrade your workloads first before upgrading your Kubernetes cluster
+- [resmoio/kubernetes-event-exporter](https://github.com/resmoio/kubernetes-event-exporter) Export Kubernetes events to multiple destinations with routing and filtering. kubernetes-event-exporter allows exporting the often missed Kubernetes events to various outputs to be used for observability or alerting purposes
 - [jthomperoo/predictive-horizontal-pod-autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) Horizontal Pod Autoscaler built with predictive abilities using statistical models
 - [github.com/chenjiandongx/kubectl-count](https://github.com/chenjiandongx/kubectl-count) Count resources by kind. kubectl-count uses the dynamic library to find server preferred resources and then leverages the informer mechanism to list and count resources by kind. You can show any kinds counts in kubernetes and group by namespaces.
 - [github.com/rothgar/bashScheduler](https://github.com/rothgar/bashScheduler) Kubernetes scheduler written in less than 100 lines of bash
@@ -636,8 +637,24 @@ elastic quotas - Effortless optimization at its finest!
     - Roles
 - [granted.dev](https://www.granted.dev) A CLI application which provides the world’s best developer UX for finding and accessing cloud roles to multiple cloud accounts, fast!
 - [devtron.ai](https://devtron.ai/) Adopt Kubernetes in Weeks With Our K8s Acceleration Platform. Old software delivery platforms are holding you back and slowing you down. Rapidly adopt K8s without creating cognitive overload for your developers.
-- [==github.com/kubefirst/kubefirst==](https://github.com/kubefirst/kubefirst) The Kubefirst CLI creates instant GitOps platforms that integrate some of the best tools in cloud native from scratch in minutes.
+- [==github.com/kubefirst/kubefirst==](https://github.com/kubefirst/kubefirst) The Kubefirst CLI creates instant GitOps platforms that integrate some of the best tools in cloud native from scratch in minutes. The Kubefirst CLI is a cloud provisioning tool that creates a kubernetes cluster with automated Infrastructure as Code, GitOps asset management and application delivery, secrets management, and more.
 - [github.com/Trolley-MGMT/trolleymgmt](https://github.com/Trolley-MGMT/trolleymgmt) Trolley is a multi cloud Kubernetes management system. A simplified UI which allows the user to Deploy, Edit and Delete clusters and deployments within them on AWS, Azure and GCP.
+- [==github.com/akuity/kargo==](https://github.com/akuity/kargo) - [kargo.akuity.io](https://kargo.akuity.io) Application lifecycle orchestration. Kargo is a next-generation continuous delivery and application lifecycle orchestration platform for Kubernetes. It builds upon GitOps principles and integrates with existing technologies, like Argo CD, to streamline and automate the progressive rollout of changes across the many stages of an application's lifecycle.
+- [==github.com/Wilfred/difftastic==](https://github.com/Wilfred/difftastic) a structural diff that understands syntax
+- [==github.com/kubernetes/git-sync== ⭐](https://github.com/kubernetes/git-sync) **A sidecar app which clones a git repo and keeps it in sync with the upstream.** git-sync is a simple command that pulls a git repository into a local directory. It is a perfect "sidecar" container in Kubernetes - it can periodically pull files down from a repository so that an application can consume them.
+- [==github.com/kubepug/kubepug: Deprecations AKA KubePug - Pre UpGrade (Checker)== ⭐](https://github.com/kubepug/kubepug) KubePug/Deprecations is intended to be a kubectl plugin, which:
+    - Downloads a generated data.json file containing API deprecation information for a specified release of Kubernetes
+    - Scans a running Kubernetes cluster to determine if any objects will be affected by deprication
+    - Displays affected objects to the user
+- [==github.com/hcavarsan/kftray== ⭐](https://github.com/hcavarsan/kftray) Manage multiple kubectl port-forward commands with a menu bar or a TUI app, with support for UDP and proxy connections through Kubernetes clusters, and gitops-like state sync with github.
+
+## kubetail
+
+- [github.com/kubetail-org/kubetail 🌟](https://github.com/kubetail-org/kubetail) **Private, real-time log viewer for Kubernetes**
+    - Kubetail is a bash script aggregating (tail/follow) logs from multiple pods into one stream
+    - This is the same as running `kubectl logs -f` but for multiple pods
+- [Kubetail 🌟](https://github.com/johanhaleby/kubetail) Bash script to tail Kubernetes logs from multiple pods at the same time
+- [Stern 🌟](https://github.com/stern/stern) Multi pod and container log tailing for Kubernetes. Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging -- Friendly fork of https://github.com/wercker/stern
 
 ## Portainer
 
@@ -887,6 +904,10 @@ elastic quotas - Effortless optimization at its finest!
 - [dev.to: Karpenter: The Better Autoscaling Solution for Kubernetes- Part 1](https://dev.to/aws-builders/karpenter-the-better-autoscaling-solution-for-kubernetes-part-1-4pd5)
 - [medium.com/summit-technology-group: Karpenter — AutoScaling and Right-Sizing EKS Nodes](https://medium.com/summit-technology-group/karpenter-autoscaling-and-right-sizing-eks-nodes-bc6d2b83d48e) Karpenter simplifies node autoscaling and right-sizing for Kubernetes workloads on AWS, resulting in cost savings and easier use of spot instances
 - [medium.com/israeli-tech-radar: Karpenter, and the future of Kubernetes](https://medium.com/israeli-tech-radar/karpenter-and-the-future-of-kubernetes-4ab7428b7f87)
+- [medium.com/@micheldirk: On Amazon EKS and Karpenter](https://medium.com/@micheldirk/on-amazon-eks-and-karpenter-2b84e75e254e)
+- [medium.com/@gajaoncloud: Unleash the Power of Karpenter: Automating AWS EKS Scaling and Cost Optimization](https://medium.com/@gajaoncloud/unleash-the-power-of-karpenter-automating-aws-eks-scaling-and-cost-optimization-7e236319eda4)
+- [medium.com/@gajaoncloud: Karpenter Mastery: NodePools & NodeClasses for Workload Nirvana](https://medium.com/@gajaoncloud/karpenter-mastery-nodepools-nodeclasses-for-workload-nirvana-bc89850fa934)
+- [medium.com/@gajaoncloud: Demystifying Karpenter’s Advanced Features: Consolidation, Drift, and Spot Handling](https://medium.com/@gajaoncloud/demystifying-karpenters-advanced-features-consolidation-drift-and-spot-handling-007fbad29549) In this article, you will learn about Karpenter's advanced features, such as consolidation for optimal resource utilization, drift detection for automatic updates, and spot instance handling for graceful interruptions
 
 ## Kuby (easy deployments of Ruby Rails App)
 
@@ -938,9 +959,11 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Testkube
 
+- [==https://testkube.io== 🌟](https://testkube.io)
 - [kubeshop/testkube](https://github.com/kubeshop/testkube) Kubernetes-native framework for test definition and execution
 - [thenewstack.io: TestKube: A New Approach to Cloud Native Testing](https://thenewstack.io/testkube-a-new-approach-to-cloud-native-testing/)
 - [thenewstack.io: Testkube: A Cloud Native Testing Framework for Kubernetes](https://thenewstack.io/testkube-cloud-native-testing-framework-for-kubernetes/)
+- [piotrminkowski.com: Testing Java Apps on Kubernetes with Testkube](https://piotrminkowski.com/2023/11/27/testing-java-apps-on-kubernetes-with-testkube/)
 
 ## KuberLogic
 
@@ -1119,6 +1142,7 @@ elastic quotas - Effortless optimization at its finest!
 - [medium.com/@fwiles: k9s EKS Context Error](https://medium.com/@fwiles/k9s-eks-context-error-7ff18df7547f)
 - [tonylixu.medium.com: K8s Tools — K9s, Terminal Based UI to Manage Your Cluster](https://tonylixu.medium.com/devops-in-k8s-k9s-terminal-based-ui-to-manage-your-cluster-85b4f147e209) Introduction to K9s CLI, a K8s management tool
 - [kubetools.io: Why K9s Should Be Your Go-To Tool for Kubernetes Management](https://www.kubetools.io/kubernetes/why-k9s-should-be-your-go-to-tool-for-kubernetes-management/)
+- [medium.com/@gavinklfong: 8 tips to incredibly boost the efficiency of command execution on Kubernetes using k9s](https://medium.com/@gavinklfong/8-tips-to-incredibly-boost-the-efficiency-of-command-execution-on-kubernetes-using-k9s-a515a90a3a27) k9s —awesome text based graphical tool with powerful hotkey design
 
 ## Pluto
 
@@ -1189,6 +1213,8 @@ elastic quotas - Effortless optimization at its finest!
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tech industry thinks throwing more tools to the problem is the solution. More tools = more failure modes.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1451990747318611968?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting developer tools &amp; frameworks for <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> to learn in 2022:<br>🔹<a href="https://twitter.com/telepresenceio?ref_src=twsrc%5Etfw">@telepresenceio</a> - dev CLI<br>🔹<a href="https://twitter.com/DevSpace?ref_src=twsrc%5Etfw">@DevSpace</a> - dev CLI <br>🔹<a href="https://twitter.com/KnativeProject?ref_src=twsrc%5Etfw">@KnativeProject</a> - <a href="https://twitter.com/hashtag/serverless?src=hash&amp;ref_src=twsrc%5Etfw">#serverless</a> platform<br>🔹<a href="https://twitter.com/skaffolddev?ref_src=twsrc%5Etfw">@skaffolddev</a> - dev CLI<br>🔹<a href="https://twitter.com/hashtag/KubeVela?src=hash&amp;ref_src=twsrc%5Etfw">#KubeVela</a> - <a href="https://twitter.com/oam_dev?ref_src=twsrc%5Etfw">@oam_dev</a> platform<br>🔹<a href="https://twitter.com/okteto?ref_src=twsrc%5Etfw">@okteto</a> - dev platform <br>🔹<a href="https://twitter.com/QuarkusIO?ref_src=twsrc%5Etfw">@QuarkusIO</a> - <a href="https://twitter.com/hashtag/java?src=hash&amp;ref_src=twsrc%5Etfw">#java</a> framework</p>&mdash; Piotr Mińkowski (@piotr_minkowski) <a href="https://twitter.com/piotr_minkowski/status/1475065476388728832?ref_src=twsrc%5Etfw">December 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Running tests in Kubernetes using existing CI/CD pipelines can lead to security, performance, and consistency challenges.<br><br>Hear from <a href="https://twitter.com/olensmar?ref_src=twsrc%5Etfw">@olensmar</a>, CTO at <a href="https://twitter.com/thekubeshop?ref_src=twsrc%5Etfw">@thekubeshop</a>, about how <a href="https://twitter.com/Testkube_io?ref_src=twsrc%5Etfw">@Testkube_io</a> can help teams overcome these challenges. <a href="https://t.co/7yMQyiTJjk">pic.twitter.com/7yMQyiTJjk</a></p>&mdash; Kunal Kushwaha (@kunalstwt) <a href="https://twitter.com/kunalstwt/status/1656625448980480001?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
 
