@@ -40,6 +40,7 @@
 - [faun.pub: How to build a GitOps workflow with ArgoCD, Kustomize and GitHub Actions](https://faun.pub/how-to-build-a-gitops-workflow-with-argocd-kustomize-and-github-actions-f919e7443295) Gain speed and clarity by adopting GitOps for your deployments
 - [==techiescamp.com: Kubernetes Kustomize Crash Course==](https://techiescamp.com/courses/kubernetes-kustomize/) In this Kustomize crash course, you will learn all the Kustomize concepts and deploy an application using Kustomize on a Kubernetes cluster.
 - [==devopscube.com/kuztomize-configmap-generators: Kuztomize Secret & Configmap Generators [Practical Examples]==](https://devopscube.com/kuztomize-configmap-generators/)
+- [==itnext.io: Generating, transforming, and patching Kubernetes configuration with Kustomize==](https://itnext.io/generating-transforming-and-patching-kubernetes-configuration-with-kustomize-fb7b02476a1b)
 
 ## Secretize plugin
 
