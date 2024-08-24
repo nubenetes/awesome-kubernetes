@@ -78,6 +78,7 @@
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
 - [collabnix.com: Kubernetes CRUD Operation using Go on Docker Desktop](https://collabnix.com/kubernetes-crud-operation-using-go-on-docker-desktop/)
+- [blog.kubesimplify.com: Perform CRUD Operations on Kubernetes Using Golang 🌟](https://blog.kubesimplify.com/perform-crud-operations-on-kubernetes-using-golang)
 
 ## Building container images
 

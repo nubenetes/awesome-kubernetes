@@ -47,7 +47,7 @@
          1. [Multi-Cluster Services API](#multi-cluster-services-api)
     12. [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
     13. [Reserved CPU and memory in Kubernetes nodes](#reserved-cpu-and-memory-in-kubernetes-nodes)
-    14. [Kubernetes Resource and Capacity Management. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-resource-and-capacity-management-capacity-planning-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
+    14. [Kubernetes Resource and Capacity Management. QoS. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-resource-and-capacity-management-qos-capacity-planning-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
     15. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
          1. [Pod rebalancing and allocations. Pod Priorities](#pod-rebalancing-and-allocations-pod-priorities)
     16. [Kubernetes etcd](#kubernetes-etcd)
@@ -227,14 +227,6 @@
 - [==spiceworks.com: How to Get Started With Kubernetes the Right Way: DevOps Experts Weigh In== 🌟](https://www.spiceworks.com/tech/cloud/articles/how-to-get-started-with-kubernetes/) **Kubernetes deployments need meticulous planning and resource allocation like any other software infrastructure solution. Here, experts discuss the best strategies to deploy Kubernetes seamlessly.**
 - [==dev.to: What Problem Is Kubernetes Actually Trying To Solve?== 🌟](https://dev.to/thenjdevopsguy/what-problem-is-kubernetes-actually-trying-to-solve-3g1n)
 - ["It's funny: everyone thinks CPU requests are only used for scheduling (WRONG) and memory requests determine who gets OOMKilled (WRONG) but it's actually the opposite! At runtime, memory requests do nothing, but CPU requests DO" 🌟](https://twitter.com/aantn)
-- [==medium.com/directeam: Kubernetes resources under the hood — Part 1== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-1-4f2400b6bb96)
-    - [==medium.com/directeam: Kubernetes resources under the hood — Part 2== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-2-6eeb50197c44) Do you think that CPU requests are just used for scheduling? Think again. Introducing CPU Shares, and laying the grounds for removing your limits! This 3-part series covers how Kubernetes resources (CPU and memory) work. You will learn the following:
-        - CFS (Completely Fair Scheduler)
-        - Pod priorities
-        - Quality of Services
-        - How scheduling works
-        - OOM
-    - [==medium.com/directeam: Kubernetes resources under the hood — Part 3== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-3-6ee7d6015965) **Kubernetes resources, breaking the limits! Understand the biggest Kubernetes misunderstanding and why you should remove your CPU limits and unleash your cluster's full potential**
 - [developers.redhat.com: Kubernetes 101 for developers: Names, ports, YAML files, and more](https://developers.redhat.com/articles/2022/08/30/kubernetes-101-developers-names-ports-yaml-files-and-more) Kubernetes 101 for developers:
     - Running multiple containers
     - Port management
@@ -1180,7 +1172,7 @@
 
 - [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 
-### Kubernetes Resource and Capacity Management. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD
+### Kubernetes Resource and Capacity Management. QoS. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD
 
 - [itnext.io: Kubernetes Resource Management in Production](https://itnext.io/kubernetes-resource-management-in-production-d5382c904ed1) Requests, Limits, Overcommitment, Slack/Waste, Throttling
 - [medium: Ultimate Kubernetes Resource Planning Guide](https://medium.com/dev-genius/ultimate-kubernetes-resource-planning-guide-449a4fddd1d6)
@@ -1222,7 +1214,7 @@
 - [dev.to/pavanbelagatti: Learn How to Set Kubernetes Resource Requests and Limits](https://dev.to/pavanbelagatti/learn-how-to-set-kubernetes-resource-requests-and-limits-23n2)
 - [iceburn.medium.com: Kubernetes Resource Requests and Resource Limits](https://iceburn.medium.com/kubernetes-resource-requests-and-resource-limits-99c549c5a439)
 - [==home.robusta.dev: When is a CPU not a CPU? Benchmark of Kubernetes Providers and Node Efficiency== 🌟🌟](https://home.robusta.dev/blog/k8s-node-benchmark) **TLDR: On some cloud providers, you get half the CPU you expect due to burstable nodes. Without burstable nodes, overhead is improved but still significant.**
-- [piotrminkowski.com: Resize CPU Limit To Speed Up Java Startup on Kubernetes](https://piotrminkowski.com/2023/08/22/resize-cpu-limit-to-speed-up-java-startup-on-kubernetes/)
+- [piotrminkowski.com: Resize CPU Limit To Speed Up Java Startup on Kubernetes](https://piotrminkowski.com/2023/08/22/resize-cpu-limit-to-speed-up-java-startup-on-kubernetes/) In this article, you will learn how to solve problems with the slow startup of Java apps on Kubernetes related to the CPU limit. We will use a new Kubernetes feature called “In-place Pod Vertical Scaling”. It allows resizing resources (CPU or memory) assigned to the containers without pod restart. We can use it since the Kubernetes 1.27 version. However, it is still the alpha feature, that has to be explicitly enabled. In order to test we will run a simple Spring Boot Java app on Kubernetes.
 - [medium.com/@mark.andreev: How to configure Kubernetes memory limits for Java application](https://medium.com/@mark.andreev/how-to-configure-kubernetes-memory-limits-for-java-application-ec0cc5a68c24) This article explores the JVM memory structure and flags that can be used to limit memory usage and how those map back to Kubernetes and cgroups v2.
 - [sosiv.io: A Deep Dive into Kubernetes Resource Requests and Limits](https://sosiv.io/post/a-deep-dive-into-kubernetes-resource-requests-and-limits)
 - [medium.com/pipedrive-engineering: How we choked our Kubernetes NodeJS services](https://medium.com/pipedrive-engineering/how-we-choked-our-kubernetes-nodejs-services-932acc8cc2be) Learn from the Pipedrive engineering team experience how to manage memory and CPU resources properly in NodeJS and Kubernetes without slowing down your services
@@ -1240,6 +1232,16 @@
     - [dnastacio.medium.com: Why You Should Keep Using CPU Limits on Kubernetes](https://dnastacio.medium.com/why-you-should-keep-using-cpu-limits-on-kubernetes-60c4e50dfc61) Or why staying away from unused CPU may be good for your containers
 - [medium.com/@frommeyerc: Containers and the JVM: About CFS and how to deal with it](https://medium.com/@frommeyerc/containers-and-the-jvm-about-cfs-and-how-to-deal-with-it-805883b72a87) This article explores the interaction between containers, the JVM, and the CFS scheduler in the Linux Kernel. It explains how CPU time is allocated, the impact of CPU requests and limits in Kubernetes, and the consequences of throttling.
 - [lalatron.hashnode.dev: When Kubernetes and Go don't work well together 🌟](https://lalatron.hashnode.dev/when-kubernetes-and-go-dont-work-well-together) **Go is not aware of the limits set for its container, causing some issues not easy to track. This is a story about how I stumbled into one of them.** This article discusses an issue in which a pod was repeatedly restarted due to an OOM error. The problem stemmed from Go's garbage collector not being aware of the container's memory limits, which caused memory allocation to exceed these limits.
+- [==foxutech.com: Kubernetes Namespace Resource Quota and Limits== 🌟](https://foxutech.com/kubernetes-namespace-resource-quota-and-limits/) - [youtube](https://www.youtube.com/watch?v=iADfzLI3qDI&t=320s)
+- [==medium.com/directeam: Kubernetes resources under the hood — Part 1== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-1-4f2400b6bb96)
+    - [==medium.com/directeam: Kubernetes resources under the hood — Part 2== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-2-6eeb50197c44) Do you think that CPU requests are just used for scheduling? Think again. Introducing CPU Shares, and laying the grounds for removing your limits! This 3-part series covers how Kubernetes resources (CPU and memory) work. You will learn the following:
+        - CFS (Completely Fair Scheduler)
+        - Pod priorities
+        - Quality of Services
+        - How scheduling works
+        - OOM
+    - [==medium.com/directeam: Kubernetes resources under the hood — Part 3== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-3-6ee7d6015965) **Kubernetes resources, breaking the limits! Understand the biggest Kubernetes misunderstanding and why you should remove your CPU limits and unleash your cluster's full potential**
+- [reddit.com/r/kubernetes: CPU Limits](https://www.reddit.com/r/kubernetes/comments/12he7aa/cpu_limits/]
 
 ### Kubernetes Scheduler. Kube Scheduler
 

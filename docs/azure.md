@@ -642,6 +642,7 @@
 - [johnlokerse.dev: Lint Azure Bicep templates in Azure DevOps](https://johnlokerse.dev/2024/02/05/lint-azure-bicep-templates-in-azure-devops/)
 - [techcommunity.microsoft.com: Announcing public preview of Bicep templates support for Microsoft Graph](https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-public-preview-of-bicep-templates-support-for/ba-p/4141772)
 - [github.com/Azure-Samples/azure-ai-studio-secure-bicep](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep) This repository contains a collection of Bicep modules designed to deploy a secure Azure AI Studio environment with robust network and identity security restrictions.
+    - [Deploy Secure Azure AI Studio with a managed virtual network](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md)
 
 ## Azure Verified Modules
 
