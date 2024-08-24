@@ -56,10 +56,11 @@
          6. [Porsche Official](#porsche-official)
          7. [AWS Serverless with Terraform](#aws-serverless-with-terraform)
      9. [Terraform with Azure](#terraform-with-azure)
-         1. [Azure Landing Zones with Terraform. Azure Network Architecture](#azure-landing-zones-with-terraform-azure-network-architecture)
-         2. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
-         3. [Terraform in Azure DevOps. Azure DevOps with terraform](#terraform-in-azure-devops-azure-devops-with-terraform)
-         4. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
+         1. [Azure Terraform Export aztfexport](#azure-terraform-export-aztfexport)
+         2. [Azure Landing Zones with Terraform. Azure Network Architecture](#azure-landing-zones-with-terraform-azure-network-architecture)
+         3. [Azure Terrafy and AzAPI Terraform Provider](#azure-terrafy-and-azapi-terraform-provider)
+         4. [Terraform in Azure DevOps. Azure DevOps with terraform](#terraform-in-azure-devops-azure-devops-with-terraform)
+         5. [Terraform Azure Stack Provider](#terraform-azure-stack-provider)
      10. [Terraform for a Data Engineer](#terraform-for-a-data-engineer)
      11. [Terraform AKS Boilerplates](#terraform-aks-boilerplates)
      12. [Terraform and OCI](#terraform-and-oci)
@@ -827,6 +828,14 @@
 - [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration/)
 - [build5nines.com: What is Azure Private Link and How to Deploy with Terraform](https://build5nines.com/what-is-azure-private-link-and-how-to-deploy-with-terraform/)
 - [thomasthornton.cloud: Writing reusable Terraform modules (azure)](https://thomasthornton.cloud/2022/06/02/writing-reusable-terraform-modules/)
+
+#### Azure Terraform Export aztfexport
+
+- [github.com/Azure/aztfexport](https://github.com/Azure/aztfexport)
+- [learn.microsoft.com: Overview of Azure Export for Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/azure-export-for-terraform/export-terraform-overview)
+- [learn.microsoft.com: Using Azure Export for Terraform in advanced scenarios](https://learn.microsoft.com/en-us/azure/developer/terraform/azure-export-for-terraform/export-advanced-scenarios)
+- [spacelift.io: Azure Terraform Export: Importing Resources with Aztfexport](https://spacelift.io/blog/azure-terraform-export)
+- [scalr.com: Getting Started with the Azure Terraform Export Tool](https://www.scalr.com/blog/getting-started-with-the-azure-terraform-export-tool)
 
 #### Azure Landing Zones with Terraform. Azure Network Architecture
 
