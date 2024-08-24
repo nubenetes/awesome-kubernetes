@@ -20,14 +20,13 @@
     1. [KubeCon](#kubecon)
     2. [kubeconfig](#kubeconfig)
     3. [Kubernetes Manifests](#kubernetes-manifests)
-    4. [Kubernetes Quality of Service QOS](#kubernetes-quality-of-service-qos)
-    5. [Docker and Kubernetes](#docker-and-kubernetes)
+    4. [Docker and Kubernetes](#docker-and-kubernetes)
         1. [Kubernetes vs Docker](#kubernetes-vs-docker)
         2. [Kubernetes vs Docker Swarm](#kubernetes-vs-docker-swarm)
-    6. [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
-    7. [Kubernetes Mutating Webhooks](#kubernetes-mutating-webhooks)
-    8. [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
-    9. [Kubernetes Resources](#kubernetes-resources)
+    5. [Kubernetes Admission Controllers](#kubernetes-admission-controllers)
+    6. [Kubernetes Mutating Webhooks](#kubernetes-mutating-webhooks)
+    7. [Kubernetes Cloud Controller Manager](#kubernetes-cloud-controller-manager)
+    8. [Kubernetes Resources](#kubernetes-resources)
         1. [Kubernetes Pods](#kubernetes-pods)
         2. [Kubernetes ConfigMaps](#kubernetes-configmaps)
         3. [Kubernetes Secrets](#kubernetes-secrets)
@@ -42,22 +41,22 @@
         10. [Kubernetes DaemonSets](#kubernetes-daemonsets)
         11. [Kubernetes Jobs and Cron Jobs](#kubernetes-jobs-and-cron-jobs)
         12. [Kubernetes Services](#kubernetes-services)
-    10. [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
-    11. [Kubernetes API](#kubernetes-api)
+    9. [Kubernetes Deployment Strategies](#kubernetes-deployment-strategies)
+    10. [Kubernetes API](#kubernetes-api)
          1. [Multi-Cluster Services API](#multi-cluster-services-api)
-    12. [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
-    13. [Reserved CPU and memory in Kubernetes nodes](#reserved-cpu-and-memory-in-kubernetes-nodes)
-    14. [Kubernetes Resource and Capacity Management. QoS. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-resource-and-capacity-management-qos-capacity-planning-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
-    15. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
+    11. [Kubernetes Health Checks/Probes. Startup, Liveness, Readiness](#kubernetes-health-checksprobes-startup-liveness-readiness)
+    12. [Reserved CPU and memory in Kubernetes nodes](#reserved-cpu-and-memory-in-kubernetes-nodes)
+    13. [Kubernetes Quality of Service QOS. Kubernetes Resource and Capacity Management. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD](#kubernetes-quality-of-service-qos-kubernetes-resource-and-capacity-management-capacity-planning-resource-quotas-per-namespace-limitranges-per-namespace-limits-and-requests-per-pod)
+    14. [Kubernetes Scheduler. Kube Scheduler](#kubernetes-scheduler-kube-scheduler)
          1. [Pod rebalancing and allocations. Pod Priorities](#pod-rebalancing-and-allocations-pod-priorities)
-    16. [Kubernetes etcd](#kubernetes-etcd)
-    17. [Kubernetes Sidecars](#kubernetes-sidecars)
-    18. [Kubernetes Annotations](#kubernetes-annotations)
-    19. [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
-    20. [Disruptions](#disruptions)
-    21. [Cost Estimation Strategies](#cost-estimation-strategies)
+    15. [Kubernetes etcd](#kubernetes-etcd)
+    16. [Kubernetes Sidecars](#kubernetes-sidecars)
+    17. [Kubernetes Annotations](#kubernetes-annotations)
+    18. [Kubernetes Best Practices and Tips](#kubernetes-best-practices-and-tips)
+    19. [Disruptions](#disruptions)
+    20. [Cost Estimation Strategies](#cost-estimation-strategies)
          1. [kubecost](#kubecost)
-    22. [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
+    21. [Architecting Kubernetes clusters. Node Size. Multi Clusters and Hybrid Cloud](#architecting-kubernetes-clusters-node-size-multi-clusters-and-hybrid-cloud)
          1. [Wide Cluster instead of Multi-Cluster](#wide-cluster-instead-of-multi-cluster)
 4. [Client Libraries for Kubernetes](#client-libraries-for-kubernetes)
 5. [Helm Kubernetes Tool](#helm-kubernetes-tool)
@@ -727,10 +726,6 @@
 - [betterprogramming.pub: Setup Microservices on Kubernetes — Write a Configuration File](https://betterprogramming.pub/set-up-microservice-on-kubernetes-write-config-file-8df7c2b07a4c) Deployed the microservice to Kubernetes
 - [faun.pub: Understanding the Kubernetes Manifest](https://faun.pub/understanding-the-kubernetes-manifest-e96d680f2a11)
 
-### Kubernetes Quality of Service QOS
-
-- [cloudtechtwitter.com: Kubernetes# Quality of Service (QoS) class](https://www.cloudtechtwitter.com/2022/04/kubernetes-quality-of-service-qos-class.html) Quality of Service (QoS) class to determine which pod to kill first in Kubernetes
-
 ### Docker and Kubernetes
 
 - [kruyt.org: Migrate from Docker to Containerd in Kubernetes](https://kruyt.org/migrate-docker-containerd-kubernetes)
@@ -1172,8 +1167,9 @@
 
 - [==medium.com/@danielepolencic: In Kubernetes, are there hidden costs to running many cluster nodes?==](https://medium.com/@danielepolencic/reserved-cpu-and-memory-in-kubernetes-nodes-65aee1946afd) Yes, since not all CPU and memory in your Kubernetes nodes can be used to run Pods.
 
-### Kubernetes Resource and Capacity Management. QoS. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD
+### Kubernetes Quality of Service QOS. Kubernetes Resource and Capacity Management. Capacity Planning. Resource Quotas per namespace, LimitRanges per namespace, Limits and Requests per POD
 
+- [cloudtechtwitter.com: Kubernetes Quality of Service (QoS) class](https://www.cloudtechtwitter.com/2022/04/kubernetes-quality-of-service-qos-class.html) Quality of Service (QoS) class to determine which pod to kill first in Kubernetes
 - [itnext.io: Kubernetes Resource Management in Production](https://itnext.io/kubernetes-resource-management-in-production-d5382c904ed1) Requests, Limits, Overcommitment, Slack/Waste, Throttling
 - [medium: Ultimate Kubernetes Resource Planning Guide](https://medium.com/dev-genius/ultimate-kubernetes-resource-planning-guide-449a4fddd1d6)
 - [learnk8s.io: Setting the right requests and limits in Kubernetes 🌟](https://learnk8s.io/setting-cpu-memory-limits-requests) By far the best read on requests and limits in Kubernetes.
@@ -1242,6 +1238,7 @@
         - OOM
     - [==medium.com/directeam: Kubernetes resources under the hood — Part 3== 🌟](https://medium.com/directeam/kubernetes-resources-under-the-hood-part-3-6ee7d6015965) **Kubernetes resources, breaking the limits! Understand the biggest Kubernetes misunderstanding and why you should remove your CPU limits and unleash your cluster's full potential**
 - [reddit.com/r/kubernetes: CPU Limits](https://www.reddit.com/r/kubernetes/comments/12he7aa/cpu_limits/]
+- [==gokatalyst.io: Katalyst: A QoS-based resource management system for workload colocation on kubernetes== 🌟](https://gokatalyst.io/blog/2023/12/06/katalyst-a-qos-based-resource-management-system-for-workload-colocation-on-kubernetes/)
 
 ### Kubernetes Scheduler. Kube Scheduler
 
