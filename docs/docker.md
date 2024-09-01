@@ -190,6 +190,7 @@
 
 - [medium: Understanding Docker Volumes, Mounts and Layers and How to Manage Data in Containers](https://medium.com/nycdev/understanding-docker-volumes-mounts-and-layers-9fa17befa493)
 - [spacelift.io: Docker Volumes – Guide with Examples](https://spacelift.io/blog/docker-volumes) Volumes are a mechanism for storing data outside containers. All volumes are managed by Docker & stored in dedicated directory on your host, usually /var/lib/docker/volumes for Linux systems
+- [docs.netapp.com: Work with docker volumes - Astra Trident 🌟](https://docs.netapp.com/us-en/trident/trident-docker/volumes-docker.html)
 
 ## Debugging
 
