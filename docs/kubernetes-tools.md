@@ -69,7 +69,7 @@
 66. [kubefwd (Kube Forward)](#kubefwd-kube-forward)
 67. [Kpng. Kubernetes Proxy NG](#kpng-kubernetes-proxy-ng)
 68. [Auto-portforward (apf)](#auto-portforward-apf)
-69. [gardener/Terraformer](#gardenerterraformer)
+69. [Gardener](#gardener)
 70. [Werf](#werf)
 71. [Starboard kubernetes-native security toolkit](#starboard-kubernetes-native-security-toolkit)
 72. [Netshoot](#netshoot)
@@ -133,6 +133,7 @@
     - skaffold - to easily build, deploy, and dev apps on k8s
     - mirrord - to intercept traffic from k8s to the local app instance
 - [coruzant.com/appdev: Kubernetes Management: Tools and Best Practices](https://coruzant.com/appdev/kubernetes-management-tools-and-best-practices/)
+- [dev.to/cyclops-ui: Five tools to make your K8s experience more enjoyable](https://dev.to/cyclops-ui/five-tools-to-make-your-k8s-experience-more-enjoyable-5d85)
 
 ## K8s Tools
 
@@ -647,6 +648,7 @@ elastic quotas - Effortless optimization at its finest!
     - Scans a running Kubernetes cluster to determine if any objects will be affected by deprication
     - Displays affected objects to the user
 - [==github.com/hcavarsan/kftray== ⭐](https://github.com/hcavarsan/kftray) Manage multiple kubectl port-forward commands with a menu bar or a TUI app, with support for UDP and proxy connections through Kubernetes clusters, and gitops-like state sync with github.
+- [kondense 🌟](https://github.com/unagex/kondense) Kondense is an automated resource sizing tool. It runs as a sidecar in kubernetes pods.
 
 ## kubetail
 
@@ -1020,8 +1022,9 @@ elastic quotas - Effortless optimization at its finest!
 
 - [ruoshan/autoportforward](https://github.com/ruoshan/autoportforward) Bidirectional port-forwarding for docker, podman and kubernetes. A handy tool to automatically set up proxies that expose the remote container's listening ports back to the local machine. Just like kubectl portforward or docker run -p LOCAL:REMOTE, but automatically discover and update the ports to be forwarded on the fly. apf can create listening ports in the container and forward them back as well.
 
-## gardener/Terraformer
+## Gardener
 
+- [==github.com/gardener/gardener: Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service==](https://github.com/gardener/gardener) **Homogeneous Kubernetes clusters at scale on any infrastructure using hosted control planes.**
 - [gardener/terraformer: Terraformer](https://github.com/gardener/terraformer) Executes Terraform configuration as job/pod inside a Kubernetes cluster. Terraformer is a tool that can execute Terraform commands (apply, destroy and validate) and can be run as a Pod inside a Kubernetes cluster. The Terraform configuration and state files (main.tf, variables.tf, terraform.tfvars and terraform.tfstate) are stored as ConfigMaps and Secrets in the Kubernetes cluster and will be retrieved and updated by Terraformer.
 
 ## Werf

@@ -240,6 +240,7 @@
 - [betterprogramming.pub: Writing Custom Kubernetes Controller and Webhooks](https://betterprogramming.pub/writing-custom-kubernetes-controller-and-webhooks-141230820e9) Create a Kubernetes API, controller, validate webhooks, and test.
 - [betterprogramming.pub: How To Write Tests for Your Kubernetes Operator](https://betterprogramming.pub/write-tests-for-your-kubernetes-operator-d3d6a9530840)
 - [metalbear.co: Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
+- [dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD](https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil)
 
 ## Tweets
 

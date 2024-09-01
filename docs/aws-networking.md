@@ -5,14 +5,15 @@
 3. [AWS Elastic Load Balancing (ELB)](#aws-elastic-load-balancing-elb)
 4. [AWS Application Load Balancer (ALB)](#aws-application-load-balancer-alb)
 5. [Gateway Load Balancer (GWLB)](#gateway-load-balancer-gwlb)
-6. [NGINX](#nginx)
-7. [AWS Latency](#aws-latency)
-8. [AWS VPC](#aws-vpc)
+6. [AWS WAF](#aws-waf)
+7. [NGINX](#nginx)
+8. [AWS Latency](#aws-latency)
+9. [AWS VPC](#aws-vpc)
     1. [AWS Client VPN](#aws-client-vpn)
     2. [Tailscale](#tailscale)
-9. [AWS CloudFront](#aws-cloudfront)
-10. [AWS API Gateway](#aws-api-gateway)
-11. [Tweets](#tweets)
+10. [AWS CloudFront](#aws-cloudfront)
+11. [AWS API Gateway](#aws-api-gateway)
+12. [Tweets](#tweets)
 
 ## Introduction
 
@@ -62,6 +63,10 @@
 ## Gateway Load Balancer (GWLB)
 
 - [Centralized Traffic Inspection with Gateway Load Balancer on AWS](https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws/)
+
+## AWS WAF
+
+- [AWS WAF enhances rate-based rules to support lower rate limits](https://aws.amazon.com/about-aws/whats-new/2024/08/aws-waf-rate-based-rules-lower-rate-limits/)
 
 ## NGINX
 

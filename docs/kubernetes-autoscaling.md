@@ -120,6 +120,7 @@
 - [code.egym.de: Vertical Pod Autoscaler in Kubernetes](https://code.egym.de/vertical-pod-autoscaler-in-kubernetes-b12a5c61393f) Learn how to use Vertical Pod Autoscaler (VPA) to vertically scale services in Kubernetes automatically based on resource metrics.
 - [faun.pub: Intelligently estimating your Kubernetes resource needs!](https://faun.pub/intelligently-estimating-your-kubernetes-resource-needs-c12a75ea3138) In this tutorial, you will learn how to use the Vertical Pod Autoscaler and Goldilocks to guess the correct requests and limits for your Pods
 - [itnext.io: Kubernetes: vertical Pods scaling with Vertical Pod Autoscaler](https://itnext.io/kubernetes-vertical-pods-scaling-with-vertical-pod-autoscaler-e2e5a3b8e1a9)
+- [medium.com/@adityadhopade18: Mastering K8s Event Driven AutoScaling](https://medium.com/@adityadhopade18/mastering-k8s-event-driven-autoscaling-cd1b9df78903)
 
 ### Kubernetes Scale to Zero
 

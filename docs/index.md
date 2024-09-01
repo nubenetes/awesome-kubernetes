@@ -124,6 +124,9 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [NetBox IPAM](https://github.com/netbox-community/netbox)
 - [youtube: GitOps Guide to the Galaxy](https://www.youtube.com/playlist?list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd)
 - [devopswithkubernetes.com](https://devopswithkubernetes.com/) Introductory course to Kubernetes with K3s and GKE
+- [Gardener](https://github.com/gardener/gardener) Deliver fully-managed clusters at scale everywhere with your own Kubernetes-as-a-Service
+- [collabnix.github.io/kubetools 🌟](https://collabnix.github.io/kubetools/) A Curated List of Kubernetes Tools
+- [OpenShift AI Examples](https://github.com/CastawayEGR/openshift-ai-examples)
 
 ## Introduction
 - [Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)

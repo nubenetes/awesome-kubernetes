@@ -48,6 +48,7 @@
     15. [Writing Kubernetes Operators](#writing-kubernetes-operators)
     16. [Customized Reports with Metering Operator (monitoring k8s resources)](#customized-reports-with-metering-operator-monitoring-k8s-resources)
     17. [Red Hat AMQ Streams (Kafka)](#red-hat-amq-streams-kafka)
+    18. [OpenShift AI](#openshift-ai)
 8. [Jenkins Demos](#jenkins-demos)
     1. [Jenkins Declarative Pipelines with OpenShift](#jenkins-declarative-pipelines-with-openshift)
     2. [OpenShift Pipelines with S2i and Jenkins Blue Ocean](#openshift-pipelines-with-s2i-and-jenkins-blue-ocean)
@@ -525,6 +526,10 @@
 
 - [developers.redhat.com: HTTP-based Kafka messaging with Red Hat AMQ Streams](https://developers.redhat.com/blog/2020/08/04/http-based-kafka-messaging-with-red-hat-amq-streams/)
 - [developers.redhat.com: Message broker integration made simple with Red Hat Fuse](https://developers.redhat.com/blog/2021/01/08/message-broker-integration-made-simple-with-red-hat-fuse/) This article presents a sample integration between Red Hat AMQ 7 and IBM MQ, using Red Hat Fuse 7 for the integration. Traditionally, developers have used resource adapters for message bridging with external systems. A resource adapter is a system library that provides connectivity to an enterprise information system (EIS). Similar to how a Java Database Connectivity (JDBC) driver provides connectivity to a database management system, a resource adapter plugs into an application server such as Red Hat JBoss Enterprise Application Platform (JBoss EAP). It then connects the application server, enterprise information system, and the enterprise application.
+
+### OpenShift AI
+
+- [OpenShift AI Examples](https://github.com/CastawayEGR/openshift-ai-examples) A repository containing deployments of popular open source generative AI projects including Open-WebUI, Ollama, and Stable Diffusion WebUI.
 
 ## Jenkins Demos
 
