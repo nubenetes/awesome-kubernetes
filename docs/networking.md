@@ -46,6 +46,7 @@
 - [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam/)
 - [youtube: NetBox Zero To Hero](https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7)
 - https://hub.docker.com/r/netboxcommunity/netbox
+- [docs.ansible.com: Netbox Ansible Modules 🌟](https://docs.ansible.com/ansible/latest/collections/netbox/netbox/index.html)
 
 ## HTTP Protocols
 
