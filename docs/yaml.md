@@ -89,6 +89,7 @@
 - [medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO](https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f)
 - [linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k)
 - [dotnet-helpers.com: How to Convert YAML to JSON / JSON to YAML using PowerShell](https://dotnet-helpers.com/powershell/convert-yaml-to-json-or-json-to-yaml-using-powershell/)
+- [yamline.com](https://yamline.com/) Format, validate, compare, and convert YAML data
 
 ### Kubernetes examples
 
@@ -138,6 +139,7 @@
 - [github.com/tomnomnom/gron 🌟](https://github.com/tomnomnom/gron) Make JSON greppable!
 - [github.com/ynqa/jnv 🌟](https://github.com/ynqa/jnv) Interactive JSON filter using jq
 - [github.com/JFryy/qq](https://github.com/JFryy/qq) jq inspired (and gojq dependent) interoperable config format transcoder with interactive querying.
+- [jsoning.com](https://jsoning.com/) A toolset including a formatter, comparer, JSONPath tester, patch generator, and data generator
 
 ### Kubernetes JSON Schemas
 
