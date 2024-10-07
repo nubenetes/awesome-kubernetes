@@ -1,0 +1,7099 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+      
+      
+        <meta name="author" content="nubenetes@gmail.com">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/ansible/">
+      
+      
+        <link rel="prev" href="../cloud-asset-inventory/">
+      
+      
+        <link rel="next" href="../helm/">
+      
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Ansible - Nubenetes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-2H8F93KE5B"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-2H8F93KE5B",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2H8F93KE5B",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configuration-management-ansible" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ansible
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introduction/" class="md-tabs__link">
+          
+  
+    
+  
+  Intro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../sre/" class="md-tabs__link">
+          
+  
+    
+  
+  SRE
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devops/" class="md-tabs__link">
+          
+  
+    
+  
+  DevOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devsecops/" class="md-tabs__link">
+          
+  
+    
+  
+  DevSecOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../noops/" class="md-tabs__link">
+          
+  
+    
+  
+  NoOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../docker/" class="md-tabs__link">
+        
+  
+    
+  
+  Docker
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kubernetes/" class="md-tabs__link">
+          
+  
+    
+  
+  K8s
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../openshift/" class="md-tabs__link">
+          
+  
+    
+  
+  OpenShift
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../rancher/" class="md-tabs__link">
+          
+  
+    
+  
+  Rancher
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../cicd/" class="md-tabs__link">
+          
+  
+    
+  
+  CI/CD
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../monitoring/" class="md-tabs__link">
+          
+  
+    
+  
+  Montrg
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iac/" class="md-tabs__link">
+          
+  
+    
+  
+  Infra Prov
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+    
+  
+  Config Mgmt
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../databases/" class="md-tabs__link">
+          
+  
+    
+  
+  DB
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../message-queue/" class="md-tabs__link">
+        
+  
+    
+  
+  Data Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../servicemesh/" class="md-tabs__link">
+          
+  
+    
+  
+  Service Mesh
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../demos/" class="md-tabs__link">
+          
+  
+    
+  
+  Demos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../public-cloud-solutions/" class="md-tabs__link">
+          
+  
+    
+  
+  Cloud
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../api/" class="md-tabs__link">
+          
+  
+    
+  
+  APIs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devel-sites/" class="md-tabs__link">
+          
+  
+    
+  
+  Dev
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../qa/" class="md-tabs__link">
+          
+  
+    
+  
+  QA
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ai/" class="md-tabs__link">
+          
+  
+    
+  
+  AI
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../project-management-methodology/" class="md-tabs__link">
+          
+  
+    
+  
+  Project Mgmt
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../other-awesome-lists/" class="md-tabs__link">
+          
+  
+    
+  
+  Refs+
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../recruitment/" class="md-tabs__link">
+          
+  
+    
+  
+  Hiring
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../customer/" class="md-tabs__link">
+        
+  
+    
+  
+  Clients
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Nubenetes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Intro
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microservices FAQ & Kubernetes Native
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SRE
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            SRE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sre/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRE Site Reliability Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FinOps. Cloud Financial Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chaos-engineering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chaos Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GitOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MLOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheatsheets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cheat Sheets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DevSecOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            DevSecOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevSecOps. Container Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../securityascode/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Policy as Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oauth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OAuth2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    NoOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            NoOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../noops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NoOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../serverless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    K8s
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            K8s
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Plugins, Tools, Extensions and Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubectl-commands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    kubectl Commands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Monitoring and Logging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-backup-migrations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Backup and Migrations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-autoscaling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Autoscaling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-operators-controllers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Operators and Controllers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-based-devel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Based Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-on-premise/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes On Premise
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../managed-kubernetes-in-public-cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed kubernetes in public clouds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-releases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-newsletters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Newsletters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matrix-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Distributions & Installers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-bigdata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Big Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-alternatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes alternatives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    OpenShift
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            OpenShift
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenShift docs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCP 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCP 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rancher
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Rancher
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rancher/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rancher - Enterprise management for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    CI/CD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            CI/CD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD - Continuous Integration & Continuous Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jenkins & Cloudbees
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift-pipelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenShift Pipelines with Jenkins, Tekton and more...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_7" id="__nav_11_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_7">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins-alternatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jenkins Alternatives for Continuous Integration & Deployment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../argo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argo - Declarative GitOps for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flux CD - The GitOps Operator for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tekton/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tekton - Cloud Native CI/CD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keptn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keptn
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container-managers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maven-gradle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maven, Gradle & SDKMAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sonarqube/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SonarQube
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../registries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux & SSH
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MkDocs & GitHub Pages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_8" id="__nav_11_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_8">
+            <span class="md-nav__icon md-icon"></span>
+            Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web-servers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_app_servers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embedded-servlet-containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Embedded Servlet Containers in SpringBoot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Caching Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Montrg
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Montrg
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monitoring and Performance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prometheus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prometheus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grafana/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grafana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Infra Prov
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Infra Prov
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IaC Infrastructure as Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terraform/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terraform & Packer.Kubernetes Boilerplates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pulumi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pulumi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crossplane/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crossplane
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-arch-diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Architecture Diagram Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-asset-inventory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Asset Inventory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Config Mgmt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Config Mgmt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ansible
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Ansible
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-management-with-ansible-devops-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Management with Ansible DevOps Tool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible AI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible UI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-custom-files-with-jinja2-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying custom files with Jinja2 templates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-an-ansible-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing an Ansible module
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interacting-with-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interacting with REST API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interacting with REST API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#writing-an-ansible-module-for-a-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing an Ansible module for a REST API
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Videos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-playbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Playbooks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Collections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-hat-ansible-automation-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      Red Hat Ansible Automation Platform
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Ansible Automation Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automation-services-catalog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automation services catalog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-hat-certified-ansible-content-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Red Hat Certified Ansible Content Collections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-cheat-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Cheat Sheets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-ansible-playbooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running Ansible Playbooks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running Ansible Playbooks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-ansible-playbooks-from-jenkins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running Ansible Playbooks From Jenkins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tower-and-awx-installers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tower and AWX Installers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternatives-to-ansible-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternatives to Ansible Tower
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-kubernetes-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Kubernetes Operators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-molecule-development-and-testing-of-ansible-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Molecule. Development and Testing of Ansible Roles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      Books
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-galaxy-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Galaxy Roles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-ansible-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Ansible Roles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible scripts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-with-helm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible with Helm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#awesome-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Awesome Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-and-public-cloud-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible and Public Cloud Guides
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansible-kubernetes-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansible Kubernetes Module
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nginx-core-collection-for-ansibe" class="md-nav__link">
+    <span class="md-ellipsis">
+      NGINX Core Collection for Ansibe
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynatrace-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynatrace with Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-server-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQL Server with Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oci-oracle-cloud-infrastructure-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      OCI Oracle Cloud Infrastructure with Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oracle-database-with-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Oracle Database with Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ansistrano. Deploying applications with Ansible in Capistrano style
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anacron-and-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anacron and Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tweets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Videos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Helm Kubernetes Tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kustomize/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kustomize - Template-Free Kubernetes Configuration Customization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stackstorm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StackStorm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chef/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chef
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd-kubernetes-plugins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD Kubernetes Plugins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-client-libraries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liquibase/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Version Control. Liquibase, Flyway and PlanetScale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yaml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    YAML and JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DB
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            DB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relational Databases and Database DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crunchydata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crunchy Data PostgreSQL Operator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nosql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NoSQL Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../message-queue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Service Mesh
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            Service Mesh
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicemesh/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Mesh
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../istio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Istio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Demos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            Demos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Demos, Boilerplates & Screencasts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cloud
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../public-cloud-solutions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Public Cloud Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../private-cloud-solutions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private Cloud Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edge-computing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edge Computing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_19_4" id="__nav_19_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AWS Cloud
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_19_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19_4">
+            <span class="md-nav__icon md-icon"></span>
+            AWS Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-miscellaneous/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Miscellaneous
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Architecture and Best Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Monitoring
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-iac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS IaC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-tools-scripts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Tools Scripts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-messaging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Messaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-serverless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Serverless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Containers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-backup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Backup and Migrations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-training/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Training and Certification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-newfeatures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS New Features
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-spain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Spain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../azure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Azure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GoogleCloudPlatform/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Cloud Platform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ibm_cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IBM & IBM Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oraclecloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Oracle Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digitalocean/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Digital Ocean
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloudflare/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloudflare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaleway/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scaleway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    APIs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            APIs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIs with SOAP, REST and gRPC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../swagger-code-generator-for-rest-apis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swagger code generator for REST APIs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../postman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Test Automation with Postman and REST Assured
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developerportals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Marketplaces. API Management with API Gateways & Developer Portals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21" >
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            Dev
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devel-sites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Websites for web developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../angular/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Angular
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document Object Model (DOM)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golang/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Golang
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JavaScript - node.js & npm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python - Django & Flask
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../react/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    React
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lowcode-nocode/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Low Code and No Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_10" id="__nav_21_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Microsoft
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_10">
+            <span class="md-nav__icon md-icon"></span>
+            Microsoft
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft .NET
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xamarin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Xamarin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_11" id="__nav_21_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_11">
+            <span class="md-nav__icon md-icon"></span>
+            Java
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_frameworks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java-and-java-performance-optimization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java Memory Management & Java Performance Optimization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jvm-parameters-matrix-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java Parameters Matrix Table
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_12" id="__nav_21_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_12">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-studio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-dev-env/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSL - Linux Dev Environment on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaffolding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scaffolding Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ChromeDevTools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chrome & Firefox DevTools. HTTP Protocols & WebSockets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    QA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            QA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TestOps and Continuous Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test-automation-frameworks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Test Automation Frameworks and BDD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MLOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chatgpt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ChatGPT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project Mgmt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24">
+            <span class="md-nav__icon md-icon"></span>
+            Project Mgmt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-methodology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Management Methodology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Management Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appointment-scheduling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Appointment Scheduling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workfromhome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Work From Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Refs+
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            Refs+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-awesome-lists/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Other Awesome Lists
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interview-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Interview Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../newsfeeds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subreddits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elearning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    E-Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-money/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Digital Money
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Hiring
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Hiring
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recruitment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recruitment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freelancing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Freelancing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remote-tech-jobs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Remote Tech Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clients
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="configuration-management-ansible">Configuration Management. Ansible</h1>
+<ol>
+<li><a href="#configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool</a></li>
+<li><a href="#ansible-ai">Ansible AI</a></li>
+<li><a href="#ansible-ui">Ansible UI</a></li>
+<li><a href="#deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates</a></li>
+<li><a href="#writing-an-ansible-module">Writing an Ansible module</a></li>
+<li><a href="#interacting-with-rest-api">Interacting with REST API</a><ol>
+<li><a href="#writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API</a></li>
+</ol>
+</li>
+<li><a href="#ansible-videos">Ansible Videos</a></li>
+<li><a href="#ansible-playbooks">Ansible Playbooks</a></li>
+<li><a href="#ansible-collections">Ansible Collections</a></li>
+<li><a href="#red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform</a><ol>
+<li><a href="#automation-services-catalog">Automation services catalog</a></li>
+<li><a href="#red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections</a></li>
+</ol>
+</li>
+<li><a href="#ansible-cheat-sheets">Ansible Cheat Sheets</a></li>
+<li><a href="#running-ansible-playbooks">Running Ansible Playbooks</a><ol>
+<li><a href="#running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="#ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower</a><ol>
+<li><a href="#tower-and-awx-installers">Tower and AWX Installers</a></li>
+</ol>
+</li>
+<li><a href="#alternatives-to-ansible-tower">Alternatives to Ansible Tower</a></li>
+</ol>
+</li>
+<li><a href="#ansible-kubernetes-operators">Ansible Kubernetes Operators</a></li>
+<li><a href="#ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#ansible-galaxy-roles">Ansible Galaxy Roles</a></li>
+<li><a href="#more-ansible-roles">More Ansible Roles</a></li>
+<li><a href="#ansible-scripts">Ansible scripts</a></li>
+<li><a href="#ansible-with-helm">Ansible with Helm</a></li>
+<li><a href="#awesome-ansible">Awesome Ansible</a></li>
+<li><a href="#ansible-and-public-cloud-guides">Ansible and Public Cloud Guides</a></li>
+<li><a href="#ansible-kubernetes-module">Ansible Kubernetes Module</a></li>
+<li><a href="#nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe</a></li>
+<li><a href="#dynatrace-with-ansible">Dynatrace with Ansible</a></li>
+<li><a href="#sql-server-with-ansible">SQL Server with Ansible</a></li>
+<li><a href="#oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible</a></li>
+<li><a href="#oracle-database-with-ansible">Oracle Database with Ansible</a></li>
+<li><a href="#ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style</a></li>
+<li><a href="#anacron-and-ansible">Anacron and Ansible</a></li>
+<li><a href="#tweets">Tweets</a></li>
+<li><a href="#videos">Videos</a></li>
+</ol>
+<h2 id="configuration-management-with-ansible-devops-tool">Configuration Management with Ansible DevOps Tool</h2>
+<ul>
+<li><a href="https://www.ansible.com/">ansible.com</a></li>
+<li><a href="https://docs.ansible.com/">docs.ansible.com</a></li>
+<li><a href="https://www.edureka.co/blog/what-is-ansible/">dureka.co: What Is Ansible?</a> Configuration Management And Automation With Ansible</li>
+<li><a href="https://dzone.com/articles/getting-started-with-ansible">Dzone: Getting Started With Ansible</a></li>
+<li><a href="https://dzone.com/articles/part-1-getting-started-ansible">Dzone: Part 1: Getting Started with Ansible</a></li>
+<li><a href="https://dzone.com/articles/part-2-deploying-applications">Dzone: Part 2: Deploying Applications</a></li>
+<li><a href="https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1">Dzone: 10 easy to use modules in ansible</a></li>
+<li><a href="https://dzone.com/articles/ansible-an-effective-it-automation-tool">Dzone: Ansible: An Effective IT Automation Tool</a> Learn about Ansible, a tool for automating application deployments, configuration management, and more in a DevOps environment.</li>
+<li><a href="https://dzone.com/articles/running-ansible-at-scale">Dzone: Running Ansible at Scale</a></li>
+<li><a href="https://www.udemy.com/ansible-essentials-simplicity-in-automation">Udemy.com: Ansible Essentials: Simplicity in Automation (Free Tutorial)</a></li>
+<li><a href="https://medium.com/avmconsulting-blog/deploying-microservices-via-ansible-in-cloud-platform-a03d46b7bd68">Deployment of Microservices in Cloud With Ansible</a> This tutorial will help you understand how Ansible orchestrates Docker containers at least for a dev environment</li>
+<li><a href="https://opensource.com/article/20/9/install-packages-ansible">opensource.com: How to install software with Ansible</a> Automate software installations and updates across your devices with Ansible playbooks.</li>
+<li><a href="https://opensource.com/article/20/9/ansible-modules-kubernetes">opensource.com: Automate your container orchestration with Ansible modules for Kubernetes 🌟</a> Combine Ansible with Kubernetes for cloud automation. Plus, get our cheat sheet for using the Ansible k8s module.</li>
+<li><a href="https://opensource.com/article/19/2/quickstart-guide-ansible">opensource.com: A quickstart guide to Ansible 🌟</a> Download the Ansible Automation for SysAdmins guide.</li>
+<li><a href="https://opensource.com/article/20/9/ansible">opensource.com: 7 things you can do with Ansible right now</a> If Ansible&rsquo;s inclusion as a leader on the Forrester Wave report piqued your interest, here are some ways the automation solution can simplify your life.</li>
+<li><a href="https://medium.com/the-programming-hub/the-ultimate-guide-for-ansible-total-domination-e70bdfc11175">medium.com: The Ultimate Guide for Ansible Total Domination 🌟</a></li>
+<li><a href="https://opensource.com/article/20/10/calendar-ansible">opensource.com: Integrate your calendar with Ansible to avoid schedule conflicts 🌟</a> Make sure your automation workflow&rsquo;s schedule doesn&rsquo;t conflict with something else by integrating a calendar app into Ansible.</li>
+<li><a href="https://opensource.com/article/20/10/first-day-ansible">opensource.com: My first day using Ansible</a> A sysadmin shares information and advice about putting Ansible into real-world use configuring computers on his network.</li>
+<li><a href="https://siliconangle.com/2020/10/13/red-hat-ties-ansible-automation-kubernetes-cluster-management/">siliconangle.com: Red Hat ties Ansible automation to Kubernetes cluster management 🌟</a></li>
+<li><a href="https://www.sdxcentral.com/articles/news/red-hat-links-ansible-automaton-to-kubernetes-management/">sdxcentral.com: Red Hat Links Ansible Automation to Kubernetes Management 🌟</a></li>
+<li><a href="https://thenewstack.io/red-hat-brings-ansible-automation-to-kubernetes/">thenewstack.io: Red Hat Brings Ansible Automation to Kubernetes 🌟</a></li>
+<li><a href="https://www.openshift.com/blog/ansible-and-openshift-connecting-for-success">openshift.com: Ansible and OpenShift: Connecting for Success 🌟</a></li>
+<li><a href="https://www.zdnet.com/article/red-hat-expands-ansible-ready-to-run-cloud-programs/">zdnet.com: ed Hat expands Ansible ready to run cloud programs 🌟</a> And, on top of more plug-and-play Ansible programs, you can now run Ansible hand-in-glove with Red Hat OpenShift.</li>
+<li><a href="https://www.theregister.com/2020/10/14/redhat_ansible_kubernetes/">theregister.com: Juggling Ansible, OpenShift and K8s? This is for you: Red Hat couples automation to cluster management</a></li>
+<li><a href="https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview">redhat.com: Ansible Essentials: Simplicity in Automation Technical Overview (Free Course) 🌟</a></li>
+<li><a href="https://opensource.com/article/20/10/ansible-modules-linux">opensource.com: 10 Ansible modules for Linux system automation c</a> These handy modules save time and hassle by automating many of your daily tasks, and they&rsquo;re easy to implement with a few commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/renewed-thrill-ansible">redhat.com: Renewing my thrill at work with Ansible</a></li>
+<li><a href="https://opensource.com/article/20/12/ansible-lab">opensource.com: Set up an Ansible lab in 20 minutes</a> Build an environment to support learning and experimenting with new software.</li>
+<li><a href="https://opensource.com/article/21/1/improve-ansible-play">opensource.com: 4 lines of code to improve your Ansible play</a></li>
+<li><a href="https://www.redhat.com/sysadmin/demystifying-ansible-sysadmins">redhat.com: Demystifying Ansible for Linux sysadmins 🌟</a> Taking the labor out of labor-intensive tasks is what Ansible is all about. Learn the basics here.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-quick-start">redhat.com: Quick start guide to Ansible for Linux sysadmins 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/1/ansible">opensource.com: 10 ways Ansible is for everyone 🌟</a> Expand your knowledge and skills with the top 10 Ansible articles plus five news summaries from 2020</li>
+<li><a href="https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values">ansible.com: Ansible Network Resource Modules: Deep Dive on Return Values</a></li>
+<li><a href="https://www.linkedin.com/pulse/ansible-what-marcel-koert/">linkedin.com: Ansible what is it and what not</a></li>
+<li><a href="https://www.redhat.com/sysadmin/automate-reboot-ansible">redhat.com: How to automate system reboots using the Ansible reboot module</a></li>
+<li><a href="https://developer.okta.com/blog/2021/02/05/okta-ansible">developer.okta.com: Tutorial: Ansible and Account Automation with Okta</a></li>
+<li><a href="https://www.redhat.com/sysadmin/how-start-ansible">redhat.com: Got automation? Here&rsquo;s a quick guide to get you up to speed on Ansible 🌟</a> This article gives you a quick, high-level guide on how to start with Ansible</li>
+<li><a href="https://opensource.com/article/21/2/ansible-origin-story">opensource.com: How Ansible got started and grew</a></li>
+<li><a href="https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package">ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟</a></li>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/">toptechskills.com: Ansible Tutorials &amp; Courses 🌟</a> Ansible is an agentless infrastructure as code (IAC) tool that is super effective at configuring cloud and bare metal infrastructure.<ul>
+<li><a href="https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/">toptechskills.com: How to Speed Up Your Ansible Playbooks Over 600% 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-sysadmin">opensource.com: 5 everyday sysadmin tasks to automate with Ansible 🌟</a> Get more efficient and avoid errors by automating repeatable daily tasks with Ansible.</li>
+<li><a href="https://www.redhat.com/sysadmin/developing-ansible-role">redhat.com: 8 steps to developing an Ansible role in Linux 🌟</a> In this article, an existing Ansible playbook is used to deploy Vim and convert it to a role adding flexibility and reusability.</li>
+<li><a href="https://www.ansible.com/resources/whitepapers/ansible-in-depth">ansible.com: Ansible whitepaper</a> Download this paper for a deep dive into Ansible, an open source IT configuration management, deployment, and orchestration tool.</li>
+<li><a href="http://redhat.slides.com/jparrill/ansible-202/fullscreen?token=1hUEEPF4#/11/1">redhat.slides.com: Ansible 202 - Best Practices from the field</a> - <a href="https://asciinema.org/~padajuan">asciinema.org/~padajuan</a></li>
+<li><a href="https://www.redhat.com/sysadmin/configure-gmail-using-ansible">redhat.com: How to use Ansible to send an email using Gmail</a></li>
+<li><a href="https://www.redhat.com/sysadmin/reverse-proxy-ansible">redhat.com: How to use Ansible to configure a reverse proxy 🌟</a> Placing a load balancer in front of your web server infrastructure helps ensure any spike in traffic doesn&rsquo;t bring down the site.</li>
+<li><a href="https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1">Ansible 3.3.0 released</a></li>
+<li><a href="https://fedoramagazine.org/using-ansible-to-configure-podman-containers/">fedoramagazine.org: Using Ansible to configure Podman containers 🌟</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/ansible-vs-puppet-which-is-right-for-you">acloudguru.com: Ansible vs Puppet: Which is right for you?</a></li>
+<li><a href="https://www.redhat.com/sysadmin/install-ansible-way">redhat.com: Add a repo and install a package the Ansible way</a> How to add package repositories and install packages on many hosts by using Ansible.</li>
+<li><a href="https://automateinfra.com/everything-about-ansible/">automateinfra.com: Everything about Ansible 🌟</a></li>
+<li><a href="https://www.redhat.com/en/blog/introduction-rhel-system-roles">redhat.com: Introduction to RHEL System Roles 🌟</a> How to use Ansible Roles with RedHat Enterprise Linux</li>
+<li><a href="https://linuxtechlab.com/ansible-tutorial-simple-commands/">linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands</a></li>
+<li><a href="https://k21academy.com/ansible/ansible-for-beginners">k21academy.com: Ansible for Beginners | Overview | Architecture &amp; Use Cases 🌟</a><ul>
+<li><a href="https://k21academy.com/ansible/day2-live-session-review-and-q-a/">k21academy.com: Ansible for Beginners Day2 Live Session Review and Q/A 🌟</a></li>
+</ul>
+</li>
+<li><a href="https://analyticsindiamag.com/ansible-vs-docker-a-detailed-comparison-of-devops-tools">analyticsindiamag.com: Ansible vs Docker: A Detailed Comparison Of DevOps Tools</a></li>
+<li><a href="https://www.redhat.com/sysadmin/6-code-pushes-aap">redhat.com: 6 steps to automating code pushes with Ansible Automation Platform 🌟</a> Use a Git push to trigger an Ansible Automation Platform playbook execution in six easy steps.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-create-users-csv">redhat.com: 4 steps to create Linux users from a csv file with Ansible</a> Automate Linux user account creation in four simple steps with Ansible.</li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-define-multiple-when-conditions-in-ansible/">cyberciti.biz: How to define multiple when conditions in Ansible</a></li>
+<li><a href="https://dev.to/grayhat/devops-101-introduction-to-ansible-1n64">dev.to: DevOps 101 : Introduction to Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/python-venv-ansible">redhat.com: How to set up and use Python virtual environments for Ansible</a> Python&rsquo;s venv module gives you freedom to test new Ansible features before deploying them to production and without disturbing your system install.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-ad-hoc-commands">redhat.com: Deep dive into Ansible ad hoc commands</a> Make life easier when dealing with Ansible automation by using ad hoc commands.</li>
+<li><a href="https://www.redhat.com/sysadmin/software-packages-ansible">redhat.com: How to install software packages with an Ansible playbook</a> Learn how to install new software packages on all your managed hosts with a single Ansible playbook.</li>
+<li><a href="https://getbetterdevops.io/build-docker-images-using-ansible-and-packer/">getbetterdevops.io: Build Docker Images Using Ansible and Packer</a> Build Image from Ansible code and persist them on local or in AWS ECR</li>
+<li><a href="https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible">developers.redhat.com: Automate Red Hat JBoss Web Server deployments with Ansible</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-templates-configuration">redhat.com: How to create dynamic configuration files using Ansible templates</a> Ansible templates extend your ability to configure applications quickly and easily. This example uses a template to configure Vim.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansiblefest-sysadmins">redhat.com: 16 AnsibleFest presentations for sysadmins</a> AnsibleFest offers a lot of information to help sysadmins automate better.</li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible">developers.redhat.com: Four reasons developers should use Ansible</a></li>
+<li><a href="https://opensource.com/article/21/9/keep-folders-tidy-ansible">opensource.com: How I keep my file folders tidy with Ansible</a> I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.</li>
+<li><a href="https://vitux.com/how-to-speed-up-an-ansible-playbook/">vitux.com: How to speed-up an Ansible Playbook 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=mc20VwxYaGE&amp;t=3s&amp;ab_channel=CLOUDLEARNHUB">youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault</a></li>
+<li><a href="https://opensource.com/article/22/1/learn-ansible"><mark>opensource.com: 9 ways to learn Ansible this year</mark> 🌟</a> Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year&rsquo;s most popular Ansible tutorials and stories.</li>
+<li><a href="https://www.redhat.com/sysadmin/top-ansible-articles-2021">redhat.com: Top 10 Ansible tutorials of 2021</a> Whether you&rsquo;re new to Ansible or looking to level up your automation skills, you&rsquo;ll find something of value in 2021&rsquo;s top Ansible articles.</li>
+<li><a href="https://cloud.google.com/blog/products/operations/use-ansible-to-deploy-the-google-cloud-ops-agent">cloud.google.com: How to deploy the Google Cloud Ops Agent with Ansible</a></li>
+<li><a href="https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands">cloudbees.com: Getting Started Quickly With Ansible Ad Hoc Commands</a></li>
+<li><a href="https://www.redhat.com/sysadmin/faster-ansible-playbook-execution">redhat.com: 8 ways to speed up your Ansible playbooks</a> Here&rsquo;s how to optimize your Ansible playbooks to make them run faster.</li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list/">middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-dict/">middlewareinventory.com: Ansible Dictionary – How to create and add items to dict</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-aws_s3-example/">middlewareinventory.com: How to use ansible with S3 – Ansible aws_s3 examples | Devops Junction</a></li>
+<li><a href="https://www.techbeatly.com/ansible-for-infrastructure-provisioning-in-aws-ansible-real-life-series/">techbeatly.com: Ansible for Infrastructure Provisioning in AWS | Ansible Real Life Series - youtube</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventories"><mark>redhat.com: How to create dynamic inventory files in Ansible</mark></a> Learn how to use the host_list and Nmap plugins to build inventory files for your Ansible playbooks.<ul>
+<li><a href="https://www.redhat.com/sysadmin/ansible-dynamic-inventory-python"><mark>redhat.com: How to write a Python script to create dynamic Ansible inventories</mark></a> Write a script in Python that fetches hosts using Nmap to generate dynamic inventories.</li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-plugin-inventory-files"><mark>redhat.com: How to write an Ansible plugin to create inventory files</mark></a></li>
+</ul>
+</li>
+<li><a href="https://www.dlford.io/ansible-orchestration-how-to-home-lab-part-10/">dlford.io: Orchestrate Your Systems with Ansible Playbooks - How to Home Lab Part 10 🌟</a> Ansible is an administrative tool that aims to make server management easier by using declarative and idempotent configuration files.</li>
+<li><a href="https://learning-devops-tools-with-nandita.blogspot.com/2022/08/overview-of-ansible-and-ansible.html">learning-devops-tools-with-nandita.blogspot.com: Overview of Ansible and Ansible Playbooks</a></li>
+<li><a href="https://blog.learncodeonline.in/everything-about-ansible-variables">blog.learncodeonline.in: Everything about Ansible Variables 🌟</a></li>
+<li><a href="https://blog.learncodeonline.in/managing-file-operations-with-ansible">blog.learncodeonline.in: Managing File Operations With Ansible 🌟</a></li>
+<li><a href="https://developers.redhat.com/articles/2022/10/25/how-install-vms-and-ansible-automation-platform-mac-m1">developers.redhat.com: How to install VMs and Ansible Automation Platform on Mac M1</a></li>
+<li><a href="https://devopscube.com/setup-ansible-aws-dynamic-inventory/">devopscube.com: How to Setup Ansible AWS Dynamic Inventory</a></li>
+<li><a href="https://www.ansible.com/blog/creating-custom-rules-for-ansible-lint">ansible.com: Creating Custom Rules for Ansible Lint</a> What&rsquo;s “linting?” Its objective is to promote proven behaviors, patterns, and practices while avoiding typical traps that can quickly result in errors or make code more difficult to maintain.</li>
+<li><a href="https://www.ansible.com/blog/top-10-ansible-blogs-2022">ansible.com: The Top 10 Ansible Blogs of 2022</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/14/getting-started-with-ansible-playbooks-more-steps-towards-devops/">tomsitcafe.com: Getting started with Ansible playbooks: more steps towards DevOps</a></li>
+<li><a href="https://tomsitcafe.com/2023/02/17/conditional-statements-making-decisions-in-ansible-code/">tomsitcafe.com: Conditional statements – making decisions in Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/06/how-to-implement-and-use-handlers-in-ansible-code/">tomsitcafe.com: How to implement and use handlers in Ansible code?</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/13/configuration-file-blueprints-jinja2-templates-in-the-ansible-code/">tomsitcafe.com: Configuration file blueprints: Jinja2 templates in the Ansible code</a></li>
+<li><a href="https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files/">tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files</a></li>
+<li><a href="https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible">ansible.com: Kubernetes Meets Event-Driven Ansible 🌟</a></li>
+<li><a href="https://sayali.hashnode.dev/day-56-understanding-ad-hoc-commands-in-ansible"><mark>sayali.hashnode.dev: Day 56: Understanding Ad-hoc commands in Ansible</mark> 🌟</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project/">tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project</a></li>
+<li><a href="https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation/">tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/02/mastering-ansible-navigating-the-most-common-errors-and-mistakes/">tomsitcafe.com: Mastering Ansible: Navigating the Most Common Errors and Mistakes</a></li>
+<li><a href="https://tomsitcafe.com/2023/06/09/automating-apis-with-ansible-a-comprehensive-guide/">tomsitcafe.com: Automating APIs with Ansible: A Comprehensive Guide</a></li>
+<li><a href="https://medium.com/@Techie1/networking-tasks-in-production-using-ansible-b09d0a6121f7">medium.com/@Techie1: Networking tasks in production using Ansible</a></li>
+<li><a href="https://medium.com/cloud-native-daily/getting-started-with-ansible-a-comprehensive-guide-for-devops-beginners-fd2fb3fd7a40">medium.com/cloud-native-daily: Getting Started with Ansible: A Comprehensive Guide for DevOps Beginners</a> Automate complex tasks, manage your Docker containers effortlessly, and even enhance collaboration using Ansible</li>
+<li><a href="https://devopsinside.com/how-kubernetes-is-killing-tools-like-ansible/">devopsinside.com: Is Kubernetes killing tools like Ansible?</a><ul>
+<li>Kubernetes is not a replacement for ansible: Despite their overlapping functionality, it is important to note that Kubernetes is not a replacement for ansible. Both tools have their own strengths and use cases, and they can be used together to achieve different goals.</li>
+<li>Kubernetes and ansible can be used together: Kubernetes and ansible can be used together to complement each other. For example, ansible can be used to automate the provisioning and configuration of Kubernetes clusters, while Kubernetes can be used to manage the deployment and scaling of applications within those clusters.</li>
+</ul>
+</li>
+<li><a href="https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/daniel-jast1/2023/12/07/red-hat-aap-on-ibm-z-and-linuxone">community.ibm.com: Red Hat Ansible Automation Platform on IBM Z and IBM LinuxONE is generally available now!</a></li>
+<li><a href="https://intellipaat.com/blog/ansible-vs-kubernetes-vs-docker/">intellipaat.com: Ansible vs Kubernetes vs Docker</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-lists-dictionaries-yaml">redhat.com/sysadmin/ansible-lists-dictionaries-yaml: How to work with lists and dictionaries in Ansible 🌟</a></li>
+<li><a href="https://github.com/naveensilver/Ansible">github.com/naveensilver/Ansible</a> My Ansible Notes (Beginner to Advanced) : Repository to learn Ansible from Zero. This repository covers the complete Ansible fundamentals along with examples required for a DevOps Engineer.</li>
+</ul>
+<h2 id="ansible-ai">Ansible AI</h2>
+<ul>
+<li><a href="https://ansible.ai"><mark>ansible.ai</mark></a></li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible/ansible-lightspeed">redhat.com: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant</a> Red Hat® Ansible® Lightspeed with IBM watsonx Code Assistant helps automation teams learn, create, and maintain Red Hat Ansible Automation Platform content more efficiently.</li>
+</ul>
+<h2 id="ansible-ui">Ansible UI</h2>
+<ul>
+<li><a href="https://www.semui.co/"><mark>Semaphore UI</mark> 🌟</a></li>
+<li><a href="https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore/">thenewstack.io: How to Put a GUI on Ansible, Using Semaphore</a> Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here&rsquo;s how to install the Semaphore graphical user interface.</li>
+</ul>
+<h2 id="deploying-custom-files-with-jinja2-templates">Deploying custom files with Jinja2 templates</h2>
+<ul>
+<li><a href="https://infraxpertzz.com/deploying-custom-files-with-jinja2-template/">infraxpertzz.com: Deploying Custom Files with Jinja2 Template 🌟</a> - <a href="https://www.youtube.com/watch?app=desktop&amp;v=jokfVGdhBow&amp;feature=youtu.be&amp;ab_channel=InfraXpertzz">video</a></li>
+<li><a href="https://github.com/pallets/jinja/">jinja 🌟</a> Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</li>
+</ul>
+<h2 id="writing-an-ansible-module">Writing an Ansible module</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html">docs.ansible.com: Developing Ansible modules</a></li>
+<li><a href="https://techforce1.nl/creating-your-first-ansible-module">techforce1.nl: Creating your first Ansible module</a></li>
+</ul>
+<h2 id="interacting-with-rest-api">Interacting with REST API</h2>
+<ul>
+<li><a href="https://linuxctl.com/2017/01/ansible---interacting-with-external-rest-api/">linuxctl.com: Ansible - Interacting with external REST API</a> Ansible has many powerful modules. One of which is called uri which is capable of sending any kind of HTTP request. Using this module, it is fairly simple to allow ansible to intelligently talk to a REST API. This will come in handy during for automation of the sensu monitoring docker infrastructure I am currently working on.</li>
+<li><a href="https://steampunk.si/blog/let-us-give-ansible-a-rest/">steampunk.si: Let us give Ansible a REST</a></li>
+<li><a href="https://www.netways.de/blog/2019/04/26/ansible-can-talk-to-your-favorite-api/">netways.de: Ansible puede hablar con tu API favorita</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-web-endpoints">redhat.com: Using Ansible to interact with web endpoints</a> How about an Ansible use case that you can implement today?</li>
+<li><a href="https://opensource.com/article/21/9/ansible-rest-apis">opensource.com: Using Ansible with REST APIs</a> You may have queried APIs with a web browser or curl, but one of the overlooked capabilities of Ansible is how well it can leverage APIs as part of any playbook.</li>
+</ul>
+<h3 id="writing-an-ansible-module-for-a-rest-api">Writing an Ansible module for a REST API</h3>
+<ul>
+<li><a href="https://www.ansible.com/automating-business-applications-rest-api">ansible.com: Automating your business application&rsquo;s REST API with Ansible</a> You will learn how you can use Ansible to talk to your business application&rsquo;s REST API - and to develop your own Ansible modules doing just that.</li>
+<li><a href="https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/">liquidat.wordpress.com: [Howto] Writing an Ansible module for a REST API</a></li>
+</ul>
+<h2 id="ansible-videos">Ansible Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLVx1qovxj-al0Knm1A0eEXfGyd5kCi16p">youtube playlist: Ansible Tutorial - by Thetips4you 🌟</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOwxB_PX3s3WSfhzVtwhxXwy7QpkmtnzR">youtube playlist: Ansible Tutorial - by Infra Xpertzz 🌟</a><ul>
+<li><a href="https://www.youtube.com/watch?v=pJFZ5h9fT5o&amp;ab_channel=InfraXpertzz">youtube.com: Ansible Tutorial Part 8 - Implementing Handlers and Handling Task Failures</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLWZKNB9waqIXEL-NIapWwIADPtkspe9vk">youtube: Ansible for beginners - by XavkiEn</a> - <a href="https://gitlab.com/xavki/devopsland/-/tree/master/ansible">slides</a><ul>
+<li><a href="https://www.youtube.com/watch?v=NgRuap0MmZw&amp;ab_channel=XavkiEn">youtube: Exercises / Monitoring : How to install node exporter 🌟</a> In this tutorial, we start an exercise to install a monitoring stack. This exercise allows you to add prometheus + grafana on 1 server and node-exporter on all servers.</li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-playbooks">Ansible Playbooks</h2>
+<ul>
+<li><a href="https://github.com/k3s-io/k3s-ansible">github.com/k3s-io/k3s-ansible 🌟</a> Build a Kubernetes cluster using Ansible with k3s.</li>
+<li><a href="https://github.com/PyratLabs/ansible-role-k3s">github.com/PyratLabs/ansible-role-k3s 🌟</a> Ansible role for installing k3s as either a standalone server or HA cluster.</li>
+<li><a href="https://developers.redhat.com/articles/2021/09/28/set-modcluster-red-hat-jboss-web-server-ansible">developers.redhat.com: Set up mod_cluster for Red Hat JBoss Web Server with Ansible</a></li>
+<li><a href="https://www.middlewareinventory.com/blog/ansible-playbook-example/"><mark>middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction</mark></a></li>
+</ul>
+<h2 id="ansible-collections">Ansible Collections</h2>
+<ul>
+<li><a href="https://github.com/ansible-collections">Ansible Collections 🌟</a></li>
+<li><a href="https://github.com/ansible-collections/amazon.aws">Amazon AWS Collection 🌟</a></li>
+<li><a href="https://github.com/Radware/radware-ansible">Radware/radware-ansible: Radware Ansible Collection</a></li>
+<li><a href="https://www.ansible.com/blog/based-validated-network-content">ansible.com: Fundamentals of Network Automation with Ansible Validated Content using the network.base collection</a> Ansible validated content is use cases-focused automation packaged as Collections. They include plugins, roles and playbooks that can be used as an automation job through RedHat Ansible Automation Platform. Here&rsquo;s how to use the network.base Collection.</li>
+</ul>
+<h2 id="red-hat-ansible-automation-platform">Red Hat Ansible Automation Platform</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-enhancements-and-new-certified-ansible-content-collections-refine-automation-experience-drive-business-imperatives">redhat.com: Red Hat Ansible Automation Platform Enhancements and New Certified Ansible Content Collections Refine the Automation Experience to Drive Business Imperatives</a> Ready-to-use, curated automation for a wide range of platforms, public clouds, network and security technologies help organizations more easily get started with the latest trusted automation</li>
+<li><a href="https://www.ansible.com/blog/now-available-red-hat-ansible-automation-platform-1.2">ansible.com: Red Hat Ansible Automation Platform 1.2</a></li>
+<li><a href="https://pypi.org/project/ansible-navigator/">pypi.org: ansible-navigator 🌟</a> A text-based user interface (TUI) for the Red Hat Ansible Automation Platform</li>
+<li><a href="https://www.ansible.com/blog/introducing-ansible-automation-platform-2">ansible.com: Introducing Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/datacenter-edge-open-hybrid-cloud-vision-red-hat-ansible-automation-platform-2">redhat.com: From the datacenter to the edge: The open hybrid cloud vision for Red Hat Ansible Automation Platform 2</a></li>
+<li><a href="https://www.redhat.com/en/blog/redefining-possibilities-it-automation-across-your-ecosystem-red-hat-partners">redhat.com: Redefining the possibilities of IT automation across your ecosystem with Red Hat partners</a></li>
+<li><a href="https://www.crn.com/news/cloud/ibm-s-red-hat-reveals-ansible-automation-platform-2-early-access">crn.com: IBM’s Red Hat Reveals Ansible Automation Platform 2 Early Access</a> ‘Automation is foundational. Not an option. Not tactical,’ Massimo Ferrari, Red Hat’s management strategy director, tells CRN in an interview. “You need automation, otherwise you won‘t be able to do many other things, whether that be DevOps, whether that be digital transformation.”</li>
+<li><a href="https://devops.com/red-hat-extends-scope-of-ansible-automation-ambitions/">devops.com: Red Hat Extends Scope of Ansible Automation Ambitions</a> Red Hat announced the availability of a preview edition of Red Hat Ansible Automation Platform 2 that is intended to make it easier to automate IT processes at scale.</li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-ansible-automation-platform-2-drives-cloud-native-automation-and-helps-developers-become-automators">redhat.com: Red Hat Ansible Automation Platform 2 Drives Cloud-Native Automation and Helps Developers Become Automators</a> Industry’s leading IT automation platform now re-architected for deploying portable automation at massive scale across hybrid clouds and edge environments while shifting automation left into application development</li>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-controller">ansible.com: What&rsquo;s new in Ansible Automation Platform 2: automation controller</a><ul>
+<li><a href="https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2-automation-content-navigator">ansible.com: What&rsquo;s new in Ansible Automation Platform 2: automation content navigator</a></li>
+</ul>
+</li>
+<li><a href="https://venturebeat.com/2021/12/08/red-hat-brings-its-ansible-it-automation-engine-to-azure/">venturebeat.com: Red Hat brings Ansible IT automation engine to Azure</a></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-brings-industry-leading-ansible-automation-platform-microsoft-azure">redhat.com: Red Hat Brings Industry-Leading Ansible Automation Platform to <strong>Microsoft Azure</strong></a> Customers can more easily automate across hybrid clouds, IoT and edge deployments with Red Hat Ansible Automation Platform on Microsoft Azure</li>
+<li><a href="https://www.redhat.com/en/resources/ansible-automation-platform-2-ebook"><mark>redhat.com: Red Hat Ansible Automation Platform 2 (ebook)</mark></a></li>
+<li><a href="https://www.wraltechwire.com/2021/12/11/red-hat-expands-hybrid-cloud-efforts-in-ansible-deal-with-microsoft-azure/">wraltechwire.com: Red Hat expands hybrid cloud efforts in Ansible deal with Microsoft Azure</a></li>
+</ul>
+<h3 id="automation-services-catalog">Automation services catalog</h3>
+<ul>
+<li><a href="https://www.ansible.com/products/automation-services-catalog">ansible.com: Automation services catalog, the newest addition to the Ansible Automation Platform</a> Provide lifecycle management, provisioning, retirement and cataloging of automation resources to your business</li>
+</ul>
+<h3 id="red-hat-certified-ansible-content-collections">Red Hat Certified Ansible Content Collections</h3>
+<ul>
+<li><a href="https://www.ansible.com/blog/now-available-the-new-ansible-content-collections-on-automation-hub">ansible.com: Now Available: Red Hat-Maintained Content Collections on Automation Hub</a></li>
+<li><a href="https://access.redhat.com/articles/4993781">List of Red Hat Supported Maintained Ansible Collections 🌟</a></li>
+<li><a href="https://www.ansible.com/blog/automating-red-hat-satellite-with-ansible">ansible.com: Automating Red Hat Satellite with Ansible</a><ul>
+<li><a href="https://galaxy.ansible.com/t_systems_mms/letsencrypt">galaxy.ansible.com: letsencrypt</a> This collection contains a role for issuing ssl certificates from Let&rsquo;s Encrypt via dns or http-challenge</li>
+</ul>
+</li>
+<li><a href="https://opensource.com/article/21/3/ansible-collections">opensource.com: 5 tips for choosing an Ansible collection that&rsquo;s right for you</a> Try these strategies to find and vet collections of Ansible plugins and modules before you install them.</li>
+<li><a href="https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection">ansible.com: Announcing the Red Hat Enterprise Linux Certified Ansible Collection 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?app=desktop&amp;v=AXnDrGgLaF0&amp;feature=share&amp;ab_channel=RobertdeBock">youtube: Ansible Collections 🌟</a></li>
+</ul>
+<h2 id="ansible-cheat-sheets">Ansible Cheat Sheets</h2>
+<ul>
+<li><a href="../cheatsheets/">Ansible Cheat Sheets</a></li>
+</ul>
+<h2 id="running-ansible-playbooks">Running Ansible Playbooks</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/user_guide/playbooks.html">docs.ansible.com: Working With Playbooks</a></li>
+<li><a href="https://www.linuxtechi.com/how-to-use-loops-in-ansible-playbook/">linuxtechi.com: How to Use Loops in Ansible Playbook</a></li>
+<li><a href="https://blog.t-systems-mms.com/tech-insights/ansible-lets-encrypt-collection">Ansible Let&rsquo;s Encrypt Collection</a></li>
+<li><a href="https://www.redhat.com/sysadmin/troubleshoot-ansible-playbooks">redhat.com: 6 troubleshooting skills for Ansible playbooks 🌟</a> Here are six ways you can check for problems when running Ansible playbooks.</li>
+<li><a href="https://www.redhat.com/sysadmin/extra-variables-ansible-playbook">redhat.com: How to pass extra variables to an Ansible playbook</a> Learn how to pass variables to your Ansible playbooks makes them more portable and flexible.</li>
+</ul>
+<h3 id="running-ansible-playbooks-from-jenkins">Running Ansible Playbooks From Jenkins</h3>
+<ul>
+<li><a href="https://dzone.com/articles/running-ansible-playbooks-from-jenkins">Dzone: Running Ansible Playbooks From Jenkins</a></li>
+<li><a href="https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653">itnext.io: Ansible and Jenkins — automate your scritps 🌟</a></li>
+</ul>
+<h3 id="ansible-tower-and-ansible-awx-running-ansible-playbooks-from-ansible-tower">Ansible Tower and Ansible AWX. Running Ansible Playbooks From Ansible Tower</h3>
+<ul>
+<li><a href="https://www.ansible.com/products/tower">Ansible Tower</a></li>
+<li><a href="https://docs.ansible.com/ansible-tower/index.html">Ansible Tower Docs</a></li>
+<li><a href="https://github.com/ansible/awx">Ansible AWX</a></li>
+<li><a href="https://github.com/ansible/awx-operator">AWX Operator</a> An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible.</li>
+<li><a href="https://www.ansible.com/blog/topic/ansible-tower">ansible.com/blog/topic/ansible-tower</a></li>
+<li><a href="https://www.ansible.com/blog/red-hat-ansible-tower-monitoring-using-prometheus-node-exporter-grafana">Red Hat Ansible Tower Monitoring: Using Prometheus + Node Exporter + Grafana</a></li>
+<li><a href="https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes/">linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes</a></li>
+<li><a href="https://steampunk.si/blog/managing-infrastructure-using-ansible-tower/">steampunk.si: Managing infrastructure using Ansible Tower</a></li>
+<li><a href="https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx/">maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX</a></li>
+<li><a href="https://miquelmariano.github.io/2020/01/15/instalacion-ansible-awx-docker-centos7/">miquelmariano.github.io: Instalación de Ansible AWX sobre Centos 7 con Docker</a></li>
+<li><a href="https://www.techsupportpk.com/2020/03/how-to-install-ansible-awx-centos-rhel-7-8.html">techsupportpk.com: Install Ansible AWX on CentOS, RHEL 7, 8</a></li>
+<li><a href="https://developer.ibm.com/technologies/systems/articles/automation-using-ansible-awx-gui/">developer.ibm.com: Automating IT infrastructure using Ansible and AWX</a></li>
+<li><a href="https://medium.com/@claudio.domingos/ansible-awx-from-scratch-to-rest-api-part-4-of-8-4aa860d823f6">medium: Ansible AWX: from scratch to REST API (part 4 of 8)</a> Playbook to automate AWX REST API interactions</li>
+</ul>
+<h4 id="tower-and-awx-installers">Tower and AWX Installers</h4>
+<ul>
+<li><a href="https://galaxy.ansible.com/geerlingguy/awx">galaxy.ansible.com/geerlingguy/awx 🌟</a> Installs and configures AWX (Ansible Tower&rsquo;s open source version).</li>
+<li><a href="https://galaxy.ansible.com/awx/awx">AWX Ansible Collection: galaxy.ansible.com/awx/awx</a> This Ansible collection allows for easy interaction with an AWX server via Ansible playbooks.</li>
+<li><a href="https://app.vagrantup.com/ansible/boxes/tower">vagrant: ansible tower</a></li>
+<li><a href="https://app.vagrantup.com/krlex/boxes/centos-awx">vagrant: centos-awx</a></li>
+<li><a href="https://github.com/tom-256/ansible-awx-packer">github.com/tom-256/ansible-awx-packer</a> ansible awx golden image based amazon linux</li>
+<li><a href="https://github.com/scorputty/packer-centos-awx">github.com/scorputty/packer-centos-awx</a> Packer image build code for Ansible AWX (Tower) Vagrant box</li>
+<li><a href="https://github.com/jsmartin/ansible-tower-packer/">github.com/jsmartin/ansible-tower-packer</a></li>
+<li><a href="https://artifacthub.io/packages/search?ts_query_web=awx&amp;sort=relevance&amp;page=1">artifacthub.io: Helm Charts - AWX</a></li>
+<li><a href="https://aws.amazon.com/marketplace/search/results?searchTerms=tower">AWS Marketplace (AMIs): AWX/Tower</a></li>
+</ul>
+<h3 id="alternatives-to-ansible-tower">Alternatives to Ansible Tower</h3>
+<ul>
+<li><a href="https://www.jenkins.io/">Jenkins</a></li>
+<li><a href="https://www.theforeman.org/">Foreman</a><ul>
+<li><a href="https://galaxy.ansible.com/theforeman/foreman">Ansible Modules to manage Foreman and Katello installations</a></li>
+<li><a href="https://github.com/theforeman/foreman-ansible-modules">Foreman Ansible Modules (FAM)</a> Ansible modules for interacting with the Foreman API and various plugin APIs such as Katello.</li>
+<li><a href="https://community.theforeman.org/t/rfc-operations-ansible-collection/20971">RFC: Foreman Operations Ansible Collection</a></li>
+<li><a href="https://theforeman.org/2021/01/updating-foreman-inventory-with-system-facts.html">theforeman.org: Updating Foreman inventory with system facts</a></li>
+<li><a href="https://theforeman.org/2021/09/foreman-30-is-here.html">theforeman.org: Foreman 3.0 is here!</a></li>
+</ul>
+</li>
+<li><a href="https://www.rundeck.com/ansible">Rundeck</a></li>
+</ul>
+<h2 id="ansible-kubernetes-operators">Ansible Kubernetes Operators</h2>
+<ul>
+<li><a href="https://www.ansible.com/blog/fast-vs-easy-benchmarking-ansible-operators-for-kubernetes">ansible.com: Fast vs Easy: Benchmarking Ansible Operators for Kubernetes</a></li>
+</ul>
+<h2 id="ansible-molecule-development-and-testing-of-ansible-roles">Ansible Molecule. Development and Testing of Ansible Roles</h2>
+<ul>
+<li><a href="https://molecule.readthedocs.io/">Ansible Molecule</a> Molecule project is designed to aid in the development and testing of Ansible roles.</li>
+<li><a href="https://molecule.readthedocs.io/en/latest/configuration.html">Molecule Configuration</a></li>
+<li><a href="https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule">jeffgeerling.com: Testing your Ansible roles with Molecule</a></li>
+<li><a href="https://www.ansible.com/hubfs//AnsibleFest%20ATL%20Slide%20Decks/Practical%20Ansible%20Testing%20with%20Molecule.pdf">PDF: Practical Ansible Testing with Molecule</a></li>
+<li><a href="https://opensource.com/article/18/12/testing-ansible-roles-molecule">opensource.com: Testing Ansible roles with Molecule</a> Learn how to automate your verifications using Python.</li>
+<li><a href="https://medium.com/@moep_moep/test-driven-development-with-ansible-using-molecule-3386cef987ac">medium.com: Test driven Development with Ansible using Molecule</a></li>
+<li><a href="https://tomsitcafe.com/2023/04/27/how-to-test-ansible-code-with-molecule/">tomsitcafe.com: How to test Ansible code with Molecule</a></li>
+</ul>
+<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://www.ansiblefordevops.com/">ansiblefordevops.com</a></li>
+<li><a href="https://www.ansibleforkubernetes.com/">ansibleforkubernetes.com 🌟</a></li>
+<li><a href="https://www.redhat.com/en/engage/automated-enterprise-ebook-20171107">redhat.com: The Automated Enterprise</a> Transform your business with an automation platform that unifies your people and processes.</li>
+<li><a href="https://github.com/automateyournetwork/automate_your_network">github.com/automateyournetwork/automate_your_network: Automate Your Network - John Capobianco - July 1<sup>st</sup> 2023</a></li>
+</ul>
+<h2 id="ansible-galaxy-roles">Ansible Galaxy Roles</h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/">galaxy.ansible.com</a></li>
+<li><a href="https://galaxy.ansible.com/geerlingguy">galaxy.ansible.com/geerlingguy</a></li>
+<li><a href="https://www.redhat.com/sysadmin/ansible-system-role">redhat.com: A brief introduction to Ansible roles for Linux system administration 🌟</a> In this part one of two articles, learn to use rhel-system-roles with your Ansible deployment to better manage functionality such as network, firewall, SELinux, and more on your Red Hat Enterprise Linux servers.</li>
+<li><a href="https://github.com/geerlingguy/ansible-role-docker">Ansible Role: Docker 🌟</a> An Ansible Role that installs Docker on Linux. &ldquo;My Docker role now supports managing the Docker <code>daemon.json</code> file, after years of people asking&rdquo; (Jeff Geerling)</li>
+</ul>
+<h2 id="more-ansible-roles">More Ansible Roles</h2>
+<ul>
+<li><a href="https://github.com/Tronde/ansible-role-rhel-patchmanagement">Tronde/ansible-role-rhel-patchmanagement</a> Use Ansible and some custom scripts to deploy advisories and patches to RHEL servers.</li>
+</ul>
+<h2 id="ansible-scripts">Ansible scripts</h2>
+<ul>
+<li><a href="https://github.com/konstruktoid/ansible-hvault-inventory">konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp Vault SSH OTP and local password rotation</a> Using HashiCorp Vault as a dynamic Ansible inventory and authentication service</li>
+</ul>
+<h2 id="ansible-with-helm">Ansible with Helm</h2>
+<ul>
+<li><a href="https://medium.com/opstree-technology/ansible-helm-diff-plugin-63e1cda299a3">medium.com/opstree-technology: Understanding Ansible: Helm diff plugin 🌟</a> Here in this blog, we’ll discuss how we can leverage the validate &amp; dry-run option in Ansible with Ansible: Helm diff plugin.</li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_module.html">docs.ansible.com: kubernetes.core.helm module – Manages Kubernetes packages with the Helm package manager</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/helm_plugin_module.html">docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins</a></li>
+</ul>
+<h2 id="awesome-ansible">Awesome Ansible</h2>
+<ul>
+<li><a href="https://github.com/jdauphant/awesome-ansible">https://github.com/jdauphant/awesome-ansible</a></li>
+<li><a href="https://github.com/awesome-devops/awesome-ansible">https://github.com/awesome-devops/awesome-ansible</a></li>
+</ul>
+<h2 id="ansible-and-public-cloud-guides">Ansible and Public Cloud Guides</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html">Public Cloud Guides 🌟</a></li>
+<li><a href="https://www.redhat.com/es/about/videos/ansible-automate-microsoft-azure">Ansible to automate Microsoft Azure</a></li>
+<li><a href="https://medium.com/@ayushsingh1525/aws-configuration-with-apache-server-in-ec2-using-ansible-2ef61f98872e">medium: AWS Configuration with Web Server in EC2 Using Ansible</a></li>
+</ul>
+<h2 id="ansible-kubernetes-module">Ansible Kubernetes Module</h2>
+<ul>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/kubernetes/core/k8s_module.html"><mark>docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects</mark></a></li>
+<li><a href="https://adamtheautomator.com/ansible-kubernetes/">adamtheautomator.com: How to Use the Ansible Kubernetes Module</a> The Ansible Kubernetes module allows you to access the full range of Kubernetes APIs and create objects such as deployments, services, and so on. Learn how to use it in this step-by-step tutorial.</li>
+</ul>
+<h2 id="nginx-core-collection-for-ansibe">NGINX Core Collection for Ansibe</h2>
+<ul>
+<li><a href="https://galaxy.ansible.com/nginxinc/nginx_core">galaxy.ansible.com/nginxinc/nginx_core</a></li>
+<li><a href="https://www.nginx.com/blog/announcing-nginx-core-collection-ansible/">nginx.com: Announcing the NGINX Core Collection for Ansible</a></li>
+</ul>
+<h2 id="dynatrace-with-ansible">Dynatrace with Ansible</h2>
+<ul>
+<li><a href="https://www.dynatrace.com/news/blog/achieve-faster-time-to-value-by-deploying-thousands-of-oneagents-at-once-with-ansible-preview/">dynatrace.com: Achieve faster time to value by deploying thousands of OneAgents at once with Ansible (Preview)</a></li>
+</ul>
+<h2 id="sql-server-with-ansible">SQL Server with Ansible</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/mssql-linux-easy">redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8</a></li>
+</ul>
+<h2 id="oci-oracle-cloud-infrastructure-with-ansible">OCI Oracle Cloud Infrastructure with Ansible</h2>
+<ul>
+<li><a href="https://oci-ansible-collection.readthedocs.io/">oci-ansible-collection.readthedocs.io</a></li>
+</ul>
+<h2 id="oracle-database-with-ansible">Oracle Database with Ansible</h2>
+<ul>
+<li><a href="https://github.com/oravirt/ansible-oracle">github.com/oravirt/ansible-oracle</a></li>
+<li><a href="https://github.com/oravirt/ansible-oracle-modules">github.com/oravirt/ansible-oracle-modules</a> Oracle modules for Ansible</li>
+<li><a href="https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle/">oravirt.wordpress.com: Getting started with ansible-oracle</a></li>
+<li><a href="https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2/">oravirt.wordpress.com: Changes in ansible-oracle v1.2</a></li>
+<li><a href="https://github.com/abessifi/ansible-sqlplus">github.com/abessifi/ansible-sqlplus</a> Ansible role to install sqlplus tool to connect to an Oracle database server</li>
+<li><a href="https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script">stackoverflow.com: Ansible playbook to execute Oracle script</a></li>
+<li><a href="https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook">stackoverflow.com: Running Oracle SQL scripts with Ansible playbook</a></li>
+</ul>
+<h2 id="ansistrano-deploying-applications-with-ansible-in-capistrano-style">Ansistrano. Deploying applications with Ansible in Capistrano style</h2>
+<ul>
+<li><a href="https://github.com/ansistrano">Ansistrano</a></li>
+<li><a href="https://capistranorb.com/">Capistrano</a> A remote server automation and deployment tool written in Ruby.</li>
+</ul>
+<h2 id="anacron-and-ansible">Anacron and Ansible</h2>
+<ul>
+<li><a href="https://opensource.com/article/21/9/ansible-anacron-automation">opensource.com: How I use Ansible and anacron for automation</a> With anacron, I can drop scripts and Ansible playbooks into place for all manner of trivial tasks.</li>
+<li><a href="https://opensource.com/article/21/2/linux-automation">opensource.com: Use anacron for a better crontab</a> Instead of manually performing repetitive tasks, let Linux do them for you.</li>
+</ul>
+<h2 id="tweets">Tweets</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to manage Windows hosts with Ansible!<br><br>A Short Thread 👇 <a href="https://t.co/NGRqym4c91">pic.twitter.com/NGRqym4c91</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1629453865308536832?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ansible vs Terraform<br><br>Explaining the differences and the better choice for you!<br><br>A Thread 👇 <a href="https://t.co/maKVIdHXki">pic.twitter.com/maKVIdHXki</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1672637966743896066?ref_src=twsrc%5Etfw">June 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></p>
+</details>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1id6ERvfozo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhFvMsy6VX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/goclfp6a2IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_TVNCTK808I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rx4Uh3jv1cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center></p>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2024 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M213.86 296H100a100 100 0 0 1 0-200h132.84a40 40 0 0 1 0 80H98c-26.47 0-26.45 40 0 40h113.82a100 100 0 0 1 0 200H40a40 40 0 0 1 0-80h173.86c26.48 0 26.46-40 0-40zM298 416a120.21 120.21 0 0 0 51.11-80h64.55a19.83 19.83 0 0 0 19.66-20V196a19.83 19.83 0 0 0-19.66-20H296.42a60.77 60.77 0 0 0 0-80h136.93c43.44 0 78.65 35.82 78.65 80v160c0 44.18-35.21 80-78.65 80z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7zm156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../javascript/extra.js"></script>
+      
+    
+  </body>
+</html>

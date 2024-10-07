@@ -1,0 +1,7122 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+      
+      
+        <meta name="author" content="nubenetes@gmail.com">
+      
+      
+        <link rel="canonical" href="https://nubenetes.com/linux/">
+      
+      
+        <link rel="prev" href="../registries/">
+      
+      
+        <link rel="next" href="../mkdocs/">
+      
+      
+      <link rel="icon" href="../images/favicon-car.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Linux & SSH - Nubenetes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-2H8F93KE5B"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-2H8F93KE5B",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2H8F93KE5B",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#linux-and-ssh" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Nubenetes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Linux & SSH
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introduction/" class="md-tabs__link">
+          
+  
+    
+  
+  Intro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../sre/" class="md-tabs__link">
+          
+  
+    
+  
+  SRE
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devops/" class="md-tabs__link">
+          
+  
+    
+  
+  DevOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devsecops/" class="md-tabs__link">
+          
+  
+    
+  
+  DevSecOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../noops/" class="md-tabs__link">
+          
+  
+    
+  
+  NoOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../docker/" class="md-tabs__link">
+        
+  
+    
+  
+  Docker
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../kubernetes/" class="md-tabs__link">
+          
+  
+    
+  
+  K8s
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../openshift/" class="md-tabs__link">
+          
+  
+    
+  
+  OpenShift
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../rancher/" class="md-tabs__link">
+          
+  
+    
+  
+  Rancher
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../cicd/" class="md-tabs__link">
+          
+  
+    
+  
+  CI/CD
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../monitoring/" class="md-tabs__link">
+          
+  
+    
+  
+  Montrg
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../iac/" class="md-tabs__link">
+          
+  
+    
+  
+  Infra Prov
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ansible/" class="md-tabs__link">
+          
+  
+    
+  
+  Config Mgmt
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../databases/" class="md-tabs__link">
+          
+  
+    
+  
+  DB
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../message-queue/" class="md-tabs__link">
+        
+  
+    
+  
+  Data Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../servicemesh/" class="md-tabs__link">
+          
+  
+    
+  
+  Service Mesh
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../demos/" class="md-tabs__link">
+          
+  
+    
+  
+  Demos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../public-cloud-solutions/" class="md-tabs__link">
+          
+  
+    
+  
+  Cloud
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../api/" class="md-tabs__link">
+          
+  
+    
+  
+  APIs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../devel-sites/" class="md-tabs__link">
+          
+  
+    
+  
+  Dev
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../qa/" class="md-tabs__link">
+          
+  
+    
+  
+  QA
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ai/" class="md-tabs__link">
+          
+  
+    
+  
+  AI
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../project-management-methodology/" class="md-tabs__link">
+          
+  
+    
+  
+  Project Mgmt
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../other-awesome-lists/" class="md-tabs__link">
+          
+  
+    
+  
+  Refs+
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../recruitment/" class="md-tabs__link">
+          
+  
+    
+  
+  Hiring
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../customer/" class="md-tabs__link">
+        
+  
+    
+  
+  Clients
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Nubenetes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nubenetes/awesome-kubernetes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Intro
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microservices FAQ & Kubernetes Native
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SRE
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            SRE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sre/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SRE Site Reliability Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../finops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FinOps. Cloud Financial Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chaos-engineering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chaos Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GitOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MLOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheatsheets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cheat Sheets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DevSecOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            DevSecOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevSecOps. Container Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../securityascode/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Policy as Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oauth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OAuth2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    NoOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            NoOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../noops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NoOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../serverless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    K8s
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            K8s
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Plugins, Tools, Extensions and Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubectl-commands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    kubectl Commands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Monitoring and Logging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-backup-migrations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Backup and Migrations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-autoscaling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Autoscaling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-operators-controllers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Operators and Controllers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-based-devel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Based Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-on-premise/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes On Premise
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../managed-kubernetes-in-public-cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed kubernetes in public clouds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-releases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-newsletters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Newsletters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matrix-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Distributions & Installers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-bigdata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Big Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-alternatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes alternatives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    OpenShift
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            OpenShift
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenShift docs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCP 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocp4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCP 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rancher
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Rancher
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rancher/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rancher - Enterprise management for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    CI/CD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            CI/CD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD - Continuous Integration & Continuous Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jenkins & Cloudbees
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openshift-pipelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenShift Pipelines with Jenkins, Tekton and more...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance-testing-with-jenkins-and-jmeter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performance testing with Jenkins, JMeter, Gatling, Azure Load Testing, etc
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_11_7" id="__nav_11_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_11_7">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Tools aka Toolchain. Jenkins Alternatives. Cloud Native CI/CD Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jenkins-alternatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jenkins Alternatives for Continuous Integration & Deployment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../argo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argo - Declarative GitOps for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flux CD - The GitOps Operator for Kubernetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tekton/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tekton - Cloud Native CI/CD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keptn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keptn
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container-managers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maven-gradle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maven, Gradle & SDKMAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sonarqube/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SonarQube
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../registries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Linux & SSH
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Linux & SSH
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rhel" class="md-nav__link">
+    <span class="md-ellipsis">
+      RHEL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rocky-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rocky Linux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vim" class="md-nav__link">
+    <span class="md-ellipsis">
+      VIM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neovim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neovim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    <span class="md-ellipsis">
+      SSH
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openssl" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenSSL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Blogs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spanish-linux-blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spanish Linux Blogs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Youtube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reddit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reddit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-commands-and-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Commands and Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#makefiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Makefiles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guestfish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guestfish
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#busybox" class="md-nav__link">
+    <span class="md-ellipsis">
+      BusyBox
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bash
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questions-and-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Questions and Answers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation-bash-vs-python-vs-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automation. Bash VS Python VS JavaScript
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zsh
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zx" class="md-nav__link">
+    <span class="md-ellipsis">
+      ZX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bpftrace" class="md-nav__link">
+    <span class="md-ellipsis">
+      bpftrace
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux processes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Memory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      KVM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-and-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux and Kubernetes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Linux and Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#systemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Systemd
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blogs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commandlinefu" class="md-nav__link">
+    <span class="md-ellipsis">
+      CommandLineFu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wait-until-your-dockerized-database-is-ready-before-continuing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wait until Your Dockerized Database Is Ready before Continuing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copr-build-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copr Build System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pulp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pulp
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hashicorp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hashicorp
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Libraries
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Networking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      Networking Protocols
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-hardening-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Hardening Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Videos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tweets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tweets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MkDocs & GitHub Pages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_8" id="__nav_11_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_8">
+            <span class="md-nav__icon md-icon"></span>
+            Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web-servers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_app_servers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embedded-servlet-containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Embedded Servlet Containers in SpringBoot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Caching Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Montrg
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Montrg
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monitoring and Performance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prometheus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prometheus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grafana/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grafana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Infra Prov
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Infra Prov
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IaC Infrastructure as Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terraform/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terraform & Packer.Kubernetes Boilerplates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pulumi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pulumi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crossplane/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crossplane
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-arch-diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Architecture Diagram Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-asset-inventory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Asset Inventory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Config Mgmt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Config Mgmt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ansible/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ansible
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Helm Kubernetes Tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kustomize/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kustomize - Template-Free Kubernetes Configuration Customization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stackstorm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StackStorm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chef/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chef
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cicd-kubernetes-plugins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD Kubernetes Plugins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-client-libraries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Client Libraries for Kubernetes - Go client, Python, Fabric8, JKube & Java Operator SDK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liquibase/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Version Control. Liquibase, Flyway and PlanetScale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yaml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    YAML and JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DB
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            DB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relational Databases and Database DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crunchydata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crunchy Data PostgreSQL Operator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nosql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NoSQL Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../message-queue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Service Mesh
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            Service Mesh
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicemesh/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Mesh
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../istio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Istio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Demos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            Demos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Demos, Boilerplates & Screencasts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cloud
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../public-cloud-solutions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Public Cloud Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../private-cloud-solutions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private Cloud Solutions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edge-computing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edge Computing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_19_4" id="__nav_19_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AWS Cloud
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_19_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19_4">
+            <span class="md-nav__icon md-icon"></span>
+            AWS Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-miscellaneous/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Miscellaneous
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Architecture and Best Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-monitoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Monitoring
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-iac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS IaC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-tools-scripts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Tools Scripts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-messaging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Messaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-serverless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Serverless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Containers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-backup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Backup and Migrations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-training/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Training and Certification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-newfeatures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS New Features
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws-spain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Spain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../azure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Azure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GoogleCloudPlatform/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Cloud Platform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ibm_cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IBM & IBM Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oraclecloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Oracle Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digitalocean/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Digital Ocean
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloudflare/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloudflare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaleway/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scaleway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    APIs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            APIs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIs with SOAP, REST and gRPC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../swagger-code-generator-for-rest-apis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swagger code generator for REST APIs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../postman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Test Automation with Postman and REST Assured
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developerportals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Marketplaces. API Management with API Gateways & Developer Portals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21" >
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            Dev
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devel-sites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Websites for web developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../angular/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Angular
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document Object Model (DOM)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golang/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Golang
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JavaScript - node.js & npm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python - Django & Flask
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../react/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    React
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lowcode-nocode/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Low Code and No Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_10" id="__nav_21_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Microsoft
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_10">
+            <span class="md-nav__icon md-icon"></span>
+            Microsoft
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft .NET
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xamarin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Xamarin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_11" id="__nav_21_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_11">
+            <span class="md-nav__icon md-icon"></span>
+            Java
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_frameworks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java-and-java-performance-optimization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java Memory Management & Java Performance Optimization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jvm-parameters-matrix-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java Parameters Matrix Table
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_12" id="__nav_21_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_12">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-studio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-dev-env/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSL - Linux Dev Environment on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scaffolding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scaffolding Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ChromeDevTools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chrome & Firefox DevTools. HTTP Protocols & WebSockets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    QA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            QA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TestOps and Continuous Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test-automation-frameworks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Test Automation Frameworks and BDD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mlops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MLOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chatgpt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ChatGPT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project Mgmt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24">
+            <span class="md-nav__icon md-icon"></span>
+            Project Mgmt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-methodology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Management Methodology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-management-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Management Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appointment-scheduling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Appointment Scheduling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workfromhome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Work From Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Refs+
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            Refs+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-awesome-lists/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Other Awesome Lists
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interview-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Interview Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../newsfeeds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subreddits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elearning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    E-Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-money/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Digital Money
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Hiring
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Hiring
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recruitment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recruitment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freelancing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Freelancing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remote-tech-jobs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Remote Tech Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clients
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="linux-and-ssh">Linux and SSH</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#rhel">RHEL</a></li>
+<li><a href="#rocky-linux">Rocky Linux</a></li>
+<li><a href="#vim">VIM</a></li>
+<li><a href="#neovim">Neovim</a></li>
+<li><a href="#ssh">SSH</a></li>
+<li><a href="#openssl">OpenSSL</a></li>
+<li><a href="#linux-blogs">Linux Blogs</a></li>
+<li><a href="#spanish-linux-blogs">Spanish Linux Blogs</a></li>
+<li><a href="#youtube">Youtube</a></li>
+<li><a href="#reddit">Reddit</a></li>
+<li><a href="#linux-commands-and-tools">Linux Commands and Tools</a></li>
+<li><a href="#makefiles">Makefiles</a></li>
+<li><a href="#guestfish">Guestfish</a></li>
+<li><a href="#busybox">BusyBox</a></li>
+<li><a href="#bash">Bash</a></li>
+<li><a href="#questions-and-answers">Questions and Answers</a></li>
+<li><a href="#automation-bash-vs-python-vs-javascript">Automation. Bash VS Python VS JavaScript</a></li>
+<li><a href="#zsh">Zsh</a></li>
+<li><a href="#zx">ZX</a></li>
+<li><a href="#bpftrace">bpftrace</a></li>
+<li><a href="#linux-processes">Linux processes</a></li>
+<li><a href="#linux-memory">Linux Memory</a></li>
+<li><a href="#kvm">KVM</a></li>
+<li><a href="#linux-and-kubernetes">Linux and Kubernetes</a><ol>
+<li><a href="#systemd">Systemd</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#commandlinefu">CommandLineFu</a></li>
+<li><a href="#wait-until-your-dockerized-database-is-ready-before-continuing">Wait until Your Dockerized Database Is Ready before Continuing</a></li>
+<li><a href="#copr-build-system">Copr Build System</a></li>
+<li><a href="#pulp">Pulp</a></li>
+<li><a href="#hashicorp">Hashicorp</a></li>
+</ol>
+</li>
+<li><a href="#linux-libraries">Linux Libraries</a></li>
+<li><a href="#linux-networking">Linux Networking</a></li>
+<li><a href="#networking-protocols">Networking Protocols</a></li>
+<li><a href="#linux-hardening-security">Linux Hardening Security</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tweets">Tweets</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="https://www.zdnet.com/google-amp/article/linus-torvalds-prepares-to-move-the-linux-kernel-to-modern-c/">zdnet.com: Linus Torvalds prepares to move the Linux kernel to modern C</a> The Linux kernel&rsquo;s foundation is the ancient C89 standard of C. Now, Torvalds has decided to upgrade to 2011&rsquo;s more modern C11 standard.</li>
+</ul>
+<h2 id="rhel">RHEL</h2>
+<ul>
+<li><a href="https://www.infoworld.com/article/3601202/red-hats-crime-against-centos.html">infoworld.com: Red Hat’s crime against CentOS</a> In the beginning, no one expected to get Red Hat Enterprise Linux for free. The end of CentOS as a free drop-in replacement is no cause for outrage.</li>
+<li><a href="https://arstechnica.com/gadgets/2021/01/centos-is-gone-but-rhel-is-now-free-for-up-to-16-production-servers/">arstechnica.com: CentOS is gone—but RHEL is now free for up to 16 production servers</a> RHEL is now free for dev teams, and it&rsquo;s even free in production for up to 16 systems.</li>
+<li><a href="https://www.cyberciti.biz/linux-news/red-hat-introduces-new-no-cost-rhel-option/">cyberciti.biz: Red Hat introduces new no-cost RHEL option</a></li>
+<li><a href="https://www.zdnet.com/google-amp/article/red-hat-introduces-free-rhel-for-small-production-workloads-development-teams/">zdnet.com: Red Hat introduces free RHEL for small production workloads and development teams</a> In response to complaints about Red Hat&rsquo;s latest plans for CentOS Linux, Red Hat will start offering no-cost Red Hat Enterprise Linux for small production workloads and customer development teams.</li>
+<li><a href="https://www.enterpriseai.news/2021/01/22/red-hats-disruption-of-centos-unleashes-storm-of-dissent/">enterpriseai.news: Red Hat’s Disruption of CentOS Unleashes Storm of Dissent</a></li>
+<li><a href="https://arstechnica.com/gadgets/2021/01/on-the-death-of-centos-red-hat-liaison-brian-exelbierd-speaks/">arstechnica.com: Why Red Hat killed CentOS—a CentOS board member speaks</a> &ldquo;The CentOS Board doesn&rsquo;t get to decide what Red Hat engineering teams do.&rdquo;</li>
+<li><a href="https://www.zdnet.com/article/free-red-hat-enterprise-linux-for-open-source-non-profit-organizations/">zdnet.com: Red Hat introduces free RHEL for open-source, non-profit organizations</a> Some CentOS users still aren&rsquo;t happy, but Red Hat is keeping its promise to open-source organizations that they&rsquo;ll have access to a free version of RHEL.</li>
+<li><a href="https://www.genbeta.com/actualidad/red-hat-enterprise-linux-lanza-version-a-costo-para-llegar-a-publico-sectores-investigacion-academico">genbeta.com: Red Hat Enterprise Linux lanza una versión a bajo costo para llegar a más público de sectores de investigación y académico</a></li>
+<li><a href="https://www.makeuseof.com/best-centos-alternatives/">makeuseof.com: The 4 Best RHEL-Based Alternatives to CentOS</a> Now that CentOS is gone, you should make a switch to some other OS. Check out these four RHEL-based CentOS alternatives.</li>
+<li><a href="https://www.centos.org/cl-vs-cs/">centos.org: Comparing Centos Linux and CentOS Stream</a> The CentOS Project produces two variants: CentOS Linux and CentOS Stream. They are alike in many ways. Here’s what sets them apart.</li>
+<li><a href="https://www.makeuseof.com/best-red-hat-based-linux-distros/">makeuseof.com: The 7 Best Red Hat-Based Linux Distributions</a> Unlike other Linux distros, RHEL isn&rsquo;t free to download. But you can still enjoy its benefits by installing these free RHEL-based Linux distributions.</li>
+</ul>
+<h2 id="rocky-linux">Rocky Linux</h2>
+<ul>
+<li><a href="https://rockylinux.org">https://rockylinux.org</a></li>
+<li><a href="https://www.cloudsavvyit.com/13092/is-rocky-linux-the-new-centos/">cloudsavvyit.com: Is Rocky Linux the new CentOS?</a></li>
+<li><a href="https://9to5linux.com/centos-alternative-rocky-linux-8-5-is-out-now-with-secure-boot-support-updated-components">9to5linux.com: CentOS Alternative Rocky Linux 8.5 Is Out Now with Secure Boot Support, Updated Components</a> Derived from Red Hat Enterprise Linux 8.5, Rocky Linux 8.5 is here to introduce an important feature for the mass adoption of this CentOS Linux alternative, namely Secure Boot support.</li>
+</ul>
+<h2 id="vim">VIM</h2>
+<ul>
+<li><a href="https://github.com/vimwiki/vimwiki">VimWiki</a></li>
+<li><a href="https://www.redhat.com/sysadmin/vim-commands">redhat.com: Vim: Basic and intermediate commands</a></li>
+<li><a href="https://dev.to/gleb_the_human/another-one-short-vim-cheat-sheet-39fc">dev.to: Another one short Vim cheat sheet</a></li>
+<li><a href="https://thevaluable.dev/vim-advanced/">thevaluable.dev: A Vim Guide for Advanced Users</a></li>
+<li><a href="https://www.redhat.com/sysadmin/recursive-vim-macros">redhat.com: Recursive Vim macros: One step further into automating repetitive tasks</a> Take Vim to the limit with recursive macros.</li>
+<li><a href="https://openvim.com/">openvim.com</a> Interactive Vim tutorial for developers, sysadmins and Linux or Unix users.</li>
+<li><a href="https://levelup.gitconnected.com/vim-a-how-to-guide-55f63bfdcff">levelup.gitconnected.com: Vim: A How-To Guide</a> Key Techniques with Vim for Faster Programming</li>
+</ul>
+<h2 id="neovim">Neovim</h2>
+<ul>
+<li><a href="https://neovim.io/">neovim</a> hyperextensible Vim-based text editor</li>
+<li><a href="https://blog.ashwinchat.com/9-months-of-full-time-vim/">blog.ashwinchat.com: 9 Months of Full Time Neovim + Tmux</a></li>
+</ul>
+<h2 id="ssh">SSH</h2>
+<ul>
+<li><a href="https://gravitational.com/blog/how-to-ssh-properly/">gravitational.com: How to SSH Properly 🌟</a></li>
+<li><a href="https://phoenixnap.com/kb/linux-ssh-commands">19 Common SSH Commands In Linux With Examples</a></li>
+<li><a href="https://www.commandlinefu.com/commands/matching/ssh/c3No/sort-by-votes">commandlinefu.com/commands/matching/ssh</a></li>
+<li><a href="https://github.com/mohanad86/secure-ssh-python">Auto-SSH for Linux security</a></li>
+<li><a href="https://github.com/suraksha-123/Grant-Revoke-ssh-access">Grant-Revoke-ssh-access</a> To automate the process of granting ssh access to a group of servers instances</li>
+<li><a href="https://dev.to/levivm/how-to-use-ssh-and-ssh-agent-forwarding-more-secure-ssh-2c32">How to use SSH properly and what is SSH Agent Forwarding</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/">How To Set up SSH Keys on a Linux / Unix System</a></li>
+<li><a href="https://opensource.com/article/20/7/linux-shellhub">opensource.com: Bypass your Linux firewall with SSH over HTTP</a> Remote work is here to stay; use this helpful open source solution to quickly connect and access all your devices from anywhere.</li>
+<li><a href="https://www.atareao.es/ubuntu/tuneles-ssh">Túneles SSH</a></li>
+<li><a href="https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/">paepper.com: How to properly manage ssh keys for server access</a></li>
+<li><a href="https://goteleport.com/blog/ssh-certificates/">goteleport.com: SSH Certificates Security. SSH Access Hardening 🌟</a></li>
+<li><a href="https://dev.to/josephmidura/how-to-manage-multiple-ssh-key-pairs-1ik">dev.to: How to Manage Multiple SSH Key Pairs</a></li>
+<li><a href="https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html">cyberciti.biz: Top 20 OpenSSH Server Best Security Practices</a></li>
+<li><a href="https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/">cyberciti.biz: How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing</a></li>
+<li><a href="https://www.cyberciti.biz/faq/howto-ssh-changing-passphrase/">cyberciti.biz: OpenSSH Change a Passphrase With ssh-keygen command</a></li>
+<li><a href="https://thenewstack.io/ssh-made-easy-with-ssh-agent-and-ssh-config/">thenewstack.io: SSH Made Easy with SSH Agent and SSH Config</a></li>
+<li><a href="https://www.linuxteck.com/basic-ssh-client-commands-in-linux/">linuxteck.com: 10 basic and most useful &lsquo;ssh&rsquo; client commands in Linux</a></li>
+<li><a href="https://www.cyberciti.biz/tips/how-to-audit-ssh-server-and-client-config-on-linux-unix.html">cyberciti.biz: How to audit SSH server and client config on Linux/Unix</a> OpenSSH is critical for Linux &amp; Unix servers. However, misconfig can create issues. But fear not, you can audit the SSH server &amp; client config easily. You don&rsquo;t have to be a security guru. New developers and sysadmins can look for security &amp; other issues.</li>
+<li><a href="https://iximiuz.com/en/posts/ssh-tunnels/"><mark>iximiuz.com: A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding</mark> 🌟</a></li>
+</ul>
+<h2 id="openssl">OpenSSL</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/6-openssl-commands">redhat.com: 6 OpenSSL command options that every sysadmin should know</a> Look beyond generating certificate signing requests and see how OpenSSL commands can display practical information about certificates.</li>
+<li><a href="https://www.tecmint.com/testssl-sh-test-tls-ssl-encryption-in-linux-commandline/">tecmint.com: Testssl.sh – Testing TLS/SSL Encryption Anywhere on Any Port</a></li>
+</ul>
+<h2 id="linux-blogs">Linux Blogs</h2>
+<ul>
+<li><a href="http://www.linuxfoundation.org/">The Linux Foundation</a></li>
+<li><a href="https://www.tecmint.com/">tecmint.com 🌟</a></li>
+<li><a href="https://www.cyberciti.biz/">nixCraft 🌟</a></li>
+<li><a href="https://unixmen.com/">unixmen.com 🌟</a></li>
+<li><a href="https://opensource.com/">opensource.com 🌟</a></li>
+<li><a href="https://www.linux.com/">linux.com 🌟</a></li>
+<li><a href="https://www.linuxteck.com/">linuxteck.com</a></li>
+<li><a href="https://linoxide.com/">linoxide.com 🌟</a></li>
+<li><a href="https://linuxjourney.com/">linuxjourney.com</a></li>
+<li><a href="https://www.howtoforge.com/">howtoforge.com</a></li>
+<li><a href="https://tecadmin.net/">tecadmin.net</a></li>
+<li><a href="https://www.systemcodegeeks.com/">systemcodegeeks.com</a></li>
+<li><a href="https://www.linuxnix.com/">linuxnix.com</a></li>
+<li><a href="https://www.learnitguide.net/">learnitguide.net 🌟</a></li>
+<li><a href="http://fossforce.com/">FOSS Force</a></li>
+<li><a href="http://www.linuxhomenetworking.com/">linuxhomenetworking.com</a></li>
+<li><a href="http://www.linuxtoday.com/">linuxtoday.com</a></li>
+<li><a href="http://unixetc.co.uk/">unixetc.co.uk</a></li>
+<li><a href="http://lwn.net/">LWN.net</a></li>
+<li><a href="http://www.linux-tutorial.info/">Linux-tutorial.info</a></li>
+<li><a href="https://lonesysadmin.net/">The Lone Sysadmin</a></li>
+<li><a href="http://www.linuxlinks.com">LinuxLinks.com</a></li>
+<li><a href="http://unixmages.com">unixmages.com</a></li>
+<li><a href="http://www.thegeekstuff.com/">The Geek Stuff</a></li>
+<li><a href="https://abarrak.gitbook.io/linux-sysops-handbook">abarrak.gitbook.io: Linux SysOps Handbook 🌟</a> A study notes book for the common knowledge and tasks of a Linux system admin.</li>
+</ul>
+<h2 id="spanish-linux-blogs">Spanish Linux Blogs</h2>
+<ul>
+<li><a href="http://systemadmin.es/">systemadmin.es</a></li>
+<li><a href="http://www.muylinux.com/">muylinux.com</a></li>
+<li><a href="http://www.linuxadictos.com">linuxadictos.com</a></li>
+</ul>
+<h2 id="youtube">Youtube</h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCu2eNnWy-zc1xt_shCXQQfA">Linux Skills</a></li>
+<li><a href="https://www.youtube.com/user/climagic">CLImagic</a></li>
+</ul>
+<h2 id="reddit">Reddit</h2>
+<ul>
+<li><a href="https://www.reddit.com/r/linuxadmin/">reddit.com/r/linuxadmin</a> Expanding Linux SysAdmin knowledge</li>
+</ul>
+<h2 id="linux-commands-and-tools">Linux Commands and Tools</h2>
+<ul>
+<li><a href="https://www.tecmint.com/watchman-monitor-file-changes-in-linux/"><strong>watchman command</strong>: A File and Directory Watching Tool for Changes</a></li>
+<li><a href="https://linoxide.com/linux-command/use-ip-command-linux/"><strong>ip command</strong>: How to use IP Command in Linux with Examples</a></li>
+<li><a href="https://nordicapis.com/understanding-the-hidden-powers-of-curl/"><strong>curl command</strong>: Understanding the Hidden Powers of curl</a></li>
+<li><a href="https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/">How To Use grep Command In Linux / UNIX 🌟</a></li>
+<li><a href="https://www.tecmint.com/vtop-monitor-linux-process-usage/">tecmint.com: vtop – A Linux Process and Memory Activity Monitoring Tool</a></li>
+<li><a href="https://www.tecmint.com/install-htop-on-centos-8/">tecmint.com: How to Install htop on CentOS 8</a></li>
+<li><a href="https://www.cyberciti.biz/open-source/command-line-hacks/bpytop-awesome-linux-macos-and-freebsd-resource-monitor/">cyberciti.biz: bpytop – Awesome Linux, macOS and FreeBSD resource monitor</a></li>
+<li><a href="https://www.redhat.com/sysadmin/curl-hack-httpie">redhat.com: Save time at the command line with HTTPie instead of curl</a> Automate testing endpoints, downloading files, and submitting forms with HTTPie.</li>
+<li><a href="https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2">redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2</a></li>
+<li><a href="https://www.freecodecamp.org/news/rsync-examples-rsync-options-and-how-to-copy-files-over-ssh/">freecodecamp.org: RSync Examples – Rsync Options and How to Copy Files Over SSH</a></li>
+<li><a href="https://www.tecmint.com/control-systemd-services-on-remote-linux-server/">tecmint.com: How to Control Systemd Services on Remote Linux Server</a></li>
+<li><a href="https://www.redhat.com/sysadmin/vim-commands">redhat.com: Vim: Basic and intermediate commands</a></li>
+<li><a href="https://www.redhat.com/sysadmin/configure-ssh-keygen">redhat.com: Using ssh-keygen and sharing for key-based authentication in Linux</a> SSH key-based authentication is helpful for both security and convenience. See how to generate and share keys.</li>
+<li><a href="https://www.tecmint.com/run-commands-from-standard-input-using-tee-and-xargs-in-linux/">tecmint.com: How to Run Commands from Standard Input Using Tee and Xargs in Linux</a></li>
+<li><a href="https://www.cyberciti.biz/faq/howto-configure-dual-wan-load-balance-failover-pfsense-router/">cyberciti.biz: How to configure pfSense as multi wan (DUAL WAN) load balance failover router</a></li>
+<li><a href="https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/">nikhilism.com: Mystery Knowledge and Useful Tools</a></li>
+<li><a href="https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet">developers.redhat.com: Linux commands for developers</a></li>
+<li><a href="https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/">cyberciti.biz: BASH Shell Change The Color of Shell Prompt on Linux or UNIX</a></li>
+<li><a href="https://www.cyberciti.biz/faq/find-check-tls-ssl-certificate-expiry-date-from-linux-unix/">cyberciti.biz: How to check TLS/SSL certificate expiration date from command-line</a></li>
+<li><a href="https://www.igoroseledko.com/parallel-rsync/">igoroseledko.com: Parallel Rsync</a></li>
+<li><a href="https://www.redhat.com/sysadmin/using-asciinema">redhat.com: How to record your Linux terminal using asciinema</a> Asciinema might be the application you&rsquo;ve been looking for to demonstrate a skill or process that you want your colleagues or students to learn on-demand.</li>
+<li><a href="https://www.redhat.com/sysadmin/5-rsync-tips">redhat.com: 5 advanced rsync tips for Linux sysadmins</a> Use rsync compression and checksums to better manage file synchronization.</li>
+<li><a href="https://metacpan.org/pod/App::a2p">metacpan.org: a2p - Awk to Perl translator</a> A2p takes an awk script specified on the command line (or from standard input) and produces a comparable perl script on the standard output.</li>
+<li><a href="https://github.com/oilshell/oil/wiki/Alternative-Shells">oilshell: Alternative shells</a></li>
+<li><a href="https://blog.wesleyac.com/posts/timezone-bullshit">Timezone Bullshit</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-check-memory-utilization-in-linux/">cyberciti.biz: How to check memory utilization in Linux</a></li>
+<li><a href="https://www.tecmint.com/linux-column-command/">tecmint.com: Different Ways to Use Column Command in Linux</a></li>
+<li><a href="https://opensource.com/article/21/3/grep-cheat-sheet">opensource.com: How to use the Linux grep command</a></li>
+<li><a href="https://dnschecker.org/">dnschecker.org 🌟</a></li>
+<li><a href="https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux">tecmint.com: 10 Useful Commands to Collect System and Hardware Information in Linux</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/">cyberciti.biz: How To Find Largest Top 10 Files and Directories On Linux / UNIX / BSD</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-restart-systemd-without-rebooting-linux-when-critical-libraries-installed/">cyberciti.biz: How to restart systemd without rebooting Linux when critical libraries installed</a></li>
+<li><a href="https://www.cyberciti.biz/open-source/install-ncdu-on-linux-unix-ncurses-disk-usage/">cyberciti.biz: How to install ncdu on Linux / Unix to see disk usage</a></li>
+<li><a href="https://www.cyberciti.biz/tips/check-unix-linux-configuration-file-for-syntax-errors.html">cyberciti.biz: 21 Examples To Make Sure Unix / Linux Configuration Files Are Free From Syntax Errors</a></li>
+<li><a href="https://opensource.com/article/20/3/meld">opensource.com: Don&rsquo;t love diff? Use Meld instead</a> Meld is a visual diff tool that makes it easier to compare and merge changes in files, directories, Git repos, and more.</li>
+<li><a href="https://kalilinuxtutorials.com/ldsview/">kalilinuxtutorials.com: Ldsview : Offline search tool for LDAP directory dumps in LDIF format</a></li>
+<li><a href="https://medium.com/cloud-techies/useful-commands-solutions-49f1c1b4e033">medium: Useful Commands/Solutions</a></li>
+<li><a href="https://www.patreon.com/climagic">CLImagic subscription</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-save-terminal-output-to-a-file-under-linux-unix/">cyberciti.biz: How to save terminal output to a file under Linux/Unix</a></li>
+<li><a href="https://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples/">cyberciti.biz: ls* Commands Are Even More Useful Than You May Have Thought</a></li>
+<li><a href="https://linuxtechlab.com/search-a-file-in-linux-using-find-locate-command/">linuxtechlab.com: Search a file in Linux using Find &amp; Locate command</a></li>
+<li><a href="https://www.tecmint.com/install-collectd-and-collectd-web-to-monitor-server-resources-in-linux/">tecmint.com: How to Install and Configure ‘Collectd’ and ‘Collectd-Web’ to Monitor Server Resources in Linux</a></li>
+<li><a href="https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux/">sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat &amp; ss) 🌟</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli/">cyberciti.biz: How to flush Redis cache and delete everything using the CLI</a></li>
+<li><a href="https://www.cyberciti.biz/faq/find-large-files-linux/">cyberciti.biz: How To: Linux Find Large Files in a Directory</a></li>
+<li><a href="https://www.linuxteck.com/curl-command-in-linux-with-examples/">linuxteck.com: 15 basic curl command in Linux with practical examples</a></li>
+<li><a href="https://www.linuxteck.com/basic-cat-command-in-linux-with-examples/">linuxteck.com: 12 basic cat command in Linux with examples</a></li>
+<li><a href="https://www.tecmint.com/find-recent-modified-files-in-linux/">tecmint.com: How to Find Recent or Today’s Modified Files in Linux 🌟</a></li>
+<li><a href="https://www.linuxshelltips.com/netcat-linux-port-scanning">linuxshelltips.com: How to Use Netcat to Scan Open Ports in Linux 🌟</a></li>
+<li><a href="https://rclone.org/">Rclone 🌟🌟🌟</a> Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors&rsquo; web storage interfaces. Over 40 cloud storage products support rclone including S3 object stores, business &amp; consumer file storage services, as well as standard transfer protocols. Rclone has powerful cloud equivalents to the unix commands rsync, cp, mv, mount, ls, ncdu, tree, rm, and cat. Rclone&rsquo;s familiar syntax includes shell pipeline support, and &ndash;dry-run protection. It is used at the command line, in scripts or via its API.</li>
+<li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">cyberciti.biz: 8 Tips to Solve Linux Hard Disk Problems: Like Disk Full Or Can’t Write to the Disk</a></li>
+<li><a href="https://blog.ycrash.io/2021/06/28/dmesg-unix-linux-command-beginners-introduction-with-examples/">blog.ycrash.io: dmesg – Unix/Linux command, beginners introduction with examples</a></li>
+<li><a href="https://opensource.com/article/21/7/parse-xml-linux">opensource.com: Use XMLStarlet to parse XML in the Linux terminal</a> Become an XML star with XMLStarlet, an XML toolkit for your terminal.</li>
+<li><a href="https://www.redhat.com/sysadmin/5-linux-commands">redhat.com: 5 Linux commands I&rsquo;m going to start using</a> Five standard Linux commands that can make your life much easier.</li>
+<li><a href="https://developers.redhat.com/articles/2021/05/21/build-your-own-rpm-package-sample-go-program">developers.redhat.com: Build your own RPM package with a sample Go program to simplify installing, updating, or removing a piece of software</a></li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-copy-and-transfer-files-remotely-on-linux-using-scp-and-rsync/">cyberciti.biz: How to copy and transfer files remotely on Linux using scp and rsync</a></li>
+<li><a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work">nginx.com: What Are Namespaces and cgroups, and How Do They Work? 🌟</a> Namespaces provide isolation of system resources, and cgroups allow for fine‑grained control and enforcement of limits for those resources. Containers are not the only way that you can use namespaces and cgroups. Namespaces and cgroup interfaces are built into the Linux kernel, which means that other applications can use them to provide separation and resource constraints.</li>
+<li><a href="https://www.cyberciti.biz/faq/how-to-check-cpu-temperature-on-ubuntu-linux/">cyberciti.biz: How to check CPU temperature on Ubuntu Linux</a></li>
+<li><a href="https://opensource.com/article/21/7/check-disk-space-linux-du">opensource.com: Check used disk space on Linux with du</a> Find out how much disk space you&rsquo;re using with the Linux du command.</li>
+<li><a href="https://www.linuxshelltips.com/kill-linux-process-with-port/">linuxshelltips.com: How to Kill Running Linux Process on Particular Port</a></li>
+<li><a href="https://www.freecodecamp.org/news/the-linux-commands-handbook/">freecodecamp.org: The Linux Command Handbook 🌟</a></li>
+<li><a href="https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool/">sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool</a></li>
+<li><a href="https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/">tecmint.com: 10 Practical Examples of Rsync Command in Linux</a></li>
+<li><a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/">tecmint.com: 10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories</a></li>
+<li><a href="https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/">tecmint.com: What’s Difference Between Grep, Egrep and Fgrep in Linux?</a></li>
+<li><a href="https://opensource.com/article/21/8/linux-stat-file-status">opensource.com: Check file status on Linux with the stat command</a></li>
+<li><a href="https://www.tecmint.com/how-to-kill-a-process-in-linux/">tecmint.com: How to Kill Linux Process Using Kill, Pkill and Killall</a></li>
+<li><a href="https://www.linuxteck.com/13-top-command-in-linux/">linuxteck.com: 13 Top command in Linux (Monitor Linux Server Processes) 🌟</a></li>
+<li><a href="https://www.cyberciti.biz/faq/df-command-examples-in-linux-unix/">cyberciti.biz: How to use df command in Linux / Unix {with examples}</a></li>
+<li><a href="https://www.commandlinefu.com/commands/view/9116/compare-directories-via-diff">commandlinefu.com: Compare directories via diff</a>: <code>diff -rq dirA dirB</code></li>
+<li><a href="https://opensource.com/article/21/10/check-java-jps">opensource.com: Check Java processes on Linux with the jps command</a> With many processes running on a system, it&rsquo;s useful to have a quick way to identify only Java with the jps command.</li>
+<li><a href="https://opensource.com/article/21/10/memory-stats-linux-smem">opensource.com: Get memory use statistics with this Linux command-line tool</a> The smem command allows you to quickly view your web applications&rsquo; memory use.</li>
+<li><a href="https://www.redhat.com/sysadmin/linux-commands-manage-groups">redhat.com: 3 basic Linux group management commands every sysadmin should know</a> How to use the groupadd, groupmod, and groupdel commands is essential knowledge for Linux sysadmins.</li>
+<li><a href="https://itsfoss.com/exa">itsfoss.com/exa</a> <strong>exa</strong>: A Modern Replacement for the ls Command</li>
+<li><a href="https://www.cyberciti.biz/programming/color-terminal-highlighter-for-diff-files/">cyberciti.biz: diff Command Colorize Output On the Unix / Linux Command Line</a> <strong>colordiff</strong></li>
+<li><a href="https://dev.to/iggredible/useful-tmux-configuration-examples-k3g">dev.to: Useful Tmux Configuration Examples</a></li>
+<li><a href="https://betterprogramming.pub/how-to-use-tmuxp-to-manage-your-tmux-session-614b6d42d6b6">betterprogramming.pub: How to Use tmuxp to Manage Your tmux Session</a> Take control of your tmux sessions.</li>
+<li><a href="https://opensource.com/article/21/11/cron-linux">opensource.com: Linux tips for using cron to schedule tasks</a> Schedule backups, file cleanups, and other tasks by using this simple yet powerful Linux command-line tool. Download our new cron cheat sheet.</li>
+<li><a href="https://opensource.com/article/21/10/linux-wget-command">opensource.com: 7 handy tricks for using the Linux wget command</a> Download files from the internet in your Linux terminal. Get the most out of the wget command with our new cheat sheet.</li>
+<li><a href="https://www.makeuseof.com/best-cli-tools-to-monitor-linux-performance-terminal/">makeuseof.com: The 6 Best Command Line Tools to Monitor Linux Performance in the Terminal</a> Want to track and debug Linux System resources, storage, and network-related problems? Get started with the best Linux performance monitoring tools.</li>
+<li><a href="https://opensource.com/article/21/10/linux-tools-erase-data">opensource.com: 4 Linux tools to erase your data</a> Erase data from your hard disk drive with these open source tools.</li>
+<li><a href="https://www.redhat.com/sysadmin/one-line-linux-commands"><mark>redhat.com: 20 one-line Linux commands to add to your toolbox</mark></a> Every Linux user has a favorite single-line command. Here are the 20 Linux commands we can&rsquo;t live without.</li>
+<li><a href="https://github.com/gcla/termshark">termshark</a> A terminal UI for tshark, inspired by Wireshark</li>
+<li><a href="https://www.baeldung.com/linux/max-threads-per-process">baeldung.com: Maximum Number of Threads Per Process in Linux</a></li>
+<li><a href="https://opensource.com/article/22/1/record-terminal-session-asciinema">opensource.com: Record your terminal session with Asciinema</a></li>
+<li><a href="https://www.redhat.com/sysadmin/nmap-scripting-engine">redhat.com: 5 scripts for getting started with the Nmap Scripting Engine</a> The NSE boosts Nmap&rsquo;s power by adding scripting capabilities (custom or community-created) to the network scanning tool.</li>
+<li><a href="https://www.redhat.com/sysadmin/DNS-name-resolution-troubleshooting-tools">redhat.com: Linux troubleshooting commands: 4 tools for DNS name resolution problems</a> Find out what&rsquo;s stopping you from accessing a server, printer, or another network resource with these four Linux troubleshooting commands.</li>
+<li><a href="https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/"><mark>jvns.ca: A list of new(ish) command line tools | Julia Evans</mark></a></li>
+<li><a href="https://itsfoss.com/htop-alternatives/">itsfoss.com: 5 htop Alternatives to Enhance Your Linux System Monitoring Experience</a></li>
+<li><a href="https://dev.to/kanani_nirav/50-linux-commands-every-developer-need-to-know-with-example-mc">dev.to: 50 Linux Commands every developer NEED to know with example</a></li>
+<li><a href="https://blog.devgenius.io/devops-in-linux-systemd-introduction-db7f49cb566b">blog.devgenius.io: DevOps in Linux — Systemd Introduction</a></li>
+<li><a href="https://difftastic.wilfred.me.uk">difftastic.wilfred.me.uk</a> Difftastic is a CLI diff tool that compares files based on their syntax, not line-by-line. Difftastic produces accurate diffs that are easier for humans to read.</li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs">digitalocean.com: How To Use Journalctl to View and Manipulate Systemd Logs 🌟</a></li>
+<li><a href="https://github.com/curl/wcurl">github.com/curl/wcurl 🌟</a> a simple wrapper around curl to easily download files<ul>
+<li><a href="https://blog.techiescamp.com/docs/wcurl/">blog.techiescamp.com: wcurl: A Simple Wrapper for curl to download files</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="makefiles">Makefiles</h2>
+<ul>
+<li><a href="https://makefiletutorial.com/">makefiletutorial.com 🌟</a> Learn Makefiles With the tastiest examples</li>
+</ul>
+<h2 id="guestfish">Guestfish</h2>
+<ul>
+<li><a href="https://libguestfs.org/guestfish.1.html">Guestfish</a></li>
+<li><a href="https://www.redhat.com/sysadmin/customize-vm-cloud-images-guestfish">redhat.com: How to customize VM and cloud images with guestfish</a> Need to tweak your cloud and virtual machine images to comply with company policies or other requirements? Give guestfish a try.</li>
+</ul>
+<h2 id="busybox">BusyBox</h2>
+<ul>
+<li><a href="https://www.busybox.net/">busybox.net</a> BusyBox: The Swiss Army Knife of Embedded Linux</li>
+<li><a href="https://www.genbeta.com/herramientas/busybox-ejecutable-que-agrupa-casi-200-utilidades-gnu-linea-comandos-que-puedes-usar-tambien-windows-android">genbeta.com: BusyBox, el ejecutable que agrupa casi 200 utilidades Unix de línea de comandos (y que puedes usar también en Windows o Android)</a></li>
+</ul>
+<h2 id="bash">Bash</h2>
+<ul>
+<li><a href="https://www.igoroseledko.com/checking-multiple-variables-in-bash/">igoroseledko.com: Checking Multiple Variables in Bash</a></li>
+<li><a href="https://ebook.bobby.sh/training.html">Introduction to Bash Scripting Interactive training</a><ul>
+<li><a href="https://dev.to/bobbyiliev/introduction-to-bash-scripting-5571">dev.to: Introduction to Bash Scripting - A DO Hackathon Submission</a></li>
+</ul>
+</li>
+<li><a href="https://datafix.com.au/BASHing/">datafix.com.au: BASHing data - Data ops on the Linux command line 🌟</a></li>
+<li><a href="https://medium.com/bash-tips-and-tricks/how-to-trigger-an-action-at-the-end-of-the-shell-bash-script-52b0ba9c157e">medium: How to trigger an action at the end of the Shell/Bash script</a> Using Bash/Shell trap, a built-in command to define any action to be executed before exiting the Bash or Shell script. You can define multiple actions and per signal.</li>
+<li><a href="https://www.redhat.com/sysadmin/data-text-files">redhat.com: Bash scripting: How to read data from text files</a> Here&rsquo;s how to extract data from a text file such as reading in a list of servers to test connectivity to them.</li>
+<li><a href="http://www.pement.org/sed/sed1line.txt">pement.org: Over 100 sed one-liners</a></li>
+<li><a href="https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md">github: Safe ways to do things in bash</a></li>
+<li><a href="https://rexegg.com/regex-tricks.html">rexegg.com: Regex Syntax Tricks</a></li>
+<li><a href="http://www.pement.org/awk/awk1line.txt">pement.org: Handy one-line scripts for AWK</a></li>
+<li><a href="https://www.flowfactor.be/2021/03/23/unit-testing-bash-scripts-the-cloud-native-way/">flowfactor.be: Unit testing bash scripts the cloud-native way</a></li>
+<li><a href="http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html">robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes</a></li>
+<li><a href="https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty/">cyberciti.biz: How To Bash Shell Find Out If a Variable Is Empty Or Not</a></li>
+<li><a href="http://mywiki.wooledge.org/BashPitfalls">Bash Pitfalls 🌟</a></li>
+<li><a href="https://www.cyberciti.biz/faq/bash-for-loop">cyberciti.biz: Bash For Loop Examples</a></li>
+<li><a href="https://opensource.com/article/21/6/bash-config">opensource.com: Parsing config files with Bash</a> Separating config files from code enables anyone to change their configurations without any special programming skills.</li>
+<li><a href="https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts/">cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts</a></li>
+<li><a href="https://opensource.com/article/21/8/option-parsing-bash">opensource.com: How to include options in your Bash shell scripts</a></li>
+<li><a href="https://bash.cyberciti.biz/guide/Main_Page">bash.cyberciti.biz Wiki 🌟</a></li>
+<li><a href="https://www.redhat.com/sysadmin/find-non-expiring-passwords">redhat.com: Audit user accounts for never-expiring passwords with a Bash script</a> Non-expiring passwords might violate your organization&rsquo;s policies, so use this basic Bash script to quickly pick them out.</li>
+<li><a href="https://thenewstack.io/an-introduction-to-awk/">thenewstack.io: An Introduction to AWK</a></li>
+<li><a href="https://www.cyberciti.biz/faq/repeat-a-character-in-bash-script-under-linux-unix/">cyberciti.biz: How to repeat a character ‘n’ times in Bash</a></li>
+<li><a href="https://www.redhat.com/sysadmin/edit-text-bash-command">redhat.com: 2 Bash commands to change strings in multiple files at once</a> Search and replace text in several files simultaneously, right from the Linux terminal, to gain efficiency and minimize mistakes.</li>
+<li><a href="https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile">cyberciti.biz: Bash Read Comma Separated CSV File on Linux / Unix</a></li>
+<li><a href="https://fedoramagazine.org/bash-shell-scripting-for-beginners-part-1/">fedoramagazine.org: Bash Shell Scripting for beginners (Part 1)</a></li>
+<li><a href="https://www.igoroseledko.com/awk-sed-snippets-for-sysadmins/">igoroseledko.com: Awk &amp; sed Snippets for SysAdmins</a></li>
+<li><a href="https://dev.to/unfor19/writing-bash-scripts-like-a-pro-part-1-styling-guide-4bin">dev.to: Writing Bash Scripts Like A Pro - Part 1 - Styling Guide</a></li>
+<li><a href="https://linuxhandbook.com/variables-bash-script/">linuxhandbook.com: Unusual Ways to Use Variables Inside Bash Scripts</a></li>
+<li><a href="https://opensource.com/downloads/bash-programming-guide">opensource.com: An introduction to programming with Bash (eBook)</a></li>
+<li><a href="https://pythonspeed.com/articles/shell-scripts/">pythonspeed.com: Please stop writing shell scripts</a></li>
+<li><a href="https://www.linuxshelltips.com/difference-between-and-in-bash/">linuxshelltips.com: What’s the Difference Between ${} and $() in Bash</a></li>
+<li><a href="https://medium.com/kubehub/a-series-on-bash-scripting-eecd0293fab5">medium.com/kubehub: A Series on Bash Scripting</a></li>
+<li><a href="https://levelup.gitconnected.com/start-your-scripting-journey-today-bash-script-part-1-46cbddf4e4e7">levelup.gitconnected.com: Start Your Scripting Journey Today | Bash Script — Part 1</a> Everything You Need to Know to Write Bash Scripts</li>
+<li><a href="https://medium.com/@saurabhdahibhate50/devops-day-04-task-e51d64ffbf16">medium.com: Shell Scripting for DevOps with Examples</a></li>
+<li><a href="https://levelup.gitconnected.com/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593">levelup.gitconnected.com: 5 Bash String Manipulation Methods That Help Every Developer</a> Process strings productively in your automation scripts with these syntaxes</li>
+<li><a href="https://piyushverma.hashnode.dev/basic-linux-shell-scripting-for-devops-engineers">piyushverma.hashnode.dev: Basic Linux Shell Scripting for DevOps Engineers</a></li>
+<li><a href="https://www.gnu.org/software/parallel/">gnu.org/software/parallel</a> GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input. The typical input is a list of files, a list of hosts, a list of users, a list of URLs, or a list of tables. A job can also be a command that reads from a pipe. GNU parallel can then split the input and pipe it into commands in parallel.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l"><mark>youtube: Bash for Beginners</mark></a> Bash is considered a universal language when it comes to cloud computing and programming. Many languages support Bash commands to pass data and information and when it comes to the Cloud, all platforms support using it to interact with your environment.</li>
+</ul>
+<h2 id="questions-and-answers">Questions and Answers</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/5-questions-interview">redhat.com: 5 questions to ask during your next sysadmin interview</a></li>
+<li><a href="https://github.com/trimstray/test-your-sysadmin-skills"><mark>trimstray/test-your-sysadmin-skills</mark></a> A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge and skills in different fields with these Q/A.</li>
+</ul>
+<h2 id="automation-bash-vs-python-vs-javascript">Automation. Bash VS Python VS JavaScript</h2>
+<ul>
+<li><a href="https://betterprogramming.pub/bash-vs-python-vs-javascript-which-is-better-for-automation-92a277ef49e">betterprogramming.pub: Bash vs. Python vs. JavaScript: Which Is Better for Automation? 🌟</a> Comparing the pros and cons of Bash, Python, and JavaScript-based Shell scripts</li>
+</ul>
+<h2 id="zsh">Zsh</h2>
+<ul>
+<li><a href="https://ohmyz.sh/">Oh My Zsh</a> Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout&hellip;</li>
+<li><a href="https://zshdb.readthedocs.io">zshdb.readthedocs.io</a> zshdb - a gdb-like debugger for zsh</li>
+<li><a href="https://github.com/zsh-users/zsh-autosuggestions">github.com/zsh-users/zsh-autosuggestions 🌟</a> Fish-like autosuggestions for zsh</li>
+</ul>
+<h2 id="zx">ZX</h2>
+<ul>
+<li><a href="https://github.com/google/zx">zx</a> A tool for writing better scripts</li>
+</ul>
+<h2 id="bpftrace">bpftrace</h2>
+<ul>
+<li><a href="https://github.com/iovisor/bpftrace">bpftrace</a> High-level tracing language for Linux eBPF. bpftrace is pretty impressive in terms of conciseness and practicality of their docs.</li>
+<li><a href="https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md">https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md</a></li>
+<li><a href="https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md">https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md</a></li>
+<li><a href="https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md">https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md</a></li>
+<li><a href="https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff">blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization</a></li>
+</ul>
+<h2 id="linux-processes">Linux processes</h2>
+<ul>
+<li><a href="https://www.percona.com/blog/2020/09/11/how-much-memory-does-the-process-really-take-on-linux/">percona.com: How Much Memory Does the Process Really Take on Linux? 🌟</a></li>
+</ul>
+<h2 id="linux-memory">Linux Memory</h2>
+<ul>
+<li><a href="https://www.learnsteps.com/difference-between-minor-page-faults-vs-major-page-faults/">learnsteps.com: Difference between minor page faults vs major page faults</a></li>
+</ul>
+<h2 id="kvm">KVM</h2>
+<ul>
+<li><a href="https://github.com/cyberus-technology/virtualbox-kvm">github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟</a> This repository contains a KVM backend for the open source virtualization tool VirtualBox. With this backend, Linux KVM is used as the underlying hypervisor.</li>
+</ul>
+<h2 id="linux-and-kubernetes">Linux and Kubernetes</h2>
+<ul>
+<li><a href="https://tldp.org/LDP/sag/html/index.html">tldp.org: The Linux System Administrator&rsquo;s Guide 🌟</a></li>
+<li><a href="https://www.redhat.com/sysadmin/linux-pid-namespaces">How Linux PID namespaces work with containers 🌟</a></li>
+</ul>
+<h3 id="systemd">Systemd</h3>
+<ul>
+<li><a href="https://opensource.com/article/20/5/systemd-troubleshooting-tool">Start using systemd as a troubleshooting tool</a> While systemd is not really a troubleshooting tool, the information in its output points the way toward solving problems.</li>
+</ul>
+<h3 id="blogs">Blogs</h3>
+<ul>
+<li><a href="http://www.climagic.org">climagic.org</a></li>
+<li><a href="http://linux.101hacks.com/">Linux 101 Hacks</a></li>
+<li><a href="https://linuxjourney.com/lesson/the-shell#">linuxjourney.com commandline</a></li>
+<li><a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a></li>
+</ul>
+<h3 id="commandlinefu">CommandLineFu</h3>
+<ul>
+<li><a href="https://www.commandlinefu.com">CommandLineFu 🌟</a></li>
+<li><a href="https://twitter.com/commandlinefu">twitter.com/commandlinefu</a> Command line diamonds, created and voted on by our members</li>
+<li><a href="https://twitter.com/commandlinefu3">twitter.com/commandlinefu3</a> 3-star commands, a Linux afficionado&rsquo;s wet dream</li>
+<li><a href="https://twitter.com/commandlinefu10">twitter.com/commandlinefu10</a> 10 star command line gems - known to make experienced sysadmins weep with joy.</li>
+</ul>
+<h3 id="wait-until-your-dockerized-database-is-ready-before-continuing">Wait until Your Dockerized Database Is Ready before Continuing</h3>
+<ul>
+<li><a href="https://nickjanetakis.com/blog/wait-until-your-dockerized-database-is-ready-before-continuing">Wait until Your Dockerized Database Is Ready before Continuing</a> A zero dependency Bash script that waits until a command of your choosing has run successfully<ul>
+<li><a href="https://github.com/nickjj/wait-until">github.com/nickjj/wait-until</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="copr-build-system">Copr Build System</h3>
+<ul>
+<li>Building a repo with RPM packages from PyPI is super easy using Copr.</li>
+<li><a href="https://copr.fedorainfracloud.org/">copr.fedorainfracloud.org</a> Copr is an easy-to-use automatic build system providing a package repository as its output.</li>
+<li><a href="https://pagure.io/copr/copr">Copr</a></li>
+</ul>
+<h3 id="pulp">Pulp</h3>
+<ul>
+<li><a href="https://pulpproject.org/">pulpproject.org</a> Fetch, Upload, Organize, and Distribute Software Packages.</li>
+</ul>
+<h3 id="hashicorp">Hashicorp</h3>
+<ul>
+<li><a href="https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository">Announcing the HashiCorp Linux Repository</a></li>
+</ul>
+<h2 id="linux-libraries">Linux Libraries</h2>
+<ul>
+<li><a href="https://opensource.com/article/20/6/linux-libraries">How to handle dynamic and static libraries in Linux</a></li>
+</ul>
+<h2 id="linux-networking">Linux Networking</h2>
+<ul>
+<li><a href="http://www.ntop.org/">ntop</a></li>
+<li><a href="http://ngrep.sourceforge.net/">ngrep</a></li>
+<li><a href="http://angryip.org/">Angry IP Scanner (or simply ipscan)</a> to Nmap and cross-platform</li>
+<li><a href="http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html">cyberciti.biz - ss: Display Linux TCP / UDP Network and Socket Information</a></li>
+<li><a href="http://www.cyberciti.biz/files/ss.html">cyberciti.biz - SS Utility: Quick Intro</a></li>
+<li><a href="http://www.binarytides.com/linux-ss-command/">binarytides.com - 10 examples of Linux ss command to monitor network connections</a></li>
+<li><a href="http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format">unix.stackexchange.com: ss - linux socket statistics utility output format</a></li>
+<li><a href="http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux">stackoverflow.com: difference between netstat and ss in linux?</a></li>
+<li><a href="http://lintut.com/monitoring-network-connection-using-ss-command/">lintut.com: Monitoring network connection using ss command</a></li>
+<li><a href="https://github.com/knorrie/network-examples">Linux networking examples and tutorials for advanced users</a> Includes lab examples for lxc, bgp, vpn, &amp; more</li>
+<li><a href="https://blog.pandorafms.org/network-commands/">blog.pandorafms.org: Useful Network commands</a> VNStat, ping, traceroute, ping, arp, curl and wget, netstat, whois, ssh, tcpdump, ngrep, nmap, netcat, lsof, iptraf</li>
+<li><a href="https://www.redeszone.net/tutoriales/servidores/diferencias-proxy-vs-proxy-inverso/">Diferencias entre servidor proxy y servidor proxy inverso</a></li>
+<li><a href="https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/">cyberciti.biz: Linux ip Command Examples 🌟</a></li>
+<li><a href="https://www.cyberciti.biz/tips/linux-iptables-examples.html">cyberciti.biz: Linux: 25 Iptables Netfilter Firewall Examples For New SysAdmins</a></li>
+<li><a href="https://www.redhat.com/sysadmin/tcpdump-part-one">redhat.com: 6 tcpdump network traffic filter options</a> The first six of eighteen common tcpdump options that you should use for network troubleshooting and analysis.</li>
+<li><a href="https://www.redhat.com/sysadmin/sysadmin-essentials-networking-basics">redhat.com: Learn the networking basics every sysadmin needs to know</a></li>
+<li><a href="https://www.tecmint.com/linux-network-bandwidth-monitoring-tools/">tecmint.com: 16 Useful Bandwidth Monitoring Tools to Analyze Network Usage in Linux</a></li>
+<li><a href="https://iximiuz.com/en/posts/laymans-iptables-101/">iximiuz.com: Illustrated introduction to Linux iptables</a></li>
+<li><a href="https://www.linuxteck.com/basic-useful-firewall-cmd-commands-in-linux/">linuxteck.com: 15 basic useful firewall-cmd commands in Linux</a></li>
+<li><a href="https://www.tecmint.com/20-netstat-commands-for-linux-network-management/">tecmint.com: 20 Netstat Commands for Linux Network Management</a></li>
+<li><a href="https://www.redhat.com/sysadmin/five-network-commands">redhat.com: 5 Linux network troubleshooting commands 🌟</a> Linux provides many command-line tools to help sysadmins manage, configure, and troubleshoot network settings.</li>
+</ul>
+<h2 id="networking-protocols">Networking Protocols</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/tcp-vs-udp/">freecodecamp.org: TCP vs. UDP — What&rsquo;s the Difference and Which Protocol is Faster?</a></li>
+<li><a href="https://howdns.works/">howdns.works</a> A fun and colorful explanation of how DNS works.</li>
+</ul>
+<h2 id="linux-hardening-security">Linux Hardening Security</h2>
+<ul>
+<li><a href="https://www.cyberciti.biz/tips/linux-security.html">cyberciti.biz: 40 Linux Server Hardening Security Tips [2022 edition]</a></li>
+</ul>
+<h2 id="images">Images</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<a href="https://github.com/jlevy/the-art-of-command-line"><img alt="the art of command line" src="../images/cli_tips.jpg" /></a>
+</center></p>
+</details>
+<h2 id="videos">Videos</h2>
+<details class="note">
+<summary>Click to expand!</summary>
+<p><center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=wIr50Eu2-ZPwdI6N&amp;list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center></p>
+</details>
+<h2 id="tweets">Tweets</h2>
+<details>
+  <summary>Click to expand!</summary>
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">bash for president <a href="https://t.co/CpIQh23az1">pic.twitter.com/CpIQh23az1</a></p>&mdash; memenetes (@memenetes) <a href="https://twitter.com/memenetes/status/1407081109570166791?ref_src=twsrc%5Etfw">June 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">DEPRECATED LINUX COMMANDS AND THEIR REPLACEMENTS💻<br><br>A short overview for Linux commands that have been replaced.❌</p>&mdash; Seb 🇧🇦 (@LinuxSeb) <a href="https://twitter.com/LinuxSeb/status/1443393886865408002?ref_src=twsrc%5Etfw">September 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linux has so many built-in password managers:<br> syslog<br>.bash_history<br>.zsh_history<br>.mysql_history<br>…</p>&mdash; 🇫🇷 Jean-Ph˙ ͜ʟ˙ppe 🇪🇺 (@Jipe_) <a href="https://twitter.com/Jipe_/status/1450181992260177923?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">4000 Linux commands every programmer should know<br><br>A thread 🧵</p>&mdash; The Best Linux Blog In the Unixverse 🪔 (@nixcraft) <a href="https://twitter.com/nixcraft/status/1455835061182291981?ref_src=twsrc%5Etfw">November 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SSH Port Forwarding: Why and How 🧵<br><br>If these problems sound familiar:<br><br>- A db server listens on a remote localhost, but you want to use a local GUI client<br>- A dev service runs on your laptop, but you want to expose it to the Internet<br><br>...and you don&#39;t know the solution, read on! <a href="https://t.co/V4snfb1r3z">pic.twitter.com/V4snfb1r3z</a></p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1587451857143828481?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In vim, you can type :e **/foo, then press tab and it&#39;ll find you a file with &quot;foo&quot; in its name.<br><br>You can press tab many times, and vim will iterate over the matching files.<br><br>Works in vanilla vim (no plugins), so you can use this trick on any Linux server you happen to log in to.</p>&mdash; Ivan Velichko (@iximiuz) <a href="https://twitter.com/iximiuz/status/1588948188399947776?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to master Linux? Open this: 🧵</p>&mdash; Rohit Ghumare | That #DevOps Guy✍️ (@ghumare64) <a href="https://twitter.com/ghumare64/status/1590550565142290432?ref_src=twsrc%5Etfw">November 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How to make rsync faster? <a href="https://t.co/bIdizhoNoS">pic.twitter.com/bIdizhoNoS</a></p>&mdash; Rakesh Jain (@devops_tech) <a href="https://twitter.com/devops_tech/status/1633732722329001985?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2024 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M213.86 296H100a100 100 0 0 1 0-200h132.84a40 40 0 0 1 0 80H98c-26.47 0-26.45 40 0 40h113.82a100 100 0 0 1 0 200H40a40 40 0 0 1 0-80h173.86c26.48 0 26.46-40 0-40zM298 416a120.21 120.21 0 0 0 51.11-80h64.55a19.83 19.83 0 0 0 19.66-20V196a19.83 19.83 0 0 0-19.66-20H296.42a60.77 60.77 0 0 0 0-80h136.93c43.44 0 78.65 35.82 78.65 80v160c0 44.18-35.21 80-78.65 80z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7zm156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/groups/1937212/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../javascript/extra.js"></script>
+      
+    
+  </body>
+</html>
