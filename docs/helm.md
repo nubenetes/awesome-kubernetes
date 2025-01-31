@@ -139,6 +139,7 @@
 ## Helm Plugins
 
 - [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
+- [Helm Kanvas Snapshot](https://github.com/meshery/helm-kanvas-snapshot) Plugin that generates a visual snapshot of Helm charts.
 - [Helm mapkubeapis Plugin](https://github.com/helm/helm-mapkubeapis) This is a Helm plugin which map deprecated or removed Kubernetes APIs in a release to supported APIs. __With kubernetes 1.22 dropping support for more beta APIs, you might be in need of a helmpack plugin to help you with that..__
 - [medium.com/@marc.khouzam: Shell completion for plugins with Helm 3.8](https://medium.com/@marc.khouzam/shell-completion-for-plugins-with-helm-3-8-7cb001012a54) (This post is mostly targeted towards helm plugin developers)
 - [JovianX/helm-release-plugin](https://github.com/JovianX/helm-release-plugin) Helm3 plugin that pulls(re-creates) helm Charts from deployed releases, and updates values of deployed releases without the chart.
