@@ -24,7 +24,6 @@ async def fetch_github_trending_k8s() -> str:
 
 explorer_agent = Agent(
     'google-gla:gemini-2.0-flash-exp',
-    result_type=DiscoveryReport,
     system_prompt=(
         "Descubre las 3 herramientas de Kubernetes más populares y recientes. "
         "Usa la herramienta 'fetch_github_trending_k8s'. "
@@ -35,7 +34,10 @@ explorer_agent.tool(fetch_github_trending_k8s)
 
 async def discover_trending_assets() -> list[dict]:
     try:
-        response = await explorer_agent.run("Busca herramientas revolucionarias en el ecosistema.")
+        response = await explorer_agent.run(
+            "Busca herramientas revolucionarias en el ecosistema.",
+            result_type=DiscoveryReport
+        )
         return [dict(res) for res in response.data.new_high_value_resources]
     except Exception as e:
         print(f"Error en descubrimiento: {str(e)}")

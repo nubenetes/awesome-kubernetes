@@ -10,9 +10,12 @@ class LinkEvaluationResult(BaseModel):
     technical_description: str = Field(description="Descripción técnica de máx 150 caracteres.")
     evaluation_rationale: str = Field(description="Razonamiento de la decisión.")
 
+# NOTA: En versiones recientes de pydantic-ai, result_type se pasa al ejecutar .run() 
+# o se define en la configuración del agente según la versión. 
+# Para máxima compatibilidad, lo definiremos aquí.
+
 curation_agent = Agent(
     'google-gla:gemini-2.0-flash-exp',
-    result_type=LinkEvaluationResult,
     system_prompt=(
         "Actúas como el Ingeniero Curador Principal de 'nubenetes/awesome-kubernetes'. "
         "Tu misión es filtrar recursos de altísima calidad sobre K8s, Agentes de IA, MCP y Cloud Native. "
@@ -26,7 +29,8 @@ async def evaluate_extracted_assets(raw_assets: list[dict]) -> list[dict]:
     for asset in raw_assets:
         cognitive_prompt = f"Evalúa este candidato:\nURL: {asset['url']}\nContexto: {asset['context']}"
         try:
-            response = await curation_agent.run(cognitive_prompt)
+            # Pasamos result_type aquí para evitar errores de inicialización
+            response = await curation_agent.run(cognitive_prompt, result_type=LinkEvaluationResult)
             ev = response.data
             if ev.is_exceptional_value:
                 for cat in ev.category_assignments:
