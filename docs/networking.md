@@ -18,7 +18,6 @@
 
 - [networkwalks.com: TCP/IP Model](https://networkwalks.com/tcp-ip-model/)
 - [devopscube.com: IP Address Tutorial For Beginners [IPV4 and IPV6 Protocols]](https://devopscube.com/ip-address-tutorial/)
-- [medium.com/javarevisited: 5 Best HTTPS, SSL and TLS Courses for Beginners in 2022](https://medium.com/javarevisited/best-https-ssl-and-tls-courses-for-beginners-4437661250b3) These are the best online courses to learn about HTTPS, SSL, and TLS for programmers and developers in 2022
 - [blog.coderco.io: TCP Fundamentals for Software & DevOps Engineers: Building a Strong Foundation in Networking](https://blog.coderco.io/p/tcp-fundamentals-for-software-and)
 
 ## CIDR subnets
@@ -31,12 +30,7 @@
 - [pbxbook.com: CIDR Cheat Sheet](https://pbxbook.com/other/cidrcheat.html)
 - [aelius.com: subnet sheet](https://www.aelius.com/njh/subnet_sheet.html)
 - [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet/)
-- [wisc.edu: CIDR Conversion Table](https://kb.wisc.edu/ns/page.php?id=3493)
-- [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)
-- [cyberciti.biz: Linux: IP Subnet (CIDR) Calculator That Will Help You With Network Settings](https://www.cyberciti.biz/faq/linux-subnet-calculator-cidr/)
-- [cyberciti.biz: Linux Calculating Subnets with ipcalc and sipcalc Utilities](https://www.cyberciti.biz/tips/perform-simple-manipulation-of-ip-addresse.html)
 - [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool/)
-- [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)
 - [matt-rickard.com: How to Calculate a CIDR](https://matt-rickard.com/how-to-calculate-a-cidr)
 - [build5nines.com: IPv4 Address CIDR Range Reference and Calculator](https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator/)
 
@@ -55,7 +49,6 @@
 
 ### HTTP Status Codes
 
-- [wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo)
 - [http.cat 🌟](https://http.cat)
 
@@ -65,7 +58,6 @@
 
 ### HTTP/2
 
-- [Wikipedia: HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)
 - [SPDY & HTTP 2 with Akamai CTO Guy Podjarny](https://www.youtube.com/watch?v=WkLBrHW4NhQ)
     - [cURL mantainer: http2 explained 🌟](http://http2-explained.haxx.se/)
     - [cURL mantainer: curl and HTTP/2 by default](http://daniel.haxx.se/blog/2015/12/14/curl-and-http2-by-default/)
@@ -77,14 +69,11 @@
     - [blog.cloudflare.com - Tools for debugging, testing and using HTTP/2](https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/)
     - [blog.cloudflare.com - HTTP/2 For Web Developers](https://blog.cloudflare.com/http-2-for-web-developers/)
 - [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html)
-    - [Dzone - HTTP/2 With JBoss EAP 7: Tech Preview](https://dzone.com/articles/http2-with-jboss-eap-7-tech-preview)
 - [simple-talk.com: Script Loading between HTTP/1.1 and HTTP/2](https://www.simple-talk.com/dotnet/asp.net/script-loading-between-http1.1-and-http2/)
 - [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning/)
-- [DZone: How HTTP/2 Is Changing Web Performance Best Practices](https://dzone.com/articles/how-http2-is-changing-web-performance-best-practic-2) For people who write code for the web, transitioning to HTTP/2 isn’t always straightforward, and a speed boost isn’t automatically guaranteed. This article is an introduction to HTTP/2 and how it changes web performance best practices.
 
 ### HTTP/3
 
-- [Wikipedia: HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)
 - [==http3-explained.haxx.se: HTTP/3 explained== 🌟](https://http3-explained.haxx.se/)
 - [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/)
 
@@ -101,7 +90,6 @@
 
 ## Load Balancing
 
-- [harshityadav95.medium.com: Load Balancing Layer 4 vs Layer 7](https://harshityadav95.medium.com/load-balancing-layer-4-vs-layer-7-f37a839afd9c)
 
 ## DNS
 
