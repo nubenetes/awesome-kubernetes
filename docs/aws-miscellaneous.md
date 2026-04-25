@@ -47,9 +47,7 @@
 ## AWS OpsWorks
 
 - [AWS OpsWorks](https://aws.amazon.com/opsworks/)
-- [AWS OpsWorks - Chef Versions](http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-chef11.html)
 - [youtube: AWS OpsWorks Overview and Demo](https://www.youtube.com/watch?v=cj_LoG6C2xk&list=PLR3sVanzLpJN6BiYS20K4BMPpiDGifbZy)
-- [Use OpsWorks to create and manage instances that run CentOS 7](https://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os-linux.html?adbsc=docs_20160709_63418706&adbid=UPDATE-c2382910-6157610151248490496&adbpl=li&adbpr=2382910#workinginstances-os-linux-centos)
 
 ## AWS Cloud Control API
 
@@ -59,7 +57,6 @@
 ## VMware Cloud on AWS
 
 - [VMware Cloud on AWS](https://aws.amazon.com/es/vmware/) The Only Way to Extend Your VMware Environment into AWS
-- [infoworld.com: 4 no-bull insights into the AWS/VMware deal](http://www.infoworld.com/article/3131347/hybrid-cloud/4-no-bull-insights-into-the-awsvmware-deal.html)
 
 ### AWS Application Discovery Service Update. Agentless Discovery for VMware
 
@@ -76,7 +73,6 @@
 
 ## AWS Elastic Transcoder. Video streaming
 
-- [Settings that You Specify When You Create an Elastic Transcoder Job](http://docs.aws.amazon.com/elastictranscoder/latest/developerguide/job-settings.html)
 
 ## Amazon Alexa. Voice User Interface
 
@@ -138,18 +134,13 @@
 ## Cloud Development Kit CDK
 
 - [CDK](https://aws.amazon.com/cdk/)
-- [bbvanexttechnologies.com: Cómo definir infraestructura como código en AWS con CDK](https://www.bbvanexttechnologies.com/como-definir-infraestructura-como-codigo-en-aws-con-cdk/)
-- [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4)
 - [==freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application==](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/)
-- [medium.com/contino-engineering: We’ve begun to move towards the AWS CDK and here’s why](https://medium.com/contino-engineering/weve-begun-to-move-towards-the-aws-cdk-and-here-s-why-69c8fad688b3)
-- [medium.com/simform-engineering: Infrastructure as Code and CI/CD in Practice with AWS CDK](https://medium.com/simform-engineering/infrastructure-as-code-and-ci-cd-in-practice-with-aws-cdk-bd0685b361f8)
 - [==Announcing CDK Migrate: A single command to migrate to the AWS CDK==](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk/)
 - [==sst.dev: Moving away from CDK: CDK doesn’t create the infrastructure you define==](https://sst.dev/blog/moving-away-from-cdk.html) On the CDK side, we write TypeScript code that defines our infrastructure. But CDK doesn’t create the infrastructure you define. It generates a CloudFormation template (JSON) that CloudFormation will use to create your infrastructure.
 
 ## AWS Session Manager
 
 - [aws.amazon.com: AWS Systems Manager announces support for port forwarding to remote hosts using Session Manager](https://aws.amazon.com/about-aws/whats-new/2022/05/aws-systems-manager-support-port-forwarding-remote-hosts-using-session-manager/)
-- [faun.pub: Using AWS Session Manager For Port Forwarding To Remote Hosts](https://faun.pub/using-aws-session-manager-for-port-forwarding-to-remote-hosts-8168589ba579)
 
 ## AWS Cloud Endure
 
@@ -180,6 +171,3 @@
 - [dev.to: Automatic API Key rotation for Amazon Managed Grafana](https://dev.to/aws-heroes/automatic-api-key-rotation-for-amazon-managed-grafana-2h68)
 
 ## AWS Landing Zone
-
-- [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)
-- [blog.brainboard.co: AWS Landing Zone Architecture: Comprehensive Guide to Best Practices and Design Secrets](https://blog.brainboard.co/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962) Key Components and Best Practices
