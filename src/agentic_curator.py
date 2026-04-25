@@ -15,7 +15,7 @@ class LinkEvaluationResult(BaseModel):
 # Para máxima compatibilidad, lo definiremos aquí.
 
 curation_agent = Agent(
-    'google-gla:gemini-2.0-flash-exp',
+    'google-gla:gemini-1.5-flash',
     system_prompt=(
         "Actúas como el Ingeniero Curador Principal de 'nubenetes/awesome-kubernetes'. "
         "Tu misión es filtrar recursos de altísima calidad sobre K8s, Agentes de IA, MCP y Cloud Native. "

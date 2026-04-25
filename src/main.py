@@ -70,10 +70,17 @@ async def master_orchestrator():
 
     # 4. GitOps - Solo si hay mejoras reales
     if file_updates:
-        git_controller.apply_multi_file_changes(file_updates, global_stats)
+        # Calculamos métricas específicas para el cuerpo del PR
+        metrics = {
+            "social_injections": len(curated),
+            "autonomous_injections": len(trending),
+            "fixed": global_stats["fixed"],
+            "removed": global_stats["removed"]
+        }
+        git_controller.apply_multi_file_changes(file_updates, metrics)
         print(f"[+] Éxito. PR abierta con:")
-        print(f"    - Enlaces reparados: {global_stats['fixed']}")
-        print(f"    - Enlaces purgados: {global_stats['removed']}")
+        print(f"    - Enlaces reparados: {metrics['fixed']}")
+        print(f"    - Enlaces purgados: {metrics['removed']}")
         print(f"    - Novedades añadidas: {global_stats['new']}")
     else:
         print("[~] Repositorio saludable. Sin cambios en este ciclo.")

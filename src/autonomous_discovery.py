@@ -23,7 +23,7 @@ async def fetch_github_trending_k8s() -> str:
              return "No se pudieron obtener resultados."
 
 explorer_agent = Agent(
-    'google-gla:gemini-2.0-flash-exp',
+    'google-gla:gemini-1.5-flash',
     system_prompt=(
         "Descubre las 3 herramientas de Kubernetes más populares y recientes. "
         "Usa la herramienta 'fetch_github_trending_k8s'. "
