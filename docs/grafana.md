@@ -18,10 +18,6 @@
     - [Grafana provisioning Ansible Role](https://github.com/cloudalchemy/ansible-grafana)
 - [grafana.com: Introducing the new and improved New Relic plugin for Grafana](https://grafana.com/blog/2020/07/22/introducing-the-new-and-improved-new-relic-plugin-for-grafana/)
 - [Log Monitoring and Alerting with Grafana Loki](https://www.infracloud.io/blogs/grafana-loki-log-monitoring-alerting)
-- [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)
-- [itnext.io: Monitoring Kubernetes workloads with Prometheus and Thanos](https://itnext.io/monitoring-kubernetes-workloads-with-prometheus-and-thanos-4ddb394b32c)
-- [medium: Why Grafana: Part II](https://medium.com/lightspeed-venture-partners/why-grafana-part-ii-2e7e42e0f7bb)
-- [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin/)
 - [thenewstack.io: Grafana Adds Logging to Its Enterprise Observability Stack 🌟](https://thenewstack.io/grafana-adds-logging-to-its-enterprise-observability-stack/)
 - [openshift.com: Metrics-Driven Pod Constraints](https://www.openshift.com/blog/metrics-driven-pod-constraints)
 - [thenewstack.io: Grafana 7.5: Controversial Pie Charts and Loki Alerts](https://thenewstack.io/grafana-7-5-controversial-pie-charts-and-loki-alerts/)
@@ -41,16 +37,12 @@
 - [grafana.com: An advanced guide to network monitoring with Grafana and Prometheus](https://grafana.com/blog/2022/02/01/an-advanced-guide-to-network-monitoring-with-grafana-and-prometheus/)
 - [==devopscube.com: How To Setup Grafana On Kubernetes==](https://devopscube.com/setup-grafana-kubernetes/)
 - [infoq.com: Grafana Cloud Adds Incident and On-Call Management Solutions](https://www.infoq.com/news/2022/02/grafana-incident-oncall/)
-- [alexandrev.medium.com: Grafana Alerting vs AlertManager: A Comparison of Two Leading Monitoring Tools | Alex Vazquez](https://alexandrev.medium.com/grafana-alerting-vs-alertmanager-a-comparison-of-two-leading-monitoring-tools-5e262446a5f9)
 - [linkedin.com/pulse: Automatización de procesos con Prometheus, Grafana y WebHook: resolución autónoma de incidentes](https://www.linkedin.com/pulse/automatizaci%C3%B3n-de-procesos-con-prometheus-grafana-y-v%C3%ADctor-vela-l%C3%B3pez-1e/)
-- [devops.com: Grafana Labs Acquires Asserts.ai to Bring AI to Observability](https://devops.com/grafana-labs-acquires-assert-ai-to-bring-ai-to-observability/)
 - [grafana.com: Why companies choose Grafana Cloud over self-managed OSS stacks](https://grafana.com/blog/2023/10/16/why-companies-choose-grafana-cloud-over-self-managed-oss-stacks/)
 
 ## Grafana Agent
 
 - [grafana/agent: Grafana Agent](https://github.com/grafana/agent) Prometheus Metrics, Loki Logs, and Tempo Traces, optimized for Grafana Cloud.
-- [sid-infinity-yadav.medium.com: Grafana Agent Kubernetes Operator](https://sid-infinity-yadav.medium.com/grafana-agent-kubernetes-operator-f89b744487f5)
-- [levelup.gitconnected.com: Grafana Agent Flow: Simplifying Monitoring and Telemetry Collection for Kubernetes Clusters](https://levelup.gitconnected.com/exploring-grafana-agent-flow-simplifying-monitoring-for-kubernetes-2a06a92614)
 
 ## Grafana Faro
 
@@ -66,19 +58,14 @@
 - [Grafana Dashboards](https://grafana.com/grafana/dashboards)
 - [github.com/DevOps-Nirvana/Grafana-Dashboards](https://github.com/DevOps-Nirvana/Grafana-Dashboards) In this repository, you will find a variety of open-source Grafana dashboards, typically for AWS and Kubernetes
 - [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards)
-- [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)
 - [Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟](https://github.com/percona/grafana-dashboards)
-- [Prometheus Monitoring With Grafana. Prometheus Stats Dashboard and Prometheus Benchmark Dashboard](https://dzone.com/articles/prometheus-monitoring-with-grafana). How you construct your Prometheus monitoring dashboard involves trial and error. Grafana makes this exploration very easy and Prometheus has good built-in functionality.
 - [Popular community plugins that can improve your Grafana dashboards 🌟](https://grafana.com/blog/2020/08/26/popular-community-plugins-that-can-improve-your-grafana-dashboards/)
 - [CISCO DNA Center with Grafana Dashboard](https://hawar.no/2020/09/cisco-dna-center-with-grafana-dashboard/)
 - [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet/) Simple way how to make your dashboard easy to maintain.
 - [percona.com: Tips for Designing Grafana Dashboards](https://www.percona.com/blog/2019/11/22/designing-grafana-dashboards/)
 - [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/)
 - [github.com/kubevirt/monitoring](https://github.com/kubevirt/monitoring) KubeVirt monitoring dashboards. This repository collects Grafana dashboards for KubeVirt and Prometheus runbooks for alerts shipped with the KubeVirt stack.
-- [medium.com/@dotdc: A set of modern Grafana dashboards for Kubernetes 🌟](https://medium.com/@dotdc/a-set-of-modern-grafana-dashboards-for-kubernetes-4b989c72a4b2) In this article, I will present a set of modern Grafana dashboards I made for Kubernetes, explain why I decided to create them and how they work.
 - [grafana.com: Grafana dashboards: A complete guide to all the different types you can build](https://grafana.com/blog/2022/06/06/grafana-dashboards-a-complete-guide-to-all-the-different-types-you-can-build/)
-- [blog.bespinian.io: Creating Grafana Dashboards for Node.js Apps on Kubernetes](https://blog.bespinian.io/posts/creating-grafana-dashboards-for-nodejs-on-kubernetes/) While Grafana and Prometheus are relatively easy to understand, creating useful dashboards requires familiarity with PromQL and Prometheus’ data model. In this article, you'll learn how to create a dashboard for a Node.js app deployed on Kubernetes.
-- [medium.com/how-tos: How To Provisioning Dashboards In Grafana via Kubernetes](https://medium.com/how-tos/how-to-provisioning-dashboards-in-grafana-via-kubernetes-5d261508658d) Create a nice Dashboard that matches your needs
 - [==github.com/dotdc/grafana-dashboards-kubernetes== 🌟](https://github.com/dotdc/grafana-dashboards-kubernetes)
 - [github.com/onzack/grafana-dashboards](https://github.com/onzack/grafana-dashboards) Grafana Dashboards for Kubernetes, OpenShift and other systems
 
@@ -100,11 +87,6 @@ Message Streams like Kafka/Red Hat AMQ Streams|Other|[9777](https://grafana.com/
 ## Grafana Loki
 
 - [Grafana Loki](https://grafana.com/oss/loki/)
-- [itnext.io: Logging in Kubernetes with Loki and the PLG Stack](https://itnext.io/logging-in-kubernetes-with-loki-and-the-plg-stack-93b27c90ec34) Loki is a new log aggregation system from Grafana Labs. It is designed to be cost-effective and easy to operate. In this article, you learn more about Loki and how to use the PLG Stack (Promtail, Loki, Grafana) for logging in Kubernetes.
-- [medium.com/devopsturkiye: Deploy Grafana Loki and Promtail using ArgoCD](https://medium.com/devopsturkiye/deploy-grafana-loki-and-promtail-using-argocd-416b2fd4539f)
-- [faun.pub: Manage Grafana Loki alerting and recording rules using GitOps](https://faun.pub/manage-grafana-lokis-alerting-and-recording-rules-using-gitops-c26d06d772c6)
-- [cleancloud-k8s.com: Handling Multiline Logs with Loki and Fluent Bit on Kubernetes](https://cleancloud-k8s.com/2022/01/19/handling-multiline-logging-with-loki-and-fluent-bit-on-kubernetes/) In this blog post, you will learn how to handle multiline logs such as Java stack traces with Loki and Fluent Bit on Kubernetes.
-- [faun.pub: Grafana, Prometheus, and Loki: Exploring Metrics and Logs](https://faun.pub/grafana-prometheus-and-loki-exploring-metrics-and-logs-f198637784fc)
 
 ## Grafana Beyla
 
