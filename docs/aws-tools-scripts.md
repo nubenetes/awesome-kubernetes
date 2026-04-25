@@ -16,7 +16,6 @@
 
 - [AWS IP inventory](https://github.com/okelet/awsipinventory) Tool to generate an inventory of all IP addresses in use in an account, one or multiple VPC, or one or multiple subnet.
 - [dev.to: How to Copy a Security Group with Rules from one AWS Account to Another account](https://dev.to/dineshrathee12/how-to-copy-a-security-group-with-rules-from-one-aws-account-to-another-account-36mb)
-    - [CopySGFromOneAWSAccountToAnotherScript.py](https://github.com/dineshrathee12/CopySecurityGroupWithRulesFromOneAWSAccountToAnotherAWSAccount/blob/main/CopySGFromOneAWSAccountToAnotherScript.py)
 - [github.com/awslabs/assisted-log-enabler-for-aws: Assisted Log Enabler - Find resources that are not logging, and turn them on](https://github.com/awslabs/assisted-log-enabler-for-aws)
 - https://github.com/dannysteenman/aws-toolbox A collection of useful Shell & Python scripts that make your DevOps life easier in AWS. Furthermore you'll also find a list of links that point to awesome DevOps tools from other creators.
 - [saml-to/assume-aws-role-action](https://github.com/saml-to/assume-aws-role-action) Assume AWS IAM Roles using SAML.to in GitHub Actions. This action enables workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
@@ -46,7 +45,6 @@
 - [github.com/awslabs/amazon-s3-tar-tool: Amazon S3 Tar Tool](https://github.com/awslabs/amazon-s3-tar-tool) A utility tool to create a tarball of existing objects in Amazon S3
 - [==github.com/aws-samples/aws-cdk-stack-builder-tool==](https://github.com/aws-samples/aws-cdk-stack-builder-tool) AWS CDK Builder is a browser-based tool designed to streamline bootstrapping of Infrastructure as Code (IaC) projects using the AWS Cloud Development Kit (CDK).
 - [github.com/containerscrew/aws-sso-auth](https://github.com/containerscrew/aws-sso-auth) Fetch your local ~/.aws/credentials using AWS SSO
-- [==cloudcatalog.dev==](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
 - [==spacelift.io/blog/aws-s3-cp: AWS S3 Cp [Copy] Command Overview with Examples==](https://spacelift.io/blog/aws-s3-cp) Effectively working with S3 requires moving data in and out of S3 buckets efficiently, supporting use cases such as web hosting, content distribution, backups, archiving, media storage and streaming, and more. In this article, we will explore how to use the aws s3 cp command to transfer data between your local filesystem and the S3 buckets.
 - [github.com/infrahouse/infrahouse-toolkit](https://github.com/infrahouse/infrahouse-toolkit) A collection of tools for building infrastructure
 
@@ -83,8 +81,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Announcing the end of support for Python 2.7 in the AWS SDK for Python and AWS CLI v1](https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-python-2-7-in-aws-sdk-for-python-and-aws-cli-v1/)
 - [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/)
-- [medium: AWS CLI with jq and Bash](https://medium.com/circuitpeople/aws-cli-with-jq-and-bash-9d54e2eabaf1) The CLI is utilitarian, but a little jq sauce makes it beautiful
-- [aws.plainenglish.io: Lessons Learned From Switching to AWS SDK v3](https://aws.plainenglish.io/lessons-learned-from-switching-to-aws-sdk-v3-6babe1530a59) Dive into some lessons learned before you switch your Node.js lambda functions over to the latest and greatest
 - [blog.awsfundamentals.com: Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://blog.awsfundamentals.com/aws-s3-rm-removing-files)
 - [==dev.to/franciscogm: AWS CLI SSO made easy==](https://dev.to/franciscogm/aws-cli-sso-made-easy-3bh9)
 
@@ -92,7 +88,6 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 - [Amazon CodeWhisperer 🌟](https://aws.amazon.com/codewhisperer/) Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on developers’ comments in natural language and their code in the integrated development environment (IDE). During preview, CodeWhisperer is available for Java, JavaScript, and Python programming languages. The service integrates with multiple IDEs, including JetBrains (IntelliJ, PyCharm, and WebStorm), Visual Studio Code, AWS Cloud9, and the AWS Lambda console.
 - [genbeta.com: Amazon lanza CodeWhisperer, su propia alternativa a GitHub Copilot… que no insertará código ya licenciado sin avisar](https://www.genbeta.com/desarrollo/amazon-lanza-codewhisperer-su-propia-alternativa-a-github-copilot-que-no-insertara-codigo-licenciado-avisar)
-- [hashicorp.com: Accelerate your Terraform development with Amazon CodeWhisperer](https://www.hashicorp.com/blog/accelerate-your-terraform-development-with-amazon-codewhisperer)
 - [aws.amazon.com/blogs: Introducing Amazon CodeWhisperer for command line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/)
 
 ## AWS S3 Sync
