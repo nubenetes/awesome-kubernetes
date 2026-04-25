@@ -8,7 +8,7 @@ from src.autonomous_discovery import discover_trending_assets
 from src.gitops_manager import RepositoryController
 
 async def master_orchestrator():
-    time_horizon = datetime(2026, 4, 25, 11, 0, tzinfo=MADRID_TZ)
+    time_horizon = datetime(2024, 10, 5, 18, 36, tzinfo=MADRID_TZ)
     twitter_client = SocialDataExtractor()
     raw_social_links = await twitter_client.fetch_links_since(time_horizon)
     autonomous_links = await discover_trending_assets()
