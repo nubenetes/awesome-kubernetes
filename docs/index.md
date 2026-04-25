@@ -3,7 +3,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 [Nubenetes](https://nubenetes.com) is also available at [this other site](https://awesome-kubernetes.readthedocs.io/).
 
-"I do not believe you can do today's job with yesterday's methods and be in business tomorrow" ([Horatio Nelson Jackson](https://en.wikipedia.org/wiki/Horatio_Nelson_Jackson))
 <center>
 [![container_with_cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/) <br/>
 </center>
@@ -11,18 +10,7 @@ A curated list of awesome references collected since 2018. Microservices archite
 
 ## Motivation
 - [microservices.io](https://microservices.io/)
-- [cncf.io](https://www.cncf.io/)
     - [landscape.cncf.io](https://landscape.cncf.io/)
-    - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance/)
-    - [CNCF Reports](https://www.cncf.io/reports/)
-        - [CNCF Survey Report 2019](https://www.cncf.io/wp-content/uploads/2020/03/CNCF_Survey_Report.pdf)
-        - [CNCF Survey Report 2020](https://www.cncf.io/wp-content/uploads/2020/11/CNCF_Survey_Report_2020.pdf)
-        - [CNCF Survey Report 2021](https://www.cncf.io/wp-content/uploads/2021/12/Q1-2021-State-of-Cloud-Native-development-FINAL.pdf) - [CNCF Publishes State of Cloud Native Development Report](https://www.infoq.com/news/2022/01/ -cncf-state-of-cloud-native) - [CNCF Sees Record Kubernetes and Container Adoption](https://www.cncf.io/announcements/2022/02/10/cncf-sees-record-kubernetes-and-container-adoption-in-2021-cloud-native-survey/)
-- [State of DevOps Reports](https://puppet.com/resources/?refinementList%5Btype%5D%5B0%5D=Report&page=1&configure%5BhitsPerPage%5D=18)
-    - [2020 State of DevOps Report](https://puppet.com/resources/report/2020-state-of-devops-report)
-    - [2020 DevOps Salary Report](https://puppet.com/resources/report/2020-devops-salary-report)
-    - [2021 State of DevOps Report: A decade of DevOps](https://puppet.com/resources/report/2021-state-of-devops-report)
-    - [2021 Gartner Report Top Trends Infra & Operations](https://puppet.com/resources/report/gartner-report-top-trends-impacting-infrastructure-and-operations-for-2021)
 - [CRI-O Lightweight Container Runtime for Kubernetes](https://cri-o.io/)
 - [Open Container Initiative](https://www.opencontainers.org/)
 - [agilemethodology.org](http://agilemethodology.org/)
@@ -36,36 +24,21 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
     - [2021](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
     - [2022 🌟](https://survey.stackoverflow.co/2022/) - [betterprogramming.pub](https://betterprogramming.pub/stack-overflow-2022-developer-survey-where-is-the-industry-heading-3cd4a0cd41f3)
-- [Stack Overflow Collectives](https://stackoverflow.com/collectives) Communities for your favorite technologies
-    - [Go Collective](https://stackoverflow.com/collectives/go)
-    - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)
-    - [Google Cloud Collective](https://stackoverflow.com/collectives/google-cloud)
-    - [AWS Collective](https://stackoverflow.com/collectives/aws)
-    - [Azure Collective](https://stackoverflow.com/collectives/azure)
-    - [CI/CD Collective](https://stackoverflow.com/collectives/ci-cd)
-    - [WSO2 Collective](https://stackoverflow.com/collectives/wso2)
     - etc
 - [Open Source Guides](https://opensource.guide/)
 - [The Open Group: Making Standards Work](https://www.opengroup.org/) - [publications.opengroup.org](http://publications.opengroup.org/) - [The TOGAF® Standard, a standard of The Open Group](https://www.opengroup.org/togaf)
-- [How Your Application Architecture Has Evolved 🌟](https://dzone.com/articles/how-your-application-architecture-evolved)
-- [==Kubernetes magic is in enterprise standardization, not app portability==](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability/)
 - [A new role to emerge: Kubernetes Manager (KubeMaster) 🌟](https://containerjournal.com/features/the-rise-of-the-kubemaster/)
-- [An emerging Job: Kubernetes engineer 🌟](https://www.cncf.io/blog/2022/03/03/an-emerging-job-kubernetes-engineer/)
 - [Google DORA Report: State of DevOps 2021 🌟](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report) How to accelerate DevOps - [summary 1](https://devops.com/google-dora-report-shows-modest-devops-gains/) - [summary 2](https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need)
 - [Top GitHub Users By Country](https://github.com/gayanvoice/top-github-users)
 - [Red Hat automation glossary 🌟](https://www.redhat.com/en/blog/red-hat-automation-glossary)
 - [The rise of the automation architect](https://www.redhat.com/sysadmin/automation-architects)
-- [Automation is the future of cloud cost optimization](https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/)
-- [The Rise of Modern Day Kubernetes Operations](https://vmblog.com/archive/2021/10/07/the-rise-of-modern-day-kubernetes-operations.aspx)
 - [The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes/)
 - [10 Cloud Deficiencies You Should Know](https://thenewstack.io/10-cloud-deficiencies-you-should-know/)
-- [==How to Explain Kubernetes to a Business Team==](https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team)
 - [==Pets vs. Cattle: The Future of Kubernetes in 2022==](https://traefik.io/blog/pets-vs-cattle-the-future-of-kubernetes-in-2022)
 - [dok.community: DoKC Data on Kubernetes](https://dok.community)
 - [A Kubernetes Documentary Shares Google’s Open Source Story](https://thenewstack.io/a-kubernetes-documentary-shares-googles-open-source-story/)
 - [==Infrastructure as Code in DevOps==](https://alpacked.io/blog/infrastructure-as-code-for-devops/)
 - [Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/)
-- [dzone.com/trendreports](https://dzone.com/trendreports)
 - [kube.events](https://kube.events) A curated list of Kubernetes-related events such as meetups, conferences, training & webinars that you will find interesting to attend
 - [The future of Kubernetes – and why developers should look beyond Kubernetes in 2022](https://www.eficode.com/blog/the-future-of-kubernetes-and-why-developers-should-look-beyond-kubernetes-in-2022)
 - [cloudtechtwitter.com: Introduction to Kubernetes 🌟](https://www.cloudtechtwitter.com/2022/05/dont-miss-next-article-be-first-to-be.html)
@@ -78,34 +51,25 @@ A curated list of awesome references collected since 2018. Microservices archite
     - K3s
     - Events
 - [thenewstack.io: What We Learned from Enabling Developer Self-Service 🌟](https://thenewstack.io/what-we-learned-from-enabling-developer-self-service/)
-- [dzone: Kubernetes in the Enterprise - Trend Report](https://dzone.com/trendreports/kubernetes-in-the-enterprise-1)
 - [Struggling with IT Staff Leaving? Try Infrastructure as Code 🌟](https://thenewstack.io/struggling-with-it-staff-leaving-try-infrastructure-as-code/)
 - [learnk8s.io/learn-kubernetes-weekly 🌟](https://learnk8s.io/learn-kubernetes-weekly)
 - [infoworld.com: Cloud architects are afraid of automation](https://www.infoworld.com/article/3679250/cloud-architects-are-afraid-of-automation.html) Automation is one of the greatest gifts to cloud architecture, operations, security, and finops. Yet, many architects still are reluctant to use it. What's so scary?
 - [infoworld.com: The biggest obstacle to cloud is people](https://www.infoworld.com/article/3653371/the-biggest-obstacle-to-cloud-is-people.html) People and culture prevent many businesses from capturing the true value of cloud computing. Transforming organizational culture and revamping KPIs can help.
 - [Droogans/How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code) Ensure a job for life ;-)
-- [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
 - [github.com/metaleapca: metaleap-devops-in-k8s.pdf](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)
 - [github.com/metaleapca: metaleap-k8s-troubleshooting.pdf](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf)
-- [devops.com: Declarative Compliance With Policy-as-Code and GitOps 🌟](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/)
 - [serverlessland.com: EDA VISUALS](https://serverlessland.com/event-driven-architecture/visuals) Small bite sized visuals about event-driven architectures
-- [dzone: The Essentials of GitOps 🌟](https://dzone.com/refcardz/the-essentials-of-gitops)
-- [dzone.com: REST vs. Messaging for Microservices](https://dzone.com/articles/rest-vs-messaging-for-microservices)
 - [The Next Kubernetes Management Frontier: Automation](https://thenewstack.io/the-next-kubernetes-management-frontier-automation/) Automation Is No Longer a “Nice to Have”
 - [redis.com: Microservice Architecture Key Concepts](https://redis.com/blog/microservice-architecture-key-concepts/)
 - [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse/)
-- [Software Deployment Best Practices in 2023](https://dzone.com/articles/software-deployment-best-practices) Explore the best software development practices that are the proven catalysts for innovation and growth.
 - [==DevOps-Books== 🌟](https://github.com/DevOps-Projects-Ideas/DevOps-Books)
 - [community.aws/kubernetes](https://community.aws/kubernetes) Kubernetes at AWS! Welcome to the hub for all things Kubernetes at AWS.
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
-- [cloudcatalog.dev](https://www.cloudcatalog.dev) Documentation tool for AWS Architectures. CloudCatalog is an Open Source project that helps you document your AWS resources, services and assign owners.
 - [platformengineering.org](https://platformengineering.org) The global home for Platform Engineers
 - [Azure DevOps vs GitHub Actions: Which is the best CI/CD tool?](https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool)
 - [Redefining Virtualization in the VMware Acquisition Era](https://chaoslever.com/cl-20240118/)
 - [Do Kubernetes Certs Prepare You For Real-World Production?](https://packetpushers.net/podcasts/kubernetes-unpacked/ku046-do-kubernetes-certs-prepare-you-for-real-world-production/)
-- [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)
 - [dagger.io](https://dagger.io) CI/CD as Code that Runs Anywhere.
-- [Bus factor](https://en.wikipedia.org/wiki/Bus_factor) The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, derived from the phrase "in case they get hit by a bus".
 - [seal.io: Open Source Platform Engineering for Dev & Ops](https://www.seal.io/)
 - [==k8sgpt.ai==](https://k8sgpt.ai/) K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
 - [github.com/topics/gitops](https://github.com/topics/gitops)
@@ -228,7 +192,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
 - [Client Libraries for Kubernetes: Go client, Python, Fabric8, JKube & Java Operator SDK](kubernetes-client-libraries.md)
 - [Database Version Control. Liquibase, Flyway and PlanetScale](liquibase.md)
-- [redhat-cop: Openshift Applier](https://dzone.com/articles/gitops-with-openshift-applier)
 - [YAML and JSON 🌟](yaml.md)
 ## Databases on Kubernetes
 - [Relational Databases and Database DevOps 🌟](databases.md)
@@ -273,7 +236,6 @@ A curated list of awesome references collected since 2018. Microservices archite
 - [Digital Ocean](digitalocean.md)
 - [Cloudflare](cloudflare.md)
 - [Scaleway](scaleway.md)
-- [Linode](https://www.linode.com/)
 - [Alibaba](https://www.alibabacloud.com/)
 - [Symbiosis](https://symbiosis.host/)
 - [Gaia-X.eu](https://www.gaia-x.eu)
