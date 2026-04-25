@@ -12,17 +12,14 @@
 - [freecodecamp.org: How to Optimize your AWS Cloud Architecture Costs](https://www.freecodecamp.org/news/cost-optimization-in-aws/)
 - [aws.amazon.com: Amazon S3 Glacier Price Reduction](https://aws.amazon.com/es/blogs/aws/amazon-s3-glacier-price-reduction/)
 - [infoq.com: AWS Announces Lower Cost Storage Classes for Amazon Elastic File System](https://www.infoq.com/news/2021/03/aws-efs-one-zone-storage-classes/)
-- [dzone: Understanding AWS Costs](https://dzone.com/articles/understanding-aws-costs) In this article, I'll provide a comprehensive guide on how to understand your AWS costs and needs.
 - [thenewstack.io: 7 Tips for Cutting Down Your AWS Kubernetes Bill](https://thenewstack.io/7-tips-for-cutting-down-your-aws-kubernetes-bill/)
 - [cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation (EKS)](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) A guide to intelligently allocating Kubernetes costs with EKS
 - [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans/)
-- [dzone: A Guide on Estimating AWS EC2 Workloads for a Microservice Application](https://dzone.com/articles/a-guide-on-estimating-aws-ec2-workloads-for-a-micr) AWS EC2 instance costs can be a significant part of the cloud bill, so it's always a good idea to estimate the workloads using the AWS pricing calculator.
 - [Visualize and gain insights into your AWS cost and usage with Cloud Intelligence Dashboards and CUDOS using Amazon QuickSight](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-cloud-intelligence-dashboards-using-amazon-quicksight)
 - [blog.cloud-mercato.com: AWS m6i: The why you should abandon your m5](https://blog.cloud-mercato.com/aws-m6i-the-why-you-should-abandon-your-m5/)
 - [aws.amazon.com: Exploring Data Transfer Costs for AWS Managed Databases](https://aws.amazon.com/blogs/architecture/exploring-data-transfer-costs-for-aws-managed-databases)
 - [==cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check==](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check/)
 - [AWS Announces Data Transfer Price Reduction for AWS PrivateLink, AWS Transit Gateway, and AWS Client VPN services](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-data-transfer-price-reduction-privatelink-transit-gateway-client-vpn-services/?nc1=h_ls)
-- [topcloudops.com: Optimizing AWS RDS Cost](https://topcloudops.com/blog-detail?id=030b1031-8bc8-4bc5-8f7a-417950005b97) Ways of reducing RDS cost
 
 ## AWS Calculator
 
