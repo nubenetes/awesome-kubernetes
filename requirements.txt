@@ -1,5 +1,5 @@
 twikit==1.7.6
-pydantic-ai[gemini]
+pydantic-ai
 google-generativeai
 PyGithub
 aiohttp
@@ -7,5 +7,4 @@ beautifulsoup4
 pytz
 python-dotenv
 pydantic>=2.7.0
-logfire
 httpx

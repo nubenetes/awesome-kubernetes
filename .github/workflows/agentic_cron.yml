@@ -20,6 +20,10 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+      - name: Instalación de dependencias del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y protobuf-compiler
       - name: Instalación del Árbol de Dependencias
         run: |
           python -m pip install --upgrade pip
