@@ -105,6 +105,7 @@
 100. [AI Tools](#ai-tools)
 101. [Tweets](#tweets)
 102. [Videos](#videos)
+103. [K8Studio](#k8studio)
 
 ## Introduction
 
@@ -152,6 +153,7 @@
 - [==kubectx + kubens: : Power tools for kubectl==🌟🌟](https://github.com/ahmetb/kubectx) Faster way to switch between clusters and namespaces in kubectl
 - [go-kubectx](https://github.com/aca/go-kubectx) 5x-10x faster alternative to kubectx. Uses client-go.
 - [kubevious: application centric Kubernetes UI 🌟](https://kubevious.io/) is open-source software that provides a usable and highly graphical interface for Kubernetes. Kubevious renders all configurations relevant to the application in one place.
+- [KubeStellar Console 🌟](https://console.kubestellar.io) Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations. CNCF Sandbox project.
     - [Kubevious SaaS: portal.kubevious.io](https://portal.kubevious.io/)
     - [Kubevious SaaS Beta is Live!](https://kubevious.io/blog/post/kubevious-saas-beta-launch)
     - [==kubevious.io: Built-in Validators==](https://kubevious.io/docs/built-in-validators/) Kubevious comes with 32 build-in validators to detect misconfigurations and violations to Kubernetes and Cloud-Native best practices.
@@ -785,6 +787,23 @@ elastic quotas - Effortless optimization at its finest!
 - [youtube: From Code to Cloud: Quality Kubernetes Deployments with Monokle | Cloud Native Islamabad](https://www.youtube.com/watch?v=7IFAg782pf8)
     - Create, debug, and implement OPA validation of the necessary YAML resource manifests for proper
     - See how the application behaves in Prod
+
+## K8studio
+
+- [==k8studio==](https://k8studio.io) — Your friendly, full-featured desktop IDE for Kubernetes clusters and manifests!
+- [medium.com: K8Studio 3.x Release](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c) — K8Studio helps you **create, validate, debug, and manage** Kubernetes manifests and live clusters with a powerful UI and built-in AI Copilot.
+- [youtube: From Code to Cluster — Modern Kubernetes Workflows with K8Studio](https://youtu.be/1RTTEUEl9sc)  
+    - Visualize your clusters with **CloudMaps / Heatmaps**  
+    - Work faster with **Grid View** and real-time filtering  
+    - Manage multi-cluster setups with **custom layouts**  
+    - Edit YAML or use **Quick Editors** (forms + live preview)  
+    - Drill into **RBAC & Permissions**  
+    - Explore logs with advanced multi-container **Logs Viewer**  
+    - Monitor resources via built-in **Prometheus integration**  
+    - Get contextual help from **AI Copilot**  
+    - Built-in **Terminal** with full `kubectl` context  
+    - View object timelines & security posture at a glance  
+
 
 ## KubeLibrary
 
