@@ -4,11 +4,11 @@ from typing import List, Optional
 from src.config import NUBENETES_CATEGORIES
 
 class LinkEvaluationResult(BaseModel):
-    is_exceptional_value: bool = Field(description="¿Es un recurso avanzado o disruptivo?")
-    category_assignments: List[str] = Field(description="Lista de categorías/archivos donde encaja este recurso.", min_items=1)
-    canonical_title: str = Field(description="Título formal y directo.")
-    technical_description: str = Field(description="Descripción técnica de máx 150 caracteres.")
-    evaluation_rationale: str = Field(description="Razonamiento de la decisión.")
+    is_exceptional_value: bool = Field(description="¿Es un recurso avanzado o disruptivo para el ecosistema Kubernetes/SRE?")
+    category_assignments: List[str] = Field(description="Lista de categorías donde encaja este recurso.", min_items=1)
+    canonical_title: str = Field(description="Título formal y directo, omitiendo lenguaje de marketing.")
+    technical_description: str = Field(description="Descripción técnica de máx 150 caracteres enfocada en la utilidad.")
+    evaluation_rationale: str = Field(description="Razonamiento interno justificando la decisión de retener o purgar el enlace.")
 
 # NOTA: En versiones recientes de pydantic-ai, result_type se pasa al ejecutar .run() 
 # o se define en la configuración del agente según la versión. 

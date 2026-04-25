@@ -6,3 +6,5 @@ aiohttp
 beautifulsoup4
 pytz
 python-dotenv
+pydantic>=2.7.0
+logfire
