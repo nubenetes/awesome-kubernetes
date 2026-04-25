@@ -75,6 +75,7 @@
 - [==yamllint.com: YAML Lint - The YAML Validator==](http://www.yamllint.com)
 - [==codebeautify.org/yaml-validator==](https://codebeautify.org/yaml-validator)
 - [==jsonformatter.org/yaml-validator==](https://jsonformatter.org/yaml-validator)
+- [==yamlvalidator.dev: YAML Validator==](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg) - Online YAML validator, formatter and viewer with built-in Kubernetes JSON Schema validation. The Chrome extension also adds YAML code folding on GitHub.
 
 ### Other YAML Tools. How to create Kubernetes YAML files
 
