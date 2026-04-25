@@ -17,56 +17,60 @@ async def master_orchestrator():
     except:
         time_horizon = datetime(2024, 10, 5, 18, 36, tzinfo=MADRID_TZ)
 
-    print(f">>> Iniciando curaduría desde: {time_horizon}")
+    print(f"[*] Iniciando ciclo agéntico. Horizonte: {time_horizon}")
 
-    # 1. Obtención de datos
+    # 1. Ingesta
     twitter_client = SocialDataExtractor()
-    raw_social_links = await twitter_client.fetch_links_since(time_horizon)
-    autonomous_links = await discover_trending_assets()
+    raw_social = await twitter_client.fetch_links_since(time_horizon)
+    trending = await discover_trending_assets()
     
-    # 2. Evaluación con IA
-    curated_social_links = await evaluate_extracted_assets(raw_social_links)
-    total_new_assets = curated_social_links + autonomous_links
+    # 2. IA - Evaluación y Clasificación
+    curated = await evaluate_extracted_assets(raw_social)
+    all_new_assets = curated + trending
     
-    # 3. Preparar cambios
+    # 3. Saneamiento y Aplicación Global
     markdown_sanitizer = MarkdownSanitizer()
     file_updates = {}
-    
-    # Identificar qué archivos necesitan ser procesados
-    categories_to_update = set([a["category"] for asset in total_new_assets])
-    
-    # 4. Procesar inyecciones y saneamiento
+    global_stats = {"fixed": 0, "removed": 0, "duplicates": 0, "new": 0}
+
     for category in NUBENETES_CATEGORIES:
         file_path = f"docs/{category}.md"
         try:
             repo_file = git_controller.repository.get_contents(file_path)
             content = repo_file.decoded_content.decode("utf-8")
             
-            # Saneamiento (siempre lo hacemos para mantener la salud)
-            new_content = await markdown_sanitizer.sanitize_document(content)
+            # Saneamiento inteligente (Redirecciones + Borrado de muertos)
+            purified, stats = await markdown_sanitizer.sanitize_document(content)
             
-            # Inyección si hay activos para esta categoría
-            for asset in total_new_assets:
+            # Inyección de novedades
+            final_content = purified
+            for asset in all_new_assets:
                 if asset["category"] == category:
-                    new_content = markdown_sanitizer.inject_curated_link(
-                        new_content, category, asset["title"], asset["url"], asset["description"]
+                    prev_content = final_content
+                    final_content = markdown_sanitizer.inject_curated_link(
+                        final_content, category, asset["title"], asset["url"], asset["description"]
                     )
-            
-            if new_content.strip() != content.strip():
-                file_updates[file_path] = new_content
+                    if final_content != prev_content:
+                        global_stats["new"] += 1
+
+            # Consolidar estadísticas
+            for k in ["fixed", "removed", "duplicates"]:
+                global_stats[k] += stats[k]
+
+            if final_content.strip() != content.strip():
+                file_updates[file_path] = final_content
         except:
             continue
 
-    # 5. Aplicar cambios vía GitOps
+    # 4. GitOps - Entrega de Valor
     if file_updates:
-        metrics = {
-            "social_injections": len(curated_social_links),
-            "autonomous_injections": len(autonomous_links)
-        }
-        git_controller.apply_multi_file_changes(file_updates, metrics)
-        print(f">>> Éxito: PR abierta con cambios en {len(file_updates)} archivos.")
+        git_controller.apply_multi_file_changes(file_updates, global_stats)
+        print(f"[+] Proceso completado. PR generada con {len(file_updates)} archivos mejorados.")
+        print(f"    - Enlaces actualizados (Redir): {global_stats['fixed']}")
+        print(f"    - Enlaces eliminados (Muertos): {global_stats['removed']}")
+        print(f"    - Enlaces nuevos: {global_stats['new']}")
     else:
-        print(">>> Sin cambios necesarios.")
+        print("[~] No hay cambios necesarios en este ciclo.")
 
 if __name__ == "__main__":
     asyncio.run(master_orchestrator())

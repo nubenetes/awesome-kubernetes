@@ -5,18 +5,19 @@ from src.config import NUBENETES_CATEGORIES
 
 class LinkEvaluationResult(BaseModel):
     is_exceptional_value: bool = Field(description="¿Es un recurso avanzado o disruptivo?")
-    category_assignment: Optional[str] = Field(description="Categoría asignada.", enum=NUBENETES_CATEGORIES)
-    canonical_title: str = Field(description="Título formal.")
-    technical_description: str = Field(description="Descripción técnica corta.")
+    category_assignments: List[str] = Field(description="Lista de categorías/archivos donde encaja este recurso.", min_items=1)
+    canonical_title: str = Field(description="Título formal y directo.")
+    technical_description: str = Field(description="Descripción técnica de máx 150 caracteres.")
     evaluation_rationale: str = Field(description="Razonamiento de la decisión.")
 
 curation_agent = Agent(
     'google-gla:gemini-2.0-flash-exp',
     result_type=LinkEvaluationResult,
     system_prompt=(
-        "Actúas como el Ingeniero Curador Principal para 'nubenetes/awesome-kubernetes'. "
-        "Descarta tutoriales genéricos. Privilegia Agentes de IA, Model Context Protocol (MCP), automatización avanzada, GitOps y operadores K8s. "
-        "Usa una categoría existente. Redacta descripciones asépticas y técnicas."
+        "Actúas como el Ingeniero Curador Principal de 'nubenetes/awesome-kubernetes'. "
+        "Tu misión es filtrar recursos de altísima calidad sobre K8s, Agentes de IA, MCP y Cloud Native. "
+        "Puedes asignar un recurso a MÁS DE UNA categoría si es estrictamente necesario, pero intenta ser preciso. "
+        "Categorías válidas: " + ", ".join(NUBENETES_CATEGORIES)
     )
 )
 
@@ -26,14 +27,16 @@ async def evaluate_extracted_assets(raw_assets: list[dict]) -> list[dict]:
         cognitive_prompt = f"Evalúa este candidato:\nURL: {asset['url']}\nContexto: {asset['context']}"
         try:
             response = await curation_agent.run(cognitive_prompt)
-            evaluation = response.data
-            if evaluation.is_exceptional_value and evaluation.category_assignment:
-                curated_assets.append({
-                    "url": asset["url"],
-                    "title": evaluation.canonical_title,
-                    "description": evaluation.technical_description,
-                    "category": evaluation.category_assignment
-                })
+            ev = response.data
+            if ev.is_exceptional_value:
+                for cat in ev.category_assignments:
+                    if cat in NUBENETES_CATEGORIES:
+                        curated_assets.append({
+                            "url": asset["url"],
+                            "title": ev.canonical_title,
+                            "description": ev.technical_description,
+                            "category": cat
+                        })
         except Exception as e:
             print(f"Error evaluando {asset['url']}: {str(e)}")
     return curated_assets

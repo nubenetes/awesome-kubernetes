@@ -1,70 +1,89 @@
 import re
 import aiohttp
 import asyncio
+from typing import Tuple, Optional
 
 class MarkdownSanitizer:
     def __init__(self):
+        # Captura [texto](url)
         self.link_pattern = re.compile(r'\[([^\]]+)\]\((https?://[^\)]+)\)')
 
-    async def _verify_link_health(self, session: aiohttp.ClientSession, url: str) -> bool:
+    async def _check_url_robust(self, session: aiohttp.ClientSession, url: str, retries: int = 3) -> Tuple[bool, Optional[str]]:
+        """
+        Retorna (is_alive, final_url). 
+        Si final_url es distinto a url, significa que hubo una redirección permanente.
+        """
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        try:
-            async with session.head(url, timeout=15, allow_redirects=True, headers=headers) as response:
-                if response.status < 400:
-                    return True
-                if response.status in [404, 405]:
-                    async with session.get(url, timeout=15, headers=headers) as get_resp:
-                        return get_resp.status < 400
-        except:
-            return False
-        return False
+        for attempt in range(retries):
+            try:
+                async with session.get(url, timeout=20, allow_redirects=True, headers=headers) as response:
+                    if response.status < 400:
+                        final_url = str(response.url).rstrip('/')
+                        original_url = url.split('#')[0].rstrip('/')
+                        if final_url != original_url and response.status in [301, 308]:
+                            return True, str(response.url) # Actualización recomendada
+                        return True, None
+                    if response.status >= 500: # Error de servidor, reintentar
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+                    return False, None
+            except:
+                if attempt < retries - 1:
+                    await asyncio.sleep(2 ** attempt)
+                    continue
+        return False, None
 
-    async def sanitize_document(self, markdown_content: str) -> str:
-        all_links = self.link_pattern.findall(markdown_content)
-        unique_url_registry = set()
-        duplicates_flagged = set()
-        unique_link_pairs = []
-          
-        for text, url in all_links:
-            clean_url = url.split('#')[0].rstrip('/')
-            if clean_url in unique_url_registry:
-                duplicates_flagged.add((text, url))
-            else:
-                unique_url_registry.add(clean_url)
-                unique_link_pairs.append((text, url))
+    async def sanitize_document(self, markdown_content: str) -> Tuple[str, dict]:
+        lines = markdown_content.splitlines()
+        new_lines = []
+        stats = {"fixed": 0, "removed": 0, "duplicates": 0}
+        seen_in_file = set()
 
-        healthy_urls = set()
-        connector = aiohttp.TCPConnector(limit=50)
+        connector = aiohttp.TCPConnector(limit=30)
         async with aiohttp.ClientSession(connector=connector) as session:
-            tasks = [self._verify_link_health(session, url) for _, url in unique_link_pairs]
-            health_results = await asyncio.gather(*tasks)
-            
-            for (text, url), is_healthy in zip(unique_link_pairs, health_results):
-                if is_healthy:
-                    healthy_urls.add(url.split('#')[0].rstrip('/'))
+            for line in lines:
+                match = self.link_pattern.search(line)
+                if not match:
+                    new_lines.append(line)
+                    continue
 
-        reconstructed_lines = []
-        for line in markdown_content.splitlines():
-            links_in_line = self.link_pattern.findall(line)
-            should_retain_line = True
-            for txt, uri in links_in_line:
-                clean_uri = uri.split('#')[0].rstrip('/')
-                if (txt, uri) in duplicates_flagged or clean_uri not in healthy_urls:
-                    should_retain_line = False
-                    if (txt, uri) in duplicates_flagged:
-                        duplicates_flagged.remove((txt, uri))
-                    break
-            if should_retain_line:
-                reconstructed_lines.append(line)
-        return "\n".join(reconstructed_lines)
+                text, url = match.groups()
+                clean_url = url.split('#')[0].rstrip('/')
+
+                # 1. Check Duplicados dentro del mismo archivo
+                if clean_url in seen_in_file:
+                    stats["duplicates"] += 1
+                    continue # Eliminar duplicado literal
+                
+                # 2. Check Salud e Inteligencia de redirección
+                is_alive, new_url = await self._check_url_robust(session, url)
+                
+                if is_alive:
+                    seen_in_file.add(clean_url)
+                    if new_url: # El enlace se ha movido permanentemente
+                        line = line.replace(url, new_url)
+                        stats["fixed"] += 1
+                    new_lines.append(line)
+                else:
+                    stats["removed"] += 1
+                    # No añadimos la línea, por lo que se elimina
+
+        return "\n".join(new_lines), stats
 
     def inject_curated_link(self, markdown_text: str, category: str, title: str, url: str, description: str) -> str:
+        # Evitar duplicados antes de inyectar
+        if url.split('#')[0].rstrip('/') in markdown_text:
+            return markdown_text
+
         new_entry = f"  - [{title}]({url}) - {description}"
         lines = markdown_text.splitlines()
-        for index, line in enumerate(lines):
+        
+        # Buscar el mejor sitio (debajo del encabezado de la categoría o al final)
+        for i, line in enumerate(lines):
             if category.lower() in line.lower() and (line.startswith("#") or line.startswith("-")):
-                lines.insert(index + 1, new_entry)
+                lines.insert(i + 1, new_entry)
                 return "\n".join(lines)
-        lines.append(f"\n### {category}")
+        
+        lines.append(f"\n## {category}\n")
         lines.append(new_entry)
         return "\n".join(lines)
