@@ -15,7 +15,7 @@ curation_agent = Agent(
     result_type=LinkEvaluationResult,
     system_prompt=(
         "Actúas como el Ingeniero Curador Principal para 'nubenetes/awesome-kubernetes'. "
-        "Descarta tutoriales genéricos. Privilegia automatización, GitOps, Service Meshes y operadores. "
+        "Descarta tutoriales genéricos. Privilegia Agentes de IA, Model Context Protocol (MCP), automatización avanzada, GitOps y operadores K8s. "
         "Usa una categoría existente. Redacta descripciones asépticas y técnicas."
     )
 )
