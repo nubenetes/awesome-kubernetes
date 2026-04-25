@@ -170,8 +170,14 @@ Kui enriches the good old terminal experience with GUI features, giving you a di
 
 ### Monokle
 
-- [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
+- [k8studio.github.io/k8studio](https://github.com/K8Studio/K8studio) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
 - [medium.com/kubeshop-i: Monokle vs. Lens vs. K9s 🌟](https://medium.com/kubeshop-i/monokle-vs-lens-vs-k9s-1d5d94d84b5c) Finding the right tools to optimize Kubernetes deployment workflows is challenging. Here’s a look at what these key players offer to handle everything from configuration tasks to cluster management.
+
+
+### K8Studio
+
+- [kubeshop.github.io/monokle](https://kubeshop.github.io/monokle/) Welcome to Monokle - your friendly desktop UI for managing k8s manifests!
+- [k8studio.io/blogs: K8studio vs. Lens vs. K9s 🌟](https://k8studio.io/blogs/k8studio-vs-lens-kubernetes-ide/) K8studio vs Lens and K9s, probably the best tool to manage kubernetes
 
 ### Lens and OpenLens Kubernetes IDE
 

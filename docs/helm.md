@@ -114,6 +114,7 @@
 - [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values) Every now and then you’ll need to use the `--reset-values` and `--reuse-values` flags when running a Helm upgrade. Let's dive into how they actually work and also look at a gotcha when the values of a chart have changed in-between upgrades
 - [==blog.devops.dev: Stop cloning helm charts! Enough!== 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)
 - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)
+- [medium.com/gquiman: K8Studio, Helm and Kubernetes management](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c)
 - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
 - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) In this tutorial, you will learn the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
 - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)

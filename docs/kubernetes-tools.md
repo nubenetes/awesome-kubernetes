@@ -104,6 +104,7 @@
 99. [AI Tools](#ai-tools)
 100. [Tweets](#tweets)
 101. [Videos](#videos)
+102. [K8Studio](#k8studio)
 
 ## Introduction
 
@@ -780,6 +781,23 @@ elastic quotas - Effortless optimization at its finest!
 - [youtube: From Code to Cloud: Quality Kubernetes Deployments with Monokle | Cloud Native Islamabad](https://www.youtube.com/watch?v=7IFAg782pf8)
     - Create, debug, and implement OPA validation of the necessary YAML resource manifests for proper
     - See how the application behaves in Prod
+
+## K8studio
+
+- [==k8studio==](https://k8studio.io) — Your friendly, full-featured desktop IDE for Kubernetes clusters and manifests!
+- [medium.com: K8Studio 3.x Release](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c) — K8Studio helps you **create, validate, debug, and manage** Kubernetes manifests and live clusters with a powerful UI and built-in AI Copilot.
+- [youtube: From Code to Cluster — Modern Kubernetes Workflows with K8Studio](https://youtu.be/1RTTEUEl9sc)  
+    - Visualize your clusters with **CloudMaps / Heatmaps**  
+    - Work faster with **Grid View** and real-time filtering  
+    - Manage multi-cluster setups with **custom layouts**  
+    - Edit YAML or use **Quick Editors** (forms + live preview)  
+    - Drill into **RBAC & Permissions**  
+    - Explore logs with advanced multi-container **Logs Viewer**  
+    - Monitor resources via built-in **Prometheus integration**  
+    - Get contextual help from **AI Copilot**  
+    - Built-in **Terminal** with full `kubectl` context  
+    - View object timelines & security posture at a glance  
+
 
 ## KubeLibrary
 
