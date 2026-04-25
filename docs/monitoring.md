@@ -53,15 +53,10 @@
 
 ## Monitoring and Observability
 
-- [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
 - [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring/)
 - [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
-- [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e) Kubernetes handles containers in several computers, removing the complexity of handling distributed processing. But what's the best way to perform Kubernetes monitoring?
 - [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)
-- [Dzone: Comparison of Open Source API Analytics and Monitoring Tools 🌟](https://dzone.com/articles/comparison-of-open-source-api-analytics-and-monito) There are a variety of open-source projects you can leverage to build a complete API analytics platform. This articles compares them.
 - [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://sysdig.com/blog/kubernetes-monitoring-best-practices/)
-- [CNCF End User Technology Radar: Observability, September 2020 🌟](https://www.cncf.io/blog/2020/09/11/cncf-end-user-technology-radar-observability-september-2020/)
-- [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)
 - [instana.com: The Hidden Cost of Observability: Data Volume](https://www.instana.com/blog/cf-the-hidden-cost-of-observability-data-volume/)
 - [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design/)
 - [bravenewgeek.com: The Observability Pipeline](https://bravenewgeek.com/the-observability-pipeline/)
@@ -73,35 +68,22 @@
 - [dashbird.io: Monitoring vs Observability: Can you tell the difference? 🌟](https://dashbird.io/blog/monitoring-vs-observability/)
 - [thenewstack.io: Monitoring as Code: What It Is and Why You Need It 🌟](https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it/)
 - [thenewstack.io: Observability Won’t Replace Monitoring (Because It Shouldn’t) 🌟](https://thenewstack.io/observability-wont-replace-monitoring-because-it-shouldnt/)
-- [devopscurry.com: Understanding Container Monitoring and popular Container Monitoring Tools in 2021](https://devopscurry.com/understaning-container-monitoring-and-popular-container-monitoring-tools-in-2021/)
-- [matiasmct.medium.com: Observability at Scale](https://matiasmct.medium.com/observability-at-scale-52d0d9a5fb9b)
 - [dynatrace.com: How to solve the challenges of multicloud AWS, Azure and GCP observability](https://www.dynatrace.com/news/blog/how-to-solve-the-challenges-of-multicloud-aws-azure-and-gcp-observability/)
-- [logz.io: Top 11 Open Source Monitoring Tools for Kubernetes 🌟](https://logz.io/blog/open-source-monitoring-tools-for-kubernetes/)
-    - [logz.io: Unified Observability: Announcing Kubernetes 360](https://logz.io/blog/unified-observability-kubernetes-360/) A single, unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger that enables DevOps teams to monitor application SLOs in a simple, efficient and actionable manner.
 - [thenewstack.io: Kubernetes Observability Challenges in Cloud Native Architecture 🌟](https://thenewstack.io/kubernetes-observability-challenges-in-cloud-native-architecture/)
 - [opsdis.com: Building a custom monitoring solution with Grafana, Prometheus and Loki](https://opsdis.com/custom-monitoring-solution-with-grafana-prometheus-and-loki/)
 - [harness.io: Metrics to Improve Continuous Integration Performance](https://harness.io/blog/continuous-integration/continuous-integration-performance-metrics/)
 - [thenewstack.io: Best Practices to Optimize Infrastructure Monitoring within DevOps Teams](https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams/)
-- [faun.pub: DevOps Meets Observability 🌟](https://faun.pub/devops-meets-observability-78775c021b0e)
 - [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs/)
 - [thenewstack.io: Growing Adoption of Observability Powers Business Transformation](https://thenewstack.io/growing-adoption-of-observability-powers-business-transformation/)
-- [blog.thundra.io: What CI Observability Means for DevOps 🌟](https://blog.thundra.io/what-ci-observability-means-for-devops)
 - [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid) Find 4 common mistakes engineers make when using histograms to monitor API latencies from release to release.
-- [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid/)
 - [thenewstack.io: DevOps Observability from Code to Cloud](https://thenewstack.io/devops-observability-from-code-to-cloud/)
-- [ortelius.io: Microservice Monitoring and Visualization with Ortelius open source project](https://ortelius.io/blog/2021/03/26/microservice-monitoring-and-visualization/)
 - [thenewstack.io: CI Observability for Effective Change Management 🌟](https://thenewstack.io/ci-observability-for-effective-change-management/)
 - [thenewstack.io: Monitor Your Containers with Sysdig](https://thenewstack.io/monitor-your-containers-with-sysdig/)
 - [thenewstack.io: Applying Basic vs. Advanced Monitoring Techniques](https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/)
-- [cloudforecast.io: cAdvisor and Kubernetes Monitoring Guide 🌟](https://cloudforecast.io/blog/cadvisor-and-kubernetes-monitoring-guide/)
-- [hmh.engineering: Musings on microservice observability!](https://hmh.engineering/musings-on-microservice-observability-f7052ac42f04)
 - [stackoverflow.blog: Observability is key to the future of software (and your DevOps career)](https://stackoverflow.blog/2021/09/08/observability-is-key-to-the-future-of-software-and-your-devops-career/) Observability platforms enable you to easily figure out what’s happening with every request and to identify the cause of issues fast. Learning the principles of observability and OpenTelemetry will set you apart from the crowd and provide you with a skill set that will be in increasing demand as more companies perform cloud migrations.
-- [forbes.com: Who Should Own The Job Of Observability In DevOps?](https://www.forbes.com/sites/forbestechcouncil/2021/09/03/who-should-own-the-job-of-observability-in-devops/)
-- [dzone: Monitoring Web Servers Should Never Be Complex](https://dzone.com/articles/monitoring-web-servers-should-never-be-complex) Monitoring Web Services can become very very complex. But what really is needed to detect a failure? And how can setup and simplify your monitoring?
 - [dynatrace.com: What is observability? Not just logs, metrics and traces](https://www.dynatrace.com/news/blog/what-is-observability-2/)
 - [thenewstack.io: Observability Is the New Kubernetes 🌟](https://thenewstack.io/observability-is-the-new-kubernetes/)
 - [learnsteps.com: Logging Infrastructure System Design](https://www.learnsteps.com/logging-infrastructure-system-design/) Logging infrastructure system design is very important for each and every infrastructure as you need to look into logs. When you have a huge number of applications talking to each other there is an enormous amount of logs that they produce. Handling this amount of logs can be very costly and a headache. Let’s look at this problem for handling your logs at scale and Logging infrastructure System Design.
-- [medium.com: Monitoring Microservices - Part 1: Observability | Anderson Carvalho](https://medium.com/geekculture/monitoring-microservices-part-1-observability-b2b44fa3e67e) Achieving observability with probes, logs, metrics, and traces. **The Observability Pyramid comprises Probes, Logs, Metrics, and Traces:**
     - **Probes:** Probes are often exposed as endpoints and used by external agents like load balancers, container orchestrators, application servers, and sysadmins before deciding what to do next. The most common probes are starting, ready, and live. The startup probe is on during the component bootstrap phase. The liveness probe is on from the time the component starts until it stops running. The readiness probe is on during the period where the component is ready/open to receive requests or process workload.
     - **Logs:** Logs are messages produced during the component execution that capture a piece of relevant information. Usually, we classify log messages into all, debug, info, warn, error, and fatal. Logs can produce a huge amount of data and contain sensitive information. A good practice is to apply different log levels depending on the environment.
     - **Log Aggregation:** Each component generates one or more log files. Since distributed systems are composed of multiples components, it’s a daunting and miserable task to dig into a bunch of log files during troubleshooting. Thus, log aggregation is highly recommended for Microservices.
@@ -109,32 +91,13 @@
     - **Traces:** Traces record the flow of data between different components and execution details of each one along the way. By tracing we can discover the relationships, dependencies between components, identify bottlenecks, comprehend the data flow, and the time span on each component.
 - [infoworld.com: The RED method: A new strategy for monitoring microservices](https://www.infoworld.com/article/3638693/the-red-method-a-new-strategy-for-monitoring-microservices.html) By using the RED metrics—rate, error, and duration—you can get a solid understanding of how your services are performing for end-users.
 - [intellipaat.com: Top 10 DevOps Monitoring Tools](https://intellipaat.com/blog/devops-monitoring-tools) Are you a DevOps engineer? Are you confused about which DevOps monitoring tools to use for monitoring? If so, go through this comprehensive blog to know more about different types of DevOps monitoring tools, their purpose, and their importance.
-- [==cncf.io: How to add observability to your application pipeline==](https://www.cncf.io/blog/2021/11/23/how-to-add-observability-to-your-application-pipeline/)
-- [storiesfromtheherd.com: Unpacking Observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f)
-- [logz.io: A Monitoring Reality Check: More of the Same Won’t Work](https://logz.io/blog/monitoring-reality-check/)
-- [medium.com/buildpiper: Observability for Monitoring Microservices — Top 5 Ways!](https://medium.com/buildpiper/observability-for-monitoring-microservices-top-5-ways-587871e726d0) Knowing what’s running inside the container, how the application and code are performing is critical for tackling important issues. Discussed here are some important Microservices monitoring tools and approaches. Take a look!
-- [medium.com/@cbkwgl: Continuous Monitoring in DevOps 🌟](https://medium.com/@cbkwgl/continuous-monitoring-in-devops-8d4db48a0e24)
-- [logz.io: The Open Source Observability Adoption and Migration Curve](https://logz.io/blog/open-source-observability-adoption-migration-curve/)
 - [==devopscube.com: What Is Observability? Comprehensive Beginners Guide==](https://devopscube.com/what-is-observability/)
-- [tiagodiasgeneroso.medium.com: Observability Concepts you should know](https://tiagodiasgeneroso.medium.com/observability-concepts-you-should-know-943fc057b208)
-- [faun.pub: Getting started with Observability](https://faun.pub/getting-started-with-observability-657d57aab1c7) How to implement Observability
-- [medium.com/@badawekoo: Monitoring in DevOps lifecycle](https://medium.com/@badawekoo/monitoring-in-devops-lifecycle-4d9a2f277eb0)
-- [laduram.medium.com: The Future of Observability](https://laduram.medium.com/the-future-of-observability-c33cd7ff644a)
-- [devops.com: Where Does Observability Stand Today, and Where is it Going Next?](https://devops.com/where-does-observability-stand-today-and-where-is-it-going-next/)
-- [medium.com/kubeshop-i: Top 8 Open-Source Observability & Testing Tools](https://medium.com/kubeshop-i/top-8-open-source-observability-testing-tools-9341a361a634)
-- [==dzone: 11 Observability Tools You Should Know== 🌟](https://dzone.com/articles/11-observability-tools-you-should-know-in-2023) This article looks at the features, limitations, and important selling points of eleven popular observability tools to help you select the best one for your project.
-- [medium.com/devops-techable: Setup monitoring with Prometheus and Grafana in Kubernetes — Start monitoring your Kubernetes cluster resources](https://medium.com/devops-techable/setup-monitoring-with-prometheus-and-grafana-in-kubernetes-start-monitoring-your-kubernetes-a3071f083fa6)
 - [thenewstack.io: What Is Container Monitoring?](https://thenewstack.io/what-is-container-monitoring/) Cloud native architectures don’t rely on dedicated hardware like virtualized infrastructure, which changes monitoring requirements and processes.
-- [==devops.com: Why Monitoring-as-Code Will be a Must for DevOps Teams==](https://devops.com/why-monitoring-as-code-will-be-a-must-for-devops-teams/)
-- [medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry for Observability](https://medium.com/cloud-native-daily/why-you-shouldnt-fear-to-adopt-opentelemetry-for-observability-fcb6371ea8fe) An introduction to OpenTelemetry, an open-source project that’s taking observability to a new level.
-- [medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing System Reliability](https://medium.com/@bijit211987/observability-driven-development-2bc2cdde8661)
-- [==forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy==](https://www.forbes.com/sites/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy)
     - The observability space is a multi-billion-dollar market and for good reason—there are a lot of benefits when you implement a robust observability strategy. But extracting value is not as simple as adopting a tool, throwing your data into a black box and expecting it to spit out business-relevant, contextualized insights and helpful visualizations.
     - As they say, “Nothing good comes easy”—but when done right, a mature observability strategy will pay for itself over and over again.
 
 ### Profiling
 
-- [==medium.com/performance-engineering-for-the-ordinary-barbie: Why profiling should be part of regular software development workflow== 🌟](https://medium.com/performance-engineering-for-the-ordinary-barbie/why-profiling-should-be-part-of-regular-software-development-workflow-8b19b7f52b38)
 
 ### Key Performance Indicator (KPI)
 
@@ -149,26 +112,15 @@ OpenShift Container Platform Monitoring ships with a Prometheus instance for clu
 | Monitoring Component     |       Release       |                                                                                                                                                                                                                URL |
 | :----------------------- | :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ElasticSearch            |          5          |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
-| Fluentd                  |        0.12         |                                                       [OpenShift 3.11 Metrics & Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging) |
 | Kibana                   |       5.6.13        |                                                                                                                                      [kibana 5.6.13](https://www.elastic.co/guide/en/kibana/5.6/introduction.html) |
 | Prometheus               |        2.3.2        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
 | Prometheus Operator      |                     |                           [Prometheus Operator technical preview](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments) |
-| Prometheus Alert Manager |      0.15.1         | [OpenShift 3.11 Configuring Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring) |
-| Grafana                  |        5.2.3        |                                 [OpenShift 3.11 Prometheus Cluster Monitoring](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#prometheus-cluster-monitoring) |
 
 #### Prometheus and Grafana
 
 - [github.com/prometheus-operator](https://github.com/prometheus-operator)
 - [redhat.com: **How to gather and display metrics in Red Hat OpenShift** (Prometheus + Grafana)](https://www.redhat.com/en/blog/how-gather-and-display-metrics-red-hat-openshift)
-- [Generally Available today: Red Hat OpenShift Container Platform 3.11 is ready to power enterprise Kubernetes deployments 🌟](https://www.redhat.com/en/blog/generally-available-today-red-hat-openshift-container-platform-311-ready-power-enterprise-kubernetes-deployments)
-- [The Challenges of Monitoring Kubernetes and OpenShift 3.11 🌟](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
-- [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging)
-- [Prometheus Cluster Monitoring 🌟](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)
-- [Prometheus Alert Manager](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html#configuring-alertmanager_prometheus-cluster-monitoring)
-- [Leveraging Kubernetes and OpenShift for automated performance tests (part 1)](https://developers.redhat.com/blog/2018/11/22/automated-performance-testing-kubernetes-openshift/)
-- [Building an observability stack for automated performance tests on Kubernetes and OpenShift (part 2) 🌟](https://developers.redhat.com/blog/2019/01/03/leveraging-openshift-or-kubernetes-for-automated-performance-tests-part-2/)
 - [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster)
-- [developers.redhat.com: Monitoring .NET Core applications on Kubernetes](https://developers.redhat.com/blog/2020/08/05/monitoring-net-core-applications-on-kubernetes/)
 - [Systems Monitoring with Prometheus and Grafana](https://flightaware.engineering/systems-monitoring-with-prometheus-grafana/)
 
 <center>
@@ -214,11 +166,9 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 ## Monitoring micro-front ends on kubernetes with NGINX
 
-- [==cncf.io: Monitoring micro-front ends on Kubernetes with NGINX== 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx/)
 
 ## Prometheus vs OpenTelemetry
 
-- [timescale.com: Prometheus vs. OpenTelemetry Metrics: A Complete Guide](https://www.timescale.com/blog/prometheus-vs-opentelemetry-metrics-a-complete-guide/)
 
 ## Prometheus
 
@@ -232,38 +182,24 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 - [Kibana](https://www.elastic.co/kibana)
     - [Kibana Docs](https://www.elastic.co/guide/index.html)
-- [dzone: Kibana Tutorial: Part 1 - Getting Started](https://dzone.com/articles/kibana-tutorial-getting-started-part-1)
-    - [dzone: Kibana Tutorial: Part 2 - Creating Visualizations](https://logz.io/blog/kibana-tutorial-2/)
-- [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)
-- [dzone: Kibana Hacks: 5 Tips and Tricks](https://dzone.com/articles/kibana-hacks-5-tips-and-tricks)
-- [juanonlab.com: Dashboards de Kibana](https://www.juanonlab.com/blog/es/dashboards-de-kibana)
 - [skedler.com: Kibana Customization – The brilliant beginner’s guide to simplifying Kibana for non-technical users](https://www.skedler.com/blog/kibana-customization-brilliant-beginners-guide-simplifying-kibana-non-technical-users/)
 - [dev.to: Beginner's guide to understanding the relevance of your search with Elasticsearch and Kibana](https://dev.to/lisahjung/beginner-s-guide-to-understanding-the-relevance-of-your-search-with-elasticsearch-and-kibana-29n6)
 
 ## Prometheus and Grafana Interactive Learning
 
-- [katacoda.com: Getting Started with Prometheus](https://www.katacoda.com/courses/prometheus/getting-started)
-- [katacoda.com: Creating Dashboards with Grafana](https://www.katacoda.com/courses/prometheus/creating-dashboards-with-grafana)
 
 ## Logging & Centralized Log Management
 
-- [devops.com: How Centralized Log Management Can Save Your Company](https://devops.com/how-centralized-log-management-can-save-your-company/)
 - [acloudguru.com: Getting started with the Elastic Stack](https://acloudguru.com/blog/engineering/getting-started-with-the-elastic-stack)
-- [betterprogramming.pub: The Art of Logging](https://betterprogramming.pub/creating-a-human-and-machine-freindly-logging-format-bb6d4bb01dca) Creating a human- and machine-friendly logging format
 
 ### ElasticSearch
 
-- [pythonsimplified.com: Elasticsearch Core Concepts Explained](https://pythonsimplified.com/elasticsearch-core-concepts-explained/)
 - [zdnet.com: AWS, as predicted, is forking Elasticsearch](https://www.zdnet.com/article/aws-as-predicted-is-forking-elasticsearch/) Amazon Web Services, however, isn't the only one who dislikes Elastic's move to relicense Elasticsearch under the non-open-source Server Side Public License.
 - [amazon.com: Stepping up for a truly open source Elasticsearch](https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/)
-- [Store NGINX access logs in Elasticsearch with Logging operator 🌟](https://banzaicloud.com/docs/one-eye/logging-operator/quickstarts/es-nginx/) This guide describes how to collect application and container logs in Kubernetes using the Logging operator, and how to send them to Elasticsearch.
     - [Rancher Logging Operator 🌟](https://rancher.com/docs/rancher/v2.x/en/logging/v2.5/)
-- [blog.streammonkey.com: How We Serverlessly Migrated 1.58 Billion Elasticsearch Documents](https://blog.streammonkey.com/how-we-serverlessly-migrated-1-58-billion-elasticsearch-documents-33ad3d0d7c4f)
 - [youtube: ELK for beginners - by XavkiEn 🌟](https://www.youtube.com/playlist?list=PLWZKNB9waqIX00uj5q4nX_TOFiX3if1z3)
 - [blog.bigdataboutique.com: Tuning Elasticsearch: The Ideal Java Heap Size](https://blog.bigdataboutique.com/2021/07/tuning-elasticsearch-the-ideal-java-heap-size-2toq2j)
 - [javatechonline.com: How To Monitor Spring Boot Microservices Using ELK Stack?](https://javatechonline.com/how-to-monitor-spring-boot-microservices-using-elk-stack)
-- [dzone: Running Elasticsearch on Kubernetes](https://dzone.com/articles/running-elasticsearch-on-kubernetes) A bit of a cross-over with the Cloud Zone, we explore the structures of both Elasticsearch and Kubernetes, and how to deploy Elasticsearch on K8s.
-- [==medium: Which Elasticsearch Provider is Right For You?== 🌟](https://medium.com/gigasearch/which-elasticsearch-provider-is-right-for-you-3d596a65e704) In this post, we’ll explain the core differences between Elastic Cloud, AWS ESS, and self-hosted, so that you can make an informed decision.
 
     |  | __AWS ESS__ | __Elastic Cloud__ | __Self-hosted__ |
     | :--- | :--- | :--- | :--- |
@@ -274,56 +210,34 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
     | __Future-proof__ | __Medium__. Oftern lags several minor versions behind the latest Elasticsearch version. Some features are not available at all. | __High__. Same day Elasticsearch version parity. All features are available. | __High__. Up to you to upgrade as needed, but in theory the same Elastic Cloud. |
 
 - [jertel/elastalert2](https://github.com/jertel/elastalert2) ElastAlert 2 is a continuation of the original yelp/elastalert project. ElastAlert 2 is a standalone software tool for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch and OpenSearch. ElastAlert 2 is backwards compatible with the original ElastAlert rules
-- [medium.com/hepsiburadatech: Hepsiburada Search Engine on Kubernetes](https://medium.com/hepsiburadatech/hepsiburada-search-engine-on-kubernetes-1fe03a3e71a3) In this case study, you'll learn how Hepsiburada migrated from an on-premises active-active Elasticsearch cluster (manually scaled) deployed in two data centers to a multi-zone Google Cloud Kubernetes cluster that can scale automatically.
 - [dev.to/sagary2j: ELK Stack Deployment using MiniKube single node architecture](https://dev.to/sagary2j/elk-stack-deployment-using-minikube-single-node-architecture-16cl) In this tutorial, you will learn how to deploy and expose Elastic Search, Logstash and Kibana on minikube.
-- [search-guard.com/sgctl-elasticsearch: SGCTL - TAKE BACK CONTROL](https://search-guard.com/sgctl-elasticsearch/) In this article, we look at the new Search Guard Control command line tool that ships with Search Guard FLX and demonstrate how easy it has become to configure security for Elasticsearch.
-- [==udemy.com: Elasticsearch 7 and the Elastic Stack: In Depth and Hands On==](https://www.udemy.com/course/elasticseach-7/?referralCode=83E57F5BF9B3557E51F8) **Complete Elastic search tutorial - search, analyze, and visualize big data with Elasticsearch, Kibana, Logstash, & Beats**
 
 #### Elastic Cloud on Kubernetes (ECK)
 
-- [medium: A detailed guide to deploying Elasticsearch on Elastic Cloud on Kubernetes (ECK)](https://medium.com/99dotco/a-detail-guide-to-deploying-elasticsearch-on-elastic-cloud-on-kubernetes-eck-31808ac60466) Running Elasticsearch on Kubernetes allows developers/admins to utilize container orchestration by Kubernetes and apply best practices on managing Elasticsearch clusters by the Elastic Operator
 
 ### OpenSearch
 
-- [opensearch.org 🌟](https://opensearch.org/)
 - [amazon.com: Introducing OpenSearch](https://aws.amazon.com/blogs/opensource/introducing-opensearch/)
-- [logz.io: Logz.io Announces Support for OpenSearch; A Community-driven Open Source Fork of Elasticsearch and Kibana](https://logz.io/news-posts/logz-io-announces-support-for-opensearch-a-community-driven-open-source-fork-of-elasticsearch-and-kibana/)
-- [techrepublic.com: OpenSearch: AWS rolls out its open source Elasticsearch fork](https://www.techrepublic.com/article/opensearch-aws-rolls-out-its-open-source-elasticsearch-fork/)
 - [thenewstack.io: This Week in Programming: AWS Completes Elasticsearch Fork with OpenSearch](https://thenewstack.io/this-week-in-programming-aws-completes-elasticsearch-fork-with-opensearch/)
-- [logz.io: OpenSearch Is Now Generally Available!](https://logz.io/blog/opensearch-1-0-ga-generally-available-elasticsearch-kibana-fork/)
 - [thenewstack.io: This Week in Programming: The ElasticSearch Saga Continues](https://thenewstack.io/this-week-in-programming-the-elasticsearch-saga-continues/)
 - [aws.amazon.com: Keeping clients of OpenSearch and Elasticsearch compatible with open source](https://aws.amazon.com/blogs/opensource/keeping-clients-of-opensearch-and-elasticsearch-compatible-with-open-source/)
 - [aws.amazon.com: Amazon Elasticsearch Service Is Now Amazon OpenSearch Service and Supports OpenSearch 1.0](https://aws.amazon.com/es/blogs/aws/amazon-elasticsearch-service-is-now-amazon-opensearch-service-and-supports-opensearch-10)
 
 ### EFK ElasticSearch Fluentd Kibana
 
-- [medium: Logging with EFK - Pratyush Mathur](https://medium.com/@pratyush.mathur/logging-with-efk-1c2e131496d)
-- [medium.com/@CuriousLearner: Deploying EFK stack on Kubernetes](https://medium.com/@CuriousLearner/deploying-efk-stack-on-kubernetes-c25ba2682c99)
-- [medium.com/@tech_18484: Simplifying Kubernetes Logging with EFK Stack](https://medium.com/@tech_18484/simplifying-kubernetes-logging-with-efk-stack-158da47ce982)
 
 ### Logstash Grok for Log Parsing
 
-- [logz.io: A Beginner’s Guide to Logstash Grok](https://logz.io/blog/logstash-grok/)
-- [logz.io: Grok Pattern Examples for Log Parsing](https://logz.io/blog/grok-pattern-examples-for-log-parsing/)
 
 ## Internet Performance Monitoring (IPM)
 
-- [devops.com: The Fallacy of Continuous Integration, Delivery and Testing](https://devops.com/the-fallacy-of-continuous-integration-delivery-and-testing/) Whether your organization embraces CI/CD/CT already or is rethinking its approach to DevOps, this article should give you pause. Your job–perhaps as part of a larger team–is to catch performance issues and potential disruptions with your application before client impact is realized. Without IPM, only part of that job is being done.
 
 ## Performance
 
-- [dzone.com: The Keys to Performance Tuning and Testing](https://dzone.com/articles/the-keys-to-performance-tuning-and-testing)
-- [dzone.com: How Performance Tuning and Testing are Changing](https://dzone.com/articles/how-performance-tuning-and-testing-are-changing)
-- [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) Almost all applications that perform anything useful for a given business need to be integrated with one or more applications. With microservices-based architecture, where a number of services are broken down based on the services or functionality offered, the number of integration points or touch points increases massively.
 
 ## List of Performance Analysis Tools
 
 - Threadumps + heapdumps + GC analysis tools
-- [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)
-- [InspectIT](https://en.wikipedia.org/wiki/InspectIT)
-- [VisualVM 🌟](https://en.wikipedia.org/wiki/VisualVM)
-- [OverOps](https://en.wikipedia.org/wiki/OverOps)
-- [FusionReactor](https://en.wikipedia.org/wiki/FusionReactor)
 - [tier1app.com](https://tier1app.com/)
 - [fastthread.io 🌟](https://fastthread.io/)
 - [gceasy.io 🌟](https://gceasy.io/)
@@ -331,12 +245,7 @@ OpenShift Cluster Monitoring components cannot be extended since they are read o
 
 ### Thread Dumps. Debugging Java Applications
 
-- [How to read a Thread Dump](https://dzone.com/articles/how-to-read-a-thread-dump)
-- [Performance Patterns in Microservices-Based Integrations 🌟](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1) **A must read!**
-- [Dzone: how to take thread dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)
-- Thread Dump Analyzers: [fastThread](https://fastthread.io/), [Spotify TDA](https://spotify.github.io/threaddump-analyzer/), [IBM Thread and Monitor Dump Analyzer for Java](https://www.ibm.com/support/pages/ibm-thread-and-monitor-dump-analyzer-java-tmda), [TDA - Thread Dump Analyzer](https://github.com/irockel/tda)
 - [blog.arkey.fr: Using JDK FlightRecorder and JDK Mission Control](https://blog.arkey.fr/2020/06/28/using-jdk-flight-recorder-and-jdk-mission-control/)
-- [FastThread.io](https://fastthread.io/): Thread dumps can be uploaded via Web or API Call from within the POD (jstack must be available within the container):
 
 ```bash
 #!/bin/sh
@@ -368,16 +277,11 @@ done
 - According to some references only 3 thread dumps captured in a timeframe of 10 seconds is necessary (when we want to troubleshoot a Java issue during a service degradation).
 - Sample thread dump analysis reports generated by fastThread:
     - [Transitive blocks](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
-    - [Unresponsive JVM](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
-    - [Sudden CPU spike](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
-    - [Thread Leaks](https://fastthread.io/ft-thread-report.jsp?dumpId=1&s=t)
 
 ## Debugging Java Applications on OpenShift and Kubernetes
 
-- [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift/)
 - [Debugging Java Applications On OpenShift and Kubernetes](https://www.openshift.com/blog/debugging-java-applications-on-openshift-kubernetes)
 - [Remote Debugging of Java Applications on OpenShift](https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications-on-openshift/)
-    - [Dzone: Remote Debugging of Java Applications on OpenShift (JMX + VisualVM)](https://dzone.com/articles/remote-debugging-of-java-applications-on-openshift)
 - [VisualVM: JVisualVM to an Openshift pod](https://fedidat.com/250-jvisualvm-openshift-pod/)
 - [redhat.com: How do I analyze a Java heap dump?](https://access.redhat.com/solutions/18301)
 
@@ -386,49 +290,34 @@ done
 - [Microservice Observability with Distributed Tracing: **OpenTelemetry.io** 🌟](https://opentelemetry.io/) (**OpenTracing.io + OpenCensus.io = OpenTelemetry.io**)
 - [**Jaeger** 🌟](https://www.jaegertracing.io/)
     - [Jaeger Demo1](https://github.com/obitech/micro-obs)
-    - [Jaeger Demo 2](https://github.com/open-telemetry/opentelemetry-collector/tree/master/examples/demo)
-    - [medium.com: **Jaeger embraces OpenTelemetry collector** 🌟](https://medium.com/jaegertracing/jaeger-embraces-opentelemetry-collector-90a545cbc24)
     - [Best Practices for Deploying Jaeger on Kubernetes in Production](https://thenewstack.io/best-practices-for-deploying-jaeger-on-kubernetes-in-production/)
-    - [faun.pub: How to deploy Jaeger on Kubernetes. A beginner’s guide to Jaeger (5 Part Series)](https://faun.pub/how-to-deploy-jaeger-on-kubernetes-69cf48447182)
 - [**zipkin.io**](https://zipkin.io/)
     - [javatechonline.com: How To Implement Distributed Logging Tracing Using Sleuth Zipkin](https://javatechonline.com/how-to-implement-distributed-logging-tracing-using-sleuth-zipkin)
     - [thenewstack.io: Perform Distributed Tracing with Zipkin](https://thenewstack.io/perform-distributed-tracing-with-zipkin/) Open source Zipkin offers a robust set of features that make it easier for developers to understand and optimize complex distributed systems.
 - [**OpenTracing.io**](https://opentracing.io/)
     - [lightstep.com: Understand Distributed Tracing](https://docs.lightstep.com/docs/understand-distributed-tracing)
 - [grafana.com: A beginner's guide to distributed tracing and how it can increase an application's performance 🌟](https://grafana.com/blog/2021/01/25/a-beginners-guide-to-distributed-tracing-and-how-it-can-increase-an-applications-performance/)
-- [awkwardferny.medium.com: Setting up Distributed Tracing in Kubernetes with OpenTracing, Jaeger, and Ingress-NGINX](https://awkwardferny.medium.com/setting-up-distributed-tracing-with-opentelemetry-jaeger-in-kubernetes-ingress-nginx-cfdda7d9441d)
-- [ploffay.medium.com: Five years evolution of open-source distributed tracing 🌟](https://ploffay.medium.com/five-years-evolution-of-open-source-distributed-tracing-ec1c5a5dd1ac)
 
 ### Microservice Observability with Distributed Tracing. OpenTelemetry.io
 
 - Used for monitoring and troubleshooting microservices-based distributed systems.
-- [OpenTelemetry.io](https://opentelemetry.io/):
     - **Unified standard** (open, vendor-neutral API), **merge of [OpenCensus.io](https://opencensus.io/) and [OpenTracing.io](https://opentracing.io/)**.
     - “A single set of system components and language-specific telemetry libraries” to standardize how the industry uses metrics, traces, and eventually logs to enable observability.
     - [signadot.com: Sandboxes in Kubernetes using OpenTelemetry](https://www.signadot.com/blog/sandboxes-in-kubernetes-using-opentelemetry)
     - [dynatrace.com: What is  OpenTelemetry? An open-source standard for logs, metrics, and traces](https://www.dynatrace.com/news/blog/what-is-opentelemetry-2/)
-    - [betterprogramming.pub: Distributed Tracing With OpenTelemetry, Spring Cloud Sleuth, Kafka, and Jaeger](https://betterprogramming.pub/distributed-tracing-with-opentelemetry-spring-cloud-sleuth-kafka-and-jaeger-939e35f45821) A step-by-step guide for Distributed Tracing Implementation in Microservices
-    - [==logz.io: Beginner’s Guide to OpenTelemetry== 🌟](https://logz.io/learn/opentelemetry-guide/)
-    - [timescale.com: Kubernetes Observability in One Command: How to Generate and Store OpenTelemetry Traces Automatically](https://www.timescale.com/blog/generate-and-store-opentelemetry-traces-automatically/) If your microservices are written in languages currently supported by the OpenTelemetry Operator, you can start collecting and storing traces with minimal manual work. Learn how to do so with the tobs stack in Kubernetes.
     - [trstringer.com: Observability with OpenTelemetry Part 1 - Introduction](https://trstringer.com/otel-part1-intro/)
-    - [medium.com/apache-apisix: End-to-end tracing with OpenTelemetry](https://medium.com/apache-apisix/end-to-end-tracing-opentelemetry-a50fceafed74)
 - A major component of the [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) is **distributed tracing**.
 - **Tracing** is about analyzing, recording, and describing transactions.
 - **Distributed Tracing:** Troubleshooting requests between interconnected cloud-based microservices can’t always be done with logs and metrics alone. This is where distributed tracing comes into play: It provides developers with a  detailed view of individual requests as they “hop” through a system of microservices. With **distributed tracing** you can:
     - Trace the path of a request as it travels across a complex system.
     - Discover the latency of the components along that path.
     - Know which component in the path is creating a bottleneck or failure.
-- **Performance:** Latency is a very important metric in microservices. Latency problems in one service will impact the overall request latency when chaining calls to different microservices. Every call to a microservice should record a trace, which is basically a record of how much time it took to respond. It's possible to add more details to the function level, including the action, the result, and the pass to the next service. The hard part is triaging all traces in a request from a client. Usually, a trace ID header has to be sent in every request. If there isn't one, the logging library creates it and it will represent the first trace in a request. **Adding traces with [OpenCensus](https://opencensus.io/) is simply a matter of including the libraries and registering an exporter.**
 - **Monitoring in a Microservices/Kubernetes World:** In distributed system architectures like microservices, having visibility from different perspectives will be critical at troubleshooting time. Many things could happen in a request when there are many parts constantly interacting at the same time. The most common method is to write logs to the stdout and stderr streams.
     - For example, a latency problem in the system could exist because a microservice is not responding correctly. Maybe Kubernetes is restarting the pod too frequently, or perhaps the cluster is out of capacity and can't schedule any more pods. But for this reason, tools like [Istio](https://istio.io/) exist; by injecting a container in every pod, you can get a pretty good baseline of telemetry. Additionally, when you add instrumentation with libraries like [OpenCensus](https://opencensus.io/), you can deeply understand what's happening with and within each service.
     - All this information will need a storage location, and as a good practice, you might want to have it a centralized location to provide access to anyone in the team — not just for the operations team.
 - **Older Distributed Tracing Solutions:**
     - [Dapper](https://research.google/pubs/pub36356/) (Google)
-    - [Zipkin](https://zipkin.io/) (A.K.A. OpenZipkin, created by Twitter, inspired by Dapper)
-    - [Jaeger](https://www.jaegertracing.io/) (Uber Technologies, inspired by Dapper & Zipkin)
     - etc.
-- [Medium: Distributed Tracing and Monitoring using OpenCensus](https://medium.com/@rghetia/distributed-tracing-and-monitoring-using-opencensus-fe5f6e9479fb)
-- [Dzone: Zipkin vs. Jaeger: Getting Started With Tracing](https://dzone.com/articles/zipkin-vs-jaeger-getting-started-with-tracing) Learn about Zipkin and Jaeger, how they work to add request tracing to your logging routine, and how to choose which one is the right fit for you.
 - [opensource.com: Distributed tracing in a microservices world](https://opensource.com/article/18/9/distributed-tracing-microservices-world) What is distributed tracing and why is it so important in a microservices environment?
 - [opensource.com: 3 open source distributed tracing tools](https://opensource.com/article/18/9/distributed-tracing-tools) Find performance issues quickly with these tools, which provide a graphical view of what's happening across complex software systems.
 - [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://blog.newrelic.com/engineering/opentelemetry-opentracing-opencensus/)
@@ -438,10 +327,8 @@ done
 #### OpenTelemetry Operator
 
 - [github.com/open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator)
-- [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf) This post aims to demonstrate how you can implement traces in your application without any code changes by using the OpenTelemetry Operator.
 - [thenewstack.io: OpenTelemetry Gaining Traction from Companies and Vendors](https://thenewstack.io/opentelemetry-gaining-traction-from-companies-and-vendors/) Elastic and OpenTelemetry will merge standards as more companies embrace OpenTelemetry to improve user experience and cut costs.
 - [thenewstack.io: How OpenTelemetry Works with Kubernetes](https://thenewstack.io/how-opentelemetry-works-with-kubernetes/)
-- [medium.com/@bijit211987: Grafana with OpenTelemetry, Vendor-neutral and open-source approach](https://medium.com/@bijit211987/grafana-with-opentelemetry-vendor-neutral-and-open-source-approach-ab4bc08f67e9)
 
 <center>
 [![Jaeger UI](images/jaeger_ui.png)](https://www.jaegertracing.io/)
@@ -451,8 +338,6 @@ done
 
 ### Jaeger VS OpenTelemetry. How Jaeger works with OpenTelemetry
 
-- [medium: Jaeger VS OpenTracing VS OpenTelemetry](https://medium.com/jaegertracing/jaeger-and-opentelemetry-1846f701d9f2)
-- [medium: Using Jaeger and OpenTelemetry SDKs in a mixed environment with W3C Trace-Context](https://medium.com/jaegertracing/jaeger-clients-and-w3c-trace-context-c2ce1b9dc390)
 
 <center>
 ![Jaeger Vs OpenTelemetry](images/jaeger_vs_opentelemetry.png)
@@ -470,22 +355,15 @@ done
 
 ## Application Performance Management (APM)
 
-- [APM in wikipedia](https://en.wikipedia.org/wiki/Application_performance_management): The monitoring and management of performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service. APM is "the translation of IT metrics into business meaning.”
 - Tip: [Download APM report from IT Central Station](https://www.itcentralstation.com/categories/application-performance-management-apm)
 - [Awesome APM 🌟](https://github.com/antonarhipov/awesome-apm)
-- [dzone.com: APM Tools Comparison](https://dzone.com/articles/apm-tools-comparison-which-one-should-you-choose)
-- [dzone.com: Java Performance Monitoring: 5 Open Source Tools You Should Know](https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know)
-- [dzone.com: 14 best performance testing tools and APM solutions](https://dzone.com/articles/14-best-performance-testing-tools-and-apm-solution)
 - Exception Tracking:
     - [sentry.io](https://sentry.io/)
-        - [blog.sentry.io: Development Environment Observability with Sentry](https://blog.sentry.io/2021/11/18/monitoring-our-local-development-environment-with-sentry)
     - APMs like Dynatrace, etc.
 - APM Tools:
     - [datadoghq.com](https://www.datadoghq.com/)
-        - [blog.porter.run: Datadog on Kubernetes: Avoiding Common Pitfalls](https://blog.porter.run/datadog-and-kubernetes/) Install Datadog on Kubernetes and configure additional features like DogStatsD and APM while avoiding common pitfalls.
         - [dev.to/thenjdevopsguy: Implementing Datadog For Kubernetes](https://dev.to/thenjdevopsguy/implementing-datadog-for-kubernetes-586e)
     - [honeycomb.io](https://www.honeycomb.io)
-    - [lightstep.com](https://lightstep.com)
     - [skywalking.apache.org 🌟](https://skywalking.apache.org/)
         - [tetrate.io: SkyWalking 8.4 provides infrastucture monitoring for VMs](https://www.tetrate.io/blog/27835-revision-v1/)
         - [thenewstack.io: End-User Tracing in a SkyWalking-Observed Browser](https://thenewstack.io/end-user-tracing-in-a-skywalking-observed-browser/)
@@ -494,7 +372,6 @@ done
         - [newrelic.com: Creating dashboards with Terraform and JSON templates](https://newrelic.com/blog/how-to-relic/create-nr-dashboards-with-terraform-part-1) Learn how to quickly update New Relic dashboards with Terraform by using JSON templates—no HCL required.
     - [Dynatrace 🌟](https://www.dynatrace.com/)
     - [==SigNoz: Open source Application Performance Monitoring (APM) & Observability tool== 🌟](https://github.com/SigNoz/signoz) SigNoz helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.
-        - [golang.ch: A Golang-based open-source alternative to DataDog, New Relic, etc](https://golang.ch/a-golang-based-open-source-alternative-to-datadog-new-relic-etc/)
     - [savecost/datav 🌟](https://github.com/savecost/datav) A modern APM for metrics,traces and logs, also datav is a lightweight alternative to Grafana. It has fully native support for open-telemetry, is an open-source alternative to DataDog, NewRelic.
 
 ### Elastic APM
@@ -532,18 +409,14 @@ done
 - [dynatrace.com: New Dynatrace Operator elevates cloud-native observability for Kubernetes](https://www.dynatrace.com/news/blog/new-dynatrace-operator-elevates-cloud-native-observability-for-kubernetes/)
 - [dynatrace.com: How to collect Prometheus metrics in Dynatrace](https://www.dynatrace.com/news/blog/how-to-collect-prometheus-metrics-in-dynatrace)
 - [dynatrace.com: Automatic connection of logs and traces accelerates AI-driven cloud analytics](https://www.dynatrace.com/news/blog/automatic-connection-of-logs-and-traces-accelerates-ai-driven-cloud-analytics/)
-- [==devops.com: Dynatrace Advances Application Environments as Code==](https://devops.com/dynatrace-advances-application-environments-as-code/)
 
 ## Message Queue Monitoring
 
 Messaging Solution|Monitoring Solution|URL
 :-------|:-------|:-----
-ActiveMQ 5.8.0+|[Dynatrace](https://www.dynatrace.com)|[ref](https://www.dynatrace.com/support/help/technology-support/application-software/other-technologies/supported-out-of-the-box/activemq/)
 ActiveMQ Artemis|[Micrometer Collector](https://micrometer.io/) + Prometheus|[ref1](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html), [ref2](https://micrometer.io/docs/registry/prometheus)
 IBM MQ|[IBM MQ](https://github.com/ibm-messaging) Exporter for Prometheus|[ref](https://github.com/ibm-messaging/mq-metric-samples/tree/master/cmd/mq_prometheus)
-Kafka|[Dynatrace](https://www.dynatrace.com)|[ref1](https://www.dynatrace.com/support/help/technology-support/application-software/other-technologies/supported-out-of-the-box/kafka/), [ref2](https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring-beta/), [ref3](https://answers.dynatrace.com/spaces/482/dynatrace-open-qa/questions/232421/dynatrace-distributed-tracing-with-kafka.html)
 Kafka|[Prometheus JMX Exporter](https://github.com/prometheus/jmx_exporter)|[ref1](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/zookeeper.yaml), [ref2](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/kafka-2_0_0.yml), [ref3](https://github.com/prometheus/jmx_exporter/blob/master/example_configs/kafka-connect.yml), [ref4](https://strimzi.io/blog/2019/10/14/improving-prometheus-metrics/), [ref5](https://medium.com/activewizards-machine-learning-company/kafka-monitoring-with-prometheus-telegraf-and-grafana-6228fed736f1), [ref6](https://medium.com/@nblaye/exporting-kafka-jmx-metrics-to-grafana-1b9d32fe900a), [ref7](https://blog.knoldus.com/monitoring-kafka-with-prometheus-and-grafana/)
-Kafka|Kafka Exporter<br/> Use [JMX Exporter](https://github.com/prometheus/jmx_exporter) to export other Kafka's metrics|[ref](https://github.com/danielqsj/kafka_exporter)
 Kafka|Kafdrop – Kafka Web UI|[ref](https://github.com/obsidiandynamics/kafdrop)
 Kafka|ZooNavigator: Web-based ZooKeeper UI|[ref](https://zoonavigator.elkozmon.com/)
 Kafka|CMAK (Cluster Manager for Apache Kafka, previously known as Kafka Manager)|[ref](https://github.com/patelh/kafka-manager)
@@ -560,7 +433,6 @@ This is a selection of monitoring solutions suitable for RH AMQ 7 Broker based o
 
 Environment|Collector/Exporter|Details/URL
 :----------|:----------------:|:--------------
-RHEL|Prometheus Plugin for AMQ Broker|[ref](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/managing_amq_broker/prometheus-plugin-managing)
 RHEL|Prometheus JMX Exporter|Same solution applied to ActiveMQ Artemis
 OpenShift 3|Prometheus Plugin for AMQ Broker|**Grafana Dashboard not available**, [ref1](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/deploying-broker-on-ocp-using-operator_broker-ocp), [ref2](https://access.redhat.com/documentation/en-us/red_hat_amq/7.6/html/deploying_amq_broker_on_openshift/assembly_br-broker-monitoring_broker-ocp)
 OpenShift 4|Prometheus Plugin for AMQ Broker|Check if Grafana Dashboard is automatically setup by Red Hat AMQ Operator
@@ -578,7 +450,6 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 ## Krossboard Converged Kubernetes usage analytics
 
 - [Krossboard](https://krossboard.app/) All in one single place, Krossboard tracks the usage of all your clusters over time, it helps forecast capacity scale up/down, thereby enabling you to easily anticipate and master operations costs.
-- [Krossboard: A centralized usage analytics approach for multiple Kubernetes](https://itnext.io/in-search-of-converged-usage-analytics-for-multiple-managed-kubernetes-c5108cb7f0e1)
 
 ## Instana APM
 
@@ -607,17 +478,13 @@ OpenShift 3|Prometheus JMX Exporter|**Grafana Dashboard not available**, [ref1](
 - [OS Query](https://github.com/osquery/osquery) SQL powered operating system instrumentation, monitoring, and analytics.
 - [Glances](https://github.com/nicolargo/glances) Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems. It is written in Python and uses libraries to grab information from your system. It is based on an open architecture where developers can add new plugins or exports modules.
 - [TDengine](https://github.com/taosdata/TDengine) is an open-sourced big data platform under GNU AGPL v3.0, designed and optimized for the Internet of Things (IoT), Connected Cars, Industrial IoT, and IT Infrastructure and Application Monitoring.
-- [stackpulse.com: Automated Kubernetes Pod Restarting Analysis with StackPulse](https://stackpulse.com/blog/automated-kubernetes-pod-restarting-analysis-with-stackpulse/)
 - [Checkly](https://www.checklyhq.com/) is the API & E2E monitoring platform for the modern stack: programmable, flexible and loving JavaScript.
-    - [hashicorp.com: Monitoring as Code with Terraform Cloud and Checkly](https://www.hashicorp.com/blog/monitoring-as-code-with-terraform-cloud-and-checkly)
 - [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls/)
-- [Zebrium](https://www.zebrium.com/) Monitoring detects problems, Zebrium finds root cause
 Resolve your software incidents 10x faster
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) A fancy self-hosted monitoring tool. Uptime Kuma is an open source monitoring tool that can be used to monitor the service uptime along with few other stats like Ping Status, Avg. Response time, uptime etc.
 
 ## Other Awesome Lists
 
-- [Awesome APM](https://github.com/antonarhipov/awesome-apm)
 
 ## Slides
 
