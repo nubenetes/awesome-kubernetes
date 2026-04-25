@@ -10,11 +10,9 @@
 
 ## Scaffold Definition
 
-- [Wikipedia: Scaffold (programming)](https://en.wikipedia.org/wiki/Scaffold_(programming))
 
 ## Nodejs Scaffolding with Yeoman
 
-- [Yeoman](https://en.wikipedia.org/wiki/Yeoman_(software))
 - [callicoder.com: Scaffolding your Spring Boot Application with Yeoman](https://www.callicoder.com/scaffolding-your-spring-boot-application/)
 
 ## Java Scaffolding
@@ -23,8 +21,6 @@
 
 ### Java Scaffolding with Spring Roo
 
-- [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)
-- [Spring Roo](https://projects.spring.io/spring-roo/)
 
 ### Java Scaffolding with Maven
 
@@ -47,5 +43,3 @@
 - [cloud.google.com: configuring_with_snippets 🌟](https://cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) GoogleCloudTech Code has built-in snippets for creating common resources (pod, service, configmap, etc). Plus diffing and dry-run of YAML.
 
 ## Other Scaffolding Tools
-
-- [Atomist](https://go.atomist.com/) New automation platform, delivering pre-built automations called Skills. 
