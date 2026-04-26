@@ -24,7 +24,6 @@
 
 - [TestOps at the Speed of DevOps. Is DevOps killing Testing and QA or making it more important than ever?](https://www.linkedin.com/pulse/testops-speed-devops-chaitanya-jawale/)
 - [guru99.com: What is Continuous Testing in DevOps? Definition, Benefits, Tools](https://www.guru99.com/continuous-testing.html)
-- [xeridia.co.uk: The Importance of Testing in DevOps](https://www.xeridia.co.uk/blog/importance-testing-devops)
 - [opensource.com: What you need to know about automation testing in CI/CD](https://opensource.com/article/20/7/automation-testing-cicd)
 - [thenewstack.io: Removing the Roadblock to Continuous Performance Testing](https://thenewstack.io/removing-the-roadblock-to-continuous-performance-testing/)
 ## Test Driven Development (TDD)
