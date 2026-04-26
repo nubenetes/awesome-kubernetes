@@ -51,20 +51,16 @@
 - [info.crunchydata.com: Composite Primary Keys, PostgreSQL and Django](https://info.crunchydata.com/blog/composite-primary-keys-postgresql-and-django)
 - [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
 - [info.crunchydata.com: Introducing the Postgres Prometheus Adapter](https://info.crunchydata.com/blog/using-postgres-to-back-prometheus-for-your-postgresql-monitoring-1)
-- [info.crunchydata.com: Getting Started with PostgreSQL Operator 4.3 in OpenShift](https://info.crunchydata.com/blog/getting-started-with-postgresql-operator-4.3-in-openshift)
-- [info.crunchydata.com: Deploying Active-Active PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/active-active-on-kubernetes)
 - [opensource.com: Scaling PostgreSQL with Kubernetes Operators 🌟](https://opensource.com/article/19/2/scaling-postgresql-kubernetes-operators) Operators let users create standardized interfaces for managing stateful applications, like PostgreSQL, across Kubernetes-enabled cloud environments.
 - [info.crunchydata.com: Setup ora2pg for Oracle to Postgres Migration](https://info.crunchydata.com/blog/setup-ora2pg-for-oracle-to-postgres-migration)
 - [info.crunchydata.com: pgBackRest - Performing Backups on a Standby Cluster](https://info.crunchydata.com/blog/pgbackrest-performing-backups-on-a-standby-cluster)
 - [thenewstack.io: Advanced Kubernetes Namespace Management with the PostgreSQL Operator 🌟](https://thenewstack.io/advanced-kubernetes-namespace-management-with-the-postgresql-operator/)
 - [postgresql.org: Crunchy PostgreSQL Operator 4.5: Enhanced Monitoring, Custom Annotations, PostgreSQL 13 🌟](https://www.postgresql.org/about/news/crunchy-postgresql-operator-45-enhanced-monitoring-custom-annotations-postgresql-13-2086/)
 - [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://info.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes)
-- [redhat.com: Crunchy Data PostgreSQL on Red Hat OpenShift Container Storage (Overview) 🌟](https://www.redhat.com/en/resources/crunchy-data-postgresql-overview)
 - [info.crunchydata.com: PostgreSQL Monitoring for Application Developers: The DBA Fundamentals](https://info.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats)
 - [youtube: OCB: High Availability PostgreSQL and more on OpenShift - Jonathan Katz (Crunchy Data) 🌟](https://www.youtube.com/watch?v=9jbR9lZuSU0) Learn how the PostgreSQL Operator from Crunchy Data makes it easy to deploy high availability Postgres clusters on OpenShift. Beyond that, we'll look at how the Operator pattern makes it possible to run your own open source database-as-a-service and cover the essential features: provisioning, HA, disaster recovery, monitoring, and how to do it all securely!
 - [info.crunchydata.com: Tuning Your Postgres Database for High Write Loads](https://info.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)
 - [info.crunchydata.com: Using the PostgreSQL Operator with Rook Ceph Storage](https://info.crunchydata.com/blog/crunchy-postgresql-operator-with-rook-ceph-storage)
-- [info.crunchydata.com: Multi-Kubernetes Cluster PostgreSQL Deployments](https://info.crunchydata.com/blog/multi-kubernetes-cluster-postgresql-deployments)
 - [developer.ibm.com: Deploy a Crunchy PostgreSQL for Kubernetes Operator to an OpenShift cluster 🌟](https://developer.ibm.com/technologies/databases/tutorials/deploy-a-crunchy-posgresql-kubernetes-operator-red-hat-marketplace-openshift/) Follow these steps to deploy a supported Crunchy PostgreSQL for Kubernetes operator from Red Hat Marketplace to an OpenShift cluster
 - [info.crunchydata.com: An Easy Recipe for Creating a PostgreSQL Cluster with Docker Swarm](https://info.crunchydata.com/blog/an-easy-recipe-for-creating-a-postgresql-cluster-with-docker-swarm)
 - [info.crunchydata.com: Deploying the PostgreSQL Operator on GKE](https://info.crunchydata.com/blog/install-postgres-operator-kubernetes-on-gke-ansible)
@@ -87,7 +83,6 @@
 - [blog.crunchydata.com: Your Guide to Connection Management in Postgres 🌟](https://blog.crunchydata.com/blog/your-guide-to-connection-management-in-postgres)
 - [==blog.crunchydata.com: PostgreSQL 14 on Kubernetes (with examples!)==](https://blog.crunchydata.com/blog/postgresql-14-on-kubernetes)
 - [blog.crunchydata.com: Kubernetes + Postgres Cluster From Scratch on Rocky 8](https://blog.crunchydata.com/blog/kube-cluster-from-scratch-on-rocky-8)
-- [blog.crunchydata.com: Kubernetes + Postgres Cluster From Scratch on Rocky 8](https://blog.crunchydata.com/blog/kube-cluster-from-scratch-on-rocky-8)
 - [blog.crunchydata.com: Announcing Postgres Container Apps: Easy Deploy Postgres Apps](https://blog.crunchydata.com/blog/announcing-postgres-container-apps-easy-deploy-postgres-apps)  With Postgres Container Apps you can, from directly inside Postgres with a simple function call, spin up a container that is running right alongside your Postgres database. 
 
 ## Crunchy Data Developer Portal
@@ -98,11 +93,9 @@
 ## Crunchy Data Postgres Operator in OpenShift 4. Overview & Proof of Concept
 
 - In earlier days, Red Hat recommended running PostgreSQL database outside the Kubernetes cluster. Now, with [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) technology, you can run stateful database applications on Kubernetes.
-- [Crunchy PostgreSQL Operator](https://github.com/CrunchyData/postgres-operator) extends Kubernetes to give you the power to easily  create, configure and manage PostgreSQL clusters at scale.  When combined with the [Crunchy PostgreSQL Container Suite](https://github.com/CrunchyData/crunchy-containers), the Crunchy PostgreSQL Operator provides an open source software solution for PostgreSQL scaling, high-availability, disaster recovery, monitoring, and more.  All of this capability comes with the repeatability and automation that comes from Operators on Kubernetes.
 - Crunchy PostgreSQL Operator is open source and developed in close collaboration with users to support enterprise deployments of cloud agnostic PostgreSQL-as-a-Service capability. This release comes after extensive feedback from our customers and the community to ensure the scalability and security that sysadmins, DBAs, and developers have come to rely on.
 - [Crunchy PostgreSQL and Openshift](https://www.openshift.com/blog/leveraging-the-crunchy-postgresql)
 - Crunchy Postgres Solutions: 
-    1. **[Postgres Operator Community Edition](https://github.com/CrunchyData/postgres-operator):**
         - ‘pgo’ CLI tool
         - Not certified by Red Hat
         - The Operator can be deployed by multiple methods including:
@@ -306,8 +299,6 @@ openshift.io/scc: restricted
 
 - Refs:
     - [ref1](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html)
-    - [ref2](https://docs.openshift.com/container-platform/3.6/admin_guide/manage_scc.html#add-scc-to-user-group-project)
-    - [ref3 🌟](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 
 ##### Workflow1 without custom Service Account and without DeploymentConfig
 
@@ -358,7 +349,6 @@ users:
 
 #### Environment setup. Port Forward and WSL
 
-- Deployment method used in this presentation: [Install Operator Using Bash](https://access.crunchydata.com/documentation/postgres-operator/4.3.0/installation/other/bash/)
 - Config files setup by installer are saved in:
     - “pgo” Project -> Deployments
     - “pgo” Project -> Deployment Configs (empty, openshift feature not provided by CrunchyData)
