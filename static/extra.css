@@ -1,0 +1,38 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). 
+
+body {
+  margin: 0px;
+  background-color:rgb(240,240,240); 
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+*/
+
+/* Applies to all <h1>...</h1> elements. 
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+*/
+
+/* Applies to all elements with <... class="someclass"> specified. 
+.someclass { color: red; }
+*/
+
+/* If you want the content area to always stretch to the available screen space, 
+reset max-width with the following CSS: */
+.md-grid {
+  max-width: initial;
+}
+
+/*.md-grid {
+  max-width: 1440px;
+}*/
+
+/* Applies to the element with <... id="someid"> specified. 
+.someid { color: green; }
+*/
+
+
