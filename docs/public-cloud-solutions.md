@@ -51,7 +51,6 @@
 - [thenewstack.io: Is a Multicloud Strategy Right for Your Organization?](https://thenewstack.io/is-a-multicloud-strategy-right-for-your-organization/)
 - [betterprogramming.pub: AWS vs. Digital Ocean vs. Hetzner Cloud — Which Has the Best Value for Money?](https://betterprogramming.pub/aws-vs-digital-ocean-vs-hetzner-cloud-which-has-the-best-value-for-money-bd9cb3c06dee)
 - [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)
-- [simform.com: AWS vs. Azure vs. GCP: A Complete Comparison Guide](https://www.simform.com/blog/aws-vs-azure-vs-gcp/)
 - [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison/)
 - [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers/) Companies turn to cloud providers for benefits like scalability, security and high availability, but the offerings are not identical. How can you ensure a good fit?
 - [==cloud.google.com: Compare AWS and Azure services to Google Cloud==](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
