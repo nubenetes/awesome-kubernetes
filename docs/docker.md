@@ -58,7 +58,6 @@
 - [docs.docker.com: Deploying Docker containers on ECS](https://docs.docker.com/engine/context/ecs-integration/)
     - [AWS and Docker collaborate to simplify the developer experience](https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience/)
     - [From Docker Straight to AWS](https://www.docker.com/blog/from-docker-straight-to-aws/)
-- [A Gentle Introduction to Using a Docker Container as a Dev Environment](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/)
 - [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)
 - [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool/)
 - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 1 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-1/)
@@ -338,7 +337,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [docker.com: Announcing the Compose Specification 🌟](https://www.docker.com/blog/announcing-the-compose-specification/)
 - [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html) Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.
 - [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/) Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.
-- [Awesome Compose](https://github.com/docker/awesome-compose)
 - [Visual docker-compose.yml file generator 🌟](https://nuxx.io/)
 - [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)
 - [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
