@@ -59,7 +59,6 @@
 ## VMware Cloud on AWS
 
 - [VMware Cloud on AWS](https://aws.amazon.com/es/vmware/) The Only Way to Extend Your VMware Environment into AWS
-- [infoworld.com: 4 no-bull insights into the AWS/VMware deal](http://www.infoworld.com/article/3131347/hybrid-cloud/4-no-bull-insights-into-the-awsvmware-deal.html)
 
 ### AWS Application Discovery Service Update. Agentless Discovery for VMware
 
@@ -182,4 +181,3 @@
 ## AWS Landing Zone
 
 - [medium.com/@mike_tyson_cloud: AWS Landing Zone: Mastering the Architecture — Best Practices and Design Secrets](https://medium.com/@mike_tyson_cloud/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962)
-- [blog.brainboard.co: AWS Landing Zone Architecture: Comprehensive Guide to Best Practices and Design Secrets](https://blog.brainboard.co/aws-landing-zone-mastering-the-architecture-best-practices-and-design-secrets-a37746f72962) Key Components and Best Practices
