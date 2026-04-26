@@ -255,6 +255,7 @@ nav:
     - Test Automation Frameworks and BDD: test-automation-frameworks.md
   - AI:
     - AI: ai.md
+    - Model Context Protocol (MCP) & AI Agents: ai-agents-mcp.md
     - MLOps: mlops.md
     - ChatGPT: chatgpt.md
   - Project Mgmt:

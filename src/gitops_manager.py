@@ -12,20 +12,17 @@ class RepositoryController:
         self.repository.create_git_ref(ref=f"refs/heads/{branch_name}", sha=base_branch.commit.sha)
 
     def apply_multi_file_changes(self, updates: dict, metrics: dict) -> None:
-        """
-        updates: dict { "path/to/file": "new_content" }
-        """
         if not updates:
             return
 
         timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
-        branch_name = f"bot/agentic-curation-{timestamp_slug}"
+        branch_name = f"bot/knowledge-update-{timestamp_slug}"
         self._create_feature_branch(branch_name)
 
         for file_path, content in updates.items():
             try:
                 file_meta = self.repository.get_contents(file_path, ref=self.default_branch_name)
-                commit_signature = f"chore(docs): curaduría agéntica en {file_path} [{timestamp_slug}]"
+                commit_signature = f"chore(docs): optimizar y curar {file_path} [{timestamp_slug}]"
                 self.repository.update_file(
                     path=file_path,
                     message=commit_signature,
@@ -36,19 +33,29 @@ class RepositoryController:
             except Exception as e:
                 print(f"Error actualizando {file_path}: {e}")
 
+        # Informe Visual en el PR
+        categories_str = ", ".join([f"`{c}`" for c in metrics.get('categories', [])])
+        
         pr_narrative = (
-            "## 🤖 Ejecución del Agente Curador de Nubenetes\n\n"
-            "Este Pull Request ha sido ensamblado de manera autónoma con **Gemini**.\n\n"
-            "### Resumen de Inyecciones:\n"
-            f"- **Vía Redes Sociales (@nubenetes):** {metrics.get('social_injections', 0)}\n"
-            f"- **Vía Descubrimiento Autónomo (Trending):** {metrics.get('autonomous_injections', 0)}\n\n"
-            "### Labores de Mantenimiento:\n"
-            "- Purga global de hipervínculos caídos (404/500).\n"
-            "- Eliminación de duplicados y optimización de Markdown en múltiples archivos."
+            f"## 💎 Actualización de Conocimiento: Kubernetes & Cloud Native\n\n"
+            f"Este PR añade **{metrics.get('total_new', 0)}** nuevos recursos y optimiza los existentes.\n\n"
+            f"### ✅ Mejoras realizadas:\n"
+            f"- **Inyección de Novedades**: Nuevos recursos filtrados desde X y Trending.\n"
+            f"- **Optimización de Duplicados**: Se han detectado URLs repetidas y el bot ha elegido mantener la versión con **más estrellas (🌟)** y **mejor descripción**, eliminando las versiones redundantes más pobres.\n\n"
+            f"### 📊 Resumen de Ingesta:\n"
+            f"```mermaid\n"
+            f"pie title Origen de los Nuevos Recursos\n"
+            f"    \"X (@nubenetes)\" : {metrics.get('social_injections', 0)}\n"
+            f"    \"GitHub Trending\" : {metrics.get('trending_injections', 0)}\n"
+            f"```\n\n"
+            f"### 📂 Categorías Impactadas:\n"
+            f"{categories_str}\n\n"
+            f"---\n"
+            f"**Nota del Bot:** El bot ya no borra enlaces por falta de respuesta del servidor (salud), solo optimiza el contenido duplicado basándose en la calidad del texto y las menciones destacadas."
         )
 
         self.repository.create_pull(
-            title=f"Automated Knowledge Curation: {datetime.now().strftime('%d %b %Y')}",
+            title=f"💎 Knowledge Update & Optimization: {datetime.now().strftime('%d %b %Y')}",
             body=pr_narrative,
             head=branch_name,
             base=self.default_branch_name
