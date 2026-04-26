@@ -52,7 +52,6 @@
 - [container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-the-bad-and-the-ugly)
 - [itnext.io: Principles, Patterns, and Practices for Effective Infrastructure as Code](https://itnext.io/principles-patterns-and-practices-for-effective-infrastructure-as-code-e5f7bbe13df1) Deliver Infrastructure and Software running on it Rapidly and Reliably at Scale.
 - [medium: GitOps: Build infrastructure resilient applications 🌟](https://medium.com/@franoisdagostini/gitops-build-infrastructure-resilient-applications-95bbc939046d)
-- [itnext.io: Continuous GitOps, the way to do DevOps in Kubernetes 🌟](https://itnext.io/continuous-gitops-the-way-to-do-devops-in-kubernetes-896b0ea1d0fb) Continuous GitOps, the new age DevOps practice to increase the delivery velocity by achieving an end to end “Git source of truth” with Zero manual changes into the Kubernetes cluster.
 - [itnext.io: Managing Kubernetes Secrets Securely with GitOps 🌟](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30)
 - [sufle.io: Adopting GitOps for Enhanced Operations](https://www.sufle.io/blog/adopting-gitops-for-enhanced-operations)
 - [medium: GitOps : The Next Big Thing for DevOps and Automation!](https://medium.com/searce/gitops-the-next-big-thing-for-devops-and-automation-2a9597e51559) If you have similar questions like: “What’s GitOps?”, “Why we are moving towards this?”, “How and when one can implement this strategy in now running environment?”, “What are the tools it included?” then you have landed on the right page.
@@ -73,10 +72,7 @@
 - [==dzone: GitOps: How to Ops Your Git the Right Way== 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
 - [braindose.blog: 4 Key Characteristics for a Successful GitOps Implementation](https://braindose.blog/2020/03/18/4-key-characteristics-of-gitops/)
 - [blog.container-solutions.com: GitOps: The Bad and the Ugly](https://blog.container-solutions.com/gitops-limitations)
-- [cloudogu.com: GitOps in Software Development 🌟](https://cloudogu.com/en/glossary/gitops/)
-- [gitops.tech: What is GitOps? 🌟](https://www.gitops.tech/#tools)
 - [dzone: GitOps – DevOps for Infrastructure Automation 🌟](https://dzone.com/articles/gitops-devops-for-infrastructure-automation) GitOps offers a way to automate and manage infrastructure by using proven DevOps best practices such as version control, code review, and CI/CD pipelines.
-- [unifiedguru.com: GitOps and the Cloud Operating Model – VMware Cloud Community 🌟](https://www.unifiedguru.com/gitops-and-the-cloud-operating-model-vmware-cloud-community/)
 - [thenewstack.io: Misconfiguration Worries Grow](https://thenewstack.io/misconfiguration-worries-grow/)
 - [codefresh.io: The pains of GitOps 1.0 🌟](https://codefresh.io/devops/pains-gitops-1-0/) GitOps as a practice for releasing software has several advantages, but like all other solutions before it, has also several shortcomings.
 - [weave.works: Managing Kubernetes with GitOps in a multi-cluster, multi-cloud world](https://www.weave.works/blog/managing-kubernetes-with-gitops-in-a-multi-cluster-multi-cloud-world)
@@ -139,7 +135,6 @@
 - [==medium: Stop Using Branches for Deploying to Different GitOps Environments | ostis Kapelonis==](https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402)
     - [codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments](https://codefresh.io/about-gitops/branches-gitops-environments)
     - __The question of "How do I promote a release to the next environment?" is becoming increasingly popular among organizations that want to adopt GitOps. You should NOT use Git branches for modelling different environments.__
-- [codefresh.io: The pains of GitOps 1.0](https://codefresh.io/about-gitops/pains-gitops-1-0/)
 - [==thenewstack.io: Can You GitOps Your APIs?==](https://thenewstack.io/can-you-gitops-your-apis/)
 - [weave.works: GitOps takes DevOps teams to higher levels of maturity](https://www.weave.works/blog/gitops-takes-devops-teams-to-higher-levels-of-maturity)
 - [==linkedin.com pulse: WTH is GitOps? | Pavan Belagatti==](https://www.linkedin.com/pulse/wth-gitops-pavan-belagatti/)
@@ -184,7 +179,6 @@
 - [loft.sh: GitOps + Kubernetes Explained](https://loft.sh/blog/gitops-kubernetes-explained/)
 - [msrishty.medium.com: Traditional CI-CD vs gitops 🌟](https://msrishty.medium.com/traditional-ci-cd-vs-gitops-e835728642fb)
 - [blog.developersteve.com: GitOps for Kubernetes Canary Deployments](https://blog.developersteve.com/gitops-for-kubernetes-canary-deployments-4aeab4043727)
-- [blog.brainboard.co: Streamlining Cloud Deployments with Git: Best Practices and Strategies](https://blog.brainboard.co/streamlining-cloud-deployments-with-git-best-practices-and-strategies-3ddf5cad3861)
 - [thenewstack.io: GitOps as an Evolution of Kubernetes](https://thenewstack.io/gitops-as-an-evolution-of-kubernetes/)
 - [github.blog: Applying GitOps principles to your operations](https://github.blog/2023-06-02-applying-gitops-principles-to-your-operations/) Could we use our Git repository as the source of truth for operational tasks, and somehow reconcile changes with our real-world view?
 - [hackernoon.com: What Is GitOps And Why Is It (Almost) Useless? Part 1](https://hackernoon.com/what-is-gitops-and-why-it-is-almost-useless-part-1)
@@ -224,8 +218,6 @@
 
 ## Git Repositories Structures
 
-- [==dzone: GitOps: How to Ops Your Git the Right Way== 🌟](https://dzone.com/articles/gitops-how-to-ops-your-git-the-right-way) In this article we’ll look into the specifics of creating Git repositories structures  —  the very core of the GitOps approach.
-- [==codefresh.io: Stop Using Branches for Deploying to Different GitOps Environments==](https://codefresh.io/about-gitops/branches-gitops-environments/) How do I promote a release to the next environment? __You should NOT use Git branches for modeling different environments. If the Git repository holding your configuration (manifests/templates in the case of Kubernetes) has branches named “staging”, “QA”, “Production” and so on, then you have fallen into a trap.__ Using branches for different environments should only be applied to legacy applications.
 - [==developers.redhat.com: Git best practices: Workflows for GitOps deployments | Christian Hernandez== 🌟](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)
     - Separate your repositories
     - Separate development in directories, not branches
@@ -238,7 +230,6 @@
 
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-or-jenkins-x-which-is-the-right-gitops-tool-for-you)
 - [slideshare: GitOps, Jenkins X & Future of CI/CD](https://slideshare.net/rakutentech/gitops-jenkins-x-future-of-cicd)
-- [kubesandclouds.com: Werf: Fully customizable GitOps](https://kubesandclouds.com/index.php/2020/09/01/werf-gitops/)
 - [searchitoperations.techtarget.com: GitOps pros grapple with Kubernetes configuration management. GitOps users seek ideal Kubernetes config tool 🌟](https://searchitoperations.techtarget.com/news/252492459/GitOps-pros-grapple-with-Kubernetes-configuration-management) Configuration management challenges GitOps early adopters, especially at large enterprises with millions of lines of Kubernetes YAML to manage. Ultimately, the industry hasn't found an ideal approach to Kubernetes configuration management, especially for GitOps.
     - [Tanka](https://tanka.dev/tutorial/jsonnet) a utility that blends Helm charts with Jsonnet, which combines the deployment speed and ubiquity of Helm charts with the more granular customizability supported by Jsonnet.
 - [openshift.com: Announcing OpenShift GitOps](https://www.openshift.com/blog/announcing-openshift-gitops)
@@ -247,7 +238,6 @@
 - [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac)
 - [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://cloudogu.com/en/blog/gitops-tools)
-- [shipa.io: From Terraform to GitOps to Pulumi 🌟](https://shipa.io/2021/10/from-terraform-to-gitops-to-pulumi/)
 - [==vimeo.com: Weaveworks - Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps==](https://vimeo.com/516520492) One of the biggest advantages Kubernetes has to offer is that it is agnostic to infrastructure and capable of managing diverse workloads running on different compute resources. This allows organizations to manage multiple developer platforms, who can operate across many environments such as on premise, hybrid and multiple clouds.
     - Streamlined processes and automation is pivotal for operations when managing clusters at scale and maintaining security and policy checks. Paul Curtis, Principal Solutions Architect will demonstrate GitOps and Weave Kubernetes Platform in a hybrid and multi-cloud setup.
     - Learn how to:
@@ -305,7 +295,6 @@
 
 - [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview)
 - [Anthos Config Management](https://cloud.google.com/anthos/config-management)
-- Google built a tool called [Config Sync](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/overview) which acts as the bridge between an external source code repository and the Kubernetes API server. [Anthos Config Management](https://cloud.google.com/anthos/config-management) is based on Config Sync to extend it to multicluster scenarios.
 
 ### Portworx AutoPilot
 
