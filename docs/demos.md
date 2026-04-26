@@ -163,7 +163,6 @@
 - [kubernetesbyexample.com 🌟](http://kubernetesbyexample.com/)
 - [==Free Kubernetes== 🌟🌟](https://github.com/learnk8s/free-kubernetes/) **List of free Trials/Credit for Managed Kubernetes Services.**
 - [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop)
-- [wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 - [github.com/kubernetes-course/container_workshops](https://github.com/kubernetes-course/container_workshops)
 - [Mautic](https://github.com/mautic/docker-mautic)
 - [howtoforge.com: How to create a Deployment in Kubernetes](https://www.howtoforge.com/create-a-deployment-in-kubernetes/)
@@ -247,7 +246,6 @@
 
 - [Spring Initializr 🌟](https://start.spring.io/) a web application that can generate a Spring Boot project structure, fill in your project details, pick your options, and download a bundled up project
 - [k8s Initializer 🌟](https://app.getambassador.io/initializer/) Build Your Own Application-Ready Kubernetes Playground. Generate YAML configs for ingress, CI/CD, observability, authentication, and more in just 3 minutes.
-- [dzone: Bootstrapping Java Kubernetes Apps With Spring Initializr and K8s Initializer](https://dzone.com/articles/bootstrapping-java-kubernetes-apps-no-yaml) Build a Spring Boot app and deploy to K8s without writing a single line of YAML
 - [hashicorp.com: Getting Started with Ambassador and Consul Using Kubernetes Initializer](https://www.hashicorp.com/blog/getting-started-with-ambassador-and-consul-using-kubernetes-initializer) Kubernetes Initializer built by Ambassador Labs provides a new experience for simplifying the deployment of Ambassador and Consul in a Sandbox Kubernetes environment.
 
 ### Kubernetes CKAD Example Exam Questions Practical Challenge Series
@@ -364,7 +362,6 @@
 - [github.com/OpenShiftDemos 🌟](https://github.com/OpenShiftDemos)
 - [DockerHub OpenShift Demos](https://hub.docker.com/r/openshiftdemos/)
 - [Red Hat Tutorials & Examples: github.com/redhat-developer-demos 🌟](https://github.com/redhat-developer-demos)
-- [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 - [blog.openshift.com: OCP multi-node deployment on **AWS** using CloudFormation and Ansible (quickstart workshop)](https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/)
 - [Deploying Docker Images to OpenShift](https://dzone.com/articles/deploying-docker-images-to-openshift) We take a look at how to deploy a Docker image from DockerHub into RedHat's OpenShift environment, bringing added functionality along the way.
 - [SonarQube: An OpenShift-focused Docker build of Sonarqube](https://github.com/OpenShiftDemos/sonarqube-openshift-docker)
@@ -461,7 +458,6 @@
 - [infracloud.io: Multicluster GitOps with ArgoCD](https://www.infracloud.io/blogs/multicluster-gitops-argocd/)
 - [developers.redhat.com: Managing GitOps control planes for secure GitOps practices 🌟](https://developers.redhat.com/articles/2021/08/03/managing-gitops-control-planes-secure-gitops-practices)
 - [opensource.com: Get started with Argo CD 🌟](https://opensource.com/article/21/8/argo-cd) Argo CD is a simple pull-based GitOps deployment tool that syncs Kubernetes manifest files with a cluster for easy, no-nonsense deployments.
-- [blog.argoproj.io: Getting started with ApplicationSets](https://blog.argoproj.io/getting-started-with-applicationsets-9c961611bcf0)
 - [blog.argoproj.io: Introducing the AppSource Controller for ArgoCD](https://blog.argoproj.io/introducing-the-appsource-controller-for-argocd-52f21d28d643)
 - [==piotrminkowski.com: Continuous Delivery on Kubernetes with Database using ArgoCD and Liquibase==](https://piotrminkowski.com/2021/12/13/continuous-delivery-on-kubernetes-with-database-using-argocd-and-liquibase/)
 - [medium.com/adaltas: GitOps in practice, deploy Kubernetes applications with ArgoCD](https://medium.com/adaltas/gitops-in-practice-deploy-kubernetes-applications-with-argocd-ca170ce8aba3)
@@ -573,7 +569,6 @@
 - [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab)
 - [Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides](https://github.com/marcredhat/crcdemos)
 - [Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment](https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading)
-- [github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test](https://github.com/gnunn1/openshift-basic-pipeline)
 
 ### OpenShift Pipelines with S2i and Jenkins Blue Ocean
 
@@ -602,9 +597,6 @@
 - Links of interest provided in the event:
     - [Continuation Passing Style (CPS)](https://github.com/cloudbees/groovy-cps/blob/master/doc/cps-basics.md) is a style of programming in which the remainder of the program is passed explicitly as a parameter, as opposed to that being handled implicitly represented as call stack.
         - [Jenkins Pipeline execution engine based on Continuation Passing Style (CPS) transformation of Groovy scripts. DSL Methods:](https://jenkinsci.github.io/job-dsl-plugin/#plugin/workflow-cps):
-            - [cps](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cps): WorkflowDefinitionContext
-            - [cpsScm](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.helpers.workflow.WorkflowDefinitionContext.cpsScm): WorkflowDefinitionContext
-        - [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob-definition-cps-script)
     - [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli/)
     - [How to create initial "seed" job](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md)
     - [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework)
@@ -612,7 +604,6 @@
     - [Plugin Installation Manager Tool](https://github.com/jenkinsci/plugin-installation-manager-tool)
     - [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager)
     - Jenkins Configuration as Code:
-        - [Configuration as Code of Jenkins (for Kubernetes) 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s)
         - [JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users](https://www.jenkins.io/events/online-hackfest/2020-uiux/) It improves the modifying Web UI configuration controls to support the read-only mode.
     - Plugins:
         - [Plugin Usage](https://plugins.jenkins.io/plugin-usage-plugin/) This plugin gives you the possibility to analyze the usage of your installed plugins.
@@ -621,8 +612,6 @@
         - [Least Load](https://plugins.jenkins.io/leastload/) This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load
         - [Declarative Pipeline Migration Assistant](https://plugins.jenkins.io/declarative-pipeline-migration-assistant/)
     - Jenkins Job DSL:
-        - [Jenkins Job DSL API 🌟](https://jenkinsci.github.io/job-dsl-plugin/)
-            - [mavenJob](https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob)
         - [Example of a pipeline with parameters](https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy)
     - [Pipeline Global Library for ci.jenkins.io](https://github.com/jenkins-infra/pipeline-library) Collection of custom steps and variables for our Jenkins instance(s)
 
@@ -738,7 +727,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices)
     - [Google Cloud Native Spring Boot PetClinic. Spring PetClinic Microservices on GCP 🌟](https://github.com/saturnism/spring-petclinic-gcp) Example Petclinic deployment on Google Cloud Platform into Google Kubernetes Engine with Istio. This is based on [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices).
 - spring-petclinic-microservices renamed to spring-petclinic-cloud 🌟: https://github.com/spring-petclinic/spring-petclinic-cloud
-- [Distributed version of Spring Petclinic built with Spring Cloud 🌟](https://github.com/odedia/spring-petclinic-microservices)
 - [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic)
 - [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/)
 - [github.com/kohsuke/petclinic Jenkinsfile](https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile)
@@ -772,7 +760,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 - [github.com/aws-samples/aws-training-demo](https://github.com/aws-samples/aws-training-demo)
 - [==aws-samples/aws-network-hub-for-terraform: Network Hub Account with Terraform==](https://github.com/aws-samples/aws-network-hub-for-terraform) This repository demonstrates a scalable, segregated, secured AWS network for multi-account organizations. Using Transit Gateway to separate production, non-production and shared services traffic, it deploys an advanced AWS networking pattern using centralized ingress and egress behind Network Firewall, centralizes private VPC endpoints to share across all VPCs, and manages IP address allocation using Amazon VPC IPAM.
 - [cyberciti.biz: How to create MySQL user and grant permissions in AWS RDS](https://www.cyberciti.biz/faq/how-to-create-mysql-user-and-grant-permissions-in-aws-rds/)
-- [stacksimplify.com: DevOps with AWS CodePipeline on AWS EKS](https://www.stacksimplify.com/aws-eks/aws-devops-eks/learn-to-master-devops-on-aws-eks-using-aws-codecommit-codebuild-codepipeline/)
 - [medium: Fetch Application Inventory using Systems Manager](https://medium.com/cloud-techies/application-inventory-using-system-manager-f3eeb75d3279) Get application inventory from each EC2 instance and store it in centralized account S3 bucket. To query the information from s3 bucket, we are integrating Glue, Athena (from another account).
 - [youtube: Build a Music Sharing App with Amazon S3 and AWS Amplify](https://www.youtube.com/watch?v=6W2TuBDaaiI&ab_channel=AliSpittel)
 - [freecodecamp.org: How to Deploy a React App to Production Using Docker and NGINX with API Proxies](https://www.freecodecamp.org/news/how-to-deploy-react-apps-to-production/)
@@ -829,7 +816,6 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ### GitOps with Anthos Config Management
 
 - [Tutorial: Connect Amazon EKS and Azure AKS Clusters with Google Anthos](https://thenewstack.io/tutorial-connect-amazon-eks-and-azure-aks-clusters-with-google-anthos/)
-- [Tutorial: GitOps in Multicluster Environments with Anthos Config Management](https://thenewstack.io/tutorial-gitops-in-multicluster-environments-with-anthos-config-management/)
 - [Tutorial: Deploy Anthos Apps from GCP Marketplace into Amazon EKS Cluster](https://thenewstack.io/tutorial-deploy-anthos-apps-from-gcp-marketplace-into-amazon-eks-cluster/)
 
 ## SpringBoot Demos
