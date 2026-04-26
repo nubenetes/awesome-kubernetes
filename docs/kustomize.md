@@ -50,7 +50,6 @@
 
 - [itnext.io: Helm Is Not Enough, You Also Need Kustomize](https://itnext.io/helm-is-not-enough-you-also-need-kustomize-82bae896816e) Customize the YAML’s to enforce policies from application operators, security operators, and cluster operators.
 - [harness.io: Comparing Helm vs Kustomize 🌟](https://harness.io/blog/devops/helm-vs-kustomize/)
-- [nakamasato.medium.com: Comparison between Helm and Kustomize for Kubernetes yaml management](https://nakamasato.medium.com/comparison-between-helm-and-kustomize-for-kubernetes-yaml-management-aed32cef2627) Helm and Kustomize are often compared with each other in the context of managing Kubernetes manifest file. Although those two tools have similar features, they are fundamentally different. In this post, I’ll compare them from several points of view with a sample application.
 
 ## Boilerplate
 
