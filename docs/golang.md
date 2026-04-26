@@ -48,7 +48,6 @@
 - [dev.to: Rate limiting HTTP requests in Go using Redis](https://dev.to/mauriciolinhares/rate-limiting-http-requests-in-go-using-redis-51m7)
 - [dev.to: Understanding and Crafting HTTP Middlewares in Go](https://dev.to/theghostmac/understanding-and-crafting-http-middlewares-in-go-3183)
 - [dev.to: Getting started with Go-Lang](https://dev.to/treva123mutebi/getting-started-with-go-lang-1g0)
-- [miguelmota/golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers) Examples of Golang compared to Node.js for learning
 - [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql/)
 - [datastation.multiprocess.io: Speeding up Go's builtin JSON encoder up to 55% for large arrays of objects](https://datastation.multiprocess.io/blog/2022-03-03-improving-go-json-encoding-performance-for-large-arrays-of-objects.html)
 - [betterprogramming.pub: Writing My First Microservice Using Go](https://betterprogramming.pub/my-first-microservice-using-golang-c5cf69f1376d)
@@ -73,7 +72,6 @@
 - [An example of using dynamic client of k8s.io/client-go](https://ymmt2005.hatenablog.com/entry/2020/04/14/An_example_of_using_dynamic_client_of_k8s.io/client-go)
 - [medium: Using the Go client framework 🌟](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)
 - [iximiuz.com: How To Call Kubernetes API using Go - Types and Common Machinery](https://iximiuz.com/en/posts/kubernetes-api-go-types-and-common-machinery/)
-- [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) Using the unstructured package from k8s API machinery. In this post you’ll learn how to work with live Kubernetes objects in Go using the typed and dynamic clients available from the API machinery sub-project client-go.
 - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd) Invoke the Kubernetes resources without overloading the cluster. Many popular Kubernetes tools such as K9s are based on client-go. They use the informer pattern to continuously refresh data without posing additional pressure to the API Server. Learn how the informer pattern works in this article.
 - [dev.to: Watch and react to Kubernetes objects changes](https://dev.to/lucasepe/watch-and-react-to-kubernetes-objects-changes-3kcg) client-go is the official client library for the Go programming language. In this article, you will learn how to use RESTClient to watch and then react to namespaces changes.
 - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)
@@ -88,9 +86,7 @@
 
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
-- [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
-- [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) An overview of Go syntax and features.
 
 ## Go Frameworks and libraries
 
