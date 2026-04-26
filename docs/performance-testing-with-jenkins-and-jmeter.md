@@ -67,7 +67,6 @@
 ## Gatling
 
 - [gatling.io](https://gatling.io/)
-- [Gatling Cloud Marketplaces](https://gatling.io/gatling-frontline/cloud-marketplaces/)
 - [Perfomance Testing with Gatling](https://dzone.com/articles/perfomance-testing-with-gatling)
 - [Gatling: A Lightweight Load Testing Tool](https://dzone.com/articles/gatling-light-weight-load-testing-tool)
 - [An Introduction to Load Testing With Gatling](https://dzone.com/articles/gatling-gun-is-now-a-prospecting-tool-for-testers)

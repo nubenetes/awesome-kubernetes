@@ -24,7 +24,6 @@
 ### Java Scaffolding with Spring Roo
 
 - [Wikipedia: Spring Roo](https://en.wikipedia.org/wiki/Spring_Roo)
-- [Spring Roo](https://projects.spring.io/spring-roo/)
 
 ### Java Scaffolding with Maven
 

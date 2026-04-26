@@ -29,7 +29,6 @@
 - [dzone: kubernetes in 10 minutes a complete guide to look](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
 - [magalix.com: The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
 - [35 Advanced Tutorials to Learn Kubernetes](https://medium.com/faun/35-advanced-tutorials-to-learn-kubernetes-dae5695b1f18)
-- [geekflare.com: 14 Kubernetes Tutorials for Beginner to Master](https://geekflare.com/learn-kubernetes/)
 - [freecodecamp.org: The Kubernetes Handbook 🌟](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
 - [youtube: Kubernetes Pods and ReplicaSets explained](https://www.youtube.com/playlist?list=PLy0Gle4XyvbGhGpX0CXAuiEsfL-MD-rND)
 - [medium: DraftKings Kubernetes Workshop: Hands-on Learning in K8s (with Video Walkthrough)](https://medium.com/draftkings-engineering/draftkings-workshop-demystifying-kubernetes-4ce86c187408)
@@ -61,7 +60,6 @@
 - [==youtube playlist: Tech World with Nana - Complete Kubernetes Tutorial for Beginners== 🌟🌟🌟](https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
 - [medium.com/google-cloud: Running Workloads in Kubernetes 🌟](https://medium.com/google-cloud/running-workloads-in-kubernetes-86194d133593)
 - [==omerbsezer/Fast-Kubernetes== 🌟🌟](https://github.com/omerbsezer/Fast-Kubernetes) **This repo covers Kubernetes objects' and components' details (Kubectl, Pod, Deployment, Service, ConfigMap, Volume, PV, PVC, Daemonset, Secret, Affinity, Taint-Toleration, Helm, etc.), and possible example usage scenarios (how-to, hands-on labs, etc.)**
-- [containiq.com: 10 Awesome Kubernetes Projects for Beginners](https://www.containiq.com/post/kubernetes-projects-for-beginners) Kubernetes is powerful, but it’s a lot to learn! In this roundup, explore 10 of the best beginner Kubernetes projects and tutorials to learn from as a new user.
 - [javarevisited.blogspot.com: Top 5 Online Courses to Learn Kubernetes in 2022 - Best of Lot](https://javarevisited.blogspot.com/2020/06/top-5-courses-to-learn-kubernetes-for-devops-and-certification.html)
 - [==youtube: Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016== 🌟🌟🌟](https://www.youtube.com/clip/UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ)**This is the most famous Kubernetes talk of all time, where kelseyhightower explains the Kubernetes scheduler using Tetris.**
 - [==educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive== 🌟🌟🌟](https://www.educative.io/courses/the-kubernetes-course) **Kubernetes helps deploy and manage containerized applications at scale. It abstracts the underlying infrastructure so it doesn’t matter if you're deploying your applications to Amazon Web Services, Microsoft Azure, or your own on-premises datacenter. Ready to get started?**

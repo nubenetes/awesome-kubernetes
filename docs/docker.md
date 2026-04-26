@@ -48,7 +48,6 @@
 - [itnext.io: Getting Started with Docker: Facts You Should Know 🌟](https://itnext.io/getting-started-with-docker-facts-you-should-know-d000e5815598)
 - [jfrog.com: A Beginner’s Guide to Understanding and Building Docker Images 🌟](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
 - [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard/)
-- [geekflare.com: docker tutorials](https://geekflare.com/docker-tutorials/)
 - [medium: What is Docker, Why should you use it in simple words](https://medium.com/@shahinghasemy/what-is-docker-why-should-you-use-it-in-simple-words-cc5e6160f9db)
 - [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker/)
 - [medium: How to Start Working With Docker Containers](https://medium.com/swlh/how-to-start-working-with-docker-containers-72b73ca60e0c)
@@ -58,7 +57,6 @@
 - [docs.docker.com: Deploying Docker containers on ECS](https://docs.docker.com/engine/context/ecs-integration/)
     - [AWS and Docker collaborate to simplify the developer experience](https://aws.amazon.com/blogs/containers/aws-docker-collaborate-simplify-developer-experience/)
     - [From Docker Straight to AWS](https://www.docker.com/blog/from-docker-straight-to-aws/)
-- [A Gentle Introduction to Using a Docker Container as a Dev Environment](https://css-tricks.com/a-gentle-introduction-to-using-a-docker-container-as-a-dev-environment/)
 - [martinheinz.dev: It's Time to Forget About Docker 🌟](https://martinheinz.dev/blog/35)
 - [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool/)
 - [docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 1 🌟](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-1/)
@@ -87,7 +85,6 @@
 - [dev.to: Docker CMD vs ENTRYPOINT: explaining the difference](https://dev.to/hood/docker-cmd-vs-entrypoint-explaining-the-difference-55g7)
 - [blog.gougousis.net: File Permissions: the painful side of Docker 🌟](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/)
     - ["Excellent description of user ids and access rights in Docker; it’s a non trivial issue and there’s no silver bullet other than to avoid running your containers with a privileged user. As a bonus, I personally like openshift approach (random UIDs belonging to the super user GID)"](https://twitter.com/agarcia)
-- [katacoda.com: Learn Docker & Containers using Interactive Browser-Based Scenarios 🌟](https://www.katacoda.com/courses/docker)
 - [medium: Push Docker Image To Docker Hub](https://medium.com/codex/push-docker-image-to-docker-hub-acc978c76ad) Create Docker hub account and push Docker image.
 - [blog.thundra.io: Why Should You Run All Your Tests in Docker? 🌟](https://blog.thundra.io/why-should-you-run-all-your-tests-in-docker)
 - [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure/)
@@ -138,7 +135,6 @@
 - [==dev.to: Docker 101: Introduction to Docker==](https://dev.to/signoz/docker-101-introduction-to-docker-1kbm)
 - [blog.devgenius.io: K8s — Advanced Container Knowledge](https://blog.devgenius.io/k8s-advanced-container-knowledge-fcc45a2f6db8)
 - [medium.com/@joelbelton: Optimising Docker Performance — The Key 4 Techniques You Need](https://medium.com/@joelbelton/optimising-docker-performance-the-key-4-techniques-you-need-6440cfebb650)
-- [kubesimplify.com: The secret gems behind building container images, Enter: BuildKit & Docker Buildx](https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx)
 - [medium.com/geekculture: Docker — Limit Container CPU Usage 🌟](https://medium.com/geekculture/docker-limit-container-cpu-usage-11eb8ee0de5a)
 - [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 - [fatehmuhammad.medium.com: Introduction to Docker | part 1](https://fatehmuhammad.medium.com/introduction-to-docker-part-1-3cff7559e372)
@@ -231,7 +227,6 @@
 
 - [blog.testproject.io: A Comparison of Kubernetes and Docker](https://blog.testproject.io/2021/06/21/a-comparison-of-kubernetes-and-docker/)
 - [==containerjournal.com: What’s the Difference Between Docker and Kubernetes?==](https://containerjournal.com/features/whats-the-difference-between-docker-and-kubernetes/)
-- [peoplactive.com: Kubernetes Vs Docker – Which to Adopt?](https://peoplactive.com/kubernetes-vs-docker-swarm-difference)
 
 ## Docker Patterns and Antipatterns
 
@@ -290,7 +285,6 @@
 
 ## Modify containers without rebuilding
 
-- [cloudowski.com: How to modify containers without rebuilding their image](https://cloudowski.com/articles/how-to-modify-containers-wihtout-rebuilding/)
 
 ## Docker Tools
 
@@ -338,7 +332,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 - [docker.com: Announcing the Compose Specification 🌟](https://www.docker.com/blog/announcing-the-compose-specification/)
 - [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/3536573/dockers-compose-specification-is-now-an-open-standard.html) Docker’s system for creating applications from multiple containers is now available on GitHub for all to contribute to.
 - [theregister.co.uk: Compose yourselves – Docker has published multi-container app spec, needs contributors to help maintain and develop it](https://www.theregister.co.uk/2020/04/08/docker_opens_up_compose_specification/) Now focused on developers, firm wants its tools to be more universally useful. Keep it light(weight), though.
-- [Awesome Compose](https://github.com/docker/awesome-compose)
 - [Visual docker-compose.yml file generator 🌟](https://nuxx.io/)
 - [medium: How can we easily and visually explain the Docker Compose 🌟](https://medium.com/clarusway/how-can-we-easily-and-visually-explain-the-docker-compose-53df77e9f046)
 - [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/)
@@ -363,7 +356,6 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 ## DockStation
 
-- [dockstation.io](https://dockstation.io/)
 
 ## Linux Container Base Images
 

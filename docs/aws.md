@@ -47,7 +47,6 @@
 - [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
 - [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/tutorials/)
 - [How do I create and activate a new Amazon Web Services account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
-- [onlineitguru.com: AWS Services](https://onlineitguru.com/tutorial/aws-services)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [AWS Ramp-Up Guides](https://aws.amazon.com/es/training/ramp-up-guides/) Your guides to learning the AWS Cloud. Build Your AWS Cloud Knowledge with Ramp-Up Guides.
 - [serverlessland.com](https://serverlessland.com/) This site brings together all the latest blogs, videos, and training for AWS Serverless. Learn to use and build apps that scale automatically on low-cost, fully-managed serverless architecture.

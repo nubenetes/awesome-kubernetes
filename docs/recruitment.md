@@ -21,7 +21,6 @@
 
 ## Introduction
 
-- [protocol.com: Developer experience is the next major competitive front in enterprise tech](https://www.protocol.com/caavo-remote-senior-living-facilities) Now that cloud is old news and APIs launch major businesses, the most successful companies over the next decade of enterprise tech will delight their customers.
 - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) Tips when interviewing software developers, find the right candidate
 - [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40/)
 - [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn/) One of the big headlines this week in the world of programming comes in the form of a single statistic: 83% of developers suffer from burnout, according to a study by Haystack Analytics.
@@ -310,4 +309,3 @@
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/KabAlEs9qcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</center>
-

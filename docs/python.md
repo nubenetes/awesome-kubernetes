@@ -59,15 +59,11 @@
 - [github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace.
 - [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)
 - [reddit: Why Python](https://www.reddit.com/r/Python/comments/3ylxmk/why_python/)
-- [Python Anti-Patterns. The Little Book of Python Anti-Patterns and Worst Practice](http://docs.quantifiedcode.com/python-code-patterns/)
 - [Setting up Python on OSX: UPDATED](http://staticnat.com/setting-up-python-on-osx/)
 - [Python 3.4 Programming Tutorials - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
     - [Python mini-course](http://ai.berkeley.edu/tutorial.html#PythonBasics)
-    - [Web Development using Python & Django](https://www.mysliderule.com/learning-paths/web-development-python-django/)
     - [A beginner's guide to web development with Python 2.7 / Django 1.7](http://www.tangowithdjango.com/)
-    - [I wish I knew these things when I learned Python](http://bugra.github.io/work/notes/2015-01-03/i-wish-i-knew-these-things-when-i-first-learned-python/)
     - [The Bottom-Line Single Main Difference Between Python 2 and 3](http://migrateup.com/main-difference-python-3/)
-- [How do you handle the ORM problem? When do you say YES or NO to using ORM?](http://www.vertabelo.com/blog/technical-articles/orms-under-the-hood)
 - [Don't Make Us Say We Told You So: virtualenv for New Pythonistas](http://pyvideo.org/video/3460/dont-make-us-say-we-told-you-so-virtualenv-for)
 - [commandlinefu.com: pip install into current directory without virtualenv](http://www.commandlinefu.com/commands/view/17656/pip-install-into-current-directory-without-virtualenv)
 - [Java Vs. Python - Which Programming Language is More Productive? - Infographic](http://blogs.perceptionsystem.com/infographic/java-vs-python-programming-language-productive)
@@ -88,13 +84,11 @@
 - [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes/)
 - [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 - [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading/)
-    - [Python Threads and the Global Interpreter Lock](http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock)
 - [devbattles.com: Python list. Functions and Methods lists](http://www.devbattles.com/en/sand/post-1754-Python_list_Functions_and_Methods_lists)
 - [devbattles.com: Python: sorting lists by .sort () with - in simple words](http://www.devbattles.com/en/sand/post-1752-Python_sorting_lists_by_sort__with__in_simple_words)
 - [Create a GUI Application Using Qt and Python in Minutes: Example Web Browser](http://www.digitalpeer.com/blog/create-a-gui-application-using-qt-and-python-in-minutes-example-web-browser)
 - [Python command line oneliners](http://www.vurt.ru/2013/02/python-command-line-oneliners)
 - ["Learn Python" Overtakes "Learn Java" on Google Trends 🌟](https://dzone.com/articles/learn-python-overtakes-learn-java)
-- [Python gains the upper hand against Perl, PHP, and Ruby](http://www.infoworld.com/article/3029681/java/python-gains-the-upper-hand-against-perl-php-and-ruby.html)
 - [Python FAQ: Why should I use Python 3? 🌟](https://eev.ee/blog/2016/07/31/python-faq-why-should-i-use-python-3/)
 - [stackoverflow: Problems installing python3 on RHEL 🌟](http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel)
 - [PEP 8 Cheatsheet 🌟](https://es.scribd.com/document/207247675/PEP-8-Cheatsheet-2009)
@@ -110,14 +104,12 @@
 - [towardsdatascience.com: Unexpected Size of Python Objects in Memory](https://towardsdatascience.com/the-strange-size-of-python-objects-in-memory-ce87bdfbb97f) How much memory does a Python object take on memory?
 - [aigents.co: Data Structures and Python 🌟](https://aigents.co/blog/coding-tutorial/data-structures-and-python)
 - [doppler.com: Using Environment Variables in Python for App Configuration 🌟](https://doppler.com/blog/environment-variables-in-python) Learn how experienced developers use environment variables in Python, including managing default values and typecasting.
-- [src-r-r.github.io: How To Property Set Up Python Logging With A Command Line Program](https://src-r-r.github.io/articles/how_to_log_with_a_python_cli_program/)
 - [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc/)
 - [dashbird.io: How I Manage Credentials in Python Using AWS Secrets Manager](https://dashbird.io/blog/aws-secrets-manager-python/)
 - [freecodecamp.org: The Python Handbook 🌟](https://www.freecodecamp.org/news/the-python-handbook/)
 - [towardsdatascience.com: 7 Must-Know Data Wrangling Operations with Python Pandas](https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15)
 - [towardsdatascience.com: All The Important Features and Changes in Python 3.10](https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf)
 - [towardsdatascience.com: Data Preprocessing in Python Pandas — Part 6 Dropping Duplicates](https://towardsdatascience.com/data-preprocessing-in-python-pandas-part-6-dropping-duplicates-e35e46bcc9d6) A quick tutorial to drop duplicates using the Python Pandas library.
-- [antonz.org: How to make an awesome Python package in 2021](https://antonz.org/python-packaging/)
 - [freecodecamp.org: Python Map Function – How to Map a List in Python 3.0, With Example Code](https://www.freecodecamp.org/news/python-map-function-how-to-map-a-list-in-python-3-0-with-example-code/)
 - [betterprogramming.pub: 3 Seemingly Simple Python Features That Confuse Beginners](https://betterprogramming.pub/3-seemingly-simple-python-features-that-confuse-beginners-313575312dcf)
 - [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python/)
@@ -127,10 +119,8 @@
 - [towardsdatascience.com: There is more to ‘pandas.read_csv()’ than meets the eye](https://towardsdatascience.com/there-is-more-to-pandas-read-csv-than-meets-the-eye-8654cb2b3a03) A deep dive into some of the parameters of the read_csv function in pandas
 - [blog.adnansiddiqi.me: Getting started with Elasticsearch 7 in Python 🌟](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-7-in-python/)
 - [towardsdatascience.com: Concurrency and Parallelism in Python](https://towardsdatascience.com/concurrency-and-parallelism-in-python-bbd7af8c6625)
-- [pythonsimplified.com: Introduction to Python Sequence Types 🌟](https://pythonsimplified.com/python-sequence-types-an-introduction/)
 - [pub.towardsai.net: OPs Concept in Python](https://pub.towardsai.net/oops-concept-in-python-b5f5833d57db) OOPs is a highly efficient way of writing a program
 - [developers.redhat.com: micropipenv: Installing Python dependencies in containerized applications 🌟](https://developers.redhat.com/articles/2021/05/19/micropipenv-installing-python-dependencies-containerized-applications)
-- [pythonsimplified.com: Python List Vs Tuple 🌟](https://pythonsimplified.com/python-list-vs-tuple/)
 - [trstringer.com: Debug a Python Application Running in Kubernetes 🌟](https://trstringer.com/debug-python-kubernetes/)
 - [towardsdatascience.com: 7 advanced pandas tricks for data science](https://towardsdatascience.com/7-advanced-tricks-in-pandas-for-data-science-41a71632b5d9) Pandas is the go-to library for data science. These are the shortcuts I use to do repetitive data science tasks faster and simpler.
 - [pub.towardsai.net: Class and Objects in Python with Examples](https://pub.towardsai.net/class-and-objects-in-python-with-examples-591c6ca95ee6) A handy concept for software development programs
@@ -145,9 +135,7 @@
 - [oxylabs.io: Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)
 - [towardsdatascience.com: Automate Email Sending with Python](https://towardsdatascience.com/automate-email-sending-with-python-74128c7ca89a) The Definitive Snippets Collection for your ETL Pipelines
 - [returngis.net: Gestionar recursos de Kubernetes con Python](https://www.returngis.net/2021/08/gestionar-recursos-de-kubernetes-con-python/)
-- [pythonsimplified.com: Making Sense of Python Iterables and Iterators](https://pythonsimplified.com/making-sense-of-python-iterables-and-iterators/)
 - [opensource.com: Parse command-line arguments with argparse in Python](https://opensource.com/article/21/8/python-argparse) Use the argparse module to enable options in your Python applications.
-- [itsallaboutpython.blogspot.com: Simple Script To Send Emails In Python](https://itsallaboutpython.blogspot.com/2021/08/simple-script-to-send-emails-in-python.html)
 - [tecadmin.net: How To Read, Write & Parse CSV in Python](https://tecadmin.net/read-write-csv-in-python)
 - [freecodecamp.org: Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples](https://www.freecodecamp.org/news/python-list-methods-append-vs-extend)
 - [writersbyte.com: 4 key Python Data Structures every beginner must know](https://writersbyte.com/4-key-python-data-structures-e-very-beginner-must-know)
@@ -158,7 +146,6 @@
 - [towardsdatascience.com: 12 Of My Favorite Python Practices For Better Functions](https://towardsdatascience.com/12-of-my-favorite-python-practices-for-better-functions-7a21d18cfb38)
 - [towardsdatascience.com: Stop Hardcoding Sensitive Data in Your Python Applications](https://towardsdatascience.com/stop-hardcoding-sensitive-data-in-your-python-applications-86eb2a96bec3) **Keep your settings and credentials private with .env files**
 - [towardsdatascience.com: How Not to Use Python Lists](https://towardsdatascience.com/how-not-to-use-python-lists-d06cbe8e593) Understanding Mutable Objects in Python.
-- [pythonsimplified.com: Understanding Python map function](https://pythonsimplified.com/understanding-python-map-function/)
 - [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html)
 - [zdnet.com: Programming languages: Python just took a big jump forward](https://www.zdnet.com/article/programming-languages-python-just-took-a-big-jump-forward/) Python overtakes Java and C for the first time in 20 years of a key language popularity index.
 - [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c)
@@ -168,13 +155,11 @@
 - [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class/)
 - [treyhunner.com: How to flatten a list in Python](https://treyhunner.com/2021/11/how-to-flatten-a-list-in-python/)
 - [makeuseof.com: 7 Vital Commands to Get Started With Python for Beginners](https://www.makeuseof.com/python-for-beginners/)
-- [pythonsimplified.com: Python secrets module for strong random number and token generation](https://pythonsimplified.com/python-secrets-module-for-strong-random-number-and-token-generation/) Do you know Python has a built-in module called secrets that can be used to generate cryptographically strong passwords, tokens, and other related secrets? The secrets module was first introduced in Python 3.6
 - [freecodecamp.org: Python Sets – Explained with Examples](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/)
 - [aigents.co: Pro Python Tips for Data Analysts](https://aigents.co/blog/coding-tutorial/pro-python-tips-for-data-analysts)
 - [dev.to: Creating a blockchain in 60 lines of Python](https://dev.to/imjoseangel/creating-a-blockchain-in-60-lines-of-python-2hlc)
 - [medium.com: Learn about Exceptions in Python](https://medium.com/@andreas.soularidis/learn-about-exceptions-in-python-fef309f66a78)
 - [towardsdatascience.com: Master Class Inheritance in Python 🌟](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) Understand Python Inheritance using an intuitive example
-- [pythonsimplified.com: Understanding namespaces and scope in Python](https://pythonsimplified.com/understanding-namespaces-and-scope-in-python)
 - [tusharsrivastava.hashnode.dev: Handling text files in python - an easy guide for beginners](https://tusharsrivastava.hashnode.dev/handling-text-files-in-python-an-easy-guide-for-beginners)
 - [medium: A Simple Guide to Handle Text Files in Python | Andreas Soularidis](https://medium.com/@andreas.soularidis/a-simple-guide-to-handle-text-files-in-python-cd8a1a33ecaf)
 - [blog.varunsingh.in: 5 Python Tricks That Made Me A Good Python Developer](https://blog.varunsingh.in/5-python-tricks-that-made-me-a-good-python-developer)
@@ -196,7 +181,6 @@
 - [towardsdatascience.com: Memory Management in Python](https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9) How does it work? A list of examples that help.
 - [dev.to: python dictionary methods explanation and visualization](https://dev.to/mahmoudessam/python-dictionary-methods-explanation-and-visualization-1l64)
 - [medium.com/@florian.rieger: If you haven‘t heard of descriptors, you don‘t know Python](https://medium.com/@florian.rieger/if-you-haven-t-heard-of-descriptors-you-don-t-know-python-1ea4fd1614c2)
-- [open.sap.com: Python for Beginners](https://open.sap.com/courses/python1)
 - [blog.devgenius.io: Logging in Python](https://blog.devgenius.io/logging-in-python-adec94519755)
 - [codesolid.com: Python Lists for Beginners: A Complete Lesson With Exercises 🌟](https://codesolid.com/python-lists)
 - [towardsdatascience.com: requirements.txt vs setup.py in Python](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) Understanding the purpose of requirements.txt, setup.py and setup.cfg in Python when developing and distributing packages
@@ -257,7 +241,6 @@
 - [==realpython.com: An Intro to Threading in Python==](https://realpython.com/intro-to-python-threading/)
 - [==realpython.com: Functional Programming in Python==](https://realpython.com/courses/functional-programming-python/)
 - [rogerperkin.co.uk: pyATS Tutorial for Beginners](https://www.rogerperkin.co.uk/network-automation/pyats/pyats-genie-tutorial/) pyATS was (and still is) an in-house Cisco Python testing framework that was developed for internal Cisco engineering use and has now been made open source and is available for you to perform your network testing. It is primarily a foundation-layer test framework. Cisco currently run over 2 million test runs per month using the pyATS framework.
-    - [packetcoders.io: Network Testing with Cisco pyATS. An Introduction to pyATS](https://www.packetcoders.io/pyats-written-course-intro-pyats/)
 - [genbeta.com: Ocho canales de YouTube para aprender Python desde cero hasta nivel experto](https://www.genbeta.com/a-fondo/ocho-canales-youtube-para-aprender-python-cero-nivel-experto)
 - [blog.devops.dev: Generating A List of Dictionaries With Python](https://blog.devops.dev/generating-a-list-of-dictionaries-with-python-77fca1854911)
 - [martinheinz.dev: Boost Your Python Application Performance using Continuous Profiling](https://martinheinz.dev/blog/89) Learn how to use Grafana Phlare and continuous profiling to discover bottlenecks in your code and boost the performance of your Python apps running in Kubernetes
@@ -277,7 +260,6 @@
 
 ## PHP vs Python
 
-- [geekflare.com: PHP vs Python: A Comprehensive Comparison](https://geekflare.com/php-vs-python-comparison)
 
 ## APIs in Python
 
@@ -304,8 +286,6 @@
 - [realpython.com: Deploying a Django App to AWS Elastic Beanstalk](https://realpython.com/blog/python/deploying-a-django-app-to-aws-elastic-beanstalk/)
 - [TaskBuster Django Tutorial, made with Django 1.8 and Python 3](http://www.marinamele.com/taskbuster-django-tutorial)
 - [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro)
-- [Cómo crear un servicio REST en 30 líneas de código de Django y Python](http://www.genbetadev.com/desarrolloparastartups/como-crear-un-servicio-rest-en-30-lineas-de-codigo-de-django-y-python)
-- [Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
 - [Installing and Configuring Django Web Framework with Virtual Environments in CentOS/Debian](http://www.tecmint.com/install-and-configure-django-web-framework-in-centos-debian-ubuntu/)
 - [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/) A Cookiecutter template for creating production-ready Django projects quickly.
 - [github.com: Django app + RESTful API for automatic billing](https://github.com/presslabs/silver/)
@@ -328,7 +308,6 @@
 - [Flask Documentation 🌟](https://flask.palletsprojects.com/)
 - [The Flask Mega-Tutorial: Now with Python 3 Support](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support)
 - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site ](https://realpython.com/blog/python/introduction-to-flask-part-1-setting-up-a-static-site/)
-- [Two-Factor Authentication with Authy](https://www.twilio.com/docs/tutorials/walkthrough/two-factor-authentication/python/flask)
 - [devbattles.com: Python Flask, Part 1: Hello World!](http://www.devbattles.com/en/sand/post-1757-Python_Flask_Part_1_Hello_World)
 - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes/)
 - [towardsdatascience.com: Create and Deploy a Simple Web Application with Flask and Heroku](https://towardsdatascience.com/create-and-deploy-a-simple-web-application-with-flask-and-heroku-103d867298eb)
@@ -432,7 +411,6 @@
 
 - [PyInstaller is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, FreeBSD, Solaris and AIX](http://www.pyinstaller.org/)
     - [PyInstaller official GIT repository](https://github.com/pyinstaller/pyinstaller/)
-- [ZipPy: Python3 on top of the JVM (faster than PyPy!)](https://bitbucket.org/ssllab/zippy)
 - [DictMySQL: A MySQL class for more convenient database manipulation with Python dictionary](https://github.com/ligyxy/DictMySQL)
 - [WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows](http://sourceforge.net/projects/winpython/)
 - [Kite 🌟](https://www.kite.com/) Kite is the best autocompletions engine available for Python, powered by AI. Check it out — It's free!

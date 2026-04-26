@@ -22,7 +22,6 @@
 - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software/)
 - [Dzone: An Introduction to Caching: How and Why We Do It 🌟](https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo) When it comes to caching, what was once a nice-to-have it now a must-have. Check out this detailed article to learn everything you need to know about caching!
 - [medium: Caching — System Design Concept 🌟](https://medium.com/enjoy-algorithm/caching-system-design-concept-500134cff300)
-- [elastisys.com: Evaluation of Caching Methodologies for Microservice-Based Architectures in Kubernetes](https://elastisys.com/evaluation-of-caching-methodologies/)
 - [medium: Microservices Distributed Caching](https://medium.com/design-microservices-architecture-with-patterns/microservices-distributed-caching-76828817e41b) In this article, we are going to talk about Microservices Distributed Caching for Microservices Architectures. As you know that we learned practices and patterns and add them into our design toolbox. And we will use these pattern and practices when designing e-commerce microservice architecture.
 - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to Caching in the Cloud | Anuj Kothiyal](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)
 - [medium.com/rtkal: Distributed Cache Design](https://medium.com/rtkal/distributed-cache-design-348cbe334df1)
@@ -35,7 +34,6 @@
 
 ## Infinispan
 
-- [Introduction to Infinispan](https://infinispan.org/about/) Distributed in-memory key/value data grid and cache
 - [Dzone: Getting Started with Infinispan](https://dzone.com/refcardz/getting-started-infinispan) Enhance Performance With Scalable, Highly Available Data Stores. Infinispan is an open-source, ASL 2.0-licensed, in-memory data grid platform based on Java 8. This newly updated Refcard offers tips for implementing Infinispan, gives a practical example for using it in embedded mode, and lists key APIs and cache features. Learn more about running Infinispan in containers and how to integrate the platform with Hibernate ORM, Apache Hadoop, Apache Spark, and Apache Camel.
 
 ## Red Hat Data Grid (commercial version of Infinispan)
@@ -49,7 +47,6 @@
 ## CDN Content Delivery Network
 
 - [Wikipedia: CDN Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)
-    - [Traditional commercial CDNs 🌟](https://en.wikipedia.org/wiki/Content_delivery_network#Traditional_commercial_CDNs)
 - [How content delivery networks (CDNs) work](https://humanwhocodes.com/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
 - [imperva.com: CDN Caching](https://www.imperva.com/learn/performance/cdn-caching/)
 - [nczonline: How content delivery networks (CDNs) work - Nov 2011](https://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/)

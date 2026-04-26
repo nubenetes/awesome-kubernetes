@@ -34,7 +34,6 @@
 - [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2/)
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/3584559/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
-- [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)
 - [scruminc.com: Better Scrum with Essence](https://www.scruminc.com/better-scrum-with-essence/) Essence is an industry standard for describing practices, which means there is no change to the actual Scrum content but an enhanced way for presenting it to teams. One of the main things you notice with Essence is the use of cards to represent the main concepts of any practice.
 - [enterprisersproject.com: Scrum and Kanban: 3 realities CIOs should know](https://enterprisersproject.com/article/2020/10/scrum-kanban-3-realities-cios) Agile methodologies can make all the difference in your digital transformation, but successful adoption requires culture change. Consider this expert advice on scrum and Kanban.
 - [forbes.com: Explaining Agile 🌟](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile)
@@ -122,7 +121,6 @@
 - [okdiario.com: Telefónica y Santander despiden a 467 empleados en 2021 por denuncias de compañeros](https://okdiario.com/economia/telefonica-santander-despiden-467-empleados-2021-denuncias-companeros-8655690) Fraude interno, acoso laboral..
 - [cronista.com: Cómo identificar a un mal jefe y qué errores no pueden cometer hoy los líderes](https://www.cronista.com/apertura/empresas/como-identificar-a-un-mal-jefe-y-que-errores-no-pueden-cometer-hoy-los-lideres/) Con la pandemia, la digitalización acelerada y los rediseños organizacionales, la forma de liderar cambió. Qué errores no pueden permitirse hoy las empresas en materia de liderazgo. Los nuevos roles.
 - [eleconomista.es: Cómo es un mal jefe y qué debe aprender para liderar mejor su empresa (y ser feliz)](https://www.eleconomista.es/status/noticias/10679296/07/20/Como-es-un-mal-jefe-y-que-debe-aprender-para-liderar-mejor-su-empresa-y-ser-feliz.html)
-- [vozpopuli.com: Cliente tóxico: cuando el que paga no siempre tiene la razón](https://www.vozpopuli.com/economia_y_finanzas/cliente-toxico.html) Un cliente conflictivo, demasiado exigente o que tiende a tensar mucho la relación con sus proveedores es un problema para cualquier empresa. Así se gestiona un cliente tóxico.
 - [elconfidencial.com: Esta psicóloga ha estudiado a los capullos de tu empresa y sabe por qué se comportan así](https://www.elconfidencial.com/espana/2022-03-18/tessa-west-psicologa-capullos-trabajo_3392185/) Tessa West, profesora de la Universidad de Nueva York, lleva 15 años estudiando el comportamiento humano y tiene una buena idea de por qué somos así en el trabajo.
 - [business.vogue.es: Adiós a los jefes tóxicos: este es el nuevo tipo de liderazgo gentil que triunfa](https://business.vogue.es/carrera/articulos/adios-jefes-toxicos-la-salud-organizacional-rentabilidad-residen-liderazgo-gentil/533) Un líder tóxico tiene un coste (mental) para el trabajador y, por tanto, también (económico) para la empresa
 - [magnet.xataka.com: Esclavos de la improductividad: el 70% de las reuniones impiden que los empleados hagan su trabajo](https://magnet.xataka.com/en-diez-minutos/esclavos-improductividad-70-reuniones-impiden-que-empleados-hagan-su-trabajo)
@@ -155,7 +153,6 @@
 
 - [thedigitalprojectmanager.com: Waterfall Vs Agile: ¿Cuál Metodología Debes Utilizar Para Tu Proyecto?](https://thedigitalprojectmanager.com/es/agile-frente-a-waterfall/)
 - [deloitte.com: Bringing Agile benefits to a waterfall project](https://www2.deloitte.com/us/en/insights/industry/public-sector/agile-in-government-waterfall-software-approach.html)
-- [deloitte.com: ¿Cuál es la metodología más adecuada para tu proyecto? Metodología Waterfall vs Agile](https://www2.deloitte.com/es/es/pages/technology/articles/waterfall-vs-agile.html)
 
 ### Agile vs Scrum vs Kanban
 
@@ -175,7 +172,6 @@
 - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
 - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
-- [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 
 ## KPIs and Employee Performance
 
@@ -195,7 +191,6 @@
 
 ## Other Development Methodologies. Worst practices in Project Management
 
-- [nichesoftware.co.nz: Other Development Methodologies](http://www.nichesoftware.co.nz/other-methodologies.html) We’ve all heard of Test-Driven Development (aka TDD), and those of us who’ve been around the block a few times have no double heard of Behaviour Driven Development (BDD) and Domain Driven Development (DDD) as well. But have you heard of their dodgy cousins? In this series I want to explore a handful of these lesser-known development methodologies, exploring both what they are, and what you might want (or need) to do to address them when they occur.
 - [ewsolutions.com: Worst Project Management Practices](https://www.ewsolutions.com/worst-project-management-practices/)
 
 ### DevDriven.By

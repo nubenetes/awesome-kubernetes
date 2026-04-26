@@ -17,7 +17,6 @@
 
 - [FinOps Foundation: FinOps.org](https://www.finops.org/) Collaborative, Real-Time Cloud Financial Management
 - [finops.org: What is FinOps?](https://www.finops.org/what-is-finops/)
-- [deloitte.com: Matching cloud costs to need: Using FinOps for more effective cloud governance](https://www2.deloitte.com/us/en/pages/consulting/articles/using-finops-to-effectively-match-cloud-costs-to-value-for-cloud-professionals-podcast-automation-governance.html) Using FinOps to more effectively govern cloud usage and match cost to need to value can help organizations avoid potentially costly reactions, such as overprovisioning.
 - [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8) Why do we need an accountant in IT?
 - [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.padok.fr/en/blog/finops-cloud)
 - [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://es.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
@@ -67,7 +66,6 @@
 - [==github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide== 🌟](https://github.com/dolevshor/azure-finops-guide) Centralizes Azure FinOps information and tools to enabling a better understanding and optimization of cloud costs
 - [info.microsoft.com: The Road to Azure Cost Governance](https://info.microsoft.com/ww-landing-the-road-to-azure-cost-governance-e-book.html) Learn how to gain full control of your Azure costs by creating a continuous cost governance and optimization process. This comprehensive Packt e-book covers essential topics like cloud cost management and sustainable modeling of cloud expenses.
 - [==github.com/mivano/azure-cost-cli==](https://github.com/mivano/azure-cost-cli) CLI tool to perform cost analysis on your Azure subscription
-    - [github.com/mivano/azure-cost-cli: Cost by tag](https://github.com/mivano/azure-cost-cli#cost-by-tag)
 - [==techcommunity.microsoft.com: Azure Savings Dashboard== 🌟](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-savings-dashboard/ba-p/3816131)
 - [https://learn.microsoft.com: View Kubernetes costs (AKS)](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/view-kubernetes-costs)
 - [techcommunity.microsoft.com: Azure Pricing: How to navigate Azure pricing options and resources 🌟](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-pricing-how-to-navigate-azure-pricing-options-and/ba-p/4166276)

@@ -27,7 +27,6 @@
 - [martinfowler.com: Serverless Architectures](https://martinfowler.com/articles/serverless.html)
 - [developers.redhat.com: Serverless Architecture](https://developers.redhat.com/topics/serverless-architecture/)
 - [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)
-- [serverless.com: Comparisons - Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
 - [Is Serverless The End Of Kubernetes?](https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609) A comparison of both technologies to stop the debate about what is better.
 - [freecodecamp.org: Serverless is cheaper, not simpler](https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49/)
 - [medium: What a typical 100% Serverless Architecture looks like in AWS!](https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb)
@@ -41,7 +40,6 @@
 - [vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds](https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2)
 - [dzone: Serverless Guide for Everyone 🌟](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes) If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.
-- [dzone: Serverless Guide for Everyone](https://dzone.com/articles/serverless-guide-for-everyone) Learn everything you need to know about Serverless, including case studies, essential concepts, guidelines, and best practices.
 - [itnext.io: Kubernetes Serverless simply visually explained 🌟](https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689) We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way
 - [kohera.be: Should I use serverless for all my Azure SQL Databases? 🌟](https://kohera.be/azure-cloud/should-i-use-serverless-for-all-my-azure-sql-databases/)
 - [dev.to/brentmitchell: After 5 years, I'm out of the serverless compute cult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
@@ -49,7 +47,6 @@
 - [==jeromevdl.medium.com: When to use a Lambda function, and when not?== 🌟](https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd)
 - [==c-sharpcorner.com: Why and When to use Azure Functions==](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions/)
 - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions) Here we take a look at two of the programs in Azure's toolbox, Logic Apps and Azure Functions, and compare them with each other.
-- [dvtsoftware.com: When is it a good choice to use Azure serverless functions?](https://www.dvtsoftware.com/en/news-insights/insights/item/389-when-is-it-a-good-choice-to-use-azure-serverless-functions)
 - [serverlessguru.com: Enterprise Serverless Adoption 🌟](https://www.serverlessguru.com/blog/enterprise-serverless-adoption) Adopting a new architecture may be intimidating. Having to migrate all of your workloads over to your cloud provider can be time-consuming and stressful. I’m sure you’re wondering, “How can I benefit from serverless?” In this article, I’m going to detail how some of the biggest companies in the world are maximizing efficiencies within their organization using serverless technology! Let’s dive in.
 - [aws.amazon.com: Serverless or Kubernetes on AWS 🌟](https://aws.amazon.com/architecture/serverless/serverless-or-kubernetes/)
 - [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture== 🌟](https://serverlessland.com/event-driven-architecture) What are Event Driven Architectures ?

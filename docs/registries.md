@@ -23,7 +23,6 @@
 - A Docker registry is a place to store and distribute Docker images.
 - It serves as a target for your docker push and docker pull commands.
 - [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
-- [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management)
 
 ## OpenShift Registry
 
@@ -82,7 +81,6 @@
 
 ### SSL/TLS Certificates
 
-- [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/)
 - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)
 - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
 - [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
@@ -92,7 +90,6 @@
 - [Test an insecure registry 🌟](https://docs.docker.com/registry/insecure/)
 - [Configure Docker Service To Use Insecure Registry](https://github.com/Juniper/contrail-docker/wiki/Configure-docker-service-to-use-insecure-registry)
 - [Running an insecure registry –insecure-registry](https://forums.docker.com/t/running-an-insecure-registry-insecure-registry/8159)
-- [Add Insecure Registry to Docker](https://intellipaat.com/community/19079/add-insecure-registry-to-docker)
 
 ### Jenkins Integration with Nexus
 
@@ -125,7 +122,6 @@
 - [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production/)
 - [jfrog.com: Control Your Kubernetes Voyage with JFrog Artifactory 🌟](https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/) 5-Step Kubernetes CI/CD Process using Artifactory & Helm
 - [openshift.com: Cloud DevOps With OpenShift and JFrog](https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog)
-- [jfrog.com: JFrog and Docker Partner to Combine the Power of JFrog Artifactory and Docker Hub to Improve Quality, Performance, and Developer Experience for Modern Application Development](https://jfrog.com/press/jfrog-docker-partner-to-combine-the-power-jfrog-artifactory-docker-hub/)
 - [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog/how-i-leaped-forward-my-jenkins-build-with-jfrog-pipelines/)
 - [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops/)
 - [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) JFrog’s software is similarly disruptive as MongoDB’s, and likewise its cloud offering is growing faster than the overall company.
@@ -146,4 +142,3 @@
 
 - [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
 - [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) In this tutorial, you'll deploy a TLS-enabled Private Docker Registry as a Pod. This will help you to push your custom-built images to the registry, which later can be pulled by any of the worker nodes.
-

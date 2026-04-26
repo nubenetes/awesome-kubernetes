@@ -51,7 +51,6 @@
 - [blogs.nakam.org: What Happens When? K8s Edition 🌟](https://blogs.nakam.org/what-happens-when-k8s-edition) What happens when you do kubectl create deploy nginx --image=nginx --replicas=3
 - [inlets.dev: Fixing the Developer Experience of Kubernetes Port Forwarding](https://inlets.dev/blog/2022/06/24/fixing-kubectl-port-forward.html) This article shows you some of the frustrations of using kubectl for port-forwarding and how to fix the developer experience.
 - [==medium.com/swlh: Break Down Kubernetes Server-Side Apply (Advanced kubectl)== 🌟](https://medium.com/swlh/break-down-kubernetes-server-side-apply-5d59f6a14e26) Are you already using the SSA? Do you know the difference between CSA and SSA?
-- [containiq.com: Kubectl Config Set-Context | Tutorial and Best Practices](https://www.containiq.com/post/kubectl-config-set-context-tutorial-and-best-practices) Kubernetes comes with many tools to help you manage your clusters, including kubectl set-context. In this guide, you'll learn how to use this command to manipulate contexts in your kubeconfig file, as well as best practices for doing so.
 - [blog.devgenius.io: K8s — Manage Multiple Clusters Using kubectl at Scale](https://blog.devgenius.io/k8s-manage-multiple-clusters-using-kubectl-at-scale-9f200c692099) Manage multiple K8s clusters efficiently using kubectl
 - [==itnext.io: How to Restart Kubernetes Pods With Kubectl== 🌟](https://itnext.io/how-to-restart-kubernetes-pods-with-kubectl-2a7834a6b961) A pod is the smallest unit in Kubernetes (K8S). They should run until they are replaced by a new deployment. Because of this, there is no way to restart a pod, instead, it should be replaced.
 - [awstip.com: Kubernetes — Creating deployments via command line and with YAML files](https://awstip.com/kubernetes-creating-deployments-via-command-line-and-with-yaml-files-783eaad7b3be)
@@ -114,13 +113,11 @@ complete -F __start_kubectl k
 
 ## kubectl exec
 
-- [containiq.com: Using kubectl exec | Shell Commands & Examples](https://www.containiq.com/post/using-kubectl-exec-shell-commands-examples) kubectl exec lets you start a shell session to containers running in your Kubernetes cluster. It’s a bit like SSH for Kubernetes. Here’s what you need to know to use this command as part of your cluster management procedures, including the cases where it makes the most sense.
 - [itnext.io: Connect to containers using Kubectl Exec](https://itnext.io/connect-to-containers-using-kubectl-exec-b1fb5c171f03) In this article, we will look at the kubectl exec command to show how to get a shell into a running container in your Kubernetes (K8S) cluster, and how to run individual commands on a container with some useful examples.
 - [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl/) This article compares `kubectl exec` and SSH and discusses their strengths and weaknesses
 
 ## kubectl scale
 
-- [==containiq.com: Using Kubectl Scale | Tutorial and Best Practices==](https://www.containiq.com/post/kubectl-scale) kubectl scale is one of the many tools that helps you manage your Kubernetes deployments. In this article, you'll learn how this tool can be used, as well as best practices for use.
 
 ## kubectl debug
 
@@ -152,7 +149,6 @@ kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | 
 
 ## Copy secrets in kubernetes between namespaces
 
-- [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces):
 
 ```bash
 kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f

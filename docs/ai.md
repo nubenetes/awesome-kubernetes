@@ -22,7 +22,6 @@
 - [==technologyreview.com: Andrew Ng: Forget about building an AI-first business. Start with a mission== 🌟](https://www.technologyreview.com/2021/03/26/1021258/ai-pioneer-andrew-ng-machine-learning-business) An AI pioneer reflects on how companies can use machine learning to transform their operations and solve critical problems.
     - [==technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más"== 🌟](https://www.technologyreview.es/s/13258/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) El pionero de la inteligencia artificial Andrew Ng asegura que es más importante tener buenos datos, aunque sean escasos, que muchos, pero mal etiquetados. Cree que todas las empresas deben empezar a pensar en la tecnología con proyectos rápidos, pero pequeños, y escalarlos si resulta que funcionan.
     - [cio.com: Make Better AI Infrastructure Decisions: Why Hybrid Cloud is a Solid Fit 🌟](https://www.cio.com/article/350337/make-better-ai-infrastructure-decisions-why-hybrid-cloud-is-a-solid-fit.html) The unique demands of AI workloads drive increasing popularity of pairing on-premises infrastructure with cloud.
-- [hipertextual.com: Diferencias entre Inteligencia Artificial, Machine Learning y Deep Learning](https://hipertextual.com/2023/02/diferencias-ia-machine-learning)
 - [businessinsider.es: Los ingenieros de software están aterrorizados ante la posibilidad de ser sustituidos por la IA](https://www.businessinsider.es/ingenieros-software-estan-aterrorizados-posibilidad-ser-sustituidos-ia-1238112)
 - [computerhoy.com: ¿Qué es el 'Deep Learning' y por qué se considera una revolución en la inteligencia artificial?](https://computerhoy.com/tecnologia/deep-learning-considera-revolucion-ia-1241180)
 - [poloclub.github.io: What is a Convolutional Neural Network?](https://poloclub.github.io/cnn-explainer/)
@@ -37,7 +36,6 @@
 
 - [==github.com/microsoft/ML-For-Beginners: Machine Learning for Beginners - A Curriculum==](https://github.com/microsoft/ML-For-Beginners)
 - [==amazon.science/base-tts-samples==](https://www.amazon.science/base-tts-samples/) BASE TTS: Audio samples. Audio samples for the paper [BASE TTS: Lessons from building a billion-parameter text-to-speech model on 100K hours of data](https://www.amazon.science/publications/base-tts-lessons-from-building-a-billion-parameter-text-to-speech-model-on-100k-hours-of-data).
-    - [mundodeportivo.com: Amazon causa sensación en los entusiastas de la tecnología: ha creado el modelo de voz más grande del mundo](https://www.mundodeportivo.com/urbantecno/tecnologia/amazon-causa-sensacion-en-los-entusiastas-de-la-tecnologia-ha-creado-el-modelo-de-voz-mas-grande-del-mundo)
 
 ## Transformers Library
 
@@ -109,7 +107,6 @@ security from the beginning with continuous testing, automation, zero trust, and
 ## Other Tools
 
 - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab
-- [==k8sgpt.ai==](https://k8sgpt.ai/) K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
 - [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
 
 ## Videos

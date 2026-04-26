@@ -43,7 +43,6 @@
 9. Good to know - How to write clean code: [Clean code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 10. Async JavaScript. Another epic tutorial by Tyler McGinnis [Async JavaScript: From Callbacks, to Promises, to Async/Await](https://ui.dev/async-javascript-from-callbacks-to-promises-to-async-await/)
 11. Other things good to know but don't need to necessarily master as a beginner: closures, Ajax requests, modules. To listen to the episode that inspired this thread: [The Fundamentals — JS](https://syntax.fm/show/162/the-fundamentals-js)
-12. This blew up—if you’d like to join myself and an amazing community of beginners and advanced developers, I host this free club: [CodeBookClub](https://madisonkanna.com/codebookclub/)
 
 ## Node.js
 

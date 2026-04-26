@@ -27,7 +27,6 @@
 
 ## IBM cloud Enterprise Sandbox
 
-- [IBM cloud Enterprise Sandbox 🌟](https://ibm-gsi-ecosystem.github.io/ibm-gsi-cloudnative-journey/)
 
 ## IBM API Connect
 
@@ -64,7 +63,6 @@
 
 - [IBM Cloud Pak Playbook: cloudpak8s.io](https://cloudpak8s.io/)
 - **What are IBM Cloud Paks?** Beyond containers and Kubernetes, enterprises need to orchestrate their production topology, and to provide management, security and governance for their applications. They need to do this while improving efficiency and resiliency, reducing costs and maximizing ROI.
-- IBM Cloud® Paks are enterprise-ready, containerized software solutions that give clients an open, faster and more secure way to move core business applications to any cloud. Each IBM Cloud Pak® includes containerized IBM middleware and common software services for development and management, on top of a common integration layer — designed to **reduce development time by up to 84 percent and operational expenses by up to 75 percent**. **IBM Cloud Paks run wherever Red Hat® OpenShift® runs** and are optimized for productivity and performance on [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift).
 
 ### CloudPaks For Applications (CP4A)
 
@@ -84,7 +82,6 @@
     - [medium: IBM Multicloud Manager Cluster Sizing](https://medium.com/@cdoan/ibm-multicloud-manager-cluster-sizing-bc3b609b7de9)
     - [medium: Installing Monitoring Module on IBM Cloud Pak for MultiCloud Management](https://medium.com/ibm-cloud-paks-help-and-guidance-from-ibm-cloud/installing-monitoring-module-on-ibm-cloud-pak-for-multicloud-management-v1-3-0-58e5d3e5e047)
 - [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) Repo to hold and manage documentation and samples for the CloudPak for MCM components. Integrating business partner apps into IBM Cloud Pak for Multicloud Management (MCM) can be mutually beneficial to both parties. Depending on the business partner’s app, there may be different scenarios and requirements for the integration. This repository provides documentations and samples for various scenarios to help business partners integrate their app into IBM MCM.
-- [IBM Cloud Pak for Multicloud Management Ideas Portal](https://cp4mcm.ideas.aha.io/) 
 
 ## Videos
 

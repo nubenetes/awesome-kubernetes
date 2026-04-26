@@ -81,7 +81,6 @@ the #1 test automation community.
 
 - [Chainsaw - The ultimate end to end testing tool for Kubernetes operators](https://github.com/kyverno/chainsaw)
 - [collabnix.com: The Ultimate Docker Tutorial for Automation Testing](https://collabnix.com/the-ultimate-docker-tutorial-for-automation-testing/)
-    - [TestProject](https://testproject.io/) Free Test Automation for All.
 - [Allure Report 🌟](https://github.com/allure-framework/allure2)
     - [Allure Jenkins Plugin 🌟](https://plugins.jenkins.io/allure-jenkins-plugin/) This plugin allows to automatically generate [Allure Report](http://allure.qatools.ru/) and attach it to build during Jenkins job run.
 - [venturebeat.com: Reflect brings automated no-code web testing to the cloud](https://venturebeat.com/2021/01/22/reflect-brings-automated-no-code-web-testing-to-the-cloud/)
@@ -104,7 +103,6 @@ the #1 test automation community.
 - [==google/clusterfuzzlite== 🌟](https://github.com/google/clusterfuzzlite) ClusterFuzzLite - Simple continuous [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) that runs in CI.
     - [thenewstack.io: Google Introduces ClusterFuzzLite Security Tool for CI/CD](https://thenewstack.io/google-introduces-clusterfuzzlite-security-tool-for-ci-cd/)
 - [convert.com: Top 10 A/B Testing Tools That Are Good for the Next 5 Years (Vetted by Features, Privacy, Maturity & Price)](https://www.convert.com/blog/a-b-testing/a-b-testing-tools-2022-beyond/)
-- [==K6 Cloud==](https://k6.io/cloud/) Managed performance testing for engineering teams
     - [grafana.com: How to build performance tests into your CI pipeline with k6, GitHub Actions, and Grafana](https://grafana.com/blog/2021/11/29/how-to-build-performance-tests-into-your-ci-pipeline-with-k6-github-actions-and-grafana/)
     - [itnext.io: How to run distributed performance tests in Kubernetes with K6](https://itnext.io/how-to-run-distributed-performance-tests-in-kubernetes-with-k6-and-elasticsearch-4ff8142bc774) In this article, you'll learn how to perform load testing natively on a Kubernetes cluster using multiple pods simulating real-world traffic to test an ElasticSearch cluster deployed using the ECK Operator
 - [==circleci.com: Unit testing vs integration testing== 🌟](https://circleci.com/blog/unit-testing-vs-integration-testing/)

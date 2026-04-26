@@ -73,7 +73,6 @@
 - [developers.redhat.com: Rootless containers with Podman: The basics](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics/)
 - [tecmint.com: How to Manage Containers Using Podman and Skopeo in RHEL 8](https://www.tecmint.com/manage-containers-using-podman-in-rhel/)
 - [thenewstack.io: Tutorial: Host a Local Podman Image Registry 🌟](https://thenewstack.io/tutorial-host-a-local-podman-image-registry/)
-- [devopscurry.com: Looking for an alternative to Docker? Podman could be your solution !](https://devopscurry.com/looking-for-an-alternative-to-docker-podman-could-be-your-solution/)
 - [redhat.com: Using Podman and Docker Compose](https://www.redhat.com/sysadmin/podman-docker-compose) Podman 3.0 now supports Docker Compose to orchestrate containers.
 - [redhat.com: From Docker Compose to Kubernetes with Podman](https://www.redhat.com/sysadmin/compose-kubernetes-podman) Use Podman 3.0 to convert Docker Compose YAML to a format Podman recognizes.
 - [fedoramagazine.org: Manage containers with Podman Compose](https://fedoramagazine.org/manage-containers-with-podman-compose/)
@@ -82,7 +81,6 @@
 - [youtube: Podman in Podman (Running a container within a container)](https://www.youtube.com/watch?app=desktop&v=OcHRWaC5tvY&feature=youtu.be&ab_channel=RedHat)
 - "Forget about Docker image updating hassle. Podman offers simple auto updating capabilities. It works with conjunction with systemd. Just add label "io.containers.autoupdate=image" and run podman auto-update in cron or with help of systemd.timer and be done with it" [puksiarz](https://twitter.com/puksiarz)
 - [wbhegedus.me: Configuring Podman for WSL2 🌟](https://wbhegedus.me/running-podman-on-wsl2)
-- [podman.io: Podman Release v3.1.0](https://podman.io/releases/2021/04/02/podman-release-v3.1.0.html) The new Podman release includes a number of exciting new features, including the podman secret command for managing secrets, support for a volume chown option to fix permissions automatically, improved support for volumes in podman generate kube, and over 60 bug fixes, many to the HTTP API. Read on for more details!
 - [redhat.com: How to replace Docker with Podman on a Mac](https://www.redhat.com/sysadmin/replace-docker-podman-macos) Want to use Podman to work with containers? Here's what you need to know about Podman on a Mac.
 - [redhat.com: Exploring the new Podman secret command 🌟](https://www.redhat.com/sysadmin/new-podman-secrets-command) Use the new podman secret command to secure sensitive data when working with containers.
 - [developers.redhat.com: Using Podman Compose with Microcks: A cloud-native API mocking and testing tool](https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool)

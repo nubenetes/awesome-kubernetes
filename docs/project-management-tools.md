@@ -22,7 +22,6 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [devops.com: Clubhouse Becomes Shortcut to Transform Software Project Management](https://devops.com/clubhouse-becomes-shortcut-to-transform-software-project-management/)
 - [engineeringmanagement.info: Planning and Schedule Free Templates](https://www.engineeringmanagement.info/2017/02/planning-and-schedule-free-templates.html) Download free over 300, customizable project plan templates for Microsoft Word to track, manage, and prioritize your projects.
 - Microsoft Excel:
-    - [mundodeportivo.com: 31 plantillas de Excel gratis agrupadas por usos](https://www.mundodeportivo.com/urbantecno/office/plantillas-de-excel-gratis-agrupadas-por-usos)
 - [namelix.com](https://namelix.com) Struggling to come up with a business name? Namelix can help you out.
 
 ## Alternatives
@@ -33,7 +32,6 @@ Jira and Bitbucket integration. Now you can transition issues right from your me
 - [entrepreneur.com: Which Project Management Timeline Tool Is Right for Your Team?](https://www.entrepreneur.com/article/356991) The pros and cons of five popular project management timeline software companies.
 - [joplin](https://github.com/laurent22/joplin) is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
 - [Podium](https://github.com/sa-mw-dach/podium) A collaboration environment.
-- [Renoj](https://ribal.dev/renoj) Fast to-do task management in Desktop for ultimate productivity. Manage your day-to-day like a boss.
 - [neilpatel.com: Best Free Project Management Software](https://neilpatel.com/blog/best-free-project-management-software/)
 - [Swim](https://swimm.io/) Sync Teams with Code. 
     - [thenewstack.io: Swimm Helps New Dev Hires Stay Afloat with Continuous Documentation](https://thenewstack.io/swimm-helps-new-dev-hires-stay-afloat-with-continuous-documentation/)

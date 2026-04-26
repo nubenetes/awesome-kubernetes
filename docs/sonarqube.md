@@ -35,7 +35,6 @@ in your Bitbucket repositories
 ## SonarQube on Kubernetes
 
 - [Running SonarQube on Kubernetes](https://medium.com/@akamenev/running-sonarqube-on-azure-kubernetes-92a1b9051120)
-- [Katacoda.com: SonarQube on Kubernetes](https://www.katacoda.com/javajon/courses/kubernetes-pipelines/sonarqube)
 - [hub.helm.sh/charts/oteemo/sonarqube](https://hub.helm.sh/charts/oteemo/sonarqube)
 - [youtube: Installation of Sonarqube on Kubernetes/Minikube](https://www.youtube.com/watch?v=_cT-kkvw3NQ)
     - [github ref1](https://github.com/gudpick/pods)
@@ -44,7 +43,6 @@ in your Bitbucket repositories
 ### GCP Kubernetes
 
 - [click-to-deploy/sonarqube](https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/sonarqube)
-- [Installing SonarQube on GCP using Kubernetes](https://www.solstice.com/fwd/sonarqube-gcp-kubernetes)
 
 ## SonarQube Scanners
 
@@ -56,4 +54,3 @@ in your Bitbucket repositories
     - [Azure DevOps - SonarQube Extension for Azure DevOps](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-azure-devops/)
     - [Ant - SonarScanner for Ant](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-ant/)
     - [anything else (CLI) - SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/)
-

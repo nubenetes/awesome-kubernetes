@@ -86,7 +86,6 @@ mvn dependency:tree     (how you got something on your classpath)
 
 - [jetbrains.com/help/idea/maven-support.html](https://www.jetbrains.com/help/idea/maven-support.html)
 - [Dzone: Maven IntelliJ Idea Project](https://dzone.com/articles/importing-a-maven-project-in-intellij-idea)
-- [vaadin.com/learn/tutorials/import-maven-project-intellij-idea](https://vaadin.com/learn/tutorials/import-maven-project-intellij-idea)
 - [javaspringvaadin.wordpress.com: Crea un Proyecto Maven desde el IDE IntelliJ IDEA](https://javaspringvaadin.wordpress.com/2018/05/22/mavenintellijidea/)
 - [howtodoinjava.com: Maven IntelliJ Idea Project](https://howtodoinjava.com/maven/how-to-convert-maven-java-project-to-intellij-idea-project/)
 

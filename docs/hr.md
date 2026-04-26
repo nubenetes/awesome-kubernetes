@@ -14,6 +14,5 @@
 
 ## Spanish
 
-- [imeusal.com: ¿Cómo prevenir el mal ambiente laboral?](https://imeusal.com/prevenir-el-mal-ambiente-laboral/)
 - [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800/) Con casi 9 millones de habitantes y más de 6.000 empresas emergentes o 'startups', el mercado laboral israelí del 'high tech', dinámico y privilegiado, crea cultura de oficina
 - [xataka.com: "Han recomendado calcular cuánto dinero queda y al resto despedirles": las startups españolas frente a la quiebra de SVB](https://www.xataka.com/empresas-y-economia/han-recomendado-calcular-cuanto-dinero-queda-al-resto-despedirles-startups-espanolas-frente-a-quiebra-svb)

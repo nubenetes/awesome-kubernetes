@@ -89,7 +89,6 @@
 
 - [Travis CI](https://travis-ci.org/)
 - [lambdatest.com: How To Build Your First CI/CD Pipeline With Travis CI?](https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/)
-- [lambdatest.com: Building A CI/CD Pipeline With Travis CI, Docker, And LambdaTest](https://www.lambdatest.com/blog/ci-cd-pipeline-with-travis-ci-docker-and-lambdatest/)
 
 ### Concourse
 
@@ -107,7 +106,6 @@
 - [GitHub Actions CI/CD](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/)
 - [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
 - [blog.bitsrc.io: Github Actions or Jenkins? Making the Right Choice for You](https://blog.bitsrc.iogithub-actions-or-jenkins-making-the-right-choice-for-you-9ac774684c8) GitHub Actions and Jenkins both get the job done. Let’sfind out whether it’s worth considering moving from Jenkins.
-- [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.openshift.com/blogdeploying-to-openshift-using-github-actions)
 - [particule.io: Automatic build with Github Actions and Github Container Registry](https://particule.io/en/blogcicd-github-registry/)
 - [proandroiddev.com: Improving CI/CD pipeline for Android via Fastlane and GitHub Actions](https://proandroiddev.comimproving-ci-cd-pipeline-for-android-via-fastlane-and-github-actions-a635162d2c53)
 - [redhat-actions](https://github.com/redhat-actions)
@@ -152,7 +150,6 @@
 ### Octopus Deploy
 
 - [Octopus Deploy - deployment tool](https://octopus.com/)
-- [octopus.com: Octopus Configuration-as-Code with a language based on Hashicorp's HCL](https://octopus.com/blogshaping-config-as-code)
 - [octopus.com: Deployment process as code](https://octopus.com/docs/deployments/patterns/deployment-process-as-code) If youwant to do Octopus configuration as code today, we recommend using our .NET SDK which will always be supported. The Terraformprovider will be a simpler, more declarative approach, that we will support in the future.
 - [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs)
 - [github.com/OctopusDeploy/go-octopusdeploy](https://github.com/OctopusDeploy/go-octopusdeploy) Go API Client for OctopusDeploy. A Go client for the Octopus Deploy API. This client is used by the [Octopus Deploy Terraform Provider](https://githubcom/OctopusDeploy/terraform-provider-octopusdeploy).
@@ -182,7 +179,6 @@
 
 ## Cloud Native CI/CD
 
-- [tynybay.com: ArgoCD vs FluxCD vs Jenkins X: Which GitOps implementation tool suits you the best?](https://www.tynybay.com/insights-our-thinking/argocd-vs-fluxcd-vs-jenkins-x-which-gitops-implementation-tool-suits-you-the-best)
 - [csweichel/werft](https://github.com/csweichel/werft) Werft is a Kubernetes-native CI system. It knows no pipelines, just jobs and each job is a Kubernetes pod. What you do in that pod is up to you. We do not impose a "declarative pipeline syntax" or some groovy scripting language. Instead, Werft jobs have run Node, Golang or bash scripts in production environments.
 ### Jenkins X
 
@@ -204,8 +200,6 @@
 - [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-bloghow-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
 - [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
-- [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
-- [gspann.com: Significance of Using Spinnaker When Adopting a Kubernetes Environment 🌟](https://www.gspann.com/resources/blogs/significance-of-using-spinnaker-when-adopting-a-kubernetes-environment/) Spinnaker acts as a multi-cloud deployment tool to support continuous workflows in a Kubernetes nvironment. Understand the Spinnaker architecture and learn about the best practices that can help you better deploy applications on Kubernetes clusters.
 
 ### ArgoCD
 
@@ -262,4 +256,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: Is it possible that Kubeflow pipeline is one of the best CI/CD tools for Kubernetes?<br><br>I spent some time playing with Kubernetes &amp; <a href="https://twitter.com/kubeflow?ref_src=twsrc%5Etfw">@kubeflow</a> pipelines, and they have one feature which is just great:<br><br>You can define the pipeline with real code! <a href="https://t.co/gNDzvvkCij">pic.twitter.com/gNDzvvkCij</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1285929877493800961?ref_src=twsrc%5Etfw">July 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-
