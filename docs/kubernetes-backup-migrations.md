@@ -45,7 +45,6 @@
 - [medium.com/@amitabhprasad: Kubernetes volume backup for disaster recovery](https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe)
 - [thenewstack.io: K8s Backup and Disaster Recovery Is More Important Than Ever](https://thenewstack.io/k8s-backup-and-disaster-recovery-is-more-important-than-ever/) Here are some considerations of a successful Kubernetes data protection strategy.
 - [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them. This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of. So, let's take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
-- [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) Kubernetes v1.25 introduced Container Checkpointing API — a way to backup-and-restore containers running in Pods, without stopping them. In this article, you'll take a look at it and learn how to leverage it for backup-and-restore or forensic analysis.
 - [blog.palark.com: Kubernetes snapshots: What are they and how to use them? 🌟](https://blog.palark.com/kubernetes-snaphots-usage/) With snapshots, you can make more efficient use of your storage solution by creating consistent backups and cloning volumes. In this article, you will find an introduction to snapshots in Kubernetes and an overview of typical use cases.
 
 ## ETCD Backup
@@ -57,7 +56,6 @@
 ## Kubernetes Volume Snapshot
 
 - [kubernetes.io: Kubernetes 1.20: Kubernetes Volume Snapshot Moves to GA](https://kubernetes.io/blog/2020/12/10/kubernetes-1.20-volume-snapshot-moves-to-ga/)
-- [itnext.io: Backup and Restore of Kubernetes Stateful Application Data with CSI Volume Snapshots](https://itnext.io/backup-and-restore-of-kubernetes-stateful-application-data-with-csi-volume-snapshots-14ce9e6f3778)
 - [blocksandfiles.com: Red Hat OpenShift now does container storage backup 🌟](https://blocksandfiles.com/2021/01/27/red-hat-openshift-container-storage-backup/) Red Hat has teamed up with three container backup suppliers to integrate their services with the company’s OpenShift Kubernetes distribution. The Red Hat-certified backup products for OpenShift container storage are parent company IBM’s [Spectrum Protect Plus](https://blocksandfiles.com/2020/06/05/ibm-spectrum-protect-plus/); [TrilioVault](https://blocksandfiles.com/2020/12/10/trilio-funding/) for Kubernetes; and Veeam-owned Kasten’s [K10](https://blocksandfiles.com/2020/01/30/kasten-k10-kubernetes-container-protection/).
 - [medium: Leveraging operator pattern and VolumeSnapshots to backup databases in Kubernetes](https://medium.com/blablacar/leveraging-operator-pattern-and-volumesnapshots-to-backup-databases-in-kubernetes-3a28aa425100)
 
@@ -117,7 +115,6 @@
 
 ## Other Tools
 
-- [k8up.io](https://k8up.io) K8up is a Kubernetes Operator that helps you:
     - Backup all PVCs marked as ReadWriteMany or with a specific label
     - Perform individual, on-demand backups
     - Schedule backups to be executed on a regular basis
@@ -147,4 +144,3 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01qcYSck1c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 </details>
-
