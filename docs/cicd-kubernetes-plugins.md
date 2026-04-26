@@ -18,7 +18,6 @@
 
 ## Argo CD Config Management Plugins
 
-- [Argo CD Config Management Plugins](https://argoproj.github.io/argo-cd/user-guide/config-management-plugins/)
 
 ## GitLab Kubernetes Agent
 
