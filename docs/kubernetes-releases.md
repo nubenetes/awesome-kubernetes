@@ -46,7 +46,6 @@
 - [kubernetes.io: Updated: Dockershim Removal FAQ](https://kubernetes.io/blog/2022/02/17/dockershim-faq/)
 - [==kubernetes.io: Kubernetes Release Cadence Change: Here’s What You Need To Know==](https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence/)
 - [aws.amazon.com: Amazon EKS now supports Kubernetes 1.22](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-1-22/)
-- [blog.aquasec.com: Kubernetes Version 1.23: What's New for Security?](https://blog.aquasec.com/kubernetes-version-1.23-security-features)
 - [sysdig.com: Kubernetes 1.24 – What’s new?](https://sysdig.com/blog/kubernetes-1-24-whats-new/)
 - [inder-devops.medium.com: It’s Time to Migrate your Container Runtime, Kubernetes 1.24 is coming](https://inder-devops.medium.com/its-time-to-migrate-your-container-runtime-kubernetes-1-24-is-coming-f0c0b6b9bb90) In this post, you'll learn the terminology and tooling around container runtimes. By the end, you'll have a better idea of what a container runtime is, how the container landscape has evolved over time, and how we got to where we are today.
 - [kubernetes.io: Kubernetes Removals and Major Changes In 1.25](https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25/)
