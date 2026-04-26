@@ -152,7 +152,6 @@ kubectl get configmap <configmap-name> --namespace=<source-namespace> -o yaml | 
 
 ## Copy secrets in kubernetes between namespaces
 
-- [Copy secrets between namespaces](https://stackoverflow.com/questions/55515594/is-there-a-way-to-share-a-configmap-in-kubernetes-between-namespaces):
 
 ```bash
 kubectl get secret <secret-name> --namespace=<source> -o yaml | sed ‘s/namespace: <from-namespace>/namespace: <to-namespace>/’ | kubectl create -f

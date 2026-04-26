@@ -175,7 +175,6 @@
 - [Aprende cómo distribuir mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 - [blog.hubspot.es: Matriz RACI: qué es y cómo utilizarla para asignar responsabilidades](https://blog.hubspot.es/marketing/matriz-raci)
 - [jaumepujolcapllonch.com: La matriz RACI y la asignación de responsabilidades](https://www.jaumepujolcapllonch.com/la-matriz-raci-y-la-asignacion-de-responsabilidades/)
-- [rockcontent.com: mejor las responsabilidades con la Matriz RACI](https://rockcontent.com/es/blog/matriz-raci/)
 
 ## KPIs and Employee Performance
 

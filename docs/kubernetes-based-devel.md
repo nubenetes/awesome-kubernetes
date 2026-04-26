@@ -46,7 +46,6 @@
 - [opensource.com: 4 ways to run Kubernetes locally](https://opensource.com/article/20/11/run-kubernetes-locally) Set up a local development environment or just try out the container orchestration platform with these tools.
 - [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
 - [itnext.io: Kubernetes local playground alternatives](https://itnext.io/kubernetes-local-playground-alternatives-e1a590632b9f)
-- [dex.dev: Local Development Clusters](https://www.dex.dev/dex-videos/development-clusters)
 - [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments/)
 - [Metal Kubes](https://github.com/shank-git/metal-kubes) Create OnPrem Kubernetes Cluster. Install Kubernetes Cluster on Bare Metal Machines
 - [dzone: Desktop K8S in 2021](https://dzone.com/articles/desktop-k8s-in-2021) Is there a better alternative to Minikube? See some options for Local Kubernetes Clusters if you are developing on a Mac.
@@ -67,7 +66,6 @@
 - [microcks.io](https://microcks.io) K8s-based API mock/test tool.
     - [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)
 - [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://loft.sh/blog/checklist-for-kubernetes-based-development)
-- [loft.sh: Kubernetes Development Environments – A Comparison](https://loft.sh/blog/kubernetes-development-environments-comparison/)
 - [loft.sh: Skaffold vs Tilt vs DevSpace](https://loft.sh/blog/skaffold-vs-tilt-vs-devspace/)
 - [yitaek.medium.com: Useful Tools for Better Kubernetes Development 🌟](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435) Lens, Polaris, kube-hunter, kube-bench, Trivy, Goldilocks, Kyverno, kube-ps1, kubectx + kubens , krew, kubectl-neat, kube-no-trouble, helm-mapkubeapis, kube-diff + helm-diff , kube forwarder, kubecost, kubespy.
 - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)
@@ -77,7 +75,6 @@
     - [rookout.com: Developer Tools for Kubernetes in 2021: Lens, VSCode, IntelliJ, & Gitpod (Part 3)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-3)
     - [rookout.com: Developer Tools for Kubernetes in 2021: Docker, Kaniko, Buildpack & Jib (Part 4)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-part-4)
     - [rookout.com: Developer Tools for Kubernetes in 2021: Development Machines (Part 5)](https://www.rookout.com/blog/developer-tooling-for-kubernetes-in-2021-development-machines-part-5)
-- [yitaek.medium.com: Useful Tools for Better Kubernetes Development](https://yitaek.medium.com/useful-tools-for-better-kubernetes-development-87820c2b9435)
 - [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://okteto.com/blog/kubernetes-for-developers-blog-series-by-okteto/)
 - [docker.com: Kubernetes in Production Environments](https://www.docker.com/blog/dear-moby-2-kubernetes-in-production/) What is the best way to develop if my prod environment runs Kubernetes? Using Docker Compose does come with conditions:
     - It’s another tool in your arsenal. This means another set of manifests to maintain and update. If you need to define a new environment variable, you’ll need to add it to both your Compose file and Kubernetes manifests.
@@ -116,7 +113,6 @@
 
 ### Garden
 
-- [garden.io: cloud native devops platform](https://garden.io)
 - [venturebeat.com: Garden.io, an end-to-end devops platform for Kubernetes and containers, raises $16M](https://venturebeat.com/2022/03/30/garden-io-an-end-to-end-devops-platform-for-kubernetes-and-containers-raises-16m/)
 
 ## Kubernetes Clients and Dashboards

@@ -170,7 +170,6 @@
 
 ## CI/CD with OpenShift
 
-- [developers.redhat.com: The present and future of CI/CD with GitOps on Red Hat OpenShift 🌟](https://developers.redhat.com/blog/2020/09/03/the-present-and-future-of-ci-cd-with-gitops-on-red-hat-openshift/)
 
 ## CI/CD with AWS
 

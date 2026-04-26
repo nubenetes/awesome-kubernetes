@@ -111,7 +111,6 @@
 - [redhat.com: 16 AnsibleFest presentations for sysadmins](https://www.redhat.com/sysadmin/ansiblefest-sysadmins) AnsibleFest offers a lot of information to help sysadmins automate better.
 - [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
 - [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)
-- [opensource.com: How I keep my file folders tidy with Ansible](https://opensource.com/article/21/9/keep-folders-tidy-ansible) I try to use Ansible often, even for tasks that I know how to do with a shell script because I know that Ansible is easy to scale.
 - [vitux.com: How to speed-up an Ansible Playbook 🌟](https://vitux.com/how-to-speed-up-an-ansible-playbook/)
 - [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB)
 - [==opensource.com: 9 ways to learn Ansible this year== 🌟](https://opensource.com/article/22/1/learn-ansible) Ansible is an open source automation tool that can be used in a variety of ways. Here are a few examples of last year's most popular Ansible tutorials and stories.
