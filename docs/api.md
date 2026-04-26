@@ -145,7 +145,6 @@
 - [dev.to: Make your own API under 30 lines of code 🌟](https://dev.to/shreyazz/make-your-own-api-under-30-lines-of-code-4doh)
 - [dzone: REST API Versioning Strategies](https://dzone.com/articles/rest-api-versioning-strategies-1) Today microservices are a hot trend for developing cloud-native applications. API versioning helps to iterate faster when the needed changes are identified.
 - [freecodecamp.org: What is REST? Rest API Definition for Beginners](https://www.freecodecamp.org/news/what-is-rest-rest-api-definition-for-beginners/)
-- [blog.devgenius.io: Principles & Best practices of REST API Design](https://blog.devgenius.io/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f)
 - [==javarevisited.blogspot.com: How to send POST Request with JSON Payload using Curl Command in Linux to Test RESTful Web Services?==](https://javarevisited.blogspot.com/2022/08/how-to-post-json-data-with-curl-command.html)
 - [medium.com/@shubhadeepchat: Best Practices for good REST API Design](https://medium.com/@shubhadeepchat/best-practices-for-good-rest-api-design-b5fae9a62c86)
 - [blog.bytebytego.com: EP94: REST API Cheatsheet](https://blog.bytebytego.com/p/ep94-rest-api-cheatsheet)
@@ -154,7 +153,6 @@
 #### OpenAPI Specification (originally known as the Swagger Specification)
 
 - [OpenAPI](https://www.openapis.org/) evolved from the [Swagger](https://swagger.io/) project. Swagger started out as a specification for documenting RESTful APIs. Later on, tools to generate client and server code and generating of test cases were added. While the original Swagger Specification was donated to the Linux Foundation and renamed the OpenAPI, Swagger remains one of the most widely used open-source toolsets for developing OpenAPIs.
-- [OpenAPI](https://www.openapis.org/) (f.k.a Swagger) has introduced a set of standardized specifications for REST APIs that, among many things, allows producers and consumers of APIs to work together in designing an API before even writing a single line of code! This design-first approach has improved the experience of API developers by giving them the opportunity to use tools like [OpenAPI generator](https://openapi-generator.tech/) which takes an OpenAPI definition and generates scaffolding code for backenders, making the development of APIs much faster.
 - [Wikipedia: OpenAPI Specification 🌟](https://en.wikipedia.org/wiki/OpenAPI_Specification)
 - [OpenAPI FAQ. What is OpenAPI Specification (OAS)? OpenAPI Specification](https://www.openapis.org/faq) The OAS defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 - [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
@@ -261,7 +259,6 @@
 ### GraphQL
 
 - [GraphQL](https://graphql.org/) A query language for your API
-- [How is the OpenAPI Specification different from GraphQL?](https://www.openapis.org/faq) How are screws better than nails? Both are useful tools that solve similar problems in slightly different ways. OpenAPI Specification offers a declarative contract that defines the structure of API requests and responses as discrete operations. GraphQL prefers an interface style that is more like querying a database and is best suited to graph databases.
 - [Hasura Launches Beta of GraphQL-Based Remote Joins Tool](https://devops.com/hansura-launches-beta-of-graphql-based-remote-joins-tool/)
 - [thenewstack.io: Why Backend Developers Should Fall in Love with GraphQL too](https://thenewstack.io/why-backend-developers-should-fall-in-love-with-graphql-too/)
 - [blog.dream11engineering.com: Lessons learned from running GraphQL at scale](https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb)

@@ -83,7 +83,6 @@ IstioMesh, PrometheusIO, Flux v2 & Flagger.
 - [piotrminkowski.com: Multicluster Traffic Mirroring with Istio and Kind](https://piotrminkowski.com/2021/07/12/multicluster-traffic-mirroring-with-istio-and-kind)
 - [thenewstack.io: Securing Istio Workloads with Auth0](https://thenewstack.io/securing-istio-workloads-with-auth0/)
 - [tetrate.io: Multicluster Management with Kubernetes and Istio 🌟](https://www.tetrate.io/blog/multicluster-management-with-kubernetes-and-istio/)
-- [thenewstack.io: Why Do You Need Istio When You Already Have Kubernetes? 🌟](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes/)
 - [solo.io: Upgrading Istio without Downtime](https://www.solo.io/blog/upgrading-istio-without-downtime/)
 - [tetrate.io: Using Istio Service Mesh as API Gateway 🌟](https://www.tetrate.io/blog/istio-servicemesh-api-gateway/)
 - [mirantis.com: Your App Deserves More than Kubernetes Ingress: Kubernetes Ingress vs. Istio Gateway [webinar]](https://www.mirantis.com/blog/your-app-deserves-more-than-kubernetes-ingress-kubernetes-ingress-vs-istio-gateway-webinar)

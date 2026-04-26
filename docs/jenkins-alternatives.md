@@ -204,7 +204,6 @@
 - [medium: How we rolled out our Kubernetes platform in Adevinta Spain](https://medium.com/adevinta-tech-bloghow-we-rolled-out-our-kubernetes-platform-in-adevinta-spain-63495884a1db)
 - [harness.io: Best Spinnaker Alternatives to Consider](https://harness.io/blog/continuous-delivery/spinnaker-alternatives/)
 - [armory.io: Build a Deployment Pipeline with Spinnaker on Kubernetes](https://www.armory.io/blog/build-a-deployment-pipeline-with-spinnaker-on-kubernetes/)
-- [jenkins-x.io: Traces for your pipelines](https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/) Jenkins X v3 now comes with tracing support for your pipelines out of the box,using Grafana and Tempo directly to store and visualize traces.
 - [gspann.com: Significance of Using Spinnaker When Adopting a Kubernetes Environment 🌟](https://www.gspann.com/resources/blogs/significance-of-using-spinnaker-when-adopting-a-kubernetes-environment/) Spinnaker acts as a multi-cloud deployment tool to support continuous workflows in a Kubernetes nvironment. Understand the Spinnaker architecture and learn about the best practices that can help you better deploy applications on Kubernetes clusters.
 
 ### ArgoCD
@@ -262,4 +261,3 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: Is it possible that Kubeflow pipeline is one of the best CI/CD tools for Kubernetes?<br><br>I spent some time playing with Kubernetes &amp; <a href="https://twitter.com/kubeflow?ref_src=twsrc%5Etfw">@kubeflow</a> pipelines, and they have one feature which is just great:<br><br>You can define the pipeline with real code! <a href="https://t.co/gNDzvvkCij">pic.twitter.com/gNDzvvkCij</a></p>&mdash; Daniele Polencic (@danielepolencic) <a href="https://twitter.com/danielepolencic/status/1285929877493800961?ref_src=twsrc%5Etfw">July 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 </details>
-

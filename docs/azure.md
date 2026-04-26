@@ -333,7 +333,6 @@
 - [devblogs.microsoft.com: Controlling Release Pipelines with Gates and Azure Policy Compliance 🌟](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance/)
 - [youtube: Azure DevOps Pipeline and Image Builder](https://www.youtube.com/watch?v=zL0eLEl2BxI&ab_channel=TravisRoberts)
 - [dev.to: Setting up a CI-CD Pipeline Using Azure DevOps 🌟](https://dev.to/gbengelebs/setting-up-a-ci-cd-pipeline-using-azure-devops-4gb)
-- [zartis.com: Simplify Your SDLC with Azure DevOps 🌟](https://www.zartis.com/simplify-your-sdlc-with-azure-devops/)
 - [thomasthornton.cloud: Scout Suite reports using Azure DevOps Pipeline](https://thomasthornton.cloud/2021/04/29/scout-suite-reports-using-azure-devops-pipeline/) Interesting article on how to fecth az DevOps pipelines reports as a static website
 - [Azure DevOps Dashboard](https://github.com/cschotte/Azure-DevOps-Dashboard)
 - [cloud.google.com: Crea una canalización de CI/CD con Azure Pipelines y Compute Engine](https://cloud.google.com/architecture/creating-cicd-pipeline-vsts-compute-engine)
@@ -425,7 +424,6 @@
 - [learn.microsoft.com: Classic subscription administrator roles, Azure roles, and Azure AD roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
 - [learn.microsoft.com: Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide)
 - [learn.microsoft.com: Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits)
-    - [learn.microsoft.com: Azure Active Directory limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-active-directory-limits)
 - [itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities](https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda) Getting rid of passwords (or connection strings) while accessing Azure services and instead making use of Managed Identities is a way to increase the security of your workloads. Learn how to use Managed Identities in this article.
 - [youtube.com: Azure Service Principal - SPN | Houssem Dellai](https://www.youtube.com/watch?v=-F9yzj4Kjeo&ab_channel=HoussemDellai)
 - [youtube.com: How to create Service Principals in Azure Portal | Raaviblog](https://www.youtube.com/watch?v=Hg-YsUITnck)
@@ -546,7 +544,6 @@
 - [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/t5/windows-powershell/an-example-why-powershell-is-so-important/m-p/3041748)
 - [jdhitsolutions.com: Profile PowerShell Functions](https://jdhitsolutions.com/blog/powershell-7/8793/profile-powershell-functions/)
 - [devblogs.microsoft.com: When PowerShellGet v1 fails to install the NuGet Provider](https://devblogs.microsoft.com/powershell/when-powershellget-v1-fails-to-install-the-nuget-provider/)
-- [techcommunity.microsoft.com: An example why PowerShell is so important!](https://techcommunity.microsoft.com/t5/windows-powershell/an-example-why-powershell-is-so-important/m-p/3041748) Create 500 training (test) accounts
 - [commandline.ninja: Use Powershell to find windows services configured to run as another user](https://www.commandline.ninja/use-powershell-to-find-windows-svcs-configured-to-run-as-another-user/)
 - [techcommunity.microsoft.com: Use PowerShell to retrieve all assigned Intune policies and applications per Azure AD group!](https://techcommunity.microsoft.com/t5/microsoft-intune/use-powershell-to-retrieve-all-assigned-intune-policies-and/m-p/3217498)
 - [softzone.es: Por qué me interesa más usar PowerShell en lugar de CMD](https://www.softzone.es/noticias/windows/por-que-interesa-usar-powershell-lugar-cmd/)
@@ -570,7 +567,6 @@
 - [==microsoftgraph/msgraph-sdk-powershell==](https://github.com/microsoftgraph/msgraph-sdk-powershell) The Microsoft Graph PowerShell SDK is a collection of PowerShell modules that contain commands for calling Microsoft Graph service.
 - [==docs.microsoft.com: Get started witth the Microsoft Graph Powershell SDK==](https://docs.microsoft.com/en-us/graph/powershell/get-started) Microsoft Graph Powershell replaces old powershell modules. It is also cross platform.
 - [==microsoftgraph/msgraph-sdk-powershell: samples==](https://github.com/microsoftgraph/msgraph-sdk-powershell/tree/dev/samples)
-    - [Samples: how to create a corresponding service principal from an application](https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/dev/samples/9-Applications.ps1)
 - [docs.microsoft.com: Microsoft Graph migration](https://docs.microsoft.com/en-us/cli/azure/microsoft-graph-migration?tabs=powershell) Due to the deprecation of Azure Active Directory (Azure AD) Graph, the underlying Active Directory Graph API will be replaced by Microsoft Graph API in Azure CLI 2.37.0.
 - [==techtarget.com: Get up to speed with PowerShell and the Microsoft Graph API==](https://www.techtarget.com/searchwindowsserver/tutorial/Get-up-to-speed-with-PowerShell-and-the-Microsoft-Graph-API) **Microsoft plans to retire technologies that admins depend on to handle Office 365 and other cloud services via PowerShell. Learn how to start with this newer management method.**
 - [rakhesh.com: Graph cmdlets and Azure AD App Registrations](https://rakhesh.com/azure/graph-cmdlets-and-azure-ad-app-registrations/)
@@ -779,7 +775,6 @@
     - [Azure-Samples/jenkins-terraform-azure-example](https://github.com/Azure-Samples/jenkins-terraform-azure-example)
     - etc
 - [github.com/azure-devops](https://github.com/azure-devops)
-- [Azure Quickstart Templates 🌟](https://azure.microsoft.com/en-us/resources/templates/) Deploy Azure resources through the Azure Resource Manager with community contributed templates to get more done. Deploy, learn, fork and contribute back.
     - https://github.com/Azure/azure-quickstart-templates
 - [microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟](https://github.com/microsoft/azure-pipelines-yaml/) YAML templates, samples, and community interaction for designing Azure Pipelines.
     - [microsoft/azure-pipelines-yaml: maven.yml](https://github.com/microsoft/azure-pipelines-yaml/blob/master/templates/maven.yml)
@@ -809,7 +804,6 @@
 - [jamiemaguire.net: First Look: Azure Open AI Studio, Prompt Engineering. What You Can Do and How](https://jamiemaguire.net/index.php/2023/04/22/first-look-azure-open-ai-studio-prompt-engineering-what-you-can-do-and-how/)
 - [==techcommunity.microsoft.com: The AI Study Guide: Azure’s top free resources for learning generative AI in 2024==](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/the-ai-study-guide-azure-s-top-free-resources-for-learning/ba-p/4036890)
 - [==hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform and Vault==](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)
-- [techcommunity.microsoft.com: Azure OpenAI Landing Zone reference architecture](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-openai-landing-zone-reference-architecture/ba-p/3882102)
 
 ## Windows Tools
 

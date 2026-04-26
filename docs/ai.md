@@ -109,7 +109,6 @@ security from the beginning with continuous testing, automation, zero trust, and
 ## Other Tools
 
 - [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) A generative AI extension for JupyterLab
-- [==k8sgpt.ai==](https://k8sgpt.ai/) K8sGPT is a tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
 - [github.com/XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
 
 ## Videos

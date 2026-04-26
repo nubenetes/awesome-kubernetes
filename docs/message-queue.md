@@ -95,7 +95,6 @@
 - [pub.towardsai.net: Deep Dive into Event-Driven architecture | Gul Ershad](https://pub.towardsai.net/software-engineering-baa4e7a8015c)
 - [developer.com: An Introduction to Event Driven Microservices](https://www.developer.com/design/event-driven-microservices/)
 - [dzone.com: What Are Microservices and The Event Aggregator Pattern? 🌟](https://dzone.com/articles/microservices-and-the-event-aggregator-pattern) Learn about the Event Aggregator pattern for organizing event communication in a microservices architecture with an example.
-- [ibm.com: Event-driven cloud-native applications (microservices)](https://www.ibm.com/cloud/architecture/architecture/practices/event-driven-cloud-native-apps-architecture/) The event backbone is being part of the microservices mesh, providing the publish-and-subscribe communication between microservices and enabling the support of loosely coupled event-driven microservices.
 - [irfanyusanif.medium.com: Best practices to communicate between microservices](https://irfanyusanif.medium.com/how-to-communicate-between-microservices-7956ed68a99a)
 - [swapnil-chougule.medium.com: Rapid Feature Engineering through SQL](https://swapnil-chougule.medium.com/rapid-feature-engineering-through-sql-a92b0926683d)
 - [==blog.twitter.com: Processing billions of events in real time at Twitter==](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
@@ -257,7 +256,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 - [Apache Kafka](https://kafka.apache.org/)
 - [developers.redhat.com: Using secrets in Kafka Connect configuration](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
-- [developers.redhat.com: Capture database changes with Debezium Apache Kafka connectors](https://developers.redhat.com/blog/2020/04/14/capture-database-changes-with-debezium-apache-kafka-connectors/)
 - [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md)
 - [Single Message Transformations - The Swiss Army Knife of Kafka Connect](https://www.morling.dev/blog/single-message-transforms-swiss-army-knife-of-kafka-connect/)
 - [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776) Replacing Apache Airflow with Debezium.
@@ -276,7 +274,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [confluent.io: How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka](https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka/)
 - [banzaicloud.com: Kafka on Kubernetes - using etcd 🌟](https://banzaicloud.com/blog/kafka-on-etcd/)
 - [softwareengineeringdaily.com: Kafka Applications with Tim Berglund (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/16/kafka-applications-with-tim-berglund-repeat/)
-- [medium: Logs & Offsets: (Near) Real Time ELT with Apache Kafka + Snowflake](https://medium.com/convoy-tech/logs-offsets-near-real-time-elt-with-apache-kafka-snowflake-473da1e4d776)
 - [infoq.com: Building a SQL Database Audit System using Kafka, MongoDB and Maxwell's Daemon](https://www.infoq.com/articles/database-audit-system-kafka/)
 - [tecmint: How to Install Apache Kafka in CentOS/RHEL 7](https://www.tecmint.com/install-apache-kafka-in-centos-rhel/)
 - [medium: Processing guarantees in Kafka](https://medium.com/@andy.bryant/processing-guarantees-in-kafka-12dd2e30be0e) "Duplicates and lost messages are due not only to features of the messaging systems, but in the design of producer and consumer applications as well." One of the best posts on processing guarantees in kafka.
@@ -285,7 +282,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Google Pub/Sub Lite for Kafka Users](https://medium.com/google-cloud/google-pub-sub-lite-for-kafka-users-dec8a7cfc5e5)
 - [medium: 4 Microservices Caching Patterns at Wix](https://medium.com/wix-engineering/4-microservices-caching-patterns-at-wix-b4dfee1ae22f)
 - [Confluent.io: Intro to Apache Kafka: How Kafka Works 🌟](https://www.confluent.io/blog/apache-kafka-intro-how-kafka-works/)
-- [levelup.gitconnected.com: Kafka for Engineers](https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067)
 - [medium: Microservices in Rust with Kafka](https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e)
 - [medium: Apache Kafka in a Nutshell 🌟](https://medium.com/swlh/apache-kafka-in-a-nutshell-5782b01d9ffb) Architecture, Use Cases, and a Getting Started guide — rolled into one
 - [confluent.io: Simplifying Apache Kafka Multi-Cluster Management Using Control Center and Cluster Registry](https://www.confluent.io/blog/simplify-multiple-kafka-cluster-management-monitoring-using-confluent)
@@ -313,7 +309,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [tech.ebayinc.com: Resiliency and Disaster Recovery with Kafka](https://tech.ebayinc.com/engineering/resiliency-and-disaster-recovery-with-kafka/)
 - [newrelic.com: Effective Strategies for Kafka Topic Partitioning 🌟](https://newrelic.com/blog/best-practices/effective-strategies-kafka-topic-partitioning)
 - [gentlydownthe.stream](https://www.gentlydownthe.stream/) A children’s book about Apache Kafka.
-- [confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper](https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/)
 - [dzone: Event-Driven APIs and Schema Governance for Apache Kafka](https://dzone.com/articles/event-driven-apis-and-schema-governance-for-apache) As a developer, I'm always excited to attend so many great sessions addressing critical challenges in the Apache Kafka ecosystem like how changes to event-driven APIs are leading developers to focus on contract-first development for Kafka.
 - [phoenixnap.com: How to Set Up and Run Kafka on Kubernetes 🌟](https://phoenixnap.com/kb/kafka-on-kubernetes)
 - [piotrminkowski.com: Knative Eventing with Quarkus, Kafka and Camel](https://piotrminkowski.com/2021/06/14/knative-eventing-with-quarkus-kafka-and-camel/)
@@ -338,7 +333,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Running Kafka in Kubernetes, Part 1: Why we migrated our Kafka clusters to Kubernetes](https://medium.com/transferwise-engineering/running-kafka-in-kubernetes-part-1-why-we-migrated-our-kafka-clusters-to-kubernetes-722101a2e751) At Wise, we chose to migrate our Apache Kafka clusters, previously running on Amazon Web Services (AWS) EC2 instances, into a multi-cluster Kubernetes setup. This article is the first part of a two-part series aiming to outline the motivations behind this choice and the challenges we faced.
 - [betterprogramming.pub: How to Handle Duplicate Messages and Message Ordering in Kafka](https://betterprogramming.pub/how-to-handle-duplicate-messages-and-message-ordering-in-kafka-82e2fef82025) Dealing with the challenges faced when using Apache Kafka
 - [medium: Optimizing Kafka Streams Apps on Kubernetes by Splitting Topologies](https://medium.com/bakdata/optimizing-kafka-streams-apps-on-kubernetes-by-splitting-topologies-ac6b4c90516e)
-- [blog.twitter.com: Processing billions of events in real time at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
 - [inder-devops.medium.com: Kafka- Best practices & Lessons Learned | By Inder](https://inder-devops.medium.com/kafka-best-practices-lessons-learned-by-inder-431dc5fafd3b)
 - [datadoghq.com: Monitoring Kafka performance metrics](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
 - [blog.workwell.io: How to manage your Kafka consumers from the producer](https://blog.workwell.io/how-to-manage-your-kafka-consumers-from-the-producer-9933b88085dd)
@@ -382,17 +376,14 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [dev.to: Learn how to use Kafkacat – the most versatile Kafka CLI client 🌟](https://dev.to/de_maric/learn-how-to-use-kafkacat-the-most-versatile-kafka-cli-client-1kb4)
 - [github.com/lensesio/fast-data-dev (Lenses Box)](https://github.com/lensesio/fast-data-dev) Kafka Docker for development. Kafka, Zookeeper, Schema Registry, Kafka-Connect, Landoop Tools, 20+ connectors. A apachekafka docker image that actually works without zookeeper. If you don't want do deal with docker-compose this one is for you.
 - [dzone: Visualize your Apache Kafka Streams using the Quarkus Dev UI](https://dzone.com/articles/visualize-your-apache-kafka-streams-using-the-quar) Visualize your Apache Kafka Streams using the Quarkus Dev UI
-- [medium: Solutions to Communication Problems in Microservices using Apache Kafka and Kafka Lens](https://medium.com/@harmonh/solutions-to-communication-problems-in-microservices-using-apache-kafka-and-kafka-lens-9b6d453de352)
 - [==github.com/sauljabin/kaskade==](https://github.com/sauljabin/kaskade) **kaskade is a text user interface for kafka, which allows you to interact and consume topics from your terminal in style!**
 
 #### Strimzi kubernetes operator for apache kafka
 
 - [strimzi.io](https://strimzi.io/)
-- [developers.redhat.com: how easy to deploy and configure a Kafka Connect on Kubernetes through strimziio operator and use secrets](https://developers.redhat.com/blog/2020/02/14/using-secrets-in-apache-kafka-connect-configuration/)
 - [developers.redhat.com: Introduction to Strimzi: Apache Kafka on Kubernetes (KubeCon Europe 2020) 🌟](https://developers.redhat.com/blog/2020/08/14/introduction-to-strimzi-apache-kafka-on-kubernetes-kubecon-europe-2020/)
 - [strimzi.io: Optimizing Kafka producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
 - [strimzi.io: Optimizing Kafka consumers 🌟](https://strimzi.io/blog/2021/01/07/consumer-tuning/)
-- [strimzi.io: Optimizing Kafka producers 🌟](https://strimzi.io/blog/2020/10/15/producer-tuning/)
 - [pepy.tech/project/strimzi-kafka-cli 🌟](https://pepy.tech/project/strimzi-kafka-cli) - [pypi.org/project/strimzi-kafka-cli](https://pypi.org/project/strimzi-kafka-cli/)
 - [strimzi/kafka-kubernetes-config-provider: Kubernetes Configuration Provider for Apache Kafka](https://github.com/strimzi/kafka-kubernetes-config-provider) Apache Kafka supports pluggable configuration providers which can load configuration data from external sources. The configuration providers in this repo can be used to load data from Kubernetes Secrets and Config Maps. It can be used in all Kafka components and does not depend on the other Strimzi components. So you could, for example, use it with your producer or consumer applications even if you don't use the Strimzi operators to provide your Kafka cluster. One of the example use-cases is to load certificates or JAAS configuration from Kubernetes Secrets.
 - [strimzi.io: Using Kubernetes Configuration Provider to load data from Secrets and Config Maps](https://strimzi.io/blog/2021/07/22/using-kubernetes-config-provider-to-load-data-from-secrets-and-config-maps/)
@@ -515,7 +506,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 
 ### Red Hat AMQ Broker (ActiveMQ Artemis)
 
-- [Apache ActiveMQ Artemis broker](https://activemq.apache.org/components/artemis/)
 - [developers.redhat.com: JDBC Master-Slave Persistence setup with Activemq using Postgresql database](https://developers.redhat.com/blog/2017/10/05/jdbc-master-slave-persistence-setup-activemq-using-postgresql-database)
 - [developers.redhat.com: Connecting external clients to Red Hat AMQ Broker on Red Hat OpenShift](https://developers.redhat.com/blog/2020/08/26/connecting-external-clients-to-red-hat-amq-broker-on-red-hat-openshift)
 
@@ -537,9 +527,6 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 Product|Also Known As|Components|URL
 :------|:----|:--------|:----
 Red Hat AMQ 6|JBoss AMQ 6|Apache ActiveMQ|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
-Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|AMQ Broker + AMQ Streams|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
-Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|JBoss AMQ 7 (Broker) + Apache Kafka|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
-Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemis + Apache Kafka|[Ref](https://access.redhat.com/documentation/en-us/red_hat_amq/6.3/)
 
 </center>
 

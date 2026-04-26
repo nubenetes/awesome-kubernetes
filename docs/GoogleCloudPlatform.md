@@ -128,7 +128,6 @@
 
 ## Cloud Code
 
-- [Cloud Code 🌟](https://cloud.google.com/code) Everything you need to write, debug, and deploy your cloud-native applications.
 
 ## Google Cloud Buildpacks
 

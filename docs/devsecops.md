@@ -292,7 +292,6 @@
 
 ## Security Linting on Kubernetes
 
-- [kubeLinter 🌟](https://github.com/stackrox/kube-linter) KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
 - [thenewstack.io: StackRox KubeLinter Brings Security Linting to Kubernetes](https://thenewstack.io/stackrox-kubelinter-brings-security-linting-to-kubernetes/)
 - [github.com/yannh/kubeconform 🌟](https://github.com/yannh/kubeconform) **A FAST Kubernetes manifests validator, with support for Custom Resources!**
 
@@ -312,7 +311,6 @@
 
 ## The Falco Project
 
-- [Falco.org](https://falco.org) Cloud-Native runtime security
 - [==sysdig.com: Getting started with runtime security and Falco==](https://sysdig.com/blog/intro-runtime-security-falco/)
 - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d) Comprehensive runtime security for your containers with a hands-on demo.
 
@@ -528,7 +526,6 @@
 - [hashicorp.com: Onboarding Applications to Vault Using Terraform: A Practical Guide 🌟](https://www.hashicorp.com/blog/onboarding-applications-to-vault-using-terraform-a-practical-guide) Learn how to build an automated HashiCorp Vault onboarding system with Terraform using sensible naming standards, ACL policy templates, pre-created application entities, and workflows driven by VCS and CI/CD.
 - [hashicorp.com: Managing SSH Access at Scale with HashiCorp Vault](https://www.hashicorp.com/blog/managing-ssh-access-at-scale-with-hashicorp-vault) Learn how to build scalable, role-based SSH access with SSH certificates and HashiCorp Vault.
 - [devopscube.com: How to Setup Vault in Kubernetes- Beginners Tutorial 🌟](https://devopscube.com/vault-in-kubernetes/)
-- [hashicorp.com: Retrieve HashiCorp Vault Secrets with Kubernetes CSI 🌟](https://www.hashicorp.com/blog/retrieve-hashicorp-vault-secrets-with-kubernetes-csi) Learn how to use CSI to expose secrets on a volume within a Kubernetes pod and retrieve them using our beta Vault Provider for the Kubernetes Secrets Store CSI Driver.
 - [devopscube.com: Vault Agent Injector Tutorial: Inject Secrets to Pods Using Vault Agent](https://devopscube.com/vault-agent-injector-tutorial/)
 - [hashicorp.com: Announcing HashiCorp Vault 1.8](https://www.hashicorp.com/blog/vault-1-8)
 - [hashicorp.com: A Kubernetes User's Guide to HashiCorp Nomad Secret Management](https://www.hashicorp.com/blog/a-kubernetes-user-s-guide-to-hashicorp-nomad-secret-management) Learn how secrets management in Kubernetes compares to HashiCorp Nomad, and see why HashiCorp Vault is a powerful solution for both.
@@ -642,7 +639,6 @@
 
 ### Sigstore
 
-- [==sigstore.dev==](https://www.sigstore.dev/) A new standard for signing, verifying and protecting software. Making sure your software’s what it claims to be.
     - [youtube: Hands-on Introduction to sigstore | Rawkode Live](https://www.youtube.com/watch?v=fZfd4orrn8Y&ab_channel=RawkodeAcademy) In this tutorial, you’ll learn how to sign and verify container images with co-sign, with and without a private key.
 - [==opensource.com: Sign and verify container images with this open source tool (sigstore)==](https://opensource.com/article/21/12/sigstore-container-images) The sigstore project aims at securing supply chain technology.
 

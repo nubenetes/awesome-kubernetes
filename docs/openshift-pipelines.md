@@ -44,7 +44,6 @@
 
 ## Improving Jenkins’ performance on Openshift
 
-- [blog.openshift.com: Deploying jenkins on openshift - part 1](https://blog.openshift.com/deploying-jenkins-on-openshift-part-1/)
 - [blog.openshift.com: Improving jenkins performance on openshift - part 2](https://blog.openshift.com/improving-jenkins-performance-on-openshift-part-2/)
 
 ## Building applications in OpenShift
@@ -59,7 +58,6 @@
 
 - [developers.redhat.com - S2i](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 - [blog.openshift.com: From zero to container deployment hero with OpenShift 3 and S2i (Video) 🌟](https://blog.openshift.com/openshift-3-walkthrough/)
-- [developers.redhat.com: Source versus binary S2I workflows with Red Hat OpenShift Application Runtimes](https://developers.redhat.com/blog/2018/09/26/source-versus-binary-s2i-workflows-with-red-hat-openshift-application-runtimes/)
 
 #### OpenShift Pipelines with S2i and Jenkins Blue Ocean. Deploying Blue Ocean on OpenShift
 

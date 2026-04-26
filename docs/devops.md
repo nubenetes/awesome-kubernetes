@@ -154,7 +154,6 @@
 
 - [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
 - [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
-- [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
 - [opensource.com: How to transition into a career as a DevOps engineer](https://opensource.com/article/19/7/how-transition-career-devops-engineer) Whether you're a recent college graduate or a seasoned IT pro looking to advance your career, these tips can help you get hired as a DevOps engineer.
 - [opensource.com: A beginner's guide to everything DevOps 🌟](https://opensource.com/article/20/2/devops-beginners) Take a fresh look at why DevOps is important, what it means for IT professionals, and its methods, frameworks, and tools.
 - [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps)
@@ -194,12 +193,8 @@
 - [thenewstack.io: From DevOps to DevApps 🌟](https://thenewstack.io/from-devops-to-devapps/)
 - [thenewstack.io: The Future of Ops Careers 🌟🌟](https://thenewstack.io/the-future-of-ops-careers/)
 - [cloudtweaks.com: DevOps - Secure & scalable CI/CD pipeline with AWS 🌟](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/) Devops is a union of software development and operations. It is a culture that the company imbibes in the agile development process.
-- [devops.com: Survey Surfaces High Reliance on DevOps to Build and Deploy APIs](https://devops.com/survey-surfaces-high-reliance-on-devops-to-build-and-deploy-apis/)
-- [thenewstack.io: From DevOps to DevApps. Event-Driven Architecture 🌟](https://thenewstack.io/from-devops-to-devapps/)
 - [thenewstack.io: DevOps World: DevOps Moves to Resilient Collaboration](https://thenewstack.io/post-pandemic-devops-moves-to-resilient-collaboration/)
 - [devopscurry.com: Key DevOps Principles to focus in 2021](https://devopscurry.com/key-devops-principles-to-focus-in-2021/)
-- [medium: How to Become an DevOps Engineer in 2020](https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52) How to get started with a career in DevOps.
-- [medium: How to Become a DevOps Engineer in 2020](https://medium.com/better-programming/how-to-become-a-devops-engineer-in-2020-7618492a09d8) Your guide to getting started in a career in DevOps.
 - [cloudacademy.com: Blog / DevOpsDevOps: Why Is It Important to Decouple Deployment From Release?](https://cloudacademy.com/blog/devops-why-is-it-important-to-decouple-deployment-from-release/)
 - [devopscurry.com: DevOps 2021: A Complete Guide To Transition From a SysAdmin to DevOps Role](https://devopscurry.com/devops-2021-a-complete-guide-to-transition-from-a-sysadmin-to-devops-role/)
 - [infoq.com: Puppet Releases Its 2020 State of DevOps Report 🌟](https://www.infoq.com/news/2020/11/2020-devops-report/)

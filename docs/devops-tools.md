@@ -32,7 +32,6 @@
 - [DevOps Tool Comparison: Docker Vs Kubernetes Vs Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
 - [cloudtweaks.com: DevOps - Secure and Scalable CI/CD Pipeline with AWS](https://cloudtweaks.com/2019/05/devops-secure-and-scalable-ci-cd-pipeline-with-aws/)
 - [medium: DevOps tools Handbook 🌟](https://medium.com/@anujsharma12feb/devops-tools-handbook-b42487a53353)
-- [reviewnprep.com: DevOps Tool Primer: Docker, Kubernetes, Ansible](https://reviewnprep.com/blog/devops-tool-comparison-docker-vs-kubernetes-vs-ansible/)
 - [ASDF 🌟](https://asdf-vm.com/) Manage multiple runtime versions with a single CLI tool
 - [clarusway.com: Top 21 DevOps Tools Of 2021 (Comprehensive Guide)](https://clarusway.com/top-21-devops-tools/)
 - [zigiwave.medium.com: Top 10 Tools your DevOps Teams Should Use in 2022](https://zigiwave.medium.com/top-10-tools-your-devops-teams-should-use-in-2022-569700f40426)
@@ -67,4 +66,3 @@
 
 - [github.com/AdminTurnedDevOps/CapabilityPE](https://github.com/AdminTurnedDevOps/CapabilityPE) Platform Engineering capabilities and stacks installed with one command.
 - You know what’s missing? An easy tool that just installs capibilities (ArgoCD, Datadog, KubeVirt, etc.) in an easy way. One command to do it all. A tool that easily gets whatever capabilities you want your kubernetes cluster to have deployed in production. Capipe, which stands for Capibility Platform Engineering, allows you to specify capabilities that you want to install within your Platform Engineering environment.
-

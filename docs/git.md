@@ -291,12 +291,10 @@ It prescribes that software designers should define formal, precise and verifiab
 - [atlassian.com: Configuring branching models 🌟](https://confluence.atlassian.com/bitbucketserver/using-branches-in-bitbucket-server-776639968.html#UsingbranchesinBitbucketServer-model)
 - [git-scm.com: Git Branching - Branching Workflows](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 - [git-scm.com: Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
-    - [Distributed Git - Distributed Workflows - Integration-Manager Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
     - [Setup Git Integration Manager Workflow in Eclipse](https://stackoverflow.com/questions/26003298/how-to-setup-local-git-with-local-blessed-repo-integration-manager-workflow)
 - [Dzone refcard: Git Patterns and Anti-Patterns](https://dzone.com/refcardz/git-patterns-and-anti-patterns) Scaling from Workgroup to Enterprise. Suggests patterns and anti-patterns, including Hybrid SCM, Git champions, blessed repository, per-feature topic branches, and ALM integration.
 - [Dzone: Basic Git Branching](https://dzone.com/articles/basic-git-branching) In this article, we walk through the basics of branching with Git to get you started with better managing your versioning during projects.
 - [martinfowler.com: Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
-    - [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html#release-branch) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
 - [medium: Which Git branching model should I select for my project?](https://medium.com/aventude/which-git-branching-model-should-i-select-73aafc503b5f)
 - [speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
 - [Dzone: Git Branch Naming Conventions](https://dzone.com/articles/git-branch-naming-conventions-1) A primer on naming branches for modern git workflows.
@@ -332,7 +330,6 @@ It prescribes that software designers should define formal, precise and verifiab
 
 ### Feature Branch Development (aka GitFlow)
 
-- [nvie.com: Feature Branches. A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 #### Git Flow
 
@@ -515,14 +512,11 @@ git rebase -i HEAD~5
 - [github.blog: Set the default branch for newly-created repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/)
 - [grafana.com: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests/)
 - [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
-- [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/2020/09/21/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests/)
-- [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21)
 - [theregister.com: Passwords begone: GitHub will ban them next year for authenticating Git operations](https://www.theregister.com/2020/12/17/github_bans_passwords/)
 - [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/)
 - [github.blog: Improving how we deploy GitHub](https://github.blog/2021-01-25-improving-how-we-deploy-github/)
 - [github.blog: Deployment reliability at GitHub](https://github.blog/2021-02-03-deployment-reliability-at-github/)
 - [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/2021-02-04-extending-gitops-to-reliability-as-code-with-github-and-stackpulse/)
-- [GitHub public roadmap 🌟](https://github.com/github/roadmap)
 - [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/2021-03-23-solving-the-innersource-discovery-problem/)
 - [devopstips.net: Create, Host and Share Docker Images with GitHub Packages](https://devopstips.net/create-host-and-share-docker-images-with-github-packages)
 - [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec)
@@ -627,7 +621,6 @@ git rebase -i HEAD~5
 - [github.blog: 5 automations every developer should be running](https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/)
 - [==github.blog: Getting started with GitHub Actions just got easier!==](https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/)
 - [github.blog: GitHub Actions: Improvements to GitHub Actions starter experience](https://github.blog/changelog/2021-12-17-github-actions-improvements-to-github-actions-starter-experience/)
-- [==levelup.gitconnected.com: GitHub may replace DockerHub==](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
 - [blog.fleetdm.com: 4 tips for GitHub Actions usability (+2 bonus tips for debugging)](https://blog.fleetdm.com/4-tips-for-github-actions-usability-2-debugging-4c0c920adfde)
 - [==freecodecamp.org: How to Build Your First JavaScript GitHub Action==](https://www.freecodecamp.org/news/build-your-first-javascript-github-action/)
 - [dev.to: Make your first contribution to a GitHub Action!](https://dev.to/github/how-to-edit-a-github-action-3j14)
