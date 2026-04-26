@@ -30,10 +30,6 @@ hide:
 | [OKD](https://github.com/okd-community-install)| SRE / DevOps | OpenShift | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes <br/>(okd-community-install) | Yes <br/>(okd-community-install) | okd-community-install is a standalone cluster <br/>of 1 node valid for small projects. | 
 | [Minishift](https://www.okd.io/minishift/)| Devel | OpenShift | Desktop Virtual Machine | Yes | OSS | No | Yes | No | No | Yes | OpenShift 3 official development environment. | 
 | [OCP 4 CodeReady Containers](https://try.openshift.com)| Devel | OpenShift | Desktop Virtual Machine | Yes | OSS | No | Yes | No | No | Yes | OpenShift 4 official development environment |
-| [OCP 4 Public Cloud](https://try.openshift.com)| SRE / DevOps | OpenShift | AWS, GCP, Azure | No | Yes | Yes | No | No | Yes | Yes | OpenShift in Public Cloud | 
-| [OpenShift Dedicated](https://try.openshift.com) | SRE / DevOps | OpenShift | AWS | No | Yes | Yes | No | No | Yes | Yes | OpenShift In AWS managed by Red Hat | 
-| [OCP 4 Private Cloud 1](https://try.openshift.com)| SRE / DevOps | OpenShift | OpenStack, <br/>Red Hat Virtualization | Yes | Yes | Yes | No | No | Yes | Yes | OpenShift in private cloud with automated <br/>deployment recommeded by Red Hat. | 
-| [OCP 4 Private Cloud 2](https://try.openshift.com)| SRE / DevOps | OpenShift | vSphere 6.7 U2, Bare Metal | Yes | Yes | Yes | No | No | Yes | No | OpenShift in private cloud with infra providers <br/>that currently don't support automated <br/>deployments. |
 | [AWS EKS](https://aws.amazon.com/en/eks/)| SRE / DevOps | AWS Kubernetes | AWS | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by AWS | 
 | [Azure AKS](https://azure.microsoft.com/en-en/services/kubernetes-service/)| SRE / DevOps | Azure Kubernetes | Azure | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Azure | 
 | [Google kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/)| SRE / DevOps | Google Kubernetes | GCP | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Google Cloud | 
@@ -42,7 +38,6 @@ hide:
 | [Oracle Kubernetes Engine (OKE)](https://www.oracle.com/cloud/compute/container-engine-kubernetes.html)| SRE / DevOps | Oracle Kubernetes | Oracle Cloud | No | N/A | Yes | No | No | Yes | Yes | Managed kubernetes by Oracle Cloud | 
 | [Terraform (kubernetes the hard way)](https://napo.io/posts/kubernetes-the-real-hard-way-on-aws/)| SRE / DevOps | Kubernetes Upstream | AWS EKS, Google GKE, <br/>Azure AKS, Digital Ocean, <br/>Alibaba, Oracle Cloud | No | N/A | Yes | No | No | Yes | No | kubernetes installer compliant with all the major public cloud providers<br/> (the hard way). It does not use the official installers offered by each <br/>cloud provider. | 
 | [Kubespray on Public Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | AWS, GCE, Azure, <br/>Oracle Cloud (experimental) | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
-| [Kubespray on Private Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | OpenStack, vSphere, <br/>Packet (bare metal), or baremetal | Yes | OSS | Yes | Yes | No | Yes | No |  |
 | [Conjure-up ](https://conjure-up.io/)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
 | [weave.works](https://www.weave.works/)| SRE / DevOps / Devel |  Kubernetes Upstream |  | | |  |  | |  |  |  |
 | [WKSctl](https://github.com/weaveworks/wksctl)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |
