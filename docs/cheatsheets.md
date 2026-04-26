@@ -74,7 +74,6 @@
 - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
 - [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets/)
 - [cheat-sheets.org 🌟](http://www.cheat-sheets.org/)
-- [jimmysong.io/cheatsheets 🌟](https://jimmysong.io/cheatsheets/)
 - [simplecheatsheet.com](https://simplecheatsheet.com/)
 - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c) This comprehensive guide covers everything DevOps
 - [ABZ-Aaron/CheatSheets](https://github.com/ABZ-Aaron/CheatSheets)
@@ -184,13 +183,11 @@
 - [ithands-on.com: Kubernetes 101 : kubectl - communication with pods and containers / running commands inside pods and containers](https://www.ithands-on.com/2021/05/kubernetes-101-kubectl-communication.html)
 - [opensource.com: Learn essential Kubernetes commands with a new cheat sheet](https://opensource.com/article/21/5/kubernetes-cheat-sheet) Start exploring kubectl, containers, pods, and more, then download our free cheat sheet so you always have the key commands at your fingertips.
 - [computingforgeeks.com: Kubectl Cheat Sheet for Kubernetes Admins & CKA Exam Prep](https://computingforgeeks.com/kubectl-cheat-sheet-for-kubernetes-cka-exam-prep/)
-- [mirantis.com: Kubernetes Cheat Sheet](https://www.mirantis.com/blog/kubernetes-cheat-sheet)
 - [myfuturehub.com: Must Keep these Kubernetes Commands handy](https://myfuturehub.com/must-keep-these-kubernetes-commands-handy/)
 - `--tail=-1` lets you output all logs when you use a label selector:
     - `kubectl logs -n etcd -l app=etcd -c etcd --tail=-1`
     - `kubectl logs -l app=my.app --tail=-1`
 - [cmcrowell.com/cheat-sheet 🌟](https://cmcrowell.com/cheat-sheet/)
-- [mirantis.com: Kubernetes Cheat Sheet 🌟](https://www.mirantis.com/blog/kubernetes-cheat-sheet/)
 - [==komodor.com: The Ultimate Kubectl Cheat Sheet== 🌟](https://komodor.com/learn/the-ultimate-kubectl-cheat-sheet/)
 - [==atomiccommits.io: Everything Useful I Know About kubectl==](https://www.atomiccommits.io/everything-useful-i-know-about-kubectl)
 - Top kubernetes troubleshooting Commands:
@@ -224,7 +221,6 @@
 - [Dzone: Docker Command Cheatsheet](https://dzone.com/articles/docker-command-cheatsheet) If you're new to Docker or just want to have a list of handy commands, this cheatsheet will help you install, monitor, maintain, and clean up your images and processes.
 - [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/cheat-sheets/containers/)
 - [github.com: Docker cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
-- [caylent.com: Docker Commands Cheat Sheet](https://caylent.com/blog/docker/docker-commands-cheat-sheet)
 - [intellipaat.com: Docker Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/devops-tutorial/docker-cheat-sheet) - [2019, pdf](https://intellipaat.com/mediaFiles/2019/03/docker-cheat-sheet.pdf)
 - [developers.redhat.com: Containers Cheat Sheet](https://developers.redhat.com/promotions/docker-cheatsheet)
 - [blog.gitguardian.com: Docker Security Best Practices & Cheat Sheet 🌟](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/) Containers are no security devices. That's why we've curated a set of easily actionable recommendations to improve your Docker containers security. Check out the one-page cheat sheet.
@@ -311,13 +307,11 @@
 - [edureka.co: Ansible Cheat Sheet – A DevOps Quick Start Guide](https://www.edureka.co/blog/cheatsheets/ansible-cheat-sheet-guide/)
 - [intellipaat.com: Ansible Basic Cheat Sheet](https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet/)
 - [mrxpalmeiras: Ansible Cheat Sheet](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
-- [google.com/site/mrxpalmeiras: Ansible Cheat Sheet 🌟](https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet)
 - [Ansible k8s cheat sheet 🌟](https://opensource.com/downloads/ansible-k8s-cheat-sheet) The Ansible k8s module enables you to manage Kubernetes objects with Ansible playbooks.
 - [fosstechnix.com: Ansible ad hoc commands with Examples](https://www.fosstechnix.com/ansible-ad-hoc-commands-with-examples/)
 
 ## Packer and Terraform Cheat Sheets
 
-- [Packer Cheatsheet](https://adamrushuk.github.io/cheatsheets/packer/)
 - [dzone: Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
 - [terraform.io: Terraform Commands](https://www.terraform.io/docs/commands/index.html)
 - [github.com/scraly: Terraform Cheat sheet](https://github.com/scraly/terraform-cheat-sheet/blob/master/terraform-cheat-sheet.pdf)
@@ -525,7 +519,6 @@
 
 - [devhints.io/go: Go cheatsheet](https://devhints.io/go)
 - [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
-- [jimmysong.io/cheatsheets/go](https://jimmysong.io/cheatsheets/go)
 - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet/)
 
 ## NodeJS
