@@ -54,7 +54,6 @@
 ### API Marketplaces
 
 - [chakray.com: API Strategy. How to create an API Marketplace](https://www.chakray.com/api-strategy-how-to-create-an-api-marketplace/)
-- [rapidapi.com: What is an API Marketplace?](https://rapidapi.com/blog/api-glossary/api-marketplace/)
 - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference/)
 
 ### Rapid API Marketplace. Free Public & Open REST APIs
@@ -64,7 +63,6 @@
 
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 
-- [apis.guru/openapi-directory: large archive of sample OpenAPI descriptions](https://apis.guru/openapi-directory/)
 
 ## API Managers with API Gateways & Developer Portals
 
@@ -215,7 +213,6 @@
 - [Santander APIs](https://developerhub.santander.com/)
 - [BBVA API Market](https://www.bbvaapimarket.com/)
 - [CaixaBank API Store](https://apistore.caixabank.com/)
-- [Banco Sabadell Open API](http://docsbancosabadell.github.io/api/)
 - [Deutsche Bank API Program](https://developer.db.com/)
 - [TSB API Developer Portal](https://apis.developer.tsb.co.uk/)
 - [ING Developer Portal](https://developer.ing.com/)
@@ -232,7 +229,6 @@
 
 ## Telecom
 
-- [Ericsson](https://ericssondeveloperapi.portal.azure-api.net/)
 - [Telefonica Thinking Cities](https://thinking-cities.readthedocs.io/)
 
 ## Tweets
