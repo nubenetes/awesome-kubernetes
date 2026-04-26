@@ -1,4 +1,0 @@
-mkdocs
-mkdocs-material
-pymdown-extensions
-mkdocs-codeinclude-plugin

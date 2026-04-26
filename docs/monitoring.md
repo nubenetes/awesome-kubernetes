@@ -54,6 +54,7 @@
 ## Monitoring and Observability
 
 - [Wikipedia: Application Performance Index](https://en.wikipedia.org/wiki/Apdex)
+- [Observability vs Monitoring](https://middleware.io/blog/observability-vs-monitoring/)
 - [thenewstack.io: The Challenges of Monitoring Kubernetes and OpenShift](https://thenewstack.io/the-challenges-of-monitoring-kubernetes-and-openshift/)
 - [dzone.com: Kubernetes Monitoring: Best Practices, Methods, and Existing Solutions](https://dzone.com/articles/kubernetes-monitoring-best-practices-methods-and-e) Kubernetes handles containers in several computers, removing the complexity of handling distributed processing. But what's the best way to perform Kubernetes monitoring?
 - [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb/)

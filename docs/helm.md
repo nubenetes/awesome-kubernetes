@@ -114,6 +114,7 @@
 - [shipmight.com: Understanding Helm upgrade flags](https://shipmight.com/blog/understanding-helm-upgrade-reset-reuse-values) Every now and then you’ll need to use the `--reset-values` and `--reuse-values` flags when running a Helm upgrade. Let's dive into how they actually work and also look at a gotcha when the values of a chart have changed in-between upgrades
 - [==blog.devops.dev: Stop cloning helm charts! Enough!== 🌟](https://blog.devops.dev/stop-cloning-helm-charts-enough-b40fb5d67ac7)
 - [medium.com/kubeshop-i: Monokle, Helm & Quality Kubernetes Deployments](https://medium.com/kubeshop-i/monokle-helm-quality-kubernetes-deployments-af050fcc91db)
+- [medium.com/gquiman: K8Studio, Helm and Kubernetes management](https://medium.com/itnext/introducing-k8studio-v3-the-ultimate-kubernetes-workspace-just-got-even-better-0bc0de63642c)
 - [blog.devops.dev: Hosting Your Own Helm Chart on GitHub with Chart Releaser](https://blog.devops.dev/hosting-your-own-helm-chart-on-github-with-chart-releaser-a356ac10ce5c)
 - [faun.pub: Package and Deploy Your Application Using Helm Chart](https://faun.pub/package-and-deploy-your-application-using-helm-chart-21f0c568e65c) In this tutorial, you will learn the end-to-end process of creating a spring boot application and deploying it as a Helm chart on a minikube cluster
 - [medium.com/@badawekoo: Helm theory, demo and commands you need to know!](https://medium.com/@badawekoo/helm-theory-demo-and-commands-you-need-to-know-628777fdb0c2)
@@ -139,6 +140,7 @@
 ## Helm Plugins
 
 - [Helm Diff Plugin 🌟](https://github.com/databus23/helm-diff) A helm plugin that shows a diff explaining what a helm upgrade would change
+- [Helm Kanvas Snapshot](https://github.com/meshery/helm-kanvas-snapshot) Plugin that generates a visual snapshot of Helm charts.
 - [Helm mapkubeapis Plugin](https://github.com/helm/helm-mapkubeapis) This is a Helm plugin which map deprecated or removed Kubernetes APIs in a release to supported APIs. __With kubernetes 1.22 dropping support for more beta APIs, you might be in need of a helmpack plugin to help you with that..__
 - [medium.com/@marc.khouzam: Shell completion for plugins with Helm 3.8](https://medium.com/@marc.khouzam/shell-completion-for-plugins-with-helm-3-8-7cb001012a54) (This post is mostly targeted towards helm plugin developers)
 - [JovianX/helm-release-plugin](https://github.com/JovianX/helm-release-plugin) Helm3 plugin that pulls(re-creates) helm Charts from deployed releases, and updates values of deployed releases without the chart.
