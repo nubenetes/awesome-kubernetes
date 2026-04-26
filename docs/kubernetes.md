@@ -275,7 +275,6 @@
 - [dev.to: Kubernetes 101, part I, the fundamentals | Leandro Proença](https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1)
     - [dormoshe.io: Kubernetes 101, part I, the fundamentals | Leandro Proença](https://dormoshe.io/trending-news/kubernetes-101-part-i-the-fundamentals-23a1-60035)
 - [cncf.io: THE ILLUSTRATED CHILDREN’S GUIDE TO KUBERNETES 🌟](https://www.cncf.io/phippy/the-childrens-illustrated-guide-to-kubernetes/)
-- [dev.to/leandronsp: Kubernetes 101, part I, the fundamentals](https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1)
     - [dev.to/leandronsp: Kubernetes 101, part II, pods](https://dev.to/leandronsp/kubernetes-101-part-ii-pods-19pb)
     - [dev.to/leandronsp: Kubernetes 101, part III, controllers and self-healing](https://dev.to/leandronsp/kubernetes-101-part-iii-controllers-and-self-healing-4ki5)
     - [dev.to/leandronsp: Kubernetes 101, part IV, deployments](https://dev.to/leandronsp/kubernetes-101-part-iv-deployments-20m3)
@@ -426,7 +425,6 @@
 - [platform9.com: Kubernetes CI/CD Pipelines at Scale](https://platform9.com/blog/kubernetes-ci-cd-pipelines-at-scale/)
 - [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020)
 - [5 open source projects that make Kubernetes even better: Prometheus, Operator framework, Knative, Tekton, Kubeflow 🌟](https://enterprisersproject.com/article/2020/5/kubernetes-5-open-source-projects-improve) Open source projects bring many additional capabilities to Kubernetes, such as performance monitoring, developer tools, serverless capabilities, and CI/CD workflows. Check out these five widely used options
-- [4 trends for Kubernetes cloud-native teams to watch in 2020](https://searchapparchitecture.techtarget.com/tip/4-trends-for-Kubernetes-cloud-native-teams-to-watch-in-2020) Today's software architectural landscape seems to change like the weather. Stay ahead of the curve with these cloud-related trends, including GitOps and service meshes.
 - [Creating a Kubernetes cloud provider, doesn't required boiling the ocean](https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean/)
 - [opensource.com: 5 ways to boost your Kubernetes knowledge](https://opensource.com/article/20/6/kubernetes-anniversary)
 - [blog.container-solutions.com: 7 Cloud Native Trends to Watch in 2020](https://blog.container-solutions.com/7-cloud-native-trends-to-watch-in-2020)
@@ -541,7 +539,6 @@
 - [infracloud.io: Avoiding Kubernetes Cluster Outages with Synthetic Monitoring](https://www.infracloud.io/blogs/avoiding-kubernetes-cluster-outages-synthetic-monitoring/) Synthetic monitoring consists of pre-defined checks to proactively monitor the critical elements in your infrastructure. These checks simulate the functionality of the elements. We can also simulate the communication between the elements to ensure end-to-end connectivity. Continuous monitoring of these checks also helps to measure overall performance in terms of availability and response times.
 - [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?](https://www.talos-systems.com/blog/is-vanilla-kubernetes-really-too-heavy-for-the-raspberry-pi/)
 - [towardsdatascience.com: Kubernetes 101: Cluster Architecture](https://towardsdatascience.com/kubernetes-101-cluster-architecture-d79995785563) They say a picture is worth a thousand (or a million) words
-- [blog.kintone.io: Tolerating failures in container image registries 🌟](https://blog.kintone.io/entry/neco-registry)
 - [thenucleargeeks.com: Taints and Tolerations in Kubernetes](https://thenucleargeeks.com/2021/06/26/taints-and-tolerations-in-kubernetes-edit/)
 - [humanitec.com: Benchmark your Kubernetes setup against 500+ other teams and find out how well (or not) you are doing](https://humanitec.com/kubernetes-team-setup-test)
 - [devopshubproject/cka-lab](https://github.com/devopshubproject/cka-lab) This repo contains set of practice questions which will help you to get ready for the cka exam.
@@ -605,7 +602,6 @@
 - [learnk8s.io: Kubernetes wallpapers](https://learnk8s.io/kubernetes-wallpapers) A collection of free Kubernetes wallpapers for your computer.
 - [youtube: Tinder's Move to Kubernetes - Chris O'Brien & Chris Thomas, Tinder](https://www.youtube.com/watch?app=desktop&v=o3WXPXDuCSU)
 - [medium: How to enable Kubernetes container RuntimeDefault seccomp profile for all workloads](https://medium.com/@LachlanEvenson/how-to-enable-kubernetes-container-runtimedefault-seccomp-profile-for-all-workloads-6795624fcbcc)
-- [doordash.engineering: Gradual Code Releases Using an In-House Kubernetes Canary Controller](https://doordash.engineering/2021/04/14/gradual-code-releases-using-an-in-house-kubernetes-canary-controller/)
 - [infoq.com: Six Tips for Running Scalable Workloads on Kubernetes](https://www.infoq.com/articles/tips-running-scalable-workloads-kubernetes/)
 - [Assess managed Kubernetes services for your workloads.](https://searchcloudcomputing.techtarget.com/tip/Weigh-the-pros-and-cons-of-managed-Kubernetes-services) Managed services from cloud providers can simplify Kubernetes deployment but create some snags in a multi-cloud model. Follow three steps to see if these services can benefit you.
 - [itnext.io: Evolution of PaaSes to Platform-as-Code in Kubernetes world](https://itnext.io/evolution-of-paases-to-platform-as-code-in-kubernetes-world-74464b0013ca)
@@ -680,7 +676,6 @@
 - [imoisharma.medium.com: How Leader election works in Kubernetes— By M. Sharma](https://imoisharma.medium.com/how-leader-election-works-in-kubernetes-by-m-sharma-635d213b3fd1) In this post, you'll learn how you can use Kubernetes to easily perform leader elections in your distributed application
 - [howtogeek.com: How to Clean Up Old Containers and Images in Your Kubernetes Cluster](https://www.howtogeek.com/devops/how-to-clean-up-old-containers-and-images-in-your-kubernetes-cluster/) An active Kubernetes cluster can accumulate old containers and images. Ensuring discarded resources are removed when redundant helps to free up resources on your cluster’s nodes. Here’s how to approach garbage collection in Kubernetes
 - [medium.com/blablacar: Operating Node.js in Kubernetes at scale at BlaBlaCar](https://medium.com/blablacar/operating-node-js-in-kubernetes-at-scale-at-blablacar-3afb6d5d4299) In this case study, you will learn how BlaBlaCar uses CPU and memory metrics and other Kubernetes features to configure scaling for Node.js apps
-- [infoworld.com: How to beat the Kubernetes skills shortage](https://www.infoworld.com/article/3679749/how-to-beat-the-kubernetes-skills-shortage.html) While Kubernetes container management is key to digital transformation, Kubernetes talent is in short supply. Follow these 4 strategies of successful companies to fill the gap.
 - [blog.kubesimplify.com: DIY: How To Build A Kubernetes Policy Engine](https://blog.kubesimplify.com/diy-how-to-build-a-kubernetes-policy-engine) With the help of Kubernetes Admission Controller, Go, cert-manager and ko!
 - [==faun.pub: Git Clone using Init-container | Kubernetes==](https://faun.pub/git-clone-using-init-container-kubernetes-b49535be6968)
 - [itnext.io: K8s Tips: Accessing the API Server From a Pod](https://itnext.io/k8s-tips-accessing-the-api-server-from-a-pod-f6f72bc847de) Don’t let this happen unless it is really necessary
@@ -793,11 +788,9 @@
 - [Discovering Running Pods By Using DNS and Headless Services in Kubernetes](https://medium.com/swlh/discovering-running-pods-by-using-dns-and-headless-services-in-kubernetes-7002a50747f4) When retrieving all service’s connected pods is desired
 - [Kubernetes Tip: What Happens To Pods Running On Node That Become Unreachable?](https://medium.com/tailwinds-navigator/kubernetes-tip-what-happens-to-pods-running-on-node-that-become-unreachable-3d409f734e5d)
 - [medium: Kubernetes Pod Redundancy Strategies](https://medium.com/better-programming/kubernetes-pod-redundancy-strategies-a6d9b560749a)
-- [medium: Discovering Running Pods By Using DNS and Headless Services in Kubernetes 🌟](https://medium.com/swlh/discovering-running-pods-by-using-dns-and-headless-services-in-kubernetes-7002a50747f4) When retrieving all service’s connected pods is desired.
 - [iximiuz.com: Service proxy, pod, sidecar, oh my!](https://iximiuz.com/en/posts/service-proxy-pod-sidecar-oh-my/)
 - [linuxadvise.com: Kubernetes Static Pods](https://www.linuxadvise.com/post/kubernetes-static-pods)
 - [linuxadvise.com: Kubernetes Pod Security Policy](https://www.linuxadvise.com/post/kubernetes-pod-security-policy)
-- [medium: Discovering Running Pods By Using DNS and Headless Services in Kubernetes](https://medium.com/swlh/discovering-running-pods-by-using-dns-and-headless-services-in-kubernetes-7002a50747f4)
 - [medium: Notes on Graceful Shutdown in Kubernetes 🌟](https://medium.com/@pleasingsmoke/graceful-shutdown-of-pods-in-kubernetes-6da5588b5356)
 - [didil.medium.com: Building a Kubernetes Mutating Admission Webhook](https://didil.medium.com/building-a-kubernetes-mutating-admission-webhook-7e48729523ed) A “magic” way to inject a file into Pod Containers
 - [thenucleargeeks.com: Introduction to Kubernetes Pods](https://thenucleargeeks.com/2021/03/22/introduction-to-pods-in-kubernetes/)
@@ -974,7 +967,6 @@
 - [k21academy.com: Kubernetes Deployment and Step-by-Step Guide to Deployment: Update, Rollback, Scale & Delete](https://k21academy.com/docker-kubernetes/kubernetes-deployment/)
 - [medium: Kubernetes Deployment: Connect Your Front End to Your Back End With Nginx](https://medium.com/better-programming/kubernetes-deployment-connect-your-front-end-to-your-back-end-with-nginx-7e4e7cfef177)
 - [sbg.technology: Zero-Downtime Kubernetes Deployments](https://sbg.technology/2020/08/21/zero-downtime-kubernetes-deployments/)
-- [Zero-Downtime Kubernetes Deployments](https://sbg.technology/2020/08/21/zero-downtime-kubernetes-deployments)
 - [mirantis.com: Introduction to YAML: Creating a Kubernetes deployment](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment)
 - [medium: Kubernetes Deployment Explained](https://medium.com/geekculture/kubernetes-deployment-explained-9b2b89dd3977) Learn what is Deployment in the Kubernetes cluster and learn the advantages of the Deployment object.
 - [redhat.com: 10 considerations for Kubernetes deployments - Checklist](https://www.redhat.com/en/engage/considerations-kubernetes-deployments-s-202001101221)
@@ -1075,7 +1067,6 @@
 - [medium.com: Kubernetes Canary Deployment #1 Gitlab CI](https://medium.com/@wuestkamp/kubernetes-canary-deployment-1-gitlab-ci-518f9fdaa7ed)
 - [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes](https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes)
 - [medium: Fully automated canary deployments in Kubernetes](https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273)
-- [auth0.com: Deployment Strategies In Kubernetes](https://auth0.com/blog/deployment-strategies-in-kubernetes/) Learn what are the different deployment strategies available in Kubernetes and how to use them.
 - [blog.knoldus.com: Introduction to Kubernetes Deployment Strategies](https://blog.knoldus.com/introduction-to-kubernetes-deployment-strategies/)
     - [blog.knoldus.com: Introduction to Kubernetes Deployment Strategies – Part 2](https://blog.knoldus.com/introduction-to-kubernetes-deployment-strategies-part-2/)
     - [medium.com/@knoldus: Introduction to Kubernetes Deployment Strategies — Part 3](https://medium.com/@knoldus/introduction-to-kubernetes-deployment-strategies-part-3-5037a6b4d6aa)
@@ -1135,7 +1126,6 @@
 - [loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls](https://loft.sh/blog/kubernetes-readiness-probes-examples-common-pitfalls/)
 - [millionvisit.blogspot.com: Kubernetes for Developers #12: Effective way of using K8 Liveness Probe](http://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-12-effective-way-of-using-k8-liveness-probe.html)
 - [millionvisit.blogspot.com: Kubernetes for Developers #13: Effective way of using K8 Readiness Probe](http://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-13-effective-way-of-using-k8-readiness-probe.html)
-- [andrewlock.net: Deploying ASP.NET Core applications to Kubernetes - Part 6 - Adding health checks with Liveness, Readiness, and Startup probes](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-6-adding-health-checks-with-liveness-readiness-and-startup-probes/)
 - [itnext.io: Kubernetes Probes: Startup, Liveness, Readiness](https://itnext.io/kubernetes-probes-startup-liveness-readiness-a9fc9ccff4b2)
 - [itnext.io: Kubernetes Readiness Probes — Examples & Common Pitfalls](https://itnext.io/kubernetes-readiness-probes-examples-common-pitfalls-136e3a9a058d)
 - [youtube: Kubernetes 101: Get Better Uptime with K8s Health Checks](https://www.youtube.com/watch?v=D9w3DH1zAc8)
@@ -1201,7 +1191,6 @@
     - Set Resource Quotas for each namespace;
     - Set LimitRanges for each namespace;
     - Enforce rations between requests and limits
-- [faun.pub: Optimize Kubernetes Resource Management with Time-To-Live (TTL) for Cleaner Cluster](https://faun.pub/optimize-kubernetes-resource-management-with-time-to-live-ttl-for-cleaner-cluster-ea1c6e0c1e73) Streamline Kubernetes Resource Management: Learn How to Use Time-To-Live (TTL) to Keep Your Cluster Clean and Optimized
 - [==itnext.io: Memory Request + Limit in Kubernetes | Daniele Polencic== 🌟🌟](https://itnext.io/memory-requests-and-limits-in-kubernetes-1c9cd573b3ab) - - [community.ops.io: Memory requests and limits in Kubernetes | Daniele Polencic](https://community.ops.io/danielepolencic/memory-requests-and-limits-in-kubernetes-217g)
     - In Kubernetes, you have 2 ways to specify how much memory a pod can use:
         - Requests — usually set to the process consumption
@@ -1224,8 +1213,6 @@
 - [ardanlabs.com: Kubernetes CPU Limits and Go](https://www.ardanlabs.com/blog/2024/02/kubernetes-cpu-limits-go.html)
 - [medium.com/nordnet-tech: Unlocking Kubernetes Performance with no CPU Resource Limits](https://medium.com/nordnet-tech/unlocking-kubernetes-performance-with-no-cpu-resource-limits-56d5dc33037b) This article dives into requests & limits and argues that CPU limits are only for preventing the use of CPU leftovers, not to prevent noisy neighbours or to protect your nodes from overallocation
 - [medium.com/@danielepolencic: Challenge 16: Throttled 🌟](https://medium.com/@danielepolencic/challenge-16-throttled-93133f8fd0ad) **CPU limits in Kubernetes are not always obvious and can lead to a spike in latency. To understand why, it’s important to remember how they work.** There are two popular articles about (not) setting CPU limits:
-    - [home.robusta.dev: For the Love of God, Stop Using CPU Limits on Kubernetes (Updated)](https://home.robusta.dev/blog/stop-using-cpu-limits)
-    - [dnastacio.medium.com: Why You Should Keep Using CPU Limits on Kubernetes](https://dnastacio.medium.com/why-you-should-keep-using-cpu-limits-on-kubernetes-60c4e50dfc61) Or why staying away from unused CPU may be good for your containers
 - [medium.com/@frommeyerc: Containers and the JVM: About CFS and how to deal with it](https://medium.com/@frommeyerc/containers-and-the-jvm-about-cfs-and-how-to-deal-with-it-805883b72a87) This article explores the interaction between containers, the JVM, and the CFS scheduler in the Linux Kernel. It explains how CPU time is allocated, the impact of CPU requests and limits in Kubernetes, and the consequences of throttling.
 - [lalatron.hashnode.dev: When Kubernetes and Go don't work well together 🌟](https://lalatron.hashnode.dev/when-kubernetes-and-go-dont-work-well-together) **Go is not aware of the limits set for its container, causing some issues not easy to track. This is a story about how I stumbled into one of them.** This article discusses an issue in which a pod was repeatedly restarted due to an OOM error. The problem stemmed from Go's garbage collector not being aware of the container's memory limits, which caused memory allocation to exceed these limits.
 - [==foxutech.com: Kubernetes Namespace Resource Quota and Limits== 🌟](https://foxutech.com/kubernetes-namespace-resource-quota-and-limits/) - [youtube](https://www.youtube.com/watch?v=iADfzLI3qDI&t=320s)
@@ -1263,7 +1250,6 @@
 - [medium: Getting Started with Kubernetes etcd](https://medium.com/@Alibaba_Cloud/getting-started-with-kubernetes-etcd-a26cba0b4258)
 - [sysdig.com: How to monitor etcd](https://sysdig.com/blog/monitor-etcd/) Learning how to monitor etcd is of vital importance when running Kubernetes in production. Monitoring etcd will let you validate that things work as expected, while detecting and troubleshooting issues that could take your entire infrastructure down.
 - [learnk8s.io: How etcd works with and without Kubernetes](https://learnk8s.io/etcd-kubernetes)
-- [itnext.io: Breaking down and fixing etcd cluster](https://itnext.io/breaking-down-and-fixing-etcd-cluster-d81e35b9260d)
 - [medium: ETCD - the Easy Way | Vaibhav Rajput](https://medium.com/nerd-for-tech/etcd-the-easy-way-4c01e243f285) This is a guide which will help you get started with etcd and help you understand how it is used in a kubernetes setup.
 - [derganodr.medium.com: Rearchitecting Kubernetes for a more resilient Container Orchestration](https://derganodr.medium.com/rearchitecting-kubernetes-for-a-more-resilient-container-orchestration-c54cef3aeef9) In large etcd clusters, the throughput decreases and the latency increases when there are writes to the database. This also affects Kubernetes since ~30% of all usage of etcd is writing values. This paper describes the issue and offers some workarounds.
 - [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-etcd-clusters) Securing etcd clusters. Access to etcd is equivalent to root permission in the cluster so ideally only the API server should have access to it. It is recommended to grant permission to only those nodes that require access to etcd clusters.
@@ -1293,7 +1279,6 @@
 - [blog.pipetail.io: 10 most common mistakes using kubernetes](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
 - [**Optimize** Kubernetes cluster management with these 5 tips](https://searchitoperations.techtarget.com/feature/Optimize-Kubernetes-cluster-management-with-these-5-tips) Effective Kubernetes cluster management requires operations teams to balance pod and node deployments with performance and availability needs.
 - [techradar.com: Three tips to implement Kubernetes with open standards](https://www.techradar.com/news/three-tips-to-implement-kubernetes-with-open-standards)
-- [10 most common mistakes when using Kubernetes](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
     - resources - requests and limits
     - liveness and readiness probes
     - LoadBalancer for every http service
@@ -1347,7 +1332,6 @@
 - [cncf.io: Kubernetes best practice: How to (correctly) set resource requests and limits](https://www.cncf.io/blog/2022/10/20/kubernetes-best-practice-how-to-correctly-set-resource-requests-and-limits/)
     - [fairwinds.com: Kubernetes Best Practice: How to (Correctly) Set Resource Requests and Limits](https://www.fairwinds.com/blog/how-to-correctly-set-resource-requests-and-limits)
 - [medium.com/@krishnendupatra: Best practices to achieve Zero downtime on Kubernetes deployments](https://medium.com/@krishnendupatra/best-practices-to-achieve-zero-downtime-on-kubernetes-deployments-438f15cd811e)
-- [==levelup.gitconnected.com: How to guess the right size for your Kubernetes Pods?==](https://levelup.gitconnected.com/how-to-guess-the-right-size-for-your-kubernetes-pods-9c88686fec) Guessing the right size for your Kubernetes resources and FinOps management using Goldilocks
 - [==itnext.io: Integrating Compliance for Kubernetes Pipeline==](https://itnext.io/integrating-compliance-for-kubernetes-pipeline-c538415401c5) Security should be at the heart when designing and developing complex and advanced systems targeted at end-users or giant firms. The most efficient way for build a complex application or system is by using microservices and Kubernetes as a containerized deployment engine. As developers and architects, it is our responsibility to make sure we have the best and most secure products and applications to deliver by avoiding any weak points that can be a security threat or a vulnerability to the whole ecosystem. This post provides the best practices to keep in mind when building containerized applications in a CI/CD pipeline.
 - [medium.com/saas-infra: Stabilize Kubernetes MicroServices — The Right Resources Settings](https://medium.com/saas-infra/stabilize-your-kubernetes-microservices-with-the-correct-resources-settings-2071fa11495d)
 - [techbeacon.com: 5 Best Practices for Deploying Kubernetes](https://techbeacon.com/enterprise-it/5-best-practices-deploying-kubernetes)
@@ -1527,7 +1511,6 @@ will dive into the details of how they work
 #### Kubernetes SIG's Repos
 
 - [Kubernetes SIGs](https://github.com/kubernetes-sigs) Org for Kubernetes SIG-related work.
-- [ExternalDNS: Configure external DNS servers (AWS Route53, Google CloudDNS and others) for Kubernetes Ingresses and Services](https://github.com/kubernetes-sigs/external-dns)
 - [Kubernetes-Secrets-Store-CSI-Driver: Secrets Store CSI driver for Kubernetes secrets](https://github.com/kubernetes-sigs/secrets-store-csi-driver) Integrates secrets stores with Kubernetes via a CSI volume.
 - [kustomize](https://github.com/kubernetes-sigs/kustomize) Customization of kubernetes YAML configurations.
 
@@ -1549,7 +1532,6 @@ will dive into the details of how they work
 - [martinheinz.dev: Making Kubernetes Operations Easy with kubectl Plugins](https://martinheinz.dev/blog/58)
 - [kei6u/kubectl-secret-data](https://github.com/kei6u/kubectl-secret-data) A kubectl plugin for finding decoded secret data with productive search flags.
 - [medium: Cool Kubernetes command line plugins](https://medium.com/nontechcompany/cool-kubernetes-command-line-plugins-4b0e50362426)
-- [martinheinz.dev: Making Kubernetes Operations Easy with kubectl Plugins](https://martinheinz.dev/blog/58)
 - [github.com/sigstore: k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) kubectl plugin for signing Kubernetes manifest YAML files with sigstore
 - [kubespy](https://github.com/huazhihao/kubespy) pod debugging tool for kubernetes clusters with docker runtimes
     - [faun.pub: Spying on Kubernetes Pods with kubespy](https://faun.pub/spying-on-kubernetes-pods-with-kubespy-3043a3ed044b)
@@ -1593,7 +1575,6 @@ will dive into the details of how they work
 - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)
 - [developers.redhat.com: Top 10 must-know Kubernetes design patterns](https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/)
 - [medium: 10 Anti-Patterns for Kubernetes Deployments](https://medium.com/better-programming/10-antipatterns-for-kubernetes-deployments-e97ce1199f2d) Common practices in Kubernetes deployments that have better solutions
-- [learnsteps.com: How Kubernetes works on reconciler pattern](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern/)
 - [learncloudnative.com: Sidecar Container Pattern](https://www.learncloudnative.com/blog/2020-09-30-sidecar-container/)
 - [towardsdatascience.com: Kubernetes pattern for applications with external environment configuration](https://towardsdatascience.com/kubernetes-pattern-for-applications-with-external-environment-configuration-a42d7bdd7e97) Learn how to decouple configuration from the application using git-sync, Kubernetes init-containers, ConfigMaps and volumes.
 - [codefresh.io: Kubernetes Deployment Antipatterns – part 1](https://codefresh.io/blog/kubernetes-antipatterns-1/)
@@ -1605,7 +1586,6 @@ will dive into the details of how they work
 - [learnk8s.io: Extending applications on Kubernetes with multi-container pods](https://learnk8s.io/sidecar-containers-patterns) Can you change an application without changing any code in Kubernetes? You can when you use multiple containers in a single Pod. Developing and deploying new apps in Kubernetes is easy. But what about legacy apps? In Kubernetes, you can use multiple containers in a Pod to change how your application works.
 - [dev.to: Kubernetes Deployment Antipatterns – part 1](https://dev.to/codefreshio/kubernetes-deployment-antipatterns-part-1-2116)
 - [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern/)
-- [developers.redhat.com: Kubernetes configuration patterns, Part 1: Patterns for Kubernetes primitives](https://developers.redhat.com/blog/2021/04/28/kubernetes-configuration-patterns-part-1-patterns-for-kubernetes-primitives)
 - [betterprogramming.pub: 10 Anti-Patterns for Kubernetes Deployments](https://betterprogramming.pub/10-antipatterns-for-kubernetes-deployments-e97ce1199f2d) Common practices in Kubernetes deployments that have better solutions
 - [medium: Kubernetes — Learn Init Container Pattern](https://medium.com/bb-tutorials-and-thoughts/kubernetes-learn-init-container-pattern-7a757742de6b) Understanding Init Container Pattern With an Example Project.
 - [weave.works: Tools for Automating and Implementing Cloud Native Patterns](https://www.weave.works/blog/tools-for-automating-and-implementing-cloud-native-patterns)
@@ -1622,7 +1602,6 @@ will dive into the details of how they work
 - [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling/)
 - [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/profiles/)
 - [granulate.io: A Deep Dive into Kubernetes Scheduling](https://granulate.io/a-deep-dive-into-kubernetes-scheduling/)
-- [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1)
 
 ### Assigning Pods to Nodes. NodeSelector, Pod Affinity and Anti-Affinity
 
@@ -1657,7 +1636,6 @@ will dive into the details of how they work
 - [AWS: Introducing CDK for Kubernetes](https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes/)
 - Traditionally, Kubernetes applications are defined with human-readable, static YAML data files which developers write and maintain. Building new applications requires writing a good amount of boilerplate config, copying code from other projects, and applying manual tweaks and customizations. As applications evolve and teams grow, these YAML files become harder to manage. Sharing best practices or making updates involves manual changes and complex migrations.
 - YAML is an excellent format for describing the desired state of your cluster, but it is does not have primitives for expressing logic and reusable abstractions. There are [multiple tools](https://github.com/ramitsurana/awesome-kubernetes#configuration) in the Kubernetes ecosystem which attempt to address these gaps in various ways:
-    - [kustomize](https://github.com/kubernetes-sigs/kustomize) Customization of kubernetes YAML configurations
     - [jsonnet data templating language](https://github.com/google/jsonnet/tree/master/case_studies/kubernetes)
         - [jsonnet.org](https://jsonnet.org/)
     - [jkcfg](https://github.com/jkcfg/jk) Configuration as Code with ECMAScript
