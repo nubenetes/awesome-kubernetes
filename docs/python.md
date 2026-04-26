@@ -305,7 +305,6 @@
 - [TaskBuster Django Tutorial, made with Django 1.8 and Python 3](http://www.marinamele.com/taskbuster-django-tutorial)
 - [TDD with Django, from scratch: a beginner's intro to testing and web development](http://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro)
 - [Cómo crear un servicio REST en 30 líneas de código de Django y Python](http://www.genbetadev.com/desarrolloparastartups/como-crear-un-servicio-rest-en-30-lineas-de-codigo-de-django-y-python)
-- [Django Development With Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
 - [Installing and Configuring Django Web Framework with Virtual Environments in CentOS/Debian](http://www.tecmint.com/install-and-configure-django-web-framework-in-centos-debian-ubuntu/)
 - [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/) A Cookiecutter template for creating production-ready Django projects quickly.
 - [github.com: Django app + RESTful API for automatic billing](https://github.com/presslabs/silver/)
