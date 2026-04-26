@@ -7,7 +7,6 @@
 - [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) A lesson on how to install Kubernetes in Docker KinD and Minikube.
 - [Ubuntu on WSL 2 Is Generally Available 🌟](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available)
 - [Microsoft Makes it Easier to Install WSL on Windows 10 🌟](https://www.omgubuntu.co.uk/2020/06/microsoft-wsl-install-command) ```wsl.exe --install```
-- [kubernetes.io - WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/)
 - [9elements.com: Developing on Windows with WSL2](https://9elements.com/blog/developing-a-week-on-windows-with-wsl2/)
 - [Docker Desktop & WSL 2 – Backport Update](https://www.docker.com/blog/docker-desktop-wsl-2-backport-update/) Docker Desktop Edge users will be able to use Docker Desktop with WSL 2 rather than our legacy HyperV based backend. This is available not only for Windows Pro and Windows Enterprise, but also for Windows Home users.  
 - [itnext.io: WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
