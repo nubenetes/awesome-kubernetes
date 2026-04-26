@@ -114,7 +114,6 @@
 
 ## No code tools
 
-- [makerpad.co: The top 15 no-code tools and apps (2021)](https://www.makerpad.co/blog/the-top-15-no-code-tools-and-apps-2021)
 
 ## Images
 
