@@ -48,7 +48,6 @@
 
 - [==@ramitsurana' Awesome Kubernetes==](https://ramitsurana.github.io/awesome-kubernetes/)
 - [==tomhuang12: Awesome Kubernetes Resources==](https://github.com/tomhuang12/awesome-k8s-resources)
-- [==@sindresorhus' Awesome Kubernetes==](https://github.com/sindresorhus/awesome)
 - [@jk8s' Awesome Kubernetes](https://github.com/jk8s/awesome-kubernetes)
 - [Awesome kubetools](http://dockerlabs.collabnix.com/kubernetes/kubetools/) Curated List of Kubernetes Tools - [==kubetools== 🌟](https://collabnix.github.io/kubetools/) - [github.com/collabnix/kubetools](https://github.com/collabnix/kubetools)
 - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools/)
@@ -59,7 +58,6 @@
 - [==diegolnasc/kubernetes-best-practices== 🌟](https://github.com/diegolnasc/kubernetes-best-practices) A cookbook with the best practices to working with kubernetes.
 - [unofficial-kubernetes.readthedocs.io](https://unofficial-kubernetes.readthedocs.io/)
 - [run-x/awesome-kubernetes](https://github.com/run-x/awesome-kubernetes)
-- [k8s-at-home/awesome-home-kubernetes: Awesome Home Kubernetes 🌟](https://github.com/k8s-at-home/awesome-home-kubernetes) Awesome projects involving running Kubernetes at home
 - [clusterpedia-io/clusterpedia 🌟](https://github.com/clusterpedia-io/clusterpedia) The Encyclopedia of Kubernetes clusters. Clusterpedia is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources.
     - https://clusterpedia.io
 - [==mikeroyal/Kubernetes-Guide: Kubernetes Guide== 🌟](https://github.com/mikeroyal/Kubernetes-Guide) A guide covering Kubernetes including the applications and tools that will make you a better and more efficient Kubernetes developer.
@@ -136,7 +134,6 @@
 ### DevSecOps
 
 - [==sottlmarek/DevSecOps: Ultimate DevSecOps library== 🌟](https://github.com/sottlmarek/DevSecOps)
-    - [==sottlmarek/DevSecOps - kubernetes==](https://github.com/sottlmarek/DevSecOps#kubernetes)
 - [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) Collection and Roadmap for everyone who wants DevSecOps
 
 ### GitOps
@@ -150,7 +147,6 @@
 - [SquadcastHub/awesome-sre-tools](https://github.com/SquadcastHub/awesome-sre-tools)
 - [mancubus77/awesome-sre](https://github.com/mancubus77/awesome-sre)
 - [awesome-sre/awesome-sre](https://github.com/awesome-sre/awesome-sre)
-- [upgundecha/howtheysre 🌟](https://github.com/upgundecha/howtheysre) A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
 
 ### OpenShift
 
@@ -279,7 +275,6 @@
 ## Open Source Alternatives
 
 - [opensource.builders](https://opensource.builders/)
-- [free-for.dev](https://free-for.dev/)
 
 ## Kubectl Plugins
 
