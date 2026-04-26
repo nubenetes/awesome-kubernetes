@@ -23,7 +23,6 @@
 - A Docker registry is a place to store and distribute Docker images.
 - It serves as a target for your docker push and docker pull commands.
 - [Dzone refcard: Using Repository Managers](https://dzone.com/refcardz/binary-repository-management) The Best Way to Organize, Store, and Distribute Software Components
-- [Dzone Refcard: Binary Repository Management](https://dzone.com/refcardz/binary-repository-management)
 
 ## OpenShift Registry
 
@@ -82,7 +81,6 @@
 
 ### SSL/TLS Certificates
 
-- [guides.sonatype.com: secure docker registries](https://guides.sonatype.com/repo3/technical-guides/secure-docker-registries/)
 - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)
 - [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/repomanager3/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
 - [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
@@ -146,4 +144,3 @@
 
 - [uber/kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds
 - [medium.com/swlh: Deploy Your Private Docker Registry as a Pod in Kubernetes](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180) In this tutorial, you'll deploy a TLS-enabled Private Docker Registry as a Pod. This will help you to push your custom-built images to the registry, which later can be pulled by any of the worker nodes.
-
